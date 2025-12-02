@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/BatchID.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchID_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchID.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchID::*)()>(&::UnityEngine::Rendering::BatchID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca820;
+  constexpr static std::size_t addrs = 0x68f6274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::System::Object*)>(&::UnityEngine::Rendering::BatchID::Equals)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x48ca828;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x68f627c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchID::*)(::UnityEngine::Rendering::BatchID)>(
     &::UnityEngine::Rendering::BatchID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48ca8d0;
+  constexpr static std::size_t addrs = 0x68f632c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -57,10 +57,10 @@ public:
   constexpr RuntimeStructs_RemoteClass();
 
   // Ctor Parameters [CppParam { name: "default_vtable", ty: "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "xdomain_vtable", ty: "::System::IntPtr", modifiers: "", def_value:
-  // None }, CppParam { name: "proxy_class", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty:
-  // "::System::IntPtr", modifiers: "", def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
-  constexpr RuntimeStructs_RemoteClass(::System::IntPtr default_vtable, ::System::IntPtr xdomain_vtable, ::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> proxy_class,
-                                       ::System::IntPtr proxy_class_name, uint32_t interface_count) noexcept;
+  // None }, CppParam { name: "proxy_class", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }, CppParam { name: "proxy_class_name", ty: "::System::IntPtr", modifiers: "",
+  // def_value: None }, CppParam { name: "interface_count", ty: "uint32_t", modifiers: "", def_value: None }]
+  constexpr RuntimeStructs_RemoteClass(::System::IntPtr default_vtable, ::System::IntPtr xdomain_vtable, ::Mono::RuntimeStructs_MonoClass* proxy_class, ::System::IntPtr proxy_class_name,
+                                       uint32_t interface_count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2235 };
@@ -75,7 +75,7 @@ public:
   ::System::IntPtr xdomain_vtable;
 
   /// @brief Field proxy_class, offset: 0x10, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> proxy_class;
+  ::Mono::RuntimeStructs_MonoClass* proxy_class;
 
   /// @brief Field proxy_class_name, offset: 0x18, size: 0x8, def value: None
   ::System::IntPtr proxy_class_name;
@@ -138,11 +138,10 @@ public:
   // @brief default ctor
   constexpr RuntimeStructs_GenericParamInfo();
 
-  // Ctor Parameters [CppParam { name: "pklass", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::System::IntPtr",
-  // modifiers: "", def_value: None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "constraints", ty: "::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>>", modifiers: "", def_value: None }]
-  constexpr RuntimeStructs_GenericParamInfo(::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> pklass, ::System::IntPtr name, uint16_t flags, uint32_t token,
-                                            ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>> constraints) noexcept;
+  // Ctor Parameters [CppParam { name: "pklass", ty: "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }, CppParam { name: "name", ty: "::System::IntPtr", modifiers: "", def_value:
+  // None }, CppParam { name: "flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "token", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "constraints", ty:
+  // "::Mono::RuntimeStructs_MonoClass*", modifiers: "", def_value: None }]
+  constexpr RuntimeStructs_GenericParamInfo(::Mono::RuntimeStructs_MonoClass* pklass, ::System::IntPtr name, uint16_t flags, uint32_t token, ::Mono::RuntimeStructs_MonoClass* constraints) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2237 };
@@ -151,7 +150,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field pklass, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass> pklass;
+  ::Mono::RuntimeStructs_MonoClass* pklass;
 
   /// @brief Field name, offset: 0x8, size: 0x8, def value: None
   ::System::IntPtr name;
@@ -163,7 +162,7 @@ public:
   uint32_t token;
 
   /// @brief Field constraints, offset: 0x18, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::cordl_internals::Ptr<::Mono::RuntimeStructs_MonoClass>> constraints;
+  ::Mono::RuntimeStructs_MonoClass* constraints;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -192,9 +191,8 @@ public:
   // @brief default ctor
   constexpr RuntimeStructs_GPtrArray();
 
-  // Ctor Parameters [CppParam { name: "data", ty: "::cordl_internals::Ptr<::System::IntPtr>", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None
-  // }]
-  constexpr RuntimeStructs_GPtrArray(::cordl_internals::Ptr<::System::IntPtr> data, int32_t len) noexcept;
+  // Ctor Parameters [CppParam { name: "data", ty: "::System::IntPtr*", modifiers: "", def_value: None }, CppParam { name: "len", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr RuntimeStructs_GPtrArray(::System::IntPtr* data, int32_t len) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2238 };
@@ -203,7 +201,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field data, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::System::IntPtr> data;
+  ::System::IntPtr* data;
 
   /// @brief Field len, offset: 0x8, size: 0x4, def value: None
   int32_t len;

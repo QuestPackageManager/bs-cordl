@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7fbdc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc721c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,14 +24,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (
     ::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)()>(&::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetNetSyncVoipAttenuationValueList)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7fc34;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc7278;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 50));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 52));
     return ___internal_method;
   }
 };
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* (
     ::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7fc70;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5bc72bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -60,13 +60,13 @@ inline void Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::_ctor(
 inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetNetSyncVoipAttenuationValueList() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 50)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 52)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList*, false>(this, ___internal_method);
 }
 inline ::Oculus::Platform::Models::NetSyncVoipAttenuationValueList* Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::GetDataFromMessage(::System::IntPtr c_message) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 72)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::NetSyncVoipAttenuationValueList*, false>(this, ___internal_method, c_message);
 }
 inline ::Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList* Oculus::Platform::MessageWithNetSyncVoipAttenuationValueList::New_ctor(::System::IntPtr c_message) {

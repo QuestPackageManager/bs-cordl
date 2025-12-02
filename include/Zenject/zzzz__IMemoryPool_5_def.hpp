@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 CORDL_MODULE_EXPORT(IMemoryPool_5)
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+class IMemoryPool;
+}
 // Forward declare root types
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue> class IMemoryPool_5;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IMemoryPool_5);
-// Dependencies Zenject.IDespawnableMemoryPool`1<TValue>, Zenject.IMemoryPool
+// Dependencies
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
@@ -41,7 +45,7 @@ public:
   IMemoryPool_5(IMemoryPool_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14356 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,6 +31,9 @@ public:
   /// @brief Field DisplayName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_DisplayName, put = __cordl_internal_set_DisplayName)) ::StringW DisplayName;
 
+  /// @brief Field ShareableUri, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get_ShareableUri, put = __cordl_internal_set_ShareableUri)) ::StringW ShareableUri;
+
   static inline ::Oculus::Platform::Models::Destination* New_ctor(::System::IntPtr o);
 
   constexpr ::StringW const& __cordl_internal_get_ApiName() const;
@@ -45,13 +48,19 @@ public:
 
   constexpr ::StringW& __cordl_internal_get_DisplayName();
 
+  constexpr ::StringW const& __cordl_internal_get_ShareableUri() const;
+
+  constexpr ::StringW& __cordl_internal_get_ShareableUri();
+
   constexpr void __cordl_internal_set_ApiName(::StringW value);
 
   constexpr void __cordl_internal_set_DeeplinkMessage(::StringW value);
 
   constexpr void __cordl_internal_set_DisplayName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3f8f474, size 0x98, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_ShareableUri(::StringW value);
+
+  /// @brief Method .ctor, addr 0x5bda640, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -69,7 +78,7 @@ public:
   Destination(Destination const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17994 };
 
   /// @brief Field ApiName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___ApiName;
@@ -80,6 +89,9 @@ public:
   /// @brief Field DisplayName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___DisplayName;
 
+  /// @brief Field ShareableUri, offset: 0x28, size: 0x8, def value: None
+  ::StringW ___ShareableUri;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -89,7 +101,9 @@ static_assert(offsetof(::Oculus::Platform::Models::Destination, ___DeeplinkMessa
 
 static_assert(offsetof(::Oculus::Platform::Models::Destination, ___DisplayName) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Destination, 0x28>, "Size mismatch!");
+static_assert(offsetof(::Oculus::Platform::Models::Destination, ___ShareableUri) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::Destination, 0x30>, "Size mismatch!");
 
 } // namespace Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::Destination);

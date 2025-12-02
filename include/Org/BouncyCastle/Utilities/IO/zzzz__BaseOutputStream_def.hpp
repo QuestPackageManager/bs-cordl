@@ -35,30 +35,30 @@ public:
   /// @brief Field closed, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_closed, put = __cordl_internal_set_closed)) bool closed;
 
-  /// @brief Method Close, addr 0x2634830, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x356460c, size 0x10, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush, addr 0x2634860, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x356463c, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Org::BouncyCastle::Utilities::IO::BaseOutputStream* New_ctor();
 
-  /// @brief Method Read, addr 0x263490c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x35646e8, size 0x38, virtual true, abstract: false, final true
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Seek, addr 0x2634944, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method Seek, addr 0x3564720, size 0x38, virtual true, abstract: false, final true
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x263497c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method SetLength, addr 0x3564758, size 0x38, virtual true, abstract: false, final true
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x2634a34, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3564810, size 0x24, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method Write, addr 0x26349b4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3564790, size 0x80, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x2634a5c, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x3564834, size 0x90, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr bool const& __cordl_internal_get_closed() const;
@@ -67,25 +67,25 @@ public:
 
   constexpr void __cordl_internal_set_closed(bool value);
 
-  /// @brief Method .ctor, addr 0x2634608, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35643d0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CanRead, addr 0x2634840, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanRead, addr 0x356461c, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x2634848, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CanSeek, addr 0x3564624, size 0x8, virtual true, abstract: false, final true
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x2634850, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method get_CanWrite, addr 0x356462c, size 0x10, virtual true, abstract: false, final true
   inline bool get_CanWrite();
 
-  /// @brief Method get_Length, addr 0x2634864, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_Length, addr 0x3564640, size 0x38, virtual true, abstract: false, final true
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x263489c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_Position, addr 0x3564678, size 0x38, virtual true, abstract: false, final true
   inline int64_t get_Position();
 
-  /// @brief Method set_Position, addr 0x26348d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method set_Position, addr 0x35646b0, size 0x38, virtual true, abstract: false, final true
   inline void set_Position(int64_t value);
 
 protected:

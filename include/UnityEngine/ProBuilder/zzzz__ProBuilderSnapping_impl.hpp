@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::IsCardinalDirection)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x47271f0;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x64bd0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::Snap)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47273cc;
+  constexpr static std::size_t addrs = 0x64bd29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::ProBuilderSnapping::Snap)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x472746c;
+  constexpr static std::size_t addrs = 0x64bd33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<int32_t>*,
                                                                                            ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ProBuilderSnapping::SnapVertices)> {
-  constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x472750c;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x64bd3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::ProBuilderSnapping::GetSnappingMaskBasedOnNormalVector)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x47278d8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x64bd76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::Ray, float_t, float_t, ::UnityEngine::ProBuilder::Vector3Mask)>(
     &::UnityEngine::ProBuilder::ProBuilderSnapping::SnapValueOnRay)> {
-  constexpr static std::size_t size = 0x6f8;
-  constexpr static std::size_t addrs = 0x47279a8;
+  constexpr static std::size_t size = 0x71c;
+  constexpr static std::size_t addrs = 0x64bd848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

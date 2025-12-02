@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CmsPbeKey.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsPbeKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsPbeKey._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x265a59c;
+  constexpr static std::size_t addrs = 0x3589b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::StringW, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x265a6d4;
+  constexpr static std::size_t addrs = 0x3589c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x265a5e0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3589b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)(
     ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Cms::CmsPbeKey::_ctor)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x265a710;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x3589cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::Finalize)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x265a918;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3589ec4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Password)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x265a9c4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3589f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Password",
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::get_Salt)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x265a9d4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x3589f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Salt",
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::GetSalt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x265aa30;
+  constexpr static std::size_t addrs = 0x3589f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "GetSalt",
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265aa34;
+  constexpr static std::size_t addrs = 0x3589f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(),
@@ -143,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Algorithm)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x265aa3c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x3589f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Algorithm",
@@ -156,8 +156,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(&::Org::BouncyCastle::Cms::CmsPbeKey::get_Format)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x265aa7c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x3589fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "get_Format",
@@ -171,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsPbeKey::*)()>(
     &::Org::BouncyCastle::Cms::CmsPbeKey::GetEncoded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265aabc;
+  constexpr static std::size_t addrs = 0x358a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsPbeKey*>::get(), "GetEncoded",

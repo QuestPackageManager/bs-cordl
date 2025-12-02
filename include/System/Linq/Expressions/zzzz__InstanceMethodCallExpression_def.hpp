@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Linq/Expressions/zzzz__MethodCallExpression_def.hpp"
 CORDL_MODULE_EXPORT(InstanceMethodCallExpression)
 namespace System::Linq::Expressions {
 class Expression;
+}
+namespace System::Linq::Expressions {
+class IArgumentProvider;
 }
 namespace System::Reflection {
 class MethodInfo;
@@ -18,7 +20,7 @@ class InstanceMethodCallExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::InstanceMethodCallExpression);
-// Dependencies System.Linq.Expressions.IArgumentProvider, System.Linq.Expressions.MethodCallExpression
+// Dependencies System.Linq.Expressions.MethodCallExpression
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: System.Linq.Expressions.InstanceMethodCallExpression
@@ -31,7 +33,7 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x40ba768, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x5d6a8e8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetInstance();
 
   static inline ::System::Linq::Expressions::InstanceMethodCallExpression* New_ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance);
@@ -42,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__instance(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40ba744, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6a8c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* instance);
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -63,7 +65,7 @@ public:
   InstanceMethodCallExpression(InstanceMethodCallExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16158 };
 
   /// @brief Field _instance, offset: 0x18, size: 0x8, def value: None
   ::System::Linq::Expressions::Expression* ____instance;

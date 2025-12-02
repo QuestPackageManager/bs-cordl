@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/CustomLevelsSettingsAsyncInstaller.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelsSettingsAsyncInstaller_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelsSettingsAsyncInstaller_def.hpp"
@@ -14,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x27178f4;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x3644ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller__LoadResourcesBeforeInstallAsync_d__2::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2717a4c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3645168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)(
     ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(&::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::LoadResourcesBeforeInstall)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x27176fc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3644e04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,8 +96,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::LoadResourcesBeforeInstallAsync)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2717760;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x3644e74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x2717830;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3644f2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::*)()>(
     &::GlobalNamespace::CustomLevelsSettingsAsyncInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27178ec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3644ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomLevelsSettingsAsyncInstaller*>::get(),

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PointerOutEvent)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 class PointerOutEvent___c;
 }
 // Forward declare root types
@@ -31,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a34834, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b717f0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3482c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b717ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerOutEvent___c* getStaticF___9();
@@ -56,7 +59,7 @@ public:
   PointerOutEvent___c(PointerOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,9 +76,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerOutEvent___c;
 
+  /// @brief Method Dispatch, addr 0x6b71748, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
   static inline ::UnityEngine::UIElements::PointerOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a34788, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b7174c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +99,12 @@ public:
   PointerOutEvent(PointerOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4557 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerOutEvent, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerOutEvent, 0xf8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerOutEvent);

@@ -1,8 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/TypeIdentifier.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__TypeName_impl.hpp"
 #include "System/zzzz__TypeIdentifier_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__TypeName_def.hpp"
 //  Writing Method size for method: ::System::TypeIdentifier.get_InternalName
 template <>

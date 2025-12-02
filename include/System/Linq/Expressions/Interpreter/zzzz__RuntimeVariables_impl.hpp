@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/Interpreter/RuntimeVariables.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IRuntimeVariables_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__RuntimeVariables_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IRuntimeVariables_def.hpp"
@@ -10,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::RuntimeVariables::*)(
     ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>)>(&::System::Linq::Expressions::Interpreter::RuntimeVariables::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40f5b40;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5da0494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +26,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::CompilerServices::IRuntimeVariables* (*)(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*>)>(
         &::System::Linq::Expressions::Interpreter::RuntimeVariables::Create)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x40eaca8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5d97318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

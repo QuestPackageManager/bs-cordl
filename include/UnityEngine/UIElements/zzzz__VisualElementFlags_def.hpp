@@ -28,7 +28,7 @@ public:
     __E_WorldClipDirty = static_cast<int32_t>(0x4),
     __E_BoundingBoxDirty = static_cast<int32_t>(0x8),
     __E_WorldBoundingBoxDirty = static_cast<int32_t>(0x10),
-    __E_EventCallbackParentCategoriesDirty = static_cast<int32_t>(0x20),
+    __E_EventInterestParentCategoriesDirty = static_cast<int32_t>(0x20),
     __E_LayoutManual = static_cast<int32_t>(0x40),
     __E_CompositeRoot = static_cast<int32_t>(0x80),
     __E_RequireMeasureFunction = static_cast<int32_t>(0x100),
@@ -37,7 +37,11 @@ public:
     __E_NeedsAttachToPanelEvent = static_cast<int32_t>(0x800),
     __E_HierarchyDisplayed = static_cast<int32_t>(0x1000),
     __E_StyleInitialized = static_cast<int32_t>(0x2000),
-    __E_Init = static_cast<int32_t>(0x103f),
+    __E_DisableRendering = static_cast<int32_t>(0x4000),
+    __E_Needs3DBounds = static_cast<int32_t>(0x8000),
+    __E_LocalBounds3DDirty = static_cast<int32_t>(0x10000),
+    __E_DetachedDataSource = static_cast<int32_t>(0x20000),
+    __E_Init = static_cast<int32_t>(0x3003f),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -63,23 +67,35 @@ public:
   /// @brief Field CompositeRoot value: I32(128)
   static ::UnityEngine::UIElements::VisualElementFlags const CompositeRoot;
 
+  /// @brief Field DetachedDataSource value: I32(131072)
+  static ::UnityEngine::UIElements::VisualElementFlags const DetachedDataSource;
+
   /// @brief Field DisableClipping value: I32(1024)
   static ::UnityEngine::UIElements::VisualElementFlags const DisableClipping;
+
+  /// @brief Field DisableRendering value: I32(16384)
+  static ::UnityEngine::UIElements::VisualElementFlags const DisableRendering;
 
   /// @brief Field EnableViewDataPersistence value: I32(512)
   static ::UnityEngine::UIElements::VisualElementFlags const EnableViewDataPersistence;
 
-  /// @brief Field EventCallbackParentCategoriesDirty value: I32(32)
-  static ::UnityEngine::UIElements::VisualElementFlags const EventCallbackParentCategoriesDirty;
+  /// @brief Field EventInterestParentCategoriesDirty value: I32(32)
+  static ::UnityEngine::UIElements::VisualElementFlags const EventInterestParentCategoriesDirty;
 
   /// @brief Field HierarchyDisplayed value: I32(4096)
   static ::UnityEngine::UIElements::VisualElementFlags const HierarchyDisplayed;
 
-  /// @brief Field Init value: I32(4159)
+  /// @brief Field Init value: I32(196671)
   static ::UnityEngine::UIElements::VisualElementFlags const Init;
 
   /// @brief Field LayoutManual value: I32(64)
   static ::UnityEngine::UIElements::VisualElementFlags const LayoutManual;
+
+  /// @brief Field LocalBounds3DDirty value: I32(65536)
+  static ::UnityEngine::UIElements::VisualElementFlags const LocalBounds3DDirty;
+
+  /// @brief Field Needs3DBounds value: I32(32768)
+  static ::UnityEngine::UIElements::VisualElementFlags const Needs3DBounds;
 
   /// @brief Field NeedsAttachToPanelEvent value: I32(2048)
   static ::UnityEngine::UIElements::VisualElementFlags const NeedsAttachToPanelEvent;
@@ -103,7 +119,7 @@ public:
   static ::UnityEngine::UIElements::VisualElementFlags const WorldTransformInverseDirty;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5219 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

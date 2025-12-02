@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(DetachedAllocator)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements::UIR {
 template <typename T> class TempAllocator_1;
 }
@@ -47,11 +50,16 @@ public:
   /// @brief Field m_VertsPool, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VertsPool, put = __cordl_internal_set_m_VertsPool)) ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* m_VertsPool;
 
-  /// @brief Method Dispose, addr 0x49a8280, size 0x64, virtual true, abstract: false, final true
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x6aa1558, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a82e4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6aa15c0, size 0xa0, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
+
+  static inline ::UnityEngine::UIElements::UIR::DetachedAllocator* New_ctor();
 
   constexpr bool const& __cordl_internal_get_m_Disposed() const;
 
@@ -83,6 +91,12 @@ public:
 
   constexpr void __cordl_internal_set_m_VertsPool(::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* value);
 
+  /// @brief Method .ctor, addr 0x6aa1434, size 0x124, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -98,7 +112,7 @@ public:
   DetachedAllocator(DetachedAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5284 };
 
   /// @brief Field m_VertsPool, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::TempAllocator_1<::UnityEngine::UIElements::Vertex>* ___m_VertsPool;

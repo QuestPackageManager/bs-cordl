@@ -38,30 +38,33 @@ public:
   /// @brief Field m_Asset, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Asset, put = __cordl_internal_set_m_Asset)) ::UnityW<::UnityEngine::InputSystem::InputActionAsset> m_Asset;
 
-  /// @brief Method Create, addr 0x454edd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x62cb028, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::InputSystem::InputActionReference> Create(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method GetDisplayName, addr 0x454ea6c, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayName, addr 0x62cad08, size 0x90, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayName(::UnityEngine::InputSystem::InputAction* action);
 
   static inline ::UnityEngine::InputSystem::InputActionReference* New_ctor();
 
-  /// @brief Method Set, addr 0x454e5ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ResetCachedAction, addr 0x62cb098, size 0xf8, virtual false, abstract: false, final false
+  static inline void ResetCachedAction();
+
+  /// @brief Method Set, addr 0x62ca884, size 0x104, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method Set, addr 0x454e85c, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x62caaf4, size 0x214, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW mapName, ::StringW actionName);
 
-  /// @brief Method SetInternal, addr 0x454e6ec, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method SetInternal, addr 0x62ca988, size 0x16c, virtual false, abstract: false, final false
   inline void SetInternal(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method ToDisplayName, addr 0x454ed90, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ToDisplayName, addr 0x62cafe8, size 0x34, virtual false, abstract: false, final false
   inline ::StringW ToDisplayName();
 
-  /// @brief Method ToInputAction, addr 0x454ee44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToInputAction, addr 0x62cb190, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* ToInputAction();
 
-  /// @brief Method ToString, addr 0x454eb48, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x62cad98, size 0x250, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_m_Action() const;
@@ -82,16 +85,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Asset(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value);
 
-  /// @brief Method .ctor, addr 0x454ee48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cb194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_action, addr 0x454e1fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method get_action, addr 0x62ca46c, size 0xb4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputAction* get_action();
 
-  /// @brief Method get_asset, addr 0x454e5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x62ca87c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> get_asset();
 
-  /// @brief Method op_Implicit, addr 0x454edcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x62cb01c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputAction* op_Implicit___UnityEngine__InputSystem__InputAction_(::UnityEngine::InputSystem::InputActionReference* reference);
 
 protected:
@@ -109,7 +112,7 @@ public:
   InputActionReference(InputActionReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8624 };
 
   /// @brief Field m_Asset, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::InputSystem::InputActionAsset> ___m_Asset;

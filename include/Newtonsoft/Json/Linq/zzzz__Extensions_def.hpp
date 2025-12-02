@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Extensions)
@@ -54,10 +49,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -116,10 +117,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::Extensions___c* New_ctor();
 
-  /// @brief Method <Properties>b__4_0, addr 0x3f0cbe8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Properties>b__4_0, addr 0x5b537e0, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* _Properties_b__4_0(::Newtonsoft::Json::Linq::JObject* d);
 
-  /// @brief Method .ctor, addr 0x3f0cbe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b537dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::Extensions___c* getStaticF___9();
@@ -145,7 +146,7 @@ public:
   Extensions___c(Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -199,7 +200,7 @@ public:
   Extensions___c__0_1(Extensions___c__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -251,7 +252,7 @@ public:
   Extensions___c__1_1(Extensions___c__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -303,7 +304,7 @@ public:
   Extensions___c__13_2(Extensions___c__13_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -355,7 +356,7 @@ public:
   Extensions___c__2_1(Extensions___c__2_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -407,14 +408,13 @@ public:
   Extensions___c__3_1(Extensions___c__3_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
@@ -555,7 +555,7 @@ public:
   Extensions__Convert_d__14_2(Extensions__Convert_d__14_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13540 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -579,8 +579,7 @@ public:
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T, typename U>
@@ -754,7 +753,7 @@ public:
   Extensions__Values_d__11_2(Extensions__Values_d__11_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10387 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13541 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -816,7 +815,7 @@ public:
   /// @brief Method AncestorsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AncestorsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method AsJEnumerable, addr 0x3f0cb34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AsJEnumerable, addr 0x5b53734, size 0x4c, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* AsJEnumerable(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
   /// @brief Method AsJEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -840,7 +839,7 @@ public:
   /// @brief Method DescendantsAndSelf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* DescendantsAndSelf(::System::Collections::Generic::IEnumerable_1<T>* source);
 
-  /// @brief Method Properties, addr 0x3f0c9a0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x5b5358c, size 0x148, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JObject*>* source);
 
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -849,10 +848,10 @@ public:
   /// @brief Method Value, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename U> static inline U Value(::System::Collections::Generic::IEnumerable_1<T>* value);
 
-  /// @brief Method Values, addr 0x3f0cb7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x5b53780, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source);
 
-  /// @brief Method Values, addr 0x3f0cad8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Values, addr 0x5b536d4, size 0x60, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::IJEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* Values(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* source,
                                                                                                     ::System::Object* key);
 
@@ -881,7 +880,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

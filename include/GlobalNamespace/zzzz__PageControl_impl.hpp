@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)(int32_t)>(&::GlobalNamespace::PageControl::SetPagesCount)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x3afc8d8;
+  constexpr static std::size_t size = 0x39c;
+  constexpr static std::size_t addrs = 0x56e7338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)(int32_t)>(&::GlobalNamespace::PageControl::SetSelectedPageIndex)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3afccac;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x56e773c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)(bool)>(&::GlobalNamespace::PageControl::SetVisible)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b05c58;
+  constexpr static std::size_t addrs = 0x56e781c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PageControl::*)()>(&::GlobalNamespace::PageControl::_ctor)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b05c88;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x56e784c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PageControl*>::get(), ".ctor",

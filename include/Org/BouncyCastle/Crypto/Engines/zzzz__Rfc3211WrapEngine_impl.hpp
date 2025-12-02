@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/Rfc3211WrapEngine.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__Rfc3211WrapEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CbcBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithIV_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2368bdc;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3296870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::Init)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x2368c50;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x32968dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2368dfc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3296a5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::Wrap)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x2368ec4;
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x3296b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::Rfc3211WrapEngine::Unwrap)> {
-  constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x2369140;
+  constexpr static std::size_t size = 0x3dc;
+  constexpr static std::size_t addrs = 0x3296dac;
 
   inline static ::MethodInfo const* methodInfo() {
 

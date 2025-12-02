@@ -4,7 +4,11 @@
 #include "UnityEngine/zzzz__LightProbes_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Bindings/zzzz__BlittableArrayWrapper_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/Rendering/zzzz__SphericalHarmonicsL2_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
@@ -13,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4877350;
+  constexpr static std::size_t addrs = 0x685514c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), ".ctor",
@@ -25,8 +29,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_lightProbesUpdated)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x48773a8;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x68551a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,8 +43,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_lightProbesUpdated)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4877460;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6855270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallLightProbesUpdatedFunction)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4877518;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x685533c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,8 +71,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_tetrahedralizationCompleted)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x487757c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x68553a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_tetrahedralizationCompleted)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4877638;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6855474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +99,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallTetrahedralizationCompletedFunction)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48776f4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6855544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::add_needsRetetrahedralization)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4877758;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x68555ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,8 +127,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action*)>(&::UnityEngine::LightProbes::remove_needsRetetrahedralization)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4877814;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x685567c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -137,8 +141,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Internal_CallNeedsRetetrahedralizationFunction)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48778d0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x685574c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::Tetrahedralize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4877934;
+  constexpr static std::size_t addrs = 0x68557b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "Tetrahedralize",
@@ -165,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::LightProbes::TetrahedralizeAsync)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x487795c;
+  constexpr static std::size_t addrs = 0x68557dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "TetrahedralizeAsync",
@@ -178,8 +182,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, ::UnityEngine::Renderer*, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
     &::UnityEngine::LightProbes::GetInterpolatedProbe)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4877984;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6855804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,8 +198,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Renderer*)>(&::UnityEngine::LightProbes::AreLightProbesAllowed)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4877a34;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6855900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,8 +214,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*>,
     ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4877a70;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x68559bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,8 +233,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Rendering::SphericalHarmonicsL2>*,
                          ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x4877c50;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x6855cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,8 +251,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, int32_t, ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*>,
     ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>)>(&::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes_Internal)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4877bf4;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6855b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,17 +265,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::LightProbes.GetSharedLightProbesForScene
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::LightProbes> (*)(::UnityEngine::SceneManagement::Scene)>(
+    &::UnityEngine::LightProbes::GetSharedLightProbesForScene)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6855ef4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetSharedLightProbesForScene", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.GetInstantiatedLightProbesForScene
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::LightProbes> (*)(::UnityEngine::SceneManagement::Scene)>(
+    &::UnityEngine::LightProbes::GetInstantiatedLightProbesForScene)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6856050;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetInstantiatedLightProbesForScene", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::LightProbes.get_positions
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::LightProbes::*)()>(
     &::UnityEngine::LightProbes::get_positions)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4877ee0;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x68561ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_positions",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.GetPositionsSelf
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::UnityEngine::LightProbes::*)()>(
+    &::UnityEngine::LightProbes::GetPositionsSelf)> {
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6856350;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetPositionsSelf",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.SetPositionsSelf
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::LightProbes::*)(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, bool)>(
+    &::UnityEngine::LightProbes::SetPositionsSelf)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x68564f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "SetPositionsSelf", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>::get(),
+                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -280,8 +344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> (
     ::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_bakedProbes)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4877f1c;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6856658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_bakedProbes",
@@ -294,8 +358,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightProbes::*)(
     ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*>)>(&::UnityEngine::LightProbes::set_bakedProbes)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4877f58;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x68567fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,11 +373,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_count)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4877f9c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6856944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_count",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_countSelf
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_countSelf)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6856a00;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_countSelf",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -322,11 +399,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_cellCount)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4877fd8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6856abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCount",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_cellCountSelf
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::LightProbes::*)()>(&::UnityEngine::LightProbes::get_cellCountSelf)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6856b78;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCountSelf",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -336,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::LightProbes::GetCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4878014;
+  constexpr static std::size_t addrs = 0x6856c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetCount",
@@ -350,7 +440,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::LightProbes::*)(::UnityEngine::Vector3, ::UnityEngine::Renderer*, ::ArrayW<float_t, ::Array<float_t>*>)>(&::UnityEngine::LightProbes::GetInterpolatedLightProbe)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x487803c;
+  constexpr static std::size_t addrs = 0x6856c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -366,8 +456,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::UnityEngine::LightProbes::*)()>(
     &::UnityEngine::LightProbes::get_coefficients)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4878040;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6856c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_coefficients",
@@ -381,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::LightProbes::*)(::ArrayW<float_t, ::Array<float_t>*>)>(
     &::UnityEngine::LightProbes::set_coefficients)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4878084;
+  constexpr static std::size_t addrs = 0x6856ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,17 +483,218 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::LightProbes.GetInterpolatedProbe_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::ByRef<::UnityEngine::Vector3>, ::UnityEngine::Renderer*, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(&::UnityEngine::LightProbes::GetInterpolatedProbe_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Vector3>, ::System::IntPtr, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>)>(
+    &::UnityEngine::LightProbes::GetInterpolatedProbe_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48779e0;
+  constexpr static std::size_t addrs = 0x68558ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetInterpolatedProbe_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Renderer*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.AreLightProbesAllowed_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::AreLightProbesAllowed_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6855980;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "AreLightProbesAllowed_Injected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, int32_t, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+        &::UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6855e98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.GetSharedLightProbesForScene_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ByRef<::UnityEngine::SceneManagement::Scene>)>(
+    &::UnityEngine::LightProbes::GetSharedLightProbesForScene_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6856014;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetSharedLightProbesForScene_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::SceneManagement::Scene>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.GetInstantiatedLightProbesForScene_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ByRef<::UnityEngine::SceneManagement::Scene>)>(
+    &::UnityEngine::LightProbes::GetInstantiatedLightProbesForScene_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6856170;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetInstantiatedLightProbesForScene_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::SceneManagement::Scene>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_positions_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+    &::UnityEngine::LightProbes::get_positions_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x685630c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_positions_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.GetPositionsSelf_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+    &::UnityEngine::LightProbes::GetPositionsSelf_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x68564b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetPositionsSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.SetPositionsSelf_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, bool)>(
+    &::UnityEngine::LightProbes::SetPositionsSelf_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6856604;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "SetPositionsSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_bakedProbes_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>)>(
+    &::UnityEngine::LightProbes::get_bakedProbes_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x68567b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_bakedProbes_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.set_bakedProbes_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::LightProbes::set_bakedProbes_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6856900;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "set_bakedProbes_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_count_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_count_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x68569c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_count_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_countSelf_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_countSelf_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6856a80;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_countSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_cellCount_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_cellCount_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6856b3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCount_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::LightProbes.get_cellCountSelf_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::LightProbes::get_cellCountSelf_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6856bf8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCountSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -546,10 +837,34 @@ inline void UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProb
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, positions, positionsCount, lightProbes, occlusionProbes);
 }
+inline ::UnityW<::UnityEngine::LightProbes> UnityEngine::LightProbes::GetSharedLightProbesForScene(::UnityEngine::SceneManagement::Scene scene) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetSharedLightProbesForScene", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::LightProbes>, false>(nullptr, ___internal_method, scene);
+}
+inline ::UnityW<::UnityEngine::LightProbes> UnityEngine::LightProbes::GetInstantiatedLightProbesForScene(::UnityEngine::SceneManagement::Scene scene) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetInstantiatedLightProbesForScene", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::LightProbes>, false>(nullptr, ___internal_method, scene);
+}
 inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UnityEngine::LightProbes::get_positions() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_positions",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, false>(this, ___internal_method);
+}
+inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> UnityEngine::LightProbes::GetPositionsSelf() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetPositionsSelf",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, false>(this, ___internal_method);
+}
+inline bool UnityEngine::LightProbes::SetPositionsSelf(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, bool checkForDuplicatePositions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "SetPositionsSelf", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, positions, checkForDuplicatePositions);
 }
 inline ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> UnityEngine::LightProbes::get_bakedProbes() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_bakedProbes",
@@ -568,8 +883,18 @@ inline int32_t UnityEngine::LightProbes::get_count() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
+inline int32_t UnityEngine::LightProbes::get_countSelf() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_countSelf",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
 inline int32_t UnityEngine::LightProbes::get_cellCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCount",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline int32_t UnityEngine::LightProbes::get_cellCountSelf() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCountSelf",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
@@ -597,14 +922,104 @@ inline void UnityEngine::LightProbes::set_coefficients(::ArrayW<float_t, ::Array
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void UnityEngine::LightProbes::GetInterpolatedProbe_Injected(::ByRef<::UnityEngine::Vector3> position, ::UnityEngine::Renderer* renderer,
+inline void UnityEngine::LightProbes::GetInterpolatedProbe_Injected(::ByRef<::UnityEngine::Vector3> position, ::System::IntPtr renderer,
                                                                     ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> probe) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetInterpolatedProbe_Injected", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Renderer*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, position, renderer, probe);
+}
+inline bool UnityEngine::LightProbes::AreLightProbesAllowed_Injected(::System::IntPtr renderer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "AreLightProbesAllowed_Injected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, renderer);
+}
+inline void UnityEngine::LightProbes::CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> positions, int32_t positionsCount,
+                                                                                                     ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> lightProbes,
+                                                                                                     ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> occlusionProbes) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, positions, positionsCount, lightProbes, occlusionProbes);
+}
+inline ::System::IntPtr UnityEngine::LightProbes::GetSharedLightProbesForScene_Injected(::ByRef<::UnityEngine::SceneManagement::Scene> scene) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetSharedLightProbesForScene_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::SceneManagement::Scene>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, scene);
+}
+inline ::System::IntPtr UnityEngine::LightProbes::GetInstantiatedLightProbesForScene_Injected(::ByRef<::UnityEngine::SceneManagement::Scene> scene) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetInstantiatedLightProbesForScene_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::SceneManagement::Scene>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, scene);
+}
+inline void UnityEngine::LightProbes::get_positions_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_positions_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
+}
+inline void UnityEngine::LightProbes::GetPositionsSelf_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "GetPositionsSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
+}
+inline bool UnityEngine::LightProbes::SetPositionsSelf_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> positions, bool checkForDuplicatePositions) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "SetPositionsSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self, positions, checkForDuplicatePositions);
+}
+inline void UnityEngine::LightProbes::get_bakedProbes_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_bakedProbes_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
+}
+inline void UnityEngine::LightProbes::set_bakedProbes_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "set_bakedProbes_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline int32_t UnityEngine::LightProbes::get_count_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_count_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline int32_t UnityEngine::LightProbes::get_countSelf_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_countSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline int32_t UnityEngine::LightProbes::get_cellCount_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCount_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline int32_t UnityEngine::LightProbes::get_cellCountSelf_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::LightProbes*>::get(), "get_cellCountSelf_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
 }
 inline ::UnityEngine::LightProbes* UnityEngine::LightProbes::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::LightProbes*>());

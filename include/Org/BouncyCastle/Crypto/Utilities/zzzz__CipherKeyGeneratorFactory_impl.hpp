@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2445d1c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3374620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +26,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::CipherKeyGenerator* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory::CreateKeyGenerator)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x2445d24;
+  constexpr static std::size_t size = 0x44c;
+  constexpr static std::size_t addrs = 0x3374624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::CipherKeyGenerator* (*)(::Org::BouncyCastle::Security::SecureRandom*, int32_t)>(
     &::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory::CreateCipherKeyGenerator)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2446148;
+  constexpr static std::size_t addrs = 0x3374a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

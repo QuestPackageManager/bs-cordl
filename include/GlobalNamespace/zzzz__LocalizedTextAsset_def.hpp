@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BGLib/Polyglot/zzzz__Language_def.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -41,7 +41,7 @@ MARK_REF_PTR_T(::GlobalNamespace::LocalizedTextAsset);
 MARK_REF_PTR_T(::GlobalNamespace::LocalizedTextAsset_TextInfo);
 MARK_REF_PTR_T(::GlobalNamespace::LocalizedTextAsset___c);
 MARK_REF_PTR_T(::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0);
-// Dependencies BGLib.Polyglot.Language, System.Object
+// Dependencies BGLib.Polyglot.LocalizationLanguage, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalizedTextAsset/TextInfo
@@ -49,26 +49,26 @@ class CORDL_TYPE LocalizedTextAsset_TextInfo : public ::System::Object {
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::BGLib::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::BGLib::Polyglot::LocalizationLanguage language;
 
   /// @brief Field localizedText, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_localizedText, put = __cordl_internal_set_localizedText)) ::UnityW<::UnityEngine::TextAsset> localizedText;
 
   static inline ::GlobalNamespace::LocalizedTextAsset_TextInfo* New_ctor();
 
-  constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_language() const;
+  constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get_language() const;
 
-  constexpr ::BGLib::Polyglot::Language& __cordl_internal_get_language();
+  constexpr ::BGLib::Polyglot::LocalizationLanguage& __cordl_internal_get_language();
 
   constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_localizedText() const;
 
   constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_localizedText();
 
-  constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value);
 
   constexpr void __cordl_internal_set_localizedText(::UnityW<::UnityEngine::TextAsset> value);
 
-  /// @brief Method .ctor, addr 0x3b166b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f5a70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,10 +86,10 @@ public:
   LocalizedTextAsset_TextInfo(LocalizedTextAsset_TextInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6637 };
 
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
-  ::BGLib::Polyglot::Language ___language;
+  ::BGLib::Polyglot::LocalizationLanguage ___language;
 
   /// @brief Field localizedText, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ___localizedText;
@@ -119,10 +119,10 @@ public:
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b16714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f5ac8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__6_0, addr 0x3b1671c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__6_0, addr 0x56f5acc, size 0x1c, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__6_0(::GlobalNamespace::LocalizedTextAsset_TextInfo* t);
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c* getStaticF___9();
@@ -148,7 +148,7 @@ public:
   LocalizedTextAsset___c(LocalizedTextAsset___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -156,7 +156,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LocalizedTextAsset___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BGLib.Polyglot.Language, System.Object
+// Dependencies BGLib.Polyglot.LocalizationLanguage, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LocalizedTextAsset/<>c__DisplayClass6_0
@@ -164,20 +164,20 @@ class CORDL_TYPE LocalizedTextAsset___c__DisplayClass6_0 : public ::System::Obje
 public:
   // Declarations
   /// @brief Field language, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::BGLib::Polyglot::Language language;
+  __declspec(property(get = __cordl_internal_get_language, put = __cordl_internal_set_language)) ::BGLib::Polyglot::LocalizationLanguage language;
 
   static inline ::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0* New_ctor();
 
-  constexpr ::BGLib::Polyglot::Language const& __cordl_internal_get_language() const;
+  constexpr ::BGLib::Polyglot::LocalizationLanguage const& __cordl_internal_get_language() const;
 
-  constexpr ::BGLib::Polyglot::Language& __cordl_internal_get_language();
+  constexpr ::BGLib::Polyglot::LocalizationLanguage& __cordl_internal_get_language();
 
-  constexpr void __cordl_internal_set_language(::BGLib::Polyglot::Language value);
+  constexpr void __cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value);
 
-  /// @brief Method .ctor, addr 0x3b166a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f5a64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_localizedText>b__1, addr 0x3b1673c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <get_localizedText>b__1, addr 0x56f5ae8, size 0x20, virtual false, abstract: false, final false
   inline bool _get_localizedText_b__1(::GlobalNamespace::LocalizedTextAsset_TextInfo* t);
 
 protected:
@@ -195,10 +195,10 @@ public:
   LocalizedTextAsset___c__DisplayClass6_0(LocalizedTextAsset___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5072 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6639 };
 
   /// @brief Field language, offset: 0x10, size: 0x4, def value: None
-  ::BGLib::Polyglot::Language ___language;
+  ::BGLib::Polyglot::LocalizationLanguage ___language;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -247,13 +247,13 @@ public:
 
   constexpr void __cordl_internal_set__textInfos(::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b166a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f5a68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localizedText, addr 0x3b1639c, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method get_localizedText, addr 0x56f574c, size 0x318, virtual false, abstract: false, final false
   inline ::StringW get_localizedText();
 
-  /// @brief Method get_textInfos, addr 0x3b16394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_textInfos, addr 0x56f5744, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> get_textInfos();
 
 protected:
@@ -271,7 +271,7 @@ public:
   LocalizedTextAsset(LocalizedTextAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6640 };
 
   /// @brief Field _textInfos, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> ____textInfos;

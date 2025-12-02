@@ -25,16 +25,13 @@ public:
   /// @brief Field _healthAndSafetyFullLocalizationKey, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__healthAndSafetyFullLocalizationKey, put = __cordl_internal_set__healthAndSafetyFullLocalizationKey)) ::StringW _healthAndSafetyFullLocalizationKey;
 
-  /// @brief Field _healthAndSafetyPSLocalizationKey, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthAndSafetyPSLocalizationKey, put = __cordl_internal_set__healthAndSafetyPSLocalizationKey)) ::StringW _healthAndSafetyPSLocalizationKey;
-
   /// @brief Field _healthAndSafetyTextMesh, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__healthAndSafetyTextMesh, put = __cordl_internal_set__healthAndSafetyTextMesh)) ::UnityW<::TMPro::TextMeshProUGUI> _healthAndSafetyTextMesh;
 
-  /// @brief Field _showShortHealthAndSafety, offset 0x90, size 0x1
+  /// @brief Field _showShortHealthAndSafety, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get__showShortHealthAndSafety, put = __cordl_internal_set__showShortHealthAndSafety)) bool _showShortHealthAndSafety;
 
-  /// @brief Method DidActivate, addr 0x3c1b7c8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x56cfaec, size 0x38, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
@@ -42,10 +39,6 @@ public:
   constexpr ::StringW const& __cordl_internal_get__healthAndSafetyFullLocalizationKey() const;
 
   constexpr ::StringW& __cordl_internal_get__healthAndSafetyFullLocalizationKey();
-
-  constexpr ::StringW const& __cordl_internal_get__healthAndSafetyPSLocalizationKey() const;
-
-  constexpr ::StringW& __cordl_internal_get__healthAndSafetyPSLocalizationKey();
 
   constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__healthAndSafetyTextMesh() const;
 
@@ -57,13 +50,11 @@ public:
 
   constexpr void __cordl_internal_set__healthAndSafetyFullLocalizationKey(::StringW value);
 
-  constexpr void __cordl_internal_set__healthAndSafetyPSLocalizationKey(::StringW value);
-
   constexpr void __cordl_internal_set__healthAndSafetyTextMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
 
   constexpr void __cordl_internal_set__showShortHealthAndSafety(bool value);
 
-  /// @brief Method .ctor, addr 0x3c1b804, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56cfb24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +72,7 @@ public:
   HealthWarningDisplayViewController(HealthWarningDisplayViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6488 };
 
   /// @brief Field _healthAndSafetyTextMesh, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____healthAndSafetyTextMesh;
@@ -89,10 +80,7 @@ public:
   /// @brief Field _healthAndSafetyFullLocalizationKey, offset: 0x80, size: 0x8, def value: None
   ::StringW ____healthAndSafetyFullLocalizationKey;
 
-  /// @brief Field _healthAndSafetyPSLocalizationKey, offset: 0x88, size: 0x8, def value: None
-  ::StringW ____healthAndSafetyPSLocalizationKey;
-
-  /// @brief Field _showShortHealthAndSafety, offset: 0x90, size: 0x1, def value: None
+  /// @brief Field _showShortHealthAndSafety, offset: 0x88, size: 0x1, def value: None
   bool ____showShortHealthAndSafety;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -102,11 +90,9 @@ static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, __
 
 static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyFullLocalizationKey) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyPSLocalizationKey) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____showShortHealthAndSafety) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____showShortHealthAndSafety) == 0x90, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningDisplayViewController, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningDisplayViewController, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningDisplayViewController);

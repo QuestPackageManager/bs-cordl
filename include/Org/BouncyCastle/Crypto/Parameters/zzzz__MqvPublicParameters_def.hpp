@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MqvPublicParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -15,7 +17,7 @@ class MqvPublicParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::MqvPublicParameters);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.MqvPublicParameters
@@ -50,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_staticPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x23c07d8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ee924, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* staticPublicKey, ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_EphemeralPublicKey, addr 0x23c08d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0x32eea14, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
-  /// @brief Method get_StaticPublicKey, addr 0x23c08c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicKey, addr 0x32eea0c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_StaticPublicKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

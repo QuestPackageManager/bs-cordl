@@ -21,21 +21,21 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x3e6ed80, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x5ab5028, size 0x8, virtual true, abstract: false, final false
   inline bool Fallback(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3e6ef54, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x5ab5204, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
   static inline ::System::Text::DecoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method Throw, addr 0x3e6ed88, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method Throw, addr 0x5ab5030, size 0x1d4, virtual false, abstract: false, final false
   inline void Throw(::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3e6ed0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab4fb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x3e6ef5c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x5ab520c, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -53,7 +53,7 @@ public:
   DecoderExceptionFallbackBuffer(DecoderExceptionFallbackBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2850 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

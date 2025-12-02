@@ -1,21 +1,21 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/HttpResponseMessage.hpp"
 #include "System/Net/zzzz__HttpStatusCode_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpResponseHeaders_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/zzzz__HttpStatusCode_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Version_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpResponseMessage._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::HttpStatusCode)>(
     &::System::Net::Http::HttpResponseMessage::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x42145cc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ebbbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::HttpContent* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421a500;
+  constexpr static std::size_t addrs = 0x5ec31b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "get_Content",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::Http::HttpContent*)>(
     &::System::Net::Http::HttpResponseMessage::set_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421a508;
+  constexpr static std::size_t addrs = 0x5ec31c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::Headers::HttpResponseHeaders* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Headers)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4214728;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ebbd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "get_Headers",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_IsSuccessStatusCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x421a570;
+  constexpr static std::size_t addrs = 0x5ec322c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_ReasonPhrase)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x421a584;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5ec3240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::StringW)>(
     &::System::Net::Http::HttpResponseMessage::set_ReasonPhrase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421a5a0;
+  constexpr static std::size_t addrs = 0x5ec3258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::Http::HttpRequestMessage*)>(
     &::System::Net::Http::HttpResponseMessage::set_RequestMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421a5a8;
+  constexpr static std::size_t addrs = 0x5ec3260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpStatusCode (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421a5b0;
+  constexpr static std::size_t addrs = 0x5ec3268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(::System::Net::HttpStatusCode)>(
     &::System::Net::Http::HttpResponseMessage::set_StatusCode)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x421a4b8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ec3174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::get_Version)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x421a5b8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ec3270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "get_Version",
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x421a61c;
+  constexpr static std::size_t addrs = 0x5ec32d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(), "Dispose",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpResponseMessage::*)(bool)>(&::System::Net::Http::HttpResponseMessage::Dispose)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x421a62c;
+  constexpr static std::size_t addrs = 0x5ec32e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,8 +200,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::HttpResponseMessage* (::System::Net::Http::HttpResponseMessage::*)()>(
     &::System::Net::Http::HttpResponseMessage::EnsureSuccessStatusCode)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x421892c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5ec08e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpResponseMessage*>::get(),
@@ -213,8 +213,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::HttpResponseMessage::*)()>(&::System::Net::Http::HttpResponseMessage::ToString)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x421a660;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x5ec331c;
 
   inline static ::MethodInfo const* methodInfo() {
 

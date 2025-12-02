@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "LufsMetering/zzzz__FilterCoefficients_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(FilteringJob)
@@ -15,13 +14,16 @@ struct FilterCoefficients;
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
+namespace Unity::Jobs {
+class IJob;
+}
 // Forward declare root types
 namespace LufsMetering {
 struct FilteringJob;
 }
 // Write type traits
 MARK_VAL_T(::LufsMetering::FilteringJob);
-// Dependencies LufsMetering.FilterCoefficients, Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJob
+// Dependencies LufsMetering.FilterCoefficients, Unity.Collections.NativeArray`1<T>
 namespace LufsMetering {
 // Is value type: true
 // CS Name: LufsMetering.FilteringJob
@@ -31,10 +33,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x3b73974, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x575f128, size 0xa8, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method .ctor, addr 0x3b73958, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575f10c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Collections::NativeArray_1<float_t> inputData, ::Unity::Collections::NativeArray_1<float_t> outputData, ::LufsMetering::FilterCoefficients coefficients);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -49,7 +51,7 @@ public:
   constexpr FilteringJob(::Unity::Collections::NativeArray_1<float_t> inputData, ::LufsMetering::FilterCoefficients coefficients, ::Unity::Collections::NativeArray_1<float_t> outputData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7004 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };

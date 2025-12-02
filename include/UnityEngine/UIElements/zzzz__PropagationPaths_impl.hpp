@@ -3,6 +3,7 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PropagationPaths_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ObjectPool_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PropagationPaths_def.hpp"
@@ -12,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropagationPaths___c::*)()>(
     &::UnityEngine::UIElements::PropagationPaths___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a34aac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b71b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths___c*>::get(), ".ctor",
@@ -21,17 +22,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::PropagationPaths___c.__cctor_b__12_0
+//  Writing Method size for method: ::UnityEngine::UIElements::PropagationPaths___c.__cctor_b__8_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PropagationPaths* (::UnityEngine::UIElements::PropagationPaths___c::*)()>(
-    &::UnityEngine::UIElements::PropagationPaths___c::__cctor_b__12_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a34ab4;
+    &::UnityEngine::UIElements::PropagationPaths___c::__cctor_b__8_0)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b71b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths___c*>::get(),
-                                                                               "<.cctor>b__12_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<.cctor>b__8_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -49,9 +50,9 @@ inline void UnityEngine::UIElements::PropagationPaths___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::PropagationPaths* UnityEngine::UIElements::PropagationPaths___c::__cctor_b__12_0() {
+inline ::UnityEngine::UIElements::PropagationPaths* UnityEngine::UIElements::PropagationPaths___c::__cctor_b__8_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths___c*>::get(),
-                                                                             "<.cctor>b__12_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<.cctor>b__8_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PropagationPaths*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::PropagationPaths___c* UnityEngine::UIElements::PropagationPaths___c::New_ctor() {
@@ -63,8 +64,8 @@ constexpr ::UnityEngine::UIElements::PropagationPaths___c::PropagationPaths___c(
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropagationPaths::*)()>(&::UnityEngine::UIElements::PropagationPaths::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4a34884;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b71844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), ".ctor",
@@ -76,27 +77,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::UnityEngine::UIElements::PropagationPaths* (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::EventBase*)>(&::UnityEngine::UIElements::PropagationPaths::Build)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x4a23508;
+    ::UnityEngine::UIElements::PropagationPaths* (*)(::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::EventBase*, int32_t)>(&::UnityEngine::UIElements::PropagationPaths::Build)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x6b66d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), "Build", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get() })));
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::PropagationPaths.Release
+//  Writing Method size for method: ::UnityEngine::UIElements::PropagationPaths.Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropagationPaths::*)()>(&::UnityEngine::UIElements::PropagationPaths::Release)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4a277d4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropagationPaths::*)()>(&::UnityEngine::UIElements::PropagationPaths::Dispose)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6b718e0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), "Release",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), "Dispose",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -112,18 +114,6 @@ constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Visu
 constexpr void UnityEngine::UIElements::PropagationPaths::__cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___trickleDownPath)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::PropagationPaths::__cordl_internal_get_targetElements() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___targetElements;
-}
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* const& UnityEngine::UIElements::PropagationPaths::__cordl_internal_get_targetElements() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___targetElements;
-}
-constexpr void UnityEngine::UIElements::PropagationPaths::__cordl_internal_set_targetElements(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___targetElements)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& UnityEngine::UIElements::PropagationPaths::__cordl_internal_get_bubbleUpPath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -151,20 +141,30 @@ inline void UnityEngine::UIElements::PropagationPaths::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::UIElements::PropagationPaths* UnityEngine::UIElements::PropagationPaths::Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt) {
+inline ::UnityEngine::UIElements::PropagationPaths* UnityEngine::UIElements::PropagationPaths::Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt,
+                                                                                                     int32_t eventCategories) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), "Build", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PropagationPaths*, false>(nullptr, ___internal_method, elem, evt);
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::PropagationPaths*, false>(nullptr, ___internal_method, elem, evt, eventCategories);
 }
-inline void UnityEngine::UIElements::PropagationPaths::Release() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), "Release",
+inline void UnityEngine::UIElements::PropagationPaths::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropagationPaths*>::get(), "Dispose",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::PropagationPaths* UnityEngine::UIElements::PropagationPaths::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropagationPaths*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::PropagationPaths::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::PropagationPaths::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::PropagationPaths::PropagationPaths() {}

@@ -31,7 +31,7 @@ public:
   __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id)) uint16_t Id;
 
   /// @brief Field NameUtf8, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_NameUtf8, put = __cordl_internal_set_NameUtf8)) ::cordl_internals::Ptr<uint8_t> NameUtf8;
+  __declspec(property(get = __cordl_internal_get_NameUtf8, put = __cordl_internal_set_NameUtf8)) uint8_t* NameUtf8;
 
   /// @brief Field NameUtf8Len, offset 0xc, size 0x4
   __declspec(property(get = __cordl_internal_get_NameUtf8Len, put = __cordl_internal_set_NameUtf8Len)) int32_t NameUtf8Len;
@@ -51,9 +51,9 @@ public:
 
   constexpr uint16_t& __cordl_internal_get_Id();
 
-  constexpr ::cordl_internals::Ptr<uint8_t> const& __cordl_internal_get_NameUtf8() const;
+  constexpr uint8_t* const& __cordl_internal_get_NameUtf8() const;
 
-  constexpr ::cordl_internals::Ptr<uint8_t>& __cordl_internal_get_NameUtf8();
+  constexpr uint8_t*& __cordl_internal_get_NameUtf8();
 
   constexpr int32_t const& __cordl_internal_get_NameUtf8Len() const;
 
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set_Id(uint16_t value);
 
-  constexpr void __cordl_internal_set_NameUtf8(::cordl_internals::Ptr<uint8_t> value);
+  constexpr void __cordl_internal_set_NameUtf8(uint8_t* value);
 
   constexpr void __cordl_internal_set_NameUtf8Len(int32_t value);
 
@@ -81,8 +81,8 @@ public:
 
   // Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: None }, CppParam { name: "Color", ty:
   // "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "NameUtf8Len", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "NameUtf8", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: None }]
-  constexpr ProfilerCategoryDescription(uint16_t Id, uint16_t Flags, ::UnityEngine::Color32 Color, int32_t reserved0, int32_t NameUtf8Len, ::cordl_internals::Ptr<uint8_t> NameUtf8) noexcept;
+  // modifiers: "", def_value: None }, CppParam { name: "NameUtf8", ty: "uint8_t*", modifiers: "", def_value: None }]
+  constexpr ProfilerCategoryDescription(uint16_t Id, uint16_t Flags, ::UnityEngine::Color32 Color, int32_t reserved0, int32_t NameUtf8Len, uint8_t* NameUtf8) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -162,20 +162,20 @@ private:
       /// @brief Padding field 0x10
       uint8_t ___NameUtf8_padding[0x10];
       /// @brief Field NameUtf8, offset: 0x10, size: 0x8, def value: None
-      ::cordl_internals::Ptr<uint8_t> ___NameUtf8;
+      uint8_t* ___NameUtf8;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x10 for alignment
       uint8_t ___NameUtf8_padding_forAlignment[0x10];
       /// @brief Field NameUtf8, offset: 0x10, size: 0x8, def value: None
-      ::cordl_internals::Ptr<uint8_t> ___NameUtf8_forAlignment;
+      uint8_t* ___NameUtf8_forAlignment;
     };
   };
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

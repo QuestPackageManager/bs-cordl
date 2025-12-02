@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GuiRenderableManager_RenderableInfo::*)(::Zenject::IGuiRenderable*, int32_t)>(
     &::Zenject::GuiRenderableManager_RenderableInfo::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b47d0c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6c5b6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::GuiRenderableManager_RenderableInfo::__zenCreate)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4b4845c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6c5bdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +45,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::GuiRenderableManager_RenderableInfo::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4b48568;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x6c5bea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager_RenderableInfo*>::get(),
@@ -105,8 +105,8 @@ constexpr ::Zenject::GuiRenderableManager_RenderableInfo::GuiRenderableManager_R
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GuiRenderableManager___c::*)()>(&::Zenject::GuiRenderableManager___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b488bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c5c1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager___c*>::get(), ".ctor",
@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::GuiRenderableManager___c::*)(::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(
     &::Zenject::GuiRenderableManager___c::__ctor_b__1_2)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b488c4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6c5c1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::GuiRenderableManager___c::*)(::Zenject::GuiRenderableManager_RenderableInfo*)>(
     &::Zenject::GuiRenderableManager___c::__ctor_b__1_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b488dc;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6c5c1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::GuiRenderableManager___c::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b488f4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c5c1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,8 +163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::GuiRenderableManager___c::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b48948;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c5c230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager___c*>::get(),
@@ -235,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GuiRenderableManager___c__DisplayClass1_0::*)()>(
     &::Zenject::GuiRenderableManager___c__DisplayClass1_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b47d04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c5b6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager___c__DisplayClass1_0*>::get(),
@@ -249,8 +249,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::GuiRenderableManager___c__DisplayClass1_0::*)(
     ::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*)>(&::Zenject::GuiRenderableManager___c__DisplayClass1_0::__ctor_b__1)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4b48b00;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6c5c3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::GuiRenderableManager___c__DisplayClass1_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b48b80;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c5c454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,8 +278,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::GuiRenderableManager___c__DisplayClass1_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b48bd4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c5c498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager___c__DisplayClass1_0*>::get(),
@@ -332,8 +332,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GuiRenderableManager::*)(
     ::System::Collections::Generic::List_1<::Zenject::IGuiRenderable*>*, ::System::Collections::Generic::List_1<::ModestTree::Util::ValuePair_2<::System::Type*, int32_t>*>*)>(
     &::Zenject::GuiRenderableManager::_ctor)> {
-  constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x4b477ac;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x6c5b1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GuiRenderableManager::*)()>(&::Zenject::GuiRenderableManager::OnGui)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x4b47d3c;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x6c5b6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager*>::get(), "OnGui",
@@ -362,8 +362,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::GuiRenderableManager::__zenCreate)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4b4804c;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6c5b9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,8 +376,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::GuiRenderableManager::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4b48164;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x6c5bad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GuiRenderableManager*>::get(),

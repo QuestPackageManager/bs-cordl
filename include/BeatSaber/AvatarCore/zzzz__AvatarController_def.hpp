@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstddef>
@@ -48,7 +47,7 @@ struct AvatarController__LoadAndDisplayAvatar_d__11;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarController);
 MARK_VAL_T(::BeatSaber::AvatarCore::AvatarController__LoadAndDisplayAvatar_d__11);
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::AvatarCore {
 // Is value type: true
 // CS Name: BeatSaber.AvatarCore.AvatarController/<LoadAndDisplayAvatar>d__11
@@ -58,10 +57,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x224ae0c, size 0x5c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x316b168, size 0x570, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x224b54c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x316b8a4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -79,7 +78,7 @@ public:
                                                          ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::BeatSaber::AvatarCore::Avatar>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21378 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -145,12 +144,12 @@ public:
 
   __declspec(property(get = get_avatar)) ::UnityW<::BeatSaber::AvatarCore::Avatar> avatar;
 
-  /// @brief Method LoadAndDisplayAvatar, addr 0x224ad74, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method LoadAndDisplayAvatar, addr 0x316b0c0, size 0xa4, virtual false, abstract: false, final false
   inline void LoadAndDisplayAvatar();
 
   static inline ::BeatSaber::AvatarCore::AvatarController* New_ctor();
 
-  /// @brief Method Start, addr 0x224ad70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x316b0bc, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::BeatSaber::AvatarCore::Avatar> const& __cordl_internal_get__avatar() const;
@@ -201,10 +200,10 @@ public:
 
   constexpr void __cordl_internal_set__visualDataProvider(::BeatSaber::AvatarCore::IAvatarVisualDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x224ae04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316b164, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_avatar, addr 0x224ad68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_avatar, addr 0x316b0b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::BeatSaber::AvatarCore::Avatar> get_avatar();
 
 protected:
@@ -222,7 +221,7 @@ public:
   AvatarController(AvatarController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21379 };
 
   /// @brief Field _parentingTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____parentingTransform;

@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithApplicationInviteList::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithApplicationInviteList::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7ba1c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc20b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ApplicationInviteList* (::Oculus::Platform::MessageWithApplicationInviteList::*)()>(
     &::Oculus::Platform::MessageWithApplicationInviteList::GetApplicationInviteList)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7db7c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc4ac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::ApplicationInviteList* (
     ::Oculus::Platform::MessageWithApplicationInviteList::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithApplicationInviteList::GetDataFromMessage)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7dbb8;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5bc4b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithApplicationInviteList*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithApplicationInviteList*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithApplicationInviteList*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -66,7 +66,7 @@ inline ::Oculus::Platform::Models::ApplicationInviteList* Oculus::Platform::Mess
 inline ::Oculus::Platform::Models::ApplicationInviteList* Oculus::Platform::MessageWithApplicationInviteList::GetDataFromMessage(::System::IntPtr c_message) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithApplicationInviteList*>::get(), 72)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithApplicationInviteList*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::ApplicationInviteList*, false>(this, ___internal_method, c_message);
 }
 inline ::Oculus::Platform::MessageWithApplicationInviteList* Oculus::Platform::MessageWithApplicationInviteList::New_ctor(::System::IntPtr c_message) {

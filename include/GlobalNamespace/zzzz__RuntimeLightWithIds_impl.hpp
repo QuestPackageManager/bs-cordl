@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId::*)()>(
     &::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e465c;
+  constexpr static std::size_t addrs = 0x565bd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId::*)(float_t)>(
     &::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId::set_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4664;
+  constexpr static std::size_t addrs = 0x565bd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId::*)(int32_t, float_t)>(
     &::GlobalNamespace::RuntimeLightWithIds_LightIntensitiesWithId::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39e466c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x565bd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorMixAndWeightingApproach (::GlobalNamespace::RuntimeLightWithIds::*)()>(
     &::GlobalNamespace::RuntimeLightWithIds::get_mixType)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39e448c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x565bbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RuntimeLightWithIds*>::get(), "get_mixType",
@@ -121,8 +121,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithIds::*)()>(&::GlobalNamespace::RuntimeLightWithIds::ProcessNewColorData)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x39e4490;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x565bbf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* (
     ::GlobalNamespace::RuntimeLightWithIds::*)()>(&::GlobalNamespace::RuntimeLightWithIds::GetLightWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e4654;
+  constexpr static std::size_t addrs = 0x565bd84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RuntimeLightWithIds::*)(::UnityEngine::Color, float_t)>(
     &::GlobalNamespace::RuntimeLightWithIds::ProcessColor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39e4610;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x565bd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RuntimeLightWithIds::*)()>(&::GlobalNamespace::RuntimeLightWithIds::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39e3ef8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56581f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RuntimeLightWithIds*>::get(), ".ctor",

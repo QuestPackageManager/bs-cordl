@@ -35,10 +35,10 @@ public:
   /// @brief Field _identity, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__identity, put = __cordl_internal_set__identity)) ::System::Object* _identity;
 
-  /// @brief Method CreateObjRef, addr 0x3e369a0, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x5a7c650, size 0x38, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method InitializeLifetimeService, addr 0x3e369d8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InitializeLifetimeService, addr 0x5a7c688, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* InitializeLifetimeService();
 
   static inline ::System::MarshalByRefObject* New_ctor();
@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__identity(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e30088, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a75aac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ObjectIdentity, addr 0x3e36930, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x5a7c5e0, size 0x38, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::ServerIdentity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x3e36968, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x5a7c618, size 0x38, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::ServerIdentity* value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   MarshalByRefObject(MarshalByRefObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2615 };
 
   /// @brief Field _identity, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____identity;

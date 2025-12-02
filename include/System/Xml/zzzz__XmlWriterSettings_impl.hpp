@@ -24,8 +24,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x432c76c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x608dde4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), ".ctor",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_Async)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d0b4;
+  constexpr static std::size_t addrs = 0x608e7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_Async",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d0bc;
+  constexpr static std::size_t addrs = 0x608e7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_Encoding",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_OmitXmlDeclaration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d0c4;
+  constexpr static std::size_t addrs = 0x608e7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(bool)>(&::System::Xml::XmlWriterSettings::set_OmitXmlDeclaration)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x432d0cc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x608e804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::NewLineHandling (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_NewLineHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d1e0;
+  constexpr static std::size_t addrs = 0x608e914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_NewLineHandling",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_NewLineChars)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d1e8;
+  constexpr static std::size_t addrs = 0x608e91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_NewLineChars",
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_Indent)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x432d1f0;
+  constexpr static std::size_t addrs = 0x608e924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_Indent",
@@ -130,8 +130,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(bool)>(&::System::Xml::XmlWriterSettings::set_Indent)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x432d200;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x608e934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_IndentChars)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d268;
+  constexpr static std::size_t addrs = 0x608e9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_IndentChars",
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_NewLineOnAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d270;
+  constexpr static std::size_t addrs = 0x608e9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_CloseOutput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d278;
+  constexpr static std::size_t addrs = 0x608e9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_CloseOutput",
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ConformanceLevel (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_ConformanceLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d280;
+  constexpr static std::size_t addrs = 0x608e9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_ConformanceLevel",
@@ -198,8 +198,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(::System::Xml::ConformanceLevel)>(
     &::System::Xml::XmlWriterSettings::set_ConformanceLevel)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x432d288;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x608e9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_CheckCharacters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d334;
+  constexpr static std::size_t addrs = 0x608ea70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_CheckCharacters",
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::NamespaceHandling (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_NamespaceHandling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d33c;
+  constexpr static std::size_t addrs = 0x608ea78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -240,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(::System::Xml::NamespaceHandling)>(
     &::System::Xml::XmlWriterSettings::set_NamespaceHandling)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x432d344;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x608ea80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_WriteEndDocumentOnClose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d3f0;
+  constexpr static std::size_t addrs = 0x608eb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlOutputMethod (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_OutputMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d3f8;
+  constexpr static std::size_t addrs = 0x608eb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_OutputMethod",
@@ -283,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(::System::Xml::XmlOutputMethod)>(
     &::System::Xml::XmlWriterSettings::set_OutputMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d400;
+  constexpr static std::size_t addrs = 0x608eb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriterSettings* (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::Clone)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x432d408;
+  constexpr static std::size_t addrs = 0x608eb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "Clone",
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::System::Xml::XmlQualifiedName*>* (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_CDataSectionElements)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d4d0;
+  constexpr static std::size_t addrs = 0x608ec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -325,7 +325,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_DoNotEscapeUriAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d4d8;
+  constexpr static std::size_t addrs = 0x608ec18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -338,7 +338,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_MergeCDataSections)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d4e0;
+  constexpr static std::size_t addrs = 0x608ec20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -351,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_MediaType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d4e8;
+  constexpr static std::size_t addrs = 0x608ec28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_MediaType",
@@ -364,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_DocTypeSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d4f0;
+  constexpr static std::size_t addrs = 0x608ec30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_DocTypeSystem",
@@ -377,7 +377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_DocTypePublic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d4f8;
+  constexpr static std::size_t addrs = 0x608ec38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_DocTypePublic",
@@ -391,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlStandalone (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_Standalone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d500;
+  constexpr static std::size_t addrs = 0x608ec40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_Standalone",
@@ -404,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_AutoXmlDeclaration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d508;
+  constexpr static std::size_t addrs = 0x608ec48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(),
@@ -418,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::TriState (::System::Xml::XmlWriterSettings::*)()>(
     &::System::Xml::XmlWriterSettings::get_IndentInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432d510;
+  constexpr static std::size_t addrs = 0x608ec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_IndentInternal",
@@ -430,8 +430,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::get_IsQuerySpecific)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x432d518;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x608ec58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "get_IsQuerySpecific",
@@ -444,8 +444,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriter* (::System::Xml::XmlWriterSettings::*)(::System::IO::Stream*)>(
     &::System::Xml::XmlWriterSettings::CreateWriter)> {
-  constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x432c7f0;
+  constexpr static std::size_t size = 0x4e8;
+  constexpr static std::size_t addrs = 0x608de5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -459,8 +459,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriter* (::System::Xml::XmlWriterSettings::*)(::System::IO::TextWriter*)>(
     &::System::Xml::XmlWriterSettings::CreateWriter)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x432ccd0;
+  constexpr static std::size_t size = 0x348;
+  constexpr static std::size_t addrs = 0x608e3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -473,8 +473,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(bool)>(&::System::Xml::XmlWriterSettings::set_ReadOnly)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x432d588;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x608ecd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -487,8 +487,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)(::StringW)>(&::System::Xml::XmlWriterSettings::CheckReadOnly)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x432d12c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x608e868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,8 +501,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWriterSettings::*)()>(&::System::Xml::XmlWriterSettings::Initialize)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x432cfd4;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x608e700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWriterSettings*>::get(), "Initialize",

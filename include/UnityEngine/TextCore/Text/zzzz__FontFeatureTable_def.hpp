@@ -53,74 +53,74 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::TextCore::Text::FontFeatureTable___c* __9;
 
+  /// @brief Field <>9__24_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__24_0, put = setStaticF___9__24_0)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* __9__24_0;
+
+  /// @brief Field <>9__24_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__24_1, put = setStaticF___9__24_1)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* __9__24_1;
+
   /// @brief Field <>9__25_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* __9__25_0;
+  __declspec(property(get = getStaticF___9__25_0, put = setStaticF___9__25_0)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* __9__25_0;
 
   /// @brief Field <>9__25_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__25_1, put = setStaticF___9__25_1)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* __9__25_1;
+  __declspec(property(get = getStaticF___9__25_1, put = setStaticF___9__25_1)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* __9__25_1;
 
   /// @brief Field <>9__26_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__26_0, put = setStaticF___9__26_0)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* __9__26_0;
+  __declspec(property(get = getStaticF___9__26_0, put = setStaticF___9__26_0)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* __9__26_0;
 
   /// @brief Field <>9__26_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__26_1, put = setStaticF___9__26_1)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* __9__26_1;
-
-  /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* __9__27_0;
-
-  /// @brief Field <>9__27_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__27_1, put = setStaticF___9__27_1)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* __9__27_1;
+  __declspec(property(get = getStaticF___9__26_1, put = setStaticF___9__26_1)) ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* __9__26_1;
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable___c* New_ctor();
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_0, addr 0x492d828, size 0x48, virtual false, abstract: false, final false
-  inline uint32_t _SortGlyphPairAdjustmentRecords_b__25_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__24_0, addr 0x6992b88, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t _SortGlyphPairAdjustmentRecords_b__24_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortGlyphPairAdjustmentRecords>b__25_1, addr 0x492d870, size 0x48, virtual false, abstract: false, final false
-  inline uint32_t _SortGlyphPairAdjustmentRecords_b__25_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
+  /// @brief Method <SortGlyphPairAdjustmentRecords>b__24_1, addr 0x6992b90, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t _SortGlyphPairAdjustmentRecords_b__24_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_0, addr 0x492d8b8, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t _SortMarkToBaseAdjustmentRecords_b__26_0(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s);
+  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__25_0, addr 0x6992b98, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t _SortMarkToBaseAdjustmentRecords_b__25_0(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__26_1, addr 0x492d8c4, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t _SortMarkToBaseAdjustmentRecords_b__26_1(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s);
+  /// @brief Method <SortMarkToBaseAdjustmentRecords>b__25_1, addr 0x6992ba0, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t _SortMarkToBaseAdjustmentRecords_b__25_1(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_0, addr 0x492d8d0, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t _SortMarkToMarkAdjustmentRecords_b__27_0(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s);
+  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__26_0, addr 0x6992ba8, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t _SortMarkToMarkAdjustmentRecords_b__26_0(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s);
 
-  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__27_1, addr 0x492d8dc, size 0xc, virtual false, abstract: false, final false
-  inline uint32_t _SortMarkToMarkAdjustmentRecords_b__27_1(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s);
+  /// @brief Method <SortMarkToMarkAdjustmentRecords>b__26_1, addr 0x6992bb0, size 0x8, virtual false, abstract: false, final false
+  inline uint32_t _SortMarkToMarkAdjustmentRecords_b__26_1(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s);
 
-  /// @brief Method .ctor, addr 0x492d820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6992b84, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable___c* getStaticF___9();
 
-  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* getStaticF___9__25_0();
+  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* getStaticF___9__24_0();
 
-  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* getStaticF___9__25_1();
+  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* getStaticF___9__24_1();
 
-  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* getStaticF___9__26_0();
+  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* getStaticF___9__25_0();
 
-  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* getStaticF___9__26_1();
+  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* getStaticF___9__25_1();
 
-  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* getStaticF___9__27_0();
+  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* getStaticF___9__26_0();
 
-  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* getStaticF___9__27_1();
+  static inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* getStaticF___9__26_1();
 
   static inline void setStaticF___9(::UnityEngine::TextCore::Text::FontFeatureTable___c* value);
 
-  static inline void setStaticF___9__25_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value);
+  static inline void setStaticF___9__24_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value);
 
-  static inline void setStaticF___9__25_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value);
+  static inline void setStaticF___9__24_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value);
 
-  static inline void setStaticF___9__26_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value);
+  static inline void setStaticF___9__25_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value);
 
-  static inline void setStaticF___9__26_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value);
+  static inline void setStaticF___9__25_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value);
 
-  static inline void setStaticF___9__27_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value);
+  static inline void setStaticF___9__26_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value);
 
-  static inline void setStaticF___9__27_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value);
+  static inline void setStaticF___9__26_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value);
 
 protected:
   // Ctor Parameters []
@@ -137,7 +137,7 @@ public:
   FontFeatureTable___c(FontFeatureTable___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -153,6 +153,12 @@ class CORDL_TYPE FontFeatureTable : public ::System::Object {
 public:
   // Declarations
   using __c = ::UnityEngine::TextCore::Text::FontFeatureTable___c;
+
+  __declspec(property(get = get_MarkToBaseAdjustmentRecords)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>* MarkToBaseAdjustmentRecords;
+
+  __declspec(property(get = get_MarkToMarkAdjustmentRecords)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* MarkToMarkAdjustmentRecords;
+
+  __declspec(property(get = get_glyphPairAdjustmentRecords)) ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* glyphPairAdjustmentRecords;
 
   /// @brief Field m_GlyphPairAdjustmentRecordLookup, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup, put = __cordl_internal_set_m_GlyphPairAdjustmentRecordLookup)) ::System::Collections::Generic::Dictionary_2<
@@ -197,13 +203,13 @@ public:
 
   static inline ::UnityEngine::TextCore::Text::FontFeatureTable* New_ctor();
 
-  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x4926144, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortGlyphPairAdjustmentRecords, addr 0x6992524, size 0x204, virtual false, abstract: false, final false
   inline void SortGlyphPairAdjustmentRecords();
 
-  /// @brief Method SortMarkToBaseAdjustmentRecords, addr 0x4926330, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortMarkToBaseAdjustmentRecords, addr 0x6992728, size 0x204, virtual false, abstract: false, final false
   inline void SortMarkToBaseAdjustmentRecords();
 
-  /// @brief Method SortMarkToMarkAdjustmentRecords, addr 0x492651c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method SortMarkToMarkAdjustmentRecords, addr 0x699292c, size 0x204, virtual false, abstract: false, final false
   inline void SortMarkToMarkAdjustmentRecords();
 
   constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* const& __cordl_internal_get_m_GlyphPairAdjustmentRecordLookup() const;
@@ -265,8 +271,17 @@ public:
 
   constexpr void __cordl_internal_set_m_MultipleSubstitutionRecords(::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MultipleSubstitutionRecord>* value);
 
-  /// @brief Method .ctor, addr 0x492b6dc, size 0x258, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6992228, size 0x2fc, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_MarkToBaseAdjustmentRecords, addr 0x6992218, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>* get_MarkToBaseAdjustmentRecords();
+
+  /// @brief Method get_MarkToMarkAdjustmentRecords, addr 0x6992220, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* get_MarkToMarkAdjustmentRecords();
+
+  /// @brief Method get_glyphPairAdjustmentRecords, addr 0x6992210, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* get_glyphPairAdjustmentRecords();
 
 protected:
   // Ctor Parameters []
@@ -283,7 +298,7 @@ public:
   FontFeatureTable(FontFeatureTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17164 };
 
   /// @brief Field m_MultipleSubstitutionRecords, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MultipleSubstitutionRecord>* ___m_MultipleSubstitutionRecords;

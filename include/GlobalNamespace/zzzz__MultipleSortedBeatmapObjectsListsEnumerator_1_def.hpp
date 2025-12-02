@@ -4,10 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Priority_Queue/zzzz__StablePriorityQueueNode_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include <cstdint>
@@ -28,7 +24,13 @@ namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -119,7 +121,7 @@ public:
   MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode(MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14862 };
 
   /// @brief Field _dataList, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<T>* ____dataList;
@@ -134,7 +136,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object, System.ValueTuple`2<T1, T2>
+// Dependencies System.Object, System.ValueTuple`2<T1, T2>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -238,7 +240,7 @@ public:
   MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4(MultipleSortedBeatmapObjectsListsEnumerator_1__GetEnumerator_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14863 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -256,7 +258,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -316,7 +318,7 @@ public:
   MultipleSortedBeatmapObjectsListsEnumerator_1(MultipleSortedBeatmapObjectsListsEnumerator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14864 };
 
   /// @brief Field _priorityQueue, offset: 0x10, size: 0x8, def value: None
   ::Priority_Queue::StablePriorityQueue_1<::GlobalNamespace::MultipleSortedBeatmapObjectsListsEnumerator_1_BeatmapObjectListNode<T>*>* ____priorityQueue;

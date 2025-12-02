@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfo.hpp"
-#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReader_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfo_def.hpp"
 #include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
@@ -10,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430d4b4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5f97354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,14 +24,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::HasLineInfo)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x430e364;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5f98550;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 56));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 78));
     return ___internal_method;
   }
 };
@@ -41,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LineNumber)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430e404;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f985f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 57));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 79));
     return ___internal_method;
   }
 };
@@ -57,14 +56,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlAsyncCheckReaderWithLineInfo::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430e4a8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f9869c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 58));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 80));
     return ___internal_method;
   }
 };
@@ -88,17 +87,17 @@ inline void System::Xml::XmlAsyncCheckReaderWithLineInfo::_ctor(::System::Xml::X
 }
 inline bool System::Xml::XmlAsyncCheckReaderWithLineInfo::HasLineInfo() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 56)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 78)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline int32_t System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LineNumber() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 57)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 79)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline int32_t System::Xml::XmlAsyncCheckReaderWithLineInfo::get_LinePosition() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 58)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckReaderWithLineInfo*>::get(), 80)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlAsyncCheckReaderWithLineInfo* System::Xml::XmlAsyncCheckReaderWithLineInfo::New_ctor(::System::Xml::XmlReader* reader) {

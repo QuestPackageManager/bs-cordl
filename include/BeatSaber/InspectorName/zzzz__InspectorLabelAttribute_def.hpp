@@ -19,7 +19,7 @@ namespace BeatSaber::InspectorName {
 class CORDL_TYPE InspectorLabelAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field CustomLabel, offset 0x10, size 0x8
+  /// @brief Field CustomLabel, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_CustomLabel, put = __cordl_internal_set_CustomLabel)) ::StringW CustomLabel;
 
   static inline ::BeatSaber::InspectorName::InspectorLabelAttribute* New_ctor(::StringW customLabel);
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_CustomLabel(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22b665c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fd6b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW customLabel);
 
 protected:
@@ -48,17 +48,17 @@ public:
   InspectorLabelAttribute(InspectorLabelAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20695 };
 
-  /// @brief Field CustomLabel, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field CustomLabel, offset: 0x18, size: 0x8, def value: None
   ::StringW ___CustomLabel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatSaber::InspectorName::InspectorLabelAttribute, ___CustomLabel) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BeatSaber::InspectorName::InspectorLabelAttribute, ___CustomLabel) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BeatSaber::InspectorName::InspectorLabelAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatSaber::InspectorName::InspectorLabelAttribute, 0x20>, "Size mismatch!");
 
 } // namespace BeatSaber::InspectorName
 NEED_NO_BOX(::BeatSaber::InspectorName::InspectorLabelAttribute);

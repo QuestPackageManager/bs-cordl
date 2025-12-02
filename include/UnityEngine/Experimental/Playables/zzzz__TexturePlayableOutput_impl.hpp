@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Experimental/Playables/TexturePlayableOutput.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__TexturePlayableOutput_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::Playables::TexturePlayableOutput.GetHandle
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableOutputHandle (::UnityEngine::Experimental::Playables::TexturePlayableOutput::*)()>(
     &::UnityEngine::Experimental::Playables::TexturePlayableOutput::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48d0ec8;
+  constexpr static std::size_t addrs = 0x68fc6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

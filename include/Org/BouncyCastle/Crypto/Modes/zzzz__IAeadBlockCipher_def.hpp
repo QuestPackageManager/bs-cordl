@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAeadBlockCipher)
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
+}
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
@@ -15,7 +17,7 @@ class IAeadBlockCipher;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher);
-// Dependencies Org.BouncyCastle.Crypto.Modes.IAeadCipher
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher

@@ -16,8 +16,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::add_didSelectDifficultyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b57af0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57407dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,8 +34,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>, ::GlobalNamespace::BeatmapDifficulty>*)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::remove_didSelectDifficultyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b57ba0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574089c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::get_selectedDifficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b57c50;
+  constexpr static std::size_t addrs = 0x574095c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b57c58;
+  constexpr static std::size_t addrs = 0x5740964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b57ce8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x57409f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::GetClosestDifficultyIndex)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3b57db8;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5740ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::HandleDifficultySegmentedControlDidSelectCell)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b57f04;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5740be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,8 +129,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapDifficulty>*, ::GlobalNamespace::BeatmapDifficulty, ::GlobalNamespace::BeatmapDifficultyMask)>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::SetData)> {
-  constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x3b57f8c;
+  constexpr static std::size_t size = 0x4f8;
+  constexpr static std::size_t addrs = 0x5740c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDifficultySegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapDifficultySegmentedControlController::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b58480;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5741178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

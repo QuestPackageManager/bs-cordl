@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ILobbyPlayersDataModel)
 namespace GlobalNamespace {
@@ -19,6 +14,21 @@ class GameplayModifiers;
 namespace GlobalNamespace {
 class ILobbyPlayerData;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 template <typename T> class Action_1;
 }
@@ -28,8 +38,7 @@ class ILobbyPlayersDataModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ILobbyPlayersDataModel);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyDictionary`2<TKey, TValue>,
-// System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ILobbyPlayersDataModel
@@ -120,7 +129,7 @@ public:
   ILobbyPlayersDataModel(ILobbyPlayersDataModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15068 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/X509/SigI/NameOrPseudonym.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_impl.hpp"
 #include "Org/BouncyCastle/Asn1/X509/SigI/zzzz__NameOrPseudonym_def.hpp"
 #include "Org/BouncyCastle/Asn1/X500/zzzz__DirectoryString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Sequence_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym.GetInstance
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::GetInstance)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x2503ae4;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x34336e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)(::Org::BouncyCastle::Asn1::X500::DirectoryString*)>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2503cbc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x34338c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::_ctor)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2503ce4;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x34338cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2503e84;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3433a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)(
     ::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2503ef4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3433acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::get_Pseudonym)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2503f20;
+  constexpr static std::size_t addrs = 0x3433ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X500::DirectoryString* (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::get_Surname)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2503f28;
+  constexpr static std::size_t addrs = 0x3433adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*>::get(),
@@ -117,8 +117,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X500::DirectoryString*, ::Array<::Org::BouncyCastle::Asn1::X500::DirectoryString*>*> (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)()>(
         &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::GetGivenName)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x2503f30;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x3433ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym*>::get(),
@@ -131,8 +131,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::*)()>(
     &::Org::BouncyCastle::Asn1::X509::SigI::NameOrPseudonym::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2504248;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x3433df0;
 
   inline static ::MethodInfo const* methodInfo() {
 

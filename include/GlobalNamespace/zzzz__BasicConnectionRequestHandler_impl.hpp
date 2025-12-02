@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BasicConnectionRequestHandler.hpp"
-#include "GlobalNamespace/zzzz__IConnectionRequestHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicConnectionRequestHandler_def.hpp"
+#include "GlobalNamespace/zzzz__IConnectionRequestHandler_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BasicConnectionRequestHandler.get_secret
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BasicConnectionRequestHandler::*)()>(
     &::GlobalNamespace::BasicConnectionRequestHandler::get_secret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b9be4;
+  constexpr static std::size_t addrs = 0x32007e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicConnectionRequestHandler*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicConnectionRequestHandler::*)(::StringW)>(
     &::GlobalNamespace::BasicConnectionRequestHandler::set_secret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b9bec;
+  constexpr static std::size_t addrs = 0x32007e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicConnectionRequestHandler::*)(
     ::LiteNetLib::Utils::NetDataWriter*, ::StringW, ::StringW, bool)>(&::GlobalNamespace::BasicConnectionRequestHandler::GetConnectionMessage)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22b9bf4;
+  constexpr static std::size_t addrs = 0x32007f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BasicConnectionRequestHandler::*)(
     ::LiteNetLib::Utils::NetDataReader*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<bool>)>(&::GlobalNamespace::BasicConnectionRequestHandler::ValidateConnectionMessage)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22b9c64;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x3200860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicConnectionRequestHandler::*)()>(
     &::GlobalNamespace::BasicConnectionRequestHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b9d20;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3200934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicConnectionRequestHandler*>::get(),

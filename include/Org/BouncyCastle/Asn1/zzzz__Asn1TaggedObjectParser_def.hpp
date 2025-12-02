@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1TaggedObjectParser)
 namespace Org::BouncyCastle::Asn1 {
@@ -15,7 +14,7 @@ class Asn1TaggedObjectParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser);
-// Dependencies Org.BouncyCastle.Asn1.IAsn1Convertible
+// Dependencies
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Asn1TaggedObjectParser

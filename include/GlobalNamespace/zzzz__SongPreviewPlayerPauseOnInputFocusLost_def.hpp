@@ -30,18 +30,18 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Method HandleInputFocusCaptured, addr 0x3ad548c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusCaptured, addr 0x56af9f8, size 0x44, virtual false, abstract: false, final false
   inline void HandleInputFocusCaptured();
 
-  /// @brief Method HandleInputFocusReleased, addr 0x3ad5678, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFocusReleased, addr 0x56afc20, size 0x44, virtual false, abstract: false, final false
   inline void HandleInputFocusReleased();
 
   static inline ::GlobalNamespace::SongPreviewPlayerPauseOnInputFocusLost* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad54d0, size 0x1a8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56afa3c, size 0x1e4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ad5278, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56af7e0, size 0x218, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioPlayerBase> const& __cordl_internal_get__songPreviewPlayer() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x3ad56bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56afc64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   SongPreviewPlayerPauseOnInputFocusLost(SongPreviewPlayerPauseOnInputFocusLost const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5593 };
 
   /// @brief Field _songPreviewPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AudioPlayerBase> ____songPreviewPlayer;

@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::AnimatorMoveHandlerManager::*)(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*)>(&::Zenject::AnimatorMoveHandlerManager::Construct)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b44a50;
+  constexpr static std::size_t addrs = 0x6c58738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AnimatorMoveHandlerManager::*)()>(&::Zenject::AnimatorMoveHandlerManager::OnAnimatorMove)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4b44a58;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x6c58740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorMoveHandlerManager*>::get(), "OnAnimatorMove",
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::AnimatorMoveHandlerManager::*)()>(&::Zenject::AnimatorMoveHandlerManager::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b44c08;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c588b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorMoveHandlerManager*>::get(), ".ctor",
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::AnimatorMoveHandlerManager::__zenInjectMethod0)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4b44c10;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6c588b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::AnimatorMoveHandlerManager::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x4b44cec;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x6c589a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::AnimatorMoveHandlerManager*>::get(),

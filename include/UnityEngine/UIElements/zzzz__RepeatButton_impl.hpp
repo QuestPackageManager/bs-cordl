@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::RepeatButton_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a047e8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b329b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton_UxmlFactory*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::RepeatButton_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4a04830;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6b32a20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::RepeatButton_UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4a04964;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6b32b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton_UxmlTraits*>::get(),
@@ -104,12 +104,27 @@ inline ::UnityEngine::UIElements::RepeatButton_UxmlTraits* UnityEngine::UIElemen
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RepeatButton_UxmlTraits::RepeatButton_UxmlTraits() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::RepeatButton.set_acceptClicksIfDisabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton::*)(bool)>(
+    &::UnityEngine::UIElements::RepeatButton::set_acceptClicksIfDisabled)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6b32790;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton*>::get(), "set_acceptClicksIfDisabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::RepeatButton._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton::*)()>(&::UnityEngine::UIElements::RepeatButton::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a045fc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b327c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton*>::get(), ".ctor",
@@ -123,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton::*)(::System::Action*, int64_t, int64_t)>(
     &::UnityEngine::UIElements::RepeatButton::_ctor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4a04690;
+  constexpr static std::size_t addrs = 0x6b3285c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton::*)(::System::Action*, int64_t, int64_t)>(
     &::UnityEngine::UIElements::RepeatButton::SetAction)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4a046d0;
+  constexpr static std::size_t addrs = 0x6b3289c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RepeatButton::*)(::System::Action*)>(
     &::UnityEngine::UIElements::RepeatButton::AddAction)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a0476c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6b32938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,11 +191,29 @@ constexpr void UnityEngine::UIElements::RepeatButton::__cordl_internal_set_m_Cli
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Clickable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr bool& UnityEngine::UIElements::RepeatButton::__cordl_internal_get_m_AcceptClicksIfDisabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AcceptClicksIfDisabled;
+}
+constexpr bool const& UnityEngine::UIElements::RepeatButton::__cordl_internal_get_m_AcceptClicksIfDisabled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AcceptClicksIfDisabled;
+}
+constexpr void UnityEngine::UIElements::RepeatButton::__cordl_internal_set_m_AcceptClicksIfDisabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AcceptClicksIfDisabled = value;
+}
 inline void UnityEngine::UIElements::RepeatButton::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton*>::get>(std::forward<::StringW>(value));
 }
 inline ::StringW UnityEngine::UIElements::RepeatButton::getStaticF_ussClassName() {
   return ::cordl_internals::getStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton*>::get>();
+}
+inline void UnityEngine::UIElements::RepeatButton::set_acceptClicksIfDisabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton*>::get(), "set_acceptClicksIfDisabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::RepeatButton::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RepeatButton*>::get(), ".ctor",

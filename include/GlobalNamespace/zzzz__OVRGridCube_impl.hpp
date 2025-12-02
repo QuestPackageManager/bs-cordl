@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4034cd0;
+  constexpr static std::size_t addrs = 0x5ce896c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGridCube*>::get(), "Update",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGridCube::*)(::ByRef<::GlobalNamespace::OVRCameraRig*>)>(
     &::GlobalNamespace::OVRGridCube::SetOVRCameraController)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4034ef4;
+  constexpr static std::size_t addrs = 0x5ce8bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::UpdateCubeGrid)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x4034cd4;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x5ce8970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGridCube*>::get(), "UpdateCubeGrid",
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::CreateCubeGrid)> {
-  constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x4034f00;
+  constexpr static std::size_t size = 0x3a0;
+  constexpr static std::size_t addrs = 0x5ce8bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGridCube*>::get(), "CreateCubeGrid",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGridCube::*)(bool)>(&::GlobalNamespace::OVRGridCube::CubeGridSwitchColor)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x40352b8;
+  constexpr static std::size_t addrs = 0x5ce8f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRGridCube::*)()>(&::GlobalNamespace::OVRGridCube::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4035434;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5ce90f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRGridCube*>::get(), ".ctor",

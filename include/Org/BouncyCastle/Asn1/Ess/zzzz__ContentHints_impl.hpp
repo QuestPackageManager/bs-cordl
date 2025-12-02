@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Ess::ContentHints* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Ess::ContentHints::GetInstance)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2326f30;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x3253bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::ContentHints::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Ess::ContentHints::_ctor)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x23270b0;
+  constexpr static std::size_t addrs = 0x3253d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::ContentHints::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Ess::ContentHints::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2327238;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3253f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Ess::ContentHints::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::DerUtf8String*)>(&::Org::BouncyCastle::Asn1::Ess::ContentHints::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2327260;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3253f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Ess::ContentHints::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::ContentHints::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x232728c;
+  constexpr static std::size_t addrs = 0x3253f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::ContentHints*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerUtf8String* (::Org::BouncyCastle::Asn1::Ess::ContentHints::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::ContentHints::get_ContentDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2327294;
+  constexpr static std::size_t addrs = 0x3253f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Ess::ContentHints*>::get(),
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Ess::ContentHints::*)()>(
     &::Org::BouncyCastle::Asn1::Ess::ContentHints::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x232729c;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x3253f24;
 
   inline static ::MethodInfo const* methodInfo() {
 

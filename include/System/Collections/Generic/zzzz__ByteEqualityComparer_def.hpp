@@ -22,27 +22,27 @@ namespace System::Collections::Generic {
 class CORDL_TYPE ByteEqualityComparer : public ::System::Collections::Generic::EqualityComparer_1<uint8_t> {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3dc9608, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x59dd0f4, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3dc9404, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x59dcf08, size 0x10, virtual true, abstract: false, final false
   inline bool Equals(uint8_t x, uint8_t y);
 
-  /// @brief Method GetHashCode, addr 0x3dc9680, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x59dd170, size 0x38, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x3dc9414, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x59dcf18, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode(uint8_t b);
 
-  /// @brief Method IndexOf, addr 0x3dc9430, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x59dcf20, size 0x178, virtual true, abstract: false, final false
   inline int32_t IndexOf(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t value, int32_t startIndex, int32_t count);
 
-  /// @brief Method LastIndexOf, addr 0x3dc95b0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x59dd098, size 0x5c, virtual true, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t value, int32_t startIndex, int32_t count);
 
   static inline ::System::Collections::Generic::ByteEqualityComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3dc96b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59dd1a8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -60,7 +60,7 @@ public:
   ByteEqualityComparer(ByteEqualityComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3813 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

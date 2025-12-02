@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/Packet.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__Packet_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::Packet._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Packet::*)(::System::IntPtr)>(&::Oculus::Platform::Packet::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f8160c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5bc8d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Packet::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Oculus::Platform::Packet::ReadBytes)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3f8168c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x5bc8de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Packet::*)()>(&::Oculus::Platform::Packet::get_SenderID)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f817c8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc8f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Packet*>::get(), "get_SenderID",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::Oculus::Platform::Packet::*)()>(&::Oculus::Platform::Packet::get_Size)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f81820;
+  constexpr static std::size_t addrs = 0x5bc8f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Packet*>::get(), "get_Size",
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Packet::*)()>(&::Oculus::Platform::Packet::Finalize)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f81828;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc8f88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Packet::*)()>(&::Oculus::Platform::Packet::Dispose)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3f818bc;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5bc8fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Packet*>::get(), "Dispose",

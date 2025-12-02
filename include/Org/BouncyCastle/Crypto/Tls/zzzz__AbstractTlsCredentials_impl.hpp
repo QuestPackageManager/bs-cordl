@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsCredentials.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials.get_Certificate
 template <>
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e09f0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x330ee48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsCredentials*>::get(),

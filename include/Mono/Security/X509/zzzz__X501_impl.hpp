@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Mono::Security::ASN1*)>(&::Mono::Security::X509::X501::ToString)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3c338a8;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x5876ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Mono::Security::ASN1*, bool, ::StringW, bool)>(&::Mono::Security::X509::X501::ToString)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3c3b768;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x587e3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::Mono::Security::ASN1*, bool)>(
     &::Mono::Security::X509::X501::AppendEntry)> {
-  constexpr static std::size_t size = 0x7c8;
-  constexpr static std::size_t addrs = 0x3c3afa0;
+  constexpr static std::size_t size = 0x878;
+  constexpr static std::size_t addrs = 0x587db7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

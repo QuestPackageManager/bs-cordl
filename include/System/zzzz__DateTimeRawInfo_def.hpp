@@ -21,24 +21,24 @@ namespace System {
 struct CORDL_TYPE DateTimeRawInfo {
 public:
   // Declarations
-  /// @brief Method AddNumber, addr 0x3de4008, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method AddNumber, addr 0x5a29e64, size 0x18, virtual false, abstract: false, final false
   inline void AddNumber(int32_t value);
 
-  /// @brief Method GetNumber, addr 0x3de4020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetNumber, addr 0x5a29e7c, size 0xc, virtual false, abstract: false, final false
   inline int32_t GetNumber(int32_t index);
 
-  /// @brief Method Init, addr 0x3de3fe8, size 0x20, virtual false, abstract: false, final false
-  inline void Init(::cordl_internals::Ptr<int32_t> numberBuffer);
+  /// @brief Method Init, addr 0x5a29e44, size 0x20, virtual false, abstract: false, final false
+  inline void Init(int32_t* numberBuffer);
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr DateTimeRawInfo();
 
-  // Ctor Parameters [CppParam { name: "num", ty: "::cordl_internals::Ptr<int32_t>", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "month", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "::System::DateTimeParse_TM", modifiers: "", def_value:
-  // None }, CppParam { name: "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None }]
-  constexpr DateTimeRawInfo(::cordl_internals::Ptr<int32_t> num, int32_t numCount, int32_t month, int32_t year, int32_t dayOfWeek, int32_t era, ::System::DateTimeParse_TM timeMark, double_t fraction,
+  // Ctor Parameters [CppParam { name: "num", ty: "int32_t*", modifiers: "", def_value: None }, CppParam { name: "numCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "month",
+  // ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "year", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "dayOfWeek", ty: "int32_t", modifiers: "", def_value:
+  // None }, CppParam { name: "era", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "timeMark", ty: "::System::DateTimeParse_TM", modifiers: "", def_value: None }, CppParam { name:
+  // "fraction", ty: "double_t", modifiers: "", def_value: None }, CppParam { name: "hasSameDateAndTimeSeparators", ty: "bool", modifiers: "", def_value: None }]
+  constexpr DateTimeRawInfo(int32_t* num, int32_t numCount, int32_t month, int32_t year, int32_t dayOfWeek, int32_t era, ::System::DateTimeParse_TM timeMark, double_t fraction,
                             bool hasSameDateAndTimeSeparators) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
@@ -48,7 +48,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
 
   /// @brief Field num, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<int32_t> num;
+  int32_t* num;
 
   /// @brief Field numCount, offset: 0x8, size: 0x4, def value: None
   int32_t numCount;

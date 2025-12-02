@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::StringW, ::UnityEngine::UIElements::DragVisualMode)>(
     &::UnityEngine::UIElements::StartDragArgs::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a18560;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6b55448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_title)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1a450;
+  constexpr static std::size_t addrs = 0x6b5739c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(), "get_title",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DragVisualMode (::UnityEngine::UIElements::StartDragArgs::*)()>(
     &::UnityEngine::UIElements::StartDragArgs::get_visualMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1a458;
+  constexpr static std::size_t addrs = 0x6b573a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::UnityEngine::UIElements::StartDragArgs::*)()>(
     &::UnityEngine::UIElements::StartDragArgs::get_genericData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1a460;
+  constexpr static std::size_t addrs = 0x6b573ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::System::Collections::Hashtable*)>(
     &::UnityEngine::UIElements::StartDragArgs::set_genericData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1a468;
+  constexpr static std::size_t addrs = 0x6b573b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* (
     ::UnityEngine::UIElements::StartDragArgs::*)()>(&::UnityEngine::UIElements::StartDragArgs::get_unityObjectReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1a470;
+  constexpr static std::size_t addrs = 0x6b573bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*)>(&::UnityEngine::UIElements::StartDragArgs::set_unityObjectReferences)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1a478;
+  constexpr static std::size_t addrs = 0x6b573c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,13 +108,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::StartDragArgs.get_assetPaths
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::UnityEngine::UIElements::StartDragArgs::*)()>(
+    &::UnityEngine::UIElements::StartDragArgs::get_assetPaths)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b573cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(),
+                                                                               "get_assetPaths", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StartDragArgs.set_assetPaths
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
+    &::UnityEngine::UIElements::StartDragArgs::set_assetPaths)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b573d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(), "set_assetPaths", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::StartDragArgs.SetGenericData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StartDragArgs::*)(::StringW, ::System::Object*)>(
     &::UnityEngine::UIElements::StartDragArgs::SetGenericData)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a1a480;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6b573dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,6 +192,17 @@ inline void UnityEngine::UIElements::StartDragArgs::set_unityObjectReferences(::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::ArrayW<::StringW, ::Array<::StringW>*> UnityEngine::UIElements::StartDragArgs::get_assetPaths() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(), "get_assetPaths",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StartDragArgs::set_assetPaths(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(), "set_assetPaths", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline void UnityEngine::UIElements::StartDragArgs::SetGenericData(::StringW key, ::System::Object* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StartDragArgs>::get(), "SetGenericData", std::span<Il2CppClass const* const, 0>(),
@@ -172,14 +212,16 @@ inline void UnityEngine::UIElements::StartDragArgs::SetGenericData(::StringW key
 // Ctor Parameters [CppParam { name: "_title_k__BackingField", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_visualMode_k__BackingField", ty:
 // "::UnityEngine::UIElements::DragVisualMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "_genericData_k__BackingField", ty: "::System::Collections::Hashtable*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "_unityObjectReferences_k__BackingField", ty: "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*", modifiers: "", def_value:
-// Some("{}") }]
+// Some("{}") }, CppParam { name: "_assetPaths_k__BackingField", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::StartDragArgs::StartDragArgs(::StringW _title_k__BackingField, ::UnityEngine::UIElements::DragVisualMode _visualMode_k__BackingField,
                                                                   ::System::Collections::Hashtable* _genericData_k__BackingField,
-                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField) noexcept {
+                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField,
+                                                                  ::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths_k__BackingField) noexcept {
   this->_title_k__BackingField = _title_k__BackingField;
   this->_visualMode_k__BackingField = _visualMode_k__BackingField;
   this->_genericData_k__BackingField = _genericData_k__BackingField;
   this->_unityObjectReferences_k__BackingField = _unityObjectReferences_k__BackingField;
+  this->_assetPaths_k__BackingField = _assetPaths_k__BackingField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::StartDragArgs::StartDragArgs() {}

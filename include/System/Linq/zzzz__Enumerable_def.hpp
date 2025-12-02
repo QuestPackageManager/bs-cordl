@@ -3,13 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__Buffer_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -90,9 +85,6 @@ namespace System::Linq {
 template <typename TSource> class Enumerable__ReverseIterator_d__79_1;
 }
 namespace System::Linq {
-template <typename TSource, typename TResult> class Enumerable__SelectIterator_d__5_2;
-}
-namespace System::Linq {
 template <typename TSource, typename TResult> class Enumerable__SelectManyIterator_d__17_2;
 }
 namespace System::Linq {
@@ -127,6 +119,9 @@ template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 template <typename T1, typename T2, typename TResult> class Func_3;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -184,9 +179,6 @@ namespace System::Linq {
 template <typename TSource> class Enumerable__ReverseIterator_d__79_1;
 }
 namespace System::Linq {
-template <typename TSource, typename TResult> class Enumerable__SelectIterator_d__5_2;
-}
-namespace System::Linq {
 template <typename TSource, typename TResult> class Enumerable__SelectManyIterator_d__17_2;
 }
 namespace System::Linq {
@@ -225,7 +217,6 @@ MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__IntersectIterator_d__74_1);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__OfTypeIterator_d__97_1);
 MARK_REF_PTR_T(::System::Linq::Enumerable__RangeIterator_d__115);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__ReverseIterator_d__79_1);
-MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__SelectIterator_d__5_2);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__SelectManyIterator_d__17_2);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__SkipIterator_d__31_1);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__TakeIterator_d__25_1);
@@ -233,8 +224,7 @@ MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__UnionIterator_d__71_1);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable__ZipIterator_d__65_3);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable___c__DisplayClass6_0_1);
 MARK_GEN_REF_PTR_T(::System::Linq::Enumerable___c__DisplayClass7_0_3);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -354,7 +344,7 @@ public:
   Enumerable_Iterator_1(Enumerable_Iterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13568 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16016 };
 
   /// @brief Field threadId, offset: 0x10, size: 0x4, def value: None
   int32_t ___threadId;
@@ -440,7 +430,7 @@ public:
   Enumerable_WhereEnumerableIterator_1(Enumerable_WhereEnumerableIterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13569 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16017 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TSource>* ___source;
@@ -523,7 +513,7 @@ public:
   Enumerable_WhereArrayIterator_1(Enumerable_WhereArrayIterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16018 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<TSource, ::Array<TSource>*> ___source;
@@ -606,7 +596,7 @@ public:
   Enumerable_WhereListIterator_1(Enumerable_WhereListIterator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16019 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TSource>* ___source;
@@ -702,7 +692,7 @@ public:
   Enumerable_WhereSelectEnumerableIterator_2(Enumerable_WhereSelectEnumerableIterator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16020 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TSource>* ___source;
@@ -798,7 +788,7 @@ public:
   Enumerable_WhereSelectArrayIterator_2(Enumerable_WhereSelectArrayIterator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16021 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<TSource, ::Array<TSource>*> ___source;
@@ -894,7 +884,7 @@ public:
   Enumerable_WhereSelectListIterator_2(Enumerable_WhereSelectListIterator_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16022 };
 
   /// @brief Field source, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TSource>* ___source;
@@ -907,208 +897,6 @@ public:
 
   /// @brief Field enumerator, offset: 0x38, size: 0x18, def value: None
   ::System::Collections::Generic::List_1_Enumerator<TSource> ___enumerator;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-} // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
-namespace System::Linq {
-// cpp template
-template <typename TSource, typename TResult>
-// Is value type: false
-// CS Name: System.Linq.Enumerable/<SelectIterator>d__5`2<TSource,TResult>
-class CORDL_TYPE Enumerable__SelectIterator_d__5_2 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_TResult__get_Current)) TResult System_Collections_Generic_IEnumerator_TResult__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current)) TResult __2__current;
-
-  /// @brief Field <>3__selector, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__selector, put = __cordl_internal_set___3__selector)) ::System::Func_3<TSource, int32_t, TResult>* __3__selector;
-
-  /// @brief Field <>3__source, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__source, put = __cordl_internal_set___3__source)) ::System::Collections::Generic::IEnumerable_1<TSource>* __3__source;
-
-  /// @brief Field <>7__wrap2, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap2, put = __cordl_internal_set___7__wrap2)) ::System::Collections::Generic::IEnumerator_1<TSource>* __7__wrap2;
-
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field <index>5__2, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__index_5__2, put = __cordl_internal_set__index_5__2)) int32_t _index_5__2;
-
-  /// @brief Field selector, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector)) ::System::Func_3<TSource, int32_t, TResult>* selector;
-
-  /// @brief Field source, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_source, put = __cordl_internal_set_source)) ::System::Collections::Generic::IEnumerable_1<TSource>* source;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<TResult>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<TResult>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<TResult>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<TResult>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::System::Linq::Enumerable__SelectIterator_d__5_2<TSource, TResult>* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<TResult>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<TResult>* System_Collections_Generic_IEnumerable_TResult__GetEnumerator();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<TResult>.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline TResult System_Collections_Generic_IEnumerator_TResult__get_Current();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr TResult const& __cordl_internal_get___2__current() const;
-
-  constexpr TResult& __cordl_internal_get___2__current();
-
-  constexpr ::System::Func_3<TSource, int32_t, TResult>* const& __cordl_internal_get___3__selector() const;
-
-  constexpr ::System::Func_3<TSource, int32_t, TResult>*& __cordl_internal_get___3__selector();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& __cordl_internal_get___3__source() const;
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& __cordl_internal_get___3__source();
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>* const& __cordl_internal_get___7__wrap2() const;
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<TSource>*& __cordl_internal_get___7__wrap2();
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr int32_t const& __cordl_internal_get__index_5__2() const;
-
-  constexpr int32_t& __cordl_internal_get__index_5__2();
-
-  constexpr ::System::Func_3<TSource, int32_t, TResult>* const& __cordl_internal_get_selector() const;
-
-  constexpr ::System::Func_3<TSource, int32_t, TResult>*& __cordl_internal_get_selector();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>* const& __cordl_internal_get_source() const;
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<TSource>*& __cordl_internal_get_source();
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(TResult value);
-
-  constexpr void __cordl_internal_set___3__selector(::System::Func_3<TSource, int32_t, TResult>* value);
-
-  constexpr void __cordl_internal_set___3__source(::System::Collections::Generic::IEnumerable_1<TSource>* value);
-
-  constexpr void __cordl_internal_set___7__wrap2(::System::Collections::Generic::IEnumerator_1<TSource>* value);
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr void __cordl_internal_set__index_5__2(int32_t value);
-
-  constexpr void __cordl_internal_set_selector(::System::Func_3<TSource, int32_t, TResult>* value);
-
-  constexpr void __cordl_internal_set_source(::System::Collections::Generic::IEnumerable_1<TSource>* value);
-
-  /// @brief Method <>m__Finally1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void __m__Finally1();
-
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<TResult>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<TResult>* i___System__Collections__Generic__IEnumerable_1_TResult_() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<TResult>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<TResult>* i___System__Collections__Generic__IEnumerator_1_TResult_() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Enumerable__SelectIterator_d__5_2();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "Enumerable__SelectIterator_d__5_2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Enumerable__SelectIterator_d__5_2(Enumerable__SelectIterator_d__5_2&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "Enumerable__SelectIterator_d__5_2", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Enumerable__SelectIterator_d__5_2(Enumerable__SelectIterator_d__5_2 const&) = delete;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13575 };
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  TResult _____2__current;
-
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
-
-  /// @brief Field source, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<TSource>* ___source;
-
-  /// @brief Field <>3__source, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<TSource>* _____3__source;
-
-  /// @brief Field selector, offset: 0x38, size: 0x8, def value: None
-  ::System::Func_3<TSource, int32_t, TResult>* ___selector;
-
-  /// @brief Field <>3__selector, offset: 0x40, size: 0x8, def value: None
-  ::System::Func_3<TSource, int32_t, TResult>* _____3__selector;
-
-  /// @brief Field <index>5__2, offset: 0x48, size: 0x4, def value: None
-  int32_t ____index_5__2;
-
-  /// @brief Field <>7__wrap2, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<TSource>* _____7__wrap2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -1164,7 +952,7 @@ public:
   Enumerable___c__DisplayClass6_0_1(Enumerable___c__DisplayClass6_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16023 };
 
   /// @brief Field predicate1, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TSource, bool>* ___predicate1;
@@ -1226,7 +1014,7 @@ public:
   Enumerable___c__DisplayClass7_0_3(Enumerable___c__DisplayClass7_0_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16024 };
 
   /// @brief Field selector2, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TMiddle, TResult>* ___selector2;
@@ -1238,8 +1026,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TResult>
@@ -1411,7 +1198,7 @@ public:
   Enumerable__SelectManyIterator_d__17_2(Enumerable__SelectManyIterator_d__17_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16025 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1444,8 +1231,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1604,7 +1390,7 @@ public:
   Enumerable__TakeIterator_d__25_1(Enumerable__TakeIterator_d__25_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16026 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1634,8 +1420,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1794,7 +1579,7 @@ public:
   Enumerable__SkipIterator_d__31_1(Enumerable__SkipIterator_d__31_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16027 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1824,8 +1609,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -1987,7 +1771,7 @@ public:
   Enumerable__ConcatIterator_d__59_1(Enumerable__ConcatIterator_d__59_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16028 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2017,8 +1801,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TFirst, typename TSecond, typename TResult>
@@ -2207,7 +1990,7 @@ public:
   Enumerable__ZipIterator_d__65_3(Enumerable__ZipIterator_d__65_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16029 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2246,8 +2029,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2415,7 +2197,7 @@ public:
   Enumerable__DistinctIterator_d__68_1(Enumerable__DistinctIterator_d__68_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16030 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2448,8 +2230,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2638,7 +2419,7 @@ public:
   Enumerable__UnionIterator_d__71_1(Enumerable__UnionIterator_d__71_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16031 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2677,8 +2458,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -2864,7 +2644,7 @@ public:
   Enumerable__IntersectIterator_d__74_1(Enumerable__IntersectIterator_d__74_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16032 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -2903,8 +2683,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -3090,7 +2869,7 @@ public:
   Enumerable__ExceptIterator_d__77_1(Enumerable__ExceptIterator_d__77_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13586 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16033 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -3129,8 +2908,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Linq.Buffer`1<TElement>, System.Object
+// Dependencies System.Linq.Buffer`1<TElement>, System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -3277,7 +3055,7 @@ public:
   Enumerable__ReverseIterator_d__79_1(Enumerable__ReverseIterator_d__79_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16034 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -3304,8 +3082,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource>
@@ -3464,7 +3241,7 @@ public:
   Enumerable__DefaultIfEmptyIterator_d__95_1(Enumerable__DefaultIfEmptyIterator_d__95_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16035 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -3494,8 +3271,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TResult>
@@ -3636,7 +3412,7 @@ public:
   Enumerable__OfTypeIterator_d__97_1(Enumerable__OfTypeIterator_d__97_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16036 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -3660,8 +3436,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TResult>
@@ -3802,7 +3577,7 @@ public:
   Enumerable__CastIterator_d__99_1(Enumerable__CastIterator_d__99_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16037 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -3826,8 +3601,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // Is value type: false
 // CS Name: System.Linq.Enumerable/<RangeIterator>d__115
@@ -3877,27 +3651,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4092744, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5d42430, size 0x60, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Linq::Enumerable__RangeIterator_d__115* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x4092844, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Int32>.GetEnumerator, addr 0x5d424f4, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<int32_t>* System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x40927a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Int32>.get_Current, addr 0x5d42490, size 0x8, virtual true, abstract: false, final true
   inline int32_t System_Collections_Generic_IEnumerator_System_Int32__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x40928e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5d42594, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40927b0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5d42498, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40927e8, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5d424d0, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4092740, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5d4242c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -3948,7 +3722,7 @@ public:
 
   constexpr void __cordl_internal_set_start(int32_t value);
 
-  /// @brief Method .ctor, addr 0x409101c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d40da0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<int32_t>"
@@ -3981,7 +3755,7 @@ public:
   Enumerable__RangeIterator_d__115(Enumerable__RangeIterator_d__115 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16038 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -4068,8 +3842,6 @@ public:
 
   template <typename TSource> using _ReverseIterator_d__79_1 = ::System::Linq::Enumerable__ReverseIterator_d__79_1<TSource>;
 
-  template <typename TSource, typename TResult> using _SelectIterator_d__5_2 = ::System::Linq::Enumerable__SelectIterator_d__5_2<TSource, TResult>;
-
   template <typename TSource, typename TResult> using _SelectManyIterator_d__17_2 = ::System::Linq::Enumerable__SelectManyIterator_d__17_2<TSource, TResult>;
 
   template <typename TSource> using _SkipIterator_d__31_1 = ::System::Linq::Enumerable__SkipIterator_d__31_1<TSource>;
@@ -4088,9 +3860,6 @@ public:
   template <typename TSource, typename TAccumulate>
   static inline TAccumulate Aggregate(::System::Collections::Generic::IEnumerable_1<TSource>* source, TAccumulate seed, ::System::Func_3<TAccumulate, TSource, TAccumulate>* func);
 
-  /// @brief Method Aggregate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSource> static inline TSource Aggregate(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_3<TSource, TSource, TSource>* func);
-
   /// @brief Method All, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool All(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate);
 
@@ -4100,7 +3869,7 @@ public:
   /// @brief Method Any, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline bool Any(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, bool>* predicate);
 
-  /// @brief Method Average, addr 0x4092394, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Average, addr 0x5d4205c, size 0x3d0, virtual false, abstract: false, final false
   static inline double_t Average(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Cast, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4149,6 +3918,11 @@ public:
 
   /// @brief Method Distinct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline ::System::Collections::Generic::IEnumerable_1<TSource>* Distinct(::System::Collections::Generic::IEnumerable_1<TSource>* source);
+
+  /// @brief Method Distinct, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TSource>
+  static inline ::System::Collections::Generic::IEnumerable_1<TSource>* Distinct(::System::Collections::Generic::IEnumerable_1<TSource>* source,
+                                                                                 ::System::Collections::Generic::IEqualityComparer_1<TSource>* comparer);
 
   /// @brief Method DistinctIterator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource>
@@ -4215,13 +3989,13 @@ public:
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource Max(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method Max, addr 0x409203c, size 0x358, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5d41d30, size 0x32c, virtual false, abstract: false, final false
   static inline float_t Max(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
   /// @brief Method Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline int32_t Max(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector);
 
-  /// @brief Method Max, addr 0x4091d14, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x5d41a20, size 0x310, virtual false, abstract: false, final false
   static inline int32_t Max(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4230,10 +4004,10 @@ public:
   /// @brief Method Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline TSource Min(::System::Collections::Generic::IEnumerable_1<TSource>* source);
 
-  /// @brief Method Min, addr 0x40919b0, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5d416f4, size 0x32c, virtual false, abstract: false, final false
   static inline float_t Min(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
-  /// @brief Method Min, addr 0x4091688, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x5d413e4, size 0x310, virtual false, abstract: false, final false
   static inline int32_t Min(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4255,10 +4029,10 @@ public:
   template <typename TSource, typename TKey>
   static inline ::System::Linq::IOrderedEnumerable_1<TSource>* OrderByDescending(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TKey>* keySelector);
 
-  /// @brief Method Range, addr 0x4090f50, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Range, addr 0x5d40cd8, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* Range(int32_t start, int32_t count);
 
-  /// @brief Method RangeIterator, addr 0x4090f9c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method RangeIterator, addr 0x5d40d24, size 0x7c, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<int32_t>* RangeIterator(int32_t start, int32_t count);
 
   /// @brief Method Reverse, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4270,15 +4044,6 @@ public:
   /// @brief Method Select, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult>
   static inline ::System::Collections::Generic::IEnumerable_1<TResult>* Select(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, TResult>* selector);
-
-  /// @brief Method Select, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSource, typename TResult>
-  static inline ::System::Collections::Generic::IEnumerable_1<TResult>* Select(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_3<TSource, int32_t, TResult>* selector);
-
-  /// @brief Method SelectIterator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TSource, typename TResult>
-  static inline ::System::Collections::Generic::IEnumerable_1<TResult>* SelectIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source,
-                                                                                       ::System::Func_3<TSource, int32_t, TResult>* selector);
 
   /// @brief Method SelectMany, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource, typename TResult>
@@ -4316,13 +4081,13 @@ public:
   /// @brief Method SkipIterator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline ::System::Collections::Generic::IEnumerable_1<TSource>* SkipIterator(::System::Collections::Generic::IEnumerable_1<TSource>* source, int32_t count);
 
-  /// @brief Method Sum, addr 0x409136c, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x5d410f4, size 0x2f0, virtual false, abstract: false, final false
   static inline float_t Sum(::System::Collections::Generic::IEnumerable_1<float_t>* source);
 
   /// @brief Method Sum, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TSource> static inline int32_t Sum(::System::Collections::Generic::IEnumerable_1<TSource>* source, ::System::Func_2<TSource, int32_t>* selector);
 
-  /// @brief Method Sum, addr 0x4091050, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method Sum, addr 0x5d40dc0, size 0x334, virtual false, abstract: false, final false
   static inline int32_t Sum(::System::Collections::Generic::IEnumerable_1<int32_t>* source);
 
   /// @brief Method Take, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -4404,7 +4169,7 @@ public:
   Enumerable(Enumerable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16039 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -4431,7 +4196,6 @@ DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Enumerable__OfTypeIterator_
 NEED_NO_BOX(::System::Linq::Enumerable__RangeIterator_d__115);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Enumerable__RangeIterator_d__115*, "System.Linq", "Enumerable/<RangeIterator>d__115");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Enumerable__ReverseIterator_d__79_1, "System.Linq", "Enumerable/<ReverseIterator>d__79`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Enumerable__SelectIterator_d__5_2, "System.Linq", "Enumerable/<SelectIterator>d__5`2");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Enumerable__SelectManyIterator_d__17_2, "System.Linq", "Enumerable/<SelectManyIterator>d__17`2");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Enumerable__SkipIterator_d__31_1, "System.Linq", "Enumerable/<SkipIterator>d__31`1");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Enumerable__TakeIterator_d__25_1, "System.Linq", "Enumerable/<TakeIterator>d__25`1");

@@ -19,7 +19,7 @@ namespace UnityEngine::TerrainUtils {
 struct CORDL_TYPE TerrainTileCoord {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x491f01c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6985e34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t tileX, int32_t tileZ);
 
   // Ctor Parameters []
@@ -30,7 +30,7 @@ public:
   constexpr TerrainTileCoord(int32_t tileX, int32_t tileZ) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22396 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

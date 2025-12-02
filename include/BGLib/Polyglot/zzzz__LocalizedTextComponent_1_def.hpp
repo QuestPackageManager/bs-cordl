@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizedTextComponent_1)
+namespace BGLib::Polyglot {
+class ILocalize;
+}
 namespace BGLib::Polyglot {
 struct LanguageDirection;
 }
@@ -25,7 +27,7 @@ template <typename T> class LocalizedTextComponent_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::Polyglot::LocalizedTextComponent_1);
-// Dependencies BGLib.Polyglot.ILocalize, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // cpp template
 template <typename T>
@@ -59,6 +61,9 @@ public:
   inline void ClearParameters();
 
   static inline ::BGLib::Polyglot::LocalizedTextComponent_1<T>* New_ctor();
+
+  /// @brief Method OnDestroy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void OnDestroy();
 
   /// @brief Method OnLocalize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
@@ -129,7 +134,7 @@ public:
   LocalizedTextComponent_1(LocalizedTextComponent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21950 };
 
   /// @brief Field localizedComponent, offset: 0x20, size: 0x8, def value: None
   T ___localizedComponent;

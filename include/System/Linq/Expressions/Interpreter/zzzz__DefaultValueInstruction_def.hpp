@@ -35,10 +35,10 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::DefaultValueInstruction* New_ctor(::System::Type* type);
 
-  /// @brief Method Run, addr 0x40c6504, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d75724, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method ToString, addr 0x40c653c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5d75760, size 0x70, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type* const& __cordl_internal_get__type() const;
@@ -47,13 +47,13 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40c6494, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d756d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
-  /// @brief Method get_InstructionName, addr 0x40c64c4, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5d756e0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40c64bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5d756d8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
 protected:
@@ -71,7 +71,7 @@ public:
   DefaultValueInstruction(DefaultValueInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16257 };
 
   /// @brief Field _type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____type;

@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)()>(&::Mono::Xml::SecurityParser::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c55df4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5898c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), ".ctor",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::LoadXml)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c55f60;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5898e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::Mono::Xml::SecurityParser::*)()>(&::Mono::Xml::SecurityParser::ToXml)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c561b0;
+  constexpr static std::size_t addrs = 0x5899068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Xml::SecurityParser*>::get(), "ToXml",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::Mono::Xml::SmallXmlParser*)>(&::Mono::Xml::SecurityParser::OnStartParsing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c561b8;
+  constexpr static std::size_t addrs = 0x5899070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW, ::StringW)>(&::Mono::Xml::SecurityParser::OnProcessingInstruction)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c561bc;
+  constexpr static std::size_t addrs = 0x5899074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::OnIgnorableWhitespace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c561c0;
+  constexpr static std::size_t addrs = 0x5899078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW, ::Mono::Xml::SmallXmlParser_IAttrList*)>(
     &::Mono::Xml::SecurityParser::OnStartElement)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x3c561c4;
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x589907c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::OnEndElement)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c5643c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x58992fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,8 +121,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::StringW)>(&::Mono::Xml::SecurityParser::OnChars)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c564c4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5899388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Xml::SecurityParser::*)(::Mono::Xml::SmallXmlParser*)>(&::Mono::Xml::SecurityParser::OnEndParsing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c56544;
+  constexpr static std::size_t addrs = 0x589940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

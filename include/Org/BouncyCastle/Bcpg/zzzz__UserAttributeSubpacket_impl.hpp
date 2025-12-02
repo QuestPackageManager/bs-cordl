@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(
     ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x263dbbc;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x356d954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(
     ::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x263dbf0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x356d964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacketTag (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::get_SubpacketType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263dc30;
+  constexpr static std::size_t addrs = 0x356d974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263dc38;
+  constexpr static std::size_t addrs = 0x356d97c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::Encode)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x263dc40;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x356d984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)(::System::Object*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::Equals)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x263dd78;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x356daa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacket::GetHashCode)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x263de60;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x356db94;
 
   inline static ::MethodInfo const* methodInfo() {
 

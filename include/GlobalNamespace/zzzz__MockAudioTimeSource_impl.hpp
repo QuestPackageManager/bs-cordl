@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockAudioTimeSource.hpp"
-#include "GlobalNamespace/zzzz__IAudioTimeSource_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MockAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockAudioTimeSource.get_songTime
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1ba0;
+  constexpr static std::size_t addrs = 0x56abe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_songTime",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)(float_t)>(&::GlobalNamespace::MockAudioTimeSource::set_songTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1ba8;
+  constexpr static std::size_t addrs = 0x56abe74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(
     &::GlobalNamespace::MockAudioTimeSource::get_lastFrameDeltaSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1bb0;
+  constexpr static std::size_t addrs = 0x56abe7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)(float_t)>(
     &::GlobalNamespace::MockAudioTimeSource::set_lastFrameDeltaSongTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1bb8;
+  constexpr static std::size_t addrs = 0x56abe84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_songEndTime)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad1bc0;
+  constexpr static std::size_t addrs = 0x56abe8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(),
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_songLength)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad1bcc;
+  constexpr static std::size_t addrs = 0x56abe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_songLength",
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_timeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1bd8;
+  constexpr static std::size_t addrs = 0x56abea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_timeScale",
@@ -103,10 +103,24 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1be0;
+  constexpr static std::size_t addrs = 0x56abeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_isReady",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MockAudioTimeSource.get_state
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IAudioTimeSource_State (::GlobalNamespace::MockAudioTimeSource::*)()>(
+    &::GlobalNamespace::MockAudioTimeSource::get_state)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56abeb4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_state",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -115,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::Update)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ad1be8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x56abebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "Update",
@@ -128,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockAudioTimeSource::*)()>(&::GlobalNamespace::MockAudioTimeSource::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1c20;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56abf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), ".ctor",
@@ -202,6 +216,11 @@ inline bool GlobalNamespace::MockAudioTimeSource::get_isReady() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_isReady",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::IAudioTimeSource_State GlobalNamespace::MockAudioTimeSource::get_state() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "get_state",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IAudioTimeSource_State, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::MockAudioTimeSource::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockAudioTimeSource*>::get(), "Update",

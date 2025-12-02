@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/ReadOnlyCollectionBase.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__ReadOnlyCollectionBase_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::get_InnerList)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3dbc3b0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x59cfff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ReadOnlyCollectionBase*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::get_Count)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dbc410;
+  constexpr static std::size_t addrs = 0x59d0054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dbc434;
+  constexpr static std::size_t addrs = 0x59d0078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dbc458;
+  constexpr static std::size_t addrs = 0x59d009c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ReadOnlyCollectionBase::*)(::System::Array*, int32_t)>(
     &::System::Collections::ReadOnlyCollectionBase::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3dbc47c;
+  constexpr static std::size_t addrs = 0x59d00c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::ReadOnlyCollectionBase::*)()>(
     &::System::Collections::ReadOnlyCollectionBase::GetEnumerator)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3dbc4b8;
+  constexpr static std::size_t addrs = 0x59d00fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::ReadOnlyCollectionBase::*)()>(&::System::Collections::ReadOnlyCollectionBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dbc4dc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59d0120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::ReadOnlyCollectionBase*>::get(), ".ctor",

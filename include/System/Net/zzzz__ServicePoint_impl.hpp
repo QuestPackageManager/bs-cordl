@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Net::ServicePointManager_SPKey*, ::System::Uri*, int32_t, int32_t)>(
     &::System::Net::ServicePoint::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43d5000;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x61206fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePointManager_SPKey* (::System::Net::ServicePoint::*)()>(
     &::System::Net::ServicePoint::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52b0;
+  constexpr static std::size_t addrs = 0x6120964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_Key",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePointScheduler* (::System::Net::ServicePoint::*)()>(
     &::System::Net::ServicePoint::get_Scheduler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52b8;
+  constexpr static std::size_t addrs = 0x612096c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_Scheduler",
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Net::ServicePointScheduler*)>(
     &::System::Net::ServicePoint::set_Scheduler)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52c0;
+  constexpr static std::size_t addrs = 0x6120974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,11 +79,26 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_Address)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52c8;
+  constexpr static std::size_t addrs = 0x612097c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_Address",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::ServicePoint.set_BindIPEndPointDelegate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Net::BindIPEndPoint*)>(
+    &::System::Net::ServicePoint::set_BindIPEndPointDelegate)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6120984;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "set_BindIPEndPointDelegate", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::BindIPEndPoint*>::get() })));
     return ___internal_method;
   }
 };
@@ -92,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_ConnectionLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52d0;
+  constexpr static std::size_t addrs = 0x612098c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_ConnectionLimit",
@@ -105,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_ProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52d8;
+  constexpr static std::size_t addrs = 0x6120994;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(bool)>(&::System::Net::ServicePoint::set_Expect100Continue)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43d52e0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x612099c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_UseNagleAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d52ec;
+  constexpr static std::size_t addrs = 0x61209a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_UseNagleAlgorithm",
@@ -145,8 +160,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(bool)>(&::System::Net::ServicePoint::set_UseNagleAlgorithm)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43d52f4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61209ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -159,8 +174,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_SendContinue)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x43cc760;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6117c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_SendContinue",
@@ -172,8 +187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(bool)>(&::System::Net::ServicePoint::set_SendContinue)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43d5300;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61209b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -187,7 +202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(bool, int32_t, int32_t)>(&::System::Net::ServicePoint::SetTcpKeepAlive)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x43d530c;
+  constexpr static std::size_t addrs = 0x61209bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Net::Sockets::Socket*)>(
     &::System::Net::ServicePoint::KeepAliveSetup)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x43d53bc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6120a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, uint32_t, int32_t)>(&::System::Net::ServicePoint::PutBytes)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43d5470;
+  constexpr static std::size_t addrs = 0x6120b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_UsesProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d54f0;
+  constexpr static std::size_t addrs = 0x6120bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_UsesProxy",
@@ -244,8 +259,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(bool)>(&::System::Net::ServicePoint::set_UsesProxy)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43d54f8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6120bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -259,7 +274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_UseConnect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d5504;
+  constexpr static std::size_t addrs = 0x6120bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_UseConnect",
@@ -271,8 +286,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(bool)>(&::System::Net::ServicePoint::set_UseConnect)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43d550c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6120bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,8 +300,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_HasTimedOut)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x43d5518;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6120bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_HasTimedOut",
@@ -298,8 +313,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPHostEntry* (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::get_HostEntry)> {
-  constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x43d5644;
+  constexpr static std::size_t size = 0x3ac;
+  constexpr static std::size_t addrs = 0x6120d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_HostEntry",
@@ -312,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Version*)>(&::System::Net::ServicePoint::SetVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d59c8;
+  constexpr static std::size_t addrs = 0x61210c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -326,8 +341,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Net::WebOperation*, ::StringW)>(
     &::System::Net::ServicePoint::SendRequest)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x43ca9a0;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6115d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -341,8 +356,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)(::StringW)>(&::System::Net::ServicePoint::CloseConnectionGroup)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x43d5ab8;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x61211b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -356,7 +371,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)()>(&::System::Net::ServicePoint::FreeServicePoint)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43d5cb4;
+  constexpr static std::size_t addrs = 0x61213ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "FreeServicePoint",
@@ -370,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
     &::System::Net::ServicePoint::UpdateServerCertificate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43d5cc4;
+  constexpr static std::size_t addrs = 0x61213bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ServicePoint::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*)>(
     &::System::Net::ServicePoint::UpdateClientCertificate)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43d5cf8;
+  constexpr static std::size_t addrs = 0x61213f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ServicePoint::*)(::System::Net::Sockets::Socket*, ::System::Net::IPEndPoint*)>(
     &::System::Net::ServicePoint::CallEndPointDelegate)> {
   constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x43d5d2c;
+  constexpr static std::size_t addrs = 0x6121424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -702,6 +717,12 @@ inline ::System::Uri* System::Net::ServicePoint::get_Address() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_Address",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Uri*, false>(this, ___internal_method);
+}
+inline void System::Net::ServicePoint::set_BindIPEndPointDelegate(::System::Net::BindIPEndPoint* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "set_BindIPEndPointDelegate", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::BindIPEndPoint*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline int32_t System::Net::ServicePoint::get_ConnectionLimit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ServicePoint*>::get(), "get_ConnectionLimit",

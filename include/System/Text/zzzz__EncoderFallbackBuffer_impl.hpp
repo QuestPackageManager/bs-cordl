@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c79608;
+  constexpr static std::size_t addrs = 0x58bd9d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::InternalReset)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c79630;
+  constexpr static std::size_t addrs = 0x58bda00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), "InternalReset",
@@ -105,16 +105,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::EncoderFallbackBuffer.InternalInitialize
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(
-    ::cordl_internals::Ptr<char16_t>, ::cordl_internals::Ptr<char16_t>, ::System::Text::EncoderNLS*, bool)>(&::System::Text::EncoderFallbackBuffer::InternalInitialize)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c79648;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(char16_t*, char16_t*, ::System::Text::EncoderNLS*, bool)>(
+    &::System::Text::EncoderFallbackBuffer::InternalInitialize)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x58bda18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), "InternalInitialize", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::EncoderNLS*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -125,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::InternalGetNextChar)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c79664;
+  constexpr static std::size_t addrs = 0x58bda30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(),
@@ -136,10 +135,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::EncoderFallbackBuffer.InternalFallback
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderFallbackBuffer::*)(char16_t, ::ByRef<::cordl_internals::Ptr<char16_t>>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderFallbackBuffer::*)(char16_t, ::ByRef<char16_t*>)>(
     &::System::Text::EncoderFallbackBuffer::InternalFallback)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3c79694;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x58bda60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)(int32_t)>(
     &::System::Text::EncoderFallbackBuffer::ThrowLastCharRecursive)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c7983c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x58bdbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderFallbackBuffer::*)()>(&::System::Text::EncoderFallbackBuffer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c78ac0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58bcff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), ".ctor",
@@ -176,27 +175,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::cordl_internals::Ptr<char16_t>& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charStart() {
+constexpr char16_t*& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charStart() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charStart;
 }
-constexpr ::cordl_internals::Ptr<char16_t> const& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charStart() const {
+constexpr char16_t* const& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charStart() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charStart;
 }
-constexpr void System::Text::EncoderFallbackBuffer::__cordl_internal_set_charStart(::cordl_internals::Ptr<char16_t> value) {
+constexpr void System::Text::EncoderFallbackBuffer::__cordl_internal_set_charStart(char16_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charStart)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::cordl_internals::Ptr<char16_t>& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charEnd() {
+constexpr char16_t*& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charEnd() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEnd;
 }
-constexpr ::cordl_internals::Ptr<char16_t> const& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charEnd() const {
+constexpr char16_t* const& System::Text::EncoderFallbackBuffer::__cordl_internal_get_charEnd() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___charEnd;
 }
-constexpr void System::Text::EncoderFallbackBuffer::__cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value) {
+constexpr void System::Text::EncoderFallbackBuffer::__cordl_internal_set_charEnd(char16_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___charEnd)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -295,14 +294,12 @@ inline void System::Text::EncoderFallbackBuffer::InternalReset() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void System::Text::EncoderFallbackBuffer::InternalInitialize(::cordl_internals::Ptr<char16_t> charStart, ::cordl_internals::Ptr<char16_t> charEnd, ::System::Text::EncoderNLS* encoder,
-                                                                    bool setEncoder) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), "InternalInitialize", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::EncoderNLS*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+inline void System::Text::EncoderFallbackBuffer::InternalInitialize(char16_t* charStart, char16_t* charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), "InternalInitialize", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::EncoderNLS*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, charStart, charEnd, encoder, setEncoder);
 }
 inline char16_t System::Text::EncoderFallbackBuffer::InternalGetNextChar() {
@@ -310,7 +307,7 @@ inline char16_t System::Text::EncoderFallbackBuffer::InternalGetNextChar() {
                                                                              "InternalGetNextChar", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<char16_t, false>(this, ___internal_method);
 }
-inline bool System::Text::EncoderFallbackBuffer::InternalFallback(char16_t ch, ::ByRef<::cordl_internals::Ptr<char16_t>> chars) {
+inline bool System::Text::EncoderFallbackBuffer::InternalFallback(char16_t ch, ::ByRef<char16_t*> chars) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::EncoderFallbackBuffer*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, ch, chars);

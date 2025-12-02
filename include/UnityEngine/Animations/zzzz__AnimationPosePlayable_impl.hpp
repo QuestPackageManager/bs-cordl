@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Animations/AnimationPosePlayable.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPosePlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationPosePlayable._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationPosePlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Animations::AnimationPosePlayable::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4856994;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x681159c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Animations::AnimationPosePlayable::*)()>(
     &::UnityEngine::Animations::AnimationPosePlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4856a84;
+  constexpr static std::size_t addrs = 0x68116b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPosePlayable>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Animations::AnimationPosePlayable::*)(::UnityEngine::Animations::AnimationPosePlayable)>(
     &::UnityEngine::Animations::AnimationPosePlayable::Equals)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4856a90;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x68116bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

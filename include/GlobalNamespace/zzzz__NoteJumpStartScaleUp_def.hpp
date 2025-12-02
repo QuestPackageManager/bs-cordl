@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(NoteJumpStartScaleUp)
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
 namespace GlobalNamespace {
 class NoteControllerBase;
 }
@@ -25,7 +27,7 @@ class NoteJumpStartScaleUp;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteJumpStartScaleUp);
-// Dependencies INoteControllerDidInitEvent, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoteJumpStartScaleUp
@@ -47,21 +49,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
   constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x3aeef78, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56caed0, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x3aef318, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x56cb310, size 0x10c, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x3aef314, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x56cb30c, size 0x4, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidUpdateProgress(float_t progress);
 
   static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3aef190, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56cb140, size 0x1cc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method UpdateScale, addr 0x3aef03c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method UpdateScale, addr 0x56caf98, size 0x1a8, virtual false, abstract: false, final false
   inline void UpdateScale(float_t progress);
 
   constexpr float_t const& __cordl_internal_get__fullScaleJumpPart() const;
@@ -88,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3aef3e0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56cb41c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
@@ -109,7 +111,7 @@ public:
   NoteJumpStartScaleUp(NoteJumpStartScaleUp const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5698 };
 
   /// @brief Field _fullScaleJumpPart, offset: 0x20, size: 0x4, def value: None
   float_t ____fullScaleJumpPart;

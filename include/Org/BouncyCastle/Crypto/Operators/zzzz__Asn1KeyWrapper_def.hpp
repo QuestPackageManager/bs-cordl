@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -26,7 +25,7 @@ class Asn1KeyWrapper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper);
-// Dependencies Org.BouncyCastle.Crypto.IKeyWrapper, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.Asn1KeyWrapper
@@ -46,7 +45,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1KeyWrapper* New_ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method Wrap, addr 0x23b1adc, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0x32dfd3c, size 0xb8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   constexpr ::StringW const& __cordl_internal_get_algorithm() const;
@@ -61,10 +60,10 @@ public:
 
   constexpr void __cordl_internal_set_wrapper(::Org::BouncyCastle::Crypto::IKeyWrapper* value);
 
-  /// @brief Method .ctor, addr 0x23b1768, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32df9bc, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x23b1a3c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x32dfc98, size 0xa4, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyWrapper"

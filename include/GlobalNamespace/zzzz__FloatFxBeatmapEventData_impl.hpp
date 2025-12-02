@@ -1,18 +1,46 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventData.hpp"
+#include "GlobalNamespace/zzzz__BeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
-#include "GlobalNamespace/zzzz__FxBeatmapEventData_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.get_previousSameTypeEventData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
+    &::GlobalNamespace::FloatFxBeatmapEventData::get_previousSameTypeEventData)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3163390;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(),
+                                                                               "get_previousSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.get_nextSameTypeEventData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
+    &::GlobalNamespace::FloatFxBeatmapEventData::get_nextSameTypeEventData)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x316340c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(),
+                                                                               "get_nextSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.get_value
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(&::GlobalNamespace::FloatFxBeatmapEventData::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224318c;
+  constexpr static std::size_t addrs = 0x3163488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(), "get_value",
@@ -26,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(float_t)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::set_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2243194;
+  constexpr static std::size_t addrs = 0x3163490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EaseType (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224319c;
+  constexpr static std::size_t addrs = 0x3163498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(),
@@ -55,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::set_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22431a4;
+  constexpr static std::size_t addrs = 0x31634a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -69,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(float_t, int32_t, int32_t, bool, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::FloatFxBeatmapEventData::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22431ac;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x31634a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventData::*)(::GlobalNamespace::FloatFxBeatmapEventData*)>(
     &::GlobalNamespace::FloatFxBeatmapEventData::UpdateBy)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2243228;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3163568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::GetCopy)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x224324c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x3163588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,13 +140,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.SubtypeIdentifier
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::FloatFxBeatmapEventData::SubtypeIdentifier)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x316355c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(), "SubtypeIdentifier", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::FloatFxBeatmapEventData.GetDefault
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventData::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventData::GetDefault)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x22432fc;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x316361c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,6 +169,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr int32_t& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get_groupId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___groupId;
+}
+constexpr int32_t const& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get_groupId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___groupId;
+}
+constexpr void GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_set_groupId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___groupId = value;
+}
+constexpr int32_t& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get_elementId() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___elementId;
+}
+constexpr int32_t const& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get_elementId() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___elementId;
+}
+constexpr void GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_set_elementId(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___elementId = value;
+}
+constexpr bool& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get_usePreviousEventValue() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___usePreviousEventValue;
+}
+constexpr bool const& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get_usePreviousEventValue() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___usePreviousEventValue;
+}
+constexpr void GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_set_usePreviousEventValue(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___usePreviousEventValue = value;
+}
 constexpr float_t& GlobalNamespace::FloatFxBeatmapEventData::__cordl_internal_get__value_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____value_k__BackingField;
@@ -159,6 +237,16 @@ inline void GlobalNamespace::FloatFxBeatmapEventData::setStaticF__defaults(::Sys
 inline ::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>* GlobalNamespace::FloatFxBeatmapEventData::getStaticF__defaults() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<int32_t, ::GlobalNamespace::FloatFxBeatmapEventData*>*, "_defaults",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get>();
+}
+inline ::GlobalNamespace::FloatFxBeatmapEventData* GlobalNamespace::FloatFxBeatmapEventData::get_previousSameTypeEventData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(),
+                                                                             "get_previousSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::FloatFxBeatmapEventData*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::FloatFxBeatmapEventData* GlobalNamespace::FloatFxBeatmapEventData::get_nextSameTypeEventData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(),
+                                                                             "get_nextSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::FloatFxBeatmapEventData*, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::FloatFxBeatmapEventData::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(), "get_value",
@@ -201,6 +289,12 @@ inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::FloatFxBeatmapEventD
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataItem*, false>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::FloatFxBeatmapEventData::SubtypeIdentifier(int32_t groupId, int32_t elementId) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatFxBeatmapEventData*>::get(), "SubtypeIdentifier", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, groupId, elementId);
 }
 inline ::GlobalNamespace::BeatmapEventData* GlobalNamespace::FloatFxBeatmapEventData::GetDefault() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

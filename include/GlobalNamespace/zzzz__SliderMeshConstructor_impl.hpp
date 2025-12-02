@@ -13,10 +13,23 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::SliderMeshConstructor::*)()>(
     &::GlobalNamespace::SliderMeshConstructor::get_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7b630;
+  constexpr static std::size_t addrs = 0x5766ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(), "get_mesh",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::SliderMeshConstructor.OnDestroy
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshConstructor::*)()>(&::GlobalNamespace::SliderMeshConstructor::OnDestroy)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5766ee0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(), "OnDestroy",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -26,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshConstructor::*)()>(
     &::GlobalNamespace::SliderMeshConstructor::CreateMeshIfNonExisting)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b7b638;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5766eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(),
@@ -41,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshConstructor::*)(::GlobalNamespace::VertexPath*, float_t)>(
     &::GlobalNamespace::SliderMeshConstructor::CreateSliderMesh)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3b7b6ec;
+  constexpr static std::size_t addrs = 0x5766fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshConstructor::*)()>(&::GlobalNamespace::SliderMeshConstructor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7b8c8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5767184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(), ".ctor",
@@ -185,6 +198,11 @@ inline ::UnityW<::UnityEngine::Mesh> GlobalNamespace::SliderMeshConstructor::get
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(), "get_mesh",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Mesh>, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::SliderMeshConstructor::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(), "OnDestroy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::SliderMeshConstructor::CreateMeshIfNonExisting() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructor*>::get(),

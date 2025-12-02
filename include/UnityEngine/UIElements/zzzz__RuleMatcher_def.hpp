@@ -25,7 +25,7 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE RuleMatcher {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x4aa0ab4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a85e84, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr RuleMatcher(::UnityW<::UnityEngine::UIElements::StyleSheet> sheet, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5120 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -23,10 +23,10 @@ namespace TMPro {
 struct CORDL_TYPE Mesh_Extents {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x47c5a60, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6729b34, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x47c5a54, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6729b28, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr Mesh_Extents(::UnityEngine::Vector2 min, ::UnityEngine::Vector2 max) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14445 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15834 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

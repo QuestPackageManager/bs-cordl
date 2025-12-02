@@ -3,17 +3,31 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IRuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
+#include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UIDocumentList_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UIDocument_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
+#include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode::UIDocument_WorldSpaceSizeMode(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode::UIDocument_WorldSpaceSizeMode() {}
+constexpr ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode::Dynamic{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode::Fixed{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.get_panelSettings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::PanelSettings> (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::get_panelSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b670;
+  constexpr static std::size_t addrs = 0x6b79bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -26,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::UIElements::PanelSettings*)>(
     &::UnityEngine::UIElements::UIDocument::set_panelSettings)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x4a3b678;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x6b79bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -42,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::UIDocument> (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::get_parentUI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b924;
+  constexpr static std::size_t addrs = 0x6b79e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "get_parentUI",
@@ -56,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::UIDocument::set_parentUI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b92c;
+  constexpr static std::size_t addrs = 0x6b79e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::get_visualTreeAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b934;
+  constexpr static std::size_t addrs = 0x6b79e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -85,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
     &::UnityEngine::UIElements::UIDocument::set_visualTreeAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b93c;
+  constexpr static std::size_t addrs = 0x6b79e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::get_rootVisualElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b2b4;
+  constexpr static std::size_t addrs = 0x6b79bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -114,11 +128,25 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::get_firstChildInserIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3bd50;
+  constexpr static std::size_t addrs = 0x6b7a274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
                                                                                "get_firstChildInserIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.get_worldSpaceSizeMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode (::UnityEngine::UIElements::UIDocument::*)()>(
+    &::UnityEngine::UIElements::UIDocument::get_worldSpaceSizeMode)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b7a27c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "get_worldSpaceSizeMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -127,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::get_sortingOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3bd58;
+  constexpr static std::size_t addrs = 0x6b7a284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -140,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(float_t)>(&::UnityEngine::UIElements::UIDocument::set_sortingOrder)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a3bd60;
+  constexpr static std::size_t addrs = 0x6b7a28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::ApplySortingOrder)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a3bd78;
+  constexpr static std::size_t addrs = 0x6b7a2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -166,8 +194,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4a3be54;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6b7a380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), ".ctor",
@@ -180,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a3bec4;
+  constexpr static std::size_t addrs = 0x6b7a400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "Awake",
@@ -192,8 +220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::OnEnable)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4a3bf58;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6b7a498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "OnEnable",
@@ -201,12 +229,177 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.ResolveRuntimePanel
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::ResolveRuntimePanel)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6b7a5b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "ResolveRuntimePanel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.get_runtimePanel
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IRuntimePanel* (::UnityEngine::UIElements::UIDocument::*)()>(
+    &::UnityEngine::UIElements::UIDocument::get_runtimePanel)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6b7a644;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "get_runtimePanel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.LateUpdate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::LateUpdate)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6b7a65c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "LateUpdate",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.UpdateRenderer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::UpdateRenderer)> {
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x6b7ac60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "UpdateRenderer",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.SanitizeRendererBounds
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::Bounds)>(
+    &::UnityEngine::UIElements::UIDocument::SanitizeRendererBounds)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6b7b25c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "SanitizeRendererBounds", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.AddOrRemoveRendererComponent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(
+    &::UnityEngine::UIElements::UIDocument::AddOrRemoveRendererComponent)> {
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6b7a74c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "AddOrRemoveRendererComponent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.UpdateCutRenderChainFlag
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(
+    &::UnityEngine::UIElements::UIDocument::UpdateCutRenderChainFlag)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6b7b190;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "UpdateCutRenderChainFlag", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.SetTransform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::SetTransform)> {
+  constexpr static std::size_t size = 0x3bc;
+  constexpr static std::size_t addrs = 0x6b7a8a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "SetTransform",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.ClearTransform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::ClearTransform)> {
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x6b7af14;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "ClearTransform",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.get_pixelsPerUnit
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::get_pixelsPerUnit)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6b7b23c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "get_pixelsPerUnit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.ComputeTransform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::Transform*, ::ByRef<::UnityEngine::Matrix4x4>)>(
+    &::UnityEngine::UIElements::UIDocument::ComputeTransform)> {
+  constexpr static std::size_t size = 0x3ac;
+  constexpr static std::size_t addrs = 0x6b7b330;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "ComputeTransform", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Matrix4x4>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.SetNoTransform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::UIDocument::SetNoTransform)> {
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x6b7b6e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "SetNoTransform", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.SetupFromHierarchy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::SetupFromHierarchy)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a3bec8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6b7a404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -219,8 +412,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::UIDocument> (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::FindUIDocumentParent)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4a3c028;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6b7b940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -233,7 +426,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::Reset)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4a3c0f8;
+  constexpr static std::size_t addrs = 0x6b7ba14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "Reset",
@@ -246,8 +439,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::UIDocument::AddChildAndInsertContentToVisualTree)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a3c200;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6b7bb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::UIDocument::RemoveChild)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a3c018;
+  constexpr static std::size_t addrs = 0x6b7b930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,8 +468,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::RecreateUI)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x4a3b944;
+  constexpr static std::size_t size = 0x3e4;
+  constexpr static std::size_t addrs = 0x6b79e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "RecreateUI",
@@ -288,12 +481,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::SetupRootClassList)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4a3c358;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6b7bc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
                                                                                "SetupRootClassList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::UIDocument.UpdateWorldSpaceSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::UpdateWorldSpaceSize)> {
+  constexpr static std::size_t size = 0x3a0;
+  constexpr static std::size_t addrs = 0x6b7bd88;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                               "UpdateWorldSpaceSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -303,7 +509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::AddRootVisualElementToTree)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4a3bd7c;
+  constexpr static std::size_t addrs = 0x6b7a2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -316,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::RemoveFromHierarchy)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4a3c288;
+  constexpr static std::size_t addrs = 0x6b7bbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -328,8 +534,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::OnDisable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a3c3f4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6b7c128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "OnDisable",
@@ -342,8 +548,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::OnTransformChildrenChanged)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x4a3c414;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x6b7c1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -357,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(
     &::UnityEngine::UIElements::UIDocument::OnTransformParentChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a3c6c4;
+  constexpr static std::size_t addrs = 0x6b7c44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -369,8 +575,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocument::*)()>(&::UnityEngine::UIElements::UIDocument::ReactToHierarchyChanged)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a3c620;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b7c3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -474,6 +680,18 @@ constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_RootV
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RootVisualElement)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityEngine::UIElements::RuntimePanel*& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_RuntimePanel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RuntimePanel;
+}
+constexpr ::UnityEngine::UIElements::RuntimePanel* const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_RuntimePanel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RuntimePanel;
+}
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_RuntimePanel(::UnityEngine::UIElements::RuntimePanel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RuntimePanel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr int32_t& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_FirstChildInsertIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FirstChildInsertIndex;
@@ -497,6 +715,54 @@ constexpr float_t const& UnityEngine::UIElements::UIDocument::__cordl_internal_g
 constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_SortingOrder(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SortingOrder = value;
+}
+constexpr ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_WorldSpaceSizeMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpaceSizeMode;
+}
+constexpr ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_WorldSpaceSizeMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpaceSizeMode;
+}
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_WorldSpaceSizeMode(::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_WorldSpaceSizeMode = value;
+}
+constexpr float_t& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_WorldSpaceWidth() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpaceWidth;
+}
+constexpr float_t const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_WorldSpaceWidth() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpaceWidth;
+}
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_WorldSpaceWidth(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_WorldSpaceWidth = value;
+}
+constexpr float_t& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_WorldSpaceHeight() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpaceHeight;
+}
+constexpr float_t const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_WorldSpaceHeight() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_WorldSpaceHeight;
+}
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_WorldSpaceHeight(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_WorldSpaceHeight = value;
+}
+constexpr bool& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_RootHasWorldTransform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RootHasWorldTransform;
+}
+constexpr bool const& UnityEngine::UIElements::UIDocument::__cordl_internal_get_m_RootHasWorldTransform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RootHasWorldTransform;
+}
+constexpr void UnityEngine::UIElements::UIDocument::__cordl_internal_set_m_RootHasWorldTransform(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_RootHasWorldTransform = value;
 }
 inline void UnityEngine::UIElements::UIDocument::setStaticF_s_CurrentUIDocumentCounter(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "s_CurrentUIDocumentCounter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get>(
@@ -548,6 +814,11 @@ inline int32_t UnityEngine::UIElements::UIDocument::get_firstChildInserIndex() {
                                                                              "get_firstChildInserIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode UnityEngine::UIElements::UIDocument::get_worldSpaceSizeMode() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                             "get_worldSpaceSizeMode", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UIDocument_WorldSpaceSizeMode, false>(this, ___internal_method);
+}
 inline float_t UnityEngine::UIElements::UIDocument::get_sortingOrder() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "get_sortingOrder",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -578,6 +849,70 @@ inline void UnityEngine::UIElements::UIDocument::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "OnEnable",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::ResolveRuntimePanel() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                             "ResolveRuntimePanel", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::IRuntimePanel* UnityEngine::UIElements::UIDocument::get_runtimePanel() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "get_runtimePanel",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IRuntimePanel*, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::LateUpdate() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "LateUpdate",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::UpdateRenderer() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "UpdateRenderer",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Bounds UnityEngine::UIElements::UIDocument::SanitizeRendererBounds(::UnityEngine::Bounds b) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "SanitizeRendererBounds",
+                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method, b);
+}
+inline void UnityEngine::UIElements::UIDocument::AddOrRemoveRendererComponent() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                             "AddOrRemoveRendererComponent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::UpdateCutRenderChainFlag() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                             "UpdateCutRenderChainFlag", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::SetTransform() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "SetTransform",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::ClearTransform() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "ClearTransform",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline float_t UnityEngine::UIElements::UIDocument::get_pixelsPerUnit() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "get_pixelsPerUnit",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::ComputeTransform(::UnityEngine::Transform* transform, ::ByRef<::UnityEngine::Matrix4x4> matrix) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "ComputeTransform", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Matrix4x4>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, transform, matrix);
+}
+inline void UnityEngine::UIElements::UIDocument::SetNoTransform(::UnityEngine::UIElements::VisualElement* visualElement) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(), "SetNoTransform", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, visualElement);
 }
 inline void UnityEngine::UIElements::UIDocument::SetupFromHierarchy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
@@ -614,6 +949,11 @@ inline void UnityEngine::UIElements::UIDocument::RecreateUI() {
 inline void UnityEngine::UIElements::UIDocument::SetupRootClassList() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
                                                                              "SetupRootClassList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::UIDocument::UpdateWorldSpaceSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocument*>::get(),
+                                                                             "UpdateWorldSpaceSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIDocument::AddRootVisualElementToTree() {

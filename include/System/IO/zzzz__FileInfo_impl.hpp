@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d695b8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59f301c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::FileInfo::*)(::StringW)>(&::System::IO::FileInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d695bc;
+  constexpr static std::size_t addrs = 0x59f3024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::FileInfo::*)(::StringW, ::StringW, ::StringW, bool)>(&::System::IO::FileInfo::_ctor)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3d695cc;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x59dfa28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::get_Length)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d696f8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x59f3034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), "get_Length",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::StreamWriter* (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::CreateText)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d698bc;
+  constexpr static std::size_t addrs = 0x59f30bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), "CreateText",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::StreamWriter* (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::AppendText)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d69920;
+  constexpr static std::size_t addrs = 0x59f3120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), "AppendText",
@@ -87,26 +87,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::IO::FileInfo.Delete
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::Delete)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d69984;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), 11));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::System::IO::FileInfo.OpenRead
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::FileStream* (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::OpenRead)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3d6998c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x59f3184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), "OpenRead",
@@ -119,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::IO::FileInfo::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::IO::FileInfo::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d69a30;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59f3204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::FileInfo::*)()>(&::System::IO::FileInfo::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d69a34;
+  constexpr static std::size_t addrs = 0x59f320c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,11 +162,6 @@ inline ::System::IO::StreamWriter* System::IO::FileInfo::AppendText() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), "AppendText",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::IO::StreamWriter*, false>(this, ___internal_method);
-}
-inline void System::IO::FileInfo::Delete() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), 11)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::IO::FileStream* System::IO::FileInfo::OpenRead() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileInfo*>::get(), "OpenRead",

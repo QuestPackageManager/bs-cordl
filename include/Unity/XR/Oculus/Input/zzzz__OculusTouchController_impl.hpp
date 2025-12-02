@@ -4,8 +4,6 @@
 #include "Unity/XR/Oculus/Input/zzzz__OculusTouchController_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__AxisControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__IntegerControl_def.hpp"
-#include "UnityEngine/InputSystem/Controls/zzzz__QuaternionControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector2Control_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__Vector3Control_def.hpp"
 //  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.get_thumbstick
@@ -14,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e2c;
+  constexpr static std::size_t addrs = 0x62b37a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -28,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_thumbstick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e34;
+  constexpr static std::size_t addrs = 0x62b37a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e3c;
+  constexpr static std::size_t addrs = 0x62b37b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -57,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_trigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e44;
+  constexpr static std::size_t addrs = 0x62b37b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e4c;
+  constexpr static std::size_t addrs = 0x62b37c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -86,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_grip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e54;
+  constexpr static std::size_t addrs = 0x62b37c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e5c;
+  constexpr static std::size_t addrs = 0x62b37d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -115,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_primaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e64;
+  constexpr static std::size_t addrs = 0x62b37d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e6c;
+  constexpr static std::size_t addrs = 0x62b37e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -144,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_secondaryButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e74;
+  constexpr static std::size_t addrs = 0x62b37e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e7c;
+  constexpr static std::size_t addrs = 0x62b37f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -173,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_gripPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e84;
+  constexpr static std::size_t addrs = 0x62b37f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e8c;
+  constexpr static std::size_t addrs = 0x62b3800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -202,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e94;
+  constexpr static std::size_t addrs = 0x62b3808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837e9c;
+  constexpr static std::size_t addrs = 0x62b3810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -231,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_thumbstickClicked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ea4;
+  constexpr static std::size_t addrs = 0x62b3818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837eac;
+  constexpr static std::size_t addrs = 0x62b3820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -260,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_primaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837eb4;
+  constexpr static std::size_t addrs = 0x62b3828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ebc;
+  constexpr static std::size_t addrs = 0x62b3830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -289,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_secondaryTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ec4;
+  constexpr static std::size_t addrs = 0x62b3838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ecc;
+  constexpr static std::size_t addrs = 0x62b3840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -318,7 +316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_triggerTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ed4;
+  constexpr static std::size_t addrs = 0x62b3848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837edc;
+  constexpr static std::size_t addrs = 0x62b3850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -347,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_triggerPressed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ee4;
+  constexpr static std::size_t addrs = 0x62b3858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -362,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837eec;
+  constexpr static std::size_t addrs = 0x62b3860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -376,128 +374,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_thumbstickTouched)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837ef4;
+  constexpr static std::size_t addrs = 0x62b3868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_thumbstickTouched", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::ButtonControl*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.get_trackingState
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::get_trackingState)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837efc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                               "get_trackingState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.set_trackingState
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::set_trackingState)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f04;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_trackingState", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::IntegerControl*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.get_isTracked
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::get_isTracked)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f0c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                               "get_isTracked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.set_isTracked
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::set_isTracked)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f14;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_isTracked", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::ButtonControl*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.get_devicePosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::get_devicePosition)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f1c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                               "get_devicePosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.set_devicePosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::set_devicePosition)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f24;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_devicePosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::Vector3Control*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.get_deviceRotation
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
-    &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceRotation)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f2c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                               "get_deviceRotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Unity::XR::Oculus::Input::OculusTouchController.set_deviceRotation
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(
-    ::UnityEngine::InputSystem::Controls::QuaternionControl*)>(&::Unity::XR::Oculus::Input::OculusTouchController::set_deviceRotation)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f34;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_deviceRotation", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get() })));
     return ___internal_method;
   }
 };
@@ -507,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f3c;
+  constexpr static std::size_t addrs = 0x62b3870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -521,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f44;
+  constexpr static std::size_t addrs = 0x62b3878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -536,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f4c;
+  constexpr static std::size_t addrs = 0x62b3880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -550,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceAngularVelocity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f54;
+  constexpr static std::size_t addrs = 0x62b3888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -565,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f5c;
+  constexpr static std::size_t addrs = 0x62b3890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -579,7 +461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f64;
+  constexpr static std::size_t addrs = 0x62b3898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -594,7 +476,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::get_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f6c;
+  constexpr static std::size_t addrs = 0x62b38a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -608,7 +490,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::Unity::XR::Oculus::Input::OculusTouchController::set_deviceAngularAcceleration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4837f74;
+  constexpr static std::size_t addrs = 0x62b38a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,8 +504,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::FinishSetup)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x4837f7c;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x62b38b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -638,8 +520,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusTouchController::*)()>(
     &::Unity::XR::Oculus::Input::OculusTouchController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838394;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x62b3c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
@@ -802,54 +684,6 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& Unity::XR:
 constexpr void Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_set__thumbstickTouched_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____thumbstickTouched_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__trackingState_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____trackingState_k__BackingField;
-}
-constexpr ::UnityEngine::InputSystem::Controls::IntegerControl* const& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__trackingState_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____trackingState_k__BackingField;
-}
-constexpr void Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackingState_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl*& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__isTracked_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isTracked_k__BackingField;
-}
-constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__isTracked_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____isTracked_k__BackingField;
-}
-constexpr void Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____isTracked_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__devicePosition_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____devicePosition_k__BackingField;
-}
-constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__devicePosition_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____devicePosition_k__BackingField;
-}
-constexpr void Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_set__devicePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____devicePosition_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__deviceRotation_k__BackingField() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____deviceRotation_k__BackingField;
-}
-constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__deviceRotation_k__BackingField() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____deviceRotation_k__BackingField;
-}
-constexpr void Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____deviceRotation_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& Unity::XR::Oculus::Input::OculusTouchController::__cordl_internal_get__deviceVelocity_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1042,50 +876,6 @@ inline void Unity::XR::Oculus::Input::OculusTouchController::set_thumbstickTouch
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_thumbstickTouched", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::ButtonControl*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::InputSystem::Controls::IntegerControl* Unity::XR::Oculus::Input::OculusTouchController::get_trackingState() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                             "get_trackingState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Controls::IntegerControl*, false>(this, ___internal_method);
-}
-inline void Unity::XR::Oculus::Input::OculusTouchController::set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_trackingState", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::IntegerControl*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::InputSystem::Controls::ButtonControl* Unity::XR::Oculus::Input::OculusTouchController::get_isTracked() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                             "get_isTracked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Controls::ButtonControl*, false>(this, ___internal_method);
-}
-inline void Unity::XR::Oculus::Input::OculusTouchController::set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_isTracked", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::ButtonControl*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::InputSystem::Controls::Vector3Control* Unity::XR::Oculus::Input::OculusTouchController::get_devicePosition() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                             "get_devicePosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Controls::Vector3Control*, false>(this, ___internal_method);
-}
-inline void Unity::XR::Oculus::Input::OculusTouchController::set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_devicePosition", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::Vector3Control*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::InputSystem::Controls::QuaternionControl* Unity::XR::Oculus::Input::OculusTouchController::get_deviceRotation() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(),
-                                                                             "get_deviceRotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Controls::QuaternionControl*, false>(this, ___internal_method);
-}
-inline void Unity::XR::Oculus::Input::OculusTouchController::set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusTouchController*>::get(), "set_deviceRotation", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::InputSystem::Controls::Vector3Control* Unity::XR::Oculus::Input::OculusTouchController::get_deviceVelocity() {

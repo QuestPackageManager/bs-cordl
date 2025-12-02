@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderControllerBase::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::SliderControllerBase::AnimateCutout)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b78d94;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5764850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderControllerBase::*)()>(&::GlobalNamespace::SliderControllerBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b797ac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x576524c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderControllerBase*>::get(), ".ctor",

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DtlsReliableHandshake.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_impl.hpp"
 #include "System/IO/zzzz__MemoryStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsReliableHandshake_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsRecordLayer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsReliableHandshake_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Timeout_def.hpp"
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::*)(
     int32_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23f5ebc;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x3324184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::get_Seq)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f7420;
+  constexpr static std::size_t addrs = 0x332568c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f7428;
+  constexpr static std::size_t addrs = 0x3325694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message::get_Body)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f7430;
+  constexpr static std::size_t addrs = 0x332569c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_RecordLayerBuffer::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_RecordLayerBuffer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f7364;
+  constexpr static std::size_t addrs = 0x33255c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_RecordLayerBuffer::*)(
     ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_RecordLayerBuffer::SendToRecordLayer)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23f736c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x33255cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Retransmit::*)(
     ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Retransmit::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23f6a6c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3324d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Retransmit::*)(
     int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Retransmit::ReceivedHandshakeRecord)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23f7438;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x33256a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,8 +268,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer*, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::_ctor)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x23f0d6c;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x331f19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,8 +285,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::NotifyHelloComplete)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23f153c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x331f9ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::get_HandshakeHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f5b2c;
+  constexpr static std::size_t addrs = 0x3323e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -313,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::PrepareToFinish)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x23f16ec;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x331fb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -327,8 +327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::SendMessage)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x23f0eb8;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x331f2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,8 +343,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::ReceiveMessageBody)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x23f15e8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x331fa5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,8 +358,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* (
     ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::ReceiveMessage)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x23f1084;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x331f4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -372,8 +372,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::Finish)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x23f164c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x331fab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -386,8 +386,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::ResetHandshakeMessagesDigest)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23f1498;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x331f904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -400,8 +400,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::BackOff)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23f6a94;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x3324d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,8 +415,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::CheckInboundFlight)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x23f5b34;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x3323e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -429,8 +429,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* (
     ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::GetPendingMessage)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x23f6244;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x33244e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::PrepareInboundFlight)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23f6218;
+  constexpr static std::size_t addrs = 0x33244b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(
     int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::ProcessRecord)> {
   constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x23f65e4;
+  constexpr static std::size_t addrs = 0x3324884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -475,8 +475,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::ResendOutboundFlight)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x23f63e8;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x3324678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake*>::get(),
@@ -490,8 +490,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* (
     ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message*)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::UpdateHandshakeMessagesDigest)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x23f6008;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x332429c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -506,8 +506,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(
     ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message*)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::WriteMessage)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x23f5efc;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x3324194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -521,8 +521,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::*)(
     ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message*, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::WriteHandshakeFragment)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x23f723c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x332548c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -536,8 +536,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::CheckAll)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x23f6e8c;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x33250fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -550,8 +550,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake::ResetAll)> {
-  constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x23f6af0;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x3324d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

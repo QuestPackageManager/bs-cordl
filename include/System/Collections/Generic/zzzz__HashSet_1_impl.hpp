@@ -1,24 +1,21 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/HashSet_1.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__ISet_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Predicate_1_def.hpp"
 // Ctor Parameters [CppParam { name: "uniqueCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "unfoundCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -320,12 +317,12 @@ template <typename T> inline ::System::Collections::IEnumerator* System::Collect
 template <typename T>
 inline void System::Collections::Generic::HashSet_1<T>::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), 16)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::OnDeserialization(::System::Object* sender) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), 17)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
 template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::Add(T item) {
@@ -351,6 +348,42 @@ template <typename T> inline void System::Collections::Generic::HashSet_1<T>::Ex
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "ExceptWith", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::HashSet_1<T>::SymmetricExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "SymmetricExceptWith", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::IsSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "IsSubsetOf", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::IsProperSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "IsProperSubsetOf", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::IsSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "IsSupersetOf", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::IsProperSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "IsProperSupersetOf", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::Overlaps(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "Overlaps", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
 template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::SetEquals(::System::Collections::Generic::IEnumerable_1<T>* other) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -423,6 +456,12 @@ template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::Co
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::IsSubsetOfHashSetWithSameEC(::System::Collections::Generic::HashSet_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "IsSubsetOfHashSetWithSameEC", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
 template <typename T> inline void System::Collections::Generic::HashSet_1<T>::IntersectWithHashSetWithSameEC(::System::Collections::Generic::HashSet_1<T>* other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "IntersectWithHashSetWithSameEC", std::span<Il2CppClass const* const, 0>(),
@@ -440,6 +479,24 @@ template <typename T> inline int32_t System::Collections::Generic::HashSet_1<T>:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "InternalIndexOf",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
+}
+template <typename T> inline void System::Collections::Generic::HashSet_1<T>::SymmetricExceptWithUniqueHashSet(::System::Collections::Generic::HashSet_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "SymmetricExceptWithUniqueHashSet", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::HashSet_1<T>::SymmetricExceptWithEnumerable(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "SymmetricExceptWithEnumerable", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::HashSet_1<T>::AddOrGetLocation(T value, ::ByRef<int32_t> location) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::HashSet_1<T>*>::get(), "AddOrGetLocation", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, value, location);
 }
 template <typename T>
 inline ::System::Collections::Generic::HashSet_1_ElementCount<T> System::Collections::Generic::HashSet_1<T>::CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other,

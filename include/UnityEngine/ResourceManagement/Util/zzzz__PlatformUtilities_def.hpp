@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::Util::PlatformUtilities* New_ctor();
 
-  /// @brief Method PlatformUsesMultiThreading, addr 0x4797a74, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method PlatformUsesMultiThreading, addr 0x66f76e4, size 0xc, virtual false, abstract: false, final false
   static inline bool PlatformUsesMultiThreading(::UnityEngine::RuntimePlatform platform);
 
-  /// @brief Method .ctor, addr 0x4797a80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f76f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   PlatformUtilities(PlatformUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18698 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

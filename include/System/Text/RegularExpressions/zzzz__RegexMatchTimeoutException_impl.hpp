@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Text/RegularExpressions/RegexMatchTimeoutException.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/zzzz__TimeoutException_impl.hpp"
 #include "System/Text/RegularExpressions/zzzz__RegexMatchTimeoutException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)(::StringW, ::StringW, ::System::TimeSpan)>(
     &::System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x44215c8;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x61700d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(
     &::System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4421694;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6170198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Text::RegularExpressions::RegexMatchTimeoutException::_ctor)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4421728;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6170210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Text::RegularExpressions::RegexMatchTimeoutException::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4421860;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x617033c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(
     &::System::Text::RegularExpressions::RegexMatchTimeoutException::get_Input)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x442195c;
+  constexpr static std::size_t addrs = 0x6170450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(
     &::System::Text::RegularExpressions::RegexMatchTimeoutException::get_Pattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4421964;
+  constexpr static std::size_t addrs = 0x6170458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Text::RegularExpressions::RegexMatchTimeoutException::*)()>(
     &::System::Text::RegularExpressions::RegexMatchTimeoutException::get_MatchTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x442196c;
+  constexpr static std::size_t addrs = 0x6170460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

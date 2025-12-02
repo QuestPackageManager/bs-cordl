@@ -1,19 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/BerApplicationSpecificParser.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1ApplicationSpecificParser_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__BerApplicationSpecificParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1ApplicationSpecificParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::*)(
     int32_t, ::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(&::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x262d858;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x355d884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible* (::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::ReadObject)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2632ec4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3562d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerApplicationSpecificParser*>::get(),
@@ -42,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::*)()>(
     &::Org::BouncyCastle::Asn1::BerApplicationSpecificParser::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x262d888;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x355d890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::BerApplicationSpecificParser*>::get(),

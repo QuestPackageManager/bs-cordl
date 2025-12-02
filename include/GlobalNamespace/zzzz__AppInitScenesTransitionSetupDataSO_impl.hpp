@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/AppInitScenesTransitionSetupDataSO.hpp"
 #include "GlobalNamespace/zzzz__SceneSetupData_impl.hpp"
-#include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_impl.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataSO_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -13,10 +13,11 @@ constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideS
 constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType::DoNotOverride{
   static_cast<int32_t>(0x0)
 };
-constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType::AppStart{ static_cast<int32_t>(
+constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType::Default{ static_cast<int32_t>(
     0x1) };
-constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType::AppRestart{ static_cast<int32_t>(
-    0x2) };
+constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType::DirectlyToMenu{
+  static_cast<int32_t>(0x2)
+};
 constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType::MultiSceneEditor{
   static_cast<int32_t>(0x3)
 };
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType (
     ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::*)()>(&::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::get_appInitOverrideStartType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229bb08;
+  constexpr static std::size_t addrs = 0x31e1870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::*)(
     ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::set_appInitOverrideStartType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229bb10;
+  constexpr static std::size_t addrs = 0x31e1878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::*)(
     ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2294b00;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31d94b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,45 +108,59 @@ GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::New_c
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData::AppInitScenesTransitionSetupDataSO_AppInitSceneSetupData() {}
+//  Writing Method size for method: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO.InitDirectlyToMenu
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
+    &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitDirectlyToMenu)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31e16e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
+                                                                               "InitDirectlyToMenu", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO.InitAsDefault
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
+    &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsDefault)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31e17d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
+                                                                               "InitAsDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO.InitAsMultiSceneEditor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
+    &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsMultiSceneEditor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31e17dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
+                                                                               "InitAsMultiSceneEditor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO.Init
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
-    &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x229b8d8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
-                                                                               "Init", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO.InitAsAppStart
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
-    &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsAppStart)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x229ba28;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
-                                                                               "InitAsAppStart", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::AppInitScenesTransitionSetupDataSO.__Init
-template <>
-
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)(
-    ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupDataSO::__Init)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x229ba8c;
+    ::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType)>(&::GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x31e16f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(), "__Init", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType>::get() })));
     return ___internal_method;
   }
@@ -156,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::AppInitScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229baf8;
+  constexpr static std::size_t addrs = 0x31e1860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
@@ -164,19 +179,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init() {
+inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitDirectlyToMenu() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
-                                                                             "Init", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "InitDirectlyToMenu", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsAppStart() {
+inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsDefault() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
-                                                                             "InitAsAppStart", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "InitAsDefault", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::__Init(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType appInitOverrideStartType) {
+inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::InitAsMultiSceneEditor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(),
+                                                                             "InitAsMultiSceneEditor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::AppInitScenesTransitionSetupDataSO::Init(::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType appInitOverrideStartType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(), "__Init", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitScenesTransitionSetupDataSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AppInitScenesTransitionSetupDataSO_AppInitOverrideStartType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, appInitOverrideStartType);
 }

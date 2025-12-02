@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BasicBeatmapEventData* (::GlobalNamespace::BasicBeatmapEventData::*)()>(
     &::GlobalNamespace::BasicBeatmapEventData::get_previousSameTypeEventData)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2242910;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3162a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapEventData*>::get(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BasicBeatmapEventData* (::GlobalNamespace::BasicBeatmapEventData::*)()>(
     &::GlobalNamespace::BasicBeatmapEventData::get_nextSameTypeEventData)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2242988;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3162abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapEventData*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BasicBeatmapEventData::*)()>(
     &::GlobalNamespace::BasicBeatmapEventData::get_sameTypeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2242a00;
+  constexpr static std::size_t addrs = 0x3162b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapEventData*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapEventData::*)(int32_t)>(
     &::GlobalNamespace::BasicBeatmapEventData::set_sameTypeIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2242a08;
+  constexpr static std::size_t addrs = 0x3162b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BasicBeatmapEventData::*)(float_t, ::GlobalNamespace::BasicBeatmapEventType, int32_t, float_t)>(&::GlobalNamespace::BasicBeatmapEventData::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x2242a10;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x3162b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BasicBeatmapEventData::*)()>(
     &::GlobalNamespace::BasicBeatmapEventData::GetCopy)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2242af0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3162bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::BasicBeatmapEventType)>(
     &::GlobalNamespace::BasicBeatmapEventData::SubtypeIdentifier)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2242aa8;
+  constexpr static std::size_t addrs = 0x3162bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapEventData::*)()>(
     &::GlobalNamespace::BasicBeatmapEventData::SetFirstSameTypeIndex)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2242b70;
+  constexpr static std::size_t addrs = 0x3162c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapEventData*>::get(),
@@ -130,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapEventData::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::BasicBeatmapEventData::RecalculateSameTypeIndexFromPreviousEvent)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2242b7c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3162c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::BasicBeatmapEventData::*)()>(
     &::GlobalNamespace::BasicBeatmapEventData::GetDefault)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2242b9c;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x3162c94;
 
   inline static ::MethodInfo const* methodInfo() {
 

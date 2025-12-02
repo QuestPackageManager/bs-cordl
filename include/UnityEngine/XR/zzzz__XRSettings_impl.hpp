@@ -2,8 +2,10 @@
 // IWYU pragma private; include "UnityEngine/XR/XRSettings.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRSettings_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
 #include "UnityEngine/XR/zzzz__XRSettings_def.hpp"
+#include "UnityEngine/zzzz__RenderTextureDescriptor_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::XR::XRSettings_StereoRenderingMode::XRSettings_StereoRenderingMode(int32_t value__) noexcept {
   this->value__ = value__;
@@ -19,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_enabled)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea2f4;
+  constexpr static std::size_t addrs = 0x6bfea50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_enabled",
@@ -32,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_isDeviceActive)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea31c;
+  constexpr static std::size_t addrs = 0x6bfea78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_isDeviceActive",
@@ -45,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_showDeviceView)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea344;
+  constexpr static std::size_t addrs = 0x6bfeaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_showDeviceView",
@@ -58,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::XR::XRSettings::set_showDeviceView)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4aea36c;
+  constexpr static std::size_t addrs = 0x6bfeac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureResolutionScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea3a8;
+  constexpr static std::size_t addrs = 0x6bfeb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(),
@@ -85,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::XRSettings::set_eyeTextureResolutionScale)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4aea3d0;
+  constexpr static std::size_t addrs = 0x6bfeb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureWidth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea408;
+  constexpr static std::size_t addrs = 0x6bfeb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureWidth",
@@ -112,10 +114,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureHeight)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea430;
+  constexpr static std::size_t addrs = 0x6bfeb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureHeight",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::XRSettings.get_eyeTextureDesc
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTextureDescriptor (*)()>(&::UnityEngine::XR::XRSettings::get_eyeTextureDesc)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6bfebb4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureDesc",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -125,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::TextureDimension (*)()>(&::UnityEngine::XR::XRSettings::get_deviceEyeTextureDimension)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea458;
+  constexpr static std::size_t addrs = 0x6bfec60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(),
@@ -138,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_renderViewportScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea480;
+  constexpr static std::size_t addrs = 0x6bfec88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_renderViewportScale",
@@ -151,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::XRSettings::set_renderViewportScale)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aea4d0;
+  constexpr static std::size_t addrs = 0x6bfecd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_renderViewportScaleInternal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea4a8;
+  constexpr static std::size_t addrs = 0x6bfecb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngine::XR::XRSettings::set_renderViewportScaleInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4aea580;
+  constexpr static std::size_t addrs = 0x6bfed88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngine::XR::XRSettings::get_occlusionMaskScale)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea5b8;
+  constexpr static std::size_t addrs = 0x6bfedc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_occlusionMaskScale",
@@ -206,7 +221,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::XR::XRSettings::get_useOcclusionMesh)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea5e0;
+  constexpr static std::size_t addrs = 0x6bfede8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_useOcclusionMesh",
@@ -218,11 +233,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::UnityEngine::XR::XRSettings::get_loadedDeviceName)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea608;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6bfee10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_loadedDeviceName",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::XRSettings.get_supportedDevices
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::UnityEngine::XR::XRSettings::get_supportedDevices)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6bfef10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_supportedDevices",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -232,11 +260,41 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::XRSettings_StereoRenderingMode (*)()>(&::UnityEngine::XR::XRSettings::get_stereoRenderingMode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aea630;
+  constexpr static std::size_t addrs = 0x6bfef38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_stereoRenderingMode",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::XRSettings.get_eyeTextureDesc_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::RenderTextureDescriptor>)>(
+    &::UnityEngine::XR::XRSettings::get_eyeTextureDesc_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6bfec24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureDesc_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::RenderTextureDescriptor>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::XRSettings.get_loadedDeviceName_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::XR::XRSettings::get_loadedDeviceName_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6bfeed4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_loadedDeviceName_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
     return ___internal_method;
   }
 };
@@ -282,6 +340,11 @@ inline int32_t UnityEngine::XR::XRSettings::get_eyeTextureHeight() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
 }
+inline ::UnityEngine::RenderTextureDescriptor UnityEngine::XR::XRSettings::get_eyeTextureDesc() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureDesc",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::RenderTextureDescriptor, false>(nullptr, ___internal_method);
+}
 inline ::UnityEngine::Rendering::TextureDimension UnityEngine::XR::XRSettings::get_deviceEyeTextureDimension() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(),
                                                                              "get_deviceEyeTextureDimension", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -324,10 +387,27 @@ inline ::StringW UnityEngine::XR::XRSettings::get_loadedDeviceName() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
+inline ::ArrayW<::StringW, ::Array<::StringW>*> UnityEngine::XR::XRSettings::get_supportedDevices() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_supportedDevices",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(nullptr, ___internal_method);
+}
 inline ::UnityEngine::XR::XRSettings_StereoRenderingMode UnityEngine::XR::XRSettings::get_stereoRenderingMode() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_stereoRenderingMode",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::XRSettings_StereoRenderingMode, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::XR::XRSettings::get_eyeTextureDesc_Injected(::ByRef<::UnityEngine::RenderTextureDescriptor> ret) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_eyeTextureDesc_Injected", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::RenderTextureDescriptor>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, ret);
+}
+inline void UnityEngine::XR::XRSettings::get_loadedDeviceName_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::XRSettings*>::get(), "get_loadedDeviceName_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, ret);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::XR::XRSettings::XRSettings() {}

@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MissionLevelRestartController.hpp"
-#include "GlobalNamespace/zzzz__ILevelRestartController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelRestartController_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__MissionLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MissionObjectiveCheckersManager_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelRestartController::*)()>(
     &::GlobalNamespace::MissionLevelRestartController::RestartLevel)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3bb10b0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x57a13c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelRestartController*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionLevelRestartController::*)()>(
     &::GlobalNamespace::MissionLevelRestartController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb115c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57a1478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionLevelRestartController*>::get(),

@@ -3,18 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CounterSignatureDigestCalculator)
+namespace Org::BouncyCastle::Cms {
+class IDigestCalculator;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
 class CounterSignatureDigestCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator);
-// Dependencies Org.BouncyCastle.Cms.IDigestCalculator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.CounterSignatureDigestCalculator
@@ -30,7 +32,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
-  /// @brief Method GetDigest, addr 0x26759c0, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x35a4f08, size 0xb0, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator* New_ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
@@ -47,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2675994, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a4f00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW alg, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"

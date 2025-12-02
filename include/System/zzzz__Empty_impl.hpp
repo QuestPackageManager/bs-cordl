@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Empty.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Empty_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Empty._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Empty::*)()>(&::System::Empty::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e1df64;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5a63d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Empty*>::get(), ".ctor",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Empty::*)()>(&::System::Empty::ToString)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e1df6c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5a63da0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Empty::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Empty::GetObjectData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e1dfb4;
+  constexpr static std::size_t addrs = 0x5a63db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

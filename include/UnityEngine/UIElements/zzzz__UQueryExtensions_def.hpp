@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(UQueryExtensions)
 namespace UnityEngine::UIElements {
+template <typename T> struct UQueryBuilder_1;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 // Forward declare root types
@@ -59,11 +62,21 @@ public:
   __declspec(property(get = getStaticF_SingleElementTypeQuery, put = setStaticF_SingleElementTypeQuery)) ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>
       SingleElementTypeQuery;
 
-  /// @brief Method Q, addr 0x4aa0e78, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method Q, addr 0x6a86360, size 0x3ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+
+  /// @brief Method Q, addr 0x6a86240, size 0x120, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::VisualElement* Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> classes);
 
   /// @brief Method Q, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className);
+
+  /// @brief Method Query, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T>
+  static inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> classes);
 
   static inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*> getStaticF_SingleElementClassQuery();
 
@@ -112,7 +125,7 @@ public:
   UQueryExtensions(UQueryExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6232 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5133 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

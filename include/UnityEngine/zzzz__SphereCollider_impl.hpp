@@ -2,13 +2,14 @@
 // IWYU pragma private; include "UnityEngine/SphereCollider.hpp"
 #include "UnityEngine/zzzz__Collider_impl.hpp"
 #include "UnityEngine/zzzz__SphereCollider_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SphereCollider.get_center
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::SphereCollider::*)()>(&::UnityEngine::SphereCollider::get_center)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x490aae4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x696935c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_center",
@@ -20,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(::UnityEngine::Vector3)>(&::UnityEngine::SphereCollider::set_center)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x490ab84;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6969440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::SphereCollider::*)()>(&::UnityEngine::SphereCollider::get_radius)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x490ac1c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x696951c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_radius",
@@ -47,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(float_t)>(&::UnityEngine::SphereCollider::set_radius)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490ac58;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x69695d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)()>(&::UnityEngine::SphereCollider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x490aca4;
+  constexpr static std::size_t addrs = 0x69696b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), ".ctor",
@@ -73,30 +74,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::SphereCollider.get_center_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(::ByRef<::UnityEngine::Vector3>)>(
-    &::UnityEngine::SphereCollider::get_center_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::SphereCollider::get_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490ab40;
+  constexpr static std::size_t addrs = 0x69693fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_center_Injected", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::SphereCollider.set_center_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SphereCollider::*)(::ByRef<::UnityEngine::Vector3>)>(
-    &::UnityEngine::SphereCollider::set_center_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Vector3>)>(&::UnityEngine::SphereCollider::set_center_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x490abd8;
+  constexpr static std::size_t addrs = 0x69694d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "set_center_Injected", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::SphereCollider.get_radius_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::SphereCollider::get_radius_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x696959c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_radius_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::SphereCollider.set_radius_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, float_t)>(&::UnityEngine::SphereCollider::set_radius_Injected)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6969668;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "set_radius_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -127,17 +156,31 @@ inline void UnityEngine::SphereCollider::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::SphereCollider::get_center_Injected(::ByRef<::UnityEngine::Vector3> ret) {
+inline void UnityEngine::SphereCollider::get_center_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_center_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ret);
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline void UnityEngine::SphereCollider::set_center_Injected(::ByRef<::UnityEngine::Vector3> value) {
+inline void UnityEngine::SphereCollider::set_center_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "set_center_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline float_t UnityEngine::SphereCollider::get_radius_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "get_radius_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::SphereCollider::set_radius_Injected(::System::IntPtr _unity_self, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SphereCollider*>::get(), "set_radius_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
 }
 inline ::UnityEngine::SphereCollider* UnityEngine::SphereCollider::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::SphereCollider*>());

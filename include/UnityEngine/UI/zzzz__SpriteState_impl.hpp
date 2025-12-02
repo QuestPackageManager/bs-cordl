@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/SpriteState.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__SpriteState_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::SpriteState.get_highlightedSprite
 template <>
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(
     &::UnityEngine::UI::SpriteState::get_highlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc1d4;
+  constexpr static std::size_t addrs = 0x6bd8838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::SpriteState>::get(), "get_highlightedSprite",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UI::SpriteState::set_highlightedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc1dc;
+  constexpr static std::size_t addrs = 0x6bd8840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(
     &::UnityEngine::UI::SpriteState::get_pressedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc1e4;
+  constexpr static std::size_t addrs = 0x6bd8848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::SpriteState>::get(), "get_pressedSprite",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UI::SpriteState::set_pressedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc1ec;
+  constexpr static std::size_t addrs = 0x6bd8850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(
     &::UnityEngine::UI::SpriteState::get_selectedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc1f4;
+  constexpr static std::size_t addrs = 0x6bd8858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::SpriteState>::get(), "get_selectedSprite",
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UI::SpriteState::set_selectedSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc1fc;
+  constexpr static std::size_t addrs = 0x6bd8860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::UnityEngine::UI::SpriteState::*)()>(
     &::UnityEngine::UI::SpriteState::get_disabledSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc204;
+  constexpr static std::size_t addrs = 0x6bd8868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::SpriteState>::get(), "get_disabledSprite",
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::SpriteState::*)(::UnityEngine::Sprite*)>(
     &::UnityEngine::UI::SpriteState::set_disabledSprite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acc20c;
+  constexpr static std::size_t addrs = 0x6bd8870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,8 +123,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::SpriteState::*)(::UnityEngine::UI::SpriteState)>(&::UnityEngine::UI::SpriteState::Equals)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4acc214;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6bd8878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -17,10 +17,13 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class IPointerEvent;
 }
-namespace UnityEngine {
-struct Vector2;
+namespace UnityEngine::UIElements {
+template <typename T> class PointerEventBase_1;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -53,7 +56,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ClickDetector_ButtonClickStatus* New_ctor();
 
-  /// @brief Method Reset, addr 0x4973050, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6a14fe4, size 0x68, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get_m_ClickCount() const;
@@ -80,7 +83,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4972de0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a14db8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +101,7 @@ public:
   ClickDetector_ButtonClickStatus(ClickDetector_ButtonClickStatus const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5465 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4069 };
 
   /// @brief Field m_Target, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Target;
@@ -142,24 +145,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ClickStatus,
                       put = __cordl_internal_set_m_ClickStatus)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* m_ClickStatus;
 
-  /// @brief Method CancelClickTracking, addr 0x4973608, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method CancelClickTracking, addr 0x6a154a8, size 0x104, virtual false, abstract: false, final false
   inline void CancelClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method Cleanup, addr 0x4973c20, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x6a155ac, size 0x154, virtual false, abstract: false, final false
   inline void Cleanup(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* elements);
 
-  /// @brief Method ContainsPointer, addr 0x49734c8, size 0x140, virtual false, abstract: false, final false
-  static inline bool ContainsPointer(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::Vector2 position);
+  /// @brief Method ContainsPointer, addr 0x6a152f4, size 0x1b4, virtual false, abstract: false, final false
+  static inline bool ContainsPointer(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::IPointerEvent* pe);
 
   static inline ::UnityEngine::UIElements::ClickDetector* New_ctor();
 
-  /// @brief Method ProcessEvent, addr 0x4973704, size 0x51c, virtual false, abstract: false, final false
-  inline void ProcessEvent(::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Method ProcessEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TEvent> inline void ProcessEvent(::UnityEngine::UIElements::PointerEventBase_1<TEvent>* evt);
 
-  /// @brief Method SendClickEvent, addr 0x49730b4, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method SendClickEvent, addr 0x6a1504c, size 0x2a8, virtual false, abstract: false, final false
   inline void SendClickEvent(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method StartClickTracking, addr 0x4972de8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method StartClickTracking, addr 0x6a14dbc, size 0x228, virtual false, abstract: false, final false
   inline void StartClickTracking(::UnityEngine::UIElements::EventBase* evt);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* const& __cordl_internal_get_m_ClickStatus() const;
@@ -168,17 +171,17 @@ public:
 
   constexpr void __cordl_internal_set_m_ClickStatus(::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* value);
 
-  /// @brief Method .ctor, addr 0x4972b8c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a14b44, size 0x274, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__s_DoubleClickTime_k__BackingField();
 
-  /// @brief Method get_s_DoubleClickTime, addr 0x4972ad8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_s_DoubleClickTime, addr 0x6a14a88, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t get_s_DoubleClickTime();
 
   static inline void setStaticF__s_DoubleClickTime_k__BackingField(int32_t value);
 
-  /// @brief Method set_s_DoubleClickTime, addr 0x4972b30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_s_DoubleClickTime, addr 0x6a14ae4, size 0x60, virtual false, abstract: false, final false
   static inline void set_s_DoubleClickTime(int32_t value);
 
 protected:
@@ -196,7 +199,7 @@ public:
   ClickDetector(ClickDetector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5466 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4070 };
 
   /// @brief Field m_ClickStatus, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ClickDetector_ButtonClickStatus*>* ___m_ClickStatus;

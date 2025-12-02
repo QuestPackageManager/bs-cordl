@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Interop_ErrorInfo (*)(::GlobalNamespace::Interop_Error)>(
     &::GlobalNamespace::InteropErrorExtensions::Info)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c54d34;
+  constexpr static std::size_t addrs = 0x5897c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

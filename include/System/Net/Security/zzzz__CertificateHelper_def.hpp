@@ -33,24 +33,24 @@ namespace System::Net::Security {
 class CORDL_TYPE CertificateHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEligibleClientCertificate, addr 0x4405974, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x6153ce0, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* GetEligibleClientCertificate();
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x4405724, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x6153a74, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2Collection* candidateCerts);
 
-  /// @brief Method GetEligibleClientCertificate, addr 0x4405690, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetEligibleClientCertificate, addr 0x61539d0, size 0xa4, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Certificate2*
   GetEligibleClientCertificate(::System::Security::Cryptography::X509Certificates::X509CertificateCollection* candidateCerts);
 
-  /// @brief Method IsValidClientCertificate, addr 0x44057b8, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsValidClientCertificate, addr 0x6153b18, size 0x104, virtual false, abstract: false, final false
   static inline bool IsValidClientCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* cert);
 
-  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x44058b0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsValidForClientAuthenticationEKU, addr 0x6153c1c, size 0xa4, virtual false, abstract: false, final false
   static inline bool IsValidForClientAuthenticationEKU(::System::Security::Cryptography::X509Certificates::X509EnhancedKeyUsageExtension* eku);
 
-  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x4405954, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsValidForDigitalSignatureUsage, addr 0x6153cc0, size 0x20, virtual false, abstract: false, final false
   static inline bool IsValidForDigitalSignatureUsage(::System::Security::Cryptography::X509Certificates::X509KeyUsageExtension* ku);
 
 protected:
@@ -68,7 +68,7 @@ public:
   CertificateHelper(CertificateHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11768 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

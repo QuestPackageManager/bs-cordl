@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DatagramTransport)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class DatagramTransport;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DatagramTransport);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCloseable
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.DatagramTransport

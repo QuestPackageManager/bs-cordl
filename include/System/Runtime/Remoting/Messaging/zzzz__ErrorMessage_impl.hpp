@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/ErrorMessage.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ErrorMessage_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Reflection/zzzz__MethodBase_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::ErrorMessage._ctor
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ce32cc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x592575c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_ArgCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecd38;
+  constexpr static std::size_t addrs = 0x592ee9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_Args)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecd40;
+  constexpr static std::size_t addrs = 0x592eea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodBase* (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodBase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecd48;
+  constexpr static std::size_t addrs = 0x592eeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cecd50;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x592eeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_MethodSignature)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecd90;
+  constexpr static std::size_t addrs = 0x592eef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecd98;
+  constexpr static std::size_t addrs = 0x592ef00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_TypeName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cecda0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x592ef08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::get_Uri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecde0;
+  constexpr static std::size_t addrs = 0x592ef4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::ErrorMessage::*)(int32_t)>(
     &::System::Runtime::Remoting::Messaging::ErrorMessage::GetArg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecde8;
+  constexpr static std::size_t addrs = 0x592ef54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (
     ::System::Runtime::Remoting::Messaging::ErrorMessage::*)()>(&::System::Runtime::Remoting::Messaging::ErrorMessage::get_LogicalCallContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecdf0;
+  constexpr static std::size_t addrs = 0x592ef5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ErrorMessage*>::get(),

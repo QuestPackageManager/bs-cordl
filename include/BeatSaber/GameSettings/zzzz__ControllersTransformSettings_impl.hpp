@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::get_selectedControllerProfile)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2271138;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x3194d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllersTransformSettings*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::Initialize)> {
-  constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2270620;
+  constexpr static std::size_t size = 0x454;
+  constexpr static std::size_t addrs = 0x31941b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllersTransformSettings*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::Deactivate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2270bc0;
+  constexpr static std::size_t addrs = 0x319474c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllersTransformSettings*>::get(),
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(::BeatSaber::GameSettings::ControllerProfile*)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::RefreshView)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2270fac;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x3194b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(bool)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::SetInteractable)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2271194;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x3194d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::HandlePositionSliderValueDidChange)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2271234;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3194e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::HandleRotationSliderValueDidChange)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22712c4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3194ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllersTransformSettings::*)()>(
     &::BeatSaber::GameSettings::ControllersTransformSettings::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2271354;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3194fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllersTransformSettings*>::get(),

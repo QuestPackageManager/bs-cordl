@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "LufsMetering/SplitAudioJob.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
-#include "Unity/Jobs/zzzz__IJobParallelFor_impl.hpp"
 #include "LufsMetering/zzzz__SplitAudioJob_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 //  Writing Method size for method: ::LufsMetering::SplitAudioJob.Create
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LufsMetering::SplitAudioJob (*)(
     ::Unity::Collections::NativeArray_1<float_t>, ::Unity::Collections::NativeArray_1<float_t>, int32_t, int32_t)>(&::LufsMetering::SplitAudioJob::Create)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b7392c;
+  constexpr static std::size_t addrs = 0x575f0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::SplitAudioJob::*)(int32_t)>(&::LufsMetering::SplitAudioJob::Execute)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b7393c;
+  constexpr static std::size_t addrs = 0x575f0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -4,12 +4,12 @@
 #include "UnityEngine/Animations/zzzz__AnimationMotionXToDeltaPlayable_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationOutputWeightProcessor_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationOutputWeightProcessor_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
 // Ctor Parameters [CppParam { name: "mixer", ty: "::UnityEngine::Playables::Playable", modifiers: "", def_value: Some("{}") }, CppParam { name: "parentMixer", ty:
 // "::UnityEngine::Playables::Playable", modifiers: "", def_value: Some("{}") }, CppParam { name: "port", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Timeline::AnimationOutputWeightProcessor_WeightInfo::AnimationOutputWeightProcessor_WeightInfo(::UnityEngine::Playables::Playable mixer,
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)(
     ::UnityEngine::Animations::AnimationPlayableOutput)>(&::UnityEngine::Timeline::AnimationOutputWeightProcessor::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x480c84c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x678cab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)()>(
     &::UnityEngine::Timeline::AnimationOutputWeightProcessor::FindMixers)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x480c90c;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x678cb70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationOutputWeightProcessor*>::get(),
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)(
     ::UnityEngine::Playables::Playable, int32_t, ::UnityEngine::Playables::Playable)>(&::UnityEngine::Timeline::AnimationOutputWeightProcessor::FindMixers)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x480c9f4;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x678cc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationOutputWeightProcessor::*)()>(
     &::UnityEngine::Timeline::AnimationOutputWeightProcessor::Evaluate)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x480cce8;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x678cf50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationOutputWeightProcessor*>::get(),

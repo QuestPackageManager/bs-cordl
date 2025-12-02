@@ -3,14 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_11_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactoryBase_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlaceholderFactory_11)
@@ -21,13 +14,27 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
 }
 namespace System {
 class Type;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
+          typename TValue>
+class IFactory_11;
+}
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -51,8 +58,7 @@ class PlaceholderFactory_11__get_ParamTypes_d__2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactory_11);
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactory_11__get_ParamTypes_d__2);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
@@ -170,7 +176,7 @@ public:
   PlaceholderFactory_11__get_ParamTypes_d__2(PlaceholderFactory_11__get_ParamTypes_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14345 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -185,7 +191,7 @@ public:
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies Zenject.IFactory, Zenject.IFactory`11<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TParam9, TParam10, TValue>, Zenject.PlaceholderFactoryBase`1<TValue>
+// Dependencies Zenject.PlaceholderFactoryBase`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TParam9, typename TParam10,
@@ -244,7 +250,7 @@ public:
   PlaceholderFactory_11(PlaceholderFactory_11 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14346 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

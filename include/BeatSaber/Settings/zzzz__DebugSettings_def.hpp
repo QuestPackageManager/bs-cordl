@@ -22,24 +22,30 @@ public:
   // @brief default ctor
   constexpr DebugSettings();
 
-  // Ctor Parameters [CppParam { name: "showBeatmapLevelVersion", ty: "bool", modifiers: "", def_value: None }]
-  constexpr DebugSettings(bool showBeatmapLevelVersion) noexcept;
+  // Ctor Parameters [CppParam { name: "showBeatmapLevelVersion", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "disableVRTrackingInAutoplayPS4", ty: "bool", modifiers: "", def_value:
+  // None }]
+  constexpr DebugSettings(bool showBeatmapLevelVersion, bool disableVRTrackingInAutoplayPS4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21825 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
 
   /// @brief Field showBeatmapLevelVersion, offset: 0x0, size: 0x1, def value: None
   bool showBeatmapLevelVersion;
+
+  /// @brief Field disableVRTrackingInAutoplayPS4, offset: 0x1, size: 0x1, def value: None
+  bool disableVRTrackingInAutoplayPS4;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(offsetof(::BeatSaber::Settings::DebugSettings, showBeatmapLevelVersion) == 0x0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::DebugSettings, 0x1>, "Size mismatch!");
+static_assert(offsetof(::BeatSaber::Settings::DebugSettings, disableVRTrackingInAutoplayPS4) == 0x1, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BeatSaber::Settings::DebugSettings, 0x2>, "Size mismatch!");
 
 } // namespace BeatSaber::Settings
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::Settings::DebugSettings, "BeatSaber.Settings", "DebugSettings");

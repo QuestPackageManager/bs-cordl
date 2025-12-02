@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -29,6 +28,9 @@ struct CancellationToken;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 template <typename T> struct Memory_1;
@@ -64,10 +66,10 @@ public:
 
   static inline ::System::IO::TextReader___c* New_ctor();
 
-  /// @brief Method <ReadAsyncInternal>b__17_0, addr 0x3d44a04, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <ReadAsyncInternal>b__17_0, addr 0x59ed150, size 0x104, virtual false, abstract: false, final false
   inline int32_t _ReadAsyncInternal_b__17_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3d449fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ed14c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::TextReader___c* getStaticF___9();
@@ -93,7 +95,7 @@ public:
   TextReader___c(TextReader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3587 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3866 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,7 +103,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::IO::TextReader___c, 0x10>, "Size mismatch!");
 
 } // namespace System::IO
-// Dependencies System.IDisposable, System.MarshalByRefObject
+// Dependencies System.MarshalByRefObject
 namespace System::IO {
 // Is value type: false
 // CS Name: System.IO.TextReader
@@ -120,45 +122,45 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x3d43dc0, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x59ec4fc, size 0x70, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Dispose, addr 0x3d43e2c, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x59ec56c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3d43e98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x59ec5dc, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::System::IO::TextReader* New_ctor();
 
-  /// @brief Method Peek, addr 0x3d43e9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x59ec5e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t Peek();
 
-  /// @brief Method Read, addr 0x3d43ea4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x59ec5e8, size 0x8, virtual true, abstract: false, final false
   inline int32_t Read();
 
-  /// @brief Method Read, addr 0x3d43eac, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x59ec5f0, size 0x1ac, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Read, addr 0x3d3caf4, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x59e5628, size 0x28c, virtual true, abstract: false, final false
   inline int32_t Read(::System::Span_1<char16_t> buffer);
 
-  /// @brief Method ReadAsync, addr 0x3d3dc0c, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x59e6764, size 0x1e4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method ReadAsyncInternal, addr 0x3d44250, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method ReadAsyncInternal, addr 0x59ec994, size 0x22c, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::ValueTask_1<int32_t> ReadAsyncInternal(::System::Memory_1<char16_t> buffer, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadLine, addr 0x3d44158, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method ReadLine, addr 0x59ec89c, size 0xf8, virtual true, abstract: false, final false
   inline ::StringW ReadLine();
 
-  /// @brief Method ReadToEnd, addr 0x3d4405c, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x59ec79c, size 0x100, virtual true, abstract: false, final false
   inline ::StringW ReadToEnd();
 
-  /// @brief Method Synchronized, addr 0x3d4446c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Synchronized, addr 0x59ecbc0, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::IO::TextReader* Synchronized(::System::IO::TextReader* reader);
 
-  /// @brief Method .ctor, addr 0x3d3bca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59e47ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::IO::TextReader* getStaticF_Null();
@@ -183,7 +185,7 @@ public:
   TextReader(TextReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3588 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3867 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

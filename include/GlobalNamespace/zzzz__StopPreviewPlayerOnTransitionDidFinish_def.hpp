@@ -39,16 +39,16 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer)) ::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Method HandleTransitionDidFinish, addr 0x3ad5c64, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleTransitionDidFinish, addr 0x56b0290, size 0x14, virtual false, abstract: false, final false
   inline void HandleTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType transitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO* transitionSetupDataSo,
                                         ::Zenject::DiContainer* diContainer);
 
   static inline ::GlobalNamespace::StopPreviewPlayerOnTransitionDidFinish* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ad5b94, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56b017c, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ad5b04, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56b00ec, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  /// @brief Method .ctor, addr 0x3ad5c7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b02a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   StopPreviewPlayerOnTransitionDidFinish(StopPreviewPlayerOnTransitionDidFinish const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5596 };
 
   /// @brief Field _songPreviewPlayer, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SongPreviewPlayer> ____songPreviewPlayer;

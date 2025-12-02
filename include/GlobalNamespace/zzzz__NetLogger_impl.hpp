@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetLogger.hpp"
-#include "LiteNetLib/zzzz__INetLogger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetLogger_def.hpp"
+#include "LiteNetLib/zzzz__INetLogger_def.hpp"
 #include "LiteNetLib/zzzz__NetLogLevel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetLogger.WriteNet
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::NetLogger::*)(::LiteNetLib::NetLogLevel, ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::GlobalNamespace::NetLogger::WriteNet)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x22dd1b0;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x3215728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetLogger::*)()>(&::GlobalNamespace::NetLogger::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22dd344;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3211e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetLogger*>::get(), ".ctor",

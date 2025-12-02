@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite::*)(::System::Object*, ::System::IntPtr)>(
     &::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4489620;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x61d8da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite::*)(
     ::System::IntPtr, int32_t, ::System::IntPtr)>(&::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4489dfc;
+  constexpr static std::size_t addrs = 0x61d953c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle::*)()>(
     &::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle::get_IsInvalid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4489e10;
+  constexpr static std::size_t addrs = 0x61d9550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle::*)()>(
     &::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4489de8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x61d94e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle::*)()>(
     &::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle::ReleaseHandle)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4489e20;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x61d9560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,8 +136,8 @@ constexpr ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative::*)()>(&::System::IO::Compression::DeflateStreamNative::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4489618;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x61d8da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Compression::DeflateStreamNative*>::get(), ".ctor",
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Compression::DeflateStreamNative* (*)(::System::IO::Stream*, ::System::IO::Compression::CompressionMode,
                                                                                                                                       bool)>(&::System::IO::Compression::DeflateStreamNative::Create)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4487f0c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x61d76b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative::*)()>(
     &::System::IO::Compression::DeflateStreamNative::Finalize)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4489750;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x61d8ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,8 +183,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative::*)(bool)>(
     &::System::IO::Compression::DeflateStreamNative::Dispose)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x44881b0;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x61d7908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,8 +197,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative::*)()>(&::System::IO::Compression::DeflateStreamNative::Flush)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4488880;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x61d7fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Compression::DeflateStreamNative*>::get(), "Flush",
@@ -211,8 +211,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::DeflateStreamNative::*)(::System::IntPtr, int32_t)>(
     &::System::IO::Compression::DeflateStreamNative::ReadZStream)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44882fc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x61d7a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative::*)(::System::IntPtr, int32_t)>(
     &::System::IO::Compression::DeflateStreamNative::WriteZStream)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4488588;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x61d7ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, int32_t, ::System::IntPtr)>(
     &::System::IO::Compression::DeflateStreamNative::UnmanagedRead)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x44894a0;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x61d8b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,8 +257,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::DeflateStreamNative::*)(::System::IntPtr, int32_t)>(
     &::System::IO::Compression::DeflateStreamNative::UnmanagedRead)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4489a70;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x61d9160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,8 +272,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, int32_t, ::System::IntPtr)>(
     &::System::IO::Compression::DeflateStreamNative::UnmanagedWrite)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x448955c;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x61d8c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,8 +288,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::Compression::DeflateStreamNative::*)(::System::IntPtr, int32_t)>(
     &::System::IO::Compression::DeflateStreamNative::UnmanagedWrite)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x4489c14;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x61d9308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::Compression::DeflateStreamNative::*)(int32_t, ::StringW)>(
     &::System::IO::Compression::DeflateStreamNative::CheckResult)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x448984c;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x61d8f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,8 +319,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle* (*)(::System::IO::Compression::CompressionMode, bool, ::System::IO::Compression::DeflateStreamNative_UnmanagedReadOrWrite*,
                                                                                 ::System::IntPtr)>(&::System::IO::Compression::DeflateStreamNative::CreateZStream)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x44896ac;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x61d8e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::System::IO::Compression::DeflateStreamNative::CloseZStream)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4489df8;
+  constexpr static std::size_t addrs = 0x61d9538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*)>(
     &::System::IO::Compression::DeflateStreamNative::Flush)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44897e8;
+  constexpr static std::size_t addrs = 0x61d8f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -367,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*, ::System::IntPtr, int32_t)>(
     &::System::IO::Compression::DeflateStreamNative::ReadZStream)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4489978;
+  constexpr static std::size_t addrs = 0x61d9068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IO::Compression::DeflateStreamNative_SafeDeflateStreamHandle*, ::System::IntPtr, int32_t)>(
     &::System::IO::Compression::DeflateStreamNative::WriteZStream)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x44899f4;
+  constexpr static std::size_t addrs = 0x61d90e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

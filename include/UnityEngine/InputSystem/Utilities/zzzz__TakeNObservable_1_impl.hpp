@@ -1,7 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/TakeNObservable_1.hpp"
-#include "System/zzzz__IObservable_1_impl.hpp"
-#include "System/zzzz__IObserver_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TakeNObservable_1_def.hpp"
 #include "System/zzzz__Exception_def.hpp"

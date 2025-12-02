@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/ConstructionResponse.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MethodResponse_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ConstructionResponse_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Runtime/Remoting/Activation/zzzz__IConstructionReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
@@ -20,7 +20,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Runtime::Remoting::Messaging::LogicalCallContext*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(
     &::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3cdae2c;
+  constexpr static std::size_t addrs = 0x591db2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(
     ::System::Exception*, ::System::Runtime::Remoting::Messaging::IMethodCallMessage*)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce4be8;
+  constexpr static std::size_t addrs = 0x5926ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::ConstructionResponse::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecb50;
+  constexpr static std::size_t addrs = 0x592ec90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Runtime::Remoting::Messaging::ConstructionResponse::*)()>(
     &::System::Runtime::Remoting::Messaging::ConstructionResponse::get_Properties)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cecb58;
+  constexpr static std::size_t addrs = 0x592ec98;
 
   inline static ::MethodInfo const* methodInfo() {
 

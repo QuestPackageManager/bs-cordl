@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "Unity/Collections/NativeArrayDisposeJob.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDispose_impl.hpp"
-#include "Unity/Jobs/zzzz__IJob_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArrayDisposeJob_def.hpp"
+#include "Unity/Jobs/zzzz__IJob_def.hpp"
 //  Writing Method size for method: ::Unity::Collections::NativeArrayDisposeJob.Execute
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Collections::NativeArrayDisposeJob::*)()>(&::Unity::Collections::NativeArrayDisposeJob::Execute)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4861854;
+  constexpr static std::size_t addrs = 0x682b338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeArrayDisposeJob>::get(), "Execute",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Collections::NativeArrayDisposeJob::RegisterNativeArrayDisposeJobReflectionData)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4861898;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x682b37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -19,8 +19,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect_Pool::*)()>(&::GlobalNamespace::NoteCutSoundEffect_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ad267c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56ac9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect_Pool*>::get(), ".ctor",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* (
     ::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::get_didFinishEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1c30;
+  constexpr static std::size_t addrs = 0x56abf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)(float_t)>(
     &::GlobalNamespace::NoteCutSoundEffect::set_volumeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1c38;
+  constexpr static std::size_t addrs = 0x56abf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::get_volumeMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad1c40;
+  constexpr static std::size_t addrs = 0x56abf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(),
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::get_time)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ad1c48;
+  constexpr static std::size_t addrs = 0x56abf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(), "get_time",
@@ -98,7 +98,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ad1c74;
+  constexpr static std::size_t addrs = 0x56abf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(), "Awake",
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::Start)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ad1cf8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56abffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(), "Start",
@@ -125,8 +125,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)(
     ::UnityEngine::AudioClip*, ::GlobalNamespace::NoteController*, double_t, float_t, float_t, float_t, float_t, ::GlobalNamespace::Saber*, bool, float_t, bool, bool)>(
     &::GlobalNamespace::NoteCutSoundEffect::Init)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3ad1d18;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x56ac018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)(double_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::NoteCutSoundEffect::ComputeDSPTimes)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ad1ec4;
+  constexpr static std::size_t addrs = 0x56ac1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,8 +161,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::OnLateUpdate)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3ad1f70;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x56ac290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(), "OnLateUpdate",
@@ -174,8 +174,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::StopPlayingAndFinish)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3ad2180;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x56ac4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(),
@@ -188,8 +188,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)(::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::NoteCutSoundEffect::NoteWasCut)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3ad2370;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x56ac6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::NoteCutSoundEffect::NoteDidStartDissolving)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ad257c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x56ac8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,8 +218,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffect::*)()>(&::GlobalNamespace::NoteCutSoundEffect::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ad25f8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x56ac968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffect*>::get(), ".ctor",

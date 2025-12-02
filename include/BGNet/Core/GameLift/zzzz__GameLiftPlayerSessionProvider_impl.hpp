@@ -1,15 +1,14 @@
 #pragma once
 // IWYU pragma private; include "BGNet/Core/GameLift/GameLiftPlayerSessionProvider.hpp"
 #include "BGNet/Core/GameLift/zzzz__GetMultiplayerInstanceResponse_impl.hpp"
-#include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_impl.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
-#include "GlobalNamespace/zzzz__IPollable_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_impl.hpp"
+#include "System/Net/Sockets/zzzz__UdpReceiveResult_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
+#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
@@ -18,30 +17,39 @@
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__GameLiftPlayerSessionProvider_def.hpp"
+#include "BGNet/Core/GameLift/zzzz__IGameLiftPlayerSessionProvider_def.hpp"
 #include "BGNet/Core/GameLift/zzzz__PlayerSessionInfo_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
 #include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
+#include "GlobalNamespace/zzzz__MultiplayerStatusData_def.hpp"
 #include "GlobalNamespace/zzzz__RollingAverage_def.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAuthFeatureFlag_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/Net/Sockets/zzzz__UdpClient_def.hpp"
+#include "System/Net/zzzz__IPAddress_def.hpp"
+#include "System/Net/zzzz__IPEndPoint_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ee20c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31ba544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,51 +58,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._GetAverageLatencies_b__17_0
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._GetAverageLatencies_b__25_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)(
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__17_0)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22ee214;
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_0)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31ba548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__17_0",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__25_0",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{
                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._GetAverageLatencies_b__17_1
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._GetAverageLatencies_b__25_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)(
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__17_1)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22ee25c;
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_1)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31ba59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__17_1",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__25_1",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{
                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._GetAverageLatencies_b__17_2
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c._GetAverageLatencies_b__25_2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::*)(
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__17_2)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22ee298;
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_2)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x31ba5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__17_2",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__25_2",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{
                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>>::get() })));
@@ -110,37 +118,37 @@ inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c* BGNet::Core::
   return ::cordl_internals::getStaticField<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>();
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::setStaticF___9__17_0(
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::setStaticF___9__25_0(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>*, "<>9__17_0",
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>*, "<>9__25_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>*
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::getStaticF___9__17_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>*, "<>9__17_0",
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::getStaticF___9__25_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, bool>*, "<>9__25_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>();
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::setStaticF___9__17_1(
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::setStaticF___9__25_1(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>*, "<>9__17_1",
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>*, "<>9__25_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>*
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::getStaticF___9__17_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>*, "<>9__17_1",
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::getStaticF___9__25_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, ::StringW>*, "<>9__25_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>();
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::setStaticF___9__17_2(
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::setStaticF___9__25_2(
     ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>*, "<>9__17_2",
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>*, "<>9__25_2",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>*>(value));
 }
 inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>*
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::getStaticF___9__17_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>*, "<>9__17_2",
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::getStaticF___9__25_2() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>, int64_t>*, "<>9__25_2",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get>();
 }
 inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_ctor() {
@@ -148,27 +156,27 @@ inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__17_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp) {
+inline bool BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__17_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__25_0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, kvp);
 }
 inline ::StringW
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__17_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp) {
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__17_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__25_1",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, kvp);
 }
 inline int64_t
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__17_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp) {
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::_GetAverageLatencies_b__25_2(::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*> kvp) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__17_2",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c*>::get(), "<GetAverageLatencies>b__25_2",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::GlobalNamespace::RollingAverage*>>::get() })));
@@ -179,57 +187,57 @@ inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c* BGNet::Core::
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider___c::GameLiftPlayerSessionProvider___c() {}
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15.MoveNext
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::*)()>(
-    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::MoveNext)> {
-  constexpr static std::size_t size = 0x1a3c;
-  constexpr static std::size_t addrs = 0x22ee2f4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::MoveNext)> {
+  constexpr static std::size_t size = 0x1b10;
+  constexpr static std::size_t addrs = 0x31ba644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15.SetStateMachine
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22efd8c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31bc154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::MoveNext() {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15>::get(), "MoveNext",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23>::get(), "MoveNext",
                                   std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -240,23 +248,23 @@ BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionIn
 // "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "gameplayServerConfiguration", ty: "::GlobalNamespace::GameplayServerConfiguration",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "secret", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "code", ty: "::StringW", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_ticketId_5__3", ty: "::StringW", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "_placementId_5__4", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_xPlatformAccessToken_5__5", ty:
-// "::GlobalNamespace::XPlatformAccessTokenData", modifiers: "", def_value: Some("{}") }, CppParam { name: "_graphAPIAccessToken_5__6", ty: "::StringW", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "_userPlatform_5__7", ty: "::System::Nullable_1<::GlobalNamespace::AuthenticationToken_Platform>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_singleUsePlatformAuthToken_5__8", ty: "::System::Nullable_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// def_value: Some("{}") }, CppParam { name: "_placementId_5__4", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "_graphAPIAccessToken_5__5", ty: "::StringW", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "_userPlatform_5__6", ty: "::System::Nullable_1<::GlobalNamespace::AuthenticationToken_PlatformType>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "_singleUsePlatformAuthToken_5__7", ty: "::System::Nullable_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_xPlatformAccessToken_5__8",
+// ty: "::GlobalNamespace::XPlatformAccessTokenData", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_numAttempts_5__9", ty: "int32_t",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "_getMatchmakingInstanceResponse_5__10", ty: "::BGNet::Core::GameLift::GetMultiplayerInstanceResponse", modifiers: "", def_value: Some("{}")
 // }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "__7__wrap10", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__4", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15(
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::BGNet::Core::GameLift::PlayerSessionInfo*> __t__builder,
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this, ::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
     ::System::Threading::CancellationToken cancellationToken, ::StringW userId, ::GlobalNamespace::BeatmapLevelSelectionMask beatmapLevelSelectionMask,
     ::GlobalNamespace::GameplayServerConfiguration gameplayServerConfiguration, ::StringW secret, ::StringW code, ::System::Diagnostics::Stopwatch* _stopwatch_5__2, ::StringW _ticketId_5__3,
-    ::StringW _placementId_5__4, ::GlobalNamespace::XPlatformAccessTokenData _xPlatformAccessToken_5__5, ::StringW _graphAPIAccessToken_5__6,
-    ::System::Nullable_1<::GlobalNamespace::AuthenticationToken_Platform> _userPlatform_5__7, ::System::Nullable_1<::GlobalNamespace::AuthenticationToken> _singleUsePlatformAuthToken_5__8,
+    ::StringW _placementId_5__4, ::StringW _graphAPIAccessToken_5__5, ::System::Nullable_1<::GlobalNamespace::AuthenticationToken_PlatformType> _userPlatform_5__6,
+    ::System::Nullable_1<::GlobalNamespace::AuthenticationToken> _singleUsePlatformAuthToken_5__7, ::GlobalNamespace::XPlatformAccessTokenData _xPlatformAccessToken_5__8,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1, int32_t _numAttempts_5__9,
     ::BGNet::Core::GameLift::GetMultiplayerInstanceResponse _getMatchmakingInstanceResponse_5__10, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::AuthenticationToken> __u__2,
     int32_t __7__wrap10, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BGNet::Core::GameLift::GetMultiplayerInstanceResponse> __u__3,
@@ -274,10 +282,10 @@ constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPla
   this->_stopwatch_5__2 = _stopwatch_5__2;
   this->_ticketId_5__3 = _ticketId_5__3;
   this->_placementId_5__4 = _placementId_5__4;
-  this->_xPlatformAccessToken_5__5 = _xPlatformAccessToken_5__5;
-  this->_graphAPIAccessToken_5__6 = _graphAPIAccessToken_5__6;
-  this->_userPlatform_5__7 = _userPlatform_5__7;
-  this->_singleUsePlatformAuthToken_5__8 = _singleUsePlatformAuthToken_5__8;
+  this->_graphAPIAccessToken_5__5 = _graphAPIAccessToken_5__5;
+  this->_userPlatform_5__6 = _userPlatform_5__6;
+  this->_singleUsePlatformAuthToken_5__7 = _singleUsePlatformAuthToken_5__7;
+  this->_xPlatformAccessToken_5__8 = _xPlatformAccessToken_5__8;
   this->__u__1 = __u__1;
   this->_numAttempts_5__9 = _numAttempts_5__9;
   this->_getMatchmakingInstanceResponse_5__10 = _getMatchmakingInstanceResponse_5__10;
@@ -287,58 +295,125 @@ constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPla
   this->__u__4 = __u__4;
 }
 // Ctor Parameters []
-constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__15() {}
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16.MoveNext
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23::GameLiftPlayerSessionProvider__GetGameLiftPlayerSessionInfo_d__23() {}
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::*)()>(
-    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x22efe08;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::MoveNext)> {
+  constexpr static std::size_t size = 0x3c0;
+  constexpr static std::size_t addrs = 0x31bc1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16.SetStateMachine
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22f0164;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31bc594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::MoveNext() {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*>", modifiers: "", def_value:
+// Some("{}") }]
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::MultiplayerStatusData*> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21::GameLiftPlayerSessionProvider__GetMultiplayerStatusData_d__21() {}
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::MoveNext)> {
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x31bc600;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31bc98c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24>::get(),
+                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24>::get(),
+                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -346,7 +421,7 @@ BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW,int64_t>,::Array<::System::ValueTuple_2<::StringW,int64_t>>*>>", modifiers: "", def_value: Some("{}")
 // }]
-constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16(
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW, int64_t>, ::Array<::System::ValueTuple_2<::StringW, int64_t>>*>> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -355,64 +430,139 @@ constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGame
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__16() {}
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18.MoveNext
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegions_d__24() {}
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::*)()>(
-    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::*)()>(
+        &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::MoveNext)> {
+  constexpr static std::size_t size = 0x3b4;
+  constexpr static std::size_t addrs = 0x31bc994;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28>::get(), "MoveNext",
+        std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+        &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31bcd48;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28>::get(),
+        "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28>::get(), "MoveNext",
+      std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::SetStateMachine(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28>::get(),
+      "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::ValueTuple_2<::StringW,::System::Nullable_1<int64_t>>,::Array<::System::ValueTuple_2<::StringW,::System::Nullable_1<int64_t>>>*>>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::
+    GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28(
+        int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this,
+        ::System::Runtime::CompilerServices::TaskAwaiter_1<
+            ::ArrayW<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>, ::Array<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>*>>
+            __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28::
+    GameLiftPlayerSessionProvider__PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_d__28() {}
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::MoveNext)> {
   constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x22f0170;
+  constexpr static std::size_t addrs = 0x31bcd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18.SetStateMachine
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22f04b0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31bd090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::MoveNext() {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW,int64_t>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "awsRegion", ty: "::StringW",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<int64_t>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::GameLiftPlayerSessionProvider__PingRegionAsync_d__18(
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::GameLiftPlayerSessionProvider__PingRegionAsync_d__26(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW, int64_t>> __t__builder, ::StringW awsRegion,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<int64_t> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -421,20 +571,113 @@ constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsyn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__18::GameLiftPlayerSessionProvider__PingRegionAsync_d__18() {}
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionAsync_d__26::GameLiftPlayerSessionProvider__PingRegionAsync_d__26() {}
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::MoveNext)> {
+  constexpr static std::size_t size = 0x9d8;
+  constexpr static std::size_t addrs = 0x31bd110;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29>::get(), "MoveNext",
+        std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31bdae8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29>::get(), "SetStateMachine",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29>::get(),
+                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29>::get(),
+                                 "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW,::System::Nullable_1<int64_t>>>", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__4__this", ty: "::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*", modifiers: "", def_value: Some("{}") }, CppParam { name: "awsRegion", ty: "::StringW", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "_stopwatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_udpClient_5__3", ty:
+// "::System::Net::Sockets::UdpClient*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Sockets::UdpReceiveResult>", modifiers: "", def_value: Some("{}") }]
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>> __t__builder,
+    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* __4__this, ::StringW awsRegion, ::System::Diagnostics::Stopwatch* _stopwatch_5__2, ::System::Net::Sockets::UdpClient* _udpClient_5__3,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*>> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t> __u__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Sockets::UdpReceiveResult> __u__3) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->awsRegion = awsRegion;
+  this->_stopwatch_5__2 = _stopwatch_5__2;
+  this->_udpClient_5__3 = _udpClient_5__3;
+  this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
+  this->__u__3 = __u__3;
+}
+// Ctor Parameters []
+constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29::GameLiftPlayerSessionProvider__PingRegionUsingGameLiftUdpPingBeaconAsync_d__29() {}
 //  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(
-    ::GlobalNamespace::INetworkConfig*, ::GlobalNamespace::XPlatformAuthFeatureFlag*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x22ed614;
+    ::GlobalNamespace::INetworkConfig*, ::GlobalNamespace::IMultiplayerStatusModel*)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor)> {
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x31b92b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::XPlatformAuthFeatureFlag*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerStatusModel*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider.GetMultiplayerStatusData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetMultiplayerStatusData)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x31b965c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                                               "GetMultiplayerStatusData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -443,8 +686,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PollUpdate)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x22ed7ac;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x31b970c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
@@ -460,7 +703,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                ::GlobalNamespace::GameplayServerConfiguration, ::StringW, ::StringW, ::System::Threading::CancellationToken)>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetGameLiftPlayerSessionInfo)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x22ed8f8;
+  constexpr static std::size_t addrs = 0x31b9940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -479,8 +722,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingAllAwsGameLiftRegions)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22ed868;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31b989c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
@@ -493,8 +736,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, int64_t>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetAverageLatencies)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x22eda44;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x31b9a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
@@ -507,8 +750,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingRegionAsync)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x22edc88;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x31b9cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -522,11 +765,56 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetAwsGameLiftRegionEndpoint)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22edd6c;
+  constexpr static std::size_t addrs = 0x31b9dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "GetAwsGameLiftRegionEndpoint",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider.PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31b97f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                 "PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider.PingRegionUsingGameLiftUdpPingBeaconAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>* (
+    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingRegionUsingGameLiftUdpPingBeaconAsync)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x31b9e34;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "PingRegionUsingGameLiftUdpPingBeaconAsync",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider.GetGameLiftUdpPingBeaconEndpoint
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetGameLiftUdpPingBeaconEndpoint)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31b9f28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "GetGameLiftUdpPingBeaconEndpoint",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -537,8 +825,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::GlobalNamespace::IAuthenticationTokenProvider*, ::System::Threading::CancellationToken, bool)>(
     &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetXPlatformAccessToken)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22eddd8;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x31b9f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -549,21 +837,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider._PingAllAwsGameLiftRegions_b__16_0
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider.Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)()>(
+    &::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::Dispose)> {
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x31ba0f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                                               "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider._PingAllAwsGameLiftRegions_b__24_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* (
-    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegions_b__16_0)> {
+    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegions_b__24_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22ee1ac;
+  constexpr static std::size_t addrs = 0x31ba4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "<PingAllAwsGameLiftRegions>b__16_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "<PingAllAwsGameLiftRegions>b__24_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider._PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_b__28_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>* (
+    ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::*)(::StringW)>(&::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_b__28_0)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31ba4ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                                               "<PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons>b__28_0", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::IPEndPoint*>*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__udpPingEndpoints() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____udpPingEndpoints;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::IPEndPoint*>* const&
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__udpPingEndpoints() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____udpPingEndpoints;
+}
+constexpr void
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__udpPingEndpoints(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::IPEndPoint*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____udpPingEndpoints)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Sockets::UdpClient*>*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__udpPingClients() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____udpPingClients;
+}
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Sockets::UdpClient*>* const&
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__udpPingClients() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____udpPingClients;
+}
+constexpr void
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__udpPingClients(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Net::Sockets::UdpClient*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____udpPingClients)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::GlobalNamespace::INetworkConfig*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__networkConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____networkConfig;
@@ -588,18 +933,6 @@ constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAPIClient)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__xPlatformAuthFeatureFlag() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____xPlatformAuthFeatureFlag;
-}
-constexpr ::GlobalNamespace::XPlatformAuthFeatureFlag* const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__xPlatformAuthFeatureFlag() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____xPlatformAuthFeatureFlag;
-}
-constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__xPlatformAuthFeatureFlag(::GlobalNamespace::XPlatformAuthFeatureFlag* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xPlatformAuthFeatureFlag)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__pingAverages() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pingAverages;
@@ -613,6 +946,30 @@ constexpr void
 BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__pingAverages(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::RollingAverage*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____pingAverages)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::IMultiplayerStatusModel*& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__multiplayerStatusModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplayerStatusModel;
+}
+constexpr ::GlobalNamespace::IMultiplayerStatusModel* const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__multiplayerStatusModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplayerStatusModel;
+}
+constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__multiplayerStatusModel(::GlobalNamespace::IMultiplayerStatusModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerStatusModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__disposeInitiated() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disposeInitiated;
+}
+constexpr bool const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__disposeInitiated() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disposeInitiated;
+}
+constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__disposeInitiated(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____disposeInitiated = value;
 }
 constexpr int32_t& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__pingCount() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -638,6 +995,30 @@ constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____lastPingTime = value;
 }
+constexpr bool& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__multiplayerStatusDataFetched() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplayerStatusDataFetched;
+}
+constexpr bool const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__multiplayerStatusDataFetched() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplayerStatusDataFetched;
+}
+constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__multiplayerStatusDataFetched(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____multiplayerStatusDataFetched = value;
+}
+constexpr bool& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__useGameLiftUdpPingBeacons() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useGameLiftUdpPingBeacons;
+}
+constexpr bool const& BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_get__useGameLiftUdpPingBeacons() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useGameLiftUdpPingBeacons;
+}
+constexpr void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::__cordl_internal_set__useGameLiftUdpPingBeacons(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useGameLiftUdpPingBeacons = value;
+}
 inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::setStaticF__awsGameLiftRegions(::ArrayW<::StringW, ::Array<::StringW>*> value) {
   ::cordl_internals::setStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "_awsGameLiftRegions",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get>(
@@ -647,12 +1028,17 @@ inline ::ArrayW<::StringW, ::Array<::StringW>*> BGNet::Core::GameLift::GameLiftP
   return ::cordl_internals::getStaticField<::ArrayW<::StringW, ::Array<::StringW>*>, "_awsGameLiftRegions",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get>();
 }
-inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag) {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::XPlatformAuthFeatureFlag*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, networkConfig, xPlatformAuthFeatureFlag);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerStatusModel*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, networkConfig, multiplayerStatusModel);
+}
+inline ::System::Threading::Tasks::Task* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetMultiplayerStatusData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                                             "GetMultiplayerStatusData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
 inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PollUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
@@ -694,6 +1080,25 @@ inline ::StringW BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetAwsGam
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, awsRegion);
 }
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                               "PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>*
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::PingRegionUsingGameLiftUdpPingBeaconAsync(::StringW awsRegion) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "PingRegionUsingGameLiftUdpPingBeaconAsync",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>*, false>(this, ___internal_method, awsRegion);
+}
+inline ::StringW BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetGameLiftUdpPingBeaconEndpoint(::StringW awsRegion) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "GetGameLiftUdpPingBeaconEndpoint",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, awsRegion);
+}
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*
 BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetXPlatformAccessToken(::GlobalNamespace::IAuthenticationTokenProvider* authenticationTokenProvider,
                                                                               ::System::Threading::CancellationToken cancellationToken, bool skipCache) {
@@ -705,15 +1110,27 @@ BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GetXPlatformAccessToken(::
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*, false>(this, ___internal_method, authenticationTokenProvider,
                                                                                                                                       cancellationToken, skipCache);
 }
-inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegions_b__16_0(::StringW region) {
+inline void BGNet::Core::GameLift::GameLiftPlayerSessionProvider::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                                             "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegions_b__24_0(::StringW region) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "<PingAllAwsGameLiftRegions>b__16_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(), "<PingAllAwsGameLiftRegions>b__24_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, int64_t>>*, false>(this, ___internal_method, region);
 }
+inline ::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>*
+BGNet::Core::GameLift::GameLiftPlayerSessionProvider::_PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons_b__28_0(::StringW region) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>::get(),
+                                                                             "<PingAllAwsGameLiftRegionsUsingGameLiftUdpPingBeacons>b__28_0", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::StringW, ::System::Nullable_1<int64_t>>>*, false>(this, ___internal_method, region);
+}
 inline ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
-                                                                                                                              ::GlobalNamespace::XPlatformAuthFeatureFlag* xPlatformAuthFeatureFlag) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(networkConfig, xPlatformAuthFeatureFlag));
+                                                                                                                              ::GlobalNamespace::IMultiplayerStatusModel* multiplayerStatusModel) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGNet::Core::GameLift::GameLiftPlayerSessionProvider*>(networkConfig, multiplayerStatusModel));
 }
 /// @brief Convert operator to "::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider"
 constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider::operator ::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider*() noexcept {
@@ -730,6 +1147,14 @@ constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider::operator ::Globa
 /// @brief Convert to "::GlobalNamespace::IPollable"
 constexpr ::GlobalNamespace::IPollable* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::i___GlobalNamespace__IPollable() noexcept {
   return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr BGNet::Core::GameLift::GameLiftPlayerSessionProvider::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* BGNet::Core::GameLift::GameLiftPlayerSessionProvider::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::BGNet::Core::GameLift::GameLiftPlayerSessionProvider::GameLiftPlayerSessionProvider() {}

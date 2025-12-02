@@ -15,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x44bdaf8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x620cc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), ".ctor",
@@ -28,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Algorithm)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44bdb68;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x620cc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_Algorithm",
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Realm)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44bdb80;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x620cc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_Realm",
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Nonce)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44bdb98;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x620cc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_Nonce",
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_Opaque)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44bdbb0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x620ccac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_Opaque",
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_QOP)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x44bdbc8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x620ccc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_QOP",
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_CNonce)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x44bdbe0;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x620ccd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_CNonce",
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::DigestSession::*)(::StringW)>(&::System::Net::DigestSession::Parse)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x44bdcd4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x620cdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)(::StringW)>(&::System::Net::DigestSession::HashToHexString)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x44bddb0;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x620ceb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,8 +134,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)(::StringW, ::StringW)>(&::System::Net::DigestSession::HA1)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x44bdf04;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x620d024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,8 +148,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)(::System::Net::HttpWebRequest*)>(&::System::Net::DigestSession::HA2)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x44be028;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x620d194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestSession::*)(::StringW, ::StringW, ::System::Net::HttpWebRequest*)>(
     &::System::Net::DigestSession::Response)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x44be0f8;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x620d298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::System::Net::DigestSession::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::System::Net::DigestSession::Authenticate)> {
-  constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x44be258;
+  constexpr static std::size_t size = 0x6a4;
+  constexpr static std::size_t addrs = 0x620d44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Net::DigestSession::*)()>(&::System::Net::DigestSession::get_LastUse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44be81c;
+  constexpr static std::size_t addrs = 0x620daf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestSession*>::get(), "get_LastUse",

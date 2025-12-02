@@ -56,36 +56,36 @@ public:
   /// @brief Field _relationName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__relationName, put = __cordl_internal_set__relationName)) ::StringW _relationName;
 
-  /// @brief Method Bind, addr 0x417c5b8, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x5e26ea0, size 0x258, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x417c978, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x5e27274, size 0x10, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x417c800, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x5e270f8, size 0x24, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x417c928, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x5e27224, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x417c824, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x5e2711c, size 0x108, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method HasLocalAggregate, addr 0x417c968, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x5e27264, size 0x8, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x417c970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x5e2726c, size 0x8, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x417c958, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x5e27254, size 0x8, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x417c960, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x5e2725c, size 0x8, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::LookupNode* New_ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName);
 
-  /// @brief Method Optimize, addr 0x417c988, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x5e27284, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr ::System::Data::DataColumn* const& __cordl_internal_get__column() const;
@@ -112,7 +112,7 @@ public:
 
   constexpr void __cordl_internal_set__relationName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x417ab8c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e253bc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, ::StringW columnName, ::StringW relationName);
 
 protected:
@@ -130,7 +130,7 @@ public:
   LookupNode(LookupNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11437 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13795 };
 
   /// @brief Field _relationName, offset: 0x18, size: 0x8, def value: None
   ::StringW ____relationName;

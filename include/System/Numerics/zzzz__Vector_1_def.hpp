@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Numerics/zzzz__Register_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -17,7 +15,13 @@ namespace System::Numerics {
 template <typename T> struct Vector_1_VectorSizeHelper;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 namespace System {
 class Object;
@@ -32,7 +36,7 @@ template <typename T> struct Vector_1_VectorSizeHelper;
 // Write type traits
 MARK_GEN_VAL_T(::System::Numerics::Vector_1);
 MARK_GEN_VAL_T(::System::Numerics::Vector_1_VectorSizeHelper);
-// Dependencies System.IEquatable`1<T>, System.IFormattable, System.Numerics.Register
+// Dependencies System.Numerics.Register
 namespace System::Numerics {
 // cpp template
 template <typename T>
@@ -94,10 +98,10 @@ public:
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> dataPointer);
+  inline void _ctor(void* dataPointer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> dataPointer, int32_t offset);
+  inline void _ctor(void* dataPointer, int32_t offset);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::System::Numerics::Register> existingRegister);
@@ -153,7 +157,7 @@ public:
   constexpr Vector_1(::System::Numerics::Register _cordl_register) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3580 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -183,7 +187,7 @@ public:
   constexpr Vector_1_VectorSizeHelper(::System::Numerics::Vector_1<T> _placeholder, uint8_t _byte) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3579 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

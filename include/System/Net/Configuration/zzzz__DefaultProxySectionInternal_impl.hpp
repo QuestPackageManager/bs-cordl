@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (*)()>(
     &::System::Net::Configuration::DefaultProxySectionInternal::GetDefaultProxy_UsingOldMonoCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eeafc;
+  constexpr static std::size_t addrs = 0x613acd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::GetSystemWebProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eeb04;
+  constexpr static std::size_t addrs = 0x613acdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::Net::Configuration::DefaultProxySectionInternal::get_ClassSyncObject)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43eeb0c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x613ace4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Configuration::DefaultProxySectionInternal* (*)()>(
     &::System::Net::Configuration::DefaultProxySectionInternal::GetSection)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x43eeba4;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x613ad78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (::System::Net::Configuration::DefaultProxySectionInternal::*)()>(
     &::System::Net::Configuration::DefaultProxySectionInternal::get_WebProxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eecbc;
+  constexpr static std::size_t addrs = 0x613ae84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::DefaultProxySectionInternal::*)()>(
     &::System::Net::Configuration::DefaultProxySectionInternal::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eecb4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x613ae80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,7 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Tayx/Graphy/Fps/G_FpsManager.hpp"
-#include "Tayx/Graphy/UI/zzzz__IModifiableState_impl.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsManager_def.hpp"
@@ -9,6 +7,8 @@
 #include "Tayx/Graphy/Fps/zzzz__G_FpsGraph_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsMonitor_def.hpp"
 #include "Tayx/Graphy/Fps/zzzz__G_FpsText_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44d39a4;
+  constexpr static std::size_t addrs = 0x6222b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(), "Awake",
@@ -31,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44d39a8;
+  constexpr static std::size_t addrs = 0x6222b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(), "Start",
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::Fps::G_FpsManager::SetPosition)> {
-  constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x44cb990;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x621abc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)(::Tayx::Graphy::GraphyManager_ModuleState, bool)>(
     &::Tayx::Graphy::Fps::G_FpsManager::SetState)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x44cc28c;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x621b53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::RestorePreviousState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ce7fc;
+  constexpr static std::size_t addrs = 0x621d9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(),
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::UpdateParameters)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x44cc468;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x621b720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(), "UpdateParameters",
@@ -100,8 +100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::RefreshParameters)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x44d0bb4;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x621fe30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(), "RefreshParameters",
@@ -113,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::Init)> {
-  constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x44ce9fc;
+  constexpr static std::size_t size = 0x4c4;
+  constexpr static std::size_t addrs = 0x621dc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(), "Init",
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)(bool)>(&::Tayx::Graphy::Fps::G_FpsManager::SetGraphActive)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44d39ac;
+  constexpr static std::size_t addrs = 0x6222b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Fps::G_FpsManager::*)()>(&::Tayx::Graphy::Fps::G_FpsManager::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x44d3b94;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6222d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Fps::G_FpsManager*>::get(), ".ctor",

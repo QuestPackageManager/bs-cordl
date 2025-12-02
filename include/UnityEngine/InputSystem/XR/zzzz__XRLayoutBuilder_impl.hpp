@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::*)()>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e66d8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x636b920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (
     ::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::*)()>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder___c__DisplayClass5_0::_OnFindLayoutForDevice_b__0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x45e7678;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x636c910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::InputSystem::XR::XRFeatureDescriptor)>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::GetSizeOfFeature)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45e613c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x636b318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, bool)>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::SanitizeString)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x45e61b4;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x636b3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,8 +104,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::StringW, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
         &::UnityEngine::InputSystem::XR::XRLayoutBuilder::OnFindLayoutForDevice)> {
-  constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x45e6310;
+  constexpr static std::size_t size = 0x3f4;
+  constexpr static std::size_t addrs = 0x636b52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::InputSystem::Layouts::InputControlLayout*, ::StringW)>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::ConvertPotentialAliasToName)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x45e66e8;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x636b928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)(::StringW)>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::IsSubControl)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45e6864;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x636baac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)(::StringW)>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::GetParentControlName)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x45e6880;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x636badc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::XR::XRFeatureDescriptor>*, int32_t)>(&::UnityEngine::InputSystem::XR::XRLayoutBuilder::IsPoseControl)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x45e68b8;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x636bb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,8 +183,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)()>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::Build)> {
-  constexpr static std::size_t size = 0xad0;
-  constexpr static std::size_t addrs = 0x45e6a0c;
+  constexpr static std::size_t size = 0xacc;
+  constexpr static std::size_t addrs = 0x636bc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::XRLayoutBuilder*>::get(), "Build",
@@ -197,8 +197,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::XRLayoutBuilder::*)()>(
     &::UnityEngine::InputSystem::XR::XRLayoutBuilder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e66e0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x636b924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::XRLayoutBuilder*>::get(), ".ctor",

@@ -5,7 +5,6 @@
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -33,52 +32,52 @@
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PracticeViewController__LoadSong_d__33.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PracticeViewController__LoadSong_d__32.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController__LoadSong_d__33::*)()>(
-    &::GlobalNamespace::PracticeViewController__LoadSong_d__33::MoveNext)> {
-  constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x3af56fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController__LoadSong_d__32::*)()>(
+    &::GlobalNamespace::PracticeViewController__LoadSong_d__32::MoveNext)> {
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x56d8878;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__33>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__32>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PracticeViewController__LoadSong_d__33.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::PracticeViewController__LoadSong_d__32.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController__LoadSong_d__33::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PracticeViewController__LoadSong_d__33::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3af5b9c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController__LoadSong_d__32::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PracticeViewController__LoadSong_d__32::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x56d8dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::PracticeViewController__LoadSong_d__33::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__33>::get(),
+inline void GlobalNamespace::PracticeViewController__LoadSong_d__32::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__32>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PracticeViewController__LoadSong_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::PracticeViewController__LoadSong_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController__LoadSong_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PracticeViewController__LoadSong_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::PracticeViewController__LoadSong_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PracticeViewController__LoadSong_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PracticeViewController__LoadSong_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -87,7 +86,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__3", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PracticeViewController__LoadSong_d__33::PracticeViewController__LoadSong_d__33(
+constexpr ::GlobalNamespace::PracticeViewController__LoadSong_d__32::PracticeViewController__LoadSong_d__32(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PracticeViewController> __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2,
@@ -101,14 +100,14 @@ constexpr ::GlobalNamespace::PracticeViewController__LoadSong_d__33::PracticeVie
   this->__u__3 = __u__3;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PracticeViewController__LoadSong_d__33::PracticeViewController__LoadSong_d__33() {}
+constexpr ::GlobalNamespace::PracticeViewController__LoadSong_d__32::PracticeViewController__LoadSong_d__32() {}
 //  Writing Method size for method: ::GlobalNamespace::PracticeViewController.add_didPressPlayButtonEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::System::Action*)>(
     &::GlobalNamespace::PracticeViewController::add_didPressPlayButtonEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3af4e04;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x56d7f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::System::Action*)>(
     &::GlobalNamespace::PracticeViewController::remove_didPressPlayButtonEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3af4ea0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x56d8020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PracticeSettings* (::GlobalNamespace::PracticeViewController::*)()>(
     &::GlobalNamespace::PracticeViewController::get_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af4f3c;
+  constexpr static std::size_t addrs = 0x56d80cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController*>::get(),
@@ -151,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::PracticeViewController::*)(::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::PracticeViewController::Init)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3af4f44;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x56d80d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,8 +166,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::PracticeViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3af511c;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x56d82f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(bool, bool)>(
     &::GlobalNamespace::PracticeViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3af5400;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x56d8514;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,8 +196,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PracticeViewController::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::PracticeViewController::LoadSong)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3af5280;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x56d8450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,8 +210,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::PlayPreview)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3af54ac;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x56d85e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController*>::get(), "PlayPreview",
@@ -225,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(
     &::GlobalNamespace::PracticeViewController::CancelSongLoading)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3af5080;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x56d8240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController*>::get(),
@@ -240,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(float_t)>(
     &::GlobalNamespace::PracticeViewController::SetSongLength)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3af50ac;
+  constexpr static std::size_t addrs = 0x56d8280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(bool)>(&::GlobalNamespace::PracticeViewController::SetLoader)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3af55cc;
+  constexpr static std::size_t addrs = 0x56d8738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -267,8 +266,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::GetSongTime)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3af5580;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x56d86d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController*>::get(), "GetSongTime",
@@ -282,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)(::HMUI::RangeValuesTextSlider*, float_t)>(
     &::GlobalNamespace::PracticeViewController::HandleSongStartSliderValueDidChange)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3af564c;
+  constexpr static std::size_t addrs = 0x56d87b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(
     &::GlobalNamespace::PracticeViewController::HandlePlayButtonPressed)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3af5680;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x56d87ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController*>::get(),
@@ -310,8 +309,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PracticeViewController::*)()>(&::GlobalNamespace::PracticeViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af56f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56d8874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PracticeViewController*>::get(), ".ctor",
@@ -319,6 +318,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::UnityW<::GlobalNamespace::LevelBar>& GlobalNamespace::PracticeViewController::__cordl_internal_get__levelBar() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____levelBar;
+}
+constexpr ::UnityW<::GlobalNamespace::LevelBar> const& GlobalNamespace::PracticeViewController::__cordl_internal_get__levelBar() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____levelBar;
+}
+constexpr void GlobalNamespace::PracticeViewController::__cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelBar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::HMUI::TimeSlider>& GlobalNamespace::PracticeViewController::__cordl_internal_get__songStartSlider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____songStartSlider;
@@ -342,18 +353,6 @@ constexpr ::UnityW<::HMUI::PercentSlider> const& GlobalNamespace::PracticeViewCo
 constexpr void GlobalNamespace::PracticeViewController::__cordl_internal_set__speedSlider(::UnityW<::HMUI::PercentSlider> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____speedSlider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::LevelBar>& GlobalNamespace::PracticeViewController::__cordl_internal_get__levelBar() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelBar;
-}
-constexpr ::UnityW<::GlobalNamespace::LevelBar> const& GlobalNamespace::PracticeViewController::__cordl_internal_get__levelBar() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelBar;
-}
-constexpr void GlobalNamespace::PracticeViewController::__cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelBar)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::UnityEngine::UI::Button>& GlobalNamespace::PracticeViewController::__cordl_internal_get__playButton() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

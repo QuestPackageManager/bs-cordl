@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "System/CharEnumerator.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__CharEnumerator_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::CharEnumerator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CharEnumerator::*)(::StringW)>(&::System::CharEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3d5c4f0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x599de04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::CharEnumerator::*)()>(&::System::CharEnumerator::Clone)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d5c520;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x599de14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CharEnumerator*>::get(), "Clone",
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CharEnumerator::*)()>(&::System::CharEnumerator::MoveNext)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d5c528;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x599de18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CharEnumerator*>::get(), "MoveNext",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CharEnumerator::*)()>(&::System::CharEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d5c584;
+  constexpr static std::size_t addrs = 0x599de7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CharEnumerator*>::get(), "Dispose",
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::CharEnumerator::*)()>(
     &::System::CharEnumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d5c59c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x599de94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::CharEnumerator::*)()>(&::System::CharEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d5c600;
+  constexpr static std::size_t addrs = 0x599debc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CharEnumerator*>::get(), "get_Current",
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CharEnumerator::*)()>(&::System::CharEnumerator::Reset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d5c69c;
+  constexpr static std::size_t addrs = 0x599df58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CharEnumerator*>::get(), "Reset",
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CharEnumerator::*)()>(&::System::CharEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d5c6ac;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x599df68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::CharEnumerator*>::get(), ".ctor",

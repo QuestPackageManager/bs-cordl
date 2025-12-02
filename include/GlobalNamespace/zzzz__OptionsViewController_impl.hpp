@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)(
     ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>*)>(&::GlobalNamespace::OptionsViewController::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afa068;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56dcad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)(
     ::System::Action_1<::GlobalNamespace::OptionsViewController_OptionsButton>*)>(&::GlobalNamespace::OptionsViewController::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afa118;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56dcb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::OptionsViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3afa1c8;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x56dcc54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(&::GlobalNamespace::OptionsViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afa318;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56dce14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(), ".ctor",
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(
     &::GlobalNamespace::OptionsViewController::_DidActivate_b__7_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afa320;
+  constexpr static std::size_t addrs = 0x56dce18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(),
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(
     &::GlobalNamespace::OptionsViewController::_DidActivate_b__7_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afa340;
+  constexpr static std::size_t addrs = 0x56dce38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OptionsViewController::*)()>(
     &::GlobalNamespace::OptionsViewController::_DidActivate_b__7_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afa360;
+  constexpr static std::size_t addrs = 0x56dce58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OptionsViewController*>::get(),

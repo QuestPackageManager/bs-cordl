@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Utilities/StructMultiKey_2.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StructMultiKey_2_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T1, typename T2> inline void Newtonsoft::Json::Utilities::StructMultiKey_2<T1, T2>::_ctor(T1 v1, T2 v2) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IEnvironmentColorProvider_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EnvironmentColorManager)
 namespace GlobalNamespace {
@@ -11,6 +10,9 @@ class ColorSchemeSO;
 }
 namespace GlobalNamespace {
 class ColorScheme;
+}
+namespace GlobalNamespace {
+class IEnvironmentColorProvider;
 }
 namespace GlobalNamespace {
 class SimpleColorSO;
@@ -27,7 +29,7 @@ class EnvironmentColorManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EnvironmentColorManager);
-// Dependencies IEnvironmentColorProvider, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: EnvironmentColorManager
@@ -66,15 +68,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEnvironmentColorProvider"
   constexpr operator ::GlobalNamespace::IEnvironmentColorProvider*() noexcept;
 
-  /// @brief Method Awake, addr 0x3b0cff8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56ebc2c, size 0x28, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitColors, addr 0x3b0d020, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InitColors, addr 0x56ebc54, size 0xe4, virtual false, abstract: false, final false
   inline void InitColors();
 
   static inline ::GlobalNamespace::EnvironmentColorManager* New_ctor();
 
-  /// @brief Method SetColorScheme, addr 0x3b0d0c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetColorScheme, addr 0x56ebd38, size 0x8, virtual false, abstract: false, final false
   inline void SetColorScheme(::GlobalNamespace::ColorScheme* colorScheme);
 
   constexpr ::GlobalNamespace::ColorScheme* const& __cordl_internal_get__colorScheme() const;
@@ -119,28 +121,28 @@ public:
 
   constexpr void __cordl_internal_set_didChangeColorEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b0d0c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ebd40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeColorEvent, addr 0x3b0cec0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didChangeColorEvent, addr 0x56ebad4, size 0xac, virtual true, abstract: false, final true
   inline void add_didChangeColorEvent(::System::Action* value);
 
-  /// @brief Method get_environmentColor0, addr 0x3b0cdd8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor0, addr 0x56eb9e4, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor0Boost, addr 0x3b0ce18, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor0Boost, addr 0x56eba1c, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1, addr 0x3b0cdf8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor1, addr 0x56eba00, size 0x1c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColor1Boost, addr 0x3b0ce6c, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor1Boost, addr 0x56eba78, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentColorProvider"
   constexpr ::GlobalNamespace::IEnvironmentColorProvider* i___GlobalNamespace__IEnvironmentColorProvider() noexcept;
 
-  /// @brief Method remove_didChangeColorEvent, addr 0x3b0cf5c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didChangeColorEvent, addr 0x56ebb80, size 0xac, virtual true, abstract: false, final true
   inline void remove_didChangeColorEvent(::System::Action* value);
 
 protected:
@@ -158,7 +160,7 @@ public:
   EnvironmentColorManager(EnvironmentColorManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6600 };
 
   /// @brief Field _defaultColorScheme, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____defaultColorScheme;

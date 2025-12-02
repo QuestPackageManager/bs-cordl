@@ -17,6 +17,8 @@ constexpr ::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationEnd::P
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate::PreLateUpdate_DirectorDeferredEvaluate() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::PreLateUpdate_AccessibilityUpdate::PreLateUpdate_AccessibilityUpdate() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PreLateUpdate_UIElementsUpdatePanels::PreLateUpdate_UIElementsUpdatePanels() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PreLateUpdate_UpdateNetworkManager::PreLateUpdate_UpdateNetworkManager() {}

@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RectangleFakeGlowLightWithId::*)()>(
     &::GlobalNamespace::RectangleFakeGlowLightWithId::get_color)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b9d1f8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x578b9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlowLightWithId*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlowLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::RectangleFakeGlowLightWithId::ColorWasSet)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b9d218;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x578b9dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RectangleFakeGlowLightWithId::*)()>(
     &::GlobalNamespace::RectangleFakeGlowLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b9d244;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x578ba04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RectangleFakeGlowLightWithId*>::get(), ".ctor",

@@ -1,11 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/ManipulatorActivationFilter.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseButton_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ManipulatorActivationFilter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseButton_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
@@ -15,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseButton (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::get_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a41390;
+  constexpr static std::size_t addrs = 0x6b81ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(),
@@ -29,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::MouseButton)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::set_button)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a41398;
+  constexpr static std::size_t addrs = 0x6b81abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventModifiers (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::get_modifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a413a0;
+  constexpr static std::size_t addrs = 0x6b81ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(),
@@ -58,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::set_modifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a413a8;
+  constexpr static std::size_t addrs = 0x6b81acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::get_clickCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a413b0;
+  constexpr static std::size_t addrs = 0x6b81ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(),
@@ -86,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::System::Object*)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a413b8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b81adc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(
     ::UnityEngine::UIElements::ManipulatorActivationFilter)>(&::UnityEngine::UIElements::ManipulatorActivationFilter::Equals)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4a41450;
+  constexpr static std::size_t addrs = 0x6b81b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ManipulatorActivationFilter::*)()>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::GetHashCode)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a41484;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6b81bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,40 +130,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::ManipulatorActivationFilter.Matches
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::IMouseEvent*)>(
-    &::UnityEngine::UIElements::ManipulatorActivationFilter::Matches)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a41508;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(), "Matches", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::ManipulatorActivationFilter.HasModifiers
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::IMouseEvent*)>(
-    &::UnityEngine::UIElements::ManipulatorActivationFilter::HasModifiers)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x4a41658;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(), "HasModifiers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::ManipulatorActivationFilter.Matches
-template <>
-
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::Matches)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a418a0;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x6b81bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(::UnityEngine::UIElements::IPointerEvent*)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::HasModifiers)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x4a419f0;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6b81d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ManipulatorActivationFilter::*)(bool, bool, bool, bool)>(
     &::UnityEngine::UIElements::ManipulatorActivationFilter::MatchModifiers)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a4184c;
+  constexpr static std::size_t addrs = 0x6b81f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,18 +217,6 @@ inline int32_t UnityEngine::UIElements::ManipulatorActivationFilter::GetHashCode
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::ManipulatorActivationFilter::Matches(::UnityEngine::UIElements::IMouseEvent* e) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(), "Matches", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, e);
-}
-inline bool UnityEngine::UIElements::ManipulatorActivationFilter::HasModifiers(::UnityEngine::UIElements::IMouseEvent* e) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ManipulatorActivationFilter>::get(), "HasModifiers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, e);
 }
 inline bool UnityEngine::UIElements::ManipulatorActivationFilter::Matches(::UnityEngine::UIElements::IPointerEvent* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

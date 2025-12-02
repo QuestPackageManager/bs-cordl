@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Enum* (*)(::System::Type*, ::StringW)>(&::Org::BouncyCastle::Utilities::Enums::GetEnumValue)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x25e79d8;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x35175f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Type*)>(&::Org::BouncyCastle::Utilities::Enums::GetEnumValues)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x25e7bd0;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x35177b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Enum* (*)(::System::Type*)>(&::Org::BouncyCastle::Utilities::Enums::GetArbitraryValue)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x25e7ca4;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x3517878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::Org::BouncyCastle::Utilities::Enums::IsEnumType)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x25e7bb0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3517794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Enums::*)()>(&::Org::BouncyCastle::Utilities::Enums::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e7d84;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x351794c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Enums*>::get(), ".ctor",

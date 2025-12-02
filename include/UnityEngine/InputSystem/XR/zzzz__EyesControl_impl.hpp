@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_leftEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7a78;
+  constexpr static std::size_t addrs = 0x636cd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_leftEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7a80;
+  constexpr static std::size_t addrs = 0x636cd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_leftEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7a88;
+  constexpr static std::size_t addrs = 0x636cd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_leftEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7a90;
+  constexpr static std::size_t addrs = 0x636cd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_rightEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7a98;
+  constexpr static std::size_t addrs = 0x636cd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_rightEyePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7aa0;
+  constexpr static std::size_t addrs = 0x636cd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_rightEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7aa8;
+  constexpr static std::size_t addrs = 0x636cd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_rightEyeRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ab0;
+  constexpr static std::size_t addrs = 0x636cd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_fixationPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ab8;
+  constexpr static std::size_t addrs = 0x636cd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_fixationPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ac0;
+  constexpr static std::size_t addrs = 0x636cd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_leftEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ac8;
+  constexpr static std::size_t addrs = 0x636cd6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_leftEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ad0;
+  constexpr static std::size_t addrs = 0x636cd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::XR::EyesControl::*)()>(
     &::UnityEngine::InputSystem::XR::EyesControl::get_rightEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ad8;
+  constexpr static std::size_t addrs = 0x636cd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(),
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::set_rightEyeOpenAmount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7ae0;
+  constexpr static std::size_t addrs = 0x636cd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,8 +214,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)()>(&::UnityEngine::InputSystem::XR::EyesControl::FinishSetup)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x45e7ae8;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x636cd8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,10 +227,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::EyesControl.ReadUnprocessedValueFromState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Eyes (::UnityEngine::InputSystem::XR::EyesControl::*)(::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Eyes (::UnityEngine::InputSystem::XR::EyesControl::*)(void*)>(
     &::UnityEngine::InputSystem::XR::EyesControl::ReadUnprocessedValueFromState)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x45e7ca4;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x636cf58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,10 +242,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::EyesControl.WriteValueIntoState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(
-    ::UnityEngine::InputSystem::XR::Eyes, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::XR::EyesControl::WriteValueIntoState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)(::UnityEngine::InputSystem::XR::Eyes, void*)>(
+    &::UnityEngine::InputSystem::XR::EyesControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x45e7e70;
+  constexpr static std::size_t addrs = 0x636d11c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::EyesControl::*)()>(&::UnityEngine::InputSystem::XR::EyesControl::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e7f84;
+  constexpr static std::size_t addrs = 0x636d230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(), ".ctor",
@@ -433,12 +433,12 @@ inline void UnityEngine::InputSystem::XR::EyesControl::FinishSetup() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::XR::Eyes UnityEngine::InputSystem::XR::EyesControl::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+inline ::UnityEngine::InputSystem::XR::Eyes UnityEngine::InputSystem::XR::EyesControl::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::XR::Eyes, false>(this, ___internal_method, statePtr);
 }
-inline void UnityEngine::InputSystem::XR::EyesControl::WriteValueIntoState(::UnityEngine::InputSystem::XR::Eyes value, ::cordl_internals::Ptr<void> statePtr) {
+inline void UnityEngine::InputSystem::XR::EyesControl::WriteValueIntoState(::UnityEngine::InputSystem::XR::Eyes value, void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::EyesControl*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);

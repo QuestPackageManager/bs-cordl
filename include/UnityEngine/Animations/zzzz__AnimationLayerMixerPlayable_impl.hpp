@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Animations/AnimationLayerMixerPlayable.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationLayerMixerPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
@@ -13,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationLayerMixerPlayable (*)(::UnityEngine::Playables::PlayableGraph, int32_t, bool)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::Create)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4854d10;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x680f3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, int32_t)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandle)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4854db8;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x680f4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationLayerMixerPlayable::*)(::UnityEngine::Playables::PlayableHandle, bool)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::_ctor)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4854ea4;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x680f5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Animations::AnimationLayerMixerPlayable::*)()>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48550c0;
+  constexpr static std::size_t addrs = 0x680f800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationLayerMixerPlayable>::get(),
@@ -75,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Animations::AnimationLayerMixerPlayable)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48550cc;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x680f80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Animations::AnimationLayerMixerPlayable::*)(
     ::UnityEngine::Animations::AnimationLayerMixerPlayable)>(&::UnityEngine::Animations::AnimationLayerMixerPlayable::Equals)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x485514c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x680f874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationLayerMixerPlayable::*)(uint32_t, ::UnityEngine::AvatarMask*)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMask)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x48551e8;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x680f918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Playables::PlayableGraph, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4854ff0;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x680f72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -138,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, bool)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x485507c;
+  constexpr static std::size_t addrs = 0x680f7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,8 +155,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, uint32_t, ::UnityEngine::AvatarMask*)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48553fc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x680fb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4855450;
+  constexpr static std::size_t addrs = 0x680fbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,6 +182,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Animations::AnimationLayerMixerPlayable.SetLayerMaskFromAvatarMaskInternal_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, uint32_t, ::System::IntPtr)>(
+    &::UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x680fc34;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationLayerMixerPlayable>::get(), "SetLayerMaskFromAvatarMaskInternal_Injected",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -272,6 +290,15 @@ inline bool UnityEngine::Animations::AnimationLayerMixerPlayable::CreateHandleIn
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, graph, handle);
+}
+inline void UnityEngine::Animations::AnimationLayerMixerPlayable::SetLayerMaskFromAvatarMaskInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableHandle> handle, uint32_t layerIndex,
+                                                                                                              ::System::IntPtr mask) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationLayerMixerPlayable>::get(), "SetLayerMaskFromAvatarMaskInternal_Injected",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, layerIndex, mask);
 }
 /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
 constexpr UnityEngine::Animations::AnimationLayerMixerPlayable::operator ::UnityEngine::Playables::IPlayable*() {

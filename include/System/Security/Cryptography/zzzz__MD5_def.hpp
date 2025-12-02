@@ -18,12 +18,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE MD5 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3ca25d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x58e6318, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::MD5* Create();
 
   static inline ::System::Security::Cryptography::MD5* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ca25b8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e630c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   MD5(MD5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

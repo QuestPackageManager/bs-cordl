@@ -74,7 +74,7 @@ public:
   ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction(ParallelForJobStruct_1_IJobParallelForExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10548 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +110,7 @@ public:
   constexpr IJobParallelForExtensions_ParallelForJobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9899 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -129,8 +129,14 @@ public:
   // Declarations
   template <typename T> using ParallelForJobStruct_1 = ::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1<T>;
 
+  /// @brief Method EarlyJobInit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void EarlyJobInit();
+
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::IntPtr GetReflectionData();
+
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void Run(T jobData, int32_t arrayLength);
 
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, int32_t arrayLength, int32_t innerloopBatchCount, ::Unity::Jobs::JobHandle dependsOn);
@@ -150,7 +156,7 @@ public:
   IJobParallelForExtensions(IJobParallelForExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9900 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::CreateServerFormData (::GlobalNamespace::CreateServerFormController::*)()>(
     &::GlobalNamespace::CreateServerFormController::get_formData)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3b556e4;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x573e2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerFormController*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerFormController::*)(int32_t, bool)>(
     &::GlobalNamespace::CreateServerFormController::Setup)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b557d0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x573e374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreateServerFormController::*)()>(&::GlobalNamespace::CreateServerFormController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5580c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x573e3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreateServerFormController*>::get(), ".ctor",

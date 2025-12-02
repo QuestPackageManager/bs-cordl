@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerGameNoteController.hpp"
-#include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteMovementProvider_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerNoteController_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteData_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteVisualModifierType_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
+#include "GlobalNamespace/zzzz__ICubeNoteControllerInitializable_1_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMovementProvider_def.hpp"
+#include "GlobalNamespace/zzzz__INoteVisualModifierTypeProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerGameNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bbb3d0;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x57abf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,8 +46,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*)>(
         &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::add_cubeNoteControllerDidInitEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bbb250;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57abd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,8 +64,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)(::System::Action_1<::UnityW<::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController>>*)>(
         &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::remove_cubeNoteControllerDidInitEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bbb300;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57abe4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::NoteMovement> (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::get_noteMovement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbb3b0;
+  constexpr static std::size_t addrs = 0x57abf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData_GameplayType (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::get_gameplayType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbb3b8;
+  constexpr static std::size_t addrs = 0x57abf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteVisualModifierType (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::get_noteVisualModifierType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbb3c0;
+  constexpr static std::size_t addrs = 0x57abf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, ::GlobalNamespace::NoteVisualModifierType, float_t)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::Init)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bb76ac;
+  constexpr static std::size_t addrs = 0x57a8020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerGameNoteController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbb3c8;
+  constexpr static std::size_t addrs = 0x57abf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

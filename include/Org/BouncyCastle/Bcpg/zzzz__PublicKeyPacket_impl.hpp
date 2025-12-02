@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::_ctor)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x2645720;
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x35750d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)(
     ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::System::DateTime, ::Org::BouncyCastle::Bcpg::IBcpgKey*)>(&::Org::BouncyCastle::Bcpg::PublicKeyPacket::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x26493bc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x3578c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_Version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2649470;
+  constexpr static std::size_t addrs = 0x3578cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2649478;
+  constexpr static std::size_t addrs = 0x3578cc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_ValidDays)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2649480;
+  constexpr static std::size_t addrs = 0x3578cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::GetTime)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2649488;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x3578cd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::IBcpgKey* (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26494e8;
+  constexpr static std::size_t addrs = 0x3578d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)()>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::GetEncodedContents)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x26494f0;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x3578d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::PublicKeyPacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::PublicKeyPacket::Encode)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2649654;
+  constexpr static std::size_t addrs = 0x3578ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 

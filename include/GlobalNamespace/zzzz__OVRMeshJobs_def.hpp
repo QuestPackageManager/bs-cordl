@@ -5,10 +5,8 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include "UnityEngine/zzzz__BoneWeight_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -23,6 +21,12 @@ struct OVRMeshJobs_TransformToUnitySpaceJob;
 }
 namespace GlobalNamespace {
 struct OVRMeshJobs_TransformTrianglesJob;
+}
+namespace System {
+class IDisposable;
+}
+namespace Unity::Jobs {
+class IJobParallelFor;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -42,8 +46,7 @@ MARK_REF_PTR_T(::GlobalNamespace::OVRMeshJobs);
 MARK_GEN_VAL_T(::GlobalNamespace::OVRMeshJobs_NativeArrayHelper_1);
 MARK_VAL_T(::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob);
 MARK_VAL_T(::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob);
-// Dependencies OVRPlugin::Vector2f, OVRPlugin::Vector3f, OVRPlugin::Vector4f, OVRPlugin::Vector4s, Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJobParallelFor, UnityEngine.BoneWeight,
-// UnityEngine.Vector2, UnityEngine.Vector3
+// Dependencies OVRPlugin::Vector2f, OVRPlugin::Vector3f, OVRPlugin::Vector4f, OVRPlugin::Vector4s, Unity.Collections.NativeArray`1<T>, UnityEngine.BoneWeight, UnityEngine.Vector2, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRMeshJobs/TransformToUnitySpaceJob
@@ -53,7 +56,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x4037c90, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cecafc, size 0x9c, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -80,7 +83,7 @@ public:
                                                  ::Unity::Collections::NativeArray_1<::GlobalNamespace::OVRPlugin_Vector4s> MeshBoneIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7906 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -136,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob, 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJobParallelFor
+// Dependencies Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRMeshJobs/TransformTrianglesJob
@@ -146,7 +149,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x4037e10, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cecb98, size 0x20, virtual true, abstract: false, final true
   inline void Execute(int32_t index);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -161,7 +164,7 @@ public:
   constexpr OVRMeshJobs_TransformTrianglesJob(::Unity::Collections::NativeArray_1<uint32_t> Triangles, ::Unity::Collections::NativeArray_1<int16_t> MeshIndices, int32_t NumIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7907 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -187,7 +190,7 @@ static_assert(offsetof(::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob, Num
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.IDisposable, System.Runtime.InteropServices.GCHandle, Unity.Collections.NativeArray`1<T>
+// Dependencies System.Runtime.InteropServices.GCHandle, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -217,7 +220,7 @@ public:
   constexpr OVRMeshJobs_NativeArrayHelper_1(::Unity::Collections::NativeArray_1<T> UnityNativeArray, ::System::Runtime::InteropServices::GCHandle _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7908 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -247,7 +250,7 @@ public:
 
   static inline ::GlobalNamespace::OVRMeshJobs* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4037c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cecaf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -265,7 +268,7 @@ public:
   OVRMeshJobs(OVRMeshJobs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

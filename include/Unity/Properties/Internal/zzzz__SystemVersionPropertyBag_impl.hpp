@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4917268;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6980228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,14 +25,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49174e8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6980458;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)()>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698049c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)(::ByRef<::System::Version*>)>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::GetValue)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x69804a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::*)(
+    ::ByRef<::System::Version*>, int32_t)>(&::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::SetValue)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x69804bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -45,8 +93,26 @@ inline void Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty:
 inline ::StringW Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::GetValue(::ByRef<::System::Version*> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::SetValue(::ByRef<::System::Version*> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty* Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::SystemVersionPropertyBag_MajorProperty*>());
@@ -58,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4917308;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x69802b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,14 +139,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4917528;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x69804c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)()>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6980504;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)(::ByRef<::System::Version*>)>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::GetValue)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x698050c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::*)(
+    ::ByRef<::System::Version*>, int32_t)>(&::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::SetValue)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6980524;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -93,8 +207,26 @@ inline void Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty:
 inline ::StringW Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::GetValue(::ByRef<::System::Version*> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::SetValue(::ByRef<::System::Version*> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline ::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty* Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::SystemVersionPropertyBag_MinorProperty*>());
@@ -106,8 +238,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49173a8;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6980340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,14 +253,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4917568;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6980528;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)()>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698056c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)(::ByRef<::System::Version*>)>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::GetValue)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6980574;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::*)(
+    ::ByRef<::System::Version*>, int32_t)>(&::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::SetValue)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x698058c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -141,8 +321,26 @@ inline void Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty:
 inline ::StringW Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::GetValue(::ByRef<::System::Version*> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::SetValue(::ByRef<::System::Version*> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline ::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty* Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::SystemVersionPropertyBag_BuildProperty*>());
@@ -154,8 +352,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4917448;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x69803cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,14 +367,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49175a8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6980590;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)()>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69805d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)(::ByRef<::System::Version*>)>(
+    &::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::GetValue)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x69805dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::*)(
+    ::ByRef<::System::Version*>, int32_t)>(&::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::SetValue)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x69805f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -189,8 +435,26 @@ inline void Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProper
 inline ::StringW Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::GetValue(::ByRef<::System::Version*> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::SetValue(::ByRef<::System::Version*> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline ::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty* Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::Internal::SystemVersionPropertyBag_RevisionProperty*>());
@@ -202,8 +466,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::SystemVersionPropertyBag::*)()>(
     &::Unity::Properties::Internal::SystemVersionPropertyBag::_ctor)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4916118;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x697eecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::SystemVersionPropertyBag*>::get(),

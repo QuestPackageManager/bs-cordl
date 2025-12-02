@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (
     ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::get_dragArea)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49edbbc;
+  constexpr static std::size_t addrs = 0x6af7428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x49e8ca0;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6af2460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

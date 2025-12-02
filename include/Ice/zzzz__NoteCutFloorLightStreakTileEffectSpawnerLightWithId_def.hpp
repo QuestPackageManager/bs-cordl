@@ -29,7 +29,7 @@ public:
                       put = __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner)) ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner>
       _noteCutFloorLightStreakTileEffectSpawner;
 
-  /// @brief Method ColorWasSet, addr 0x2269dd0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x318d400, size 0x1c, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawnerLightWithId* New_ctor();
@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set__noteCutFloorLightStreakTileEffectSpawner(::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> value);
 
-  /// @brief Method .ctor, addr 0x2269df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318d41c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -58,7 +58,7 @@ public:
   NoteCutFloorLightStreakTileEffectSpawnerLightWithId(NoteCutFloorLightStreakTileEffectSpawnerLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22832 };
 
   /// @brief Field _noteCutFloorLightStreakTileEffectSpawner, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::Ice::NoteCutFloorLightStreakTileEffectSpawner> ____noteCutFloorLightStreakTileEffectSpawner;

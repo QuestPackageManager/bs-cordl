@@ -31,10 +31,10 @@ public:
   __declspec(property(get = __cordl_internal_get_bUsedEncoder, put = __cordl_internal_set_bUsedEncoder)) bool bUsedEncoder;
 
   /// @brief Field charEnd, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd)) ::cordl_internals::Ptr<char16_t> charEnd;
+  __declspec(property(get = __cordl_internal_get_charEnd, put = __cordl_internal_set_charEnd)) char16_t* charEnd;
 
   /// @brief Field charStart, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_charStart, put = __cordl_internal_set_charStart)) ::cordl_internals::Ptr<char16_t> charStart;
+  __declspec(property(get = __cordl_internal_get_charStart, put = __cordl_internal_set_charStart)) char16_t* charStart;
 
   /// @brief Field encoder, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_encoder, put = __cordl_internal_set_encoder)) ::System::Text::EncoderNLS* encoder;
@@ -54,16 +54,16 @@ public:
   /// @brief Method GetNextChar, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method InternalFallback, addr 0x3c79694, size 0x1a8, virtual true, abstract: false, final false
-  inline bool InternalFallback(char16_t ch, ::ByRef<::cordl_internals::Ptr<char16_t>> chars);
+  /// @brief Method InternalFallback, addr 0x58bda60, size 0x184, virtual true, abstract: false, final false
+  inline bool InternalFallback(char16_t ch, ::ByRef<char16_t*> chars);
 
-  /// @brief Method InternalGetNextChar, addr 0x3c79664, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method InternalGetNextChar, addr 0x58bda30, size 0x30, virtual false, abstract: false, final false
   inline char16_t InternalGetNextChar();
 
-  /// @brief Method InternalInitialize, addr 0x3c79648, size 0x1c, virtual false, abstract: false, final false
-  inline void InternalInitialize(::cordl_internals::Ptr<char16_t> charStart, ::cordl_internals::Ptr<char16_t> charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
+  /// @brief Method InternalInitialize, addr 0x58bda18, size 0x18, virtual false, abstract: false, final false
+  inline void InternalInitialize(char16_t* charStart, char16_t* charEnd, ::System::Text::EncoderNLS* encoder, bool setEncoder);
 
-  /// @brief Method InternalReset, addr 0x3c79630, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InternalReset, addr 0x58bda00, size 0x18, virtual false, abstract: false, final false
   inline void InternalReset();
 
   /// @brief Method MovePrevious, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -71,10 +71,10 @@ public:
 
   static inline ::System::Text::EncoderFallbackBuffer* New_ctor();
 
-  /// @brief Method Reset, addr 0x3c79608, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x58bd9d8, size 0x28, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ThrowLastCharRecursive, addr 0x3c7983c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ThrowLastCharRecursive, addr 0x58bdbe4, size 0x88, virtual false, abstract: false, final false
   inline void ThrowLastCharRecursive(int32_t charRecursive);
 
   constexpr bool const& __cordl_internal_get_bFallingBack() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr bool& __cordl_internal_get_bUsedEncoder();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charEnd() const;
+  constexpr char16_t* const& __cordl_internal_get_charEnd() const;
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charEnd();
+  constexpr char16_t*& __cordl_internal_get_charEnd();
 
-  constexpr ::cordl_internals::Ptr<char16_t> const& __cordl_internal_get_charStart() const;
+  constexpr char16_t* const& __cordl_internal_get_charStart() const;
 
-  constexpr ::cordl_internals::Ptr<char16_t>& __cordl_internal_get_charStart();
+  constexpr char16_t*& __cordl_internal_get_charStart();
 
   constexpr ::System::Text::EncoderNLS* const& __cordl_internal_get_encoder() const;
 
@@ -109,9 +109,9 @@ public:
 
   constexpr void __cordl_internal_set_bUsedEncoder(bool value);
 
-  constexpr void __cordl_internal_set_charEnd(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charEnd(char16_t* value);
 
-  constexpr void __cordl_internal_set_charStart(::cordl_internals::Ptr<char16_t> value);
+  constexpr void __cordl_internal_set_charStart(char16_t* value);
 
   constexpr void __cordl_internal_set_encoder(::System::Text::EncoderNLS* value);
 
@@ -119,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set_setEncoder(bool value);
 
-  /// @brief Method .ctor, addr 0x3c78ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bcff8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Remaining, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -140,13 +140,13 @@ public:
   EncoderFallbackBuffer(EncoderFallbackBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2864 };
 
   /// @brief Field charStart, offset: 0x10, size: 0x8, def value: None
-  ::cordl_internals::Ptr<char16_t> ___charStart;
+  char16_t* ___charStart;
 
   /// @brief Field charEnd, offset: 0x18, size: 0x8, def value: None
-  ::cordl_internals::Ptr<char16_t> ___charEnd;
+  char16_t* ___charEnd;
 
   /// @brief Field encoder, offset: 0x20, size: 0x8, def value: None
   ::System::Text::EncoderNLS* ___encoder;

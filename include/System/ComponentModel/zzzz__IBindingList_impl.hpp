@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/IBindingList.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IList_impl.hpp"
 #include "System/ComponentModel/zzzz__IBindingList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/ComponentModel/zzzz__ListSortDirection_def.hpp"
 #include "System/ComponentModel/zzzz__PropertyDescriptor_def.hpp"
 #include "System/zzzz__Object_def.hpp"

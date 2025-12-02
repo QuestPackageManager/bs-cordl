@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::SetBeforeIntroValues)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bb9ed8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57aa8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerIntroAnimator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb9ef4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57aa8b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

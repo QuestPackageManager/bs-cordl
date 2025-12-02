@@ -21,6 +21,9 @@ struct IntPtr;
 namespace System {
 class Object;
 }
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 namespace UnityEngine {
 struct AdditionalCanvasShaderChannels;
 }
@@ -62,12 +65,12 @@ namespace UnityEngine {
 class CORDL_TYPE Canvas_WillRenderCanvases : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4aad5bc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6bb90cc, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::Canvas_WillRenderCanvases* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4aad534, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bb9064, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -85,7 +88,7 @@ public:
   Canvas_WillRenderCanvases(Canvas_WillRenderCanvases const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -166,48 +169,60 @@ public:
 
   __declspec(property(get = get_worldCamera, put = set_worldCamera)) ::UnityW<::UnityEngine::Camera> worldCamera;
 
-  /// @brief Method BeginRenderExtraOverlays, addr 0x4aad3e0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method BeginRenderExtraOverlays, addr 0x6bb8efc, size 0x70, virtual false, abstract: false, final false
   static inline void BeginRenderExtraOverlays(int32_t displayIndex);
 
-  /// @brief Method EndRenderExtraOverlays, addr 0x4aad4c0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method EndRenderExtraOverlays, addr 0x6bb8ff0, size 0x70, virtual false, abstract: false, final false
   static inline void EndRenderExtraOverlays(int32_t displayIndex);
 
-  /// @brief Method ForceUpdateCanvases, addr 0x4aad308, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ForceUpdateCanvases, addr 0x6bb8e1c, size 0x10, virtual false, abstract: false, final false
   static inline void ForceUpdateCanvases();
 
-  /// @brief Method GetDefaultCanvasMaterial, addr 0x4aad274, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCanvasMaterial, addr 0x6bb8ad0, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultCanvasMaterial();
 
-  /// @brief Method GetDefaultCanvasTextMaterial, addr 0x4aad24c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCanvasMaterial_Injected, addr 0x6bb8be4, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetDefaultCanvasMaterial_Injected();
+
+  /// @brief Method GetDefaultCanvasTextMaterial, addr 0x6bb8994, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetDefaultCanvasTextMaterial();
 
-  /// @brief Method GetETC1SupportedCanvasMaterial, addr 0x4aad29c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCanvasTextMaterial_Injected, addr 0x6bb8aa8, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetDefaultCanvasTextMaterial_Injected();
+
+  /// @brief Method GetETC1SupportedCanvasMaterial, addr 0x6bb8c0c, size 0x114, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetETC1SupportedCanvasMaterial();
+
+  /// @brief Method GetETC1SupportedCanvasMaterial_Injected, addr 0x6bb8d20, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetETC1SupportedCanvasMaterial_Injected();
 
   static inline ::UnityEngine::Canvas* New_ctor();
 
-  /// @brief Method RenderExtraOverlaysBefore, addr 0x4aad44c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RenderExtraOverlaysBefore, addr 0x6bb8f6c, size 0x84, virtual false, abstract: false, final false
   static inline void RenderExtraOverlaysBefore(int32_t displayIndex, int32_t sortingOrder);
 
-  /// @brief Method SendPreWillRenderCanvases, addr 0x4aad318, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SendPreWillRenderCanvases, addr 0x6bb8e2c, size 0x68, virtual false, abstract: false, final false
   static inline void SendPreWillRenderCanvases();
 
-  /// @brief Method SendWillRenderCanvases, addr 0x4aad37c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SendWillRenderCanvases, addr 0x6bb8e94, size 0x68, virtual false, abstract: false, final false
   static inline void SendWillRenderCanvases();
 
-  /// @brief Method SetExternalCanvasEnabled, addr 0x4aad088, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetExternalCanvasEnabled, addr 0x6bb83a0, size 0x3c, virtual false, abstract: false, final false
   static inline void SetExternalCanvasEnabled(bool enabled);
 
-  /// @brief Method UpdateCanvasRectTransform, addr 0x4aad2c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdateCanvasRectTransform, addr 0x6bb8d48, size 0x90, virtual false, abstract: false, final false
   inline void UpdateCanvasRectTransform(bool alignWithCamera);
 
-  /// @brief Method .ctor, addr 0x4aad52c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateCanvasRectTransform_Injected, addr 0x6bb8dd8, size 0x44, virtual false, abstract: false, final false
+  static inline void UpdateCanvasRectTransform_Injected(::System::IntPtr _unity_self, bool alignWithCamera);
+
+  /// @brief Method .ctor, addr 0x6bb9060, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_preWillRenderCanvases, addr 0x4aac2b0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_preWillRenderCanvases, addr 0x6bb618c, size 0xcc, virtual false, abstract: false, final false
   static inline void add_preWillRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
-  /// @brief Method add_willRenderCanvases, addr 0x4aac420, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_willRenderCanvases, addr 0x6bb6324, size 0xd0, virtual false, abstract: false, final false
   static inline void add_willRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
   static inline ::System::Action_1<int32_t>* getStaticF__externBeginRenderOverlays_k__BackingField();
@@ -220,94 +235,157 @@ public:
 
   static inline ::UnityEngine::Canvas_WillRenderCanvases* getStaticF_willRenderCanvases();
 
-  /// @brief Method get_additionalShaderChannels, addr 0x4aacc80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalShaderChannels, addr 0x6bb7920, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::AdditionalCanvasShaderChannels get_additionalShaderChannels();
 
-  /// @brief Method get_cachedSortingLayerValue, addr 0x4aacc44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalShaderChannels_Injected, addr 0x6bb79a0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::AdditionalCanvasShaderChannels get_additionalShaderChannels_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_cachedSortingLayerValue, addr 0x6bb7864, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_cachedSortingLayerValue();
 
-  /// @brief Method get_externBeginRenderOverlays, addr 0x4aacecc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_cachedSortingLayerValue_Injected, addr 0x6bb78e4, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_cachedSortingLayerValue_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_externBeginRenderOverlays, addr 0x6bb81cc, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_1<int32_t>* get_externBeginRenderOverlays();
 
-  /// @brief Method get_externEndRenderOverlays, addr 0x4aacff4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_externEndRenderOverlays, addr 0x6bb8304, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_1<int32_t>* get_externEndRenderOverlays();
 
-  /// @brief Method get_externRenderOverlaysBefore, addr 0x4aacf60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_externRenderOverlaysBefore, addr 0x6bb8268, size 0x4c, virtual false, abstract: false, final false
   static inline ::System::Action_2<int32_t, int32_t>* get_externRenderOverlaysBefore();
 
-  /// @brief Method get_isRootCanvas, addr 0x4aac618, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isRootCanvas, addr 0x6bb6654, size 0x80, virtual false, abstract: false, final false
   inline bool get_isRootCanvas();
 
-  /// @brief Method get_normalizedSortingGridSize, addr 0x4aad144, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isRootCanvas_Injected, addr 0x6bb66d4, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_isRootCanvas_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_normalizedSortingGridSize, addr 0x6bb866c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_normalizedSortingGridSize();
 
-  /// @brief Method get_overridePixelPerfect, addr 0x4aac800, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_normalizedSortingGridSize_Injected, addr 0x6bb86ec, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_normalizedSortingGridSize_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_overridePixelPerfect, addr 0x6bb6b20, size 0x80, virtual false, abstract: false, final false
   inline bool get_overridePixelPerfect();
 
-  /// @brief Method get_overrideSorting, addr 0x4aaca44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_overridePixelPerfect_Injected, addr 0x6bb6ba0, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_overridePixelPerfect_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_overrideSorting, addr 0x6bb7224, size 0x80, virtual false, abstract: false, final false
   inline bool get_overrideSorting();
 
-  /// @brief Method get_pixelPerfect, addr 0x4aac900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_overrideSorting_Injected, addr 0x6bb72a4, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_overrideSorting_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_pixelPerfect, addr 0x6bb6e40, size 0x80, virtual false, abstract: false, final false
   inline bool get_pixelPerfect();
 
-  /// @brief Method get_pixelRect, addr 0x4aac654, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_pixelPerfect_Injected, addr 0x6bb6ec0, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_pixelPerfect_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_pixelRect, addr 0x6bb6710, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Rect get_pixelRect();
 
-  /// @brief Method get_pixelRect_Injected, addr 0x4aac6ac, size 0x44, virtual false, abstract: false, final false
-  inline void get_pixelRect_Injected(::ByRef<::UnityEngine::Rect> ret);
+  /// @brief Method get_pixelRect_Injected, addr 0x6bb67ac, size 0x44, virtual false, abstract: false, final false
+  static inline void get_pixelRect_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> ret);
 
-  /// @brief Method get_planeDistance, addr 0x4aac980, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_planeDistance, addr 0x6bb6fd0, size 0x80, virtual false, abstract: false, final false
   inline float_t get_planeDistance();
 
-  /// @brief Method get_referencePixelsPerUnit, addr 0x4aac778, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_planeDistance_Injected, addr 0x6bb7050, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_planeDistance_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_referencePixelsPerUnit, addr 0x6bb6988, size 0x80, virtual false, abstract: false, final false
   inline float_t get_referencePixelsPerUnit();
 
-  /// @brief Method get_renderMode, addr 0x4aac598, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_referencePixelsPerUnit_Injected, addr 0x6bb6a08, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_referencePixelsPerUnit_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_renderMode, addr 0x6bb64c4, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderMode get_renderMode();
 
-  /// @brief Method get_renderOrder, addr 0x4aaca08, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_renderMode_Injected, addr 0x6bb6544, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::RenderMode get_renderMode_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_renderOrder, addr 0x6bb7168, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_renderOrder();
 
-  /// @brief Method get_renderingDisplaySize, addr 0x4aacdbc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_renderOrder_Injected, addr 0x6bb71e8, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_renderOrder_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_renderingDisplaySize, addr 0x6bb7f60, size 0x98, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_renderingDisplaySize();
 
-  /// @brief Method get_renderingDisplaySize_Injected, addr 0x4aace08, size 0x44, virtual false, abstract: false, final false
-  inline void get_renderingDisplaySize_Injected(::ByRef<::UnityEngine::Vector2> ret);
+  /// @brief Method get_renderingDisplaySize_Injected, addr 0x6bb7ff8, size 0x44, virtual false, abstract: false, final false
+  static inline void get_renderingDisplaySize_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector2> ret);
 
-  /// @brief Method get_rootCanvas, addr 0x4aacd80, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootCanvas, addr 0x6bb7dd4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_rootCanvas();
 
-  /// @brief Method get_scaleFactor, addr 0x4aac6f0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_rootCanvas_Injected, addr 0x6bb7f24, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_rootCanvas_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_scaleFactor, addr 0x6bb67f0, size 0x80, virtual false, abstract: false, final false
   inline float_t get_scaleFactor();
 
-  /// @brief Method get_sortingGridNormalizedSize, addr 0x4aad1cc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_scaleFactor_Injected, addr 0x6bb6870, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_scaleFactor_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_sortingGridNormalizedSize, addr 0x6bb8804, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_sortingGridNormalizedSize();
 
-  /// @brief Method get_sortingLayerID, addr 0x4aacbc4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingGridNormalizedSize_Injected, addr 0x6bb8884, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_sortingGridNormalizedSize_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_sortingLayerID, addr 0x6bb76d4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_sortingLayerID();
 
-  /// @brief Method get_sortingLayerName, addr 0x4aacd00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerID_Injected, addr 0x6bb7754, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_sortingLayerID_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_sortingLayerName, addr 0x6bb7ab0, size 0x134, virtual false, abstract: false, final false
   inline ::StringW get_sortingLayerName();
 
-  /// @brief Method get_sortingOrder, addr 0x4aacac4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingLayerName_Injected, addr 0x6bb7be4, size 0x44, virtual false, abstract: false, final false
+  static inline void get_sortingLayerName_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+
+  /// @brief Method get_sortingOrder, addr 0x6bb73b4, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_sortingOrder();
 
-  /// @brief Method get_targetDisplay, addr 0x4aacb44, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sortingOrder_Injected, addr 0x6bb7434, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_sortingOrder_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_targetDisplay, addr 0x6bb7544, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_targetDisplay();
 
-  /// @brief Method get_updateRectTransformForStandalone, addr 0x4aace4c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_targetDisplay_Injected, addr 0x6bb75c4, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_targetDisplay_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_updateRectTransformForStandalone, addr 0x6bb803c, size 0x80, virtual false, abstract: false, final false
   inline ::UnityEngine::StandaloneRenderResize get_updateRectTransformForStandalone();
 
-  /// @brief Method get_vertexColorAlwaysGammaSpace, addr 0x4aac880, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_updateRectTransformForStandalone_Injected, addr 0x6bb80bc, size 0x3c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::StandaloneRenderResize get_updateRectTransformForStandalone_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_vertexColorAlwaysGammaSpace, addr 0x6bb6cb0, size 0x80, virtual false, abstract: false, final false
   inline bool get_vertexColorAlwaysGammaSpace();
 
-  /// @brief Method get_worldCamera, addr 0x4aad0c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_vertexColorAlwaysGammaSpace_Injected, addr 0x6bb6d30, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_vertexColorAlwaysGammaSpace_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_worldCamera, addr 0x6bb83dc, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_worldCamera();
 
-  /// @brief Method remove_preWillRenderCanvases, addr 0x4aac368, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_worldCamera_Injected, addr 0x6bb852c, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_worldCamera_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method remove_preWillRenderCanvases, addr 0x6bb6258, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_preWillRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
-  /// @brief Method remove_willRenderCanvases, addr 0x4aac4dc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_willRenderCanvases, addr 0x6bb63f4, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_willRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
   static inline void setStaticF__externBeginRenderOverlays_k__BackingField(::System::Action_1<int32_t>* value);
@@ -320,65 +398,116 @@ public:
 
   static inline void setStaticF_willRenderCanvases(::UnityEngine::Canvas_WillRenderCanvases* value);
 
-  /// @brief Method set_additionalShaderChannels, addr 0x4aaccbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalShaderChannels, addr 0x6bb79dc, size 0x90, virtual false, abstract: false, final false
   inline void set_additionalShaderChannels(::UnityEngine::AdditionalCanvasShaderChannels value);
 
-  /// @brief Method set_externBeginRenderOverlays, addr 0x4aacf14, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_additionalShaderChannels_Injected, addr 0x6bb7a6c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_additionalShaderChannels_Injected(::System::IntPtr _unity_self, ::UnityEngine::AdditionalCanvasShaderChannels value);
+
+  /// @brief Method set_externBeginRenderOverlays, addr 0x6bb8218, size 0x50, virtual false, abstract: false, final false
   static inline void set_externBeginRenderOverlays(::System::Action_1<int32_t>* value);
 
-  /// @brief Method set_externEndRenderOverlays, addr 0x4aad03c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_externEndRenderOverlays, addr 0x6bb8350, size 0x50, virtual false, abstract: false, final false
   static inline void set_externEndRenderOverlays(::System::Action_1<int32_t>* value);
 
-  /// @brief Method set_externRenderOverlaysBefore, addr 0x4aacfa8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_externRenderOverlaysBefore, addr 0x6bb82b4, size 0x50, virtual false, abstract: false, final false
   static inline void set_externRenderOverlaysBefore(::System::Action_2<int32_t, int32_t>* value);
 
-  /// @brief Method set_normalizedSortingGridSize, addr 0x4aad180, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedSortingGridSize, addr 0x6bb8728, size 0x90, virtual false, abstract: false, final false
   inline void set_normalizedSortingGridSize(float_t value);
 
-  /// @brief Method set_overridePixelPerfect, addr 0x4aac83c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_normalizedSortingGridSize_Injected, addr 0x6bb87b8, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_normalizedSortingGridSize_Injected(::System::IntPtr _unity_self, float_t value);
+
+  /// @brief Method set_overridePixelPerfect, addr 0x6bb6bdc, size 0x90, virtual false, abstract: false, final false
   inline void set_overridePixelPerfect(bool value);
 
-  /// @brief Method set_overrideSorting, addr 0x4aaca80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_overridePixelPerfect_Injected, addr 0x6bb6c6c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_overridePixelPerfect_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_overrideSorting, addr 0x6bb72e0, size 0x90, virtual false, abstract: false, final false
   inline void set_overrideSorting(bool value);
 
-  /// @brief Method set_pixelPerfect, addr 0x4aac93c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_overrideSorting_Injected, addr 0x6bb7370, size 0x44, virtual false, abstract: false, final false
+  static inline void set_overrideSorting_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_pixelPerfect, addr 0x6bb6efc, size 0x90, virtual false, abstract: false, final false
   inline void set_pixelPerfect(bool value);
 
-  /// @brief Method set_planeDistance, addr 0x4aac9bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_pixelPerfect_Injected, addr 0x6bb6f8c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_pixelPerfect_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_planeDistance, addr 0x6bb708c, size 0x90, virtual false, abstract: false, final false
   inline void set_planeDistance(float_t value);
 
-  /// @brief Method set_referencePixelsPerUnit, addr 0x4aac7b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_planeDistance_Injected, addr 0x6bb711c, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_planeDistance_Injected(::System::IntPtr _unity_self, float_t value);
+
+  /// @brief Method set_referencePixelsPerUnit, addr 0x6bb6a44, size 0x90, virtual false, abstract: false, final false
   inline void set_referencePixelsPerUnit(float_t value);
 
-  /// @brief Method set_renderMode, addr 0x4aac5d4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_referencePixelsPerUnit_Injected, addr 0x6bb6ad4, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_referencePixelsPerUnit_Injected(::System::IntPtr _unity_self, float_t value);
+
+  /// @brief Method set_renderMode, addr 0x6bb6580, size 0x90, virtual false, abstract: false, final false
   inline void set_renderMode(::UnityEngine::RenderMode value);
 
-  /// @brief Method set_scaleFactor, addr 0x4aac72c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_renderMode_Injected, addr 0x6bb6610, size 0x44, virtual false, abstract: false, final false
+  static inline void set_renderMode_Injected(::System::IntPtr _unity_self, ::UnityEngine::RenderMode value);
+
+  /// @brief Method set_scaleFactor, addr 0x6bb68ac, size 0x90, virtual false, abstract: false, final false
   inline void set_scaleFactor(float_t value);
 
-  /// @brief Method set_sortingGridNormalizedSize, addr 0x4aad208, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_scaleFactor_Injected, addr 0x6bb693c, size 0x4c, virtual false, abstract: false, final false
+  static inline void set_scaleFactor_Injected(::System::IntPtr _unity_self, float_t value);
+
+  /// @brief Method set_sortingGridNormalizedSize, addr 0x6bb88c0, size 0x90, virtual false, abstract: false, final false
   inline void set_sortingGridNormalizedSize(int32_t value);
 
-  /// @brief Method set_sortingLayerID, addr 0x4aacc00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingGridNormalizedSize_Injected, addr 0x6bb8950, size 0x44, virtual false, abstract: false, final false
+  static inline void set_sortingGridNormalizedSize_Injected(::System::IntPtr _unity_self, int32_t value);
+
+  /// @brief Method set_sortingLayerID, addr 0x6bb7790, size 0x90, virtual false, abstract: false, final false
   inline void set_sortingLayerID(int32_t value);
 
-  /// @brief Method set_sortingLayerName, addr 0x4aacd3c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerID_Injected, addr 0x6bb7820, size 0x44, virtual false, abstract: false, final false
+  static inline void set_sortingLayerID_Injected(::System::IntPtr _unity_self, int32_t value);
+
+  /// @brief Method set_sortingLayerName, addr 0x6bb7c28, size 0x168, virtual false, abstract: false, final false
   inline void set_sortingLayerName(::StringW value);
 
-  /// @brief Method set_sortingOrder, addr 0x4aacb00, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingLayerName_Injected, addr 0x6bb7d90, size 0x44, virtual false, abstract: false, final false
+  static inline void set_sortingLayerName_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
+
+  /// @brief Method set_sortingOrder, addr 0x6bb7470, size 0x90, virtual false, abstract: false, final false
   inline void set_sortingOrder(int32_t value);
 
-  /// @brief Method set_targetDisplay, addr 0x4aacb80, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_sortingOrder_Injected, addr 0x6bb7500, size 0x44, virtual false, abstract: false, final false
+  static inline void set_sortingOrder_Injected(::System::IntPtr _unity_self, int32_t value);
+
+  /// @brief Method set_targetDisplay, addr 0x6bb7600, size 0x90, virtual false, abstract: false, final false
   inline void set_targetDisplay(int32_t value);
 
-  /// @brief Method set_updateRectTransformForStandalone, addr 0x4aace88, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_targetDisplay_Injected, addr 0x6bb7690, size 0x44, virtual false, abstract: false, final false
+  static inline void set_targetDisplay_Injected(::System::IntPtr _unity_self, int32_t value);
+
+  /// @brief Method set_updateRectTransformForStandalone, addr 0x6bb80f8, size 0x90, virtual false, abstract: false, final false
   inline void set_updateRectTransformForStandalone(::UnityEngine::StandaloneRenderResize value);
 
-  /// @brief Method set_vertexColorAlwaysGammaSpace, addr 0x4aac8bc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_updateRectTransformForStandalone_Injected, addr 0x6bb8188, size 0x44, virtual false, abstract: false, final false
+  static inline void set_updateRectTransformForStandalone_Injected(::System::IntPtr _unity_self, ::UnityEngine::StandaloneRenderResize value);
+
+  /// @brief Method set_vertexColorAlwaysGammaSpace, addr 0x6bb6d6c, size 0x90, virtual false, abstract: false, final false
   inline void set_vertexColorAlwaysGammaSpace(bool value);
 
-  /// @brief Method set_worldCamera, addr 0x4aad100, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_vertexColorAlwaysGammaSpace_Injected, addr 0x6bb6dfc, size 0x44, virtual false, abstract: false, final false
+  static inline void set_vertexColorAlwaysGammaSpace_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_worldCamera, addr 0x6bb8568, size 0xc0, virtual false, abstract: false, final false
   inline void set_worldCamera(::UnityEngine::Camera* value);
+
+  /// @brief Method set_worldCamera_Injected, addr 0x6bb8628, size 0x44, virtual false, abstract: false, final false
+  static inline void set_worldCamera_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
   // Ctor Parameters []
@@ -395,7 +524,7 @@ public:
   Canvas(Canvas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21870 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

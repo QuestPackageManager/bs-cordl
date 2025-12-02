@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::System::Collections::IDictionary*)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::_ctor)> {
-  constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x255492c;
+  constexpr static std::size_t size = 0x510;
+  constexpr static std::size_t addrs = 0x3484934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (
     ::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Pkcs::Pkcs12Entry::GetBagAttribute)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2554e6c;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x3484e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::GetBagAttribute)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2554f68;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x3484f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::GetBagAttributeKeys)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x255505c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x3485054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkcs::Pkcs12Entry*>::get(),
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (
     ::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Pkcs::Pkcs12Entry::get_Item)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2555174;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x3485174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)(::StringW)>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::get_Item)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x2555270;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x3485280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (::Org::BouncyCastle::Pkcs::Pkcs12Entry::*)()>(
     &::Org::BouncyCastle::Pkcs::Pkcs12Entry::get_BagAttributeKeys)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x2555364;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x3485384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkcs::Pkcs12Entry*>::get(),

@@ -27,9 +27,6 @@ template <typename TObject>
 class CORDL_TYPE AssetReferenceT_1 : public ::UnityEngine::AddressableAssets::AssetReference {
 public:
   // Declarations
-  /// @brief Method LoadAsset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAsset();
-
   /// @brief Method LoadAssetAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> LoadAssetAsync();
 
@@ -59,7 +56,7 @@ public:
   AssetReferenceT_1(AssetReferenceT_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

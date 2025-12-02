@@ -4,15 +4,21 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseUxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlObjectFactory_1_def.hpp"
 CORDL_MODULE_EXPORT(UxmlObjectFactory_2)
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class IBaseUxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class IBaseUxmlObjectFactory;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IUxmlObjectFactory_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -20,8 +26,7 @@ template <typename TCreatedType, typename TTraits> class UxmlObjectFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlObjectFactory_2);
-// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>, UnityEngine.UIElements.IBaseUxmlFactory, UnityEngine.UIElements.IBaseUxmlObjectFactory,
-// UnityEngine.UIElements.IUxmlObjectFactory`1<T>
+// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
@@ -71,7 +76,7 @@ public:
   UxmlObjectFactory_2(UxmlObjectFactory_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5185 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

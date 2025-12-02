@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IServiceProvider_def.hpp"
 CORDL_MODULE_EXPORT(IDesignerHost)
 namespace System::ComponentModel::Design {
 class IDesigner;
@@ -11,13 +10,16 @@ class IDesigner;
 namespace System::ComponentModel {
 class IComponent;
 }
+namespace System {
+class IServiceProvider;
+}
 // Forward declare root types
 namespace System::ComponentModel::Design {
 class IDesignerHost;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::Design::IDesignerHost);
-// Dependencies System.IServiceProvider
+// Dependencies
 namespace System::ComponentModel::Design {
 // Is value type: false
 // CS Name: System.ComponentModel.Design.IDesignerHost
@@ -43,7 +45,7 @@ public:
   IDesignerHost(IDesignerHost const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11321 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

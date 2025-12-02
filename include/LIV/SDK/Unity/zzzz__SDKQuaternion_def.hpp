@@ -26,25 +26,25 @@ namespace LIV::SDK::Unity {
 struct CORDL_TYPE SDKQuaternion {
 public:
   // Declarations
-  /// @brief Method Euler, addr 0x3ac6828, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Euler, addr 0x56a0148, size 0xb0, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion Euler(float_t pitch, float_t yaw, float_t roll);
 
-  /// @brief Method ToString, addr 0x3ac69f4, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x56a0310, size 0x1a0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method get_identity, addr 0x3ac6810, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x56a0130, size 0x14, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion get_identity();
 
-  /// @brief Method op_Implicit, addr 0x3ac5cec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x569f530, size 0x4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Implicit___LIV__SDK__Unity__SDKQuaternion(::UnityEngine::Quaternion v);
 
-  /// @brief Method op_Implicit, addr 0x3ac6824, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x56a0144, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion op_Implicit___UnityEngine__Quaternion(::LIV::SDK::Unity::SDKQuaternion v);
 
-  /// @brief Method op_Multiply, addr 0x3ac68dc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x56a01f8, size 0x74, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKQuaternion op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKQuaternion rhs);
 
-  /// @brief Method op_Multiply, addr 0x3ac6950, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x56a026c, size 0xa4, virtual false, abstract: false, final false
   static inline ::LIV::SDK::Unity::SDKVector3 op_Multiply(::LIV::SDK::Unity::SDKQuaternion lhs, ::LIV::SDK::Unity::SDKVector3 rhs);
 
   // Ctor Parameters []
@@ -56,7 +56,7 @@ public:
   constexpr SDKQuaternion(float_t x, float_t y, float_t z, float_t w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17330 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -25,10 +25,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::AvatarSpritePartSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x225c3ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x317d964, size 0x48, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x225c370, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x317d920, size 0x44, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
 protected:
@@ -46,7 +46,7 @@ public:
   AvatarSpritePartSO(AvatarSpritePartSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

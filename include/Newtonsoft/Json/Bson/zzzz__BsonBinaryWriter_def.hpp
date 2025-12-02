@@ -51,33 +51,33 @@ public:
   /// @brief Field _writer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__writer, put = __cordl_internal_set__writer)) ::System::IO::BinaryWriter* _writer;
 
-  /// @brief Method CalculateSize, addr 0x3f50e18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CalculateSize, addr 0x5b975ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t CalculateSize(int32_t stringByteCount);
 
-  /// @brief Method CalculateSize, addr 0x3f4f380, size 0x8a8, virtual false, abstract: false, final false
+  /// @brief Method CalculateSize, addr 0x5b95c08, size 0x820, virtual false, abstract: false, final false
   inline int32_t CalculateSize(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method CalculateSizeWithLength, addr 0x3f50e20, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CalculateSizeWithLength, addr 0x5b975b4, size 0x10, virtual false, abstract: false, final false
   inline int32_t CalculateSizeWithLength(int32_t stringByteCount, bool includeSize);
 
-  /// @brief Method Close, addr 0x3f4f338, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x5b95bc4, size 0x1c, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Flush, addr 0x3f4f318, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Flush, addr 0x5b95ba8, size 0x1c, virtual false, abstract: false, final false
   inline void Flush();
 
   static inline ::Newtonsoft::Json::Bson::BsonBinaryWriter* New_ctor(::System::IO::BinaryWriter* writer);
 
-  /// @brief Method WriteString, addr 0x3f50b7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method WriteString, addr 0x5b972fc, size 0xbc, virtual false, abstract: false, final false
   inline void WriteString(::StringW s, int32_t byteCount, ::System::Nullable_1<int32_t> calculatedlengthPrefix);
 
-  /// @brief Method WriteToken, addr 0x3f4f358, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method WriteToken, addr 0x5b95be0, size 0x28, virtual false, abstract: false, final false
   inline void WriteToken(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method WriteTokenInternal, addr 0x3f4fc28, size 0xec4, virtual false, abstract: false, final false
+  /// @brief Method WriteTokenInternal, addr 0x5b96428, size 0xe4c, virtual false, abstract: false, final false
   inline void WriteTokenInternal(::Newtonsoft::Json::Bson::BsonToken* t);
 
-  /// @brief Method WriteUtf8Bytes, addr 0x3f50cb0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method WriteUtf8Bytes, addr 0x5b97440, size 0x16c, virtual false, abstract: false, final false
   inline void WriteUtf8Bytes(::StringW s, int32_t byteCount);
 
   constexpr ::System::DateTimeKind const& __cordl_internal_get__DateTimeKindHandling_k__BackingField() const;
@@ -98,17 +98,17 @@ public:
 
   constexpr void __cordl_internal_set__writer(::System::IO::BinaryWriter* value);
 
-  /// @brief Method .ctor, addr 0x3f4f2e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b95b98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::BinaryWriter* writer);
 
   static inline ::System::Text::Encoding* getStaticF_Encoding();
 
-  /// @brief Method get_DateTimeKindHandling, addr 0x3f4f2d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DateTimeKindHandling, addr 0x5b95b88, size 0x8, virtual false, abstract: false, final false
   inline ::System::DateTimeKind get_DateTimeKindHandling();
 
   static inline void setStaticF_Encoding(::System::Text::Encoding* value);
 
-  /// @brief Method set_DateTimeKindHandling, addr 0x3f4f2e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DateTimeKindHandling, addr 0x5b95b90, size 0x8, virtual false, abstract: false, final false
   inline void set_DateTimeKindHandling(::System::DateTimeKind value);
 
 protected:
@@ -126,7 +126,7 @@ public:
   BsonBinaryWriter(BsonBinaryWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13660 };
 
   /// @brief Field _writer, offset: 0x10, size: 0x8, def value: None
   ::System::IO::BinaryWriter* ____writer;

@@ -1,12 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SelectRegionViewController.hpp"
-#include "HMUI/zzzz__ViewController_impl.hpp"
+#include "GlobalNamespace/zzzz__CompletableViewController_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__SimpleTextDropdown_def.hpp"
-#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -27,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair::*)(
     ::GlobalNamespace::SelectRegionViewController_Region, ::StringW)>(&::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b6fad0;
+  constexpr static std::size_t addrs = 0x575a8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController___c::*)()>(
     &::GlobalNamespace::SelectRegionViewController___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6fb38;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x575a948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get(),
@@ -67,17 +66,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController___c._DidActivate_b__8_1
+//  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController___c._DidActivate_b__5_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SelectRegionViewController___c::*)(
-    ::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair)>(&::GlobalNamespace::SelectRegionViewController___c::_DidActivate_b__8_1)> {
+    ::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair)>(&::GlobalNamespace::SelectRegionViewController___c::_DidActivate_b__5_1)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b6fb40;
+  constexpr static std::size_t addrs = 0x575a94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get(), "<DidActivate>b__8_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get(), "<DidActivate>b__5_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair>::get() })));
     return ___internal_method;
   }
@@ -91,13 +90,13 @@ inline ::GlobalNamespace::SelectRegionViewController___c* GlobalNamespace::Selec
   return ::cordl_internals::getStaticField<::GlobalNamespace::SelectRegionViewController___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get>();
 }
-inline void GlobalNamespace::SelectRegionViewController___c::setStaticF___9__8_1(::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>*, "<>9__8_1",
+inline void GlobalNamespace::SelectRegionViewController___c::setStaticF___9__5_1(::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>*, "<>9__5_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get>(
       std::forward<::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>*>(value));
 }
-inline ::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>* GlobalNamespace::SelectRegionViewController___c::getStaticF___9__8_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>*, "<>9__8_1",
+inline ::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>* GlobalNamespace::SelectRegionViewController___c::getStaticF___9__5_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair, ::StringW>*, "<>9__5_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get>();
 }
 inline void GlobalNamespace::SelectRegionViewController___c::_ctor() {
@@ -105,9 +104,9 @@ inline void GlobalNamespace::SelectRegionViewController___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::SelectRegionViewController___c::_DidActivate_b__8_1(::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair p) {
+inline ::StringW GlobalNamespace::SelectRegionViewController___c::_DidActivate_b__5_1(::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair p) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get(), "<DidActivate>b__8_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController___c*>::get(), "<DidActivate>b__5_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SelectRegionViewController_RegionToLocalizationKeyPair>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, p);
 }
@@ -116,43 +115,13 @@ inline ::GlobalNamespace::SelectRegionViewController___c* GlobalNamespace::Selec
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::SelectRegionViewController___c::SelectRegionViewController___c() {}
-//  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController.add_didPressContinueButtonEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)(
-    ::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*)>(&::GlobalNamespace::SelectRegionViewController::add_didPressContinueButtonEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6f5cc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(), "add_didPressContinueButtonEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController.remove_didPressContinueButtonEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)(
-    ::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*)>(&::GlobalNamespace::SelectRegionViewController::remove_didPressContinueButtonEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b6f67c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(), "remove_didPressContinueButtonEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController.DidActivate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SelectRegionViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3b6f72c;
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x575a4b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)()>(
     &::GlobalNamespace::SelectRegionViewController::OnDestroy)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b6f950;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x575a6fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::SelectRegionViewController::HandleRegionSelectionDropdownDidSelectCell)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b6fa2c;
+  constexpr static std::size_t addrs = 0x575a7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)()>(&::GlobalNamespace::SelectRegionViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b6fa70;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x575a828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(), ".ctor",
@@ -206,17 +175,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController._DidActivate_b__8_0
+//  Writing Method size for method: ::GlobalNamespace::SelectRegionViewController._DidActivate_b__5_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectRegionViewController::*)()>(
-    &::GlobalNamespace::SelectRegionViewController::_DidActivate_b__8_0)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b6fa78;
+    &::GlobalNamespace::SelectRegionViewController::_DidActivate_b__5_0)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x575a86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(),
-                                                                               "<DidActivate>b__8_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<DidActivate>b__5_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -259,30 +228,6 @@ constexpr void GlobalNamespace::SelectRegionViewController::__cordl_internal_set
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____regionLocalizationKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*& GlobalNamespace::SelectRegionViewController::__cordl_internal_get_didPressContinueButtonEvent() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___didPressContinueButtonEvent;
-}
-constexpr ::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* const& GlobalNamespace::SelectRegionViewController::__cordl_internal_get_didPressContinueButtonEvent() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___didPressContinueButtonEvent;
-}
-constexpr void GlobalNamespace::SelectRegionViewController::__cordl_internal_set_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___didPressContinueButtonEvent)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::SelectRegionViewController::add_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(), "add_didPressContinueButtonEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline void GlobalNamespace::SelectRegionViewController::remove_didPressContinueButtonEvent(::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(), "remove_didPressContinueButtonEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::GlobalNamespace::SelectRegionViewController_Region>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 inline void GlobalNamespace::SelectRegionViewController::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(), 5)));
@@ -306,9 +251,9 @@ inline void GlobalNamespace::SelectRegionViewController::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::SelectRegionViewController::_DidActivate_b__8_0() {
+inline void GlobalNamespace::SelectRegionViewController::_DidActivate_b__5_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SelectRegionViewController*>::get(),
-                                                                             "<DidActivate>b__8_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<DidActivate>b__5_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::GlobalNamespace::SelectRegionViewController* GlobalNamespace::SelectRegionViewController::New_ctor() {

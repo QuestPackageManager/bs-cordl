@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::AvatarColorBehaviour::OnGraphStart)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b33934;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x57150b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::AvatarColorBehaviour::ProcessFrame)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3b339a8;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x5715128;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::AvatarColorBehaviour::OnPlayableDestroy)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b33b88;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x571532c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AvatarColorBehaviour::*)()>(&::GlobalNamespace::AvatarColorBehaviour::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b33c14;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57153bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AvatarColorBehaviour*>::get(), ".ctor",

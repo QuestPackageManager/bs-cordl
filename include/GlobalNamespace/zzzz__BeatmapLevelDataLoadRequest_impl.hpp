@@ -1,10 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapLevelDataLoadRequest.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataLoadRequest_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataLoadRequest_def.hpp"
@@ -14,6 +12,7 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8.MoveNext
@@ -21,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x26c1804;
+  constexpr static std::size_t size = 0x790;
+  constexpr static std::size_t addrs = 0x35f3ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26c1f10;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x35f456c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x26c0c58;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x35f324c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* (
     ::GlobalNamespace::BeatmapLevelDataLoadRequest::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::LoadDataAsync)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x26c0b90;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x35f3178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* (
     ::GlobalNamespace::BeatmapLevelDataLoadRequest::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::BeatmapLevelDataLoadRequest::LoadDataAsyncInternal)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26c149c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x35f3ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::ThrowIfExternalCancellationRequested)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x26c1588;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x35f3bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::UnloadBundle)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26c1780;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x35f3d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoadRequest*>::get(),
@@ -169,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::Dispose)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26c0b30;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x35f3104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoadRequest*>::get(),
@@ -184,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::get_HasFailed)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26c0af4;
+  constexpr static std::size_t addrs = 0x35f30c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoadRequest*>::get(),
@@ -197,8 +196,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapLevelDataLoadRequest::*)()>(
     &::GlobalNamespace::BeatmapLevelDataLoadRequest::get_HasValidResult)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x26c13a8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x35f399c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLevelDataLoadRequest*>::get(),

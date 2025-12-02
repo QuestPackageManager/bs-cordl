@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorType (::GlobalNamespace::NoteMissInfoNetSerializable::*)()>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722a7c;
+  constexpr static std::size_t addrs = 0x3651e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMissInfoNetSerializable*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)(::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::set_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722a84;
+  constexpr static std::size_t addrs = 0x3651e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteMissInfoNetSerializable::*)()>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::get_noteTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722a8c;
+  constexpr static std::size_t addrs = 0x3651e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMissInfoNetSerializable*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)(float_t)>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::set_noteTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722a94;
+  constexpr static std::size_t addrs = 0x3651e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NoteMissInfoNetSerializable::*)()>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::get_noteLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722a9c;
+  constexpr static std::size_t addrs = 0x3651e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMissInfoNetSerializable*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)(int32_t)>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::set_noteLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722aa4;
+  constexpr static std::size_t addrs = 0x3651e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteLineLayer (::GlobalNamespace::NoteMissInfoNetSerializable::*)()>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::get_noteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722aac;
+  constexpr static std::size_t addrs = 0x3651e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMissInfoNetSerializable*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)(::GlobalNamespace::NoteLineLayer)>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::set_noteLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2722ab4;
+  constexpr static std::size_t addrs = 0x3651e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteMissInfoNetSerializable* (*)()>(&::GlobalNamespace::NoteMissInfoNetSerializable::Obtain)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2722abc;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3651e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMissInfoNetSerializable*>::get(), "Obtain",
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::Deserialize)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2722b20;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x3651ecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::NoteMissInfoNetSerializable::Serialize)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2722b9c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x3651f60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +175,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteMissInfoNetSerializable::*)()>(&::GlobalNamespace::NoteMissInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2722c38;
+  constexpr static std::size_t addrs = 0x3651ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteMissInfoNetSerializable*>::get(), ".ctor",
@@ -188,8 +188,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteMissInfoNetSerializable* (
     ::GlobalNamespace::NoteMissInfoNetSerializable::*)(::GlobalNamespace::NoteData*)>(&::GlobalNamespace::NoteMissInfoNetSerializable::Init)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2722c90;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x365204c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteMissInfoNetSerializable* (
     ::GlobalNamespace::NoteMissInfoNetSerializable::*)(::GlobalNamespace::ColorType, ::GlobalNamespace::NoteLineLayer, int32_t, float_t)>(&::GlobalNamespace::NoteMissInfoNetSerializable::Init)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2722cbc;
+  constexpr static std::size_t addrs = 0x3652074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IReadOnlyTextStyle_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TextStyle)
+namespace GlobalNamespace {
+class IReadOnlyTextStyle;
+}
 namespace TMPro {
 struct FontStyles;
 }
@@ -17,7 +19,7 @@ class TextStyle;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::TextStyle);
-// Dependencies IReadOnlyTextStyle, System.Object, TMPro.FontStyles
+// Dependencies System.Object, TMPro.FontStyles
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TextStyle
@@ -64,7 +66,7 @@ public:
 
   static inline ::GlobalNamespace::TextStyle* New_ctor();
 
-  /// @brief Method Update, addr 0x22826bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x31c5850, size 0x18, virtual false, abstract: false, final false
   inline void Update(::TMPro::FontStyles fontStyle, float_t fontSize, bool autoSizing, float_t fontSizeMin, float_t fontSizeMax, float_t charWidthMaxAdj, float_t lineSpacingMax);
 
   constexpr bool const& __cordl_internal_get__autoSizing() const;
@@ -109,28 +111,28 @@ public:
 
   constexpr void __cordl_internal_set__lineSpacingMax(float_t value);
 
-  /// @brief Method .ctor, addr 0x22826d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c5868, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_autoSizing, addr 0x2282694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_autoSizing, addr 0x31c5828, size 0x8, virtual true, abstract: false, final true
   inline bool get_autoSizing();
 
-  /// @brief Method get_charWidthMaxAdj, addr 0x22826ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_charWidthMaxAdj, addr 0x31c5840, size 0x8, virtual true, abstract: false, final true
   inline float_t get_charWidthMaxAdj();
 
-  /// @brief Method get_fontSize, addr 0x228268c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_fontSize, addr 0x31c5820, size 0x8, virtual true, abstract: false, final true
   inline float_t get_fontSize();
 
-  /// @brief Method get_fontSizeMax, addr 0x22826a4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_fontSizeMax, addr 0x31c5838, size 0x8, virtual true, abstract: false, final true
   inline float_t get_fontSizeMax();
 
-  /// @brief Method get_fontSizeMin, addr 0x228269c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_fontSizeMin, addr 0x31c5830, size 0x8, virtual true, abstract: false, final true
   inline float_t get_fontSizeMin();
 
-  /// @brief Method get_fontStyle, addr 0x2282684, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_fontStyle, addr 0x31c5818, size 0x8, virtual true, abstract: false, final true
   inline ::TMPro::FontStyles get_fontStyle();
 
-  /// @brief Method get_lineSpacingMax, addr 0x22826b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lineSpacingMax, addr 0x31c5848, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lineSpacingMax();
 
   /// @brief Convert to "::GlobalNamespace::IReadOnlyTextStyle"
@@ -151,7 +153,7 @@ public:
   TextStyle(TextStyle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23231 };
 
   /// @brief Field _fontStyle, offset: 0x10, size: 0x4, def value: None
   ::TMPro::FontStyles ____fontStyle;

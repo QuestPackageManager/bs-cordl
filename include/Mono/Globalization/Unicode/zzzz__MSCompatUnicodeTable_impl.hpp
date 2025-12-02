@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::MSCompatUnicodeTable___c::*)()>(
     &::Mono::Globalization::Unicode::MSCompatUnicodeTable___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c5a220;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x589d08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable___c*>::get(),
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::MSCompatUnicodeTable___c::*)(
     ::Mono::Globalization::Unicode::Level2Map*, ::Mono::Globalization::Unicode::Level2Map*)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable___c::_BuildTailoringTables_b__17_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c5a228;
+  constexpr static std::size_t addrs = 0x589d090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::TailoringInfo* (*)(int32_t)>(
     &::Mono::Globalization::Unicode::MSCompatUnicodeTable::GetTailoringInfo)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3c58484;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x589b2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::ByRef<::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>>,
                          ::ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>>)>(
         &::Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTables)> {
-  constexpr static std::size_t size = 0x750;
-  constexpr static std::size_t addrs = 0x3c58588;
+  constexpr static std::size_t size = 0x74c;
+  constexpr static std::size_t addrs = 0x589b404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,21 +118,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::Mono::Globalization::Unicode::MSCompatUnicodeTable.SetCJKReferences
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::StringW, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>, ::ByRef<::cordl_internals::Ptr<uint8_t>>,
-    ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3c58cd8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>, ::ByRef<uint8_t*>,
+                                                                                           ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>)>(
+    &::Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences)> {
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x589bb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "SetCJKReferences", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
     return ___internal_method;
   }
 };
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Category)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c58f38;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x589bda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,8 +154,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Level1)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c58fdc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x589be54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,8 +168,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Level2)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c59080;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x589bf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,8 +182,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::Level3)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c59124;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x589bfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,8 +196,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, uint8_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorable)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3c591c8;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x589c058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,8 +210,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsIgnorableNonSpacing)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c592e0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x589c178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::ToKanaTypeInsensitive)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c59338;
+  constexpr static std::size_t addrs = 0x589c1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,8 +238,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::ToWidthCompat)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3c59350;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x589c1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,8 +252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::HasSpecialWeight)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c594dc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x589c36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHalfWidthKana)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c5955c;
+  constexpr static std::size_t addrs = 0x589c3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,8 +280,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsHiragana)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c59570;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x589c404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,8 +294,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::IsJapaneseSmallLetter)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c59588;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x589c418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,8 +308,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::get_IsReady)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c59670;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x589c518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(),
@@ -321,8 +321,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::GetResource)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3c596c8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x589c574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,58 +334,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Mono::Globalization::Unicode::MSCompatUnicodeTable.UInt32FromBytePtr
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint8_t>, uint32_t)>(
-    &::Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c59780;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint8_t*, uint32_t)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x589c63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "UInt32FromBytePtr", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Globalization::Unicode::MSCompatUnicodeTable.FillCJK
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::StringW, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>, ::ByRef<::cordl_internals::Ptr<uint8_t>>,
-                         ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3c59be0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>, ::ByRef<uint8_t*>,
+                                                                                           ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>)>(
+    &::Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK)> {
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x589ca58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "FillCJK", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Globalization::Unicode::MSCompatUnicodeTable.FillCJKCore
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::StringW, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>, ::ByRef<::cordl_internals::Ptr<uint8_t>>,
-                         ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore)> {
-  constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3c59d40;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>, ::ByRef<uint8_t*>,
+                                                                                           ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>)>(
+    &::Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore)> {
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x589cbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "FillCJKCore", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
     return ___internal_method;
   }
 };
@@ -396,122 +394,103 @@ inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_MaxEx
 inline int32_t Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_MaxExpansionLength() {
   return ::cordl_internals::getStaticField<int32_t, "MaxExpansionLength", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_ignorableFlags(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "ignorableFlags",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_ignorableFlags(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "ignorableFlags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_ignorableFlags() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "ignorableFlags",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_ignorableFlags() {
+  return ::cordl_internals::getStaticField<uint8_t*, "ignorableFlags", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_categories(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "categories", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_categories(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "categories", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_categories() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "categories",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_categories() {
+  return ::cordl_internals::getStaticField<uint8_t*, "categories", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_level1(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "level1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_level1(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "level1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_level1() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "level1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_level1() {
+  return ::cordl_internals::getStaticField<uint8_t*, "level1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_level2(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "level2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_level2(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "level2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_level2() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "level2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_level2() {
+  return ::cordl_internals::getStaticField<uint8_t*, "level2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_level3(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "level3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_level3(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "level3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_level3() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "level3",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_level3() {
+  return ::cordl_internals::getStaticField<uint8_t*, "level3", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHScategory(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHScategory",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHScategory(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkCHScategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHScategory() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHScategory",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHScategory() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkCHScategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHTcategory(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHTcategory",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHTcategory(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkCHTcategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHTcategory() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHTcategory",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHTcategory() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkCHTcategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkJAcategory(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkJAcategory",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkJAcategory(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkJAcategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkJAcategory() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkJAcategory",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkJAcategory() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkJAcategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkKOcategory(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkKOcategory",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkKOcategory(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkKOcategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkKOcategory() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkKOcategory",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkKOcategory() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkKOcategory", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHSlv1(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHSlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHSlv1(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkCHSlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHSlv1() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHSlv1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHSlv1() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkCHSlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHTlv1(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHTlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkCHTlv1(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkCHTlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHTlv1() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkCHTlv1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkCHTlv1() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkCHTlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkJAlv1(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkJAlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkJAlv1(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkJAlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkJAlv1() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkJAlv1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkJAlv1() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkJAlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkKOlv1(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkKOlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkKOlv1(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkKOlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkKOlv1() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkKOlv1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkKOlv1() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkKOlv1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkKOlv2(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "cjkKOlv2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_cjkKOlv2(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "cjkKOlv2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>(
+      std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkKOlv2() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "cjkKOlv2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
+inline uint8_t* Mono::Globalization::Unicode::MSCompatUnicodeTable::getStaticF_cjkKOlv2() {
+  return ::cordl_internals::getStaticField<uint8_t*, "cjkKOlv2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get>();
 }
 inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::setStaticF_tailoringArr(::ArrayW<char16_t, ::Array<char16_t>*> value) {
   ::cordl_internals::setStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "tailoringArr",
@@ -565,18 +544,17 @@ inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::BuildTailoringTa
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::Mono::Globalization::Unicode::Level2Map*, ::Array<::Mono::Globalization::Unicode::Level2Map*>*>>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, culture, t, contractions, diacriticals);
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences(::StringW name, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer,
-                                                                                 ::ByRef<::cordl_internals::Ptr<uint8_t>> catTable, ::ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table,
-                                                                                 ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer,
-                                                                                 ::ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table) {
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::SetCJKReferences(::StringW name, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ::ByRef<uint8_t*> catTable,
+                                                                                 ::ByRef<uint8_t*> lv1Table, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer,
+                                                                                 ::ByRef<uint8_t*> lv2Table) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "SetCJKReferences", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, name, cjkIndexer, catTable, lv1Table, lv2Indexer, lv2Table);
 }
 inline uint8_t Mono::Globalization::Unicode::MSCompatUnicodeTable::Category(int32_t cp) {
@@ -662,38 +640,35 @@ inline ::System::IntPtr Mono::Globalization::Unicode::MSCompatUnicodeTable::GetR
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, name);
 }
-inline uint32_t Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr(::cordl_internals::Ptr<uint8_t> raw, uint32_t idx) {
+inline uint32_t Mono::Globalization::Unicode::MSCompatUnicodeTable::UInt32FromBytePtr(uint8_t* raw, uint32_t idx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "UInt32FromBytePtr", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, raw, idx);
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK(::StringW culture, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer,
-                                                                        ::ByRef<::cordl_internals::Ptr<uint8_t>> catTable, ::ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table,
-                                                                        ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ::ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table) {
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJK(::StringW culture, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ::ByRef<uint8_t*> catTable,
+                                                                        ::ByRef<uint8_t*> lv1Table, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ::ByRef<uint8_t*> lv2Table) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "FillCJK", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, culture, cjkIndexer, catTable, lv1Table, lv2Indexer, lv2Table);
 }
-inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore(::StringW culture, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer,
-                                                                            ::ByRef<::cordl_internals::Ptr<uint8_t>> catTable, ::ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table,
-                                                                            ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkLv2Indexer,
-                                                                            ::ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table) {
+inline void Mono::Globalization::Unicode::MSCompatUnicodeTable::FillCJKCore(::StringW culture, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer, ::ByRef<uint8_t*> catTable,
+                                                                            ::ByRef<uint8_t*> lv1Table, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkLv2Indexer,
+                                                                            ::ByRef<uint8_t*> lv2Table) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::MSCompatUnicodeTable*>::get(), "FillCJKCore", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, culture, cjkIndexer, catTable, lv1Table, cjkLv2Indexer, lv2Table);
 }
 // Ctor Parameters []

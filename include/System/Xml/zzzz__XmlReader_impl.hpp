@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlReader.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -8,6 +7,8 @@
 #include "System/IO/zzzz__TextReader_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
 #include "System/Xml/zzzz__IDtdInfo_def.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__ReadState_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
@@ -17,13 +18,18 @@
 #include "System/Xml/zzzz__XmlSpace_def.hpp"
 #include "System/Xml/zzzz__XmlTextWriter_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
+#include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlReader.get_Settings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_Settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43150c8;
+  constexpr static std::size_t addrs = 0x60732c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_Name)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43150d0;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x60732cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43151b4;
+  constexpr static std::size_t addrs = 0x60733a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_QuoteChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43151bc;
+  constexpr static std::size_t addrs = 0x60733b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_XmlSpace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43151c4;
+  constexpr static std::size_t addrs = 0x60733b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,8 +210,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_XmlLang)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x43151cc;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x60733c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,8 +224,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::IXmlSchemaInfo* (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_SchemaInfo)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4315214;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x60733d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,13 +238,266 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_ValueType)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x431525c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6073420;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 20));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsObject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsObject)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6073450;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 21));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsBoolean
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsBoolean)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6073784;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 22));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsDateTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsDateTime)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6073934;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 23));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsDouble
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsDouble)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6073ae4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 24));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsFloat
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsFloat)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6073c90;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 25));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsDecimal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsDecimal)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6073e3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 26));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsInt
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsInt)> {
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6073fe8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 27));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsLong
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsLong)> {
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x60741a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 28));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadContentAsString)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6074360;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 29));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAs
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlReader::*)(::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(
+    &::System::Xml::XmlReader::ReadContentAs)> {
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x60743b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 30));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsBoolean
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsBoolean)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6074620;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 31));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsDateTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsDateTime)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x60748fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsDouble
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsDouble)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x60749c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 33));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsFloat
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsFloat)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6074a94;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 34));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsDecimal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsDecimal)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6074b64;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 35));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsInt
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsInt)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6074c30;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 36));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsLong
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsLong)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6074d04;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 37));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadElementContentAsString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementContentAsString)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6074dd8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 38));
     return ___internal_method;
   }
 };
@@ -252,7 +511,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 21));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 39));
     return ___internal_method;
   }
 };
@@ -266,7 +525,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 22));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 40));
     return ___internal_method;
   }
 };
@@ -280,7 +539,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 23));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 41));
     return ___internal_method;
   }
 };
@@ -294,7 +553,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 24));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 42));
     return ___internal_method;
   }
 };
@@ -308,7 +567,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 25));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 43));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.MoveToAttribute
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)(::StringW, ::StringW)>(&::System::Xml::XmlReader::MoveToAttribute)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 44));
     return ___internal_method;
   }
 };
@@ -316,13 +589,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)(int32_t)>(&::System::Xml::XmlReader::MoveToAttribute)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x43152c8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6074e64;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 26));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 45));
     return ___internal_method;
   }
 };
@@ -336,7 +609,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 27));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 46));
     return ___internal_method;
   }
 };
@@ -350,7 +623,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 28));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 47));
     return ___internal_method;
   }
 };
@@ -364,7 +637,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 29));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 48));
     return ___internal_method;
   }
 };
@@ -378,7 +651,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 30));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 49));
     return ___internal_method;
   }
 };
@@ -392,7 +665,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 31));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 50));
     return ___internal_method;
   }
 };
@@ -406,7 +679,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 32));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 51));
     return ___internal_method;
   }
 };
@@ -415,12 +688,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::Close)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4315394;
+  constexpr static std::size_t addrs = 0x6074f2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 33));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 52));
     return ___internal_method;
   }
 };
@@ -434,7 +707,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 34));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 53));
     return ___internal_method;
   }
 };
@@ -443,12 +716,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::Skip)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4315398;
+  constexpr static std::size_t addrs = 0x6074f30;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 35));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 54));
     return ___internal_method;
   }
 };
@@ -462,7 +735,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 36));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 55));
     return ___internal_method;
   }
 };
@@ -476,7 +749,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 37));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 56));
     return ___internal_method;
   }
 };
@@ -485,12 +758,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_CanResolveEntity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43154a0;
+  constexpr static std::size_t addrs = 0x6075038;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 38));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 57));
     return ___internal_method;
   }
 };
@@ -504,7 +777,37 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 39));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 58));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsBase64
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
+    &::System::Xml::XmlReader::ReadContentAsBase64)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6075040;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 59));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.ReadContentAsBinHex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlReader::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
+    &::System::Xml::XmlReader::ReadContentAsBinHex)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x60750ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 60));
     return ___internal_method;
   }
 };
@@ -513,12 +816,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_CanReadValueChunk)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43154a8;
+  constexpr static std::size_t addrs = 0x6075198;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 40));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 61));
     return ___internal_method;
   }
 };
@@ -527,13 +830,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlReader::ReadValueChunk)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43154b0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x60751a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 41));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 62));
     return ___internal_method;
   }
 };
@@ -541,13 +844,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadString)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x4315508;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x60751f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 42));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 63));
     return ___internal_method;
   }
 };
@@ -555,13 +858,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::MoveToContent)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4315740;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6075414;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 43));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 64));
     return ___internal_method;
   }
 };
@@ -570,12 +873,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadStartElement)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x43157c4;
+  constexpr static std::size_t addrs = 0x6075494;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 44));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 65));
     return ___internal_method;
   }
 };
@@ -583,13 +886,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadElementString)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x43158b8;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x6075588;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 45));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 66));
     return ___internal_method;
   }
 };
@@ -598,12 +901,26 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadEndElement)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4315b34;
+  constexpr static std::size_t addrs = 0x60757d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 46));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 67));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.IsStartElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::IsStartElement)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x60758c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 68));
     return ___internal_method;
   }
 };
@@ -611,13 +928,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)(::StringW, ::StringW)>(&::System::Xml::XmlReader::IsStartElement)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4315c28;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x60758ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 47));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 69));
     return ___internal_method;
   }
 };
@@ -625,13 +942,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::ReadInnerXml)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x4315cac;
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x6075968;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 48));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 70));
     return ___internal_method;
   }
 };
@@ -639,8 +956,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)(::System::Xml::XmlWriter*, bool)>(&::System::Xml::XmlReader::WriteNode)> {
-  constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x43160ac;
+  constexpr static std::size_t size = 0x490;
+  constexpr static std::size_t addrs = 0x6075dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -654,8 +971,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlReader::WriteAttributeValue)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4315fd8;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6075cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -670,7 +987,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlWriter* (::System::Xml::XmlReader::*)(::System::IO::StringWriter*)>(
     &::System::Xml::XmlReader::CreateWriterForInnerOuterXml)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4315f64;
+  constexpr static std::size_t addrs = 0x6075c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -683,8 +1000,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)(::System::Xml::XmlTextWriter*)>(&::System::Xml::XmlReader::SetNamespacesFlag)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x43164f4;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6076314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -698,12 +1015,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_HasAttributes)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43165fc;
+  constexpr static std::size_t addrs = 0x60764ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 49));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 71));
     return ___internal_method;
   }
 };
@@ -712,7 +1029,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::Dispose)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x430e0f8;
+  constexpr static std::size_t addrs = 0x60764d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "Dispose",
@@ -725,12 +1042,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)(bool)>(&::System::Xml::XmlReader::Dispose)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4316620;
+  constexpr static std::size_t addrs = 0x60764e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 50));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 72));
     return ___internal_method;
   }
 };
@@ -740,12 +1057,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNamespaceManager* (::System::Xml::XmlReader::*)()>(
     &::System::Xml::XmlReader::get_NamespaceManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4316664;
+  constexpr static std::size_t addrs = 0x6076528;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 51));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 73));
     return ___internal_method;
   }
 };
@@ -753,8 +1070,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNodeType)>(&::System::Xml::XmlReader::IsTextualNode)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43156dc;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x60753ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -763,12 +1080,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::XmlReader.CanReadContentAs
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNodeType)>(&::System::Xml::XmlReader::CanReadContentAs)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6076530;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CanReadContentAs", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlReader.HasValueInternal
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Xml::XmlNodeType)>(&::System::Xml::XmlReader::HasValueInternal)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x431666c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6076598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -782,7 +1113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::SkipSubtree)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x43153cc;
+  constexpr static std::size_t addrs = 0x6074f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "SkipSubtree",
@@ -790,12 +1121,144 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::XmlReader.CreateReadContentAsException
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::XmlReader::*)(::StringW)>(
+    &::System::Xml::XmlReader::CreateReadContentAsException)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6073510;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadContentAsException", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.CreateReadElementContentAsException
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::XmlReader::*)(::StringW)>(
+    &::System::Xml::XmlReader::CreateReadElementContentAsException)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6076774;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadElementContentAsException",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.CanReadContentAs
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::CanReadContentAs)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x60734a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CanReadContentAs",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.CreateReadContentAsException
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Xml::XmlNodeType, ::System::Xml::IXmlLineInfo*)>(
+    &::System::Xml::XmlReader::CreateReadContentAsException)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6076600;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadContentAsException", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlLineInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.CreateReadElementContentAsException
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Xml::XmlNodeType, ::System::Xml::IXmlLineInfo*)>(
+    &::System::Xml::XmlReader::CreateReadElementContentAsException)> {
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x607681c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadElementContentAsException", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlLineInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.AddLineInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Xml::IXmlLineInfo*)>(&::System::Xml::XmlReader::AddLineInfo)> {
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x6076990;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "AddLineInfo", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlLineInfo*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.InternalReadContentAsString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::InternalReadContentAsString)> {
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x60735b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "InternalReadContentAsString",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.SetupReadElementContentAsXxx
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)(::StringW)>(&::System::Xml::XmlReader::SetupReadElementContentAsXxx)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x60746e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "SetupReadElementContentAsXxx", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlReader.FinishReadElementContentAsXxx
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::FinishReadElementContentAsXxx)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6074834;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
+                                                                               "FinishReadElementContentAsXxx", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlReader.get_IsDefaultInternal
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_IsDefaultInternal)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x43166d0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6076bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "get_IsDefaultInternal",
@@ -808,12 +1271,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IDtdInfo* (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::get_DtdInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43167b0;
+  constexpr static std::size_t addrs = 0x6076c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 52));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -822,8 +1285,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::StringW)>(
     &::System::Xml::XmlReader::Create)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x43167b8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6076ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -839,8 +1302,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::TextReader*, ::System::Xml::XmlReaderSettings*, ::StringW)>(
     &::System::Xml::XmlReader::Create)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43169f0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6076ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -856,8 +1319,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlReader* (*)(::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*)>(&::System::Xml::XmlReader::CreateSqlReader)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x4316b9c;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x6077068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -872,8 +1335,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IO::Stream*)>(&::System::Xml::XmlReader::CalcBufferSize)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4316eb4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6077374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -886,8 +1349,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlReader::*)()>(&::System::Xml::XmlReader::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x430d69c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60774e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), ".ctor",
@@ -993,144 +1456,254 @@ inline ::System::Type* System::Xml::XmlReader::get_ValueType() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
-inline int32_t System::Xml::XmlReader::get_AttributeCount() {
+inline ::System::Object* System::Xml::XmlReader::ReadContentAsObject() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 21)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::XmlReader::GetAttribute(::StringW name) {
+inline bool System::Xml::XmlReader::ReadContentAsBoolean() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 22)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::XmlReader::GetAttribute(::StringW name, ::StringW namespaceURI) {
+inline ::System::DateTime System::Xml::XmlReader::ReadContentAsDateTime() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 23)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name, namespaceURI);
+  return ::cordl_internals::RunMethodRethrow<::System::DateTime, false>(this, ___internal_method);
 }
-inline ::StringW System::Xml::XmlReader::GetAttribute(int32_t i) {
+inline double_t System::Xml::XmlReader::ReadContentAsDouble() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 24)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, i);
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlReader::MoveToAttribute(::StringW name) {
+inline float_t System::Xml::XmlReader::ReadContentAsFloat() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 25)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void System::Xml::XmlReader::MoveToAttribute(int32_t i) {
+inline ::System::Decimal System::Xml::XmlReader::ReadContentAsDecimal() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 26)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
+  return ::cordl_internals::RunMethodRethrow<::System::Decimal, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlReader::MoveToFirstAttribute() {
+inline int32_t System::Xml::XmlReader::ReadContentAsInt() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 27)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlReader::MoveToNextAttribute() {
+inline int64_t System::Xml::XmlReader::ReadContentAsLong() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 28)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlReader::MoveToElement() {
+inline ::StringW System::Xml::XmlReader::ReadContentAsString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 29)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlReader::ReadAttributeValue() {
+inline ::System::Object* System::Xml::XmlReader::ReadContentAs(::System::Type* returnType, ::System::Xml::IXmlNamespaceResolver* namespaceResolver) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 30)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, returnType, namespaceResolver);
 }
-inline bool System::Xml::XmlReader::Read() {
+inline bool System::Xml::XmlReader::ReadElementContentAsBoolean() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool System::Xml::XmlReader::get_EOF() {
+inline ::System::DateTime System::Xml::XmlReader::ReadElementContentAsDateTime() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 32)));
+  return ::cordl_internals::RunMethodRethrow<::System::DateTime, false>(this, ___internal_method);
+}
+inline double_t System::Xml::XmlReader::ReadElementContentAsDouble() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 33)));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
+}
+inline float_t System::Xml::XmlReader::ReadElementContentAsFloat() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 34)));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline ::System::Decimal System::Xml::XmlReader::ReadElementContentAsDecimal() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 35)));
+  return ::cordl_internals::RunMethodRethrow<::System::Decimal, false>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlReader::ReadElementContentAsInt() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 36)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline int64_t System::Xml::XmlReader::ReadElementContentAsLong() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 37)));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlReader::ReadElementContentAsString() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 38)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlReader::get_AttributeCount() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 39)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlReader::GetAttribute(::StringW name) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 40)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name);
+}
+inline ::StringW System::Xml::XmlReader::GetAttribute(::StringW name, ::StringW namespaceURI) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 41)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name, namespaceURI);
+}
+inline ::StringW System::Xml::XmlReader::GetAttribute(int32_t i) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 42)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, i);
+}
+inline bool System::Xml::XmlReader::MoveToAttribute(::StringW name) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 43)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
+}
+inline bool System::Xml::XmlReader::MoveToAttribute(::StringW name, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 44)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name, ns);
+}
+inline void System::Xml::XmlReader::MoveToAttribute(int32_t i) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 45)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
+}
+inline bool System::Xml::XmlReader::MoveToFirstAttribute() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 46)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::MoveToNextAttribute() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 47)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::MoveToElement() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 48)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::ReadAttributeValue() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 49)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::Read() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 50)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::get_EOF() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 51)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::Close() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 52)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Xml::ReadState System::Xml::XmlReader::get_ReadState() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 34)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 53)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::ReadState, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::Skip() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 35)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 54)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlNameTable* System::Xml::XmlReader::get_NameTable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 36)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNameTable*, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XmlReader::LookupNamespace(::StringW prefix) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 37)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 56)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
 }
 inline bool System::Xml::XmlReader::get_CanResolveEntity() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 38)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 57)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::ResolveEntity() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 39)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 58)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline int32_t System::Xml::XmlReader::ReadContentAsBase64(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 59)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, buffer, index, count);
+}
+inline int32_t System::Xml::XmlReader::ReadContentAsBinHex(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t index, int32_t count) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 60)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, buffer, index, count);
 }
 inline bool System::Xml::XmlReader::get_CanReadValueChunk() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 40)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 61)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline int32_t System::Xml::XmlReader::ReadValueChunk(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 41)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 62)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, buffer, index, count);
 }
 inline ::StringW System::Xml::XmlReader::ReadString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 42)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 63)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlNodeType System::Xml::XmlReader::MoveToContent() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 43)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 64)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNodeType, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::ReadStartElement() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 44)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 65)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XmlReader::ReadElementString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 45)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 66)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::ReadEndElement() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 46)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 67)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::IsStartElement() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 68)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Xml::XmlReader::IsStartElement(::StringW localname, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 47)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 69)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, localname, ns);
 }
 inline ::StringW System::Xml::XmlReader::ReadInnerXml() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 48)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 70)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::WriteNode(::System::Xml::XmlWriter* xtw, bool defattr) {
@@ -1160,7 +1733,7 @@ inline void System::Xml::XmlReader::SetNamespacesFlag(::System::Xml::XmlTextWrit
 }
 inline bool System::Xml::XmlReader::get_HasAttributes() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 49)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 71)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlReader::Dispose() {
@@ -1170,17 +1743,23 @@ inline void System::Xml::XmlReader::Dispose() {
 }
 inline void System::Xml::XmlReader::Dispose(bool disposing) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 50)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 inline ::System::Xml::XmlNamespaceManager* System::Xml::XmlReader::get_NamespaceManager() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 51)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 73)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNamespaceManager*, false>(this, ___internal_method);
 }
 inline bool System::Xml::XmlReader::IsTextualNode(::System::Xml::XmlNodeType nodeType) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "IsTextualNode", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, nodeType);
+}
+inline bool System::Xml::XmlReader::CanReadContentAs(::System::Xml::XmlNodeType nodeType) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CanReadContentAs", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, nodeType);
 }
@@ -1195,6 +1774,62 @@ inline bool System::Xml::XmlReader::SkipSubtree() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline ::System::Exception* System::Xml::XmlReader::CreateReadContentAsException(::StringW methodName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadContentAsException", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, methodName);
+}
+inline ::System::Exception* System::Xml::XmlReader::CreateReadElementContentAsException(::StringW methodName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadElementContentAsException",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(this, ___internal_method, methodName);
+}
+inline bool System::Xml::XmlReader::CanReadContentAs() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CanReadContentAs",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Exception* System::Xml::XmlReader::CreateReadContentAsException(::StringW methodName, ::System::Xml::XmlNodeType nodeType, ::System::Xml::IXmlLineInfo* lineInfo) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadContentAsException", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlLineInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, methodName, nodeType, lineInfo);
+}
+inline ::System::Exception* System::Xml::XmlReader::CreateReadElementContentAsException(::StringW methodName, ::System::Xml::XmlNodeType nodeType, ::System::Xml::IXmlLineInfo* lineInfo) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "CreateReadElementContentAsException", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::XmlNodeType>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlLineInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Exception*, false>(nullptr, ___internal_method, methodName, nodeType, lineInfo);
+}
+inline ::StringW System::Xml::XmlReader::AddLineInfo(::StringW message, ::System::Xml::IXmlLineInfo* lineInfo) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "AddLineInfo", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Xml::IXmlLineInfo*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, message, lineInfo);
+}
+inline ::StringW System::Xml::XmlReader::InternalReadContentAsString() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "InternalReadContentAsString",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool System::Xml::XmlReader::SetupReadElementContentAsXxx(::StringW methodName) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "SetupReadElementContentAsXxx", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, methodName);
+}
+inline void System::Xml::XmlReader::FinishReadElementContentAsXxx() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "FinishReadElementContentAsXxx",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline bool System::Xml::XmlReader::get_IsDefaultInternal() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), "get_IsDefaultInternal",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -1202,7 +1837,7 @@ inline bool System::Xml::XmlReader::get_IsDefaultInternal() {
 }
 inline ::System::Xml::IDtdInfo* System::Xml::XmlReader::get_DtdInfo() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 52)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlReader*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::IDtdInfo*, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlReader* System::Xml::XmlReader::Create(::System::IO::Stream* input, ::System::Xml::XmlReaderSettings* settings, ::StringW baseUri) {

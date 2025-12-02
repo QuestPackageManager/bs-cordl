@@ -22,6 +22,9 @@ class BeatmapDataCallbackWrapper;
 namespace GlobalNamespace {
 class MovementBeatmapEventEffect_MovementData;
 }
+namespace GlobalNamespace {
+class TimeHelper;
+}
 namespace UnityEngine {
 class Transform;
 }
@@ -58,10 +61,10 @@ public:
 
   constexpr void __cordl_internal_set__localPositionOffset(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b9ce04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578b5f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_localPositionOffset, addr 0x3b9cdf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPositionOffset, addr 0x578b5e4, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPositionOffset();
 
 protected:
@@ -79,7 +82,7 @@ public:
   MovementBeatmapEventEffect_MovementData(MovementBeatmapEventEffect_MovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5946 };
 
   /// @brief Field _localPositionOffset, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____localPositionOffset;
@@ -105,17 +108,17 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x68, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
   /// @brief Field _beatmapEventType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
 
-  /// @brief Field _currentMovementDataIdx, offset 0x40, size 0x4
+  /// @brief Field _currentMovementDataIdx, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get__currentMovementDataIdx, put = __cordl_internal_set__currentMovementDataIdx)) int32_t _currentMovementDataIdx;
 
-  /// @brief Field _currentPositionOffset, offset 0x44, size 0xc
+  /// @brief Field _currentPositionOffset, offset 0x4c, size 0xc
   __declspec(property(get = __cordl_internal_get__currentPositionOffset, put = __cordl_internal_set__currentPositionOffset)) ::UnityEngine::Vector3 _currentPositionOffset;
 
   /// @brief Field _movementData, offset 0x28, size 0x8
@@ -124,12 +127,15 @@ public:
       put = __cordl_internal_set__movementData)) ::ArrayW<::GlobalNamespace::MovementBeatmapEventEffect_MovementData*, ::Array<::GlobalNamespace::MovementBeatmapEventEffect_MovementData*>*>
       _movementData;
 
-  /// @brief Field _prevPositionOffset, offset 0x50, size 0xc
+  /// @brief Field _prevPositionOffset, offset 0x58, size 0xc
   __declspec(property(get = __cordl_internal_get__prevPositionOffset, put = __cordl_internal_set__prevPositionOffset)) ::UnityEngine::Vector3 _prevPositionOffset;
 
-  /// @brief Field _startLocalPositions, offset 0x60, size 0x8
+  /// @brief Field _startLocalPositions, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__startLocalPositions, put = __cordl_internal_set__startLocalPositions)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>
       _startLocalPositions;
+
+  /// @brief Field _timeHelper, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
 
   /// @brief Field _transforms, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
@@ -138,24 +144,24 @@ public:
   /// @brief Field _transitionSpeed, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__transitionSpeed, put = __cordl_internal_set__transitionSpeed)) float_t _transitionSpeed;
 
-  /// @brief Method FixedUpdate, addr 0x3b9cc1c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x578b434, size 0x130, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b9cdb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x578b5a8, size 0x38, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LateUpdate, addr 0x3b9cd2c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x578b564, size 0x44, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::MovementBeatmapEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9cc00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x578b418, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x3b9cb44, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetLocalPositionOffsetsForAllObjects, addr 0x578b36c, size 0xac, virtual false, abstract: false, final false
   inline void SetLocalPositionOffsetsForAllObjects(::UnityEngine::Vector3 localPositionOffset);
 
-  /// @brief Method Start, addr 0x3b9c940, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x578b170, size 0x1fc, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -191,6 +197,10 @@ public:
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get__startLocalPositions();
 
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
+
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get__transforms() const;
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get__transforms();
@@ -215,11 +225,13 @@ public:
 
   constexpr void __cordl_internal_set__startLocalPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
   constexpr void __cordl_internal_set__transitionSpeed(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b9cdf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578b5e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -237,7 +249,7 @@ public:
   MovementBeatmapEventEffect(MovementBeatmapEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5947 };
 
   /// @brief Field _beatmapEventType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
@@ -254,19 +266,22 @@ public:
   /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
-  /// @brief Field _currentMovementDataIdx, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field _timeHelper, offset: 0x40, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
+  /// @brief Field _currentMovementDataIdx, offset: 0x48, size: 0x4, def value: None
   int32_t ____currentMovementDataIdx;
 
-  /// @brief Field _currentPositionOffset, offset: 0x44, size: 0xc, def value: None
+  /// @brief Field _currentPositionOffset, offset: 0x4c, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____currentPositionOffset;
 
-  /// @brief Field _prevPositionOffset, offset: 0x50, size: 0xc, def value: None
+  /// @brief Field _prevPositionOffset, offset: 0x58, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____prevPositionOffset;
 
-  /// @brief Field _startLocalPositions, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _startLocalPositions, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____startLocalPositions;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x70, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -282,17 +297,19 @@ static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____transf
 
 static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____currentMovementDataIdx) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____timeHelper) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____currentPositionOffset) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____currentMovementDataIdx) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____prevPositionOffset) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____currentPositionOffset) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____startLocalPositions) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____prevPositionOffset) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____beatmapDataCallbackWrapper) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____startLocalPositions) == 0x68, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MovementBeatmapEventEffect, 0x70>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::MovementBeatmapEventEffect, ____beatmapDataCallbackWrapper) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MovementBeatmapEventEffect, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MovementBeatmapEventEffect);

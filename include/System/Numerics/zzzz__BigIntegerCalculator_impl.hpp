@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Add)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x422bc34;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5ed7434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Add)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x422bd0c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5ed7518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,35 +37,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.Add
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
-                                                                                           ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Add)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t, uint32_t*, int32_t)>(
+    &::System::Numerics::BigIntegerCalculator::Add)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x422e158;
+  constexpr static std::size_t addrs = 0x5ed9a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.AddSelf
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t)>(
-    &::System::Numerics::BigIntegerCalculator::AddSelf)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x422e1dc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t)>(&::System::Numerics::BigIntegerCalculator::AddSelf)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ed9ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "AddSelf", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -74,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Subtract)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x422c034;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ed7864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Subtract)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x422c16c;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x5ed79b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,18 +101,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.Subtract
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
-                                                                                           ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Subtract)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t, uint32_t*, int32_t)>(
+    &::System::Numerics::BigIntegerCalculator::Subtract)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x422e250;
+  constexpr static std::size_t addrs = 0x5ed9b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Subtract", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -124,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::BigIntegerCalculator::Compare)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x422c0ec;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5ed7924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Divide)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x422d88c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5ed910c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Remainder)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x422db78;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ed9418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Divide)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x422d938;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5ed91d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Remainder)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x422dbd0;
+  constexpr static std::size_t addrs = 0x5ed9480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,53 +198,49 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.Divide
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
-                                                                                           ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Divide)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x422e344;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t, uint32_t*, int32_t)>(
+    &::System::Numerics::BigIntegerCalculator::Divide)> {
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x5ed9c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Divide", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.AddDivisor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t)>(
-    &::System::Numerics::BigIntegerCalculator::AddDivisor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t*, int32_t, uint32_t*, int32_t)>(&::System::Numerics::BigIntegerCalculator::AddDivisor)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x422e748;
+  constexpr static std::size_t addrs = 0x5eda034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "AddDivisor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.SubtractDivisor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t, uint64_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t*, int32_t, uint32_t*, int32_t, uint64_t)>(
     &::System::Numerics::BigIntegerCalculator::SubtractDivisor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x422e700;
+  constexpr static std::size_t addrs = 0x5ed9fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "SubtractDivisor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
     return ___internal_method;
   }
 };
@@ -257,8 +249,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, uint64_t, uint32_t, uint32_t, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::DivideGuessTooBig)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x422e6b4;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5ed9fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,8 +266,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::BigIntegerCalculator::CreateCopy)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x422e2c8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ed9bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t)>(&::System::Numerics::BigIntegerCalculator::LeadingZeros)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x422e63c;
+  constexpr static std::size_t addrs = 0x5ed9f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,8 +295,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::System::Numerics::BigIntegerCalculator::Square)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x422d590;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5ed8df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,17 +308,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.Square
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t)>(
-    &::System::Numerics::BigIntegerCalculator::Square)> {
-  constexpr static std::size_t size = 0x3a8;
-  constexpr static std::size_t addrs = 0x422e788;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t)>(&::System::Numerics::BigIntegerCalculator::Square)> {
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x5eda074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Square", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -335,8 +325,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, uint32_t)>(
     &::System::Numerics::BigIntegerCalculator::Multiply)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x422d4ac;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5ed8d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,8 +341,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::System::Numerics::BigIntegerCalculator::Multiply)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x422d650;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5ed8ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,36 +355,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.Multiply
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
-                                                                                           ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::Multiply)> {
-  constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x422ebf0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t, uint32_t*, int32_t)>(
+    &::System::Numerics::BigIntegerCalculator::Multiply)> {
+  constexpr static std::size_t size = 0x4b4;
+  constexpr static std::size_t addrs = 0x5eda52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Multiply", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::System::Numerics::BigIntegerCalculator.SubtractCore
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, int32_t, ::cordl_internals::Ptr<uint32_t>, int32_t,
-                                                                                           ::cordl_internals::Ptr<uint32_t>, int32_t)>(&::System::Numerics::BigIntegerCalculator::SubtractCore)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x422eb30;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, int32_t, uint32_t*, int32_t, uint32_t*, int32_t)>(
+    &::System::Numerics::BigIntegerCalculator::SubtractCore)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5eda460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "SubtractCore", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -437,22 +425,19 @@ inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalcul
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(nullptr, ___internal_method, left, right);
 }
-inline void System::Numerics::BigIntegerCalculator::Add(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength,
-                                                        ::cordl_internals::Ptr<uint32_t> bits, int32_t bitsLength) {
+inline void System::Numerics::BigIntegerCalculator::Add(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Add", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, left, leftLength, right, rightLength, bits, bitsLength);
 }
-inline void System::Numerics::BigIntegerCalculator::AddSelf(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength) {
+inline void System::Numerics::BigIntegerCalculator::AddSelf(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "AddSelf", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, left, leftLength, right, rightLength);
 }
 inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalculator::Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> left, uint32_t right) {
@@ -469,14 +454,12 @@ inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalcul
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(nullptr, ___internal_method, left, right);
 }
-inline void System::Numerics::BigIntegerCalculator::Subtract(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength,
-                                                             ::cordl_internals::Ptr<uint32_t> bits, int32_t bitsLength) {
+inline void System::Numerics::BigIntegerCalculator::Subtract(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Subtract", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, left, leftLength, right, rightLength, bits, bitsLength);
 }
 inline int32_t System::Numerics::BigIntegerCalculator::Compare(::ArrayW<uint32_t, ::Array<uint32_t>*> left, ::ArrayW<uint32_t, ::Array<uint32_t>*> right) {
@@ -514,32 +497,27 @@ inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalcul
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(nullptr, ___internal_method, left, right);
 }
-inline void System::Numerics::BigIntegerCalculator::Divide(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength,
-                                                           ::cordl_internals::Ptr<uint32_t> bits, int32_t bitsLength) {
+inline void System::Numerics::BigIntegerCalculator::Divide(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Divide", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, left, leftLength, right, rightLength, bits, bitsLength);
 }
-inline uint32_t System::Numerics::BigIntegerCalculator::AddDivisor(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength) {
+inline uint32_t System::Numerics::BigIntegerCalculator::AddDivisor(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "AddDivisor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, left, leftLength, right, rightLength);
 }
-inline uint32_t System::Numerics::BigIntegerCalculator::SubtractDivisor(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength,
-                                                                        uint64_t q) {
+inline uint32_t System::Numerics::BigIntegerCalculator::SubtractDivisor(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint64_t q) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "SubtractDivisor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, left, leftLength, right, rightLength, q);
 }
 inline bool System::Numerics::BigIntegerCalculator::DivideGuessTooBig(uint64_t q, uint64_t valHi, uint32_t valLo, uint32_t divHi, uint32_t divLo) {
@@ -568,12 +546,11 @@ inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalcul
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(nullptr, ___internal_method, value);
 }
-inline void System::Numerics::BigIntegerCalculator::Square(::cordl_internals::Ptr<uint32_t> value, int32_t valueLength, ::cordl_internals::Ptr<uint32_t> bits, int32_t bitsLength) {
+inline void System::Numerics::BigIntegerCalculator::Square(uint32_t* value, int32_t valueLength, uint32_t* bits, int32_t bitsLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Square", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value, valueLength, bits, bitsLength);
 }
 inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalculator::Multiply(::ArrayW<uint32_t, ::Array<uint32_t>*> left, uint32_t right) {
@@ -590,24 +567,20 @@ inline ::ArrayW<uint32_t, ::Array<uint32_t>*> System::Numerics::BigIntegerCalcul
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(nullptr, ___internal_method, left, right);
 }
-inline void System::Numerics::BigIntegerCalculator::Multiply(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength,
-                                                             ::cordl_internals::Ptr<uint32_t> bits, int32_t bitsLength) {
+inline void System::Numerics::BigIntegerCalculator::Multiply(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* bits, int32_t bitsLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "Multiply", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, left, leftLength, right, rightLength, bits, bitsLength);
 }
-inline void System::Numerics::BigIntegerCalculator::SubtractCore(::cordl_internals::Ptr<uint32_t> left, int32_t leftLength, ::cordl_internals::Ptr<uint32_t> right, int32_t rightLength,
-                                                                 ::cordl_internals::Ptr<uint32_t> core, int32_t coreLength) {
+inline void System::Numerics::BigIntegerCalculator::SubtractCore(uint32_t* left, int32_t leftLength, uint32_t* right, int32_t rightLength, uint32_t* core, int32_t coreLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::BigIntegerCalculator*>::get(), "SubtractCore", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, left, leftLength, right, rightLength, core, coreLength);
 }
 // Ctor Parameters []

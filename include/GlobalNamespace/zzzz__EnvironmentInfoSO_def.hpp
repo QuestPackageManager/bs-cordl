@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EnvironmentType_def.hpp"
-#include "GlobalNamespace/zzzz__IEnvironmentInfo_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -29,10 +28,10 @@ namespace GlobalNamespace {
 struct EnvironmentType;
 }
 namespace GlobalNamespace {
-class IEnvironmentLightGroups;
+class IEnvironmentInfo;
 }
 namespace GlobalNamespace {
-class SceneInfo;
+class IEnvironmentLightGroups;
 }
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
@@ -92,7 +91,7 @@ public:
   static ::GlobalNamespace::EnvironmentInfoSO_Tags const InDevelopment;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14802 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -108,7 +107,7 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO_Tags, value__) == 0x
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentInfoSO_Tags, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies EnvironmentInfoSO::Tags, EnvironmentType, IEnvironmentInfo, PersistentScriptableObject
+// Dependencies EnvironmentInfoSO::Tags, EnvironmentType, PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: EnvironmentInfoSO
@@ -120,38 +119,35 @@ public:
   /// @brief Field _colorScheme, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__colorScheme, put = __cordl_internal_set__colorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> _colorScheme;
 
-  /// @brief Field _defaultLightshowAsset, offset 0x60, size 0x8
+  /// @brief Field _defaultLightshowAsset, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__defaultLightshowAsset, put = __cordl_internal_set__defaultLightshowAsset)) ::UnityW<::UnityEngine::TextAsset> _defaultLightshowAsset;
 
-  /// @brief Field _environmentIntensityReductionOptions, offset 0x48, size 0x8
+  /// @brief Field _environmentIntensityReductionOptions, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentIntensityReductionOptions,
                       put = __cordl_internal_set__environmentIntensityReductionOptions)) ::GlobalNamespace::EnvironmentIntensityReductionOptions* _environmentIntensityReductionOptions;
 
-  /// @brief Field _environmentKeywords, offset 0x50, size 0x8
+  /// @brief Field _environmentKeywords, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentKeywords, put = __cordl_internal_set__environmentKeywords)) ::System::Collections::Generic::List_1<::StringW>* _environmentKeywords;
 
   /// @brief Field _environmentName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentName, put = __cordl_internal_set__environmentName)) ::StringW _environmentName;
 
-  /// @brief Field _environmentSizeData, offset 0x40, size 0x8
+  /// @brief Field _environmentSizeData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__environmentSizeData, put = __cordl_internal_set__environmentSizeData)) ::GlobalNamespace::EnvironmentSizeData* _environmentSizeData;
 
-  /// @brief Field _environmentType, offset 0x3c, size 0x4
+  /// @brief Field _environmentType, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentType, put = __cordl_internal_set__environmentType)) ::GlobalNamespace::EnvironmentType _environmentType;
 
-  /// @brief Field _lightGroups, offset 0x58, size 0x8
+  /// @brief Field _lightGroups, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__lightGroups, put = __cordl_internal_set__lightGroups)) ::GlobalNamespace::EnvironmentLightGroups* _lightGroups;
 
-  /// @brief Field _order, offset 0x68, size 0x4
+  /// @brief Field _order, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__order, put = __cordl_internal_set__order)) int32_t _order;
 
-  /// @brief Field _sceneInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneInfo, put = __cordl_internal_set__sceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _sceneInfo;
-
-  /// @brief Field _serializedName, offset 0x30, size 0x8
+  /// @brief Field _serializedName, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__serializedName, put = __cordl_internal_set__serializedName)) ::StringW _serializedName;
 
-  /// @brief Field _tags, offset 0x38, size 0x4
+  /// @brief Field _tags, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__tags, put = __cordl_internal_set__tags)) ::GlobalNamespace::EnvironmentInfoSO_Tags _tags;
 
   __declspec(property(get = get_colorScheme)) ::UnityW<::GlobalNamespace::ColorSchemeSO> colorScheme;
@@ -166,6 +162,8 @@ public:
 
   __declspec(property(get = get_environmentName)) ::StringW environmentName;
 
+  __declspec(property(get = get_environmentSceneName)) ::StringW environmentSceneName;
+
   __declspec(property(get = get_environmentSizeData)) ::GlobalNamespace::EnvironmentSizeData* environmentSizeData;
 
   __declspec(property(get = get_environmentType)) ::GlobalNamespace::EnvironmentType environmentType;
@@ -175,8 +173,6 @@ public:
   __declspec(property(get = get_isInDevelopment)) bool isInDevelopment;
 
   __declspec(property(get = get_order)) int32_t order;
-
-  __declspec(property(get = get_sceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> sceneInfo;
 
   __declspec(property(get = get_serializedName)) ::StringW serializedName;
 
@@ -221,10 +217,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get__order();
 
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__sceneInfo() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__sceneInfo();
-
   constexpr ::StringW const& __cordl_internal_get__serializedName() const;
 
   constexpr ::StringW& __cordl_internal_get__serializedName();
@@ -251,52 +243,50 @@ public:
 
   constexpr void __cordl_internal_set__order(int32_t value);
 
-  constexpr void __cordl_internal_set__sceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
   constexpr void __cordl_internal_set__serializedName(::StringW value);
 
   constexpr void __cordl_internal_set__tags(::GlobalNamespace::EnvironmentInfoSO_Tags value);
 
-  /// @brief Method .ctor, addr 0x26af780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e0cbc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_colorScheme, addr 0x26af720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorScheme, addr 0x35e0c54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ColorSchemeSO> get_colorScheme();
 
-  /// @brief Method get_defaultLightshowAsset, addr 0x26af758, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_defaultLightshowAsset, addr 0x35e0c94, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::TextAsset> get_defaultLightshowAsset();
 
-  /// @brief Method get_environmentIntensityReductionOptions, addr 0x26af740, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentIntensityReductionOptions, addr 0x35e0c7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentIntensityReductionOptions* get_environmentIntensityReductionOptions();
 
-  /// @brief Method get_environmentKeywords, addr 0x26af748, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_environmentKeywords, addr 0x35e0c84, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_environmentKeywords();
 
-  /// @brief Method get_environmentLightGroups, addr 0x26af750, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_environmentLightGroups, addr 0x35e0c8c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IEnvironmentLightGroups* get_environmentLightGroups();
 
-  /// @brief Method get_environmentName, addr 0x26af718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentName, addr 0x35e0c4c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_environmentName();
 
-  /// @brief Method get_environmentSizeData, addr 0x26af738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentSceneName, addr 0x35e0c64, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_environmentSceneName();
+
+  /// @brief Method get_environmentSizeData, addr 0x35e0c74, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentSizeData* get_environmentSizeData();
 
-  /// @brief Method get_environmentType, addr 0x26af730, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentType, addr 0x35e0c6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentType get_environmentType();
 
-  /// @brief Method get_isBranded, addr 0x26af768, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isBranded, addr 0x35e0ca4, size 0xc, virtual false, abstract: false, final false
   inline bool get_isBranded();
 
-  /// @brief Method get_isInDevelopment, addr 0x26af774, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isInDevelopment, addr 0x35e0cb0, size 0xc, virtual false, abstract: false, final false
   inline bool get_isInDevelopment();
 
-  /// @brief Method get_order, addr 0x26af760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_order, addr 0x35e0c9c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_order();
 
-  /// @brief Method get_sceneInfo, addr 0x26af710, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::SceneInfo> get_sceneInfo();
-
-  /// @brief Method get_serializedName, addr 0x26af728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedName, addr 0x35e0c5c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_serializedName();
 
   /// @brief Convert to "::GlobalNamespace::IEnvironmentInfo"
@@ -317,7 +307,10 @@ public:
   EnvironmentInfoSO(EnvironmentInfoSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14803 };
+
+  /// @brief Field kEnvironmentScenesSuffix offset 0xffffffff size 0x8
+  static constexpr ::ConstString kEnvironmentScenesSuffix{ u"Environment" };
 
   /// @brief Field kLightGroupSubDir offset 0xffffffff size 0x8
   static constexpr ::ConstString kLightGroupSubDir{ u"LightGroups" };
@@ -328,34 +321,31 @@ public:
   /// @brief Field _colorScheme, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSchemeSO> ____colorScheme;
 
-  /// @brief Field _sceneInfo, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SceneInfo> ____sceneInfo;
-
-  /// @brief Field _serializedName, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _serializedName, offset: 0x28, size: 0x8, def value: None
   ::StringW ____serializedName;
 
-  /// @brief Field _tags, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _tags, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentInfoSO_Tags ____tags;
 
-  /// @brief Field _environmentType, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _environmentType, offset: 0x34, size: 0x4, def value: None
   ::GlobalNamespace::EnvironmentType ____environmentType;
 
-  /// @brief Field _environmentSizeData, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _environmentSizeData, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentSizeData* ____environmentSizeData;
 
-  /// @brief Field _environmentIntensityReductionOptions, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _environmentIntensityReductionOptions, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentIntensityReductionOptions* ____environmentIntensityReductionOptions;
 
-  /// @brief Field _environmentKeywords, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _environmentKeywords, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____environmentKeywords;
 
-  /// @brief Field _lightGroups, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _lightGroups, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::EnvironmentLightGroups* ____lightGroups;
 
-  /// @brief Field _defaultLightshowAsset, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _defaultLightshowAsset, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::TextAsset> ____defaultLightshowAsset;
 
-  /// @brief Field _order, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field _order, offset: 0x60, size: 0x4, def value: None
   int32_t ____order;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -365,27 +355,25 @@ static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentName
 
 static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____colorScheme) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____sceneInfo) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____serializedName) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____serializedName) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____tags) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____tags) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentType) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentType) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentSizeData) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentSizeData) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentIntensityReductionOptions) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentIntensityReductionOptions) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentKeywords) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____environmentKeywords) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____lightGroups) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____lightGroups) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____defaultLightshowAsset) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____defaultLightshowAsset) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____order) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EnvironmentInfoSO, ____order) == 0x68, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentInfoSO, 0x70>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentInfoSO, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EnvironmentInfoSO_Tags, "", "EnvironmentInfoSO/Tags");

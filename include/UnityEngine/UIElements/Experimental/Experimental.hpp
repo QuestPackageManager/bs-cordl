@@ -4,6 +4,9 @@ module;
 
 #pragma once
 #include "UnityEngine/UIElements/Experimental/Easing.hpp"
+#include "UnityEngine/UIElements/Experimental/EventDebuggerLogCall.hpp"
+#include "UnityEngine/UIElements/Experimental/EventDebuggerLogExecuteDefaultAction.hpp"
+#include "UnityEngine/UIElements/Experimental/EventDebuggerLogIMGUICall.hpp"
 #include "UnityEngine/UIElements/Experimental/ITransitionAnimations.hpp"
 #include "UnityEngine/UIElements/Experimental/IValueAnimationUpdate.hpp"
 #include "UnityEngine/UIElements/Experimental/Lerp.hpp"

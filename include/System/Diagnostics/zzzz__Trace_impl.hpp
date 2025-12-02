@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceListenerCollection* (*)()>(&::System::Diagnostics::Trace::get_Listeners)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x442b79c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x617a6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Trace*>::get(), "get_Listeners",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Diagnostics::Trace::get_AutoFlush)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x442ba2c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x617a9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Trace*>::get(), "get_AutoFlush",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::CorrelationManager* (*)()>(&::System::Diagnostics::Trace::get_CorrelationManager)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x442bad8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x617aa7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Trace*>::get(), "get_CorrelationManager",

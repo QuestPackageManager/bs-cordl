@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 CORDL_MODULE_EXPORT(IPointerMoveHandler)
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
@@ -14,7 +16,7 @@ class IPointerMoveHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::IPointerMoveHandler);
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler
+// Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: UnityEngine.EventSystems.IPointerMoveHandler
@@ -35,7 +37,7 @@ public:
   IPointerMoveHandler(IPointerMoveHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

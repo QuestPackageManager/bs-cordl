@@ -22,7 +22,7 @@ public:
   // Declarations
   __declspec(property(get = get_Percent)) float_t Percent;
 
-  /// @brief Method get_Percent, addr 0x47a4b28, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_Percent, addr 0x6707030, size 0x38, virtual false, abstract: false, final false
   inline float_t get_Percent();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr DownloadStatus(int64_t TotalBytes, int64_t DownloadedBytes, bool IsDone) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18773 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

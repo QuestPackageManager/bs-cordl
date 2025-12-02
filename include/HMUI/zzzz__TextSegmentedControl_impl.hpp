@@ -1,8 +1,10 @@
 #pragma once
 // IWYU pragma private; include "HMUI/TextSegmentedControl.hpp"
 #include "HMUI/zzzz__SegmentedControl_impl.hpp"
+#include "TMPro/zzzz__TextOverflowModes_impl.hpp"
 #include "HMUI/zzzz__TextSegmentedControl_def.hpp"
 #include "HMUI/zzzz__SegmentedControlCell_def.hpp"
+#include "HMUI/zzzz__SegmentedControl_def.hpp"
 #include "HMUI/zzzz__TextSegmentedControlCell_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
@@ -12,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControl::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>*, ::System::Collections::Generic::HashSet_1<int32_t>*)>(&::HMUI::TextSegmentedControl::SetTexts)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x408af3c;
+  constexpr static std::size_t addrs = 0x5d3aadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::NumberOfCells)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x408af54;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5d3aaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), "NumberOfCells",
@@ -40,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::SegmentedControlCell> (::HMUI::TextSegmentedControl::*)(int32_t)>(
     &::HMUI::TextSegmentedControl::CellForCellNumber)> {
-  constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x408b000;
+  constexpr static std::size_t size = 0x3c4;
+  constexpr static std::size_t addrs = 0x5d3aba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSegmentedControl::*)()>(&::HMUI::TextSegmentedControl::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x408b390;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5d3b09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSegmentedControl*>::get(), ".ctor",
@@ -134,6 +136,30 @@ constexpr bool const& HMUI::TextSegmentedControl::__cordl_internal_get__hideCell
 constexpr void HMUI::TextSegmentedControl::__cordl_internal_set__hideCellBackground(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____hideCellBackground = value;
+}
+constexpr bool& HMUI::TextSegmentedControl::__cordl_internal_get__enableWordWrapping() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enableWordWrapping;
+}
+constexpr bool const& HMUI::TextSegmentedControl::__cordl_internal_get__enableWordWrapping() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____enableWordWrapping;
+}
+constexpr void HMUI::TextSegmentedControl::__cordl_internal_set__enableWordWrapping(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____enableWordWrapping = value;
+}
+constexpr ::TMPro::TextOverflowModes& HMUI::TextSegmentedControl::__cordl_internal_get__textOverflowMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____textOverflowMode;
+}
+constexpr ::TMPro::TextOverflowModes const& HMUI::TextSegmentedControl::__cordl_internal_get__textOverflowMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____textOverflowMode;
+}
+constexpr void HMUI::TextSegmentedControl::__cordl_internal_set__textOverflowMode(::TMPro::TextOverflowModes value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____textOverflowMode = value;
 }
 constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& HMUI::TextSegmentedControl::__cordl_internal_get__firstCellPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

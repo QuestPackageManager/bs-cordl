@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::FloatField_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4995360;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b0c73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_UxmlFactory*>::get(),
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::FloatField_UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49953a8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6b0c7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_UxmlTraits*>::get(),
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FloatField* (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::get_parentFloatField)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49953f0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6b0c7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x499517c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b0c544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
@@ -89,14 +89,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)()>(
     &::UnityEngine::UIElements::FloatField_FloatInput::get_allowedCharacters)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4995470;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6b0c86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 104));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 138));
     return ___internal_method;
   }
 };
@@ -105,14 +105,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField_FloatInput::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(&::UnityEngine::UIElements::FloatField_FloatInput::ApplyInputDeviceDelta)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x49954c8;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x6b0c8c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 105));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 139));
     return ___internal_method;
   }
 };
@@ -121,14 +121,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FloatField_FloatInput::*)(float_t)>(
     &::UnityEngine::UIElements::FloatField_FloatInput::ValueToString)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4995674;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6b0cb3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 106));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 140));
     return ___internal_method;
   }
 };
@@ -137,14 +137,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::FloatField_FloatInput::*)(::StringW)>(
     &::UnityEngine::UIElements::FloatField_FloatInput::StringToValue)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49956c0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6b0cb98;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 100));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 136));
     return ___internal_method;
   }
 };
@@ -160,22 +160,22 @@ inline void UnityEngine::UIElements::FloatField_FloatInput::_ctor() {
 }
 inline ::StringW UnityEngine::UIElements::FloatField_FloatInput::get_allowedCharacters() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 104)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 138)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::FloatField_FloatInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 105)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 139)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 inline ::StringW UnityEngine::UIElements::FloatField_FloatInput::ValueToString(float_t v) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 106)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 140)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
 inline float_t UnityEngine::UIElements::FloatField_FloatInput::StringToValue(::StringW str) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 100)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField_FloatInput*>::get(), 136)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, str);
 }
 inline ::UnityEngine::UIElements::FloatField_FloatInput* UnityEngine::UIElements::FloatField_FloatInput::New_ctor() {
@@ -188,8 +188,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FloatField_FloatInput* (::UnityEngine::UIElements::FloatField::*)()>(
     &::UnityEngine::UIElements::FloatField::get_floatInput)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4994e08;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6b0c188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), "get_floatInput",
@@ -202,13 +202,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FloatField::*)(float_t)>(
     &::UnityEngine::UIElements::FloatField::ValueToString)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4994e8c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b0c218;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 118));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 155));
     return ___internal_method;
   }
 };
@@ -217,13 +217,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::FloatField::*)(::StringW)>(
     &::UnityEngine::UIElements::FloatField::StringToValue)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4994f44;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6b0c2d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 119));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 156));
     return ___internal_method;
   }
 };
@@ -232,7 +232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField::*)()>(&::UnityEngine::UIElements::FloatField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4995020;
+  constexpr static std::size_t addrs = 0x6b0c3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), ".ctor",
@@ -244,8 +244,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(::StringW, int32_t)>(&::UnityEngine::UIElements::FloatField::_ctor)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x499502c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x6b0c3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,12 +259,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::FloatField::*)(::StringW)>(&::UnityEngine::UIElements::FloatField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4995210;
+  constexpr static std::size_t addrs = 0x6b0c5e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 128));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 165));
     return ___internal_method;
   }
 };
@@ -274,12 +274,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FloatField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(&::UnityEngine::UIElements::FloatField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4995234;
+  constexpr static std::size_t addrs = 0x6b0c604;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 127));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 164));
     return ___internal_method;
   }
 };
@@ -310,12 +310,12 @@ inline ::UnityEngine::UIElements::FloatField_FloatInput* UnityEngine::UIElements
 }
 inline ::StringW UnityEngine::UIElements::FloatField::ValueToString(float_t v) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 118)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 155)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
 inline float_t UnityEngine::UIElements::FloatField::StringToValue(::StringW str) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 119)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 156)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, str);
 }
 inline void UnityEngine::UIElements::FloatField::_ctor() {
@@ -331,12 +331,12 @@ inline void UnityEngine::UIElements::FloatField::_ctor(::StringW label, int32_t 
 }
 inline bool UnityEngine::UIElements::FloatField::CanTryParse(::StringW textString) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 128)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 165)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, textString);
 }
 inline void UnityEngine::UIElements::FloatField::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 127)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FloatField*>::get(), 164)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 inline ::UnityEngine::UIElements::FloatField* UnityEngine::UIElements::FloatField::New_ctor() {

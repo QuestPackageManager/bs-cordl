@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::DisconnectedReasonMethods::LocalizedKey)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26dc050;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x360dfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::DisconnectedReason)>(&::GlobalNamespace::DisconnectedReasonMethods::ErrorCode)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26dc0f8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x360e0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

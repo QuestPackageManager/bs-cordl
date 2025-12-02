@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -23,6 +22,9 @@ template <typename T> class HashSet_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Diagnostics {
+class Stopwatch;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -55,7 +57,7 @@ template <typename T> struct AddressablesAsyncInstaller_1__LoadResourcesBeforeIn
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1);
 MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__2);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
@@ -82,20 +84,21 @@ public:
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: None }, CppParam {
-  // name: "registry", ty: "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
+  // name: "registry", ty: "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*", modifiers: "", def_value: None }, CppParam { name: "container", ty: "::Zenject::DiContainer*",
+  // modifiers: "", def_value: None }, CppParam { name: "_stopWatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*>", modifiers: "", def_value: None }]
   constexpr AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__2(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<T> __4__this,
-      ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry,
+      ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container, ::System::Diagnostics::Stopwatch* _stopWatch_5__2,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1,
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21348 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -109,10 +112,16 @@ public:
   /// @brief Field registry, offset: 0x28, size: 0x8, def value: None
   ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field container, offset: 0x30, size: 0x8, def value: None
+  ::Zenject::DiContainer* container;
+
+  /// @brief Field <stopWatch>5__2, offset: 0x38, size: 0x8, def value: None
+  ::System::Diagnostics::Stopwatch* _stopWatch_5__2;
+
+  /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x48, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -130,12 +139,14 @@ public:
   // Declarations
   using _LoadResourcesBeforeInstallAsync_d__2 = ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__2<T>;
 
-  /// @brief Field _handle, offset 0x28, size 0x20
+  /// @brief Field _handle, offset 0x28, size 0x18
   __declspec(property(get = __cordl_internal_get__handle,
                       put = __cordl_internal_set__handle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>
       _handle;
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
+
+  __declspec(property(get = get_telemetryEventName)) ::StringW telemetryEventName;
 
   /// @brief Method GetLocations, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* GetLocations(::StringW runtimeKey);
@@ -150,7 +161,7 @@ public:
   inline void LoadResourcesBeforeInstall(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* _);
 
   /// @brief Method LoadResourcesBeforeInstallAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* _);
+  inline ::System::Threading::Tasks::Task* LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry, ::Zenject::DiContainer* container);
 
   static inline ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>* New_ctor();
 
@@ -169,6 +180,9 @@ public:
   /// @brief Method get_assetLabelRuntimeKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
+  /// @brief Method get_telemetryEventName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_telemetryEventName();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -184,9 +198,9 @@ public:
   AddressablesAsyncInstaller_1(AddressablesAsyncInstaller_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21349 };
 
-  /// @brief Field _handle, offset: 0x28, size: 0x20, def value: None
+  /// @brief Field _handle, offset: 0x28, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*> ____handle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

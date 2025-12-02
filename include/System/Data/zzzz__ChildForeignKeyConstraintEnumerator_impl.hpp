@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ChildForeignKeyConstraintEnumerator::*)(::System::Data::DataSet*, ::System::Data::DataTable*)>(
     &::System::Data::ChildForeignKeyConstraintEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4159180;
+  constexpr static std::size_t addrs = 0x5e03d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ChildForeignKeyConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ChildForeignKeyConstraintEnumerator::IsValidCandidate)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x41591a4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5e03db8;
 
   inline static ::MethodInfo const* methodInfo() {
 

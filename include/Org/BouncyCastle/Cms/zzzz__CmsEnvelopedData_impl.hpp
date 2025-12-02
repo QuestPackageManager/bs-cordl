@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26542b8;
+  constexpr static std::size_t addrs = 0x35838f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2654420;
+  constexpr static std::size_t addrs = 0x3583a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)(::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::_ctor)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x26542dc;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x3583918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::get_EncryptionAlgorithmID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2654444;
+  constexpr static std::size_t addrs = 0x3583a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedData*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::get_EncryptionAlgOid)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x265444c;
+  constexpr static std::size_t addrs = 0x3583a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedData*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::RecipientInformationStore* (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::GetRecipientInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2654478;
+  constexpr static std::size_t addrs = 0x3583aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedData*>::get(),
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::ContentInfo* (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::get_ContentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2654480;
+  constexpr static std::size_t addrs = 0x3583aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedData*>::get(),
@@ -114,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::GetUnprotectedAttributes)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2654488;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3583ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedData*>::get(),
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CmsEnvelopedData::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedData::GetEncoded)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26544f4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x3583b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedData*>::get(), "GetEncoded",

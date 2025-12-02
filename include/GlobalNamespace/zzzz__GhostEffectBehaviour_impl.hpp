@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::GlobalNamespace::GhostEffectBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3b34a50;
+  constexpr static std::size_t addrs = 0x5716294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::GhostEffectBehaviour::ProcessFrame)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3b34cf4;
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x5716538;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)(bool)>(&::GlobalNamespace::GhostEffectBehaviour::EnableObjects)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3b34be0;
+  constexpr static std::size_t addrs = 0x5716424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectBehaviour::*)()>(&::GlobalNamespace::GhostEffectBehaviour::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b35124;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57169b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostEffectBehaviour*>::get(), ".ctor",

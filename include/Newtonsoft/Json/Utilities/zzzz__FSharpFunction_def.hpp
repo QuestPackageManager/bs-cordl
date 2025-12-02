@@ -30,7 +30,7 @@ public:
   /// @brief Field _invoker, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__invoker, put = __cordl_internal_set__invoker)) ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* _invoker;
 
-  /// @brief Method Invoke, addr 0x3ecb264, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5b12a90, size 0x2c, virtual false, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Newtonsoft::Json::Utilities::FSharpFunction* New_ctor(::System::Object* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__invoker(::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* value);
 
-  /// @brief Method .ctor, addr 0x3ecb238, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b12a88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* instance, ::Newtonsoft::Json::Utilities::MethodCall_2<::System::Object*, ::System::Object*>* invoker);
 
 protected:
@@ -65,7 +65,7 @@ public:
   FSharpFunction(FSharpFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13388 };
 
   /// @brief Field _instance, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____instance;

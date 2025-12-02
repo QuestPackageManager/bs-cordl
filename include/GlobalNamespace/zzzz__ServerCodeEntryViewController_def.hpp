@@ -52,24 +52,24 @@ public:
   /// @brief Field didFinishEvent, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<bool, ::StringW>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3b6df7c, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5758e08, size 0x1ec, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b6e120, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5758ff4, size 0x28, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleCancelButtonPressed, addr 0x3b6e1ec, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleCancelButtonPressed, addr 0x57590b0, size 0x24, virtual false, abstract: false, final false
   inline void HandleCancelButtonPressed();
 
-  /// @brief Method HandleInputFieldChanged, addr 0x3b6e150, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleInputFieldChanged, addr 0x575901c, size 0x38, virtual false, abstract: false, final false
   inline void HandleInputFieldChanged(::HMUI::InputFieldView* obj);
 
-  /// @brief Method HandleJoinButtonPressed, addr 0x3b6e1b0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleJoinButtonPressed, addr 0x575907c, size 0x34, virtual false, abstract: false, final false
   inline void HandleJoinButtonPressed();
 
   static inline ::GlobalNamespace::ServerCodeEntryViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b6e188, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5759054, size 0x28, virtual true, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelButton() const;
@@ -108,13 +108,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3b6e210, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57590d4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b6de1c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5758c88, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b6decc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5758d48, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::StringW>* value);
 
 protected:
@@ -132,7 +132,7 @@ public:
   ServerCodeEntryViewController(ServerCodeEntryViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6977 };
 
   /// @brief Field _uiKeyboard, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::UIKeyboard> ____uiKeyboard;

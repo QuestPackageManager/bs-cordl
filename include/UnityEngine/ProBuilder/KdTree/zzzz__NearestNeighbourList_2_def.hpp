@@ -4,9 +4,11 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__INearestNeighbourList_2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NearestNeighbourList_2)
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TItem, typename TDistance> class INearestNeighbourList_2;
+}
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
 }
@@ -19,7 +21,7 @@ template <typename TItem, typename TDistance> class NearestNeighbourList_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::NearestNeighbourList_2);
-// Dependencies System.Object, UnityEngine.ProBuilder.KdTree.INearestNeighbourList`2<TItem, TDistance>
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TItem, typename TDistance>
@@ -108,7 +110,7 @@ public:
   NearestNeighbourList_2(NearestNeighbourList_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22343 };
 
   /// @brief Field queue, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::ProBuilder::KdTree::PriorityQueue_2<TItem, TDistance>* ___queue;

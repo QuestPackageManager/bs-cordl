@@ -35,7 +35,7 @@ public:
   ISurrogateSelector(ISurrogateSelector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3204 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

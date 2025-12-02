@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::IntPtr)>(
     &::System::Runtime::InteropServices::GCHandle::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1583c;
+  constexpr static std::size_t addrs = 0x59568bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*)>(
     &::System::Runtime::InteropServices::GCHandle::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d15844;
+  constexpr static std::size_t addrs = 0x59568c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*, ::System::Runtime::InteropServices::GCHandleType)>(&::System::Runtime::InteropServices::GCHandle::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d15868;
+  constexpr static std::size_t addrs = 0x59568e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,11 +57,54 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::InteropServices::GCHandle::*)()>(
     &::System::Runtime::InteropServices::GCHandle::get_IsAllocated)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d15898;
+  constexpr static std::size_t addrs = 0x5956918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(),
                                                                                "get_IsAllocated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::InteropServices::GCHandle.GetRef
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::GetRef)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5956928;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "GetRef", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::InteropServices::GCHandle.SetRef
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::Object*)>(&::System::Runtime::InteropServices::GCHandle::SetRef)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5956930;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "SetRef", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Runtime::InteropServices::GCHandle.CanDereferenceHandle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::CanDereferenceHandle)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5956938;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "CanDereferenceHandle",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -70,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::InteropServices::GCHandle::*)()>(
     &::System::Runtime::InteropServices::GCHandle::get_Target)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d158a8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5956944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(),
@@ -84,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*)>(
     &::System::Runtime::InteropServices::GCHandle::set_Target)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d1591c;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x59569ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::System::Runtime::InteropServices::GCHandle::*)()>(
     &::System::Runtime::InteropServices::GCHandle::AddrOfPinnedObject)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3d15944;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x59569e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(),
@@ -114,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::Object*)>(
     &::System::Runtime::InteropServices::GCHandle::Alloc)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d15a28;
+  constexpr static std::size_t addrs = 0x5956a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::Object*, ::System::Runtime::InteropServices::GCHandleType)>(&::System::Runtime::InteropServices::GCHandle::Alloc)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d15a34;
+  constexpr static std::size_t addrs = 0x5956a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +186,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::InteropServices::GCHandle::*)()>(&::System::Runtime::InteropServices::GCHandle::Free)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3d15a48;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5956aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "Free",
@@ -158,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Runtime::InteropServices::GCHandle)>(
     &::System::Runtime::InteropServices::GCHandle::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15aec;
+  constexpr static std::size_t addrs = 0x5956b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -172,8 +215,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::IntPtr)>(
     &::System::Runtime::InteropServices::GCHandle::op_Explicit___System__Runtime__InteropServices__GCHandle)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3d15af0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5956b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,8 +229,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::CheckCurrentDomain)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15b9c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5956b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +244,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::GetTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15918;
+  constexpr static std::size_t addrs = 0x59569a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Object*, ::System::IntPtr, ::System::Runtime::InteropServices::GCHandleType)>(
     &::System::Runtime::InteropServices::GCHandle::GetTargetHandle)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15894;
+  constexpr static std::size_t addrs = 0x5956914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +275,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::FreeHandle)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15ae8;
+  constexpr static std::size_t addrs = 0x5956b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::System::Runtime::InteropServices::GCHandle::GetAddrOfPinnedObject)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15a24;
+  constexpr static std::size_t addrs = 0x5956a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Runtime::InteropServices::GCHandle, ::System::Runtime::InteropServices::GCHandle)>(
     &::System::Runtime::InteropServices::GCHandle::op_Equality)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d15ba0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5956b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -276,8 +319,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::InteropServices::GCHandle::*)(::System::Object*)>(
     &::System::Runtime::InteropServices::GCHandle::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d15ba8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5956b90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -292,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::InteropServices::GCHandle::*)()>(
     &::System::Runtime::InteropServices::GCHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d15c28;
+  constexpr static std::size_t addrs = 0x5956c0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::InteropServices::GCHandle (*)(::System::IntPtr)>(
     &::System::Runtime::InteropServices::GCHandle::FromIntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15c30;
+  constexpr static std::size_t addrs = 0x5956c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Runtime::InteropServices::GCHandle)>(
     &::System::Runtime::InteropServices::GCHandle::ToIntPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d15c34;
+  constexpr static std::size_t addrs = 0x5956c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,6 +397,25 @@ inline bool System::Runtime::InteropServices::GCHandle::get_IsAllocated() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(),
                                                                              "get_IsAllocated", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Object* System::Runtime::InteropServices::GCHandle::GetRef(::System::IntPtr handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "GetRef", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(nullptr, ___internal_method, handle);
+}
+inline void System::Runtime::InteropServices::GCHandle::SetRef(::System::IntPtr handle, ::System::Object* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "SetRef", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, value);
+}
+inline bool System::Runtime::InteropServices::GCHandle::CanDereferenceHandle(::System::IntPtr handle) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "CanDereferenceHandle",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, handle);
 }
 inline ::System::Object* System::Runtime::InteropServices::GCHandle::get_Target() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::InteropServices::GCHandle>::get(), "get_Target",

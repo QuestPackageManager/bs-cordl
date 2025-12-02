@@ -10,13 +10,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(
     &::BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x229be5c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31e1a04;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 11));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 12));
     return ___internal_method;
   }
 };
@@ -26,13 +26,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)(
     ::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
     &::BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall)> {
-  constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x229be9c;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x31e1a48;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x229c1f0;
+  constexpr static std::size_t addrs = 0x31e1d70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::FeatureAsyncInstaller::*)()>(&::BGLib::AppFlow::FeatureAsyncInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x229c1f4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31e1d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), ".ctor",
@@ -65,13 +65,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 };
 inline ::StringW BGLib::AppFlow::FeatureAsyncInstaller::get_assetLabelRuntimeKey() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 11)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void BGLib::AppFlow::FeatureAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::Zenject::ScriptableObjectInstaller>>* scriptableObjectInstallers,
                                                                               ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::FeatureAsyncInstaller*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scriptableObjectInstallers, registry);
 }
 inline void BGLib::AppFlow::FeatureAsyncInstaller::InstallBindings() {

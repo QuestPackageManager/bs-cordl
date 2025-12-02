@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::*)(
     float_t, int32_t, ::System::Collections::Generic::List_1<::BeatmapSaveDataVersion3::LightRotationEventBox*>*)>(&::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x27098b8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3634df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion3::LightRotationEventBoxGroup* (
     ::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::*)(::System::Nullable_1<float_t>, ::System::Nullable_1<int32_t>)>(&::BeatmapSaveDataVersion3::LightRotationEventBoxGroup::CopyWith)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2709928;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x3634e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

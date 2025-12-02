@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardIdsModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*)>(&::GlobalNamespace::LeaderboardIdsModel::_ctor)> {
-  constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x2700e68;
+  constexpr static std::size_t size = 0x5e4;
+  constexpr static std::size_t addrs = 0x362caf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LeaderboardIdsModel::*)(::ByRef<::GlobalNamespace::BeatmapKey>, ::ByRef<::StringW>)>(
     &::GlobalNamespace::LeaderboardIdsModel::TryGetPlatformLeaderboardId)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x270145c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x362d0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

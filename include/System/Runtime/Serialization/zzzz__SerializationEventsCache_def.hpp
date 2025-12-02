@@ -45,10 +45,10 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationEventsCache___c* New_ctor();
 
-  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x3cf48a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <GetSerializationEventsForType>b__1_0, addr 0x593662c, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Runtime::Serialization::SerializationEvents* _GetSerializationEventsForType_b__1_0(::System::Type* type);
 
-  /// @brief Method .ctor, addr 0x3cf48a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5936628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Serialization::SerializationEventsCache___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   SerializationEventsCache___c(SerializationEventsCache___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3208 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3225 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,7 +95,7 @@ public:
   __declspec(property(get = getStaticF_s_cache,
                       put = setStaticF_s_cache)) ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* s_cache;
 
-  /// @brief Method GetSerializationEventsForType, addr 0x3cf4688, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetSerializationEventsForType, addr 0x5936400, size 0x144, virtual false, abstract: false, final false
   static inline ::System::Runtime::Serialization::SerializationEvents* GetSerializationEventsForType(::System::Type* t);
 
   static inline ::System::Collections::Concurrent::ConcurrentDictionary_2<::System::Type*, ::System::Runtime::Serialization::SerializationEvents*>* getStaticF_s_cache();
@@ -117,7 +117,7 @@ public:
   SerializationEventsCache(SerializationEventsCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3209 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3226 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

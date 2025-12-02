@@ -21,6 +21,9 @@ class RectIntPropertyBag_XProperty;
 namespace Unity::Properties::Internal {
 class RectIntPropertyBag_YProperty;
 }
+namespace UnityEngine {
+struct RectInt;
+}
 // Forward declare root types
 namespace Unity::Properties::Internal {
 class RectIntPropertyBag;
@@ -50,14 +53,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE RectIntPropertyBag_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::RectInt, int32_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697fe84, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetValue(::ByRef<::UnityEngine::RectInt> container);
 
   static inline ::Unity::Properties::Internal::RectIntPropertyBag_XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916e28, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697fe8c, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value);
+
+  /// @brief Method .ctor, addr 0x697fd48, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916f48, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697fe7c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697fe38, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -75,7 +89,7 @@ public:
   RectIntPropertyBag_XProperty(RectIntPropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,14 +104,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE RectIntPropertyBag_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::RectInt, int32_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697fee0, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetValue(::ByRef<::UnityEngine::RectInt> container);
 
   static inline ::Unity::Properties::Internal::RectIntPropertyBag_YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916e70, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697fee8, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value);
+
+  /// @brief Method .ctor, addr 0x697fd84, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916f88, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697fed8, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697fe94, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -115,7 +140,7 @@ public:
   RectIntPropertyBag_YProperty(RectIntPropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,14 +155,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE RectIntPropertyBag_WidthProperty : public ::Unity::Properties::Property_2<::UnityEngine::RectInt, int32_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697ff3c, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetValue(::ByRef<::UnityEngine::RectInt> container);
 
   static inline ::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916eb8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697ff44, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value);
+
+  /// @brief Method .ctor, addr 0x697fdc0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916fc8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697ff34, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697fef0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -155,7 +191,7 @@ public:
   RectIntPropertyBag_WidthProperty(RectIntPropertyBag_WidthProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19436 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -170,14 +206,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE RectIntPropertyBag_HeightProperty : public ::Unity::Properties::Property_2<::UnityEngine::RectInt, int32_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697ff98, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetValue(::ByRef<::UnityEngine::RectInt> container);
 
   static inline ::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916f00, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697ffa0, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value);
+
+  /// @brief Method .ctor, addr 0x697fdfc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4917008, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697ff90, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697ff4c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -195,7 +242,7 @@ public:
   RectIntPropertyBag_HeightProperty(RectIntPropertyBag_HeightProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19437 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -220,7 +267,7 @@ public:
 
   static inline ::Unity::Properties::Internal::RectIntPropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4915dd8, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x697ea30, size 0x204, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -238,7 +285,7 @@ public:
   RectIntPropertyBag(RectIntPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

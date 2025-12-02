@@ -1,9 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlNamedNodeMap.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNamedNodeMap_def.hpp"
@@ -14,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)(::System::Object*)>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x434295c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x60aab1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)()>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::get_Current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x434298c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x60aab2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)()>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43429d8;
+  constexpr static std::size_t addrs = 0x60aab74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::*)()>(
     &::System::Xml::SmallXmlNodeList_XmlNamedNodeMap_SingleObjectEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43429f4;
+  constexpr static std::size_t addrs = 0x60aab90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)()>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::get_Count)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4341ef0;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x609c17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNamedNodeMap_SmallXmlNodeList>::get(),
@@ -149,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(int32_t)>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::get_Item)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4341bd8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x609bf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(::System::Object*)>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::Add)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4342218;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x60aa758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(int32_t)>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::RemoveAt)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4342544;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x60aa888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)(int32_t, ::System::Object*)>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::Insert)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x43427bc;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x60aa978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::*)()>(
     &::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::GetEnumerator)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4341f9c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x60aa664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNamedNodeMap_SmallXmlNodeList>::get(),
@@ -262,8 +261,8 @@ constexpr ::System::Xml::XmlNamedNodeMap_SmallXmlNodeList::XmlNamedNodeMap_Small
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*)>(&::System::Xml::XmlNamedNodeMap::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4341a34;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x609bf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,8 +276,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::StringW)>(
     &::System::Xml::XmlNamedNodeMap::GetNamedItem)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4341a5c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x60aa3c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -293,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlNamedNodeMap::SetNamedItem)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4341cb4;
+  constexpr static std::size_t addrs = 0x60aa54c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -307,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap::*)()>(&::System::Xml::XmlNamedNodeMap::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4341ee8;
+  constexpr static std::size_t addrs = 0x609ceac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -322,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNamedNodeMap::*)()>(
     &::System::Xml::XmlNamedNodeMap::GetEnumerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4341f94;
+  constexpr static std::size_t addrs = 0x60aa65c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,8 +334,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap::*)(::StringW)>(&::System::Xml::XmlNamedNodeMap::FindNodeOffset)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4341af4;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x60aa46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlNamedNodeMap::*)(::StringW, ::StringW)>(&::System::Xml::XmlNamedNodeMap::FindNodeOffset)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4341d70;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x609c63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,8 +363,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*)>(
     &::System::Xml::XmlNamedNodeMap::AddNode)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4342094;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x609d098;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -379,8 +378,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(::System::Xml::XmlNode*, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlNamedNodeMap::AddNodeForLoad)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4342334;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x609caac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -394,8 +393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(int32_t)>(
     &::System::Xml::XmlNamedNodeMap::RemoveNodeAt)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x43423dc;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x609c7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -410,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(int32_t, ::System::Xml::XmlNode*)>(
     &::System::Xml::XmlNamedNodeMap::ReplaceNodeAt)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4341e94;
+  constexpr static std::size_t addrs = 0x60aa608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -425,8 +424,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNamedNodeMap::*)(int32_t, ::System::Xml::XmlNode*)>(
     &::System::Xml::XmlNamedNodeMap::InsertNodeAt)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x4342624;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x609d2e0;
 
   inline static ::MethodInfo const* methodInfo() {
 

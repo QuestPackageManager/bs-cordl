@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlayerDataFileModel.hpp"
+#include "GlobalNamespace/zzzz__StoragePreference_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataFileModel_def.hpp"
@@ -21,59 +21,122 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Version_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::*)()>(
-    &::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x26f8578;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::*)()>(
+    &::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::MoveNext)> {
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x3623ea0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13>::get(),
-                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26f886c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x362426c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13>::get(),
-                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline void GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "fileStorage", ty: "::GlobalNamespace::IFileStorage*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::PlayerDataFileModel__LoadAsStringAsync_d__35(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::GlobalNamespace::IFileStorage* fileStorage,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->fileStorage = fileStorage;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsStringAsync_d__35::PlayerDataFileModel__LoadAsStringAsync_d__35() {}
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::*)()>(
+    &::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::MoveNext)> {
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x36242ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21>::get(),
+                                                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x3624588;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21>::get(),
+                                                                             "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::GlobalNamespace::PlayerDataFileModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "",
 // def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::PlayerDataFileModel__LoadAsync_d__13(
+constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::PlayerDataFileModel__LoadAsync_d__21(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::PlayerData*> __t__builder, ::GlobalNamespace::PlayerDataFileModel* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -82,15 +145,55 @@ constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::PlayerDataFil
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__13::PlayerDataFileModel__LoadAsync_d__13() {}
+constexpr ::GlobalNamespace::PlayerDataFileModel__LoadAsync_d__21::PlayerDataFileModel__LoadAsync_d__21() {}
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel.get_PlayerDataFileName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::GlobalNamespace::PlayerDataFileModel::get_PlayerDataFileName)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x361fd50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(),
+                                                                               "get_PlayerDataFileName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel.set_PlayerDataFileName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::PlayerDataFileModel::set_PlayerDataFileName)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x361fdac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "set_PlayerDataFileName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel.Init
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::PlayerDataFileModel::Init)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x361fe3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "Init",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel::*)(
     ::GlobalNamespace::PlayerDataFileManagerSO*, ::GlobalNamespace::IFileStorage*, ::GlobalNamespace::BeatmapCharacteristicCollection*, ::GlobalNamespace::ColorSchemesSettings*,
     ::GlobalNamespace::EnvironmentsListModel*)>(&::GlobalNamespace::PlayerDataFileModel::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x26f4428;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x361feb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,8 +211,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerDataFileModel::Save)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26f4478;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x361fec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerDataFileModel::SaveAsync)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26f54dc;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x3620e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSaveData* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerData*)>(
     &::GlobalNamespace::PlayerDataFileModel::GetPlayerSaveData)> {
-  constexpr static std::size_t size = 0xff0;
-  constexpr static std::size_t addrs = 0x26f44ec;
+  constexpr static std::size_t size = 0xe78;
+  constexpr static std::size_t addrs = 0x3620010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,8 +256,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::Load)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26f58b8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3621244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "Load",
@@ -167,8 +270,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::PlayerData*>* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::LoadAsync)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x26f5938;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x36213f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "LoadAsync",
@@ -182,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadOrCreateFromJsonString)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26f5914;
+  constexpr static std::size_t addrs = 0x36213d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,8 +299,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadFromJSONString)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x26f5a1c;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x36214d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,8 +314,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerSaveData*)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadFromCurrentVersion)> {
-  constexpr static std::size_t size = 0x1070;
-  constexpr static std::size_t addrs = 0x26f6748;
+  constexpr static std::size_t size = 0xeec;
+  constexpr static std::size_t addrs = 0x362210c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,8 +329,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)(::GlobalNamespace::PlayerSaveDataV1_0_1*)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadFromVersionV1_0_1)> {
-  constexpr static std::size_t size = 0xab8;
-  constexpr static std::size_t addrs = 0x26f5c90;
+  constexpr static std::size_t size = 0x998;
+  constexpr static std::size_t addrs = 0x3621774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::CreateDefaultPlayerData)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26f5bd8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x36216ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(),
@@ -256,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::GlobalNamespace::BeatmapCharacteristicSO*)>(
     &::GlobalNamespace::PlayerDataFileModel::GetLevelIdFromV_1_0_1LevelId)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26f842c;
+  constexpr static std::size_t addrs = 0x3623bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +375,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (*)(
     ::GlobalNamespace::BeatmapCharacteristicCollection*, ::StringW)>(&::GlobalNamespace::PlayerDataFileModel::GetBeatmapCharacteristicFromV_1_0_1LevelId)> {
   constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x26f8090;
+  constexpr static std::size_t addrs = 0x362381c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,8 +390,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OverrideEnvironmentSettings* (::GlobalNamespace::PlayerDataFileModel::*)()>(
     &::GlobalNamespace::PlayerDataFileModel::CreateDefaultOverrideEnvironmentSettings)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x26f7a9c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x36231ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -302,8 +405,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::PlayerDataFileModel::*)(::StringW)>(
     &::GlobalNamespace::PlayerDataFileModel::GetEnvironmentInfoBySerializedName)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26f8494;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x3623c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,8 +420,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlayerDataFileModel::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::PlayerDataFileModel::LoadCorrectedSongPackMask)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26f7b5c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3623264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -333,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorSchemesSettings_ColorOverrideType (::GlobalNamespace::PlayerDataFileModel::*)(
     ::GlobalNamespace::PlayerSaveData_ColorOverrideType)>(&::GlobalNamespace::PlayerDataFileModel::ColorOverrideTypeFromSaveData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f7a90;
+  constexpr static std::size_t addrs = 0x36231a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,12 +451,54 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSaveData_ColorOverrideType (::GlobalNamespace::PlayerDataFileModel::*)(
     ::GlobalNamespace::ColorSchemesSettings_ColorOverrideType)>(&::GlobalNamespace::PlayerDataFileModel::ColorOverrideTypeToSaveData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f57e0;
+  constexpr static std::size_t addrs = 0x36211b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "ColorOverrideTypeToSaveData", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSchemesSettings_ColorOverrideType>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel.LoadAsString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::IFileStorage*)>(&::GlobalNamespace::PlayerDataFileModel::LoadAsString)> {
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x36212ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "LoadAsString", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IFileStorage*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel.LoadAsStringAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (*)(::GlobalNamespace::IFileStorage*)>(
+    &::GlobalNamespace::PlayerDataFileModel::LoadAsStringAsync)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3623c50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "LoadAsStringAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IFileStorage*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataFileModel.WipePlayerDataFiles
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::PlayerDataFileModel::WipePlayerDataFiles)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3623d2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(),
+                                                                               "WipePlayerDataFiles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -417,6 +562,13 @@ constexpr void GlobalNamespace::PlayerDataFileModel::__cordl_internal_set__envir
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentsListModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+inline void GlobalNamespace::PlayerDataFileModel::setStaticF__playerDataFileName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "_playerDataFileName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get>(
+      std::forward<::StringW>(value));
+}
+inline ::StringW GlobalNamespace::PlayerDataFileModel::getStaticF__playerDataFileName() {
+  return ::cordl_internals::getStaticField<::StringW, "_playerDataFileName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get>();
+}
 inline void GlobalNamespace::PlayerDataFileModel::setStaticF__eulaUpdateVersion(::System::Version* value) {
   ::cordl_internals::setStaticField<::System::Version*, "_eulaUpdateVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get>(
       std::forward<::System::Version*>(value));
@@ -431,6 +583,22 @@ inline void GlobalNamespace::PlayerDataFileModel::setStaticF__lastVersionWithout
 inline ::System::Version* GlobalNamespace::PlayerDataFileModel::getStaticF__lastVersionWithoutArcsOptions() {
   return ::cordl_internals::getStaticField<::System::Version*, "_lastVersionWithoutArcsOptions",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get>();
+}
+inline ::StringW GlobalNamespace::PlayerDataFileModel::get_PlayerDataFileName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(),
+                                                                             "get_PlayerDataFileName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
+}
+inline void GlobalNamespace::PlayerDataFileModel::set_PlayerDataFileName(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "set_PlayerDataFileName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline void GlobalNamespace::PlayerDataFileModel::Init() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "Init",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::PlayerDataFileModel::_ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager, ::GlobalNamespace::IFileStorage* fileStorage,
                                                         ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
@@ -546,6 +714,23 @@ inline ::GlobalNamespace::PlayerSaveData_ColorOverrideType GlobalNamespace::Play
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorSchemesSettings_ColorOverrideType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::PlayerSaveData_ColorOverrideType, false>(this, ___internal_method, c);
 }
+inline ::StringW GlobalNamespace::PlayerDataFileModel::LoadAsString(::GlobalNamespace::IFileStorage* fileStorage) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "LoadAsString", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IFileStorage*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, fileStorage);
+}
+inline ::System::Threading::Tasks::Task_1<::StringW>* GlobalNamespace::PlayerDataFileModel::LoadAsStringAsync(::GlobalNamespace::IFileStorage* fileStorage) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(), "LoadAsStringAsync", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IFileStorage*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::StringW>*, false>(nullptr, ___internal_method, fileStorage);
+}
+inline void GlobalNamespace::PlayerDataFileModel::WipePlayerDataFiles() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataFileModel*>::get(),
+                                                                             "WipePlayerDataFiles", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
 inline ::GlobalNamespace::PlayerDataFileModel* GlobalNamespace::PlayerDataFileModel::New_ctor(::GlobalNamespace::PlayerDataFileManagerSO* playerDataFileManager,
                                                                                               ::GlobalNamespace::IFileStorage* fileStorage,
                                                                                               ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
@@ -556,3 +741,6 @@ inline ::GlobalNamespace::PlayerDataFileModel* GlobalNamespace::PlayerDataFileMo
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PlayerDataFileModel::PlayerDataFileModel() {}
+constexpr ::GlobalNamespace::StoragePreference GlobalNamespace::PlayerDataFileModel::kStorageLoadPreference{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::StoragePreference GlobalNamespace::PlayerDataFileModel::kOverrideStoragePreference{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::StoragePreference GlobalNamespace::PlayerDataFileModel::kStorageSavePreference{ static_cast<int32_t>(0x0) };

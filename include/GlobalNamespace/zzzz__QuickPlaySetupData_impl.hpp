@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPackName::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d78c8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x360990c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_LocalizedCustomPack::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26d78d0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x3609910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack::*)()>(
     &::GlobalNamespace::QuickPlaySongPacksOverride_QuickPlaySetupData_PredefinedPack::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d7950;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3609984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride::*)()>(
     &::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26d7804;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x3609850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,8 +245,8 @@ constexpr ::GlobalNamespace::QuickPlaySetupData_QuickPlaySongPacksOverride::Quic
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::QuickPlaySetupData::*)()>(&::GlobalNamespace::QuickPlaySetupData::get_hasOverride)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26d7774;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x36097b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupData*>::get(), "get_hasOverride",
@@ -258,8 +258,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupData::*)()>(&::GlobalNamespace::QuickPlaySetupData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d77fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x360984c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupData*>::get(), ".ctor",

@@ -31,13 +31,13 @@ namespace System::Runtime::Serialization::Formatters::Binary {
 class CORDL_TYPE IOUtil : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FlagTest, addr 0x3cffcac, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method FlagTest, addr 0x5940eb8, size 0xc, virtual false, abstract: false, final false
   static inline bool FlagTest(::System::Runtime::Serialization::Formatters::Binary::MessageEnum flag, ::System::Runtime::Serialization::Formatters::Binary::MessageEnum target);
 
-  /// @brief Method WriteStringWithCode, addr 0x3cffcb8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method WriteStringWithCode, addr 0x5940ec4, size 0x7c, virtual false, abstract: false, final false
   static inline void WriteStringWithCode(::StringW value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
-  /// @brief Method WriteWithCode, addr 0x3cffd2c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method WriteWithCode, addr 0x5940f40, size 0x120, virtual false, abstract: false, final false
   static inline void WriteWithCode(::System::Type* type, ::System::Object* value, ::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
 protected:
@@ -55,7 +55,7 @@ public:
   IOUtil(IOUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

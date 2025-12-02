@@ -28,6 +28,7 @@ public:
     __E_FlexEnd = static_cast<int32_t>(0x2),
     __E_SpaceBetween = static_cast<int32_t>(0x3),
     __E_SpaceAround = static_cast<int32_t>(0x4),
+    __E_SpaceEvenly = static_cast<int32_t>(0x5),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -62,8 +63,11 @@ public:
   /// @brief Field SpaceBetween value: I32(3)
   static ::UnityEngine::UIElements::Justify const SpaceBetween;
 
+  /// @brief Field SpaceEvenly value: I32(5)
+  static ::UnityEngine::UIElements::Justify const SpaceEvenly;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5010 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

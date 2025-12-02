@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/INestedSite.hpp"
-#include "System/ComponentModel/zzzz__ISite_impl.hpp"
-#include "System/zzzz__IServiceProvider_impl.hpp"
 #include "System/ComponentModel/zzzz__INestedSite_def.hpp"
+#include "System/ComponentModel/zzzz__ISite_def.hpp"
+#include "System/zzzz__IServiceProvider_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::INestedSite.get_FullName
 template <>
 

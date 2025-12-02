@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializableMapping::*)(
     ::System::Xml::Serialization::XmlRootAttribute*, ::StringW, ::StringW, ::System::Xml::Serialization::TypeData*, ::StringW, ::StringW)>(
     &::System::Xml::Serialization::XmlSerializableMapping::_ctor)> {
-  constexpr static std::size_t size = 0x75c;
-  constexpr static std::size_t addrs = 0x43908c0;
+  constexpr static std::size_t size = 0x780;
+  constexpr static std::size_t addrs = 0x60f7214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

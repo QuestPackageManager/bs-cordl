@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNmtoken)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x43552f8;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x60bc6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNmtokenNoNamespaces)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x43553c0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x60bc798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNameNoNamespaces)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x43554a4;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x60bc878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Xml::ValidateNames::IsNameNoNamespaces)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43555fc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x60bc9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Xml::ValidateNames::ParseNCName)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x435567c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x60bca5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::System::Xml::ValidateNames::ParseNCName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4355798;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x60bcb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,8 +92,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t, ::ByRef<int32_t>)>(&::System::Xml::ValidateNames::ParseQName)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43557f0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x60bcbf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Xml::ValidateNames::ParseQNameThrow)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x43558cc;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x60bccdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,8 +122,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, int32_t, int32_t)>(&::System::Xml::ValidateNames::ThrowInvalidName)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x43559d8;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x60bcdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, int32_t, int32_t)>(&::System::Xml::ValidateNames::GetInvalidNameException)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4355d7c;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x60bcfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,8 +152,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::System::Xml::ValidateNames::SplitQName)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4355f3c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x60bd184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMockPlayerScoreCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(DeterministicHitChanceScoreCalculator)
+namespace GlobalNamespace {
+class IMockPlayerScoreCalculator;
+}
 namespace GlobalNamespace {
 class MockNoteData;
 }
@@ -17,7 +19,7 @@ class DeterministicHitChanceScoreCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DeterministicHitChanceScoreCalculator);
-// Dependencies IMockPlayerScoreCalculator, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: DeterministicHitChanceScoreCalculator
@@ -33,7 +35,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMockPlayerScoreCalculator"
   constexpr operator ::GlobalNamespace::IMockPlayerScoreCalculator*() noexcept;
 
-  /// @brief Method GetScoreForNote, addr 0x3bc68f8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method GetScoreForNote, addr 0x57b7d48, size 0x30, virtual true, abstract: false, final true
   inline int32_t GetScoreForNote(::GlobalNamespace::MockNoteData* noteData);
 
   static inline ::GlobalNamespace::DeterministicHitChanceScoreCalculator* New_ctor(float_t hitChance);
@@ -50,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__hitChance(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bc68d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57b7d40, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t hitChance);
 
   /// @brief Convert to "::GlobalNamespace::IMockPlayerScoreCalculator"
@@ -71,7 +73,7 @@ public:
   DeterministicHitChanceScoreCalculator(DeterministicHitChanceScoreCalculator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6115 };
 
   /// @brief Field kScorePerHit offset 0xffffffff size 0x4
   static constexpr int32_t kScorePerHit{ static_cast<int32_t>(0x69) };

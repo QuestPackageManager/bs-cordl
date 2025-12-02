@@ -1,21 +1,21 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ColorHueSlider.hpp"
 #include "HMUI/zzzz__CircleSlider_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorHueSlider_def.hpp"
 #include "GlobalNamespace/zzzz__ColorChangeUIEventType_def.hpp"
 #include "HMUI/zzzz__CircleSlider_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ColorHueSlider.add_colorHueDidChangeEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::add_colorHueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c25644;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5817244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(
     ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::ColorHueSlider::remove_colorHueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3c256f8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5817304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c257ac;
+  constexpr static std::size_t addrs = 0x58173c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::OnDestroy)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c2583c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5817454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::UpdateVisuals)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c258cc;
+  constexpr static std::size_t addrs = 0x58174d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(::HMUI::CircleSlider*, float_t)>(
     &::GlobalNamespace::ColorHueSlider::HandleNormalizedValueDidChange)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c25974;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5817580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::ColorHueSlider::OnPointerUp)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3c25998;
+  constexpr static std::size_t addrs = 0x58175a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorHueSlider::*)()>(&::GlobalNamespace::ColorHueSlider::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c259d8;
+  constexpr static std::size_t addrs = 0x58175e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorHueSlider*>::get(), ".ctor",

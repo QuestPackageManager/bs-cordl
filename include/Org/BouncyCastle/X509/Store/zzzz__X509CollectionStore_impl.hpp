@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509CollectionStore.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CollectionStore_def.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CollectionStore._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CollectionStore::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStore::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25eb804;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x351b49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (
     ::Org::BouncyCastle::X509::Store::X509CollectionStore::*)(::Org::BouncyCastle::X509::Store::IX509Selector*)>(&::Org::BouncyCastle::X509::Store::X509CollectionStore::GetMatches)> {
-  constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x25eb878;
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x351b508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

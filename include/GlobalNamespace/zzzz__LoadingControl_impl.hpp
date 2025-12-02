@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::System::Action*)>(
     &::GlobalNamespace::LoadingControl::add_didPressRefreshButtonEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bff5a4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57f3b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::System::Action*)>(
     &::GlobalNamespace::LoadingControl::remove_didPressRefreshButtonEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bff640;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57f3bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::get_isLoading)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bff6dc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57f3ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "get_isLoading",
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::Awake)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3bff6f8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x57f3cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "Awake",
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::OnDestroy)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bff7b8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57f3d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "OnDestroy",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW)>(&::GlobalNamespace::LoadingControl::ShowLoading)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3bff7d4;
+  constexpr static std::size_t addrs = 0x57f3d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW, bool)>(&::GlobalNamespace::LoadingControl::ShowText)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bff860;
+  constexpr static std::size_t addrs = 0x57f3e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)(::StringW, float_t)>(
     &::GlobalNamespace::LoadingControl::ShowDownloadingProgress)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3bff910;
+  constexpr static std::size_t addrs = 0x57f3ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::Hide)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bff9bc;
+  constexpr static std::size_t addrs = 0x57f3f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "Hide",
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bff9e0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57f3fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), ".ctor",
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LoadingControl::*)()>(&::GlobalNamespace::LoadingControl::_Awake_b__14_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bff9e8;
+  constexpr static std::size_t addrs = 0x57f3fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LoadingControl*>::get(), "<Awake>b__14_0",

@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidPassJumpThreeQuartersEvent_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -13,6 +10,15 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(ColorNoteVisuals)
 namespace GlobalNamespace {
 class ColorManager;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidPassJumpThreeQuartersEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
 class MaterialPropertyBlockController;
@@ -32,7 +38,7 @@ class ColorNoteVisuals;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorNoteVisuals);
-// Dependencies INoteControllerDidInitEvent, INoteControllerNoteDidPassJumpThreeQuartersEvent, INoteControllerNoteDidStartDissolvingEvent, UnityEngine.Color, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ColorNoteVisuals
@@ -87,21 +93,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x3ae89c4, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56c4894, size 0x1dc, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x3ae8db4, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x56c4ca0, size 0x178, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x3ae8f2c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidPassJumpThreeQuarters, addr 0x56c4e18, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidPassJumpThreeQuarters(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x3ae8f4c, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x56c4e38, size 0x20, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   static inline ::GlobalNamespace::ColorNoteVisuals* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ae8b94, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56c4a70, size 0x230, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::MeshRenderer>, ::Array<::UnityW<::UnityEngine::MeshRenderer>>*> const& __cordl_internal_get__arrowMeshRenderers() const;
@@ -155,10 +161,10 @@ public:
 
   constexpr void __cordl_internal_set_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
-  /// @brief Method .ctor, addr 0x3ae8f6c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c4e58, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInitEvent, addr 0x3ae8794, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didInitEvent, addr 0x56c464c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline int32_t getStaticF__colorId();
@@ -172,15 +178,15 @@ public:
   /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
-  /// @brief Method remove_didInitEvent, addr 0x3ae8844, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didInitEvent, addr 0x56c470c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>* value);
 
   static inline void setStaticF__colorId(int32_t value);
 
-  /// @brief Method set_showArrow, addr 0x3ae88f4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_showArrow, addr 0x56c47cc, size 0x64, virtual false, abstract: false, final false
   inline void set_showArrow(bool value);
 
-  /// @brief Method set_showCircle, addr 0x3ae895c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_showCircle, addr 0x56c4830, size 0x64, virtual false, abstract: false, final false
   inline void set_showCircle(bool value);
 
 protected:
@@ -198,7 +204,7 @@ public:
   ColorNoteVisuals(ColorNoteVisuals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5659 };
 
   /// @brief Field _defaultColorAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____defaultColorAlpha;

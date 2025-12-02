@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -13,6 +12,9 @@ class FixedPointPreCompInfo;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class FixedPointUtilities_FixedPointCallback;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
@@ -36,7 +38,7 @@ class FixedPointUtilities_FixedPointCallback;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities);
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities_FixedPointCallback);
-// Dependencies Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.FixedPointUtilities/FixedPointCallback
@@ -49,15 +51,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback*() noexcept;
 
-  /// @brief Method CheckExisting, addr 0x24b89a8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method CheckExisting, addr 0x33e7b28, size 0x38, virtual false, abstract: false, final false
   inline bool CheckExisting(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* existingFP, int32_t n);
 
-  /// @brief Method CheckTable, addr 0x24b89e0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method CheckTable, addr 0x33e7b60, size 0xbc, virtual false, abstract: false, final false
   inline bool CheckTable(::Org::BouncyCastle::Math::EC::ECLookupTable* table, int32_t n);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities_FixedPointCallback* New_ctor(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method Precompute, addr 0x24b8570, size 0x438, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x33e76f0, size 0x438, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr ::Org::BouncyCastle::Math::EC::ECPoint* const& __cordl_internal_get_m_p() const;
@@ -66,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_m_p(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x24b84e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e767c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -112,18 +114,18 @@ public:
   /// @brief Field PRECOMP_NAME, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PRECOMP_NAME, put = setStaticF_PRECOMP_NAME)) ::StringW PRECOMP_NAME;
 
-  /// @brief Method GetCombSize, addr 0x24b82b4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetCombSize, addr 0x33e745c, size 0x4c, virtual false, abstract: false, final false
   static inline int32_t GetCombSize(::Org::BouncyCastle::Math::EC::ECCurve* c);
 
-  /// @brief Method GetFixedPointPreCompInfo, addr 0x24b8468, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetFixedPointPreCompInfo, addr 0x33e7600, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* GetFixedPointPreCompInfo(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* preCompInfo);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointUtilities* New_ctor();
 
-  /// @brief Method Precompute, addr 0x24b8300, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Precompute, addr 0x33e74a8, size 0x114, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method .ctor, addr 0x24b8568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e76ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_PRECOMP_NAME();

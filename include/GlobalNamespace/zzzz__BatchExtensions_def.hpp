@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BatchExtensions)
@@ -24,7 +19,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -39,8 +40,7 @@ template <typename T> class BatchExtensions__Batch_d__0_1;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BatchExtensions);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BatchExtensions__Batch_d__0_1);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -202,7 +202,7 @@ public:
   BatchExtensions__Batch_d__0_1(BatchExtensions__Batch_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18070 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -260,7 +260,7 @@ public:
   BatchExtensions(BatchExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

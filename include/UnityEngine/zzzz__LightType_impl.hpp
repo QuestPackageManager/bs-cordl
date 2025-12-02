@@ -13,3 +13,6 @@ constexpr ::UnityEngine::LightType UnityEngine::LightType::Point{ static_cast<in
 constexpr ::UnityEngine::LightType UnityEngine::LightType::Area{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::LightType UnityEngine::LightType::Rectangle{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::LightType UnityEngine::LightType::Disc{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::LightType UnityEngine::LightType::Pyramid{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::LightType UnityEngine::LightType::Box{ static_cast<int32_t>(0x6) };
+constexpr ::UnityEngine::LightType UnityEngine::LightType::Tube{ static_cast<int32_t>(0x7) };

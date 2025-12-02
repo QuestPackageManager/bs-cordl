@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DsaKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -11,6 +10,9 @@ class DsaKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
@@ -27,7 +29,7 @@ class DsaKeyPairGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator);
-// Dependencies Org.BouncyCastle.Crypto.IAsymmetricCipherKeyPairGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Generators.DsaKeyPairGenerator
@@ -43,16 +45,16 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method CalculatePublicKey, addr 0x2382d38, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method CalculatePublicKey, addr 0x32b0724, size 0x24, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* CalculatePublicKey(::Org::BouncyCastle::Math::BigInteger* p, ::Org::BouncyCastle::Math::BigInteger* g, ::Org::BouncyCastle::Math::BigInteger* x);
 
-  /// @brief Method GenerateKeyPair, addr 0x2382b04, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method GenerateKeyPair, addr 0x32b04e0, size 0x14c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method GeneratePrivateKey, addr 0x2382c48, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GeneratePrivateKey, addr 0x32b062c, size 0xf8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::BigInteger* GeneratePrivateKey(::Org::BouncyCastle::Math::BigInteger* q, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method Init, addr 0x2382a1c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x32b03e8, size 0xf8, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DsaKeyPairGenerator* New_ctor();
@@ -63,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DsaKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x2382dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b07c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_One();

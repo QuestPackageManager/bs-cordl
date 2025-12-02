@@ -7,8 +7,8 @@ constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase::VisualTreeUpdatePhas
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase::VisualTreeUpdatePhase() {}
-constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::ViewData{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Bindings{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Bindings{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::DataBinding{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Animation{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Styles{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::UIElements::VisualTreeUpdatePhase UnityEngine::UIElements::VisualTreeUpdatePhase::Layout{ static_cast<int32_t>(0x4) };

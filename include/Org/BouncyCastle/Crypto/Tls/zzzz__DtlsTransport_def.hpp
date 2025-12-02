@@ -3,13 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DatagramTransport_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsTransport)
 namespace Org::BouncyCastle::Crypto::Tls {
+class DatagramTransport;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCloseable;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -17,7 +21,7 @@ class DtlsTransport;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DtlsTransport);
-// Dependencies Org.BouncyCastle.Crypto.Tls.DatagramTransport, Org.BouncyCastle.Crypto.Tls.TlsCloseable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.DtlsTransport
@@ -33,21 +37,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCloseable"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCloseable*() noexcept;
 
-  /// @brief Method Close, addr 0x2416b48, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x3344f88, size 0x20, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetReceiveLimit, addr 0x2416448, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetReceiveLimit, addr 0x3344850, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetReceiveLimit();
 
-  /// @brief Method GetSendLimit, addr 0x241646c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetSendLimit, addr 0x3344870, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetSendLimit();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsTransport* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method Receive, addr 0x2416490, size 0x384, virtual true, abstract: false, final false
+  /// @brief Method Receive, addr 0x3344890, size 0x3a4, virtual true, abstract: false, final false
   inline int32_t Receive(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t waitMillis);
 
-  /// @brief Method Send, addr 0x2416814, size 0x334, virtual true, abstract: false, final false
+  /// @brief Method Send, addr 0x3344c34, size 0x354, virtual true, abstract: false, final false
   inline void Send(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* const& __cordl_internal_get_mRecordLayer() const;
@@ -56,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_mRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* value);
 
-  /// @brief Method .ctor, addr 0x2416420, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3344848, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DatagramTransport"

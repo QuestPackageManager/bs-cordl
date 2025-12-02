@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::GlobalNamespace::IBitMaskUtil::GetHexDigit)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2720a68;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x364fd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::GlobalNamespace::IBitMaskUtil::GetBase64Digit)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2720ab8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x364fd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(uint64_t)>(&::GlobalNamespace::IBitMaskUtil::GetBase64Char)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2720b24;
+  constexpr static std::size_t addrs = 0x364fda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

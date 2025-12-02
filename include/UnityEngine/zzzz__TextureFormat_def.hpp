@@ -66,8 +66,6 @@ public:
     __E_ASTC_8x8 = static_cast<int32_t>(0x33),
     __E_ASTC_10x10 = static_cast<int32_t>(0x34),
     __E_ASTC_12x12 = static_cast<int32_t>(0x35),
-    __E_ETC_RGB4_3DS = static_cast<int32_t>(0x3c),
-    __E_ETC_RGBA8_3DS = static_cast<int32_t>(0x3d),
     __E_RG16 = static_cast<int32_t>(0x3e),
     __E_R8 = static_cast<int32_t>(0x3f),
     __E_ETC_RGB4Crunched = static_cast<int32_t>(0x40),
@@ -81,18 +79,14 @@ public:
     __E_RG32 = static_cast<int32_t>(0x48),
     __E_RGB48 = static_cast<int32_t>(0x49),
     __E_RGBA64 = static_cast<int32_t>(0x4a),
-    __E_ASTC_RGB_4x4 = static_cast<int32_t>(0x30),
-    __E_ASTC_RGB_5x5 = static_cast<int32_t>(0x31),
-    __E_ASTC_RGB_6x6 = static_cast<int32_t>(0x32),
-    __E_ASTC_RGB_8x8 = static_cast<int32_t>(0x33),
-    __E_ASTC_RGB_10x10 = static_cast<int32_t>(0x34),
-    __E_ASTC_RGB_12x12 = static_cast<int32_t>(0x35),
-    __E_ASTC_RGBA_4x4 = static_cast<int32_t>(0x36),
-    __E_ASTC_RGBA_5x5 = static_cast<int32_t>(0x37),
-    __E_ASTC_RGBA_6x6 = static_cast<int32_t>(0x38),
-    __E_ASTC_RGBA_8x8 = static_cast<int32_t>(0x39),
-    __E_ASTC_RGBA_10x10 = static_cast<int32_t>(0x3a),
-    __E_ASTC_RGBA_12x12 = static_cast<int32_t>(0x3b),
+    __E_R8_SIGNED = static_cast<int32_t>(0x4b),
+    __E_RG16_SIGNED = static_cast<int32_t>(0x4c),
+    __E_RGB24_SIGNED = static_cast<int32_t>(0x4d),
+    __E_RGBA32_SIGNED = static_cast<int32_t>(0x4e),
+    __E_R16_SIGNED = static_cast<int32_t>(0x4f),
+    __E_RG32_SIGNED = static_cast<int32_t>(0x50),
+    __E_RGB48_SIGNED = static_cast<int32_t>(0x51),
+    __E_RGBA64_SIGNED = static_cast<int32_t>(0x52),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -154,42 +148,6 @@ public:
   /// @brief Field ASTC_HDR_8x8 value: I32(69)
   static ::UnityEngine::TextureFormat const ASTC_HDR_8x8;
 
-  /// @brief Field ASTC_RGBA_10x10 value: I32(58)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_10x10;
-
-  /// @brief Field ASTC_RGBA_12x12 value: I32(59)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_12x12;
-
-  /// @brief Field ASTC_RGBA_4x4 value: I32(54)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_4x4;
-
-  /// @brief Field ASTC_RGBA_5x5 value: I32(55)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_5x5;
-
-  /// @brief Field ASTC_RGBA_6x6 value: I32(56)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_6x6;
-
-  /// @brief Field ASTC_RGBA_8x8 value: I32(57)
-  static ::UnityEngine::TextureFormat const ASTC_RGBA_8x8;
-
-  /// @brief Field ASTC_RGB_10x10 value: I32(52)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_10x10;
-
-  /// @brief Field ASTC_RGB_12x12 value: I32(53)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_12x12;
-
-  /// @brief Field ASTC_RGB_4x4 value: I32(48)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_4x4;
-
-  /// @brief Field ASTC_RGB_5x5 value: I32(49)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_5x5;
-
-  /// @brief Field ASTC_RGB_6x6 value: I32(50)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_6x6;
-
-  /// @brief Field ASTC_RGB_8x8 value: I32(51)
-  static ::UnityEngine::TextureFormat const ASTC_RGB_8x8;
-
   /// @brief Field Alpha8 value: I32(1)
   static ::UnityEngine::TextureFormat const Alpha8;
 
@@ -250,12 +208,6 @@ public:
   /// @brief Field ETC_RGB4Crunched value: I32(64)
   static ::UnityEngine::TextureFormat const ETC_RGB4Crunched;
 
-  /// @brief Field ETC_RGB4_3DS value: I32(60)
-  static ::UnityEngine::TextureFormat const ETC_RGB4_3DS;
-
-  /// @brief Field ETC_RGBA8_3DS value: I32(61)
-  static ::UnityEngine::TextureFormat const ETC_RGBA8_3DS;
-
   /// @brief Field PVRTC_RGB2 value: I32(30)
   static ::UnityEngine::TextureFormat const PVRTC_RGB2;
 
@@ -271,8 +223,14 @@ public:
   /// @brief Field R16 value: I32(9)
   static ::UnityEngine::TextureFormat const R16;
 
+  /// @brief Field R16_SIGNED value: I32(79)
+  static ::UnityEngine::TextureFormat const R16_SIGNED;
+
   /// @brief Field R8 value: I32(63)
   static ::UnityEngine::TextureFormat const R8;
+
+  /// @brief Field R8_SIGNED value: I32(75)
+  static ::UnityEngine::TextureFormat const R8_SIGNED;
 
   /// @brief Field RFloat value: I32(18)
   static ::UnityEngine::TextureFormat const RFloat;
@@ -280,14 +238,26 @@ public:
   /// @brief Field RG16 value: I32(62)
   static ::UnityEngine::TextureFormat const RG16;
 
+  /// @brief Field RG16_SIGNED value: I32(76)
+  static ::UnityEngine::TextureFormat const RG16_SIGNED;
+
   /// @brief Field RG32 value: I32(72)
   static ::UnityEngine::TextureFormat const RG32;
+
+  /// @brief Field RG32_SIGNED value: I32(80)
+  static ::UnityEngine::TextureFormat const RG32_SIGNED;
 
   /// @brief Field RGB24 value: I32(3)
   static ::UnityEngine::TextureFormat const RGB24;
 
+  /// @brief Field RGB24_SIGNED value: I32(77)
+  static ::UnityEngine::TextureFormat const RGB24_SIGNED;
+
   /// @brief Field RGB48 value: I32(73)
   static ::UnityEngine::TextureFormat const RGB48;
+
+  /// @brief Field RGB48_SIGNED value: I32(81)
+  static ::UnityEngine::TextureFormat const RGB48_SIGNED;
 
   /// @brief Field RGB565 value: I32(7)
   static ::UnityEngine::TextureFormat const RGB565;
@@ -298,11 +268,17 @@ public:
   /// @brief Field RGBA32 value: I32(4)
   static ::UnityEngine::TextureFormat const RGBA32;
 
+  /// @brief Field RGBA32_SIGNED value: I32(78)
+  static ::UnityEngine::TextureFormat const RGBA32_SIGNED;
+
   /// @brief Field RGBA4444 value: I32(13)
   static ::UnityEngine::TextureFormat const RGBA4444;
 
   /// @brief Field RGBA64 value: I32(74)
   static ::UnityEngine::TextureFormat const RGBA64;
+
+  /// @brief Field RGBA64_SIGNED value: I32(82)
+  static ::UnityEngine::TextureFormat const RGBA64_SIGNED;
 
   /// @brief Field RGBAFloat value: I32(20)
   static ::UnityEngine::TextureFormat const RGBAFloat;
@@ -323,7 +299,7 @@ public:
   static ::UnityEngine::TextureFormat const YUY2;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10171 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -41,19 +41,19 @@ public:
   /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage);
 
-  /// @brief Method GetEncoding, addr 0x3c7bd00, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method GetEncoding, addr 0x58c0084, size 0x108, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(int32_t codepage, ::System::Text::EncoderFallback* encoderFallback, ::System::Text::DecoderFallback* decoderFallback);
 
   /// @brief Method GetEncoding, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Text::Encoding* GetEncoding(::StringW name);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x3c7bdfc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x58c018c, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x3c7bfb4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x58c0344, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(int32_t codepage, ::System::Text::EncoderFallback* enc, ::System::Text::DecoderFallback* dec);
 
-  /// @brief Method GetEncodingFromProvider, addr 0x3c7bed8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromProvider, addr 0x58c0268, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromProvider(::StringW encodingName);
 
   static inline ::System::Object* getStaticF_s_InternalSyncObject();
@@ -79,7 +79,7 @@ public:
   EncodingProvider(EncodingProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2869 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

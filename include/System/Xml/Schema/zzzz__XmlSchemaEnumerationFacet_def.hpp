@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Xml::Schema::XmlSchemaEnumerationFacet* New_ctor();
 
-  /// @brief Method .ctor, addr 0x42bebb0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6014fec, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   XmlSchemaEnumerationFacet(XmlSchemaEnumerationFacet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

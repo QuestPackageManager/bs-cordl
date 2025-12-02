@@ -56,33 +56,33 @@ public:
   /// @brief Field digestNames, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_digestNames, put = setStaticF_digestNames)) ::System::Collections::IDictionary* digestNames;
 
-  /// @brief Method CreateDigestInstance, addr 0x25d0ec8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateDigestInstance, addr 0x3500540, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigestInstance(::StringW digestAlgOID);
 
-  /// @brief Method GetCriticalExtensionOids, addr 0x25d0f54, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetCriticalExtensionOids, addr 0x35005d4, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetDigestAlgName, addr 0x25d0dc0, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgName, addr 0x3500440, size 0x100, virtual false, abstract: false, final false
   static inline ::StringW GetDigestAlgName(::StringW digestAlgOID);
 
-  /// @brief Method GetDigestLength, addr 0x25ca500, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method GetDigestLength, addr 0x34f9a90, size 0x1d4, virtual false, abstract: false, final false
   static inline int32_t GetDigestLength(::StringW digestAlgOID);
 
-  /// @brief Method GetExtensionOids, addr 0x25ca778, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetExtensionOids, addr 0x34f9cfc, size 0xb8, virtual false, abstract: false, final false
   static inline ::System::Collections::IList* GetExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetNonCriticalExtensionOids, addr 0x25d1324, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetNonCriticalExtensionOids, addr 0x3500980, size 0xb4, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNonCriticalExtensionOids(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions);
 
-  /// @brief Method GetSignatureTimestamps, addr 0x25d042c, size 0x994, virtual false, abstract: false, final false
+  /// @brief Method GetSignatureTimestamps, addr 0x34ffacc, size 0x974, virtual false, abstract: false, final false
   static inline ::System::Collections::ICollection* GetSignatureTimestamps(::Org::BouncyCastle::Cms::SignerInformation* signerInfo);
 
   static inline ::Org::BouncyCastle::Tsp::TspUtil* New_ctor();
 
-  /// @brief Method ValidateCertificate, addr 0x25cdbb8, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method ValidateCertificate, addr 0x34fd1ec, size 0x378, virtual false, abstract: false, final false
   static inline void ValidateCertificate(::Org::BouncyCastle::X509::X509Certificate* cert);
 
-  /// @brief Method .ctor, addr 0x25d13d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3500a34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Collections::IList* getStaticF_EmptyList();

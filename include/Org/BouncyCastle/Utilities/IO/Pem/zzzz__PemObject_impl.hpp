@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/IO/Pem/PemObject.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Utilities::IO::Pem::PemObject._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemObject::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x25d9f78;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3509688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)(
     ::StringW, ::System::Collections::IList*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Utilities::IO::Pem::PemObject::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x25d9ff0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x3509704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25da07c;
+  constexpr static std::size_t addrs = 0x3509788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::Pem::PemObject*>::get(),
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (::Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25da084;
+  constexpr static std::size_t addrs = 0x3509790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::Pem::PemObject*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemObject::get_Content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25da08c;
+  constexpr static std::size_t addrs = 0x3509798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::Pem::PemObject*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::Utilities::IO::Pem::PemObject::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemObject::Generate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25da094;
+  constexpr static std::size_t addrs = 0x35097a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::IO::Pem::PemObject*>::get(),

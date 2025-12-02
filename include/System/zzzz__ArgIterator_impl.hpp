@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ArgIterator::*)(::System::Object*)>(&::System::ArgIterator::Equals)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e32704;
+  constexpr static std::size_t addrs = 0x5a783fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ArgIterator::*)()>(&::System::ArgIterator::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e32750;
+  constexpr static std::size_t addrs = 0x5a78448;
 
   inline static ::MethodInfo const* methodInfo() {
 

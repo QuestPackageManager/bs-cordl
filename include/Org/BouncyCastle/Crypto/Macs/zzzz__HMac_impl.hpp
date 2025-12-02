@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/HMac.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Macs::HMac._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::HMac::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Macs::HMac::_ctor)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2398104;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x32c5d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Macs::HMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::HMac::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2398260;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x32c5efc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Macs::HMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::HMac::GetUnderlyingDigest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2398320;
+  constexpr static std::size_t addrs = 0x32c5fc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::HMac::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Macs::HMac::Init)> {
-  constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x2398328;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x32c5fcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::HMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::HMac::GetMacSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23988a0;
+  constexpr static std::size_t addrs = 0x32c6548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::HMac::*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Macs::HMac::Update)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23988a8;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x32c6550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::HMac::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::HMac::BlockUpdate)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2398954;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x32c6608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::HMac::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::HMac::DoFinal)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x2398a18;
+  constexpr static std::size_t size = 0x4b0;
+  constexpr static std::size_t addrs = 0x32c66d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::HMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::HMac::Reset)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2398ec0;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x32c6b88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, uint8_t)>(&::Org::BouncyCastle::Crypto::Macs::HMac::XorPad)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x2398850;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x32c6500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

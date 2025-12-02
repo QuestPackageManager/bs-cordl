@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StyleFont.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFont_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleFont.get_value
@@ -13,11 +13,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (::UnityEngine::UIElements::StyleFont::*)()>(
     &::UnityEngine::UIElements::StyleFont::get_value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a8589c;
+  constexpr static std::size_t addrs = 0x6a5eba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "get_value",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleFont.set_value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::Font*)>(
+    &::UnityEngine::UIElements::StyleFont::set_value)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5ebb8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "set_value", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
     return ___internal_method;
   }
 };
@@ -27,11 +42,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleFont::*)()>(
     &::UnityEngine::UIElements::StyleFont::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a858b4;
+  constexpr static std::size_t addrs = 0x6a5ebc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "get_keyword",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleFont.set_keyword
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleFont::set_keyword)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5ebcc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "set_keyword", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
     return ___internal_method;
   }
 };
@@ -40,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::Font*)>(&::UnityEngine::UIElements::StyleFont::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a858bc;
+  constexpr static std::size_t addrs = 0x6a5ebd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,10 +82,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleFont._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleFont::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5ebe0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleFont._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::Font*, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFont::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a858c8;
+  constexpr static std::size_t addrs = 0x6a5c764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleFont, ::UnityEngine::UIElements::StyleFont)>(
     &::UnityEngine::UIElements::StyleFont::op_Equality)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a858d4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6a5ebec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,10 +129,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleFont.op_Implicit___UnityEngine__UIElements__StyleFont
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFont (*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleFont::op_Implicit___UnityEngine__UIElements__StyleFont)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6a5c770;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleFont.op_Implicit___UnityEngine__UIElements__StyleFont
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFont (*)(::UnityEngine::Font*)>(
     &::UnityEngine::UIElements::StyleFont::op_Implicit___UnityEngine__UIElements__StyleFont)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85960;
+  constexpr static std::size_t addrs = 0x6a5ec88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFont::*)(::UnityEngine::UIElements::StyleFont)>(
     &::UnityEngine::UIElements::StyleFont::Equals)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a85968;
+  constexpr static std::size_t addrs = 0x6a5ec90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,8 +175,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFont::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleFont::Equals)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a8597c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6a5eca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,8 +189,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleFont::*)()>(&::UnityEngine::UIElements::StyleFont::GetHashCode)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a859f8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6a5ed24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,8 +203,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleFont::*)()>(&::UnityEngine::UIElements::StyleFont::ToString)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a85a90;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6a5edc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,16 +218,34 @@ inline ::UnityW<::UnityEngine::Font> UnityEngine::UIElements::StyleFont::get_val
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::StyleFont::set_value(::UnityEngine::Font* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "set_value", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleFont::get_keyword() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "get_keyword",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleKeyword, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StyleFont::set_keyword(::UnityEngine::UIElements::StyleKeyword value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "set_keyword", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::StyleFont::_ctor(::UnityEngine::Font* v) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, v);
+}
+inline void UnityEngine::UIElements::StyleFont::_ctor(::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, keyword);
 }
 inline void UnityEngine::UIElements::StyleFont::_ctor(::UnityEngine::Font* v, ::UnityEngine::UIElements::StyleKeyword keyword) {
   static auto* ___internal_method =
@@ -182,6 +260,12 @@ inline bool UnityEngine::UIElements::StyleFont::op_Equality(::UnityEngine::UIEle
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleFont>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleFont>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+}
+inline ::UnityEngine::UIElements::StyleFont UnityEngine::UIElements::StyleFont::op_Implicit___UnityEngine__UIElements__StyleFont(::UnityEngine::UIElements::StyleKeyword keyword) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFont>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFont, false>(nullptr, ___internal_method, keyword);
 }
 inline ::UnityEngine::UIElements::StyleFont UnityEngine::UIElements::StyleFont::op_Implicit___UnityEngine__UIElements__StyleFont(::UnityEngine::Font* v) {
   static auto* ___internal_method = THROW_UNLESS(

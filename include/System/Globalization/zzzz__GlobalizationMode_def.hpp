@@ -21,12 +21,12 @@ public:
   /// @brief Field <Invariant>k__BackingField, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF__Invariant_k__BackingField, put = setStaticF__Invariant_k__BackingField)) bool _Invariant_k__BackingField;
 
-  /// @brief Method GetGlobalizationInvariantMode, addr 0x3d9aec4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetGlobalizationInvariantMode, addr 0x59ae4ac, size 0x8, virtual false, abstract: false, final false
   static inline bool GetGlobalizationInvariantMode();
 
   static inline bool getStaticF__Invariant_k__BackingField();
 
-  /// @brief Method get_Invariant, addr 0x3d9ae6c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Invariant, addr 0x59ae450, size 0x5c, virtual false, abstract: false, final false
   static inline bool get_Invariant();
 
   static inline void setStaticF__Invariant_k__BackingField(bool value);
@@ -46,7 +46,7 @@ public:
   GlobalizationMode(GlobalizationMode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3701 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3621 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

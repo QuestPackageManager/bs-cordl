@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoaderHelper::*)()>(
     &::UnityEngine::XR::Management::XRLoaderHelper::Deinitialize)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4831a64;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x67b23cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRLoaderHelper::*)()>(&::UnityEngine::XR::Management::XRLoaderHelper::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4831abc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x67b2428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRLoaderHelper*>::get(), ".ctor",

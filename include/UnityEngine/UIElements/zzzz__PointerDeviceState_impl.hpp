@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a31298;
+  constexpr static std::size_t addrs = 0x6b6ed94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a312a0;
+  constexpr static std::size_t addrs = 0x6b6ed9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a312a8;
+  constexpr static std::size_t addrs = 0x6b6eda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a312b0;
+  constexpr static std::size_t addrs = 0x6b6edac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::PointerDeviceState_LocationFlag (
     ::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)()>(&::UnityEngine::UIElements::PointerDeviceState_PointerLocation::get_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a312b8;
+  constexpr static std::size_t addrs = 0x6b6edb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(
     ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState_PointerLocation::set_Flags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a312c0;
+  constexpr static std::size_t addrs = 0x6b6edbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PointerDeviceState_PointerLocation::*)(
     ::UnityEngine::Vector2, ::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PointerDeviceState_PointerLocation::SetLocation)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4a30c88;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6b6e520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -180,8 +180,8 @@ constexpr ::UnityEngine::UIElements::PointerDeviceState_PointerLocation::Pointer
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UIElements::IPanel*)>(&::UnityEngine::UIElements::PointerDeviceState::RemovePanelData)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4a30aa4;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x6b6e324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     int32_t, ::UnityEngine::Vector2, ::UnityEngine::UIElements::IPanel*, ::UnityEngine::UIElements::ContextType)>(&::UnityEngine::UIElements::PointerDeviceState::SavePointerPosition)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4a30d90;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6b6e620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,8 +211,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::PressButton)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4a2c9fc;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x6b6e6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -225,8 +225,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::ReleaseButton)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4a2cf58;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x6b6e7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,8 +239,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::ReleaseAllButtons)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a2e5e0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6b6c400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -254,8 +254,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(int32_t, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPointerPosition)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a26934;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6b634c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,8 +270,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (*)(int32_t, ::UnityEngine::UIElements::ContextType)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPanel)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a30e38;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6b6e908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,7 +287,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::UnityEngine::UIElements::PointerDeviceState_LocationFlag, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState::HasFlagFast)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a30eb8;
+  constexpr static std::size_t addrs = 0x6b6e98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,8 +302,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     int32_t, ::UnityEngine::UIElements::ContextType, ::UnityEngine::UIElements::PointerDeviceState_LocationFlag)>(&::UnityEngine::UIElements::PointerDeviceState::HasLocationFlag)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a30ec4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b6e998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -318,8 +318,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::GetPressedButtons)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a30f58;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6b6ea34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,8 +332,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, int32_t)>(&::UnityEngine::UIElements::PointerDeviceState::HasAdditionalPressedButtons)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a30fd4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b6eab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,8 +347,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PointerDeviceState::SetPlayerPanelWithSoftPointerCapture)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4a3106c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6b6eb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -363,8 +363,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (*)(int32_t)>(
     &::UnityEngine::UIElements::PointerDeviceState::GetPlayerPanelWithSoftPointerCapture)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a31118;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6b6ec00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

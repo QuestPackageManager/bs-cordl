@@ -39,25 +39,25 @@ public:
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method Create, addr 0x3d19984, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x595ae4c, size 0x40, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder Create();
 
-  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x3d19b48, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NotifySynchronizationContextOfCompletion, addr 0x595afc0, size 0xa8, virtual false, abstract: false, final false
   inline void NotifySynchronizationContextOfCompletion();
 
-  /// @brief Method SetException, addr 0x3d19bec, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method SetException, addr 0x595b068, size 0xec, virtual false, abstract: false, final false
   inline void SetException(::System::Exception* exception);
 
-  /// @brief Method SetResult, addr 0x3d19a88, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetResult, addr 0x595af48, size 0x10, virtual false, abstract: false, final false
   inline void SetResult();
 
-  /// @brief Method SetStateMachine, addr 0x3d199c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetStateMachine, addr 0x595ae8c, size 0x8, virtual false, abstract: false, final false
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Method Start, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TStateMachine> inline void Start(::ByRef<TStateMachine> stateMachine);
 
-  /// @brief Method get_Task, addr 0x3d19ae4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Task, addr 0x595af58, size 0x68, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* get_Task();
 
   // Ctor Parameters []
@@ -71,7 +71,7 @@ public:
                                    ::System::Threading::Tasks::Task* m_task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3415 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

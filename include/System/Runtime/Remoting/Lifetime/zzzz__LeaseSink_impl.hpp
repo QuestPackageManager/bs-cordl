@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Lifetime/LeaseSink.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
@@ -11,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseSink::*)(::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseSink::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cdc8d8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x591f648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Lifetime::LeaseSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Lifetime::LeaseSink::SyncProcessMessage)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3cdc900;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x591f650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +41,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageCtrl* (
     ::System::Runtime::Remoting::Lifetime::LeaseSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseSink::AsyncProcessMessage)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3cdcc3c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x591f99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::LeaseSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
     &::System::Runtime::Remoting::Lifetime::LeaseSink::RenewLease)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3cdc9b0;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x591f70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

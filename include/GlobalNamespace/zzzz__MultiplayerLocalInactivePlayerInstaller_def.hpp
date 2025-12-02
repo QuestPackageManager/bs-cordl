@@ -9,7 +9,7 @@ namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataSender;
 }
 namespace GlobalNamespace {
-class AudioManagerSO;
+class AudioManager;
 }
 namespace GlobalNamespace {
 class GameplayCoreSceneSetupData;
@@ -31,7 +31,7 @@ class CORDL_TYPE MultiplayerLocalInactivePlayerInstaller : public ::Zenject::Mon
 public:
   // Declarations
   /// @brief Field _audioManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager)) ::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager)) ::GlobalNamespace::AudioManager* _audioManager;
 
   /// @brief Field _optionalAvatarDataSender, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__optionalAvatarDataSender,
@@ -43,14 +43,14 @@ public:
   /// @brief Field _sceneSetupData, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__sceneSetupData, put = __cordl_internal_set__sceneSetupData)) ::GlobalNamespace::GameplayCoreSceneSetupData* _sceneSetupData;
 
-  /// @brief Method InstallBindings, addr 0x3bc5488, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x57b662c, size 0x48c, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller* New_ctor();
 
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
+  constexpr ::GlobalNamespace::AudioManager* const& __cordl_internal_get__audioManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
+  constexpr ::GlobalNamespace::AudioManager*& __cordl_internal_get__audioManager();
 
   constexpr ::BeatSaber::AvatarCore::OptionalAvatarDataSender* const& __cordl_internal_get__optionalAvatarDataSender() const;
 
@@ -64,7 +64,7 @@ public:
 
   constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& __cordl_internal_get__sceneSetupData();
 
-  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
+  constexpr void __cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value);
 
   constexpr void __cordl_internal_set__optionalAvatarDataSender(::BeatSaber::AvatarCore::OptionalAvatarDataSender* value);
 
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__sceneSetupData(::GlobalNamespace::GameplayCoreSceneSetupData* value);
 
-  /// @brief Method .ctor, addr 0x3bc58f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57b6ab8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,10 +90,10 @@ public:
   MultiplayerLocalInactivePlayerInstaller(MultiplayerLocalInactivePlayerInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6108 };
 
   /// @brief Field _audioManager, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
+  ::GlobalNamespace::AudioManager* ____audioManager;
 
   /// @brief Field _sceneSetupData, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayCoreSceneSetupData* ____sceneSetupData;

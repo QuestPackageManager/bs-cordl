@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HWStack)
+namespace System {
+class ICloneable;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ class HWStack;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::HWStack);
-// Dependencies System.ICloneable, System.Object
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.HWStack
@@ -45,10 +47,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method AddToTop, addr 0x434a734, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddToTop, addr 0x60b13d0, size 0x6c, virtual false, abstract: false, final false
   inline void AddToTop(::System::Object* o);
 
-  /// @brief Method Clone, addr 0x434a908, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x60b1570, size 0xd0, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
   static inline ::System::Xml::HWStack* New_ctor(int32_t GrowthRate);
@@ -57,13 +59,13 @@ public:
 
   static inline ::System::Xml::HWStack* New_ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size);
 
-  /// @brief Method Peek, addr 0x434a6f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x60b138c, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method Pop, addr 0x434a6a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x60b1344, size 0x48, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x434a570, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x60b120c, size 0x138, virtual false, abstract: false, final false
   inline ::System::Object* Push();
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -96,25 +98,25 @@ public:
 
   constexpr void __cordl_internal_set_used(int32_t value);
 
-  /// @brief Method .ctor, addr 0x434a4f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b1198, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t GrowthRate);
 
-  /// @brief Method .ctor, addr 0x434a4fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b11a0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(int32_t GrowthRate, int32_t limit);
 
-  /// @brief Method .ctor, addr 0x434a8c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b1560, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> stack, int32_t growthRate, int32_t used, int32_t size);
 
-  /// @brief Method get_Item, addr 0x434a7a0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x60b143c, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
-  /// @brief Method get_Length, addr 0x434a8bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x60b1558, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x434a814, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x60b14b0, size 0xa8, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
@@ -132,7 +134,7 @@ public:
   HWStack(HWStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9388 };
 
   /// @brief Field stack, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___stack;

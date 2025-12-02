@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EditAvatarFlowCoordinatorHelper.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EditAvatarFlowCoordinatorHelper_def.hpp"
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::*)()>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x3c05608;
+  constexpr static std::size_t size = 0x4a4;
+  constexpr static std::size_t addrs = 0x57fa39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Initialize_d__13::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c05a9c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57fa840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::*)()>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::MoveNext)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3c05aa8;
+  constexpr static std::size_t size = 0x2b8;
+  constexpr static std::size_t addrs = 0x57fa848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::EditAvatarFlowCoordinatorHelper__Show_d__12::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c05e48;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57fabf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,8 +167,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*)>(
         &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c050e8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f9e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,8 +184,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(::System::Action_2<::UnityW<::HMUI::FlowCoordinator>, ::GlobalNamespace::EditAvatarFlowCoordinatorHelper_FinishAction>*)>(
         &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c05198;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f9f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,8 +200,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)()>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::get__hasOnlyOneAvatarSystem)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c05248;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57f9fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(),
@@ -215,8 +214,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(::HMUI::FlowCoordinator*, bool, bool, bool)>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::Show)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c052a8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x57fa034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)()>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::Initialize)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c05370;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x57fa110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(),
@@ -246,8 +245,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(
     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_EditMode, ::HMUI::FlowCoordinator*, bool, bool)>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::PresentAvatarEditorFlowCoordinator)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c053fc;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x57fa1b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,8 +265,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(
     ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator*, ::BeatSaber::AvatarCore::IAvatarSystemMetadata*, ::BeatSaber::AvatarCore::AvatarEditorFlowCoordinator_FinishAction)>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::HandleAvatarEditorFlowCoordinatorDidFinish)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c054e4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x57fa2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,8 +284,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)(
     ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator*, ::GlobalNamespace::AvatarSystemSelectionFlowCoordinator_FinishAction)>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::HandleAvatarSystemSelectionFlowCoordinatorDidFinish)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c055b8;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x57fa370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,8 +301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditAvatarFlowCoordinatorHelper::*)()>(
     &::GlobalNamespace::EditAvatarFlowCoordinatorHelper::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c05600;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57fa398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditAvatarFlowCoordinatorHelper*>::get(),

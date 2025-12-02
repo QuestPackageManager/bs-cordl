@@ -1,16 +1,33 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Hash128.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Hash128._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Hash128::*)(uint32_t, uint32_t, uint32_t, uint32_t)>(&::UnityEngine::Hash128::_ctor)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6893f94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Hash128._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Hash128::*)(uint64_t, uint64_t)>(&::UnityEngine::Hash128::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x489a30c;
+  constexpr static std::size_t addrs = 0x6893fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::get_isValid)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x489a314;
+  constexpr static std::size_t addrs = 0x6893fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "get_isValid",
@@ -36,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::CompareTo)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x489a334;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6893fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x489a3dc;
+  constexpr static std::size_t addrs = 0x6894060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&::UnityEngine::Hash128::Parse)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x489a428;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x689413c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::Hash128ToStringImpl)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x489a3e8;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x689406c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,32 +105,48 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Hash128.ComputeFromString
+//  Writing Method size for method: ::UnityEngine::Hash128.ComputeFromPtr
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::ComputeFromString)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x489a4fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, int32_t, int32_t, int32_t, ::ByRef<::UnityEngine::Hash128>)>(
+    &::UnityEngine::Hash128::ComputeFromPtr)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x68942f8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ComputeFromString", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ComputeFromPtr", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::Hash128.Compute
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Hash128 (*)(::StringW)>(&::UnityEngine::Hash128::Compute)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x489a540;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Hash128 (*)(int32_t)>(&::UnityEngine::Hash128::Compute)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6894364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Compute", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Append
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Hash128::*)(int32_t)>(&::UnityEngine::Hash128::Append)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68943bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -121,8 +154,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Hash128::*)(::System::Object*)>(&::UnityEngine::Hash128::Equals)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x489a594;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6894428;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,8 +168,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Hash128::*)(::UnityEngine::Hash128)>(&::UnityEngine::Hash128::Equals)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x489a630;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x68944b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -149,8 +182,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Hash128::*)()>(&::UnityEngine::Hash128::GetHashCode)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x489a64c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x68944cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,8 +196,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Hash128::*)(::System::Object*)>(&::UnityEngine::Hash128::CompareTo)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x489a680;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x68944e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,8 +210,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_Equality)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x489a618;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x68944a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -192,8 +225,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_Inequality)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x489a73c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x689459c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_LessThan)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x489a388;
+  constexpr static std::size_t addrs = 0x6894020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,8 +255,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Hash128, ::UnityEngine::Hash128)>(&::UnityEngine::Hash128::op_GreaterThan)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x489a3a0;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6894038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,17 +266,64 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Hash128.ShortHash4
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Hash128::*)(uint32_t)>(&::UnityEngine::Hash128::ShortHash4)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68943c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ShortHash4", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.ShortEnd
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint64_t>, ::ByRef<uint64_t>, ::ByRef<uint64_t>, ::ByRef<uint64_t>)>(
+    &::UnityEngine::Hash128::ShortEnd)> {
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x68945ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ShortEnd", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Hash128.Rot64
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint64_t>, int32_t)>(&::UnityEngine::Hash128::Rot64)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6894740;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Rot64", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Hash128.Parse_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::Parse_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Hash128>)>(
+    &::UnityEngine::Hash128::Parse_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x489a47c;
+  constexpr static std::size_t addrs = 0x6894270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Parse_Injected", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
     return ___internal_method;
   }
@@ -251,17 +331,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Hash128.Hash128ToStringImpl_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ByRef<::UnityEngine::Hash128>)>(&::UnityEngine::Hash128::Hash128ToStringImpl_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x489a4c0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Hash128>, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::Hash128::Hash128ToStringImpl_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x68942b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Hash128ToStringImpl_Injected", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
     return ___internal_method;
   }
 };
+inline void UnityEngine::Hash128::_ctor(uint32_t u32_0, uint32_t u32_1, uint32_t u32_2, uint32_t u32_3) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, u32_0, u32_1, u32_2, u32_3);
+}
 inline void UnityEngine::Hash128::_ctor(uint64_t u64_0, uint64_t u64_1) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -296,18 +385,41 @@ inline ::StringW UnityEngine::Hash128::Hash128ToStringImpl(::UnityEngine::Hash12
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Hash128>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, hash);
 }
-inline void UnityEngine::Hash128::ComputeFromString(::StringW data, ::ByRef<::UnityEngine::Hash128> hash) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ComputeFromString", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, data, hash);
+inline void UnityEngine::Hash128::ComputeFromPtr(::System::IntPtr data, int32_t start, int32_t count, int32_t elemSize, ::ByRef<::UnityEngine::Hash128> hash) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ComputeFromPtr", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, data, start, count, elemSize, hash);
 }
-inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(::StringW data) {
+template <typename T> inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(::ByRef<T> val) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Compute",
+                                                                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128, false>(nullptr, ___internal_method, val);
+}
+inline ::UnityEngine::Hash128 UnityEngine::Hash128::Compute(int32_t val) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Compute", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128, false>(nullptr, ___internal_method, data);
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Hash128, false>(nullptr, ___internal_method, val);
+}
+template <typename T> inline void UnityEngine::Hash128::Append(::ByRef<T> val) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Append",
+                                                                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
+}
+inline void UnityEngine::Hash128::Append(int32_t val) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, val);
 }
 inline bool UnityEngine::Hash128::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -359,18 +471,40 @@ inline bool UnityEngine::Hash128::op_GreaterThan(::UnityEngine::Hash128 x, ::Uni
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Hash128>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, x, y);
 }
-inline void UnityEngine::Hash128::Parse_Injected(::StringW hashString, ::ByRef<::UnityEngine::Hash128> ret) {
+inline void UnityEngine::Hash128::ShortHash4(uint32_t data) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ShortHash4", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+}
+inline void UnityEngine::Hash128::ShortEnd(::ByRef<uint64_t> h0, ::ByRef<uint64_t> h1, ::ByRef<uint64_t> h2, ::ByRef<uint64_t> h3) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "ShortEnd", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, h0, h1, h2, h3);
+}
+inline void UnityEngine::Hash128::Rot64(::ByRef<uint64_t> x, int32_t k) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Rot64", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint64_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, x, k);
+}
+inline void UnityEngine::Hash128::Parse_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> hashString, ::ByRef<::UnityEngine::Hash128> ret) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Parse_Injected", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, hashString, ret);
 }
-inline ::StringW UnityEngine::Hash128::Hash128ToStringImpl_Injected(::ByRef<::UnityEngine::Hash128> hash) {
+inline void UnityEngine::Hash128::Hash128ToStringImpl_Injected(::ByRef<::UnityEngine::Hash128> hash, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Hash128>::get(), "Hash128ToStringImpl_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, hash);
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, hash, ret);
 }
 /// @brief Convert operator to "::System::IComparable"
 constexpr UnityEngine::Hash128::operator ::System::IComparable*() {

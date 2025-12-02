@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__WrapNonExceptionThrows_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x3d18994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5959c50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_WrapNonExceptionThrows, addr 0x3d1899c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_WrapNonExceptionThrows, addr 0x5959c54, size 0x8, virtual false, abstract: false, final false
   inline void set_WrapNonExceptionThrows(bool value);
 
 protected:
@@ -53,7 +53,7 @@ public:
   RuntimeCompatibilityAttribute(RuntimeCompatibilityAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3396 };
 
   /// @brief Field <WrapNonExceptionThrows>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____WrapNonExceptionThrows_k__BackingField;

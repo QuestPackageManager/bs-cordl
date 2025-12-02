@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40e9d88;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d96544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e9db0;
+  constexpr static std::size_t addrs = 0x5d9654c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40e9db8;
+  constexpr static std::size_t addrs = 0x5d96554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::get_InstructionName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40e9dc0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d9655c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::AssignLocalToClosureInstruction::Run)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x40e9e00;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5d965a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

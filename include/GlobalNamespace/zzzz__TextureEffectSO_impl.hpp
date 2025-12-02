@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextureEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(
     &::GlobalNamespace::TextureEffectSO::Render)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x39e6c74;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x565e81c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TextureEffectSO::*)()>(&::GlobalNamespace::TextureEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e6cdc;
+  constexpr static std::size_t addrs = 0x565e888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TextureEffectSO*>::get(), ".ctor",

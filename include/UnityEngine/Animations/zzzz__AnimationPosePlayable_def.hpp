@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationPosePlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
@@ -17,7 +21,7 @@ struct AnimationPosePlayable;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationPosePlayable);
-// Dependencies System.IEquatable`1<T>, UnityEngine.Playables.IPlayable, UnityEngine.Playables.PlayableHandle
+// Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
 // CS Name: UnityEngine.Animations.AnimationPosePlayable
@@ -33,13 +37,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x4856a90, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x68116bc, size 0xb8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationPosePlayable other);
 
-  /// @brief Method GetHandle, addr 0x4856a84, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x68116b0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x4856994, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681159c, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationPosePlayable getStaticF_m_NullPlayable();
@@ -60,7 +64,7 @@ public:
   constexpr AnimationPosePlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19997 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

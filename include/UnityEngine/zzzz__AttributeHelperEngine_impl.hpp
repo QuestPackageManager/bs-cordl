@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(
     &::UnityEngine::AttributeHelperEngine::GetParentTypeDisallowingMultipleInclusion)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x48a810c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x68a682c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (*)(::System::Type*)>(
     &::UnityEngine::AttributeHelperEngine::GetRequiredComponents)> {
-  constexpr static std::size_t size = 0x4d4;
-  constexpr static std::size_t addrs = 0x48a8240;
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x68a6934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetExecuteMode)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48a8714;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x68a6ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::CheckIsEditorScript)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48a8828;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x68a6ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*)>(&::UnityEngine::AttributeHelperEngine::GetDefaultExecutionOrderFor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48a8938;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x68a6fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

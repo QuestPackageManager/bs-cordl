@@ -4,16 +4,13 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BindableElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CustomStyleProperty_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IEditableElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__INotifyValueChanged_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__DispatchMode_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BaseField_1)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Action;
 }
@@ -36,10 +33,19 @@ namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
 }
 namespace UnityEngine::UIElements {
+struct DispatchMode;
+}
+namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
+}
+namespace UnityEngine::UIElements {
+class IEditableElement;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class INotifyValueChanged_1;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -75,16 +81,13 @@ template <typename TValueType>
 class CORDL_TYPE BaseField_1_UxmlTraits : public ::UnityEngine::UIElements::BindableElement_UxmlTraits {
 public:
   // Declarations
-  /// @brief Field m_Label, offset 0x78, size 0x8
+  /// @brief Field m_Label, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Label;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType>* New_ctor();
-
-  /// @brief Method ParseChoiceList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::StringW>* ParseChoiceList(::StringW choicesFromBag);
 
   constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription* const& __cordl_internal_get_m_Label() const;
 
@@ -110,17 +113,16 @@ public:
   BaseField_1_UxmlTraits(BaseField_1_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4219 };
 
-  /// @brief Field m_Label, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_Label, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Label;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.PropertyName, UnityEngine.UIElements.BindableElement, UnityEngine.UIElements.CustomStyleProperty`1<T>, UnityEngine.UIElements.IEditableElement,
-// UnityEngine.UIElements.INotifyValueChanged`1<T>
+// Dependencies UnityEngine.PropertyName, UnityEngine.UIElements.BindableElement, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.CustomStyleProperty`1<T>, UnityEngine.UIElements.DispatchMode
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
@@ -135,22 +137,28 @@ public:
 
   __declspec(property(get = UnityEngine_UIElements_IEditableElement_get_editingStarted)) ::System::Action* UnityEngine_UIElements_IEditableElement_editingStarted;
 
-  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField, offset 0x438, size 0x8
+  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField, offset 0x520, size 0x8
   __declspec(property(
       get = __cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField,
       put = __cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField)) ::System::Action* _UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField, offset 0x430, size 0x8
+  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField, offset 0x518, size 0x8
   __declspec(property(
       get = __cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField,
       put = __cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField)) ::System::Action* _UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField;
 
-  /// @brief Field <labelElement>k__BackingField, offset 0x400, size 0x8
+  /// @brief Field <dispatchMode>k__BackingField, offset 0x4e0, size 0x4
+  __declspec(property(get = __cordl_internal_get__dispatchMode_k__BackingField,
+                      put = __cordl_internal_set__dispatchMode_k__BackingField)) ::UnityEngine::UIElements::DispatchMode _dispatchMode_k__BackingField;
+
+  /// @brief Field <labelElement>k__BackingField, offset 0x4e8, size 0x8
   __declspec(property(get = __cordl_internal_get__labelElement_k__BackingField,
                       put = __cordl_internal_set__labelElement_k__BackingField)) ::UnityEngine::UIElements::Label* _labelElement_k__BackingField;
 
   /// @brief Field alignedFieldUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_alignedFieldUssClassName, put = setStaticF_alignedFieldUssClassName)) ::StringW alignedFieldUssClassName;
+
+  __declspec(property(get = get_dispatchMode)) ::UnityEngine::UIElements::DispatchMode dispatchMode;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName)) ::StringW inputUssClassName;
@@ -165,41 +173,41 @@ public:
 
   __declspec(property(get = get_labelElement, put = set_labelElement)) ::UnityEngine::UIElements::Label* labelElement;
 
+  /// @brief Field labelProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_labelProperty, put = setStaticF_labelProperty)) ::UnityEngine::UIElements::BindingId labelProperty;
+
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_CachedContextWidthElement, offset 0x420, size 0x8
+  /// @brief Field m_CachedContextWidthElement, offset 0x508, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CachedContextWidthElement,
                       put = __cordl_internal_set_m_CachedContextWidthElement)) ::UnityEngine::UIElements::VisualElement* m_CachedContextWidthElement;
 
-  /// @brief Field m_CachedInspectorElement, offset 0x428, size 0x8
+  /// @brief Field m_CachedInspectorElement, offset 0x510, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CachedInspectorElement, put = __cordl_internal_set_m_CachedInspectorElement)) ::UnityEngine::UIElements::VisualElement* m_CachedInspectorElement;
 
-  /// @brief Field m_LabelBaseMinWidth, offset 0x3e0, size 0x4
+  /// @brief Field m_LabelBaseMinWidth, offset 0x4c0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LabelBaseMinWidth, put = __cordl_internal_set_m_LabelBaseMinWidth)) float_t m_LabelBaseMinWidth;
 
-  /// @brief Field m_LabelExtraContextWidth, offset 0x3e4, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LabelExtraContextWidth, put = __cordl_internal_set_m_LabelExtraContextWidth)) float_t m_LabelExtraContextWidth;
-
-  /// @brief Field m_LabelExtraPadding, offset 0x3dc, size 0x4
+  /// @brief Field m_LabelExtraPadding, offset 0x4bc, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LabelExtraPadding, put = __cordl_internal_set_m_LabelExtraPadding)) float_t m_LabelExtraPadding;
 
-  /// @brief Field m_LabelWidthRatio, offset 0x3d8, size 0x4
+  /// @brief Field m_LabelWidthRatio, offset 0x4b8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LabelWidthRatio, put = __cordl_internal_set_m_LabelWidthRatio)) float_t m_LabelWidthRatio;
 
-  /// @brief Field m_MixedValueLabel, offset 0x410, size 0x8
+  /// @brief Field m_MixedValueLabel, offset 0x4f8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MixedValueLabel, put = __cordl_internal_set_m_MixedValueLabel)) ::UnityEngine::UIElements::Label* m_MixedValueLabel;
 
-  /// @brief Field m_ShowMixedValue, offset 0x408, size 0x1
+  /// @brief Field m_ShowMixedValue, offset 0x4f0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowMixedValue, put = __cordl_internal_set_m_ShowMixedValue)) bool m_ShowMixedValue;
 
-  /// @brief Field m_SkipValidation, offset 0x418, size 0x1
+  /// @brief Field m_SkipValidation, offset 0x500, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SkipValidation, put = __cordl_internal_set_m_SkipValidation)) bool m_SkipValidation;
 
-  /// @brief Field m_Value, offset 0x3f0, size 0x8
+  /// @brief Field m_Value, offset 0x4d0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) TValueType m_Value;
 
-  /// @brief Field m_VisualInput, offset 0x3e8, size 0x8
+  /// @brief Field m_VisualInput, offset 0x4c8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VisualInput, put = __cordl_internal_set_m_VisualInput)) ::UnityEngine::UIElements::VisualElement* m_VisualInput;
 
   __declspec(property(get = get_mixedValueLabel)) ::UnityEngine::UIElements::Label* mixedValueLabel;
@@ -213,7 +221,7 @@ public:
   /// @brief Field noLabelVariantUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_noLabelVariantUssClassName, put = setStaticF_noLabelVariantUssClassName)) ::StringW noLabelVariantUssClassName;
 
-  /// @brief Field onValidateValue, offset 0x3f8, size 0x8
+  /// @brief Field onValidateValue, offset 0x4d8, size 0x8
   __declspec(property(get = __cordl_internal_get_onValidateValue, put = __cordl_internal_set_onValidateValue)) ::System::Func_2<TValueType, TValueType>* onValidateValue;
 
   __declspec(property(get = get_rawValue, put = set_rawValue)) TValueType rawValue;
@@ -221,10 +229,6 @@ public:
   /// @brief Field s_LabelBaseMinWidthProperty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_LabelBaseMinWidthProperty, put = setStaticF_s_LabelBaseMinWidthProperty)) ::UnityEngine::UIElements::CustomStyleProperty_1<float_t>
       s_LabelBaseMinWidthProperty;
-
-  /// @brief Field s_LabelExtraContextWidthProperty, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_s_LabelExtraContextWidthProperty, put = setStaticF_s_LabelExtraContextWidthProperty)) ::UnityEngine::UIElements::CustomStyleProperty_1<float_t>
-      s_LabelExtraContextWidthProperty;
 
   /// @brief Field s_LabelExtraPaddingProperty, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_LabelExtraPaddingProperty, put = setStaticF_s_LabelExtraPaddingProperty)) ::UnityEngine::UIElements::CustomStyleProperty_1<float_t>
@@ -238,10 +242,16 @@ public:
 
   __declspec(property(get = get_showMixedValue, put = set_showMixedValue)) bool showMixedValue;
 
+  /// @brief Field showMixedValueProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_showMixedValueProperty, put = setStaticF_showMixedValueProperty)) ::UnityEngine::UIElements::BindingId showMixedValueProperty;
+
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
   __declspec(property(get = get_value, put = set_value)) TValueType value;
+
+  /// @brief Field valueProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_valueProperty, put = setStaticF_valueProperty)) ::UnityEngine::UIElements::BindingId valueProperty;
 
   __declspec(property(get = get_visualInput, put = set_visualInput)) ::UnityEngine::UIElements::VisualElement* visualInput;
 
@@ -254,14 +264,17 @@ public:
   /// @brief Method AlignLabel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AlignLabel();
 
+  /// @brief Method ComputeTooltipRect, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::Rect ComputeTooltipRect();
+
   /// @brief Method EndEditing, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EndEditing(::UnityEngine::UIElements::EventBase* e);
 
   /// @brief Method EqualsCurrentValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool EqualsCurrentValue(TValueType value);
 
-  /// @brief Method GetTooltipRect, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Rect GetTooltipRect();
+  /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::BaseField_1<TValueType>* New_ctor(::StringW label);
 
@@ -314,6 +327,10 @@ public:
 
   constexpr ::System::Action*& __cordl_internal_get__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::DispatchMode const& __cordl_internal_get__dispatchMode_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::DispatchMode& __cordl_internal_get__dispatchMode_k__BackingField();
+
   constexpr ::UnityEngine::UIElements::Label* const& __cordl_internal_get__labelElement_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get__labelElement_k__BackingField();
@@ -329,10 +346,6 @@ public:
   constexpr float_t const& __cordl_internal_get_m_LabelBaseMinWidth() const;
 
   constexpr float_t& __cordl_internal_get_m_LabelBaseMinWidth();
-
-  constexpr float_t const& __cordl_internal_get_m_LabelExtraContextWidth() const;
-
-  constexpr float_t& __cordl_internal_get_m_LabelExtraContextWidth();
 
   constexpr float_t const& __cordl_internal_get_m_LabelExtraPadding() const;
 
@@ -370,6 +383,8 @@ public:
 
   constexpr void __cordl_internal_set__UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField(::System::Action* value);
 
+  constexpr void __cordl_internal_set__dispatchMode_k__BackingField(::UnityEngine::UIElements::DispatchMode value);
+
   constexpr void __cordl_internal_set__labelElement_k__BackingField(::UnityEngine::UIElements::Label* value);
 
   constexpr void __cordl_internal_set_m_CachedContextWidthElement(::UnityEngine::UIElements::VisualElement* value);
@@ -377,8 +392,6 @@ public:
   constexpr void __cordl_internal_set_m_CachedInspectorElement(::UnityEngine::UIElements::VisualElement* value);
 
   constexpr void __cordl_internal_set_m_LabelBaseMinWidth(float_t value);
-
-  constexpr void __cordl_internal_set_m_LabelExtraContextWidth(float_t value);
 
   constexpr void __cordl_internal_set_m_LabelExtraPadding(float_t value);
 
@@ -413,6 +426,8 @@ public:
 
   static inline ::StringW getStaticF_labelDraggerVariantUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_labelProperty();
+
   static inline ::StringW getStaticF_labelUssClassName();
 
   static inline ::StringW getStaticF_mixedValueLabelUssClassName();
@@ -423,15 +438,20 @@ public:
 
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> getStaticF_s_LabelBaseMinWidthProperty();
 
-  static inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> getStaticF_s_LabelExtraContextWidthProperty();
-
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> getStaticF_s_LabelExtraPaddingProperty();
 
   static inline ::UnityEngine::UIElements::CustomStyleProperty_1<float_t> getStaticF_s_LabelWidthRatioProperty();
 
   static inline ::UnityEngine::PropertyName getStaticF_serializedPropertyCopyName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_showMixedValueProperty();
+
   static inline ::StringW getStaticF_ussClassName();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_valueProperty();
+
+  /// @brief Method get_dispatchMode, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::DispatchMode get_dispatchMode();
 
   /// @brief Method get_label, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_label();
@@ -471,6 +491,8 @@ public:
 
   static inline void setStaticF_labelDraggerVariantUssClassName(::StringW value);
 
+  static inline void setStaticF_labelProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_labelUssClassName(::StringW value);
 
   static inline void setStaticF_mixedValueLabelUssClassName(::StringW value);
@@ -481,15 +503,17 @@ public:
 
   static inline void setStaticF_s_LabelBaseMinWidthProperty(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> value);
 
-  static inline void setStaticF_s_LabelExtraContextWidthProperty(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> value);
-
   static inline void setStaticF_s_LabelExtraPaddingProperty(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> value);
 
   static inline void setStaticF_s_LabelWidthRatioProperty(::UnityEngine::UIElements::CustomStyleProperty_1<float_t> value);
 
   static inline void setStaticF_serializedPropertyCopyName(::UnityEngine::PropertyName value);
 
+  static inline void setStaticF_showMixedValueProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_ussClassName(::StringW value);
+
+  static inline void setStaticF_valueProperty(::UnityEngine::UIElements::BindingId value);
 
   /// @brief Method set_label, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_label(::StringW value);
@@ -524,51 +548,51 @@ public:
   BaseField_1(BaseField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5607 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
 
-  /// @brief Field m_LabelWidthRatio, offset: 0x3d8, size: 0x4, def value: None
+  /// @brief Field m_LabelWidthRatio, offset: 0x4b8, size: 0x4, def value: None
   float_t ___m_LabelWidthRatio;
 
-  /// @brief Field m_LabelExtraPadding, offset: 0x3dc, size: 0x4, def value: None
+  /// @brief Field m_LabelExtraPadding, offset: 0x4bc, size: 0x4, def value: None
   float_t ___m_LabelExtraPadding;
 
-  /// @brief Field m_LabelBaseMinWidth, offset: 0x3e0, size: 0x4, def value: None
+  /// @brief Field m_LabelBaseMinWidth, offset: 0x4c0, size: 0x4, def value: None
   float_t ___m_LabelBaseMinWidth;
 
-  /// @brief Field m_LabelExtraContextWidth, offset: 0x3e4, size: 0x4, def value: None
-  float_t ___m_LabelExtraContextWidth;
-
-  /// @brief Field m_VisualInput, offset: 0x3e8, size: 0x8, def value: None
+  /// @brief Field m_VisualInput, offset: 0x4c8, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_VisualInput;
 
-  /// @brief Field m_Value, offset: 0x3f0, size: 0x8, def value: None
+  /// @brief Field m_Value, offset: 0x4d0, size: 0x8, def value: None
   TValueType ___m_Value;
 
-  /// @brief Field onValidateValue, offset: 0x3f8, size: 0x8, def value: None
+  /// @brief Field onValidateValue, offset: 0x4d8, size: 0x8, def value: None
   ::System::Func_2<TValueType, TValueType>* ___onValidateValue;
 
-  /// @brief Field <labelElement>k__BackingField, offset: 0x400, size: 0x8, def value: None
+  /// @brief Field <dispatchMode>k__BackingField, offset: 0x4e0, size: 0x4, def value: None
+  ::UnityEngine::UIElements::DispatchMode ____dispatchMode_k__BackingField;
+
+  /// @brief Field <labelElement>k__BackingField, offset: 0x4e8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ____labelElement_k__BackingField;
 
-  /// @brief Field m_ShowMixedValue, offset: 0x408, size: 0x1, def value: None
+  /// @brief Field m_ShowMixedValue, offset: 0x4f0, size: 0x1, def value: None
   bool ___m_ShowMixedValue;
 
-  /// @brief Field m_MixedValueLabel, offset: 0x410, size: 0x8, def value: None
+  /// @brief Field m_MixedValueLabel, offset: 0x4f8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_MixedValueLabel;
 
-  /// @brief Field m_SkipValidation, offset: 0x418, size: 0x1, def value: None
+  /// @brief Field m_SkipValidation, offset: 0x500, size: 0x1, def value: None
   bool ___m_SkipValidation;
 
-  /// @brief Field m_CachedContextWidthElement, offset: 0x420, size: 0x8, def value: None
+  /// @brief Field m_CachedContextWidthElement, offset: 0x508, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_CachedContextWidthElement;
 
-  /// @brief Field m_CachedInspectorElement, offset: 0x428, size: 0x8, def value: None
+  /// @brief Field m_CachedInspectorElement, offset: 0x510, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_CachedInspectorElement;
 
-  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField, offset: 0x430, size: 0x8, def value: None
+  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingStarted>k__BackingField, offset: 0x518, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_IEditableElement_editingStarted_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField, offset: 0x438, size: 0x8, def value: None
+  /// @brief Field <UnityEngine.UIElements.IEditableElement.editingEnded>k__BackingField, offset: 0x520, size: 0x8, def value: None
   ::System::Action* ____UnityEngine_UIElements_IEditableElement_editingEnded_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

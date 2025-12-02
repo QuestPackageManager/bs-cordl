@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/zzzz__IChannelInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ChannelInfo)
+namespace System::Runtime::Remoting {
+class IChannelInfo;
+}
 namespace System {
 class Object;
 }
@@ -15,7 +17,7 @@ class ChannelInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::ChannelInfo);
-// Dependencies System.Object, System.Runtime.Remoting.IChannelInfo
+// Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.ChannelInfo
@@ -40,13 +42,13 @@ public:
 
   constexpr void __cordl_internal_set_channelData(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x3cc6c14, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590a398, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cc6c7c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590a3f8, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* remoteChannelData);
 
-  /// @brief Method get_ChannelData, addr 0x3cc6d24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ChannelData, addr 0x590a498, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ChannelData();
 
   /// @brief Convert to "::System::Runtime::Remoting::IChannelInfo"
@@ -67,7 +69,7 @@ public:
   ChannelInfo(ChannelInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3068 };
 
   /// @brief Field channelData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___channelData;

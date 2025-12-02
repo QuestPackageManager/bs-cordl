@@ -34,7 +34,7 @@ public:
   /// @brief Method VerifySignature, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
 
-  /// @brief Method .ctor, addr 0x3c9eaac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e28e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -52,7 +52,7 @@ public:
   AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2918 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

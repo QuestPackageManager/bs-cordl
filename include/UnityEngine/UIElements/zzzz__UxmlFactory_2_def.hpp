@@ -4,14 +4,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseUxmlFactory_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlFactory_def.hpp"
 CORDL_MODULE_EXPORT(UxmlFactory_2)
 namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class IBaseUxmlFactory;
+}
+namespace UnityEngine::UIElements {
 class IUxmlAttributes;
+}
+namespace UnityEngine::UIElements {
+class IUxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -22,7 +26,7 @@ template <typename TCreatedType, typename TTraits> class UxmlFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::UxmlFactory_2);
-// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>, UnityEngine.UIElements.IBaseUxmlFactory, UnityEngine.UIElements.IUxmlFactory
+// Dependencies UnityEngine.UIElements.BaseUxmlFactory`2<TCreatedType, TTraits>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TCreatedType, typename TTraits>
@@ -66,7 +70,7 @@ public:
   UxmlFactory_2(UxmlFactory_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6278 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5184 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

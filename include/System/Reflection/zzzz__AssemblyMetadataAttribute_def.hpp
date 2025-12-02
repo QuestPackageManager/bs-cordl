@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set__Value_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d21dcc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5967088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW key, ::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   AssemblyMetadataAttribute(AssemblyMetadataAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3473 };
 
   /// @brief Field <Key>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Key_k__BackingField;

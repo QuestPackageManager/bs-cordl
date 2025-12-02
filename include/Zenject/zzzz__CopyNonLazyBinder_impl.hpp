@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CopyNonLazyBinder::*)(::Zenject::BindInfo*)>(&::Zenject::CopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b0021c;
+  constexpr static std::size_t addrs = 0x6c161b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CopyNonLazyBinder::*)(::Zenject::BindInfo*)>(
     &::Zenject::CopyNonLazyBinder::AddSecondaryCopyBindInfo)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4b0444c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6c1a17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(
     &::Zenject::CopyNonLazyBinder::CopyIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4afed8c;
+  constexpr static std::size_t addrs = 0x6c14de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CopyNonLazyBinder*>::get(), "CopyIntoAllSubContainers",
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(
     &::Zenject::CopyNonLazyBinder::CopyIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b0467c;
+  constexpr static std::size_t addrs = 0x6c1a398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CopyNonLazyBinder*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(
     &::Zenject::CopyNonLazyBinder::MoveIntoAllSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b04698;
+  constexpr static std::size_t addrs = 0x6c1a3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CopyNonLazyBinder*>::get(), "MoveIntoAllSubContainers",
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::NonLazyBinder* (::Zenject::CopyNonLazyBinder::*)()>(
     &::Zenject::CopyNonLazyBinder::MoveIntoDirectSubContainers)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b046b4;
+  constexpr static std::size_t addrs = 0x6c1a3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::CopyNonLazyBinder*>::get(),
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::CopyNonLazyBinder::*)(::Zenject::BindingInheritanceMethods)>(
     &::Zenject::CopyNonLazyBinder::SetInheritanceMethod)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4b04538;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6c1a280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

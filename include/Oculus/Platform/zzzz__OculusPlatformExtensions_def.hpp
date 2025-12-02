@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
@@ -130,7 +129,7 @@ public:
   OculusPlatformExtensions___c__DisplayClass0_0_1(OculusPlatformExtensions___c__DisplayClass0_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17958 };
 
   /// @brief Field tcs, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::Oculus::Platform::Message_1<T>*>* ___tcs;
@@ -142,8 +141,8 @@ public:
 };
 // Non member Declarations
 } // namespace Oculus::Platform
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Runtime.CompilerServices.ValueTaskAwaiter, System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Runtime.CompilerServices.ValueTaskAwaiter,
+// System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration
 namespace Oculus::Platform {
 // cpp template
 template <typename T>
@@ -182,7 +181,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -221,8 +220,7 @@ public:
 };
 // Non member Declarations
 } // namespace Oculus::Platform
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken, System.TimeSpan
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken, System.TimeSpan
 namespace Oculus::Platform {
 // cpp template
 template <typename T>
@@ -260,7 +258,7 @@ public:
                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<T>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17960 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -306,7 +304,7 @@ public:
 
   template <typename T> using __c__DisplayClass0_0_1 = ::Oculus::Platform::OculusPlatformExtensions___c__DisplayClass0_0_1<T>;
 
-  /// @brief Method GetAwaiter, addr 0x3f5a9cc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x5bd8570, size 0x100, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> GetAwaiter(::Oculus::Platform::Request* oculusRequest);
 
   /// @brief Method GetAwaiter, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -337,7 +335,7 @@ public:
   OculusPlatformExtensions(OculusPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17961 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

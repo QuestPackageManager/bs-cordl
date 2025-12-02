@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlAsyncCheckReaderWithLineInfoNSSchema.hpp"
-#include "System/Xml/Schema/zzzz__IXmlSchemaInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfoNS_impl.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReaderWithLineInfoNSSchema_def.hpp"
 #include "System/Xml/Schema/zzzz__IXmlSchemaInfo_def.hpp"
@@ -15,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)(::System::Xml::XmlReader*)>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430d36c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5f9721c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaValidity (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_Validity)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x430e74c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5f98968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsDefault)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430e7ec;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f98a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_IsNil)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430e890;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f98ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaSimpleType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_MemberType)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430e934;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f98b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaType)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430e9d8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f98c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaElement* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaElement)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430ea7c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f98cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaAttribute* (::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::*)()>(
     &::System::Xml::XmlAsyncCheckReaderWithLineInfoNSSchema::System_Xml_Schema_IXmlSchemaInfo_get_SchemaAttribute)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430eb20;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5f98d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

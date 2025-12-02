@@ -3,13 +3,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEnterEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEnterEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::MouseEnterEvent___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEnterEvent___c::*)()>(&::UnityEngine::UIElements::MouseEnterEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2dcb8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b6b5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent___c*>::get(), ".ctor",
@@ -22,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseEnterEvent* (::UnityEngine::UIElements::MouseEnterEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseEnterEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2dcc0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b6b5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent___c*>::get(),
@@ -59,13 +60,13 @@ constexpr ::UnityEngine::UIElements::MouseEnterEvent___c::MouseEnterEvent___c() 
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEnterEvent::*)()>(&::UnityEngine::UIElements::MouseEnterEvent::Init)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a2dba8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b6b49c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -74,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEnterEvent::*)()>(&::UnityEngine::UIElements::MouseEnterEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a2dbfc;
+  constexpr static std::size_t addrs = 0x6b6b4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), "LocalInit",
@@ -86,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEnterEvent::*)()>(&::UnityEngine::UIElements::MouseEnterEvent::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a2dc08;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b6b500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), ".ctor",
@@ -95,9 +96,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::MouseEnterEvent.Dispatch
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseEnterEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
+    &::UnityEngine::UIElements::MouseEnterEvent::Dispatch)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b6b558;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), 10));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::UIElements::MouseEnterEvent::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::MouseEnterEvent::LocalInit() {
@@ -109,6 +125,11 @@ inline void UnityEngine::UIElements::MouseEnterEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::MouseEnterEvent::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseEnterEvent*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
 inline ::UnityEngine::UIElements::MouseEnterEvent* UnityEngine::UIElements::MouseEnterEvent::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::MouseEnterEvent*>());

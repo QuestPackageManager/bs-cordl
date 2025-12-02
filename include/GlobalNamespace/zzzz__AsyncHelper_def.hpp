@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
@@ -38,7 +37,7 @@ struct AsyncHelper__AnyTaskTrueNonAlloc_d__2;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AsyncHelper);
 MARK_VAL_T(::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: AsyncHelper/<AnyTaskTrueNonAlloc>d__2
@@ -48,10 +47,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x229e798, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31e4254, size 0x364, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x229ea98, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31e45b8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -70,7 +69,7 @@ public:
                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Threading::Tasks::Task_1<bool>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20471 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -110,13 +109,13 @@ public:
   // Declarations
   using _AnyTaskTrueNonAlloc_d__2 = ::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2;
 
-  /// @brief Method AnyTaskTrueNonAlloc, addr 0x229e6a8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AnyTaskTrueNonAlloc, addr 0x31e4178, size 0xdc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* AnyTaskTrueNonAlloc(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>* tasks);
 
   /// @brief Method RunSync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T RunSync(::System::Func_1<::System::Threading::Tasks::Task_1<T>*>* asyncTask);
 
-  /// @brief Method RunSync, addr 0x229e624, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method RunSync, addr 0x31e4110, size 0x68, virtual false, abstract: false, final false
   static inline void RunSync(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
 protected:
@@ -134,7 +133,7 @@ public:
   AsyncHelper(AsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16917 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

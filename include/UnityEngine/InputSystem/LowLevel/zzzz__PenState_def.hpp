@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PenState)
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -21,7 +23,7 @@ struct PenState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::PenState);
-// Dependencies UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.Vector2
+// Dependencies UnityEngine.Vector2
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.PenState
@@ -55,7 +57,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x4608aec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x6390018, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::PenState WithButton(::UnityEngine::InputSystem::PenButton button, bool state);
 
   constexpr uint16_t const& __cordl_internal_get_buttons() const;
@@ -100,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set_twist(float_t value);
 
-  /// @brief Method get_Format, addr 0x4608abc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x639000c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x4608b20, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x639004c, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -224,7 +226,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6916 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8974 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };

@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
@@ -14,7 +13,6 @@ CORDL_MODULE_INIT
 #include "System/Security/Cryptography/zzzz__CryptoStreamMode_def.hpp"
 #include "System/Threading/Tasks/zzzz__ForceAsyncAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -71,6 +69,9 @@ namespace System {
 class IAsyncResult;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -99,8 +100,8 @@ MARK_VAL_T(::System::Security::Cryptography::CryptoStream__ReadAsyncCore_d__42);
 MARK_VAL_T(::System::Security::Cryptography::CryptoStream__ReadAsyncInternal_d__37);
 MARK_VAL_T(::System::Security::Cryptography::CryptoStream__WriteAsyncCore_d__49);
 MARK_VAL_T(::System::Security::Cryptography::CryptoStream__WriteAsyncInternal_d__46);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken, System.Threading.Tasks.ForceAsyncAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
+// System.Threading.Tasks.ForceAsyncAwaiter
 namespace System::Security::Cryptography {
 // Is value type: true
 // CS Name: System.Security.Cryptography.CryptoStream/<ReadAsyncInternal>d__37
@@ -110,10 +111,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c9ab80, size 0x430, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58df0b0, size 0x45c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c9afb0, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58df50c, size 0x190, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -136,7 +137,7 @@ public:
                                                   ::System::Threading::Tasks::ForceAsyncAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<int32_t> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2924 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -197,8 +198,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__ReadAsync
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptoStream__ReadAsyncInternal_d__37, 0x58>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ValueTaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ValueTaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace System::Security::Cryptography {
 // Is value type: true
 // CS Name: System.Security.Cryptography.CryptoStream/<ReadAsyncCore>d__42
@@ -208,10 +208,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c9b124, size 0xf90, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58df69c, size 0xf7c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c9c11c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58e0674, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -237,7 +237,7 @@ public:
                                               ::ArrayW<uint8_t, ::Array<uint8_t>*> _tempOutputBuffer_5__6, ::System::Runtime::CompilerServices::ValueTaskAwaiter_1<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2925 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -318,8 +318,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__ReadAsync
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptoStream__ReadAsyncCore_d__42, 0x78>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Threading.CancellationToken, System.Threading.Tasks.ForceAsyncAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken, System.Threading.Tasks.ForceAsyncAwaiter
 namespace System::Security::Cryptography {
 // Is value type: true
 // CS Name: System.Security.Cryptography.CryptoStream/<WriteAsyncInternal>d__46
@@ -329,10 +328,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c9c198, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58e06f4, size 0x3d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c9c524, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58e0ac8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -355,7 +354,7 @@ public:
                                                    ::System::Threading::Tasks::ForceAsyncAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -416,8 +415,7 @@ static_assert(offsetof(::System::Security::Cryptography::CryptoStream__WriteAsyn
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptoStream__WriteAsyncInternal_d__46, 0x58>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.ValueTaskAwaiter,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ValueTaskAwaiter, System.Threading.CancellationToken
 namespace System::Security::Cryptography {
 // Is value type: true
 // CS Name: System.Security.Cryptography.CryptoStream/<WriteAsyncCore>d__49
@@ -427,10 +425,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c9c58c, size 0x1578, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58e0b34, size 0xcbc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c9db04, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x58e17f0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -455,7 +453,7 @@ public:
                                                ::ArrayW<uint8_t, ::Array<uint8_t>*> _tempOutputBuffer_5__6) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -551,10 +549,10 @@ public:
 
   static inline ::System::Security::Cryptography::CryptoStream___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c9dbc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e18b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_AsyncActiveSemaphore>b__54_0, addr 0x3c9dbd0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <get_AsyncActiveSemaphore>b__54_0, addr 0x58e18b4, size 0x60, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* _get_AsyncActiveSemaphore_b__54_0();
 
   static inline ::System::Security::Cryptography::CryptoStream___c* getStaticF___9();
@@ -580,7 +578,7 @@ public:
   CryptoStream___c(CryptoStream___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2911 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -588,7 +586,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::CryptoStream___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Security::Cryptography
-// Dependencies System.IDisposable, System.IO.Stream, System.Security.Cryptography.CryptoStreamMode
+// Dependencies System.IO.Stream, System.Security.Cryptography.CryptoStreamMode
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: System.Security.Cryptography.CryptoStream
@@ -664,40 +662,40 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginRead, addr 0x3c9a164, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginRead, addr 0x58de6d4, size 0xb0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method BeginWrite, addr 0x3c9a798, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method BeginWrite, addr 0x58dece8, size 0xb0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* callback, ::System::Object* state);
 
-  /// @brief Method CheckReadArguments, addr 0x3c99f10, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckReadArguments, addr 0x58de48c, size 0x138, virtual false, abstract: false, final false
   inline void CheckReadArguments(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method CheckWriteArguments, addr 0x3c9a56c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method CheckWriteArguments, addr 0x58deacc, size 0x138, virtual false, abstract: false, final false
   inline void CheckWriteArguments(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method Clear, addr 0x3c9a9d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x58deef4, size 0x10, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Dispose, addr 0x3c9a9e0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x58def04, size 0xac, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EndRead, addr 0x3c9a218, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method EndRead, addr 0x58de784, size 0x4c, virtual true, abstract: false, final false
   inline int32_t EndRead(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method EndWrite, addr 0x3c9a84c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndWrite, addr 0x58ded98, size 0xc, virtual true, abstract: false, final false
   inline void EndWrite(::System::IAsyncResult* asyncResult);
 
-  /// @brief Method Flush, addr 0x3c99c98, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x58de220, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
-  /// @brief Method FlushAsync, addr 0x3c99c9c, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method FlushAsync, addr 0x58de224, size 0x188, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FlushFinalBlock, addr 0x3c99a6c, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method FlushFinalBlock, addr 0x58ddff0, size 0x230, virtual false, abstract: false, final false
   inline void FlushFinalBlock();
 
-  /// @brief Method InitializeBuffer, addr 0x3c9981c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method InitializeBuffer, addr 0x58ddd90, size 0x15c, virtual false, abstract: false, final false
   inline void InitializeBuffer();
 
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
@@ -706,43 +704,43 @@ public:
   static inline ::System::Security::Cryptography::CryptoStream* New_ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform,
                                                                          ::System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen);
 
-  /// @brief Method Read, addr 0x3c9a330, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x58de8a0, size 0xbc, virtual true, abstract: false, final false
   inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadAsync, addr 0x3c99ec8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x58de444, size 0x48, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsyncCore, addr 0x3c9a3f0, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ReadAsyncCore, addr 0x58de95c, size 0x128, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncCore(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
                                                                     ::System::Threading::CancellationToken cancellationToken, bool useAsync);
 
-  /// @brief Method ReadAsyncInternal, addr 0x3c9a048, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method ReadAsyncInternal, addr 0x58de5c4, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsyncInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count,
                                                                         ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadByte, addr 0x3c9a260, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ReadByte, addr 0x58de7d0, size 0x7c, virtual true, abstract: false, final false
   inline int32_t ReadByte();
 
-  /// @brief Method Seek, addr 0x3c99e30, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Seek, addr 0x58de3ac, size 0x4c, virtual true, abstract: false, final false
   inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
 
-  /// @brief Method SetLength, addr 0x3c99e7c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method SetLength, addr 0x58de3f8, size 0x4c, virtual true, abstract: false, final false
   inline void SetLength(int64_t value);
 
-  /// @brief Method Write, addr 0x3c9a858, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x58deda4, size 0x54, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteAsync, addr 0x3c9a524, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method WriteAsync, addr 0x58dea84, size 0x48, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteAsyncCore, addr 0x3c9a8c4, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method WriteAsyncCore, addr 0x58dedf8, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncCore(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken,
                                                           bool useAsync);
 
-  /// @brief Method WriteAsyncInternal, addr 0x3c9a6a4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method WriteAsyncInternal, addr 0x58dec04, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method WriteByte, addr 0x3c9a2dc, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x58de84c, size 0x54, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr bool const& __cordl_internal_get__canRead() const;
@@ -829,37 +827,37 @@ public:
 
   constexpr void __cordl_internal_set__transformMode(::System::Security::Cryptography::CryptoStreamMode value);
 
-  /// @brief Method .ctor, addr 0x3c99658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ddbd4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode);
 
-  /// @brief Method .ctor, addr 0x3c99660, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58ddbdc, size 0x1b4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Security::Cryptography::ICryptoTransform* transform, ::System::Security::Cryptography::CryptoStreamMode mode, bool leaveOpen);
 
-  /// @brief Method get_AsyncActiveSemaphore, addr 0x3c9aa90, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method get_AsyncActiveSemaphore, addr 0x58defb0, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::SemaphoreSlim* get_AsyncActiveSemaphore();
 
-  /// @brief Method get_CanRead, addr 0x3c99968, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x58ddeec, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanSeek, addr 0x3c99970, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanSeek, addr 0x58ddef4, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanSeek();
 
-  /// @brief Method get_CanWrite, addr 0x3c99978, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x58ddefc, size 0x8, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_HasFlushedFinalBlock, addr 0x3c99a64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HasFlushedFinalBlock, addr 0x58ddfe8, size 0x8, virtual false, abstract: false, final false
   inline bool get_HasFlushedFinalBlock();
 
-  /// @brief Method get_Length, addr 0x3c99980, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Length, addr 0x58ddf04, size 0x4c, virtual true, abstract: false, final false
   inline int64_t get_Length();
 
-  /// @brief Method get_Position, addr 0x3c999cc, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x58ddf50, size 0x4c, virtual true, abstract: false, final false
   inline int64_t get_Position();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_Position, addr 0x3c99a18, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method set_Position, addr 0x58ddf9c, size 0x4c, virtual true, abstract: false, final false
   inline void set_Position(int64_t value);
 
 protected:
@@ -877,7 +875,7 @@ public:
   CryptoStream(CryptoStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2929 };
 
   /// @brief Field _stream, offset: 0x28, size: 0x8, def value: None
   ::System::IO::Stream* ____stream;

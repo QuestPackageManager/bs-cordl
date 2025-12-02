@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -14,13 +13,16 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Crypto {
+class IMac;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class Ssl3Mac;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::Ssl3Mac);
-// Dependencies Org.BouncyCastle.Crypto.IMac, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.Ssl3Mac
@@ -47,27 +49,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMac"
   constexpr operator ::Org::BouncyCastle::Crypto::IMac*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x241d718, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x334ba74, size 0xd0, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
-  /// @brief Method DoFinal, addr 0x241d7dc, size 0x37c, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x334bb44, size 0x388, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GenPad, addr 0x241dd2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GenPad, addr 0x334c0a0, size 0xa0, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenPad(uint8_t b, int32_t count);
 
-  /// @brief Method GetMacSize, addr 0x241d5c8, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method GetMacSize, addr 0x334b914, size 0xa8, virtual true, abstract: false, final false
   inline int32_t GetMacSize();
 
-  /// @brief Method Init, addr 0x241d4f0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x334b828, size 0xec, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Ssl3Mac* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Reset, addr 0x241db58, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x334becc, size 0x1d4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x241d66c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x334b9bc, size 0xb8, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
@@ -88,14 +90,14 @@ public:
 
   constexpr void __cordl_internal_set_secret(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x241d364, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334b694, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IPAD();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_OPAD();
 
-  /// @brief Method get_AlgorithmName, addr 0x241d430, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x334b760, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IMac"

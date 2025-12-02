@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemoryPoolBase_1)
 namespace System::Collections::Generic {
@@ -14,6 +11,9 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -28,6 +28,12 @@ namespace Zenject {
 template <typename TValue> class IFactory_1;
 }
 namespace Zenject {
+class IMemoryPool;
+}
+namespace Zenject {
+class IValidatable;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 namespace Zenject {
@@ -39,7 +45,7 @@ template <typename TContract> class MemoryPoolBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPoolBase_1);
-// Dependencies System.IDisposable, System.Object, Zenject.IMemoryPool, Zenject.IValidatable
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -218,7 +224,7 @@ public:
   MemoryPoolBase_1(MemoryPoolBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14372 };
 
   /// @brief Field _inactiveItems, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<TContract>* ____inactiveItems;

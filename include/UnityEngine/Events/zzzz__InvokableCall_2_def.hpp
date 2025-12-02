@@ -38,6 +38,11 @@ public:
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Invoke(T1 args0, T2 args1);
+
+  static inline ::UnityEngine::Events::InvokableCall_2<T1, T2>* New_ctor(::UnityEngine::Events::UnityAction_2<T1, T2>* action);
+
   static inline ::UnityEngine::Events::InvokableCall_2<T1, T2>* New_ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
   constexpr ::UnityEngine::Events::UnityAction_2<T1, T2>* const& __cordl_internal_get_Delegate() const;
@@ -47,7 +52,16 @@ public:
   constexpr void __cordl_internal_set_Delegate(::UnityEngine::Events::UnityAction_2<T1, T2>* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::Events::UnityAction_2<T1, T2>* action);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
+
+  /// @brief Method add_Delegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void add_Delegate(::UnityEngine::Events::UnityAction_2<T1, T2>* value);
+
+  /// @brief Method remove_Delegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void remove_Delegate(::UnityEngine::Events::UnityAction_2<T1, T2>* value);
 
 protected:
   // Ctor Parameters []
@@ -64,7 +78,7 @@ public:
   InvokableCall_2(InvokableCall_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10419 };
 
   /// @brief Field Delegate, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Events::UnityAction_2<T1, T2>* ___Delegate;

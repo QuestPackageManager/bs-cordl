@@ -54,7 +54,7 @@ public:
 
   static inline ::GlobalNamespace::ModifiersSelectionView___c__DisplayClass3_0* New_ctor();
 
-  /// @brief Method <SetGameplayModifiers>b__0, addr 0x3b0595c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <SetGameplayModifiers>b__0, addr 0x56e7084, size 0x80, virtual false, abstract: false, final false
   inline void _SetGameplayModifiers_b__0(int32_t idx, ::GlobalNamespace::GameplayModifierInfoListItem* item);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifierParams() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_modifierParams(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3b05954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e7080, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +81,7 @@ public:
   ModifiersSelectionView___c__DisplayClass3_0(ModifiersSelectionView___c__DisplayClass3_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6573 };
 
   /// @brief Field modifierParams, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifierParams;
@@ -115,7 +115,7 @@ public:
 
   static inline ::GlobalNamespace::ModifiersSelectionView* New_ctor();
 
-  /// @brief Method SetGameplayModifiers, addr 0x3b000c8, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x56e227c, size 0x1b4, virtual true, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__noModifiersText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b00240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e243c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -154,7 +154,7 @@ public:
   ModifiersSelectionView(ModifiersSelectionView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6574 };
 
   /// @brief Field _modifierInfoList, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::GameplayModifierInfoListItemsList> ____modifierInfoList;

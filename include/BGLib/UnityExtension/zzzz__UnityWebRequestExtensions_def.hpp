@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
@@ -79,7 +78,7 @@ public:
 
   static inline ::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0* New_ctor();
 
-  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x22b781c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <GetAwaiter>g__SetResult|0, addr 0x31fe8e0, size 0xd8, virtual false, abstract: false, final false
   inline void _GetAwaiter_g__SetResult_0(::UnityEngine::AsyncOperation* _);
 
   constexpr ::System::Threading::Tasks::TaskCompletionSource_1<::UnityEngine::Networking::UnityWebRequest_Result>* const& __cordl_internal_get_tcs() const;
@@ -94,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set_webRequestOperation(::UnityEngine::Networking::UnityWebRequestAsyncOperation* value);
 
-  /// @brief Method .ctor, addr 0x22b7814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fe8dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -112,7 +111,7 @@ public:
   UnityWebRequestExtensions___c__DisplayClass1_0(UnityWebRequestExtensions___c__DisplayClass1_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20725 };
 
   /// @brief Field webRequestOperation, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Networking::UnityWebRequestAsyncOperation* ___webRequestOperation;
@@ -130,8 +129,8 @@ static_assert(offsetof(::BGLib::UnityExtension::UnityWebRequestExtensions___c__D
 static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0, 0x20>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Runtime.CompilerServices.ValueTaskAwaiter, System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration, UnityEngine.Networking.UnityWebRequest::Result
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Runtime.CompilerServices.ValueTaskAwaiter,
+// System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration, UnityEngine.Networking.UnityWebRequest::Result
 namespace BGLib::UnityExtension {
 // Is value type: true
 // CS Name: BGLib.UnityExtension.UnityWebRequestExtensions/<SendWebRequestAsync>d__0
@@ -141,10 +140,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22b78f0, size 0x83c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31fe9b8, size 0x65c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22b812c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31ff014, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -171,7 +170,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::ValueTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20726 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -243,11 +242,11 @@ public:
 
   using __c__DisplayClass1_0 = ::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0;
 
-  /// @brief Method GetAwaiter, addr 0x22b7204, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x31fe2dc, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result>
   GetAwaiter(::UnityEngine::Networking::UnityWebRequestAsyncOperation* webRequestOperation);
 
-  /// @brief Method SendWebRequestAsync, addr 0x22b7724, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method SendWebRequestAsync, addr 0x31fe7e8, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityEngine::Networking::UnityWebRequest_Result>* SendWebRequestAsync(::UnityEngine::Networking::UnityWebRequest* request,
                                                                                                                            ::System::Threading::CancellationToken cancellationToken);
 
@@ -266,7 +265,7 @@ public:
   UnityWebRequestExtensions(UnityWebRequestExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20727 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

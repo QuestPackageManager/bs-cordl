@@ -2,16 +2,16 @@
 // IWYU pragma private; include "UnityEngine/IntegratedSubsystemDescriptor.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "UnityEngine/zzzz__ISubsystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::IntegratedSubsystemDescriptor.get_id
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::IntegratedSubsystemDescriptor::*)()>(
     &::UnityEngine::IntegratedSubsystemDescriptor::get_id)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x491aeb0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6983fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystemDescriptor*>::get(), "get_id",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ISubsystem* (::UnityEngine::IntegratedSubsystemDescriptor::*)()>(
     &::UnityEngine::IntegratedSubsystemDescriptor::UnityEngine_ISubsystemDescriptor_Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491af28;
+  constexpr static std::size_t addrs = 0x6984094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::IntegratedSubsystemDescriptor::*)()>(&::UnityEngine::IntegratedSubsystemDescriptor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491af34;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x69840a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::IntegratedSubsystemDescriptor*>::get(), ".ctor",

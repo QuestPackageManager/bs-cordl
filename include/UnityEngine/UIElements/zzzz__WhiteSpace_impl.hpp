@@ -9,3 +9,5 @@ constexpr ::UnityEngine::UIElements::WhiteSpace::WhiteSpace(int32_t value__) noe
 constexpr ::UnityEngine::UIElements::WhiteSpace::WhiteSpace() {}
 constexpr ::UnityEngine::UIElements::WhiteSpace UnityEngine::UIElements::WhiteSpace::Normal{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::WhiteSpace UnityEngine::UIElements::WhiteSpace::NoWrap{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::WhiteSpace UnityEngine::UIElements::WhiteSpace::Pre{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::WhiteSpace UnityEngine::UIElements::WhiteSpace::PreWrap{ static_cast<int32_t>(0x3) };

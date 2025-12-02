@@ -44,7 +44,7 @@ public:
 
   static inline ::Ice::BeatmapFloorLightTilesGrid* New_ctor();
 
-  /// @brief Method Start, addr 0x2268ba4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x318c16c, size 0x70, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapObjectSpawnController> const& __cordl_internal_get__beatmapObjectSpawnController() const;
@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set__tileWidth(float_t value);
 
-  /// @brief Method .ctor, addr 0x2268dac, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318c380, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   BeatmapFloorLightTilesGrid(BeatmapFloorLightTilesGrid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22824 };
 
   /// @brief Field _numberOfRows, offset: 0x20, size: 0x4, def value: None
   int32_t ____numberOfRows;

@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/InternetConnectionChecker.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InternetConnectionChecker_def.hpp"
@@ -14,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0::*)()>(
     &::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3c22ac8;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x58146a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::InternetConnectionChecker__IsConnectedToInternetAsync_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c22d64;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x581497c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::InternetConnectionChecker::IsConnectedToInternetAsync)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3c229dc;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x58145c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InternetConnectionChecker::*)()>(&::GlobalNamespace::InternetConnectionChecker::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c22ac0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x581469c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InternetConnectionChecker*>::get(), ".ctor",

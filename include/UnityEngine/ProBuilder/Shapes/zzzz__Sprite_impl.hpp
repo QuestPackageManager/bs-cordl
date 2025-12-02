@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Sprite::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
     &::UnityEngine::ProBuilder::Shapes::Sprite::CopyShape)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4754398;
+  constexpr static std::size_t addrs = 0x64eaff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Sprite::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::Sprite::RebuildMesh)> {
-  constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x475439c;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x64eaff8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Sprite::*)()>(&::UnityEngine::ProBuilder::Shapes::Sprite::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x475469c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64eb2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Sprite*>::get(), ".ctor",

@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PingUtility.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -16,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PingUtility___c::*)()>(&::GlobalNamespace::PingUtility___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22e1a14;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3218700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PingUtility___c*>::get(), ".ctor",
@@ -30,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Ping* (::GlobalNamespace::PingUtility___c::*)(::System::Net::IPAddress*)>(
     &::GlobalNamespace::PingUtility___c::_PingAsync_b__0_0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22e1a1c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x3218704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PingUtility__PingAsync_d__0::*)()>(
     &::GlobalNamespace::PingUtility__PingAsync_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x22e1a98;
+  constexpr static std::size_t size = 0x600;
+  constexpr static std::size_t addrs = 0x3218788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PingUtility__PingAsync_d__0>::get(),
@@ -91,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PingUtility__PingAsync_d__0::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::PingUtility__PingAsync_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22e2028;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x3218d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,8 +145,8 @@ constexpr ::GlobalNamespace::PingUtility__PingAsync_d__0::PingUtility__PingAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int64_t>* (*)(::StringW)>(&::GlobalNamespace::PingUtility::PingAsync)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22e18c0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x32185c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

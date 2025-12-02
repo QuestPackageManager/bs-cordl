@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword::*)()>(
     &::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270b0a0;
+  constexpr static std::size_t addrs = 0x3635e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>* (
     ::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword::*)()>(&::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword::get_eventTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270b0a8;
+  constexpr static std::size_t addrs = 0x3635e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword::*)(
     ::StringW, ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BeatmapEventType>*)>(&::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x270b0b0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3635e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>* (::BeatmapSaveDataCommon::BasicEventTypesWithKeywords::*)()>(
         &::BeatmapSaveDataCommon::BasicEventTypesWithKeywords::get_data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270b098;
+  constexpr static std::size_t addrs = 0x3635e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords*>::get(),
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataCommon::BasicEventTypesWithKeywords::*)(
     ::System::Collections::Generic::List_1<::BeatmapSaveDataCommon::BasicEventTypesWithKeywords_BasicEventTypesForKeyword*>*)>(&::BeatmapSaveDataCommon::BasicEventTypesWithKeywords::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2709138;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3634688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

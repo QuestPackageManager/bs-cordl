@@ -2,6 +2,8 @@
 // IWYU pragma private; include "GlobalNamespace/TrackLaneRingsManager.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsManager_def.hpp"
+#include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRing_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TrackLaneRingsManager.get_ringPositionStep
@@ -10,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TrackLaneRingsManager::*)()>(
     &::GlobalNamespace::TrackLaneRingsManager::get_ringPositionStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9f918;
+  constexpr static std::size_t addrs = 0x578e310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
@@ -24,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*> (
     ::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::get_Rings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9f920;
+  constexpr static std::size_t addrs = 0x578e318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "get_Rings",
@@ -36,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::Start)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3b9f928;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x578e320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "Start",
@@ -49,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::FixedUpdate)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9fbd8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x578e5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "FixedUpdate",
@@ -62,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::LateUpdate)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b9fc74;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x578e64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), "LateUpdate",
@@ -76,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(
     &::GlobalNamespace::TrackLaneRingsManager::OnDrawGizmosSelected)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3b9fd10;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x578e6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(),
@@ -89,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsManager::*)()>(&::GlobalNamespace::TrackLaneRingsManager::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b9ff94;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x578e944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsManager*>::get(), ".ctor",
@@ -157,6 +159,30 @@ constexpr ::Zenject::DiContainer* const& GlobalNamespace::TrackLaneRingsManager:
 constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__container(::Zenject::DiContainer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController>& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__audioTimeSyncController() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioTimeSyncController;
+}
+constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__audioTimeSyncController() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioTimeSyncController;
+}
+constexpr void GlobalNamespace::TrackLaneRingsManager::__cordl_internal_set__audioTimeSyncController(::UnityW<::GlobalNamespace::AudioTimeSyncController> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSyncController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityW<::GlobalNamespace::TrackLaneRing>, ::Array<::UnityW<::GlobalNamespace::TrackLaneRing>>*>& GlobalNamespace::TrackLaneRingsManager::__cordl_internal_get__rings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

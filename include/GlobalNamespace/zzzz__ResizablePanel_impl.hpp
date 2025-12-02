@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)()>(&::GlobalNamespace::ResizablePanel::OnDestroy)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39e6f68;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x565eb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResizablePanel*>::get(), "OnDestroy",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)(::UnityEngine::Vector2, float_t)>(
     &::GlobalNamespace::ResizablePanel::Resize)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x39e6ff0;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x565eb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)(::UnityEngine::Vector2)>(&::GlobalNamespace::ResizablePanel::SetSize)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39e7190;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x565edbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ResizablePanel::*)()>(&::GlobalNamespace::ResizablePanel::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e71ac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x565edd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ResizablePanel*>::get(), ".ctor",

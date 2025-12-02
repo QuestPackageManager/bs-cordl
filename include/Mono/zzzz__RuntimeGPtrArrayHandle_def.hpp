@@ -29,30 +29,30 @@ public:
 
   __declspec(property(get = get_Length)) int32_t Length;
 
-  /// @brief Method DestroyAndFree, addr 0x3c55aa4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method DestroyAndFree, addr 0x589894c, size 0x48, virtual false, abstract: false, final false
   static inline void DestroyAndFree(::ByRef<::Mono::RuntimeGPtrArrayHandle> h);
 
-  /// @brief Method GPtrArrayFree, addr 0x3c55aa0, size 0x4, virtual false, abstract: false, final false
-  static inline void GPtrArrayFree(::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value);
+  /// @brief Method GPtrArrayFree, addr 0x589890c, size 0x40, virtual false, abstract: false, final false
+  static inline void GPtrArrayFree(::Mono::RuntimeStructs_GPtrArray* value);
 
-  /// @brief Method Lookup, addr 0x3c55a3c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Lookup, addr 0x58988a8, size 0x64, virtual false, abstract: false, final false
   inline ::System::IntPtr Lookup(int32_t i);
 
-  /// @brief Method .ctor, addr 0x3c559fc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5898884, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x3c55a38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x58988a4, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3c55a1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x589888c, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr RuntimeGPtrArrayHandle();
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray>", modifiers: "", def_value: None }]
-  constexpr RuntimeGPtrArrayHandle(::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value) noexcept;
+  // Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GPtrArray*", modifiers: "", def_value: None }]
+  constexpr RuntimeGPtrArrayHandle(::Mono::RuntimeStructs_GPtrArray* value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
   static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2233 };
@@ -61,7 +61,7 @@ public:
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field value, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::RuntimeStructs_GPtrArray> value;
+  ::Mono::RuntimeStructs_GPtrArray* value;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

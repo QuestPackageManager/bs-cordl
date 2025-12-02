@@ -1,9 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRRuntimeController.hpp"
 #include "GlobalNamespace/zzzz__OVRInput_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeController_def.hpp"
@@ -11,7 +8,9 @@
 #include "GlobalNamespace/zzzz__OVRGLTFInputNode_def.hpp"
 #include "GlobalNamespace/zzzz__OVRRuntimeController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Shader_def.hpp"
@@ -20,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)(int32_t)>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4041f30;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cf7c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x404200c;
+  constexpr static std::size_t addrs = 0x5cf7cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x4042010;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5cf7cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404212c;
+  constexpr static std::size_t addrs = 0x5cf7df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4042134;
+  constexpr static std::size_t addrs = 0x5cf7dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::*)()>(
     &::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x404216c;
+  constexpr static std::size_t addrs = 0x5cf7e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,8 +210,8 @@ constexpr ::GlobalNamespace::OVRRuntimeController__UpdateControllerModel_d__16::
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::Start)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x40414a4;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5cf70f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "Start",
@@ -224,8 +223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::Update)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x40417f0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5cf74b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), "Update",
@@ -238,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRuntimeController::*)(::StringW)>(
     &::GlobalNamespace::OVRRuntimeController::IsModelSupported)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4041624;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5cf72e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,8 +252,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRuntimeController::*)(::StringW)>(
     &::GlobalNamespace::OVRRuntimeController::LoadControllerModel)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x4041c78;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x5cf7950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,8 +267,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRRuntimeController::*)()>(
     &::GlobalNamespace::OVRRuntimeController::UpdateControllerModel)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4041790;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5cf745c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
@@ -282,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(
     &::GlobalNamespace::OVRRuntimeController::UpdateControllerAnimation)> {
-  constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x40418f8;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x5cf75c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
@@ -296,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::InputFocusAquired)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4041f58;
+  constexpr static std::size_t addrs = 0x5cf7c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
@@ -309,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::InputFocusLost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4041f64;
+  constexpr static std::size_t addrs = 0x5cf7c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(),
@@ -321,8 +320,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRuntimeController::*)()>(&::GlobalNamespace::OVRRuntimeController::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4041f6c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5cf7c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRuntimeController*>::get(), ".ctor",

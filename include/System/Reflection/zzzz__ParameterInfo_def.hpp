@@ -3,19 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
 #include "System/Reflection/zzzz__ParameterAttributes_def.hpp"
-#include "System/Runtime/InteropServices/zzzz___ParameterInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParameterInfo)
 namespace System::Reflection {
+class ICustomAttributeProvider;
+}
+namespace System::Reflection {
 class MemberInfo;
 }
 namespace System::Reflection {
 struct ParameterAttributes;
+}
+namespace System::Runtime::InteropServices {
+class _ParameterInfo;
+}
+namespace System::Runtime::Serialization {
+class IObjectReference;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
@@ -32,8 +38,7 @@ class ParameterInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::ParameterInfo);
-// Dependencies System.Object, System.Reflection.ICustomAttributeProvider, System.Reflection.ParameterAttributes, System.Runtime.InteropServices._ParameterInfo,
-// System.Runtime.Serialization.IObjectReference
+// Dependencies System.Object, System.Reflection.ParameterAttributes
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.ParameterInfo
@@ -85,21 +90,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
   constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
 
-  /// @brief Method GetCustomAttributes, addr 0x3d2522c, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x596a0c4, size 0xfc, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3d251a0, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x596a02c, size 0x98, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetRealObject, addr 0x3d2533c, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method GetRealObject, addr 0x596a1c0, size 0x26c, virtual true, abstract: false, final true
   inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsDefined, addr 0x3d250f0, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x5969fb8, size 0x74, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   static inline ::System::Reflection::ParameterInfo* New_ctor();
 
-  /// @brief Method ToString, addr 0x3d25598, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x596a42c, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::ParameterAttributes const& __cordl_internal_get_AttrsImpl() const;
@@ -138,34 +143,34 @@ public:
 
   constexpr void __cordl_internal_set_PositionImpl(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d25044, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5969f10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Attributes, addr 0x3d2504c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x5969f14, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::ParameterAttributes get_Attributes();
 
-  /// @brief Method get_DefaultValue, addr 0x3d250c8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x5969f90, size 0x28, virtual true, abstract: false, final false
   inline ::System::Object* get_DefaultValue();
 
-  /// @brief Method get_IsIn, addr 0x3d25074, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsIn, addr 0x5969f3c, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsIn();
 
-  /// @brief Method get_IsOptional, addr 0x3d25090, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOptional, addr 0x5969f58, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsOptional();
 
-  /// @brief Method get_IsOut, addr 0x3d250ac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsOut, addr 0x5969f74, size 0x1c, virtual false, abstract: false, final false
   inline bool get_IsOut();
 
-  /// @brief Method get_Member, addr 0x3d25054, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Member, addr 0x5969f1c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_Member();
 
-  /// @brief Method get_Name, addr 0x3d2505c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5969f24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ParameterType, addr 0x3d25064, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ParameterType, addr 0x5969f2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Type* get_ParameterType();
 
-  /// @brief Method get_Position, addr 0x3d2506c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Position, addr 0x5969f34, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Position();
 
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
@@ -195,7 +200,7 @@ public:
   static constexpr int32_t MetadataToken_ParamDef{ static_cast<int32_t>(0x8000000) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3507 };
 
   /// @brief Field AttrsImpl, offset: 0x10, size: 0x4, def value: None
   ::System::Reflection::ParameterAttributes ___AttrsImpl;

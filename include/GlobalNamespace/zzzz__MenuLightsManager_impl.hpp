@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MenuLightsManager.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
@@ -10,7 +7,9 @@
 #include "GlobalNamespace/zzzz__MenuLightsManager_def.hpp"
 #include "GlobalNamespace/zzzz__MenuLightsPresetSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "Tweening/zzzz__FloatTween_def.hpp"
@@ -21,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager__Start_d__8::*)(int32_t)>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b83c7c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x576fd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b84514;
+  constexpr static std::size_t addrs = 0x5770648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager__Start_d__8*>::get(),
@@ -50,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3b84518;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x577064c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager__Start_d__8*>::get(),
@@ -65,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b846f8;
+  constexpr static std::size_t addrs = 0x57708a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b84700;
+  constexpr static std::size_t addrs = 0x57708b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MenuLightsManager__Start_d__8::*)()>(
     &::GlobalNamespace::MenuLightsManager__Start_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b84738;
+  constexpr static std::size_t addrs = 0x57708e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -209,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MenuLightsManager::*)()>(
     &::GlobalNamespace::MenuLightsManager::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b83c1c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x576fd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(), "Start",
@@ -223,8 +222,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(int32_t, ::UnityEngine::Color)>(
     &::GlobalNamespace::MenuLightsManager::SetColor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b83ca4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x576fd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -239,8 +238,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::MenuLightsManager::*)(int32_t)>(
     &::GlobalNamespace::MenuLightsManager::CurrentColorForID)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b83cc0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x576fd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,8 +252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(float_t)>(&::GlobalNamespace::MenuLightsManager::UpdateColors)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3b83ce0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x576fdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::SetTargetColors)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b83ec8;
+  constexpr static std::size_t addrs = 0x576ff98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(), "SetTargetColors",
@@ -281,7 +280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::GetLightsCount)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b83e04;
+  constexpr static std::size_t addrs = 0x576fedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(), "GetLightsCount",
@@ -294,8 +293,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<int32_t, ::UnityEngine::Color> (::GlobalNamespace::MenuLightsManager::*)(int32_t)>(
     &::GlobalNamespace::MenuLightsManager::GetLightForIndex)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b83e28;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x576ff00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,8 +307,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::SaveOriginalColors)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b83f40;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5770010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(),
@@ -322,8 +321,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(::GlobalNamespace::MenuLightsPresetSO*, bool)>(
     &::GlobalNamespace::MenuLightsManager::SetDefaultPreset)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b8401c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5770104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,8 +337,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(bool)>(
     &::GlobalNamespace::MenuLightsManager::ResetColorPresetToDefault)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b84194;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5770284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -353,8 +352,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(::GlobalNamespace::MenuLightsPresetSO*, bool, float_t)>(
     &::GlobalNamespace::MenuLightsManager::SetColorPreset)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b840bc;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x57701a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,8 +368,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(float_t)>(
     &::GlobalNamespace::MenuLightsManager::StartLightAnimation)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b8422c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5770320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -383,8 +382,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::HandleTweenFinished)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b842b4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x57703ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(),
@@ -397,8 +396,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)(float_t, bool, float_t)>(
     &::GlobalNamespace::MenuLightsManager::SetAlphaMultiplier)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b8430c;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5770408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -412,8 +411,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::RefreshColors)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b84404;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5770514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(), "RefreshColors",
@@ -425,8 +424,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuLightsManager::*)()>(&::GlobalNamespace::MenuLightsManager::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b84490;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x57705a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuLightsManager*>::get(), ".ctor",

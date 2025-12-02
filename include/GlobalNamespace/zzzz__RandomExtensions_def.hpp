@@ -5,9 +5,10 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
+#include <cstdint>
 CORDL_MODULE_EXPORT(RandomExtensions)
-namespace System {
-class Random;
+namespace GlobalNamespace {
+class IRandom;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,11 +23,20 @@ namespace GlobalNamespace {
 class CORDL_TYPE RandomExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetBool, addr 0x229f1d8, size 0x2c, virtual false, abstract: false, final false
-  static inline bool GetBool(::System::Random* random);
+  /// @brief Method GetBool, addr 0x31e4d40, size 0x1c, virtual false, abstract: false, final false
+  static inline bool GetBool(::GlobalNamespace::IRandom* random);
 
-  /// @brief Method GetRange, addr 0x229f190, size 0x48, virtual false, abstract: false, final false
-  static inline float_t GetRange(::System::Random* random, float_t min, float_t max);
+  /// @brief Method GetRange, addr 0x31e4c68, size 0x38, virtual false, abstract: false, final false
+  static inline float_t GetRange(::GlobalNamespace::IRandom* random, float_t min, float_t max);
+
+  /// @brief Method Next, addr 0x31e4d5c, size 0x108, virtual false, abstract: false, final false
+  static inline int32_t Next(::GlobalNamespace::IRandom* random, int32_t maxValue);
+
+  /// @brief Method NextDouble, addr 0x31e4ca0, size 0xa0, virtual false, abstract: false, final false
+  static inline double_t NextDouble(::GlobalNamespace::IRandom* random);
+
+  /// @brief Method NextFloat, addr 0x31e4e64, size 0xa8, virtual false, abstract: false, final false
+  static inline float_t NextFloat(::GlobalNamespace::IRandom* random);
 
 protected:
   // Ctor Parameters []
@@ -43,7 +53,7 @@ public:
   RandomExtensions(RandomExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20481 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

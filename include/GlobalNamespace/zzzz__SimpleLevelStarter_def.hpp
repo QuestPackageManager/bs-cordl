@@ -4,9 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -25,9 +22,6 @@ namespace GlobalNamespace {
 class GameScenesManager;
 }
 namespace GlobalNamespace {
-class GameplayModifiers;
-}
-namespace GlobalNamespace {
 class LevelCompletionResults;
 }
 namespace GlobalNamespace {
@@ -40,7 +34,7 @@ namespace GlobalNamespace {
 class ScenesTransitionSetupDataSO;
 }
 namespace GlobalNamespace {
-class SimpleLevelStarter__StartLevel_d__17;
+class SimpleLevelStarter__StartLevel_d__16;
 }
 namespace GlobalNamespace {
 class StandardLevelScenesTransitionSetupDataSO;
@@ -48,8 +42,14 @@ class StandardLevelScenesTransitionSetupDataSO;
 namespace HMUI {
 class ButtonBinder;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -74,17 +74,16 @@ namespace GlobalNamespace {
 class SimpleLevelStarter;
 }
 namespace GlobalNamespace {
-class SimpleLevelStarter__StartLevel_d__17;
+class SimpleLevelStarter__StartLevel_d__16;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter);
-MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object,
-// UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
+MARK_REF_PTR_T(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16);
+// Dependencies System.Object, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: SimpleLevelStarter/<StartLevel>d__17
-class CORDL_TYPE SimpleLevelStarter__StartLevel_d__17 : public ::System::Object {
+// CS Name: SimpleLevelStarter/<StartLevel>d__16
+class CORDL_TYPE SimpleLevelStarter__StartLevel_d__16 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -100,7 +99,7 @@ public:
   /// @brief Field <>4__this, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get___4__this, put = __cordl_internal_set___4__this)) ::UnityW<::GlobalNamespace::SimpleLevelStarter> __4__this;
 
-  /// @brief Field <handle>5__2, offset 0x28, size 0x20
+  /// @brief Field <handle>5__2, offset 0x28, size 0x18
   __declspec(property(get = __cordl_internal_get__handle_5__2,
                       put = __cordl_internal_set__handle_5__2)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>
       _handle_5__2;
@@ -114,21 +113,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b3f9e0, size 0x610, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57263a8, size 0x6b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b3fff0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5726a58, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b3fff8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5726a60, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b40030, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5726a98, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b3f9dc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x57263a4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -155,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set__handle_5__2(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> value);
 
-  /// @brief Method .ctor, addr 0x3b3f620, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57260b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -170,19 +169,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr SimpleLevelStarter__StartLevel_d__17();
+  constexpr SimpleLevelStarter__StartLevel_d__16();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__16", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  SimpleLevelStarter__StartLevel_d__17(SimpleLevelStarter__StartLevel_d__17&&) = delete;
+  SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "SimpleLevelStarter__StartLevel_d__16", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  SimpleLevelStarter__StartLevel_d__17(SimpleLevelStarter__StartLevel_d__17 const&) = delete;
+  SimpleLevelStarter__StartLevel_d__16(SimpleLevelStarter__StartLevel_d__16 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -193,21 +192,21 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleLevelStarter> _____4__this;
 
-  /// @brief Field <handle>5__2, offset: 0x28, size: 0x20, def value: None
+  /// @brief Field <handle>5__2, offset: 0x28, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>> ____handle_5__2;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17, ____handle_5__2) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, ____handle_5__2) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies BeatmapDifficulty, UnityEngine.MonoBehaviour
@@ -217,7 +216,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE SimpleLevelStarter : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _StartLevel_d__17 = ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17;
+  using _StartLevel_d__16 = ::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16;
 
   /// @brief Field _beatmapCharacteristic, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapCharacteristic, put = __cordl_internal_set__beatmapCharacteristic)) ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>
@@ -245,9 +244,6 @@ public:
   /// @brief Field _gameScenesManager, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__gameScenesManager, put = __cordl_internal_set__gameScenesManager)) ::UnityW<::GlobalNamespace::GameScenesManager> _gameScenesManager;
 
-  /// @brief Field _gameplayModifiers, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
-
   /// @brief Field _menuTransitionsHelper, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__menuTransitionsHelper, put = __cordl_internal_set__menuTransitionsHelper)) ::UnityW<::GlobalNamespace::MenuTransitionsHelper> _menuTransitionsHelper;
 
@@ -269,28 +265,28 @@ public:
   /// @brief Field _useTestNoteCutSoundEffects, offset 0x34, size 0x1
   __declspec(property(get = __cordl_internal_get__useTestNoteCutSoundEffects, put = __cordl_internal_set__useTestNoteCutSoundEffects)) bool _useTestNoteCutSoundEffects;
 
-  /// @brief Method Awake, addr 0x3b3f4ac, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5725f3c, size 0xc8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ButtonPressed, addr 0x3b3f770, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ButtonPressed, addr 0x57261fc, size 0x20, virtual false, abstract: false, final false
   inline void ButtonPressed();
 
-  /// @brief Method HandleLevelDidFinish, addr 0x3b3f790, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDidFinish, addr 0x572621c, size 0x3c, virtual false, abstract: false, final false
   inline void HandleLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelSceneSetupData, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InstallEarlyBindings, addr 0x3b3f648, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method InstallEarlyBindings, addr 0x57260b8, size 0x144, virtual false, abstract: false, final false
   inline void InstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
   static inline ::GlobalNamespace::SimpleLevelStarter* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b3f56c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5726004, size 0x58, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method StartLevel, addr 0x3b3f5c0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x572605c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* StartLevel();
 
-  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|17_0, addr 0x3b3f8a4, size 0x138, virtual false, abstract: false, final false
-  inline void _StartLevel_g__AfterSceneSwitchCallback_17_0(::Zenject::DiContainer* container);
+  /// @brief Method <StartLevel>g__AfterSceneSwitchCallback|16_0, addr 0x572625c, size 0x148, virtual false, abstract: false, final false
+  inline void _StartLevel_g__AfterSceneSwitchCallback_16_0(::Zenject::DiContainer* container);
 
   constexpr ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> const& __cordl_internal_get__beatmapCharacteristic() const;
 
@@ -323,10 +319,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& __cordl_internal_get__gameScenesManager();
-
-  constexpr ::GlobalNamespace::GameplayModifiers* const& __cordl_internal_get__gameplayModifiers() const;
-
-  constexpr ::GlobalNamespace::GameplayModifiers*& __cordl_internal_get__gameplayModifiers();
 
   constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& __cordl_internal_get__menuTransitionsHelper() const;
 
@@ -368,8 +360,6 @@ public:
 
   constexpr void __cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value);
 
-  constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
-
   constexpr void __cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value);
 
   constexpr void __cordl_internal_set__overrideStrobeFilterSettingsToAllEffects(bool value);
@@ -382,7 +372,7 @@ public:
 
   constexpr void __cordl_internal_set__useTestNoteCutSoundEffects(bool value);
 
-  /// @brief Method .ctor, addr 0x3b3f7cc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5726258, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -400,7 +390,7 @@ public:
   SimpleLevelStarter(SimpleLevelStarter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6870 };
 
   /// @brief Field _beatmapLevel, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::BeatmapLevelSO>>* ____beatmapLevel;
@@ -444,9 +434,6 @@ public:
   /// @brief Field _buttonBinder, offset: 0x78, size: 0x8, def value: None
   ::HMUI::ButtonBinder* ____buttonBinder;
 
-  /// @brief Field _gameplayModifiers, offset: 0x80, size: 0x8, def value: None
-  ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -478,12 +465,10 @@ static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____environmentsLi
 
 static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____buttonBinder) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleLevelStarter, ____gameplayModifiers) == 0x80, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleLevelStarter, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleLevelStarter*, "", "SimpleLevelStarter");
-NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__17*, "", "SimpleLevelStarter/<StartLevel>d__17");
+NEED_NO_BOX(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleLevelStarter__StartLevel_d__16*, "", "SimpleLevelStarter/<StartLevel>d__16");

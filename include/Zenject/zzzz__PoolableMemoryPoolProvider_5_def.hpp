@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__PoolableMemoryPoolProviderBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProvider_5)
 namespace System::Collections::Generic {
@@ -22,6 +21,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class IValidatable;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -33,7 +35,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TContra
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableMemoryPoolProvider_5);
-// Dependencies Zenject.IValidatable, Zenject.PoolableMemoryPoolProviderBase`1<TContract>
+// Dependencies Zenject.PoolableMemoryPoolProviderBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TContract, typename TMemoryPool>
@@ -84,7 +86,7 @@ public:
   PoolableMemoryPoolProvider_5(PoolableMemoryPoolProvider_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14546 };
 
   /// @brief Field _pool, offset: 0x28, size: 0x8, def value: None
   TMemoryPool ____pool;

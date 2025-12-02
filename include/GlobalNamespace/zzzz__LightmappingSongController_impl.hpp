@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(
     &::GlobalNamespace::LightmappingSongController::StopSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3beff38;
+  constexpr static std::size_t addrs = 0x57e2fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(
     &::GlobalNamespace::LightmappingSongController::PauseSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3beff3c;
+  constexpr static std::size_t addrs = 0x57e2fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(
     &::GlobalNamespace::LightmappingSongController::ResumeSong)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3beff40;
+  constexpr static std::size_t addrs = 0x57e2fbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightmappingSongController::*)()>(&::GlobalNamespace::LightmappingSongController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3beff44;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e2fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightmappingSongController*>::get(), ".ctor",

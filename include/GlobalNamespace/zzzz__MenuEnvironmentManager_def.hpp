@@ -74,7 +74,7 @@ public:
   static ::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4047 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5610 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -122,13 +122,13 @@ public:
 
   constexpr void __cordl_internal_set__wrapper(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3ad8394, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b371c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_menuEnvironmentType, addr 0x3ad8384, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuEnvironmentType, addr 0x56b370c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType get_menuEnvironmentType();
 
-  /// @brief Method get_wrapper, addr 0x3ad838c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wrapper, addr 0x56b3714, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_wrapper();
 
 protected:
@@ -146,7 +146,7 @@ public:
   MenuEnvironmentManager_MenuEnvironmentObjects(MenuEnvironmentManager_MenuEnvironmentObjects const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5611 };
 
   /// @brief Field _menuEnvironmentType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType ____menuEnvironmentType;
@@ -187,10 +187,10 @@ public:
 
   static inline ::GlobalNamespace::MenuEnvironmentManager* New_ctor();
 
-  /// @brief Method ShowEnvironmentType, addr 0x3ad81f4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method ShowEnvironmentType, addr 0x56b357c, size 0x18c, virtual false, abstract: false, final false
   inline void ShowEnvironmentType(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType menuEnvironmentType);
 
-  /// @brief Method Start, addr 0x3ad81ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56b3574, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::ArrayW<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*, ::Array<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*>*> const&
@@ -207,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set__prevMenuEnvironmentType(::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentType value);
 
-  /// @brief Method .ctor, addr 0x3ad837c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56b3708, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -225,7 +225,7 @@ public:
   MenuEnvironmentManager(MenuEnvironmentManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5612 };
 
   /// @brief Field _data, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*, ::Array<::GlobalNamespace::MenuEnvironmentManager_MenuEnvironmentObjects*>*> ____data;

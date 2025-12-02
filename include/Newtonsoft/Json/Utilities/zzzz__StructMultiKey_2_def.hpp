@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StructMultiKey_2)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ template <typename T1, typename T2> struct StructMultiKey_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Newtonsoft::Json::Utilities::StructMultiKey_2);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T1, typename T2>
@@ -51,7 +53,7 @@ public:
   constexpr StructMultiKey_2(T1 Value1, T2 Value2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13434 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

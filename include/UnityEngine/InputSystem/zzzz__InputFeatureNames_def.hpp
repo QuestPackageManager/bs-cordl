@@ -34,7 +34,7 @@ public:
   InputFeatureNames(InputFeatureNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8753 };
 
   /// @brief Field kDisableUnityRemoteSupport offset 0xffffffff size 0x8
   static constexpr ::ConstString kDisableUnityRemoteSupport{ u"DISABLE_UNITY_REMOTE_SUPPORT" };
@@ -45,14 +45,14 @@ public:
   /// @brief Field kRunPlayerUpdatesInEditMode offset 0xffffffff size 0x8
   static constexpr ::ConstString kRunPlayerUpdatesInEditMode{ u"RUN_PLAYER_UPDATES_IN_EDIT_MODE" };
 
+  /// @brief Field kUseIMGUIEditorForAssets offset 0xffffffff size 0x8
+  static constexpr ::ConstString kUseIMGUIEditorForAssets{ u"USE_IMGUI_EDITOR_FOR_ASSETS" };
+
   /// @brief Field kUseOptimizedControls offset 0xffffffff size 0x8
   static constexpr ::ConstString kUseOptimizedControls{ u"USE_OPTIMIZED_CONTROLS" };
 
   /// @brief Field kUseReadValueCaching offset 0xffffffff size 0x8
   static constexpr ::ConstString kUseReadValueCaching{ u"USE_READ_VALUE_CACHING" };
-
-  /// @brief Field kUseWindowsGamingInputBackend offset 0xffffffff size 0x8
-  static constexpr ::ConstString kUseWindowsGamingInputBackend{ u"USE_WINDOWS_GAMING_INPUT_BACKEND" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

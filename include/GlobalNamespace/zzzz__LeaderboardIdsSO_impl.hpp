@@ -1,10 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LeaderboardIdsSO.hpp"
-#include "GlobalNamespace/zzzz__ILeaderboardIdContainer_impl.hpp"
-#include "GlobalNamespace/zzzz__ILeaderboardIdData_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsSO_def.hpp"
+#include "GlobalNamespace/zzzz__ILeaderboardIdContainer_def.hpp"
 #include "GlobalNamespace/zzzz__ILeaderboardIdData_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsSO_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -15,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::*)()>(
     &::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::get_platformLeaderboardId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce824;
+  constexpr static std::size_t addrs = 0x36011f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>::get(),
@@ -29,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::*)()>(
     &::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::get_difficultyBeatmapId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce82c;
+  constexpr static std::size_t addrs = 0x36011fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>::get(),
@@ -42,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26ce77c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3601170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILeaderboardIdData*>* (
     ::GlobalNamespace::LeaderboardIdsSO::*)()>(&::GlobalNamespace::LeaderboardIdsSO::ILeaderboardIdContainer_get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce62c;
+  constexpr static std::size_t addrs = 0x3601020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>* (
     ::GlobalNamespace::LeaderboardIdsSO::*)()>(&::GlobalNamespace::LeaderboardIdsSO::get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ce634;
+  constexpr static std::size_t addrs = 0x3601028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsSO*>::get(),
@@ -139,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LeaderboardIdsSO_LeaderboardIdData*>*)>(&::GlobalNamespace::LeaderboardIdsSO::set_leaderboardIds)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26ce63c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x3601030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,8 +153,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO::*)(::StringW, ::StringW)>(&::GlobalNamespace::LeaderboardIdsSO::Add)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x26ce698;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x3601090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardIdsSO::*)()>(&::GlobalNamespace::LeaderboardIdsSO::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26ce7a8;
+  constexpr static std::size_t addrs = 0x3601178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardIdsSO*>::get(), ".ctor",

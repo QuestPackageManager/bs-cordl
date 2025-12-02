@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*)>(
     &::System::Data::UnaryNode::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x417d640;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5e27f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::UnaryNode::*)(::System::Data::DataTable*, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*)>(&::System::Data::UnaryNode::Bind)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x417d670;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5e27f58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x417d698;
+  constexpr static std::size_t addrs = 0x5e27f7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::UnaryNode::Eval)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x417d6ac;
+  constexpr static std::size_t addrs = 0x5e27f90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::System::Data::UnaryNode::Eval)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417def0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5e28740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::UnaryNode::*)(int32_t, ::System::Object*)>(
     &::System::Data::UnaryNode::EvalUnaryOp)> {
-  constexpr static std::size_t size = 0x804;
-  constexpr static std::size_t addrs = 0x417d6ec;
+  constexpr static std::size_t size = 0x770;
+  constexpr static std::size_t addrs = 0x5e27fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsConstant)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417df10;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5e2875c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +118,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::IsTableConstant)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417df30;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5e28778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,8 +132,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasLocalAggregate)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417df50;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5e28794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,8 +146,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::HasRemoteAggregate)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x417df70;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5e287b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,8 +160,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::UnaryNode::*)(::System::Data::DataColumn*)>(&::System::Data::UnaryNode::DependsOn)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x417df90;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5e287cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,8 +174,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::UnaryNode::*)()>(&::System::Data::UnaryNode::Optimize)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x417dfb4;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5e287ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

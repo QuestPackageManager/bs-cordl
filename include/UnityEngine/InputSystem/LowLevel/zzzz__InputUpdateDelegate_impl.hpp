@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x46106e8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6397c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(
     ::UnityEngine::InputSystem::LowLevel::InputUpdateType, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>)>(&::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4610774;
+  constexpr static std::size_t addrs = 0x6397cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>,
                                                                   ::System::AsyncCallback*, ::System::Object*)>(&::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::BeginInvoke)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4610788;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6397ccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::*)(
     ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>, ::System::IAsyncResult*)>(&::UnityEngine::InputSystem::LowLevel::InputUpdateDelegate::EndInvoke)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4610844;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6397d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -40,13 +38,13 @@ namespace System {
 template <typename T1, typename T2> class Action_2;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
-}
-namespace System {
 class Exception;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -96,6 +94,9 @@ struct InstantiationParameters;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneReleaseMode;
+}
 namespace UnityEngine::ResourceManagement::Util {
 class IAllocationStrategy;
 }
@@ -112,16 +113,13 @@ namespace UnityEngine::ResourceManagement {
 struct ResourceManager_DeferredCallbackRegisterRequest;
 }
 namespace UnityEngine::ResourceManagement {
-struct ResourceManager_DiagnosticEventContext;
-}
-namespace UnityEngine::ResourceManagement {
 struct ResourceManager_DiagnosticEventType;
 }
 namespace UnityEngine::ResourceManagement {
 class ResourceManager_InstanceOperation;
 }
 namespace UnityEngine::ResourceManagement {
-template <typename TObject> class ResourceManager___c__DisplayClass95_0_1;
+template <typename TObject> class ResourceManager___c__DisplayClass90_0_1;
 }
 namespace UnityEngine::SceneManagement {
 struct LoadSceneMode;
@@ -149,22 +147,18 @@ namespace UnityEngine::ResourceManagement {
 class ResourceManager_InstanceOperation;
 }
 namespace UnityEngine::ResourceManagement {
-template <typename TObject> class ResourceManager___c__DisplayClass95_0_1;
+template <typename TObject> class ResourceManager___c__DisplayClass90_0_1;
 }
 namespace UnityEngine::ResourceManagement {
 struct ResourceManager_DeferredCallbackRegisterRequest;
-}
-namespace UnityEngine::ResourceManagement {
-struct ResourceManager_DiagnosticEventContext;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType);
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceManager);
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceManager_CompletedOperation_1);
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation);
-MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass95_0_1);
+MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass90_0_1);
 MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceManager_DeferredCallbackRegisterRequest);
-MARK_VAL_T(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext);
 // Dependencies
 namespace UnityEngine::ResourceManagement {
 // Is value type: true
@@ -220,7 +214,7 @@ public:
   static ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType const AsyncOperationReferenceCount;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18658 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -234,103 +228,6 @@ public:
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, 0x4>, "Size mismatch!");
-
-} // namespace UnityEngine::ResourceManagement
-// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle, UnityEngine.ResourceManagement.ResourceManager::DiagnosticEventType
-namespace UnityEngine::ResourceManagement {
-// Is value type: true
-// CS Name: UnityEngine.ResourceManagement.ResourceManager/DiagnosticEventContext
-struct CORDL_TYPE ResourceManager_DiagnosticEventContext {
-public:
-  // Declarations
-  __declspec(property(get = get_Context)) ::System::Object* Context;
-
-  __declspec(property(get = get_Error)) ::StringW Error;
-
-  __declspec(property(get = get_EventValue)) int32_t EventValue;
-
-  __declspec(property(get = get_Location)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* Location;
-
-  __declspec(property(get = get_OperationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle OperationHandle;
-
-  __declspec(property(get = get_Type)) ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType Type;
-
-  /// @brief Method .ctor, addr 0x4790c14, size 0x104, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle op, ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType type, int32_t eventValue,
-                    ::StringW error, ::System::Object* context);
-
-  /// @brief Method get_Context, addr 0x4790c04, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Context();
-
-  /// @brief Method get_Error, addr 0x4790c0c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Error();
-
-  /// @brief Method get_EventValue, addr 0x4790bf4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_EventValue();
-
-  /// @brief Method get_Location, addr 0x4790bfc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_Location();
-
-  /// @brief Method get_OperationHandle, addr 0x4790bd8, size 0x14, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle get_OperationHandle();
-
-  /// @brief Method get_Type, addr 0x4790bec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType get_Type();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ResourceManager_DiagnosticEventContext();
-
-  // Ctor Parameters [CppParam { name: "_OperationHandle_k__BackingField", ty: "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle", modifiers: "", def_value: None }, CppParam {
-  // name: "_Type_k__BackingField", ty: "::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType", modifiers: "", def_value: None }, CppParam { name: "_EventValue_k__BackingField", ty:
-  // "int32_t", modifiers: "", def_value: None }, CppParam { name: "_Location_k__BackingField", ty: "::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*", modifiers: "",
-  // def_value: None }, CppParam { name: "_Context_k__BackingField", ty: "::System::Object*", modifiers: "", def_value: None }, CppParam { name: "_Error_k__BackingField", ty: "::StringW", modifiers:
-  // "", def_value: None }]
-  constexpr ResourceManager_DiagnosticEventContext(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle _OperationHandle_k__BackingField,
-                                                   ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType _Type_k__BackingField, int32_t _EventValue_k__BackingField,
-                                                   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _Location_k__BackingField, ::System::Object* _Context_k__BackingField,
-                                                   ::StringW _Error_k__BackingField) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15599 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
-  /// @brief Field <OperationHandle>k__BackingField, offset: 0x0, size: 0x18, def value: None
-  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle _OperationHandle_k__BackingField;
-
-  /// @brief Field <Type>k__BackingField, offset: 0x18, size: 0x4, def value: None
-  ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType _Type_k__BackingField;
-
-  /// @brief Field <EventValue>k__BackingField, offset: 0x1c, size: 0x4, def value: None
-  int32_t _EventValue_k__BackingField;
-
-  /// @brief Field <Location>k__BackingField, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* _Location_k__BackingField;
-
-  /// @brief Field <Context>k__BackingField, offset: 0x28, size: 0x8, def value: None
-  ::System::Object* _Context_k__BackingField;
-
-  /// @brief Field <Error>k__BackingField, offset: 0x30, size: 0x8, def value: None
-  ::StringW _Error_k__BackingField;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, _OperationHandle_k__BackingField) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, _Type_k__BackingField) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, _EventValue_k__BackingField) == 0x1c, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, _Location_k__BackingField) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, _Context_k__BackingField) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, _Error_k__BackingField) == 0x30, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement
 // Dependencies
@@ -349,7 +246,7 @@ public:
   constexpr ResourceManager_DeferredCallbackRegisterRequest(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation, bool incrementRefCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15600 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18659 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -443,7 +340,7 @@ public:
   ResourceManager_CompletedOperation_1(ResourceManager_CompletedOperation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18660 };
 
   /// @brief Field m_Success, offset: 0x98, size: 0x1, def value: None
   bool ___m_Success;
@@ -470,46 +367,46 @@ public:
 
   __declspec(property(get = get_Progress)) float_t Progress;
 
-  /// @brief Field m_dependency, offset 0x98, size 0x20
+  /// @brief Field m_dependency, offset 0x98, size 0x18
   __declspec(property(get = __cordl_internal_get_m_dependency,
                       put = __cordl_internal_set_m_dependency)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
       m_dependency;
 
-  /// @brief Field m_instance, offset 0xf0, size 0x8
+  /// @brief Field m_instance, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_instance, put = __cordl_internal_set_m_instance)) ::UnityW<::UnityEngine::GameObject> m_instance;
 
-  /// @brief Field m_instanceProvider, offset 0xe8, size 0x8
+  /// @brief Field m_instanceProvider, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_instanceProvider,
                       put = __cordl_internal_set_m_instanceProvider)) ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* m_instanceProvider;
 
-  /// @brief Field m_instantiationParams, offset 0xb8, size 0x30
+  /// @brief Field m_instantiationParams, offset 0xb0, size 0x30
   __declspec(property(get = __cordl_internal_get_m_instantiationParams,
                       put = __cordl_internal_set_m_instantiationParams)) ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters m_instantiationParams;
 
-  /// @brief Field m_scene, offset 0xf8, size 0x4
+  /// @brief Field m_scene, offset 0xf0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_scene, put = __cordl_internal_set_m_scene)) ::UnityEngine::SceneManagement::Scene m_scene;
 
-  /// @brief Method Destroy, addr 0x479102c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x66f04b0, size 0xb8, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x4791258, size 0x234, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x66f0714, size 0x278, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x4790df4, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x66f0288, size 0xe4, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* deps);
 
-  /// @brief Method GetDownloadStatus, addr 0x4790d18, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method GetDownloadStatus, addr 0x66f01a8, size 0xe0, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited);
 
-  /// @brief Method Init, addr 0x478fe24, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x66ef4b0, size 0x30, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::ResourceManager* rm, ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* instanceProvider,
                    ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiationParams,
                    ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> dependency);
 
-  /// @brief Method InstanceScene, addr 0x4791024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InstanceScene, addr 0x66f04a8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::SceneManagement::Scene InstanceScene();
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x4791128, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x66f05b4, size 0x160, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation* New_ctor();
@@ -544,13 +441,13 @@ public:
 
   constexpr void __cordl_internal_set_m_scene(::UnityEngine::SceneManagement::Scene value);
 
-  /// @brief Method .ctor, addr 0x479148c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f098c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x4790f14, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x66f036c, size 0x13c, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
-  /// @brief Method get_Progress, addr 0x47910e0, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_Progress, addr 0x66f0568, size 0x4c, virtual true, abstract: false, final false
   inline float_t get_Progress();
 
 protected:
@@ -568,21 +465,21 @@ public:
   ResourceManager_InstanceOperation(ResourceManager_InstanceOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18661 };
 
-  /// @brief Field m_dependency, offset: 0x98, size: 0x20, def value: None
+  /// @brief Field m_dependency, offset: 0x98, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>> ___m_dependency;
 
-  /// @brief Field m_instantiationParams, offset: 0xb8, size: 0x30, def value: None
+  /// @brief Field m_instantiationParams, offset: 0xb0, size: 0x30, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters ___m_instantiationParams;
 
-  /// @brief Field m_instanceProvider, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field m_instanceProvider, offset: 0xe0, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* ___m_instanceProvider;
 
-  /// @brief Field m_instance, offset: 0xf0, size: 0x8, def value: None
+  /// @brief Field m_instance, offset: 0xe8, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___m_instance;
 
-  /// @brief Field m_scene, offset: 0xf8, size: 0x4, def value: None
+  /// @brief Field m_scene, offset: 0xf0, size: 0x4, def value: None
   ::UnityEngine::SceneManagement::Scene ___m_scene;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -590,15 +487,15 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_dependency) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_instantiationParams) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_instantiationParams) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_instanceProvider) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_instanceProvider) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_instance) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_instance) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_scene) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, ___m_scene) == 0xf0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, 0x100>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation, 0xf8>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement
 // Dependencies System.Object
@@ -606,8 +503,8 @@ namespace UnityEngine::ResourceManagement {
 // cpp template
 template <typename TObject>
 // Is value type: false
-// CS Name: UnityEngine.ResourceManagement.ResourceManager/<>c__DisplayClass95_0`1<TObject>
-class CORDL_TYPE ResourceManager___c__DisplayClass95_0_1 : public ::System::Object {
+// CS Name: UnityEngine.ResourceManagement.ResourceManager/<>c__DisplayClass90_0`1<TObject>
+class CORDL_TYPE ResourceManager___c__DisplayClass90_0_1 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x20, size 0x8
@@ -619,7 +516,7 @@ public:
   /// @brief Field releaseDependenciesOnFailure, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_releaseDependenciesOnFailure, put = __cordl_internal_set_releaseDependenciesOnFailure)) bool releaseDependenciesOnFailure;
 
-  static inline ::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass95_0_1<TObject>* New_ctor();
+  static inline ::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass90_0_1<TObject>* New_ctor();
 
   /// @brief Method <ProvideResources>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ProvideResources_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle x);
@@ -652,19 +549,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr ResourceManager___c__DisplayClass95_0_1();
+  constexpr ResourceManager___c__DisplayClass90_0_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass95_0_1", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  ResourceManager___c__DisplayClass95_0_1(ResourceManager___c__DisplayClass95_0_1&&) = delete;
+  ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass95_0_1", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "ResourceManager___c__DisplayClass90_0_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  ResourceManager___c__DisplayClass95_0_1(ResourceManager___c__DisplayClass95_0_1 const&) = delete;
+  ResourceManager___c__DisplayClass90_0_1(ResourceManager___c__DisplayClass90_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18662 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TObject>* ___callback;
@@ -679,7 +576,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceManager
@@ -690,20 +587,22 @@ public:
 
   using DeferredCallbackRegisterRequest = ::UnityEngine::ResourceManagement::ResourceManager_DeferredCallbackRegisterRequest;
 
-  using DiagnosticEventContext = ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext;
-
   using DiagnosticEventType = ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType;
 
   using InstanceOperation = ::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation;
 
-  template <typename TObject> using __c__DisplayClass95_0_1 = ::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass95_0_1<TObject>;
+  template <typename TObject> using __c__DisplayClass90_0_1 = ::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass90_0_1<TObject>;
 
   __declspec(property(get = get_Allocator, put = set_Allocator)) ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* Allocator;
 
-  /// @brief Field CallbackHooksEnabled, offset 0x28, size 0x1
+  /// @brief Field CallbackHooksEnabled, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_CallbackHooksEnabled, put = __cordl_internal_set_CallbackHooksEnabled)) bool CallbackHooksEnabled;
 
   __declspec(property(get = get_CertificateHandlerInstance, put = set_CertificateHandlerInstance)) ::UnityEngine::Networking::CertificateHandler* CertificateHandlerInstance;
+
+  __declspec(property(get = get_DeferredCallbackCount)) int32_t DeferredCallbackCount;
+
+  __declspec(property(get = get_DeferredCompleteCallbacksCount)) int32_t DeferredCompleteCallbacksCount;
 
   __declspec(property(get = get_InstanceOperationCount)) int32_t InstanceOperationCount;
 
@@ -716,7 +615,7 @@ public:
 
   __declspec(property(get = get_WebRequestOverride, put = set_WebRequestOverride)) ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* WebRequestOverride;
 
-  /// @brief Field <CertificateHandlerInstance>k__BackingField, offset 0xc0, size 0x8
+  /// @brief Field <CertificateHandlerInstance>k__BackingField, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__CertificateHandlerInstance_k__BackingField,
                       put = __cordl_internal_set__CertificateHandlerInstance_k__BackingField)) ::UnityEngine::Networking::CertificateHandler* _CertificateHandlerInstance_k__BackingField;
 
@@ -725,104 +624,86 @@ public:
                       put = setStaticF__ExceptionHandler_k__BackingField)) ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>*
       _ExceptionHandler_k__BackingField;
 
-  /// @brief Field <InternalIdTransformFunc>k__BackingField, offset 0x18, size 0x8
+  /// @brief Field <InternalIdTransformFunc>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__InternalIdTransformFunc_k__BackingField,
                       put = __cordl_internal_set__InternalIdTransformFunc_k__BackingField)) ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>*
       _InternalIdTransformFunc_k__BackingField;
 
-  /// @brief Field <WebRequestOverride>k__BackingField, offset 0x20, size 0x8
+  /// @brief Field <WebRequestOverride>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__WebRequestOverride_k__BackingField,
                       put = __cordl_internal_set__WebRequestOverride_k__BackingField)) ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* _WebRequestOverride_k__BackingField;
 
-  /// @brief Field m_AssetBundleProviders, offset 0x80, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_m_AssetBundleProviders,
-      put = __cordl_internal_set_m_AssetBundleProviders)) ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_AssetBundleProviders;
-
-  /// @brief Field m_AssetOperationCache, offset 0x60, size 0x8
+  /// @brief Field m_AssetOperationCache, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AssetOperationCache, put = __cordl_internal_set_m_AssetOperationCache)) ::System::Collections::Generic::Dictionary_2<
       ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_AssetOperationCache;
 
-  /// @brief Field m_DeferredCallbacksToRegister, offset 0x90, size 0x8
+  /// @brief Field m_DeferredCallbacksToRegister, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DeferredCallbacksToRegister, put = __cordl_internal_set_m_DeferredCallbacksToRegister)) ::System::Collections::Generic::List_1<
       ::UnityEngine::ResourceManagement::ResourceManager_DeferredCallbackRegisterRequest>* m_DeferredCallbacksToRegister;
 
-  /// @brief Field m_DeferredCompleteCallbacks, offset 0x78, size 0x8
+  /// @brief Field m_DeferredCompleteCallbacks, offset 0x70, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_DeferredCompleteCallbacks,
       put =
           __cordl_internal_set_m_DeferredCompleteCallbacks)) ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_DeferredCompleteCallbacks;
 
-  /// @brief Field m_InsideExecuteDeferredCallbacksMethod, offset 0x88, size 0x1
+  /// @brief Field m_InsideExecuteDeferredCallbacksMethod, offset 0x78, size 0x1
   __declspec(property(get = __cordl_internal_get_m_InsideExecuteDeferredCallbacksMethod,
                       put = __cordl_internal_set_m_InsideExecuteDeferredCallbacksMethod)) bool m_InsideExecuteDeferredCallbacksMethod;
 
-  /// @brief Field m_InsideUpdateMethod, offset 0x51, size 0x1
+  /// @brief Field m_InsideUpdateMethod, offset 0x49, size 0x1
   __declspec(property(get = __cordl_internal_get_m_InsideUpdateMethod, put = __cordl_internal_set_m_InsideUpdateMethod)) bool m_InsideUpdateMethod;
 
-  /// @brief Field m_ProviderOperationTypeCache, offset 0xd0, size 0x8
+  /// @brief Field m_ProviderOperationTypeCache, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ProviderOperationTypeCache,
                       put = __cordl_internal_set_m_ProviderOperationTypeCache)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* m_ProviderOperationTypeCache;
 
-  /// @brief Field m_RegisteredForCallbacks, offset 0xc8, size 0x1
+  /// @brief Field m_RegisteredForCallbacks, offset 0xa8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_RegisteredForCallbacks, put = __cordl_internal_set_m_RegisteredForCallbacks)) bool m_RegisteredForCallbacks;
 
-  /// @brief Field m_ReleaseInstanceOp, offset 0xb8, size 0x8
+  /// @brief Field m_ReleaseInstanceOp, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ReleaseInstanceOp,
                       put = __cordl_internal_set_m_ReleaseInstanceOp)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseInstanceOp;
 
-  /// @brief Field m_ReleaseOpCached, offset 0xb0, size 0x8
+  /// @brief Field m_ReleaseOpCached, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ReleaseOpCached,
                       put = __cordl_internal_set_m_ReleaseOpCached)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseOpCached;
 
-  /// @brief Field m_ReleaseOpNonCached, offset 0xa8, size 0x8
+  /// @brief Field m_ReleaseOpNonCached, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ReleaseOpNonCached,
                       put = __cordl_internal_set_m_ReleaseOpNonCached)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* m_ReleaseOpNonCached;
 
-  /// @brief Field m_ResourceProviders, offset 0x30, size 0x8
+  /// @brief Field m_ResourceProviders, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ResourceProviders,
                       put =
                           __cordl_internal_set_m_ResourceProviders)) ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_ResourceProviders;
 
-  /// @brief Field m_TrackedInstanceOperations, offset 0x68, size 0x8
+  /// @brief Field m_TrackedInstanceOperations, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TrackedInstanceOperations,
                       put = __cordl_internal_set_m_TrackedInstanceOperations)) ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation*>*
       m_TrackedInstanceOperations;
 
-  /// @brief Field m_UpdateCallbacks, offset 0x70, size 0x8
+  /// @brief Field m_UpdateCallbacks, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UpdateCallbacks, put = __cordl_internal_set_m_UpdateCallbacks)) ::GlobalNamespace::DelegateList_1<float_t>* m_UpdateCallbacks;
 
-  /// @brief Field m_UpdateReceivers, offset 0x40, size 0x8
+  /// @brief Field m_UpdateReceivers, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UpdateReceivers,
                       put = __cordl_internal_set_m_UpdateReceivers)) ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* m_UpdateReceivers;
 
-  /// @brief Field m_UpdateReceiversToRemove, offset 0x48, size 0x8
+  /// @brief Field m_UpdateReceiversToRemove, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_UpdateReceiversToRemove,
                       put = __cordl_internal_set_m_UpdateReceiversToRemove)) ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* m_UpdateReceiversToRemove;
 
-  /// @brief Field m_UpdatingReceivers, offset 0x50, size 0x1
+  /// @brief Field m_UpdatingReceivers, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UpdatingReceivers, put = __cordl_internal_set_m_UpdatingReceivers)) bool m_UpdatingReceivers;
 
-  /// @brief Field m_allocator, offset 0x38, size 0x8
+  /// @brief Field m_allocator, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_allocator, put = __cordl_internal_set_m_allocator)) ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* m_allocator;
 
-  /// @brief Field m_diagnosticsHandler, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_diagnosticsHandler,
-                      put = __cordl_internal_set_m_diagnosticsHandler)) ::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>* m_diagnosticsHandler;
-
-  /// @brief Field m_obsoleteDiagnosticsHandler, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_obsoleteDiagnosticsHandler,
-                      put = __cordl_internal_set_m_obsoleteDiagnosticsHandler)) ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
-                                                                                                   ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, int32_t, ::System::Object*>*
-      m_obsoleteDiagnosticsHandler;
-
-  /// @brief Field m_providerMap, offset 0x58, size 0x8
+  /// @brief Field m_providerMap, offset 0x50, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_providerMap,
       put = __cordl_internal_set_m_providerMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* m_providerMap;
-
-  /// @brief Field postProfilerEvents, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_postProfilerEvents, put = __cordl_internal_set_postProfilerEvents)) bool postProfilerEvents;
 
   /// @brief Field s_GroupOperationTypeHash, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_GroupOperationTypeHash, put = setStaticF_s_GroupOperationTypeHash)) int32_t s_GroupOperationTypeHash;
@@ -833,34 +714,35 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Acquire, addr 0x478f1a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TObject>
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> Acquire(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> handle);
+
+  /// @brief Method Acquire, addr 0x66ee774, size 0x20, virtual false, abstract: false, final false
   inline void Acquire(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method AcquireGroupOpFromCache, addr 0x478f288, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method AcquireGroupOpFromCache, addr 0x66ee864, size 0x148, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation* AcquireGroupOpFromCache(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* key);
 
-  /// @brief Method AddOperationToCache, addr 0x478efb8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOperationToCache, addr 0x66ee4f0, size 0x9c, virtual false, abstract: false, final false
   inline void AddOperationToCache(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* key, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation);
 
-  /// @brief Method AddUpdateReceiver, addr 0x478bfcc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method AddUpdateReceiver, addr 0x66eb538, size 0x78, virtual false, abstract: false, final false
   inline void AddUpdateReceiver(::UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
 
-  /// @brief Method CachedOperationCount, addr 0x478f098, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method CachedOperationCount, addr 0x66ee608, size 0x58, virtual false, abstract: false, final false
   inline int32_t CachedOperationCount();
 
-  /// @brief Method CalculateLocationsHash, addr 0x478d1f0, size 0x454, virtual false, abstract: false, final false
+  /// @brief Method CalculateLocationsHash, addr 0x66ec7ec, size 0x408, virtual false, abstract: false, final false
   inline int32_t CalculateLocationsHash(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, ::System::Type* t);
 
-  /// @brief Method CleanupSceneInstances, addr 0x478fe54, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method CleanupSceneInstances, addr 0x66ef4e0, size 0x370, virtual false, abstract: false, final false
   inline void CleanupSceneInstances(::UnityEngine::SceneManagement::Scene scene);
 
-  /// @brief Method ClearDiagnosticCallbacks, addr 0x478c9c0, size 0x8, virtual false, abstract: false, final false
-  inline void ClearDiagnosticCallbacks();
+  /// @brief Method ClearOperationCache, addr 0x66ee660, size 0x54, virtual false, abstract: false, final false
+  inline void ClearOperationCache();
 
-  /// @brief Method ClearDiagnosticsCallback, addr 0x478c9b8, size 0x8, virtual false, abstract: false, final false
-  inline void ClearDiagnosticsCallback();
-
-  /// @brief Method CreateCacheKeyForLocation, addr 0x478ddfc, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method CreateCacheKeyForLocation, addr 0x66ed3d8, size 0xf0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* CreateCacheKeyForLocation(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* provider,
                                                                                                 ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                 ::System::Type* desiredType);
@@ -905,7 +787,7 @@ public:
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> CreateCompletedOperationWithException(TObject result, ::System::Exception* exception);
 
-  /// @brief Method CreateGenericGroupOperation, addr 0x478f3c4, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method CreateGenericGroupOperation, addr 0x66ee9ac, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
   CreateGenericGroupOperation(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* operations, bool releasedCachedOpOnComplete);
 
@@ -924,52 +806,49 @@ public:
   inline T CreateOperation(::System::Type* actualType, int32_t typeHash, ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* cacheKey,
                            ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* onDestroyAction);
 
-  /// @brief Method Dispose, addr 0x4790a20, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x66effa8, size 0x11c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ExecuteDeferredCallbacks, addr 0x4790254, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method ExecuteDeferredCallbacks, addr 0x66ef850, size 0x1cc, virtual false, abstract: false, final false
   inline void ExecuteDeferredCallbacks();
 
-  /// @brief Method GetDefaultTypeForLocation, addr 0x478d0b4, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultTypeForLocation, addr 0x66ec6c4, size 0x128, virtual false, abstract: false, final false
   inline ::System::Type* GetDefaultTypeForLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
-  /// @brief Method GetOperationFromCache, addr 0x478e960, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetOperationFromCache, addr 0x66ede8c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* GetOperationFromCache(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                     ::System::Type* desiredType);
 
-  /// @brief Method GetResourceProvider, addr 0x478cc70, size 0x444, virtual false, abstract: false, final false
+  /// @brief Method GetResourceProvider, addr 0x66ec290, size 0x434, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* GetResourceProvider(::System::Type* t,
                                                                                                       ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method IsOperationCached, addr 0x478f040, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsOperationCached, addr 0x66ee58c, size 0x7c, virtual false, abstract: false, final false
   inline bool IsOperationCached(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* key);
 
   static inline ::UnityEngine::ResourceManagement::ResourceManager* New_ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
-  /// @brief Method OnInstanceOperationDestroy, addr 0x478eaf4, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method OnInstanceOperationDestroy, addr 0x66edfe4, size 0x168, virtual false, abstract: false, final false
   inline void OnInstanceOperationDestroy(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
 
-  /// @brief Method OnObjectAdded, addr 0x478c808, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnObjectAdded, addr 0x66ec094, size 0x78, virtual false, abstract: false, final false
   inline void OnObjectAdded(::System::Object* obj);
 
-  /// @brief Method OnObjectRemoved, addr 0x478c87c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnObjectRemoved, addr 0x66ec10c, size 0x78, virtual false, abstract: false, final false
   inline void OnObjectRemoved(::System::Object* obj);
 
-  /// @brief Method OnOperationDestroyCached, addr 0x478ed0c, size 0x234, virtual false, abstract: false, final false
+  /// @brief Method OnOperationDestroyCached, addr 0x66ee22c, size 0x23c, virtual false, abstract: false, final false
   inline void OnOperationDestroyCached(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
 
-  /// @brief Method OnOperationDestroyNonCached, addr 0x478ec38, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnOperationDestroyNonCached, addr 0x66ee14c, size 0xe0, virtual false, abstract: false, final false
   inline void OnOperationDestroyNonCached(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* o);
 
-  /// @brief Method PostDiagnosticEvent, addr 0x478cb74, size 0xfc, virtual false, abstract: false, final false
-  inline void PostDiagnosticEvent(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext context);
-
-  /// @brief Method ProvideInstance, addr 0x478fb78, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ProvideInstance, addr 0x66ef210, size 0x2a0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>
   ProvideInstance(::UnityEngine::ResourceManagement::ResourceProviders::IInstanceProvider* provider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                   ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters instantiateParameters);
 
-  /// @brief Method ProvideResource, addr 0x478d644, size 0x794, virtual false, abstract: false, final false
+  /// @brief Method ProvideResource, addr 0x66ecbf4, size 0x7c0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle ProvideResource(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                                                                                                   ::System::Type* desiredType, bool releaseDependenciesOnFailure);
 
@@ -977,7 +856,7 @@ public:
   template <typename TObject>
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> ProvideResource(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method ProvideResourceGroupCached, addr 0x478e078, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method ProvideResourceGroupCached, addr 0x66ed59c, size 0x780, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
   ProvideResourceGroupCached(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, int32_t groupHash,
                              ::System::Type* desiredType, ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* callback, bool releaseDependenciesOnFailure);
@@ -993,44 +872,43 @@ public:
   ProvideResources(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* locations, bool releaseDependenciesOnFailure,
                    ::System::Action_1<TObject>* callback);
 
-  /// @brief Method ProvideScene, addr 0x478f7b4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ProvideScene, addr 0x66eecc8, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method ProvideScene, addr 0x478f90c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method ProvideScene, addr 0x66eee18, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ProvideScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, bool activateOnLoad, int32_t priority);
 
-  /// @brief Method RegisterDiagnosticCallback, addr 0x478cacc, size 0xa8, virtual false, abstract: false, final false
-  inline void RegisterDiagnosticCallback(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>* func);
+  /// @brief Method ProvideScene, addr 0x66eef68, size 0x158, virtual false, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
+  ProvideScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
+               ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad,
+               int32_t priority);
 
-  /// @brief Method RegisterDiagnosticCallback, addr 0x478cac4, size 0x8, virtual false, abstract: false, final false
-  inline void RegisterDiagnosticCallback(::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
-                                                            ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, int32_t, ::System::Object*>* func);
-
-  /// @brief Method RegisterForCallbacks, addr 0x478c8f0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RegisterForCallbacks, addr 0x66ec184, size 0x10c, virtual false, abstract: false, final false
   inline void RegisterForCallbacks();
 
-  /// @brief Method RegisterForDeferredCallback, addr 0x4790408, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method RegisterForDeferredCallback, addr 0x66efa1c, size 0x21c, virtual false, abstract: false, final false
   inline void RegisterForDeferredCallback(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* op, bool incrementRefCount);
 
-  /// @brief Method Release, addr 0x478f0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x66ee6b4, size 0x8, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle handle);
 
-  /// @brief Method ReleaseScene, addr 0x478fa4c, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseScene, addr 0x66ef0c0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider* sceneProvider,
                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> sceneLoadHandle);
 
-  /// @brief Method RemoveOperationFromCache, addr 0x478ef40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method RemoveOperationFromCache, addr 0x66ee468, size 0x88, virtual false, abstract: false, final false
   inline bool RemoveOperationFromCache(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* key);
 
-  /// @brief Method RemoveUpdateReciever, addr 0x478c034, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method RemoveUpdateReciever, addr 0x66eb5b0, size 0x148, virtual false, abstract: false, final false
   inline void RemoveUpdateReciever(::UnityEngine::ResourceManagement::IUpdateReceiver* receiver);
 
-  /// @brief Method StartOperation, addr 0x478e7ec, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method StartOperation, addr 0x66edd1c, size 0x170, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle StartOperation(::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation* operation,
                                                                                                  ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency);
 
@@ -1039,13 +917,10 @@ public:
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>
   StartOperation(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* operation, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle dependency);
 
-  /// @brief Method TransformInternalId, addr 0x478be60, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method TransformInternalId, addr 0x66eb308, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW TransformInternalId(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location);
 
-  /// @brief Method UnregisterDiagnosticCallback, addr 0x478c9c8, size 0xfc, virtual false, abstract: false, final false
-  inline void UnregisterDiagnosticCallback(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>* func);
-
-  /// @brief Method Update, addr 0x4790610, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x66efc38, size 0x370, virtual false, abstract: false, final false
   inline void Update(float_t unscaledDeltaTime);
 
   constexpr bool const& __cordl_internal_get_CallbackHooksEnabled() const;
@@ -1063,10 +938,6 @@ public:
   constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* const& __cordl_internal_get__WebRequestOverride_k__BackingField() const;
 
   constexpr ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>*& __cordl_internal_get__WebRequestOverride_k__BackingField();
-
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* const& __cordl_internal_get_m_AssetBundleProviders() const;
-
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& __cordl_internal_get_m_AssetBundleProviders();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* const&
   __cordl_internal_get_m_AssetOperationCache() const;
@@ -1139,25 +1010,9 @@ public:
 
   constexpr ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*& __cordl_internal_get_m_allocator();
 
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>* const& __cordl_internal_get_m_diagnosticsHandler() const;
-
-  constexpr ::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>*& __cordl_internal_get_m_diagnosticsHandler();
-
-  constexpr ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, int32_t,
-                               ::System::Object*>* const&
-  __cordl_internal_get_m_obsoleteDiagnosticsHandler() const;
-
-  constexpr ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, int32_t,
-                               ::System::Object*>*&
-  __cordl_internal_get_m_obsoleteDiagnosticsHandler();
-
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* const& __cordl_internal_get_m_providerMap() const;
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>*& __cordl_internal_get_m_providerMap();
-
-  constexpr bool const& __cordl_internal_get_postProfilerEvents() const;
-
-  constexpr bool& __cordl_internal_get_postProfilerEvents();
 
   constexpr void __cordl_internal_set_CallbackHooksEnabled(bool value);
 
@@ -1166,8 +1021,6 @@ public:
   constexpr void __cordl_internal_set__InternalIdTransformFunc_k__BackingField(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
 
   constexpr void __cordl_internal_set__WebRequestOverride_k__BackingField(::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* value);
-
-  constexpr void __cordl_internal_set_m_AssetBundleProviders(::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
 
   constexpr void __cordl_internal_set_m_AssetOperationCache(
       ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* value);
@@ -1204,19 +1057,12 @@ public:
 
   constexpr void __cordl_internal_set_m_allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
 
-  constexpr void __cordl_internal_set_m_diagnosticsHandler(::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>* value);
-
-  constexpr void __cordl_internal_set_m_obsoleteDiagnosticsHandler(::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
-                                                                                      ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, int32_t, ::System::Object*>* value);
-
   constexpr void __cordl_internal_set_m_providerMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* value);
 
-  constexpr void __cordl_internal_set_postProfilerEvents(bool value);
+  /// @brief Method <.ctor>b__53_0, addr 0x66f01a4, size 0x4, virtual false, abstract: false, final false
+  inline void __ctor_b__53_0(::UnityEngine::ResourceManagement::IUpdateReceiver* x);
 
-  /// @brief Method <.ctor>b__54_0, addr 0x4790bd4, size 0x4, virtual false, abstract: false, final false
-  inline void __ctor_b__54_0(::UnityEngine::ResourceManagement::IUpdateReceiver* x);
-
-  /// @brief Method .ctor, addr 0x478c184, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66eb720, size 0x554, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* alloc);
 
   static inline ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* getStaticF__ExceptionHandler_k__BackingField();
@@ -1225,28 +1071,34 @@ public:
 
   static inline int32_t getStaticF_s_InstanceOperationTypeHash();
 
-  /// @brief Method get_Allocator, addr 0x478c15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Allocator, addr 0x66eb6f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* get_Allocator();
 
-  /// @brief Method get_CertificateHandlerInstance, addr 0x478c174, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateHandlerInstance, addr 0x66eb710, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::CertificateHandler* get_CertificateHandlerInstance();
 
-  /// @brief Method get_ExceptionHandler, addr 0x478bd9c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DeferredCallbackCount, addr 0x66eb4e4, size 0x54, virtual false, abstract: false, final false
+  inline int32_t get_DeferredCallbackCount();
+
+  /// @brief Method get_DeferredCompleteCallbacksCount, addr 0x66eb494, size 0x50, virtual false, abstract: false, final false
+  inline int32_t get_DeferredCompleteCallbacksCount();
+
+  /// @brief Method get_ExceptionHandler, addr 0x66eb23c, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* get_ExceptionHandler();
 
-  /// @brief Method get_InstanceOperationCount, addr 0x478bf84, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_InstanceOperationCount, addr 0x66eb444, size 0x50, virtual false, abstract: false, final false
   inline int32_t get_InstanceOperationCount();
 
-  /// @brief Method get_InternalIdTransformFunc, addr 0x478be50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InternalIdTransformFunc, addr 0x66eb2f8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* get_InternalIdTransformFunc();
 
-  /// @brief Method get_OperationCacheCount, addr 0x478bf34, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_OperationCacheCount, addr 0x66eb3ec, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_OperationCacheCount();
 
-  /// @brief Method get_ResourceProviders, addr 0x478c16c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResourceProviders, addr 0x66eb708, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* get_ResourceProviders();
 
-  /// @brief Method get_WebRequestOverride, addr 0x478bf24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_WebRequestOverride, addr 0x66eb3dc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* get_WebRequestOverride();
 
   /// @brief Convert to "::System::IDisposable"
@@ -1258,19 +1110,19 @@ public:
 
   static inline void setStaticF_s_InstanceOperationTypeHash(int32_t value);
 
-  /// @brief Method set_Allocator, addr 0x478c164, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Allocator, addr 0x66eb700, size 0x8, virtual false, abstract: false, final false
   inline void set_Allocator(::UnityEngine::ResourceManagement::Util::IAllocationStrategy* value);
 
-  /// @brief Method set_CertificateHandlerInstance, addr 0x478c17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CertificateHandlerInstance, addr 0x66eb718, size 0x8, virtual false, abstract: false, final false
   inline void set_CertificateHandlerInstance(::UnityEngine::Networking::CertificateHandler* value);
 
-  /// @brief Method set_ExceptionHandler, addr 0x478bdf4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ExceptionHandler, addr 0x66eb298, size 0x60, virtual false, abstract: false, final false
   static inline void set_ExceptionHandler(::System::Action_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::System::Exception*>* value);
 
-  /// @brief Method set_InternalIdTransformFunc, addr 0x478be58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InternalIdTransformFunc, addr 0x66eb300, size 0x8, virtual false, abstract: false, final false
   inline void set_InternalIdTransformFunc(::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* value);
 
-  /// @brief Method set_WebRequestOverride, addr 0x478bf2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_WebRequestOverride, addr 0x66eb3e4, size 0x8, virtual false, abstract: false, final false
   inline void set_WebRequestOverride(::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* value);
 
 protected:
@@ -1288,144 +1140,123 @@ public:
   ResourceManager(ResourceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18663 };
 
-  /// @brief Field postProfilerEvents, offset: 0x10, size: 0x1, def value: None
-  bool ___postProfilerEvents;
-
-  /// @brief Field <InternalIdTransformFunc>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field <InternalIdTransformFunc>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW>* ____InternalIdTransformFunc_k__BackingField;
 
-  /// @brief Field <WebRequestOverride>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field <WebRequestOverride>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::Networking::UnityWebRequest*>* ____WebRequestOverride_k__BackingField;
 
-  /// @brief Field CallbackHooksEnabled, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field CallbackHooksEnabled, offset: 0x20, size: 0x1, def value: None
   bool ___CallbackHooksEnabled;
 
-  /// @brief Field m_ResourceProviders, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_ResourceProviders, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* ___m_ResourceProviders;
 
-  /// @brief Field m_allocator, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field m_allocator, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::Util::IAllocationStrategy* ___m_allocator;
 
-  /// @brief Field m_UpdateReceivers, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_UpdateReceivers, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::ListWithEvents_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* ___m_UpdateReceivers;
 
-  /// @brief Field m_UpdateReceiversToRemove, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_UpdateReceiversToRemove, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::IUpdateReceiver*>* ___m_UpdateReceiversToRemove;
 
-  /// @brief Field m_UpdatingReceivers, offset: 0x50, size: 0x1, def value: None
+  /// @brief Field m_UpdatingReceivers, offset: 0x48, size: 0x1, def value: None
   bool ___m_UpdatingReceivers;
 
-  /// @brief Field m_InsideUpdateMethod, offset: 0x51, size: 0x1, def value: None
+  /// @brief Field m_InsideUpdateMethod, offset: 0x49, size: 0x1, def value: None
   bool ___m_InsideUpdateMethod;
 
-  /// @brief Field m_providerMap, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field m_providerMap, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* ___m_providerMap;
 
-  /// @brief Field m_AssetOperationCache, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field m_AssetOperationCache, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::UnityEngine::ResourceManagement::Util::IOperationCacheKey*, ::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>*
       ___m_AssetOperationCache;
 
-  /// @brief Field m_TrackedInstanceOperations, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field m_TrackedInstanceOperations, offset: 0x60, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation*>* ___m_TrackedInstanceOperations;
 
-  /// @brief Field m_UpdateCallbacks, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field m_UpdateCallbacks, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::DelegateList_1<float_t>* ___m_UpdateCallbacks;
 
-  /// @brief Field m_DeferredCompleteCallbacks, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_DeferredCompleteCallbacks, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* ___m_DeferredCompleteCallbacks;
 
-  /// @brief Field m_AssetBundleProviders, offset: 0x80, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>* ___m_AssetBundleProviders;
-
-  /// @brief Field m_InsideExecuteDeferredCallbacksMethod, offset: 0x88, size: 0x1, def value: None
+  /// @brief Field m_InsideExecuteDeferredCallbacksMethod, offset: 0x78, size: 0x1, def value: None
   bool ___m_InsideExecuteDeferredCallbacksMethod;
 
-  /// @brief Field m_DeferredCallbacksToRegister, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field m_DeferredCallbacksToRegister, offset: 0x80, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::ResourceManager_DeferredCallbackRegisterRequest>* ___m_DeferredCallbacksToRegister;
 
-  /// @brief Field m_obsoleteDiagnosticsHandler, offset: 0x98, size: 0x8, def value: None
-  ::System::Action_4<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, int32_t, ::System::Object*>*
-      ___m_obsoleteDiagnosticsHandler;
-
-  /// @brief Field m_diagnosticsHandler, offset: 0xa0, size: 0x8, def value: None
-  ::System::Action_1<::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext>* ___m_diagnosticsHandler;
-
-  /// @brief Field m_ReleaseOpNonCached, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field m_ReleaseOpNonCached, offset: 0x88, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* ___m_ReleaseOpNonCached;
 
-  /// @brief Field m_ReleaseOpCached, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field m_ReleaseOpCached, offset: 0x90, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* ___m_ReleaseOpCached;
 
-  /// @brief Field m_ReleaseInstanceOp, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field m_ReleaseInstanceOp, offset: 0x98, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::IAsyncOperation*>* ___m_ReleaseInstanceOp;
 
-  /// @brief Field <CertificateHandlerInstance>k__BackingField, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field <CertificateHandlerInstance>k__BackingField, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::Networking::CertificateHandler* ____CertificateHandlerInstance_k__BackingField;
 
-  /// @brief Field m_RegisteredForCallbacks, offset: 0xc8, size: 0x1, def value: None
+  /// @brief Field m_RegisteredForCallbacks, offset: 0xa8, size: 0x1, def value: None
   bool ___m_RegisteredForCallbacks;
 
-  /// @brief Field m_ProviderOperationTypeCache, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field m_ProviderOperationTypeCache, offset: 0xb0, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Type*, ::System::Type*>* ___m_ProviderOperationTypeCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___postProfilerEvents) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ____InternalIdTransformFunc_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ____InternalIdTransformFunc_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ____WebRequestOverride_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ____WebRequestOverride_k__BackingField) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___CallbackHooksEnabled) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___CallbackHooksEnabled) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ResourceProviders) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ResourceProviders) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_allocator) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_allocator) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdateReceivers) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdateReceivers) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdateReceiversToRemove) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdateReceiversToRemove) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdatingReceivers) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdatingReceivers) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_InsideUpdateMethod) == 0x49, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_InsideUpdateMethod) == 0x51, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_providerMap) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_providerMap) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_AssetOperationCache) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_AssetOperationCache) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_TrackedInstanceOperations) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_TrackedInstanceOperations) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdateCallbacks) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_UpdateCallbacks) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_DeferredCompleteCallbacks) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_DeferredCompleteCallbacks) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_InsideExecuteDeferredCallbacksMethod) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_AssetBundleProviders) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_DeferredCallbacksToRegister) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_InsideExecuteDeferredCallbacksMethod) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ReleaseOpNonCached) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_DeferredCallbacksToRegister) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ReleaseOpCached) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_obsoleteDiagnosticsHandler) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ReleaseInstanceOp) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_diagnosticsHandler) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ____CertificateHandlerInstance_k__BackingField) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ReleaseOpNonCached) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_RegisteredForCallbacks) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ReleaseOpCached) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ProviderOperationTypeCache) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ReleaseInstanceOp) == 0xb8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ____CertificateHandlerInstance_k__BackingField) == 0xc0, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_RegisteredForCallbacks) == 0xc8, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::ResourceManagement::ResourceManager, ___m_ProviderOperationTypeCache) == 0xd0, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceManager, 0xd8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::ResourceManager, 0xb8>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventType, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventType");
@@ -1434,6 +1265,5 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceManager*, "Uni
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::ResourceManager_CompletedOperation_1, "UnityEngine.ResourceManagement", "ResourceManager/CompletedOperation`1");
 NEED_NO_BOX(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceManager_InstanceOperation*, "UnityEngine.ResourceManagement", "ResourceManager/InstanceOperation");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass95_0_1, "UnityEngine.ResourceManagement", "ResourceManager/<>c__DisplayClass95_0`1");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::ResourceManager___c__DisplayClass90_0_1, "UnityEngine.ResourceManagement", "ResourceManager/<>c__DisplayClass90_0`1");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceManager_DeferredCallbackRegisterRequest, "UnityEngine.ResourceManagement", "ResourceManager/DeferredCallbackRegisterRequest");
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ResourceManagement::ResourceManager_DiagnosticEventContext, "UnityEngine.ResourceManagement", "ResourceManager/DiagnosticEventContext");

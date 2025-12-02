@@ -1,13 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Globalization/NumberFormatInfo.hpp"
 #include "System/Globalization/zzzz__NumberStyles_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
-#include "System/zzzz__IFormatProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Globalization/zzzz__NumberFormatInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureData_def.hpp"
 #include "System/Globalization/zzzz__NumberStyles_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -16,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da26e4;
+  constexpr static std::size_t addrs = 0x59b5bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(), ".ctor",
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::NumberFormatInfo::OnSerializing)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3da2b1c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x59b605c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -45,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::NumberFormatInfo::OnDeserializing)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3da2ba0;
+  constexpr static std::size_t addrs = 0x59b60cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Globalization::NumberFormatInfo::OnDeserialized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3da2ba4;
+  constexpr static std::size_t addrs = 0x59b60d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::System::Globalization::NumberFormatInfo::VerifyGroupSeparator)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3da2ba8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x59b60d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::System::Globalization::CultureData*)>(
     &::System::Globalization::NumberFormatInfo::_ctor)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x3da26ec;
+  constexpr static std::size_t size = 0x484;
+  constexpr static std::size_t addrs = 0x59b5bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::VerifyWritable)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3da2db4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59b6134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -115,8 +114,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::NumberFormatInfo* (*)()>(&::System::Globalization::NumberFormatInfo::get_InvariantInfo)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3da2e20;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x59b6190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -129,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::NumberFormatInfo* (*)(::System::IFormatProvider*)>(
     &::System::Globalization::NumberFormatInfo::GetInstance)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3da2f94;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x59b6300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::Clone)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3da3234;
+  constexpr static std::size_t addrs = 0x59b6584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(), "Clone",
@@ -159,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencyDecimalDigits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da32a0;
+  constexpr static std::size_t addrs = 0x59b65f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -173,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencyDecimalSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da32a8;
+  constexpr static std::size_t addrs = 0x59b65f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -186,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::NumberFormatInfo::*)()>(&::System::Globalization::NumberFormatInfo::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da32b0;
+  constexpr static std::size_t addrs = 0x59b6600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -200,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencyGroupSizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3da32b8;
+  constexpr static std::size_t addrs = 0x59b6608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -214,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NumberGroupSizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3da3330;
+  constexpr static std::size_t addrs = 0x59b6680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -228,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentGroupSizes)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3da33a8;
+  constexpr static std::size_t addrs = 0x59b66f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -242,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencyGroupSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3420;
+  constexpr static std::size_t addrs = 0x59b6770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -256,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3428;
+  constexpr static std::size_t addrs = 0x59b6778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -268,8 +267,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::NumberFormatInfo* (*)()>(&::System::Globalization::NumberFormatInfo::get_CurrentInfo)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3da3140;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x59b64a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -283,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NaNSymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3430;
+  constexpr static std::size_t addrs = 0x59b6780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -296,8 +295,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::StringW)>(
     &::System::Globalization::NumberFormatInfo::set_NaNSymbol)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3da3438;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x59b6788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,7 +311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencyNegativePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34c4;
+  constexpr static std::size_t addrs = 0x59b680c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -326,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NumberNegativePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34cc;
+  constexpr static std::size_t addrs = 0x59b6814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -340,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentPositivePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34d4;
+  constexpr static std::size_t addrs = 0x59b681c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -354,7 +353,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentNegativePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34dc;
+  constexpr static std::size_t addrs = 0x59b6824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -368,7 +367,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NegativeInfinitySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34e4;
+  constexpr static std::size_t addrs = 0x59b682c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -382,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NegativeSign)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34ec;
+  constexpr static std::size_t addrs = 0x59b6834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -396,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NumberDecimalDigits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34f4;
+  constexpr static std::size_t addrs = 0x59b683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -410,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NumberDecimalSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da34fc;
+  constexpr static std::size_t addrs = 0x59b6844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -424,7 +423,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_NumberGroupSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3504;
+  constexpr static std::size_t addrs = 0x59b684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -437,8 +436,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::NumberFormatInfo::*)(::StringW)>(
     &::System::Globalization::NumberFormatInfo::set_NumberGroupSeparator)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3da350c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x59b6854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_CurrencyPositivePattern)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3570;
+  constexpr static std::size_t addrs = 0x59b68bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -467,7 +466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PositiveInfinitySymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3578;
+  constexpr static std::size_t addrs = 0x59b68c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -481,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PositiveSign)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3580;
+  constexpr static std::size_t addrs = 0x59b68cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -495,7 +494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentDecimalDigits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3588;
+  constexpr static std::size_t addrs = 0x59b68d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -509,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentDecimalSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3590;
+  constexpr static std::size_t addrs = 0x59b68dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -523,7 +522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentGroupSeparator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da3598;
+  constexpr static std::size_t addrs = 0x59b68e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -537,7 +536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PercentSymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da35a0;
+  constexpr static std::size_t addrs = 0x59b68ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -551,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::NumberFormatInfo::*)()>(
     &::System::Globalization::NumberFormatInfo::get_PerMilleSymbol)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3da35a8;
+  constexpr static std::size_t addrs = 0x59b68f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::NumberFormatInfo*>::get(),
@@ -564,8 +563,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Globalization::NumberFormatInfo::*)(::System::Type*)>(
     &::System::Globalization::NumberFormatInfo::GetFormat)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3da35b0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x59b68fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,7 +579,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::NumberFormatInfo* (*)(::System::Globalization::NumberFormatInfo*)>(
     &::System::Globalization::NumberFormatInfo::ReadOnly)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3da2ec4;
+  constexpr static std::size_t addrs = 0x59b6230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,8 +593,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Globalization::NumberStyles)>(
     &::System::Globalization::NumberFormatInfo::ValidateParseStyleInteger)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3da3648;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x59b6978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -609,8 +608,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Globalization::NumberStyles)>(
     &::System::Globalization::NumberFormatInfo::ValidateParseStyleFloatingPoint)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3da3714;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x59b6a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

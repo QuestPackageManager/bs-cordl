@@ -36,10 +36,10 @@ public:
 
   constexpr void __cordl_internal_set__dec(::System::Decimal value);
 
-  /// @brief Method .ctor, addr 0x3d186f8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5959a5c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(uint8_t scale, uint8_t sign, uint32_t hi, uint32_t mid, uint32_t low);
 
-  /// @brief Method get_Value, addr 0x3d18794, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5959ad0, size 0xc, virtual false, abstract: false, final false
   inline ::System::Decimal get_Value();
 
 protected:
@@ -57,7 +57,7 @@ public:
   DecimalConstantAttribute(DecimalConstantAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3382 };
 
   /// @brief Field _dec, offset: 0x10, size: 0x10, def value: None
   ::System::Decimal ____dec;

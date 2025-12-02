@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::FtpMethodInfo::*)(::StringW, ::System::Net::FtpOperation, ::System::Net::FtpMethodFlags, ::StringW)>(&::System::Net::FtpMethodInfo::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4496950;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x61e643c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::FtpMethodInfo::*)(::System::Net::FtpMethodFlags)>(&::System::Net::FtpMethodInfo::HasFlag)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x44945ec;
+  constexpr static std::size_t addrs = 0x61e644c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_IsCommandOnly)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x449478c;
+  constexpr static std::size_t addrs = 0x61e645c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpMethodInfo*>::get(), "get_IsCommandOnly",
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_IsUpload)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4495574;
+  constexpr static std::size_t addrs = 0x61e646c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpMethodInfo*>::get(), "get_IsUpload",
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_IsDownload)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4495580;
+  constexpr static std::size_t addrs = 0x61e6478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpMethodInfo*>::get(), "get_IsDownload",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::FtpMethodInfo::*)()>(&::System::Net::FtpMethodInfo::get_ShouldParseForResponseUri)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4492e20;
+  constexpr static std::size_t addrs = 0x61e6484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::FtpMethodInfo*>::get(),
@@ -94,8 +94,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::FtpMethodInfo* (*)(::StringW)>(&::System::Net::FtpMethodInfo::GetMethodInfo)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4496994;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x61e6490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

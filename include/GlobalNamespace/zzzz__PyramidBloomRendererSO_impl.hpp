@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PyramidBloomRendererSO.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__GlobalKeyword_impl.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__PyramidBloomRendererSO_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -38,8 +39,8 @@ constexpr ::GlobalNamespace::PyramidBloomRendererSO_Level::PyramidBloomRendererS
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnEnable)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x39d33f0;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x564a7f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39d34f8;
+  constexpr static std::size_t addrs = 0x564a910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), "OnDisable",
@@ -67,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t, bool, bool, bool, bool)>(&::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39d351c;
+  constexpr static std::size_t addrs = 0x564a934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t, float_t, float_t, float_t, bool, bool, float_t, float_t, float_t, float_t, ::GlobalNamespace::PyramidBloomRendererSO_Pass,
     ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass, ::GlobalNamespace::PyramidBloomRendererSO_Pass, bool, bool)>(
     &::GlobalNamespace::PyramidBloomRendererSO::RenderBloom)> {
-  constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x39d35ac;
+  constexpr static std::size_t size = 0x880;
+  constexpr static std::size_t addrs = 0x564a9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomRendererSO::*)()>(&::GlobalNamespace::PyramidBloomRendererSO::_ctor)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39d3de0;
+  constexpr static std::size_t addrs = 0x564b244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomRendererSO*>::get(), ".ctor",
@@ -183,6 +184,18 @@ constexpr ::StringW const& GlobalNamespace::PyramidBloomRendererSO::__cordl_inte
 constexpr void GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___kLegacyAutoExposureKeyword)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::Rendering::GlobalKeyword& GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_get__legacyAutoExposureGlobalKeyword() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____legacyAutoExposureGlobalKeyword;
+}
+constexpr ::UnityEngine::Rendering::GlobalKeyword const& GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_get__legacyAutoExposureGlobalKeyword() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____legacyAutoExposureGlobalKeyword;
+}
+constexpr void GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_set__legacyAutoExposureGlobalKeyword(::UnityEngine::Rendering::GlobalKeyword value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____legacyAutoExposureGlobalKeyword = value;
 }
 constexpr bool& GlobalNamespace::PyramidBloomRendererSO::__cordl_internal_get__initialized() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

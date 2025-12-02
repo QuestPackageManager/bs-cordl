@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CompositeLogger)
@@ -25,7 +24,7 @@ class CompositeLogger;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CompositeLogger);
-// Dependencies IBeatSaberLogger, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: CompositeLogger
@@ -38,31 +37,31 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
   constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
 
-  /// @brief Method AddLogger, addr 0x3b16788, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddLogger, addr 0x56f5b10, size 0xb4, virtual false, abstract: false, final false
   inline void AddLogger(::GlobalNamespace::IBeatSaberLogger* logger);
 
-  /// @brief Method Log, addr 0x3b1682c, size 0x1b0, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x56f5bc4, size 0x180, virtual true, abstract: false, final true
   inline void Log(::StringW message);
 
-  /// @brief Method Log, addr 0x3b169dc, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method Log, addr 0x56f5d44, size 0x18c, virtual true, abstract: false, final true
   inline void Log(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogError, addr 0x3b16f18, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x56f61e0, size 0x184, virtual true, abstract: false, final true
   inline void LogError(::StringW message);
 
-  /// @brief Method LogError, addr 0x3b170cc, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogError, addr 0x56f6364, size 0x18c, virtual true, abstract: false, final true
   inline void LogError(::StringW message, ::System::Object* context);
 
-  /// @brief Method LogException, addr 0x3b17290, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x56f64f0, size 0x184, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception);
 
-  /// @brief Method LogException, addr 0x3b17444, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogException, addr 0x56f6674, size 0x18c, virtual true, abstract: false, final true
   inline void LogException(::System::Exception* exception, ::System::Object* context);
 
-  /// @brief Method LogWarning, addr 0x3b16ba0, size 0x1b4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x56f5ed0, size 0x184, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message);
 
-  /// @brief Method LogWarning, addr 0x3b16d54, size 0x1c4, virtual true, abstract: false, final true
+  /// @brief Method LogWarning, addr 0x56f6054, size 0x18c, virtual true, abstract: false, final true
   inline void LogWarning(::StringW message, ::System::Object* context);
 
   static inline ::GlobalNamespace::CompositeLogger* New_ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
@@ -73,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__loggers(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* value);
 
-  /// @brief Method .ctor, addr 0x3b16760, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f5b08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* loggers);
 
   /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
@@ -94,7 +93,7 @@ public:
   CompositeLogger(CompositeLogger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6641 };
 
   /// @brief Field _loggers, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::IBeatSaberLogger*>* ____loggers;

@@ -33,6 +33,7 @@ public:
     __E_NoResolvedColorSurface = static_cast<int32_t>(0x100),
     __E_DynamicallyScalable = static_cast<int32_t>(0x400),
     __E_BindMS = static_cast<int32_t>(0x800),
+    __E_DynamicallyScalableExplicit = static_cast<int32_t>(0x20000),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -67,6 +68,9 @@ public:
   /// @brief Field DynamicallyScalable value: I32(1024)
   static ::UnityEngine::RenderTextureCreationFlags const DynamicallyScalable;
 
+  /// @brief Field DynamicallyScalableExplicit value: I32(131072)
+  static ::UnityEngine::RenderTextureCreationFlags const DynamicallyScalableExplicit;
+
   /// @brief Field EnableRandomWrite value: I32(16)
   static ::UnityEngine::RenderTextureCreationFlags const EnableRandomWrite;
 
@@ -83,7 +87,7 @@ public:
   static ::UnityEngine::RenderTextureCreationFlags const SRGB;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10176 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

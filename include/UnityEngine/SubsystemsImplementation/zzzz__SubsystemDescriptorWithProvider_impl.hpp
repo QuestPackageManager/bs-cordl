@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/SubsystemsImplementation/SubsystemDescriptorWithProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/zzzz__ISubsystemDescriptor_impl.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_def.hpp"
+#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "UnityEngine/zzzz__ISubsystem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider.get_id
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491bddc;
+  constexpr static std::size_t addrs = 0x6985064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ISubsystem* (::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::UnityEngine_ISubsystemDescriptor_Create)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x491bde4;
+  constexpr static std::size_t addrs = 0x698506c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::*)()>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorWithProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491bdf0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6985078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

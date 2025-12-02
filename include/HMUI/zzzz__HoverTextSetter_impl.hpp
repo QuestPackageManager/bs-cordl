@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "HMUI/HoverTextSetter.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "HMUI/zzzz__HoverTextSetter_def.hpp"
 #include "HMUI/zzzz__HoverTextController_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::HMUI::HoverTextSetter.get_text
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::HoverTextSetter::*)()>(&::HMUI::HoverTextSetter::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef01c;
+  constexpr static std::size_t addrs = 0x56671c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextSetter*>::get(), "get_text",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextSetter::*)(::StringW)>(&::HMUI::HoverTextSetter::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef024;
+  constexpr static std::size_t addrs = 0x56671d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextSetter::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::HoverTextSetter::OnPointerEnter)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39ef02c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56671d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextSetter::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::HoverTextSetter::OnPointerExit)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39ef04c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56671f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextSetter::*)()>(&::HMUI::HoverTextSetter::OnDisable)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39ef064;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5667208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextSetter*>::get(), "OnDisable",
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::HoverTextSetter::*)()>(&::HMUI::HoverTextSetter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ef07c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x566721c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::HoverTextSetter*>::get(), ".ctor",

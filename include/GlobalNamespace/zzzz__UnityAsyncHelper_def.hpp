@@ -3,12 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -43,6 +39,9 @@ class __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredica
 namespace GlobalNamespace {
 class __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -69,6 +68,9 @@ template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
 }
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -118,7 +120,7 @@ MARK_GEN_VAL_T(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__1_1);
 MARK_GEN_VAL_T(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__2_2);
 MARK_GEN_VAL_T(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__3_3);
 MARK_GEN_VAL_T(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__4_4);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: UnityAsyncHelper/<>c__DisplayClass5_0/<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d
@@ -147,21 +149,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22b59c8, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31fca08, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b5a90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31fcad8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b5a98, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31fcae0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b5ad0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31fcb18, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22b59c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31fca04, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -182,7 +184,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0* value);
 
-  /// @brief Method .ctor, addr 0x22b599c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fc9fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -209,7 +211,7 @@ public:
   __c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass5_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20671 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -249,7 +251,7 @@ public:
 
   static inline ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x22b5790, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x31fc7fc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_predicate() const;
@@ -264,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x22b5788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fc7f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -282,7 +284,7 @@ public:
   UnityAsyncHelper___c__DisplayClass5_0(UnityAsyncHelper___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20672 };
 
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___predicate;
@@ -300,7 +302,7 @@ static_assert(offsetof(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0,
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityAsyncHelper___c__DisplayClass5_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: UnityAsyncHelper/<>c__DisplayClass6_0/<<WaitUntilAsync>g__WaitUntilPredicateTrue|0>d
@@ -329,21 +331,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22b5b04, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31fcb2c, size 0xd0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b5bcc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31fcbfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b5bd4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31fcc04, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b5c0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31fcc3c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22b5b00, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31fcb28, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -364,7 +366,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0* value);
 
-  /// @brief Method .ctor, addr 0x22b5ad8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fcb20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -391,7 +393,7 @@ public:
   __c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d(__c__DisplayClass6_0_UnityAsyncHelper___WaitUntilAsync_g__WaitUntilPredicateTrue_0_d const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20673 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -431,7 +433,7 @@ public:
 
   static inline ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x22b593c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method <WaitUntilAsync>g__WaitUntilPredicateTrue|0, addr 0x31fc9a8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* _WaitUntilAsync_g__WaitUntilPredicateTrue_0();
 
   constexpr ::System::Func_1<bool>* const& __cordl_internal_get_predicate() const;
@@ -446,7 +448,7 @@ public:
 
   constexpr void __cordl_internal_set_tcs(::System::Threading::Tasks::TaskCompletionSource_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x22b5934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fc9a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -464,7 +466,7 @@ public:
   UnityAsyncHelper___c__DisplayClass6_0(UnityAsyncHelper___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20674 };
 
   /// @brief Field predicate, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<bool>* ___predicate;
@@ -482,7 +484,7 @@ static_assert(offsetof(::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0,
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: UnityAsyncHelper/<InvokeSafe>d__0
@@ -492,10 +494,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22b5c14, size 0x234, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31fcc44, size 0x250, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22b5e48, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31fce94, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -512,7 +514,7 @@ public:
                                               ::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20675 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -543,7 +545,7 @@ static_assert(offsetof(::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0, __u
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityAsyncHelper__InvokeSafe_d__0, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
 template <typename A>
@@ -576,7 +578,7 @@ public:
                                                 ::System::Func_2<A, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20676 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -600,7 +602,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B>
@@ -634,7 +636,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20677 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -661,7 +663,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C>
@@ -695,7 +697,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17148 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20678 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -725,7 +727,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // cpp template
 template <typename A, typename B, typename C, typename D>
@@ -760,7 +762,7 @@ public:
                                                 ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17149 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20679 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -814,7 +816,7 @@ public:
 
   using __c__DisplayClass6_0 = ::GlobalNamespace::UnityAsyncHelper___c__DisplayClass6_0;
 
-  /// @brief Method InvokeSafe, addr 0x22b5618, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method InvokeSafe, addr 0x31fc668, size 0xa4, virtual false, abstract: false, final false
   static inline void InvokeSafe(::System::Func_1<::System::Threading::Tasks::Task*>* asyncTask);
 
   /// @brief Method InvokeSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -831,10 +833,10 @@ public:
   template <typename A, typename B, typename C, typename D>
   static inline void InvokeSafe(::System::Func_5<A, B, C, D, ::System::Threading::Tasks::Task*>* asyncTask, A firstParameter, B secondParameter, C thirdParameter, D fourthParameter);
 
-  /// @brief Method WaitUntilAsync, addr 0x22b57f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilAsync, addr 0x31fc850, size 0x154, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitUntilAsync(::GlobalNamespace::ICoroutineStarter* coroutineStarter, ::System::Func_1<bool>* predicate);
 
-  /// @brief Method WaitUntilAsync, addr 0x22b56a8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method WaitUntilAsync, addr 0x31fc70c, size 0xec, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* WaitUntilAsync(::UnityEngine::MonoBehaviour* coroutineStarter, ::System::Func_1<bool>* predicate);
 
 protected:
@@ -852,7 +854,7 @@ public:
   UnityAsyncHelper(UnityAsyncHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20680 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

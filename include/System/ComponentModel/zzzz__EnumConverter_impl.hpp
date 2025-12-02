@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EnumConverter::*)(::System::Type*)>(
     &::System::ComponentModel::EnumConverter::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x445e640;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61af264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::EnumConverter::*)()>(
     &::System::ComponentModel::EnumConverter::get_EnumType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445e668;
+  constexpr static std::size_t addrs = 0x61af26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EnumConverter*>::get(), "get_EnumType",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (::System::ComponentModel::EnumConverter::*)()>(
     &::System::ComponentModel::EnumConverter::get_Values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445e670;
+  constexpr static std::size_t addrs = 0x61af274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EnumConverter*>::get(), "get_Values",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::TypeConverter_StandardValuesCollection*)>(
     &::System::ComponentModel::EnumConverter::set_Values)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445e678;
+  constexpr static std::size_t addrs = 0x61af27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::EnumConverter::CanConvertFrom)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x445e680;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x61af284;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::EnumConverter::CanConvertTo)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x445e790;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x61af338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IComparer* (::System::ComponentModel::EnumConverter::*)()>(
     &::System::ComponentModel::EnumConverter::get_Comparer)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x445e8a0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x61af3fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,8 +117,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::EnumConverter::ConvertFrom)> {
-  constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x445e8f8;
+  constexpr static std::size_t size = 0x4d0;
+  constexpr static std::size_t addrs = 0x61af458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,8 +133,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::EnumConverter::ConvertTo)> {
-  constexpr static std::size_t size = 0xdc0;
-  constexpr static std::size_t addrs = 0x445ee1c;
+  constexpr static std::size_t size = 0xd30;
+  constexpr static std::size_t addrs = 0x61af928;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::EnumConverter::GetStandardValues)> {
-  constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x445fbdc;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x61b06d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::EnumConverter::GetStandardValuesExclusive)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x445ffc0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x61b0c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::EnumConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4460068;
+  constexpr static std::size_t addrs = 0x61b0cac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::System::ComponentModel::EnumConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Object*)>(&::System::ComponentModel::EnumConverter::IsValid)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4460070;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x61b0cb4;
 
   inline static ::MethodInfo const* methodInfo() {
 

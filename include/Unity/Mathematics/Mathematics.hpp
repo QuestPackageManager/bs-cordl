@@ -3,6 +3,7 @@ module;
 #endif
 
 #pragma once
+#include "Unity/Mathematics/AffineTransform.hpp"
 #include "Unity/Mathematics/DoNotNormalizeAttribute.hpp"
 #include "Unity/Mathematics/PostNormalizeAttribute.hpp"
 #include "Unity/Mathematics/Random.hpp"
@@ -62,6 +63,7 @@ module;
 #include "Unity/Mathematics/math.hpp"
 #include "Unity/Mathematics/noise.hpp"
 #include "Unity/Mathematics/quaternion.hpp"
+#include "Unity/Mathematics/svd.hpp"
 #include "Unity/Mathematics/uint2.hpp"
 #include "Unity/Mathematics/uint2x2.hpp"
 #include "Unity/Mathematics/uint2x3.hpp"

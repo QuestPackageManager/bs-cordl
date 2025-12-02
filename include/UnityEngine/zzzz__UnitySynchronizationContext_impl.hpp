@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext_WorkRequest::*)(
     ::System::Threading::SendOrPostCallback*, ::System::Object*, ::System::Threading::ManualResetEvent*)>(&::UnityEngine::UnitySynchronizationContext_WorkRequest::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48b2e1c;
+  constexpr static std::size_t addrs = 0x68b80c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext_WorkRequest::*)()>(
     &::UnityEngine::UnitySynchronizationContext_WorkRequest::Invoke)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x48b31e8;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x68b84c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext_WorkRequest>::get(),
@@ -63,12 +63,26 @@ constexpr ::UnityEngine::UnitySynchronizationContext_WorkRequest::UnitySynchroni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UnitySynchronizationContext_WorkRequest::UnitySynchronizationContext_WorkRequest() {}
+//  Writing Method size for method: ::UnityEngine::UnitySynchronizationContext.get_MainThreadId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UnitySynchronizationContext::*)()>(
+    &::UnityEngine::UnitySynchronizationContext::get_MainThreadId)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68b7cb0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(),
+                                                                               "get_MainThreadId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UnitySynchronizationContext._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(int32_t)>(&::UnityEngine::UnitySynchronizationContext::_ctor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x48b29b4;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x68b7cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UnitySynchronizationContext_WorkRequest>*, int32_t)>(&::UnityEngine::UnitySynchronizationContext::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48b2a60;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x68b7d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::UnityEngine::UnitySynchronizationContext::Send)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x48b2b00;
+  constexpr static std::size_t size = 0x2d4;
+  constexpr static std::size_t addrs = 0x68b7dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::OperationStarted)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48b2e28;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x68b80cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::OperationCompleted)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48b2e34;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x68b80e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)(::System::Threading::SendOrPostCallback*, ::System::Object*)>(
     &::UnityEngine::UnitySynchronizationContext::Post)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x48b2e40;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x68b8104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::CreateCopy)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48b2fa4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68b8264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,8 +187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnitySynchronizationContext::*)()>(&::UnityEngine::UnitySynchronizationContext::Exec)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x48b3008;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x68b82cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(), "Exec",
@@ -187,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UnitySynchronizationContext::*)()>(
     &::UnityEngine::UnitySynchronizationContext::HasPendingTasks)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48b3294;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68b8590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(),
@@ -200,8 +214,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnitySynchronizationContext::InitializeSynchronizationContext)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48b32f4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x68b85f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -214,8 +228,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnitySynchronizationContext::ExecuteTasks)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48b336c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68b86a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(),
@@ -227,8 +241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t)>(&::UnityEngine::UnitySynchronizationContext::ExecutePendingTasks)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x48b33c4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x68b870c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,6 +301,11 @@ constexpr int32_t const& UnityEngine::UnitySynchronizationContext::__cordl_inter
 constexpr void UnityEngine::UnitySynchronizationContext::__cordl_internal_set_m_TrackedCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_TrackedCount = value;
+}
+inline int32_t UnityEngine::UnitySynchronizationContext::get_MainThreadId() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnitySynchronizationContext*>::get(),
+                                                                             "get_MainThreadId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline void UnityEngine::UnitySynchronizationContext::_ctor(int32_t mainThreadID) {
   static auto* ___internal_method =

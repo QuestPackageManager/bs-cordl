@@ -1,21 +1,21 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BitMaskSparse.hpp"
-#include "GlobalNamespace/zzzz__IBitMask_1_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
 #include "GlobalNamespace/zzzz__BitMaskSparse_def.hpp"
+#include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BitMaskSparse___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse___c::*)()>(&::GlobalNamespace::BitMaskSparse___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271fea4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x364f224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse___c*>::get(), ".ctor",
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BitMaskSparse___c::*)(uint32_t)>(
     &::GlobalNamespace::BitMaskSparse___c::_ToString_b__8_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x271feac;
+  constexpr static std::size_t addrs = 0x364f228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BitMaskSparse::*)()>(&::GlobalNamespace::BitMaskSparse::get_bitCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271fb88;
+  constexpr static std::size_t addrs = 0x364eee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BitMaskSparse*>::get(), "get_bitCount",
@@ -85,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse::*)(int32_t)>(&::GlobalNamespace::BitMaskSparse::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x271e27c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x364d634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BitMaskSparse::*)(::GlobalNamespace::BitMaskSparse*)>(
     &::GlobalNamespace::BitMaskSparse::Equals)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x271fb90;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x364eeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BitMaskSparse* (::GlobalNamespace::BitMaskSparse::*)(int32_t, uint64_t)>(
     &::GlobalNamespace::BitMaskSparse::SetBits)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x271fbfc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x364ef68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::BitMaskSparse::*)(int32_t, int32_t)>(&::GlobalNamespace::BitMaskSparse::GetBits)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x271fc8c;
+  constexpr static std::size_t addrs = 0x364f008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BitMaskSparse::*)()>(&::GlobalNamespace::BitMaskSparse::ToString)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x271fd24;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x364f0a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::BitMaskSparse::Serialize)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x271e608;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x364d994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BitMaskSparse::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BitMaskSparse::Deserialize)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x271e80c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x364db80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -3,16 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_def.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -20,8 +12,14 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Scrollbar)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -30,10 +28,25 @@ namespace UnityEngine::EventSystems {
 class AxisEventData;
 }
 namespace UnityEngine::EventSystems {
+class IBeginDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IDragHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IInitializePotentialDragHandler;
+}
+namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class ICanvasElement;
 }
 namespace UnityEngine::UI {
 struct Scrollbar_Axis;
@@ -45,7 +58,7 @@ namespace UnityEngine::UI {
 class Scrollbar_ScrollEvent;
 }
 namespace UnityEngine::UI {
-class Scrollbar__ClickRepeat_d__58;
+class Scrollbar__ClickRepeat_d__59;
 }
 namespace UnityEngine::UI {
 class Selectable;
@@ -79,14 +92,14 @@ namespace UnityEngine::UI {
 class Scrollbar_ScrollEvent;
 }
 namespace UnityEngine::UI {
-class Scrollbar__ClickRepeat_d__58;
+class Scrollbar__ClickRepeat_d__59;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UI::Scrollbar_Axis);
 MARK_VAL_T(::UnityEngine::UI::Scrollbar_Direction);
 MARK_REF_PTR_T(::UnityEngine::UI::Scrollbar);
 MARK_REF_PTR_T(::UnityEngine::UI::Scrollbar_ScrollEvent);
-MARK_REF_PTR_T(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58);
+MARK_REF_PTR_T(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59);
 // Dependencies
 namespace UnityEngine::UI {
 // Is value type: true
@@ -134,7 +147,7 @@ public:
   static ::UnityEngine::UI::Scrollbar_Direction const TopToBottom;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17432 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -159,7 +172,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UI::Scrollbar_ScrollEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ac39b0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcfd40, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -177,7 +190,7 @@ public:
   Scrollbar_ScrollEvent(Scrollbar_ScrollEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -224,7 +237,7 @@ public:
   static ::UnityEngine::UI::Scrollbar_Axis const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17434 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -240,11 +253,11 @@ static_assert(offsetof(::UnityEngine::UI::Scrollbar_Axis, value__) == 0x0, "Offs
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Scrollbar_Axis, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object, UnityEngine.Vector2
+// Dependencies System.Object, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
-// CS Name: UnityEngine.UI.Scrollbar/<ClickRepeat>d__58
-class CORDL_TYPE Scrollbar__ClickRepeat_d__58 : public ::System::Object {
+// CS Name: UnityEngine.UI.Scrollbar/<ClickRepeat>d__59
+class CORDL_TYPE Scrollbar__ClickRepeat_d__59 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -275,21 +288,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4ac5304, size 0x258, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6bd1748, size 0x110, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::UnityEngine::UI::Scrollbar__ClickRepeat_d__58* New_ctor(int32_t __1__state);
+  static inline ::UnityEngine::UI::Scrollbar__ClickRepeat_d__59* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x4ac555c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6bd1858, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4ac5564, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6bd1860, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4ac559c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6bd1898, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4ac5300, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6bd1744, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -322,7 +335,7 @@ public:
 
   constexpr void __cordl_internal_set_screenPosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x4ac4a2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bd0e78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -337,19 +350,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr Scrollbar__ClickRepeat_d__58();
+  constexpr Scrollbar__ClickRepeat_d__59();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__58", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__59", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  Scrollbar__ClickRepeat_d__58(Scrollbar__ClickRepeat_d__58&&) = delete;
+  Scrollbar__ClickRepeat_d__59(Scrollbar__ClickRepeat_d__59&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__58", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "Scrollbar__ClickRepeat_d__59", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  Scrollbar__ClickRepeat_d__58(Scrollbar__ClickRepeat_d__58 const&) = delete;
+  Scrollbar__ClickRepeat_d__59(Scrollbar__ClickRepeat_d__59 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17435 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -369,21 +382,20 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58, ___screenPosition) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, ___screenPosition) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58, ___camera) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, ___camera) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Scrollbar__ClickRepeat_d__58, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UI::Scrollbar__ClickRepeat_d__59, 0x38>, "Size mismatch!");
 
 } // namespace UnityEngine::UI
-// Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.EventSystems.IBeginDragHandler, UnityEngine.EventSystems.IDragHandler, UnityEngine.EventSystems.IEventSystemHandler,
-// UnityEngine.EventSystems.IInitializePotentialDragHandler, UnityEngine.UI.ICanvasElement, UnityEngine.UI.Scrollbar::Direction, UnityEngine.UI.Selectable, UnityEngine.Vector2
+// Dependencies UnityEngine.DrivenRectTransformTracker, UnityEngine.UI.Scrollbar::Direction, UnityEngine.UI.Selectable, UnityEngine.Vector2
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: UnityEngine.UI.Scrollbar
@@ -396,7 +408,7 @@ public:
 
   using ScrollEvent = ::UnityEngine::UI::Scrollbar_ScrollEvent;
 
-  using _ClickRepeat_d__58 = ::UnityEngine::UI::Scrollbar__ClickRepeat_d__58;
+  using _ClickRepeat_d__59 = ::UnityEngine::UI::Scrollbar__ClickRepeat_d__59;
 
   __declspec(property(get = get_axis)) ::UnityEngine::UI::Scrollbar_Axis axis;
 
@@ -467,90 +479,93 @@ public:
   /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
   constexpr operator ::UnityEngine::UI::ICanvasElement*() noexcept;
 
-  /// @brief Method ClickRepeat, addr 0x4ac49ec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ClickRepeat, addr 0x6bd0e38, size 0x40, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ClickRepeat(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method ClickRepeat, addr 0x4ac4968, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ClickRepeat, addr 0x6bd0dc0, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ClickRepeat(::UnityEngine::Vector2 screenPosition, ::UnityEngine::Camera* camera);
 
-  /// @brief Method DoUpdateDrag, addr 0x4ac44a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method DoUpdateDrag, addr 0x6bd08d4, size 0x70, virtual false, abstract: false, final false
   inline void DoUpdateDrag(::UnityEngine::Vector2 handleCorner, float_t remainingSize);
 
-  /// @brief Method FindSelectableOnDown, addr 0x4ac505c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnDown, addr 0x6bd14a4, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnDown();
 
-  /// @brief Method FindSelectableOnLeft, addr 0x4ac4d68, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnLeft, addr 0x6bd11a4, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnLeft();
 
-  /// @brief Method FindSelectableOnRight, addr 0x4ac4e64, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnRight, addr 0x6bd12a4, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnRight();
 
-  /// @brief Method FindSelectableOnUp, addr 0x4ac4f60, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method FindSelectableOnUp, addr 0x6bd13a4, size 0x24, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Selectable> FindSelectableOnUp();
 
-  /// @brief Method GraphicUpdateComplete, addr 0x4ac3df4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GraphicUpdateComplete, addr 0x6bd0198, size 0x4, virtual true, abstract: false, final false
   inline void GraphicUpdateComplete();
 
-  /// @brief Method LayoutComplete, addr 0x4ac3df0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method LayoutComplete, addr 0x6bd0194, size 0x4, virtual true, abstract: false, final false
   inline void LayoutComplete();
 
-  /// @brief Method MayDrag, addr 0x4ac4510, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method MayDrag, addr 0x6bd0944, size 0x64, virtual false, abstract: false, final false
   inline bool MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   static inline ::UnityEngine::UI::Scrollbar* New_ctor();
 
-  /// @brief Method OnBeginDrag, addr 0x4ac4574, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method OnBeginDrag, addr 0x6bd09a8, size 0x1c0, virtual true, abstract: false, final false
   inline void OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnDisable, addr 0x4ac40e0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6bd0488, size 0x4, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnDrag, addr 0x4ac4728, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnDrag, addr 0x6bd0b68, size 0xa0, virtual true, abstract: false, final false
   inline void OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnEnable, addr 0x4ac3df8, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6bd019c, size 0x30, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnInitializePotentialDrag, addr 0x4ac5158, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnInitializePotentialDrag, addr 0x6bd15a4, size 0x14, virtual true, abstract: false, final false
   inline void OnInitializePotentialDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnMove, addr 0x4ac4a94, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method OnMove, addr 0x6bd0eb8, size 0x254, virtual true, abstract: false, final false
   inline void OnMove(::UnityEngine::EventSystems::AxisEventData* eventData);
 
-  /// @brief Method OnPointerDown, addr 0x4ac47b8, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x6bd0c08, size 0x80, virtual true, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x4ac4a54, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x6bd0e80, size 0x18, virtual true, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x4ac423c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x6bd05bc, size 0x2c, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method Rebuild, addr 0x4ac3dec, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x6bd0190, size 0x4, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate executing);
 
-  /// @brief Method Set, addr 0x4ac3bcc, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x6bcff50, size 0xd8, virtual false, abstract: false, final false
   inline void Set(float_t input, bool sendCallback);
 
-  /// @brief Method SetDirection, addr 0x4ac5170, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method SetDirection, addr 0x6bd15b8, size 0x184, virtual false, abstract: false, final false
   inline void SetDirection(::UnityEngine::UI::Scrollbar_Direction direction, bool includeRectLayouts);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4ac3c90, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6bd0028, size 0x8, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(float_t input);
 
-  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x4ac52f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UI.ICanvasElement.get_transform, addr 0x6bd173c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Transform> UnityEngine_UI_ICanvasElement_get_transform();
 
-  /// @brief Method Update, addr 0x4ac4228, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6bd05a8, size 0x14, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateCachedReferences, addr 0x4ac35dc, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method UpdateCachedReferences, addr 0x6bcf954, size 0xe8, virtual false, abstract: false, final false
   inline void UpdateCachedReferences();
 
-  /// @brief Method UpdateDrag, addr 0x4ac4298, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method UpdateDrag, addr 0x6bd0728, size 0x1ac, virtual false, abstract: false, final false
+  inline void UpdateDrag(::UnityEngine::RectTransform* containerRect, ::UnityEngine::Vector2 position, ::UnityEngine::Camera* camera);
+
+  /// @brief Method UpdateDrag, addr 0x6bd060c, size 0x11c, virtual false, abstract: false, final false
   inline void UpdateDrag(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method UpdateVisuals, addr 0x4ac36bc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method UpdateVisuals, addr 0x6bcfa3c, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateVisuals();
 
   constexpr bool const& __cordl_internal_get_isPointerDownAndNotDragging() const;
@@ -625,34 +640,34 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(float_t value);
 
-  /// @brief Method .ctor, addr 0x4ac38f0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6bcfc74, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_axis, addr 0x4ac4274, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_axis, addr 0x6bd05e8, size 0x10, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Scrollbar_Axis get_axis();
 
-  /// @brief Method get_direction, addr 0x4ac3874, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_direction, addr 0x6bcfbf4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Scrollbar_Direction get_direction();
 
-  /// @brief Method get_handleRect, addr 0x4ac3558, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_handleRect, addr 0x6bcf8bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_handleRect();
 
-  /// @brief Method get_numberOfSteps, addr 0x4ac3d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberOfSteps, addr 0x6bd00c4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberOfSteps();
 
-  /// @brief Method get_onValueChanged, addr 0x4ac3db0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_onValueChanged, addr 0x6bd0154, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UI::Scrollbar_ScrollEvent* get_onValueChanged();
 
-  /// @brief Method get_reverseValue, addr 0x4ac4284, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_reverseValue, addr 0x6bd05f8, size 0x14, virtual false, abstract: false, final false
   inline bool get_reverseValue();
 
-  /// @brief Method get_size, addr 0x4ac3c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x6bd0030, size 0x8, virtual false, abstract: false, final false
   inline float_t get_size();
 
-  /// @brief Method get_stepSize, addr 0x4ac3dc0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_stepSize, addr 0x6bd0164, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_stepSize();
 
-  /// @brief Method get_value, addr 0x4ac3b0c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x6bcfea0, size 0xa8, virtual false, abstract: false, final false
   inline float_t get_value();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IBeginDragHandler"
@@ -670,22 +685,22 @@ public:
   /// @brief Convert to "::UnityEngine::UI::ICanvasElement"
   constexpr ::UnityEngine::UI::ICanvasElement* i___UnityEngine__UI__ICanvasElement() noexcept;
 
-  /// @brief Method set_direction, addr 0x4ac387c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_direction, addr 0x6bcfbfc, size 0x78, virtual false, abstract: false, final false
   inline void set_direction(::UnityEngine::UI::Scrollbar_Direction value);
 
-  /// @brief Method set_handleRect, addr 0x4ac3560, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method set_handleRect, addr 0x6bcf8c4, size 0x90, virtual false, abstract: false, final false
   inline void set_handleRect(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_numberOfSteps, addr 0x4ac3d2c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_numberOfSteps, addr 0x6bd00cc, size 0x88, virtual false, abstract: false, final false
   inline void set_numberOfSteps(int32_t value);
 
-  /// @brief Method set_onValueChanged, addr 0x4ac3db8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_onValueChanged, addr 0x6bd015c, size 0x8, virtual false, abstract: false, final false
   inline void set_onValueChanged(::UnityEngine::UI::Scrollbar_ScrollEvent* value);
 
-  /// @brief Method set_size, addr 0x4ac3ca0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x6bd0038, size 0x8c, virtual false, abstract: false, final false
   inline void set_size(float_t value);
 
-  /// @brief Method set_value, addr 0x4ac3bc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_value, addr 0x6bcff48, size 0x8, virtual false, abstract: false, final false
   inline void set_value(float_t value);
 
 protected:
@@ -703,7 +718,7 @@ public:
   Scrollbar(Scrollbar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17436 };
 
   /// @brief Field m_HandleRect, offset: 0x100, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ___m_HandleRect;
@@ -777,5 +792,5 @@ NEED_NO_BOX(::UnityEngine::UI::Scrollbar);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Scrollbar*, "UnityEngine.UI", "Scrollbar");
 NEED_NO_BOX(::UnityEngine::UI::Scrollbar_ScrollEvent);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Scrollbar_ScrollEvent*, "UnityEngine.UI", "Scrollbar/ScrollEvent");
-NEED_NO_BOX(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58);
-DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Scrollbar__ClickRepeat_d__58*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__58");
+NEED_NO_BOX(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UI::Scrollbar__ClickRepeat_d__59*, "UnityEngine.UI", "Scrollbar/<ClickRepeat>d__59");

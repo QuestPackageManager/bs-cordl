@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_3_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabResourceFactory_2)
 namespace System {
@@ -13,6 +11,12 @@ class Object;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
+}
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -23,7 +27,7 @@ template <typename P1, typename T> class PrefabResourceFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PrefabResourceFactory_2);
-// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`3<TParam1, TParam2, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename P1, typename T>
@@ -90,7 +94,7 @@ public:
   PrefabResourceFactory_2(PrefabResourceFactory_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14429 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

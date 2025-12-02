@@ -25,13 +25,13 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Processors::InvertProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x46189f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x63a0528, size 0x8, virtual true, abstract: false, final false
   inline float_t Process(float_t value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method ToString, addr 0x46189fc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x63a0530, size 0x44, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4618a3c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63a0574, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   InvertProcessor(InvertProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9052 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

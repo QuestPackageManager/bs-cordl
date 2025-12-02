@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IOptionalAvatarDataProvider)
 namespace BeatSaber::AvatarCore {
@@ -33,7 +32,7 @@ public:
   // Declarations
   __declspec(property(get = get_currentData)) ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* currentData;
 
-  __declspec(property(get = get_playbackDelaySeconds)) float_t playbackDelaySeconds;
+  __declspec(property(get = get_playbackDelayMs)) int64_t playbackDelayMs;
 
   /// @brief Method SetDisplayContext, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetDisplayContext(::BeatSaber::AvatarCore::AvatarDisplayContext avatarDisplayContext);
@@ -44,8 +43,8 @@ public:
   /// @brief Method get_currentData, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>* get_currentData();
 
-  /// @brief Method get_playbackDelaySeconds, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t get_playbackDelaySeconds();
+  /// @brief Method get_playbackDelayMs, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int64_t get_playbackDelayMs();
 
   /// @brief Method remove_dataDidChangeEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void remove_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value);
@@ -55,7 +54,7 @@ public:
   IOptionalAvatarDataProvider(IOptionalAvatarDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

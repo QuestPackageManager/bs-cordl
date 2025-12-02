@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Zenject/SignalCallbackWithLookupWrapper.hpp"
 #include "System/zzzz__Guid_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__SignalCallbackWithLookupWrapper_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
@@ -19,8 +19,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCallbackWithLookupWrapper::*)(
     ::Zenject::SignalBindingBindInfo*, ::System::Type*, ::System::Guid, ::System::Func_2<::System::Object*, ::System::Action_1<::System::Object*>*>*, ::Zenject::SignalBus*, ::Zenject::DiContainer*)>(
     &::Zenject::SignalCallbackWithLookupWrapper::_ctor)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4af9fa0;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6c10074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCallbackWithLookupWrapper::*)(::System::Object*)>(
     &::Zenject::SignalCallbackWithLookupWrapper::OnSignalFired)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x4afa09c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x6c101a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalCallbackWithLookupWrapper::*)()>(&::Zenject::SignalCallbackWithLookupWrapper::Dispose)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4afa264;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6c10378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWithLookupWrapper*>::get(), "Dispose",
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SignalCallbackWithLookupWrapper::__zenCreate)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4afa310;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c1044c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SignalCallbackWithLookupWrapper::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x4afa59c;
+  constexpr static std::size_t size = 0x4e4;
+  constexpr static std::size_t addrs = 0x6c106e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalCallbackWithLookupWrapper*>::get(),

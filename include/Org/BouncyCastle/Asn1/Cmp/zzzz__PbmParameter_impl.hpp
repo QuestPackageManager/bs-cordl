@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22f812c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3225434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PbmParameter* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f81d8;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x32254d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, int32_t, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22f8354;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x322565c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)(
     ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22f8414;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x322570c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_Salt)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f8454;
+  constexpr static std::size_t addrs = 0x3225718;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_Owf)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f845c;
+  constexpr static std::size_t addrs = 0x3225720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f8464;
+  constexpr static std::size_t addrs = 0x3225728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::get_Mac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f846c;
+  constexpr static std::size_t addrs = 0x3225730;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PbmParameter::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PbmParameter::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x22f8474;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x3225738;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(StandardLevelReturnToMenuController)
+namespace GlobalNamespace {
+class IReturnToMenuController;
+}
 namespace GlobalNamespace {
 class PrepareLevelCompletionResults;
 }
@@ -18,7 +20,7 @@ class StandardLevelReturnToMenuController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StandardLevelReturnToMenuController);
-// Dependencies IReturnToMenuController, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StandardLevelReturnToMenuController
@@ -39,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelReturnToMenuController* New_ctor();
 
-  /// @brief Method ReturnToMenu, addr 0x3bb279c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method ReturnToMenu, addr 0x57a2b88, size 0x54, virtual true, abstract: false, final true
   inline void ReturnToMenu();
 
   constexpr ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> const& __cordl_internal_get__prepareLevelCompletionResults() const;
@@ -54,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelSceneSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3bb27dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a2bdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IReturnToMenuController"
@@ -75,7 +77,7 @@ public:
   StandardLevelReturnToMenuController(StandardLevelReturnToMenuController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6041 };
 
   /// @brief Field _standardLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelSceneSetupData;

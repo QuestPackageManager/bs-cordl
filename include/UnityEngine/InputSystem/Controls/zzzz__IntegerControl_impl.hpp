@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)()>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4562cdc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x62ddb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::IntegerControl*>::get(),
@@ -20,10 +20,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::IntegerControl.ReadUnprocessedValueFromState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::IntegerControl::*)(::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Controls::IntegerControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::ReadUnprocessedValueFromState)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4562d64;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x62ddbac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,10 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::IntegerControl.WriteValueIntoState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)(int32_t, ::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::IntegerControl::*)(int32_t, void*)>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::WriteValueIntoState)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4562df8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x62ddc58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::IntegerControl::*)()>(
     &::UnityEngine::InputSystem::Controls::IntegerControl::CalculateOptimizedControlDataType)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4562e94;
+  constexpr static std::size_t addrs = 0x62ddd0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,13 +70,13 @@ inline void UnityEngine::InputSystem::Controls::IntegerControl::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::InputSystem::Controls::IntegerControl::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+inline int32_t UnityEngine::InputSystem::Controls::IntegerControl::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::IntegerControl*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, statePtr);
 }
-inline void UnityEngine::InputSystem::Controls::IntegerControl::WriteValueIntoState(int32_t value, ::cordl_internals::Ptr<void> statePtr) {
+inline void UnityEngine::InputSystem::Controls::IntegerControl::WriteValueIntoState(int32_t value, void* statePtr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::IntegerControl*>::get(), 18)));

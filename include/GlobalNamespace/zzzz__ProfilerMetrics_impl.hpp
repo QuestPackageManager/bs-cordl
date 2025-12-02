@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ProfilerMetrics.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_impl.hpp"
 #include "GlobalNamespace/zzzz__ProfilerMetrics_def.hpp"
 #include "GlobalNamespace/zzzz__ProfilerMetrics_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerRecorder_def.hpp"
 // Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: Some("{}") }, CppParam { name: "name", ty: "::StringW", modifiers: "", def_value:
 // Some("{}") }]
@@ -19,8 +19,8 @@ constexpr ::GlobalNamespace::ProfilerMetrics_ProfilerMetric::ProfilerMetrics_Pro
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordFrameTimingMetrics)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b23b74;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x570519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordRenderingMetrics)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b253c0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57063ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordMemoryMetrics)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b25420;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5706450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t)>(&::GlobalNamespace::ProfilerMetrics::RecordListedMetrics)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3b25480;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x57064b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ProfilerMetrics* (*)(int32_t, bool)>(&::GlobalNamespace::ProfilerMetrics::RecordAllMetrics)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3b25990;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x57069f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,8 +91,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ProfilerMetrics* (*)(::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric, ::Array<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*>, int32_t)>(
         &::GlobalNamespace::ProfilerMetrics::Record)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3b250fc;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x5706108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,8 +109,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProfilerMetrics::*)(
     ::ArrayW<::GlobalNamespace::ProfilerMetrics_ProfilerMetric, ::Array<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*>,
     ::ArrayW<::Unity::Profiling::ProfilerRecorder, ::Array<::Unity::Profiling::ProfilerRecorder>*>, int32_t)>(&::GlobalNamespace::ProfilerMetrics::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b25b44;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5706be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProfilerMetrics::*)()>(&::GlobalNamespace::ProfilerMetrics::Dispose)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b23b00;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x570512c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProfilerMetrics*>::get(), "Dispose",
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ProfilerMetrics::*)()>(&::GlobalNamespace::ProfilerMetrics::CaptureFrame)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b24194;
+  constexpr static std::size_t addrs = 0x5705028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ProfilerMetrics*>::get(), "CaptureFrame",
@@ -152,8 +152,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProfilerMetrics::*)(bool)>(&::GlobalNamespace::ProfilerMetrics::GenerateListReport)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b24adc;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x5705aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ProfilerMetrics::*)(bool)>(&::GlobalNamespace::ProfilerMetrics::GenerateTableReport)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3b24868;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x57057ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::GlobalNamespace::ProfilerMetrics_ProfilerMetric>*)>(
     &::GlobalNamespace::ProfilerMetrics::AddExposedMetrics)> {
-  constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x3b25548;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x5706584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

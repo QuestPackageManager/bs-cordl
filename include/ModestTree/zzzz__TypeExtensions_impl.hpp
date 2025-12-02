@@ -1,16 +1,12 @@
 #pragma once
 // IWYU pragma private; include "ModestTree/TypeExtensions.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "ModestTree/zzzz__TypeExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Reflection/zzzz__ConstructorInfo_def.hpp"
 #include "System/Reflection/zzzz__FieldInfo_def.hpp"
@@ -20,6 +16,7 @@
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Delegate_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::ModestTree::TypeExtensions___c__DisplayClass35_0._ctor
@@ -27,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass35_0::*)()>(
     &::ModestTree::TypeExtensions___c__DisplayClass35_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af615c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0bfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_0*>::get(),
@@ -41,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass35_0::*)(::System::Attribute*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass35_0::_AllAttributes_b__0)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4af645c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6c0c344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass35_1::*)()>(
     &::ModestTree::TypeExtensions___c__DisplayClass35_1::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af6530;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0c420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass35_1*>::get(),
@@ -98,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass35_1::*)(::System::Type*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass35_1::_AllAttributes_b__1)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4af6538;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6c0c424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass39_0::*)()>(
     &::ModestTree::TypeExtensions___c__DisplayClass39_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af6338;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0c188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_0*>::get(),
@@ -155,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass39_0::*)(::System::Attribute*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass39_0::_AllAttributes_b__0)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4af65b0;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6c0c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions___c__DisplayClass39_1::*)()>(
     &::ModestTree::TypeExtensions___c__DisplayClass39_1::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af6684;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0c588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions___c__DisplayClass39_1*>::get(),
@@ -212,8 +209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions___c__DisplayClass39_1::*)(::System::Type*)>(
     &::ModestTree::TypeExtensions___c__DisplayClass39_1::_AllAttributes_b__1)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4af668c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6c0c58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,8 +252,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)(int32_t)>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4af5de4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0bc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4af6704;
+  constexpr static std::size_t addrs = 0x6c0c614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
@@ -284,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::MoveNext)> {
-  constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x4af6720;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x6c0c630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
@@ -298,8 +295,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4af6c00;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6c0caa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeExtensions__GetParentTypes_d__28*>::get(),
@@ -313,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerator_System_Type__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af6cb0;
+  constexpr static std::size_t addrs = 0x6c0cb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4af6cb8;
+  constexpr static std::size_t addrs = 0x6c0cb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -343,7 +340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af6cf0;
+  constexpr static std::size_t addrs = 0x6c0cb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -357,8 +354,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::Type*>* (
     ::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(&::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_Generic_IEnumerable_System_Type__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4af6cf8;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6c0cba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::ModestTree::TypeExtensions__GetParentTypes_d__28::*)()>(
     &::ModestTree::TypeExtensions__GetParentTypes_d__28::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4af6d94;
+  constexpr static std::size_t addrs = 0x6c0cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -556,8 +553,8 @@ constexpr ::ModestTree::TypeExtensions__GetParentTypes_d__28::TypeExtensions__Ge
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFrom)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4af3ca0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6c09a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -571,8 +568,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::DerivesFromOrEqual)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4af3f04;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6c09c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -586,8 +583,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::ModestTree::TypeExtensions::IsAssignableToGenericType)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4af5608;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6c0b410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -601,8 +598,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsEnum)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af58e0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -615,8 +612,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsValueType)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4af5900;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6c0b708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -630,8 +627,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> (*)(::System::Type*)>(
     &::ModestTree::TypeExtensions::DeclaredInstanceMethods)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4af59fc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0b834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -645,8 +642,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> (*)(::System::Type*)>(
     &::ModestTree::TypeExtensions::DeclaredInstanceProperties)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4af5a20;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0b854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -660,8 +657,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> (*)(::System::Type*)>(
     &::ModestTree::TypeExtensions::DeclaredInstanceFields)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4af5a44;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0b874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -674,8 +671,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::BaseType)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af5a68;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -688,8 +685,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericType)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af5a88;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -702,8 +699,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsGenericTypeDefinition)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af5aa8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -716,8 +713,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsPrimitive)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4af5ac8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -731,7 +728,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsInterface)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4af5adc;
+  constexpr static std::size_t addrs = 0x6c0b904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -744,8 +741,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::ContainsGenericParameters)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af5af0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -758,8 +755,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsAbstract)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4af5b10;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6c0b934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -772,8 +769,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsSealed)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4af5b24;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6c0b95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -786,8 +783,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Delegate*)>(&::ModestTree::TypeExtensions::Method)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4af5b38;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c0b984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -801,8 +798,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (*)(::System::Type*)>(
     &::ModestTree::TypeExtensions::GenericArguments)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4af5b4c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c0b99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -816,8 +813,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (*)(::System::Type*)>(
     &::ModestTree::TypeExtensions::Interfaces)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4af57e0;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6c0b5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -831,8 +828,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> (*)(::System::Type*)>(&::ModestTree::TypeExtensions::Constructors)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4af5b6c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0b9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -845,8 +842,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(&::ModestTree::TypeExtensions::GetDefaultValue)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4af5b90;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6c0b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -859,8 +856,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsClosedGenericType)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4af5c04;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6c0ba54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -875,7 +872,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Type*>* (*)(::System::Type*)>(
     &::ModestTree::TypeExtensions::GetParentTypes)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4af5d74;
+  constexpr static std::size_t addrs = 0x6c0bbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -888,8 +885,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::ModestTree::TypeExtensions::IsOpenGenericType)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4af5e18;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6c0bc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -903,8 +900,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::ModestTree::TypeExtensions::HasAttribute)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4af5f88;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6c0bdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -920,8 +917,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::MemberInfo*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
         &::ModestTree::TypeExtensions::AllAttributes)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x4af6008;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x6c0be5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -936,8 +933,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::ModestTree::TypeExtensions::HasAttribute)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4af6164;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6c0bfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -953,8 +950,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* (*)(::System::Reflection::ParameterInfo*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
         &::ModestTree::TypeExtensions::AllAttributes)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x4af61e4;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x6c0c038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

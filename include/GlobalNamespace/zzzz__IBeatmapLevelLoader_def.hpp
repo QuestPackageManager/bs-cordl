@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IBeatmapLevelLoader)
 namespace GlobalNamespace {
 struct BeatmapLevelDataVersion;
@@ -26,13 +25,16 @@ struct CancellationToken;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IBeatmapLevelLoader;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IBeatmapLevelLoader);
-// Dependencies System.IDisposable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IBeatmapLevelLoader
@@ -68,7 +70,7 @@ public:
   IBeatmapLevelLoader(IBeatmapLevelLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14992 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

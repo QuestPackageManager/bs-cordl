@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce57cc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5927938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Metadata::SoapAttribute*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::get_UseAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce57d4;
+  constexpr static std::size_t addrs = 0x592793c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::get_XmlNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce57dc;
+  constexpr static std::size_t addrs = 0x5927944;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapAttribute::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Metadata::SoapAttribute::SetReflectionObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce57e4;
+  constexpr static std::size_t addrs = 0x592794c;
 
   inline static ::MethodInfo const* methodInfo() {
 

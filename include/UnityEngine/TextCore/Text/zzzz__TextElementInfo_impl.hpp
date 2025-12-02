@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextElementInfo::*)()>(
     &::UnityEngine::TextCore::Text::TextElementInfo::ToString)> {
-  constexpr static std::size_t size = 0x16f8;
-  constexpr static std::size_t addrs = 0x4931628;
+  constexpr static std::size_t size = 0x1774;
+  constexpr static std::size_t addrs = 0x69ce39c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ inline ::StringW UnityEngine::TextCore::Text::TextElementInfo::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextElementInfo>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// Ctor Parameters [CppParam { name: "character", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: Some("{}") }, CppParam { name: "stringLength", ty: "int32_t", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "alternativeGlyph", ty:
 // "::UnityEngine::TextCore::Glyph*", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value:
@@ -56,7 +56,7 @@ inline ::StringW UnityEngine::TextCore::Text::TextElementInfo::ToString() {
 // CppParam { name: "highlightState", ty: "::UnityEngine::TextCore::Text::HighlightState", modifiers: "", def_value: Some("{}") }, CppParam { name: "style", ty:
 // "::UnityEngine::TextCore::Text::FontStyles", modifiers: "", def_value: Some("{}") }, CppParam { name: "isVisible", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::TextElementInfo::TextElementInfo(
-    char16_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength, ::UnityEngine::TextCore::Text::TextElement* textElement,
+    uint32_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength, ::UnityEngine::TextCore::Text::TextElement* textElement,
     ::UnityEngine::TextCore::Glyph* alternativeGlyph, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset,
     int32_t spriteIndex, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex, bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber,
     int32_t vertexIndex, ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft, ::UnityEngine::TextCore::Text::TextVertex vertexBottomLeft, ::UnityEngine::TextCore::Text::TextVertex vertexTopRight,

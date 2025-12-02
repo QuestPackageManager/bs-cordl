@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/UtcTimeProvider.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UtcTimeProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::UtcTimeProvider.GetTimeMs
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::GetTimeMs)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22eb1c4;
+  constexpr static std::size_t addrs = 0x321c4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), "GetTimeMs",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::GetTicks)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22d9c20;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x321c4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), "GetTicks",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UtcTimeProvider::*)()>(&::GlobalNamespace::UtcTimeProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eb1f0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x321c59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UtcTimeProvider*>::get(), ".ctor",

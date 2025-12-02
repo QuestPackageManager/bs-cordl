@@ -63,7 +63,7 @@ public:
   static ::GlobalNamespace::DrawIfAttribute_DisablingType const ReadOnly;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23158 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -88,16 +88,16 @@ public:
   // Declarations
   using DisablingType = ::GlobalNamespace::DrawIfAttribute_DisablingType;
 
-  /// @brief Field disablingType, offset 0x28, size 0x4
+  /// @brief Field disablingType, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_disablingType, put = __cordl_internal_set_disablingType)) ::GlobalNamespace::DrawIfAttribute_DisablingType disablingType;
 
-  /// @brief Field orValue, offset 0x20, size 0x8
+  /// @brief Field orValue, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_orValue, put = __cordl_internal_set_orValue)) ::System::Object* orValue;
 
-  /// @brief Field propertyName, offset 0x10, size 0x8
+  /// @brief Field propertyName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName)) ::StringW propertyName;
 
-  /// @brief Field value, offset 0x18, size 0x8
+  /// @brief Field value, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Object* value;
 
   static inline ::GlobalNamespace::DrawIfAttribute* New_ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::DrawIfAttribute_DisablingType disablingType);
@@ -129,10 +129,10 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x229e11c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e3d28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::GlobalNamespace::DrawIfAttribute_DisablingType disablingType);
 
-  /// @brief Method .ctor, addr 0x229e158, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e3d38, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::System::Object* value, ::System::Object* orValue, ::GlobalNamespace::DrawIfAttribute_DisablingType disablingType);
 
 protected:
@@ -150,32 +150,32 @@ public:
   DrawIfAttribute(DrawIfAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23159 };
 
-  /// @brief Field propertyName, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field propertyName, offset: 0x18, size: 0x8, def value: None
   ::StringW ___propertyName;
 
-  /// @brief Field value, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field value, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ___value;
 
-  /// @brief Field orValue, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field orValue, offset: 0x28, size: 0x8, def value: None
   ::System::Object* ___orValue;
 
-  /// @brief Field disablingType, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field disablingType, offset: 0x30, size: 0x4, def value: None
   ::GlobalNamespace::DrawIfAttribute_DisablingType ___disablingType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___propertyName) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___propertyName) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___value) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___value) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___orValue) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___orValue) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___disablingType) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::DrawIfAttribute, ___disablingType) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DrawIfAttribute, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DrawIfAttribute, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::DrawIfAttribute_DisablingType, "", "DrawIfAttribute/DisablingType");

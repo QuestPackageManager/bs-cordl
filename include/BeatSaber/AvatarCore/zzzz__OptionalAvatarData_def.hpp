@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OptionalAvatarData)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 // Forward declare root types
 namespace BeatSaber::AvatarCore {
 struct OptionalAvatarData;
 }
 // Write type traits
 MARK_VAL_T(::BeatSaber::AvatarCore::OptionalAvatarData);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace BeatSaber::AvatarCore {
 // Is value type: true
 // CS Name: BeatSaber.AvatarCore.OptionalAvatarData
@@ -23,7 +25,7 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
   constexpr operator ::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>*();
 
-  /// @brief Method Equals, addr 0x2250fc4, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x31714e8, size 0xbc, virtual true, abstract: false, final true
   inline bool Equals(::BeatSaber::AvatarCore::OptionalAvatarData other);
 
   /// @brief Convert to "::System::IEquatable_1<::BeatSaber::AvatarCore::OptionalAvatarData>"
@@ -38,7 +40,7 @@ public:
   constexpr OptionalAvatarData(uint32_t dataType, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

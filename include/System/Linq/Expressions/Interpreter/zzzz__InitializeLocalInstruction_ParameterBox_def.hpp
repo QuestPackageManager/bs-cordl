@@ -27,13 +27,13 @@ public:
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_ParameterBox* New_ctor(int32_t index);
 
-  /// @brief Method Run, addr 0x40ea50c, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d96c0c, size 0xd0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40ea4e4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d96c04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
-  /// @brief Method get_InstructionName, addr 0x40ea5e8, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5d96cdc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -51,7 +51,7 @@ public:
   InitializeLocalInstruction_ParameterBox(InitializeLocalInstruction_ParameterBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16424 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

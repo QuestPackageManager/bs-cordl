@@ -3,9 +3,7 @@
 #include "System/Net/zzzz__WebExceptionStatus_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
@@ -21,14 +19,15 @@
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MonoTlsStream__CreateStream_d__18.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoTlsStream__CreateStream_d__18::*)()>(
     &::Mono::Net::Security::MonoTlsStream__CreateStream_d__18::MoveNext)> {
-  constexpr static std::size_t size = 0x704;
-  constexpr static std::size_t addrs = 0x4117e4c;
+  constexpr static std::size_t size = 0x724;
+  constexpr static std::size_t addrs = 0x5dc1e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsStream__CreateStream_d__18>::get(),
@@ -41,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoTlsStream__CreateStream_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Mono::Net::Security::MonoTlsStream__CreateStream_d__18::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4118550;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5dc257c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpWebRequest* (::Mono::Net::Security::MonoTlsStream::*)()>(
     &::Mono::Net::Security::MonoTlsStream::get_Request)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4117aa4;
+  constexpr static std::size_t addrs = 0x5dc1abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsStream*>::get(), "get_Request",
@@ -109,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebExceptionStatus (::Mono::Net::Security::MonoTlsStream::*)()>(
     &::Mono::Net::Security::MonoTlsStream::get_ExceptionStatus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4117aac;
+  constexpr static std::size_t addrs = 0x5dc1ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsStream*>::get(),
@@ -123,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MonoTlsStream::*)()>(
     &::Mono::Net::Security::MonoTlsStream::get_CertificateValidationFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4117ab4;
+  constexpr static std::size_t addrs = 0x5dc1acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoTlsStream::*)(bool)>(
     &::Mono::Net::Security::MonoTlsStream::set_CertificateValidationFailed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4117abc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5dc1ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Mono::Net::Security::MonoTlsStream::*)(::System::Net::HttpWebRequest*, ::System::Net::Sockets::NetworkStream*)>(&::Mono::Net::Security::MonoTlsStream::_ctor)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4117ac8;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5dc1adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (
     ::Mono::Net::Security::MonoTlsStream::*)(::System::Net::WebConnectionTunnel*, ::System::Threading::CancellationToken)>(&::Mono::Net::Security::MonoTlsStream::CreateStream)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4117c80;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5dc1c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoTlsStream::*)()>(&::Mono::Net::Security::MonoTlsStream::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4117d74;
+  constexpr static std::size_t addrs = 0x5dc1d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsStream*>::get(), "Dispose",
@@ -197,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoTlsStream::*)()>(&::Mono::Net::Security::MonoTlsStream::CloseSslStream)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4117d78;
+  constexpr static std::size_t addrs = 0x5dc1d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsStream*>::get(), "CloseSslStream",

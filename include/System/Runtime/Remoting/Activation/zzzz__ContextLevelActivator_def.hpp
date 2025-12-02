@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ContextLevelActivator)
 namespace System::Runtime::Remoting::Activation {
@@ -21,7 +20,7 @@ class ContextLevelActivator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ContextLevelActivator);
-// Dependencies System.Object, System.Runtime.Remoting.Activation.IActivator
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Activation.ContextLevelActivator
@@ -36,7 +35,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x3ce4cf0, size 0x32c, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x5926efc, size 0x1e8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
 
   static inline ::System::Runtime::Remoting::Activation::ContextLevelActivator* New_ctor(::System::Runtime::Remoting::Activation::IActivator* next);
@@ -47,10 +46,10 @@ public:
 
   constexpr void __cordl_internal_set_m_NextActivator(::System::Runtime::Remoting::Activation::IActivator* value);
 
-  /// @brief Method .ctor, addr 0x3ce41b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59265e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IActivator* next);
 
-  /// @brief Method get_NextActivator, addr 0x3ce4ce8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x5926ef4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
@@ -71,7 +70,7 @@ public:
   ContextLevelActivator(ContextLevelActivator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3131 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3148 };
 
   /// @brief Field m_NextActivator, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Activation::IActivator* ___m_NextActivator;

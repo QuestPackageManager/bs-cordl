@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCubemapCapture::*)()>(&::GlobalNamespace::OVRCubemapCapture::Update)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x402e4c4;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x5ce20f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCubemapCapture*>::get(), "Update",
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Vector3, int32_t, ::StringW)>(&::GlobalNamespace::OVRCubemapCapture::TriggerCubemapCapture)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x402e56c;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x5ce21e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Camera*, ::UnityEngine::Cubemap*)>(
     &::GlobalNamespace::OVRCubemapCapture::RenderIntoCubemap)> {
-  constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x402e818;
+  constexpr static std::size_t size = 0x578;
+  constexpr static std::size_t addrs = 0x5ce24a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Cubemap*, ::StringW)>(&::GlobalNamespace::OVRCubemapCapture::SaveCubemapCapture)> {
-  constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x402ed78;
+  constexpr static std::size_t size = 0x7bc;
+  constexpr static std::size_t addrs = 0x5ce2a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRCubemapCapture::*)()>(&::GlobalNamespace::OVRCubemapCapture::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x402f510;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5ce31d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRCubemapCapture*>::get(), ".ctor",

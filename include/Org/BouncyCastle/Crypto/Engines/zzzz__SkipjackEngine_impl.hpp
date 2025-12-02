@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/SkipjackEngine.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__SkipjackEngine_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::SkipjackEngine.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::Init)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x2372210;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x329fdb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x237250c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x32a00c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::get_IsPartialBlockOkay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x237254c;
+  constexpr static std::size_t addrs = 0x32a0108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2372554;
+  constexpr static std::size_t addrs = 0x32a0110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::ProcessBlock)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x237255c;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x32a0118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x237268c;
+  constexpr static std::size_t addrs = 0x32a025c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::G)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2372690;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x32a0260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::EncryptBlock)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x23727ec;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x32a03c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::H)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2372a38;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x32a0614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::DecryptBlock)> {
   constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x2372b94;
+  constexpr static std::size_t addrs = 0x32a0774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SkipjackEngine::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2372e88;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32a0a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::SkipjackEngine*>::get(),

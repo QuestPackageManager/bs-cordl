@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberModelContainer_InitData::*)()>(
     &::GlobalNamespace::SaberModelContainer_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bebb1c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x57de8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberModelContainer_InitData*>::get(), ".ctor",
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberModelContainer_InitData::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::SaberModelContainer_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bebb3c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x57de8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ constexpr ::GlobalNamespace::SaberModelContainer_InitData::SaberModelContainer_I
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::Start)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3beb894;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x57de5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberModelContainer*>::get(), "Start",
@@ -86,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberModelContainer::*)()>(&::GlobalNamespace::SaberModelContainer::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3bebab4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x57de888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberModelContainer*>::get(), ".ctor",

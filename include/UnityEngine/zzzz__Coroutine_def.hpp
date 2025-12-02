@@ -4,17 +4,58 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_def.hpp"
 CORDL_MODULE_EXPORT(Coroutine)
 namespace System {
 struct IntPtr;
 }
+namespace UnityEngine {
+class Coroutine_BindingsMarshaller;
+}
 // Forward declare root types
 namespace UnityEngine {
 class Coroutine;
 }
+namespace UnityEngine {
+class Coroutine_BindingsMarshaller;
+}
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Coroutine);
+MARK_REF_PTR_T(::UnityEngine::Coroutine_BindingsMarshaller);
+// Dependencies System.Object
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.Coroutine/BindingsMarshaller
+class CORDL_TYPE Coroutine_BindingsMarshaller : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Method ConvertToNative, addr 0x68aaecc, size 0x14, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ConvertToNative(::UnityEngine::Coroutine* coroutine);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr Coroutine_BindingsMarshaller();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "Coroutine_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  Coroutine_BindingsMarshaller(Coroutine_BindingsMarshaller const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10309 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Coroutine_BindingsMarshaller, 0x10>, "Size mismatch!");
+
+} // namespace UnityEngine
 // Dependencies System.IntPtr, UnityEngine.YieldInstruction
 namespace UnityEngine {
 // Is value type: false
@@ -22,15 +63,17 @@ namespace UnityEngine {
 class CORDL_TYPE Coroutine : public ::UnityEngine::YieldInstruction {
 public:
   // Declarations
+  using BindingsMarshaller = ::UnityEngine::Coroutine_BindingsMarshaller;
+
   /// @brief Field m_Ptr, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr)) ::System::IntPtr m_Ptr;
 
-  /// @brief Method Finalize, addr 0x48aa2f8, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x68aae1c, size 0x74, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::UnityEngine::Coroutine* New_ctor();
 
-  /// @brief Method ReleaseCoroutine, addr 0x48aa3b4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleaseCoroutine, addr 0x68aae90, size 0x3c, virtual false, abstract: false, final false
   static inline void ReleaseCoroutine(::System::IntPtr ptr);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -39,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x48aa2f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68aae18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +100,7 @@ public:
   Coroutine(Coroutine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10310 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;
@@ -72,3 +115,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::Coroutine, 0x18>, "
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::Coroutine);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Coroutine*, "UnityEngine", "Coroutine");
+NEED_NO_BOX(::UnityEngine::Coroutine_BindingsMarshaller);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Coroutine_BindingsMarshaller*, "UnityEngine", "Coroutine/BindingsMarshaller");

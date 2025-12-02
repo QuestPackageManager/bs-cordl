@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x242f0b0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x335d5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::*)(uint8_t, ::System::Exception*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x242f484;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x335d97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsFatalAlert::get_AlertDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2432e34;
+  constexpr static std::size_t addrs = 0x33613c4;
 
   inline static ::MethodInfo const* methodInfo() {
 

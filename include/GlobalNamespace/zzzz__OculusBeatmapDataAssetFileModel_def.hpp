@@ -5,16 +5,13 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -28,6 +25,9 @@ class BeatmapLevel;
 }
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
+}
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
@@ -97,6 +97,9 @@ class SemaphoreSlim;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -172,7 +175,7 @@ public:
   /// @brief Field levelId, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_levelId, put = __cordl_internal_set_levelId)) ::StringW levelId;
 
-  /// @brief Method GetLevelDataAssetDownloadUpdate, addr 0x26e5580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLevelDataAssetDownloadUpdate, addr 0x361789c, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelDataAssetDownloadUpdate GetLevelDataAssetDownloadUpdate();
 
   static inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* New_ctor(uint64_t assetId, ::StringW levelId, ::StringW assetBundlePath,
@@ -244,10 +247,10 @@ public:
 
   constexpr void __cordl_internal_set_levelId(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e5df8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36181b0, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(uint64_t assetId, ::StringW levelId, ::StringW assetBundlePath, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method get_debugInfo, addr 0x26e55ac, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_debugInfo, addr 0x36178c4, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get_debugInfo();
 
 protected:
@@ -265,7 +268,7 @@ public:
   OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData(OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13134 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15106 };
 
   /// @brief Field assetId, offset: 0x10, size: 0x8, def value: None
   uint64_t ___assetId;
@@ -344,7 +347,7 @@ public:
 
   static inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0* New_ctor();
 
-  /// @brief Method <StartMostRecentlyRequestedDownload>b__0, addr 0x26e65f4, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method <StartMostRecentlyRequestedDownload>b__0, addr 0x3618a34, size 0x21c, virtual false, abstract: false, final false
   inline void _StartMostRecentlyRequestedDownload_b__0(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>* msg);
 
   constexpr ::GlobalNamespace::OculusBeatmapDataAssetFileModel* const& __cordl_internal_get___4__this() const;
@@ -359,7 +362,7 @@ public:
 
   constexpr void __cordl_internal_set_candidateDownloadingData(::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* value);
 
-  /// @brief Method .ctor, addr 0x26e55a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36178c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -377,7 +380,7 @@ public:
   OculusBeatmapDataAssetFileModel___c__DisplayClass18_0(OculusBeatmapDataAssetFileModel___c__DisplayClass18_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15107 };
 
   /// @brief Field candidateDownloadingData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* ___candidateDownloadingData;
@@ -395,8 +398,8 @@ static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__D
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OculusBeatmapDataAssetFileModel/<GetAssetBundleFileForBeatmapLevelAsync>d__19
@@ -406,10 +409,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e681c, size 0x830, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3618c50, size 0x888, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e704c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x36194d8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -433,7 +436,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15108 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -494,8 +497,7 @@ static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAs
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OculusBeatmapDataAssetFileModel/<HandleAssetFileDownloadUpdateAsync>d__24
@@ -505,10 +507,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e70c8, size 0xaec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3619558, size 0xc04, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e7bb4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x361a15c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -533,7 +535,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15109 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -589,8 +591,8 @@ static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel__Handl
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OculusBeatmapDataAssetFileModel/<ReloadAssetDetailsForAllLevelsAsync>d__21
@@ -600,10 +602,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e7c1c, size 0xa54, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x361a1c8, size 0xa9c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e8670, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x361ac64, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -624,7 +626,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetDetailsList*>*> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13138 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15110 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -665,8 +667,7 @@ static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel__Reloa
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OculusBeatmapDataAssetFileModel/<TryDeleteAssetBundleFileForBeatmapLevelAsync>d__20
@@ -676,10 +677,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26e86ec, size 0x8c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x361ace4, size 0x974, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26e8fac, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x361b658, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -705,7 +706,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15111 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -766,7 +767,7 @@ static_assert(offsetof(::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDe
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20, 0x60>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IBeatmapDataAssetFileModel, System.Object, Zenject.ITickable
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OculusBeatmapDataAssetFileModel
@@ -824,51 +825,51 @@ public:
   /// @brief Convert operator to "::Zenject::ITickable"
   constexpr operator ::Zenject::ITickable*() noexcept;
 
-  /// @brief Method CancelDownload, addr 0x26e5498, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CancelDownload, addr 0x3617794, size 0x108, virtual false, abstract: false, final false
   inline void CancelDownload(uint64_t assetId);
 
-  /// @brief Method CancelNotRespondingDownloads, addr 0x26e4d60, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CancelNotRespondingDownloads, addr 0x3617030, size 0x128, virtual false, abstract: false, final false
   inline void CancelNotRespondingDownloads(float_t currentTimeSeconds);
 
-  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x26e5634, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x3617960, size 0x108, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetCurrentTimeSeconds, addr 0x26e4d58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentTimeSeconds, addr 0x3617008, size 0x28, virtual false, abstract: false, final false
   inline float_t GetCurrentTimeSeconds();
 
-  /// @brief Method GetDownloadAssetBundleFileAsync, addr 0x26e5950, size 0x4a8, virtual false, abstract: false, final false
+  /// @brief Method GetDownloadAssetBundleFileAsync, addr 0x3617c58, size 0x558, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetDownloadAssetBundleFileAsync(::StringW levelId, ::Oculus::Platform::Models::AssetDetails* assetDetails,
                                                                                                                           ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HandleAssetFileDownloadUpdate, addr 0x26e5ee4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method HandleAssetFileDownloadUpdate, addr 0x36182a4, size 0xa8, virtual false, abstract: false, final false
   inline void HandleAssetFileDownloadUpdate(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
 
-  /// @brief Method HandleAssetFileDownloadUpdateAsync, addr 0x26e5f88, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleAssetFileDownloadUpdateAsync, addr 0x361834c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* HandleAssetFileDownloadUpdateAsync(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>* msg);
 
-  /// @brief Method MarkDownloadCompleted, addr 0x26e605c, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method MarkDownloadCompleted, addr 0x3618410, size 0x324, virtual false, abstract: false, final false
   inline void MarkDownloadCompleted(bool isError, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData* downloadingData);
 
   static inline ::GlobalNamespace::OculusBeatmapDataAssetFileModel* New_ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
 
-  /// @brief Method NotifyRecentlyRequestedDownloads, addr 0x26e4e64, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method NotifyRecentlyRequestedDownloads, addr 0x3617158, size 0x1b4, virtual false, abstract: false, final false
   inline void NotifyRecentlyRequestedDownloads(float_t currentTimeSeconds);
 
-  /// @brief Method ReloadAssetDetailsForAllLevelsAsync, addr 0x26e5858, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ReloadAssetDetailsForAllLevelsAsync, addr 0x3617b6c, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReloadAssetDetailsForAllLevelsAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method RemoveFromDownloadingDataStructures, addr 0x26e6334, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromDownloadingDataStructures, addr 0x3618734, size 0x300, virtual false, abstract: false, final false
   inline bool RemoveFromDownloadingDataStructures(uint64_t assetId);
 
-  /// @brief Method StartMostRecentlyRequestedDownload, addr 0x26e5078, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method StartMostRecentlyRequestedDownload, addr 0x361730c, size 0x488, virtual false, abstract: false, final false
   inline void StartMostRecentlyRequestedDownload(float_t currentTimeSeconds);
 
-  /// @brief Method Tick, addr 0x26e4d18, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x3616fa4, size 0x64, virtual true, abstract: false, final true
   inline void Tick();
 
-  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x26e5748, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x3617a68, size 0x104, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                 ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
@@ -923,10 +924,10 @@ public:
 
   constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x26e4b38, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3616d54, size 0x250, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::OculusPlatformAdditionalContentModel* oculusPlatformAdditionalContentModel);
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x26e49d8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x3616bd4, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
@@ -935,7 +936,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x26e4a88, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x3616c94, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
 protected:
@@ -953,7 +954,7 @@ public:
   OculusBeatmapDataAssetFileModel(OculusBeatmapDataAssetFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15112 };
 
   /// @brief Field kMaxConcurrentDownloads offset 0xffffffff size 0x4
   static constexpr int32_t kMaxConcurrentDownloads{ static_cast<int32_t>(0x1) };

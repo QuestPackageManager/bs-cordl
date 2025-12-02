@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::RunnableContext::*)()>(&::Zenject::RunnableContext::get_Initialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b28824;
+  constexpr static std::size_t addrs = 0x6c3cd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::RunnableContext*>::get(), "get_Initialized",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::RunnableContext::*)(bool)>(&::Zenject::RunnableContext::set_Initialized)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4b2882c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c3cd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::RunnableContext::*)()>(&::Zenject::RunnableContext::Initialize)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b25a58;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6c39e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::RunnableContext*>::get(), "Initialize",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::RunnableContext::*)()>(&::Zenject::RunnableContext::Run)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4b28838;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6c3cd14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::RunnableContext::*)()>(&::Zenject::RunnableContext::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4b263b8;
+  constexpr static std::size_t addrs = 0x6c3a7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::RunnableContext*>::get(), ".ctor",
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::RunnableContext::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4b288f4;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6c3cdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::RunnableContext*>::get(), "__zenCreateInjectTypeInfo",

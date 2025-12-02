@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*)>(&::UnityEngine::ManagedStreamHelpers::ValidateLoadFromStream)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x48ad8d0;
+  constexpr static std::size_t addrs = 0x68b0848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::IO::Stream*, ::System::IntPtr)>(
     &::UnityEngine::ManagedStreamHelpers::ManagedStreamRead)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48ad9d4;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x68b094c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, uint32_t, ::System::IO::Stream*, ::System::IntPtr)>(
     &::UnityEngine::ManagedStreamHelpers::ManagedStreamSeek)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x48adab8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x68b0a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IO::Stream*, ::System::IntPtr)>(&::UnityEngine::ManagedStreamHelpers::ManagedStreamLength)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x48adb94;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x68b0acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ManagedStreamHelpers*>::get(),

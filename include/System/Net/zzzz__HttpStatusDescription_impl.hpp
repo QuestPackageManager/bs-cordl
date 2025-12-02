@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::HttpStatusCode)>(&::System::Net::HttpStatusDescription::Get)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x448ac7c;
+  constexpr static std::size_t addrs = 0x61da418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Net::HttpStatusDescription::Get)> {
-  constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x448ac80;
+  constexpr static std::size_t size = 0x930;
+  constexpr static std::size_t addrs = 0x61da41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

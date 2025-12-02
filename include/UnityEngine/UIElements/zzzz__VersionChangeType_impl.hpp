@@ -24,4 +24,7 @@ constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::RenderHints{ static_cast<int32_t>(0x4000) };
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::TransitionProperty{ static_cast<int32_t>(0x8000) };
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::EventCallbackCategories{ static_cast<int32_t>(0x10000) };
+constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::DisableRendering{ static_cast<int32_t>(0x20000) };
+constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::BindingRegistration{ static_cast<int32_t>(0x40000) };
+constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::DataSource{ static_cast<int32_t>(0x80000) };
 constexpr ::UnityEngine::UIElements::VersionChangeType UnityEngine::UIElements::VersionChangeType::Picking{ static_cast<int32_t>(0x100000) };

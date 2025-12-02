@@ -47,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_TargetSyncContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x3e50694, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a95ac0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Action_1<::System::Object*>* callback, ::System::Object* stateForCallback, ::System::Threading::ExecutionContext* targetExecutionContext,
                     ::System::Threading::CancellationTokenSource* cancellationTokenSource, ::System::Threading::SynchronizationContext* targetSyncContext);
 
@@ -66,7 +66,7 @@ public:
   CancellationCallbackInfo_WithSyncContext(CancellationCallbackInfo_WithSyncContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2702 };
 
   /// @brief Field TargetSyncContext, offset: 0x30, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* ___TargetSyncContext;

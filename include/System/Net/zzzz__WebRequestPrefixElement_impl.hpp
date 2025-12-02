@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebRequestCreate* (::System::Net::WebRequestPrefixElement::*)()>(
     &::System::Net::WebRequestPrefixElement::get_Creator)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x44a13b0;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x61f0db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebRequestPrefixElement*>::get(), "get_Creator",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::System::Net::IWebRequestCreate*)>(
     &::System::Net::WebRequestPrefixElement::set_Creator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a15a8;
+  constexpr static std::size_t addrs = 0x61f0fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebRequestPrefixElement::*)(::StringW, ::System::Net::IWebRequestCreate*)>(
     &::System::Net::WebRequestPrefixElement::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44a15b0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61f0fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaGroupRef::get_RefName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bed90;
+  constexpr static std::size_t addrs = 0x6015128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), "get_RefName",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)(::System::Xml::XmlQualifiedName*)>(
     &::System::Xml::Schema::XmlSchemaGroupRef::set_RefName)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42bcb78;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6012eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaGroupBase* (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaGroupRef::get_Particle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bed98;
+  constexpr static std::size_t addrs = 0x6015130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), "get_Particle",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)(::System::Xml::Schema::XmlSchemaGroupBase*)>(
     &::System::Xml::Schema::XmlSchemaGroupRef::SetParticle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42beda0;
+  constexpr static std::size_t addrs = 0x6015138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaGroup* (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(
     &::System::Xml::Schema::XmlSchemaGroupRef::get_Redefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42beda8;
+  constexpr static std::size_t addrs = 0x6015140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)(::System::Xml::Schema::XmlSchemaGroup*)>(
     &::System::Xml::Schema::XmlSchemaGroupRef::set_Redefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42bedb0;
+  constexpr static std::size_t addrs = 0x6015148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaGroupRef::*)()>(&::System::Xml::Schema::XmlSchemaGroupRef::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x42bedb8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6015150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaGroupRef*>::get(), ".ctor",

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(NoekeonEngine)
+namespace Org::BouncyCastle::Crypto {
+class IBlockCipher;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -17,7 +19,7 @@ class NoekeonEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::NoekeonEngine);
-// Dependencies Org.BouncyCastle.Crypto.IBlockCipher, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Engines.NoekeonEngine
@@ -43,24 +45,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IBlockCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::IBlockCipher*() noexcept;
 
-  /// @brief Method DecryptBlock, addr 0x2363c08, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x32918a4, size 0x22c, virtual false, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method EncryptBlock, addr 0x2363f18, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x3291ad0, size 0x22c, virtual false, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x2363844, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x329155c, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method Init, addr 0x236384c, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3291564, size 0x1e0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::NoekeonEngine* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x2363ab0, size 0x158, virtual true, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x3291744, size 0x160, virtual true, abstract: false, final false
   inline int32_t ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method Reset, addr 0x23641f0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3291cfc, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr bool const& __cordl_internal_get__forEncryption() const;
@@ -81,15 +83,15 @@ public:
 
   constexpr void __cordl_internal_set_k(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x236379c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32914b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_RoundConstants();
 
-  /// @brief Method get_AlgorithmName, addr 0x23637fc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3291510, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
-  /// @brief Method get_IsPartialBlockOkay, addr 0x236383c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsPartialBlockOkay, addr 0x3291554, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsPartialBlockOkay();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IBlockCipher"

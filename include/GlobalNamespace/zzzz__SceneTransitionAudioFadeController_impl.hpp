@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SceneTransitionAudioFadeController.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneTransitionAudioFadeController_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SceneTransitionAudioFadeController.Initialize
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::Initialize)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ad3de0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x56ae248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneTransitionAudioFadeController*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::Dispose)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ad3ecc;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x56ae374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneTransitionAudioFadeController*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)(
     ::GlobalNamespace::GameScenesManager_SceneTransitionType, float_t)>(&::GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidStart)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ad3fb8;
+  constexpr static std::size_t addrs = 0x56ae4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)(
     ::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::HandleTransitionDidFinish)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ad3fec;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x56ae4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneTransitionAudioFadeController::*)()>(
     &::GlobalNamespace::SceneTransitionAudioFadeController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad4024;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56ae504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneTransitionAudioFadeController*>::get(),
@@ -84,15 +84,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::SceneTransitionAudioFadeController::__cordl_internal_get__audioManager() {
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::SceneTransitionAudioFadeController::__cordl_internal_get__audioManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::SceneTransitionAudioFadeController::__cordl_internal_get__audioManager() const {
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::SceneTransitionAudioFadeController::__cordl_internal_get__audioManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr void GlobalNamespace::SceneTransitionAudioFadeController::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
+constexpr void GlobalNamespace::SceneTransitionAudioFadeController::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

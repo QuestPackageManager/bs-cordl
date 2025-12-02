@@ -3,16 +3,31 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__DetachedAllocator_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempAllocator_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshWriteData_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UIR::DetachedAllocator._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(
+    &::UnityEngine::UIElements::UIR::DetachedAllocator::_ctor)> {
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6aa1434;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::DetachedAllocator.Dispose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)()>(
     &::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49a8280;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6aa1558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(),
@@ -25,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::DetachedAllocator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::DetachedAllocator::Dispose)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49a82e4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6aa15c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,6 +110,11 @@ constexpr void UnityEngine::UIElements::UIR::DetachedAllocator::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Disposed = value;
 }
+inline void UnityEngine::UIElements::UIR::DetachedAllocator::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void UnityEngine::UIElements::UIR::DetachedAllocator::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(),
                                                                              "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -105,6 +125,17 @@ inline void UnityEngine::UIElements::UIR::DetachedAllocator::Dispose(bool dispos
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::DetachedAllocator*>::get(), "Dispose",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
+}
+inline ::UnityEngine::UIElements::UIR::DetachedAllocator* UnityEngine::UIElements::UIR::DetachedAllocator::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::DetachedAllocator*>());
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::UIR::DetachedAllocator::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::UIR::DetachedAllocator::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UIR::DetachedAllocator::DetachedAllocator() {}

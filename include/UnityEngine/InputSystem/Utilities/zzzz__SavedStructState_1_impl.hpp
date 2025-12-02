@@ -2,13 +2,13 @@
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/SavedStructState_1.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__ISavedState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__SavedStructState_1_def.hpp"
 template <typename T> inline void UnityEngine::InputSystem::Utilities::SavedStructState_1_TypedRestore<T>::_ctor(::System::Object* object, ::System::IntPtr method) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

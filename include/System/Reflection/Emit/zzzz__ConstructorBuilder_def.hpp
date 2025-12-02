@@ -56,42 +56,42 @@ public:
 
   __declspec(property(get = get_ReflectedType)) ::System::Type* ReflectedType;
 
-  /// @brief Method GetCustomAttributes, addr 0x3d34f74, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x597b658, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3d34f3c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x597b620, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x3d34e5c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x597b540, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
-  /// @brief Method GetParameters, addr 0x3d34e24, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x597b508, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
 
-  /// @brief Method Invoke, addr 0x3d34ecc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x597b5b0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters,
                                   ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method Invoke, addr 0x3d34fe4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x597b6c8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x3d34f04, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x597b5e8, size 0x38, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method get_Attributes, addr 0x3d34d7c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x597b460, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodAttributes get_Attributes();
 
-  /// @brief Method get_DeclaringType, addr 0x3d34db4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x597b498, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MethodHandle, addr 0x3d34e94, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_MethodHandle, addr 0x597b578, size 0x38, virtual true, abstract: false, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
-  /// @brief Method get_Name, addr 0x3d34dec, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x597b4d0, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0x3d34fac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x597b690, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
 protected:
@@ -109,7 +109,7 @@ public:
   ConstructorBuilder(ConstructorBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3562 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -23,6 +20,9 @@ struct GameplayServerConfiguration;
 }
 namespace GlobalNamespace {
 class IConnectedPlayer;
+}
+namespace GlobalNamespace {
+class IPoolablePacket;
 }
 namespace GlobalNamespace {
 template <typename TType, typename TData> class NetworkPacketSerializer_2;
@@ -43,6 +43,9 @@ namespace GlobalNamespace {
 class PartyMessageHandler_ServerStatusUpdatedDelegate;
 }
 namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
@@ -53,6 +56,9 @@ class AsyncCallback;
 }
 namespace System {
 class IAsyncResult;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -117,7 +123,7 @@ public:
   static ::GlobalNamespace::PartyMessageHandler_MessageType const ConnectToMasterServer;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19030 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,19 +146,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE PartyMessageHandler_ServerStatusUpdatedDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x22e16c4, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x31b2c38, size 0xc0, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                                              ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x22e1784, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x31b2cf8, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x22e1674, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x31b2be8, size 0x50, virtual true, abstract: false, final false
   inline void Invoke(::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration);
 
   static inline ::GlobalNamespace::PartyMessageHandler_ServerStatusUpdatedDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x22e15e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2b7c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -170,7 +176,7 @@ public:
   PartyMessageHandler_ServerStatusUpdatedDelegate(PartyMessageHandler_ServerStatusUpdatedDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19031 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,18 +191,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE PartyMessageHandler_ConnectToMasterServerDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x22e1840, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x31b2d94, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::StringW secret, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x22e1860, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x31b2db4, size 0xc, virtual true, abstract: false, final false
   inline void EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x22e182c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x31b2d80, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::StringW secret);
 
   static inline ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x22e1790, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2d04, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -214,7 +220,7 @@ public:
   PartyMessageHandler_ConnectToMasterServerDelegate(PartyMessageHandler_ConnectToMasterServerDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19032 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -222,7 +228,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate, 0x80>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IPoolablePacket, LiteNetLib.Utils.INetSerializable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PartyMessageHandler/ConnectToMasterServerMessage
@@ -238,18 +244,18 @@ public:
   /// @brief Convert operator to "::LiteNetLib::Utils::INetSerializable"
   constexpr operator ::LiteNetLib::Utils::INetSerializable*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x22e1890, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x31b2de0, size 0x28, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Init, addr 0x22e154c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x31b2adc, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage* Init(::StringW secret);
 
   static inline ::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage* New_ctor();
 
-  /// @brief Method Release, addr 0x22e1594, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x31b2b24, size 0x58, virtual true, abstract: false, final true
   inline void Release();
 
-  /// @brief Method Serialize, addr 0x22e186c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x31b2dc0, size 0x20, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::StringW const& __cordl_internal_get_secret() const;
@@ -258,10 +264,10 @@ public:
 
   constexpr void __cordl_internal_set_secret(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22e18b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b2e08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_pool, addr 0x22e1324, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method get_pool, addr 0x31b2884, size 0x44, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PacketPool_1<::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage*>* get_pool();
 
   /// @brief Convert to "::GlobalNamespace::IPoolablePacket"
@@ -285,7 +291,7 @@ public:
   PartyMessageHandler_ConnectToMasterServerMessage(PartyMessageHandler_ConnectToMasterServerMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19033 };
 
   /// @brief Field secret, offset: 0x10, size: 0x8, def value: None
   ::StringW ___secret;
@@ -298,7 +304,7 @@ static_assert(offsetof(::GlobalNamespace::PartyMessageHandler_ConnectToMasterSer
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PartyMessageHandler
@@ -328,13 +334,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ConnectToMasterServer, addr 0x22e14c4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ConnectToMasterServer, addr 0x31b2a44, size 0x98, virtual false, abstract: false, final false
   inline void ConnectToMasterServer(::StringW secret);
 
-  /// @brief Method Dispose, addr 0x22e1364, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31b28c8, size 0x24, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleConnectToMasterServer, addr 0x22e1554, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandleConnectToMasterServer, addr 0x31b2ae4, size 0x40, virtual false, abstract: false, final false
   inline void HandleConnectToMasterServer(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerMessage* packet);
 
   static inline ::GlobalNamespace::PartyMessageHandler* New_ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
@@ -357,16 +363,16 @@ public:
 
   constexpr void __cordl_internal_set_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* value);
 
-  /// @brief Method .ctor, addr 0x22e11b8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b26ec, size 0x198, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
 
-  /// @brief Method add_connectToMasterServerEvent, addr 0x22e138c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_connectToMasterServerEvent, addr 0x31b28ec, size 0xac, virtual false, abstract: false, final false
   inline void add_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_connectToMasterServerEvent, addr 0x22e1428, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_connectToMasterServerEvent, addr 0x31b2998, size 0xac, virtual false, abstract: false, final false
   inline void remove_connectToMasterServerEvent(::GlobalNamespace::PartyMessageHandler_ConnectToMasterServerDelegate* value);
 
 protected:
@@ -384,7 +390,7 @@ public:
   PartyMessageHandler(PartyMessageHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19034 };
 
   /// @brief Field _serializer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::NetworkPacketSerializer_2<::GlobalNamespace::PartyMessageHandler_MessageType, ::GlobalNamespace::IConnectedPlayer*>* ____serializer;

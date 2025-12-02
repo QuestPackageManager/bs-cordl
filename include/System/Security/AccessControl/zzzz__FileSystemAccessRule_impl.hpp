@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::FileSystemAccessRule::*)(
     ::System::Security::Principal::IdentityReference*, ::System::Security::AccessControl::FileSystemRights, bool, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AccessControlType)>(&::System::Security::AccessControl::FileSystemAccessRule::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc5600;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5908d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::FileSystemRights (::System::Security::AccessControl::FileSystemAccessRule::*)()>(
     &::System::Security::AccessControl::FileSystemAccessRule::get_FileSystemRights)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc5608;
+  constexpr static std::size_t addrs = 0x5908d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::FileSystemAccessRule*>::get(),

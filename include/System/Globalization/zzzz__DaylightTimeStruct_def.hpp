@@ -26,7 +26,7 @@ namespace System::Globalization {
 struct CORDL_TYPE DaylightTimeStruct {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3d92f94, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a64c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime start, ::System::DateTime end, ::System::TimeSpan delta);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr DaylightTimeStruct(::System::DateTime Start, ::System::DateTime End, ::System::TimeSpan Delta) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3678 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3598 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

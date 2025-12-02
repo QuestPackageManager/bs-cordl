@@ -29,6 +29,7 @@ public:
     __E_TempJob = static_cast<int32_t>(0x3),
     __E_Persistent = static_cast<int32_t>(0x4),
     __E_AudioKernel = static_cast<int32_t>(0x5),
+    __E_Domain = static_cast<int32_t>(0x6),
     __E_FirstUserIndex = static_cast<int32_t>(0x40),
   };
 
@@ -52,6 +53,9 @@ public:
   /// @brief Field AudioKernel value: I32(5)
   static ::Unity::Collections::Allocator const AudioKernel;
 
+  /// @brief Field Domain value: I32(6)
+  static ::Unity::Collections::Allocator const Domain;
+
   /// @brief Field FirstUserIndex value: I32(64)
   static ::Unity::Collections::Allocator const FirstUserIndex;
 
@@ -71,7 +75,7 @@ public:
   static ::Unity::Collections::Allocator const TempJob;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

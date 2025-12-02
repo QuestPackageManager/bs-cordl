@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Label_UxmlFactory::*)()>(&::UnityEngine::UIElements::Label_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49f2a6c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b1a964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Label_UxmlFactory*>::get(), ".ctor",
@@ -32,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Label_UxmlTraits::*)()>(&::UnityEngine::UIElements::Label_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f2ab4;
+  constexpr static std::size_t addrs = 0x6b1a9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Label_UxmlTraits*>::get(), ".ctor",
@@ -54,8 +54,8 @@ constexpr ::UnityEngine::UIElements::Label_UxmlTraits::Label_UxmlTraits() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Label::*)()>(&::UnityEngine::UIElements::Label::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49f2904;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6b1a8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Label*>::get(), ".ctor",
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Label::*)(::StringW)>(&::UnityEngine::UIElements::Label::_ctor)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x49f2954;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b11b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

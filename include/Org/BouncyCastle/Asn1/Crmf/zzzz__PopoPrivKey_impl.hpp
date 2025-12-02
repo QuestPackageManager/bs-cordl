@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Crmf/PopoPrivKey.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_impl.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__PopoPrivKey_def.hpp"
 #include "Org/BouncyCastle/Asn1/Crmf/zzzz__SubsequentMessage_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObject_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::_ctor)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2315794;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x3242604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::GetInstance)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x2315a20;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x32428a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::*)(::Org::BouncyCastle::Asn1::Crmf::SubsequentMessage*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2315a9c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x3242938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2315acc;
+  constexpr static std::size_t addrs = 0x3242948;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2315ad4;
+  constexpr static std::size_t addrs = 0x3242950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PopoPrivKey::ToAsn1Object)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2315adc;
+  constexpr static std::size_t addrs = 0x3242958;
 
   inline static ::MethodInfo const* methodInfo() {
 

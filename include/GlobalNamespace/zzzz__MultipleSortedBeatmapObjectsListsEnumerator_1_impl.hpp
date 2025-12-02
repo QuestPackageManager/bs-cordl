@@ -1,10 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultipleSortedBeatmapObjectsListsEnumerator_1.hpp"
 #include "Priority_Queue/zzzz__StablePriorityQueueNode_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "GlobalNamespace/zzzz__MultipleSortedBeatmapObjectsListsEnumerator_1_def.hpp"
@@ -12,7 +8,9 @@
 #include "Priority_Queue/zzzz__StablePriorityQueue_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 template <typename T>

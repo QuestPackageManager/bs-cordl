@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRSceneVolume.hpp"
-#include "GlobalNamespace/zzzz__IOVRSceneComponent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneVolume_def.hpp"
+#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSceneVolume.get_Width
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a0c;
+  constexpr static std::size_t addrs = 0x5cbae04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_Width",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(float_t)>(&::GlobalNamespace::OVRSceneVolume::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a14;
+  constexpr static std::size_t addrs = 0x5cbae0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a1c;
+  constexpr static std::size_t addrs = 0x5cbae14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_Height",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(float_t)>(&::GlobalNamespace::OVRSceneVolume::set_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a24;
+  constexpr static std::size_t addrs = 0x5cbae1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Depth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a2c;
+  constexpr static std::size_t addrs = 0x5cbae24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_Depth",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(float_t)>(&::GlobalNamespace::OVRSceneVolume::set_Depth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a34;
+  constexpr static std::size_t addrs = 0x5cbae2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRSceneVolume::*)()>(
     &::GlobalNamespace::OVRSceneVolume::get_Dimensions)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4012a3c;
+  constexpr static std::size_t addrs = 0x5cbae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_Dimensions",
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_Offset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4012a48;
+  constexpr static std::size_t addrs = 0x5cbae40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_Offset",
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRSceneVolume::set_Offset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4012a54;
+  constexpr static std::size_t addrs = 0x5cbae4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_ScaleChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012a60;
+  constexpr static std::size_t addrs = 0x5cbae58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_ScaleChildren",
@@ -146,8 +146,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(bool)>(&::GlobalNamespace::OVRSceneVolume::set_ScaleChildren)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4012a68;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5cbae60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::get_OffsetChildren)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4012b7c;
+  constexpr static std::size_t addrs = 0x5cbaf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "get_OffsetChildren",
@@ -173,8 +173,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)(bool)>(&::GlobalNamespace::OVRSceneVolume::set_OffsetChildren)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4012b84;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5cbaf74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -187,8 +187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::Awake)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4012c98;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5cbb080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "Awake",
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::IOVRSceneComponent_Initialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4012d6c;
+  constexpr static std::size_t addrs = 0x5cbb15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(),
@@ -213,8 +213,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::SetChildScale)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4012a9c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5cbae88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "SetChildScale",
@@ -226,8 +226,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::SetChildOffset)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4012bb8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5cbaf9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "SetChildOffset",
@@ -239,8 +239,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::UpdateTransform)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x400bd58;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5cb00c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), "UpdateTransform",
@@ -252,8 +252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSceneVolume::*)()>(&::GlobalNamespace::OVRSceneVolume::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4012d70;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5cbb160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSceneVolume*>::get(), ".ctor",

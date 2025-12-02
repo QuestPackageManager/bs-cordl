@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/Tasks/ValueTask_1.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TResult>
 inline void System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>::setStaticF___9(::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask_1___c<TResult>* value) {

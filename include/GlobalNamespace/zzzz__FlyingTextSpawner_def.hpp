@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -14,6 +13,9 @@ class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
 class FlyingTextEffect_Pool;
+}
+namespace GlobalNamespace {
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 struct Quaternion;
@@ -27,7 +29,7 @@ class FlyingTextSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingTextSpawner);
-// Dependencies IFlyingObjectEffectDidFinishEvent, UnityEngine.Color, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FlyingTextSpawner
@@ -61,12 +63,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b8937c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x5775a80, size 0x130, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingTextSpawner* New_ctor();
 
-  /// @brief Method SpawnText, addr 0x3b89198, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SpawnText, addr 0x577588c, size 0x1f4, virtual false, abstract: false, final false
   inline void SpawnText(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation, ::StringW text);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -117,7 +119,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b89498, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5775bb0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -138,7 +140,7 @@ public:
   FlyingTextSpawner(FlyingTextSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5815 };
 
   /// @brief Field _duration, offset: 0x20, size: 0x4, def value: None
   float_t ____duration;

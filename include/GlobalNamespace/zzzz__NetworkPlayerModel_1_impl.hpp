@@ -3,18 +3,7 @@
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayer_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
@@ -27,20 +16,20 @@
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayerModel_1_def.hpp"
 #include "GlobalNamespace/zzzz__PublicServerInfo_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>::__cordl_internal_get__playerModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -555,13 +544,13 @@ template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1___c<T>* Glo
   return ::cordl_internals::getStaticField<::GlobalNamespace::NetworkPlayerModel_1___c<T>*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c<T>*>::get>();
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c<T>::setStaticF___9__71_0(::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value) {
-  ::cordl_internals::setStaticField<::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*, "<>9__71_0",
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c<T>::setStaticF___9__74_0(::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value) {
+  ::cordl_internals::setStaticField<::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*, "<>9__74_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c<T>*>::get>(
       std::forward<::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*>(value));
 }
-template <typename T> inline ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* GlobalNamespace::NetworkPlayerModel_1___c<T>::getStaticF___9__71_0() {
-  return ::cordl_internals::getStaticField<::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*, "<>9__71_0",
+template <typename T> inline ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* GlobalNamespace::NetworkPlayerModel_1___c<T>::getStaticF___9__74_0() {
+  return ::cordl_internals::getStaticField<::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*, "<>9__74_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c<T>*>::get>();
 }
 template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c<T>::_ctor() {
@@ -570,10 +559,10 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c<T>::
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline int32_t GlobalNamespace::NetworkPlayerModel_1___c<T>::_PlayerOrderChanged_b__71_0(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* a,
+inline int32_t GlobalNamespace::NetworkPlayerModel_1___c<T>::_PlayerOrderChanged_b__74_0(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* a,
                                                                                          ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c<T>*>::get(), "<PlayerOrderChanged>b__71_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c<T>*>::get(), "<PlayerOrderChanged>b__74_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, a, b);
@@ -583,462 +572,423 @@ template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1___c<T>* Glo
 }
 // Ctor Parameters []
 template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1___c<T>::NetworkPlayerModel_1___c() {}
-template <typename T> constexpr bool& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get_clearCurrentList() {
+template <typename T> constexpr bool& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get_clearCurrentList() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearCurrentList;
 }
-template <typename T> constexpr bool const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get_clearCurrentList() const {
+template <typename T> constexpr bool const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get_clearCurrentList() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clearCurrentList;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_set_clearCurrentList(bool value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_set_clearCurrentList(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___clearCurrentList = value;
 }
-template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::UnityW<T> const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::UnityW<T> const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_set___4__this(::UnityW<T> value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_set___4__this(::UnityW<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
-template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get_localSelectionMask() {
+template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get_localSelectionMask() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localSelectionMask;
 }
-template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get_localSelectionMask() const {
+template <typename T> constexpr ::GlobalNamespace::BeatmapLevelSelectionMask const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get_localSelectionMask() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localSelectionMask;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_set_localSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_set_localSelectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localSelectionMask = value;
 }
-template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get_localConfiguration() {
+template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get_localConfiguration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localConfiguration;
 }
-template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_get_localConfiguration() const {
+template <typename T> constexpr ::GlobalNamespace::GameplayServerConfiguration const& GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_get_localConfiguration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___localConfiguration;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::__cordl_internal_set_localConfiguration(::GlobalNamespace::GameplayServerConfiguration value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::__cordl_internal_set_localConfiguration(::GlobalNamespace::GameplayServerConfiguration value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___localConfiguration = value;
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::_ctor() {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T>
-inline void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::_Refresh_b__0(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>* servers) {
+inline void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::_Refresh_b__0(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>* servers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>*>::get(), "<Refresh>b__0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>*>::get(), "<Refresh>b__0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, servers);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::_Refresh_b__1(::GlobalNamespace::ConnectionFailedReason reason) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::_Refresh_b__1(::GlobalNamespace::ConnectionFailedReason reason) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>*>::get(), "<Refresh>b__1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>*>::get(), "<Refresh>b__1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ConnectionFailedReason>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reason);
 }
-template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>* GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>*>());
+template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>* GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>*>());
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>::NetworkPlayerModel_1___c__DisplayClass59_0() {}
-template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___1__state() {
+template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>::NetworkPlayerModel_1___c__DisplayClass62_0() {}
+template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___1__state() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_set___1__state(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-template <typename T> constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___2__current() {
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T> constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___2__current() const {
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
-template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___l__initialThreadId() {
+template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___l__initialThreadId() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::UnityW<T> const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::UnityW<T> const& GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_set___4__this(::UnityW<T> value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_set___4__this(::UnityW<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
 template <typename T>
 constexpr ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>&
-GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___7__wrap1() {
+GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T>
 constexpr ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*> const&
-GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_get___7__wrap1() const {
+GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 template <typename T>
-constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__cordl_internal_set___7__wrap1(
+constexpr void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__cordl_internal_set___7__wrap1(
     ::System::Collections::Generic::List_1_Enumerator<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::_ctor(int32_t __1__state) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::System_IDisposable_Dispose() {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::MoveNext() {
+template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::__m__Finally1() {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(), "<>m__Finally1",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(), "<>m__Finally1",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::INetworkPlayer* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current() {
+template <typename T> inline ::GlobalNamespace::INetworkPlayer* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(),
                                   "System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::INetworkPlayer*, false>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::System_Collections_IEnumerator_Reset() {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::System_Collections_IEnumerator_get_Current() {
+template <typename T> inline ::System::Object* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 template <typename T>
 inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator() {
+GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(),
                                   "System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::System_Collections_IEnumerable_GetEnumerator() {
+template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>*>(__1__state));
+template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
-constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
+constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
+GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::operator ::System::Collections::IEnumerable*() noexcept {
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::i___System__Collections__IEnumerable() noexcept {
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
-constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
+constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
+GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::operator ::System::Collections::IEnumerator*() noexcept {
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::i___System__Collections__IEnumerator() noexcept {
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::operator ::System::IDisposable*() noexcept {
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::i___System__IDisposable() noexcept {
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>::NetworkPlayerModel_1__GetOtherPlayers_d__58() {}
-template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___1__state() {
+template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>::NetworkPlayerModel_1__GetOtherPlayers_d__61() {}
+template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___1__state() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_set___1__state(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-template <typename T> constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___2__current() {
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T> constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___2__current() const {
+template <typename T> constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____2__current, value);
 }
-template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___l__initialThreadId() {
+template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___l__initialThreadId() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___4__this() {
+template <typename T> constexpr ::UnityW<T>& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr ::UnityW<T> const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get___4__this() const {
+template <typename T> constexpr ::UnityW<T> const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_set___4__this(::UnityW<T> value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_set___4__this(::UnityW<T> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->_____4__this, value);
 }
-template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get__i_5__2() {
+template <typename T> constexpr int32_t& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get__i_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
-template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_get__i_5__2() const {
+template <typename T> constexpr int32_t const& GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_get__i_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::__cordl_internal_set__i_5__2(int32_t value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::__cordl_internal_set__i_5__2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::_ctor(int32_t __1__state) {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::System_IDisposable_Dispose() {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::MoveNext() {
+template <typename T> inline bool GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::INetworkPlayer* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current() {
+template <typename T> inline ::GlobalNamespace::INetworkPlayer* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(),
                                   "System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::INetworkPlayer*, false>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::System_Collections_IEnumerator_Reset() {
+template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Object* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::System_Collections_IEnumerator_get_Current() {
+template <typename T> inline ::System::Object* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 template <typename T>
 inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator() {
+GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(),
                                   "System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal_method);
 }
-template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::System_Collections_IEnumerable_GetEnumerator() {
+template <typename T> inline ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>*>(__1__state));
+template <typename T> inline ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
-constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
+constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
+GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::operator ::System::Collections::IEnumerable*() noexcept {
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::i___System__Collections__IEnumerable() noexcept {
+template <typename T> constexpr ::System::Collections::IEnumerable* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
-constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
+constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
 template <typename T>
 constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
+GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::operator ::System::Collections::IEnumerator*() noexcept {
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::i___System__Collections__IEnumerator() noexcept {
+template <typename T> constexpr ::System::Collections::IEnumerator* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::operator ::System::IDisposable*() noexcept {
+template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-template <typename T> constexpr ::System::IDisposable* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::i___System__IDisposable() noexcept {
+template <typename T> constexpr ::System::IDisposable* GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>::NetworkPlayerModel_1__GetPartyPlayers_d__57() {}
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T>
-inline void GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T> constexpr GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename T>
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::UnityW<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value:
-// Some("{}") }]
-template <typename T>
-constexpr ::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder, ::UnityW<T> __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->__4__this = __4__this;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56() {}
-template <typename T> constexpr ::GlobalNamespace::IPlatformUserModel*& GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_get__platformUserModel() {
+template <typename T> constexpr ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>::NetworkPlayerModel_1__GetPartyPlayers_d__60() {}
+template <typename T> constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_get__platform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformUserModel;
+  return this->____platform;
 }
-template <typename T> constexpr ::GlobalNamespace::IPlatformUserModel* const& GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_get__platformUserModel() const {
+template <typename T> constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_get__platform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformUserModel;
+  return this->____platform;
 }
-template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value) {
+template <typename T> constexpr void GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  ::cordl_internals::setInstanceField(this, &this->____platformUserModel, value);
+  ::cordl_internals::setInstanceField(this, &this->____platform, value);
 }
 template <typename T>
 constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>*& GlobalNamespace::NetworkPlayerModel_1<T>::__cordl_internal_get__authenticationTokenProviderTask() {
@@ -1335,12 +1285,6 @@ template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::Star
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::HandlePlatformUserInfoDidChange(::GlobalNamespace::UserInfo* newInfo) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayerModel_1<T>*>::get(), "HandlePlatformUserInfoDidChange", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UserInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newInfo);
 }
 template <typename T> inline void GlobalNamespace::NetworkPlayerModel_1<T>::Update() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

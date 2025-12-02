@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Time)
 namespace Org::BouncyCastle::Asn1 {
@@ -12,6 +11,9 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 namespace System {
 struct DateTime;
@@ -25,7 +27,7 @@ class Time;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Time);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.X509.Time
@@ -38,26 +40,26 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2612958, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35426c8, size 0x28, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2611738, size 0x1b4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3541494, size 0x1d0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Time* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTime, addr 0x2612c40, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x35429c8, size 0xd0, virtual false, abstract: false, final false
   inline ::StringW GetTime();
 
   static inline ::Org::BouncyCastle::Asn1::X509::Time* New_ctor(::System::DateTime date);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Time* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
-  /// @brief Method ToAsn1Object, addr 0x2612eb8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3542c54, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToDateTime, addr 0x2612d08, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToDateTime, addr 0x3542a98, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::DateTime ToDateTime();
 
-  /// @brief Method ToString, addr 0x2612ec0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3542c5c, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get_time() const;
@@ -66,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set_time(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x2612aac, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x354282c, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(::System::DateTime date);
 
-  /// @brief Method .ctor, addr 0x2612974, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35426f0, size 0x13c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* time);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

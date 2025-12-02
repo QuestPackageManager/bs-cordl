@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IList)
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +20,7 @@ class IList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::IList);
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable
+// Dependencies
 namespace System::Collections {
 // Is value type: false
 // CS Name: System.Collections.IList
@@ -79,7 +83,7 @@ public:
   IList(IList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

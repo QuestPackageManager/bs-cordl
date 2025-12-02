@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeView::*)(::StringW)>(&::GlobalNamespace::ServerCodeView::SetCode)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b070d0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x56e92fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeView::*)()>(&::GlobalNamespace::ServerCodeView::OnEnable)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b07178;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x56e93b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerCodeView*>::get(), "OnEnable",
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeView::*)()>(&::GlobalNamespace::ServerCodeView::OnDisable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b0720c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x56e944c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerCodeView*>::get(), "OnDisable",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeView::*)()>(
     &::GlobalNamespace::ServerCodeView::HandleShowServerCodeButtonPressed)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b07228;
+  constexpr static std::size_t addrs = 0x56e9464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeView::*)(bool)>(&::GlobalNamespace::ServerCodeView::RefreshText)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b070dc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x56e930c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ServerCodeView::*)()>(&::GlobalNamespace::ServerCodeView::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b07238;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x56e9474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ServerCodeView*>::get(), ".ctor",

@@ -12,7 +12,7 @@ constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements:
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::WorldClipDirty{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::BoundingBoxDirty{ static_cast<int32_t>(0x8) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::WorldBoundingBoxDirty{ static_cast<int32_t>(0x10) };
-constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::EventCallbackParentCategoriesDirty{ static_cast<int32_t>(0x20) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::EventInterestParentCategoriesDirty{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::LayoutManual{ static_cast<int32_t>(0x40) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::CompositeRoot{ static_cast<int32_t>(0x80) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::RequireMeasureFunction{ static_cast<int32_t>(0x100) };
@@ -21,4 +21,8 @@ constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements:
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::NeedsAttachToPanelEvent{ static_cast<int32_t>(0x800) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::HierarchyDisplayed{ static_cast<int32_t>(0x1000) };
 constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::StyleInitialized{ static_cast<int32_t>(0x2000) };
-constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Init{ static_cast<int32_t>(0x103f) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::DisableRendering{ static_cast<int32_t>(0x4000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Needs3DBounds{ static_cast<int32_t>(0x8000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::LocalBounds3DDirty{ static_cast<int32_t>(0x10000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::DetachedDataSource{ static_cast<int32_t>(0x20000) };
+constexpr ::UnityEngine::UIElements::VisualElementFlags UnityEngine::UIElements::VisualElementFlags::Init{ static_cast<int32_t>(0x3003f) };

@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ValidationMarker::*)(::System::Type*, bool)>(&::Zenject::ValidationMarker::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4b5702c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6c6a4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ValidationMarker::*)(::System::Type*)>(&::Zenject::ValidationMarker::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b3c054;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6c50080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ValidationMarker::*)()>(&::Zenject::ValidationMarker::get_InstantiateFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57060;
+  constexpr static std::size_t addrs = 0x6c6a4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ValidationMarker*>::get(), "get_InstantiateFailed",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ValidationMarker::*)(bool)>(&::Zenject::ValidationMarker::set_InstantiateFailed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4b57068;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c6a4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::ValidationMarker::*)()>(&::Zenject::ValidationMarker::get_MarkedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57074;
+  constexpr static std::size_t addrs = 0x6c6a4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ValidationMarker*>::get(), "get_MarkedType",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ValidationMarker::*)(::System::Type*)>(&::Zenject::ValidationMarker::set_MarkedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b5707c;
+  constexpr static std::size_t addrs = 0x6c6a4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

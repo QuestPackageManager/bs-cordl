@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)()>(
     &::System::Globalization::DateTimeFormatInfoScanner::get_KnownWords)> {
-  constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3d91dac;
+  constexpr static std::size_t size = 0x54c;
+  constexpr static std::size_t addrs = 0x5988748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::DateTimeFormatInfoScanner*>::get(),
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::System::Globalization::DateTimeFormatInfoScanner::SkipWhiteSpacesAndNonLetter)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3d92194;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5988c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::DateTimeFormatInfoScanner::*)(::StringW, ::StringW)>(
     &::System::Globalization::DateTimeFormatInfoScanner::AddDateWordOrPostfix)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3d92290;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x5988d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::DateTimeFormatInfoScanner::*)(::StringW, int32_t, ::StringW)>(
     &::System::Globalization::DateTimeFormatInfoScanner::AddDateWords)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3d9269c;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x59891ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, char16_t, int32_t, ::ByRef<int32_t>)>(
     &::System::Globalization::DateTimeFormatInfoScanner::ScanRepeatChar)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d9287c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x59893c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::DateTimeFormatInfoScanner::*)(::StringW)>(
     &::System::Globalization::DateTimeFormatInfoScanner::AddIgnorableSymbols)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3d9254c;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x5989088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::DateTimeFormatInfoScanner::*)(::StringW)>(
     &::System::Globalization::DateTimeFormatInfoScanner::ScanDateWord)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3d92900;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x5989448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Globalization::DateTimeFormatInfoScanner::*)(
     ::System::Globalization::DateTimeFormatInfo*)>(&::System::Globalization::DateTimeFormatInfoScanner::GetDateWordsOfDTFI)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3d90be8;
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x59877a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagGenitiveMonth)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3d8f008;
+  constexpr static std::size_t addrs = 0x5985b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,8 +163,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::FORMATFLAGS (*)(
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInMonthNames)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3d8f048;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5985b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::FORMATFLAGS (*)(
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseSpaceInDayNames)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3d8f108;
+  constexpr static std::size_t addrs = 0x5985c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::FORMATFLAGS (*)(int32_t)>(
     &::System::Globalization::DateTimeFormatInfoScanner::GetFormatFlagUseHebrewCalendar)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d8f138;
+  constexpr static std::size_t addrs = 0x5985c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,8 +213,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Globalization::DateTimeFormatInfoScanner::EqualStringArrays)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d92b3c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x598967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,8 +229,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Globalization::DateTimeFormatInfoScanner::ArrayElementsHaveSpace)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3d92e48;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x59898a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,8 +244,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Globalization::DateTimeFormatInfoScanner::ArrayElementsBeginWithDigit)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3d92bec;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5989730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::DateTimeFormatInfoScanner::*)()>(
     &::System::Globalization::DateTimeFormatInfoScanner::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3d90b6c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5987734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::DateTimeFormatInfoScanner*>::get(),

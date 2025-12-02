@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IndexedSet_1)
@@ -14,10 +10,22 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IList_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,7 +42,7 @@ template <typename T> class IndexedSet_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UI::Collections::IndexedSet_1);
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::UI::Collections {
 // cpp template
 template <typename T>
@@ -188,7 +196,7 @@ public:
   IndexedSet_1(IndexedSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15165 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17473 };
 
   /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___m_List;

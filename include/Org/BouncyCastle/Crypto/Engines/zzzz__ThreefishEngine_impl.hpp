@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ThreefishEngine.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_impl.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ThreefishEngine_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_ThreefishCipher::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23762dc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32a3e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2375690;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32a3294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::EncryptBlock)> {
-  constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x2376308;
+  constexpr static std::size_t size = 0x3ac;
+  constexpr static std::size_t addrs = 0x32a3e80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish256Cipher::DecryptBlock)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x23766e8;
+  constexpr static std::size_t size = 0x438;
+  constexpr static std::size_t addrs = 0x32a422c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23756bc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32a329c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,8 +197,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::EncryptBlock)> {
-  constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x2376b18;
+  constexpr static std::size_t size = 0x570;
+  constexpr static std::size_t addrs = 0x32a4664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,8 +213,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish512Cipher::DecryptBlock)> {
-  constexpr static std::size_t size = 0x694;
-  constexpr static std::size_t addrs = 0x23770a4;
+  constexpr static std::size_t size = 0x6a8;
+  constexpr static std::size_t addrs = 0x32a4bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,8 +254,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23756e8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32a32a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,8 +270,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::EncryptBlock)> {
-  constexpr static std::size_t size = 0x96c;
-  constexpr static std::size_t addrs = 0x2377738;
+  constexpr static std::size_t size = 0x974;
+  constexpr static std::size_t addrs = 0x32a527c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -286,8 +286,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine_Threefish1024Cipher::DecryptBlock)> {
-  constexpr static std::size_t size = 0xc00;
-  constexpr static std::size_t addrs = 0x23780a4;
+  constexpr static std::size_t size = 0xc0c;
+  constexpr static std::size_t addrs = 0x32a5bf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,8 +327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::_ctor)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x237551c;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x32a3118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -342,8 +342,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Init)> {
-  constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x2375714;
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x32a32ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -358,8 +358,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(
     bool, ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Init)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x2375b44;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x32a36e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -375,8 +375,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::SetKey)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2375b90;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x32a372c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,8 +390,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::SetTweak)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2375cf0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x32a3888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -405,8 +405,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2375e04;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x32a3998;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::get_IsPartialBlockOkay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2375e8c;
+  constexpr static std::size_t addrs = 0x32a3a10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -438,7 +438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::GetBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2375e94;
+  constexpr static std::size_t addrs = 0x32a3a18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2375e9c;
+  constexpr static std::size_t addrs = 0x32a3a20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -470,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ProcessBlock)> {
   constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x2375ea0;
+  constexpr static std::size_t addrs = 0x32a3a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -485,8 +485,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::*)(
     ::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::ProcessBlock)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x2376070;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x32a3bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -502,7 +502,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::BytesToWord)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x2375a4c;
+  constexpr static std::size_t addrs = 0x32a35ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -518,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::WordToBytes)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x2376190;
+  constexpr static std::size_t addrs = 0x32a3d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -534,7 +534,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::RotlXor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23762c0;
+  constexpr static std::size_t addrs = 0x32a3e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -549,7 +549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t)>(&::Org::BouncyCastle::Crypto::Engines::ThreefishEngine::XorRotr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23762d0;
+  constexpr static std::size_t addrs = 0x32a3e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

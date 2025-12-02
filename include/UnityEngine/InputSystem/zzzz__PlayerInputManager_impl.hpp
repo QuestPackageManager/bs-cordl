@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e2588;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6367408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e2630;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63674b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_splitScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e1924;
+  constexpr static std::size_t addrs = 0x6366798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(bool)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_splitScreen)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x45e192c;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x63667a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_maintainAspectRatioInSplitScreen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e20c4;
+  constexpr static std::size_t addrs = 0x6366ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_fixedNumberOfSplitScreens)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e20cc;
+  constexpr static std::size_t addrs = 0x6366ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -137,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_splitScreenArea)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e20d4;
+  constexpr static std::size_t addrs = 0x6366f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_playerCount)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45e20e0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6366f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_maxPlayerCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e2138;
+  constexpr static std::size_t addrs = 0x6366f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_joiningEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e2140;
+  constexpr static std::size_t addrs = 0x6366f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::PlayerJoinBehavior (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_joinBehavior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e2148;
+  constexpr static std::size_t addrs = 0x6366f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -207,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerJoinBehavior)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_joinBehavior)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45e2150;
+  constexpr static std::size_t addrs = 0x6366f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_joinAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45e2460;
+  constexpr static std::size_t addrs = 0x63672dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_joinAction)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x45e2474;
+  constexpr static std::size_t addrs = 0x63672f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::PlayerNotifications (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_notificationBehavior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e2518;
+  constexpr static std::size_t addrs = 0x6367394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -265,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerNotifications)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_notificationBehavior)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e2520;
+  constexpr static std::size_t addrs = 0x636739c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +279,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::PlayerInputManager_PlayerJoinedEvent* (
     ::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_playerJoinedEvent)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45e2528;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x63673a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -293,8 +293,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::PlayerInputManager_PlayerLeftEvent* (
     ::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_playerLeftEvent)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45e25d0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6367454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -307,8 +307,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(
     ::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(&::UnityEngine::InputSystem::PlayerInputManager::add_onPlayerJoined)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45e2678;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6367504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -322,8 +322,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(
     ::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(&::UnityEngine::InputSystem::PlayerInputManager::remove_onPlayerJoined)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45e2714;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x63675ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,8 +337,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(
     ::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(&::UnityEngine::InputSystem::PlayerInputManager::add_onPlayerLeft)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45e27b0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6367654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,8 +352,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(
     ::System::Action_1<::UnityW<::UnityEngine::InputSystem::PlayerInput>>*)>(&::UnityEngine::InputSystem::PlayerInputManager::remove_onPlayerLeft)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45e284c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x63676fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,7 +368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_playerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e28e8;
+  constexpr static std::size_t addrs = 0x63677a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -382,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::GameObject*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_playerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e28f0;
+  constexpr static std::size_t addrs = 0x63677ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -396,8 +396,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::PlayerInputManager> (*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::get_instance)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e28f8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63677b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -410,8 +410,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::PlayerInputManager*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::set_instance)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45e2940;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6367800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -425,8 +425,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::EnableJoining)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x45e2278;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x63670b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -439,8 +439,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::DisableJoining)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x45e21a0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6366fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -454,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::JoinPlayerFromUI)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45e2990;
+  constexpr static std::size_t addrs = 0x6367854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -467,8 +467,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::PlayerInputManager::JoinPlayerFromAction)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45e2cb4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6367bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -482,8 +482,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::PlayerInputManager::JoinPlayerFromActionIfNotAlreadyJoined)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x45e2dc4;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6367ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -498,8 +498,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::PlayerInput> (::UnityEngine::InputSystem::PlayerInputManager::*)(
     int32_t, int32_t, ::StringW, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::PlayerInputManager::JoinPlayer)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x45e2d08;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6367c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -516,8 +516,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::PlayerInput> (::UnityEngine::InputSystem::PlayerInputManager::*)(
     int32_t, int32_t, ::StringW, ::ArrayW<::UnityEngine::InputSystem::InputDevice*, ::Array<::UnityEngine::InputSystem::InputDevice*>*>)>(
     &::UnityEngine::InputSystem::PlayerInputManager::JoinPlayer)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x45e2eac;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6367ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -533,8 +533,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(&::UnityEngine::InputSystem::PlayerInputManager::get_messages)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45e2f68;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6367ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -547,8 +547,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)(int32_t)>(
     &::UnityEngine::InputSystem::PlayerInputManager::CheckIfPlayerCanJoin)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x45e29dc;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x63678a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -562,8 +562,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::PlayerInputManager::OnUnpairedDeviceUsed)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x45e3004;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6367f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -578,8 +578,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::OnEnable)> {
-  constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x45e3458;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x63683bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -592,8 +592,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::OnDisable)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x45e3798;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6368720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -606,8 +606,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::UpdateSplitScreen)> {
-  constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x45e1b60;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x63669bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -620,8 +620,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::IsDeviceUsableWithPlayerActions)> {
-  constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x45e30b8;
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x636800c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(
     &::UnityEngine::InputSystem::PlayerInputManager::ValidateInputActionAsset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45e298c;
+  constexpr static std::size_t addrs = 0x6367850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(),
@@ -649,8 +649,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerInput*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::NotifyPlayerJoined)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x45dfe50;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6364990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -664,8 +664,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)(::UnityEngine::InputSystem::PlayerInput*)>(
     &::UnityEngine::InputSystem::PlayerInputManager::NotifyPlayerLeft)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x45e07f4;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6365424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -678,8 +678,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PlayerInputManager::*)()>(&::UnityEngine::InputSystem::PlayerInputManager::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x45e3874;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6368818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PlayerInputManager*>::get(), ".ctor",

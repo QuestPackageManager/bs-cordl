@@ -1,18 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/Button.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::Button_ButtonClickedEvent._ctor
@@ -20,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button_ButtonClickedEvent::*)()>(&::UnityEngine::UI::Button_ButtonClickedEvent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4957430;
+  constexpr static std::size_t addrs = 0x69e4628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button_ButtonClickedEvent*>::get(), ".ctor",
@@ -43,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button__OnFinishSubmit_d__9::*)(int32_t)>(
     &::UnityEngine::UI::Button__OnFinishSubmit_d__9::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49575dc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69e47c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button__OnFinishSubmit_d__9::*)()>(
     &::UnityEngine::UI::Button__OnFinishSubmit_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4957604;
+  constexpr static std::size_t addrs = 0x69e47cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button__OnFinishSubmit_d__9*>::get(),
@@ -72,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::Button__OnFinishSubmit_d__9::*)()>(
     &::UnityEngine::UI::Button__OnFinishSubmit_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4957608;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x69e47d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button__OnFinishSubmit_d__9*>::get(),
@@ -87,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UI::Button__OnFinishSubmit_d__9::*)()>(
     &::UnityEngine::UI::Button__OnFinishSubmit_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49576fc;
+  constexpr static std::size_t addrs = 0x69e4914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button__OnFinishSubmit_d__9::*)()>(
     &::UnityEngine::UI::Button__OnFinishSubmit_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4957704;
+  constexpr static std::size_t addrs = 0x69e491c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UI::Button__OnFinishSubmit_d__9::*)()>(
     &::UnityEngine::UI::Button__OnFinishSubmit_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x495773c;
+  constexpr static std::size_t addrs = 0x69e4954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,7 +254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button::*)()>(&::UnityEngine::UI::Button::_ctor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x49573a4;
+  constexpr static std::size_t addrs = 0x69e459c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button*>::get(), ".ctor",
@@ -269,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::Button_ButtonClickedEvent* (::UnityEngine::UI::Button::*)()>(
     &::UnityEngine::UI::Button::get_onClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4957438;
+  constexpr static std::size_t addrs = 0x69e4630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button*>::get(), "get_onClick",
@@ -283,7 +282,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button::*)(::UnityEngine::UI::Button_ButtonClickedEvent*)>(
     &::UnityEngine::UI::Button::set_onClick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4957440;
+  constexpr static std::size_t addrs = 0x69e4638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -296,8 +295,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button::*)()>(&::UnityEngine::UI::Button::Press)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4957448;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x69e4640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button*>::get(), "Press",
@@ -310,8 +309,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::UI::Button::OnPointerClick)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49574e0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x69e46dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -326,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::Button::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::UnityEngine::UI::Button::OnSubmit)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4957504;
+  constexpr static std::size_t addrs = 0x69e46f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -339,8 +338,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UI::Button::*)()>(&::UnityEngine::UI::Button::OnFinishSubmit)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x495757c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x69e4770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::Button*>::get(), "OnFinishSubmit",

@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/PasswordRecipientInfoGenerator.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__PasswordRecipientInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__RecipientInfo_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsEnvelopedHelper_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator._ctor
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::*)()>(
     &::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267cc0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35ac0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::set_KeyDerivationAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267cc14;
+  constexpr static std::size_t addrs = 0x35ac0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::*)(
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(&::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::set_KeyEncryptionKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267cc1c;
+  constexpr static std::size_t addrs = 0x35ac0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::set_KeyEncryptionKeyOID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267cc24;
+  constexpr static std::size_t addrs = 0x35ac0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::RecipientInfo* (
     ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::*)(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator::Generate)> {
-  constexpr static std::size_t size = 0x4a0;
-  constexpr static std::size_t addrs = 0x267cc2c;
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x35ac0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

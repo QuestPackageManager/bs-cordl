@@ -25,10 +25,10 @@ public:
 
   static inline ::System::Net::Configuration::ServicePointManagerElement* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44075b4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61558a0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Properties, addr 0x44075ec, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x61558dc, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Configuration::ConfigurationPropertyCollection* get_Properties();
 
 protected:
@@ -46,7 +46,7 @@ public:
   ServicePointManagerElement(ServicePointManagerElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11804 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

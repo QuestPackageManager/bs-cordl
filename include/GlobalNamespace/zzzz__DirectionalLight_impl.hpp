@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::DirectionalLight>>* (*)()>(
     &::GlobalNamespace::DirectionalLight::get_lights)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39dd16c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5654558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get(), "get_lights",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLight::*)()>(&::GlobalNamespace::DirectionalLight::OnEnable)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39dd1c4;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x56545b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get(), "OnEnable",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLight::*)()>(&::GlobalNamespace::DirectionalLight::OnDisable)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39dd290;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5654688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get(), "OnDisable",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLight::*)()>(&::GlobalNamespace::DirectionalLight::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39dd310;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5654710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLight*>::get(), ".ctor",

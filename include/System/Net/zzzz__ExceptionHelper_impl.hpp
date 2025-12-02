@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_MethodNotImplementedException)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x449eb90;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x61ee4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotImplementedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotImplementedException)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x449eaec;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x61ee450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_TimeoutException)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4498300;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x61e7df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(), "get_TimeoutException",
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::NotSupportedException* (*)()>(&::System::Net::ExceptionHelper::get_PropertyNotSupportedException)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x449d5cc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x61ed088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::ExceptionHelper::get_RequestAbortedException)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x449d2e8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x61e5734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ExceptionHelper*>::get(),

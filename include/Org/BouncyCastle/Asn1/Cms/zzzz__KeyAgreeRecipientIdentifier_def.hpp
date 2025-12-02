@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 CORDL_MODULE_EXPORT(KeyAgreeRecipientIdentifier)
 namespace Org::BouncyCastle::Asn1::Cms {
 class IssuerAndSerialNumber;
@@ -18,6 +17,9 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace System {
 class Object;
 }
@@ -27,7 +29,7 @@ class KeyAgreeRecipientIdentifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Cms.KeyAgreeRecipientIdentifier
@@ -47,17 +49,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2308578, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x32357ec, size 0x14, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2308590, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3235800, size 0x1d0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial);
 
   static inline ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* New_ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method ToAsn1Object, addr 0x23087dc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3235a04, size 0x84, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* const& __cordl_internal_get_issuerSerial() const;
@@ -72,16 +74,16 @@ public:
 
   constexpr void __cordl_internal_set_rKeyID(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x2308764, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32359d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issuerSerial);
 
-  /// @brief Method .ctor, addr 0x23087a4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32359ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method get_IssuerAndSerialNumber, addr 0x23087cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IssuerAndSerialNumber, addr 0x32359f4, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* get_IssuerAndSerialNumber();
 
-  /// @brief Method get_RKeyID, addr 0x23087d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RKeyID, addr 0x32359fc, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* get_RKeyID();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -4,10 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeGPtrArrayHandle)
+namespace System {
+class IDisposable;
+}
 namespace System {
 struct IntPtr;
 }
@@ -17,7 +19,7 @@ struct SafeGPtrArrayHandle;
 }
 // Write type traits
 MARK_VAL_T(::Mono::SafeGPtrArrayHandle);
-// Dependencies Mono.RuntimeGPtrArrayHandle, System.IDisposable
+// Dependencies Mono.RuntimeGPtrArrayHandle
 namespace Mono {
 // Is value type: true
 // CS Name: Mono.SafeGPtrArrayHandle
@@ -31,16 +33,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x3c55d20, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5898bac, size 0x48, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x3c55d00, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5898ba4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_Item, addr 0x3c55d58, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5898c0c, size 0x4, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Item(int32_t i);
 
-  /// @brief Method get_Length, addr 0x3c55d3c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5898bf4, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
   /// @brief Convert to "::System::IDisposable"

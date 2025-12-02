@@ -74,7 +74,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Vector3Field_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4990438, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b07480, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   Vector3Field_UxmlFactory(Vector3Field_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5549 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4161 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,16 +107,16 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE Vector3Field_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<::UnityEngine::Vector3> {
 public:
   // Declarations
-  /// @brief Field m_XValue, offset 0x80, size 0x8
+  /// @brief Field m_XValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_XValue, put = __cordl_internal_set_m_XValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_XValue;
 
-  /// @brief Field m_YValue, offset 0x88, size 0x8
+  /// @brief Field m_YValue, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_YValue, put = __cordl_internal_set_m_YValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_YValue;
 
-  /// @brief Field m_ZValue, offset 0x90, size 0x8
+  /// @brief Field m_ZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ZValue, put = __cordl_internal_set_m_ZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ZValue;
 
-  /// @brief Method Init, addr 0x4990480, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b074e8, size 0x1c8, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Vector3Field_UxmlTraits* New_ctor();
@@ -139,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ZValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x499061c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b076b0, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -157,27 +157,27 @@ public:
   Vector3Field_UxmlTraits(Vector3Field_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4162 };
 
-  /// @brief Field m_XValue, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_XValue, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_XValue;
 
-  /// @brief Field m_YValue, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_YValue, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_YValue;
 
-  /// @brief Field m_ZValue, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field m_ZValue, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_ZValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Vector3Field_UxmlTraits, ___m_XValue) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vector3Field_UxmlTraits, ___m_XValue) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vector3Field_UxmlTraits, ___m_YValue) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vector3Field_UxmlTraits, ___m_YValue) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vector3Field_UxmlTraits, ___m_ZValue) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vector3Field_UxmlTraits, ___m_ZValue) == 0xa8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector3Field_UxmlTraits, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector3Field_UxmlTraits, 0xb0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies System.Object
@@ -216,25 +216,25 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector3Field___c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x4990788, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x6b07824, size 0x4, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_0(::UnityEngine::Vector3 r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x499078c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x6b07828, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(::ByRef<::UnityEngine::Vector3> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x4990794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x6b07830, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_2(::UnityEngine::Vector3 r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x499079c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x6b07838, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(::ByRef<::UnityEngine::Vector3> r, float_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x49907a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x6b07840, size 0x8, virtual false, abstract: false, final false
   inline float_t _DescribeFields_b__0_4(::UnityEngine::Vector3 r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x49907ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x6b07848, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(::ByRef<::UnityEngine::Vector3> r, float_t v);
 
-  /// @brief Method .ctor, addr 0x4990780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b07820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Vector3Field___c* getStaticF___9();
@@ -283,7 +283,7 @@ public:
   Vector3Field___c(Vector3Field___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5551 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4163 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -313,7 +313,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x498fe6c, size 0x4f4, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x6b06f0c, size 0x490, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector3, ::UnityEngine::UIElements::FloatField*, float_t>,
                   ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector3, ::UnityEngine::UIElements::FloatField*, float_t>>*>
   DescribeFields();
@@ -322,10 +322,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector3Field* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x4990360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0739c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498bee4, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b022dc, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -355,12 +355,12 @@ public:
   Vector3Field(Vector3Field const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4164 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector3Field, 0x458>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector3Field, 0x540>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Vector3Field);

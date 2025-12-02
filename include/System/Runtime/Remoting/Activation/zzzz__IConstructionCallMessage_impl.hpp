@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Activation/IConstructionCallMessage.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::IConstructionCallMessage.get_ActivationType

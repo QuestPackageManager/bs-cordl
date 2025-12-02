@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeviceResetEvent.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeviceResetEvent_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DeviceResetEvent.get_typeStatic
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::DeviceResetEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DeviceResetEvent::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4609c9c;
+  constexpr static std::size_t addrs = 0x6390f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeviceResetEvent>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::DeviceResetEvent (*)(int32_t, bool, double_t)>(
     &::UnityEngine::InputSystem::LowLevel::DeviceResetEvent::Create)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4609ca8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6390f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

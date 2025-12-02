@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::RuleMatcher::*)()>(&::UnityEngine::UIElements::RuleMatcher::ToString)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aa0ab4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6a85e84;
 
   inline static ::MethodInfo const* methodInfo() {
 

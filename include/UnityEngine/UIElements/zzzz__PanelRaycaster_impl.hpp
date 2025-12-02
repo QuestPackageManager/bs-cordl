@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/PanelRaycaster.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IRuntimePanelComponent_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelRaycaster_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IRuntimePanelComponent_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::PanelRaycaster.get_panel
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IPanel* (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::get_panel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad6724;
+  constexpr static std::size_t addrs = 0x6be2e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelRaycaster*>::get(), "get_panel",
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelRaycaster::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::PanelRaycaster::set_panel)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ad672c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6be2e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::RegisterCallbacks)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4ad6860;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6be2f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelRaycaster*>::get(),
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::UnregisterCallbacks)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4ad67d0;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6be2ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelRaycaster*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::OnPanelDestroyed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad68f0;
+  constexpr static std::size_t addrs = 0x6be3054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelRaycaster*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::get_selectableGameObject)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4ad68f8;
+  constexpr static std::size_t addrs = 0x6be305c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelRaycaster*>::get(),
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::get_sortOrderPriority)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4ad6910;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6be3074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::get_renderOrderPriority)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4ad698c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6be30fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::UIElements::PanelRaycaster::Raycast)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x4ad6a00;
+  constexpr static std::size_t size = 0x4c8;
+  constexpr static std::size_t addrs = 0x6be3174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::UIElements::PanelRaycaster::*)()>(
     &::UnityEngine::UIElements::PanelRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad6e98;
+  constexpr static std::size_t addrs = 0x6be363c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PanelRaycaster::*)()>(&::UnityEngine::UIElements::PanelRaycaster::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad6ea0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6be3644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PanelRaycaster*>::get(), ".ctor",

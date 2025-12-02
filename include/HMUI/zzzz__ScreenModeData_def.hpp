@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_yOffsetRelativeToHead(float_t value);
 
-  /// @brief Method .ctor, addr 0x228b2f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31cf7c4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation, float_t scale, float_t radius, bool offsetHeightByHeadPos, float_t yOffsetRelativeToHead, float_t minYPos);
 
 protected:
@@ -107,7 +107,7 @@ public:
   ScreenModeData(ScreenModeData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20432 };
 
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___position;

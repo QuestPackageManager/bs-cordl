@@ -28,12 +28,12 @@ public:
   /// @brief Field progressImage, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_progressImage, put = __cordl_internal_set_progressImage)) ::UnityW<::UnityEngine::MeshRenderer> progressImage;
 
-  /// @brief Method Awake, addr 0x403f980, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cf4f7c, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::OVRProgressIndicator* New_ctor();
 
-  /// @brief Method Update, addr 0x403f9a0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cf4f98, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get_currentProgress() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_progressImage(::UnityW<::UnityEngine::MeshRenderer> value);
 
-  /// @brief Method .ctor, addr 0x403fa0c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf501c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   OVRProgressIndicator(OVRProgressIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7943 };
 
   /// @brief Field progressImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ___progressImage;

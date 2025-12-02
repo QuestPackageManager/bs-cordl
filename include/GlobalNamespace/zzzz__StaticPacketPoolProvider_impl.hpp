@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::GlobalNamespace::IPacketPool*>)>(
     &::GlobalNamespace::StaticPacketPoolProvider::TryGetPacketPool)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22cf09c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3210c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

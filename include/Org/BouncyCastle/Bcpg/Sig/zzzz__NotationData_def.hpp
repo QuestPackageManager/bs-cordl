@@ -22,29 +22,29 @@ public:
   // Declarations
   __declspec(property(get = get_IsHumanReadable)) bool IsHumanReadable;
 
-  /// @brief Method CreateData, addr 0x263efb4, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CreateData, addr 0x356eafc, size 0x21c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CreateData(bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method GetNotationName, addr 0x263f204, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetNotationName, addr 0x356ed48, size 0x68, virtual false, abstract: false, final false
   inline ::StringW GetNotationName();
 
-  /// @brief Method GetNotationValue, addr 0x263f270, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method GetNotationValue, addr 0x356edb0, size 0x8c, virtual false, abstract: false, final false
   inline ::StringW GetNotationValue();
 
-  /// @brief Method GetNotationValueBytes, addr 0x263f300, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetNotationValueBytes, addr 0x356ee3c, size 0xc0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetNotationValueBytes();
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::NotationData* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x263ef60, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356eabc, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool humanReadable, ::StringW notationName, ::StringW notationValue);
 
-  /// @brief Method .ctor, addr 0x263ef18, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356eaa4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method get_IsHumanReadable, addr 0x263f1d4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_IsHumanReadable, addr 0x356ed18, size 0x30, virtual false, abstract: false, final false
   inline bool get_IsHumanReadable();
 
 protected:

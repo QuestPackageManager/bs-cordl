@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Net/ListenerAsyncResult.hpp"
-#include "System/zzzz__IAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__ListenerAsyncResult_def.hpp"
 #include "System/Net/zzzz__HttpListenerContext_def.hpp"
@@ -9,14 +8,15 @@
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::ListenerAsyncResult._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::ListenerAsyncResult::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43d05bc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x611bb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::Exception*)>(&::System::Net::ListenerAsyncResult::Complete)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x43d0634;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x611bbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Net::ListenerAsyncResult::InvokeCallback)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x43d081c;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x611bdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::Net::HttpListenerContext*)>(
     &::System::Net::ListenerAsyncResult::Complete)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43d0958;
+  constexpr static std::size_t addrs = 0x611bf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::ListenerAsyncResult::*)(::System::Net::HttpListenerContext*, bool)>(
     &::System::Net::ListenerAsyncResult::Complete)> {
-  constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x43d0960;
+  constexpr static std::size_t size = 0x570;
+  constexpr static std::size_t addrs = 0x611bf2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpListenerContext* (::System::Net::ListenerAsyncResult::*)()>(
     &::System::Net::ListenerAsyncResult::GetContext)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x43d0e7c;
+  constexpr static std::size_t addrs = 0x611c49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "GetContext",
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::ListenerAsyncResult::*)()>(&::System::Net::ListenerAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43d0eb8;
+  constexpr static std::size_t addrs = 0x611c4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "get_AsyncState",
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::Net::ListenerAsyncResult::*)()>(
     &::System::Net::ListenerAsyncResult::get_AsyncWaitHandle)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x43d0ecc;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x611c4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(),
@@ -131,7 +131,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerAsyncResult::*)()>(&::System::Net::ListenerAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43d0ff4;
+  constexpr static std::size_t addrs = 0x611c620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(),
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::ListenerAsyncResult::*)()>(&::System::Net::ListenerAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43d1008;
+  constexpr static std::size_t addrs = 0x611c634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::ListenerAsyncResult*>::get(), "get_IsCompleted",

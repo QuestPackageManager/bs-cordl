@@ -5,8 +5,8 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 CORDL_MODULE_EXPORT(HealthWarningSceneSetupData)
-namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,25 +21,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE HealthWarningSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field _nextScenesTransitionSetupData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextScenesTransitionSetupData, put = __cordl_internal_set__nextScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>
-      _nextScenesTransitionSetupData;
+  /// @brief Field taskCompletionSource, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_taskCompletionSource, put = __cordl_internal_set_taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskCompletionSource;
 
-  __declspec(property(get = get_nextScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
+  static inline ::GlobalNamespace::HealthWarningSceneSetupData* New_ctor();
 
-  static inline ::GlobalNamespace::HealthWarningSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>* const& __cordl_internal_get_taskCompletionSource() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__nextScenesTransitionSetupData() const;
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskCompletionSource();
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__nextScenesTransitionSetupData();
+  constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr void __cordl_internal_set__nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
-
-  /// @brief Method .ctor, addr 0x3b3b0bc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
-
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3b3b0b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
+  /// @brief Method .ctor, addr 0x571e844, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
   // Ctor Parameters []
@@ -56,15 +50,15 @@ public:
   HealthWarningSceneSetupData(HealthWarningSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6818 };
 
-  /// @brief Field _nextScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData;
+  /// @brief Field taskCompletionSource, offset: 0x10, size: 0x8, def value: None
+  ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___taskCompletionSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::HealthWarningSceneSetupData, ____nextScenesTransitionSetupData) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningSceneSetupData, ___taskCompletionSource) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningSceneSetupData, 0x18>, "Size mismatch!");
 

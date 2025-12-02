@@ -138,6 +138,9 @@ public:
   /// @brief Method get_IsString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsString();
 
+  /// @brief Method get_IsUnityObject, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool get_IsUnityObject();
+
   /// @brief Method get_IsValueType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool get_IsValueType();
 
@@ -190,7 +193,7 @@ public:
   TypeTraits_1(TypeTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19390 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

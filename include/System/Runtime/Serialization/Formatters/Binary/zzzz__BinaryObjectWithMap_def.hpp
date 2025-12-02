@@ -49,20 +49,20 @@ public:
   /// @brief Field objectId, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_objectId, put = __cordl_internal_set_objectId)) int32_t objectId;
 
-  /// @brief Method Dump, addr 0x3d013c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5942568, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectWithMap* New_ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
-  /// @brief Method Read, addr 0x3d012b0, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5942414, size 0x154, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3d01178, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x59422dc, size 0x24, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, ::StringW name, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, int32_t assemId);
 
-  /// @brief Method Write, addr 0x3d0119c, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5942300, size 0x114, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_assemId() const;
@@ -101,10 +101,10 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d01148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59422d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d01150, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59422d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum binaryHeaderEnum);
 
 protected:
@@ -122,7 +122,7 @@ public:
   BinaryObjectWithMap(BinaryObjectWithMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3281 };
 
   /// @brief Field binaryHeaderEnum, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::BinaryHeaderEnum ___binaryHeaderEnum;

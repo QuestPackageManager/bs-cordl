@@ -3,16 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -28,6 +18,9 @@ namespace System::Collections::Generic {
 template <typename T> struct HashSet_1_Slot;
 }
 namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
@@ -36,14 +29,32 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ISet_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -86,7 +97,7 @@ public:
   constexpr HashSet_1_ElementCount(int32_t uniqueCount, int32_t unfoundCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16640 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -119,7 +130,7 @@ public:
   constexpr HashSet_1_Slot(int32_t hashCode, int32_t next, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16641 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -137,7 +148,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -195,7 +206,7 @@ public:
   constexpr HashSet_1_Enumerator(::System::Collections::Generic::HashSet_1<T>* _set, int32_t _index, int32_t _version, T _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16642 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -216,8 +227,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.ISet`1<T>,
-// System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -291,6 +301,9 @@ public:
   /// @brief Method AddIfNotPresent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool AddIfNotPresent(T value);
 
+  /// @brief Method AddOrGetLocation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool AddOrGetLocation(T value, ::ByRef<int32_t> location);
+
   /// @brief Method AddValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddValue(int32_t index, int32_t hashCode, T value);
 
@@ -351,6 +364,21 @@ public:
   /// @brief Method IntersectWithHashSetWithSameEC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void IntersectWithHashSetWithSameEC(::System::Collections::Generic::HashSet_1<T>* other);
 
+  /// @brief Method IsProperSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsProperSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsProperSupersetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsProperSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsSubsetOfHashSetWithSameEC, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool IsSubsetOfHashSetWithSameEC(::System::Collections::Generic::HashSet_1<T>* other);
+
+  /// @brief Method IsSupersetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor();
 
   static inline ::System::Collections::Generic::HashSet_1<T>* New_ctor(int32_t capacity);
@@ -368,6 +396,9 @@ public:
   /// @brief Method OnDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
+  /// @brief Method Overlaps, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool Overlaps(::System::Collections::Generic::IEnumerable_1<T>* other);
+
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T item);
 
@@ -379,6 +410,15 @@ public:
 
   /// @brief Method SetEquals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool SetEquals(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method SymmetricExceptWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void SymmetricExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method SymmetricExceptWithEnumerable, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SymmetricExceptWithEnumerable(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method SymmetricExceptWithUniqueHashSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SymmetricExceptWithUniqueHashSet(::System::Collections::Generic::HashSet_1<T>* other);
 
   /// @brief Method System.Collections.Generic.ICollection<T>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_T__Add(T item);
@@ -530,7 +570,7 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16643 };
 
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____buckets;

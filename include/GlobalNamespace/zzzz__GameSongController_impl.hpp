@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameSongController.hpp"
-#include "GlobalNamespace/zzzz__IStartSeekSongController_impl.hpp"
 #include "GlobalNamespace/zzzz__SongController_impl.hpp"
 #include "GlobalNamespace/zzzz__GameSongController_def.hpp"
 #include "GlobalNamespace/zzzz__AudioPitchGainEffect_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksUpdater_def.hpp"
+#include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "UnityEngine/zzzz__WaitUntil_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameSongController.get_songLength
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::get_songLength)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3befc18;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e2c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSongController*>::get(), "get_songLength",
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::WaitUntil* (::GlobalNamespace::GameSongController::*)()>(
     &::GlobalNamespace::GameSongController::get_waitUntilIsReadyToStartTheSong)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3befc34;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e2c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::get_songFailedToLoad)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3befc50;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e2c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSongController*>::get(),
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::LateUpdate)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3befc6c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x57e2c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSongController*>::get(), "LateUpdate",
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)(float_t)>(&::GlobalNamespace::GameSongController::StartSong)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3befcfc;
+  constexpr static std::size_t addrs = 0x57e2d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::StopSong)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3befd5c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e2d94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,8 +94,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::PauseSong)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3befd78;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x57e2dac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,8 +108,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::ResumeSong)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3befda8;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x57e2de0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,8 +122,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::FailStopSong)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3befdd8;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x57e2e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSongController*>::get(), "FailStopSong",
@@ -135,8 +135,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)(float_t)>(&::GlobalNamespace::GameSongController::SeekTo)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3befef0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e2f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,8 +149,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3beff0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e2f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSongController*>::get(), ".ctor",
@@ -162,8 +162,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameSongController::*)()>(&::GlobalNamespace::GameSongController::_FailStopSong_b__16_0)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3beff1c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e2f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameSongController*>::get(),

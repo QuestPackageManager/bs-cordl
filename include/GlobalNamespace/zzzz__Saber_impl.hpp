@@ -6,6 +6,7 @@
 #include "GlobalNamespace/zzzz__SaberMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__SaberTypeObject_def.hpp"
 #include "GlobalNamespace/zzzz__SaberType_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -13,8 +14,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberType (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberType)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bea750;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dd450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_saberType",
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_handlePos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea76c;
+  constexpr static std::size_t addrs = 0x57dd468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_handlePos",
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeTopPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea778;
+  constexpr static std::size_t addrs = 0x57dd474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_saberBladeTopPos",
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeBottomPos)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea784;
+  constexpr static std::size_t addrs = 0x57dd480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_saberBladeBottomPos",
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeTopPosForLogic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea790;
+  constexpr static std::size_t addrs = 0x57dd48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_saberBladeTopPosForLogic",
@@ -79,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_saberBladeBottomPosForLogic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea79c;
+  constexpr static std::size_t addrs = 0x57dd498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(
     &::GlobalNamespace::Saber::get_saberBladeTopPosForVisualEffects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea7a8;
+  constexpr static std::size_t addrs = 0x57dd4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::Saber::*)()>(
     &::GlobalNamespace::Saber::get_saberBladeBottomPosForVisualEffects)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bea7b4;
+  constexpr static std::size_t addrs = 0x57dd4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,8 +123,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_bladeSpeedForLogic)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bea7c0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dd4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_bladeSpeedForLogic",
@@ -135,8 +136,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::get_bladeSpeed)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bea7dc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dd4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_bladeSpeed",
@@ -150,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberMovementData* (::GlobalNamespace::Saber::*)()>(
     &::GlobalNamespace::Saber::get_movementDataForLogic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bea7f8;
+  constexpr static std::size_t addrs = 0x57dd4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "get_movementDataForLogic",
@@ -164,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SaberMovementData* (::GlobalNamespace::Saber::*)()>(
     &::GlobalNamespace::Saber::get_movementDataForVisualEffects)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bea800;
+  constexpr static std::size_t addrs = 0x57dd4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,8 +178,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::ManualUpdate)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3bea808;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57dd4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), "ManualUpdate",
@@ -192,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Saber::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::Saber::OverridePositionAndRotation)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3bea924;
+  constexpr static std::size_t addrs = 0x57dd5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Saber::*)()>(&::GlobalNamespace::Saber::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3bea99c;
+  constexpr static std::size_t addrs = 0x57dd620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Saber*>::get(), ".ctor",
@@ -215,6 +216,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::Saber::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::Saber::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::Saber::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::Saber::__cordl_internal_get__saberBladeTopTransform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____saberBladeTopTransform;

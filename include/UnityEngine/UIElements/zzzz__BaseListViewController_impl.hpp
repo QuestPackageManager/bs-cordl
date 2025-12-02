@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::BaseListViewController::add_itemsSourceSizeChanged)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4975ee8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6a16f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Action*)>(
     &::UnityEngine::UIElements::BaseListViewController::remove_itemsSourceSizeChanged)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4975f84;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6a16ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::BaseListViewController::add_itemsAdded)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4976020;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a170a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::BaseListViewController::remove_itemsAdded)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x49760d0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a17164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::BaseListViewController::add_itemsRemoved)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4976180;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a17224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(
     ::System::Action_1<::System::Collections::Generic::IEnumerable_1<int32_t>*>*)>(&::UnityEngine::UIElements::BaseListViewController::remove_itemsRemoved)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4976230;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a172e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BaseListView* (::UnityEngine::UIElements::BaseListViewController::*)()>(
     &::UnityEngine::UIElements::BaseListViewController::get_baseListView)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49762e0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6a173a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::UnityEngine::UIElements::ReusableCollectionItem*)>(
     &::UnityEngine::UIElements::BaseListViewController::InvokeMakeItem)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x497635c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6a17424;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::UnityEngine::UIElements::ReusableListViewItem*)>(
     &::UnityEngine::UIElements::BaseListViewController::PostInitRegistration)> {
-  constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x4976508;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x6a175dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,13 +146,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.InvokeBindItem
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.SetBindingContext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(
-    ::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::InvokeBindItem)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4976950;
+    ::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::SetBindingContext)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6a179ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,45 +162,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.InvokeBindItem
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(
+    ::UnityEngine::UIElements::ReusableCollectionItem*, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::InvokeBindItem)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6a17ab0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 16));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.NeedsDragHandle
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(
     &::UnityEngine::UIElements::BaseListViewController::NeedsDragHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4976c54;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 22));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.AddItems
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(
-    &::UnityEngine::UIElements::BaseListViewController::AddItems)> {
-  constexpr static std::size_t size = 0x778;
-  constexpr static std::size_t addrs = 0x4976c5c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 23));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.Move
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t, int32_t)>(
-    &::UnityEngine::UIElements::BaseListViewController::Move)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4977684;
+  constexpr static std::size_t addrs = 0x6a17dd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,13 +194,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RemoveItem
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.AddItems
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(
-    &::UnityEngine::UIElements::BaseListViewController::RemoveItem)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4977a54;
+    &::UnityEngine::UIElements::BaseListViewController::AddItems)> {
+  constexpr static std::size_t size = 0x6cc;
+  constexpr static std::size_t addrs = 0x6a17ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,13 +210,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RemoveItems
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.Move
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::List_1<int32_t>*)>(
-    &::UnityEngine::UIElements::BaseListViewController::RemoveItems)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x4977c00;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t, int32_t)>(
+    &::UnityEngine::UIElements::BaseListViewController::Move)> {
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6a18744;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,13 +226,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RemoveItems
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RemoveItem
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(
-    &::UnityEngine::UIElements::BaseListViewController::RemoveItems)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4978044;
+    &::UnityEngine::UIElements::BaseListViewController::RemoveItem)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6a18b1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -258,13 +242,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.ClearItems
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RemoveItems
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(
-    &::UnityEngine::UIElements::BaseListViewController::ClearItems)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4978234;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::List_1<int32_t>*)>(
+    &::UnityEngine::UIElements::BaseListViewController::RemoveItems)> {
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x6a18cc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -274,13 +258,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RemoveItems
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t)>(
+    &::UnityEngine::UIElements::BaseListViewController::RemoveItems)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x6a19140;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 29));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.ClearItems
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(
+    &::UnityEngine::UIElements::BaseListViewController::ClearItems)> {
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x6a19330;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 30));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController.RaiseOnSizeChanged
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(
     &::UnityEngine::UIElements::BaseListViewController::RaiseOnSizeChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4977668;
+  constexpr static std::size_t addrs = 0x6a18728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
@@ -294,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RaiseItemsAdded)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x497764c;
+  constexpr static std::size_t addrs = 0x6a1870c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +325,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RaiseItemsRemoved)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4977e78;
+  constexpr static std::size_t addrs = 0x6a18f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -322,8 +338,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Array*, int32_t)>(&::UnityEngine::UIElements::BaseListViewController::AddToArray)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4977528;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6a1861c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -337,8 +353,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Array*, ::System::Collections::Generic::List_1<int32_t>*)>(
     &::UnityEngine::UIElements::BaseListViewController::RemoveFromArray)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4977e94;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x6a18f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,8 +369,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)(int32_t, int32_t)>(
     &::UnityEngine::UIElements::BaseListViewController::Swap)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x49777f8;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x6a188bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,8 +384,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(
     &::UnityEngine::UIElements::BaseListViewController::EnsureItemSourceCanBeResized)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x49773d4;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6a184a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
@@ -382,8 +398,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseListViewController::*)()>(
     &::UnityEngine::UIElements::BaseListViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49783e0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a194e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(),
@@ -391,16 +407,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController._AddItems_g__IsGenericList_15_0
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseListViewController._AddItems_g__IsGenericList_19_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::UIElements::BaseListViewController::_AddItems_g__IsGenericList_15_0)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x49783f0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::UIElements::BaseListViewController::_AddItems_g__IsGenericList_19_0)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6a194ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), "<AddItems>g__IsGenericList|15_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), "<AddItems>g__IsGenericList|19_0",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
     return ___internal_method;
   }
@@ -493,44 +509,49 @@ inline void UnityEngine::UIElements::BaseListViewController::PostInitRegistratio
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ReusableListViewItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, listItem);
 }
-inline void UnityEngine::UIElements::BaseListViewController::InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index) {
+inline void UnityEngine::UIElements::BaseListViewController::SetBindingContext(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reusableItem, index);
 }
+inline void UnityEngine::UIElements::BaseListViewController::InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reusableItem, index);
+}
 inline bool UnityEngine::UIElements::BaseListViewController::NeedsDragHandle(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, index);
 }
 inline void UnityEngine::UIElements::BaseListViewController::AddItems(int32_t itemCount) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemCount);
 }
 inline void UnityEngine::UIElements::BaseListViewController::Move(int32_t index, int32_t newIndex) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, newIndex);
 }
 inline void UnityEngine::UIElements::BaseListViewController::RemoveItem(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
 }
 inline void UnityEngine::UIElements::BaseListViewController::RemoveItems(::System::Collections::Generic::List_1<int32_t>* indices) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indices);
 }
 inline void UnityEngine::UIElements::BaseListViewController::RemoveItems(int32_t itemCount) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, itemCount);
 }
 inline void UnityEngine::UIElements::BaseListViewController::ClearItems() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseListViewController::RaiseOnSizeChanged() {
@@ -579,9 +600,9 @@ inline void UnityEngine::UIElements::BaseListViewController::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::BaseListViewController::_AddItems_g__IsGenericList_15_0(::System::Type* t) {
+inline bool UnityEngine::UIElements::BaseListViewController::_AddItems_g__IsGenericList_19_0(::System::Type* t) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), "<AddItems>g__IsGenericList|15_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseListViewController*>::get(), "<AddItems>g__IsGenericList|19_0",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, t);
 }

@@ -1,13 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/Shapes/ProBuilderShape.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PivotLocation_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__ProBuilderShape_def.hpp"
 #include "UnityEngine/ProBuilder/Shapes/zzzz__Shape_def.hpp"
-#include "UnityEngine/ProBuilder/zzzz__PivotLocation_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ProBuilderMesh_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
@@ -18,113 +16,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Shapes::Shape* (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4752314;
+  constexpr static std::size_t addrs = 0x64e91bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
                                                                                "get_shape", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.set_shape
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_shape)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x475231c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_shape", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Shapes::Shape*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_pivotLocation
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::PivotLocation (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_pivotLocation)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4752324;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                               "get_pivotLocation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.set_pivotLocation
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::ProBuilder::PivotLocation)>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_pivotLocation)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x475232c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_pivotLocation", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::PivotLocation>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_pivotLocalPosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_pivotLocalPosition)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4752334;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                               "get_pivotLocalPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.set_pivotLocalPosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Vector3)>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_pivotLocalPosition)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4752340;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_pivotLocalPosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_pivotGlobalPosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_pivotGlobalPosition)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x475234c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                               "get_pivotGlobalPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.set_pivotGlobalPosition
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Vector3)>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_pivotGlobalPosition)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4752478;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_pivotGlobalPosition", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -134,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_size)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47524d8;
+  constexpr static std::size_t addrs = 0x64e91c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -147,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_size)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47524e4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x64e91d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,32 +53,46 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_rotation
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_shapeRotation
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_rotation)> {
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47525a0;
+  constexpr static std::size_t addrs = 0x64e9290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                               "get_rotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_shapeRotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.set_rotation
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.set_shapeRotation
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Quaternion)>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_rotation)> {
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_shapeRotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47525ac;
+  constexpr static std::size_t addrs = 0x64e929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_rotation", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_shapeRotation", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_shapeWorldCenter
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeWorldCenter)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x64e92a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
+                                                                               "get_shapeWorldCenter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -191,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_editionBounds)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47525b8;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x64e92d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -200,17 +110,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_shapeBox
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_shapeLocalBounds
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeBox)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4752674;
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeLocalBounds)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x64e938c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                               "get_shapeBox", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_shapeLocalBounds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.get_shapeWorldBounds
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeWorldBounds)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x64e93c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
+                                                                               "get_shapeWorldBounds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -220,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_isEditable)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4752688;
+  constexpr static std::size_t addrs = 0x64e9408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -233,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_mesh)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4752380;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x64e9430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -247,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::OnValidate)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47526b0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x64e9534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -256,17 +180,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.UpdateComponent
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.UpdateShape
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateComponent)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4752754;
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateShape)> {
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x64e95dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                               "UpdateComponent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "UpdateShape", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -275,8 +199,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Bounds)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateBounds)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4752b38;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x64e9874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -289,16 +213,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(
-    ::UnityEngine::Bounds, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4752bc8;
+    ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x64e9758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "Rebuild", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.Rebuild
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Bounds, ::UnityEngine::Quaternion)>(
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x64e9a90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "Rebuild", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
     return ___internal_method;
   }
 };
@@ -307,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4752998;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x64e993c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -319,16 +259,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.SetShape
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(
-    ::UnityEngine::ProBuilder::Shapes::Shape*, ::UnityEngine::ProBuilder::PivotLocation)>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::SetShape)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4752ed8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::ProBuilder::Shapes::Shape*)>(
+    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::SetShape)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x64e9b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "SetShape", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Shapes::Shape*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::PivotLocation>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Shapes::Shape*>::get() })));
     return ___internal_method;
   }
 };
@@ -337,8 +276,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::RotateInsideBounds)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x475304c;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x64e9c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,46 +286,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.ResetPivot
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(
-    ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(&::UnityEngine::ProBuilder::Shapes::ProBuilderShape::ResetPivot)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x4752788;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "ResetPivot", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape.RebuildPivot
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
-    &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::RebuildPivot)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x4752ca4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "RebuildPivot", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Shapes::ProBuilderShape._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::ProBuilderShape::*)()>(
     &::UnityEngine::ProBuilder::Shapes::ProBuilderShape::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4753120;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x64e9de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -406,29 +312,17 @@ constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Shape)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Size() {
+constexpr ::UnityEngine::Quaternion& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_ShapeRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Size;
+  return this->___m_ShapeRotation;
 }
-constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Size() const {
+constexpr ::UnityEngine::Quaternion const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_ShapeRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Size;
+  return this->___m_ShapeRotation;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_Size(::UnityEngine::Vector3 value) {
+constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_ShapeRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Size = value;
-}
-constexpr ::UnityEngine::Quaternion& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Rotation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Rotation;
-}
-constexpr ::UnityEngine::Quaternion const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Rotation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Rotation;
-}
-constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_Rotation(::UnityEngine::Quaternion value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_Rotation = value;
+  this->___m_ShapeRotation = value;
 }
 constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Mesh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -442,30 +336,6 @@ constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::ProBuilder::PivotLocation& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_PivotLocation() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PivotLocation;
-}
-constexpr ::UnityEngine::ProBuilder::PivotLocation const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_PivotLocation() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PivotLocation;
-}
-constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_PivotLocation(::UnityEngine::ProBuilder::PivotLocation value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PivotLocation = value;
-}
-constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_PivotPosition() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PivotPosition;
-}
-constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_PivotPosition() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_PivotPosition;
-}
-constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_PivotPosition(::UnityEngine::Vector3 value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_PivotPosition = value;
-}
 constexpr uint16_t& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_UnmodifiedMeshVersion() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_UnmodifiedMeshVersion;
@@ -477,6 +347,18 @@ constexpr uint16_t const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__co
 constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_UnmodifiedMeshVersion(uint16_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_UnmodifiedMeshVersion = value;
+}
+constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Size() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Size;
+}
+constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_Size() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Size;
+}
+constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_Size(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Size = value;
 }
 constexpr ::UnityEngine::Bounds& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_EditionBounds() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -490,61 +372,22 @@ constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_EditionBounds = value;
 }
-constexpr ::UnityEngine::Bounds& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_ShapeBox() {
+constexpr ::UnityEngine::Vector3& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_LocalCenter() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ShapeBox;
+  return this->___m_LocalCenter;
 }
-constexpr ::UnityEngine::Bounds const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_ShapeBox() const {
+constexpr ::UnityEngine::Vector3 const& UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_get_m_LocalCenter() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ShapeBox;
+  return this->___m_LocalCenter;
 }
-constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_ShapeBox(::UnityEngine::Bounds value) {
+constexpr void UnityEngine::ProBuilder::Shapes::ProBuilderShape::__cordl_internal_set_m_LocalCenter(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ShapeBox = value;
+  this->___m_LocalCenter = value;
 }
 inline ::UnityEngine::ProBuilder::Shapes::Shape* UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shape() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
                                                                              "get_shape", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Shapes::Shape*, false>(this, ___internal_method);
-}
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_shape(::UnityEngine::ProBuilder::Shapes::Shape* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_shape", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Shapes::Shape*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::ProBuilder::PivotLocation UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_pivotLocation() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                             "get_pivotLocation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::PivotLocation, false>(this, ___internal_method);
-}
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_pivotLocation(::UnityEngine::ProBuilder::PivotLocation value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_pivotLocation", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::PivotLocation>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_pivotLocalPosition() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                             "get_pivotLocalPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
-}
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_pivotLocalPosition(::UnityEngine::Vector3 value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_pivotLocalPosition", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_pivotGlobalPosition() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                             "get_pivotGlobalPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
-}
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_pivotGlobalPosition(::UnityEngine::Vector3 value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_pivotGlobalPosition", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_size() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
@@ -557,25 +400,35 @@ inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_size(::UnityEn
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityEngine::Quaternion UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_rotation() {
+inline ::UnityEngine::Quaternion UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeRotation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                             "get_rotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_shapeRotation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion, false>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_rotation(::UnityEngine::Quaternion value) {
+inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::set_shapeRotation(::UnityEngine::Quaternion value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_rotation", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "set_shapeRotation", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector3 UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeWorldCenter() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
+                                                                             "get_shapeWorldCenter", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_editionBounds() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
                                                                              "get_editionBounds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeBox() {
+inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeLocalBounds() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                             "get_shapeBox", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_shapeLocalBounds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Bounds UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_shapeWorldBounds() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
+                                                                             "get_shapeWorldBounds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Bounds, false>(this, ___internal_method);
 }
 inline bool UnityEngine::ProBuilder::Shapes::ProBuilderShape::get_isEditable() {
@@ -593,9 +446,9 @@ inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::OnValidate() {
                                                                              "OnValidate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateComponent() {
+inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateShape() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
-                                                                             "UpdateComponent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "UpdateShape", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateBounds(::UnityEngine::Bounds bounds) {
@@ -604,46 +457,37 @@ inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::UpdateBounds(::Uni
                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bounds);
 }
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild(::UnityEngine::Bounds bounds, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 cornerPivot) {
+inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild(::UnityEngine::Vector3 pivotPosition, ::UnityEngine::Quaternion rotation, ::UnityEngine::Bounds bounds) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "Rebuild", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bounds, rotation, cornerPivot);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pivotPosition, rotation, bounds);
+}
+inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild(::UnityEngine::Bounds bounds, ::UnityEngine::Quaternion rotation) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "Rebuild", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bounds, rotation);
 }
 inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::Rebuild() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),
                                                                              "Rebuild", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::SetShape(::UnityEngine::ProBuilder::Shapes::Shape* shape, ::UnityEngine::ProBuilder::PivotLocation location) {
+inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::SetShape(::UnityEngine::ProBuilder::Shapes::Shape* shape) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "SetShape", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Shapes::Shape*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::PivotLocation>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shape, location);
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Shapes::Shape*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shape);
 }
 inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::RotateInsideBounds(::UnityEngine::Quaternion deltaRotation) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "RotateInsideBounds", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deltaRotation);
-}
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::ResetPivot(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "ResetPivot", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mesh, size, rotation);
-}
-inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::RebuildPivot(::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(), "RebuildPivot", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, size, rotation);
 }
 inline void UnityEngine::ProBuilder::Shapes::ProBuilderShape::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::ProBuilderShape*>::get(),

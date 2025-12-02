@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorType (::GlobalNamespace::SliderInteractionManager::*)()>(
     &::GlobalNamespace::SliderInteractionManager::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7af54;
+  constexpr static std::size_t addrs = 0x5766834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SliderInteractionManager::*)()>(
     &::GlobalNamespace::SliderInteractionManager::get_saberInteractionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7af5c;
+  constexpr static std::size_t addrs = 0x576683c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(float_t)>(
     &::GlobalNamespace::SliderInteractionManager::set_saberInteractionParam)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7af64;
+  constexpr static std::size_t addrs = 0x5766844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*)>(&::GlobalNamespace::SliderInteractionManager::add_sliderWasAddedToActiveSlidersEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7ab98;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5766430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::SliderInteractionManager>, float_t>*)>(&::GlobalNamespace::SliderInteractionManager::remove_sliderWasAddedToActiveSlidersEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7addc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x576669c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*)>(&::GlobalNamespace::SliderInteractionManager::add_allSliderWereRemovedFromActiveSlidersEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7ac48;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57664f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::SliderInteractionManager>>*)>(&::GlobalNamespace::SliderInteractionManager::remove_allSliderWereRemovedFromActiveSlidersEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b7ae8c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x576675c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,8 +119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)()>(&::GlobalNamespace::SliderInteractionManager::Start)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b7af6c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x576684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "Start",
@@ -132,8 +132,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)()>(&::GlobalNamespace::SliderInteractionManager::OnDestroy)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3b7b044;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5766930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "OnDestroy",
@@ -145,8 +145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)()>(&::GlobalNamespace::SliderInteractionManager::Update)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3b7b12c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5766a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), "Update",
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::SliderInteractionManager::AddActiveSlider)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3b7b290;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x5766b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,8 +174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::SliderInteractionManager::RemoveActiveSlider)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b7b4b0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5766d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::SliderInteractionManager::HandleSliderWasSpawned)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b7b54c;
+  constexpr static std::size_t addrs = 0x5766df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)(::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::SliderInteractionManager::HandleSliderWasDespawned)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b7b580;
+  constexpr static std::size_t addrs = 0x5766e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,8 +218,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderInteractionManager::*)()>(&::GlobalNamespace::SliderInteractionManager::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b7b5b4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5766e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderInteractionManager*>::get(), ".ctor",

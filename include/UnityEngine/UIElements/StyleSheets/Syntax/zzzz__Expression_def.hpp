@@ -88,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType value);
 
-  /// @brief Method .ctor, addr 0x49de004, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ae72e8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType type);
 
 protected:
@@ -106,7 +106,7 @@ public:
   Expression(Expression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::UIElements::StyleSheets::Syntax::ExpressionType ___type;

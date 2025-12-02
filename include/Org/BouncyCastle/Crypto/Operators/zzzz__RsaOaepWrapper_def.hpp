@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyUnwrapper_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RsaOaepWrapper)
@@ -23,6 +21,12 @@ class IBlockResult;
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class IKeyUnwrapper;
+}
+namespace Org::BouncyCastle::Crypto {
+class IKeyWrapper;
+}
 namespace System {
 class Object;
 }
@@ -32,7 +36,7 @@ class RsaOaepWrapper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper);
-// Dependencies Org.BouncyCastle.Crypto.IKeyUnwrapper, Org.BouncyCastle.Crypto.IKeyWrapper, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.RsaOaepWrapper
@@ -56,10 +60,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper* New_ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters,
                                                                                  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Unwrap, addr 0x23b24f4, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Unwrap, addr 0x32e0724, size 0x100, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> cipherText, int32_t offset, int32_t length);
 
-  /// @brief Method Wrap, addr 0x23b25f4, size 0x100, virtual true, abstract: false, final true
+  /// @brief Method Wrap, addr 0x32e0824, size 0xf8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IBlockResult* Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> keyData);
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_algId() const;
@@ -74,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_engine(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* value);
 
-  /// @brief Method .ctor, addr 0x23b224c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e04a8, size 0x274, virtual false, abstract: false, final false
   inline void _ctor(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x23b24ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x32e071c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IKeyUnwrapper"

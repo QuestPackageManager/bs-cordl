@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusAnalyticsModel.hpp"
-#include "GlobalNamespace/zzzz__IAnalyticsModel_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusAnalyticsModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatSaberSessionEventType_def.hpp"
+#include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusAnalyticsModel.get_supportsOpenDataPrivacyPage
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusAnalyticsModel::*)()>(
     &::GlobalNamespace::OculusAnalyticsModel::get_supportsOpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2275764;
+  constexpr static std::size_t addrs = 0x31bdce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::OpenDataPrivacyPage)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227576c;
+  constexpr static std::size_t addrs = 0x31bdcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAnalyticsModel*>::get(),
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogEvent)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2275770;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x31bdcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(::GlobalNamespace::BeatSaberSessionEventType, int32_t)>(
     &::GlobalNamespace::OculusAnalyticsModel::LogSessionEvent)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x227588c;
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x31bde40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogEditAvatarEvent)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2275a6c;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x31be090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogClick)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2275b88;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x31be1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogImpression)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2275c18;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x31be290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,8 +118,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)(
     ::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(&::GlobalNamespace::OculusAnalyticsModel::LogExposure)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2275ca8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x31be344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusAnalyticsModel::*)()>(&::GlobalNamespace::OculusAnalyticsModel::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2275d38;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31be3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusAnalyticsModel*>::get(), ".ctor",

@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUILayoutOption::*)(::UnityEngine::GUILayoutOption_Type, ::System::Object*)>(
     &::UnityEngine::GUILayoutOption::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x48dbea4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6911740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

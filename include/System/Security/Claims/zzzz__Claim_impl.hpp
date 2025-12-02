@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Security::Claims::ClaimsIdentity*)>(&::System::Security::Claims::Claim::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cb8de0;
+  constexpr static std::size_t addrs = 0x58fcb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Security::Claims::ClaimsIdentity*, ::StringW, ::StringW)>(&::System::Security::Claims::Claim::_ctor)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3cbd954;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x5901398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Security::Claims::Claim::*)(::System::Security::Claims::Claim*, ::System::Security::Claims::ClaimsIdentity*)>(&::System::Security::Claims::Claim::_ctor)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3cbdcb8;
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x5901704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Security::Claims::Claim::OnDeserializedMethod)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cbdfb0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5901a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (::System::Security::Claims::Claim::*)()>(
     &::System::Security::Claims::Claim::get_Properties)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3cbdb90;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x59015b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Properties",
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Claims::Claim::*)()>(
     &::System::Security::Claims::Claim::get_Subject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbe008;
+  constexpr static std::size_t addrs = 0x5901a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Subject",
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Claims::Claim::*)(::System::Security::Claims::ClaimsIdentity*)>(
     &::System::Security::Claims::Claim::set_Subject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbe010;
+  constexpr static std::size_t addrs = 0x5901a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::Claim::*)()>(&::System::Security::Claims::Claim::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbe018;
+  constexpr static std::size_t addrs = 0x5901a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Type",
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::Claim::*)()>(&::System::Security::Claims::Claim::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbe020;
+  constexpr static std::size_t addrs = 0x5901a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Claims::Claim*>::get(), "get_Value",
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Claims::Claim* (::System::Security::Claims::Claim::*)(::System::Security::Claims::ClaimsIdentity*)>(&::System::Security::Claims::Claim::Clone)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cbe028;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5901a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,8 +163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Claims::Claim::*)()>(&::System::Security::Claims::Claim::ToString)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cbe090;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5901af0;
 
   inline static ::MethodInfo const* methodInfo() {
 

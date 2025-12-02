@@ -24,15 +24,14 @@ public:
   /// @brief Nested struct __SelectMode_Unwrapped
   enum struct __SelectMode_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
-    __E_Object = static_cast<int32_t>(0x1),
-    __E_Vertex = static_cast<int32_t>(0x2),
-    __E_Edge = static_cast<int32_t>(0x4),
-    __E_Face = static_cast<int32_t>(0x8),
-    __E_TextureFace = static_cast<int32_t>(0x10),
-    __E_TextureEdge = static_cast<int32_t>(0x20),
-    __E_TextureVertex = static_cast<int32_t>(0x40),
-    __E_InputTool = static_cast<int32_t>(0x80),
-    __E_Any = static_cast<int32_t>(0xffff),
+    __E_Vertex = static_cast<int32_t>(0x1),
+    __E_Edge = static_cast<int32_t>(0x2),
+    __E_Face = static_cast<int32_t>(0x4),
+    __E_TextureVertex = static_cast<int32_t>(0x8),
+    __E_TextureEdge = static_cast<int32_t>(0x10),
+    __E_TextureFace = static_cast<int32_t>(0x20),
+    __E_InputTool = static_cast<int32_t>(0x40),
+    __E_Any = static_cast<int32_t>(0xff),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,38 +51,35 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr SelectMode(int32_t value__) noexcept;
 
-  /// @brief Field Any value: I32(65535)
+  /// @brief Field Any value: I32(255)
   static ::UnityEngine::ProBuilder::SelectMode const Any;
 
-  /// @brief Field Edge value: I32(4)
+  /// @brief Field Edge value: I32(2)
   static ::UnityEngine::ProBuilder::SelectMode const Edge;
 
-  /// @brief Field Face value: I32(8)
+  /// @brief Field Face value: I32(4)
   static ::UnityEngine::ProBuilder::SelectMode const Face;
 
-  /// @brief Field InputTool value: I32(128)
+  /// @brief Field InputTool value: I32(64)
   static ::UnityEngine::ProBuilder::SelectMode const InputTool;
 
   /// @brief Field None value: I32(0)
   static ::UnityEngine::ProBuilder::SelectMode const None;
 
-  /// @brief Field Object value: I32(1)
-  static ::UnityEngine::ProBuilder::SelectMode const Object;
-
-  /// @brief Field TextureEdge value: I32(32)
+  /// @brief Field TextureEdge value: I32(16)
   static ::UnityEngine::ProBuilder::SelectMode const TextureEdge;
 
-  /// @brief Field TextureFace value: I32(16)
+  /// @brief Field TextureFace value: I32(32)
   static ::UnityEngine::ProBuilder::SelectMode const TextureFace;
 
-  /// @brief Field TextureVertex value: I32(64)
+  /// @brief Field TextureVertex value: I32(8)
   static ::UnityEngine::ProBuilder::SelectMode const TextureVertex;
 
-  /// @brief Field Vertex value: I32(2)
+  /// @brief Field Vertex value: I32(1)
   static ::UnityEngine::ProBuilder::SelectMode const Vertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16718 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

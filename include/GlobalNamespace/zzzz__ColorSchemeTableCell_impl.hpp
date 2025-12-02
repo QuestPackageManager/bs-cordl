@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeTableCell::*)(::StringW)>(&::GlobalNamespace::ColorSchemeTableCell::set_text)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bf9c84;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57ed85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::ColorSchemeTableCell::*)()>(&::GlobalNamespace::ColorSchemeTableCell::get_text)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bf9f78;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57edb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeTableCell*>::get(), "get_text",
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeTableCell::*)(bool)>(
     &::GlobalNamespace::ColorSchemeTableCell::set_showEditIcon)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bf9c64;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57ed840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSchemeTableCell::SetColors)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bf9ca8;
+  constexpr static std::size_t addrs = 0x57ed87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeTableCell::*)()>(&::GlobalNamespace::ColorSchemeTableCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf9f9c;
+  constexpr static std::size_t addrs = 0x57edb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorSchemeTableCell*>::get(), ".ctor",

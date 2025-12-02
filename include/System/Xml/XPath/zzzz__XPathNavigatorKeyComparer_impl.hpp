@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XPath/XPathNavigatorKeyComparer.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigatorKeyComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::XPath::XPathNavigatorKeyComparer.System_Collections_IEqualityComparer_Equals
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XPath::XPathNavigatorKeyComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::XPath::XPathNavigatorKeyComparer::System_Collections_IEqualityComparer_Equals)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43667f0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x60cdf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XPath::XPathNavigatorKeyComparer*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XPath::XPathNavigatorKeyComparer::*)(::System::Object*)>(
     &::System::Xml::XPath::XPathNavigatorKeyComparer::System_Collections_IEqualityComparer_GetHashCode)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x43668cc;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x60ce000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathNavigatorKeyComparer::*)()>(
     &::System::Xml::XPath::XPathNavigatorKeyComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43667e8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60cdf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XPath::XPathNavigatorKeyComparer*>::get(), ".ctor",

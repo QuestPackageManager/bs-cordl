@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Animations/AnimatorControllerPlayable.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimatorControllerPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Animations::AnimatorControllerPlayable._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimatorControllerPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Animations::AnimatorControllerPlayable::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4857334;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6811fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Animations::AnimatorControllerPlayable::*)()>(
     &::UnityEngine::Animations::AnimatorControllerPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4857514;
+  constexpr static std::size_t addrs = 0x6812208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimatorControllerPlayable>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimatorControllerPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Animations::AnimatorControllerPlayable::SetHandle)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x48573d0;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x6812088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Animations::AnimatorControllerPlayable::*)(
     ::UnityEngine::Animations::AnimatorControllerPlayable)>(&::UnityEngine::Animations::AnimatorControllerPlayable::Equals)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4857520;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6812214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

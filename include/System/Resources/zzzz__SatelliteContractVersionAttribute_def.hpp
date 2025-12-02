@@ -19,6 +19,8 @@ namespace System::Resources {
 class CORDL_TYPE SatelliteContractVersionAttribute : public ::System::Attribute {
 public:
   // Declarations
+  __declspec(property(get = get_Version)) ::StringW Version;
+
   /// @brief Field <Version>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Version_k__BackingField, put = __cordl_internal_set__Version_k__BackingField)) ::StringW _Version_k__BackingField;
 
@@ -30,8 +32,11 @@ public:
 
   constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d1ca18, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595e4c4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW version);
+
+  /// @brief Method get_Version, addr 0x595e51c, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_Version();
 
 protected:
   // Ctor Parameters []
@@ -48,7 +53,7 @@ public:
   SatelliteContractVersionAttribute(SatelliteContractVersionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3429 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3449 };
 
   /// @brief Field <Version>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Version_k__BackingField;

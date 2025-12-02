@@ -3,14 +3,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SecureRandomProvider_def.hpp"
 #include "GlobalNamespace/zzzz__SecureRandomProvider_def.hpp"
-#include "System/Security/Cryptography/zzzz__RNGCryptoServiceProvider_def.hpp"
+#include "System/Security/Cryptography/zzzz__RandomNumberGenerator_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SecureRandomProvider_SecureRandomState.GetBytes
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::GlobalNamespace::SecureRandomProvider_SecureRandomState::GetBytes)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22e6ab4;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x321a7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::GetByte)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22e6bcc;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x321a8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::FillBuffer)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22e6e78;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x321ab70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SecureRandomProvider_SecureRandomState::*)()>(
     &::GlobalNamespace::SecureRandomProvider_SecureRandomState::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22e6dd4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x321aaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,15 +65,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider*& GlobalNamespace::SecureRandomProvider_SecureRandomState::__cordl_internal_get__random() {
+constexpr ::System::Security::Cryptography::RandomNumberGenerator*& GlobalNamespace::SecureRandomProvider_SecureRandomState::__cordl_internal_get__random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider* const& GlobalNamespace::SecureRandomProvider_SecureRandomState::__cordl_internal_get__random() const {
+constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& GlobalNamespace::SecureRandomProvider_SecureRandomState::__cordl_internal_get__random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr void GlobalNamespace::SecureRandomProvider_SecureRandomState::__cordl_internal_set__random(::System::Security::Cryptography::RNGCryptoServiceProvider* value) {
+constexpr void GlobalNamespace::SecureRandomProvider_SecureRandomState::__cordl_internal_set__random(::System::Security::Cryptography::RandomNumberGenerator* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(int32_t)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x22e6a0c;
+  constexpr static std::size_t addrs = 0x321a730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)()>(&::GlobalNamespace::SecureRandomProvider::GetByte)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22e6b6c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x321a888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SecureRandomProvider*>::get(), "GetByte",
@@ -172,8 +172,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::GlobalNamespace::SecureRandomProvider::GetBytes)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22e6c74;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x321a980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,8 +187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::SecureRandomProvider::GetBytes)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22e6cf4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x321aa04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

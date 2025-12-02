@@ -56,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set__processGuid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ce2b80, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5925028, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(int32_t domainId);
 
-  /// @brief Method get_DomainID, addr 0x3ce2c28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DomainID, addr 0x59250b4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DomainID();
 
-  /// @brief Method get_ProcessID, addr 0x3ce2c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessID, addr 0x59250bc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ProcessID();
 
 protected:
@@ -80,7 +80,7 @@ public:
   CrossAppDomainData(CrossAppDomainData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3131 };
 
   /// @brief Field _ContextID, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____ContextID;

@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(FocusOutEvent)
 namespace UnityEngine::UIElements {
 class FocusOutEvent___c;
 }
+namespace UnityEngine::UIElements {
+class IPanel;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class FocusOutEvent;
@@ -31,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a28cbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b685d4, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a28cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b685d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent___c* getStaticF___9();
@@ -56,7 +59,7 @@ public:
   FocusOutEvent___c(FocusOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4467 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,15 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::FocusOutEvent___c;
 
-  /// @brief Method Init, addr 0x4a28ba4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b68280, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a28bf8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b682d8, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a28c04, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6b6833c, size 0x8c, virtual true, abstract: false, final false
+  inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method .ctor, addr 0x6b682e4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,12 +105,12 @@ public:
   FocusOutEvent(FocusOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4468 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusOutEvent, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusOutEvent, 0x88>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::FocusOutEvent);

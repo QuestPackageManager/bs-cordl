@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::UnityEngine::ProBuilder::Shapes::Shape::*)(
     ::UnityEngine::ProBuilder::ProBuilderMesh*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Bounds)>(&::UnityEngine::ProBuilder::Shapes::Shape::UpdateBounds)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47531f8;
+  constexpr static std::size_t addrs = 0x64e9eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Shapes::Shape::*)()>(&::UnityEngine::ProBuilder::Shapes::Shape::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474d498;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64e4354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Shapes::Shape*>::get(), ".ctor",

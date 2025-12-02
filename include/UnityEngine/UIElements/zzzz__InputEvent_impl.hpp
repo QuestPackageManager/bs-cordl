@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent___c::*)()>(&::UnityEngine::UIElements::InputEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a29fe0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b68f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent___c*>::get(), ".ctor",
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::InputEvent* (::UnityEngine::UIElements::InputEvent___c::*)()>(
     &::UnityEngine::UIElements::InputEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a29fe8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b68f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent___c*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::InputEvent::set_previousData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a29e0c;
+  constexpr static std::size_t addrs = 0x6b68db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)(::StringW)>(&::UnityEngine::UIElements::InputEvent::set_newData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a29e14;
+  constexpr static std::size_t addrs = 0x6b68db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,13 +87,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)()>(&::UnityEngine::UIElements::InputEvent::Init)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a29e1c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6b68dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)()>(&::UnityEngine::UIElements::InputEvent::LocalInit)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a29e74;
+  constexpr static std::size_t addrs = 0x6b68e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), "LocalInit",
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::InputEvent* (*)(::StringW, ::StringW)>(
     &::UnityEngine::UIElements::InputEvent::GetPooled)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a29e84;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6b68e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::InputEvent::*)()>(&::UnityEngine::UIElements::InputEvent::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a29f08;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6b68eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), ".ctor",
@@ -176,7 +176,7 @@ inline void UnityEngine::UIElements::InputEvent::set_newData(::StringW value) {
 }
 inline void UnityEngine::UIElements::InputEvent::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::InputEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::InputEvent::LocalInit() {

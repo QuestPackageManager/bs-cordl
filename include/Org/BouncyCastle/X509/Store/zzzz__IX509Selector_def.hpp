@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ICloneable_def.hpp"
 CORDL_MODULE_EXPORT(IX509Selector)
+namespace System {
+class ICloneable;
+}
 namespace System {
 class Object;
 }
@@ -14,7 +16,7 @@ class IX509Selector;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::IX509Selector);
-// Dependencies System.ICloneable
+// Dependencies
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: Org.BouncyCastle.X509.Store.IX509Selector

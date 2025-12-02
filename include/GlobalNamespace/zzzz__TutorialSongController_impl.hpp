@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_InitData::*)(float_t, ::GlobalNamespace::BeatmapData*)>(
     &::GlobalNamespace::TutorialSongController_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bf3320;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x57e6444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::get_isFinished)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bf2d88;
+  constexpr static std::size_t addrs = 0x57e5ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::get_allIsOK)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bf2da0;
+  constexpr static std::size_t addrs = 0x57e5ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::get_missedAny)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf2f4c;
+  constexpr static std::size_t addrs = 0x57e609c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)(
     int32_t, ::GlobalNamespace::SequenceCutInfo_TutorialSongController_NoteType)>(&::GlobalNamespace::TutorialSongController_SequenceCutInfo::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bf3024;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e6168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)(::ByRef<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::MarkCut)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3bf2cd0;
+  constexpr static std::size_t addrs = 0x57e5e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_SequenceCutInfo::*)()>(
     &::GlobalNamespace::TutorialSongController_SequenceCutInfo::MarkMiss)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf2f24;
+  constexpr static std::size_t addrs = 0x57e6074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -314,8 +314,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialObjectSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t)>(&::GlobalNamespace::TutorialSongController_TutorialObjectSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3bf3358;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x57e6450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,8 +393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialJumpingNoteSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::TutorialSongController_TutorialJumpingNoteSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3bf339c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x57e6460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -441,8 +441,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, ::GlobalNamespace::ColorType)>(
     &::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3bf22a0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x57e6470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::*)()>(
     &::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::get_headLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf33ec;
+  constexpr static std::size_t addrs = 0x57e6484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -523,8 +523,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::ColorType, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, int32_t,
     ::GlobalNamespace::NoteLineLayer, int32_t, float_t, float_t)>(&::GlobalNamespace::TutorialSongController_TutorialChainSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3bf33f4;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x57e648c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -671,8 +671,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialArcSpawnData::*)(
     ::GlobalNamespace::Signal*, ::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData*, ::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData*)>(
     &::GlobalNamespace::TutorialSongController_TutorialArcSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3bf3488;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x57e64bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -728,8 +728,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3bf2304;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x57e64e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -763,8 +763,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData::*)(
     ::GlobalNamespace::Signal*, int32_t, int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer)>(&::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3bf2354;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x57e64f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -836,8 +836,8 @@ constexpr ::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData::T
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::Awake)> {
-  constexpr static std::size_t size = 0x4e4;
-  constexpr static std::size_t addrs = 0x3bf1dbc;
+  constexpr static std::size_t size = 0x458;
+  constexpr static std::size_t addrs = 0x57e4f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialSongController*>::get(), "Awake",
@@ -849,8 +849,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::Start)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3bf23b8;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x57e53dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialSongController*>::get(), "Start",
@@ -862,8 +862,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::OnDestroy)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3bf2518;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x57e554c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialSongController*>::get(), "OnDestroy",
@@ -876,8 +876,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(float_t)>(
     &::GlobalNamespace::TutorialSongController::StartSong)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3bf12a4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x57e43b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -891,7 +891,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::StopSong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bf2b30;
+  constexpr static std::size_t addrs = 0x57e5c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -905,7 +905,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::PauseSong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bf2b58;
+  constexpr static std::size_t addrs = 0x57e5cac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -918,8 +918,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::ResumeSong)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bf2b80;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e5cd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(
     ::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::TutorialSongController::HandleNoteWasCut)> {
   constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3bf2b9c;
+  constexpr static std::size_t addrs = 0x57e5cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -950,7 +950,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::TutorialSongController::HandleNoteWasMissed)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3bf2e84;
+  constexpr static std::size_t addrs = 0x57e5fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -965,7 +965,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::TutorialSongController::HandleObstacleDidPassThreeQuartersOfMove2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bf2f34;
+  constexpr static std::size_t addrs = 0x57e6084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -980,7 +980,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteCutInfo)>(
     &::GlobalNamespace::TutorialSongController::RaiseSignalsForIndividualCut)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3bf2d20;
+  constexpr static std::size_t addrs = 0x57e5e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -995,7 +995,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(
     &::GlobalNamespace::TutorialSongController::RaiseSignalForIncorrectCutSequence)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3bf2ddc;
+  constexpr static std::size_t addrs = 0x57e5f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1009,8 +1009,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t)>(
     &::GlobalNamespace::TutorialSongController::UpdateBeatmapData)> {
-  constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x3bf2660;
+  constexpr static std::size_t size = 0x5e0;
+  constexpr static std::size_t addrs = 0x57e56a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1024,8 +1024,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TutorialSongController::*)(int32_t)>(
     &::GlobalNamespace::TutorialSongController::GetNextBeatmapObjectBeat)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3bf2f5c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57e60ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1040,7 +1040,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TutorialSongController::*)(int32_t)>(
     &::GlobalNamespace::TutorialSongController::GetTimeFromBeat)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bf2fcc;
+  constexpr static std::size_t addrs = 0x57e6118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1055,8 +1055,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ObstacleData* (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialObstacleSpawnData*)>(
         &::GlobalNamespace::TutorialSongController::CreateObstacleData)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3bf3088;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x57e61a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1072,8 +1072,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NoteData* (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialBasicNoteSpawnData*)>(
         &::GlobalNamespace::TutorialSongController::CreateBasicNoteData)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3bf2ff4;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x57e6140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1089,8 +1089,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NoteData* (::GlobalNamespace::TutorialSongController::*)(float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialBombNoteSpawnData*)>(
         &::GlobalNamespace::TutorialSongController::CreateBombNoteData)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bf3060;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57e6180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1106,8 +1106,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<::GlobalNamespace::NoteData*, ::GlobalNamespace::SliderData*> (
     ::GlobalNamespace::TutorialSongController::*)(float_t, float_t, int32_t, ::GlobalNamespace::TutorialSongController_TutorialChainSpawnData*)>(
     &::GlobalNamespace::TutorialSongController::CreateChainData)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3bf3168;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x57e6284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1124,7 +1124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SliderData* (
     ::GlobalNamespace::TutorialSongController::*)(::GlobalNamespace::NoteData*, ::GlobalNamespace::NoteData*)>(&::GlobalNamespace::TutorialSongController::CreateArcData)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3bf328c;
+  constexpr static std::size_t addrs = 0x57e63b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1138,8 +1138,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialSongController::*)()>(&::GlobalNamespace::TutorialSongController::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bf3300;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57e6428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialSongController*>::get(), ".ctor",

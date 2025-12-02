@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Utilities/Encoders/zzzz__ITranslator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HexTranslator)
+namespace Org::BouncyCastle::Utilities::Encoders {
+class ITranslator;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Utilities::Encoders {
 class HexTranslator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::HexTranslator);
-// Dependencies Org.BouncyCastle.Utilities.Encoders.ITranslator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Utilities.Encoders.HexTranslator
@@ -26,21 +28,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::ITranslator*() noexcept;
 
-  /// @brief Method Decode, addr 0x25d917c, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x350881c, size 0xd8, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method Encode, addr 0x25d9034, size 0x140, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x35086d0, size 0x144, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
 
-  /// @brief Method GetDecodedBlockSize, addr 0x25d9174, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetDecodedBlockSize, addr 0x3508814, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetDecodedBlockSize();
 
-  /// @brief Method GetEncodedBlockSize, addr 0x25d902c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetEncodedBlockSize, addr 0x35086c8, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetEncodedBlockSize();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::HexTranslator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x25d92dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x350898c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_hexTable();

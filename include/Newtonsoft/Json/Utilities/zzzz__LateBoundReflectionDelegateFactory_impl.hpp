@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::*)()>(
     &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ed0edc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b18618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__0)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ed0f50;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5b18678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory___c__DisplayClass3_0::_CreateParameterizedConstructor_b__1)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ed0f6c;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5b186a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,8 +364,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::ReflectionDelegateFactory* (*)()>(
     &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::get_Instance)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ed0d28;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b18470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -380,8 +380,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>* (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::*)(::System::Reflection::MethodBase*)>(
         &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::CreateParameterizedConstructor)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3ed0d80;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x5b184cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -396,8 +396,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::*)()>(
     &::Newtonsoft::Json::Utilities::LateBoundReflectionDelegateFactory::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ed0ee4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b1861c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

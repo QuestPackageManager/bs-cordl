@@ -1,26 +1,23 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/InputActionAsset.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_impl.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputActionCollection2_impl.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputActionCollection_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionMap_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputActionCollection2_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__IInputActionCollection_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionMap_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionRebindingExtensions_def.hpp"
@@ -42,13 +39,24 @@ constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActio
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJson::InputActionAsset_WriteFileJson() {}
+// Ctor Parameters [CppParam { name: "maps", ty: "::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson,::Array<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>*>", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "controlSchemes", ty:
+// "::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson,::Array<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>*>", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJsonNoName::InputActionAsset_WriteFileJsonNoName(
+    ::ArrayW<::UnityEngine::InputSystem::InputActionMap_WriteMapJson, ::Array<::UnityEngine::InputSystem::InputActionMap_WriteMapJson>*> maps,
+    ::ArrayW<::UnityEngine::InputSystem::InputControlScheme_SchemeJson, ::Array<::UnityEngine::InputSystem::InputControlScheme_SchemeJson>*> controlSchemes) noexcept {
+  this->maps = maps;
+  this->controlSchemes = controlSchemes;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputSystem::InputActionAsset_WriteFileJsonNoName::InputActionAsset_WriteFileJsonNoName() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson.ToAsset
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::*)(::UnityEngine::InputSystem::InputActionAsset*)>(
     &::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::ToAsset)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x454059c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x62b881c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,586 +84,586 @@ constexpr ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::InputAction
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputActionAsset_ReadFileJson::InputActionAsset_ReadFileJson() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31._ctor
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::*)(int32_t)>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x45415e0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)(int32_t)>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x62b97a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31.System_IDisposable_Dispose
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4542be8;
+  constexpr static std::size_t addrs = 0x62baca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31.MoveNext
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::MoveNext)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4542bec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::MoveNext)> {
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x62bacac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31.System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4542d64;
+  constexpr static std::size_t addrs = 0x62bae2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
         "System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4542d6c;
+  constexpr static std::size_t addrs = 0x62bae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4542da4;
+  constexpr static std::size_t addrs = 0x62bae6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get___1__state() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get___1__state() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set___1__state(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get___2__current() {
+constexpr ::UnityEngine::InputSystem::InputAction*& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get___2__current() const {
+constexpr ::UnityEngine::InputSystem::InputAction* const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set___2__current(::UnityEngine::InputSystem::InputAction* value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set___2__current(::UnityEngine::InputSystem::InputAction* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__i_5__2() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__i_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__i_5__2() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__i_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__2;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set__i_5__2(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__i_5__2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__2 = value;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*>&
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__actions_5__3() {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actions_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actions_5__3;
 }
 constexpr ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> const&
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__actions_5__3() const {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actions_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actions_5__3;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set__actions_5__3(
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__actions_5__3(
     ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputAction*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____actions_5__3 = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__actionCount_5__4() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actionCount_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actionCount_5__4;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__actionCount_5__4() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__actionCount_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____actionCount_5__4;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set__actionCount_5__4(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__actionCount_5__4(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____actionCount_5__4 = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__n_5__5() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__n_5__5() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____n_5__5;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_get__n_5__5() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_get__n_5__5() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____n_5__5;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::__cordl_internal_set__n_5__5(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::__cordl_internal_set__n_5__5(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____n_5__5 = value;
 }
-inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::_ctor(int32_t __1__state) {
+inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_IDisposable_Dispose() {
+inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::MoveNext() {
+inline bool UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::UnityEngine::InputSystem::InputAction*
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current() {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputAction__get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
       "System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputAction>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputAction*, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_Collections_IEnumerator_Reset() {
+inline void UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31*>(__1__state));
+inline ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
-constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*
-UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputAction__() noexcept {
+UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputAction__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::operator ::System::IDisposable*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__31::InputActionAsset__GetEnumerator_d__31() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8._ctor
+constexpr ::UnityEngine::InputSystem::InputActionAsset__GetEnumerator_d__32::InputActionAsset__GetEnumerator_d__32() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)(int32_t)>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x453f8d8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)(int32_t)>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x62b7b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.System_IDisposable_Dispose
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4542dac;
+  constexpr static std::size_t addrs = 0x62bae74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.MoveNext
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4542db0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::MoveNext)> {
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x62bae78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputBinding (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputBinding (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4542efc;
+  constexpr static std::size_t addrs = 0x62bafd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
         "System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBinding>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4542f0c;
+  constexpr static std::size_t addrs = 0x62bafe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4542f44;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerator_get_Current)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x62bb01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-        &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4542fa8;
+    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+        &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x62bb084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
         "System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBinding>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::*)()>(
-    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::*)()>(
+    &::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4543044;
+  constexpr static std::size_t addrs = 0x62bb11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___1__state() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___1__state() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set___1__state(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityEngine::InputSystem::InputBinding& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___2__current() {
+constexpr ::UnityEngine::InputSystem::InputBinding& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityEngine::InputSystem::InputBinding const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___2__current() const {
+constexpr ::UnityEngine::InputSystem::InputBinding const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set___2__current(::UnityEngine::InputSystem::InputBinding value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set___2__current(::UnityEngine::InputSystem::InputBinding value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____2__current = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set___4__this(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__numActionMaps_5__2() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__numActionMaps_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numActionMaps_5__2;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__numActionMaps_5__2() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__numActionMaps_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numActionMaps_5__2;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set__numActionMaps_5__2(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set__numActionMaps_5__2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numActionMaps_5__2 = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__i_5__3() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__i_5__3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__i_5__3() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__i_5__3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____i_5__3;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set__i_5__3(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set__i_5__3(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____i_5__3 = value;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*>&
-UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__bindings_5__4() {
+UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__bindings_5__4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindings_5__4;
 }
 constexpr ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> const&
-UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__bindings_5__4() const {
+UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__bindings_5__4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____bindings_5__4;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set__bindings_5__4(
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set__bindings_5__4(
     ::ArrayW<::UnityEngine::InputSystem::InputBinding, ::Array<::UnityEngine::InputSystem::InputBinding>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bindings_5__4)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__numBindings_5__5() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__numBindings_5__5() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBindings_5__5;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__numBindings_5__5() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__numBindings_5__5() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____numBindings_5__5;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set__numBindings_5__5(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set__numBindings_5__5(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____numBindings_5__5 = value;
 }
-constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__n_5__6() {
+constexpr int32_t& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__n_5__6() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____n_5__6;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_get__n_5__6() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_get__n_5__6() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____n_5__6;
 }
-constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::__cordl_internal_set__n_5__6(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::__cordl_internal_set__n_5__6(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____n_5__6 = value;
 }
-inline void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::_ctor(int32_t __1__state) {
+inline void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_IDisposable_Dispose() {
+inline void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::MoveNext() {
+inline bool UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::UnityEngine::InputSystem::InputBinding
-UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current() {
+UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_Generic_IEnumerator_UnityEngine_InputSystem_InputBinding__get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
       "System.Collections.Generic.IEnumerator<UnityEngine.InputSystem.InputBinding>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputBinding, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_IEnumerator_Reset() {
+inline void UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*
-UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator() {
+UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_Generic_IEnumerable_UnityEngine_InputSystem_InputBinding__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
       "System.Collections.Generic.IEnumerable<UnityEngine.InputSystem.InputBinding>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8*>(__1__state));
+inline ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>"
-constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::operator ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*
-UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputBinding_() noexcept {
+UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::i___System__Collections__Generic__IEnumerable_1___UnityEngine__InputSystem__InputBinding_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>"
-constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::operator ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*
-UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputBinding_() noexcept {
+UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::i___System__Collections__Generic__IEnumerator_1___UnityEngine__InputSystem__InputBinding_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputBinding>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::operator ::System::IDisposable*() noexcept {
+constexpr UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__8::InputActionAsset__get_bindings_d__8() {}
+constexpr ::UnityEngine::InputSystem::InputActionAsset__get_bindings_d__9::InputActionAsset__get_bindings_d__9() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset.get_enabled
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::get_enabled)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x453f604;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x62b78d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -668,8 +676,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputActionMap*> (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_actionMaps)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x453f798;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x62b7a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -682,8 +690,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControlScheme> (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_controlSchemes)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x453f808;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x62b7a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -697,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputBinding>* (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::get_bindings)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x453f868;
+  constexpr static std::size_t addrs = 0x62b7ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -711,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputBinding> (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::get_bindingMask)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x453f90c;
+  constexpr static std::size_t addrs = 0x62b7b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -724,8 +732,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(
     ::System::Nullable_1<::UnityEngine::InputSystem::InputBinding>)>(&::UnityEngine::InputSystem::InputActionAsset::set_bindingMask)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x453f91c;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x62b7b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -741,7 +749,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>> (::UnityEngine::InputSystem::InputActionAsset::*)()>(
         &::UnityEngine::InputSystem::InputActionAsset::get_devices)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x453fa84;
+  constexpr static std::size_t addrs = 0x62b7d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -754,8 +762,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(
     ::System::Nullable_1<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*>>)>(&::UnityEngine::InputSystem::InputActionAsset::set_devices)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x453fb60;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x62b7de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -771,7 +779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::get_Item)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x453fd20;
+  constexpr static std::size_t addrs = 0x62b7fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -785,8 +793,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::ToJson)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45400bc;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x62b8368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), "ToJson",
@@ -800,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::LoadFromJson)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x45404cc;
+  constexpr static std::size_t addrs = 0x62b874c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -815,7 +823,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionAsset> (*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::FromJson)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x454063c;
+  constexpr static std::size_t addrs = 0x62b88b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -829,8 +837,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindAction)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x453fda0;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x62b802c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -844,8 +852,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionAsset::*)(
     ::UnityEngine::InputSystem::InputBinding, ::ByRef<::UnityEngine::InputSystem::InputAction*>)>(&::UnityEngine::InputSystem::InputActionAsset::FindBinding)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4540808;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x62b8a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -860,8 +868,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionMap* (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW, bool)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindActionMap)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x45409d4;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x62b8c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -875,8 +883,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionMap* (::UnityEngine::InputSystem::InputActionAsset::*)(::System::Guid)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindActionMap)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4540bdc;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x62b8e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -890,8 +898,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::InputActionAsset::*)(::System::Guid)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindAction)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4540c68;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x62b8edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -905,8 +913,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputActionAsset::FindControlSchemeIndex)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4540d2c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x62b8f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -920,8 +928,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::InputSystem::InputControlScheme> (
     ::UnityEngine::InputSystem::InputActionAsset::*)(::StringW)>(&::UnityEngine::InputSystem::InputActionAsset::FindControlScheme)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4540e04;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x62b9068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -935,8 +943,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputActionAsset::IsUsableWithDevice)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4540f30;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x62b9170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -949,8 +957,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::Enable)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x45411b4;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x62b93c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), "Enable",
@@ -962,8 +970,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::Disable)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4541360;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x62b954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), "Disable",
@@ -976,8 +984,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::InputActionAsset::Contains)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x45414f4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x62b96b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -991,8 +999,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::InputAction*>* (
     ::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::GetEnumerator)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4541580;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x62b974c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -1006,7 +1014,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4541608;
+  constexpr static std::size_t addrs = 0x62b97a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1021,11 +1029,24 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::MarkAsDirty)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x454160c;
+  constexpr static std::size_t addrs = 0x62b97ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
                                                                                "MarkAsDirty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputActionAsset.IsEmpty
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::IsEmpty)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x62b97b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), "IsEmpty",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -1034,8 +1055,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::OnWantToChangeSetup)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4541610;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x62b9830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -1048,8 +1069,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::OnSetupChanged)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4541910;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x62b9b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -1063,7 +1084,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)(bool)>(
     &::UnityEngine::InputSystem::InputActionAsset::ReResolveIfNecessary)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x453fa44;
+  constexpr static std::size_t addrs = 0x62b7cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1077,8 +1098,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(
     &::UnityEngine::InputSystem::InputActionAsset::ResolveBindingsIfNecessary)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4541b64;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x62b9d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -1091,7 +1112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4541c04;
+  constexpr static std::size_t addrs = 0x62b9db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
@@ -1104,7 +1125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputActionAsset::*)()>(&::UnityEngine::InputSystem::InputActionAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4541c2c;
+  constexpr static std::size_t addrs = 0x62b9ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), ".ctor",
@@ -1141,6 +1162,18 @@ constexpr void UnityEngine::InputSystem::InputActionAsset::__cordl_internal_set_
     ::ArrayW<::UnityEngine::InputSystem::InputControlScheme, ::Array<::UnityEngine::InputSystem::InputControlScheme>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ControlSchemes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::InputSystem::InputActionAsset::__cordl_internal_get_m_IsProjectWide() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsProjectWide;
+}
+constexpr bool const& UnityEngine::InputSystem::InputActionAsset::__cordl_internal_get_m_IsProjectWide() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsProjectWide;
+}
+constexpr void UnityEngine::InputSystem::InputActionAsset::__cordl_internal_set_m_IsProjectWide(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsProjectWide = value;
 }
 constexpr ::UnityEngine::InputSystem::InputActionState*& UnityEngine::InputSystem::InputActionAsset::__cordl_internal_get_m_SharedStateForAllMaps() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1351,6 +1384,11 @@ inline void UnityEngine::InputSystem::InputActionAsset::MarkAsDirty() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),
                                                                              "MarkAsDirty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::InputSystem::InputActionAsset::IsEmpty() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(), "IsEmpty",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void UnityEngine::InputSystem::InputActionAsset::OnWantToChangeSetup() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputActionAsset*>::get(),

@@ -43,12 +43,12 @@ public:
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method GetTypes, addr 0x3ce76c8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetTypes, addr 0x5929830, size 0x14c, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetTypes(::ArrayW<::StringW, ::Array<::StringW>*> typeArray);
 
   static inline ::System::Runtime::Remoting::Messaging::CADMethodRef* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
-  /// @brief Method Resolve, addr 0x3ce7814, size 0x490, virtual false, abstract: false, final false
+  /// @brief Method Resolve, addr 0x592997c, size 0x460, virtual false, abstract: false, final false
   inline ::System::Reflection::MethodBase* Resolve();
 
   constexpr bool const& __cordl_internal_get_ctor() const;
@@ -81,7 +81,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ce7ca4, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5929ddc, size 0x280, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* msg);
 
 protected:
@@ -99,7 +99,7 @@ public:
   CADMethodRef(CADMethodRef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3170 };
 
   /// @brief Field ctor, offset: 0x10, size: 0x1, def value: None
   bool ___ctor;

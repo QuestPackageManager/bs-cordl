@@ -1,11 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/IDictionary_2.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 template <typename TKey, typename TValue> inline TValue System::Collections::Generic::IDictionary_2<TKey, TValue>::get_Item(TKey key) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

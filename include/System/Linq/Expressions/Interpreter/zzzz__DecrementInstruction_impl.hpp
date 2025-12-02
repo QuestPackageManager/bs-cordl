@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::DecrementInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::DecrementInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c5b30;
+  constexpr static std::size_t addrs = 0x5d74ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::DecrementInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::DecrementInstruction::get_ProducedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c5b38;
+  constexpr static std::size_t addrs = 0x5d74ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::DecrementInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::DecrementInstruction::get_InstructionName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40c5b40;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d74f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::DecrementInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::DecrementInstruction::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c5b80;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d74f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (*)(::System::Type*)>(
     &::System::Linq::Expressions::Interpreter::DecrementInstruction::Create)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x40c5b88;
+  constexpr static std::size_t size = 0x348;
+  constexpr static std::size_t addrs = 0x5d74f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

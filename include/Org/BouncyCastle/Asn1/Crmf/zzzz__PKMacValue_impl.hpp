@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PKMacValue::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PKMacValue::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x2315378;
+  constexpr static std::size_t addrs = 0x3242218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PKMacValue* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Crmf::PKMacValue::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x231542c;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x32422cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Crmf::PKMacValue* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Crmf::PKMacValue::GetInstance)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x23155a8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x3242450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PKMacValue::*)(
     ::Org::BouncyCastle::Asn1::Cmp::PbmParameter*, ::Org::BouncyCastle::Asn1::DerBitString*)>(&::Org::BouncyCastle::Asn1::Crmf::PKMacValue::_ctor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23155c0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3242464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Crmf::PKMacValue::*)(
     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::DerBitString*)>(&::Org::BouncyCastle::Asn1::Crmf::PKMacValue::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x231566c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32424fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Crmf::PKMacValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PKMacValue::get_AlgID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2315698;
+  constexpr static std::size_t addrs = 0x3242504;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerBitString* (::Org::BouncyCastle::Asn1::Crmf::PKMacValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PKMacValue::get_MacValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23156a0;
+  constexpr static std::size_t addrs = 0x324250c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Crmf::PKMacValue::*)()>(
     &::Org::BouncyCastle::Asn1::Crmf::PKMacValue::ToAsn1Object)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x23156a8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3242514;
 
   inline static ::MethodInfo const* methodInfo() {
 

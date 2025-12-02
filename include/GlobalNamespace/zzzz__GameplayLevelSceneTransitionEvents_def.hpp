@@ -60,26 +60,26 @@ public:
   /// @brief Field anyGameplayLevelDidFinishEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_anyGameplayLevelDidFinishEvent, put = __cordl_internal_set_anyGameplayLevelDidFinishEvent)) ::System::Action* anyGameplayLevelDidFinishEvent;
 
-  /// @brief Method Finalize, addr 0x3b3bddc, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x571f5fc, size 0x1fc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HandleMissionLevelDidFinish, addr 0x3b3c32c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDidFinish, addr 0x571fb68, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMissionLevelDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                           ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMultiplayerLevelDidDisconnect, addr 0x3b3c310, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidDisconnect, addr 0x571fb4c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidDisconnect(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                                   ::GlobalNamespace::DisconnectedReason disconnectedReason);
 
-  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x3b3c2f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerLevelDidFinish, addr 0x571fb30, size 0x1c, virtual false, abstract: false, final false
   inline void HandleMultiplayerLevelDidFinish(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData,
                                               ::GlobalNamespace::MultiplayerResultsData* multiplayerResultsData);
 
-  /// @brief Method HandleStandardLevelDidFinish, addr 0x3b3c2bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelDidFinish, addr 0x571faf8, size 0x1c, virtual false, abstract: false, final false
   inline void HandleStandardLevelDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                                            ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method InvokeAnyGameplayLevelDidFinish, addr 0x3b3c2d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method InvokeAnyGameplayLevelDidFinish, addr 0x571fb14, size 0x1c, virtual false, abstract: false, final false
   inline void InvokeAnyGameplayLevelDidFinish();
 
   static inline ::GlobalNamespace::GameplayLevelSceneTransitionEvents* New_ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
@@ -110,15 +110,15 @@ public:
 
   constexpr void __cordl_internal_set_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3b3b964, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571f130, size 0x1cc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                     ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                     ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO* multiplayerLevelScenesTransitionSetupData);
 
-  /// @brief Method add_anyGameplayLevelDidFinishEvent, addr 0x3b3b82c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_anyGameplayLevelDidFinishEvent, addr 0x571efd8, size 0xac, virtual false, abstract: false, final false
   inline void add_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
-  /// @brief Method remove_anyGameplayLevelDidFinishEvent, addr 0x3b3b8c8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_anyGameplayLevelDidFinishEvent, addr 0x571f084, size 0xac, virtual false, abstract: false, final false
   inline void remove_anyGameplayLevelDidFinishEvent(::System::Action* value);
 
 protected:
@@ -136,7 +136,7 @@ public:
   GameplayLevelSceneTransitionEvents(GameplayLevelSceneTransitionEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5258 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6833 };
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelScenesTransitionSetupData;

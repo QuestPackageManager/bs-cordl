@@ -11,8 +11,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::GenerateEncryptionAlgID)> {
-  constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x2444b48;
+  constexpr static std::size_t size = 0x530;
+  constexpr static std::size_t addrs = 0x337343c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Utilities::AlgorithmIdentifierFactory::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24451a0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3373a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

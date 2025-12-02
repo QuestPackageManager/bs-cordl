@@ -2,20 +2,18 @@
 // IWYU pragma private; include "GlobalNamespace/OculusBeatmapDataAssetFileModel.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_impl.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_impl.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "GlobalNamespace/zzzz__OculusBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusPlatformAdditionalContentModel_def.hpp"
@@ -34,13 +32,14 @@
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/Threading/zzzz__SemaphoreSlim_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::*)(
     uint64_t, ::StringW, ::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::_ctor)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26e5df8;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x36181b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::LevelDataAssetDownloadUpdate (::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::*)()>(
         &::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::GetLevelDataAssetDownloadUpdate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26e5580;
+  constexpr static std::size_t addrs = 0x361789c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData::get_debugInfo)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26e55ac;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x36178c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,8 +252,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e55a4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x36178c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -269,8 +268,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadResult*>*)>(
         &::GlobalNamespace::OculusBeatmapDataAssetFileModel___c__DisplayClass18_0::_StartMostRecentlyRequestedDownload_b__0)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26e65f4;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x3618a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -331,8 +330,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::MoveNext)> {
-  constexpr static std::size_t size = 0x830;
-  constexpr static std::size_t addrs = 0x26e681c;
+  constexpr static std::size_t size = 0x888;
+  constexpr static std::size_t addrs = 0x3618c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,8 +345,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__19::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e704c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x36194d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -409,8 +408,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::MoveNext)> {
-  constexpr static std::size_t size = 0xaec;
-  constexpr static std::size_t addrs = 0x26e70c8;
+  constexpr static std::size_t size = 0xc04;
+  constexpr static std::size_t addrs = 0x3619558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -424,8 +423,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__HandleAssetFileDownloadUpdateAsync_d__24::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26e7bb4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x361a15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -486,8 +485,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::MoveNext)> {
-  constexpr static std::size_t size = 0xa54;
-  constexpr static std::size_t addrs = 0x26e7c1c;
+  constexpr static std::size_t size = 0xa9c;
+  constexpr static std::size_t addrs = 0x361a1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,8 +500,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__ReloadAssetDetailsForAllLevelsAsync_d__21::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e8670;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x361ac64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -557,8 +556,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::MoveNext)> {
-  constexpr static std::size_t size = 0x8c0;
-  constexpr static std::size_t addrs = 0x26e86ec;
+  constexpr static std::size_t size = 0x974;
+  constexpr static std::size_t addrs = 0x361ace4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -572,8 +571,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel__TryDeleteAssetBundleFileForBeatmapLevelAsync_d__20::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26e8fac;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x361b658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -639,8 +638,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26e49d8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3616bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -655,8 +654,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26e4a88;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3616c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -671,8 +670,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::GlobalNamespace::OculusPlatformAdditionalContentModel*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::_ctor)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x26e4b38;
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x3616d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -686,8 +685,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::Tick)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26e4d18;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x3616fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(),
@@ -700,8 +699,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)()>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::GetCurrentTimeSeconds)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26e4d58;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x3617008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusBeatmapDataAssetFileModel*>::get(),
@@ -714,8 +713,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(float_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::CancelNotRespondingDownloads)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x26e4d60;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x3617030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -729,8 +728,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(float_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::NotifyRecentlyRequestedDownloads)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x26e4e64;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x3617158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -744,8 +743,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(float_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::StartMostRecentlyRequestedDownload)> {
-  constexpr static std::size_t size = 0x420;
-  constexpr static std::size_t addrs = 0x26e5078;
+  constexpr static std::size_t size = 0x488;
+  constexpr static std::size_t addrs = 0x361730c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -760,8 +759,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::GetAssetBundleFileForBeatmapLevelAsync)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26e5634;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x3617960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -779,8 +778,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForBeatmapLevelAsync)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x26e5748;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x3617a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -797,8 +796,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::ReloadAssetDetailsForAllLevelsAsync)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26e5858;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3617b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -813,8 +812,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* (
     ::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::StringW, ::Oculus::Platform::Models::AssetDetails*, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::GetDownloadAssetBundleFileAsync)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x26e5950;
+  constexpr static std::size_t size = 0x558;
+  constexpr static std::size_t addrs = 0x3617c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -830,8 +829,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdate)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26e5ee4;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x36182a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -846,8 +845,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(::Oculus::Platform::Message_1<::Oculus::Platform::Models::AssetFileDownloadUpdate*>*)>(
         &::GlobalNamespace::OculusBeatmapDataAssetFileModel::HandleAssetFileDownloadUpdateAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x26e5f88;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x361834c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -862,8 +861,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(
     bool, ::GlobalNamespace::OculusBeatmapDataAssetFileModel_AssetBundleDownloadingData*)>(&::GlobalNamespace::OculusBeatmapDataAssetFileModel::MarkDownloadCompleted)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x26e605c;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x3618410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -878,8 +877,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(uint64_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::CancelDownload)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26e5498;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x3617794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -893,8 +892,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusBeatmapDataAssetFileModel::*)(uint64_t)>(
     &::GlobalNamespace::OculusBeatmapDataAssetFileModel::RemoveFromDownloadingDataStructures)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x26e6334;
+  constexpr static std::size_t size = 0x300;
+  constexpr static std::size_t addrs = 0x3618734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

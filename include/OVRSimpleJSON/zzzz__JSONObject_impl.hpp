@@ -2,11 +2,6 @@
 // IWYU pragma private; include "OVRSimpleJSON/JSONObject.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNode_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "OVRSimpleJSON/zzzz__JSONObject_def.hpp"
 #include "OVRSimpleJSON/zzzz__JSONNodeType_def.hpp"
@@ -17,16 +12,18 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::OVRSimpleJSON::JSONObject___c__DisplayClass21_0._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject___c__DisplayClass21_0::*)()>(
     &::OVRSimpleJSON::JSONObject___c__DisplayClass21_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4052c7c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5c14128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject___c__DisplayClass21_0*>::get(),
@@ -39,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONObject___c__DisplayClass21_0::*)(
     ::System::Collections::Generic::KeyValuePair_2<::StringW, ::OVRSimpleJSON::JSONNode*>)>(&::OVRSimpleJSON::JSONObject___c__DisplayClass21_0::_Remove_b__0)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4053030;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5c148ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,303 +74,303 @@ inline ::OVRSimpleJSON::JSONObject___c__DisplayClass21_0* OVRSimpleJSON::JSONObj
 }
 // Ctor Parameters []
 constexpr ::OVRSimpleJSON::JSONObject___c__DisplayClass21_0::JSONObject___c__DisplayClass21_0() {}
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23._ctor
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)(int32_t)>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4052cf4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)(int32_t)>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c1455c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.System_IDisposable_Dispose
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4053074;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c14970;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.MoveNext
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::MoveNext)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4053090;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::MoveNext)> {
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x5c149cc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.__m__Finally1
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::__m__Finally1)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4053238;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::__m__Finally1)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5c14c08;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                                "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4053288;
+  constexpr static std::size_t addrs = 0x5c14c50;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                                "System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4053290;
+  constexpr static std::size_t addrs = 0x5c14c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40532c8;
+  constexpr static std::size_t addrs = 0x5c14c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>* (
-    ::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(&::OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40532d0;
+    ::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(&::OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5c14c98;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                                "System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator", std::span<Il2CppClass const* const, 0>(),
                                                                                ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__23.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject__get_Children_d__27.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::OVRSimpleJSON::JSONObject__get_Children_d__23::*)()>(
-    &::OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::OVRSimpleJSON::JSONObject__get_Children_d__27::*)()>(
+    &::OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x405336c;
+  constexpr static std::size_t addrs = 0x5c14d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___1__state() {
+constexpr int32_t& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___1__state() const {
+constexpr int32_t const& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_set___1__state(int32_t value) {
+constexpr void OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::OVRSimpleJSON::JSONNode*& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___2__current() {
+constexpr ::OVRSimpleJSON::JSONNode*& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::OVRSimpleJSON::JSONNode* const& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___2__current() const {
+constexpr ::OVRSimpleJSON::JSONNode* const& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_set___2__current(::OVRSimpleJSON::JSONNode* value) {
+constexpr void OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_set___2__current(::OVRSimpleJSON::JSONNode* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::OVRSimpleJSON::JSONObject*& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___4__this() {
+constexpr ::OVRSimpleJSON::JSONObject*& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::OVRSimpleJSON::JSONObject* const& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___4__this() const {
+constexpr ::OVRSimpleJSON::JSONObject* const& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_set___4__this(::OVRSimpleJSON::JSONObject* value) {
+constexpr void OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_set___4__this(::OVRSimpleJSON::JSONObject* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*>& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___7__wrap1() {
+constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*>& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> const& OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_get___7__wrap1() const {
+constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> const& OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr void OVRSimpleJSON::JSONObject__get_Children_d__23::__cordl_internal_set___7__wrap1(::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> value) {
+constexpr void OVRSimpleJSON::JSONObject__get_Children_d__27::__cordl_internal_set___7__wrap1(::System::Collections::Generic::Dictionary_2_Enumerator<::StringW, ::OVRSimpleJSON::JSONNode*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap1 = value;
 }
-inline void OVRSimpleJSON::JSONObject__get_Children_d__23::_ctor(int32_t __1__state) {
+inline void OVRSimpleJSON::JSONObject__get_Children_d__27::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void OVRSimpleJSON::JSONObject__get_Children_d__23::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+inline void OVRSimpleJSON::JSONObject__get_Children_d__27::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool OVRSimpleJSON::JSONObject__get_Children_d__23::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+inline bool OVRSimpleJSON::JSONObject__get_Children_d__27::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void OVRSimpleJSON::JSONObject__get_Children_d__23::__m__Finally1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+inline void OVRSimpleJSON::JSONObject__get_Children_d__27::__m__Finally1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                              "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current() {
+inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_Generic_IEnumerator_OVRSimpleJSON_JSONNode__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                   "System.Collections.Generic.IEnumerator<OVRSimpleJSON.JSONNode>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode*, false>(this, ___internal_method);
 }
-inline void OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_IEnumerator_Reset() {
+inline void OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(), "System.Collections.IEnumerator.Reset",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(), "System.Collections.IEnumerator.Reset",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*
-OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_Generic_IEnumerable_OVRSimpleJSON_JSONNode__GetEnumerator() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                                              "System.Collections.Generic.IEnumerable<OVRSimpleJSON.JSONNode>.GetEnumerator", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* OVRSimpleJSON::JSONObject__get_Children_d__23::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* OVRSimpleJSON::JSONObject__get_Children_d__27::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__23*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject__get_Children_d__27*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::OVRSimpleJSON::JSONObject__get_Children_d__23* OVRSimpleJSON::JSONObject__get_Children_d__23::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVRSimpleJSON::JSONObject__get_Children_d__23*>(__1__state));
+inline ::OVRSimpleJSON::JSONObject__get_Children_d__27* OVRSimpleJSON::JSONObject__get_Children_d__27::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::OVRSimpleJSON::JSONObject__get_Children_d__27*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>"
-constexpr OVRSimpleJSON::JSONObject__get_Children_d__23::operator ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*() noexcept {
+constexpr OVRSimpleJSON::JSONObject__get_Children_d__27::operator ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*
-OVRSimpleJSON::JSONObject__get_Children_d__23::i___System__Collections__Generic__IEnumerable_1___OVRSimpleJSON__JSONNode__() noexcept {
+OVRSimpleJSON::JSONObject__get_Children_d__27::i___System__Collections__Generic__IEnumerable_1___OVRSimpleJSON__JSONNode__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr OVRSimpleJSON::JSONObject__get_Children_d__23::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr OVRSimpleJSON::JSONObject__get_Children_d__27::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* OVRSimpleJSON::JSONObject__get_Children_d__23::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* OVRSimpleJSON::JSONObject__get_Children_d__27::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>"
-constexpr OVRSimpleJSON::JSONObject__get_Children_d__23::operator ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*() noexcept {
+constexpr OVRSimpleJSON::JSONObject__get_Children_d__27::operator ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*
-OVRSimpleJSON::JSONObject__get_Children_d__23::i___System__Collections__Generic__IEnumerator_1___OVRSimpleJSON__JSONNode__() noexcept {
+OVRSimpleJSON::JSONObject__get_Children_d__27::i___System__Collections__Generic__IEnumerator_1___OVRSimpleJSON__JSONNode__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::OVRSimpleJSON::JSONNode*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr OVRSimpleJSON::JSONObject__get_Children_d__23::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr OVRSimpleJSON::JSONObject__get_Children_d__27::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* OVRSimpleJSON::JSONObject__get_Children_d__23::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* OVRSimpleJSON::JSONObject__get_Children_d__27::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr OVRSimpleJSON::JSONObject__get_Children_d__23::operator ::System::IDisposable*() noexcept {
+constexpr OVRSimpleJSON::JSONObject__get_Children_d__27::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* OVRSimpleJSON::JSONObject__get_Children_d__23::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* OVRSimpleJSON::JSONObject__get_Children_d__27::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::OVRSimpleJSON::JSONObject__get_Children_d__23::JSONObject__get_Children_d__23() {}
+constexpr ::OVRSimpleJSON::JSONObject__get_Children_d__27::JSONObject__get_Children_d__27() {}
 //  Writing Method size for method: ::OVRSimpleJSON::JSONObject.get_Inline
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::get_Inline)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4052328;
+  constexpr static std::size_t addrs = 0x5c135a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -386,8 +383,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject::*)(bool)>(&::OVRSimpleJSON::JSONObject::set_Inline)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4052330;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c135b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -401,7 +398,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNodeType (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::get_Tag)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x405233c;
+  constexpr static std::size_t addrs = 0x5c135b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -415,7 +412,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::get_IsObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4052344;
+  constexpr static std::size_t addrs = 0x5c135c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -429,13 +426,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode_Enumerator (::OVRSimpleJSON::JSONObject::*)()>(
     &::OVRSimpleJSON::JSONObject::GetEnumerator)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x405234c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5c135c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 28));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 32));
     return ___internal_method;
   }
 };
@@ -443,8 +440,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)(::StringW)>(&::OVRSimpleJSON::JSONObject::get_Item)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x40523d8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5c1368c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -458,8 +455,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(
     &::OVRSimpleJSON::JSONObject::set_Item)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x40524c4;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x5c137d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -472,8 +469,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)(int32_t)>(&::OVRSimpleJSON::JSONObject::get_Item)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40525cc;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5c1392c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -486,8 +483,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject::*)(int32_t, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONObject::set_Item)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x405266c;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5c139e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -500,8 +497,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::get_Count)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4052784;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5c13b48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -514,8 +511,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(&::OVRSimpleJSON::JSONObject::Add)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x40527d4;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x5c13ba0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -528,8 +525,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)(::StringW)>(&::OVRSimpleJSON::JSONObject::Remove)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4052928;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5c13d48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -542,8 +539,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)(int32_t)>(&::OVRSimpleJSON::JSONObject::Remove)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x40529ec;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5c13e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -557,13 +554,70 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)(::OVRSimpleJSON::JSONNode*)>(
     &::OVRSimpleJSON::JSONObject::Remove)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4052ac8;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x5c13f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 24));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject.Clear
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::Clear)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c1412c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 25));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject.Clone
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::Clone)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x5c14180;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 26));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject.HasKey
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::OVRSimpleJSON::JSONObject::*)(::StringW)>(&::OVRSimpleJSON::JSONObject::HasKey)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5c143e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 28));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject.GetValueOrDefault
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVRSimpleJSON::JSONNode* (::OVRSimpleJSON::JSONObject::*)(::StringW, ::OVRSimpleJSON::JSONNode*)>(
+    &::OVRSimpleJSON::JSONObject::GetValueOrDefault)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5c14464;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 29));
     return ___internal_method;
   }
 };
@@ -573,22 +627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* (::OVRSimpleJSON::JSONObject::*)()>(
     &::OVRSimpleJSON::JSONObject::get_Children)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4052c84;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 25));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::OVRSimpleJSON::JSONObject.WriteToStringBuilder
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::OVRSimpleJSON::JSONObject::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(&::OVRSimpleJSON::JSONObject::WriteToStringBuilder)> {
-  constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x4052d28;
+  constexpr static std::size_t addrs = 0x5c144ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -597,12 +636,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::OVRSimpleJSON::JSONObject.WriteToStringBuilder
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::OVRSimpleJSON::JSONObject::*)(::System::Text::StringBuilder*, int32_t, int32_t, ::OVRSimpleJSON::JSONTextMode)>(&::OVRSimpleJSON::JSONObject::WriteToStringBuilder)> {
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x5c1457c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 31));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::OVRSimpleJSON::JSONObject._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVRSimpleJSON::JSONObject::*)()>(&::OVRSimpleJSON::JSONObject::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40486ec;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5c14320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), ".ctor",
@@ -656,7 +710,7 @@ inline bool OVRSimpleJSON::JSONObject::get_IsObject() {
 }
 inline ::OVRSimpleJSON::JSONNode_Enumerator OVRSimpleJSON::JSONObject::GetEnumerator() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode_Enumerator, false>(this, ___internal_method);
 }
 inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSONObject::get_Item(::StringW aKey) {
@@ -704,14 +758,34 @@ inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSONObject::Remove(::OVRSimpleJ
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode*, false>(this, ___internal_method, aNode);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* OVRSimpleJSON::JSONObject::get_Children() {
+inline void OVRSimpleJSON::JSONObject::Clear() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 25)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSONObject::Clone() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 26)));
+  return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode*, false>(this, ___internal_method);
+}
+inline bool OVRSimpleJSON::JSONObject::HasKey(::StringW aKey) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 28)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, aKey);
+}
+inline ::OVRSimpleJSON::JSONNode* OVRSimpleJSON::JSONObject::GetValueOrDefault(::StringW aKey, ::OVRSimpleJSON::JSONNode* aDefault) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 29)));
+  return ::cordl_internals::RunMethodRethrow<::OVRSimpleJSON::JSONNode*, false>(this, ___internal_method, aKey, aDefault);
+}
+inline ::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>* OVRSimpleJSON::JSONObject::get_Children() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::OVRSimpleJSON::JSONNode*>*, false>(this, ___internal_method);
 }
 inline void OVRSimpleJSON::JSONObject::WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVRSimpleJSON::JSONObject*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, aSB, aIndent, aIndentInc, aMode);
 }
 inline void OVRSimpleJSON::JSONObject::_ctor() {

@@ -3,18 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IFixedSizePriorityQueue_2)
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 // Forward declare root types
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::IFixedSizePriorityQueue_2);
-// Dependencies Priority_Queue.IPriorityQueue`2<TItem, TPriority>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -57,7 +63,7 @@ public:
   IFixedSizePriorityQueue_2(IFixedSizePriorityQueue_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

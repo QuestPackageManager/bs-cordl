@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TutorialReturnToMenuController.hpp"
-#include "GlobalNamespace/zzzz__IReturnToMenuController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialReturnToMenuController_def.hpp"
+#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialReturnToMenuController.ReturnToMenu
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialReturnToMenuController::*)()>(
     &::GlobalNamespace::TutorialReturnToMenuController::ReturnToMenu)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bb280c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x57a2c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialReturnToMenuController*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialReturnToMenuController::*)()>(
     &::GlobalNamespace::TutorialReturnToMenuController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb282c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57a2c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialReturnToMenuController*>::get(),

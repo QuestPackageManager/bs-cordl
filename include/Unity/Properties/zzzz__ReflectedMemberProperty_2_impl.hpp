@@ -219,8 +219,14 @@ template <typename TContainer, typename TValue> constexpr void Unity::Properties
 template <typename TContainer, typename TValue> inline ::StringW Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+template <typename TContainer, typename TValue> inline bool Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TContainer, typename TValue> inline void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::_ctor(::Unity::Properties::IMemberInfo* info, ::StringW name) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -228,6 +234,18 @@ template <typename TContainer, typename TValue> inline void Unity::Properties::R
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Properties::IMemberInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, name);
+}
+template <typename TContainer, typename TValue> inline TValue Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::GetValue(::ByRef<TContainer> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, container);
+}
+template <typename TContainer, typename TValue> inline void Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::SetValue(::ByRef<TContainer> container, TValue value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 template <typename TContainer, typename TValue>
 inline ::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>* Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>::New_ctor(::Unity::Properties::IMemberInfo* info,

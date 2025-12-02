@@ -34,22 +34,22 @@ public:
   /// @brief Field mRandomSource, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_mRandomSource, put = __cordl_internal_set_mRandomSource)) ::Org::BouncyCastle::Security::SecureRandom* mRandomSource;
 
-  /// @brief Method GenerateSeed, addr 0x23cda58, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x32fb8e0, size 0x18, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* New_ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg,
                                                                               bool predictionResistant);
 
-  /// @brief Method NextBytes, addr 0x23cd9c0, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x32fb844, size 0x9c, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method NextBytes, addr 0x23cd8d0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x32fb768, size 0xdc, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method SetSeed, addr 0x23cd768, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x32fb620, size 0xa4, virtual true, abstract: false, final false
   inline void SetSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method SetSeed, addr 0x23cd81c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method SetSeed, addr 0x32fb6c4, size 0xa4, virtual true, abstract: false, final false
   inline void SetSeed(int64_t seed);
 
   constexpr ::Org::BouncyCastle::Crypto::Prng::X931Rng* const& __cordl_internal_get_mDrbg() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_mRandomSource(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x23cd6e4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32fb598, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* randomSource, ::Org::BouncyCastle::Crypto::Prng::X931Rng* drbg, bool predictionResistant);
 
 protected:

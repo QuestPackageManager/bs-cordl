@@ -60,7 +60,7 @@ public:
   static ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode const WriteNullAndMaxValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9099 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -85,31 +85,31 @@ public:
   // Declarations
   using WriteMode = ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode;
 
-  /// @brief Field maxValue, offset 0x134, size 0x4
+  /// @brief Field maxValue, offset 0x144, size 0x4
   __declspec(property(get = __cordl_internal_get_maxValue, put = __cordl_internal_set_maxValue)) int32_t maxValue;
 
-  /// @brief Field minValue, offset 0x130, size 0x4
+  /// @brief Field minValue, offset 0x140, size 0x4
   __declspec(property(get = __cordl_internal_get_minValue, put = __cordl_internal_set_minValue)) int32_t minValue;
 
-  /// @brief Field nullValue, offset 0x13c, size 0x4
+  /// @brief Field nullValue, offset 0x14c, size 0x4
   __declspec(property(get = __cordl_internal_get_nullValue, put = __cordl_internal_set_nullValue)) int32_t nullValue;
 
-  /// @brief Field wrapAtValue, offset 0x138, size 0x4
+  /// @brief Field wrapAtValue, offset 0x148, size 0x4
   __declspec(property(get = __cordl_internal_get_wrapAtValue, put = __cordl_internal_set_wrapAtValue)) int32_t wrapAtValue;
 
-  /// @brief Field writeMode, offset 0x140, size 0x4
+  /// @brief Field writeMode, offset 0x150, size 0x4
   __declspec(property(get = __cordl_internal_get_writeMode, put = __cordl_internal_set_writeMode)) ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode writeMode;
 
-  /// @brief Method FinishSetup, addr 0x4562024, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x62dce1c, size 0x100, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::Controls::DiscreteButtonControl* New_ctor();
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x4562120, size 0x1a0, virtual true, abstract: false, final false
-  inline float_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
+  /// @brief Method ReadUnprocessedValueFromState, addr 0x62dcf1c, size 0x18c, virtual true, abstract: false, final false
+  inline float_t ReadUnprocessedValueFromState(void* statePtr);
 
-  /// @brief Method WriteValueIntoState, addr 0x45622c4, size 0x130, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr);
+  /// @brief Method WriteValueIntoState, addr 0x62dd0ac, size 0x140, virtual true, abstract: false, final false
+  inline void WriteValueIntoState(float_t value, void* statePtr);
 
   constexpr int32_t const& __cordl_internal_get_maxValue() const;
 
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_writeMode(::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode value);
 
-  /// @brief Method .ctor, addr 0x45623f8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62dd1f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,37 +159,37 @@ public:
   DiscreteButtonControl(DiscreteButtonControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9100 };
 
-  /// @brief Field minValue, offset: 0x130, size: 0x4, def value: None
+  /// @brief Field minValue, offset: 0x140, size: 0x4, def value: None
   int32_t ___minValue;
 
-  /// @brief Field maxValue, offset: 0x134, size: 0x4, def value: None
+  /// @brief Field maxValue, offset: 0x144, size: 0x4, def value: None
   int32_t ___maxValue;
 
-  /// @brief Field wrapAtValue, offset: 0x138, size: 0x4, def value: None
+  /// @brief Field wrapAtValue, offset: 0x148, size: 0x4, def value: None
   int32_t ___wrapAtValue;
 
-  /// @brief Field nullValue, offset: 0x13c, size: 0x4, def value: None
+  /// @brief Field nullValue, offset: 0x14c, size: 0x4, def value: None
   int32_t ___nullValue;
 
-  /// @brief Field writeMode, offset: 0x140, size: 0x4, def value: None
+  /// @brief Field writeMode, offset: 0x150, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode ___writeMode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___minValue) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___minValue) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___maxValue) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___maxValue) == 0x144, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___wrapAtValue) == 0x138, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___wrapAtValue) == 0x148, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___nullValue) == 0x13c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___nullValue) == 0x14c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___writeMode) == 0x140, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::DiscreteButtonControl, ___writeMode) == 0x150, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DiscreteButtonControl, 0x148>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::DiscreteButtonControl, 0x158>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::DiscreteButtonControl_WriteMode, "UnityEngine.InputSystem.Controls", "DiscreteButtonControl/WriteMode");

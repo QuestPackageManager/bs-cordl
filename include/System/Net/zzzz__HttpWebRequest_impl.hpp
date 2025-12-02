@@ -5,9 +5,7 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_5_impl.hpp"
@@ -37,6 +35,7 @@
 #include "System/Net/zzzz__WebResponseStream_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
@@ -72,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest_AuthorizationState::*)()>(
     &::System::Net::HttpWebRequest_AuthorizationState::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43cdb04;
+  constexpr static std::size_t addrs = 0x6118ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest_AuthorizationState>::get(),
@@ -86,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpWebRequest_NtlmAuthState (::System::Net::HttpWebRequest_AuthorizationState::*)()>(
     &::System::Net::HttpWebRequest_AuthorizationState::get_NtlmAuthState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43cdb0c;
+  constexpr static std::size_t addrs = 0x6118ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest_AuthorizationState>::get(),
@@ -100,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest_AuthorizationState::*)()>(
     &::System::Net::HttpWebRequest_AuthorizationState::get_IsNtlmAuthenticated)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x43cdb14;
+  constexpr static std::size_t addrs = 0x6119004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest_AuthorizationState>::get(),
@@ -113,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest_AuthorizationState::*)(::System::Net::HttpWebRequest*, bool)>(
     &::System::Net::HttpWebRequest_AuthorizationState::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x43c925c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x611456c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest_AuthorizationState::*)(
     ::System::Net::WebResponse*, ::System::Net::HttpStatusCode)>(&::System::Net::HttpWebRequest_AuthorizationState::CheckAuthorization)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x43ccfac;
+  constexpr static std::size_t size = 0x34c;
+  constexpr static std::size_t addrs = 0x61184e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest_AuthorizationState::*)()>(
     &::System::Net::HttpWebRequest_AuthorizationState::Reset)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43cd96c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6118e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest_AuthorizationState>::get(), "Reset",
@@ -159,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpWebRequest_AuthorizationState::*)()>(
     &::System::Net::HttpWebRequest_AuthorizationState::ToString)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43cdb34;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6119024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,8 +301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest__MyGetResponseAsync_d__243::*)()>(
     &::System::Net::HttpWebRequest__MyGetResponseAsync_d__243::MoveNext)> {
-  constexpr static std::size_t size = 0xed8;
-  constexpr static std::size_t addrs = 0x43cdc34;
+  constexpr static std::size_t size = 0xefc;
+  constexpr static std::size_t addrs = 0x6119144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest__MyGetResponseAsync_d__243>::get(),
@@ -316,8 +315,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest__MyGetResponseAsync_d__243::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::HttpWebRequest__MyGetResponseAsync_d__243::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43ceb58;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x611a090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,8 +392,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest__GetResponseFromData_d__244::*)()>(
     &::System::Net::HttpWebRequest__GetResponseFromData_d__244::MoveNext)> {
-  constexpr static std::size_t size = 0x7d4;
-  constexpr static std::size_t addrs = 0x43cebd4;
+  constexpr static std::size_t size = 0x7ec;
+  constexpr static std::size_t addrs = 0x611a110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest__GetResponseFromData_d__244>::get(),
@@ -407,8 +406,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest__GetResponseFromData_d__244::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::HttpWebRequest__GetResponseFromData_d__244::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43cf688;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x611abec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -470,8 +469,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest___GetRewriteHandler_b__271_0_d::*)()>(
     &::System::Net::HttpWebRequest___GetRewriteHandler_b__271_0_d::MoveNext)> {
-  constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x43cf704;
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x611ac6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,8 +484,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest___GetRewriteHandler_b__271_0_d::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::HttpWebRequest___GetRewriteHandler_b__271_0_d::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43cfb5c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x611b0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -534,8 +533,8 @@ constexpr ::System::Net::HttpWebRequest___GetRewriteHandler_b__271_0_d::HttpWebR
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Uri*)>(&::System::Net::HttpWebRequest::_ctor)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x43c8b60;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6113eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -550,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(
     ::System::Uri*, ::Mono::Net::Security::MobileTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*)>(&::System::Net::HttpWebRequest::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43c910c;
+  constexpr static std::size_t addrs = 0x611442c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -566,8 +565,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::HttpWebRequest::_ctor)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x43c9134;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6114454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -582,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::ResetAuthorization)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43c90fc;
+  constexpr static std::size_t addrs = 0x611441c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "ResetAuthorization",
@@ -595,7 +594,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Address)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9274;
+  constexpr static std::size_t addrs = 0x6114580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_Address",
@@ -607,8 +606,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_AllowAutoRedirect)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c927c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6114588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -622,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_AllowWriteStreamBuffering)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9288;
+  constexpr static std::size_t addrs = 0x6114590;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -635,8 +634,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_AllowWriteStreamBuffering)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c9290;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6114598;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -651,7 +650,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::DecompressionMethods (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_AutomaticDecompression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c929c;
+  constexpr static std::size_t addrs = 0x61145a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(),
@@ -665,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Net::DecompressionMethods)>(
     &::System::Net::HttpWebRequest::set_AutomaticDecompression)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43c92a4;
+  constexpr static std::size_t addrs = 0x61145a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -679,7 +678,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_InternalAllowBuffering)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x43c9324;
+  constexpr static std::size_t addrs = 0x6114624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(),
@@ -691,8 +690,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_MethodWithBuffer)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x43c9338;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6114638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_MethodWithBuffer",
@@ -706,7 +705,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_TlsProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9434;
+  constexpr static std::size_t addrs = 0x6114738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_TlsProvider",
@@ -720,7 +719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_TlsSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c943c;
+  constexpr static std::size_t addrs = 0x6114740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_TlsSettings",
@@ -733,8 +732,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_ClientCertificates)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43c9444;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6114748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ClientCertificates",
@@ -747,7 +746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::StringW)>(&::System::Net::HttpWebRequest::set_ConnectionGroupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c94a8;
+  constexpr static std::size_t addrs = 0x61147b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -761,7 +760,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_ContentLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c94b0;
+  constexpr static std::size_t addrs = 0x61147b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -775,7 +774,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(int64_t)>(&::System::Net::HttpWebRequest::set_ContentLength)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x43c94b8;
+  constexpr static std::size_t addrs = 0x61147c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -789,7 +788,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(int64_t)>(&::System::Net::HttpWebRequest::set_InternalContentLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9544;
+  constexpr static std::size_t addrs = 0x611484c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -803,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_ThrowOnError)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c954c;
+  constexpr static std::size_t addrs = 0x6114854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ThrowOnError",
@@ -815,8 +814,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_ThrowOnError)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c9554;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x611485c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -831,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Net::CookieContainer*)>(
     &::System::Net::HttpWebRequest::set_CookieContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9560;
+  constexpr static std::size_t addrs = 0x6114864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -845,7 +844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ICredentials* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Credentials)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9568;
+  constexpr static std::size_t addrs = 0x611486c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -860,7 +859,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Net::ICredentials*)>(
     &::System::Net::HttpWebRequest::set_Credentials)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9570;
+  constexpr static std::size_t addrs = 0x6114874;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -873,8 +872,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Net::HttpWebRequest::get_DefaultMaximumErrorResponseLength)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43c9578;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x611487c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -889,7 +888,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c95d0;
+  constexpr static std::size_t addrs = 0x61148d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -902,8 +901,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Host)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x43c95d8;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x61148e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_Host",
@@ -915,8 +914,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::StringW)>(&::System::Net::HttpWebRequest::set_Host)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x43c96e0;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x61149ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -930,8 +929,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)(::StringW, ::ByRef<::System::Uri*>)>(
     &::System::Net::HttpWebRequest::TryGetHostUri)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x43c9848;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6114b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -946,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_KeepAlive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9918;
+  constexpr static std::size_t addrs = 0x6114c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_KeepAlive",
@@ -958,8 +957,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_KeepAlive)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c9920;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6114c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -972,8 +971,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(int32_t)>(&::System::Net::HttpWebRequest::set_MaximumAutomaticRedirections)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43c992c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6114c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -986,8 +985,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Net::HttpWebRequest::get_DefaultMaximumResponseHeadersLength)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43c99a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6114cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1001,7 +1000,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_ReadWriteTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9a00;
+  constexpr static std::size_t addrs = 0x6114d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ReadWriteTimeout",
@@ -1014,7 +1013,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Method)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9a08;
+  constexpr static std::size_t addrs = 0x6114d24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1028,7 +1027,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::StringW)>(&::System::Net::HttpWebRequest::set_Method)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x43c9a10;
+  constexpr static std::size_t addrs = 0x6114d2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1041,8 +1040,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_PreAuthenticate)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43c9c38;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6114f54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1056,7 +1055,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_ProtocolVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9c44;
+  constexpr static std::size_t addrs = 0x6114f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ProtocolVersion",
@@ -1068,8 +1067,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Version*)>(&::System::Net::HttpWebRequest::set_ProtocolVersion)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x43c9c4c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6114f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1083,7 +1082,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IWebProxy* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Proxy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9d58;
+  constexpr static std::size_t addrs = 0x6115084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1097,7 +1096,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Net::IWebProxy*)>(&::System::Net::HttpWebRequest::set_Proxy)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43c9d60;
+  constexpr static std::size_t addrs = 0x611508c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1111,7 +1110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_RequestUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9eb8;
+  constexpr static std::size_t addrs = 0x61151e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1125,7 +1124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_SendChunked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9ec0;
+  constexpr static std::size_t addrs = 0x61151f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_SendChunked",
@@ -1138,7 +1137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_SendChunked)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x43c9ec8;
+  constexpr static std::size_t addrs = 0x61151f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1153,7 +1152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_ServicePoint)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43c9eec;
+  constexpr static std::size_t addrs = 0x611521c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ServicePoint",
@@ -1167,7 +1166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_ServicePointNoLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9ef0;
+  constexpr static std::size_t addrs = 0x6115220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ServicePointNoLock",
@@ -1180,7 +1179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Timeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c9ef8;
+  constexpr static std::size_t addrs = 0x6115228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1193,8 +1192,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(int32_t)>(&::System::Net::HttpWebRequest::set_Timeout)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x43c9f00;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6115230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1207,8 +1206,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_TransferEncoding)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x43c9f60;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x611528c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_TransferEncoding",
@@ -1220,8 +1219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_UseDefaultCredentials)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43c9fb4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x61152ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1236,7 +1235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_UnsafeAuthenticatedConnectionSharing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ca02c;
+  constexpr static std::size_t addrs = 0x6115368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1250,7 +1249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_ExpectContinue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ca034;
+  constexpr static std::size_t addrs = 0x6115370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ExpectContinue",
@@ -1262,8 +1261,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_ExpectContinue)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43ca03c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6115378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1277,7 +1276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_AuthUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ca048;
+  constexpr static std::size_t addrs = 0x6115380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_AuthUri",
@@ -1289,8 +1288,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_ProxyQuery)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x43ca050;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6115388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_ProxyQuery",
@@ -1304,7 +1303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServerCertValidationCallback* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_ServerCertValidationCallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ca084;
+  constexpr static std::size_t addrs = 0x61153b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1319,7 +1318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::RemoteCertificateValidationCallback* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::get_ServerCertificateValidationCallback)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x43ca08c;
+  constexpr static std::size_t addrs = 0x61153c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1333,8 +1332,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
     &::System::Net::HttpWebRequest::set_ServerCertificateValidationCallback)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43ca0a4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x61153d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1347,8 +1346,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServicePoint* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::GetServicePoint)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x43c9d8c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x61150b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "GetServicePoint",
@@ -1361,8 +1360,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebOperation* (
     ::System::Net::HttpWebRequest::*)(bool, ::System::Net::BufferOffsetSize*, ::System::Threading::CancellationToken)>(&::System::Net::HttpWebRequest::SendRequest)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x43ca784;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x6115ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1378,8 +1377,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (
     ::System::Net::HttpWebRequest::*)(::System::Threading::CancellationToken)>(&::System::Net::HttpWebRequest::MyGetRequestStreamAsync)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x43cab10;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x6115e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1393,8 +1392,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::HttpWebRequest::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::HttpWebRequest::BeginGetRequestStream)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x43caf54;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x611630c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1408,8 +1407,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Net::HttpWebRequest::*)(::System::IAsyncResult*)>(
     &::System::Net::HttpWebRequest::EndGetRequestStream)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x43cb00c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x61163c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1423,8 +1422,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::GetRequestStreamAsync)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x43cb1b0;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6116580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1438,8 +1437,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::HttpWebResponse*>* (
     ::System::Net::HttpWebRequest::*)(::System::Threading::CancellationToken)>(&::System::Net::HttpWebRequest::MyGetResponseAsync)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x43cb248;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x611661c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1454,8 +1453,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_5<::System::Net::HttpWebResponse*, bool, bool, ::System::Net::BufferOffsetSize*, ::System::Net::WebOperation*>>* (
         ::System::Net::HttpWebRequest::*)(::System::Net::WebResponseStream*, ::System::Threading::CancellationToken)>(&::System::Net::HttpWebRequest::GetResponseFromData)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x43cb33c;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x611670c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1469,8 +1468,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Net::HttpWebRequest::FlattenException)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x43cb434;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6116808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1484,8 +1483,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (::System::Net::HttpWebRequest::*)(::System::Exception*)>(
     &::System::Net::HttpWebRequest::GetWebException)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43cb12c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x61164f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1498,8 +1497,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (*)(::System::Exception*, bool)>(&::System::Net::HttpWebRequest::GetWebException)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x43cb4f0;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x61168cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1512,8 +1511,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebException* (*)()>(&::System::Net::HttpWebRequest::CreateRequestAbortedException)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x43cae98;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6116244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(),
@@ -1526,8 +1525,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::HttpWebRequest::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::HttpWebRequest::BeginGetResponse)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x43cb694;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x6116a7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1541,8 +1540,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebResponse* (::System::Net::HttpWebRequest::*)(::System::IAsyncResult*)>(
     &::System::Net::HttpWebRequest::EndGetResponse)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x43cb804;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x6116c30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1555,8 +1554,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebResponse* (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::GetResponse)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x43cb924;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x6116d60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1569,8 +1568,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(bool)>(&::System::Net::HttpWebRequest::set_FinishedReading)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43cba24;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6116e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1584,7 +1583,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::get_Aborted)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x43cae70;
+  constexpr static std::size_t addrs = 0x611621c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "get_Aborted",
@@ -1597,7 +1596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::Abort)> {
   constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x43cba30;
+  constexpr static std::size_t addrs = 0x6116e90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1613,7 +1612,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Net::HttpWebRequest::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Net::HttpWebRequest::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43cbb40;
+  constexpr static std::size_t addrs = 0x6116fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1630,7 +1629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Net::HttpWebRequest::GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43cbb78;
+  constexpr static std::size_t addrs = 0x6116fd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1643,8 +1642,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::CheckRequestStarted)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x43c92c8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x61145cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "CheckRequestStarted",
@@ -1658,7 +1657,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)(int32_t, ::System::Net::WebHeaderCollection*)>(
     &::System::Net::HttpWebRequest::DoContinueDelegate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43cbbb0;
+  constexpr static std::size_t addrs = 0x6117010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1672,8 +1671,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::RewriteRedirectToGet)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43cbbcc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x611702c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "RewriteRedirectToGet",
@@ -1686,8 +1685,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)(::System::Net::HttpStatusCode, ::System::Net::WebResponse*)>(
     &::System::Net::HttpWebRequest::Redirect)> {
-  constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x43cbc44;
+  constexpr static std::size_t size = 0x518;
+  constexpr static std::size_t addrs = 0x61170ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1701,8 +1700,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::GetHeaders)> {
-  constexpr static std::size_t size = 0x654;
-  constexpr static std::size_t addrs = 0x43cc10c;
+  constexpr static std::size_t size = 0x6c0;
+  constexpr static std::size_t addrs = 0x61175c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "GetHeaders",
@@ -1714,8 +1713,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::DoPreAuthenticate)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x43cc7fc;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x6117d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "DoPreAuthenticate",
@@ -1728,8 +1727,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::GetRequestHeaders)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x43cc9fc;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x6117f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), "GetRequestHeaders",
@@ -1742,8 +1741,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<::System::Net::WebOperation*, bool> (::System::Net::HttpWebRequest::*)(
     ::System::Net::WebResponseStream*, ::System::Net::HttpWebResponse*, ::System::Net::BufferOffsetSize*, ::System::Threading::CancellationToken)>(&::System::Net::HttpWebRequest::HandleNtlmAuth)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x43ccd08;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x6118258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1761,7 +1760,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::HttpWebRequest::*)(::System::Net::WebResponse*, ::System::Net::HttpStatusCode)>(
     &::System::Net::HttpWebRequest::CheckAuthorization)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x43ccf94;
+  constexpr static std::size_t addrs = 0x61184cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1778,7 +1777,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ValueTuple_2<::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>*, ::System::Net::WebException*> (::System::Net::HttpWebRequest::*)(
         ::System::Net::HttpWebResponse*, bool)>(&::System::Net::HttpWebRequest::GetRewriteHandler)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x43cd2c8;
+  constexpr static std::size_t addrs = 0x6118830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1794,8 +1793,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::ValueTuple_4<bool, bool, ::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>*, ::System::Net::WebException*> (::System::Net::HttpWebRequest::*)(
         ::System::Net::HttpWebResponse*)>(&::System::Net::HttpWebRequest::CheckFinalStatus)> {
-  constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x43cd4c8;
+  constexpr static std::size_t size = 0x414;
+  constexpr static std::size_t addrs = 0x6118a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1809,8 +1808,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::BufferOffsetSize*>* (::System::Net::HttpWebRequest::*)()>(
     &::System::Net::HttpWebRequest::_GetRewriteHandler_b__271_0)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43cd9f0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6118ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(),
@@ -1822,8 +1821,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpWebRequest::*)()>(&::System::Net::HttpWebRequest::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x43cdacc;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6118fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpWebRequest*>::get(), ".ctor",

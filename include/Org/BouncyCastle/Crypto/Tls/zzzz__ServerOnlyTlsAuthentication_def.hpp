@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ServerOnlyTlsAuthentication)
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -11,6 +10,9 @@ class CertificateRequest;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class Certificate;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAuthentication;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
@@ -21,7 +23,7 @@ class ServerOnlyTlsAuthentication;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsAuthentication, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.ServerOnlyTlsAuthentication
@@ -31,7 +33,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsAuthentication*() noexcept;
 
-  /// @brief Method GetClientCredentials, addr 0x241b174, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetClientCredentials, addr 0x33494cc, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetClientCredentials(::Org::BouncyCastle::Crypto::Tls::CertificateRequest* certificateRequest);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication* New_ctor();
@@ -39,7 +41,7 @@ public:
   /// @brief Method NotifyServerCertificate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void NotifyServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method .ctor, addr 0x241b17c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33494d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAuthentication"

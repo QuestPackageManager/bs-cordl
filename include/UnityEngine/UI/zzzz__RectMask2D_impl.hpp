@@ -1,8 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/RectMask2D.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
-#include "UnityEngine/UI/zzzz__IClipper_impl.hpp"
-#include "UnityEngine/zzzz__ICanvasRaycastFilter_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector2Int_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
@@ -10,10 +8,12 @@
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UI/zzzz__IClippable_def.hpp"
+#include "UnityEngine/UI/zzzz__IClipper_def.hpp"
 #include "UnityEngine/UI/zzzz__MaskableGraphic_def.hpp"
 #include "UnityEngine/UI/zzzz__RectangularVertexClipper_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Canvas_def.hpp"
+#include "UnityEngine/zzzz__ICanvasRaycastFilter_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector2Int_def.hpp"
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::get_padding)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ac20b0;
+  constexpr static std::size_t addrs = 0x6bce63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), "get_padding",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)(::UnityEngine::Vector4)>(&::UnityEngine::UI::RectMask2D::set_padding)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4ac20bc;
+  constexpr static std::size_t addrs = 0x6bce648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2Int (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::get_softness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac20cc;
+  constexpr static std::size_t addrs = 0x6bce658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), "get_softness",
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)(::UnityEngine::Vector2Int)>(&::UnityEngine::UI::RectMask2D::set_softness)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4ac20d4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6bce660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Canvas> (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::get_Canvas)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4ac20ec;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x6bce680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), "get_Canvas",
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::get_canvasRect)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4ac224c;
+  constexpr static std::size_t addrs = 0x6bce804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), "get_canvasRect",
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::RectMask2D::*)()>(
     &::UnityEngine::UI::RectMask2D::get_rectTransform)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4ac2290;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6bce848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), "get_rectTransform",
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::_ctor)> {
   constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4ac22e8;
+  constexpr static std::size_t addrs = 0x6bce8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), ".ctor",
@@ -131,8 +131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::OnEnable)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4ac244c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6bcea08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,8 +145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::OnDisable)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4ac2480;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6bcea30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::OnDestroy)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4ac2550;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6bceb04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,8 +174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::RectMask2D::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(
     &::UnityEngine::UI::RectMask2D::IsRaycastLocationValid)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4ac2570;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6bceb0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::get_rootCanvasRect)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4ac264c;
+  constexpr static std::size_t addrs = 0x6bcebf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RectMask2D*>::get(), "get_rootCanvasRect",
@@ -201,8 +201,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::PerformClipping)> {
-  constexpr static std::size_t size = 0x81c;
-  constexpr static std::size_t addrs = 0x4ac2748;
+  constexpr static std::size_t size = 0x648;
+  constexpr static std::size_t addrs = 0x6bcecf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,8 +215,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::UpdateClipSoftness)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4ac2f64;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x6bcf33c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)(::UnityEngine::UI::IClippable*)>(
     &::UnityEngine::UI::RectMask2D::AddClippable)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4ac325c;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6bcf5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -245,8 +245,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)(::UnityEngine::UI::IClippable*)>(
     &::UnityEngine::UI::RectMask2D::RemoveClippable)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4ac3370;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6bcf6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,8 +259,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::OnTransformParentChanged)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4ac3510;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6bcf89c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -273,8 +273,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RectMask2D::*)()>(&::UnityEngine::UI::RectMask2D::OnCanvasHierarchyChanged)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4ac3534;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6bcf8ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

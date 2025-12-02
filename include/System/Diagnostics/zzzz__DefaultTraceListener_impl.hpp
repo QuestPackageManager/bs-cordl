@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Diagnostics::DefaultTraceListener::GetPrefix)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x443232c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6182584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)()>(&::System::Diagnostics::DefaultTraceListener::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x442c284;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x617b258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Diagnostics::DefaultTraceListener::*)()>(
     &::System::Diagnostics::DefaultTraceListener::get_LogFileName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44323a8;
+  constexpr static std::size_t addrs = 0x6182610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(),
@@ -46,14 +46,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Diagnostics::DefaultTraceListener.WriteWindowsDebugString
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<char16_t>)>(&::System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(char16_t*)>(&::System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44323b0;
+  constexpr static std::size_t addrs = 0x6182618;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), "WriteWindowsDebugString", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), "WriteWindowsDebugString",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteDebugString)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x44323b4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x618261c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteMonoTrace)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4432464;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x61826ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)()>(&::System::Diagnostics::DefaultTraceListener::WritePrefix)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4432890;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6182ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(),
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteImpl)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4432918;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6182b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW, ::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteLogFile)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x4432618;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x6182874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,12 +136,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44329d4;
+  constexpr static std::size_t addrs = 0x6182bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 10));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 11));
     return ___internal_method;
   }
 };
@@ -151,12 +151,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::DefaultTraceListener::*)(::StringW)>(
     &::System::Diagnostics::DefaultTraceListener::WriteLine)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44329d8;
+  constexpr static std::size_t addrs = 0x6182bd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -208,10 +208,10 @@ inline ::StringW System::Diagnostics::DefaultTraceListener::get_LogFileName() {
                                                                              "get_LogFileName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString(::cordl_internals::Ptr<char16_t> message) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), "WriteWindowsDebugString", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline void System::Diagnostics::DefaultTraceListener::WriteWindowsDebugString(char16_t* message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), "WriteWindowsDebugString",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, message);
 }
 inline void System::Diagnostics::DefaultTraceListener::WriteDebugString(::StringW message) {
@@ -245,12 +245,12 @@ inline void System::Diagnostics::DefaultTraceListener::WriteLogFile(::StringW me
 }
 inline void System::Diagnostics::DefaultTraceListener::Write(::StringW message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 10)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
 inline void System::Diagnostics::DefaultTraceListener::WriteLine(::StringW message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::DefaultTraceListener*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
 }
 inline ::System::Diagnostics::DefaultTraceListener* System::Diagnostics::DefaultTraceListener::New_ctor() {

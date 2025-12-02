@@ -4,19 +4,48 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__MeshInfoBindings_def.hpp"
+#include "UnityEngine/zzzz__Color_def.hpp"
+#include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
 #include "UnityEngine/zzzz__GUIContent_def.hpp"
 #include "UnityEngine/zzzz__GUIStyleState_def.hpp"
+#include "UnityEngine/zzzz__GUIStyle_def.hpp"
 #include "UnityEngine/zzzz__ImagePosition_def.hpp"
 #include "UnityEngine/zzzz__RectOffset_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
+#include "UnityEngine/zzzz__TextAnchor_def.hpp"
+#include "UnityEngine/zzzz__TextClipping_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+//  Writing Method size for method: ::UnityEngine::GUIStyle_BindingsMarshaller.ConvertToNative
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::GUIStyle*)>(&::UnityEngine::GUIStyle_BindingsMarshaller::ConvertToNative)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6917db8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle_BindingsMarshaller*>::get(), "ConvertToNative", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get() })));
+    return ___internal_method;
+  }
+};
+inline ::System::IntPtr UnityEngine::GUIStyle_BindingsMarshaller::ConvertToNative(::UnityEngine::GUIStyle* guiStyle) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle_BindingsMarshaller*>::get(), "ConvertToNative", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, guiStyle);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::GUIStyle_BindingsMarshaller::GUIStyle_BindingsMarshaller() {}
 //  Writing Method size for method: ::UnityEngine::GUIStyle.get_rawName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_rawName)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfc70;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x69152b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_rawName",
@@ -28,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::StringW)>(&::UnityEngine::GUIStyle::set_rawName)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48dfcac;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x6915444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,12 +67,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_font
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_font)> {
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6915604;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_font",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle.get_imagePosition
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ImagePosition (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_imagePosition)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfcf0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x69157a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_imagePosition",
@@ -51,15 +93,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_alignment
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextAnchor (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_alignment)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915874;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_alignment",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.set_alignment
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::TextAnchor)>(&::UnityEngine::GUIStyle::set_alignment)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6915944;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_alignment", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle.get_wordWrap
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_wordWrap)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfd2c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_wordWrap",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_clipping
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextClipping (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_clipping)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915afc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_clipping",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_contentOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_contentOffset)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6915bcc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_contentOffset",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -68,8 +163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_fixedWidth)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfd68;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedWidth",
@@ -81,8 +176,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_fixedHeight)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfda4;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedHeight",
@@ -94,8 +189,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_stretchWidth)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfde0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_stretchWidth",
@@ -107,8 +202,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(bool)>(&::UnityEngine::GUIStyle::set_stretchWidth)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ddc8c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6913448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,8 +216,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_stretchHeight)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfe1c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6915f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_stretchHeight",
@@ -134,8 +229,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(bool)>(&::UnityEngine::GUIStyle::set_stretchHeight)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48df540;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6914b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,12 +239,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_fontSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_fontSize)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6916084;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontSize",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_fontStyle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::FontStyle (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_fontStyle)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6916154;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontStyle",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_richText
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_richText)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6916224;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_richText",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_Create
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::GUIStyle*)>(&::UnityEngine::GUIStyle::Internal_Create)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfe58;
+  constexpr static std::size_t addrs = 0x69162f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::Internal_Destroy)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48dfe94;
+  constexpr static std::size_t addrs = 0x6916330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,8 +310,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::UnityEngine::GUIStyle::*)(int32_t)>(&::UnityEngine::GUIStyle::GetStyleStatePtr)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48dfed0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x691636c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,8 +324,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::UnityEngine::GUIStyle::*)(int32_t)>(&::UnityEngine::GUIStyle::GetRectOffsetPtr)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48dff14;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6916454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,8 +339,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, bool, bool, bool, bool)>(
     &::UnityEngine::GUIStyle::Internal_Draw)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48dff58;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x691653c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,8 +357,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, int32_t, bool)>(
     &::UnityEngine::GUIStyle::Internal_Draw2)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48e0068;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x69166ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,8 +374,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*, ::UnityEngine::Vector2)>(
     &::UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x48e0148;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x69167ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,8 +390,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*, float_t)>(
     &::UnityEngine::GUIStyle::Internal_CalcHeight)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48e0208;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x691690c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,8 +406,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*)>(
     &::UnityEngine::GUIStyle::Internal_CalcMinMaxWidth)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e025c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6916a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,12 +416,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_GetTextRectOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, ::UnityEngine::Vector2)>(&::UnityEngine::GUIStyle::Internal_GetTextRectOffset)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6916b1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_GetTextRectOffset", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle.SetMouseTooltip
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Rect)>(&::UnityEngine::GUIStyle::SetMouseTooltip)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48d8f00;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x690e4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,8 +452,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::GUIStyle::IsTooltipActive)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48d8ec4;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x690e364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,8 +466,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Font*)>(&::UnityEngine::GUIStyle::SetDefaultFont)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48de33c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6913b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -325,12 +476,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetDefaultFont
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (*)()>(&::UnityEngine::GUIStyle::GetDefaultFont)> {
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6916d14;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetDefaultFont",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_DestroyTextGenerator
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::GUIStyle::Internal_DestroyTextGenerator)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6916e78;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_DestroyTextGenerator", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x48ddc04;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x69133c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), ".ctor",
@@ -342,8 +520,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::Finalize)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x48e0350;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6916eb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -356,8 +534,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_name)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48df4f4;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6914b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_name",
@@ -369,8 +547,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::StringW)>(&::UnityEngine::GUIStyle::set_name)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48de5dc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6913e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -383,8 +561,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyleState* (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_normal)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48df584;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6914c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_normal",
@@ -396,8 +574,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectOffset* (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_margin)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48e0460;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6916f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_margin",
@@ -409,11 +587,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RectOffset* (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_padding)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48e0500;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6916fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_padding",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_lineHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_lineHeight)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6917050;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_lineHeight",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -423,8 +614,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, bool, bool, bool, bool)>(
     &::UnityEngine::GUIStyle::Draw)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x48d8e60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x690e310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,7 +633,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, int32_t)>(
     &::UnityEngine::GUIStyle::Draw)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x48d93b8;
+  constexpr static std::size_t addrs = 0x690ea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -458,8 +649,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, int32_t, bool, bool)>(
     &::UnityEngine::GUIStyle::Draw)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x48d8d90;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x690e23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, int32_t, bool, bool, bool, bool)>(
     &::UnityEngine::GUIStyle::Draw)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48e05a0;
+  constexpr static std::size_t addrs = 0x6917214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,12 +685,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::GUIStyle* (*)()>(&::UnityEngine::GUIStyle::get_none)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x48d9330;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x690e9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_none",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetCursorPixelPosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)(::UnityEngine::Rect, ::UnityEngine::GUIContent*, int32_t)>(
+    &::UnityEngine::GUIStyle::GetCursorPixelPosition)> {
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6917368;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetCursorPixelPosition", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -508,8 +716,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*, ::UnityEngine::Vector2)>(
     &::UnityEngine::GUIStyle::CalcSizeWithConstraints)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48dd944;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6913124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,8 +731,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*, float_t)>(&::UnityEngine::GUIStyle::CalcHeight)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48e06ec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6917648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -534,12 +742,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetPreferredSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::GUIStyle::*)(::StringW, ::UnityEngine::Rect)>(
+    &::UnityEngine::GUIStyle::GetPreferredSize)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x691764c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetPreferredSize", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle.get_isHeightDependantOnWidth
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::get_isHeightDependantOnWidth)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x48dd7c4;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6913008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_isHeightDependantOnWidth",
@@ -553,7 +777,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*, ::ByRef<float_t>, ::ByRef<float_t>)>(
     &::UnityEngine::GUIStyle::CalcMinMaxWidth)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48e0740;
+  constexpr static std::size_t addrs = 0x6917750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -568,8 +792,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::GUIStyle::*)()>(&::UnityEngine::GUIStyle::ToString)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48e0768;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6917778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -578,18 +802,372 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetMeshInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ::UnityEngine::GUIStyle*, ::UnityEngine::Color, ::StringW, ::UnityEngine::Rect,
+    ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MeshInfoBindings, ::Array<::UnityEngine::TextCore::Text::MeshInfoBindings>*>>, ::ByRef<::UnityEngine::Vector2>, ::ByRef<int32_t>)>(
+    &::UnityEngine::GUIStyle::GetMeshInfo)> {
+  constexpr static std::size_t size = 0x2a4;
+  constexpr static std::size_t addrs = 0x6917844;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetMeshInfo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MeshInfoBindings, ::Array<::UnityEngine::TextCore::Text::MeshInfoBindings>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetDimensions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::GUIStyle*, ::UnityEngine::Color, ::StringW, ::UnityEngine::Rect, ::ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::GUIStyle::GetDimensions)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6917c18;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetDimensions", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetLineHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GUIStyle*, ::ByRef<float_t>)>(&::UnityEngine::GUIStyle::GetLineHeight)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6917c48;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetLineHeight", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.EmptyManagedCache
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::GUIStyle::EmptyManagedCache)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6917c68;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "EmptyManagedCache",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_rawName_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::GUIStyle::get_rawName_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6915400;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_rawName_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.set_rawName_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::GUIStyle::set_rawName_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x69155c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_rawName_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_font_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_font_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915768;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_font_Injected", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_imagePosition_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ImagePosition (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_imagePosition_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915838;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_imagePosition_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_alignment_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextAnchor (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_alignment_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915908;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_alignment_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.set_alignment_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::TextAnchor)>(&::UnityEngine::GUIStyle::set_alignment_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x69159e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_alignment_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_wordWrap_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_wordWrap_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915ac0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_wordWrap_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_clipping_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextClipping (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_clipping_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915b90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_clipping_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_contentOffset_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::GUIStyle::get_contentOffset_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6915c78;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_contentOffset_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_fixedWidth_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_fixedWidth_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915d50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedWidth_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_fixedHeight_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_fixedHeight_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915e20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_stretchWidth_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_stretchWidth_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6915ef0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_stretchWidth_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.set_stretchWidth_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::GUIStyle::set_stretchWidth_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6915f2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_stretchWidth_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_stretchHeight_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_stretchHeight_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6916004;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_stretchHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.set_stretchHeight_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::UnityEngine::GUIStyle::set_stretchHeight_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6916040;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_stretchHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_fontSize_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_fontSize_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6916118;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontSize_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_fontStyle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::FontStyle (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_fontStyle_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x69161e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontStyle_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.get_richText_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::get_richText_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x69162b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_richText_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetStyleStatePtr_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::UnityEngine::GUIStyle::GetStyleStatePtr_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6916410;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetStyleStatePtr_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetRectOffsetPtr_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::UnityEngine::GUIStyle::GetRectOffsetPtr_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x69164f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetRectOffsetPtr_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_Draw_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::ByRef<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, bool, bool, bool, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, bool, bool, bool, bool)>(
     &::UnityEngine::GUIStyle::Internal_Draw_Injected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48dffe4;
+  constexpr static std::size_t addrs = 0x6916628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_Draw_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
@@ -599,15 +1177,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_Draw2_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::ByRef<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, int32_t, bool)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, int32_t, bool)>(
     &::UnityEngine::GUIStyle::Internal_Draw2_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48e00dc;
+  constexpr static std::size_t addrs = 0x6916780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_Draw2_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
@@ -616,48 +1195,127 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_CalcSizeWithConstraints_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(
-    ::UnityEngine::GUIContent*, ::ByRef<::UnityEngine::Vector2>, ::ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::GUIContent*, ::ByRef<::UnityEngine::Vector2>,
+                                                                                           ::ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e01ac;
+  constexpr static std::size_t addrs = 0x69168b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_CalcSizeWithConstraints_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_CalcHeight_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr, ::UnityEngine::GUIContent*, float_t)>(
+    &::UnityEngine::GUIStyle::Internal_CalcHeight_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x69169c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_CalcHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_CalcMinMaxWidth_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIStyle::*)(::UnityEngine::GUIContent*, ::ByRef<::UnityEngine::Vector2>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::GUIContent*, ::ByRef<::UnityEngine::Vector2>)>(
     &::UnityEngine::GUIStyle::Internal_CalcMinMaxWidth_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48e02b8;
+  constexpr static std::size_t addrs = 0x6916ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_CalcMinMaxWidth_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.Internal_GetTextRectOffset_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Rect>, ::UnityEngine::GUIContent*, ::ByRef<::UnityEngine::Vector2>,
+                                                                                           ::ByRef<::UnityEngine::Vector2>)>(&::UnityEngine::GUIStyle::Internal_GetTextRectOffset_Injected)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6916bec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_GetTextRectOffset_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::GUIStyle.SetMouseTooltip_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::UnityEngine::Rect>)>(&::UnityEngine::GUIStyle::SetMouseTooltip_Injected)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Rect>)>(
+    &::UnityEngine::GUIStyle::SetMouseTooltip_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48e030c;
+  constexpr static std::size_t addrs = 0x6916c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "SetMouseTooltip_Injected", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.IsTooltipActive_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(&::UnityEngine::GUIStyle::IsTooltipActive_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6916c9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "IsTooltipActive_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.SetDefaultFont_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::GUIStyle::SetDefaultFont_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6916cd8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "SetDefaultFont_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::GUIStyle.GetDefaultFont_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::UnityEngine::GUIStyle::GetDefaultFont_Injected)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6916e50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetDefaultFont_Injected",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -853,15 +1511,41 @@ inline void UnityEngine::GUIStyle::set_rawName(::StringW value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::UnityW<::UnityEngine::Font> UnityEngine::GUIStyle::get_font() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_font",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(this, ___internal_method);
+}
 inline ::UnityEngine::ImagePosition UnityEngine::GUIStyle::get_imagePosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_imagePosition",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ImagePosition, false>(this, ___internal_method);
 }
+inline ::UnityEngine::TextAnchor UnityEngine::GUIStyle::get_alignment() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_alignment",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextAnchor, false>(this, ___internal_method);
+}
+inline void UnityEngine::GUIStyle::set_alignment(::UnityEngine::TextAnchor value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_alignment", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline bool UnityEngine::GUIStyle::get_wordWrap() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_wordWrap",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::TextClipping UnityEngine::GUIStyle::get_clipping() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_clipping",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextClipping, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 UnityEngine::GUIStyle::get_contentOffset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_contentOffset",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
 inline float_t UnityEngine::GUIStyle::get_fixedWidth() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedWidth",
@@ -894,6 +1578,21 @@ inline void UnityEngine::GUIStyle::set_stretchHeight(bool value) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_stretchHeight", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline int32_t UnityEngine::GUIStyle::get_fontSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontSize",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::UnityEngine::FontStyle UnityEngine::GUIStyle::get_fontStyle() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontStyle",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::FontStyle, false>(this, ___internal_method);
+}
+inline bool UnityEngine::GUIStyle::get_richText() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_richText",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::IntPtr UnityEngine::GUIStyle::Internal_Create(::UnityEngine::GUIStyle* self) {
   static auto* ___internal_method =
@@ -956,6 +1655,14 @@ inline ::UnityEngine::Vector2 UnityEngine::GUIStyle::Internal_CalcMinMaxWidth(::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, content);
 }
+inline ::UnityEngine::Vector2 UnityEngine::GUIStyle::Internal_GetTextRectOffset(::UnityEngine::Rect screenRect, ::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 textSize) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_GetTextRectOffset", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, screenRect, content, textSize);
+}
 inline void UnityEngine::GUIStyle::SetMouseTooltip(::StringW tooltip, ::UnityEngine::Rect screenRect) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "SetMouseTooltip", std::span<Il2CppClass const* const, 0>(),
@@ -974,6 +1681,17 @@ inline void UnityEngine::GUIStyle::SetDefaultFont(::UnityEngine::Font* font) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "SetDefaultFont", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, font);
+}
+inline ::UnityW<::UnityEngine::Font> UnityEngine::GUIStyle::GetDefaultFont() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetDefaultFont",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::GUIStyle::Internal_DestroyTextGenerator(int32_t meshInfoId) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_DestroyTextGenerator",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, meshInfoId);
 }
 inline void UnityEngine::GUIStyle::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), ".ctor",
@@ -1010,6 +1728,11 @@ inline ::UnityEngine::RectOffset* UnityEngine::GUIStyle::get_padding() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_padding",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::RectOffset*, false>(this, ___internal_method);
+}
+inline float_t UnityEngine::GUIStyle::get_lineHeight() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_lineHeight",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline void UnityEngine::GUIStyle::Draw(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1052,6 +1775,14 @@ inline ::UnityEngine::GUIStyle* UnityEngine::GUIStyle::get_none() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::GUIStyle*, false>(nullptr, ___internal_method);
 }
+inline ::UnityEngine::Vector2 UnityEngine::GUIStyle::GetCursorPixelPosition(::UnityEngine::Rect position, ::UnityEngine::GUIContent* content, int32_t cursorStringIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetCursorPixelPosition", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, position, content, cursorStringIndex);
+}
 inline ::UnityEngine::Vector2 UnityEngine::GUIStyle::CalcSizeWithConstraints(::UnityEngine::GUIContent* content, ::UnityEngine::Vector2 constraints) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "CalcSizeWithConstraints", std::span<Il2CppClass const* const, 0>(),
@@ -1065,6 +1796,13 @@ inline float_t UnityEngine::GUIStyle::CalcHeight(::UnityEngine::GUIContent* cont
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, content, width);
+}
+inline ::UnityEngine::Vector2 UnityEngine::GUIStyle::GetPreferredSize(::StringW content, ::UnityEngine::Rect rect) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetPreferredSize", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, content, rect);
 }
 inline bool UnityEngine::GUIStyle::get_isHeightDependantOnWidth() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_isHeightDependantOnWidth",
@@ -1084,44 +1822,242 @@ inline ::StringW UnityEngine::GUIStyle::ToString() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), 3)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::GUIStyle::Internal_Draw_Injected(::ByRef<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive, bool on, bool hasKeyboardFocus) {
+inline void UnityEngine::GUIStyle::GetMeshInfo(::UnityEngine::GUIStyle* style, ::UnityEngine::Color color, ::StringW content, ::UnityEngine::Rect rect,
+                                               ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MeshInfoBindings, ::Array<::UnityEngine::TextCore::Text::MeshInfoBindings>*>> meshInfos,
+                                               ::ByRef<::UnityEngine::Vector2> dimensions, ::ByRef<int32_t> generationId) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetMeshInfo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MeshInfoBindings, ::Array<::UnityEngine::TextCore::Text::MeshInfoBindings>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, style, color, content, rect, meshInfos, dimensions, generationId);
+}
+inline void UnityEngine::GUIStyle::GetDimensions(::UnityEngine::GUIStyle* style, ::UnityEngine::Color color, ::StringW content, ::UnityEngine::Rect rect, ::ByRef<::UnityEngine::Vector2> dimensions) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetDimensions", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, style, color, content, rect, dimensions);
+}
+inline void UnityEngine::GUIStyle::GetLineHeight(::UnityEngine::GUIStyle* style, ::ByRef<float_t> lineHeight) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetLineHeight", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIStyle*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, style, lineHeight);
+}
+inline void UnityEngine::GUIStyle::EmptyManagedCache() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "EmptyManagedCache",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::GUIStyle::get_rawName_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_rawName_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
+}
+inline void UnityEngine::GUIStyle::set_rawName_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_rawName_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline ::System::IntPtr UnityEngine::GUIStyle::get_font_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_font_Injected", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, _unity_self);
+}
+inline ::UnityEngine::ImagePosition UnityEngine::GUIStyle::get_imagePosition_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_imagePosition_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ImagePosition, false>(nullptr, ___internal_method, _unity_self);
+}
+inline ::UnityEngine::TextAnchor UnityEngine::GUIStyle::get_alignment_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_alignment_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextAnchor, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::GUIStyle::set_alignment_Injected(::System::IntPtr _unity_self, ::UnityEngine::TextAnchor value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_alignment_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline bool UnityEngine::GUIStyle::get_wordWrap_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_wordWrap_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
+}
+inline ::UnityEngine::TextClipping UnityEngine::GUIStyle::get_clipping_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_clipping_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextClipping, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::GUIStyle::get_contentOffset_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector2> ret) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_contentOffset_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
+}
+inline float_t UnityEngine::GUIStyle::get_fixedWidth_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedWidth_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline float_t UnityEngine::GUIStyle::get_fixedHeight_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fixedHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline bool UnityEngine::GUIStyle::get_stretchWidth_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_stretchWidth_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::GUIStyle::set_stretchWidth_Injected(::System::IntPtr _unity_self, bool value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_stretchWidth_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline bool UnityEngine::GUIStyle::get_stretchHeight_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_stretchHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::GUIStyle::set_stretchHeight_Injected(::System::IntPtr _unity_self, bool value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "set_stretchHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline int32_t UnityEngine::GUIStyle::get_fontSize_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontSize_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
+}
+inline ::UnityEngine::FontStyle UnityEngine::GUIStyle::get_fontStyle_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_fontStyle_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::FontStyle, false>(nullptr, ___internal_method, _unity_self);
+}
+inline bool UnityEngine::GUIStyle::get_richText_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "get_richText_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
+}
+inline ::System::IntPtr UnityEngine::GUIStyle::GetStyleStatePtr_Injected(::System::IntPtr _unity_self, int32_t idx) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetStyleStatePtr_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, _unity_self, idx);
+}
+inline ::System::IntPtr UnityEngine::GUIStyle::GetRectOffsetPtr_Injected(::System::IntPtr _unity_self, int32_t idx) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetRectOffsetPtr_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, _unity_self, idx);
+}
+inline void UnityEngine::GUIStyle::Internal_Draw_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content, bool isHover, bool isActive,
+                                                          bool on, bool hasKeyboardFocus) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_Draw_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
+      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, screenRect, content, isHover, isActive, on, hasKeyboardFocus);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, screenRect, content, isHover, isActive, on, hasKeyboardFocus);
 }
-inline void UnityEngine::GUIStyle::Internal_Draw2_Injected(::ByRef<::UnityEngine::Rect> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on) {
+inline void UnityEngine::GUIStyle::Internal_Draw2_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> position, ::UnityEngine::GUIContent* content, int32_t controlID, bool on) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_Draw2_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, position, content, controlID, on);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, position, content, controlID, on);
 }
-inline void UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected(::UnityEngine::GUIContent* content, ::ByRef<::UnityEngine::Vector2> maxSize, ::ByRef<::UnityEngine::Vector2> ret) {
+inline void UnityEngine::GUIStyle::Internal_CalcSizeWithConstraints_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::ByRef<::UnityEngine::Vector2> maxSize,
+                                                                             ::ByRef<::UnityEngine::Vector2> ret) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_CalcSizeWithConstraints_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content, maxSize, ret);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, content, maxSize, ret);
 }
-inline void UnityEngine::GUIStyle::Internal_CalcMinMaxWidth_Injected(::UnityEngine::GUIContent* content, ::ByRef<::UnityEngine::Vector2> ret) {
+inline float_t UnityEngine::GUIStyle::Internal_CalcHeight_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, float_t width) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_CalcHeight_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, _unity_self, content, width);
+}
+inline void UnityEngine::GUIStyle::Internal_CalcMinMaxWidth_Injected(::System::IntPtr _unity_self, ::UnityEngine::GUIContent* content, ::ByRef<::UnityEngine::Vector2> ret) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_CalcMinMaxWidth_Injected", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
+                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content, ret);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, content, ret);
 }
-inline void UnityEngine::GUIStyle::SetMouseTooltip_Injected(::StringW tooltip, ::ByRef<::UnityEngine::Rect> screenRect) {
+inline void UnityEngine::GUIStyle::Internal_GetTextRectOffset_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Rect> screenRect, ::UnityEngine::GUIContent* content,
+                                                                       ::ByRef<::UnityEngine::Vector2> textSize, ::ByRef<::UnityEngine::Vector2> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "Internal_GetTextRectOffset_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GUIContent*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector2>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, screenRect, content, textSize, ret);
+}
+inline void UnityEngine::GUIStyle::SetMouseTooltip_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip, ::ByRef<::UnityEngine::Rect> screenRect) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "SetMouseTooltip_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, tooltip, screenRect);
+}
+inline bool UnityEngine::GUIStyle::IsTooltipActive_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> tooltip) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "IsTooltipActive_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, tooltip);
+}
+inline void UnityEngine::GUIStyle::SetDefaultFont_Injected(::System::IntPtr font) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "SetDefaultFont_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, font);
+}
+inline ::System::IntPtr UnityEngine::GUIStyle::GetDefaultFont_Injected() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIStyle*>::get(), "GetDefaultFont_Injected",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method);
 }
 inline ::UnityEngine::GUIStyle* UnityEngine::GUIStyle::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::GUIStyle*>());

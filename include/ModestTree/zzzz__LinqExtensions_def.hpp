@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinqExtensions)
@@ -30,6 +25,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Linq {
@@ -37,6 +35,9 @@ template <typename TKey, typename TElement> class IGrouping_2;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -125,7 +126,7 @@ public:
   LinqExtensions___c__8_1(LinqExtensions___c__8_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13932 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -172,7 +173,7 @@ public:
   LinqExtensions___c__DisplayClass10_0_1(LinqExtensions___c__DisplayClass10_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13933 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   T ___value;
@@ -181,8 +182,7 @@ public:
 };
 // Non member Declarations
 } // namespace ModestTree
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace ModestTree {
 // cpp template
 template <typename T>
@@ -311,7 +311,7 @@ public:
   LinqExtensions__Yield_d__0_1(LinqExtensions__Yield_d__0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13934 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -393,7 +393,7 @@ public:
   LinqExtensions(LinqExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13935 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

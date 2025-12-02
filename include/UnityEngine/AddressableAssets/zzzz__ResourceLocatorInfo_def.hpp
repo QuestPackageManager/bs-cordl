@@ -55,7 +55,7 @@ public:
   static inline ::UnityEngine::AddressableAssets::ResourceLocatorInfo* New_ctor(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc, ::StringW localHash,
                                                                                 ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation);
 
-  /// @brief Method UpdateContent, addr 0x44de27c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method UpdateContent, addr 0x622d878, size 0xc, virtual false, abstract: false, final false
   inline void UpdateContent(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator, ::StringW hash,
                             ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* loc);
 
@@ -83,38 +83,38 @@ public:
 
   constexpr void __cordl_internal_set__Locator_k__BackingField(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
-  /// @brief Method .ctor, addr 0x44de240, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622d86c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* loc, ::StringW localHash,
                     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* remoteCatalogLocation);
 
-  /// @brief Method get_CanUpdateContent, addr 0x44dce14, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method get_CanUpdateContent, addr 0x622c464, size 0x1ac, virtual false, abstract: false, final false
   inline bool get_CanUpdateContent();
 
-  /// @brief Method get_CatalogLocation, addr 0x44de21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CatalogLocation, addr 0x622d84c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_CatalogLocation();
 
-  /// @brief Method get_ContentUpdateAvailable, addr 0x44de22c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContentUpdateAvailable, addr 0x622d85c, size 0x8, virtual false, abstract: false, final false
   inline bool get_ContentUpdateAvailable();
 
-  /// @brief Method get_HashLocation, addr 0x44dd0b4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method get_HashLocation, addr 0x622c6fc, size 0x124, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* get_HashLocation();
 
-  /// @brief Method get_LocalHash, addr 0x44de20c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LocalHash, addr 0x622d83c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_LocalHash();
 
-  /// @brief Method get_Locator, addr 0x44de1fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Locator, addr 0x622d82c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* get_Locator();
 
-  /// @brief Method set_CatalogLocation, addr 0x44de224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CatalogLocation, addr 0x622d854, size 0x8, virtual false, abstract: false, final false
   inline void set_CatalogLocation(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value);
 
-  /// @brief Method set_ContentUpdateAvailable, addr 0x44de234, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ContentUpdateAvailable, addr 0x622d864, size 0x8, virtual false, abstract: false, final false
   inline void set_ContentUpdateAvailable(bool value);
 
-  /// @brief Method set_LocalHash, addr 0x44de214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LocalHash, addr 0x622d844, size 0x8, virtual false, abstract: false, final false
   inline void set_LocalHash(::StringW value);
 
-  /// @brief Method set_Locator, addr 0x44de204, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Locator, addr 0x622d834, size 0x8, virtual false, abstract: false, final false
   inline void set_Locator(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* value);
 
 protected:
@@ -132,7 +132,7 @@ public:
   ResourceLocatorInfo(ResourceLocatorInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19470 };
 
   /// @brief Field <Locator>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* ____Locator_k__BackingField;

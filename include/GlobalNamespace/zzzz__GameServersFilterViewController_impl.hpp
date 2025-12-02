@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameServersFilter* (::GlobalNamespace::GameServersFilterViewController::*)()>(
     &::GlobalNamespace::GameServersFilterViewController::get_gameServersFilter)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b6c7f0;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5757444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(::GlobalNamespace::GameServersFilter*)>(
     &::GlobalNamespace::GameServersFilterViewController::SetupGameServersFilter)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b6c8fc;
+  constexpr static std::size_t addrs = 0x5757574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::GameServersFilterViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3b6ca24;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5757694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)()>(
     &::GlobalNamespace::GameServersFilterViewController::OnDestroy)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b6cb74;
+  constexpr static std::size_t addrs = 0x575785c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(::GlobalNamespace::GameServersFilter*)>(
     &::GlobalNamespace::GameServersFilterViewController::Refresh)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3b6c900;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5757578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)()>(
     &::GlobalNamespace::GameServersFilterViewController::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b6cb9c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5757884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServersFilterViewController*>::get(),
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool)>(
     &::GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b6cbfc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57578e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool)>(
     &::GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_1)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b6cc1c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5757904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServersFilterViewController::*)(bool)>(
     &::GlobalNamespace::GameServersFilterViewController::_DidActivate_b__16_2)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b6cc3c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5757920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

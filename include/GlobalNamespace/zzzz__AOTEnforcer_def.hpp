@@ -18,12 +18,12 @@ namespace GlobalNamespace {
 class CORDL_TYPE AOTEnforcer : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  /// @brief Method Awake, addr 0x39bd30c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5637460, size 0x6c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AOTEnforcer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39bd370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56374cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   AOTEnforcer(AOTEnforcer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22759 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

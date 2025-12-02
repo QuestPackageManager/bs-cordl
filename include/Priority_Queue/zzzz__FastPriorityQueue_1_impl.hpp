@@ -1,17 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Priority_Queue/FastPriorityQueue_1.hpp"
-#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_impl.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Priority_Queue/zzzz__FastPriorityQueue_1_def.hpp"
 #include "Priority_Queue/zzzz__FastPriorityQueue_1_def.hpp"
+#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> constexpr int32_t& Priority_Queue::FastPriorityQueue_1__GetEnumerator_d__22<T>::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

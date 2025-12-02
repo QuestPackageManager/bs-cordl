@@ -63,6 +63,14 @@ inline void Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1<T>::Ex
 }
 // Ctor Parameters []
 template <typename T> constexpr ::Unity::Jobs::IJobParallelForExtensions_ParallelForJobStruct_1<T>::IJobParallelForExtensions_ParallelForJobStruct_1() {}
+template <typename T> inline void Unity::Jobs::IJobParallelForExtensions::EarlyJobInit() {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobParallelForExtensions*>::get(), "EarlyJobInit",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }, ::std::span<Il2CppType const* const, 0>())));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+}
 template <typename T> inline ::System::IntPtr Unity::Jobs::IJobParallelForExtensions::GetReflectionData() {
   static auto* ___internal_method_base =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobParallelForExtensions*>::get(), "GetReflectionData",
@@ -82,6 +90,15 @@ inline ::Unity::Jobs::JobHandle Unity::Jobs::IJobParallelForExtensions::Schedule
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(nullptr, ___internal_method, jobData, arrayLength, innerloopBatchCount, dependsOn);
+}
+template <typename T> inline void Unity::Jobs::IJobParallelForExtensions::Run(T jobData, int32_t arrayLength) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::IJobParallelForExtensions*>::get(), "Run",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, jobData, arrayLength);
 }
 // Ctor Parameters []
 constexpr ::Unity::Jobs::IJobParallelForExtensions::IJobParallelForExtensions() {}

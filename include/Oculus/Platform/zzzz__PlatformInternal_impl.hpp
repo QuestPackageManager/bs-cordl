@@ -70,7 +70,6 @@ constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platf
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::Room_GetNamedRooms{ static_cast<uint32_t>(0x77d6e8cu) };
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::Room_GetSocialRooms{ static_cast<uint32_t>(0x61881d76u) };
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::User_CancelRecordingForReportFlow{ static_cast<uint32_t>(0x3e0d149u) };
-constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::User_GetLinkedAccounts{ static_cast<uint32_t>(0x5793f456u) };
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::User_GetUserCapabilities{ static_cast<uint32_t>(0x121c317cu) };
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::User_LaunchReportFlow{ static_cast<uint32_t>(0x5662a011u) };
 constexpr ::Oculus::Platform::PlatformInternal_MessageTypeInternal Oculus::Platform::PlatformInternal_MessageTypeInternal::User_LaunchReportFlow2{ static_cast<uint32_t>(0x7f835863u) };
@@ -87,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::HttpTransferUpdate*>*)>(
     &::Oculus::Platform::PlatformInternal_HTTP::SetHttpTransferUpdateCallback)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3f8cd44;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bd67d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,8 +110,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LinkedAccountList*>* (*)(::ArrayW<::Oculus::Platform::ServiceProvider, ::Array<::Oculus::Platform::ServiceProvider>*>)>(
         &::Oculus::Platform::PlatformInternal_Users::GetLinkedAccounts)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3f8cdb8;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x5bd684c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,8 +135,8 @@ constexpr ::Oculus::Platform::PlatformInternal_Users::PlatformInternal_Users() {
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::PlatformInternal::CrashApplication)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f8cae4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5bd656c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::PlatformInternal*>::get(), "CrashApplication",
@@ -151,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message* (*)(::System::IntPtr, ::Oculus::Platform::Message_MessageType)>(
     &::Oculus::Platform::PlatformInternal::ParseMessageHandle)> {
   constexpr static std::size_t size = 0x868;
-  constexpr static std::size_t addrs = 0x3f7cba4;
+  constexpr static std::size_t addrs = 0x5bc33c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -166,8 +165,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* (*)(uint64_t, ::StringW)>(
     &::Oculus::Platform::PlatformInternal::InitializeStandaloneAsync)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3f8cb30;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x5bd65bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

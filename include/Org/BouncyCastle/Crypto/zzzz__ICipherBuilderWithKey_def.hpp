@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilder_def.hpp"
 CORDL_MODULE_EXPORT(ICipherBuilderWithKey)
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilder;
+}
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
 }
@@ -14,7 +16,7 @@ class ICipherBuilderWithKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ICipherBuilderWithKey);
-// Dependencies Org.BouncyCastle.Crypto.ICipherBuilder
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.ICipherBuilderWithKey

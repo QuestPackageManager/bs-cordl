@@ -39,36 +39,36 @@ public:
   __declspec(property(get = __cordl_internal_get_m_ShouldSendCompatibilityMouseEvents, put = __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents)) ::ArrayW<bool, ::Array<bool>*>
       m_ShouldSendCompatibilityMouseEvents;
 
-  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x4a4693c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ActivateCompatibilityMouseEvents, addr 0x6b87414, size 0x34, virtual false, abstract: false, final false
   inline void ActivateCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method CapturePointer, addr 0x4a46554, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method CapturePointer, addr 0x6b86fbc, size 0x134, virtual false, abstract: false, final false
   inline void CapturePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method GetCapturingElement, addr 0x4a401dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetCapturingElement, addr 0x6b805e8, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* GetCapturingElement(int32_t pointerId);
 
-  /// @brief Method HasPointerCapture, addr 0x4a4651c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasPointerCapture, addr 0x6b86f84, size 0x38, virtual false, abstract: false, final false
   inline bool HasPointerCapture(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
   static inline ::UnityEngine::UIElements::PointerDispatchState* New_ctor();
 
-  /// @brief Method PreventCompatibilityMouseEvents, addr 0x4a46a34, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method PreventCompatibilityMouseEvents, addr 0x6b8751c, size 0x30, virtual false, abstract: false, final false
   inline void PreventCompatibilityMouseEvents(int32_t pointerId);
 
-  /// @brief Method ProcessPointerCapture, addr 0x4a46cbc, size 0x998, virtual false, abstract: false, final false
+  /// @brief Method ProcessPointerCapture, addr 0x6b877a0, size 0x7b4, virtual false, abstract: false, final false
   inline void ProcessPointerCapture(int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x4a46680, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x6b87128, size 0x3c, virtual false, abstract: false, final false
   inline void ReleasePointer(::UnityEngine::UIElements::IEventHandler* handler, int32_t pointerId);
 
-  /// @brief Method ReleasePointer, addr 0x4a46848, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ReleasePointer, addr 0x6b87310, size 0x30, virtual false, abstract: false, final false
   inline void ReleasePointer(int32_t pointerId);
 
-  /// @brief Method Reset, addr 0x4a4772c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6b88030, size 0x90, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x4a46b88, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method ShouldSendCompatibilityMouseEvents, addr 0x6b87660, size 0x140, virtual false, abstract: false, final false
   inline bool ShouldSendCompatibilityMouseEvents(::UnityEngine::UIElements::IPointerEvent* evt);
 
   constexpr ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> const& __cordl_internal_get_m_PendingPointerCapture() const;
@@ -89,7 +89,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ShouldSendCompatibilityMouseEvents(::ArrayW<bool, ::Array<bool>*> value);
 
-  /// @brief Method .ctor, addr 0x4a47654, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b87f54, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -107,7 +107,7 @@ public:
   PointerDispatchState(PointerDispatchState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4655 };
 
   /// @brief Field m_PendingPointerCapture, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::IEventHandler*, ::Array<::UnityEngine::UIElements::IEventHandler*>*> ___m_PendingPointerCapture;

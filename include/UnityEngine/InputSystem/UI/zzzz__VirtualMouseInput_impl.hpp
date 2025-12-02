@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6010;
+  constexpr static std::size_t addrs = 0x637d058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6018;
+  constexpr static std::size_t addrs = 0x637d060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6020;
+  constexpr static std::size_t addrs = 0x637d068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6028;
+  constexpr static std::size_t addrs = 0x637d070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode (
     ::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6030;
+  constexpr static std::size_t addrs = 0x637d078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(
     ::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode)>(&::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorMode)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x45f6038;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x637d080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_cursorGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6348;
+  constexpr static std::size_t addrs = 0x637d3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::UI::Graphic*)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_cursorGraphic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f6350;
+  constexpr static std::size_t addrs = 0x637d3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_scrollSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f63ac;
+  constexpr static std::size_t addrs = 0x637d438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(float_t)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_scrollSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f63b4;
+  constexpr static std::size_t addrs = 0x637d440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Mouse* (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_virtualMouse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f63bc;
+  constexpr static std::size_t addrs = 0x637d448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_stickAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f63c4;
+  constexpr static std::size_t addrs = 0x637d450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_stickAction)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45f63d8;
+  constexpr static std::size_t addrs = 0x637d464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_leftButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f6530;
+  constexpr static std::size_t addrs = 0x637d5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -228,8 +228,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_leftButtonAction)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45f6544;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x637d610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_rightButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f6644;
+  constexpr static std::size_t addrs = 0x637d70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -257,8 +257,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_rightButtonAction)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45f6658;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x637d720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_middleButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f66e8;
+  constexpr static std::size_t addrs = 0x637d7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -286,8 +286,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_middleButtonAction)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45f66fc;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x637d7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_forwardButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f678c;
+  constexpr static std::size_t addrs = 0x637d84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -315,8 +315,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_forwardButtonAction)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45f67a0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x637d860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -331,7 +331,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_backButtonAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f6830;
+  constexpr static std::size_t addrs = 0x637d8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -344,8 +344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_backButtonAction)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45f6844;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x637d900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::get_scrollWheelAction)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f68d4;
+  constexpr static std::size_t addrs = 0x637d98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::set_scrollWheelAction)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45f68e8;
+  constexpr static std::size_t addrs = 0x637d9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,8 +388,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::OnEnable)> {
-  constexpr static std::size_t size = 0x404;
-  constexpr static std::size_t addrs = 0x45f6918;
+  constexpr static std::size_t size = 0x48c;
+  constexpr static std::size_t addrs = 0x637d9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -402,8 +402,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::OnDisable)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x45f6d1c;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x637de5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -416,8 +416,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::TryFindCanvas)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45f6358;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x637d3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -430,8 +430,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::TryEnableHardwareCursor)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x45f6130;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x637d190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -444,8 +444,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::UpdateMotion)> {
-  constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x45f6f58;
+  constexpr static std::size_t size = 0x3b4;
+  constexpr static std::size_t addrs = 0x637e074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -458,8 +458,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::OnButtonActionTriggered)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x45f72f4;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x637e428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -475,7 +475,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::InputSystem::InputActionProperty, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>*, bool)>(
         &::UnityEngine::InputSystem::UI::VirtualMouseInput::SetActionCallback)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x45f65d4;
+  constexpr static std::size_t addrs = 0x637d69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -491,8 +491,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::InputSystem::InputActionProperty>, ::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::SetAction)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x45f6408;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x637d494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -508,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::OnAfterInputUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45f74ec;
+  constexpr static std::size_t addrs = 0x637e638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),
@@ -521,8 +521,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::VirtualMouseInput::*)()>(
     &::UnityEngine::InputSystem::UI::VirtualMouseInput::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f74f0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x637e63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::VirtualMouseInput*>::get(),

@@ -3,14 +3,15 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__IMGUIEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IMGUIEvent_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::IMGUIEvent___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent___c::*)()>(&::UnityEngine::UIElements::IMGUIEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a35d98;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b72d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get(), ".ctor",
@@ -23,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IMGUIEvent* (::UnityEngine::UIElements::IMGUIEvent___c::*)()>(
     &::UnityEngine::UIElements::IMGUIEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a35da0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b72d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent___c*>::get(),
@@ -60,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IMGUIEvent* (*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::IMGUIEvent::GetPooled)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a35be0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6b72bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,13 +75,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)()>(&::UnityEngine::UIElements::IMGUIEvent::Init)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a35c64;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b72c50;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -89,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)()>(&::UnityEngine::UIElements::IMGUIEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a35cb8;
+  constexpr static std::size_t addrs = 0x6b72ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), "LocalInit",
@@ -101,12 +102,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)()>(&::UnityEngine::UIElements::IMGUIEvent::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a35cc4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6b72cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::IMGUIEvent.Dispatch
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::IMGUIEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
+    &::UnityEngine::UIElements::IMGUIEvent::Dispatch)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b72d34;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), 10));
     return ___internal_method;
   }
 };
@@ -118,7 +134,7 @@ inline ::UnityEngine::UIElements::IMGUIEvent* UnityEngine::UIElements::IMGUIEven
 }
 inline void UnityEngine::UIElements::IMGUIEvent::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::IMGUIEvent::LocalInit() {
@@ -130,6 +146,11 @@ inline void UnityEngine::UIElements::IMGUIEvent::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::IMGUIEvent::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMGUIEvent*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
 inline ::UnityEngine::UIElements::IMGUIEvent* UnityEngine::UIElements::IMGUIEvent::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::IMGUIEvent*>());

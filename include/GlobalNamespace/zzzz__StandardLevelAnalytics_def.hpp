@@ -35,16 +35,16 @@ public:
                       put = __cordl_internal_set__standardLevelScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _standardLevelScenesTransitionSetupData;
 
-  /// @brief Method HandleStandardLevelDidFinishEvent, addr 0x3acd2f4, size 0x468, virtual false, abstract: false, final false
+  /// @brief Method HandleStandardLevelDidFinishEvent, addr 0x56a6f10, size 0x554, virtual false, abstract: false, final false
   inline void HandleStandardLevelDidFinishEvent(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* standardLevelScenesTransitionSetupData,
                                                 ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
   static inline ::GlobalNamespace::StandardLevelAnalytics* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3acd264, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56a6e80, size 0x90, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3acd1d4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56a6df0, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::IAnalyticsModel* const& __cordl_internal_get__analyticsModel() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__standardLevelScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3acd75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a7464, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   StandardLevelAnalytics(StandardLevelAnalytics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3986 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5546 };
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelScenesTransitionSetupData;

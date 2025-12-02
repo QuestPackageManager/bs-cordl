@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 CORDL_MODULE_EXPORT(GetFromGameObjectGetterComponentProvider)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -25,6 +24,9 @@ namespace UnityEngine {
 class GameObject;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -36,7 +38,7 @@ class GetFromGameObjectGetterComponentProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::GetFromGameObjectGetterComponentProvider);
-// Dependencies System.Object, Zenject.IProvider
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.GetFromGameObjectGetterComponentProvider
@@ -60,11 +62,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3cfec, size 0x210, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6c50f78, size 0x280, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4b3cfe4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x6c50f70, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::GetFromGameObjectGetterComponentProvider* New_ctor(::System::Type* componentType,
@@ -88,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set__matchSingle(bool value);
 
-  /// @brief Method .ctor, addr 0x4b3cf98, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c50f54, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x4b3cfd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x6c50f60, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3cfdc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6c50f68, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -115,7 +117,7 @@ public:
   GetFromGameObjectGetterComponentProvider(GetFromGameObjectGetterComponentProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14511 };
 
   /// @brief Field _gameObjectGetter, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* ____gameObjectGetter;

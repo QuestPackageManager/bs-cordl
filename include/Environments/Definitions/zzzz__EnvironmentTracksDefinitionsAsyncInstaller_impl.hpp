@@ -11,25 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::get_assetLabelRuntimeKey)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x228295c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller.LoadResourcesBeforeInstall
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
-    &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x228299c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31c5a94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,13 +22,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller.LoadResourcesBeforeInstall
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)(
+    ::System::Collections::Generic::IList_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31c5ad8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 13));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x22829f4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x31c5b4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::*)()>(
     &::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2282c40;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x31c5dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ constexpr void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInsta
 inline ::StringW Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::get_assetLabelRuntimeKey() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 11)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::LoadResourcesBeforeInstall(
@@ -96,7 +96,7 @@ inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstalle
     ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tracksDefinitions, registry);
 }
 inline void Environments::Definitions::EnvironmentTracksDefinitionsAsyncInstaller::InstallBindings() {

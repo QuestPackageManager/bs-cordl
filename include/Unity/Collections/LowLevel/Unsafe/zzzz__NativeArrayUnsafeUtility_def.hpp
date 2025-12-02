@@ -10,6 +10,9 @@ namespace Unity::Collections {
 struct Allocator;
 }
 namespace Unity::Collections {
+template <typename T> struct NativeArray_1_ReadOnly;
+}
+namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
 }
 // Forward declare root types
@@ -26,17 +29,19 @@ class CORDL_TYPE NativeArrayUnsafeUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Method ConvertExistingDataToNativeArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T>
-  static inline ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(::cordl_internals::Ptr<void> dataPointer, int32_t length, ::Unity::Collections::Allocator allocator);
+  template <typename T> static inline ::Unity::Collections::NativeArray_1<T> ConvertExistingDataToNativeArray(void* dataPointer, int32_t length, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method GetUnsafeBufferPointerWithoutChecks, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafeBufferPointerWithoutChecks(::Unity::Collections::NativeArray_1<T> nativeArray);
+  template <typename T> static inline void* GetUnsafeBufferPointerWithoutChecks(::Unity::Collections::NativeArray_1<T> nativeArray);
 
   /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafePtr(::Unity::Collections::NativeArray_1<T> nativeArray);
+  template <typename T> static inline void* GetUnsafePtr(::Unity::Collections::NativeArray_1<T> nativeArray);
 
   /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafeReadOnlyPtr(::Unity::Collections::NativeArray_1<T> nativeArray);
+  template <typename T> static inline void* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeArray_1<T> nativeArray);
+
+  /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeArray_1_ReadOnly<T> nativeArray);
 
 protected:
   // Ctor Parameters []
@@ -53,7 +58,7 @@ public:
   NativeArrayUnsafeUtility(NativeArrayUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9996 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

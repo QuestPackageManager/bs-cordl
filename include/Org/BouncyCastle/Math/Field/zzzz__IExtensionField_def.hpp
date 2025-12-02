@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IExtensionField)
 namespace Org::BouncyCastle::Math::Field {
@@ -15,7 +14,7 @@ class IExtensionField;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::IExtensionField);
-// Dependencies Org.BouncyCastle.Math.Field.IFiniteField
+// Dependencies
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.Field.IExtensionField

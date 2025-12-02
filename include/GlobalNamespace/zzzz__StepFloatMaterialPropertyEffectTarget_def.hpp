@@ -41,18 +41,18 @@ public:
   /// @brief Field _stepSize, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__stepSize, put = __cordl_internal_set__stepSize)) float_t _stepSize;
 
-  /// @brief Method Awake, addr 0x3b8e9a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x577cd24, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StepFloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b8e9c8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x577cd48, size 0x58, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b8e9c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x577cd44, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b8ea24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x577cda0, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__stepSize(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8ea28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577cda4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   StepFloatMaterialPropertyEffectTarget(StepFloatMaterialPropertyEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;

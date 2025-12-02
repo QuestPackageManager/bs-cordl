@@ -1,9 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/FontDefinition.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
+#include "UnityEngine/UIElements/zzzz__FontDefinition_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::FontDefinition.get_font
 template <>
@@ -11,11 +14,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (::UnityEngine::UIElements::FontDefinition::*)()>(
     &::UnityEngine::UIElements::FontDefinition::get_font)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6bae4;
+  constexpr static std::size_t addrs = 0x6ba907c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "get_font",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::FontDefinition.set_font
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FontDefinition::*)(::UnityEngine::Font*)>(
+    &::UnityEngine::UIElements::FontDefinition::set_font)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6ba9084;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "set_font", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
     return ___internal_method;
   }
 };
@@ -25,11 +43,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (::UnityEngine::UIElements::FontDefinition::*)()>(
     &::UnityEngine::UIElements::FontDefinition::get_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6baec;
+  constexpr static std::size_t addrs = 0x6ba916c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(),
                                                                                "get_fontAsset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::FontDefinition.set_fontAsset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FontDefinition::*)(::UnityEngine::TextCore::Text::FontAsset*)>(
+    &::UnityEngine::UIElements::FontDefinition::set_fontAsset)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6ba9174;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "set_fontAsset", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get() })));
     return ___internal_method;
   }
 };
@@ -39,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FontDefinition (*)(::UnityEngine::Font*)>(
     &::UnityEngine::UIElements::FontDefinition::FromFont)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a6baf4;
+  constexpr static std::size_t addrs = 0x6ba925c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FontDefinition (*)(::UnityEngine::TextCore::Text::FontAsset*)>(
     &::UnityEngine::UIElements::FontDefinition::FromSDFFont)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a6bafc;
+  constexpr static std::size_t addrs = 0x6ba9264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::FontDefinition (*)(::System::Object*)>(
     &::UnityEngine::UIElements::FontDefinition::FromObject)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4a6bb08;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6ba9270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::FontDefinition::*)()>(&::UnityEngine::UIElements::FontDefinition::IsEmpty)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4a6bc20;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6ba9394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "IsEmpty",
@@ -95,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::FontDefinition::*)()>(&::UnityEngine::UIElements::FontDefinition::ToString)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a6bcb8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6ba9430;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::FontDefinition::*)(::UnityEngine::UIElements::FontDefinition)>(
     &::UnityEngine::UIElements::FontDefinition::Equals)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a6bd48;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6ba94f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::FontDefinition::*)(::System::Object*)>(
     &::UnityEngine::UIElements::FontDefinition::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a6bd90;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6ba9580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,8 +172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::FontDefinition::*)()>(&::UnityEngine::UIElements::FontDefinition::GetHashCode)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4a6be08;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6ba9600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::FontDefinition)>(
     &::UnityEngine::UIElements::FontDefinition::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4a6bee8;
+  constexpr static std::size_t addrs = 0x6ba96e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::FontDefinition, ::UnityEngine::UIElements::FontDefinition)>(
     &::UnityEngine::UIElements::FontDefinition::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a6bf14;
+  constexpr static std::size_t addrs = 0x6ba9710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,10 +219,22 @@ inline ::UnityW<::UnityEngine::Font> UnityEngine::UIElements::FontDefinition::ge
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::FontDefinition::set_font(::UnityEngine::Font* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "set_font", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> UnityEngine::UIElements::FontDefinition::get_fontAsset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "get_fontAsset",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::FontDefinition::set_fontAsset(::UnityEngine::TextCore::Text::FontAsset* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition>::get(), "set_fontAsset", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityEngine::UIElements::FontDefinition UnityEngine::UIElements::FontDefinition::FromFont(::UnityEngine::Font* f) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -265,3 +310,306 @@ constexpr ::UnityEngine::UIElements::FontDefinition::FontDefinition(::UnityW<::U
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::FontDefinition::FontDefinition() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba991c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba9924;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Font> (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::FontDefinition>)>(&::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba992c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::FontDefinition>, ::UnityEngine::Font*)>(&::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::SetValue)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6ba9934;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6ba9854;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Font> UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::GetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Font>, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::SetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container, ::UnityEngine::Font* value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty* UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontProperty::PropertyBag_FontDefinition_FontProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba9940;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba9948;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::*)(::ByRef<::UnityEngine::UIElements::FontDefinition>)>(
+        &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba9950;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::FontDefinition>, ::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::SetValue)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6ba9958;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6ba98b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset>
+UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::GetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::SetValue(::ByRef<::UnityEngine::UIElements::FontDefinition> container,
+                                                                                            ::UnityEngine::TextCore::Text::FontAsset* value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty* UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_FontDefinition_FontAssetProperty::PropertyBag_FontDefinition_FontAssetProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::FontDefinition_PropertyBag._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::FontDefinition_PropertyBag::*)()>(
+    &::UnityEngine::UIElements::FontDefinition_PropertyBag::_ctor)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6ba9740;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition_PropertyBag*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::FontDefinition_PropertyBag::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FontDefinition_PropertyBag*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::FontDefinition_PropertyBag* UnityEngine::UIElements::FontDefinition_PropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::FontDefinition_PropertyBag*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::FontDefinition_PropertyBag::FontDefinition_PropertyBag() {}

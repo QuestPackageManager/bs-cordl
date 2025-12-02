@@ -3,7 +3,7 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLocalInactivePlayerInstaller_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataSender_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller.InstallBindings
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x3bc5488;
+  constexpr static std::size_t size = 0x48c;
+  constexpr static std::size_t addrs = 0x57b662c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::*)()>(
     &::GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc58f8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57b6ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,15 +37,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__audioManager() {
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__audioManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__audioManager() const {
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_get__audioManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
+constexpr void GlobalNamespace::MultiplayerLocalInactivePlayerInstaller::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

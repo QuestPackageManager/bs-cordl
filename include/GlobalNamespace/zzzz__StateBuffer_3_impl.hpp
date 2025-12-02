@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StateBuffer_3.hpp"
-#include "GlobalNamespace/zzzz__IEquatableByReference_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
+#include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
 #include "GlobalNamespace/zzzz__StateBuffer_3_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"

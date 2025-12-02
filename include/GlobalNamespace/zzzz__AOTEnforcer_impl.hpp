@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AOTEnforcer::*)()>(&::GlobalNamespace::AOTEnforcer::Awake)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39bd30c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5637460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AOTEnforcer*>::get(), "Awake",
@@ -19,8 +19,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AOTEnforcer::*)()>(&::GlobalNamespace::AOTEnforcer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bd370;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56374cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AOTEnforcer*>::get(), ".ctor",

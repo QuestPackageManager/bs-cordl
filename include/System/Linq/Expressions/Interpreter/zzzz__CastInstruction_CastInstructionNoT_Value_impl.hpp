@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CastInstructionNoT_CastInstruction_Value::*)(::System::Type*)>(
     &::GlobalNamespace::CastInstructionNoT_CastInstruction_Value::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40f93b0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5da3524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CastInstructionNoT_CastInstruction_Value::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::CastInstructionNoT_CastInstruction_Value::ConvertNull)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x40f956c;
+  constexpr static std::size_t addrs = 0x5da36a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

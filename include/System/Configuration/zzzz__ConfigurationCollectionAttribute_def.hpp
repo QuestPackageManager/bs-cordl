@@ -23,7 +23,7 @@ public:
   // Declarations
   static inline ::System::Configuration::ConfigurationCollectionAttribute* New_ctor(::System::Type* itemType);
 
-  /// @brief Method .ctor, addr 0x408b5a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3b304, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* itemType);
 
 protected:
@@ -41,7 +41,7 @@ public:
   ConfigurationCollectionAttribute(ConfigurationCollectionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23379 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

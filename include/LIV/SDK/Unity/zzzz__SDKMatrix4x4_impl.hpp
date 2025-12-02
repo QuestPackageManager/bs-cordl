@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)()>(&::LIV::SDK::Unity::SDKMatrix4x4::get_identity)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ac6ba0;
+  constexpr static std::size_t addrs = 0x56a04b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKMatrix4x4>::get(), "get_identity",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::LIV::SDK::Unity::SDKMatrix4x4)>(
     &::LIV::SDK::Unity::SDKMatrix4x4::op_Implicit___UnityEngine__Matrix4x4)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ac4a04;
+  constexpr static std::size_t addrs = 0x569e1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(::UnityEngine::Matrix4x4)>(
     &::LIV::SDK::Unity::SDKMatrix4x4::op_Implicit___LIV__SDK__Unity__SDKMatrix4x4)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ac5cf0;
+  constexpr static std::size_t addrs = 0x569f534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(float_t, float_t, float_t, float_t)>(
     &::LIV::SDK::Unity::SDKMatrix4x4::Perspective)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3ac6bcc;
+  constexpr static std::size_t addrs = 0x56a04dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(::LIV::SDK::Unity::SDKMatrix4x4, ::LIV::SDK::Unity::SDKMatrix4x4)>(
     &::LIV::SDK::Unity::SDKMatrix4x4::op_Multiply)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3ac6c78;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x56a0588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKVector3 (*)(::LIV::SDK::Unity::SDKMatrix4x4, ::LIV::SDK::Unity::SDKVector3)>(
     &::LIV::SDK::Unity::SDKMatrix4x4::op_Multiply)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ac6d70;
+  constexpr static std::size_t addrs = 0x56a062c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(::LIV::SDK::Unity::SDKVector3)>(&::LIV::SDK::Unity::SDKMatrix4x4::Translate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ac6dc8;
+  constexpr static std::size_t addrs = 0x56a0684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(::LIV::SDK::Unity::SDKQuaternion)>(&::LIV::SDK::Unity::SDKMatrix4x4::Rotate)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ac6e10;
+  constexpr static std::size_t addrs = 0x56a06cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(::LIV::SDK::Unity::SDKVector3)>(&::LIV::SDK::Unity::SDKMatrix4x4::Scale)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ac6ea4;
+  constexpr static std::size_t addrs = 0x56a0760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::LIV::SDK::Unity::SDKMatrix4x4 (*)(::LIV::SDK::Unity::SDKVector3, ::LIV::SDK::Unity::SDKQuaternion, ::LIV::SDK::Unity::SDKVector3)>(&::LIV::SDK::Unity::SDKMatrix4x4::TRS)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3ac6ed0;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x56a078c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKMatrix4x4::*)()>(&::LIV::SDK::Unity::SDKMatrix4x4::ToString)> {
-  constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x3ac6fc0;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x56a088c;
 
   inline static ::MethodInfo const* methodInfo() {
 

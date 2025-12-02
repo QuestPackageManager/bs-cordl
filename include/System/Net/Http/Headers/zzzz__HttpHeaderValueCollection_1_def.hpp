@@ -3,18 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpHeaderValueCollection_1)
 namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,7 +40,7 @@ template <typename T> class HttpHeaderValueCollection_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Net::Http::Headers::HttpHeaderValueCollection_1);
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // cpp template
 template <typename T>
@@ -165,7 +171,7 @@ public:
   HttpHeaderValueCollection_1(HttpHeaderValueCollection_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16720 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20167 };
 
   /// @brief Field list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___list;

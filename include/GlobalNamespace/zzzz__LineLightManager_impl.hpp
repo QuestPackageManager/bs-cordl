@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LineLightManager::*)()>(&::GlobalNamespace::LineLightManager::Update)> {
-  constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x39e5154;
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x565c83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLightManager*>::get(), "Update",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LineLightManager::*)()>(&::GlobalNamespace::LineLightManager::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39e54d0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x565cbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LineLightManager*>::get(), ".ctor",

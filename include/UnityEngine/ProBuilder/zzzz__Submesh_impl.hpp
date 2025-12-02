@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::UnityEngine::ProBuilder::Submesh::*)()>(
     &::UnityEngine::ProBuilder::Submesh::get_indexes)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4741b98;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x64d8538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Submesh*>::get(), "get_indexes",
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(::System::Collections::Generic::IEnumerable_1<int32_t>*)>(
     &::UnityEngine::ProBuilder::Submesh::set_indexes)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4741c14;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x64d85b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::MeshTopology (::UnityEngine::ProBuilder::Submesh::*)()>(
     &::UnityEngine::ProBuilder::Submesh::get_topology)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4741c70;
+  constexpr static std::size_t addrs = 0x64d8610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Submesh*>::get(), "get_topology",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(::UnityEngine::MeshTopology)>(
     &::UnityEngine::ProBuilder::Submesh::set_topology)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4741c78;
+  constexpr static std::size_t addrs = 0x64d8618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Submesh::*)()>(&::UnityEngine::ProBuilder::Submesh::get_submeshIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4741c80;
+  constexpr static std::size_t addrs = 0x64d8620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Submesh*>::get(), "get_submeshIndex",
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(int32_t)>(&::UnityEngine::ProBuilder::Submesh::set_submeshIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4741c88;
+  constexpr static std::size_t addrs = 0x64d8628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(
     int32_t, ::UnityEngine::MeshTopology, ::System::Collections::Generic::IEnumerable_1<int32_t>*)>(&::UnityEngine::ProBuilder::Submesh::_ctor)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4741c90;
+  constexpr static std::size_t addrs = 0x64d8630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Submesh::*)(::UnityEngine::Mesh*, int32_t)>(
     &::UnityEngine::ProBuilder::Submesh::_ctor)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4741d50;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x64d86f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,8 +130,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::Submesh::*)()>(&::UnityEngine::ProBuilder::Submesh::ToString)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4741e48;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x64d87e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,8 +144,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(&::UnityEngine::ProBuilder::Submesh::GetSubmeshCount)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4741f50;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x64d88fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Submesh*, ::Array<::UnityEngine::ProBuilder::Submesh*>*> (*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, int32_t, ::UnityEngine::MeshTopology)>(&::UnityEngine::ProBuilder::Submesh::GetSubmeshes)> {
-  constexpr static std::size_t size = 0x940;
-  constexpr static std::size_t addrs = 0x4741fbc;
+  constexpr static std::size_t size = 0x914;
+  constexpr static std::size_t addrs = 0x64d8960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::Submesh::MapFaceMaterialsToSubmeshIndex)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x47428fc;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x64d9274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5315c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x573ba24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::*)(int32_t)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::_StartLevelOrShow360Prompt_b__0)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b53368;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x573bbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator___c__DisplayClass39_0::_StartLevelOrShow360Prompt_b__1)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b533fc;
+  constexpr static std::size_t addrs = 0x573bc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,8 +164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_isInPracticeView)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b5264c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x573b074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerSpecificSettings* (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_playerSettings)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b526c0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x573b0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_enableCustomLevels)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b526dc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x573b10c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -210,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_gameplayModifiers)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b526f8;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x573b124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_hideGameplaySetup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b52714;
+  constexpr static std::size_t addrs = 0x573b148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LeaderboardViewController> (
     ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_leaderboardViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5271c;
+  constexpr static std::size_t addrs = 0x573b150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b52724;
+  constexpr static std::size_t addrs = 0x573b158;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -274,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b5272c;
+  constexpr static std::size_t addrs = 0x573b160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b5275c;
+  constexpr static std::size_t addrs = 0x573b190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SinglePlayerLevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b52760;
+  constexpr static std::size_t addrs = 0x573b194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,7 +323,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::LevelCompletionResults*, ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*,
     bool)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::ProcessLevelCompletionResultsAfterLevelDidFinish)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b52764;
+  constexpr static std::size_t addrs = 0x573b198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -338,8 +338,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b52768;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x572952c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,8 +354,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator>>*)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b5281c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5729dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -370,8 +370,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b528d0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x573b19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,8 +386,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b52988;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x573b25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,8 +402,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
         &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3b52a38;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x573b314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -419,7 +419,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b52cdc;
+  constexpr static std::size_t addrs = 0x573b584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -434,8 +434,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b5301c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x573b908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -450,8 +450,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::GlobalNamespace::BeatmapLevelPack*, ::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SelectionDidChange)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b530a8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x573b980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -466,8 +466,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::System::Action*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::StartLevelOrShow360Prompt)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x3b52ce8;
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x573b590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -482,8 +482,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::System::Action*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::StartLevel)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3b522a4;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x572c4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,7 +498,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandlePracticeViewControllerDidPressPlayButton)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b53164;
+  constexpr static std::size_t addrs = 0x573ba28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -513,8 +513,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(
         &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelDidFinish)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b53170;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x573ba34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -525,13 +525,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator.HandleStandardLevelWasRestarted
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(
+        &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelWasRestarted)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x573baac;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), 39));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator.BackButtonWasPressed
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b53220;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x573bab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -546,8 +563,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::SetupGameplaySetupViewController)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b51bb8;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x573a7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -563,8 +580,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(
     ::GlobalNamespace::LevelCompletionResults*, bool)>(&::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleBasicLevelCompletionResults)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b51ff0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x573ac1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -580,8 +597,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)(::System::Action*, bool)>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::DismissPracticeViewController)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3b532b4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x573bb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -597,7 +614,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5251c;
+  constexpr static std::size_t addrs = 0x573af38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -890,6 +907,13 @@ GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelD
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, standardLevelScenesTransitionSetupData, levelCompletionResults);
+}
+inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::HandleStandardLevelWasRestarted(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* sO,
+                                                                                                        ::GlobalNamespace::LevelCompletionResults* results) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator*>::get(), 39)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sO, results);
 }
 inline void GlobalNamespace::SinglePlayerLevelSelectionFlowCoordinator::BackButtonWasPressed(::HMUI::ViewController* topViewController) {
   auto* ___internal_method =

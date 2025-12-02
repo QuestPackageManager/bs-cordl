@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRResources::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRResources::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4075e60;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5c322a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, uint32_t)>(
     &::OVR::OpenVR::CVRResources::LoadSharedResource)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4075f6c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c32394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::OVR::OpenVR::CVRResources::*)(::StringW, ::StringW, ::System::Text::StringBuilder*, uint32_t)>(
     &::OVR::OpenVR::CVRResources::GetResourceFullPath)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4075f90;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c323b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

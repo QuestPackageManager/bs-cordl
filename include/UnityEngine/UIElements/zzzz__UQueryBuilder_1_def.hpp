@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSelectorRelationship_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -13,6 +12,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
@@ -20,6 +22,9 @@ struct RuleMatcher;
 }
 namespace UnityEngine::UIElements {
 struct StyleSelectorPart;
+}
+namespace UnityEngine::UIElements {
+struct StyleSelectorRelationship;
 }
 namespace UnityEngine::UIElements {
 class StyleSelector;
@@ -36,7 +41,7 @@ template <typename T> struct UQueryBuilder_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::UQueryBuilder_1);
-// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.StyleSelectorRelationship
+// Dependencies UnityEngine.UIElements.StyleSelectorRelationship
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -55,11 +60,20 @@ public:
   /// @brief Method AddClass, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddClass(::StringW c);
 
+  /// @brief Method AddClasses, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AddClasses(::ArrayW<::StringW, ::Array<::StringW>*> classes);
+
   /// @brief Method AddName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddName(::StringW id);
 
   /// @brief Method AddPseudoStatesRuleIfNecessasy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddPseudoStatesRuleIfNecessasy();
+
+  /// @brief Method AddRelationship, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> AddRelationship(::UnityEngine::UIElements::StyleSelectorRelationship relationship);
+
+  /// @brief Method AddType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T2> inline void AddType();
 
   /// @brief Method Build, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryState_1<T> Build();
@@ -88,8 +102,17 @@ public:
   /// @brief Method Name, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> Name(::StringW id);
 
+  /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::StringW className);
+
+  /// @brief Method OfType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T2> inline ::UnityEngine::UIElements::UQueryBuilder_1<T2> OfType(::StringW name, ::ArrayW<::StringW, ::Array<::StringW>*> classes);
+
   /// @brief Method SingleBaseType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UQueryBuilder_1<T> SingleBaseType();
+
+  /// @brief Method ToList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<T>* ToList();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* visualElement);
@@ -119,7 +142,7 @@ public:
                             int32_t pseudoStatesMask, int32_t negatedPseudoStatesMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6231 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5132 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

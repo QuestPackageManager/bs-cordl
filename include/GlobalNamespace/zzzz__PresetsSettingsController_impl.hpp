@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::PresetsSettingsController::add_valueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c13048;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580a6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::PresetsSettingsController::remove_valueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c130f8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580a7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PresetsSettingsController::*)()>(
     &::GlobalNamespace::PresetsSettingsController::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c131a8;
+  constexpr static std::size_t addrs = 0x580a87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PresetsSettingsController*>::get(), "GetValue",
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(
     &::GlobalNamespace::PresetsSettingsController::SetValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c131b0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x580a884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(
     &::GlobalNamespace::PresetsSettingsController::SetNumberOfElementsLimit)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c13210;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x580a904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(bool)>(
     &::GlobalNamespace::PresetsSettingsController::SetInteractable)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c13230;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x580a94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PresetsSettingsController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::PresetsSettingsController::GetInitValues)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c13264;
+  constexpr static std::size_t addrs = 0x580a97c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(
     &::GlobalNamespace::PresetsSettingsController::ApplyValue)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c13308;
+  constexpr static std::size_t addrs = 0x580aa20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PresetsSettingsController::*)(int32_t)>(
     &::GlobalNamespace::PresetsSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c13328;
+  constexpr static std::size_t addrs = 0x580aa40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresetsSettingsController::*)()>(&::GlobalNamespace::PresetsSettingsController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c13378;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x580aa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PresetsSettingsController*>::get(), ".ctor",

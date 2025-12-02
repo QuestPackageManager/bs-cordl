@@ -28,10 +28,10 @@ public:
   /// @brief Field SwitchFormatJapaneseFirstYearAsANumber, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_SwitchFormatJapaneseFirstYearAsANumber, put = setStaticF_SwitchFormatJapaneseFirstYearAsANumber)) ::StringW SwitchFormatJapaneseFirstYearAsANumber;
 
-  /// @brief Method PopulateDefaultValues, addr 0x3e2ffc8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method PopulateDefaultValues, addr 0x5a759e4, size 0x4, virtual false, abstract: false, final false
   static inline void PopulateDefaultValues();
 
-  /// @brief Method TryGetSwitchOverride, addr 0x3e2ffcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method TryGetSwitchOverride, addr 0x5a759e8, size 0xc, virtual false, abstract: false, final false
   static inline bool TryGetSwitchOverride(::StringW switchName, ::ByRef<bool> overrideValue);
 
   static inline ::StringW getStaticF_SwitchEnforceJapaneseEraYearRanges();
@@ -61,7 +61,7 @@ public:
   AppContextDefaultValues(AppContextDefaultValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

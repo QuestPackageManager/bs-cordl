@@ -24,10 +24,10 @@ namespace OVR::OpenVR {
 struct CORDL_TYPE VRControllerState_t_Packed {
 public:
   // Declarations
-  /// @brief Method Unpack, addr 0x4071b70, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Unpack, addr 0x5c2e4e8, size 0x3c, virtual false, abstract: false, final false
   inline void Unpack(::ByRef<::OVR::OpenVR::VRControllerState_t> unpacked);
 
-  /// @brief Method .ctor, addr 0x4071b2c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c2e4a4, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::OVR::OpenVR::VRControllerState_t unpacked);
 
   // Ctor Parameters []
@@ -42,7 +42,7 @@ public:
                                        ::OVR::OpenVR::VRControllerAxis_t rAxis2, ::OVR::OpenVR::VRControllerAxis_t rAxis3, ::OVR::OpenVR::VRControllerAxis_t rAxis4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9015 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8492 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };

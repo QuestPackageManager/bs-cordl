@@ -41,52 +41,52 @@ namespace System::Text::RegularExpressions {
 struct CORDL_TYPE RegexFCD {
 public:
   // Declarations
-  /// @brief Method AnchorFromType, addr 0x441e638, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method AnchorFromType, addr 0x616d08c, size 0xa0, virtual false, abstract: false, final false
   static inline int32_t AnchorFromType(int32_t type);
 
-  /// @brief Method Anchors, addr 0x441e508, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Anchors, addr 0x616cf10, size 0x17c, virtual false, abstract: false, final false
   static inline int32_t Anchors(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method CalculateFC, addr 0x441e9d0, size 0x3fc, virtual false, abstract: false, final false
+  /// @brief Method CalculateFC, addr 0x616d49c, size 0x424, virtual false, abstract: false, final false
   inline void CalculateFC(int32_t NodeType, ::System::Text::RegularExpressions::RegexNode* node, int32_t CurIndex);
 
-  /// @brief Method Dispose, addr 0x441e19c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x616cb4c, size 0x4c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FCIsEmpty, addr 0x441e8a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method FCIsEmpty, addr 0x616d34c, size 0x58, virtual false, abstract: false, final false
   inline bool FCIsEmpty();
 
-  /// @brief Method FirstChars, addr 0x441deb0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FirstChars, addr 0x616c824, size 0x17c, virtual false, abstract: false, final false
   static inline ::System::Nullable_1<::System::Text::RegularExpressions::RegexPrefix> FirstChars(::System::Text::RegularExpressions::RegexTree* t);
 
-  /// @brief Method IntIsEmpty, addr 0x441e75c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IntIsEmpty, addr 0x616d1e8, size 0x4c, virtual false, abstract: false, final false
   inline bool IntIsEmpty();
 
-  /// @brief Method PopFC, addr 0x441e8f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method PopFC, addr 0x616d3a4, size 0x88, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexFC* PopFC();
 
-  /// @brief Method PopInt, addr 0x441e7a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method PopInt, addr 0x616d234, size 0x64, virtual false, abstract: false, final false
   inline int32_t PopInt();
 
-  /// @brief Method Prefix, addr 0x441e22c, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Prefix, addr 0x616cbdc, size 0x27c, virtual false, abstract: false, final false
   static inline ::System::Text::RegularExpressions::RegexPrefix Prefix(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method PushFC, addr 0x441e7fc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PushFC, addr 0x616d298, size 0xb4, virtual false, abstract: false, final false
   inline void PushFC(::System::Text::RegularExpressions::RegexFC* fc);
 
-  /// @brief Method PushInt, addr 0x441e6a8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PushInt, addr 0x616d12c, size 0xbc, virtual false, abstract: false, final false
   inline void PushInt(int32_t i);
 
-  /// @brief Method RegexFCFromRegexTree, addr 0x441e004, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method RegexFCFromRegexTree, addr 0x616c9a0, size 0x1ac, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexFC* RegexFCFromRegexTree(::System::Text::RegularExpressions::RegexTree* tree);
 
-  /// @brief Method SkipChild, addr 0x441edcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SkipChild, addr 0x616d8c0, size 0xc, virtual false, abstract: false, final false
   inline void SkipChild();
 
-  /// @brief Method TopFC, addr 0x441e96c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method TopFC, addr 0x616d42c, size 0x70, virtual false, abstract: false, final false
   inline ::System::Text::RegularExpressions::RegexFC* TopFC();
 
-  /// @brief Method .ctor, addr 0x441dddc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x616c77c, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<int32_t> intStack);
 
   // Ctor Parameters []
@@ -100,7 +100,7 @@ public:
                      bool _skipAllChildren, bool _skipchild, bool _failed) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11085 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GraphicsBufferHandle)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ struct GraphicsBufferHandle;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::GraphicsBufferHandle);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.GraphicsBufferHandle
@@ -26,13 +28,13 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>*();
 
-  /// @brief Method Equals, addr 0x48862cc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x686fde4, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4886344, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x686fe60, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::GraphicsBufferHandle other);
 
-  /// @brief Method GetHashCode, addr 0x48862c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x686fddc, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::GraphicsBufferHandle>"
@@ -46,7 +48,7 @@ public:
   constexpr GraphicsBufferHandle(uint32_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10136 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -2,16 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/UnifiedNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
-#include "GlobalNamespace/zzzz__IUnifiedNetworkPlayerModel_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "GlobalNamespace/zzzz__UnifiedNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectedPlayerManager_def.hpp"
@@ -21,15 +12,20 @@
 #include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IUnifiedNetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__LocalServerNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__PartyMessageHandler_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__UnifiedNetworkPlayerModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -38,13 +34,14 @@ constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelT
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType() {}
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType::GameLift{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType::Platform{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType::LocalServer{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel_JoinMatchmakingPartyConfig::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e756e8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5abbf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel_StartClientPartyConfig::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel_StartClientPartyConfig::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e7547c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5abbce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,334 +178,334 @@ GlobalNamespace::UnifiedNetworkPlayerModel_StartClientPartyConfig::i___GlobalNam
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_StartClientPartyConfig::UnifiedNetworkPlayerModel_StartClientPartyConfig() {}
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64._ctor
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)(int32_t)>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e752e8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)(int32_t)>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5abbb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e75b88;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5abc43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::MoveNext)> {
-  constexpr static std::size_t size = 0x514;
-  constexpr static std::size_t addrs = 0x3e75bbc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::MoveNext)> {
+  constexpr static std::size_t size = 0x528;
+  constexpr static std::size_t addrs = 0x5abc474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e760d0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5abc99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), "<>m__Finally1",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), "<>m__Finally1",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.__m__Finally2
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.__m__Finally2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__m__Finally2)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e76180;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__m__Finally2)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5abca50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), "<>m__Finally2",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), "<>m__Finally2",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::INetworkPlayer* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::INetworkPlayer* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e76230;
+  constexpr static std::size_t addrs = 0x5abcb04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                     "System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e76238;
+  constexpr static std::size_t addrs = 0x5abcb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e76270;
+  constexpr static std::size_t addrs = 0x5abcb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-        &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e76278;
+    static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+        &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5abcb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                     "System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::*)()>(
-    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e76314;
+  constexpr static std::size_t addrs = 0x5abcbe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___2__current() {
+constexpr ::GlobalNamespace::INetworkPlayer*& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___2__current() const {
+constexpr ::GlobalNamespace::INetworkPlayer* const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value) {
+constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_set___2__current(::GlobalNamespace::INetworkPlayer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel*& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___4__this() {
+constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel*& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel* const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___4__this() const {
+constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel* const& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_set___4__this(::GlobalNamespace::UnifiedNetworkPlayerModel* value) {
+constexpr void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_set___4__this(::GlobalNamespace::UnifiedNetworkPlayerModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___7__wrap1() {
+constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*& GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* const&
-GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_get___7__wrap1() const {
+GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr void
-GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* value) {
+GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_IDisposable_Dispose() {
+inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::MoveNext() {
+inline bool GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__m__Finally1() {
+inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), "<>m__Finally1",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), "<>m__Finally1",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::__m__Finally2() {
+inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::__m__Finally2() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(), "<>m__Finally2",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(), "<>m__Finally2",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::INetworkPlayer* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current() {
+inline ::GlobalNamespace::INetworkPlayer* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                   "System.Collections.Generic.IEnumerator<INetworkPlayer>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::INetworkPlayer*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator() {
+GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                   "System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64*>(__1__state));
+inline ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
-constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
+constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::operator ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
+GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::i___System__Collections__Generic__IEnumerable_1___GlobalNamespace__INetworkPlayer__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
-constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
+constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::operator ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*
-GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
+GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::i___System__Collections__Generic__IEnumerator_1___GlobalNamespace__INetworkPlayer__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__64::UnifiedNetworkPlayerModel__get_otherPlayers_d__64() {}
+constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel__get_otherPlayers_d__69::UnifiedNetworkPlayerModel__get_otherPlayers_d__69() {}
 //  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel.add_connectedPlayerManagerCreatedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_connectedPlayerManagerCreatedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e735bc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,8 +520,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_connectedPlayerManagerCreatedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7366c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,8 +536,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_connectedPlayerManagerDestroyedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7371c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab97d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -555,8 +552,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_connectedPlayerManagerDestroyedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e737cc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -571,8 +568,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_partySizeChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7387c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -586,8 +583,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_partySizeChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7392c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -601,8 +598,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_partyRefreshingEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e739dc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5ab9ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -616,8 +613,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_partyRefreshingEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e73a78;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5ab9b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -631,8 +628,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_partyChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e73b14;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -646,8 +643,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_partyChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e73bc4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -661,8 +658,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_joinRequestedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e73c74;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -676,8 +673,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_joinRequestedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e73d24;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -691,8 +688,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::add_inviteRequestedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e73dd4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -706,8 +703,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::System::Action_1<::GlobalNamespace::INetworkPlayer*>*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::remove_inviteRequestedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e73e84;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab9fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -721,8 +718,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::INetworkPlayerModel* (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_activeNetworkPlayerModel)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e73f34;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5aba0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -736,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType (
     ::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::get_activeNetworkPlayerModelType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e73f60;
+  constexpr static std::size_t addrs = 0x5aba0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -750,8 +747,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_localPlayerIsPartyOwner)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3e73f68;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5aba0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -764,8 +761,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_hasNetworkingFailed)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3e74034;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5aba1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -778,8 +775,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_currentPartySize)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e74100;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5aba2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -792,8 +789,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_selectionMask)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3e741c0;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5aba384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -806,8 +803,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_configuration)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3e742a8;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5aba484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -820,8 +817,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_secret)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e7438c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5aba580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -834,12 +831,41 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_code)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e743b0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5aba5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(), "get_code",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel.get_localServerPort
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel::get_localServerPort)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5aba5c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
+                                                                               "get_localServerPort", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::UnifiedNetworkPlayerModel.set_localServerPort
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(int32_t)>(
+    &::GlobalNamespace::UnifiedNetworkPlayerModel::set_localServerPort)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5aba5c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(), "set_localServerPort",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -848,8 +874,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ConnectedPlayerManager* (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_connectedPlayerManager)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e743d4;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5aba5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -862,8 +888,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* (
     ::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::get_publicServers)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3e74494;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5aba6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -876,8 +902,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* (
     ::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::get_friends)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e744dc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5aba6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -890,8 +916,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_discoveryEnabled)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3e74500;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5aba714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -904,8 +930,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(bool)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::set_discoveryEnabled)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3e745bc;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5aba7e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -919,8 +945,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::get_enableFriends)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e74684;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5aba8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -934,7 +960,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(bool)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::set_enableFriends)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e746a8;
+  constexpr static std::size_t addrs = 0x5aba8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -948,8 +974,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::Initialize)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x3e74988;
+  constexpr static std::size_t size = 0x708;
+  constexpr static std::size_t addrs = 0x5ababec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -961,8 +987,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::Dispose)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x3e74da0;
+  constexpr static std::size_t size = 0x708;
+  constexpr static std::size_t addrs = 0x5abb2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(), "Dispose",
@@ -975,8 +1001,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* (
     ::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::get_partyPlayers)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e751b8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5abb9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -990,7 +1016,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* (
     ::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::get_otherPlayers)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e75278;
+  constexpr static std::size_t addrs = 0x5abbad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -1003,8 +1029,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(
     ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration)>(&::GlobalNamespace::UnifiedNetworkPlayerModel::SetServerFilter)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3e7531c;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x5abbb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1019,8 +1045,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::RefreshAlternateDiscoveryModels)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x3e746dc;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x5aba91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1035,7 +1061,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandlePlayersChanged)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e75484;
+  constexpr static std::size_t addrs = 0x5abbcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -1049,7 +1075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandleInviteRequested)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e754ec;
+  constexpr static std::size_t addrs = 0x5abbd54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1064,7 +1090,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::GlobalNamespace::INetworkPlayer*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandleJoinRequested)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e75508;
+  constexpr static std::size_t addrs = 0x5abbd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1079,7 +1105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::GlobalNamespace::INetworkPlayerModel*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandlePartyChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e75524;
+  constexpr static std::size_t addrs = 0x5abbd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1093,8 +1119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(int32_t)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandlePartySizeChanged)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e75544;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5abbdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1109,7 +1135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandlePartyRefreshing)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e75578;
+  constexpr static std::size_t addrs = 0x5abbddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -1123,7 +1149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandleFriendConnected)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e75594;
+  constexpr static std::size_t addrs = 0x5abbdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1138,7 +1164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::StringW)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandleFriendConnectToMasterServer)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3e755f8;
+  constexpr static std::size_t addrs = 0x5abbe5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1152,8 +1178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::GlobalNamespace::INetworkPlayerModel*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerCreated)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3e756f0;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x5abbf50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1167,8 +1193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(::GlobalNamespace::INetworkPlayerModel*)>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::HandleConnectedPlayerManagerDestroyed)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3e75994;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5abc218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1182,8 +1208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::ResetMasterServerReachability)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e75a34;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5abc2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -1196,8 +1222,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(
     &::GlobalNamespace::UnifiedNetworkPlayerModel::DestroyPartyConnection)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3e75a84;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5abc328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
@@ -1211,7 +1237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)(
     ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType)>(&::GlobalNamespace::UnifiedNetworkPlayerModel::SetActiveNetworkPlayerModelType)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e75b44;
+  constexpr static std::size_t addrs = 0x5abc3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1224,8 +1250,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnifiedNetworkPlayerModel::*)()>(&::GlobalNamespace::UnifiedNetworkPlayerModel::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e75b80;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5abc438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(), ".ctor",
@@ -1256,6 +1282,18 @@ constexpr ::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> const& GlobalN
 constexpr void GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_set__platformNetworkPlayerModel(::UnityW<::GlobalNamespace::PlatformNetworkPlayerModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformNetworkPlayerModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::LocalServerNetworkPlayerModel>& GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_get__localServerNetworkPlayerModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localServerNetworkPlayerModel;
+}
+constexpr ::UnityW<::GlobalNamespace::LocalServerNetworkPlayerModel> const& GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_get__localServerNetworkPlayerModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localServerNetworkPlayerModel;
+}
+constexpr void GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_set__localServerNetworkPlayerModel(::UnityW<::GlobalNamespace::LocalServerNetworkPlayerModel> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____localServerNetworkPlayerModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>*& GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_get_connectedPlayerManagerCreatedEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1377,6 +1415,18 @@ constexpr ::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelT
 constexpr void GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_set__activeNetworkPlayerModelType(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____activeNetworkPlayerModelType = value;
+}
+constexpr int32_t& GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_get__localServerPort_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localServerPort_k__BackingField;
+}
+constexpr int32_t const& GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_get__localServerPort_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localServerPort_k__BackingField;
+}
+constexpr void GlobalNamespace::UnifiedNetworkPlayerModel::__cordl_internal_set__localServerPort_k__BackingField(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____localServerPort_k__BackingField = value;
 }
 inline void GlobalNamespace::UnifiedNetworkPlayerModel::add_connectedPlayerManagerCreatedEvent(::System::Action_1<::GlobalNamespace::INetworkPlayerModel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1509,6 +1559,17 @@ inline ::StringW GlobalNamespace::UnifiedNetworkPlayerModel::get_code() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(), "get_code",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::UnifiedNetworkPlayerModel::get_localServerPort() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),
+                                                                             "get_localServerPort", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::UnifiedNetworkPlayerModel::set_localServerPort(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(), "set_localServerPort",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::GlobalNamespace::ConnectedPlayerManager* GlobalNamespace::UnifiedNetworkPlayerModel::get_connectedPlayerManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnifiedNetworkPlayerModel*>::get(),

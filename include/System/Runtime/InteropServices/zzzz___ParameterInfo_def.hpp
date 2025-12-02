@@ -22,7 +22,7 @@ public:
   _ParameterInfo(_ParameterInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3359 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

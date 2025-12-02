@@ -84,85 +84,85 @@ public:
 
   __declspec(property(get = get_valid)) bool valid;
 
-  /// @brief Method Erase, addr 0x4552ffc, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method Erase, addr 0x62cf248, size 0x198, virtual false, abstract: false, final false
   inline void Erase();
 
-  /// @brief Method InsertPartBinding, addr 0x4553194, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method InsertPartBinding, addr 0x62cf3e0, size 0x158, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax InsertPartBinding(::StringW partName, ::StringW path);
 
-  /// @brief Method Iterate, addr 0x4552b48, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Iterate, addr 0x62ceddc, size 0xac, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax Iterate(bool next);
 
-  /// @brief Method IterateCompositeBinding, addr 0x4552ec4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IterateCompositeBinding, addr 0x62cf11c, size 0xe8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax IterateCompositeBinding(bool next, ::StringW compositeName);
 
-  /// @brief Method IteratePartBinding, addr 0x4552cd8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method IteratePartBinding, addr 0x62cef48, size 0x110, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax IteratePartBinding(bool next, ::StringW partName);
 
-  /// @brief Method NextBinding, addr 0x4552b14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NextBinding, addr 0x62ceda8, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax NextBinding();
 
-  /// @brief Method NextCompositeBinding, addr 0x4552e8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NextCompositeBinding, addr 0x62cf0e4, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax NextCompositeBinding(::StringW compositeName);
 
-  /// @brief Method NextPartBinding, addr 0x4552c34, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method NextPartBinding, addr 0x62ceebc, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax NextPartBinding(::StringW partName);
 
-  /// @brief Method PreviousBinding, addr 0x4552c00, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method PreviousBinding, addr 0x62cee88, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax PreviousBinding();
 
-  /// @brief Method PreviousCompositeBinding, addr 0x4552fb8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method PreviousCompositeBinding, addr 0x62cf204, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax PreviousCompositeBinding(::StringW compositeName);
 
-  /// @brief Method PreviousPartBinding, addr 0x4552de8, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method PreviousPartBinding, addr 0x62cf058, size 0x8c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax PreviousPartBinding(::StringW partName);
 
-  /// @brief Method To, addr 0x45529e4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method To, addr 0x62cec90, size 0x118, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax To(::UnityEngine::InputSystem::InputBinding binding);
 
-  /// @brief Method Triggering, addr 0x4552874, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Triggering, addr 0x62ceb08, size 0x188, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax Triggering(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method WithGroup, addr 0x4551efc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method WithGroup, addr 0x62ce178, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithGroup(::StringW group);
 
-  /// @brief Method WithGroups, addr 0x4552098, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WithGroups, addr 0x62ce304, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithGroups(::StringW groups);
 
   /// @brief Method WithInteraction, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TInteraction> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithInteraction();
 
-  /// @brief Method WithInteraction, addr 0x4552224, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method WithInteraction, addr 0x62ce4a8, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithInteraction(::StringW interaction);
 
-  /// @brief Method WithInteractions, addr 0x45523c0, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WithInteractions, addr 0x62ce634, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithInteractions(::StringW interactions);
 
-  /// @brief Method WithName, addr 0x4551d84, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WithName, addr 0x62cdfd8, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithName(::StringW name);
 
-  /// @brief Method WithPath, addr 0x4551e40, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WithPath, addr 0x62ce0a8, size 0xd0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithPath(::StringW path);
 
   /// @brief Method WithProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TProcessor> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithProcessor();
 
-  /// @brief Method WithProcessor, addr 0x455254c, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method WithProcessor, addr 0x62ce7d8, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithProcessor(::StringW processor);
 
-  /// @brief Method WithProcessors, addr 0x45526e8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method WithProcessors, addr 0x62ce964, size 0x1a4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax WithProcessors(::StringW processors);
 
-  /// @brief Method .ctor, addr 0x455007c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cc37c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionMap* map, int32_t bindingIndexInMap, ::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method get_binding, addr 0x4551cdc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method get_binding, addr 0x62cdf30, size 0xa8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputBinding get_binding();
 
-  /// @brief Method get_bindingIndex, addr 0x4551ca4, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_bindingIndex, addr 0x62cdef8, size 0x38, virtual false, abstract: false, final false
   inline int32_t get_bindingIndex();
 
-  /// @brief Method get_valid, addr 0x4551c38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_valid, addr 0x62cde8c, size 0x6c, virtual false, abstract: false, final false
   inline bool get_valid();
 
   // Ctor Parameters []
@@ -174,7 +174,7 @@ public:
   constexpr InputActionSetupExtensions_BindingSyntax(::UnityEngine::InputSystem::InputActionMap* m_ActionMap, ::UnityEngine::InputSystem::InputAction* m_Action, int32_t m_BindingIndexInMap) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6572 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8625 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -209,13 +209,13 @@ public:
   // Declarations
   __declspec(property(get = get_bindingIndex)) int32_t bindingIndex;
 
-  /// @brief Method With, addr 0x455333c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method With, addr 0x62cf584, size 0x1fc, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax With(::StringW name, ::StringW binding, ::StringW groups, ::StringW processors);
 
-  /// @brief Method .ctor, addr 0x45505a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cc8b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputAction* action, int32_t compositeIndex);
 
-  /// @brief Method get_bindingIndex, addr 0x4553310, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_bindingIndex, addr 0x62cf558, size 0x2c, virtual false, abstract: false, final false
   inline int32_t get_bindingIndex();
 
   // Ctor Parameters []
@@ -228,7 +228,7 @@ public:
                                                        int32_t m_BindingIndexInMap) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8626 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -261,46 +261,46 @@ namespace UnityEngine::InputSystem {
 struct CORDL_TYPE InputActionSetupExtensions_ControlSchemeSyntax {
 public:
   // Declarations
-  /// @brief Method AddDeviceEntry, addr 0x4553584, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method AddDeviceEntry, addr 0x62cf780, size 0x1d4, virtual false, abstract: false, final false
   inline void AddDeviceEntry(::StringW controlPath, ::UnityEngine::InputSystem::DeviceRequirement_InputControlScheme_Flags flags);
 
   /// @brief Method DeviceTypeToControlPath, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline ::StringW DeviceTypeToControlPath();
 
-  /// @brief Method Done, addr 0x4551764, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Done, addr 0x62cda20, size 0xc4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputControlScheme Done();
 
   /// @brief Method OrWithOptionalDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithOptionalDevice();
 
-  /// @brief Method OrWithOptionalDevice, addr 0x4551c04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OrWithOptionalDevice, addr 0x62cde58, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithOptionalDevice(::StringW controlPath);
 
   /// @brief Method OrWithRequiredDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithRequiredDevice();
 
-  /// @brief Method OrWithRequiredDevice, addr 0x4551b38, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OrWithRequiredDevice, addr 0x62cdd9c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax OrWithRequiredDevice(::StringW controlPath);
 
-  /// @brief Method WithBindingGroup, addr 0x4551644, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method WithBindingGroup, addr 0x62cd900, size 0x120, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithBindingGroup(::StringW bindingGroup);
 
   /// @brief Method WithOptionalDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithOptionalDevice();
 
-  /// @brief Method WithOptionalDevice, addr 0x455193c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithOptionalDevice, addr 0x62cdbd0, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithOptionalDevice(::StringW controlPath);
 
   /// @brief Method WithRequiredDevice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TDevice> inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithRequiredDevice();
 
-  /// @brief Method WithRequiredDevice, addr 0x4551908, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithRequiredDevice, addr 0x62cdb9c, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax WithRequiredDevice(::StringW controlPath);
 
-  /// @brief Method .ctor, addr 0x4551430, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cd6f4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputActionAsset* asset, int32_t index);
 
-  /// @brief Method .ctor, addr 0x4551624, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cd8e0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::InputSystem::InputControlScheme controlScheme);
 
   // Ctor Parameters []
@@ -313,7 +313,7 @@ public:
                                                            ::UnityEngine::InputSystem::InputControlScheme m_ControlScheme) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8627 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -351,7 +351,7 @@ public:
 
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <RemoveAction>b__0, addr 0x4553778, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method <RemoveAction>b__0, addr 0x62cf954, size 0x44, virtual false, abstract: false, final false
   inline bool _RemoveAction_b__0(::UnityEngine::InputSystem::InputBinding b);
 
   constexpr ::UnityEngine::InputSystem::InputBinding const& __cordl_internal_get_binding() const;
@@ -360,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set_binding(::UnityEngine::InputSystem::InputBinding value);
 
-  /// @brief Method .ctor, addr 0x454fc70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62cbf70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -378,7 +378,7 @@ public:
   InputActionSetupExtensions___c__DisplayClass5_0(InputActionSetupExtensions___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8628 };
 
   /// @brief Field binding, offset: 0x10, size: 0x58, def value: None
   ::UnityEngine::InputSystem::InputBinding ___binding;
@@ -406,116 +406,116 @@ public:
 
   using __c__DisplayClass5_0 = ::UnityEngine::InputSystem::InputActionSetupExtensions___c__DisplayClass5_0;
 
-  /// @brief Method AddAction, addr 0x454f54c, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x62cb844, size 0x354, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputAction* AddAction(::UnityEngine::InputSystem::InputActionMap* map, ::StringW name, ::UnityEngine::InputSystem::InputActionType type, ::StringW binding,
                                                                    ::StringW interactions, ::StringW processors, ::StringW groups, ::StringW expectedControlLayout);
 
-  /// @brief Method AddActionMap, addr 0x454eecc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x62cb19c, size 0x1d4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionMap* AddActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name);
 
-  /// @brief Method AddActionMap, addr 0x454f08c, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x62cb370, size 0x250, virtual false, abstract: false, final false
   static inline void AddActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method AddBinding, addr 0x454fd84, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cc084, size 0xc4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding binding);
 
-  /// @brief Method AddBinding, addr 0x454fe34, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cc148, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method AddBinding, addr 0x454f8b8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cbb98, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW path, ::StringW interactions,
                                                                                                 ::StringW processors, ::StringW groups);
 
-  /// @brief Method AddBinding, addr 0x455013c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cc43c, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap,
                                                                                                 ::UnityEngine::InputSystem::InputBinding binding);
 
-  /// @brief Method AddBinding, addr 0x4550348, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cc64c, size 0xfc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::System::Guid action,
                                                                                                 ::StringW interactions, ::StringW groups);
 
-  /// @brief Method AddBinding, addr 0x4550224, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cc524, size 0x128, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path,
                                                                                                 ::UnityEngine::InputSystem::InputAction* action, ::StringW interactions, ::StringW groups);
 
-  /// @brief Method AddBinding, addr 0x4550088, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method AddBinding, addr 0x62cc388, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax AddBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, ::StringW path, ::StringW interactions,
                                                                                                 ::StringW groups, ::StringW action, ::StringW processors);
 
-  /// @brief Method AddBindingInternal, addr 0x454feec, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method AddBindingInternal, addr 0x62cc200, size 0x17c, virtual false, abstract: false, final false
   static inline int32_t AddBindingInternal(::UnityEngine::InputSystem::InputActionMap* map, ::UnityEngine::InputSystem::InputBinding binding, int32_t bindingIndex);
 
-  /// @brief Method AddCompositeBinding, addr 0x455043c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method AddCompositeBinding, addr 0x62cc748, size 0x148, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_CompositeSyntax AddCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW composite, ::StringW interactions,
                                                                                                            ::StringW processors);
 
-  /// @brief Method AddControlScheme, addr 0x45512cc, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AddControlScheme, addr 0x62cd598, size 0x15c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_ControlSchemeSyntax AddControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name);
 
-  /// @brief Method AddControlScheme, addr 0x4551004, size 0x2c8, virtual false, abstract: false, final false
+  /// @brief Method AddControlScheme, addr 0x62cd308, size 0x290, virtual false, abstract: false, final false
   static inline void AddControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputControlScheme controlScheme);
 
-  /// @brief Method ChangeBinding, addr 0x45505e4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method ChangeBinding, addr 0x62cc8f0, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, int32_t index);
 
-  /// @brief Method ChangeBinding, addr 0x45506c0, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ChangeBinding, addr 0x62cc9d4, size 0x134, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, ::UnityEngine::InputSystem::InputBinding match);
 
-  /// @brief Method ChangeBinding, addr 0x4550670, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ChangeBinding, addr 0x62cc984, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW name);
 
-  /// @brief Method ChangeBinding, addr 0x45507fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ChangeBinding, addr 0x62ccb08, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBinding(::UnityEngine::InputSystem::InputActionMap* actionMap, int32_t index);
 
-  /// @brief Method ChangeBindingWithGroup, addr 0x4550a60, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ChangeBindingWithGroup, addr 0x62ccd6c, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithGroup(::UnityEngine::InputSystem::InputAction* action, ::StringW group);
 
-  /// @brief Method ChangeBindingWithId, addr 0x45508f0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ChangeBindingWithId, addr 0x62ccbfc, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action, ::StringW id);
 
-  /// @brief Method ChangeBindingWithId, addr 0x4550984, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ChangeBindingWithId, addr 0x62ccc90, size 0xb0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithId(::UnityEngine::InputSystem::InputAction* action, ::System::Guid id);
 
-  /// @brief Method ChangeBindingWithPath, addr 0x4550af4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ChangeBindingWithPath, addr 0x62cce00, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeBindingWithPath(::UnityEngine::InputSystem::InputAction* action, ::StringW path);
 
-  /// @brief Method ChangeCompositeBinding, addr 0x4550b90, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ChangeCompositeBinding, addr 0x62cce9c, size 0x1a4, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputActionSetupExtensions_BindingSyntax ChangeCompositeBinding(::UnityEngine::InputSystem::InputAction* action, ::StringW compositeName);
 
-  /// @brief Method OrWithOptionalDevice, addr 0x4551b6c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OrWithOptionalDevice, addr 0x62cddd0, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme OrWithOptionalDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
-  /// @brief Method OrWithRequiredDevice, addr 0x4551aa0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OrWithRequiredDevice, addr 0x62cdd14, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme OrWithRequiredDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
-  /// @brief Method RemoveAction, addr 0x454f904, size 0x36c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAction, addr 0x62cbbe4, size 0x38c, virtual false, abstract: false, final false
   static inline void RemoveAction(::UnityEngine::InputSystem::InputAction* action);
 
-  /// @brief Method RemoveAction, addr 0x454fc78, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAction, addr 0x62cbf74, size 0x110, virtual false, abstract: false, final false
   static inline void RemoveAction(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW nameOrId);
 
-  /// @brief Method RemoveActionMap, addr 0x454f2d4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method RemoveActionMap, addr 0x62cb5c0, size 0x16c, virtual false, abstract: false, final false
   static inline void RemoveActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::UnityEngine::InputSystem::InputActionMap* map);
 
-  /// @brief Method RemoveActionMap, addr 0x454f438, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method RemoveActionMap, addr 0x62cb72c, size 0x118, virtual false, abstract: false, final false
   static inline void RemoveActionMap(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW nameOrId);
 
-  /// @brief Method RemoveControlScheme, addr 0x4551444, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method RemoveControlScheme, addr 0x62cd708, size 0x13c, virtual false, abstract: false, final false
   static inline void RemoveControlScheme(::UnityEngine::InputSystem::InputActionAsset* asset, ::StringW name);
 
-  /// @brief Method Rename, addr 0x4550da0, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method Rename, addr 0x62cd0a0, size 0x268, virtual false, abstract: false, final false
   static inline void Rename(::UnityEngine::InputSystem::InputAction* action, ::StringW newName);
 
-  /// @brief Method WithBindingGroup, addr 0x4551578, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method WithBindingGroup, addr 0x62cd844, size 0x9c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithBindingGroup(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW bindingGroup);
 
-  /// @brief Method WithDevice, addr 0x4551824, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method WithDevice, addr 0x62cdae4, size 0xb8, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath, bool required);
 
-  /// @brief Method WithOptionalDevice, addr 0x4551a08, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WithOptionalDevice, addr 0x62cdc8c, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithOptionalDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
-  /// @brief Method WithRequiredDevice, addr 0x4551970, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method WithRequiredDevice, addr 0x62cdc04, size 0x88, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputControlScheme WithRequiredDevice(::UnityEngine::InputSystem::InputControlScheme scheme, ::StringW controlPath);
 
 protected:
@@ -533,7 +533,7 @@ public:
   InputActionSetupExtensions(InputActionSetupExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6576 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8629 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

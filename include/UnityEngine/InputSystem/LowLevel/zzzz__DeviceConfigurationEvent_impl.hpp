@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeviceConfigurationEvent.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeviceConfigurationEvent_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent.get_typeStatic
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4609b9c;
+  constexpr static std::size_t addrs = 0x6390e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventPtr (
     ::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::*)()>(&::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::ToEventPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4609ba8;
+  constexpr static std::size_t addrs = 0x6390e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent (*)(int32_t, double_t)>(
     &::UnityEngine::InputSystem::LowLevel::DeviceConfigurationEvent::Create)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4609bac;
+  constexpr static std::size_t addrs = 0x6390e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

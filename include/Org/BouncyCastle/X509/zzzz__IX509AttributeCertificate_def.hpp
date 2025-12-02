@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IX509AttributeCertificate)
@@ -20,6 +19,9 @@ namespace Org::BouncyCastle::X509 {
 class AttributeCertificateIssuer;
 }
 namespace Org::BouncyCastle::X509 {
+class IX509Extension;
+}
+namespace Org::BouncyCastle::X509 {
 class X509Attribute;
 }
 namespace System {
@@ -31,7 +33,7 @@ class IX509AttributeCertificate;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::IX509AttributeCertificate);
-// Dependencies Org.BouncyCastle.X509.IX509Extension
+// Dependencies
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.X509.IX509AttributeCertificate

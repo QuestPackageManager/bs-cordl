@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -18,6 +17,9 @@ namespace System::Net::Http::Headers {
 struct Token;
 }
 namespace System {
+class ICloneable;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,7 +28,7 @@ class ProductHeaderValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::ProductHeaderValue);
-// Dependencies System.ICloneable, System.Object
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: System.Net.Http.Headers.ProductHeaderValue
@@ -46,24 +48,24 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x4225734, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5ed0e20, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x42257ec, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5ed0edc, size 0x64, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ProductHeaderValue* New_ctor();
 
-  /// @brief Method System.ICloneable.Clone, addr 0x422572c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x5ed0e1c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x4225a6c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5ed116c, size 0x60, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x4225850, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5ed0f40, size 0xb4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x4225900, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x5ed0ff4, size 0x178, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::ProductHeaderValue*> parsedValue,
                                      ::ByRef<::System::Net::Http::Headers::Token> t);
 
@@ -79,22 +81,22 @@ public:
 
   constexpr void __cordl_internal_set__Version_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4225704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed0df8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x422570c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5ed0dfc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Version, addr 0x422571c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x5ed0e0c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Version();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Name, addr 0x4225714, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x5ed0e04, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_Version, addr 0x4225724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Version, addr 0x5ed0e14, size 0x8, virtual false, abstract: false, final false
   inline void set_Version(::StringW value);
 
 protected:
@@ -112,7 +114,7 @@ public:
   ProductHeaderValue(ProductHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20194 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

@@ -3,19 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ConcurrentDictionary_2)
@@ -35,6 +23,9 @@ namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
@@ -42,6 +33,12 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
@@ -59,6 +56,12 @@ namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::Serialization {
@@ -69,6 +72,9 @@ class Array;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -160,7 +166,7 @@ public:
   ConcurrentDictionary_2_Tables(ConcurrentDictionary_2_Tables const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3740 };
 
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*, ::Array<::System::Collections::Concurrent::ConcurrentDictionary_2_Node<TKey, TValue>*>*> ____buckets;
@@ -241,7 +247,7 @@ public:
   ConcurrentDictionary_2_Node(ConcurrentDictionary_2_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3741 };
 
   /// @brief Field _key, offset: 0x10, size: 0x8, def value: None
   TKey ____key;
@@ -259,7 +265,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator, System.Object
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
@@ -337,7 +343,7 @@ public:
   ConcurrentDictionary_2_DictionaryEnumerator(ConcurrentDictionary_2_DictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3742 };
 
   /// @brief Field _enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* ____enumerator;
@@ -346,7 +352,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
@@ -475,7 +481,7 @@ public:
   ConcurrentDictionary_2__GetEnumerator_d__35(ConcurrentDictionary_2__GetEnumerator_d__35 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3743 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -499,9 +505,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
-// System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyDictionary`2<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>,
-// System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename TKey, typename TValue>
@@ -888,14 +892,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   ConcurrentDictionary_2(ConcurrentDictionary_2 const&) = delete;
 
-  /// @brief Field DefaultCapacity offset 0xffffffff size 0x4
-  static constexpr int32_t DefaultCapacity{ static_cast<int32_t>(0x1f) };
-
-  /// @brief Field MaxLockNumber offset 0xffffffff size 0x4
-  static constexpr int32_t MaxLockNumber{ static_cast<int32_t>(0x400) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3744 };
 
   /// @brief Field _tables, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Concurrent::ConcurrentDictionary_2_Tables<TKey, TValue>* ____tables;

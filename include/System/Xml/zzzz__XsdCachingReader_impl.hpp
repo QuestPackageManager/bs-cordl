@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XsdCachingReader.hpp"
-#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "System/Xml/zzzz__XmlReader_impl.hpp"
 #include "System/Xml/zzzz__XsdCachingReader_def.hpp"
 #include "System/Xml/zzzz__CachingEventHandler_def.hpp"
@@ -30,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XsdCachingReader::*)(::System::Xml::XmlReader*, ::System::Xml::IXmlLineInfo*, ::System::Xml::CachingEventHandler*)>(&::System::Xml::XsdCachingReader::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x432d594;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x608ecd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,8 +45,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Init)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x432d650;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x608ed98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "Init",
@@ -60,7 +59,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)(::System::Xml::XmlReader*)>(&::System::Xml::XsdCachingReader::Reset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432da8c;
+  constexpr static std::size_t addrs = 0x608f1e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReaderSettings* (::System::Xml::XsdCachingReader::*)()>(
     &::System::Xml::XsdCachingReader::get_Settings)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x432da94;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x608f1ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_NodeType)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432dab4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x608f208;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Name)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432dad0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x608f220;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_LocalName)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432daf4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x608f240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_NamespaceURI)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432db10;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x608f258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Prefix)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432db2c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x608f270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,8 +157,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Value)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x432db48;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x608f288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,8 +171,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_Depth)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432db78;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x608f2bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,8 +185,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_BaseURI)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432db94;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x608f2d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,7 +200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_IsEmptyElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432dbb8;
+  constexpr static std::size_t addrs = 0x608f2f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -215,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_IsDefault)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432dbc0;
+  constexpr static std::size_t addrs = 0x608f2fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -228,8 +227,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_QuoteChar)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432dbc8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x608f304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,8 +241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_XmlSpace)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432dbec;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x608f324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -256,8 +255,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_XmlLang)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432dc10;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x608f344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,12 +270,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_AttributeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432dc34;
+  constexpr static std::size_t addrs = 0x608f364;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 21));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 39));
     return ___internal_method;
   }
 };
@@ -284,13 +283,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::GetAttribute)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x432dc3c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x608f36c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 22));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 40));
     return ___internal_method;
   }
 };
@@ -299,13 +298,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XsdCachingReader::GetAttribute)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x432de18;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x608f524;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 23));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 41));
     return ___internal_method;
   }
 };
@@ -314,12 +313,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(int32_t)>(&::System::Xml::XsdCachingReader::GetAttribute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x432df30;
+  constexpr static std::size_t addrs = 0x608f5f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 24));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 42));
     return ___internal_method;
   }
 };
@@ -327,13 +326,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::MoveToAttribute)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x432dfc0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x608f684;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 25));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 43));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XsdCachingReader.MoveToAttribute
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW)>(&::System::Xml::XsdCachingReader::MoveToAttribute)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x608f718;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 44));
     return ___internal_method;
   }
 };
@@ -342,12 +355,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)(int32_t)>(&::System::Xml::XsdCachingReader::MoveToAttribute)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x432e050;
+  constexpr static std::size_t addrs = 0x608f7f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 26));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 45));
     return ___internal_method;
   }
 };
@@ -356,12 +369,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::MoveToFirstAttribute)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x432e0e0;
+  constexpr static std::size_t addrs = 0x608f884;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 27));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 46));
     return ___internal_method;
   }
 };
@@ -370,12 +383,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::MoveToNextAttribute)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x432e120;
+  constexpr static std::size_t addrs = 0x608f8c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 28));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 47));
     return ___internal_method;
   }
 };
@@ -384,12 +397,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::MoveToElement)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x432e174;
+  constexpr static std::size_t addrs = 0x608f918;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 29));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 48));
     return ___internal_method;
   }
 };
@@ -397,13 +410,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Read)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x432e1c8;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x608f96c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 31));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 50));
     return ___internal_method;
   }
 };
@@ -412,8 +425,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW, int32_t, int32_t, int32_t)>(&::System::Xml::XsdCachingReader::RecordTextNode)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x432e49c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x608fc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -429,8 +442,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)(::StringW, ::StringW)>(
     &::System::Xml::XsdCachingReader::SwitchTextNodeAndEndElement)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x432e514;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x608fc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,7 +457,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::RecordEndElementNode)> {
   constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x432e614;
+  constexpr static std::size_t addrs = 0x608fd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "RecordEndElementNode",
@@ -452,17 +465,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::XsdCachingReader.ReadOriginalContentAsString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ReadOriginalContentAsString)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x608feb8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
+                                                                               "ReadOriginalContentAsString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XsdCachingReader.get_EOF
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_EOF)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x432e744;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x608fedc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 32));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 51));
     return ___internal_method;
   }
 };
@@ -471,12 +497,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Close)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x432e780;
+  constexpr static std::size_t addrs = 0x608ff10;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 33));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 52));
     return ___internal_method;
   }
 };
@@ -484,13 +510,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ReadState (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::get_ReadState)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432e7b4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x608ff44;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 34));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 53));
     return ___internal_method;
   }
 };
@@ -499,12 +525,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::Skip)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x432e7d8;
+  constexpr static std::size_t addrs = 0x608ff64;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 35));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 54));
     return ___internal_method;
   }
 };
@@ -514,12 +540,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XsdCachingReader::*)()>(
     &::System::Xml::XsdCachingReader::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432e8ec;
+  constexpr static std::size_t addrs = 0x6090078;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 36));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 55));
     return ___internal_method;
   }
 };
@@ -527,13 +553,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XsdCachingReader::*)(::StringW)>(&::System::Xml::XsdCachingReader::LookupNamespace)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x432e8f4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6090080;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 37));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 56));
     return ___internal_method;
   }
 };
@@ -542,12 +568,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ResolveEntity)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x432e918;
+  constexpr static std::size_t addrs = 0x60900a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 39));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 58));
     return ___internal_method;
   }
 };
@@ -556,12 +582,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ReadAttributeValue)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x432e950;
+  constexpr static std::size_t addrs = 0x60900d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 30));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 49));
     return ___internal_method;
   }
 };
@@ -570,7 +596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_HasLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432ea24;
+  constexpr static std::size_t addrs = 0x60901ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -584,8 +610,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(
     &::System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_get_LineNumber)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432ea2c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x60901b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -599,8 +625,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)()>(
     &::System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_get_LinePosition)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x432ea48;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x60901cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -614,7 +640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::SetToReplayMode)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x432ea64;
+  constexpr static std::size_t addrs = 0x60901e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "SetToReplayMode",
@@ -627,7 +653,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::GetCoreReader)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432ea84;
+  constexpr static std::size_t addrs = 0x6090204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "GetCoreReader",
@@ -640,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::IXmlLineInfo* (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::GetLineInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x432ea8c;
+  constexpr static std::size_t addrs = 0x609020c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "GetLineInfo",
@@ -653,7 +679,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::ClearAttributesInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x432e48c;
+  constexpr static std::size_t addrs = 0x608fc28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "ClearAttributesInfo",
@@ -666,8 +692,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(int32_t)>(
     &::System::Xml::XsdCachingReader::AddAttribute)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x432ea94;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6090214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -681,8 +707,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(::System::Xml::XmlNodeType)>(
     &::System::Xml::XsdCachingReader::AddContent)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x432d7a0;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x608eeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -695,8 +721,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XsdCachingReader::*)()>(&::System::Xml::XsdCachingReader::RecordAttributes)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x432d914;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x608f064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), "RecordAttributes",
@@ -709,8 +735,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)(::StringW)>(
     &::System::Xml::XsdCachingReader::GetAttributeIndexWithoutPrefix)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x432dcc8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x608f3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -724,8 +750,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XsdCachingReader::*)(::StringW)>(
     &::System::Xml::XsdCachingReader::GetAttributeIndexWithPrefix)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x432dd78;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x608f48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -740,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::ValidatingReaderNodeData* (::System::Xml::XsdCachingReader::*)(::StringW, int32_t)>(
     &::System::Xml::XsdCachingReader::CreateDummyTextNode)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x432e99c;
+  constexpr static std::size_t addrs = 0x6090124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1020,52 +1046,57 @@ inline ::StringW System::Xml::XsdCachingReader::get_XmlLang() {
 }
 inline int32_t System::Xml::XsdCachingReader::get_AttributeCount() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 39)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XsdCachingReader::GetAttribute(::StringW name) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 40)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name);
 }
 inline ::StringW System::Xml::XsdCachingReader::GetAttribute(::StringW name, ::StringW namespaceURI) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 41)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, name, namespaceURI);
 }
 inline ::StringW System::Xml::XsdCachingReader::GetAttribute(int32_t i) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, i);
 }
 inline bool System::Xml::XsdCachingReader::MoveToAttribute(::StringW name) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 43)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name);
+}
+inline bool System::Xml::XsdCachingReader::MoveToAttribute(::StringW name, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 44)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, name, ns);
 }
 inline void System::Xml::XsdCachingReader::MoveToAttribute(int32_t i) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 45)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
 }
 inline bool System::Xml::XsdCachingReader::MoveToFirstAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 46)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Xml::XsdCachingReader::MoveToNextAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 47)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Xml::XsdCachingReader::MoveToElement() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 48)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Xml::XsdCachingReader::Read() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 50)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Xml::ValidatingReaderNodeData* System::Xml::XsdCachingReader::RecordTextNode(::StringW textValue, ::StringW originalStringValue, int32_t depth, int32_t lineNo, int32_t linePos) {
@@ -1087,44 +1118,49 @@ inline void System::Xml::XsdCachingReader::RecordEndElementNode() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline ::StringW System::Xml::XsdCachingReader::ReadOriginalContentAsString() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(),
+                                                                             "ReadOriginalContentAsString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
 inline bool System::Xml::XsdCachingReader::get_EOF() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 51)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Xml::XsdCachingReader::Close() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 52)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Xml::ReadState System::Xml::XsdCachingReader::get_ReadState() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 34)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 53)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::ReadState, false>(this, ___internal_method);
 }
 inline void System::Xml::XsdCachingReader::Skip() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 35)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 54)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlNameTable* System::Xml::XsdCachingReader::get_NameTable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 36)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNameTable*, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XsdCachingReader::LookupNamespace(::StringW prefix) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 37)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 56)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, prefix);
 }
 inline void System::Xml::XsdCachingReader::ResolveEntity() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 39)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 58)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool System::Xml::XsdCachingReader::ReadAttributeValue() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XsdCachingReader*>::get(), 49)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Xml::XsdCachingReader::System_Xml_IXmlLineInfo_HasLineInfo() {

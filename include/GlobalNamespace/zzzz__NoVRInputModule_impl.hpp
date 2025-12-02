@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoVRInputModule.hpp"
-#include "GlobalNamespace/zzzz__IVRInputModule_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoVRInputModule_def.hpp"
+#include "GlobalNamespace/zzzz__IVRInputModule_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::NoVRInputModule::add_onProcessMousePressEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aec930;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c02990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::NoVRInputModule::remove_onProcessMousePressEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aec9e0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c02a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::GlobalNamespace::NoVRInputModule::add_pointerDidClickEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aeca90;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c02b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>*)>(
     &::GlobalNamespace::NoVRInputModule::remove_pointerDidClickEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4aecb40;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c02bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoVRInputModule::*)()>(&::GlobalNamespace::NoVRInputModule::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aecbf0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c02c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoVRInputModule*>::get(), ".ctor",

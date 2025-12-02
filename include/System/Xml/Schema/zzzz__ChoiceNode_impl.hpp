@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Xml::Schema::SyntaxTreeNode*, ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*,
                                                                                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::ChoiceNode::ConstructChildPos)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x439c878;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6102f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ChoiceNode::*)(
     ::System::Xml::Schema::BitSet*, ::System::Xml::Schema::BitSet*, ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*>)>(
     &::System::Xml::Schema::ChoiceNode::ConstructPos)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x439c94c;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6103014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::ChoiceNode::*)()>(&::System::Xml::Schema::ChoiceNode::get_IsNullable)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x439ca78;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x610312c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ChoiceNode::*)(
     ::System::Xml::Schema::InteriorNode*, ::System::Xml::Schema::SymbolsDictionary*, ::System::Xml::Schema::Positions*)>(&::System::Xml::Schema::ChoiceNode::ExpandTree)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x439cb10;
+  constexpr static std::size_t addrs = 0x61031c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::ChoiceNode::*)()>(&::System::Xml::Schema::ChoiceNode::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x439c0b8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6102764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::ChoiceNode*>::get(), ".ctor",

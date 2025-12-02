@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x233179c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x325e854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::Sha384Digest*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::Org::BouncyCastle::Crypto::Digests::Sha384Digest*)>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x23317f4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x325e8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x233185c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x325e91c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x233189c;
+  constexpr static std::size_t addrs = 0x325e960;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::DoFinal)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x23318a4;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x325e968;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::Reset)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x233195c;
+  constexpr static std::size_t addrs = 0x325ea70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::Copy)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23319a4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x325eab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::Sha384Digest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
     &::Org::BouncyCastle::Crypto::Digests::Sha384Digest::Reset)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x23319fc;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x325eb14;
 
   inline static ::MethodInfo const* methodInfo() {
 

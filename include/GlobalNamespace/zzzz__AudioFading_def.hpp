@@ -34,18 +34,18 @@ public:
   /// @brief Field _targetVolume, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get__targetVolume, put = __cordl_internal_set__targetVolume)) float_t _targetVolume;
 
-  /// @brief Method FadeIn, addr 0x3ace220, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x56a7de4, size 0x24, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut, addr 0x3ace314, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x56a7ef4, size 0x20, virtual false, abstract: false, final false
   inline void FadeOut();
 
   static inline ::GlobalNamespace::AudioFading* New_ctor();
 
-  /// @brief Method Start, addr 0x3ace1c4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56a7d88, size 0x5c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ace244, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x56a7e08, size 0xec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -72,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__targetVolume(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ace334, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a7f14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   AudioFading(AudioFading const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5551 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;

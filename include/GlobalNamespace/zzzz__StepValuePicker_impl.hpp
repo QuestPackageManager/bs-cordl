@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::StepValuePicker::add_decButtonWasPressedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c2783c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x58196a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::StepValuePicker::remove_decButtonWasPressedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c27a70;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5819968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::StepValuePicker::add_incButtonWasPressedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c278d8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5819750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::System::Action*)>(
     &::GlobalNamespace::StepValuePicker::remove_incButtonWasPressedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c27b0c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5819a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::get_text)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c283f8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x581a334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StepValuePicker*>::get(), "get_text",
@@ -82,8 +82,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(::StringW)>(&::GlobalNamespace::StepValuePicker::set_text)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c27768;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5819568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(bool)>(&::GlobalNamespace::StepValuePicker::set_decButtonInteractable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c276d4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x58194dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)(bool)>(&::GlobalNamespace::StepValuePicker::set_incButtonInteractable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c2771c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5819520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,8 +124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::OnEnable)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c2841c;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x581a354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,8 +138,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::OnDisable)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c28504;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x581a4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StepValuePicker*>::get(), "OnDisable",
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::IncButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c285ec;
+  constexpr static std::size_t addrs = 0x581a5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StepValuePicker*>::get(), "IncButtonPressed",
@@ -165,7 +165,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::DecButtonPressed)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c28608;
+  constexpr static std::size_t addrs = 0x581a618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StepValuePicker*>::get(), "DecButtonPressed",
@@ -177,8 +177,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StepValuePicker::*)()>(&::GlobalNamespace::StepValuePicker::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c28624;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x581a634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StepValuePicker*>::get(), ".ctor",

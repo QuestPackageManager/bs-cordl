@@ -1,21 +1,35 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StyleFloat.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleFloat.get_value
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::StyleFloat::*)()>(&::UnityEngine::UIElements::StyleFloat::get_value)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a856e4;
+  constexpr static std::size_t addrs = 0x6a5e9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "get_value",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleFloat.set_value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(float_t)>(&::UnityEngine::UIElements::StyleFloat::set_value)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5e9f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "set_value", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -25,11 +39,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleKeyword (::UnityEngine::UIElements::StyleFloat::*)()>(
     &::UnityEngine::UIElements::StyleFloat::get_keyword)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a856fc;
+  constexpr static std::size_t addrs = 0x6a5ea00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "get_keyword",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleFloat.set_keyword
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(::UnityEngine::UIElements::StyleKeyword)>(
+    &::UnityEngine::UIElements::StyleFloat::set_keyword)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5ea08;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "set_keyword", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
     return ___internal_method;
   }
 };
@@ -38,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(float_t)>(&::UnityEngine::UIElements::StyleFloat::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a85704;
+  constexpr static std::size_t addrs = 0x6a5ea10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFloat::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85710;
+  constexpr static std::size_t addrs = 0x6a5ea1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleFloat::*)(float_t, ::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFloat::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a841fc;
+  constexpr static std::size_t addrs = 0x6a5c140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleFloat, ::UnityEngine::UIElements::StyleFloat)>(
     &::UnityEngine::UIElements::StyleFloat::op_Equality)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a85718;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6a5ea24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFloat (*)(::UnityEngine::UIElements::StyleKeyword)>(
     &::UnityEngine::UIElements::StyleFloat::op_Implicit___UnityEngine__UIElements__StyleFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a84208;
+  constexpr static std::size_t addrs = 0x6a5c14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFloat (*)(float_t)>(
     &::UnityEngine::UIElements::StyleFloat::op_Implicit___UnityEngine__UIElements__StyleFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a85740;
+  constexpr static std::size_t addrs = 0x6a5ea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFloat::*)(::UnityEngine::UIElements::StyleFloat)>(
     &::UnityEngine::UIElements::StyleFloat::Equals)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a85748;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6a5ea4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleFloat::*)(::System::Object*)>(&::UnityEngine::UIElements::StyleFloat::Equals)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a85770;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6a5ea70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,8 +186,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleFloat::*)()>(&::UnityEngine::UIElements::StyleFloat::GetHashCode)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a857fc;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6a5eb00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,8 +200,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::StyleFloat::*)()>(&::UnityEngine::UIElements::StyleFloat::ToString)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a85824;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6a5eb24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,10 +215,22 @@ inline float_t UnityEngine::UIElements::StyleFloat::get_value() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::StyleFloat::set_value(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "set_value",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::UIElements::StyleKeyword UnityEngine::UIElements::StyleFloat::get_keyword() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "get_keyword",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleKeyword, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::StyleFloat::set_keyword(::UnityEngine::UIElements::StyleKeyword value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleFloat>::get(), "set_keyword", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleKeyword>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::StyleFloat::_ctor(float_t v) {
   static auto* ___internal_method =

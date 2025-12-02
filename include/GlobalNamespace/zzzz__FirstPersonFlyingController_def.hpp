@@ -11,6 +11,9 @@ namespace GlobalNamespace {
 class MouseLook;
 }
 namespace GlobalNamespace {
+class PauseController;
+}
+namespace GlobalNamespace {
 class VRCenterAdjust;
 }
 namespace GlobalNamespace {
@@ -80,25 +83,28 @@ public:
   /// @brief Field _overrideDisableMovement, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideDisableMovement, put = __cordl_internal_set__overrideDisableMovement)) bool _overrideDisableMovement;
 
+  /// @brief Field _pausedController, offset 0x88, size 0x8
+  __declspec(property(get = __cordl_internal_get__pausedController, put = __cordl_internal_set__pausedController)) ::UnityW<::GlobalNamespace::PauseController> _pausedController;
+
   /// @brief Field _trackedPoseDriver, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__trackedPoseDriver, put = __cordl_internal_set__trackedPoseDriver)) ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> _trackedPoseDriver;
 
   /// @brief Field _transform, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method Inject, addr 0x3b0dd90, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method Inject, addr 0x56ecb10, size 0x10c, virtual false, abstract: false, final false
   inline void Inject(::UnityEngine::Camera* camera, ::GlobalNamespace::VRCenterAdjust* centerAdjust, ::GlobalNamespace::VRController* controller0, ::GlobalNamespace::VRController* controller1,
-                     ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver, bool overrideDisableMovement);
+                     ::UnityEngine::SpatialTracking::TrackedPoseDriver* trackedPoseDriver, bool overrideDisableMovement, ::GlobalNamespace::PauseController* pausedController);
 
   static inline ::GlobalNamespace::FirstPersonFlyingController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b0d3e0, size 0x24c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x56ec0c8, size 0x2d0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b0d0d0, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x56ebd44, size 0x2b0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Update, addr 0x3b0d62c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x56ec398, size 0x49c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -149,6 +155,10 @@ public:
 
   constexpr bool& __cordl_internal_get__overrideDisableMovement();
 
+  constexpr ::UnityW<::GlobalNamespace::PauseController> const& __cordl_internal_get__pausedController() const;
+
+  constexpr ::UnityW<::GlobalNamespace::PauseController>& __cordl_internal_get__pausedController();
+
   constexpr ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> const& __cordl_internal_get__trackedPoseDriver() const;
 
   constexpr ::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver>& __cordl_internal_get__trackedPoseDriver();
@@ -181,11 +191,13 @@ public:
 
   constexpr void __cordl_internal_set__overrideDisableMovement(bool value);
 
+  constexpr void __cordl_internal_set__pausedController(::UnityW<::GlobalNamespace::PauseController> value);
+
   constexpr void __cordl_internal_set__trackedPoseDriver(::UnityW<::UnityEngine::SpatialTracking::TrackedPoseDriver> value);
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b0de88, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ecc1c, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -203,7 +215,7 @@ public:
   FirstPersonFlyingController(FirstPersonFlyingController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
 
   /// @brief Field _moveSensitivity, offset: 0x20, size: 0x4, def value: None
   float_t ____moveSensitivity;
@@ -247,6 +259,9 @@ public:
   /// @brief Field _overrideDisableMovement, offset: 0x80, size: 0x1, def value: None
   bool ____overrideDisableMovement;
 
+  /// @brief Field _pausedController, offset: 0x88, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::PauseController> ____pausedController;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -278,7 +293,9 @@ static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____origi
 
 static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____overrideDisableMovement) == 0x80, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x88>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::FirstPersonFlyingController, ____pausedController) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FirstPersonFlyingController, 0x90>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FirstPersonFlyingController);

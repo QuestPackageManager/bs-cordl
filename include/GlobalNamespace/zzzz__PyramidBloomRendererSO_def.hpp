@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
+#include "UnityEngine/Rendering/zzzz__GlobalKeyword_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -125,7 +126,7 @@ public:
   static ::GlobalNamespace::PyramidBloomRendererSO_Pass const UpsampleTentGamma;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16233 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -157,7 +158,7 @@ public:
   constexpr PyramidBloomRendererSO_Level(::UnityW<::UnityEngine::RenderTexture> down, ::UnityW<::UnityEngine::RenderTexture> up) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16234 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -178,7 +179,7 @@ static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO_Level, up) == 0
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PyramidBloomRendererSO_Level, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies PersistentScriptableObject
+// Dependencies PersistentScriptableObject, UnityEngine.Rendering.GlobalKeyword
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PyramidBloomRendererSO
@@ -207,8 +208,12 @@ public:
   /// @brief Field _globalIntensityTex, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__globalIntensityTex, put = setStaticF__globalIntensityTex)) int32_t _globalIntensityTex;
 
-  /// @brief Field _initialized, offset 0x40, size 0x1
+  /// @brief Field _initialized, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__initialized, put = __cordl_internal_set__initialized)) bool _initialized;
+
+  /// @brief Field _legacyAutoExposureGlobalKeyword, offset 0x40, size 0x10
+  __declspec(property(get = __cordl_internal_get__legacyAutoExposureGlobalKeyword,
+                      put = __cordl_internal_set__legacyAutoExposureGlobalKeyword)) ::UnityEngine::Rendering::GlobalKeyword _legacyAutoExposureGlobalKeyword;
 
   /// @brief Field _material, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__material, put = __cordl_internal_set__material)) ::UnityW<::UnityEngine::Material> _material;
@@ -232,16 +237,16 @@ public:
 
   static inline ::GlobalNamespace::PyramidBloomRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39d34f8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x564a910, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39d33f0, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x564a7f0, size 0x120, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RenderBloom, addr 0x39d351c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x564a934, size 0x90, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, bool alphaWeights, bool betterQuality, bool gammaCorrection, bool legacyAutoExposure);
 
-  /// @brief Method RenderBloom, addr 0x39d35ac, size 0x834, virtual false, abstract: false, final false
+  /// @brief Method RenderBloom, addr 0x564a9c4, size 0x880, virtual false, abstract: false, final false
   inline void RenderBloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, float_t radius, float_t intensity, float_t autoExposureLimit, float_t downIntensityOffset,
                           bool uniformPyramidWeights, bool downsampleOnFirstPass, float_t pyramidWeightsParam, float_t alphaWeights, float_t firstUpsampleBrightness, float_t finalUpsampleBrightness,
                           ::GlobalNamespace::PyramidBloomRendererSO_Pass preFilterPass, ::GlobalNamespace::PyramidBloomRendererSO_Pass downsamplePass,
@@ -251,6 +256,10 @@ public:
   constexpr bool const& __cordl_internal_get__initialized() const;
 
   constexpr bool& __cordl_internal_get__initialized();
+
+  constexpr ::UnityEngine::Rendering::GlobalKeyword const& __cordl_internal_get__legacyAutoExposureGlobalKeyword() const;
+
+  constexpr ::UnityEngine::Rendering::GlobalKeyword& __cordl_internal_get__legacyAutoExposureGlobalKeyword();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__material() const;
 
@@ -274,6 +283,8 @@ public:
 
   constexpr void __cordl_internal_set__initialized(bool value);
 
+  constexpr void __cordl_internal_set__legacyAutoExposureGlobalKeyword(::UnityEngine::Rendering::GlobalKeyword value);
+
   constexpr void __cordl_internal_set__material(::UnityW<::UnityEngine::Material> value);
 
   constexpr void __cordl_internal_set__pyramid(::ArrayW<::GlobalNamespace::PyramidBloomRendererSO_Level, ::Array<::GlobalNamespace::PyramidBloomRendererSO_Level>*> value);
@@ -284,7 +295,7 @@ public:
 
   constexpr void __cordl_internal_set_kLegacyAutoExposureKeyword(::StringW value);
 
-  /// @brief Method .ctor, addr 0x39d3de0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x564b244, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__alphaWeightsID();
@@ -330,7 +341,7 @@ public:
   PyramidBloomRendererSO(PyramidBloomRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16235 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19609 };
 
   /// @brief Field kMaxPyramidSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPyramidSize{ static_cast<int32_t>(0x10) };
@@ -350,7 +361,10 @@ public:
   /// @brief Field kLegacyAutoExposureKeyword, offset: 0x38, size: 0x8, def value: None
   ::StringW ___kLegacyAutoExposureKeyword;
 
-  /// @brief Field _initialized, offset: 0x40, size: 0x1, def value: None
+  /// @brief Field _legacyAutoExposureGlobalKeyword, offset: 0x40, size: 0x10, def value: None
+  ::UnityEngine::Rendering::GlobalKeyword ____legacyAutoExposureGlobalKeyword;
+
+  /// @brief Field _initialized, offset: 0x50, size: 0x1, def value: None
   bool ____initialized;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -366,9 +380,11 @@ static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ___kIsScreensp
 
 static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ___kLegacyAutoExposureKeyword) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____initialized) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____legacyAutoExposureGlobalKeyword) == 0x40, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PyramidBloomRendererSO, 0x48>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::PyramidBloomRendererSO, ____initialized) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PyramidBloomRendererSO, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PyramidBloomRendererSO_Pass, "", "PyramidBloomRendererSO/Pass");

@@ -3,10 +3,8 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider2_impl.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_impl.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_impl.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneReleaseMode_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_impl.hpp"
 #include "UnityEngine/SceneManagement/zzzz__UnloadSceneOptions_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneProvider_def.hpp"
@@ -18,8 +16,12 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider2_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneProvider_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneReleaseMode_def.hpp"
+#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneMode_def.hpp"
 #include "UnityEngine/SceneManagement/zzzz__LoadSceneParameters_def.hpp"
@@ -29,14 +31,16 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(
-    ::UnityEngine::ResourceManagement::ResourceManager*)>(&::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x479fc0c;
+    ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2*)>(
+    &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6700b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2*>::get() })));
     return ___internal_method;
   }
 };
@@ -46,8 +50,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (
     ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(::System::Collections::Generic::HashSet_1<::System::Object*>*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::GetDownloadStatus)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x47a0020;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6700f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::SceneManagement::LoadSceneMode, bool, int32_t,
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::Init)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47a00fc;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x670107c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,17 +86,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(
-    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::SceneManagement::LoadSceneParameters, bool, int32_t,
+    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::SceneManagement::LoadSceneParameters,
+    ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode, bool, int32_t,
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::Init)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x479fc68;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6700ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::LoadSceneParameters>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
                                                 ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>>::get() })));
@@ -104,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::InvokeWaitForCompletion)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x47a016c;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x67010bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,8 +127,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::GetDependencies)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x47a04a0;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6701420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::get_DebugName)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a05e4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x670152c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::Execute)> {
-  constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x47a0688;
+  constexpr static std::size_t size = 0x4f8;
+  constexpr static std::size_t addrs = 0x6701608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,8 +177,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(
         ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, bool, ::UnityEngine::SceneManagement::LoadSceneParameters, bool, int32_t)>(
         &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::InternalLoadScene)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47a0c70;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6701bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -191,8 +197,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::AsyncOperation* (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(::StringW, bool, ::UnityEngine::SceneManagement::LoadSceneParameters)>(
         &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::InternalLoad)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x47a0d44;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6701cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,8 +214,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::Destroy)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x47a0dac;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x6702000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::get_Progress)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47a0e3c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x67021e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,8 +246,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::*)(float_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::UnityEngine_ResourceManagement_IUpdateReceiver_Update)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x47a0efc;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x67022a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,6 +307,20 @@ constexpr void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LoadSceneParameters = value;
 }
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode& UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_get_m_ReleaseMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReleaseMode;
+}
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode const&
+UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_get_m_ReleaseMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReleaseMode;
+}
+constexpr void
+UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_set_m_ReleaseMode(::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ReleaseMode = value;
+}
 constexpr int32_t& UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_get_m_Priority() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Priority;
@@ -343,11 +363,27 @@ constexpr void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ResourceManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::_ctor(::UnityEngine::ResourceManagement::ResourceManager* rm) {
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2*& UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_get_m_provider() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_provider;
+}
+constexpr ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* const&
+UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_get_m_provider() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_provider;
+}
+constexpr void
+UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::__cordl_internal_set_m_provider(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_provider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::_ctor(::UnityEngine::ResourceManagement::ResourceManager* rm,
+                                                                                             ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* provider) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rm);
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rm, provider);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus
 UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::GetDownloadStatus(::System::Collections::Generic::HashSet_1<::System::Object*>* visited) {
@@ -370,17 +406,19 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_Sc
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, location, loadSceneMode, activateOnLoad, priority, depOp);
 }
 inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::Init(
-    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, bool activateOnLoad, int32_t priority,
+    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
+    ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad, int32_t priority,
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
         depOp) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::LoadSceneParameters>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
                                               ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, location, loadSceneParameters, activateOnLoad, priority, depOp);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, location, loadSceneParameters, releaseMode, activateOnLoad, priority, depOp);
 }
 inline bool UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::InvokeWaitForCompletion() {
   auto* ___internal_method = THROW_UNLESS(
@@ -450,8 +488,9 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_Sc
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unscaledDeltaTime);
 }
 inline ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*
-UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::New_ctor(::UnityEngine::ResourceManagement::ResourceManager* rm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*>(rm));
+UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::New_ctor(::UnityEngine::ResourceManagement::ResourceManager* rm,
+                                                                                    ::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2* provider) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp*>(rm, provider));
 }
 /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
 constexpr UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_SceneOp::operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept {
@@ -470,8 +509,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>,
     ::UnityEngine::SceneManagement::UnloadSceneOptions)>(&::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::Init)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x479ff84;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6700ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -488,8 +527,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::Execute)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x47a1024;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x670247c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -504,8 +543,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::InvokeWaitForCompletion)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47a1288;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x670271c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -520,27 +559,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)(
     ::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::UnloadSceneCompleted)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47a11c0;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x67025b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp*>::get(), "UnloadSceneCompleted",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp.UnloadSceneCompletedNoRelease
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)(
-    ::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::UnloadSceneCompletedNoRelease)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47a1150;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp*>::get(), "UnloadSceneCompletedNoRelease",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
     return ___internal_method;
   }
@@ -550,8 +574,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::get_Progress)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47a133c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6702a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -566,8 +590,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x479ff3c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6700eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -646,12 +670,6 @@ inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_Un
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj);
 }
-inline void UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::UnloadSceneCompletedNoRelease(::UnityEngine::AsyncOperation* obj) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp*>::get(), "UnloadSceneCompletedNoRelease",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj);
-}
 inline float_t UnityEngine::ResourceManagement::ResourceProviders::SceneProvider_UnloadSceneOp::get_Progress() {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -676,8 +694,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::SceneManagement::LoadSceneMode, bool, int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ProvideScene)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x479f834;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6700748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -696,8 +714,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::SceneManagement::LoadSceneParameters, bool, int32_t)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ProvideScene)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x479f8a8;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6700788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -705,6 +723,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::LoadSceneParameters>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider.ProvideScene
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
+    ::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance> (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::*)(
+    ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::UnityEngine::SceneManagement::LoadSceneParameters,
+    ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode, bool, int32_t)>(&::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ProvideScene)> {
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x67007c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider*>::get(), "ProvideScene", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::LoadSceneParameters>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -717,8 +756,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::ResourceManager*,
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ReleaseScene)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x479fd2c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6700c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -739,8 +778,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>,
     ::UnityEngine::SceneManagement::UnloadSceneOptions)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::UnityEngine_ResourceManagement_ResourceProviders_ISceneProvider2_ReleaseScene)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x479fe14;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6700da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -758,8 +797,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a0018;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6700f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -793,6 +832,22 @@ UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ProvideScene(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, false>(
       this, ___internal_method, resourceManager, location, loadSceneParameters, activateOnLoad, priority);
+}
+inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
+UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
+                                                                                ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
+                                                                                ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters,
+                                                                                ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad,
+                                                                                int32_t priority) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::ResourceProviders::SceneProvider*>::get(), "ProvideScene", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceManager*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::LoadSceneParameters>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>, false>(
+      this, ___internal_method, resourceManager, location, loadSceneParameters, releaseMode, activateOnLoad, priority);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
 UnityEngine::ResourceManagement::ResourceProviders::SceneProvider::ReleaseScene(

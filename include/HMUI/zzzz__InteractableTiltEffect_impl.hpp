@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "HMUI/InteractableTiltEffect.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerMoveHandler_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "HMUI/zzzz__InteractableTiltEffect_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerMoveHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InteractableTiltEffect::*)(float_t)>(&::HMUI::InteractableTiltEffect::set_effectStrengthMultiplier)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39f48dc;
+  constexpr static std::size_t addrs = 0x566cffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::InteractableTiltEffect::*)()>(&::HMUI::InteractableTiltEffect::get_effectStrengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f499c;
+  constexpr static std::size_t addrs = 0x566d0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTiltEffect*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InteractableTiltEffect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::InteractableTiltEffect::OnPointerEnter)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39f49a4;
+  constexpr static std::size_t addrs = 0x566d0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InteractableTiltEffect::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::InteractableTiltEffect::OnPointerMove)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39f49f4;
+  constexpr static std::size_t addrs = 0x566d110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::HMUI::InteractableTiltEffect::*)(::UnityEngine::Vector2)>(
     &::HMUI::InteractableTiltEffect::ComputeNewTargetRotation)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39f490c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x566d02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -86,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InteractableTiltEffect::*)()>(&::HMUI::InteractableTiltEffect::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39f4a44;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x566d160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InteractableTiltEffect*>::get(), ".ctor",

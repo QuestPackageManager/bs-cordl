@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Zenject/Internal/DecoratorProvider_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/Internal/zzzz__IDecoratorProvider_impl.hpp"
 #include "Zenject/Internal/zzzz__DecoratorProvider_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/Internal/zzzz__IDecoratorProvider_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__IFactory_2_def.hpp"
 #include "Zenject/zzzz__IProvider_def.hpp"

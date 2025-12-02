@@ -8,10 +8,25 @@
 //  Writing Method size for method: ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::*)(::StringW)>(
+    &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ecf75c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4224090;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ecf760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +41,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::ByRef<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>, ::ByRef<::System::Net::Http::Headers::Token>)>(
         &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParseElement)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4224098;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5ecf764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +59,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, int32_t, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*>)>(
         &::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParse)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4224204;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5ecf8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,6 +71,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
+inline void System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor(::StringW mediaType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, mediaType);
+}
 inline void System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>::get(), ".ctor",
@@ -81,6 +102,9 @@ System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::TryParse(::StringW 
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, input, minimalCount, result);
+}
+inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::New_ctor(::StringW mediaType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>(mediaType));
 }
 inline ::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue* System::Net::Http::Headers::MediaTypeWithQualityHeaderValue::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::MediaTypeWithQualityHeaderValue*>());

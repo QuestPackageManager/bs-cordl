@@ -1,197 +1,365 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/HealthWarningFlowCoordinator.hpp"
-#include "BGLib/Polyglot/zzzz__Language_impl.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
+#include "GlobalNamespace/zzzz__EulaViewController_impl.hpp"
+#include "GlobalNamespace/zzzz__PlayerSensitivityFlag_impl.hpp"
 #include "GlobalNamespace/zzzz__SelectRegionViewController_impl.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
+#include "OculusStudios/Platform/Core/zzzz__UserAgeCategory_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
-#include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningFlowCoordinator_def.hpp"
-#include "BGLib/Polyglot/zzzz__Language_def.hpp"
-#include "BeatSaber/Init/zzzz__IPlatformInit_def.hpp"
-#include "GlobalNamespace/zzzz__AppInitScenesTransitionSetupDataContainerSO_def.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsEntitlementModel_def.hpp"
+#include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
+#include "GlobalNamespace/zzzz__CompletableViewController_1_def.hpp"
+#include "GlobalNamespace/zzzz__CompletableViewController_def.hpp"
 #include "GlobalNamespace/zzzz__EndOfLifeNoticeViewController_def.hpp"
 #include "GlobalNamespace/zzzz__EulaViewController_def.hpp"
 #include "GlobalNamespace/zzzz__ExplicitContentWarningViewController_def.hpp"
-#include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__HealthWarningSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__HealthWarningViewController_def.hpp"
 #include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__NoUserAgeWarningViewController_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 #include "GlobalNamespace/zzzz__PrivacyPolicyViewController_def.hpp"
-#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__SelectLanguageViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SelectRegionViewController_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
+#include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator_InitData._ctor
+#include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator_InitData::*)(::GlobalNamespace::ScenesTransitionSetupDataSO*)>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c07424;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& GlobalNamespace::HealthWarningFlowCoordinator_InitData::__cordl_internal_get_nextScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___nextScenesTransitionSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& GlobalNamespace::HealthWarningFlowCoordinator_InitData::__cordl_internal_get_nextScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___nextScenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::HealthWarningFlowCoordinator_InitData::__cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextScenesTransitionSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator_InitData::_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nextScenesTransitionSetupData);
-}
-inline ::GlobalNamespace::HealthWarningFlowCoordinator_InitData*
-GlobalNamespace::HealthWarningFlowCoordinator_InitData::New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HealthWarningFlowCoordinator_InitData*>(nextScenesTransitionSetupData));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator_InitData::HealthWarningFlowCoordinator_InitData() {}
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::MoveNext)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3c0744c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::MoveNext)> {
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x57fbe28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c075a0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fc164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::MoveNext() {
+inline void GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
-// modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::HealthWarningFlowCoordinator__GoToNextScene_d__39(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->__4__this = __4__this;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__GoToNextScene_d__39::HealthWarningFlowCoordinator__GoToNextScene_d__39() {}
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::MoveNext)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x3c07608;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c07968;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "_selectedLanguage_5__2", ty: "::BGLib::Polyglot::Language", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25(
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EulaViewController_ButtonType>", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
-    ::BGLib::Polyglot::Language _selectedLanguage_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EulaViewController_ButtonType> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31::HealthWarningFlowCoordinator__AgreeToEulaAsync_d__31() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::MoveNext)> {
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x57fc1d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fc45c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30::HealthWarningFlowCoordinator__AgreeToPrivacyPolicyAsync_d__30() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::MoveNext)> {
+  constexpr static std::size_t size = 0x598;
+  constexpr static std::size_t addrs = 0x57fc4c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fca60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_timeoutTokenSource_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW,::Array<::StringW>*>>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::System::Threading::CancellationTokenSource* _timeoutTokenSource_5__2, ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::StringW, ::Array<::StringW>*>> __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->_timeoutTokenSource_5__2 = _timeoutTokenSource_5__2;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22::HealthWarningFlowCoordinator__FilterExcludedSongsAsync_d__22() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::MoveNext)> {
+  constexpr static std::size_t size = 0x730;
+  constexpr static std::size_t addrs = 0x57fcacc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fd1fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::HealthWarningFlowCoordinator__RunAsync_d__26(int32_t __1__state,
+                                                                                                                        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+                                                                                                                        ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+                                                                                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__RunAsync_d__26::HealthWarningFlowCoordinator__RunAsync_d__26() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::MoveNext)> {
+  constexpr static std::size_t size = 0x418;
+  constexpr static std::size_t addrs = 0x57fd268;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fd680;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_selectedLanguage_5__2", ty: "::BGLib::Polyglot::LocalizationLanguage", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1",
+// ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::BGLib::Polyglot::LocalizationLanguage _selectedLanguage_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
@@ -199,80 +367,355 @@ constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25::HealthWarningFlowCoordinator__SaveLanguageAsync_d__25() {}
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32.MoveNext
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27::HealthWarningFlowCoordinator__SelectLanguageAsync_d__27() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::MoveNext)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3c079d0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::MoveNext)> {
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x57fd6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32>::get(),
-                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c07cc8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fd968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::MoveNext() {
+inline void GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SelectRegionViewController_Region>", modifiers: "",
+// def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::HealthWarningFlowCoordinator__SelectRegionAsync_d__29(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::SelectRegionViewController_Region> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32::HealthWarningFlowCoordinator__WaitForUserAgeCategory_d__32() {}
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__SelectRegionAsync_d__29::HealthWarningFlowCoordinator__SelectRegionAsync_d__29() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::MoveNext)> {
+  constexpr static std::size_t size = 0x5b0;
+  constexpr static std::size_t addrs = 0x57fd9d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fdf84;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33>::get(),
+                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33>::get(),
+                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33>::get(),
+                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_playerData_5__2", ty: "::GlobalNamespace::PlayerData*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerSensitivityFlag>", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::GlobalNamespace::PlayerData* _playerData_5__2, ::System::Runtime::CompilerServices::TaskAwaiter __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerSensitivityFlag> __u__2) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->_playerData_5__2 = _playerData_5__2;
+  this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33::HealthWarningFlowCoordinator__ShowExplicitContentWarningAsync_d__33() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::MoveNext)> {
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x57fdff0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32>::get(),
+                                                 "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fe24c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32>::get(), "SetStateMachine",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32::HealthWarningFlowCoordinator__ShowHealthWarningAsync_d__32() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::MoveNext)> {
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x57fe2b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28>::get(),
+                                    "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fe668;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28>::get(),
+                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28>::get(),
+                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28>::get(),
+                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
+GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->__u__1 = __u__1;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28::HealthWarningFlowCoordinator__ShowSelectLanguageViewControllerAsync_d__28() {}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34.MoveNext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::MoveNext)> {
+  constexpr static std::size_t size = 0x670;
+  constexpr static std::size_t addrs = 0x57fe6d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34>::get(), "MoveNext",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34.SetStateMachine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57fed44;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34>::get(), "SetStateMachine",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::MoveNext() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34>::get(), "MoveNext",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
+}
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator>",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "_oldAgeCategory_5__2", ty: "::OculusStudios::Platform::Core::UserAgeCategory", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_oldSensitivityFlag_5__3", ty: "::GlobalNamespace::PlayerSensitivityFlag", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap3", ty: "::GlobalNamespace::PlayerData*", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::UserAgeCategory>", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::HealthWarningFlowCoordinator__UpdateUacAsync_d__34(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::HealthWarningFlowCoordinator> __4__this,
+    ::OculusStudios::Platform::Core::UserAgeCategory _oldAgeCategory_5__2, ::GlobalNamespace::PlayerSensitivityFlag _oldSensitivityFlag_5__3, ::GlobalNamespace::PlayerData* __7__wrap3,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::OculusStudios::Platform::Core::UserAgeCategory> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept {
+  this->__1__state = __1__state;
+  this->__t__builder = __t__builder;
+  this->__4__this = __4__this;
+  this->_oldAgeCategory_5__2 = _oldAgeCategory_5__2;
+  this->_oldSensitivityFlag_5__3 = _oldSensitivityFlag_5__3;
+  this->__7__wrap3 = __7__wrap3;
+  this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::HealthWarningFlowCoordinator__UpdateUacAsync_d__34::HealthWarningFlowCoordinator__UpdateUacAsync_d__34() {}
 //  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.DidActivate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::DidActivate)> {
-  constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x3c0639c;
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x57fb164;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,19 +725,47 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.DidDeactivate
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ShowTopViewController
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(bool, bool)>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::DidDeactivate)> {
-  constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x3c06930;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::HMUI::ViewController*)>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewController)> {
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x57fb4d4;
 
   inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowTopViewController", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.FilterExcludedSongsAsync
+template <>
 
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), 5));
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::FilterExcludedSongsAsync)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x57fb5dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                               "FilterExcludedSongsAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ShowTopViewControllerAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
+    ::GlobalNamespace::HealthWarningFlowCoordinator::*)(::GlobalNamespace::CompletableViewController*)>(&::GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewControllerAsync)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x57fb690;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowTopViewControllerAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CompletableViewController*>::get() })));
     return ___internal_method;
   }
 };
@@ -303,8 +774,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(
     ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::GlobalNamespace::HealthWarningFlowCoordinator::TopViewControllerWillChange)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3c06c0c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x57fb6d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -314,253 +785,131 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleSelectLanguageViewControllerDidChangeLanguage
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::BGLib::Polyglot::Language)>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidChangeLanguage)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c06c90;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "HandleSelectLanguageViewControllerDidChangeLanguage",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::Language>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleSelectLanguageViewControllerDidPressContinueButton
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidPressContinueButton)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c06d0c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "HandleSelectLanguageViewControllerDidPressContinueButton", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.SaveLanguageAsync
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.RunAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::SaveLanguageAsync)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c06d8c;
+    &::GlobalNamespace::HealthWarningFlowCoordinator::RunAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fb760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                               "SaveLanguageAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "RunAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleSelectRegionViewControllerDidPressContinueButton
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::GlobalNamespace::SelectRegionViewController_Region)>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleSelectRegionViewControllerDidPressContinueButton)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c06e50;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                    "HandleSelectRegionViewControllerDidPressContinueButton", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SelectRegionViewController_Region>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleEulaViewControllerDidFinish
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::GlobalNamespace::EulaViewController_ButtonType)>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleEulaViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c06f74;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "HandleEulaViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EulaViewController_ButtonType>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandlePrivacyPolicyViewControllerDidFinish
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandlePrivacyPolicyViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3c07038;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "HandlePrivacyPolicyViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleHealthWarningViewControllerDidFinish
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleHealthWarningViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c0708c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "HandleHealthWarningViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleEndOfLifeNoticeViewControllerDidFinish
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleEndOfLifeNoticeViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c07158;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "HandleEndOfLifeNoticeViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.EndOfLifeNoticeContinueFlow
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::EndOfLifeNoticeContinueFlow)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3c07120;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                               "EndOfLifeNoticeContinueFlow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.WaitForUserAgeCategory
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::WaitForUserAgeCategory)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c071b4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                               "WaitForUserAgeCategory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleUserAgeCategoryArrived
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleUserAgeCategoryArrived)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3c072e4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                               "HandleUserAgeCategoryArrived", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.CheckPlayerSensitivityFlagAndContinueFlow
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::CheckPlayerSensitivityFlagAndContinueFlow)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c07244;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "CheckPlayerSensitivityFlagAndContinueFlow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleNoUserAgeWarningViewControllerDidFinish
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleNoUserAgeWarningViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c073e8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "HandleNoUserAgeWarningViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.HandleExplicitContentWarningViewControllerDidFinish
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::HandleExplicitContentWarningViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c073ec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "HandleExplicitContentWarningViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ResolveMainViewController
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::ResolveMainViewController)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c068e0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                               "ResolveMainViewController", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ResolvePlayerAgreementsViewController
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::ResolvePlayerAgreementsViewController)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3c06e80;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                 "ResolvePlayerAgreementsViewController", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.GoToNextScene
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.SelectLanguageAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
-    &::GlobalNamespace::HealthWarningFlowCoordinator::GoToNextScene)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c07328;
+    &::GlobalNamespace::HealthWarningFlowCoordinator::SelectLanguageAsync)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x57fb810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                               "GoToNextScene", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "SelectLanguageAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ShowSelectLanguageViewControllerAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::ShowSelectLanguageViewControllerAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fb8c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                 "ShowSelectLanguageViewControllerAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.SelectRegionAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::SelectRegionAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fb974;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                               "SelectRegionAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.AgreeToPrivacyPolicyAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::AgreeToPrivacyPolicyAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fba24;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                               "AgreeToPrivacyPolicyAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.AgreeToEulaAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::AgreeToEulaAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fbad4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                               "AgreeToEulaAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ShowHealthWarningAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::ShowHealthWarningAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fbb84;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                               "ShowHealthWarningAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.ShowExplicitContentWarningAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::ShowExplicitContentWarningAsync)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57fbc34;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowExplicitContentWarningAsync",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator.UpdateUacAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::UpdateUacAsync)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x57fbce4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                               "UpdateUacAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -570,7 +919,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)()>(
     &::GlobalNamespace::HealthWarningFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0741c;
+  constexpr static std::size_t addrs = 0x57fbd98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), ".ctor",
@@ -578,21 +927,21 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO>& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__appInitScenesTransitionSetupDataContainer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appInitScenesTransitionSetupDataContainer;
-}
-constexpr ::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> const&
-GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__appInitScenesTransitionSetupDataContainer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appInitScenesTransitionSetupDataContainer;
-}
-constexpr void
-GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__appInitScenesTransitionSetupDataContainer(::UnityW<::GlobalNamespace::AppInitScenesTransitionSetupDataContainerSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appInitScenesTransitionSetupDataContainer)),
-                                          cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
+//  Writing Method size for method: ::GlobalNamespace::HealthWarningFlowCoordinator._ShowSelectLanguageViewControllerAsync_g__HandleDidChangeLanguage_28_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HealthWarningFlowCoordinator::*)(::BGLib::Polyglot::LocalizationLanguage)>(
+    &::GlobalNamespace::HealthWarningFlowCoordinator::_ShowSelectLanguageViewControllerAsync_g__HandleDidChangeLanguage_28_0)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x57fbda0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "<ShowSelectLanguageViewControllerAsync>g__HandleDidChangeLanguage|28_0",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get() })));
+    return ___internal_method;
+  }
+};
 constexpr ::UnityW<::GlobalNamespace::SelectLanguageViewController>& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__selectLanguageViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____selectLanguageViewController;
@@ -702,41 +1051,17 @@ constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::FadeInOutController>& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__fadeInOut() {
+constexpr ::GlobalNamespace::HealthWarningSceneSetupData*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__healthWarningSceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fadeInOut;
+  return this->____healthWarningSceneSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::FadeInOutController> const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__fadeInOut() const {
+constexpr ::GlobalNamespace::HealthWarningSceneSetupData* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__healthWarningSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____fadeInOut;
+  return this->____healthWarningSceneSetupData;
 }
-constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__fadeInOut(::UnityW<::GlobalNamespace::FadeInOutController> value) {
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__healthWarningSceneSetupData(::GlobalNamespace::HealthWarningSceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeInOut)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__gameScenesManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameScenesManager;
-}
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__gameScenesManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameScenesManager;
-}
-constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator_InitData*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____initData;
-}
-constexpr ::GlobalNamespace::HealthWarningFlowCoordinator_InitData* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____initData;
-}
-constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__initData(::GlobalNamespace::HealthWarningFlowCoordinator_InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____healthWarningSceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::IFileStorage*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__fileStorage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -762,17 +1087,41 @@ constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::BeatSaber::Init::IPlatformInit*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__platformInit() {
+constexpr ::GlobalNamespace::BeatmapLevelsModel*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__beatmapLevelsModel() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformInit;
+  return this->____beatmapLevelsModel;
 }
-constexpr ::BeatSaber::Init::IPlatformInit* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__platformInit() const {
+constexpr ::GlobalNamespace::BeatmapLevelsModel* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__beatmapLevelsModel() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformInit;
+  return this->____beatmapLevelsModel;
 }
-constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value) {
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__beatmapLevelsModel(::GlobalNamespace::BeatmapLevelsModel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapLevelsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__platform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____platform;
+}
+constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__platform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____platform;
+}
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__beatmapEntitlementModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapEntitlementModel;
+}
+constexpr ::GlobalNamespace::BeatmapLevelsEntitlementModel* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__beatmapEntitlementModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____beatmapEntitlementModel;
+}
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__beatmapEntitlementModel(::GlobalNamespace::BeatmapLevelsEntitlementModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapEntitlementModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::HMUI::ViewController>, ::StringW>*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__viewControllerTitles() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -800,27 +1149,73 @@ constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____selectedRegion = value;
 }
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__openedWithLanguage() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__openedWithLanguage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____openedWithLanguage;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__openedWithLanguage() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__openedWithLanguage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____openedWithLanguage;
 }
-constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__openedWithLanguage(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__openedWithLanguage(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____openedWithLanguage = value;
+}
+constexpr ::System::Threading::Tasks::Task*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__updateUacTask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____updateUacTask;
+}
+constexpr ::System::Threading::Tasks::Task* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__updateUacTask() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____updateUacTask;
+}
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__updateUacTask(::System::Threading::Tasks::Task* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____updateUacTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::System::Threading::Tasks::Task*& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__filterExcludedSongsTask() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____filterExcludedSongsTask;
+}
+constexpr ::System::Threading::Tasks::Task* const& GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_get__filterExcludedSongsTask() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____filterExcludedSongsTask;
+}
+constexpr void GlobalNamespace::HealthWarningFlowCoordinator::__cordl_internal_set__filterExcludedSongsTask(::System::Threading::Tasks::Task* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____filterExcludedSongsTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::HealthWarningFlowCoordinator::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, firstActivation, addedToHierarchy, screenSystemEnabling);
 }
-inline void GlobalNamespace::HealthWarningFlowCoordinator::DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling) {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), 5)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, removedFromHierarchy, screenSystemDisabling);
+inline void GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewController(::HMUI::ViewController* viewController) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowTopViewController", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::HMUI::ViewController*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, viewController);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::FilterExcludedSongsAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                             "FilterExcludedSongsAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewControllerAsync(::GlobalNamespace::CompletableViewController* viewController) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowTopViewControllerAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CompletableViewController*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, viewController);
+}
+template <typename T>
+inline ::System::Threading::Tasks::Task_1<T>* GlobalNamespace::HealthWarningFlowCoordinator::ShowTopViewControllerAsync(::GlobalNamespace::CompletableViewController_1<T>* viewController) {
+  static auto* ___internal_method_base = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowTopViewControllerAsync",
+                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::CompletableViewController_1<T>*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<T>*, false>(this, ___internal_method, viewController);
 }
 inline void GlobalNamespace::HealthWarningFlowCoordinator::TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController,
                                                                                        ::HMUI::ViewController_AnimationType animationType) {
@@ -828,107 +1223,62 @@ inline void GlobalNamespace::HealthWarningFlowCoordinator::TopViewControllerWill
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, oldViewController, newViewController, animationType);
 }
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidChangeLanguage(::BGLib::Polyglot::Language language) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "HandleSelectLanguageViewControllerDidChangeLanguage",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::Language>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, language);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleSelectLanguageViewControllerDidPressContinueButton() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "HandleSelectLanguageViewControllerDidPressContinueButton", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::SaveLanguageAsync() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::RunAsync() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                             "SaveLanguageAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "RunAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleSelectRegionViewControllerDidPressContinueButton(::GlobalNamespace::SelectRegionViewController_Region region) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                  "HandleSelectRegionViewControllerDidPressContinueButton", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SelectRegionViewController_Region>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, region);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleEulaViewControllerDidFinish(::GlobalNamespace::EulaViewController_ButtonType buttonType) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "HandleEulaViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EulaViewController_ButtonType>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buttonType);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandlePrivacyPolicyViewControllerDidFinish() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "HandlePrivacyPolicyViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleHealthWarningViewControllerDidFinish() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "HandleHealthWarningViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleEndOfLifeNoticeViewControllerDidFinish() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "HandleEndOfLifeNoticeViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::EndOfLifeNoticeContinueFlow() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::SelectLanguageAsync() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                             "EndOfLifeNoticeContinueFlow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+                                                                             "SelectLanguageAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::HealthWarningFlowCoordinator::WaitForUserAgeCategory() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                             "WaitForUserAgeCategory", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleUserAgeCategoryArrived() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                             "HandleUserAgeCategoryArrived", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::CheckPlayerSensitivityFlagAndContinueFlow() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::ShowSelectLanguageViewControllerAsync() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "CheckPlayerSensitivityFlagAndContinueFlow", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleNoUserAgeWarningViewControllerDidFinish() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "HandleNoUserAgeWarningViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::HealthWarningFlowCoordinator::HandleExplicitContentWarningViewControllerDidFinish() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                               "HandleExplicitContentWarningViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityW<::HMUI::ViewController> GlobalNamespace::HealthWarningFlowCoordinator::ResolveMainViewController() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                             "ResolveMainViewController", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::ViewController>, false>(this, ___internal_method);
-}
-inline ::UnityW<::HMUI::ViewController> GlobalNamespace::HealthWarningFlowCoordinator::ResolvePlayerAgreementsViewController() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ResolvePlayerAgreementsViewController",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "ShowSelectLanguageViewControllerAsync",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::HMUI::ViewController>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::GoToNextScene() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::SelectRegionAsync() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
-                                                                             "GoToNextScene", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "SelectRegionAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::AgreeToPrivacyPolicyAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                             "AgreeToPrivacyPolicyAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::AgreeToEulaAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                             "AgreeToEulaAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::ShowHealthWarningAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                             "ShowHealthWarningAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::ShowExplicitContentWarningAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                             "ShowExplicitContentWarningAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
+}
+inline ::System::Threading::Tasks::Task* GlobalNamespace::HealthWarningFlowCoordinator::UpdateUacAsync() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(),
+                                                                             "UpdateUacAsync", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::HealthWarningFlowCoordinator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HealthWarningFlowCoordinator::_ShowSelectLanguageViewControllerAsync_g__HandleDidChangeLanguage_28_0(::BGLib::Polyglot::LocalizationLanguage language) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HealthWarningFlowCoordinator*>::get(), "<ShowSelectLanguageViewControllerAsync>g__HandleDidChangeLanguage|28_0",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::Polyglot::LocalizationLanguage>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, language);
 }
 inline ::GlobalNamespace::HealthWarningFlowCoordinator* GlobalNamespace::HealthWarningFlowCoordinator::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::HealthWarningFlowCoordinator*>());

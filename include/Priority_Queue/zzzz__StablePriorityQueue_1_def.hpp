@@ -3,25 +3,33 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StablePriorityQueue_1)
 namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IFixedSizePriorityQueue_2;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
+}
+namespace Priority_Queue {
 template <typename T> class StablePriorityQueue_1__GetEnumerator_d__22;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -36,7 +44,7 @@ template <typename T> class StablePriorityQueue_1__GetEnumerator_d__22;
 // Write type traits
 MARK_GEN_REF_PTR_T(::Priority_Queue::StablePriorityQueue_1);
 MARK_GEN_REF_PTR_T(::Priority_Queue::StablePriorityQueue_1__GetEnumerator_d__22);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
@@ -138,7 +146,7 @@ public:
   StablePriorityQueue_1__GetEnumerator_d__22(StablePriorityQueue_1__GetEnumerator_d__22 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20509 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -156,8 +164,7 @@ public:
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Dependencies Priority_Queue.IFixedSizePriorityQueue`2<TItem, TPriority>, Priority_Queue.IPriorityQueue`2<TItem, TPriority>, System.Collections.Generic.IEnumerable`1<T>,
-// System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename T>
@@ -299,7 +306,7 @@ public:
   StablePriorityQueue_1(StablePriorityQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20510 };
 
   /// @brief Field _numNodes, offset: 0x10, size: 0x4, def value: None
   int32_t ____numNodes;

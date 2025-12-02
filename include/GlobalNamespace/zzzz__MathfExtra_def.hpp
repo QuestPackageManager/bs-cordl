@@ -23,28 +23,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE MathfExtra : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Approximately, addr 0x22b5010, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Approximately, addr 0x31fbeac, size 0x10, virtual false, abstract: false, final false
   static inline bool Approximately(float_t a, float_t b, float_t precision);
 
-  /// @brief Method MaxAbs, addr 0x22b4ffc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MaxAbs, addr 0x31fbe98, size 0x14, virtual false, abstract: false, final false
   static inline float_t MaxAbs(float_t a, float_t b);
 
-  /// @brief Method Mod, addr 0x22b4ea0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x31fbd30, size 0x14, virtual false, abstract: false, final false
   static inline float_t Mod(float_t value, float_t mod);
 
-  /// @brief Method Mod, addr 0x22b4eb4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Mod, addr 0x31fbd44, size 0x30, virtual false, abstract: false, final false
   static inline int32_t Mod(int32_t value, int32_t mod);
 
-  /// @brief Method Repeat, addr 0x22b5290, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Repeat, addr 0x31fc134, size 0x9c, virtual false, abstract: false, final false
   static inline int32_t Repeat(int32_t t, int32_t length);
 
-  /// @brief Method Round, addr 0x22b5054, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x31fbef0, size 0x244, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 Round(::UnityEngine::Vector4 value, int32_t digits);
 
-  /// @brief Method Round, addr 0x22b4ee4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Round, addr 0x31fbd74, size 0x124, virtual false, abstract: false, final false
   static inline float_t Round(float_t value, int32_t decimals);
 
-  /// @brief Method ShortestAngleDifference, addr 0x22b5020, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ShortestAngleDifference, addr 0x31fbebc, size 0x34, virtual false, abstract: false, final false
   static inline float_t ShortestAngleDifference(float_t from, float_t to);
 
 protected:
@@ -62,7 +62,7 @@ public:
   MathfExtra(MathfExtra const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17137 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20666 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

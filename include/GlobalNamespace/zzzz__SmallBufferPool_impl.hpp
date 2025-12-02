@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::SmallBufferPool::*)(int32_t)>(
     &::GlobalNamespace::SmallBufferPool::GetBuffer)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x22e7034;
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x321ac74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::SmallBufferPool::ReleaseBuffer)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22e72b0;
+  constexpr static std::size_t addrs = 0x321af24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)(::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>)>(
     &::GlobalNamespace::SmallBufferPool::ReleaseBuffer)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22e7470;
+  constexpr static std::size_t addrs = 0x321b0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::GlobalNamespace::SmallBufferPool::ReleaseBufferInternal)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x22e72b4;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x321af28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SmallBufferPool::*)()>(&::GlobalNamespace::SmallBufferPool::_ctor)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22e748c;
+  constexpr static std::size_t addrs = 0x321b114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SmallBufferPool*>::get(), ".ctor",

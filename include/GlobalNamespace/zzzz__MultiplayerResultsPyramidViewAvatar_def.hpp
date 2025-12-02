@@ -78,7 +78,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3be0e54, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d2804, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   MultiplayerResultsPyramidViewAvatar_Factory(MultiplayerResultsPyramidViewAvatar_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -113,7 +113,7 @@ public:
   // Declarations
   using Factory = ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar_Factory;
 
-  /// @brief Field _avatarRiseTween, offset 0x190, size 0x8
+  /// @brief Field _avatarRiseTween, offset 0x198, size 0x8
   __declspec(property(get = __cordl_internal_get__avatarRiseTween, put = __cordl_internal_set__avatarRiseTween)) ::Tweening::Vector3Tween* _avatarRiseTween;
 
   /// @brief Field _badgeCanvas, offset 0x70, size 0x8
@@ -125,10 +125,10 @@ public:
   /// @brief Field _badgeImages, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeImages, put = __cordl_internal_set__badgeImages)) ::ArrayW<::UnityW<::HMUI::ImageView>, ::Array<::UnityW<::HMUI::ImageView>>*> _badgeImages;
 
-  /// @brief Field _badgeOpacityTween, offset 0x1a0, size 0x8
+  /// @brief Field _badgeOpacityTween, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get__badgeOpacityTween, put = __cordl_internal_set__badgeOpacityTween)) ::Tweening::FloatTween* _badgeOpacityTween;
 
-  /// @brief Field _badgePositionTween, offset 0x198, size 0x8
+  /// @brief Field _badgePositionTween, offset 0x1a0, size 0x8
   __declspec(property(get = __cordl_internal_get__badgePositionTween, put = __cordl_internal_set__badgePositionTween)) ::Tweening::Vector3Tween* _badgePositionTween;
 
   /// @brief Field _badgeSubtitleCanvas, offset 0x90, size 0x8
@@ -141,10 +141,10 @@ public:
   __declspec(property(get = __cordl_internal_get__badgeTitles, put = __cordl_internal_set__badgeTitles)) ::ArrayW<::UnityW<::TMPro::TextMeshProUGUI>, ::Array<::UnityW<::TMPro::TextMeshProUGUI>>*>
       _badgeTitles;
 
-  /// @brief Field _beatmapKey, offset 0x170, size 0x18
+  /// @brief Field _beatmapKey, offset 0x170, size 0x20
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::GlobalNamespace::BeatmapKey _beatmapKey;
 
-  /// @brief Field _connectedPlayer, offset 0x1d8, size 0x8
+  /// @brief Field _connectedPlayer, offset 0x1e0, size 0x8
   __declspec(property(get = __cordl_internal_get__connectedPlayer, put = __cordl_internal_set__connectedPlayer)) ::GlobalNamespace::IConnectedPlayer* _connectedPlayer;
 
   /// @brief Field _firstPlaceColor, offset 0x150, size 0x10
@@ -169,7 +169,7 @@ public:
   /// @brief Field _ghostSecondTrackName, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__ghostSecondTrackName, put = __cordl_internal_set__ghostSecondTrackName)) ::StringW _ghostSecondTrackName;
 
-  /// @brief Field _localGlowTween, offset 0x1b8, size 0x8
+  /// @brief Field _localGlowTween, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__localGlowTween, put = __cordl_internal_set__localGlowTween)) ::Tweening::ColorTween* _localGlowTween;
 
   /// @brief Field _localPlayerColor, offset 0x44, size 0x10
@@ -178,16 +178,16 @@ public:
   /// @brief Field _nameBackground, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__nameBackground, put = __cordl_internal_set__nameBackground)) ::UnityW<::HMUI::ImageView> _nameBackground;
 
-  /// @brief Field _nameOpacityTween, offset 0x1a8, size 0x8
+  /// @brief Field _nameOpacityTween, offset 0x1b0, size 0x8
   __declspec(property(get = __cordl_internal_get__nameOpacityTween, put = __cordl_internal_set__nameOpacityTween)) ::Tweening::FloatTween* _nameOpacityTween;
 
-  /// @brief Field _namePositionTween, offset 0x1b0, size 0x8
+  /// @brief Field _namePositionTween, offset 0x1b8, size 0x8
   __declspec(property(get = __cordl_internal_get__namePositionTween, put = __cordl_internal_set__namePositionTween)) ::Tweening::Vector3Tween* _namePositionTween;
 
   /// @brief Field _nameText, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__nameText, put = __cordl_internal_set__nameText)) ::UnityW<::TMPro::TextMeshProUGUI> _nameText;
 
-  /// @brief Field _originalBadgeLocalPos, offset 0x1c8, size 0xc
+  /// @brief Field _originalBadgeLocalPos, offset 0x1d0, size 0xc
   __declspec(property(get = __cordl_internal_get__originalBadgeLocalPos, put = __cordl_internal_set__originalBadgeLocalPos)) ::UnityEngine::Vector3 _originalBadgeLocalPos;
 
   /// @brief Field _perPositionRotation, offset 0x40, size 0x4
@@ -202,7 +202,7 @@ public:
   /// @brief Field _positionText, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__positionText, put = __cordl_internal_set__positionText)) ::UnityW<::TMPro::TextMeshProUGUI> _positionText;
 
-  /// @brief Field _riseTween, offset 0x188, size 0x8
+  /// @brief Field _riseTween, offset 0x190, size 0x8
   __declspec(property(get = __cordl_internal_get__riseTween, put = __cordl_internal_set__riseTween)) ::Tweening::Vector3Tween* _riseTween;
 
   /// @brief Field _secondPlaceTrophy, offset 0x140, size 0x8
@@ -214,7 +214,7 @@ public:
   /// @brief Field _thirdPlaceTrophy, offset 0x148, size 0x8
   __declspec(property(get = __cordl_internal_get__thirdPlaceTrophy, put = __cordl_internal_set__thirdPlaceTrophy)) ::UnityW<::UnityEngine::Sprite> _thirdPlaceTrophy;
 
-  /// @brief Field _titleMakingSpaceForBadgeTween, offset 0x1c0, size 0x8
+  /// @brief Field _titleMakingSpaceForBadgeTween, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__titleMakingSpaceForBadgeTween, put = __cordl_internal_set__titleMakingSpaceForBadgeTween)) ::Tweening::Vector3Tween* _titleMakingSpaceForBadgeTween;
 
   /// @brief Field _trophyImage, offset 0x130, size 0x8
@@ -222,15 +222,15 @@ public:
 
   __declspec(property(get = get_badgeDirector)) ::UnityW<::UnityEngine::Playables::PlayableDirector> badgeDirector;
 
-  /// @brief Method Awake, addr 0x3be0e0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x57d27c4, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::MultiplayerResultsPyramidViewAvatar* New_ctor();
 
-  /// @brief Method Setup, addr 0x3be08e8, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x57d2228, size 0x4f0, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerPlayerResultsData* resultData, int32_t position, int32_t playerCount);
 
-  /// @brief Method SetupBadgeTimeline, addr 0x3be0378, size 0x570, virtual false, abstract: false, final false
+  /// @brief Method SetupBadgeTimeline, addr 0x57d1ce0, size 0x548, virtual false, abstract: false, final false
   inline void SetupBadgeTimeline(::UnityEngine::Transform* startTransform, ::UnityEngine::Transform* midTransform);
 
   constexpr ::Tweening::Vector3Tween* const& __cordl_internal_get__avatarRiseTween() const;
@@ -443,10 +443,10 @@ public:
 
   constexpr void __cordl_internal_set__trophyImage(::UnityW<::HMUI::ImageView> value);
 
-  /// @brief Method .ctor, addr 0x3be0e2c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57d27e0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_badgeDirector, addr 0x3be0e04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_badgeDirector, addr 0x57d27bc, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Playables::PlayableDirector> get_badgeDirector();
 
 protected:
@@ -464,7 +464,7 @@ public:
   MultiplayerResultsPyramidViewAvatar(MultiplayerResultsPyramidViewAvatar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6188 };
 
   /// @brief Field _badgeDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____badgeDirector;
@@ -538,37 +538,37 @@ public:
   /// @brief Field _playerDataModel, offset: 0x168, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
 
-  /// @brief Field _beatmapKey, offset: 0x170, size: 0x18, def value: None
+  /// @brief Field _beatmapKey, offset: 0x170, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
-  /// @brief Field _riseTween, offset: 0x188, size: 0x8, def value: None
+  /// @brief Field _riseTween, offset: 0x190, size: 0x8, def value: None
   ::Tweening::Vector3Tween* ____riseTween;
 
-  /// @brief Field _avatarRiseTween, offset: 0x190, size: 0x8, def value: None
+  /// @brief Field _avatarRiseTween, offset: 0x198, size: 0x8, def value: None
   ::Tweening::Vector3Tween* ____avatarRiseTween;
 
-  /// @brief Field _badgePositionTween, offset: 0x198, size: 0x8, def value: None
+  /// @brief Field _badgePositionTween, offset: 0x1a0, size: 0x8, def value: None
   ::Tweening::Vector3Tween* ____badgePositionTween;
 
-  /// @brief Field _badgeOpacityTween, offset: 0x1a0, size: 0x8, def value: None
+  /// @brief Field _badgeOpacityTween, offset: 0x1a8, size: 0x8, def value: None
   ::Tweening::FloatTween* ____badgeOpacityTween;
 
-  /// @brief Field _nameOpacityTween, offset: 0x1a8, size: 0x8, def value: None
+  /// @brief Field _nameOpacityTween, offset: 0x1b0, size: 0x8, def value: None
   ::Tweening::FloatTween* ____nameOpacityTween;
 
-  /// @brief Field _namePositionTween, offset: 0x1b0, size: 0x8, def value: None
+  /// @brief Field _namePositionTween, offset: 0x1b8, size: 0x8, def value: None
   ::Tweening::Vector3Tween* ____namePositionTween;
 
-  /// @brief Field _localGlowTween, offset: 0x1b8, size: 0x8, def value: None
+  /// @brief Field _localGlowTween, offset: 0x1c0, size: 0x8, def value: None
   ::Tweening::ColorTween* ____localGlowTween;
 
-  /// @brief Field _titleMakingSpaceForBadgeTween, offset: 0x1c0, size: 0x8, def value: None
+  /// @brief Field _titleMakingSpaceForBadgeTween, offset: 0x1c8, size: 0x8, def value: None
   ::Tweening::Vector3Tween* ____titleMakingSpaceForBadgeTween;
 
-  /// @brief Field _originalBadgeLocalPos, offset: 0x1c8, size: 0xc, def value: None
+  /// @brief Field _originalBadgeLocalPos, offset: 0x1d0, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____originalBadgeLocalPos;
 
-  /// @brief Field _connectedPlayer, offset: 0x1d8, size: 0x8, def value: None
+  /// @brief Field _connectedPlayer, offset: 0x1e0, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -624,27 +624,27 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, _
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____beatmapKey) == 0x170, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____riseTween) == 0x188, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____riseTween) == 0x190, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____avatarRiseTween) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____avatarRiseTween) == 0x198, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgePositionTween) == 0x198, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgePositionTween) == 0x1a0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeOpacityTween) == 0x1a0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____badgeOpacityTween) == 0x1a8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____nameOpacityTween) == 0x1a8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____nameOpacityTween) == 0x1b0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____namePositionTween) == 0x1b0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____namePositionTween) == 0x1b8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____localGlowTween) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____localGlowTween) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____titleMakingSpaceForBadgeTween) == 0x1c0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____titleMakingSpaceForBadgeTween) == 0x1c8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____originalBadgeLocalPos) == 0x1c8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____originalBadgeLocalPos) == 0x1d0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____connectedPlayer) == 0x1d8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, ____connectedPlayer) == 0x1e0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, 0x1e0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerResultsPyramidViewAvatar, 0x1e8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerResultsPyramidViewAvatar);

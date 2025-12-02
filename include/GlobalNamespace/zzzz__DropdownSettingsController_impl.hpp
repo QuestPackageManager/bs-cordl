@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(::System::Action*)>(
     &::GlobalNamespace::DropdownSettingsController::add_dropDownValueDidChangeEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c12110;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5809734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(::System::Action*)>(
     &::GlobalNamespace::DropdownSettingsController::remove_dropDownValueDidChangeEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c121ac;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x58097e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(
     &::GlobalNamespace::DropdownSettingsController::OnEnable)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c12248;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580988c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DropdownSettingsController*>::get(),
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(
     &::GlobalNamespace::DropdownSettingsController::OnDisable)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3c12448;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5809a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DropdownSettingsController*>::get(),
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::DropdownSettingsController::HandleDropdownValueDidChange)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3c12514;
+  constexpr static std::size_t addrs = 0x5809b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,8 +129,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(
     &::GlobalNamespace::DropdownSettingsController::RefreshUI)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3c1230c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x580994c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DropdownSettingsController*>::get(),
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)(bool)>(
     &::GlobalNamespace::DropdownSettingsController::Refresh)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c12554;
+  constexpr static std::size_t addrs = 0x5809bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,8 +157,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DropdownSettingsController::*)()>(&::GlobalNamespace::DropdownSettingsController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c125b0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5809c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DropdownSettingsController*>::get(), ".ctor",

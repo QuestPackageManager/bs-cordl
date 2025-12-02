@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::WaypointItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::Waypoint, ::Array<::BeatmapSaveDataVersion4::Waypoint>*>, ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::WaypointItemConverter::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x270d26c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x363887c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::WaypointItemConverter::*)(::BeatmapSaveDataVersion4::BeatmapBeatIndex*)>(&::BeatmapDataLoaderVersion4::WaypointItemConverter::Convert)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x270d870;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3638dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22ab684;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x31f29b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -19,13 +19,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller.GetPlatform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31f2b74;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(), "GetPlatform",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller.InstallRemoteCatalogLoader
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22ab7ec;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31f2bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::*)()>(
     &::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ab874;
+  constexpr static std::size_t addrs = 0x31f2c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,6 +80,12 @@ inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::Inst
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::StringW BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::GetPlatform() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller*>::get(), "GetPlatform",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
 inline void BGLib::MetaRemoteAssets::Installers::MetaRemoteAssetsInstaller::InstallRemoteCatalogLoader() {
   static auto* ___internal_method =

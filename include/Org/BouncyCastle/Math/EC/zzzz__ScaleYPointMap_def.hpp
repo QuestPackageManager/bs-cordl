@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ScaleYPointMap)
 namespace Org::BouncyCastle::Math::EC {
 class ECFieldElement;
+}
+namespace Org::BouncyCastle::Math::EC {
+class ECPointMap;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -18,7 +20,7 @@ class ScaleYPointMap;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::ScaleYPointMap);
-// Dependencies Org.BouncyCastle.Math.EC.ECPointMap, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.ScaleYPointMap
@@ -31,7 +33,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::ECPointMap"
   constexpr operator ::Org::BouncyCastle::Math::EC::ECPointMap*() noexcept;
 
-  /// @brief Method Map, addr 0x24dcb80, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Map, addr 0x340c2e4, size 0x28, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Map(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
   static inline ::Org::BouncyCastle::Math::EC::ScaleYPointMap* New_ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
@@ -42,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_scale(::Org::BouncyCastle::Math::EC::ECFieldElement* value);
 
-  /// @brief Method .ctor, addr 0x24dcb58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340c2dc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECFieldElement* scale);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::ECPointMap"

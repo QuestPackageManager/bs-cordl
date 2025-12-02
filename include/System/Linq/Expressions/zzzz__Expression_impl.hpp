@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Assign)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x40951a0;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5d44de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +143,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*,
                                                                    ::System::Linq::Expressions::Expression*, bool)>(&::System::Linq::Expressions::Expression::GetUserDefinedBinaryOperator)> {
-  constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x40970d0;
+  constexpr static std::size_t size = 0x354;
+  constexpr static std::size_t addrs = 0x5d46c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,8 +162,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                    ::System::Reflection::MethodInfo*, bool)>(&::System::Linq::Expressions::Expression::GetMethodBasedBinaryOperator)> {
-  constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x40976bc;
+  constexpr static std::size_t size = 0x588;
+  constexpr static std::size_t addrs = 0x5d471e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,8 +183,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                    ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::LambdaExpression*, bool)>(
         &::System::Linq::Expressions::Expression::GetMethodBasedAssignOperator)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x4097f30;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x5d47a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,8 +204,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*,
                                                                    ::System::Linq::Expressions::Expression*, bool)>(&::System::Linq::Expressions::Expression::GetUserDefinedBinaryOperatorOrThrow)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x4098410;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x5d47f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,8 +223,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                        ::System::Linq::Expressions::LambdaExpression*, bool)>(&::System::Linq::Expressions::Expression::GetUserDefinedAssignOperatorOrThrow)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x409862c;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x5d4813c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,8 +243,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::MethodInfo* (*)(::System::Linq::Expressions::ExpressionType, ::System::Type*, ::System::Type*, ::StringW)>(
         &::System::Linq::Expressions::Expression::GetUserDefinedBinaryOperator)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x40974a0;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x5d46fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,8 +260,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::System::Type*, ::System::Type*, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::Expression::IsLiftingConditionalLogicalOperator)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4098894;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5d483a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -278,8 +278,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::ParameterInfo*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::ParameterIsAssignable)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4097db0;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d478a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,8 +294,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Type*, ::System::Linq::Expressions::ExpressionType, ::StringW)>(
     &::System::Linq::Expressions::Expression::ValidateParamswithOperandsOrThrow)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4097e54;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5d4795c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,8 +310,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::ValidateOperator)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4097c58;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x5d47768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -326,7 +326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MethodInfo*, ::StringW)>(
     &::System::Linq::Expressions::Expression::ValidateMethodInfo)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4098960;
+  constexpr static std::size_t addrs = 0x5d48464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,8 +341,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::IsNullComparison)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x40989f0;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5d484f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -356,8 +356,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::IsNullConstant)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4098af0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5d48608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -372,8 +372,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Linq::Expressions::ExpressionType, ::System::Type*, ::System::Type*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::ValidateUserDefinedConditionalLogicOperator)> {
-  constexpr static std::size_t size = 0x624;
-  constexpr static std::size_t addrs = 0x4098b74;
+  constexpr static std::size_t size = 0x5cc;
+  constexpr static std::size_t addrs = 0x5d48690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -391,8 +391,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Linq::Expressions::ExpressionType, ::System::Type*, ::System::Reflection::MethodInfo*, ::StringW)>(
     &::System::Linq::Expressions::Expression::VerifyOpTrueFalse)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x409929c;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x5d48d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,8 +409,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Type*, ::System::Type*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>)>(
         &::System::Linq::Expressions::Expression::IsValidLiftedConditionalLogicalOperator)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4099198;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5d48c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -427,8 +427,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                    bool, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::MakeBinary)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4094fbc;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5d44bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -447,8 +447,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool,
                                                        ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::MakeBinary)> {
-  constexpr static std::size_t size = 0xa30;
-  constexpr static std::size_t addrs = 0x4093b58;
+  constexpr static std::size_t size = 0x99c;
+  constexpr static std::size_t addrs = 0x5d437e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,8 +467,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Equal)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x409f0dc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d4e83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -484,8 +484,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Equal)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x409be64;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5d4b720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -503,7 +503,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::ReferenceEqual)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x40937bc;
+  constexpr static std::size_t addrs = 0x5d43440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -518,8 +518,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::NotEqual)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x409f564;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d4ecac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -535,8 +535,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::NotEqual)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x409bf94;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5d4b840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -555,7 +555,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::ReferenceNotEqual)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4093944;
+  constexpr static std::size_t addrs = 0x5d435c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -571,8 +571,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*,
                                                                    ::System::Linq::Expressions::Expression*, bool)>(&::System::Linq::Expressions::Expression::GetEqualityComparisonOperator)> {
-  constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x409f148;
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x5d4e8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -590,8 +590,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::GreaterThan)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x409bc04;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5d4b4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -609,8 +609,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::LessThan)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x409b9a4;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5d4b2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -628,8 +628,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::GreaterThanOrEqual)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x409bd34;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5d4b600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -647,8 +647,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, bool, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::LessThanOrEqual)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x409bad4;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5d4b3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -666,8 +666,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*,
                                                                    ::System::Linq::Expressions::Expression*, bool)>(&::System::Linq::Expressions::Expression::GetComparisonOperator)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x409f5d0;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x5d4ed1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -684,8 +684,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::AndAlso)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x409f814;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d4ef58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -701,8 +701,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::AndAlso)> {
-  constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x409acb0;
+  constexpr static std::size_t size = 0x4b4;
+  constexpr static std::size_t addrs = 0x5d4a64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -719,8 +719,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::OrElse)> {
-  constexpr static std::size_t size = 0x5c0;
-  constexpr static std::size_t addrs = 0x409b3e4;
+  constexpr static std::size_t size = 0x578;
+  constexpr static std::size_t addrs = 0x5d4ad28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -737,8 +737,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LambdaExpression*)>(
         &::System::Linq::Expressions::Expression::Coalesce)> {
-  constexpr static std::size_t size = 0x4ac;
-  constexpr static std::size_t addrs = 0x409c30c;
+  constexpr static std::size_t size = 0x4a4;
+  constexpr static std::size_t addrs = 0x5d4bb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -754,8 +754,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::ValidateCoalesceArgTypes)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x409f87c;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5d4efc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(),
@@ -771,8 +771,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Add)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4099460;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x5d48f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -789,8 +789,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::AddAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409cddc;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4c628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -808,8 +808,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Linq::Expressions::LambdaExpression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::ExpressionType)>(
         &::System::Linq::Expressions::Expression::ValidateOpAssignConversionLambda)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x4098198;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x5d47ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -827,8 +827,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::AddAssignChecked)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409e914;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4e0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -846,8 +846,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::AddChecked)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x40996a4;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d49158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -864,8 +864,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Subtract)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x40998ec;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d49380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -882,8 +882,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::SubtractAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409e67c;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4de2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -901,8 +901,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::SubtractAssignChecked)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409ebac;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4e334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -920,8 +920,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::SubtractChecked)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x4099b34;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d495a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -938,8 +938,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Divide)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x409a20c;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d49c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -956,8 +956,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::DivideAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409d30c;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4cb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -975,8 +975,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Modulo)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x409a454;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d49e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -993,8 +993,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::ModuloAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409daa8;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4d2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1012,8 +1012,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Multiply)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x4099d7c;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d497d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1030,8 +1030,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::MultiplyAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409dd40;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4d52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1049,8 +1049,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::MultiplyAssignChecked)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409ee44;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4e5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1068,8 +1068,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::MultiplyChecked)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x4099fc4;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d499f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1084,8 +1084,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Linq::Expressions::Expression::IsSimpleShift)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x409f9ec;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5d4f140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1100,8 +1100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::GetResultTypeOfShift)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x409fae4;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x5d4f20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(),
@@ -1117,8 +1117,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::LeftShift)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x409cbc0;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x5d4c414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1135,8 +1135,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::LeftShiftAssign)> {
-  constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x409d83c;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x5d4d038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1154,8 +1154,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::RightShift)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x409c9a4;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x5d4c200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1172,8 +1172,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::RightShiftAssign)> {
-  constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x409e410;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x5d4dbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1191,8 +1191,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::And)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x409aa68;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d4a424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1209,8 +1209,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::AndAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409d074;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4c8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1228,8 +1228,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Or)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x409b19c;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d4ab00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1246,8 +1246,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::OrAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409dfd8;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4d7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1265,8 +1265,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::ExclusiveOr)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x409c0c4;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d4b960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1283,8 +1283,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::ExclusiveOrAssign)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x409d5a4;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d4cdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1302,8 +1302,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Power)> {
-  constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x409a69c;
+  constexpr static std::size_t size = 0x3b4;
+  constexpr static std::size_t addrs = 0x5d4a070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1320,8 +1320,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                    ::System::Linq::Expressions::LambdaExpression*)>(&::System::Linq::Expressions::Expression::PowerAssign)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x409e270;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x5d4da34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1338,8 +1338,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::ArrayIndex)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x409c7b8;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x5d4c02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1354,8 +1354,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BlockExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x409fc4c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d4f370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1371,8 +1371,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x409fd08;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x5d4f428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1389,8 +1389,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                   ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x409fdf8;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5d4f510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1408,8 +1408,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BlockExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                       ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x409ff1c;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x5d4f62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1427,8 +1427,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BlockExpression* (*)(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40a006c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5d4f778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1443,8 +1443,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Type*, ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x40a00f8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5d4f80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1461,8 +1461,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x40a0180;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5d4f89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1479,8 +1479,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                                   ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x40a0448;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5d4fb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1498,8 +1498,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                                   ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40a04ac;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d4fbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1517,8 +1517,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BlockExpression* (*)(::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                       ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x40955c8;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5d451cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1535,8 +1535,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::BlockExpression* (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                       ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::Expression::Block)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x40a021c;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x5d4f940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1555,8 +1555,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Type*, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                                   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::BlockCore)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x40a0f24;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x5d50624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1573,8 +1573,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*,
                                                                                            ::StringW)>(&::System::Linq::Expressions::Expression::ValidateVariables)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x40a12ac;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x5d50958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1591,8 +1591,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::BlockExpression* (*)(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::GetOptimizedBlockExpression)> {
-  constexpr static std::size_t size = 0x8c4;
-  constexpr static std::size_t addrs = 0x40a0660;
+  constexpr static std::size_t size = 0x8a4;
+  constexpr static std::size_t addrs = 0x5d4fd80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1608,8 +1608,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::CatchBlock* (*)(::System::Type*, ::System::Linq::Expressions::ParameterExpression*, ::System::Linq::Expressions::Expression*,
                                                              ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::MakeCatchBlock)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x40a1454;
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x5d50b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1627,8 +1627,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::ConditionalExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Condition)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4096a8c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x5d466a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1645,8 +1645,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::ConditionalExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                         ::System::Type*)>(&::System::Linq::Expressions::Expression::Condition)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x40a16e0;
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x5d50d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1663,8 +1663,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::ConditionalExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::IfThen)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x40a1968;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5d50fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1679,8 +1679,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ConstantExpression* (*)(::System::Object*)>(
     &::System::Linq::Expressions::Expression::Constant)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x40a1ad0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5d510ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1694,8 +1694,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ConstantExpression* (*)(::System::Object*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::Constant)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4096848;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x5d46490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1709,8 +1709,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::DefaultExpression* (*)()>(&::System::Linq::Expressions::Expression::Empty)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x40a1a28;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5d51060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(), "Empty",
@@ -1723,8 +1723,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::DefaultExpression* (*)(::System::Type*)>(
     &::System::Linq::Expressions::Expression::Default)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40a1b2c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5d5114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1737,8 +1737,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Expression::*)()>(&::System::Linq::Expressions::Expression::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4093518;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d43190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(), ".ctor",
@@ -1751,8 +1751,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::Expression::*)()>(
     &::System::Linq::Expressions::Expression::get_NodeType)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x40a1be8;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5d5120c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1765,8 +1765,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::Expression::*)()>(&::System::Linq::Expressions::Expression::get_Type)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x40a1cdc;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5d51308;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1780,7 +1780,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Linq::Expressions::Expression::*)()>(&::System::Linq::Expressions::Expression::get_CanReduce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a1dd0;
+  constexpr static std::size_t addrs = 0x5d51404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1795,7 +1795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Expression::*)()>(
     &::System::Linq::Expressions::Expression::Reduce)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x40a1dd8;
+  constexpr static std::size_t addrs = 0x5d5140c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1810,7 +1810,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::Expression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::Expression::VisitChildren)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x40a1e20;
+  constexpr static std::size_t addrs = 0x5d51454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1824,8 +1824,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::Expression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::Expression::Accept)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40a1f98;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5d515d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1839,8 +1839,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::Expression::*)()>(
     &::System::Linq::Expressions::Expression::ReduceAndCheck)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x40a1e94;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5d514c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(),
@@ -1853,7 +1853,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Expression::*)()>(&::System::Linq::Expressions::Expression::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a1fc0;
+  constexpr static std::size_t addrs = 0x5d515f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1867,8 +1867,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*, ::StringW)>(
     &::System::Linq::Expressions::Expression::RequiresCanRead)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x40a0518;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5d4fc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1883,8 +1883,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Linq::Expressions::Expression*, ::StringW)>(
     &::System::Linq::Expressions::Expression::RequiresCanWrite)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x4096e80;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5d46a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1899,8 +1899,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::GotoExpression* (*)(::System::Linq::Expressions::LabelTarget*)>(
     &::System::Linq::Expressions::Expression::Break)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x40a1fc8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5d515fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1914,8 +1914,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::GotoExpression* (*)(::System::Linq::Expressions::LabelTarget*)>(
     &::System::Linq::Expressions::Expression::Return)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x40a216c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5d5178c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1929,8 +1929,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::GotoExpression* (*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Return)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40a2224;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5d51820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1945,8 +1945,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::GotoExpression* (*)(::System::Linq::Expressions::LabelTarget*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::Goto)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40a22e0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d518c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1961,8 +1961,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::GotoExpression* (*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Goto)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40a234c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5d51930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1978,8 +1978,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::GotoExpression* (*)(::System::Linq::Expressions::GotoExpressionKind, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*,
                                                                  ::System::Type*)>(&::System::Linq::Expressions::Expression::MakeGoto)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x40a2080;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5d51690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1996,8 +1996,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Linq::Expressions::LabelTarget*, ::ByRef<::System::Linq::Expressions::Expression*>, ::StringW,
                                                                                            ::StringW, ::System::Type*)>(&::System::Linq::Expressions::Expression::ValidateGoto)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x40a2408;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x5d519d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2014,8 +2014,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<::System::Linq::Expressions::Expression*>, ::StringW)>(
     &::System::Linq::Expressions::Expression::ValidateGotoType)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x40a25c4;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5d51b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2032,8 +2032,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::IndexExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*,
                                                       ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::Expression::MakeIndex)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x409573c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5d45360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2051,8 +2051,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::IndexExpression* (*)(::System::Linq::Expressions::Expression*,
                                                                   ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::ArrayAccess)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x40a2cb8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5d521f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2069,8 +2069,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::IndexExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::ArrayAccess)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x40a2804;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x5d51d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2086,8 +2086,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::IndexExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*,
                                                       ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::Expression::Property)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x40a2750;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d51ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2105,8 +2105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::IndexExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*, ::StringW,
                                                                   ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::MakeIndexProperty)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40a2d1c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5d52260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2124,8 +2124,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*, ::StringW,
     ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*>)>(&::System::Linq::Expressions::Expression::ValidateIndexedProperty)> {
-  constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x40a2dd8;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x5d52324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2143,8 +2143,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>,
     ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*>, ::StringW)>(&::System::Linq::Expressions::Expression::ValidateAccessor)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x40a3354;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x5d52830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2165,8 +2165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Reflection::MethodInfo*, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>,
                          ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*>, ::StringW)>(
         &::System::Linq::Expressions::Expression::ValidateAccessorArgumentTypes)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x40a35bc;
+  constexpr static std::size_t size = 0x444;
+  constexpr static std::size_t addrs = 0x5d52aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2185,7 +2185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::Invoke)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x40a39e0;
+  constexpr static std::size_t addrs = 0x5d52ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2199,8 +2199,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Invoke)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4095044;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5d44c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2216,8 +2216,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Invoke)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x40a3d08;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x5d531ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2234,8 +2234,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                        ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Invoke)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x40a3ebc;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x5d533ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2253,8 +2253,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                            ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Invoke)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x40a40c0;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x5d535c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2274,8 +2274,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                        ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Invoke)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x40a431c;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x5d5382c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2295,8 +2295,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::InvocationExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::Expression::Invoke)> {
-  constexpr static std::size_t size = 0x8d4;
-  constexpr static std::size_t addrs = 0x40a45d0;
+  constexpr static std::size_t size = 0x920;
+  constexpr static std::size_t addrs = 0x5d53aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2311,8 +2311,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::GetInvokeMethod)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x40a3ae4;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5d52ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2326,8 +2326,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelExpression* (*)(::System::Linq::Expressions::LabelTarget*)>(
     &::System::Linq::Expressions::Expression::Label)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40a4eac;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5d54414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2341,8 +2341,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::LabelExpression* (*)(::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Label)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x40a4f04;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5d54470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2356,8 +2356,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)()>(&::System::Linq::Expressions::Expression::Label)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x40a4fd8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5d54554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Expression*>::get(), "Label",
@@ -2369,8 +2369,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)(::StringW)>(&::System::Linq::Expressions::Expression::Label)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x40a5140;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5d54698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2383,8 +2383,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)(::System::Type*)>(&::System::Linq::Expressions::Expression::Label)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40a51f0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5d54724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2398,8 +2398,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::LabelTarget* (*)(::System::Type*, ::StringW)>(
     &::System::Linq::Expressions::Expression::Label)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40a507c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5d545dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2415,8 +2415,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::LambdaExpression* (*)(::System::Type*, ::System::Linq::Expressions::Expression*, ::StringW, bool,
                                                                    ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*)>(
         &::System::Linq::Expressions::Expression::CreateLambda)> {
-  constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x40a5248;
+  constexpr static std::size_t size = 0x4bc;
+  constexpr static std::size_t addrs = 0x5d54780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2435,8 +2435,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::LambdaExpression* (*)(::System::Type*, ::System::Linq::Expressions::Expression*,
                                                                    ::ArrayW<::System::Linq::Expressions::ParameterExpression*, ::Array<::System::Linq::Expressions::ParameterExpression*>*>)>(
         &::System::Linq::Expressions::Expression::Lambda)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x40a56b4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5d54c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2455,7 +2455,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                    ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::ParameterExpression*>*)>(
         &::System::Linq::Expressions::Expression::Lambda)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x40a5728;
+  constexpr static std::size_t addrs = 0x5d54cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2473,8 +2473,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Type*, ::ByRef<::System::Linq::Expressions::Expression*>, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*, ::StringW)>(
     &::System::Linq::Expressions::Expression::ValidateLambdaArgs)> {
-  constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x40a5808;
+  constexpr static std::size_t size = 0x6a8;
+  constexpr static std::size_t addrs = 0x5d54d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2493,8 +2493,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::LoopExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::LabelTarget*, ::System::Linq::Expressions::LabelTarget*)>(
         &::System::Linq::Expressions::Expression::Loop)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x40a5ea0;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5d5543c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2510,8 +2510,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MemberExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::FieldInfo*)>(&::System::Linq::Expressions::Expression::Field)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x40a5fcc;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5d55544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2526,8 +2526,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::MemberExpression* (*)(::System::Linq::Expressions::Expression*, ::StringW)>(
     &::System::Linq::Expressions::Expression::Field)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x40a6168;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x5d556f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2542,8 +2542,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::MemberExpression* (*)(::System::Linq::Expressions::Expression*, ::StringW)>(
     &::System::Linq::Expressions::Expression::Property)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4096214;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5d45e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2558,8 +2558,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::MemberExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::PropertyInfo*)>(&::System::Linq::Expressions::Expression::Property)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x40a62d8;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x5d55858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2574,8 +2574,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::MemberExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MemberInfo*)>(&::System::Linq::Expressions::Expression::MakeMemberAccess)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4095404;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5d45054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2591,7 +2591,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::Expression::Call)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x40a658c;
+  constexpr static std::size_t addrs = 0x5d55b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2605,8 +2605,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x40964e8;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x5d46124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2622,8 +2622,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4096630;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x5d46270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2640,8 +2640,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                        ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x40a66f0;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x5d55c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2659,8 +2659,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                            ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x40a6908;
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x5d55e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2680,8 +2680,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                                        ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x40a6b88;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x5d56114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2701,8 +2701,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
     &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40a6e78;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d56408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2719,8 +2719,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Reflection::MethodInfo*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40a6f4c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d564e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2735,8 +2735,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x40a78d8;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5d56eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2753,8 +2753,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                                        ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40a6ee0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d56474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2772,8 +2772,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x40a79e4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5d56fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2790,8 +2790,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*,
                                                                        ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x40a7b68;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x5d57154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2809,8 +2809,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*,
                                                            ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x40a7d58;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x5d57354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2830,8 +2830,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                                                        ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4096388;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5d45fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2849,8 +2849,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::MethodCallExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*,
                                                            ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(&::System::Linq::Expressions::Expression::Call)> {
-  constexpr static std::size_t size = 0x924;
-  constexpr static std::size_t addrs = 0x40a6fb4;
+  constexpr static std::size_t size = 0x95c;
+  constexpr static std::size_t addrs = 0x5d56550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2866,8 +2866,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> (*)(
     ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::ValidateMethodAndGetParameters)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40a665c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5d55bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2882,8 +2882,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::Expression::ValidateStaticOrInstanceMethod)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x40a8204;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x5d5781c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2898,8 +2898,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Reflection::MethodInfo*)>(
     &::System::Linq::Expressions::Expression::ValidateCallInstanceType)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x40a3504;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5d529f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2916,7 +2916,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ByRef<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>*>,
                                                                                            ::StringW)>(&::System::Linq::Expressions::Expression::ValidateArgumentTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a4ea4;
+  constexpr static std::size_t addrs = 0x5d5440c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2935,7 +2935,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> (*)(
     ::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::Expression::GetParametersForValidation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a3cec;
+  constexpr static std::size_t addrs = 0x5d531d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2952,7 +2952,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                                            ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*>)>(
     &::System::Linq::Expressions::Expression::ValidateArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a3cf4;
+  constexpr static std::size_t addrs = 0x5d531d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2971,7 +2971,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::Expression* (*)(::System::Reflection::MethodBase*, ::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*,
                                                              ::System::Reflection::ParameterInfo*, ::StringW, ::StringW)>(&::System::Linq::Expressions::Expression::ValidateOneArgument)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40a3cfc;
+  constexpr static std::size_t addrs = 0x5d531e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2990,7 +2990,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::System::Linq::Expressions::Expression*>)>(
     &::System::Linq::Expressions::Expression::TryQuote)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40a2748;
+  constexpr static std::size_t addrs = 0x5d51cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3007,8 +3007,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::MethodInfo* (*)(::System::Type*, ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>,
                                                       ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>, ::System::Reflection::BindingFlags)>(
         &::System::Linq::Expressions::Expression::FindMethod)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x40a7fb4;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x5d575c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3027,8 +3027,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Reflection::MethodBase*, ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::IsCompatible)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x40a83a0;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x5d579d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3045,7 +3045,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Reflection::MethodInfo* (*)(::System::Reflection::MethodInfo*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::System::Linq::Expressions::Expression::ApplyTypeArgs)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x40a82ec;
+  constexpr static std::size_t addrs = 0x5d57920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3061,8 +3061,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::NewArrayExpression* (*)(::System::Type*, ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*>)>(
         &::System::Linq::Expressions::Expression::NewArrayInit)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x40a85e0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5d57c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3079,8 +3079,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::NewArrayExpression* (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::NewArrayInit)> {
-  constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x40a8644;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x5d57c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3096,8 +3096,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::NewArrayExpression* (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::Expression*>*)>(
         &::System::Linq::Expressions::Expression::NewArrayBounds)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x40a8a54;
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x5d580a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3112,8 +3112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ParameterExpression* (*)(::System::Type*)>(
     &::System::Linq::Expressions::Expression::Parameter)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40a8cf8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5d5833c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3127,8 +3127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ParameterExpression* (*)(::System::Type*, ::StringW)>(
     &::System::Linq::Expressions::Expression::Parameter)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4096168;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d45d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3142,8 +3142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ParameterExpression* (*)(::System::Type*, ::StringW)>(
     &::System::Linq::Expressions::Expression::Variable)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x409538c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5d44fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3156,8 +3156,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, bool)>(&::System::Linq::Expressions::Expression::Validate)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x40a8d50;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5d58398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3171,8 +3171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::TryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::Expression::TryFinally)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x40a8e7c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5d58498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3188,8 +3188,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::TryExpression* (*)(::System::Type*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
                                                     ::System::Collections::Generic::IEnumerable_1<::System::Linq::Expressions::CatchBlock*>*)>(&::System::Linq::Expressions::Expression::MakeTry)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x40a8eec;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x5d5850c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3208,8 +3208,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Type*, ::System::Linq::Expressions::Expression*, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::CatchBlock*>*)>(
         &::System::Linq::Expressions::Expression::ValidateTryAndCatchHaveSameType)> {
-  constexpr static std::size_t size = 0x9ac;
-  constexpr static std::size_t addrs = 0x40a9120;
+  constexpr static std::size_t size = 0x88c;
+  constexpr static std::size_t addrs = 0x5d58760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3225,8 +3225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::TypeBinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::TypeIs)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x40a9acc;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5d58fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3241,8 +3241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::TypeBinaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::TypeEqual)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x40a9bcc;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5d59100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3258,8 +3258,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Type*,
                                                                   ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::MakeUnary)> {
-  constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x40a9ccc;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x5d59214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3277,8 +3277,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::GetUserDefinedUnaryOperatorOrThrow)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x40abec0;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x5d5b3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3295,8 +3295,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::StringW, ::System::Linq::Expressions::Expression*)>(
         &::System::Linq::Expressions::Expression::GetUserDefinedUnaryOperator)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x40ac044;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x5d5b574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3313,8 +3313,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::GetMethodBasedUnaryOperator)> {
-  constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x40ac348;
+  constexpr static std::size_t size = 0x3bc;
+  constexpr static std::size_t addrs = 0x5d5b860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3331,8 +3331,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Type*)>(
         &::System::Linq::Expressions::Expression::GetUserDefinedCoercionOrThrow)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x40ac6ec;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d5bc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3349,8 +3349,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Type*)>(
         &::System::Linq::Expressions::Expression::GetUserDefinedCoercion)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x40ac7a0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5d5bcd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3367,8 +3367,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Type*,
                                                                   ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::GetMethodBasedCoercionOperator)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x40ac888;
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x5d5bdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3386,7 +3386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::Negate)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x40aa218;
+  constexpr static std::size_t addrs = 0x5d59748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3402,7 +3402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::UnaryPlus)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x40ab664;
+  constexpr static std::size_t addrs = 0x5d5ab90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3418,7 +3418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::NegateChecked)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x40aa3f0;
+  constexpr static std::size_t addrs = 0x5d59920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3433,8 +3433,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::Not)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40acc20;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5d5c15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3448,8 +3448,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::Not)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x40aa5c8;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x5d59af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3465,7 +3465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::IsFalse)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x40aa7a4;
+  constexpr static std::size_t addrs = 0x5d59cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3481,7 +3481,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::IsTrue)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x40aa944;
+  constexpr static std::size_t addrs = 0x5d59e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3497,7 +3497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::OnesComplement)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x40aaae4;
+  constexpr static std::size_t addrs = 0x5d5a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3512,8 +3512,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::TypeAs)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x40ab3e4;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5d5a8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3528,8 +3528,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::Unbox)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x40ab804;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5d5ad30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3544,8 +3544,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::Convert)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40967e0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d46424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3561,8 +3561,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::Convert)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x40aae60;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x5d5a37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3579,8 +3579,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::ConvertChecked)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x40ab070;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x5d5a57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3596,8 +3596,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::ArrayLength)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x40aac84;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x5d5a1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3611,8 +3611,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::Quote)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x40ab54c;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5d5aa6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3626,8 +3626,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Linq::Expressions::Expression::Throw)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x40ab29c;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x5d5a794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3643,7 +3643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::Increment)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x40ab9e0;
+  constexpr static std::size_t addrs = 0x5d5aef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3659,7 +3659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::Decrement)> {
   constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x40abb80;
+  constexpr static std::size_t addrs = 0x5d5b098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3674,8 +3674,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*)>(
     &::System::Linq::Expressions::Expression::PreIncrementAssign)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x40acc78;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5d5c1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3689,8 +3689,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::PreIncrementAssign)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40abd20;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d5b238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3705,8 +3705,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::PreDecrementAssign)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40abdf0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d5b310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3721,8 +3721,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::PostIncrementAssign)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40abd88;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d5b2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3737,8 +3737,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(&::System::Linq::Expressions::Expression::PostDecrementAssign)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x40abe58;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5d5b37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3754,8 +3754,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::UnaryExpression* (*)(::System::Linq::Expressions::ExpressionType, ::System::Linq::Expressions::Expression*, ::System::Reflection::MethodInfo*)>(
         &::System::Linq::Expressions::Expression::MakeOpAssignUnary)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x40accd4;
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x5d5c218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

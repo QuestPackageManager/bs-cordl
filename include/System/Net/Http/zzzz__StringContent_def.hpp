@@ -23,12 +23,17 @@ namespace System::Net::Http {
 class CORDL_TYPE StringContent : public ::System::Net::Http::ByteArrayContent {
 public:
   // Declarations
-  /// @brief Method GetByteArray, addr 0x421ac14, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetByteArray, addr 0x5ec5b3c, size 0x3c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetByteArray(::StringW content, ::System::Text::Encoding* encoding);
+
+  static inline ::System::Net::Http::StringContent* New_ctor(::StringW content);
 
   static inline ::System::Net::Http::StringContent* New_ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType);
 
-  /// @brief Method .ctor, addr 0x421ab10, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec5a30, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::StringW content);
+
+  /// @brief Method .ctor, addr 0x5ec5a3c, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::StringW content, ::System::Text::Encoding* encoding, ::StringW mediaType);
 
 protected:
@@ -46,12 +51,12 @@ public:
   StringContent(StringContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::StringContent, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::StringContent, 0x40>, "Size mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::StringContent);

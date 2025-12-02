@@ -34,13 +34,13 @@ public:
 
   static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonGenerator* New_ctor();
 
-  /// @brief Method RandomCircleSweep, addr 0x46fe940, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep, addr 0x6493898, size 0x2ec, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep(double_t scale, int32_t vertexCount);
 
-  /// @brief Method RandomCircleSweep2, addr 0x46fec2c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method RandomCircleSweep2, addr 0x6493b84, size 0x25c, virtual false, abstract: false, final false
   static inline ::UnityEngine::ProBuilder::Poly2Tri::Polygon* RandomCircleSweep2(double_t scale, int32_t vertexCount);
 
-  /// @brief Method .ctor, addr 0x46fee80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6493de0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline double_t getStaticF_PI_2();
@@ -66,7 +66,7 @@ public:
   PolygonGenerator(PolygonGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21567 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

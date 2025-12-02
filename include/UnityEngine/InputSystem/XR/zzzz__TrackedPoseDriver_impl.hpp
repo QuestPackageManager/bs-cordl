@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/XR/TrackedPoseDriver.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_impl.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
@@ -10,6 +9,7 @@
 #include "UnityEngine/InputSystem/zzzz__InputActionProperty_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType (
     ::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(&::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_trackingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e49c0;
+  constexpr static std::size_t addrs = 0x63698ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(
     ::UnityEngine::InputSystem::XR::TrackedPoseDriver_TrackingType)>(&::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_trackingType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e49c8;
+  constexpr static std::size_t addrs = 0x63698f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType (
     ::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(&::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_updateType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e49d0;
+  constexpr static std::size_t addrs = 0x63698fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(
     ::UnityEngine::InputSystem::XR::TrackedPoseDriver_UpdateType)>(&::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_updateType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e49d8;
+  constexpr static std::size_t addrs = 0x6369904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_ignoreTrackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e49e0;
+  constexpr static std::size_t addrs = 0x636990c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(bool)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_ignoreTrackingState)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e49e8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6369914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_positionInput)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45e49f4;
+  constexpr static std::size_t addrs = 0x636991c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_positionInput)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x45e4a08;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6369930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_rotationInput)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45e4dac;
+  constexpr static std::size_t addrs = 0x6369dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -174,8 +174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_rotationInput)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x45e4dc0;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6369e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputActionProperty (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_trackingStateInput)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45e5164;
+  constexpr static std::size_t addrs = 0x636a2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -203,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputActionProperty)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_trackingStateInput)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x45e5178;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x636a2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::BindActions)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45e551c;
+  constexpr static std::size_t addrs = 0x636a78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UnbindActions)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45e553c;
+  constexpr static std::size_t addrs = 0x636a7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -246,8 +246,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::BindPosition)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x45e4c0c;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x6369bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -260,8 +260,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::BindRotation)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x45e4fc4;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x636a0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -274,12 +274,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::BindTrackingState)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x45e537c;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x636a578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
                                                                                "BindTrackingState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::XR::TrackedPoseDriver.RenameAndEnable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction*, ::StringW)>(
+    &::UnityEngine::InputSystem::XR::TrackedPoseDriver::RenameAndEnable)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x636a7cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(), "RenameAndEnable", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -288,8 +304,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UnbindPosition)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x45e4ac8;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6369a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -302,8 +318,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UnbindRotation)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x45e4e80;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6369ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -316,8 +332,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UnbindTrackingState)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x45e5238;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x636a3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -330,8 +346,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnPositionPerformed)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45e555c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x636a7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,8 +361,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnPositionCanceled)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45e55bc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x636a860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -360,8 +376,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnRotationPerformed)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45e5614;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x636a8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -375,8 +391,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnRotationCanceled)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45e5674;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x636a920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,8 +406,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnTrackingStatePerformed)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x45e56c4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x636a974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -406,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnTrackingStateCanceled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e5720;
+  constexpr static std::size_t addrs = 0x636a9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -420,8 +436,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::Reset)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x45e5728;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x636a9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -434,8 +450,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::Awake)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x45e58fc;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x636ab4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -450,8 +466,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnEnable)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x45e59ac;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x636abfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -464,8 +480,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnDisable)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x45e5a64;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x636acb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -478,8 +494,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnDestroy)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x45e5b10;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x636ad68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -494,8 +510,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UpdateCallback)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x45e5b3c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x636ad90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -508,8 +524,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::ReadTrackingState)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x45e5c60;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x636aec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -523,7 +539,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45e5d94;
+  constexpr static std::size_t addrs = 0x636b014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -539,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::OnBeforeRender)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45e5db0;
+  constexpr static std::size_t addrs = 0x636b030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -555,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::PerformUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45e5dd0;
+  constexpr static std::size_t addrs = 0x636b050;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -570,8 +586,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::SetLocalTransform)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x45e5dec;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x636b06c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -586,8 +602,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::ByRef<::UnityEngine::Camera*>)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::HasStereoCamera)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45e5928;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x636ab74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -602,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_positionAction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e5f58;
+  constexpr static std::size_t addrs = 0x636b1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -615,8 +631,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_positionAction)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e5f64;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x636b1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -631,7 +647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputAction* (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::get_rotationAction)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45e5fac;
+  constexpr static std::size_t addrs = 0x636b1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -644,8 +660,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)(::UnityEngine::InputSystem::InputAction*)>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::set_rotationAction)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e5fb8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x636b200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -660,7 +676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45e6000;
+  constexpr static std::size_t addrs = 0x636b220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -674,8 +690,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45e6004;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x636b224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,8 +705,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::TrackedPoseDriver::*)()>(
     &::UnityEngine::InputSystem::XR::TrackedPoseDriver::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x45e6094;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x636b26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
@@ -968,6 +984,13 @@ inline void UnityEngine::InputSystem::XR::TrackedPoseDriver::BindTrackingState()
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),
                                                                              "BindTrackingState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::XR::TrackedPoseDriver::RenameAndEnable(::UnityEngine::InputSystem::InputAction* action, ::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(), "RenameAndEnable", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, action, name);
 }
 inline void UnityEngine::InputSystem::XR::TrackedPoseDriver::UnbindPosition() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::TrackedPoseDriver*>::get(),

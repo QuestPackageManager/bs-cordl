@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::JetBrains::Annotations::ItemCanBeNullAttribute* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4af2f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c092d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   ItemCanBeNullAttribute(ItemCanBeNullAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22243 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

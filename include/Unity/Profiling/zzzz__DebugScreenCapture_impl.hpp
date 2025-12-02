@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::DebugScreenCapture::*)(::Unity::Collections::NativeArray_1<uint8_t>)>(
     &::Unity::Profiling::DebugScreenCapture::set_RawImageDataReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860ce8;
+  constexpr static std::size_t addrs = 0x682976c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::DebugScreenCapture::*)(::UnityEngine::TextureFormat)>(
     &::Unity::Profiling::DebugScreenCapture::set_ImageFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860cf0;
+  constexpr static std::size_t addrs = 0x6829774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::DebugScreenCapture::*)(int32_t)>(&::Unity::Profiling::DebugScreenCapture::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860cf8;
+  constexpr static std::size_t addrs = 0x682977c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::DebugScreenCapture::*)(int32_t)>(&::Unity::Profiling::DebugScreenCapture::set_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860d00;
+  constexpr static std::size_t addrs = 0x6829784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

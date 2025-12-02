@@ -43,9 +43,6 @@ namespace GlobalNamespace {
 class PlayerSpecificSettings;
 }
 namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
 class SettingsManager;
 }
 namespace System {
@@ -64,16 +61,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE MissionLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Field _gameCoreSceneInfo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
-
-  /// @brief Field _missionGameplaySceneInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionGameplaySceneInfo, put = __cordl_internal_set__missionGameplaySceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _missionGameplaySceneInfo;
-
-  /// @brief Field <missionId>k__BackingField, offset 0x50, size 0x8
+  /// @brief Field <missionId>k__BackingField, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__missionId_k__BackingField, put = __cordl_internal_set__missionId_k__BackingField)) ::StringW _missionId_k__BackingField;
 
-  /// @brief Field didFinishEvent, offset 0x48, size 0x8
+  /// @brief Field didFinishEvent, offset 0x38, size 0x8
   __declspec(property(
       get = __cordl_internal_get_didFinishEvent,
       put =
@@ -81,33 +72,18 @@ public:
 
   __declspec(property(get = get_missionId, put = set_missionId)) ::StringW missionId;
 
-  /// @brief Method Finish, addr 0x3b3e690, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x5721cdc, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::MissionCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x3b3ce00, size 0x3ec, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x571bfc0, size 0x3bc, virtual false, abstract: false, final false
   inline void Init(::StringW missionId, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-                   ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
-                   ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-                   ::StringW backButtonText);
-
-  /// @brief Method Init, addr 0x3b38bc0, size 0x3c0, virtual false, abstract: false, final false
-  inline void Init(::StringW missionId, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* overrideColorScheme,
-                   ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
+                   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, ::GlobalNamespace::ColorScheme* playerOverrideColorScheme,
+                   bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
                    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager,
-                   ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText);
+                   ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::StringW backButtonText, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
+                   ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
   static inline ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* New_ctor();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__missionGameplaySceneInfo() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__missionGameplaySceneInfo();
 
   constexpr ::StringW const& __cordl_internal_get__missionId_k__BackingField() const;
 
@@ -117,27 +93,23 @@ public:
 
   constexpr ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr void __cordl_internal_set__missionGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
   constexpr void __cordl_internal_set__missionId_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x3b3e6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5721d04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b3bd2c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x571f53c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method get_missionId, addr 0x3b3e680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionId, addr 0x5721ccc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_missionId();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b3c20c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x571fa38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* value);
 
-  /// @brief Method set_missionId, addr 0x3b3e688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_missionId, addr 0x5721cd4, size 0x8, virtual false, abstract: false, final false
   inline void set_missionId(::StringW value);
 
 protected:
@@ -155,32 +127,22 @@ public:
   MissionLevelScenesTransitionSetupDataSO(MissionLevelScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6845 };
 
-  /// @brief Field _missionGameplaySceneInfo, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SceneInfo> ____missionGameplaySceneInfo;
-
-  /// @brief Field _gameCoreSceneInfo, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
-
-  /// @brief Field didFinishEvent, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::MissionCompletionResults*>* ___didFinishEvent;
 
-  /// @brief Field <missionId>k__BackingField, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field <missionId>k__BackingField, offset: 0x40, size: 0x8, def value: None
   ::StringW ____missionId_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ____missionGameplaySceneInfo) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ____gameCoreSceneInfo) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ____missionId_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, ____missionId_k__BackingField) == 0x50, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO);

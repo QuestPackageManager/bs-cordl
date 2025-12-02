@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Start)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x403ad58;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5cefbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "Start",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::Update)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x403adf4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5cefc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "Update",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::TestPowerStateMode)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x403aea0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5cefd14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), "TestPowerStateMode",
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRModeParms::*)()>(&::GlobalNamespace::OVRModeParms::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x403af44;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5cefdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRModeParms*>::get(), ".ctor",

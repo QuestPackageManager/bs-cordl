@@ -3,15 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SceneStartHandler)
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsAtStartNetSerializable;
@@ -31,13 +30,16 @@ template <typename T> class HashSet_1;
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class SceneStartHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneStartHandler);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SceneStartHandler
@@ -49,7 +51,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _playersAtGameStartModel, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__playersAtGameStartModel,
@@ -80,43 +82,44 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddPlayerSpecificSettingsToDictionary, addr 0x22e5824, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method AddPlayerSpecificSettingsToDictionary, addr 0x31b51e0, size 0x8c, virtual false, abstract: false, final false
   inline void AddPlayerSpecificSettingsToDictionary(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettingsNetSerializable);
 
-  /// @brief Method CreatePlayersSpecificSettingsAtGameStartData, addr 0x22e5890, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method CreatePlayersSpecificSettingsAtGameStartData, addr 0x31b526c, size 0x2d0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* CreatePlayersSpecificSettingsAtGameStartData();
 
-  /// @brief Method Dispose, addr 0x22e4de0, size 0x35c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x31b4738, size 0x384, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method ForceStart, addr 0x22e5b94, size 0x6f4, virtual false, abstract: false, final false
+  /// @brief Method ForceStart, addr 0x31b553c, size 0x6d0, virtual false, abstract: false, final false
   inline void ForceStart();
 
-  /// @brief Method GetSceneLoadStatus, addr 0x22e513c, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method GetSceneLoadStatus, addr 0x31b4abc, size 0x724, virtual false, abstract: false, final false
   inline void GetSceneLoadStatus();
 
-  /// @brief Method HandleGetGameplaySceneReady, addr 0x22e6650, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleGetGameplaySceneReady, addr 0x31b5ff8, size 0xb8, virtual false, abstract: false, final false
   inline void HandleGetGameplaySceneReady(::StringW userId);
 
-  /// @brief Method HandleSetGameplaySceneReady, addr 0x22e6288, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySceneReady, addr 0x31b5c0c, size 0x3ec, virtual false, abstract: false, final false
   inline void HandleSetGameplaySceneReady(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* playerSpecificSettings);
 
-  /// @brief Method HandleSetGameplaySceneSyncFinished, addr 0x22e6704, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleSetGameplaySceneSyncFinished, addr 0x31b60b0, size 0x68, virtual false, abstract: false, final false
   inline void HandleSetGameplaySceneSyncFinished(::StringW userId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
 
-  /// @brief Method HandleSetPlayerDidConnectLate, addr 0x22e676c, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method HandleSetPlayerDidConnectLate, addr 0x31b6118, size 0x2ac, virtual false, abstract: false, final false
   inline void HandleSetPlayerDidConnectLate(::StringW userId, ::StringW failedUserId, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStart, ::StringW sessionId);
 
-  static inline ::GlobalNamespace::SceneStartHandler* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
+  static inline ::GlobalNamespace::SceneStartHandler* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
+                                                               ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                                                                ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
   constexpr ::GlobalNamespace::IGameplayRpcManager* const& __cordl_internal_get__gameplayRpcManager() const;
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* const& __cordl_internal_get__playersAtGameStartModel() const;
 
@@ -148,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__playersAtGameStartModel(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* value);
 
@@ -164,23 +167,23 @@ public:
 
   constexpr void __cordl_internal_set_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x22e4cfc, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
+  /// @brief Method .ctor, addr 0x31b4634, size 0x104, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager,
                     ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersAtGameStartModel);
 
-  /// @brief Method add_sceneSetupDidFinishEvent, addr 0x22e4a3c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sceneSetupDidFinishEvent, addr 0x31b4334, size 0xc0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_sceneSetupDidReceiveTooLateEvent, addr 0x22e4b9c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sceneSetupDidReceiveTooLateEvent, addr 0x31b44b4, size 0xc0, virtual false, abstract: false, final false
   inline void add_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_sceneSetupDidFinishEvent, addr 0x22e4aec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sceneSetupDidFinishEvent, addr 0x31b43f4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidFinishEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_sceneSetupDidReceiveTooLateEvent, addr 0x22e4c4c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sceneSetupDidReceiveTooLateEvent, addr 0x31b4574, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sceneSetupDidReceiveTooLateEvent(::System::Action_1<::StringW>* value);
 
 protected:
@@ -198,10 +201,10 @@ public:
   SceneStartHandler(SceneStartHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19041 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _gameplayRpcManager, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;

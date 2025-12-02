@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(
     &::BeatSaber::Settings::SettingStrings::Encode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227ebe4;
+  constexpr static std::size_t addrs = 0x31c1e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::StringW, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::Decode)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x227f89c;
+  constexpr static std::size_t addrs = 0x31c2c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::BeatSaber::Settings::Settings>, ::System::Text::StringBuilder*)>(
     &::BeatSaber::Settings::SettingStrings::WriteProperties)> {
-  constexpr static std::size_t size = 0xcb4;
-  constexpr static std::size_t addrs = 0x227ebe8;
+  constexpr static std::size_t size = 0xdf0;
+  constexpr static std::size_t addrs = 0x31c1e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::ByRef<::BeatSaber::Settings::Settings>, ::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadProperty)> {
-  constexpr static std::size_t size = 0x1750;
-  constexpr static std::size_t addrs = 0x227fb70;
+  constexpr static std::size_t size = 0x16b0;
+  constexpr static std::size_t addrs = 0x31c2ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::StringW, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadProperties)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x227f8a0;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x31c2c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::BeatSaber::Settings::Settings>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadPropertyLine)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2281944;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x31c4be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>)>(&::BeatSaber::Settings::SettingStrings::IsPureWhiteSpace)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x2281b40;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x31c4df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadString)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22818b4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x31c4b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<float_t>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadFloat)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x228133c;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x31c45e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,8 +161,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<int32_t>, ::ByRef<::StringW>)>(&::BeatSaber::Settings::SettingStrings::ReadInt)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x22816dc;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x31c4980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::System::ReadOnlySpan_1<char16_t>, ::ByRef<bool>, ::ByRef<::StringW>)>(
     &::BeatSaber::Settings::SettingStrings::ReadBool)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x2281514;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x31c47c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

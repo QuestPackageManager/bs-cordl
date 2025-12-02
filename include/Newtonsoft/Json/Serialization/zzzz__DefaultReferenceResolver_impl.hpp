@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultReferenceResolver.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultReferenceResolver_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IReferenceResolver_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__BidirectionalDictionary_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::DefaultReferenceResolver.GetMappings
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Utilities::BidirectionalDictionary_2<::StringW, ::System::Object*>* (
     ::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*)>(&::Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetMappings)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3ee3910;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5b2ac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::StringW)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::ResolveReference)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3ee3b20;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5b2ae5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::GetReference)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ee3b94;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5b2aed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(
     ::System::Object*, ::StringW, ::System::Object*)>(&::Newtonsoft::Json::Serialization::DefaultReferenceResolver::AddReference)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3ee3c88;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b2afdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::IsReferenced)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3ee3cf4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5b2b04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultReferenceResolver::*)()>(
     &::Newtonsoft::Json::Serialization::DefaultReferenceResolver::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ee3d68;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b2b0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/SimulatedTlsSrpIdentityManager.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SimulatedTlsSrpIdentityManager_def.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Srp/zzzz__Srp6VerifierGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__Srp6GroupParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpLoginParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager.GetRfc5054Default
@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager* (*)(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::GetRfc5054Default)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x241c2a4;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x334a614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::*)(
     ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters*, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator*, ::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x241c418;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x334a780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,8 +48,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* (::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager::GetLoginParameters)> {
-  constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x241c454;
+  constexpr static std::size_t size = 0x4b4;
+  constexpr static std::size_t addrs = 0x334a78c;
 
   inline static ::MethodInfo const* methodInfo() {
 

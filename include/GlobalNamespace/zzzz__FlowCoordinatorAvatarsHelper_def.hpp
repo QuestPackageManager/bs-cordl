@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
@@ -57,7 +56,7 @@ public:
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0* New_ctor();
 
-  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x3c05e64, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method <HasUserSelectedAvatarSystemWithCreatedAvatar>b__0, addr 0x57fac00, size 0xc4, virtual false, abstract: false, final false
   inline bool _HasUserSelectedAvatarSystemWithCreatedAvatar_b__0(::BeatSaber::AvatarCore::IAvatarSystemMetadata* system);
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get_playerDataModel() const;
@@ -66,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
-  /// @brief Method .ctor, addr 0x3c05e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57fabfc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -84,7 +83,7 @@ public:
   FlowCoordinatorAvatarsHelper___c__DisplayClass0_0(FlowCoordinatorAvatarsHelper___c__DisplayClass0_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6370 };
 
   /// @brief Field playerDataModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerDataModel> ___playerDataModel;
@@ -97,7 +96,7 @@ static_assert(offsetof(::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__Disp
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: FlowCoordinatorAvatarsHelper/<HasUserSelectedAvatarSystemWithCreatedAvatar>d__0
@@ -107,10 +106,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c05f20, size 0x3f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57facc4, size 0x418, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c06318, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x57fb0dc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -130,7 +129,7 @@ public:
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -177,13 +176,13 @@ public:
 
   using __c__DisplayClass0_0 = ::GlobalNamespace::FlowCoordinatorAvatarsHelper___c__DisplayClass0_0;
 
-  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x3c05d4c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HasUserSelectedAvatarSystemWithCreatedAvatar, addr 0x57fab00, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* HasUserSelectedAvatarSystemWithCreatedAvatar(::BeatSaber::AvatarCore::AvatarSystemCollection* avatarSystemCollection,
                                                                                                        ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
   static inline ::GlobalNamespace::FlowCoordinatorAvatarsHelper* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c05e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57fabf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -201,7 +200,7 @@ public:
   FlowCoordinatorAvatarsHelper(FlowCoordinatorAvatarsHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6372 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

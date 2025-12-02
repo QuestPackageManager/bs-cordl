@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAvatarEditorResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7bcdc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc2398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (::Oculus::Platform::MessageWithAvatarEditorResult::*)()>(
     &::Oculus::Platform::MessageWithAvatarEditorResult::GetAvatarEditorResult)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7e1fc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc5558;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AvatarEditorResult* (
     ::Oculus::Platform::MessageWithAvatarEditorResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAvatarEditorResult::GetDataFromMessage)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7e238;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5bc559c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAvatarEditorResult*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAvatarEditorResult*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAvatarEditorResult*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -64,7 +64,7 @@ inline ::Oculus::Platform::Models::AvatarEditorResult* Oculus::Platform::Message
 }
 inline ::Oculus::Platform::Models::AvatarEditorResult* Oculus::Platform::MessageWithAvatarEditorResult::GetDataFromMessage(::System::IntPtr c_message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAvatarEditorResult*>::get(), 72)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAvatarEditorResult*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::AvatarEditorResult*, false>(this, ___internal_method, c_message);
 }
 inline ::Oculus::Platform::MessageWithAvatarEditorResult* Oculus::Platform::MessageWithAvatarEditorResult::New_ctor(::System::IntPtr c_message) {

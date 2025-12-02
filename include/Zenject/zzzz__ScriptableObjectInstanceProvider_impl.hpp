@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/ScriptableObjectInstanceProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstanceProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -11,6 +10,7 @@
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__ScriptableObjectInstanceProvider_def.hpp"
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ScriptableObjectInstanceProvider___c__DisplayClass13_0::*)()>(
     &::Zenject::ScriptableObjectInstanceProvider___c__DisplayClass13_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b405f8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c54474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ScriptableObjectInstanceProvider___c__DisplayClass13_0::*)()>(
     &::Zenject::ScriptableObjectInstanceProvider___c__DisplayClass13_0::_GetAllInstancesWithInjectSplit_b__0)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4b40600;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6c54478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ScriptableObjectInstanceProvider___c__DisplayClass13_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b40790;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c54624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::ScriptableObjectInstanceProvider___c__DisplayClass13_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b407e4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c54668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,8 +158,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ScriptableObjectInstanceProvider::*)(
     ::UnityEngine::Object*, ::System::Type*, ::Zenject::DiContainer*, ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*, bool, ::System::Object*,
     ::System::Action_2<::Zenject::InjectContext*, ::System::Object*>*)>(&::Zenject::ScriptableObjectInstanceProvider::_ctor)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4b4036c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6c5417c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ScriptableObjectInstanceProvider::*)()>(
     &::Zenject::ScriptableObjectInstanceProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b40438;
+  constexpr static std::size_t addrs = 0x6c54244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ScriptableObjectInstanceProvider*>::get(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ScriptableObjectInstanceProvider::*)()>(
     &::Zenject::ScriptableObjectInstanceProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b40440;
+  constexpr static std::size_t addrs = 0x6c5424c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::ScriptableObjectInstanceProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::ScriptableObjectInstanceProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b40448;
+  constexpr static std::size_t addrs = 0x6c54254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,8 +223,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ScriptableObjectInstanceProvider::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::ScriptableObjectInstanceProvider::GetAllInstancesWithInjectSplit)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4b40450;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x6c5425c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlLinkedNode::*)(::System::Xml::XmlDocument*)>(&::System::Xml::XmlLinkedNode::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4335558;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x609dff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,12 +23,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlLinkedNode::*)()>(&::System::Xml::XmlLinkedNode::get_PreviousSibling)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x433d660;
+  constexpr static std::size_t addrs = 0x60a62f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -37,12 +37,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlLinkedNode::*)()>(&::System::Xml::XmlLinkedNode::get_NextSibling)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x433d6c8;
+  constexpr static std::size_t addrs = 0x60a6360;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 13));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 14));
     return ___internal_method;
   }
 };
@@ -66,12 +66,12 @@ inline void System::Xml::XmlLinkedNode::_ctor(::System::Xml::XmlDocument* doc) {
 }
 inline ::System::Xml::XmlNode* System::Xml::XmlLinkedNode::get_PreviousSibling() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlNode* System::Xml::XmlLinkedNode::get_NextSibling() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlLinkedNode*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlLinkedNode* System::Xml::XmlLinkedNode::New_ctor(::System::Xml::XmlDocument* doc) {

@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweakableBlockCipherParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -16,7 +18,7 @@ class TweakableBlockCipherParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.TweakableBlockCipherParameters
@@ -51,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_tweak(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23c34b4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f1418, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key, ::ArrayW<uint8_t, ::Array<uint8_t>*> tweak);
 
-  /// @brief Method get_Key, addr 0x23c3534, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x32f1490, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* get_Key();
 
-  /// @brief Method get_Tweak, addr 0x23c353c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tweak, addr 0x32f1498, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Tweak();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

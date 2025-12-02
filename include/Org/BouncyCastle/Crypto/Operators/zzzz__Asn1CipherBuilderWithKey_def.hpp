@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilderWithKey_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherBuilder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1CipherBuilderWithKey)
@@ -16,6 +14,12 @@ class DerObjectIdentifier;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilderWithKey;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherBuilder;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -38,7 +42,7 @@ class Asn1CipherBuilderWithKey;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey);
-// Dependencies Org.BouncyCastle.Crypto.ICipherBuilder, Org.BouncyCastle.Crypto.ICipherBuilderWithKey, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.Asn1CipherBuilderWithKey
@@ -61,10 +65,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherBuilderWithKey"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*() noexcept;
 
-  /// @brief Method BuildCipher, addr 0x23b13f4, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method BuildCipher, addr 0x32df620, size 0x1a0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipher* BuildCipher(::System::IO::Stream* stream);
 
-  /// @brief Method GetMaxOutputSize, addr 0x23b13bc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method GetMaxOutputSize, addr 0x32df5e8, size 0x38, virtual true, abstract: false, final true
   inline int32_t GetMaxOutputSize(int32_t inputLen);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1CipherBuilderWithKey* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize,
@@ -82,13 +86,13 @@ public:
 
   constexpr void __cordl_internal_set_encKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x23b119c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32df3e0, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* encryptionOID, int32_t keySize, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x23b13b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x32df5e0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_Key, addr 0x23b1600, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Key, addr 0x32df83c, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Key();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherBuilder"

@@ -36,7 +36,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x3b9d218, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x578b9dc, size 0x28, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::RectangleFakeGlowLightWithId* New_ctor();
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__rectangleFakeGlow(::UnityW<::GlobalNamespace::RectangleFakeGlow> value);
 
-  /// @brief Method .ctor, addr 0x3b9d244, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578ba04, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x3b9d1f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x578b9c0, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -80,7 +80,7 @@ public:
   RectangleFakeGlowLightWithId(RectangleFakeGlowLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
 
   /// @brief Field _minAlpha, offset: 0x34, size: 0x4, def value: None
   float_t ____minAlpha;

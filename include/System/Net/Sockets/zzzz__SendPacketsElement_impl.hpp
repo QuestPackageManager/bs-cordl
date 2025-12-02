@@ -2,6 +2,19 @@
 // IWYU pragma private; include "System/Net/Sockets/SendPacketsElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Sockets/zzzz__SendPacketsElement_def.hpp"
+//  Writing Method size for method: ::System::Net::Sockets::SendPacketsElement._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::SendPacketsElement::*)()>(&::System::Net::Sockets::SendPacketsElement::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x614da0c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SendPacketsElement*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 constexpr ::StringW& System::Net::Sockets::SendPacketsElement::__cordl_internal_get_m_FilePath() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_FilePath;
@@ -61,6 +74,14 @@ constexpr bool const& System::Net::Sockets::SendPacketsElement::__cordl_internal
 constexpr void System::Net::Sockets::SendPacketsElement::__cordl_internal_set_m_endOfPacket(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_endOfPacket = value;
+}
+inline void System::Net::Sockets::SendPacketsElement::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::SendPacketsElement*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Net::Sockets::SendPacketsElement* System::Net::Sockets::SendPacketsElement::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Sockets::SendPacketsElement*>());
 }
 // Ctor Parameters []
 constexpr ::System::Net::Sockets::SendPacketsElement::SendPacketsElement() {}

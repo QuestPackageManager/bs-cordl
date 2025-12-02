@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set_materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
-  /// @brief Method .ctor, addr 0x3b8fde8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577e354, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightGroup* lightGroup, ::GlobalNamespace::MaterialPropertyBlockController* materialPropertyBlockController);
 
 protected:
@@ -98,7 +98,7 @@ public:
   BufferedLightColorGroupEffect_InitData(BufferedLightColorGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5866 };
 
   /// @brief Field lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroup> ___lightGroup;
@@ -174,19 +174,19 @@ public:
   /// @brief Field _useBoostColors, offset 0x58, size 0x1
   __declspec(property(get = __cordl_internal_get__useBoostColors, put = __cordl_internal_set__useBoostColors)) bool _useBoostColors;
 
-  /// @brief Method Cleanup, addr 0x3b8f9d4, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x577df08, size 0x140, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x3b8fcec, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x577e248, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x3b8fbe4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame, addr 0x577e13c, size 0x10c, virtual false, abstract: false, final false
   inline void HandleBeatmapCallbacksControllerDidProcessAllCallbacksThisFrame();
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b8faec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x577e048, size 0x18, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* colorBoost);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b8fb08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x577e060, size 0xdc, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEvent);
 
   static inline ::GlobalNamespace::BufferedLightColorGroupEffect* New_ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
@@ -259,7 +259,7 @@ public:
 
   constexpr void __cordl_internal_set__useBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x3b8f698, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577db5c, size 0x3ac, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BufferedLightColorGroupEffect_InitData* initData, ::GlobalNamespace::ColorManager* colorManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -290,7 +290,7 @@ public:
   BufferedLightColorGroupEffect(BufferedLightColorGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5867 };
 
   /// @brief Field kBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kBufferSize{ static_cast<int32_t>(0x18) };

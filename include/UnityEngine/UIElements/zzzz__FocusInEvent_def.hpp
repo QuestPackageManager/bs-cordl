@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(FocusInEvent)
 namespace UnityEngine::UIElements {
 class FocusInEvent___c;
 }
+namespace UnityEngine::UIElements {
+class IPanel;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class FocusInEvent;
@@ -31,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusInEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a29190, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b68a84, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FocusInEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a29188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b68a80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::FocusInEvent___c* getStaticF___9();
@@ -56,7 +59,7 @@ public:
   FocusInEvent___c(FocusInEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,15 +76,18 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::FocusInEvent___c;
 
-  /// @brief Method Init, addr 0x4a29078, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b68900, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a290cc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b68958, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::FocusInEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a290d8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6b689bc, size 0x70, virtual true, abstract: false, final false
+  inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method .ctor, addr 0x6b68964, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -99,12 +105,12 @@ public:
   FocusInEvent(FocusInEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4472 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusInEvent, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FocusInEvent, 0x88>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::FocusInEvent);

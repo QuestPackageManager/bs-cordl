@@ -1,18 +1,19 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Principal/WindowsIdentity.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_impl.hpp"
-#include "System/Security/Principal/zzzz__IIdentity_impl.hpp"
 #include "System/Security/Principal/zzzz__WindowsAccountType_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/Security/Principal/zzzz__WindowsIdentity_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Security/Claims/zzzz__ClaimsIdentity_def.hpp"
+#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
+#include "System/Security/Principal/zzzz__SecurityIdentifier_def.hpp"
 #include "System/Security/Principal/zzzz__WindowsAccountType_def.hpp"
 #include "System/Security/Principal/zzzz__WindowsImpersonationContext_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::WindowsIdentity._ctor
@@ -21,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(
     ::System::IntPtr, ::StringW, ::System::Security::Principal::WindowsAccountType, bool)>(&::System::Security::Principal::WindowsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3cbce7c;
+  constexpr static std::size_t addrs = 0x5900a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::Principal::WindowsIdentity::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3cbd020;
+  constexpr static std::size_t addrs = 0x5900b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::Security::Claims::ClaimsIdentity*, ::System::IntPtr)>(&::System::Security::Principal::WindowsIdentity::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cbd05c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5900ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbd0b4;
+  constexpr static std::size_t addrs = 0x5900bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -82,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::WindowsIdentity* (*)()>(&::System::Security::Principal::WindowsIdentity::GetCurrent)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3cbd0bc;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5900be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -96,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::WindowsImpersonationContext* (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::Impersonate)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cbd13c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5900c60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbd220;
+  constexpr static std::size_t addrs = 0x5900cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -127,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::get_Name)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cbd228;
+  constexpr static std::size_t addrs = 0x5900cc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,13 +138,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Security::Principal::WindowsIdentity.get_User
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::SecurityIdentifier* (::System::Security::Principal::WindowsIdentity::*)()>(
+    &::System::Security::Principal::WindowsIdentity::get_User)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5900d34;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
+                                                                               "get_User", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Security::Principal::WindowsIdentity.System_Runtime_Serialization_IDeserializationCallback_OnDeserialization
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::Object*)>(
     &::System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3cbd294;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x5900d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -158,8 +173,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
         &::System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_ISerializable_GetObjectData)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3cbd564;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x590102c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::CloneAsBase)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd6cc;
+  constexpr static std::size_t addrs = 0x5901190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -190,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::System::Security::Principal::WindowsIdentity::*)()>(
     &::System::Security::Principal::WindowsIdentity::GetTokenInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cbd824;
+  constexpr static std::size_t addrs = 0x59012dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -203,8 +218,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsIdentity::*)(::System::IntPtr)>(
     &::System::Security::Principal::WindowsIdentity::SetToken)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3cbcee0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5900ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -217,8 +232,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::System::Security::Principal::WindowsIdentity::GetCurrentToken)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd138;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5900c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),
@@ -230,8 +245,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsIdentity::GetTokenName)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd290;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5900d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,6 +380,11 @@ inline ::StringW System::Security::Principal::WindowsIdentity::get_Name() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::System::Security::Principal::SecurityIdentifier* System::Security::Principal::WindowsIdentity::get_User() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(), "get_User",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Security::Principal::SecurityIdentifier*, false>(this, ___internal_method);
 }
 inline void System::Security::Principal::WindowsIdentity::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::WindowsIdentity*>::get(),

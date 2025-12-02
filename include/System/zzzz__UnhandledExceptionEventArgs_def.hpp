@@ -45,13 +45,13 @@ public:
 
   constexpr void __cordl_internal_set__isTerminating(bool value);
 
-  /// @brief Method .ctor, addr 0x3e09d3c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4ffb0, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* exception, bool isTerminating);
 
-  /// @brief Method get_ExceptionObject, addr 0x3e09db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ExceptionObject, addr 0x5a50020, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_ExceptionObject();
 
-  /// @brief Method get_IsTerminating, addr 0x3e09dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsTerminating, addr 0x5a50028, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsTerminating();
 
 protected:
@@ -69,7 +69,7 @@ public:
   UnhandledExceptionEventArgs(UnhandledExceptionEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2507 };
 
   /// @brief Field _exception, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____exception;

@@ -4,7 +4,7 @@
 #include "GlobalNamespace/zzzz__SettingsApplicatorSO_def.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
 #include "BeatSaber/Settings/zzzz__WindowSettings_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassEffectContainerSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassGraphicsSettingsPresetsSO_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::System::Action*)>(
     &::GlobalNamespace::SettingsApplicatorSO::add_roomTransformOffsetDidUpdateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2e99c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x570fb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::System::Action*)>(
     &::GlobalNamespace::SettingsApplicatorSO::remove_roomTransformOffsetDidUpdateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2ea38;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x570fc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::ByRef<::BeatSaber::Settings::Settings>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyGameSettings)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b2e898;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x570fa84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(
     ::ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::SceneType)>(&::GlobalNamespace::SettingsApplicatorSO::ApplyGraphicSettings)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3b2e628;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x570f6fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)(::ByRef<::BeatSaber::Settings::WindowSettings>)>(
     &::GlobalNamespace::SettingsApplicatorSO::ApplyWindowSettings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b2eaf0;
+  constexpr static std::size_t addrs = 0x570fd08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)()>(
     &::GlobalNamespace::SettingsApplicatorSO::NotifyRoomTransformOffsetWasUpdated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b2ead4;
+  constexpr static std::size_t addrs = 0x570fcec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsApplicatorSO::*)()>(&::GlobalNamespace::SettingsApplicatorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2e824;
+  constexpr static std::size_t addrs = 0x570fa10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsApplicatorSO*>::get(), ".ctor",
@@ -204,15 +204,15 @@ constexpr void GlobalNamespace::SettingsApplicatorSO::__cordl_internal_set__hapt
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get__audioManager() {
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get__audioManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get__audioManager() const {
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::SettingsApplicatorSO::__cordl_internal_get__audioManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr void GlobalNamespace::SettingsApplicatorSO::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
+constexpr void GlobalNamespace::SettingsApplicatorSO::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

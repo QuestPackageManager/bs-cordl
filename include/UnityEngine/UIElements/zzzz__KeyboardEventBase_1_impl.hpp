@@ -1,10 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/KeyboardEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IKeyboardEvent_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyboardEventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IKeyboardEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
@@ -109,7 +110,7 @@ template <typename T> inline bool UnityEngine::UIElements::KeyboardEventBase_1<T
 }
 template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T>::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T>::LocalInit() {
@@ -117,11 +118,23 @@ template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T
                                                                              "LocalInit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline T UnityEngine::UIElements::KeyboardEventBase_1<T>::GetPooled(char16_t c, ::UnityEngine::KeyCode keyCode, ::UnityEngine::EventModifiers modifiers) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::KeyCode>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, c, keyCode, modifiers);
+}
 template <typename T> inline T UnityEngine::UIElements::KeyboardEventBase_1<T>::GetPooled(::UnityEngine::Event* systemEvent) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), "GetPooled",
                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Event*>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, systemEvent);
+}
+template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T>::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
 template <typename T> inline void UnityEngine::UIElements::KeyboardEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyboardEventBase_1<T>*>::get(), ".ctor",

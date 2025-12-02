@@ -30,15 +30,13 @@ namespace Mono::Unity {
 class CORDL_TYPE CertHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AddCertificateToNativeChain, addr 0x410a564, size 0x1b0, virtual false, abstract: false, final false
-  static inline void AddCertificateToNativeChain(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> nativeCertificateChain,
-                                                 ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
-                                                 ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method AddCertificateToNativeChain, addr 0x5db4668, size 0x1a4, virtual false, abstract: false, final false
+  static inline void AddCertificateToNativeChain(::Mono::Unity::UnityTls_unitytls_x509list* nativeCertificateChain, ::System::Security::Cryptography::X509Certificates::X509Certificate* certificate,
+                                                 ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method AddCertificatesToNativeChain, addr 0x410a38c, size 0x1d8, virtual false, abstract: false, final false
-  static inline void AddCertificatesToNativeChain(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> nativeCertificateChain,
-                                                  ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates,
-                                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method AddCertificatesToNativeChain, addr 0x5db44c8, size 0x1a0, virtual false, abstract: false, final false
+  static inline void AddCertificatesToNativeChain(::Mono::Unity::UnityTls_unitytls_x509list* nativeCertificateChain,
+                                                  ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* certificates, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
 protected:
   // Ctor Parameters []
@@ -55,7 +53,7 @@ public:
   CertHelper(CertHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10917 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

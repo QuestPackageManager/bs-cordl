@@ -24,7 +24,7 @@ namespace System::Reflection {
 class CORDL_TYPE IntrospectionExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTypeInfo, addr 0x3d23418, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetTypeInfo, addr 0x59682e4, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Reflection::TypeInfo* GetTypeInfo(::System::Type* type);
 
 protected:
@@ -42,7 +42,7 @@ public:
   IntrospectionExtensions(IntrospectionExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3494 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

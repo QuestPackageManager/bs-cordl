@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuAdditionalComponentsInstaller::*)()>(
     &::GlobalNamespace::MainMenuAdditionalComponentsInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3bf5ee8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x57e9338;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuAdditionalComponentsInstaller::*)()>(
     &::GlobalNamespace::MainMenuAdditionalComponentsInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf5f44;
+  constexpr static std::size_t addrs = 0x57e93ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuAdditionalComponentsInstaller*>::get(),

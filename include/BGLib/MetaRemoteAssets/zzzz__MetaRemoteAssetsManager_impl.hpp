@@ -1,23 +1,18 @@
 #pragma once
 // IWYU pragma private; include "BGLib/MetaRemoteAssets/MetaRemoteAssetsManager.hpp"
-#include "GlobalNamespace/zzzz__XPlatformAccessTokenData_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__MetaRemoteAssetsManager_def.hpp"
 #include "AddressablesInternalBridge/Runtime/zzzz__CatalogLocationData_def.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__IRemoteCatalogLoader_def.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__MetaRemoteAssetsManager_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
-#include "GlobalNamespace/zzzz__UserInfo_def.hpp"
+#include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -28,17 +23,19 @@
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput::*)(
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22a8648;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x31f03f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a8b70;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31f08e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(),
@@ -125,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__17_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22a8b78;
+  constexpr static std::size_t addrs = 0x31f08ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(),
@@ -133,33 +130,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__25_0
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__23_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)(
-    ::AddressablesInternalBridge::Runtime::CatalogLocationData*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__25_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22a8b7c;
+    ::AddressablesInternalBridge::Runtime::CatalogLocationData*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__23_0)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x31f08f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__25_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__23_0",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::AddressablesInternalBridge::Runtime::CatalogLocationData*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__25_1
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c._UpdateCatalogsInternalAsync_b__23_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::*)(
-    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__25_1)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22a8b94;
+    ::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__23_1)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31f0904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__25_1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__23_1",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>::get() })));
     return ___internal_method;
@@ -181,22 +178,22 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9
 inline ::System::Action* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__17_0() {
   return ::cordl_internals::getStaticField<::System::Action*, "<>9__17_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get>();
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__25_0(::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__25_0",
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__23_0(::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__23_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get>(
       std::forward<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__25_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__25_0",
+inline ::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__23_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::AddressablesInternalBridge::Runtime::CatalogLocationData*, ::StringW>*, "<>9__23_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get>();
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__25_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__25_1",
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::setStaticF___9__23_1(::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__23_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get>(
       std::forward<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*>(value));
 }
-inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__25_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__25_1",
+inline ::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::getStaticF___9__23_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>, bool>*, "<>9__23_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get>();
 }
 inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_ctor() {
@@ -209,16 +206,16 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::__ctor_b__17_0
                                                                              "<.ctor>b__17_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__25_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData) {
+inline ::StringW BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__23_0(::AddressablesInternalBridge::Runtime::CatalogLocationData* catalogData) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__25_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__23_0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::AddressablesInternalBridge::Runtime::CatalogLocationData*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, catalogData);
 }
-inline bool BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__25_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry) {
+inline bool BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::_UpdateCatalogsInternalAsync_b__23_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> entry) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__25_1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c*>::get(), "<UpdateCatalogsInternalAsync>b__23_1",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, entry);
@@ -228,132 +225,61 @@ inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c* BGLib::MetaRemote
 }
 // Ctor Parameters []
 constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager___c::MetaRemoteAssetsManager___c() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23.MoveNext
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::MoveNext)> {
-  constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x22a8c34;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::MoveNext)> {
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x31f09a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22a91fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31f0c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23>::get(), "SetStateMachine",
-                                  std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::MetaRemoteAssetsManager__FetchTokenAsync_d__23(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
-    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__2) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->__4__this = __4__this;
-  this->cancellationToken = cancellationToken;
-  this->__u__1 = __u__1;
-  this->__u__2 = __u__2;
-}
-// Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__FetchTokenAsync_d__23::MetaRemoteAssetsManager__FetchTokenAsync_d__23() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::MoveNext)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x22a9264;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22a94c8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19>::get(), "SetStateMachine",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::MetaRemoteAssetsManager__Initialize_d__19(int32_t __1__state,
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::MetaRemoteAssetsManager__Initialize_d__18(int32_t __1__state,
                                                                                                                           ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                                           ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
                                                                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
@@ -363,135 +289,133 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__19::MetaRemoteAssetsManager__Initialize_d__19() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__Initialize_d__18::MetaRemoteAssetsManager__Initialize_d__18() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::MoveNext)> {
-  constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x22a94d4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::MoveNext)> {
+  constexpr static std::size_t size = 0x438;
+  constexpr static std::size_t addrs = 0x31f0c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22a99ac;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31f1070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::MetaRemoteAssetsManager__InitializeInternalAsync_d__21(
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::MetaRemoteAssetsManager__InitializeInternalAsync_d__20(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
-    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept {
+    ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->cancellationToken = cancellationToken;
   this->__u__1 = __u__1;
-  this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__21::MetaRemoteAssetsManager__InitializeInternalAsync_d__21() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__InitializeInternalAsync_d__20::MetaRemoteAssetsManager__InitializeInternalAsync_d__20() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::MoveNext)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x22a9a28;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::MoveNext)> {
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x31f10f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22a9c08;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31f12dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24(
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
     ::System::Threading::CancellationToken cancellationToken, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -501,136 +425,139 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsyn
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__24() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22::MetaRemoteAssetsManager__UpdateCatalogsAsync_d__22() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::MoveNext)> {
-  constexpr static std::size_t size = 0x834;
-  constexpr static std::size_t addrs = 0x22a9c70;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::MoveNext)> {
+  constexpr static std::size_t size = 0xadc;
+  constexpr static std::size_t addrs = 0x31f1348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22aa4a4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31f1e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "_hashesBeforeUpdate_5__2", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::StringW>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>", modifiers: "", def_value:
 // Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Threading::CancellationToken cancellationToken,
-    ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _hashesBeforeUpdate_5__2,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> __u__1) noexcept {
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23(
+    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
+    ::System::Threading::CancellationToken cancellationToken, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* _hashesBeforeUpdate_5__2,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1,
+    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
-  this->cancellationToken = cancellationToken;
   this->__4__this = __4__this;
+  this->cancellationToken = cancellationToken;
   this->_hashesBeforeUpdate_5__2 = _hashesBeforeUpdate_5__2;
   this->__u__1 = __u__1;
+  this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__25() {}
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20.MoveNext
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23::MetaRemoteAssetsManager__UpdateCatalogsInternalAsync_d__23() {}
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::MoveNext)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x22aa50c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::*)()>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::MoveNext)> {
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x31f1e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20.SetStateMachine
+//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22aa770;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31f2128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::MoveNext() {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers:
 // "", def_value: Some("{}") }]
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::MetaRemoteAssetsManager__WaitInitAsync_d__20(
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::MetaRemoteAssetsManager__WaitInitAsync_d__19(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -639,13 +566,13 @@ constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__2
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__20::MetaRemoteAssetsManager__WaitInitAsync_d__20() {}
+constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager__WaitInitAsync_d__19::MetaRemoteAssetsManager__WaitInitAsync_d__19() {}
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.get_RemoteCatalogPath
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::get_RemoteCatalogPath)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22a7a64;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31ef80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -658,8 +585,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Action*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::add_didCatalogLoadOrUpdateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22a7aa4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31ef850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -673,8 +600,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Action*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::remove_didCatalogLoadOrUpdateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x22a7b40;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31ef8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -687,32 +614,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(
-    ::GlobalNamespace::INetworkConfig*, ::GlobalNamespace::IPlatformUserModel*, ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*, ::StringW, ::StringW)>(
+    ::GlobalNamespace::INetworkConfig*, ::OculusStudios::Platform::Core::IPlatform*, ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*, ::StringW, ::StringW)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::_ctor)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x22a7bdc;
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x31ef9a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlatformUserModel*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::Platform::Core::IPlatform*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.ApplyAddressablesOverrides
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(
-    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::ApplyAddressablesOverrides)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22a7dfc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
-                                                                               "ApplyAddressablesOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -721,8 +634,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Initialize)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22a7ef0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31efd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -735,8 +648,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::WaitInitAsync)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22a7838;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x31ef600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -749,8 +662,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InitializeInternalAsync)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22a7f80;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x31efdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -762,10 +675,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.InternalIdTransformFunc
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(
-    ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InternalIdTransformFunc)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22a8078;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
+    &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InternalIdTransformFunc)> {
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x31efebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -774,28 +687,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.FetchTokenAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
-    ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::FetchTokenAsync)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x22a818c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(), "FetchTokenAsync", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager.UpdateCatalogsAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22a7928;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x31ef6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -809,8 +707,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::System::Threading::CancellationToken)>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsInternalAsync)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x22a825c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x31effe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -824,8 +722,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)()>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Dispose)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22a832c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x31f00a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -838,8 +736,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::*)(::UnityEngine::Networking::UnityWebRequest*)>(
     &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::WebRequestOverride)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x22a837c;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x31f0100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -854,8 +752,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager_AddResourceLocatorInput* (*)(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*)>(
         &::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::CreateAddResourceLocatorInput)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x22a855c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x31f0304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -868,8 +766,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::MakeRemoteCatalogTopPriority)> {
-  constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x22a8684;
+  constexpr static std::size_t size = 0x494;
+  constexpr static std::size_t addrs = 0x31f0400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -877,29 +775,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::StringW& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__accessToken() {
+constexpr ::StringW& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platformStr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____accessToken;
+  return this->____platformStr;
 }
-constexpr ::StringW const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__accessToken() const {
+constexpr ::StringW const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platformStr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____accessToken;
+  return this->____platformStr;
 }
-constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__accessToken(::StringW value) {
+constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__platformStr(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____accessToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platform() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
-}
-constexpr ::StringW const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platform() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
-}
-constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__platform(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformStr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Threading::CancellationTokenSource*& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__initializationCancellationTokenSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -938,29 +824,41 @@ constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____updateCatalogTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__appId() {
+constexpr ::StringW& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__graphAccessToken() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appId;
+  return this->____graphAccessToken;
 }
-constexpr ::StringW const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__appId() const {
+constexpr ::StringW const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__graphAccessToken() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appId;
+  return this->____graphAccessToken;
 }
-constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__appId(::StringW value) {
+constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__graphAccessToken(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____appId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAccessToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IPlatformUserModel*& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platformUserModel() {
+constexpr ::StringW& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__graphAppId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformUserModel;
+  return this->____graphAppId;
 }
-constexpr ::GlobalNamespace::IPlatformUserModel* const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platformUserModel() const {
+constexpr ::StringW const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__graphAppId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformUserModel;
+  return this->____graphAppId;
 }
-constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value) {
+constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__graphAppId(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformUserModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAppId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::OculusStudios::Platform::Core::IPlatform*& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____platform;
+}
+constexpr ::OculusStudios::Platform::Core::IPlatform* const& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__platform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____platform;
+}
+constexpr void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*& BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::__cordl_internal_get__remoteCatalogLoader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1015,20 +913,15 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::remove_didCatalogL
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::GlobalNamespace::IPlatformUserModel* platformUserModel,
-                                                                    ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader, ::StringW platform, ::StringW inBuildGameVersion) {
+inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::_ctor(::GlobalNamespace::INetworkConfig* networkConfig, ::OculusStudios::Platform::Core::IPlatform* platform,
+                                                                    ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader, ::StringW platformStr, ::StringW inBuildGameVersion) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlatformUserModel*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::Platform::Core::IPlatform*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, networkConfig, platformUserModel, remoteCatalogLoader, platform, inBuildGameVersion);
-}
-inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::ApplyAddressablesOverrides() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
-                                                                             "ApplyAddressablesOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, networkConfig, platform, remoteCatalogLoader, platformStr, inBuildGameVersion);
 }
 inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::Initialize() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(),
@@ -1050,13 +943,7 @@ inline ::StringW BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::InternalIdTra
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(), "InternalIdTransformFunc", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, resourceLocation);
-}
-inline ::System::Threading::Tasks::Task* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::FetchTokenAsync(::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get(), "FetchTokenAsync", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, cancellationToken);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, resourceLocation);
 }
 inline ::System::Threading::Tasks::Task* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::UpdateCatalogsAsync(::System::Threading::CancellationToken cancellationToken) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1094,10 +981,10 @@ inline void BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::MakeRemoteCatalogT
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::New_ctor(::GlobalNamespace::INetworkConfig* networkConfig,
-                                                                                                                      ::GlobalNamespace::IPlatformUserModel* platformUserModel,
+                                                                                                                      ::OculusStudios::Platform::Core::IPlatform* platform,
                                                                                                                       ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* remoteCatalogLoader,
-                                                                                                                      ::StringW platform, ::StringW inBuildGameVersion) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(networkConfig, platformUserModel, remoteCatalogLoader, platform, inBuildGameVersion));
+                                                                                                                      ::StringW platformStr, ::StringW inBuildGameVersion) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>(networkConfig, platform, remoteCatalogLoader, platformStr, inBuildGameVersion));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"
 constexpr BGLib::MetaRemoteAssets::MetaRemoteAssetsManager::operator ::Zenject::IInitializable*() noexcept {

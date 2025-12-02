@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
@@ -30,8 +27,14 @@ class MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8;
 namespace GlobalNamespace {
 class VFXController;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -80,7 +83,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bd7f90, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c97bc, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -98,7 +101,7 @@ public:
   MultiplayerLobbyAvatarController_Factory(MultiplayerLobbyAvatarController_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6160 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -106,7 +109,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyAvatarController_Factory, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLobbyAvatarController/<DespawnAnimationCoroutine>d__12
@@ -135,21 +138,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bd7fdc, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57c97fc, size 0xf8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bd80e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57c98f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bd80ec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x57c98fc, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bd8124, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57c9934, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bd7fd8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x57c97f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -170,7 +173,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x3bd7f48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c9798, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -197,7 +200,7 @@ public:
   MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12(MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6161 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -220,7 +223,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAvatarController__Desp
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyAvatarController__DespawnAnimationCoroutine_d__12, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLobbyAvatarController/<ShowDespawnAnimationAndDestroy>d__10
@@ -249,21 +252,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bd8130, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57c9940, size 0x70, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bd81a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57c99b0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bd81a8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x57c99b8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bd81e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57c99f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bd812c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x57c993c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -284,7 +287,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x3bd7e54, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c96cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -311,7 +314,7 @@ public:
   MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10(MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4582 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6162 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -334,7 +337,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLobbyAvatarController__Show
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLobbyAvatarController__ShowDespawnAnimationAndDestroy_d__10, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLobbyAvatarController/<SpawnAnimationCoroutine>d__8
@@ -363,21 +366,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3bd81ec, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57c99fc, size 0xac, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3bd829c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x57c9aa8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3bd82a4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x57c9ab0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3bd82dc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x57c9ae8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3bd81e8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x57c99f8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -398,7 +401,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MultiplayerLobbyAvatarController> value);
 
-  /// @brief Method .ctor, addr 0x3bd7dcc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c9670, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -425,7 +428,7 @@ public:
   MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8(MultiplayerLobbyAvatarController__SpawnAnimationCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4583 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6163 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -483,24 +486,24 @@ public:
                       put = __cordl_internal_set__visualObjects)) ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>
       _visualObjects;
 
-  /// @brief Method ActivateVisualObjects, addr 0x3bd7d04, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ActivateVisualObjects, addr 0x57c95b8, size 0x64, virtual false, abstract: false, final false
   inline void ActivateVisualObjects(bool on);
 
-  /// @brief Method DespawnAnimationCoroutine, addr 0x3bd7ee8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DespawnAnimationCoroutine, addr 0x57c9744, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DespawnAnimationCoroutine();
 
-  /// @brief Method DestroySelf, addr 0x3bd7e7c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DestroySelf, addr 0x57c96d4, size 0x70, virtual false, abstract: false, final false
   inline void DestroySelf();
 
   static inline ::GlobalNamespace::MultiplayerLobbyAvatarController* New_ctor();
 
-  /// @brief Method ShowDespawnAnimationAndDestroy, addr 0x3bd7df4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowDespawnAnimationAndDestroy, addr 0x57c9678, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowDespawnAnimationAndDestroy();
 
-  /// @brief Method ShowSpawnAnimation, addr 0x3bd7c54, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ShowSpawnAnimation, addr 0x57c9508, size 0xb0, virtual false, abstract: false, final false
   inline void ShowSpawnAnimation(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation);
 
-  /// @brief Method SpawnAnimationCoroutine, addr 0x3bd7d6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SpawnAnimationCoroutine, addr 0x57c961c, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* SpawnAnimationCoroutine();
 
   constexpr float_t const& __cordl_internal_get__despawnAvatarDelay() const;
@@ -539,7 +542,7 @@ public:
 
   constexpr void __cordl_internal_set__visualObjects(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value);
 
-  /// @brief Method .ctor, addr 0x3bd7f70, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c97a0, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -557,7 +560,7 @@ public:
   MultiplayerLobbyAvatarController(MultiplayerLobbyAvatarController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6164 };
 
   /// @brief Field _spawnEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____spawnEffect;

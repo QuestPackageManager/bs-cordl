@@ -18,6 +18,9 @@ class Vector3PropertyBag_YProperty;
 namespace Unity::Properties::Internal {
 class Vector3PropertyBag_ZProperty;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 // Forward declare root types
 namespace Unity::Properties::Internal {
 class Vector3PropertyBag;
@@ -43,14 +46,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE Vector3PropertyBag_XProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697f4c8, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::ByRef<::UnityEngine::Vector3> container);
 
   static inline ::Unity::Properties::Internal::Vector3PropertyBag_XProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49165a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697f4d0, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::Vector3> container, float_t value);
+
+  /// @brief Method .ctor, addr 0x697f3c8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916680, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697f4c0, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697f47c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -68,7 +82,7 @@ public:
   Vector3PropertyBag_XProperty(Vector3PropertyBag_XProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -83,14 +97,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE Vector3PropertyBag_YProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697f524, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::ByRef<::UnityEngine::Vector3> container);
 
   static inline ::Unity::Properties::Internal::Vector3PropertyBag_YProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49165f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697f52c, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::Vector3> container, float_t value);
+
+  /// @brief Method .ctor, addr 0x697f404, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x49166c0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697f51c, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697f4d8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -108,7 +133,7 @@ public:
   Vector3PropertyBag_YProperty(Vector3PropertyBag_YProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19414 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,14 +148,25 @@ namespace Unity::Properties::Internal {
 class CORDL_TYPE Vector3PropertyBag_ZProperty : public ::Unity::Properties::Property_2<::UnityEngine::Vector3, float_t> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  /// @brief Method GetValue, addr 0x697f580, size 0x8, virtual true, abstract: false, final false
+  inline float_t GetValue(::ByRef<::UnityEngine::Vector3> container);
 
   static inline ::Unity::Properties::Internal::Vector3PropertyBag_ZProperty* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4916638, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x697f588, size 0x8, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<::UnityEngine::Vector3> container, float_t value);
+
+  /// @brief Method .ctor, addr 0x697f440, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Name, addr 0x4916700, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x697f578, size 0x8, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
+  /// @brief Method get_Name, addr 0x697f534, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -148,7 +184,7 @@ public:
   Vector3PropertyBag_ZProperty(Vector3PropertyBag_ZProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17507 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19415 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -171,7 +207,7 @@ public:
 
   static inline ::Unity::Properties::Internal::Vector3PropertyBag* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49157d0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x697e18c, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -189,7 +225,7 @@ public:
   Vector3PropertyBag(Vector3PropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19416 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

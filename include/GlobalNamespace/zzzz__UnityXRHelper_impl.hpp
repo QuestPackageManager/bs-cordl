@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/UnityXRHelper.hpp"
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_impl.hpp"
-#include "GlobalNamespace/zzzz__IVerboseLogger_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Pose_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRController_def.hpp"
 #include "GlobalNamespace/zzzz__UnityXRHelper_def.hpp"
 #include "GlobalNamespace/zzzz__VRPlatformSDK_def.hpp"
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_inputFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cec04;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_inputFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39ceca0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_inputFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39ced3c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_inputFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cedd8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_vrFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cee74;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_vrFocusWasCapturedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cef10;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_vrFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cefac;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5645f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_vrFocusWasReleasedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf048;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5646020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_hmdUnmountedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf0e4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x56460cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_hmdUnmountedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf180;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5646178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,8 +186,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_hmdMountedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf21c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5646224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_hmdMountedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf2b8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x56462d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -216,8 +216,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_controllersDidChangeReferenceEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf354;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x564637c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -231,8 +231,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_controllersDidChangeReferenceEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf3f0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5646428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,8 +246,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::add_controllersDidDisconnectEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf48c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x56464d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,8 +261,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::System::Action*)>(
     &::GlobalNamespace::UnityXRHelper::remove_controllersDidDisconnectEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39cf528;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5646580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_hasInputFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cf5c4;
+  constexpr static std::size_t addrs = 0x564662c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_hasInputFocus",
@@ -289,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_hasVrFocus)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cf5cc;
+  constexpr static std::size_t addrs = 0x5646634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_hasVrFocus",
@@ -301,8 +301,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(bool)>(&::GlobalNamespace::UnityXRHelper::set_hasVrFocus)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39cf5d4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x564663c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_isAlwaysWireless)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cf5e0;
+  constexpr static std::size_t addrs = 0x5646644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_isAlwaysWireless",
@@ -330,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::VRPlatformSDK (::GlobalNamespace::UnityXRHelper::*)()>(
     &::GlobalNamespace::UnityXRHelper::get_vrPlatformSDK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cf5e8;
+  constexpr static std::size_t addrs = 0x564664c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_vrPlatformSDK",
@@ -342,8 +342,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::get_loggerPrefix)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39cf5f0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5646654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_loggerPrefix",
@@ -357,7 +357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnityXRController* (::GlobalNamespace::UnityXRHelper::*)()>(
     &::GlobalNamespace::UnityXRHelper::get_leftController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cf630;
+  constexpr static std::size_t addrs = 0x5646698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_leftController",
@@ -371,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnityXRController* (::GlobalNamespace::UnityXRHelper::*)()>(
     &::GlobalNamespace::UnityXRHelper::get_rightController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cf638;
+  constexpr static std::size_t addrs = 0x56466a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "get_rightController",
@@ -379,16 +379,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.set_userPresence
+//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.SetUserPresence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(bool)>(&::GlobalNamespace::UnityXRHelper::set_userPresence)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39cf640;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(bool)>(&::GlobalNamespace::UnityXRHelper::SetUserPresence)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x56466a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "set_userPresence",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "SetUserPresence",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.SetInputFocus
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(bool)>(&::GlobalNamespace::UnityXRHelper::SetInputFocus)> {
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x56466e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "SetInputFocus",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -397,8 +411,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::Start)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x39cf6c0;
+  constexpr static std::size_t size = 0x46c;
+  constexpr static std::size_t addrs = 0x5646728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "Start",
@@ -412,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRInputSubsystem*)>(
     &::GlobalNamespace::UnityXRHelper::OnTrackingOriginUpdated)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39cfb7c;
+  constexpr static std::size_t addrs = 0x5646d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -427,7 +441,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRInputSubsystem*)>(
     &::GlobalNamespace::UnityXRHelper::OnboundaryChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39cfbb4;
+  constexpr static std::size_t addrs = 0x5646d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -440,8 +454,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::OnDestroy)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x39cfbd0;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x5646d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "OnDestroy",
@@ -449,33 +463,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.OnUserPresenceCanceled
+//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.UpdateUserPresence
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
-    &::GlobalNamespace::UnityXRHelper::OnUserPresenceCanceled)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cfde4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::UpdateUserPresence)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x5646c40;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "OnUserPresenceCanceled", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.OnUserPresenceStarted
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
-    &::GlobalNamespace::UnityXRHelper::OnUserPresenceStarted)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cfdec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "OnUserPresenceStarted", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "UpdateUserPresence",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -483,8 +480,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(bool)>(&::GlobalNamespace::UnityXRHelper::OnApplicationPause)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39cfdf4;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5646fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -499,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::GlobalNamespace::UnityXRHelper::OnPauseGamePerformed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39cfe28;
+  constexpr static std::size_t addrs = 0x564700c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -514,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::InputSystem::InputAction_CallbackContext)>(
     &::GlobalNamespace::UnityXRHelper::OnPauseGameCancelled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cfe34;
+  constexpr static std::size_t addrs = 0x5647018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -528,8 +525,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNodeState)>(
     &::GlobalNamespace::UnityXRHelper::HandleNewXRNode)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39cfe3c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5647020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -543,8 +540,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::UpdateManufacturerOnNode)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39cfae4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5646b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,8 +555,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNodeState)>(
     &::GlobalNamespace::UnityXRHelper::HandleRemovedXRNode)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39cfe60;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5647028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -574,7 +571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::UnityXRController* (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::ControllerFromNode)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39cfec0;
+  constexpr static std::size_t addrs = 0x564707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -588,8 +585,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode, float_t, float_t, float_t)>(
     &::GlobalNamespace::UnityXRHelper::TriggerHapticPulse)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x39cfeec;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x56470a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,8 +602,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::StopHaptics)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x39d0078;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5647250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -620,8 +617,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode, ::ByRef<::UnityEngine::Pose>)>(
     &::GlobalNamespace::UnityXRHelper::TryGetPoseOffsetForNode)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39d01ec;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x56473e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,8 +633,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::GlobalNamespace::UnityXRHelper::*)(
     ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName)>(&::GlobalNamespace::UnityXRHelper::GetPoseOffsetForManufacturer)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x39d02d8;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x56474b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -651,8 +648,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(
     ::UnityEngine::XR::XRNode, int32_t, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(&::GlobalNamespace::UnityXRHelper::GetNodePose)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x39d0488;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x56476a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -669,8 +666,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::GetRootPositionOffsetForLegacyNodePose)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39d0714;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5647984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -684,8 +681,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (::GlobalNamespace::UnityXRHelper::*)(
     ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName)>(&::GlobalNamespace::UnityXRHelper::GetRootPositionOffsetForLegacyNodePose)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x39d07cc;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5647a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -699,8 +696,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(
     ::UnityEngine::XR::XRNode, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::UnityXRHelper::TryGetLegacyPoseOffsetForNode)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39d097c;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5647c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -716,8 +713,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName, ::ByRef<::UnityEngine::Vector3>,
                                                                                            ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::UnityXRHelper::TryGetLegacyPoseOffsetForNode)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x39d0a80;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x5647d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -734,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::UnityXRHelper::*)()>(
     &::GlobalNamespace::UnityXRHelper::GetAnyJoystickMaxAxis)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d0ca8;
+  constexpr static std::size_t addrs = 0x5647fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(),
@@ -748,7 +745,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::GetTriggerValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0cac;
+  constexpr static std::size_t addrs = 0x5647fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -762,8 +759,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::GetThumbstickValue)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39d0cb4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5647fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -777,8 +774,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)(::UnityEngine::XR::XRNode)>(
     &::GlobalNamespace::UnityXRHelper::IsAdvancedHapticsSupported)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0d2c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5648034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -792,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::GetMenuButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0d34;
+  constexpr static std::size_t addrs = 0x5648044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "GetMenuButton",
@@ -805,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::GetMenuButtonDown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0d3c;
+  constexpr static std::size_t addrs = 0x564804c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "GetMenuButtonDown",
@@ -818,7 +815,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::RefreshControllersReference)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39cfb98;
+  constexpr static std::size_t addrs = 0x5646d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(),
@@ -831,8 +828,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>)>(
     &::GlobalNamespace::UnityXRHelper::ReadHeadPose)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39d067c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x56478e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -842,12 +839,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.Update
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::Update)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5648054;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "Update",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::UnityXRHelper.LateUpdate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0d44;
+  constexpr static std::size_t addrs = 0x5648058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "LateUpdate",
@@ -859,8 +869,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnityXRHelper::*)()>(&::GlobalNamespace::UnityXRHelper::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d0d4c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5648060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), ".ctor",
@@ -1096,18 +1106,6 @@ constexpr void GlobalNamespace::UnityXRHelper::__cordl_internal_set__headOrienta
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____headOrientationAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRHelper::__cordl_internal_get__userPresenceAction() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____userPresenceAction;
-}
-constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::UnityXRHelper::__cordl_internal_get__userPresenceAction() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____userPresenceAction;
-}
-constexpr void GlobalNamespace::UnityXRHelper::__cordl_internal_set__userPresenceAction(::UnityEngine::InputSystem::InputAction* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____userPresenceAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::UnityXRHelper::__cordl_internal_get__pauseGameAction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____pauseGameAction;
@@ -1143,6 +1141,18 @@ constexpr bool const& GlobalNamespace::UnityXRHelper::__cordl_internal_get__user
 constexpr void GlobalNamespace::UnityXRHelper::__cordl_internal_set__userPresence(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____userPresence = value;
+}
+constexpr bool& GlobalNamespace::UnityXRHelper::__cordl_internal_get__hasInputFocus() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasInputFocus;
+}
+constexpr bool const& GlobalNamespace::UnityXRHelper::__cordl_internal_get__hasInputFocus() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hasInputFocus;
+}
+constexpr void GlobalNamespace::UnityXRHelper::__cordl_internal_set__hasInputFocus(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hasInputFocus = value;
 }
 constexpr bool& GlobalNamespace::UnityXRHelper::__cordl_internal_get__isPausePressed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1391,11 +1401,17 @@ inline ::GlobalNamespace::UnityXRController* GlobalNamespace::UnityXRHelper::get
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::UnityXRController*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnityXRHelper::set_userPresence(bool value) {
+inline void GlobalNamespace::UnityXRHelper::SetUserPresence(bool newUserPresence) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "set_userPresence",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "SetUserPresence",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newUserPresence);
+}
+inline void GlobalNamespace::UnityXRHelper::SetInputFocus(bool newInputFocus) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "SetInputFocus",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newInputFocus);
 }
 inline void GlobalNamespace::UnityXRHelper::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "Start",
@@ -1419,17 +1435,10 @@ inline void GlobalNamespace::UnityXRHelper::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::UnityXRHelper::OnUserPresenceCanceled(::UnityEngine::InputSystem::InputAction_CallbackContext context) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "OnUserPresenceCanceled", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
-}
-inline void GlobalNamespace::UnityXRHelper::OnUserPresenceStarted(::UnityEngine::InputSystem::InputAction_CallbackContext context) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "OnUserPresenceStarted", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, context);
+inline void GlobalNamespace::UnityXRHelper::UpdateUserPresence() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "UpdateUserPresence",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::UnityXRHelper::OnApplicationPause(bool pauseStatus) {
   static auto* ___internal_method =
@@ -1582,6 +1591,11 @@ inline void GlobalNamespace::UnityXRHelper::ReadHeadPose(::ByRef<::UnityEngine::
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Quaternion>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos, rot);
+}
+inline void GlobalNamespace::UnityXRHelper::Update() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "Update",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::UnityXRHelper::LateUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnityXRHelper*>::get(), "LateUpdate",

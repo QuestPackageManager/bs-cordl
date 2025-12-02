@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "System/Drawing/Point.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/Drawing/zzzz__Point_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Drawing::Point.get_X
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Point::*)()>(&::System::Drawing::Point::get_X)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4211744;
+  constexpr static std::size_t addrs = 0x5eb8bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Point>::get(), "get_X",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Point::*)()>(&::System::Drawing::Point::get_Y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421174c;
+  constexpr static std::size_t addrs = 0x5eb8bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Point>::get(), "get_Y",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Drawing::Point, ::System::Drawing::Point)>(&::System::Drawing::Point::op_Equality)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4211754;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5eb8bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Point::*)(::System::Object*)>(&::System::Drawing::Point::Equals)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4211774;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5eb8bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Point::*)(::System::Drawing::Point)>(&::System::Drawing::Point::Equals)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x42117f8;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5eb8c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Point::*)()>(&::System::Drawing::Point::GetHashCode)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4211818;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5eb8c68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::Point::*)()>(&::System::Drawing::Point::ToString)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4211878;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5eb8ccc;
 
   inline static ::MethodInfo const* methodInfo() {
 

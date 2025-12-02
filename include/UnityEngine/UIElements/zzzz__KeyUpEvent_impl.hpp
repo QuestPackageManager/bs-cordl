@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyUpEvent___c::*)()>(&::UnityEngine::UIElements::KeyUpEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2b408;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b69f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyUpEvent___c*>::get(), ".ctor",
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::KeyUpEvent* (::UnityEngine::UIElements::KeyUpEvent___c::*)()>(
     &::UnityEngine::UIElements::KeyUpEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2b410;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b69f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyUpEvent___c*>::get(),
@@ -58,8 +58,8 @@ constexpr ::UnityEngine::UIElements::KeyUpEvent___c::KeyUpEvent___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::KeyUpEvent::*)()>(&::UnityEngine::UIElements::KeyUpEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a2b364;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6b69e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::KeyUpEvent*>::get(), ".ctor",

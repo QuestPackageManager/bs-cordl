@@ -12,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::Start)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3b83674;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x576f6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HeadInObstacleHapticEffect*>::get(), "Start",
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(
     &::GlobalNamespace::HeadInObstacleHapticEffect::OnDestroy)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3b8387c;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x576f8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HeadInObstacleHapticEffect*>::get(),
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::Update)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b83a6c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x576fb54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HeadInObstacleHapticEffect*>::get(), "Update",
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(
     &::GlobalNamespace::HeadInObstacleHapticEffect::HandleAnyGameplayLevelDidFinish)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b83af4;
+  constexpr static std::size_t addrs = 0x576fc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(
     &::GlobalNamespace::HeadInObstacleHapticEffect::HandleDidResumeEvent)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b83b08;
+  constexpr static std::size_t addrs = 0x576fc20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HeadInObstacleHapticEffect*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(
     &::GlobalNamespace::HeadInObstacleHapticEffect::HandleDidPauseEvent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b83b20;
+  constexpr static std::size_t addrs = 0x576fc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HeadInObstacleHapticEffect*>::get(),
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HeadInObstacleHapticEffect::*)()>(&::GlobalNamespace::HeadInObstacleHapticEffect::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b83b34;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x576fc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HeadInObstacleHapticEffect*>::get(), ".ctor",

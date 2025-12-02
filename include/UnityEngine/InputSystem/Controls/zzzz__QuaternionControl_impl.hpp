@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563108;
+  constexpr static std::size_t addrs = 0x62ddfb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::InputSystem::Controls::QuaternionControl::set_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563110;
+  constexpr static std::size_t addrs = 0x62ddfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563118;
+  constexpr static std::size_t addrs = 0x62ddfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::InputSystem::Controls::QuaternionControl::set_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563120;
+  constexpr static std::size_t addrs = 0x62ddfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563128;
+  constexpr static std::size_t addrs = 0x62ddfd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(),
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::InputSystem::Controls::QuaternionControl::set_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563130;
+  constexpr static std::size_t addrs = 0x62ddfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::get_w)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563138;
+  constexpr static std::size_t addrs = 0x62ddfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(),
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(
     ::UnityEngine::InputSystem::Controls::AxisControl*)>(&::UnityEngine::InputSystem::Controls::QuaternionControl::set_w)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563140;
+  constexpr static std::size_t addrs = 0x62ddfe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4563148;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x62ddff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(),
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::FinishSetup)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x45631d8;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x62de07c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,10 +155,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::QuaternionControl.ReadUnprocessedValueFromState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::ReadUnprocessedValueFromState)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x45632ec;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x62de194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,10 +171,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::QuaternionControl.WriteValueIntoState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(
-    ::UnityEngine::Quaternion, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::QuaternionControl::WriteValueIntoState)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4563410;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::QuaternionControl::*)(::UnityEngine::Quaternion, void*)>(
+    &::UnityEngine::InputSystem::Controls::QuaternionControl::WriteValueIntoState)> {
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x62de2cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::QuaternionControl::*)()>(
     &::UnityEngine::InputSystem::Controls::QuaternionControl::CalculateOptimizedControlDataType)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x456353c;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x62de408;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -303,13 +303,13 @@ inline void UnityEngine::InputSystem::Controls::QuaternionControl::FinishSetup()
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Quaternion UnityEngine::InputSystem::Controls::QuaternionControl::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+inline ::UnityEngine::Quaternion UnityEngine::InputSystem::Controls::QuaternionControl::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Quaternion, false>(this, ___internal_method, statePtr);
 }
-inline void UnityEngine::InputSystem::Controls::QuaternionControl::WriteValueIntoState(::UnityEngine::Quaternion value, ::cordl_internals::Ptr<void> statePtr) {
+inline void UnityEngine::InputSystem::Controls::QuaternionControl::WriteValueIntoState(::UnityEngine::Quaternion value, void* statePtr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::QuaternionControl*>::get(), 18)));

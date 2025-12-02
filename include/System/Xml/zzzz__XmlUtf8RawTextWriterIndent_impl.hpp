@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::System::IO::Stream*, ::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4322a2c;
+  constexpr static std::size_t addrs = 0x6082ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteDocType)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4322b60;
+  constexpr static std::size_t addrs = 0x6082ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteStartElement)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4322c08;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x608309c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,13 +58,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)()>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::StartElementContent)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4322c74;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6083124;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 38));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 48));
     return ___internal_method;
   }
 };
@@ -74,12 +74,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::System::Xml::ConformanceLevel)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::OnRootElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4322cc4;
+  constexpr static std::size_t addrs = 0x6083164;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 39));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 49));
     return ___internal_method;
   }
 };
@@ -88,13 +88,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteEndElement)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4322ccc;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x608316c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 40));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 50));
     return ___internal_method;
   }
 };
@@ -103,13 +103,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteFullEndElement)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4322d4c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6083204;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 41));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 51));
     return ___internal_method;
   }
 };
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4322dcc;
+  constexpr static std::size_t addrs = 0x608329c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,7 +134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteCData)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322e08;
+  constexpr static std::size_t addrs = 0x60832d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteComment)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4322e14;
+  constexpr static std::size_t addrs = 0x60832e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4322e54;
+  constexpr static std::size_t addrs = 0x6083324;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteEntityRef)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322e9c;
+  constexpr static std::size_t addrs = 0x608336c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(char16_t)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteCharEntity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322ea8;
+  constexpr static std::size_t addrs = 0x6083378;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,7 +209,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(char16_t, char16_t)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322eb4;
+  constexpr static std::size_t addrs = 0x6083384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteWhitespace)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322ec0;
+  constexpr static std::size_t addrs = 0x6083390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +239,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322ecc;
+  constexpr static std::size_t addrs = 0x608339c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteChars)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322ed8;
+  constexpr static std::size_t addrs = 0x60833a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteRaw)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322ee4;
+  constexpr static std::size_t addrs = 0x60833b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -284,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::StringW)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteRaw)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4322ef0;
+  constexpr static std::size_t addrs = 0x60833c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -298,8 +298,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::WriteBase64)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4322efc;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x60833cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -314,7 +314,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)(::System::Xml::XmlWriterSettings*)>(
     &::System::Xml::XmlUtf8RawTextWriterIndent::Init)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4322a54;
+  constexpr static std::size_t addrs = 0x6082ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -328,7 +328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUtf8RawTextWriterIndent::*)()>(&::System::Xml::XmlUtf8RawTextWriterIndent::WriteIndent)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4322bc0;
+  constexpr static std::size_t addrs = 0x6083054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), "WriteIndent",
@@ -427,22 +427,22 @@ inline void System::Xml::XmlUtf8RawTextWriterIndent::WriteStartElement(::StringW
 }
 inline void System::Xml::XmlUtf8RawTextWriterIndent::StartElementContent() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 38)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 48)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlUtf8RawTextWriterIndent::OnRootElement(::System::Xml::ConformanceLevel currentConformanceLevel) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 39)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 49)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentConformanceLevel);
 }
 inline void System::Xml::XmlUtf8RawTextWriterIndent::WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 40)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 50)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, localName, ns);
 }
 inline void System::Xml::XmlUtf8RawTextWriterIndent::WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 41)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUtf8RawTextWriterIndent*>::get(), 51)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, localName, ns);
 }
 inline void System::Xml::XmlUtf8RawTextWriterIndent::WriteStartAttribute(::StringW prefix, ::StringW localName, ::StringW ns) {

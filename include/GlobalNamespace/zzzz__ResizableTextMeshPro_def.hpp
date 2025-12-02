@@ -37,18 +37,18 @@ public:
   /// @brief Field _textMeshPro, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMeshPro, put = __cordl_internal_set__textMeshPro)) ::UnityW<::TMPro::TMP_Text> _textMeshPro;
 
-  /// @brief Method HandleTextDidChange, addr 0x3b2c424, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleTextDidChange, addr 0x570d2c8, size 0x94, virtual false, abstract: false, final false
   inline void HandleTextDidChange(::UnityEngine::Object* textMeshPro);
 
   static inline ::GlobalNamespace::ResizableTextMeshPro* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2c354, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x570d1f0, size 0xd8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b2c220, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x570d0b8, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b2c2f0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x570d190, size 0x60, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::RectTransform> const& __cordl_internal_get__rectTransform() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__textMeshPro(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3b2c4b4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570d35c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   ResizableTextMeshPro(ResizableTextMeshPro const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5150 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6724 };
 
   /// @brief Field _textMeshPro, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____textMeshPro;

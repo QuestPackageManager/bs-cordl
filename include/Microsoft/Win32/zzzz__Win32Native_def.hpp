@@ -20,10 +20,10 @@ namespace Microsoft::Win32 {
 class CORDL_TYPE Win32Native : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetMessage, addr 0x3c6e940, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetMessage, addr 0x58b1c10, size 0x5c, virtual false, abstract: false, final false
   static inline ::StringW GetMessage(int32_t hr);
 
-  /// @brief Method MakeHRFromErrorCode, addr 0x3c6e99c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method MakeHRFromErrorCode, addr 0x58b1c6c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t MakeHRFromErrorCode(int32_t errorCode);
 
 protected:

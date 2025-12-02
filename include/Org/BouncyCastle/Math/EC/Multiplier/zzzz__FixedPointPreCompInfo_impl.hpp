@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/FixedPointPreCompInfo.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__FixedPointPreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo.get_LookupTable
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECLookupTable* (
     ::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(&::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_LookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b8424;
+  constexpr static std::size_t addrs = 0x33e75c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)(
     ::Org::BouncyCastle::Math::EC::ECLookupTable*)>(&::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::set_LookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b842c;
+  constexpr static std::size_t addrs = 0x33e75c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b8434;
+  constexpr static std::size_t addrs = 0x33e75d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::set_Offset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b843c;
+  constexpr static std::size_t addrs = 0x33e75d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b8444;
+  constexpr static std::size_t addrs = 0x33e75e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)(int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::set_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b844c;
+  constexpr static std::size_t addrs = 0x33e75e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x24b8454;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x33e75f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

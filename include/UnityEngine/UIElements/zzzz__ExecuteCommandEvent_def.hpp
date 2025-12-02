@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::ExecuteCommandEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a253a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b6221c, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ExecuteCommandEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a25398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b62218, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ExecuteCommandEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   ExecuteCommandEvent___c(ExecuteCommandEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5801 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::ExecuteCommandEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a252f4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b62178, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +93,12 @@ public:
   ExecuteCommandEvent(ExecuteCommandEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4444 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ExecuteCommandEvent, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ExecuteCommandEvent, 0x70>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ExecuteCommandEvent);

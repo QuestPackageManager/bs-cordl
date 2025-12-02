@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::Start)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ad7808;
+  constexpr static std::size_t addrs = 0x56b2b4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ad78d8;
+  constexpr static std::size_t addrs = 0x56b2c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ContinuousFireEffect*>::get(), "Update",
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)(::GlobalNamespace::LightColorBeatmapEventData*)>(
     &::GlobalNamespace::ContinuousFireEffect::HandleColorChangeBeatmapEvent)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3ad7a84;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x56b2df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::SetInitialValues)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ad7830;
+  constexpr static std::size_t addrs = 0x56b2b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ContinuousFireEffect*>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)(float_t, float_t)>(
     &::GlobalNamespace::ContinuousFireEffect::StartEffect)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ad7be4;
+  constexpr static std::size_t addrs = 0x56b2f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::EndEffect)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ad7bc0;
+  constexpr static std::size_t addrs = 0x56b2f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ContinuousFireEffect*>::get(), "EndEffect",
@@ -92,8 +92,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::UpdateEffect)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3ad78dc;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x56b2c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ContinuousFireEffect*>::get(), "UpdateEffect",
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)(float_t, float_t)>(
     &::GlobalNamespace::ContinuousFireEffect::UpdateRenderers)> {
   constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3ad7cc4;
+  constexpr static std::size_t addrs = 0x56b304c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ContinuousFireEffect::*)()>(&::GlobalNamespace::ContinuousFireEffect::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ad7eac;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x56b3234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ContinuousFireEffect*>::get(), ".ctor",

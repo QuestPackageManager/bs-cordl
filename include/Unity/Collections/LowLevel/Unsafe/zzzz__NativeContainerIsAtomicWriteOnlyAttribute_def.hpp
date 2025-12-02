@@ -18,6 +18,11 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE NativeContainerIsAtomicWriteOnlyAttribute : public ::System::Attribute {
 public:
   // Declarations
+  static inline ::Unity::Collections::LowLevel::Unsafe::NativeContainerIsAtomicWriteOnlyAttribute* New_ctor();
+
+  /// @brief Method .ctor, addr 0x682b4dc, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -33,7 +38,7 @@ public:
   NativeContainerIsAtomicWriteOnlyAttribute(NativeContainerIsAtomicWriteOnlyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10620 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9986 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SurrogateForCyclicalReference)
 namespace System::Runtime::Serialization {
@@ -27,7 +26,7 @@ class SurrogateForCyclicalReference;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::SurrogateForCyclicalReference);
-// Dependencies System.Object, System.Runtime.Serialization.ISerializationSurrogate
+// Dependencies System.Object
 namespace System::Runtime::Serialization {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.SurrogateForCyclicalReference
@@ -40,10 +39,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializationSurrogate"
   constexpr operator ::System::Runtime::Serialization::ISerializationSurrogate*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3cf727c, size 0xd0, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5938efc, size 0xd4, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SetObjectData, addr 0x3cf734c, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method SetObjectData, addr 0x5938fd0, size 0xe8, virtual true, abstract: false, final true
   inline ::System::Object* SetObjectData(::System::Object* obj, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context,
                                          ::System::Runtime::Serialization::ISurrogateSelector* selector);
 
@@ -71,7 +70,7 @@ public:
   SurrogateForCyclicalReference(SurrogateForCyclicalReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3231 };
 
   /// @brief Field innerSurrogate, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ISerializationSurrogate* ___innerSurrogate;

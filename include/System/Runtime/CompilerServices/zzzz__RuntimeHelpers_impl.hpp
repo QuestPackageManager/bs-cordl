@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Array*, ::System::IntPtr)>(
     &::System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1adc0;
+  constexpr static std::size_t addrs = 0x595c5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Array*, ::System::RuntimeFieldHandle)>(
     &::System::Runtime::CompilerServices::RuntimeHelpers::InitializeArray)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d1adc4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x595c5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Runtime::CompilerServices::RuntimeHelpers::get_OffsetToStringData)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1ae34;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x595c5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Object*)>(&::System::Runtime::CompilerServices::RuntimeHelpers::GetHashCode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1ae38;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x595c600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Object*)>(&::System::Runtime::CompilerServices::RuntimeHelpers::GetObjectValue)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1ae40;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x595c614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::System::Runtime::CompilerServices::RuntimeHelpers::RunClassConstructor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1ae44;
+  constexpr static std::size_t addrs = 0x595c62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,8 +98,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::RuntimeTypeHandle)>(&::System::Runtime::CompilerServices::RuntimeHelpers::RunClassConstructor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3d1ae48;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x595c630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +112,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Runtime::CompilerServices::RuntimeHelpers::SufficientExecutionStack)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1aed0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x595c69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
@@ -121,12 +121,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Runtime::CompilerServices::RuntimeHelpers.EnsureSufficientExecutionStack
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Runtime::CompilerServices::RuntimeHelpers::EnsureSufficientExecutionStack)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x595c6a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
+                                                                               "EnsureSufficientExecutionStack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Runtime::CompilerServices::RuntimeHelpers.TryEnsureSufficientExecutionStack
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Runtime::CompilerServices::RuntimeHelpers::TryEnsureSufficientExecutionStack)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1aed4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x595c6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Runtime::CompilerServices::RuntimeHelpers::PrepareConstrainedRegions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1aed8;
+  constexpr static std::size_t addrs = 0x595c6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
@@ -195,6 +208,11 @@ inline bool System::Runtime::CompilerServices::RuntimeHelpers::SufficientExecuti
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
                                                                              "SufficientExecutionStack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline void System::Runtime::CompilerServices::RuntimeHelpers::EnsureSufficientExecutionStack() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::RuntimeHelpers*>::get(),
+                                                                             "EnsureSufficientExecutionStack", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline bool System::Runtime::CompilerServices::RuntimeHelpers::TryEnsureSufficientExecutionStack() {
   static auto* ___internal_method =

@@ -19,20 +19,14 @@ namespace System::Buffers::Binary {
 class CORDL_TYPE BinaryPrimitives : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ReverseEndianness, addr 0x3dc9c88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x59dd6c0, size 0x8, virtual false, abstract: false, final false
   static inline int32_t ReverseEndianness(int32_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x3dc9c90, size 0x8, virtual false, abstract: false, final false
-  static inline int64_t ReverseEndianness(int64_t value);
-
-  /// @brief Method ReverseEndianness, addr 0x3dc9c98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x59dd6c8, size 0xc, virtual false, abstract: false, final false
   static inline uint16_t ReverseEndianness(uint16_t value);
 
-  /// @brief Method ReverseEndianness, addr 0x3dc9ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ReverseEndianness, addr 0x59dd6d4, size 0x8, virtual false, abstract: false, final false
   static inline uint32_t ReverseEndianness(uint32_t value);
-
-  /// @brief Method ReverseEndianness, addr 0x3dc9cac, size 0x8, virtual false, abstract: false, final false
-  static inline uint64_t ReverseEndianness(uint64_t value);
 
 protected:
   // Ctor Parameters []
@@ -49,7 +43,7 @@ public:
   BinaryPrimitives(BinaryPrimitives const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

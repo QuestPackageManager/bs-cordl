@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/ElGamalKeyPairGenerator.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__ElGamalKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyGenerationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::Init)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2384bc8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x32b25f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::GenerateKeyPair)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x2384c6c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x32b26a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::ElGamalKeyPairGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2384df4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32b2850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

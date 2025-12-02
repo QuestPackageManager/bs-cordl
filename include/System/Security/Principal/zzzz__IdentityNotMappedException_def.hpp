@@ -25,17 +25,17 @@ namespace System::Security::Principal {
 class CORDL_TYPE IdentityNotMappedException : public ::System::SystemException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x3cb91a4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x58fcecc, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor();
 
   static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cb9144, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fce74, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cb919c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fcec4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -53,7 +53,7 @@ public:
   IdentityNotMappedException(IdentityNotMappedException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2998 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3015 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

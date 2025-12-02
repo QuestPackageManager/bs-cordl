@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SaberSwingRatingCounter.hpp"
-#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_impl.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Plane_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__BladeMovementDataElement_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberMovementDataProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberMovementData_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberSwingRatingCounter::*)()>(
     &::GlobalNamespace::SaberSwingRatingCounter::get_beforeCutRating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b2108;
+  constexpr static std::size_t addrs = 0x35e369c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(),
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::SaberSwingRatingCounter::*)()>(
     &::GlobalNamespace::SaberSwingRatingCounter::get_afterCutRating)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b2110;
+  constexpr static std::size_t addrs = 0x35e36a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(),
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::RegisterDidChangeReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26b2118;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x35e36ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::RegisterDidFinishReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26b2170;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x35e3710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidChangeReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::UnregisterDidChangeReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26b21c8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x35e3774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(::GlobalNamespace::ISaberSwingRatingCounterDidFinishReceiver*)>(
     &::GlobalNamespace::SaberSwingRatingCounter::UnregisterDidFinishReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26b2220;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x35e37d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(
     ::GlobalNamespace::ISaberMovementData*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, bool, bool)>(&::GlobalNamespace::SaberSwingRatingCounter::Init)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x26b2278;
+  constexpr static std::size_t size = 0x438;
+  constexpr static std::size_t addrs = 0x35e383c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)(
     ::GlobalNamespace::BladeMovementDataElement, ::GlobalNamespace::BladeMovementDataElement, bool)>(&::GlobalNamespace::SaberSwingRatingCounter::ProcessNewData)> {
-  constexpr static std::size_t size = 0x960;
-  constexpr static std::size_t addrs = 0x26b2690;
+  constexpr static std::size_t size = 0x958;
+  constexpr static std::size_t addrs = 0x35e3c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::Finish)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x26b2ff0;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x35e45cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "Finish",
@@ -153,8 +153,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::DrawGizmos)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x26b319c;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x35e4794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), "DrawGizmos",
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberSwingRatingCounter::*)()>(&::GlobalNamespace::SaberSwingRatingCounter::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26b3450;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x35e4a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberSwingRatingCounter*>::get(), ".ctor",

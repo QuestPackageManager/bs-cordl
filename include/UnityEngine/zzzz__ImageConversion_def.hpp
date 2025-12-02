@@ -6,6 +6,15 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ImageConversion)
+namespace System {
+struct IntPtr;
+}
+namespace UnityEngine::Bindings {
+struct BlittableArrayWrapper;
+}
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 namespace UnityEngine {
 struct Texture2D_EXRFlags;
 }
@@ -25,29 +34,41 @@ namespace UnityEngine {
 class CORDL_TYPE ImageConversion : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EncodeToEXR, addr 0x48d3ea0, size 0x40, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex);
-
-  /// @brief Method EncodeToEXR, addr 0x48d3e5c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR, addr 0x6909028, size 0x160, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToEXR(::UnityEngine::Texture2D* tex, ::UnityEngine::Texture2D_EXRFlags flags);
 
-  /// @brief Method EncodeToJPG, addr 0x48d3e1c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method EncodeToEXR_Injected, addr 0x6909188, size 0x54, virtual false, abstract: false, final false
+  static inline void EncodeToEXR_Injected(::System::IntPtr tex, ::UnityEngine::Texture2D_EXRFlags flags, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method EncodeToJPG, addr 0x6909020, size 0x8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToJPG, addr 0x48d3dd8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG, addr 0x6908e6c, size 0x160, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToJPG(::UnityEngine::Texture2D* tex, int32_t quality);
 
-  /// @brief Method EncodeToPNG, addr 0x48d3d9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToJPG_Injected, addr 0x6908fcc, size 0x54, virtual false, abstract: false, final false
+  static inline void EncodeToJPG_Injected(::System::IntPtr tex, int32_t quality, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method EncodeToPNG, addr 0x6908cdc, size 0x14c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToPNG(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method EncodeToTGA, addr 0x48d3d60, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method EncodeToPNG_Injected, addr 0x6908e28, size 0x44, virtual false, abstract: false, final false
+  static inline void EncodeToPNG_Injected(::System::IntPtr tex, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method EncodeToTGA, addr 0x6908b4c, size 0x14c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodeToTGA(::UnityEngine::Texture2D* tex);
 
-  /// @brief Method LoadImage, addr 0x48d3f34, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method EncodeToTGA_Injected, addr 0x6908c98, size 0x44, virtual false, abstract: false, final false
+  static inline void EncodeToTGA_Injected(::System::IntPtr tex, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method LoadImage, addr 0x6909364, size 0x8, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method LoadImage, addr 0x48d3ee0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method LoadImage, addr 0x69091dc, size 0x134, virtual false, abstract: false, final false
   static inline bool LoadImage(::UnityEngine::Texture2D* tex, ::ArrayW<uint8_t, ::Array<uint8_t>*> data, bool markNonReadable);
+
+  /// @brief Method LoadImage_Injected, addr 0x6909310, size 0x54, virtual false, abstract: false, final false
+  static inline bool LoadImage_Injected(::System::IntPtr tex, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> data, bool markNonReadable);
 
 protected:
   // Ctor Parameters []
@@ -64,7 +85,7 @@ public:
   ImageConversion(ImageConversion const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19054 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22933 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

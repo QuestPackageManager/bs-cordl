@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::ToJSON)> {
-  constexpr static std::size_t size = 0x730;
-  constexpr static std::size_t addrs = 0x4047fbc;
+  constexpr static std::size_t size = 0x72c;
+  constexpr static std::size_t addrs = 0x5cff198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics*>::get(),
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::*)(::StringW)>(
     &::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::LoadFromJSON)> {
-  constexpr static std::size_t size = 0x954;
-  constexpr static std::size_t addrs = 0x4048790;
+  constexpr static std::size_t size = 0xb48;
+  constexpr static std::size_t addrs = 0x5cff8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4049898;
+  constexpr static std::size_t addrs = 0x5d00e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics*>::get(),
@@ -446,8 +446,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::OnEnable)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4049950;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5d00f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -461,8 +461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::OnDisable)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4049a98;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5d0106c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -476,8 +476,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::Update)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4049b38;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5d01118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -491,8 +491,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSystemPerfMetrics_PerfMetrics* (
     ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(&::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::GatherPerfMetrics)> {
-  constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x4049bbc;
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x5d01198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::*)()>(
     &::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4049ebc;
+  constexpr static std::size_t addrs = 0x5d0150c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -588,8 +588,8 @@ constexpr ::GlobalNamespace::OVRSystemPerfMetrics_OVRSystemPerfMetricsTcpServer:
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSystemPerfMetrics::*)()>(&::GlobalNamespace::OVRSystemPerfMetrics::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4047fb4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5cff194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSystemPerfMetrics*>::get(), ".ctor",

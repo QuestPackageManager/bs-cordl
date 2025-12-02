@@ -3,11 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Align_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DisplayStyle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FlexDirection_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Justify_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Position_def.hpp"
@@ -17,7 +15,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(LayoutData)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -25,8 +29,8 @@ struct LayoutData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::LayoutData);
-// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.Align, UnityEngine.UIElements.DisplayStyle, UnityEngine.UIElements.FlexDirection, UnityEngine.UIElements.IStyleDataGroup`1<T>,
-// UnityEngine.UIElements.Justify, UnityEngine.UIElements.Length, UnityEngine.UIElements.Position, UnityEngine.UIElements.Wrap
+// Dependencies UnityEngine.UIElements.Align, UnityEngine.UIElements.DisplayStyle, UnityEngine.UIElements.FlexDirection, UnityEngine.UIElements.Justify, UnityEngine.UIElements.Length,
+// UnityEngine.UIElements.Position, UnityEngine.UIElements.Wrap
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.LayoutData
@@ -39,19 +43,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>*();
 
-  /// @brief Method Copy, addr 0x4a821d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6a59f8c, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::LayoutData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a821f0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6a59f9c, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::ByRef<::UnityEngine::UIElements::LayoutData> other);
 
-  /// @brief Method Equals, addr 0x4a825ec, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a5a3d4, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a825a0, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a5a388, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::LayoutData other);
 
-  /// @brief Method GetHashCode, addr 0x4a82694, size 0x338, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a5a478, size 0x398, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::LayoutData>"
@@ -60,7 +64,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::LayoutData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__LayoutData_();
 
-  /// @brief Method op_Equality, addr 0x4a82204, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a59fa4, size 0x3e4, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::LayoutData lhs, ::UnityEngine::UIElements::LayoutData rhs);
 
   // Ctor Parameters []
@@ -97,7 +101,7 @@ public:
                        ::UnityEngine::UIElements::Position position, ::UnityEngine::UIElements::Length right, ::UnityEngine::UIElements::Length top, ::UnityEngine::UIElements::Length width) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4943 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };

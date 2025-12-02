@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Xml/zzzz__IDtdAttributeInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IDtdDefaultAttributeInfo)
+namespace System::Xml {
+class IDtdAttributeInfo;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ class IDtdDefaultAttributeInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdDefaultAttributeInfo);
-// Dependencies System.Xml.IDtdAttributeInfo
+// Dependencies
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.IDtdDefaultAttributeInfo
@@ -54,7 +56,7 @@ public:
   IDtdDefaultAttributeInfo(IDtdDefaultAttributeInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9250 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

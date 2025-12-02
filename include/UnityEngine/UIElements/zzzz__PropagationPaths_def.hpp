@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(PropagationPaths)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
 class EventBase;
 }
@@ -43,10 +46,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* New_ctor();
 
-  /// @brief Method <.cctor>b__12_0, addr 0x4a34ab4, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::PropagationPaths* __cctor_b__12_0();
+  /// @brief Method <.cctor>b__8_0, addr 0x6b71b44, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::PropagationPaths* __cctor_b__8_0();
 
-  /// @brief Method .ctor, addr 0x4a34aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71b40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PropagationPaths___c* getStaticF___9();
@@ -68,7 +71,7 @@ public:
   PropagationPaths___c(PropagationPaths___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -85,36 +88,31 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PropagationPaths___c;
 
-  /// @brief Field bubbleUpPath, offset 0x20, size 0x8
+  /// @brief Field bubbleUpPath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_bubbleUpPath,
                       put = __cordl_internal_set_bubbleUpPath)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* bubbleUpPath;
 
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* s_Pool;
 
-  /// @brief Field targetElements, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetElements,
-                      put = __cordl_internal_set_targetElements)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* targetElements;
-
   /// @brief Field trickleDownPath, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_trickleDownPath,
                       put = __cordl_internal_set_trickleDownPath)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* trickleDownPath;
 
-  /// @brief Method Build, addr 0x4a23508, size 0x2a4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Build, addr 0x6b66d60, size 0x2cc, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::PropagationPaths* Build(::UnityEngine::UIElements::VisualElement* elem, ::UnityEngine::UIElements::EventBase* evt, int32_t eventCategories);
+
+  /// @brief Method Dispose, addr 0x6b718e0, size 0xf4, virtual true, abstract: false, final true
+  inline void Dispose();
 
   static inline ::UnityEngine::UIElements::PropagationPaths* New_ctor();
-
-  /// @brief Method Release, addr 0x4a277d4, size 0x110, virtual false, abstract: false, final false
-  inline void Release();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_bubbleUpPath() const;
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_bubbleUpPath();
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_targetElements() const;
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_targetElements();
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* const& __cordl_internal_get_trickleDownPath() const;
 
@@ -122,14 +120,15 @@ public:
 
   constexpr void __cordl_internal_set_bubbleUpPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  constexpr void __cordl_internal_set_targetElements(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
-
   constexpr void __cordl_internal_set_trickleDownPath(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* value);
 
-  /// @brief Method .ctor, addr 0x4a34884, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71844, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* getStaticF_s_Pool();
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
   static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::PropagationPaths*>* value);
 
@@ -148,21 +147,12 @@ public:
   PropagationPaths(PropagationPaths const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5932 };
-
-  /// @brief Field k_DefaultPropagationDepth offset 0xffffffff size 0x4
-  static constexpr int32_t k_DefaultPropagationDepth{ static_cast<int32_t>(0x10) };
-
-  /// @brief Field k_DefaultTargetCount offset 0xffffffff size 0x4
-  static constexpr int32_t k_DefaultTargetCount{ static_cast<int32_t>(0x4) };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4559 };
 
   /// @brief Field trickleDownPath, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ___trickleDownPath;
 
-  /// @brief Field targetElements, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ___targetElements;
-
-  /// @brief Field bubbleUpPath, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field bubbleUpPath, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* ___bubbleUpPath;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -170,11 +160,9 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___trickleDownPath) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___targetElements) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___bubbleUpPath) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::PropagationPaths, ___bubbleUpPath) == 0x20, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropagationPaths, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PropagationPaths, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PropagationPaths);

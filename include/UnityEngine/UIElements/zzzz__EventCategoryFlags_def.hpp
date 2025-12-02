@@ -25,8 +25,8 @@ public:
   enum struct __EventCategoryFlags_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_All = static_cast<int32_t>(0xffffffff),
-    __E_TriggeredByOS = static_cast<int32_t>(0x14036),
-    __E_TargetOnly = static_cast<int32_t>(0xad0),
+    __E_TriggeredByOS = static_cast<int32_t>(0x6806e),
+    __E_TargetOnly = static_cast<int32_t>(0x15a0),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,14 +52,14 @@ public:
   /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::EventCategoryFlags const None;
 
-  /// @brief Field TargetOnly value: I32(2768)
+  /// @brief Field TargetOnly value: I32(5536)
   static ::UnityEngine::UIElements::EventCategoryFlags const TargetOnly;
 
-  /// @brief Field TriggeredByOS value: I32(81974)
+  /// @brief Field TriggeredByOS value: I32(426094)
   static ::UnityEngine::UIElements::EventCategoryFlags const TriggeredByOS;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6317 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5234 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

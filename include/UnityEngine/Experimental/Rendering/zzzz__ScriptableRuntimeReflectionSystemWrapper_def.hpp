@@ -27,7 +27,7 @@ public:
 
   __declspec(property(get = get_implementation, put = set_implementation)) ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* implementation;
 
-  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x48d11d8, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes, addr 0x68fc9d4, size 0xcc, virtual false, abstract: false, final false
   inline void Internal_ScriptableRuntimeReflectionSystemWrapper_TickRealtimeProbes(::ByRef<bool> result);
 
   static inline ::UnityEngine::Experimental::Rendering::ScriptableRuntimeReflectionSystemWrapper* New_ctor();
@@ -38,13 +38,13 @@ public:
 
   constexpr void __cordl_internal_set__implementation_k__BackingField(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
-  /// @brief Method .ctor, addr 0x48d11c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fc9c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_implementation, addr 0x48d11c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_implementation, addr 0x68fc9c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* get_implementation();
 
-  /// @brief Method set_implementation, addr 0x48d11d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_implementation, addr 0x68fc9cc, size 0x8, virtual false, abstract: false, final false
   inline void set_implementation(::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   ScriptableRuntimeReflectionSystemWrapper(ScriptableRuntimeReflectionSystemWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11318 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10894 };
 
   /// @brief Field <implementation>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Experimental::Rendering::IScriptableRuntimeReflectionSystem* ____implementation_k__BackingField;

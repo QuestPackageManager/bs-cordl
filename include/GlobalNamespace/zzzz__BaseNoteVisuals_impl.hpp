@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BaseNoteVisuals.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BaseNoteVisuals_def.hpp"
 #include "GlobalNamespace/zzzz__CutoutAnimateEffect_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BaseNoteVisuals.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)()>(&::GlobalNamespace::BaseNoteVisuals::Awake)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3ae5fa0;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x56c1cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseNoteVisuals*>::get(), "Awake",
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)()>(&::GlobalNamespace::BaseNoteVisuals::OnDestroy)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3ae60e4;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x56c1e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseNoteVisuals*>::get(), "OnDestroy",
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::BaseNoteVisuals::HandleNoteControllerDidInit)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ae6274;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x56c1fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*, float_t)>(
     &::GlobalNamespace::BaseNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ae6290;
+  constexpr static std::size_t addrs = 0x56c2010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)(float_t, float_t, float_t)>(
     &::GlobalNamespace::BaseNoteVisuals::AnimateCutout)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ae62a0;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x56c2020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BaseNoteVisuals::*)()>(&::GlobalNamespace::BaseNoteVisuals::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ae62cc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56c2044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BaseNoteVisuals*>::get(), ".ctor",

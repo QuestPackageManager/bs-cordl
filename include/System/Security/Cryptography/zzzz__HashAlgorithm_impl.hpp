@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Cryptography/HashAlgorithm.hpp"
-#include "System/Security/Cryptography/zzzz__ICryptoTransform_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Cryptography/zzzz__HashAlgorithm_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Security/Cryptography/zzzz__ICryptoTransform_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Security::Cryptography::HashAlgorithm._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9dc2c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58e1914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HashAlgorithm*>::get(), ".ctor",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::HashAlgorithm* (*)(::StringW)>(
     &::System::Security::Cryptography::HashAlgorithm::Create)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c9dc34;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x58e1918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::get_HashSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9dcb4;
+  constexpr static std::size_t addrs = 0x58e199c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::get_Hash)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3c9dcbc;
+  constexpr static std::size_t addrs = 0x58e19a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HashAlgorithm::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c9ddf0;
+  constexpr static std::size_t addrs = 0x58e1ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HashAlgorithm::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3c9df3c;
+  constexpr static std::size_t addrs = 0x58e1c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HashAlgorithm::*)(::System::IO::Stream*)>(
     &::System::Security::Cryptography::HashAlgorithm::ComputeHash)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3c9e09c;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x58e1d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::CaptureHashCodeAndReinitialize)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c9de94;
+  constexpr static std::size_t addrs = 0x58e1b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HashAlgorithm*>::get(),
@@ -131,8 +131,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c9e2a4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x58e1f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HashAlgorithm*>::get(),
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::Clear)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c9e310;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x58e1ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::HashAlgorithm*>::get(), "Clear",
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HashAlgorithm::*)(bool)>(
     &::System::Security::Cryptography::HashAlgorithm::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c9e3a4;
+  constexpr static std::size_t addrs = 0x58e208c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::get_InputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9e3b4;
+  constexpr static std::size_t addrs = 0x58e209c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::get_OutputBlockSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9e3bc;
+  constexpr static std::size_t addrs = 0x58e20a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::HashAlgorithm::*)()>(
     &::System::Security::Cryptography::HashAlgorithm::get_CanTransformMultipleBlocks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c9e3c4;
+  constexpr static std::size_t addrs = 0x58e20ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Cryptography::HashAlgorithm::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Security::Cryptography::HashAlgorithm::TransformBlock)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c9e3cc;
+  constexpr static std::size_t addrs = 0x58e20b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::HashAlgorithm::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::HashAlgorithm::TransformFinalBlock)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3c9e5ac;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x58e2294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::HashAlgorithm::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::HashAlgorithm::ValidateTransformBlock)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3c9e468;
+  constexpr static std::size_t addrs = 0x58e2150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

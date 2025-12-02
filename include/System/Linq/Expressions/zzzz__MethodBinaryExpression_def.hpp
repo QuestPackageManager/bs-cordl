@@ -33,7 +33,7 @@ public:
   /// @brief Field _method, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__method, put = __cordl_internal_set__method)) ::System::Reflection::MethodInfo* _method;
 
-  /// @brief Method GetMethod, addr 0x4096e78, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetMethod, addr 0x5d46a2c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetMethod();
 
   static inline ::System::Linq::Expressions::MethodBinaryExpression* New_ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left,
@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__method(::System::Reflection::MethodInfo* value);
 
-  /// @brief Method .ctor, addr 0x4096dec, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d469a0, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::ExpressionType nodeType, ::System::Linq::Expressions::Expression* left, ::System::Linq::Expressions::Expression* right, ::System::Type* type,
                     ::System::Reflection::MethodInfo* method);
 
@@ -64,7 +64,7 @@ public:
   MethodBinaryExpression(MethodBinaryExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13618 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16065 };
 
   /// @brief Field _method, offset: 0x30, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____method;

@@ -26,7 +26,7 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlSchemaInferenceException : public ::System::Xml::Schema::XmlSchemaException {
 public:
   // Declarations
-  /// @brief Method GetObjectData, addr 0x426b980, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5fc16d4, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Xml::Schema::XmlSchemaInferenceException* New_ctor();
@@ -37,16 +37,16 @@ public:
 
   static inline ::System::Xml::Schema::XmlSchemaInferenceException* New_ctor(::StringW res, int32_t lineNumber, int32_t linePosition);
 
-  /// @brief Method .ctor, addr 0x426b988, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc16dc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x426b978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fc16cc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x42697a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fbfb38, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, ::StringW arg);
 
-  /// @brief Method .ctor, addr 0x4262d14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fb92a4, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::StringW res, int32_t lineNumber, int32_t linePosition);
 
 protected:
@@ -64,7 +64,7 @@ public:
   XmlSchemaInferenceException(XmlSchemaInferenceException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9668 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

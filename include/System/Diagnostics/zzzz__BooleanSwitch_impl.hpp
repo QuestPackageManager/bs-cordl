@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::BooleanSwitch::*)(::StringW, ::StringW)>(&::System::Diagnostics::BooleanSwitch::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x442ad84;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6179798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -16,11 +16,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Diagnostics::BooleanSwitch.OnValueChanged
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::BooleanSwitch::*)()>(&::System::Diagnostics::BooleanSwitch::OnValueChanged)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x617986c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::BooleanSwitch*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::BooleanSwitch*>::get(), 5));
+    return ___internal_method;
+  }
+};
 inline void System::Diagnostics::BooleanSwitch::_ctor(::StringW displayName, ::StringW description) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::BooleanSwitch*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, displayName, description);
+}
+inline void System::Diagnostics::BooleanSwitch::OnValueChanged() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::BooleanSwitch*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::System::Diagnostics::BooleanSwitch* System::Diagnostics::BooleanSwitch::New_ctor(::StringW displayName, ::StringW description) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Diagnostics::BooleanSwitch*>(displayName, description));

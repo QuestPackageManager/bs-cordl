@@ -4,6 +4,7 @@
 #include "UnityEngine/UIElements/zzzz__NavigationEventBase_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationDeviceType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
@@ -26,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent___c::*)()>(
     &::UnityEngine::UIElements::NavigationMoveEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2fcf0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b6db2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent___c*>::get(),
@@ -40,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (::UnityEngine::UIElements::NavigationMoveEvent___c::*)()>(
     &::UnityEngine::UIElements::NavigationMoveEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2fcf8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b6db30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent___c*>::get(),
@@ -79,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent_Direction (*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::DetermineMoveDirection)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a2f98c;
+  constexpr static std::size_t addrs = 0x6b6d418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent_Direction (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(
     &::UnityEngine::UIElements::NavigationMoveEvent::get_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f9e0;
+  constexpr static std::size_t addrs = 0x6b6d46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(),
@@ -109,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)(::UnityEngine::UIElements::NavigationMoveEvent_Direction)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::set_direction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f9e8;
+  constexpr static std::size_t addrs = 0x6b6d474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::set_move)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2f9f0;
+  constexpr static std::size_t addrs = 0x6b6d47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -138,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::Vector2, ::UnityEngine::EventModifiers)>(
     &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a2f9f8;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6b6d484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,8 +156,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::Vector2, ::UnityEngine::UIElements::NavigationDeviceType, ::UnityEngine::EventModifiers)>(
         &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a2b03c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6b69b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,8 +174,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::EventModifiers)>(
         &::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4a2faf8;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6b6d580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,8 +191,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::NavigationMoveEvent* (*)(::UnityEngine::UIElements::NavigationMoveEvent_Direction, ::UnityEngine::UIElements::NavigationDeviceType,
                                                                     ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::NavigationMoveEvent::GetPooled)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4a2af90;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6b69a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,14 +207,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(&::UnityEngine::UIElements::NavigationMoveEvent::Init)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2fba0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b6d630;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), 12));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -221,8 +222,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(&::UnityEngine::UIElements::NavigationMoveEvent::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2fc44;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b6d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), ".ctor",
@@ -235,12 +236,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)()>(
     &::UnityEngine::UIElements::NavigationMoveEvent::LocalInit)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a2fbf0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b6d684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(),
                                                                                "LocalInit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::NavigationMoveEvent.PostDispatch
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::NavigationMoveEvent::*)(::UnityEngine::UIElements::IPanel*)>(
+    &::UnityEngine::UIElements::NavigationMoveEvent::PostDispatch)> {
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6b6d730;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -328,7 +345,7 @@ inline ::UnityEngine::UIElements::NavigationMoveEvent* UnityEngine::UIElements::
 }
 inline void UnityEngine::UIElements::NavigationMoveEvent::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::NavigationMoveEvent::_ctor() {
@@ -340,6 +357,11 @@ inline void UnityEngine::UIElements::NavigationMoveEvent::LocalInit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(),
                                                                              "LocalInit", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::NavigationMoveEvent::PostDispatch(::UnityEngine::UIElements::IPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::NavigationMoveEvent*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
 inline ::UnityEngine::UIElements::NavigationMoveEvent* UnityEngine::UIElements::NavigationMoveEvent::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::NavigationMoveEvent*>());

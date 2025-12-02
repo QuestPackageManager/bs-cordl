@@ -5,17 +5,17 @@
 #include "Unity/Properties/zzzz__InstantiationKind_def.hpp"
 template <typename TElement> inline ::Unity::Properties::InstantiationKind Unity::Properties::ArrayPropertyBag_1<TElement>::get_InstantiationKind() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ArrayPropertyBag_1<TElement>*>::get(), 8)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ArrayPropertyBag_1<TElement>*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::InstantiationKind, false>(this, ___internal_method);
 }
 template <typename TElement> inline ::ArrayW<TElement, ::Array<TElement>*> Unity::Properties::ArrayPropertyBag_1<TElement>::InstantiateWithCount(int32_t count) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ArrayPropertyBag_1<TElement>*>::get(), 11)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ArrayPropertyBag_1<TElement>*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<TElement, ::Array<TElement>*>, false>(this, ___internal_method, count);
 }
 template <typename TElement> inline ::ArrayW<TElement, ::Array<TElement>*> Unity::Properties::ArrayPropertyBag_1<TElement>::Instantiate() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ArrayPropertyBag_1<TElement>*>::get(), 9)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ArrayPropertyBag_1<TElement>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<TElement, ::Array<TElement>*>, false>(this, ___internal_method);
 }
 template <typename TElement> inline void Unity::Properties::ArrayPropertyBag_1<TElement>::_ctor() {

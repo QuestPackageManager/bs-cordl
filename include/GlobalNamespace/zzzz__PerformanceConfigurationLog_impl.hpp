@@ -14,8 +14,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::RecPlayBehaviour_State*,
                               ::GlobalNamespace::PerformanceConfigurationStats*, ::StringW)>(&::GlobalNamespace::PerformanceConfigurationLog::Create)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3b20bd8;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x5701e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogSystemInfo)> {
-  constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x3b20e18;
+  constexpr static std::size_t size = 0x5b0;
+  constexpr static std::size_t addrs = 0x57020e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogApplicationInfo)> {
-  constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x3b212a8;
+  constexpr static std::size_t size = 0x588;
+  constexpr static std::size_t addrs = 0x5702698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogApplicationState)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3b21788;
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x5702c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogXrInfo)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3b21990;
+  constexpr static std::size_t size = 0x424;
+  constexpr static std::size_t addrs = 0x5702ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOvrInfo)> {
-  constexpr static std::size_t size = 0xa00;
-  constexpr static std::size_t addrs = 0x3b21c94;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57032f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOculusXrInfo)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b22694;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57032f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,8 +117,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogOpenXrInfo)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b227d0;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x57032fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::ByRef<::BeatSaber::Settings::Settings>,
                                                                                            ::GlobalNamespace::RecPlayBehaviour_State*)>(&::GlobalNamespace::PerformanceConfigurationLog::LogSettings)> {
-  constexpr static std::size_t size = 0xab8;
-  constexpr static std::size_t addrs = 0x3b227d4;
+  constexpr static std::size_t size = 0xa5c;
+  constexpr static std::size_t addrs = 0x5703434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::PlayerSpecificSettings*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogPlayerSettings)> {
-  constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x3b2328c;
+  constexpr static std::size_t size = 0x48c;
+  constexpr static std::size_t addrs = 0x5703e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,8 +165,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::GameplayModifierMask)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogLevelSettings)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b236c8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x570431c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::GlobalNamespace::PerformanceConfigurationStats*)>(
     &::GlobalNamespace::PerformanceConfigurationLog::LogDynamicStates)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3b23758;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x57043b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

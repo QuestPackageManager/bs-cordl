@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage_1.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline ::StringW UnityEngine::XR::InputFeatureUsage_1<T>::get_name() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputFeatureUsage_1<T>>::get(), "get_name",

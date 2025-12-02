@@ -31,13 +31,13 @@ public:
 
   static inline ::System::InvalidTimeZoneException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3debf38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a32354, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3debff8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a32418, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3debf90, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a323ac, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   InvalidTimeZoneException(InvalidTimeZoneException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

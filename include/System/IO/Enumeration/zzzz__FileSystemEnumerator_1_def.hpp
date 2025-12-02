@@ -4,10 +4,7 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -16,13 +13,22 @@ namespace GlobalNamespace {
 struct Interop_ErrorInfo;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class Queue_1;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::IO::Enumeration {
 struct FileSystemEntry;
 }
 namespace System::IO {
 class EnumerationOptions;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -39,8 +45,7 @@ template <typename TResult> class FileSystemEnumerator_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::IO::Enumeration::FileSystemEnumerator_1);
-// Dependencies Interop::Sys::DirectoryEntry, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.IntPtr,
-// System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+// Dependencies Interop::Sys::DirectoryEntry, System.IntPtr, System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -126,7 +131,7 @@ public:
   inline void FindNextEntry();
 
   /// @brief Method FindNextEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void FindNextEntry(::cordl_internals::Ptr<uint8_t> entryBufferPtr, int32_t bufferLength);
+  inline void FindNextEntry(uint8_t* entryBufferPtr, int32_t bufferLength);
 
   /// @brief Method InternalContinueOnError, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool InternalContinueOnError(::GlobalNamespace::Interop_ErrorInfo info, bool ignoreNotFound);
@@ -265,7 +270,7 @@ public:
   FileSystemEnumerator_1(FileSystemEnumerator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3936 };
 
   /// @brief Field _originalRootDirectory, offset: 0x10, size: 0x8, def value: None
   ::StringW ____originalRootDirectory;

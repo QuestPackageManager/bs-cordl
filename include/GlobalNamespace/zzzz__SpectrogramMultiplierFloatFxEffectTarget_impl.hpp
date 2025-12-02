@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::SetValue)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b8e894;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x577cc10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::TriggerValue)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b8e918;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x577cc98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::*)()>(
     &::GlobalNamespace::SpectrogramMultiplierFloatFxEffectTarget::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8e99c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x577cd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

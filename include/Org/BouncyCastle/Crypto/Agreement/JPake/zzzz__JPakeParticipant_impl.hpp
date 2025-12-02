@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(
     ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>)>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2687548;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b686c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(
     ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*)>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26875c0;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x35b68e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(
     ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakePrimeOrderGroup*, ::Org::BouncyCastle::Crypto::IDigest*,
     ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::_ctor)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x2687670;
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x35b69a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::get_State)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26878f4;
+  constexpr static std::size_t addrs = 0x35b6c34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload* (
     ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)()>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::CreateRound1PayloadToSend)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x26878fc;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x35b6c3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(
     ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound1Payload*)>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::ValidateRound1PayloadReceived)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x2687fb8;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x35b731c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload* (
     ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)()>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::CreateRound2PayloadToSend)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x2688538;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x35b78ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(
     ::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound2Payload*)>(&::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::ValidateRound2PayloadReceived)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26889a0;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x35b7d24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::CalculateKeyingMaterial)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x2688db0;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x35b8120;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,8 +165,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload* (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::CreateRound3PayloadToSend)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x2688fe0;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x35b8354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,8 +182,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::*)(::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeRound3Payload*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Agreement::JPake::JPakeParticipant::ValidateRound3PayloadReceived)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x268940c;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x35b876c;
 
   inline static ::MethodInfo const* methodInfo() {
 

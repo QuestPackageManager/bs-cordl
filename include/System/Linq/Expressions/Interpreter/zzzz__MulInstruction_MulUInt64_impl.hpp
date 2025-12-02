@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::GlobalNamespace::MulInstruction_MulUInt64::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::MulInstruction_MulUInt64::Run)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x40ecf74;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5d99224;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MulInstruction_MulUInt64::*)()>(&::GlobalNamespace::MulInstruction_MulUInt64::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ec908;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d98ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulInstruction_MulUInt64*>::get(), ".ctor",

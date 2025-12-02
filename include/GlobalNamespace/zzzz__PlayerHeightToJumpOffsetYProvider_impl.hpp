@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlayerHeightToJumpOffsetYProvider.hpp"
-#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightToJumpOffsetYProvider_def.hpp"
+#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider.get_jumpOffsetY
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::*)()>(
     &::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::get_jumpOffsetY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be8afc;
+  constexpr static std::size_t addrs = 0x57db598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightToJumpOffsetYProvider*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::*)()>(
     &::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::Initialize)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3be8b04;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x57db5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightToJumpOffsetYProvider*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::*)()>(
     &::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::Dispose)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3be8c64;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x57db754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightToJumpOffsetYProvider*>::get(),
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::*)(float_t)>(
     &::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::HandlePlayerHeightDidChange)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3be8c2c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x57db718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::JumpOffsetYForPlayerHeight)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3be8bf8;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x57db6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::*)()>(
     &::GlobalNamespace::PlayerHeightToJumpOffsetYProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be8d30;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57db864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerHeightToJumpOffsetYProvider*>::get(),

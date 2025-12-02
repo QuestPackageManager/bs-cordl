@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
     &::GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40832fc;
+  constexpr static std::size_t addrs = 0x5d2de08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,12 +23,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.get_bloomTextureWidth
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
+    &::GlobalNamespace::PyramidBloomMainEffectSO::get_bloomTextureWidth)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d2de10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
+                                                                               "get_bloomTextureWidth", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::PyramidBloomMainEffectSO.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnEnable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4083304;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5d2de18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::OnDisable)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4083444;
+  constexpr static std::size_t addrs = 0x5d2e010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), "OnDisable",
@@ -55,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(
     &::GlobalNamespace::PyramidBloomMainEffectSO::LazyInitializeMaterials)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4083320;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5d2dee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
@@ -68,8 +82,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::PreRender)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4083474;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5d2e040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)(::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*, float_t)>(&::GlobalNamespace::PyramidBloomMainEffectSO::Render)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x40834d8;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x5d2e0a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -98,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PyramidBloomMainEffectSO::*)()>(&::GlobalNamespace::PyramidBloomMainEffectSO::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4083754;
+  constexpr static std::size_t addrs = 0x5d2e32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), ".ctor",
@@ -357,6 +371,11 @@ inline bool GlobalNamespace::PyramidBloomMainEffectSO::get_hasPostProcessEffect(
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::PyramidBloomMainEffectSO::get_bloomTextureWidth() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PyramidBloomMainEffectSO*>::get(),
+                                                                             "get_bloomTextureWidth", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::PyramidBloomMainEffectSO::OnEnable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

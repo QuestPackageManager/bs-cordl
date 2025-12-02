@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TooltipEvent___c::*)()>(&::UnityEngine::UIElements::TooltipEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a35084;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b72040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent___c*>::get(), ".ctor",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TooltipEvent* (::UnityEngine::UIElements::TooltipEvent___c::*)()>(
     &::UnityEngine::UIElements::TooltipEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a3508c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b72044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent___c*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::TooltipEvent::set_tooltip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a34e74;
+  constexpr static std::size_t addrs = 0x6b71eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)(::UnityEngine::Rect)>(
     &::UnityEngine::UIElements::TooltipEvent::set_rect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a34e7c;
+  constexpr static std::size_t addrs = 0x6b71eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -90,13 +90,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::Init)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a34e88;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6b71ec0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -104,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::LocalInit)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4a34f18;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6b71f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(), "LocalInit",
@@ -117,8 +117,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TooltipEvent::*)()>(&::UnityEngine::UIElements::TooltipEvent::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a34f74;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6b71f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(), ".ctor",
@@ -164,7 +164,7 @@ inline void UnityEngine::UIElements::TooltipEvent::set_rect(::UnityEngine::Rect 
 }
 inline void UnityEngine::UIElements::TooltipEvent::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TooltipEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TooltipEvent::LocalInit() {

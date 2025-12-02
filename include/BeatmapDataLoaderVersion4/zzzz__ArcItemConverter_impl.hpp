@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::ArcItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>, ::ArrayW<::BeatmapSaveDataVersion4::Arc, ::Array<::BeatmapSaveDataVersion4::Arc>*>,
     ::GlobalNamespace::BpmTimeProcessor*)>(&::BeatmapDataLoaderVersion4::ArcItemConverter::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x270d23c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3638870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::ArcItemConverter::*)(::BeatmapSaveDataVersion4::ArcBeatIndex*)>(&::BeatmapDataLoaderVersion4::ArcItemConverter::Convert)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x270d6ac;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x3638c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

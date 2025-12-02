@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithMicrophoneAvailabilityState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::MicrophoneAvailabilityState*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f7f758, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5bc6d48, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::MicrophoneAvailabilityState* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetMicrophoneAvailabilityState, addr 0x3f7f71c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetMicrophoneAvailabilityState, addr 0x5bc6d04, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::MicrophoneAvailabilityState* GetMicrophoneAvailabilityState();
 
   static inline ::Oculus::Platform::MessageWithMicrophoneAvailabilityState* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c364, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc2b24, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithMicrophoneAvailabilityState(MessageWithMicrophoneAvailabilityState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17853 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimeUIElementsBridge::*)(int32_t)>(
     &::UnityEngine::UIElements::RuntimeUIElementsBridge::SetWantsMouseJumping)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a9b590;
+  constexpr static std::size_t addrs = 0x6a7edc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimeUIElementsBridge::*)()>(
     &::UnityEngine::UIElements::RuntimeUIElementsBridge::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a9b594;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a7edcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimeUIElementsBridge*>::get(),

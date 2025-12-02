@@ -6,9 +6,9 @@
 #include "GlobalNamespace/zzzz__BasicBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
+#include "GlobalNamespace/zzzz__IRandom_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__TrackLaneRingsRotationEffect_def.hpp"
-#include "System/zzzz__Random_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType::TrackLaneRingsRotationEffectSpawner_RotationStepType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::Start)> {
   constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3ba07c8;
+  constexpr static std::size_t addrs = 0x578f1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffectSpawner*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3ba08f0;
+  constexpr static std::size_t addrs = 0x578f2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffectSpawner*>::get(),
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::HandleBeatmapEvent)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3ba090c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x578f308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::*)()>(
     &::GlobalNamespace::TrackLaneRingsRotationEffectSpawner::_ctor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ba09d4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x578f3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TrackLaneRingsRotationEffectSpawner*>::get(),
@@ -171,15 +171,15 @@ constexpr void GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Random*& GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_internal_get__random() {
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_internal_get__random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr ::System::Random* const& GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_internal_get__random() const {
+constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_internal_get__random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr void GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_internal_set__random(::System::Random* value) {
+constexpr void GlobalNamespace::TrackLaneRingsRotationEffectSpawner::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

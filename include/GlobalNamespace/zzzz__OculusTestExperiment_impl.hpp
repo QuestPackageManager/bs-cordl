@@ -1,11 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusTestExperiment.hpp"
-#include "GlobalNamespace/zzzz__IExperimentData_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
+#include "GlobalNamespace/zzzz__IExperimentData_def.hpp"
 #include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "GlobalNamespace/zzzz__OculusTestExperiment_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -15,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OculusTestExperiment_ExperimentData::*)()>(
     &::GlobalNamespace::OculusTestExperiment_ExperimentData::get_experimentPlatformKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b0c68;
+  constexpr static std::size_t addrs = 0x35e2220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusTestExperiment_ExperimentData*>::get(),
@@ -28,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusTestExperiment_ExperimentData::*)(::StringW)>(
     &::GlobalNamespace::OculusTestExperiment_ExperimentData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26b0c70;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35e2228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusTestExperiment__Init_d__3::*)()>(
     &::GlobalNamespace::OculusTestExperiment__Init_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x474;
-  constexpr static std::size_t addrs = 0x26b0c98;
+  constexpr static std::size_t size = 0x470;
+  constexpr static std::size_t addrs = 0x35e2230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusTestExperiment__Init_d__3>::get(),
@@ -93,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusTestExperiment__Init_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::OculusTestExperiment__Init_d__3::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26b110c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35e26a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -139,8 +138,8 @@ constexpr ::GlobalNamespace::OculusTestExperiment__Init_d__3::OculusTestExperime
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusTestExperiment::*)()>(&::GlobalNamespace::OculusTestExperiment::Init)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26b0bd0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x35e2178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusTestExperiment*>::get(), "Init",
@@ -152,8 +151,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusTestExperiment::*)()>(&::GlobalNamespace::OculusTestExperiment::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b0c60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35e221c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusTestExperiment*>::get(), ".ctor",

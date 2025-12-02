@@ -3,6 +3,7 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseLeaveWindowEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MouseLeaveWindowEvent_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
@@ -11,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a2e814;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b6c75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent___c*>::get(),
@@ -25,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseLeaveWindowEvent* (::UnityEngine::UIElements::MouseLeaveWindowEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2e81c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b6c760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent___c*>::get(),
@@ -63,14 +64,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::Init)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2e3e8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b6c28c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 12));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -79,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::LocalInit)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a2e438;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6b6c2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(),
@@ -93,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)()>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a2e4dc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b6c2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(),
@@ -107,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseLeaveWindowEvent* (*)(::UnityEngine::Event*)>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::GetPooled)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a2e52c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6b6c348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::MouseLeaveWindowEvent::PostDispatch)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4a2e65c;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x6b6c480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,9 +134,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::MouseLeaveWindowEvent.Dispatch
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseLeaveWindowEvent::*)(::UnityEngine::UIElements::BaseVisualElementPanel*)>(
+    &::UnityEngine::UIElements::MouseLeaveWindowEvent::Dispatch)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6b6c680;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 10));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::UIElements::MouseLeaveWindowEvent::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::MouseLeaveWindowEvent::LocalInit() {
@@ -157,6 +174,11 @@ inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* UnityEngine::UIElements
 inline void UnityEngine::UIElements::MouseLeaveWindowEvent::PostDispatch(::UnityEngine::UIElements::IPanel* panel) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
+}
+inline void UnityEngine::UIElements::MouseLeaveWindowEvent::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseLeaveWindowEvent*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
 inline ::UnityEngine::UIElements::MouseLeaveWindowEvent* UnityEngine::UIElements::MouseLeaveWindowEvent::New_ctor() {

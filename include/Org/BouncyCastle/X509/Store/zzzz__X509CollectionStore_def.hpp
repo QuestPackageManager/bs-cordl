@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Store_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509CollectionStore)
 namespace Org::BouncyCastle::X509::Store {
 class IX509Selector;
+}
+namespace Org::BouncyCastle::X509::Store {
+class IX509Store;
 }
 namespace System::Collections {
 class ICollection;
@@ -18,7 +20,7 @@ class X509CollectionStore;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStore);
-// Dependencies Org.BouncyCastle.X509.Store.IX509Store, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: Org.BouncyCastle.X509.Store.X509CollectionStore
@@ -31,7 +33,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509Store"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509Store*() noexcept;
 
-  /// @brief Method GetMatches, addr 0x25eb878, size 0x448, virtual true, abstract: false, final true
+  /// @brief Method GetMatches, addr 0x351b508, size 0x42c, virtual true, abstract: false, final true
   inline ::System::Collections::ICollection* GetMatches(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStore* New_ctor(::System::Collections::ICollection* collection);
@@ -42,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__local(::System::Collections::ICollection* value);
 
-  /// @brief Method .ctor, addr 0x25eb804, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351b49c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509Store"

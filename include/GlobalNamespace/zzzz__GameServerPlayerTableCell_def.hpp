@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EntitlementStatus_def.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -112,7 +111,7 @@ public:
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <SetData>b__0, addr 0x3bfdd38, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <SetData>b__0, addr 0x57f1f48, size 0x80, virtual false, abstract: false, final false
   inline void _SetData_b__0(int32_t id, ::GlobalNamespace::GameplayModifierInfoListItem* listItem);
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* const& __cordl_internal_get_modifiersList() const;
@@ -121,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set_modifiersList(::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* value);
 
-  /// @brief Method .ctor, addr 0x3bfda88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f1c2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +138,7 @@ public:
   GameServerPlayerTableCell___c__DisplayClass30_0(GameServerPlayerTableCell___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4753 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
 
   /// @brief Field modifiersList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>* ___modifiersList;
@@ -152,8 +151,7 @@ static_assert(offsetof(::GlobalNamespace::GameServerPlayerTableCell___c__Display
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: GameServerPlayerTableCell/<SetBeatmapUseButtonEnabledAsync>d__36
@@ -163,10 +161,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bfddb4, size 0x45c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57f1fc8, size 0x52c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bfe210, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x57f24f4, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -188,7 +186,7 @@ public:
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6333 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -318,24 +316,24 @@ public:
   /// @brief Field useModifiersEvent, offset 0x130, size 0x8
   __declspec(property(get = __cordl_internal_get_useModifiersEvent, put = __cordl_internal_set_useModifiersEvent)) ::System::Action_1<int32_t>* useModifiersEvent;
 
-  /// @brief Method Awake, addr 0x3bfdb2c, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x57f1ce0, size 0x1a8, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleKickPlayerButtonPressed, addr 0x3bfdc78, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleKickPlayerButtonPressed, addr 0x57f1e88, size 0x20, virtual false, abstract: false, final false
   inline void HandleKickPlayerButtonPressed();
 
-  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x3bfdc98, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseBeatmapButtonPressed, addr 0x57f1ea8, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseBeatmapButtonPressed();
 
-  /// @brief Method HandleUseModifiersButtonPressed, addr 0x3bfdcb8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleUseModifiersButtonPressed, addr 0x57f1ec8, size 0x20, virtual false, abstract: false, final false
   inline void HandleUseModifiersButtonPressed();
 
   static inline ::GlobalNamespace::GameServerPlayerTableCell* New_ctor();
 
-  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x3bfda90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapUseButtonEnabledAsync, addr 0x57f1c30, size 0xb0, virtual false, abstract: false, final false
   inline void SetBeatmapUseButtonEnabledAsync(::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
-  /// @brief Method SetData, addr 0x3bfcfa0, size 0xae8, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x57f10e8, size 0xb44, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::IConnectedPlayer* connectedPlayer, ::GlobalNamespace::ILobbyPlayerData* playerData, bool hasKickPermissions, bool allowSelection,
                       ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* getLevelEntitlementTask);
 
@@ -489,25 +487,25 @@ public:
 
   constexpr void __cordl_internal_set_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x3bfdcd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f1ee8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3bfcb68, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x57f0c68, size 0xc0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useBeatmapEvent, addr 0x3bfccd0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useBeatmapEvent, addr 0x57f0de8, size 0xc0, virtual false, abstract: false, final false
   inline void add_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method add_useModifiersEvent, addr 0x3bfce38, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_useModifiersEvent, addr 0x57f0f68, size 0xc0, virtual false, abstract: false, final false
   inline void add_useModifiersEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3bfcc1c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x57f0d28, size 0xc0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useBeatmapEvent, addr 0x3bfcd84, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useBeatmapEvent, addr 0x57f0ea8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_useBeatmapEvent(::System::Action_1<int32_t>* value);
 
-  /// @brief Method remove_useModifiersEvent, addr 0x3bfceec, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_useModifiersEvent, addr 0x57f1028, size 0xc0, virtual false, abstract: false, final false
   inline void remove_useModifiersEvent(::System::Action_1<int32_t>* value);
 
 protected:
@@ -525,7 +523,7 @@ public:
   GameServerPlayerTableCell(GameServerPlayerTableCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6334 };
 
   /// @brief Field _playerNameText, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____playerNameText;

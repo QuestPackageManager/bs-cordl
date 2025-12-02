@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::*)(
     int32_t, int32_t, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2382188;
+  constexpr static std::size_t addrs = 0x32afb34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::DHParameters* (
     ::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::GenerateParameters)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x2382194;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x32afb40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::DHParametersGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2382854;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32b0220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

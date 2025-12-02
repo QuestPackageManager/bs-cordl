@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise_1)
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -19,7 +21,7 @@ template <typename T> class Task_WhenAllPromise_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::Task_WhenAllPromise_1);
-// Dependencies System.Threading.Tasks.ITaskCompletionAction, System.Threading.Tasks.Task`1<TResult>
+// Dependencies System.Threading.Tasks.Task`1<TResult>
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -86,7 +88,7 @@ public:
   Task_WhenAllPromise_1(Task_WhenAllPromise_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2801 };
 
   /// @brief Field m_tasks, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::System::Threading::Tasks::Task_1<T>*, ::Array<::System::Threading::Tasks::Task_1<T>*>*> ___m_tasks;

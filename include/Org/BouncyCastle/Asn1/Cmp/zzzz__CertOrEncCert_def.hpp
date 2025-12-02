@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 CORDL_MODULE_EXPORT(CertOrEncCert)
 namespace Org::BouncyCastle::Asn1::Cmp {
 class CmpCertificate;
@@ -18,6 +17,9 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace System {
 class Object;
 }
@@ -27,7 +29,7 @@ class CertOrEncCert;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Cmp.CertOrEncCert
@@ -47,7 +49,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x22f3f7c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x32212b8, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
@@ -56,7 +58,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::CertOrEncCert* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method ToAsn1Object, addr 0x22f4628, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3221920, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* const& __cordl_internal_get_certificate() const;
@@ -71,19 +73,19 @@ public:
 
   constexpr void __cordl_internal_set_encryptedCert(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* value);
 
-  /// @brief Method .ctor, addr 0x22f4530, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3221860, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* certificate);
 
-  /// @brief Method .ctor, addr 0x22f45a4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32218b8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* encryptedCert);
 
-  /// @brief Method .ctor, addr 0x22f4440, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3221770, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method get_Certificate, addr 0x22f4618, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Certificate, addr 0x3221910, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::CmpCertificate* get_Certificate();
 
-  /// @brief Method get_EncryptedCert, addr 0x22f4620, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncryptedCert, addr 0x3221918, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* get_EncryptedCert();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

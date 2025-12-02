@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "System/Data/PropertyCollection.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/Data/zzzz__PropertyCollection_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Data::PropertyCollection._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::PropertyCollection::*)()>(&::System::Data::PropertyCollection::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4184520;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5e2ea9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::PropertyCollection*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::PropertyCollection::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::PropertyCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4184528;
+  constexpr static std::size_t addrs = 0x5e2eaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::PropertyCollection::*)()>(&::System::Data::PropertyCollection::Clone)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x4184530;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x5e2eab0;
 
   inline static ::MethodInfo const* methodInfo() {
 

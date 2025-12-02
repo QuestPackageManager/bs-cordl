@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::HttpUtilities::IsSupportedSecureScheme)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x42127e8;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5eb9c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::HttpUtilities::IsSecureWebSocketScheme)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4212854;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5eb9c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

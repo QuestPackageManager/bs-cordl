@@ -49,7 +49,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::BombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ae74a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c3390, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +67,7 @@ public:
   BombNoteController_Pool(BombNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5654 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,33 +90,33 @@ public:
   /// @brief Field _wrapperGO, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__wrapperGO, put = __cordl_internal_set__wrapperGO)) ::UnityW<::UnityEngine::GameObject> _wrapperGO;
 
-  /// @brief Method Awake, addr 0x3ae65b0, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x56c230c, size 0x12c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidPassHalfJump, addr 0x3ae6d3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPassHalfJump, addr 0x56c2bdc, size 0x20, virtual false, abstract: false, final false
   inline void HandleDidPassHalfJump();
 
-  /// @brief Method HandleWasCutBySaber, addr 0x3ae6d60, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method HandleWasCutBySaber, addr 0x56c2bfc, size 0x258, virtual false, abstract: false, final false
   inline void HandleWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x3ae721c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x56c306c, size 0x20, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x3ae62d4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x56c2048, size 0x58, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData);
 
   static inline ::GlobalNamespace::BombNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x3ae6b40, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x56c2a0c, size 0x30, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x3ae71f8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x56c304c, size 0x20, virtual true, abstract: false, final false
   inline void NoteDidStartDissolving();
 
-  /// @brief Method OnDestroy, addr 0x3ae68b0, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56c26c8, size 0xe4, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x3ae7240, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x56c308c, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr ::UnityW<::GlobalNamespace::CuttableBySaber> const& __cordl_internal_get__cuttableBySaber() const;
@@ -131,7 +131,7 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3ae7250, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c309c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -149,7 +149,7 @@ public:
   BombNoteController(BombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5655 };
 
   /// @brief Field _cuttableBySaber, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CuttableBySaber> ____cuttableBySaber;

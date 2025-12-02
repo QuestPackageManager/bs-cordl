@@ -36,7 +36,7 @@ public:
   /// @brief Field glvEndomorphism, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_glvEndomorphism, put = __cordl_internal_set_glvEndomorphism)) ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism;
 
-  /// @brief Method MultiplyPositive, addr 0x24b8b34, size 0x264, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x33e7cb8, size 0x270, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::GlvMultiplier* New_ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve,
@@ -54,7 +54,7 @@ public:
 
   constexpr void __cordl_internal_set_glvEndomorphism(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* value);
 
-  /// @brief Method .ctor, addr 0x24b8a90, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e7c1c, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism* glvEndomorphism);
 
 protected:

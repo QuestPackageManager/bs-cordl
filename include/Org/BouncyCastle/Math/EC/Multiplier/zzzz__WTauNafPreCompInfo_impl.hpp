@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/WTauNafPreCompInfo.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__WTauNafPreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__AbstractF2mPoint_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo.get_PreComp
 template <>
@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> (::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::get_PreComp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24bcf24;
+  constexpr static std::size_t addrs = 0x33ebf2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*>)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::set_PreComp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24bcf2c;
+  constexpr static std::size_t addrs = 0x33ebf34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24bcf1c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33ebf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

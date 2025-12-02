@@ -10,24 +10,11 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::PersistentCallGroup::*)()>(&::UnityEngine::Events::PersistentCallGroup::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48becb8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x68c9cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Events::PersistentCallGroup.get_Count
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Events::PersistentCallGroup::*)()>(&::UnityEngine::Events::PersistentCallGroup::get_Count)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48bed38;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), "get_Count",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -37,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Events::PersistentCallGroup::*)(
     ::UnityEngine::Events::InvokableCallList*, ::UnityEngine::Events::UnityEventBase*)>(&::UnityEngine::Events::PersistentCallGroup::Initialize)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x48bed80;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x68c9d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,11 +51,6 @@ inline void UnityEngine::Events::PersistentCallGroup::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline int32_t UnityEngine::Events::PersistentCallGroup::get_Count() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Events::PersistentCallGroup*>::get(), "get_Count",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline void UnityEngine::Events::PersistentCallGroup::Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase) {
   static auto* ___internal_method = THROW_UNLESS(

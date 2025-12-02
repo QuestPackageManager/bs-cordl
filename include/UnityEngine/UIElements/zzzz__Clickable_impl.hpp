@@ -8,10 +8,6 @@
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IVisualElementScheduledItem_def.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseCaptureOutEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseMoveEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseUpEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCancelEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerCaptureOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
@@ -24,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action_1<::UnityEngine::UIElements::EventBase*>*)>(
     &::UnityEngine::UIElements::Clickable::add_clickedWithEventInfo)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4973df0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a15750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action_1<::UnityEngine::UIElements::EventBase*>*)>(
     &::UnityEngine::UIElements::Clickable::remove_clickedWithEventInfo)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4973ea0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a15810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*)>(
     &::UnityEngine::UIElements::Clickable::add_clicked)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4973f50;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6a158d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*)>(
     &::UnityEngine::UIElements::Clickable::remove_clicked)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4973fec;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6a1597c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::get_active)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4974088;
+  constexpr static std::size_t addrs = 0x6a15a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "get_active",
@@ -96,8 +92,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(bool)>(&::UnityEngine::UIElements::Clickable::set_active)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4974090;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a15a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Clickable::*)()>(
     &::UnityEngine::UIElements::Clickable::get_lastMousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497409c;
+  constexpr static std::size_t addrs = 0x6a15a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
@@ -126,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::Clickable::set_lastMousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49740a4;
+  constexpr static std::size_t addrs = 0x6a15a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)()>(
     &::UnityEngine::UIElements::Clickable::get_acceptClicksIfDisabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49740ac;
+  constexpr static std::size_t addrs = 0x6a15a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
@@ -154,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(bool)>(
     &::UnityEngine::UIElements::Clickable::set_acceptClicksIfDisabled)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49740b4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6a15a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::InvokePolicy (::UnityEngine::UIElements::Clickable::*)()>(
     &::UnityEngine::UIElements::Clickable::get_invokePolicy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4974104;
+  constexpr static std::size_t addrs = 0x6a15ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "get_invokePolicy",
@@ -184,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*, int64_t, int64_t)>(
     &::UnityEngine::UIElements::Clickable::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x497410c;
+  constexpr static std::size_t addrs = 0x6a15ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action_1<::UnityEngine::UIElements::EventBase*>*)>(
     &::UnityEngine::UIElements::Clickable::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4974200;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6a15bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,8 +209,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::System::Action*)>(&::UnityEngine::UIElements::Clickable::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4974138;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6a15aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -228,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::TimerState)>(
     &::UnityEngine::UIElements::Clickable::OnTimer)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x49742c8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6a15c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -243,7 +239,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::IsRepeatable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4974398;
+  constexpr static std::size_t addrs = 0x6a15d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "IsRepeatable",
@@ -255,8 +251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::RegisterCallbacksOnTarget)> {
-  constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x4974494;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x6a15e28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,8 +266,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(
     &::UnityEngine::UIElements::Clickable::UnregisterCallbacksFromTarget)> {
-  constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x4974990;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x6a160e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -280,73 +276,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.OnMouseDown
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::MouseDownEvent*)>(
-    &::UnityEngine::UIElements::Clickable::OnMouseDown)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4974e68;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseDown", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseDownEvent*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.OnMouseMove
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::MouseMoveEvent*)>(
-    &::UnityEngine::UIElements::Clickable::OnMouseMove)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4974f24;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseMove", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseMoveEvent*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.OnMouseUp
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::MouseUpEvent*)>(
-    &::UnityEngine::UIElements::Clickable::OnMouseUp)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4974f90;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseUp", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseUpEvent*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.OnMouseCaptureOut
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::MouseCaptureOutEvent*)>(
-    &::UnityEngine::UIElements::Clickable::OnMouseCaptureOut)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4975054;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseCaptureOut", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseCaptureOutEvent*>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::UIElements::Clickable.OnPointerDown
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerDownEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerDown)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x49750d8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6a163d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -360,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerMove)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4975208;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6a16478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -375,8 +311,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerUpEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerUp)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4975328;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6a164f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,8 +326,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerCancelEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerCancel)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4975460;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6a165a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -405,8 +341,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::PointerCaptureOutEvent*)>(
     &::UnityEngine::UIElements::Clickable::OnPointerCaptureOut)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4975550;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6a16638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -419,26 +355,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Clickable::*)(int32_t)>(&::UnityEngine::UIElements::Clickable::ContainsPointer)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49743bc;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6a15d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "ContainsPointer", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.IsNotMouseEvent
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::UnityEngine::UIElements::Clickable::IsNotMouseEvent)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49754ec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "IsNotMouseEvent", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -449,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::Clickable::Invoke)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x497443c;
+  constexpr static std::size_t addrs = 0x6a15dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -463,8 +385,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, int32_t)>(
     &::UnityEngine::UIElements::Clickable::SimulateSingleClick)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x49755c8;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6a166b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -474,13 +396,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::Clickable.ResetActivePseudoState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(&::UnityEngine::UIElements::Clickable::ResetActivePseudoState)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x6a1639c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
+                                                                               "ResetActivePseudoState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Clickable.ProcessDownEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2, int32_t)>(&::UnityEngine::UIElements::Clickable::ProcessDownEvent)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x4975794;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x6a16868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::Clickable::ProcessMoveEvent)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4975b1c;
+  constexpr static std::size_t addrs = 0x6a16bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -509,8 +444,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, ::UnityEngine::Vector2, int32_t)>(&::UnityEngine::UIElements::Clickable::ProcessUpEvent)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4975b88;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x6a16c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -524,27 +459,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)(::UnityEngine::UIElements::EventBase*, int32_t)>(
     &::UnityEngine::UIElements::Clickable::ProcessCancelEvent)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x4975d40;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6a16df4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::Clickable._SimulateSingleClick_b__43_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Clickable::*)()>(
-    &::UnityEngine::UIElements::Clickable::_SimulateSingleClick_b__43_0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4975eb4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
-                                                                               "<SimulateSingleClick>b__43_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -656,6 +577,18 @@ constexpr void UnityEngine::UIElements::Clickable::__cordl_internal_set_m_Repeat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Repeater)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& UnityEngine::UIElements::Clickable::__cordl_internal_get_m_PendingActivePseudoStateReset() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PendingActivePseudoStateReset;
+}
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& UnityEngine::UIElements::Clickable::__cordl_internal_get_m_PendingActivePseudoStateReset() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PendingActivePseudoStateReset;
+}
+constexpr void UnityEngine::UIElements::Clickable::__cordl_internal_set_m_PendingActivePseudoStateReset(::UnityEngine::UIElements::IVisualElementScheduledItem* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PendingActivePseudoStateReset)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 inline void UnityEngine::UIElements::Clickable::add_clickedWithEventInfo(::System::Action_1<::UnityEngine::UIElements::EventBase*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "add_clickedWithEventInfo", std::span<Il2CppClass const* const, 0>(),
@@ -758,30 +691,6 @@ inline void UnityEngine::UIElements::Clickable::UnregisterCallbacksFromTarget() 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::Clickable::OnMouseDown(::UnityEngine::UIElements::MouseDownEvent* evt) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseDown", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseDownEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
-}
-inline void UnityEngine::UIElements::Clickable::OnMouseMove(::UnityEngine::UIElements::MouseMoveEvent* evt) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseMove", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseMoveEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
-}
-inline void UnityEngine::UIElements::Clickable::OnMouseUp(::UnityEngine::UIElements::MouseUpEvent* evt) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseUp", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseUpEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
-}
-inline void UnityEngine::UIElements::Clickable::OnMouseCaptureOut(::UnityEngine::UIElements::MouseCaptureOutEvent* evt) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnMouseCaptureOut", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseCaptureOutEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
-}
 inline void UnityEngine::UIElements::Clickable::OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "OnPointerDown", std::span<Il2CppClass const* const, 0>(),
@@ -818,12 +727,6 @@ inline bool UnityEngine::UIElements::Clickable::ContainsPointer(int32_t pointerI
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, pointerId);
 }
-inline bool UnityEngine::UIElements::Clickable::IsNotMouseEvent(int32_t pointerId) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "IsNotMouseEvent",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, pointerId);
-}
 inline void UnityEngine::UIElements::Clickable::Invoke(::UnityEngine::UIElements::EventBase* evt) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), "Invoke", std::span<Il2CppClass const* const, 0>(),
@@ -836,6 +739,11 @@ inline void UnityEngine::UIElements::Clickable::SimulateSingleClick(::UnityEngin
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, delayMs);
+}
+inline void UnityEngine::UIElements::Clickable::ResetActivePseudoState() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
+                                                                             "ResetActivePseudoState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Clickable::ProcessDownEvent(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::Vector2 localPosition, int32_t pointerId) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -856,11 +764,6 @@ inline void UnityEngine::UIElements::Clickable::ProcessCancelEvent(::UnityEngine
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt, pointerId);
-}
-inline void UnityEngine::UIElements::Clickable::_SimulateSingleClick_b__43_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Clickable*>::get(),
-                                                                             "<SimulateSingleClick>b__43_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::Clickable* UnityEngine::UIElements::Clickable::New_ctor(::System::Action* handler, int64_t delay, int64_t interval) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Clickable*>(handler, delay, interval));

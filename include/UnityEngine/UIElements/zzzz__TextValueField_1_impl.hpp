@@ -1,11 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TextValueField_1.hpp"
-#include "UnityEngine/UIElements/zzzz__IValueField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldMouseDragger_def.hpp"
 #include "UnityEngine/UIElements/zzzz__DeltaSpeed_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IValueField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextValueField_1_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 template <typename TValueType> constexpr ::StringW& UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::__cordl_internal_get__formatString_k__BackingField() {
@@ -35,13 +36,13 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 template <typename TValueType> inline bool UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::AcceptCharacter(char16_t c) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 103)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 137)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, c);
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::get_allowedCharacters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 104)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 138)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::get_formatString() {
@@ -61,7 +62,7 @@ inline void UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>
                                                                                                         TValueType startValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 105)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 139)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::StartDragging() {
@@ -79,13 +80,13 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::ValueToString(TValueType value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 106)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 140)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::StringToValue(::StringW str) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 100)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>*>::get(), 136)));
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, str);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>::New_ctor() {
@@ -129,6 +130,15 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::TextValue
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ForceUpdateDisplay = value;
 }
+template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::setStaticF_formatStringProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "formatStringProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TextValueField_1<TValueType>::getStaticF_formatStringProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "formatStringProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get>();
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* UnityEngine::UIElements::TextValueField_1<TValueType>::get_textValueInput() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(),
                                                                              "get_textValueInput", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -138,6 +148,12 @@ template <typename TValueType> inline ::StringW UnityEngine::UIElements::TextVal
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(),
                                                                              "get_formatString", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::set_formatString(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), "set_formatString",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::TextValueField_1<TValueType>::_ctor(::StringW label, int32_t maxLength, ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* textValueInput) {
@@ -151,7 +167,7 @@ template <typename TValueType>
 inline void UnityEngine::UIElements::TextValueField_1<TValueType>::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 127)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 164)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::StartDragging() {
@@ -164,28 +180,16 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
                                                                              "StopDragging", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline TValueType UnityEngine::UIElements::TextValueField_1<TValueType>::get_value() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 107)));
-  return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method);
-}
-template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::set_value(TValueType value) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 108)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::UpdateValueFromText() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 120)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 157)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::UpdateTextFromValue() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 121)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 158)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::OnIsReadOnlyChanged(bool newValue) {
@@ -197,7 +201,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 template <typename TValueType> inline bool UnityEngine::UIElements::TextValueField_1<TValueType>::CanTryParse(::StringW textString) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 128)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 165)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, textString);
 }
 template <typename TValueType> template <typename TDraggerType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::AddLabelDragger() {
@@ -217,31 +221,31 @@ template <typename TValueType> inline void UnityEngine::UIElements::TextValueFie
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 117)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 153)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt) {
+template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::OnViewDataReady() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 96)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 132)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::RegisterEditingCallbacks() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 114)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 150)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::TextValueField_1<TValueType>::UnregisterEditingCallbacks() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 115)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextValueField_1<TValueType>*>::get(), 151)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType>

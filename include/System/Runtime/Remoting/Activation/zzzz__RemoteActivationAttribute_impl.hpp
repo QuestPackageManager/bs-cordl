@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Activation/RemoteActivationAttribute.hpp"
-#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_impl.hpp"
 #include "System/zzzz__Attribute_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__RemoteActivationAttribute_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IConstructionCallMessage_def.hpp"
 #include "System/Runtime/Remoting/Contexts/zzzz__Context_def.hpp"
+#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Activation::RemoteActivationAttribute._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Activation::RemoteActivationAttribute::*)(::System::Collections::IList*)>(
     &::System::Runtime::Remoting::Activation::RemoteActivationAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ce501c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59270e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Contexts::Context*, ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::RemoteActivationAttribute::IsContextOK)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5044;
+  constexpr static std::size_t addrs = 0x59270ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Activation::RemoteActivationAttribute::*)(
     ::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Activation::RemoteActivationAttribute::GetPropertiesForNewContext)> {
-  constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3ce504c;
+  constexpr static std::size_t size = 0x3c8;
+  constexpr static std::size_t addrs = 0x59270f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

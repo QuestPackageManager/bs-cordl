@@ -4,7 +4,6 @@
 #include "GlobalNamespace/zzzz__LevelFilter_impl.hpp"
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelSearchViewController_def.hpp"
@@ -34,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__35::*)()>(
     &::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__35::MoveNext)> {
-  constexpr static std::size_t size = 0x904;
-  constexpr static std::size_t addrs = 0x3b63c14;
+  constexpr static std::size_t size = 0xa0c;
+  constexpr static std::size_t addrs = 0x574eb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__35::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelSearchViewController__RefreshAsync_d__35::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b64518;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x574f544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::LevelSearchViewController::add_didPressSearchButtonEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b62c28;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574dde4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelSearchViewController>, ::GlobalNamespace::LevelFilter>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didPressSearchButtonEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b62cd8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574dea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,8 +129,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>*)>(&::GlobalNamespace::LevelSearchViewController::add_didFilterBeatmapLevelCollectionEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b62d88;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574b2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::System::Action_2<::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::LevelSelectionOptions>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didFilterBeatmapLevelCollectionEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b62e38;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574bad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*)>(&::GlobalNamespace::LevelSearchViewController::add_didStartLoadingEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b62ee8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574b36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelSearchViewController>>*)>(&::GlobalNamespace::LevelSearchViewController::remove_didStartLoadingEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b62f98;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574bb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSearchViewController::*)()>(
     &::GlobalNamespace::LevelSearchViewController::IsFilteringPlayCounts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b63048;
+  constexpr static std::size_t addrs = 0x574c088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(),
@@ -209,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(
     ::ArrayW<::GlobalNamespace::BeatmapLevelPack*, ::Array<::GlobalNamespace::BeatmapLevelPack*>*>)>(&::GlobalNamespace::LevelSearchViewController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b63050;
+  constexpr static std::size_t addrs = 0x574df64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(bool)>(
     &::GlobalNamespace::LevelSearchViewController::ResetFilter)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b63058;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x574be78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)()>(&::GlobalNamespace::LevelSearchViewController::Refresh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b630d8;
+  constexpr static std::size_t addrs = 0x574c090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), "Refresh",
@@ -253,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(::ByRef<::GlobalNamespace::LevelFilter>)>(
     &::GlobalNamespace::LevelSearchViewController::Refresh)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b6316c;
+  constexpr static std::size_t addrs = 0x574e028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,8 +266,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LevelSearchViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b6318c;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x574e048;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(bool, bool)>(
     &::GlobalNamespace::LevelSearchViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3b63318;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x574e220;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -297,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(bool)>(
     &::GlobalNamespace::LevelSearchViewController::ResetAllFilterSettings)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b63074;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x574df6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(::StringW)>(
     &::GlobalNamespace::LevelSearchViewController::ResetTextFilterSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b633e0;
+  constexpr static std::size_t addrs = 0x574e300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -327,8 +326,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(bool)>(
     &::GlobalNamespace::LevelSearchViewController::ResetOptionFilterSettings)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b633e8;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x574e308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -342,8 +341,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)()>(
     &::GlobalNamespace::LevelSearchViewController::RefreshAsync)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b630dc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x574df84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(),
@@ -356,8 +355,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)(::HMUI::InputFieldView*)>(
     &::GlobalNamespace::LevelSearchViewController::SearchTextInputFieldViewOnValueChanged)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b63494;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x574e3c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -372,8 +371,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(
     ::ByRef<::GlobalNamespace::LevelFilter>, ::GlobalNamespace::SongPackMasksModel*, ::System::Collections::Generic::IReadOnlyList_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, bool)>(
     &::GlobalNamespace::LevelSearchViewController::LocalizedLevelFilterParamsDescription)> {
-  constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x3b634b0;
+  constexpr static std::size_t size = 0x664;
+  constexpr static std::size_t addrs = 0x574e3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,8 +389,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)()>(&::GlobalNamespace::LevelSearchViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b63b7c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x574eac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(), ".ctor",
@@ -404,8 +403,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)()>(
     &::GlobalNamespace::LevelSearchViewController::_DidActivate_b__30_0)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b63b84;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x574eac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(),
@@ -419,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSearchViewController::*)()>(
     &::GlobalNamespace::LevelSearchViewController::_DidActivate_b__30_1)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b63bf0;
+  constexpr static std::size_t addrs = 0x574eb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSearchViewController*>::get(),
@@ -432,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, ::StringW)>(
     &::GlobalNamespace::LevelSearchViewController::_LocalizedLevelFilterParamsDescription_g__Append_37_0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b63b00;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x574ea3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

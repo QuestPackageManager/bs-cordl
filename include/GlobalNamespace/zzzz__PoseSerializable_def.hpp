@@ -5,8 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__QuaternionSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__Vector3Serializable_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -18,10 +16,16 @@ namespace GlobalNamespace {
 struct Vector3Serializable;
 }
 namespace LiteNetLib::Utils {
+class INetSerializable;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -35,7 +39,7 @@ struct PoseSerializable;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::PoseSerializable);
-// Dependencies LiteNetLib.Utils.INetSerializable, QuaternionSerializable, System.IEquatable`1<T>, Vector3Serializable
+// Dependencies QuaternionSerializable, Vector3Serializable
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: PoseSerializable
@@ -48,31 +52,31 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::PoseSerializable>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>*();
 
-  /// @brief Method Deserialize, addr 0x2726350, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x3655b14, size 0x28, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x27263e4, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x3655ba8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x2726378, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x3655b3c, size 0x6c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::PoseSerializable other);
 
-  /// @brief Method GetHashCode, addr 0x2726474, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x3655c3c, size 0x44, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetSize, addr 0x27265ac, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method GetSize, addr 0x3655d70, size 0x2c, virtual false, abstract: false, final false
   inline int32_t GetSize();
 
-  /// @brief Method Serialize, addr 0x2726328, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x3655aec, size 0x28, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method ToString, addr 0x27264e0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x3655c80, size 0xf0, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x27262f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3655ab4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation);
 
-  /// @brief Method get_identity, addr 0x2726304, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_identity, addr 0x3655ac8, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable get_identity();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetSerializable"
@@ -81,16 +85,16 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::PoseSerializable>"
   constexpr ::System::IEquatable_1<::GlobalNamespace::PoseSerializable>* i___System__IEquatable_1___GlobalNamespace__PoseSerializable_();
 
-  /// @brief Method op_Addition, addr 0x27266ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x3655e80, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable op_Addition(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b);
 
-  /// @brief Method op_Implicit, addr 0x2726670, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3655e04, size 0x7c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable op_Implicit___GlobalNamespace__PoseSerializable(::UnityEngine::Pose p);
 
-  /// @brief Method op_Implicit, addr 0x27265d8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x3655d9c, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Pose op_Implicit___UnityEngine__Pose(::GlobalNamespace::PoseSerializable p);
 
-  /// @brief Method op_Subtraction, addr 0x2726750, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x3655ee4, size 0x64, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::PoseSerializable op_Subtraction(::GlobalNamespace::PoseSerializable a, ::GlobalNamespace::PoseSerializable b);
 
   // Ctor Parameters []
@@ -102,7 +106,7 @@ public:
   constexpr PoseSerializable(::GlobalNamespace::Vector3Serializable position, ::GlobalNamespace::QuaternionSerializable rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20861 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

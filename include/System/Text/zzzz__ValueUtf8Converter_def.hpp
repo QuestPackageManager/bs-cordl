@@ -26,13 +26,13 @@ namespace System::Text {
 struct CORDL_TYPE ValueUtf8Converter {
 public:
   // Declarations
-  /// @brief Method ConvertAndTerminateString, addr 0x3c8cbac, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method ConvertAndTerminateString, addr 0x58d11fc, size 0x228, virtual false, abstract: false, final false
   inline ::System::Span_1<uint8_t> ConvertAndTerminateString(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method Dispose, addr 0x3c8ce40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x58d14e4, size 0x10c, virtual false, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x3c8cba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d11f0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Span_1<uint8_t> initialBuffer);
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
   constexpr ValueUtf8Converter(::ArrayW<uint8_t, ::Array<uint8_t>*> _arrayToReturnToPool, ::System::Span_1<uint8_t> _bytes) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2888 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

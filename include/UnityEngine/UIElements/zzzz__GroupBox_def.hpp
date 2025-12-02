@@ -4,7 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BindableElement_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GroupBox)
@@ -19,6 +19,9 @@ class GroupBox_UxmlTraits;
 }
 namespace UnityEngine::UIElements {
 class IGroupBoxOption;
+}
+namespace UnityEngine::UIElements {
+class IGroupBox;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -55,7 +58,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::GroupBox_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4999354, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b11e30, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +76,7 @@ public:
   GroupBox_UxmlFactory(GroupBox_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5589 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,10 +91,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE GroupBox_UxmlTraits : public ::UnityEngine::UIElements::BindableElement_UxmlTraits {
 public:
   // Declarations
-  /// @brief Field m_Text, offset 0x78, size 0x8
+  /// @brief Field m_Text, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x499939c, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b11e98, size 0x11c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::GroupBox_UxmlTraits* New_ctor();
@@ -102,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4999494, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b11fb4, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -120,20 +123,20 @@ public:
   GroupBox_UxmlTraits(GroupBox_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
 
-  /// @brief Field m_Text, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_Text, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::GroupBox_UxmlTraits, ___m_Text) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GroupBox_UxmlTraits, ___m_Text) == 0x90, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox_UxmlTraits, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox_UxmlTraits, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.BindableElement, UnityEngine.UIElements.IGroupBox
+// Dependencies UnityEngine.UIElements.BindableElement, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.GroupBox
@@ -147,10 +150,13 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_TitleLabel, offset 0x3d8, size 0x8
+  /// @brief Field m_TitleLabel, offset 0x4b8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TitleLabel, put = __cordl_internal_set_m_TitleLabel)) ::UnityEngine::UIElements::Label* m_TitleLabel;
 
-  __declspec(property(put = set_text)) ::StringW text;
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+
+  /// @brief Field textProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_textProperty, put = setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId textProperty;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
@@ -162,10 +168,10 @@ public:
 
   static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW text);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x49992ac, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x6b11cd0, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionAdded(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x49992b0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x6b11cd4, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBox_OnOptionRemoved(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::UnityEngine::UIElements::Label* const& __cordl_internal_get_m_TitleLabel() const;
@@ -174,24 +180,31 @@ public:
 
   constexpr void __cordl_internal_set_m_TitleLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x499921c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b11c3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4999224, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b11c44, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW text);
 
   static inline ::StringW getStaticF_labelUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_textProperty();
+
   static inline ::StringW getStaticF_ussClassName();
+
+  /// @brief Method get_text, addr 0x6b119c4, size 0x1c, virtual false, abstract: false, final false
+  inline ::StringW get_text();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
   constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
 
   static inline void setStaticF_labelUssClassName(::StringW value);
 
+  static inline void setStaticF_textProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_text, addr 0x4999104, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6b119e0, size 0x19c, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -209,17 +222,17 @@ public:
   GroupBox(GroupBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4203 };
 
-  /// @brief Field m_TitleLabel, offset: 0x3d8, size: 0x8, def value: None
+  /// @brief Field m_TitleLabel, offset: 0x4b8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_TitleLabel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 0x3d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 0x4b8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox, 0x3e0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox, 0x4c0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::GroupBox);

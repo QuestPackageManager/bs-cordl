@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e1b48;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6aeae88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* (
     ::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c::*)()>(&::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49e1b50;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6aeae8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::set_linkID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e19c0;
+  constexpr static std::size_t addrs = 0x6aeacfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::*)(::StringW)>(
     &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::set_linkText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e19c8;
+  constexpr static std::size_t addrs = 0x6aead04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,14 +96,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::Init)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49e19d0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6aead0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent*>::get(), 12));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::LocalInit)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49e1a24;
+  constexpr static std::size_t addrs = 0x6aead64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,8 +128,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent* (*)(::UnityEngine::UIElements::IPointerEvent*, ::StringW, ::StringW)>(
         &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::GetPooled)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x49e1a30;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6aead70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::*)()>(
     &::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49e1a98;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6aeaddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -193,7 +193,7 @@ inline void UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::set_
 inline void UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::Init() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Experimental::PointerDownLinkTagEvent::LocalInit() {

@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryKeyboardLayoutCommand)
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer;
 }
@@ -41,7 +43,7 @@ public:
   constexpr QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -61,8 +63,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayout
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer, 0x100>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.LowLevel.InputDeviceCommand,
-// UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::<nameBuffer>e__FixedBuffer
+// Dependencies UnityEngine.InputSystem.LowLevel.InputDeviceCommand, UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand::<nameBuffer>e__FixedBuffer
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.QueryKeyboardLayoutCommand
@@ -84,13 +85,13 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x4607d78, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x638f890, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand Create();
 
-  /// @brief Method ReadLayoutName, addr 0x4607d14, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadLayoutName, addr 0x638f834, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ReadLayoutName();
 
-  /// @brief Method WriteLayoutName, addr 0x4607d24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method WriteLayoutName, addr 0x638f854, size 0x30, virtual false, abstract: false, final false
   inline void WriteLayoutName(::StringW name);
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -105,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set_nameBuffer(::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand__nameBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x4607ce4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x638f828, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x4607d48, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x638f884, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -158,7 +159,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x108 };

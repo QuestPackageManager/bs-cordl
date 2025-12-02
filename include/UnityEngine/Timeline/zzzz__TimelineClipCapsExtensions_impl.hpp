@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsLooping)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x481ff68;
+  constexpr static std::size_t addrs = 0x67a06c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsExtrapolation)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x481ff80;
+  constexpr static std::size_t addrs = 0x67a06dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsClipIn)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x481ff98;
+  constexpr static std::size_t addrs = 0x67a06f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsSpeedMultiplier)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x481ffb0;
+  constexpr static std::size_t addrs = 0x67a070c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::TimelineClip*)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::SupportsBlending)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x481ffc8;
+  constexpr static std::size_t addrs = 0x67a0724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::ClipCaps, ::UnityEngine::Timeline::ClipCaps)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::HasAll)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x481ffe0;
+  constexpr static std::size_t addrs = 0x67a073c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Timeline::ClipCaps, ::UnityEngine::Timeline::ClipCaps)>(
     &::UnityEngine::Timeline::TimelineClipCapsExtensions::HasAny)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4812af4;
+  constexpr static std::size_t addrs = 0x6792f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

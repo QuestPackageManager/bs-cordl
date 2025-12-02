@@ -26,8 +26,8 @@ public:
   /// @brief Field next, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_next, put = __cordl_internal_set_next)) ::UnityEngine::UIElements::UIR::BasicNode_1<T>* next;
 
-  /// @brief Method AppendTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void AppendTo(::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first);
+  /// @brief Method InsertFirst, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void InsertFirst(::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first);
 
   static inline ::UnityEngine::UIElements::UIR::BasicNode_1<T>* New_ctor();
 
@@ -61,7 +61,7 @@ public:
   BasicNode_1(BasicNode_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5307 };
 
   /// @brief Field next, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::BasicNode_1<T>* ___next;

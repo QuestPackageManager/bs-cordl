@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/DerStringBase.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerStringBase_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1String_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DerStringBase._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerStringBase::*)()>(&::Org::BouncyCastle::Asn1::DerStringBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f9a60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3226d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerStringBase*>::get(), ".ctor",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerStringBase::*)()>(&::Org::BouncyCastle::Asn1::DerStringBase::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22f9a68;
+  constexpr static std::size_t addrs = 0x3226d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerStringBase::*)()>(
     &::Org::BouncyCastle::Asn1::DerStringBase::Asn1GetHashCode)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22f9a74;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3226d98;
 
   inline static ::MethodInfo const* methodInfo() {
 

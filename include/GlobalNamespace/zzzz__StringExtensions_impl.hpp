@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t, bool)>(&::GlobalNamespace::StringExtensions::Truncate)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x229fe4c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x31e5bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::StringW, ::System::StringComparison)>(&::GlobalNamespace::StringExtensions::Contains)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x229ff14;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x31e5c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<::StringW, ::Array<::StringW>*>, ::StringW, ::System::StringComparison)>(
     &::GlobalNamespace::StringExtensions::AnyContains)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x229ff34;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x31e5cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

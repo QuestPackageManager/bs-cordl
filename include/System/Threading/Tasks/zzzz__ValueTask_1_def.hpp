@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -30,6 +29,9 @@ template <typename TResult> class ValueTask_1_ValueTaskSourceAsTask;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -87,7 +89,7 @@ public:
   ValueTaskSourceAsTask_ValueTask_1___c(ValueTaskSourceAsTask_ValueTask_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -149,7 +151,7 @@ public:
   ValueTask_1_ValueTaskSourceAsTask(ValueTask_1_ValueTaskSourceAsTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2780 };
 
   /// @brief Field _source, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Sources::IValueTaskSource_1<TResult>* ____source;
@@ -161,7 +163,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -245,7 +247,7 @@ public:
   constexpr ValueTask_1(::System::Object* _obj, TResult _result, int16_t _token, bool _continueOnCapturedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2781 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

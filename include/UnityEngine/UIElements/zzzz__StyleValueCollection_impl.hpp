@@ -5,7 +5,13 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StyleValue_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleBackgroundPosition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleBackgroundRepeat_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleBackground_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleColor_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleFloat_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleFontDefinition_def.hpp"
+#include "UnityEngine/UIElements/zzzz__StyleFont_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleInt_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleLength_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleLength
@@ -13,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleLength (::UnityEngine::UIElements::StyleValueCollection::*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleLength)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a83f4c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6a5beb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFloat (::UnityEngine::UIElements::StyleValueCollection::*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleFloat)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a841a4;
+  constexpr static std::size_t addrs = 0x6a5c0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,11 +50,101 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleInt (::UnityEngine::UIElements::StyleValueCollection::*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleInt)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a84210;
+  constexpr static std::size_t addrs = 0x6a5c154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleInt", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleColor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleColor (::UnityEngine::UIElements::StyleValueCollection::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleColor)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6a5c1d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleColor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleBackground
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleBackground (::UnityEngine::UIElements::StyleValueCollection::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleBackground)> {
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x6a5c268;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleBackground", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleBackgroundPosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleBackgroundPosition (::UnityEngine::UIElements::StyleValueCollection::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleBackgroundPosition)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6a5c5a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleBackgroundPosition", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleBackgroundRepeat
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleBackgroundRepeat (::UnityEngine::UIElements::StyleValueCollection::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleBackgroundRepeat)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6a5c618;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleBackgroundRepeat", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleFont
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFont (::UnityEngine::UIElements::StyleValueCollection::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleFont)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6a5c690;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleFont", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::StyleValueCollection.GetStyleFontDefinition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleFontDefinition (::UnityEngine::UIElements::StyleValueCollection::*)(
+    ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(&::UnityEngine::UIElements::StyleValueCollection::GetStyleFontDefinition)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6a5c780;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleFontDefinition", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
     return ___internal_method;
   }
@@ -58,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleValueCollection::*)(
     ::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue>)>(&::UnityEngine::UIElements::StyleValueCollection::TryGetStyleValue)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4a83fc0;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x6a5bf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,8 +170,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleValueCollection::*)(::UnityEngine::UIElements::StyleSheets::StyleValue)>(
     &::UnityEngine::UIElements::StyleValueCollection::SetStyleValue)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4a84294;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x6a5c854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +185,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleValueCollection::*)()>(
     &::UnityEngine::UIElements::StyleValueCollection::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a84480;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6a5ca68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), ".ctor",
@@ -127,6 +223,42 @@ inline ::UnityEngine::UIElements::StyleInt UnityEngine::UIElements::StyleValueCo
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleInt", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleInt, false>(this, ___internal_method, id);
+}
+inline ::UnityEngine::UIElements::StyleColor UnityEngine::UIElements::StyleValueCollection::GetStyleColor(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleColor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleColor, false>(this, ___internal_method, id);
+}
+inline ::UnityEngine::UIElements::StyleBackground UnityEngine::UIElements::StyleValueCollection::GetStyleBackground(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleBackground", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackground, false>(this, ___internal_method, id);
+}
+inline ::UnityEngine::UIElements::StyleBackgroundPosition UnityEngine::UIElements::StyleValueCollection::GetStyleBackgroundPosition(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleBackgroundPosition", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackgroundPosition, false>(this, ___internal_method, id);
+}
+inline ::UnityEngine::UIElements::StyleBackgroundRepeat UnityEngine::UIElements::StyleValueCollection::GetStyleBackgroundRepeat(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleBackgroundRepeat", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleBackgroundRepeat, false>(this, ___internal_method, id);
+}
+inline ::UnityEngine::UIElements::StyleFont UnityEngine::UIElements::StyleValueCollection::GetStyleFont(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleFont", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFont, false>(this, ___internal_method, id);
+}
+inline ::UnityEngine::UIElements::StyleFontDefinition UnityEngine::UIElements::StyleValueCollection::GetStyleFontDefinition(::UnityEngine::UIElements::StyleSheets::StylePropertyId id) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleValueCollection*>::get(), "GetStyleFontDefinition", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::StyleSheets::StylePropertyId>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::StyleFontDefinition, false>(this, ___internal_method, id);
 }
 inline bool UnityEngine::UIElements::StyleValueCollection::TryGetStyleValue(::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
                                                                             ::ByRef<::UnityEngine::UIElements::StyleSheets::StyleValue> value) {

@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)()>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2654510;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x3583b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator*>::get(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2654564;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3583b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::StringW, ::Org::BouncyCastle::Crypto::CipherKeyGenerator*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
-  constexpr static std::size_t size = 0xc5c;
-  constexpr static std::size_t addrs = 0x26545c8;
+  constexpr static std::size_t size = 0xbf8;
+  constexpr static std::size_t addrs = 0x3583bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::StringW)>(&::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x2655224;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x35847f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::Org::BouncyCastle::Crypto::ICipherBuilderWithKey*)>(
     &::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
-  constexpr static std::size_t size = 0xc94;
-  constexpr static std::size_t addrs = 0x26553c8;
+  constexpr static std::size_t size = 0xc98;
+  constexpr static std::size_t addrs = 0x35849a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsEnvelopedData* (
     ::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::*)(::Org::BouncyCastle::Cms::CmsProcessable*, ::StringW, int32_t)>(&::Org::BouncyCastle::Cms::CmsEnvelopedDataGenerator::Generate)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x265605c;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x3585638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

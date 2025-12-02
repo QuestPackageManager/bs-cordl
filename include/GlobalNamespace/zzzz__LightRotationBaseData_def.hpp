@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_usePreviousEventRotationValue(bool value);
 
-  /// @brief Method .ctor, addr 0x26bfd40, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f1b34, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, bool usePreviousEventRotationValue, ::GlobalNamespace::EaseType easeType, float_t rotation, int32_t loopsCount,
                     ::GlobalNamespace::LightRotationDirection rotationDirection);
 
@@ -104,7 +104,7 @@ public:
   LightRotationBaseData(LightRotationBaseData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14892 };
 
   /// @brief Field beat, offset: 0x10, size: 0x4, def value: None
   float_t ___beat;

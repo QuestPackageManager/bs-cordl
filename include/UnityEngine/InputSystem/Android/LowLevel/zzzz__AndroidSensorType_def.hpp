@@ -51,6 +51,7 @@ public:
     __E_HeartBeat = static_cast<int32_t>(0x1f),
     __E_LowLatencyOffBodyDetect = static_cast<int32_t>(0x22),
     __E_AccelerometerUncalibrated = static_cast<int32_t>(0x23),
+    __E_HingeAngle = static_cast<int32_t>(0x24),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -99,6 +100,9 @@ public:
 
   /// @brief Field HeartRate value: I32(21)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HeartRate;
+
+  /// @brief Field HingeAngle value: I32(36)
+  static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const HingeAngle;
 
   /// @brief Field Light value: I32(5)
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Light;
@@ -155,7 +159,7 @@ public:
   static ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorType const Temperature;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8923 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

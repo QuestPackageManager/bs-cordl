@@ -3,24 +3,36 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeArray_1)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace System {
+template <typename T> struct ReadOnlySpan_1;
+}
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace Unity::Collections {
 struct Allocator;
@@ -58,7 +70,7 @@ MARK_GEN_VAL_T(::Unity::Collections::NativeArray_1);
 MARK_GEN_VAL_T(::Unity::Collections::NativeArray_1_Enumerator);
 MARK_GEN_VAL_T(::Unity::Collections::NativeArray_1_ReadOnly);
 MARK_GEN_VAL_T(::Unity::Collections::ReadOnly_NativeArray_1_Enumerator);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IDisposable, System.IEquatable`1<T>, Unity.Collections.Allocator
+// Dependencies Unity.Collections.Allocator
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -95,6 +107,12 @@ public:
   /// @brief Method AsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::NativeArray_1_ReadOnly<T> AsReadOnly();
 
+  /// @brief Method AsReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::ReadOnlySpan_1<T> AsReadOnlySpan();
+
+  /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Span_1<T> AsSpan();
+
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::ArrayW<T, ::Array<T>*> src, ::Unity::Collections::NativeArray_1<T> dst);
 
@@ -111,10 +129,16 @@ public:
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, ::Unity::Collections::NativeArray_1<T> dst, int32_t length);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::ArrayW<T, ::Array<T>*> dst, int32_t dstIndex, int32_t length);
+
+  /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1<T> src, int32_t srcIndex, ::Unity::Collections::NativeArray_1<T> dst, int32_t dstIndex, int32_t length);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void Copy(::Unity::Collections::NativeArray_1_ReadOnly<T> src, ::ArrayW<T, ::Array<T>*> dst, int32_t length);
+
+  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void CopyFrom(::ArrayW<T, ::Array<T>*> array);
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::Unity::Collections::NativeArray_1<T> array);
@@ -152,8 +176,14 @@ public:
   /// @brief Method GetHashCode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
+  /// @brief Method GetSubArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeArray_1<T> GetSubArray(int32_t start, int32_t length);
+
   /// @brief Method InternalReinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> inline ::Unity::Collections::NativeArray_1<U> InternalReinterpret(int32_t length);
+
+  /// @brief Method Reinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename U> inline ::Unity::Collections::NativeArray_1<U> Reinterpret();
 
   /// @brief Method Reinterpret, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename U> inline ::Unity::Collections::NativeArray_1<U> Reinterpret(int32_t expectedTypeSize);
@@ -169,6 +199,9 @@ public:
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<T, ::Array<T>*> array, ::Unity::Collections::Allocator allocator);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::Unity::Collections::NativeArray_1<T> array, ::Unity::Collections::Allocator allocator);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(int32_t length, ::Unity::Collections::Allocator allocator, ::Unity::Collections::NativeArrayOptions options);
@@ -194,6 +227,15 @@ public:
   /// @brief Convert to "::System::IEquatable_1<::Unity::Collections::NativeArray_1<T>>"
   constexpr ::System::IEquatable_1<::Unity::Collections::NativeArray_1<T>>* i___System__IEquatable_1___Unity__Collections__NativeArray_1_T__();
 
+  /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool op_Equality(::Unity::Collections::NativeArray_1<T> left, ::Unity::Collections::NativeArray_1<T> right);
+
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(::ByRef<::Unity::Collections::NativeArray_1<T>> source);
+
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Span_1<T> op_Implicit___System__Span_1_T_(::ByRef<::Unity::Collections::NativeArray_1<T>> source);
+
   /// @brief Method set_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, T value);
 
@@ -201,18 +243,18 @@ public:
   // @brief default ctor
   constexpr NativeArray_1();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
-  constexpr NativeArray_1(::cordl_internals::Ptr<void> m_Buffer, int32_t m_Length, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "m_AllocatorLabel", ty: "::Unity::Collections::Allocator", modifiers: "", def_value: None }]
+  constexpr NativeArray_1(void* m_Buffer, int32_t m_Length, ::Unity::Collections::Allocator m_AllocatorLabel) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> m_Buffer;
+  void* m_Buffer;
 
   /// @brief Field m_Length, offset: 0x8, size: 0x4, def value: None
   int32_t m_Length;
@@ -224,7 +266,7 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, Unity.Collections.NativeArray`1<T>
+// Dependencies Unity.Collections.NativeArray`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -282,7 +324,7 @@ public:
   constexpr NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9967 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -300,7 +342,7 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -321,6 +363,9 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*();
 
+  /// @brief Method AsReadOnlySpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::ReadOnlySpan_1<T> AsReadOnlySpan();
+
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::Unity::Collections::ReadOnly_NativeArray_1_Enumerator<T> GetEnumerator();
 
@@ -333,8 +378,11 @@ public:
   /// @brief Method ToArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ArrayW<T, ::Array<T>*> ToArray();
 
+  /// @brief Method UnsafeElementAt, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::ByRef<T> UnsafeElementAt(int32_t index);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> buffer, int32_t length);
+  inline void _ctor(void* buffer, int32_t length);
 
   /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T get_Item(int32_t index);
@@ -348,21 +396,24 @@ public:
   /// @brief Convert to "::System::Collections::IEnumerable"
   constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable();
 
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(::ByRef<::Unity::Collections::NativeArray_1_ReadOnly<T>> source);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr NativeArray_1_ReadOnly();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NativeArray_1_ReadOnly(::cordl_internals::Ptr<void> m_Buffer, int32_t m_Length) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NativeArray_1_ReadOnly(void* m_Buffer, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10603 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> m_Buffer;
+  void* m_Buffer;
 
   /// @brief Field m_Length, offset: 0x8, size: 0x4, def value: None
   int32_t m_Length;
@@ -371,7 +422,7 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, Unity.Collections.NativeArray`1::ReadOnly<T>
+// Dependencies Unity.Collections.NativeArray`1::ReadOnly<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -429,7 +480,7 @@ public:
   constexpr ReadOnly_NativeArray_1_Enumerator(::Unity::Collections::NativeArray_1_ReadOnly<T> m_Array, int32_t m_Index, T value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10602 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9968 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

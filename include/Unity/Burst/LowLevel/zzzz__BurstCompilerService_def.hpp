@@ -17,6 +17,9 @@ class Object;
 namespace Unity::Burst::LowLevel {
 struct BurstCompilerService_BurstLogType;
 }
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 namespace UnityEngine {
 struct Hash128;
 }
@@ -73,7 +76,7 @@ public:
   static ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10003 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -98,33 +101,41 @@ public:
   // Declarations
   using BurstLogType = ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType;
 
-  /// @brief Method CompileAsyncDelegateMethod, addr 0x4862114, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CompileAsyncDelegateMethod, addr 0x682be80, size 0x13c, virtual false, abstract: false, final false
   static inline int32_t CompileAsyncDelegateMethod(::System::Object* delegateMethod, ::StringW compilerOptions);
 
-  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x4862158, size 0x3c, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<void> GetAsyncCompiledAsyncDelegateMethod(int32_t userID);
+  /// @brief Method CompileAsyncDelegateMethod_Injected, addr 0x682bfbc, size 0x44, virtual false, abstract: false, final false
+  static inline int32_t CompileAsyncDelegateMethod_Injected(::System::Object* delegateMethod, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> compilerOptions);
 
-  /// @brief Method GetCurrentExecutionMode, addr 0x48621d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetAsyncCompiledAsyncDelegateMethod, addr 0x682c000, size 0x3c, virtual false, abstract: false, final false
+  static inline void* GetAsyncCompiledAsyncDelegateMethod(int32_t userID);
+
+  /// @brief Method GetCurrentExecutionMode, addr 0x682c078, size 0x28, virtual false, abstract: false, final false
   static inline uint32_t GetCurrentExecutionMode();
 
-  /// @brief Method GetDisassembly, addr 0x48620d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetDisassembly, addr 0x682bc74, size 0x1b8, virtual false, abstract: false, final false
   static inline ::StringW GetDisassembly(::System::Reflection::MethodInfo* m, ::StringW compilerOptions);
 
-  /// @brief Method GetOrCreateSharedMemory, addr 0x486194c, size 0x54, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<void> GetOrCreateSharedMemory(::ByRef<::UnityEngine::Hash128> key, uint32_t size_of, uint32_t alignment);
+  /// @brief Method GetDisassembly_Injected, addr 0x682be2c, size 0x54, virtual false, abstract: false, final false
+  static inline void GetDisassembly_Injected(::System::Reflection::MethodInfo* m, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> compilerOptions,
+                                             ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
 
-  /// @brief Method LoadBurstLibrary, addr 0x48622d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetOrCreateSharedMemory, addr 0x682b420, size 0x54, virtual false, abstract: false, final false
+  static inline void* GetOrCreateSharedMemory(::ByRef<::UnityEngine::Hash128> key, uint32_t size_of, uint32_t alignment);
+
+  /// @brief Method LoadBurstLibrary, addr 0x682c178, size 0x130, virtual false, abstract: false, final false
   static inline bool LoadBurstLibrary(::StringW fullPathToLibBurstGenerated);
 
-  /// @brief Method Log, addr 0x48621f8, size 0x6c, virtual false, abstract: false, final false
-  static inline void Log(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
-                         ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
+  /// @brief Method LoadBurstLibrary_Injected, addr 0x682c2a8, size 0x3c, virtual false, abstract: false, final false
+  static inline bool LoadBurstLibrary_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> fullPathToLibBurstGenerated);
 
-  /// @brief Method RuntimeLog, addr 0x4862264, size 0x6c, virtual false, abstract: false, final false
-  static inline void RuntimeLog(::cordl_internals::Ptr<void> userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, ::cordl_internals::Ptr<uint8_t> message,
-                                ::cordl_internals::Ptr<uint8_t> filename, int32_t lineNumber);
+  /// @brief Method Log, addr 0x682c0a0, size 0x6c, virtual false, abstract: false, final false
+  static inline void Log(void* userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, uint8_t* message, uint8_t* filename, int32_t lineNumber);
 
-  /// @brief Method SetCurrentExecutionMode, addr 0x4862194, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RuntimeLog, addr 0x682c10c, size 0x6c, virtual false, abstract: false, final false
+  static inline void RuntimeLog(void* userData, ::Unity::Burst::LowLevel::BurstCompilerService_BurstLogType logType, uint8_t* message, uint8_t* filename, int32_t lineNumber);
+
+  /// @brief Method SetCurrentExecutionMode, addr 0x682c03c, size 0x3c, virtual false, abstract: false, final false
   static inline void SetCurrentExecutionMode(uint32_t environment);
 
 protected:
@@ -142,7 +153,7 @@ public:
   BurstCompilerService(BurstCompilerService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10004 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

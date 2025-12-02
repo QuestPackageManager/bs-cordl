@@ -8,15 +8,15 @@
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BpmTimeProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLightEventConverter_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::BasicEventItemConverter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::BasicEventItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*>, ::BeatmapDataLoaderVersion4::SpecialEventsFilter*, ::GlobalNamespace::BpmTimeProcessor*,
     ::GlobalNamespace::IBeatmapLightEventConverter*)>(&::BeatmapDataLoaderVersion4::BasicEventItemConverter::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x270dd78;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3639210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,16 +32,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::BasicEventItemConverter.Convert
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::BasicEventItemConverter::*)(
-    ::BeatmapSaveDataVersion4::BeatIndex*, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x270dde4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* (
+    ::BeatmapDataLoaderVersion4::BasicEventItemConverter::*)(::BeatmapSaveDataVersion4::BeatIndex*)>(&::BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x3639224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::BasicEventItemConverter*>::get(), "Convert", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatIndex*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatIndex*>::get() })));
     return ___internal_method;
   }
 };
@@ -95,13 +94,11 @@ inline void BeatmapDataLoaderVersion4::BasicEventItemConverter::_ctor(::ArrayW<:
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLightEventConverter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, basicEvents, specialEventsFilter, bpmTimeProcessor, lightEventConverter);
 }
-inline void BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert(::BeatmapSaveDataVersion4::BeatIndex* index,
-                                                                        ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output) {
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* BeatmapDataLoaderVersion4::BasicEventItemConverter::Convert(::BeatmapSaveDataVersion4::BeatIndex* index) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::BasicEventItemConverter*>::get(), "Convert", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatIndex*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index, output);
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::BeatIndex*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*, false>(this, ___internal_method, index);
 }
 inline ::BeatmapDataLoaderVersion4::BasicEventItemConverter*
 BeatmapDataLoaderVersion4::BasicEventItemConverter::New_ctor(::ArrayW<::BeatmapSaveDataVersion4::BasicEvent, ::Array<::BeatmapSaveDataVersion4::BasicEvent>*> basicEvents,

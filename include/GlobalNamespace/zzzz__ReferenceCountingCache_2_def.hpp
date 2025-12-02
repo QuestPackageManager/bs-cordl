@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IReferenceCountingCache_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReferenceCountingCache_2)
+namespace GlobalNamespace {
+template <typename TKey, typename TValue> class IReferenceCountingCache_2;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -20,7 +22,7 @@ template <typename TKey, typename TValue> class ReferenceCountingCache_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ReferenceCountingCache_2);
-// Dependencies IReferenceCountingCache`2<TKey, TValue>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -96,7 +98,7 @@ public:
   ReferenceCountingCache_2(ReferenceCountingCache_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22488 };
 
   /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____items;

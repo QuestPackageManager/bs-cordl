@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsStreamCipher.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsStreamCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::*)(
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::IStreamCipher*, ::Org::BouncyCastle::Crypto::IStreamCipher*, ::Org::BouncyCastle::Crypto::IDigest*,
     ::Org::BouncyCastle::Crypto::IDigest*, int32_t, bool)>(&::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::_ctor)> {
-  constexpr static std::size_t size = 0x678;
-  constexpr static std::size_t addrs = 0x243e360;
+  constexpr static std::size_t size = 0x66c;
+  constexpr static std::size_t addrs = 0x336cab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::GetPlaintextLimit)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x243e9d8;
+  constexpr static std::size_t addrs = 0x336d120;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::EncodePlaintext)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x243ea04;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x336d14c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::DecodeCiphertext)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x243ebfc;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x336d34c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::CheckMac)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x243edfc;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x336d548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::*)(
     ::Org::BouncyCastle::Crypto::IStreamCipher*, bool, int64_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsStreamCipher::UpdateIV)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x243ef18;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x336d668;
 
   inline static ::MethodInfo const* methodInfo() {
 

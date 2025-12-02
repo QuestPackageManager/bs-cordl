@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::BufferOffsetSize* (::Mono::Net::Security::AsyncReadOrWriteRequest::*)()>(
     &::Mono::Net::Security::AsyncReadOrWriteRequest::get_UserBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41120b8;
+  constexpr static std::size_t addrs = 0x5dbbdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncReadOrWriteRequest*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Net::Security::AsyncReadOrWriteRequest::*)()>(
     &::Mono::Net::Security::AsyncReadOrWriteRequest::get_CurrentSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41120c0;
+  constexpr static std::size_t addrs = 0x5dbbdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::AsyncReadOrWriteRequest*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncReadOrWriteRequest::*)(int32_t)>(
     &::Mono::Net::Security::AsyncReadOrWriteRequest::set_CurrentSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41120c8;
+  constexpr static std::size_t addrs = 0x5dbbdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::AsyncReadOrWriteRequest::*)(
     ::Mono::Net::Security::MobileAuthenticatedStream*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Mono::Net::Security::AsyncReadOrWriteRequest::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x41120d0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5dbbdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::AsyncReadOrWriteRequest::*)()>(
     &::Mono::Net::Security::AsyncReadOrWriteRequest::ToString)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x411216c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5dbbe74;
 
   inline static ::MethodInfo const* methodInfo() {
 

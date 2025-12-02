@@ -105,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set_m_originalSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e1ab38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a60b98, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> argsMap, int32_t originalSize, bool isParamArray);
 
 protected:
@@ -123,7 +123,7 @@ public:
   DefaultBinder_BinderState(DefaultBinder_BinderState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2552 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2561 };
 
   /// @brief Field m_argsMap, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ___m_argsMap;
@@ -237,7 +237,7 @@ public:
   static ::System::DefaultBinder_Primitives const UInt64;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2562 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -268,10 +268,10 @@ public:
 
   static inline ::System::DefaultBinder___c* New_ctor();
 
-  /// @brief Method <SelectProperty>b__2_0, addr 0x3e1df08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <SelectProperty>b__2_0, addr 0x5a63d70, size 0x2c, virtual false, abstract: false, final false
   inline bool _SelectProperty_b__2_0(::System::Type* t);
 
-  /// @brief Method .ctor, addr 0x3e1df00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a63d6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::DefaultBinder___c* getStaticF___9();
@@ -297,7 +297,7 @@ public:
   DefaultBinder___c(DefaultBinder___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2563 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -322,97 +322,97 @@ public:
   __declspec(property(get = getStaticF__primitiveConversions, put = setStaticF__primitiveConversions)) ::ArrayW<::System::DefaultBinder_Primitives, ::Array<::System::DefaultBinder_Primitives>*>
       _primitiveConversions;
 
-  /// @brief Method BindToField, addr 0x3e1ae48, size 0x49c, virtual true, abstract: false, final false
+  /// @brief Method BindToField, addr 0x5a60e80, size 0x4a0, virtual true, abstract: false, final false
   inline ::System::Reflection::FieldInfo* BindToField(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> match,
                                                       ::System::Object* value, ::System::Globalization::CultureInfo* cultureInfo);
 
-  /// @brief Method BindToMethod, addr 0x3e18928, size 0x1ec8, virtual true, abstract: false, final false
+  /// @brief Method BindToMethod, addr 0x5a5ea50, size 0x1dec, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodBase* BindToMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                         ::ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args,
                                                         ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers,
                                                         ::System::Globalization::CultureInfo* cultureInfo, ::ArrayW<::StringW, ::Array<::StringW>*> names, ::ByRef<::System::Object*> state);
 
-  /// @brief Method CanChangePrimitive, addr 0x3e1dcd4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CanChangePrimitive, addr 0x5a63b50, size 0x68, virtual false, abstract: false, final false
   static inline bool CanChangePrimitive(::System::Type* source, ::System::Type* target);
 
-  /// @brief Method CanConvertPrimitive, addr 0x3e1bdcc, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method CanConvertPrimitive, addr 0x5a61dcc, size 0x244, virtual false, abstract: false, final false
   static inline bool CanConvertPrimitive(::System::RuntimeType* source, ::System::RuntimeType* target);
 
-  /// @brief Method CanConvertPrimitiveObjectToType, addr 0x3e1aa28, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CanConvertPrimitiveObjectToType, addr 0x5a60a90, size 0x108, virtual false, abstract: false, final false
   static inline bool CanConvertPrimitiveObjectToType(::System::Object* source, ::System::RuntimeType* type);
 
-  /// @brief Method CanPrimitiveWiden, addr 0x3e1dd38, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CanPrimitiveWiden, addr 0x5a63bb8, size 0xc4, virtual false, abstract: false, final false
   static inline bool CanPrimitiveWiden(::System::Type* source, ::System::Type* target);
 
-  /// @brief Method ChangeType, addr 0x3e1c8c4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x5a62814, size 0x50, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* type, ::System::Globalization::CultureInfo* cultureInfo);
 
-  /// @brief Method CompareMethodSig, addr 0x3e1d440, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CompareMethodSig, addr 0x5a632f8, size 0x12c, virtual false, abstract: false, final false
   static inline bool CompareMethodSig(::System::Reflection::MethodBase* m1, ::System::Reflection::MethodBase* m2);
 
-  /// @brief Method CompareMethodSigAndName, addr 0x3e1d244, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method CompareMethodSigAndName, addr 0x5a6316c, size 0x12c, virtual false, abstract: false, final false
   static inline bool CompareMethodSigAndName(::System::Reflection::MethodBase* m1, ::System::Reflection::MethodBase* m2);
 
-  /// @brief Method CreateParamOrder, addr 0x3e1a7f0, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method CreateParamOrder, addr 0x5a6083c, size 0x254, virtual false, abstract: false, final false
   static inline bool CreateParamOrder(::ArrayW<int32_t, ::Array<int32_t>*> paramOrder, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> pars,
                                       ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
-  /// @brief Method ExactBinding, addr 0x3e1cc04, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method ExactBinding, addr 0x5a62b4c, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* ExactBinding(::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                                ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                                ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method ExactPropertyBinding, addr 0x3e1cfac, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ExactPropertyBinding, addr 0x5a62f00, size 0x26c, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* ExactPropertyBinding(::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> match, ::System::Type* returnType,
                                                                          ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                                          ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method FindMostDerivedNewSlotMeth, addr 0x3e1ce64, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FindMostDerivedNewSlotMeth, addr 0x5a62db8, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Reflection::MethodBase* FindMostDerivedNewSlotMeth(::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match, int32_t cMatches);
 
-  /// @brief Method FindMostSpecific, addr 0x3e1c38c, size 0x450, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecific, addr 0x5a623a4, size 0x380, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecific(::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> p1, ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder1,
                                          ::System::Type* paramArrayType1, ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> p2,
                                          ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder2, ::System::Type* paramArrayType2, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                          ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method FindMostSpecificField, addr 0x3e1b2e4, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificField, addr 0x5a61320, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificField(::System::Reflection::FieldInfo* cur1, ::System::Reflection::FieldInfo* cur2);
 
-  /// @brief Method FindMostSpecificMethod, addr 0x3e1acc8, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificMethod, addr 0x5a60d00, size 0x180, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificMethod(::System::Reflection::MethodBase* m1, ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder1, ::System::Type* paramArrayType1,
                                                ::System::Reflection::MethodBase* m2, ::ArrayW<int32_t, ::Array<int32_t>*> paramOrder2, ::System::Type* paramArrayType2,
                                                ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method FindMostSpecificProperty, addr 0x3e1c7dc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificProperty, addr 0x5a62724, size 0xf0, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificProperty(::System::Reflection::PropertyInfo* cur1, ::System::Reflection::PropertyInfo* cur2);
 
-  /// @brief Method FindMostSpecificType, addr 0x3e1bff0, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method FindMostSpecificType, addr 0x5a62010, size 0x394, virtual false, abstract: false, final false
   static inline int32_t FindMostSpecificType(::System::Type* c1, ::System::Type* c2, ::System::Type* t);
 
-  /// @brief Method GetHierarchyDepth, addr 0x3e1d3ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetHierarchyDepth, addr 0x5a63298, size 0x60, virtual false, abstract: false, final false
   static inline int32_t GetHierarchyDepth(::System::Type* t);
 
   static inline ::System::DefaultBinder* New_ctor();
 
-  /// @brief Method ReorderArgumentArray, addr 0x3e1c91c, size 0x2e8, virtual true, abstract: false, final false
+  /// @brief Method ReorderArgumentArray, addr 0x5a62864, size 0x2e8, virtual true, abstract: false, final false
   inline void ReorderArgumentArray(::ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> args, ::System::Object* state);
 
-  /// @brief Method ReorderParams, addr 0x3e1ab78, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReorderParams, addr 0x5a60ba8, size 0x158, virtual false, abstract: false, final false
   static inline void ReorderParams(::ArrayW<int32_t, ::Array<int32_t>*> paramOrder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> vars);
 
-  /// @brief Method SelectMethod, addr 0x3e1d5a8, size 0x72c, virtual true, abstract: false, final true
+  /// @brief Method SelectMethod, addr 0x5a63424, size 0x72c, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* SelectMethod(::System::Reflection::BindingFlags bindingAttr, ::ArrayW<::System::Reflection::MethodBase*, ::Array<::System::Reflection::MethodBase*>*> match,
                                                         ::ArrayW<::System::Type*, ::Array<::System::Type*>*> types,
                                                         ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method SelectProperty, addr 0x3e1b3cc, size 0xa00, virtual true, abstract: false, final false
+  /// @brief Method SelectProperty, addr 0x5a61410, size 0x9bc, virtual true, abstract: false, final false
   inline ::System::Reflection::PropertyInfo* SelectProperty(::System::Reflection::BindingFlags bindingAttr,
                                                             ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> match, ::System::Type* returnType,
                                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*> indexes,
                                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method .ctor, addr 0x3e1de08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a63c7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::DefaultBinder_Primitives, ::Array<::System::DefaultBinder_Primitives>*> getStaticF__primitiveConversions();
@@ -434,7 +434,7 @@ public:
   DefaultBinder(DefaultBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

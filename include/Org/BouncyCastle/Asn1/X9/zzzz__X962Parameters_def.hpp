@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 CORDL_MODULE_EXPORT(X962Parameters)
 namespace Org::BouncyCastle::Asn1::X9 {
 class X9ECParameters;
@@ -18,6 +17,9 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
 }
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace System {
 class Object;
 }
@@ -27,7 +29,7 @@ class X962Parameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::X962Parameters);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.X9.X962Parameters
@@ -46,7 +48,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2627004, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3556f68, size 0x284, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
@@ -57,7 +59,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X9::X962Parameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method ToAsn1Object, addr 0x2627450, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x355733c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Object* const& __cordl_internal_get__params() const;
@@ -66,25 +68,25 @@ public:
 
   constexpr void __cordl_internal_set__params(::Org::BouncyCastle::Asn1::Asn1Object* value);
 
-  /// @brief Method .ctor, addr 0x26272c0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35571f4, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X9::X9ECParameters* ecParameters);
 
-  /// @brief Method .ctor, addr 0x2627300, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3557224, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namedCurve);
 
-  /// @brief Method .ctor, addr 0x2627328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355722c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Null* obj);
 
-  /// @brief Method .ctor, addr 0x2627298, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35571ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Object* obj);
 
-  /// @brief Method get_IsImplicitlyCA, addr 0x26273cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsImplicitlyCA, addr 0x35572b4, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsImplicitlyCA();
 
-  /// @brief Method get_IsNamedCurve, addr 0x2627350, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsNamedCurve, addr 0x3557234, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsNamedCurve();
 
-  /// @brief Method get_Parameters, addr 0x2627448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x3557334, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EncryptionUtility.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
 #include "BGNet/Core/zzzz__ITaskUtility_def.hpp"
 #include "GlobalNamespace/zzzz__EncryptionUtility_def.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__HMac_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
-#include "System/Security/Cryptography/zzzz__AesCryptoServiceProvider_def.hpp"
+#include "System/Security/Cryptography/zzzz__Aes_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EncryptionUtility_IEncryptionState.get_isValid
 template <>
 
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EncryptionUtility_EncryptionState::*)()>(
     &::GlobalNamespace::EncryptionUtility_EncryptionState::get_isValid)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22c61e0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x320ced8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility_EncryptionState*>::get(),
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, ::ByRef<int32_t>, int32_t)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::EncryptData)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22c61f8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x320cee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::TryDecryptData)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22c627c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x320cf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::ComputeSendMac)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x22c4cd4;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x320b958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::ComputeReceiveMac)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x22c56ec;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x320c460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(uint32_t)>(
     &::GlobalNamespace::EncryptionUtility_EncryptionState::IsValidSequenceNum)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x22c55c0;
+  constexpr static std::size_t addrs = 0x320c334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -183,8 +183,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(uint32_t)>(
     &::GlobalNamespace::EncryptionUtility_EncryptionState::PutSequenceNum)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x22c592c;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x320c748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,8 +198,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::EncryptionUtility_EncryptionState::*)()>(
     &::GlobalNamespace::EncryptionUtility_EncryptionState::GetNextSentSequenceNum)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22c4cc8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x320b938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility_EncryptionState*>::get(),
@@ -212,8 +212,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EncryptionUtility_EncryptionState::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::_ctor)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x22c43ac;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x320af88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::MakeSeed)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22c62f8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x320cfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                                                            int32_t)>(&::GlobalNamespace::EncryptionUtility_EncryptionState::PRF)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x22c63d8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x320d0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::EncryptionUtility_EncryptionState::PRF_Hash)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x22c64c0;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x320d1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EncryptionUtility_EncryptionState::*)()>(
     &::GlobalNamespace::EncryptionUtility_EncryptionState::Dispose)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22c66b8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x320d378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility_EncryptionState*>::get(),
@@ -542,107 +542,107 @@ constexpr ::System::IDisposable* GlobalNamespace::EncryptionUtility_EncryptionSt
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::EncryptionUtility_EncryptionState::EncryptionUtility_EncryptionState() {}
-//  Writing Method size for method: ::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::*)()>(
-    &::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22c4608;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::*)()>(
+    &::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x320b1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0._CreateEncryptionStateAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0._CreateEncryptionStateAsync_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EncryptionUtility_IEncryptionState* (
-    ::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::*)()>(&::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::_CreateEncryptionStateAsync_b__0)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x22c66d0;
+    ::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::*)()>(&::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::_CreateEncryptionStateAsync_b__0)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x320d384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0*>::get(),
                                                  "<CreateEncryptionStateAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_preMasterSecret() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_preMasterSecret() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preMasterSecret;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_preMasterSecret() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_preMasterSecret() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___preMasterSecret;
 }
-constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_set_preMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_set_preMasterSecret(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___preMasterSecret)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_serverSeed() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_serverSeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverSeed;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_serverSeed() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_serverSeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___serverSeed;
 }
-constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_set_serverSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_set_serverSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___serverSeed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_clientSeed() {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_clientSeed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientSeed;
 }
-constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_clientSeed() const {
+constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_clientSeed() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___clientSeed;
 }
-constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_set_clientSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
+constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_set_clientSeed(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___clientSeed)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_isClient() {
+constexpr bool& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_isClient() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isClient;
 }
-constexpr bool const& GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_get_isClient() const {
+constexpr bool const& GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_get_isClient() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___isClient;
 }
-constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::__cordl_internal_set_isClient(bool value) {
+constexpr void GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::__cordl_internal_set_isClient(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___isClient = value;
 }
-inline void GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0*>::get(),
+inline void GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EncryptionUtility_IEncryptionState* GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::_CreateEncryptionStateAsync_b__0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0*>::get(),
+inline ::GlobalNamespace::EncryptionUtility_IEncryptionState* GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::_CreateEncryptionStateAsync_b__0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0*>::get(),
                                                                              "<CreateEncryptionStateAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::EncryptionUtility_IEncryptionState*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0* GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0*>());
+inline ::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0* GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::EncryptionUtility___c__DisplayClass18_0::EncryptionUtility___c__DisplayClass18_0() {}
+constexpr ::GlobalNamespace::EncryptionUtility___c__DisplayClass19_0::EncryptionUtility___c__DisplayClass19_0() {}
 //  Writing Method size for method: ::GlobalNamespace::EncryptionUtility.CreateEncryptionState
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::EncryptionUtility_IEncryptionState* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
         &::GlobalNamespace::EncryptionUtility::CreateEncryptionState)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22c432c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x320af04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -661,8 +661,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::EncryptionUtility_IEncryptionState*>* (*)(::BGNet::Core::ITaskUtility*, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                                                 ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
         &::GlobalNamespace::EncryptionUtility::CreateEncryptionStateAsync)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x22c1f9c;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x3208bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -679,8 +679,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t)>(&::GlobalNamespace::EncryptionUtility::IsValidLength)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22c4610;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x320b1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -694,8 +694,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::EncryptionUtility_EncryptionState*, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                            ::ByRef<int32_t>, ::ByRef<int32_t>, int32_t)>(&::GlobalNamespace::EncryptionUtility::EncryptData)> {
-  constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x22c4630;
+  constexpr static std::size_t size = 0x724;
+  constexpr static std::size_t addrs = 0x320b214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -712,8 +712,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::EncryptionUtility_EncryptionState*, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                                            ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::GlobalNamespace::EncryptionUtility::TryDecryptData)> {
-  constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x22c4f14;
+  constexpr static std::size_t size = 0x6f4;
+  constexpr static std::size_t addrs = 0x320bc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::GlobalNamespace::EncryptionUtility::FastCopyBlock)> {
   constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x22c5b24;
+  constexpr static std::size_t addrs = 0x320c944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -748,7 +748,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::GlobalNamespace::EncryptionUtility::FastCopyMac)> {
   constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x22c5e38;
+  constexpr static std::size_t addrs = 0x320cc58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -764,7 +764,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::EncryptionUtility::Log)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x22c602c;
+  constexpr static std::size_t addrs = 0x320ce4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -803,14 +803,12 @@ inline void GlobalNamespace::EncryptionUtility::setStaticF__tempHash(::ArrayW<ui
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GlobalNamespace::EncryptionUtility::getStaticF__tempHash() {
   return ::cordl_internals::getStaticField<::ArrayW<uint8_t, ::Array<uint8_t>*>, "_tempHash", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility*>::get>();
 }
-inline void GlobalNamespace::EncryptionUtility::setStaticF__aes(::System::Security::Cryptography::AesCryptoServiceProvider* value) {
-  ::cordl_internals::setStaticField<::System::Security::Cryptography::AesCryptoServiceProvider*, "_aes",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility*>::get>(
-      std::forward<::System::Security::Cryptography::AesCryptoServiceProvider*>(value));
+inline void GlobalNamespace::EncryptionUtility::setStaticF__aes(::System::Security::Cryptography::Aes* value) {
+  ::cordl_internals::setStaticField<::System::Security::Cryptography::Aes*, "_aes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility*>::get>(
+      std::forward<::System::Security::Cryptography::Aes*>(value));
 }
-inline ::System::Security::Cryptography::AesCryptoServiceProvider* GlobalNamespace::EncryptionUtility::getStaticF__aes() {
-  return ::cordl_internals::getStaticField<::System::Security::Cryptography::AesCryptoServiceProvider*, "_aes",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility*>::get>();
+inline ::System::Security::Cryptography::Aes* GlobalNamespace::EncryptionUtility::getStaticF__aes() {
+  return ::cordl_internals::getStaticField<::System::Security::Cryptography::Aes*, "_aes", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EncryptionUtility*>::get>();
 }
 inline ::GlobalNamespace::EncryptionUtility_IEncryptionState* GlobalNamespace::EncryptionUtility::CreateEncryptionState(::ArrayW<uint8_t, ::Array<uint8_t>*> preMasterSecret,
                                                                                                                         ::ArrayW<uint8_t, ::Array<uint8_t>*> serverSeed,

@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TutorialRestartController.hpp"
-#include "GlobalNamespace/zzzz__ILevelRestartController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialRestartController_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TutorialRestartController.RestartLevel
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialRestartController::*)()>(
     &::GlobalNamespace::TutorialRestartController::RestartLevel)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bb27e4;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x57a2be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialRestartController*>::get(),
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialRestartController::*)()>(&::GlobalNamespace::TutorialRestartController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb2804;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57a2c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialRestartController*>::get(), ".ctor",

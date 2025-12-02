@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4802b7c;
+  constexpr static std::size_t addrs = 0x678205c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "get_name",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(::StringW)>(&::TMPro::TMP_SpriteCharacter::set_name)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48029ac;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6782064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,25 +31,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_SpriteCharacter.get_hashCode
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::get_hashCode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4802bf0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "get_hashCode",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::TMPro::TMP_SpriteCharacter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)()>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x480298c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6781f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), ".ctor",
@@ -61,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, ::TMPro::TMP_SpriteGlyph*)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4802c00;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x6782070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, ::TMPro::TMP_SpriteAsset*, ::TMPro::TMP_SpriteGlyph*)>(
     &::TMPro::TMP_SpriteCharacter::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4802c54;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x678209c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteCharacter::*)(uint32_t, uint32_t)>(&::TMPro::TMP_SpriteCharacter::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4802cb4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x67820c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,18 +102,6 @@ constexpr void TMPro::TMP_SpriteCharacter::__cordl_internal_set_m_Name(::StringW
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Name)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& TMPro::TMP_SpriteCharacter::__cordl_internal_get_m_HashCode() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_HashCode;
-}
-constexpr int32_t const& TMPro::TMP_SpriteCharacter::__cordl_internal_get_m_HashCode() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_HashCode;
-}
-constexpr void TMPro::TMP_SpriteCharacter::__cordl_internal_set_m_HashCode(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_HashCode = value;
-}
 inline ::StringW TMPro::TMP_SpriteCharacter::get_name() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "get_name",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -137,11 +112,6 @@ inline void TMPro::TMP_SpriteCharacter::set_name(::StringW value) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "set_name", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline int32_t TMPro::TMP_SpriteCharacter::get_hashCode() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), "get_hashCode",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_SpriteCharacter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteCharacter*>::get(), ".ctor",

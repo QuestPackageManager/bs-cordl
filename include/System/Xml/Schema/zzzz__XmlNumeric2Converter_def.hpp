@@ -35,45 +35,45 @@ namespace System::Xml::Schema {
 class CORDL_TYPE XmlNumeric2Converter : public ::System::Xml::Schema::XmlBaseConverter {
 public:
   // Declarations
-  /// @brief Method ChangeType, addr 0x42dfde4, size 0x390, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x6035088, size 0x314, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::StringW value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42e0174, size 0x6c8, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x603539c, size 0x5c8, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(::System::Object* value, ::System::Type* destinationType, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ChangeType, addr 0x42dfa88, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method ChangeType, addr 0x6034da0, size 0x2e8, virtual true, abstract: false, final false
   inline ::System::Object* ChangeType(double_t value, ::System::Type* destinationType);
 
-  /// @brief Method Create, addr 0x42ded84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x60341a0, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Xml::Schema::XmlValueConverter* Create(::System::Xml::Schema::XmlSchemaType* schemaType);
 
   static inline ::System::Xml::Schema::XmlNumeric2Converter* New_ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
-  /// @brief Method ToDouble, addr 0x42deddc, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x60341fc, size 0xe8, virtual true, abstract: false, final false
   inline double_t ToDouble(::StringW value);
 
-  /// @brief Method ToDouble, addr 0x42deea8, size 0x344, virtual true, abstract: false, final false
+  /// @brief Method ToDouble, addr 0x60342e4, size 0x2d4, virtual true, abstract: false, final false
   inline double_t ToDouble(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x42df1f4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x60345c0, size 0xe8, virtual true, abstract: false, final false
   inline float_t ToSingle(::StringW value);
 
-  /// @brief Method ToSingle, addr 0x42df2c0, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x60346a8, size 0x2dc, virtual true, abstract: false, final false
   inline float_t ToSingle(::System::Object* value);
 
-  /// @brief Method ToSingle, addr 0x42df1ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToSingle, addr 0x60345b8, size 0x8, virtual true, abstract: false, final false
   inline float_t ToSingle(double_t value);
 
-  /// @brief Method ToString, addr 0x42df748, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6034ad4, size 0x2cc, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::Object* value, ::System::Xml::IXmlNamespaceResolver* nsResolver);
 
-  /// @brief Method ToString, addr 0x42df60c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6034984, size 0xbc, virtual true, abstract: false, final false
   inline ::StringW ToString(double_t value);
 
-  /// @brief Method ToString, addr 0x42df6c0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6034a40, size 0x94, virtual true, abstract: false, final false
   inline ::StringW ToString(float_t value);
 
-  /// @brief Method .ctor, addr 0x42ded1c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6034134, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::XmlSchemaType* schemaType);
 
 protected:
@@ -91,7 +91,7 @@ public:
   XmlNumeric2Converter(XmlNumeric2Converter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9809 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

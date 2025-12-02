@@ -3,17 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__AddDuplicateBehavior_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdTree_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
@@ -22,6 +19,9 @@ template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class Stack_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -33,6 +33,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::ProBuilder::KdTree {
@@ -40,6 +43,9 @@ struct AddDuplicateBehavior;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> struct HyperRect_1;
+}
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename TKey, typename TValue> class IKdTree_2;
 }
 namespace UnityEngine::ProBuilder::KdTree {
 template <typename T> class ITypeMath_1;
@@ -124,7 +130,7 @@ public:
   KdTree_2___c__DisplayClass33_0(KdTree_2___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22337 };
 
   /// @brief Field left, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::ProBuilder::KdTree::KdTreeNode_2<TKey, TValue>*>* ___left;
@@ -136,7 +142,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -261,7 +267,7 @@ public:
   KdTree_2__GetEnumerator_d__33(KdTree_2__GetEnumerator_d__33 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18554 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22338 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -285,8 +291,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::KdTree
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object, UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior,
-// UnityEngine.ProBuilder.KdTree.IKdTree`2<TKey, TValue>
+// Dependencies System.Object, UnityEngine.ProBuilder.KdTree.AddDuplicateBehavior
 namespace UnityEngine::ProBuilder::KdTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -480,7 +485,7 @@ public:
   KdTree_2(KdTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22339 };
 
   /// @brief Field dimensions, offset: 0x10, size: 0x4, def value: None
   int32_t ___dimensions;

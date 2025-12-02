@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22b4ea0;
+  constexpr static std::size_t addrs = 0x31fbd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Mod)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22b4eb4;
+  constexpr static std::size_t addrs = 0x31fbd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x22b4ee4;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x31fbd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::MaxAbs)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22b4ffc;
+  constexpr static std::size_t addrs = 0x31fbe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t, float_t)>(&::GlobalNamespace::MathfExtra::Approximately)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22b5010;
+  constexpr static std::size_t addrs = 0x31fbeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t)>(&::GlobalNamespace::MathfExtra::ShortestAngleDifference)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22b5020;
+  constexpr static std::size_t addrs = 0x31fbebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector4, int32_t)>(&::GlobalNamespace::MathfExtra::Round)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x22b5054;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x31fbef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::GlobalNamespace::MathfExtra::Repeat)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x22b5290;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x31fc134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

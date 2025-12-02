@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PrefabResourceFactory_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IFactory_3_impl.hpp"
-#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__PrefabResourceFactory_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IFactory_3_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename P1, typename T> constexpr ::Zenject::DiContainer*& Zenject::PrefabResourceFactory_2<P1, T>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

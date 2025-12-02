@@ -1,21 +1,20 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/ContextualMenuManipulator.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseManipulator_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerManipulator_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextualMenuManipulator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ContextualMenuPopulateEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyUpEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseDownEvent_def.hpp"
-#include "UnityEngine/UIElements/zzzz__MouseUpEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(
     ::System::Action_1<::UnityEngine::UIElements::ContextualMenuPopulateEvent*>*)>(&::UnityEngine::UIElements::ContextualMenuManipulator::_ctor)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x497fdb4;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x6a229f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)()>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::RegisterCallbacksOnTarget)> {
-  constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x497ff30;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x6a22b60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)()>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::UnregisterCallbacksFromTarget)> {
-  constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x49801f8;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x6a22ec4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,48 +55,93 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnMouseUpDownEvent
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnPointerUpEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::IMouseEvent*)>(
-    &::UnityEngine::UIElements::ContextualMenuManipulator::OnMouseUpDownEvent)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49804c0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::IPointerEvent*)>(
+    &::UnityEngine::UIElements::ContextualMenuManipulator::OnPointerUpEvent)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a23228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnMouseUpDownEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerUpEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnMouseDownEventOSX
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnPointerDownEventOSX
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::MouseDownEvent*)>(
-    &::UnityEngine::UIElements::ContextualMenuManipulator::OnMouseDownEventOSX)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49805fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::IPointerEvent*)>(
+    &::UnityEngine::UIElements::ContextualMenuManipulator::OnPointerDownEventOSX)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6a232dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnMouseDownEventOSX", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseDownEvent*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerDownEventOSX", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnMouseUpEventOSX
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnPointerUpEventOSX
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::MouseUpEvent*)>(
-    &::UnityEngine::UIElements::ContextualMenuManipulator::OnMouseUpEventOSX)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4980684;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::IPointerEvent*)>(
+    &::UnityEngine::UIElements::ContextualMenuManipulator::OnPointerUpEventOSX)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6a23304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnMouseUpEventOSX", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseUpEvent*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerUpEventOSX", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnPointerMoveEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
+    &::UnityEngine::UIElements::ContextualMenuManipulator::OnPointerMoveEvent)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6a23334;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerMoveEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerMoveEvent*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.OnPointerMoveEventOSX
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::PointerMoveEvent*)>(
+    &::UnityEngine::UIElements::ContextualMenuManipulator::OnPointerMoveEventOSX)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6a2337c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerMoveEventOSX", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerMoveEvent*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManipulator.ProcessPointerEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::IPointerEvent*)>(
+    &::UnityEngine::UIElements::ContextualMenuManipulator::ProcessPointerEvent)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6a2322c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "ProcessPointerEvent", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
     return ___internal_method;
   }
 };
@@ -106,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::KeyUpEvent*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::OnKeyUpEvent)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49806fc;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6a23428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,8 +165,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::ContextualMenuManipulator::DoDisplayMenu)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4980560;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6a233e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManipulator::*)(
     ::UnityEngine::UIElements::ContextualMenuPopulateEvent*)>(&::UnityEngine::UIElements::ContextualMenuManipulator::OnContextualMenuEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4980760;
+  constexpr static std::size_t addrs = 0x6a234a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,22 +218,40 @@ inline void UnityEngine::UIElements::ContextualMenuManipulator::UnregisterCallba
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::ContextualMenuManipulator::OnMouseUpDownEvent(::UnityEngine::UIElements::IMouseEvent* evt) {
+inline void UnityEngine::UIElements::ContextualMenuManipulator::OnPointerUpEvent(::UnityEngine::UIElements::IPointerEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnMouseUpDownEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerUpEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::ContextualMenuManipulator::OnMouseDownEventOSX(::UnityEngine::UIElements::MouseDownEvent* evt) {
+inline void UnityEngine::UIElements::ContextualMenuManipulator::OnPointerDownEventOSX(::UnityEngine::UIElements::IPointerEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnMouseDownEventOSX", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseDownEvent*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerDownEventOSX", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
-inline void UnityEngine::UIElements::ContextualMenuManipulator::OnMouseUpEventOSX(::UnityEngine::UIElements::MouseUpEvent* evt) {
+inline void UnityEngine::UIElements::ContextualMenuManipulator::OnPointerUpEventOSX(::UnityEngine::UIElements::IPointerEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnMouseUpEventOSX", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseUpEvent*>::get() })));
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerUpEventOSX", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::ContextualMenuManipulator::OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerMoveEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerMoveEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::ContextualMenuManipulator::OnPointerMoveEventOSX(::UnityEngine::UIElements::PointerMoveEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "OnPointerMoveEventOSX", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerMoveEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::ContextualMenuManipulator::ProcessPointerEvent(::UnityEngine::UIElements::IPointerEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManipulator*>::get(), "ProcessPointerEvent", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IPointerEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 inline void UnityEngine::UIElements::ContextualMenuManipulator::OnKeyUpEvent(::UnityEngine::UIElements::KeyUpEvent* evt) {

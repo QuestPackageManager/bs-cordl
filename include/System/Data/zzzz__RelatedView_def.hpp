@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Data/zzzz__DataKey_def.hpp"
 #include "System/Data/zzzz__DataView_def.hpp"
-#include "System/Data/zzzz__IFilter_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RelatedView)
@@ -39,7 +38,7 @@ class RelatedView;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Data::RelatedView);
-// Dependencies System.Data.DataKey, System.Data.DataView, System.Data.IFilter, System.Nullable`1<T>
+// Dependencies System.Data.DataKey, System.Data.DataView, System.Nullable`1<T>
 namespace System::Data {
 // Is value type: false
 // CS Name: System.Data.RelatedView
@@ -61,16 +60,16 @@ public:
   /// @brief Convert operator to "::System::Data::IFilter"
   constexpr operator ::System::Data::IFilter*() noexcept;
 
-  /// @brief Method AddNew, addr 0x41857d0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method AddNew, addr 0x5e2fda4, size 0x60, virtual true, abstract: false, final false
   inline ::System::Data::DataRowView* AddNew();
 
-  /// @brief Method GetFilter, addr 0x41857cc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetFilter, addr 0x5e2fda0, size 0x4, virtual true, abstract: false, final false
   inline ::System::Data::IFilter* GetFilter();
 
-  /// @brief Method GetParentValues, addr 0x41855ac, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetParentValues, addr 0x5e2fb54, size 0xa8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetParentValues();
 
-  /// @brief Method Invoke, addr 0x4185644, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x5e2fbfc, size 0x1a4, virtual true, abstract: false, final true
   inline bool Invoke(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
   static inline ::System::Data::RelatedView* New_ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns,
@@ -79,7 +78,7 @@ public:
   static inline ::System::Data::RelatedView* New_ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey,
                                                       ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
-  /// @brief Method SetIndex, addr 0x4185830, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method SetIndex, addr 0x5e2fe04, size 0x24, virtual true, abstract: false, final false
   inline void SetIndex(::StringW newSort, ::System::Data::DataViewRowState newRowStates, ::System::Data::IFilter* newRowFilter);
 
   constexpr ::System::Data::DataKey const& __cordl_internal_get__childKey() const;
@@ -106,10 +105,10 @@ public:
 
   constexpr void __cordl_internal_set__parentRowView(::System::Data::DataRowView* value);
 
-  /// @brief Method .ctor, addr 0x418538c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e2f93c, size 0x11c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> columns, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> values);
 
-  /// @brief Method .ctor, addr 0x41854a4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e2fa58, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataRowView* parentRowView, ::System::Data::DataKey parentKey, ::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*> childKeyColumns);
 
   /// @brief Convert to "::System::Data::IFilter"
@@ -130,7 +129,7 @@ public:
   RelatedView(RelatedView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13818 };
 
   /// @brief Field _parentKey, offset: 0xb8, size: 0x10, def value: None
   ::System::Nullable_1<::System::Data::DataKey> ____parentKey;

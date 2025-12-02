@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/AsyncResult.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_impl.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_impl.hpp"
-#include "System/zzzz__IAsyncResult_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__AsyncResult_def.hpp"
@@ -11,17 +8,19 @@
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__MonoMethodMessage_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
 #include "System/Threading/zzzz__WaitHandle_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::AsyncResult._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce72fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5929484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -35,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7304;
+  constexpr static std::size_t addrs = 0x5929488;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncWaitHandle)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3ce730c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5929490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7424;
+  constexpr static std::size_t addrs = 0x59295b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce742c;
+  constexpr static std::size_t addrs = 0x59295b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_EndInvokeCalled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7434;
+  constexpr static std::size_t addrs = 0x59295c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -112,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)(bool)>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::set_EndInvokeCalled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ce743c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59295c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_AsyncDelegate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7448;
+  constexpr static std::size_t addrs = 0x59295d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::get_NextSink)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7450;
+  constexpr static std::size_t addrs = 0x59295d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -159,7 +158,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::AsyncResult::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ce7458;
+  constexpr static std::size_t addrs = 0x59295e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::GetReplyMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7490;
+  constexpr static std::size_t addrs = 0x5929618;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)(::System::Runtime::Remoting::Messaging::IMessageCtrl*)>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::SetMessageCtrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7498;
+  constexpr static std::size_t addrs = 0x5929620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)(bool)>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::SetCompletedSynchronously)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ce74a0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5929628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,8 +220,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::EndInvoke)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3cd8df8;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x591bb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -235,8 +234,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::Messaging::AsyncResult::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Messaging::AsyncResult::SyncProcessMessage)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3ce74ac;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x5929630;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::MonoMethodMessage* (
     ::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(&::System::Runtime::Remoting::Messaging::AsyncResult::get_CallMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce763c;
+  constexpr static std::size_t addrs = 0x59297d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),
@@ -266,7 +265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)(
     ::System::Runtime::Remoting::Messaging::MonoMethodMessage*)>(&::System::Runtime::Remoting::Messaging::AsyncResult::set_CallMessage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7644;
+  constexpr static std::size_t addrs = 0x59297d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ce764c;
+  constexpr static std::size_t addrs = 0x59297e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -296,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::AsyncResult::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ce7654;
+  constexpr static std::size_t addrs = 0x59297e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -311,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::AsyncResult::*)()>(
     &::System::Runtime::Remoting::Messaging::AsyncResult::Invoke)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ce7650;
+  constexpr static std::size_t addrs = 0x59297e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::AsyncResult*>::get(),

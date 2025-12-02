@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::Decoder::*)()>(&::System::Text::Decoder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6dd10;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ab3fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::DecoderFallback* (::System::Text::Decoder::*)()>(&::System::Text::Decoder::get_Fallback)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6dd18;
+  constexpr static std::size_t addrs = 0x5ab3fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), "get_Fallback",
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::DecoderFallbackBuffer* (::System::Text::Decoder::*)()>(
     &::System::Text::Decoder::get_FallbackBuffer)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e6d678;
+  constexpr static std::size_t addrs = 0x5ab38ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), "get_FallbackBuffer",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::Decoder::*)()>(&::System::Text::Decoder::get_InternalHasFallbackBuffer)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e6dd20;
+  constexpr static std::size_t addrs = 0x5ab3fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), "get_InternalHasFallbackBuffer",
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::Decoder::*)()>(&::System::Text::Decoder::Reset)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3e6dd30;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5ab3fe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::Decoder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, bool)>(
     &::System::Text::Decoder::GetCharCount)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e6de48;
+  constexpr static std::size_t addrs = 0x5ab4110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,10 +106,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::Decoder.GetCharCount
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::Decoder::*)(::cordl_internals::Ptr<uint8_t>, int32_t, bool)>(
-    &::System::Text::Decoder::GetCharCount)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3e6de54;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::Decoder::*)(uint8_t*, int32_t, bool)>(&::System::Text::Decoder::GetCharCount)> {
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5ab411c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::Decoder::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, bool)>(&::System::Text::Decoder::GetChars)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e6dfb0;
+  constexpr static std::size_t addrs = 0x5ab4274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,10 +150,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::Decoder.GetChars
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<int32_t (::System::Text::Decoder::*)(::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, bool)>(&::System::Text::Decoder::GetChars)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::Decoder::*)(uint8_t*, int32_t, char16_t*, int32_t, bool)>(
+    &::System::Text::Decoder::GetChars)> {
   constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3e6dfbc;
+  constexpr static std::size_t addrs = 0x5ab4280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::Decoder::*)(::System::ReadOnlySpan_1<uint8_t>, ::System::Span_1<char16_t>, bool)>(
     &::System::Text::Decoder::GetChars)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e6e1cc;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5ab4490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,7 +184,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, bool, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<bool>)>(
     &::System::Text::Decoder::Convert)> {
   constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x3e6e2ac;
+  constexpr static std::size_t addrs = 0x5ab4588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,10 +196,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::Decoder.Convert
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::Decoder::*)(
-    ::cordl_internals::Ptr<uint8_t>, int32_t, ::cordl_internals::Ptr<char16_t>, int32_t, bool, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<bool>)>(&::System::Text::Decoder::Convert)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::System::Text::Decoder::*)(uint8_t*, int32_t, char16_t*, int32_t, bool, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<bool>)>(&::System::Text::Decoder::Convert)> {
   constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3e6e588;
+  constexpr static std::size_t addrs = 0x5ab4864;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +267,7 @@ inline int32_t System::Text::Decoder::GetCharCount(::ArrayW<uint8_t, ::Array<uin
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, bytes, index, count, flush);
 }
-inline int32_t System::Text::Decoder::GetCharCount(::cordl_internals::Ptr<uint8_t> bytes, int32_t count, bool flush) {
+inline int32_t System::Text::Decoder::GetCharCount(uint8_t* bytes, int32_t count, bool flush) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, bytes, count, flush);
@@ -284,7 +283,7 @@ inline int32_t System::Text::Decoder::GetChars(::ArrayW<uint8_t, ::Array<uint8_t
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, bytes, byteIndex, byteCount, chars, charIndex, flush);
 }
-inline int32_t System::Text::Decoder::GetChars(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, bool flush) {
+inline int32_t System::Text::Decoder::GetChars(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount, bool flush) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, bytes, byteCount, chars, charCount, flush);
@@ -300,8 +299,8 @@ inline void System::Text::Decoder::Convert(::ArrayW<uint8_t, ::Array<uint8_t>*> 
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bytes, byteIndex, byteCount, chars, charIndex, charCount, flush, bytesUsed, charsUsed, completed);
 }
-inline void System::Text::Decoder::Convert(::cordl_internals::Ptr<uint8_t> bytes, int32_t byteCount, ::cordl_internals::Ptr<char16_t> chars, int32_t charCount, bool flush, ::ByRef<int32_t> bytesUsed,
-                                           ::ByRef<int32_t> charsUsed, ::ByRef<bool> completed) {
+inline void System::Text::Decoder::Convert(uint8_t* bytes, int32_t byteCount, char16_t* chars, int32_t charCount, bool flush, ::ByRef<int32_t> bytesUsed, ::ByRef<int32_t> charsUsed,
+                                           ::ByRef<bool> completed) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Decoder*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bytes, byteCount, chars, charCount, flush, bytesUsed, charsUsed, completed);

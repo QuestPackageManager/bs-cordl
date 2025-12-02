@@ -59,41 +59,41 @@ public:
 
   __declspec(property(get = get_ReflectedType)) ::System::Type* ReflectedType;
 
-  /// @brief Method GetBaseDefinition, addr 0x3d3633c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetBaseDefinition, addr 0x597ca90, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetBaseDefinition();
 
-  /// @brief Method GetCustomAttributes, addr 0x3d363ac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x597cb00, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3d36374, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x597cac8, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetMethodImplementationFlags, addr 0x3d363e4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImplementationFlags, addr 0x597cb38, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodImplAttributes GetMethodImplementationFlags();
 
-  /// @brief Method GetParameters, addr 0x3d3641c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetParameters, addr 0x597cb70, size 0x38, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetParameters();
 
-  /// @brief Method Invoke, addr 0x3d36454, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x597cba8, size 0x38, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method IsDefined, addr 0x3d3648c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x597cbe0, size 0x38, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method get_Attributes, addr 0x3d36224, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x597c978, size 0x38, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodAttributes get_Attributes();
 
-  /// @brief Method get_DeclaringType, addr 0x3d3625c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x597c9b0, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MethodHandle, addr 0x3d36294, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_MethodHandle, addr 0x597c9e8, size 0x38, virtual true, abstract: false, final false
   inline ::System::RuntimeMethodHandle get_MethodHandle();
 
-  /// @brief Method get_Name, addr 0x3d362cc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x597ca20, size 0x38, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_ReflectedType, addr 0x3d36304, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x597ca58, size 0x38, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
 protected:
@@ -111,7 +111,7 @@ public:
   MethodBuilder(MethodBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3570 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

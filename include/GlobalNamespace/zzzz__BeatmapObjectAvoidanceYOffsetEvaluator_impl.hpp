@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::*)(float_t, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator_BufferData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2260164;
+  constexpr static std::size_t addrs = 0x3182f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +41,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::IAudioTimeSource*, ::GlobalNamespace::IJumpOffsetYProvider*, ::GlobalNamespace::IVariableMovementDataProvider*, float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::_ctor)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x225ffa8;
+  constexpr static std::size_t addrs = 0x3182da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)()>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::ManualUpdate)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x226016c;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x3182f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::*)(float_t)>(
     &::GlobalNamespace::BeatmapObjectAvoidanceYOffsetEvaluator::GetJumpOffsetYAtJumpStartSongTime)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x22602e0;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x31830e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

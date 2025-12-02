@@ -25,7 +25,7 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE ShaderPropertyIDAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field filter, offset 0x10, size 0x8
+  /// @brief Field filter, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_filter, put = __cordl_internal_set_filter)) ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* filter;
 
   /// @brief Method GetTargetName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_filter(::BGLib::UnityExtension::ShaderPropertyAttributeFilter* value);
 
-  /// @brief Method .ctor, addr 0x22b752c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fe5f0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
@@ -57,17 +57,17 @@ public:
   ShaderPropertyIDAttribute(ShaderPropertyIDAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20721 };
 
-  /// @brief Field filter, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field filter, offset: 0x18, size: 0x8, def value: None
   ::BGLib::UnityExtension::ShaderPropertyAttributeFilter* ___filter;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::UnityExtension::ShaderPropertyIDAttribute, ___filter) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::ShaderPropertyIDAttribute, ___filter) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDAttribute, 0x20>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 NEED_NO_BOX(::BGLib::UnityExtension::ShaderPropertyIDAttribute);

@@ -39,16 +39,10 @@ namespace GlobalNamespace {
 class PracticeSettings;
 }
 namespace GlobalNamespace {
-class SceneInfo;
-}
-namespace GlobalNamespace {
 class SettingsManager;
 }
 namespace System {
 template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-class Action;
 }
 // Forward declare root types
 namespace BeatmapEditor3D {
@@ -63,66 +57,37 @@ namespace BeatmapEditor3D {
 class CORDL_TYPE BeatmapEditorStandardLevelScenesTransitionSetupDataSO : public ::GlobalNamespace::LevelScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Field _beatmapEditorGameplaySceneInfo, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapEditorGameplaySceneInfo, put = __cordl_internal_set__beatmapEditorGameplaySceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo>
-      _beatmapEditorGameplaySceneInfo;
-
-  /// @brief Field _gameCoreSceneInfo, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameCoreSceneInfo, put = __cordl_internal_set__gameCoreSceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _gameCoreSceneInfo;
-
-  /// @brief Field _standardGameplaySceneInfo, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__standardGameplaySceneInfo, put = __cordl_internal_set__standardGameplaySceneInfo)) ::UnityW<::GlobalNamespace::SceneInfo> _standardGameplaySceneInfo;
-
-  /// @brief Field didFinishEvent, offset 0x50, size 0x8
+  /// @brief Field didFinishEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>,
                                                                                      ::GlobalNamespace::LevelCompletionResults*>* didFinishEvent;
 
-  /// @brief Method Finish, addr 0x3b72f70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x575eaf8, size 0x28, virtual false, abstract: false, final false
   inline void Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Init, addr 0x3b72f98, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x575eb20, size 0x4c, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
                    ::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-                   ::GlobalNamespace::SettingsManager* settingsManager, ::ByRef<::GlobalNamespace::BeatmapEditorStartTestLevelData> data, ::System::Action* beforeSceneSwitchCallback,
-                   ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* levelFinishedCallback);
+                   ::GlobalNamespace::SettingsManager* settingsManager, ::ByRef<::GlobalNamespace::BeatmapEditorStartTestLevelData> data);
 
   static inline ::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO* New_ctor();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__beatmapEditorGameplaySceneInfo() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__beatmapEditorGameplaySceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__gameCoreSceneInfo() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__gameCoreSceneInfo();
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& __cordl_internal_get__standardGameplaySceneInfo() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SceneInfo>& __cordl_internal_get__standardGameplaySceneInfo();
 
   constexpr ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* const&
   __cordl_internal_get_didFinishEvent() const;
 
   constexpr ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*& __cordl_internal_get_didFinishEvent();
 
-  constexpr void __cordl_internal_set__beatmapEditorGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr void __cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
-  constexpr void __cordl_internal_set__standardGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value);
-
   constexpr void
   __cordl_internal_set_didFinishEvent(::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x3b733f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575eb6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b72e10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x575e978, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b72ec0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x575ea38, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* value);
 
 protected:
@@ -140,32 +105,17 @@ public:
   BeatmapEditorStandardLevelScenesTransitionSetupDataSO(BeatmapEditorStandardLevelScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6997 };
 
-  /// @brief Field _standardGameplaySceneInfo, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SceneInfo> ____standardGameplaySceneInfo;
-
-  /// @brief Field _beatmapEditorGameplaySceneInfo, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SceneInfo> ____beatmapEditorGameplaySceneInfo;
-
-  /// @brief Field _gameCoreSceneInfo, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SceneInfo> ____gameCoreSceneInfo;
-
-  /// @brief Field didFinishEvent, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field didFinishEvent, offset: 0x38, size: 0x8, def value: None
   ::System::Action_2<::UnityW<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>* ___didFinishEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, ____standardGameplaySceneInfo) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, ____beatmapEditorGameplaySceneInfo) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, ____gameCoreSceneInfo) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, ___didFinishEvent) == 0x50, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO, 0x40>, "Size mismatch!");
 
 } // namespace BeatmapEditor3D
 NEED_NO_BOX(::BeatmapEditor3D::BeatmapEditorStandardLevelScenesTransitionSetupDataSO);

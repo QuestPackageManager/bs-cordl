@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_cursorWidth)) float_t cursorWidth;
 
-  __declspec(property(get = get_doubleClickSelectsWord)) bool doubleClickSelectsWord;
+  __declspec(property(get = get_doubleClickSelectsWord, put = set_doubleClickSelectsWord)) bool doubleClickSelectsWord;
 
   __declspec(property(get = get_isSelectable, put = set_isSelectable)) bool isSelectable;
 
@@ -47,7 +47,7 @@ public:
 
   __declspec(property(get = get_selectionColor, put = set_selectionColor)) ::UnityEngine::Color selectionColor;
 
-  __declspec(property(get = get_tripleClickSelectsLine)) bool tripleClickSelectsLine;
+  __declspec(property(get = get_tripleClickSelectsLine, put = set_tripleClickSelectsLine)) bool tripleClickSelectsLine;
 
   /// @brief Method HasSelection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool HasSelection();
@@ -100,6 +100,9 @@ public:
   /// @brief Method set_cursorIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_cursorIndex(int32_t value);
 
+  /// @brief Method set_doubleClickSelectsWord, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_doubleClickSelectsWord(bool value);
+
   /// @brief Method set_isSelectable, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_isSelectable(bool value);
 
@@ -115,12 +118,15 @@ public:
   /// @brief Method set_selectionColor, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_selectionColor(::UnityEngine::Color value);
 
+  /// @brief Method set_tripleClickSelectsLine, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_tripleClickSelectsLine(bool value);
+
   // Ctor Parameters [CppParam { name: "", ty: "ITextSelection", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   ITextSelection(ITextSelection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5104 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

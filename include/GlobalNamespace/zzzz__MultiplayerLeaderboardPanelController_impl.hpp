@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeaderboardPanelController::*)()>(
     &::GlobalNamespace::MultiplayerLeaderboardPanelController::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3ba815c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5796ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeaderboardPanelController*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeaderboardPanelController::*)()>(
     &::GlobalNamespace::MultiplayerLeaderboardPanelController::Update)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3ba81e8;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x5796f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeaderboardPanelController*>::get(),
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLeaderboardPanelController::*)()>(
     &::GlobalNamespace::MultiplayerLeaderboardPanelController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba86f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5797444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerLeaderboardPanelController*>::get(),

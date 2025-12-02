@@ -3,15 +3,15 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FinishTutorialAchievementHandler_def.hpp"
 #include "GlobalNamespace/zzzz__AchievementSO_def.hpp"
-#include "GlobalNamespace/zzzz__AchievementsModelSO_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FinishTutorialAchievementHandler.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::Start)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26a3cbc;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x35d4840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::OnDestroy)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26a3d4c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x35d48d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::HandleTutorialFinished)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26a3ddc;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x35d4964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FinishTutorialAchievementHandler::*)()>(
     &::GlobalNamespace::FinishTutorialAchievementHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a3dfc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35d4a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FinishTutorialAchievementHandler*>::get(),
@@ -61,17 +61,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO>& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__achievementsModel() {
+constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__platform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____achievementsModel;
+  return this->____platform;
 }
-constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__achievementsModel() const {
+constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__platform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____achievementsModel;
+  return this->____platform;
 }
-constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__achievementsModel(::UnityW<::GlobalNamespace::AchievementsModelSO> value) {
+constexpr void GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____achievementsModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::Signal>& GlobalNamespace::FinishTutorialAchievementHandler::__cordl_internal_get__tutorialFinishedSignal() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

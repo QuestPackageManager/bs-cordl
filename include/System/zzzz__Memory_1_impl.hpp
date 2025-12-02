@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Memory_1.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Memory_1_def.hpp"
 #include "System/Buffers/zzzz__MemoryHandle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"

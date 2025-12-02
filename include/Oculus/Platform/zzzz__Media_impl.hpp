@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::ShareMediaResult*>* (*)(::StringW, ::StringW, ::Oculus::Platform::MediaContentType)>(&::Oculus::Platform::Media::ShareToFacebook)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3f8b26c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x5bd54dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

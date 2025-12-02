@@ -3,12 +3,13 @@
 #include "System/IO/zzzz__TextWriter_impl.hpp"
 #include "UnityEngine/zzzz__UnityLogWriter_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UnityLogWriter.WriteStringToUnityLog
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLog)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x489c84c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6896880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x489c890;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x689688c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnityLogWriter::Init)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x489c8cc;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x68969ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), "Init",
@@ -49,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::Encoding* (::UnityEngine::UnityLogWriter::*)()>(&::UnityEngine::UnityLogWriter::get_Encoding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x489c99c;
+  constexpr static std::size_t addrs = 0x6896b10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)(char16_t)>(&::UnityEngine::UnityLogWriter::Write)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x489c9a4;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6896b18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)(::StringW)>(&::UnityEngine::UnityLogWriter::Write)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x489ca30;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6896b54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::UnityEngine::UnityLogWriter::Write)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x489ca74;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6896b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,12 +106,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UnityLogWriter::*)()>(&::UnityEngine::UnityLogWriter::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x489c944;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6896ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UnityLogWriter.WriteStringToUnityLogImpl_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x68969b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), "WriteStringToUnityLogImpl_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
     return ___internal_method;
   }
 };
@@ -155,6 +171,12 @@ inline void UnityEngine::UnityLogWriter::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UnityLogWriter::WriteStringToUnityLogImpl_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> s) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnityLogWriter*>::get(), "WriteStringToUnityLogImpl_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, s);
 }
 inline ::UnityEngine::UnityLogWriter* UnityEngine::UnityLogWriter::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UnityLogWriter*>());

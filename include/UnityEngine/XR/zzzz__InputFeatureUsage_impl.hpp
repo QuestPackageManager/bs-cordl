@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/InputFeatureUsage.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureType_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureUsage_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/zzzz__InputFeatureType_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::InputFeatureUsage.get_name
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::InputFeatureUsage::*)()>(&::UnityEngine::XR::InputFeatureUsage::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeaed4;
+  constexpr static std::size_t addrs = 0x6bffa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputFeatureUsage>::get(), "get_name",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::InputFeatureType (::UnityEngine::XR::InputFeatureUsage::*)()>(
     &::UnityEngine::XR::InputFeatureUsage::get_internalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeaedc;
+  constexpr static std::size_t addrs = 0x6bffa88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputFeatureUsage>::get(), "get_internalType",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputFeatureUsage::*)(::System::Object*)>(&::UnityEngine::XR::InputFeatureUsage::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4aeaee4;
+  constexpr static std::size_t addrs = 0x6bffa90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputFeatureUsage::*)(::UnityEngine::XR::InputFeatureUsage)>(
     &::UnityEngine::XR::InputFeatureUsage::Equals)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4aeaf6c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6bffb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::InputFeatureUsage::*)()>(&::UnityEngine::XR::InputFeatureUsage::GetHashCode)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4aeafac;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6bffb54;
 
   inline static ::MethodInfo const* methodInfo() {
 

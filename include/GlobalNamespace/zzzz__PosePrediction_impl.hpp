@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, int64_t, ::UnityEngine::Pose, int64_t, int64_t)>(
     &::GlobalNamespace::PosePrediction::PredictPose)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22ea3ec;
+  constexpr static std::size_t addrs = 0x31b83c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Pose, ::UnityEngine::Pose, float_t)>(
     &::GlobalNamespace::PosePrediction::InterpolatePose)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x22ea4dc;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x31b84b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PoseSerializable (*)(
     ::GlobalNamespace::PoseSerializable, int64_t, ::GlobalNamespace::PoseSerializable, int64_t, int64_t)>(&::GlobalNamespace::PosePrediction::PredictPoseSerializable)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22ea7d8;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x31b8788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PoseSerializable (*)(::GlobalNamespace::PoseSerializable, ::GlobalNamespace::PoseSerializable,
                                                                                                                           float_t)>(&::GlobalNamespace::PosePrediction::InterpolatePoseSerializable)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22ea8b8;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x31b88b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosePrediction::*)()>(&::GlobalNamespace::PosePrediction::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22ea9a8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31b89d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PosePrediction*>::get(), ".ctor",

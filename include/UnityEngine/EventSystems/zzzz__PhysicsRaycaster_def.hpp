@@ -3,14 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseRaycaster_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
-#include "UnityEngine/zzzz__RaycastHit_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(PhysicsRaycaster)
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -45,7 +46,7 @@ class PhysicsRaycaster_RaycastHitComparer;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::PhysicsRaycaster);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer);
-// Dependencies System.Collections.Generic.IComparer`1<T>, System.Object, UnityEngine.RaycastHit
+// Dependencies System.Object
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: UnityEngine.EventSystems.PhysicsRaycaster/RaycastHitComparer
@@ -58,12 +59,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::RaycastHit>*() noexcept;
 
-  /// @brief Method Compare, addr 0x4ae2f0c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x6befd64, size 0x64, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::RaycastHit x, ::UnityEngine::RaycastHit y);
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4ae2f4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6befdc8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster_RaycastHitComparer* getStaticF_instance();
@@ -88,7 +89,7 @@ public:
   PhysicsRaycaster_RaycastHitComparer(PhysicsRaycaster_RaycastHitComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -130,13 +131,13 @@ public:
 
   __declspec(property(get = get_maxRayIntersections, put = set_maxRayIntersections)) int32_t maxRayIntersections;
 
-  /// @brief Method ComputeRayAndDistance, addr 0x4ae2598, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ComputeRayAndDistance, addr 0x6bef480, size 0x2f8, virtual false, abstract: false, final false
   inline bool ComputeRayAndDistance(::UnityEngine::EventSystems::PointerEventData* eventData, ::ByRef<::UnityEngine::Ray> ray, ::ByRef<int32_t> eventDisplayIndex,
                                     ::ByRef<float_t> distanceToClipPlane);
 
   static inline ::UnityEngine::EventSystems::PhysicsRaycaster* New_ctor();
 
-  /// @brief Method Raycast, addr 0x4ae2b08, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x6bef9f0, size 0x374, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get_m_EventCamera() const;
@@ -169,28 +170,28 @@ public:
 
   constexpr void __cordl_internal_set_m_MaxRayIntersections(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4ae1e84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6beee1c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_depth, addr 0x4ae2a24, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method get_depth, addr 0x6bef908, size 0xc8, virtual true, abstract: false, final false
   inline int32_t get_depth();
 
-  /// @brief Method get_eventCamera, addr 0x4ae2954, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x6bef830, size 0xd8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_eventMask, addr 0x4ae2ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventMask, addr 0x6bef9d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::LayerMask get_eventMask();
 
-  /// @brief Method get_finalEventMask, addr 0x4ae2890, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method get_finalEventMask, addr 0x6bef778, size 0xb8, virtual false, abstract: false, final false
   inline int32_t get_finalEventMask();
 
-  /// @brief Method get_maxRayIntersections, addr 0x4ae2af8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxRayIntersections, addr 0x6bef9e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxRayIntersections();
 
-  /// @brief Method set_eventMask, addr 0x4ae2af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eventMask, addr 0x6bef9d8, size 0x8, virtual false, abstract: false, final false
   inline void set_eventMask(::UnityEngine::LayerMask value);
 
-  /// @brief Method set_maxRayIntersections, addr 0x4ae2b00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_maxRayIntersections, addr 0x6bef9e8, size 0x8, virtual false, abstract: false, final false
   inline void set_maxRayIntersections(int32_t value);
 
 protected:
@@ -208,7 +209,7 @@ public:
   PhysicsRaycaster(PhysicsRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17535 };
 
   /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
   static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };

@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Security::AccessControl::GenericSecurityDescriptor* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cc50ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5908868, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method set_Group, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -51,7 +51,7 @@ public:
   GenericSecurityDescriptor(GenericSecurityDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3036 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3053 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

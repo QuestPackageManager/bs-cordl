@@ -4,6 +4,7 @@
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorStore_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/SubsystemsImplementation/zzzz__SubsystemDescriptorWithProvider_def.hpp"
 #include "UnityEngine/zzzz__IntegratedSubsystemDescriptor_def.hpp"
 #include "UnityEngine/zzzz__SubsystemDescriptor_def.hpp"
@@ -12,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::UnityEngine::IntegratedSubsystemDescriptor*)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::InitializeManagedDescriptor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x491b9e0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6984b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,8 +29,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ClearManagedDescriptors)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x491bab8;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x6984c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ReportSingleSubsystemAnalytics)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x491bc74;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6984dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,13 +59,29 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::SubsystemDescriptor*)>(
     &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::RegisterDeprecatedDescriptor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x491b0e4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6984298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>::get(), "RegisterDeprecatedDescriptor",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SubsystemDescriptor*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore.ReportSingleSubsystemAnalytics_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ReportSingleSubsystemAnalytics_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6984ef8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>::get(),
+                                    "ReportSingleSubsystemAnalytics_Injected", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
     return ___internal_method;
   }
 };
@@ -157,6 +174,13 @@ inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::Reg
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>::get(), "RegisterDeprecatedDescriptor",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SubsystemDescriptor*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, descriptor);
+}
+inline void UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::ReportSingleSubsystemAnalytics_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> id) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore*>::get(),
+                                  "ReportSingleSubsystemAnalytics_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, id);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::SubsystemsImplementation::SubsystemDescriptorStore::SubsystemDescriptorStore() {}

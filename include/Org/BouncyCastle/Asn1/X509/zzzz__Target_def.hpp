@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Target)
@@ -19,6 +18,9 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 namespace System {
 class Object;
@@ -88,7 +90,7 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::Target_Choice, value__) 
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::Target_Choice, 0x4>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Asn1::X509
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.X509.Target
@@ -110,14 +112,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2610610, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x35403a0, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Target* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Target* New_ctor(::Org::BouncyCastle::Asn1::X509::Target_Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method ToAsn1Object, addr 0x261091c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x35406a8, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::GeneralName* const& __cordl_internal_get_targetGroup() const;
@@ -132,16 +134,16 @@ public:
 
   constexpr void __cordl_internal_set_targetName(::Org::BouncyCastle::Asn1::X509::GeneralName* value);
 
-  /// @brief Method .ctor, addr 0x261078c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3540524, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagObj);
 
-  /// @brief Method .ctor, addr 0x2610898, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3540624, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::Target_Choice type, ::Org::BouncyCastle::Asn1::X509::GeneralName* name);
 
-  /// @brief Method get_TargetGroup, addr 0x261090c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetGroup, addr 0x3540698, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetGroup();
 
-  /// @brief Method get_TargetName, addr 0x2610914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_TargetName, addr 0x35406a0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::GeneralName* get_TargetName();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

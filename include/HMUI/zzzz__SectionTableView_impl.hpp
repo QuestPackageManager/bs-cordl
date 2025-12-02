@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*)>(
     &::HMUI::SectionTableView::add_didSelectRowInSectionEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39fdd28;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5677318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_3<::UnityW<::HMUI::SectionTableView>, int32_t, int32_t>*)>(
     &::HMUI::SectionTableView::remove_didSelectRowInSectionEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39fddd8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56773d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*)>(
     &::HMUI::SectionTableView::add_didSelectHeaderEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39fde88;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5677498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,8 +164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::System::Action_2<::UnityW<::HMUI::SectionTableView>, int32_t>*)>(
     &::HMUI::SectionTableView::remove_didSelectHeaderEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39fdf38;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5677558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::SectionTableView_IDataSource* (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::get_dataSource)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39fdfe8;
+  constexpr static std::size_t addrs = 0x5677618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "get_dataSource",
@@ -192,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(::HMUI::SectionTableView_IDataSource*)>(
     &::HMUI::SectionTableView::set_dataSource)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39fdff0;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5677620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,7 +207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::IsSectionUnfolded)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39fe018;
+  constexpr static std::size_t addrs = 0x567764c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -220,8 +220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::CellSize)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39fe04c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5677680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -234,8 +234,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::NumberOfCells)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39fe0ec;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5677724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "NumberOfCells",
@@ -248,8 +248,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::HMUI::SectionTableView::*)(::HMUI::TableView*, int32_t)>(
     &::HMUI::SectionTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x39fe12c;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x5677760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::ReloadData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39fe390;
+  constexpr static std::size_t addrs = 0x56779c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -277,8 +277,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(bool)>(&::HMUI::SectionTableView::ReloadData)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x39fe398;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x56779d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,8 +291,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::DidSelectCellWithIdx)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39fe884;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5677e90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -305,8 +305,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::UnfoldAllSections)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39fe900;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5677f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "UnfoldAllSections",
@@ -318,8 +318,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::FoldAll)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39fe958;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5677f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), "FoldAll",
@@ -331,8 +331,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::UnfoldSection)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x39fe9ac;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x5677fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -345,8 +345,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(int32_t)>(&::HMUI::SectionTableView::FoldSection)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x39fee74;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x567841c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -361,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(int32_t, int32_t, ::HMUI::TableView_ScrollPositionType, bool)>(
     &::HMUI::SectionTableView::ScrollToRow)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39ff234;
+  constexpr static std::size_t addrs = 0x56787ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)(int32_t, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<bool>)>(
     &::HMUI::SectionTableView::SectionAndRowForBaseRow)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x39fe2b0;
+  constexpr static std::size_t addrs = 0x56778e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -394,7 +394,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::SectionTableView::*)()>(&::HMUI::SectionTableView::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ff35c;
+  constexpr static std::size_t addrs = 0x5678924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::SectionTableView*>::get(), ".ctor",

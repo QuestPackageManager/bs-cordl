@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/HelpFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
 #include "GlobalNamespace/zzzz__HelpFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__EnvironmentsListModel_def.hpp"
 #include "GlobalNamespace/zzzz__HelpMenuViewController_def.hpp"
 #include "GlobalNamespace/zzzz__HelpNavigationController_def.hpp"
 #include "GlobalNamespace/zzzz__HowToPlayViewController_def.hpp"
@@ -15,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*)>(&::GlobalNamespace::HelpFlowCoordinator::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c07cd4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57fedb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::HelpFlowCoordinator>>*)>(&::GlobalNamespace::HelpFlowCoordinator::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c07d84;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57fee70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::HelpFlowCoordinator::DidActivate)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3c07e34;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x57fef30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::HelpFlowCoordinator::DidDeactivate)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3c08040;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x57ff134;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HelpFlowCoordinator::HandleDidSelectHelpSubMenu)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c08144;
+  constexpr static std::size_t addrs = 0x57ff248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HelpFlowCoordinator::ReplaceViewController)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3c08148;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x57ff24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::HelpFlowCoordinator::BackButtonWasPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c08248;
+  constexpr static std::size_t addrs = 0x57ff358;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)(::GlobalNamespace::HowToPlayViewController_HowToPlayOptions)>(
     &::GlobalNamespace::HelpFlowCoordinator::HandleHowToPlayViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3c08268;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x57ff378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HelpFlowCoordinator::*)()>(&::GlobalNamespace::HelpFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c082e0;
+  constexpr static std::size_t addrs = 0x57ff3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HelpFlowCoordinator*>::get(), ".ctor",
@@ -166,6 +167,18 @@ constexpr ::UnityW<::GlobalNamespace::MenuTransitionsHelper> const& GlobalNamesp
 constexpr void GlobalNamespace::HelpFlowCoordinator::__cordl_internal_set__menuTransitionsHelper(::UnityW<::GlobalNamespace::MenuTransitionsHelper> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____menuTransitionsHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::EnvironmentsListModel*& GlobalNamespace::HelpFlowCoordinator::__cordl_internal_get__environmentsListModel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentsListModel;
+}
+constexpr ::GlobalNamespace::EnvironmentsListModel* const& GlobalNamespace::HelpFlowCoordinator::__cordl_internal_get__environmentsListModel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____environmentsListModel;
+}
+constexpr void GlobalNamespace::HelpFlowCoordinator::__cordl_internal_set__environmentsListModel(::GlobalNamespace::EnvironmentsListModel* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____environmentsListModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::HowToPlayViewController>& GlobalNamespace::HelpFlowCoordinator::__cordl_internal_get__howToPlayViewController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

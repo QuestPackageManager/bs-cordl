@@ -21,10 +21,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::XR::XRControllerWithRumble* New_ctor();
 
-  /// @brief Method SendImpulse, addr 0x45e4890, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SendImpulse, addr 0x6369804, size 0xac, virtual false, abstract: false, final false
   inline void SendImpulse(float_t amplitude, float_t duration);
 
-  /// @brief Method .ctor, addr 0x45e49b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63698cc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -42,12 +42,12 @@ public:
   XRControllerWithRumble(XRControllerWithRumble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6734 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8790 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRControllerWithRumble, 0x190>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRControllerWithRumble, 0x1a8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRControllerWithRumble);

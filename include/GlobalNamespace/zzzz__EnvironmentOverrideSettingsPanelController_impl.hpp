@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EnvironmentOverrideSettingsPanelController.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentType_impl.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
@@ -9,6 +8,7 @@
 #include "GlobalNamespace/zzzz__EnvironmentOverrideSettingsPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentsListModel_def.hpp"
 #include "GlobalNamespace/zzzz__IAnalyticsModel_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "GlobalNamespace/zzzz__OverrideEnvironmentSettings_def.hpp"
 #include "HMUI/zzzz__DropdownWithTableView_def.hpp"
 #include "HMUI/zzzz__PanelAnimationSO_def.hpp"
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>* (
     ::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)()>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::get_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c035b8;
+  constexpr static std::size_t addrs = 0x57f8228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::EnvironmentInfoSO>>*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::set_environmentInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c035c0;
+  constexpr static std::size_t addrs = 0x57f8230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController_Elements::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c035c8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57f8238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c0362c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57f8290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -171,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::*)(
     ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController___c::_SetData_b__10_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c03634;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x57f8294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(
     ::GlobalNamespace::OverrideEnvironmentSettings*)>(&::GlobalNamespace::EnvironmentOverrideSettingsPanelController::SetData)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3c02b28;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x57f75d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::OnDestroy)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3c02dcc;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x57f7904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::Refresh)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3c02f60;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x57f7ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,8 +266,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(::HMUI::DropdownWithTableView*, int32_t)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleDropDownDidSelectCellWithIdx)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3c030b8;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x57f7c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,8 +283,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::HandleOverrideEnvironmentsToggleValueChanged)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3c03334;
+  constexpr static std::size_t size = 0x2d4;
+  constexpr static std::size_t addrs = 0x57f7f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -298,8 +298,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c03590;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57f8208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -313,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentOverrideSettingsPanelController::*)()>(
     &::GlobalNamespace::EnvironmentOverrideSettingsPanelController::_HandleOverrideEnvironmentsToggleValueChanged_b__14_0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c03598;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57f820c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

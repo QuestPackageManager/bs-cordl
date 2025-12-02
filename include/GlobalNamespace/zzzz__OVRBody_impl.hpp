@@ -2,8 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/OVRBody.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeletonRenderer_impl.hpp"
-#include "GlobalNamespace/zzzz__OVRSkeleton_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBody_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
@@ -11,13 +9,42 @@
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.get_ProvidedSkeletonType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BodyJointSet (::GlobalNamespace::OVRBody::*)()>(
+    &::GlobalNamespace::OVRBody::get_ProvidedSkeletonType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5be2528;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "get_ProvidedSkeletonType",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.set_ProvidedSkeletonType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)(::GlobalNamespace::OVRPlugin_BodyJointSet)>(
+    &::GlobalNamespace::OVRBody::set_ProvidedSkeletonType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5be2530;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "set_ProvidedSkeletonType", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_BodyJointSet>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRBody.get_BodyState
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::GlobalNamespace::OVRPlugin_BodyState> (::GlobalNamespace::OVRBody::*)()>(
     &::GlobalNamespace::OVRBody::get_BodyState)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fa2104;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5be2538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "get_BodyState",
@@ -30,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::Awake)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3fa218c;
+  constexpr static std::size_t addrs = 0x5be25bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "Awake",
@@ -42,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::OnEnable)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3fa2208;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x5be2638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "OnEnable",
@@ -55,8 +82,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)(::StringW)>(&::GlobalNamespace::OVRBody::OnPermissionGranted)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fa2478;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5be2ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,9 +95,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVRBody.StartBodyTracking
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::StartBodyTracking)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3fa231c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRBody::StartBodyTracking)> {
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x5be285c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "StartBodyTracking",
@@ -82,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::OnDisable)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fa24d8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5be2b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "OnDisable",
@@ -96,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fa2560;
+  constexpr static std::size_t addrs = 0x5be2bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "OnDestroy",
@@ -109,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::Update)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa256c;
+  constexpr static std::size_t addrs = 0x5be2bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "Update",
@@ -117,12 +144,82 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.SetRequestedJointSet
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRPlugin_BodyJointSet)>(&::GlobalNamespace::OVRBody::SetRequestedJointSet)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5be2bc4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "SetRequestedJointSet", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_BodyJointSet>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.SuggestBodyTrackingCalibrationOverride
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t)>(&::GlobalNamespace::OVRBody::SuggestBodyTrackingCalibrationOverride)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5be2c88;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "SuggestBodyTrackingCalibrationOverride",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.ResetBodyTrackingCalibration
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::GlobalNamespace::OVRBody::ResetBodyTrackingCalibration)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5be2cec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(),
+                                                                               "ResetBodyTrackingCalibration", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.GetBodyTrackingCalibrationStatus
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState (::GlobalNamespace::OVRBody::*)()>(
+    &::GlobalNamespace::OVRBody::GetBodyTrackingCalibrationStatus)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5be2d40;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "GetBodyTrackingCalibrationStatus",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.GetBodyTrackingFidelityStatus
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 (::GlobalNamespace::OVRBody::*)()>(
+    &::GlobalNamespace::OVRBody::GetBodyTrackingFidelityStatus)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5be2d58;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(),
+                                                                               "GetBodyTrackingFidelityStatus", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRBody.GetBodyState
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)(::GlobalNamespace::OVRPlugin_Step)>(&::GlobalNamespace::OVRBody::GetBodyState)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3fa23f4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5be2a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,8 +233,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSkeleton_SkeletonType (::GlobalNamespace::OVRBody::*)()>(
     &::GlobalNamespace::OVRBody::OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonType)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa2574;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5be2d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSkeleton_SkeletonPoseData (::GlobalNamespace::OVRBody::*)()>(
     &::GlobalNamespace::OVRBody::OVRSkeleton_IOVRSkeletonDataProvider_GetSkeletonPoseData)> {
   constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3fa257c;
+  constexpr static std::size_t addrs = 0x5be2d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -167,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData (::GlobalNamespace::OVRBody::*)()>(
     &::GlobalNamespace::OVRBody::OVRSkeletonRenderer_IOVRSkeletonRendererDataProvider_GetSkeletonRendererData)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fa27a4;
+  constexpr static std::size_t addrs = 0x5be2fa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(),
@@ -176,12 +273,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.get_Fidelity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 (*)()>(&::GlobalNamespace::OVRBody::get_Fidelity)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5be2fc0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "get_Fidelity",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBody.set_Fidelity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2)>(&::GlobalNamespace::OVRBody::set_Fidelity)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5be2fe0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "set_Fidelity", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRBody._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBody::*)()>(&::GlobalNamespace::OVRBody::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa27bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5be3054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), ".ctor",
@@ -195,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRBody::*)()>(
     &::GlobalNamespace::OVRBody::OVRSkeleton_IOVRSkeletonDataProvider_get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa27c4;
+  constexpr static std::size_t addrs = 0x5be3058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,11 +400,34 @@ constexpr void GlobalNamespace::OVRBody::__cordl_internal_set__onPermissionGrant
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onPermissionGranted)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet& GlobalNamespace::OVRBody::__cordl_internal_get__providedSkeletonType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____providedSkeletonType;
+}
+constexpr ::GlobalNamespace::OVRPlugin_BodyJointSet const& GlobalNamespace::OVRBody::__cordl_internal_get__providedSkeletonType() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____providedSkeletonType;
+}
+constexpr void GlobalNamespace::OVRBody::__cordl_internal_set__providedSkeletonType(::GlobalNamespace::OVRPlugin_BodyJointSet value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____providedSkeletonType = value;
+}
 inline void GlobalNamespace::OVRBody::setStaticF__trackingInstanceCount(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_trackingInstanceCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get>(std::forward<int32_t>(value));
 }
 inline int32_t GlobalNamespace::OVRBody::getStaticF__trackingInstanceCount() {
   return ::cordl_internals::getStaticField<int32_t, "_trackingInstanceCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get>();
+}
+inline ::GlobalNamespace::OVRPlugin_BodyJointSet GlobalNamespace::OVRBody::get_ProvidedSkeletonType() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "get_ProvidedSkeletonType",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_BodyJointSet, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRBody::set_ProvidedSkeletonType(::GlobalNamespace::OVRPlugin_BodyJointSet value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "set_ProvidedSkeletonType", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_BodyJointSet>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Nullable_1<::GlobalNamespace::OVRPlugin_BodyState> GlobalNamespace::OVRBody::get_BodyState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "get_BodyState",
@@ -306,7 +453,7 @@ inline void GlobalNamespace::OVRBody::OnPermissionGranted(::StringW permissionId
 inline bool GlobalNamespace::OVRBody::StartBodyTracking() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "StartBodyTracking",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::OVRBody::OnDisable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "OnDisable",
@@ -322,6 +469,33 @@ inline void GlobalNamespace::OVRBody::Update() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "Update",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::OVRBody::SetRequestedJointSet(::GlobalNamespace::OVRPlugin_BodyJointSet jointSet) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "SetRequestedJointSet", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_BodyJointSet>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, jointSet);
+}
+inline bool GlobalNamespace::OVRBody::SuggestBodyTrackingCalibrationOverride(float_t height) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "SuggestBodyTrackingCalibrationOverride",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, height);
+}
+inline bool GlobalNamespace::OVRBody::ResetBodyTrackingCalibration() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "ResetBodyTrackingCalibration",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline ::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState GlobalNamespace::OVRBody::GetBodyTrackingCalibrationStatus() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(),
+                                                                             "GetBodyTrackingCalibrationStatus", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_BodyTrackingCalibrationState, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 GlobalNamespace::OVRBody::GetBodyTrackingFidelityStatus() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(),
+                                                                             "GetBodyTrackingFidelityStatus", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRBody::GetBodyState(::GlobalNamespace::OVRPlugin_Step step) {
   static auto* ___internal_method =
@@ -346,6 +520,17 @@ inline ::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData GlobalNamespa
                                                                              "OVRSkeletonRenderer.IOVRSkeletonRendererDataProvider.GetSkeletonRendererData", std::span<Il2CppClass const* const, 0>(),
                                                                              ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 GlobalNamespace::OVRBody::get_Fidelity() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "get_Fidelity",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2, false>(nullptr, ___internal_method);
+}
+inline void GlobalNamespace::OVRBody::set_Fidelity(::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2 value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), "set_Fidelity", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRPlugin_BodyTrackingFidelity2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
 inline void GlobalNamespace::OVRBody::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBody*>::get(), ".ctor",

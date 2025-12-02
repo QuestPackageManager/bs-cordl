@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::*)()>(
     &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920774;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6987400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)()>(
     &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492077c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6987404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::*)(::UnityEngine::Terrain*)>(
     &::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::_CollectTerrains_b__0)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4920b0c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6987764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,8 +119,8 @@ constexpr ::UnityEngine::TerrainUtils::TerrainUtility___c__DisplayClass2_1::Terr
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ValidTerrainsExist)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4920338;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6987040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
@@ -132,8 +132,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::ClearConnectivity)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x49203a0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x69870a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityEngine::TerrainUtils::TerrainMap*>* (*)(bool)>(
     &::UnityEngine::TerrainUtils::TerrainUtility::CollectTerrains)> {
-  constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x4920498;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x6987144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,8 +160,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TerrainUtils::TerrainUtility::AutoConnect)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x4920784;
+  constexpr static std::size_t size = 0x35c;
+  constexpr static std::size_t addrs = 0x6987408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TerrainUtils::TerrainUtility*>::get(),

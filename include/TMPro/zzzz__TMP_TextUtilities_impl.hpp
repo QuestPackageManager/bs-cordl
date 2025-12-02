@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_TextUtilities_LineSegment::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::TMPro::TMP_TextUtilities_LineSegment::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x480a360;
+  constexpr static std::size_t addrs = 0x678a3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::GetCursorIndexFromPosition)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x48074dc;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x67870e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, ::ByRef<::TMPro::CaretPosition>)>(
     &::TMPro::TMP_TextUtilities::GetCursorIndexFromPosition)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x4807c8c;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x67878dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::FindNearestLine)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4807e6c;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x6787af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, int32_t, ::UnityEngine::Camera*, bool)>(
     &::TMPro::TMP_TextUtilities::FindNearestCharacterOnLine)> {
-  constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x4807fec;
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x6787c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::IsIntersectingRectTransform)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x48084e0;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x67881f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, bool)>(
     &::TMPro::TMP_TextUtilities::FindIntersectingCharacter)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x48085fc;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x6788314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*, bool)>(
     &::TMPro::TMP_TextUtilities::FindNearestCharacter)> {
-  constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x4807640;
+  constexpr static std::size_t size = 0x348;
+  constexpr static std::size_t addrs = 0x6787250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::FindIntersectingWord)> {
-  constexpr static std::size_t size = 0x410;
-  constexpr static std::size_t addrs = 0x4808804;
+  constexpr static std::size_t size = 0x470;
+  constexpr static std::size_t addrs = 0x678853c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::FindNearestWord)> {
-  constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x4808c14;
+  constexpr static std::size_t size = 0x71c;
+  constexpr static std::size_t addrs = 0x67889ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::FindIntersectingLine)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x48091d8;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x67890c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,8 +218,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::FindIntersectingLink)> {
-  constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x4809330;
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x6789244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::TMPro::TMP_Text*, ::UnityEngine::Vector3, ::UnityEngine::Camera*)>(
     &::TMPro::TMP_TextUtilities::FindNearestLink)> {
-  constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x4809670;
+  constexpr static std::size_t size = 0x6fc;
+  constexpr static std::size_t addrs = 0x67895bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3,
                                                                                            ::UnityEngine::Vector3)>(&::TMPro::TMP_TextUtilities::PointIntersectRectangle)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x4808358;
+  constexpr static std::size_t addrs = 0x678806c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,8 +270,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Camera*, ::ByRef<::UnityEngine::Vector3>)>(
     &::TMPro::TMP_TextUtilities::ScreenPointToWorldPointInRectangle)> {
-  constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x4807968;
+  constexpr static std::size_t size = 0x344;
+  constexpr static std::size_t addrs = 0x6787598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,8 +287,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::TMPro::TMP_TextUtilities_LineSegment, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<::UnityEngine::Vector3>)>(&::TMPro::TMP_TextUtilities::IntersectLinePlane)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x4809d84;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6789cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::TMPro::TMP_TextUtilities::DistanceToLine)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4808418;
+  constexpr static std::size_t addrs = 0x678812c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -320,8 +320,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::TMPro::TMP_TextUtilities::ToLowerFast)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4809ef4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6789e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -334,8 +334,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::TMPro::TMP_TextUtilities::ToUpperFast)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4809f68;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6789eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -348,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::TMPro::TMP_TextUtilities::ToUpperASCIIFast)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4809fdc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6789f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -362,8 +362,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextUtilities::GetHashCode)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x480a050;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6789fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -376,8 +376,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextUtilities::GetSimpleHashCode)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4801cbc;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x678a060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,12 +390,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x480a10c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x678a0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextUtilities*>::get(), "GetSimpleHashCodeLowercase", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_TextUtilities.GetHashCodeCaseInSensitive
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::TMPro::TMP_TextUtilities::GetHashCodeCaseInSensitive)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x678a160;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextUtilities*>::get(), "GetHashCodeCaseInSensitive", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
@@ -405,7 +419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(char16_t)>(&::TMPro::TMP_TextUtilities::HexToInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x480a1c8;
+  constexpr static std::size_t addrs = 0x678a218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -418,8 +432,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW)>(&::TMPro::TMP_TextUtilities::StringHexToInt)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x480a1f4;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x678a244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -602,6 +616,12 @@ inline int32_t TMPro::TMP_TextUtilities::GetSimpleHashCode(::StringW s) {
 inline uint32_t TMPro::TMP_TextUtilities::GetSimpleHashCodeLowercase(::StringW s) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextUtilities*>::get(), "GetSimpleHashCodeLowercase", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, s);
+}
+inline uint32_t TMPro::TMP_TextUtilities::GetHashCodeCaseInSensitive(::StringW s) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_TextUtilities*>::get(), "GetHashCodeCaseInSensitive", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, s);
 }

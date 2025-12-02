@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/ServerOnlyTlsAuthentication.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ServerOnlyTlsAuthentication_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__CertificateRequest_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__Certificate_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication.NotifyServerCertificate
 template <>
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCredentials* (::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::*)(::Org::BouncyCastle::Crypto::Tls::CertificateRequest*)>(
         &::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::GetClientCredentials)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241b174;
+  constexpr static std::size_t addrs = 0x33494cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::ServerOnlyTlsAuthentication::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x241b17c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33494d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

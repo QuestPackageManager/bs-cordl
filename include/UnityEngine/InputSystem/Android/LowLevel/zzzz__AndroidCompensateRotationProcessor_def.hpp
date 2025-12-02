@@ -26,10 +26,10 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidCompensateRotationProcessor* New_ctor();
 
-  /// @brief Method Process, addr 0x460702c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Process, addr 0x638ee9c, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
 
-  /// @brief Method .ctor, addr 0x4607060, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638eed0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   AndroidCompensateRotationProcessor(AndroidCompensateRotationProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

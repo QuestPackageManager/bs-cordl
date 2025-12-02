@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveAscii)
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
 namespace System {
 class Object;
 }
@@ -18,7 +22,7 @@ class CaseInsensitiveAscii;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::CaseInsensitiveAscii);
-// Dependencies System.Collections.IComparer, System.Collections.IEqualityComparer, System.Object
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.CaseInsensitiveAscii
@@ -37,21 +41,21 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x44a53a0, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x61f4cc0, size 0x17c, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* firstObject, ::System::Object* secondObject);
 
-  /// @brief Method Equals, addr 0x44a5600, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x61f4f28, size 0x194, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* firstObject, ::System::Object* secondObject);
 
-  /// @brief Method FastGetHashCode, addr 0x44a5510, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method FastGetHashCode, addr 0x61f4e3c, size 0xec, virtual false, abstract: false, final false
   inline int32_t FastGetHashCode(::StringW myString);
 
-  /// @brief Method GetHashCode, addr 0x44a5288, size 0x118, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x61f4bc0, size 0x100, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* myObject);
 
   static inline ::System::Net::CaseInsensitiveAscii* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44a5780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61f50bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_AsciiToLower();
@@ -83,7 +87,7 @@ public:
   CaseInsensitiveAscii(CaseInsensitiveAscii const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11487 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

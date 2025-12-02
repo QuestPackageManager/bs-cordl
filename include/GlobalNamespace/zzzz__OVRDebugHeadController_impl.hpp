@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRDebugHeadController::*)()>(&::GlobalNamespace::OVRDebugHeadController::Awake)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3fa7a80;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5c09858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugHeadController*>::get(), "Awake",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRDebugHeadController::*)()>(&::GlobalNamespace::OVRDebugHeadController::Start)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fa7b7c;
+  constexpr static std::size_t addrs = 0x5c09964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugHeadController*>::get(), "Start",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRDebugHeadController::*)()>(&::GlobalNamespace::OVRDebugHeadController::Update)> {
-  constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x3fa7b80;
+  constexpr static std::size_t size = 0x5a8;
+  constexpr static std::size_t addrs = 0x5c09968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugHeadController*>::get(), "Update",
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRDebugHeadController::*)()>(&::GlobalNamespace::OVRDebugHeadController::_ctor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3fa80b4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c09f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRDebugHeadController*>::get(), ".ctor",

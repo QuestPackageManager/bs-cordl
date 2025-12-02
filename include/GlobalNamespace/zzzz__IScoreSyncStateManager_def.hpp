@@ -3,15 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IScoreSyncStateManager_5_def.hpp"
-#include "GlobalNamespace/zzzz__StandardScoreSyncState_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IScoreSyncStateManager)
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class IScoreSyncStateManager_5;
+}
 namespace GlobalNamespace {
 class StandardScoreSyncStateDeltaNetSerializable;
 }
 namespace GlobalNamespace {
 class StandardScoreSyncStateNetSerializable;
+}
+namespace GlobalNamespace {
+struct StandardScoreSyncState_Score;
+}
+namespace GlobalNamespace {
+struct StandardScoreSyncState;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +26,7 @@ class IScoreSyncStateManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IScoreSyncStateManager);
-// Dependencies IScoreSyncStateManager`5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>, StandardScoreSyncState, StandardScoreSyncState::Score
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IScoreSyncStateManager
@@ -42,7 +49,7 @@ public:
   IScoreSyncStateManager(IScoreSyncStateManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17356 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21221 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ public:
   constexpr TextVertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector4 uv, ::UnityEngine::Vector2 uv2, ::UnityEngine::Color32 color) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15263 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

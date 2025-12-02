@@ -19,13 +19,13 @@ namespace GlobalNamespace {
 class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
+class IRandom;
+}
+namespace GlobalNamespace {
 struct TrackLaneRingsRotationEffectSpawner_RotationStepType;
 }
 namespace GlobalNamespace {
 class TrackLaneRingsRotationEffect;
-}
-namespace System {
-class Random;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -80,7 +80,7 @@ public:
   static ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner_RotationStepType const Range0ToMax;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5968 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -117,7 +117,7 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
 
   /// @brief Field _random, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::GlobalNamespace::IRandom* _random;
 
   /// @brief Field _rotation, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__rotation, put = __cordl_internal_set__rotation)) float_t _rotation;
@@ -139,15 +139,15 @@ public:
   __declspec(property(get = __cordl_internal_get__trackLaneRingsRotationEffect, put = __cordl_internal_set__trackLaneRingsRotationEffect)) ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect>
       _trackLaneRingsRotationEffect;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3ba090c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x578f308, size 0xe4, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::TrackLaneRingsRotationEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ba08f0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x578f2ec, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3ba07c8, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x578f1c4, size 0x128, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -162,9 +162,9 @@ public:
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__beatmapEventType();
 
-  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+  constexpr ::GlobalNamespace::IRandom* const& __cordl_internal_get__random() const;
 
-  constexpr ::System::Random*& __cordl_internal_get__random();
+  constexpr ::GlobalNamespace::IRandom*& __cordl_internal_get__random();
 
   constexpr float_t const& __cordl_internal_get__rotation() const;
 
@@ -196,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
 
-  constexpr void __cordl_internal_set__random(::System::Random* value);
+  constexpr void __cordl_internal_set__random(::GlobalNamespace::IRandom* value);
 
   constexpr void __cordl_internal_set__rotation(float_t value);
 
@@ -210,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set__trackLaneRingsRotationEffect(::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> value);
 
-  /// @brief Method .ctor, addr 0x3ba09d4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578f3ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -228,7 +228,7 @@ public:
   TrackLaneRingsRotationEffectSpawner(TrackLaneRingsRotationEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5969 };
 
   /// @brief Field _trackLaneRingsRotationEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TrackLaneRingsRotationEffect> ____trackLaneRingsRotationEffect;
@@ -255,7 +255,7 @@ public:
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
 
   /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
-  ::System::Random* ____random;
+  ::GlobalNamespace::IRandom* ____random;
 
   /// @brief Field _beatmapDataCallbackWrapper, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;

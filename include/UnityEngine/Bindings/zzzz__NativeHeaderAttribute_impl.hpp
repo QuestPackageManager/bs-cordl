@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeHeaderAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeHeaderAttribute::set_Header)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4918ad8;
+  constexpr static std::size_t addrs = 0x6981c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeHeaderAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeHeaderAttribute::_ctor)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4918ae0;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6981c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

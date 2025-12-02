@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/ReaderWriterLockSlim.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
 #include "System/Threading/zzzz__EventWaitHandle_def.hpp"
 #include "System/Threading/zzzz__LockRecursionPolicy_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterCount_def.hpp"
 #include "System/Threading/zzzz__ReaderWriterLockSlim_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Threading::ReaderWriterLockSlim_TimeoutTracker._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim_TimeoutTracker::*)(int32_t)>(
     &::System::Threading::ReaderWriterLockSlim_TimeoutTracker::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4107768;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5db1614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim_TimeoutTracker::*)()>(
     &::System::Threading::ReaderWriterLockSlim_TimeoutTracker::get_RemainingMilliseconds)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4108ad4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5db2ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim_TimeoutTracker>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim_TimeoutTracker::*)()>(
     &::System::Threading::ReaderWriterLockSlim_TimeoutTracker::get_IsExpired)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4107b80;
+  constexpr static std::size_t addrs = 0x5db19e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim_TimeoutTracker>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::InitializeThreadCounts)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x410750c;
+  constexpr static std::size_t addrs = 0x5db1350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4107518;
+  constexpr static std::size_t addrs = 0x5db135c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(), ".ctor",
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::LockRecursionPolicy)>(
     &::System::Threading::ReaderWriterLockSlim::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4107520;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5db1364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,8 +119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Threading::ReaderWriterCount*)>(&::System::Threading::ReaderWriterLockSlim::IsRWEntryEmpty)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41075a4;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5db13f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterCount*)>(
     &::System::Threading::ReaderWriterLockSlim::IsRwHashEntryChanged)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x41075e4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5db142c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::ReaderWriterCount* (::System::Threading::ReaderWriterLockSlim::*)(bool)>(
     &::System::Threading::ReaderWriterLockSlim::GetThreadRWCount)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4107608;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5db144c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterReadLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4107734;
+  constexpr static std::size_t addrs = 0x5db15e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(int32_t)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterReadLock)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x410773c;
+  constexpr static std::size_t addrs = 0x5db15e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterReadLock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41077ec;
+  constexpr static std::size_t addrs = 0x5db1694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterReadLockCore)> {
-  constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x41077f0;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x5db1698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterWriteLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4107e50;
+  constexpr static std::size_t addrs = 0x5db1d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(int32_t)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterWriteLock)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4107e58;
+  constexpr static std::size_t addrs = 0x5db1d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterWriteLock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4107e84;
+  constexpr static std::size_t addrs = 0x5db1dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,8 +265,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterWriteLockCore)> {
-  constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x4107e88;
+  constexpr static std::size_t size = 0x3fc;
+  constexpr static std::size_t addrs = 0x5db1dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +281,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::EnterUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4108294;
+  constexpr static std::size_t addrs = 0x5db21f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(int32_t)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x410829c;
+  constexpr static std::size_t addrs = 0x5db21f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLock)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41082c8;
+  constexpr static std::size_t addrs = 0x5db2224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,8 +324,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(::System::Threading::ReaderWriterLockSlim_TimeoutTracker)>(
     &::System::Threading::ReaderWriterLockSlim::TryEnterUpgradeableReadLockCore)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x41082cc;
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x5db2228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -338,8 +338,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitReadLock)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x410862c;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x5db25d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -351,8 +351,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitWriteLock)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x41087c4;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x5db2788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -365,8 +365,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ExitUpgradeableReadLock)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x410891c;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x5db28d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -379,8 +379,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)(::ByRef<::System::Threading::EventWaitHandle*>, bool)>(
     &::System::Threading::ReaderWriterLockSlim::LazyCreateEvent)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4107c30;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x5db1a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -395,8 +395,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)(
     ::System::Threading::EventWaitHandle*, ::ByRef<uint32_t>, ::System::Threading::ReaderWriterLockSlim_TimeoutTracker, bool)>(&::System::Threading::ReaderWriterLockSlim::WaitOnEvent)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4107d2c;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x5db1b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -413,8 +413,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaiters)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4108798;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5db2770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -428,8 +428,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateWaitersPreferringWriters)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4108b1c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5db2af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ExitAndWakeUpAppropriateReadWaiters)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4108ba0;
+  constexpr static std::size_t addrs = 0x5db2b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -459,7 +459,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::IsWriterAcquired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4108268;
+  constexpr static std::size_t addrs = 0x5db21c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -473,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::SetWriterAcquired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4108278;
+  constexpr static std::size_t addrs = 0x5db21d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -487,7 +487,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ClearWriterAcquired)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x410890c;
+  constexpr static std::size_t addrs = 0x5db28c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -501,7 +501,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::SetWritersWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4108ab4;
+  constexpr static std::size_t addrs = 0x5db2a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -515,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ClearWritersWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4108c34;
+  constexpr static std::size_t addrs = 0x5db2c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -529,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::SetUpgraderWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4108ac4;
+  constexpr static std::size_t addrs = 0x5db2aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::ClearUpgraderWaiting)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4108c44;
+  constexpr static std::size_t addrs = 0x5db2c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -557,7 +557,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::GetNumReaders)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4108288;
+  constexpr static std::size_t addrs = 0x5db21e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -569,8 +569,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterMyLock)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4108c54;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5db2c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(), "EnterMyLock",
@@ -582,8 +582,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::EnterMyLockSpin)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4108c88;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5db2c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -595,8 +595,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::ExitMyLock)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4107b68;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5db19d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(), "ExitMyLock",
@@ -608,8 +608,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::System::Threading::ReaderWriterLockSlim::SpinWait)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4107b98;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5db19f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)()>(&::System::Threading::ReaderWriterLockSlim::Dispose)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4108d60;
+  constexpr static std::size_t addrs = 0x5db2d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(), "Dispose",
@@ -635,8 +635,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ReaderWriterLockSlim::*)(bool)>(&::System::Threading::ReaderWriterLockSlim::Dispose)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4108d68;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x5db2d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -651,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_IsReadLockHeld)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4108ea8;
+  constexpr static std::size_t addrs = 0x5db2e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -665,7 +665,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_IsUpgradeableReadLockHeld)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4108ec0;
+  constexpr static std::size_t addrs = 0x5db2e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -679,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_IsWriteLockHeld)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4108ed8;
+  constexpr static std::size_t addrs = 0x5db2e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -692,8 +692,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_RecursiveReadCount)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4108ef0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5db2e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -706,8 +706,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_RecursiveUpgradeCount)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4108f70;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5db2f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -720,8 +720,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_RecursiveWriteCount)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4109020;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5db3028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -735,7 +735,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_WaitingReadCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41090d0;
+  constexpr static std::size_t addrs = 0x5db3108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -749,7 +749,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_WaitingUpgradeCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41090d8;
+  constexpr static std::size_t addrs = 0x5db3110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),
@@ -762,8 +762,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::ReaderWriterLockSlim::*)()>(
     &::System::Threading::ReaderWriterLockSlim::get_WaitingWriteCount)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x41090e0;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x5db3118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ReaderWriterLockSlim*>::get(),

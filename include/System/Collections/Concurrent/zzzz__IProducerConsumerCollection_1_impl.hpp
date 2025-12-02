@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Concurrent/IProducerConsumerCollection_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 template <typename T> inline bool System::Collections::Concurrent::IProducerConsumerCollection_1<T>::TryAdd(T item) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

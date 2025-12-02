@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryKeyNameCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyNameCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::get_Type)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607dd0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638f8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand>::get(),
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::ReadKeyName)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4607e00;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x638f8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand>::get(),
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::get_typeStatic)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607e10;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638f8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand>::get(),
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand (*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyNameCommand::Create)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4607e40;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x638f8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

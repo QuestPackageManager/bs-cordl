@@ -21,7 +21,7 @@ namespace TMPro {
 struct CORDL_TYPE FontAssetCreationSettings {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x47d435c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x673c9f0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor(::StringW sourceFontFileGUID, int32_t pointSize, int32_t pointSizeSamplingMode, int32_t padding, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight,
                     int32_t characterSelectionMode, ::StringW characterSet, int32_t renderMode);
 
@@ -30,22 +30,24 @@ public:
   constexpr FontAssetCreationSettings();
 
   // Ctor Parameters [CppParam { name: "sourceFontFileName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: None
-  // }, CppParam { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "padding", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "atlasWidth", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterSetSelectionMode", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "referencedFontAssetGUID", ty: "::StringW", modifiers: "", def_value:
-  // None }, CppParam { name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "fontStyleModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "includeFontFeatures",
-  // ty: "bool", modifiers: "", def_value: None }]
-  constexpr FontAssetCreationSettings(::StringW sourceFontFileName, ::StringW sourceFontFileGUID, int32_t pointSizeSamplingMode, int32_t pointSize, int32_t padding, int32_t packingMode,
-                                      int32_t atlasWidth, int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence, ::StringW referencedFontAssetGUID,
-                                      ::StringW referencedTextAssetGUID, int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode, bool includeFontFeatures) noexcept;
+  // }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "pointSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "paddingMode", ty: "int32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "", def_value: None },
+  // CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterSetSelectionMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "characterSequence", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "referencedFontAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "fontStyle", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyleModifier",
+  // ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "includeFontFeatures", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr FontAssetCreationSettings(::StringW sourceFontFileName, ::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, int32_t pointSize, int32_t padding,
+                                      int32_t paddingMode, int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence,
+                                      ::StringW referencedFontAssetGUID, ::StringW referencedTextAssetGUID, int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode,
+                                      bool includeFontFeatures) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15873 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field sourceFontFileName, offset: 0x0, size: 0x8, def value: None
   ::StringW sourceFontFileName;
@@ -53,46 +55,52 @@ public:
   /// @brief Field sourceFontFileGUID, offset: 0x8, size: 0x8, def value: None
   ::StringW sourceFontFileGUID;
 
-  /// @brief Field pointSizeSamplingMode, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field faceIndex, offset: 0x10, size: 0x4, def value: None
+  int32_t faceIndex;
+
+  /// @brief Field pointSizeSamplingMode, offset: 0x14, size: 0x4, def value: None
   int32_t pointSizeSamplingMode;
 
-  /// @brief Field pointSize, offset: 0x14, size: 0x4, def value: None
+  /// @brief Field pointSize, offset: 0x18, size: 0x4, def value: None
   int32_t pointSize;
 
-  /// @brief Field padding, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field padding, offset: 0x1c, size: 0x4, def value: None
   int32_t padding;
 
-  /// @brief Field packingMode, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field paddingMode, offset: 0x20, size: 0x4, def value: None
+  int32_t paddingMode;
+
+  /// @brief Field packingMode, offset: 0x24, size: 0x4, def value: None
   int32_t packingMode;
 
-  /// @brief Field atlasWidth, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field atlasWidth, offset: 0x28, size: 0x4, def value: None
   int32_t atlasWidth;
 
-  /// @brief Field atlasHeight, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field atlasHeight, offset: 0x2c, size: 0x4, def value: None
   int32_t atlasHeight;
 
-  /// @brief Field characterSetSelectionMode, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field characterSetSelectionMode, offset: 0x30, size: 0x4, def value: None
   int32_t characterSetSelectionMode;
 
-  /// @brief Field characterSequence, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field characterSequence, offset: 0x38, size: 0x8, def value: None
   ::StringW characterSequence;
 
-  /// @brief Field referencedFontAssetGUID, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field referencedFontAssetGUID, offset: 0x40, size: 0x8, def value: None
   ::StringW referencedFontAssetGUID;
 
-  /// @brief Field referencedTextAssetGUID, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field referencedTextAssetGUID, offset: 0x48, size: 0x8, def value: None
   ::StringW referencedTextAssetGUID;
 
-  /// @brief Field fontStyle, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field fontStyle, offset: 0x50, size: 0x4, def value: None
   int32_t fontStyle;
 
-  /// @brief Field fontStyleModifier, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field fontStyleModifier, offset: 0x54, size: 0x4, def value: None
   float_t fontStyleModifier;
 
-  /// @brief Field renderMode, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field renderMode, offset: 0x58, size: 0x4, def value: None
   int32_t renderMode;
 
-  /// @brief Field includeFontFeatures, offset: 0x54, size: 0x1, def value: None
+  /// @brief Field includeFontFeatures, offset: 0x5c, size: 0x1, def value: None
   bool includeFontFeatures;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -102,35 +110,39 @@ static_assert(offsetof(::TMPro::FontAssetCreationSettings, sourceFontFileName) =
 
 static_assert(offsetof(::TMPro::FontAssetCreationSettings, sourceFontFileGUID) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, pointSizeSamplingMode) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, faceIndex) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, pointSize) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, pointSizeSamplingMode) == 0x14, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, padding) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, pointSize) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, packingMode) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, padding) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, atlasWidth) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, paddingMode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, atlasHeight) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, packingMode) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, characterSetSelectionMode) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, atlasWidth) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, characterSequence) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, atlasHeight) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, referencedFontAssetGUID) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, characterSetSelectionMode) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, referencedTextAssetGUID) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, characterSequence) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyle) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, referencedFontAssetGUID) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyleModifier) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, referencedTextAssetGUID) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, renderMode) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyle) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::FontAssetCreationSettings, includeFontFeatures) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, fontStyleModifier) == 0x54, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::TMPro::FontAssetCreationSettings, 0x58>, "Size mismatch!");
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, renderMode) == 0x58, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::FontAssetCreationSettings, includeFontFeatures) == 0x5c, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::FontAssetCreationSettings, 0x60>, "Size mismatch!");
 
 } // namespace TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::FontAssetCreationSettings, "TMPro", "FontAssetCreationSettings");

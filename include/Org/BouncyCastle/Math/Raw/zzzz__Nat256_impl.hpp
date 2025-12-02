@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::Add)> {
   constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x250a3e8;
+  constexpr static std::size_t addrs = 0x3439f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t,
                                                                                                ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::Add)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x250a584;
+  constexpr static std::size_t addrs = 0x343a0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>,
                                                                                                ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::AddBothTo)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x250a7e0;
+  constexpr static std::size_t addrs = 0x343a354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t,
                                                                                                ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::AddBothTo)> {
   constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x250a9b8;
+  constexpr static std::size_t addrs = 0x343a52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::AddTo)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x250ac50;
+  constexpr static std::size_t addrs = 0x343a7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, uint32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::AddTo)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x250ada4;
+  constexpr static std::size_t addrs = 0x343a918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::AddToEachOther)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x250af80;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x343aaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Copy)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x250b18c;
+  constexpr static std::size_t addrs = 0x343ace8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Copy)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x250b268;
+  constexpr static std::size_t addrs = 0x343adc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Copy64)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x250b3c4;
+  constexpr static std::size_t addrs = 0x343af20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t, ::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Copy64)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x250b44c;
+  constexpr static std::size_t addrs = 0x343afa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,8 +194,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)()>(&::Org::BouncyCastle::Math::Raw::Nat256::Create)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250b520;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x343b07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat256*>::get(), "Create",
@@ -207,8 +207,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (*)()>(&::Org::BouncyCastle::Math::Raw::Nat256::Create64)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250b564;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x343b0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat256*>::get(), "Create64",
@@ -220,8 +220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)()>(&::Org::BouncyCastle::Math::Raw::Nat256::CreateExt)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250b5a8;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x343b10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat256*>::get(), "CreateExt",
@@ -233,8 +233,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (*)()>(&::Org::BouncyCastle::Math::Raw::Nat256::CreateExt64)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250b5ec;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x343b154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat256*>::get(), "CreateExt64",
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t,
                                                                                            ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::Diff)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x250b630;
+  constexpr static std::size_t addrs = 0x343b19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,8 +265,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Eq)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x250b984;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x343b4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -281,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Eq64)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x250b9e4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x343b54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,8 +297,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::FromBigInteger)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x250ba44;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x343b5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,8 +312,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::FromBigInteger64)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x250be00;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x343b938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -327,7 +327,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::GetBit)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x250bf38;
+  constexpr static std::size_t addrs = 0x343ba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Gte)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x250bf9c;
+  constexpr static std::size_t addrs = 0x343bac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -358,8 +358,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Gte)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x250b6ac;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x343b218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,8 +374,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::IsOne)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x250c008;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x343bb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,8 +388,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::IsOne64)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x250c074;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x343bb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -402,8 +402,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::IsZero)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x250c0e0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x343bbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,8 +416,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::IsZero64)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x250c134;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x343bc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::Mul)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x250c188;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x343bc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -448,8 +448,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t,
                                                                                            ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::Mul)> {
-  constexpr static std::size_t size = 0x36c;
-  constexpr static std::size_t addrs = 0x250c38c;
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x343be90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -466,8 +466,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>,
                                                                                                ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::MulAddTo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x250c6f8;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x343c208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,8 +483,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t,
                                                                                                ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::MulAddTo)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x250c8b0;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x343c3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -503,7 +503,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint64_t (*)(uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
         &::Org::BouncyCastle::Math::Raw::Nat256::Mul33Add)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x250cb2c;
+  constexpr static std::size_t addrs = 0x343c660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -521,7 +521,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::MulByWord)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x250cda8;
+  constexpr static std::size_t addrs = 0x343c8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::MulByWordAddTo)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x250ce84;
+  constexpr static std::size_t addrs = 0x343c9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -553,8 +553,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint32_t (*)(uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::MulWordAddTo)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x250cfdc;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x343cb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -571,8 +571,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint64_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Mul33DWordAdd)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x250d1b4;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x343ccec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -588,8 +588,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Mul33WordAdd)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x250d280;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x343cdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -605,8 +605,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint64_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::MulWordDwordAdd)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x250d324;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x343ce98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -623,7 +623,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::MulWord)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x250d3cc;
+  constexpr static std::size_t addrs = 0x343cf60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -639,8 +639,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Square)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x250d448;
+  constexpr static std::size_t size = 0x368;
+  constexpr static std::size_t addrs = 0x343cfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -655,8 +655,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::Square)> {
-  constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x250d7f8;
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x343d344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -672,8 +672,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::Sub)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x250dcc0;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x343d7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,8 +689,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t,
                                                                                               ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::Org::BouncyCastle::Math::Raw::Nat256::Sub)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x250b728;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x343b290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -708,7 +708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>,
                                                                                               ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::SubBothFrom)> {
   constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x250de5c;
+  constexpr static std::size_t addrs = 0x343d984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -725,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::SubFrom)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x250e034;
+  constexpr static std::size_t addrs = 0x343db5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -740,8 +740,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::SubFrom)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x250e188;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x343dcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -758,7 +758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::ToBigInteger)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x250e370;
+  constexpr static std::size_t addrs = 0x343de84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -772,8 +772,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat256::ToBigInteger64)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x250e468;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x343df78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -787,7 +787,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat256::Zero)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x250e544;
+  constexpr static std::size_t addrs = 0x343e070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -800,8 +800,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Raw::Nat256::*)()>(&::Org::BouncyCastle::Math::Raw::Nat256::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250e5bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x343e0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat256*>::get(), ".ctor",

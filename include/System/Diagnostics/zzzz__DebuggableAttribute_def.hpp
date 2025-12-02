@@ -71,7 +71,7 @@ public:
   static ::System::Diagnostics::DebuggableAttribute_DebuggingModes const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3659 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,7 +107,7 @@ public:
 
   constexpr void __cordl_internal_set_m_debuggingModes(::System::Diagnostics::DebuggableAttribute_DebuggingModes value);
 
-  /// @brief Method .ctor, addr 0x3db6384, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ca12c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Diagnostics::DebuggableAttribute_DebuggingModes modes);
 
 protected:
@@ -125,7 +125,7 @@ public:
   DebuggableAttribute(DebuggableAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3660 };
 
   /// @brief Field m_debuggingModes, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::DebuggableAttribute_DebuggingModes ___m_debuggingModes;

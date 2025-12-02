@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)(
     ::GlobalNamespace::VertexPath*, float_t, ::ByRef<::UnityEngine::Bounds>)>(&::GlobalNamespace::SliderMeshConstructorCrossedStrips::CreateSliderMeshInternal)> {
-  constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x3b7b8d0;
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x5767188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)(::GlobalNamespace::VertexPath*)>(
     &::GlobalNamespace::SliderMeshConstructorCrossedStrips::GetVertexCount)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b7bd50;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57675b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)(::GlobalNamespace::VertexPath*)>(
     &::GlobalNamespace::SliderMeshConstructorCrossedStrips::GetTrianglesCount)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b7bd6c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57675d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderMeshConstructorCrossedStrips::*)()>(
     &::GlobalNamespace::SliderMeshConstructorCrossedStrips::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b7bd90;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x57675f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderMeshConstructorCrossedStrips*>::get(),

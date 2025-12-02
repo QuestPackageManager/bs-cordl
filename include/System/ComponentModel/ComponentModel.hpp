@@ -13,6 +13,7 @@ module;
 #include "System/ComponentModel/BooleanConverter.hpp"
 #include "System/ComponentModel/BrowsableAttribute.hpp"
 #include "System/ComponentModel/ByteConverter.hpp"
+#include "System/ComponentModel/CategoryAttribute.hpp"
 #include "System/ComponentModel/CharConverter.hpp"
 #include "System/ComponentModel/CollectionChangeAction.hpp"
 #include "System/ComponentModel/CollectionChangeEventArgs.hpp"

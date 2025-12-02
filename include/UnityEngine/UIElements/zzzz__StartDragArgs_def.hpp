@@ -35,6 +35,8 @@ namespace UnityEngine::UIElements {
 struct CORDL_TYPE StartDragArgs {
 public:
   // Declarations
+  __declspec(property(get = get_assetPaths, put = set_assetPaths)) ::ArrayW<::StringW, ::Array<::StringW>*> assetPaths;
+
   __declspec(property(get = get_genericData, put = set_genericData)) ::System::Collections::Hashtable* genericData;
 
   __declspec(property(get = get_title)) ::StringW title;
@@ -43,28 +45,34 @@ public:
 
   __declspec(property(get = get_visualMode)) ::UnityEngine::UIElements::DragVisualMode visualMode;
 
-  /// @brief Method SetGenericData, addr 0x4a1a480, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetGenericData, addr 0x6b573dc, size 0x98, virtual false, abstract: false, final false
   inline void SetGenericData(::StringW key, ::System::Object* data);
 
-  /// @brief Method .ctor, addr 0x4a18560, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b55448, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::StringW title, ::UnityEngine::UIElements::DragVisualMode visualMode);
 
-  /// @brief Method get_genericData, addr 0x4a1a460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_assetPaths, addr 0x6b573cc, size 0x8, virtual false, abstract: false, final false
+  inline ::ArrayW<::StringW, ::Array<::StringW>*> get_assetPaths();
+
+  /// @brief Method get_genericData, addr 0x6b573ac, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Hashtable* get_genericData();
 
-  /// @brief Method get_title, addr 0x4a1a450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_title, addr 0x6b5739c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_title();
 
-  /// @brief Method get_unityObjectReferences, addr 0x4a1a470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_unityObjectReferences, addr 0x6b573bc, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* get_unityObjectReferences();
 
-  /// @brief Method get_visualMode, addr 0x4a1a458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visualMode, addr 0x6b573a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DragVisualMode get_visualMode();
 
-  /// @brief Method set_genericData, addr 0x4a1a468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_assetPaths, addr 0x6b573d4, size 0x8, virtual false, abstract: false, final false
+  inline void set_assetPaths(::ArrayW<::StringW, ::Array<::StringW>*> value);
+
+  /// @brief Method set_genericData, addr 0x6b573b4, size 0x8, virtual false, abstract: false, final false
   inline void set_genericData(::System::Collections::Hashtable* value);
 
-  /// @brief Method set_unityObjectReferences, addr 0x4a1a478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_unityObjectReferences, addr 0x6b573c4, size 0x8, virtual false, abstract: false, final false
   inline void set_unityObjectReferences(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* value);
 
   // Ctor Parameters []
@@ -73,15 +81,17 @@ public:
 
   // Ctor Parameters [CppParam { name: "_title_k__BackingField", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "_visualMode_k__BackingField", ty:
   // "::UnityEngine::UIElements::DragVisualMode", modifiers: "", def_value: None }, CppParam { name: "_genericData_k__BackingField", ty: "::System::Collections::Hashtable*", modifiers: "", def_value:
-  // None }, CppParam { name: "_unityObjectReferences_k__BackingField", ty: "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*", modifiers: "", def_value: None }]
+  // None }, CppParam { name: "_unityObjectReferences_k__BackingField", ty: "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>*", modifiers: "", def_value: None },
+  // CppParam { name: "_assetPaths_k__BackingField", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
   constexpr StartDragArgs(::StringW _title_k__BackingField, ::UnityEngine::UIElements::DragVisualMode _visualMode_k__BackingField, ::System::Collections::Hashtable* _genericData_k__BackingField,
-                          ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField) noexcept;
+                          ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField,
+                          ::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4404 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
   /// @brief Field <title>k__BackingField, offset: 0x0, size: 0x8, def value: None
   ::StringW _title_k__BackingField;
@@ -95,6 +105,9 @@ public:
   /// @brief Field <unityObjectReferences>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Object>>* _unityObjectReferences_k__BackingField;
 
+  /// @brief Field <assetPaths>k__BackingField, offset: 0x20, size: 0x8, def value: None
+  ::ArrayW<::StringW, ::Array<::StringW>*> _assetPaths_k__BackingField;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -106,7 +119,9 @@ static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _genericData_k_
 
 static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _unityObjectReferences_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StartDragArgs, 0x20>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::StartDragArgs, _assetPaths_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StartDragArgs, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StartDragArgs, "UnityEngine.UIElements", "StartDragArgs");

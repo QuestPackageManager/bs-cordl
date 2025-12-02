@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)()>(
     &::System::Security::Cryptography::RIPEMD160Managed::_ctor)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3ca14ec;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x58e5350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160Managed*>::get(),
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)()>(
     &::System::Security::Cryptography::RIPEMD160Managed::Initialize)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3ca61d4;
+  constexpr static std::size_t addrs = 0x58e9e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::RIPEMD160Managed::HashCore)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ca6218;
+  constexpr static std::size_t addrs = 0x58e9ecc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::RIPEMD160Managed::*)()>(
     &::System::Security::Cryptography::RIPEMD160Managed::HashFinal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ca639c;
+  constexpr static std::size_t addrs = 0x58ea044;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)()>(
     &::System::Security::Cryptography::RIPEMD160Managed::InitializeState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ca6150;
+  constexpr static std::size_t addrs = 0x58e9e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160Managed*>::get(),
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RIPEMD160Managed::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::RIPEMD160Managed::_HashData)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3ca621c;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x58e9ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::RIPEMD160Managed::*)()>(
     &::System::Security::Cryptography::RIPEMD160Managed::_EndHash)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3ca63a0;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x58ea048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160Managed*>::get(),
@@ -111,17 +111,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Security::Cryptography::RIPEMD160Managed.MDTransform
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint32_t>, ::cordl_internals::Ptr<uint32_t>, ::cordl_internals::Ptr<uint8_t>)>(
-    &::System::Security::Cryptography::RIPEMD160Managed::MDTransform)> {
-  constexpr static std::size_t size = 0x16cc;
-  constexpr static std::size_t addrs = 0x3ca6544;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t*, uint32_t*, uint8_t*)>(&::System::Security::Cryptography::RIPEMD160Managed::MDTransform)> {
+  constexpr static std::size_t size = 0x1680;
+  constexpr static std::size_t addrs = 0x58ea1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160Managed*>::get(), "MDTransform", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
     return ___internal_method;
   }
 };
@@ -130,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::F)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ca7c10;
+  constexpr static std::size_t addrs = 0x58eb850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::G)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ca7c1c;
+  constexpr static std::size_t addrs = 0x58eb85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::H)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ca7c2c;
+  constexpr static std::size_t addrs = 0x58eb86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::I)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ca7c38;
+  constexpr static std::size_t addrs = 0x58eb878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t)>(&::System::Security::Cryptography::RIPEMD160Managed::J)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ca7c48;
+  constexpr static std::size_t addrs = 0x58eb888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,12 +283,11 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Security::Cryptography::RIPE
                                                                              "_EndHash", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
 }
-inline void System::Security::Cryptography::RIPEMD160Managed::MDTransform(::cordl_internals::Ptr<uint32_t> blockDWords, ::cordl_internals::Ptr<uint32_t> state, ::cordl_internals::Ptr<uint8_t> block) {
+inline void System::Security::Cryptography::RIPEMD160Managed::MDTransform(uint32_t* blockDWords, uint32_t* state, uint8_t* block) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::RIPEMD160Managed*>::get(), "MDTransform", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, blockDWords, state, block);
 }
 inline uint32_t System::Security::Cryptography::RIPEMD160Managed::F(uint32_t x, uint32_t y, uint32_t z) {

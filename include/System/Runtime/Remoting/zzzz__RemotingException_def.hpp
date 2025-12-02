@@ -36,16 +36,16 @@ public:
 
   static inline ::System::Runtime::Remoting::RemotingException* New_ctor(::StringW message, ::System::Exception* InnerException);
 
-  /// @brief Method .ctor, addr 0x3ccf44c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5912970, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ccf45c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5912980, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3ccf454, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5912978, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3ccf464, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5912988, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* InnerException);
 
 protected:
@@ -63,7 +63,7 @@ public:
   RemotingException(RemotingException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3068 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

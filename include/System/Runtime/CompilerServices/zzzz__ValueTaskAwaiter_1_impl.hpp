@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 template <typename TResult> inline void System::Runtime::CompilerServices::ValueTaskAwaiter_1<TResult>::_ctor(::System::Threading::Tasks::ValueTask_1<TResult> value) {

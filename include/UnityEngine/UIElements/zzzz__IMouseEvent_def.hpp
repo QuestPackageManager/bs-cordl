@@ -24,15 +24,9 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IMouseEvent {
 public:
   // Declarations
-  __declspec(property(get = get_altKey)) bool altKey;
-
   __declspec(property(get = get_button)) int32_t button;
 
   __declspec(property(get = get_clickCount)) int32_t clickCount;
-
-  __declspec(property(get = get_commandKey)) bool commandKey;
-
-  __declspec(property(get = get_ctrlKey)) bool ctrlKey;
 
   __declspec(property(get = get_localMousePosition)) ::UnityEngine::Vector2 localMousePosition;
 
@@ -44,22 +38,11 @@ public:
 
   __declspec(property(get = get_pressedButtons)) int32_t pressedButtons;
 
-  __declspec(property(get = get_shiftKey)) bool shiftKey;
-
-  /// @brief Method get_altKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_altKey();
-
   /// @brief Method get_button, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_button();
 
   /// @brief Method get_clickCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_clickCount();
-
-  /// @brief Method get_commandKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_commandKey();
-
-  /// @brief Method get_ctrlKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_ctrlKey();
 
   /// @brief Method get_localMousePosition, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_localMousePosition();
@@ -76,15 +59,12 @@ public:
   /// @brief Method get_pressedButtons, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_pressedButtons();
 
-  /// @brief Method get_shiftKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_shiftKey();
-
   // Ctor Parameters [CppParam { name: "", ty: "IMouseEvent", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   IMouseEvent(IMouseEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5855 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4486 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

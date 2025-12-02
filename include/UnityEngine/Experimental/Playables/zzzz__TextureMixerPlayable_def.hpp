@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(TextureMixerPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
 namespace UnityEngine::Playables {
 struct PlayableHandle;
 }
@@ -17,7 +21,7 @@ struct TextureMixerPlayable;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Experimental::Playables::TextureMixerPlayable);
-// Dependencies System.IEquatable`1<T>, UnityEngine.Playables.IPlayable, UnityEngine.Playables.PlayableHandle
+// Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Experimental::Playables {
 // Is value type: true
 // CS Name: UnityEngine.Experimental.Playables.TextureMixerPlayable
@@ -30,10 +34,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Equals, addr 0x48d0e54, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x68fc650, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Experimental::Playables::TextureMixerPlayable other);
 
-  /// @brief Method GetHandle, addr 0x48d0e48, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x68fc644, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Experimental::Playables::TextureMixerPlayable>"
@@ -50,7 +54,7 @@ public:
   constexpr TextureMixerPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10889 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

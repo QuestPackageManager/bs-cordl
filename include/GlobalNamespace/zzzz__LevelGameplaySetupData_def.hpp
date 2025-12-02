@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapKey_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(LevelGameplaySetupData)
 namespace GlobalNamespace {
@@ -13,23 +12,26 @@ struct BeatmapKey;
 namespace GlobalNamespace {
 class GameplayModifiers;
 }
+namespace GlobalNamespace {
+class ILevelGameplaySetupData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class LevelGameplaySetupData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelGameplaySetupData);
-// Dependencies BeatmapKey, ILevelGameplaySetupData, System.Object
+// Dependencies BeatmapKey, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: LevelGameplaySetupData
 class CORDL_TYPE LevelGameplaySetupData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field _beatmapKey, offset 0x10, size 0x18
+  /// @brief Field _beatmapKey, offset 0x10, size 0x20
   __declspec(property(get = __cordl_internal_get__beatmapKey, put = __cordl_internal_set__beatmapKey)) ::GlobalNamespace::BeatmapKey _beatmapKey;
 
-  /// @brief Field _gameplayModifiers, offset 0x28, size 0x8
+  /// @brief Field _gameplayModifiers, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__gameplayModifiers, put = __cordl_internal_set__gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* _gameplayModifiers;
 
   __declspec(property(get = get_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
@@ -39,17 +41,17 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
   constexpr operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept;
 
-  /// @brief Method ClearGameplaySetupData, addr 0x26dc45c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ClearGameplaySetupData, addr 0x360e3b4, size 0x6c, virtual false, abstract: false, final false
   inline void ClearGameplaySetupData();
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor();
 
   static inline ::GlobalNamespace::LevelGameplaySetupData* New_ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method SetBeatmapKey, addr 0x26dc4c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapKey, addr 0x360e420, size 0xc, virtual false, abstract: false, final false
   inline void SetBeatmapKey(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
 
-  /// @brief Method SetGameplayModifiers, addr 0x26dc4d8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetGameplayModifiers, addr 0x360e42c, size 0x84, virtual false, abstract: false, final false
   inline void SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
   constexpr ::GlobalNamespace::BeatmapKey const& __cordl_internal_get__beatmapKey() const;
@@ -64,16 +66,16 @@ public:
 
   constexpr void __cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value);
 
-  /// @brief Method .ctor, addr 0x26dc344, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360e2b4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26dc3ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360e318, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers);
 
-  /// @brief Method get_beatmapKey, addr 0x26dc328, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method get_beatmapKey, addr 0x360e2a0, size 0xc, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x26dc33c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayModifiers, addr 0x360e2ac, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
   /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
@@ -94,12 +96,12 @@ public:
   LevelGameplaySetupData(LevelGameplaySetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15074 };
 
-  /// @brief Field _beatmapKey, offset: 0x10, size: 0x18, def value: None
+  /// @brief Field _beatmapKey, offset: 0x10, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey;
 
-  /// @brief Field _gameplayModifiers, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _gameplayModifiers, offset: 0x30, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ____gameplayModifiers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -107,9 +109,9 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::LevelGameplaySetupData, ____beatmapKey) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelGameplaySetupData, ____gameplayModifiers) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelGameplaySetupData, ____gameplayModifiers) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelGameplaySetupData, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelGameplaySetupData, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelGameplaySetupData);

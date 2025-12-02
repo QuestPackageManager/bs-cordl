@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/ScriptingUtility.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptingUtility_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/zzzz__ScriptingUtility_def.hpp"
 // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ScriptingUtility_TestClass::ScriptingUtility_TestClass(int32_t value) noexcept {
@@ -14,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::ScriptingUtility::IsManagedCodeWorking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48aea38;
+  constexpr static std::size_t addrs = 0x68b2888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptingUtility*>::get(), "IsManagedCodeWorking",
@@ -22,10 +23,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ScriptingUtility.SetupCallbacks
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::ScriptingUtility::SetupCallbacks)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68b2890;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptingUtility*>::get(), "SetupCallbacks", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 inline bool UnityEngine::ScriptingUtility::IsManagedCodeWorking() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptingUtility*>::get(), "IsManagedCodeWorking",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::ScriptingUtility::SetupCallbacks(::System::IntPtr p) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptingUtility*>::get(), "SetupCallbacks", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, p);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ScriptingUtility::ScriptingUtility() {}

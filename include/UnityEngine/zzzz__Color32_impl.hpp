@@ -1,15 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Color32.hpp"
-#include "System/zzzz__IFormattable_impl.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Color32._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Color32::*)(uint8_t, uint8_t, uint8_t, uint8_t)>(&::UnityEngine::Color32::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x489d698;
+  constexpr static std::size_t addrs = 0x689795c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color)>(&::UnityEngine::Color32::op_Implicit___UnityEngine__Color32)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x489d6ac;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x6897970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color32)>(&::UnityEngine::Color32::op_Implicit___UnityEngine__Color)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x489d970;
+  constexpr static std::size_t addrs = 0x6897c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32, ::UnityEngine::Color32, float_t)>(&::UnityEngine::Color32::Lerp)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x489d9ac;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6897c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::UnityEngine::Color32::*)(int32_t)>(&::UnityEngine::Color32::get_Item)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x489da88;
+  constexpr static std::size_t addrs = 0x6897d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,12 +79,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Color32.GetHashCode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Color32::*)()>(&::UnityEngine::Color32::GetHashCode)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6897e54;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Color32.Equals
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Color32::*)(::System::Object*)>(&::UnityEngine::Color32::Equals)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6897e5c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Color32.Equals
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Color32::*)(::UnityEngine::Color32)>(&::UnityEngine::Color32::Equals)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6897ed8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Color32.ToString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Color32::*)()>(&::UnityEngine::Color32::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x489db58;
+  constexpr static std::size_t addrs = 0x6897ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,8 +139,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Color32::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Color32::ToString)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x489db68;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x6897ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,6 +228,22 @@ inline uint8_t UnityEngine::Color32::get_Item(int32_t index) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint8_t, false>(this, ___internal_method, index);
 }
+inline int32_t UnityEngine::Color32::GetHashCode() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline bool UnityEngine::Color32::Equals(::System::Object* other) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline bool UnityEngine::Color32::Equals(::UnityEngine::Color32 other) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color32>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
 inline ::StringW UnityEngine::Color32::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Color32>::get(), 3)));
@@ -195,6 +255,14 @@ inline ::StringW UnityEngine::Color32::ToString(::StringW format, ::System::IFor
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IFormatProvider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, format, formatProvider);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Color32>"
+constexpr UnityEngine::Color32::operator ::System::IEquatable_1<::UnityEngine::Color32>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Color32>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::Color32>"
+constexpr ::System::IEquatable_1<::UnityEngine::Color32>* UnityEngine::Color32::i___System__IEquatable_1___UnityEngine__Color32_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::Color32>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert operator to "::System::IFormattable"
 constexpr UnityEngine::Color32::operator ::System::IFormattable*() {

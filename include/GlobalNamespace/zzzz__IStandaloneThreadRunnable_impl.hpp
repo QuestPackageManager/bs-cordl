@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IStandaloneThreadRunnable.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "GlobalNamespace/zzzz__IStandaloneThreadRunnable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IStandaloneThreadRunnable.MoveNext
 template <>
 

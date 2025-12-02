@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithPlatformInitialize : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f81150, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5bc8930, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetPlatformInitialize, addr 0x3f81114, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetPlatformInitialize, addr 0x5bc88ec, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::PlatformInitialize* GetPlatformInitialize();
 
   static inline ::Oculus::Platform::MessageWithPlatformInitialize* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7cb4c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc3368, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithPlatformInitialize(MessageWithPlatformInitialize const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -17,7 +17,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::GameObjectCreationParameters::*)()>(&::Zenject::GameObjectCreationParameters::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b167f0;
+  constexpr static std::size_t addrs = 0x6c2b734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), "get_Name",
@@ -30,7 +30,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(::StringW)>(&::Zenject::GameObjectCreationParameters::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b167f8;
+  constexpr static std::size_t addrs = 0x6c2b73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::GameObjectCreationParameters::*)()>(&::Zenject::GameObjectCreationParameters::get_GroupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16800;
+  constexpr static std::size_t addrs = 0x6c2b744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), "get_GroupName",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(::StringW)>(
     &::Zenject::GameObjectCreationParameters::set_GroupName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16808;
+  constexpr static std::size_t addrs = 0x6c2b74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::Zenject::GameObjectCreationParameters::*)()>(
     &::Zenject::GameObjectCreationParameters::get_ParentTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16810;
+  constexpr static std::size_t addrs = 0x6c2b754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(),
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(::UnityEngine::Transform*)>(
     &::Zenject::GameObjectCreationParameters::set_ParentTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16818;
+  constexpr static std::size_t addrs = 0x6c2b75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>* (
     ::Zenject::GameObjectCreationParameters::*)()>(&::Zenject::GameObjectCreationParameters::get_ParentTransformGetter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16820;
+  constexpr static std::size_t addrs = 0x6c2b764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(
     ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::Transform>>*)>(&::Zenject::GameObjectCreationParameters::set_ParentTransformGetter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b16828;
+  constexpr static std::size_t addrs = 0x6c2b76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Vector3> (::Zenject::GameObjectCreationParameters::*)()>(
     &::Zenject::GameObjectCreationParameters::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4b16830;
+  constexpr static std::size_t addrs = 0x6c2b774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), "get_Position",
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(::System::Nullable_1<::UnityEngine::Vector3>)>(
     &::Zenject::GameObjectCreationParameters::set_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b1683c;
+  constexpr static std::size_t addrs = 0x6c2b780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::UnityEngine::Quaternion> (::Zenject::GameObjectCreationParameters::*)()>(
     &::Zenject::GameObjectCreationParameters::get_Rotation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4b16844;
+  constexpr static std::size_t addrs = 0x6c2b788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), "get_Rotation",
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)(::System::Nullable_1<::UnityEngine::Quaternion>)>(
     &::Zenject::GameObjectCreationParameters::set_Rotation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4b16858;
+  constexpr static std::size_t addrs = 0x6c2b79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,8 +187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::GameObjectCreationParameters::*)()>(&::Zenject::GameObjectCreationParameters::GetHashCode)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4b1686c;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x6c2b7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,8 +202,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::GameObjectCreationParameters::*)(::System::Object*)>(
     &::Zenject::GameObjectCreationParameters::Equals)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4b16af8;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6c2b9d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::GameObjectCreationParameters::*)(::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::GameObjectCreationParameters::Equals)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4b16c20;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6c2bb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,8 +232,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Zenject::GameObjectCreationParameters*, ::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::GameObjectCreationParameters::op_Equality)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4b16bc8;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6c2bab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Zenject::GameObjectCreationParameters*, ::Zenject::GameObjectCreationParameters*)>(
     &::Zenject::GameObjectCreationParameters::op_Inequality)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4b16c84;
+  constexpr static std::size_t addrs = 0x6c2bbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,8 +263,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::GameObjectCreationParameters::*)()>(&::Zenject::GameObjectCreationParameters::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b13318;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c285bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::GameObjectCreationParameters*>::get(), ".ctor",

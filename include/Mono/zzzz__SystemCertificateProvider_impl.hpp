@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Mono/SystemCertificateProvider.hpp"
-#include "Mono/zzzz__ISystemCertificateProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/zzzz__SystemCertificateProvider_def.hpp"
 #include "Microsoft/Win32/SafeHandles/zzzz__SafePasswordHandle_def.hpp"
 #include "Mono/zzzz__CertificateImportFlags_def.hpp"
+#include "Mono/zzzz__ISystemCertificateProvider_def.hpp"
 #include "Mono/zzzz__X509PalImpl_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate2Impl_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateImpl_def.hpp"
@@ -15,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::X509PalImpl* (*)()>(&::Mono::SystemCertificateProvider::GetX509Pal)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4109214;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5db32b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemCertificateProvider*>::get(), "GetX509Pal",
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::SystemCertificateProvider::EnsureInitialized)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x41092bc;
+  constexpr static std::size_t addrs = 0x5db3360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemCertificateProvider*>::get(), "EnsureInitialized",
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::X509PalImpl* (::Mono::SystemCertificateProvider::*)()>(&::Mono::SystemCertificateProvider::get_X509Pal)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x410940c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5db34b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemCertificateProvider*>::get(), "get_X509Pal",
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateImpl* (
     ::Mono::SystemCertificateProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Mono::CertificateImportFlags)>(&::Mono::SystemCertificateProvider::Import)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4109468;
+  constexpr static std::size_t addrs = 0x5db3510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, ::Mono::CertificateImportFlags)>(
     &::Mono::SystemCertificateProvider::Mono_ISystemCertificateProvider_Import)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41096c8;
+  constexpr static std::size_t addrs = 0x5db376c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::SystemCertificateProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Microsoft::Win32::SafeHandles::SafePasswordHandle*,
                                           ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags, ::Mono::CertificateImportFlags)>(&::Mono::SystemCertificateProvider::Import)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41096cc;
+  constexpr static std::size_t addrs = 0x5db3770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,7 +112,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::SystemCertificateProvider::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Mono::CertificateImportFlags)>(
     &::Mono::SystemCertificateProvider::Mono_ISystemCertificateProvider_Import)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41097d0;
+  constexpr static std::size_t addrs = 0x5db3878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (
     ::Mono::SystemCertificateProvider::*)(::System::Security::Cryptography::X509Certificates::X509Certificate*, ::Mono::CertificateImportFlags)>(&::Mono::SystemCertificateProvider::Import)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x41097d4;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5db387c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SystemCertificateProvider::*)()>(&::Mono::SystemCertificateProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41098e8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5db39a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SystemCertificateProvider*>::get(), ".ctor",

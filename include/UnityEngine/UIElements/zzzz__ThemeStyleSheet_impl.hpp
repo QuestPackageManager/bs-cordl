@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ThemeStyleSheet::*)()>(&::UnityEngine::UIElements::ThemeStyleSheet::OnEnable)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a903fc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6a6a5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ThemeStyleSheet::*)()>(&::UnityEngine::UIElements::ThemeStyleSheet::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a90420;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6a6a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ThemeStyleSheet*>::get(), ".ctor",

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ac14b0;
+  constexpr static std::size_t addrs = 0x6bcd9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RawImage*>::get(), ".ctor",
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::get_mainTexture)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4ac14d8;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6bcd9f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ac1630;
+  constexpr static std::size_t addrs = 0x6bcdb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RawImage*>::get(), "get_texture",
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RawImage::*)(::UnityEngine::Texture*)>(&::UnityEngine::UI::RawImage::set_texture)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4ac1638;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6bcdb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::get_uvRect)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4ac16e4;
+  constexpr static std::size_t addrs = 0x6bcdc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::RawImage*>::get(), "get_uvRect",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RawImage::*)(::UnityEngine::Rect)>(&::UnityEngine::UI::RawImage::set_uvRect)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4ac16f0;
+  constexpr static std::size_t addrs = 0x6bcdc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::SetNativeSize)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x4ac173c;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x6bcdc68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RawImage::*)(::UnityEngine::UI::VertexHelper*)>(
     &::UnityEngine::UI::RawImage::OnPopulateMesh)> {
-  constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x4ac19f0;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x6bcdf28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::RawImage::*)()>(&::UnityEngine::UI::RawImage::OnDidApplyAnimationProperties)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ac2074;
+  constexpr static std::size_t addrs = 0x6bce600;
 
   inline static ::MethodInfo const* methodInfo() {
 

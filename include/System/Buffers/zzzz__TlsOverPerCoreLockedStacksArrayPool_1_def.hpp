@@ -86,7 +86,7 @@ public:
   static ::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_MemoryPressure<T> const Medium;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3827 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -151,7 +151,7 @@ public:
   TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks(TlsOverPerCoreLockedStacksArrayPool_1_PerCoreLockedStacks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3828 };
 
   /// @brief Field _perCoreStacks, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*, ::Array<::System::Buffers::TlsOverPerCoreLockedStacksArrayPool_1_LockedStack<T>*>*> ____perCoreStacks;
@@ -225,7 +225,7 @@ public:
   TlsOverPerCoreLockedStacksArrayPool_1_LockedStack(TlsOverPerCoreLockedStacksArrayPool_1_LockedStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3829 };
 
   /// @brief Field _arrays, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::ArrayW<T, ::Array<T>*>, ::Array<::ArrayW<T, ::Array<T>*>>*> ____arrays;
@@ -358,7 +358,7 @@ public:
   TlsOverPerCoreLockedStacksArrayPool_1(TlsOverPerCoreLockedStacksArrayPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3830 };
 
   /// @brief Field _bucketArraySizes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____bucketArraySizes;

@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (*)(::System::ReadOnlySpan_1<char16_t>, bool)>(&::System::Net::IPAddressParser::Parse)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x448d3d0;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x61dcd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(uint32_t)>(&::System::Net::IPAddressParser::IPv4AddressToString)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x448da6c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x61dd3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t, ::System::Text::StringBuilder*)>(&::System::Net::IPAddressParser::IPv4AddressToString)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x448e688;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x61ddff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,16 +52,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::IPAddressParser.IPv4AddressToStringHelper
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t, ::cordl_internals::Ptr<char16_t>)>(
-    &::System::Net::IPAddressParser::IPv4AddressToStringHelper)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(uint32_t, char16_t*)>(&::System::Net::IPAddressParser::IPv4AddressToStringHelper)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x448e5ec;
+  constexpr static std::size_t addrs = 0x61ddf54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "IPv4AddressToStringHelper", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
@@ -71,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint16_t, ::Array<uint16_t>*>, uint32_t)>(
     &::System::Net::IPAddressParser::IPv6AddressToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x448da58;
+  constexpr static std::size_t addrs = 0x61dd3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (*)(::ArrayW<uint16_t, ::Array<uint16_t>*>, uint32_t)>(
     &::System::Net::IPAddressParser::IPv6AddressToStringHelper)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x448e7b0;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x61de144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,17 +98,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::IPAddressParser.FormatIPv4AddressNumber
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::cordl_internals::Ptr<char16_t>, ::ByRef<int32_t>)>(
-    &::System::Net::IPAddressParser::FormatIPv4AddressNumber)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x448e6f8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, char16_t*, ::ByRef<int32_t>)>(&::System::Net::IPAddressParser::FormatIPv4AddressNumber)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x61de070;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "FormatIPv4AddressNumber", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "FormatIPv4AddressNumber", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -119,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::ByRef<int64_t>)>(
     &::System::Net::IPAddressParser::Ipv4StringToAddress)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x448e53c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x61ddea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,17 +129,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::IPAddressParser.Ipv6StringToAddress
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::cordl_internals::Ptr<uint16_t>, int32_t, ::ByRef<uint32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, uint16_t*, int32_t, ::ByRef<uint32_t>)>(
     &::System::Net::IPAddressParser::Ipv6StringToAddress)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x448e3c8;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x61ddd6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "Ipv6StringToAddress", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<char16_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint16_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -152,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint16_t, ::Array<uint16_t>*>, int32_t, int32_t, ::System::Text::StringBuilder*)>(
     &::System::Net::IPAddressParser::AppendSections)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x448e8d0;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x61de2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,8 +164,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint16_t, ::System::Text::StringBuilder*)>(&::System::Net::IPAddressParser::AppendHex)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x448eab8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x61de49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -184,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint16_t, ::Array<uint16_t>*>)>(&::System::Net::IPAddressParser::ExtractIPv4Address)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x448ea84;
+  constexpr static std::size_t addrs = 0x61de468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(uint16_t)>(&::System::Net::IPAddressParser::Reverse)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x448eb20;
+  constexpr static std::size_t addrs = 0x61de53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,11 +223,10 @@ inline void System::Net::IPAddressParser::IPv4AddressToString(uint32_t address, 
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, address, destination);
 }
-inline int32_t System::Net::IPAddressParser::IPv4AddressToStringHelper(uint32_t address, ::cordl_internals::Ptr<char16_t> addressString) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "IPv4AddressToStringHelper", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline int32_t System::Net::IPAddressParser::IPv4AddressToStringHelper(uint32_t address, char16_t* addressString) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "IPv4AddressToStringHelper", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, address, addressString);
 }
 inline ::StringW System::Net::IPAddressParser::IPv6AddressToString(::ArrayW<uint16_t, ::Array<uint16_t>*> address, uint32_t scopeId) {
@@ -248,12 +243,11 @@ inline ::System::Text::StringBuilder* System::Net::IPAddressParser::IPv6AddressT
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Text::StringBuilder*, false>(nullptr, ___internal_method, address, scopeId);
 }
-inline void System::Net::IPAddressParser::FormatIPv4AddressNumber(int32_t number, ::cordl_internals::Ptr<char16_t> addressString, ::ByRef<int32_t> offset) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "FormatIPv4AddressNumber", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+inline void System::Net::IPAddressParser::FormatIPv4AddressNumber(int32_t number, char16_t* addressString, ::ByRef<int32_t> offset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "FormatIPv4AddressNumber", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, number, addressString, offset);
 }
 inline bool System::Net::IPAddressParser::Ipv4StringToAddress(::System::ReadOnlySpan_1<char16_t> ipSpan, ::ByRef<int64_t> address) {
@@ -263,12 +257,12 @@ inline bool System::Net::IPAddressParser::Ipv4StringToAddress(::System::ReadOnly
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int64_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ipSpan, address);
 }
-inline bool System::Net::IPAddressParser::Ipv6StringToAddress(::System::ReadOnlySpan_1<char16_t> ipSpan, ::cordl_internals::Ptr<uint16_t> numbers, int32_t numbersLength, ::ByRef<uint32_t> scope) {
+inline bool System::Net::IPAddressParser::Ipv6StringToAddress(::System::ReadOnlySpan_1<char16_t> ipSpan, uint16_t* numbers, int32_t numbersLength, ::ByRef<uint32_t> scope) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPAddressParser*>::get(), "Ipv6StringToAddress", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<char16_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint16_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, ipSpan, numbers, numbersLength, scope);
 }
 inline void System::Net::IPAddressParser::AppendSections(::ArrayW<uint16_t, ::Array<uint16_t>*> address, int32_t fromInclusive, int32_t toExclusive, ::System::Text::StringBuilder* buffer) {

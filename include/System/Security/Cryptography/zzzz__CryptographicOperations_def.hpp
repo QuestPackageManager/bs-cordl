@@ -22,7 +22,7 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE CryptographicOperations : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ZeroMemory, addr 0x3c9c0b4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ZeroMemory, addr 0x58e0618, size 0x5c, virtual false, abstract: false, final false
   static inline void ZeroMemory(::System::Span_1<uint8_t> buffer);
 
 protected:
@@ -40,7 +40,7 @@ public:
   CryptographicOperations(CryptographicOperations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

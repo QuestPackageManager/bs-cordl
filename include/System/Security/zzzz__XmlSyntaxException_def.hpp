@@ -34,16 +34,16 @@ public:
 
   static inline ::System::Security::XmlSyntaxException* New_ctor(int32_t lineNumber, ::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c93284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d7908, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c9329c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d7920, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c9328c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d7910, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber);
 
-  /// @brief Method .ctor, addr 0x3c93294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d7918, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t lineNumber, ::StringW message);
 
 protected:
@@ -61,7 +61,7 @@ public:
   XmlSyntaxException(XmlSyntaxException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__Header_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4918ae0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6981c4c, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::StringW header);
 
-  /// @brief Method set_Header, addr 0x4918ad8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method set_Header, addr 0x6981c44, size 0x8, virtual true, abstract: false, final true
   inline void set_Header(::StringW value);
 
 protected:
@@ -53,7 +53,7 @@ public:
   NativeHeaderAttribute(NativeHeaderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22697 };
 
   /// @brief Field <Header>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Header_k__BackingField;

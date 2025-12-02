@@ -3,12 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundPosition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundRepeat_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Background_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_def.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowInternal_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -17,7 +15,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualData)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -25,8 +29,8 @@ struct VisualData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualData);
-// Dependencies System.IEquatable`1<T>, UnityEngine.Color, UnityEngine.UIElements.Background, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat,
-// UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.IStyleDataGroup`1<T>, UnityEngine.UIElements.Length, UnityEngine.UIElements.OverflowInternal
+// Dependencies UnityEngine.Color, UnityEngine.UIElements.Background, UnityEngine.UIElements.BackgroundPosition, UnityEngine.UIElements.BackgroundRepeat, UnityEngine.UIElements.BackgroundSize,
+// UnityEngine.UIElements.Length, UnityEngine.UIElements.OverflowInternal
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.VisualData
@@ -39,19 +43,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>*();
 
-  /// @brief Method Copy, addr 0x4a83834, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6a5b6c4, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::VisualData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a83850, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6a5b6d4, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::ByRef<::UnityEngine::UIElements::VisualData> other);
 
-  /// @brief Method Equals, addr 0x4a83ba4, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a5baa0, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a83b58, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a5ba54, size 0x4c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualData other);
 
-  /// @brief Method GetHashCode, addr 0x4a83c4c, size 0x300, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a5bb44, size 0x370, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualData>"
@@ -60,7 +64,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::VisualData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__VisualData_();
 
-  /// @brief Method op_Equality, addr 0x4a83864, size 0x2f4, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a5b6dc, size 0x378, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::VisualData lhs, ::UnityEngine::UIElements::VisualData rhs);
 
   // Ctor Parameters []
@@ -85,7 +89,7 @@ public:
                        ::UnityEngine::UIElements::OverflowInternal overflow) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4947 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/EqualityComparer_1.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_impl.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__EqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline void System::Collections::Generic::EqualityComparer_1<T>::setStaticF_defaultComparer(::System::Collections::Generic::EqualityComparer_1<T>* value) {
   ::cordl_internals::setStaticField<::System::Collections::Generic::EqualityComparer_1<T>*, "defaultComparer",

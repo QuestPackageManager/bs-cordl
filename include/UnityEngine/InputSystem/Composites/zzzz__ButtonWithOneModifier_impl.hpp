@@ -2,14 +2,25 @@
 // IWYU pragma private; include "UnityEngine/InputSystem/Composites/ButtonWithOneModifier.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingComposite_1_impl.hpp"
 #include "UnityEngine/InputSystem/Composites/zzzz__ButtonWithOneModifier_def.hpp"
+#include "UnityEngine/InputSystem/Composites/zzzz__ButtonWithOneModifier_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBindingCompositeContext_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder::ButtonWithOneModifier_ModifiersOrder(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder::ButtonWithOneModifier_ModifiersOrder() {}
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder::Default{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder::Ordered{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder::Unordered{ static_cast<int32_t>(
+    0x2) };
 //  Writing Method size for method: ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier.ReadValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::ReadValue)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4573084;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x62edac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::ModifierIsPressed)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x45730f4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x62edb44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4573174;
+  constexpr static std::size_t addrs = 0x62edbc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::FinishSetup)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4573180;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x62edbd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::*)()>(
     &::UnityEngine::InputSystem::Composites::ButtonWithOneModifier::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45731f4;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x62edc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,6 +127,18 @@ constexpr bool const& UnityEngine::InputSystem::Composites::ButtonWithOneModifie
 constexpr void UnityEngine::InputSystem::Composites::ButtonWithOneModifier::__cordl_internal_set_overrideModifiersNeedToBePressedFirst(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___overrideModifiersNeedToBePressedFirst = value;
+}
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder& UnityEngine::InputSystem::Composites::ButtonWithOneModifier::__cordl_internal_get_modifiersOrder() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___modifiersOrder;
+}
+constexpr ::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder const& UnityEngine::InputSystem::Composites::ButtonWithOneModifier::__cordl_internal_get_modifiersOrder() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___modifiersOrder;
+}
+constexpr void UnityEngine::InputSystem::Composites::ButtonWithOneModifier::__cordl_internal_set_modifiersOrder(::UnityEngine::InputSystem::Composites::ButtonWithOneModifier_ModifiersOrder value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___modifiersOrder = value;
 }
 inline float_t UnityEngine::InputSystem::Composites::ButtonWithOneModifier::ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
   auto* ___internal_method =

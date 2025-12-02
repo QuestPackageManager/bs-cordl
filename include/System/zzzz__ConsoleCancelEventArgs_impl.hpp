@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ConsoleCancelEventArgs::*)(::System::ConsoleSpecialKey)>(&::System::ConsoleCancelEventArgs::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e0b9bc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5a51c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ConsoleCancelEventArgs::*)()>(&::System::ConsoleCancelEventArgs::get_Cancel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0ba28;
+  constexpr static std::size_t addrs = 0x5a51cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleCancelEventArgs*>::get(), "get_Cancel",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ConsoleCancelEventArgs::*)()>(&::System::ConsoleCancelEventArgs::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e0ba30;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5a51cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ConsoleCancelEventArgs*>::get(), ".ctor",

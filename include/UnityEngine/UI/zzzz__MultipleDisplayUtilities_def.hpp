@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(MultipleDisplayUtilities)
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -27,14 +28,14 @@ namespace UnityEngine::UI {
 class CORDL_TYPE MultipleDisplayUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetRelativeMousePositionForDrag, addr 0x4ac0d68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForDrag, addr 0x6bcd210, size 0x6c, virtual false, abstract: false, final false
   static inline bool GetRelativeMousePositionForDrag(::UnityEngine::EventSystems::PointerEventData* eventData, ::ByRef<::UnityEngine::Vector2> position);
 
-  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x4ac1240, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method GetRelativeMousePositionForRaycast, addr 0x6bcd760, size 0xd8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 GetRelativeMousePositionForRaycast(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method RelativeMouseAtScaled, addr 0x4ac0dd4, size 0x46c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position);
+  /// @brief Method RelativeMouseAtScaled, addr 0x6bcd27c, size 0x4e4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Vector3 RelativeMouseAtScaled(::UnityEngine::Vector2 position, int32_t displayIndex);
 
 protected:
   // Ctor Parameters []
@@ -51,7 +52,7 @@ public:
   MultipleDisplayUtilities(MultipleDisplayUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17427 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

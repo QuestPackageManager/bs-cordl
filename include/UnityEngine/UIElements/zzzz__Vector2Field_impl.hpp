@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::Vector2Field_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x498fb70;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b06bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field_UxmlFactory*>::get(),
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::Vector2Field_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x498fbb8;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6b06c30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::Vector2Field_UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x498fd1c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6b06db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field_UxmlTraits*>::get(),
@@ -113,8 +113,8 @@ constexpr ::UnityEngine::UIElements::Vector2Field_UxmlTraits::Vector2Field_UxmlT
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field___c::*)()>(&::UnityEngine::UIElements::Vector2Field___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498fe48;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b06eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field___c*>::get(), ".ctor",
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Vector2Field___c::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::Vector2Field___c::_DescribeFields_b__0_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x498fe50;
+  constexpr static std::size_t addrs = 0x6b06ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field___c::*)(::ByRef<::UnityEngine::Vector2>, float_t)>(
     &::UnityEngine::UIElements::Vector2Field___c::_DescribeFields_b__0_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498fe54;
+  constexpr static std::size_t addrs = 0x6b06ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Vector2Field___c::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::Vector2Field___c::_DescribeFields_b__0_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498fe5c;
+  constexpr static std::size_t addrs = 0x6b06efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field___c::*)(::ByRef<::UnityEngine::Vector2>, float_t)>(
     &::UnityEngine::UIElements::Vector2Field___c::_DescribeFields_b__0_3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498fe64;
+  constexpr static std::size_t addrs = 0x6b06f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,13 +275,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2, ::UnityEngine::UIElements::FloatField*, float_t>,
                          ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2, ::UnityEngine::UIElements::FloatField*, float_t>>*> (
         ::UnityEngine::UIElements::Vector2Field::*)()>(&::UnityEngine::UIElements::Vector2Field::DescribeFields)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x498f5e8;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x6b06668;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field*>::get(), 118));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field*>::get(), 154));
     return ___internal_method;
   }
 };
@@ -290,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field::*)()>(&::UnityEngine::UIElements::Vector2Field::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x498f978;
+  constexpr static std::size_t addrs = 0x6b069b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field*>::get(), ".ctor",
@@ -302,8 +302,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Vector2Field::*)(::StringW)>(&::UnityEngine::UIElements::Vector2Field::_ctor)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x498f980;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6b069c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,7 +336,7 @@ inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription
                 ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2, ::UnityEngine::UIElements::FloatField*, float_t>>*>
 UnityEngine::UIElements::Vector2Field::DescribeFields() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field*>::get(), 118)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Vector2Field*>::get(), 154)));
   return ::cordl_internals::RunMethodRethrow<
       ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2, ::UnityEngine::UIElements::FloatField*, float_t>,
                ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2, ::UnityEngine::UIElements::FloatField*, float_t>>*>,

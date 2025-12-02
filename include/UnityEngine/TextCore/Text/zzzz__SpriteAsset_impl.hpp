@@ -18,8 +18,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset___c::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4931388;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x69ccb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), ".ctor",
@@ -27,32 +27,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset___c._SortGlyphTable_b__37_0
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset___c._SortGlyphTable_b__44_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::SpriteAsset___c::*)(::UnityEngine::TextCore::Text::SpriteGlyph*)>(
-    &::UnityEngine::TextCore::Text::SpriteAsset___c::_SortGlyphTable_b__37_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4931390;
+    &::UnityEngine::TextCore::Text::SpriteAsset___c::_SortGlyphTable_b__44_0)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x69ccb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortGlyphTable>b__37_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortGlyphTable>b__44_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteGlyph*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset___c._SortCharacterTable_b__38_0
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset___c._SortCharacterTable_b__45_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::SpriteAsset___c::*)(::UnityEngine::TextCore::Text::SpriteCharacter*)>(
-    &::UnityEngine::TextCore::Text::SpriteAsset___c::_SortCharacterTable_b__38_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49313a8;
+    &::UnityEngine::TextCore::Text::SpriteAsset___c::_SortCharacterTable_b__45_0)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x69ccb9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortCharacterTable>b__38_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortCharacterTable>b__45_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteCharacter*>::get() })));
     return ___internal_method;
   }
@@ -66,22 +66,22 @@ inline ::UnityEngine::TextCore::Text::SpriteAsset___c* UnityEngine::TextCore::Te
   return ::cordl_internals::getStaticField<::UnityEngine::TextCore::Text::SpriteAsset___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::SpriteAsset___c::setStaticF___9__37_0(::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>*, "<>9__37_0",
+inline void UnityEngine::TextCore::Text::SpriteAsset___c::setStaticF___9__44_0(::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>*, "<>9__44_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>* UnityEngine::TextCore::Text::SpriteAsset___c::getStaticF___9__37_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>*, "<>9__37_0",
+inline ::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>* UnityEngine::TextCore::Text::SpriteAsset___c::getStaticF___9__44_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteGlyph*, uint32_t>*, "<>9__44_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::SpriteAsset___c::setStaticF___9__38_0(::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>*, "<>9__38_0",
+inline void UnityEngine::TextCore::Text::SpriteAsset___c::setStaticF___9__45_0(::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>*, "<>9__45_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>* UnityEngine::TextCore::Text::SpriteAsset___c::getStaticF___9__38_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>*, "<>9__38_0",
+inline ::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>* UnityEngine::TextCore::Text::SpriteAsset___c::getStaticF___9__45_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::Text::SpriteCharacter*, uint32_t>*, "<>9__45_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get>();
 }
 inline void UnityEngine::TextCore::Text::SpriteAsset___c::_ctor() {
@@ -89,15 +89,15 @@ inline void UnityEngine::TextCore::Text::SpriteAsset___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline uint32_t UnityEngine::TextCore::Text::SpriteAsset___c::_SortGlyphTable_b__37_0(::UnityEngine::TextCore::Text::SpriteGlyph* item) {
+inline uint32_t UnityEngine::TextCore::Text::SpriteAsset___c::_SortGlyphTable_b__44_0(::UnityEngine::TextCore::Text::SpriteGlyph* item) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortGlyphTable>b__37_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortGlyphTable>b__44_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteGlyph*>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, item);
 }
-inline uint32_t UnityEngine::TextCore::Text::SpriteAsset___c::_SortCharacterTable_b__38_0(::UnityEngine::TextCore::Text::SpriteCharacter* c) {
+inline uint32_t UnityEngine::TextCore::Text::SpriteAsset___c::_SortCharacterTable_b__45_0(::UnityEngine::TextCore::Text::SpriteCharacter* c) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortCharacterTable>b__38_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset___c*>::get(), "<SortCharacterTable>b__45_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteCharacter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, c);
 }
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::FaceInfo (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(
     &::UnityEngine::TextCore::Text::SpriteAsset::get_faceInfo)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x492ffa0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x69cb558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(::UnityEngine::TextCore::FaceInfo)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::set_faceInfo)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x492ffbc;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x69cb568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(
     &::UnityEngine::TextCore::Text::SpriteAsset::get_spriteSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492ffd4;
+  constexpr static std::size_t addrs = 0x69cb574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -154,13 +154,69 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::set_spriteSheet)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492ffdc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x69cb57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "set_spriteSheet", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset.get_width
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::get_width)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cb5d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "get_width",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset.set_width
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(float_t)>(
+    &::UnityEngine::TextCore::Text::SpriteAsset::set_width)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cb5d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "set_width", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset.get_height
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::get_height)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cb5e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "get_height",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::SpriteAsset.set_height
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(float_t)>(
+    &::UnityEngine::TextCore::Text::SpriteAsset::set_height)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cb5e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "set_height", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -170,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>* (
     ::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::get_spriteCharacterTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x492ffe4;
+  constexpr static std::size_t addrs = 0x69cb5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -184,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>*)>(&::UnityEngine::TextCore::Text::SpriteAsset::set_spriteCharacterTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49304bc;
+  constexpr static std::size_t addrs = 0x69cbc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteCharacter*>* (
     ::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::get_spriteCharacterLookupTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x492d5e0;
+  constexpr static std::size_t addrs = 0x69cb534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -213,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(
     ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::Text::SpriteCharacter*>*)>(&::UnityEngine::TextCore::Text::SpriteAsset::set_spriteCharacterLookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49304c4;
+  constexpr static std::size_t addrs = 0x69cbc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,7 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>* (
     ::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::get_spriteGlyphTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49304cc;
+  constexpr static std::size_t addrs = 0x69cbc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -243,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteGlyph*>*)>(&::UnityEngine::TextCore::Text::SpriteAsset::set_spriteGlyphTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49304d4;
+  constexpr static std::size_t addrs = 0x69cbc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49304dc;
+  constexpr static std::size_t addrs = 0x69cbc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "Awake",
@@ -270,8 +326,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(
     &::UnityEngine::TextCore::Text::SpriteAsset::UpdateLookupTables)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x4930008;
+  constexpr static std::size_t size = 0x65c;
+  constexpr static std::size_t addrs = 0x69cb614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -284,8 +340,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::SpriteAsset::*)(int32_t)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::GetSpriteIndexFromHashcode)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49304e8;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x69cbcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -299,8 +355,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::SpriteAsset::*)(uint32_t)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::GetSpriteIndexFromUnicode)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4930570;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x69cbd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::SpriteAsset::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::GetSpriteIndexFromName)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4930604;
+  constexpr static std::size_t addrs = 0x69cbdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -329,8 +385,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)(
     ::UnityEngine::TextCore::Text::SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicode)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x4930644;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x69cbe18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,16 +401,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)(
-    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*, uint32_t, bool, ::ByRef<int32_t>)>(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*, uint32_t, bool, ::System::Collections::Generic::HashSet_1<int32_t>*, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicodeInternal)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4930808;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x69cbfa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
@@ -363,15 +420,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)(
-    ::UnityEngine::TextCore::Text::SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicodeInternal)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x49309a8;
+    ::UnityEngine::TextCore::Text::SpriteAsset*, uint32_t, bool, ::System::Collections::Generic::HashSet_1<int32_t>*, ::ByRef<int32_t>)>(
+    &::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicodeInternal)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x69cc14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
@@ -382,8 +441,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)(::UnityEngine::TextCore::Text::SpriteAsset*, int32_t, bool, ::ByRef<int32_t>, ::UnityEngine::TextCore::Text::TextSettings*)>(
         &::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCode)> {
-  constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x4930a58;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x69cc218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,16 +458,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)(
-    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*, int32_t, bool, ::ByRef<int32_t>)>(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*, int32_t, bool, ::System::Collections::Generic::HashSet_1<int32_t>*, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCodeInternal)> {
   constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4930d90;
+  constexpr static std::size_t addrs = 0x69cc538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
@@ -417,15 +477,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)(
-    ::UnityEngine::TextCore::Text::SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(&::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCodeInternal)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4930f38;
+    ::UnityEngine::TextCore::Text::SpriteAsset*, int32_t, bool, ::System::Collections::Generic::HashSet_1<int32_t>*, ::ByRef<int32_t>)>(
+    &::UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCodeInternal)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x69cc6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
@@ -435,8 +497,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(
     &::UnityEngine::TextCore::Text::SpriteAsset::SortGlyphTable)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4930fe8;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x69cc7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -449,8 +511,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(
     &::UnityEngine::TextCore::Text::SpriteAsset::SortCharacterTable)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4931118;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x69cc8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -464,7 +526,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(
     &::UnityEngine::TextCore::Text::SpriteAsset::SortGlyphAndCharacterTables)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x493124c;
+  constexpr static std::size_t addrs = 0x69cca48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
@@ -477,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::SpriteAsset::*)()>(&::UnityEngine::TextCore::Text::SpriteAsset::_ctor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4931264;
+  constexpr static std::size_t addrs = 0x69cca60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), ".ctor",
@@ -532,6 +594,30 @@ constexpr ::UnityW<::UnityEngine::Texture> const& UnityEngine::TextCore::Text::S
 constexpr void UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_set_m_SpriteAtlasTexture(::UnityW<::UnityEngine::Texture> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteAtlasTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr float_t& UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_get__width_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____width_k__BackingField;
+}
+constexpr float_t const& UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_get__width_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____width_k__BackingField;
+}
+constexpr void UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_set__width_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____width_k__BackingField = value;
+}
+constexpr float_t& UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_get__height_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____height_k__BackingField;
+}
+constexpr float_t const& UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_get__height_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____height_k__BackingField;
+}
+constexpr void UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_set__height_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____height_k__BackingField = value;
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>*& UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_get_m_SpriteCharacterTable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -613,15 +699,6 @@ constexpr void UnityEngine::TextCore::Text::SpriteAsset::__cordl_internal_set_m_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsSpriteAssetLookupTablesDirty = value;
 }
-inline void UnityEngine::TextCore::Text::SpriteAsset::setStaticF_k_searchedSpriteAssets(::System::Collections::Generic::HashSet_1<int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<int32_t>*, "k_searchedSpriteAssets",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get>(
-      std::forward<::System::Collections::Generic::HashSet_1<int32_t>*>(value));
-}
-inline ::System::Collections::Generic::HashSet_1<int32_t>* UnityEngine::TextCore::Text::SpriteAsset::getStaticF_k_searchedSpriteAssets() {
-  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<int32_t>*, "k_searchedSpriteAssets",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get>();
-}
 inline ::UnityEngine::TextCore::FaceInfo UnityEngine::TextCore::Text::SpriteAsset::get_faceInfo() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "get_faceInfo",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -642,6 +719,28 @@ inline void UnityEngine::TextCore::Text::SpriteAsset::set_spriteSheet(::UnityEng
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "set_spriteSheet", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::TextCore::Text::SpriteAsset::get_width() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "get_width",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::Text::SpriteAsset::set_width(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "set_width",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::TextCore::Text::SpriteAsset::get_height() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "get_height",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::Text::SpriteAsset::set_height(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "set_height",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::SpriteCharacter*>* UnityEngine::TextCore::Text::SpriteAsset::get_spriteCharacterTable() {
@@ -717,23 +816,28 @@ inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCor
 }
 inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
 UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicodeInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* spriteAssets, uint32_t unicode,
-                                                                           bool includeFallbacks, ::ByRef<int32_t> spriteIndex) {
+                                                                           bool includeFallbacks, ::System::Collections::Generic::HashSet_1<int32_t>* searchedSpriteAssets,
+                                                                           ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAssets, unicode, includeFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAssets, unicode, includeFallbacks, searchedSpriteAssets,
+                                                                                                          spriteIndex);
 }
-inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
-                                                                                                                                       uint32_t unicode, bool includeFallbacks,
-                                                                                                                                       ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
+UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByUnicodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, uint32_t unicode, bool includeFallbacks,
+                                                                           ::System::Collections::Generic::HashSet_1<int32_t>* searchedSpriteAssets, ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByUnicodeInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, unicode, includeFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, unicode, includeFallbacks, searchedSpriteAssets,
+                                                                                                          spriteIndex);
 }
 inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCode(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
                                                                                                                                 int32_t hashCode, bool includeFallbacks, ::ByRef<int32_t> spriteIndex,
@@ -749,23 +853,28 @@ inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCor
 }
 inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
 UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCodeInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* spriteAssets,
-                                                                            int32_t hashCode, bool searchFallbacks, ::ByRef<int32_t> spriteIndex) {
+                                                                            int32_t hashCode, bool searchFallbacks, ::System::Collections::Generic::HashSet_1<int32_t>* searchedSpriteAssets,
+                                                                            ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAssets, hashCode, searchFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAssets, hashCode, searchFallbacks, searchedSpriteAssets,
+                                                                                                          spriteIndex);
 }
-inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
-                                                                                                                                        int32_t hashCode, bool searchFallbacks,
-                                                                                                                                        ::ByRef<int32_t> spriteIndex) {
+inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>
+UnityEngine::TextCore::Text::SpriteAsset::SearchForSpriteByHashCodeInternal(::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, int32_t hashCode, bool searchFallbacks,
+                                                                            ::System::Collections::Generic::HashSet_1<int32_t>* searchedSpriteAssets, ::ByRef<int32_t> spriteIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(), "SearchForSpriteByHashCodeInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<int32_t>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, hashCode, searchFallbacks, spriteIndex);
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method, spriteAsset, hashCode, searchFallbacks, searchedSpriteAssets,
+                                                                                                          spriteIndex);
 }
 inline void UnityEngine::TextCore::Text::SpriteAsset::SortGlyphTable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::SpriteAsset*>::get(),

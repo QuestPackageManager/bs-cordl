@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/SM2KeyExchangePrivateParameters.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__SM2KeyExchangePrivateParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters._ctor
 template <>
@@ -11,8 +11,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::*)(
     bool, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*)>(
     &::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::_ctor)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x23c30e8;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x32f1084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::get_IsInitiator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3350;
+  constexpr static std::size_t addrs = 0x32f12e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::get_StaticPrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3358;
+  constexpr static std::size_t addrs = 0x32f12e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::get_StaticPublicPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3360;
+  constexpr static std::size_t addrs = 0x32f12f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* (
     ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::get_EphemeralPrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3368;
+  constexpr static std::size_t addrs = 0x32f12f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters::get_EphemeralPublicPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3370;
+  constexpr static std::size_t addrs = 0x32f1300;
 
   inline static ::MethodInfo const* methodInfo() {
 

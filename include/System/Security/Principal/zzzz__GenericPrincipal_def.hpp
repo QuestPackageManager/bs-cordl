@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_m_roles(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3cb8f70, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fccac, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::ArrayW<::StringW, ::Array<::StringW>*> roles);
 
 protected:
@@ -60,7 +60,7 @@ public:
   GenericPrincipal(GenericPrincipal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2997 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3014 };
 
   /// @brief Field m_identity, offset: 0x28, size: 0x8, def value: None
   ::System::Security::Principal::IIdentity* ___m_identity;

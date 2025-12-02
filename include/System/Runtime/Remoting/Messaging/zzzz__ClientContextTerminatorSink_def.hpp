@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ClientContextTerminatorSink)
 namespace System::Runtime::Remoting::Contexts {
@@ -24,7 +23,7 @@ class ClientContextTerminatorSink;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink);
-// Dependencies System.Object, System.Runtime.Remoting.Messaging.IMessageSink
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Messaging.ClientContextTerminatorSink
@@ -37,13 +36,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3cea66c, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x592c728, size 0x21c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::Messaging::ClientContextTerminatorSink* New_ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
 
-  /// @brief Method SyncProcessMessage, addr 0x3cea498, size 0x1d4, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x592c544, size 0x1e4, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::Runtime::Remoting::Contexts::Context* const& __cordl_internal_get__context() const;
@@ -52,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__context(::System::Runtime::Remoting::Contexts::Context* value);
 
-  /// @brief Method .ctor, addr 0x3cdeaf4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59217ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Contexts::Context* ctx);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -73,7 +72,7 @@ public:
   ClientContextTerminatorSink(ClientContextTerminatorSink const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3157 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3174 };
 
   /// @brief Field _context, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Contexts::Context* ____context;

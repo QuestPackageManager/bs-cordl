@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -19,7 +14,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -37,7 +38,7 @@ template <typename T> struct FixedArray3_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1__Enumerate_d__10);
 MARK_GEN_VAL_T(::UnityEngine::ProBuilder::Poly2Tri::FixedArray3_1);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
@@ -98,7 +99,7 @@ public:
   constexpr FixedArray3_1(T _0, T _1, T _2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21569 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -116,8 +117,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::ProBuilder::Poly2Tri
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object, UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<T>
+// Dependencies System.Object, UnityEngine.ProBuilder.Poly2Tri.FixedArray3`1<T>
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // cpp template
 template <typename T>
@@ -255,7 +255,7 @@ public:
   FixedArray3_1__Enumerate_d__10(FixedArray3_1__Enumerate_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21568 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;

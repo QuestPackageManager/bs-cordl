@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HMacDsaKCalculator)
 namespace Org::BouncyCastle::Crypto::Macs {
 class HMac;
+}
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -25,7 +27,7 @@ class HMacDsaKCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator);
-// Dependencies Org.BouncyCastle.Crypto.Signers.IDsaKCalculator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Signers.HMacDsaKCalculator
@@ -49,18 +51,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method BitsToInt, addr 0x23d61dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method BitsToInt, addr 0x33041fc, size 0xcc, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* BitsToInt(::ArrayW<uint8_t, ::Array<uint8_t>*> t);
 
-  /// @brief Method Init, addr 0x23d5dc4, size 0x418, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x3303dd0, size 0x42c, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Init, addr 0x23d5d78, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3303d84, size 0x4c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::HMacDsaKCalculator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method NextK, addr 0x23d62a4, size 0x278, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0x33042c8, size 0x284, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_K() const;
@@ -87,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_n(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x23d5c88, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3303c98, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_IsDeterministic, addr 0x23d5d70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0x3303d7c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"

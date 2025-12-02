@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/CameraProperties.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_impl.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetShadowCullingPlane)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48c6c5c;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x68ea350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::CameraProperties::*)(int32_t)>(
     &::UnityEngine::Rendering::CameraProperties::GetCameraCullingPlane)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x48c6d40;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x68ea41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::UnityEngine::Rendering::CameraProperties)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
-  constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x48c6e24;
+  constexpr static std::size_t size = 0x7c8;
+  constexpr static std::size_t addrs = 0x68ea4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::CameraProperties::*)(::System::Object*)>(
     &::UnityEngine::Rendering::CameraProperties::Equals)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x48c748c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x68eacb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::CameraProperties::*)()>(
     &::UnityEngine::Rendering::CameraProperties::GetHashCode)> {
-  constexpr static std::size_t size = 0x458;
-  constexpr static std::size_t addrs = 0x48c7544;
+  constexpr static std::size_t size = 0x530;
+  constexpr static std::size_t addrs = 0x68ead6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>* Un
 // "::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "layerCullSpherical", ty: "int32_t", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "coreCameraValues", ty: "::UnityEngine::Rendering::CoreCameraValues", modifiers: "", def_value: Some("{}") }, CppParam { name: "cameraType", ty:
 // "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "projectionIsOblique", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "isImplicitProjectionMatrix", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }]
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "useInteractiveLightBakingData", ty: "bool", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties(
     ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 viewDir, float_t projectionNear, float_t projectionFar, float_t cameraNear, float_t cameraFar, float_t cameraAspect,
     ::UnityEngine::Matrix4x4 cameraToWorld, ::UnityEngine::Matrix4x4 actualWorldToClip, ::UnityEngine::Matrix4x4 cameraClipToWorld, ::UnityEngine::Matrix4x4 cameraWorldToClip,
@@ -165,7 +165,7 @@ constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties(
     float_t farPlaneWorldSpaceLength, uint32_t rendererCount, ::UnityEngine::Rendering::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer m_ShadowCullPlanes,
     ::UnityEngine::Rendering::CameraProperties__m_CameraCullPlanes_e__FixedBuffer m_CameraCullPlanes, float_t baseFarDistance, ::UnityEngine::Vector3 shadowCullCenter,
     ::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer layerCullDistances, int32_t layerCullSpherical, ::UnityEngine::Rendering::CoreCameraValues coreCameraValues,
-    uint32_t cameraType, int32_t projectionIsOblique, int32_t isImplicitProjectionMatrix) noexcept {
+    uint32_t cameraType, int32_t projectionIsOblique, int32_t isImplicitProjectionMatrix, bool useInteractiveLightBakingData) noexcept {
   this->screenRect = screenRect;
   this->viewDir = viewDir;
   this->projectionNear = projectionNear;
@@ -198,6 +198,7 @@ constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties(
   this->cameraType = cameraType;
   this->projectionIsOblique = projectionIsOblique;
   this->isImplicitProjectionMatrix = isImplicitProjectionMatrix;
+  this->useInteractiveLightBakingData = useInteractiveLightBakingData;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::CameraProperties::CameraProperties() {}

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
@@ -89,7 +88,7 @@ public:
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController___c__DisplayClass16_0* New_ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x3c1dbdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x56d22e0, size 0x24, virtual false, abstract: false, final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> const& __cordl_internal_get___4__this() const;
@@ -104,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method .ctor, addr 0x3c1dbd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56d22dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -122,7 +121,7 @@ public:
   MissionSelectionMapViewController___c__DisplayClass16_0(MissionSelectionMapViewController___c__DisplayClass16_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6505 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> _____4__this;
@@ -140,7 +139,7 @@ static_assert(offsetof(::GlobalNamespace::MissionSelectionMapViewController___c_
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionSelectionMapViewController___c__DisplayClass16_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MissionSelectionMapViewController/<SongPlayerCrossfadeToLevelAsync>d__16
@@ -150,10 +149,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c1dc04, size 0x318, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x56d2304, size 0x374, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c1df1c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x56d2678, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -175,7 +174,7 @@ public:
                                                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4921 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6506 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -266,24 +265,24 @@ public:
                       put = __cordl_internal_set_didSelectMissionLevelEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>,
                                                                                                  ::UnityW<::GlobalNamespace::MissionNode>>* didSelectMissionLevelEvent;
 
-  /// @brief Method DeselectSelectedNode, addr 0x3c1dbb4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method DeselectSelectedNode, addr 0x56d22c0, size 0x18, virtual false, abstract: false, final false
   inline void DeselectSelectedNode();
 
-  /// @brief Method DidActivate, addr 0x3c1d804, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x56d1ec8, size 0x14c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c1d940, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x56d2014, size 0x138, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x3c1da64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionNodeSelectionManagerDidSelectMissionNode, addr 0x56d214c, size 0xa4, virtual false, abstract: false, final false
   inline void HandleMissionNodeSelectionManagerDidSelectMissionNode(::GlobalNamespace::MissionNodeVisualController* missionNodeVisualController);
 
   static inline ::GlobalNamespace::MissionSelectionMapViewController* New_ctor();
 
-  /// @brief Method ShowMissionClearedAnimation, addr 0x3c1db90, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ShowMissionClearedAnimation, addr 0x56d22a0, size 0x20, virtual false, abstract: false, final false
   inline void ShowMissionClearedAnimation(::System::Action* finishCallback);
 
-  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x3c1daf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x56d21f0, size 0xb0, virtual false, abstract: false, final false
   inline void SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
@@ -341,16 +340,16 @@ public:
 
   constexpr void __cordl_internal_set_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
-  /// @brief Method .ctor, addr 0x3c1dbcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56d22d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectMissionLevelEvent, addr 0x3c1d688, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectMissionLevelEvent, addr 0x56d1d30, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
-  /// @brief Method get_animatedUpdateIsRequired, addr 0x3c1d7e8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_animatedUpdateIsRequired, addr 0x56d1eb0, size 0x18, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
-  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x3c1d738, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectMissionLevelEvent, addr 0x56d1df0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectMissionLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::MissionSelectionMapViewController>, ::UnityW<::GlobalNamespace::MissionNode>>* value);
 
 protected:
@@ -368,7 +367,7 @@ public:
   MissionSelectionMapViewController(MissionSelectionMapViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6507 };
 
   /// @brief Field _mapScrollView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::ScrollView> ____mapScrollView;

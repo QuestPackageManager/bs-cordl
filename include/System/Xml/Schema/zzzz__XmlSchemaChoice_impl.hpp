@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaObjectCollection* (::System::Xml::Schema::XmlSchemaChoice::*)()>(
     &::System::Xml::Schema::XmlSchemaChoice::get_Items)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42ba920;
+  constexpr static std::size_t addrs = 0x6010c70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlSchemaChoice::*)()>(&::System::Xml::Schema::XmlSchemaChoice::get_IsEmpty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42ba928;
+  constexpr static std::size_t addrs = 0x6010c78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaChoice::*)(::System::Xml::Schema::XmlSchemaObjectCollection*)>(
     &::System::Xml::Schema::XmlSchemaChoice::SetItems)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42ba930;
+  constexpr static std::size_t addrs = 0x6010c80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlSchemaChoice::*)()>(&::System::Xml::Schema::XmlSchemaChoice::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x42ba938;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6010c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlSchemaChoice*>::get(), ".ctor",

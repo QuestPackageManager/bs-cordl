@@ -1,13 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MediaAsyncLoader.hpp"
-#include "GlobalNamespace/zzzz__IMediaAsyncLoader_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_impl.hpp"
 #include "GlobalNamespace/zzzz__MediaAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__IMediaAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__MediaAsyncLoader_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
@@ -21,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::*)()>(
     &::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x3c231ec;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x5814e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MediaAsyncLoader__LoadAudioClipAsync_d__2::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c23684;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x581528c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::*)()>(
     &::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::MoveNext)> {
-  constexpr static std::size_t size = 0x5bc;
-  constexpr static std::size_t addrs = 0x3c23700;
+  constexpr static std::size_t size = 0x5a0;
+  constexpr static std::size_t addrs = 0x581530c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4>::get(),
@@ -102,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MediaAsyncLoader__LoadSpriteAsync_d__4::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c23cbc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x58158ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,8 +153,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::*)()>(
     &::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x3c23d38;
+  constexpr static std::size_t size = 0x3f4;
+  constexpr static std::size_t addrs = 0x581592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MediaAsyncLoader__LoadTextureAsync_d__3::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c24154;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5815d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,8 +220,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::*)()>(
     &::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x3c241d0;
+  constexpr static std::size_t size = 0x408;
+  constexpr static std::size_t addrs = 0x5815da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0>::get(),
@@ -235,8 +234,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MediaAsyncLoader__LoadWebpage_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c245fc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x58161a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -286,8 +285,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (*)(::StringW, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadWebpage)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c22de0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x58149fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::MediaAsyncLoader::*)(::StringW)>(&::GlobalNamespace::MediaAsyncLoader::LoadAudioClipFromFilePathAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c22ec8;
+  constexpr static std::size_t addrs = 0x5814ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -318,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::StringW, bool)>(
     &::GlobalNamespace::MediaAsyncLoader::LoadAudioClipAsync)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3c22ed4;
+  constexpr static std::size_t addrs = 0x5814af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,8 +331,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Texture2D>>* (*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MediaAsyncLoader::LoadTextureAsync)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c22fc4;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x5814be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,8 +347,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (*)(::StringW, ::System::Threading::CancellationToken)>(&::GlobalNamespace::MediaAsyncLoader::LoadSpriteAsync)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3c230ac;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x5814cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -363,8 +362,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::MediaAsyncLoader::Log)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c23194;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5814dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,8 +376,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MediaAsyncLoader::*)()>(&::GlobalNamespace::MediaAsyncLoader::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c21808;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5813320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MediaAsyncLoader*>::get(), ".ctor",

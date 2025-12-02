@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/X509/X509ExtensionBase.hpp"
-#include "Org/BouncyCastle/X509/zzzz__IX509Extension_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509ExtensionBase_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__X509Extensions_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetString_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
+#include "Org/BouncyCastle/X509/zzzz__IX509Extension_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::X509ExtensionBase.GetX509Extensions
 template <>
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(bool)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionOids)> {
-  constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x251b840;
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x344b600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetNonCriticalExtensionOids)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x251bc38;
+  constexpr static std::size_t addrs = 0x344b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetCriticalExtensionOids)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x251bc48;
+  constexpr static std::size_t addrs = 0x344b9e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::X509::X509ExtensionBase::*)(::StringW)>(
     &::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x251bc58;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x344b9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (
     ::Org::BouncyCastle::X509::X509ExtensionBase::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::X509::X509ExtensionBase::GetExtensionValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x251bccc;
+  constexpr static std::size_t addrs = 0x344ba70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::X509ExtensionBase::*)()>(&::Org::BouncyCastle::X509::X509ExtensionBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x251bd04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x344baa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509ExtensionBase*>::get(), ".ctor",

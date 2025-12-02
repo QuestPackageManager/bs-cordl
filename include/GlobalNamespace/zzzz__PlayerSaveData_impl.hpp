@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_GameplayModifiers::*)()>(
     &::GlobalNamespace::PlayerSaveData_GameplayModifiers::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f55bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3621034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_GameplayModifiers*>::get(),
@@ -294,8 +294,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerSpecificSettings::*)()>(
     &::GlobalNamespace::PlayerSaveData_PlayerSpecificSettings::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26f55c4;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x3621038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_PlayerSpecificSettings*>::get(),
@@ -581,8 +581,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData::*)()>(
     &::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData::_ctor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x26f8f00;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x3624c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -597,8 +597,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData::*)(
     ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*, ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*, ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*,
     ::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*)>(&::GlobalNamespace::PlayerSaveData_PlayerAllOverallStatsData::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26f9094;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3624dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -692,8 +692,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData::*)()>(
     &::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f90d4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3624ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData*>::get(),
@@ -706,8 +706,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData::*)(
     int32_t, int32_t, int32_t, int64_t, int32_t, int32_t, int32_t, int32_t, float_t, int32_t, int64_t)>(&::GlobalNamespace::PlayerSaveData_PlayerOverallStatsData::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26f90dc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x3624de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -890,8 +890,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerLevelStatsData::*)()>(
     &::GlobalNamespace::PlayerSaveData_PlayerLevelStatsData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f56f8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3621160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_PlayerLevelStatsData*>::get(),
@@ -1022,8 +1022,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerMissionStatsData::*)()>(
     &::GlobalNamespace::PlayerSaveData_PlayerMissionStatsData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f5700;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3621164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_PlayerMissionStatsData*>::get(),
@@ -1070,8 +1070,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PracticeSettings::*)()>(
     &::GlobalNamespace::PlayerSaveData_PracticeSettings::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f562c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x362109c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_PracticeSettings*>::get(),
@@ -1119,8 +1119,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_ColorScheme::*)(
     ::StringW, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::PlayerSaveData_ColorScheme::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26f5710;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x362116c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1257,8 +1257,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_ColorSchemesSettings::*)(
     bool, ::StringW, ::GlobalNamespace::PlayerSaveData_ColorOverrideType, ::System::Collections::Generic::List_1<::GlobalNamespace::PlayerSaveData_ColorScheme*>*)>(
     &::GlobalNamespace::PlayerSaveData_ColorSchemesSettings::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26f57ec;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x36211bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1340,8 +1340,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_OverrideEnvironmentSettings::*)()>(
     &::GlobalNamespace::PlayerSaveData_OverrideEnvironmentSettings::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f5834;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x36211d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1401,8 +1401,8 @@ constexpr ::GlobalNamespace::PlayerSaveData_OverrideEnvironmentSettings::PlayerS
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_GuestPlayer::*)()>(&::GlobalNamespace::PlayerSaveData_GuestPlayer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f5708;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3621168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_GuestPlayer*>::get(), ".ctor",
@@ -1437,8 +1437,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_MultiplayerModeSettings::*)()>(
     &::GlobalNamespace::PlayerSaveData_MultiplayerModeSettings::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26f583c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x36211d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1522,8 +1522,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_PlayerAgreementsData::*)()>(
     &::GlobalNamespace::PlayerSaveData_PlayerAgreementsData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f58b0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3621240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_PlayerAgreementsData*>::get(),
@@ -1625,8 +1625,8 @@ constexpr ::GlobalNamespace::PlayerSaveData_PlayerSensitivityFlagSaveData Global
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData_LocalPlayer::*)()>(&::GlobalNamespace::PlayerSaveData_LocalPlayer::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26f55a4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x3621020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData_LocalPlayer*>::get(), ".ctor",
@@ -1977,8 +1977,8 @@ constexpr ::GlobalNamespace::PlayerSaveData_LocalPlayer::PlayerSaveData_LocalPla
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerSaveData::*)()>(&::GlobalNamespace::PlayerSaveData::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26f5550;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x3620fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerSaveData*>::get(), ".ctor",

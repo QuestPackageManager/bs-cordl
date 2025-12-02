@@ -28,7 +28,7 @@ public:
   constexpr IntersectionMaskCircle_t(float_t m_flCenterX, float_t m_flCenterY, float_t m_flRadius) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8504 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

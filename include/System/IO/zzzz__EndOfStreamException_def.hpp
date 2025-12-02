@@ -31,13 +31,13 @@ public:
 
   static inline ::System::IO::EndOfStreamException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d370fc, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59dfbe4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d3717c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59dfc68, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d37158, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59dfc44, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   EndOfStreamException(EndOfStreamException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3839 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

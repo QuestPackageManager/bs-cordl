@@ -28,27 +28,27 @@ public:
   /// @brief Field invalid, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_invalid, put = setStaticF_invalid)) ::UnityEngine::UIElements::TextureId invalid;
 
-  /// @brief Method ConvertToGpu, addr 0x4a66f10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ConvertToGpu, addr 0x6ba35c8, size 0x60, virtual false, abstract: false, final false
   inline float_t ConvertToGpu();
 
-  /// @brief Method Equals, addr 0x4a66f6c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6ba3628, size 0xb0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4a67014, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6ba36d8, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x4a66ef8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba35b0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index);
 
   static inline ::UnityEngine::UIElements::TextureId getStaticF_invalid();
 
-  /// @brief Method get_index, addr 0x4a66f04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_index, addr 0x6ba35bc, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_index();
 
-  /// @brief Method op_Equality, addr 0x4a6701c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6ba36e0, size 0xc, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right);
 
-  /// @brief Method op_Inequality, addr 0x4a67028, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x6ba36ec, size 0x68, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::TextureId left, ::UnityEngine::UIElements::TextureId right);
 
   static inline void setStaticF_invalid(::UnityEngine::UIElements::TextureId value);
@@ -61,7 +61,7 @@ public:
   constexpr TextureId(int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6042 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4682 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

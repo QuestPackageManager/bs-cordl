@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -107,7 +106,7 @@ public:
   static ::System::Net::WebCompletionSource_1_Status<T> const Running;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11604 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -201,7 +200,7 @@ public:
   WebCompletionSource_1_Result(WebCompletionSource_1_Result const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11605 };
 
   /// @brief Field <Status>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Net::WebCompletionSource_1_Status<T> ____Status_k__BackingField;
@@ -216,8 +215,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Net
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace System::Net {
 // cpp template
 template <typename T>
@@ -251,7 +249,7 @@ public:
       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Net::WebCompletionSource_1_Result<T>*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11606 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -357,7 +355,7 @@ public:
   WebCompletionSource_1(WebCompletionSource_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11607 };
 
   /// @brief Field completion, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<::System::Net::WebCompletionSource_1_Result<T>*>* ___completion;

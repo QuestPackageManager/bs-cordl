@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/BaseMeshEffect.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
-#include "UnityEngine/UI/zzzz__IMeshModifier_impl.hpp"
 #include "UnityEngine/UI/zzzz__BaseMeshEffect_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/UI/zzzz__IMeshModifier_def.hpp"
 #include "UnityEngine/UI/zzzz__VertexHelper_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::BaseMeshEffect.get_graphic
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::UnityEngine::UI::BaseMeshEffect::*)()>(
     &::UnityEngine::UI::BaseMeshEffect::get_graphic)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4ad291c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6bdf0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::BaseMeshEffect*>::get(), "get_graphic",
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnEnable)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4ad29b0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6bdf170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnDisable)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4ad2a58;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6bdf210;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::OnDidApplyAnimationProperties)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4ad2af4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6bdf2b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,8 +66,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)(::UnityEngine::Mesh*)>(&::UnityEngine::UI::BaseMeshEffect::ModifyMesh)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4ad2b90;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6bdf350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::BaseMeshEffect::*)()>(&::UnityEngine::UI::BaseMeshEffect::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ad2d40;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6bdf4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::BaseMeshEffect*>::get(), ".ctor",

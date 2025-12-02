@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/Gcm/Tables8kGcmMultiplier.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmMultiplier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__Tables8kGcmMultiplier_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmMultiplier_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::Init)> {
-  constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x239e5e0;
+  constexpr static std::size_t size = 0x6b8;
+  constexpr static std::size_t addrs = 0x32cc34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::MultiplyH)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x239eccc;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x32cca04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::*)()>(
     &::Org::BouncyCastle::Crypto::Modes::Gcm::Tables8kGcmMultiplier::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x239eeb0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32ccbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

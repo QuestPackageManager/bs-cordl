@@ -24,7 +24,7 @@ namespace System::Threading::Tasks {
 class CORDL_TYPE TaskAwaiters : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ForceAsync, addr 0x3e600a4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ForceAsync, addr 0x5aa5a28, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::ForceAsyncAwaiter ForceAsync(::System::Threading::Tasks::Task* task);
 
 protected:
@@ -42,7 +42,7 @@ public:
   TaskAwaiters(TaskAwaiters const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

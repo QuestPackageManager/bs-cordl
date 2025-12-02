@@ -59,7 +59,7 @@ public:
   static ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15888 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18883 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -84,7 +84,7 @@ public:
   // Declarations
   using UseEditMode = ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode;
 
-  /// @brief Field <useEditMode>k__BackingField, offset 0x10, size 0x4
+  /// @brief Field <useEditMode>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__useEditMode_k__BackingField,
                       put = __cordl_internal_set__useEditMode_k__BackingField)) ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode _useEditMode_k__BackingField;
 
@@ -98,10 +98,10 @@ public:
 
   constexpr void __cordl_internal_set__useEditMode_k__BackingField(::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode value);
 
-  /// @brief Method .ctor, addr 0x482a944, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67ab388, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode useEditMode);
 
-  /// @brief Method get_useEditMode, addr 0x482a93c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useEditMode, addr 0x67ab380, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode get_useEditMode();
 
 protected:
@@ -119,17 +119,17 @@ public:
   TimeFieldAttribute(TimeFieldAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18884 };
 
-  /// @brief Field <useEditMode>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field <useEditMode>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode ____useEditMode_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Timeline::TimeFieldAttribute, ____useEditMode_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Timeline::TimeFieldAttribute, ____useEditMode_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TimeFieldAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TimeFieldAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimeFieldAttribute_UseEditMode, "UnityEngine.Timeline", "TimeFieldAttribute/UseEditMode");

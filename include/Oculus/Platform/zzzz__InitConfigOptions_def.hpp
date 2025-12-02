@@ -24,6 +24,7 @@ public:
   /// @brief Nested struct __InitConfigOptions_Unwrapped
   enum struct __InitConfigOptions_Unwrapped : uint32_t {
     __E_DisableP2pNetworking = static_cast<uint32_t>(0x1cde5ddeu),
+    __E_EnableCowatching = static_cast<uint32_t>(0x7dd1c46eu),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -46,8 +47,11 @@ public:
   /// @brief Field DisableP2pNetworking value: U32(484335070)
   static ::Oculus::Platform::InitConfigOptions const DisableP2pNetworking;
 
+  /// @brief Field EnableCowatching value: U32(2110899310)
+  static ::Oculus::Platform::InitConfigOptions const EnableCowatching;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15338 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17794 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

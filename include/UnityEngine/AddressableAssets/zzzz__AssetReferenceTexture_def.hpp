@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::UnityEngine::AddressableAssets::AssetReferenceTexture* New_ctor(::StringW guid);
 
-  /// @brief Method .ctor, addr 0x44f1fe0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6241fc0, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW guid);
 
 protected:
@@ -42,7 +42,7 @@ public:
   AssetReferenceTexture(AssetReferenceTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19511 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

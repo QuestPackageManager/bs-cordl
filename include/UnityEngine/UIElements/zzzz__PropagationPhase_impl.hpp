@@ -9,7 +9,7 @@ constexpr ::UnityEngine::UIElements::PropagationPhase::PropagationPhase(int32_t 
 constexpr ::UnityEngine::UIElements::PropagationPhase::PropagationPhase() {}
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::TrickleDown{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::AtTarget{ static_cast<int32_t>(0x2) };
-constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::DefaultActionAtTarget{ static_cast<int32_t>(0x5) };
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::BubbleUp{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::AtTarget{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::DefaultAction{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::UIElements::PropagationPhase UnityEngine::UIElements::PropagationPhase::DefaultActionAtTarget{ static_cast<int32_t>(0x5) };

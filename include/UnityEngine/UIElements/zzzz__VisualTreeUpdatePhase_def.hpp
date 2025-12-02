@@ -23,8 +23,8 @@ public:
 
   /// @brief Nested struct __VisualTreeUpdatePhase_Unwrapped
   enum struct __VisualTreeUpdatePhase_Unwrapped : int32_t {
-    __E_ViewData = static_cast<int32_t>(0x0),
-    __E_Bindings = static_cast<int32_t>(0x1),
+    __E_Bindings = static_cast<int32_t>(0x0),
+    __E_DataBinding = static_cast<int32_t>(0x1),
     __E_Animation = static_cast<int32_t>(0x2),
     __E_Styles = static_cast<int32_t>(0x3),
     __E_Layout = static_cast<int32_t>(0x4),
@@ -53,11 +53,14 @@ public:
   /// @brief Field Animation value: I32(2)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Animation;
 
-  /// @brief Field Bindings value: I32(1)
+  /// @brief Field Bindings value: I32(0)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Bindings;
 
   /// @brief Field Count value: I32(7)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Count;
+
+  /// @brief Field DataBinding value: I32(1)
+  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const DataBinding;
 
   /// @brief Field Layout value: I32(4)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const Layout;
@@ -71,11 +74,8 @@ public:
   /// @brief Field TransformClip value: I32(5)
   static ::UnityEngine::UIElements::VisualTreeUpdatePhase const TransformClip;
 
-  /// @brief Field ViewData value: I32(0)
-  static ::UnityEngine::UIElements::VisualTreeUpdatePhase const ViewData;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5262 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

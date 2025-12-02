@@ -21,8 +21,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext___c::*)()>(&::Zenject::SceneContext___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b2af4c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c3f390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext___c*>::get(), ".ctor",
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (
     ::Zenject::SceneContext___c::*)(::UnityEngine::SceneManagement::Scene)>(&::Zenject::SceneContext___c::_GetParentContainers_b__49_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b2af54;
+  constexpr static std::size_t addrs = 0x6c3f394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneContext>>* (
     ::Zenject::SceneContext___c::*)(::UnityEngine::GameObject*)>(&::Zenject::SceneContext___c::_GetParentContainers_b__49_1)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4b2af70;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6c3f3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SceneContext___c::*)(::Zenject::SceneContext*)>(
     &::Zenject::SceneContext___c::_GetParentContainers_b__49_3)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4b2afc0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c3f404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (
     ::Zenject::SceneContext___c::*)(::UnityEngine::SceneManagement::Scene)>(&::Zenject::SceneContext___c::_LookupDecoratorContexts_b__50_0)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b2afe4;
+  constexpr static std::size_t addrs = 0x6c3f424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::Zenject::SceneDecoratorContext>>* (
     ::Zenject::SceneContext___c::*)(::UnityEngine::GameObject*)>(&::Zenject::SceneContext___c::_LookupDecoratorContexts_b__50_1)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4b2b000;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6c3f440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SceneContext___c::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b2b050;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c3f494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,8 +124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContext___c::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b2b0a4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c3f4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext___c*>::get(), "__zenCreateInjectTypeInfo",
@@ -245,8 +245,8 @@ constexpr ::Zenject::SceneContext___c::SceneContext___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext___c__DisplayClass49_0::*)()>(&::Zenject::SceneContext___c__DisplayClass49_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b29e0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c3e37c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext___c__DisplayClass49_0*>::get(), ".ctor",
@@ -259,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext___c__DisplayClass49_0::*)(::Zenject::SceneContext*)>(
     &::Zenject::SceneContext___c__DisplayClass49_0::_GetParentContainers_b__2)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4b2b25c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6c3f66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,8 +274,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext___c__DisplayClass49_0::*)(::StringW)>(
     &::Zenject::SceneContext___c__DisplayClass49_0::_GetParentContainers_b__4)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4b2b32c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6c3f74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,8 +289,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SceneContext___c__DisplayClass49_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b2b384;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c3f7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,8 +303,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContext___c__DisplayClass49_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b2b3d8;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c3f7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext___c__DisplayClass49_0*>::get(),
@@ -373,8 +373,8 @@ constexpr ::Zenject::SceneContext___c__DisplayClass49_0::SceneContext___c__Displ
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext___c__DisplayClass51_0::*)()>(&::Zenject::SceneContext___c__DisplayClass51_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b2a114;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c3e6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext___c__DisplayClass51_0*>::get(), ".ctor",
@@ -387,8 +387,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext___c__DisplayClass51_0::*)(::Zenject::DiContainer*)>(
     &::Zenject::SceneContext___c__DisplayClass51_0::_Install_b__0)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4b2b590;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6c3f980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -402,8 +402,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SceneContext___c__DisplayClass51_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b2b608;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c3fa04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -416,8 +416,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContext___c__DisplayClass51_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b2b65c;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c3fa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext___c__DisplayClass51_0*>::get(),
@@ -468,8 +468,8 @@ constexpr ::Zenject::SceneContext___c__DisplayClass51_0::SceneContext___c__Displ
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::add_PreInstall)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28a60;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3cf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -482,8 +482,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::remove_PreInstall)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28afc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3cfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -496,8 +496,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::add_PostInstall)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28b98;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3d078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -510,8 +510,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::remove_PostInstall)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28c34;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3d124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -524,8 +524,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::add_PreResolve)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28cd0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3d1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -538,8 +538,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::remove_PreResolve)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28d6c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3d27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -552,8 +552,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::add_PostResolve)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28e08;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3d328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -566,8 +566,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Action*)>(&::Zenject::SceneContext::remove_PostResolve)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b28ea4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6c3d3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,7 +581,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b28f40;
+  constexpr static std::size_t addrs = 0x6c3d480;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -595,7 +595,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::get_HasResolved)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b28f48;
+  constexpr static std::size_t addrs = 0x6c3d488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "get_HasResolved",
@@ -608,7 +608,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::get_HasInstalled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b28f50;
+  constexpr static std::size_t addrs = 0x6c3d490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "get_HasInstalled",
@@ -621,7 +621,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::get_IsValidating)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b28f58;
+  constexpr static std::size_t addrs = 0x6c3d498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "get_IsValidating",
@@ -635,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::Zenject::SceneContext::*)()>(
     &::Zenject::SceneContext::get_ContractNames)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b28f84;
+  constexpr static std::size_t addrs = 0x6c3d4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "get_ContractNames",
@@ -648,8 +648,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::Zenject::SceneContext::set_ContractNames)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4b28f8c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6c3d4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -663,8 +663,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::Zenject::SceneContext::*)()>(
     &::Zenject::SceneContext::get_ParentContractNames)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4b2901c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6c3d588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "get_ParentContractNames",
@@ -677,8 +677,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
     &::Zenject::SceneContext::set_ParentContractNames)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b290bc;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6c3d63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -692,7 +692,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::get_ParentNewObjectsUnderSceneContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b29118;
+  constexpr static std::size_t addrs = 0x6c3d69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -705,8 +705,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(bool)>(&::Zenject::SceneContext::set_ParentNewObjectsUnderSceneContext)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4b29120;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c3d6a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -720,7 +720,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b2912c;
+  constexpr static std::size_t addrs = 0x6c3d6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "Awake",
@@ -733,7 +733,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::Validate)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b29130;
+  constexpr static std::size_t addrs = 0x6c3d6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "Validate",
@@ -746,7 +746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::RunInternal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b297e8;
+  constexpr static std::size_t addrs = 0x6c3dd24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -761,7 +761,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>* (::Zenject::SceneContext::*)()>(
     &::Zenject::SceneContext::GetRootGameObjects)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b29810;
+  constexpr static std::size_t addrs = 0x6c3dd4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -775,8 +775,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Zenject::DiContainer*>* (::Zenject::SceneContext::*)()>(
     &::Zenject::SceneContext::GetParentContainers)> {
-  constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x4b2983c;
+  constexpr static std::size_t size = 0x604;
+  constexpr static std::size_t addrs = 0x6c3dd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "GetParentContainers",
@@ -789,8 +789,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::Zenject::SceneDecoratorContext>>* (::Zenject::SceneContext::*)()>(
     &::Zenject::SceneContext::LookupDecoratorContexts)> {
-  constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x4b29e14;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x6c3e380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "LookupDecoratorContexts",
@@ -802,8 +802,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::Install)> {
-  constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x4b2915c;
+  constexpr static std::size_t size = 0x5ac;
+  constexpr static std::size_t addrs = 0x6c3d6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "Install",
@@ -816,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::Resolve)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b2974c;
+  constexpr static std::size_t addrs = 0x6c3dc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "Resolve",
@@ -829,8 +829,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::Zenject::SceneContext::InstallBindings)> {
-  constexpr static std::size_t size = 0x704;
-  constexpr static std::size_t addrs = 0x4b2a2d0;
+  constexpr static std::size_t size = 0x5f0;
+  constexpr static std::size_t addrs = 0x6c3e830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -845,7 +845,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::Zenject::SceneContext::GetInjectableMonoBehaviours)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4b2ab28;
+  constexpr static std::size_t addrs = 0x6c3ef78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -858,8 +858,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::Zenject::SceneContext> (*)()>(&::Zenject::SceneContext::Create)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4b2ab74;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6c3efc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "Create",
@@ -871,8 +871,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SceneContext::*)()>(&::Zenject::SceneContext::_ctor)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4b2ac24;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6c3f07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), ".ctor",
@@ -885,8 +885,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SceneContext::*)(::Zenject::SceneDecoratorContext*)>(
     &::Zenject::SceneContext::_LookupDecoratorContexts_b__50_2)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b2ad28;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6c3f18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -899,8 +899,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::SceneContext::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4b2ad84;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6c3f1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SceneContext*>::get(), "__zenCreateInjectTypeInfo",

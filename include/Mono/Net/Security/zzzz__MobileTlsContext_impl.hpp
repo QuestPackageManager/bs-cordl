@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Mono/Net/Security/MobileTlsContext.hpp"
 #include "System/Security/Authentication/zzzz__SslProtocols_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsContext_def.hpp"
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
@@ -12,14 +11,15 @@
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509CertificateCollection_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Certificate_def.hpp"
 #include "System/Security/Cryptography/X509Certificates/zzzz__X509Chain_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 //  Writing Method size for method: ::Mono::Net::Security::MobileTlsContext._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(
     ::Mono::Net::Security::MobileAuthenticatedStream*, ::Mono::Net::Security::MonoSslAuthenticationOptions*)>(&::Mono::Net::Security::MobileTlsContext::_ctor)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x410cca0;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5db6b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411668c;
+  constexpr static std::size_t addrs = 0x5dc0598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(), "get_Parent",
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_Settings)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x410d650;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5db73e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(), "get_Settings",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_IsServer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4116694;
+  constexpr static std::size_t addrs = 0x5dc05a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(), "get_IsServer",
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_TargetHost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411669c;
+  constexpr static std::size_t addrs = 0x5dc05a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(),
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_ServerName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41166a4;
+  constexpr static std::size_t addrs = 0x5dc05b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_AskForClientCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41166ac;
+  constexpr static std::size_t addrs = 0x5dc05b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (
     ::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::get_ClientCertificates)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41166b4;
+  constexpr static std::size_t addrs = 0x5dc05c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(),
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (::Mono::Net::Security::MobileTlsContext::*)()>(
     &::Mono::Net::Security::MobileTlsContext::get_LocalServerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41166bc;
+  constexpr static std::size_t addrs = 0x5dc05c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(),
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&::Mono::Net::Security::MobileTlsContext::set_LocalServerCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41166c4;
+  constexpr static std::size_t addrs = 0x5dc05d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,7 +305,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::X509Certificate2*, ::System::Security::Cryptography::X509Certificates::X509Chain*)>(
     &::Mono::Net::Security::MobileTlsContext::ValidateCertificate)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x410d9d0;
+  constexpr static std::size_t addrs = 0x5db7740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,8 +320,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
     ::Mono::Net::Security::MobileTlsContext::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(&::Mono::Net::Security::MobileTlsContext::SelectClientCertificate)> {
-  constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x410eb18;
+  constexpr static std::size_t size = 0x5b4;
+  constexpr static std::size_t addrs = 0x5db86f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Dispose)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x41146e4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5dbe450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MobileTlsContext*>::get(), "Dispose",
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)(bool)>(&::Mono::Net::Security::MobileTlsContext::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41166cc;
+  constexpr static std::size_t addrs = 0x5dc05d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -375,8 +375,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MobileTlsContext::*)()>(&::Mono::Net::Security::MobileTlsContext::Finalize)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x41166d0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5dc05dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(
     &::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ed8c54;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5b20020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Serialization::JsonContract* (
     ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)(::System::Type*)>(&::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::ResolveContract)> {
-  constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x3ed8de8;
+  constexpr static std::size_t size = 0x358;
+  constexpr static std::size_t addrs = 0x5b201a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::DefaultJsonNameTable* (
     ::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::*)()>(&::Newtonsoft::Json::Serialization::CamelCasePropertyNamesContractResolver::GetNameTable)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ed910c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b204fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

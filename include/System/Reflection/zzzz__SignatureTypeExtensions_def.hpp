@@ -31,31 +31,31 @@ namespace System::Reflection {
 class CORDL_TYPE SignatureTypeExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method MatchesExactly, addr 0x3d27948, size 0x3a8, virtual false, abstract: false, final false
+  /// @brief Method MatchesExactly, addr 0x596c9cc, size 0x39c, virtual false, abstract: false, final false
   static inline bool MatchesExactly(::System::Reflection::SignatureType* pattern, ::System::Type* actual);
 
-  /// @brief Method MatchesParameterTypeExactly, addr 0x3d27894, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method MatchesParameterTypeExactly, addr 0x596c900, size 0xcc, virtual false, abstract: false, final false
   static inline bool MatchesParameterTypeExactly(::System::Type* pattern, ::System::Reflection::ParameterInfo* parameter);
 
-  /// @brief Method TryMakeArrayType, addr 0x3d280ec, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeArrayType, addr 0x596d154, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeArrayType(::System::Type* type);
 
-  /// @brief Method TryMakeArrayType, addr 0x3d28188, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeArrayType, addr 0x596d1ec, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeArrayType(::System::Type* type, int32_t rank);
 
-  /// @brief Method TryMakeByRefType, addr 0x3d28224, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeByRefType, addr 0x596d284, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeByRefType(::System::Type* type);
 
-  /// @brief Method TryMakeGenericType, addr 0x3d2835c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakeGenericType, addr 0x596d3b4, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakeGenericType(::System::Type* type, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> instantiation);
 
-  /// @brief Method TryMakePointerType, addr 0x3d282c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method TryMakePointerType, addr 0x596d31c, size 0x98, virtual false, abstract: false, final false
   static inline ::System::Type* TryMakePointerType(::System::Type* type);
 
-  /// @brief Method TryResolve, addr 0x3d27d28, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method TryResolve, addr 0x596cda0, size 0x3b4, virtual false, abstract: false, final false
   static inline ::System::Type* TryResolve(::System::Reflection::SignatureType* signatureType, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> genericMethodParameters);
 
-  /// @brief Method TryResolveAgainstGenericMethod, addr 0x3d27cf0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TryResolveAgainstGenericMethod, addr 0x596cd68, size 0x38, virtual false, abstract: false, final false
   static inline ::System::Type* TryResolveAgainstGenericMethod(::System::Reflection::SignatureType* signatureType, ::System::Reflection::MethodInfo* genericMethod);
 
 protected:
@@ -73,7 +73,7 @@ public:
   SignatureTypeExtensions(SignatureTypeExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3498 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

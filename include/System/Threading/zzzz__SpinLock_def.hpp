@@ -42,7 +42,7 @@ public:
   SpinLock_SystemThreading_SpinLockDebugView(SpinLock_SystemThreading_SpinLockDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2703 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2712 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -66,36 +66,39 @@ public:
   /// @brief Field MAXIMUM_WAITERS, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_MAXIMUM_WAITERS, put = setStaticF_MAXIMUM_WAITERS)) int32_t MAXIMUM_WAITERS;
 
-  /// @brief Method ContinueTryEnter, addr 0x3e536fc, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method ContinueTryEnter, addr 0x5a98b6c, size 0x448, virtual false, abstract: false, final false
   inline void ContinueTryEnter(int32_t millisecondsTimeout, ::ByRef<bool> lockTaken);
 
-  /// @brief Method ContinueTryEnterWithThreadTracking, addr 0x3e53d0c, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method ContinueTryEnterWithThreadTracking, addr 0x5a990e4, size 0x164, virtual false, abstract: false, final false
   inline void ContinueTryEnterWithThreadTracking(int32_t millisecondsTimeout, uint32_t startTime, ::ByRef<bool> lockTaken);
 
-  /// @brief Method DecrementWaiters, addr 0x3e53e74, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method DecrementWaiters, addr 0x5a99248, size 0xa8, virtual false, abstract: false, final false
   inline void DecrementWaiters();
 
-  /// @brief Method Enter, addr 0x3e535f8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Enter, addr 0x5a98a60, size 0xc8, virtual false, abstract: false, final false
   inline void Enter(::ByRef<bool> lockTaken);
 
-  /// @brief Method Exit, addr 0x3e54044, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Exit, addr 0x5a99434, size 0x84, virtual false, abstract: false, final false
+  inline void Exit();
+
+  /// @brief Method Exit, addr 0x5a995c0, size 0x90, virtual false, abstract: false, final false
   inline void Exit(bool useMemoryBarrier);
 
-  /// @brief Method ExitSlowPath, addr 0x3e540cc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ExitSlowPath, addr 0x5a994b8, size 0x108, virtual false, abstract: false, final false
   inline void ExitSlowPath(bool useMemoryBarrier);
 
-  /// @brief Method TryEnter, addr 0x3e53bd0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method TryEnter, addr 0x5a98fb4, size 0xd8, virtual false, abstract: false, final false
   inline void TryEnter(int32_t millisecondsTimeout, ::ByRef<bool> lockTaken);
 
-  /// @brief Method .ctor, addr 0x3e535c0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a98a44, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool enableThreadOwnerTracking);
 
   static inline int32_t getStaticF_MAXIMUM_WAITERS();
 
-  /// @brief Method get_IsHeldByCurrentThread, addr 0x3e541dc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_IsHeldByCurrentThread, addr 0x5a99650, size 0xcc, virtual false, abstract: false, final false
   inline bool get_IsHeldByCurrentThread();
 
-  /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x3e53cf0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsThreadOwnerTrackingEnabled, addr 0x5a990d0, size 0x14, virtual false, abstract: false, final false
   inline bool get_IsThreadOwnerTrackingEnabled();
 
   static inline void setStaticF_MAXIMUM_WAITERS(int32_t value);
@@ -108,7 +111,7 @@ public:
   constexpr SpinLock(int32_t m_owner) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2713 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

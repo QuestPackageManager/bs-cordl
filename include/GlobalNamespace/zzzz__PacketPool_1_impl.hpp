@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PacketPool_1.hpp"
-#include "GlobalNamespace/zzzz__IPacketPool_1_impl.hpp"
-#include "GlobalNamespace/zzzz__IPacketPool_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 #include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentBag_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Concurrent::ConcurrentBag_1<T>*& GlobalNamespace::PacketPool_1<T>::__cordl_internal_get__bag() {

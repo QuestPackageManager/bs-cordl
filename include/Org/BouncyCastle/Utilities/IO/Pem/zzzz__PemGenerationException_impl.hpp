@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::*)()>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25d9ce8;
+  constexpr static std::size_t addrs = 0x35093d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::*)(::StringW)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25d9d40;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3509430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::*)(::StringW, ::System::Exception*)>(
     &::Org::BouncyCastle::Utilities::IO::Pem::PemGenerationException::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25d9da8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x350949c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

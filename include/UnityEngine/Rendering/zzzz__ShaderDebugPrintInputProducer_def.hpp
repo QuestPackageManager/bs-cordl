@@ -1,0 +1,51 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/ShaderDebugPrintInputProducer.hpp"
+#include "beatsaber-hook/shared/utils/typedefs.h"
+#include "../../cordl_internals/cordl_internals.hpp"
+CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
+CORDL_MODULE_EXPORT(ShaderDebugPrintInputProducer)
+namespace UnityEngine::Rendering {
+struct ShaderDebugPrintInput;
+}
+// Forward declare root types
+namespace UnityEngine::Rendering {
+class ShaderDebugPrintInputProducer;
+}
+// Write type traits
+MARK_REF_PTR_T(::UnityEngine::Rendering::ShaderDebugPrintInputProducer);
+// Dependencies System.Object
+namespace UnityEngine::Rendering {
+// Is value type: false
+// CS Name: UnityEngine.Rendering.ShaderDebugPrintInputProducer
+class CORDL_TYPE ShaderDebugPrintInputProducer : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Method Get, addr 0x6550fc0, size 0x17c, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Rendering::ShaderDebugPrintInput Get();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr ShaderDebugPrintInputProducer();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintInputProducer", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "ShaderDebugPrintInputProducer", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  ShaderDebugPrintInputProducer(ShaderDebugPrintInputProducer const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12029 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::ShaderDebugPrintInputProducer, 0x10>, "Size mismatch!");
+
+} // namespace UnityEngine::Rendering
+NEED_NO_BOX(::UnityEngine::Rendering::ShaderDebugPrintInputProducer);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::ShaderDebugPrintInputProducer*, "UnityEngine.Rendering", "ShaderDebugPrintInputProducer");

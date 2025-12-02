@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__assemblyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d1ad08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595c53c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW assemblyName);
 
-  /// @brief Method set_AllInternalsVisible, addr 0x3d1ad38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_AllInternalsVisible, addr 0x595c54c, size 0x8, virtual false, abstract: false, final false
   inline void set_AllInternalsVisible(bool value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   InternalsVisibleToAttribute(InternalsVisibleToAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3414 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3431 };
 
   /// @brief Field _assemblyName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____assemblyName;

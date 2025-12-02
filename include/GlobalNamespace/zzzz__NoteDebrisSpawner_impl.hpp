@@ -1,22 +1,22 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoteDebrisSpawner.hpp"
-#include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteDebrisSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__ColorType_def.hpp"
 #include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
+#include "GlobalNamespace/zzzz__INoteDebrisDidFinishEvent_def.hpp"
+#include "GlobalNamespace/zzzz__IRandom_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteDebris_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
-#include "System/zzzz__Random_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoteDebrisSpawner.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSpawner::*)()>(&::GlobalNamespace::NoteDebrisSpawner::Start)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b8ad04;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x577742c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisSpawner*>::get(), "Start",
@@ -30,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSpawner::*)(
     ::GlobalNamespace::NoteData_GameplayType, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion,
     ::UnityEngine::Vector3, ::GlobalNamespace::ColorType, float_t, ::UnityEngine::Vector3)>(&::GlobalNamespace::NoteDebrisSpawner::SpawnDebris)> {
-  constexpr static std::size_t size = 0x8dc;
-  constexpr static std::size_t addrs = 0x3b8a0fc;
+  constexpr static std::size_t size = 0x8d8;
+  constexpr static std::size_t addrs = 0x57767e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSpawner::*)(::GlobalNamespace::NoteDebris*)>(
     &::GlobalNamespace::NoteDebrisSpawner::HandleNoteDebrisDidFinish)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b8aedc;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5777698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSpawner::*)(
     ::GlobalNamespace::NoteData_GameplayType, ::ByRef<::GlobalNamespace::NoteDebris*>, ::ByRef<::GlobalNamespace::NoteDebris*>)>(&::GlobalNamespace::NoteDebrisSpawner::SpawnNoteDebris)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b8add0;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5777554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSpawner::*)(::GlobalNamespace::NoteDebris*)>(
     &::GlobalNamespace::NoteDebrisSpawner::DespawnNoteDebris)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b8af98;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5777760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSpawner::*)()>(&::GlobalNamespace::NoteDebrisSpawner::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b8b03c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5777818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisSpawner*>::get(), ".ctor",
@@ -190,15 +190,15 @@ constexpr void GlobalNamespace::NoteDebrisSpawner::__cordl_internal_set__burstSl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____burstSliderElementNotesDebrisPool)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Random*& GlobalNamespace::NoteDebrisSpawner::__cordl_internal_get__random() {
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::NoteDebrisSpawner::__cordl_internal_get__random() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr ::System::Random* const& GlobalNamespace::NoteDebrisSpawner::__cordl_internal_get__random() const {
+constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::NoteDebrisSpawner::__cordl_internal_get__random() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____random;
 }
-constexpr void GlobalNamespace::NoteDebrisSpawner::__cordl_internal_set__random(::System::Random* value) {
+constexpr void GlobalNamespace::NoteDebrisSpawner::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

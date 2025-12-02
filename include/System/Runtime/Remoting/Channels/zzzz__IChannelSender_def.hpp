@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Channels/zzzz__IChannel_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IChannelSender)
+namespace System::Runtime::Remoting::Channels {
+class IChannel;
+}
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
 }
@@ -18,7 +20,7 @@ class IChannelSender;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Channels::IChannelSender);
-// Dependencies System.Runtime.Remoting.Channels.IChannel
+// Dependencies
 namespace System::Runtime::Remoting::Channels {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Channels.IChannelSender
@@ -39,7 +41,7 @@ public:
   IChannelSender(IChannelSender const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3140 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

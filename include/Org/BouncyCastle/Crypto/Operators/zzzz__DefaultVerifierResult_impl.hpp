@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/DefaultVerifierResult.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifier_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__DefaultVerifierResult_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IVerifier_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23b6e0c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32e5088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::IsVerified)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23b6e34;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x32e5090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult::IsVerified)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x23b6ee0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x32e5148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

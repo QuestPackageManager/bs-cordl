@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredTaskAwaitable)
 namespace System::Runtime::CompilerServices {
 struct ConfiguredTaskAwaitable_ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -26,7 +30,7 @@ struct ConfiguredTaskAwaitable_ConfiguredTaskAwaiter;
 // Write type traits
 MARK_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable);
 MARK_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter);
-// Dependencies System.Runtime.CompilerServices.ICriticalNotifyCompletion, System.Runtime.CompilerServices.INotifyCompletion
+// Dependencies
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: System.Runtime.CompilerServices.ConfiguredTaskAwaitable/ConfiguredTaskAwaiter
@@ -41,19 +45,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x3d19974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x595ae40, size 0x8, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x3d184c0, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x5959830, size 0x14, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x3d18680, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x59599e4, size 0x14, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x3d1993c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595ae10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
 
-  /// @brief Method get_IsCompleted, addr 0x3d19958, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x595ae28, size 0x18, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -71,7 +75,7 @@ public:
   constexpr ConfiguredTaskAwaitable_ConfiguredTaskAwaiter(::System::Threading::Tasks::Task* m_task, bool m_continueOnCapturedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3410 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -101,10 +105,10 @@ public:
   // Declarations
   using ConfiguredTaskAwaiter = ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter;
 
-  /// @brief Method GetAwaiter, addr 0x3d1994c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x595ae1c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter GetAwaiter();
 
-  /// @brief Method .ctor, addr 0x3d19924, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595adfc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task, bool continueOnCapturedContext);
 
   // Ctor Parameters []
@@ -115,7 +119,7 @@ public:
   constexpr ConfiguredTaskAwaitable(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter m_configuredTaskAwaiter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3411 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

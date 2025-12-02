@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(OculusRichPresencePlatformHandler)
 namespace GlobalNamespace {
 class IRichPresenceData;
+}
+namespace GlobalNamespace {
+class IRichPresencePlatformHandler;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -15,7 +17,7 @@ class OculusRichPresencePlatformHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusRichPresencePlatformHandler);
-// Dependencies IRichPresencePlatformHandler, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OculusRichPresencePlatformHandler
@@ -25,15 +27,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
   constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
 
-  /// @brief Method Clear, addr 0x3b2caec, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Clear, addr 0x570d944, size 0xa8, virtual true, abstract: false, final true
   inline void Clear();
 
   static inline ::GlobalNamespace::OculusRichPresencePlatformHandler* New_ctor();
 
-  /// @brief Method SetPresence, addr 0x3b2c7e4, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method SetPresence, addr 0x570d610, size 0x334, virtual true, abstract: false, final true
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
 
-  /// @brief Method .ctor, addr 0x3b2cb88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570d9ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
@@ -54,7 +56,7 @@ public:
   OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5156 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6730 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,13 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/EventDescriptorCollection.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Collections/zzzz__IList_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptorCollection_def.hpp"
 #include "System/ComponentModel/zzzz__EventDescriptor_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -17,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4452ec8;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x61a3c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)()>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4453434;
+  constexpr static std::size_t addrs = 0x61a4224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)()>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4453458;
+  constexpr static std::size_t addrs = 0x61a4248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::*)()>(
     &::System::ComponentModel::EventDescriptorCollection_ArraySubsetEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4453464;
+  constexpr static std::size_t addrs = 0x61a4254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(
     ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*>)>(&::System::ComponentModel::EventDescriptorCollection::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x44523bc;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x61a318c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(
     ::ArrayW<::System::ComponentModel::EventDescriptor*, ::Array<::System::ComponentModel::EventDescriptor*>*>, bool)>(&::System::ComponentModel::EventDescriptorCollection::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x445247c;
+  constexpr static std::size_t addrs = 0x61a3254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44524a0;
+  constexpr static std::size_t addrs = 0x61a3278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EventDescriptorCollection*>::get(),
@@ -199,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44524a8;
+  constexpr static std::size_t addrs = 0x61a3280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -214,7 +213,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::get_Item)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x44524b0;
+  constexpr static std::size_t addrs = 0x61a3288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::EventDescriptorCollection::*)(::StringW)>(
     &::System::ComponentModel::EventDescriptorCollection::get_Item)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x44525e0;
+  constexpr static std::size_t addrs = 0x61a33bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Add)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x44525f4;
+  constexpr static std::size_t addrs = 0x61a33d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -260,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::Clear)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x44527bc;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x61a3598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EventDescriptorCollection*>::get(),
@@ -275,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Contains)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4452808;
+  constexpr static std::size_t addrs = 0x61a35e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -290,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::Array*, int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4452880;
+  constexpr static std::size_t addrs = 0x61a365c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,8 +304,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::EnsureEventsOwned)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4452534;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x61a330c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EventDescriptorCollection*>::get(),
@@ -320,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::EnsureSize)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44526bc;
+  constexpr static std::size_t addrs = 0x61a3498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,8 +333,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::EventDescriptor* (::System::ComponentModel::EventDescriptorCollection::*)(::StringW, bool)>(
     &::System::ComponentModel::EventDescriptorCollection::Find)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4452b24;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x61a3904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,8 +349,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::IndexOf)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4452820;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x61a35f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,7 +365,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t, ::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Insert)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4452c38;
+  constexpr static std::size_t addrs = 0x61a3a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -382,7 +381,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::ComponentModel::EventDescriptor*)>(
     &::System::ComponentModel::EventDescriptorCollection::Remove)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4452d20;
+  constexpr static std::size_t addrs = 0x61a3af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -397,7 +396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::RemoveAt)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4452d88;
+  constexpr static std::size_t addrs = 0x61a3b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -411,8 +410,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::GetEnumerator)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4452e34;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x61a3c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EventDescriptorCollection*>::get(),
@@ -425,8 +424,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::ComponentModel::EventDescriptorCollection::InternalSort)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x44528bc;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x61a3698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -440,8 +439,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::Collections::IComparer*)>(
     &::System::ComponentModel::EventDescriptorCollection::InternalSort)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4452efc;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x61a3ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -456,7 +455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4452f74;
+  constexpr static std::size_t addrs = 0x61a3d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -471,7 +470,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4452f7c;
+  constexpr static std::size_t addrs = 0x61a3d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -486,7 +485,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_ICollection_get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4452f84;
+  constexpr static std::size_t addrs = 0x61a3d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -501,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4452f8c;
+  constexpr static std::size_t addrs = 0x61a3d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -516,7 +515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_get_Item)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4452f90;
+  constexpr static std::size_t addrs = 0x61a3d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -530,8 +529,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t, ::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_set_Item)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4452fa0;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x61a3d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -546,8 +545,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Add)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4453108;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x61a3ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -561,8 +560,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Contains)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x445318c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x61a3f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -577,7 +576,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Clear)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x445321c;
+  constexpr static std::size_t addrs = 0x61a3fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::EventDescriptorCollection*>::get(),
@@ -590,8 +589,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_IndexOf)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4453220;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x61a3ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -605,8 +604,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t, ::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Insert)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x44532a4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x61a4080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -621,8 +620,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(::System::Object*)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_Remove)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4453338;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x61a4118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -637,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::EventDescriptorCollection::*)(int32_t)>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_RemoveAt)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44533bc;
+  constexpr static std::size_t addrs = 0x61a41a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -652,7 +651,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44533c0;
+  constexpr static std::size_t addrs = 0x61a41ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -667,7 +666,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::EventDescriptorCollection::*)()>(
     &::System::ComponentModel::EventDescriptorCollection::System_Collections_IList_get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44533c8;
+  constexpr static std::size_t addrs = 0x61a41b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

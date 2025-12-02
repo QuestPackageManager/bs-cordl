@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/ICollection.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Collections::ICollection.CopyTo

@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherCertID* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::OtherCertID::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x231df7c;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x324add8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::OtherCertID::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::OtherCertID::_ctor)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x2322094;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x324ee84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::OtherCertID::*)(::Org::BouncyCastle::Asn1::Esf::OtherHash*)>(
     &::Org::BouncyCastle::Asn1::Esf::OtherCertID::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2322250;
+  constexpr static std::size_t addrs = 0x324f038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::OtherCertID::*)(
     ::Org::BouncyCastle::Asn1::Esf::OtherHash*, ::Org::BouncyCastle::Asn1::X509::IssuerSerial*)>(&::Org::BouncyCastle::Asn1::Esf::OtherCertID::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2322258;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x324f040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherHash* (::Org::BouncyCastle::Asn1::Esf::OtherCertID::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::OtherCertID::get_OtherCertHash)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23222d0;
+  constexpr static std::size_t addrs = 0x324f098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::IssuerSerial* (::Org::BouncyCastle::Asn1::Esf::OtherCertID::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::OtherCertID::get_IssuerSerial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23222d8;
+  constexpr static std::size_t addrs = 0x324f0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::OtherCertID*>::get(),
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::OtherCertID::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::OtherCertID::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x23222e0;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x324f0a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

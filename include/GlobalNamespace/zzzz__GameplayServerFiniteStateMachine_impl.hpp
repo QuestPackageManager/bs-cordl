@@ -10,23 +10,23 @@
 #include "GlobalNamespace/zzzz__GameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerFiniteStateMachine_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IServerBeatmapProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MenuRpcManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::*)(
-    ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IMultiplayerSessionManager*, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration,
+    ::BGNet::Core::ITaskUtility*, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::StringW, ::GlobalNamespace::BeatmapLevelSelectionMask, ::GlobalNamespace::GameplayServerConfiguration,
     ::GlobalNamespace::IServerBeatmapProvider*)>(&::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22cbb24;
+  constexpr static std::size_t addrs = 0x31ab8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get(),
@@ -34,14 +34,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::_ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
-                                                                                ::StringW creatorId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
+inline void GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::_ctor(::BGNet::Core::ITaskUtility* taskUtility,
+                                                                                ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
+                                                                                ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                 ::GlobalNamespace::GameplayServerConfiguration configuration,
                                                                                 ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelSelectionMask>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayServerConfiguration>::get(),
@@ -49,11 +50,12 @@ inline void GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::_ctor(
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, taskUtility, multiplayerSessionManager, creatorId, selectionMask, configuration, beatmapProvider);
 }
 // Ctor Parameters [CppParam { name: "taskUtility", ty: "::BGNet::Core::ITaskUtility*", modifiers: "", def_value: Some("{}") }, CppParam { name: "multiplayerSessionManager", ty:
-// "::GlobalNamespace::IMultiplayerSessionManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "creatorId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "selectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "configuration", ty: "::GlobalNamespace::GameplayServerConfiguration",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapProvider", ty: "::GlobalNamespace::IServerBeatmapProvider*", modifiers: "", def_value: Some("{}") }]
+// "::GlobalNamespace::IBeatSaberMultiplayerSessionManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "creatorId", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "selectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: Some("{}") }, CppParam { name: "configuration", ty:
+// "::GlobalNamespace::GameplayServerConfiguration", modifiers: "", def_value: Some("{}") }, CppParam { name: "beatmapProvider", ty: "::GlobalNamespace::IServerBeatmapProvider*", modifiers: "",
+// def_value: Some("{}") }]
 constexpr ::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams::GameplayServerFiniteStateMachine_InitParams(::BGNet::Core::ITaskUtility* taskUtility,
-                                                                                                                      ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
+                                                                                                                      ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                                                                       ::StringW creatorId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask,
                                                                                                                       ::GlobalNamespace::GameplayServerConfiguration configuration,
                                                                                                                       ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) noexcept {
@@ -72,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGNet::Core::ITaskUtility* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_taskUtility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb954;
+  constexpr static std::size_t addrs = 0x31aa4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -86,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::BGNet::Core::ITaskUtility*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_taskUtility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb95c;
+  constexpr static std::size_t addrs = 0x31aa504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,10 +100,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerFiniteStateMachine.get_multiplayerSessionManager
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IMultiplayerSessionManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IBeatSaberMultiplayerSessionManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_multiplayerSessionManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb964;
+  constexpr static std::size_t addrs = 0x31aa50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -112,15 +114,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerFiniteStateMachine.set_multiplayerSessionManager
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
-    &::GlobalNamespace::GameplayServerFiniteStateMachine::set_multiplayerSessionManager)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(
+    ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(&::GlobalNamespace::GameplayServerFiniteStateMachine::set_multiplayerSessionManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb96c;
+  constexpr static std::size_t addrs = 0x31aa514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(), "set_multiplayerSessionManager", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get() })));
     return ___internal_method;
   }
 };
@@ -130,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_ownerUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb974;
+  constexpr static std::size_t addrs = 0x31aa51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -144,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::StringW)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_ownerUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb97c;
+  constexpr static std::size_t addrs = 0x31aa524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -159,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelSelectionMask (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22cb984;
+  constexpr static std::size_t addrs = 0x31aa52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -173,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::BeatmapLevelSelectionMask)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_selectionMask)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22cb99c;
+  constexpr static std::size_t addrs = 0x31aa544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22cb9b4;
+  constexpr static std::size_t addrs = 0x31aa55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -202,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_configuration)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22cb9c8;
+  constexpr static std::size_t addrs = 0x31aa570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -217,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IServerBeatmapProvider* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_beatmapProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb9dc;
+  constexpr static std::size_t addrs = 0x31aa584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -231,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::IServerBeatmapProvider*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_beatmapProvider)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb9e4;
+  constexpr static std::size_t addrs = 0x31aa58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MenuRpcManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_menuRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb9ec;
+  constexpr static std::size_t addrs = 0x31aa594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -260,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::MenuRpcManager*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_menuRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb9f4;
+  constexpr static std::size_t addrs = 0x31aa59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayRpcManager* (::GlobalNamespace::GameplayServerFiniteStateMachine::*)()>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::get_gameplayRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb9fc;
+  constexpr static std::size_t addrs = 0x31aa5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
@@ -289,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(::GlobalNamespace::GameplayRpcManager*)>(
     &::GlobalNamespace::GameplayServerFiniteStateMachine::set_gameplayRpcManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cba04;
+  constexpr static std::size_t addrs = 0x31aa5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,8 +305,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerFiniteStateMachine::*)(
     ::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams)>(&::GlobalNamespace::GameplayServerFiniteStateMachine::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x22cba0c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x31aa5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -325,15 +327,15 @@ constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____taskUtility_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_internal_get__multiplayerSessionManager_k__BackingField() {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_internal_get__multiplayerSessionManager_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager_k__BackingField;
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_internal_get__multiplayerSessionManager_k__BackingField() const {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_internal_get__multiplayerSessionManager_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager_k__BackingField;
 }
-constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::GameplayServerFiniteStateMachine::__cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager_k__BackingField)),
                                           cordl_internals::convert(std::forward<decltype(value)>(value)));
@@ -445,15 +447,15 @@ inline void GlobalNamespace::GameplayServerFiniteStateMachine::set_taskUtility(:
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGNet::Core::ITaskUtility*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::GlobalNamespace::IMultiplayerSessionManager* GlobalNamespace::GameplayServerFiniteStateMachine::get_multiplayerSessionManager() {
+inline ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* GlobalNamespace::GameplayServerFiniteStateMachine::get_multiplayerSessionManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(),
                                                                              "get_multiplayerSessionManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IMultiplayerSessionManager*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::GameplayServerFiniteStateMachine::set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
+inline void GlobalNamespace::GameplayServerFiniteStateMachine::set_multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayServerFiniteStateMachine*>::get(), "set_multiplayerSessionManager", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::StringW GlobalNamespace::GameplayServerFiniteStateMachine::get_ownerUserId() {

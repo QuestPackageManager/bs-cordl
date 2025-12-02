@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::DataTable* (::System::Data::DataTablePropertyDescriptor::*)()>(
     &::System::Data::DataTablePropertyDescriptor::get_Table)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4169ef8;
+  constexpr static std::size_t addrs = 0x5e14acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataTablePropertyDescriptor*>::get(), "get_Table",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::DataTablePropertyDescriptor::*)()>(
     &::System::Data::DataTablePropertyDescriptor::get_ComponentType)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4169f00;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5e14ad4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTablePropertyDescriptor::*)()>(
     &::System::Data::DataTablePropertyDescriptor::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4169f6c;
+  constexpr static std::size_t addrs = 0x5e14b34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Data::DataTablePropertyDescriptor::*)()>(
     &::System::Data::DataTablePropertyDescriptor::get_PropertyType)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4169f74;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5e14b3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataTablePropertyDescriptor::CanResetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4169fe0;
+  constexpr static std::size_t addrs = 0x5e14b9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataTablePropertyDescriptor::GetValue)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4169fe8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5e14ba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataTablePropertyDescriptor::ResetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x416a0cc;
+  constexpr static std::size_t addrs = 0x5e14c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::Data::DataTablePropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x416a0d0;
+  constexpr static std::size_t addrs = 0x5e14c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTablePropertyDescriptor::*)(::System::Object*)>(
     &::System::Data::DataTablePropertyDescriptor::ShouldSerializeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x416a0d4;
+  constexpr static std::size_t addrs = 0x5e14ca0;
 
   inline static ::MethodInfo const* methodInfo() {
 

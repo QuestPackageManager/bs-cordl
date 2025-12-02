@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Haptics::Ffi_Controller (*)(::Oculus::Haptics::Controller)>(
     &::Oculus::Haptics::Utils::ControllerToFfiController)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f56154;
+  constexpr static std::size_t addrs = 0x5b9cf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, int32_t, int32_t, int32_t, int32_t)>(&::Oculus::Haptics::Utils::Map)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3f568f8;
+  constexpr static std::size_t addrs = 0x5b9d8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

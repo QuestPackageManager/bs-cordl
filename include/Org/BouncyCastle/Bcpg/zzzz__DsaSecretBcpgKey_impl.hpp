@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Bcpg/DsaSecretBcpgKey.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgObject_impl.hpp"
-#include "Org/BouncyCastle/Bcpg/zzzz__IBcpgKey_impl.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__DsaSecretBcpgKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgInputStream_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__BcpgOutputStream_def.hpp"
+#include "Org/BouncyCastle/Bcpg/zzzz__IBcpgKey_def.hpp"
 #include "Org/BouncyCastle/Bcpg/zzzz__MPInteger_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey._ctor
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26479c0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x35772f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2647a30;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3577360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::get_Format)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2647aa0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x35773c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey*>::get(),
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::GetEncoded)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2647ae0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x357740c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::Encode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2647b64;
+  constexpr static std::size_t addrs = 0x3577494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::*)()>(
     &::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey::get_X)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2647b88;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x35774b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::DsaSecretBcpgKey*>::get(), "get_X",

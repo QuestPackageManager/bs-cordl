@@ -6,17 +6,19 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextSettings_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyleSheet_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__UnicodeLineBreakingRules_def.hpp"
 #include "UnityEngine/zzzz__Font_def.hpp"
+#include "UnityEngine/zzzz__Shader_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap::*)(
     ::UnityEngine::Font*, ::UnityEngine::TextCore::Text::FontAsset*)>(&::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49514ac;
+  constexpr static std::size_t addrs = 0x69cda44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950bcc;
+  constexpr static std::size_t addrs = 0x69ccef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -62,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950bd4;
+  constexpr static std::size_t addrs = 0x69ccef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_defaultFontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950bdc;
+  constexpr static std::size_t addrs = 0x69ccf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -91,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::UnityEngine::TextCore::Text::FontAsset*)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_defaultFontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950be4;
+  constexpr static std::size_t addrs = 0x69ccf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_defaultFontAssetPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950bec;
+  constexpr static std::size_t addrs = 0x69ccf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -120,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_defaultFontAssetPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950bf4;
+  constexpr static std::size_t addrs = 0x69ccf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (
     ::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::get_fallbackFontAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950bfc;
+  constexpr static std::size_t addrs = 0x69ccf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -149,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*)>(&::UnityEngine::TextCore::Text::TextSettings::set_fallbackFontAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c04;
+  constexpr static std::size_t addrs = 0x69ccf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,13 +161,72 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_fallbackOSFontAssets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (
+    ::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::get_fallbackOSFontAssets)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x69ccf30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                               "get_fallbackOSFontAssets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.GetStaticFallbackOSFontAsset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (
+    ::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::GetStaticFallbackOSFontAsset)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x69cd018;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.SetStaticFallbackOSFontAsset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*)>(&::UnityEngine::TextCore::Text::TextSettings::SetStaticFallbackOSFontAsset)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x69cd064;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.GetFallbackFontAssets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (
+    ::UnityEngine::TextCore::Text::TextSettings::*)(int32_t)>(&::UnityEngine::TextCore::Text::TextSettings::GetFallbackFontAssets)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd0b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 6));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_matchMaterialPreset
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_matchMaterialPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c0c;
+  constexpr static std::size_t addrs = 0x69cd0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -178,8 +239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(bool)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_matchMaterialPreset)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4950c14;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_missingCharacterUnicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c20;
+  constexpr static std::size_t addrs = 0x69cd0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -208,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(int32_t)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_missingCharacterUnicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c28;
+  constexpr static std::size_t addrs = 0x69cd0d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,7 +284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_clearDynamicDataOnBuild)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c30;
+  constexpr static std::size_t addrs = 0x69cd0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -236,13 +297,72 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(bool)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_clearDynamicDataOnBuild)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4950c38;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_clearDynamicDataOnBuild",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_enableEmojiSupport
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextSettings::*)()>(
+    &::UnityEngine::TextCore::Text::TextSettings::get_enableEmojiSupport)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd0ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                               "get_enableEmojiSupport", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.set_enableEmojiSupport
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(bool)>(
+    &::UnityEngine::TextCore::Text::TextSettings::set_enableEmojiSupport)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd0f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_enableEmojiSupport",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_emojiFallbackTextAssets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* (
+    ::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::get_emojiFallbackTextAssets)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd0fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                               "get_emojiFallbackTextAssets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.set_emojiFallbackTextAssets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*)>(&::UnityEngine::TextCore::Text::TextSettings::set_emojiFallbackTextAssets)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd104;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_emojiFallbackTextAssets", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*>::get() })));
     return ___internal_method;
   }
 };
@@ -252,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_defaultSpriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c44;
+  constexpr static std::size_t addrs = 0x69cd10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -266,7 +386,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::UnityEngine::TextCore::Text::SpriteAsset*)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_defaultSpriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c4c;
+  constexpr static std::size_t addrs = 0x69cd114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,7 +401,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_defaultSpriteAssetPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c54;
+  constexpr static std::size_t addrs = 0x69cd11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -295,7 +415,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_defaultSpriteAssetPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c5c;
+  constexpr static std::size_t addrs = 0x69cd124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -310,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>* (
     ::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::get_fallbackSpriteAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c64;
+  constexpr static std::size_t addrs = 0x69cd12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -324,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(
     ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*)>(&::UnityEngine::TextCore::Text::TextSettings::set_fallbackSpriteAssets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c6c;
+  constexpr static std::size_t addrs = 0x69cd134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -334,13 +454,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.set_s_GlobalSpriteAsset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::TextCore::Text::SpriteAsset*)>(
+    &::UnityEngine::TextCore::Text::TextSettings::set_s_GlobalSpriteAsset)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x69cd13c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_s_GlobalSpriteAsset", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_s_GlobalSpriteAsset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> (*)()>(
+    &::UnityEngine::TextCore::Text::TextSettings::get_s_GlobalSpriteAsset)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x69cd18c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                               "get_s_GlobalSpriteAsset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_missingSpriteCharacterUnicode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_missingSpriteCharacterUnicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c74;
+  constexpr static std::size_t addrs = 0x69cd1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -355,7 +504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(uint32_t)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_missingSpriteCharacterUnicode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c7c;
+  constexpr static std::size_t addrs = 0x69cd1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,7 +519,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_defaultStyleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c84;
+  constexpr static std::size_t addrs = 0x69cd1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -384,7 +533,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::UnityEngine::TextCore::Text::TextStyleSheet*)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_defaultStyleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c8c;
+  constexpr static std::size_t addrs = 0x69cd1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_styleSheetsResourcePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c94;
+  constexpr static std::size_t addrs = 0x69cd1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -413,7 +562,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_styleSheetsResourcePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950c9c;
+  constexpr static std::size_t addrs = 0x69cd200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -428,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_defaultColorGradientPresetsPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950ca4;
+  constexpr static std::size_t addrs = 0x69cd208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -443,7 +592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::StringW)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_defaultColorGradientPresetsPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950cac;
+  constexpr static std::size_t addrs = 0x69cd210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,8 +606,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules* (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_lineBreakingRules)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4950cb4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x69cd218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -472,42 +621,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_lineBreakingRules)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950f14;
+  constexpr static std::size_t addrs = 0x69cd284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_lineBreakingRules", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.get_useModernHangulLineBreakingRules
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextSettings::*)()>(
-    &::UnityEngine::TextCore::Text::TextSettings::get_useModernHangulLineBreakingRules)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950f1c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "get_useModernHangulLineBreakingRules",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.set_useModernHangulLineBreakingRules
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(bool)>(
-    &::UnityEngine::TextCore::Text::TextSettings::set_useModernHangulLineBreakingRules)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4950f24;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_useModernHangulLineBreakingRules",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -517,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::get_displayWarnings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950f30;
+  constexpr static std::size_t addrs = 0x69cd28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -530,8 +649,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)(bool)>(
     &::UnityEngine::TextCore::Text::TextSettings::set_displayWarnings)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4950f38;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x69cd294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -544,8 +663,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::OnEnable)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4950f44;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x69cd29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "OnEnable",
@@ -558,8 +677,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)()>(
     &::UnityEngine::TextCore::Text::TextSettings::InitializeFontReferenceLookup)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x4950f5c;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x69cd3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
@@ -572,8 +691,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (::UnityEngine::TextCore::Text::TextSettings::*)(
     ::UnityEngine::Font*)>(&::UnityEngine::TextCore::Text::TextSettings::GetCachedFontAssetInternal)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x4951190;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x69cd68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -582,12 +701,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.GetCachedFontAsset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextCore::Text::FontAsset> (::UnityEngine::TextCore::Text::TextSettings::*)(
+    ::UnityEngine::Font*, ::UnityEngine::Shader*)>(&::UnityEngine::TextCore::Text::TextSettings::GetCachedFontAsset)> {
+  constexpr static std::size_t size = 0x344;
+  constexpr static std::size_t addrs = 0x69cd700;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "GetCachedFontAsset", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.GetFontShader
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (::UnityEngine::TextCore::Text::TextSettings::*)()>(
+    &::UnityEngine::TextCore::Text::TextSettings::GetFontShader)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x69cda4c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings.GetOSFontAssetList
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* (
+    ::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::GetOSFontAssetList)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x69ccf78;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                               "GetOSFontAssetList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextSettings._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextSettings::*)()>(&::UnityEngine::TextCore::Text::TextSettings::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x49514b4;
+  constexpr static std::size_t addrs = 0x69cdaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), ".ctor",
@@ -679,6 +843,32 @@ constexpr bool const& UnityEngine::TextCore::Text::TextSettings::__cordl_interna
 constexpr void UnityEngine::TextCore::Text::TextSettings::__cordl_internal_set_m_ClearDynamicDataOnBuild(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ClearDynamicDataOnBuild = value;
+}
+constexpr bool& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_EnableEmojiSupport() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EnableEmojiSupport;
+}
+constexpr bool const& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_EnableEmojiSupport() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EnableEmojiSupport;
+}
+constexpr void UnityEngine::TextCore::Text::TextSettings::__cordl_internal_set_m_EnableEmojiSupport(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_EnableEmojiSupport = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_EmojiFallbackTextAssets() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EmojiFallbackTextAssets;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* const&
+UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_EmojiFallbackTextAssets() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EmojiFallbackTextAssets;
+}
+constexpr void
+UnityEngine::TextCore::Text::TextSettings::__cordl_internal_set_m_EmojiFallbackTextAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_EmojiFallbackTextAssets)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_DefaultSpriteAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -778,18 +968,6 @@ constexpr void UnityEngine::TextCore::Text::TextSettings::__cordl_internal_set_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_UnicodeLineBreakingRules)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_UseModernHangulLineBreakingRules() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_UseModernHangulLineBreakingRules;
-}
-constexpr bool const& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_UseModernHangulLineBreakingRules() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_UseModernHangulLineBreakingRules;
-}
-constexpr void UnityEngine::TextCore::Text::TextSettings::__cordl_internal_set_m_UseModernHangulLineBreakingRules(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_UseModernHangulLineBreakingRules = value;
-}
 constexpr bool& UnityEngine::TextCore::Text::TextSettings::__cordl_internal_get_m_DisplayWarnings() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_DisplayWarnings;
@@ -829,6 +1007,24 @@ constexpr void
 UnityEngine::TextCore::Text::TextSettings::__cordl_internal_set_m_FontReferences(::System::Collections::Generic::List_1<::UnityEngine::TextCore::Text::TextSettings_FontReferenceMap>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FontReferences)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::TextCore::Text::TextSettings::setStaticF_s_FallbackOSFontAssetInternal(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, "s_FallbackOSFontAssetInternal",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get>(
+      std::forward<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::TextSettings::getStaticF_s_FallbackOSFontAssetInternal() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, "s_FallbackOSFontAssetInternal",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextSettings::setStaticF__s_GlobalSpriteAsset_k__BackingField(::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, "<s_GlobalSpriteAsset>k__BackingField",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get>(
+      std::forward<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>(value));
+}
+inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCore::Text::TextSettings::getStaticF__s_GlobalSpriteAsset_k__BackingField() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, "<s_GlobalSpriteAsset>k__BackingField",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get>();
 }
 inline ::StringW UnityEngine::TextCore::Text::TextSettings::get_version() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "get_version",
@@ -875,6 +1071,26 @@ inline void UnityEngine::TextCore::Text::TextSettings::set_fallbackFontAssets(::
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::TextSettings::get_fallbackOSFontAssets() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                             "get_fallbackOSFontAssets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::TextSettings::GetStaticFallbackOSFontAsset() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::Text::TextSettings::SetStaticFallbackOSFontAsset(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fontAssets);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::TextSettings::GetFallbackFontAssets(int32_t textPixelSize) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, false>(this, ___internal_method, textPixelSize);
+}
 inline bool UnityEngine::TextCore::Text::TextSettings::get_matchMaterialPreset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
                                                                              "get_matchMaterialPreset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -906,6 +1122,29 @@ inline void UnityEngine::TextCore::Text::TextSettings::set_clearDynamicDataOnBui
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_clearDynamicDataOnBuild",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::TextCore::Text::TextSettings::get_enableEmojiSupport() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                             "get_enableEmojiSupport", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::Text::TextSettings::set_enableEmojiSupport(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_enableEmojiSupport",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* UnityEngine::TextCore::Text::TextSettings::get_emojiFallbackTextAssets() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                             "get_emojiFallbackTextAssets", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::Text::TextSettings::set_emojiFallbackTextAssets(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_emojiFallbackTextAssets", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCore::Text::TextSettings::get_defaultSpriteAsset() {
@@ -941,6 +1180,17 @@ inline void UnityEngine::TextCore::Text::TextSettings::set_fallbackSpriteAssets(
       ::std::array<Il2CppType const*, 1>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::TextCore::Text::TextSettings::set_s_GlobalSpriteAsset(::UnityEngine::TextCore::Text::SpriteAsset* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_s_GlobalSpriteAsset", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::SpriteAsset*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> UnityEngine::TextCore::Text::TextSettings::get_s_GlobalSpriteAsset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                             "get_s_GlobalSpriteAsset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>, false>(nullptr, ___internal_method);
 }
 inline uint32_t UnityEngine::TextCore::Text::TextSettings::get_missingSpriteCharacterUnicode() {
   static auto* ___internal_method =
@@ -999,18 +1249,6 @@ inline void UnityEngine::TextCore::Text::TextSettings::set_lineBreakingRules(::U
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline bool UnityEngine::TextCore::Text::TextSettings::get_useModernHangulLineBreakingRules() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "get_useModernHangulLineBreakingRules",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void UnityEngine::TextCore::Text::TextSettings::set_useModernHangulLineBreakingRules(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "set_useModernHangulLineBreakingRules",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 inline bool UnityEngine::TextCore::Text::TextSettings::get_displayWarnings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
                                                                              "get_displayWarnings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -1037,6 +1275,23 @@ inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> UnityEngine::TextCore:
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "GetCachedFontAssetInternal",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, false>(this, ___internal_method, font);
+}
+inline ::UnityW<::UnityEngine::TextCore::Text::FontAsset> UnityEngine::TextCore::Text::TextSettings::GetCachedFontAsset(::UnityEngine::Font* font, ::UnityEngine::Shader* shader) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), "GetCachedFontAsset", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Font*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Shader*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextCore::Text::FontAsset>, false>(this, ___internal_method, font, shader);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextSettings::GetFontShader() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* UnityEngine::TextCore::Text::TextSettings::GetOSFontAssetList() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(),
+                                                                             "GetOSFontAssetList", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, false>(this, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::TextSettings::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextSettings*>::get(), ".ctor",

@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SignalOnPointerClick.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SignalOnPointerClick_def.hpp"
 #include "GlobalNamespace/zzzz__Signal_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SignalOnPointerClick.OnPointerClick
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnPointerClick::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::SignalOnPointerClick::OnPointerClick)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39c4828;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x563f4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnPointerClick::*)()>(&::GlobalNamespace::SignalOnPointerClick::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4848;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563f4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnPointerClick*>::get(), ".ctor",

@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(AsyncInstantiateOperationHelper)
 namespace UnityEngine {
 class AsyncInstantiateOperation;
@@ -24,8 +25,9 @@ namespace UnityEngine {
 class CORDL_TYPE AsyncInstantiateOperationHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetAsyncInstantiateOperationResult, addr 0x48a7cec, size 0x18, virtual false, abstract: false, final false
-  static inline void SetAsyncInstantiateOperationResult(::UnityEngine::AsyncInstantiateOperation* op, ::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> result);
+  /// @brief Method CreateAsyncInstantiateOperationResultArray, addr 0x68a6284, size 0x18, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> CreateAsyncInstantiateOperationResultArray(::UnityEngine::AsyncInstantiateOperation* op,
+                                                                                                                                                int32_t size);
 
 protected:
   // Ctor Parameters []
@@ -42,7 +44,7 @@ public:
   AsyncInstantiateOperationHelper(AsyncInstantiateOperationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10274 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

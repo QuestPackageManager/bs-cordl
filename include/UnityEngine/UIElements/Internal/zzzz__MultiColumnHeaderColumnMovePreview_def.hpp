@@ -24,7 +24,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49e255c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aec658, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -46,12 +46,12 @@ public:
   MultiColumnHeaderColumnMovePreview(MultiColumnHeaderColumnMovePreview const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5510 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview, 0x3c8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview, 0x4a8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview);

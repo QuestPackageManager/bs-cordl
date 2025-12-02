@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4605a28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d6fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,12 +38,12 @@ public:
   DualShock4GamepadAndroid(DualShock4GamepadAndroid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid, 0x238>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid, 0x280>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::DualShock4GamepadAndroid);

@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMacDerivationFunction_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfCounterBytesGenerator)
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
 namespace Org::BouncyCastle::Crypto {
 class IDerivationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
+}
+namespace Org::BouncyCastle::Crypto {
+class IMacDerivationFunction;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
@@ -26,7 +30,7 @@ class KdfCounterBytesGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator);
-// Dependencies Org.BouncyCastle.Crypto.IDerivationFunction, Org.BouncyCastle.Crypto.IMacDerivationFunction, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Generators.KdfCounterBytesGenerator
@@ -71,13 +75,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IMacDerivationFunction"
   constexpr operator ::Org::BouncyCastle::Crypto::IMacDerivationFunction*() noexcept;
 
-  /// @brief Method GenerateBytes, addr 0x2387ec0, size 0x200, virtual true, abstract: false, final true
+  /// @brief Method GenerateBytes, addr 0x32b5948, size 0x1e0, virtual true, abstract: false, final true
   inline int32_t GenerateBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff, int32_t length);
 
-  /// @brief Method GetMac, addr 0x2387e30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMac, addr 0x32b58b4, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* GetMac();
 
-  /// @brief Method Init, addr 0x2387b94, size 0x29c, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x32b5600, size 0x2b4, virtual true, abstract: false, final true
   inline void Init(::Org::BouncyCastle::Crypto::IDerivationParameters* param);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::KdfCounterBytesGenerator* New_ctor(::Org::BouncyCastle::Crypto::IMac* prf);
@@ -130,17 +134,17 @@ public:
 
   constexpr void __cordl_internal_set_prf(::Org::BouncyCastle::Crypto::IMac* value);
 
-  /// @brief Method .ctor, addr 0x2387ab4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32b5518, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* prf);
 
-  /// @brief Method generateNext, addr 0x23880c0, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method generateNext, addr 0x32b5b28, size 0x334, virtual false, abstract: false, final false
   inline void generateNext();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_IntegerMax();
 
   static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Two();
 
-  /// @brief Method get_Digest, addr 0x2387e38, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method get_Digest, addr 0x32b58bc, size 0x8c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* get_Digest();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationFunction"

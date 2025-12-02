@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullableScriptableObjectInstaller::*)()>(
     &::GlobalNamespace::NullableScriptableObjectInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b12740;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6c27694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NullableScriptableObjectInstaller::*)()>(
     &::GlobalNamespace::NullableScriptableObjectInstaller::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b127dc;
+  constexpr static std::size_t addrs = 0x6c27734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NullableScriptableObjectInstaller*>::get(),

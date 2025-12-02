@@ -47,7 +47,7 @@ public:
   /// @brief Field m_Strings, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_Strings, put = setStaticF_m_Strings)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Strings;
 
-  /// @brief Method ToString, addr 0x44ba030, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x620904c, size 0x80, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t position);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_Strings();
@@ -69,7 +69,7 @@ public:
   HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID(HttpApi_UnsafeNclNativeMethods_HTTP_REQUEST_HEADER_ID const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -108,7 +108,7 @@ public:
   UnsafeNclNativeMethods_HttpApi(UnsafeNclNativeMethods_HttpApi const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9663 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,10 +123,10 @@ namespace System::Net {
 class CORDL_TYPE UnsafeNclNativeMethods_SecureStringHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateSecureString, addr 0x44ba858, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method CreateSecureString, addr 0x62098e4, size 0x90, virtual false, abstract: false, final false
   static inline ::System::Security::SecureString* CreateSecureString(::StringW plainString);
 
-  /// @brief Method CreateString, addr 0x44ba6e4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method CreateString, addr 0x62097b0, size 0x134, virtual false, abstract: false, final false
   static inline ::StringW CreateString(::System::Security::SecureString* secureString);
 
 protected:
@@ -144,7 +144,7 @@ public:
   UnsafeNclNativeMethods_SecureStringHelper(UnsafeNclNativeMethods_SecureStringHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11538 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +178,7 @@ public:
   UnsafeNclNativeMethods(UnsafeNclNativeMethods const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11539 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

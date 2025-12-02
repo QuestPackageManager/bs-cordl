@@ -18,10 +18,10 @@ namespace System::Security {
 class CORDL_TYPE SecurityManager : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method EnsureElevatedPermissions, addr 0x3c974e8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method EnsureElevatedPermissions, addr 0x58dbb10, size 0x4, virtual false, abstract: false, final false
   static inline void EnsureElevatedPermissions();
 
-  /// @brief Method get_SecurityEnabled, addr 0x3c93ff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityEnabled, addr 0x58d8660, size 0x8, virtual false, abstract: false, final false
   static inline bool get_SecurityEnabled();
 
 protected:
@@ -39,7 +39,7 @@ public:
   SecurityManager(SecurityManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2893 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2910 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -37,7 +37,7 @@ public:
   IFocusRing(IFocusRing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5954 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4581 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

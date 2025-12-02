@@ -12,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Net::AuthenticationManager::EnsureModules)> {
-  constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x44babd0;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x6209c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::AuthenticationManager*>::get(), "EnsureModules",
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::Authenticate)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44bae4c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6209e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::DoAuthenticate)> {
-  constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x44baf4c;
+  constexpr static std::size_t size = 0x480;
+  constexpr static std::size_t addrs = 0x6209f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Authorization* (*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(
     &::System::Net::AuthenticationManager::PreAuthenticate)> {
-  constexpr static std::size_t size = 0x538;
-  constexpr static std::size_t addrs = 0x44bb438;
+  constexpr static std::size_t size = 0x4cc;
+  constexpr static std::size_t addrs = 0x620a400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

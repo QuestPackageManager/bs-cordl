@@ -1,12 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Pool/ObjectPool_1.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/Pool/zzzz__IObjectPool_1_impl.hpp"
 #include "UnityEngine/Pool/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
+#include "UnityEngine/Pool/zzzz__IPool_def.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_List() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -92,6 +93,18 @@ template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CollectionCheck = value;
 }
+template <typename T> constexpr T& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_FreshlyReleased() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FreshlyReleased;
+}
+template <typename T> constexpr T const& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get_m_FreshlyReleased() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_FreshlyReleased;
+}
+template <typename T> constexpr void UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_set_m_FreshlyReleased(T value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___m_FreshlyReleased, value);
+}
 template <typename T> constexpr int32_t& UnityEngine::Pool::ObjectPool_1<T>::__cordl_internal_get__CountAll_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____CountAll_k__BackingField;
@@ -171,6 +184,14 @@ template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::S
 /// @brief Convert to "::System::IDisposable"
 template <typename T> constexpr ::System::IDisposable* UnityEngine::Pool::ObjectPool_1<T>::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::Pool::IPool"
+template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::UnityEngine::Pool::IPool*() noexcept {
+  return static_cast<::UnityEngine::Pool::IPool*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::Pool::IPool"
+template <typename T> constexpr ::UnityEngine::Pool::IPool* UnityEngine::Pool::ObjectPool_1<T>::i___UnityEngine__Pool__IPool() noexcept {
+  return static_cast<::UnityEngine::Pool::IPool*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::Pool::IObjectPool_1<T>"
 template <typename T> constexpr UnityEngine::Pool::ObjectPool_1<T>::operator ::UnityEngine::Pool::IObjectPool_1<T>*() noexcept {

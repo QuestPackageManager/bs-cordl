@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ConfiguredTaskAwaitable_1)
 namespace System::Runtime::CompilerServices {
 template <typename TResult> struct ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter;
+}
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -26,7 +30,7 @@ template <typename TResult> struct ConfiguredTaskAwaitable_1_ConfiguredTaskAwait
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1);
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter);
-// Dependencies System.Runtime.CompilerServices.ICriticalNotifyCompletion, System.Runtime.CompilerServices.INotifyCompletion
+// Dependencies
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
@@ -73,7 +77,7 @@ public:
   constexpr ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter(::System::Threading::Tasks::Task_1<TResult>* m_task, bool m_continueOnCapturedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3412 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -113,7 +117,7 @@ public:
   constexpr ConfiguredTaskAwaitable_1(::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<TResult> m_configuredTaskAwaiter) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3413 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

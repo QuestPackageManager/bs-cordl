@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLightWithLightGroupIds::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::DirectionalLightWithLightGroupIds::ColorWasSet)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39e1294;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5658a80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DirectionalLightWithLightGroupIds::*)()>(
     &::GlobalNamespace::DirectionalLightWithLightGroupIds::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e12b4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5658a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DirectionalLightWithLightGroupIds*>::get(),

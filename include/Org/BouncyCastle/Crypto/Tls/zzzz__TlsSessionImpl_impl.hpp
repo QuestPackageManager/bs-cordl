@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsSessionImpl.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSessionImpl_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SessionParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Crypto::Tls::SessionParameters*)>(&::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::_ctor)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x243ba28;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x336a17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SessionParameters* (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::ExportSessionParameters)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x243bb68;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x336a2b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_SessionID)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x243bc1c;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x336a364;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::Invalidate)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x243bc50;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x336a390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl::get_IsResumable)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x243bc74;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x336a3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

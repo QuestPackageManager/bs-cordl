@@ -72,11 +72,11 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshUtility___c* New_ctor();
 
-  /// @brief Method <CollapseSharedVertices>b__11_0, addr 0x471bca8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <CollapseSharedVertices>b__11_0, addr 0x64b1498, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Vertex*>*
   _CollapseSharedVertices_b__11_0(::System::Collections::Generic::Dictionary_2<::UnityEngine::ProBuilder::Vertex*, int32_t>* x);
 
-  /// @brief Method .ctor, addr 0x471bca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x64b1494, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshUtility___c* getStaticF___9();
@@ -105,7 +105,7 @@ public:
   MeshUtility___c(MeshUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14261 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,61 +122,61 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshUtility___c;
 
-  /// @brief Method CollapseSharedVertices, addr 0x471a7f4, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method CollapseSharedVertices, addr 0x64afd4c, size 0x554, virtual false, abstract: false, final false
   static inline void CollapseSharedVertices(::UnityEngine::Mesh* mesh, ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> vertices);
 
-  /// @brief Method Compile, addr 0x4719e84, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Compile, addr 0x64af3f8, size 0x318, virtual false, abstract: false, final false
   static inline void Compile(::UnityEngine::ProBuilder::ProBuilderMesh* probuilderMesh, ::UnityEngine::Mesh* targetMesh, ::UnityEngine::MeshTopology preferredTopology);
 
-  /// @brief Method CopyTo, addr 0x4718c94, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x64adfec, size 0x46c, virtual false, abstract: false, final false
   static inline void CopyTo(::UnityEngine::Mesh* source, ::UnityEngine::Mesh* destination);
 
-  /// @brief Method DeepCopy, addr 0x4718c30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DeepCopy, addr 0x64adf84, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Mesh> DeepCopy(::UnityEngine::Mesh* source);
 
-  /// @brief Method FitToSize, addr 0x471acc8, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method FitToSize, addr 0x64b02a0, size 0x334, virtual false, abstract: false, final false
   static inline void FitToSize(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Bounds currentSize, ::UnityEngine::Vector3 sizeToFit);
 
-  /// @brief Method GeneratePerTriangleMesh, addr 0x4717ea8, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GeneratePerTriangleMesh, addr 0x64ad1a8, size 0x30c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GeneratePerTriangleMesh(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GenerateTangent, addr 0x47186fc, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method GenerateTangent, addr 0x64ada24, size 0x560, virtual false, abstract: false, final false
   static inline void GenerateTangent(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetBounds, addr 0x471bac0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetBounds, addr 0x64b12b0, size 0xd0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Bounds GetBounds(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method GetIndexCount, addr 0x4719cb0, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetIndexCount, addr 0x64af21c, size 0xc4, virtual false, abstract: false, final false
   static inline uint32_t GetIndexCount(::UnityEngine::Mesh* mesh);
 
   /// @brief Method GetMeshChannel, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetMeshChannel(::UnityEngine::GameObject* gameObject, ::System::Func_2<::UnityW<::UnityEngine::Mesh>, T>* attributeGetter);
 
-  /// @brief Method GetPrimitiveCount, addr 0x4719d70, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetPrimitiveCount, addr 0x64af2e0, size 0x118, virtual false, abstract: false, final false
   static inline uint32_t GetPrimitiveCount(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method GetVertices, addr 0x47181ac, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method GetVertices, addr 0x64ad4b4, size 0x570, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::ProBuilder::Vertex*, ::Array<::UnityEngine::ProBuilder::Vertex*>*> GetVertices(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method IsUsedInParticleSystem, addr 0x471b8c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method IsUsedInParticleSystem, addr 0x64b10bc, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsUsedInParticleSystem(::UnityEngine::ProBuilder::ProBuilderMesh* pbmesh);
 
-  /// @brief Method Print, addr 0x47190f0, size 0xbb0, virtual false, abstract: false, final false
+  /// @brief Method Print, addr 0x64ae458, size 0xdb4, virtual false, abstract: false, final false
   static inline ::StringW Print(::UnityEngine::Mesh* mesh);
 
   /// @brief Method PrintAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void PrintAttribute(::System::Text::StringBuilder* sb, ::StringW title, ::System::Collections::Generic::IEnumerable_1<T>* attrib, ::StringW fmt);
 
-  /// @brief Method RestoreParticleSystem, addr 0x471ba28, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method RestoreParticleSystem, addr 0x64b1220, size 0x90, virtual false, abstract: false, final false
   static inline void RestoreParticleSystem(::UnityEngine::ProBuilder::ProBuilderMesh* pbmesh);
 
-  /// @brief Method SanityCheck, addr 0x4719ca0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SanityCheck, addr 0x64af20c, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW SanityCheck(::UnityEngine::Mesh* mesh);
 
-  /// @brief Method SanityCheck, addr 0x471afd4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SanityCheck, addr 0x64b060c, size 0x1c, virtual false, abstract: false, final false
   static inline ::StringW SanityCheck(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method SanityCheck, addr 0x471b630, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method SanityCheck, addr 0x64b0cd0, size 0x3ec, virtual false, abstract: false, final false
   static inline ::StringW SanityCheck(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::Vertex*>* vertices);
 
 protected:
@@ -194,7 +194,7 @@ public:
   MeshUtility(MeshUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

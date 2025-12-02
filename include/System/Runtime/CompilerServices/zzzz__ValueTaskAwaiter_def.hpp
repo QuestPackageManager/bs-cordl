@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ValueTaskAwaiter)
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
 namespace System::Runtime::CompilerServices {
 class ValueTaskAwaiter___c;
 }
@@ -46,10 +50,10 @@ public:
 
   static inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x3d19288, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x595a6d8, size 0x70, virtual false, abstract: false, final false
   inline void __cctor_b__9_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3d19280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595a6d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::CompilerServices::ValueTaskAwaiter___c* getStaticF___9();
@@ -71,7 +75,7 @@ public:
   ValueTaskAwaiter___c(ValueTaskAwaiter___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -79,7 +83,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::ValueTaskAwaiter___c, 0x10>, "Size mismatch!");
 
 } // namespace System::Runtime::CompilerServices
-// Dependencies System.Runtime.CompilerServices.ICriticalNotifyCompletion, System.Runtime.CompilerServices.INotifyCompletion, System.Threading.Tasks.ValueTask
+// Dependencies System.Threading.Tasks.ValueTask
 namespace System::Runtime::CompilerServices {
 // Is value type: true
 // CS Name: System.Runtime.CompilerServices.ValueTaskAwaiter
@@ -99,21 +103,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::INotifyCompletion"
   constexpr operator ::System::Runtime::CompilerServices::INotifyCompletion*();
 
-  /// @brief Method GetResult, addr 0x3d18dd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetResult, addr 0x595a10c, size 0x160, virtual false, abstract: false, final false
   inline void GetResult();
 
-  /// @brief Method OnCompleted, addr 0x3d18e28, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x595a26c, size 0x194, virtual true, abstract: false, final true
   inline void OnCompleted(::System::Action* continuation);
 
-  /// @brief Method UnsafeOnCompleted, addr 0x3d18fc4, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method UnsafeOnCompleted, addr 0x595a410, size 0x194, virtual true, abstract: false, final true
   inline void UnsafeOnCompleted(::System::Action* continuation);
 
-  /// @brief Method .ctor, addr 0x3d18d70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5959fb8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::ValueTask value);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_invokeActionDelegate();
 
-  /// @brief Method get_IsCompleted, addr 0x3d18d78, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x5959fc0, size 0x14c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::Runtime::CompilerServices::ICriticalNotifyCompletion"
@@ -132,7 +136,7 @@ public:
   constexpr ValueTaskAwaiter(::System::Threading::Tasks::ValueTask _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3390 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3405 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

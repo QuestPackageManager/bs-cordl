@@ -4,13 +4,14 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRBone_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSkeleton_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRBone.get_Id
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSkeleton_BoneId (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::get_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045b1c;
+  constexpr static std::size_t addrs = 0x5cfcdd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "get_Id",
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(::GlobalNamespace::OVRSkeleton_BoneId)>(&::GlobalNamespace::OVRBone::set_Id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045b24;
+  constexpr static std::size_t addrs = 0x5cfcdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::get_ParentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045b2c;
+  constexpr static std::size_t addrs = 0x5cfcde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "get_ParentBoneIndex",
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(int16_t)>(&::GlobalNamespace::OVRBone::set_ParentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045b34;
+  constexpr static std::size_t addrs = 0x5cfcde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::get_Transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045b3c;
+  constexpr static std::size_t addrs = 0x5cfcdf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "get_Transform",
@@ -77,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(::UnityEngine::Transform*)>(&::GlobalNamespace::OVRBone::set_Transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045b44;
+  constexpr static std::size_t addrs = 0x5cfcdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4044dd8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5cfaa28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), ".ctor",
@@ -104,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)(::GlobalNamespace::OVRSkeleton_BoneId, int16_t, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRBone::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4045b4c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5cfce00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,6 +114,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRSkeleton_BoneId>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int16_t>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRBone.Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRBone::*)()>(&::GlobalNamespace::OVRBone::Dispose)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5cfa980;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "Dispose",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -198,11 +212,24 @@ inline void GlobalNamespace::OVRBone::_ctor(::GlobalNamespace::OVRSkeleton_BoneI
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, parentBoneIndex, trans);
 }
+inline void GlobalNamespace::OVRBone::Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRBone*>::get(), "Dispose",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline ::GlobalNamespace::OVRBone* GlobalNamespace::OVRBone::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRBone*>());
 }
 inline ::GlobalNamespace::OVRBone* GlobalNamespace::OVRBone::New_ctor(::GlobalNamespace::OVRSkeleton_BoneId id, int16_t parentBoneIndex, ::UnityEngine::Transform* trans) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRBone*>(id, parentBoneIndex, trans));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::OVRBone::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::OVRBone::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRBone::OVRBone() {}

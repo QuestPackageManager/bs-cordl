@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IBitMask_1.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 template <typename T> inline int32_t GlobalNamespace::IBitMask_1<T>::get_bitCount() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IBitMask_1<T>*>::get(), 0)));

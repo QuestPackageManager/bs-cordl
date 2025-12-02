@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Data/zzzz__TreeAccessMethod_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RBTree_1)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -35,6 +37,9 @@ struct TreeAccessMethod;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -100,7 +105,7 @@ public:
   constexpr RBTree_1_NodeColor(int32_t value__) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13811 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,7 +144,7 @@ public:
                           ::System::Data::RBTree_1_NodeColor<K> _nodeColor) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13812 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -192,7 +197,7 @@ public:
   constexpr RBTree_1_NodePath(int32_t _nodeID, int32_t _mainTreeNodeID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13813 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -300,7 +305,7 @@ public:
   RBTree_1_TreePage(RBTree_1_TreePage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13814 };
 
   /// @brief Field _slots, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Data::RBTree_1_Node<K>, ::Array<::System::Data::RBTree_1_Node<K>>*> ____slots;
@@ -321,7 +326,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Data
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -383,7 +388,7 @@ public:
   constexpr RBTree_1_RBTreeEnumerator(::System::Data::RBTree_1<K>* _tree, int32_t _version, int32_t _index, int32_t _mainTreeNodeId, K _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13815 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -407,7 +412,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Data
-// Dependencies System.Collections.IEnumerable, System.Data.TreeAccessMethod, System.Object
+// Dependencies System.Data.TreeAccessMethod, System.Object
 namespace System::Data {
 // cpp template
 template <typename K>
@@ -726,7 +731,7 @@ public:
   RBTree_1(RBTree_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13816 };
 
   /// @brief Field _pageTable, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Data::RBTree_1_TreePage<K>*, ::Array<::System::Data::RBTree_1_TreePage<K>*>*> ____pageTable;

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Attribute_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(NotNullAttribute)
 // Forward declare root types
 namespace UnityEngine::Bindings {
@@ -19,24 +18,10 @@ namespace UnityEngine::Bindings {
 class CORDL_TYPE NotNullAttribute : public ::System::Attribute {
 public:
   // Declarations
-  __declspec(property(put = set_Exception)) ::StringW Exception;
+  static inline ::UnityEngine::Bindings::NotNullAttribute* New_ctor();
 
-  /// @brief Field <Exception>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__Exception_k__BackingField, put = __cordl_internal_set__Exception_k__BackingField)) ::StringW _Exception_k__BackingField;
-
-  static inline ::UnityEngine::Bindings::NotNullAttribute* New_ctor(::StringW exception);
-
-  constexpr ::StringW const& __cordl_internal_get__Exception_k__BackingField() const;
-
-  constexpr ::StringW& __cordl_internal_get__Exception_k__BackingField();
-
-  constexpr void __cordl_internal_set__Exception_k__BackingField(::StringW value);
-
-  /// @brief Method .ctor, addr 0x49190c8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW exception);
-
-  /// @brief Method set_Exception, addr 0x49190c0, size 0x8, virtual false, abstract: false, final false
-  inline void set_Exception(::StringW value);
+  /// @brief Method .ctor, addr 0x6982164, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
   // Ctor Parameters []
@@ -53,17 +38,12 @@ public:
   NotNullAttribute(NotNullAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18717 };
-
-  /// @brief Field <Exception>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____Exception_k__BackingField;
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::Bindings::NotNullAttribute, ____Exception_k__BackingField) == 0x10, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NotNullAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NotNullAttribute, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NotNullAttribute);

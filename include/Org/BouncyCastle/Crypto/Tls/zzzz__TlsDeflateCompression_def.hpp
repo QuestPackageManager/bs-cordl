@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsDeflateCompression)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCompression;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsDeflateCompression_DeflateOutputStream;
 }
@@ -34,12 +36,12 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class CORDL_TYPE TlsDeflateCompression_DeflateOutputStream : public ::Org::BouncyCastle::Utilities::Zlib::ZOutputStream {
 public:
   // Declarations
-  /// @brief Method Flush, addr 0x2428634, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x33567a8, size 0x4, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression_DeflateOutputStream* New_ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
 
-  /// @brief Method .ctor, addr 0x2428460, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33565b4, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* output, ::Org::BouncyCastle::Utilities::Zlib::ZStream* z, bool compress);
 
 protected:
@@ -65,7 +67,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression_DeflateOutputStream, 0x60>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCompression, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsDeflateCompression
@@ -83,10 +85,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Method Compress, addr 0x24283d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0x3356524, size 0x90, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0x2428498, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0x33565ec, size 0x8c, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression* New_ctor();
@@ -105,10 +107,10 @@ public:
 
   constexpr void __cordl_internal_set_zOut(::Org::BouncyCastle::Utilities::Zlib::ZStream* value);
 
-  /// @brief Method .ctor, addr 0x2428320, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3356470, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2428328, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3356478, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(int32_t level);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"

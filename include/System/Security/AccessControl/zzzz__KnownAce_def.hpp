@@ -54,22 +54,22 @@ public:
 
   constexpr void __cordl_internal_set_identifier(::System::Security::Principal::SecurityIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x3cc5ee8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5909638, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> binaryForm, int32_t offset);
 
-  /// @brief Method .ctor, addr 0x3cc5ee4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5909634, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::AccessControl::AceType type, ::System::Security::AccessControl::AceFlags flags);
 
-  /// @brief Method get_AccessMask, addr 0x3cc5eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessMask, addr 0x590963c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_AccessMask();
 
-  /// @brief Method get_SecurityIdentifier, addr 0x3cc5efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SecurityIdentifier, addr 0x590964c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Principal::SecurityIdentifier* get_SecurityIdentifier();
 
-  /// @brief Method set_AccessMask, addr 0x3cc5ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AccessMask, addr 0x5909644, size 0x8, virtual false, abstract: false, final false
   inline void set_AccessMask(int32_t value);
 
-  /// @brief Method set_SecurityIdentifier, addr 0x3cc5f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SecurityIdentifier, addr 0x5909654, size 0x8, virtual false, abstract: false, final false
   inline void set_SecurityIdentifier(::System::Security::Principal::SecurityIdentifier* value);
 
 protected:
@@ -87,7 +87,7 @@ public:
   KnownAce(KnownAce const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3038 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3055 };
 
   /// @brief Field access_mask, offset: 0x14, size: 0x4, def value: None
   int32_t ___access_mask;

@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EmptyEnumerator)
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System {
 class Object;
 }
@@ -15,7 +17,7 @@ class EmptyEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::EmptyEnumerator);
-// Dependencies System.Collections.IEnumerator, System.Object
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.EmptyEnumerator
@@ -29,16 +31,16 @@ public:
 
   static inline ::System::Xml::EmptyEnumerator* New_ctor();
 
-  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x434a488, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x60b1138, size 0x8, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x434a490, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x60b1140, size 0x4, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x434a494, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x60b1144, size 0x50, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method .ctor, addr 0x434a4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60b1194, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -59,7 +61,7 @@ public:
   EmptyEnumerator(EmptyEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9387 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

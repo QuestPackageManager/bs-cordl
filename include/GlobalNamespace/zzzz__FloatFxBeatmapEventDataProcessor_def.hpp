@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__FxBeatmapEventDataProcessor_1_def.hpp"
+#include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataProcessor_1_def.hpp"
 CORDL_MODULE_EXPORT(FloatFxBeatmapEventDataProcessor)
 namespace GlobalNamespace {
 class FloatFxBeatmapEventData;
@@ -14,19 +14,19 @@ class FloatFxBeatmapEventDataProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FloatFxBeatmapEventDataProcessor);
-// Dependencies FxBeatmapEventDataProcessor`1<T>
+// Dependencies FloatFxBeatmapEventDataProcessor`1<T>
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FloatFxBeatmapEventDataProcessor
-class CORDL_TYPE FloatFxBeatmapEventDataProcessor : public ::GlobalNamespace::FxBeatmapEventDataProcessor_1<::GlobalNamespace::FloatFxBeatmapEventData*> {
+class CORDL_TYPE FloatFxBeatmapEventDataProcessor : public ::GlobalNamespace::FloatFxBeatmapEventDataProcessor_1<::GlobalNamespace::FloatFxBeatmapEventData*> {
 public:
   // Declarations
   static inline ::GlobalNamespace::FloatFxBeatmapEventDataProcessor* New_ctor();
 
-  /// @brief Method UpdateByOther, addr 0x224479c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method UpdateByOther, addr 0x3164f14, size 0x28, virtual true, abstract: false, final false
   inline void UpdateByOther(::GlobalNamespace::FloatFxBeatmapEventData* current, ::GlobalNamespace::FloatFxBeatmapEventData* other);
 
-  /// @brief Method .ctor, addr 0x22447c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3164f3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   FloatFxBeatmapEventDataProcessor(FloatFxBeatmapEventDataProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20982 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

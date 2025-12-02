@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/ValueTuple_1.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_impl.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_impl.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__IValueTupleInternal_impl.hpp"
 #include "System/zzzz__ValueTuple_1_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T1> inline void System::ValueTuple_1<T1>::_ctor(T1 item1) {
   static auto* ___internal_method =

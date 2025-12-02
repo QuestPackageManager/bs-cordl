@@ -32,13 +32,13 @@ public:
 
   static inline ::System::Security::Cryptography::CryptographicUnexpectedOperationException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3c9ece0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e2b2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c9ed04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e2b4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3c9dda8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e1a90, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -56,7 +56,7 @@ public:
   CryptographicUnexpectedOperationException(CryptographicUnexpectedOperationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2941 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

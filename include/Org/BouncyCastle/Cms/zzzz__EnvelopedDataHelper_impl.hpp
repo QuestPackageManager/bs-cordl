@@ -16,8 +16,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(
         &::Org::BouncyCastle::Cms::EnvelopedDataHelper::CreateContentCipher)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2676f0c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x35a6440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,8 +34,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (
     ::Org::BouncyCastle::Cms::EnvelopedDataHelper::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*,
                                                       ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Cms::EnvelopedDataHelper::GenerateEncryptionAlgID)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2676f7c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x35a64b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::EnvelopedDataHelper::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Cms::EnvelopedDataHelper::CreateKeyGenerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x267700c;
+  constexpr static std::size_t addrs = 0x35a6548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::EnvelopedDataHelper::*)()>(&::Org::BouncyCastle::Cms::EnvelopedDataHelper::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267701c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35a6558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::EnvelopedDataHelper*>::get(), ".ctor",

@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_objectId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d061fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5947484, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t objectId, int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
-  /// @brief Method isCompatible, addr 0x3d0623c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method isCompatible, addr 0x5947490, size 0x110, virtual false, abstract: false, final false
   inline bool isCompatible(int32_t numMembers, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes);
 
 protected:
@@ -83,7 +83,7 @@ public:
   ObjectMapInfo(ObjectMapInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3293 };
 
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;

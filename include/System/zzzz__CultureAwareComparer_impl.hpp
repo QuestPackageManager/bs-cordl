@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/CultureAwareComparer.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__StringComparer_impl.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CultureInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3e00b08;
+  constexpr static std::size_t addrs = 0x5a471d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::CultureAwareComparer::*)(::System::Globalization::CompareInfo*, ::System::Globalization::CompareOptions)>(&::System::CultureAwareComparer::_ctor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e00fd0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5a475e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CultureAwareComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::_ctor)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3e010b0;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x5a476c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Compare)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e012bc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5a478d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CultureAwareComparer::*)(::StringW, ::StringW)>(&::System::CultureAwareComparer::Equals)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3e01310;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5a47920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)(::StringW)>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e01360;
+  constexpr static std::size_t addrs = 0x5a47974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::CultureAwareComparer::*)(::System::Object*)>(&::System::CultureAwareComparer::Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e013d0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5a479e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::CultureAwareComparer::*)()>(&::System::CultureAwareComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e01468;
+  constexpr static std::size_t addrs = 0x5a47a84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::CultureAwareComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::CultureAwareComparer::GetObjectData)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3e0149c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5a47ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

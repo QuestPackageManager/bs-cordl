@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CameraRaycastHelper)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 class Camera;
 }
@@ -29,17 +32,17 @@ namespace UnityEngine {
 class CORDL_TYPE CameraRaycastHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method RaycastTry, addr 0x48eab78, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry, addr 0x692ce80, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D, addr 0x48eac40, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RaycastTry2D, addr 0x692d054, size 0x170, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D(::UnityEngine::Camera* cam, ::UnityEngine::Ray ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry2D_Injected, addr 0x48eaca4, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GameObject> RaycastTry2D_Injected(::UnityEngine::Camera* cam, ::ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
+  /// @brief Method RaycastTry2D_Injected, addr 0x692d1c4, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::IntPtr RaycastTry2D_Injected(::System::IntPtr cam, ::ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
-  /// @brief Method RaycastTry_Injected, addr 0x48eabdc, size 0x64, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::GameObject> RaycastTry_Injected(::UnityEngine::Camera* cam, ::ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
+  /// @brief Method RaycastTry_Injected, addr 0x692cff0, size 0x64, virtual false, abstract: false, final false
+  static inline ::System::IntPtr RaycastTry_Injected(::System::IntPtr cam, ::ByRef<::UnityEngine::Ray> ray, float_t distance, int32_t layerMask);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +59,7 @@ public:
   CameraRaycastHelper(CameraRaycastHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18621 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22383 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

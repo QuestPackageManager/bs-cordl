@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/ResolveProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__ResolveProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -9,6 +8,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::ResolveProvider::*)(::System::Type*, ::Zenject::DiContainer*, ::System::Object*, bool, ::Zenject::InjectSources, bool)>(&::Zenject::ResolveProvider::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b3fef0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c53d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ResolveProvider::*)()>(&::Zenject::ResolveProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3ff4c;
+  constexpr static std::size_t addrs = 0x6c53d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ResolveProvider*>::get(), "get_IsCached",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ResolveProvider::*)()>(&::Zenject::ResolveProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3ff54;
+  constexpr static std::size_t addrs = 0x6c53d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::ResolveProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::ResolveProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3ff5c;
+  constexpr static std::size_t addrs = 0x6c53d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,8 +78,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ResolveProvider::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::ResolveProvider::GetAllInstancesWithInjectSplit)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x4b3ff64;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x6c53d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectContext* (::Zenject::ResolveProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::ResolveProvider::GetSubContext)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4b40100;
+  constexpr static std::size_t addrs = 0x6c53f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

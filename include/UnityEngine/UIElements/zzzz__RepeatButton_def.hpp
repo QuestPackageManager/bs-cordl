@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RepeatButton_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a047e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b329b8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   RepeatButton_UxmlFactory(RepeatButton_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4300 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -88,13 +88,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE RepeatButton_UxmlTraits : public ::UnityEngine::UIElements::TextElement_UxmlTraits {
 public:
   // Declarations
-  /// @brief Field m_Delay, offset 0x98, size 0x8
+  /// @brief Field m_Delay, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Delay, put = __cordl_internal_set_m_Delay)) ::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Delay;
 
-  /// @brief Field m_Interval, offset 0xa0, size 0x8
+  /// @brief Field m_Interval, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Interval, put = __cordl_internal_set_m_Interval)) ::UnityEngine::UIElements::UxmlLongAttributeDescription* m_Interval;
 
-  /// @brief Method Init, addr 0x4a04830, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b32a20, size 0x164, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RepeatButton_UxmlTraits* New_ctor();
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Interval(::UnityEngine::UIElements::UxmlLongAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a04964, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b32b84, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,22 +129,22 @@ public:
   RepeatButton_UxmlTraits(RepeatButton_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4301 };
 
-  /// @brief Field m_Delay, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field m_Delay, offset: 0xd0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlLongAttributeDescription* ___m_Delay;
 
-  /// @brief Field m_Interval, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field m_Interval, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlLongAttributeDescription* ___m_Interval;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::RepeatButton_UxmlTraits, ___m_Delay) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RepeatButton_UxmlTraits, ___m_Delay) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::RepeatButton_UxmlTraits, ___m_Interval) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RepeatButton_UxmlTraits, ___m_Interval) == 0xd8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepeatButton_UxmlTraits, 0xa8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepeatButton_UxmlTraits, 0xe0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextElement
@@ -158,37 +158,51 @@ public:
 
   using UxmlTraits = ::UnityEngine::UIElements::RepeatButton_UxmlTraits;
 
-  /// @brief Field m_Clickable, offset 0x4a0, size 0x8
+  __declspec(property(put = set_acceptClicksIfDisabled)) bool acceptClicksIfDisabled;
+
+  /// @brief Field m_AcceptClicksIfDisabled, offset 0x5b0, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_AcceptClicksIfDisabled, put = __cordl_internal_set_m_AcceptClicksIfDisabled)) bool m_AcceptClicksIfDisabled;
+
+  /// @brief Field m_Clickable, offset 0x5a8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Clickable, put = __cordl_internal_set_m_Clickable)) ::UnityEngine::UIElements::Clickable* m_Clickable;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method AddAction, addr 0x4a0476c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AddAction, addr 0x6b32938, size 0x18, virtual false, abstract: false, final false
   inline void AddAction(::System::Action* clickEvent);
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RepeatButton* New_ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
-  /// @brief Method SetAction, addr 0x4a046d0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method SetAction, addr 0x6b3289c, size 0x9c, virtual false, abstract: false, final false
   inline void SetAction(::System::Action* clickEvent, int64_t delay, int64_t interval);
+
+  constexpr bool const& __cordl_internal_get_m_AcceptClicksIfDisabled() const;
+
+  constexpr bool& __cordl_internal_get_m_AcceptClicksIfDisabled();
 
   constexpr ::UnityEngine::UIElements::Clickable* const& __cordl_internal_get_m_Clickable() const;
 
   constexpr ::UnityEngine::UIElements::Clickable*& __cordl_internal_get_m_Clickable();
 
+  constexpr void __cordl_internal_set_m_AcceptClicksIfDisabled(bool value);
+
   constexpr void __cordl_internal_set_m_Clickable(::UnityEngine::UIElements::Clickable* value);
 
-  /// @brief Method .ctor, addr 0x4a045fc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b327c0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a04690, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b3285c, size 0x40, virtual false, abstract: false, final false
   inline void _ctor(::System::Action* clickEvent, int64_t delay, int64_t interval);
 
   static inline ::StringW getStaticF_ussClassName();
 
   static inline void setStaticF_ussClassName(::StringW value);
+
+  /// @brief Method set_acceptClicksIfDisabled, addr 0x6b32790, size 0x30, virtual false, abstract: false, final false
+  inline void set_acceptClicksIfDisabled(bool value);
 
 protected:
   // Ctor Parameters []
@@ -205,17 +219,22 @@ public:
   RepeatButton(RepeatButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4302 };
 
-  /// @brief Field m_Clickable, offset: 0x4a0, size: 0x8, def value: None
+  /// @brief Field m_Clickable, offset: 0x5a8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Clickable* ___m_Clickable;
+
+  /// @brief Field m_AcceptClicksIfDisabled, offset: 0x5b0, size: 0x1, def value: None
+  bool ___m_AcceptClicksIfDisabled;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::RepeatButton, ___m_Clickable) == 0x4a0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RepeatButton, ___m_Clickable) == 0x5a8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepeatButton, 0x4a8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RepeatButton, ___m_AcceptClicksIfDisabled) == 0x5b0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RepeatButton, 0x5b8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RepeatButton);

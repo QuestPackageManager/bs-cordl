@@ -5,14 +5,11 @@
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_impl.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_impl.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_impl.hpp"
 #include "UnityEngine/XR/zzzz__XRSettings_impl.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_impl.hpp"
 #include "UnityEngine/zzzz__ThreadPriority_impl.hpp"
-#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__PerformanceConfigurationChecks_def.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
@@ -65,67 +62,6 @@ constexpr ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig::Performanc
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig::PerformanceConfigurationChecks_XRConfig() {}
-// Ctor Parameters [CppParam { name: "spaceWarpEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "chromatic", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam
-// { name: "monoscopic", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorGamut", ty: "::GlobalNamespace::OVRManager_ColorSpace", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "nativeColorGamut", ty: "::GlobalNamespace::OVRManager_ColorSpace", modifiers: "", def_value: Some("{}") }, CppParam { name: "compositionMethod", ty:
-// "::GlobalNamespace::OVRManager_CompositionMethod", modifiers: "", def_value: Some("{}") }, CppParam { name: "enableMixedReality", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "trackingOriginType", ty: "::GlobalNamespace::OVRManager_TrackingOrigin", modifiers: "", def_value: Some("{}") }, CppParam { name: "usePositionTracking", ty: "bool", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "useRotationTracking", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "sharpenType", ty: "::GlobalNamespace::OVRPlugin_LayerSharpenType",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "enableDynamicResolution", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "minDynamicResolutionScale", ty: "float_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "maxDynamicResolutionScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "simultaneousHandsAndControllersSupport", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "suggestedCpuPerfLevel", ty: "::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "suggestedGpuPerfLevel", ty: "::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "systemDisplayFrequency", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "eyeTrackedFoveatedRenderingEnabled", ty: "bool", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "foveatedRenderingLevel", ty: "::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel", modifiers: "", def_value: Some("{}") }, CppParam { name: "useDynamicFoveatedRendering", ty:
-// "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuUtilSupported", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "gpuUtilLevel", ty: "float_t", modifiers:
-// "", def_value: Some("{}") }, CppParam { name: "eyeFovPremultipliedAlphaModeEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "asymmetricFovEnabled", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "eyeTextureArrayEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "localDimmingSupported", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "localDimming", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig::PerformanceConfigurationChecks_OVRConfig(
-    bool spaceWarpEnabled, bool chromatic, bool monoscopic, ::GlobalNamespace::OVRManager_ColorSpace colorGamut, ::GlobalNamespace::OVRManager_ColorSpace nativeColorGamut,
-    ::GlobalNamespace::OVRManager_CompositionMethod compositionMethod, bool enableMixedReality, ::GlobalNamespace::OVRManager_TrackingOrigin trackingOriginType, bool usePositionTracking,
-    bool useRotationTracking, ::GlobalNamespace::OVRPlugin_LayerSharpenType sharpenType, bool enableDynamicResolution, float_t minDynamicResolutionScale, float_t maxDynamicResolutionScale,
-    bool simultaneousHandsAndControllersSupport, ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel suggestedCpuPerfLevel,
-    ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel suggestedGpuPerfLevel, float_t systemDisplayFrequency, bool eyeTrackedFoveatedRenderingEnabled,
-    ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel foveatedRenderingLevel, bool useDynamicFoveatedRendering, bool gpuUtilSupported, float_t gpuUtilLevel, bool eyeFovPremultipliedAlphaModeEnabled,
-    bool asymmetricFovEnabled, bool eyeTextureArrayEnabled, bool localDimmingSupported, bool localDimming) noexcept {
-  this->spaceWarpEnabled = spaceWarpEnabled;
-  this->chromatic = chromatic;
-  this->monoscopic = monoscopic;
-  this->colorGamut = colorGamut;
-  this->nativeColorGamut = nativeColorGamut;
-  this->compositionMethod = compositionMethod;
-  this->enableMixedReality = enableMixedReality;
-  this->trackingOriginType = trackingOriginType;
-  this->usePositionTracking = usePositionTracking;
-  this->useRotationTracking = useRotationTracking;
-  this->sharpenType = sharpenType;
-  this->enableDynamicResolution = enableDynamicResolution;
-  this->minDynamicResolutionScale = minDynamicResolutionScale;
-  this->maxDynamicResolutionScale = maxDynamicResolutionScale;
-  this->simultaneousHandsAndControllersSupport = simultaneousHandsAndControllersSupport;
-  this->suggestedCpuPerfLevel = suggestedCpuPerfLevel;
-  this->suggestedGpuPerfLevel = suggestedGpuPerfLevel;
-  this->systemDisplayFrequency = systemDisplayFrequency;
-  this->eyeTrackedFoveatedRenderingEnabled = eyeTrackedFoveatedRenderingEnabled;
-  this->foveatedRenderingLevel = foveatedRenderingLevel;
-  this->useDynamicFoveatedRendering = useDynamicFoveatedRendering;
-  this->gpuUtilSupported = gpuUtilSupported;
-  this->gpuUtilLevel = gpuUtilLevel;
-  this->eyeFovPremultipliedAlphaModeEnabled = eyeFovPremultipliedAlphaModeEnabled;
-  this->asymmetricFovEnabled = asymmetricFovEnabled;
-  this->eyeTextureArrayEnabled = eyeTextureArrayEnabled;
-  this->localDimmingSupported = localDimmingSupported;
-  this->localDimming = localDimming;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig::PerformanceConfigurationChecks_OVRConfig() {}
-// Ctor Parameters [CppParam { name: "boundaryDimension", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig::PerformanceConfigurationChecks_OculusXRConfig(::UnityEngine::Vector3 boundaryDimension) noexcept {
-  this->boundaryDimension = boundaryDimension;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig::PerformanceConfigurationChecks_OculusXRConfig() {}
 // Ctor Parameters [CppParam { name: "leftHanded", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "automaticPlayerHeight", ty: "bool", modifiers: "", def_value: Some("{}") },
 // CppParam { name: "playerHeight", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpDurationTypeSettings", ty: "::GlobalNamespace::NoteJumpDurationTypeSettings",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpFixedDuration", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "noteJumpStartBeatOffset", ty: "float_t",
@@ -177,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::IsValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3b1e144;
+  constexpr static std::size_t addrs = 0x56ffbc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -190,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::CreateErrorLog)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3b1e1a0;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x56ffc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -205,8 +141,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ::ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::RecPlayBehaviour_State*)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::SetExpected)> {
-  constexpr static std::size_t size = 0x4c0;
-  constexpr static std::size_t addrs = 0x3b1e42c;
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x56ffe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,8 +160,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PerformanceConfigurationChecks::*)(
     ::ByRef<::BeatSaber::Settings::Settings>, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::GameplayModifierMask, ::GlobalNamespace::RecPlayBehaviour_State*)>(
     &::GlobalNamespace::PerformanceConfigurationChecks::VerifyExpected)> {
-  constexpr static std::size_t size = 0x1c04;
-  constexpr static std::size_t addrs = 0x3b1e8ec;
+  constexpr static std::size_t size = 0x1590;
+  constexpr static std::size_t addrs = 0x57001e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PerformanceConfigurationChecks::*)()>(
     &::GlobalNamespace::PerformanceConfigurationChecks::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b204f0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5701770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceConfigurationChecks*>::get(),
@@ -274,30 +210,6 @@ constexpr ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig const& Glob
 constexpr void GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_set_xrConfig(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___xrConfig = value;
-}
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_ovrConfig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ovrConfig;
-}
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig const& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_ovrConfig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ovrConfig;
-}
-constexpr void GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_set_ovrConfig(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___ovrConfig = value;
-}
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_oculusXrConfig() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___oculusXrConfig;
-}
-constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig const& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_oculusXrConfig() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___oculusXrConfig;
-}
-constexpr void GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_set_oculusXrConfig(::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___oculusXrConfig = value;
 }
 constexpr ::BeatSaber::Settings::Settings& GlobalNamespace::PerformanceConfigurationChecks::__cordl_internal_get_settingsConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

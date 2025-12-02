@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureSlotManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureSlotManager_def.hpp"
+#include "UnityEngine/UIElements/UIR/zzzz__CommandList_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextureRegistry_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
@@ -11,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::_ctor)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x49b08b0;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x6abee3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(),
@@ -25,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::Reset)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x49b0a1c;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x6abefbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(),
@@ -39,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::StartNewBatch)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49b0c64;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6abf214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(),
@@ -53,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::IndexOf)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x49b0cd0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6abf284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::MarkUsed)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49b0dc8;
+  constexpr static std::size_t addrs = 0x6abf370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::get_FreeSlots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b0e20;
+  constexpr static std::size_t addrs = 0x6abf3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(),
@@ -98,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::set_FreeSlots)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b0e28;
+  constexpr static std::size_t addrs = 0x6abf3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::TextureSlotManager::*)()>(
     &::UnityEngine::UIElements::UIR::TextureSlotManager::FindOldestSlot)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x49b0e30;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6abf3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(),
@@ -125,16 +126,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(
-    ::UnityEngine::UIElements::TextureId, float_t, int32_t, ::UnityEngine::MaterialPropertyBlock*)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::Bind)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x49b0f00;
+    ::UnityEngine::UIElements::TextureId, float_t, float_t, int32_t, ::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::UIElements::UIR::CommandList*)>(
+    &::UnityEngine::UIElements::UIR::TextureSlotManager::Bind)> {
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x6abf4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(), "Bind", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextureId>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextureId>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::CommandList*>::get() })));
     return ___internal_method;
   }
 };
@@ -142,17 +146,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureSlotManager::*)(
-    int32_t, ::UnityEngine::UIElements::TextureId, int32_t, int32_t, float_t)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::SetGpuData)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x49b0b38;
+    int32_t, ::UnityEngine::UIElements::TextureId, int32_t, int32_t, float_t, float_t)>(&::UnityEngine::UIElements::UIR::TextureSlotManager::SetGpuData)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x6abf0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(), "SetGpuData", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextureId>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -313,22 +317,26 @@ inline int32_t UnityEngine::UIElements::UIR::TextureSlotManager::FindOldestSlot(
                                                                              "FindOldestSlot", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIR::TextureSlotManager::Bind(::UnityEngine::UIElements::TextureId id, float_t sdfScale, int32_t slot, ::UnityEngine::MaterialPropertyBlock* mat) {
+inline void UnityEngine::UIElements::UIR::TextureSlotManager::Bind(::UnityEngine::UIElements::TextureId id, float_t sdfScale, float_t sharpness, int32_t slot,
+                                                                   ::UnityEngine::MaterialPropertyBlock* mat, ::UnityEngine::UIElements::UIR::CommandList* commandList) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(), "Bind", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextureId>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, sdfScale, slot, mat);
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextureId>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::UIR::CommandList*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, sdfScale, sharpness, slot, mat, commandList);
 }
-inline void UnityEngine::UIElements::UIR::TextureSlotManager::SetGpuData(int32_t slotIndex, ::UnityEngine::UIElements::TextureId id, int32_t textureWidth, int32_t textureHeight, float_t sdfScale) {
+inline void UnityEngine::UIElements::UIR::TextureSlotManager::SetGpuData(int32_t slotIndex, ::UnityEngine::UIElements::TextureId id, int32_t textureWidth, int32_t textureHeight, float_t sdfScale,
+                                                                         float_t sharpness) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureSlotManager*>::get(), "SetGpuData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextureId>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slotIndex, id, textureWidth, textureHeight, sdfScale);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slotIndex, id, textureWidth, textureHeight, sdfScale, sharpness);
 }
 inline ::UnityEngine::UIElements::UIR::TextureSlotManager* UnityEngine::UIElements::UIR::TextureSlotManager::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::UIR::TextureSlotManager*>());

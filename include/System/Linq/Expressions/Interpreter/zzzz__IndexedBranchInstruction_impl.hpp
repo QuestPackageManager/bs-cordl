@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::*)(int32_t)>(
     &::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40c3e5c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d73378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(
     &::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::GetLabel)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x40c3e84;
+  constexpr static std::size_t addrs = 0x5d73380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::*)(
     int32_t, ::System::Object*, ::System::Func_2<int32_t, int32_t>*, ::System::Collections::Generic::IReadOnlyList_1<::System::Object*>*)>(
     &::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::ToDebugString)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x40c3ecc;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5d733c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::IndexedBranchInstruction::ToString)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x40c3fa8;
+  constexpr static std::size_t addrs = 0x5d734a8;
 
   inline static ::MethodInfo const* methodInfo() {
 

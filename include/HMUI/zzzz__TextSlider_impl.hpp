@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "HMUI/TextSlider.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_impl.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "HMUI/zzzz__TextSlider_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IInitializePotentialDragHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -20,8 +20,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::Color)>(&::HMUI::TextSlider::set_valueTextColor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f0ab4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5668bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::get_handleRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f21ac;
+  constexpr static std::size_t addrs = 0x566a390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "get_handleRect",
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::RectTransform*)>(&::HMUI::TextSlider::set_handleRect)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39f21b4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x566a398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::Color)>(&::HMUI::TextSlider::set_handleColor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39f09f0;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5668b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::get_handleSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f2374;
+  constexpr static std::size_t addrs = 0x566a57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "get_handleSize",
@@ -88,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(float_t)>(&::HMUI::TextSlider::set_handleSize)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39f237c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x566a584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::get_valueSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f23fc;
+  constexpr static std::size_t addrs = 0x566a608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "get_valueSize",
@@ -115,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(float_t)>(&::HMUI::TextSlider::set_valueSize)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39f2404;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x566a610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::get_separatorSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f2484;
+  constexpr static std::size_t addrs = 0x566a694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "get_separatorSize",
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(float_t)>(&::HMUI::TextSlider::set_separatorSize)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39f248c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x566a69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::get_numberOfSteps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f250c;
+  constexpr static std::size_t addrs = 0x566a720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "get_numberOfSteps",
@@ -169,8 +169,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(int32_t)>(&::HMUI::TextSlider::set_numberOfSteps)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39f0100;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x56682f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,8 +183,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::get_normalizedValue)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39f0938;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5668a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "get_normalizedValue",
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(float_t)>(&::HMUI::TextSlider::set_normalizedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f1120;
+  constexpr static std::size_t addrs = 0x5669290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,8 +211,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>*)>(
     &::HMUI::TextSlider::add_normalizedValueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39f0190;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5668388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::System::Action_2<::UnityW<::HMUI::TextSlider>, float_t>*)>(
     &::HMUI::TextSlider::remove_normalizedValueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39f02d0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56684c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::UI::CanvasUpdate)>(&::HMUI::TextSlider::Rebuild)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f25a8;
+  constexpr static std::size_t addrs = 0x566a7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::LayoutComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f25ac;
+  constexpr static std::size_t addrs = 0x566a7c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f25b0;
+  constexpr static std::size_t addrs = 0x566a7c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,7 +283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::Refresh)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f25b4;
+  constexpr static std::size_t addrs = 0x566a7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "Refresh",
@@ -296,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::OnEnable)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39f25c4;
+  constexpr static std::size_t addrs = 0x566a7dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -309,8 +309,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::OnDisable)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f2604;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x566a81c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,8 +323,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::UpdateCachedReferences)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x39f223c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x566a434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), "UpdateCachedReferences",
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(float_t)>(&::HMUI::TextSlider::SetNormalizedValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f164c;
+  constexpr static std::size_t addrs = 0x5669808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,8 +350,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(float_t, bool)>(&::HMUI::TextSlider::SetNormalizedValue)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39f2514;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x566a728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,8 +364,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::OnRectTransformDimensionsChange)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39f2628;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x566a824;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -378,8 +378,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::UpdateVisuals)> {
-  constexpr static std::size_t size = 0x3d0;
-  constexpr static std::size_t addrs = 0x39f0568;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x5668754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -392,8 +392,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::TextSlider::UpdateDrag)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x39f266c;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x566a85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -407,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::TextSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::TextSlider::MayDrag)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39f2878;
+  constexpr static std::size_t addrs = 0x566aaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -420,8 +420,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::TextSlider::OnBeginDrag)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39f28dc;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x566ab0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -434,8 +434,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::TextSlider::OnDrag)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x39f2964;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x566aba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,8 +448,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(&::HMUI::TextSlider::OnPointerDown)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x39f29fc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x566ac4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -463,8 +463,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::HMUI::TextSlider::OnInitializePotentialDrag)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39f2a9c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x566acfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -478,7 +478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::TextSlider::*)(float_t)>(&::HMUI::TextSlider::TextForNormalizedValue)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f2ab4;
+  constexpr static std::size_t addrs = 0x566ad10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -492,7 +492,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TextSlider::*)()>(&::HMUI::TextSlider::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39f0d60;
+  constexpr static std::size_t addrs = 0x5668e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TextSlider*>::get(), ".ctor",
@@ -506,7 +506,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::HMUI::TextSlider::*)()>(
     &::HMUI::TextSlider::UnityEngine_UI_ICanvasElement_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f2ad0;
+  constexpr static std::size_t addrs = 0x566ad2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

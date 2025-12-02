@@ -16,8 +16,8 @@ template <typename T> constexpr ::Unity::Collections::LowLevel::Unsafe::BurstRun
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::StringW)>(&::Unity::Collections::LowLevel::Unsafe::BurstRuntime::HashStringWithFNV1A64)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48619a0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x682b474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

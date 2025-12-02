@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/ObjRefSurrogate.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__ObjRefSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ObjRefSurrogate::*)(
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Remoting::Messaging::ObjRefSurrogate::GetObjectData)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3cf19c8;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x59338a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::ObjRefSurrogate::*)(::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext,
                                                                 ::System::Runtime::Serialization::ISurrogateSelector*)>(&::System::Runtime::Remoting::Messaging::ObjRefSurrogate::SetObjectData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3cf1b9c;
+  constexpr static std::size_t addrs = 0x5933a28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::ObjRefSurrogate::*)()>(
     &::System::Runtime::Remoting::Messaging::ObjRefSurrogate::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf1be8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5933a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::ObjRefSurrogate*>::get(),

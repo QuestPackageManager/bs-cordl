@@ -24,12 +24,12 @@ namespace System::Security::AccessControl {
 class CORDL_TYPE CommonObjectSecurity : public ::System::Security::AccessControl::ObjectSecurity {
 public:
   // Declarations
-  /// @brief Method GetAccessRules, addr 0x3cc4d4c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAccessRules, addr 0x5908520, size 0x4, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AuthorizationRuleCollection* GetAccessRules(bool includeExplicit, bool includeInherited, ::System::Type* targetType);
 
   static inline ::System::Security::AccessControl::CommonObjectSecurity* New_ctor(bool isContainer);
 
-  /// @brief Method .ctor, addr 0x3cc4c50, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5908434, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool isContainer);
 
 protected:
@@ -47,7 +47,7 @@ public:
   CommonObjectSecurity(CommonObjectSecurity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3042 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

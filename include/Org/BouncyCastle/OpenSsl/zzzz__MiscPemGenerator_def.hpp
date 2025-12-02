@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -13,6 +12,9 @@ class AsymmetricKeyParameter;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
+}
+namespace Org::BouncyCastle::Utilities::IO::Pem {
+class PemObjectGenerator;
 }
 namespace Org::BouncyCastle::Utilities::IO::Pem {
 class PemObject;
@@ -26,7 +28,7 @@ class MiscPemGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::OpenSsl::MiscPemGenerator);
-// Dependencies Org.BouncyCastle.Utilities.IO.Pem.PemObjectGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::OpenSsl {
 // Is value type: false
 // CS Name: Org.BouncyCastle.OpenSsl.MiscPemGenerator
@@ -48,17 +50,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"
   constexpr operator ::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator*() noexcept;
 
-  /// @brief Method CreatePemObject, addr 0x254f56c, size 0x640, virtual false, abstract: false, final false
+  /// @brief Method CreatePemObject, addr 0x347f2cc, size 0x6b0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* CreatePemObject(::System::Object* obj);
 
-  /// @brief Method CreatePemObject, addr 0x2550094, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method CreatePemObject, addr 0x347fea8, size 0x5cc, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* CreatePemObject(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password,
                                                                                     ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method EncodePrivateKey, addr 0x254fbac, size 0x4e8, virtual false, abstract: false, final false
+  /// @brief Method EncodePrivateKey, addr 0x347f97c, size 0x52c, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePrivateKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* akp, ::ByRef<::StringW> keyType);
 
-  /// @brief Method Generate, addr 0x2550b20, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x34809c0, size 0xf4, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Utilities::IO::Pem::PemObject* Generate();
 
   static inline ::Org::BouncyCastle::OpenSsl::MiscPemGenerator* New_ctor(::System::Object* obj);
@@ -90,10 +92,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x254f504, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x347f2b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x254f52c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x347f2c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, ::StringW algorithm, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IO::Pem::PemObjectGenerator"

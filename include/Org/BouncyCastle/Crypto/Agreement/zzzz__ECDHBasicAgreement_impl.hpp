@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/ECDHBasicAgreement.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IBasicAgreement_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/zzzz__ECDHBasicAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECPrivateKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IBasicAgreement_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement.Init
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::Init)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x268e68c;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x35bdb08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::GetFieldSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x268e778;
+  constexpr static std::size_t addrs = 0x35bdc08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::CalculateAgreement)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x268e7c0;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x35bdc50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::ECDHBasicAgreement::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268ea20;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35bdeb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

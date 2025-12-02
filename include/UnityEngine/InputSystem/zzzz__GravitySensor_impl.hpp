@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::GravitySensor::*)()>(
     &::UnityEngine::InputSystem::GravitySensor::get_gravity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c7698;
+  constexpr static std::size_t addrs = 0x6347c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "get_gravity",
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::GravitySensor::set_gravity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c76a0;
+  constexpr static std::size_t addrs = 0x6347c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::GravitySensor* (*)()>(&::UnityEngine::InputSystem::GravitySensor::get_current)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45c76a8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6347c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), "get_current",
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::GravitySensor*)>(&::UnityEngine::InputSystem::GravitySensor::set_current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45c76f0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6347c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::FinishSetup)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45c773c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6347ce0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::MakeCurrent)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45c77b4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6347d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::OnRemoved)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45c7808;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6347da0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::GravitySensor::*)()>(&::UnityEngine::InputSystem::GravitySensor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c788c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6347e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::GravitySensor*>::get(), ".ctor",

@@ -15,6 +15,9 @@ namespace UnityEngine::PlayerLoop {
 struct PreUpdate_IMGUISendQueuedEvents;
 }
 namespace UnityEngine::PlayerLoop {
+struct PreUpdate_InputForUIUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PreUpdate_NewInputUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -49,6 +52,9 @@ namespace UnityEngine::PlayerLoop {
 struct PreUpdate_IMGUISendQueuedEvents;
 }
 namespace UnityEngine::PlayerLoop {
+struct PreUpdate_InputForUIUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PreUpdate_NewInputUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -74,6 +80,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_AIUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_CheckTexFieldInput);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_IMGUISendQueuedEvents);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_InputForUIUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_NewInputUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_Physics2DUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreUpdate_PhysicsClothUpdate);
@@ -94,7 +101,7 @@ public:
   constexpr PreUpdate_PhysicsUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10530 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -122,7 +129,7 @@ public:
   constexpr PreUpdate_Physics2DUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10531 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -150,7 +157,7 @@ public:
   constexpr PreUpdate_PhysicsClothUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10532 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -178,7 +185,7 @@ public:
   constexpr PreUpdate_CheckTexFieldInput();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10533 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -206,7 +213,7 @@ public:
   constexpr PreUpdate_IMGUISendQueuedEvents();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10534 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -234,7 +241,7 @@ public:
   constexpr PreUpdate_SendMouseEvents();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11082 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10535 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -262,7 +269,7 @@ public:
   constexpr PreUpdate_AIUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10536 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -290,7 +297,7 @@ public:
   constexpr PreUpdate_WindUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10537 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -318,7 +325,7 @@ public:
   constexpr PreUpdate_UpdateVideo();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10538 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -346,7 +353,7 @@ public:
   constexpr PreUpdate_NewInputUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10539 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -364,6 +371,34 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreUpda
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
+// CS Name: UnityEngine.PlayerLoop.PreUpdate/InputForUIUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE PreUpdate_InputForUIUpdate {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreUpdate_InputForUIUpdate();
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10540 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreUpdate_InputForUIUpdate, 0x1>, "Size mismatch!");
+
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
 // CS Name: UnityEngine.PlayerLoop.PreUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PreUpdate {
@@ -374,6 +409,8 @@ public:
   using CheckTexFieldInput = ::UnityEngine::PlayerLoop::PreUpdate_CheckTexFieldInput;
 
   using IMGUISendQueuedEvents = ::UnityEngine::PlayerLoop::PreUpdate_IMGUISendQueuedEvents;
+
+  using InputForUIUpdate = ::UnityEngine::PlayerLoop::PreUpdate_InputForUIUpdate;
 
   using NewInputUpdate = ::UnityEngine::PlayerLoop::PreUpdate_NewInputUpdate;
 
@@ -394,7 +431,7 @@ public:
   constexpr PreUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10541 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -413,6 +450,7 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate, "UnityEngine.Player
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_AIUpdate, "UnityEngine.PlayerLoop", "PreUpdate/AIUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_CheckTexFieldInput, "UnityEngine.PlayerLoop", "PreUpdate/CheckTexFieldInput");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_IMGUISendQueuedEvents, "UnityEngine.PlayerLoop", "PreUpdate/IMGUISendQueuedEvents");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_InputForUIUpdate, "UnityEngine.PlayerLoop", "PreUpdate/InputForUIUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_NewInputUpdate, "UnityEngine.PlayerLoop", "PreUpdate/NewInputUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_Physics2DUpdate, "UnityEngine.PlayerLoop", "PreUpdate/Physics2DUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreUpdate_PhysicsClothUpdate, "UnityEngine.PlayerLoop", "PreUpdate/PhysicsClothUpdate");

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapCharacteristicsTableView.hpp"
-#include "HMUI/zzzz__TableView_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicsTableView_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCharacteristicCollection_def.hpp"
@@ -14,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::add_didSelectCharacteristic)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afe914;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56d0554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicsTableView::remove_didSelectCharacteristic)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afe9c4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56d06dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::Init)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3afea74;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x56e0bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(),
@@ -59,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::GlobalNamespace::BeatmapCharacteristicCollection*)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::SetData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3afeb38;
+  constexpr static std::size_t addrs = 0x56d07f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::OnDestroy)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3afeb90;
+  constexpr static std::size_t addrs = 0x56e0ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(),
@@ -88,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afec20;
+  constexpr static std::size_t addrs = 0x56e0d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::NumberOfCells)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3afec28;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x56e0d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(),
@@ -116,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3afece0;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x56e0df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(),
@@ -132,8 +131,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::HandleDidSelectColumnEvent)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3afee94;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x56e0fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(),
@@ -148,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::HandleAdditionalContentModelDidInvalidateData)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3afef74;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x56e10a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)(int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::SelectCellWithIdx)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3aff020;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56d0614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicsTableView::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicsTableView::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3aff040;
+  constexpr static std::size_t addrs = 0x56e1148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCharacteristicsTableView*>::get(),

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeDispatchData)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 class Object;
 }
@@ -17,7 +19,7 @@ struct TypeDispatchData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TypeDispatchData);
-// Dependencies System.IDisposable, Unity.Collections.NativeArray`1<T>
+// Dependencies Unity.Collections.NativeArray`1<T>
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.TypeDispatchData
@@ -27,7 +29,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x48a57d4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x68a0d1c, size 0x60, virtual true, abstract: false, final true
   inline void Dispose();
 
   /// @brief Convert to "::System::IDisposable"
@@ -44,7 +46,7 @@ public:
                              ::Unity::Collections::NativeArray_1<int32_t> destroyedID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10239 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };

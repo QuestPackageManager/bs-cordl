@@ -6,14 +6,11 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackList)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
-}
 namespace System {
 class Delegate;
 }
-namespace UnityEngine::UIElements {
-struct CallbackPhase;
+namespace System {
+template <typename T> struct Span_1;
 }
 namespace UnityEngine::UIElements {
 class EventCallbackFunctorBase;
@@ -31,88 +28,71 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE EventCallbackList : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+  /// @brief Field EmptyArray, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_EmptyArray,
+                      put = setStaticF_EmptyArray)) ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*>
+      EmptyArray;
 
-  __declspec(property(get = get_Item)) ::UnityEngine::UIElements::EventCallbackFunctorBase* Item[];
+  /// @brief Field EmptyList, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList)) ::UnityEngine::UIElements::EventCallbackList* EmptyList;
 
-  /// @brief Field <bubbleUpCallbackCount>k__BackingField, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__bubbleUpCallbackCount_k__BackingField,
-                      put = __cordl_internal_set__bubbleUpCallbackCount_k__BackingField)) int32_t _bubbleUpCallbackCount_k__BackingField;
+  __declspec(property(get = get_Span)) ::System::Span_1<::UnityEngine::UIElements::EventCallbackFunctorBase*> Span;
 
-  /// @brief Field <trickleDownCallbackCount>k__BackingField, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__trickleDownCallbackCount_k__BackingField,
-                      put = __cordl_internal_set__trickleDownCallbackCount_k__BackingField)) int32_t _trickleDownCallbackCount_k__BackingField;
+  /// @brief Field m_Array, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_Array,
+                      put = __cordl_internal_set_m_Array)) ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*>
+      m_Array;
 
-  __declspec(property(get = get_bubbleUpCallbackCount, put = set_bubbleUpCallbackCount)) int32_t bubbleUpCallbackCount;
+  /// @brief Field m_Count, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_Count, put = __cordl_internal_set_m_Count)) int32_t m_Count;
 
-  /// @brief Field m_List, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_List, put = __cordl_internal_set_m_List)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* m_List;
-
-  __declspec(property(get = get_trickleDownCallbackCount, put = set_trickleDownCallbackCount)) int32_t trickleDownCallbackCount;
-
-  /// @brief Method Add, addr 0x4a28100, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6b64838, size 0xf0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::EventCallbackFunctorBase* item);
 
-  /// @brief Method AddRange, addr 0x4a27be4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method AddRange, addr 0x6b6449c, size 0xcc, virtual false, abstract: false, final false
   inline void AddRange(::UnityEngine::UIElements::EventCallbackList* list);
 
-  /// @brief Method Clear, addr 0x4a27dd8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6b645e8, size 0x28, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x4a27ee0, size 0x18, virtual false, abstract: false, final false
-  inline bool Contains(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
-
-  /// @brief Method Find, addr 0x4a27ef8, size 0xe8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventCallbackFunctorBase* Find(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
+  /// @brief Method Find, addr 0x6b64684, size 0xb0, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::EventCallbackFunctorBase* Find(int64_t eventTypeId, ::System::Delegate* callback);
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor();
 
   static inline ::UnityEngine::UIElements::EventCallbackList* New_ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
-  /// @brief Method Remove, addr 0x4a27fe0, size 0x120, virtual false, abstract: false, final false
-  inline bool Remove(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
+  /// @brief Method Remove, addr 0x6b64734, size 0x104, virtual false, abstract: false, final false
+  inline bool Remove(int64_t eventTypeId, ::System::Delegate* callback, ::ByRef<::UnityEngine::UIElements::EventCallbackFunctorBase*> removedFunctor);
 
-  constexpr int32_t const& __cordl_internal_get__bubbleUpCallbackCount_k__BackingField() const;
+  constexpr ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> const& __cordl_internal_get_m_Array() const;
 
-  constexpr int32_t& __cordl_internal_get__bubbleUpCallbackCount_k__BackingField();
+  constexpr ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*>& __cordl_internal_get_m_Array();
 
-  constexpr int32_t const& __cordl_internal_get__trickleDownCallbackCount_k__BackingField() const;
+  constexpr int32_t const& __cordl_internal_get_m_Count() const;
 
-  constexpr int32_t& __cordl_internal_get__trickleDownCallbackCount_k__BackingField();
+  constexpr int32_t& __cordl_internal_get_m_Count();
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* const& __cordl_internal_get_m_List() const;
+  constexpr void __cordl_internal_set_m_Array(::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> value);
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>*& __cordl_internal_get_m_List();
+  constexpr void __cordl_internal_set_m_Count(int32_t value);
 
-  constexpr void __cordl_internal_set__bubbleUpCallbackCount_k__BackingField(int32_t value);
-
-  constexpr void __cordl_internal_set__trickleDownCallbackCount_k__BackingField(int32_t value);
-
-  constexpr void __cordl_internal_set_m_List(::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* value);
-
-  /// @brief Method .ctor, addr 0x4a27b64, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b64438, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a27ad8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b643bc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCallbackList* source);
 
-  /// @brief Method get_Count, addr 0x4a281d4, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+  static inline ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> getStaticF_EmptyArray();
 
-  /// @brief Method get_Item, addr 0x4a2821c, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventCallbackFunctorBase* get_Item(int32_t i);
+  static inline ::UnityEngine::UIElements::EventCallbackList* getStaticF_EmptyList();
 
-  /// @brief Method get_bubbleUpCallbackCount, addr 0x4a27ed0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_bubbleUpCallbackCount();
+  /// @brief Method get_Span, addr 0x6b64928, size 0xec, virtual false, abstract: false, final false
+  inline ::System::Span_1<::UnityEngine::UIElements::EventCallbackFunctorBase*> get_Span();
 
-  /// @brief Method get_trickleDownCallbackCount, addr 0x4a27ec0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_trickleDownCallbackCount();
+  static inline void setStaticF_EmptyArray(::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> value);
 
-  /// @brief Method set_bubbleUpCallbackCount, addr 0x4a27ed8, size 0x8, virtual false, abstract: false, final false
-  inline void set_bubbleUpCallbackCount(int32_t value);
-
-  /// @brief Method set_trickleDownCallbackCount, addr 0x4a27ec8, size 0x8, virtual false, abstract: false, final false
-  inline void set_trickleDownCallbackCount(int32_t value);
+  static inline void setStaticF_EmptyList(::UnityEngine::UIElements::EventCallbackList* value);
 
 protected:
   // Ctor Parameters []
@@ -129,25 +109,20 @@ public:
   EventCallbackList(EventCallbackList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4459 };
 
-  /// @brief Field m_List, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::EventCallbackFunctorBase*>* ___m_List;
+  /// @brief Field m_Array, offset: 0x10, size: 0x8, def value: None
+  ::ArrayW<::UnityEngine::UIElements::EventCallbackFunctorBase*, ::Array<::UnityEngine::UIElements::EventCallbackFunctorBase*>*> ___m_Array;
 
-  /// @brief Field <trickleDownCallbackCount>k__BackingField, offset: 0x18, size: 0x4, def value: None
-  int32_t ____trickleDownCallbackCount_k__BackingField;
-
-  /// @brief Field <bubbleUpCallbackCount>k__BackingField, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____bubbleUpCallbackCount_k__BackingField;
+  /// @brief Field m_Count, offset: 0x18, size: 0x4, def value: None
+  int32_t ___m_Count;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::EventCallbackList, ___m_List) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackList, ___m_Array) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventCallbackList, ____trickleDownCallbackCount_k__BackingField) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::EventCallbackList, ____bubbleUpCallbackCount_k__BackingField) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackList, ___m_Count) == 0x18, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackList, 0x20>, "Size mismatch!");
 

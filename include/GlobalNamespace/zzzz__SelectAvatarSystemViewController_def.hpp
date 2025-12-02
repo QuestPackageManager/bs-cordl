@@ -3,10 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -33,6 +31,9 @@ class HoverHint;
 }
 namespace HMUI {
 class TableCell;
+}
+namespace HMUI {
+class TableView_IDataSource;
 }
 namespace HMUI {
 class TableView;
@@ -65,7 +66,7 @@ struct SelectAvatarSystemViewController__ReloadContinueButtonInteractability_d__
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SelectAvatarSystemViewController);
 MARK_VAL_T(::GlobalNamespace::SelectAvatarSystemViewController__ReloadContinueButtonInteractability_d__31);
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: SelectAvatarSystemViewController/<ReloadContinueButtonInteractability>d__31
@@ -75,10 +76,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3af7fd0, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x56dacbc, size 0x234, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3af81f8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x56daef0, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -96,7 +97,7 @@ public:
                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6526 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -127,7 +128,7 @@ static_assert(offsetof(::GlobalNamespace::SelectAvatarSystemViewController__Relo
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SelectAvatarSystemViewController__ReloadContinueButtonInteractability_d__31, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies HMUI.TableView::IDataSource, HMUI.ViewController
+// Dependencies HMUI.ViewController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SelectAvatarSystemViewController
@@ -184,49 +185,49 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x3af7a0c, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x56da968, size 0x2d0, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3af7960, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x56da8b8, size 0xc, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method DidActivate, addr 0x3af6fbc, size 0x388, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x56da164, size 0x3a4, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3af76e8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x56da8a8, size 0x10, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x3af7f90, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressCreateButton, addr 0x56dac80, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressCreateButton(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x3af7f74, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressEditButton, addr 0x56dac64, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressEditButton(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x3af7f48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleLoadedSelectionViewDidPressPreferredButton, addr 0x56dac38, size 0x2c, virtual false, abstract: false, final false
   inline void HandleLoadedSelectionViewDidPressPreferredButton(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
   static inline ::GlobalNamespace::SelectAvatarSystemViewController* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3af796c, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x56da8c4, size 0xa4, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method Prewarm, addr 0x3af691c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Prewarm, addr 0x56d9b00, size 0x48, virtual false, abstract: false, final false
   inline void Prewarm(::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* avatarSystems,
                       ::BeatSaber::AvatarCore::IAvatarSystemMetadata* selectedAvatarSystem);
 
-  /// @brief Method ReloadContinueButtonInteractability, addr 0x3af7658, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReloadContinueButtonInteractability, addr 0x56da804, size 0xa4, virtual false, abstract: false, final false
   inline void ReloadContinueButtonInteractability();
 
-  /// @brief Method ReloadCreateEditButtonOfAvatarSystem, addr 0x3af7344, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method ReloadCreateEditButtonOfAvatarSystem, addr 0x56da508, size 0x2fc, virtual false, abstract: false, final false
   inline void ReloadCreateEditButtonOfAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* avatarSystem);
 
-  /// @brief Method SetAllCellsActive, addr 0x3af6c8c, size 0x330, virtual false, abstract: false, final false
+  /// @brief Method SetAllCellsActive, addr 0x56d9e50, size 0x314, virtual false, abstract: false, final false
   inline void SetAllCellsActive(bool active);
 
-  /// @brief Method SetSelectedAvatarSystem, addr 0x3af6964, size 0x328, virtual false, abstract: false, final false
+  /// @brief Method SetSelectedAvatarSystem, addr 0x56d9b48, size 0x308, virtual false, abstract: false, final false
   inline void SetSelectedAvatarSystem(::BeatSaber::AvatarCore::IAvatarSystemMetadata* selectedAvatarSystem);
 
-  /// @brief Method <DidActivate>b__26_0, addr 0x3af7fb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__26_0, addr 0x56daca0, size 0x1c, virtual false, abstract: false, final false
   inline void _DidActivate_b__26_0();
 
   constexpr ::BeatSaber::AvatarCore::AvatarSystemCollection* const& __cordl_internal_get__avatarSystemCollection() const;
@@ -307,40 +308,40 @@ public:
 
   constexpr void __cordl_internal_set_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method .ctor, addr 0x3af7fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56dac9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressContinueButtonEvent, addr 0x3af678c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPressContinueButtonEvent, addr 0x56d9950, size 0xac, virtual false, abstract: false, final false
   inline void add_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x3af662c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestCreationOfAvatarEvent, addr 0x56d97d0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x3af64cc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didRequestEditOfAvatarEvent, addr 0x56d9650, size 0xc0, virtual false, abstract: false, final false
   inline void add_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x3af636c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetAvatarSystemPreferredEvent, addr 0x56d94d0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method get_continueButtonVisible, addr 0x3af68c4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_continueButtonVisible, addr 0x56d9aa8, size 0x28, virtual false, abstract: false, final false
   inline bool get_continueButtonVisible();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_didPressContinueButtonEvent, addr 0x3af6828, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressContinueButtonEvent, addr 0x56d99fc, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPressContinueButtonEvent(::System::Action* value);
 
-  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x3af66dc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestCreationOfAvatarEvent, addr 0x56d9890, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didRequestCreationOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x3af657c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didRequestEditOfAvatarEvent, addr 0x56d9710, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didRequestEditOfAvatarEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x3af641c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetAvatarSystemPreferredEvent, addr 0x56d9590, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSetAvatarSystemPreferredEvent(::System::Action_1<::BeatSaber::AvatarCore::IAvatarSystemMetadata*>* value);
 
-  /// @brief Method set_continueButtonVisible, addr 0x3af68ec, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_continueButtonVisible, addr 0x56d9ad0, size 0x30, virtual false, abstract: false, final false
   inline void set_continueButtonVisible(bool value);
 
 protected:
@@ -358,7 +359,7 @@ public:
   SelectAvatarSystemViewController(SelectAvatarSystemViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6527 };
 
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"cellPrefab" };

@@ -44,7 +44,7 @@ public:
   constexpr VertexPath_Vertex(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 tangent, ::UnityEngine::Vector3 normal) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x24 };
@@ -102,25 +102,25 @@ public:
   /// @brief Field vertexCount, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_vertexCount, put = __cordl_internal_set_vertexCount)) int32_t vertexCount;
 
-  /// @brief Method AddVertex, addr 0x3b31b24, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method AddVertex, addr 0x571301c, size 0x498, virtual false, abstract: false, final false
   inline void AddVertex(::ByRef<::UnityEngine::Vector3> p0, ::ByRef<::UnityEngine::Vector3> p1, ::ByRef<::UnityEngine::Vector3> p2, ::ByRef<::UnityEngine::Vector3> p3, float_t t,
                         ::ByRef<::UnityEngine::Vector3> lastRotationAxis, ::ByRef<float_t> currentPathLength, ::ByRef<::GlobalNamespace::VertexPath_Vertex> lastVertex, ::ByRef<int32_t> vertCount);
 
-  /// @brief Method GetPoint, addr 0x3b31aec, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetPoint, addr 0x5712fe4, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 GetPoint(int32_t index);
 
-  /// @brief Method GetVertex, addr 0x3b31a8c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetVertex, addr 0x5712f84, size 0x60, virtual false, abstract: false, final false
   inline void GetVertex(int32_t index, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Vector3> tangent, ::ByRef<::UnityEngine::Vector3> normal);
 
   static inline ::GlobalNamespace::VertexPath* New_ctor(int32_t numberOfPathSegments);
 
-  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x3b31518, size 0x53c, virtual false, abstract: false, final false
+  /// @brief Method SplitBezierPathIntoFixNumberOfSegments, addr 0x57129fc, size 0x550, virtual false, abstract: false, final false
   inline void SplitBezierPathIntoFixNumberOfSegments(::GlobalNamespace::BezierPath* bezierPath, int32_t numberOfVertexSegments);
 
-  /// @brief Method TimeAtPoint, addr 0x3b31a54, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method TimeAtPoint, addr 0x5712f4c, size 0x38, virtual false, abstract: false, final false
   inline float_t TimeAtPoint(int32_t pointIndex);
 
-  /// @brief Method UpdateByBezierPath, addr 0x3b31098, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method UpdateByBezierPath, addr 0x571255c, size 0x47c, virtual false, abstract: false, final false
   inline void UpdateByBezierPath(::GlobalNamespace::BezierPath* bezierPath);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__anchorVertexMap() const;
@@ -153,12 +153,12 @@ public:
 
   constexpr void __cordl_internal_set_vertexCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b30fb4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5712478, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numberOfPathSegments);
 
   static inline ::UnityEngine::Vector3 getStaticF__back();
 
-  /// @brief Method get_length, addr 0x3b31510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x57129f4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_length();
 
   static inline void setStaticF__back(::UnityEngine::Vector3 value);
@@ -178,7 +178,7 @@ public:
   VertexPath(VertexPath const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6758 };
 
   /// @brief Field vertexCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___vertexCount;

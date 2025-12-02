@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IConnectionManager.hpp"
-#include "GlobalNamespace/zzzz__IPollable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "GlobalNamespace/zzzz__IConnectionManager_def.hpp"
 #include "BGNet/Core/zzzz__DeliveryMethod_def.hpp"
 #include "GlobalNamespace/zzzz__ConnectionFailedReason_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectionInitParams_1_def.hpp"
 #include "GlobalNamespace/zzzz__IConnection_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
-#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IAsyncDisposable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IConnectionManager.add_onInitializedEvent
 template <>
 
@@ -397,21 +397,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::IConnectionManager.DisposeAsync
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::IConnectionManager::*)()>(
-    &::GlobalNamespace::IConnectionManager::DisposeAsync)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(), 27));
-    return ___internal_method;
-  }
-};
 inline void GlobalNamespace::IConnectionManager::add_onInitializedEvent(::System::Action* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(), 0)));
@@ -552,11 +537,6 @@ inline ::GlobalNamespace::IConnection* GlobalNamespace::IConnectionManager::GetC
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IConnection*, false>(this, ___internal_method, index);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::IConnectionManager::DisposeAsync() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IConnectionManager*>::get(), 27)));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
-}
 /// @brief Convert operator to "::GlobalNamespace::IPollable"
 constexpr GlobalNamespace::IConnectionManager::operator ::GlobalNamespace::IPollable*() noexcept {
   return static_cast<::GlobalNamespace::IPollable*>(static_cast<void*>(this));
@@ -572,4 +552,12 @@ constexpr GlobalNamespace::IConnectionManager::operator ::System::IDisposable*()
 /// @brief Convert to "::System::IDisposable"
 constexpr ::System::IDisposable* GlobalNamespace::IConnectionManager::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IAsyncDisposable"
+constexpr GlobalNamespace::IConnectionManager::operator ::System::IAsyncDisposable*() noexcept {
+  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IAsyncDisposable"
+constexpr ::System::IAsyncDisposable* GlobalNamespace::IConnectionManager::i___System__IAsyncDisposable() noexcept {
+  return static_cast<::System::IAsyncDisposable*>(static_cast<void*>(this));
 }

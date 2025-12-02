@@ -27,15 +27,15 @@ public:
   /// @brief Field _beatmapObjectManager, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
 
-  /// @brief Method HandleNoteWasMissed, addr 0x3bb4af0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x57a51b8, size 0x70, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
-  /// @brief Method Init, addr 0x3bb491c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x57a4fd4, size 0x14c, virtual true, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::MissMissionObjectiveChecker* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb4a60, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57a5120, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
-  /// @brief Method .ctor, addr 0x3bb4b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a5228, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -62,7 +62,7 @@ public:
   MissMissionObjectiveChecker(MissMissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6054 };
 
   /// @brief Field _beatmapObjectManager, offset: 0x50, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;

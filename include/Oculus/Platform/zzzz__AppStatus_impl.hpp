@@ -14,3 +14,4 @@ constexpr ::Oculus::Platform::AppStatus Oculus::Platform::AppStatus::Downloading
 constexpr ::Oculus::Platform::AppStatus Oculus::Platform::AppStatus::Installing{ static_cast<int32_t>(0x4) };
 constexpr ::Oculus::Platform::AppStatus Oculus::Platform::AppStatus::Installed{ static_cast<int32_t>(0x5) };
 constexpr ::Oculus::Platform::AppStatus Oculus::Platform::AppStatus::Uninstalling{ static_cast<int32_t>(0x6) };
+constexpr ::Oculus::Platform::AppStatus Oculus::Platform::AppStatus::InstallQueued{ static_cast<int32_t>(0x7) };

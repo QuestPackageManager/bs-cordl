@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_2<int32_t, ::StringW>* (*)()>(
     &::UnityEngineInternal::Input::NativeInputSystem::get_onDeviceDiscovered)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48eca64;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x692f6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Action_2<int32_t, ::StringW>*)>(
     &::UnityEngineInternal::Input::NativeInputSystem::set_onDeviceDiscovered)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48ecabc;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x692f748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(
     &::UnityEngineInternal::Input::NativeInputSystem::NotifyBeforeUpdate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48ecbac;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x692f83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::System::IntPtr)>(
     &::UnityEngineInternal::Input::NativeInputSystem::NotifyUpdate)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x48ecc28;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x692f8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::StringW)>(&::UnityEngineInternal::Input::NativeInputSystem::NotifyDeviceDiscovered)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48eccc4;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x692f95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType, ::ByRef<bool>)>(
     &::UnityEngineInternal::Input::NativeInputSystem::ShouldRunUpdate)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48ecd54;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x692f9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_hasDeviceDiscoveredCallback)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ecb40;
+  constexpr static std::size_t addrs = 0x692f7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48ecde4;
+  constexpr static std::size_t addrs = 0x692fa84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_currentTimeOffsetToRealtimeSinceStartup)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48ece0c;
+  constexpr static std::size_t addrs = 0x692faac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::AllocateDeviceId)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48ece34;
+  constexpr static std::size_t addrs = 0x692fad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
@@ -157,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngineInternal::Input::NativeInputSystem::QueueInputEvent)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ece5c;
+  constexpr static std::size_t addrs = 0x692fafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int32_t, ::System::IntPtr, int32_t)>(&::UnityEngineInternal::Input::NativeInputSystem::IOCTL)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48ece98;
+  constexpr static std::size_t addrs = 0x692fb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::UnityEngineInternal::Input::NativeInputSystem::SetPollingFrequency)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x48ecef4;
+  constexpr static std::size_t addrs = 0x692fb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,12 +201,52 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngineInternal::Input::NativeInputUpdateType)>(
     &::UnityEngineInternal::Input::NativeInputSystem::Update)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ecf2c;
+  constexpr static std::size_t addrs = 0x692fbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.get_normalizeScrollWheelDelta
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x692fc08;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
+                                                                               "get_normalizeScrollWheelDelta", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.set_normalizeScrollWheelDelta
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x692fc30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(), "set_normalizeScrollWheelDelta",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngineInternal::Input::NativeInputSystem.GetScrollWheelDeltaPerTick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x692fc6c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
+                                                                               "GetScrollWheelDeltaPerTick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -329,6 +369,22 @@ inline void UnityEngineInternal::Input::NativeInputSystem::Update(::UnityEngineI
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(), "Update", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngineInternal::Input::NativeInputUpdateType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, updateType);
+}
+inline bool UnityEngineInternal::Input::NativeInputSystem::get_normalizeScrollWheelDelta() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
+                                                                             "get_normalizeScrollWheelDelta", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline void UnityEngineInternal::Input::NativeInputSystem::set_normalizeScrollWheelDelta(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(), "set_normalizeScrollWheelDelta",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline float_t UnityEngineInternal::Input::NativeInputSystem::GetScrollWheelDeltaPerTick() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngineInternal::Input::NativeInputSystem*>::get(),
+                                                                             "GetScrollWheelDeltaPerTick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
 constexpr ::UnityEngineInternal::Input::NativeInputSystem::NativeInputSystem() {}

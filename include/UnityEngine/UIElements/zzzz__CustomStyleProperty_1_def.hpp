@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CustomStyleProperty_1)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -17,7 +19,7 @@ template <typename T> struct CustomStyleProperty_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::CustomStyleProperty_1);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -60,7 +62,7 @@ public:
   constexpr CustomStyleProperty_1(::StringW _name_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4708 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

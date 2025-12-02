@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(::System::IO::TextWriter*)>(
     &::Org::BouncyCastle::OpenSsl::PemWriter::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x255433c;
+  constexpr static std::size_t addrs = 0x348437c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(::System::Object*)>(
     &::Org::BouncyCastle::OpenSsl::PemWriter::WriteObject)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x2554340;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x3484380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemWriter::*)(
     ::System::Object*, ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::OpenSsl::PemWriter::WriteObject)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x25544a4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x34844dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

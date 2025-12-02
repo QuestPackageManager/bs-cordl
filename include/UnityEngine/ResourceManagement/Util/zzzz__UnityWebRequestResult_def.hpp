@@ -55,10 +55,10 @@ public:
 
   static inline ::UnityEngine::ResourceManagement::Util::UnityWebRequestResult* New_ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method ShouldRetryDownloadError, addr 0x4798fd8, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method ShouldRetryDownloadError, addr 0x66f8d98, size 0x2f4, virtual false, abstract: false, final false
   inline bool ShouldRetryDownloadError();
 
-  /// @brief Method ToString, addr 0x4798e28, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x66f8bb0, size 0x1b8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get__Error_k__BackingField() const;
@@ -91,25 +91,25 @@ public:
 
   constexpr void __cordl_internal_set__Url_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4798d20, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66f8940, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Networking::UnityWebRequest* request);
 
-  /// @brief Method get_Error, addr 0x4798fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Error, addr 0x66f8d68, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Error();
 
-  /// @brief Method get_Method, addr 0x4798fc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Method, addr 0x66f8d88, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Method();
 
-  /// @brief Method get_ResponseCode, addr 0x4798fb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ResponseCode, addr 0x66f8d78, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ResponseCode();
 
-  /// @brief Method get_Result, addr 0x4798fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Result, addr 0x66f8d80, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Networking::UnityWebRequest_Result get_Result();
 
-  /// @brief Method get_Url, addr 0x4798fd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Url, addr 0x66f8d90, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Url();
 
-  /// @brief Method set_Error, addr 0x4798fb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Error, addr 0x66f8d70, size 0x8, virtual false, abstract: false, final false
   inline void set_Error(::StringW value);
 
 protected:
@@ -127,7 +127,7 @@ public:
   UnityWebRequestResult(UnityWebRequestResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18712 };
 
   /// @brief Field <Error>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Error_k__BackingField;

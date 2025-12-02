@@ -3,12 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Utilities/Collections/zzzz__ISet_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnmodifiableSet)
+namespace Org::BouncyCastle::Utilities::Collections {
+class ISet;
+}
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -27,7 +30,7 @@ class UnmodifiableSet;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet);
-// Dependencies Org.BouncyCastle.Utilities.Collections.ISet, System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Utilities.Collections.UnmodifiableSet
@@ -55,13 +58,13 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x25d5590, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x3504b44, size 0x38, virtual true, abstract: false, final false
   inline void Add(::System::Object* o);
 
-  /// @brief Method AddAll, addr 0x25d55c8, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method AddAll, addr 0x3504b7c, size 0x38, virtual true, abstract: false, final false
   inline void AddAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method Clear, addr 0x25d5600, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x3504bb4, size 0x38, virtual true, abstract: false, final false
   inline void Clear();
 
   /// @brief Method Contains, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -75,13 +78,13 @@ public:
 
   static inline ::Org::BouncyCastle::Utilities::Collections::UnmodifiableSet* New_ctor();
 
-  /// @brief Method Remove, addr 0x25d5640, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Remove, addr 0x3504bf4, size 0x38, virtual true, abstract: false, final false
   inline void Remove(::System::Object* o);
 
-  /// @brief Method RemoveAll, addr 0x25d5678, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method RemoveAll, addr 0x3504c2c, size 0x38, virtual true, abstract: false, final false
   inline void RemoveAll(::System::Collections::IEnumerable* e);
 
-  /// @brief Method .ctor, addr 0x25d5588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3504b40, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -93,7 +96,7 @@ public:
   /// @brief Method get_IsFixedSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsFixedSize();
 
-  /// @brief Method get_IsReadOnly, addr 0x25d5638, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsReadOnly, addr 0x3504bec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
   /// @brief Method get_IsSynchronized, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

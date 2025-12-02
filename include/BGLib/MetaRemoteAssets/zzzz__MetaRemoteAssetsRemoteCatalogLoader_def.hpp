@@ -3,14 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BGLib/MetaRemoteAssets/zzzz__IRemoteCatalogLoader_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MetaRemoteAssetsRemoteCatalogLoader)
+namespace BGLib::MetaRemoteAssets {
+class IRemoteCatalogLoader;
+}
 namespace BGLib::MetaRemoteAssets {
 struct MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0;
 }
@@ -61,10 +62,10 @@ public:
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* New_ctor();
 
-  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x22aaffc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <LoadRemoteCatalogAsync>b__0_0, addr 0x31f22dc, size 0xdc, virtual false, abstract: false, final false
   inline bool _LoadRemoteCatalogAsync_b__0_0(::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* locator);
 
-  /// @brief Method .ctor, addr 0x22aaff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31f22d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c* getStaticF___9();
@@ -90,7 +91,7 @@ public:
   MetaRemoteAssetsRemoteCatalogLoader___c(MetaRemoteAssetsRemoteCatalogLoader___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22198 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -98,7 +99,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader___c, 0x10>, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::MetaRemoteAssets {
 // Is value type: true
 // CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsRemoteCatalogLoader/<LoadRemoteCatalogAsync>d__0
@@ -108,10 +109,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22ab0d4, size 0x4c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31f23b8, size 0x50c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22ab598, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31f28c4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -129,7 +130,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22199 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -155,7 +156,7 @@ static_assert(offsetof(::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogL
 static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader__LoadRemoteCatalogAsync_d__0, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::MetaRemoteAssets
-// Dependencies BGLib.MetaRemoteAssets.IRemoteCatalogLoader, System.Object
+// Dependencies System.Object
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
 // CS Name: BGLib.MetaRemoteAssets.MetaRemoteAssetsRemoteCatalogLoader
@@ -169,12 +170,12 @@ public:
   /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
   constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x22aaeac, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method LoadRemoteCatalogAsync, addr 0x31f21a8, size 0xd8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::BGLib::MetaRemoteAssets::MetaRemoteAssetsRemoteCatalogLoader* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22aaf90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31f2280, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
@@ -195,7 +196,7 @@ public:
   MetaRemoteAssetsRemoteCatalogLoader(MetaRemoteAssetsRemoteCatalogLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22200 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

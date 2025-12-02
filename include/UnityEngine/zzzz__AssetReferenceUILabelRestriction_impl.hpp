@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AssetReferenceUILabelRestriction::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44dd200;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x622c84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AssetReferenceUILabelRestriction::*)(::UnityEngine::Object*)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44dd228;
+  constexpr static std::size_t addrs = 0x622c854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AssetReferenceUILabelRestriction::*)(::StringW)>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44dd230;
+  constexpr static std::size_t addrs = 0x622c85c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AssetReferenceUILabelRestriction::*)()>(
     &::UnityEngine::AssetReferenceUILabelRestriction::ToString)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x44dd238;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x622c864;
 
   inline static ::MethodInfo const* methodInfo() {
 

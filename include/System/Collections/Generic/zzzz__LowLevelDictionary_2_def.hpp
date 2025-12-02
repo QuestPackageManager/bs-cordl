@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelDictionary_2)
@@ -86,7 +85,7 @@ public:
   LowLevelDictionary_2_Entry(LowLevelDictionary_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3787 };
 
   /// @brief Field _key, offset: 0x10, size: 0x8, def value: None
   TKey ____key;
@@ -101,7 +100,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEqualityComparer`1<T>, System.Object
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue, typename T>
@@ -142,7 +141,7 @@ public:
   LowLevelDictionary_2_DefaultComparer_1(LowLevelDictionary_2_DefaultComparer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3863 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3788 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -250,7 +249,7 @@ public:
   LowLevelDictionary_2(LowLevelDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3864 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3789 };
 
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::LowLevelDictionary_2_Entry<TKey, TValue>*, ::Array<::System::Collections::Generic::LowLevelDictionary_2_Entry<TKey, TValue>*>*> ____buckets;

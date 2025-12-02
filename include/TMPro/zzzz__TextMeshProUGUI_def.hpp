@@ -3,13 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
@@ -17,11 +13,20 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextMeshProUGUI)
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class Dictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -33,7 +38,7 @@ namespace TMPro {
 class TMP_TextInfo;
 }
 namespace TMPro {
-struct TMP_Text_UnicodeChar;
+struct TMP_Text_TextProcessingElement;
 }
 namespace TMPro {
 struct TMP_VertexDataUpdateFlags;
@@ -46,6 +51,9 @@ class TextMeshProUGUI__DelayedMaterialRebuild_d__19;
 }
 namespace UnityEngine::UI {
 struct CanvasUpdate;
+}
+namespace UnityEngine::UI {
+class ILayoutElement;
 }
 namespace UnityEngine {
 struct Bounds;
@@ -94,7 +102,7 @@ class TextMeshProUGUI__DelayedMaterialRebuild_d__19;
 MARK_REF_PTR_T(::TMPro::TextMeshProUGUI);
 MARK_REF_PTR_T(::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18);
 MARK_REF_PTR_T(::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TextMeshProUGUI/<DelayedGraphicRebuild>d__18
@@ -123,21 +131,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x47c3fcc, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6727f94, size 0xb8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x47c4084, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x672804c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x47c408c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6728054, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x47c40c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x672808c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x47c3fc8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6727f90, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -158,7 +166,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x47bd348, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6727f88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -185,7 +193,7 @@ public:
   TextMeshProUGUI__DelayedGraphicRebuild_d__18(TextMeshProUGUI__DelayedGraphicRebuild_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15819 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -208,7 +216,7 @@ static_assert(offsetof(::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18, __
 static_assert(::cordl_internals::size_check_v<::TMPro::TextMeshProUGUI__DelayedGraphicRebuild_d__18, 0x28>, "Size mismatch!");
 
 } // namespace TMPro
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TextMeshProUGUI/<DelayedMaterialRebuild>d__19
@@ -237,21 +245,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x47c40d0, size 0xc0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x67280a0, size 0xc0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x47c4190, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x6728160, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x47c4198, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6728168, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x47c41d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x67281a0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x47c40cc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x672809c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -272,7 +280,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x47bd3d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6728094, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -299,7 +307,7 @@ public:
   TextMeshProUGUI__DelayedMaterialRebuild_d__19(TextMeshProUGUI__DelayedMaterialRebuild_d__19 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15820 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -322,7 +330,7 @@ static_assert(offsetof(::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19, _
 static_assert(::cordl_internals::size_check_v<::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19, 0x28>, "Size mismatch!");
 
 } // namespace TMPro
-// Dependencies TMPro.TMP_Text, Unity.Profiling.ProfilerMarker, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.UI.ILayoutElement, UnityEngine.Vector4
+// Dependencies TMPro.TMP_Text, Unity.Profiling.ProfilerMarker, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Vector4
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TextMeshProUGUI
@@ -333,7 +341,7 @@ public:
 
   using _DelayedMaterialRebuild_d__19 = ::TMPro::TextMeshProUGUI__DelayedMaterialRebuild_d__19;
 
-  /// @brief Field OnPreRenderText, offset 0x6f8, size 0x8
+  /// @brief Field OnPreRenderText, offset 0x710, size 0x8
   __declspec(property(get = __cordl_internal_get_OnPreRenderText, put = __cordl_internal_set_OnPreRenderText)) ::System::Action_1<::TMPro::TMP_TextInfo*>* OnPreRenderText;
 
   __declspec(property(get = get_autoSizeTextContainer, put = set_autoSizeTextContainer)) bool autoSizeTextContainer;
@@ -398,65 +406,71 @@ public:
   /// @brief Field k_SaveProcessingStatesMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_SaveProcessingStatesMarker, put = setStaticF_k_SaveProcessingStatesMarker)) ::Unity::Profiling::ProfilerMarker k_SaveProcessingStatesMarker;
 
+  /// @brief Field k_SaveTextExtentMarker, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_SaveTextExtentMarker, put = setStaticF_k_SaveTextExtentMarker)) ::Unity::Profiling::ProfilerMarker k_SaveTextExtentMarker;
+
   /// @brief Field k_SetArraySizesMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_SetArraySizesMarker, put = setStaticF_k_SetArraySizesMarker)) ::Unity::Profiling::ProfilerMarker k_SetArraySizesMarker;
 
-  /// @brief Field m_CanvasScaleFactor, offset 0x730, size 0x4
+  /// @brief Field m_CanvasScaleFactor, offset 0x748, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CanvasScaleFactor, put = __cordl_internal_set_m_CanvasScaleFactor)) float_t m_CanvasScaleFactor;
 
-  /// @brief Field m_ClipRect, offset 0x6e0, size 0x10
+  /// @brief Field m_ClipRect, offset 0x6fc, size 0x10
   __declspec(property(get = __cordl_internal_get_m_ClipRect, put = __cordl_internal_set_m_ClipRect)) ::UnityEngine::Rect m_ClipRect;
 
-  /// @brief Field m_DelayedGraphicRebuild, offset 0x6d0, size 0x8
+  /// @brief Field m_DelayedGraphicRebuild, offset 0x6e8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DelayedGraphicRebuild, put = __cordl_internal_set_m_DelayedGraphicRebuild)) ::UnityEngine::Coroutine* m_DelayedGraphicRebuild;
 
-  /// @brief Field m_DelayedMaterialRebuild, offset 0x6d8, size 0x8
+  /// @brief Field m_DelayedMaterialRebuild, offset 0x6f0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DelayedMaterialRebuild, put = __cordl_internal_set_m_DelayedMaterialRebuild)) ::UnityEngine::Coroutine* m_DelayedMaterialRebuild;
 
-  /// @brief Field m_EnvMapMatrix, offset 0x75c, size 0x40
+  /// @brief Field m_EnvMapMatrix, offset 0x774, size 0x40
   __declspec(property(get = __cordl_internal_get_m_EnvMapMatrix, put = __cordl_internal_set_m_EnvMapMatrix)) ::UnityEngine::Matrix4x4 m_EnvMapMatrix;
 
-  /// @brief Field m_RectTransformCorners, offset 0x718, size 0x8
+  /// @brief Field m_RectTransformCorners, offset 0x730, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RectTransformCorners, put = __cordl_internal_set_m_RectTransformCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>
       m_RectTransformCorners;
 
-  /// @brief Field m_ValidRect, offset 0x6f0, size 0x1
+  /// @brief Field m_ShouldUpdateCulling, offset 0x6f8, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_ShouldUpdateCulling, put = __cordl_internal_set_m_ShouldUpdateCulling)) bool m_ShouldUpdateCulling;
+
+  /// @brief Field m_ValidRect, offset 0x70c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ValidRect, put = __cordl_internal_set_m_ValidRect)) bool m_ValidRect;
 
-  /// @brief Field m_baseMaterial, offset 0x740, size 0x8
+  /// @brief Field m_baseMaterial, offset 0x758, size 0x8
   __declspec(property(get = __cordl_internal_get_m_baseMaterial, put = __cordl_internal_set_m_baseMaterial)) ::UnityW<::UnityEngine::Material> m_baseMaterial;
 
-  /// @brief Field m_canvas, offset 0x728, size 0x8
+  /// @brief Field m_canvas, offset 0x740, size 0x8
   __declspec(property(get = __cordl_internal_get_m_canvas, put = __cordl_internal_set_m_canvas)) ::UnityW<::UnityEngine::Canvas> m_canvas;
 
-  /// @brief Field m_canvasRenderer, offset 0x720, size 0x8
+  /// @brief Field m_canvasRenderer, offset 0x738, size 0x8
   __declspec(property(get = __cordl_internal_get_m_canvasRenderer, put = __cordl_internal_set_m_canvasRenderer)) ::UnityW<::UnityEngine::CanvasRenderer> m_canvasRenderer;
 
-  /// @brief Field m_hasFontAssetChanged, offset 0x700, size 0x1
+  /// @brief Field m_hasFontAssetChanged, offset 0x718, size 0x1
   __declspec(property(get = __cordl_internal_get_m_hasFontAssetChanged, put = __cordl_internal_set_m_hasFontAssetChanged)) bool m_hasFontAssetChanged;
 
-  /// @brief Field m_isFirstAllocation, offset 0x734, size 0x1
+  /// @brief Field m_isFirstAllocation, offset 0x74c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_isFirstAllocation, put = __cordl_internal_set_m_isFirstAllocation)) bool m_isFirstAllocation;
 
-  /// @brief Field m_isRebuildingLayout, offset 0x6c8, size 0x1
+  /// @brief Field m_isRebuildingLayout, offset 0x6e0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_isRebuildingLayout, put = __cordl_internal_set_m_isRebuildingLayout)) bool m_isRebuildingLayout;
 
-  /// @brief Field m_isRegisteredForEvents, offset 0x79c, size 0x1
+  /// @brief Field m_isRegisteredForEvents, offset 0x7b4, size 0x1
   __declspec(property(get = __cordl_internal_get_m_isRegisteredForEvents, put = __cordl_internal_set_m_isRegisteredForEvents)) bool m_isRegisteredForEvents;
 
-  /// @brief Field m_isScrollRegionSet, offset 0x748, size 0x1
+  /// @brief Field m_isScrollRegionSet, offset 0x760, size 0x1
   __declspec(property(get = __cordl_internal_get_m_isScrollRegionSet, put = __cordl_internal_set_m_isScrollRegionSet)) bool m_isScrollRegionSet;
 
-  /// @brief Field m_maskOffset, offset 0x74c, size 0x10
+  /// @brief Field m_maskOffset, offset 0x764, size 0x10
   __declspec(property(get = __cordl_internal_get_m_maskOffset, put = __cordl_internal_set_m_maskOffset)) ::UnityEngine::Vector4 m_maskOffset;
 
-  /// @brief Field m_max_characters, offset 0x738, size 0x4
+  /// @brief Field m_max_characters, offset 0x750, size 0x4
   __declspec(property(get = __cordl_internal_get_m_max_characters, put = __cordl_internal_set_m_max_characters)) int32_t m_max_characters;
 
-  /// @brief Field m_previousLossyScaleY, offset 0x710, size 0x4
+  /// @brief Field m_previousLossyScaleY, offset 0x728, size 0x4
   __declspec(property(get = __cordl_internal_get_m_previousLossyScaleY, put = __cordl_internal_set_m_previousLossyScaleY)) float_t m_previousLossyScaleY;
 
-  /// @brief Field m_subTextObjects, offset 0x708, size 0x8
+  /// @brief Field m_subTextObjects, offset 0x720, size 0x8
   __declspec(property(get = __cordl_internal_get_m_subTextObjects, put = __cordl_internal_set_m_subTextObjects)) ::ArrayW<::UnityW<::TMPro::TMP_SubMeshUI>, ::Array<::UnityW<::TMPro::TMP_SubMeshUI>>*>
       m_subTextObjects;
 
@@ -464,198 +478,204 @@ public:
 
   __declspec(property(get = get_materialForRendering)) ::UnityW<::UnityEngine::Material> materialForRendering;
 
+  /// @brief Field materialIndexPairs, offset 0x7b8, size 0x8
+  __declspec(property(get = __cordl_internal_get_materialIndexPairs, put = __cordl_internal_set_materialIndexPairs)) ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialIndexPairs;
+
   __declspec(property(get = get_mesh)) ::UnityW<::UnityEngine::Mesh> mesh;
 
   /// @brief Convert operator to "::UnityEngine::UI::ILayoutElement"
   constexpr operator ::UnityEngine::UI::ILayoutElement*() noexcept;
 
-  /// @brief Method Awake, addr 0x47becdc, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x672232c, size 0x2ac, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateLayoutInputHorizontal, addr 0x47bcfdc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method CalculateLayoutInputHorizontal, addr 0x6720620, size 0x4, virtual true, abstract: false, final true
   inline void CalculateLayoutInputHorizontal();
 
-  /// @brief Method CalculateLayoutInputVertical, addr 0x47bcfe0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method CalculateLayoutInputVertical, addr 0x6720624, size 0x4, virtual true, abstract: false, final true
   inline void CalculateLayoutInputVertical();
 
-  /// @brief Method ClearMesh, addr 0x47be604, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x6721c20, size 0x100, virtual true, abstract: false, final false
   inline void ClearMesh();
 
-  /// @brief Method ComputeMarginSize, addr 0x47c2d34, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method ComputeMarginSize, addr 0x6726be0, size 0xe4, virtual true, abstract: false, final false
   inline void ComputeMarginSize();
 
-  /// @brief Method Cull, addr 0x47bdd74, size 0x27c, virtual true, abstract: false, final false
+  /// @brief Method Cull, addr 0x672139c, size 0x254, virtual true, abstract: false, final false
   inline void Cull(::UnityEngine::Rect clipRect, bool validRect);
 
-  /// @brief Method DelayedGraphicRebuild, addr 0x47bd2e8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DelayedGraphicRebuild, addr 0x6720944, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedGraphicRebuild();
 
-  /// @brief Method DelayedMaterialRebuild, addr 0x47bd370, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method DelayedMaterialRebuild, addr 0x6720998, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* DelayedMaterialRebuild();
 
-  /// @brief Method DestroySubMeshObjects, addr 0x47c35c8, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method DestroySubMeshObjects, addr 0x6727494, size 0xe0, virtual true, abstract: false, final false
   inline void DestroySubMeshObjects();
 
-  /// @brief Method DisableMasking, addr 0x47bff38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DisableMasking, addr 0x672360c, size 0x4, virtual false, abstract: false, final false
   inline void DisableMasking();
 
-  /// @brief Method EnableMasking, addr 0x47bfd94, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method EnableMasking, addr 0x6723464, size 0x1a8, virtual false, abstract: false, final false
   inline void EnableMasking();
 
-  /// @brief Method ForceMeshUpdate, addr 0x47be474, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ForceMeshUpdate, addr 0x6721a84, size 0xb0, virtual true, abstract: false, final false
   inline void ForceMeshUpdate(bool ignoreActiveState, bool forceTextReparsing);
 
-  /// @brief Method GenerateTextMesh, addr 0x47ad5c4, size 0x7550, virtual true, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x670fe44, size 0x7554, virtual true, abstract: false, final false
   inline void GenerateTextMesh();
 
-  /// @brief Method GetCanvas, addr 0x47bf18c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method GetCanvas, addr 0x6722710, size 0x180, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> GetCanvas();
 
-  /// @brief Method GetCanvasSpaceClippingRect, addr 0x47c3894, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method GetCanvasSpaceClippingRect, addr 0x6727708, size 0x1dc, virtual true, abstract: false, final false
   inline ::UnityEngine::Rect GetCanvasSpaceClippingRect();
 
-  /// @brief Method GetCompoundBounds, addr 0x47c36a4, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method GetCompoundBounds, addr 0x6727574, size 0x194, virtual true, abstract: false, final false
   inline ::UnityEngine::Bounds GetCompoundBounds();
 
-  /// @brief Method GetMaterial, addr 0x47bff3c, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method GetMaterial, addr 0x6723610, size 0x14c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method GetMaterials, addr 0x47c0080, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method GetMaterials, addr 0x672375c, size 0x1b8, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> mats);
 
-  /// @brief Method GetModifiedMaterial, addr 0x47bd828, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetModifiedMaterial, addr 0x6720e40, size 0x10c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> GetModifiedMaterial(::UnityEngine::Material* baseMaterial);
 
-  /// @brief Method GetSharedMaterials, addr 0x47c0268, size 0x190, virtual true, abstract: false, final false
+  /// @brief Method GetSharedMaterials, addr 0x6723950, size 0x18c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> GetSharedMaterials();
 
-  /// @brief Method GetTextContainerLocalCorners, addr 0x47c3420, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method GetTextContainerLocalCorners, addr 0x67272d8, size 0x9c, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetTextContainerLocalCorners();
 
-  /// @brief Method GetTextInfo, addr 0x47be51c, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method GetTextInfo, addr 0x6721b34, size 0xec, virtual true, abstract: false, final false
   inline ::TMPro::TMP_TextInfo* GetTextInfo(::StringW text);
 
-  /// @brief Method InternalCrossFadeAlpha, addr 0x47be3d8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method InternalCrossFadeAlpha, addr 0x67219e0, size 0xa4, virtual true, abstract: false, final false
   inline void InternalCrossFadeAlpha(float_t alpha, float_t duration, bool ignoreTimeScale);
 
-  /// @brief Method InternalCrossFadeColor, addr 0x47be30c, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method InternalCrossFadeColor, addr 0x672190c, size 0xd4, virtual true, abstract: false, final false
   inline void InternalCrossFadeColor(::UnityEngine::Color targetColor, float_t duration, bool ignoreTimeScale, bool useAlpha);
 
-  /// @brief Method InternalUpdate, addr 0x47c317c, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method InternalUpdate, addr 0x6727038, size 0xa8, virtual true, abstract: false, final false
   inline void InternalUpdate();
 
-  /// @brief Method LoadFontAsset, addr 0x47bf5f0, size 0x530, virtual true, abstract: false, final false
+  /// @brief Method LoadFontAsset, addr 0x6722ba0, size 0x570, virtual true, abstract: false, final false
   inline void LoadFontAsset();
 
   static inline ::TMPro::TextMeshProUGUI* New_ctor();
 
-  /// @brief Method OnCanvasHierarchyChanged, addr 0x47c2e48, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method OnCanvasHierarchyChanged, addr 0x6726cfc, size 0x124, virtual true, abstract: false, final false
   inline void OnCanvasHierarchyChanged();
 
-  /// @brief Method OnDestroy, addr 0x47bf494, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x6722a3c, size 0x164, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDidApplyAnimationProperties, addr 0x47c2e10, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method OnDidApplyAnimationProperties, addr 0x6726cc4, size 0x38, virtual true, abstract: false, final false
   inline void OnDidApplyAnimationProperties();
 
-  /// @brief Method OnDisable, addr 0x47bf2f0, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x6722890, size 0x1ac, virtual true, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x47bf05c, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x67225d8, size 0x138, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPreRenderCanvas, addr 0x47bd4e0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method OnPreRenderCanvas, addr 0x6720ad8, size 0x284, virtual false, abstract: false, final false
   inline void OnPreRenderCanvas();
 
-  /// @brief Method OnRectTransformDimensionsChange, addr 0x47c2fac, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method OnRectTransformDimensionsChange, addr 0x6726e64, size 0x1d4, virtual true, abstract: false, final false
   inline void OnRectTransformDimensionsChange();
 
-  /// @brief Method OnTransformParentChanged, addr 0x47c2f68, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method OnTransformParentChanged, addr 0x6726e20, size 0x44, virtual true, abstract: false, final false
   inline void OnTransformParentChanged();
 
-  /// @brief Method Rebuild, addr 0x47bd3f8, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Rebuild, addr 0x67209ec, size 0xec, virtual true, abstract: false, final false
   inline void Rebuild(::UnityEngine::UI::CanvasUpdate update);
 
-  /// @brief Method RecalculateClipping, addr 0x47bdd6c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method RecalculateClipping, addr 0x6721398, size 0x4, virtual true, abstract: false, final false
   inline void RecalculateClipping();
 
-  /// @brief Method SetActiveSubMeshes, addr 0x47c34b8, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method SetActiveSubMeshes, addr 0x6727374, size 0x120, virtual true, abstract: false, final false
   inline void SetActiveSubMeshes(bool state);
 
-  /// @brief Method SetAllDirty, addr 0x47bd2a4, size 0x44, virtual true, abstract: false, final false
+  /// @brief Method SetAllDirty, addr 0x6720900, size 0x44, virtual true, abstract: false, final false
   inline void SetAllDirty();
 
-  /// @brief Method SetArraySizes, addr 0x47c10e8, size 0x1c4c, virtual true, abstract: false, final false
-  inline int32_t SetArraySizes(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*> unicodeChars);
+  /// @brief Method SetArraySizes, addr 0x6724828, size 0x23b8, virtual true, abstract: false, final false
+  inline int32_t SetArraySizes(::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*> textProcessingArray);
 
-  /// @brief Method SetCulling, addr 0x47c0cf0, size 0x2c8, virtual true, abstract: false, final false
+  /// @brief Method SetCulling, addr 0x67243cc, size 0x318, virtual true, abstract: false, final false
   inline void SetCulling();
 
-  /// @brief Method SetFaceColor, addr 0x47c0964, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method SetFaceColor, addr 0x67240b4, size 0x134, virtual true, abstract: false, final false
   inline void SetFaceColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetLayoutDirty, addr 0x47bd0c8, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method SetLayoutDirty, addr 0x6720714, size 0xf8, virtual true, abstract: false, final false
   inline void SetLayoutDirty();
 
-  /// @brief Method SetMaterialDirty, addr 0x47bd1b8, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SetMaterialDirty, addr 0x672080c, size 0xf4, virtual true, abstract: false, final false
   inline void SetMaterialDirty();
 
-  /// @brief Method SetMeshArrays, addr 0x47c103c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetMeshArrays, addr 0x6724770, size 0xb8, virtual false, abstract: false, final false
   inline void SetMeshArrays(int32_t size);
 
-  /// @brief Method SetOutlineColor, addr 0x47c0a94, size 0x130, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineColor, addr 0x67241e8, size 0x134, virtual true, abstract: false, final false
   inline void SetOutlineColor(::UnityEngine::Color32 color);
 
-  /// @brief Method SetOutlineThickness, addr 0x47c07a4, size 0x1c0, virtual true, abstract: false, final false
+  /// @brief Method SetOutlineThickness, addr 0x6723ef0, size 0x1c4, virtual true, abstract: false, final false
   inline void SetOutlineThickness(float_t thickness);
 
-  /// @brief Method SetPerspectiveCorrection, addr 0x47c0fb8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetPerspectiveCorrection, addr 0x67246e4, size 0x8c, virtual false, abstract: false, final false
   inline void SetPerspectiveCorrection();
 
-  /// @brief Method SetShaderDepth, addr 0x47c0bc4, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method SetShaderDepth, addr 0x672431c, size 0xb0, virtual true, abstract: false, final false
   inline void SetShaderDepth();
 
-  /// @brief Method SetSharedMaterial, addr 0x47c0230, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterial, addr 0x6723914, size 0x3c, virtual true, abstract: false, final false
   inline void SetSharedMaterial(::UnityEngine::Material* mat);
 
-  /// @brief Method SetSharedMaterials, addr 0x47c03f8, size 0x3ac, virtual true, abstract: false, final false
+  /// @brief Method SetSharedMaterials, addr 0x6723adc, size 0x414, virtual true, abstract: false, final false
   inline void SetSharedMaterials(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials);
 
-  /// @brief Method SetVerticesDirty, addr 0x47bcfe4, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method SetVerticesDirty, addr 0x6720628, size 0xec, virtual true, abstract: false, final false
   inline void SetVerticesDirty();
 
-  /// @brief Method UpdateCulling, addr 0x47bdff0, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method UpdateCulling, addr 0x67215f0, size 0x218, virtual true, abstract: false, final false
   inline void UpdateCulling();
 
-  /// @brief Method UpdateEnvMapMatrix, addr 0x47bfb20, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method UpdateEnvMapMatrix, addr 0x6723240, size 0x224, virtual false, abstract: false, final false
   inline void UpdateEnvMapMatrix();
 
-  /// @brief Method UpdateFontAsset, addr 0x47beccc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateFontAsset, addr 0x672231c, size 0x10, virtual false, abstract: false, final false
   inline void UpdateFontAsset();
 
-  /// @brief Method UpdateGeometry, addr 0x47be85c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method UpdateGeometry, addr 0x6721ea0, size 0x78, virtual true, abstract: false, final false
   inline void UpdateGeometry(::UnityEngine::Mesh* mesh, int32_t index);
 
-  /// @brief Method UpdateMask, addr 0x47bda54, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method UpdateMask, addr 0x672107c, size 0x31c, virtual false, abstract: false, final false
   inline void UpdateMask();
 
-  /// @brief Method UpdateMaterial, addr 0x47bd928, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method UpdateMaterial, addr 0x6720f4c, size 0xf0, virtual true, abstract: false, final false
   inline void UpdateMaterial();
 
-  /// @brief Method UpdateMeshPadding, addr 0x47be20c, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method UpdateMeshPadding, addr 0x6721808, size 0x104, virtual true, abstract: false, final false
   inline void UpdateMeshPadding();
 
-  /// @brief Method UpdateSDFScale, addr 0x47c3218, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method UpdateSDFScale, addr 0x67270e0, size 0x1f8, virtual false, abstract: false, final false
   inline void UpdateSDFScale(float_t scaleDelta);
 
-  /// @brief Method UpdateSubObjectPivot, addr 0x47bd754, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateSubObjectPivot, addr 0x6720d5c, size 0xe4, virtual false, abstract: false, final false
   inline void UpdateSubObjectPivot();
 
-  /// @brief Method UpdateVertexData, addr 0x47beab8, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x6722100, size 0x21c, virtual true, abstract: false, final false
   inline void UpdateVertexData();
 
-  /// @brief Method UpdateVertexData, addr 0x47be8d4, size 0x1e4, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertexData, addr 0x6721f18, size 0x1e8, virtual true, abstract: false, final false
   inline void UpdateVertexData(::TMPro::TMP_VertexDataUpdateFlags flags);
+
+  /// @brief Method ValidateEnvMapProperty, addr 0x6723110, size 0x130, virtual false, abstract: false, final false
+  inline void ValidateEnvMapProperty();
 
   constexpr ::System::Action_1<::TMPro::TMP_TextInfo*>* const& __cordl_internal_get_OnPreRenderText() const;
 
@@ -684,6 +704,10 @@ public:
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_m_RectTransformCorners() const;
 
   constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_m_RectTransformCorners();
+
+  constexpr bool const& __cordl_internal_get_m_ShouldUpdateCulling() const;
+
+  constexpr bool& __cordl_internal_get_m_ShouldUpdateCulling();
 
   constexpr bool const& __cordl_internal_get_m_ValidRect() const;
 
@@ -737,6 +761,10 @@ public:
 
   constexpr ::ArrayW<::UnityW<::TMPro::TMP_SubMeshUI>, ::Array<::UnityW<::TMPro::TMP_SubMeshUI>>*>& __cordl_internal_get_m_subTextObjects();
 
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* const& __cordl_internal_get_materialIndexPairs() const;
+
+  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& __cordl_internal_get_materialIndexPairs();
+
   constexpr void __cordl_internal_set_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   constexpr void __cordl_internal_set_m_CanvasScaleFactor(float_t value);
@@ -750,6 +778,8 @@ public:
   constexpr void __cordl_internal_set_m_EnvMapMatrix(::UnityEngine::Matrix4x4 value);
 
   constexpr void __cordl_internal_set_m_RectTransformCorners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+
+  constexpr void __cordl_internal_set_m_ShouldUpdateCulling(bool value);
 
   constexpr void __cordl_internal_set_m_ValidRect(bool value);
 
@@ -777,10 +807,12 @@ public:
 
   constexpr void __cordl_internal_set_m_subTextObjects(::ArrayW<::UnityW<::TMPro::TMP_SubMeshUI>, ::Array<::UnityW<::TMPro::TMP_SubMeshUI>>*> value);
 
-  /// @brief Method .ctor, addr 0x47c3a54, size 0xb8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_materialIndexPairs(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value);
+
+  /// @brief Method .ctor, addr 0x67278e4, size 0x128, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_OnPreRenderText, addr 0x47be6f4, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method add_OnPreRenderText, addr 0x6721d20, size 0xc0, virtual true, abstract: false, final false
   inline void add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_CalculateVerticesPositionMarker();
@@ -821,27 +853,29 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_SaveProcessingStatesMarker();
 
+  static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_SaveTextExtentMarker();
+
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_SetArraySizesMarker();
 
-  /// @brief Method get_autoSizeTextContainer, addr 0x47bce98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_autoSizeTextContainer, addr 0x67204d0, size 0x8, virtual true, abstract: false, final false
   inline bool get_autoSizeTextContainer();
 
-  /// @brief Method get_canvasRenderer, addr 0x47bcf48, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvasRenderer, addr 0x6720584, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::CanvasRenderer> get_canvasRenderer();
 
-  /// @brief Method get_maskOffset, addr 0x47bda14, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_maskOffset, addr 0x672103c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector4 get_maskOffset();
 
-  /// @brief Method get_materialForRendering, addr 0x47bce38, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_materialForRendering, addr 0x672046c, size 0x64, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_materialForRendering();
 
-  /// @brief Method get_mesh, addr 0x47bcf40, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_mesh, addr 0x672057c, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_mesh();
 
   /// @brief Convert to "::UnityEngine::UI::ILayoutElement"
   constexpr ::UnityEngine::UI::ILayoutElement* i___UnityEngine__UI__ILayoutElement() noexcept;
 
-  /// @brief Method remove_OnPreRenderText, addr 0x47be7a8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method remove_OnPreRenderText, addr 0x6721de0, size 0xc0, virtual true, abstract: false, final false
   inline void remove_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value);
 
   static inline void setStaticF_k_CalculateVerticesPositionMarker(::Unity::Profiling::ProfilerMarker value);
@@ -882,12 +916,14 @@ public:
 
   static inline void setStaticF_k_SaveProcessingStatesMarker(::Unity::Profiling::ProfilerMarker value);
 
+  static inline void setStaticF_k_SaveTextExtentMarker(::Unity::Profiling::ProfilerMarker value);
+
   static inline void setStaticF_k_SetArraySizesMarker(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_autoSizeTextContainer, addr 0x47bcea0, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method set_autoSizeTextContainer, addr 0x67204d8, size 0xa4, virtual true, abstract: false, final false
   inline void set_autoSizeTextContainer(bool value);
 
-  /// @brief Method set_maskOffset, addr 0x47bda28, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_maskOffset, addr 0x6721050, size 0x2c, virtual false, abstract: false, final false
   inline void set_maskOffset(::UnityEngine::Vector4 value);
 
 protected:
@@ -905,112 +941,122 @@ public:
   TextMeshProUGUI(TextMeshProUGUI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15821 };
 
-  /// @brief Field m_isRebuildingLayout, offset: 0x6c8, size: 0x1, def value: None
+  /// @brief Field m_isRebuildingLayout, offset: 0x6e0, size: 0x1, def value: None
   bool ___m_isRebuildingLayout;
 
-  /// @brief Field m_DelayedGraphicRebuild, offset: 0x6d0, size: 0x8, def value: None
+  /// @brief Field m_DelayedGraphicRebuild, offset: 0x6e8, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ___m_DelayedGraphicRebuild;
 
-  /// @brief Field m_DelayedMaterialRebuild, offset: 0x6d8, size: 0x8, def value: None
+  /// @brief Field m_DelayedMaterialRebuild, offset: 0x6f0, size: 0x8, def value: None
   ::UnityEngine::Coroutine* ___m_DelayedMaterialRebuild;
 
-  /// @brief Field m_ClipRect, offset: 0x6e0, size: 0x10, def value: None
+  /// @brief Field m_ShouldUpdateCulling, offset: 0x6f8, size: 0x1, def value: None
+  bool ___m_ShouldUpdateCulling;
+
+  /// @brief Field m_ClipRect, offset: 0x6fc, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_ClipRect;
 
-  /// @brief Field m_ValidRect, offset: 0x6f0, size: 0x1, def value: None
+  /// @brief Field m_ValidRect, offset: 0x70c, size: 0x1, def value: None
   bool ___m_ValidRect;
 
-  /// @brief Field OnPreRenderText, offset: 0x6f8, size: 0x8, def value: None
+  /// @brief Field OnPreRenderText, offset: 0x710, size: 0x8, def value: None
   ::System::Action_1<::TMPro::TMP_TextInfo*>* ___OnPreRenderText;
 
-  /// @brief Field m_hasFontAssetChanged, offset: 0x700, size: 0x1, def value: None
+  /// @brief Field m_hasFontAssetChanged, offset: 0x718, size: 0x1, def value: None
   bool ___m_hasFontAssetChanged;
 
-  /// @brief Field m_subTextObjects, offset: 0x708, size: 0x8, def value: None
+  /// @brief Field m_subTextObjects, offset: 0x720, size: 0x8, def value: None
   ::ArrayW<::UnityW<::TMPro::TMP_SubMeshUI>, ::Array<::UnityW<::TMPro::TMP_SubMeshUI>>*> ___m_subTextObjects;
 
-  /// @brief Field m_previousLossyScaleY, offset: 0x710, size: 0x4, def value: None
+  /// @brief Field m_previousLossyScaleY, offset: 0x728, size: 0x4, def value: None
   float_t ___m_previousLossyScaleY;
 
-  /// @brief Field m_RectTransformCorners, offset: 0x718, size: 0x8, def value: None
+  /// @brief Field m_RectTransformCorners, offset: 0x730, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___m_RectTransformCorners;
 
-  /// @brief Field m_canvasRenderer, offset: 0x720, size: 0x8, def value: None
+  /// @brief Field m_canvasRenderer, offset: 0x738, size: 0x8, def value: None
   ::UnityW<::UnityEngine::CanvasRenderer> ___m_canvasRenderer;
 
-  /// @brief Field m_canvas, offset: 0x728, size: 0x8, def value: None
+  /// @brief Field m_canvas, offset: 0x740, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ___m_canvas;
 
-  /// @brief Field m_CanvasScaleFactor, offset: 0x730, size: 0x4, def value: None
+  /// @brief Field m_CanvasScaleFactor, offset: 0x748, size: 0x4, def value: None
   float_t ___m_CanvasScaleFactor;
 
-  /// @brief Field m_isFirstAllocation, offset: 0x734, size: 0x1, def value: None
+  /// @brief Field m_isFirstAllocation, offset: 0x74c, size: 0x1, def value: None
   bool ___m_isFirstAllocation;
 
-  /// @brief Field m_max_characters, offset: 0x738, size: 0x4, def value: None
+  /// @brief Field m_max_characters, offset: 0x750, size: 0x4, def value: None
   int32_t ___m_max_characters;
 
-  /// @brief Field m_baseMaterial, offset: 0x740, size: 0x8, def value: None
+  /// @brief Field m_baseMaterial, offset: 0x758, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ___m_baseMaterial;
 
-  /// @brief Field m_isScrollRegionSet, offset: 0x748, size: 0x1, def value: None
+  /// @brief Field m_isScrollRegionSet, offset: 0x760, size: 0x1, def value: None
   bool ___m_isScrollRegionSet;
 
-  /// @brief Field m_maskOffset, offset: 0x74c, size: 0x10, def value: None
+  /// @brief Field m_maskOffset, offset: 0x764, size: 0x10, def value: None
   ::UnityEngine::Vector4 ___m_maskOffset;
 
-  /// @brief Field m_EnvMapMatrix, offset: 0x75c, size: 0x40, def value: None
+  /// @brief Field m_EnvMapMatrix, offset: 0x774, size: 0x40, def value: None
   ::UnityEngine::Matrix4x4 ___m_EnvMapMatrix;
 
-  /// @brief Field m_isRegisteredForEvents, offset: 0x79c, size: 0x1, def value: None
+  /// @brief Field m_isRegisteredForEvents, offset: 0x7b4, size: 0x1, def value: None
   bool ___m_isRegisteredForEvents;
+
+  /// @brief Field materialIndexPairs, offset: 0x7b8, size: 0x8, def value: None
+  ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* ___materialIndexPairs;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isRebuildingLayout) == 0x6c8, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isRebuildingLayout) == 0x6e0, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_DelayedGraphicRebuild) == 0x6d0, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_DelayedGraphicRebuild) == 0x6e8, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_DelayedMaterialRebuild) == 0x6d8, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_DelayedMaterialRebuild) == 0x6f0, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_ClipRect) == 0x6e0, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_ShouldUpdateCulling) == 0x6f8, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_ValidRect) == 0x6f0, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_ClipRect) == 0x6fc, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___OnPreRenderText) == 0x6f8, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_ValidRect) == 0x70c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_hasFontAssetChanged) == 0x700, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___OnPreRenderText) == 0x710, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_subTextObjects) == 0x708, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_hasFontAssetChanged) == 0x718, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_previousLossyScaleY) == 0x710, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_subTextObjects) == 0x720, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_RectTransformCorners) == 0x718, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_previousLossyScaleY) == 0x728, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_canvasRenderer) == 0x720, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_RectTransformCorners) == 0x730, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_canvas) == 0x728, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_canvasRenderer) == 0x738, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_CanvasScaleFactor) == 0x730, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_canvas) == 0x740, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isFirstAllocation) == 0x734, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_CanvasScaleFactor) == 0x748, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_max_characters) == 0x738, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isFirstAllocation) == 0x74c, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_baseMaterial) == 0x740, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_max_characters) == 0x750, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isScrollRegionSet) == 0x748, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_baseMaterial) == 0x758, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_maskOffset) == 0x74c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isScrollRegionSet) == 0x760, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_EnvMapMatrix) == 0x75c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_maskOffset) == 0x764, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isRegisteredForEvents) == 0x79c, "Offset mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_EnvMapMatrix) == 0x774, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::TMPro::TextMeshProUGUI, 0x7a0>, "Size mismatch!");
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___m_isRegisteredForEvents) == 0x7b4, "Offset mismatch!");
+
+static_assert(offsetof(::TMPro::TextMeshProUGUI, ___materialIndexPairs) == 0x7b8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::TMPro::TextMeshProUGUI, 0x7c0>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TextMeshProUGUI);

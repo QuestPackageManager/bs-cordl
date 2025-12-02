@@ -3,11 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -28,6 +25,9 @@ namespace GlobalNamespace {
 class EnvironmentsListModel;
 }
 namespace GlobalNamespace {
+class IMockBeatmapDataProvider;
+}
+namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
 namespace GlobalNamespace {
@@ -45,6 +45,9 @@ template <typename TResult> class Task_1;
 namespace System::Threading {
 struct CancellationToken;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MockBeatmapLoader;
@@ -55,7 +58,7 @@ struct MockBeatmapLoader__GetBeatmapData_d__5;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapLoader);
 MARK_VAL_T(::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockBeatmapLoader/<GetBeatmapData>d__5
@@ -65,10 +68,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3bc7514, size 0x4d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57b894c, size 0x544, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3bc79ec, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x57b8e90, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -87,7 +90,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IReadonlyBeatmapData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6118 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -123,7 +126,7 @@ static_assert(offsetof(::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockBeatmapLoader__GetBeatmapData_d__5, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IMockBeatmapDataProvider, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockBeatmapLoader
@@ -151,10 +154,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3bc7510, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x57b8948, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetBeatmapData, addr 0x3bc7424, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method GetBeatmapData, addr 0x57b8858, size 0xf0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MockBeatmapData*>* GetBeatmapData(::GlobalNamespace::BeatmapKeyNetSerializable* beatmap,
                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
@@ -186,7 +189,7 @@ public:
 
   constexpr void __cordl_internal_set__environmentsListModel(::GlobalNamespace::EnvironmentsListModel* value);
 
-  /// @brief Method .ctor, addr 0x3bc73e4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57b884c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                     ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection);
 
@@ -211,7 +214,7 @@ public:
   MockBeatmapLoader(MockBeatmapLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6119 };
 
   /// @brief Field _beatmapLevelsModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevelsModel* ____beatmapLevelsModel;

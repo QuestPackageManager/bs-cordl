@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/SubContainerCreatorByNewPrefabWithParams.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_impl.hpp"
 #include "Zenject/zzzz__TypeValuePair_impl.hpp"
 #include "Zenject/zzzz__SubContainerCreatorByNewPrefabWithParams_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "Zenject/zzzz__DiContainer_def.hpp"
 #include "Zenject/zzzz__GameObjectCreationParameters_def.hpp"
 #include "Zenject/zzzz__IPrefabProvider_def.hpp"
+#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 #include "Zenject/zzzz__InjectableInfo_def.hpp"
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::*)()>(
     &::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b42f7c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c56ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::*)(::Zenject::InjectableInfo*)>(
     &::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::_CreateTempContainer_b__0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4b43130;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6c56ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::*)(::Zenject::InjectableInfo*)>(
     &::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::_CreateTempContainer_b__1)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4b431a0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c56f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b431c0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c56f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::SubContainerCreatorByNewPrefabWithParams___c__DisplayClass7_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b43214;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c56f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SubContainerCreatorByNewPrefabWithParams::*)(
     ::System::Type*, ::Zenject::DiContainer*, ::Zenject::IPrefabProvider*, ::Zenject::GameObjectCreationParameters*)>(&::Zenject::SubContainerCreatorByNewPrefabWithParams::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4b42a38;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6c567c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByNewPrefabWithParams::*)()>(
     &::Zenject::SubContainerCreatorByNewPrefabWithParams::get_Container)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b42a78;
+  constexpr static std::size_t addrs = 0x6c567d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SubContainerCreatorByNewPrefabWithParams*>::get(),
@@ -176,8 +176,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByNewPrefabWithParams::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*)>(
         &::Zenject::SubContainerCreatorByNewPrefabWithParams::CreateTempContainer)> {
-  constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x4b42a80;
+  constexpr static std::size_t size = 0x47c;
+  constexpr static std::size_t addrs = 0x6c567dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,8 +192,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::DiContainer* (::Zenject::SubContainerCreatorByNewPrefabWithParams::*)(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::Zenject::InjectContext*)>(
         &::Zenject::SubContainerCreatorByNewPrefabWithParams::CreateSubContainer)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x4b42f84;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6c56ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::RuntimeGenericParamInfoHandle::*)(::System::IntPtr)>(&::Mono::RuntimeGenericParamInfoHandle::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c55608;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5898510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::Mono::RuntimeGenericParamInfoHandle::*)()>(
     &::Mono::RuntimeGenericParamInfoHandle::get_Constraints)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c55628;
+  constexpr static std::size_t addrs = 0x5898518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeGenericParamInfoHandle>::get(), "get_Constraints",
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::GenericParameterAttributes (::Mono::RuntimeGenericParamInfoHandle::*)()>(
     &::Mono::RuntimeGenericParamInfoHandle::get_Attributes)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c55758;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x589862c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeGenericParamInfoHandle>::get(), "get_Attributes",
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::Mono::RuntimeGenericParamInfoHandle::*)()>(
     &::Mono::RuntimeGenericParamInfoHandle::GetConstraints)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3c5562c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x589851c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeGenericParamInfoHandle>::get(), "GetConstraints",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::RuntimeGenericParamInfoHandle::*)()>(&::Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3c55774;
+  constexpr static std::size_t addrs = 0x5898644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::RuntimeGenericParamInfoHandle>::get(),
@@ -100,8 +100,8 @@ inline int32_t Mono::RuntimeGenericParamInfoHandle::GetConstraintsCount() {
                                                                              "GetConstraintsCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-// Ctor Parameters [CppParam { name: "value", ty: "::cordl_internals::Ptr<::Mono::RuntimeStructs_GenericParamInfo>", modifiers: "", def_value: Some("{}") }]
-constexpr ::Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle(::cordl_internals::Ptr<::Mono::RuntimeStructs_GenericParamInfo> value) noexcept {
+// Ctor Parameters [CppParam { name: "value", ty: "::Mono::RuntimeStructs_GenericParamInfo*", modifiers: "", def_value: Some("{}") }]
+constexpr ::Mono::RuntimeGenericParamInfoHandle::RuntimeGenericParamInfoHandle(::Mono::RuntimeStructs_GenericParamInfo* value) noexcept {
   this->value = value;
 }
 // Ctor Parameters []

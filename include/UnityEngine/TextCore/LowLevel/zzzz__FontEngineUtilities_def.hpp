@@ -20,7 +20,7 @@ namespace UnityEngine::TextCore::LowLevel {
 struct CORDL_TYPE FontEngineUtilities {
 public:
   // Declarations
-  /// @brief Method MaxValue, addr 0x4922a8c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MaxValue, addr 0x698a174, size 0x14, virtual false, abstract: false, final false
   static inline int32_t MaxValue(int32_t a, int32_t b, int32_t c);
 
   // Ctor Parameters []
@@ -28,7 +28,7 @@ public:
   constexpr FontEngineUtilities();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21648 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

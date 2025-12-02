@@ -6,9 +6,8 @@ CORDL_MODULE_INIT
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -24,7 +23,16 @@ namespace System::Net::Http {
 class HttpContent_FixedMemoryStream;
 }
 namespace System::Net::Http {
+struct HttpContent__CreateContentReadStreamAsync_d__12;
+}
+namespace System::Net::Http {
 struct HttpContent__LoadIntoBufferAsync_d__17;
+}
+namespace System::Net::Http {
+struct HttpContent__ReadAsByteArrayAsync_d__19;
+}
+namespace System::Net::Http {
+struct HttpContent__ReadAsStreamAsync_d__18;
 }
 namespace System::Net::Http {
 struct HttpContent__ReadAsStringAsync_d__20;
@@ -45,6 +53,9 @@ namespace System::Threading::Tasks {
 class Task;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 template <typename T> struct Nullable_1;
 }
 // Forward declare root types
@@ -55,7 +66,16 @@ namespace System::Net::Http {
 class HttpContent_FixedMemoryStream;
 }
 namespace System::Net::Http {
+struct HttpContent__CreateContentReadStreamAsync_d__12;
+}
+namespace System::Net::Http {
 struct HttpContent__LoadIntoBufferAsync_d__17;
+}
+namespace System::Net::Http {
+struct HttpContent__ReadAsByteArrayAsync_d__19;
+}
+namespace System::Net::Http {
+struct HttpContent__ReadAsStreamAsync_d__18;
 }
 namespace System::Net::Http {
 struct HttpContent__ReadAsStringAsync_d__20;
@@ -63,7 +83,10 @@ struct HttpContent__ReadAsStringAsync_d__20;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::HttpContent);
 MARK_REF_PTR_T(::System::Net::Http::HttpContent_FixedMemoryStream);
+MARK_VAL_T(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12);
 MARK_VAL_T(::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17);
+MARK_VAL_T(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19);
+MARK_VAL_T(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18);
 MARK_VAL_T(::System::Net::Http::HttpContent__ReadAsStringAsync_d__20);
 // Dependencies System.IO.MemoryStream
 namespace System::Net::Http {
@@ -75,15 +98,15 @@ public:
   /// @brief Field maxSize, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_maxSize, put = __cordl_internal_set_maxSize)) int64_t maxSize;
 
-  /// @brief Method CheckOverflow, addr 0x4218f48, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method CheckOverflow, addr 0x5ec11d8, size 0xa4, virtual false, abstract: false, final false
   inline void CheckOverflow(int32_t count);
 
   static inline ::System::Net::Http::HttpContent_FixedMemoryStream* New_ctor(int64_t maxSize);
 
-  /// @brief Method Write, addr 0x4219088, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5ec1318, size 0x48, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteByte, addr 0x4219058, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x5ec12e8, size 0x30, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t value);
 
   constexpr int64_t const& __cordl_internal_get_maxSize() const;
@@ -92,7 +115,7 @@ public:
 
   constexpr void __cordl_internal_set_maxSize(int64_t value);
 
-  /// @brief Method .ctor, addr 0x4218cf0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec0d9c, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(int64_t maxSize);
 
 protected:
@@ -110,7 +133,7 @@ public:
   HttpContent_FixedMemoryStream(HttpContent_FixedMemoryStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20133 };
 
   /// @brief Field maxSize, offset: 0x50, size: 0x8, def value: None
   int64_t ___maxSize;
@@ -123,8 +146,69 @@ static_assert(offsetof(::System::Net::Http::HttpContent_FixedMemoryStream, ___ma
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent_FixedMemoryStream, 0x58>, "Size mismatch!");
 
 } // namespace System::Net::Http
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
+namespace System::Net::Http {
+// Is value type: true
+// CS Name: System.Net.Http.HttpContent/<CreateContentReadStreamAsync>d__12
+struct CORDL_TYPE HttpContent__CreateContentReadStreamAsync_d__12 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x5ec1360, size 0x224, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x5ec1584, size 0x80, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpContent__CreateContentReadStreamAsync_d__12();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+  constexpr HttpContent__CreateContentReadStreamAsync_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
+                                                            ::System::Net::Http::HttpContent* __4__this,
+                                                            ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20134 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::System::Net::Http::HttpContent* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x10, def value: None
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12, __u__1) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12, 0x38>, "Size mismatch!");
+
+} // namespace System::Net::Http
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: System.Net.Http.HttpContent/<LoadIntoBufferAsync>d__17
@@ -134,10 +218,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x42190d0, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ec1604, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4219374, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ec18c0, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -155,7 +239,7 @@ public:
                                                    int64_t maxBufferSize, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16693 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20135 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -191,8 +275,132 @@ static_assert(offsetof(::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17, 0x40>, "Size mismatch!");
 
 } // namespace System::Net::Http
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
+namespace System::Net::Http {
+// Is value type: true
+// CS Name: System.Net.Http.HttpContent/<ReadAsStreamAsync>d__18
+struct CORDL_TYPE HttpContent__ReadAsStreamAsync_d__18 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x5ec192c, size 0x3c4, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x5ec1cf0, size 0x80, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpContent__ReadAsStreamAsync_d__18();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpContent*",
+  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "",
+  // def_value: None }]
+  constexpr HttpContent__ReadAsStreamAsync_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder,
+                                                 ::System::Net::Http::HttpContent* __4__this,
+                                                 ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20136 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::IO::Stream*> __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::System::Net::Http::HttpContent* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x10, def value: None
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::IO::Stream*> __u__1;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18, __u__1) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18, 0x38>, "Size mismatch!");
+
+} // namespace System::Net::Http
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
+namespace System::Net::Http {
+// Is value type: true
+// CS Name: System.Net.Http.HttpContent/<ReadAsByteArrayAsync>d__19
+struct CORDL_TYPE HttpContent__ReadAsByteArrayAsync_d__19 {
+public:
+  // Declarations
+  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+
+  /// @brief Method MoveNext, addr 0x5ec1d70, size 0x248, virtual true, abstract: false, final true
+  inline void MoveNext();
+
+  /// @brief Method SetStateMachine, addr 0x5ec1fb8, size 0x80, virtual true, abstract: false, final true
+  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+
+  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr HttpContent__ReadAsByteArrayAsync_d__19();
+
+  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
+  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t,::Array<uint8_t>*>>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
+  // "::System::Net::Http::HttpContent*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter",
+  // modifiers: "", def_value: None }]
+  constexpr HttpContent__ReadAsByteArrayAsync_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder,
+                                                    ::System::Net::Http::HttpContent* __4__this, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20137 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+
+  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+  int32_t __1__state;
+
+  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::ArrayW<uint8_t, ::Array<uint8_t>*>> __t__builder;
+
+  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+  ::System::Net::Http::HttpContent* __4__this;
+
+  /// @brief Field <>u__1, offset: 0x28, size: 0x10, def value: None
+  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19, __u__1) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19, 0x38>, "Size mismatch!");
+
+} // namespace System::Net::Http
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: System.Net.Http.HttpContent/<ReadAsStringAsync>d__20
@@ -202,10 +410,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x42193dc, size 0x3bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ec2038, size 0x3cc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x421990c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ec2588, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -222,7 +430,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16694 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20138 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -253,7 +461,7 @@ static_assert(offsetof(::System::Net::Http::HttpContent__ReadAsStringAsync_d__20
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent__ReadAsStringAsync_d__20, 0x38>, "Size mismatch!");
 
 } // namespace System::Net::Http
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Net::Http {
 // Is value type: false
 // CS Name: System.Net.Http.HttpContent
@@ -262,7 +470,13 @@ public:
   // Declarations
   using FixedMemoryStream = ::System::Net::Http::HttpContent_FixedMemoryStream;
 
+  using _CreateContentReadStreamAsync_d__12 = ::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12;
+
   using _LoadIntoBufferAsync_d__17 = ::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17;
+
+  using _ReadAsByteArrayAsync_d__19 = ::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19;
+
+  using _ReadAsStreamAsync_d__18 = ::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18;
 
   using _ReadAsStringAsync_d__20 = ::System::Net::Http::HttpContent__ReadAsStringAsync_d__20;
 
@@ -273,48 +487,63 @@ public:
   /// @brief Field buffer, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_buffer, put = __cordl_internal_set_buffer)) ::System::Net::Http::HttpContent_FixedMemoryStream* buffer;
 
-  /// @brief Field disposed, offset 0x18, size 0x1
+  /// @brief Field disposed, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
 
-  /// @brief Field headers, offset 0x20, size 0x8
+  /// @brief Field headers, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers)) ::System::Net::Http::Headers::HttpContentHeaders* headers;
+
+  /// @brief Field stream, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream)) ::System::IO::Stream* stream;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CopyToAsync, addr 0x42168c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x5ebdf1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream);
 
-  /// @brief Method CopyToAsync, addr 0x4218c1c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method CopyToAsync, addr 0x5ec0bc0, size 0x98, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CopyToAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method CreateFixedMemoryStream, addr 0x4218c94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateContentReadStreamAsync, addr 0x5ec0c58, size 0xe4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* CreateContentReadStreamAsync();
+
+  /// @brief Method CreateFixedMemoryStream, addr 0x5ec0d3c, size 0x60, virtual false, abstract: false, final false
   static inline ::System::Net::Http::HttpContent_FixedMemoryStream* CreateFixedMemoryStream(int64_t maxBufferSize);
 
-  /// @brief Method Dispose, addr 0x4218d18, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5ec0dc4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4218d28, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ec0dd4, size 0x34, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetEncodingFromBuffer, addr 0x4218d5c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method GetEncodingFromBuffer, addr 0x5ec0fd8, size 0x180, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetEncodingFromBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t length, ::ByRef<int32_t> preambleLength);
 
-  /// @brief Method LoadIntoBufferAsync, addr 0x4218d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadIntoBufferAsync, addr 0x5ec0e08, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync();
 
-  /// @brief Method LoadIntoBufferAsync, addr 0x42167f8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method LoadIntoBufferAsync, addr 0x5ebde5c, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadIntoBufferAsync(int64_t maxBufferSize);
 
   static inline ::System::Net::Http::HttpContent* New_ctor();
 
-  /// @brief Method ReadAsStringAsync, addr 0x42189d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method ReadAsByteArrayAsync, addr 0x5ec0ef4, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAsByteArrayAsync();
+
+  /// @brief Method ReadAsStreamAsync, addr 0x5ec0e10, size 0xe4, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* ReadAsStreamAsync();
+
+  /// @brief Method ReadAsStringAsync, addr 0x5ec0984, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync();
 
   /// @brief Method SerializeToStreamAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
 
-  /// @brief Method StartsWith, addr 0x4218ed4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SerializeToStreamAsync_internal, addr 0x5ec11cc, size 0xc, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task* SerializeToStreamAsync_internal(::System::IO::Stream* stream, ::System::Net::TransportContext* context);
+
+  /// @brief Method StartsWith, addr 0x5ec1158, size 0x74, virtual false, abstract: false, final false
   static inline int32_t StartsWith(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   /// @brief Method TryComputeLength, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -332,19 +561,25 @@ public:
 
   constexpr ::System::Net::Http::Headers::HttpContentHeaders*& __cordl_internal_get_headers();
 
+  constexpr ::System::IO::Stream* const& __cordl_internal_get_stream() const;
+
+  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+
   constexpr void __cordl_internal_set_buffer(::System::Net::Http::HttpContent_FixedMemoryStream* value);
 
   constexpr void __cordl_internal_set_disposed(bool value);
 
   constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpContentHeaders* value);
 
-  /// @brief Method .ctor, addr 0x4216fd0, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
+
+  /// @brief Method .ctor, addr 0x5ebe5e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Headers, addr 0x42146c4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x5ebbccc, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::HttpContentHeaders* get_Headers();
 
-  /// @brief Method get_LoadedBufferLength, addr 0x4218ba0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_LoadedBufferLength, addr 0x5ec0b5c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_LoadedBufferLength();
 
   /// @brief Convert to "::System::IDisposable"
@@ -365,15 +600,18 @@ public:
   HttpContent(HttpContent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16695 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20139 };
 
   /// @brief Field buffer, offset: 0x10, size: 0x8, def value: None
   ::System::Net::Http::HttpContent_FixedMemoryStream* ___buffer;
 
-  /// @brief Field disposed, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field stream, offset: 0x18, size: 0x8, def value: None
+  ::System::IO::Stream* ___stream;
+
+  /// @brief Field disposed, offset: 0x20, size: 0x1, def value: None
   bool ___disposed;
 
-  /// @brief Field headers, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field headers, offset: 0x28, size: 0x8, def value: None
   ::System::Net::Http::Headers::HttpContentHeaders* ___headers;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -381,16 +619,21 @@ public:
 // Non member Declarations
 static_assert(offsetof(::System::Net::Http::HttpContent, ___buffer) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::HttpContent, ___disposed) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::HttpContent, ___stream) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::System::Net::Http::HttpContent, ___headers) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::System::Net::Http::HttpContent, ___disposed) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent, 0x28>, "Size mismatch!");
+static_assert(offsetof(::System::Net::Http::HttpContent, ___headers) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpContent, 0x30>, "Size mismatch!");
 
 } // namespace System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpContent);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent*, "System.Net.Http", "HttpContent");
 NEED_NO_BOX(::System::Net::Http::HttpContent_FixedMemoryStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent_FixedMemoryStream*, "System.Net.Http", "HttpContent/FixedMemoryStream");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent__CreateContentReadStreamAsync_d__12, "System.Net.Http", "HttpContent/<CreateContentReadStreamAsync>d__12");
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent__LoadIntoBufferAsync_d__17, "System.Net.Http", "HttpContent/<LoadIntoBufferAsync>d__17");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent__ReadAsByteArrayAsync_d__19, "System.Net.Http", "HttpContent/<ReadAsByteArrayAsync>d__19");
+DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent__ReadAsStreamAsync_d__18, "System.Net.Http", "HttpContent/<ReadAsStreamAsync>d__18");
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpContent__ReadAsStringAsync_d__20, "System.Net.Http", "HttpContent/<ReadAsStringAsync>d__20");

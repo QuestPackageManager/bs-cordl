@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute::*)()>(
     &::Unity::IL2CPP::CompilerServices::Il2CppEagerStaticClassConstructionAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x465597c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x63e10b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

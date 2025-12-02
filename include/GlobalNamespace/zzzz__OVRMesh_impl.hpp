@@ -35,12 +35,14 @@ constexpr ::GlobalNamespace::OVRMesh_MeshType::OVRMesh_MeshType() {}
 constexpr ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_MeshType::None{ static_cast<int32_t>(0xffffffff) };
 constexpr ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_MeshType::HandLeft{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_MeshType::HandRight{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_MeshType::XRHandLeft{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh_MeshType::XRHandRight{ static_cast<int32_t>(0x5) };
 //  Writing Method size for method: ::GlobalNamespace::OVRMesh.get_IsInitialized
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMesh::*)()>(&::GlobalNamespace::OVRMesh::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4037014;
+  constexpr static std::size_t addrs = 0x5cebe74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "get_IsInitialized",
@@ -52,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMesh::*)(bool)>(&::GlobalNamespace::OVRMesh::set_IsInitialized)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x403701c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cebe7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,10 +69,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::OVRMesh::*)()>(&::GlobalNamespace::OVRMesh::get_Mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4037028;
+  constexpr static std::size_t addrs = 0x5cebe84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "get_Mesh",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRMesh.GetMeshType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRMesh_MeshType (::GlobalNamespace::OVRMesh::*)()>(&::GlobalNamespace::OVRMesh::GetMeshType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cebe8c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "GetMeshType",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -81,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMesh::*)(::GlobalNamespace::OVRMesh_MeshType)>(
     &::GlobalNamespace::OVRMesh::SetMeshType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4037030;
+  constexpr static std::size_t addrs = 0x5cebe94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMesh::*)()>(&::GlobalNamespace::OVRMesh::Awake)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4037038;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5cebe9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "Awake",
@@ -107,8 +122,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRMesh::*)()>(&::GlobalNamespace::OVRMesh::ShouldInitialize)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x403712c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5cebfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "ShouldInitialize",
@@ -120,8 +135,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMesh::*)(::GlobalNamespace::OVRMesh_MeshType)>(&::GlobalNamespace::OVRMesh::Initialize)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x403714c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5cebfd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMesh::*)(::GlobalNamespace::OVRPlugin_Mesh*, ::UnityEngine::Mesh*)>(
     &::GlobalNamespace::OVRMesh::TransformOvrpMesh)> {
-  constexpr static std::size_t size = 0xa78;
-  constexpr static std::size_t addrs = 0x4037200;
+  constexpr static std::size_t size = 0xa58;
+  constexpr static std::size_t addrs = 0x5cec094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,8 +165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMesh::*)()>(&::GlobalNamespace::OVRMesh::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4037c78;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5cecaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), ".ctor",
@@ -182,6 +197,18 @@ constexpr ::GlobalNamespace::OVRMesh_MeshType const& GlobalNamespace::OVRMesh::_
 constexpr void GlobalNamespace::OVRMesh::__cordl_internal_set__meshType(::GlobalNamespace::OVRMesh_MeshType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____meshType = value;
+}
+constexpr ::GlobalNamespace::OVRMesh_MeshType& GlobalNamespace::OVRMesh::__cordl_internal_get__loadedMeshType() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____loadedMeshType;
+}
+constexpr ::GlobalNamespace::OVRMesh_MeshType const& GlobalNamespace::OVRMesh::__cordl_internal_get__loadedMeshType() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____loadedMeshType;
+}
+constexpr void GlobalNamespace::OVRMesh::__cordl_internal_set__loadedMeshType(::GlobalNamespace::OVRMesh_MeshType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____loadedMeshType = value;
 }
 constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVRMesh::__cordl_internal_get__mesh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -222,6 +249,11 @@ inline ::UnityW<::UnityEngine::Mesh> GlobalNamespace::OVRMesh::get_Mesh() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "get_Mesh",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Mesh>, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRMesh_MeshType GlobalNamespace::OVRMesh::GetMeshType() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMesh*>::get(), "GetMeshType",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRMesh_MeshType, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRMesh::SetMeshType(::GlobalNamespace::OVRMesh_MeshType type) {
   static auto* ___internal_method =

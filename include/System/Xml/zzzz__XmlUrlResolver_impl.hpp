@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Xml/XmlUrlResolver.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Xml/zzzz__XmlResolver_impl.hpp"
 #include "System/Xml/zzzz__XmlUrlResolver_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -22,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::*)()>(
     &::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::MoveNext)> {
   constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x4363a74;
+  constexpr static std::size_t addrs = 0x60cb170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver__GetEntityAsync_d__15>::get(),
@@ -35,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Xml::XmlUrlResolver__GetEntityAsync_d__15::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4363e40;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x60cb53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlDownloadManager* (*)()>(&::System::Xml::XmlUrlResolver::get_DownloadManager)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4363720;
+  constexpr static std::size_t addrs = 0x60cae68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), "get_DownloadManager",
@@ -98,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlUrlResolver::*)()>(&::System::Xml::XmlUrlResolver::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43637ec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60caf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlUrlResolver*>::get(), ".ctor",
@@ -112,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(
     &::System::Xml::XmlUrlResolver::GetEntity)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x43637f4;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x60caf38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW)>(
     &::System::Xml::XmlUrlResolver::ResolveUri)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x436396c;
+  constexpr static std::size_t addrs = 0x60cb074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Object*>* (
     ::System::Xml::XmlUrlResolver::*)(::System::Uri*, ::StringW, ::System::Type*)>(&::System::Xml::XmlUrlResolver::GetEntityAsync)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4363970;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x60cb078;
 
   inline static ::MethodInfo const* methodInfo() {
 

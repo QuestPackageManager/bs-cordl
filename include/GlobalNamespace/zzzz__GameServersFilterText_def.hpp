@@ -47,10 +47,10 @@ public:
 
   static inline ::GlobalNamespace::GameServersFilterText* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b0185c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x56d3fbc, size 0x264, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool visible);
 
-  /// @brief Method Setup, addr 0x3b015d4, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x56e336c, size 0x2b0, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::GameServersFilter* filter, bool visible);
 
   constexpr ::GlobalNamespace::SongPackMasksModel* const& __cordl_internal_get__songPackMasksModel() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::HMUI::CurvedTextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3b01a8c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e361c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +89,7 @@ public:
   GameServersFilterText(GameServersFilterText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6561 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::CurvedTextMeshPro> ____text;

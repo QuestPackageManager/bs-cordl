@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_def.hpp"
@@ -13,7 +11,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(TransformData)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,8 +25,7 @@ struct TransformData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::TransformData);
-// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleDataGroup`1<T>, UnityEngine.UIElements.Rotate, UnityEngine.UIElements.Scale, UnityEngine.UIElements.TransformOrigin,
-// UnityEngine.UIElements.Translate
+// Dependencies UnityEngine.UIElements.Rotate, UnityEngine.UIElements.Scale, UnityEngine.UIElements.TransformOrigin, UnityEngine.UIElements.Translate
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.TransformData
@@ -35,19 +38,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>*();
 
-  /// @brief Method Copy, addr 0x4a82d04, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6a5ab18, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::TransformData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a82d20, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6a5ab28, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::ByRef<::UnityEngine::UIElements::TransformData> other);
 
-  /// @brief Method Equals, addr 0x4a830b4, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a5aec4, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a83070, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a5ae80, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::TransformData other);
 
-  /// @brief Method GetHashCode, addr 0x4a83154, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a5af68, size 0x54, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::TransformData>"
@@ -56,7 +59,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::TransformData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__TransformData_();
 
-  /// @brief Method op_Equality, addr 0x4a82d34, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a5ab30, size 0x194, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::TransformData lhs, ::UnityEngine::UIElements::TransformData rhs);
 
   // Ctor Parameters []
@@ -70,7 +73,7 @@ public:
                           ::UnityEngine::UIElements::Translate translate) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4945 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };

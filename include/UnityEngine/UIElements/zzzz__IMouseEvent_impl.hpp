@@ -105,62 +105,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::IMouseEvent.get_shiftKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMouseEvent::*)()>(&::UnityEngine::UIElements::IMouseEvent::get_shiftKey)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 7));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::IMouseEvent.get_ctrlKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMouseEvent::*)()>(&::UnityEngine::UIElements::IMouseEvent::get_ctrlKey)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 8));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::IMouseEvent.get_commandKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMouseEvent::*)()>(&::UnityEngine::UIElements::IMouseEvent::get_commandKey)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 9));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::UIElements::IMouseEvent.get_altKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::IMouseEvent::*)()>(&::UnityEngine::UIElements::IMouseEvent::get_altKey)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 10));
-    return ___internal_method;
-  }
-};
 inline ::UnityEngine::EventModifiers UnityEngine::UIElements::IMouseEvent::get_modifiers() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 0)));
@@ -195,24 +139,4 @@ inline int32_t UnityEngine::UIElements::IMouseEvent::get_pressedButtons() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::IMouseEvent::get_shiftKey() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 7)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::IMouseEvent::get_ctrlKey() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 8)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::IMouseEvent::get_commandKey() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 9)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline bool UnityEngine::UIElements::IMouseEvent::get_altKey() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::IMouseEvent*>::get(), 10)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }

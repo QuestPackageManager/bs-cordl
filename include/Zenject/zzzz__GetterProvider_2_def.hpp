@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
 CORDL_MODULE_EXPORT(GetterProvider_2)
 namespace System::Collections::Generic {
@@ -26,6 +25,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -40,7 +42,7 @@ template <typename TObj, typename TResult> class GetterProvider_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::GetterProvider_2);
-// Dependencies System.Object, Zenject.IProvider, Zenject.InjectSources
+// Dependencies System.Object, Zenject.InjectSources
 namespace Zenject {
 // cpp template
 template <typename TObj, typename TResult>
@@ -141,7 +143,7 @@ public:
   GetterProvider_2(GetterProvider_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14516 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

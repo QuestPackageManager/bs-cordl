@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LazyInstanceInjector::*)(::Zenject::DiContainer*)>(&::Zenject::LazyInstanceInjector::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4b3a350;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6c4e3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>* (::Zenject::LazyInstanceInjector::*)()>(
     &::Zenject::LazyInstanceInjector::get_Instances)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a3d8;
+  constexpr static std::size_t addrs = 0x6c4e46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::LazyInstanceInjector*>::get(), "get_Instances",
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LazyInstanceInjector::*)(::System::Object*)>(&::Zenject::LazyInstanceInjector::AddInstance)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4b3a3e0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6c4e474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LazyInstanceInjector::*)(::System::Collections::Generic::IEnumerable_1<::System::Object*>*)>(
     &::Zenject::LazyInstanceInjector::AddInstances)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4b3a438;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6c4e4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LazyInstanceInjector::*)(::System::Object*)>(&::Zenject::LazyInstanceInjector::LazyInject)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4b3a490;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6c4e548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::LazyInstanceInjector::*)()>(&::Zenject::LazyInstanceInjector::LazyInjectAll)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x4b3a50c;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x6c4e5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::LazyInstanceInjector*>::get(), "LazyInjectAll",

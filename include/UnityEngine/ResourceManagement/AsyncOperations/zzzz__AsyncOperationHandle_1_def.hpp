@@ -3,8 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -16,6 +15,9 @@ template <typename T> class HashSet_1;
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -26,10 +28,16 @@ namespace System {
 class Exception;
 }
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> class AsyncOperationBase_1;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class AsyncOperationHandle_1___c;
 }
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
@@ -45,11 +53,67 @@ class IAsyncOperation;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::AsyncOperations {
+template <typename TObject> class AsyncOperationHandle_1___c;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
 }
 // Write type traits
+MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c);
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1);
-// Dependencies System.Collections.IEnumerator, System.IEquatable`1<T>
+// Dependencies System.Object
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+// cpp template
+template <typename TObject>
+// Is value type: false
+// CS Name: UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1/<>c<TObject>
+class CORDL_TYPE AsyncOperationHandle_1___c : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field <>9, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c<TObject>* __9;
+
+  /// @brief Field <>9__20_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__20_0, put = setStaticF___9__20_0)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* __9__20_0;
+
+  static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c<TObject>* New_ctor();
+
+  /// @brief Method <ReleaseHandleOnCompletion>b__20_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ReleaseHandleOnCompletion_b__20_0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> op);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c<TObject>* getStaticF___9();
+
+  static inline ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* getStaticF___9__20_0();
+
+  static inline void setStaticF___9(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c<TObject>* value);
+
+  static inline void setStaticF___9__20_0(::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* value);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AsyncOperationHandle_1___c();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationHandle_1___c", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AsyncOperationHandle_1___c(AsyncOperationHandle_1___c&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "AsyncOperationHandle_1___c", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AsyncOperationHandle_1___c(AsyncOperationHandle_1___c const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18768 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace UnityEngine::ResourceManagement::AsyncOperations
+// Dependencies
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
@@ -58,6 +122,8 @@ template <typename TObject>
 struct CORDL_TYPE AsyncOperationHandle_1 {
 public:
   // Declarations
+  using __c = ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c<TObject>;
+
   __declspec(property(get = get_DebugName)) ::StringW DebugName;
 
   __declspec(property(get = get_InternalOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* InternalOp;
@@ -80,7 +146,7 @@ public:
 
   __declspec(property(get = get_Task)) ::System::Threading::Tasks::Task_1<TObject>* Task;
 
-  __declspec(property(get = get_UnloadSceneOpExcludeReleaseCallback, put = set_UnloadSceneOpExcludeReleaseCallback)) bool UnloadSceneOpExcludeReleaseCallback;
+  __declspec(property(get = get_Version)) int32_t Version;
 
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*();
@@ -111,6 +177,9 @@ public:
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release();
+
+  /// @brief Method ReleaseHandleOnCompletion, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ReleaseHandleOnCompletion();
 
   /// @brief Method System.Collections.IEnumerator.MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool System_Collections_IEnumerator_MoveNext();
@@ -178,8 +247,8 @@ public:
   /// @brief Method get_Task, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<TObject>* get_Task();
 
-  /// @brief Method get_UnloadSceneOpExcludeReleaseCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline bool get_UnloadSceneOpExcludeReleaseCallback();
+  /// @brief Method get_Version, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t get_Version();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
   constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator();
@@ -204,24 +273,19 @@ public:
   /// @brief Method set_LocationName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_LocationName(::StringW value);
 
-  /// @brief Method set_UnloadSceneOpExcludeReleaseCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void set_UnloadSceneOpExcludeReleaseCallback(bool value);
-
   // Ctor Parameters []
   // @brief default ctor
   constexpr AsyncOperationHandle_1();
 
   // Ctor Parameters [CppParam { name: "m_InternalOp", ty: "::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LocationName", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "m_UnloadSceneOpExcludeReleaseCallback", ty: "bool", modifiers: "", def_value: None }]
-  constexpr AsyncOperationHandle_1(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp, int32_t m_Version, ::StringW m_LocationName,
-                                   bool m_UnloadSceneOpExcludeReleaseCallback) noexcept;
+  // "m_Version", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_LocationName", ty: "::StringW", modifiers: "", def_value: None }]
+  constexpr AsyncOperationHandle_1(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp, int32_t m_Version, ::StringW m_LocationName) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15702 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18769 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field m_InternalOp, offset: 0x0, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationBase_1<TObject>* m_InternalOp;
@@ -232,11 +296,9 @@ public:
   /// @brief Field m_LocationName, offset: 0x10, size: 0x8, def value: None
   ::StringW m_LocationName;
 
-  /// @brief Field m_UnloadSceneOpExcludeReleaseCallback, offset: 0x18, size: 0x1, def value: None
-  bool m_UnloadSceneOpExcludeReleaseCallback;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1___c, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1/<>c");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1, "UnityEngine.ResourceManagement.AsyncOperations", "AsyncOperationHandle`1");

@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set__Location_k__BackingField(::System::Resources::UltimateResourceFallbackLocation value);
 
-  /// @brief Method .ctor, addr 0x3d1af48, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595c7e4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::StringW cultureName);
 
-  /// @brief Method get_CultureName, addr 0x3d1afc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CultureName, addr 0x595c840, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_CultureName();
 
-  /// @brief Method get_Location, addr 0x3d1afc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Location, addr 0x595c848, size 0x8, virtual false, abstract: false, final false
   inline ::System::Resources::UltimateResourceFallbackLocation get_Location();
 
 protected:
@@ -72,7 +72,7 @@ public:
   NeutralResourcesLanguageAttribute(NeutralResourcesLanguageAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3444 };
 
   /// @brief Field <CultureName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____CultureName_k__BackingField;

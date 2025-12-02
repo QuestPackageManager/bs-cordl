@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByInstaller)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -17,6 +16,9 @@ class Type;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class ISubContainerCreator;
 }
 namespace Zenject {
 class InjectContext;
@@ -33,7 +35,7 @@ class SubContainerCreatorByInstaller;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByInstaller);
-// Dependencies System.Object, Zenject.ISubContainerCreator
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.SubContainerCreatorByInstaller
@@ -55,7 +57,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4b41240, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x6c550d0, size 0x18c, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* context);
 
   static inline ::Zenject::SubContainerCreatorByInstaller* New_ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
@@ -87,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set__installerType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x4b411a8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c55030, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType);
 
-  /// @brief Method .ctor, addr 0x4b410b8, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c54f40, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::SubContainerCreatorBindInfo* containerBindInfo, ::System::Type* installerType,
                     ::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>* extraArgs);
 
@@ -112,7 +114,7 @@ public:
   SubContainerCreatorByInstaller(SubContainerCreatorByInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14566 };
 
   /// @brief Field _installerType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____installerType;

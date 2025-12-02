@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TwoPaneSplitView.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TwoPaneSplitViewOrientation_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_impl.hpp"
@@ -18,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a111a4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b4aacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView_UxmlFactory*>::get(),
@@ -43,8 +44,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4a111ec;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x6b4ab34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4a11358;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x6b4acdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView_UxmlTraits*>::get(),
@@ -130,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0ea74;
+  constexpr static std::size_t addrs = 0x6b47378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
@@ -144,11 +145,25 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_flexedPane)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0ea7c;
+  constexpr static std::size_t addrs = 0x6b47380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
                                                                                "get_flexedPane", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.get_dragLine
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::get_dragLine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b47388;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                               "get_dragLine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -158,11 +173,55 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0ea84;
+  constexpr static std::size_t addrs = 0x6b47390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
                                                                                "get_fixedPaneIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.set_fixedPaneIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(int32_t)>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneIndex)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6b47398;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "set_fixedPaneIndex",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.get_fixedPaneInitialDimension
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneInitialDimension)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b47444;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                               "get_fixedPaneInitialDimension", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.set_fixedPaneInitialDimension
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneInitialDimension)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6b4744c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "set_fixedPaneInitialDimension",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -172,11 +231,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TwoPaneSplitViewOrientation (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_orientation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a0ea8c;
+  constexpr static std::size_t addrs = 0x6b474fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
                                                                                "get_orientation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.set_orientation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(::UnityEngine::UIElements::TwoPaneSplitViewOrientation)>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::set_orientation)> {
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6b47504;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "set_orientation", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>::get() })));
     return ___internal_method;
   }
 };
@@ -185,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneDimension)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a0ea94;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6b475b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
@@ -200,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneDimension)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a0eac4;
+  constexpr static std::size_t addrs = 0x6b475d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,12 +287,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(&::UnityEngine::UIElements::TwoPaneSplitView::_ctor)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x4a0eae0;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b475f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.SetupSplitView
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::SetupSplitView)> {
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x6b47690;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                               "SetupSplitView", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.CollapseChild
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(int32_t)>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::CollapseChild)> {
+  constexpr static std::size_t size = 0x5d0;
+  constexpr static std::size_t addrs = 0x6b47880;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "CollapseChild",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -227,14 +330,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(int32_t, float_t, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation)>(&::UnityEngine::UIElements::TwoPaneSplitView::Init)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x4a0ece8;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x6b47e50;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>::get() })));
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 136));
     return ___internal_method;
   }
 };
@@ -243,8 +345,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::OnPostDisplaySetup)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4a10198;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x6b493b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,13 +355,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.ReplacePanesBasedOnAnchor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::ReplacePanesBasedOnAnchor)> {
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6b494f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                               "ReplacePanesBasedOnAnchor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.IdentifyLeftAndRightPane
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
+    &::UnityEngine::UIElements::TwoPaneSplitView::IdentifyLeftAndRightPane)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6b49678;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                               "IdentifyLeftAndRightPane", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::TwoPaneSplitView.PostDisplaySetup
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::PostDisplaySetup)> {
-  constexpr static std::size_t size = 0x11d8;
-  constexpr static std::size_t addrs = 0x4a0efc0;
+  constexpr static std::size_t size = 0x1248;
+  constexpr static std::size_t addrs = 0x6b48168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
@@ -273,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::OnSizeChange)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a1036c;
+  constexpr static std::size_t addrs = 0x6b497c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,8 +417,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(bool, bool)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::UpdateLayout)> {
-  constexpr static std::size_t size = 0x9fc;
-  constexpr static std::size_t addrs = 0x4a10378;
+  constexpr static std::size_t size = 0xc8c;
+  constexpr static std::size_t addrs = 0x6b497cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,12 +433,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a10fc4;
+  constexpr static std::size_t addrs = 0x6b4a720;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 99));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 135));
     return ___internal_method;
   }
 };
@@ -317,13 +447,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)()>(
     &::UnityEngine::UIElements::TwoPaneSplitView::OnViewDataReady)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a10fcc;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6b4a728;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 96));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 132));
     return ___internal_method;
   }
 };
@@ -332,8 +462,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::SetDragLineOffset)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4a10d74;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6b4a458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -347,8 +477,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TwoPaneSplitView::*)(float_t)>(
     &::UnityEngine::UIElements::TwoPaneSplitView::SetFixedPaneDimension)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4a10e9c;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6b4a5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -453,6 +583,30 @@ constexpr void UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_set_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_CollapseMode = value;
 }
+constexpr bool& UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_get_m_PendingCollapseToExecute() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PendingCollapseToExecute;
+}
+constexpr bool const& UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_get_m_PendingCollapseToExecute() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_PendingCollapseToExecute;
+}
+constexpr void UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_set_m_PendingCollapseToExecute(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_PendingCollapseToExecute = value;
+}
+constexpr int32_t& UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_get_m_CollapsedChildIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CollapsedChildIndex;
+}
+constexpr int32_t const& UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_get_m_CollapsedChildIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_CollapsedChildIndex;
+}
+constexpr void UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_set_m_CollapsedChildIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_CollapsedChildIndex = value;
+}
 constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_get_m_Content() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_Content;
@@ -512,6 +666,33 @@ constexpr ::UnityEngine::UIElements::TwoPaneSplitViewResizer* const& UnityEngine
 constexpr void UnityEngine::UIElements::TwoPaneSplitView::__cordl_internal_set_m_Resizer(::UnityEngine::UIElements::TwoPaneSplitViewResizer* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Resizer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::setStaticF_fixedPaneIndexProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "fixedPaneIndexProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TwoPaneSplitView::getStaticF_fixedPaneIndexProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "fixedPaneIndexProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>();
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::setStaticF_fixedPaneInitialDimensionProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "fixedPaneInitialDimensionProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TwoPaneSplitView::getStaticF_fixedPaneInitialDimensionProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "fixedPaneInitialDimensionProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>();
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::setStaticF_orientationProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "orientationProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::TwoPaneSplitView::getStaticF_orientationProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "orientationProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>();
 }
 inline void UnityEngine::UIElements::TwoPaneSplitView::setStaticF_s_UssClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "s_UssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get>(
@@ -596,15 +777,43 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TwoPan
                                                                              "get_flexedPane", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
 }
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TwoPaneSplitView::get_dragLine() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                             "get_dragLine", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
+}
 inline int32_t UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneIndex() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
                                                                              "get_fixedPaneIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneIndex(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "set_fixedPaneIndex",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline float_t UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneInitialDimension() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                             "get_fixedPaneInitialDimension", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::set_fixedPaneInitialDimension(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "set_fixedPaneInitialDimension",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::UIElements::TwoPaneSplitViewOrientation UnityEngine::UIElements::TwoPaneSplitView::get_orientation() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
                                                                              "get_orientation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TwoPaneSplitViewOrientation, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::set_orientation(::UnityEngine::UIElements::TwoPaneSplitViewOrientation value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "set_orientation", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::UIElements::TwoPaneSplitView::get_fixedPaneDimension() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
@@ -622,11 +831,20 @@ inline void UnityEngine::UIElements::TwoPaneSplitView::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::TwoPaneSplitView::SetupSplitView() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                             "SetupSplitView", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::CollapseChild(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "CollapseChild",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, index);
+}
 inline void UnityEngine::UIElements::TwoPaneSplitView::Init(int32_t fixedPaneIndex, float_t fixedPaneInitialDimension, ::UnityEngine::UIElements::TwoPaneSplitViewOrientation orientation) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TwoPaneSplitViewOrientation>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 136)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, fixedPaneIndex, fixedPaneInitialDimension, orientation);
 }
 inline void UnityEngine::UIElements::TwoPaneSplitView::OnPostDisplaySetup(::UnityEngine::UIElements::GeometryChangedEvent* evt) {
@@ -634,6 +852,16 @@ inline void UnityEngine::UIElements::TwoPaneSplitView::OnPostDisplaySetup(::Unit
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), "OnPostDisplaySetup", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::GeometryChangedEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::ReplacePanesBasedOnAnchor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                             "ReplacePanesBasedOnAnchor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TwoPaneSplitView::IdentifyLeftAndRightPane() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
+                                                                             "IdentifyLeftAndRightPane", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TwoPaneSplitView::PostDisplaySetup() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(),
@@ -654,12 +882,12 @@ inline void UnityEngine::UIElements::TwoPaneSplitView::UpdateLayout(bool updateF
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::TwoPaneSplitView::get_contentContainer() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 99)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 135)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TwoPaneSplitView::OnViewDataReady() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 96)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TwoPaneSplitView*>::get(), 132)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::TwoPaneSplitView::SetDragLineOffset(float_t offset) {

@@ -5,6 +5,7 @@
 #include "System/Net/Http/zzzz__StreamContent_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Net/zzzz__TransportContext_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::StreamContent._ctor
@@ -12,7 +13,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::StreamContent::*)(::System::IO::Stream*)>(&::System::Net::Http::StreamContent::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421a89c;
+  constexpr static std::size_t addrs = 0x5ec5740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::StreamContent::*)(::System::IO::Stream*, int32_t)>(
     &::System::Net::Http::StreamContent::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x421a8a4;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5ec5748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::StreamContent::*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::StreamContent::_ctor)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4216f2c;
+  constexpr static std::size_t addrs = 0x5ebe560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,17 +54,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Net::Http::StreamContent.Dispose
+//  Writing Method size for method: ::System::Net::Http::StreamContent.CreateContentReadStreamAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::StreamContent::*)(bool)>(&::System::Net::Http::StreamContent::Dispose)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x421a988;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::IO::Stream*>* (::System::Net::Http::StreamContent::*)()>(
+    &::System::Net::Http::StreamContent::CreateContentReadStreamAsync)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5ec5820;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::StreamContent.Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::StreamContent::*)(bool)>(&::System::Net::Http::StreamContent::Dispose)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ec5898;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -73,12 +89,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::Http::StreamContent::*)(::System::IO::Stream*, ::System::Net::TransportContext*)>(&::System::Net::Http::StreamContent::SerializeToStreamAsync)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x421a9d4;
+  constexpr static std::size_t addrs = 0x5ec58f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 6));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 7));
     return ___internal_method;
   }
 };
@@ -88,12 +104,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::StreamContent::*)(::ByRef<int64_t>)>(
     &::System::Net::Http::StreamContent::TryComputeLength)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x421aaa8;
+  constexpr static std::size_t addrs = 0x5ec59c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 7));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 8));
     return ___internal_method;
   }
 };
@@ -177,19 +193,24 @@ inline void System::Net::Http::StreamContent::_ctor(::System::IO::Stream* conten
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, content, cancellationToken);
 }
-inline void System::Net::Http::StreamContent::Dispose(bool disposing) {
+inline ::System::Threading::Tasks::Task_1<::System::IO::Stream*>* System::Net::Http::StreamContent::CreateContentReadStreamAsync() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::IO::Stream*>*, false>(this, ___internal_method);
+}
+inline void System::Net::Http::StreamContent::Dispose(bool disposing) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 inline ::System::Threading::Tasks::Task* System::Net::Http::StreamContent::SerializeToStreamAsync(::System::IO::Stream* stream, ::System::Net::TransportContext* context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 6)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, stream, context);
 }
 inline bool System::Net::Http::StreamContent::TryComputeLength(::ByRef<int64_t> length) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 7)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::StreamContent*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, length);
 }
 inline ::System::Net::Http::StreamContent* System::Net::Http::StreamContent::New_ctor(::System::IO::Stream* content) {

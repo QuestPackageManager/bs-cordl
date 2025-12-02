@@ -36,16 +36,16 @@ public:
 
   static inline ::System::UnauthorizedAccessException* New_ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x3e09ca0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4ff10, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e09d38, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4ffac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e09cf8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4ff6c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e09d18, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4ff8c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
 protected:
@@ -63,7 +63,7 @@ public:
   UnauthorizedAccessException(UnauthorizedAccessException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2506 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

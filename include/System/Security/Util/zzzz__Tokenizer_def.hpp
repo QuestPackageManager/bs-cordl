@@ -113,7 +113,7 @@ public:
   static ::System::Security::Util::Tokenizer_TokenSource const UnicodeByteArray;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2912 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -154,16 +154,16 @@ public:
   /// @brief Field cStringsUsed, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_cStringsUsed, put = __cordl_internal_set_cStringsUsed)) uint32_t cStringsUsed;
 
-  /// @brief Method CompareStringAndChars, addr 0x3c98fc4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method CompareStringAndChars, addr 0x58dd57c, size 0x94, virtual false, abstract: false, final false
   inline bool CompareStringAndChars(::StringW str, ::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method HashCharArray, addr 0x3c98ed4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method HashCharArray, addr 0x58dd49c, size 0x54, virtual false, abstract: false, final false
   static inline uint32_t HashCharArray(::ArrayW<char16_t, ::Array<char16_t>*> a, int32_t l);
 
-  /// @brief Method HashString, addr 0x3c98e68, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashString, addr 0x58dd458, size 0x44, virtual false, abstract: false, final false
   static inline uint32_t HashString(::StringW str);
 
-  /// @brief Method MakeString, addr 0x3c938a8, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method MakeString, addr 0x58d7f14, size 0x214, virtual false, abstract: false, final false
   inline ::StringW MakeString();
 
   static inline ::System::Security::Util::Tokenizer_StringMaker* New_ctor();
@@ -204,7 +204,7 @@ public:
 
   constexpr void __cordl_internal_set_cStringsUsed(uint32_t value);
 
-  /// @brief Method .ctor, addr 0x3c98f30, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd4f0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -222,7 +222,7 @@ public:
   Tokenizer_StringMaker(Tokenizer_StringMaker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2913 };
 
   /// @brief Field aStrings, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___aStrings;
@@ -275,13 +275,13 @@ public:
   Tokenizer_ITokenReader(Tokenizer_ITokenReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2914 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Security::Util
-// Dependencies System.Object, System.Security.Util.Tokenizer::ITokenReader
+// Dependencies System.Object
 namespace System::Security::Util {
 // Is value type: false
 // CS Name: System.Security.Util.Tokenizer/StreamTokenReader
@@ -301,7 +301,7 @@ public:
 
   static inline ::System::Security::Util::Tokenizer_StreamTokenReader* New_ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method Read, addr 0x3c99064, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x58dd610, size 0x3c, virtual true, abstract: false, final false
   inline int32_t Read();
 
   constexpr ::System::IO::StreamReader* const& __cordl_internal_get__in() const;
@@ -316,10 +316,10 @@ public:
 
   constexpr void __cordl_internal_set__numCharRead(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c98c78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd270, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::StreamReader* input);
 
-  /// @brief Method get_NumCharEncountered, addr 0x3c990a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NumCharEncountered, addr 0x58dd64c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NumCharEncountered();
 
   /// @brief Convert to "::System::Security::Util::Tokenizer_ITokenReader"
@@ -340,7 +340,7 @@ public:
   Tokenizer_StreamTokenReader(Tokenizer_StreamTokenReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2915 };
 
   /// @brief Field _in, offset: 0x10, size: 0x8, def value: None
   ::System::IO::StreamReader* ____in;
@@ -421,21 +421,21 @@ public:
   /// @brief Field _searchStrings, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__searchStrings, put = __cordl_internal_set__searchStrings)) ::ArrayW<::StringW, ::Array<::StringW>*> _searchStrings;
 
-  /// @brief Method BasicInitialization, addr 0x3c98ba8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method BasicInitialization, addr 0x58dd198, size 0x7c, virtual false, abstract: false, final false
   inline void BasicInitialization();
 
-  /// @brief Method ChangeFormat, addr 0x3c9840c, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method ChangeFormat, addr 0x58dca24, size 0x210, virtual false, abstract: false, final false
   inline void ChangeFormat(::System::Text::Encoding* encoding);
 
-  /// @brief Method GetStringToken, addr 0x3c98d88, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetStringToken, addr 0x58dd36c, size 0x14, virtual false, abstract: false, final false
   inline ::StringW GetStringToken();
 
-  /// @brief Method GetTokens, addr 0x3c97bd8, size 0x7d4, virtual false, abstract: false, final false
+  /// @brief Method GetTokens, addr 0x58dc1ec, size 0x7d8, virtual false, abstract: false, final false
   inline void GetTokens(::System::Security::Util::TokenizerStream* stream, int32_t maxNum, bool endAfterKet);
 
   static inline ::System::Security::Util::Tokenizer* New_ctor(::StringW input);
 
-  /// @brief Method Recycle, addr 0x3c98c20, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Recycle, addr 0x58dd214, size 0x5c, virtual false, abstract: false, final false
   inline void Recycle();
 
   constexpr int32_t const& __cordl_internal_get_LineNo() const;
@@ -534,7 +534,7 @@ public:
 
   constexpr void __cordl_internal_set__searchStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3c98b60, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd15c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW input);
 
 protected:
@@ -552,7 +552,7 @@ public:
   Tokenizer(Tokenizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2916 };
 
   /// @brief Field LineNo, offset: 0x10, size: 0x4, def value: None
   int32_t ___LineNo;

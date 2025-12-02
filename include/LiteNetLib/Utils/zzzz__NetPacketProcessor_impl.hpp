@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3abe7d8;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x56981a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(
     ::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(&::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3abe8dc;
+  constexpr static std::size_t addrs = 0x56982ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3abe8f0;
+  constexpr static std::size_t addrs = 0x5698300;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::*)(::System::IAsyncResult*)>(
     &::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3abe918;
+  constexpr static std::size_t addrs = 0x5698328;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -554,8 +554,8 @@ template <typename T> constexpr ::LiteNetLib::Utils::NetPacketProcessor___c__Dis
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)()>(&::LiteNetLib::Utils::NetPacketProcessor::_ctor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3abe344;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5697cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::Utils::NetPacketProcessor*>::get(), ".ctor",
@@ -567,8 +567,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(int32_t)>(&::LiteNetLib::Utils::NetPacketProcessor::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3abe42c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5697db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -582,8 +582,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::Utils::NetPacketProcessor_SubscribeDelegate* (
     ::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(&::LiteNetLib::Utils::NetPacketProcessor::GetCallbackFromData)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3abe598;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5697f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -597,8 +597,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3abe6cc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x56980a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -612,8 +612,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadAllPackets)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3abe730;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5698104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -629,7 +629,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3abe728;
+  constexpr static std::size_t addrs = 0x56980fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -644,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::Utils::NetPacketProcessor::*)(::LiteNetLib::Utils::NetDataReader*, ::System::Object*)>(
     &::LiteNetLib::Utils::NetPacketProcessor::ReadPacket)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3abe790;
+  constexpr static std::size_t addrs = 0x569815c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

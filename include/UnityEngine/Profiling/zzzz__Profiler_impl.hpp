@@ -2,12 +2,15 @@
 // IWYU pragma private; include "UnityEngine/Profiling/Profiler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Profiling/zzzz__Profiler_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+#include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Profiling::Profiler.set_logFile
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::Profiling::Profiler::set_logFile)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48bd954;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x68c75b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Profiling::Profiler::set_enableBinaryLog)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48bd990;
+  constexpr static std::size_t addrs = 0x68c7710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::Profiling::Profiler::set_maxUsedMemory)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48bd9cc;
+  constexpr static std::size_t addrs = 0x68c774c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Profiling::Profiler::get_enabled)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48bda08;
+  constexpr static std::size_t addrs = 0x68c7788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "get_enabled",
@@ -62,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::Profiling::Profiler::set_enabled)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48bda30;
+  constexpr static std::size_t addrs = 0x68c77b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,12 +74,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Profiling::Profiler.GetRuntimeMemorySizeLong
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::UnityEngine::Object*)>(&::UnityEngine::Profiling::Profiler::GetRuntimeMemorySizeLong)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x68c77ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "GetRuntimeMemorySizeLong", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Profiling::Profiler.GetMonoUsedSizeLong
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::UnityEngine::Profiling::Profiler::GetMonoUsedSizeLong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48bda6c;
+  constexpr static std::size_t addrs = 0x68c78b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(),
@@ -89,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::UnityEngine::Profiling::Profiler::GetTotalAllocatedMemoryLong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48bda94;
+  constexpr static std::size_t addrs = 0x68c78e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(),
@@ -102,11 +119,40 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::UnityEngine::Profiling::Profiler::GetTotalReservedMemoryLong)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48bdabc;
+  constexpr static std::size_t addrs = 0x68c7908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(),
                                                                                "GetTotalReservedMemoryLong", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Profiling::Profiler.set_logFile_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>)>(
+    &::UnityEngine::Profiling::Profiler::set_logFile_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x68c76d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "set_logFile_Injected", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Profiling::Profiler.GetRuntimeMemorySizeLong_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::UnityEngine::Profiling::Profiler::GetRuntimeMemorySizeLong_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x68c787c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "GetRuntimeMemorySizeLong_Injected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -139,6 +185,12 @@ inline void UnityEngine::Profiling::Profiler::set_enabled(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
+inline int64_t UnityEngine::Profiling::Profiler::GetRuntimeMemorySizeLong(::UnityEngine::Object* o) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "GetRuntimeMemorySizeLong", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, o);
+}
 inline int64_t UnityEngine::Profiling::Profiler::GetMonoUsedSizeLong() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "GetMonoUsedSizeLong",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -153,6 +205,18 @@ inline int64_t UnityEngine::Profiling::Profiler::GetTotalReservedMemoryLong() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(),
                                                                              "GetTotalReservedMemoryLong", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::Profiling::Profiler::set_logFile_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "set_logFile_Injected", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline int64_t UnityEngine::Profiling::Profiler::GetRuntimeMemorySizeLong_Injected(::System::IntPtr o) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Profiling::Profiler*>::get(), "GetRuntimeMemorySizeLong_Injected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method, o);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Profiling::Profiler::Profiler() {}

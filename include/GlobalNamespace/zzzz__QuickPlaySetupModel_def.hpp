@@ -3,9 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -15,6 +13,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(QuickPlaySetupModel)
 namespace GlobalNamespace {
 class INetworkConfig;
+}
+namespace GlobalNamespace {
+class IQuickPlaySetupModel;
 }
 namespace GlobalNamespace {
 class QuickPlaySetupData;
@@ -72,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d7cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3609d10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +91,7 @@ public:
   QuickPlaySetupModel_QuickPlaySetupDataFB(QuickPlaySetupModel_QuickPlaySetupDataFB const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13069 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15041 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::QuickPlaySetupData*, ::Array<::GlobalNamespace::QuickPlaySetupData*>*> ___data;
@@ -103,7 +104,7 @@ static_assert(offsetof(::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupData
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: QuickPlaySetupModel/<GetQuickPlaySetupInternal>d__10
@@ -113,10 +114,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d7ccc, size 0x824, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3609d14, size 0x8bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d84f0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x360a5d0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -135,7 +136,7 @@ public:
                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15042 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -171,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetup
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IQuickPlaySetupModel, System.DateTime, System.Object
+// Dependencies System.DateTime, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: QuickPlaySetupModel
@@ -197,24 +198,24 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x26d7958, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x3609988, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetQuickPlaySetupInternal, addr 0x26d7b20, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetQuickPlaySetupInternal, addr 0x3609b74, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupInternal();
 
-  /// @brief Method Init, addr 0x26d7b1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3609b70, size 0x4, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x26d79bc, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsQuickPlaySetupTaskValid, addr 0x36099f8, size 0x108, virtual false, abstract: false, final false
   inline bool IsQuickPlaySetupTaskValid();
 
-  /// @brief Method IsUrlValid, addr 0x26d7c08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsUrlValid, addr 0x3609c54, size 0x60, virtual false, abstract: false, final false
   inline bool IsUrlValid(::StringW url);
 
   static inline ::GlobalNamespace::QuickPlaySetupModel* New_ctor();
 
-  /// @brief Method StartRequest, addr 0x26d7ab4, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x3609b00, size 0x70, virtual false, abstract: false, final false
   inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient* const& __cordl_internal_get__client() const;
@@ -241,7 +242,7 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* value);
 
-  /// @brief Method .ctor, addr 0x26d7c64, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3609cb4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
@@ -262,7 +263,7 @@ public:
   QuickPlaySetupModel(QuickPlaySetupModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15043 };
 
   /// @brief Field kRequestCacheTimeoutMinutes offset 0xffffffff size 0x4
   static constexpr int32_t kRequestCacheTimeoutMinutes{ static_cast<int32_t>(0x5) };

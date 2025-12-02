@@ -1,27 +1,34 @@
 #pragma once
 // IWYU pragma private; include "System/Reflection/Assembly.hpp"
-#include "System/Reflection/zzzz__ICustomAttributeProvider_impl.hpp"
-#include "System/Runtime/InteropServices/zzzz___Assembly_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/IO/zzzz__Stream_def.hpp"
+#include "System/Reflection/zzzz__AssemblyNameFlags_def.hpp"
 #include "System/Reflection/zzzz__AssemblyName_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
+#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
+#include "System/Reflection/zzzz__ManifestResourceInfo_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
+#include "System/Reflection/zzzz__RuntimeAssembly_def.hpp"
+#include "System/Runtime/InteropServices/zzzz___Assembly_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Security/Policy/zzzz__Evidence_def.hpp"
+#include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "System/zzzz__Version_def.hpp"
 //  Writing Method size for method: ::System::Reflection::Assembly_ResolveEventHolder._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::Assembly_ResolveEventHolder::*)()>(
     &::System::Reflection::Assembly_ResolveEventHolder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b718;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59716e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly_ResolveEventHolder*>::get(),
@@ -44,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::get_CodeBase)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b148;
+  constexpr static std::size_t addrs = 0x597041c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::get_FullName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b180;
+  constexpr static std::size_t addrs = 0x5970454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::get_MonoAssembly)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b1b8;
+  constexpr static std::size_t addrs = 0x597048c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::get_Location)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b1f0;
+  constexpr static std::size_t addrs = 0x59704c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::Assembly::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Reflection::Assembly::GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b228;
+  constexpr static std::size_t addrs = 0x59704fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Assembly::*)(::System::Type*, bool)>(&::System::Reflection::Assembly::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b260;
+  constexpr static std::size_t addrs = 0x5970534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -130,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Assembly::*)(bool)>(
     &::System::Reflection::Assembly::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b298;
+  constexpr static std::size_t addrs = 0x597056c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Assembly::*)(::System::Type*, bool)>(
     &::System::Reflection::Assembly::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b2d0;
+  constexpr static std::size_t addrs = 0x59705a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,18 +161,121 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Reflection::Assembly.GetTypes
+//  Writing Method size for method: ::System::Reflection::Assembly.GetManifestResourceStream
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::Assembly::*)(bool)>(
-    &::System::Reflection::Assembly::GetTypes)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b308;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::System::Reflection::Assembly::*)(::StringW)>(
+    &::System::Reflection::Assembly::GetManifestResourceStream)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x59705dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 16));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetManifestResourceStream
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (
+    ::System::Reflection::Assembly::*)(::System::Type*, ::StringW, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(&::System::Reflection::Assembly::GetManifestResourceStream)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5970614;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetManifestResourceStream", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetManifestResourceStream
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::IO::Stream* (::System::Reflection::Assembly::*)(::StringW, ::ByRef<::System::Threading::StackCrawlMark>, bool)>(&::System::Reflection::Assembly::GetManifestResourceStream)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5970784;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetManifestResourceStream", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetSimpleName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::GetSimpleName)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5970794;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetSimpleName",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetPublicKey
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Reflection::Assembly::*)()>(
+    &::System::Reflection::Assembly::GetPublicKey)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x59707c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetPublicKey",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetVersion
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::GetVersion)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x59707ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetVersion",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetFlags
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::AssemblyNameFlags (::System::Reflection::Assembly::*)()>(
+    &::System::Reflection::Assembly::GetFlags)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5970818;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetFlags",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetTypes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::Assembly::*)(bool)>(
+    &::System::Reflection::Assembly::GetTypes)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5970844;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 17));
     return ___internal_method;
   }
 };
@@ -175,21 +285,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::Assembly::*)()>(
     &::System::Reflection::Assembly::GetTypes)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d2b310;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 17));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Reflection::Assembly.GetType
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Assembly::*)(::StringW)>(&::System::Reflection::Assembly::GetType)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d2b324;
+  constexpr static std::size_t addrs = 0x5970850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,13 +294,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Reflection::Assembly.GetType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Assembly::*)(::StringW, bool)>(&::System::Reflection::Assembly::GetType)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5970864;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 19));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Assembly::*)(::StringW)>(&::System::Reflection::Assembly::GetType)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5970878;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 20));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Reflection::Assembly.InternalGetType
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Assembly::*)(::System::Reflection::Module*, ::StringW, bool, bool)>(
     &::System::Reflection::Assembly::InternalGetType)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d2b33c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5970890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,12 +345,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::AssemblyName* (::System::Reflection::Assembly::*)(bool)>(
     &::System::Reflection::Assembly::GetName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b348;
+  constexpr static std::size_t addrs = 0x5970894;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 19));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 21));
     return ___internal_method;
   }
 };
@@ -236,12 +360,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::AssemblyName* (::System::Reflection::Assembly::*)()>(
     &::System::Reflection::Assembly::GetName)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d2b380;
+  constexpr static std::size_t addrs = 0x59708cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 20));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 22));
     return ___internal_method;
   }
 };
@@ -250,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b394;
+  constexpr static std::size_t addrs = 0x59708e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,8 +387,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::System::Type*)>(&::System::Reflection::Assembly::GetAssembly)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3d2b39c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x59708e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -273,12 +397,47 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Reflection::Assembly.InternalGetSatelliteAssembly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::RuntimeAssembly* (
+    ::System::Reflection::Assembly::*)(::StringW, ::System::Globalization::CultureInfo*, ::System::Version*, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(
+    &::System::Reflection::Assembly::InternalGetSatelliteAssembly)> {
+  constexpr static std::size_t size = 0x3e8;
+  constexpr static std::size_t addrs = 0x597096c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "InternalGetSatelliteAssembly", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Version*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.LoadFrom
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(
+    &::System::Reflection::Assembly::LoadFrom)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5970df4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "LoadFrom", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Reflection::Assembly.Load
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW)>(&::System::Reflection::Assembly::Load)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d2b460;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5970df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -291,8 +450,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW)>(&::System::Reflection::Assembly::ReflectionOnlyLoad)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3d2b488;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5970e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW)>(&::System::Reflection::Assembly::LoadWithPartialName)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d2b4d0;
+  constexpr static std::size_t addrs = 0x5970e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW, ::System::Security::Policy::Evidence*)>(
     &::System::Reflection::Assembly::load_with_partial_name)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d2b4e4;
+  constexpr static std::size_t addrs = 0x5970e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -337,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW, ::System::Security::Policy::Evidence*)>(
     &::System::Reflection::Assembly::LoadWithPartialName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b4dc;
+  constexpr static std::size_t addrs = 0x5970e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW, ::System::Security::Policy::Evidence*, bool)>(
     &::System::Reflection::Assembly::LoadWithPartialName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d2b4e8;
+  constexpr static std::size_t addrs = 0x5970e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -370,12 +529,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::GetModulesInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d2b550;
+  constexpr static std::size_t addrs = 0x5970ee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 21));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 23));
     return ___internal_method;
   }
 };
@@ -383,8 +542,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)()>(&::System::Reflection::Assembly::GetExecutingAssembly)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3d2b588;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5970f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetExecutingAssembly",
@@ -396,8 +555,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)()>(&::System::Reflection::Assembly::GetCallingAssembly)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1d48c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5970f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetCallingAssembly",
@@ -405,12 +564,86 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Reflection::Assembly.InternalGetReferencedAssemblies
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Reflection::Assembly*)>(
+    &::System::Reflection::Assembly::InternalGetReferencedAssemblies)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5970f7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "InternalGetReferencedAssemblies", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetManifestResourceNames
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Reflection::Assembly::*)()>(
+    &::System::Reflection::Assembly::GetManifestResourceNames)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5970f80;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 24));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetReferencedAssemblies
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*> (*)(
+    ::System::Reflection::Assembly*)>(&::System::Reflection::Assembly::GetReferencedAssemblies)> {
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x5970fb8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetReferencedAssemblies", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetManifestResourceInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::ManifestResourceInfo* (::System::Reflection::Assembly::*)(::StringW)>(
+    &::System::Reflection::Assembly::GetManifestResourceInfo)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x59714ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 25));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.get_ReflectionOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::get_ReflectionOnly)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5971524;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 26));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Reflection::Assembly.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::GetHashCode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b5c8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x597155c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -423,8 +656,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Assembly::*)(::System::Object*)>(&::System::Reflection::Assembly::Equals)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b5d0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5971570;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -437,8 +670,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Reflection::Assembly::CreateNIE)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d2b5d8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x597157c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "CreateNIE",
@@ -451,7 +684,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::get_IsFullyTrusted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b644;
+  constexpr static std::size_t addrs = 0x59715fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "get_IsFullyTrusted",
@@ -465,12 +698,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Assembly::*)(::StringW, bool, bool)>(
     &::System::Reflection::Assembly::GetType)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d2b64c;
+  constexpr static std::size_t addrs = 0x5971604;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 22));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 27));
     return ___internal_method;
   }
 };
@@ -480,12 +713,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::Assembly::*)(::StringW)>(
     &::System::Reflection::Assembly::GetModule)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d2b670;
+  constexpr static std::size_t addrs = 0x5971628;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 23));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 28));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Assembly.GetReferencedAssemblies
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*> (
+    ::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::GetReferencedAssemblies)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x597164c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 29));
     return ___internal_method;
   }
 };
@@ -495,12 +743,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> (::System::Reflection::Assembly::*)(bool)>(&::System::Reflection::Assembly::GetModules)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3d2b694;
+  constexpr static std::size_t addrs = 0x5971670;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 24));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 30));
     return ___internal_method;
   }
 };
@@ -509,8 +757,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::Assembly*, ::System::Reflection::Assembly*)>(
     &::System::Reflection::Assembly::op_Equality)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d1d324;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5971694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -526,7 +774,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::Assembly*, ::System::Reflection::Assembly*)>(
     &::System::Reflection::Assembly::op_Inequality)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d2b6b8;
+  constexpr static std::size_t addrs = 0x5970d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -540,8 +788,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::Assembly::*)()>(&::System::Reflection::Assembly::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d2b710;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59716dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), ".ctor",
@@ -589,19 +837,66 @@ inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> System::Reflecti
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, false>(this, ___internal_method, attributeType, inherit);
 }
-inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Reflection::Assembly::GetTypes(bool exportedOnly) {
+inline ::System::IO::Stream* System::Reflection::Assembly::GetManifestResourceStream(::StringW name) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 16)));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method, name);
+}
+inline ::System::IO::Stream* System::Reflection::Assembly::GetManifestResourceStream(::System::Type* type, ::StringW name, bool skipSecurityCheck,
+                                                                                     ::ByRef<::System::Threading::StackCrawlMark> stackMark) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetManifestResourceStream", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method, type, name, skipSecurityCheck, stackMark);
+}
+inline ::System::IO::Stream* System::Reflection::Assembly::GetManifestResourceStream(::StringW name, ::ByRef<::System::Threading::StackCrawlMark> stackMark, bool skipSecurityCheck) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetManifestResourceStream", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IO::Stream*, false>(this, ___internal_method, name, stackMark, skipSecurityCheck);
+}
+inline ::StringW System::Reflection::Assembly::GetSimpleName() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetSimpleName",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Reflection::Assembly::GetPublicKey() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetPublicKey",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(this, ___internal_method);
+}
+inline ::System::Version* System::Reflection::Assembly::GetVersion() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetVersion",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Version*, false>(this, ___internal_method);
+}
+inline ::System::Reflection::AssemblyNameFlags System::Reflection::Assembly::GetFlags() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetFlags",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::AssemblyNameFlags, false>(this, ___internal_method);
+}
+inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Reflection::Assembly::GetTypes(bool exportedOnly) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*, ::Array<::System::Type*>*>, false>(this, ___internal_method, exportedOnly);
 }
 inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Reflection::Assembly::GetTypes() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 17)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*, ::Array<::System::Type*>*>, false>(this, ___internal_method);
+}
+inline ::System::Type* System::Reflection::Assembly::GetType(::StringW name, bool throwOnError) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 19)));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, name, throwOnError);
 }
 inline ::System::Type* System::Reflection::Assembly::GetType(::StringW name) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 18)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 20)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, name);
 }
 inline ::System::Type* System::Reflection::Assembly::InternalGetType(::System::Reflection::Module* _cordl_module, ::StringW name, bool throwOnError, bool ignoreCase) {
@@ -614,12 +909,12 @@ inline ::System::Type* System::Reflection::Assembly::InternalGetType(::System::R
 }
 inline ::System::Reflection::AssemblyName* System::Reflection::Assembly::GetName(bool copiedName) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 19)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::AssemblyName*, false>(this, ___internal_method, copiedName);
 }
 inline ::System::Reflection::AssemblyName* System::Reflection::Assembly::GetName() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 20)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 22)));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::AssemblyName*, false>(this, ___internal_method);
 }
 inline ::StringW System::Reflection::Assembly::ToString() {
@@ -632,6 +927,23 @@ inline ::System::Reflection::Assembly* System::Reflection::Assembly::GetAssembly
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetAssembly", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::Assembly*, false>(nullptr, ___internal_method, type);
+}
+inline ::System::Reflection::RuntimeAssembly* System::Reflection::Assembly::InternalGetSatelliteAssembly(::StringW name, ::System::Globalization::CultureInfo* culture, ::System::Version* version,
+                                                                                                         bool throwOnFileNotFound, ::ByRef<::System::Threading::StackCrawlMark> stackMark) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "InternalGetSatelliteAssembly", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Version*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::RuntimeAssembly*, false>(this, ___internal_method, name, culture, version, throwOnFileNotFound, stackMark);
+}
+inline ::System::Reflection::Assembly* System::Reflection::Assembly::LoadFrom(::StringW assemblyFile, bool refOnly, ::ByRef<::System::Threading::StackCrawlMark> stackMark) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "LoadFrom", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Threading::StackCrawlMark>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::Assembly*, false>(nullptr, ___internal_method, assemblyFile, refOnly, stackMark);
 }
 inline ::System::Reflection::Assembly* System::Reflection::Assembly::Load(::StringW assemblyString) {
   static auto* ___internal_method =
@@ -675,7 +987,7 @@ inline ::System::Reflection::Assembly* System::Reflection::Assembly::LoadWithPar
 }
 inline ::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> System::Reflection::Assembly::GetModulesInternal() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*>, false>(this, ___internal_method);
 }
 inline ::System::Reflection::Assembly* System::Reflection::Assembly::GetExecutingAssembly() {
@@ -687,6 +999,34 @@ inline ::System::Reflection::Assembly* System::Reflection::Assembly::GetCallingA
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetCallingAssembly",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::Assembly*, false>(nullptr, ___internal_method);
+}
+inline ::System::IntPtr System::Reflection::Assembly::InternalGetReferencedAssemblies(::System::Reflection::Assembly* _cordl_module) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "InternalGetReferencedAssemblies", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, _cordl_module);
+}
+inline ::ArrayW<::StringW, ::Array<::StringW>*> System::Reflection::Assembly::GetManifestResourceNames() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 24)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method);
+}
+inline ::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*>
+System::Reflection::Assembly::GetReferencedAssemblies(::System::Reflection::Assembly* _cordl_module) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), "GetReferencedAssemblies", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Reflection::Assembly*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*>, false>(nullptr, ___internal_method, _cordl_module);
+}
+inline ::System::Reflection::ManifestResourceInfo* System::Reflection::Assembly::GetManifestResourceInfo(::StringW resourceName) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 25)));
+  return ::cordl_internals::RunMethodRethrow<::System::Reflection::ManifestResourceInfo*, false>(this, ___internal_method, resourceName);
+}
+inline bool System::Reflection::Assembly::get_ReflectionOnly() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 26)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline int32_t System::Reflection::Assembly::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -710,17 +1050,22 @@ inline bool System::Reflection::Assembly::get_IsFullyTrusted() {
 }
 inline ::System::Type* System::Reflection::Assembly::GetType(::StringW name, bool throwOnError, bool ignoreCase) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, name, throwOnError, ignoreCase);
 }
 inline ::System::Reflection::Module* System::Reflection::Assembly::GetModule(::StringW name) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 23)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<::System::Reflection::Module*, false>(this, ___internal_method, name);
+}
+inline ::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*> System::Reflection::Assembly::GetReferencedAssemblies() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 29)));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::AssemblyName*, ::Array<::System::Reflection::AssemblyName*>*>, false>(this, ___internal_method);
 }
 inline ::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> System::Reflection::Assembly::GetModules(bool getResourceModules) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Assembly*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*>, false>(this, ___internal_method, getResourceModules);
 }
 inline bool System::Reflection::Assembly::op_Equality(::System::Reflection::Assembly* left, ::System::Reflection::Assembly* right) {

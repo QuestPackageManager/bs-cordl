@@ -118,33 +118,33 @@ public:
   /// @brief Field _spawnDuration, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnDuration, put = __cordl_internal_set__spawnDuration)) float_t _spawnDuration;
 
-  /// @brief Method BindRingsAndSetTiming, addr 0x3bd5a08, size 0x800, virtual false, abstract: false, final false
+  /// @brief Method BindRingsAndSetTiming, addr 0x57c7500, size 0x78c, virtual false, abstract: false, final false
   inline void BindRingsAndSetTiming(int32_t connectedPlayersCount, ::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*> connectedRings, ::UnityEngine::GameObject* localRing);
 
-  /// @brief Method BindTimeline, addr 0x3bd4c10, size 0x774, virtual false, abstract: false, final false
+  /// @brief Method BindTimeline, addr 0x57c67c8, size 0x788, virtual false, abstract: false, final false
   inline void BindTimeline();
 
-  /// @brief Method CalculatePlayerIndexSequence, addr 0x3bd5384, size 0x580, virtual false, abstract: false, final false
+  /// @brief Method CalculatePlayerIndexSequence, addr 0x57c6f50, size 0x5b0, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::Queue_1<int32_t>* CalculatePlayerIndexSequence(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>* allActivePlayer);
 
-  /// @brief Method Completed, addr 0x3bd6208, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Completed, addr 0x57c7c8c, size 0x38, virtual false, abstract: false, final false
   inline void Completed();
 
-  /// @brief Method GetFullIntroAnimationTime, addr 0x3bcfed4, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method GetFullIntroAnimationTime, addr 0x57c1a58, size 0x3dc, virtual false, abstract: false, final false
   inline int64_t GetFullIntroAnimationTime();
 
   static inline ::GlobalNamespace::MultiplayerIntroAnimationController* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3bd4694, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x57c6278, size 0x550, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method PlayIntroAnimation, addr 0x3bd02e4, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method PlayIntroAnimation, addr 0x57c1e34, size 0x114, virtual false, abstract: false, final false
   inline void PlayIntroAnimation(float_t maxDesiredIntroAnimationDuration, ::System::Action* onCompleted);
 
-  /// @brief Method SetBeforeIntroValue, addr 0x3bd2b18, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method SetBeforeIntroValue, addr 0x57c46fc, size 0x474, virtual false, abstract: false, final false
   inline void SetBeforeIntroValue();
 
-  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x3bd03f4, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method TransitionToAfterIntroAnimationState, addr 0x57c1f48, size 0xd8, virtual false, abstract: false, final false
   inline void TransitionToAfterIntroAnimationState();
 
   constexpr bool const& __cordl_internal_get__bindingFinished() const;
@@ -249,7 +249,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bd6240, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c7cc4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Random* getStaticF__random();
@@ -271,7 +271,7 @@ public:
   MultiplayerIntroAnimationController(MultiplayerIntroAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6151 };
 
   /// @brief Field _introPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____introPlayableDirector;

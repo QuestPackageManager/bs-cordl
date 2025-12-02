@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::CIELabColor::*)(float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::CIELabColor::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4706278;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x649b014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::ProBuilder::XYZColor*)>(
     &::UnityEngine::ProBuilder::CIELabColor::FromXYZ)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47062b4;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x649b020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::CIELabColor* (*)(::UnityEngine::Color)>(
     &::UnityEngine::ProBuilder::CIELabColor::FromRGB)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4706490;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x649b1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::CIELabColor::*)()>(&::UnityEngine::ProBuilder::CIELabColor::ToString)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x470651c;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x649b26c;
 
   inline static ::MethodInfo const* methodInfo() {
 

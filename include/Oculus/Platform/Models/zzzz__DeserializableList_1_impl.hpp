@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/Models/DeserializableList_1.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__DeserializableList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& Oculus::Platform::Models::DeserializableList_1<T>::__cordl_internal_get__Data() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

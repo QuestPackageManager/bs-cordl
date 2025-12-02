@@ -12,8 +12,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::IEntropySource*, ::Org::BouncyCastle::Crypto::Prng::IDrbgProvider*, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23cb678;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x32f9678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SetSeed)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23cb704;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x32f9708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::SetSeed)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x23cb7b8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x32f97ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::NextBytes)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x23cb86c;
+  constexpr static std::size_t size = 0x2d4;
+  constexpr static std::size_t addrs = 0x32f9850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::NextBytes)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x23cbb4c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x32f9b24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::GenerateSeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cbbe4;
+  constexpr static std::size_t addrs = 0x32f9bc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::SP800SecureRandom::Reseed)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x23cbbec;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x32f9bc8;
 
   inline static ::MethodInfo const* methodInfo() {
 

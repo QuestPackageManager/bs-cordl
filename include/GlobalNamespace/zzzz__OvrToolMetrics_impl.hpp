@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OvrToolMetrics.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OvrToolMetrics_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OvrToolMetrics.RecordMetrics
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OvrToolMetrics* (*)(int32_t)>(&::GlobalNamespace::OvrToolMetrics::RecordMetrics)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1dd84;
+  constexpr static std::size_t addrs = 0x56ff7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b1dd8c;
+  constexpr static std::size_t addrs = 0x56ff7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OvrToolMetrics*>::get(), "Dispose",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::CaptureFrame)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b1dd90;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x56ff7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OvrToolMetrics*>::get(), "CaptureFrame",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::GenerateListReport)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b1dde4;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x56ff838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OvrToolMetrics*>::get(), "GenerateListReport",
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::GenerateTableReport)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3b1df70;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x56ff9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OvrToolMetrics*>::get(), "GenerateTableReport",
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OvrToolMetrics::*)()>(&::GlobalNamespace::OvrToolMetrics::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1e13c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56ffbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OvrToolMetrics*>::get(), ".ctor",

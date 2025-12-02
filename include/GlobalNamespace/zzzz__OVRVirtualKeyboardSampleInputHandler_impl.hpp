@@ -14,8 +14,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t)>(&::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::ApplyDeadzone)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4027a7c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5cda2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::get_AnalogStickX)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4027810;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5cd9ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::get_AnalogStickY)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x402774c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5cd9a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::get_InputRayPosition)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4027224;
+  constexpr static std::size_t addrs = 0x5cd9464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::get_InputRayRotation)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x40278d4;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x5cd9b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::Start)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4027acc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5cda300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::Update)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4027b90;
+  constexpr static std::size_t addrs = 0x5cda3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::UpdateLineRenderer)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4027e58;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5cda69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)(::GlobalNamespace::OVRVirtualKeyboard_InputSource)>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::UpdateLineRendererFromSource)> {
-  constexpr static std::size_t size = 0x760;
-  constexpr static std::size_t addrs = 0x4027ec0;
+  constexpr static std::size_t size = 0x754;
+  constexpr static std::size_t addrs = 0x5cda794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::UpdateInteractionAnchor)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x4027ba8;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x5cda3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),
@@ -157,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::*)()>(
     &::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4028620;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5cdaee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRVirtualKeyboardSampleInputHandler*>::get(),

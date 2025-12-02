@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RemotingSurrogateSelector)
 namespace System::Runtime::Remoting::Messaging {
@@ -30,7 +29,7 @@ class RemotingSurrogateSelector;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::RemotingSurrogateSelector);
-// Dependencies System.Object, System.Runtime.Serialization.ISurrogateSelector
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Messaging.RemotingSurrogateSelector
@@ -52,7 +51,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISurrogateSelector"
   constexpr operator ::System::Runtime::Serialization::ISurrogateSelector*() noexcept;
 
-  /// @brief Method GetSurrogate, addr 0x3cf1bf8, size 0x19c, virtual true, abstract: false, final false
+  /// @brief Method GetSurrogate, addr 0x5933a7c, size 0x1a8, virtual true, abstract: false, final false
   inline ::System::Runtime::Serialization::ISerializationSurrogate* GetSurrogate(::System::Type* type, ::System::Runtime::Serialization::StreamingContext context,
                                                                                  ::ByRef<::System::Runtime::Serialization::ISurrogateSelector*> ssout);
 
@@ -64,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Serialization::ISurrogateSelector* value);
 
-  /// @brief Method .ctor, addr 0x3cf1bf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5933a78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Runtime::Remoting::Messaging::ObjRefSurrogate* getStaticF__objRefSurrogate();
@@ -97,7 +96,7 @@ public:
   RemotingSurrogateSelector(RemotingSurrogateSelector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3201 };
 
   /// @brief Field _next, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::ISurrogateSelector* ____next;

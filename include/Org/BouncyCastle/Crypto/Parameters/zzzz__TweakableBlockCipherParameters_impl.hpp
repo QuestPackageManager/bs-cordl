@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/TweakableBlockCipherParameters.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__TweakableBlockCipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x23c34b4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x32f1418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c3534;
+  constexpr static std::size_t addrs = 0x32f1490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::TweakableBlockCipherParameters::get_Tweak)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c353c;
+  constexpr static std::size_t addrs = 0x32f1498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

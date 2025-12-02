@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 CORDL_MODULE_EXPORT(GetFromPrefabComponentProvider)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -22,6 +21,9 @@ namespace Zenject {
 class IPrefabInstantiator;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -33,7 +35,7 @@ class GetFromPrefabComponentProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::GetFromPrefabComponentProvider);
-// Dependencies System.Object, Zenject.IProvider
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.GetFromPrefabComponentProvider
@@ -56,11 +58,11 @@ public:
   /// @brief Convert operator to "::Zenject::IProvider"
   constexpr operator ::Zenject::IProvider*() noexcept;
 
-  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x4b3d250, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method GetAllInstancesWithInjectSplit, addr 0x6c5121c, size 0x31c, virtual true, abstract: false, final true
   inline void GetAllInstancesWithInjectSplit(::Zenject::InjectContext* context, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::ByRef<::System::Action*> injectAction,
                                              ::System::Collections::Generic::List_1<::System::Object*>* buffer);
 
-  /// @brief Method GetInstanceType, addr 0x4b3d248, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetInstanceType, addr 0x6c51214, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* GetInstanceType(::Zenject::InjectContext* context);
 
   static inline ::Zenject::GetFromPrefabComponentProvider* New_ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
@@ -83,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__prefabInstantiator(::Zenject::IPrefabInstantiator* value);
 
-  /// @brief Method .ctor, addr 0x4b3d1fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c511f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* componentType, ::Zenject::IPrefabInstantiator* prefabInstantiator, bool matchSingle);
 
-  /// @brief Method get_IsCached, addr 0x4b3d238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCached, addr 0x6c51204, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCached();
 
-  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x4b3d240, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TypeVariesBasedOnMemberType, addr 0x6c5120c, size 0x8, virtual true, abstract: false, final true
   inline bool get_TypeVariesBasedOnMemberType();
 
   /// @brief Convert to "::Zenject::IProvider"
@@ -110,7 +112,7 @@ public:
   GetFromPrefabComponentProvider(GetFromPrefabComponentProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14512 };
 
   /// @brief Field _prefabInstantiator, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IPrefabInstantiator* ____prefabInstantiator;

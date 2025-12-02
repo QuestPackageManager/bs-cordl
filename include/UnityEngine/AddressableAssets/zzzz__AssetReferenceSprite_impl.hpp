@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::AssetReferenceSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceSprite::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44f20e8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6242128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::AssetReferenceSprite::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::AssetReferenceSprite::ValidateAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44f2140;
+  constexpr static std::size_t addrs = 0x62421a0;
 
   inline static ::MethodInfo const* methodInfo() {
 

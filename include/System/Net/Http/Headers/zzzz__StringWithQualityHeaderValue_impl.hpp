@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/Headers/StringWithQualityHeaderValue.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__StringWithQualityHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Lexer_def.hpp"
 #include "System/Net/Http/Headers/zzzz__Token_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::StringWithQualityHeaderValue._ctor
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227d38;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ed33d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<double_t> (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::get_Quality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4227d40;
+  constexpr static std::size_t addrs = 0x5ed33dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)(::System::Nullable_1<double_t>)>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::set_Quality)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227d4c;
+  constexpr static std::size_t addrs = 0x5ed33e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227d54;
+  constexpr static std::size_t addrs = 0x5ed33f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)(::StringW)>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::set_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227d5c;
+  constexpr static std::size_t addrs = 0x5ed33f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::System_ICloneable_Clone)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227d64;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ed3400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::Equals)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4227d6c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5ed3404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::GetHashCode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4227e54;
+  constexpr static std::size_t addrs = 0x5ed34f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,8 +137,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::StringW, int32_t, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::StringWithQualityHeaderValue*>*>)>(
         &::System::Net::Http::Headers::StringWithQualityHeaderValue::TryParse)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4227ee0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5ed3584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,8 +155,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Net::Http::Headers::Lexer*, ::ByRef<::System::Net::Http::Headers::StringWithQualityHeaderValue*>, ::ByRef<::System::Net::Http::Headers::Token>)>(
         &::System::Net::Http::Headers::StringWithQualityHeaderValue::TryParseElement)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x4227f90;
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x5ed3638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,8 +172,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::StringWithQualityHeaderValue::*)()>(
     &::System::Net::Http::Headers::StringWithQualityHeaderValue::ToString)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x42281f8;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5ed38b0;
 
   inline static ::MethodInfo const* methodInfo() {
 

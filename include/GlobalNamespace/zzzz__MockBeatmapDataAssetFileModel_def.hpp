@@ -4,9 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -22,6 +20,9 @@ class BeatmapLevel;
 }
 namespace GlobalNamespace {
 struct GetAssetBundleFileResult;
+}
+namespace GlobalNamespace {
+class IBeatmapDataAssetFileModel;
 }
 namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
@@ -51,8 +52,7 @@ struct MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockBeatmapDataAssetFileModel);
 MARK_VAL_T(::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4);
-// Dependencies GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// Dependencies GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockBeatmapDataAssetFileModel/<GetAssetBundleFileForBeatmapLevelAsync>d__4
@@ -62,10 +62,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d49a4, size 0x4f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3605cdc, size 0x4e8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d4e9c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x36061c4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -87,7 +87,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1, uint32_t _i_5__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14990 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -138,7 +138,7 @@ static_assert(offsetof(::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAsse
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IBeatmapDataAssetFileModel, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockBeatmapDataAssetFileModel
@@ -154,14 +154,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr operator ::GlobalNamespace::IBeatmapDataAssetFileModel*() noexcept;
 
-  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x26d482c, size 0x108, virtual true, abstract: false, final true
+  /// @brief Method GetAssetBundleFileForBeatmapLevelAsync, addr 0x3605b74, size 0xf4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* GetAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                                  ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                                  ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockBeatmapDataAssetFileModel* New_ctor();
 
-  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x26d4934, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method TryDeleteAssetBundleFileForBeatmapLevelAsync, addr 0x3605c68, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* TryDeleteAssetBundleFileForBeatmapLevelAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                 ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                 ::System::Threading::CancellationToken cancellationToken);
@@ -172,16 +172,16 @@ public:
 
   constexpr void __cordl_internal_set_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x26d499c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3605cd8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x26d46cc, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDataAssetDownloadUpdateEvent, addr 0x36059f4, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapDataAssetFileModel"
   constexpr ::GlobalNamespace::IBeatmapDataAssetFileModel* i___GlobalNamespace__IBeatmapDataAssetFileModel() noexcept;
 
-  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x26d477c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDataAssetDownloadUpdateEvent, addr 0x3605ab4, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelDataAssetDownloadUpdateEvent(::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>* value);
 
 protected:
@@ -199,7 +199,7 @@ public:
   MockBeatmapDataAssetFileModel(MockBeatmapDataAssetFileModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14991 };
 
   /// @brief Field kAssetsDir offset 0xffffffff size 0x8
   static constexpr ::ConstString kAssetsDir{ u"BeatmapDataAssets" };

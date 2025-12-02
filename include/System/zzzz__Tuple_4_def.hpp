@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__ITupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -18,8 +13,23 @@ class IComparer;
 namespace System::Collections {
 class IEqualityComparer;
 }
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
 namespace System::Text {
 class StringBuilder;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+class ITupleInternal;
 }
 namespace System {
 class Object;
@@ -30,7 +40,7 @@ template <typename T1, typename T2, typename T3, typename T4> class Tuple_4;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Tuple_4);
-// Dependencies System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.IComparable, System.ITupleInternal, System.Object, System.Runtime.CompilerServices.ITuple
+// Dependencies System.Object
 namespace System {
 // cpp template
 template <typename T1, typename T2, typename T3, typename T4>
@@ -174,7 +184,7 @@ public:
   Tuple_4(Tuple_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2497 };
 
   /// @brief Field m_Item1, offset: 0x10, size: 0x8, def value: None
   T1 ___m_Item1;

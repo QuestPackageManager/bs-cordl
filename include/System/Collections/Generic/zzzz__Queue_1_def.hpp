@@ -3,13 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -21,13 +14,25 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
 template <typename T> struct Queue_1_Enumerator;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -42,7 +47,7 @@ template <typename T> struct Queue_1_Enumerator;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::Queue_1);
 MARK_GEN_VAL_T(::System::Collections::Generic::Queue_1_Enumerator);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -103,7 +108,7 @@ public:
   constexpr Queue_1_Enumerator(::System::Collections::Generic::Queue_1<T>* _q, int32_t _version, int32_t _index, T _currentElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3791 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -124,7 +129,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -302,14 +307,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Queue_1(Queue_1 const&) = delete;
 
-  /// @brief Field GrowFactor offset 0xffffffff size 0x4
-  static constexpr int32_t GrowFactor{ static_cast<int32_t>(0xc8) };
-
-  /// @brief Field MinimumGrow offset 0xffffffff size 0x4
-  static constexpr int32_t MinimumGrow{ static_cast<int32_t>(0x4) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3792 };
 
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<T, ::Array<T>*> ____array;

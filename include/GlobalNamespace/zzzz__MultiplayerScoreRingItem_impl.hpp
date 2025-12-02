@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingItem_Pool::*)()>(
     &::GlobalNamespace::MultiplayerScoreRingItem_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3be1f98;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x57d40d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem_Pool*>::get(),
@@ -32,8 +32,8 @@ constexpr ::GlobalNamespace::MultiplayerScoreRingItem_Pool::MultiplayerScoreRing
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerScoreRingItem::*)()>(&::GlobalNamespace::MultiplayerScoreRingItem::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be1f90;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57d40cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerScoreRingItem*>::get(), ".ctor",

@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::SmoothCameraSettings (*)()>(
     &::BeatSaber::Settings::SettingPresets::DefaultSmoothCameraSettings)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x227d7b4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x31c123c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::AudioSettings (*)(float_t)>(
     &::BeatSaber::Settings::SettingPresets::DefaultAudioSettingsWithLatency)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x227d844;
+  constexpr static std::size_t addrs = 0x31c12c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::MiscSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultMiscSettings)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x227d858;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x31c12d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::QuestSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultQuestSettings)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x227d89c;
+  constexpr static std::size_t addrs = 0x31c131c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::WindowSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultWindowSettings)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x227d8b0;
+  constexpr static std::size_t addrs = 0x31c1330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::Settings::ControllerSettings (*)()>(&::BeatSaber::Settings::SettingPresets::DefaultControllerSettings)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x227d8bc;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x31c133c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get(),
@@ -124,27 +124,6 @@ inline void BeatSaber::Settings::SettingPresets::setStaticF_kStandalone(::BeatSa
 }
 inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kStandalone() {
   return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kStandalone", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
-}
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kPlayStation4(::BeatSaber::Settings::Settings value) {
-  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kPlayStation4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
-      std::forward<::BeatSaber::Settings::Settings>(value));
-}
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kPlayStation4() {
-  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kPlayStation4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
-}
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kPlayStation4Pro(::BeatSaber::Settings::Settings value) {
-  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kPlayStation4Pro", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
-      std::forward<::BeatSaber::Settings::Settings>(value));
-}
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kPlayStation4Pro() {
-  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kPlayStation4Pro", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
-}
-inline void BeatSaber::Settings::SettingPresets::setStaticF_kPlayStation5(::BeatSaber::Settings::Settings value) {
-  ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kPlayStation5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(
-      std::forward<::BeatSaber::Settings::Settings>(value));
-}
-inline ::BeatSaber::Settings::Settings BeatSaber::Settings::SettingPresets::getStaticF_kPlayStation5() {
-  return ::cordl_internals::getStaticField<::BeatSaber::Settings::Settings, "kPlayStation5", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>();
 }
 inline void BeatSaber::Settings::SettingPresets::setStaticF_kLightBaking(::BeatSaber::Settings::Settings value) {
   ::cordl_internals::setStaticField<::BeatSaber::Settings::Settings, "kLightBaking", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::Settings::SettingPresets*>::get>(

@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/OculusPlatformExtensions.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
@@ -171,8 +170,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> (*)(::Oculus::Platform::Request*)>(
     &::Oculus::Platform::OculusPlatformExtensions::GetAwaiter)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3f5a9cc;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5bd8570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

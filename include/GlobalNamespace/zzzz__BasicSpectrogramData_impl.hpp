@@ -2,6 +2,7 @@
 // IWYU pragma private; include "GlobalNamespace/BasicSpectrogramData.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BasicSpectrogramData_def.hpp"
+#include "GlobalNamespace/zzzz__DeterminismConfig_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/zzzz__AudioSource_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BasicSpectrogramData.get_Samples
@@ -9,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::GlobalNamespace::BasicSpectrogramData::*)()>(
     &::GlobalNamespace::BasicSpectrogramData::get_Samples)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b9e774;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x578cf64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "get_Samples",
@@ -24,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<float_t>* (::GlobalNamespace::BasicSpectrogramData::*)()>(
     &::GlobalNamespace::BasicSpectrogramData::get_ProcessedSamples)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b9e80c;
+  constexpr static std::size_t addrs = 0x578d160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(),
@@ -36,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::Awake)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b9e9d8;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x578d354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "Awake",
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::LateUpdate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9ea84;
+  constexpr static std::size_t addrs = 0x578d404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "LateUpdate",
@@ -63,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)(
     ::ArrayW<float_t, ::Array<float_t>*>, ::System::Collections::Generic::List_1<float_t>*)>(&::GlobalNamespace::BasicSpectrogramData::ProcessSamples)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3b9e848;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x578d19c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,12 +75,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::BasicSpectrogramData.GetFakeSamples
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)(::ArrayW<float_t, ::Array<float_t>*>)>(
+    &::GlobalNamespace::BasicSpectrogramData::GetFakeSamples)> {
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x578d01c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "GetFakeSamples", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BasicSpectrogramData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicSpectrogramData::*)()>(&::GlobalNamespace::BasicSpectrogramData::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b9ea8c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x578d40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), ".ctor",
@@ -87,6 +103,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::DeterminismConfig*& GlobalNamespace::BasicSpectrogramData::__cordl_internal_get__determinismConfig() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____determinismConfig;
+}
+constexpr ::GlobalNamespace::DeterminismConfig* const& GlobalNamespace::BasicSpectrogramData::__cordl_internal_get__determinismConfig() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____determinismConfig;
+}
+constexpr void GlobalNamespace::BasicSpectrogramData::__cordl_internal_set__determinismConfig(::GlobalNamespace::DeterminismConfig* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____determinismConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::UnityEngine::AudioSource>& GlobalNamespace::BasicSpectrogramData::__cordl_internal_get__audioSource() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSource;
@@ -185,6 +213,12 @@ inline void GlobalNamespace::BasicSpectrogramData::ProcessSamples(::ArrayW<float
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<float_t>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceSamples, processedSamples);
+}
+inline void GlobalNamespace::BasicSpectrogramData::GetFakeSamples(::ArrayW<float_t, ::Array<float_t>*> samples) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), "GetFakeSamples", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, samples);
 }
 inline void GlobalNamespace::BasicSpectrogramData::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicSpectrogramData*>::get(), ".ctor",

@@ -5,14 +5,15 @@
 #include "UnityEngine/Networking/zzzz__UnityWebRequestAsyncOperation_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__UnityWebRequestResult_def.hpp"
+#include "UnityEngine/zzzz__AsyncOperation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities.RequestHasErrors
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequest*, ::ByRef<::UnityEngine::ResourceManagement::Util::UnityWebRequestResult*>)>(
         &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::RequestHasErrors)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4798bf8;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x66f881c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::IsAssetBundleDownloaded)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4791e14;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x66f129c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,13 +39,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities.LogOperationResult
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::AsyncOperation*)>(
+    &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::LogOperationResult)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x66f8a20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "LogOperationResult",
+        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities.Log
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::Log)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x66f8b50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "Log",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities.LogError
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::LogError)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x66f8af4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "LogError",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::*)()>(
     &::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4798e20;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f8bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,6 +111,24 @@ inline bool UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::IsA
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::UnityWebRequestAsyncOperation*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, op);
+}
+inline void UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::LogOperationResult(::UnityEngine::AsyncOperation* op) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "LogOperationResult", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AsyncOperation*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, op);
+}
+inline void UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::Log(::StringW msg) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "Log",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, msg);
+}
+inline void UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::LogError(::StringW msg) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities*>::get(), "LogError",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, msg);
 }
 inline void UnityEngine::ResourceManagement::Util::UnityWebRequestUtilities::_ctor() {
   static auto* ___internal_method =

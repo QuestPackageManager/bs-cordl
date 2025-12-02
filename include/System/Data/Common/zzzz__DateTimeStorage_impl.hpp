@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DateTimeStorage::*)(::System::Data::DataColumn*)>(
     &::System::Data::Common::DateTimeStorage::_ctor)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x41e1104;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5e8a0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Data::Common::DateTimeStorage::*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::System::Data::AggregateType)>(&::System::Data::Common::DateTimeStorage::Aggregate)> {
-  constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x41e4118;
+  constexpr static std::size_t size = 0x4a4;
+  constexpr static std::size_t addrs = 0x5e8d02c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DateTimeStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::DateTimeStorage::Compare)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x41e45e0;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x5e8d4d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::Common::DateTimeStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::DateTimeStorage::CompareValueTo)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x41e4758;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5e8d650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DateTimeStorage::*)(::System::Object*)>(
     &::System::Data::Common::DateTimeStorage::ConvertValue)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x41e48bc;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5e8d7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DateTimeStorage::*)(int32_t, int32_t)>(
     &::System::Data::Common::DateTimeStorage::Copy)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x41e4a0c;
+  constexpr static std::size_t addrs = 0x5e8d910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DateTimeStorage::*)(int32_t)>(
     &::System::Data::Common::DateTimeStorage::Get)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x41e4a60;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5e8d964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +118,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DateTimeStorage::*)(int32_t, ::System::Object*)>(
     &::System::Data::Common::DateTimeStorage::Set)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x41e4b58;
+  constexpr static std::size_t size = 0x360;
+  constexpr static std::size_t addrs = 0x5e8da64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DateTimeStorage::*)(int32_t)>(&::System::Data::Common::DateTimeStorage::SetCapacity)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x41e4ecc;
+  constexpr static std::size_t addrs = 0x5e8ddc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DateTimeStorage::*)(::StringW)>(
     &::System::Data::Common::DateTimeStorage::ConvertXmlToObject)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x41e4f8c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5e8de84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::Common::DateTimeStorage::*)(::System::Object*)>(
     &::System::Data::Common::DateTimeStorage::ConvertObjectToXml)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x41e5040;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5e8df4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -177,8 +177,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::Common::DateTimeStorage::*)(int32_t)>(
     &::System::Data::Common::DateTimeStorage::GetEmptyStorage)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41e50f4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5e8e03c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::Common::DateTimeStorage::*)(int32_t, ::System::Object*, ::System::Collections::BitArray*, int32_t)>(&::System::Data::Common::DateTimeStorage::CopyValue)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x41e513c;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5e8e088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::Common::DateTimeStorage::*)(::System::Object*, ::System::Collections::BitArray*)>(
     &::System::Data::Common::DateTimeStorage::SetStorage)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x41e529c;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5e8e1f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

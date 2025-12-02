@@ -16,6 +16,8 @@ module;
 #include "System/Runtime/CompilerServices/CallSiteBinder.hpp"
 #include "System/Runtime/CompilerServices/CallSiteOps.hpp"
 #include "System/Runtime/CompilerServices/CallSite_1.hpp"
+#include "System/Runtime/CompilerServices/CallerFilePathAttribute.hpp"
+#include "System/Runtime/CompilerServices/CallerLineNumberAttribute.hpp"
 #include "System/Runtime/CompilerServices/CallerMemberNameAttribute.hpp"
 #include "System/Runtime/CompilerServices/CompilationRelaxations.hpp"
 #include "System/Runtime/CompilerServices/CompilationRelaxationsAttribute.hpp"
@@ -73,6 +75,7 @@ module;
 #include "System/Runtime/CompilerServices/UnsafeValueTypeAttribute.hpp"
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
+#include "System/Runtime/CompilerServices/YieldAwaitable.hpp"
 #ifdef __cpp_modules
 export module CompilerServices;
 #endif

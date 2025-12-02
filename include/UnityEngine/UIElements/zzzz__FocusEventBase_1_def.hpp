@@ -34,18 +34,18 @@ public:
   // Declarations
   __declspec(property(get = get_IsFocusDelegated, put = set_IsFocusDelegated)) bool IsFocusDelegated;
 
-  /// @brief Field <IsFocusDelegated>k__BackingField, offset 0xa0, size 0x1
+  /// @brief Field <IsFocusDelegated>k__BackingField, offset 0x80, size 0x1
   __declspec(property(get = __cordl_internal_get__IsFocusDelegated_k__BackingField, put = __cordl_internal_set__IsFocusDelegated_k__BackingField)) bool _IsFocusDelegated_k__BackingField;
 
-  /// @brief Field <direction>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <direction>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__direction_k__BackingField,
                       put = __cordl_internal_set__direction_k__BackingField)) ::UnityEngine::UIElements::FocusChangeDirection* _direction_k__BackingField;
 
-  /// @brief Field <focusController>k__BackingField, offset 0x98, size 0x8
+  /// @brief Field <focusController>k__BackingField, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__focusController_k__BackingField,
                       put = __cordl_internal_set__focusController_k__BackingField)) ::UnityEngine::UIElements::FocusController* _focusController_k__BackingField;
 
-  /// @brief Field <relatedTarget>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <relatedTarget>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__relatedTarget_k__BackingField,
                       put = __cordl_internal_set__relatedTarget_k__BackingField)) ::UnityEngine::UIElements::Focusable* _relatedTarget_k__BackingField;
 
@@ -133,18 +133,18 @@ public:
   FocusEventBase_1(FocusEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4466 };
 
-  /// @brief Field <relatedTarget>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <relatedTarget>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::Focusable* ____relatedTarget_k__BackingField;
 
-  /// @brief Field <direction>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <direction>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusChangeDirection* ____direction_k__BackingField;
 
-  /// @brief Field <focusController>k__BackingField, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field <focusController>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::UIElements::FocusController* ____focusController_k__BackingField;
 
-  /// @brief Field <IsFocusDelegated>k__BackingField, offset: 0xa0, size: 0x1, def value: None
+  /// @brief Field <IsFocusDelegated>k__BackingField, offset: 0x80, size: 0x1, def value: None
   bool ____IsFocusDelegated_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

@@ -18,6 +18,9 @@ namespace GlobalNamespace {
 class OVRBone;
 }
 namespace GlobalNamespace {
+struct OVRPlugin_BodyJointSet;
+}
+namespace GlobalNamespace {
 struct OVRPlugin_Posef;
 }
 namespace GlobalNamespace {
@@ -95,7 +98,7 @@ public:
   OVRSkeleton_IOVRSkeletonDataProvider(OVRSkeleton_IOVRSkeletonDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7958 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -122,46 +125,46 @@ public:
 
   __declspec(property(get = get_SkeletonChangedCount, put = set_SkeletonChangedCount)) int32_t SkeletonChangedCount;
 
-  /// @brief Method get_BoneRotations, addr 0x4045ac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneRotations, addr 0x5cfcd80, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRPlugin_Quatf, ::Array<::GlobalNamespace::OVRPlugin_Quatf>*> get_BoneRotations();
 
-  /// @brief Method get_BoneTranslations, addr 0x4045afc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BoneTranslations, addr 0x5cfcdb0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f, ::Array<::GlobalNamespace::OVRPlugin_Vector3f>*> get_BoneTranslations();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x4045ae8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x5cfcda0, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x4045ad4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x5cfcd90, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_RootPose, addr 0x4045a84, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_RootPose, addr 0x5cfcd40, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRPlugin_Posef get_RootPose();
 
-  /// @brief Method get_RootScale, addr 0x4045ab4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RootScale, addr 0x5cfcd70, size 0x8, virtual false, abstract: false, final false
   inline float_t get_RootScale();
 
-  /// @brief Method get_SkeletonChangedCount, addr 0x4045b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkeletonChangedCount, addr 0x5cfcdc0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkeletonChangedCount();
 
-  /// @brief Method set_BoneRotations, addr 0x4045acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneRotations, addr 0x5cfcd88, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneRotations(::ArrayW<::GlobalNamespace::OVRPlugin_Quatf, ::Array<::GlobalNamespace::OVRPlugin_Quatf>*> value);
 
-  /// @brief Method set_BoneTranslations, addr 0x4045b04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BoneTranslations, addr 0x5cfcdb8, size 0x8, virtual false, abstract: false, final false
   inline void set_BoneTranslations(::ArrayW<::GlobalNamespace::OVRPlugin_Vector3f, ::Array<::GlobalNamespace::OVRPlugin_Vector3f>*> value);
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x4045af0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x5cfcda8, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4045adc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x5cfcd98, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_RootPose, addr 0x4045a98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_RootPose, addr 0x5cfcd54, size 0x1c, virtual false, abstract: false, final false
   inline void set_RootPose(::GlobalNamespace::OVRPlugin_Posef value);
 
-  /// @brief Method set_RootScale, addr 0x4045abc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RootScale, addr 0x5cfcd78, size 0x8, virtual false, abstract: false, final false
   inline void set_RootScale(float_t value);
 
-  /// @brief Method set_SkeletonChangedCount, addr 0x4045b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SkeletonChangedCount, addr 0x5cfcdc8, size 0x8, virtual false, abstract: false, final false
   inline void set_SkeletonChangedCount(int32_t value);
 
   // Ctor Parameters []
@@ -181,7 +184,7 @@ public:
                                          int32_t _SkeletonChangedCount_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8483 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7959 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -242,6 +245,9 @@ public:
     __E_HandLeft = static_cast<int32_t>(0x0),
     __E_HandRight = static_cast<int32_t>(0x1),
     __E_Body = static_cast<int32_t>(0x2),
+    __E_FullBody = static_cast<int32_t>(0x3),
+    __E_XRHandLeft = static_cast<int32_t>(0x4),
+    __E_XRHandRight = static_cast<int32_t>(0x5),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -264,6 +270,9 @@ public:
   /// @brief Field Body value: I32(2)
   static ::GlobalNamespace::OVRSkeleton_SkeletonType const Body;
 
+  /// @brief Field FullBody value: I32(3)
+  static ::GlobalNamespace::OVRSkeleton_SkeletonType const FullBody;
+
   /// @brief Field HandLeft value: I32(0)
   static ::GlobalNamespace::OVRSkeleton_SkeletonType const HandLeft;
 
@@ -273,8 +282,14 @@ public:
   /// @brief Field None value: I32(-1)
   static ::GlobalNamespace::OVRSkeleton_SkeletonType const None;
 
+  /// @brief Field XRHandLeft value: I32(4)
+  static ::GlobalNamespace::OVRSkeleton_SkeletonType const XRHandLeft;
+
+  /// @brief Field XRHandRight value: I32(5)
+  static ::GlobalNamespace::OVRSkeleton_SkeletonType const XRHandRight;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7960 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -329,6 +344,35 @@ public:
     __E_Hand_RingTip = static_cast<int32_t>(0x16),
     __E_Hand_PinkyTip = static_cast<int32_t>(0x17),
     __E_Hand_End = static_cast<int32_t>(0x18),
+    __E_XRHand_Start = static_cast<int32_t>(0x0),
+    __E_XRHand_Palm = static_cast<int32_t>(0x0),
+    __E_XRHand_Wrist = static_cast<int32_t>(0x1),
+    __E_XRHand_ThumbMetacarpal = static_cast<int32_t>(0x2),
+    __E_XRHand_ThumbProximal = static_cast<int32_t>(0x3),
+    __E_XRHand_ThumbDistal = static_cast<int32_t>(0x4),
+    __E_XRHand_ThumbTip = static_cast<int32_t>(0x5),
+    __E_XRHand_IndexMetacarpal = static_cast<int32_t>(0x6),
+    __E_XRHand_IndexProximal = static_cast<int32_t>(0x7),
+    __E_XRHand_IndexIntermediate = static_cast<int32_t>(0x8),
+    __E_XRHand_IndexDistal = static_cast<int32_t>(0x9),
+    __E_XRHand_IndexTip = static_cast<int32_t>(0xa),
+    __E_XRHand_MiddleMetacarpal = static_cast<int32_t>(0xb),
+    __E_XRHand_MiddleProximal = static_cast<int32_t>(0xc),
+    __E_XRHand_MiddleIntermediate = static_cast<int32_t>(0xd),
+    __E_XRHand_MiddleDistal = static_cast<int32_t>(0xe),
+    __E_XRHand_MiddleTip = static_cast<int32_t>(0xf),
+    __E_XRHand_RingMetacarpal = static_cast<int32_t>(0x10),
+    __E_XRHand_RingProximal = static_cast<int32_t>(0x11),
+    __E_XRHand_RingIntermediate = static_cast<int32_t>(0x12),
+    __E_XRHand_RingDistal = static_cast<int32_t>(0x13),
+    __E_XRHand_RingTip = static_cast<int32_t>(0x14),
+    __E_XRHand_LittleMetacarpal = static_cast<int32_t>(0x15),
+    __E_XRHand_LittleProximal = static_cast<int32_t>(0x16),
+    __E_XRHand_LittleIntermediate = static_cast<int32_t>(0x17),
+    __E_XRHand_LittleDistal = static_cast<int32_t>(0x18),
+    __E_XRHand_LittleTip = static_cast<int32_t>(0x19),
+    __E_XRHand_Max = static_cast<int32_t>(0x1a),
+    __E_XRHand_End = static_cast<int32_t>(0x1a),
     __E_Body_Start = static_cast<int32_t>(0x0),
     __E_Body_Root = static_cast<int32_t>(0x0),
     __E_Body_Hips = static_cast<int32_t>(0x1),
@@ -401,7 +445,93 @@ public:
     __E_Body_RightHandLittleDistal = static_cast<int32_t>(0x44),
     __E_Body_RightHandLittleTip = static_cast<int32_t>(0x45),
     __E_Body_End = static_cast<int32_t>(0x46),
-    __E_Max = static_cast<int32_t>(0x46),
+    __E_FullBody_Start = static_cast<int32_t>(0x0),
+    __E_FullBody_Root = static_cast<int32_t>(0x0),
+    __E_FullBody_Hips = static_cast<int32_t>(0x1),
+    __E_FullBody_SpineLower = static_cast<int32_t>(0x2),
+    __E_FullBody_SpineMiddle = static_cast<int32_t>(0x3),
+    __E_FullBody_SpineUpper = static_cast<int32_t>(0x4),
+    __E_FullBody_Chest = static_cast<int32_t>(0x5),
+    __E_FullBody_Neck = static_cast<int32_t>(0x6),
+    __E_FullBody_Head = static_cast<int32_t>(0x7),
+    __E_FullBody_LeftShoulder = static_cast<int32_t>(0x8),
+    __E_FullBody_LeftScapula = static_cast<int32_t>(0x9),
+    __E_FullBody_LeftArmUpper = static_cast<int32_t>(0xa),
+    __E_FullBody_LeftArmLower = static_cast<int32_t>(0xb),
+    __E_FullBody_LeftHandWristTwist = static_cast<int32_t>(0xc),
+    __E_FullBody_RightShoulder = static_cast<int32_t>(0xd),
+    __E_FullBody_RightScapula = static_cast<int32_t>(0xe),
+    __E_FullBody_RightArmUpper = static_cast<int32_t>(0xf),
+    __E_FullBody_RightArmLower = static_cast<int32_t>(0x10),
+    __E_FullBody_RightHandWristTwist = static_cast<int32_t>(0x11),
+    __E_FullBody_LeftHandPalm = static_cast<int32_t>(0x12),
+    __E_FullBody_LeftHandWrist = static_cast<int32_t>(0x13),
+    __E_FullBody_LeftHandThumbMetacarpal = static_cast<int32_t>(0x14),
+    __E_FullBody_LeftHandThumbProximal = static_cast<int32_t>(0x15),
+    __E_FullBody_LeftHandThumbDistal = static_cast<int32_t>(0x16),
+    __E_FullBody_LeftHandThumbTip = static_cast<int32_t>(0x17),
+    __E_FullBody_LeftHandIndexMetacarpal = static_cast<int32_t>(0x18),
+    __E_FullBody_LeftHandIndexProximal = static_cast<int32_t>(0x19),
+    __E_FullBody_LeftHandIndexIntermediate = static_cast<int32_t>(0x1a),
+    __E_FullBody_LeftHandIndexDistal = static_cast<int32_t>(0x1b),
+    __E_FullBody_LeftHandIndexTip = static_cast<int32_t>(0x1c),
+    __E_FullBody_LeftHandMiddleMetacarpal = static_cast<int32_t>(0x1d),
+    __E_FullBody_LeftHandMiddleProximal = static_cast<int32_t>(0x1e),
+    __E_FullBody_LeftHandMiddleIntermediate = static_cast<int32_t>(0x1f),
+    __E_FullBody_LeftHandMiddleDistal = static_cast<int32_t>(0x20),
+    __E_FullBody_LeftHandMiddleTip = static_cast<int32_t>(0x21),
+    __E_FullBody_LeftHandRingMetacarpal = static_cast<int32_t>(0x22),
+    __E_FullBody_LeftHandRingProximal = static_cast<int32_t>(0x23),
+    __E_FullBody_LeftHandRingIntermediate = static_cast<int32_t>(0x24),
+    __E_FullBody_LeftHandRingDistal = static_cast<int32_t>(0x25),
+    __E_FullBody_LeftHandRingTip = static_cast<int32_t>(0x26),
+    __E_FullBody_LeftHandLittleMetacarpal = static_cast<int32_t>(0x27),
+    __E_FullBody_LeftHandLittleProximal = static_cast<int32_t>(0x28),
+    __E_FullBody_LeftHandLittleIntermediate = static_cast<int32_t>(0x29),
+    __E_FullBody_LeftHandLittleDistal = static_cast<int32_t>(0x2a),
+    __E_FullBody_LeftHandLittleTip = static_cast<int32_t>(0x2b),
+    __E_FullBody_RightHandPalm = static_cast<int32_t>(0x2c),
+    __E_FullBody_RightHandWrist = static_cast<int32_t>(0x2d),
+    __E_FullBody_RightHandThumbMetacarpal = static_cast<int32_t>(0x2e),
+    __E_FullBody_RightHandThumbProximal = static_cast<int32_t>(0x2f),
+    __E_FullBody_RightHandThumbDistal = static_cast<int32_t>(0x30),
+    __E_FullBody_RightHandThumbTip = static_cast<int32_t>(0x31),
+    __E_FullBody_RightHandIndexMetacarpal = static_cast<int32_t>(0x32),
+    __E_FullBody_RightHandIndexProximal = static_cast<int32_t>(0x33),
+    __E_FullBody_RightHandIndexIntermediate = static_cast<int32_t>(0x34),
+    __E_FullBody_RightHandIndexDistal = static_cast<int32_t>(0x35),
+    __E_FullBody_RightHandIndexTip = static_cast<int32_t>(0x36),
+    __E_FullBody_RightHandMiddleMetacarpal = static_cast<int32_t>(0x37),
+    __E_FullBody_RightHandMiddleProximal = static_cast<int32_t>(0x38),
+    __E_FullBody_RightHandMiddleIntermediate = static_cast<int32_t>(0x39),
+    __E_FullBody_RightHandMiddleDistal = static_cast<int32_t>(0x3a),
+    __E_FullBody_RightHandMiddleTip = static_cast<int32_t>(0x3b),
+    __E_FullBody_RightHandRingMetacarpal = static_cast<int32_t>(0x3c),
+    __E_FullBody_RightHandRingProximal = static_cast<int32_t>(0x3d),
+    __E_FullBody_RightHandRingIntermediate = static_cast<int32_t>(0x3e),
+    __E_FullBody_RightHandRingDistal = static_cast<int32_t>(0x3f),
+    __E_FullBody_RightHandRingTip = static_cast<int32_t>(0x40),
+    __E_FullBody_RightHandLittleMetacarpal = static_cast<int32_t>(0x41),
+    __E_FullBody_RightHandLittleProximal = static_cast<int32_t>(0x42),
+    __E_FullBody_RightHandLittleIntermediate = static_cast<int32_t>(0x43),
+    __E_FullBody_RightHandLittleDistal = static_cast<int32_t>(0x44),
+    __E_FullBody_RightHandLittleTip = static_cast<int32_t>(0x45),
+    __E_FullBody_LeftUpperLeg = static_cast<int32_t>(0x46),
+    __E_FullBody_LeftLowerLeg = static_cast<int32_t>(0x47),
+    __E_FullBody_LeftFootAnkleTwist = static_cast<int32_t>(0x48),
+    __E_FullBody_LeftFootAnkle = static_cast<int32_t>(0x49),
+    __E_FullBody_LeftFootSubtalar = static_cast<int32_t>(0x4a),
+    __E_FullBody_LeftFootTransverse = static_cast<int32_t>(0x4b),
+    __E_FullBody_LeftFootBall = static_cast<int32_t>(0x4c),
+    __E_FullBody_RightUpperLeg = static_cast<int32_t>(0x4d),
+    __E_FullBody_RightLowerLeg = static_cast<int32_t>(0x4e),
+    __E_FullBody_RightFootAnkleTwist = static_cast<int32_t>(0x4f),
+    __E_FullBody_RightFootAnkle = static_cast<int32_t>(0x50),
+    __E_FullBody_RightFootSubtalar = static_cast<int32_t>(0x51),
+    __E_FullBody_RightFootTransverse = static_cast<int32_t>(0x52),
+    __E_FullBody_RightFootBall = static_cast<int32_t>(0x53),
+    __E_FullBody_End = static_cast<int32_t>(0x54),
+    __E_Max = static_cast<int32_t>(0x54),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -637,6 +767,264 @@ public:
   /// @brief Field Body_Start value: I32(0)
   static ::GlobalNamespace::OVRSkeleton_BoneId const Body_Start;
 
+  /// @brief Field FullBody_Chest value: I32(5)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_Chest;
+
+  /// @brief Field FullBody_End value: I32(84)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_End;
+
+  /// @brief Field FullBody_Head value: I32(7)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_Head;
+
+  /// @brief Field FullBody_Hips value: I32(1)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_Hips;
+
+  /// @brief Field FullBody_LeftArmLower value: I32(11)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftArmLower;
+
+  /// @brief Field FullBody_LeftArmUpper value: I32(10)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftArmUpper;
+
+  /// @brief Field FullBody_LeftFootAnkle value: I32(73)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftFootAnkle;
+
+  /// @brief Field FullBody_LeftFootAnkleTwist value: I32(72)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftFootAnkleTwist;
+
+  /// @brief Field FullBody_LeftFootBall value: I32(76)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftFootBall;
+
+  /// @brief Field FullBody_LeftFootSubtalar value: I32(74)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftFootSubtalar;
+
+  /// @brief Field FullBody_LeftFootTransverse value: I32(75)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftFootTransverse;
+
+  /// @brief Field FullBody_LeftHandIndexDistal value: I32(27)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandIndexDistal;
+
+  /// @brief Field FullBody_LeftHandIndexIntermediate value: I32(26)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandIndexIntermediate;
+
+  /// @brief Field FullBody_LeftHandIndexMetacarpal value: I32(24)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandIndexMetacarpal;
+
+  /// @brief Field FullBody_LeftHandIndexProximal value: I32(25)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandIndexProximal;
+
+  /// @brief Field FullBody_LeftHandIndexTip value: I32(28)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandIndexTip;
+
+  /// @brief Field FullBody_LeftHandLittleDistal value: I32(42)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandLittleDistal;
+
+  /// @brief Field FullBody_LeftHandLittleIntermediate value: I32(41)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandLittleIntermediate;
+
+  /// @brief Field FullBody_LeftHandLittleMetacarpal value: I32(39)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandLittleMetacarpal;
+
+  /// @brief Field FullBody_LeftHandLittleProximal value: I32(40)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandLittleProximal;
+
+  /// @brief Field FullBody_LeftHandLittleTip value: I32(43)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandLittleTip;
+
+  /// @brief Field FullBody_LeftHandMiddleDistal value: I32(32)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandMiddleDistal;
+
+  /// @brief Field FullBody_LeftHandMiddleIntermediate value: I32(31)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandMiddleIntermediate;
+
+  /// @brief Field FullBody_LeftHandMiddleMetacarpal value: I32(29)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandMiddleMetacarpal;
+
+  /// @brief Field FullBody_LeftHandMiddleProximal value: I32(30)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandMiddleProximal;
+
+  /// @brief Field FullBody_LeftHandMiddleTip value: I32(33)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandMiddleTip;
+
+  /// @brief Field FullBody_LeftHandPalm value: I32(18)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandPalm;
+
+  /// @brief Field FullBody_LeftHandRingDistal value: I32(37)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandRingDistal;
+
+  /// @brief Field FullBody_LeftHandRingIntermediate value: I32(36)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandRingIntermediate;
+
+  /// @brief Field FullBody_LeftHandRingMetacarpal value: I32(34)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandRingMetacarpal;
+
+  /// @brief Field FullBody_LeftHandRingProximal value: I32(35)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandRingProximal;
+
+  /// @brief Field FullBody_LeftHandRingTip value: I32(38)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandRingTip;
+
+  /// @brief Field FullBody_LeftHandThumbDistal value: I32(22)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandThumbDistal;
+
+  /// @brief Field FullBody_LeftHandThumbMetacarpal value: I32(20)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandThumbMetacarpal;
+
+  /// @brief Field FullBody_LeftHandThumbProximal value: I32(21)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandThumbProximal;
+
+  /// @brief Field FullBody_LeftHandThumbTip value: I32(23)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandThumbTip;
+
+  /// @brief Field FullBody_LeftHandWrist value: I32(19)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandWrist;
+
+  /// @brief Field FullBody_LeftHandWristTwist value: I32(12)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftHandWristTwist;
+
+  /// @brief Field FullBody_LeftLowerLeg value: I32(71)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftLowerLeg;
+
+  /// @brief Field FullBody_LeftScapula value: I32(9)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftScapula;
+
+  /// @brief Field FullBody_LeftShoulder value: I32(8)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftShoulder;
+
+  /// @brief Field FullBody_LeftUpperLeg value: I32(70)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_LeftUpperLeg;
+
+  /// @brief Field FullBody_Neck value: I32(6)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_Neck;
+
+  /// @brief Field FullBody_RightArmLower value: I32(16)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightArmLower;
+
+  /// @brief Field FullBody_RightArmUpper value: I32(15)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightArmUpper;
+
+  /// @brief Field FullBody_RightFootAnkle value: I32(80)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightFootAnkle;
+
+  /// @brief Field FullBody_RightFootAnkleTwist value: I32(79)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightFootAnkleTwist;
+
+  /// @brief Field FullBody_RightFootBall value: I32(83)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightFootBall;
+
+  /// @brief Field FullBody_RightFootSubtalar value: I32(81)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightFootSubtalar;
+
+  /// @brief Field FullBody_RightFootTransverse value: I32(82)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightFootTransverse;
+
+  /// @brief Field FullBody_RightHandIndexDistal value: I32(53)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandIndexDistal;
+
+  /// @brief Field FullBody_RightHandIndexIntermediate value: I32(52)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandIndexIntermediate;
+
+  /// @brief Field FullBody_RightHandIndexMetacarpal value: I32(50)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandIndexMetacarpal;
+
+  /// @brief Field FullBody_RightHandIndexProximal value: I32(51)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandIndexProximal;
+
+  /// @brief Field FullBody_RightHandIndexTip value: I32(54)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandIndexTip;
+
+  /// @brief Field FullBody_RightHandLittleDistal value: I32(68)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandLittleDistal;
+
+  /// @brief Field FullBody_RightHandLittleIntermediate value: I32(67)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandLittleIntermediate;
+
+  /// @brief Field FullBody_RightHandLittleMetacarpal value: I32(65)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandLittleMetacarpal;
+
+  /// @brief Field FullBody_RightHandLittleProximal value: I32(66)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandLittleProximal;
+
+  /// @brief Field FullBody_RightHandLittleTip value: I32(69)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandLittleTip;
+
+  /// @brief Field FullBody_RightHandMiddleDistal value: I32(58)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandMiddleDistal;
+
+  /// @brief Field FullBody_RightHandMiddleIntermediate value: I32(57)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandMiddleIntermediate;
+
+  /// @brief Field FullBody_RightHandMiddleMetacarpal value: I32(55)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandMiddleMetacarpal;
+
+  /// @brief Field FullBody_RightHandMiddleProximal value: I32(56)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandMiddleProximal;
+
+  /// @brief Field FullBody_RightHandMiddleTip value: I32(59)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandMiddleTip;
+
+  /// @brief Field FullBody_RightHandPalm value: I32(44)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandPalm;
+
+  /// @brief Field FullBody_RightHandRingDistal value: I32(63)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandRingDistal;
+
+  /// @brief Field FullBody_RightHandRingIntermediate value: I32(62)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandRingIntermediate;
+
+  /// @brief Field FullBody_RightHandRingMetacarpal value: I32(60)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandRingMetacarpal;
+
+  /// @brief Field FullBody_RightHandRingProximal value: I32(61)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandRingProximal;
+
+  /// @brief Field FullBody_RightHandRingTip value: I32(64)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandRingTip;
+
+  /// @brief Field FullBody_RightHandThumbDistal value: I32(48)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandThumbDistal;
+
+  /// @brief Field FullBody_RightHandThumbMetacarpal value: I32(46)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandThumbMetacarpal;
+
+  /// @brief Field FullBody_RightHandThumbProximal value: I32(47)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandThumbProximal;
+
+  /// @brief Field FullBody_RightHandThumbTip value: I32(49)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandThumbTip;
+
+  /// @brief Field FullBody_RightHandWrist value: I32(45)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandWrist;
+
+  /// @brief Field FullBody_RightHandWristTwist value: I32(17)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightHandWristTwist;
+
+  /// @brief Field FullBody_RightLowerLeg value: I32(78)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightLowerLeg;
+
+  /// @brief Field FullBody_RightScapula value: I32(14)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightScapula;
+
+  /// @brief Field FullBody_RightShoulder value: I32(13)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightShoulder;
+
+  /// @brief Field FullBody_RightUpperLeg value: I32(77)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_RightUpperLeg;
+
+  /// @brief Field FullBody_Root value: I32(0)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_Root;
+
+  /// @brief Field FullBody_SpineLower value: I32(2)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_SpineLower;
+
+  /// @brief Field FullBody_SpineMiddle value: I32(3)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_SpineMiddle;
+
+  /// @brief Field FullBody_SpineUpper value: I32(4)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_SpineUpper;
+
+  /// @brief Field FullBody_Start value: I32(0)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const FullBody_Start;
+
   /// @brief Field Hand_End value: I32(24)
   static ::GlobalNamespace::OVRSkeleton_BoneId const Hand_End;
 
@@ -721,11 +1109,98 @@ public:
   /// @brief Field Invalid value: I32(-1)
   static ::GlobalNamespace::OVRSkeleton_BoneId const Invalid;
 
-  /// @brief Field Max value: I32(70)
+  /// @brief Field Max value: I32(84)
   static ::GlobalNamespace::OVRSkeleton_BoneId const Max;
 
+  /// @brief Field XRHand_End value: I32(26)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_End;
+
+  /// @brief Field XRHand_IndexDistal value: I32(9)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_IndexDistal;
+
+  /// @brief Field XRHand_IndexIntermediate value: I32(8)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_IndexIntermediate;
+
+  /// @brief Field XRHand_IndexMetacarpal value: I32(6)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_IndexMetacarpal;
+
+  /// @brief Field XRHand_IndexProximal value: I32(7)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_IndexProximal;
+
+  /// @brief Field XRHand_IndexTip value: I32(10)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_IndexTip;
+
+  /// @brief Field XRHand_LittleDistal value: I32(24)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_LittleDistal;
+
+  /// @brief Field XRHand_LittleIntermediate value: I32(23)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_LittleIntermediate;
+
+  /// @brief Field XRHand_LittleMetacarpal value: I32(21)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_LittleMetacarpal;
+
+  /// @brief Field XRHand_LittleProximal value: I32(22)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_LittleProximal;
+
+  /// @brief Field XRHand_LittleTip value: I32(25)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_LittleTip;
+
+  /// @brief Field XRHand_Max value: I32(26)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_Max;
+
+  /// @brief Field XRHand_MiddleDistal value: I32(14)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_MiddleDistal;
+
+  /// @brief Field XRHand_MiddleIntermediate value: I32(13)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_MiddleIntermediate;
+
+  /// @brief Field XRHand_MiddleMetacarpal value: I32(11)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_MiddleMetacarpal;
+
+  /// @brief Field XRHand_MiddleProximal value: I32(12)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_MiddleProximal;
+
+  /// @brief Field XRHand_MiddleTip value: I32(15)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_MiddleTip;
+
+  /// @brief Field XRHand_Palm value: I32(0)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_Palm;
+
+  /// @brief Field XRHand_RingDistal value: I32(19)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_RingDistal;
+
+  /// @brief Field XRHand_RingIntermediate value: I32(18)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_RingIntermediate;
+
+  /// @brief Field XRHand_RingMetacarpal value: I32(16)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_RingMetacarpal;
+
+  /// @brief Field XRHand_RingProximal value: I32(17)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_RingProximal;
+
+  /// @brief Field XRHand_RingTip value: I32(20)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_RingTip;
+
+  /// @brief Field XRHand_Start value: I32(0)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_Start;
+
+  /// @brief Field XRHand_ThumbDistal value: I32(4)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_ThumbDistal;
+
+  /// @brief Field XRHand_ThumbMetacarpal value: I32(2)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_ThumbMetacarpal;
+
+  /// @brief Field XRHand_ThumbProximal value: I32(3)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_ThumbProximal;
+
+  /// @brief Field XRHand_ThumbTip value: I32(5)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_ThumbTip;
+
+  /// @brief Field XRHand_Wrist value: I32(1)
+  static ::GlobalNamespace::OVRSkeleton_BoneId const XRHand_Wrist;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8485 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7961 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -837,75 +1312,78 @@ public:
   /// @brief Field wristFixupRotation, offset 0x88, size 0x10
   __declspec(property(get = __cordl_internal_get_wristFixupRotation, put = __cordl_internal_set_wristFixupRotation)) ::UnityEngine::Quaternion wristFixupRotation;
 
-  /// @brief Method Awake, addr 0x40434fc, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cf9418, size 0x23c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BoneLabelFromBoneId, addr 0x4044de0, size 0x51c, virtual false, abstract: false, final false
+  /// @brief Method BoneLabelFromBoneId, addr 0x5cfaa2c, size 0x1144, virtual false, abstract: false, final false
   static inline ::StringW BoneLabelFromBoneId(::GlobalNamespace::OVRSkeleton_SkeletonType skeletonType, ::GlobalNamespace::OVRSkeleton_BoneId boneId);
 
-  /// @brief Method FixedUpdate, addr 0x404571c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x5cfc998, size 0x2b0, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method GetBoneTransform, addr 0x4044810, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBoneTransform, addr 0x5cfa290, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Transform> GetBoneTransform(::GlobalNamespace::OVRSkeleton_BoneId boneId);
 
-  /// @brief Method GetCurrentEndBoneId, addr 0x40459d0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentEndBoneId, addr 0x5cfcc58, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId GetCurrentEndBoneId();
 
-  /// @brief Method GetCurrentMaxSkinnableBoneId, addr 0x40459f4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentMaxSkinnableBoneId, addr 0x5cfcc7c, size 0x24, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId GetCurrentMaxSkinnableBoneId();
 
-  /// @brief Method GetCurrentNumBones, addr 0x4045a18, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentNumBones, addr 0x5cfcca0, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetCurrentNumBones();
 
-  /// @brief Method GetCurrentNumSkinnableBones, addr 0x4045a3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentNumSkinnableBones, addr 0x5cfcce0, size 0x40, virtual false, abstract: false, final false
   inline int32_t GetCurrentNumSkinnableBones();
 
-  /// @brief Method GetCurrentStartBoneId, addr 0x40459c0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentStartBoneId, addr 0x5cfcc48, size 0x10, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_BoneId GetCurrentStartBoneId();
 
-  /// @brief Method GetSkeletonType, addr 0x4043470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRequiredBodyJointSet, addr 0x5cf937c, size 0x1c, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::OVRPlugin_BodyJointSet GetRequiredBodyJointSet();
+
+  /// @brief Method GetSkeletonType, addr 0x5cf91f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_SkeletonType GetSkeletonType();
 
-  /// @brief Method Initialize, addr 0x4043994, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5cf92e0, size 0x9c, virtual false, abstract: false, final false
   inline void Initialize();
 
-  /// @brief Method InitializeBindPose, addr 0x4043a34, size 0x500, virtual false, abstract: false, final false
+  /// @brief Method InitializeBindPose, addr 0x5cfbb80, size 0x76c, virtual true, abstract: false, final false
   inline void InitializeBindPose();
 
-  /// @brief Method InitializeBones, addr 0x4044818, size 0x5c0, virtual true, abstract: false, final false
+  /// @brief Method InitializeBones, addr 0x5cfa298, size 0x6e8, virtual true, abstract: false, final false
   inline void InitializeBones();
 
-  /// @brief Method InitializeCapsules, addr 0x4043f34, size 0x8dc, virtual false, abstract: false, final false
+  /// @brief Method InitializeCapsules, addr 0x5cf9904, size 0x98c, virtual false, abstract: false, final false
   inline void InitializeCapsules();
 
-  /// @brief Method IsBodySkeleton, addr 0x40452fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsBodySkeleton, addr 0x5cfbb70, size 0x10, virtual false, abstract: false, final false
   static inline bool IsBodySkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
-  /// @brief Method IsHandSkeleton, addr 0x4043a28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method IsHandSkeleton, addr 0x5cf98f4, size 0x10, virtual false, abstract: false, final false
   static inline bool IsHandSkeleton(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
-  /// @brief Method IsValidBone, addr 0x4043480, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method IsValidBone, addr 0x5cf9398, size 0x70, virtual false, abstract: false, final false
   inline bool IsValidBone(::GlobalNamespace::OVRSkeleton_BoneId bone);
 
   static inline ::GlobalNamespace::OVRSkeleton* New_ctor();
 
-  /// @brief Method SearchSkeletonDataProvider, addr 0x404370c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SearchSkeletonDataProvider, addr 0x5cf9654, size 0x130, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OVRSkeleton_IOVRSkeletonDataProvider* SearchSkeletonDataProvider();
 
-  /// @brief Method SetSkeletonType, addr 0x4043478, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetSkeletonType, addr 0x5cf91fc, size 0xe4, virtual true, abstract: false, final false
   inline void SetSkeletonType(::GlobalNamespace::OVRSkeleton_SkeletonType type);
 
-  /// @brief Method ShouldInitialize, addr 0x40438d0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ShouldInitialize, addr 0x5cf982c, size 0xc8, virtual false, abstract: false, final false
   inline bool ShouldInitialize();
 
-  /// @brief Method Start, addr 0x4043830, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf9784, size 0xa8, virtual true, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4045310, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x5cfc398, size 0x4, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSkeleton, addr 0x4045314, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method UpdateSkeleton, addr 0x5cfc39c, size 0x5fc, virtual false, abstract: false, final false
   inline void UpdateSkeleton();
 
   constexpr ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* const& __cordl_internal_get__BindPoses_k__BackingField() const;
@@ -1034,49 +1512,49 @@ public:
 
   constexpr void __cordl_internal_set_wristFixupRotation(::UnityEngine::Quaternion value);
 
-  /// @brief Method .ctor, addr 0x4045a60, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cfcd20, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindPoses, addr 0x4043450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindPoses, addr 0x5cf91d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* get_BindPoses();
 
-  /// @brief Method get_Bones, addr 0x4043440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Bones, addr 0x5cf91c4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* get_Bones();
 
-  /// @brief Method get_Capsules, addr 0x4043460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Capsules, addr 0x5cf91e4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* get_Capsules();
 
-  /// @brief Method get_IsDataHighConfidence, addr 0x404342c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataHighConfidence, addr 0x5cf91b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataHighConfidence();
 
-  /// @brief Method get_IsDataValid, addr 0x4043418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDataValid, addr 0x5cf91a4, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDataValid();
 
-  /// @brief Method get_IsInitialized, addr 0x4043404, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsInitialized, addr 0x5cf9194, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsInitialized();
 
-  /// @brief Method get_SkeletonChangedCount, addr 0x40434ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkeletonChangedCount, addr 0x5cf9408, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkeletonChangedCount();
 
-  /// @brief Method set_BindPoses, addr 0x4043458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindPoses, addr 0x5cf91dc, size 0x8, virtual false, abstract: false, final false
   inline void set_BindPoses(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
 
-  /// @brief Method set_Bones, addr 0x4043448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Bones, addr 0x5cf91cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Bones(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBone*>* value);
 
-  /// @brief Method set_Capsules, addr 0x4043468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Capsules, addr 0x5cf91ec, size 0x8, virtual false, abstract: false, final false
   inline void set_Capsules(::System::Collections::Generic::IList_1<::GlobalNamespace::OVRBoneCapsule*>* value);
 
-  /// @brief Method set_IsDataHighConfidence, addr 0x4043434, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataHighConfidence, addr 0x5cf91bc, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataHighConfidence(bool value);
 
-  /// @brief Method set_IsDataValid, addr 0x4043420, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsDataValid, addr 0x5cf91ac, size 0x8, virtual false, abstract: false, final false
   inline void set_IsDataValid(bool value);
 
-  /// @brief Method set_IsInitialized, addr 0x404340c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsInitialized, addr 0x5cf919c, size 0x8, virtual false, abstract: false, final false
   inline void set_IsInitialized(bool value);
 
-  /// @brief Method set_SkeletonChangedCount, addr 0x40434f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SkeletonChangedCount, addr 0x5cf9410, size 0x8, virtual false, abstract: false, final false
   inline void set_SkeletonChangedCount(int32_t value);
 
 protected:
@@ -1094,7 +1572,7 @@ public:
   OVRSkeleton(OVRSkeleton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7962 };
 
   /// @brief Field _skeletonType, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::OVRSkeleton_SkeletonType ____skeletonType;

@@ -9,15 +9,15 @@
 #include "GlobalNamespace/zzzz__IBeatmapLightEventConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__IntFxBaseData_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IntVfxBeatmapEventDataBox.get_subtypeIdentifier
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IntVfxBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::IntVfxBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdaf8;
+  constexpr static std::size_t addrs = 0x35ef040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::IntVfxBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::IntVfxBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdb00;
+  constexpr static std::size_t addrs = 0x35ef048;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,8 +47,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntVfxBeatmapEventDataBox::*)(
     ::GlobalNamespace::IndexFilter*, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IntFxBaseData*>*)>(&::GlobalNamespace::IntVfxBeatmapEventDataBox::_ctor)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x26bdb08;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x35ef050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,11 +66,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::IntVfxBeatmapEventDataBox.Unpack
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntVfxBeatmapEventDataBox::*)(
-    float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*,
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::GlobalNamespace::IntVfxBeatmapEventDataBox::Unpack)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26bdd10;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* (
+    ::GlobalNamespace::IntVfxBeatmapEventDataBox::*)(float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
+    &::GlobalNamespace::IntVfxBeatmapEventDataBox::Unpack)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x35ef278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,13 +129,13 @@ inline void GlobalNamespace::IntVfxBeatmapEventDataBox::_ctor(::GlobalNamespace:
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParamType, beatDistributionParam, eventDistributionParamType, eventDistributionParam,
                                                           eventDistributionShouldAffectFirstBaseEvent, eventDistributionEaseType, vfxBaseDataList);
 }
-inline void GlobalNamespace::IntVfxBeatmapEventDataBox::Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                                                               ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
-                                                               ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output) {
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
+GlobalNamespace::IntVfxBeatmapEventDataBox::Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
+                                                   ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntVfxBeatmapEventDataBox*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter,
-                                                          lightEventConverter, output);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*, false>(
+      this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter, lightEventConverter);
 }
 inline ::GlobalNamespace::IntVfxBeatmapEventDataBox*
 GlobalNamespace::IntVfxBeatmapEventDataBox::New_ctor(::GlobalNamespace::IndexFilter* indexFilter, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType beatDistributionParamType,

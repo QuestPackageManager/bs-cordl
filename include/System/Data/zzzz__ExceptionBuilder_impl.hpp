@@ -20,8 +20,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceException)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x413e358;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5de9208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceExceptionAsReturnValue)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x413e3f0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5de92b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceExceptionForCapture)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4139c7c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5de4cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::TraceExceptionWithoutRethrow)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4139ec0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5de4f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_Argument)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413e440;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Exception*)>(&::System::Data::ExceptionBuilder::_Argument)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x413e49c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5de9374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::_ArgumentNull)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x413e508;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5de93f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::_ArgumentOutOfRange)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x413e574;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5de946c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,8 +134,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_IndexOutOfRange)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413e5e0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de94e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,8 +148,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InvalidOperation)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413e63c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,8 +162,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InvalidEnumArgumentException)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413e698;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de95c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Exception*)>(&::System::Data::ExceptionBuilder::ThrowDataException)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x413e6f4;
+  constexpr static std::size_t addrs = 0x5de962c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,8 +191,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_Data)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e744;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,8 +205,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_Constraint)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e7ac;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de96e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,8 +219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InvalidConstraint)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e814;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -233,8 +233,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_DeletedRowInaccessible)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e87c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de97c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,8 +247,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_DuplicateName)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e8e4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de982c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,8 +261,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_InRowChangingEvent)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e94c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -275,8 +275,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_NoNullAllowed)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413e9b4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,8 +289,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_ReadOnly)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413ea1c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,8 +303,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_RowNotInTable)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413ea84;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de99dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,8 +317,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::_VersionNotFound)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413eaec;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5de9a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,8 +331,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ArgumentNull)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4136468;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5de1570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,8 +345,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ArgumentOutOfRange)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413eb54;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5de9ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,8 +359,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::BadObjectPropertyAccess)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413eba8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -373,8 +373,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&::System::Data::ExceptionBuilder::TypeNotAllowed)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x413ebf4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5de9b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,8 +387,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CaseInsensitiveNameConflict)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413ec60;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -401,8 +401,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NamespaceNameConflict)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413ecac;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,8 +415,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InvalidOffsetLength)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ecf8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de9c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "InvalidOffsetLength",
@@ -428,8 +428,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::ColumnNotInTheTable)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413ed38;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5de9cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -442,8 +442,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnNotInAnyTable)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ed94;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de9d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ColumnNotInAnyTable",
@@ -455,8 +455,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::ColumnOutOfRange)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x413edd4;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5de9d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,8 +469,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ColumnOutOfRange)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413ee64;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -483,8 +483,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddColumn1)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413eeb0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -497,8 +497,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddColumn2)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413eefc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -511,8 +511,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotAddColumn3)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413b890;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de6860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CannotAddColumn3",
@@ -524,8 +524,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddColumn4)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413b8d0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de68a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,8 +538,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddDuplicate)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413ef48;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -552,8 +552,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddDuplicate2)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413ef94;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -566,8 +566,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotAddDuplicate3)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413efe0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de9f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,8 +580,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotRemoveColumn)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f02c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de9fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CannotRemoveColumn",
@@ -593,8 +593,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotRemovePrimaryKey)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f06c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -606,8 +606,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotRemoveChildKey)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f0ac;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -620,8 +620,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::CannotRemoveConstraint)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413f0f8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5dea0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -634,8 +634,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::CannotRemoveExpression)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413f154;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5dea100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -648,8 +648,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AddPrimaryKeyConstraint)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f1b0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -661,8 +661,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoConstraintName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f1f0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NoConstraintName",
@@ -674,8 +674,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ConstraintViolation)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f230;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -689,8 +689,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Data::ExceptionBuilder::KeysToString)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x413f27c;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5dea238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -705,8 +705,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::System::Data::ExceptionBuilder::UniqueConstraintViolationText)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x413f3a0;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x5dea358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -723,7 +723,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (*)(::ArrayW<::System::Data::DataColumn*, ::Array<::System::Data::DataColumn*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::System::Data::ExceptionBuilder::ConstraintViolation)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x413f50c;
+  constexpr static std::size_t addrs = 0x5dea4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -737,8 +737,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::ConstraintOutOfRange)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x413f51c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5dea4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -751,8 +751,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateConstraint)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f5ac;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -765,8 +765,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateConstraintName)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f5f8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -780,8 +780,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::UniqueConstraint*, ::System::Data::ForeignKeyConstraint*)>(
     &::System::Data::ExceptionBuilder::NeededForForeignKeyConstraint)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x413f644;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5dea620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -795,8 +795,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::UniqueConstraintViolation)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f6cc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -808,8 +808,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ConstraintForeignTable)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f70c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -821,8 +821,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ConstraintParentValues)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f74c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -834,8 +834,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataTable*)>(&::System::Data::ExceptionBuilder::ConstraintAddFailed)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413f78c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5dea780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -848,8 +848,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ConstraintRemoveFailed)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413f7e0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dea7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -861,8 +861,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::FailedCascadeDelete)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f820;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -875,8 +875,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::FailedCascadeUpdate)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f86c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -890,8 +890,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW, ::StringW)>(
     &::System::Data::ExceptionBuilder::FailedClearParentTable)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x413f8b8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5dea8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -906,8 +906,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Data::ExceptionBuilder::ForeignKeyViolation)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413f91c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5dea924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -922,8 +922,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::ForeignKeyConstraint*)>(
     &::System::Data::ExceptionBuilder::RemoveParentRow)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x413f984;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5dea990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -936,8 +936,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Data::ExceptionBuilder::MaxLengthViolationText)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x413cc10;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5de7ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -950,8 +950,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Data::ExceptionBuilder::NotAllowDBNullViolationText)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x413cd80;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5de7c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -964,8 +964,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CantAddConstraintToMultipleNestedTable)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413f9ec;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dea9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -978,8 +978,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AutoIncrementAndExpression)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41375e0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de2748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -991,8 +991,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AutoIncrementAndDefaultValue)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4137620;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de278c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1004,8 +1004,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AutoIncrementSeed)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413d558;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de83d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "AutoIncrementSeed",
@@ -1017,8 +1017,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CantChangeDataType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4138fb0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de3fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CantChangeDataType",
@@ -1030,8 +1030,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NullDataType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4138ff0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de3ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NullDataType",
@@ -1043,8 +1043,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnNameRequired)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4138b94;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de3b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ColumnNameRequired",
@@ -1056,8 +1056,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DefaultValueAndAutoIncrement)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413998c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de49ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1070,8 +1070,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*, ::System::Type*, ::System::Exception*)>(
     &::System::Data::ExceptionBuilder::DefaultValueDataType)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x41395e4;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5de45bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1087,8 +1087,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*, ::System::Type*, ::System::Exception*)>(
     &::System::Data::ExceptionBuilder::DefaultValueColumnDataType)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x41399cc;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5de49f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1103,8 +1103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ExpressionAndUnique)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4139ad8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de4b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ExpressionAndUnique",
@@ -1116,8 +1116,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ExpressionAndReadOnly)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4139ccc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de4d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1130,8 +1130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*, ::System::Data::Constraint*)>(
     &::System::Data::ExceptionBuilder::ExpressionAndConstraint)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4139b18;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5de4b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1145,8 +1145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::ExpressionInConstraint)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413fa38;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5deaa4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1159,8 +1159,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ExpressionCircular)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4139d0c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de4d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ExpressionCircular",
@@ -1172,8 +1172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NonUniqueValues)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413bb70;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de6b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1186,8 +1186,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NullKeyValues)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413bad8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de6ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1200,8 +1200,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NullValues)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413bb24;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de6b10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1214,8 +1214,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ReadOnlyAndExpression)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ab84;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de5bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1227,8 +1227,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ReadOnly)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413fa8c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deaaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1241,8 +1241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::UniqueAndExpression)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413b558;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de6538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "UniqueAndExpression",
@@ -1255,8 +1255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Object*, ::System::Data::DataColumn*, ::System::Type*, ::System::Exception*)>(
     &::System::Data::ExceptionBuilder::SetFailed)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x413aee4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5de5f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1271,8 +1271,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::CannotSetToNull)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413fad8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5deaaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1285,8 +1285,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::LongerThanMaxLength)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413ba84;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5de6a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1300,8 +1300,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*, int32_t)>(
     &::System::Data::ExceptionBuilder::CannotSetMaxLength)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x413a7ac;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5de5804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1315,8 +1315,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::CannotSetMaxLength2)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413a388;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5de5420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1330,8 +1330,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*)>(
     &::System::Data::ExceptionBuilder::CannotSetSimpleContentType)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x41396bc;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5de46e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1344,8 +1344,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::System::Type*)>(&::System::Data::ExceptionBuilder::CannotSetSimpleContent)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x413b834;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5de6800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1358,8 +1358,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotChangeNamespace)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413a9f8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de5a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1372,8 +1372,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataColumn*)>(&::System::Data::ExceptionBuilder::HasToBeStringType)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x413a3dc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5de5478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1386,8 +1386,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::AutoIncrementCannotSetIfHasData)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413794c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de2a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1400,8 +1400,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::INullableUDTwithoutStaticNull)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413fb2c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deab4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1414,8 +1414,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::IComparableNotImplemented)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413fb78;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deab9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1429,8 +1429,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(
     &::System::Data::ExceptionBuilder::UDTImplementsIChangeTrackingButnotIRevertible)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413fbc4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deabec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1443,8 +1443,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*)>(&::System::Data::ExceptionBuilder::InvalidDataColumnMapping)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x413fc10;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5deac3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1457,8 +1457,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotSetDateTimeModeForNonDateTimeColumns)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413984c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de485c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1471,8 +1471,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataSetDateTime)>(&::System::Data::ExceptionBuilder::InvalidDateTimeMode)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4139944;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5de4960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1486,8 +1486,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataSetDateTime, ::System::Data::DataSetDateTime)>(
     &::System::Data::ExceptionBuilder::CantChangeDateTimeMode)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x413988c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5de48a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1501,8 +1501,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnTypeNotSupported)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x41364bc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5de15c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1514,8 +1514,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::SetFailed)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x413fc7c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deacac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1528,8 +1528,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotUse)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fcc8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deacfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CanNotUse",
@@ -1541,8 +1541,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::SetIListObject)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fd08;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dead40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "SetIListObject",
@@ -1554,8 +1554,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AddNewNotAllowNull)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fd48;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dead84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "AddNewNotAllowNull",
@@ -1567,8 +1567,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NotOpen)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fd88;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deadc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NotOpen",
@@ -1580,8 +1580,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CreateChildView)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fdc8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deae0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CreateChildView",
@@ -1593,8 +1593,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotDelete)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fe08;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deae50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CanNotDelete",
@@ -1606,8 +1606,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::GetElementIndex)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x413fe48;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5deae94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1620,8 +1620,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::AddExternalObject)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413fed8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deaf28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "AddExternalObject",
@@ -1633,8 +1633,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotClear)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ff18;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deaf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CanNotClear",
@@ -1646,8 +1646,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InsertExternalObject)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ff58;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deafb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "InsertExternalObject",
@@ -1659,8 +1659,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RemoveExternalObject)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ff98;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deaff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RemoveExternalObject",
@@ -1672,8 +1672,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyTableMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x413ffd8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "KeyTableMismatch",
@@ -1685,8 +1685,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyNoColumns)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140018;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "KeyNoColumns",
@@ -1698,8 +1698,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::KeyTooManyColumns)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4140058;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5deb0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1712,8 +1712,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::KeyDuplicateColumns)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41400e8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deb154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1726,8 +1726,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationDataSetMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140134;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1739,8 +1739,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ColumnsTypeMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4139180;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5de418c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ColumnsTypeMismatch",
@@ -1752,8 +1752,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyLengthMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140174;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "KeyLengthMismatch",
@@ -1765,8 +1765,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyLengthZero)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41401b4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb22c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "KeyLengthZero",
@@ -1778,8 +1778,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ForeignRelation)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41401f4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ForeignRelation",
@@ -1791,8 +1791,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::KeyColumnsIdentical)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140234;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "KeyColumnsIdentical",
@@ -1804,8 +1804,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::RelationForeignTable)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4140274;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5deb2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1818,8 +1818,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::GetParentRowTableMismatch)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x41402d0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5deb358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1832,8 +1832,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::SetParentRowTableMismatch)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x414032c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5deb3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1846,8 +1846,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationForeignRow)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140388;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RelationForeignRow",
@@ -1859,8 +1859,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationNestedReadOnly)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41403c8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -1872,8 +1872,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::TableCantBeNestedInTwoTables)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140408;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deb4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1886,8 +1886,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::LoopInNestedRelations)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140454;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deb4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1900,8 +1900,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationDoesNotExist)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41404a0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RelationDoesNotExist",
@@ -1913,8 +1913,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ParentOrChildColumnsDoNotHaveDataSet)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41404e0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1927,8 +1927,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InValidNestedRelation)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140520;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deb5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1941,8 +1941,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidParentNamespaceinNestedRelation)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x414056c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5deb618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1955,8 +1955,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowNotInTheDataSet)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41405b8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RowNotInTheDataSet",
@@ -1968,8 +1968,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowNotInTheTable)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41405f8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RowNotInTheTable",
@@ -1981,8 +1981,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EditInRowChanging)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140638;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "EditInRowChanging",
@@ -1994,8 +1994,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EndEditInRowChanging)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140678;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "EndEditInRowChanging",
@@ -2007,8 +2007,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::BeginEditInRowChanging)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41406b8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2020,8 +2020,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CancelEditInRowChanging)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41406f8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2033,8 +2033,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DeleteInRowDeleting)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140738;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "DeleteInRowDeleting",
@@ -2046,8 +2046,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ValueArrayLength)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140778;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ValueArrayLength",
@@ -2059,8 +2059,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoCurrentData)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41407b8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NoCurrentData",
@@ -2072,8 +2072,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoOriginalData)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41407f8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NoOriginalData",
@@ -2085,8 +2085,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoProposedData)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140838;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NoProposedData",
@@ -2098,8 +2098,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowRemovedFromTheTable)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140878;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2111,8 +2111,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DeletedRowInaccessible)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41408b8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2124,8 +2124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyDeleted)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41408f8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deb9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RowAlreadyDeleted",
@@ -2137,8 +2137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowEmpty)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140938;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deba20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RowEmpty",
@@ -2150,8 +2150,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InvalidRowVersion)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140978;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deba64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "InvalidRowVersion",
@@ -2163,8 +2163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::RowOutOfRange)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41409b8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5debaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2177,8 +2177,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t, ::StringW)>(&::System::Data::ExceptionBuilder::RowInsertTwice)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4140a48;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5debb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2191,8 +2191,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RowInsertMissing)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140ae8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5debbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2205,8 +2205,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyRemoved)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140b34;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RowAlreadyRemoved",
@@ -2218,8 +2218,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::MultipleParents)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140b74;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "MultipleParents",
@@ -2231,8 +2231,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataRowState)>(&::System::Data::ExceptionBuilder::InvalidRowState)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4140bb4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5debcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2245,8 +2245,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::InvalidRowBitPattern)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140bfc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "InvalidRowBitPattern",
@@ -2258,8 +2258,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::SetDataSetNameToEmpty)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140c3c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2271,8 +2271,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::SetDataSetNameConflicting)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140c7c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5debd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2285,8 +2285,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DataSetUnsupportedSchema)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140cc8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5debddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2299,8 +2299,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MergeMissingDefinition)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4140d14;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5debe2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2313,8 +2313,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TablesInDifferentSets)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140d60;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debe7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2326,8 +2326,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationAlreadyExists)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140da0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2339,8 +2339,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyInOtherCollection)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140de0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2352,8 +2352,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RowAlreadyInTheCollection)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140e20;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2365,8 +2365,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RecordStateRange)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140e60;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5debf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RecordStateRange",
@@ -2378,8 +2378,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t, int32_t)>(&::System::Data::ExceptionBuilder::IndexKeyLength)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4140ea0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5debfd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2392,8 +2392,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataTable*)>(&::System::Data::ExceptionBuilder::RemovePrimaryKey)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4140f7c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5dec0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2406,8 +2406,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationAlreadyInOtherDataSet)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4140ff8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2419,8 +2419,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationAlreadyInTheDataSet)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141038;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2432,8 +2432,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationNotInTheDataSet)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141078;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2446,8 +2446,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Object*)>(&::System::Data::ExceptionBuilder::RelationOutOfRange)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x41410c4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5dec210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2460,8 +2460,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateRelation)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141148;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2474,8 +2474,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationTableNull)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141194;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RelationTableNull",
@@ -2487,8 +2487,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationDataSetNull)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41411d4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "RelationDataSetNull",
@@ -2500,8 +2500,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::RelationTableWasRemoved)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141214;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2513,8 +2513,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ParentTableMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141254;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ParentTableMismatch",
@@ -2526,8 +2526,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::ChildTableMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141294;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "ChildTableMismatch",
@@ -2539,8 +2539,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EnforceConstraint)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41412d4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "EnforceConstraint",
@@ -2552,8 +2552,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CaseLocaleMismatch)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141314;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "CaseLocaleMismatch",
@@ -2566,7 +2566,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4141354;
+  constexpr static std::size_t addrs = 0x5dec4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2578,8 +2578,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::CannotChangeCaseLocale)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x414135c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5dec4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2593,8 +2593,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::SerializationFormat)>(
     &::System::Data::ExceptionBuilder::InvalidRemotingFormat)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x41413a4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5dec51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2607,8 +2607,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableForeignPrimaryKey)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41413ec;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2620,8 +2620,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableCannotAddToSimpleContent)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x414142c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec5ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2633,8 +2633,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NoTableName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x414146c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec5f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NoTableName",
@@ -2646,8 +2646,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::MultipleTextOnlyColumns)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41414ac;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2659,8 +2659,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidSortString)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41414ec;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2673,8 +2673,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateTableName)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141538;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2687,8 +2687,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::DuplicateTableName2)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4141584;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5dec718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2701,8 +2701,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::SelfnestedDatasetConflictingName)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41415e0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2715,8 +2715,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DatasetConflictingName)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x414162c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2729,8 +2729,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableAlreadyInOtherDataSet)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141678;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2742,8 +2742,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableAlreadyInTheDataSet)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41416b8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2755,8 +2755,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t)>(&::System::Data::ExceptionBuilder::TableOutOfRange)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41416f8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5dec8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2769,8 +2769,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::TableNotInTheDataSet)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141788;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dec934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2783,8 +2783,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TableInRelation)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41417d4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dec984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "TableInRelation",
@@ -2797,8 +2797,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::DataTable*, ::System::Data::Constraint*)>(
     &::System::Data::ExceptionBuilder::TableInConstraint)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4141814;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5dec9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2812,8 +2812,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotSerializeDataTableHierarchy)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x414188c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deca4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2826,8 +2826,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotRemoteDataTable)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41418cc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5deca90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2839,8 +2839,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotSetRemotingFormat)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x414190c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5decad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2852,8 +2852,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotSerializeDataTableWithEmptyName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x414194c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5decb18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2866,8 +2866,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::TableNotFound)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x414198c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5decb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2881,8 +2881,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::AggregateType, ::System::Type*)>(
     &::System::Data::ExceptionBuilder::AggregateException)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x41419d8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5decbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2897,7 +2897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::TypeCode)>(&::System::Data::ExceptionBuilder::InvalidStorageType)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4141a90;
+  constexpr static std::size_t addrs = 0x5decc6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2910,8 +2910,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(int32_t, int32_t)>(&::System::Data::ExceptionBuilder::RangeArgument)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4141b24;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5decd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2924,8 +2924,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NullRange)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141bd4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5decdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "NullRange",
@@ -2937,8 +2937,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::NegativeMinimumCapacity)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141c14;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5decdf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2950,8 +2950,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(char16_t)>(&::System::Data::ExceptionBuilder::ProblematicChars)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4141c54;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x5dece3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2964,8 +2964,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::StorageSetFailed)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141d30;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5decf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "StorageSetFailed",
@@ -2977,8 +2977,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::SimpleTypeNotSupported)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4141d70;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5decf68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -2990,8 +2990,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MissingAttribute)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4141db0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5decfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3004,8 +3004,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::MissingAttribute)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4141e00;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5decfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3018,8 +3018,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::InvalidAttributeValue)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4141e5c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5ded028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3032,8 +3032,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::AttributeValues)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4141eb8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ded088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3047,8 +3047,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ElementTypeNotFound)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141f1c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3061,8 +3061,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationParentNameMissing)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141f68;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3075,8 +3075,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationChildNameMissing)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4141fb4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3089,8 +3089,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationTableKeyMissing)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4142000;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3103,8 +3103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::RelationChildKeyMissing)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x414204c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3117,8 +3117,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::UndefinedDatatype)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4142098;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3131,8 +3131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DatatypeNotDefined)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41420e4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "DatatypeNotDefined",
@@ -3144,8 +3144,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::MismatchKeyLength)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4142124;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "MismatchKeyLength",
@@ -3157,8 +3157,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidField)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4142164;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3171,8 +3171,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidSelector)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41421b0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3185,8 +3185,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CircularComplexType)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41421fc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3199,8 +3199,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::CannotInstantiateAbstract)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4142248;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3213,8 +3213,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidKey)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4142294;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3227,8 +3227,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DiffgramMissingTable)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41422e0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3241,8 +3241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DiffgramMissingSQL)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x414232c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "DiffgramMissingSQL",
@@ -3254,8 +3254,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateConstraintRead)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x414236c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3268,8 +3268,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::ColumnTypeConflict)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41423b8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3282,8 +3282,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(&::System::Data::ExceptionBuilder::CannotConvert)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4142404;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5ded61c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3296,8 +3296,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MissingRefer)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4142460;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5ded67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3310,8 +3310,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::InvalidPrefix)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4138e20;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5de3e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3324,8 +3324,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::CanNotDeserializeObjectType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x41424e4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -3337,8 +3337,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::IsDataSetAttributeMissingInSchema)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4142524;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3351,8 +3351,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::TooManyIsDataSetAtributeInSchema)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4142564;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded78c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3365,8 +3365,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::NestedCircular)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41425a4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3379,8 +3379,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MultipleParentRows)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x41425f0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3393,8 +3393,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::PolymorphismNotSupported)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x414263c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3407,8 +3407,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::DataTableInferenceNotSupported)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4142688;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded8c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(),
@@ -3420,8 +3420,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Data::ExceptionBuilder::ThrowMultipleTargetConverter)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x41426c8;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ded904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3434,8 +3434,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::DuplicateDeclaration)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4142728;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ded974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3448,8 +3448,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::FoundEntity)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4142774;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ded9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "FoundEntity",
@@ -3462,7 +3462,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW)>(&::System::Data::ExceptionBuilder::MergeFailed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x41427b4;
+  constexpr static std::size_t addrs = 0x5deda08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3475,8 +3475,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Type*, ::System::Type*)>(&::System::Data::ExceptionBuilder::ConvertFailed)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x41427b8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5deda0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3491,8 +3491,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::StringW, ::StringW)>(
     &::System::Data::ExceptionBuilder::InvalidDuplicateNamedSimpleTypeDelaration)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4142848;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5dedaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3505,8 +3505,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)(::System::Data::RBTreeError)>(&::System::Data::ExceptionBuilder::InternalRBTreeError)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x41428a4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5dedb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3519,8 +3519,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (*)()>(&::System::Data::ExceptionBuilder::EnumeratorModified)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4142924;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dedb78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExceptionBuilder*>::get(), "EnumeratorModified",

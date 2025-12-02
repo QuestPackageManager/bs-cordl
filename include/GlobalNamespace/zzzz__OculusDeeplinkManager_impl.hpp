@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusDeeplinkManager.hpp"
-#include "GlobalNamespace/zzzz__IDeeplinkManager_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusDeeplinkManager_def.hpp"
 #include "GlobalNamespace/zzzz__Deeplink_def.hpp"
+#include "GlobalNamespace/zzzz__IDeeplinkManager_def.hpp"
 #include "Oculus/Platform/Models/zzzz__GroupPresenceJoinIntent_def.hpp"
 #include "Oculus/Platform/Models/zzzz__LaunchDetails_def.hpp"
 #include "Oculus/Platform/zzzz__Message_1_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(::System::Action_1<::GlobalNamespace::Deeplink*>*)>(
     &::GlobalNamespace::OculusDeeplinkManager::add_didReceiveDeeplinkEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26aeff0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x35e04fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(::System::Action_1<::GlobalNamespace::Deeplink*>*)>(
     &::GlobalNamespace::OculusDeeplinkManager::remove_didReceiveDeeplinkEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26af0a0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x35e05bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::Deeplink* (::GlobalNamespace::OculusDeeplinkManager::*)()>(
     &::GlobalNamespace::OculusDeeplinkManager::get_currentDeeplink)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af150;
+  constexpr static std::size_t addrs = 0x35e067c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusDeeplinkManager*>::get(),
@@ -57,7 +57,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)()>(&::GlobalNamespace::OculusDeeplinkManager::Init)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26af158;
+  constexpr static std::size_t addrs = 0x35e0684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusDeeplinkManager*>::get(), "Init",
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)()>(
     &::GlobalNamespace::OculusDeeplinkManager::OculusPlatformWasInitialized)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26af1d8;
+  constexpr static std::size_t addrs = 0x35e0704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusDeeplinkManager*>::get(),
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(
     ::Oculus::Platform::Message_1<::Oculus::Platform::Models::GroupPresenceJoinIntent*>*)>(&::GlobalNamespace::OculusDeeplinkManager::SetJoinIntentReceivedNotificationCallback)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x26af1f0;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x35e071c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)(
     ::Oculus::Platform::Models::GroupPresenceJoinIntent*, ::Oculus::Platform::Models::LaunchDetails*)>(&::GlobalNamespace::OculusDeeplinkManager::UpdateDeeplinkMessage)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x26af2f4;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x35e0834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusDeeplinkManager::*)(::GlobalNamespace::Deeplink*)>(
     &::GlobalNamespace::OculusDeeplinkManager::IsAtLeastOneFieldPopulated)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26af514;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x35e0a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::OculusDeeplinkManager::Log)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26af29c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x35e07d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusDeeplinkManager::*)()>(&::GlobalNamespace::OculusDeeplinkManager::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af588;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35e0adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusDeeplinkManager*>::get(), ".ctor",

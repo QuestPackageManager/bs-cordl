@@ -4,24 +4,23 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__CallbackPhase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__InvokePolicy_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventCallbackFunctorBase)
 namespace System {
 class Delegate;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
-struct CallbackPhase;
+class CallbackEventHandler;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-struct InvokePolicy;
-}
-namespace UnityEngine::UIElements {
-struct PropagationPhase;
+struct TrickleDown;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -29,55 +28,53 @@ class EventCallbackFunctorBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctorBase);
-// Dependencies System.Object, UnityEngine.UIElements.CallbackPhase, UnityEngine.UIElements.InvokePolicy
+// Dependencies System.Object, UnityEngine.UIElements.InvokePolicy
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EventCallbackFunctorBase
 class CORDL_TYPE EventCallbackFunctorBase : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field <invokePolicy>k__BackingField, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__invokePolicy_k__BackingField,
-                      put = __cordl_internal_set__invokePolicy_k__BackingField)) ::UnityEngine::UIElements::InvokePolicy _invokePolicy_k__BackingField;
+  /// @brief Field eventTypeId, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_eventTypeId, put = __cordl_internal_set_eventTypeId)) int64_t eventTypeId;
 
-  /// @brief Field <phase>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__phase_k__BackingField, put = __cordl_internal_set__phase_k__BackingField)) ::UnityEngine::UIElements::CallbackPhase _phase_k__BackingField;
+  /// @brief Field invokePolicy, offset 0x18, size 0x4
+  __declspec(property(get = __cordl_internal_get_invokePolicy, put = __cordl_internal_set_invokePolicy)) ::UnityEngine::UIElements::InvokePolicy invokePolicy;
 
-  __declspec(property(get = get_invokePolicy)) ::UnityEngine::UIElements::InvokePolicy invokePolicy;
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
 
-  __declspec(property(get = get_phase)) ::UnityEngine::UIElements::CallbackPhase phase;
+  /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Dispose();
 
   /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
+  inline void Invoke(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Method IsEquivalentTo, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
+  inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback);
 
-  static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+  static inline ::UnityEngine::UIElements::EventCallbackFunctorBase* New_ctor();
 
-  /// @brief Method PhaseMatches, addr 0x4a279dc, size 0x3c, virtual false, abstract: false, final false
-  inline bool PhaseMatches(::UnityEngine::UIElements::PropagationPhase propagationPhase);
+  /// @brief Method UnregisterCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void UnregisterCallback(::UnityEngine::UIElements::CallbackEventHandler* target, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
-  constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get__invokePolicy_k__BackingField() const;
+  constexpr int64_t const& __cordl_internal_get_eventTypeId() const;
 
-  constexpr ::UnityEngine::UIElements::InvokePolicy& __cordl_internal_get__invokePolicy_k__BackingField();
+  constexpr int64_t& __cordl_internal_get_eventTypeId();
 
-  constexpr ::UnityEngine::UIElements::CallbackPhase const& __cordl_internal_get__phase_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::InvokePolicy const& __cordl_internal_get_invokePolicy() const;
 
-  constexpr ::UnityEngine::UIElements::CallbackPhase& __cordl_internal_get__phase_k__BackingField();
+  constexpr ::UnityEngine::UIElements::InvokePolicy& __cordl_internal_get_invokePolicy();
 
-  constexpr void __cordl_internal_set__invokePolicy_k__BackingField(::UnityEngine::UIElements::InvokePolicy value);
+  constexpr void __cordl_internal_set_eventTypeId(int64_t value);
 
-  constexpr void __cordl_internal_set__phase_k__BackingField(::UnityEngine::UIElements::CallbackPhase value);
+  constexpr void __cordl_internal_set_invokePolicy(::UnityEngine::UIElements::InvokePolicy value);
 
-  /// @brief Method .ctor, addr 0x4a279b0, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+  /// @brief Method .ctor, addr 0x6b642e0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  /// @brief Method get_invokePolicy, addr 0x4a279a8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::InvokePolicy get_invokePolicy();
-
-  /// @brief Method get_phase, addr 0x4a279a0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::CallbackPhase get_phase();
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -94,22 +91,22 @@ public:
   EventCallbackFunctorBase(EventCallbackFunctorBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4453 };
 
-  /// @brief Field <phase>k__BackingField, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::UIElements::CallbackPhase ____phase_k__BackingField;
+  /// @brief Field eventTypeId, offset: 0x10, size: 0x8, def value: None
+  int64_t ___eventTypeId;
 
-  /// @brief Field <invokePolicy>k__BackingField, offset: 0x14, size: 0x4, def value: None
-  ::UnityEngine::UIElements::InvokePolicy ____invokePolicy_k__BackingField;
+  /// @brief Field invokePolicy, offset: 0x18, size: 0x4, def value: None
+  ::UnityEngine::UIElements::InvokePolicy ___invokePolicy;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ____phase_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ___eventTypeId) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ____invokePolicy_k__BackingField) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventCallbackFunctorBase, ___invokePolicy) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackFunctorBase, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventCallbackFunctorBase, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::EventCallbackFunctorBase);

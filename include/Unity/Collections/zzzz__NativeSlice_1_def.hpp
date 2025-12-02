@@ -3,20 +3,26 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NativeSlice_1)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -37,7 +43,7 @@ template <typename T> struct NativeSlice_1_Enumerator;
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1);
 MARK_GEN_VAL_T(::Unity::Collections::NativeSlice_1_Enumerator);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IEquatable`1<T>
+// Dependencies
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -62,9 +68,6 @@ public:
 
   /// @brief Convert operator to "::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>"
   constexpr operator ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*();
-
-  /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void CopyFrom(::ArrayW<T, ::Array<T>*> array);
 
   /// @brief Method CopyFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyFrom(::Unity::Collections::NativeSlice_1<T> slice);
@@ -124,18 +127,18 @@ public:
   // @brief default ctor
   constexpr NativeSlice_1();
 
-  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: None }, CppParam { name: "m_Stride", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NativeSlice_1(::cordl_internals::Ptr<uint8_t> m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept;
+  // Ctor Parameters [CppParam { name: "m_Buffer", ty: "uint8_t*", modifiers: "", def_value: None }, CppParam { name: "m_Stride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "m_Length", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NativeSlice_1(uint8_t* m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10611 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field m_Buffer, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<uint8_t> m_Buffer;
+  uint8_t* m_Buffer;
 
   /// @brief Field m_Stride, offset: 0x8, size: 0x4, def value: None
   int32_t m_Stride;
@@ -147,7 +150,7 @@ public:
 };
 // Non member Declarations
 } // namespace Unity::Collections
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, Unity.Collections.NativeSlice`1<T>
+// Dependencies Unity.Collections.NativeSlice`1<T>
 namespace Unity::Collections {
 // cpp template
 template <typename T>
@@ -205,7 +208,7 @@ public:
   constexpr NativeSlice_1_Enumerator(::Unity::Collections::NativeSlice_1<T> m_Array, int32_t m_Index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9976 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

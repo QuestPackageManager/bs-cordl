@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(
     &::Mono::Net::Security::MonoTlsProviderFactory::GetProviderInternal)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4112948;
+  constexpr static std::size_t addrs = 0x5dbc688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeInternal)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x4116b28;
+  constexpr static std::size_t size = 0x414;
+  constexpr static std::size_t addrs = 0x5dc09a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)(::StringW, bool)>(
     &::Mono::Net::Security::MonoTlsProviderFactory::LookupProvider)> {
-  constexpr static std::size_t size = 0x560;
-  constexpr static std::size_t addrs = 0x4117238;
+  constexpr static std::size_t size = 0x5e4;
+  constexpr static std::size_t addrs = 0x5dc1180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::InitializeProviderRegistration)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4116ec0;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x5dc0db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateUnityProviders)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x4117798;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5dc1764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::PopulateProviders)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x41178d8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5dc18cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(
     &::Mono::Net::Security::MonoTlsProviderFactory::CreateDefaultProviderImpl)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x41170b0;
+  constexpr static std::size_t addrs = 0x5dc0ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),
@@ -107,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileTlsProvider* (*)()>(&::Mono::Net::Security::MonoTlsProviderFactory::GetProvider)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4117928;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5dc1944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::MonoTlsProviderFactory*>::get(),

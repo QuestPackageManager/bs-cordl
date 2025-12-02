@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::ReliableChannel_PendingPacket::*)()>(
     &::LiteNetLib::ReliableChannel_PendingPacket::ToString)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3abae3c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x569490c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel_PendingPacket::*)(::LiteNetLib::NetPacket*)>(
     &::LiteNetLib::ReliableChannel_PendingPacket::Init)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aba8dc;
+  constexpr static std::size_t addrs = 0x56943e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel_PendingPacket::*)(int64_t, ::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::ReliableChannel_PendingPacket::TrySend)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3aba8e8;
+  constexpr static std::size_t addrs = 0x56943f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ReliableChannel_PendingPacket::*)(::LiteNetLib::NetPeer*)>(
     &::LiteNetLib::ReliableChannel_PendingPacket::Clear)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3aba434;
+  constexpr static std::size_t addrs = 0x5693f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(
     &::LiteNetLib::ReliableChannel::_ctor)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3ab6a28;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x56905fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessAck)> {
-  constexpr static std::size_t size = 0x344;
-  constexpr static std::size_t addrs = 0x3aba0f0;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x5693c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,8 +134,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::ReliableChannel::*)()>(&::LiteNetLib::ReliableChannel::SendNextPackets)> {
-  constexpr static std::size_t size = 0x468;
-  constexpr static std::size_t addrs = 0x3aba474;
+  constexpr static std::size_t size = 0x444;
+  constexpr static std::size_t addrs = 0x5693fa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,8 +148,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::ReliableChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::ReliableChannel::ProcessPacket)> {
-  constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x3aba960;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x569446c;
 
   inline static ::MethodInfo const* methodInfo() {
 

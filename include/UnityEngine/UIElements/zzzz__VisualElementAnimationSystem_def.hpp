@@ -39,21 +39,21 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE VisualElementAnimationSystem : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
-  /// @brief Field lastUpdate, offset 0x38, size 0x8
+  /// @brief Field lastUpdate, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_lastUpdate, put = __cordl_internal_set_lastUpdate)) int64_t lastUpdate;
 
-  /// @brief Field m_Animations, offset 0x20, size 0x8
+  /// @brief Field m_Animations, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Animations,
                       put = __cordl_internal_set_m_Animations)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* m_Animations;
 
-  /// @brief Field m_HasNewAnimations, offset 0x30, size 0x1
+  /// @brief Field m_HasNewAnimations, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get_m_HasNewAnimations, put = __cordl_internal_set_m_HasNewAnimations)) bool m_HasNewAnimations;
 
-  /// @brief Field m_IterationList, offset 0x28, size 0x8
+  /// @brief Field m_IterationList, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IterationList,
                       put = __cordl_internal_set_m_IterationList)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* m_IterationList;
 
-  /// @brief Field m_IterationListDirty, offset 0x31, size 0x1
+  /// @brief Field m_IterationListDirty, offset 0x39, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IterationListDirty, put = __cordl_internal_set_m_IterationListDirty)) bool m_IterationListDirty;
 
   __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
@@ -73,22 +73,22 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementAnimationSystem* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x49a1b24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6a99490, size 0x4, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method RegisterAnimation, addr 0x49a1558, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimation, addr 0x6a98ef0, size 0x7c, virtual false, abstract: false, final false
   inline void RegisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method RegisterAnimations, addr 0x49a15bc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method RegisterAnimations, addr 0x6a98f6c, size 0x140, virtual false, abstract: false, final false
   inline void RegisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method UnregisterAnimation, addr 0x49a137c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimation, addr 0x6a98d4c, size 0x70, virtual false, abstract: false, final false
   inline void UnregisterAnimation(::UnityEngine::UIElements::Experimental::IValueAnimationUpdate* anim);
 
-  /// @brief Method UnregisterAnimations, addr 0x49a13e0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method UnregisterAnimations, addr 0x6a98dbc, size 0x134, virtual false, abstract: false, final false
   inline void UnregisterAnimations(::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* anims);
 
-  /// @brief Method Update, addr 0x49a1734, size 0x3e8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6a990ac, size 0x3dc, virtual true, abstract: false, final false
   inline void Update();
 
   constexpr int64_t const& __cordl_internal_get_lastUpdate() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IterationListDirty(bool value);
 
-  /// @brief Method .ctor, addr 0x49a1b28, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a99494, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_s_Description();
@@ -132,10 +132,10 @@ public:
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_StylePropertyAnimationProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x49a12cc, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x6a98c94, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
 
-  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x49a1324, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_stylePropertyAnimationProfilerMarker, addr 0x6a98cf0, size 0x5c, virtual false, abstract: false, final false
   static inline ::Unity::Profiling::ProfilerMarker get_stylePropertyAnimationProfilerMarker();
 
   static inline void setStaticF_s_Description(::StringW value);
@@ -161,37 +161,37 @@ public:
   VisualElementAnimationSystem(VisualElementAnimationSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5251 };
 
-  /// @brief Field m_Animations, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field m_Animations, offset: 0x28, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* ___m_Animations;
 
-  /// @brief Field m_IterationList, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field m_IterationList, offset: 0x30, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Experimental::IValueAnimationUpdate*>* ___m_IterationList;
 
-  /// @brief Field m_HasNewAnimations, offset: 0x30, size: 0x1, def value: None
+  /// @brief Field m_HasNewAnimations, offset: 0x38, size: 0x1, def value: None
   bool ___m_HasNewAnimations;
 
-  /// @brief Field m_IterationListDirty, offset: 0x31, size: 0x1, def value: None
+  /// @brief Field m_IterationListDirty, offset: 0x39, size: 0x1, def value: None
   bool ___m_IterationListDirty;
 
-  /// @brief Field lastUpdate, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field lastUpdate, offset: 0x40, size: 0x8, def value: None
   int64_t ___lastUpdate;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_Animations) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_Animations) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_IterationList) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_IterationList) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_HasNewAnimations) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_HasNewAnimations) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_IterationListDirty) == 0x31, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___m_IterationListDirty) == 0x39, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___lastUpdate) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAnimationSystem, ___lastUpdate) == 0x40, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAnimationSystem, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAnimationSystem, 0x48>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementAnimationSystem);

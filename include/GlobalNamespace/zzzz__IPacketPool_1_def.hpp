@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 CORDL_MODULE_EXPORT(IPacketPool_1)
+namespace GlobalNamespace {
+class IPacketPool;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::IPacketPool_1);
-// Dependencies IPacketPool
+// Dependencies
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -37,7 +39,7 @@ public:
   IPacketPool_1(IPacketPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

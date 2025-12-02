@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser_ReservedWords::*)(::StringW, ::System::Data::Tokens, int32_t)>(
     &::System::Data::ExpressionParser_ReservedWords::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x417bd4c;
+  constexpr static std::size_t addrs = 0x5e2656c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,8 +46,8 @@ constexpr ::System::Data::ExpressionParser_ReservedWords::ExpressionParser_Reser
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(::System::Data::DataTable*)>(&::System::Data::ExpressionParser::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4178c70;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5e234d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(::StringW)>(&::System::Data::ExpressionParser::LoadExpression)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4178d14;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5e23570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::StartScan)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x417a138;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5e24978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "StartScan",
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::Parse)> {
-  constexpr static std::size_t size = 0xca8;
-  constexpr static std::size_t addrs = 0x4178e4c;
+  constexpr static std::size_t size = 0xc48;
+  constexpr static std::size_t addrs = 0x5e236bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "Parse",
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::ExpressionParser::*)(::System::Data::FunctionId)>(
     &::System::Data::ExpressionParser::ParseAggregateArgument)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x417ad6c;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x5e25548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::ExpressionParser::*)()>(
     &::System::Data::ExpressionParser::NodePop)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x417ad30;
+  constexpr static std::size_t addrs = 0x5e2550c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "NodePop",
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::ExpressionNode* (::System::Data::ExpressionParser::*)()>(
     &::System::Data::ExpressionParser::NodePeek)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x417acac;
+  constexpr static std::size_t addrs = 0x5e25484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "NodePeek",
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(::System::Data::ExpressionNode*)>(
     &::System::Data::ExpressionParser::NodePush)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x417ac18;
+  constexpr static std::size_t addrs = 0x5e253f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(int32_t)>(&::System::Data::ExpressionParser::BuildExpression)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x417a634;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x5e24e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,8 +172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(::System::Data::Tokens)>(&::System::Data::ExpressionParser::CheckToken)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x417ab08;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5e25338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,8 +186,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Tokens (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::Scan)> {
-  constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x417a204;
+  constexpr static std::size_t size = 0x3c8;
+  constexpr static std::size_t addrs = 0x5e24a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "Scan",
@@ -199,8 +199,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::ScanNumeric)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x417b5d8;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5e25db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "ScanNumeric",
@@ -212,8 +212,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::ScanName)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x417b938;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5e26118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "ScanName",
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(char16_t, char16_t, ::StringW)>(
     &::System::Data::ExpressionParser::ScanName)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x417b4cc;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5e25ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::ScanDate)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x417b35c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5e25b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "ScanDate",
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::ScanBinaryConstant)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x417b704;
+  constexpr static std::size_t addrs = 0x5e25ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "ScanBinaryConstant",
@@ -267,8 +267,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::ScanReserved)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x417b71c;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5e25ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "ScanReserved",
@@ -280,8 +280,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(char16_t)>(&::System::Data::ExpressionParser::ScanString)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x417b3fc;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5e25bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)(::System::Data::Tokens)>(&::System::Data::ExpressionParser::ScanToken)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x417a8ec;
+  constexpr static std::size_t addrs = 0x5e25120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,8 +308,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ExpressionParser::*)()>(&::System::Data::ExpressionParser::ScanWhite)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x417b304;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5e25ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ExpressionParser*>::get(), "ScanWhite",
@@ -322,7 +322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionParser::*)(char16_t)>(&::System::Data::ExpressionParser::IsWhiteSpace)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x417babc;
+  constexpr static std::size_t addrs = 0x5e262a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,8 +335,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionParser::*)(char16_t)>(&::System::Data::ExpressionParser::IsAlphaNumeric)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x417b8fc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5e260d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionParser::*)(char16_t)>(&::System::Data::ExpressionParser::IsDigit)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x417b708;
+  constexpr static std::size_t addrs = 0x5e25ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -363,8 +363,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ExpressionParser::*)(char16_t)>(&::System::Data::ExpressionParser::IsAlpha)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x417ba40;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5e2622c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

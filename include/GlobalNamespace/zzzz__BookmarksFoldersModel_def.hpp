@@ -44,10 +44,10 @@ public:
 
   static inline ::GlobalNamespace::BookmarksFoldersModel___c* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26aedcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e042c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x26aedd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <get_bookmarksFolders>b__3_0, addr 0x35e0430, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _get_bookmarksFolders_b__3_0(::System::Environment_SpecialFolder specialFolder);
 
   static inline ::GlobalNamespace::BookmarksFoldersModel___c* getStaticF___9();
@@ -73,7 +73,7 @@ public:
   BookmarksFoldersModel___c(BookmarksFoldersModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12804 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14780 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -114,10 +114,10 @@ public:
 
   constexpr void __cordl_internal_set_myFolders(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x26aed68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e03d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bookmarksFolders, addr 0x26ae768, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method get_bookmarksFolders, addr 0x35dfe38, size 0x58c, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::FileBrowserItem*, ::Array<::GlobalNamespace::FileBrowserItem*>*> get_bookmarksFolders();
 
 protected:
@@ -135,7 +135,7 @@ public:
   BookmarksFoldersModel(BookmarksFoldersModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14781 };
 
   /// @brief Field myFolders, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___myFolders;

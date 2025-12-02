@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "BGLib/Polyglot/LanguageDropdown.hpp"
-#include "BGLib/Polyglot/zzzz__ILocalize_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDropdown_def.hpp"
+#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationModel_def.hpp"
 #include "UnityEngine/UI/zzzz__Dropdown_def.hpp"
 //  Writing Method size for method: ::BGLib::Polyglot::LanguageDropdown.Reset
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::Reset)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22ae4b4;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31f2e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), "Reset",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::Start)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22ae504;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x31f2edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), "Start",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::CreateDropdown)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x22ae528;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x31f2ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), "CreateDropdown",
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)(::BGLib::Polyglot::LocalizationModel*)>(
     &::BGLib::Polyglot::LanguageDropdown::OnLocalize)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x22ae998;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x31f33e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::Polyglot::LanguageDropdown::*)()>(&::BGLib::Polyglot::LanguageDropdown::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22aeac8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31f355c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LanguageDropdown*>::get(), ".ctor",

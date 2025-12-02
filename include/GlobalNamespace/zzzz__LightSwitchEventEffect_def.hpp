@@ -128,33 +128,33 @@ public:
 
   __declspec(property(get = get_lightsId)) int32_t lightsId;
 
-  /// @brief Method CheckNextEventForFade, addr 0x3b95fd8, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method CheckNextEventForFade, addr 0x57845e4, size 0x240, virtual false, abstract: false, final false
   inline void CheckNextEventForFade(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method GetHighlightColor, addr 0x3b96290, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetHighlightColor, addr 0x57848c0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetHighlightColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method GetNormalColor, addr 0x3b961f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method GetNormalColor, addr 0x5784824, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetNormalColor(int32_t beatmapEventValue, bool colorBoost);
 
-  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x3b96328, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandleColorBoostBeatmapEvent, addr 0x578495c, size 0xdc, virtual false, abstract: false, final false
   inline void HandleColorBoostBeatmapEvent(::GlobalNamespace::ColorBoostBeatmapEventData* eventData);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b95c68, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x5784214, size 0x3b0, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b95bb8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5784160, size 0xb4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetColor, addr 0x3b95fb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x57845c4, size 0x20, virtual false, abstract: false, final false
   inline void SetColor(::UnityEngine::Color color);
 
-  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x3b95b7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetupTweenAndSaveOtherColors, addr 0x5784124, size 0x3c, virtual false, abstract: false, final false
   inline void SetupTweenAndSaveOtherColors(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor);
 
-  /// @brief Method Start, addr 0x3b95828, size 0x354, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5783d74, size 0x3b0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -289,13 +289,13 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x3b963f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5784a38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventType, addr 0x3b95820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x5783d6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
 
-  /// @brief Method get_lightsId, addr 0x3b95818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightsId, addr 0x5783d64, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lightsId();
 
 protected:
@@ -313,7 +313,7 @@ public:
   LightSwitchEventEffect(LightSwitchEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5905 };
 
   /// @brief Field kFlashAndFadeDuration offset 0xffffffff size 0x4
   static constexpr float_t kFlashAndFadeDuration{ static_cast<float_t>(1.5f) };

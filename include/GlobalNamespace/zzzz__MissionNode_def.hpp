@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMissionNode_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MissionNode)
+namespace GlobalNamespace {
+class IMissionNode;
+}
 namespace GlobalNamespace {
 class MissionDataSO;
 }
@@ -27,7 +29,7 @@ class MissionNode;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionNode);
-// Dependencies IMissionNode, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionNode
@@ -114,34 +116,34 @@ public:
 
   constexpr void __cordl_internal_set__rectTransform(::UnityW<::UnityEngine::RectTransform> value);
 
-  /// @brief Method .ctor, addr 0x3c0b888, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5802d80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_childNodes, addr 0x3c0b77c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_childNodes, addr 0x5802ca0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::GlobalNamespace::MissionNode>, ::Array<::UnityW<::GlobalNamespace::MissionNode>>*> get_childNodes();
 
-  /// @brief Method get_formattedMissionNodeName, addr 0x3c0b7c0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_formattedMissionNodeName, addr 0x5802cc0, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get_formattedMissionNodeName();
 
-  /// @brief Method get_letterPartName, addr 0x3c0b78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_letterPartName, addr 0x5802cb0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_letterPartName();
 
-  /// @brief Method get_missionData, addr 0x3c0b774, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_missionData, addr 0x5802c98, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::MissionDataSO> get_missionData();
 
-  /// @brief Method get_missionId, addr 0x3c0b79c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_missionId, addr 0x5801ebc, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_missionId();
 
-  /// @brief Method get_missionNodeVisualController, addr 0x3c0b784, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionNodeVisualController, addr 0x5802ca8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNodeVisualController> get_missionNodeVisualController();
 
-  /// @brief Method get_numberPartName, addr 0x3c0b794, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numberPartName, addr 0x5802cb8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numberPartName();
 
-  /// @brief Method get_position, addr 0x3c0b848, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x5802354, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_position();
 
-  /// @brief Method get_radius, addr 0x3c0b864, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_radius, addr 0x5802d5c, size 0x24, virtual false, abstract: false, final false
   inline float_t get_radius();
 
   /// @brief Convert to "::GlobalNamespace::IMissionNode"
@@ -162,7 +164,7 @@ public:
   MissionNode(MissionNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4821 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6406 };
 
   /// @brief Field _missionDataSO, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionDataSO> ____missionDataSO;

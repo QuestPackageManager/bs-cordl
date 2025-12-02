@@ -1,15 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Linq/JEnumerable_1.hpp"
-#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline void Newtonsoft::Json::Linq::JEnumerable_1<T>::setStaticF_Empty(::Newtonsoft::Json::Linq::JEnumerable_1<T> value) {
   ::cordl_internals::setStaticField<::Newtonsoft::Json::Linq::JEnumerable_1<T>, "Empty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JEnumerable_1<T>>::get>(

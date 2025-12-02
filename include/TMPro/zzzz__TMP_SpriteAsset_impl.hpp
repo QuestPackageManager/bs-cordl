@@ -2,7 +2,6 @@
 // IWYU pragma private; include "TMPro/TMP_SpriteAsset.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__TMP_Asset_impl.hpp"
-#include "UnityEngine/TextCore/zzzz__FaceInfo_impl.hpp"
 #include "TMPro/zzzz__TMP_SpriteAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -12,15 +11,14 @@
 #include "TMPro/zzzz__TMP_SpriteCharacter_def.hpp"
 #include "TMPro/zzzz__TMP_SpriteGlyph_def.hpp"
 #include "TMPro/zzzz__TMP_Sprite_def.hpp"
-#include "UnityEngine/TextCore/zzzz__FaceInfo_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset___c::*)()>(&::TMPro::TMP_SpriteAsset___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4802b44;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6782030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), ".ctor",
@@ -28,32 +26,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_SpriteAsset___c._SortGlyphTable_b__40_0
+//  Writing Method size for method: ::TMPro::TMP_SpriteAsset___c._SortGlyphTable_b__32_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_SpriteAsset___c::*)(::TMPro::TMP_SpriteGlyph*)>(
-    &::TMPro::TMP_SpriteAsset___c::_SortGlyphTable_b__40_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4802b4c;
+    &::TMPro::TMP_SpriteAsset___c::_SortGlyphTable_b__32_0)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6782034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortGlyphTable>b__40_0", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortGlyphTable>b__32_0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteGlyph*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_SpriteAsset___c._SortCharacterTable_b__41_0
+//  Writing Method size for method: ::TMPro::TMP_SpriteAsset___c._SortCharacterTable_b__33_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_SpriteAsset___c::*)(::TMPro::TMP_SpriteCharacter*)>(
-    &::TMPro::TMP_SpriteAsset___c::_SortCharacterTable_b__41_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4802b64;
+    &::TMPro::TMP_SpriteAsset___c::_SortCharacterTable_b__33_0)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6782048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortCharacterTable>b__41_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortCharacterTable>b__33_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteCharacter*>::get() })));
     return ___internal_method;
   }
@@ -65,21 +63,21 @@ inline void TMPro::TMP_SpriteAsset___c::setStaticF___9(::TMPro::TMP_SpriteAsset_
 inline ::TMPro::TMP_SpriteAsset___c* TMPro::TMP_SpriteAsset___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::TMPro::TMP_SpriteAsset___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get>();
 }
-inline void TMPro::TMP_SpriteAsset___c::setStaticF___9__40_0(::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>*, "<>9__40_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get>(
+inline void TMPro::TMP_SpriteAsset___c::setStaticF___9__32_0(::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>*, "<>9__32_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get>(
       std::forward<::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>*>(value));
 }
-inline ::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>* TMPro::TMP_SpriteAsset___c::getStaticF___9__40_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>*, "<>9__40_0",
+inline ::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>* TMPro::TMP_SpriteAsset___c::getStaticF___9__32_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::TMPro::TMP_SpriteGlyph*, uint32_t>*, "<>9__32_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get>();
 }
-inline void TMPro::TMP_SpriteAsset___c::setStaticF___9__41_0(::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>*, "<>9__41_0",
+inline void TMPro::TMP_SpriteAsset___c::setStaticF___9__33_0(::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>*, "<>9__33_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get>(
       std::forward<::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>*>(value));
 }
-inline ::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>* TMPro::TMP_SpriteAsset___c::getStaticF___9__41_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>*, "<>9__41_0",
+inline ::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>* TMPro::TMP_SpriteAsset___c::getStaticF___9__33_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::TMPro::TMP_SpriteCharacter*, uint32_t>*, "<>9__33_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get>();
 }
 inline void TMPro::TMP_SpriteAsset___c::_ctor() {
@@ -87,15 +85,15 @@ inline void TMPro::TMP_SpriteAsset___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline uint32_t TMPro::TMP_SpriteAsset___c::_SortGlyphTable_b__40_0(::TMPro::TMP_SpriteGlyph* item) {
+inline uint32_t TMPro::TMP_SpriteAsset___c::_SortGlyphTable_b__32_0(::TMPro::TMP_SpriteGlyph* item) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortGlyphTable>b__40_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortGlyphTable>b__32_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteGlyph*>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, item);
 }
-inline uint32_t TMPro::TMP_SpriteAsset___c::_SortCharacterTable_b__41_0(::TMPro::TMP_SpriteCharacter* c) {
+inline uint32_t TMPro::TMP_SpriteAsset___c::_SortCharacterTable_b__33_0(::TMPro::TMP_SpriteCharacter* c) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortCharacterTable>b__41_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset___c*>::get(), "<SortCharacterTable>b__33_0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_SpriteCharacter*>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, c);
 }
@@ -104,67 +102,13 @@ inline ::TMPro::TMP_SpriteAsset___c* TMPro::TMP_SpriteAsset___c::New_ctor() {
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_SpriteAsset___c::TMP_SpriteAsset___c() {}
-//  Writing Method size for method: ::TMPro::TMP_SpriteAsset.get_version
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::get_version)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4800fb4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_version",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_SpriteAsset.set_version
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::StringW)>(&::TMPro::TMP_SpriteAsset::set_version)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4800fbc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "set_version", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_SpriteAsset.get_faceInfo
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::FaceInfo (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::get_faceInfo)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4800fc4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_faceInfo",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_SpriteAsset.set_faceInfo
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::UnityEngine::TextCore::FaceInfo)>(&::TMPro::TMP_SpriteAsset::set_faceInfo)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4800fd4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "set_faceInfo", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::FaceInfo>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::TMPro::TMP_SpriteAsset.get_spriteCharacterTable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteCharacter*>* (::TMPro::TMP_SpriteAsset::*)()>(
     &::TMPro::TMP_SpriteAsset::get_spriteCharacterTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4800f48;
+  constexpr static std::size_t addrs = 0x6780204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_spriteCharacterTable",
@@ -178,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteCharacter*>*)>(
     &::TMPro::TMP_SpriteAsset::set_spriteCharacterTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48014e8;
+  constexpr static std::size_t addrs = 0x678091c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_SpriteCharacter*>* (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::get_spriteCharacterLookupTable)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48014f0;
+  constexpr static std::size_t addrs = 0x6780924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(),
@@ -207,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(
     ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_SpriteCharacter*>*)>(&::TMPro::TMP_SpriteAsset::set_spriteCharacterLookupTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4801514;
+  constexpr static std::size_t addrs = 0x6780948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -222,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* (::TMPro::TMP_SpriteAsset::*)()>(
     &::TMPro::TMP_SpriteAsset::get_spriteGlyphTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x480151c;
+  constexpr static std::size_t addrs = 0x6780950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_spriteGlyphTable",
@@ -236,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>*)>(
     &::TMPro::TMP_SpriteAsset::set_spriteGlyphTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4801524;
+  constexpr static std::size_t addrs = 0x6780958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,8 +193,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::Awake)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x480152c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6780960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "Awake",
@@ -263,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_SpriteAsset::*)()>(
     &::TMPro::TMP_SpriteAsset::GetDefaultSpriteMaterial)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4801a44;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6780e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "GetDefaultSpriteMaterial",
@@ -276,8 +220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::UpdateLookupTables)> {
-  constexpr static std::size_t size = 0x4fc;
-  constexpr static std::size_t addrs = 0x4800fec;
+  constexpr static std::size_t size = 0x6ac;
+  constexpr static std::size_t addrs = 0x6780270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "UpdateLookupTables",
@@ -289,8 +233,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_SpriteAsset::*)(int32_t)>(&::TMPro::TMP_SpriteAsset::GetSpriteIndexFromHashcode)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4801b2c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6780f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,8 +247,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_SpriteAsset::*)(uint32_t)>(&::TMPro::TMP_SpriteAsset::GetSpriteIndexFromUnicode)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4801bb4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6780fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,8 +261,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_SpriteAsset::*)(::StringW)>(&::TMPro::TMP_SpriteAsset::GetSpriteIndexFromName)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4801c48;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6781064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,8 +276,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicode)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x4801d28;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x6781110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,8 +293,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(
     ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*, uint32_t, bool, ::ByRef<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x4801f4c;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x678138c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,8 +310,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, uint32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByUnicodeInternal)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x48020ec;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x678154c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -383,8 +327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCode)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x480219c;
+  constexpr static std::size_t size = 0x3a8;
+  constexpr static std::size_t addrs = 0x6781610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,8 +344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(
     ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_SpriteAsset>>*, int32_t, bool, ::ByRef<int32_t>)>(&::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x48024b8;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x67819b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,8 +361,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (*)(::TMPro::TMP_SpriteAsset*, int32_t, bool, ::ByRef<int32_t>)>(
     &::TMPro::TMP_SpriteAsset::SearchForSpriteByHashCodeInternal)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4802658;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6781b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -433,8 +377,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::SortGlyphTable)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4802708;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6781c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SortGlyphTable",
@@ -446,8 +390,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::SortCharacterTable)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4802838;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x6781d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SortCharacterTable",
@@ -460,7 +404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::SortGlyphAndCharacterTables)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x480296c;
+  constexpr static std::size_t addrs = 0x6781ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "SortGlyphAndCharacterTables",
@@ -472,8 +416,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::UpgradeSpriteAsset)> {
-  constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x48015b4;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x67809ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "UpgradeSpriteAsset",
@@ -486,7 +430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SpriteAsset::*)()>(&::TMPro::TMP_SpriteAsset::_ctor)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4802a24;
+  constexpr static std::size_t addrs = 0x6781f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), ".ctor",
@@ -517,30 +461,6 @@ constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, int32_t>* const
 constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_m_GlyphIndexLookup(::System::Collections::Generic::Dictionary_2<uint32_t, int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GlyphIndexLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::StringW& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_Version() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Version;
-}
-constexpr ::StringW const& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_Version() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Version;
-}
-constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_m_Version(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Version)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::TextCore::FaceInfo& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_FaceInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FaceInfo;
-}
-constexpr ::UnityEngine::TextCore::FaceInfo const& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_FaceInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FaceInfo;
-}
-constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_m_FaceInfo(::UnityEngine::TextCore::FaceInfo value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_FaceInfo = value;
 }
 constexpr ::UnityW<::UnityEngine::Texture>& TMPro::TMP_SpriteAsset::__cordl_internal_get_spriteSheet() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -578,17 +498,17 @@ constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_m_SpriteCharacterLoo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteCharacterLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>*& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_SpriteGlyphTable() {
+constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>*& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_GlyphTable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SpriteGlyphTable;
+  return this->___m_GlyphTable;
 }
-constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* const& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_SpriteGlyphTable() const {
+constexpr ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* const& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_GlyphTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_SpriteGlyphTable;
+  return this->___m_GlyphTable;
 }
-constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_m_SpriteGlyphTable(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* value) {
+constexpr void TMPro::TMP_SpriteAsset::__cordl_internal_set_m_GlyphTable(::System::Collections::Generic::List_1<::TMPro::TMP_SpriteGlyph*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_SpriteGlyphTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_GlyphTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<uint32_t, ::TMPro::TMP_SpriteGlyph*>*& TMPro::TMP_SpriteAsset::__cordl_internal_get_m_SpriteGlyphLookup() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -645,28 +565,6 @@ inline void TMPro::TMP_SpriteAsset::setStaticF_k_searchedSpriteAssets(::System::
 inline ::System::Collections::Generic::HashSet_1<int32_t>* TMPro::TMP_SpriteAsset::getStaticF_k_searchedSpriteAssets() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<int32_t>*, "k_searchedSpriteAssets",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get>();
-}
-inline ::StringW TMPro::TMP_SpriteAsset::get_version() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_version",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-inline void TMPro::TMP_SpriteAsset::set_version(::StringW value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "set_version", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityEngine::TextCore::FaceInfo TMPro::TMP_SpriteAsset::get_faceInfo() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_faceInfo",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::FaceInfo, false>(this, ___internal_method);
-}
-inline void TMPro::TMP_SpriteAsset::set_faceInfo(::UnityEngine::TextCore::FaceInfo value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "set_faceInfo", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::FaceInfo>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::List_1<::TMPro::TMP_SpriteCharacter*>* TMPro::TMP_SpriteAsset::get_spriteCharacterTable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SpriteAsset*>::get(), "get_spriteCharacterTable",

@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BloomPrePassNonLightPass_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BloomPrePassBackgroundNonLightRendererCore)
+namespace GlobalNamespace {
+class TimeHelper;
+}
 namespace UnityEngine::Rendering {
 class CommandBuffer;
 }
@@ -37,25 +40,28 @@ namespace GlobalNamespace {
 class CORDL_TYPE BloomPrePassBackgroundNonLightRendererCore : public ::GlobalNamespace::BloomPrePassNonLightPass {
 public:
   // Declarations
-  /// @brief Field _commandBuffer, offset 0x40, size 0x8
+  /// @brief Field _commandBuffer, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__commandBuffer, put = __cordl_internal_set__commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
 
-  /// @brief Field _customMaterial, offset 0x30, size 0x8
+  /// @brief Field _customMaterial, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__customMaterial, put = __cordl_internal_set__customMaterial)) ::UnityW<::UnityEngine::Material> _customMaterial;
 
-  /// @brief Field _customPropertyBlock, offset 0x48, size 0x8
+  /// @brief Field _customPropertyBlock, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__customPropertyBlock, put = __cordl_internal_set__customPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _customPropertyBlock;
 
-  /// @brief Field _keepDefaultRendering, offset 0x28, size 0x1
+  /// @brief Field _keepDefaultRendering, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get__keepDefaultRendering, put = __cordl_internal_set__keepDefaultRendering)) bool _keepDefaultRendering;
 
   /// @brief Field _materialPropertyBlock, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__materialPropertyBlock, put = setStaticF__materialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _materialPropertyBlock;
 
-  /// @brief Field _useCustomMaterial, offset 0x29, size 0x1
+  /// @brief Field _timeHelper, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
+
+  /// @brief Field _useCustomMaterial, offset 0x31, size 0x1
   __declspec(property(get = __cordl_internal_get__useCustomMaterial, put = __cordl_internal_set__useCustomMaterial)) bool _useCustomMaterial;
 
-  /// @brief Field _useCustomPropertyBlock, offset 0x38, size 0x1
+  /// @brief Field _useCustomPropertyBlock, offset 0x40, size 0x1
   __declspec(property(get = __cordl_internal_get__useCustomPropertyBlock, put = __cordl_internal_set__useCustomPropertyBlock)) bool _useCustomPropertyBlock;
 
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
@@ -67,18 +73,18 @@ public:
 
   __declspec(property(get = get_useCustomMaterial)) bool useCustomMaterial;
 
-  /// @brief Method Awake, addr 0x39d7734, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x564eca4, size 0xc, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method InitIfNeeded, addr 0x39d7858, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x564edcc, size 0x13c, virtual true, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore* New_ctor();
 
-  /// @brief Method Render, addr 0x39d7a84, size 0x304, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x564f050, size 0x340, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
-  /// @brief Method SetCustomPropertyBlock, addr 0x39d79d0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SetCustomPropertyBlock, addr 0x564ef70, size 0xe0, virtual false, abstract: false, final false
   inline void SetCustomPropertyBlock(::UnityEngine::MaterialPropertyBlock* bloomPropertyBlock);
 
   constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__commandBuffer() const;
@@ -97,6 +103,10 @@ public:
 
   constexpr bool& __cordl_internal_get__keepDefaultRendering();
 
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
+
   constexpr bool const& __cordl_internal_get__useCustomMaterial() const;
 
   constexpr bool& __cordl_internal_get__useCustomMaterial();
@@ -113,24 +123,26 @@ public:
 
   constexpr void __cordl_internal_set__keepDefaultRendering(bool value);
 
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
   constexpr void __cordl_internal_set__useCustomMaterial(bool value);
 
   constexpr void __cordl_internal_set__useCustomPropertyBlock(bool value);
 
-  /// @brief Method .ctor, addr 0x39d6910, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x564dda4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::MaterialPropertyBlock* getStaticF__materialPropertyBlock();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
 
-  /// @brief Method get_customMaterial, addr 0x39d79c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_customMaterial, addr 0x564ef68, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> get_customMaterial();
 
   /// @brief Method get_renderer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
-  /// @brief Method get_useCustomMaterial, addr 0x39d79c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useCustomMaterial, addr 0x564ef60, size 0x8, virtual false, abstract: false, final false
   inline bool get_useCustomMaterial();
 
   static inline void setStaticF__materialPropertyBlock(::UnityEngine::MaterialPropertyBlock* value);
@@ -152,42 +164,47 @@ public:
   BloomPrePassBackgroundNonLightRendererCore(BloomPrePassBackgroundNonLightRendererCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19626 };
 
-  /// @brief Field _keepDefaultRendering, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field _timeHelper, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
+  /// @brief Field _keepDefaultRendering, offset: 0x30, size: 0x1, def value: None
   bool ____keepDefaultRendering;
 
-  /// @brief Field _useCustomMaterial, offset: 0x29, size: 0x1, def value: None
+  /// @brief Field _useCustomMaterial, offset: 0x31, size: 0x1, def value: None
   bool ____useCustomMaterial;
 
-  /// @brief Field _customMaterial, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _customMaterial, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____customMaterial;
 
-  /// @brief Field _useCustomPropertyBlock, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field _useCustomPropertyBlock, offset: 0x40, size: 0x1, def value: None
   bool ____useCustomPropertyBlock;
 
-  /// @brief Field _commandBuffer, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _commandBuffer, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ____commandBuffer;
 
-  /// @brief Field _customPropertyBlock, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _customPropertyBlock, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::MaterialPropertyBlock* ____customPropertyBlock;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____keepDefaultRendering) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____timeHelper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____useCustomMaterial) == 0x29, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____keepDefaultRendering) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____customMaterial) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____useCustomMaterial) == 0x31, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____useCustomPropertyBlock) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____customMaterial) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____commandBuffer) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____useCustomPropertyBlock) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____customPropertyBlock) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____commandBuffer) == 0x48, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, 0x50>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, ____customPropertyBlock) == 0x50, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore);

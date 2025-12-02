@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PlayerPrefs)
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 // Forward declare root types
 namespace UnityEngine {
 class PlayerPrefs;
@@ -20,26 +23,54 @@ namespace UnityEngine {
 class CORDL_TYPE PlayerPrefs : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetInt, addr 0x48a6b38, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DeleteKey, addr 0x68a4508, size 0x124, virtual false, abstract: false, final false
+  static inline void DeleteKey(::StringW key);
+
+  /// @brief Method DeleteKey_Injected, addr 0x68a462c, size 0x3c, virtual false, abstract: false, final false
+  static inline void DeleteKey_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key);
+
+  /// @brief Method GetInt, addr 0x68a4070, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key);
 
-  /// @brief Method GetInt, addr 0x48a6af4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetInt, addr 0x68a3ef0, size 0x13c, virtual false, abstract: false, final false
   static inline int32_t GetInt(::StringW key, int32_t defaultValue);
 
-  /// @brief Method GetString, addr 0x48a6bbc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetInt_Injected, addr 0x68a402c, size 0x44, virtual false, abstract: false, final false
+  static inline int32_t GetInt_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, int32_t defaultValue);
+
+  /// @brief Method GetString, addr 0x68a4350, size 0x4c, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key);
 
-  /// @brief Method GetString, addr 0x48a6b78, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetString, addr 0x68a40d0, size 0x22c, virtual false, abstract: false, final false
   static inline ::StringW GetString(::StringW key, ::StringW defaultValue);
 
-  /// @brief Method HasKey, addr 0x48a6c28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetString_Injected, addr 0x68a42fc, size 0x54, virtual false, abstract: false, final false
+  static inline void GetString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> defaultValue,
+                                        ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+
+  /// @brief Method HasKey, addr 0x68a439c, size 0x130, virtual false, abstract: false, final false
   static inline bool HasKey(::StringW key);
 
-  /// @brief Method SetInt, addr 0x48a6a64, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method HasKey_Injected, addr 0x68a44cc, size 0x3c, virtual false, abstract: false, final false
+  static inline bool HasKey_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key);
+
+  /// @brief Method SetInt, addr 0x68a3e98, size 0x58, virtual false, abstract: false, final false
   static inline void SetInt(::StringW key, int32_t value);
 
-  /// @brief Method TrySetInt, addr 0x48a6a20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetString, addr 0x68a4078, size 0x58, virtual false, abstract: false, final false
+  static inline void SetString(::StringW key, ::StringW value);
+
+  /// @brief Method TrySetInt, addr 0x68a3b18, size 0x140, virtual false, abstract: false, final false
   static inline bool TrySetInt(::StringW key, int32_t value);
+
+  /// @brief Method TrySetInt_Injected, addr 0x68a3c58, size 0x44, virtual false, abstract: false, final false
+  static inline bool TrySetInt_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, int32_t value);
+
+  /// @brief Method TrySetSetString, addr 0x68a3c9c, size 0x1b8, virtual false, abstract: false, final false
+  static inline bool TrySetSetString(::StringW key, ::StringW value);
+
+  /// @brief Method TrySetSetString_Injected, addr 0x68a3e54, size 0x44, virtual false, abstract: false, final false
+  static inline bool TrySetSetString_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> key, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +87,7 @@ public:
   PlayerPrefs(PlayerPrefs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10251 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

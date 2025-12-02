@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/ObjectPool_1.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__ObjectPool_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 template <typename T> constexpr bool& UnityEngine::ProBuilder::ObjectPool_1<T>::__cordl_internal_get_m_IsDisposed() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsDisposed;

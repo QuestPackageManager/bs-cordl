@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightmapDataSO> (::GlobalNamespace::BakedLightDataLoader::*)()>(
     &::GlobalNamespace::BakedLightDataLoader::get_lightmapData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b13b00;
+  constexpr static std::size_t addrs = 0x56f28ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightDataLoader*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightDataLoader::*)(::GlobalNamespace::LightmapDataSO*)>(
     &::GlobalNamespace::BakedLightDataLoader::set_lightmapData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b13b08;
+  constexpr static std::size_t addrs = 0x56f28b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightDataLoader::*)()>(&::GlobalNamespace::BakedLightDataLoader::Start)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b13b10;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x56f28bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightDataLoader*>::get(), "Start",
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightDataLoader::*)()>(
     &::GlobalNamespace::BakedLightDataLoader::SetTextureDataToShaders)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b13bc8;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x56f2980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightDataLoader*>::get(),
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BakedLightDataLoader::*)()>(&::GlobalNamespace::BakedLightDataLoader::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b13d04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f2ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BakedLightDataLoader*>::get(), ".ctor",

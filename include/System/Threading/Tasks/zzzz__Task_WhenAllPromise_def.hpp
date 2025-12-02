@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Task_WhenAllPromise)
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -17,7 +19,7 @@ class Task_WhenAllPromise;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Task_WhenAllPromise);
-// Dependencies System.Threading.Tasks.ITaskCompletionAction, System.Threading.Tasks.Task`1<TResult>, System.Threading.Tasks.VoidTaskResult
+// Dependencies System.Threading.Tasks.Task`1<TResult>, System.Threading.Tasks.VoidTaskResult
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: System.Threading.Tasks.Task/WhenAllPromise
@@ -37,7 +39,7 @@ public:
   /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
   constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Method Invoke, addr 0x3e68dcc, size 0x2d0, virtual true, abstract: false, final true
+  /// @brief Method Invoke, addr 0x5aaec04, size 0x334, virtual true, abstract: false, final true
   inline void Invoke(::System::Threading::Tasks::Task* ignored);
 
   static inline ::GlobalNamespace::Task_WhenAllPromise* New_ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
@@ -54,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_m_tasks(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> value);
 
-  /// @brief Method .ctor, addr 0x3e67cfc, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aada88, size 0x194, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> tasks);
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x3e69110, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x5aaefb0, size 0x8, virtual true, abstract: false, final true
   inline bool get_InvokeMayRunArbitraryCode();
 
-  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x3e6909c, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method get_ShouldNotifyDebuggerOfWaitCompletion, addr 0x5aaef38, size 0x78, virtual true, abstract: false, final false
   inline bool get_ShouldNotifyDebuggerOfWaitCompletion();
 
   /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
@@ -81,7 +83,7 @@ public:
   Task_WhenAllPromise(Task_WhenAllPromise const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2800 };
 
   /// @brief Field m_tasks, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*> ___m_tasks;

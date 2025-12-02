@@ -27,12 +27,12 @@ namespace System::Runtime::Serialization {
 class CORDL_TYPE SerializationEventHandler : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3cf3a48, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x593582c, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Runtime::Serialization::SerializationEventHandler* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3cf39bc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59357c0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,7 +50,7 @@ public:
   SerializationEventHandler(SerializationEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

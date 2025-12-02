@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/EmptyEnumerator.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__EmptyEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Xml::EmptyEnumerator.System_Collections_IEnumerator_MoveNext
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::EmptyEnumerator::*)()>(
     &::System::Xml::EmptyEnumerator::System_Collections_IEnumerator_MoveNext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434a488;
+  constexpr static std::size_t addrs = 0x60b1138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EmptyEnumerator::*)()>(&::System::Xml::EmptyEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x434a490;
+  constexpr static std::size_t addrs = 0x60b1140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::EmptyEnumerator::*)()>(
     &::System::Xml::EmptyEnumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x434a494;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x60b1144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::EmptyEnumerator::*)()>(&::System::Xml::EmptyEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434a4ec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60b1194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::EmptyEnumerator*>::get(), ".ctor",

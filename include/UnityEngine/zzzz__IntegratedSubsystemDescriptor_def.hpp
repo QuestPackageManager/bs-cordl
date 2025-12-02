@@ -5,9 +5,11 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__ISubsystemDescriptor_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IntegratedSubsystemDescriptor)
+namespace UnityEngine {
+class ISubsystemDescriptor;
+}
 namespace UnityEngine {
 class ISubsystem;
 }
@@ -17,7 +19,7 @@ class IntegratedSubsystemDescriptor;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::IntegratedSubsystemDescriptor);
-// Dependencies System.IntPtr, System.Object, UnityEngine.ISubsystemDescriptor
+// Dependencies System.IntPtr, System.Object
 namespace UnityEngine {
 // Is value type: false
 // CS Name: UnityEngine.IntegratedSubsystemDescriptor
@@ -37,7 +39,7 @@ public:
 
   static inline ::UnityEngine::IntegratedSubsystemDescriptor* New_ctor();
 
-  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x491af28, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISubsystemDescriptor.Create, addr 0x6984094, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::ISubsystem* UnityEngine_ISubsystemDescriptor_Create();
 
   constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
@@ -46,10 +48,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x491af34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69840a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_id, addr 0x491aeb0, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method get_id, addr 0x6983fc0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_id();
 
   /// @brief Convert to "::UnityEngine::ISubsystemDescriptor"
@@ -70,7 +72,7 @@ public:
   IntegratedSubsystemDescriptor(IntegratedSubsystemDescriptor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18735 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22504 };
 
   /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___m_Ptr;

@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneSettingsApplicatorSO::*)(::ByRef<::BeatSaber::Settings::WindowSettings>)>(
     &::GlobalNamespace::StandaloneSettingsApplicatorSO::ApplyWindowSettings)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3b2eaf4;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x570fd0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandaloneSettingsApplicatorSO::*)()>(
     &::GlobalNamespace::StandaloneSettingsApplicatorSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2eb50;
+  constexpr static std::size_t addrs = 0x570fe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandaloneSettingsApplicatorSO*>::get(),

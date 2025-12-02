@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/QueryKeyboardLayoutCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyboardLayoutCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__QueryKeyboardLayoutCommand_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::get_Type)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607ce4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638f828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::ReadLayoutName)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4607d14;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x638f834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::WriteLayoutName)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4607d24;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x638f854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::get_typeStatic)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607d48;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638f884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::QueryKeyboardLayoutCommand::Create)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4607d78;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x638f890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

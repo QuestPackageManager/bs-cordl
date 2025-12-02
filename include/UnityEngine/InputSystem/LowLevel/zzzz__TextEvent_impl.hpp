@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TextEvent.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TextEvent_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::TextEvent.get_typeStatic
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::TextEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TextEvent::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46104cc;
+  constexpr static std::size_t addrs = 0x6397a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TextEvent>::get(),
@@ -22,10 +22,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::TextEvent.From
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> (*)(
-    ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::LowLevel::TextEvent::From)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x46104d8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::TextEvent* (*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
+    &::UnityEngine::InputSystem::LowLevel::TextEvent::From)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x6397a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::TextEvent (*)(int32_t, char16_t, double_t)>(
     &::UnityEngine::InputSystem::LowLevel::TextEvent::Create)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46105fc;
+  constexpr static std::size_t addrs = 0x6397b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::TextEvent (*)(int32_t, int32_t, double_t)>(
     &::UnityEngine::InputSystem::LowLevel::TextEvent::Create)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4610674;
+  constexpr static std::size_t addrs = 0x6397bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,11 +89,11 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::L
                                                                              "get_typeStatic", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent> UnityEngine::InputSystem::LowLevel::TextEvent::From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
+inline ::UnityEngine::InputSystem::LowLevel::TextEvent* UnityEngine::InputSystem::LowLevel::TextEvent::From(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TextEvent>::get(), "From", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEventPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TextEvent>, false>(nullptr, ___internal_method, eventPtr);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::TextEvent*, false>(nullptr, ___internal_method, eventPtr);
 }
 inline ::UnityEngine::InputSystem::LowLevel::TextEvent UnityEngine::InputSystem::LowLevel::TextEvent::Create(int32_t deviceId, char16_t character, double_t time) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

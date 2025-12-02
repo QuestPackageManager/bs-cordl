@@ -68,7 +68,7 @@ public:
   static ::HMUI::TimeSlider_TimeType const Normalized;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19130 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -105,15 +105,15 @@ public:
   /// @brief Field _valuesValid, offset 0x174, size 0x1
   __declspec(property(get = __cordl_internal_get__valuesValid, put = __cordl_internal_set__valuesValid)) bool _valuesValid;
 
-  /// @brief Method FormatTimeSpan, addr 0x39f2d3c, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FormatTimeSpan, addr 0x566afa0, size 0x25c, virtual false, abstract: false, final false
   static inline ::StringW FormatTimeSpan(::System::TimeSpan ts);
 
   static inline ::HMUI::TimeSlider* New_ctor();
 
-  /// @brief Method SetBounds, addr 0x39f2ad8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetBounds, addr 0x566ad34, size 0x10, virtual false, abstract: false, final false
   inline void SetBounds(bool valuesValid, float_t lowerValue, float_t upperValue);
 
-  /// @brief Method TextForValue, addr 0x39f2aec, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method TextForValue, addr 0x566ad44, size 0x25c, virtual true, abstract: false, final false
   inline ::StringW TextForValue(float_t value);
 
   constexpr float_t const& __cordl_internal_get__lowerValue() const;
@@ -140,7 +140,7 @@ public:
 
   constexpr void __cordl_internal_set__valuesValid(bool value);
 
-  /// @brief Method .ctor, addr 0x39f2e90, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x566b1fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -158,7 +158,7 @@ public:
   TimeSlider(TimeSlider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19131 };
 
   /// @brief Field _timeType, offset: 0x170, size: 0x4, def value: None
   ::HMUI::TimeSlider_TimeType ____timeType;

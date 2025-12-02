@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IRenderingParamsApplicator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RenderingParamsSetupApplicator)
+namespace GlobalNamespace {
+class IRenderingParamsApplicator;
+}
 namespace GlobalNamespace {
 struct SceneType;
 }
@@ -22,7 +24,7 @@ class RenderingParamsSetupApplicator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RenderingParamsSetupApplicator);
-// Dependencies IRenderingParamsApplicator, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: RenderingParamsSetupApplicator
@@ -38,13 +40,13 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IRenderingParamsApplicator"
   constexpr operator ::GlobalNamespace::IRenderingParamsApplicator*() noexcept;
 
-  /// @brief Method Apply, addr 0x3b2e82c, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Apply, addr 0x570fa18, size 0x18, virtual true, abstract: false, final true
   inline void Apply(::GlobalNamespace::SceneType sceneType, ::StringW optionalEnvironmentSerializedName);
 
-  /// @brief Method ApplyGraphicsSettings, addr 0x3b2e844, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method ApplyGraphicsSettings, addr 0x570fa30, size 0x30, virtual false, abstract: false, final false
   inline void ApplyGraphicsSettings(::GlobalNamespace::SceneType sceneType, ::StringW optionalEnvironmentSerializedName);
 
-  /// @brief Method ApplyMainSettings, addr 0x3b2e874, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ApplyMainSettings, addr 0x570fa60, size 0x24, virtual false, abstract: false, final false
   inline void ApplyMainSettings();
 
   static inline ::GlobalNamespace::RenderingParamsSetupApplicator* New_ctor();
@@ -61,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b2e994, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570fb90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IRenderingParamsApplicator"
@@ -82,7 +84,7 @@ public:
   RenderingParamsSetupApplicator(RenderingParamsSetupApplicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6748 };
 
   /// @brief Field _settingsManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

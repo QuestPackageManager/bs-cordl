@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/ComponentModel/zzzz__IChangeTracking_def.hpp"
 CORDL_MODULE_EXPORT(IRevertibleChangeTracking)
+namespace System::ComponentModel {
+class IChangeTracking;
+}
 // Forward declare root types
 namespace System::ComponentModel {
 class IRevertibleChangeTracking;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::IRevertibleChangeTracking);
-// Dependencies System.ComponentModel.IChangeTracking
+// Dependencies
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.IRevertibleChangeTracking
@@ -32,7 +34,7 @@ public:
   IRevertibleChangeTracking(IRevertibleChangeTracking const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11280 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

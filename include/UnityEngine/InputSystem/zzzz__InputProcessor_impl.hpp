@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputProcessor.Process
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputProcessor::*)(
-    ::cordl_internals::Ptr<void>, int32_t, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::InputProcessor::Process)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputProcessor::*)(void*, int32_t, ::UnityEngine::InputSystem::InputControl*)>(
+    &::UnityEngine::InputSystem::InputProcessor::Process)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*)>(&::UnityEngine::InputSystem::InputProcessor::GetValueTypeFromType)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4582eec;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6300d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputProcessor_CachingPolicy (::UnityEngine::InputSystem::InputProcessor::*)()>(
     &::UnityEngine::InputSystem::InputProcessor::get_cachingPolicy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4582fdc;
+  constexpr static std::size_t addrs = 0x6300e20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputProcessor::*)()>(&::UnityEngine::InputSystem::InputProcessor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4582fe4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6300e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(), ".ctor",
@@ -101,7 +101,7 @@ inline ::System::Object* UnityEngine::InputSystem::InputProcessor::ProcessAsObje
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value, control);
 }
-inline void UnityEngine::InputSystem::InputProcessor::Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control) {
+inline void UnityEngine::InputSystem::InputProcessor::Process(void* buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, bufferSize, control);

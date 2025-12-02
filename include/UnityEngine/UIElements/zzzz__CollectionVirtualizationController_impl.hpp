@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionVirtualizationController::*)(::UnityEngine::UIElements::ScrollView*)>(
     &::UnityEngine::UIElements::CollectionVirtualizationController::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x497def8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a20a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,11 +182,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::CollectionVirtualizationController.OnFocus
+//  Writing Method size for method: ::UnityEngine::UIElements::CollectionVirtualizationController.OnFocusIn
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionVirtualizationController::*)(::UnityEngine::UIElements::VisualElement*)>(
-    &::UnityEngine::UIElements::CollectionVirtualizationController::OnFocus)> {
+    &::UnityEngine::UIElements::CollectionVirtualizationController::OnFocusIn)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -198,11 +198,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::CollectionVirtualizationController.OnBlur
+//  Writing Method size for method: ::UnityEngine::UIElements::CollectionVirtualizationController.OnFocusOut
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionVirtualizationController::*)(::UnityEngine::UIElements::VisualElement*)>(
-    &::UnityEngine::UIElements::CollectionVirtualizationController::OnBlur)> {
+    &::UnityEngine::UIElements::CollectionVirtualizationController::OnFocusOut)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -275,6 +275,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 19));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CollectionVirtualizationController.UnbindAll
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CollectionVirtualizationController::*)()>(
+    &::UnityEngine::UIElements::CollectionVirtualizationController::UnbindAll)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 20));
     return ___internal_method;
   }
 };
@@ -356,13 +372,13 @@ inline float_t UnityEngine::UIElements::CollectionVirtualizationController::GetE
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::CollectionVirtualizationController::OnFocus(::UnityEngine::UIElements::VisualElement* leafTarget) {
+inline void UnityEngine::UIElements::CollectionVirtualizationController::OnFocusIn(::UnityEngine::UIElements::VisualElement* leafTarget) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leafTarget);
 }
-inline void UnityEngine::UIElements::CollectionVirtualizationController::OnBlur(::UnityEngine::UIElements::VisualElement* willFocus) {
+inline void UnityEngine::UIElements::CollectionVirtualizationController::OnFocusOut(::UnityEngine::UIElements::VisualElement* willFocus) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 15)));
@@ -391,6 +407,12 @@ inline void UnityEngine::UIElements::CollectionVirtualizationController::EndDrag
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 19)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dropIndex);
+}
+inline void UnityEngine::UIElements::CollectionVirtualizationController::UnbindAll() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CollectionVirtualizationController*>::get(), 20)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::CollectionVirtualizationController* UnityEngine::UIElements::CollectionVirtualizationController::New_ctor(::UnityEngine::UIElements::ScrollView* scrollView) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::CollectionVirtualizationController*>(scrollView));

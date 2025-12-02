@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipQueue_AudioClipWithDelay::*)(::UnityEngine::AudioClip*, float_t)>(
     &::GlobalNamespace::AudioClipQueue_AudioClipWithDelay::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ace110;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x56a7d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,8 +63,8 @@ constexpr ::GlobalNamespace::AudioClipQueue_AudioClipWithDelay::AudioClipQueue_A
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)()>(&::GlobalNamespace::AudioClipQueue::Awake)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3acddcc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56a79c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipQueue*>::get(), "Awake",
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)()>(&::GlobalNamespace::AudioClipQueue::Update)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3acddec;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x56a79dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipQueue*>::get(), "Update",
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)(::UnityEngine::AudioClip*, float_t)>(
     &::GlobalNamespace::AudioClipQueue::PlayAudioClipWithDelay)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3ace01c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x56a7c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipQueue::*)()>(&::GlobalNamespace::AudioClipQueue::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ace148;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x56a7d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipQueue*>::get(), ".ctor",

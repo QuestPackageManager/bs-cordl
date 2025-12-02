@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTreeNode_2)
@@ -95,13 +93,13 @@ public:
   IntervalTreeNode_2___c(IntervalTreeNode_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18968 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22889 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace IntervalTree
-// Dependencies IntervalTree.RangeValuePair`2<TKey, TValue>, System.Collections.Generic.IComparer`1<T>, System.Object
+// Dependencies System.Object
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -218,7 +216,7 @@ public:
   IntervalTreeNode_2(IntervalTreeNode_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22890 };
 
   /// @brief Field center, offset: 0x10, size: 0x8, def value: None
   TKey ___center;

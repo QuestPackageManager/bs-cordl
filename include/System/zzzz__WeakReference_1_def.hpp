@@ -4,9 +4,11 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/InteropServices/zzzz__GCHandle_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WeakReference_1)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +21,7 @@ template <typename T> class WeakReference_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::WeakReference_1);
-// Dependencies System.Object, System.Runtime.InteropServices.GCHandle, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object, System.Runtime.InteropServices.GCHandle
 namespace System {
 // cpp template
 template <typename T>
@@ -94,7 +96,7 @@ public:
   WeakReference_1(WeakReference_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2653 };
 
   /// @brief Field handle, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::InteropServices::GCHandle ___handle;

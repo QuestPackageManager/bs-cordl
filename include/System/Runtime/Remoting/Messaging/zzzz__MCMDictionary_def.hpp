@@ -27,7 +27,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MCMDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
-  /// @brief Method .ctor, addr 0x3ced7e8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x592f8bc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();
@@ -49,7 +49,7 @@ public:
   MCMDictionary(MCMDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

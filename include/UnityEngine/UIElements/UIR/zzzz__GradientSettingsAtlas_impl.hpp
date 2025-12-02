@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/GradientSettingsAtlas.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Alloc_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BestFitAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::WriteRawInt2Packed)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49a8a8c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6aa8f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::*)(
     float_t, float_t, float_t, float_t, int32_t, int32_t)>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture::WriteRawFloat4Packed)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x49a89e4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6aa8edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a8374;
+  constexpr static std::size_t addrs = 0x6aa88b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a837c;
+  constexpr static std::size_t addrs = 0x6aa88c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(bool)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49a8384;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6aa88c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,8 +118,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49a8390;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6aa88d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(bool)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Dispose)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49a83fc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6aa8940;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49a8474;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6aa89c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Reset)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x49a84a4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6aa89d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_atlas)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a855c;
+  constexpr static std::size_t addrs = 0x6aa8a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -191,8 +191,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::Alloc (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Add)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x49a8564;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6aa8a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,8 +207,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(
     ::UnityEngine::UIElements::UIR::Alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*>,
     ::UnityEngine::UIElements::UIR::GradientRemap*)>(&::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Write)> {
-  constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x49a8640;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x6aa8b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::get_MustCommit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a8b1c;
+  constexpr static std::size_t addrs = 0x6aa9014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -239,8 +239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)(bool)>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::set_MustCommit)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49a8b24;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6aa901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -254,8 +254,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::Commit)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49a8b30;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6aa9024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),
@@ -268,8 +268,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::GradientSettingsAtlas::*)()>(
     &::UnityEngine::UIElements::UIR::GradientSettingsAtlas::PrepareAtlas)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x49a8b94;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x6aa908c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::GradientSettingsAtlas*>::get(),

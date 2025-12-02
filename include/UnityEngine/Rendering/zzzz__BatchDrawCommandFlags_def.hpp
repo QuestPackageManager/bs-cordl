@@ -28,7 +28,10 @@ public:
     __E_HasMotion = static_cast<int32_t>(0x2),
     __E_IsLightMapped = static_cast<int32_t>(0x4),
     __E_HasSortingPosition = static_cast<int32_t>(0x8),
-    __E_LODCrossFade = static_cast<int32_t>(0x10),
+    __E_LODCrossFadeKeyword = static_cast<int32_t>(0x10),
+    __E_LODCrossFadeValuePacked = static_cast<int32_t>(0x20),
+    __E_LODCrossFade = static_cast<int32_t>(0x30),
+    __E_UseLegacyLightmapsKeyword = static_cast<int32_t>(0x40),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -60,14 +63,23 @@ public:
   /// @brief Field IsLightMapped value: I32(4)
   static ::UnityEngine::Rendering::BatchDrawCommandFlags const IsLightMapped;
 
-  /// @brief Field LODCrossFade value: I32(16)
+  /// @brief Field LODCrossFade value: I32(48)
   static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFade;
+
+  /// @brief Field LODCrossFadeKeyword value: I32(16)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFadeKeyword;
+
+  /// @brief Field LODCrossFadeValuePacked value: I32(32)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const LODCrossFadeValuePacked;
 
   /// @brief Field None value: I32(0)
   static ::UnityEngine::Rendering::BatchDrawCommandFlags const None;
 
+  /// @brief Field UseLegacyLightmapsKeyword value: I32(64)
+  static ::UnityEngine::Rendering::BatchDrawCommandFlags const UseLegacyLightmapsKeyword;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10824 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

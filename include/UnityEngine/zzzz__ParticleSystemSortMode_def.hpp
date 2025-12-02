@@ -28,6 +28,8 @@ public:
     __E_OldestInFront = static_cast<int32_t>(0x2),
     __E_YoungestInFront = static_cast<int32_t>(0x3),
     __E_Depth = static_cast<int32_t>(0x4),
+    __E_DistanceReverse = static_cast<int32_t>(0x5),
+    __E_DepthReverse = static_cast<int32_t>(0x6),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -50,8 +52,14 @@ public:
   /// @brief Field Depth value: I32(4)
   static ::UnityEngine::ParticleSystemSortMode const Depth;
 
+  /// @brief Field DepthReverse value: I32(6)
+  static ::UnityEngine::ParticleSystemSortMode const DepthReverse;
+
   /// @brief Field Distance value: I32(1)
   static ::UnityEngine::ParticleSystemSortMode const Distance;
+
+  /// @brief Field DistanceReverse value: I32(5)
+  static ::UnityEngine::ParticleSystemSortMode const DistanceReverse;
 
   /// @brief Field None value: I32(0)
   static ::UnityEngine::ParticleSystemSortMode const None;
@@ -63,7 +71,7 @@ public:
   static ::UnityEngine::ParticleSystemSortMode const YoungestInFront;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20622 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

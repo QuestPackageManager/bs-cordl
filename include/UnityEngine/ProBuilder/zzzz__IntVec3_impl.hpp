@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/IntVec3.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__IntVec3_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::IntVec3.get_x
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::IntVec3::*)()>(&::UnityEngine::ProBuilder::IntVec3::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x470f250;
+  constexpr static std::size_t addrs = 0x64a4248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::IntVec3>::get(), "get_x",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::IntVec3::*)()>(&::UnityEngine::ProBuilder::IntVec3::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x470f258;
+  constexpr static std::size_t addrs = 0x64a4250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::IntVec3>::get(), "get_y",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::IntVec3::*)()>(&::UnityEngine::ProBuilder::IntVec3::get_z)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x470f260;
+  constexpr static std::size_t addrs = 0x64a4258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::IntVec3>::get(), "get_z",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::IntVec3::*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::IntVec3::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x470f268;
+  constexpr static std::size_t addrs = 0x64a4260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::IntVec3::*)()>(&::UnityEngine::ProBuilder::IntVec3::ToString)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x470f274;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x64a426c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::IntVec3, ::UnityEngine::ProBuilder::IntVec3)>(
     &::UnityEngine::ProBuilder::IntVec3::op_Equality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x470f338;
+  constexpr static std::size_t addrs = 0x64a4344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::IntVec3, ::UnityEngine::ProBuilder::IntVec3)>(
     &::UnityEngine::ProBuilder::IntVec3::op_Inequality)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x470f400;
+  constexpr static std::size_t addrs = 0x64a440c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::IntVec3::*)(::UnityEngine::ProBuilder::IntVec3)>(
     &::UnityEngine::ProBuilder::IntVec3::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x470f36c;
+  constexpr static std::size_t addrs = 0x64a4378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::IntVec3::*)(::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::IntVec3::Equals)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x470f4a0;
+  constexpr static std::size_t addrs = 0x64a44b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::IntVec3::*)(::System::Object*)>(&::UnityEngine::ProBuilder::IntVec3::Equals)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x470f534;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x64a4544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,8 +151,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::IntVec3::*)()>(&::UnityEngine::ProBuilder::IntVec3::GetHashCode)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x470f5f8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x64a460c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,8 +165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::UnityEngine::ProBuilder::IntVec3::round)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x470f438;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x64a4444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::ProBuilder::IntVec3)>(
     &::UnityEngine::ProBuilder::IntVec3::op_Implicit___UnityEngine__Vector3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x470f608;
+  constexpr static std::size_t addrs = 0x64a4620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,7 +196,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::IntVec3 (*)(::UnityEngine::Vector3)>(
     &::UnityEngine::ProBuilder::IntVec3::op_Implicit___UnityEngine__ProBuilder__IntVec3)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x470f60c;
+  constexpr static std::size_t addrs = 0x64a4624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

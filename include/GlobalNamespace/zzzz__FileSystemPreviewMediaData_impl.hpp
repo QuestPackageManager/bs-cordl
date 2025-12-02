@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FileSystemPreviewMediaData.hpp"
-#include "GlobalNamespace/zzzz__IPreviewMediaData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__FileSystemPreviewMediaData_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "GlobalNamespace/zzzz__SpriteAsyncLoader_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)(
     ::GlobalNamespace::SpriteAsyncLoader*, ::GlobalNamespace::AudioClipAsyncLoader*, ::StringW, ::StringW, ::StringW)>(&::GlobalNamespace::FileSystemPreviewMediaData::_ctor)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x26ce3dc;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x3600e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (
     ::GlobalNamespace::FileSystemPreviewMediaData::*)()>(&::GlobalNamespace::FileSystemPreviewMediaData::GetCoverSpriteAsync)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ce59c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3600fa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::FileSystemPreviewMediaData::*)()>(&::GlobalNamespace::FileSystemPreviewMediaData::GetPreviewAudioClip)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ce5c0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3600fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(
     &::GlobalNamespace::FileSystemPreviewMediaData::UnloadPreviewAudioClip)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ce5e4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3600fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FileSystemPreviewMediaData::*)()>(
     &::GlobalNamespace::FileSystemPreviewMediaData::UnloadCoverSprite)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26ce608;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3601000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FileSystemPreviewMediaData*>::get(),

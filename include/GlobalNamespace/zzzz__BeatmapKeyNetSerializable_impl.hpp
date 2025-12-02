@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapKeyNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapKeyNetSerializable.get_levelID
 template <>
@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapKeyNetSerializable::*)()>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::get_levelID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271de84;
+  constexpr static std::size_t addrs = 0x364d240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapKeyNetSerializable*>::get(),
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::StringW)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::set_levelID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271de8c;
+  constexpr static std::size_t addrs = 0x364d248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapKeyNetSerializable::*)()>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::get_beatmapCharacteristicSerializedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271de94;
+  constexpr static std::size_t addrs = 0x364d250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::StringW)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::set_beatmapCharacteristicSerializedName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271de9c;
+  constexpr static std::size_t addrs = 0x364d258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficulty (::GlobalNamespace::BeatmapKeyNetSerializable::*)()>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::get_difficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271dea4;
+  constexpr static std::size_t addrs = 0x364d260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapKeyNetSerializable*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::set_difficulty)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271deac;
+  constexpr static std::size_t addrs = 0x364d268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)()>(&::GlobalNamespace::BeatmapKeyNetSerializable::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271deb4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x364d270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapKeyNetSerializable*>::get(), ".ctor",
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::StringW, ::StringW, ::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x271debc;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x364d274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::LiteNetLib_Utils_INetSerializable_Deserialize)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x271def8;
+  constexpr static std::size_t addrs = 0x364d280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::LiteNetLib_Utils_INetSerializable_Serialize)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x271df58;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x364d2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::GlobalNamespace::BeatmapKeyNetSerializable*)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::Equals)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x271dfac;
+  constexpr static std::size_t addrs = 0x364d358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapKeyNetSerializable::*)(::System::Object*)>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::Equals)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x271e01c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x364d3c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapKeyNetSerializable::*)()>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x271e128;
+  constexpr static std::size_t addrs = 0x364d4bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,8 +206,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BeatmapKeyNetSerializable::*)()>(
     &::GlobalNamespace::BeatmapKeyNetSerializable::ToString)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x271e18c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x364d520;
 
   inline static ::MethodInfo const* methodInfo() {
 

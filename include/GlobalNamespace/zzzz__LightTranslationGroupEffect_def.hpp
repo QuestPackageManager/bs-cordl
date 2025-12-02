@@ -203,7 +203,7 @@ public:
 
   constexpr void __cordl_internal_set_zTranslationLimits(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b9377c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5781dd0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, bool xMirrored, bool yMirrored, bool zMirrored, ::UnityEngine::Transform* xTransform, ::UnityEngine::Transform* yTransform,
                     ::UnityEngine::Transform* zTransform, ::UnityEngine::Vector2 xTranslationLimits, ::UnityEngine::Vector2 xDistributionLimits, ::UnityEngine::Vector2 yTranslationLimits,
                     ::UnityEngine::Vector2 yDistributionLimits, ::UnityEngine::Vector2 zTranslationLimits, ::UnityEngine::Vector2 zDistributionLimits);
@@ -223,7 +223,7 @@ public:
   LightTranslationGroupEffect_InitData(LightTranslationGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5896 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -325,7 +325,7 @@ public:
 
   static inline ::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0* New_ctor();
 
-  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x3b93854, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method <GetTranslationEventHandler>b__0, addr 0x5781e08, size 0x178, virtual false, abstract: false, final false
   inline void _GetTranslationEventHandler_b__0(::GlobalNamespace::LightTranslationBeatmapEventData* currentEventData);
 
   constexpr ::GlobalNamespace::LightTranslationGroupEffect* const& __cordl_internal_get___4__this() const;
@@ -358,7 +358,7 @@ public:
 
   constexpr void __cordl_internal_set_translationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x3b93524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5781bdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -376,7 +376,7 @@ public:
   LightTranslationGroupEffect___c__DisplayClass12_0(LightTranslationGroupEffect___c__DisplayClass12_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5897 };
 
   /// @brief Field translationTween, offset: 0x10, size: 0x8, def value: None
   ::Tweening::FloatTween* ___translationTween;
@@ -453,23 +453,23 @@ public:
   /// @brief Field _zTranslationTween, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__zTranslationTween, put = __cordl_internal_set__zTranslationTween)) ::Tweening::FloatTween* _zTranslationTween;
 
-  /// @brief Method Cleanup, addr 0x3b934bc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x5781b74, size 0x68, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTranslation, addr 0x3b93730, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ComputeTranslation, addr 0x5781d84, size 0x4c, virtual false, abstract: false, final false
   static inline float_t ComputeTranslation(float_t translation, ::UnityEngine::Vector2 translationLimits, float_t distribution, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
-  /// @brief Method GetTranslationEventHandler, addr 0x3b933d0, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method GetTranslationEventHandler, addr 0x5781a84, size 0xf0, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>*
   GetTranslationEventHandler(::Tweening::FloatTween* translationTween, ::UnityEngine::Vector2 translationLimits, ::UnityEngine::Vector2 distributionLimits, bool mirrored);
 
   static inline ::GlobalNamespace::LightTranslationGroupEffect* New_ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                          ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetTranslation, addr 0x3b9352c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method SetTranslation, addr 0x5781be0, size 0x184, virtual false, abstract: false, final false
   inline void SetTranslation(float_t _);
 
-  /// @brief Method SetTweenData, addr 0x3b936f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTweenData, addr 0x5781d64, size 0x20, virtual false, abstract: false, final false
   static inline void SetTweenData(::Tweening::FloatTween* tween, float_t from, float_t to, float_t startTime, float_t endTime, ::GlobalNamespace::EaseType easeType);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -526,7 +526,7 @@ public:
 
   constexpr void __cordl_internal_set__zTranslationTween(::Tweening::FloatTween* value);
 
-  /// @brief Method .ctor, addr 0x3b927fc, size 0xbd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5780e38, size 0xc4c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightTranslationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -545,7 +545,7 @@ public:
   LightTranslationGroupEffect(LightTranslationGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5898 };
 
   /// @brief Field _tweeningManager, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::Tweening::SongTimeTweeningManager> ____tweeningManager;

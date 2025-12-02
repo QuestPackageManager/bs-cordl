@@ -48,7 +48,7 @@ public:
   /// @brief Method EnsureInitializedCore, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T EnsureInitializedCore(::ByRef<T> target, ::System::Func_1<T>* valueFactory);
 
-  /// @brief Method EnsureLockInitialized, addr 0x3e4ceec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method EnsureLockInitialized, addr 0x5a9233c, size 0x74, virtual false, abstract: false, final false
   static inline ::System::Object* EnsureLockInitialized(::ByRef<::System::Object*> syncLock);
 
 protected:
@@ -66,7 +66,7 @@ public:
   LazyInitializer(LazyInitializer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2666 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2674 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

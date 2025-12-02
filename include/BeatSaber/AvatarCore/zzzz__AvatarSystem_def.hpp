@@ -4,8 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarSystem)
@@ -23,6 +21,12 @@ struct AvatarSystemIdentifier;
 }
 namespace BeatSaber::AvatarCore {
 class Avatar;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystem;
 }
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
@@ -45,7 +49,7 @@ class AvatarSystem;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::AvatarSystem);
-// Dependencies BeatSaber.AvatarCore.AvatarSystemIdentifier, BeatSaber.AvatarCore.IAvatarSystem, BeatSaber.AvatarCore.IAvatarSystemMetadata, System.Object
+// Dependencies BeatSaber.AvatarCore.AvatarSystemIdentifier, System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: BeatSaber.AvatarCore.AvatarSystem
@@ -144,26 +148,26 @@ public:
 
   constexpr void __cordl_internal_set__typeIdentifier(::BeatSaber::AvatarCore::AvatarSystemIdentifier value);
 
-  /// @brief Method .ctor, addr 0x224cb44, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316d040, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::BeatSaber::AvatarCore::AvatarSystemIdentifier identifier, bool isFallbackSystem, bool selectableByUser, int32_t selectionSortOrder,
                     ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* supportedOptionalAvatarDataTypes);
 
   /// @brief Method get_avatarCreated, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* get_avatarCreated();
 
-  /// @brief Method get_isFallbackSystem, addr 0x224cbb4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isFallbackSystem, addr 0x316d06c, size 0x8, virtual true, abstract: false, final true
   inline bool get_isFallbackSystem();
 
-  /// @brief Method get_selectableByUser, addr 0x224cbac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectableByUser, addr 0x316d064, size 0x8, virtual true, abstract: false, final true
   inline bool get_selectableByUser();
 
-  /// @brief Method get_selectionSortOrder, addr 0x224cbbc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionSortOrder, addr 0x316d074, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_selectionSortOrder();
 
-  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x224cbc4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportedOptionalAvatarDataTypes, addr 0x316d07c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* get_supportedOptionalAvatarDataTypes();
 
-  /// @brief Method get_typeIdentifier, addr 0x224cba0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeIdentifier, addr 0x316d058, size 0xc, virtual true, abstract: false, final true
   inline ::BeatSaber::AvatarCore::AvatarSystemIdentifier get_typeIdentifier();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarSystem"
@@ -187,7 +191,7 @@ public:
   AvatarSystem(AvatarSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17571 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21390 };
 
   /// @brief Field _typeIdentifier, offset: 0x10, size: 0x10, def value: None
   ::BeatSaber::AvatarCore::AvatarSystemIdentifier ____typeIdentifier;

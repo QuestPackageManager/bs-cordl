@@ -13,9 +13,6 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
 class Type;
 }
 namespace Unity::Properties::Internal {
@@ -62,7 +59,7 @@ public:
   constexpr PropertyBagStore_TypedStore_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19451 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -81,9 +78,6 @@ public:
   // Declarations
   template <typename TContainer> using TypedStore_1 = ::Unity::Properties::Internal::PropertyBagStore_TypedStore_1<TContainer>;
 
-  /// @brief Field NewTypeRegistered, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_NewTypeRegistered, put = setStaticF_NewTypeRegistered)) ::System::Action_2<::System::Type*, ::Unity::Properties::IPropertyBag*>* NewTypeRegistered;
-
   /// @brief Field s_PropertyBagProvider, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_PropertyBagProvider, put = setStaticF_s_PropertyBagProvider)) ::Unity::Properties::Internal::ReflectedPropertyBagProvider* s_PropertyBagProvider;
 
@@ -97,13 +91,17 @@ public:
   /// @brief Method AddPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> static inline void AddPropertyBag(::Unity::Properties::IPropertyBag_1<TContainer>* propertyBag);
 
-  /// @brief Method GetPropertyBag, addr 0x4914a34, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method CreatePropertyBagProvider, addr 0x697ddb8, size 0x84, virtual false, abstract: false, final false
+  static inline void CreatePropertyBagProvider();
+
+  /// @brief Method GetPropertyBag, addr 0x696daa4, size 0x1f8, virtual false, abstract: false, final false
   static inline ::Unity::Properties::IPropertyBag* GetPropertyBag(::System::Type* type);
 
   /// @brief Method GetPropertyBag, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TContainer> static inline ::Unity::Properties::IPropertyBag_1<TContainer>* GetPropertyBag();
 
-  static inline ::System::Action_2<::System::Type*, ::Unity::Properties::IPropertyBag*>* getStaticF_NewTypeRegistered();
+  /// @brief Method TryGetPropertyBagForValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TValue> static inline bool TryGetPropertyBagForValue(::ByRef<TValue> value, ::ByRef<::Unity::Properties::IPropertyBag*> propertyBag);
 
   static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider* getStaticF_s_PropertyBagProvider();
 
@@ -111,7 +109,8 @@ public:
 
   static inline ::System::Collections::Generic::List_1<::System::Type*>* getStaticF_s_RegisteredTypes();
 
-  static inline void setStaticF_NewTypeRegistered(::System::Action_2<::System::Type*, ::Unity::Properties::IPropertyBag*>* value);
+  /// @brief Method get_ReflectedPropertyBagProvider, addr 0x69805f8, size 0xa8, virtual false, abstract: false, final false
+  static inline ::Unity::Properties::Internal::ReflectedPropertyBagProvider* get_ReflectedPropertyBagProvider();
 
   static inline void setStaticF_s_PropertyBagProvider(::Unity::Properties::Internal::ReflectedPropertyBagProvider* value);
 
@@ -134,7 +133,7 @@ public:
   PropertyBagStore(PropertyBagStore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19452 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

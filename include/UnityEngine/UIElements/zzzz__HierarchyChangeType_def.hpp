@@ -23,9 +23,11 @@ public:
 
   /// @brief Nested struct __HierarchyChangeType_Unwrapped
   enum struct __HierarchyChangeType_Unwrapped : int32_t {
-    __E_Add = static_cast<int32_t>(0x0),
-    __E_Remove = static_cast<int32_t>(0x1),
-    __E_Move = static_cast<int32_t>(0x2),
+    __E_AddedToParent = static_cast<int32_t>(0x0),
+    __E_RemovedFromParent = static_cast<int32_t>(0x1),
+    __E_ChildrenReordered = static_cast<int32_t>(0x2),
+    __E_AttachedToPanel = static_cast<int32_t>(0x3),
+    __E_DetachedFromPanel = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -45,17 +47,23 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HierarchyChangeType(int32_t value__) noexcept;
 
-  /// @brief Field Add value: I32(0)
-  static ::UnityEngine::UIElements::HierarchyChangeType const Add;
+  /// @brief Field AddedToParent value: I32(0)
+  static ::UnityEngine::UIElements::HierarchyChangeType const AddedToParent;
 
-  /// @brief Field Move value: I32(2)
-  static ::UnityEngine::UIElements::HierarchyChangeType const Move;
+  /// @brief Field AttachedToPanel value: I32(3)
+  static ::UnityEngine::UIElements::HierarchyChangeType const AttachedToPanel;
 
-  /// @brief Field Remove value: I32(1)
-  static ::UnityEngine::UIElements::HierarchyChangeType const Remove;
+  /// @brief Field ChildrenReordered value: I32(2)
+  static ::UnityEngine::UIElements::HierarchyChangeType const ChildrenReordered;
+
+  /// @brief Field DetachedFromPanel value: I32(4)
+  static ::UnityEngine::UIElements::HierarchyChangeType const DetachedFromPanel;
+
+  /// @brief Field RemovedFromParent value: I32(1)
+  static ::UnityEngine::UIElements::HierarchyChangeType const RemovedFromParent;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5254 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

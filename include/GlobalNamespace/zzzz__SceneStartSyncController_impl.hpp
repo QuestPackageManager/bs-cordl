@@ -2,8 +2,8 @@
 // IWYU pragma private; include "GlobalNamespace/SceneStartSyncController.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SceneStartSyncController_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__PlayersSpecificSettingsAtGameStartModel_def.hpp"
 #include "GlobalNamespace/zzzz__SceneStartHandler_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::add_syncStartDidSuccessEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7266c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab8588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::remove_syncStartDidSuccessEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7271c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab8648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::add_syncStartDidReceiveTooLateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e727cc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab8708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::SceneStartSyncController::remove_syncStartDidReceiveTooLateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e7287c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5ab87c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::SceneStartSyncController::add_syncStartDidFailEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e7292c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5ab8888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::System::Action*)>(
     &::GlobalNamespace::SceneStartSyncController::remove_syncStartDidFailEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e729c8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5ab8934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::Start)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e72a64;
+  constexpr static std::size_t addrs = 0x5ab89e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartSyncController*>::get(), "Start",
@@ -115,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::Update)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e72a7c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ab89f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartSyncController*>::get(), "Update",
@@ -128,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::OnDestroy)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3e72ad4;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x5ab8a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartSyncController*>::get(), "OnDestroy",
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel*)>(
     &::GlobalNamespace::SceneStartSyncController::StartSceneLoadSync)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3e72bcc;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5ab8b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::StringW)>(
     &::GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidFinish)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e72d2c;
+  constexpr static std::size_t addrs = 0x5ab8cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)(::StringW)>(
     &::GlobalNamespace::SceneStartSyncController::HandleSceneSetupDidReceiveTooLate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e72d78;
+  constexpr static std::size_t addrs = 0x5ab8d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,8 +186,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SceneStartSyncController::*)()>(&::GlobalNamespace::SceneStartSyncController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72dc4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ab8d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SceneStartSyncController*>::get(), ".ctor",
@@ -195,15 +195,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::SceneStartSyncController::__cordl_internal_get__multiplayerSessionManager() {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& GlobalNamespace::SceneStartSyncController::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::SceneStartSyncController::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& GlobalNamespace::SceneStartSyncController::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr void GlobalNamespace::SceneStartSyncController::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::SceneStartSyncController::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

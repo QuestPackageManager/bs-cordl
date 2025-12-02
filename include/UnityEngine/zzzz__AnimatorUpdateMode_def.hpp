@@ -24,7 +24,7 @@ public:
   /// @brief Nested struct __AnimatorUpdateMode_Unwrapped
   enum struct __AnimatorUpdateMode_Unwrapped : int32_t {
     __E_Normal = static_cast<int32_t>(0x0),
-    __E_AnimatePhysics = static_cast<int32_t>(0x1),
+    __E_Fixed = static_cast<int32_t>(0x1),
     __E_UnscaledTime = static_cast<int32_t>(0x2),
   };
 
@@ -45,8 +45,8 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr AnimatorUpdateMode(int32_t value__) noexcept;
 
-  /// @brief Field AnimatePhysics value: I32(1)
-  static ::UnityEngine::AnimatorUpdateMode const AnimatePhysics;
+  /// @brief Field Fixed value: I32(1)
+  static ::UnityEngine::AnimatorUpdateMode const Fixed;
 
   /// @brief Field Normal value: I32(0)
   static ::UnityEngine::AnimatorUpdateMode const Normal;
@@ -55,7 +55,7 @@ public:
   static ::UnityEngine::AnimatorUpdateMode const UnscaledTime;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19964 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

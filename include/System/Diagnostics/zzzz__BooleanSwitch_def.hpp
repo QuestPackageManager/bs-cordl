@@ -21,7 +21,10 @@ public:
   // Declarations
   static inline ::System::Diagnostics::BooleanSwitch* New_ctor(::StringW displayName, ::StringW description);
 
-  /// @brief Method .ctor, addr 0x442ad84, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnValueChanged, addr 0x617986c, size 0x68, virtual true, abstract: false, final false
+  inline void OnValueChanged();
+
+  /// @brief Method .ctor, addr 0x6179798, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName, ::StringW description);
 
 protected:
@@ -39,12 +42,12 @@ public:
   BooleanSwitch(BooleanSwitch const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11099 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::System::Diagnostics::BooleanSwitch, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Diagnostics::BooleanSwitch, 0x48>, "Size mismatch!");
 
 } // namespace System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::BooleanSwitch);

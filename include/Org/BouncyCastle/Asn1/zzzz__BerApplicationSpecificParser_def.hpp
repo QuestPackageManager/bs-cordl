@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1ApplicationSpecificParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerApplicationSpecificParser)
@@ -15,6 +13,9 @@ namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
 }
 namespace Org::BouncyCastle::Asn1 {
+class IAsn1ApplicationSpecificParser;
+}
+namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
 }
 // Forward declare root types
@@ -23,7 +24,7 @@ class BerApplicationSpecificParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerApplicationSpecificParser);
-// Dependencies Org.BouncyCastle.Asn1.IAsn1ApplicationSpecificParser, Org.BouncyCastle.Asn1.IAsn1Convertible, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.BerApplicationSpecificParser
@@ -44,10 +45,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::BerApplicationSpecificParser* New_ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ReadObject, addr 0x2632ec4, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method ReadObject, addr 0x3562d08, size 0x1c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* ReadObject();
 
-  /// @brief Method ToAsn1Object, addr 0x262d888, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x355d890, size 0x7c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1StreamParser* const& __cordl_internal_get_parser() const;
@@ -62,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_tag(int32_t value);
 
-  /// @brief Method .ctor, addr 0x262d858, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355d884, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t tag, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser"

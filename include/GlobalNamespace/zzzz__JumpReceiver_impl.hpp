@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/JumpReceiver.hpp"
-#include "UnityEngine/Playables/zzzz__INotificationReceiver_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpReceiver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpReceiver.get_jumpToDestinationValid
@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::JumpReceiver::*)()>(&::GlobalNamespace::JumpReceiver::get_jumpToDestinationValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4c38;
+  constexpr static std::size_t addrs = 0x563f9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(),
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpReceiver::*)(bool)>(&::GlobalNamespace::JumpReceiver::set_jumpToDestinationValid)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39c4c40;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563f9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpReceiver::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*, ::System::Object*)>(&::GlobalNamespace::JumpReceiver::OnNotify)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x39c4c4c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x563f9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpReceiver::*)()>(&::GlobalNamespace::JumpReceiver::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4d8c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563fb2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpReceiver*>::get(), ".ctor",

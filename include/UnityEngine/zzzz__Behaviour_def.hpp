@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Component_def.hpp"
 CORDL_MODULE_EXPORT(Behaviour)
+namespace System {
+struct IntPtr;
+}
 // Forward declare root types
 namespace UnityEngine {
 class Behaviour;
@@ -24,17 +27,26 @@ public:
 
   static inline ::UnityEngine::Behaviour* New_ctor();
 
-  /// @brief Method .ctor, addr 0x48a8d70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a91c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_enabled, addr 0x48a8cb4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled, addr 0x68a8f78, size 0x80, virtual false, abstract: false, final false
   inline bool get_enabled();
 
-  /// @brief Method get_isActiveAndEnabled, addr 0x48a8d34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enabled_Injected, addr 0x68a8ff8, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_enabled_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_isActiveAndEnabled, addr 0x68a9108, size 0x80, virtual false, abstract: false, final false
   inline bool get_isActiveAndEnabled();
 
-  /// @brief Method set_enabled, addr 0x48a8cf0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_isActiveAndEnabled_Injected, addr 0x68a9188, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_isActiveAndEnabled_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method set_enabled, addr 0x68a9034, size 0x90, virtual false, abstract: false, final false
   inline void set_enabled(bool value);
+
+  /// @brief Method set_enabled_Injected, addr 0x68a90c4, size 0x44, virtual false, abstract: false, final false
+  static inline void set_enabled_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
   // Ctor Parameters []
@@ -51,7 +63,7 @@ public:
   Behaviour(Behaviour const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10303 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

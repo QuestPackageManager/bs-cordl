@@ -3,15 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__PaddedHeadAndTail_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -23,16 +15,34 @@ namespace System::Collections::Concurrent {
 template <typename T> class ConcurrentQueue_1__Enumerate_d__28;
 }
 namespace System::Collections::Concurrent {
+template <typename T> class IProducerConsumerCollection_1;
+}
+namespace System::Collections::Concurrent {
 template <typename T> struct Segment_ConcurrentQueue_1_Slot;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -72,7 +82,7 @@ public:
   constexpr Segment_ConcurrentQueue_1_Slot(T Item, int32_t SequenceNumber) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -133,6 +143,9 @@ public:
 
   /// @brief Method TryEnqueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryEnqueue(T item);
+
+  /// @brief Method TryPeek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryPeek(::ByRef<T> result, bool resultUsed);
 
   constexpr bool const& __cordl_internal_get__frozenForEnqueues() const;
 
@@ -197,7 +210,7 @@ public:
   ConcurrentQueue_1_Segment(ConcurrentQueue_1_Segment const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3810 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3735 };
 
   /// @brief Field _slots, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Concurrent::Segment_ConcurrentQueue_1_Slot<T>, ::Array<::System::Collections::Concurrent::Segment_ConcurrentQueue_1_Slot<T>>*> ____slots;
@@ -221,7 +234,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -386,7 +399,7 @@ public:
   ConcurrentQueue_1__Enumerate_d__28(ConcurrentQueue_1__Enumerate_d__28 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3811 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3736 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -425,8 +438,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Concurrent
-// Dependencies System.Collections.Concurrent.IProducerConsumerCollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>,
-// System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Concurrent {
 // cpp template
 template <typename T>
@@ -440,6 +452,8 @@ public:
   using _Enumerate_d__28 = ::System::Collections::Concurrent::ConcurrentQueue_1__Enumerate_d__28<T>;
 
   __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_IsEmpty)) bool IsEmpty;
 
   __declspec(property(get = System_Collections_ICollection_get_IsSynchronized)) bool System_Collections_ICollection_IsSynchronized;
 
@@ -528,6 +542,9 @@ public:
   /// @brief Method TryDequeueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool TryDequeueSlow(::ByRef<T> item);
 
+  /// @brief Method TryPeek, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool TryPeek(::ByRef<T> result, bool resultUsed);
+
   constexpr ::System::Object* const& __cordl_internal_get__crossSegmentLock() const;
 
   constexpr ::System::Object*& __cordl_internal_get__crossSegmentLock();
@@ -551,6 +568,9 @@ public:
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
+
+  /// @brief Method get_IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_IsEmpty();
 
   /// @brief Convert to "::System::Collections::Concurrent::IProducerConsumerCollection_1<T>"
   constexpr ::System::Collections::Concurrent::IProducerConsumerCollection_1<T>* i___System__Collections__Concurrent__IProducerConsumerCollection_1_T_() noexcept;
@@ -582,7 +602,7 @@ public:
   ConcurrentQueue_1(ConcurrentQueue_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3737 };
 
   /// @brief Field _crossSegmentLock, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ____crossSegmentLock;

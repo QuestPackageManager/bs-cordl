@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(
     ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x25e8f04;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x3518b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromCertificate)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x25e8fbc;
+  constexpr static std::size_t size = 0x404;
+  constexpr static std::size_t addrs = 0x3518bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Sequence* (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::FromKey)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x25e9390;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x3518ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(
     ::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25e9524;
+  constexpr static std::size_t addrs = 0x3519198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::X509::Extension::AuthorityKeyIdentifierStructure::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25e9548;
+  constexpr static std::size_t addrs = 0x35191bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

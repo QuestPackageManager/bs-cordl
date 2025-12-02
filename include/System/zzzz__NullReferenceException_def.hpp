@@ -31,13 +31,13 @@ public:
 
   static inline ::System::NullReferenceException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3dee070, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a34a7c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dee0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a34b00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dee0cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a34adc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   NullReferenceException(NullReferenceException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2446 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

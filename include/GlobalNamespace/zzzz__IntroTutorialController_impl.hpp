@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IntroTutorialController.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__IntroTutorialController_def.hpp"
@@ -11,8 +8,10 @@
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__IntroTutorialController_def.hpp"
 #include "GlobalNamespace/zzzz__IntroTutorialRing_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__CanvasGroup_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -22,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::*)(int32_t)>(
     &::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bf0828;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57e394c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::*)()>(
     &::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf08b4;
+  constexpr static std::size_t addrs = 0x57e39c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::*)()>(
     &::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::MoveNext)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3bf08b8;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x57e39c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::*)()>(
     &::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf09ec;
+  constexpr static std::size_t addrs = 0x57e3b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::*)()>(
     &::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bf09f4;
+  constexpr static std::size_t addrs = 0x57e3b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::*)()>(
     &::GlobalNamespace::IntroTutorialController__ShowFinishAnimationCoroutine_d__22::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf0a2c;
+  constexpr static std::size_t addrs = 0x57e3b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,8 +225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)(::System::Action*)>(
     &::GlobalNamespace::IntroTutorialController::add_introTutorialDidFinishEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf01bc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e3274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)(::System::Action*)>(
     &::GlobalNamespace::IntroTutorialController::remove_introTutorialDidFinishEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf0258;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e3320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,8 +254,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(&::GlobalNamespace::IntroTutorialController::Start)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3bf02f4;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x57e33cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "Start",
@@ -269,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(&::GlobalNamespace::IntroTutorialController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bf0488;
+  constexpr static std::size_t addrs = 0x57e3568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "OnDestroy",
@@ -281,8 +280,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(&::GlobalNamespace::IntroTutorialController::Update)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3bf0634;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x57e3750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "Update",
@@ -294,8 +293,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(&::GlobalNamespace::IntroTutorialController::CleanUp)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3bf048c;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x57e356c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), "CleanUp",
@@ -309,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(
     &::GlobalNamespace::IntroTutorialController::HandleGameDidPause)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3bf0720;
+  constexpr static std::size_t addrs = 0x57e3850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
@@ -323,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(
     &::GlobalNamespace::IntroTutorialController::HandleGameDidResume)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bf0790;
+  constexpr static std::size_t addrs = 0x57e38c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
@@ -336,8 +335,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(
     &::GlobalNamespace::IntroTutorialController::ShowFinishAnimation)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bf06a4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x57e37d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
@@ -350,8 +349,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::IntroTutorialController::*)()>(
     &::GlobalNamespace::IntroTutorialController::ShowFinishAnimationCoroutine)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3bf07c8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x57e38f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(),
@@ -364,8 +363,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)(float_t)>(
     &::GlobalNamespace::IntroTutorialController::SetFinishAnimationParams)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3bf0850;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x57e3954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,8 +377,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntroTutorialController::*)()>(&::GlobalNamespace::IntroTutorialController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf08ac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e39c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IntroTutorialController*>::get(), ".ctor",

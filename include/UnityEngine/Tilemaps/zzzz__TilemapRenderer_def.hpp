@@ -5,9 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 CORDL_MODULE_EXPORT(TilemapRenderer)
-namespace UnityEngine::U2D {
-class SpriteAtlas;
-}
 // Forward declare root types
 namespace UnityEngine::Tilemaps {
 class TilemapRenderer;
@@ -21,15 +18,6 @@ namespace UnityEngine::Tilemaps {
 class CORDL_TYPE TilemapRenderer : public ::UnityEngine::Renderer {
 public:
   // Declarations
-  /// @brief Method OnSpriteAtlasRegistered, addr 0x4956f50, size 0x44, virtual false, abstract: false, final false
-  inline void OnSpriteAtlasRegistered(::UnityEngine::U2D::SpriteAtlas* atlas);
-
-  /// @brief Method RegisterSpriteAtlasRegistered, addr 0x4956e50, size 0x80, virtual false, abstract: false, final false
-  inline void RegisterSpriteAtlasRegistered();
-
-  /// @brief Method UnregisterSpriteAtlasRegistered, addr 0x4956ed0, size 0x80, virtual false, abstract: false, final false
-  inline void UnregisterSpriteAtlasRegistered();
-
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -45,7 +33,7 @@ public:
   TilemapRenderer(TilemapRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23027 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

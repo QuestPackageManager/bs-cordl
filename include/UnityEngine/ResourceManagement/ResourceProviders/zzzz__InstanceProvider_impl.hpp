@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceProviders/InstanceProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstanceProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IInstanceProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__InstantiationParameters_def.hpp"
 #include "UnityEngine/ResourceManagement/zzzz__ResourceManager_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -14,8 +14,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::UnityEngine::GameObject>>,
     ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters)>(&::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::ProvideInstance)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x479e094;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x66ff8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceManager*, ::UnityEngine::GameObject*)>(&::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::ReleaseInstance)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x479e16c;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x66ff9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstanceProvider::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x479e3a8;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x66ffc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

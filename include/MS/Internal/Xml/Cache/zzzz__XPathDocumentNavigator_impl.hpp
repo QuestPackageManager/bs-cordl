@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "MS/Internal/Xml/Cache/XPathDocumentNavigator.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_impl.hpp"
-#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathDocumentNavigator_def.hpp"
 #include "MS/Internal/Xml/Cache/zzzz__XPathNode_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNamespaceScope_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNavigator_def.hpp"
 #include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::MS::Internal::Xml::Cache::XPathDocumentNavigator._ctor
@@ -15,8 +15,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t,
     ::ArrayW<::MS::Internal::Xml::Cache::XPathNode, ::Array<::MS::Internal::Xml::Cache::XPathNode>*>, int32_t)>(&::MS::Internal::Xml::Cache::XPathDocumentNavigator::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x430a168;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x605e020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_Value)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x430a1ec;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x605e09c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNavigator* (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::Clone)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x430a5bc;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x605e46c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNodeType (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_NodeType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x430a630;
+  constexpr static std::size_t addrs = 0x605e4e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_LocalName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430a674;
+  constexpr static std::size_t addrs = 0x605e528;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_NamespaceURI)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430a6cc;
+  constexpr static std::size_t addrs = 0x605e57c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_Prefix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430a724;
+  constexpr static std::size_t addrs = 0x605e5d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_NameTable)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x430a77c;
+  constexpr static std::size_t addrs = 0x605e624;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::MoveToFirstNamespace)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x430a7dc;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x605e680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(::System::Xml::XPath::XPathNamespaceScope)>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::MoveToNextNamespace)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x430aa98;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x605e94c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::MoveToParent)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x430abd0;
+  constexpr static std::size_t addrs = 0x605ea88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)(::System::Xml::XPath::XPathNavigator*)>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::IsSamePosition)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430ac50;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x605eb10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_UnderlyingObject)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x430acf4;
+  constexpr static std::size_t addrs = 0x605ebbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::HasLineInfo)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x430ad04;
+  constexpr static std::size_t addrs = 0x605ebcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -240,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_LineNumber)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x430ad48;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x605ec10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -254,8 +254,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::get_LinePosition)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x430adf4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x605ecc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::MS::Internal::Xml::Cache::XPathDocumentNavigator::*)()>(
     &::MS::Internal::Xml::Cache::XPathDocumentNavigator::GetPositionHashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x430aee8;
+  constexpr static std::size_t addrs = 0x605edbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::MS::Internal::Xml::Cache::XPathDocumentNavigator*>::get(),

@@ -3,13 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ChainElementCollection)
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -35,7 +39,7 @@ class X509ChainElementCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509ChainElementCollection);
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: System.Security.Cryptography.X509Certificates.X509ChainElementCollection
@@ -59,24 +63,24 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Add, addr 0x443eed0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x618eb34, size 0x90, virtual false, abstract: false, final false
   inline void Add(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Clear, addr 0x443ef50, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x618ebc4, size 0x20, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x443ef74, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x618ebe4, size 0xf8, virtual false, abstract: false, final false
   inline bool Contains(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method GetEnumerator, addr 0x443ed64, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x618e9c0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementEnumerator* GetEnumerator();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x443ed40, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x618e9a0, size 0x20, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x443ee74, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x618ead4, size 0x60, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__list() const;
@@ -85,19 +89,19 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x443ebd8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618e840, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x443ec3c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x618e89c, size 0x20, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x443ec60, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x618e8bc, size 0x20, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_Item, addr 0x443ec84, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x618e8dc, size 0xa4, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElement* get_Item(int32_t index);
 
-  /// @brief Method get_SyncRoot, addr 0x443ed1c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x618e980, size 0x20, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -121,7 +125,7 @@ public:
   X509ChainElementCollection(X509ChainElementCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11173 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____list;

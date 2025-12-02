@@ -79,21 +79,21 @@ public:
 
   __declspec(property(get = get_zeroOffset, put = set_zeroOffset)) float_t zeroOffset;
 
-  /// @brief Method Awake, addr 0x3bf8920, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x57ec334, size 0x98, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::VisualMetronome* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3bf8a00, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x57ec414, size 0x48, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3bf89b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x57ec3cc, size 0x48, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x3bf8b94, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method SetMovingTickerNormalizedPosition, addr 0x57ec5bc, size 0xa8, virtual false, abstract: false, final false
   inline void SetMovingTickerNormalizedPosition(float_t t);
 
-  /// @brief Method Update, addr 0x3bf8a48, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x57ec45c, size 0x160, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get__audioSource() const;
@@ -192,13 +192,13 @@ public:
 
   constexpr void __cordl_internal_set__zeroOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3bf8c38, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ec664, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_zeroOffset, addr 0x3bf8918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_zeroOffset, addr 0x57ec32c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_zeroOffset();
 
-  /// @brief Method set_zeroOffset, addr 0x3bf8908, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_zeroOffset, addr 0x57ec31c, size 0x10, virtual false, abstract: false, final false
   inline void set_zeroOffset(float_t value);
 
 protected:
@@ -216,7 +216,7 @@ public:
   VisualMetronome(VisualMetronome const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6317 };
 
   /// @brief Field _audioSource, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::AudioSource> ____audioSource;

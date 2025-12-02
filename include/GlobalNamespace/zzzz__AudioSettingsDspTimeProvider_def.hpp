@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IDspTimeProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioSettingsDspTimeProvider)
+namespace GlobalNamespace {
+class IDspTimeProvider;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class AudioSettingsDspTimeProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AudioSettingsDspTimeProvider);
-// Dependencies IDspTimeProvider, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AudioSettingsDspTimeProvider
@@ -27,10 +29,10 @@ public:
 
   static inline ::GlobalNamespace::AudioSettingsDspTimeProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ad1a34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56abce4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dspTime, addr 0x3ad1a2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_dspTime, addr 0x56abcbc, size 0x28, virtual true, abstract: false, final true
   inline double_t get_dspTime();
 
   /// @brief Convert to "::GlobalNamespace::IDspTimeProvider"
@@ -51,7 +53,7 @@ public:
   AudioSettingsDspTimeProvider(AudioSettingsDspTimeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4012 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5572 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

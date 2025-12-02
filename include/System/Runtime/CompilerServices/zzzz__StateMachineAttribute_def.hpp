@@ -34,10 +34,10 @@ public:
 
   constexpr void __cordl_internal_set__StateMachineType_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3d17e30, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5958fb0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* stateMachineType);
 
-  /// @brief Method get_StateMachineType, addr 0x3d18c5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StateMachineType, addr 0x5959ee8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_StateMachineType();
 
 protected:
@@ -55,7 +55,7 @@ public:
   StateMachineAttribute(StateMachineAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3399 };
 
   /// @brief Field <StateMachineType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____StateMachineType_k__BackingField;

@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*)>(&::Zenject::BindingUtil::AssertIsValidPrefab)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b134f8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6c28740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*)>(&::Zenject::BindingUtil::AssertIsValidGameObject)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b16d70;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6c2bc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertIsNotComponent)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b16dcc;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2bcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::Zenject::BindingUtil::AssertIsNotComponent)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4b17088;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6c2bf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertDerivesFromUnityObject)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b17168;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2c058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::Zenject::BindingUtil::AssertDerivesFromUnityObject)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4b17424;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6c2c2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertTypesAreNotComponents)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b174b8;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2c38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,8 +114,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::Zenject::BindingUtil::AssertIsValidResourcePath)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4b13ac0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6c28cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +129,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b17774;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2c620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::Zenject::BindingUtil::AssertIsInterfaceOrScriptableObject)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4b17a30;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6c2c8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertIsInterfaceOrComponent)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b17b34;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2c9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,8 +172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::Zenject::BindingUtil::AssertIsInterfaceOrComponent)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4b17df0;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6c2cc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertIsComponent)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b17ef4;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2cd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,8 +201,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::Zenject::BindingUtil::AssertIsComponent)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4b181b0;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6c2cfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -216,8 +216,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertTypesAreNotAbstract)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b1828c;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2d0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,8 +231,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertIsNotAbstract)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x4b185cc;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6c2d3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,8 +245,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::Zenject::BindingUtil::AssertIsNotAbstract)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4b18548;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6c2d340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,8 +259,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Type*)>(&::Zenject::BindingUtil::AssertIsDerivedFromType)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4b18888;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x6c2d670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertConcreteTypeListIsNotEmpty)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4b189cc;
+  constexpr static std::size_t addrs = 0x6c2d7d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,8 +291,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::System::Type*>*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*, ::Zenject::InvalidBindResponses)>(
         &::Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4b18a44;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6c2d850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -308,8 +308,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Collections::Generic::IEnumerable_1<::System::Type*>*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(&::Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x4b18ae8;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x6c2d900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,8 +324,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertIsDerivedFromTypes)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x4b18db8;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x6c2dba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -340,8 +340,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Collections::Generic::IEnumerable_1<::System::Type*>*)>(
     &::Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual)> {
-  constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x4b1908c;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x6c2de54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -355,8 +355,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Type*)>(&::Zenject::BindingUtil::AssertInstanceDerivesFromOrEqual)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4b19374;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6c2e11c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::BindingUtil*>::get(),
@@ -370,8 +370,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::IProvider* (*)(::Zenject::IProvider*)>(&::Zenject::BindingUtil::CreateCachedProvider)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4b1944c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6c2e208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

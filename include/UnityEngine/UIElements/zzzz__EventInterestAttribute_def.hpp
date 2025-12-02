@@ -10,6 +10,9 @@ namespace System {
 class Type;
 }
 namespace UnityEngine::UIElements {
+struct EventInterestOptionsInternal;
+}
+namespace UnityEngine::UIElements {
 struct EventInterestOptions;
 }
 // Forward declare root types
@@ -35,6 +38,8 @@ public:
 
   static inline ::UnityEngine::UIElements::EventInterestAttribute* New_ctor(::UnityEngine::UIElements::EventInterestOptions interests);
 
+  static inline ::UnityEngine::UIElements::EventInterestAttribute* New_ctor(::UnityEngine::UIElements::EventInterestOptionsInternal interests);
+
   constexpr ::UnityEngine::UIElements::EventCategoryFlags const& __cordl_internal_get_categoryFlags() const;
 
   constexpr ::UnityEngine::UIElements::EventCategoryFlags& __cordl_internal_get_categoryFlags();
@@ -47,11 +52,14 @@ public:
 
   constexpr void __cordl_internal_set_eventTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
 
-  /// @brief Method .ctor, addr 0x499e8b0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a967d8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> eventTypes);
 
-  /// @brief Method .ctor, addr 0x499e8dc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a967e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventInterestOptions interests);
+
+  /// @brief Method .ctor, addr 0x6a967ec, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::UnityEngine::UIElements::EventInterestOptionsInternal interests);
 
 protected:
   // Ctor Parameters []
@@ -68,7 +76,7 @@ public:
   EventInterestAttribute(EventInterestAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5237 };
 
   /// @brief Field eventTypes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___eventTypes;

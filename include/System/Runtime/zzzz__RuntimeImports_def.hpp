@@ -22,17 +22,17 @@ namespace System::Runtime {
 class CORDL_TYPE RuntimeImports : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Memmove, addr 0x3cc6c0c, size 0x4, virtual false, abstract: false, final false
-  static inline void Memmove(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len);
+  /// @brief Method Memmove, addr 0x590a38c, size 0x8, virtual false, abstract: false, final false
+  static inline void Memmove(uint8_t* dest, uint8_t* src, uint32_t len);
 
-  /// @brief Method Memmove_wbarrier, addr 0x3cc6c10, size 0x4, virtual false, abstract: false, final false
-  static inline void Memmove_wbarrier(::cordl_internals::Ptr<uint8_t> dest, ::cordl_internals::Ptr<uint8_t> src, uint32_t len, ::System::IntPtr type_handle);
+  /// @brief Method Memmove_wbarrier, addr 0x590a394, size 0x4, virtual false, abstract: false, final false
+  static inline void Memmove_wbarrier(uint8_t* dest, uint8_t* src, uint32_t len, ::System::IntPtr type_handle);
 
-  /// @brief Method RhZeroMemory, addr 0x3cc6c04, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method RhZeroMemory, addr 0x590a374, size 0xc, virtual false, abstract: false, final false
   static inline void RhZeroMemory(::ByRef<uint8_t> b, uint64_t byteLength);
 
-  /// @brief Method ZeroMemory, addr 0x3cc6c08, size 0x4, virtual false, abstract: false, final false
-  static inline void ZeroMemory(::cordl_internals::Ptr<void> p, uint32_t byteLength);
+  /// @brief Method ZeroMemory, addr 0x590a380, size 0xc, virtual false, abstract: false, final false
+  static inline void ZeroMemory(void* p, uint32_t byteLength);
 
 protected:
   // Ctor Parameters []
@@ -49,7 +49,7 @@ public:
   RuntimeImports(RuntimeImports const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3067 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

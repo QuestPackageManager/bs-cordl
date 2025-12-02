@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/IReadOnlyCollection_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 template <typename T> inline int32_t System::Collections::Generic::IReadOnlyCollection_1<T>::get_Count() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

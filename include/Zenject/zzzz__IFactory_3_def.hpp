@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IFactory_def.hpp"
 CORDL_MODULE_EXPORT(IFactory_3)
+namespace Zenject {
+class IFactory;
+}
 // Forward declare root types
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TValue> class IFactory_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::IFactory_3);
-// Dependencies Zenject.IFactory
+// Dependencies
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
@@ -34,7 +36,7 @@ public:
   IFactory_3(IFactory_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14308 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

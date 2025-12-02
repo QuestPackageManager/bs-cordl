@@ -22,10 +22,10 @@ namespace GlobalNamespace {
 class CORDL_TYPE MultiplayerLevelSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field beatmapKey, offset 0x10, size 0x18
+  /// @brief Field beatmapKey, offset 0x10, size 0x20
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field hasSong, offset 0x28, size 0x1
+  /// @brief Field hasSong, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_hasSong, put = __cordl_internal_set_hasSong)) bool hasSong;
 
   static inline ::GlobalNamespace::MultiplayerLevelSceneSetupData* New_ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
@@ -42,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_hasSong(bool value);
 
-  /// @brief Method .ctor, addr 0x3b3b148, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571e8d4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, bool hasSong);
 
 protected:
@@ -60,12 +60,12 @@ public:
   MultiplayerLevelSceneSetupData(MultiplayerLevelSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6820 };
 
-  /// @brief Field beatmapKey, offset: 0x10, size: 0x18, def value: None
+  /// @brief Field beatmapKey, offset: 0x10, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field hasSong, offset: 0x28, size: 0x1, def value: None
+  /// @brief Field hasSong, offset: 0x30, size: 0x1, def value: None
   bool ___hasSong;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -73,9 +73,9 @@ public:
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::MultiplayerLevelSceneSetupData, ___beatmapKey) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MultiplayerLevelSceneSetupData, ___hasSong) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MultiplayerLevelSceneSetupData, ___hasSong) == 0x30, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelSceneSetupData, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelSceneSetupData, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerLevelSceneSetupData);

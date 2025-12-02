@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SongStartSyncController)
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 class PlayersSpecificSettingsAtGameStartModel;
@@ -44,7 +44,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field _sessionGameId, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__sessionGameId, put = __cordl_internal_set__sessionGameId)) ::StringW _sessionGameId;
@@ -74,33 +74,33 @@ public:
   /// @brief Field syncStartSuccessEvent, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_syncStartSuccessEvent, put = __cordl_internal_set_syncStartSuccessEvent)) ::System::Action_1<int64_t>* syncStartSuccessEvent;
 
-  /// @brief Method HandleSetSongStartSyncTime, addr 0x3e73578, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandleSetSongStartSyncTime, addr 0x5ab961c, size 0x2c, virtual false, abstract: false, final false
   inline void HandleSetSongStartSyncTime(int64_t songStartSyncTime);
 
   static inline ::GlobalNamespace::SongStartSyncController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x3e733ec, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x5ab943c, size 0x3c, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x3e73378, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5ab93a4, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3e7336c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5ab9398, size 0xc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartSong, addr 0x3e73430, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method StartSong, addr 0x5ab9478, size 0x1a4, virtual false, abstract: false, final false
   inline void StartSong(::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* playersSpecificSettingsAtGameStartModel, ::StringW sessionGameId);
 
-  /// @brief Method Update, addr 0x3e7338c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ab93b8, size 0x84, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IGameplayRpcManager* const& __cordl_internal_get__gameplayRpcManager() const;
 
   constexpr ::GlobalNamespace::IGameplayRpcManager*& __cordl_internal_get__gameplayRpcManager();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::StringW const& __cordl_internal_get__sessionGameId() const;
 
@@ -136,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set__gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__sessionGameId(::StringW value);
 
@@ -154,31 +154,31 @@ public:
 
   constexpr void __cordl_internal_set_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x3e735a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab9648, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_syncResumeEvent, addr 0x3e7320c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncResumeEvent, addr 0x5ab9218, size 0xc0, virtual false, abstract: false, final false
   inline void add_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method add_syncStartFailedEvent, addr 0x3e72f74, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartFailedEvent, addr 0x5ab8f40, size 0xac, virtual false, abstract: false, final false
   inline void add_syncStartFailedEvent(::System::Action* value);
 
-  /// @brief Method add_syncStartSuccessEvent, addr 0x3e730ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_syncStartSuccessEvent, addr 0x5ab9098, size 0xc0, virtual false, abstract: false, final false
   inline void add_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method get_isSongStarted, addr 0x3e72f50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isSongStarted, addr 0x5ab8f20, size 0x8, virtual false, abstract: false, final false
   inline bool get_isSongStarted();
 
-  /// @brief Method get_songStartSyncTime, addr 0x3e72f58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_songStartSyncTime, addr 0x5ab8f28, size 0x18, virtual false, abstract: false, final false
   inline int64_t get_songStartSyncTime();
 
-  /// @brief Method remove_syncResumeEvent, addr 0x3e732bc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncResumeEvent, addr 0x5ab92d8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_syncResumeEvent(::System::Action_1<int64_t>* value);
 
-  /// @brief Method remove_syncStartFailedEvent, addr 0x3e73010, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartFailedEvent, addr 0x5ab8fec, size 0xac, virtual false, abstract: false, final false
   inline void remove_syncStartFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_syncStartSuccessEvent, addr 0x3e7315c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_syncStartSuccessEvent, addr 0x5ab9158, size 0xc0, virtual false, abstract: false, final false
   inline void remove_syncStartSuccessEvent(::System::Action_1<int64_t>* value);
 
 protected:
@@ -196,13 +196,13 @@ public:
   SongStartSyncController(SongStartSyncController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17380 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21246 };
 
   /// @brief Field kAudioLoadTimeout offset 0xffffffff size 0x4
   static constexpr float_t kAudioLoadTimeout{ static_cast<float_t>(15.0f) };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _gameplayRpcManager, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ____gameplayRpcManager;

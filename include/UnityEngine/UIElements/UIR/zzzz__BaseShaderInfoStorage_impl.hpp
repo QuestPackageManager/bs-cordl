@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/BaseShaderInfoStorage.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__BaseShaderInfoStorage_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(
     &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aed44;
+  constexpr static std::size_t addrs = 0x6abc95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)(bool)>(
     &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aed4c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6abc964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(
     &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49aed58;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6abc96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)(bool)>(
     &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49aedc4;
+  constexpr static std::size_t addrs = 0x6abc9dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::*)()>(
     &::UnityEngine::UIElements::UIR::BaseShaderInfoStorage::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aeddc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6abc9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*>::get(),

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ISignatureFactory_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Asn1SignatureFactory)
@@ -12,6 +11,9 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class ISignatureFactory;
 }
 namespace Org::BouncyCastle::Crypto {
 class IStreamCalculator;
@@ -31,7 +33,7 @@ class Asn1SignatureFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory);
-// Dependencies Org.BouncyCastle.Crypto.ISignatureFactory, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.Asn1SignatureFactory
@@ -55,7 +57,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISignatureFactory"
   constexpr operator ::Org::BouncyCastle::Crypto::ISignatureFactory*() noexcept;
 
-  /// @brief Method CreateCalculator, addr 0x23b5b2c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method CreateCalculator, addr 0x32e3e48, size 0xac, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IStreamCalculator* CreateCalculator();
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1SignatureFactory* New_ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
@@ -87,16 +89,16 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x23b59d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e3cec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey);
 
-  /// @brief Method .ctor, addr 0x23b59d8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e3cf4, size 0x14c, virtual false, abstract: false, final false
   inline void _ctor(::StringW algorithm, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* privateKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
-  /// @brief Method get_AlgorithmDetails, addr 0x23b5b24, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AlgorithmDetails, addr 0x32e3e40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AlgorithmDetails();
 
-  /// @brief Method get_SignatureAlgNames, addr 0x23b5c4c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x32e3f60, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISignatureFactory"

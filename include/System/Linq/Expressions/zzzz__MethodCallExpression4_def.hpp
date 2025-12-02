@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Linq/Expressions/zzzz__MethodCallExpression_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MethodCallExpression4)
@@ -12,6 +11,9 @@ template <typename T> class IReadOnlyList_1;
 }
 namespace System::Linq::Expressions {
 class Expression;
+}
+namespace System::Linq::Expressions {
+class IArgumentProvider;
 }
 namespace System::Linq::Expressions {
 class MethodCallExpression;
@@ -28,7 +30,7 @@ class MethodCallExpression4;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::MethodCallExpression4);
-// Dependencies System.Linq.Expressions.IArgumentProvider, System.Linq.Expressions.MethodCallExpression
+// Dependencies System.Linq.Expressions.MethodCallExpression
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: System.Linq.Expressions.MethodCallExpression4
@@ -52,14 +54,14 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method GetArgument, addr 0x40bb330, size 0xd8, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5d6b558, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::MethodCallExpression4* New_ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0,
                                                                              ::System::Linq::Expressions::Expression* arg1, ::System::Linq::Expressions::Expression* arg2,
                                                                              ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method Rewrite, addr 0x40bb410, size 0x270, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5d6b648, size 0x27c, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::MethodCallExpression* Rewrite(::System::Linq::Expressions::Expression* instance,
                                                                     ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* args);
 
@@ -87,11 +89,11 @@ public:
 
   constexpr void __cordl_internal_set__arg3(::System::Linq::Expressions::Expression* value);
 
-  /// @brief Method .ctor, addr 0x40bb2f4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d6b51c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MethodInfo* method, ::System::Linq::Expressions::Expression* arg0, ::System::Linq::Expressions::Expression* arg1,
                     ::System::Linq::Expressions::Expression* arg2, ::System::Linq::Expressions::Expression* arg3);
 
-  /// @brief Method get_ArgumentCount, addr 0x40bb408, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5d6b640, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -112,7 +114,7 @@ public:
   MethodCallExpression4(MethodCallExpression4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16165 };
 
   /// @brief Field _arg0, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____arg0;

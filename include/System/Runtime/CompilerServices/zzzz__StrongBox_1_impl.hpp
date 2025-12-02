@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/CompilerServices/StrongBox_1.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IStrongBox_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__StrongBox_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__IStrongBox_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> constexpr T& System::Runtime::CompilerServices::StrongBox_1<T>::__cordl_internal_get_Value() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

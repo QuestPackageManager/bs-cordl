@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "System/Version.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__ISpanFormattable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Version_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__ISpanFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 #include "System/zzzz__Span_1_def.hpp"
@@ -16,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Version::*)(int32_t, int32_t, int32_t, int32_t)>(&::System::Version::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e0a6a8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5a50990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Version::*)(int32_t, int32_t, int32_t)>(&::System::Version::_ctor)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3e0a7bc;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5a50a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Version::*)(int32_t, int32_t)>(&::System::Version::_ctor)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3e0a8a8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5a50b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Version::*)(::StringW)>(&::System::Version::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3e0a960;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5a50bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Version::*)()>(&::System::Version::_ctor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e0aa3c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5a50cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), ".ctor",
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Version::*)(::System::Version*)>(&::System::Version::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e0aa60;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5a50cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Version::*)()>(&::System::Version::Clone)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e0aa9c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5a50ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), "Clone",
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)()>(&::System::Version::get_Major)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0aaf4;
+  constexpr static std::size_t addrs = 0x5a50d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), "get_Major",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)()>(&::System::Version::get_Minor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0aafc;
+  constexpr static std::size_t addrs = 0x5a50d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), "get_Minor",
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)()>(&::System::Version::get_Build)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0ab04;
+  constexpr static std::size_t addrs = 0x5a50d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), "get_Build",
@@ -154,7 +154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)()>(&::System::Version::get_Revision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0ab0c;
+  constexpr static std::size_t addrs = 0x5a50d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), "get_Revision",
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)(::System::Object*)>(&::System::Version::CompareTo)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3e0ab14;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5a50d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)(::System::Version*)>(&::System::Version::CompareTo)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e0abe0;
+  constexpr static std::size_t addrs = 0x5a50e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,8 +194,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Version::*)(::System::Object*)>(&::System::Version::Equals)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e0ac48;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5a50eb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Version::*)(::System::Version*)>(&::System::Version::Equals)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e0acac;
+  constexpr static std::size_t addrs = 0x5a50f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,8 +222,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)()>(&::System::Version::GetHashCode)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e0ad0c;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5a50f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,7 +237,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Version::*)()>(&::System::Version::ToString)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e0ad28;
+  constexpr static std::size_t addrs = 0x5a50fc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,8 +250,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Version::*)(int32_t)>(&::System::Version::ToString)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e0ad78;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5a51010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +265,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Version::*)(::System::Span_1<char16_t>, ::ByRef<int32_t>)>(&::System::Version::TryFormat)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e0b04c;
+  constexpr static std::size_t addrs = 0x5a51288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -279,8 +279,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Version::*)(::System::Span_1<char16_t>, int32_t, ::ByRef<int32_t>)>(&::System::Version::TryFormat)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3e0b078;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5a512b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,7 +296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Version::*)(::System::Span_1<char16_t>, ::ByRef<int32_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                                                               ::System::IFormatProvider*)>(&::System::Version::System_ISpanFormattable_TryFormat)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e0b1a0;
+  constexpr static std::size_t addrs = 0x5a513cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,7 +313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Version::*)()>(&::System::Version::get_DefaultFormatFieldCount)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e0ad50;
+  constexpr static std::size_t addrs = 0x5a50fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Version*>::get(), "get_DefaultFormatFieldCount",
@@ -325,8 +325,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (::System::Version::*)(int32_t)>(&::System::Version::ToCachedStringBuilder)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3e0ae04;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x5a51050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -340,7 +340,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)(::StringW)>(&::System::Version::Parse)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3e0a9a4;
+  constexpr static std::size_t addrs = 0x5a50c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -353,8 +353,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Version*>)>(&::System::Version::TryParse)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3e0b618;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5a5187c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -368,8 +368,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (*)(::System::ReadOnlySpan_1<char16_t>, bool)>(&::System::Version::ParseVersion)> {
-  constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x3e0b1cc;
+  constexpr static std::size_t size = 0x484;
+  constexpr static std::size_t addrs = 0x5a513f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -384,8 +384,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::ReadOnlySpan_1<char16_t>, ::StringW, bool, ::ByRef<int32_t>)>(
     &::System::Version::TryParseComponent)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e0b6ac;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x5a51918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Version*, ::System::Version*)>(&::System::Version::op_Equality)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e0abcc;
+  constexpr static std::size_t addrs = 0x5a50e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -416,7 +416,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Version*, ::System::Version*)>(&::System::Version::op_Inequality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e0b684;
+  constexpr static std::size_t addrs = 0x5a518f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -431,7 +431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Version*, ::System::Version*)>(&::System::Version::op_LessThan)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e0b7c0;
+  constexpr static std::size_t addrs = 0x5a51a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -446,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Version*, ::System::Version*)>(&::System::Version::op_LessThanOrEqual)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e0b820;
+  constexpr static std::size_t addrs = 0x5a51ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -461,7 +461,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Version*, ::System::Version*)>(&::System::Version::op_GreaterThan)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e0b884;
+  constexpr static std::size_t addrs = 0x5a51b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Version*, ::System::Version*)>(&::System::Version::op_GreaterThanOrEqual)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e0b894;
+  constexpr static std::size_t addrs = 0x5a51b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

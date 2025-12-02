@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputDeviceCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand.get_payloadSizeInBytes
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_payloadSizeInBytes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4607a48;
+  constexpr static std::size_t addrs = 0x638f6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>::get(),
@@ -22,10 +22,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand.get_payloadPtr
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_payloadPtr)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4607a54;
+  constexpr static std::size_t addrs = 0x638f6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)(
     ::UnityEngine::InputSystem::Utilities::FourCC, int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4607584;
+  constexpr static std::size_t addrs = 0x638f360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(::UnityEngine::InputSystem::Utilities::FourCC, int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::AllocateNative)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4607a5c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x638f700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_typeStatic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4607b0c;
+  constexpr static std::size_t addrs = 0x638f79c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>::get(),
@@ -102,10 +102,10 @@ inline int32_t UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_paylo
                                                                              "get_payloadSizeInBytes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<void> UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_payloadPtr() {
+inline void* UnityEngine::InputSystem::LowLevel::InputDeviceCommand::get_payloadPtr() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>::get(),
                                                                              "get_payloadPtr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method);
 }
 inline void UnityEngine::InputSystem::LowLevel::InputDeviceCommand::_ctor(::UnityEngine::InputSystem::Utilities::FourCC type, int32_t sizeInBytes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

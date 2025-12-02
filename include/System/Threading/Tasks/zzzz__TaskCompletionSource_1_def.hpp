@@ -108,7 +108,7 @@ public:
   TaskCompletionSource_1(TaskCompletionSource_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2771 };
 
   /// @brief Field _task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TResult>* ____task;

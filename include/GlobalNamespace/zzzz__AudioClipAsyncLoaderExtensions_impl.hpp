@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadPreview)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26c4100;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x35f6830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadPreview)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26c41a8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x35f68dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
         &::GlobalNamespace::AudioClipAsyncLoaderExtensions::LoadSong)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x26c4250;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x35f6988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::IBeatmapLevelData*)>(
     &::GlobalNamespace::AudioClipAsyncLoaderExtensions::UnloadSong)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x26c2a10;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x35f5110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

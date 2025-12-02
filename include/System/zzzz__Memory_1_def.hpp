@@ -3,13 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Memory_1)
 namespace System::Buffers {
 struct MemoryHandle;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -26,7 +28,7 @@ template <typename T> struct Memory_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Memory_1);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace System {
 // cpp template
 template <typename T>
@@ -104,11 +106,8 @@ public:
   // name: "_length", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr Memory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept;
 
-  /// @brief Field RemoveFlagsBitMask offset 0xffffffff size 0x4
-  static constexpr int32_t RemoveFlagsBitMask{ static_cast<int32_t>(0x7fffffff) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2441 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

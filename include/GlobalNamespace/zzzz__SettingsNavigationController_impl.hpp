@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(
     ::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>*)>(&::GlobalNamespace::SettingsNavigationController::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afb090;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56ddecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(
     ::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>*)>(&::GlobalNamespace::SettingsNavigationController::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3afb140;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56ddf8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(bool, bool, bool)>(
     &::GlobalNamespace::SettingsNavigationController::DidActivate)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3afb1f0;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x56de04c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)(
     ::GlobalNamespace::SettingsNavigationController_FinishAction)>(&::GlobalNamespace::SettingsNavigationController::HandleFinishButton)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3afb340;
+  constexpr static std::size_t addrs = 0x56de20c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(
     &::GlobalNamespace::SettingsNavigationController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afb35c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x56de228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsNavigationController*>::get(), ".ctor",
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(
     &::GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afb364;
+  constexpr static std::size_t addrs = 0x56de234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsNavigationController*>::get(),
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(
     &::GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_1)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afb384;
+  constexpr static std::size_t addrs = 0x56de254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsNavigationController*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SettingsNavigationController::*)()>(
     &::GlobalNamespace::SettingsNavigationController::_DidActivate_b__7_2)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afb3a4;
+  constexpr static std::size_t addrs = 0x56de274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SettingsNavigationController*>::get(),

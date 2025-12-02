@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Unity/Profiling/ProfilerMarker.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::ProfilerMarker_AutoScope::*)(::System::IntPtr)>(
     &::Unity::Profiling::ProfilerMarker_AutoScope::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48606bc;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6828e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::ProfilerMarker_AutoScope::*)()>(&::Unity::Profiling::ProfilerMarker_AutoScope::Dispose)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4860758;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6828e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerMarker_AutoScope>::get(), "Dispose",
@@ -59,12 +59,25 @@ constexpr ::Unity::Profiling::ProfilerMarker_AutoScope::ProfilerMarker_AutoScope
 }
 // Ctor Parameters []
 constexpr ::Unity::Profiling::ProfilerMarker_AutoScope::ProfilerMarker_AutoScope() {}
+//  Writing Method size for method: ::Unity::Profiling::ProfilerMarker.get_Handle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Unity::Profiling::ProfilerMarker::*)()>(&::Unity::Profiling::ProfilerMarker::get_Handle)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6828c18;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerMarker>::get(), "get_Handle",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Unity::Profiling::ProfilerMarker._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::ProfilerMarker::*)(::StringW)>(&::Unity::Profiling::ProfilerMarker::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4860554;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6828c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::ProfilerMarker::*)(::Unity::Profiling::ProfilerCategory, ::StringW)>(
     &::Unity::Profiling::ProfilerMarker::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4860604;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6828d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker_AutoScope (::Unity::Profiling::ProfilerMarker::*)()>(
     &::Unity::Profiling::ProfilerMarker::Auto)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4860664;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6828dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerMarker>::get(), "Auto",
@@ -103,6 +116,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+inline ::System::IntPtr Unity::Profiling::ProfilerMarker::get_Handle() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerMarker>::get(), "get_Handle",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(this, ___internal_method);
+}
 inline void Unity::Profiling::ProfilerMarker::_ctor(::StringW name) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerMarker>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),

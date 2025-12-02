@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/TempAllocator_1.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempAllocator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TempAllocator_1_def.hpp"
 // Ctor Parameters [CppParam { name: "array", ty: "::Unity::Collections::NativeArray_1<T>", modifiers: "", def_value: Some("{}") }, CppParam { name: "used", ty: "int32_t", modifiers: "", def_value:
@@ -123,6 +123,12 @@ template <typename T> inline void UnityEngine::UIElements::UIR::TempAllocator_1<
 template <typename T> inline ::Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::TempAllocator_1<T>::Alloc(int32_t count) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TempAllocator_1<T>*>::get(), "Alloc",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeSlice_1<T>, false>(this, ___internal_method, count);
+}
+template <typename T> inline ::Unity::Collections::NativeSlice_1<T> UnityEngine::UIElements::UIR::TempAllocator_1<T>::DoAlloc(int32_t count) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TempAllocator_1<T>*>::get(), "DoAlloc",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Collections::NativeSlice_1<T>, false>(this, ___internal_method, count);
 }

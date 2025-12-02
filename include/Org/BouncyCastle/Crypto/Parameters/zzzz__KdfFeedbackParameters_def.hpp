@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KdfFeedbackParameters)
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KdfFeedbackParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters);
-// Dependencies Org.BouncyCastle.Crypto.IDerivationParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.KdfFeedbackParameters
@@ -51,11 +53,11 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method CreateWithCounter, addr 0x23c01a8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method CreateWithCounter, addr 0x32ee318, size 0xe0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                   ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r);
 
-  /// @brief Method CreateWithoutCounter, addr 0x23c027c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateWithoutCounter, addr 0x32ee3f8, size 0x94, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Parameters::KdfFeedbackParameters* CreateWithoutCounter(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv,
                                                                                                      ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData);
 
@@ -92,24 +94,24 @@ public:
 
   constexpr void __cordl_internal_set_useCounter(bool value);
 
-  /// @brief Method .ctor, addr 0x23c003c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ee1ac, size 0x16c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> ki, ::ArrayW<uint8_t, ::Array<uint8_t>*> iv, ::ArrayW<uint8_t, ::Array<uint8_t>*> fixedInputData, int32_t r, bool useCounter);
 
   static inline int32_t getStaticF_UNUSED_R();
 
-  /// @brief Method get_FixedInputData, addr 0x23c03d4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_FixedInputData, addr 0x32ee55c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_FixedInputData();
 
-  /// @brief Method get_Iv, addr 0x23c0368, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Iv, addr 0x32ee4ec, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Iv();
 
-  /// @brief Method get_Ki, addr 0x23c030c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Ki, addr 0x32ee48c, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Ki();
 
-  /// @brief Method get_R, addr 0x23c03cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_R, addr 0x32ee554, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_R();
 
-  /// @brief Method get_UseCounter, addr 0x23c03c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UseCounter, addr 0x32ee54c, size 0x8, virtual false, abstract: false, final false
   inline bool get_UseCounter();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

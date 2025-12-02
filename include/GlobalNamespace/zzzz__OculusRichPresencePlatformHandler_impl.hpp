@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusRichPresencePlatformHandler.hpp"
-#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusRichPresencePlatformHandler_def.hpp"
 #include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresencePlatformHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusRichPresencePlatformHandler.SetPresence
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusRichPresencePlatformHandler::*)(::GlobalNamespace::IRichPresenceData*)>(
     &::GlobalNamespace::OculusRichPresencePlatformHandler::SetPresence)> {
-  constexpr static std::size_t size = 0x308;
-  constexpr static std::size_t addrs = 0x3b2c7e4;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x570d610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::OculusRichPresencePlatformHandler::Clear)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b2caec;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x570d944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusRichPresencePlatformHandler*>::get(),
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusRichPresencePlatformHandler::*)()>(
     &::GlobalNamespace::OculusRichPresencePlatformHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cb88;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x570d9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusRichPresencePlatformHandler*>::get(),

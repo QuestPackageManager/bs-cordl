@@ -9,7 +9,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -188,10 +187,10 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelDetailView___c* New_ctor();
 
-  /// @brief Method <SetContent>b__45_1, addr 0x3b71718, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <SetContent>b__45_1, addr 0x575d090, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> _SetContent_b__45_1(::GlobalNamespace::BeatmapKey key);
 
-  /// @brief Method .ctor, addr 0x3b71710, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575d08c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::StandardLevelDetailView___c* getStaticF___9();
@@ -217,7 +216,7 @@ public:
   StandardLevelDetailView___c(StandardLevelDetailView___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -238,7 +237,7 @@ public:
 
   static inline ::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0* New_ctor();
 
-  /// @brief Method <SetContent>b__0, addr 0x3b71720, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <SetContent>b__0, addr 0x575d098, size 0x1c, virtual false, abstract: false, final false
   inline bool _SetContent_b__0(::GlobalNamespace::BeatmapKey key);
 
   constexpr ::GlobalNamespace::BeatmapDifficultyMask const& __cordl_internal_get_allowedBeatmapDifficultyMask() const;
@@ -247,7 +246,7 @@ public:
 
   constexpr void __cordl_internal_set_allowedBeatmapDifficultyMask(::GlobalNamespace::BeatmapDifficultyMask value);
 
-  /// @brief Method .ctor, addr 0x3b7079c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575bef4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -265,7 +264,7 @@ public:
   StandardLevelDetailView___c__DisplayClass45_0(StandardLevelDetailView___c__DisplayClass45_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5396 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6989 };
 
   /// @brief Field allowedBeatmapDifficultyMask, offset: 0x10, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ___allowedBeatmapDifficultyMask;
@@ -278,8 +277,8 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView___c__DisplayCl
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView___c__DisplayClass45_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapKey, BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapKey, BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailView/<CalculateAndSetContentAsync>d__63
@@ -289,10 +288,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b71730, size 0x784, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x575d0b4, size 0x87c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b71eb4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x575d930, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -320,10 +319,10 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6990 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x88 };
 
   /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
   int32_t __1__state;
@@ -334,28 +333,28 @@ public:
   /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelDetailView> __4__this;
 
-  /// @brief Field beatmapKey, offset: 0x28, size: 0x18, def value: None
+  /// @brief Field beatmapKey, offset: 0x28, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field cancellationToken, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field cancellationToken, offset: 0x48, size: 0x8, def value: None
   ::System::Threading::CancellationToken cancellationToken;
 
-  /// @brief Field <beatmapLevelData>5__2, offset: 0x48, size: 0x10, def value: None
+  /// @brief Field <beatmapLevelData>5__2, offset: 0x50, size: 0x10, def value: None
   ::GlobalNamespace::LoadBeatmapLevelDataResult _beatmapLevelData_5__2;
 
-  /// @brief Field <songLength>5__3, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field <songLength>5__3, offset: 0x60, size: 0x4, def value: None
   float_t _songLength_5__3;
 
-  /// @brief Field <>u__1, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field <>u__1, offset: 0x68, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapLevelDataVersion> __u__1;
 
-  /// @brief Field <>u__2, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field <>u__2, offset: 0x70, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2;
 
-  /// @brief Field <>u__3, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field <>u__3, offset: 0x78, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__3;
 
-  /// @brief Field <>u__4, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <>u__4, offset: 0x80, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::BeatmapDataBasicInfo*> __u__4;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -369,24 +368,24 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndS
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, beatmapKey) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, cancellationToken) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, cancellationToken) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, _beatmapLevelData_5__2) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, _beatmapLevelData_5__2) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, _songLength_5__3) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, _songLength_5__3) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__1) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__1) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__2) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__2) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__3) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__3) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__4) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, __u__4) == 0x80, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__CalculateAndSetContentAsync_d__63, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailView/<CheckIfBeatmapLevelDataExists>d__57
@@ -396,10 +395,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b71f1c, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x575d99c, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b721c0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x575dc74, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -417,7 +416,7 @@ public:
                                                                          ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6991 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -448,8 +447,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatma
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExists_d__57, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailView/<CheckIfBeatmapLevelDataExistsAsync>d__58
@@ -459,10 +457,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b721cc, size 0x544, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x575dc7c, size 0x568, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b72710, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x575e1e4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -485,7 +483,7 @@ public:
                                                                               ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6992 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -531,8 +529,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView__CheckIfBeatma
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView__CheckIfBeatmapLevelDataExistsAsync_d__58, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailView/<SetBeatmapLevelVersions>d__64
@@ -542,10 +539,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b72778, size 0x5bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x575e250, size 0x658, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b72d34, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x575e8a8, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -565,7 +562,7 @@ public:
                                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::LoadBeatmapLevelDataResult> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6993 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -626,7 +623,7 @@ public:
   /// @brief Field _actionButtonText, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__actionButtonText, put = __cordl_internal_set__actionButtonText)) ::UnityW<::TMPro::TextMeshProUGUI> _actionButtonText;
 
-  /// @brief Field _allowedBeatmapDifficultyMask, offset 0xf0, size 0x1
+  /// @brief Field _allowedBeatmapDifficultyMask, offset 0xf8, size 0x1
   __declspec(property(get = __cordl_internal_get__allowedBeatmapDifficultyMask,
                       put = __cordl_internal_set__allowedBeatmapDifficultyMask)) ::GlobalNamespace::BeatmapDifficultyMask _allowedBeatmapDifficultyMask;
 
@@ -646,10 +643,10 @@ public:
                       put = __cordl_internal_set__beatmapDifficultySegmentedControlController)) ::UnityW<::GlobalNamespace::BeatmapDifficultySegmentedControlController>
       _beatmapDifficultySegmentedControlController;
 
-  /// @brief Field <beatmapKey>k__BackingField, offset 0xd0, size 0x18
+  /// @brief Field <beatmapKey>k__BackingField, offset 0xd0, size 0x20
   __declspec(property(get = __cordl_internal_get__beatmapKey_k__BackingField, put = __cordl_internal_set__beatmapKey_k__BackingField)) ::GlobalNamespace::BeatmapKey _beatmapKey_k__BackingField;
 
-  /// @brief Field _beatmapLevel, offset 0xe8, size 0x8
+  /// @brief Field _beatmapLevel, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapLevel, put = __cordl_internal_set__beatmapLevel)) ::GlobalNamespace::BeatmapLevel* _beatmapLevel;
 
   /// @brief Field _beatmapLevelDataVersionText, offset 0x88, size 0x8
@@ -673,10 +670,10 @@ public:
   /// @brief Field _buttonsWrapper, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__buttonsWrapper, put = __cordl_internal_set__buttonsWrapper)) ::UnityW<::UnityEngine::GameObject> _buttonsWrapper;
 
-  /// @brief Field _cancellationTokenSource, offset 0x108, size 0x8
+  /// @brief Field _cancellationTokenSource, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get__cancellationTokenSource, put = __cordl_internal_set__cancellationTokenSource)) ::System::Threading::CancellationTokenSource* _cancellationTokenSource;
 
-  /// @brief Field _checkExistsCancellationTokenSource, offset 0x110, size 0x8
+  /// @brief Field _checkExistsCancellationTokenSource, offset 0x118, size 0x8
   __declspec(property(get = __cordl_internal_get__checkExistsCancellationTokenSource,
                       put = __cordl_internal_set__checkExistsCancellationTokenSource)) ::System::Threading::CancellationTokenSource* _checkExistsCancellationTokenSource;
 
@@ -693,13 +690,13 @@ public:
   __declspec(property(get = __cordl_internal_get__levelParamsPanelCanvasGroup, put = __cordl_internal_set__levelParamsPanelCanvasGroup)) ::UnityW<::UnityEngine::CanvasGroup>
       _levelParamsPanelCanvasGroup;
 
-  /// @brief Field _levelParamsPanelCanvasGroupTween, offset 0x118, size 0x8
+  /// @brief Field _levelParamsPanelCanvasGroupTween, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get__levelParamsPanelCanvasGroupTween, put = __cordl_internal_set__levelParamsPanelCanvasGroupTween)) ::Tweening::Tween* _levelParamsPanelCanvasGroupTween;
 
   /// @brief Field _loadingControl, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__loadingControl, put = __cordl_internal_set__loadingControl)) ::UnityW<::GlobalNamespace::LoadingControl> _loadingControl;
 
-  /// @brief Field _playerData, offset 0xf8, size 0x8
+  /// @brief Field _playerData, offset 0x100, size 0x8
   __declspec(property(get = __cordl_internal_get__playerData, put = __cordl_internal_set__playerData)) ::GlobalNamespace::PlayerData* _playerData;
 
   /// @brief Field _practiceButton, offset 0x30, size 0x8
@@ -708,7 +705,7 @@ public:
   /// @brief Field _settingsManager, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get__settingsManager, put = __cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager* _settingsManager;
 
-  /// @brief Field _toggleBinder, offset 0x100, size 0x8
+  /// @brief Field _toggleBinder, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__toggleBinder, put = __cordl_internal_set__toggleBinder)) ::HMUI::ToggleBinder* _toggleBinder;
 
   /// @brief Field _tweeningManager, offset 0xa8, size 0x8
@@ -732,85 +729,85 @@ public:
 
   __declspec(property(get = get_practiceButton)) ::UnityW<::UnityEngine::UI::Button> practiceButton;
 
-  /// @brief Method Awake, addr 0x3b70834, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x575c030, size 0x1c4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CalculateAndSetContent, addr 0x3b71354, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndSetContent, addr 0x575cc94, size 0x168, virtual false, abstract: false, final false
   inline void CalculateAndSetContent();
 
-  /// @brief Method CalculateAndSetContentAsync, addr 0x3b71588, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CalculateAndSetContentAsync, addr 0x575cf2c, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CalculateAndSetContentAsync(::GlobalNamespace::BeatmapKey beatmapKey, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckIfBeatmapLevelDataExists, addr 0x3b707a4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CheckIfBeatmapLevelDataExists, addr 0x575bf84, size 0xa4, virtual false, abstract: false, final false
   inline void CheckIfBeatmapLevelDataExists();
 
-  /// @brief Method CheckIfBeatmapLevelDataExistsAsync, addr 0x3b71154, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CheckIfBeatmapLevelDataExistsAsync, addr 0x575caa4, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* CheckIfBeatmapLevelDataExistsAsync(::StringW beatmapLevelId, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ClearBeatmapLevel, addr 0x3b66c14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearBeatmapLevel, addr 0x575c028, size 0x8, virtual false, abstract: false, final false
   inline void ClearBeatmapLevel();
 
-  /// @brief Method ClearContent, addr 0x3b7122c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ClearContent, addr 0x575cb6c, size 0x9c, virtual false, abstract: false, final false
   inline void ClearContent();
 
-  /// @brief Method CreateBeatmapKey, addr 0x3b710d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateBeatmapKey, addr 0x575ca1c, size 0x50, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey CreateBeatmapKey();
 
-  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x3b7104c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic, addr 0x575c990, size 0x8c, virtual false, abstract: false, final false
   inline void HandleBeatmapCharacteristicSegmentedControlControllerDidSelectBeatmapCharacteristic(::GlobalNamespace::BeatmapCharacteristicSegmentedControlController* controller,
                                                                                                   ::GlobalNamespace::BeatmapCharacteristicSO* beatmapCharacteristic);
 
-  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x3b70ff8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty, addr 0x575c93c, size 0x34, virtual false, abstract: false, final false
   inline void HandleBeatmapDifficultySegmentedControlControllerDidSelectDifficulty(::GlobalNamespace::BeatmapDifficultySegmentedControlController* controller,
                                                                                    ::GlobalNamespace::BeatmapDifficulty difficulty);
 
-  /// @brief Method HandleBeatmapLevelsModelLevelDownloadingUpdate, addr 0x3b70e34, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapLevelsModelLevelDownloadingUpdate, addr 0x575c754, size 0x64, virtual false, abstract: false, final false
   inline void HandleBeatmapLevelsModelLevelDownloadingUpdate(::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate levelDownloadingUpdate);
 
-  /// @brief Method HandleDidPressRefreshButton, addr 0x3b70ff4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDidPressRefreshButton, addr 0x575c938, size 0x4, virtual false, abstract: false, final false
   inline void HandleDidPressRefreshButton();
 
   static inline ::GlobalNamespace::StandardLevelDetailView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b70c88, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x575c594, size 0x1c0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x3b70b30, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x575c3f4, size 0x1a0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b709b4, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x575c1f4, size 0x200, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshContent, addr 0x3b66b3c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method RefreshContent, addr 0x575bef8, size 0x8c, virtual false, abstract: false, final false
   inline void RefreshContent();
 
-  /// @brief Method SetBeatmapLevelVersions, addr 0x3b714fc, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetBeatmapLevelVersions, addr 0x575ce8c, size 0xa0, virtual false, abstract: false, final false
   inline void SetBeatmapLevelVersions();
 
-  /// @brief Method SetContent, addr 0x3b712c8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x575cc08, size 0x8c, virtual false, abstract: false, final false
   inline void SetContent();
 
-  /// @brief Method SetContent, addr 0x3b67120, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x575bba0, size 0x354, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* level, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                          ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>* notAllowedCharacteristics,
                          ::GlobalNamespace::BeatmapDifficulty defaultDifficulty, ::GlobalNamespace::BeatmapCharacteristicSO* defaultBeatmapCharacteristic, ::GlobalNamespace::PlayerData* playerData);
 
-  /// @brief Method SetContentForBeatmapData, addr 0x3b7111c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method SetContentForBeatmapData, addr 0x575ca6c, size 0x38, virtual false, abstract: false, final false
   inline void SetContentForBeatmapData();
 
-  /// @brief Method SetData, addr 0x3b7146c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x575cdfc, size 0x90, virtual false, abstract: false, final false
   inline void SetData(int32_t notesCount, int32_t obstaclesCount, int32_t bombsCount, float_t songLength);
 
-  /// @brief Method ShowContent, addr 0x3b70e98, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x575c7b8, size 0x180, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::StandardLevelDetailViewController_ContentType contentType, float_t progress);
 
-  /// @brief Method TriggerEvent, addr 0x3b7102c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method TriggerEvent, addr 0x575c970, size 0x20, virtual false, abstract: false, final false
   inline void TriggerEvent();
 
-  /// @brief Method <Awake>b__47_0, addr 0x3b71678, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__47_0, addr 0x575d000, size 0x20, virtual false, abstract: false, final false
   inline void _Awake_b__47_0(bool _);
 
-  /// @brief Method <CalculateAndSetContentAsync>b__63_0, addr 0x3b71698, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <CalculateAndSetContentAsync>b__63_0, addr 0x575d020, size 0x18, virtual false, abstract: false, final false
   inline void _CalculateAndSetContentAsync_b__63_0(float_t value);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__actionButton() const;
@@ -993,37 +990,37 @@ public:
 
   constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method .ctor, addr 0x3b71670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575cffc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b67908, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x575b824, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
-  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b679b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x575b9a4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method get_actionButton, addr 0x3b70764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_actionButton, addr 0x575bb24, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_actionButton();
 
-  /// @brief Method get_beatmapKey, addr 0x3b70774, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x575bb88, size 0xc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_practiceButton, addr 0x3b7076c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_practiceButton, addr 0x575bb4c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_practiceButton();
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b67c50, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x575b8e4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailView>>* value);
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b67d00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x575ba64, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method set_actionButtonText, addr 0x3b66670, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_actionButtonText, addr 0x575bb2c, size 0x20, virtual false, abstract: false, final false
   inline void set_actionButtonText(::StringW value);
 
-  /// @brief Method set_beatmapKey, addr 0x3b70788, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapKey, addr 0x575bb94, size 0xc, virtual false, abstract: false, final false
   inline void set_beatmapKey(::GlobalNamespace::BeatmapKey value);
 
-  /// @brief Method set_hidePracticeButton, addr 0x3b6663c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hidePracticeButton, addr 0x575bb54, size 0x34, virtual false, abstract: false, final false
   inline void set_hidePracticeButton(bool value);
 
 protected:
@@ -1041,7 +1038,7 @@ public:
   StandardLevelDetailView(StandardLevelDetailView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6994 };
 
   /// @brief Field _actionButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____actionButton;
@@ -1109,28 +1106,28 @@ public:
   /// @brief Field didFavoriteToggleChangeEvent, offset: 0xc8, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* ___didFavoriteToggleChangeEvent;
 
-  /// @brief Field <beatmapKey>k__BackingField, offset: 0xd0, size: 0x18, def value: None
+  /// @brief Field <beatmapKey>k__BackingField, offset: 0xd0, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey ____beatmapKey_k__BackingField;
 
-  /// @brief Field _beatmapLevel, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field _beatmapLevel, offset: 0xf0, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ____beatmapLevel;
 
-  /// @brief Field _allowedBeatmapDifficultyMask, offset: 0xf0, size: 0x1, def value: None
+  /// @brief Field _allowedBeatmapDifficultyMask, offset: 0xf8, size: 0x1, def value: None
   ::GlobalNamespace::BeatmapDifficultyMask ____allowedBeatmapDifficultyMask;
 
-  /// @brief Field _playerData, offset: 0xf8, size: 0x8, def value: None
+  /// @brief Field _playerData, offset: 0x100, size: 0x8, def value: None
   ::GlobalNamespace::PlayerData* ____playerData;
 
-  /// @brief Field _toggleBinder, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field _toggleBinder, offset: 0x108, size: 0x8, def value: None
   ::HMUI::ToggleBinder* ____toggleBinder;
 
-  /// @brief Field _cancellationTokenSource, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field _cancellationTokenSource, offset: 0x110, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
-  /// @brief Field _checkExistsCancellationTokenSource, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field _checkExistsCancellationTokenSource, offset: 0x118, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____checkExistsCancellationTokenSource;
 
-  /// @brief Field _levelParamsPanelCanvasGroupTween, offset: 0x118, size: 0x8, def value: None
+  /// @brief Field _levelParamsPanelCanvasGroupTween, offset: 0x120, size: 0x8, def value: None
   ::Tweening::Tween* ____levelParamsPanelCanvasGroupTween;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1182,21 +1179,21 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ___didFavorit
 
 static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____beatmapKey_k__BackingField) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____beatmapLevel) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____beatmapLevel) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____allowedBeatmapDifficultyMask) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____allowedBeatmapDifficultyMask) == 0xf8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____playerData) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____playerData) == 0x100, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____toggleBinder) == 0x100, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____toggleBinder) == 0x108, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____cancellationTokenSource) == 0x108, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____cancellationTokenSource) == 0x110, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____checkExistsCancellationTokenSource) == 0x110, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____checkExistsCancellationTokenSource) == 0x118, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____levelParamsPanelCanvasGroupTween) == 0x118, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardLevelDetailView, ____levelParamsPanelCanvasGroupTween) == 0x120, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView, 0x120>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailView, 0x128>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardLevelDetailView);

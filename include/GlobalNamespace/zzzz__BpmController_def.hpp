@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IBpmController_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BpmController)
@@ -19,6 +17,12 @@ class BeatmapDataCallbackWrapper;
 }
 namespace GlobalNamespace {
 class BpmController_InitData;
+}
+namespace GlobalNamespace {
+class IBpmController;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -48,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set_startBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7d570, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5768e3c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t startBpm);
 
 protected:
@@ -66,7 +70,7 @@ public:
   BpmController_InitData(BpmController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5751 };
 
   /// @brief Field startBpm, offset: 0x10, size: 0x4, def value: None
   float_t ___startBpm;
@@ -79,7 +83,7 @@ static_assert(offsetof(::GlobalNamespace::BpmController_InitData, ___startBpm) =
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BpmController_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IBpmController, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BpmController
@@ -108,10 +112,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3b7d538, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5768e08, size 0x1c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x3b7d554, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleBpmChangeBeatmapEvent, addr 0x5768e24, size 0x18, virtual false, abstract: false, final false
   inline void HandleBpmChangeBeatmapEvent(::GlobalNamespace::BPMChangeBeatmapEventData* bpmChangeBeatmapEventData);
 
   static inline ::GlobalNamespace::BpmController* New_ctor(::GlobalNamespace::BpmController_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
@@ -134,13 +138,13 @@ public:
 
   constexpr void __cordl_internal_set__currentBpm(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7d464, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5768d3c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BpmController_InitData* initData, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method get_currentBpm, addr 0x3b7d43c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_currentBpm, addr 0x5768d14, size 0x8, virtual true, abstract: false, final true
   inline float_t get_currentBpm();
 
-  /// @brief Method get_oneBeatDuration, addr 0x3b7d444, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_oneBeatDuration, addr 0x5768d1c, size 0x20, virtual true, abstract: false, final true
   inline float_t get_oneBeatDuration();
 
   /// @brief Convert to "::GlobalNamespace::IBpmController"
@@ -164,7 +168,7 @@ public:
   BpmController(BpmController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5752 };
 
   /// @brief Field _beatmapCallbacksController, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;

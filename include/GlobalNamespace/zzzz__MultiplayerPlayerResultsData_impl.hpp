@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerPlayerResultsData.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerResultsData_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgeAwardData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerPlayerResultsData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerPlayerResultsData::*)(
     ::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerPlayerResultsData::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26e2cac;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3614ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerPlayerResultsData::*)(::System::Object*)>(
     &::GlobalNamespace::MultiplayerPlayerResultsData::CompareTo)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x26e2cd8;
+  constexpr static std::size_t addrs = 0x3614ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

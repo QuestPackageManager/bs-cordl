@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(
     &::Zenject::Internal::SingletonMarkRegistry::MarkNonSingleton)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4b57178;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6c6a5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(
     &::Zenject::Internal::SingletonMarkRegistry::MarkSingleton)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4b57224;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6c6a688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)(::System::Type*)>(
     &::Zenject::Internal::SingletonMarkRegistry::Unmark)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4b572f8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6c6a780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::SingletonMarkRegistry::*)()>(&::Zenject::Internal::SingletonMarkRegistry::_ctor)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4b57364;
+  constexpr static std::size_t addrs = 0x6c6a7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::SingletonMarkRegistry*>::get(), ".ctor",

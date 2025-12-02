@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__MockPlayerLobbyPoseGenerator_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGeneratorRecording)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,16 +21,16 @@ namespace GlobalNamespace {
 class CORDL_TYPE MockPlayerLobbyPoseGeneratorRecording : public ::GlobalNamespace::MockPlayerLobbyPoseGenerator {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3bcbffc, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x57bd2b8, size 0x70, virtual true, abstract: false, final false
   inline void Init();
 
-  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
+  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorRecording* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
-  /// @brief Method Tick, addr 0x3bcc064, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x57bd328, size 0x70, virtual true, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method .ctor, addr 0x3bcbff4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
+  /// @brief Method .ctor, addr 0x57bb2a0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   MockPlayerLobbyPoseGeneratorRecording(MockPlayerLobbyPoseGeneratorRecording const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6126 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SelectSubMenuDestination::*)(::GlobalNamespace::SelectSubMenuDestination_Destination)>(
     &::GlobalNamespace::SelectSubMenuDestination::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26aee70;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35e049c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,11 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/DualShock/DualShockGamepad.hpp"
-#include "UnityEngine/InputSystem/DualShock/zzzz__IDualShockHaptics_impl.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_impl.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_impl.hpp"
+#include "UnityEngine/InputSystem/HID/zzzz__HID_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_impl.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__DualShockGamepad_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
+#include "UnityEngine/InputSystem/DualShock/zzzz__IDualShockHaptics_def.hpp"
+#include "UnityEngine/InputSystem/HID/zzzz__HID_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::DualShockGamepad.get_touchpadButton
 template <>
@@ -13,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_touchpadButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46056f8;
+  constexpr static std::size_t addrs = 0x638d278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -27,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_touchpadButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605700;
+  constexpr static std::size_t addrs = 0x638d280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_optionsButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605708;
+  constexpr static std::size_t addrs = 0x638d288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -56,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_optionsButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605710;
+  constexpr static std::size_t addrs = 0x638d290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_shareButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605718;
+  constexpr static std::size_t addrs = 0x638d298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -85,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_shareButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605720;
+  constexpr static std::size_t addrs = 0x638d2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_L1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605728;
+  constexpr static std::size_t addrs = 0x638d2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -114,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_L1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605730;
+  constexpr static std::size_t addrs = 0x638d2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_R1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605738;
+  constexpr static std::size_t addrs = 0x638d2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -143,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_R1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605740;
+  constexpr static std::size_t addrs = 0x638d2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_L2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605748;
+  constexpr static std::size_t addrs = 0x638d2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -172,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_L2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605750;
+  constexpr static std::size_t addrs = 0x638d2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_R2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605758;
+  constexpr static std::size_t addrs = 0x638d2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -201,7 +203,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_R2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605760;
+  constexpr static std::size_t addrs = 0x638d2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_L3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605768;
+  constexpr static std::size_t addrs = 0x638d2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -230,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_L3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605770;
+  constexpr static std::size_t addrs = 0x638d2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_R3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605778;
+  constexpr static std::size_t addrs = 0x638d2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -259,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
     ::UnityEngine::InputSystem::Controls::ButtonControl*)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_R3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605780;
+  constexpr static std::size_t addrs = 0x638d300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -273,8 +275,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::DualShock::DualShockGamepad* (*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_current)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4605788;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x638d308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -287,8 +289,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::DualShock::DualShockGamepad*)>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x46057d0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x638d354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -297,13 +299,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::DualShockGamepad.get_hidDescriptor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor (
+    ::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::get_hidDescriptor)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x638d3a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
+                                                                               "get_hidDescriptor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::DualShockGamepad.set_hidDescriptor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(
+    ::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor)>(&::UnityEngine::InputSystem::DualShock::DualShockGamepad::set_hidDescriptor)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x638d3b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(), "set_hidDescriptor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::DualShockGamepad.MakeCurrent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::MakeCurrent)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x460581c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x638d3cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,8 +349,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::OnRemoved)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4605870;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x638d454;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -334,8 +365,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::FinishSetup)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x46058f4;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x638d4ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -351,7 +382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)(::UnityEngine::Color)>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::SetLightBarColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x460598c;
+  constexpr static std::size_t addrs = 0x638d5e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -366,8 +397,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::DualShock::DualShockGamepad::*)()>(
     &::UnityEngine::InputSystem::DualShock::DualShockGamepad::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605990;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x638d5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
@@ -482,6 +513,18 @@ constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& UnityEngin
 constexpr void UnityEngine::InputSystem::DualShock::DualShockGamepad::__cordl_internal_set__R3_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____R3_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor& UnityEngine::InputSystem::DualShock::DualShockGamepad::__cordl_internal_get__hidDescriptor_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hidDescriptor_k__BackingField;
+}
+constexpr ::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor const& UnityEngine::InputSystem::DualShock::DualShockGamepad::__cordl_internal_get__hidDescriptor_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____hidDescriptor_k__BackingField;
+}
+constexpr void UnityEngine::InputSystem::DualShock::DualShockGamepad::__cordl_internal_set__hidDescriptor_k__BackingField(::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____hidDescriptor_k__BackingField = value;
 }
 inline void UnityEngine::InputSystem::DualShock::DualShockGamepad::setStaticF__current_k__BackingField(::UnityEngine::InputSystem::DualShock::DualShockGamepad* value) {
   ::cordl_internals::setStaticField<::UnityEngine::InputSystem::DualShock::DualShockGamepad*, "<current>k__BackingField",
@@ -601,6 +644,17 @@ inline void UnityEngine::InputSystem::DualShock::DualShockGamepad::set_current(:
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(), "set_current", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline ::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor UnityEngine::InputSystem::DualShock::DualShockGamepad::get_hidDescriptor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(),
+                                                                             "get_hidDescriptor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::DualShock::DualShockGamepad::set_hidDescriptor(::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::DualShock::DualShockGamepad*>::get(), "set_hidDescriptor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::HID::HID_HIDDeviceDescriptor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::InputSystem::DualShock::DualShockGamepad::MakeCurrent() {
   auto* ___internal_method =

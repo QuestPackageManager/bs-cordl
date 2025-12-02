@@ -3,14 +3,10 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_impl.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_impl.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ProviderOperation_1_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/zzzz__Action_2_def.hpp"
-#include "System/zzzz__Action_4_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -18,6 +14,8 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__IResourceProvider_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
@@ -33,42 +31,6 @@ template <typename TObject> constexpr bool const& UnityEngine::ResourceManagemen
 template <typename TObject> constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_set_m_ReleaseDependenciesOnFailure(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReleaseDependenciesOnFailure = value;
-}
-template <typename TObject>
-constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_CompletionCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CompletionCallback;
-}
-template <typename TObject>
-constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* const&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_CompletionCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CompletionCallback;
-}
-template <typename TObject>
-constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_set_m_CompletionCallback(
-    ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  ::cordl_internals::setInstanceField(this, &this->___m_CompletionCallback, value);
-}
-template <typename TObject>
-constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetDepCallback() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GetDepCallback;
-}
-template <typename TObject>
-constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* const&
-UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetDepCallback() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GetDepCallback;
-}
-template <typename TObject>
-constexpr void UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_set_m_GetDepCallback(
-    ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  ::cordl_internals::setInstanceField(this, &this->___m_GetDepCallback, value);
 }
 template <typename TObject> constexpr ::System::Func_1<float_t>*& UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1<TObject>::__cordl_internal_get_m_GetProgressCallback() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

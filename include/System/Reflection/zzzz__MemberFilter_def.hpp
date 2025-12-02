@@ -27,12 +27,12 @@ namespace System::Reflection {
 class CORDL_TYPE MemberFilter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3d237f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x59686e4, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke(::System::Reflection::MemberInfo* m, ::System::Object* filterCriteria);
 
   static inline ::System::Reflection::MemberFilter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3d236f0, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596859c, size 0x148, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MemberFilter(MemberFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

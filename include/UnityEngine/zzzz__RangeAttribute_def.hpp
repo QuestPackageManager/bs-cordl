@@ -19,10 +19,10 @@ namespace UnityEngine {
 class CORDL_TYPE RangeAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field max, offset 0x14, size 0x4
+  /// @brief Field max, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_max, put = __cordl_internal_set_max)) float_t max;
 
-  /// @brief Field min, offset 0x10, size 0x4
+  /// @brief Field min, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_min, put = __cordl_internal_set_min)) float_t min;
 
   static inline ::UnityEngine::RangeAttribute* New_ctor(float_t min, float_t max);
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_min(float_t value);
 
-  /// @brief Method .ctor, addr 0x48a6d2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a46c0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t min, float_t max);
 
 protected:
@@ -57,22 +57,22 @@ public:
   RangeAttribute(RangeAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10843 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10257 };
 
-  /// @brief Field min, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field min, offset: 0x18, size: 0x4, def value: None
   float_t ___min;
 
-  /// @brief Field max, offset: 0x14, size: 0x4, def value: None
+  /// @brief Field max, offset: 0x1c, size: 0x4, def value: None
   float_t ___max;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::RangeAttribute, ___min) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::RangeAttribute, ___min) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::RangeAttribute, ___max) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::RangeAttribute, ___max) == 0x1c, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::RangeAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::RangeAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::RangeAttribute);

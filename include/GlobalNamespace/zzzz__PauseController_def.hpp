@@ -37,7 +37,7 @@ namespace GlobalNamespace {
 struct PauseController_PauseState;
 }
 namespace GlobalNamespace {
-class PauseController___c__DisplayClass29_0;
+class PauseController___c__DisplayClass30_0;
 }
 namespace GlobalNamespace {
 class PauseMenuManager;
@@ -59,13 +59,13 @@ namespace GlobalNamespace {
 class PauseController_InitData;
 }
 namespace GlobalNamespace {
-class PauseController___c__DisplayClass29_0;
+class PauseController___c__DisplayClass30_0;
 }
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::PauseController_PauseState);
 MARK_REF_PTR_T(::GlobalNamespace::PauseController);
 MARK_REF_PTR_T(::GlobalNamespace::PauseController_InitData);
-MARK_REF_PTR_T(::GlobalNamespace::PauseController___c__DisplayClass29_0);
+MARK_REF_PTR_T(::GlobalNamespace::PauseController___c__DisplayClass30_0);
 // Dependencies
 namespace GlobalNamespace {
 // Is value type: true
@@ -109,7 +109,7 @@ public:
   static ::GlobalNamespace::PauseController_PauseState const Resuming;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6022 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -143,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
-  /// @brief Method .ctor, addr 0x3bb0188, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a0378, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool startPaused);
 
 protected:
@@ -161,7 +161,7 @@ public:
   PauseController_InitData(PauseController_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6023 };
 
   /// @brief Field startPaused, offset: 0x10, size: 0x1, def value: None
   bool ___startPaused;
@@ -177,14 +177,14 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PauseController
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: PauseController/<>c__DisplayClass29_0
-class CORDL_TYPE PauseController___c__DisplayClass29_0 : public ::System::Object {
+// CS Name: PauseController/<>c__DisplayClass30_0
+class CORDL_TYPE PauseController___c__DisplayClass30_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field value, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) bool value;
 
-  static inline ::GlobalNamespace::PauseController___c__DisplayClass29_0* New_ctor();
+  static inline ::GlobalNamespace::PauseController___c__DisplayClass30_0* New_ctor();
 
   constexpr bool const& __cordl_internal_get_value() const;
 
@@ -192,28 +192,28 @@ public:
 
   constexpr void __cordl_internal_set_value(bool value);
 
-  /// @brief Method .ctor, addr 0x3bae8e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x579e678, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method <get_canPause>b__0, addr 0x3bb01b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method <get_canPause>b__0, addr 0x57a0380, size 0x18, virtual false, abstract: false, final false
   inline void _get_canPause_b__0(bool newValue);
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr PauseController___c__DisplayClass29_0();
+  constexpr PauseController___c__DisplayClass30_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass29_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  PauseController___c__DisplayClass29_0(PauseController___c__DisplayClass29_0&&) = delete;
+  PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass29_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "PauseController___c__DisplayClass30_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  PauseController___c__DisplayClass29_0(PauseController___c__DisplayClass29_0 const&) = delete;
+  PauseController___c__DisplayClass30_0(PauseController___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4442 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6024 };
 
   /// @brief Field value, offset: 0x10, size: 0x1, def value: None
   bool ___value;
@@ -221,9 +221,9 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PauseController___c__DisplayClass29_0, ___value) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseController___c__DisplayClass30_0, ___value) == 0x10, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PauseController___c__DisplayClass29_0, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PauseController___c__DisplayClass30_0, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies PauseController::PauseState, UnityEngine.MonoBehaviour
@@ -237,7 +237,7 @@ public:
 
   using PauseState = ::GlobalNamespace::PauseController_PauseState;
 
-  using __c__DisplayClass29_0 = ::GlobalNamespace::PauseController___c__DisplayClass29_0;
+  using __c__DisplayClass30_0 = ::GlobalNamespace::PauseController___c__DisplayClass30_0;
 
   /// @brief Field _beatmapObjectManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
@@ -257,13 +257,13 @@ public:
   /// @brief Field _menuButtonTrigger, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__menuButtonTrigger, put = __cordl_internal_set__menuButtonTrigger)) ::GlobalNamespace::IMenuButtonTrigger* _menuButtonTrigger;
 
-  /// @brief Field _pauseChangedStateTime, offset 0x90, size 0x4
+  /// @brief Field _pauseChangedStateTime, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get__pauseChangedStateTime, put = __cordl_internal_set__pauseChangedStateTime)) float_t _pauseChangedStateTime;
 
   /// @brief Field _pauseMenuManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__pauseMenuManager, put = __cordl_internal_set__pauseMenuManager)) ::UnityW<::GlobalNamespace::PauseMenuManager> _pauseMenuManager;
 
-  /// @brief Field _paused, offset 0x98, size 0x4
+  /// @brief Field _paused, offset 0x9c, size 0x4
   __declspec(property(get = __cordl_internal_get__paused, put = __cordl_internal_set__paused)) ::GlobalNamespace::PauseController_PauseState _paused;
 
   /// @brief Field _returnToMenuController, offset 0x48, size 0x8
@@ -272,7 +272,7 @@ public:
   /// @brief Field _vrPlatformHelper, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
 
-  /// @brief Field _wantsToPause, offset 0x94, size 0x1
+  /// @brief Field _wantsToPause, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get__wantsToPause, put = __cordl_internal_set__wantsToPause)) bool _wantsToPause;
 
   __declspec(property(get = get_canChangePauseState)) bool canChangePauseState;
@@ -294,62 +294,62 @@ public:
   /// @brief Field didStartToResumeEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_didStartToResumeEvent, put = __cordl_internal_set_didStartToResumeEvent)) ::System::Action* didStartToResumeEvent;
 
+  /// @brief Field ignoreHMDUUnmountEvets, offset 0x90, size 0x1
+  __declspec(property(get = __cordl_internal_get_ignoreHMDUUnmountEvets, put = __cordl_internal_set_ignoreHMDUUnmountEvets)) bool ignoreHMDUUnmountEvets;
+
   __declspec(property(get = get_wantsToPause)) bool wantsToPause;
 
-  /// @brief Method GetDefaultPausedState, addr 0x3baf1bc, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultPausedState, addr 0x579f03c, size 0x124, virtual false, abstract: false, final false
   inline bool GetDefaultPausedState();
 
-  /// @brief Method HandleControllersDidDisconnectEvent, addr 0x3bafd44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleControllersDidDisconnectEvent, addr 0x579fe9c, size 0x4, virtual false, abstract: false, final false
   inline void HandleControllersDidDisconnectEvent();
 
-  /// @brief Method HandleFocusWasCaptured, addr 0x3bafd3c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleFocusWasCaptured, addr 0x579fe88, size 0x4, virtual false, abstract: false, final false
   inline void HandleFocusWasCaptured();
 
-  /// @brief Method HandleHMDUnmounted, addr 0x3bafd40, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHMDUnmounted, addr 0x579fe8c, size 0x10, virtual false, abstract: false, final false
   inline void HandleHMDUnmounted();
 
-  /// @brief Method HandleLevelDidStart, addr 0x3bafcf8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDidStart, addr 0x579fe20, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelDidStart();
 
-  /// @brief Method HandleLevelWillStartIntro, addr 0x3bafcfc, size 0x4, virtual false, abstract: false, final false
-  inline void HandleLevelWillStartIntro();
-
-  /// @brief Method HandleMenuButtonTriggered, addr 0x3bafd00, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuButtonTriggered, addr 0x579fe24, size 0x64, virtual false, abstract: false, final false
   inline void HandleMenuButtonTriggered();
 
-  /// @brief Method HandlePauseMenuManagerDidFinishResumeAnimation, addr 0x3bafd88, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseMenuManagerDidFinishResumeAnimation, addr 0x579ff08, size 0x110, virtual false, abstract: false, final false
   inline void HandlePauseMenuManagerDidFinishResumeAnimation();
 
-  /// @brief Method HandlePauseMenuManagerDidPressContinueButton, addr 0x3bafe7c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseMenuManagerDidPressContinueButton, addr 0x57a0018, size 0x120, virtual false, abstract: false, final false
   inline void HandlePauseMenuManagerDidPressContinueButton();
 
-  /// @brief Method HandlePauseMenuManagerDidPressMenuButton, addr 0x3bb0094, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseMenuManagerDidPressMenuButton, addr 0x57a026c, size 0x100, virtual false, abstract: false, final false
   inline void HandlePauseMenuManagerDidPressMenuButton();
 
-  /// @brief Method HandlePauseMenuManagerDidPressRestartButton, addr 0x3baffc8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseMenuManagerDidPressRestartButton, addr 0x57a0184, size 0xe8, virtual false, abstract: false, final false
   inline void HandlePauseMenuManagerDidPressRestartButton();
 
-  /// @brief Method HandlePauseMenuManagerDidStartResumeAnimation, addr 0x3bafd48, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method HandlePauseMenuManagerDidStartResumeAnimation, addr 0x579fea0, size 0x68, virtual false, abstract: false, final false
   inline void HandlePauseMenuManagerDidStartResumeAnimation();
 
   static inline ::GlobalNamespace::PauseController* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x3bafba8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x579fb94, size 0xc, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x3baf2dc, size 0x5c0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x579f160, size 0x6d8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x3ba57ec, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x579fba0, size 0x134, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method PauseGameOnStartupIfItShouldBePaused, addr 0x3bafcac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PauseGameOnStartupIfItShouldBePaused, addr 0x579fdd4, size 0x4c, virtual false, abstract: false, final false
   inline void PauseGameOnStartupIfItShouldBePaused();
 
-  /// @brief Method Restart, addr 0x3bafbb4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Restart, addr 0x579fcd4, size 0xa4, virtual false, abstract: false, final false
   inline void Restart();
 
-  /// @brief Method Start, addr 0x3bae920, size 0x590, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x579e6d0, size 0x610, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -420,6 +420,10 @@ public:
 
   constexpr ::System::Action*& __cordl_internal_get_didStartToResumeEvent();
 
+  constexpr bool const& __cordl_internal_get_ignoreHMDUUnmountEvets() const;
+
+  constexpr bool& __cordl_internal_get_ignoreHMDUUnmountEvets();
+
   constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
 
   constexpr void __cordl_internal_set__gamePause(::GlobalNamespace::IGamePause* value);
@@ -454,46 +458,48 @@ public:
 
   constexpr void __cordl_internal_set_didStartToResumeEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bb0178, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_ignoreHMDUUnmountEvets(bool value);
+
+  /// @brief Method .ctor, addr 0x57a036c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_canPauseEvent, addr 0x3ba4a64, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_canPauseEvent, addr 0x579e27c, size 0xc0, virtual false, abstract: false, final false
   inline void add_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  /// @brief Method add_didPauseEvent, addr 0x3ba4b14, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didPauseEvent, addr 0x579de74, size 0xac, virtual false, abstract: false, final false
   inline void add_didPauseEvent(::System::Action* value);
 
-  /// @brief Method add_didResumeEvent, addr 0x3ba4c4c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didResumeEvent, addr 0x579e124, size 0xac, virtual false, abstract: false, final false
   inline void add_didResumeEvent(::System::Action* value);
 
-  /// @brief Method add_didReturnToMenuEvent, addr 0x3bae6c0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didReturnToMenuEvent, addr 0x579e3fc, size 0xac, virtual false, abstract: false, final false
   inline void add_didReturnToMenuEvent(::System::Action* value);
 
-  /// @brief Method add_didStartToResumeEvent, addr 0x3ba4bb0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didStartToResumeEvent, addr 0x579dfcc, size 0xac, virtual false, abstract: false, final false
   inline void add_didStartToResumeEvent(::System::Action* value);
 
-  /// @brief Method get_canChangePauseState, addr 0x3bae8f0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_canChangePauseState, addr 0x579e67c, size 0x54, virtual false, abstract: false, final false
   inline bool get_canChangePauseState();
 
-  /// @brief Method get_canPause, addr 0x3bae800, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method get_canPause, addr 0x579e55c, size 0x11c, virtual false, abstract: false, final false
   inline bool get_canPause();
 
-  /// @brief Method get_wantsToPause, addr 0x3bae7f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_wantsToPause, addr 0x579e554, size 0x8, virtual false, abstract: false, final false
   inline bool get_wantsToPause();
 
-  /// @brief Method remove_canPauseEvent, addr 0x3ba426c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_canPauseEvent, addr 0x579e33c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_canPauseEvent(::System::Action_1<::System::Action_1<bool>*>* value);
 
-  /// @brief Method remove_didPauseEvent, addr 0x3ba431c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didPauseEvent, addr 0x579df20, size 0xac, virtual false, abstract: false, final false
   inline void remove_didPauseEvent(::System::Action* value);
 
-  /// @brief Method remove_didResumeEvent, addr 0x3ba4454, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didResumeEvent, addr 0x579e1d0, size 0xac, virtual false, abstract: false, final false
   inline void remove_didResumeEvent(::System::Action* value);
 
-  /// @brief Method remove_didReturnToMenuEvent, addr 0x3bae75c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didReturnToMenuEvent, addr 0x579e4a8, size 0xac, virtual false, abstract: false, final false
   inline void remove_didReturnToMenuEvent(::System::Action* value);
 
-  /// @brief Method remove_didStartToResumeEvent, addr 0x3ba43b8, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didStartToResumeEvent, addr 0x579e078, size 0xac, virtual false, abstract: false, final false
   inline void remove_didStartToResumeEvent(::System::Action* value);
 
 protected:
@@ -511,7 +517,7 @@ public:
   PauseController(PauseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6025 };
 
   /// @brief Field kChangeStateDelay offset 0xffffffff size 0x4
   static constexpr float_t kChangeStateDelay{ static_cast<float_t>(0.05f) };
@@ -558,13 +564,16 @@ public:
   /// @brief Field didReturnToMenuEvent, offset: 0x88, size: 0x8, def value: None
   ::System::Action* ___didReturnToMenuEvent;
 
-  /// @brief Field _pauseChangedStateTime, offset: 0x90, size: 0x4, def value: None
+  /// @brief Field ignoreHMDUUnmountEvets, offset: 0x90, size: 0x1, def value: None
+  bool ___ignoreHMDUUnmountEvets;
+
+  /// @brief Field _pauseChangedStateTime, offset: 0x94, size: 0x4, def value: None
   float_t ____pauseChangedStateTime;
 
-  /// @brief Field _wantsToPause, offset: 0x94, size: 0x1, def value: None
+  /// @brief Field _wantsToPause, offset: 0x98, size: 0x1, def value: None
   bool ____wantsToPause;
 
-  /// @brief Field _paused, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field _paused, offset: 0x9c, size: 0x4, def value: None
   ::GlobalNamespace::PauseController_PauseState ____paused;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -598,11 +607,13 @@ static_assert(offsetof(::GlobalNamespace::PauseController, ___canPauseEvent) == 
 
 static_assert(offsetof(::GlobalNamespace::PauseController, ___didReturnToMenuEvent) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseController, ____pauseChangedStateTime) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseController, ___ignoreHMDUUnmountEvets) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseController, ____wantsToPause) == 0x94, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseController, ____pauseChangedStateTime) == 0x94, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PauseController, ____paused) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PauseController, ____wantsToPause) == 0x98, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::PauseController, ____paused) == 0x9c, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PauseController, 0xa0>, "Size mismatch!");
 
@@ -612,5 +623,5 @@ NEED_NO_BOX(::GlobalNamespace::PauseController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseController*, "", "PauseController");
 NEED_NO_BOX(::GlobalNamespace::PauseController_InitData);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseController_InitData*, "", "PauseController/InitData");
-NEED_NO_BOX(::GlobalNamespace::PauseController___c__DisplayClass29_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseController___c__DisplayClass29_0*, "", "PauseController/<>c__DisplayClass29_0");
+NEED_NO_BOX(::GlobalNamespace::PauseController___c__DisplayClass30_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PauseController___c__DisplayClass30_0*, "", "PauseController/<>c__DisplayClass30_0");

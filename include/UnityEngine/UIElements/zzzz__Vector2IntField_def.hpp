@@ -74,7 +74,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Vector2IntField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4991990, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b089f4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   Vector2IntField_UxmlFactory(Vector2IntField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4169 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,13 +107,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE Vector2IntField_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<::UnityEngine::Vector2Int> {
 public:
   // Declarations
-  /// @brief Field m_XValue, offset 0x80, size 0x8
+  /// @brief Field m_XValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_XValue, put = __cordl_internal_set_m_XValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_XValue;
 
-  /// @brief Field m_YValue, offset 0x88, size 0x8
+  /// @brief Field m_YValue, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_YValue, put = __cordl_internal_set_m_YValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_YValue;
 
-  /// @brief Method Init, addr 0x49919d8, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b08a5c, size 0x184, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::Vector2IntField_UxmlTraits* New_ctor();
@@ -130,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set_m_YValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4991b34, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b08be0, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -148,22 +148,22 @@ public:
   Vector2IntField_UxmlTraits(Vector2IntField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4170 };
 
-  /// @brief Field m_XValue, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_XValue, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_XValue;
 
-  /// @brief Field m_YValue, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_YValue, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_YValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Vector2IntField_UxmlTraits, ___m_XValue) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vector2IntField_UxmlTraits, ___m_XValue) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Vector2IntField_UxmlTraits, ___m_YValue) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Vector2IntField_UxmlTraits, ___m_YValue) == 0xa0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector2IntField_UxmlTraits, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector2IntField_UxmlTraits, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies System.Object
@@ -196,19 +196,19 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector2IntField___c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x4991c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x6b08d18, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_0(::UnityEngine::Vector2Int r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x4991c70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x6b08d20, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(::ByRef<::UnityEngine::Vector2Int> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x4991c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x6b08d28, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_2(::UnityEngine::Vector2Int r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x4991c80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x6b08d30, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(::ByRef<::UnityEngine::Vector2Int> r, int32_t v);
 
-  /// @brief Method .ctor, addr 0x4991c60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b08d14, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Vector2IntField___c* getStaticF___9();
@@ -248,7 +248,7 @@ public:
   Vector2IntField___c(Vector2IntField___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4171 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -278,7 +278,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x4991408, size 0x390, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x6b08494, size 0x350, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2Int, ::UnityEngine::UIElements::IntegerField*, int32_t>,
                   ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::Vector2Int, ::UnityEngine::UIElements::IntegerField*, int32_t>>*>
   DescribeFields();
@@ -287,10 +287,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Vector2IntField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x4991798, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b087e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x49917a0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b087ec, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -320,12 +320,12 @@ public:
   Vector2IntField(Vector2IntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4172 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector2IntField, 0x450>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Vector2IntField, 0x538>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Vector2IntField);

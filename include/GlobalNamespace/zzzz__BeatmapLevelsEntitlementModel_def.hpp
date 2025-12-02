@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IEntitlementModel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BeatmapLevelsEntitlementModel)
@@ -15,6 +14,9 @@ struct EntitlementStatus;
 }
 namespace GlobalNamespace {
 class IAdditionalContentEntitlementModel;
+}
+namespace GlobalNamespace {
+class IEntitlementModel;
 }
 namespace GlobalNamespace {
 class PackDefinitionSO;
@@ -34,7 +36,7 @@ class BeatmapLevelsEntitlementModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelsEntitlementModel);
-// Dependencies IEntitlementModel, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapLevelsEntitlementModel
@@ -55,16 +57,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IEntitlementModel"
   constexpr operator ::GlobalNamespace::IEntitlementModel*() noexcept;
 
-  /// @brief Method AddAlwaysOwnedPack, addr 0x26cb0c8, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method AddAlwaysOwnedPack, addr 0x35fd9c0, size 0x334, virtual false, abstract: false, final false
   inline void AddAlwaysOwnedPack(::GlobalNamespace::PackDefinitionSO* pack);
 
-  /// @brief Method GetLevelDataVersionAsync, addr 0x26cb670, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method GetExcludedLevelIdsAsync, addr 0x35fe040, size 0xb8, virtual false, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
+
+  /// @brief Method GetLevelDataVersionAsync, addr 0x35fdf80, size 0xc0, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x26cb404, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method GetLevelEntitlementStatusAsync, addr 0x35fdcf4, size 0x144, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetPackEntitlementStatusAsync, addr 0x26cb538, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method GetPackEntitlementStatusAsync, addr 0x35fde38, size 0x148, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   static inline ::GlobalNamespace::BeatmapLevelsEntitlementModel* New_ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel);
@@ -87,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__alwaysOwnedPacksIds(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x26cb028, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35fd924, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IAdditionalContentEntitlementModel* additionalContentEntitlementModel);
 
   /// @brief Convert to "::GlobalNamespace::IEntitlementModel"
@@ -108,7 +113,7 @@ public:
   BeatmapLevelsEntitlementModel(BeatmapLevelsEntitlementModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14939 };
 
   /// @brief Field _additionalContentEntitlementModel, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IAdditionalContentEntitlementModel* ____additionalContentEntitlementModel;

@@ -5,16 +5,16 @@
 #include "GlobalNamespace/zzzz__GameplayServerMode_impl.hpp"
 #include "GlobalNamespace/zzzz__InvitePolicy_impl.hpp"
 #include "GlobalNamespace/zzzz__SongSelectionMode_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
 #include "GlobalNamespace/zzzz__DiscoveryPolicy_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerControlSettings_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerMode_def.hpp"
 #include "GlobalNamespace/zzzz__InvitePolicy_def.hpp"
 #include "GlobalNamespace/zzzz__SongSelectionMode_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayServerConfiguration._ctor
 template <>
@@ -23,7 +23,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, ::GlobalNamespace::DiscoveryPolicy, ::GlobalNamespace::InvitePolicy, ::GlobalNamespace::GameplayServerMode, ::GlobalNamespace::SongSelectionMode,
     ::GlobalNamespace::GameplayServerControlSettings)>(&::GlobalNamespace::GameplayServerConfiguration::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22c87dc;
+  constexpr static std::size_t addrs = 0x31a4a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayServerConfiguration::*)(::ByRef<::GlobalNamespace::GameplayServerConfiguration>)>(
     &::GlobalNamespace::GameplayServerConfiguration::Equals)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x22cb65c;
+  constexpr static std::size_t addrs = 0x31aa188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayServerConfiguration::*)(::GlobalNamespace::GameplayServerConfiguration)>(
     &::GlobalNamespace::GameplayServerConfiguration::Equals)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22cb6c8;
+  constexpr static std::size_t addrs = 0x31aa1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayServerConfiguration::*)(::System::Object*)>(
     &::GlobalNamespace::GameplayServerConfiguration::Equals)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22cb6cc;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x31aa1f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::GameplayServerConfiguration::*)()>(
     &::GlobalNamespace::GameplayServerConfiguration::GetHashCode)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22cb794;
+  constexpr static std::size_t addrs = 0x31aa2c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::ByRef<::GlobalNamespace::GameplayServerConfiguration>, ::ByRef<::GlobalNamespace::GameplayServerConfiguration>)>(&::GlobalNamespace::GameplayServerConfiguration::op_Equality)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22cb7d4;
+  constexpr static std::size_t addrs = 0x31aa304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::ByRef<::GlobalNamespace::GameplayServerConfiguration>, ::ByRef<::GlobalNamespace::GameplayServerConfiguration>)>(&::GlobalNamespace::GameplayServerConfiguration::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x22cb7d8;
+  constexpr static std::size_t addrs = 0x31aa308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayServerConfiguration::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::GameplayServerConfiguration::Serialize)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22cb7f0;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x31aa320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameplayServerConfiguration::*)(
     ::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::GameplayServerConfiguration::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22cb86c;
+  constexpr static std::size_t addrs = 0x31aa3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,8 +164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::GameplayServerConfiguration::Deserialize)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22cb8a0;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x31aa420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayServerConfiguration (::GlobalNamespace::GameplayServerConfiguration::*)(int32_t)>(
     &::GlobalNamespace::GameplayServerConfiguration::WithMaxPlayerCount)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cb938;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x31aa4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

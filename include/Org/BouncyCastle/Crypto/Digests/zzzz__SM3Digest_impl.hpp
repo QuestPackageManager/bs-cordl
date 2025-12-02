@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2335f78;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3263160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::SM3Digest*>::get(), ".ctor",
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::Org::BouncyCastle::Crypto::Digests::SM3Digest*)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2336004;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x32631f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::Org::BouncyCastle::Crypto::Digests::SM3Digest*)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::CopyIn)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2336098;
+  constexpr static std::size_t addrs = 0x3263298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2336104;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x3263304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2336144;
+  constexpr static std::size_t addrs = 0x3263348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::Copy)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x233614c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3263350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::Reset)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x23361a4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x32633ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::Reset)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x2336238;
+  constexpr static std::size_t addrs = 0x326344c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::DoFinal)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2336304;
+  constexpr static std::size_t addrs = 0x3263518;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessWord)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2336358;
+  constexpr static std::size_t addrs = 0x326356c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessLength)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x23363cc;
+  constexpr static std::size_t addrs = 0x32635e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(uint32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::P0)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23364c0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x32636d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -195,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(uint32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::P1)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23364cc;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x32636e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(uint32_t, uint32_t, uint32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::FF0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23364d8;
+  constexpr static std::size_t addrs = 0x32636f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(uint32_t, uint32_t, uint32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::FF1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x23364e4;
+  constexpr static std::size_t addrs = 0x3263700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +243,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(uint32_t, uint32_t, uint32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::GG0)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x23364f8;
+  constexpr static std::size_t addrs = 0x3263714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)(uint32_t, uint32_t, uint32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::GG1)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2336504;
+  constexpr static std::size_t addrs = 0x3263720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,8 +274,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::SM3Digest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::SM3Digest::ProcessBlock)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x2336514;
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x3263730;
 
   inline static ::MethodInfo const* methodInfo() {
 

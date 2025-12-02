@@ -89,7 +89,7 @@ public:
   static ::System::Globalization::TimeSpanFormat_Pattern const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3687 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3607 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -124,28 +124,28 @@ public:
 
   __declspec(property(get = get_Start)) ::StringW Start;
 
-  /// @brief Method Init, addr 0x3d94c04, size 0x37c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59a7e34, size 0x364, virtual false, abstract: false, final false
   inline void Init(::System::ReadOnlySpan_1<char16_t> format, bool useInvariantFieldLengths);
 
-  /// @brief Method InitInvariant, addr 0x3d94aa4, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method InitInvariant, addr 0x59a83dc, size 0x164, virtual false, abstract: false, final false
   static inline ::System::Globalization::TimeSpanFormat_FormatLiterals InitInvariant(bool isNegative);
 
-  /// @brief Method get_DayHourSep, addr 0x3d949c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_DayHourSep, addr 0x59a8268, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_DayHourSep();
 
-  /// @brief Method get_End, addr 0x3d94a78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_End, addr 0x59a8318, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_End();
 
-  /// @brief Method get_HourMinuteSep, addr 0x3d949f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_HourMinuteSep, addr 0x59a8294, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_HourMinuteSep();
 
-  /// @brief Method get_MinuteSecondSep, addr 0x3d94a20, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_MinuteSecondSep, addr 0x59a82c0, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_MinuteSecondSep();
 
-  /// @brief Method get_SecondFractionSep, addr 0x3d94a4c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_SecondFractionSep, addr 0x59a82ec, size 0x2c, virtual false, abstract: false, final false
   inline ::StringW get_SecondFractionSep();
 
-  /// @brief Method get_Start, addr 0x3d949a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_Start, addr 0x59a8240, size 0x28, virtual false, abstract: false, final false
   inline ::StringW get_Start();
 
   // Ctor Parameters []
@@ -158,7 +158,7 @@ public:
   constexpr TimeSpanFormat_FormatLiterals(::StringW AppCompatLiteral, int32_t dd, int32_t hh, int32_t mm, int32_t ss, int32_t ff, ::ArrayW<::StringW, ::Array<::StringW>*> _literals) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3608 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -223,24 +223,24 @@ public:
   __declspec(property(get = getStaticF_PositiveInvariantFormatLiterals,
                       put = setStaticF_PositiveInvariantFormatLiterals)) ::System::Globalization::TimeSpanFormat_FormatLiterals PositiveInvariantFormatLiterals;
 
-  /// @brief Method AppendNonNegativeInt32, addr 0x3d934e0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method AppendNonNegativeInt32, addr 0x59a6cc4, size 0xf8, virtual false, abstract: false, final false
   static inline void AppendNonNegativeInt32(::System::Text::StringBuilder* sb, int32_t n, int32_t digits);
 
-  /// @brief Method Format, addr 0x3d935d8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Format, addr 0x59a6dbc, size 0xbc, virtual false, abstract: false, final false
   static inline ::StringW Format(::System::TimeSpan value, ::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method FormatCustomized, addr 0x3d93f7c, size 0x728, virtual false, abstract: false, final false
+  /// @brief Method FormatCustomized, addr 0x59a773c, size 0x6f8, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatCustomized(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::Globalization::DateTimeFormatInfo* dtfi,
                                                                 ::System::Text::StringBuilder* result);
 
-  /// @brief Method FormatStandard, addr 0x3d93a88, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method FormatStandard, addr 0x59a729c, size 0x4a0, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatStandard(::System::TimeSpan value, bool isInvariant, ::System::ReadOnlySpan_1<char16_t> format,
                                                               ::System::Globalization::TimeSpanFormat_Pattern pattern);
 
-  /// @brief Method FormatToBuilder, addr 0x3d93690, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method FormatToBuilder, addr 0x59a6e78, size 0x310, virtual false, abstract: false, final false
   static inline ::System::Text::StringBuilder* FormatToBuilder(::System::TimeSpan value, ::System::ReadOnlySpan_1<char16_t> format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method TryFormat, addr 0x3d93968, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method TryFormat, addr 0x59a7188, size 0x114, virtual false, abstract: false, final false
   static inline bool TryFormat(::System::TimeSpan value, ::System::Span_1<char16_t> destination, ::ByRef<int32_t> charsWritten, ::System::ReadOnlySpan_1<char16_t> format,
                                ::System::IFormatProvider* formatProvider);
 
@@ -267,7 +267,7 @@ public:
   TimeSpanFormat(TimeSpanFormat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3689 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3609 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

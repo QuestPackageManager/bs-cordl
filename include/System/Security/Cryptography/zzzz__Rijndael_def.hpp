@@ -32,7 +32,7 @@ public:
 
   static inline ::System::Security::Cryptography::Rijndael* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ca2dc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e6a6c, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
@@ -58,7 +58,7 @@ public:
   Rijndael(Rijndael const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

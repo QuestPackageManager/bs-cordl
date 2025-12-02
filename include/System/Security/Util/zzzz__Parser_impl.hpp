@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::SecurityElement* (::System::Security::Util::Parser::*)()>(
     &::System::Security::Util::Parser::GetTopElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c974ec;
+  constexpr static std::size_t addrs = 0x58dbb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Parser*>::get(), "GetTopElement",
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Parser::*)(::System::Security::Util::TokenizerStream*, ::ByRef<int32_t>)>(
     &::System::Security::Util::Parser::GetRequiredSizes)> {
-  constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x3c97514;
+  constexpr static std::size_t size = 0x424;
+  constexpr static std::size_t addrs = 0x58dbb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Util::Parser::*)(::System::Security::Util::TokenizerStream*)>(
     &::System::Security::Util::Parser::DetermineFormat)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3c97a4c;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x58dc064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Parser::*)()>(&::System::Security::Util::Parser::ParseContents)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x3c9862c;
+  constexpr static std::size_t size = 0x300;
+  constexpr static std::size_t addrs = 0x58dcc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Parser*>::get(), "ParseContents",
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Parser::*)(::System::Security::Util::Tokenizer*)>(
     &::System::Security::Util::Parser::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c98a54;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x58dd060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Parser::*)(::StringW)>(&::System::Security::Util::Parser::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c98af8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x58dd0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

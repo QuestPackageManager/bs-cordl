@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Renderer> (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::get_renderer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d65c4;
+  constexpr static std::size_t addrs = 0x564da44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::OnEnable)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39d65cc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x564da4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)(::UnityEngine::Renderer*)>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::SetRenderer)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39d676c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x564dbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundNonLightDynamicRenderer::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39d68bc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x564dd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

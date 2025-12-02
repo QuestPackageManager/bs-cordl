@@ -22,10 +22,10 @@ namespace System::Collections::Generic {
 class CORDL_TYPE IntrospectiveSortUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method FloorLog2PlusOne, addr 0x3dc937c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FloorLog2PlusOne, addr 0x59dce78, size 0x30, virtual false, abstract: false, final false
   static inline int32_t FloorLog2PlusOne(int32_t n);
 
-  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x3dc93a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ThrowOrIgnoreBadComparer, addr 0x59dcea8, size 0x60, virtual false, abstract: false, final false
   static inline void ThrowOrIgnoreBadComparer(::System::Object* comparer);
 
 protected:
@@ -43,7 +43,7 @@ public:
   IntrospectiveSortUtilities(IntrospectiveSortUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HybridReferenceDictionary_2)
@@ -19,8 +16,14 @@ template <typename T> class IEnumerator_1;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::Linq::Expressions::Interpreter {
 template <typename TKey, typename TValue> class HybridReferenceDictionary_2__GetEnumeratorWorker_d__7;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -35,7 +38,7 @@ template <typename TKey, typename TValue> class HybridReferenceDictionary_2__Get
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2);
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::Interpreter::HybridReferenceDictionary_2__GetEnumeratorWorker_d__7);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace System::Linq::Expressions::Interpreter {
 // cpp template
 template <typename TKey, typename TValue>
@@ -140,7 +143,7 @@ public:
   HybridReferenceDictionary_2__GetEnumeratorWorker_d__7(HybridReferenceDictionary_2__GetEnumeratorWorker_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14129 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16576 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -235,7 +238,7 @@ public:
   HybridReferenceDictionary_2(HybridReferenceDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16577 };
 
   /// @brief Field _keysAndValues, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> ____keysAndValues;

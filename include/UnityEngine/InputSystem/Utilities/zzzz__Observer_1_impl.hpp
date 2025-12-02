@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Observer_1.hpp"
-#include "System/zzzz__IObserver_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Observer_1_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IObserver_1_def.hpp"
 template <typename TValue> constexpr ::System::Action_1<TValue>*& UnityEngine::InputSystem::Utilities::Observer_1<TValue>::__cordl_internal_get_m_OnNext() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OnNext;

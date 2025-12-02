@@ -45,15 +45,15 @@ public:
   /// @brief Field _sabersAreClashing, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__sabersAreClashing, put = __cordl_internal_set__sabersAreClashing)) bool _sabersAreClashing;
 
-  /// @brief Method AreSabersClashing, addr 0x3be6e28, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method AreSabersClashing, addr 0x57d97c4, size 0x198, virtual false, abstract: false, final false
   inline bool AreSabersClashing(::ByRef<::UnityEngine::Vector3> clashingPoint);
 
-  /// @brief Method Init, addr 0x3beb370, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x57de0f4, size 0x18, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::SaberManager* saberManager);
 
   static inline ::GlobalNamespace::SaberClashChecker* New_ctor();
 
-  /// @brief Method SegmentToSegmentDist, addr 0x3beb38c, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method SegmentToSegmentDist, addr 0x57de10c, size 0x278, virtual false, abstract: false, final false
   inline float_t SegmentToSegmentDist(::UnityEngine::Vector3 fromA, ::UnityEngine::Vector3 toA, ::UnityEngine::Vector3 fromB, ::UnityEngine::Vector3 toB,
                                       ::ByRef<::UnityEngine::Vector3> inbetweenPoint);
 
@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set__sabersAreClashing(bool value);
 
-  /// @brief Method .ctor, addr 0x3beb5f4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57de384, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,7 +105,7 @@ public:
   SaberClashChecker(SaberClashChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6237 };
 
   /// @brief Field kIgnoredTime offset 0xffffffff size 0x4
   static constexpr float_t kIgnoredTime{ static_cast<float_t>(0.1f) };

@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::LogLevel)>(&::UnityEngine::ProBuilder::Log::PushLogLevel)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x470fb08;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x64a4b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::ProBuilder::Log::PopLogLevel)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x470fb98;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x64a4bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Log*>::get(), "PopLogLevel",
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::LogLevel)>(&::UnityEngine::ProBuilder::Log::SetLogLevel)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x470fc20;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x64a4c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ProBuilder::LogOutput)>(&::UnityEngine::ProBuilder::Log::SetOutput)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x470fc7c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x64a4cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ProBuilder::Log::SetLogFile)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x470fcd8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x64a4d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,8 +82,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ProBuilder::Log::Debug)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x470fd34;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x64a4d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::ProBuilder::Log::Debug)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x470fe5c;
+  constexpr static std::size_t addrs = 0x64a4ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::ProBuilder::Log::Info)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x470fe60;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x64a4ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ProBuilder::Log::Info)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x470fed8;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x64a4f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::ProBuilder::Log::Warning)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x470ff58;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x64a4fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ProBuilder::Log::Warning)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x470ffd0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x64a5020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::UnityEngine::ProBuilder::Log::Error)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4710050;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x64a50a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,8 +188,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::UnityEngine::ProBuilder::Log::Error)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4703b64;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6498580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -202,8 +202,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::LogType)>(&::UnityEngine::ProBuilder::Log::DoPrint)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x470fd8c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x64a4dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,8 +217,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(&::UnityEngine::ProBuilder::Log::PrintToFile)> {
-  constexpr static std::size_t size = 0x3f8;
-  constexpr static std::size_t addrs = 0x47101ac;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x64a5210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,8 +231,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::ProBuilder::Log::ClearLogFile)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x47105a4;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x64a554c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Log*>::get(), "ClearLogFile",
@@ -244,8 +244,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::LogType)>(&::UnityEngine::ProBuilder::Log::PrintToConsole)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x47100c8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x64a5120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

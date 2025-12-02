@@ -1,15 +1,46 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/SphericalHarmonicsL2.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SphericalHarmonicsL2_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2.get_Item
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(int32_t, int32_t)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2::get_Item)> {
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x68e8d4c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "get_Item", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2.set_Item
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(int32_t, int32_t, float_t)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2::set_Item)> {
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x68e8e94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::SphericalHarmonicsL2::*)()>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::GetHashCode)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x48c66e0;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x68e8fdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::System::Object*)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x48c68b4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x68e9240;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SphericalHarmonicsL2::*)(::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48c696c;
+  constexpr static std::size_t addrs = 0x68e92e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2)>(
     &::UnityEngine::Rendering::SphericalHarmonicsL2::op_Equality)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x48c69b4;
+  constexpr static std::size_t addrs = 0x68e932c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,6 +95,35 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::SphericalHarmonicsL2.op_Inequality
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::SphericalHarmonicsL2, ::UnityEngine::Rendering::SphericalHarmonicsL2)>(
+    &::UnityEngine::Rendering::SphericalHarmonicsL2::op_Inequality)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x68e94e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "op_Inequality", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get() })));
+    return ___internal_method;
+  }
+};
+inline float_t UnityEngine::Rendering::SphericalHarmonicsL2::get_Item(int32_t rgb, int32_t coefficient) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "get_Item", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, rgb, coefficient);
+}
+inline void UnityEngine::Rendering::SphericalHarmonicsL2::set_Item(int32_t rgb, int32_t coefficient, float_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "set_Item", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rgb, coefficient, value);
+}
 inline int32_t UnityEngine::Rendering::SphericalHarmonicsL2::GetHashCode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), 2)));
@@ -85,6 +145,13 @@ inline bool UnityEngine::Rendering::SphericalHarmonicsL2::op_Equality(::UnityEng
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+}
+inline bool UnityEngine::Rendering::SphericalHarmonicsL2::op_Inequality(::UnityEngine::Rendering::SphericalHarmonicsL2 lhs, ::UnityEngine::Rendering::SphericalHarmonicsL2 rhs) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(), "op_Inequality", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::SphericalHarmonicsL2>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::SphericalHarmonicsL2>"

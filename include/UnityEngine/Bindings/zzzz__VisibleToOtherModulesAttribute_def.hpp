@@ -23,10 +23,10 @@ public:
 
   static inline ::UnityEngine::Bindings::VisibleToOtherModulesAttribute* New_ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
-  /// @brief Method .ctor, addr 0x4918a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6981c04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4918a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6981c08, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> modules);
 
 protected:
@@ -44,7 +44,7 @@ public:
   VisibleToOtherModulesAttribute(VisibleToOtherModulesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22695 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

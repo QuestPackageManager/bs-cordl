@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>* (
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Edges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46fe3d4;
+  constexpr static std::size_t addrs = 0x649330c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*>*)>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Edges)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46fe3dc;
+  constexpr static std::size_t addrs = 0x6493314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(double_t, double_t, int32_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46f7fb8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x648d0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::ToString)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x46fe3e4;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x649331c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Xf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46fe4ec;
+  constexpr static std::size_t addrs = 0x6493434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(float_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Xf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46fe4f8;
+  constexpr static std::size_t addrs = 0x6493440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_Yf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46fe504;
+  constexpr static std::size_t addrs = 0x649344c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>::get(),
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(float_t)>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::set_Yf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46fe510;
+  constexpr static std::size_t addrs = 0x6493458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +129,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::DTSweepConstraint*)>(&::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::AddEdge)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x46fd0b4;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6492024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint::get_HasEdges)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46fa304;
+  constexpr static std::size_t addrs = 0x648f154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>::get(),

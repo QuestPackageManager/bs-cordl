@@ -23,4 +23,6 @@ constexpr ::UnityEngine::PlayerLoop::PreUpdate_UpdateVideo::PreUpdate_UpdateVide
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PreUpdate_NewInputUpdate::PreUpdate_NewInputUpdate() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::PreUpdate_InputForUIUpdate::PreUpdate_InputForUIUpdate() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PreUpdate::PreUpdate() {}

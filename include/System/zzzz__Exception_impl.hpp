@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Exception.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Diagnostics/zzzz__StackTrace_def.hpp"
 #include "System/Runtime/ExceptionServices/zzzz__ExceptionDispatchInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SafeSerializationManager_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
@@ -26,8 +26,8 @@ constexpr ::System::Exception_ExceptionMessageKind System::Exception_ExceptionMe
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)()>(&::System::Exception::Init)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e22bf0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5a68324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), "Init",
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)()>(&::System::Exception::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3e22c60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5a6838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), ".ctor",
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)(::StringW)>(&::System::Exception::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3e22c7c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5a68390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,8 +66,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)(::StringW, ::System::Exception*)>(&::System::Exception::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e22cac;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5a683b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Exception::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Exception::_ctor)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x3e22ce4;
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x5a683e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)()>(&::System::Exception::get_Message)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e23140;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5a68858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,8 +111,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionary* (::System::Exception::*)()>(&::System::Exception::get_Data)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e23254;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5a68974;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)()>(&::System::Exception::GetClassName)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e23218;
+  constexpr static std::size_t addrs = 0x5a68938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), "GetClassName",
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Exception::*)()>(&::System::Exception::get_InnerException)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e232c0;
+  constexpr static std::size_t addrs = 0x5a689d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), "get_InnerException",
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)()>(&::System::Exception::get_StackTrace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e232c8;
+  constexpr static std::size_t addrs = 0x5a689e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)(bool)>(&::System::Exception::GetStackTrace)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3e232d0;
+  constexpr static std::size_t addrs = 0x5a689e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)(int32_t)>(&::System::Exception::SetErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e23324;
+  constexpr static std::size_t addrs = 0x5a68a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)()>(&::System::Exception::get_Source)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3e2332c;
+  constexpr static std::size_t addrs = 0x5a68a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)()>(&::System::Exception::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e23438;
+  constexpr static std::size_t addrs = 0x5a68b50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,8 +221,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)(bool, bool)>(&::System::Exception::ToString)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3e23444;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5a68b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Exception::*)(::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Exception::GetObjectData)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x3e2362c;
+  constexpr static std::size_t size = 0x4ac;
+  constexpr static std::size_t addrs = 0x5a68d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Exception::OnDeserialized)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3e23ad4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5a691f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Exception::*)(::StringW, bool)>(&::System::Exception::StripFileInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e2331c;
+  constexpr static std::size_t addrs = 0x5a68a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)(::System::Runtime::ExceptionServices::ExceptionDispatchInfo*)>(
     &::System::Exception::RestoreExceptionDispatchInfo)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3e23b4c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5a69268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Exception::*)()>(&::System::Exception::get_HResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e23be8;
+  constexpr static std::size_t addrs = 0x5a69308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), "get_HResult",
@@ -308,7 +308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Exception::*)(int32_t)>(&::System::Exception::set_HResult)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e23bf0;
+  constexpr static std::size_t addrs = 0x5a69310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -321,8 +321,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Exception::*)()>(&::System::Exception::GetType)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e232b8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5a689cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), "GetType",
@@ -334,8 +334,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Exception_ExceptionMessageKind)>(&::System::Exception::GetMessageFromNativeResources)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e23bf8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5a69318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Exception::*)()>(&::System::Exception::FixRemotingException)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3e23c7c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5a693bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Exception*>::get(), "FixRemotingException",
@@ -362,7 +362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*)>(&::System::Exception::ReportUnhandledException)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e23d64;
+  constexpr static std::size_t addrs = 0x5a694c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

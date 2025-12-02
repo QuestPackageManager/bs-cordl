@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsNullCipher.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsNullCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2433b6c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x336214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::*)(
     ::Org::BouncyCastle::Crypto::Tls::TlsContext*, ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::_ctor)> {
-  constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x2433b98;
+  constexpr static std::size_t size = 0x448;
+  constexpr static std::size_t addrs = 0x3362158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::GetPlaintextLimit)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x243417c;
+  constexpr static std::size_t addrs = 0x336274c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::EncodePlaintext)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x24341a8;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x3362778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::*)(
     int64_t, uint8_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::TlsNullCipher::DecodeCiphertext)> {
   constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x24342d8;
+  constexpr static std::size_t addrs = 0x33628bc;
 
   inline static ::MethodInfo const* methodInfo() {
 

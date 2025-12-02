@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)()>(&::GlobalNamespace::SignalOnToggleChange::Start)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39c4850;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x563f4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnToggleChange*>::get(), "Start",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)()>(&::GlobalNamespace::SignalOnToggleChange::OnDestroy)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x39c48f4;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x563f5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnToggleChange*>::get(), "OnDestroy",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)(bool)>(&::GlobalNamespace::SignalOnToggleChange::RaiseSignal)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39c49dc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x563f70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SignalOnToggleChange::*)()>(&::GlobalNamespace::SignalOnToggleChange::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c49fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563f728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SignalOnToggleChange*>::get(), ".ctor",

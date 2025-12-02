@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::System::Security::Cryptography::CspParameters*)>(
     &::Mono::Security::Cryptography::KeyPairPersistence::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c61a94;
+  constexpr static std::size_t addrs = 0x58a4b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(
     ::System::Security::Cryptography::CspParameters*, ::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c61a9c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x58a4b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_Filename)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3c61bb4;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x58a4c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_KeyValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c628ac;
+  constexpr static std::size_t addrs = 0x58a5a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::StringW)>(
     &::Mono::Security::Cryptography::KeyPairPersistence::set_KeyValue)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c628b4;
+  constexpr static std::size_t addrs = 0x58a5a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::Load)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3c628d8;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x58a5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::Save)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3c62bac;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x58a5ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::Remove)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c63124;
+  constexpr static std::size_t addrs = 0x58a62e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -124,8 +124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_UserPath)> {
-  constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x3c62388;
+  constexpr static std::size_t size = 0x578;
+  constexpr static std::size_t addrs = 0x58a54c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Mono::Security::Cryptography::KeyPairPersistence::get_MachinePath)> {
-  constexpr static std::size_t size = 0x524;
-  constexpr static std::size_t addrs = 0x3c61e64;
+  constexpr static std::size_t size = 0x578;
+  constexpr static std::size_t addrs = 0x58a4f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -149,71 +149,70 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Mono::Security::Cryptography::KeyPairPersistence._CanSecure
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>)>(&::Mono::Security::Cryptography::KeyPairPersistence::_CanSecure)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c63258;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_CanSecure)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58a63e0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_CanSecure", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_CanSecure",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::Cryptography::KeyPairPersistence._ProtectUser
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c6325c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58a63e8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectUser", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectUser",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::Cryptography::KeyPairPersistence._ProtectMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c63260;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58a63f0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectMachine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectMachine",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::Cryptography::KeyPairPersistence._IsUserProtected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>)>(&::Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c63264;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58a63f8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsUserProtected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsUserProtected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::Mono::Security::Cryptography::KeyPairPersistence._IsMachineProtected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::cordl_internals::Ptr<char16_t>)>(
-    &::Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c63268;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t*)>(&::Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58a6400;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsMachineProtected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsMachineProtected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
     return ___internal_method;
   }
 };
@@ -221,8 +220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::CanSecure)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c6326c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x58a6408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,8 +234,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::ProtectUser)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c63094;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x58a6270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -249,8 +248,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::ProtectMachine)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c63004;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x58a61fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -263,8 +262,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::IsUserProtected)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c63138;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x58a62f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,8 +276,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Mono::Security::Cryptography::KeyPairPersistence::IsMachineProtected)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c631c8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x58a636c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -293,7 +292,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_CanChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c628c8;
+  constexpr static std::size_t addrs = 0x58a5a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -306,8 +305,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_UseDefaultKeyContainer)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c6330c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x58a648c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -320,8 +319,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_UseMachineKeyStore)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c61e44;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x58a4f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -335,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::get_ContainerName)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3c61d44;
+  constexpr static std::size_t addrs = 0x58a4e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -349,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::CspParameters* (
     ::Mono::Security::Cryptography::KeyPairPersistence::*)(::System::Security::Cryptography::CspParameters*)>(&::Mono::Security::Cryptography::KeyPairPersistence::Copy)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3c61b1c;
+  constexpr static std::size_t addrs = 0x58a4be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -363,8 +362,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::KeyPairPersistence::*)(::StringW)>(
     &::Mono::Security::Cryptography::KeyPairPersistence::FromXml)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3c62a90;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x58a5bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,8 +377,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::Cryptography::KeyPairPersistence::*)()>(
     &::Mono::Security::Cryptography::KeyPairPersistence::ToXml)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3c62df0;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x58a5f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(),
@@ -524,34 +523,34 @@ inline ::StringW Mono::Security::Cryptography::KeyPairPersistence::get_MachinePa
                                                                              "get_MachinePath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method);
 }
-inline bool Mono::Security::Cryptography::KeyPairPersistence::_CanSecure(::cordl_internals::Ptr<char16_t> root) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_CanSecure", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline bool Mono::Security::Cryptography::KeyPairPersistence::_CanSecure(char16_t* root) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_CanSecure",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, root);
 }
-inline bool Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser(::cordl_internals::Ptr<char16_t> path) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectUser", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline bool Mono::Security::Cryptography::KeyPairPersistence::_ProtectUser(char16_t* path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectUser",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path);
 }
-inline bool Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine(::cordl_internals::Ptr<char16_t> path) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectMachine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline bool Mono::Security::Cryptography::KeyPairPersistence::_ProtectMachine(char16_t* path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_ProtectMachine",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path);
 }
-inline bool Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected(::cordl_internals::Ptr<char16_t> path) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsUserProtected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline bool Mono::Security::Cryptography::KeyPairPersistence::_IsUserProtected(char16_t* path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsUserProtected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path);
 }
-inline bool Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected(::cordl_internals::Ptr<char16_t> path) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsMachineProtected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get() })));
+inline bool Mono::Security::Cryptography::KeyPairPersistence::_IsMachineProtected(char16_t* path) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::KeyPairPersistence*>::get(), "_IsMachineProtected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, path);
 }
 inline bool Mono::Security::Cryptography::KeyPairPersistence::CanSecure(::StringW path) {

@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(::System::Action_1<::GlobalNamespace::AutoSetupData*>*)>(
     &::GlobalNamespace::AutoSetupController::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b55204;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x573dce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(::System::Action_1<::GlobalNamespace::AutoSetupData*>*)>(
     &::GlobalNamespace::AutoSetupController::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b552b4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x573dda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(::GlobalNamespace::AutoSetupData*)>(
     &::GlobalNamespace::AutoSetupController::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b55364;
+  constexpr static std::size_t addrs = 0x573de64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::OnEnable)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3b5536c;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x573de6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoSetupController*>::get(), "OnEnable",
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::OnDisable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b55560;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x573e13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoSetupController*>::get(), "OnDisable",
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b5557c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x573e154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoSetupController*>::get(), ".ctor",
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)()>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b55644;
+  constexpr static std::size_t addrs = 0x573e210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AutoSetupController*>::get(),
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_1)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b55664;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x573e230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,8 +123,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_2)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b55684;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x573e24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_3)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b556a4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x573e268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,8 +151,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AutoSetupController::*)(bool)>(&::GlobalNamespace::AutoSetupController::_OnEnable_b__12_4)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b556c4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x573e284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

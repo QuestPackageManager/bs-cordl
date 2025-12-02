@@ -58,11 +58,11 @@ public:
 
   static inline ::UnityEngine::UIElements::CollectionVirtualizationController* New_ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
-  /// @brief Method OnBlur, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void OnBlur(::UnityEngine::UIElements::VisualElement* willFocus);
+  /// @brief Method OnFocusIn, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnFocusIn(::UnityEngine::UIElements::VisualElement* leafTarget);
 
-  /// @brief Method OnFocus, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void OnFocus(::UnityEngine::UIElements::VisualElement* leafTarget);
+  /// @brief Method OnFocusOut, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnFocusOut(::UnityEngine::UIElements::VisualElement* willFocus);
 
   /// @brief Method OnScroll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnScroll(::UnityEngine::Vector2 offset);
@@ -79,6 +79,9 @@ public:
   /// @brief Method StartDragItem, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void StartDragItem(::UnityEngine::UIElements::ReusableCollectionItem* item);
 
+  /// @brief Method UnbindAll, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void UnbindAll();
+
   /// @brief Method UpdateBackground, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateBackground();
 
@@ -88,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ScrollView(::UnityEngine::UIElements::ScrollView* value);
 
-  /// @brief Method .ctor, addr 0x497def8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a20a90, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::ScrollView* scrollView);
 
   /// @brief Method get_activeItems, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -118,7 +121,7 @@ public:
   CollectionVirtualizationController(CollectionVirtualizationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4087 };
 
   /// @brief Field m_ScrollView, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::ScrollView* ___m_ScrollView;

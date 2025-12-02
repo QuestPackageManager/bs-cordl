@@ -25,16 +25,16 @@ public:
 
   static inline ::Org::BouncyCastle::Bcpg::Sig::KeyExpirationTime* New_ctor(bool critical, int64_t seconds);
 
-  /// @brief Method TimeToBytes, addr 0x263ebd0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method TimeToBytes, addr 0x356e7e8, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> TimeToBytes(int64_t t);
 
-  /// @brief Method .ctor, addr 0x263ec64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356e880, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
 
-  /// @brief Method .ctor, addr 0x263ecac, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x356e898, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(bool critical, int64_t seconds);
 
-  /// @brief Method get_Time, addr 0x263ecf8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Time, addr 0x356e8d0, size 0x5c, virtual false, abstract: false, final false
   inline int64_t get_Time();
 
 protected:

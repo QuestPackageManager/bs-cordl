@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/ContentSizeFitter.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutController_impl.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutSelfController_impl.hpp"
 #include "UnityEngine/zzzz__DrivenRectTransformTracker_impl.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
 #include "UnityEngine/UI/zzzz__ContentSizeFitter_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutSelfController_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UI::ContentSizeFitter_FitMode::ContentSizeFitter_FitMode(int32_t value__) noexcept {
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ContentSizeFitter_FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_horizontalFit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab881c;
+  constexpr static std::size_t addrs = 0x6bc4b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(),
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::ContentSizeFitter_FitMode)>(
     &::UnityEngine::UI::ContentSizeFitter::set_horizontalFit)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4ab8824;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6bc4b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ContentSizeFitter_FitMode (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_verticalFit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab891c;
+  constexpr static std::size_t addrs = 0x6bc4c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "get_verticalFit",
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(::UnityEngine::UI::ContentSizeFitter_FitMode)>(
     &::UnityEngine::UI::ContentSizeFitter::set_verticalFit)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4ab8924;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6bc4c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::get_rectTransform)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4ab8998;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6bc4cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(),
@@ -92,8 +92,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8a2c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6bc4d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), ".ctor",
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnEnable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4ab8a34;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6bc4d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,8 +119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::OnDisable)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4ab8a50;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6bc4d60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(
     &::UnityEngine::UI::ContentSizeFitter::OnRectTransformDimensionsChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4ab8acc;
+  constexpr static std::size_t addrs = 0x6bc4dc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)(int32_t)>(
     &::UnityEngine::UI::ContentSizeFitter::HandleSelfFittingAlongAxis)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4ab8ad0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6bc4dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,8 +163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetLayoutHorizontal)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4ab8bcc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6bc4e84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -178,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8bf0;
+  constexpr static std::size_t addrs = 0x6bc4e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,8 +191,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ContentSizeFitter::*)()>(&::UnityEngine::UI::ContentSizeFitter::SetDirty)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4ab8898;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6bc4bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ContentSizeFitter*>::get(), "SetDirty",

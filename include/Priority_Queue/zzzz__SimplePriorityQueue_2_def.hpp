@@ -4,14 +4,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Priority_Queue/zzzz__GenericPriorityQueueNode_1_def.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimplePriorityQueue_2)
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class GenericPriorityQueue_2;
+}
+namespace Priority_Queue {
+template <typename TItem, typename TPriority> class IPriorityQueue_2;
 }
 namespace Priority_Queue {
 template <typename TItem, typename TPriority> class SimplePriorityQueue_2_SimpleNode;
@@ -23,6 +23,9 @@ namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
@@ -30,6 +33,9 @@ template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IList_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -93,7 +99,7 @@ public:
   SimplePriorityQueue_2_SimpleNode(SimplePriorityQueue_2_SimpleNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20506 };
 
   /// @brief Field <Data>k__BackingField, offset: 0x28, size: 0x8, def value: None
   TItem ____Data_k__BackingField;
@@ -102,7 +108,7 @@ public:
 };
 // Non member Declarations
 } // namespace Priority_Queue
-// Dependencies Priority_Queue.IPriorityQueue`2<TItem, TPriority>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace Priority_Queue {
 // cpp template
 template <typename TItem, typename TPriority>
@@ -284,7 +290,7 @@ public:
   static constexpr int32_t INITIAL_QUEUE_SIZE{ static_cast<int32_t>(0xa) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16950 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20507 };
 
   /// @brief Field _queue, offset: 0x10, size: 0x8, def value: None
   ::Priority_Queue::GenericPriorityQueue_2<::Priority_Queue::SimplePriorityQueue_2_SimpleNode<TItem, TPriority>*, TPriority>* ____queue;

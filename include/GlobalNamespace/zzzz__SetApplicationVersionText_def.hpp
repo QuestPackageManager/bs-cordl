@@ -3,25 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include <cstddef>
-#include <cstdint>
 CORDL_MODULE_EXPORT(SetApplicationVersionText)
 namespace BeatSaber::Init {
 class GameVersionProvider;
 }
 namespace BeatSaber::Init {
 class GameVersion;
-}
-namespace GlobalNamespace {
-struct SetApplicationVersionText__Start_d__8;
-}
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
 }
 namespace TMPro {
 class TextMeshPro;
@@ -33,74 +22,8 @@ class SpriteRenderer;
 namespace GlobalNamespace {
 class SetApplicationVersionText;
 }
-namespace GlobalNamespace {
-struct SetApplicationVersionText__Start_d__8;
-}
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SetApplicationVersionText);
-MARK_VAL_T(::GlobalNamespace::SetApplicationVersionText__Start_d__8);
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: SetApplicationVersionText/<Start>d__8
-struct CORDL_TYPE SetApplicationVersionText__Start_d__8 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x3ba9e60, size 0x2d4, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x3baa134, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SetApplicationVersionText__Start_d__8();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::SetApplicationVersionText>",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Init::GameVersion*>", modifiers: "", def_value: None }]
-  constexpr SetApplicationVersionText__Start_d__8(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
-                                                  ::UnityW<::GlobalNamespace::SetApplicationVersionText> __4__this,
-                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Init::GameVersion*> __u__1) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4423 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SetApplicationVersionText> __4__this;
-
-  /// @brief Field <>u__1, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Init::GameVersion*> __u__1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SetApplicationVersionText__Start_d__8, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SetApplicationVersionText__Start_d__8, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SetApplicationVersionText__Start_d__8, __4__this) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::SetApplicationVersionText__Start_d__8, __u__1) == 0x30, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetApplicationVersionText__Start_d__8, 0x38>, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
@@ -108,8 +31,6 @@ namespace GlobalNamespace {
 class CORDL_TYPE SetApplicationVersionText : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
-  using _Start_d__8 = ::GlobalNamespace::SetApplicationVersionText__Start_d__8;
-
   /// @brief Field _buildIdText, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__buildIdText, put = __cordl_internal_set__buildIdText)) ::UnityW<::TMPro::TextMeshPro> _buildIdText;
 
@@ -136,11 +57,14 @@ public:
 
   static inline ::GlobalNamespace::SetApplicationVersionText* New_ctor();
 
-  /// @brief Method SetText, addr 0x3ba9b1c, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method SetText, addr 0x5798aa8, size 0x300, virtual false, abstract: false, final false
   inline void SetText(::BeatSaber::Init::GameVersion* gameVersion);
 
-  /// @brief Method Start, addr 0x3ba9a8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5798994, size 0x114, virtual false, abstract: false, final false
   inline void Start();
+
+  /// @brief Method ToggleVersionColor, addr 0x5798da8, size 0x94, virtual false, abstract: false, final false
+  inline void ToggleVersionColor();
 
   constexpr ::UnityW<::TMPro::TextMeshPro> const& __cordl_internal_get__buildIdText() const;
 
@@ -190,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__versionText(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3ba9e40, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5798e3c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -208,7 +132,7 @@ public:
   SetApplicationVersionText(SetApplicationVersionText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6006 };
 
   /// @brief Field _versionText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____versionText;
@@ -258,4 +182,3 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SetApplicationV
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SetApplicationVersionText);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetApplicationVersionText*, "", "SetApplicationVersionText");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SetApplicationVersionText__Start_d__8, "", "SetApplicationVersionText/<Start>d__8");

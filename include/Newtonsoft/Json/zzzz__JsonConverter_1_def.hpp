@@ -70,7 +70,7 @@ public:
   JsonConverter_1(JsonConverter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10065 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

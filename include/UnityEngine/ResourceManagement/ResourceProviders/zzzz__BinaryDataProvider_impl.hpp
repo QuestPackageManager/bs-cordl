@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::GetPercentComplete)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x479c9ec;
+  constexpr static std::size_t addrs = 0x66fd700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,8 +33,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle, ::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider*)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::Start)> {
-  constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x479c558;
+  constexpr static std::size_t size = 0x4dc;
+  constexpr static std::size_t addrs = 0x66fd220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::WaitForCompletionHandler)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x479cba8;
+  constexpr static std::size_t addrs = 0x66fd8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(
     ::UnityEngine::AsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::RequestOperation_completed)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x479cc1c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x66fd93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::Exception*)>(&::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::CompleteOperation)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x479cdd8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x66fdb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,8 +98,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::ConvertBytes)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x479ca04;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x66fd718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::SendWebRequest)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x479ce7c;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x66fdbb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,8 +129,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479c550;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66fd21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::*)(
     ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider_InternalOp::_SendWebRequest_b__13_0)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x479d104;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x66fde74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::get_IgnoreFailures)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479c494;
+  constexpr static std::size_t addrs = 0x66fd180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -333,8 +333,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)(bool)>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::set_IgnoreFailures)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x479c49c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x66fd188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -350,7 +350,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)(::System::Type*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
         &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::Convert)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479c4a8;
+  constexpr static std::size_t addrs = 0x66fd190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -365,8 +365,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)(
     ::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle)>(&::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::Provide)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x479c4b0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x66fd198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -381,8 +381,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::BinaryDataProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479c9e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66fd6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

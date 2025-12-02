@@ -3,12 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Reflection/zzzz__BindingFlags_def.hpp"
-#include "System/Reflection/zzzz__IReflectableType_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 CORDL_MODULE_EXPORT(TypeInfo)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Reflection {
+class IReflectableType;
 }
 namespace System {
 class Type;
@@ -19,7 +20,7 @@ class TypeInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::TypeInfo);
-// Dependencies System.Reflection.BindingFlags, System.Reflection.IReflectableType, System.Type
+// Dependencies System.Type
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.TypeInfo
@@ -33,13 +34,13 @@ public:
 
   static inline ::System::Reflection::TypeInfo* New_ctor();
 
-  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x3d28c88, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Reflection.IReflectableType.GetTypeInfo, addr 0x596dc68, size 0x4, virtual true, abstract: false, final true
   inline ::System::Reflection::TypeInfo* System_Reflection_IReflectableType_GetTypeInfo();
 
-  /// @brief Method .ctor, addr 0x3d28598, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596d5f4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ImplementedInterfaces, addr 0x3d28c8c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method get_ImplementedInterfaces, addr 0x596dc6c, size 0x10, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_ImplementedInterfaces();
 
   /// @brief Convert to "::System::Reflection::IReflectableType"
@@ -59,11 +60,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   TypeInfo(TypeInfo const&) = delete;
 
-  /// @brief Field DeclaredOnlyLookup value: I32(62)
-  static ::System::Reflection::BindingFlags const DeclaredOnlyLookup;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

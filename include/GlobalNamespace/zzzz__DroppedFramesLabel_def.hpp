@@ -49,13 +49,13 @@ public:
 
   static inline ::GlobalNamespace::DroppedFramesLabel* New_ctor();
 
-  /// @brief Method RefreshText, addr 0x39bfe58, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method RefreshText, addr 0x563a98c, size 0x16c, virtual false, abstract: false, final false
   inline void RefreshText();
 
-  /// @brief Method Start, addr 0x39bfd54, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x563a850, size 0x78, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x39bfdc8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x563a8c8, size 0xc4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr int32_t const& __cordl_internal_get__expectedFrameRate() const;
@@ -106,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set__totalNumberOfDroppedFrames(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39bffc0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x563aaf8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,7 +124,7 @@ public:
   DroppedFramesLabel(DroppedFramesLabel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20023 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

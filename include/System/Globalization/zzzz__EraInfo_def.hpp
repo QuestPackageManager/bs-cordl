@@ -97,10 +97,10 @@ public:
 
   constexpr void __cordl_internal_set_yearOffset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d9ec84, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b2258, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
 
-  /// @brief Method .ctor, addr 0x3d9ed68, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59b2330, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName,
                     ::StringW englishEraName);
 
@@ -119,7 +119,7 @@ public:
   EraInfo(EraInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3625 };
 
   /// @brief Field era, offset: 0x10, size: 0x4, def value: None
   int32_t ___era;

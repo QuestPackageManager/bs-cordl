@@ -26,23 +26,23 @@ public:
   /// @brief Field m_positiveBuffer, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_m_positiveBuffer, put = setStaticF_m_positiveBuffer)) ::ArrayW<::StringW, ::Array<::StringW>*> m_positiveBuffer;
 
-  /// @brief Method Dispose, addr 0x44cdf58, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x621d0ec, size 0xa0, virtual false, abstract: false, final false
   static inline void Dispose();
 
-  /// @brief Method Init, addr 0x44d2220, size 0x238, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6221318, size 0x230, virtual false, abstract: false, final false
   static inline void Init(int32_t minNegativeValue, int32_t maxPositiveValue);
 
-  /// @brief Method ToStringNonAlloc, addr 0x44d2458, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ToStringNonAlloc, addr 0x6221548, size 0x124, virtual false, abstract: false, final false
   static inline ::StringW ToStringNonAlloc(int32_t value);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_negativeBuffer();
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_m_positiveBuffer();
 
-  /// @brief Method get_MaxValue, addr 0x44d21bc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method get_MaxValue, addr 0x62212b0, size 0x68, virtual false, abstract: false, final false
   static inline int32_t get_MaxValue();
 
-  /// @brief Method get_MinValue, addr 0x44d2150, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_MinValue, addr 0x6221240, size 0x70, virtual false, abstract: false, final false
   static inline int32_t get_MinValue();
 
   static inline void setStaticF_m_negativeBuffer(::ArrayW<::StringW, ::Array<::StringW>*> value);
@@ -64,7 +64,7 @@ public:
   G_IntString(G_IntString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

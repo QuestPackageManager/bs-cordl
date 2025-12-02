@@ -11,7 +11,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, float_t)>(
         &::GlobalNamespace::CubicBezierHelper::EvaluateCurve)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39bf318;
+  constexpr static std::size_t addrs = 0x5639a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, float_t)>(
         &::GlobalNamespace::CubicBezierHelper::EvaluateCurveDerivative)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39bf3a8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5639ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +50,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::Vector3 (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, float_t)>(
         &::GlobalNamespace::CubicBezierHelper::EvaluateCurveSecondDerivative)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x39bf438;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5639b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(
     ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, float_t)>(&::GlobalNamespace::CubicBezierHelper::Normal)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x39bf4bc;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5639c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, float_t)>(
     &::GlobalNamespace::CubicBezierHelper::SplitCurve)> {
-  constexpr static std::size_t size = 0x4bc;
-  constexpr static std::size_t addrs = 0x39bf624;
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x5639d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>,
                                                                                               ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::CubicBezierHelper::EstimateCurveLength)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x39bfae0;
+  constexpr static std::size_t size = 0x2f8;
+  constexpr static std::size_t addrs = 0x563a25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

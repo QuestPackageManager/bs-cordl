@@ -83,28 +83,28 @@ public:
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* New_ctor();
 
-  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x477ba0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_0, addr 0x6513b14, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _CreateMeshWithTransform_b__1_0(::UnityEngine::Mesh* x);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x477ba24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_1, addr 0x6513b2c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _CreateMeshWithTransform_b__1_1(::UnityEngine::Mesh* x);
 
-  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x477ba3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <CreateMeshWithTransform>b__1_2, addr 0x6513b44, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _CreateMeshWithTransform_b__1_2(::UnityEngine::Mesh* x);
 
-  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x477ba9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method <FilterUnusedSubmeshIndexes>b__3_0, addr 0x6513ba4, size 0xc, virtual false, abstract: false, final false
   inline bool _FilterUnusedSubmeshIndexes_b__3_0(bool x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x477ba54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_0, addr 0x6513b5c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _ResetPbObjectWithMeshFilter_b__2_0(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x477ba6c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_1, addr 0x6513b74, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _ResetPbObjectWithMeshFilter_b__2_1(::UnityEngine::Mesh* x);
 
-  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x477ba84, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <ResetPbObjectWithMeshFilter>b__2_2, addr 0x6513b8c, size 0x18, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _ResetPbObjectWithMeshFilter_b__2_2(::UnityEngine::Mesh* x);
 
-  /// @brief Method .ctor, addr 0x477ba04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6513b10, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c* getStaticF___9();
@@ -154,7 +154,7 @@ public:
   InternalMeshUtility___c(InternalMeshUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -171,17 +171,17 @@ public:
   // Declarations
   using __c = ::UnityEngine::ProBuilder::MeshOperations::InternalMeshUtility___c;
 
-  /// @brief Method AverageNormalWithIndexes, addr 0x4777a7c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AverageNormalWithIndexes, addr 0x650fafc, size 0x198, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 AverageNormalWithIndexes(::UnityEngine::ProBuilder::SharedVertex* shared, ::ArrayW<int32_t, ::Array<int32_t>*> all,
                                                                 ::System::Collections::Generic::IList_1<::UnityEngine::Vector3>* norm);
 
-  /// @brief Method CreateMeshWithTransform, addr 0x4778f84, size 0x10b0, virtual false, abstract: false, final false
+  /// @brief Method CreateMeshWithTransform, addr 0x6510fcc, size 0x112c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> CreateMeshWithTransform(::UnityEngine::Transform* t, bool preserveFaces);
 
-  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x477b458, size 0x550, virtual false, abstract: false, final false
+  /// @brief Method FilterUnusedSubmeshIndexes, addr 0x6513598, size 0x524, virtual false, abstract: false, final false
   static inline void FilterUnusedSubmeshIndexes(::UnityEngine::ProBuilder::ProBuilderMesh* mesh);
 
-  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x477a30c, size 0x114c, virtual false, abstract: false, final false
+  /// @brief Method ResetPbObjectWithMeshFilter, addr 0x65123f8, size 0x11a0, virtual false, abstract: false, final false
   static inline bool ResetPbObjectWithMeshFilter(::UnityEngine::ProBuilder::ProBuilderMesh* pb, bool preserveFaces);
 
 protected:
@@ -199,7 +199,7 @@ public:
   InternalMeshUtility(InternalMeshUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14384 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16831 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

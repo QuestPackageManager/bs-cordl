@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionRunEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a3550c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b724c8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TransitionRunEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a35504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b724c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::TransitionRunEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   TransitionRunEvent___c(TransitionRunEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4567 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::TransitionRunEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a35460, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b72424, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +93,12 @@ public:
   TransitionRunEvent(TransitionRunEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5941 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4568 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionRunEvent, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TransitionRunEvent, 0x78>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TransitionRunEvent);

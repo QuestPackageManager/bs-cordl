@@ -93,6 +93,14 @@ public:
     __E_SLASH_SCALE = static_cast<int32_t>(0x72f142b7),
     __E_ROTATE = static_cast<int32_t>(0xc4651799),
     __E_SLASH_ROTATE = static_cast<int32_t>(0xd26babf6),
+    __E_TABLE = static_cast<int32_t>(0xd7fc39b),
+    __E_SLASH_TABLE = static_cast<int32_t>(0xc5a3d774),
+    __E_TH = static_cast<int32_t>(0x597459),
+    __E_SLASH_TH = static_cast<int32_t>(0xb863a16),
+    __E_TR = static_cast<int32_t>(0x597443),
+    __E_SLASH_TR = static_cast<int32_t>(0xb863a0c),
+    __E_TD = static_cast<int32_t>(0x597455),
+    __E_SLASH_TD = static_cast<int32_t>(0xb863a1a),
     __E_LOWERCASE = static_cast<int32_t>(0xa62e8917),
     __E_SLASH_LOWERCASE = static_cast<int32_t>(0xa97f2798),
     __E_ALLCAPS = static_cast<int32_t>(0xd0298a0),
@@ -112,6 +120,10 @@ public:
     __E_MATERIAL = static_cast<int32_t>(0x313400cb),
     __E_HREF = static_cast<int32_t>(0x26afb9),
     __E_ANGLE = static_cast<int32_t>(0x47db7c1),
+    __E_PADDING = static_cast<int32_t>(0x802c7b71),
+    __E_FAMILYNAME = static_cast<int32_t>(0x29fa0511),
+    __E_STYLENAME = static_cast<int32_t>(0xb80d6430),
+    __E_DUOSPACE = static_cast<int32_t>(0x22bcfb9a),
     __E_RED = static_cast<int32_t>(0x165f3),
     __E_GREEN = static_cast<int32_t>(0x53084fb),
     __E_BLUE = static_cast<int32_t>(0x257e7e),
@@ -120,8 +132,12 @@ public:
     __E_BLACK = static_cast<int32_t>(0x4d51a27),
     __E_WHITE = static_cast<int32_t>(0x64c8d87),
     __E_PURPLE = static_cast<int32_t>(0xb57b1fce),
+    __E_GREY = static_cast<int32_t>(0x284209),
+    __E_LIGHTBLUE = static_cast<int32_t>(0x145436c0),
     __E_BR = static_cast<int32_t>(0x8d0),
+    __E_CR = static_cast<int32_t>(0x8f1),
     __E_ZWSP = static_cast<int32_t>(0x322cae),
+    __E_ZWJ = static_cast<int32_t>(0x18527),
     __E_NBSP = static_cast<int32_t>(0x2bc72f),
     __E_SHY = static_cast<int32_t>(0x16a02),
     __E_LEFT = static_cast<int32_t>(0x28989b),
@@ -147,8 +163,10 @@ public:
     __E_TRUE = static_cast<int32_t>(0x2cbd36),
     __E_FALSE = static_cast<int32_t>(0x51772dd),
     __E_INVALID = static_cast<int32_t>(0x5e7f8411),
+    __E_NOTDEF = static_cast<int32_t>(0x247c9e5c),
     __E_NORMAL = static_cast<int32_t>(0xb97550f3),
     __E_DEFAULT = static_cast<int32_t>(0xdafcb04b),
+    __E_REGULAR = static_cast<int32_t>(0x4cf8c63a),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -213,14 +231,23 @@ public:
   /// @brief Field COLOR value: I32(81999901)
   static ::TMPro::MarkupTag const COLOR;
 
+  /// @brief Field CR value: I32(2289)
+  static ::TMPro::MarkupTag const CR;
+
   /// @brief Field DEFAULT value: I32(-620974005)
   static ::TMPro::MarkupTag const DEFAULT;
+
+  /// @brief Field DUOSPACE value: I32(582810522)
+  static ::TMPro::MarkupTag const DUOSPACE;
 
   /// @brief Field EM value: I32(2216)
   static ::TMPro::MarkupTag const EM;
 
   /// @brief Field FALSE value: I32(85422813)
   static ::TMPro::MarkupTag const FALSE;
+
+  /// @brief Field FAMILYNAME value: I32(704251153)
+  static ::TMPro::MarkupTag const FAMILYNAME;
 
   /// @brief Field FLUSH value: I32(85552164)
   static ::TMPro::MarkupTag const FLUSH;
@@ -239,6 +266,9 @@ public:
 
   /// @brief Field GREEN value: I32(87065851)
   static ::TMPro::MarkupTag const GREEN;
+
+  /// @brief Field GREY value: I32(2638345)
+  static ::TMPro::MarkupTag const GREY;
 
   /// @brief Field HREF value: I32(2535353)
   static ::TMPro::MarkupTag const HREF;
@@ -263,6 +293,9 @@ public:
 
   /// @brief Field LIGA value: I32(2655971)
   static ::TMPro::MarkupTag const LIGA;
+
+  /// @brief Field LIGHTBLUE value: I32(341063360)
+  static ::TMPro::MarkupTag const LIGHTBLUE;
 
   /// @brief Field LINE_HEIGHT value: I32(-799081892)
   static ::TMPro::MarkupTag const LINE_HEIGHT;
@@ -321,6 +354,9 @@ public:
   /// @brief Field NORMAL value: I32(-1183493901)
   static ::TMPro::MarkupTag const NORMAL;
 
+  /// @brief Field NOTDEF value: I32(612146780)
+  static ::TMPro::MarkupTag const NOTDEF;
+
   /// @brief Field NO_BREAK value: I32(2856657)
   static ::TMPro::MarkupTag const NO_BREAK;
 
@@ -329,6 +365,9 @@ public:
 
   /// @brief Field ORANGE value: I32(-1108587920)
   static ::TMPro::MarkupTag const ORANGE;
+
+  /// @brief Field PADDING value: I32(-2144568463)
+  static ::TMPro::MarkupTag const PADDING;
 
   /// @brief Field PAGE value: I32(2808691)
   static ::TMPro::MarkupTag const PAGE;
@@ -365,6 +404,9 @@ public:
 
   /// @brief Field RED value: I32(91635)
   static ::TMPro::MarkupTag const RED;
+
+  /// @brief Field REGULAR value: I32(1291372090)
+  static ::TMPro::MarkupTag const REGULAR;
 
   /// @brief Field RIGHT value: I32(99937376)
   static ::TMPro::MarkupTag const RIGHT;
@@ -486,6 +528,18 @@ public:
   /// @brief Field SLASH_SUPERSCRIPT value: I32(1770233)
   static ::TMPro::MarkupTag const SLASH_SUPERSCRIPT;
 
+  /// @brief Field SLASH_TABLE value: I32(-979118220)
+  static ::TMPro::MarkupTag const SLASH_TABLE;
+
+  /// @brief Field SLASH_TD value: I32(193346074)
+  static ::TMPro::MarkupTag const SLASH_TD;
+
+  /// @brief Field SLASH_TH value: I32(193346070)
+  static ::TMPro::MarkupTag const SLASH_TH;
+
+  /// @brief Field SLASH_TR value: I32(193346060)
+  static ::TMPro::MarkupTag const SLASH_TR;
+
   /// @brief Field SLASH_UNDERLINE value: I32(1626)
   static ::TMPro::MarkupTag const SLASH_UNDERLINE;
 
@@ -513,14 +567,29 @@ public:
   /// @brief Field STYLE value: I32(100252951)
   static ::TMPro::MarkupTag const STYLE;
 
+  /// @brief Field STYLENAME value: I32(-1207081936)
+  static ::TMPro::MarkupTag const STYLENAME;
+
   /// @brief Field SUBSCRIPT value: I32(92132)
   static ::TMPro::MarkupTag const SUBSCRIPT;
 
   /// @brief Field SUPERSCRIPT value: I32(92150)
   static ::TMPro::MarkupTag const SUPERSCRIPT;
 
+  /// @brief Field TABLE value: I32(226476955)
+  static ::TMPro::MarkupTag const TABLE;
+
+  /// @brief Field TD value: I32(5862485)
+  static ::TMPro::MarkupTag const TD;
+
+  /// @brief Field TH value: I32(5862489)
+  static ::TMPro::MarkupTag const TH;
+
   /// @brief Field TINT value: I32(2960519)
   static ::TMPro::MarkupTag const TINT;
+
+  /// @brief Field TR value: I32(5862467)
+  static ::TMPro::MarkupTag const TR;
 
   /// @brief Field TRUE value: I32(2932022)
   static ::TMPro::MarkupTag const TRUE;
@@ -543,11 +612,14 @@ public:
   /// @brief Field YELLOW value: I32(-882444668)
   static ::TMPro::MarkupTag const YELLOW;
 
+  /// @brief Field ZWJ value: I32(99623)
+  static ::TMPro::MarkupTag const ZWJ;
+
   /// @brief Field ZWSP value: I32(3288238)
   static ::TMPro::MarkupTag const ZWSP;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15923 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

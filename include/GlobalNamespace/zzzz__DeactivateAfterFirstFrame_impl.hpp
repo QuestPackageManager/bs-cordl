@@ -1,21 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DeactivateAfterFirstFrame.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAfterFirstFrame_def.hpp"
 #include "GlobalNamespace/zzzz__DeactivateAfterFirstFrame_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)(int32_t)>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39bd3d8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5637524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39bd408;
+  constexpr static std::size_t addrs = 0x5637530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0*>::get(),
@@ -44,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::MoveNext)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x39bd40c;
+  constexpr static std::size_t addrs = 0x5637534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0*>::get(),
@@ -58,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bd470;
+  constexpr static std::size_t addrs = 0x5637598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39bd478;
+  constexpr static std::size_t addrs = 0x56375a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame__Start_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bd4b0;
+  constexpr static std::size_t addrs = 0x56375d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -202,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::DeactivateAfterFirstFrame::*)()>(
     &::GlobalNamespace::DeactivateAfterFirstFrame::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39bd378;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x56374d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAfterFirstFrame*>::get(), "Start",
@@ -215,8 +214,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateAfterFirstFrame::*)()>(&::GlobalNamespace::DeactivateAfterFirstFrame::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bd400;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563752c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateAfterFirstFrame*>::get(), ".ctor",

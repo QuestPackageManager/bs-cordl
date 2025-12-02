@@ -51,15 +51,15 @@ public:
   /// @brief Field _spawnPosZ, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__spawnPosZ, put = __cordl_internal_set__spawnPosZ)) float_t _spawnPosZ;
 
-  /// @brief Method HandleNoteWasMissed, addr 0x3b8961c, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasMissed, addr 0x5775d40, size 0x184, virtual false, abstract: false, final false
   inline void HandleNoteWasMissed(::GlobalNamespace::NoteController* noteController);
 
   static inline ::GlobalNamespace::MissedNoteEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b8958c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5775ca8, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b894bc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5775bd0, size 0xd8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set__spawnPosZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b897a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5775ec4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   MissedNoteEffectSpawner(MissedNoteEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5816 };
 
   /// @brief Field _missedNoteFlyingSpriteSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> ____missedNoteFlyingSpriteSpawner;

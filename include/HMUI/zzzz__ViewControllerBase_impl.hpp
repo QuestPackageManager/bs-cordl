@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase_DidActivateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::HMUI::ViewControllerBase_DidActivateDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39f3db4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x566c1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase_DidActivateDelegate::*)(bool, bool, bool)>(
     &::HMUI::ViewControllerBase_DidActivateDelegate::Invoke)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39f3e40;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x566c260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::HMUI::ViewControllerBase_DidActivateDelegate::*)(bool, bool, bool, ::System::AsyncCallback*, ::System::Object*)>(&::HMUI::ViewControllerBase_DidActivateDelegate::BeginInvoke)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39f3e60;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x566c274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase_DidActivateDelegate::*)(::System::IAsyncResult*)>(
     &::HMUI::ViewControllerBase_DidActivateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f3f24;
+  constexpr static std::size_t addrs = 0x566c304;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::HMUI::ViewControllerBase_DidDeactivateDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39f3f30;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x566c310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(bool, bool)>(
     &::HMUI::ViewControllerBase_DidDeactivateDelegate::Invoke)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f3fbc;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x566c37c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(bool, bool, ::System::AsyncCallback*, ::System::Object*)>(&::HMUI::ViewControllerBase_DidDeactivateDelegate::BeginInvoke)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x39f3fd8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x566c390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase_DidDeactivateDelegate::*)(::System::IAsyncResult*)>(
     &::HMUI::ViewControllerBase_DidDeactivateDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f4080;
+  constexpr static std::size_t addrs = 0x566c404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,8 +197,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidActivateDelegate*)>(
     &::HMUI::ViewControllerBase::add_didActivateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39f3af0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x566bef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,8 +212,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidActivateDelegate*)>(
     &::HMUI::ViewControllerBase::remove_didActivateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39f3b8c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x566bfa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,8 +227,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidDeactivateDelegate*)>(
     &::HMUI::ViewControllerBase::add_didDeactivateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39f3c28;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x566c04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,8 +242,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)(::HMUI::ViewControllerBase_DidDeactivateDelegate*)>(
     &::HMUI::ViewControllerBase::remove_didDeactivateEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39f3cc4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x566c0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -257,7 +257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)(bool, bool, bool)>(&::HMUI::ViewControllerBase::CallDidActivate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39f3d60;
+  constexpr static std::size_t addrs = 0x566c1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -272,7 +272,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)(bool, bool)>(&::HMUI::ViewControllerBase::CallDidDeactivate)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f3d88;
+  constexpr static std::size_t addrs = 0x566c1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,8 +285,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ViewControllerBase::*)()>(&::HMUI::ViewControllerBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f3dac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x566c1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ViewControllerBase*>::get(), ".ctor",

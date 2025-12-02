@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x24b8d98;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x33e7f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24b8dbc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x33e7f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)(::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::MultiplyPositive)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x24b8de8;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x33e7f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::*)(::Org::BouncyCastle::Math::EC::ECCurve*, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Multiplier::MixedNafR2LMultiplier::ConfigureCurve)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x24b9240;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x33e83a4;
 
   inline static ::MethodInfo const* methodInfo() {
 

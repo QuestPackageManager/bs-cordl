@@ -30,7 +30,7 @@ public:
   constexpr ClothSphereColliderPair(::UnityW<::UnityEngine::SphereCollider> _first_k__BackingField, ::UnityW<::UnityEngine::SphereCollider> _second_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22317 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

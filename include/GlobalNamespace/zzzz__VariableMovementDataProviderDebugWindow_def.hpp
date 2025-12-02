@@ -31,7 +31,7 @@ public:
 
   static inline ::GlobalNamespace::VariableMovementDataProviderDebugWindow* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x3ae547c, size 0xb1c, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x56c10fc, size 0xbf8, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr float_t const& __cordl_internal_get__njs() const;
@@ -46,7 +46,7 @@ public:
 
   constexpr void __cordl_internal_set__variableMovementDataProvider(::GlobalNamespace::VariableMovementDataProvider* value);
 
-  /// @brief Method .ctor, addr 0x3ae5f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c1cf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   VariableMovementDataProviderDebugWindow(VariableMovementDataProviderDebugWindow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5652 };
 
   /// @brief Field _variableMovementDataProvider, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::VariableMovementDataProvider* ____variableMovementDataProvider;

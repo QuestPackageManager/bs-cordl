@@ -32,25 +32,22 @@ public:
 
   static inline ::GlobalNamespace::VRCenterAdjust* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b33724, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method OnDisable, addr 0x3b33658, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5714d64, size 0x10c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b3358c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5714c58, size 0x10c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetRoom, addr 0x3b333e0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetRoom, addr 0x5714a8c, size 0xcc, virtual false, abstract: false, final false
   inline void ResetRoom();
 
-  /// @brief Method SetRoomTransformOffset, addr 0x3b334a4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetRoomTransformOffset, addr 0x5714b58, size 0xac, virtual false, abstract: false, final false
   inline void SetRoomTransformOffset();
 
-  /// @brief Method Start, addr 0x3b3337c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5714a28, size 0x64, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b33560, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5714c04, size 0x54, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::GlobalNamespace::SettingsApplicatorSO> const& __cordl_internal_get__settingsApplicator() const;
@@ -65,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value);
 
-  /// @brief Method .ctor, addr 0x3b33728, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5714e70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -83,7 +80,7 @@ public:
   VRCenterAdjust(VRCenterAdjust const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6766 };
 
   /// @brief Field _settingsManager, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::SettingsManager* ____settingsManager;

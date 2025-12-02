@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Renderer_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MeshRenderer)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 class Mesh;
 }
@@ -28,28 +31,43 @@ public:
 
   __declspec(property(get = get_subMeshStartIndex)) int32_t subMeshStartIndex;
 
-  /// @brief Method DontStripMeshRenderer, addr 0x4887018, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method DontStripMeshRenderer, addr 0x6873e0c, size 0x4, virtual false, abstract: false, final false
   inline void DontStripMeshRenderer();
 
   static inline ::UnityEngine::MeshRenderer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4887158, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68743ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalVertexStreams, addr 0x488701c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams, addr 0x6873e10, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_additionalVertexStreams();
 
-  /// @brief Method get_enlightenVertexStream, addr 0x488709c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_additionalVertexStreams_Injected, addr 0x6873f60, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_additionalVertexStreams_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_enlightenVertexStream, addr 0x68740a0, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Mesh> get_enlightenVertexStream();
 
-  /// @brief Method get_subMeshStartIndex, addr 0x488711c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_enlightenVertexStream_Injected, addr 0x68741f0, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_enlightenVertexStream_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_subMeshStartIndex, addr 0x6874330, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_subMeshStartIndex();
 
-  /// @brief Method set_additionalVertexStreams, addr 0x4887058, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_subMeshStartIndex_Injected, addr 0x68743b0, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_subMeshStartIndex_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method set_additionalVertexStreams, addr 0x6873f9c, size 0xc0, virtual false, abstract: false, final false
   inline void set_additionalVertexStreams(::UnityEngine::Mesh* value);
 
-  /// @brief Method set_enlightenVertexStream, addr 0x48870d8, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_additionalVertexStreams_Injected, addr 0x687405c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_additionalVertexStreams_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
+
+  /// @brief Method set_enlightenVertexStream, addr 0x687422c, size 0xc0, virtual false, abstract: false, final false
   inline void set_enlightenVertexStream(::UnityEngine::Mesh* value);
+
+  /// @brief Method set_enlightenVertexStream_Injected, addr 0x68742ec, size 0x44, virtual false, abstract: false, final false
+  static inline void set_enlightenVertexStream_Injected(::System::IntPtr _unity_self, ::System::IntPtr value);
 
 protected:
   // Ctor Parameters []
@@ -66,7 +84,7 @@ public:
   MeshRenderer(MeshRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10780 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10187 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -25,13 +25,13 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA1* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
-  /// @brief Method .ctor, addr 0x3ca0f60, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4d08, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ca1608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e541c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3ca1610, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e5424, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, bool useManagedSha1);
 
 protected:
@@ -49,7 +49,7 @@ public:
   HMACSHA1(HMACSHA1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2936 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2953 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

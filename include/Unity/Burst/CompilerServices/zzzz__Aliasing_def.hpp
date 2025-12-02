@@ -22,25 +22,25 @@ public:
   template <typename A, typename B> static inline void ExpectAliased(::ByRef<A> a, ::ByRef<B> b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename A> static inline void ExpectAliased(::ByRef<A> a, ::cordl_internals::Ptr<void> b);
+  template <typename A> static inline void ExpectAliased(::ByRef<A> a, void* b);
 
   /// @brief Method ExpectAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename B> static inline void ExpectAliased(::cordl_internals::Ptr<void> a, ::ByRef<B> b);
+  template <typename B> static inline void ExpectAliased(void* a, ::ByRef<B> b);
 
-  /// @brief Method ExpectAliased, addr 0x453b5e8, size 0x4, virtual false, abstract: false, final false
-  static inline void ExpectAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
+  /// @brief Method ExpectAliased, addr 0x62893f0, size 0x4, virtual false, abstract: false, final false
+  static inline void ExpectAliased(void* a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename A, typename B> static inline void ExpectNotAliased(::ByRef<A> a, ::ByRef<B> b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename A> static inline void ExpectNotAliased(::ByRef<A> a, ::cordl_internals::Ptr<void> b);
+  template <typename A> static inline void ExpectNotAliased(::ByRef<A> a, void* b);
 
   /// @brief Method ExpectNotAliased, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename B> static inline void ExpectNotAliased(::cordl_internals::Ptr<void> a, ::ByRef<B> b);
+  template <typename B> static inline void ExpectNotAliased(void* a, ::ByRef<B> b);
 
-  /// @brief Method ExpectNotAliased, addr 0x453b5ec, size 0x4, virtual false, abstract: false, final false
-  static inline void ExpectNotAliased(::cordl_internals::Ptr<void> a, ::cordl_internals::Ptr<void> b);
+  /// @brief Method ExpectNotAliased, addr 0x62893f4, size 0x4, virtual false, abstract: false, final false
+  static inline void ExpectNotAliased(void* a, void* b);
 
 protected:
   // Ctor Parameters []
@@ -57,7 +57,7 @@ public:
   Aliasing(Aliasing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14671 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

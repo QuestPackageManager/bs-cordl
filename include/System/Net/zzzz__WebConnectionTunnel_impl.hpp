@@ -4,7 +4,6 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_3_impl.hpp"
@@ -35,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel__Initialize_d__42::*)()>(
     &::System::Net::WebConnectionTunnel__Initialize_d__42::MoveNext)> {
-  constexpr static std::size_t size = 0xd38;
-  constexpr static std::size_t addrs = 0x43ddcd4;
+  constexpr static std::size_t size = 0xd90;
+  constexpr static std::size_t addrs = 0x61297dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel__Initialize_d__42>::get(),
@@ -49,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel__Initialize_d__42::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::WebConnectionTunnel__Initialize_d__42::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x43dea0c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x612a56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel__ReadHeaders_d__43::*)()>(
     &::System::Net::WebConnectionTunnel__ReadHeaders_d__43::MoveNext)> {
-  constexpr static std::size_t size = 0x864;
-  constexpr static std::size_t addrs = 0x43dea74;
+  constexpr static std::size_t size = 0x870;
+  constexpr static std::size_t addrs = 0x612a5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel__ReadHeaders_d__43>::get(),
@@ -120,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel__ReadHeaders_d__43::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::WebConnectionTunnel__ReadHeaders_d__43::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x43df2d8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x612ae48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,7 +180,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::HttpWebRequest* (::System::Net::WebConnectionTunnel::*)()>(
     &::System::Net::WebConnectionTunnel::get_Request)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dd9b0;
+  constexpr static std::size_t addrs = 0x61294e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_Request",
@@ -194,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Uri* (::System::Net::WebConnectionTunnel::*)()>(&::System::Net::WebConnectionTunnel::get_ConnectUri)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dd9b8;
+  constexpr static std::size_t addrs = 0x61294f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_ConnectUri",
@@ -207,8 +206,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::System::Net::HttpWebRequest*, ::System::Uri*)>(
     &::System::Net::WebConnectionTunnel::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x43dd9c0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61294f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebConnectionTunnel::*)()>(&::System::Net::WebConnectionTunnel::get_Success)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dd9ec;
+  constexpr static std::size_t addrs = 0x6129500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_Success",
@@ -235,8 +234,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(bool)>(&::System::Net::WebConnectionTunnel::set_Success)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43dd9f4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6129508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -250,7 +249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::WebConnectionTunnel::*)()>(&::System::Net::WebConnectionTunnel::get_CloseConnection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda00;
+  constexpr static std::size_t addrs = 0x6129510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(),
@@ -262,8 +261,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(bool)>(&::System::Net::WebConnectionTunnel::set_CloseConnection)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43dda08;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6129518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -277,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::WebConnectionTunnel::*)()>(&::System::Net::WebConnectionTunnel::get_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda14;
+  constexpr static std::size_t addrs = 0x6129520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_StatusCode",
@@ -290,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(int32_t)>(&::System::Net::WebConnectionTunnel::set_StatusCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda1c;
+  constexpr static std::size_t addrs = 0x6129528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::StringW)>(
     &::System::Net::WebConnectionTunnel::set_StatusDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda24;
+  constexpr static std::size_t addrs = 0x6129530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::System::Net::WebConnectionTunnel::*)()>(
     &::System::Net::WebConnectionTunnel::get_Challenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda2c;
+  constexpr static std::size_t addrs = 0x6129538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_Challenge",
@@ -334,7 +333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Net::WebConnectionTunnel::set_Challenge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda34;
+  constexpr static std::size_t addrs = 0x6129540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -349,7 +348,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebHeaderCollection* (::System::Net::WebConnectionTunnel::*)()>(
     &::System::Net::WebConnectionTunnel::get_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda3c;
+  constexpr static std::size_t addrs = 0x6129548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_Headers",
@@ -363,7 +362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::System::Net::WebHeaderCollection*)>(
     &::System::Net::WebConnectionTunnel::set_Headers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda44;
+  constexpr static std::size_t addrs = 0x6129550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::Net::WebConnectionTunnel::*)()>(
     &::System::Net::WebConnectionTunnel::get_ProxyVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda4c;
+  constexpr static std::size_t addrs = 0x6129558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_ProxyVersion",
@@ -392,7 +391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::System::Version*)>(
     &::System::Net::WebConnectionTunnel::set_ProxyVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda54;
+  constexpr static std::size_t addrs = 0x6129560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -407,7 +406,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Net::WebConnectionTunnel::*)()>(
     &::System::Net::WebConnectionTunnel::get_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda5c;
+  constexpr static std::size_t addrs = 0x6129568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::WebConnectionTunnel*>::get(), "get_Data",
@@ -421,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Net::WebConnectionTunnel::set_Data)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43dda64;
+  constexpr static std::size_t addrs = 0x6129570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,8 +434,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::WebConnectionTunnel::*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(&::System::Net::WebConnectionTunnel::Initialize)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x43dda6c;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6129578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,8 +451,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_3<::System::Net::WebHeaderCollection*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t>>* (
         ::System::Net::WebConnectionTunnel::*)(::System::IO::Stream*, ::System::Threading::CancellationToken)>(&::System::Net::WebConnectionTunnel::ReadHeaders)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x43ddb48;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6129644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -468,8 +467,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::WebConnectionTunnel::*)(::System::IO::Stream*, int32_t)>(
     &::System::Net::WebConnectionTunnel::FlushContents)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x43ddc40;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6129740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

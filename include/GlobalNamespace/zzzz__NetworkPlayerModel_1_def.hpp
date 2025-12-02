@@ -6,22 +6,10 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
-#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(NetworkPlayerModel_1)
 namespace GlobalNamespace {
@@ -55,9 +43,6 @@ namespace GlobalNamespace {
 class INetworkPlayer;
 }
 namespace GlobalNamespace {
-class IPlatformUserModel;
-}
-namespace GlobalNamespace {
 template <typename T> class NetworkPlayerModel_1_JoinMatchmakingPartyConfig;
 }
 namespace GlobalNamespace {
@@ -70,16 +55,13 @@ namespace GlobalNamespace {
 template <typename T> class NetworkPlayerModel_1_StartClientPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__58;
+template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__61;
 }
 namespace GlobalNamespace {
-template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__57;
+template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__60;
 }
 namespace GlobalNamespace {
-template <typename T> struct NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56;
-}
-namespace GlobalNamespace {
-template <typename T> class NetworkPlayerModel_1___c__DisplayClass59_0;
+template <typename T> class NetworkPlayerModel_1___c__DisplayClass62_0;
 }
 namespace GlobalNamespace {
 template <typename T> class NetworkPlayerModel_1___c;
@@ -87,8 +69,8 @@ template <typename T> class NetworkPlayerModel_1___c;
 namespace GlobalNamespace {
 struct PublicServerInfo;
 }
-namespace GlobalNamespace {
-class UserInfo;
+namespace OculusStudios::Platform::Core {
+class IPlatform;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -103,10 +85,10 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
-class IEnumerator;
+class IEnumerable;
 }
-namespace System::Runtime::CompilerServices {
-class IAsyncStateMachine;
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -119,6 +101,9 @@ class Action;
 }
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -140,19 +125,16 @@ namespace GlobalNamespace {
 template <typename T> class NetworkPlayerModel_1_StartClientPartyConfig;
 }
 namespace GlobalNamespace {
-template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__58;
+template <typename T> class NetworkPlayerModel_1__GetOtherPlayers_d__61;
 }
 namespace GlobalNamespace {
-template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__57;
+template <typename T> class NetworkPlayerModel_1__GetPartyPlayers_d__60;
 }
 namespace GlobalNamespace {
 template <typename T> class NetworkPlayerModel_1___c;
 }
 namespace GlobalNamespace {
-template <typename T> class NetworkPlayerModel_1___c__DisplayClass59_0;
-}
-namespace GlobalNamespace {
-template <typename T> struct NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56;
+template <typename T> class NetworkPlayerModel_1___c__DisplayClass62_0;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1);
@@ -160,12 +142,11 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_JoinMatchmakingPartyC
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_NetworkServer);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61);
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1___c);
-MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0);
-MARK_GEN_VAL_T(::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56);
-// Dependencies INetworkPlayer, System.Object
+MARK_GEN_REF_PTR_T(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0);
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -335,7 +316,7 @@ public:
   NetworkPlayerModel_1_NetworkPlayer(NetworkPlayerModel_1_NetworkPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21231 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -347,7 +328,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BaseNetworkPlayerModel::PartyConfig, INetworkPlayerModelPartyConfig`1<T>
+// Dependencies BaseNetworkPlayerModel::PartyConfig
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -400,7 +381,7 @@ public:
   NetworkPlayerModel_1_JoinMatchmakingPartyConfig(NetworkPlayerModel_1_JoinMatchmakingPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21232 };
 
   /// @brief Field secret, offset: 0x58, size: 0x8, def value: None
   ::StringW ___secret;
@@ -412,7 +393,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BaseNetworkPlayerModel::PartyConfig, INetworkPlayerModelPartyConfig`1<T>
+// Dependencies BaseNetworkPlayerModel::PartyConfig
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -447,13 +428,13 @@ public:
   NetworkPlayerModel_1_StartClientPartyConfig(NetworkPlayerModel_1_StartClientPartyConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, INetworkPlayer, System.Object
+// Dependencies BeatmapLevelSelectionMask, GameplayServerConfiguration, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -675,7 +656,7 @@ public:
   NetworkPlayerModel_1_NetworkServer(NetworkPlayerModel_1_NetworkServer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21234 };
 
   /// @brief Field _playerModel, offset: 0x10, size: 0x8, def value: None
   ::UnityW<T> ____playerModel;
@@ -711,24 +692,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::NetworkPlayerModel_1___c<T>* __9;
 
-  /// @brief Field <>9__71_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__71_0, put = setStaticF___9__71_0)) ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* __9__71_0;
+  /// @brief Field <>9__74_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__74_0, put = setStaticF___9__74_0)) ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* __9__74_0;
 
   static inline ::GlobalNamespace::NetworkPlayerModel_1___c<T>* New_ctor();
 
-  /// @brief Method <PlayerOrderChanged>b__71_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline int32_t _PlayerOrderChanged_b__71_0(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* a, ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* b);
+  /// @brief Method <PlayerOrderChanged>b__74_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t _PlayerOrderChanged_b__74_0(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* a, ::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>* b);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::NetworkPlayerModel_1___c<T>* getStaticF___9();
 
-  static inline ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* getStaticF___9__71_0();
+  static inline ::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* getStaticF___9__74_0();
 
   static inline void setStaticF___9(::GlobalNamespace::NetworkPlayerModel_1___c<T>* value);
 
-  static inline void setStaticF___9__71_0(::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value);
+  static inline void setStaticF___9__74_0(::System::Comparison_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value);
 
 protected:
   // Ctor Parameters []
@@ -745,7 +726,7 @@ public:
   NetworkPlayerModel_1___c(NetworkPlayerModel_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21235 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -756,8 +737,8 @@ namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: NetworkPlayerModel`1/<>c__DisplayClass59_0<T>
-class CORDL_TYPE NetworkPlayerModel_1___c__DisplayClass59_0 : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<>c__DisplayClass62_0<T>
+class CORDL_TYPE NetworkPlayerModel_1___c__DisplayClass62_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x18, size 0x8
@@ -772,7 +753,7 @@ public:
   /// @brief Field localSelectionMask, offset 0x20, size 0x28
   __declspec(property(get = __cordl_internal_get_localSelectionMask, put = __cordl_internal_set_localSelectionMask)) ::GlobalNamespace::BeatmapLevelSelectionMask localSelectionMask;
 
-  static inline ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>* New_ctor();
+  static inline ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>* New_ctor();
 
   /// @brief Method <Refresh>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _Refresh_b__0(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::PublicServerInfo>* servers);
@@ -810,19 +791,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr NetworkPlayerModel_1___c__DisplayClass59_0();
+  constexpr NetworkPlayerModel_1___c__DisplayClass62_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass59_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass62_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  NetworkPlayerModel_1___c__DisplayClass59_0(NetworkPlayerModel_1___c__DisplayClass59_0&&) = delete;
+  NetworkPlayerModel_1___c__DisplayClass62_0(NetworkPlayerModel_1___c__DisplayClass62_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass59_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1___c__DisplayClass62_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1___c__DisplayClass59_0(NetworkPlayerModel_1___c__DisplayClass59_0 const&) = delete;
+  NetworkPlayerModel_1___c__DisplayClass62_0(NetworkPlayerModel_1___c__DisplayClass62_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21236 };
 
   /// @brief Field clearCurrentList, offset: 0x10, size: 0x1, def value: None
   bool ___clearCurrentList;
@@ -840,14 +821,13 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.List`1::Enumerator<T>, System.Collections.IEnumerable,
-// System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: NetworkPlayerModel`1/<GetOtherPlayers>d__58<T>
-class CORDL_TYPE NetworkPlayerModel_1__GetOtherPlayers_d__58 : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<GetOtherPlayers>d__61<T>
+class CORDL_TYPE NetworkPlayerModel_1__GetOtherPlayers_d__61 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current)) ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
@@ -889,7 +869,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
@@ -963,19 +943,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr NetworkPlayerModel_1__GetOtherPlayers_d__58();
+  constexpr NetworkPlayerModel_1__GetOtherPlayers_d__61();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__58", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__61", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  NetworkPlayerModel_1__GetOtherPlayers_d__58(NetworkPlayerModel_1__GetOtherPlayers_d__58&&) = delete;
+  NetworkPlayerModel_1__GetOtherPlayers_d__61(NetworkPlayerModel_1__GetOtherPlayers_d__61&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__58", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetOtherPlayers_d__61", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1__GetOtherPlayers_d__58(NetworkPlayerModel_1__GetOtherPlayers_d__58 const&) = delete;
+  NetworkPlayerModel_1__GetOtherPlayers_d__61(NetworkPlayerModel_1__GetOtherPlayers_d__61 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21237 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -996,14 +976,13 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
 // Is value type: false
-// CS Name: NetworkPlayerModel`1/<GetPartyPlayers>d__57<T>
-class CORDL_TYPE NetworkPlayerModel_1__GetPartyPlayers_d__57 : public ::System::Object {
+// CS Name: NetworkPlayerModel`1/<GetPartyPlayers>d__60<T>
+class CORDL_TYPE NetworkPlayerModel_1__GetPartyPlayers_d__60 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_INetworkPlayer__get_Current)) ::GlobalNamespace::INetworkPlayer* System_Collections_Generic_IEnumerator_INetworkPlayer__Current;
@@ -1043,7 +1022,7 @@ public:
   /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>* New_ctor(int32_t __1__state);
+  static inline ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>* New_ctor(int32_t __1__state);
 
   /// @brief Method System.Collections.Generic.IEnumerable<INetworkPlayer>.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::GlobalNamespace::INetworkPlayer*>* System_Collections_Generic_IEnumerable_INetworkPlayer__GetEnumerator();
@@ -1114,19 +1093,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr NetworkPlayerModel_1__GetPartyPlayers_d__57();
+  constexpr NetworkPlayerModel_1__GetPartyPlayers_d__60();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__57", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__60", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  NetworkPlayerModel_1__GetPartyPlayers_d__57(NetworkPlayerModel_1__GetPartyPlayers_d__57&&) = delete;
+  NetworkPlayerModel_1__GetPartyPlayers_d__60(NetworkPlayerModel_1__GetPartyPlayers_d__60&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__57", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "NetworkPlayerModel_1__GetPartyPlayers_d__60", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  NetworkPlayerModel_1__GetPartyPlayers_d__57(NetworkPlayerModel_1__GetPartyPlayers_d__57 const&) = delete;
+  NetworkPlayerModel_1__GetPartyPlayers_d__60(NetworkPlayerModel_1__GetPartyPlayers_d__60 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21238 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1147,62 +1126,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
-namespace GlobalNamespace {
-// cpp template
-template <typename T>
-// Is value type: true
-// CS Name: NetworkPlayerModel`1/<InitAuthenticationTokenProvider>d__56<T>
-struct CORDL_TYPE NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::UnityW<T>", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*>", modifiers: "", def_value: None
-  // }]
-  constexpr NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56(int32_t __1__state,
-                                                                        ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder,
-                                                                        ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17372 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::IAuthenticationTokenProvider*> __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<T> __4__this;
-
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::UserInfo*> __u__1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-} // namespace GlobalNamespace
-// Dependencies BaseNetworkPlayerModel, INetworkPlayerModel
+// Dependencies BaseNetworkPlayerModel
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -1219,15 +1143,13 @@ public:
 
   using StartClientPartyConfig = ::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig<T>;
 
-  using _GetOtherPlayers_d__58 = ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58<T>;
+  using _GetOtherPlayers_d__61 = ::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61<T>;
 
-  using _GetPartyPlayers_d__57 = ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57<T>;
-
-  using _InitAuthenticationTokenProvider_d__56 = ::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56<T>;
+  using _GetPartyPlayers_d__60 = ::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60<T>;
 
   using __c = ::GlobalNamespace::NetworkPlayerModel_1___c<T>;
 
-  using __c__DisplayClass59_0 = ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0<T>;
+  using __c__DisplayClass62_0 = ::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0<T>;
 
   /// @brief Field _authenticationTokenProviderTask, offset 0xb0, size 0x8
   __declspec(property(
@@ -1259,8 +1181,8 @@ public:
   __declspec(property(get = __cordl_internal_get__partyPlayers,
                       put = __cordl_internal_set__partyPlayers)) ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* _partyPlayers;
 
-  /// @brief Field _platformUserModel, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__platformUserModel, put = __cordl_internal_set__platformUserModel)) ::GlobalNamespace::IPlatformUserModel* _platformUserModel;
+  /// @brief Field _platform, offset 0xa8, size 0x8
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
 
   /// @brief Field _publicServers, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get__publicServers,
@@ -1342,9 +1264,6 @@ public:
   /// @brief Method HandlePartyChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePartyChanged(::GlobalNamespace::INetworkPlayerModel* playerModel);
 
-  /// @brief Method HandlePlatformUserInfoDidChange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void HandlePlatformUserInfoDidChange(::GlobalNamespace::UserInfo* newInfo);
-
   /// @brief Method HandlePlayersChanged, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void HandlePlayersChanged();
 
@@ -1418,9 +1337,9 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>*& __cordl_internal_get__partyPlayers();
 
-  constexpr ::GlobalNamespace::IPlatformUserModel* const& __cordl_internal_get__platformUserModel() const;
+  constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
 
-  constexpr ::GlobalNamespace::IPlatformUserModel*& __cordl_internal_get__platformUserModel();
+  constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>* const& __cordl_internal_get__publicServers() const;
 
@@ -1464,7 +1383,7 @@ public:
 
   constexpr void __cordl_internal_set__partyPlayers(::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer<T>*>* value);
 
-  constexpr void __cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value);
+  constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value);
 
   constexpr void __cordl_internal_set__publicServers(::System::Collections::Generic::List_1<::GlobalNamespace::NetworkPlayerModel_1_NetworkServer<T>*>* value);
 
@@ -1556,7 +1475,16 @@ public:
   NetworkPlayerModel_1(NetworkPlayerModel_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17373 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21239 };
+
+  /// @brief Field kMockedPlatformKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMockedPlatformKey{ u"mock" };
+
+  /// @brief Field kOculusMockedPlatformKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kOculusMockedPlatformKey{ u"oculus-mock" };
+
+  /// @brief Field kOculusPlatformKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kOculusPlatformKey{ u"oculus" };
 
   /// @brief Field kServerRefreshFrequency offset 0xffffffff size 0x4
   static constexpr float_t kServerRefreshFrequency{ static_cast<float_t>(10.0f) };
@@ -1564,8 +1492,11 @@ public:
   /// @brief Field kServerTimeoutPeriod offset 0xffffffff size 0x4
   static constexpr float_t kServerTimeoutPeriod{ static_cast<float_t>(21.0f) };
 
-  /// @brief Field _platformUserModel, offset: 0xa8, size: 0x8, def value: None
-  ::GlobalNamespace::IPlatformUserModel* ____platformUserModel;
+  /// @brief Field kSteamPlatformKey offset 0xffffffff size 0x8
+  static constexpr ::ConstString kSteamPlatformKey{ u"steam" };
+
+  /// @brief Field _platform, offset: 0xa8, size: 0x8, def value: None
+  ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
   /// @brief Field _authenticationTokenProviderTask, offset: 0xb0, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IAuthenticationTokenProvider*>* ____authenticationTokenProviderTask;
@@ -1621,8 +1552,7 @@ DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_Joi
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_NetworkPlayer, "", "NetworkPlayerModel`1/NetworkPlayer");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_NetworkServer, "", "NetworkPlayerModel`1/NetworkServer");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1_StartClientPartyConfig, "", "NetworkPlayerModel`1/StartClientPartyConfig");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__58, "", "NetworkPlayerModel`1/<GetOtherPlayers>d__58");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__57, "", "NetworkPlayerModel`1/<GetPartyPlayers>d__57");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1__GetOtherPlayers_d__61, "", "NetworkPlayerModel`1/<GetOtherPlayers>d__61");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1__GetPartyPlayers_d__60, "", "NetworkPlayerModel`1/<GetPartyPlayers>d__60");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1___c, "", "NetworkPlayerModel`1/<>c");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass59_0, "", "NetworkPlayerModel`1/<>c__DisplayClass59_0");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::GlobalNamespace::NetworkPlayerModel_1__InitAuthenticationTokenProvider_d__56, "", "NetworkPlayerModel`1/<InitAuthenticationTokenProvider>d__56");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::NetworkPlayerModel_1___c__DisplayClass62_0, "", "NetworkPlayerModel`1/<>c__DisplayClass62_0");

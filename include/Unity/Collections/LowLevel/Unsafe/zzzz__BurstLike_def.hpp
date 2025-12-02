@@ -42,7 +42,7 @@ public:
   template <typename TContext> static inline ::Unity::Collections::LowLevel::Unsafe::BurstLike_SharedStatic_1<T> GetOrCreate(uint32_t alignment);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> buffer);
+  inline void _ctor(void* buffer);
 
   /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ByRef<T> get_Data();
@@ -51,17 +51,17 @@ public:
   // @brief default ctor
   constexpr BurstLike_SharedStatic_1();
 
-  // Ctor Parameters [CppParam { name: "_buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }]
-  constexpr BurstLike_SharedStatic_1(::cordl_internals::Ptr<void> _buffer) noexcept;
+  // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: None }]
+  constexpr BurstLike_SharedStatic_1(void* _buffer) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9979 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field _buffer, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> _buffer;
+  void* _buffer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -74,8 +74,8 @@ namespace Unity::Collections::LowLevel::Unsafe {
 class CORDL_TYPE BurstLike_SharedStatic : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x48618d8, size 0x74, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<void> GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
+  /// @brief Method GetOrCreateSharedStaticInternal, addr 0x682b3c0, size 0x60, virtual false, abstract: false, final false
+  static inline void* GetOrCreateSharedStaticInternal(int64_t getHashCode64, int64_t getSubHashCode64, uint32_t sizeOf, uint32_t alignment);
 
 protected:
   // Ctor Parameters []
@@ -92,7 +92,7 @@ public:
   BurstLike_SharedStatic(BurstLike_SharedStatic const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,7 +126,7 @@ public:
   BurstLike(BurstLike const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9981 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

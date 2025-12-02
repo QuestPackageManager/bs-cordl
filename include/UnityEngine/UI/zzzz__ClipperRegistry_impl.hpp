@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ClipperRegistry::*)()>(&::UnityEngine::UI::ClipperRegistry::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4959738;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x69e6b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ClipperRegistry*>::get(), ".ctor",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::ClipperRegistry* (*)()>(&::UnityEngine::UI::ClipperRegistry::get_instance)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x49583a8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x69e55f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ClipperRegistry*>::get(), "get_instance",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ClipperRegistry::*)()>(&::UnityEngine::UI::ClipperRegistry::Cull)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x495841c;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x69e566c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ClipperRegistry*>::get(), "Cull",
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&::UnityEngine::UI::ClipperRegistry::Register)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x49597b4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x69e6bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&::UnityEngine::UI::ClipperRegistry::Unregister)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4959824;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x69e6c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::IClipper*)>(&::UnityEngine::UI::ClipperRegistry::Disable)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4959880;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x69e6ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

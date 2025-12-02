@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Xml::XPath::XPathException::_ctor)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x4363fb4;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x60cb6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Xml::XPath::XPathException::GetObjectData)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4364364;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x60cba74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathException::*)()>(&::System::Xml::XPath::XPathException::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x436444c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x60cbb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XPath::XPathException*>::get(), ".ctor",
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathException::*)(::StringW, ::System::Exception*)>(
     &::System::Xml::XPath::XPathException::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x43644a0;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x60cbb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathException* (*)(::StringW)>(&::System::Xml::XPath::XPathException::Create)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x43645bc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x60cbcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathException* (*)(::StringW, ::StringW)>(&::System::Xml::XPath::XPathException::Create)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x436468c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x60cbd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathException* (*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XPath::XPathException::Create)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4364754;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x60cbe54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XPath::XPathException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x436463c;
+  constexpr static std::size_t addrs = 0x60cbd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Xml::XPath::XPathException::*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::Exception*)>(&::System::Xml::XPath::XPathException::_ctor)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4364560;
+  constexpr static std::size_t addrs = 0x60cbc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Xml::XPath::XPathException::CreateMessage)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x4364228;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x60cb924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XPath::XPathException::*)()>(&::System::Xml::XPath::XPathException::get_Message)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x436482c;
+  constexpr static std::size_t addrs = 0x60cbf34;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -55,7 +55,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::FloatField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4995360, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0c73c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   FloatField_UxmlFactory(FloatField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5577 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,7 +90,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::FloatField_UxmlTraits* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49953a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0c7a4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,12 +108,12 @@ public:
   FloatField_UxmlTraits(FloatField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5578 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4190 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FloatField_UxmlTraits, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FloatField_UxmlTraits, 0xc0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1::TextValueInput<TValueType>
@@ -127,24 +127,24 @@ public:
 
   __declspec(property(get = get_parentFloatField)) ::UnityEngine::UIElements::FloatField* parentFloatField;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x49954c8, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6b0c8c8, size 0x274, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue);
 
   static inline ::UnityEngine::UIElements::FloatField_FloatInput* New_ctor();
 
-  /// @brief Method StringToValue, addr 0x49956c0, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x6b0cb98, size 0xa0, virtual true, abstract: false, final false
   inline float_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x4995674, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x6b0cb3c, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW ValueToString(float_t v);
 
-  /// @brief Method .ctor, addr 0x499517c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0c544, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_allowedCharacters, addr 0x4995470, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_allowedCharacters, addr 0x6b0c86c, size 0x5c, virtual true, abstract: false, final false
   inline ::StringW get_allowedCharacters();
 
-  /// @brief Method get_parentFloatField, addr 0x49953f0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_parentFloatField, addr 0x6b0c7f0, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FloatField* get_parentFloatField();
 
 protected:
@@ -162,12 +162,12 @@ public:
   FloatField_FloatInput(FloatField_FloatInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4191 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FloatField_FloatInput, 0x408>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FloatField_FloatInput, 0x4e8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.UIElements.TextValueField`1<TValueType>
@@ -194,26 +194,26 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method ApplyInputDeviceDelta, addr 0x4995234, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ApplyInputDeviceDelta, addr 0x6b0c604, size 0x5c, virtual true, abstract: false, final false
   inline void ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue);
 
-  /// @brief Method CanTryParse, addr 0x4995210, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method CanTryParse, addr 0x6b0c5e0, size 0x24, virtual true, abstract: false, final false
   inline bool CanTryParse(::StringW textString);
 
   static inline ::UnityEngine::UIElements::FloatField* New_ctor();
 
   static inline ::UnityEngine::UIElements::FloatField* New_ctor(::StringW label, int32_t maxLength);
 
-  /// @brief Method StringToValue, addr 0x4994f44, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method StringToValue, addr 0x6b0c2d8, size 0xe0, virtual true, abstract: false, final false
   inline float_t StringToValue(::StringW str);
 
-  /// @brief Method ValueToString, addr 0x4994e8c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ValueToString, addr 0x6b0c218, size 0xc0, virtual true, abstract: false, final false
   inline ::StringW ValueToString(float_t v);
 
-  /// @brief Method .ctor, addr 0x4995020, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0c3b8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x499502c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b0c3c4, size 0x180, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -222,7 +222,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_floatInput, addr 0x4994e08, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_floatInput, addr 0x6b0c188, size 0x90, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::FloatField_FloatInput* get_floatInput();
 
   static inline void setStaticF_inputUssClassName(::StringW value);
@@ -246,12 +246,12 @@ public:
   FloatField(FloatField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5580 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4192 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FloatField, 0x468>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::FloatField, 0x540>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::FloatField);

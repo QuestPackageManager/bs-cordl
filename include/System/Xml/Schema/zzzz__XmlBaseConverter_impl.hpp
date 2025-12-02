@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlBaseConverter::*)(::System::Xml::Schema::XmlSchemaType*)>(
     &::System::Xml::Schema::XmlBaseConverter::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x42d4d70;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x602add4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlBaseConverter::*)(::System::Xml::Schema::XmlTypeCode)>(
     &::System::Xml::Schema::XmlBaseConverter::_ctor)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x42d4e4c;
+  constexpr static std::size_t addrs = 0x602aeb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlBaseConverter::*)(::System::Xml::Schema::XmlBaseConverter*)>(
     &::System::Xml::Schema::XmlBaseConverter::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x42d4f24;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x602af8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::XmlBaseConverter::*)(::System::Xml::Schema::XmlBaseConverter*, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x42d4f80;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x602afd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlBaseConverter::ToBoolean)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d4fc4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602affc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBaseConverter::*)(double_t)>(&::System::Xml::Schema::XmlBaseConverter::ToBoolean)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42d50bc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602b0e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBaseConverter::*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::ToBoolean)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d51bc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602b1b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +123,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBaseConverter::*)(int64_t)>(&::System::Xml::Schema::XmlBaseConverter::ToBoolean)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d52b4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602b280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::ToBoolean)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d53ac;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602b350;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToBoolean)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d5470;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602b404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(bool)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x42d5534;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x602b4b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTimeOffset)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x42d5630;
+  constexpr static std::size_t addrs = 0x602b5a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,8 +197,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(double_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42d5734;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602b6a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,8 +212,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(int32_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d5834;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602b788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,8 +227,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(int64_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d592c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602b86c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,8 +242,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d5a24;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x602b950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -257,8 +257,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTime)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d5ae8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x602ba18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTimeOffset)> {
   constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x42d5bac;
+  constexpr static std::size_t addrs = 0x602bae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -287,8 +287,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTimeOffset)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x42d5ca8;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x602bbdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,8 +302,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDateTimeOffset)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x42d5d70;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x602bca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,8 +317,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDecimal)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x42d5e38;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x602bd74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -332,8 +332,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Decimal (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDecimal)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x42d5f00;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x602be40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,8 +346,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlBaseConverter::*)(bool)>(&::System::Xml::Schema::XmlBaseConverter::ToDouble)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x42d5fc8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x602bf0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,8 +361,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDouble)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d60c4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602bfe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -375,8 +375,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlBaseConverter::*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::ToDouble)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d61bc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602c0c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -389,8 +389,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlBaseConverter::*)(int64_t)>(&::System::Xml::Schema::XmlBaseConverter::ToDouble)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d62b4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602c194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -404,8 +404,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDouble)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d63ac;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602c264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -419,8 +419,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToDouble)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d6470;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602c318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -433,8 +433,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlBaseConverter::*)(bool)>(&::System::Xml::Schema::XmlBaseConverter::ToInt32)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x42d6534;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x602c3cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -448,8 +448,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlBaseConverter::ToInt32)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d6630;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602c4a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -462,8 +462,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlBaseConverter::*)(double_t)>(&::System::Xml::Schema::XmlBaseConverter::ToInt32)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42d6728;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602c584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -476,8 +476,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlBaseConverter::*)(int64_t)>(&::System::Xml::Schema::XmlBaseConverter::ToInt32)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d6828;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602c654;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -490,8 +490,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::ToInt32)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d6920;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602c724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -505,8 +505,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToInt32)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d69e4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602c7d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -519,8 +519,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlBaseConverter::*)(bool)>(&::System::Xml::Schema::XmlBaseConverter::ToInt64)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x42d6aa8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x602c88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -534,8 +534,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlBaseConverter::ToInt64)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d6ba4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x602c960;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -548,8 +548,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlBaseConverter::*)(double_t)>(&::System::Xml::Schema::XmlBaseConverter::ToInt64)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42d6c9c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602ca44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -562,8 +562,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlBaseConverter::*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::ToInt64)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x42d6d9c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602cb14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -576,8 +576,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::ToInt64)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d6e94;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602cbe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -591,8 +591,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToInt64)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d6f58;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602cc98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -605,8 +605,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Xml::Schema::XmlBaseConverter::*)(double_t)>(&::System::Xml::Schema::XmlBaseConverter::ToSingle)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x42d701c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x602cd4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -620,8 +620,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Xml::Schema::XmlBaseConverter::*)(::StringW)>(
     &::System::Xml::Schema::XmlBaseConverter::ToSingle)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d711c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602ce1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -635,8 +635,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToSingle)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x42d71e0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x602ced0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -649,8 +649,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(bool)>(&::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x42d72a4;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x602cf84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -664,8 +664,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42d738c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x602d048;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -679,8 +679,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTimeOffset)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x42d7470;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x602d11c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -694,8 +694,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(::System::Decimal)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x42d7560;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x602d1fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -709,8 +709,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(double_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x42d7670;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x602d314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -724,8 +724,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(int32_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42d775c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x602d3d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -739,8 +739,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(int64_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42d7840;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x602d494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -754,8 +754,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(float_t)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x42d7924;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x602d554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -769,8 +769,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x42d7a10;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x602d614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -785,7 +785,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*)>(
     &::System::Xml::Schema::XmlBaseConverter::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42d7ac4;
+  constexpr static std::size_t addrs = 0x602d6bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -799,8 +799,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(bool, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x42d7ad8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x602d6d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -815,7 +815,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(::System::DateTime, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d7b64;
+  constexpr static std::size_t addrs = 0x602d71c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -830,7 +830,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(::System::Decimal, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x42d7bec;
+  constexpr static std::size_t addrs = 0x602d7a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -844,8 +844,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(double_t, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42d7ca0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x602d858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -859,8 +859,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(int32_t, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d7d30;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x602d8a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -874,8 +874,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(int64_t, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d7db8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x602d8f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -890,7 +890,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlBaseConverter::*)(::StringW, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x42d7e40;
+  constexpr static std::size_t addrs = 0x602d93c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -905,7 +905,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::ChangeType)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42d7e50;
+  constexpr static std::size_t addrs = 0x602d94c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchemaType* (::System::Xml::Schema::XmlBaseConverter::*)()>(
     &::System::Xml::Schema::XmlBaseConverter::get_SchemaType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42d7e64;
+  constexpr static std::size_t addrs = 0x602d960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlBaseConverter*>::get(),
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::XmlBaseConverter::*)()>(
     &::System::Xml::Schema::XmlBaseConverter::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42d7e6c;
+  constexpr static std::size_t addrs = 0x602d968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlBaseConverter*>::get(), "get_TypeCode",
@@ -947,8 +947,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Schema::XmlBaseConverter::*)()>(
     &::System::Xml::Schema::XmlBaseConverter::get_XmlTypeName)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x42d7e74;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x602d970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlBaseConverter*>::get(),
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::XmlBaseConverter::*)()>(
     &::System::Xml::Schema::XmlBaseConverter::get_DefaultClrType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42d8088;
+  constexpr static std::size_t addrs = 0x602dbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlBaseConverter*>::get(),
@@ -974,8 +974,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::System::Xml::Schema::XmlBaseConverter::IsDerivedFrom)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x42d8090;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x602dbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -991,7 +991,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Xml::Schema::XmlBaseConverter::*)(::System::Type*, ::System::Type*)>(
     &::System::Xml::Schema::XmlBaseConverter::CreateInvalidClrMappingException)> {
   constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x42d8150;
+  constexpr static std::size_t addrs = 0x602dc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::XmlBaseConverter*>::get(),
@@ -1005,8 +1005,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::XmlQualifiedName*)>(&::System::Xml::Schema::XmlBaseConverter::QNameToString)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x42d7f68;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x602da78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1021,7 +1021,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Xml::Schema::XmlBaseConverter::*)(::System::Object*, ::System::Type*, ::System::Xml::IXmlNamespaceResolver*)>(&::System::Xml::Schema::XmlBaseConverter::ChangeListType)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x42d83ac;
+  constexpr static std::size_t addrs = 0x602de80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1035,8 +1035,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(
     &::System::Xml::Schema::XmlBaseConverter::StringToBase64Binary)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42d8400;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x602ded4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1049,8 +1049,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToDate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8490;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602df6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1063,8 +1063,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToDateTime)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d850c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602dfec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1077,8 +1077,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToDayTimeDuration)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42d8588;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x602e06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1091,8 +1091,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToDuration)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42d85e8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x602e0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1105,8 +1105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGDay)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8648;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1119,8 +1119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGMonth)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d86c4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1133,8 +1133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGMonthDay)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8740;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1147,8 +1147,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGYear)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d87bc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1161,8 +1161,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGYearMonth)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8838;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1175,8 +1175,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToDateOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d88b4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1189,8 +1189,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToDateTimeOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8930;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e3f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1203,8 +1203,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGDayOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d89ac;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1217,8 +1217,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGMonthOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8a28;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1231,8 +1231,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGMonthDayOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8aa4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1245,8 +1245,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGYearOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8b20;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1259,8 +1259,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToGYearMonthOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8b9c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602e674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1273,8 +1273,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToHexBinary)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x42d8c18;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x602e6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,8 +1288,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::StringW, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlBaseConverter::StringToQName)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x42d8d4c;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x602e830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1303,8 +1303,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToTime)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d8ffc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602eb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1317,8 +1317,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToTimeOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42d9078;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x602ebd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1331,8 +1331,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::StringToYearMonthDuration)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42d90f4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x602ec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1345,8 +1345,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Uri*)>(&::System::Xml::Schema::XmlBaseConverter::AnyUriToString)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x42d9154;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x602ec94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1360,8 +1360,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::System::Xml::Schema::XmlBaseConverter::Base64BinaryToString)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x42d9168;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x602ecc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1375,7 +1375,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::DateToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d91c0;
+  constexpr static std::size_t addrs = 0x602ed20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1389,7 +1389,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::DateTimeToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d9248;
+  constexpr static std::size_t addrs = 0x602eda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1402,8 +1402,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(&::System::Xml::Schema::XmlBaseConverter::DayTimeDurationToString)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42d92d0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x602ee30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1416,8 +1416,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(&::System::Xml::Schema::XmlBaseConverter::DurationToString)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42d9330;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x602ee84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1431,7 +1431,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::GDayToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d9390;
+  constexpr static std::size_t addrs = 0x602eed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1445,7 +1445,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::GMonthToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d9418;
+  constexpr static std::size_t addrs = 0x602ef60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1459,7 +1459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::GMonthDayToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d94a0;
+  constexpr static std::size_t addrs = 0x602efe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1473,7 +1473,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::GYearToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d9528;
+  constexpr static std::size_t addrs = 0x602f070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1487,7 +1487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::GYearMonthToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d95b0;
+  constexpr static std::size_t addrs = 0x602f0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1501,7 +1501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::DateOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d9638;
+  constexpr static std::size_t addrs = 0x602f180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1515,7 +1515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::DateTimeOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d96d0;
+  constexpr static std::size_t addrs = 0x602f218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1529,7 +1529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::GDayOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d9768;
+  constexpr static std::size_t addrs = 0x602f2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1543,7 +1543,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::GMonthOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d9800;
+  constexpr static std::size_t addrs = 0x602f348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1557,7 +1557,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::GMonthDayOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d9898;
+  constexpr static std::size_t addrs = 0x602f3e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1571,7 +1571,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::GYearOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d9930;
+  constexpr static std::size_t addrs = 0x602f478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1585,7 +1585,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::GYearMonthOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d99c8;
+  constexpr static std::size_t addrs = 0x602f510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1599,8 +1599,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Xml::XmlQualifiedName*, ::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::Schema::XmlBaseConverter::QNameToString)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x42d9a60;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x602f5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1615,7 +1615,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::System::Xml::Schema::XmlBaseConverter::TimeToString)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x42d9c74;
+  constexpr static std::size_t addrs = 0x602f7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1629,7 +1629,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTimeOffset)>(&::System::Xml::Schema::XmlBaseConverter::TimeOffsetToString)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x42d9cfc;
+  constexpr static std::size_t addrs = 0x602f84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1642,8 +1642,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(&::System::Xml::Schema::XmlBaseConverter::YearMonthDurationToString)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x42d9d94;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x602f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1657,8 +1657,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::DateTimeOffset)>(
     &::System::Xml::Schema::XmlBaseConverter::DateTimeOffsetToDateTime)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x42d9df4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x602f938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1671,8 +1671,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Decimal)>(&::System::Xml::Schema::XmlBaseConverter::DecimalToInt32)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x42d9e58;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x602f9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1685,8 +1685,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::Decimal)>(&::System::Xml::Schema::XmlBaseConverter::DecimalToInt64)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x42da030;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x602fb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1699,8 +1699,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::Decimal)>(&::System::Xml::Schema::XmlBaseConverter::DecimalToUInt64)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x42da208;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x602fcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1713,8 +1713,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::Int32ToByte)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42da3d4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x602fe3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1727,8 +1727,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int16_t (*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::Int32ToInt16)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42da4b8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x602ff18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1741,8 +1741,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int8_t (*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::Int32ToSByte)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42da59c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x602fff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1755,8 +1755,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(int32_t)>(&::System::Xml::Schema::XmlBaseConverter::Int32ToUInt16)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42da680;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x60300d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1769,8 +1769,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int64_t)>(&::System::Xml::Schema::XmlBaseConverter::Int64ToInt32)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42da764;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x60301ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1783,8 +1783,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int64_t)>(&::System::Xml::Schema::XmlBaseConverter::Int64ToUInt32)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x42da848;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6030288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1797,8 +1797,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::UntypedAtomicToDateTime)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42da92c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6030364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1811,8 +1811,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTimeOffset (*)(::StringW)>(&::System::Xml::Schema::XmlBaseConverter::UntypedAtomicToDateTimeOffset)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x42da9a8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x60303e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Priority_Queue/IFixedSizePriorityQueue_2.hpp"
-#include "Priority_Queue/zzzz__IPriorityQueue_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "Priority_Queue/zzzz__IFixedSizePriorityQueue_2_def.hpp"
+#include "Priority_Queue/zzzz__IPriorityQueue_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 template <typename TItem, typename TPriority> inline void Priority_Queue::IFixedSizePriorityQueue_2<TItem, TPriority>::Resize(int32_t maxNodes) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

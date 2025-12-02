@@ -1,16 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/StylePropertyNameCollection.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__List_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyNameCollection_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyNameCollection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StylePropertyName_def.hpp"
@@ -20,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)(
     ::System::Collections::Generic::List_1_Enumerator<::UnityEngine::UIElements::StylePropertyName>)>(&::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a35154;
+  constexpr static std::size_t addrs = 0x6b72108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::MoveNext)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a35230;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6b721dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StylePropertyName (
     ::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(&::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::get_Current)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4a35278;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6b72228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a352b4;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6b7226c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a35330;
+  constexpr static std::size_t addrs = 0x6b722f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator::Dispose)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a35334;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6b722f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StylePropertyNameCollection::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>*)>(&::UnityEngine::UIElements::StylePropertyNameCollection::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a350dc;
+  constexpr static std::size_t addrs = 0x6b72098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StylePropertyNameCollection_Enumerator (
     ::UnityEngine::UIElements::StylePropertyNameCollection::*)()>(&::UnityEngine::UIElements::StylePropertyNameCollection::GetEnumerator)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4a350e4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b720a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StylePropertyNameCollection>::get(),
@@ -209,8 +207,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::StylePropertyName>* (::UnityEngine::UIElements::StylePropertyNameCollection::*)()>(
         &::UnityEngine::UIElements::StylePropertyNameCollection::System_Collections_Generic_IEnumerable_UnityEngine_UIElements_StylePropertyName__GetEnumerator)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a35160;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b72114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StylePropertyNameCollection>::get(),
@@ -224,8 +222,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::StylePropertyNameCollection::*)()>(
     &::UnityEngine::UIElements::StylePropertyNameCollection::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a351c8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b72178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DefaultSceneStart.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DefaultSceneStart_def.hpp"
@@ -10,15 +7,17 @@
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "HMUI/zzzz__HierarchyManager_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DefaultSceneStart__Start_d__3._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)(int32_t)>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b36420;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57194a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b36450;
+  constexpr static std::size_t addrs = 0x57194b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultSceneStart__Start_d__3*>::get(),
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b36454;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x57194b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultSceneStart__Start_d__3*>::get(),
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b364cc;
+  constexpr static std::size_t addrs = 0x571953c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b364d4;
+  constexpr static std::size_t addrs = 0x5719544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::DefaultSceneStart__Start_d__3::*)()>(
     &::GlobalNamespace::DefaultSceneStart__Start_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3650c;
+  constexpr static std::size_t addrs = 0x571957c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::DefaultSceneStart::*)()>(
     &::GlobalNamespace::DefaultSceneStart::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b363c0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5719454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultSceneStart*>::get(), "Start",
@@ -218,8 +217,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DefaultSceneStart::*)()>(&::GlobalNamespace::DefaultSceneStart::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36448;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57194b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DefaultSceneStart*>::get(), ".ctor",

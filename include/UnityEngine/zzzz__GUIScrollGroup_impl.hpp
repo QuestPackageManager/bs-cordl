@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48e4f90;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x691d0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GUIScrollGroup*>::get(), ".ctor",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcWidth)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x48e4fec;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x691d104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetHorizontal)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48e5068;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x691d17c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)()>(&::UnityEngine::GUIScrollGroup::CalcHeight)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48e5164;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x691d25c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GUIScrollGroup::*)(float_t, float_t)>(&::UnityEngine::GUIScrollGroup::SetVertical)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x48e5260;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x691d330;
 
   inline static ::MethodInfo const* methodInfo() {
 

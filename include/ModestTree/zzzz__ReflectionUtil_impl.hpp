@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Array* (*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::ModestTree::ReflectionUtil::CreateArray)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x4af7648;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x6c0d5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IList* (*)(::System::Type*, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::ModestTree::ReflectionUtil::CreateGenericList)> {
-  constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x4af78a0;
+  constexpr static std::size_t size = 0x3a0;
+  constexpr static std::size_t addrs = 0x6c0d81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Reflection::MethodInfo*)>(&::ModestTree::ReflectionUtil::ToDebugString)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4af7c44;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6c0dbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Action*)>(&::ModestTree::ReflectionUtil::ToDebugString)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4af7d74;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0dcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

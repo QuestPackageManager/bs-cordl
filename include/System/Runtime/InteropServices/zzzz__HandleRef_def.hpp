@@ -27,10 +27,10 @@ public:
   // Declarations
   __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
 
-  /// @brief Method .ctor, addr 0x3d13dec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5955108, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* wrapper, ::System::IntPtr handle);
 
-  /// @brief Method get_Handle, addr 0x3d13df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handle, addr 0x5955110, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Handle();
 
   // Ctor Parameters []
@@ -41,7 +41,7 @@ public:
   constexpr HandleRef(::System::Object* _wrapper, ::System::IntPtr _handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3316 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

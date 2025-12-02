@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SupportedRenderingFeatures* (*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_active)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48c9fc8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x68f4ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Rendering::SupportedRenderingFeatures*)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::set_active)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48c93c8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x68efb7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes (
     ::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(&::UnityEngine::Rendering::SupportedRenderingFeatures::get_defaultMixedLightingModes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca068;
+  constexpr static std::size_t addrs = 0x68f4f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::SupportedRenderingFeatures_LightmapMixedBakeModes (
     ::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(&::UnityEngine::Rendering::SupportedRenderingFeatures::get_mixedLightingModes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca070;
+  constexpr static std::size_t addrs = 0x68f4f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LightmapBakeType (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_lightmapBakeTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca078;
+  constexpr static std::size_t addrs = 0x68f4f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -107,25 +107,11 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::LightmapsMode (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_lightmapsModes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca080;
+  constexpr static std::size_t addrs = 0x68f4f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
                                                                                "get_lightmapsModes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.get_enlightenLightmapper
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
-    &::UnityEngine::Rendering::SupportedRenderingFeatures::get_enlightenLightmapper)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca088;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
-                                                                               "get_enlightenLightmapper", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -135,11 +121,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_enlighten)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca090;
+  constexpr static std::size_t addrs = 0x68f4f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
                                                                                "get_enlighten", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.set_skyOcclusion
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::set_skyOcclusion)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68f4f3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_skyOcclusion",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -149,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_rendersUIOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca098;
+  constexpr static std::size_t addrs = 0x68f4f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -157,32 +158,47 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.get_autoAmbientProbeBaking
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.set_rendersUIOverlay
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
-    &::UnityEngine::Rendering::SupportedRenderingFeatures::get_autoAmbientProbeBaking)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::set_rendersUIOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca0a0;
+  constexpr static std::size_t addrs = 0x68f4f4c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
-                                                                               "get_autoAmbientProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_rendersUIOverlay",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.get_autoDefaultReflectionProbeBaking
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.get_ambientProbeBaking
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
-    &::UnityEngine::Rendering::SupportedRenderingFeatures::get_autoDefaultReflectionProbeBaking)> {
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::get_ambientProbeBaking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca0a8;
+  constexpr static std::size_t addrs = 0x68f4f54;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
+                                                                               "get_ambientProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.get_defaultReflectionProbeBaking
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::get_defaultReflectionProbeBaking)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68f4f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
-                                                 "get_autoDefaultReflectionProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                 "get_defaultReflectionProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -192,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::get_overridesLightProbeSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca0b0;
+  constexpr static std::size_t addrs = 0x68f4f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -200,12 +216,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.set_overridesLightProbeSystem
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::set_overridesLightProbeSystem)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68f4f6c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_overridesLightProbeSystem",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.set_supportsHDR
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)(bool)>(
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::set_supportsHDR)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68f4f74;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_supportsHDR",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.FallbackMixedLightingModeByRef
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::FallbackMixedLightingModeByRef)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x48ca0b8;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x68f4f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,8 +265,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::MixedLightingMode)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsMixedLightingModeSupported)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48ca1ec;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x68f50a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MixedLightingMode, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsMixedLightingModeSupportedByRef)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x48ca258;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x68f5110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,8 +297,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::LightmapBakeType)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapBakeTypeSupported)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48ca360;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x68f5208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,8 +312,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::LightmapBakeType, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapBakeTypeSupportedByRef)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x48ca3cc;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x68f5278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,8 +329,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::LightmapsMode, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapsModeSupportedByRef)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48ca4bc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x68f5364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,8 +345,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::System::IntPtr)>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::IsLightmapperSupportedByRef)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48ca548;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x68f53e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -313,8 +359,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsUIOverlayRenderedBySRP)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48ca5cc;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68f53f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,32 +369,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.IsAutoAmbientProbeBakingSupported
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.IsAmbientProbeBakingSupported
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(
-    &::UnityEngine::Rendering::SupportedRenderingFeatures::IsAutoAmbientProbeBakingSupported)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48ca644;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::IsAmbientProbeBakingSupported)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68f5458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsAutoAmbientProbeBakingSupported",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsAmbientProbeBakingSupported",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.IsAutoDefaultReflectionProbeBakingSupported
+//  Writing Method size for method: ::UnityEngine::Rendering::SupportedRenderingFeatures.IsDefaultReflectionProbeBakingSupported
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(
-    &::UnityEngine::Rendering::SupportedRenderingFeatures::IsAutoDefaultReflectionProbeBakingSupported)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48ca6bc;
+    &::UnityEngine::Rendering::SupportedRenderingFeatures::IsDefaultReflectionProbeBakingSupported)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68f54c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsAutoDefaultReflectionProbeBakingSupported",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsDefaultReflectionProbeBakingSupported",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -357,8 +402,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::OverridesLightProbeSystem)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48ca734;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68f5528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -371,8 +416,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Rendering::SupportedRenderingFeatures::FallbackLightmapperByRef)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48ca7ac;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x68f5590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -386,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::SupportedRenderingFeatures::*)()>(
     &::UnityEngine::Rendering::SupportedRenderingFeatures::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x48c9344;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x68f4e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
@@ -485,6 +530,18 @@ constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cord
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__enlighten_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____enlighten_k__BackingField = value;
+}
+constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__skyOcclusion_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____skyOcclusion_k__BackingField;
+}
+constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__skyOcclusion_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____skyOcclusion_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__skyOcclusion_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____skyOcclusion_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__lightProbeProxyVolumes_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -690,29 +747,29 @@ constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____particleSystemInstancing_k__BackingField = value;
 }
-constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__autoAmbientProbeBaking_k__BackingField() {
+constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__ambientProbeBaking_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____autoAmbientProbeBaking_k__BackingField;
+  return this->____ambientProbeBaking_k__BackingField;
 }
-constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__autoAmbientProbeBaking_k__BackingField() const {
+constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__ambientProbeBaking_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____autoAmbientProbeBaking_k__BackingField;
+  return this->____ambientProbeBaking_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__autoAmbientProbeBaking_k__BackingField(bool value) {
+constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__ambientProbeBaking_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____autoAmbientProbeBaking_k__BackingField = value;
+  this->____ambientProbeBaking_k__BackingField = value;
 }
-constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__autoDefaultReflectionProbeBaking_k__BackingField() {
+constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__defaultReflectionProbeBaking_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____autoDefaultReflectionProbeBaking_k__BackingField;
+  return this->____defaultReflectionProbeBaking_k__BackingField;
 }
-constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__autoDefaultReflectionProbeBaking_k__BackingField() const {
+constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__defaultReflectionProbeBaking_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____autoDefaultReflectionProbeBaking_k__BackingField;
+  return this->____defaultReflectionProbeBaking_k__BackingField;
 }
-constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__autoDefaultReflectionProbeBaking_k__BackingField(bool value) {
+constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__defaultReflectionProbeBaking_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____autoDefaultReflectionProbeBaking_k__BackingField = value;
+  this->____defaultReflectionProbeBaking_k__BackingField = value;
 }
 constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__overridesShadowmask_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -749,6 +806,18 @@ constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cord
 constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__supportsHDR_k__BackingField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____supportsHDR_k__BackingField = value;
+}
+constexpr bool& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__supportsClouds_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____supportsClouds_k__BackingField;
+}
+constexpr bool const& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__supportsClouds_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____supportsClouds_k__BackingField;
+}
+constexpr void UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_set__supportsClouds_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____supportsClouds_k__BackingField = value;
 }
 constexpr ::StringW& UnityEngine::Rendering::SupportedRenderingFeatures::__cordl_internal_get__overridesLightProbeSystemWarningMessage_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -803,36 +872,54 @@ inline ::UnityEngine::LightmapsMode UnityEngine::Rendering::SupportedRenderingFe
                                                                              "get_lightmapsModes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::LightmapsMode, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_enlightenLightmapper() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
-                                                                             "get_enlightenLightmapper", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
 inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_enlighten() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
                                                                              "get_enlighten", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::SupportedRenderingFeatures::set_skyOcclusion(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_skyOcclusion",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_rendersUIOverlay() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
                                                                              "get_rendersUIOverlay", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_autoAmbientProbeBaking() {
+inline void UnityEngine::Rendering::SupportedRenderingFeatures::set_rendersUIOverlay(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_rendersUIOverlay",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_ambientProbeBaking() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
-                                                                             "get_autoAmbientProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "get_ambientProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_autoDefaultReflectionProbeBaking() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
-                                               "get_autoDefaultReflectionProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_defaultReflectionProbeBaking() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
+                                                                             "get_defaultReflectionProbeBaking", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool UnityEngine::Rendering::SupportedRenderingFeatures::get_overridesLightProbeSystem() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(),
                                                                              "get_overridesLightProbeSystem", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::SupportedRenderingFeatures::set_overridesLightProbeSystem(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_overridesLightProbeSystem",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::SupportedRenderingFeatures::set_supportsHDR(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "set_supportsHDR",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::Rendering::SupportedRenderingFeatures::FallbackMixedLightingModeByRef(::System::IntPtr fallbackModePtr) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -887,15 +974,15 @@ inline void UnityEngine::Rendering::SupportedRenderingFeatures::IsUIOverlayRende
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, isSupportedPtr);
 }
-inline void UnityEngine::Rendering::SupportedRenderingFeatures::IsAutoAmbientProbeBakingSupported(::System::IntPtr isSupportedPtr) {
+inline void UnityEngine::Rendering::SupportedRenderingFeatures::IsAmbientProbeBakingSupported(::System::IntPtr isSupportedPtr) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsAutoAmbientProbeBakingSupported",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsAmbientProbeBakingSupported",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, isSupportedPtr);
 }
-inline void UnityEngine::Rendering::SupportedRenderingFeatures::IsAutoDefaultReflectionProbeBakingSupported(::System::IntPtr isSupportedPtr) {
+inline void UnityEngine::Rendering::SupportedRenderingFeatures::IsDefaultReflectionProbeBakingSupported(::System::IntPtr isSupportedPtr) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsAutoDefaultReflectionProbeBakingSupported",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::SupportedRenderingFeatures*>::get(), "IsDefaultReflectionProbeBakingSupported",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, isSupportedPtr);
 }

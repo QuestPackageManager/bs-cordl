@@ -7,16 +7,19 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Resources)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Type;
+}
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
 }
 namespace UnityEngine {
 class AsyncOperation;
 }
 namespace UnityEngine {
 class Object;
-}
-namespace UnityEngine {
-class ResourceRequest;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -34,41 +37,41 @@ public:
   /// @brief Method ConvertObjects, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> ConvertObjects(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*> rawObjects);
 
-  /// @brief Method FindObjectsOfTypeAll, addr 0x48a79b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method FindObjectsOfTypeAll, addr 0x68a5bd8, size 0x6c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> FindObjectsOfTypeAll(::System::Type* type);
 
   /// @brief Method FindObjectsOfTypeAll, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ArrayW<T, ::Array<T>*> FindObjectsOfTypeAll();
 
-  /// @brief Method GetBuiltinResource, addr 0x48a7c10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource, addr 0x68a5da0, size 0x28c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> GetBuiltinResource(::System::Type* type, ::StringW path);
 
   /// @brief Method GetBuiltinResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetBuiltinResource(::StringW path);
 
-  /// @brief Method Load, addr 0x48a7a18, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltinResource_Injected, addr 0x68a602c, size 0x44, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetBuiltinResource_Injected(::System::Type* type, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> path);
+
+  /// @brief Method Load, addr 0x68a5c44, size 0x70, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path);
 
-  /// @brief Method Load, addr 0x48a74a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x68a516c, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Object> Load(::StringW path, ::System::Type* systemTypeInstance);
 
   /// @brief Method Load, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Load(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x48a7b8c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x68a5d30, size 0x70, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path);
 
-  /// @brief Method LoadAll, addr 0x48a7b14, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method LoadAll, addr 0x68a5cb4, size 0x7c, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> LoadAll(::StringW path, ::System::Type* systemTypeInstance);
 
-  /// @brief Method LoadAsync, addr 0x48a7a9c, size 0x78, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ResourceRequest* LoadAsync(::StringW path, ::System::Type* type);
-
-  /// @brief Method UnloadAsset, addr 0x48a7c54, size 0x68, virtual false, abstract: false, final false
-  static inline void UnloadAsset(::UnityEngine::Object* assetToUnload);
-
-  /// @brief Method UnloadUnusedAssets, addr 0x48a7cbc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method UnloadUnusedAssets, addr 0x68a6070, size 0x38, virtual false, abstract: false, final false
   static inline ::UnityEngine::AsyncOperation* UnloadUnusedAssets();
+
+  /// @brief Method UnloadUnusedAssets_Injected, addr 0x68a60a8, size 0x28, virtual false, abstract: false, final false
+  static inline ::System::IntPtr UnloadUnusedAssets_Injected();
 
 protected:
   // Ctor Parameters []
@@ -85,7 +88,7 @@ public:
   Resources(Resources const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10271 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IUnifiedNetworkPlayerModel.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__IUnifiedNetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSelectionMask_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayServerConfiguration_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__UnifiedNetworkPlayerModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -113,6 +113,36 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::IUnifiedNetworkPlayerModel.get_localServerPort
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IUnifiedNetworkPlayerModel::*)()>(
+    &::GlobalNamespace::IUnifiedNetworkPlayerModel::get_localServerPort)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::IUnifiedNetworkPlayerModel.set_localServerPort
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IUnifiedNetworkPlayerModel::*)(int32_t)>(
+    &::GlobalNamespace::IUnifiedNetworkPlayerModel::set_localServerPort)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 8));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::IUnifiedNetworkPlayerModel.SetActiveNetworkPlayerModelType
 template <>
 
@@ -124,7 +154,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 7));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 9));
     return ___internal_method;
   }
 };
@@ -163,9 +193,19 @@ inline ::StringW GlobalNamespace::IUnifiedNetworkPlayerModel::get_code() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::IUnifiedNetworkPlayerModel::SetActiveNetworkPlayerModelType(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType activeNetworkPlayerModelType) {
+inline int32_t GlobalNamespace::IUnifiedNetworkPlayerModel::get_localServerPort() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 7)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::IUnifiedNetworkPlayerModel::set_localServerPort(int32_t value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::IUnifiedNetworkPlayerModel::SetActiveNetworkPlayerModelType(::GlobalNamespace::UnifiedNetworkPlayerModel_ActiveNetworkPlayerModelType activeNetworkPlayerModelType) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IUnifiedNetworkPlayerModel*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, activeNetworkPlayerModelType);
 }
 /// @brief Convert operator to "::GlobalNamespace::INetworkPlayerModel"

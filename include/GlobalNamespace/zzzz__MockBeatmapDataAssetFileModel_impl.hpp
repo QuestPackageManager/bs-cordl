@@ -1,9 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockBeatmapDataAssetFileModel.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_impl.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -11,6 +9,7 @@
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapDataAssetFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__LevelDataAssetDownloadUpdate_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapDataAssetFileModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
@@ -22,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4::*)()>(
     &::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4::MoveNext)> {
-  constexpr static std::size_t size = 0x4f8;
-  constexpr static std::size_t addrs = 0x26d49a4;
+  constexpr static std::size_t size = 0x4e8;
+  constexpr static std::size_t addrs = 0x3605cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MockBeatmapDataAssetFileModel__GetAssetBundleFileForBeatmapLevelAsync_d__4::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26d4e9c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x36061c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataAssetFileModel::*)(
     ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&::GlobalNamespace::MockBeatmapDataAssetFileModel::add_levelDataAssetDownloadUpdateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d46cc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x36059f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataAssetFileModel::*)(
     ::System::Action_1<::GlobalNamespace::LevelDataAssetDownloadUpdate>*)>(&::GlobalNamespace::MockBeatmapDataAssetFileModel::remove_levelDataAssetDownloadUpdateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d477c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3605ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,8 +128,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>* (
     ::GlobalNamespace::MockBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockBeatmapDataAssetFileModel::GetAssetBundleFileForBeatmapLevelAsync)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x26d482c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x3605b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,8 +147,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (
     ::GlobalNamespace::MockBeatmapDataAssetFileModel::*)(::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::BeatmapLevelDataVersion, ::System::Threading::CancellationToken)>(
     &::GlobalNamespace::MockBeatmapDataAssetFileModel::TryDeleteAssetBundleFileForBeatmapLevelAsync)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26d4934;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3605c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,8 +165,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockBeatmapDataAssetFileModel::*)()>(
     &::GlobalNamespace::MockBeatmapDataAssetFileModel::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d499c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3605cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockBeatmapDataAssetFileModel*>::get(),

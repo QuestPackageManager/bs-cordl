@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Zenject::StaticContext::Clear)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4b2bd04;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6c40134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticContext*>::get(), "Clear",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Zenject::StaticContext::get_HasContainer)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4b2bd4c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6c40180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticContext*>::get(), "get_HasContainer",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DiContainer* (*)()>(&::Zenject::StaticContext::get_Container)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4b27848;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6c3bd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::StaticContext*>::get(), "get_Container",

@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/AvatarCore/zzzz__IAvatarVisualDataProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(ConnectedPlayerAvatarVisualDataProvider)
+namespace BeatSaber::AvatarCore {
+class IAvatarVisualDataProvider;
+}
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
@@ -18,7 +20,7 @@ class ConnectedPlayerAvatarVisualDataProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::ConnectedPlayerAvatarVisualDataProvider);
-// Dependencies BeatSaber.AvatarCore.IAvatarVisualDataProvider, System.Object
+// Dependencies System.Object
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: BeatSaber.AvatarCore.ConnectedPlayerAvatarVisualDataProvider
@@ -41,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__connectedPlayer(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x224f92c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x316fd08, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method get_avatarsData, addr 0x224f864, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method get_avatarsData, addr 0x316fc38, size 0xd0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerAvatarsData get_avatarsData();
 
   /// @brief Convert to "::BeatSaber::AvatarCore::IAvatarVisualDataProvider"
@@ -65,7 +67,7 @@ public:
   ConnectedPlayerAvatarVisualDataProvider(ConnectedPlayerAvatarVisualDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17581 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21400 };
 
   /// @brief Field _connectedPlayer, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ____connectedPlayer;

@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::*)()>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b67bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31fd804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::*)(::UnityEngine::AsyncOperation*)>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass0_0::_GetAwaiter_b__0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b6904;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31fd94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::*)()>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b68fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31fd948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::*)(::UnityEngine::AsyncOperation*)>(
     &::BGLib::UnityExtension::AssetBundleExtensions___c__DisplayClass1_0::_GetAwaiter_b__0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b696c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x31fd9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AssetBundle>> (*)(
     ::UnityEngine::AssetBundleCreateRequest*)>(&::BGLib::UnityExtension::AssetBundleExtensions::GetAwaiter)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x22b6684;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x31fd6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> (*)(
     ::UnityEngine::ResourceRequest*)>(&::BGLib::UnityExtension::AssetBundleExtensions::GetAwaiter)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x22b67c4;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x31fd808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

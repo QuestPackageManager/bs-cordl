@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/IKdTree_2.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__IKdTree_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__KdTreeNode_2_def.hpp"
 template <typename TKey, typename TValue> inline bool UnityEngine::ProBuilder::KdTree::IKdTree_2<TKey, TValue>::Add(::ArrayW<TKey, ::Array<TKey>*> point, TValue value) {
   auto* ___internal_method =

@@ -1,16 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Data/RBTree_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/Data/zzzz__TreeAccessMethod_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__RBTree_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Data/zzzz__RBTree_1_def.hpp"
 #include "System/Data/zzzz__TreeAccessMethod_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename K> constexpr ::System::Data::RBTree_1_NodeColor<K>::RBTree_1_NodeColor(int32_t value__) noexcept {

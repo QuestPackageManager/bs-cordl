@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::FontUpdateTracker::TrackText)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x49616fc;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x69eee48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Font*)>(&::UnityEngine::UI::FontUpdateTracker::RebuildForFont)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4961944;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x69ef0c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::FontUpdateTracker::UntrackText)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x4961ae8;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x69ef230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

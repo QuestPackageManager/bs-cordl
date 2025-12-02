@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -17,13 +16,16 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Signers {
 class GenericSigner;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::GenericSigner);
-// Dependencies Org.BouncyCastle.Crypto.ISigner, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Signers.GenericSigner
@@ -44,24 +46,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ISigner"
   constexpr operator ::Org::BouncyCastle::Crypto::ISigner*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x23d4120, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method BlockUpdate, addr 0x330207c, size 0xd0, virtual true, abstract: false, final false
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method GenerateSignature, addr 0x23d41e4, size 0x21c, virtual true, abstract: false, final false
+  /// @brief Method GenerateSignature, addr 0x330214c, size 0x228, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSignature();
 
-  /// @brief Method Init, addr 0x23d3e54, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3301d8c, size 0x238, virtual true, abstract: false, final false
   inline void Init(bool forSigning, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::GenericSigner* New_ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method Reset, addr 0x23d475c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x33026e8, size 0xa8, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Update, addr 0x23d4074, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x3301fc4, size 0xb8, virtual true, abstract: false, final false
   inline void Update(uint8_t input);
 
-  /// @brief Method VerifySignature, addr 0x23d4400, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method VerifySignature, addr 0x3302374, size 0x374, virtual true, abstract: false, final false
   inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   constexpr ::Org::BouncyCastle::Crypto::IDigest* const& __cordl_internal_get_digest() const;
@@ -82,10 +84,10 @@ public:
 
   constexpr void __cordl_internal_set_forSigning(bool value);
 
-  /// @brief Method .ctor, addr 0x23d3c50, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3301b94, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IAsymmetricBlockCipher* engine, ::Org::BouncyCastle::Crypto::IDigest* digest);
 
-  /// @brief Method get_AlgorithmName, addr 0x23d3c7c, size 0x1d8, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3301b9c, size 0x1f0, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ISigner"

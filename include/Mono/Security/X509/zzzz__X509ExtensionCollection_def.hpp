@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Collections/zzzz__CollectionBase_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(X509ExtensionCollection)
@@ -15,6 +14,9 @@ namespace Mono::Security {
 class ASN1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 // Forward declare root types
@@ -23,7 +25,7 @@ class X509ExtensionCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::X509::X509ExtensionCollection);
-// Dependencies System.Collections.CollectionBase, System.Collections.IEnumerable
+// Dependencies System.Collections.CollectionBase
 namespace Mono::Security::X509 {
 // Is value type: false
 // CS Name: Mono.Security.X509.X509ExtensionCollection
@@ -38,14 +40,14 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method IndexOf, addr 0x3c407c8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method IndexOf, addr 0x58834b0, size 0x138, virtual false, abstract: false, final false
   inline int32_t IndexOf(::StringW oid);
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor();
 
   static inline ::Mono::Security::X509::X509ExtensionCollection* New_ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3c40900, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x58835e8, size 0x20, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr bool const& __cordl_internal_get_readOnly() const;
@@ -54,13 +56,13 @@ public:
 
   constexpr void __cordl_internal_set_readOnly(bool value);
 
-  /// @brief Method .ctor, addr 0x3c407c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58834a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c3c574, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587f268, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Security::ASN1* asn1);
 
-  /// @brief Method get_Item, addr 0x3c3fe60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5882b4c, size 0xbc, virtual false, abstract: false, final false
   inline ::Mono::Security::X509::X509Extension* get_Item(::StringW oid);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -81,7 +83,7 @@ public:
   X509ExtensionCollection(X509ExtensionCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19227 };
 
   /// @brief Field readOnly, offset: 0x18, size: 0x1, def value: None
   bool ___readOnly;

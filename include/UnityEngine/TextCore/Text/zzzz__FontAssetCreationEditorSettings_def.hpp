@@ -26,20 +26,20 @@ public:
   constexpr FontAssetCreationEditorSettings();
 
   // Ctor Parameters [CppParam { name: "sourceFontFileGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "faceIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam
-  // { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
+  // { name: "pointSizeSamplingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "pointSize", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "paddingMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "packingMode", ty: "int32_t", modifiers: "",
   // def_value: None }, CppParam { name: "atlasWidth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "atlasHeight", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "characterSetSelectionMode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterSequence", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "referencedFontAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "referencedTextAssetGUID", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "fontStyle", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontStyleModifier", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderMode", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "includeFontFeatures", ty: "bool", modifiers: "", def_value: None }]
-  constexpr FontAssetCreationEditorSettings(::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, int32_t pointSize, int32_t padding, int32_t paddingMode,
+  constexpr FontAssetCreationEditorSettings(::StringW sourceFontFileGUID, int32_t faceIndex, int32_t pointSizeSamplingMode, float_t pointSize, int32_t padding, int32_t paddingMode,
                                             int32_t packingMode, int32_t atlasWidth, int32_t atlasHeight, int32_t characterSetSelectionMode, ::StringW characterSequence,
                                             ::StringW referencedFontAssetGUID, ::StringW referencedTextAssetGUID, int32_t fontStyle, float_t fontStyleModifier, int32_t renderMode,
                                             bool includeFontFeatures) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17179 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -54,7 +54,7 @@ public:
   int32_t pointSizeSamplingMode;
 
   /// @brief Field pointSize, offset: 0x10, size: 0x4, def value: None
-  int32_t pointSize;
+  float_t pointSize;
 
   /// @brief Field padding, offset: 0x14, size: 0x4, def value: None
   int32_t padding;

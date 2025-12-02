@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(int32_t)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4446244;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x619607c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(int64_t)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44462b0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x61960ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,10 +36,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::ComponentModel::DefaultValueAttribute._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(double_t)>(
+    &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x61960dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::ComponentModel::DefaultValueAttribute._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(bool)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x444631c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x619610c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(::StringW)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x444638c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x619613c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DefaultValueAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DefaultValueAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44463b4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6196144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::DefaultValueAttribute::*)()>(
     &::System::ComponentModel::DefaultValueAttribute::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44463dc;
+  constexpr static std::size_t addrs = 0x619614c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DefaultValueAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DefaultValueAttribute::Equals)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x44463e4;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6196154;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DefaultValueAttribute::*)()>(
     &::System::ComponentModel::DefaultValueAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44464f0;
+  constexpr static std::size_t addrs = 0x6196264;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,6 +163,12 @@ inline void System::ComponentModel::DefaultValueAttribute::_ctor(int64_t value) 
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::ComponentModel::DefaultValueAttribute::_ctor(double_t value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DefaultValueAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::ComponentModel::DefaultValueAttribute::_ctor(bool value) {
@@ -187,6 +208,9 @@ inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
 }
 inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(int64_t value) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
+}
+inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(double_t value) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::ComponentModel::DefaultValueAttribute*>(value));
 }
 inline ::System::ComponentModel::DefaultValueAttribute* System::ComponentModel::DefaultValueAttribute::New_ctor(bool value) {

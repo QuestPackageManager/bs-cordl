@@ -1,11 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/CoroutineTween/TweenRunner_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__TweenRunner_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UI/CoroutineTween/zzzz__TweenRunner_1_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"

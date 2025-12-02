@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::KnownHttpVerb::*)(::StringW, bool, bool, bool, bool)>(&::System::Net::KnownHttpVerb::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44a167c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x61f1030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::KnownHttpVerb* (*)(::StringW)>(&::System::Net::KnownHttpVerb::Parse)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44a19e0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x61f1328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

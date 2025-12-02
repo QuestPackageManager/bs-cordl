@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -15,6 +12,15 @@ class IDictionary;
 }
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
@@ -28,7 +34,7 @@ class ErrorMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::ErrorMessage);
-// Dependencies System.Object, System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMethodCallMessage, System.Runtime.Remoting.Messaging.IMethodMessage
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Messaging.ErrorMessage
@@ -65,7 +71,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMethodMessage"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMethodMessage*() noexcept;
 
-  /// @brief Method GetArg, addr 0x3cecde8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetArg, addr 0x592ef54, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* GetArg(int32_t arg_num);
 
   static inline ::System::Runtime::Remoting::Messaging::ErrorMessage* New_ctor();
@@ -76,34 +82,34 @@ public:
 
   constexpr void __cordl_internal_set__uri(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ce32cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x592575c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ArgCount, addr 0x3cecd38, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ArgCount, addr 0x592ee9c, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_ArgCount();
 
-  /// @brief Method get_Args, addr 0x3cecd40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Args, addr 0x592eea4, size 0x8, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_Args();
 
-  /// @brief Method get_LogicalCallContext, addr 0x3cecdf0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LogicalCallContext, addr 0x592ef5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::LogicalCallContext* get_LogicalCallContext();
 
-  /// @brief Method get_MethodBase, addr 0x3cecd48, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodBase, addr 0x592eeac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodBase* get_MethodBase();
 
-  /// @brief Method get_MethodName, addr 0x3cecd50, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_MethodName, addr 0x592eeb4, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_MethodName();
 
-  /// @brief Method get_MethodSignature, addr 0x3cecd90, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MethodSignature, addr 0x592eef8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_MethodSignature();
 
-  /// @brief Method get_Properties, addr 0x3cecd98, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x592ef00, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
-  /// @brief Method get_TypeName, addr 0x3cecda0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x592ef08, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
-  /// @brief Method get_Uri, addr 0x3cecde0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Uri, addr 0x592ef4c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_Uri();
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessage"
@@ -130,7 +136,7 @@ public:
   ErrorMessage(ErrorMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3163 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3180 };
 
   /// @brief Field _uri, offset: 0x10, size: 0x8, def value: None
   ::StringW ____uri;

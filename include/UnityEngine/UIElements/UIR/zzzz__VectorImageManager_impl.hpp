@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/VectorImageManager.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__VectorImageManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemapPool_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientRemap_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GradientSettingsAtlas_def.hpp"
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::get_atlas)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x49b4a50;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6ac1a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::AtlasBase*)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::_ctor)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x49b4a64;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x6ac1a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b4c14;
+  constexpr static std::size_t addrs = 0x6ac1c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49b4c1c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ac1c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49b4c28;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ac1c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)(bool)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::Dispose)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x49b4c94;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6ac1c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageManager::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::Commit)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x49b4dac;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6ac1db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::VectorImageManager*>::get(),
@@ -123,8 +123,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::GradientRemap* (
     ::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::AddUser)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x49b4ddc;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6ac1dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UIR::VectorImageManager::*)(::UnityEngine::UIElements::VectorImage*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::UIR::VectorImageManager::Register)> {
   constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x49b4ee0;
+  constexpr static std::size_t addrs = 0x6ac1ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

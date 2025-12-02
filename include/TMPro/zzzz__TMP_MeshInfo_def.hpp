@@ -59,40 +59,40 @@ public:
   /// @brief Field s_DefaultTangent, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_s_DefaultTangent, put = setStaticF_s_DefaultTangent)) ::UnityEngine::Vector4 s_DefaultTangent;
 
-  /// @brief Method Clear, addr 0x47fcc78, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6779eb0, size 0xa8, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clear, addr 0x47fcd1c, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x6779f58, size 0x138, virtual false, abstract: false, final false
   inline void Clear(bool uploadChanges);
 
-  /// @brief Method ClearUnusedVertices, addr 0x47fce54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x677a090, size 0x34, virtual false, abstract: false, final false
   inline void ClearUnusedVertices();
 
-  /// @brief Method ClearUnusedVertices, addr 0x47fce90, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x677a0c4, size 0x2c, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex);
 
-  /// @brief Method ClearUnusedVertices, addr 0x47fcec4, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ClearUnusedVertices, addr 0x677a0f0, size 0xc8, virtual false, abstract: false, final false
   inline void ClearUnusedVertices(int32_t startIndex, bool updateMesh);
 
-  /// @brief Method ResizeMeshInfo, addr 0x47fbf2c, size 0x474, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x6779164, size 0x474, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size);
 
-  /// @brief Method ResizeMeshInfo, addr 0x47fc3a0, size 0x8d8, virtual false, abstract: false, final false
+  /// @brief Method ResizeMeshInfo, addr 0x67795d8, size 0x8d8, virtual false, abstract: false, final false
   inline void ResizeMeshInfo(int32_t size, bool isVolumetric);
 
-  /// @brief Method SortGeometry, addr 0x47fcf88, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x677a1b8, size 0xb8, virtual false, abstract: false, final false
   inline void SortGeometry(::TMPro::VertexSortingOrder order);
 
-  /// @brief Method SortGeometry, addr 0x47fd5c8, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method SortGeometry, addr 0x677a7ec, size 0x208, virtual false, abstract: false, final false
   inline void SortGeometry(::System::Collections::Generic::IList_1<int32_t>* sortingOrder);
 
-  /// @brief Method SwapVertexData, addr 0x47fd03c, size 0x58c, virtual false, abstract: false, final false
+  /// @brief Method SwapVertexData, addr 0x677a270, size 0x57c, virtual false, abstract: false, final false
   inline void SwapVertexData(int32_t src, int32_t dst);
 
-  /// @brief Method .ctor, addr 0x47fb2b4, size 0x4f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677845c, size 0x550, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size);
 
-  /// @brief Method .ctor, addr 0x47fb7a8, size 0x784, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67789ac, size 0x7b8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Mesh* mesh, int32_t size, bool isVolumetric);
 
   static inline ::UnityEngine::Bounds getStaticF_s_DefaultBounds();
@@ -119,18 +119,18 @@ public:
   // CppParam { name: "vertices", ty: "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "normals", ty:
   // "::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>", modifiers: "", def_value: None }, CppParam { name: "tangents", ty:
   // "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "uvs0", ty:
-  // "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty:
+  // "::ArrayW<::UnityEngine::Vector4,::Array<::UnityEngine::Vector4>*>", modifiers: "", def_value: None }, CppParam { name: "uvs2", ty:
   // "::ArrayW<::UnityEngine::Vector2,::Array<::UnityEngine::Vector2>*>", modifiers: "", def_value: None }, CppParam { name: "colors32", ty:
   // "::ArrayW<::UnityEngine::Color32,::Array<::UnityEngine::Color32>*>", modifiers: "", def_value: None }, CppParam { name: "triangles", ty: "::ArrayW<int32_t,::Array<int32_t>*>", modifiers: "",
   // def_value: None }, CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }]
   constexpr TMP_MeshInfo(::UnityW<::UnityEngine::Mesh> mesh, int32_t vertexCount, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> vertices,
                          ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> normals, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangents,
-                         ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs0, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs2,
+                         ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> uvs0, ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs2,
                          ::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> colors32, ::ArrayW<int32_t, ::Array<int32_t>*> triangles,
                          ::UnityW<::UnityEngine::Material> material) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14527 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15919 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -151,7 +151,7 @@ public:
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> tangents;
 
   /// @brief Field uvs0, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs0;
+  ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> uvs0;
 
   /// @brief Field uvs2, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> uvs2;

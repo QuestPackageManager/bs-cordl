@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDocumentTypeWrapper)
+namespace Newtonsoft::Json::Converters {
+class IXmlDocumentType;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
+}
 namespace System::Xml {
 class XmlDocumentType;
 }
@@ -17,7 +21,7 @@ class XmlDocumentTypeWrapper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDocumentTypeWrapper);
-// Dependencies Newtonsoft.Json.Converters.IXmlDocumentType, Newtonsoft.Json.Converters.IXmlNode, Newtonsoft.Json.Converters.XmlNodeWrapper
+// Dependencies Newtonsoft.Json.Converters.XmlNodeWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Converters.XmlDocumentTypeWrapper
@@ -51,22 +55,22 @@ public:
 
   constexpr void __cordl_internal_set__documentType(::System::Xml::XmlDocumentType* value);
 
-  /// @brief Method .ctor, addr 0x3f4345c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b8a0f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDocumentType* documentType);
 
-  /// @brief Method get_InternalSubset, addr 0x3f43a78, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_InternalSubset, addr 0x5b8a6a4, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_InternalSubset();
 
-  /// @brief Method get_LocalName, addr 0x3f43a94, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_LocalName, addr 0x5b8a6bc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_LocalName();
 
-  /// @brief Method get_Name, addr 0x3f43a20, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method get_Name, addr 0x5b8a658, size 0x1c, virtual true, abstract: false, final true
   inline ::StringW get_Name();
 
-  /// @brief Method get_Public, addr 0x3f43a5c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Public, addr 0x5b8a68c, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Public();
 
-  /// @brief Method get_System, addr 0x3f43a40, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_System, addr 0x5b8a674, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_System();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDocumentType"
@@ -90,7 +94,7 @@ public:
   XmlDocumentTypeWrapper(XmlDocumentTypeWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13641 };
 
   /// @brief Field _documentType, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDocumentType* ____documentType;

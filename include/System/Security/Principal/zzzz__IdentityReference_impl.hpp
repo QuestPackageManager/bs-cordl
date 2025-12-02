@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::IdentityReference::*)()>(
     &::System::Security::Principal::IdentityReference::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb91a8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58fced0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::IdentityReference*>::get(),
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Security::Principal::IdentityReference*, ::System::Security::Principal::IdentityReference*)>(
     &::System::Security::Principal::IdentityReference::op_Equality)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cb91b0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x58fced4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

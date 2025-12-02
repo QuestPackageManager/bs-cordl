@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRHaptics_Config::get_SampleRateHz)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fb4240;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c431e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(), "get_SampleRateHz",
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRHaptics_Config::set_SampleRateHz)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb4298;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c43244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRHaptics_Config::get_SampleSizeInBytes)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fb42f4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c432a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(),
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRHaptics_Config::set_SampleSizeInBytes)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb434c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c43300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRHaptics_Config::get_MinimumSafeSamplesQueued)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fb43a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c43360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(),
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRHaptics_Config::set_MinimumSafeSamplesQueued)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb4400;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c433bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRHaptics_Config::get_MinimumBufferSamplesCount)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fb445c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c4341c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(),
@@ -104,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRHaptics_Config::set_MinimumBufferSamplesCount)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb44b4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c43478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,8 +118,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRHaptics_Config::get_OptimalBufferSamplesCount)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fb4510;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c434d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(),
@@ -131,8 +131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRHaptics_Config::set_OptimalBufferSamplesCount)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb4568;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c43534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,8 +145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::OVRHaptics_Config::get_MaximumBufferSamplesCount)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3fb45c4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c43594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(),
@@ -158,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::GlobalNamespace::OVRHaptics_Config::set_MaximumBufferSamplesCount)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fb461c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c435f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -172,8 +172,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRHaptics_Config::Load)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3fb34a4;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x5c422cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_Config*>::get(), "Load",
@@ -301,8 +301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsChannel::*)(uint32_t)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsChannel::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3fb380c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5c42690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,8 +316,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsChannel::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsChannel::Preempt)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fb467c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5c43654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -331,8 +331,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsChannel::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsChannel::Queue)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fb47ac;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5c43784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,8 +346,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsChannel::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsChannel::Mix)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fb48a4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5c43874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,8 +361,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsChannel::*)()>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsChannel::Clear)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3fb4d60;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5c43d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_OVRHapticsChannel*>::get(), "Clear",
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::*)()>(
     &::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::get_ReadCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb5018;
+  constexpr static std::size_t addrs = 0x5c44018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -437,7 +437,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::*)(int32_t)>(
     &::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::set_ReadCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb5020;
+  constexpr static std::size_t addrs = 0x5c44020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,7 +452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRHapticsClip* (::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::*)()>(
     &::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::get_Clip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb5028;
+  constexpr static std::size_t addrs = 0x5c44028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -467,7 +467,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::set_Clip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fb5030;
+  constexpr static std::size_t addrs = 0x5c44030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -481,8 +481,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHapticsOutput_OVRHaptics_ClipPlaybackTracker::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3fb4de8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c43df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -555,8 +555,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsOutput::*)(uint32_t)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsOutput::_ctor)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3fb36a4;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x5c4250c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,8 +570,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsOutput::*)()>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsOutput::Process)> {
-  constexpr static std::size_t size = 0x8c0;
-  constexpr static std::size_t addrs = 0x3fb3980;
+  constexpr static std::size_t size = 0x9e4;
+  constexpr static std::size_t addrs = 0x5c42804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_OVRHapticsOutput*>::get(),
@@ -584,8 +584,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsOutput::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsOutput::Preempt)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3fb4694;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5c43668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -599,8 +599,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsOutput::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsOutput::Queue)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3fb47c4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5c43798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -614,8 +614,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsOutput::*)(::GlobalNamespace::OVRHapticsClip*)>(
     &::GlobalNamespace::OVRHaptics_OVRHapticsOutput::Mix)> {
-  constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x3fb48bc;
+  constexpr static std::size_t size = 0x4dc;
+  constexpr static std::size_t addrs = 0x5c43888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -628,8 +628,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHaptics_OVRHapticsOutput::*)()>(&::GlobalNamespace::OVRHaptics_OVRHapticsOutput::Clear)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3fb4d78;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5c43d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics_OVRHapticsOutput*>::get(), "Clear",
@@ -803,8 +803,8 @@ constexpr ::GlobalNamespace::OVRHaptics_OVRHapticsOutput::OVRHaptics_OVRHapticsO
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OVRHaptics::Process)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3fb38a4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5c42720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHaptics*>::get(), "Process",

@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Tayx::Graphy::Utils::NumString::G_FloatString::get_MinValue)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x44d19cc;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6220aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_FloatString*>::get(),
@@ -19,8 +19,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::Tayx::Graphy::Utils::NumString::G_FloatString::get_MaxValue)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44d1aa0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6220b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_FloatString*>::get(),
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::Init)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x44d1b08;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x6220bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Tayx::Graphy::Utils::NumString::G_FloatString::Dispose)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44cdff0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x621d18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Utils::NumString::G_FloatString*>::get(),
@@ -59,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToStringNonAlloc)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x44d1e1c;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x6220ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(float_t, ::StringW)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToStringNonAlloc)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x44d1f5c;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x622103c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToInt)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x44d209c;
+  constexpr static std::size_t addrs = 0x6221180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToFloat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44d20b8;
+  constexpr static std::size_t addrs = 0x622119c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::ToIndex)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x44d1d5c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6220e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t)>(&::Tayx::Graphy::Utils::NumString::G_FloatString::FromIndex)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x44d1a3c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6220b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49b4684;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6ac161c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UIR::VectorImageRenderInfo* (
     ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c::*)()>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c::__ctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49b468c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6ac1620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c::*)(
     ::UnityEngine::UIElements::UIR::VectorImageRenderInfo*)>(&::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c::__ctor_b__0_1)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49b4724;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6ac16d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::*)()>(
     &::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool::_ctor)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x49b44a4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6ac1434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

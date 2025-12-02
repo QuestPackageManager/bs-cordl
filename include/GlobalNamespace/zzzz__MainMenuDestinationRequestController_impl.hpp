@@ -1,12 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MainMenuDestinationRequestController.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "GlobalNamespace/zzzz__MainMenuDestinationRequestController_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__IDestinationRequestManager_def.hpp"
@@ -16,14 +13,16 @@
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenSource_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9.MoveNext
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::*)()>(
     &::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x4b8;
-  constexpr static std::size_t addrs = 0x3b7eba8;
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x576a544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b7f060;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x576aa34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)()>(
     &::GlobalNamespace::MainMenuDestinationRequestController::Initialize)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3b7e454;
+  constexpr static std::size_t size = 0x280;
+  constexpr static std::size_t addrs = 0x5769d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),
@@ -106,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)()>(
     &::GlobalNamespace::MainMenuDestinationRequestController::Dispose)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3b7e760;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x576a0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),
@@ -120,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)(
     ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(&::GlobalNamespace::MainMenuDestinationRequestController::HandleGameScenesManagerInstallEarlyBindings)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3b7e90c;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x576a290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +137,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::MainMenuDestinationRequestController::HandleDestinationRequestManagerDidSendMenuDestinationRequest)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b7eb9c;
+  constexpr static std::size_t addrs = 0x576a53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)(::GlobalNamespace::MenuDestination*)>(
     &::GlobalNamespace::MainMenuDestinationRequestController::ProcessDestinationRequest)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b7e6c4;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x576a01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,8 +166,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainMenuDestinationRequestController::*)()>(
     &::GlobalNamespace::MainMenuDestinationRequestController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7eba0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x576a540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainMenuDestinationRequestController*>::get(),

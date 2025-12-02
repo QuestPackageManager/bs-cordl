@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(
     ::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d188b8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5959bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::get_Format)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d188e4;
+  constexpr static std::size_t addrs = 0x5959bd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
         &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::GetArguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d188ec;
+  constexpr static std::size_t addrs = 0x5959bd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)()>(
     &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::get_ArgumentCount)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d188f4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5959be0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(int32_t)>(
         &::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::GetArgument)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3d18910;
+  constexpr static std::size_t addrs = 0x5959bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::*)(
     ::System::IFormatProvider*)>(&::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString::ToString)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3d18940;
+  constexpr static std::size_t addrs = 0x5959c28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -180,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::FormattableString* (*)(::StringW, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::Runtime::CompilerServices::FormattableStringFactory::Create)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3d187e8;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5959afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

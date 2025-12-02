@@ -25,26 +25,26 @@ public:
   /// @brief Field startMillis, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_startMillis, put = __cordl_internal_set_startMillis)) int64_t startMillis;
 
-  /// @brief Method ConstrainWaitMillis, addr 0x241dfe0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ConstrainWaitMillis, addr 0x334c310, size 0xb0, virtual false, abstract: false, final false
   static inline int32_t ConstrainWaitMillis(int32_t waitMillis, ::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
-  /// @brief Method ForWaitMillis, addr 0x241e0e4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ForWaitMillis, addr 0x334c3f4, size 0x64, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis);
 
-  /// @brief Method ForWaitMillis, addr 0x241e144, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method ForWaitMillis, addr 0x334c458, size 0xd8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* ForWaitMillis(int32_t waitMillis, int64_t currentTimeMillis);
 
-  /// @brief Method GetWaitMillis, addr 0x241e0b0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method GetWaitMillis, addr 0x334c3c0, size 0x34, virtual false, abstract: false, final false
   static inline int32_t GetWaitMillis(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
-  /// @brief Method HasExpired, addr 0x241e210, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HasExpired, addr 0x334c530, size 0x1c, virtual false, abstract: false, final false
   static inline bool HasExpired(::Org::BouncyCastle::Crypto::Tls::Timeout* timeout, int64_t currentTimeMillis);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::Timeout* New_ctor(int64_t durationMillis, int64_t currentTimeMillis);
 
-  /// @brief Method RemainingMillis, addr 0x241df7c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RemainingMillis, addr 0x334c2b4, size 0x5c, virtual false, abstract: false, final false
   inline int64_t RemainingMillis(int64_t currentTimeMillis);
 
   constexpr int64_t const& __cordl_internal_get_durationMillis() const;
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_startMillis(int64_t value);
 
-  /// @brief Method .ctor, addr 0x241de78, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334c1d0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(int64_t durationMillis);
 
-  /// @brief Method .ctor, addr 0x241dee8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334c244, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(int64_t durationMillis, int64_t currentTimeMillis);
 
 protected:

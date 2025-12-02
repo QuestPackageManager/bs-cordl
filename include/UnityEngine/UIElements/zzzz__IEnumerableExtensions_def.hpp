@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IEnumerableExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasValues, addr 0x4a3cfd0, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method HasValues, addr 0x6b7cdf0, size 0x2c8, virtual false, abstract: false, final false
   static inline bool HasValues(::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
 protected:
@@ -40,7 +40,7 @@ public:
   IEnumerableExtensions(IEnumerableExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4601 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

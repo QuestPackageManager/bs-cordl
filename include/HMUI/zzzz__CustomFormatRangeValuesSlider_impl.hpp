@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::CustomFormatRangeValuesSlider::*)(float_t)>(
     &::HMUI::CustomFormatRangeValuesSlider::TextForValue)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39f0e4c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5668f70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CustomFormatRangeValuesSlider::*)()>(&::HMUI::CustomFormatRangeValuesSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f0ebc;
+  constexpr static std::size_t addrs = 0x5668fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CustomFormatRangeValuesSlider*>::get(), ".ctor",

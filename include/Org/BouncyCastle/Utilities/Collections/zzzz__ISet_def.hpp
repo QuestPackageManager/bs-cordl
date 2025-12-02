@@ -3,9 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(ISet)
+namespace System::Collections {
+class ICollection;
+}
 namespace System::Collections {
 class IEnumerable;
 }
@@ -18,7 +19,7 @@ class ISet;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Collections::ISet);
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable
+// Dependencies
 namespace Org::BouncyCastle::Utilities::Collections {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Utilities.Collections.ISet

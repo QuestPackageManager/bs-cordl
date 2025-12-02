@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/VoipPCMSourceNative.hpp"
-#include "Oculus/Platform/zzzz__IVoipPCMSource_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/zzzz__VoipPCMSourceNative_def.hpp"
+#include "Oculus/Platform/zzzz__IVoipPCMSource_def.hpp"
 //  Writing Method size for method: ::Oculus::Platform::VoipPCMSourceNative.GetPCM
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Oculus::Platform::VoipPCMSourceNative::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
     &::Oculus::Platform::VoipPCMSourceNative::GetPCM)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3f8e840;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5bd8284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipPCMSourceNative::*)(uint64_t)>(&::Oculus::Platform::VoipPCMSourceNative::SetSenderID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f8e8cc;
+  constexpr static std::size_t addrs = 0x5bd82fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Oculus::Platform::VoipPCMSourceNative::*)()>(&::Oculus::Platform::VoipPCMSourceNative::PeekSizeElements)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f8e8d4;
+  constexpr static std::size_t addrs = 0x5bd8304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipPCMSourceNative*>::get(),
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipPCMSourceNative::*)()>(&::Oculus::Platform::VoipPCMSourceNative::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3f8e934;
+  constexpr static std::size_t addrs = 0x5bd8364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipPCMSourceNative*>::get(), "Update",
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::VoipPCMSourceNative::*)()>(&::Oculus::Platform::VoipPCMSourceNative::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f8dd6c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5bd77fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::VoipPCMSourceNative*>::get(), ".ctor",

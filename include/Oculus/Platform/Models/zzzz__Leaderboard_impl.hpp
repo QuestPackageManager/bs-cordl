@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::Leaderboard::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::Leaderboard::_ctor)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3f90658;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5bd9938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
     &::GlobalNamespace::ColorAlphaVariationSO::get_color)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26a1038;
+  constexpr static std::size_t addrs = 0x35d08d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::NoAlphaColorSO> (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
     &::GlobalNamespace::ColorAlphaVariationSO::get_baseColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a106c;
+  constexpr static std::size_t addrs = 0x35d0908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::AlphaSO> (::GlobalNamespace::ColorAlphaVariationSO::*)()>(
     &::GlobalNamespace::ColorAlphaVariationSO::get_alpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a1074;
+  constexpr static std::size_t addrs = 0x35d0910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), "get_alpha",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorAlphaVariationSO::*)()>(&::GlobalNamespace::ColorAlphaVariationSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a107c;
+  constexpr static std::size_t addrs = 0x35d0918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorAlphaVariationSO*>::get(), ".ctor",

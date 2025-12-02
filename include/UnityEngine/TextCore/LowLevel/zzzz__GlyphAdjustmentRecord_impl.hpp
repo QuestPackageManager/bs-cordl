@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphAdjustmentRecord.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphAdjustmentRecord_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord.get_glyphIndex
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49231f8;
+  constexpr static std::size_t addrs = 0x698c0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(),
@@ -25,11 +25,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphValueRecord (::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::get_glyphValueRecord)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4923200;
+  constexpr static std::size_t addrs = 0x698c0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(),
                                                                                "get_glyphValueRecord", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)(
+    uint32_t, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x698c0e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get() })));
     return ___internal_method;
   }
 };
@@ -39,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x492320c;
+  constexpr static std::size_t addrs = 0x698c0f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)(::System::Object*)>(
     &::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4923278;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x698c160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::*)(
     ::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::Equals)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x49232f8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x698c1d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,6 +105,13 @@ inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord UnityEngine::TextCore
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(),
                                                                              "get_glyphValueRecord", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::GlyphValueRecord, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::_ctor(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord glyphValueRecord) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, glyphIndex, glyphValueRecord);
 }
 inline int32_t UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord::GetHashCode() {
   auto* ___internal_method =

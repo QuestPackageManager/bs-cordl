@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1TaggedObjectParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BerTaggedObjectParser)
@@ -13,6 +11,9 @@ class Asn1Object;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1StreamParser;
+}
+namespace Org::BouncyCastle::Asn1 {
+class Asn1TaggedObjectParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -26,7 +27,7 @@ class BerTaggedObjectParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerTaggedObjectParser);
-// Dependencies Org.BouncyCastle.Asn1.Asn1TaggedObjectParser, Org.BouncyCastle.Asn1.IAsn1Convertible, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.BerTaggedObjectParser
@@ -52,14 +53,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method GetObjectParser, addr 0x2636b90, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method GetObjectParser, addr 0x356689c, size 0x94, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::IAsn1Convertible* GetObjectParser(int32_t tag, bool isExplicit);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerTaggedObjectParser* New_ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method ToAsn1Object, addr 0x262d940, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method ToAsn1Object, addr 0x355d91c, size 0xf8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr bool const& __cordl_internal_get__constructed() const;
@@ -80,16 +81,16 @@ public:
 
   constexpr void __cordl_internal_set__tagNumber(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2636ae4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35667f8, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(int32_t baseTag, int32_t tagNumber, ::System::IO::Stream* contentStream);
 
-  /// @brief Method .ctor, addr 0x262d900, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355d90c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(bool constructed, int32_t tagNumber, ::Org::BouncyCastle::Asn1::Asn1StreamParser* parser);
 
-  /// @brief Method get_IsConstructed, addr 0x2636b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsConstructed, addr 0x356688c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsConstructed();
 
-  /// @brief Method get_TagNo, addr 0x2636b88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_TagNo, addr 0x3566894, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_TagNo();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1TaggedObjectParser"

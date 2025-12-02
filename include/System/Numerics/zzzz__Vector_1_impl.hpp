@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Numerics/Vector_1.hpp"
 #include "System/Numerics/zzzz__Register_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__IFormattable_impl.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
 #include "System/Numerics/zzzz__Register_def.hpp"
 #include "System/Numerics/zzzz__Vector_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline void System::Numerics::Vector_1<T>::setStaticF_s_count(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "s_count", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::Vector_1<T>>::get>(std::forward<int32_t>(value));
@@ -56,17 +56,16 @@ template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(T value) 
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(::cordl_internals::Ptr<void> dataPointer) {
+template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(void* dataPointer) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::Vector_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataPointer);
 }
-template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(::cordl_internals::Ptr<void> dataPointer, int32_t offset) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::Vector_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(void* dataPointer, int32_t offset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Numerics::Vector_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dataPointer, offset);
 }
 template <typename T> inline void System::Numerics::Vector_1<T>::_ctor(::ByRef<::System::Numerics::Register> existingRegister) {

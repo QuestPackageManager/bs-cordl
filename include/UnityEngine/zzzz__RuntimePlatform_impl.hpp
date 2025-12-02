@@ -42,7 +42,8 @@ constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::tvOS{ sta
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::Switch{ static_cast<int32_t>(0x20) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::Lumin{ static_cast<int32_t>(0x21) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::Stadia{ static_cast<int32_t>(0x22) };
-constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::CloudRendering{ static_cast<int32_t>(0x23) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::CloudRendering{ static_cast<int32_t>(0xffffffff) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::LinuxHeadlessSimulation{ static_cast<int32_t>(0x23) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::GameCoreScarlett{ static_cast<int32_t>(0xffffffff) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::GameCoreXboxSeries{ static_cast<int32_t>(0x24) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::GameCoreXboxOne{ static_cast<int32_t>(0x25) };
@@ -59,3 +60,4 @@ constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXArm64{
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXX64{ static_cast<int32_t>(0x30) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::QNXX86{ static_cast<int32_t>(0x31) };
 constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::VisionOS{ static_cast<int32_t>(0x32) };
+constexpr ::UnityEngine::RuntimePlatform UnityEngine::RuntimePlatform::ReservedCFE{ static_cast<int32_t>(0x33) };

@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGLib::UnityExtension::LogHelper::LogBuildOnly)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22b743c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x31fe50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::UnityEngine::Object*)>(&::BGLib::UnityExtension::LogHelper::LogBuildOnly)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b7494;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31fe568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

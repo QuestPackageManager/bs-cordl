@@ -9,8 +9,8 @@ CORDL_MODULE_EXPORT(MultiColumnListViewController)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
-namespace UnityEngine::UIElements::Internal {
-class MultiColumnCollectionHeader;
+namespace System {
+class Object;
 }
 namespace UnityEngine::UIElements {
 class Columns;
@@ -45,36 +45,52 @@ public:
   // Declarations
   __declspec(property(get = get_columnController)) ::UnityEngine::UIElements::MultiColumnController* columnController;
 
-  __declspec(property(get = get_header)) ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* header;
-
   /// @brief Field m_ColumnController, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ColumnController, put = __cordl_internal_set_m_ColumnController)) ::UnityEngine::UIElements::MultiColumnController* m_ColumnController;
 
-  /// @brief Method BindItem, addr 0x497d07c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method BindItem, addr 0x6a1fb88, size 0x8c, virtual true, abstract: false, final false
   inline void BindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method DestroyItem, addr 0x497d120, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method DestroyItem, addr 0x6a1fc2c, size 0x18, virtual true, abstract: false, final false
   inline void DestroyItem(::UnityEngine::UIElements::VisualElement* element);
 
-  /// @brief Method Dispose, addr 0x497d280, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6a1fdd0, size 0xb8, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method InvokeMakeItem, addr 0x497cb8c, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method GetIdForIndex, addr 0x6a1fb58, size 0x18, virtual true, abstract: false, final false
+  inline int32_t GetIdForIndex(int32_t index);
+
+  /// @brief Method GetIndexForId, addr 0x6a1fb40, size 0x18, virtual true, abstract: false, final false
+  inline int32_t GetIndexForId(int32_t id);
+
+  /// @brief Method GetItemForIndex, addr 0x6a1fb14, size 0x2c, virtual true, abstract: false, final false
+  inline ::System::Object* GetItemForIndex(int32_t index);
+
+  /// @brief Method InvokeBindItem, addr 0x6a1f918, size 0x150, virtual true, abstract: false, final false
+  inline void InvokeBindItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem, int32_t index);
+
+  /// @brief Method InvokeMakeItem, addr 0x6a1f458, size 0xf4, virtual true, abstract: false, final false
   inline void InvokeMakeItem(::UnityEngine::UIElements::ReusableCollectionItem* reusableItem);
 
-  /// @brief Method MakeItem, addr 0x497d060, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method MakeItem, addr 0x6a1fb70, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* MakeItem();
 
   static inline ::UnityEngine::UIElements::MultiColumnListViewController* New_ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method PrepareView, addr 0x497d13c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method PreRefresh, addr 0x6a1f3f4, size 0x18, virtual true, abstract: false, final false
+  inline void PreRefresh();
+
+  /// @brief Method PrepareView, addr 0x6a1fc44, size 0xe0, virtual true, abstract: false, final false
   inline void PrepareView();
 
-  /// @brief Method UnbindItem, addr 0x497d104, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SortIfNeeded, addr 0x6a1f40c, size 0x4c, virtual false, abstract: false, final false
+  inline void SortIfNeeded();
+
+  /// @brief Method UnbindItem, addr 0x6a1fc14, size 0x18, virtual true, abstract: false, final false
   inline void UnbindItem(::UnityEngine::UIElements::VisualElement* element, int32_t index);
 
-  /// @brief Method UpdateReorderClassList, addr 0x497d3d8, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateReorderClassList, addr 0x6a1ff34, size 0xc4, virtual false, abstract: false, final false
   inline void UpdateReorderClassList();
 
   constexpr ::UnityEngine::UIElements::MultiColumnController* const& __cordl_internal_get_m_ColumnController() const;
@@ -83,15 +99,12 @@ public:
 
   constexpr void __cordl_internal_set_m_ColumnController(::UnityEngine::UIElements::MultiColumnController* value);
 
-  /// @brief Method .ctor, addr 0x497cb00, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a1f2f4, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Columns* columns, ::UnityEngine::UIElements::SortColumnDescriptions* sortDescriptions,
                     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>* sortedColumns);
 
-  /// @brief Method get_columnController, addr 0x497cae0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnController, addr 0x6a1f2ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MultiColumnController* get_columnController();
-
-  /// @brief Method get_header, addr 0x497cae8, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* get_header();
 
 protected:
   // Ctor Parameters []
@@ -108,7 +121,7 @@ public:
   MultiColumnListViewController(MultiColumnListViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4083 };
 
   /// @brief Field m_ColumnController, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::MultiColumnController* ___m_ColumnController;

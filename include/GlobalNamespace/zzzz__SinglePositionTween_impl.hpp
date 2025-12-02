@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SinglePositionTween.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_impl.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SinglePositionTween_def.hpp"
 #include "GlobalNamespace/zzzz__CustomTweenBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SinglePositionTween.get_clipCaps
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::SinglePositionTween::*)()>(
     &::GlobalNamespace::SinglePositionTween::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b351e8;
+  constexpr static std::size_t addrs = 0x5716a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePositionTween*>::get(), "get_clipCaps",
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::SinglePositionTween::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::SinglePositionTween::CreatePlayable)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3b351f0;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x5716a78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SinglePositionTween::*)()>(&::GlobalNamespace::SinglePositionTween::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b353b4;
+  constexpr static std::size_t addrs = 0x5716c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SinglePositionTween*>::get(), ".ctor",

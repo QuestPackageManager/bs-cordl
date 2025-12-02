@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Experimental/Playables/MaterialEffectPlayable.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Experimental/Playables/zzzz__MaterialEffectPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Experimental::Playables::MaterialEffectPlayable.GetHandle
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)()>(
     &::UnityEngine::Experimental::Playables::MaterialEffectPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48d0dc8;
+  constexpr static std::size_t addrs = 0x68fc5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Experimental::Playables::MaterialEffectPlayable::*)(
     ::UnityEngine::Experimental::Playables::MaterialEffectPlayable)>(&::UnityEngine::Experimental::Playables::MaterialEffectPlayable::Equals)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48d0dd4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x68fc5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

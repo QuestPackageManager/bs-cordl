@@ -33,7 +33,7 @@ public:
   ProcessModuleCollection(ProcessModuleCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

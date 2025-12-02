@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::HighlightState::*)(::UnityEngine::Color32, ::TMPro::TMP_Offset)>(&::TMPro::HighlightState::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47c6144;
+  constexpr static std::size_t addrs = 0x672a358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::TMPro::HighlightState, ::TMPro::HighlightState)>(&::TMPro::HighlightState::op_Equality)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x47c6154;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x672a368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::TMPro::HighlightState, ::TMPro::HighlightState)>(&::TMPro::HighlightState::op_Inequality)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47c6220;
+  constexpr static std::size_t addrs = 0x672a414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::HighlightState::*)()>(&::TMPro::HighlightState::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47c6268;
+  constexpr static std::size_t addrs = 0x672a45c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::HighlightState::*)(::System::Object*)>(&::TMPro::HighlightState::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47c62d4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x672a4c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::HighlightState::*)(::TMPro::HighlightState)>(&::TMPro::HighlightState::Equals)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47c6354;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x672a540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 CORDL_MODULE_EXPORT(KeyedFactoryBase_2)
 namespace ModestTree::Util {
 template <typename T1, typename T2> class ValuePair_2;
@@ -35,6 +34,9 @@ class ConditionCopyNonLazyBinder;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IValidatable;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -114,13 +116,13 @@ public:
   KeyedFactoryBase_2___c(KeyedFactoryBase_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14317 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Zenject
-// Dependencies System.Object, Zenject.IValidatable
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TBase, typename TKey>
@@ -244,7 +246,7 @@ public:
   KeyedFactoryBase_2(KeyedFactoryBase_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12337 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14318 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

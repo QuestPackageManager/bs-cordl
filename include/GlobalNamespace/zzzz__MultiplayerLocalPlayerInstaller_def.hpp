@@ -35,7 +35,7 @@ public:
   /// @brief Field _startState, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__startState, put = __cordl_internal_set__startState)) ::GlobalNamespace::MultiplayerPlayerStartState _startState;
 
-  /// @brief Method InstallBindings, addr 0x3bf6d8c, size 0x218, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x57ea43c, size 0x284, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::MultiplayerLocalPlayerInstaller* New_ctor();
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__startState(::GlobalNamespace::MultiplayerPlayerStartState value);
 
-  /// @brief Method .ctor, addr 0x3bf6fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ea6c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   MultiplayerLocalPlayerInstaller(MultiplayerLocalPlayerInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4731 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6310 };
 
   /// @brief Field _levelSceneSetupData, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::MultiplayerLevelSceneSetupData* ____levelSceneSetupData;

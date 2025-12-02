@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XmlNodeList)
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Xml {
 class XmlNode;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Xml {
@@ -20,7 +24,7 @@ class XmlNodeList;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlNodeList);
-// Dependencies System.Collections.IEnumerable, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlNodeList
@@ -45,19 +49,19 @@ public:
 
   static inline ::System::Xml::XmlNodeList* New_ctor();
 
-  /// @brief Method PrivateDisposeNodeList, addr 0x4345700, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PrivateDisposeNodeList, addr 0x60ac138, size 0x4, virtual true, abstract: false, final false
   inline void PrivateDisposeNodeList();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x43456f4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x60ac12c, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
-  /// @brief Method .ctor, addr 0x4345704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x609e360, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Count, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_ItemOf, addr 0x43456e8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_ItemOf, addr 0x60ac120, size 0xc, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNode* get_ItemOf(int32_t i);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -81,7 +85,7 @@ public:
   XmlNodeList(XmlNodeList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9377 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

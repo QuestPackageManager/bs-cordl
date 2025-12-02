@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapDataCallbackWrapper::*)(float_t, ::System::Type*, ::ArrayW<int32_t, ::Array<int32_t>*>)>(&::GlobalNamespace::BeatmapDataCallbackWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3adc2a4;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x56b7bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

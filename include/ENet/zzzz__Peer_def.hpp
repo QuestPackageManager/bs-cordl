@@ -65,97 +65,97 @@ public:
 
   __declspec(property(get = get_ID)) uint32_t _cordl_ID;
 
-  /// @brief Method ConfigureThrottle, addr 0x3aa64c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ConfigureThrottle, addr 0x567fa24, size 0x48, virtual false, abstract: false, final false
   inline void ConfigureThrottle(uint32_t interval, uint32_t acceleration, uint32_t deceleration, uint32_t threshold);
 
-  /// @brief Method Disconnect, addr 0x3aa6978, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Disconnect, addr 0x567fecc, size 0x28, virtual false, abstract: false, final false
   inline void Disconnect(uint32_t data);
 
-  /// @brief Method DisconnectLater, addr 0x3aa6ad0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DisconnectLater, addr 0x5680024, size 0x28, virtual false, abstract: false, final false
   inline void DisconnectLater(uint32_t data);
 
-  /// @brief Method DisconnectNow, addr 0x3aa6a24, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method DisconnectNow, addr 0x567ff78, size 0x28, virtual false, abstract: false, final false
   inline void DisconnectNow(uint32_t data);
 
-  /// @brief Method Ping, addr 0x3aa675c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Ping, addr 0x567fcb0, size 0x18, virtual false, abstract: false, final false
   inline void Ping();
 
-  /// @brief Method PingInterval, addr 0x3aa67f0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method PingInterval, addr 0x567fd44, size 0x28, virtual false, abstract: false, final false
   inline void PingInterval(uint32_t interval);
 
-  /// @brief Method Receive, addr 0x3aa6684, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method Receive, addr 0x567fbe4, size 0x48, virtual false, abstract: false, final false
   inline bool Receive(::ByRef<uint8_t> channelID, ::ByRef<::ENet::Packet> packet);
 
-  /// @brief Method Reset, addr 0x3aa6b7c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x56800d0, size 0x18, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Send, addr 0x3aa65b8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Send, addr 0x567fb18, size 0x38, virtual false, abstract: false, final false
   inline int32_t Send(uint8_t channelID, ::ByRef<::ENet::Packet> packet);
 
-  /// @brief Method ThrowIfNotCreated, addr 0x3aa5adc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfNotCreated, addr 0x567f070, size 0x58, virtual false, abstract: false, final false
   inline void ThrowIfNotCreated();
 
-  /// @brief Method Timeout, addr 0x3aa689c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Timeout, addr 0x567fdf0, size 0x40, virtual false, abstract: false, final false
   inline void Timeout(uint32_t timeoutLimit, uint32_t timeoutMinimum, uint32_t timeoutMaximum);
 
-  /// @brief Method .ctor, addr 0x3aa3330, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x567caf8, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr peer);
 
-  /// @brief Method get_BytesReceived, addr 0x3aa62f0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BytesReceived, addr 0x567f850, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_BytesReceived();
 
-  /// @brief Method get_BytesSent, addr 0x3aa625c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BytesSent, addr 0x567f7bc, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_BytesSent();
 
-  /// @brief Method get_Data, addr 0x3aa6384, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Data, addr 0x567f8e4, size 0x18, virtual false, abstract: false, final false
   inline ::System::IntPtr get_Data();
 
-  /// @brief Method get_ID, addr 0x3aa5a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ID, addr 0x567efb0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_ID();
 
-  /// @brief Method get_IP, addr 0x3aa5a14, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method get_IP, addr 0x567efb8, size 0xb8, virtual false, abstract: false, final false
   inline ::StringW get_IP();
 
-  /// @brief Method get_IsSet, addr 0x3aa59fc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_IsSet, addr 0x567efa0, size 0x10, virtual false, abstract: false, final false
   inline bool get_IsSet();
 
-  /// @brief Method get_LastReceiveTime, addr 0x3aa600c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LastReceiveTime, addr 0x567f56c, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_LastReceiveTime();
 
-  /// @brief Method get_LastRoundTripTime, addr 0x3aa5ee4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LastRoundTripTime, addr 0x567f444, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_LastRoundTripTime();
 
-  /// @brief Method get_LastSendTime, addr 0x3aa5f78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_LastSendTime, addr 0x567f4d8, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_LastSendTime();
 
-  /// @brief Method get_MTU, addr 0x3aa5d0c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_MTU, addr 0x567f28c, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_MTU();
 
-  /// @brief Method get_NativeData, addr 0x3aa5970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NativeData, addr 0x567ef14, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr get_NativeData();
 
-  /// @brief Method get_PacketsLost, addr 0x3aa6134, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsLost, addr 0x567f694, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_PacketsLost();
 
-  /// @brief Method get_PacketsSent, addr 0x3aa60a0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsSent, addr 0x567f600, size 0x18, virtual false, abstract: false, final false
   inline uint64_t get_PacketsSent();
 
-  /// @brief Method get_PacketsThrottle, addr 0x3aa61c8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_PacketsThrottle, addr 0x567f728, size 0x18, virtual false, abstract: false, final false
   inline float_t get_PacketsThrottle();
 
-  /// @brief Method get_Port, addr 0x3aa5c78, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Port, addr 0x567f1f8, size 0x18, virtual false, abstract: false, final false
   inline uint16_t get_Port();
 
-  /// @brief Method get_RoundTripTime, addr 0x3aa5e50, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_RoundTripTime, addr 0x567f3b0, size 0x18, virtual false, abstract: false, final false
   inline uint32_t get_RoundTripTime();
 
-  /// @brief Method get_State, addr 0x3aa5da0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method get_State, addr 0x567f320, size 0x14, virtual false, abstract: false, final false
   inline ::ENet::PeerState get_State();
 
-  /// @brief Method set_Data, addr 0x3aa6418, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method set_Data, addr 0x567f978, size 0x28, virtual false, abstract: false, final false
   inline void set_Data(::System::IntPtr value);
 
-  /// @brief Method set_NativeData, addr 0x3aa5978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_NativeData, addr 0x567ef1c, size 0x8, virtual false, abstract: false, final false
   inline void set_NativeData(::System::IntPtr value);
 
   // Ctor Parameters []
@@ -166,7 +166,7 @@ public:
   constexpr Peer(::System::IntPtr nativePeer, uint32_t nativeID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21514 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

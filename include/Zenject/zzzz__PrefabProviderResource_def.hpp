@@ -4,11 +4,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IPrefabProvider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PrefabProviderResource)
 namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -16,7 +18,7 @@ class PrefabProviderResource;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::PrefabProviderResource);
-// Dependencies System.Object, Zenject.IPrefabProvider
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.PrefabProviderResource
@@ -29,7 +31,7 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x4b3fd60, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x6c53bbc, size 0xd8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProviderResource* New_ctor(::StringW resourcePath);
@@ -40,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set__resourcePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4b3fd38, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c53bb4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW resourcePath);
 
   /// @brief Convert to "::Zenject::IPrefabProvider"
@@ -61,7 +63,7 @@ public:
   PrefabProviderResource(PrefabProviderResource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12575 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14556 };
 
   /// @brief Field _resourcePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____resourcePath;

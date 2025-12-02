@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/Tasks/CompletionActionInvoker.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__CompletionActionInvoker_def.hpp"
 #include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::CompletionActionInvoker._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)(
     ::System::Threading::Tasks::ITaskCompletionAction*, ::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::CompletionActionInvoker::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e65b28;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5aab778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)()>(
     &::System::Threading::Tasks::CompletionActionInvoker::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3e692cc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5aaf154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::CompletionActionInvoker::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::Tasks::CompletionActionInvoker::MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e69374;
+  constexpr static std::size_t addrs = 0x5aaf200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

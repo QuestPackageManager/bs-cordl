@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::HttpValidationHelpers::IsInvalidMethodOrHeaderString)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x448b318;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x61dad4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

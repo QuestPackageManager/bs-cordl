@@ -1,17 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UQueryState_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RuleMatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_def.hpp"
@@ -226,6 +224,17 @@ template <typename T> inline T UnityEngine::UIElements::UQueryState_1<T>::First(
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), "First",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline void UnityEngine::UIElements::UQueryState_1<T>::ToList(::System::Collections::Generic::List_1<T>* results) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), "ToList", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, results);
+}
+template <typename T> inline ::System::Collections::Generic::List_1<T>* UnityEngine::UIElements::UQueryState_1<T>::ToList() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(), "ToList",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<T>*, false>(this, ___internal_method);
 }
 template <typename T> inline ::UnityEngine::UIElements::UQueryState_1_Enumerator<T> UnityEngine::UIElements::UQueryState_1<T>::GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryState_1<T>>::get(),

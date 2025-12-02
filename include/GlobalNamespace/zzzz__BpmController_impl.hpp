@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BpmController.hpp"
-#include "GlobalNamespace/zzzz__IBpmController_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BpmController_def.hpp"
 #include "GlobalNamespace/zzzz__BPMChangeBeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BpmController_def.hpp"
+#include "GlobalNamespace/zzzz__IBpmController_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BpmController_InitData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmController_InitData::*)(float_t)>(&::GlobalNamespace::BpmController_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b7d570;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5768e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BpmController::*)()>(&::GlobalNamespace::BpmController::get_currentBpm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7d43c;
+  constexpr static std::size_t addrs = 0x5768d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BpmController*>::get(), "get_currentBpm",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BpmController::*)()>(&::GlobalNamespace::BpmController::get_oneBeatDuration)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b7d444;
+  constexpr static std::size_t addrs = 0x5768d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BpmController*>::get(), "get_oneBeatDuration",
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BpmController::*)(::GlobalNamespace::BpmController_InitData*, ::GlobalNamespace::BeatmapCallbacksController*)>(&::GlobalNamespace::BpmController::_ctor)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b7d464;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5768d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmController::*)()>(&::GlobalNamespace::BpmController::Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b7d538;
+  constexpr static std::size_t addrs = 0x5768e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BpmController*>::get(), "Dispose",
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BpmController::*)(::GlobalNamespace::BPMChangeBeatmapEventData*)>(
     &::GlobalNamespace::BpmController::HandleBpmChangeBeatmapEvent)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b7d554;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5768e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

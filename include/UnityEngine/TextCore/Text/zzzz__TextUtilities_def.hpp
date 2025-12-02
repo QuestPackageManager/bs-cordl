@@ -7,8 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextUtilities)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace UnityEngine::TextCore::Text {
+struct TextFontWeight;
 }
 // Forward declare root types
 namespace UnityEngine::TextCore::Text {
@@ -23,14 +23,14 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetHashCodeCaseInSensitive, addr 0x4950b5c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeCaseInSensitive, addr 0x69df0d0, size 0x70, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeCaseInSensitive(::StringW s);
 
-  /// @brief Method ToUpperFast, addr 0x4952bcc, size 0x74, virtual false, abstract: false, final false
-  static inline char16_t ToUpperFast(char16_t c);
+  /// @brief Method GetTextFontWeightIndex, addr 0x69e06a8, size 0x94, virtual false, abstract: false, final false
+  static inline int32_t GetTextFontWeightIndex(::UnityEngine::TextCore::Text::TextFontWeight fontWeight);
 
-  /// @brief Method UintToString, addr 0x4952c40, size 0xd8, virtual false, abstract: false, final false
-  static inline ::StringW UintToString(::System::Collections::Generic::List_1<uint32_t>* unicodes);
+  /// @brief Method ToUpperFast, addr 0x69e0628, size 0x80, virtual false, abstract: false, final false
+  static inline char16_t ToUpperFast(char16_t c);
 
 protected:
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   TextUtilities(TextUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17242 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

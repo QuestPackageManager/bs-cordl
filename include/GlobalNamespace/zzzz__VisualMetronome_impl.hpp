@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(float_t)>(&::GlobalNamespace::VisualMetronome::set_zeroOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bf8908;
+  constexpr static std::size_t addrs = 0x57ec31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::get_zeroOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf8918;
+  constexpr static std::size_t addrs = 0x57ec32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "get_zeroOffset",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::Awake)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3bf8920;
+  constexpr static std::size_t addrs = 0x57ec334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "Awake",
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::OnEnable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bf89b8;
+  constexpr static std::size_t addrs = 0x57ec3cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "OnEnable",
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::OnDisable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bf8a00;
+  constexpr static std::size_t addrs = 0x57ec414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "OnDisable",
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::Update)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3bf8a48;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x57ec45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), "Update",
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)(float_t)>(
     &::GlobalNamespace::VisualMetronome::SetMovingTickerNormalizedPosition)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3bf8b94;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x57ec5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VisualMetronome::*)()>(&::GlobalNamespace::VisualMetronome::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bf8c38;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x57ec664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VisualMetronome*>::get(), ".ctor",

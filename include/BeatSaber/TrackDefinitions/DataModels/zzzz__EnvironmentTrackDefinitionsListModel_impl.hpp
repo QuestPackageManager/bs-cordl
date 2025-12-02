@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c::*)()>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2284860;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31c7920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (
     ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c::*)(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*)>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c::__ctor_b__1_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2284868;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x31c7924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -47,8 +47,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* (
     ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c::*)(::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO*)>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel___c::__ctor_b__1_1)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2284880;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x31c7938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -125,8 +125,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::BeatSaber::TrackDefinitions::EnvironmentTracksDefinitionSO>>*)>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::_ctor)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2282aa0;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x31c5c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,8 +143,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionModel* (
     ::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::BeatSaber::TrackDefinitions::DataModels::EnvironmentTrackDefinitionsListModel::get_Item)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2284794;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31c7858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

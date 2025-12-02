@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AbstractECMultiplier)
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class ECMultiplier;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -18,7 +20,7 @@ class AbstractECMultiplier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier);
-// Dependencies Org.BouncyCastle.Math.EC.Multiplier.ECMultiplier, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.AbstractECMultiplier
@@ -28,10 +30,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier*() noexcept;
 
-  /// @brief Method CheckResult, addr 0x24b7e40, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CheckResult, addr 0x33e6fd8, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* CheckResult(::Org::BouncyCastle::Math::EC::ECPoint* p);
 
-  /// @brief Method Multiply, addr 0x24b7d64, size 0xdc, virtual true, abstract: false, final false
+  /// @brief Method Multiply, addr 0x33e6f0c, size 0xcc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Multiply(::Org::BouncyCastle::Math::EC::ECPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
 
   /// @brief Method MultiplyPositive, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -39,7 +41,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::AbstractECMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24b7e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e6fe4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier"

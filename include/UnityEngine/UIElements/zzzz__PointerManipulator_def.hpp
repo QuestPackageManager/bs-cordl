@@ -22,13 +22,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE PointerManipulator : public ::UnityEngine::UIElements::MouseManipulator {
 public:
   // Declarations
-  /// @brief Field m_CurrentPointerId, offset 0x2c, size 0x4
+  /// @brief Field m_CurrentPointerId, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CurrentPointerId, put = __cordl_internal_set_m_CurrentPointerId)) int32_t m_CurrentPointerId;
 
-  /// @brief Method CanStartManipulation, addr 0x4a477bc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method CanStartManipulation, addr 0x6b880c0, size 0x1ac, virtual false, abstract: false, final false
   inline bool CanStartManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
-  /// @brief Method CanStopManipulation, addr 0x4a479a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method CanStopManipulation, addr 0x6b8826c, size 0xc0, virtual false, abstract: false, final false
   inline bool CanStopManipulation(::UnityEngine::UIElements::IPointerEvent* e);
 
   static inline ::UnityEngine::UIElements::PointerManipulator* New_ctor();
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentPointerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a47a54, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8832c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,17 +57,17 @@ public:
   PointerManipulator(PointerManipulator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6022 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4656 };
 
-  /// @brief Field m_CurrentPointerId, offset: 0x2c, size: 0x4, def value: None
+  /// @brief Field m_CurrentPointerId, offset: 0x20, size: 0x4, def value: None
   int32_t ___m_CurrentPointerId;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::PointerManipulator, ___m_CurrentPointerId) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::PointerManipulator, ___m_CurrentPointerId) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerManipulator, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerManipulator, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerManipulator);

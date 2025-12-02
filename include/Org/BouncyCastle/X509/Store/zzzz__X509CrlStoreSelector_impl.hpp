@@ -1,22 +1,22 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509CrlStoreSelector.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CrlStoreSelector_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "Org/BouncyCastle/Utilities/Date/zzzz__DateTimeObject_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509Selector_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__IX509AttributeCertificate_def.hpp"
 #include "Org/BouncyCastle/X509/zzzz__X509Certificate_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ebed0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x351bb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(
     ::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*)>(&::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x25ebed8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x351bb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::Clone)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25ec00c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x351bc74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_CertificateChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec064;
+  constexpr static std::size_t addrs = 0x351bcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::Org::BouncyCastle::X509::X509Certificate*)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_CertificateChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec06c;
+  constexpr static std::size_t addrs = 0x351bcd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Date::DateTimeObject* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_DateAndTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec074;
+  constexpr static std::size_t addrs = 0x351bce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(
     ::Org::BouncyCastle::Utilities::Date::DateTimeObject*)>(&::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_DateAndTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec07c;
+  constexpr static std::size_t addrs = 0x351bce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,8 +118,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_Issuers)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25ebf5c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x351bbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_Issuers)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25ec084;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x351bcf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_MaxCrlNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec0ec;
+  constexpr static std::size_t addrs = 0x351bd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_MaxCrlNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec0f4;
+  constexpr static std::size_t addrs = 0x351bd64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,7 +177,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_MinCrlNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec0fc;
+  constexpr static std::size_t addrs = 0x351bd6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -191,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_MinCrlNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec104;
+  constexpr static std::size_t addrs = 0x351bd74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::IX509AttributeCertificate* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_AttrCertChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec10c;
+  constexpr static std::size_t addrs = 0x351bd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(
     ::Org::BouncyCastle::X509::IX509AttributeCertificate*)>(&::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_AttrCertChecking)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec114;
+  constexpr static std::size_t addrs = 0x351bd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_CompleteCrlEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec11c;
+  constexpr static std::size_t addrs = 0x351bd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -248,8 +248,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(bool)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_CompleteCrlEnabled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25ec124;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x351bd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_DeltaCrlIndicatorEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec130;
+  constexpr static std::size_t addrs = 0x351bd9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -277,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(bool)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_DeltaCrlIndicatorEnabled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25ec138;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x351bda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -292,8 +292,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_IssuingDistributionPoint)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25ebfb4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x351bc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -306,8 +306,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_IssuingDistributionPoint)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25ec144;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x351bdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -322,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_IssuingDistributionPointEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec1ac;
+  constexpr static std::size_t addrs = 0x351be18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -336,8 +336,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(bool)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_IssuingDistributionPointEnabled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x25ec1b4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x351be20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::get_MaxBaseCrlNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec1c0;
+  constexpr static std::size_t addrs = 0x351be28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::Store::X509CrlStoreSelector*>::get(),
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::set_MaxBaseCrlNumber)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25ec1c8;
+  constexpr static std::size_t addrs = 0x351be30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -380,8 +380,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::*)(::System::Object*)>(
     &::Org::BouncyCastle::X509::Store::X509CrlStoreSelector::Match)> {
-  constexpr static std::size_t size = 0x710;
-  constexpr static std::size_t addrs = 0x25ec1d0;
+  constexpr static std::size_t size = 0x718;
+  constexpr static std::size_t addrs = 0x351be38;
 
   inline static ::MethodInfo const* methodInfo() {
 

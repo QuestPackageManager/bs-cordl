@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncConnection*>*)>(
     &::Oculus::Platform::NetSync::SetConnectionStatusChangedNotificationCallback)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3f8b3dc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bd565c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::NetSyncSessionsChangedNotification*>*)>(
     &::Oculus::Platform::NetSync::SetSessionsChangedNotificationCallback)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3f8b450;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bd56d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

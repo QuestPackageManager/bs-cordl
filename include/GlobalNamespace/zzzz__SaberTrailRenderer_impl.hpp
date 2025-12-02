@@ -3,6 +3,7 @@
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__SaberTrailRenderer_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "GlobalNamespace/zzzz__TrailElementCollection_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
@@ -15,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)(float_t, float_t, int32_t, float_t)>(
     &::GlobalNamespace::SaberTrailRenderer::Init)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4088188;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x5d37c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +31,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)()>(&::GlobalNamespace::SaberTrailRenderer::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x408845c;
+  constexpr static std::size_t addrs = 0x5d37f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberTrailRenderer*>::get(), "OnDestroy",
@@ -42,8 +43,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)()>(&::GlobalNamespace::SaberTrailRenderer::OnValidate)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4088468;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5d37f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberTrailRenderer*>::get(), "OnValidate",
@@ -55,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)()>(&::GlobalNamespace::SaberTrailRenderer::OnEnable)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4088540;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5d38050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberTrailRenderer*>::get(), "OnEnable",
@@ -68,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)()>(&::GlobalNamespace::SaberTrailRenderer::OnDisable)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40885c4;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5d380d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberTrailRenderer*>::get(), "OnDisable",
@@ -82,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)(float_t)>(&::GlobalNamespace::SaberTrailRenderer::SetTrailWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4088648;
+  constexpr static std::size_t addrs = 0x5d38160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)(::GlobalNamespace::TrailElementCollection*, ::UnityEngine::Color)>(
     &::GlobalNamespace::SaberTrailRenderer::UpdateMesh)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4087c74;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5d375d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)(::GlobalNamespace::TrailElementCollection*, ::UnityEngine::Color)>(
     &::GlobalNamespace::SaberTrailRenderer::UpdateVertices)> {
-  constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x4088650;
+  constexpr static std::size_t size = 0x3b8;
+  constexpr static std::size_t addrs = 0x5d38168;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)()>(&::GlobalNamespace::SaberTrailRenderer::UpdateIndices)> {
   constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4088304;
+  constexpr static std::size_t addrs = 0x5d37e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberTrailRenderer*>::get(), "UpdateIndices",
@@ -139,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberTrailRenderer::*)()>(&::GlobalNamespace::SaberTrailRenderer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4088d24;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d387c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberTrailRenderer*>::get(), ".ctor",
@@ -148,6 +149,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::SaberTrailRenderer::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::SaberTrailRenderer::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::SaberTrailRenderer::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::SaberTrailRenderer::__cordl_internal_get__meshRenderer() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____meshRenderer;

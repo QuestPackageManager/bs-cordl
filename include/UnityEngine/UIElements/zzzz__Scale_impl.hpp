@@ -1,16 +1,19 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Scale.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Scale_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Scale._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scale::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::Scale::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4a84c00;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6a5d708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Scale (*)()>(&::UnityEngine::UIElements::Scale::Initial)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4a84d0c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6a5d718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale>::get(), "Initial",
@@ -37,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Scale (*)()>(&::UnityEngine::UIElements::Scale::None)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a84d68;
+  constexpr static std::size_t addrs = 0x6a5d768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale>::get(), "None",
@@ -50,11 +53,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::Scale::*)()>(&::UnityEngine::UIElements::Scale::get_value)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a84d80;
+  constexpr static std::size_t addrs = 0x6a5d780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale>::get(), "get_value",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Scale.set_value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scale::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::Scale::set_value)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5d78c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale>::get(), "set_value", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -64,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale)>(
     &::UnityEngine::UIElements::Scale::op_Equality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a82f40;
+  constexpr static std::size_t addrs = 0x6a5ad40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -80,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Scale, ::UnityEngine::UIElements::Scale)>(
     &::UnityEngine::UIElements::Scale::op_Inequality)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a84d8c;
+  constexpr static std::size_t addrs = 0x6a5d798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Scale::*)(::UnityEngine::UIElements::Scale)>(
     &::UnityEngine::UIElements::Scale::Equals)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a84de0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6a5d7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Scale::*)(::System::Object*)>(&::UnityEngine::UIElements::Scale::Equals)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4a84e34;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6a5d838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Scale::*)()>(&::UnityEngine::UIElements::Scale::GetHashCode)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a83278;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6a5b088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::Scale::*)()>(&::UnityEngine::UIElements::Scale::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a84ef0;
+  constexpr static std::size_t addrs = 0x6a5d8ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,6 +184,12 @@ inline ::UnityEngine::Vector3 UnityEngine::UIElements::Scale::get_value() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale>::get(), "get_value",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::Scale::set_value(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale>::get(), "set_value", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool UnityEngine::UIElements::Scale::op_Equality(::UnityEngine::UIElements::Scale lhs, ::UnityEngine::UIElements::Scale rhs) {
   static auto* ___internal_method =
@@ -218,3 +241,163 @@ constexpr ::UnityEngine::UIElements::Scale::Scale(::UnityEngine::Vector3 m_Scale
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Scale::Scale() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5da24;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5da2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Scale>)>(&::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::GetValue)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5da34;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Scale>, ::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::SetValue)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5da40;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a5d9c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::GetValue(::ByRef<::UnityEngine::UIElements::Scale> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::SetValue(::ByRef<::UnityEngine::UIElements::Scale> container, ::UnityEngine::Vector3 value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty* UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_Scale_ValueProperty::PropertyBag_Scale_ValueProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Scale_PropertyBag._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Scale_PropertyBag::*)()>(&::UnityEngine::UIElements::Scale_PropertyBag::_ctor)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6a5d8fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale_PropertyBag*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::Scale_PropertyBag::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Scale_PropertyBag*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Scale_PropertyBag* UnityEngine::UIElements::Scale_PropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Scale_PropertyBag*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::Scale_PropertyBag::Scale_PropertyBag() {}

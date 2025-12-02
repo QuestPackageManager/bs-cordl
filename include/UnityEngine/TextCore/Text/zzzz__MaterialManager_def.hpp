@@ -32,13 +32,13 @@ public:
   __declspec(property(get = getStaticF_s_FallbackMaterials,
                       put = setStaticF_s_FallbackMaterials)) ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* s_FallbackMaterials;
 
-  /// @brief Method CopyMaterialPresetProperties, addr 0x492e068, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method CopyMaterialPresetProperties, addr 0x6993378, size 0x254, virtual false, abstract: false, final false
   static inline void CopyMaterialPresetProperties(::UnityEngine::Material* source, ::UnityEngine::Material* destination);
 
-  /// @brief Method GetFallbackMaterial, addr 0x492e2f0, size 0x220, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x69935cc, size 0x26c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::Material* sourceMaterial, int32_t atlasIndex);
 
-  /// @brief Method GetFallbackMaterial, addr 0x492dca0, size 0x3c8, virtual false, abstract: false, final false
+  /// @brief Method GetFallbackMaterial, addr 0x6992f6c, size 0x40c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Material> GetFallbackMaterial(::UnityEngine::Material* sourceMaterial, ::UnityEngine::Material* targetMaterial);
 
   static inline ::System::Collections::Generic::Dictionary_2<int64_t, ::UnityW<::UnityEngine::Material>>* getStaticF_s_FallbackMaterials();
@@ -60,7 +60,7 @@ public:
   MaterialManager(MaterialManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17168 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

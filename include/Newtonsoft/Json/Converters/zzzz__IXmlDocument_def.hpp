@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IXmlDocument)
 namespace Newtonsoft::Json::Converters {
@@ -18,7 +17,7 @@ class IXmlDocument;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::IXmlDocument);
-// Dependencies Newtonsoft.Json.Converters.IXmlNode
+// Dependencies
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Converters.IXmlDocument
@@ -77,7 +76,7 @@ public:
   IXmlDocument(IXmlDocument const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10489 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13643 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

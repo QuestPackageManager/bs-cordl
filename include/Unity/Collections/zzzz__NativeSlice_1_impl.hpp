@@ -1,14 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Unity/Collections/NativeSlice_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
@@ -56,12 +54,6 @@ template <typename T> inline void Unity::Collections::NativeSlice_1<T>::CopyFrom
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeSlice_1<T>>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Collections::NativeSlice_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slice);
-}
-template <typename T> inline void Unity::Collections::NativeSlice_1<T>::CopyFrom(::ArrayW<T, ::Array<T>*> array) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeSlice_1<T>>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array);
 }
 template <typename T> inline int32_t Unity::Collections::NativeSlice_1<T>::get_Stride() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Collections::NativeSlice_1<T>>::get(), "get_Stride",
@@ -131,9 +123,9 @@ template <typename T>
 constexpr ::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>* Unity::Collections::NativeSlice_1<T>::i___System__IEquatable_1___Unity__Collections__NativeSlice_1_T__() {
   return static_cast<::System::IEquatable_1<::Unity::Collections::NativeSlice_1<T>>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_Buffer", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Stride", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-template <typename T> constexpr ::Unity::Collections::NativeSlice_1<T>::NativeSlice_1(::cordl_internals::Ptr<uint8_t> m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept {
+// Ctor Parameters [CppParam { name: "m_Buffer", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Stride", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_Length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+template <typename T> constexpr ::Unity::Collections::NativeSlice_1<T>::NativeSlice_1(uint8_t* m_Buffer, int32_t m_Stride, int32_t m_Length) noexcept {
   this->m_Buffer = m_Buffer;
   this->m_Stride = m_Stride;
   this->m_Length = m_Length;

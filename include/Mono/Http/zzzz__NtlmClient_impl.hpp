@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Mono/Http/NtlmClient.hpp"
-#include "System/Net/zzzz__IAuthenticationModule_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Http/zzzz__NtlmClient_def.hpp"
 #include "Mono/Http/zzzz__NtlmClient_def.hpp"
 #include "Mono/Http/zzzz__NtlmSession_def.hpp"
 #include "System/Net/zzzz__Authorization_def.hpp"
 #include "System/Net/zzzz__HttpWebRequest_def.hpp"
+#include "System/Net/zzzz__IAuthenticationModule_def.hpp"
 #include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
@@ -14,8 +14,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Http::NtlmClient___c::*)()>(&::Mono::Http::NtlmClient___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4118fdc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5dc3018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Http::NtlmClient___c*>::get(), ".ctor",
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Http::NtlmSession* (::Mono::Http::NtlmClient___c::*)(::System::Net::HttpWebRequest*)>(
     &::Mono::Http::NtlmClient___c::_Authenticate_b__1_0)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4118fe4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dc301c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::Mono::Http::NtlmClient::*)(::StringW, ::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::Mono::Http::NtlmClient::Authenticate)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x4118b40;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x5dc2b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Net::Authorization* (::Mono::Http::NtlmClient::*)(::System::Net::WebRequest*, ::System::Net::ICredentials*)>(&::Mono::Http::NtlmClient::PreAuthenticate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4118ea4;
+  constexpr static std::size_t addrs = 0x5dc2ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,8 +108,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Http::NtlmClient::*)()>(&::Mono::Http::NtlmClient::get_AuthenticationType)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4118eac;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5dc2eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Http::NtlmClient*>::get(), "get_AuthenticationType",
@@ -121,8 +121,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Http::NtlmClient::*)()>(&::Mono::Http::NtlmClient::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4118eec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5dc2f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Http::NtlmClient*>::get(), ".ctor",

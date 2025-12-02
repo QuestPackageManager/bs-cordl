@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithRejoinDialogResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithRejoinDialogResult::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7c6d4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc2f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,14 +24,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (::Oculus::Platform::MessageWithRejoinDialogResult::*)()>(
     &::Oculus::Platform::MessageWithRejoinDialogResult::GetRejoinDialogResult)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f80504;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc7cd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 59));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 62));
     return ___internal_method;
   }
 };
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::RejoinDialogResult* (
     ::Oculus::Platform::MessageWithRejoinDialogResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithRejoinDialogResult::GetDataFromMessage)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f80540;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5bc7d14;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -59,12 +59,12 @@ inline void Oculus::Platform::MessageWithRejoinDialogResult::_ctor(::System::Int
 }
 inline ::Oculus::Platform::Models::RejoinDialogResult* Oculus::Platform::MessageWithRejoinDialogResult::GetRejoinDialogResult() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 59)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 62)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::RejoinDialogResult*, false>(this, ___internal_method);
 }
 inline ::Oculus::Platform::Models::RejoinDialogResult* Oculus::Platform::MessageWithRejoinDialogResult::GetDataFromMessage(::System::IntPtr c_message) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 72)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithRejoinDialogResult*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::RejoinDialogResult*, false>(this, ___internal_method, c_message);
 }
 inline ::Oculus::Platform::MessageWithRejoinDialogResult* Oculus::Platform::MessageWithRejoinDialogResult::New_ctor(::System::IntPtr c_message) {

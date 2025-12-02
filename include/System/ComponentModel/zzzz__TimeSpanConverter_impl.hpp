@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TimeSpanConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::TimeSpanConverter::CanConvertFrom)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x445b1bc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x61ab648;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::TimeSpanConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::TimeSpanConverter::CanConvertTo)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x445b284;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x61ab6c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +42,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::TimeSpanConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::TimeSpanConverter::ConvertFrom)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x445b34c;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x61ab76c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::TimeSpanConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::TimeSpanConverter::ConvertTo)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x445b544;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x61ab950;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::TimeSpanConverter::*)()>(&::System::ComponentModel::TimeSpanConverter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x445b850;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x61abc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::TimeSpanConverter*>::get(), ".ctor",

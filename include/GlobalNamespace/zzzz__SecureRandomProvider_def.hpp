@@ -10,7 +10,7 @@ namespace GlobalNamespace {
 class SecureRandomProvider_SecureRandomState;
 }
 namespace System::Security::Cryptography {
-class RNGCryptoServiceProvider;
+class RandomNumberGenerator;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -33,7 +33,7 @@ public:
   __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
 
   /// @brief Field _random, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Security::Cryptography::RNGCryptoServiceProvider* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Security::Cryptography::RandomNumberGenerator* _random;
 
   /// @brief Field _randomBuffer0, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__randomBuffer0, put = __cordl_internal_set__randomBuffer0)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer0;
@@ -41,13 +41,13 @@ public:
   /// @brief Field _randomBuffer1, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__randomBuffer1, put = __cordl_internal_set__randomBuffer1)) ::ArrayW<uint8_t, ::Array<uint8_t>*> _randomBuffer1;
 
-  /// @brief Method FillBuffer, addr 0x22e6e78, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method FillBuffer, addr 0x321ab70, size 0x104, virtual false, abstract: false, final false
   inline void FillBuffer();
 
-  /// @brief Method GetByte, addr 0x22e6bcc, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x321a8ec, size 0x94, virtual false, abstract: false, final false
   inline uint8_t GetByte();
 
-  /// @brief Method GetBytes, addr 0x22e6ab4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x321a7d8, size 0xb0, virtual false, abstract: false, final false
   inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* New_ctor();
@@ -56,9 +56,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get__index();
 
-  constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider* const& __cordl_internal_get__random() const;
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator* const& __cordl_internal_get__random() const;
 
-  constexpr ::System::Security::Cryptography::RNGCryptoServiceProvider*& __cordl_internal_get__random();
+  constexpr ::System::Security::Cryptography::RandomNumberGenerator*& __cordl_internal_get__random();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__randomBuffer0() const;
 
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  constexpr void __cordl_internal_set__random(::System::Security::Cryptography::RNGCryptoServiceProvider* value);
+  constexpr void __cordl_internal_set__random(::System::Security::Cryptography::RandomNumberGenerator* value);
 
   constexpr void __cordl_internal_set__randomBuffer0(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
   constexpr void __cordl_internal_set__randomBuffer1(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x22e6dd4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x321aaf0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,13 +94,13 @@ public:
   SecureRandomProvider_SecureRandomState(SecureRandomProvider_SecureRandomState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18232 };
 
   /// @brief Field kBufferSize offset 0xffffffff size 0x4
   static constexpr int32_t kBufferSize{ static_cast<int32_t>(0x4000) };
 
   /// @brief Field _random, offset: 0x10, size: 0x8, def value: None
-  ::System::Security::Cryptography::RNGCryptoServiceProvider* ____random;
+  ::System::Security::Cryptography::RandomNumberGenerator* ____random;
 
   /// @brief Field _randomBuffer0, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____randomBuffer0;
@@ -137,16 +137,16 @@ public:
   /// @brief Field _secureRandomState, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__secureRandomState, put = setStaticF__secureRandomState)) ::GlobalNamespace::SecureRandomProvider_SecureRandomState* _secureRandomState;
 
-  /// @brief Method GetByte, addr 0x22e6b6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method GetByte, addr 0x321a888, size 0x64, virtual false, abstract: false, final false
   static inline uint8_t GetByte();
 
-  /// @brief Method GetBytes, addr 0x22e6a0c, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x321a730, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetBytes(int32_t length);
 
-  /// @brief Method GetBytes, addr 0x22e6cf4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x321aa04, size 0x78, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method GetBytes, addr 0x22e6c74, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method GetBytes, addr 0x321a980, size 0x84, virtual false, abstract: false, final false
   static inline void GetBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t length);
 
   static inline ::GlobalNamespace::SecureRandomProvider_SecureRandomState* getStaticF__secureRandomState();
@@ -168,7 +168,7 @@ public:
   SecureRandomProvider(SecureRandomProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18233 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

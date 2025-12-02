@@ -33,8 +33,11 @@ public:
 
   __declspec(property(get = get_displayMenuHandledOSX, put = set_displayMenuHandledOSX)) bool displayMenuHandledOSX;
 
-  /// @brief Method DisplayMenu, addr 0x497f9c0, size 0x3f4, virtual false, abstract: false, final false
+  /// @brief Method DisplayMenu, addr 0x6a22604, size 0x78, virtual false, abstract: false, final false
   inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target);
+
+  /// @brief Method DisplayMenu, addr 0x6a2267c, size 0x374, virtual false, abstract: false, final false
+  inline void DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target, ::UnityEngine::UIElements::DropdownMenu* menu);
 
   /// @brief Method DisplayMenuIfEventMatches, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DisplayMenuIfEventMatches(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::IEventHandler* eventHandler);
@@ -42,16 +45,21 @@ public:
   /// @brief Method DoDisplayMenu, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void DoDisplayMenu(::UnityEngine::UIElements::DropdownMenu* menu, ::UnityEngine::UIElements::EventBase* triggerEvent);
 
+  static inline ::UnityEngine::UIElements::ContextualMenuManager* New_ctor();
+
   constexpr bool const& __cordl_internal_get__displayMenuHandledOSX_k__BackingField() const;
 
   constexpr bool& __cordl_internal_get__displayMenuHandledOSX_k__BackingField();
 
   constexpr void __cordl_internal_set__displayMenuHandledOSX_k__BackingField(bool value);
 
-  /// @brief Method get_displayMenuHandledOSX, addr 0x497f9ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a229f0, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_displayMenuHandledOSX, addr 0x6a225f4, size 0x8, virtual false, abstract: false, final false
   inline bool get_displayMenuHandledOSX();
 
-  /// @brief Method set_displayMenuHandledOSX, addr 0x497f9b4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_displayMenuHandledOSX, addr 0x6a225fc, size 0x8, virtual false, abstract: false, final false
   inline void set_displayMenuHandledOSX(bool value);
 
 protected:
@@ -69,7 +77,7 @@ public:
   ContextualMenuManager(ContextualMenuManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4101 };
 
   /// @brief Field <displayMenuHandledOSX>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____displayMenuHandledOSX_k__BackingField;

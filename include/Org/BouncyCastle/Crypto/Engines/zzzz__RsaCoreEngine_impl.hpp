@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/RsaCoreEngine.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IRsa_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__RsaCoreEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__RsaKeyParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IRsa_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine.CheckInitialised
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::CheckInitialised)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x236c3c0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x329a094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::Init)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x236c41c;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x329a0ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::GetInputBlockSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x236c578;
+  constexpr static std::size_t addrs = 0x329a254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x236c5b4;
+  constexpr static std::size_t addrs = 0x329a290;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertInput)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x236c5f0;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x329a2cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(
     ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ConvertOutput)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x236c6fc;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x329a3e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::ProcessBlock)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x236c7c0;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x329a4b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x236b600;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32992c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*>::get(),

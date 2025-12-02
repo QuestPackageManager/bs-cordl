@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::Init)> {
-  constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x47032c4;
+  constexpr static std::size_t size = 0x434;
+  constexpr static std::size_t addrs = 0x649814c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(), "Init",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_geometryShadersSupported)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4703be4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6498604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_defaultMaterial)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4703c40;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6498664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_selectionPickerShader)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4703c9c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x64988fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_facePickerMaterial)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4703cf8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x649895c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_vertexPickerMaterial)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4703d54;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x64989bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_edgePickerMaterial)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4703db0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6498a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_triggerMaterial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4703e0c;
+  constexpr static std::size_t addrs = 0x6498a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -114,24 +114,11 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_colliderMaterial)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4703f14;
+  constexpr static std::size_t addrs = 0x6498b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
                                                                                "get_colliderMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ProBuilder::BuiltinMaterials.get_noDrawMaterial
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x470401c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
-                                                                               "get_noDrawMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -140,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse)> {
   constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x4704124;
+  constexpr static std::size_t addrs = 0x6498c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -152,8 +139,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetDefaultMaterial)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4703974;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6498740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -161,16 +148,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::ProBuilder::BuiltinMaterials.get_unlitVertexColor
+//  Writing Method size for method: ::UnityEngine::ProBuilder::BuiltinMaterials.GetPreviewMaterial
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47043c4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::GetPreviewMaterial)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x6498f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
-                                                                               "get_unlitVertexColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "GetPreviewMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -178,8 +165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)()>(&::UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4704420;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x649915c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
@@ -253,14 +240,6 @@ inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_s_UnityDefault
 }
 inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_s_UnityDefaultDiffuse() {
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_UnityDefaultDiffuse",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get>();
-}
-inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_s_UnlitVertexColorMaterial(::UnityW<::UnityEngine::Material> value) {
-  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Material>, "s_UnlitVertexColorMaterial",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get>(std::forward<::UnityW<::UnityEngine::Material>>(value));
-}
-inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::getStaticF_s_UnlitVertexColorMaterial() {
-  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Material>, "s_UnlitVertexColorMaterial",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get>();
 }
 inline void UnityEngine::ProBuilder::BuiltinMaterials::setStaticF_s_ShapePreviewMaterial(::UnityW<::UnityEngine::Material> value) {
@@ -358,11 +337,6 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMateria
                                                                              "get_colliderMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::get_noDrawMaterial() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
-                                                                             "get_noDrawMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
-}
 inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::GetLegacyDiffuse() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
                                                                              "GetLegacyDiffuse", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -373,9 +347,9 @@ inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMateria
                                                                              "GetDefaultMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::get_unlitVertexColor() {
+inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::GetPreviewMaterial() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BuiltinMaterials*>::get(),
-                                                                             "get_unlitVertexColor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "GetPreviewMaterial", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Material>, false>(nullptr, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Material> UnityEngine::ProBuilder::BuiltinMaterials::get_ShapePreviewMaterial() {

@@ -29,6 +29,7 @@ public:
     __E_LegacyJobified = static_cast<int32_t>(0x3),
     __E_NativeGraphicsJobs = static_cast<int32_t>(0x4),
     __E_NativeGraphicsJobsWithoutRenderThread = static_cast<int32_t>(0x5),
+    __E_NativeGraphicsJobsSplitThreading = static_cast<int32_t>(0x6),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -60,6 +61,9 @@ public:
   /// @brief Field NativeGraphicsJobs value: I32(4)
   static ::UnityEngine::Rendering::RenderingThreadingMode const NativeGraphicsJobs;
 
+  /// @brief Field NativeGraphicsJobsSplitThreading value: I32(6)
+  static ::UnityEngine::Rendering::RenderingThreadingMode const NativeGraphicsJobsSplitThreading;
+
   /// @brief Field NativeGraphicsJobsWithoutRenderThread value: I32(5)
   static ::UnityEngine::Rendering::RenderingThreadingMode const NativeGraphicsJobsWithoutRenderThread;
 
@@ -67,7 +71,7 @@ public:
   static ::UnityEngine::Rendering::RenderingThreadingMode const SingleThreaded;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10728 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -1,14 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/SortColumnDescriptions.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__SortColumnDescriptions_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectFactory_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectTraits_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SortColumnDescriptions_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
@@ -27,6 +28,32 @@ template <typename T> inline ::UnityEngine::UIElements::SortColumnDescriptions_U
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory_1<T>::SortColumnDescriptions_UxmlObjectFactory_1() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::*)()>(
+    &::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::_ctor)> {
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6b2ef3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory* UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectFactory::SortColumnDescriptions_UxmlObjectFactory() {}
 template <typename T>
 constexpr ::UnityEngine::UIElements::UxmlObjectListAttributeDescription_1<::UnityEngine::UIElements::SortColumnDescription*>*&
 UnityEngine::UIElements::SortColumnDescriptions_UxmlObjectTraits_1<T>::__cordl_internal_get_m_SortColumnDescriptions() {
@@ -69,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)(::System::Action*)>(
     &::UnityEngine::UIElements::SortColumnDescriptions::add_changed)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4a01158;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6b2e658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)(::System::Action*)>(
     &::UnityEngine::UIElements::SortColumnDescriptions::remove_changed)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4a011f4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6b2e704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::UIElements::SortColumnDescription*>* (
     ::UnityEngine::UIElements::SortColumnDescriptions::*)()>(&::UnityEngine::UIElements::SortColumnDescriptions::GetEnumerator)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a01290;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6b2e7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions*>::get(),
@@ -114,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::UIElements::SortColumnDescriptions::*)()>(
     &::UnityEngine::UIElements::SortColumnDescriptions::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a01330;
+  constexpr static std::size_t addrs = 0x6b2e854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,8 +155,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)(::UnityEngine::UIElements::SortColumnDescription*)>(
     &::UnityEngine::UIElements::SortColumnDescriptions::Add)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4a01334;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b2e858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -143,8 +170,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)()>(
     &::UnityEngine::UIElements::SortColumnDescriptions::Clear)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x49ffb9c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6b2c0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions*>::get(),
@@ -157,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::SortColumnDescriptions::*)(::UnityEngine::UIElements::SortColumnDescription*)>(
     &::UnityEngine::UIElements::SortColumnDescriptions::Contains)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4a0171c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6b2ec5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,8 +199,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)(
     ::ArrayW<::UnityEngine::UIElements::SortColumnDescription*, ::Array<::UnityEngine::UIElements::SortColumnDescription*>*>, int32_t)>(&::UnityEngine::UIElements::SortColumnDescriptions::CopyTo)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4a017c8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b2ed14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,8 +216,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::SortColumnDescriptions::*)(::UnityEngine::UIElements::SortColumnDescription*)>(
     &::UnityEngine::UIElements::SortColumnDescriptions::Remove)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x4a015a4;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x6b2ead4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)(::UnityEngine::UIElements::SortColumnDescription*)>(
     &::UnityEngine::UIElements::SortColumnDescriptions::OnDescriptionChanged)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a01884;
+  constexpr static std::size_t addrs = 0x6b2edd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,8 +246,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::SortColumnDescriptions::*)()>(
     &::UnityEngine::UIElements::SortColumnDescriptions::get_Count)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a018a0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6b2edf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions*>::get(),
@@ -233,8 +260,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::SortColumnDescriptions::*)()>(
     &::UnityEngine::UIElements::SortColumnDescriptions::get_IsReadOnly)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a01940;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b2ee94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions*>::get(),
@@ -248,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)(int32_t, ::UnityEngine::UIElements::SortColumnDescription*)>(&::UnityEngine::UIElements::SortColumnDescriptions::Insert)> {
   constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x4a013e8;
+  constexpr static std::size_t addrs = 0x6b2e918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,8 +290,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::SortColumnDescriptions::*)()>(
     &::UnityEngine::UIElements::SortColumnDescriptions::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49ffee4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6b2c480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::SortColumnDescriptions*>::get(),

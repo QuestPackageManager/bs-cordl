@@ -28,10 +28,10 @@ public:
 
   static inline ::System::InsufficientExecutionStackException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3de7828, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2d718, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3de7884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2d778, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -49,7 +49,7 @@ public:
   InsufficientExecutionStackException(InsufficientExecutionStackException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2426 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

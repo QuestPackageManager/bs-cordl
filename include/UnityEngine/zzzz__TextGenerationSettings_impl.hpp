@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::UnityEngine::TextGenerationSettings::CompareColors)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x495303c;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x69e0a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::Vector2, ::UnityEngine::Vector2)>(
     &::UnityEngine::TextGenerationSettings::CompareVector2)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4953174;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x69e0bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextGenerationSettings::*)(::UnityEngine::TextGenerationSettings)>(
     &::UnityEngine::TextGenerationSettings::Equals)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x495323c;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x69e0c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

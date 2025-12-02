@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TypeDispatchData.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/zzzz__TypeDispatchData_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TypeDispatchData.Dispose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TypeDispatchData::*)()>(&::UnityEngine::TypeDispatchData::Dispose)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48a57d4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x68a0d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TypeDispatchData>::get(), "Dispose",

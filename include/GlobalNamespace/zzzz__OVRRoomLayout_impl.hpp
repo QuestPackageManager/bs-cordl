@@ -1,21 +1,22 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRRoomLayout.hpp"
-#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRoomLayout_def.hpp"
+#include "GlobalNamespace/zzzz__IOVRAnchorComponent_1_def.hpp"
 #include "GlobalNamespace/zzzz__OVRAnchor_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "GlobalNamespace/zzzz__OVRResult_2_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTask_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRRoomLayout.IOVRAnchorComponent_OVRRoomLayout__get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRRoomLayout::*)()>(
     &::GlobalNamespace::OVRRoomLayout::IOVRAnchorComponent_OVRRoomLayout__get_Type)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fa0488;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c0092c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRRoomLayout::*)()>(
     &::GlobalNamespace::OVRRoomLayout::IOVRAnchorComponent_OVRRoomLayout__get_Handle)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3fa04e0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5c00988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRRoomLayout (::GlobalNamespace::OVRRoomLayout::*)(::GlobalNamespace::OVRAnchor)>(
     &::GlobalNamespace::OVRRoomLayout::IOVRAnchorComponent_OVRRoomLayout__FromAnchor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3fa0534;
+  constexpr static std::size_t addrs = 0x5c009e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRoomLayout::*)()>(&::GlobalNamespace::OVRRoomLayout::get_IsNull)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fa05c8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c00a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "get_IsNull",
@@ -71,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRoomLayout::*)()>(&::GlobalNamespace::OVRRoomLayout::get_IsEnabled)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3fa0624;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x5c00ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "get_IsEnabled",
@@ -86,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRRoomLayout::*)(bool, double_t)>(
     &::GlobalNamespace::OVRRoomLayout::IOVRAnchorComponent_OVRRoomLayout__SetEnabledAsync)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3fa0710;
+  constexpr static std::size_t addrs = 0x5c00bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRoomLayout::*)(::GlobalNamespace::OVRRoomLayout)>(
     &::GlobalNamespace::OVRRoomLayout::Equals)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3fa075c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c00c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRRoomLayout, ::GlobalNamespace::OVRRoomLayout)>(
     &::GlobalNamespace::OVRRoomLayout::op_Equality)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3fa07c4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5c00c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRRoomLayout, ::GlobalNamespace::OVRRoomLayout)>(
     &::GlobalNamespace::OVRRoomLayout::op_Inequality)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3fa0830;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5c00ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRoomLayout::*)(::System::Object*)>(&::GlobalNamespace::OVRRoomLayout::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3fa08a0;
+  constexpr static std::size_t addrs = 0x5c00d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,8 +161,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRRoomLayout::*)()>(&::GlobalNamespace::OVRRoomLayout::GetHashCode)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3fa0930;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c00dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,8 +175,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRRoomLayout::*)()>(&::GlobalNamespace::OVRRoomLayout::ToString)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3fa09c4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5c00e58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_SpaceComponentType (::GlobalNamespace::OVRRoomLayout::*)()>(
     &::GlobalNamespace::OVRRoomLayout::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa04d8;
+  constexpr static std::size_t addrs = 0x5c00980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "get_Type",
@@ -203,7 +204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRRoomLayout::*)()>(&::GlobalNamespace::OVRRoomLayout::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa0a6c;
+  constexpr static std::size_t addrs = 0x5c00f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "get_Handle",
@@ -215,8 +216,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRoomLayout::*)(::GlobalNamespace::OVRAnchor)>(&::GlobalNamespace::OVRRoomLayout::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3fa0564;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5c00a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,12 +231,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTask_1<bool> (::GlobalNamespace::OVRRoomLayout::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*)>(&::GlobalNamespace::OVRRoomLayout::FetchLayoutAnchorsAsync)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3fa0a74;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x5c00f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "FetchLayoutAnchorsAsync", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRRoomLayout.FetchAnchorsAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>> (
+        ::GlobalNamespace::OVRRoomLayout::*)(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*)>(&::GlobalNamespace::OVRRoomLayout::FetchAnchorsAsync)> {
+  constexpr static std::size_t size = 0x368;
+  constexpr static std::size_t addrs = 0x5c01248;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "FetchAnchorsAsync", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>::get() })));
     return ___internal_method;
   }
@@ -245,8 +262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRoomLayout::*)(
     ::ByRef<::System::Guid>, ::ByRef<::System::Guid>, ::ByRef<::ArrayW<::System::Guid, ::Array<::System::Guid>*>>)>(&::GlobalNamespace::OVRRoomLayout::TryGetRoomLayout)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3fa0d88;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5c015b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -354,6 +371,15 @@ inline ::GlobalNamespace::OVRTask_1<bool> GlobalNamespace::OVRRoomLayout::FetchL
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "FetchLayoutAnchorsAsync", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRTask_1<bool>, false>(this, ___internal_method, anchors);
+}
+inline ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>
+GlobalNamespace::OVRRoomLayout::FetchAnchorsAsync(::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>* anchors) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRoomLayout>::get(), "FetchAnchorsAsync", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<
+      ::GlobalNamespace::OVRTask_1<::GlobalNamespace::OVRResult_2<::System::Collections::Generic::List_1<::GlobalNamespace::OVRAnchor>*, ::GlobalNamespace::OVRAnchor_FetchResult>>, false>(
+      this, ___internal_method, anchors);
 }
 inline bool GlobalNamespace::OVRRoomLayout::TryGetRoomLayout(::ByRef<::System::Guid> ceiling, ::ByRef<::System::Guid> floor, ::ByRef<::ArrayW<::System::Guid, ::Array<::System::Guid>*>> walls) {
   static auto* ___internal_method = THROW_UNLESS(

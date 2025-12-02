@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__Length_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d187a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5959ae0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* elementType, int32_t length);
 
-  /// @brief Method get_ElementType, addr 0x3d187d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ElementType, addr 0x5959aec, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ElementType();
 
-  /// @brief Method get_Length, addr 0x3d187e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x5959af4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
 protected:
@@ -70,7 +70,7 @@ public:
   FixedBufferAttribute(FixedBufferAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3384 };
 
   /// @brief Field <ElementType>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____ElementType_k__BackingField;

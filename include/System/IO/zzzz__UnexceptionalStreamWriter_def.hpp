@@ -26,24 +26,24 @@ namespace System::IO {
 class CORDL_TYPE UnexceptionalStreamWriter : public ::System::IO::StreamWriter {
 public:
   // Declarations
-  /// @brief Method Flush, addr 0x3d83738, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Flush, addr 0x5a0b218, size 0x98, virtual true, abstract: false, final false
   inline void Flush();
 
   static inline ::System::IO::UnexceptionalStreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
-  /// @brief Method Write, addr 0x3d837bc, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5a0b2b0, size 0x88, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
 
-  /// @brief Method Write, addr 0x3d838c4, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5a0b3c0, size 0x88, virtual true, abstract: false, final false
   inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method Write, addr 0x3d83948, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5a0b448, size 0x88, virtual true, abstract: false, final false
   inline void Write(::StringW value);
 
-  /// @brief Method Write, addr 0x3d83840, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5a0b338, size 0x88, virtual true, abstract: false, final false
   inline void Write(char16_t value);
 
-  /// @brief Method .ctor, addr 0x3d836c0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a0b19c, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
 
 protected:
@@ -61,7 +61,7 @@ public:
   UnexceptionalStreamWriter(UnexceptionalStreamWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3642 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3920 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

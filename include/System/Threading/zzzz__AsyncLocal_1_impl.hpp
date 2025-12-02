@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/AsyncLocal_1.hpp"
-#include "System/Threading/zzzz__IAsyncLocal_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__AsyncLocal_1_def.hpp"
 #include "System/Threading/zzzz__AsyncLocalValueChangedArgs_1_def.hpp"
+#include "System/Threading/zzzz__IAsyncLocal_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> constexpr ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>*& System::Threading::AsyncLocal_1<T>::__cordl_internal_get_m_valueChangedHandler() {

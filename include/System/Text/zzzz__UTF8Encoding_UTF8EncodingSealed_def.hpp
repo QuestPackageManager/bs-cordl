@@ -26,10 +26,10 @@ public:
 
   static inline ::GlobalNamespace::UTF8Encoding_UTF8EncodingSealed* New_ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method .ctor, addr 0x3c88880, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58cce54, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(bool encoderShouldEmitUTF8Identifier);
 
-  /// @brief Method get_Preamble, addr 0x3c888e8, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method get_Preamble, addr 0x58ccee0, size 0xf8, virtual true, abstract: false, final false
   inline ::System::ReadOnlySpan_1<uint8_t> get_Preamble();
 
 protected:
@@ -47,7 +47,7 @@ public:
   UTF8Encoding_UTF8EncodingSealed(UTF8Encoding_UTF8EncodingSealed const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2865 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2881 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

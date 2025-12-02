@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::DebugSettingsViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x3af91ec;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x56db5a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool, bool)>(
     &::GlobalNamespace::DebugSettingsViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3af93e8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x56db920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleFpsCounterChanged)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3af9458;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56db9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleFpsRecorderChanged)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3af9478;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56db9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleMemoryTrackerChanged)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3af9498;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56db9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
     &::GlobalNamespace::DebugSettingsViewController::HandleShowBeatmapLevelVersionsChanged)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3af94b8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56dba10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,12 +96,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::DebugSettingsViewController.HandleDisableVRTrackingInAutoplayChanged
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)(bool)>(
+    &::GlobalNamespace::DebugSettingsViewController::HandleDisableVRTrackingInAutoplayChanged)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56dba2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DebugSettingsViewController*>::get(), "HandleDisableVRTrackingInAutoplayChanged",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::DebugSettingsViewController._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DebugSettingsViewController::*)()>(&::GlobalNamespace::DebugSettingsViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af94d8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56dba48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DebugSettingsViewController*>::get(), ".ctor",
@@ -157,6 +172,18 @@ constexpr void GlobalNamespace::DebugSettingsViewController::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____showBeatmapLevelVersions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityW<::UnityEngine::UI::Toggle>& GlobalNamespace::DebugSettingsViewController::__cordl_internal_get__disableVRTrackingInAutoplay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disableVRTrackingInAutoplay;
+}
+constexpr ::UnityW<::UnityEngine::UI::Toggle> const& GlobalNamespace::DebugSettingsViewController::__cordl_internal_get__disableVRTrackingInAutoplay() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____disableVRTrackingInAutoplay;
+}
+constexpr void GlobalNamespace::DebugSettingsViewController::__cordl_internal_set__disableVRTrackingInAutoplay(::UnityW<::UnityEngine::UI::Toggle> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____disableVRTrackingInAutoplay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::DebugSettingsViewController::__cordl_internal_get__settingsManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____settingsManager;
@@ -201,6 +228,12 @@ inline void GlobalNamespace::DebugSettingsViewController::HandleShowBeatmapLevel
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DebugSettingsViewController*>::get(), "HandleShowBeatmapLevelVersionsChanged",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
+}
+inline void GlobalNamespace::DebugSettingsViewController::HandleDisableVRTrackingInAutoplayChanged(bool newValue) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DebugSettingsViewController*>::get(), "HandleDisableVRTrackingInAutoplayChanged",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
 inline void GlobalNamespace::DebugSettingsViewController::_ctor() {

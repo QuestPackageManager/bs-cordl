@@ -7,7 +7,6 @@ CORDL_MODULE_INIT
 #include "System/Net/zzzz__FtpStatusCode_def.hpp"
 #include "System/Net/zzzz__WebResponse_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FtpWebResponse)
@@ -25,6 +24,9 @@ class WebHeaderCollection;
 }
 namespace System {
 struct DateTime;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Uri;
@@ -48,7 +50,7 @@ public:
   // Declarations
   static inline ::System::Net::FtpWebResponse_EmptyStream* New_ctor();
 
-  /// @brief Method .ctor, addr 0x449df00, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ed950, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +68,7 @@ public:
   FtpWebResponse_EmptyStream(FtpWebResponse_EmptyStream const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9573 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -74,7 +76,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Net::FtpWebResponse_EmptyStream, 0x50>, "Size mismatch!");
 
 } // namespace System::Net
-// Dependencies System.DateTime, System.IDisposable, System.Net.FtpStatusCode, System.Net.WebResponse
+// Dependencies System.DateTime, System.Net.FtpStatusCode, System.Net.WebResponse
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.FtpWebResponse
@@ -122,19 +124,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x449df9c, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x61ed9f8, size 0xfc, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method GetResponseStream, addr 0x449dea0, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method GetResponseStream, addr 0x61ed8ec, size 0x64, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetResponseStream();
 
   static inline ::System::Net::FtpWebResponse* New_ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode,
                                                         ::StringW statusLine, ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method SetResponseStream, addr 0x449d670, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method SetResponseStream, addr 0x61ed130, size 0xa4, virtual false, abstract: false, final false
   inline void SetResponseStream(::System::IO::Stream* stream);
 
-  /// @brief Method UpdateStatus, addr 0x449c004, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method UpdateStatus, addr 0x61ebad0, size 0x10, virtual false, abstract: false, final false
   inline void UpdateStatus(::System::Net::FtpStatusCode statusCode, ::StringW statusLine, ::StringW exitMessage);
 
   constexpr ::StringW const& __cordl_internal_get__bannerMessage() const;
@@ -197,17 +199,17 @@ public:
 
   constexpr void __cordl_internal_set__welcomeMessage(::StringW value);
 
-  /// @brief Method .ctor, addr 0x449d704, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61ed1d4, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* responseStream, int64_t contentLength, ::System::Uri* responseUri, ::System::Net::FtpStatusCode statusCode, ::StringW statusLine,
                     ::System::DateTime lastModified, ::StringW bannerMessage, ::StringW welcomeMessage, ::StringW exitMessage);
 
-  /// @brief Method get_Headers, addr 0x449e090, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x61edaf4, size 0x110, virtual true, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_ResponseUri, addr 0x449e19c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResponseUri, addr 0x61edc04, size 0x8, virtual true, abstract: false, final false
   inline ::System::Uri* get_ResponseUri();
 
-  /// @brief Method get_StatusCode, addr 0x449e1a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_StatusCode, addr 0x61edc0c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::FtpStatusCode get_StatusCode();
 
   /// @brief Convert to "::System::IDisposable"
@@ -228,7 +230,7 @@ public:
   FtpWebResponse(FtpWebResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11448 };
 
   /// @brief Field _responseStream, offset: 0x20, size: 0x8, def value: None
   ::System::IO::Stream* ____responseStream;

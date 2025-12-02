@@ -44,16 +44,16 @@ public:
 
   static inline ::System::Threading::ThreadHelper* New_ctor(::System::Delegate* start);
 
-  /// @brief Method SetExecutionContextHelper, addr 0x3e56aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExecutionContextHelper, addr 0x5a9bd78, size 0x8, virtual false, abstract: false, final false
   inline void SetExecutionContextHelper(::System::Threading::ExecutionContext* ec);
 
-  /// @brief Method ThreadStart, addr 0x3e56cb0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x5a9bf94, size 0xf4, virtual false, abstract: false, final false
   inline void ThreadStart();
 
-  /// @brief Method ThreadStart, addr 0x3e56bb0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart, addr 0x5a9be88, size 0x10c, virtual false, abstract: false, final false
   inline void ThreadStart(::System::Object* obj);
 
-  /// @brief Method ThreadStart_Context, addr 0x3e56ab4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ThreadStart_Context, addr 0x5a9bd80, size 0x108, virtual false, abstract: false, final false
   static inline void ThreadStart_Context(::System::Object* state);
 
   constexpr ::System::Threading::ExecutionContext* const& __cordl_internal_get__executionContext() const;
@@ -74,7 +74,7 @@ public:
 
   constexpr void __cordl_internal_set__startArg(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e56a84, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9bd70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Delegate* start);
 
   static inline ::System::Threading::ContextCallback* getStaticF__ccb();
@@ -96,7 +96,7 @@ public:
   ThreadHelper(ThreadHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2725 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2735 };
 
   /// @brief Field _start, offset: 0x10, size: 0x8, def value: None
   ::System::Delegate* ____start;

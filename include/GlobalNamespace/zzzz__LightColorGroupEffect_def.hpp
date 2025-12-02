@@ -87,7 +87,7 @@ public:
 
   constexpr void __cordl_internal_set_lightId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3b90a74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577f22c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, int32_t lightId);
 
 protected:
@@ -105,7 +105,7 @@ public:
   LightColorGroupEffect_InitData(LightColorGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4289 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5870 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -193,27 +193,27 @@ public:
   /// @brief Field _usingBoostColors, offset 0xa1, size 0x1
   __declspec(property(get = __cordl_internal_get__usingBoostColors, put = __cordl_internal_set__usingBoostColors)) bool _usingBoostColors;
 
-  /// @brief Method Cleanup, addr 0x3b90310, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x577e938, size 0xa0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method GetColor, addr 0x3b908c8, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetColor, addr 0x577f090, size 0x34, virtual true, abstract: false, final false
   inline ::UnityEngine::Color GetColor(::GlobalNamespace::EnvironmentColorType colorType, bool colorBoost, float_t brightness);
 
-  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x3b903ac, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorChangeBeatmapEvent, addr 0x577e9d8, size 0x400, virtual false, abstract: false, final false
   inline void HandleColorChangeBeatmapEvent(::GlobalNamespace::LightColorBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightColorGroupEffect* New_ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager,
                                                                    ::Tweening::SongTimeTweeningManager* tweeningManager, ::GlobalNamespace::ColorManager* colorManager,
                                                                    ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
-  /// @brief Method SetColor, addr 0x3b906c8, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SetColor, addr 0x577edd8, size 0x158, virtual false, abstract: false, final false
   inline void SetColor(float_t t);
 
-  /// @brief Method SetData, addr 0x3b908fc, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x577f0c4, size 0x168, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Color fromColor, ::UnityEngine::Color toColor, ::UnityEngine::Color alternativeFromColor, ::UnityEngine::Color alternativeToColor, float_t fromStrobeBeatFrequency,
                       float_t toStrobeBeatFrequency, float_t fromStrobeBrightness, float_t toStrobeBrightness, bool strobeFade);
 
-  /// @brief Method UseBoostColors, addr 0x3b907ec, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method UseBoostColors, addr 0x577ef30, size 0x160, virtual false, abstract: false, final false
   inline void UseBoostColors(bool useBoostColors);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__alternativeFromColor() const;
@@ -324,7 +324,7 @@ public:
 
   constexpr void __cordl_internal_set__usingBoostColors(bool value);
 
-  /// @brief Method .ctor, addr 0x3b90034, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577e57c, size 0x3bc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightColorGroupEffect_InitData* initData, ::GlobalNamespace::LightWithIdManager* lightManager, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::ColorManager* colorManager, ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController, ::GlobalNamespace::IBpmController* bpmController);
 
@@ -343,7 +343,7 @@ public:
   LightColorGroupEffect(LightColorGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4290 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5871 };
 
   /// @brief Field _colorManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;

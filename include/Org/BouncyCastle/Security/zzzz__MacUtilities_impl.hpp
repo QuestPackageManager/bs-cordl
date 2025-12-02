@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Security::MacUtilities::*)()>(&::Org::BouncyCastle::Security::MacUtilities::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25aac04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34d9a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Security::MacUtilities*>::get(), ".ctor",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::MacUtilities::GetMac)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x25ac81c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x34db7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (*)(::StringW)>(&::Org::BouncyCastle::Security::MacUtilities::GetMac)> {
-  constexpr static std::size_t size = 0xb70;
-  constexpr static std::size_t addrs = 0x25ac87c;
+  constexpr static std::size_t size = 0xb3c;
+  constexpr static std::size_t addrs = 0x34db80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Security::MacUtilities::GetAlgorithmName)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x25ad3ec;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x34dc348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::StringW, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Security::MacUtilities::CalculateMac)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x25ad4f4;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x34dc448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Crypto::IMac*)>(
     &::Org::BouncyCastle::Security::MacUtilities::DoFinal)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x25ad64c;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x34dc5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Crypto::IMac*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Security::MacUtilities::DoFinal)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x25ad780;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x34dc6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

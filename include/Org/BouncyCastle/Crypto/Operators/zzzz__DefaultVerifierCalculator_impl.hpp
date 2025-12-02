@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/DefaultVerifierCalculator.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__DefaultVerifierCalculator_def.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__SignerSink_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator._ctor
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::*)(::Org::BouncyCastle::Crypto::ISigner*)>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x23b5ef0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x32e41e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b6d84;
+  constexpr static std::size_t addrs = 0x32e500c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::DefaultVerifierCalculator::GetResult)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x23b6d8c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x32e5014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

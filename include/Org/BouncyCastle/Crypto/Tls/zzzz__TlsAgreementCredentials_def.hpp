@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsAgreementCredentials)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
@@ -15,7 +17,7 @@ class TlsAgreementCredentials;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCredentials
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsAgreementCredentials

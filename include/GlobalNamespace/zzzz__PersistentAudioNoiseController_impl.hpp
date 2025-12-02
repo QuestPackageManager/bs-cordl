@@ -12,12 +12,26 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(
     &::GlobalNamespace::PersistentAudioNoiseController::Start)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3ad3608;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x56ad91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(),
                                                                                "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::PersistentAudioNoiseController.OnResetAudioEvent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(
+    &::GlobalNamespace::PersistentAudioNoiseController::OnResetAudioEvent)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x56ada48;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(),
+                                                                               "OnResetAudioEvent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -26,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(
     &::GlobalNamespace::PersistentAudioNoiseController::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ad3698;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x56ada6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(),
@@ -42,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::GameScenesManager_SceneTransitionType, ::GlobalNamespace::ScenesTransitionSetupDataSO*, ::Zenject::DiContainer*)>(
     &::GlobalNamespace::PersistentAudioNoiseController::HandleTransitionDidFinish)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3ad3768;
+  constexpr static std::size_t addrs = 0x56adc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(
     &::GlobalNamespace::PersistentAudioNoiseController::OnValidate)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3ad381c;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x56adccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(),
@@ -72,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PersistentAudioNoiseController::*)()>(
     &::GlobalNamespace::PersistentAudioNoiseController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad38fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56addb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(),
@@ -120,9 +134,26 @@ constexpr void GlobalNamespace::PersistentAudioNoiseController::__cordl_internal
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr bool& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__wasStarted() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____wasStarted;
+}
+constexpr bool const& GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_get__wasStarted() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____wasStarted;
+}
+constexpr void GlobalNamespace::PersistentAudioNoiseController::__cordl_internal_set__wasStarted(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____wasStarted = value;
+}
 inline void GlobalNamespace::PersistentAudioNoiseController::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(), "Start",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::PersistentAudioNoiseController::OnResetAudioEvent() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PersistentAudioNoiseController*>::get(),
+                                                                             "OnResetAudioEvent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::PersistentAudioNoiseController::OnDestroy() {

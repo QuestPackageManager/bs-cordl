@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILevelPackProductDataContainer_2_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(OculusLevelProductPacksSO)
+namespace GlobalNamespace {
+template <typename TLevelPackProductData, typename TLevelProductData> class ILevelPackProductDataContainer_2;
+}
 namespace GlobalNamespace {
 class OculusLevelProductCollectionModel_LevelPackProductData;
 }
@@ -24,7 +26,7 @@ class OculusLevelProductPacksSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusLevelProductPacksSO);
-// Dependencies ILevelPackProductDataContainer`2<TLevelPackProductData, TLevelProductData>, PersistentScriptableObject
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OculusLevelProductPacksSO
@@ -51,7 +53,7 @@ public:
   constexpr operator ::GlobalNamespace::ILevelPackProductDataContainer_2<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData*,
                                                                          ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>*() noexcept;
 
-  /// @brief Method ILevelPackProductDataContainer<OculusLevelProductCollectionModel.LevelPackProductData,OculusLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x26e9e98,
+  /// @brief Method ILevelPackProductDataContainer<OculusLevelProductCollectionModel.LevelPackProductData,OculusLevelProductCollectionModel.LevelProductData>.SetLevelPackProductData, addr 0x361c5a4,
   /// size 0x8, virtual true, abstract: false, final true
   inline void ILevelPackProductDataContainer_OculusLevelProductCollectionModel_LevelPackProductData_OculusLevelProductCollectionModel_LevelProductData__SetLevelPackProductData(
       ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* newLevelPackProductData);
@@ -73,13 +75,13 @@ public:
   constexpr void __cordl_internal_set__levelPackRedirectionData(
       ::ArrayW<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*, ::Array<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26e9ea0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c5ac, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_levelPackProductData, addr 0x26e9e88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackProductData, addr 0x361c594, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* get_levelPackProductData();
 
-  /// @brief Method get_levelPackRedirectionData, addr 0x26e9e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelPackRedirectionData, addr 0x361c59c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>* get_levelPackRedirectionData();
 
   /// @brief Convert to
@@ -103,7 +105,7 @@ public:
   OculusLevelProductPacksSO(OculusLevelProductPacksSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15118 };
 
   /// @brief Field _levelPackProductData, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* ____levelPackProductData;

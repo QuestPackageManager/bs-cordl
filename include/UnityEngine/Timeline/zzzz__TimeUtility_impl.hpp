@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::TimeUtility___c::*)()>(&::UnityEngine::Timeline::TimeUtility___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48307e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x67b1170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimeUtility___c*>::get(), ".ctor",
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::TimeUtility___c::*)(char16_t)>(
     &::UnityEngine::Timeline::TimeUtility___c::_ParseTimeCode_b__19_0)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48307ec;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x67b1174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::TimeUtility___c::*)(char16_t)>(
     &::UnityEngine::Timeline::TimeUtility___c::_ParseTimeCode_b__19_1)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4830844;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x67b11a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::TimeUtility___c::*)(char16_t)>(
     &::UnityEngine::Timeline::TimeUtility___c::_ParseTimeSeconds_b__20_0)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4830860;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x67b11b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,8 +125,8 @@ constexpr ::UnityEngine::Timeline::TimeUtility___c::TimeUtility___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(double_t)>(&::UnityEngine::Timeline::TimeUtility::ValidateFrameRate)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x482ea60;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x67af378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,8 +139,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ToFrames)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x482eb14;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x67af430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -153,8 +153,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ToExactFrames)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x482ecd0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x67af630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,8 +167,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(int32_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::FromFrames)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x482ed38;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x67af69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,8 +181,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::FromFrames)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x482eda4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x67af70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,8 +195,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::OnFrameBoundary)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x482ee0c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x67af778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,8 +209,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::GetEpsilon)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x482ec28;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x67af578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,8 +223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::PreviousFrame)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x482efa0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x67af918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,8 +237,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::NextFrame)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x482f040;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x67af9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,8 +251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::PreviousFrameTime)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x482f0ac;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x67afa2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,8 +265,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::NextFrameTime)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x482f118;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x67afa9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +279,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(double_t, double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::OnFrameBoundary)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x482ee80;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x67af7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,8 +294,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::RoundToFrame)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x482f184;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x67afb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,8 +308,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double_t, double_t, ::StringW)>(&::UnityEngine::Timeline::TimeUtility::TimeAsFrames)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x482f260;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x67afbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,8 +323,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(double_t, double_t, ::StringW)>(&::UnityEngine::Timeline::TimeUtility::TimeAsTimeCode)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x482f330;
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x67afcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -338,8 +338,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::StringW, double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ParseTimeCode)> {
-  constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x482f748;
+  constexpr static std::size_t size = 0x4f4;
+  constexpr static std::size_t addrs = 0x67b00f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -354,7 +354,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::StringW, double_t, double_t)>(&::UnityEngine::Timeline::TimeUtility::ParseTimeSeconds)> {
   constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x482fd20;
+  constexpr static std::size_t addrs = 0x67b06b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,8 +368,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (*)(::UnityEngine::AnimationClip*)>(&::UnityEngine::Timeline::TimeUtility::GetAnimationClipLength)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4830098;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x67b0a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -382,8 +382,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Func_2<char16_t, bool>*)>(&::UnityEngine::Timeline::TimeUtility::RemoveChar)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x482fc50;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x67b05e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -397,8 +397,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::FrameRate (*)(double_t)>(&::UnityEngine::Timeline::TimeUtility::GetClosestFrameRate)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x48301fc;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x67b0b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -412,8 +412,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::FrameRate (*)(::UnityEngine::Timeline::StandardFrameRates)>(
     &::UnityEngine::Timeline::TimeUtility::ToFrameRate)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x48302e8;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x67b0c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,8 +427,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Playables::FrameRate, ::ByRef<::UnityEngine::Timeline::StandardFrameRates>)>(
     &::UnityEngine::Timeline::TimeUtility::ToStandardFrameRate)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x4830488;
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x67b0e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -173,7 +173,7 @@ public:
   /// @brief Field parseRecordIdCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_parseRecordIdCount, put = setStaticF_parseRecordIdCount)) int32_t parseRecordIdCount;
 
-  /// @brief Method Init, addr 0x3d119e0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5952ce0, size 0x58, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* New_ctor();
@@ -418,7 +418,7 @@ public:
 
   constexpr void __cordl_internal_set_PRvarValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3d0f9f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5950e1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_parseRecordIdCount();
@@ -440,7 +440,7 @@ public:
   ParseRecord(ParseRecord const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3304 };
 
   /// @brief Field PRparseTypeEnum, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalParseTypeE ___PRparseTypeEnum;

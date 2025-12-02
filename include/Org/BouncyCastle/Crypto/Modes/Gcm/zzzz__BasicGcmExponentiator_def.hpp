@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Modes/Gcm/zzzz__IGcmExponentiator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BasicGcmExponentiator)
+namespace Org::BouncyCastle::Crypto::Modes::Gcm {
+class IGcmExponentiator;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 class BasicGcmExponentiator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator);
-// Dependencies Org.BouncyCastle.Crypto.Modes.Gcm.IGcmExponentiator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Modes::Gcm {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Modes.Gcm.BasicGcmExponentiator
@@ -26,10 +28,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator*() noexcept;
 
-  /// @brief Method ExponentiateX, addr 0x239c554, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method ExponentiateX, addr 0x32ca27c, size 0x11c, virtual true, abstract: false, final true
   inline void ExponentiateX(int64_t pow, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method Init, addr 0x239c484, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x32ca1a4, size 0x6c, virtual true, abstract: false, final true
   inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> x);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::Gcm::BasicGcmExponentiator* New_ctor();
@@ -40,7 +42,7 @@ public:
 
   constexpr void __cordl_internal_set_x(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x239c7ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ca4d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::Gcm::IGcmExponentiator"

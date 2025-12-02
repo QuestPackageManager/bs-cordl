@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::Awake)> {
-  constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3bcd6b0;
+  constexpr static std::size_t size = 0x610;
+  constexpr static std::size_t addrs = 0x57bec68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::OnDestroy)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3bcda98;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x57bf278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(
     ::UnityEngine::Color, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateTextColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bcdb20;
+  constexpr static std::size_t addrs = 0x57bf304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateFontSize)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bcdbbc;
+  constexpr static std::size_t addrs = 0x57bf3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(
     ::UnityEngine::Vector3, float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::MultiplayerCenterTextAnimator::AnimatePositionOffsetSize)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3bcdc04;
+  constexpr static std::size_t addrs = 0x57bf3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(bool, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::AnimateEnabled)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3bcdc94;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x57bf478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::SetText)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bcddd8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57bf5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bcddfc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57bf5e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -135,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_0)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3bcde04;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x57bf5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_1)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3bcde7c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x57bf668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)()>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_5)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3bcdef4;
+  constexpr static std::size_t addrs = 0x57bf6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerCenterTextAnimator*>::get(),
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_2)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bcdf20;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57bf710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_3)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bcdf3c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57bf728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,8 +209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerCenterTextAnimator::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::MultiplayerCenterTextAnimator::_Awake_b__8_4)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bcdf60;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57bf748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

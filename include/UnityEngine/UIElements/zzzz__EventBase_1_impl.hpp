@@ -83,7 +83,7 @@ template <typename T> inline int64_t UnityEngine::UIElements::EventBase_1<T>::Ty
 }
 template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline T UnityEngine::UIElements::EventBase_1<T>::GetPooled() {
@@ -105,7 +105,7 @@ template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::Relea
 }
 template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::Acquire() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), 13)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventBase_1<T>*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::EventBase_1<T>::Dispose() {

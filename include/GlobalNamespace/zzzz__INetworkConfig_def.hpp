@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(INetworkConfig)
 namespace GlobalNamespace {
-class DnsEndPoint;
-}
-namespace GlobalNamespace {
 struct ServiceEnvironment;
 }
 // Forward declare root types
@@ -25,7 +22,7 @@ namespace GlobalNamespace {
 class CORDL_TYPE INetworkConfig {
 public:
   // Declarations
-  __declspec(property(get = get_appId)) ::StringW appId;
+  __declspec(property(get = get_customLocation)) ::StringW customLocation;
 
   __declspec(property(get = get_discoveryPort)) int32_t discoveryPort;
 
@@ -33,9 +30,15 @@ public:
 
   __declspec(property(get = get_graphAccessToken)) ::StringW graphAccessToken;
 
+  __declspec(property(get = get_graphAppId)) uint64_t graphAppId;
+
+  __declspec(property(get = get_graphQLUrl)) ::StringW graphQLUrl;
+
   __declspec(property(get = get_graphUrl)) ::StringW graphUrl;
 
-  __declspec(property(get = get_masterServerEndPoint)) ::GlobalNamespace::DnsEndPoint* masterServerEndPoint;
+  __declspec(property(get = get_localServerPort)) int32_t localServerPort;
+
+  __declspec(property(get = get_masterServerPort)) int32_t masterServerPort;
 
   __declspec(property(get = get_maxPartySize)) int32_t maxPartySize;
 
@@ -49,8 +52,10 @@ public:
 
   __declspec(property(get = get_serviceEnvironment)) ::GlobalNamespace::ServiceEnvironment serviceEnvironment;
 
-  /// @brief Method get_appId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::StringW get_appId();
+  __declspec(property(get = get_useLocalServer)) bool useLocalServer;
+
+  /// @brief Method get_customLocation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_customLocation();
 
   /// @brief Method get_discoveryPort, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_discoveryPort();
@@ -61,11 +66,20 @@ public:
   /// @brief Method get_graphAccessToken, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_graphAccessToken();
 
+  /// @brief Method get_graphAppId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline uint64_t get_graphAppId();
+
+  /// @brief Method get_graphQLUrl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_graphQLUrl();
+
   /// @brief Method get_graphUrl, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_graphUrl();
 
-  /// @brief Method get_masterServerEndPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::DnsEndPoint* get_masterServerEndPoint();
+  /// @brief Method get_localServerPort, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_localServerPort();
+
+  /// @brief Method get_masterServerPort, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_masterServerPort();
 
   /// @brief Method get_maxPartySize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_maxPartySize();
@@ -85,12 +99,15 @@ public:
   /// @brief Method get_serviceEnvironment, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::ServiceEnvironment get_serviceEnvironment();
 
+  /// @brief Method get_useLocalServer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_useLocalServer();
+
   // Ctor Parameters [CppParam { name: "", ty: "INetworkConfig", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
   INetworkConfig(INetworkConfig const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18965 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

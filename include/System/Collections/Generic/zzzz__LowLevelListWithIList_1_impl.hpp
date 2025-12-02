@@ -1,17 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/LowLevelListWithIList_1.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelList_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelListWithIList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline void System::Collections::Generic::LowLevelListWithIList_1_Enumerator<T>::_ctor(::System::Collections::Generic::LowLevelListWithIList_1<T>* list) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

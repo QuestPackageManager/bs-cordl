@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ICPUMonitor.hpp"
-#include "GlobalNamespace/zzzz__IPollable_impl.hpp"
 #include "GlobalNamespace/zzzz__ICPUMonitor_def.hpp"
+#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ICPUMonitor.get_utilization
 template <>
 

@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
-  constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x492dca0;
+  constexpr static std::size_t size = 0x40c;
+  constexpr static std::size_t addrs = 0x6992f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (*)(::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::Material*, int32_t)>(
     &::UnityEngine::TextCore::Text::MaterialManager::GetFallbackMaterial)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x492e2f0;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x69935cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Material*, ::UnityEngine::Material*)>(
     &::UnityEngine::TextCore::Text::MaterialManager::CopyMaterialPresetProperties)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x492e068;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x6993378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -22,12 +22,12 @@ public:
   /// @brief Field m_inliningDepth, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_inliningDepth, put = __cordl_internal_set_m_inliningDepth)) int32_t m_inliningDepth;
 
-  /// @brief Method EndInliningScope, addr 0x3e693b8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method EndInliningScope, addr 0x5aaf21c, size 0x14, virtual false, abstract: false, final false
   inline void EndInliningScope();
 
   static inline ::System::Threading::Tasks::StackGuard* New_ctor();
 
-  /// @brief Method TryBeginInliningScope, addr 0x3e69378, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method TryBeginInliningScope, addr 0x5aaf204, size 0x18, virtual false, abstract: false, final false
   inline bool TryBeginInliningScope();
 
   constexpr int32_t const& __cordl_internal_get_m_inliningDepth() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_m_inliningDepth(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e620cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa8144, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,11 +53,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   StackGuard(StackGuard const&) = delete;
 
-  /// @brief Field MAX_UNCHECKED_INLINING_DEPTH offset 0xffffffff size 0x4
-  static constexpr int32_t MAX_UNCHECKED_INLINING_DEPTH{ static_cast<int32_t>(0x14) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2796 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2809 };
 
   /// @brief Field m_inliningDepth, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_inliningDepth;

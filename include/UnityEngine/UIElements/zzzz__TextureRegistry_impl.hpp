@@ -21,8 +21,8 @@ constexpr ::UnityEngine::UIElements::TextureRegistry_TextureInfo::TextureRegistr
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextureRegistry* (*)()>(&::UnityEngine::UIElements::TextureRegistry::get_instance)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a670d4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6ba37a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextureRegistry*>::get(),
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::Texture> (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::UIElements::TextureId)>(&::UnityEngine::UIElements::TextureRegistry::GetTexture)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4a6712c;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x6ba37fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::TextureRegistry::*)()>(
     &::UnityEngine::UIElements::TextureRegistry::AllocAndAcquireDynamic)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a672e0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6ba39e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextureRegistry*>::get(),
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::UIElements::TextureId, ::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::TextureRegistry::UpdateDynamic)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x4a67588;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x6ba3ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::Texture*, bool)>(
     &::UnityEngine::UIElements::TextureRegistry::AllocAndAcquire)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4a672fc;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x6ba39f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TextureId (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::UIElements::TextureRegistry::Acquire)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4a677dc;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x6ba3f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextureRegistry::*)(::UnityEngine::UIElements::TextureId)>(
     &::UnityEngine::UIElements::TextureRegistry::Release)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x4a67944;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x6ba4104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,8 +125,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextureRegistry::*)()>(&::UnityEngine::UIElements::TextureRegistry::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4a67bc4;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x6ba43c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextureRegistry*>::get(), ".ctor",

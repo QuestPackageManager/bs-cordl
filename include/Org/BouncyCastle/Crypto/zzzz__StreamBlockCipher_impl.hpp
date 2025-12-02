@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/StreamBlockCipher.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__StreamBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IStreamCipher_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::StreamBlockCipher._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::StreamBlockCipher::*)(::Org::BouncyCastle::Crypto::IBlockCipher*)>(
     &::Org::BouncyCastle::Crypto::StreamBlockCipher::_ctor)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x244a9ec;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x33793f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::StreamBlockCipher::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::StreamBlockCipher::Init)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x244ab64;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x337956c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::StreamBlockCipher::*)()>(
     &::Org::BouncyCastle::Crypto::StreamBlockCipher::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x244ac20;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x337962c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::StreamBlockCipher*>::get(),
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::StreamBlockCipher::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::StreamBlockCipher::ReturnByte)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x244acc0;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x33796d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::StreamBlockCipher::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::StreamBlockCipher::ProcessBytes)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x244adac;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x33797c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::StreamBlockCipher::*)()>(&::Org::BouncyCastle::Crypto::StreamBlockCipher::Reset)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x244aefc;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x337991c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::StreamBlockCipher*>::get(), "Reset",

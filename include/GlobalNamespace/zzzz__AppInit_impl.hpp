@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/AppInit.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
@@ -12,7 +11,7 @@
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__AppInit_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
@@ -23,15 +22,15 @@ constexpr ::GlobalNamespace::AppInit_AppStartType::AppInit_AppStartType(int32_t 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppInit_AppStartType::AppInit_AppStartType() {}
-constexpr ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit_AppStartType::AppStart{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit_AppStartType::AppRestart{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit_AppStartType::Default{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit_AppStartType::DirectlyToMenu{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit_AppStartType::MultiSceneEditor{ static_cast<int32_t>(0x2) };
 //  Writing Method size for method: ::GlobalNamespace::AppInit___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit___c::*)()>(&::GlobalNamespace::AppInit___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2294bb8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31d9540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get(), ".ctor",
@@ -39,16 +38,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AppInit___c._InitializeAsync_b__13_1
+//  Writing Method size for method: ::GlobalNamespace::AppInit___c._InitializeAsync_b__15_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AppInit___c::*)()>(&::GlobalNamespace::AppInit___c::_InitializeAsync_b__13_1)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2294bc0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AppInit___c::*)()>(&::GlobalNamespace::AppInit___c::_InitializeAsync_b__15_1)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x31d9544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get(),
-                                                                               "<InitializeAsync>b__13_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<InitializeAsync>b__15_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -59,20 +58,20 @@ inline void GlobalNamespace::AppInit___c::setStaticF___9(::GlobalNamespace::AppI
 inline ::GlobalNamespace::AppInit___c* GlobalNamespace::AppInit___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::AppInit___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get>();
 }
-inline void GlobalNamespace::AppInit___c::setStaticF___9__13_1(::System::Func_1<bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__13_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get>(
+inline void GlobalNamespace::AppInit___c::setStaticF___9__15_1(::System::Func_1<bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<bool>*, "<>9__15_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get>(
       std::forward<::System::Func_1<bool>*>(value));
 }
-inline ::System::Func_1<bool>* GlobalNamespace::AppInit___c::getStaticF___9__13_1() {
-  return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__13_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get>();
+inline ::System::Func_1<bool>* GlobalNamespace::AppInit___c::getStaticF___9__15_1() {
+  return ::cordl_internals::getStaticField<::System::Func_1<bool>*, "<>9__15_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get>();
 }
 inline void GlobalNamespace::AppInit___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::AppInit___c::_InitializeAsync_b__13_1() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get(), "<InitializeAsync>b__13_1",
+inline bool GlobalNamespace::AppInit___c::_InitializeAsync_b__15_1() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit___c*>::get(), "<InitializeAsync>b__15_1",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
@@ -81,57 +80,57 @@ inline ::GlobalNamespace::AppInit___c* GlobalNamespace::AppInit___c::New_ctor() 
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::AppInit___c::AppInit___c() {}
-//  Writing Method size for method: ::GlobalNamespace::AppInit__Awake_d__10.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::AppInit__Awake_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__Awake_d__10::*)()>(&::GlobalNamespace::AppInit__Awake_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x2294bc8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__Awake_d__12::*)()>(&::GlobalNamespace::AppInit__Awake_d__12::MoveNext)> {
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x31d956c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__10>::get(), "MoveNext",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__12>::get(), "MoveNext",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AppInit__Awake_d__10.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::AppInit__Awake_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__Awake_d__10::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::AppInit__Awake_d__10::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2294df0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__Awake_d__12::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::AppInit__Awake_d__12::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31d97b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__10>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__12>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::AppInit__Awake_d__10::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__10>::get(), "MoveNext",
+inline void GlobalNamespace::AppInit__Awake_d__12::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__12>::get(), "MoveNext",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInit__Awake_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::AppInit__Awake_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__10>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__Awake_d__12>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::AppInit__Awake_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::AppInit__Awake_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::AppInit__Awake_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::AppInit__Awake_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::AppInit__Awake_d__10::AppInit__Awake_d__10(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+constexpr ::GlobalNamespace::AppInit__Awake_d__12::AppInit__Awake_d__12(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                         ::UnityW<::GlobalNamespace::AppInit> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -139,60 +138,60 @@ constexpr ::GlobalNamespace::AppInit__Awake_d__10::AppInit__Awake_d__10(int32_t 
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AppInit__Awake_d__10::AppInit__Awake_d__10() {}
-//  Writing Method size for method: ::GlobalNamespace::AppInit__InitializeAsync_d__13.MoveNext
+constexpr ::GlobalNamespace::AppInit__Awake_d__12::AppInit__Awake_d__12() {}
+//  Writing Method size for method: ::GlobalNamespace::AppInit__InitializeAsync_d__15.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__InitializeAsync_d__13::*)()>(
-    &::GlobalNamespace::AppInit__InitializeAsync_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x58c;
-  constexpr static std::size_t addrs = 0x2294dfc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__InitializeAsync_d__15::*)()>(
+    &::GlobalNamespace::AppInit__InitializeAsync_d__15::MoveNext)> {
+  constexpr static std::size_t size = 0x608;
+  constexpr static std::size_t addrs = 0x31d97b8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__13>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__15>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AppInit__InitializeAsync_d__13.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::AppInit__InitializeAsync_d__15.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__InitializeAsync_d__13::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AppInit__InitializeAsync_d__13::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2295490;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__InitializeAsync_d__15::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AppInit__InitializeAsync_d__15::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31d9ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__13>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::AppInit__InitializeAsync_d__13::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__13>::get(),
+inline void GlobalNamespace::AppInit__InitializeAsync_d__15::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__15>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInit__InitializeAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::AppInit__InitializeAsync_d__15::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__13>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__InitializeAsync_d__15>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::AppInit__InitializeAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::AppInit__InitializeAsync_d__15::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::AppInit__InitializeAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::AppInit__InitializeAsync_d__15::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "_startType_5__2", ty: "::GlobalNamespace::AppInit_AppStartType", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::AppInit__InitializeAsync_d__13::AppInit__InitializeAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+constexpr ::GlobalNamespace::AppInit__InitializeAsync_d__15::AppInit__InitializeAsync_d__15(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                             ::UnityW<::GlobalNamespace::AppInit> __4__this, ::GlobalNamespace::AppInit_AppStartType _startType_5__2,
                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -202,59 +201,59 @@ constexpr ::GlobalNamespace::AppInit__InitializeAsync_d__13::AppInit__Initialize
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AppInit__InitializeAsync_d__13::AppInit__InitializeAsync_d__13() {}
-//  Writing Method size for method: ::GlobalNamespace::AppInit__StartGameAsync_d__11.MoveNext
+constexpr ::GlobalNamespace::AppInit__InitializeAsync_d__15::AppInit__InitializeAsync_d__15() {}
+//  Writing Method size for method: ::GlobalNamespace::AppInit__StartGameAsync_d__13.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__StartGameAsync_d__11::*)()>(
-    &::GlobalNamespace::AppInit__StartGameAsync_d__11::MoveNext)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x22954f8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__StartGameAsync_d__13::*)()>(
+    &::GlobalNamespace::AppInit__StartGameAsync_d__13::MoveNext)> {
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x31d9f5c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__11>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__13>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AppInit__StartGameAsync_d__11.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::AppInit__StartGameAsync_d__13.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__StartGameAsync_d__11::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
-    &::GlobalNamespace::AppInit__StartGameAsync_d__11::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2295918;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit__StartGameAsync_d__13::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
+    &::GlobalNamespace::AppInit__StartGameAsync_d__13::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31da348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__11>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__13>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::AppInit__StartGameAsync_d__11::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__11>::get(),
+inline void GlobalNamespace::AppInit__StartGameAsync_d__13::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__13>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInit__StartGameAsync_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::AppInit__StartGameAsync_d__13::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__11>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit__StartGameAsync_d__13>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::AppInit__StartGameAsync_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::AppInit__StartGameAsync_d__13::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::AppInit__StartGameAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::AppInit__StartGameAsync_d__13::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::AppInit>", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::AppInit__StartGameAsync_d__11::AppInit__StartGameAsync_d__11(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+constexpr ::GlobalNamespace::AppInit__StartGameAsync_d__13::AppInit__StartGameAsync_d__13(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                           ::UnityW<::GlobalNamespace::AppInit> __4__this,
                                                                                           ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -263,14 +262,28 @@ constexpr ::GlobalNamespace::AppInit__StartGameAsync_d__11::AppInit__StartGameAs
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::AppInit__StartGameAsync_d__11::AppInit__StartGameAsync_d__11() {}
+constexpr ::GlobalNamespace::AppInit__StartGameAsync_d__13::AppInit__StartGameAsync_d__13() {}
+//  Writing Method size for method: ::GlobalNamespace::AppInit.get_asyncSceneContext
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> (::GlobalNamespace::AppInit::*)()>(
+    &::GlobalNamespace::AppInit::get_asyncSceneContext)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31d8ea4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "get_asyncSceneContext",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::AppInit.get_gameScenesManager
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::GameScenesManager> (::GlobalNamespace::AppInit::*)()>(
     &::GlobalNamespace::AppInit::get_gameScenesManager)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2294528;
+  constexpr static std::size_t addrs = 0x31d8eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "get_gameScenesManager",
@@ -283,7 +296,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::get_isTestContext)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2294530;
+  constexpr static std::size_t addrs = 0x31d8eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "get_isTestContext",
@@ -295,8 +308,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::Awake)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2294550;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31d8ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "Awake",
@@ -308,8 +321,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::StartGameAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22945e0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x31d8f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "StartGameAsync",
@@ -321,8 +334,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::PreloadAsync)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22946a0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x31d9028;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::InitializeAsync)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2294728;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x31d90bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "InitializeAsync",
@@ -348,8 +361,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::OnDestroy)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22947ec;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x31d9170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "OnDestroy",
@@ -360,15 +373,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::AppInit.HandleBeforeDismissingScenes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)(::System::Collections::Generic::List_1<::StringW>*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)(::System::Collections::Generic::IReadOnlyList_1<::StringW>*)>(
     &::GlobalNamespace::AppInit::HandleBeforeDismissingScenes)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2294968;
+  constexpr static std::size_t addrs = 0x31d9308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "HandleBeforeDismissingScenes", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>::get() })));
     return ___internal_method;
   }
 };
@@ -377,26 +390,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AppInit_AppStartType (::GlobalNamespace::AppInit::*)()>(
     &::GlobalNamespace::AppInit::GetAppStartType)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2294a08;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x31d93a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "GetAppStartType",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::AppInit.AppStartAndMultiSceneEditorSetup
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::AppStartAndMultiSceneEditorSetup)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 10));
     return ___internal_method;
   }
 };
@@ -411,21 +410,22 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 11));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 10));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AppInit.TransitionToNextScene
+//  Writing Method size for method: ::GlobalNamespace::AppInit.TransitionToNextSceneAsync
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::TransitionToNextScene)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::AppInit::*)()>(
+    &::GlobalNamespace::AppInit::TransitionToNextSceneAsync)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 12));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 11));
     return ___internal_method;
   }
 };
@@ -433,8 +433,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2294a9c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x31d9458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), ".ctor",
@@ -442,15 +442,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::AppInit._InitializeAsync_b__13_0
+//  Writing Method size for method: ::GlobalNamespace::AppInit._InitializeAsync_b__15_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::_InitializeAsync_b__13_0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2294b28;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::AppInit::*)()>(&::GlobalNamespace::AppInit::_InitializeAsync_b__15_0)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x31d94bc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "<InitializeAsync>b__13_0",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "<InitializeAsync>b__15_0",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -515,6 +515,11 @@ constexpr void GlobalNamespace::AppInit::__cordl_internal_set__gameScenesManager
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+inline ::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext> GlobalNamespace::AppInit::get_asyncSceneContext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "get_asyncSceneContext",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::BGLib::AppFlow::Initialization::AsyncSceneContext>, false>(this, ___internal_method);
+}
 inline ::UnityW<::GlobalNamespace::GameScenesManager> GlobalNamespace::AppInit::get_gameScenesManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "get_gameScenesManager",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -550,10 +555,10 @@ inline void GlobalNamespace::AppInit::OnDestroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInit::HandleBeforeDismissingScenes(::System::Collections::Generic::List_1<::StringW>* scenes) {
+inline void GlobalNamespace::AppInit::HandleBeforeDismissingScenes(::System::Collections::Generic::IReadOnlyList_1<::StringW>* scenes) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "HandleBeforeDismissingScenes", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IReadOnlyList_1<::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, scenes);
 }
 inline ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit::GetAppStartType() {
@@ -561,28 +566,23 @@ inline ::GlobalNamespace::AppInit_AppStartType GlobalNamespace::AppInit::GetAppS
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AppInit_AppStartType, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::AppInit::AppStartAndMultiSceneEditorSetup() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::AppInit::RepeatableSetupAsync() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 10)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
 }
-inline ::System::Threading::Tasks::Task* GlobalNamespace::AppInit::RepeatableSetupAsync() {
+inline ::System::Threading::Tasks::Task* GlobalNamespace::AppInit::TransitionToNextSceneAsync() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::AppInit::TransitionToNextScene() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), 12)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::AppInit::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::AppInit::_InitializeAsync_b__13_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "<InitializeAsync>b__13_0",
+inline bool GlobalNamespace::AppInit::_InitializeAsync_b__15_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInit*>::get(), "<InitializeAsync>b__15_0",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }

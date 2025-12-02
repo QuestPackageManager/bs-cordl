@@ -26,24 +26,24 @@ public:
   /// @brief Field SpinCountforSpinBeforeWait, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_SpinCountforSpinBeforeWait, put = setStaticF_SpinCountforSpinBeforeWait)) int32_t SpinCountforSpinBeforeWait;
 
-  /// @brief Method Reset, addr 0x3e4f7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5a94c3c, size 0x8, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SpinOnce, addr 0x3e4f4b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x5a94958, size 0x5c, virtual false, abstract: false, final false
   inline void SpinOnce();
 
-  /// @brief Method SpinOnce, addr 0x3e4f104, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SpinOnce, addr 0x5a94598, size 0xf8, virtual false, abstract: false, final false
   inline void SpinOnce(int32_t sleep1Threshold);
 
-  /// @brief Method SpinOnceCore, addr 0x3e4f624, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method SpinOnceCore, addr 0x5a94ad0, size 0x16c, virtual false, abstract: false, final false
   inline void SpinOnceCore(int32_t sleep1Threshold);
 
   static inline int32_t getStaticF_SpinCountforSpinBeforeWait();
 
-  /// @brief Method get_Count, addr 0x3e4f5a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5a94a4c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_NextSpinWillYield, addr 0x3e4f5ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_NextSpinWillYield, addr 0x5a94a54, size 0x7c, virtual false, abstract: false, final false
   inline bool get_NextSpinWillYield();
 
   static inline void setStaticF_SpinCountforSpinBeforeWait(int32_t value);
@@ -56,7 +56,7 @@ public:
   constexpr SpinWait(int32_t _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

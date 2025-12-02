@@ -74,7 +74,7 @@ public:
   JobStruct_1_IJobExtensions_ExecuteJobFunction(JobStruct_1_IJobExtensions_ExecuteJobFunction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9890 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -110,7 +110,7 @@ public:
   constexpr IJobExtensions_JobStruct_1();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9891 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -135,6 +135,9 @@ public:
   /// @brief Method GetReflectionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::IntPtr GetReflectionData();
 
+  /// @brief Method Run, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline void Run(T jobData);
+
   /// @brief Method Schedule, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::Unity::Jobs::JobHandle Schedule(T jobData, ::Unity::Jobs::JobHandle dependsOn);
 
@@ -153,7 +156,7 @@ public:
   IJobExtensions(IJobExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9892 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

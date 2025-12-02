@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 CORDL_MODULE_EXPORT(TlsServerContext)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsServerContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsServerContext);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsContext
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsServerContext

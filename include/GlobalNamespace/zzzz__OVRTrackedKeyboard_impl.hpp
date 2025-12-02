@@ -3,9 +3,6 @@
 #include "GlobalNamespace/zzzz__OVRKeyboard_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRTextureQualityFiltering_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -18,8 +15,10 @@
 #include "GlobalNamespace/zzzz__OVRPassthroughLayer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRTrackedKeyboard_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
@@ -51,14 +50,14 @@ constexpr ::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation::OVRTracked
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation::OVRTrackedKeyboard_KeyboardPresentation() {}
 constexpr ::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation::PreferOpaque{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation::PreferKeyLabels{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation::PreferMR{ static_cast<int32_t>(0x1) };
 //  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent::*)(
     ::StringW, ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState, bool)>(&::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x401d108;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5ccc6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent::*)(bool)>(
     &::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401d318;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccc900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,8 +117,8 @@ constexpr ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent::O
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard___c::*)()>(&::GlobalNamespace::OVRTrackedKeyboard___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d380;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ccc95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), ".ctor",
@@ -127,32 +126,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard___c.__ctor_b__113_0
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard___c.__ctor_b__110_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard___c::*)(
-    ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent)>(&::GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__113_0)> {
+    ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent)>(&::GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__110_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401d388;
+  constexpr static std::size_t addrs = 0x5ccc960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__113_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__110_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard___c.__ctor_b__113_1
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard___c.__ctor_b__110_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard___c::*)(
-    ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent)>(&::GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__113_1)> {
+    ::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent)>(&::GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__110_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401d38c;
+  constexpr static std::size_t addrs = 0x5ccc964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__113_1", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__110_1", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>::get() })));
     return ___internal_method;
   }
@@ -165,22 +164,22 @@ inline ::GlobalNamespace::OVRTrackedKeyboard___c* GlobalNamespace::OVRTrackedKey
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRTrackedKeyboard___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get>();
 }
-inline void GlobalNamespace::OVRTrackedKeyboard___c::setStaticF___9__113_0(::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>*, "<>9__113_0",
+inline void GlobalNamespace::OVRTrackedKeyboard___c::setStaticF___9__110_0(::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>*, "<>9__110_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get>(
       std::forward<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>*>(value));
 }
-inline ::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>* GlobalNamespace::OVRTrackedKeyboard___c::getStaticF___9__113_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>*, "<>9__113_0",
+inline ::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>* GlobalNamespace::OVRTrackedKeyboard___c::getStaticF___9__110_0() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>*, "<>9__110_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get>();
 }
-inline void GlobalNamespace::OVRTrackedKeyboard___c::setStaticF___9__113_1(::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>*, "<>9__113_1",
+inline void GlobalNamespace::OVRTrackedKeyboard___c::setStaticF___9__110_1(::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>*, "<>9__110_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get>(
       std::forward<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>*>(value));
 }
-inline ::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>* GlobalNamespace::OVRTrackedKeyboard___c::getStaticF___9__113_1() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>*, "<>9__113_1",
+inline ::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>* GlobalNamespace::OVRTrackedKeyboard___c::getStaticF___9__110_1() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>*, "<>9__110_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get>();
 }
 inline void GlobalNamespace::OVRTrackedKeyboard___c::_ctor() {
@@ -188,15 +187,15 @@ inline void GlobalNamespace::OVRTrackedKeyboard___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__113_0(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent _p0_) {
+inline void GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__110_0(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent _p0_) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__113_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__110_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _p0_);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__113_1(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent _p0_) {
+inline void GlobalNamespace::OVRTrackedKeyboard___c::__ctor_b__110_1(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent _p0_) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__113_1", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard___c*>::get(), "<.ctor>b__110_1", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardVisibilityChangedEvent>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _p0_);
 }
@@ -205,981 +204,981 @@ inline ::GlobalNamespace::OVRTrackedKeyboard___c* GlobalNamespace::OVRTrackedKey
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRTrackedKeyboard___c::OVRTrackedKeyboard___c() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89._ctor
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::*)(int32_t)>(
-    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401b8c0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::*)(int32_t)>(
+    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccaf58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401d390;
+  constexpr static std::size_t addrs = 0x5ccc968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::MoveNext)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x401d394;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::MoveNext)> {
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x5ccc96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d504;
+  constexpr static std::size_t addrs = 0x5cccaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x401d50c;
+  constexpr static std::size_t addrs = 0x5cccaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d544;
+  constexpr static std::size_t addrs = 0x5cccb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_IDisposable_Dispose() {
+inline void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::MoveNext() {
+inline bool GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89*>(__1__state));
+inline ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__89::OVRTrackedKeyboard__InitializeHandPresenceData_d__89() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88._ctor
+constexpr ::GlobalNamespace::OVRTrackedKeyboard__InitializeHandPresenceData_d__86::OVRTrackedKeyboard__InitializeHandPresenceData_d__86() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::*)(int32_t)>(
-    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401b838;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::*)(int32_t)>(
+    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccaefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401d54c;
+  constexpr static std::size_t addrs = 0x5cccb38;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::MoveNext)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x401d550;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::MoveNext)> {
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5cccb3c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d654;
+  constexpr static std::size_t addrs = 0x5cccc4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x401d65c;
+  constexpr static std::size_t addrs = 0x5cccc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d694;
+  constexpr static std::size_t addrs = 0x5cccc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__Start_d__88::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__Start_d__85::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__Start_d__88::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::OVRTrackedKeyboard__Start_d__85::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+inline void GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTrackedKeyboard__Start_d__88::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+inline bool GlobalNamespace::OVRTrackedKeyboard__Start_d__85::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__Start_d__88::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88* GlobalNamespace::OVRTrackedKeyboard__Start_d__88::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__Start_d__88*>(__1__state));
+inline ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__Start_d__85*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::OVRTrackedKeyboard__Start_d__88::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__Start_d__85::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::OVRTrackedKeyboard__Start_d__88::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::OVRTrackedKeyboard__Start_d__85::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::OVRTrackedKeyboard__Start_d__88::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__Start_d__85::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__Start_d__88::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::OVRTrackedKeyboard__Start_d__88::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__Start_d__85::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__Start_d__88::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__Start_d__85::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTrackedKeyboard__Start_d__88::OVRTrackedKeyboard__Start_d__88() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96._ctor
+constexpr ::GlobalNamespace::OVRTrackedKeyboard__Start_d__85::OVRTrackedKeyboard__Start_d__85() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::*)(int32_t)>(
-    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401c0b8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::*)(int32_t)>(
+    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccb73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401d69c;
+  constexpr static std::size_t addrs = 0x5cccc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::MoveNext)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x401d6a0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::MoveNext)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x5cccc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d964;
+  constexpr static std::size_t addrs = 0x5cccf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x401d96c;
+  constexpr static std::size_t addrs = 0x5cccf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401d9a4;
+  constexpr static std::size_t addrs = 0x5cccfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_IDisposable_Dispose() {
+inline void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::MoveNext() {
+inline bool GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96*>(__1__state));
+inline ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__96() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98._ctor
+constexpr ::GlobalNamespace::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93::OVRTrackedKeyboard__StartKeyboardTrackingCoroutine_d__93() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::*)(int32_t)>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401c464;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::*)(int32_t)>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccbaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401d9ac;
+  constexpr static std::size_t addrs = 0x5cccfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::MoveNext)> {
-  constexpr static std::size_t size = 0x9e4;
-  constexpr static std::size_t addrs = 0x401d9b0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::MoveNext)> {
+  constexpr static std::size_t size = 0x988;
+  constexpr static std::size_t addrs = 0x5cccfc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401e394;
+  constexpr static std::size_t addrs = 0x5ccd94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x401e39c;
+  constexpr static std::size_t addrs = 0x5ccd954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401e3d4;
+  constexpr static std::size_t addrs = 0x5ccd98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_IDisposable_Dispose() {
+inline void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::MoveNext() {
+inline bool GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98*>(__1__state));
+inline ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__98::OVRTrackedKeyboard__UpdateKeyboardPose_d__98() {}
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95._ctor
+constexpr ::GlobalNamespace::OVRTrackedKeyboard__UpdateKeyboardPose_d__95::OVRTrackedKeyboard__UpdateKeyboardPose_d__95() {}
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::*)(int32_t)>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x401c030;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::*)(int32_t)>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccb6e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401e3dc;
+  constexpr static std::size_t addrs = 0x5ccd994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::MoveNext)> {
   constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x401e3e0;
+  constexpr static std::size_t addrs = 0x5ccd998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401e870;
+  constexpr static std::size_t addrs = 0x5ccde28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x401e878;
+  constexpr static std::size_t addrs = 0x5ccde30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::*)()>(
-    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::*)()>(
+    &::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401e8b0;
+  constexpr static std::size_t addrs = 0x5ccde68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard>& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::OVRTrackedKeyboard> const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::OVRTrackedKeyboard> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get__keyboardInfo_5__2() {
+constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get__keyboardInfo_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyboardInfo_5__2;
 }
-constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_get__keyboardInfo_5__2() const {
+constexpr ::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo const& GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_get__keyboardInfo_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____keyboardInfo_5__2;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::__cordl_internal_set__keyboardInfo_5__2(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::__cordl_internal_set__keyboardInfo_5__2(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____keyboardInfo_5__2 = value;
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_IDisposable_Dispose() {
+inline void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::MoveNext() {
+inline bool GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95*>(__1__state));
+inline ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__95() {}
+constexpr ::GlobalNamespace::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92::OVRTrackedKeyboard__UpdateTrackingStateCoroutine_d__92() {}
 //  Writing Method size for method: ::GlobalNamespace::OVRTrackedKeyboard.get_CurrentKeyboardAngleFromUp
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_CurrentKeyboardAngleFromUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b450;
+  constexpr static std::size_t addrs = 0x5ccabc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1193,7 +1192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(float_t)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_CurrentKeyboardAngleFromUp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b458;
+  constexpr static std::size_t addrs = 0x5ccabcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1208,7 +1207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_TrackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b460;
+  constexpr static std::size_t addrs = 0x5ccabd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1222,7 +1221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_TrackingState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b468;
+  constexpr static std::size_t addrs = 0x5ccabdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1237,7 +1236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_ActiveKeyboardInfo)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x401b470;
+  constexpr static std::size_t addrs = 0x5ccabe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1251,7 +1250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_ActiveKeyboardInfo)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x401b488;
+  constexpr static std::size_t addrs = 0x5ccabfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1266,7 +1265,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_SystemKeyboardInfo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x401b4a0;
+  constexpr static std::size_t addrs = 0x5ccac14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1280,7 +1279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVRKeyboard_TrackedKeyboardInfo)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_SystemKeyboardInfo)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x401b4b4;
+  constexpr static std::size_t addrs = 0x5ccac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1295,7 +1294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_Presentation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b4c8;
+  constexpr static std::size_t addrs = 0x5ccac3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1309,7 +1308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVRTrackedKeyboard_KeyboardPresentation)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_Presentation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x401b4d0;
+  constexpr static std::size_t addrs = 0x5ccac44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1323,7 +1322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::get_TrackingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b758;
+  constexpr static std::size_t addrs = 0x5ccae34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1335,8 +1334,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(bool)>(&::GlobalNamespace::OVRTrackedKeyboard::set_TrackingEnabled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401b760;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccae3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1350,7 +1349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::get_ConnectionRequired)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b76c;
+  constexpr static std::size_t addrs = 0x5ccae44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1363,8 +1362,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(bool)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_ConnectionRequired)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401b774;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccae4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1378,7 +1377,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::get_ShowUntracked)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b780;
+  constexpr static std::size_t addrs = 0x5ccae54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1390,8 +1389,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(bool)>(&::GlobalNamespace::OVRTrackedKeyboard::set_ShowUntracked)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x401b788;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ccae5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1405,7 +1404,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::get_RemoteKeyboard)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x401b794;
+  constexpr static std::size_t addrs = 0x5ccae64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1418,7 +1417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(bool)>(&::GlobalNamespace::OVRTrackedKeyboard::set_RemoteKeyboard)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x401b7a4;
+  constexpr static std::size_t addrs = 0x5ccae74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1433,7 +1432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_KeyboardQueryFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b7bc;
+  constexpr static std::size_t addrs = 0x5ccae8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1447,7 +1446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVRPlugin_TrackedKeyboardQueryFlags)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_KeyboardQueryFlags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b7c4;
+  constexpr static std::size_t addrs = 0x5ccae94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1462,7 +1461,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVROverlay> (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::get_PassthroughOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x401b7cc;
+  constexpr static std::size_t addrs = 0x5ccae9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1476,7 +1475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVROverlay*)>(
     &::GlobalNamespace::OVRTrackedKeyboard::set_PassthroughOverlay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x401b7d4;
+  constexpr static std::size_t addrs = 0x5ccaea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1490,8 +1489,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x401b7d8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5ccaea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(), "Start",
@@ -1504,8 +1503,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::InitializeHandPresenceData)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x401b860;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5ccaf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1519,7 +1518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::RegisterPassthroughMeshToSDK)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x401b8e8;
+  constexpr static std::size_t addrs = 0x5ccaf60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1533,7 +1532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRTrackedKeyboard::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::OVRTrackedKeyboard::GetDistanceToKeyboard)> {
   constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x401b980;
+  constexpr static std::size_t addrs = 0x5ccaff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1547,8 +1546,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::LaunchLocalKeyboardSelectionDialog)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x401bbac;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ccb224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1562,8 +1561,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::LaunchRemoteKeyboardSelectionDialog)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x401bf7c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5ccb634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1578,7 +1577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::KeyboardTrackerIsRunning)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x401bfbc;
+  constexpr static std::size_t addrs = 0x5ccb678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1591,8 +1590,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::UpdateTrackingStateCoroutine)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x401bfd0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5ccb68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1605,8 +1604,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::StartKeyboardTrackingCoroutine)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x401c058;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5ccb6e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1619,8 +1618,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::StopKeyboardTrackingInternal)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x401c0e0;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x5ccb744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1633,8 +1632,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::UpdateKeyboardPose)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x401c404;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5ccbaa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1646,8 +1645,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::UpdateSkippedPoseTimer)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x401c48c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ccbafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1659,8 +1658,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::LoadKeyboardMesh)> {
-  constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x401c4d4;
+  constexpr static std::size_t size = 0x518;
+  constexpr static std::size_t addrs = 0x5ccbb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1672,8 +1671,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::UpdateTextureQuality)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x401cd7c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x5ccc348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1685,8 +1684,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(bool)>(&::GlobalNamespace::OVRTrackedKeyboard::UpdatePresentation)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x401b564;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x5ccace0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1700,8 +1699,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::LoadRuntimeKeyboardMesh)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x401cad0;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x5ccc07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1714,8 +1713,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(
     &::GlobalNamespace::OVRTrackedKeyboard::UpdateKeyboardVisibility)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x401ceac;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5ccc488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1728,8 +1727,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardState)>(
     &::GlobalNamespace::OVRTrackedKeyboard::SetKeyboardState)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x401c2d0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5ccb938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1742,8 +1741,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::GetKeyboardVisibility)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x401b520;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5ccac94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1755,8 +1754,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::InitializeKeyboardInfo)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x401c3b0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5ccba48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(),
@@ -1769,8 +1768,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(::StringW)>(
     &::GlobalNamespace::OVRTrackedKeyboard::LaunchOverlayIntent)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x401bbec;
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x5ccb268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1783,8 +1782,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::Dispose)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x401cff4;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5ccc5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(), "Dispose",
@@ -1798,7 +1797,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)(bool)>(
     &::GlobalNamespace::OVRTrackedKeyboard::DispatchVisibilityEvent)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x401cfc0;
+  constexpr static std::size_t addrs = 0x5ccc5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1811,8 +1810,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRTrackedKeyboard::*)()>(&::GlobalNamespace::OVRTrackedKeyboard::_ctor)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x401d11c;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5ccc6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRTrackedKeyboard*>::get(), ".ctor",
@@ -2038,18 +2037,6 @@ constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_activeK
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activeKeyboardMesh_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_keyboardMeshNodes_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___keyboardMeshNodes_;
-}
-constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_keyboardMeshNodes_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___keyboardMeshNodes_;
-}
-constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_keyboardMeshNodes_(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___keyboardMeshNodes_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_activeKeyboardMeshRenderer_() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___activeKeyboardMeshRenderer_;
@@ -2074,18 +2061,6 @@ constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_passthr
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___passthroughQuad_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_opaqueShader_() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___opaqueShader_;
-}
-constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_opaqueShader_() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___opaqueShader_;
-}
-constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_opaqueShader_(::UnityW<::UnityEngine::Shader> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___opaqueShader_)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityW<::UnityEngine::Texture2D>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_dynamicQualityTexture_() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___dynamicQualityTexture_;
@@ -2109,18 +2084,6 @@ constexpr ::UnityEngine::Vector3 const& GlobalNamespace::OVRTrackedKeyboard::__c
 constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_untrackedPosition_(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___untrackedPosition_ = value;
-}
-constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_KeyLabelModeShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___KeyLabelModeShader;
-}
-constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_KeyLabelModeShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___KeyLabelModeShader;
-}
-constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_KeyLabelModeShader(::UnityW<::UnityEngine::Shader> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___KeyLabelModeShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_PassthroughShader() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -2158,17 +2121,17 @@ constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_project
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___projectedPassthroughMesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_ProjectedPassthroughKeyLabel() {
+constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer>& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_ProjectedPassthroughMR() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ProjectedPassthroughKeyLabel;
+  return this->___ProjectedPassthroughMR;
 }
-constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer> const& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_ProjectedPassthroughKeyLabel() const {
+constexpr ::UnityW<::GlobalNamespace::OVRPassthroughLayer> const& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_ProjectedPassthroughMR() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___ProjectedPassthroughKeyLabel;
+  return this->___ProjectedPassthroughMR;
 }
-constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_ProjectedPassthroughKeyLabel(::UnityW<::GlobalNamespace::OVRPassthroughLayer> value) {
+constexpr void GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_set_ProjectedPassthroughMR(::UnityW<::GlobalNamespace::OVRPassthroughLayer> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ProjectedPassthroughKeyLabel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ProjectedPassthroughMR)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Action_1<::GlobalNamespace::OVRTrackedKeyboard_TrackedKeyboardSetActiveEvent>*& GlobalNamespace::OVRTrackedKeyboard::__cordl_internal_get_TrackedKeyboardActiveChanged() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -63,7 +63,7 @@ public:
   static ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason const Pooled;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3821 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -91,24 +91,24 @@ public:
   /// @brief Field Log, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_Log, put = setStaticF_Log)) ::System::Buffers::ArrayPoolEventSource* Log;
 
-  /// @brief Method BufferAllocated, addr 0x3dc9994, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method BufferAllocated, addr 0x59dd3d0, size 0xbc, virtual false, abstract: false, final false
   inline void BufferAllocated(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId, ::System::Buffers::ArrayPoolEventSource_BufferAllocatedReason reason);
 
-  /// @brief Method BufferRented, addr 0x3dc98a8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method BufferRented, addr 0x59dd320, size 0xb0, virtual false, abstract: false, final false
   inline void BufferRented(int32_t bufferId, int32_t bufferSize, int32_t poolId, int32_t bucketId);
 
-  /// @brief Method BufferReturned, addr 0x3dc9aa0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BufferReturned, addr 0x59dd48c, size 0x18, virtual false, abstract: false, final false
   inline void BufferReturned(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
-  /// @brief Method BufferTrimPoll, addr 0x3dc9ac0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method BufferTrimPoll, addr 0x59dd4bc, size 0x14, virtual false, abstract: false, final false
   inline void BufferTrimPoll(int32_t milliseconds, int32_t pressure);
 
-  /// @brief Method BufferTrimmed, addr 0x3dc9ab0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method BufferTrimmed, addr 0x59dd4a4, size 0x18, virtual false, abstract: false, final false
   inline void BufferTrimmed(int32_t bufferId, int32_t bufferSize, int32_t poolId);
 
   static inline ::System::Buffers::ArrayPoolEventSource* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3dc97fc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59dd2d4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Buffers::ArrayPoolEventSource* getStaticF_Log();
@@ -130,7 +130,7 @@ public:
   ArrayPoolEventSource(ArrayPoolEventSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3897 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3822 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -18,8 +15,14 @@ class HoverTextController__HideTextCoroutine_d__12;
 namespace HMUI {
 class HoverTextController__ShowTextCoroutine_d__10;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -41,7 +44,7 @@ class HoverTextController__ShowTextCoroutine_d__10;
 MARK_REF_PTR_T(::HMUI::HoverTextController);
 MARK_REF_PTR_T(::HMUI::HoverTextController__HideTextCoroutine_d__12);
 MARK_REF_PTR_T(::HMUI::HoverTextController__ShowTextCoroutine_d__10);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.HoverTextController/<HideTextCoroutine>d__12
@@ -70,21 +73,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39eed4c, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5666e74, size 0x128, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::HoverTextController__HideTextCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39eee34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5666f9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39eee3c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5666fa4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39eee74, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5666fdc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39eed48, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5666e70, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -105,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
-  /// @brief Method .ctor, addr 0x39eed04, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5666e50, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -132,7 +135,7 @@ public:
   HoverTextController__HideTextCoroutine_d__12(HoverTextController__HideTextCoroutine_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16050 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19118 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -155,7 +158,7 @@ static_assert(offsetof(::HMUI::HoverTextController__HideTextCoroutine_d__12, ___
 static_assert(::cordl_internals::size_check_v<::HMUI::HoverTextController__HideTextCoroutine_d__12, 0x28>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.HoverTextController/<ShowTextCoroutine>d__10
@@ -184,21 +187,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39eee80, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5666fe8, size 0x198, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::HoverTextController__ShowTextCoroutine_d__10* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39eefd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5667180, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39eefdc, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5667188, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39ef014, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x56671c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39eee7c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5666fe4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -219,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::HMUI::HoverTextController> value);
 
-  /// @brief Method .ctor, addr 0x39eec10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5666d6c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -246,7 +249,7 @@ public:
   HoverTextController__ShowTextCoroutine_d__10(HoverTextController__ShowTextCoroutine_d__10 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16051 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19119 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -298,27 +301,27 @@ public:
   /// @brief Field _textMesh, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__textMesh, put = __cordl_internal_set__textMesh)) ::UnityW<::TMPro::TextMeshProUGUI> _textMesh;
 
-  /// @brief Method Awake, addr 0x39eeadc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5666bf8, size 0x3c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HideText, addr 0x39eec38, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HideText, addr 0x5666d74, size 0x88, virtual false, abstract: false, final false
   inline void HideText();
 
-  /// @brief Method HideTextCoroutine, addr 0x39eeca4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HideTextCoroutine, addr 0x5666dfc, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* HideTextCoroutine();
 
   static inline ::HMUI::HoverTextController* New_ctor();
 
-  /// @brief Method OnApplicationFocus, addr 0x39eeb24, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocus, addr 0x5666c78, size 0x40, virtual false, abstract: false, final false
   inline void OnApplicationFocus(bool hasFocus);
 
-  /// @brief Method OnDisable, addr 0x39eeafc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5666c34, size 0x44, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method ShowText, addr 0x39eeb50, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowText, addr 0x5666cb8, size 0x60, virtual false, abstract: false, final false
   inline void ShowText(::StringW text);
 
-  /// @brief Method ShowTextCoroutine, addr 0x39eebb0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShowTextCoroutine, addr 0x5666d18, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* ShowTextCoroutine();
 
   constexpr float_t const& __cordl_internal_get__fadeInDelay() const;
@@ -357,7 +360,7 @@ public:
 
   constexpr void __cordl_internal_set__textMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39eed2c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5666e58, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -375,7 +378,7 @@ public:
   HoverTextController(HoverTextController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19120 };
 
   /// @brief Field _textMesh, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____textMesh;

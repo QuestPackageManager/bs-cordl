@@ -53,31 +53,33 @@ public:
 
   __declspec(property(get = get_PropertyType)) ::System::Type* PropertyType;
 
-  /// @brief Method Equals, addr 0x3d258ac, size 0x8, virtual true, abstract: false, final false
+  __declspec(property(get = get_SetMethod)) ::System::Reflection::MethodInfo* SetMethod;
+
+  /// @brief Method Equals, addr 0x596a7c8, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetGetMethod, addr 0x3d2581c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetGetMethod, addr 0x596a724, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetGetMethod();
 
   /// @brief Method GetGetMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
 
-  /// @brief Method GetHashCode, addr 0x3d258b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x596a7d4, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method GetIndexParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetIndexParameters();
 
-  /// @brief Method GetSetMethod, addr 0x3d25830, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method GetSetMethod, addr 0x596a74c, size 0x14, virtual true, abstract: false, final true
   inline ::System::Reflection::MethodInfo* GetSetMethod();
 
   /// @brief Method GetSetMethod, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
 
-  /// @brief Method GetValue, addr 0x3d25844, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x596a760, size 0x14, virtual false, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj);
 
-  /// @brief Method GetValue, addr 0x3d25858, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x596a774, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index);
 
   /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -86,17 +88,17 @@ public:
 
   static inline ::System::Reflection::PropertyInfo* New_ctor();
 
-  /// @brief Method SetValue, addr 0x3d25878, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x596a794, size 0x14, virtual false, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value);
 
-  /// @brief Method SetValue, addr 0x3d2588c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x596a7a8, size 0x20, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index);
 
   /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method .ctor, addr 0x3d257f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596a704, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_CanRead, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -105,19 +107,22 @@ public:
   /// @brief Method get_CanWrite, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_GetMethod, addr 0x3d25808, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method get_GetMethod, addr 0x596a710, size 0x14, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* get_GetMethod();
 
-  /// @brief Method get_MemberType, addr 0x3d25800, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MemberType, addr 0x596a708, size 0x8, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
   /// @brief Method get_PropertyType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method op_Equality, addr 0x3d23e78, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_SetMethod, addr 0x596a738, size 0x14, virtual true, abstract: false, final false
+  inline ::System::Reflection::MethodInfo* get_SetMethod();
+
+  /// @brief Method op_Equality, addr 0x5968cd0, size 0x2c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::PropertyInfo* left, ::System::Reflection::PropertyInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x3d23e3c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5968c94, size 0x3c, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::PropertyInfo* left, ::System::Reflection::PropertyInfo* right);
 
 protected:
@@ -135,7 +140,7 @@ public:
   PropertyInfo(PropertyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3490 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3512 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -21,6 +21,22 @@ template <typename T>
 struct CORDL_TYPE LazyLoadReference_1 {
 public:
   // Declarations
+  __declspec(property(get = get_asset, put = set_asset)) T asset;
+
+  __declspec(property(get = get_isSet)) bool isSet;
+
+  /// @brief Method get_asset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_asset();
+
+  /// @brief Method get_isSet, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_isSet();
+
+  /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::UnityEngine::LazyLoadReference_1<T> op_Implicit___UnityEngine__LazyLoadReference_1_T_(T asset);
+
+  /// @brief Method set_asset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_asset(T value);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr LazyLoadReference_1();
@@ -29,10 +45,13 @@ public:
   constexpr LazyLoadReference_1(int32_t m_InstanceID) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10896 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10327 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field kInstanceID_None offset 0xffffffff size 0x4
+  static constexpr int32_t kInstanceID_None{ static_cast<int32_t>(0x0) };
 
   /// @brief Field m_InstanceID, offset: 0x0, size: 0x4, def value: None
   int32_t m_InstanceID;

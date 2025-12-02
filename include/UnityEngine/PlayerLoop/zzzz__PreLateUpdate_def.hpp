@@ -9,6 +9,9 @@ namespace UnityEngine::PlayerLoop {
 struct PreLateUpdate_AIUpdatePostScript;
 }
 namespace UnityEngine::PlayerLoop {
+struct PreLateUpdate_AccessibilityUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PreLateUpdate_ConstraintManagerUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -55,6 +58,9 @@ namespace UnityEngine::PlayerLoop {
 struct PreLateUpdate_AIUpdatePostScript;
 }
 namespace UnityEngine::PlayerLoop {
+struct PreLateUpdate_AccessibilityUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct PreLateUpdate_ConstraintManagerUpdate;
 }
 namespace UnityEngine::PlayerLoop {
@@ -96,6 +102,7 @@ struct PreLateUpdate_UpdateNetworkManager;
 // Write type traits
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript);
+MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_AccessibilityUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationBegin);
@@ -122,7 +129,7 @@ public:
   constexpr PreLateUpdate_Physics2DLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10547 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -150,7 +157,7 @@ public:
   constexpr PreLateUpdate_PhysicsLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10548 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -178,7 +185,7 @@ public:
   constexpr PreLateUpdate_AIUpdatePostScript();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10549 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -206,7 +213,7 @@ public:
   constexpr PreLateUpdate_DirectorUpdateAnimationBegin();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10550 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -234,7 +241,7 @@ public:
   constexpr PreLateUpdate_LegacyAnimationUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10551 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -262,7 +269,7 @@ public:
   constexpr PreLateUpdate_DirectorUpdateAnimationEnd();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10552 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -290,7 +297,7 @@ public:
   constexpr PreLateUpdate_DirectorDeferredEvaluate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10553 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -308,6 +315,34 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLate
 // Dependencies
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
+// CS Name: UnityEngine.PlayerLoop.PreLateUpdate/AccessibilityUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE PreLateUpdate_AccessibilityUpdate {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr PreLateUpdate_AccessibilityUpdate();
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10554 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+
+  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+  uint8_t _cordl_size_padding[0x1];
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLateUpdate_AccessibilityUpdate, 0x1>, "Size mismatch!");
+
+} // namespace UnityEngine::PlayerLoop
+// Dependencies
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
 // CS Name: UnityEngine.PlayerLoop.PreLateUpdate/UIElementsUpdatePanels
 #pragma pack(push, 0)
 struct CORDL_TYPE PreLateUpdate_UIElementsUpdatePanels {
@@ -318,7 +353,7 @@ public:
   constexpr PreLateUpdate_UIElementsUpdatePanels();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10555 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -346,7 +381,7 @@ public:
   constexpr PreLateUpdate_UpdateNetworkManager();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10556 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -374,7 +409,7 @@ public:
   constexpr PreLateUpdate_UpdateMasterServerInterface();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10557 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -402,7 +437,7 @@ public:
   constexpr PreLateUpdate_EndGraphicsJobsAfterScriptUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10558 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -430,7 +465,7 @@ public:
   constexpr PreLateUpdate_ParticleSystemBeginUpdateAll();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10559 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -458,7 +493,7 @@ public:
   constexpr PreLateUpdate_ScriptRunBehaviourLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10560 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -486,7 +521,7 @@ public:
   constexpr PreLateUpdate_ConstraintManagerUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10561 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -510,6 +545,8 @@ struct CORDL_TYPE PreLateUpdate {
 public:
   // Declarations
   using AIUpdatePostScript = ::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript;
+
+  using AccessibilityUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_AccessibilityUpdate;
 
   using ConstraintManagerUpdate = ::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate;
 
@@ -542,7 +579,7 @@ public:
   constexpr PreLateUpdate();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10562 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -559,6 +596,7 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PreLate
 } // namespace UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_AIUpdatePostScript, "UnityEngine.PlayerLoop", "PreLateUpdate/AIUpdatePostScript");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_AccessibilityUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/AccessibilityUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_ConstraintManagerUpdate, "UnityEngine.PlayerLoop", "PreLateUpdate/ConstraintManagerUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorDeferredEvaluate, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorDeferredEvaluate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PreLateUpdate_DirectorUpdateAnimationBegin, "UnityEngine.PlayerLoop", "PreLateUpdate/DirectorUpdateAnimationBegin");

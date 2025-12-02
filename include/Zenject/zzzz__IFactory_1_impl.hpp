@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/IFactory_1.hpp"
-#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__IFactory_1_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 template <typename TValue> inline TValue Zenject::IFactory_1<TValue>::Create() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::IFactory_1<TValue>*>::get(), 0)));

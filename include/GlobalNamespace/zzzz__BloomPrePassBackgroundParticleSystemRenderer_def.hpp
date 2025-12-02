@@ -24,15 +24,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE BloomPrePassBackgroundParticleSystemRenderer : public ::GlobalNamespace::BloomPrePassBackgroundNonLightRendererCore {
 public:
   // Declarations
-  /// @brief Field _particleSystem, offset 0x50, size 0x8
+  /// @brief Field _particleSystem, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__particleSystem, put = __cordl_internal_set__particleSystem)) ::UnityW<::UnityEngine::ParticleSystem> _particleSystem;
 
-  /// @brief Field _renderer, offset 0x58, size 0x8
+  /// @brief Field _renderer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__renderer, put = __cordl_internal_set__renderer)) ::UnityW<::UnityEngine::Renderer> _renderer;
 
   __declspec(property(get = get_renderer)) ::UnityW<::UnityEngine::Renderer> renderer;
 
-  /// @brief Method Awake, addr 0x39d7df8, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x564f408, size 0x6c, virtual true, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer* New_ctor();
@@ -49,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set__renderer(::UnityW<::UnityEngine::Renderer> value);
 
-  /// @brief Method .ctor, addr 0x39d7e5c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x564f474, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_renderer, addr 0x39d7df0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_renderer, addr 0x564f400, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Renderer> get_renderer();
 
 protected:
@@ -70,22 +70,22 @@ public:
   BloomPrePassBackgroundParticleSystemRenderer(BloomPrePassBackgroundParticleSystemRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19627 };
 
-  /// @brief Field _particleSystem, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _particleSystem, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____particleSystem;
 
-  /// @brief Field _renderer, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _renderer, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Renderer> ____renderer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, ____particleSystem) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, ____particleSystem) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, ____renderer) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, ____renderer) == 0x60, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundParticleSystemRenderer);

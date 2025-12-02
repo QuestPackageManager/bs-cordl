@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GlyphAdjustmentRecord)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -20,7 +22,7 @@ struct GlyphAdjustmentRecord;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord);
-// Dependencies System.IEquatable`1<T>, UnityEngine.TextCore.LowLevel.GlyphValueRecord
+// Dependencies UnityEngine.TextCore.LowLevel.GlyphValueRecord
 namespace UnityEngine::TextCore::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.TextCore.LowLevel.GlyphAdjustmentRecord
@@ -34,19 +36,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>*();
 
-  /// @brief Method Equals, addr 0x4923278, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x698c160, size 0x78, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49232f8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x698c1d8, size 0x9c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord other);
 
-  /// @brief Method GetHashCode, addr 0x492320c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x698c0f4, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method get_glyphIndex, addr 0x49231f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x698c0e4, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(uint32_t glyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord glyphValueRecord);
+
+  /// @brief Method get_glyphIndex, addr 0x698c0d0, size 0x8, virtual false, abstract: false, final false
   inline uint32_t get_glyphIndex();
 
-  /// @brief Method get_glyphValueRecord, addr 0x4923200, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_glyphValueRecord, addr 0x698c0d8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord get_glyphValueRecord();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::LowLevel::GlyphAdjustmentRecord>"
@@ -61,7 +66,7 @@ public:
   constexpr GlyphAdjustmentRecord(uint32_t m_GlyphIndex, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord m_GlyphValueRecord) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21652 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

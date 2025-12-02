@@ -52,10 +52,10 @@ public:
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x3c1e4ac, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__0, addr 0x5756ec8, size 0xf8, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__0();
 
-  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x3c1e560, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PresentMissionClearedIfNeeded>b__1, addr 0x5756fc0, size 0x20, virtual false, abstract: false, final false
   inline void _PresentMissionClearedIfNeeded_b__1();
 
   constexpr ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> const& __cordl_internal_get___4__this() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set_finishedCallback(::System::Action_1<bool>* value);
 
-  /// @brief Method .ctor, addr 0x3c1e49c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5756eb8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   MissionSelectionNavigationController___c__DisplayClass11_0(MissionSelectionNavigationController___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4923 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6966 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionNavigationController> _____4__this;
@@ -142,21 +142,21 @@ public:
 
   __declspec(property(get = get_selectedMissionNode)) ::UnityW<::GlobalNamespace::MissionNode> selectedMissionNode;
 
-  /// @brief Method DidActivate, addr 0x3c1e0a4, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5756a3c, size 0x188, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3c1e204, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5756bc4, size 0x114, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x3c1e368, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelDetailViewControllerDidPressPlayButton, addr 0x5756d4c, size 0x20, virtual false, abstract: false, final false
   inline void HandleMissionLevelDetailViewControllerDidPressPlayButton(::GlobalNamespace::MissionLevelDetailViewController* viewController);
 
-  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x3c1e2f4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionMapViewControllerDidSelectMissionLevel, addr 0x5756cd8, size 0x74, virtual false, abstract: false, final false
   inline void HandleMissionSelectionMapViewControllerDidSelectMissionLevel(::GlobalNamespace::MissionSelectionMapViewController* viewController, ::GlobalNamespace::MissionNode* missionNode);
 
   static inline ::GlobalNamespace::MissionSelectionNavigationController* New_ctor();
 
-  /// @brief Method PresentMissionClearedIfNeeded, addr 0x3c1e388, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method PresentMissionClearedIfNeeded, addr 0x5756d6c, size 0x14c, virtual false, abstract: false, final false
   inline void PresentMissionClearedIfNeeded(::System::Action_1<bool>* finishedCallback);
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelDetailViewController> const& __cordl_internal_get__missionLevelDetailViewController() const;
@@ -177,16 +177,16 @@ public:
 
   constexpr void __cordl_internal_set_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method .ctor, addr 0x3c1e4a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5756ebc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didPressPlayButtonEvent, addr 0x3c1df28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPlayButtonEvent, addr 0x57568a4, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
-  /// @brief Method get_selectedMissionNode, addr 0x3c1e088, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_selectedMissionNode, addr 0x5756a24, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionNode> get_selectedMissionNode();
 
-  /// @brief Method remove_didPressPlayButtonEvent, addr 0x3c1dfd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPlayButtonEvent, addr 0x5756964, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressPlayButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionSelectionNavigationController>>* value);
 
 protected:
@@ -204,7 +204,7 @@ public:
   MissionSelectionNavigationController(MissionSelectionNavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6967 };
 
   /// @brief Field _missionSelectionMapViewController, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionSelectionMapViewController> ____missionSelectionMapViewController;

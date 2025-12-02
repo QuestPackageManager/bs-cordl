@@ -1,17 +1,16 @@
 #pragma once
 // IWYU pragma private; include "BeatmapSaveDataVersion3/BeatmapSaveDataItem.hpp"
-#include "BeatmapSaveDataCommon/zzzz__IBeat_impl.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatmapSaveDataVersion3/zzzz__BeatmapSaveDataItem_def.hpp"
 #include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 //  Writing Method size for method: ::BeatmapSaveDataVersion3::BeatmapSaveDataItem.get_beat
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::BeatmapSaveDataItem::*)()>(
     &::BeatmapSaveDataVersion3::BeatmapSaveDataItem::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270934c;
+  constexpr static std::size_t addrs = 0x363489c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::BeatmapSaveDataItem*>::get(),
@@ -24,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::BeatmapSaveDataItem::*)(float_t)>(
     &::BeatmapSaveDataVersion3::BeatmapSaveDataItem::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2709354;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x36348a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

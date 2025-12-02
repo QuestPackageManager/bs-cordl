@@ -23,13 +23,13 @@ class CORDL_TYPE NativeSliceUnsafeUtility : public ::System::Object {
 public:
   // Declarations
   /// @brief Method ConvertExistingDataToNativeSlice, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> ConvertExistingDataToNativeSlice(::cordl_internals::Ptr<void> dataPointer, int32_t stride, int32_t length);
+  template <typename T> static inline ::Unity::Collections::NativeSlice_1<T> ConvertExistingDataToNativeSlice(void* dataPointer, int32_t stride, int32_t length);
 
   /// @brief Method GetUnsafePtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafePtr(::Unity::Collections::NativeSlice_1<T> nativeSlice);
+  template <typename T> static inline void* GetUnsafePtr(::Unity::Collections::NativeSlice_1<T> nativeSlice);
 
   /// @brief Method GetUnsafeReadOnlyPtr, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> GetUnsafeReadOnlyPtr(::Unity::Collections::NativeSlice_1<T> nativeSlice);
+  template <typename T> static inline void* GetUnsafeReadOnlyPtr(::Unity::Collections::NativeSlice_1<T> nativeSlice);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +46,7 @@ public:
   NativeSliceUnsafeUtility(NativeSliceUnsafeUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10631 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

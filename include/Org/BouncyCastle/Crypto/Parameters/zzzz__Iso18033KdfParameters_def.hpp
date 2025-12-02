@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Iso18033KdfParameters)
+namespace Org::BouncyCastle::Crypto {
+class IDerivationParameters;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Iso18033KdfParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters);
-// Dependencies Org.BouncyCastle.Crypto.IDerivationParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.Iso18033KdfParameters
@@ -26,7 +28,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDerivationParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::IDerivationParameters*() noexcept;
 
-  /// @brief Method GetSeed, addr 0x23bfa04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSeed, addr 0x32edb60, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSeed();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::Iso18033KdfParameters* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
@@ -37,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_seed(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23bf9dc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32edb58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IDerivationParameters"

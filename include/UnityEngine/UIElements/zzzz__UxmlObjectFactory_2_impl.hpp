@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UxmlObjectFactory_2.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseUxmlFactory_2_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IUxmlObjectFactory_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlObjectFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IUxmlObjectFactory_1_def.hpp"
 template <typename TCreatedType, typename TTraits>
 inline TCreatedType UnityEngine::UIElements::UxmlObjectFactory_2<TCreatedType, TTraits>::CreateObject(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {
   auto* ___internal_method =

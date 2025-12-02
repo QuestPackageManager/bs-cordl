@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
 CORDL_MODULE_EXPORT(RemoteActivator)
 namespace System::Runtime::Remoting::Activation {
@@ -21,7 +20,7 @@ class RemoteActivator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivator);
-// Dependencies System.MarshalByRefObject, System.Runtime.Remoting.Activation.IActivator
+// Dependencies System.MarshalByRefObject
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Activation.RemoteActivator
@@ -33,10 +32,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Activation::IActivator"
   constexpr operator ::System::Runtime::Remoting::Activation::IActivator*() noexcept;
 
-  /// @brief Method Activate, addr 0x3ce5434, size 0x360, virtual true, abstract: false, final true
+  /// @brief Method Activate, addr 0x59274bc, size 0x444, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IConstructionReturnMessage* Activate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* msg);
 
-  /// @brief Method get_NextActivator, addr 0x3ce5794, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method get_NextActivator, addr 0x5927900, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Activation::IActivator* get_NextActivator();
 
   /// @brief Convert to "::System::Runtime::Remoting::Activation::IActivator"
@@ -57,7 +56,7 @@ public:
   RemoteActivator(RemoteActivator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

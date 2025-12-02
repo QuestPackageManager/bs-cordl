@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetworkPlayersTableView.hpp"
-#include "HMUI/zzzz__TableView_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPlayersTableView_def.hpp"
@@ -27,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView_CellInfo::*)()>(
     &::GlobalNamespace::NetworkPlayersTableView_CellInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c11788;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5808e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView_CellInfo*>::get(),
@@ -100,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NetworkPlayersTableView::*)(int32_t)>(
     &::GlobalNamespace::NetworkPlayersTableView::CellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c10a04;
+  constexpr static std::size_t addrs = 0x58080bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkPlayersTableView::*)()>(
     &::GlobalNamespace::NetworkPlayersTableView::NumberOfCells)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c10a0c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x58080c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView*>::get(),
@@ -128,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::TableCell> (::GlobalNamespace::NetworkPlayersTableView::*)(::HMUI::TableView*, int32_t)>(
     &::GlobalNamespace::NetworkPlayersTableView::CellForIdx)> {
-  constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x3c10a54;
+  constexpr static std::size_t size = 0x608;
+  constexpr static std::size_t addrs = 0x5808114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, ::StringW)>(&::GlobalNamespace::NetworkPlayersTableView::AddPlayers)> {
-  constexpr static std::size_t size = 0x698;
-  constexpr static std::size_t addrs = 0x3c110f0;
+  constexpr static std::size_t size = 0x648;
+  constexpr static std::size_t addrs = 0x58087e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,8 +160,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)(
     ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>*, ::StringW, ::StringW)>(
     &::GlobalNamespace::NetworkPlayersTableView::SetParties)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3c11ae0;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x58090f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)(::HMUI::TableView*, ::HMUI::TableCell*)>(
     &::GlobalNamespace::NetworkPlayersTableView::HandleCellWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c11c24;
+  constexpr static std::size_t addrs = 0x5809244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,8 +192,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::INetworkPlayer*)>(&::GlobalNamespace::NetworkPlayersTableView::HasVisibleOptions)> {
-  constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x3c11790;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x5808e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,8 +206,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkPlayersTableView::*)()>(&::GlobalNamespace::NetworkPlayersTableView::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c11c28;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5809248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkPlayersTableView*>::get(), ".ctor",

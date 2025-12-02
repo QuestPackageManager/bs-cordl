@@ -20,8 +20,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::IList*, ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(
         &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::ReadRecipientInfo)> {
-  constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x26594fc;
+  constexpr static std::size_t size = 0x530;
+  constexpr static std::size_t addrs = 0x3588b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientInfo*, ::Org::BouncyCastle::Cms::RecipientID*, ::Org::BouncyCastle::Asn1::Asn1OctetString*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26795fc;
+  constexpr static std::size_t addrs = 0x35a8b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +58,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Cms::OriginatorIdentifierOrKey*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetSenderPublicKey)> {
   constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2679644;
+  constexpr static std::size_t addrs = 0x35a8be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,8 +74,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Cms::OriginatorPublicKey*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetPublicKeyFromOriginatorPublicKey)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x267971c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x35a8cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Cms::OriginatorID*)>(&::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetPublicKeyFromOriginatorID)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x26797d8;
+  constexpr static std::size_t addrs = 0x35a8d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,8 +107,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::StringW, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::CalculateAgreedWrapKey)> {
-  constexpr static std::size_t size = 0x3cc;
-  constexpr static std::size_t addrs = 0x2679824;
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x35a8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,8 +125,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::StringW, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(
         &::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::UnwrapSessionKey)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x2679bf0;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x35a91bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::KeyParameter* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetSessionKey)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x2679db0;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x35a9388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KeyAgreeRecipientInformation::GetContentStream)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2679ffc;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x35a95e8;
 
   inline static ::MethodInfo const* methodInfo() {
 

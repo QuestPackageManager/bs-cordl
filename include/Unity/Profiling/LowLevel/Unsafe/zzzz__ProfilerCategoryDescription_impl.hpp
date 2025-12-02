@@ -47,20 +47,20 @@ constexpr int32_t const& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDes
 constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_set_NameUtf8Len(int32_t value) {
   this->___NameUtf8Len = value;
 }
-constexpr ::cordl_internals::Ptr<uint8_t>& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_get_NameUtf8() {
+constexpr uint8_t*& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_get_NameUtf8() {
   return this->___NameUtf8;
 }
-constexpr ::cordl_internals::Ptr<uint8_t> const& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_get_NameUtf8() const {
+constexpr uint8_t* const& Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_get_NameUtf8() const {
   return this->___NameUtf8;
 }
-constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_set_NameUtf8(::cordl_internals::Ptr<uint8_t> value) {
+constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::__cordl_internal_set_NameUtf8(uint8_t* value) {
   this->___NameUtf8 = value;
 }
 // Ctor Parameters [CppParam { name: "Id", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "Flags", ty: "uint16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "Color", ty: "::UnityEngine::Color32", modifiers: "", def_value: Some("{}") }, CppParam { name: "reserved0", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8Len",
-// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("{}") }]
+// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NameUtf8", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
 constexpr ::Unity::Profiling::LowLevel::Unsafe::ProfilerCategoryDescription::ProfilerCategoryDescription(uint16_t Id, uint16_t Flags, ::UnityEngine::Color32 Color, int32_t reserved0,
-                                                                                                         int32_t NameUtf8Len, ::cordl_internals::Ptr<uint8_t> NameUtf8) noexcept {
+                                                                                                         int32_t NameUtf8Len, uint8_t* NameUtf8) noexcept {
   this->Id = Id;
   this->Flags = Flags;
   this->Color = Color;

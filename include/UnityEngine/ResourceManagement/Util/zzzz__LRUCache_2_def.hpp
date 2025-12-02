@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LRUCache_2)
@@ -16,8 +15,14 @@ template <typename T> class LinkedListNode_1;
 namespace System::Collections::Generic {
 template <typename T> class LinkedList_1;
 }
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace UnityEngine::ResourceManagement::Util {
 template <typename TKey, typename TValue> struct LRUCache_2_Entry;
+}
+namespace UnityEngine::ResourceManagement::Util {
+template <typename T> class LinkedListNodeCache_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -29,7 +34,7 @@ template <typename TKey, typename TValue> struct LRUCache_2_Entry;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::Util::LRUCache_2);
 MARK_GEN_VAL_T(::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::ResourceManagement::Util {
 // cpp template
 template <typename TKey, typename TValue>
@@ -60,7 +65,7 @@ public:
   constexpr LRUCache_2_Entry(::System::Collections::Generic::LinkedListNode_1<TKey>* lruNode, TValue Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18687 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -99,26 +104,38 @@ public:
   // @brief default ctor
   constexpr LRUCache_2();
 
-  // Ctor Parameters [CppParam { name: "entryLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cache", ty:
+  // Ctor Parameters [CppParam { name: "requestHits", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "requestCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "entryLimit", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cache", ty:
   // "::System::Collections::Generic::Dictionary_2<TKey,::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry<TKey,TValue>>*", modifiers: "", def_value: None }, CppParam { name: "lru", ty:
-  // "::System::Collections::Generic::LinkedList_1<TKey>*", modifiers: "", def_value: None }]
-  constexpr LRUCache_2(int32_t entryLimit, ::System::Collections::Generic::Dictionary_2<TKey, ::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry<TKey, TValue>>* cache,
-                       ::System::Collections::Generic::LinkedList_1<TKey>* lru) noexcept;
+  // "::System::Collections::Generic::LinkedList_1<TKey>*", modifiers: "", def_value: None }, CppParam { name: "nodeCache", ty: "::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<TKey>*",
+  // modifiers: "", def_value: None }]
+  constexpr LRUCache_2(int32_t requestHits, int32_t requestCount, int32_t entryLimit,
+                       ::System::Collections::Generic::Dictionary_2<TKey, ::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry<TKey, TValue>>* cache,
+                       ::System::Collections::Generic::LinkedList_1<TKey>* lru, ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<TKey>* nodeCache) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15628 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18688 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
 
-  /// @brief Field entryLimit, offset: 0x0, size: 0x4, def value: None
+  /// @brief Field requestHits, offset: 0x0, size: 0x4, def value: None
+  int32_t requestHits;
+
+  /// @brief Field requestCount, offset: 0x4, size: 0x4, def value: None
+  int32_t requestCount;
+
+  /// @brief Field entryLimit, offset: 0x8, size: 0x4, def value: None
   int32_t entryLimit;
 
-  /// @brief Field cache, offset: 0x8, size: 0x8, def value: None
+  /// @brief Field cache, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, ::UnityEngine::ResourceManagement::Util::LRUCache_2_Entry<TKey, TValue>>* cache;
 
-  /// @brief Field lru, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field lru, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<TKey>* lru;
+
+  /// @brief Field nodeCache, offset: 0x20, size: 0x8, def value: None
+  ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<TKey>* nodeCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

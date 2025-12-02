@@ -30,7 +30,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ImageSource {
 public:
   // Declarations
-  /// @brief Method IsNull, addr 0x49d5da8, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6ade0a8, size 0xec, virtual false, abstract: false, final false
   inline bool IsNull();
 
   // Ctor Parameters []
@@ -44,7 +44,7 @@ public:
                         ::UnityW<::UnityEngine::RenderTexture> renderTexture) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5456 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

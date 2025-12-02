@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_Datastore)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ce5e7c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5927fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_HostContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5ee0;
+  constexpr static std::size_t addrs = 0x5928028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::set_HostContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce5ee8;
+  constexpr static std::size_t addrs = 0x5928030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::get_HasUserData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ce5ef0;
+  constexpr static std::size_t addrs = 0x5928038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::FreeNamedDataSlot)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ce5db8;
+  constexpr static std::size_t addrs = 0x5927ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IllogicalCallContext* (
     ::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(&::System::Runtime::Remoting::Messaging::IllogicalCallContext::CreateCopy)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3ce5f1c;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x5928064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::IllogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::IllogicalCallContext::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce6170;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59282a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

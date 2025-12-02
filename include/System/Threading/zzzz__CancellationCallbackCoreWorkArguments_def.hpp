@@ -25,7 +25,7 @@ namespace System::Threading {
 struct CORDL_TYPE CancellationCallbackCoreWorkArguments {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3e50ba0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a95f88, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SparselyPopulatedArrayFragment_1<::System::Threading::CancellationCallbackInfo*>* currArrayFragment, int32_t currArrayIndex);
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
                                                   int32_t _currArrayIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2692 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2701 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

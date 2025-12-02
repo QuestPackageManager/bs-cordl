@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*)>(&::System::SecurityUtils::DemandReflectionAccess)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x440a0c8;
+  constexpr static std::size_t addrs = 0x61583fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::Assembly*)>(&::System::SecurityUtils::DemandGrantSet)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x440a0cc;
+  constexpr static std::size_t addrs = 0x6158400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::SecurityUtils::HasReflectionPermission)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440a0d0;
+  constexpr static std::size_t addrs = 0x6158404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(&::System::SecurityUtils::SecureCreateInstance)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x440a0d8;
+  constexpr static std::size_t addrs = 0x615840c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, bool)>(
     &::System::SecurityUtils::SecureCreateInstance)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x440a0e4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6158418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::System::SecurityUtils::SecureCreateInstance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x440a1d8;
+  constexpr static std::size_t addrs = 0x61584cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +102,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, bool)>(
         &::System::SecurityUtils::SecureConstructorInvoke)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x440a1e0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61584d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,8 +121,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(::System::Type*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>, bool,
                                       ::System::Reflection::BindingFlags)>(&::System::SecurityUtils::SecureConstructorInvoke)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x440a1ec;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x61584dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,8 +139,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MethodInfo*)>(&::System::SecurityUtils::GenericArgumentsAreVisible)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x440a360;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6158644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(::System::Reflection::MethodInfo*, ::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::SecurityUtils::MethodInfoInvoke)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x440a410;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x61586d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

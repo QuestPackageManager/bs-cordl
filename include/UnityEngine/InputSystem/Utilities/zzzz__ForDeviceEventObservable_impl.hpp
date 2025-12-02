@@ -1,9 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/ForDeviceEventObservable.hpp"
-#include "System/zzzz__IObservable_1_impl.hpp"
-#include "System/zzzz__IObserver_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ForDeviceEventObservable_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__IDisposable_def.hpp"
@@ -19,8 +16,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::*)(
     ::System::Type*, ::UnityEngine::InputSystem::InputDevice*, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(
     &::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x456df7c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x62e8d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::*)()>(
     &::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::OnCompleted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x456dfb8;
+  constexpr static std::size_t addrs = 0x62e8d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::*)(::System::Exception*)>(
     &::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::OnError)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x456dfbc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x62e8d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice::OnNext)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x456e014;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x62e8d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,8 +160,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::*)(
     ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*, ::System::Type*, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x456de54;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x62e8c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,8 +178,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IDisposable* (::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::*)(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(
         &::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable::Subscribe)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x456de90;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x62e8c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -20,9 +20,6 @@ template <typename T>
 class CORDL_TYPE MouseCaptureEventBase_1 : public ::UnityEngine::UIElements::PointerCaptureEventBase_1<T> {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Init();
-
   static inline ::UnityEngine::UIElements::MouseCaptureEventBase_1<T>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -43,7 +40,7 @@ public:
   MouseCaptureEventBase_1(MouseCaptureEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4433 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

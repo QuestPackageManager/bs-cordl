@@ -38,21 +38,21 @@ public:
   /// @brief Field _tryHandler, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__tryHandler, put = __cordl_internal_set__tryHandler)) ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* _tryHandler;
 
-  /// @brief Method CreateTryCatch, addr 0x40c4418, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateTryCatch, addr 0x5d738c0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterTryCatchFinallyInstruction* CreateTryCatch();
 
-  /// @brief Method CreateTryFinally, addr 0x40c43b4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method CreateTryFinally, addr 0x5d73868, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Linq::Expressions::Interpreter::EnterTryCatchFinallyInstruction* CreateTryFinally(int32_t labelIndex);
 
   static inline ::System::Linq::Expressions::Interpreter::EnterTryCatchFinallyInstruction* New_ctor(int32_t targetIndex, bool hasFinally);
 
-  /// @brief Method Run, addr 0x40c4478, size 0x4b0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d73914, size 0x4f8, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method SetTryHandler, addr 0x40c436c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTryHandler, addr 0x5d73844, size 0x8, virtual false, abstract: false, final false
   inline void SetTryHandler(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* tryHandler);
 
-  /// @brief Method ToString, addr 0x40c4994, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5d73e88, size 0xac, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr bool const& __cordl_internal_get__hasFinally() const;
@@ -67,16 +67,16 @@ public:
 
   constexpr void __cordl_internal_set__tryHandler(::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* value);
 
-  /// @brief Method .ctor, addr 0x40c4384, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d7385c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t targetIndex, bool hasFinally);
 
-  /// @brief Method get_Handler, addr 0x40c4374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Handler, addr 0x5d7384c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Interpreter::TryCatchFinallyHandler* get_Handler();
 
-  /// @brief Method get_InstructionName, addr 0x40c4928, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5d73e0c, size 0x7c, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedContinuations, addr 0x40c437c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedContinuations, addr 0x5d73854, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedContinuations();
 
 protected:
@@ -94,7 +94,7 @@ public:
   EnterTryCatchFinallyInstruction(EnterTryCatchFinallyInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13788 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16235 };
 
   /// @brief Field _hasFinally, offset: 0x14, size: 0x1, def value: None
   bool ____hasFinally;

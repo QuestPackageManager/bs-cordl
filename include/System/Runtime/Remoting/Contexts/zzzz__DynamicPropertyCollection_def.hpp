@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_Sink(::System::Runtime::Remoting::Contexts::IDynamicMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cdfa38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5921f80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   DynamicPropertyCollection_DynamicPropertyReg(DynamicPropertyCollection_DynamicPropertyReg const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3115 };
 
   /// @brief Field Property, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Contexts::IDynamicProperty* ___Property;
@@ -109,18 +109,18 @@ public:
   /// @brief Field _properties, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__properties, put = __cordl_internal_set__properties)) ::System::Collections::ArrayList* _properties;
 
-  /// @brief Method FindProperty, addr 0x3cdf8d4, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method FindProperty, addr 0x5921e18, size 0x168, virtual false, abstract: false, final false
   inline int32_t FindProperty(::StringW name);
 
   static inline ::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* New_ctor();
 
-  /// @brief Method NotifyMessage, addr 0x3cddbd4, size 0x658, virtual false, abstract: false, final false
+  /// @brief Method NotifyMessage, addr 0x592098c, size 0x5e0, virtual false, abstract: false, final false
   inline void NotifyMessage(bool start, ::System::Runtime::Remoting::Messaging::IMessage* msg, bool client_site, bool async);
 
-  /// @brief Method RegisterDynamicProperty, addr 0x3cdd5ac, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method RegisterDynamicProperty, addr 0x5920334, size 0x304, virtual false, abstract: false, final false
   inline bool RegisterDynamicProperty(::System::Runtime::Remoting::Contexts::IDynamicProperty* prop);
 
-  /// @brief Method UnregisterDynamicProperty, addr 0x3cdd908, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterDynamicProperty, addr 0x59206b4, size 0x178, virtual false, abstract: false, final false
   inline bool UnregisterDynamicProperty(::StringW name);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__properties() const;
@@ -129,10 +129,10 @@ public:
 
   constexpr void __cordl_internal_set__properties(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x3cdda74, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x592082c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasProperties, addr 0x3cdd3a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_HasProperties, addr 0x5920100, size 0x30, virtual false, abstract: false, final false
   inline bool get_HasProperties();
 
 protected:
@@ -150,7 +150,7 @@ public:
   DynamicPropertyCollection(DynamicPropertyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3116 };
 
   /// @brief Field _properties, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____properties;

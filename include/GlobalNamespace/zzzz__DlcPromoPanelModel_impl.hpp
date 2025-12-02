@@ -4,16 +4,13 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_2_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "GlobalNamespace/zzzz__DlcPromoPanelModel_def.hpp"
 #include "BGLib/MetaRemoteAssets/zzzz__MetaRemoteAssetsManager_def.hpp"
-#include "BeatSaber/Init/zzzz__IPlatformInit_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPack_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelsModel_def.hpp"
@@ -38,6 +35,7 @@
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType::PromoInfo_DlcPromoPanelModel_PromoType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -53,8 +51,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel_PromoInfo::*)(
     ::GlobalNamespace::PromoInfo_DlcPromoPanelModel_PromoType, ::StringW, ::GlobalNamespace::PromoBannerInfoSO*, ::GlobalNamespace::PlayerSensitivityFlag)>(
     &::GlobalNamespace::DlcPromoPanelModel_PromoInfo::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26fb1a0;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x3626f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel_PromoInfo::*)(
     ::GlobalNamespace::PackPromoInfoSO_LevelPromoInfo*, ::GlobalNamespace::PlayerSensitivityFlag)>(&::GlobalNamespace::DlcPromoPanelModel_PromoInfo::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26fb204;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x3626f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,8 +184,8 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel_PromoInfo::DlcPromoPanelModel_Pr
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fb2c4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3626fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(), ".ctor",
@@ -195,43 +193,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c.__ctor_b__25_0
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c.__ctor_b__24_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__25_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__24_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26fb2cc;
+  constexpr static std::size_t addrs = 0x3626fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(),
-                                                                               "<.ctor>b__25_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<.ctor>b__24_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c.__ctor_b__25_1
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c.__ctor_b__24_1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__25_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c::*)()>(&::GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__24_1)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26fb2d0;
+  constexpr static std::size_t addrs = 0x3626fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(),
-                                                                               "<.ctor>b__25_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "<.ctor>b__24_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c._UpdatePromoInfosAsync_b__32_0
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c._UpdatePromoInfosAsync_b__31_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c::*)(::GlobalNamespace::PackDefinitionSO*)>(
-    &::GlobalNamespace::DlcPromoPanelModel___c::_UpdatePromoInfosAsync_b__32_0)> {
+    &::GlobalNamespace::DlcPromoPanelModel___c::_UpdatePromoInfosAsync_b__31_0)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26fb2d4;
+  constexpr static std::size_t addrs = 0x3626fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(), "<UpdatePromoInfosAsync>b__32_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(), "<UpdatePromoInfosAsync>b__31_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PackDefinitionSO*>::get() })));
     return ___internal_method;
   }
@@ -244,27 +242,27 @@ inline ::GlobalNamespace::DlcPromoPanelModel___c* GlobalNamespace::DlcPromoPanel
   return ::cordl_internals::getStaticField<::GlobalNamespace::DlcPromoPanelModel___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>();
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c::setStaticF___9__25_0(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__25_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>(
+inline void GlobalNamespace::DlcPromoPanelModel___c::setStaticF___9__24_0(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__24_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>(
       std::forward<::System::Action*>(value));
 }
-inline ::System::Action* GlobalNamespace::DlcPromoPanelModel___c::getStaticF___9__25_0() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__25_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>();
+inline ::System::Action* GlobalNamespace::DlcPromoPanelModel___c::getStaticF___9__24_0() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__24_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>();
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c::setStaticF___9__25_1(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "<>9__25_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>(
+inline void GlobalNamespace::DlcPromoPanelModel___c::setStaticF___9__24_1(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "<>9__24_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>(
       std::forward<::System::Action*>(value));
 }
-inline ::System::Action* GlobalNamespace::DlcPromoPanelModel___c::getStaticF___9__25_1() {
-  return ::cordl_internals::getStaticField<::System::Action*, "<>9__25_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>();
+inline ::System::Action* GlobalNamespace::DlcPromoPanelModel___c::getStaticF___9__24_1() {
+  return ::cordl_internals::getStaticField<::System::Action*, "<>9__24_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>();
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c::setStaticF___9__32_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>*, "<>9__32_0",
+inline void GlobalNamespace::DlcPromoPanelModel___c::setStaticF___9__31_0(::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>*, "<>9__31_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>(
       std::forward<::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>*>(value));
 }
-inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* GlobalNamespace::DlcPromoPanelModel___c::getStaticF___9__32_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>*, "<>9__32_0",
+inline ::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>* GlobalNamespace::DlcPromoPanelModel___c::getStaticF___9__31_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityW<::GlobalNamespace::PackDefinitionSO>, bool>*, "<>9__31_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get>();
 }
 inline void GlobalNamespace::DlcPromoPanelModel___c::_ctor() {
@@ -272,19 +270,19 @@ inline void GlobalNamespace::DlcPromoPanelModel___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__25_0() {
+inline void GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__24_0() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(),
-                                                                             "<.ctor>b__25_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<.ctor>b__24_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__25_1() {
+inline void GlobalNamespace::DlcPromoPanelModel___c::__ctor_b__24_1() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(),
-                                                                             "<.ctor>b__25_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "<.ctor>b__24_1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::DlcPromoPanelModel___c::_UpdatePromoInfosAsync_b__32_0(::GlobalNamespace::PackDefinitionSO* packDefinition) {
+inline bool GlobalNamespace::DlcPromoPanelModel___c::_UpdatePromoInfosAsync_b__31_0(::GlobalNamespace::PackDefinitionSO* packDefinition) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(), "<UpdatePromoInfosAsync>b__32_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c*>::get(), "<UpdatePromoInfosAsync>b__31_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PackDefinitionSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, packDefinition);
 }
@@ -293,146 +291,146 @@ inline ::GlobalNamespace::DlcPromoPanelModel___c* GlobalNamespace::DlcPromoPanel
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::DlcPromoPanelModel___c::DlcPromoPanelModel___c() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26fa954;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x36265f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0._GetPackDataForMainMenuPromoBannerInternal_b__0
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0._GetPackDataForMainMenuPromoBannerInternal_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::*)(
-    ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::_GetPackDataForMainMenuPromoBannerInternal_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26fb2fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::*)(
+    ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::_GetPackDataForMainMenuPromoBannerInternal_b__0)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3626ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>::get(),
                                     "<GetPackDataForMainMenuPromoBannerInternal>b__0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0._GetPackDataForMainMenuPromoBannerInternal_b__1
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0._GetPackDataForMainMenuPromoBannerInternal_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::*)(
-    ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::_GetPackDataForMainMenuPromoBannerInternal_b__1)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26fb320;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::*)(
+    ::GlobalNamespace::DlcPromoPanelModel_PromoInfo*)>(&::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::_GetPackDataForMainMenuPromoBannerInternal_b__1)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3627014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>::get(),
                                     "<GetPackDataForMainMenuPromoBannerInternal>b__1", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::__cordl_internal_get_sensitivityFlag() {
+constexpr ::GlobalNamespace::PlayerSensitivityFlag& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::__cordl_internal_get_sensitivityFlag() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sensitivityFlag;
 }
-constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::__cordl_internal_get_sensitivityFlag() const {
+constexpr ::GlobalNamespace::PlayerSensitivityFlag const& GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::__cordl_internal_get_sensitivityFlag() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___sensitivityFlag;
 }
-constexpr void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::__cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value) {
+constexpr void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::__cordl_internal_set_sensitivityFlag(::GlobalNamespace::PlayerSensitivityFlag value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___sensitivityFlag = value;
 }
-inline void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::_ctor() {
+inline void GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::_GetPackDataForMainMenuPromoBannerInternal_b__0(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
+inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::_GetPackDataForMainMenuPromoBannerInternal_b__0(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>::get(), "<GetPackDataForMainMenuPromoBannerInternal>b__0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>::get(), "<GetPackDataForMainMenuPromoBannerInternal>b__0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::_GetPackDataForMainMenuPromoBannerInternal_b__1(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
+inline bool GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::_GetPackDataForMainMenuPromoBannerInternal_b__1(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>::get(), "<GetPackDataForMainMenuPromoBannerInternal>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>::get(), "<GetPackDataForMainMenuPromoBannerInternal>b__1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
-inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0* GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0*>());
+inline ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0* GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass35_0::DlcPromoPanelModel___c__DisplayClass35_0() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel___c__DisplayClass34_0::DlcPromoPanelModel___c__DisplayClass34_0() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::MoveNext)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x26fb344;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::MoveNext)> {
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x3627034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26fb5a0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x36272a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*,bool>>", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter",
 // modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>> __t__builder,
     ::GlobalNamespace::DlcPromoPanelModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -441,64 +439,64 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBann
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__34() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33::DlcPromoPanelModel__GetPackDataForMainMenuPromoBanner_d__33() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::MoveNext)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26fb61c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::MoveNext)> {
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x3627320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43>::get(),
                                     "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26fb844;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3627564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::MoveNext() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44>::get(), "MoveNext",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43>::get(), "MoveNext",
                                   std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -507,64 +505,64 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDid
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__44() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43::DlcPromoPanelModel__HandleAdditionalContentModelDidInvalidateData_d__43() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::MoveNext)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x26fb850;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::MoveNext)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x362756c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26fbaf4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3627838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -573,59 +571,59 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d_
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__30() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29::DlcPromoPanelModel__HandleDidCatalogLoadOrUpdate_d__29() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::MoveNext)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x26fbb00;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::MoveNext)> {
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x3627840;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26fbd38;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3627a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26>::get(),
+inline void GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::DlcPromoPanelModel__Initialize_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+constexpr ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::DlcPromoPanelModel__Initialize_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                                                         ::GlobalNamespace::DlcPromoPanelModel* __4__this,
                                                                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -634,128 +632,126 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::DlcPromoPanel
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__26::DlcPromoPanelModel__Initialize_d__26() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__Initialize_d__25::DlcPromoPanelModel__Initialize_d__25() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::MoveNext)> {
-  constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x26fbd44;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::MoveNext)> {
+  constexpr static std::size_t size = 0x560;
+  constexpr static std::size_t addrs = 0x3627a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26fc3ac;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3627ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<bool>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::DlcPromoPanelModel__InitializeInternalAsync_d__28(
+// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::DlcPromoPanelModel__InitializeInternalAsync_d__27(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
-    ::System::Runtime::CompilerServices::TaskAwaiter __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__2) noexcept {
+    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
-  this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__28::DlcPromoPanelModel__InitializeInternalAsync_d__28() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__InitializeInternalAsync_d__27::DlcPromoPanelModel__InitializeInternalAsync_d__27() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::MoveNext)> {
-  constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x26fc414;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::MoveNext)> {
+  constexpr static std::size_t size = 0x44c;
+  constexpr static std::size_t addrs = 0x3628068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26fc7f8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x36284b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>", modifiers: "", def_value: Some("{}") }, CppParam { name: "pack", ty:
 // "::UnityW<::GlobalNamespace::PackDefinitionSO>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>> __t__builder, ::UnityW<::GlobalNamespace::PackDefinitionSO> pack,
     ::GlobalNamespace::DlcPromoPanelModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -765,65 +761,65 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::D
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__33() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32::DlcPromoPanelModel__LoadPackPromoInfoAsync_d__32() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::MoveNext)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x26fc874;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::MoveNext)> {
+  constexpr static std::size_t size = 0x3e0;
+  constexpr static std::size_t addrs = 0x3628534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26fcc0c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3628914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>>", modifiers: "", def_value: Some("{}")
 // }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::GlobalNamespace::DlcPromoPanelDataSO>> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -832,61 +828,61 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d_
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__31() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30::DlcPromoPanelModel__UpdateDlcPromoPanelDataAsync_d__30() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::MoveNext)> {
-  constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x26fcc74;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::MoveNext)> {
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x3628980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26fcfc0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3628ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::DlcPromoPanelModel*", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::DlcPromoPanelModel__UpdateModelDataAsync_d__29(int32_t __1__state,
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::DlcPromoPanelModel__UpdateModelDataAsync_d__28(int32_t __1__state,
                                                                                                                             ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                                                             ::GlobalNamespace::DlcPromoPanelModel* __4__this,
                                                                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
@@ -896,55 +892,55 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::Dlc
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__29::DlcPromoPanelModel__UpdateModelDataAsync_d__29() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateModelDataAsync_d__28::DlcPromoPanelModel__UpdateModelDataAsync_d__28() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::MoveNext)> {
-  constexpr static std::size_t size = 0x870;
-  constexpr static std::size_t addrs = 0x26fd028;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::MoveNext)> {
+  constexpr static std::size_t size = 0x888;
+  constexpr static std::size_t addrs = 0x3628d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26fd898;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x362959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -954,7 +950,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // def_value: Some("{}") }, CppParam { name: "_allPromoInfos_5__4", ty: "::ArrayW<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*,::Array<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>*>",
 // modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::GlobalNamespace::EntitlementStatus,::Array<::GlobalNamespace::EntitlementStatus>*>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
     ::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* _newNotOwnedMusicPackPromoInfos_5__2,
     ::System::Collections::Generic::List_1<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*>* _newOwnedMusicPackPromoInfos_5__3,
@@ -969,55 +965,55 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::Dl
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__43() {}
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32.MoveNext
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42::DlcPromoPanelModel__UpdateOwnedPacksAsync_d__42() {}
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::*)()>(
-    &::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::MoveNext)> {
-  constexpr static std::size_t size = 0xb48;
-  constexpr static std::size_t addrs = 0x26fd900;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::*)()>(
+    &::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::MoveNext)> {
+  constexpr static std::size_t size = 0xbc4;
+  constexpr static std::size_t addrs = 0x3629608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26fe448;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x362a1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::MoveNext() {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -1026,7 +1022,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::PackPromoInfoSO>,::Array<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*>>", modifiers: "", def_value:
 // Some("{}") }]
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32(
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::DlcPromoPanelModel* __4__this,
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _validPackDefinitions_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::ArrayW<::UnityW<::GlobalNamespace::PackPromoInfoSO>, ::Array<::UnityW<::GlobalNamespace::PackPromoInfoSO>>*>> __u__1) noexcept {
@@ -1037,14 +1033,14 @@ constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::Dl
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32::DlcPromoPanelModel__UpdatePromoInfosAsync_d__32() {}
+constexpr ::GlobalNamespace::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31::DlcPromoPanelModel__UpdatePromoInfosAsync_d__31() {}
 //  Writing Method size for method: ::GlobalNamespace::DlcPromoPanelModel.add_hotReloadDidStart
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Action*)>(
     &::GlobalNamespace::DlcPromoPanelModel::add_hotReloadDidStart)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f9ad8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x36257d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1058,8 +1054,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Action*)>(
     &::GlobalNamespace::DlcPromoPanelModel::remove_hotReloadDidStart)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f9b74;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x3625880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1073,8 +1069,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Action*)>(
     &::GlobalNamespace::DlcPromoPanelModel::add_hotReloadDidFinish)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f9c10;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x362592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1088,8 +1084,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::System::Action*)>(
     &::GlobalNamespace::DlcPromoPanelModel::remove_hotReloadDidFinish)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26f9cac;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x36259d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1103,19 +1099,18 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(
     ::GlobalNamespace::IAdditionalContentModel*, ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::IAnalyticsModel*, ::GlobalNamespace::DlcPromoPanelDataSO*,
-    ::GlobalNamespace::PlayerDataModel*, ::BeatSaber::Init::IPlatformInit*, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*)>(&::GlobalNamespace::DlcPromoPanelModel::_ctor)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x26f9d48;
+    ::GlobalNamespace::PlayerDataModel*, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*)>(&::GlobalNamespace::DlcPromoPanelModel::_ctor)> {
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x3625a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentModel*>::get(),
+                                    ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentModel*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAnalyticsModel*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DlcPromoPanelDataSO*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::Init::IPlatformInit*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get() })));
     return ___internal_method;
   }
@@ -1124,8 +1119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::Initialize)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26f9fd8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3625cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(), "Initialize",
@@ -1139,7 +1134,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::InitializeAsync)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26fa068;
+  constexpr static std::size_t addrs = 0x3625d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(), "InitializeAsync",
@@ -1152,8 +1147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::InitializeInternalAsync)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26fa08c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3625d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(),
@@ -1166,8 +1161,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdateModelDataAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x26fa150;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3625e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(),
@@ -1180,8 +1175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::HandleDidCatalogLoadOrUpdate)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26fa210;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3625ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(),
@@ -1194,8 +1189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdateDlcPromoPanelDataAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x26fa2a0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3625f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(),
@@ -1208,8 +1203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdatePromoInfosAsync)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26fa360;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3626028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(),
@@ -1222,8 +1217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* (
     ::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::PackDefinitionSO*)>(&::GlobalNamespace::DlcPromoPanelModel::LoadPackPromoInfoAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x26fa424;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x36260dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1237,8 +1232,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool>>* (
     ::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBanner)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x26fa510;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x36261cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1252,8 +1247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<::GlobalNamespace::DlcPromoPanelModel_PromoInfo*, bool> (
     ::GlobalNamespace::DlcPromoPanelModel::*)()>(&::GlobalNamespace::DlcPromoPanelModel::GetPackDataForMainMenuPromoBannerInternal)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x26fa5f4;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x36262a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1267,8 +1262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasShown)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x26fa95c;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x36265fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1282,8 +1277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::MainMenuDlcPromoBannerWasPressed)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x26fab90;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x36268a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1297,8 +1292,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevel*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasPressed)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26fac8c;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x36269ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1313,8 +1308,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevel*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyLevelButtonWasShown)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26fad7c;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3626aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1329,8 +1324,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasPressed)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26fae6c;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3626bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1345,8 +1340,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)(::GlobalNamespace::BeatmapLevelPack*, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::BuyPackButtonWasShown)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x26faf5c;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3626cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1361,8 +1356,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)(::StringW, ::StringW, ::StringW)>(
     &::GlobalNamespace::DlcPromoPanelModel::GetExperimentEventData)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x26faa78;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x3626724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1377,8 +1372,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::UpdateOwnedPacksAsync)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x26fb04c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3626dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(),
@@ -1391,8 +1386,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DlcPromoPanelModel::*)()>(
     &::GlobalNamespace::DlcPromoPanelModel::HandleAdditionalContentModelDidInvalidateData)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26fb110;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3626e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1460,18 +1455,6 @@ constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& GlobalNamespace::D
 constexpr void GlobalNamespace::DlcPromoPanelModel::__cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____playerDataModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::BeatSaber::Init::IPlatformInit*& GlobalNamespace::DlcPromoPanelModel::__cordl_internal_get__platformInit() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformInit;
-}
-constexpr ::BeatSaber::Init::IPlatformInit* const& GlobalNamespace::DlcPromoPanelModel::__cordl_internal_get__platformInit() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformInit;
-}
-constexpr void GlobalNamespace::DlcPromoPanelModel::__cordl_internal_set__platformInit(::BeatSaber::Init::IPlatformInit* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformInit)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*& GlobalNamespace::DlcPromoPanelModel::__cordl_internal_get__metaRemoteAssetsManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -1679,18 +1662,16 @@ inline void GlobalNamespace::DlcPromoPanelModel::remove_hotReloadDidFinish(::Sys
 }
 inline void GlobalNamespace::DlcPromoPanelModel::_ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
                                                        ::GlobalNamespace::IAnalyticsModel* analyticsModel, ::GlobalNamespace::DlcPromoPanelDataSO* defaultDlcPromoPanelData,
-                                                       ::GlobalNamespace::PlayerDataModel* playerDataModel, ::BeatSaber::Init::IPlatformInit* platformInit,
-                                                       ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager) {
+                                                       ::GlobalNamespace::PlayerDataModel* playerDataModel, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DlcPromoPanelModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentModel*>::get(),
+                                  ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAdditionalContentModel*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IAnalyticsModel*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::DlcPromoPanelDataSO*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerDataModel*>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatSaber::Init::IPlatformInit*>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, additionalContentModel, beatmapLevelsModel, analyticsModel, defaultDlcPromoPanelData, playerDataModel, platformInit,
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, additionalContentModel, beatmapLevelsModel, analyticsModel, defaultDlcPromoPanelData, playerDataModel,
                                                           metaRemoteAssetsManager);
 }
 inline void GlobalNamespace::DlcPromoPanelModel::Initialize() {
@@ -1804,14 +1785,12 @@ inline void GlobalNamespace::DlcPromoPanelModel::HandleAdditionalContentModelDid
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DlcPromoPanelModel* GlobalNamespace::DlcPromoPanelModel::New_ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel,
-                                                                                            ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
-                                                                                            ::GlobalNamespace::IAnalyticsModel* analyticsModel,
-                                                                                            ::GlobalNamespace::DlcPromoPanelDataSO* defaultDlcPromoPanelData,
-                                                                                            ::GlobalNamespace::PlayerDataModel* playerDataModel, ::BeatSaber::Init::IPlatformInit* platformInit,
-                                                                                            ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager) {
+inline ::GlobalNamespace::DlcPromoPanelModel*
+GlobalNamespace::DlcPromoPanelModel::New_ctor(::GlobalNamespace::IAdditionalContentModel* additionalContentModel, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
+                                              ::GlobalNamespace::IAnalyticsModel* analyticsModel, ::GlobalNamespace::DlcPromoPanelDataSO* defaultDlcPromoPanelData,
+                                              ::GlobalNamespace::PlayerDataModel* playerDataModel, ::BGLib::MetaRemoteAssets::MetaRemoteAssetsManager* metaRemoteAssetsManager) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::DlcPromoPanelModel*>(additionalContentModel, beatmapLevelsModel, analyticsModel, defaultDlcPromoPanelData, playerDataModel,
-                                                                                          platformInit, metaRemoteAssetsManager));
+                                                                                          metaRemoteAssetsManager));
 }
 /// @brief Convert operator to "::Zenject::IInitializable"
 constexpr GlobalNamespace::DlcPromoPanelModel::operator ::Zenject::IInitializable*() noexcept {

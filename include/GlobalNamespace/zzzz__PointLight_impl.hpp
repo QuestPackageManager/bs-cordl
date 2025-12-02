@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::PointLight>>* (*)()>(
     &::GlobalNamespace::PointLight::get_lights)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39dddcc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x56552f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PointLight*>::get(), "get_lights",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PointLight::*)()>(&::GlobalNamespace::PointLight::OnEnable)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39dde24;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5655350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PointLight*>::get(), "OnEnable",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PointLight::*)()>(&::GlobalNamespace::PointLight::OnDisable)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x39ddef0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5655424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PointLight*>::get(), "OnDisable",
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PointLight::*)()>(&::GlobalNamespace::PointLight::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ddf70;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56554ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PointLight*>::get(), ".ctor",

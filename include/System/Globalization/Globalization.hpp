@@ -45,6 +45,7 @@ module;
 #include "System/Globalization/RegionInfo.hpp"
 #include "System/Globalization/SortKey.hpp"
 #include "System/Globalization/SortVersion.hpp"
+#include "System/Globalization/StringInfo.hpp"
 #include "System/Globalization/TaiwanCalendar.hpp"
 #include "System/Globalization/TextInfo.hpp"
 #include "System/Globalization/TextInfoToLowerData.hpp"

@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::Start)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39bfd54;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x563a850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), "Start",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::Update)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39bfdc8;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x563a8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), "Update",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::RefreshText)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x39bfe58;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x563a98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), "RefreshText",
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DroppedFramesLabel::*)()>(&::GlobalNamespace::DroppedFramesLabel::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39bffc0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x563aaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DroppedFramesLabel*>::get(), ".ctor",

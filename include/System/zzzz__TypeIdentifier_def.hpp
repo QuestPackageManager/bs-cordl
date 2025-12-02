@@ -3,10 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__TypeName_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeIdentifier)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class TypeName;
 }
@@ -16,7 +17,7 @@ class TypeIdentifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::TypeIdentifier);
-// Dependencies System.IEquatable`1<T>, System.TypeName
+// Dependencies
 namespace System {
 // Is value type: false
 // CS Name: System.TypeIdentifier
@@ -45,7 +46,7 @@ public:
   TypeIdentifier(TypeIdentifier const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2630 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2638 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

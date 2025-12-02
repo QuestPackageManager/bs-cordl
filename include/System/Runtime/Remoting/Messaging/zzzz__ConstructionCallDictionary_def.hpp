@@ -28,15 +28,15 @@ public:
   /// @brief Field InternalKeys, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_InternalKeys, put = setStaticF_InternalKeys)) ::ArrayW<::StringW, ::Array<::StringW>*> InternalKeys;
 
-  /// @brief Method GetMethodProperty, addr 0x3cebad8, size 0x3cc, virtual true, abstract: false, final false
+  /// @brief Method GetMethodProperty, addr 0x592db2c, size 0x3d8, virtual true, abstract: false, final false
   inline ::System::Object* GetMethodProperty(::StringW key);
 
   static inline ::System::Runtime::Remoting::Messaging::ConstructionCallDictionary* New_ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
-  /// @brief Method SetMethodProperty, addr 0x3cec408, size 0x268, virtual true, abstract: false, final false
+  /// @brief Method SetMethodProperty, addr 0x592e4b0, size 0x270, virtual true, abstract: false, final false
   inline void SetMethodProperty(::StringW key, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3ceab28, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x592cbc8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Activation::IConstructionCallMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalKeys();
@@ -58,7 +58,7 @@ public:
   ConstructionCallDictionary(ConstructionCallDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3160 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3177 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

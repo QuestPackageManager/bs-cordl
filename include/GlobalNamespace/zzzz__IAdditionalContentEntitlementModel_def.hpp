@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IAdditionalContentEntitlementModel)
 namespace GlobalNamespace {
@@ -11,6 +10,9 @@ struct BeatmapLevelDataVersion;
 }
 namespace GlobalNamespace {
 struct EntitlementStatus;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -24,7 +26,7 @@ class IAdditionalContentEntitlementModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IAdditionalContentEntitlementModel);
-// Dependencies IAdditionalContentModel
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IAdditionalContentEntitlementModel
@@ -33,6 +35,9 @@ public:
   // Declarations
   /// @brief Convert operator to "::GlobalNamespace::IAdditionalContentModel"
   constexpr operator ::GlobalNamespace::IAdditionalContentModel*() noexcept;
+
+  /// @brief Method GetExcludedLevelIdsAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
 
   /// @brief Method GetLevelDataVersionAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionAsync(::StringW levelId, ::System::Threading::CancellationToken token);
@@ -51,7 +56,7 @@ public:
   IAdditionalContentEntitlementModel(IAdditionalContentEntitlementModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12760 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14733 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

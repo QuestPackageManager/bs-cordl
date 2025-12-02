@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::OriginatorInformation::*)(::Org::BouncyCastle::Asn1::Cms::OriginatorInfo*)>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x267c21c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35ab6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::OriginatorInformation::*)()>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::GetCertificates)> {
-  constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x267c244;
+  constexpr static std::size_t size = 0x508;
+  constexpr static std::size_t addrs = 0x35ab6b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::Store::IX509Store* (::Org::BouncyCastle::Cms::OriginatorInformation::*)()>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::GetCrls)> {
-  constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x267c724;
+  constexpr static std::size_t size = 0x508;
+  constexpr static std::size_t addrs = 0x35abbc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* (::Org::BouncyCastle::Cms::OriginatorInformation::*)()>(
     &::Org::BouncyCastle::Cms::OriginatorInformation::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x267cc04;
+  constexpr static std::size_t addrs = 0x35ac0c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

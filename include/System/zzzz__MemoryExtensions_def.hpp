@@ -29,14 +29,17 @@ namespace System {
 class CORDL_TYPE MemoryExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AsSpan, addr 0x3ded910, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x5a34340, size 0x58, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text);
 
-  /// @brief Method AsSpan, addr 0x3ded968, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x5a34398, size 0x80, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text, int32_t start);
 
-  /// @brief Method AsSpan, addr 0x3ded9f4, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method AsSpan, addr 0x5a34418, size 0x94, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> AsSpan(::StringW text, int32_t start, int32_t length);
+
+  /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline ::System::Span_1<T> AsSpan(::ArrayW<T, ::Array<T>*> array);
 
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Span_1<T> AsSpan(::ArrayW<T, ::Array<T>*> array, int32_t start);
@@ -44,7 +47,7 @@ public:
   /// @brief Method AsSpan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Span_1<T> AsSpan(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
 
-  /// @brief Method Contains, addr 0x3ded4b0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x5a33df4, size 0xa4, virtual false, abstract: false, final false
   static inline bool Contains(::System::ReadOnlySpan_1<char16_t> source, char16_t value);
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -53,17 +56,23 @@ public:
   /// @brief Method EndsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool EndsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value);
 
-  /// @brief Method EndsWith, addr 0x3ded69c, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method EndsWith, addr 0x5a34030, size 0x310, virtual false, abstract: false, final false
   static inline bool EndsWith(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value, ::System::StringComparison comparisonType);
 
-  /// @brief Method EqualsOrdinal, addr 0x3ded368, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method EqualsOrdinal, addr 0x5a33c3c, size 0xf8, virtual false, abstract: false, final false
   static inline bool EqualsOrdinal(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method EqualsOrdinalIgnoreCase, addr 0x3ded404, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method EqualsOrdinalIgnoreCase, addr 0x5a33d34, size 0xc0, virtual false, abstract: false, final false
   static inline bool EqualsOrdinalIgnoreCase(::System::ReadOnlySpan_1<char16_t> span, ::System::ReadOnlySpan_1<char16_t> value);
 
   /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOf(::System::ReadOnlySpan_1<T> span, T value);
+
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline int32_t IndexOf(::System::Span_1<T> span, ::System::ReadOnlySpan_1<T> value);
+
+  /// @brief Method IndexOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline int32_t IndexOf(::System::Span_1<T> span, T value);
 
   /// @brief Method IndexOfAny, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t IndexOfAny(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> values);
@@ -77,16 +86,16 @@ public:
   /// @brief Method StartsWith, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool StartsWith(::System::ReadOnlySpan_1<T> span, ::System::ReadOnlySpan_1<T> value);
 
-  /// @brief Method ToUpperInvariant, addr 0x3ded544, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method ToUpperInvariant, addr 0x5a33e98, size 0x198, virtual false, abstract: false, final false
   static inline int32_t ToUpperInvariant(::System::ReadOnlySpan_1<char16_t> source, ::System::Span_1<char16_t> destination);
 
-  /// @brief Method Trim, addr 0x3de4dcc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Trim, addr 0x5a2aadc, size 0x10, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> Trim(::System::ReadOnlySpan_1<char16_t> span);
 
-  /// @brief Method TrimEnd, addr 0x3dedb88, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method TrimEnd, addr 0x5a3459c, size 0x104, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimEnd(::System::ReadOnlySpan_1<char16_t> span);
 
-  /// @brief Method TrimStart, addr 0x3deda94, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method TrimStart, addr 0x5a344ac, size 0xf0, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<char16_t> TrimStart(::System::ReadOnlySpan_1<char16_t> span);
 
 protected:
@@ -104,7 +113,7 @@ public:
   MemoryExtensions(MemoryExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2443 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

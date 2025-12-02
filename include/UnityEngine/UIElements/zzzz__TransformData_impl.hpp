@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TransformData.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Scale_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformOrigin_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Translate_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TransformData_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TransformData.Copy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TransformData (::UnityEngine::UIElements::TransformData::*)()>(
     &::UnityEngine::UIElements::TransformData::Copy)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a82d04;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6a5ab18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TransformData>::get(), "Copy",
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TransformData::*)(::ByRef<::UnityEngine::UIElements::TransformData>)>(
     &::UnityEngine::UIElements::TransformData::CopyFrom)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a82d20;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5ab28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TransformData, ::UnityEngine::UIElements::TransformData)>(
     &::UnityEngine::UIElements::TransformData::op_Equality)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4a82d34;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6a5ab30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransformData::*)(::UnityEngine::UIElements::TransformData)>(
     &::UnityEngine::UIElements::TransformData::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a83070;
+  constexpr static std::size_t addrs = 0x6a5ae80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TransformData::*)(::System::Object*)>(
     &::UnityEngine::UIElements::TransformData::Equals)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a830b4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6a5aec4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::TransformData::*)()>(&::UnityEngine::UIElements::TransformData::GetHashCode)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a83154;
+  constexpr static std::size_t addrs = 0x6a5af68;
 
   inline static ::MethodInfo const* methodInfo() {
 

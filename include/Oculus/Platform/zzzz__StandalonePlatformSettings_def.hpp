@@ -21,25 +21,25 @@ public:
   // Declarations
   static inline ::Oculus::Platform::StandalonePlatformSettings* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3f8d75c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd71f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_OculusPlatformTestUserAccessToken, addr 0x3f8d710, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_OculusPlatformTestUserAccessToken, addr 0x5bd71dc, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW get_OculusPlatformTestUserAccessToken();
 
-  /// @brief Method get_OculusPlatformTestUserEmail, addr 0x3f8d678, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_OculusPlatformTestUserEmail, addr 0x5bd71ac, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW get_OculusPlatformTestUserEmail();
 
-  /// @brief Method get_OculusPlatformTestUserPassword, addr 0x3f8d6c4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_OculusPlatformTestUserPassword, addr 0x5bd71c4, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW get_OculusPlatformTestUserPassword();
 
-  /// @brief Method set_OculusPlatformTestUserAccessToken, addr 0x3f8d758, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_OculusPlatformTestUserAccessToken, addr 0x5bd71f0, size 0x4, virtual false, abstract: false, final false
   static inline void set_OculusPlatformTestUserAccessToken(::StringW value);
 
-  /// @brief Method set_OculusPlatformTestUserEmail, addr 0x3f8d6c0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_OculusPlatformTestUserEmail, addr 0x5bd71c0, size 0x4, virtual false, abstract: false, final false
   static inline void set_OculusPlatformTestUserEmail(::StringW value);
 
-  /// @brief Method set_OculusPlatformTestUserPassword, addr 0x3f8d70c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_OculusPlatformTestUserPassword, addr 0x5bd71d8, size 0x4, virtual false, abstract: false, final false
   static inline void set_OculusPlatformTestUserPassword(::StringW value);
 
 protected:
@@ -57,7 +57,7 @@ public:
   StandalonePlatformSettings(StandalonePlatformSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17942 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,7 +3,6 @@
 #include "Newtonsoft/Json/Linq/zzzz__JValue_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JRaw_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JRaw_def.hpp"
@@ -21,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JRaw__CreateAsync_d__0::*)()>(
     &::Newtonsoft::Json::Linq::JRaw__CreateAsync_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x5ec;
-  constexpr static std::size_t addrs = 0x3f1e9c8;
+  constexpr static std::size_t size = 0x574;
+  constexpr static std::size_t addrs = 0x5b65784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JRaw__CreateAsync_d__0>::get(),
@@ -35,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JRaw__CreateAsync_d__0::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::Newtonsoft::Json::Linq::JRaw__CreateAsync_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f1efb4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5b65cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JRaw*>* (*)(::Newtonsoft::Json::JsonReader*, ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Linq::JRaw::CreateAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3f1e4d0;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5b65310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JRaw::*)(::Newtonsoft::Json::Linq::JRaw*)>(&::Newtonsoft::Json::Linq::JRaw::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f1e5bc;
+  constexpr static std::size_t addrs = 0x5b65400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Newtonsoft::Json::Linq::JRaw::*)(::Newtonsoft::Json::Linq::JRaw*, ::Newtonsoft::Json::Linq::JsonCloneSettings*)>(&::Newtonsoft::Json::Linq::JRaw::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f1e5c8;
+  constexpr static std::size_t addrs = 0x5b6540c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JRaw::*)(::System::Object*)>(&::Newtonsoft::Json::Linq::JRaw::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f1e5d0;
+  constexpr static std::size_t addrs = 0x5b65414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -148,8 +147,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JRaw* (*)(::Newtonsoft::Json::JsonReader*)>(&::Newtonsoft::Json::Linq::JRaw::Create)> {
-  constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x3f1e5dc;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x5b65420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JRaw::*)(::Newtonsoft::Json::Linq::JsonCloneSettings*)>(
     &::Newtonsoft::Json::Linq::JRaw::CloneToken)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f1e95c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b65714;
 
   inline static ::MethodInfo const* methodInfo() {
 

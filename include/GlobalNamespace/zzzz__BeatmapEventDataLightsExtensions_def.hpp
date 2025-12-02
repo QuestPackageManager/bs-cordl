@@ -47,7 +47,7 @@ public:
   BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues(BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20962 };
 
   /// @brief Field kFadeA offset 0xffffffff size 0x4
   static constexpr int32_t kFadeA{ static_cast<int32_t>(0x4) };
@@ -106,19 +106,19 @@ public:
   // Declarations
   using LightSwitchEventEffectDataValues = ::GlobalNamespace::BeatmapEventDataLightsExtensions_LightSwitchEventEffectDataValues;
 
-  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x2242d6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetLightColorTypeFromEventDataValue, addr 0x3162e84, size 0x24, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType GetLightColorTypeFromEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2242dc8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x3162ed0, size 0x2c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x2242e00, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HasFixedDurationLightSwitchEventDataValue, addr 0x3162efc, size 0x1c, virtual false, abstract: false, final false
   static inline bool HasFixedDurationLightSwitchEventDataValue(int32_t beatmapEventValue);
 
-  /// @brief Method HasLightFadeEventDataValue, addr 0x2242d90, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HasLightFadeEventDataValue, addr 0x3162ea8, size 0x28, virtual false, abstract: false, final false
   static inline bool HasLightFadeEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method LightColorTypeFromEventDataValue, addr 0x2242d34, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method LightColorTypeFromEventDataValue, addr 0x3162e70, size 0x14, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::EnvironmentColorType LightColorTypeFromEventDataValue(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
 protected:
@@ -136,7 +136,7 @@ public:
   BeatmapEventDataLightsExtensions(BeatmapEventDataLightsExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17049 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20963 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

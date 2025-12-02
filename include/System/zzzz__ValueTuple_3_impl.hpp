@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/ValueTuple_3.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_impl.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_impl.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__IValueTupleInternal_impl.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T1, typename T2, typename T3> inline void System::ValueTuple_3<T1, T2, T3>::_ctor(T1 item1, T2 item2, T3 item3) {
   static auto* ___internal_method = THROW_UNLESS((

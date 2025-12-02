@@ -23,10 +23,10 @@ public:
 
   __declspec(property(put = set_startIndex)) uint32_t startIndex;
 
-  /// @brief Method set_endIndex, addr 0x488d5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_endIndex, addr 0x687f348, size 0x8, virtual false, abstract: false, final false
   inline void set_endIndex(uint32_t value);
 
-  /// @brief Method set_startIndex, addr 0x488d5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startIndex, addr 0x687f338, size 0x8, virtual false, abstract: false, final false
   inline void set_startIndex(uint32_t value);
 
   // Ctor Parameters []
@@ -37,7 +37,7 @@ public:
   constexpr BlendShapeBufferRange(uint32_t m_StartIndex, uint32_t m_EndIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10787 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10194 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

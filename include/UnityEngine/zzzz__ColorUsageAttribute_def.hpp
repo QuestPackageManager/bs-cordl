@@ -19,22 +19,22 @@ namespace UnityEngine {
 class CORDL_TYPE ColorUsageAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field hdr, offset 0x11, size 0x1
+  /// @brief Field hdr, offset 0x16, size 0x1
   __declspec(property(get = __cordl_internal_get_hdr, put = __cordl_internal_set_hdr)) bool hdr;
 
-  /// @brief Field maxBrightness, offset 0x18, size 0x4
+  /// @brief Field maxBrightness, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_maxBrightness, put = __cordl_internal_set_maxBrightness)) float_t maxBrightness;
 
-  /// @brief Field maxExposureValue, offset 0x20, size 0x4
+  /// @brief Field maxExposureValue, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get_maxExposureValue, put = __cordl_internal_set_maxExposureValue)) float_t maxExposureValue;
 
-  /// @brief Field minBrightness, offset 0x14, size 0x4
+  /// @brief Field minBrightness, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_minBrightness, put = __cordl_internal_set_minBrightness)) float_t minBrightness;
 
-  /// @brief Field minExposureValue, offset 0x1c, size 0x4
+  /// @brief Field minExposureValue, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_minExposureValue, put = __cordl_internal_set_minExposureValue)) float_t minExposureValue;
 
-  /// @brief Field showAlpha, offset 0x10, size 0x1
+  /// @brief Field showAlpha, offset 0x15, size 0x1
   __declspec(property(get = __cordl_internal_get_showAlpha, put = __cordl_internal_set_showAlpha)) bool showAlpha;
 
   static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool showAlpha);
@@ -77,10 +77,10 @@ public:
 
   constexpr void __cordl_internal_set_showAlpha(bool value);
 
-  /// @brief Method .ctor, addr 0x48a6dec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a4704, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha);
 
-  /// @brief Method .ctor, addr 0x48a6e28, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a4720, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(bool showAlpha, bool hdr);
 
 protected:
@@ -98,40 +98,40 @@ public:
   ColorUsageAttribute(ColorUsageAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10261 };
 
-  /// @brief Field showAlpha, offset: 0x10, size: 0x1, def value: None
+  /// @brief Field showAlpha, offset: 0x15, size: 0x1, def value: None
   bool ___showAlpha;
 
-  /// @brief Field hdr, offset: 0x11, size: 0x1, def value: None
+  /// @brief Field hdr, offset: 0x16, size: 0x1, def value: None
   bool ___hdr;
 
-  /// @brief Field minBrightness, offset: 0x14, size: 0x4, def value: None
+  /// @brief Field minBrightness, offset: 0x18, size: 0x4, def value: None
   float_t ___minBrightness;
 
-  /// @brief Field maxBrightness, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field maxBrightness, offset: 0x1c, size: 0x4, def value: None
   float_t ___maxBrightness;
 
-  /// @brief Field minExposureValue, offset: 0x1c, size: 0x4, def value: None
+  /// @brief Field minExposureValue, offset: 0x20, size: 0x4, def value: None
   float_t ___minExposureValue;
 
-  /// @brief Field maxExposureValue, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field maxExposureValue, offset: 0x24, size: 0x4, def value: None
   float_t ___maxExposureValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___showAlpha) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___showAlpha) == 0x15, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___hdr) == 0x11, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___hdr) == 0x16, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minBrightness) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minBrightness) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxBrightness) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxBrightness) == 0x1c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minExposureValue) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minExposureValue) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxExposureValue) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxExposureValue) == 0x24, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColorUsageAttribute, 0x28>, "Size mismatch!");
 

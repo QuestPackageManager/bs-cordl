@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/EventSystems/ISubmitHandler.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::ISubmitHandler.OnSubmit
 template <>
 

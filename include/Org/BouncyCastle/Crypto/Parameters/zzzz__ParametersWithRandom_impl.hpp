@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Parameters/ParametersWithRandom.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithRandom_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
@@ -10,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x23c0d5c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x32eedd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x23c0df8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x32eee58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::GetRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c0ed8;
+  constexpr static std::size_t addrs = 0x32eef44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::get_Random)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c0ee0;
+  constexpr static std::size_t addrs = 0x32eef4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ParametersWithRandom::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23c0ee8;
+  constexpr static std::size_t addrs = 0x32eef54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -70,7 +70,7 @@ public:
   static ::GlobalNamespace::SpriteArrayLightWithId_MultiplyColorByAlphaType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19721 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -130,7 +130,7 @@ public:
 
   __declspec(property(get = get_color)) ::UnityEngine::Color color;
 
-  /// @brief Method ColorWasSet, addr 0x39e4a44, size 0x198, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x565c0fc, size 0x1a4, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpriteArrayLightWithId* New_ctor();
@@ -195,10 +195,10 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderers(::ArrayW<::UnityW<::UnityEngine::SpriteRenderer>, ::Array<::UnityW<::UnityEngine::SpriteRenderer>>*> value);
 
-  /// @brief Method .ctor, addr 0x39e4bdc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x565c2a0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x39e4a14, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x565c0cc, size 0x30, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
 protected:
@@ -216,7 +216,7 @@ public:
   SpriteArrayLightWithId(SpriteArrayLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16347 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19722 };
 
   /// @brief Field _spriteRenderers, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::SpriteRenderer>, ::Array<::UnityW<::UnityEngine::SpriteRenderer>>*> ____spriteRenderers;

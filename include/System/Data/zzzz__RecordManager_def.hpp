@@ -54,33 +54,33 @@ public:
   /// @brief Field _table, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__table, put = __cordl_internal_set__table)) ::System::Data::DataTable* _table;
 
-  /// @brief Method Clear, addr 0x4184e30, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x5e2f39c, size 0x20c, virtual false, abstract: false, final false
   inline void Clear(bool clearAll);
 
-  /// @brief Method CopyRecord, addr 0x4185054, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method CopyRecord, addr 0x5e2f5e0, size 0x33c, virtual false, abstract: false, final false
   inline int32_t CopyRecord(::System::Data::DataTable* src, int32_t record, int32_t copy);
 
-  /// @brief Method FreeRecord, addr 0x4184c7c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method FreeRecord, addr 0x5e2f1d4, size 0x164, virtual false, abstract: false, final false
   inline void FreeRecord(::ByRef<int32_t> record);
 
-  /// @brief Method GrowRecordCapacity, addr 0x4184974, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GrowRecordCapacity, addr 0x5e2eec8, size 0x100, virtual false, abstract: false, final false
   inline void GrowRecordCapacity();
 
-  /// @brief Method ImportRecord, addr 0x418504c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ImportRecord, addr 0x5e2f5d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t ImportRecord(::System::Data::DataTable* src, int32_t record);
 
-  /// @brief Method NewCapacity, addr 0x4184a78, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method NewCapacity, addr 0x5e2efc8, size 0x14, virtual false, abstract: false, final false
   static inline int32_t NewCapacity(int32_t capacity);
 
-  /// @brief Method NewRecordBase, addr 0x4184bb0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method NewRecordBase, addr 0x5e2f0f8, size 0xdc, virtual false, abstract: false, final false
   inline int32_t NewRecordBase();
 
   static inline ::System::Data::RecordManager* New_ctor(::System::Data::DataTable* table);
 
-  /// @brief Method NormalizedMinimumCapacity, addr 0x4184a8c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method NormalizedMinimumCapacity, addr 0x5e2efdc, size 0x34, virtual false, abstract: false, final false
   inline int32_t NormalizedMinimumCapacity(int32_t capacity);
 
-  /// @brief Method SetRowCache, addr 0x4185368, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method SetRowCache, addr 0x5e2f91c, size 0x20, virtual false, abstract: false, final false
   inline void SetRowCache(::ArrayW<::System::Data::DataRow*, ::Array<::System::Data::DataRow*>*> newRows);
 
   constexpr ::System::Collections::Generic::List_1<int32_t>* const& __cordl_internal_get__freeRecordList() const;
@@ -119,28 +119,28 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x41848b0, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e2ee08, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
-  /// @brief Method get_Item, addr 0x418501c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5e2f5a8, size 0x30, virtual false, abstract: false, final false
   inline ::System::Data::DataRow* get_Item(int32_t record);
 
-  /// @brief Method get_LastFreeRecord, addr 0x4184b54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_LastFreeRecord, addr 0x5e2f0a0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_LastFreeRecord();
 
-  /// @brief Method get_MinimumCapacity, addr 0x4184b5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinimumCapacity, addr 0x5e2f0a8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinimumCapacity();
 
-  /// @brief Method get_RecordCapacity, addr 0x4184ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RecordCapacity, addr 0x5e2f0f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_RecordCapacity();
 
-  /// @brief Method set_Item, addr 0x4184dcc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x5e2f338, size 0x64, virtual false, abstract: false, final false
   inline void set_Item(int32_t record, ::System::Data::DataRow* value);
 
-  /// @brief Method set_MinimumCapacity, addr 0x4184b64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_MinimumCapacity, addr 0x5e2f0b0, size 0x40, virtual false, abstract: false, final false
   inline void set_MinimumCapacity(int32_t value);
 
-  /// @brief Method set_RecordCapacity, addr 0x4184ac4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_RecordCapacity, addr 0x5e2f010, size 0x90, virtual false, abstract: false, final false
   inline void set_RecordCapacity(int32_t value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   RecordManager(RecordManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13817 };
 
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____table;

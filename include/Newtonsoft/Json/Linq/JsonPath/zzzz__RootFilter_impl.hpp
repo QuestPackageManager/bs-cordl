@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JsonPath::RootFilter::*)()>(&::Newtonsoft::Json::Linq::JsonPath::RootFilter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f39508;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b8041c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JsonPath::RootFilter*>::get(), ".ctor",
@@ -24,8 +24,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* (
     ::Newtonsoft::Json::Linq::JsonPath::RootFilter::*)(::Newtonsoft::Json::Linq::JToken*, ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>*,
                                                        ::Newtonsoft::Json::Linq::JsonSelectSettings*)>(&::Newtonsoft::Json::Linq::JsonPath::RootFilter::ExecuteFilter)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3f39510;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5b80420;
 
   inline static ::MethodInfo const* methodInfo() {
 

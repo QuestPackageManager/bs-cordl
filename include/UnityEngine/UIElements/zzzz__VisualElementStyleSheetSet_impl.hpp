@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/VisualElementStyleSheetSet.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElementStyleSheetSet_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleSheet_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a0a68;
+  constexpr static std::size_t addrs = 0x6a983a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Add)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x49a0a70;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x6a983a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::UnityEngine::UIElements::StyleSheet*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Remove)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x49a0c34;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x6a98594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(
     ::UnityEngine::UIElements::VisualElementStyleSheetSet)>(&::UnityEngine::UIElements::VisualElementStyleSheetSet::Equals)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49a0d64;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6a986e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)(::System::Object*)>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::Equals)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49a0d70;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6a98714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::VisualElementStyleSheetSet::*)()>(
     &::UnityEngine::UIElements::VisualElementStyleSheetSet::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49a0dec;
+  constexpr static std::size_t addrs = 0x6a987bc;
 
   inline static ::MethodInfo const* methodInfo() {
 

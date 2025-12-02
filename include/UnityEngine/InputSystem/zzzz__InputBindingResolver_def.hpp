@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputActionState_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputBinding_def.hpp"
@@ -13,6 +12,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(InputBindingResolver)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -53,7 +55,7 @@ struct InputBindingResolver;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::InputBindingResolver);
-// Dependencies System.IDisposable, System.Nullable`1<T>, UnityEngine.InputSystem.InputActionState::UnmanagedMemory, UnityEngine.InputSystem.InputBinding
+// Dependencies System.Nullable`1<T>, UnityEngine.InputSystem.InputActionState::UnmanagedMemory, UnityEngine.InputSystem.InputBinding
 namespace UnityEngine::InputSystem {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.InputBindingResolver
@@ -71,21 +73,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method AddActionMap, addr 0x455cd48, size 0x1594, virtual false, abstract: false, final false
+  /// @brief Method AddActionMap, addr 0x62ef584, size 0x17f8, virtual false, abstract: false, final false
   inline void AddActionMap(::UnityEngine::InputSystem::InputActionMap* actionMap);
 
-  /// @brief Method ApplyParameters, addr 0x455e798, size 0x4f0, virtual false, abstract: false, final false
+  /// @brief Method ApplyParameters, addr 0x62f11a4, size 0x498, virtual false, abstract: false, final false
   static inline void ApplyParameters(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Utilities::NamedValue> parameters, ::System::Object* instance,
                                      ::UnityEngine::InputSystem::InputActionMap* actionMap, ::ByRef<::UnityEngine::InputSystem::InputBinding> binding, ::StringW objectRegistrationName,
                                      ::StringW namesAndParameters);
 
-  /// @brief Method AssignCompositePartIndex, addr 0x455e568, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method AssignCompositePartIndex, addr 0x62f0fe0, size 0x1c4, virtual false, abstract: false, final false
   static inline int32_t AssignCompositePartIndex(::System::Object* composite, ::StringW name, ::ByRef<int32_t> currentCompositePartCount);
 
-  /// @brief Method Dispose, addr 0x455cc18, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x62ef494, size 0xc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method InstantiateBindingComposite, addr 0x455e2dc, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method InstantiateBindingComposite, addr 0x62f0d90, size 0x250, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::InputBindingComposite* InstantiateBindingComposite(::ByRef<::UnityEngine::InputSystem::InputBinding> binding,
                                                                                                ::UnityEngine::InputSystem::InputActionMap* actionMap);
 
@@ -94,19 +96,19 @@ public:
   inline int32_t InstantiateWithParameters(::UnityEngine::InputSystem::Utilities::TypeTable registrations, ::StringW namesAndParameters, ::ByRef<::ArrayW<TType, ::Array<TType>*>> array,
                                            ::ByRef<int32_t> count, ::UnityEngine::InputSystem::InputActionMap* actionMap, ::ByRef<::UnityEngine::InputSystem::InputBinding> binding);
 
-  /// @brief Method StartWithPreviousResolve, addr 0x455cc60, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method StartWithPreviousResolve, addr 0x62ef4a0, size 0xe4, virtual false, abstract: false, final false
   inline void StartWithPreviousResolve(::UnityEngine::InputSystem::InputActionState* state, bool isFullResolve);
 
-  /// @brief Method get_totalActionCount, addr 0x455cc00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalActionCount, addr 0x62ef47c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalActionCount();
 
-  /// @brief Method get_totalBindingCount, addr 0x455cc08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalBindingCount, addr 0x62ef484, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalBindingCount();
 
-  /// @brief Method get_totalControlCount, addr 0x455cc10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalControlCount, addr 0x62ef48c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalControlCount();
 
-  /// @brief Method get_totalMapCount, addr 0x455cbf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_totalMapCount, addr 0x62ef474, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_totalMapCount();
 
   /// @brief Convert to "::System::IDisposable"
@@ -136,7 +138,7 @@ public:
                                  ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Utilities::NameAndParameters>* m_Parameters) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6601 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8654 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x128 };

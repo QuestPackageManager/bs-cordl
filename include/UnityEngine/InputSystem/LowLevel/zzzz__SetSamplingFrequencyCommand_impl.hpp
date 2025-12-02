@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/SetSamplingFrequencyCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__SetSamplingFrequencyCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand.get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::get_Type)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46084d8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638fcb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::*)()>(&::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::get_typeStatic)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4608508;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638fcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand (*)(float_t)>(
     &::UnityEngine::InputSystem::LowLevel::SetSamplingFrequencyCommand::Create)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4608538;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x638fcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

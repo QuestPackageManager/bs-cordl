@@ -260,7 +260,7 @@ public:
 
   constexpr void __cordl_internal_set_shadow_copy_files(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e32700, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a783f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -278,7 +278,7 @@ public:
   AppDomainSetup(AppDomainSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2584 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2593 };
 
   /// @brief Field application_base, offset: 0x10, size: 0x8, def value: None
   ::StringW ___application_base;

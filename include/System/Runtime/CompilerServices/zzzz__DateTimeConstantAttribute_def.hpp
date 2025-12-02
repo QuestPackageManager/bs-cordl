@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__date(::System::DateTime value);
 
-  /// @brief Method get_Value, addr 0x3d1869c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x59599fc, size 0x60, virtual true, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -51,7 +51,7 @@ public:
   DateTimeConstantAttribute(DateTimeConstantAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3381 };
 
   /// @brief Field _date, offset: 0x10, size: 0x8, def value: None
   ::System::DateTime ____date;

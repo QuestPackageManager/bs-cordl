@@ -34,10 +34,10 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLeaderboardPanelController* New_ctor();
 
-  /// @brief Method Start, addr 0x3ba815c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5796ec4, size 0x54, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3ba81e8, size 0x248, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5796f44, size 0x238, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> const& __cordl_internal_get__items() const;
@@ -52,7 +52,7 @@ public:
 
   constexpr void __cordl_internal_set__scoreProvider(::UnityW<::GlobalNamespace::MultiplayerScoreProvider> value);
 
-  /// @brief Method .ctor, addr 0x3ba86f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5797444, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -70,7 +70,7 @@ public:
   MultiplayerLeaderboardPanelController(MultiplayerLeaderboardPanelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4413 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5996 };
 
   /// @brief Field _items, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>, ::Array<::UnityW<::GlobalNamespace::MultiplayerLeaderboardPanelItem>>*> ____items;

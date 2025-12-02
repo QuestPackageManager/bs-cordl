@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IMockBeatmapDataProvider.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "GlobalNamespace/zzzz__IMockBeatmapDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMockBeatmapDataProvider.GetBeatmapData
 template <>
 

@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SizedArray)
+namespace System {
+class ICloneable;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ class SizedArray;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SizedArray);
-// Dependencies System.ICloneable, System.Object
+// Dependencies System.Object
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: System.Runtime.Serialization.Formatters.Binary.SizedArray
@@ -34,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3d131a4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5954414, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method IncreaseCapacity, addr 0x3d131fc, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x5954470, size 0x218, virtual false, abstract: false, final false
   inline void IncreaseCapacity(int32_t index);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SizedArray* New_ctor();
@@ -58,22 +60,22 @@ public:
 
   constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
 
-  /// @brief Method .ctor, addr 0x3d0f84c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5950c7c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d0f91c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5950d4c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
-  /// @brief Method .ctor, addr 0x3d130f0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5954360, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::SizedArray* sizedArray);
 
-  /// @brief Method get_Item, addr 0x3d11f9c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5953274, size 0x74, virtual false, abstract: false, final false
   inline ::System::Object* get_Item(int32_t index);
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Item, addr 0x3d11e9c, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x5953174, size 0x100, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, ::System::Object* value);
 
 protected:
@@ -91,7 +93,7 @@ public:
   SizedArray(SizedArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3306 };
 
   /// @brief Field objects, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___objects;

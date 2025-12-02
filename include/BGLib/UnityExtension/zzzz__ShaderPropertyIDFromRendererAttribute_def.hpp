@@ -22,10 +22,10 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE ShaderPropertyIDFromRendererAttribute : public ::BGLib::UnityExtension::ShaderPropertyIDAttribute {
 public:
   // Declarations
-  /// @brief Field propertyName, offset 0x18, size 0x8
+  /// @brief Field propertyName, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_propertyName, put = __cordl_internal_set_propertyName)) ::StringW propertyName;
 
-  /// @brief Method GetTargetName, addr 0x22b7618, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x31fe6d0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute* New_ctor(::StringW propertyName, ::StringW nameFilter,
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22b75ec, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fe6a4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW propertyName, ::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
@@ -55,17 +55,17 @@ public:
   ShaderPropertyIDFromRendererAttribute(ShaderPropertyIDFromRendererAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20723 };
 
-  /// @brief Field propertyName, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field propertyName, offset: 0x20, size: 0x8, def value: None
   ::StringW ___propertyName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute, ___propertyName) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute, ___propertyName) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 NEED_NO_BOX(::BGLib::UnityExtension::ShaderPropertyIDFromRendererAttribute);

@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/CultureInfoConverter.hpp"
-#include "System/Collections/zzzz__IComparer_impl.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/ComponentModel/zzzz__CultureInfoConverter_def.hpp"
 #include "System/ComponentModel/zzzz__ITypeDescriptorContext_def.hpp"
 #include "System/ComponentModel/zzzz__TypeConverter_def.hpp"
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CultureInfoConverter_CultureComparer::*)(
     ::System::ComponentModel::CultureInfoConverter*)>(&::System::ComponentModel::CultureInfoConverter_CultureComparer::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x444ba2c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x619b02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::CultureInfoConverter_CultureComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::ComponentModel::CultureInfoConverter_CultureComparer::Compare)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x444ba6c;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x619b048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)()>(
     &::System::ComponentModel::CultureInfoConverter_CultureInfoMapper::CreateMap)> {
-  constexpr static std::size_t size = 0x40e0;
-  constexpr static std::size_t addrs = 0x444bbd8;
+  constexpr static std::size_t size = 0x5a8c;
+  constexpr static std::size_t addrs = 0x619b1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,8 +100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::ComponentModel::CultureInfoConverter_CultureInfoMapper::GetCultureInfoName)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x444b340;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x619a938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::CultureInfoConverter::*)()>(
     &::System::ComponentModel::CultureInfoConverter::get_DefaultCultureString)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x444a838;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6199edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CultureInfoConverter*>::get(),
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::CultureInfoConverter::*)(::System::Globalization::CultureInfo*)>(
     &::System::ComponentModel::CultureInfoConverter::GetCultureName)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x444a878;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6199f20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::CultureInfoConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::CultureInfoConverter::CanConvertFrom)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x444a89c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6199f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -184,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::CultureInfoConverter::*)(
     ::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(&::System::ComponentModel::CultureInfoConverter::CanConvertTo)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x444a964;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6199fc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,8 +201,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::ComponentModel::CultureInfoConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(
         &::System::ComponentModel::CultureInfoConverter::ConvertFrom)> {
-  constexpr static std::size_t size = 0x914;
-  constexpr static std::size_t addrs = 0x444aa2c;
+  constexpr static std::size_t size = 0x8d4;
+  constexpr static std::size_t addrs = 0x619a064;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,8 +218,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::ComponentModel::CultureInfoConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
     &::System::ComponentModel::CultureInfoConverter::ConvertTo)> {
-  constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x444b3e0;
+  constexpr static std::size_t size = 0x464;
+  constexpr static std::size_t addrs = 0x619a9e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,8 +234,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ComponentModel::TypeConverter_StandardValuesCollection* (
     ::System::ComponentModel::CultureInfoConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(&::System::ComponentModel::CultureInfoConverter::GetStandardValues)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x444b84c;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x619ae44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::CultureInfoConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::CultureInfoConverter::GetStandardValuesExclusive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444ba54;
+  constexpr static std::size_t addrs = 0x619b034;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::CultureInfoConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::ComponentModel::CultureInfoConverter::GetStandardValuesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444ba5c;
+  constexpr static std::size_t addrs = 0x619b03c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,8 +281,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::CultureInfoConverter::*)()>(&::System::ComponentModel::CultureInfoConverter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x444ba64;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x619b044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::CultureInfoConverter*>::get(), ".ctor",

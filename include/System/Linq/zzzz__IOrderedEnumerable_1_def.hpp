@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IOrderedEnumerable_1)
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
@@ -18,7 +22,7 @@ template <typename TElement> class IOrderedEnumerable_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::IOrderedEnumerable_1);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -49,7 +53,7 @@ public:
   IOrderedEnumerable_1(IOrderedEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16043 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

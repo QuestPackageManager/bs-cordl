@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Utilities::Encoders::UrlBase64::Encode)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x25d92e4;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x3508990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::Encoders::UrlBase64::Encode)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x25d9508;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x3508bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Utilities::Encoders::UrlBase64::Decode)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x25d95f8;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x3508cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::Encoders::UrlBase64::Decode)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x25d9820;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x3508ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(&::Org::BouncyCastle::Utilities::Encoders::UrlBase64::Decode)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x25d9914;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x3508ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::System::IO::Stream*)>(&::Org::BouncyCastle::Utilities::Encoders::UrlBase64::Decode)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x25d9b24;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3509208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Encoders::UrlBase64::*)()>(
     &::Org::BouncyCastle::Utilities::Encoders::UrlBase64::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d9ce0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35093d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Encoders::UrlBase64*>::get(),

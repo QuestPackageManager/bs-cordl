@@ -35,6 +35,9 @@ public:
   /// @brief Field s_defaultResultTask, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_defaultResultTask, put = setStaticF_s_defaultResultTask)) ::System::Threading::Tasks::Task_1<TResult>* s_defaultResultTask;
 
+  /// @brief Method AwaitOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename TAwaiter, typename TStateMachine> inline void AwaitOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
+
   /// @brief Method AwaitUnsafeOnCompleted, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TAwaiter, typename TStateMachine> inline void AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine);
 
@@ -75,7 +78,7 @@ public:
   constexpr AsyncTaskMethodBuilder_1(::System::Runtime::CompilerServices::AsyncMethodBuilderCore m_coreState, ::System::Threading::Tasks::Task_1<TResult>* m_task) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3417 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

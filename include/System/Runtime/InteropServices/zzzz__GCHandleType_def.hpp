@@ -59,7 +59,7 @@ public:
   static ::System::Runtime::InteropServices::GCHandleType const WeakTrackResurrection;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3321 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

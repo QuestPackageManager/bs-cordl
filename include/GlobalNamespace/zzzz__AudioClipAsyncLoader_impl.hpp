@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/AudioClipAsyncLoader.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -26,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c220f4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5813cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::*)()>(&::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c2246c;
+  constexpr static std::size_t addrs = 0x5814058;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::*)(::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::BeginInvoke)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c22480;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x581406c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::*)(::System::IAsyncResult*)>(&::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c224a0;
+  constexpr static std::size_t addrs = 0x5814088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,8 +118,8 @@ constexpr ::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate::AudioClipA
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader___c::*)()>(&::GlobalNamespace::AudioClipAsyncLoader___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c22508;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58140e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader___c*>::get(), ".ctor",
@@ -134,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader___c::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::AudioClipAsyncLoader___c::_Unload_b__16_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c22510;
+  constexpr static std::size_t addrs = 0x58140ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass13_0::*)()>(
     &::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass13_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c220c8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5813cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass13_0::*)()>(&::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass13_0::_Load_b__0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c22528;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5814104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -240,8 +239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass14_0::*)()>(
     &::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass14_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c22340;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5813f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,8 +254,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass14_0::*)()>(&::GlobalNamespace::AudioClipAsyncLoader___c__DisplayClass14_0::_Load_b__0)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c22598;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x581417c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -311,8 +310,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader__Unload_d__18::*)()>(
     &::GlobalNamespace::AudioClipAsyncLoader__Unload_d__18::MoveNext)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x3c22648;
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x5814230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader__Unload_d__18>::get(),
@@ -325,8 +324,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader__Unload_d__18::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AudioClipAsyncLoader__Unload_d__18::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c229d0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58145bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,8 +376,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(
     ::GlobalNamespace::IReferenceCountingCache_2<int32_t, ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>*>*, ::GlobalNamespace::IMediaAsyncLoader*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c216e8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5813230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,8 +392,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AudioClipAsyncLoader* (*)()>(&::GlobalNamespace::AudioClipAsyncLoader::CreateDefault)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21714;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5813238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AudioClipAsyncLoader*>::get(), "CreateDefault",
@@ -407,8 +406,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongPreviewAudioClipProvider*)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21810;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5813324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,8 +421,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongAudioClipProvider*)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21990;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x58134ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -437,8 +436,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21a3c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x58135a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -452,8 +451,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongAudioClipProvider*)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21bbc;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x581376c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -467,8 +466,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongPreviewAudioClipProvider*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21c68;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5813824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -482,8 +481,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IAssetSongAudioClipProvider*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21e1c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x58139f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -497,8 +496,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongPreviewAudioClipProvider*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c21ec8;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5813aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -512,8 +511,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(::GlobalNamespace::IFilePathSongAudioClipProvider*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c2201c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5813c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -527,8 +526,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader::*)(::UnityEngine::AudioClip*)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c218bc;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x58133dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -542,8 +541,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (::GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3c21ae8;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x581365c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -557,8 +556,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::AudioClipAsyncLoader::*)(int32_t, ::GlobalNamespace::AudioClipAsyncLoader_LoadMethodDelegate*)>(&::GlobalNamespace::AudioClipAsyncLoader::Load)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3c2217c;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5813d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -573,8 +572,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3c21d14;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x58138dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -587,8 +586,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(&::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c21f74;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5813b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -602,8 +601,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AudioClipAsyncLoader::*)(int32_t, ::System::Action_1<::UnityW<::UnityEngine::AudioClip>>*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::Unload)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c2236c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5813f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -618,8 +617,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AudioClipAsyncLoader::*)(::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::AudioClipAsyncLoader::GetCacheKey)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c220d0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5813ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -633,8 +632,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::AudioClipAsyncLoader::*)(::StringW)>(
     &::GlobalNamespace::AudioClipAsyncLoader::GetCacheKey)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c22348;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5813f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -647,8 +646,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::AudioClipAsyncLoader::LogError)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c22414;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5813ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

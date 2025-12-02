@@ -58,7 +58,7 @@ public:
   ChangeEvent_1___c(ChangeEvent_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,10 +75,10 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::ChangeEvent_1___c<T>;
 
-  /// @brief Field <newValue>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <newValue>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__newValue_k__BackingField, put = __cordl_internal_set__newValue_k__BackingField)) T _newValue_k__BackingField;
 
-  /// @brief Field <previousValue>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <previousValue>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__previousValue_k__BackingField, put = __cordl_internal_set__previousValue_k__BackingField)) T _previousValue_k__BackingField;
 
   __declspec(property(get = get_newValue, put = set_newValue)) T newValue;
@@ -138,12 +138,12 @@ public:
   ChangeEvent_1(ChangeEvent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4439 };
 
-  /// @brief Field <previousValue>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <previousValue>k__BackingField, offset: 0x68, size: 0x8, def value: None
   T ____previousValue_k__BackingField;
 
-  /// @brief Field <newValue>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <newValue>k__BackingField, offset: 0x70, size: 0x8, def value: None
   T ____newValue_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Pool/PooledObject_1.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "UnityEngine/Pool/zzzz__PooledObject_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Pool/zzzz__IObjectPool_1_def.hpp"
 template <typename T> inline void UnityEngine::Pool::PooledObject_1<T>::_ctor(T value, ::UnityEngine::Pool::IObjectPool_1<T>* pool) {
   static auto* ___internal_method =

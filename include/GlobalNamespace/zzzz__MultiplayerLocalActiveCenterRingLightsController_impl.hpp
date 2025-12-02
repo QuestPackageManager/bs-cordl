@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Start)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3bc0ca8;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x57b1bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::OnDestroy)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3bc0e60;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x57b1df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::TryResize)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bc0fac;
+  constexpr static std::size_t addrs = 0x57b1fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::Resize)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3bc0fc4;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x57b1fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::HandleSpawnCenterDistanceWasFound)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bc0e48;
+  constexpr static std::size_t addrs = 0x57b1de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::HandleEdgeDistanceFromCenterWasCalculated)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3bc0e30;
+  constexpr static std::size_t addrs = 0x57b1dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::*)()>(
     &::GlobalNamespace::MultiplayerLocalActiveCenterRingLightsController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc1280;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57b2280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

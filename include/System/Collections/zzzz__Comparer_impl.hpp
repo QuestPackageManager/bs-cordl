@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Comparer.hpp"
-#include "System/Collections/zzzz__IComparer_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/zzzz__Comparer_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Comparer::*)(::System::Globalization::CultureInfo*)>(
     &::System::Collections::Comparer::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3db88e0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x59cc664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Comparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Comparer::_ctor)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3db8964;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x59cc6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Comparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Comparer::GetObjectData)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3db8ad4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x59cc83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Comparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Collections::Comparer::Compare)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3db8b74;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x59cc8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

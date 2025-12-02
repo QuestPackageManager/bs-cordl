@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualElementListPool___c::*)()>(
     &::UnityEngine::UIElements::VisualElementListPool___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d9ec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a95128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementListPool___c*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (
     ::UnityEngine::UIElements::VisualElementListPool___c::*)()>(&::UnityEngine::UIElements::VisualElementListPool___c::__cctor_b__4_0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x499d9f4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6a9512c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualElementListPool___c*>::get(),
@@ -64,8 +64,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
         &::UnityEngine::UIElements::VisualElementListPool::Copy)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x499d640;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6a94d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* (*)(int32_t)>(
     &::UnityEngine::UIElements::VisualElementListPool::Get)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x499d6ec;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6a94e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>*)>(
     &::UnityEngine::UIElements::VisualElementListPool::Release)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x499d7cc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6a94ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

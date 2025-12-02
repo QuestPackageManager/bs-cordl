@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Timeline/RuntimeElement.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__IInterval_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__RuntimeElement_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IInterval_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::RuntimeElement.get_intervalStart
 template <>
 
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::get_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4825220;
+  constexpr static std::size_t addrs = 0x67a5a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)(int32_t)>(
     &::UnityEngine::Timeline::RuntimeElement::set_intervalBit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4825228;
+  constexpr static std::size_t addrs = 0x67a5a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::RuntimeElement::*)()>(&::UnityEngine::Timeline::RuntimeElement::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48248b8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x67a50a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::RuntimeElement*>::get(), ".ctor",

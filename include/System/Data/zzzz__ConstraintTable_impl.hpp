@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::ConstraintTable::*)(::System::Data::DataTable*, ::System::Xml::Schema::XmlSchemaIdentityConstraint*)>(&::System::Data::ConstraintTable::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x41920bc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5e3c4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Open::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRIOBuffer__Open::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x40701f4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5c2cf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Open::*)(
     ::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>)>(&::OVR::OpenVR::IVRIOBuffer__Open::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070294;
+  constexpr static std::size_t addrs = 0x5c2cf94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRIOBuffer__Open::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRIOBuffer__Open::BeginInvoke)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x40702a8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5c2cfa8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Open::*)(::ByRef<uint64_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRIOBuffer__Open::EndInvoke)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x40703bc;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d08c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Close::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRIOBuffer__Close::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40703e8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Close::*)(uint64_t)>(
     &::OVR::OpenVR::IVRIOBuffer__Close::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070474;
+  constexpr static std::size_t addrs = 0x5c2d11c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRIOBuffer__Close::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Close::BeginInvoke)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4070488;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c2d130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Close::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRIOBuffer__Close::EndInvoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x407050c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Read::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRIOBuffer__Read::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4070534;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +210,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Read::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>)>(&::OVR::OpenVR::IVRIOBuffer__Read::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x40705c0;
+  constexpr static std::size_t addrs = 0x5c2d214;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRIOBuffer__Read::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Read::BeginInvoke)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x40705d4;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5c2d228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,8 +239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Read::*)(::ByRef<uint32_t>, ::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRIOBuffer__Read::EndInvoke)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x40706dc;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d2d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,8 +282,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__Write::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRIOBuffer__Write::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4070708;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -299,7 +299,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Write::*)(uint64_t, ::System::IntPtr, uint32_t)>(
     &::OVR::OpenVR::IVRIOBuffer__Write::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070794;
+  constexpr static std::size_t addrs = 0x5c2d360;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -313,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRIOBuffer__Write::*)(uint64_t, ::System::IntPtr, uint32_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__Write::BeginInvoke)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x40707a8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5c2d374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -328,8 +328,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::IVRIOBuffer__Write::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRIOBuffer__Write::EndInvoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x407088c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -370,8 +370,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRIOBuffer__PropertyContainer::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40708b4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -387,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(uint64_t)>(
     &::OVR::OpenVR::IVRIOBuffer__PropertyContainer::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070940;
+  constexpr static std::size_t addrs = 0x5c2d494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -402,8 +402,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(uint64_t, ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRIOBuffer__PropertyContainer::BeginInvoke)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4070954;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c2d4a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -418,8 +418,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::IVRIOBuffer__PropertyContainer::*)(::System::IAsyncResult*)>(
     &::OVR::OpenVR::IVRIOBuffer__PropertyContainer::EndInvoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40709d8;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d4fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

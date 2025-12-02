@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IAllocationStrategy_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LRUCacheAllocationStrategy)
 namespace System::Collections::Generic {
@@ -19,13 +18,16 @@ class Object;
 namespace System {
 class Type;
 }
+namespace UnityEngine::ResourceManagement::Util {
+class IAllocationStrategy;
+}
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
 class LRUCacheAllocationStrategy;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy);
-// Dependencies System.Object, UnityEngine.ResourceManagement.Util.IAllocationStrategy
+// Dependencies System.Object
 namespace UnityEngine::ResourceManagement::Util {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.Util.LRUCacheAllocationStrategy
@@ -52,18 +54,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
   constexpr operator ::UnityEngine::ResourceManagement::Util::IAllocationStrategy*() noexcept;
 
-  /// @brief Method GetPool, addr 0x4797aa0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetPool, addr 0x66f770c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::System::Object*>* GetPool();
 
-  /// @brief Method New, addr 0x4797c4c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method New, addr 0x66f78e4, size 0x15c, virtual true, abstract: false, final true
   inline ::System::Object* New(::System::Type* type, int32_t typeHash);
 
   static inline ::UnityEngine::ResourceManagement::Util::LRUCacheAllocationStrategy* New_ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
-  /// @brief Method Release, addr 0x4797d88, size 0x134, virtual true, abstract: false, final true
+  /// @brief Method Release, addr 0x66f7a40, size 0x174, virtual true, abstract: false, final true
   inline void Release(int32_t typeHash, ::System::Object* obj);
 
-  /// @brief Method ReleasePool, addr 0x4797b90, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ReleasePool, addr 0x66f7810, size 0xd4, virtual false, abstract: false, final false
   inline void ReleasePool(::System::Collections::Generic::List_1<::System::Object*>* pool);
 
   constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::System::Collections::Generic::List_1<::System::Object*>*>* const& __cordl_internal_get_m_cache() const;
@@ -96,7 +98,7 @@ public:
 
   constexpr void __cordl_internal_set_m_poolMaxSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x478c630, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x66ebc74, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(int32_t poolMaxSize, int32_t poolCapacity, int32_t poolCacheMaxSize, int32_t initialPoolCacheCapacity);
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::Util::IAllocationStrategy"
@@ -117,7 +119,7 @@ public:
   LRUCacheAllocationStrategy(LRUCacheAllocationStrategy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18703 };
 
   /// @brief Field m_poolMaxSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_poolMaxSize;

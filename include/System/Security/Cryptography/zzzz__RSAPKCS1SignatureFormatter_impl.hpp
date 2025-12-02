@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureFormatter::*)()>(
     &::System::Security::Cryptography::RSAPKCS1SignatureFormatter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb554c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58f90ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

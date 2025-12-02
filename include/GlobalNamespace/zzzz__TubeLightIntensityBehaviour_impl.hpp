@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::TubeLightIntensityBehaviour::ProcessFrame)> {
-  constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x3b35de4;
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x5718e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(bool)>(
     &::GlobalNamespace::TubeLightIntensityBehaviour::EnableObjects)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b36160;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5719208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::TubeLightIntensityBehaviour::OnPlayableDestroy)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3b36234;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x57192c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityBehaviour::*)()>(&::GlobalNamespace::TubeLightIntensityBehaviour::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b36308;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5719398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityBehaviour*>::get(), ".ctor",

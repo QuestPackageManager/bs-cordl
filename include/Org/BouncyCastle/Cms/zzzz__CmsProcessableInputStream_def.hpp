@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(CmsProcessableInputStream)
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
+}
 namespace System::IO {
 class Stream;
 }
@@ -19,7 +23,7 @@ class CmsProcessableInputStream;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableInputStream);
-// Dependencies Org.BouncyCastle.Cms.CmsProcessable, Org.BouncyCastle.Cms.CmsReadable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.CmsProcessableInputStream
@@ -38,18 +42,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method CheckSingleUsage, addr 0x265ae58, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method CheckSingleUsage, addr 0x358a37c, size 0xf0, virtual true, abstract: false, final false
   inline void CheckSingleUsage();
 
-  /// @brief Method GetContent, addr 0x265ae4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x358a370, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x265ada4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x358a2b4, size 0x20, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableInputStream* New_ctor(::System::IO::Stream* input);
 
-  /// @brief Method Write, addr 0x265adc4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x358a2d4, size 0x9c, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* output);
 
   constexpr ::System::IO::Stream* const& __cordl_internal_get_input() const;
@@ -64,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_used(bool value);
 
-  /// @brief Method .ctor, addr 0x2659f2c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35894e8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* input);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"

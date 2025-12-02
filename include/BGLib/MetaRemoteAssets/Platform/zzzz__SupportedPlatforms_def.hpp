@@ -43,7 +43,7 @@ public:
   static constexpr ::ConstString Windows{ u"WIN_64" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18372 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

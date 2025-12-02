@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::PressureSensor::*)()>(
     &::UnityEngine::InputSystem::PressureSensor::get_atmosphericPressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c8084;
+  constexpr static std::size_t addrs = 0x63486c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PressureSensor*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::PressureSensor::set_atmosphericPressure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c808c;
+  constexpr static std::size_t addrs = 0x63486c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::PressureSensor* (*)()>(&::UnityEngine::InputSystem::PressureSensor::get_current)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45c8094;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63486d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PressureSensor*>::get(),
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::PressureSensor*)>(&::UnityEngine::InputSystem::PressureSensor::set_current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45c80dc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x634871c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::MakeCurrent)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45c8128;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x634876c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::OnRemoved)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45c817c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x63487bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::FinishSetup)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45c8200;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x634884c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::PressureSensor::*)()>(&::UnityEngine::InputSystem::PressureSensor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c8278;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x63488bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::PressureSensor*>::get(), ".ctor",

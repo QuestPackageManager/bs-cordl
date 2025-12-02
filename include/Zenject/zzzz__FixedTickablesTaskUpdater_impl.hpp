@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::FixedTickablesTaskUpdater::*)(::Zenject::IFixedTickable*)>(
     &::Zenject::FixedTickablesTaskUpdater::UpdateItem)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4b4f0b0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6c62690;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::FixedTickablesTaskUpdater::*)()>(&::Zenject::FixedTickablesTaskUpdater::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4b4f14c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6c62730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FixedTickablesTaskUpdater*>::get(), ".ctor",
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::FixedTickablesTaskUpdater::__zenCreate)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4b4f194;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6c6277c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::FixedTickablesTaskUpdater::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b4f1e4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c627d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::FixedTickablesTaskUpdater*>::get(),

@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::Processors::InvertVector2Processor::*)(
     ::UnityEngine::Vector2, ::UnityEngine::InputSystem::InputControl*)>(&::UnityEngine::InputSystem::Processors::InvertVector2Processor::Process)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4618a84;
+  constexpr static std::size_t addrs = 0x63a05b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Processors::InvertVector2Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::InvertVector2Processor::ToString)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4618aa8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x63a05d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Processors::InvertVector2Processor::*)()>(
     &::UnityEngine::InputSystem::Processors::InvertVector2Processor::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4618b48;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x63a0688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

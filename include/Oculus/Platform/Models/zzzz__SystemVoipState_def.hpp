@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_Status(::Oculus::Platform::SystemVoipStatus value);
 
-  /// @brief Method .ctor, addr 0x3f93c54, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bdd7ec, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr o);
 
 protected:
@@ -61,7 +61,7 @@ public:
   SystemVoipState(SystemVoipState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18050 };
 
   /// @brief Field MicrophoneMuted, offset: 0x10, size: 0x4, def value: None
   ::Oculus::Platform::VoipMuteState ___MicrophoneMuted;

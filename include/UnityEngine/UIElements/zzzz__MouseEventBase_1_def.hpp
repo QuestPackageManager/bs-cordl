@@ -4,14 +4,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEventInternal_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MouseEventBase_1)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 class IEventHandler;
+}
+namespace UnityEngine::UIElements {
+class IMouseEventInternal;
 }
 namespace UnityEngine::UIElements {
 class IMouseEvent;
@@ -22,6 +26,9 @@ class IPanel;
 namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
+namespace UnityEngine::UIElements {
+class IPointerOrMouseEvent;
+}
 namespace UnityEngine {
 struct EventModifiers;
 }
@@ -31,13 +38,16 @@ class Event;
 namespace UnityEngine {
 struct Vector2;
 }
+namespace UnityEngine {
+struct Vector3;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename T> class MouseEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::MouseEventBase_1);
-// Dependencies UnityEngine.EventModifiers, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.IMouseEvent, UnityEngine.UIElements.IMouseEventInternal, UnityEngine.Vector2
+// Dependencies UnityEngine.EventModifiers, UnityEngine.UIElements.EventBase`1<T>, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -46,61 +56,51 @@ template <typename T>
 class CORDL_TYPE MouseEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
-  __declspec(property(get = UnityEngine_UIElements_IMouseEventInternal_get_recomputeTopElementUnderMouse,
-                      put = UnityEngine_UIElements_IMouseEventInternal_set_recomputeTopElementUnderMouse)) bool UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse;
-
   __declspec(property(get = UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent,
                       put = UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent)) ::UnityEngine::UIElements::IPointerEvent* UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent;
 
   __declspec(property(get = UnityEngine_UIElements_IMouseEventInternal_get_triggeredByOS,
                       put = UnityEngine_UIElements_IMouseEventInternal_set_triggeredByOS)) bool UnityEngine_UIElements_IMouseEventInternal_triggeredByOS;
 
-  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField, offset 0xad, size 0x1
-  __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField,
-                      put = __cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField)) bool
-      _UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField;
+  __declspec(property(get = UnityEngine_UIElements_IPointerOrMouseEvent_get_pointerId)) int32_t UnityEngine_UIElements_IPointerOrMouseEvent_pointerId;
 
-  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField, offset 0xb0, size 0x8
+  __declspec(property(get = UnityEngine_UIElements_IPointerOrMouseEvent_get_position)) ::UnityEngine::Vector3 UnityEngine_UIElements_IPointerOrMouseEvent_position;
+
+  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField,
                       put = __cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField)) ::UnityEngine::UIElements::IPointerEvent*
       _UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField, offset 0xac, size 0x1
+  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField, offset 0x8c, size 0x1
   __declspec(property(
       get = __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField,
       put = __cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField)) bool _UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
 
-  /// @brief Field <button>k__BackingField, offset 0xa4, size 0x4
+  /// @brief Field <button>k__BackingField, offset 0x84, size 0x4
   __declspec(property(get = __cordl_internal_get__button_k__BackingField, put = __cordl_internal_set__button_k__BackingField)) int32_t _button_k__BackingField;
 
-  /// @brief Field <clickCount>k__BackingField, offset 0xa0, size 0x4
+  /// @brief Field <clickCount>k__BackingField, offset 0x80, size 0x4
   __declspec(property(get = __cordl_internal_get__clickCount_k__BackingField, put = __cordl_internal_set__clickCount_k__BackingField)) int32_t _clickCount_k__BackingField;
 
-  /// @brief Field <localMousePosition>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <localMousePosition>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__localMousePosition_k__BackingField,
                       put = __cordl_internal_set__localMousePosition_k__BackingField)) ::UnityEngine::Vector2 _localMousePosition_k__BackingField;
 
-  /// @brief Field <modifiers>k__BackingField, offset 0x84, size 0x4
+  /// @brief Field <modifiers>k__BackingField, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__modifiers_k__BackingField, put = __cordl_internal_set__modifiers_k__BackingField)) ::UnityEngine::EventModifiers _modifiers_k__BackingField;
 
-  /// @brief Field <mouseDelta>k__BackingField, offset 0x98, size 0x8
+  /// @brief Field <mouseDelta>k__BackingField, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__mouseDelta_k__BackingField, put = __cordl_internal_set__mouseDelta_k__BackingField)) ::UnityEngine::Vector2 _mouseDelta_k__BackingField;
 
-  /// @brief Field <mousePosition>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <mousePosition>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__mousePosition_k__BackingField, put = __cordl_internal_set__mousePosition_k__BackingField)) ::UnityEngine::Vector2 _mousePosition_k__BackingField;
 
-  /// @brief Field <pressedButtons>k__BackingField, offset 0xa8, size 0x4
+  /// @brief Field <pressedButtons>k__BackingField, offset 0x88, size 0x4
   __declspec(property(get = __cordl_internal_get__pressedButtons_k__BackingField, put = __cordl_internal_set__pressedButtons_k__BackingField)) int32_t _pressedButtons_k__BackingField;
-
-  __declspec(property(get = get_altKey)) bool altKey;
 
   __declspec(property(get = get_button, put = set_button)) int32_t button;
 
   __declspec(property(get = get_clickCount, put = set_clickCount)) int32_t clickCount;
-
-  __declspec(property(get = get_commandKey)) bool commandKey;
-
-  __declspec(property(get = get_ctrlKey)) bool ctrlKey;
 
   __declspec(property(get = get_currentTarget, put = set_currentTarget)) ::UnityEngine::UIElements::IEventHandler* currentTarget;
 
@@ -114,13 +114,17 @@ public:
 
   __declspec(property(get = get_pressedButtons, put = set_pressedButtons)) int32_t pressedButtons;
 
-  __declspec(property(get = get_shiftKey)) bool shiftKey;
-
   /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEvent"
   constexpr operator ::UnityEngine::UIElements::IMouseEvent*() noexcept;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IMouseEventInternal"
   constexpr operator ::UnityEngine::UIElements::IMouseEventInternal*() noexcept;
+
+  /// @brief Convert operator to "::UnityEngine::UIElements::IPointerOrMouseEvent"
+  constexpr operator ::UnityEngine::UIElements::IPointerOrMouseEvent*() noexcept;
+
+  /// @brief Method Dispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::UnityEngine::UIElements::IPointerEvent* pointerEvent);
@@ -132,7 +136,7 @@ public:
   static inline T GetPooled(::UnityEngine::UIElements::IMouseEvent* triggerEvent);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline T GetPooled(::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition, bool recomputeTopElementUnderMouse);
+  static inline T GetPooled(::UnityEngine::UIElements::IMouseEvent* triggerEvent, ::UnityEngine::Vector2 mousePosition);
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
@@ -148,17 +152,11 @@ public:
   /// @brief Method PreDispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool UnityEngine_UIElements_IMouseEventInternal_get_recomputeTopElementUnderMouse();
-
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::IPointerEvent* UnityEngine_UIElements_IMouseEventInternal_get_sourcePointerEvent();
 
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.get_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool UnityEngine_UIElements_IMouseEventInternal_get_triggeredByOS();
-
-  /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_recomputeTopElementUnderMouse, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline void UnityEngine_UIElements_IMouseEventInternal_set_recomputeTopElementUnderMouse(bool value);
 
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_sourcePointerEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_sourcePointerEvent(::UnityEngine::UIElements::IPointerEvent* value);
@@ -166,9 +164,11 @@ public:
   /// @brief Method UnityEngine.UIElements.IMouseEventInternal.set_triggeredByOS, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IMouseEventInternal_set_triggeredByOS(bool value);
 
-  constexpr bool const& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField() const;
+  /// @brief Method UnityEngine.UIElements.IPointerOrMouseEvent.get_pointerId, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t UnityEngine_UIElements_IPointerOrMouseEvent_get_pointerId();
 
-  constexpr bool& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField();
+  /// @brief Method UnityEngine.UIElements.IPointerOrMouseEvent.get_position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::UnityEngine::Vector3 UnityEngine_UIElements_IPointerOrMouseEvent_get_position();
 
   constexpr ::UnityEngine::UIElements::IPointerEvent* const& __cordl_internal_get__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField() const;
 
@@ -206,8 +206,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get__pressedButtons_k__BackingField();
 
-  constexpr void __cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField(bool value);
-
   constexpr void __cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField(::UnityEngine::UIElements::IPointerEvent* value);
 
   constexpr void __cordl_internal_set__UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField(bool value);
@@ -229,20 +227,11 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_altKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool get_altKey();
-
   /// @brief Method get_button, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_button();
 
   /// @brief Method get_clickCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_clickCount();
-
-  /// @brief Method get_commandKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool get_commandKey();
-
-  /// @brief Method get_ctrlKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool get_ctrlKey();
 
   /// @brief Method get_currentTarget, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_currentTarget();
@@ -262,14 +251,14 @@ public:
   /// @brief Method get_pressedButtons, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_pressedButtons();
 
-  /// @brief Method get_shiftKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
-  inline bool get_shiftKey();
-
   /// @brief Convert to "::UnityEngine::UIElements::IMouseEvent"
   constexpr ::UnityEngine::UIElements::IMouseEvent* i___UnityEngine__UIElements__IMouseEvent() noexcept;
 
   /// @brief Convert to "::UnityEngine::UIElements::IMouseEventInternal"
   constexpr ::UnityEngine::UIElements::IMouseEventInternal* i___UnityEngine__UIElements__IMouseEventInternal() noexcept;
+
+  /// @brief Convert to "::UnityEngine::UIElements::IPointerOrMouseEvent"
+  constexpr ::UnityEngine::UIElements::IPointerOrMouseEvent* i___UnityEngine__UIElements__IPointerOrMouseEvent() noexcept;
 
   /// @brief Method set_button, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_button(int32_t value);
@@ -310,36 +299,33 @@ public:
   MouseEventBase_1(MouseEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5857 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4488 };
 
-  /// @brief Field <modifiers>k__BackingField, offset: 0x84, size: 0x4, def value: None
+  /// @brief Field <modifiers>k__BackingField, offset: 0x64, size: 0x4, def value: None
   ::UnityEngine::EventModifiers ____modifiers_k__BackingField;
 
-  /// @brief Field <mousePosition>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <mousePosition>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mousePosition_k__BackingField;
 
-  /// @brief Field <localMousePosition>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <localMousePosition>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____localMousePosition_k__BackingField;
 
-  /// @brief Field <mouseDelta>k__BackingField, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field <mouseDelta>k__BackingField, offset: 0x78, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____mouseDelta_k__BackingField;
 
-  /// @brief Field <clickCount>k__BackingField, offset: 0xa0, size: 0x4, def value: None
+  /// @brief Field <clickCount>k__BackingField, offset: 0x80, size: 0x4, def value: None
   int32_t ____clickCount_k__BackingField;
 
-  /// @brief Field <button>k__BackingField, offset: 0xa4, size: 0x4, def value: None
+  /// @brief Field <button>k__BackingField, offset: 0x84, size: 0x4, def value: None
   int32_t ____button_k__BackingField;
 
-  /// @brief Field <pressedButtons>k__BackingField, offset: 0xa8, size: 0x4, def value: None
+  /// @brief Field <pressedButtons>k__BackingField, offset: 0x88, size: 0x4, def value: None
   int32_t ____pressedButtons_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField, offset: 0xac, size: 0x1, def value: None
+  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.triggeredByOS>k__BackingField, offset: 0x8c, size: 0x1, def value: None
   bool ____UnityEngine_UIElements_IMouseEventInternal_triggeredByOS_k__BackingField;
 
-  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.recomputeTopElementUnderMouse>k__BackingField, offset: 0xad, size: 0x1, def value: None
-  bool ____UnityEngine_UIElements_IMouseEventInternal_recomputeTopElementUnderMouse_k__BackingField;
-
-  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field <UnityEngine.UIElements.IMouseEventInternal.sourcePointerEvent>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPointerEvent* ____UnityEngine_UIElements_IMouseEventInternal_sourcePointerEvent_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

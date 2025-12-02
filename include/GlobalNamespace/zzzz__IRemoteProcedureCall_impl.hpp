@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IRemoteProcedureCall.hpp"
-#include "GlobalNamespace/zzzz__IPoolablePacket_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__IRemoteProcedureCall_def.hpp"
+#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IRemoteProcedureCall.get_syncTime
 template <>
 

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -11,13 +10,16 @@ CORDL_MODULE_EXPORT(OvrToolMetrics)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class OvrToolMetrics;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OvrToolMetrics);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OvrToolMetrics
@@ -36,21 +38,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CaptureFrame, addr 0x3b1dd90, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method CaptureFrame, addr 0x56ff7d0, size 0x68, virtual false, abstract: false, final false
   inline void CaptureFrame();
 
-  /// @brief Method Dispose, addr 0x3b1dd8c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x56ff7cc, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GenerateListReport, addr 0x3b1dde4, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method GenerateListReport, addr 0x56ff838, size 0x19c, virtual false, abstract: false, final false
   inline ::StringW GenerateListReport();
 
-  /// @brief Method GenerateTableReport, addr 0x3b1df70, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableReport, addr 0x56ff9d4, size 0x1f0, virtual false, abstract: false, final false
   inline ::StringW GenerateTableReport();
 
   static inline ::GlobalNamespace::OvrToolMetrics* New_ctor();
 
-  /// @brief Method RecordMetrics, addr 0x3b1dd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method RecordMetrics, addr 0x56ff7c4, size 0x8, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OvrToolMetrics* RecordMetrics(int32_t initialFrameCapacity);
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__metrics() const;
@@ -71,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__samples(::System::Collections::Generic::List_1<int64_t>* value);
 
-  /// @brief Method .ctor, addr 0x3b1e13c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ffbc4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -92,7 +94,7 @@ public:
   OvrToolMetrics(OvrToolMetrics const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
 
   /// @brief Field _metrics, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____metrics;

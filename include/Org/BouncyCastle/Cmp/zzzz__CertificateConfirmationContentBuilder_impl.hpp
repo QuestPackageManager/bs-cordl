@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)()>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x264c2c0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x357b828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)(
     ::Org::BouncyCastle::Cms::DefaultDigestAlgorithmIdentifierFinder*)>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x264c31c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x357b87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder* (
     ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)(::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::AddAcceptedCertificate)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x264c3a0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x357b8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cmp::CertificateConfirmationContent* (
     ::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::*)()>(&::Org::BouncyCastle::Cmp::CertificateConfirmationContentBuilder::Build)> {
-  constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x264c4c8;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x357ba24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

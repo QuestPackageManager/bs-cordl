@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SerializationBinderAdapter)
+namespace Newtonsoft::Json::Serialization {
+class ISerializationBinder;
+}
 namespace System::Runtime::Serialization {
 class SerializationBinder;
 }
@@ -19,7 +21,7 @@ class SerializationBinderAdapter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::SerializationBinderAdapter);
-// Dependencies Newtonsoft.Json.Serialization.ISerializationBinder, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.SerializationBinderAdapter
@@ -32,10 +34,10 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ISerializationBinder"
   constexpr operator ::Newtonsoft::Json::Serialization::ISerializationBinder*() noexcept;
 
-  /// @brief Method BindToName, addr 0x3efea84, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method BindToName, addr 0x5b45668, size 0x1c, virtual true, abstract: false, final true
   inline void BindToName(::System::Type* serializedType, ::ByRef<::StringW> assemblyName, ::ByRef<::StringW> typeName);
 
-  /// @brief Method BindToType, addr 0x3efea64, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method BindToType, addr 0x5b4564c, size 0x1c, virtual true, abstract: false, final true
   inline ::System::Type* BindToType(::StringW assemblyName, ::StringW typeName);
 
   static inline ::Newtonsoft::Json::Serialization::SerializationBinderAdapter* New_ctor(::System::Runtime::Serialization::SerializationBinder* serializationBinder);
@@ -46,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_SerializationBinder(::System::Runtime::Serialization::SerializationBinder* value);
 
-  /// @brief Method .ctor, addr 0x3efea3c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b45644, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationBinder* serializationBinder);
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ISerializationBinder"
@@ -67,7 +69,7 @@ public:
   SerializationBinderAdapter(SerializationBinderAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13504 };
 
   /// @brief Field SerializationBinder, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Serialization::SerializationBinder* ___SerializationBinder;

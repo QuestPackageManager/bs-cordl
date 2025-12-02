@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IPolynomialExtensionField* (*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Org::BouncyCastle::Math::Field::FiniteFields::GetBinaryExtensionField)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x24dcd78;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x340c4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::Field::IFiniteField* (*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Field::FiniteFields::GetPrimeField)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x24dcfa0;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x340c6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Field::FiniteFields::*)()>(&::Org::BouncyCastle::Math::Field::FiniteFields::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24dd234;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x340c90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Field::FiniteFields*>::get(), ".ctor",

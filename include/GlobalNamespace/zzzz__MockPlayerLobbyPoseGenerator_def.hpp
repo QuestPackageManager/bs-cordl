@@ -3,14 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockPlayerLobbyPoseGenerator)
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class MockNodePoseSyncStateSender;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +20,7 @@ class MockPlayerLobbyPoseGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerLobbyPoseGenerator);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockPlayerLobbyPoseGenerator
@@ -31,18 +33,18 @@ public:
 
   /// @brief Field multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_multiplayerSessionManager,
-                      put = __cordl_internal_set_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+                      put = __cordl_internal_set_multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3c2f648, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x58729ec, size 0x10, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init();
 
-  static inline ::GlobalNamespace::MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
+  static inline ::GlobalNamespace::MockPlayerLobbyPoseGenerator* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
   /// @brief Method Tick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Tick();
@@ -51,16 +53,16 @@ public:
 
   constexpr ::GlobalNamespace::MockNodePoseSyncStateSender*& __cordl_internal_get_mockNodePoseSyncStateSender();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get_multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get_multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
 
   constexpr void __cordl_internal_set_mockNodePoseSyncStateSender(::GlobalNamespace::MockNodePoseSyncStateSender* value);
 
-  constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3c2f5d4, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager);
+  /// @brief Method .ctor, addr 0x5872980, size 0x6c, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
@@ -80,10 +82,10 @@ public:
   MockPlayerLobbyPoseGenerator(MockPlayerLobbyPoseGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22022 };
 
   /// @brief Field multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ___multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ___multiplayerSessionManager;
 
   /// @brief Field mockNodePoseSyncStateSender, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::MockNodePoseSyncStateSender* ___mockNodePoseSyncStateSender;

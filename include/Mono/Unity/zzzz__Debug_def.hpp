@@ -28,10 +28,10 @@ namespace Mono::Unity {
 class CORDL_TYPE Debug : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CheckAndThrow, addr 0x410a7dc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x5db48d4, size 0x98, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::StringW context, ::Mono::Security::Interface::AlertDescription defaultAlert);
 
-  /// @brief Method CheckAndThrow, addr 0x410a874, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CheckAndThrow, addr 0x5db496c, size 0xd0, virtual false, abstract: false, final false
   static inline void CheckAndThrow(::Mono::Unity::UnityTls_unitytls_errorstate errorState, ::Mono::Unity::UnityTls_unitytls_x509verify_result verifyResult, ::StringW context,
                                    ::Mono::Security::Interface::AlertDescription defaultAlert);
 
@@ -50,7 +50,7 @@ public:
   Debug(Debug const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9077 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10918 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ApplyTo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4038888;
+  constexpr static std::size_t addrs = 0x5ced72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*, ::GlobalNamespace::OVRMixedRealityCaptureConfiguration*)>(&::GlobalNamespace::OVRMixedRealityCaptureConfigurationExtensions::ReadFrom)> {
-  constexpr static std::size_t size = 0x1428;
-  constexpr static std::size_t addrs = 0x403888c;
+  constexpr static std::size_t size = 0x142c;
+  constexpr static std::size_t addrs = 0x5ced730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

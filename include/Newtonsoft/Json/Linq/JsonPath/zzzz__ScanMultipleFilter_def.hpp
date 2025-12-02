@@ -4,12 +4,7 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/JsonPath/zzzz__PathFilter_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -36,7 +31,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -51,8 +52,7 @@ class ScanMultipleFilter__ExecuteFilter_d__2;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::ScanMultipleFilter);
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JsonPath::ScanMultipleFilter__ExecuteFilter_d__2);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.List`1::Enumerator<T>, System.Collections.IEnumerable,
-// System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace Newtonsoft::Json::Linq::JsonPath {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.JsonPath.ScanMultipleFilter/<ExecuteFilter>d__2
@@ -112,27 +112,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3f39df8, size 0x450, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5b80d00, size 0x494, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JsonPath::ScanMultipleFilter__ExecuteFilter_d__2* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x3f3a390, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<Newtonsoft.Json.Linq.JToken>.GetEnumerator, addr 0x5b812d8, size 0xa0, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IEnumerable_Newtonsoft_Json_Linq_JToken__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x3f3a348, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<Newtonsoft.Json.Linq.JToken>.get_Current, addr 0x5b81290, size 0x8, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* System_Collections_Generic_IEnumerator_Newtonsoft_Json_Linq_JToken__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3f3a434, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5b81378, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f3a350, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5b81298, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f3a388, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5b812d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3f39d48, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5b80c1c, size 0xe4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -201,13 +201,13 @@ public:
 
   constexpr void __cordl_internal_set_current(::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x3f3a298, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5b811dc, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x3f3a248, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x5b81194, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method .ctor, addr 0x3f39d14, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b80bfc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>"
@@ -240,7 +240,7 @@ public:
   ScanMultipleFilter__ExecuteFilter_d__2(ScanMultipleFilter__ExecuteFilter_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13616 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -315,7 +315,7 @@ public:
   /// @brief Field _names, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__names, put = __cordl_internal_set__names)) ::System::Collections::Generic::List_1<::StringW>* _names;
 
-  /// @brief Method ExecuteFilter, addr 0x3f39c98, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ExecuteFilter, addr 0x5b80b84, size 0x78, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* ExecuteFilter(::Newtonsoft::Json::Linq::JToken* root,
                                                                                                          ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JToken*>* current,
                                                                                                          ::Newtonsoft::Json::Linq::JsonSelectSettings* settings);
@@ -328,7 +328,7 @@ public:
 
   constexpr void __cordl_internal_set__names(::System::Collections::Generic::List_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x3f36a90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b7dad0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::List_1<::StringW>* names);
 
 protected:
@@ -346,7 +346,7 @@ public:
   ScanMultipleFilter(ScanMultipleFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13617 };
 
   /// @brief Field _names, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ____names;

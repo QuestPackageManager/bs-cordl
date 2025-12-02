@@ -6,18 +6,6 @@ CORDL_MODULE_INIT
 #include "System/IO/zzzz__FileSystemInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DirectoryInfo)
-namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
-}
-namespace System::IO {
-class EnumerationOptions;
-}
-namespace System::IO {
-class FileSystemInfo;
-}
-namespace System::IO {
-struct SearchTarget;
-}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -37,21 +25,8 @@ namespace System::IO {
 class CORDL_TYPE DirectoryInfo : public ::System::IO::FileSystemInfo {
 public:
   // Declarations
-  /// @brief Method Delete, addr 0x3d66794, size 0xc, virtual true, abstract: false, final false
-  inline void Delete();
-
-  /// @brief Method GetDirectories, addr 0x3d66494, size 0xa8, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories();
-
-  /// @brief Method GetDirectories, addr 0x3d6653c, size 0xa0, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::IO::DirectoryInfo*, ::Array<::System::IO::DirectoryInfo*>*> GetDirectories(::StringW searchPattern, ::System::IO::EnumerationOptions* enumerationOptions);
-
-  /// @brief Method Init, addr 0x3d661fc, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x59f09a4, size 0x27c, virtual false, abstract: false, final false
   inline void Init(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
-
-  /// @brief Method InternalEnumerateInfos, addr 0x3d665dc, size 0x1b8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::System::IO::FileSystemInfo*>* InternalEnumerateInfos(::StringW path, ::StringW searchPattern, ::System::IO::SearchTarget searchTarget,
-                                                                                                                     ::System::IO::EnumerationOptions* options);
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
@@ -59,13 +34,13 @@ public:
 
   static inline ::System::IO::DirectoryInfo* New_ctor(::StringW path);
 
-  /// @brief Method .ctor, addr 0x3d66864, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f0c20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d65768, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f0224, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::StringW originalPath, ::StringW fullPath, ::StringW fileName, bool isNormalized);
 
-  /// @brief Method .ctor, addr 0x3d64fcc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59df048, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW path);
 
 protected:
@@ -83,7 +58,7 @@ public:
   DirectoryInfo(DirectoryInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3875 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -29,7 +29,7 @@ public:
   constexpr UILineInfo(int32_t startCharIdx, int32_t height, float_t topY, float_t leading) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22129 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

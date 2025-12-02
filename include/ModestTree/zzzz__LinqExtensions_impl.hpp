@@ -1,19 +1,16 @@
 #pragma once
 // IWYU pragma private; include "ModestTree/LinqExtensions.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
 #include "ModestTree/zzzz__LinqExtensions_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T> inline void ModestTree::LinqExtensions___c__8_1<T>::setStaticF___9(::ModestTree::LinqExtensions___c__8_1<T>* value) {
   ::cordl_internals::setStaticField<::ModestTree::LinqExtensions___c__8_1<T>*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::LinqExtensions___c__8_1<T>*>::get>(

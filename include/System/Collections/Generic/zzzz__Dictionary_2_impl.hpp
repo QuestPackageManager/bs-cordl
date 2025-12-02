@@ -1,20 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/Dictionary_2.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
-#include "System/Collections/zzzz__IDictionary_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -23,15 +9,22 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__InsertionBehavior_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "next", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
 // "key", ty: "TKey", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "TValue", modifiers: "", def_value: Some("{}") }]
@@ -814,6 +807,24 @@ inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::_ctor(::Sy
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dictionary, comparer);
 }
 template <typename TKey, typename TValue>
+inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
+}
+template <typename TKey, typename TValue>
+inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection,
+                                                                            ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEqualityComparer_1<TKey>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection, comparer);
+}
+template <typename TKey, typename TValue>
 inline void System::Collections::Generic::Dictionary_2<TKey, TValue>::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -1049,6 +1060,12 @@ template <typename TKey, typename TValue> inline ::System::Collections::IEnumera
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
+template <typename TKey, typename TValue> inline int32_t System::Collections::Generic::Dictionary_2<TKey, TValue>::EnsureCapacity(int32_t capacity) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(), "EnsureCapacity",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, capacity);
+}
 template <typename TKey, typename TValue> inline bool System::Collections::Generic::Dictionary_2<TKey, TValue>::System_Collections_ICollection_get_IsSynchronized() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>::get(),
@@ -1157,6 +1174,17 @@ inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>*
 System::Collections::Generic::Dictionary_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IDictionary_2<TKey, TValue>* dictionary,
                                                                    ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>(dictionary, comparer));
+}
+template <typename TKey, typename TValue>
+inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>(collection));
+}
+template <typename TKey, typename TValue>
+inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>*
+System::Collections::Generic::Dictionary_2<TKey, TValue>::New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection,
+                                                                   ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::Dictionary_2<TKey, TValue>*>(collection, comparer));
 }
 template <typename TKey, typename TValue>
 inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* System::Collections::Generic::Dictionary_2<TKey, TValue>::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,

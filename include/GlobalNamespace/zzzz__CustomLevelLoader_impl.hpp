@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CustomLevelLoader.hpp"
-#include "GlobalNamespace/zzzz__ICustomLevelLoader_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__CustomLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentInfoSO_def.hpp"
+#include "GlobalNamespace/zzzz__ICustomLevelLoader_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CustomLevelLoader._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomLevelLoader::*)()>(&::GlobalNamespace::CustomLevelLoader::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26aede0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35e0438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomLevelLoader*>::get(), ".ctor",

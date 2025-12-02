@@ -6,12 +6,17 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
 #include "GlobalNamespace/zzzz__OVRCursor_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInputRayData_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__OVRPointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerInputModule_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -24,16 +29,184 @@ constexpr ::UnityEngine::EventSystems::OVRInputModule_InputMode::OVRInputModule_
 constexpr ::UnityEngine::EventSystems::OVRInputModule_InputMode::OVRInputModule_InputMode() {}
 constexpr ::UnityEngine::EventSystems::OVRInputModule_InputMode UnityEngine::EventSystems::OVRInputModule_InputMode::Mouse{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::EventSystems::OVRInputModule_InputMode UnityEngine::EventSystems::OVRInputModule_InputMode::Buttons{ static_cast<int32_t>(0x1) };
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.IsPressed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::IsPressed)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.IsReleased
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::IsReleased)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.GetPointerRayTransform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::GetPointerRayTransform)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.IsValid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::IsValid)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 3));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.IsActive
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::IsActive)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.UpdatePointerRay
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)(::GlobalNamespace::OVRInputRayData)>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::UpdatePointerRay)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule_InputSource.GetHand
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Hand (::UnityEngine::EventSystems::OVRInputModule_InputSource::*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule_InputSource::GetHand)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 6));
+    return ___internal_method;
+  }
+};
+inline bool UnityEngine::EventSystems::OVRInputModule_InputSource::IsPressed() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool UnityEngine::EventSystems::OVRInputModule_InputSource::IsReleased() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 1)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Transform> UnityEngine::EventSystems::OVRInputModule_InputSource::GetPointerRayTransform() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+}
+inline bool UnityEngine::EventSystems::OVRInputModule_InputSource::IsValid() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 3)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool UnityEngine::EventSystems::OVRInputModule_InputSource::IsActive() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::EventSystems::OVRInputModule_InputSource::UpdatePointerRay(::GlobalNamespace::OVRInputRayData rayData) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rayData);
+}
+inline ::GlobalNamespace::OVRPlugin_Hand UnityEngine::EventSystems::OVRInputModule_InputSource::GetHand() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Hand, false>(this, ___internal_method);
+}
 //  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::_ctor)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4078cc8;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x5c34ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.Awake
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::Awake)> {
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x5c350d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 4));
     return ___internal_method;
   }
 };
@@ -43,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::OVRInputModule_InputMode (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_inputMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e28;
+  constexpr static std::size_t addrs = 0x5c3555c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -57,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_allowActivationOnMobileDevice)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e30;
+  constexpr static std::size_t addrs = 0x5c35564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,8 +244,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(bool)>(
     &::UnityEngine::EventSystems::OVRInputModule::set_allowActivationOnMobileDevice)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4078e38;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c3556c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_inputActionsPerSecond)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e44;
+  constexpr static std::size_t addrs = 0x5c35574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -101,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(float_t)>(
     &::UnityEngine::EventSystems::OVRInputModule::set_inputActionsPerSecond)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e4c;
+  constexpr static std::size_t addrs = 0x5c3557c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_horizontalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e54;
+  constexpr static std::size_t addrs = 0x5c35584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -130,7 +303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(
     &::UnityEngine::EventSystems::OVRInputModule::set_horizontalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e5c;
+  constexpr static std::size_t addrs = 0x5c3558c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_verticalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e64;
+  constexpr static std::size_t addrs = 0x5c35594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -159,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(
     &::UnityEngine::EventSystems::OVRInputModule::set_verticalAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e6c;
+  constexpr static std::size_t addrs = 0x5c3559c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_submitButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e74;
+  constexpr static std::size_t addrs = 0x5c355a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -188,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(
     &::UnityEngine::EventSystems::OVRInputModule::set_submitButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e7c;
+  constexpr static std::size_t addrs = 0x5c355ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::get_cancelButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e84;
+  constexpr static std::size_t addrs = 0x5c355b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -217,7 +390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::StringW)>(
     &::UnityEngine::EventSystems::OVRInputModule::set_cancelButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4078e8c;
+  constexpr static std::size_t addrs = 0x5c355bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,7 +405,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::UpdateModule)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4078e94;
+  constexpr static std::size_t addrs = 0x5c355c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,7 +420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::IsModuleSupported)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4078eb8;
+  constexpr static std::size_t addrs = 0x5c355e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,8 +434,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::ShouldActivateModule)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4078ed0;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x5c35600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -276,8 +449,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::ActivateModule)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4079058;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5c357ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -291,8 +464,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::DeactivateModule)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4079124;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5c35870;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -306,8 +479,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::SendSubmitEventToSelectedObject)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x4079438;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x5c35ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -321,8 +494,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)(float_t)>(
     &::UnityEngine::EventSystems::OVRInputModule::AllowMoveEventProcessing)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4079628;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c35cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,8 +509,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::GetRawMoveVector)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4079684;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5c35d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -350,8 +523,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::SendMoveEventToSelectedObject)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x407973c;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x5c35df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -364,8 +537,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::SendUpdateEventToSelectedObject)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x4079940;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x5c36028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -379,8 +552,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(
     ::UnityEngine::EventSystems::PointerInputModule_MouseButtonEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::ProcessMousePress)> {
-  constexpr static std::size_t size = 0x668;
-  constexpr static std::size_t addrs = 0x4079a88;
+  constexpr static std::size_t size = 0x748;
+  constexpr static std::size_t addrs = 0x5c36184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -394,8 +567,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerInputModule_MouseState*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ProcessMouseEvent)> {
-  constexpr static std::size_t size = 0x2c8;
-  constexpr static std::size_t addrs = 0x407a1f4;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x5c368cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -408,8 +581,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::Process)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x407a4fc;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x5c36c8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -423,8 +596,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool, bool, ::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::UseMouse)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x407a4bc;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5c36be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,8 +612,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(
     ::UnityEngine::EventSystems::OVRPointerEventData*, ::UnityEngine::EventSystems::OVRPointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x407a594;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5c36f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -455,8 +628,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::CopyFromTo)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x407a604;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5c36f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -471,8 +644,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)(
     int32_t, ::ByRef<::UnityEngine::EventSystems::OVRPointerEventData*>, bool)>(&::UnityEngine::EventSystems::OVRInputModule::GetPointerData)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x407a664;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5c37000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -488,8 +661,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::ClearSelection)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4079140;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x5c35874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -502,8 +675,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::UnityEngine::RectTransform*)>(
     &::UnityEngine::EventSystems::OVRInputModule::GetRectTransformNormal)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x407a75c;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5c3710c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,18 +685,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.GetGazePointerData
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.GetMouseStateFromInputSource
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (::UnityEngine::EventSystems::OVRInputModule::*)()>(
-    &::UnityEngine::EventSystems::OVRInputModule::GetGazePointerData)> {
-  constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x407a900;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (
+    ::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::OVRInputModule_InputSource*, int32_t)>(&::UnityEngine::EventSystems::OVRInputModule::GetMouseStateFromInputSource)> {
+  constexpr static std::size_t size = 0x9d4;
+  constexpr static std::size_t addrs = 0x5c372bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 31));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.GetMouseStateFromRaycast
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (
+    ::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::Transform*)>(&::UnityEngine::EventSystems::OVRInputModule::GetMouseStateFromRaycast)> {
+  constexpr static std::size_t size = 0x730;
+  constexpr static std::size_t addrs = 0x5c38128;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 33));
     return ___internal_method;
   }
 };
@@ -532,8 +720,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerInputModule_MouseState* (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::GetCanvasPointerData)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x407b554;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x5c38858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -546,8 +734,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ShouldStartDrag)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x407b8dc;
+  constexpr static std::size_t size = 0x31c;
+  constexpr static std::size_t addrs = 0x5c38bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -561,8 +749,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::IsPointerMoving)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x407a560;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5c36ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -576,8 +764,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRInputModule::*)(
     ::UnityEngine::Vector2, ::UnityEngine::EventSystems::PointerEventData*)>(&::UnityEngine::EventSystems::OVRInputModule::SwipeAdjustedPosition)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x407bca0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5c38ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,13 +780,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::EventSystems::OVRInputModule::ProcessDrag)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x407bd28;
+  constexpr static std::size_t size = 0x388;
+  constexpr static std::size_t addrs = 0x5c38f84;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 30));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 31));
     return ___internal_method;
   }
 };
@@ -607,13 +795,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::EventSystems::PointerEventData_FramePressState (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::GetGazeButtonState)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x407c040;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5c3930c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 32));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 34));
     return ___internal_method;
   }
 };
@@ -622,12 +810,84 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::OVRInputModule::*)()>(
     &::UnityEngine::EventSystems::OVRInputModule::GetExtraScrollDelta)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x407b028;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5c37c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
                                                                                "GetExtraScrollDelta", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.TrackInputSource
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::OVRInputModule_InputSource*)>(
+    &::UnityEngine::EventSystems::OVRInputModule::TrackInputSource)> {
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x5c3530c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), "TrackInputSource", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.UntrackInputSource
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::OVRInputModule_InputSource*)>(
+    &::UnityEngine::EventSystems::OVRInputModule::UntrackInputSource)> {
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x5c3949c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), "UntrackInputSource", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.OnDestroy
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::OVRInputModule::*)()>(&::UnityEngine::EventSystems::OVRInputModule::OnDestroy)> {
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5c39670;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.get_instance
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::OVRInputModule> (*)()>(
+    &::UnityEngine::EventSystems::OVRInputModule::get_instance)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5c39744;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
+                                                                               "get_instance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::EventSystems::OVRInputModule.set_instance
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::EventSystems::OVRInputModule*)>(&::UnityEngine::EventSystems::OVRInputModule::set_instance)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5c397a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), "set_instance", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::OVRInputModule*>::get() })));
     return ___internal_method;
   }
 };
@@ -835,6 +1095,18 @@ constexpr void UnityEngine::EventSystems::OVRInputModule::__cordl_internal_set_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_MousePosition = value;
 }
+constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::GameObject>>*& UnityEngine::EventSystems::OVRInputModule::__cordl_internal_get__objectsHitThisFrame() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____objectsHitThisFrame;
+}
+constexpr ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::GameObject>>* const& UnityEngine::EventSystems::OVRInputModule::__cordl_internal_get__objectsHitThisFrame() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____objectsHitThisFrame;
+}
+constexpr void UnityEngine::EventSystems::OVRInputModule::__cordl_internal_set__objectsHitThisFrame(::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::GameObject>>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____objectsHitThisFrame)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::StringW& UnityEngine::EventSystems::OVRInputModule::__cordl_internal_get_m_HorizontalAxis() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_HorizontalAxis;
@@ -934,9 +1206,46 @@ constexpr void UnityEngine::EventSystems::OVRInputModule::__cordl_internal_set_m
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MouseState)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>*& UnityEngine::EventSystems::OVRInputModule::__cordl_internal_get__trackedInputSources() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____trackedInputSources;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>* const&
+UnityEngine::EventSystems::OVRInputModule::__cordl_internal_get__trackedInputSources() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____trackedInputSources;
+}
+constexpr void
+UnityEngine::EventSystems::OVRInputModule::__cordl_internal_set__trackedInputSources(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____trackedInputSources)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::EventSystems::OVRInputModule::setStaticF__instance_k__BackingField(::UnityW<::UnityEngine::EventSystems::OVRInputModule> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::EventSystems::OVRInputModule>, "<instance>k__BackingField",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get>(
+      std::forward<::UnityW<::UnityEngine::EventSystems::OVRInputModule>>(value));
+}
+inline ::UnityW<::UnityEngine::EventSystems::OVRInputModule> UnityEngine::EventSystems::OVRInputModule::getStaticF__instance_k__BackingField() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::EventSystems::OVRInputModule>, "<instance>k__BackingField",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get>();
+}
+inline void UnityEngine::EventSystems::OVRInputModule::setStaticF__pendingInputSources(::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>*, "_pendingInputSources",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get>(
+      std::forward<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>*>(value));
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>* UnityEngine::EventSystems::OVRInputModule::getStaticF__pendingInputSources() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::OVRInputModule_InputSource*>*, "_pendingInputSources",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get>();
+}
 inline void UnityEngine::EventSystems::OVRInputModule::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::EventSystems::OVRInputModule::Awake() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::EventSystems::OVRInputModule_InputMode UnityEngine::EventSystems::OVRInputModule::get_inputMode() {
@@ -1119,10 +1428,16 @@ inline ::UnityEngine::Vector3 UnityEngine::EventSystems::OVRInputModule::GetRect
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RectTransform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, rectTransform);
 }
-inline ::UnityEngine::EventSystems::PointerInputModule_MouseState* UnityEngine::EventSystems::OVRInputModule::GetGazePointerData() {
+inline ::UnityEngine::EventSystems::PointerInputModule_MouseState*
+UnityEngine::EventSystems::OVRInputModule::GetMouseStateFromInputSource(::UnityEngine::EventSystems::OVRInputModule_InputSource* inputSource, int32_t id) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 31)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::PointerInputModule_MouseState*, false>(this, ___internal_method);
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 32)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::PointerInputModule_MouseState*, false>(this, ___internal_method, inputSource, id);
+}
+inline ::UnityEngine::EventSystems::PointerInputModule_MouseState* UnityEngine::EventSystems::OVRInputModule::GetMouseStateFromRaycast(::UnityEngine::Transform* rayOrigin) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 33)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::PointerInputModule_MouseState*, false>(this, ___internal_method, rayOrigin);
 }
 inline ::UnityEngine::EventSystems::PointerInputModule_MouseState* UnityEngine::EventSystems::OVRInputModule::GetCanvasPointerData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
@@ -1150,18 +1465,46 @@ inline ::UnityEngine::Vector2 UnityEngine::EventSystems::OVRInputModule::SwipeAd
 }
 inline void UnityEngine::EventSystems::OVRInputModule::ProcessDrag(::UnityEngine::EventSystems::PointerEventData* pointerEvent) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pointerEvent);
 }
 inline ::UnityEngine::EventSystems::PointerEventData_FramePressState UnityEngine::EventSystems::OVRInputModule::GetGazeButtonState() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::EventSystems::PointerEventData_FramePressState, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Vector2 UnityEngine::EventSystems::OVRInputModule::GetExtraScrollDelta() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
                                                                              "GetExtraScrollDelta", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
+}
+inline void UnityEngine::EventSystems::OVRInputModule::TrackInputSource(::UnityEngine::EventSystems::OVRInputModule_InputSource* hand) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), "TrackInputSource", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, hand);
+}
+inline void UnityEngine::EventSystems::OVRInputModule::UntrackInputSource(::UnityEngine::EventSystems::OVRInputModule_InputSource* hand) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), "UntrackInputSource", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::OVRInputModule_InputSource*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, hand);
+}
+inline void UnityEngine::EventSystems::OVRInputModule::OnDestroy() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::EventSystems::OVRInputModule> UnityEngine::EventSystems::OVRInputModule::get_instance() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(),
+                                                                             "get_instance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::EventSystems::OVRInputModule>, false>(nullptr, ___internal_method);
+}
+inline void UnityEngine::EventSystems::OVRInputModule::set_instance(::UnityEngine::EventSystems::OVRInputModule* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::OVRInputModule*>::get(), "set_instance", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::OVRInputModule*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
 inline ::UnityEngine::EventSystems::OVRInputModule* UnityEngine::EventSystems::OVRInputModule::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::EventSystems::OVRInputModule*>());

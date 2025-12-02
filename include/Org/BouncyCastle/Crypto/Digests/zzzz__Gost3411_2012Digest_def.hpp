@@ -3,12 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
-#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Gost3411_2012Digest)
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 namespace Org::BouncyCastle::Utilities {
 class IMemoable;
 }
@@ -18,7 +19,7 @@ class Gost3411_2012Digest;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest);
-// Dependencies Org.BouncyCastle.Crypto.IDigest, Org.BouncyCastle.Utilities.IMemoable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Digests {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Digests.Gost3411_2012Digest
@@ -69,22 +70,22 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr operator ::Org::BouncyCastle::Utilities::IMemoable*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x2697948, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method BlockUpdate, addr 0x35c707c, size 0x144, virtual true, abstract: false, final true
   inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
 
   /// @brief Method Copy, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::IMemoable* Copy();
 
-  /// @brief Method DoFinal, addr 0x2697390, size 0x178, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x35c6ab8, size 0x180, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method E, addr 0x269863c, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method E, addr 0x35c7d78, size 0x144, virtual false, abstract: false, final false
   inline void E(::ArrayW<uint8_t, ::Array<uint8_t>*> K, ::ArrayW<uint8_t, ::Array<uint8_t>*> m);
 
-  /// @brief Method F, addr 0x2697a8c, size 0xb54, virtual false, abstract: false, final false
+  /// @brief Method F, addr 0x35c71c0, size 0xb5c, virtual false, abstract: false, final false
   inline void F(::ArrayW<uint8_t, ::Array<uint8_t>*> V);
 
-  /// @brief Method GetByteLength, addr 0x2697778, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetByteLength, addr 0x35c6ea0, size 0x8, virtual true, abstract: false, final true
   inline int32_t GetByteLength();
 
   /// @brief Method GetDigestSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -92,13 +93,13 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Digests::Gost3411_2012Digest* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> IV);
 
-  /// @brief Method Reset, addr 0x26976d4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x35c6df8, size 0xa8, virtual true, abstract: false, final true
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x2697780, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x35c6ea8, size 0x158, virtual true, abstract: false, final true
   inline void Reset(::Org::BouncyCastle::Utilities::IMemoable* other);
 
-  /// @brief Method Update, addr 0x26978cc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Update, addr 0x35c7000, size 0x7c, virtual true, abstract: false, final true
   inline void Update(uint8_t input);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_IV() const;
@@ -155,16 +156,16 @@ public:
 
   constexpr void __cordl_internal_set_tmp(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x269728c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35c69a0, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> IV);
 
-  /// @brief Method addMod512, addr 0x2697604, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method addMod512, addr 0x35c6d30, size 0x60, virtual false, abstract: false, final false
   inline void addMod512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, ::ArrayW<uint8_t, ::Array<uint8_t>*> B);
 
-  /// @brief Method addMod512, addr 0x2697588, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method addMod512, addr 0x35c6cb8, size 0x78, virtual false, abstract: false, final false
   inline void addMod512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, int32_t num);
 
-  /// @brief Method g_N, addr 0x2697508, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method g_N, addr 0x35c6c38, size 0x80, virtual false, abstract: false, final false
   inline void g_N(::ArrayW<uint8_t, ::Array<uint8_t>*> h, ::ArrayW<uint8_t, ::Array<uint8_t>*> N, ::ArrayW<uint8_t, ::Array<uint8_t>*> m);
 
   static inline ::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> getStaticF_C();
@@ -182,7 +183,7 @@ public:
   /// @brief Convert to "::Org::BouncyCastle::Utilities::IMemoable"
   constexpr ::Org::BouncyCastle::Utilities::IMemoable* i___Org__BouncyCastle__Utilities__IMemoable() noexcept;
 
-  /// @brief Method reverse, addr 0x2697664, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method reverse, addr 0x35c6d90, size 0x68, virtual false, abstract: false, final false
   inline void reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> src, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst);
 
   static inline void setStaticF_C(::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> value);
@@ -191,7 +192,7 @@ public:
 
   static inline void setStaticF_Zero(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method xor512, addr 0x26985e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method xor512, addr 0x35c7d1c, size 0x5c, virtual false, abstract: false, final false
   inline void xor512(::ArrayW<uint8_t, ::Array<uint8_t>*> A, ::ArrayW<uint8_t, ::Array<uint8_t>*> B);
 
 protected:

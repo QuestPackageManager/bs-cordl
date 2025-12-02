@@ -3,14 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(HoverHint)
 namespace HMUI {
 class HoverHintController;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -27,7 +33,7 @@ class HoverHint;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::HoverHint);
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.EventSystems.IPointerExitHandler, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.HoverHint
@@ -60,13 +66,13 @@ public:
 
   static inline ::HMUI::HoverHint* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39ed2d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5664e78, size 0x84, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnPointerEnter, addr 0x39ed134, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5664ce8, size 0x30, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x39ed19c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5664d40, size 0xc4, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::UnityW<::HMUI::HoverHintController> const& __cordl_internal_get__hoverHintController() const;
@@ -87,16 +93,16 @@ public:
 
   constexpr void __cordl_internal_set__worldCornersTemp(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
-  /// @brief Method .ctor, addr 0x39ed350, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5664efc, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_size, addr 0x39ecfc0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x5664b68, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_size();
 
-  /// @brief Method get_text, addr 0x39ecfb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_text, addr 0x5664b58, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_text();
 
-  /// @brief Method get_worldCenter, addr 0x39ed038, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_worldCenter, addr 0x5664be4, size 0x104, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_worldCenter();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -108,7 +114,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method set_text, addr 0x39ecfb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x5664b60, size 0x8, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -126,7 +132,7 @@ public:
   HoverHint(HoverHint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16041 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19108 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::StringW ____text;

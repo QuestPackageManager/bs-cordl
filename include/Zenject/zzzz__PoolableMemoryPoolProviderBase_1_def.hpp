@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Guid_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 CORDL_MODULE_EXPORT(PoolableMemoryPoolProviderBase_1)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -26,6 +25,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -40,7 +42,7 @@ template <typename TContract> class PoolableMemoryPoolProviderBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolableMemoryPoolProviderBase_1);
-// Dependencies System.Guid, System.Object, Zenject.IProvider
+// Dependencies System.Guid, System.Object
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -129,7 +131,7 @@ public:
   PoolableMemoryPoolProviderBase_1(PoolableMemoryPoolProviderBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14542 };
 
   /// @brief Field <PoolId>k__BackingField, offset: 0x10, size: 0x10, def value: None
   ::System::Guid ____PoolId_k__BackingField;

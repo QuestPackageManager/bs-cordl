@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusInvitePlatformHandler.hpp"
-#include "GlobalNamespace/zzzz__IInvitePlatformHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusInvitePlatformHandler_def.hpp"
+#include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusInvitePlatformHandler.get_isSupported
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OculusInvitePlatformHandler::*)()>(
     &::GlobalNamespace::OculusInvitePlatformHandler::get_isSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dc248;
+  constexpr static std::size_t addrs = 0x360e1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInvitePlatformHandler*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInvitePlatformHandler::*)()>(
     &::GlobalNamespace::OculusInvitePlatformHandler::OpenInvitePanel)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x26dc250;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x360e1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInvitePlatformHandler*>::get(),
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusInvitePlatformHandler::*)()>(&::GlobalNamespace::OculusInvitePlatformHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dc2a8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x360e220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusInvitePlatformHandler*>::get(), ".ctor",

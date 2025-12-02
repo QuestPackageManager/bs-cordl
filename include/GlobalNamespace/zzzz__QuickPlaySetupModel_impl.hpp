@@ -1,13 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/QuickPlaySetupModel.hpp"
-#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupModel_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
+#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupData_def.hpp"
 #include "GlobalNamespace/zzzz__QuickPlaySetupModel_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
@@ -20,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB::*)()>(
     &::GlobalNamespace::QuickPlaySetupModel_QuickPlaySetupDataFB::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d7cc4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3609d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::*)()>(
     &::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x824;
-  constexpr static std::size_t addrs = 0x26d7ccc;
+  constexpr static std::size_t size = 0x8bc;
+  constexpr static std::size_t addrs = 0x3609d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::QuickPlaySetupModel__GetQuickPlaySetupInternal_d__10::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26d84f0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x360a5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -127,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (
     ::GlobalNamespace::QuickPlaySetupModel::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::QuickPlaySetupModel::GetQuickPlaySetupAsync)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26d7958;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3609988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d7b1c;
+  constexpr static std::size_t addrs = 0x3609b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupModel*>::get(), "Init",
@@ -154,8 +153,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::StartRequest)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26d7ab4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3609b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupModel*>::get(), "StartRequest",
@@ -168,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* (
     ::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::GetQuickPlaySetupInternal)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26d7b20;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x3609b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupModel*>::get(),
@@ -182,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::QuickPlaySetupModel::*)()>(
     &::GlobalNamespace::QuickPlaySetupModel::IsQuickPlaySetupTaskValid)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x26d79bc;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x36099f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupModel*>::get(),
@@ -195,8 +194,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::QuickPlaySetupModel::*)(::StringW)>(&::GlobalNamespace::QuickPlaySetupModel::IsUrlValid)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26d7c08;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x3609c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -209,8 +208,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::QuickPlaySetupModel::*)()>(&::GlobalNamespace::QuickPlaySetupModel::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26d7c64;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3609cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QuickPlaySetupModel*>::get(), ".ctor",

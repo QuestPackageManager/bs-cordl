@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::UnionFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::UnionFacetsChecker::CheckValueFacets)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4261fe8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5fb85e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::UnionFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::UnionFacetsChecker::MatchEnumeration)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x42620e0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5fb86d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::UnionFacetsChecker::*)()>(&::System::Xml::Schema::UnionFacetsChecker::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x426219c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5fb8790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::UnionFacetsChecker*>::get(), ".ctor",

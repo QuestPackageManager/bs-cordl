@@ -32,7 +32,7 @@ public:
   template <typename T> static inline ::ByRef<T> Add(::ByRef<T> source, int32_t elementOffset);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> Add(::cordl_internals::Ptr<void> source, int32_t elementOffset);
+  template <typename T> static inline void* Add(void* source, int32_t elementOffset);
 
   /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ByRef<T> AddByteOffset(::ByRef<T> source, ::System::IntPtr byteOffset);
@@ -47,46 +47,46 @@ public:
   template <typename T> static inline T As(::System::Object* o);
 
   /// @brief Method AsPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> AsPointer(::ByRef<T> value);
+  template <typename T> static inline void* AsPointer(::ByRef<T> value);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ByRef<T> AsRef(::ByRef<T> source);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ByRef<T> AsRef(::cordl_internals::Ptr<void> source);
+  template <typename T> static inline ::ByRef<T> AsRef(void* source);
 
   /// @brief Method ByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::IntPtr ByteOffset(::ByRef<T> origin, ::ByRef<T> target);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Copy(::ByRef<T> destination, ::cordl_internals::Ptr<void> source);
+  template <typename T> static inline void Copy(::ByRef<T> destination, void* source);
 
   /// @brief Method Copy, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Copy(::cordl_internals::Ptr<void> destination, ::ByRef<T> source);
+  template <typename T> static inline void Copy(void* destination, ::ByRef<T> source);
 
-  /// @brief Method CopyBlock, addr 0x45278a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlock, addr 0x6275608, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlock(::ByRef<uint8_t> destination, ::ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlock, addr 0x45278a0, size 0x8, virtual false, abstract: false, final false
-  static inline void CopyBlock(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
+  /// @brief Method CopyBlock, addr 0x6275600, size 0x8, virtual false, abstract: false, final false
+  static inline void CopyBlock(void* destination, void* source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x45278b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CopyBlockUnaligned, addr 0x6275618, size 0x8, virtual false, abstract: false, final false
   static inline void CopyBlockUnaligned(::ByRef<uint8_t> destination, ::ByRef<uint8_t> source, uint32_t byteCount);
 
-  /// @brief Method CopyBlockUnaligned, addr 0x45278b0, size 0x8, virtual false, abstract: false, final false
-  static inline void CopyBlockUnaligned(::cordl_internals::Ptr<void> destination, ::cordl_internals::Ptr<void> source, uint32_t byteCount);
+  /// @brief Method CopyBlockUnaligned, addr 0x6275610, size 0x8, virtual false, abstract: false, final false
+  static inline void CopyBlockUnaligned(void* destination, void* source, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x45278c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlock, addr 0x6275628, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlock(::ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlock, addr 0x45278c0, size 0x8, virtual false, abstract: false, final false
-  static inline void InitBlock(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
+  /// @brief Method InitBlock, addr 0x6275620, size 0x8, virtual false, abstract: false, final false
+  static inline void InitBlock(void* startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x45278d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x6275638, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(::ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
-  /// @brief Method InitBlockUnaligned, addr 0x45278d0, size 0x8, virtual false, abstract: false, final false
-  static inline void InitBlockUnaligned(::cordl_internals::Ptr<void> startAddress, uint8_t value, uint32_t byteCount);
+  /// @brief Method InitBlockUnaligned, addr 0x6275630, size 0x8, virtual false, abstract: false, final false
+  static inline void InitBlockUnaligned(void* startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressGreaterThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsAddressGreaterThan(::ByRef<T> left, ::ByRef<T> right);
@@ -95,13 +95,13 @@ public:
   template <typename T> static inline bool IsAddressLessThan(::ByRef<T> left, ::ByRef<T> right);
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Read(::cordl_internals::Ptr<void> source);
+  template <typename T> static inline T Read(void* source);
 
   /// @brief Method ReadUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ReadUnaligned(::ByRef<uint8_t> source);
 
   /// @brief Method ReadUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T ReadUnaligned(::cordl_internals::Ptr<void> source);
+  template <typename T> static inline T ReadUnaligned(void* source);
 
   /// @brief Method SizeOf, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline int32_t SizeOf();
@@ -113,7 +113,7 @@ public:
   template <typename T> static inline ::ByRef<T> Subtract(::ByRef<T> source, int32_t elementOffset);
 
   /// @brief Method Subtract, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> Subtract(::cordl_internals::Ptr<void> source, int32_t elementOffset);
+  template <typename T> static inline void* Subtract(void* source, int32_t elementOffset);
 
   /// @brief Method SubtractByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ByRef<T> SubtractByteOffset(::ByRef<T> source, ::System::IntPtr byteOffset);
@@ -122,13 +122,13 @@ public:
   template <typename T> static inline ::ByRef<T> Unbox(::System::Object* box);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void Write(::cordl_internals::Ptr<void> destination, T value);
+  template <typename T> static inline void Write(void* destination, T value);
 
   /// @brief Method WriteUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void WriteUnaligned(::ByRef<uint8_t> destination, T value);
 
   /// @brief Method WriteUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline void WriteUnaligned(::cordl_internals::Ptr<void> destination, T value);
+  template <typename T> static inline void WriteUnaligned(void* destination, T value);
 
 protected:
   // Ctor Parameters []
@@ -145,7 +145,7 @@ public:
   Unsafe(Unsafe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19256 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23324 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

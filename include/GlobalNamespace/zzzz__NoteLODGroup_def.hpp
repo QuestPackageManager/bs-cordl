@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> meshRenderer;
 
-  /// @brief Method GetStartupLevel, addr 0x3b7db24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetStartupLevel, addr 0x5769404, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetStartupLevel();
 
   static inline ::GlobalNamespace::NoteLODGroup* New_ctor();
@@ -46,13 +46,13 @@ public:
 
   constexpr void __cordl_internal_set__postProcessEnabled(::UnityW<::GlobalNamespace::BoolSO> value);
 
-  /// @brief Method .ctor, addr 0x3b7db2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576940c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_meshFilter, addr 0x3b7da34, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_meshFilter, addr 0x576930c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshFilter> get_meshFilter();
 
-  /// @brief Method get_meshRenderer, addr 0x3b7daac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_meshRenderer, addr 0x5769388, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::MeshRenderer> get_meshRenderer();
 
 protected:
@@ -70,7 +70,7 @@ public:
   NoteLODGroup(NoteLODGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5755 };
 
   /// @brief Field _postProcessEnabled, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoolSO> ____postProcessEnabled;

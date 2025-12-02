@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ICPUMonitor)
+namespace GlobalNamespace {
+class IPollable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ICPUMonitor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ICPUMonitor);
-// Dependencies IPollable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ICPUMonitor
@@ -35,7 +37,7 @@ public:
   ICPUMonitor(ICPUMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14789 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18127 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

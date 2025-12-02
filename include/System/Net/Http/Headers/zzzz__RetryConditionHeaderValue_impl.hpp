@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/Headers/RetryConditionHeaderValue.hpp"
 #include "System/zzzz__DateTimeOffset_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__RetryConditionHeaderValue_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::DateTimeOffset)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x42275c0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ed2c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::TimeSpan)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::_ctor)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4227650;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5ed2cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::DateTimeOffset> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x422774c;
+  constexpr static std::size_t addrs = 0x5ed2dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Date)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4227760;
+  constexpr static std::size_t addrs = 0x5ed2dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::System::TimeSpan> (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::get_Delta)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4227774;
+  constexpr static std::size_t addrs = 0x5ed2e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::set_Delta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227780;
+  constexpr static std::size_t addrs = 0x5ed2e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::System_ICloneable_Clone)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4227788;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ed2e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::RetryConditionHeaderValue*>::get(),
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::RetryConditionHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::Equals)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x4227790;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5ed2e18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::GetHashCode)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4227934;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5ed2fc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Net::Http::Headers::RetryConditionHeaderValue*>)>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::TryParse)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x42279d4;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x5ed3064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -165,8 +165,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::RetryConditionHeaderValue::*)()>(
     &::System::Net::Http::Headers::RetryConditionHeaderValue::ToString)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4227b90;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x5ed324c;
 
   inline static ::MethodInfo const* methodInfo() {
 

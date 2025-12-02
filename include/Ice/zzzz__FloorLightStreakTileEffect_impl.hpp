@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Ice::FloorLightStreakTileEffect_Element::*)()>(
     &::Ice::FloorLightStreakTileEffect_Element::get_lineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269608;
+  constexpr static std::size_t addrs = 0x318cbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect_Element*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Ice::FloorLightStreakTileEffect_Element::*)()>(
     &::Ice::FloorLightStreakTileEffect_Element::get_currentTileY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269610;
+  constexpr static std::size_t addrs = 0x318cbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect_Element*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::Ice::FloorLightStreakTileEffect_Element::*)()>(
     &::Ice::FloorLightStreakTileEffect_Element::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2269618;
+  constexpr static std::size_t addrs = 0x318cbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect_Element*>::get(), "get_color",
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect_Element::*)(::UnityEngine::Color, int32_t, float_t)>(
     &::Ice::FloorLightStreakTileEffect_Element::Setup)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22691a4;
+  constexpr static std::size_t addrs = 0x318c748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect_Element::*)(float_t)>(
     &::Ice::FloorLightStreakTileEffect_Element::ManualUpdate)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x226907c;
+  constexpr static std::size_t addrs = 0x318c610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect_Element::*)()>(&::Ice::FloorLightStreakTileEffect_Element::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269550;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318cb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect_Element*>::get(), ".ctor",
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect::*)()>(&::Ice::FloorLightStreakTileEffect::Start)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2268dc4;
+  constexpr static std::size_t addrs = 0x318c394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect*>::get(), "Start",
@@ -223,8 +223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect::*)()>(&::Ice::FloorLightStreakTileEffect::Update)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x2268e8c;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x318c45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect*>::get(), "Update",
@@ -237,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect::*)(int32_t, ::UnityEngine::Color)>(
     &::Ice::FloorLightStreakTileEffect::SpawnEffect)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22690e4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x318c678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -252,8 +252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect::*)()>(&::Ice::FloorLightStreakTileEffect::DespawnAll)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x226936c;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x318c920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -267,8 +267,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Ice::FloorLightStreakTileEffect_Element* (::Ice::FloorLightStreakTileEffect::*)()>(
     &::Ice::FloorLightStreakTileEffect::CreateNewElement)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x2269450;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x318ca1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect*>::get(), "CreateNewElement",
@@ -281,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect::*)(::Ice::FloorLightStreakTileEffect_Element*)>(
     &::Ice::FloorLightStreakTileEffect::HandleElementDidMoveToNextTile)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2269558;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x318cb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,8 +295,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Ice::FloorLightStreakTileEffect::*)()>(&::Ice::FloorLightStreakTileEffect::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22695f4;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x318cbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Ice::FloorLightStreakTileEffect*>::get(), ".ctor",

@@ -3,7 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include <cstdint>
 CORDL_MODULE_EXPORT(IPointerEventInternal)
+namespace UnityEngine::UIElements {
+class IMouseEvent;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class IPointerEventInternal;
@@ -17,18 +21,23 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE IPointerEventInternal {
 public:
   // Declarations
-  __declspec(property(get = get_recomputeTopElementUnderPointer, put = set_recomputeTopElementUnderPointer)) bool recomputeTopElementUnderPointer;
+  __declspec(property(get = get_compatibilityMouseEvent, put = set_compatibilityMouseEvent)) ::UnityEngine::UIElements::IMouseEvent* compatibilityMouseEvent;
+
+  __declspec(property(put = set_displayIndex)) int32_t displayIndex;
 
   __declspec(property(get = get_triggeredByOS, put = set_triggeredByOS)) bool triggeredByOS;
 
-  /// @brief Method get_recomputeTopElementUnderPointer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_recomputeTopElementUnderPointer();
+  /// @brief Method get_compatibilityMouseEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::IMouseEvent* get_compatibilityMouseEvent();
 
   /// @brief Method get_triggeredByOS, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_triggeredByOS();
 
-  /// @brief Method set_recomputeTopElementUnderPointer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_recomputeTopElementUnderPointer(bool value);
+  /// @brief Method set_compatibilityMouseEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value);
+
+  /// @brief Method set_displayIndex, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_displayIndex(int32_t value);
 
   /// @brief Method set_triggeredByOS, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_triggeredByOS(bool value);
@@ -38,7 +47,7 @@ public:
   IPointerEventInternal(IPointerEventInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4536 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

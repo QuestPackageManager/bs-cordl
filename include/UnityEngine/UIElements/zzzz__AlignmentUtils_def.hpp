@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AlignmentUtils)
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class AlignmentUtils;
@@ -19,10 +22,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x496f2f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method CeilToPixelGrid, addr 0x69f9a58, size 0x14, virtual false, abstract: false, final false
   static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
-  /// @brief Method RoundToPixelGrid, addr 0x496f2d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method RoundToPanelPixelSize, addr 0x69f9a6c, size 0x48, virtual false, abstract: false, final false
+  static inline float_t RoundToPanelPixelSize(::UnityEngine::UIElements::VisualElement* ve, float_t v);
+
+  /// @brief Method RoundToPixelGrid, addr 0x69f9a3c, size 0x1c, virtual false, abstract: false, final false
   static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
 
 protected:
@@ -40,7 +46,7 @@ public:
   AlignmentUtils(AlignmentUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3997 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

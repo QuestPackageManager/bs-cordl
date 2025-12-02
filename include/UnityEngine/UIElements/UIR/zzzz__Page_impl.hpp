@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/Page.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GfxUpdateBufferRange_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__GPUBufferAllocator_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Page_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__Utility_def.hpp"
@@ -240,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(uint32_t, uint32_t, uint32_t, bool)>(
     &::UnityEngine::UIElements::UIR::Page::_ctor)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x49b7d5c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6ac7b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::Page::*)()>(&::UnityEngine::UIElements::UIR::Page::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49bbdb0;
+  constexpr static std::size_t addrs = 0x6ac7c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Page*>::get(), "get_disposed",
@@ -268,8 +268,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(bool)>(&::UnityEngine::UIElements::UIR::Page::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49bbdb8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ac7c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -282,8 +282,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)()>(&::UnityEngine::UIElements::UIR::Page::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49baffc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ac6ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Page*>::get(), "Dispose",
@@ -295,8 +295,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::Page::*)(bool)>(&::UnityEngine::UIElements::UIR::Page::Dispose)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x49bbdc4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6ac7c64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,7 +310,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::Page::*)()>(&::UnityEngine::UIElements::UIR::Page::get_isEmpty)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49b7eac;
+  constexpr static std::size_t addrs = 0x6ac7d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::Page*>::get(), "get_isEmpty",

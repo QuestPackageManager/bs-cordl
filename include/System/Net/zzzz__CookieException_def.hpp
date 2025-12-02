@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__FormatException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CookieException)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -22,7 +24,7 @@ class CookieException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::CookieException);
-// Dependencies System.FormatException, System.Runtime.Serialization.ISerializable
+// Dependencies System.FormatException
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.CookieException
@@ -32,7 +34,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x44b50e8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x6203f44, size 0x8, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   static inline ::System::Net::CookieException* New_ctor();
@@ -43,20 +45,20 @@ public:
 
   static inline ::System::Net::CookieException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x44b50e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x6203f3c, size 0x8, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                        ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x44b50d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6203f2c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x44b144c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62005ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x44b2fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6201f80, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* inner);
 
-  /// @brief Method .ctor, addr 0x44b50d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6203f34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -77,7 +79,7 @@ public:
   CookieException(CookieException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

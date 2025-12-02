@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/AddressableAssets/DynamicResourceLocator.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_impl.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__DynamicResourceLocator_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::DynamicResourceLocator.get_LocatorId
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::get_LocatorId)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x44f5794;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x62456fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::DynamicResourceLocator*>::get(),
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Object*>* (
     ::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(&::UnityEngine::AddressableAssets::DynamicResourceLocator::get_Keys)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44f57d4;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6245740;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::get_AtlasSpriteProviderId)> {
-  constexpr static std::size_t size = 0x450;
-  constexpr static std::size_t addrs = 0x44f5818;
+  constexpr static std::size_t size = 0x408;
+  constexpr static std::size_t addrs = 0x6245788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::DynamicResourceLocator*>::get(),
@@ -59,8 +59,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)()>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::get_AllLocations)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44f5c68;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6245b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::DynamicResourceLocator*>::get(),
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)(
     ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::DynamicResourceLocator::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44f5cac;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6245bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)(
     ::System::Object*, ::System::Type*, ::ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>)>(
     &::UnityEngine::AddressableAssets::DynamicResourceLocator::Locate)> {
-  constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x44f5cd4;
+  constexpr static std::size_t size = 0x504;
+  constexpr static std::size_t addrs = 0x6245be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::DynamicResourceLocator::*)(
     ::System::Type*, ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::StringW, ::StringW,
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::DynamicResourceLocator::CreateDynamicLocations)> {
-  constexpr static std::size_t size = 0x690;
-  constexpr static std::size_t addrs = 0x44f6220;
+  constexpr static std::size_t size = 0x7b0;
+  constexpr static std::size_t addrs = 0x62460e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

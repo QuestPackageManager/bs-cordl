@@ -7,7 +7,6 @@
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Memory_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -36,8 +35,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream___c::*)()>(&::System::IO::BufferedStream___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6e6f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59f77ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream___c*>::get(), ".ctor",
@@ -50,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SemaphoreSlim* (::System::IO::BufferedStream___c::*)()>(
     &::System::IO::BufferedStream___c::_LazyEnsureAsyncActiveSemaphoreInitialized_b__10_0)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d6e6fc;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x59f77f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__DisposeAsync_d__34::*)()>(
     &::System::IO::BufferedStream__DisposeAsync_d__34::MoveNext)> {
-  constexpr static std::size_t size = 0x650;
-  constexpr static std::size_t addrs = 0x3d6e758;
+  constexpr static std::size_t size = 0x460;
+  constexpr static std::size_t addrs = 0x59f7850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream__DisposeAsync_d__34>::get(),
@@ -112,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__DisposeAsync_d__34::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::System::IO::BufferedStream__DisposeAsync_d__34::SetStateMachine)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6ee14;
+  constexpr static std::size_t addrs = 0x59f7d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__FlushAsyncInternal_d__38::*)()>(
     &::System::IO::BufferedStream__FlushAsyncInternal_d__38::MoveNext)> {
-  constexpr static std::size_t size = 0x5d8;
-  constexpr static std::size_t addrs = 0x3d6ee20;
+  constexpr static std::size_t size = 0x59c;
+  constexpr static std::size_t addrs = 0x59f7d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream__FlushAsyncInternal_d__38>::get(),
@@ -178,8 +177,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__FlushAsyncInternal_d__38::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::BufferedStream__FlushAsyncInternal_d__38::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d6f3f8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x59f82c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,8 +228,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__FlushWriteAsync_d__42::*)()>(
     &::System::IO::BufferedStream__FlushWriteAsync_d__42::MoveNext)> {
-  constexpr static std::size_t size = 0x55c;
-  constexpr static std::size_t addrs = 0x3d6f460;
+  constexpr static std::size_t size = 0x358;
+  constexpr static std::size_t addrs = 0x59f832c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream__FlushWriteAsync_d__42>::get(),
@@ -243,8 +242,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__FlushWriteAsync_d__42::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::BufferedStream__FlushWriteAsync_d__42::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d6f9bc;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x59f8684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -295,8 +294,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__ReadFromUnderlyingStreamAsync_d__51::*)()>(
     &::System::IO::BufferedStream__ReadFromUnderlyingStreamAsync_d__51::MoveNext)> {
-  constexpr static std::size_t size = 0x830;
-  constexpr static std::size_t addrs = 0x3d6fa24;
+  constexpr static std::size_t size = 0x800;
+  constexpr static std::size_t addrs = 0x59f86f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -310,8 +309,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__ReadFromUnderlyingStreamAsync_d__51::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::BufferedStream__ReadFromUnderlyingStreamAsync_d__51::SetStateMachine)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d70254;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59f8ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -370,8 +369,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__WriteToUnderlyingStreamAsync_d__63::*)()>(
     &::System::IO::BufferedStream__WriteToUnderlyingStreamAsync_d__63::MoveNext)> {
-  constexpr static std::size_t size = 0x1264;
-  constexpr static std::size_t addrs = 0x3d702ac;
+  constexpr static std::size_t size = 0xa64;
+  constexpr static std::size_t addrs = 0x59f8f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -385,8 +384,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__WriteToUnderlyingStreamAsync_d__63::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::BufferedStream__WriteToUnderlyingStreamAsync_d__63::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d71510;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x59f99b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -441,8 +440,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__CopyToAsyncCore_d__71::*)()>(
     &::System::IO::BufferedStream__CopyToAsyncCore_d__71::MoveNext)> {
-  constexpr static std::size_t size = 0x814;
-  constexpr static std::size_t addrs = 0x3d71578;
+  constexpr static std::size_t size = 0x5a0;
+  constexpr static std::size_t addrs = 0x59f9a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream__CopyToAsyncCore_d__71>::get(),
@@ -455,8 +454,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream__CopyToAsyncCore_d__71::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::IO::BufferedStream__CopyToAsyncCore_d__71::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d71d8c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x59f9fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -510,8 +509,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SemaphoreSlim* (::System::IO::BufferedStream::*)()>(
     &::System::IO::BufferedStream::LazyEnsureAsyncActiveSemaphoreInitialized)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3d6b640;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x59f45cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -525,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::System::IO::Stream*)>(&::System::IO::BufferedStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d6b730;
+  constexpr static std::size_t addrs = 0x59f46cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -538,8 +537,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::System::IO::Stream*, int32_t)>(&::System::IO::BufferedStream::_ctor)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3d6b738;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x59f46d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -553,8 +552,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::EnsureNotClosed)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3d6b910;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59f48a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "EnsureNotClosed",
@@ -567,7 +566,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::EnsureCanSeek)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d6b970;
+  constexpr static std::size_t addrs = 0x59f48fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "EnsureCanSeek",
@@ -580,7 +579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::EnsureCanRead)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d6b9e0;
+  constexpr static std::size_t addrs = 0x59f496c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "EnsureCanRead",
@@ -593,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::EnsureCanWrite)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d6ba50;
+  constexpr static std::size_t addrs = 0x59f49dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "EnsureCanWrite",
@@ -606,7 +605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::EnsureShadowBufferAllocated)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d6bac0;
+  constexpr static std::size_t addrs = 0x59f4a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(),
@@ -618,8 +617,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::EnsureBufferAllocated)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d6bb94;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59f4b20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "EnsureBufferAllocated",
@@ -632,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::get_CanRead)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6bbec;
+  constexpr static std::size_t addrs = 0x59f4b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -646,7 +645,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6bc04;
+  constexpr static std::size_t addrs = 0x59f4b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -660,7 +659,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d6bc1c;
+  constexpr static std::size_t addrs = 0x59f4bac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -674,7 +673,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::get_Length)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d6bc34;
+  constexpr static std::size_t addrs = 0x59f4bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -688,7 +687,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::get_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d6bcc0;
+  constexpr static std::size_t addrs = 0x59f4c50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -702,7 +701,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(int64_t)>(&::System::IO::BufferedStream::set_Position)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3d6bd0c;
+  constexpr static std::size_t addrs = 0x59f4c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -716,8 +715,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::BufferedStream::*)()>(
     &::System::IO::BufferedStream::DisposeAsync)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3d6bdcc;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x59f4d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -730,8 +729,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(bool)>(&::System::IO::BufferedStream::Dispose)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3d6beb0;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x59f4e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -744,8 +743,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::Flush)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3d6bfe8;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x59f4f50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -759,8 +758,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::BufferedStream::*)(::System::Threading::CancellationToken)>(
     &::System::IO::BufferedStream::FlushAsync)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d6c0e8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x59f5058;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -774,8 +773,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::BufferedStream::*)(::System::Threading::CancellationToken)>(
     &::System::IO::BufferedStream::FlushAsyncInternal)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d6c1b4;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x59f513c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -789,7 +788,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::FlushRead)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3d6c0a4;
+  constexpr static std::size_t addrs = 0x59f5014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "FlushRead",
@@ -802,7 +801,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::ClearReadBufferBeforeWrite)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3d6c288;
+  constexpr static std::size_t addrs = 0x59f5200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(),
@@ -815,7 +814,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::FlushWrite)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d6bc70;
+  constexpr static std::size_t addrs = 0x59f4c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "FlushWrite",
@@ -828,8 +827,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::IO::BufferedStream::*)(::System::Threading::CancellationToken)>(
     &::System::IO::BufferedStream::FlushWriteAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d6c318;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x59f5290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -844,7 +843,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::IO::BufferedStream::ReadFromBuffer)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d6c3ec;
+  constexpr static std::size_t addrs = 0x59f5354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -859,8 +858,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)(::System::Span_1<uint8_t>)>(
     &::System::IO::BufferedStream::ReadFromBuffer)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3d6c450;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x59f53b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -874,8 +873,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ByRef<::System::Exception*>)>(&::System::IO::BufferedStream::ReadFromBuffer)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3d6c580;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x59f54d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -891,8 +890,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::IO::BufferedStream::Read)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x3d6c61c;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x59f5578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -905,8 +904,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)(::System::Span_1<uint8_t>)>(&::System::IO::BufferedStream::Read)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3d6c830;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x59f5790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -920,8 +919,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (::System::IO::BufferedStream::*)(int32_t)>(
     &::System::IO::BufferedStream::LastSyncCompletedReadTask)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d6c994;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x59f5900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -935,8 +934,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::BufferedStream::ReadAsync)> {
-  constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x3d6ca44;
+  constexpr static std::size_t size = 0x448;
+  constexpr static std::size_t addrs = 0x59f59e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -950,8 +949,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::IO::BufferedStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::BufferedStream::ReadAsync)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x3d6cf50;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x59f5f74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -965,8 +964,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::IO::BufferedStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken, int32_t, ::System::Threading::Tasks::Task*)>(&::System::IO::BufferedStream::ReadFromUnderlyingStreamAsync)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3d6ce04;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x59f5e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -983,8 +982,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::IO::BufferedStream::BeginRead)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d6d214;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x59f62c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -997,8 +996,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)(::System::IAsyncResult*)>(&::System::IO::BufferedStream::EndRead)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3d6d2c8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x59f6374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1012,7 +1011,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::ReadByte)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3d6d310;
+  constexpr static std::size_t addrs = 0x59f63c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1026,7 +1025,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)()>(&::System::IO::BufferedStream::ReadByteSlow)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3d6d360;
+  constexpr static std::size_t addrs = 0x59f6410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::BufferedStream*>::get(), "ReadByteSlow",
@@ -1039,8 +1038,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::System::IO::BufferedStream::WriteToBuffer)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3d6d3f0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x59f64a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1056,8 +1055,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::BufferedStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(
     &::System::IO::BufferedStream::WriteToBuffer)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3d6d4cc;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x59f6578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1071,8 +1070,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::IO::BufferedStream::Write)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x3d6d638;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x59f66d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1085,8 +1084,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(&::System::IO::BufferedStream::Write)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3d6d948;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x59f69e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1101,7 +1100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::BufferedStream::WriteAsync)> {
   constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3d6dbe0;
+  constexpr static std::size_t addrs = 0x59f6c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1115,8 +1114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::IO::BufferedStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::IO::BufferedStream::WriteAsync)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3d6ddcc;
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x59f6e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1131,8 +1130,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::System::IO::BufferedStream::*)(::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*)>(
         &::System::IO::BufferedStream::WriteToUnderlyingStreamAsync)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3d6e004;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x59f7110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1148,8 +1147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::System::IO::BufferedStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(&::System::IO::BufferedStream::BeginWrite)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3d6e0f8;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x59f71f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1163,7 +1162,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::System::IAsyncResult*)>(&::System::IO::BufferedStream::EndWrite)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d6e1ac;
+  constexpr static std::size_t addrs = 0x59f72a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1177,7 +1176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(uint8_t)>(&::System::IO::BufferedStream::WriteByte)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3d6e1b8;
+  constexpr static std::size_t addrs = 0x59f72b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1190,8 +1189,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::IO::BufferedStream::*)(int64_t, ::System::IO::SeekOrigin)>(&::System::IO::BufferedStream::Seek)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3d6e244;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x59f733c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1205,7 +1204,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(int64_t)>(&::System::IO::BufferedStream::SetLength)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3d6e36c;
+  constexpr static std::size_t addrs = 0x59f7460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1219,7 +1218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::BufferedStream::*)(::System::IO::Stream*, int32_t)>(&::System::IO::BufferedStream::CopyTo)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3d6e42c;
+  constexpr static std::size_t addrs = 0x59f7520;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1233,8 +1232,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::BufferedStream::*)(::System::IO::Stream*, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::BufferedStream::CopyToAsync)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3d6e4bc;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x59f75b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1248,8 +1247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::IO::BufferedStream::*)(::System::IO::Stream*, int32_t, ::System::Threading::CancellationToken)>(&::System::IO::BufferedStream::CopyToAsyncCore)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3d6e5ac;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x59f76bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

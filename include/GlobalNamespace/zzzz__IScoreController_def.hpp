@@ -85,7 +85,7 @@ public:
   IScoreController(IScoreController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6261 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

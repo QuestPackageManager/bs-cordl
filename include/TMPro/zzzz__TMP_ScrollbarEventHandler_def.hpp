@@ -3,14 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(TMP_ScrollbarEventHandler)
 namespace UnityEngine::EventSystems {
 class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class IDeselectHandler;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerClickHandler;
+}
+namespace UnityEngine::EventSystems {
+class ISelectHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -21,8 +29,7 @@ class TMP_ScrollbarEventHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_ScrollbarEventHandler);
-// Dependencies UnityEngine.EventSystems.IDeselectHandler, UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerClickHandler, UnityEngine.EventSystems.ISelectHandler,
-// UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace TMPro {
 // Is value type: false
 // CS Name: TMPro.TMP_ScrollbarEventHandler
@@ -46,13 +53,13 @@ public:
 
   static inline ::TMPro::TMP_ScrollbarEventHandler* New_ctor();
 
-  /// @brief Method OnDeselect, addr 0x47fde30, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method OnDeselect, addr 0x677bce0, size 0x7c, virtual true, abstract: false, final true
   inline void OnDeselect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
-  /// @brief Method OnPointerClick, addr 0x47fdd50, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method OnPointerClick, addr 0x677bbf0, size 0x70, virtual true, abstract: false, final true
   inline void OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnSelect, addr 0x47fddb8, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method OnSelect, addr 0x677bc60, size 0x80, virtual true, abstract: false, final true
   inline void OnSelect(::UnityEngine::EventSystems::BaseEventData* eventData);
 
   constexpr bool const& __cordl_internal_get_isSelected() const;
@@ -61,7 +68,7 @@ public:
 
   constexpr void __cordl_internal_set_isSelected(bool value);
 
-  /// @brief Method .ctor, addr 0x47fdea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x677bd5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IDeselectHandler"
@@ -91,7 +98,7 @@ public:
   TMP_ScrollbarEventHandler(TMP_ScrollbarEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15927 };
 
   /// @brief Field isSelected, offset: 0x20, size: 0x1, def value: None
   bool ___isSelected;

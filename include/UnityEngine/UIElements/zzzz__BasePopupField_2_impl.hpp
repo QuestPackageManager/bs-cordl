@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/UIElements/BasePopupField_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BasePopupField_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -15,6 +16,7 @@
 #include "UnityEngine/UIElements/zzzz__PointerDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__PointerUpEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -24,7 +26,7 @@ UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueCho
                                                                                                 float_t desiredHeight, ::UnityEngine::UIElements::VisualElement_MeasureMode heightMode) {
   auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>*>::get(), 98)));
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>*>::get(), 134)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, desiredWidth, widthMode, desiredHeight, heightMode);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2_PopupTextElement<TValueType, TValueChoice>::_ctor() {
@@ -52,14 +54,14 @@ inline ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>
 }
 template <typename TValueType, typename TValueChoice>
 inline void
-UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::setStaticF___9__23_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__23_0",
+UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::setStaticF___9__27_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__27_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>::get>(
       std::forward<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*>(value));
 }
 template <typename TValueType, typename TValueChoice>
-inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::getStaticF___9__23_0() {
-  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__23_0",
+inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::getStaticF___9__27_0() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>*, "<>9__27_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>::get>();
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::_ctor() {
@@ -69,9 +71,9 @@ template <typename TValueType, typename TValueChoice> inline void UnityEngine::U
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice>
-inline void UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::__ctor_b__23_0(::UnityEngine::UIElements::MouseDownEvent* e) {
+inline void UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>::__ctor_b__27_0(::UnityEngine::UIElements::MouseDownEvent* e) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>::get(), "<.ctor>b__23_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>*>::get(), "<.ctor>b__27_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MouseDownEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
@@ -171,6 +173,38 @@ constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoic
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___createMenuCallback, value);
 }
+template <typename TValueType, typename TValueChoice> constexpr bool& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_AutoCloseMenu() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AutoCloseMenu;
+}
+template <typename TValueType, typename TValueChoice> constexpr bool const& UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_get_m_AutoCloseMenu() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_AutoCloseMenu;
+}
+template <typename TValueType, typename TValueChoice> constexpr void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::__cordl_internal_set_m_AutoCloseMenu(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_AutoCloseMenu = value;
+}
+template <typename TValueType, typename TValueChoice>
+inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::setStaticF_choicesProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "choicesProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType, typename TValueChoice> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::getStaticF_choicesProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "choicesProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get>();
+}
+template <typename TValueType, typename TValueChoice>
+inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::setStaticF_textProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "textProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType, typename TValueChoice> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::getStaticF_textProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "textProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get>();
+}
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get>(
       std::forward<::StringW>(value));
@@ -223,33 +257,45 @@ template <typename TValueType, typename TValueChoice> inline ::UnityEngine::UIEl
 template <typename TValueType, typename TValueChoice> inline ::StringW UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::GetValueToDisplay() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 118)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 154)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice> inline ::StringW UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::GetListItemToDisplay(TValueType item) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 119)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 155)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, item);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::AddMenuItems(::UnityEngine::UIElements::IGenericMenu* menu) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 120)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 156)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, menu);
+}
+template <typename TValueType, typename TValueChoice> inline ::System::Collections::Generic::List_1<TValueChoice>* UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::get_choices() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 157)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<TValueChoice>*, false>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice>
 inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::set_choices(::System::Collections::Generic::List_1<TValueChoice>* value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 121)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 158)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 117)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 153)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
+}
+template <typename TValueType, typename TValueChoice> inline ::StringW UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::get_text() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), "get_text",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::_ctor(::StringW label) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -262,6 +308,13 @@ inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>:
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), "OnPointerDownEvent",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerDownEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+template <typename TValueType, typename TValueChoice>
+inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), "OnPointerUpEvent",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::PointerUpEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 template <typename TValueType, typename TValueChoice>
@@ -305,7 +358,7 @@ template <typename TValueType, typename TValueChoice> inline void UnityEngine::U
 template <typename TValueType, typename TValueChoice> inline void UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>::UpdateMixedValueContent() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 116)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BasePopupField_2<TValueType, TValueChoice>*>::get(), 152)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType, typename TValueChoice>

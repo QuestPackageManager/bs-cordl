@@ -23,18 +23,18 @@ public:
 
   __declspec(property(get = get_isPaused)) bool isPaused;
 
-  /// @brief Method Awake, addr 0x3ace34c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56a7f48, size 0x44, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::AudioListenerController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ace36c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56a7f8c, size 0x40, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x3ace378, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Pause, addr 0x56a7fcc, size 0x30, virtual false, abstract: false, final false
   inline void Pause();
 
-  /// @brief Method Resume, addr 0x3ace384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Resume, addr 0x56a7ffc, size 0x30, virtual false, abstract: false, final false
   inline void Resume();
 
   constexpr bool const& __cordl_internal_get__startAudioListenerPauseState() const;
@@ -43,10 +43,10 @@ public:
 
   constexpr void __cordl_internal_set__startAudioListenerPauseState(bool value);
 
-  /// @brief Method .ctor, addr 0x3ace390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a802c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPaused, addr 0x3ace344, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPaused, addr 0x56a7f20, size 0x28, virtual false, abstract: false, final false
   inline bool get_isPaused();
 
 protected:
@@ -64,7 +64,7 @@ public:
   AudioListenerController(AudioListenerController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3992 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5552 };
 
   /// @brief Field _startAudioListenerPauseState, offset: 0x20, size: 0x1, def value: None
   bool ____startAudioListenerPauseState;

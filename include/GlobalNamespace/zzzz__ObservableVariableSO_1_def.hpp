@@ -3,10 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IObservableChange_def.hpp"
-#include "GlobalNamespace/zzzz__IValue_1_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(ObservableVariableSO_1)
+namespace GlobalNamespace {
+class IObservableChange;
+}
+namespace GlobalNamespace {
+template <typename T> class IValue_1;
+}
 namespace System {
 class Action;
 }
@@ -16,7 +20,7 @@ template <typename T> class ObservableVariableSO_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ObservableVariableSO_1);
-// Dependencies IObservableChange, IValue`1<T>, PersistentScriptableObject
+// Dependencies PersistentScriptableObject
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -92,7 +96,7 @@ public:
   ObservableVariableSO_1(ObservableVariableSO_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20688 };
 
   /// @brief Field didChangeEvent, offset: 0x18, size: 0x8, def value: None
   ::System::Action* ___didChangeEvent;

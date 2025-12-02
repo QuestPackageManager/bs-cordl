@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*)>(
     &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::CreateTransformedData)> {
-  constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x26abefc;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x35dd3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::NoteData* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapDataItem*>*, int32_t, ::GlobalNamespace::ColorType)>(
         &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::FindNextSameColorTypeNote)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x26ac5f0;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x35ddb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapDataAddTestSlidersTransform::*)()>(
     &::GlobalNamespace::BeatmapDataAddTestSlidersTransform::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26ac7dc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35ddd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataAddTestSlidersTransform*>::get(),

@@ -28,7 +28,7 @@ namespace GlobalNamespace {
 struct GameplayServerFiniteStateMachine_InitParams;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class IServerBeatmapProvider;
@@ -53,8 +53,8 @@ namespace GlobalNamespace {
 struct CORDL_TYPE GameplayServerFiniteStateMachine_InitParams {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x22cbb24, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
+  /// @brief Method .ctor, addr 0x31ab8dc, size 0x30, virtual false, abstract: false, final false
+  inline void _ctor(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
                     ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                     ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider);
 
@@ -63,15 +63,15 @@ public:
   constexpr GameplayServerFiniteStateMachine_InitParams();
 
   // Ctor Parameters [CppParam { name: "taskUtility", ty: "::BGNet::Core::ITaskUtility*", modifiers: "", def_value: None }, CppParam { name: "multiplayerSessionManager", ty:
-  // "::GlobalNamespace::IMultiplayerSessionManager*", modifiers: "", def_value: None }, CppParam { name: "creatorId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
+  // "::GlobalNamespace::IBeatSaberMultiplayerSessionManager*", modifiers: "", def_value: None }, CppParam { name: "creatorId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
   // "selectionMask", ty: "::GlobalNamespace::BeatmapLevelSelectionMask", modifiers: "", def_value: None }, CppParam { name: "configuration", ty: "::GlobalNamespace::GameplayServerConfiguration",
   // modifiers: "", def_value: None }, CppParam { name: "beatmapProvider", ty: "::GlobalNamespace::IServerBeatmapProvider*", modifiers: "", def_value: None }]
-  constexpr GameplayServerFiniteStateMachine_InitParams(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::StringW creatorId,
-                                                        ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
+  constexpr GameplayServerFiniteStateMachine_InitParams(::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
+                                                        ::StringW creatorId, ::GlobalNamespace::BeatmapLevelSelectionMask selectionMask, ::GlobalNamespace::GameplayServerConfiguration configuration,
                                                         ::GlobalNamespace::IServerBeatmapProvider* beatmapProvider) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -80,7 +80,7 @@ public:
   ::BGNet::Core::ITaskUtility* taskUtility;
 
   /// @brief Field multiplayerSessionManager, offset: 0x8, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Field creatorId, offset: 0x10, size: 0x8, def value: None
   ::StringW creatorId;
@@ -139,7 +139,7 @@ public:
 
   /// @brief Field <multiplayerSessionManager>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager_k__BackingField,
-                      put = __cordl_internal_set__multiplayerSessionManager_k__BackingField)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager_k__BackingField;
+                      put = __cordl_internal_set__multiplayerSessionManager_k__BackingField)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager_k__BackingField;
 
   /// @brief Field <ownerUserId>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__ownerUserId_k__BackingField, put = __cordl_internal_set__ownerUserId_k__BackingField)) ::StringW _ownerUserId_k__BackingField;
@@ -162,7 +162,7 @@ public:
 
   __declspec(property(get = get_menuRpcManager, put = set_menuRpcManager)) ::GlobalNamespace::MenuRpcManager* menuRpcManager;
 
-  __declspec(property(get = get_multiplayerSessionManager, put = set_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+  __declspec(property(get = get_multiplayerSessionManager, put = set_multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager;
 
   __declspec(property(get = get_ownerUserId, put = set_ownerUserId)) ::StringW ownerUserId;
 
@@ -191,9 +191,9 @@ public:
 
   constexpr ::GlobalNamespace::MenuRpcManager*& __cordl_internal_get__menuRpcManager_k__BackingField();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager_k__BackingField() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager_k__BackingField() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager_k__BackingField();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager_k__BackingField();
 
   constexpr ::StringW const& __cordl_internal_get__ownerUserId_k__BackingField() const;
 
@@ -223,7 +223,7 @@ public:
 
   constexpr void __cordl_internal_set__menuRpcManager_k__BackingField(::GlobalNamespace::MenuRpcManager* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager_k__BackingField(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__ownerUserId_k__BackingField(::StringW value);
 
@@ -235,55 +235,55 @@ public:
 
   constexpr void __cordl_internal_set_state(::GlobalNamespace::GameState* value);
 
-  /// @brief Method .ctor, addr 0x22cba0c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31aa5b4, size 0x110, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::GameplayServerFiniteStateMachine_InitParams initParams);
 
-  /// @brief Method get_beatmapProvider, addr 0x22cb9dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapProvider, addr 0x31aa584, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IServerBeatmapProvider* get_beatmapProvider();
 
-  /// @brief Method get_configuration, addr 0x22cb9b4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_configuration, addr 0x31aa55c, size 0x14, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayServerConfiguration get_configuration();
 
-  /// @brief Method get_gameplayRpcManager, addr 0x22cb9fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayRpcManager, addr 0x31aa5a4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayRpcManager* get_gameplayRpcManager();
 
-  /// @brief Method get_menuRpcManager, addr 0x22cb9ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_menuRpcManager, addr 0x31aa594, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MenuRpcManager* get_menuRpcManager();
 
-  /// @brief Method get_multiplayerSessionManager, addr 0x22cb964, size 0x8, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
+  /// @brief Method get_multiplayerSessionManager, addr 0x31aa50c, size 0x8, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* get_multiplayerSessionManager();
 
-  /// @brief Method get_ownerUserId, addr 0x22cb974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ownerUserId, addr 0x31aa51c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ownerUserId();
 
-  /// @brief Method get_selectionMask, addr 0x22cb984, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_selectionMask, addr 0x31aa52c, size 0x18, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevelSelectionMask get_selectionMask();
 
-  /// @brief Method get_taskUtility, addr 0x22cb954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_taskUtility, addr 0x31aa4fc, size 0x8, virtual false, abstract: false, final false
   inline ::BGNet::Core::ITaskUtility* get_taskUtility();
 
-  /// @brief Method set_beatmapProvider, addr 0x22cb9e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_beatmapProvider, addr 0x31aa58c, size 0x8, virtual false, abstract: false, final false
   inline void set_beatmapProvider(::GlobalNamespace::IServerBeatmapProvider* value);
 
-  /// @brief Method set_configuration, addr 0x22cb9c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method set_configuration, addr 0x31aa570, size 0x14, virtual false, abstract: false, final false
   inline void set_configuration(::GlobalNamespace::GameplayServerConfiguration value);
 
-  /// @brief Method set_gameplayRpcManager, addr 0x22cba04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_gameplayRpcManager, addr 0x31aa5ac, size 0x8, virtual false, abstract: false, final false
   inline void set_gameplayRpcManager(::GlobalNamespace::GameplayRpcManager* value);
 
-  /// @brief Method set_menuRpcManager, addr 0x22cb9f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_menuRpcManager, addr 0x31aa59c, size 0x8, virtual false, abstract: false, final false
   inline void set_menuRpcManager(::GlobalNamespace::MenuRpcManager* value);
 
-  /// @brief Method set_multiplayerSessionManager, addr 0x22cb96c, size 0x8, virtual false, abstract: false, final false
-  inline void set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  /// @brief Method set_multiplayerSessionManager, addr 0x31aa514, size 0x8, virtual false, abstract: false, final false
+  inline void set_multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
-  /// @brief Method set_ownerUserId, addr 0x22cb97c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ownerUserId, addr 0x31aa524, size 0x8, virtual false, abstract: false, final false
   inline void set_ownerUserId(::StringW value);
 
-  /// @brief Method set_selectionMask, addr 0x22cb99c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_selectionMask, addr 0x31aa544, size 0x18, virtual false, abstract: false, final false
   inline void set_selectionMask(::GlobalNamespace::BeatmapLevelSelectionMask value);
 
-  /// @brief Method set_taskUtility, addr 0x22cb95c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_taskUtility, addr 0x31aa504, size 0x8, virtual false, abstract: false, final false
   inline void set_taskUtility(::BGNet::Core::ITaskUtility* value);
 
 protected:
@@ -301,13 +301,13 @@ public:
   GameplayServerFiniteStateMachine(GameplayServerFiniteStateMachine const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18955 };
 
   /// @brief Field <taskUtility>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::BGNet::Core::ITaskUtility* ____taskUtility_k__BackingField;
 
   /// @brief Field <multiplayerSessionManager>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager_k__BackingField;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager_k__BackingField;
 
   /// @brief Field <ownerUserId>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::StringW ____ownerUserId_k__BackingField;

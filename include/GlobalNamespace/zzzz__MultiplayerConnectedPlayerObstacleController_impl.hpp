@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::*)(
     ::GlobalNamespace::MultiplayerConnectedPlayerObstacleController*)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::OnCreated)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3bbb838;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x57ac390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleController_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bbb8dc;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x57ac428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)(
     ::GlobalNamespace::ObstacleData*, ::ByRef<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::Init)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3bbb63c;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x57ac190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerObstacleController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbb830;
+  constexpr static std::size_t addrs = 0x57ac388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

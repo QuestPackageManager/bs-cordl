@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0::*)()>(
     &::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf5de8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5937af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,8 +33,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (
     ::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0::*)(::System::Runtime::Serialization::MemberHolder*)>(
     &::System::Runtime::Serialization::FormatterServices___c__DisplayClass9_0::_GetSerializableMembers_b__0)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3cf71d0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5938e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (*)(::System::RuntimeType*)>(
     &::System::Runtime::Serialization::FormatterServices::GetSerializableMembers)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3cf4e30;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5936ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::RuntimeType*)>(&::System::Runtime::Serialization::FormatterServices::CheckSerializable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cf4fc0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5936d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (*)(::System::RuntimeType*)>(
     &::System::Runtime::Serialization::FormatterServices::InternalGetSerializableMembers)> {
-  constexpr static std::size_t size = 0x6f0;
-  constexpr static std::size_t addrs = 0x3cf4fe0;
+  constexpr static std::size_t size = 0x6e4;
+  constexpr static std::size_t addrs = 0x5936d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::RuntimeType*, ::ByRef<::ArrayW<::System::RuntimeType*, ::Array<::System::RuntimeType*>*>>,
                                                                                            ::ByRef<int32_t>)>(&::System::Runtime::Serialization::FormatterServices::GetParentTypes)> {
-  constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x3cf56d0;
+  constexpr static std::size_t size = 0x3a8;
+  constexpr static std::size_t addrs = 0x5937434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (*)(
     ::System::Type*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Serialization::FormatterServices::GetSerializableMembers)> {
   constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x3cf5b5c;
+  constexpr static std::size_t addrs = 0x5937864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::Type*)>(
     &::System::Runtime::Serialization::FormatterServices::GetUninitializedObject)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3cf5df0;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x5937af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::RuntimeType*)>(
     &::System::Runtime::Serialization::FormatterServices::nativeGetUninitializedObject)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf5fa8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5937cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Runtime::Serialization::FormatterServices::GetEnableUnsafeTypeForwarders)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf5fb0;
+  constexpr static std::size_t addrs = 0x5937cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FormatterServices*>::get(),
@@ -198,8 +198,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Runtime::Serialization::FormatterServices::UnsafeTypeForwardersIsEnabled)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3cf5fb8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5937cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FormatterServices*>::get(),
@@ -212,8 +212,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Reflection::MemberInfo*, ::System::Object*, ::System::Object*)>(
     &::System::Runtime::Serialization::FormatterServices::SerializationSetValue)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3cf6060;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x5937d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -230,8 +230,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (*)(::System::Object*, ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>,
                                       ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::System::Runtime::Serialization::FormatterServices::PopulateObjectMembers)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x3cf6300;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x5937f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (*)(
     ::System::Object*, ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*>)>(&::System::Runtime::Serialization::FormatterServices::GetObjectData)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x3cf65f4;
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x5938264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::Assembly*, ::StringW)>(
     &::System::Runtime::Serialization::FormatterServices::GetTypeFromAssembly)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3cf69dc;
+  constexpr static std::size_t addrs = 0x59385e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW)>(
     &::System::Runtime::Serialization::FormatterServices::LoadAssemblyFromString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf6a74;
+  constexpr static std::size_t addrs = 0x5938678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -294,8 +294,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (*)(::StringW)>(
     &::System::Runtime::Serialization::FormatterServices::LoadAssemblyFromStringNoThrow)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3cf6a7c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5938680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -309,8 +309,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*, ::ByRef<bool>)>(
     &::System::Runtime::Serialization::FormatterServices::GetClrAssemblyName)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3cf6b50;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x593875c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::FormatterServices*>::get(),
@@ -324,8 +324,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::FormatterServices::GetClrTypeFullName)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3cf6cb8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x59388c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,8 +338,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForArray)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x3cf6d38;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x593895c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -353,8 +353,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(
     &::System::Runtime::Serialization::FormatterServices::GetClrTypeFullNameForNonArrayTypes)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3cf6f5c;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x5938bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

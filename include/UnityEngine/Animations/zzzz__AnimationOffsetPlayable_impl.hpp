@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Animations/AnimationOffsetPlayable.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationOffsetPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationOffsetPlayable (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, int32_t)>(&::UnityEngine::Animations::AnimationOffsetPlayable::Create)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4856000;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6810890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, int32_t)>(&::UnityEngine::Animations::AnimationOffsetPlayable::CreateHandle)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x48560f0;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x6810984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationOffsetPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Animations::AnimationOffsetPlayable::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4856234;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6810aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Animations::AnimationOffsetPlayable::*)()>(
     &::UnityEngine::Animations::AnimationOffsetPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48563c8;
+  constexpr static std::size_t addrs = 0x6810ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationOffsetPlayable>::get(),
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Animations::AnimationOffsetPlayable)>(
     &::UnityEngine::Animations::AnimationOffsetPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48563d4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6810cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Animations::AnimationOffsetPlayable::*)(::UnityEngine::Animations::AnimationOffsetPlayable)>(
     &::UnityEngine::Animations::AnimationOffsetPlayable::Equals)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4856454;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6810d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
         &::UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4856324;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6810c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Quaternion>, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
         &::UnityEngine::Animations::AnimationOffsetPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4856508;
+  constexpr static std::size_t addrs = 0x6810dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

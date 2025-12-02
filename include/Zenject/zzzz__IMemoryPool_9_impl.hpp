@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Zenject/IMemoryPool_9.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_impl.hpp"
-#include "Zenject/zzzz__IMemoryPool_impl.hpp"
 #include "Zenject/zzzz__IMemoryPool_9_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
 inline TValue Zenject::IMemoryPool_9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>::Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4,
                                                                                                                             TParam5 param5, TParam6 param6, TParam7 param7, TParam8 param8) {

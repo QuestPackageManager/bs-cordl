@@ -3,9 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowClipBox_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflow_def.hpp"
@@ -15,7 +13,13 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(RareData)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleDataGroup_1;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -23,8 +27,7 @@ struct RareData;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::RareData);
-// Dependencies System.IEquatable`1<T>, UnityEngine.Color, UnityEngine.UIElements.Cursor, UnityEngine.UIElements.IStyleDataGroup`1<T>, UnityEngine.UIElements.OverflowClipBox,
-// UnityEngine.UIElements.TextOverflow, UnityEngine.UIElements.TextOverflowPosition
+// Dependencies UnityEngine.Color, UnityEngine.UIElements.Cursor, UnityEngine.UIElements.OverflowClipBox, UnityEngine.UIElements.TextOverflow, UnityEngine.UIElements.TextOverflowPosition
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.RareData
@@ -37,19 +40,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>*();
 
-  /// @brief Method Copy, addr 0x4a829cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Copy, addr 0x6a5a810, size 0x10, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::RareData Copy();
 
-  /// @brief Method CopyFrom, addr 0x4a829e8, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method CopyFrom, addr 0x6a5a820, size 0x8, virtual true, abstract: false, final true
   inline void CopyFrom(::ByRef<::UnityEngine::UIElements::RareData> other);
 
-  /// @brief Method Equals, addr 0x4a82b64, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a5a98c, size 0xa4, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a82b20, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a5a948, size 0x44, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::RareData other);
 
-  /// @brief Method GetHashCode, addr 0x4a82c04, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a5aa30, size 0xe8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::RareData>"
@@ -58,7 +61,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>"
   constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::RareData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__RareData_();
 
-  /// @brief Method op_Equality, addr 0x4a829fc, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a5a828, size 0x120, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::RareData lhs, ::UnityEngine::UIElements::RareData rhs);
 
   // Ctor Parameters []
@@ -76,7 +79,7 @@ public:
                      int32_t unitySliceTop, ::UnityEngine::UIElements::TextOverflowPosition unityTextOverflowPosition) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };

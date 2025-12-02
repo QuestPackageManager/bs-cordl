@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DisableDeviceCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DisableDeviceCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand.get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::get_Type)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46074f0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638f338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::get_typeStatic)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4607520;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638f344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand (*)()>(
     &::UnityEngine::InputSystem::LowLevel::DisableDeviceCommand::Create)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4607550;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x638f350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

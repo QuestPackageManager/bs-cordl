@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 CORDL_MODULE_EXPORT(ForDeviceEventObservable)
 namespace System {
 class Exception;
@@ -42,7 +39,7 @@ class ForDeviceEventObservable_ForDevice;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice);
-// Dependencies System.IObserver`1<T>, System.Object, UnityEngine.InputSystem.LowLevel.InputEventPtr
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.ForDeviceEventObservable/ForDevice
@@ -64,13 +61,13 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice* New_ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device,
                                                                                                     ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
-  /// @brief Method OnCompleted, addr 0x456dfb8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnCompleted, addr 0x62e8d20, size 0x4, virtual true, abstract: false, final true
   inline void OnCompleted();
 
-  /// @brief Method OnError, addr 0x456dfbc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method OnError, addr 0x62e8d24, size 0x5c, virtual true, abstract: false, final true
   inline void OnError(::System::Exception* error);
 
-  /// @brief Method OnNext, addr 0x456e014, size 0x184, virtual true, abstract: false, final true
+  /// @brief Method OnNext, addr 0x62e8d80, size 0x174, virtual true, abstract: false, final true
   inline void OnNext(::UnityEngine::InputSystem::LowLevel::InputEventPtr value);
 
   constexpr ::UnityEngine::InputSystem::InputDevice* const& __cordl_internal_get_m_Device() const;
@@ -91,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x456df7c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e8d14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device, ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   /// @brief Convert to "::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -112,7 +109,7 @@ public:
   ForDeviceEventObservable_ForDevice(ForDeviceEventObservable_ForDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9153 };
 
   /// @brief Field m_Observer, offset: 0x10, size: 0x8, def value: None
   ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ___m_Observer;
@@ -135,7 +132,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Utilities::ForDeviceEventObse
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable_ForDevice, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Utilities
-// Dependencies System.IObservable`1<T>, System.Object, UnityEngine.InputSystem.LowLevel.InputEventPtr
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Utilities.ForDeviceEventObservable
@@ -159,7 +156,7 @@ public:
   static inline ::UnityEngine::InputSystem::Utilities::ForDeviceEventObservable* New_ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source,
                                                                                           ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method Subscribe, addr 0x456de90, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x62e8c20, size 0xf4, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   constexpr ::UnityEngine::InputSystem::InputDevice* const& __cordl_internal_get_m_Device() const;
@@ -180,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Source(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x456de54, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62e8c14, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* source, ::System::Type* deviceType, ::UnityEngine::InputSystem::InputDevice* device);
 
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
@@ -201,7 +198,7 @@ public:
   ForDeviceEventObservable(ForDeviceEventObservable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9154 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ___m_Source;

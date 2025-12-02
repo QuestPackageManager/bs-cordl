@@ -18,6 +18,7 @@ module;
 #include "System/Diagnostics/DebuggerTypeProxyAttribute.hpp"
 #include "System/Diagnostics/DefaultTraceListener.hpp"
 #include "System/Diagnostics/DiagnosticsConfigurationHandler.hpp"
+#include "System/Diagnostics/EventLogEntryType.hpp"
 #include "System/Diagnostics/MonitoringDescriptionAttribute.hpp"
 #include "System/Diagnostics/Process.hpp"
 #include "System/Diagnostics/ProcessInfo.hpp"
@@ -27,6 +28,8 @@ module;
 #include "System/Diagnostics/ProcessThreadTimes.hpp"
 #include "System/Diagnostics/ProcessWaitHandle.hpp"
 #include "System/Diagnostics/ProcessWindowStyle.hpp"
+#include "System/Diagnostics/SourceLevels.hpp"
+#include "System/Diagnostics/SourceSwitch.hpp"
 #include "System/Diagnostics/StackFrame.hpp"
 #include "System/Diagnostics/StackTrace.hpp"
 #include "System/Diagnostics/StackTraceHiddenAttribute.hpp"
@@ -42,6 +45,7 @@ module;
 #include "System/Diagnostics/TraceListener.hpp"
 #include "System/Diagnostics/TraceListenerCollection.hpp"
 #include "System/Diagnostics/TraceOptions.hpp"
+#include "System/Diagnostics/TraceSource.hpp"
 #include "System/Diagnostics/TraceSwitch.hpp"
 #ifdef __cpp_modules
 export module Diagnostics;

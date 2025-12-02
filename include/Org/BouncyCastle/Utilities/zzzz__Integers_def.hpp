@@ -21,25 +21,25 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Utilities::Integers* New_ctor();
 
-  /// @brief Method NumberOfLeadingZeros, addr 0x25e7d8c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method NumberOfLeadingZeros, addr 0x3517950, size 0x78, virtual false, abstract: false, final false
   static inline int32_t NumberOfLeadingZeros(int32_t i);
 
-  /// @brief Method NumberOfTrailingZeros, addr 0x25e7e04, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method NumberOfTrailingZeros, addr 0x35179c8, size 0x34, virtual false, abstract: false, final false
   static inline int32_t NumberOfTrailingZeros(int32_t i);
 
-  /// @brief Method RotateLeft, addr 0x25e7e38, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x35179fc, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateLeft(int32_t i, int32_t distance);
 
-  /// @brief Method RotateLeft, addr 0x25e7e4c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateLeft, addr 0x3517a10, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateLeft(uint32_t i, int32_t distance);
 
-  /// @brief Method RotateRight, addr 0x25e7e60, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x3517a24, size 0x14, virtual false, abstract: false, final false
   static inline int32_t RotateRight(int32_t i, int32_t distance);
 
-  /// @brief Method RotateRight, addr 0x25e7e74, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method RotateRight, addr 0x3517a38, size 0x14, virtual false, abstract: false, final false
   static inline uint32_t RotateRight(uint32_t i, int32_t distance);
 
-  /// @brief Method .ctor, addr 0x25e7e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3517a4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

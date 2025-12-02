@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentName::*)(::StringW)>(&::GlobalNamespace::EnvironmentName::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afd00;
+  constexpr static std::size_t addrs = 0x35e1250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnvironmentName::*)(::GlobalNamespace::EnvironmentName)>(
     &::GlobalNamespace::EnvironmentName::Equals)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26afd08;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35e1258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EnvironmentName::*)(::System::Object*)>(&::GlobalNamespace::EnvironmentName::Equals)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26afd14;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x35e1260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::EnvironmentName::*)()>(&::GlobalNamespace::EnvironmentName::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26afda8;
+  constexpr static std::size_t addrs = 0x35e12f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::EnvironmentName)>(&::GlobalNamespace::EnvironmentName::op_Implicit___StringW)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26afdc0;
+  constexpr static std::size_t addrs = 0x35e1308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::EnvironmentName (*)(::StringW)>(
     &::GlobalNamespace::EnvironmentName::op_Implicit___GlobalNamespace__EnvironmentName)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26afdc4;
+  constexpr static std::size_t addrs = 0x35e130c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::EnvironmentName, ::GlobalNamespace::EnvironmentName)>(
     &::GlobalNamespace::EnvironmentName::op_Equality)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afdc8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35e1310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::EnvironmentName, ::GlobalNamespace::EnvironmentName)>(
     &::GlobalNamespace::EnvironmentName::op_Inequality)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x26afdd0;
+  constexpr static std::size_t addrs = 0x35e1314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentName::*)()>(&::GlobalNamespace::EnvironmentName::ToString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afe44;
+  constexpr static std::size_t addrs = 0x35e1388;
 
   inline static ::MethodInfo const* methodInfo() {
 

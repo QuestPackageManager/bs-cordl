@@ -24,13 +24,13 @@ public:
   // Declarations
   static inline ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43eb7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6137d34, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method freeifaddrs, addr 0x43ebf3c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method freeifaddrs, addr 0x613844c, size 0x7c, virtual false, abstract: false, final false
   static inline void freeifaddrs(::System::IntPtr ifap);
 
-  /// @brief Method getifaddrs, addr 0x43ebfbc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method getifaddrs, addr 0x61384cc, size 0x7c, virtual false, abstract: false, final false
   static inline int32_t getifaddrs(::ByRef<::System::IntPtr> ifap);
 
 protected:
@@ -48,7 +48,7 @@ public:
   UnixNetworkInterfaceAPI(UnixNetworkInterfaceAPI const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9812 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

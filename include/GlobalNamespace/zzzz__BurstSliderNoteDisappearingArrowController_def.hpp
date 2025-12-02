@@ -35,10 +35,10 @@ public:
 
   constexpr void __cordl_internal_set__burstSliderNoteController(::UnityW<::GlobalNamespace::BurstSliderGameNoteController> value);
 
-  /// @brief Method .ctor, addr 0x3ae8728, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c45d4, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameNoteController, addr 0x3ae8720, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_gameNoteController, addr 0x56c45cc, size 0x8, virtual true, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> get_gameNoteController();
 
 protected:
@@ -56,7 +56,7 @@ public:
   BurstSliderNoteDisappearingArrowController(BurstSliderNoteDisappearingArrowController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5658 };
 
   /// @brief Field _burstSliderNoteController, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BurstSliderGameNoteController> ____burstSliderNoteController;

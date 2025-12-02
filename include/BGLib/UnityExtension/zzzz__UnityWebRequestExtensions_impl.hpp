@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BGLib/UnityExtension/UnityWebRequestExtensions.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ValueTaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_impl.hpp"
@@ -24,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0::*)()>(
     &::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b7814;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31fe8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0::*)(::UnityEngine::AsyncOperation*)>(
     &::BGLib::UnityExtension::UnityWebRequestExtensions___c__DisplayClass1_0::_GetAwaiter_g__SetResult_0)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22b781c;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x31fe8e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0::*)()>(
     &::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x83c;
-  constexpr static std::size_t addrs = 0x22b78f0;
+  constexpr static std::size_t size = 0x65c;
+  constexpr static std::size_t addrs = 0x31fe9b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -113,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::UnityExtension::UnityWebRequestExtensions__SendWebRequestAsync_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22b812c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31ff014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +178,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<::UnityEngine::Networking::UnityWebRequest_Result>* (*)(::UnityEngine::Networking::UnityWebRequest*, ::System::Threading::CancellationToken)>(
         &::BGLib::UnityExtension::UnityWebRequestExtensions::SendWebRequestAsync)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x22b7724;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x31fe7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> (*)(
     ::UnityEngine::Networking::UnityWebRequestAsyncOperation*)>(&::BGLib::UnityExtension::UnityWebRequestExtensions::GetAwaiter)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x22b7204;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x31fe2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

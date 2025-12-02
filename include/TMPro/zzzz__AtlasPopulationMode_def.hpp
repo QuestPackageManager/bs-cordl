@@ -25,6 +25,7 @@ public:
   enum struct __AtlasPopulationMode_Unwrapped : int32_t {
     __E_Static = static_cast<int32_t>(0x0),
     __E_Dynamic = static_cast<int32_t>(0x1),
+    __E_DynamicOS = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -47,11 +48,14 @@ public:
   /// @brief Field Dynamic value: I32(1)
   static ::TMPro::AtlasPopulationMode const Dynamic;
 
+  /// @brief Field DynamicOS value: I32(2)
+  static ::TMPro::AtlasPopulationMode const DynamicOS;
+
   /// @brief Field Static value: I32(0)
   static ::TMPro::AtlasPopulationMode const Static;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15868 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

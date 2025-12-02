@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x231e930;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x324b760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::_ctor)> {
-  constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x231ffb4;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x324cdbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)(
     ::Org::BouncyCastle::Asn1::Esf::CrlListID*, ::Org::BouncyCastle::Asn1::Esf::OcspListID*, ::Org::BouncyCastle::Asn1::Esf::OtherRevRefs*)>(&::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2320684;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x324d494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CrlListID* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::get_CrlIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23206c0;
+  constexpr static std::size_t addrs = 0x324d4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>::get(), "get_CrlIDs",
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OcspListID* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::get_OcspIDs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23206c8;
+  constexpr static std::size_t addrs = 0x324d4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::OtherRevRefs* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::get_OtherRev)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23206d0;
+  constexpr static std::size_t addrs = 0x324d4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlOcspRef*>::get(),
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlOcspRef::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x23206d8;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x324d4b8;
 
   inline static ::MethodInfo const* methodInfo() {
 

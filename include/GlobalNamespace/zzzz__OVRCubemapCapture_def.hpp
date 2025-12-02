@@ -51,16 +51,16 @@ public:
 
   static inline ::GlobalNamespace::OVRCubemapCapture* New_ctor();
 
-  /// @brief Method RenderIntoCubemap, addr 0x402e818, size 0x560, virtual false, abstract: false, final false
+  /// @brief Method RenderIntoCubemap, addr 0x5ce24a0, size 0x578, virtual false, abstract: false, final false
   static inline void RenderIntoCubemap(::UnityEngine::Camera* ownerCamera, ::UnityEngine::Cubemap* outCubemap);
 
-  /// @brief Method SaveCubemapCapture, addr 0x402ed78, size 0x798, virtual false, abstract: false, final false
+  /// @brief Method SaveCubemapCapture, addr 0x5ce2a18, size 0x7bc, virtual false, abstract: false, final false
   static inline bool SaveCubemapCapture(::UnityEngine::Cubemap* cubemap, ::StringW pathName);
 
-  /// @brief Method TriggerCubemapCapture, addr 0x402e56c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method TriggerCubemapCapture, addr 0x5ce21e4, size 0x2bc, virtual false, abstract: false, final false
   static inline void TriggerCubemapCapture(::UnityEngine::Vector3 capturePos, int32_t cubemapSize, ::StringW pathName);
 
-  /// @brief Method Update, addr 0x402e4c4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ce20f8, size 0xec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_autoTriggerAfterLaunch() const;
@@ -99,7 +99,7 @@ public:
 
   constexpr void __cordl_internal_set_triggeredByKey(::UnityEngine::KeyCode value);
 
-  /// @brief Method .ctor, addr 0x402f510, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ce31d4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   OVRCubemapCapture(OVRCubemapCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7851 };
 
   /// @brief Field autoTriggerAfterLaunch, offset: 0x20, size: 0x1, def value: None
   bool ___autoTriggerAfterLaunch;

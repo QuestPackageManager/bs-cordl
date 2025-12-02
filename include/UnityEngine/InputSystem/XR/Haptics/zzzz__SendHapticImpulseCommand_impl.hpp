@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/SendHapticImpulseCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__SendHapticImpulseCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand.get_Type
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand::get_Type)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45e8d94;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x636e1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand::*)()>(&::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand::get_typeStatic)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45e8dc4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x636e1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand (*)(int32_t, float_t, float_t)>(
     &::UnityEngine::InputSystem::XR::Haptics::SendHapticImpulseCommand::Create)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x45e493c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x63698b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

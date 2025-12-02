@@ -9,6 +9,7 @@
 #include "Oculus/Platform/zzzz__AccountAgeCategory_def.hpp"
 #include "Oculus/Platform/zzzz__AchievementType_def.hpp"
 #include "Oculus/Platform/zzzz__AppAgeCategory_def.hpp"
+#include "Oculus/Platform/zzzz__AppInstallResult_def.hpp"
 #include "Oculus/Platform/zzzz__AppStatus_def.hpp"
 #include "Oculus/Platform/zzzz__CAPI_def.hpp"
 #include "Oculus/Platform/zzzz__ChallengeCreationType_def.hpp"
@@ -30,8 +31,11 @@
 #include "Oculus/Platform/zzzz__NetSyncDisconnectReason_def.hpp"
 #include "Oculus/Platform/zzzz__NetSyncVoipMicSource_def.hpp"
 #include "Oculus/Platform/zzzz__NetSyncVoipStreamMode_def.hpp"
+#include "Oculus/Platform/zzzz__OfferTerm_def.hpp"
+#include "Oculus/Platform/zzzz__OfferType_def.hpp"
 #include "Oculus/Platform/zzzz__PartyUpdateAction_def.hpp"
 #include "Oculus/Platform/zzzz__PlatformInitializeResult_def.hpp"
+#include "Oculus/Platform/zzzz__ProductType_def.hpp"
 #include "Oculus/Platform/zzzz__ReportRequestResponse_def.hpp"
 #include "Oculus/Platform/zzzz__SdkAccountType_def.hpp"
 #include "Oculus/Platform/zzzz__ServiceProvider_def.hpp"
@@ -58,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI_ovrKeyValuePair::*)(::StringW, ::StringW)>(
     &::Oculus::Platform::CAPI_ovrKeyValuePair::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3f5d84c;
+  constexpr static std::size_t addrs = 0x5ba172c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI_ovrKeyValuePair::*)(::StringW, int32_t)>(
     &::Oculus::Platform::CAPI_ovrKeyValuePair::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f5d350;
+  constexpr static std::size_t addrs = 0x5ba11c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI_ovrKeyValuePair::*)(::StringW, double_t)>(
     &::Oculus::Platform::CAPI_ovrKeyValuePair::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f5d864;
+  constexpr static std::size_t addrs = 0x5ba1744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI_FilterCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI_FilterCallback::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f79214;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5bbf570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI_FilterCallback::*)(
     ::ByRef<::ArrayW<int16_t, ::Array<int16_t>*>>, ::System::UIntPtr, int32_t, int32_t)>(&::Oculus::Platform::CAPI_FilterCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3f792b4;
+  constexpr static std::size_t addrs = 0x5bbf5f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,8 +190,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Oculus::Platform::CAPI_FilterCallback::*)(::ByRef<::ArrayW<int16_t, ::Array<int16_t>*>>, ::System::UIntPtr, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
     &::Oculus::Platform::CAPI_FilterCallback::BeginInvoke)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3f792c8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5bbf604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI_FilterCallback::*)(::System::IAsyncResult*)>(
     &::Oculus::Platform::CAPI_FilterCallback::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f793a0;
+  constexpr static std::size_t addrs = 0x5bbf694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -243,8 +247,8 @@ constexpr ::Oculus::Platform::CAPI_FilterCallback::CAPI_FilterCallback() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Array*)>(&::Oculus::Platform::CAPI::ArrayOfStructsToIntPtr)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3f5cf70;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5ba0e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -258,8 +262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*> (*)(
     ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>*)>(&::Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x3f5d108;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x5ba0fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,8 +278,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*> (*)(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Object*>*)>(&::Oculus::Platform::CAPI::DictionaryToOVRKeyValuePairs)> {
-  constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x3f5d36c;
+  constexpr static std::size_t size = 0x550;
+  constexpr static std::size_t addrs = 0x5ba11dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -288,8 +292,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::IntPtrToByteArray)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3f5d880;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5ba1760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,8 +307,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::DataStoreFromNative)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3f5d93c;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x5ba1830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -317,8 +321,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::StringFromNative)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3f5dbfc;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5ba1b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -331,8 +335,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::GetNativeStringLengthNotIncludingNullTerminator)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3f5dd14;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5ba1c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,8 +349,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(uint64_t)>(&::Oculus::Platform::CAPI::DateTimeFromNative)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f5dd88;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5ba1cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -359,8 +363,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::DateTime)>(&::Oculus::Platform::CAPI::DateTimeToNative)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3f5de2c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x5ba1d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,8 +377,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(uint32_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::BlobFromNative)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3f5df58;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5ba1e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,8 +392,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(uint32_t, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::FiledataFromNative)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5e030;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5ba1f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -403,7 +407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::Oculus::Platform::CAPI::StringToNative)> {
   constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x3f5e0d0;
+  constexpr static std::size_t addrs = 0x5ba200c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -416,8 +420,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_UnityInitWrapper)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3f5b840;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5b9f704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,7 +435,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UnityInitGlobals)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5e24c;
+  constexpr static std::size_t addrs = 0x5ba2188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -444,8 +448,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_UnityInitWrapperAsynchronous)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f5b9d4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5b9f890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,8 +462,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UnityInitWrapperStandalone)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5e2c8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5ba2204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -474,8 +478,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ByRef<::Oculus::Platform::CAPI_OculusInitParams>)>(
     &::Oculus::Platform::CAPI::ovr_Platform_InitializeStandaloneOculus)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3f5e368;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5ba22a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -488,8 +492,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessToken)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5e44c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5ba2398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -504,8 +508,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint64_t (*)(uint64_t, ::StringW, ::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*>, ::System::UIntPtr)>(
         &::Oculus::Platform::CAPI::ovr_PlatformInitializeWithAccessTokenAndOptions)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3f5e4ec;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x5ba243c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -521,8 +525,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UnityInitWrapperWindows)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5e690;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5ba25ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -536,8 +540,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UnityInitWrapperWindowsAsynchronous)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5e730;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba2690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -551,8 +555,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_SetDeveloperAccessToken)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3f5e7cc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5ba2730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -565,8 +569,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3f5e864;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5ba27cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_GetLoggedInUserLocale",
@@ -578,8 +582,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_GetLoggedInUserLocale_Native)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5e8b4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba2820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -592,8 +596,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_PopMessage)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5e91c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba2884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PopMessage",
@@ -606,7 +610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_FreeMessage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5e984;
+  constexpr static std::size_t addrs = 0x5ba28e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -619,8 +623,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_Voip_CreateEncoder)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5ea00;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba2964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Voip_CreateEncoder",
@@ -633,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Voip_DestroyEncoder)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5ea68;
+  constexpr static std::size_t addrs = 0x5ba29c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -646,8 +650,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_Voip_CreateDecoder)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5eae4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba2a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Voip_CreateDecoder",
@@ -660,7 +664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Voip_DestroyDecoder)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5eb4c;
+  constexpr static std::size_t addrs = 0x5ba2aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -675,7 +679,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint64_t)>(
     &::Oculus::Platform::CAPI::ovr_VoipDecoder_Decode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5ebc8;
+  constexpr static std::size_t addrs = 0x5ba2b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -690,8 +694,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_Microphone_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5ec64;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba2bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Microphone_Create",
@@ -704,7 +708,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Microphone_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5eccc;
+  constexpr static std::size_t addrs = 0x5ba2c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -718,7 +722,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipPassthrough)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5ed48;
+  constexpr static std::size_t addrs = 0x5ba2ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -732,7 +736,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::VoipMuteState)>(&::Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipMicrophoneMuted)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5edc4;
+  constexpr static std::size_t addrs = 0x5ba2d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -746,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::CAPI::ovr_UnityResetTestPlatform)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3f5ee40;
+  constexpr static std::size_t addrs = 0x5ba2d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UnityResetTestPlatform",
@@ -758,8 +762,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int32_t)>(&::Oculus::Platform::CAPI::ovr_HTTP_GetWithMessageType)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5eea4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba2dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -773,7 +777,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Oculus::Platform::CAPI::ovr_CrashApplication)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3f5ef40;
+  constexpr static std::size_t addrs = 0x5ba2e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CrashApplication",
@@ -787,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::CAPI_FilterCallback*)>(
     &::Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneFilterCallback)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f5efa4;
+  constexpr static std::size_t addrs = 0x5ba2f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -802,7 +806,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::CAPI_FilterCallback*, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneFilterCallbackWithFixedSizeBuffer)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3f5f024;
+  constexpr static std::size_t addrs = 0x5ba2f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -817,8 +821,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::LogEventName, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::Oculus::Platform::CAPI::LogNewUnifiedEvent)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3f5f0ac;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5ba3008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -833,8 +837,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*)>(
     &::Oculus::Platform::CAPI::LogNewEvent)> {
-  constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x3f5f154;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x5ba30b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -850,7 +854,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ArrayW<::System::IntPtr, ::Array<::System::IntPtr>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Log_NewEvent)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5f484;
+  constexpr static std::size_t addrs = 0x5ba344c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -865,8 +869,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetLaunchDetails)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5f520;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba34e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -880,8 +884,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::Oculus::Platform::LaunchResult)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5f588;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba354c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -897,7 +901,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::LaunchResult)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_LogDeeplinkResult_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5f624;
+  constexpr static std::size_t addrs = 0x5ba35ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -912,8 +916,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint64_t (*)(::StringW, ::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*>)>(&::Oculus::Platform::CAPI::ovr_HTTP_StartTransfer)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3f5f6a8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5ba3670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -930,8 +934,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint64_t (*)(::System::IntPtr, ::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*>, ::System::UIntPtr)>(
         &::Oculus::Platform::CAPI::ovr_HTTP_StartTransfer_Native)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x3f5f770;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x5ba372c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -949,7 +953,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_HTTP_Write)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f5f924;
+  constexpr static std::size_t addrs = 0x5ba38e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -965,7 +969,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_HTTP_WriteEOM)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f5f9c8;
+  constexpr static std::size_t addrs = 0x5ba3988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -978,8 +982,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f5fa40;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ba3a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -993,7 +997,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetStringForJavascript_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5fa98;
+  constexpr static std::size_t addrs = 0x5ba3a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1008,7 +1012,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(int64_t, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicFloatPCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5fb14;
+  constexpr static std::size_t addrs = 0x5ba3ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1025,7 +1029,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(int64_t, ::ArrayW<int16_t, ::Array<int16_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInt16PCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5fbb0;
+  constexpr static std::size_t addrs = 0x5ba3b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1042,7 +1046,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(int64_t, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedFloatPCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5fc4c;
+  constexpr static std::size_t addrs = 0x5ba3c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1059,7 +1063,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(int64_t, ::ArrayW<int16_t, ::Array<int16_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetAmbisonicInterleavedInt16PCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5fce8;
+  constexpr static std::size_t addrs = 0x5ba3cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1076,7 +1080,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, uint64_t, ::ByRef<::Oculus::Platform::CAPI_ovrNetSyncVec3>)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetListenerPosition)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5fd84;
+  constexpr static std::size_t addrs = 0x5ba3d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1092,7 +1096,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(int64_t, uint64_t, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetMonostreamFloatPCM)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f5fe20;
+  constexpr static std::size_t addrs = 0x5ba3de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1109,7 +1113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(int64_t, uint64_t, ::ArrayW<int16_t, ::Array<int16_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_GetMonostreamInt16PCM)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3f5fec4;
+  constexpr static std::size_t addrs = 0x5ba3e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1124,8 +1128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_NetSync_GetPcmBufferMaxSamples)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5ff68;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba3f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1139,7 +1143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t, uint64_t, ::ByRef<float_t>)>(&::Oculus::Platform::CAPI::ovr_NetSync_GetVoipAmplitude)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f5ffd0;
+  constexpr static std::size_t addrs = 0x5ba3f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1155,7 +1159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int64_t, ::ByRef<::Oculus::Platform::CAPI_ovrNetSyncVec3>)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetListenerPosition)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6006c;
+  constexpr static std::size_t addrs = 0x5ba402c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1169,8 +1173,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::Oculus::Platform::CAPI::ovr_Party_PluginGetSharedMemHandle)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f600f0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba40b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1183,8 +1187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipMuteState (*)()>(&::Oculus::Platform::CAPI::ovr_Party_PluginGetVoipMicrophoneMuted)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f60158;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba4114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1197,8 +1201,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::Oculus::Platform::CAPI::ovr_Party_PluginGetVoipPassthrough)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3f601c0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5ba4178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1211,8 +1215,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::SystemVoipStatus (*)()>(&::Oculus::Platform::CAPI::ovr_Party_PluginGetVoipStatus)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f60230;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba41e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -1225,7 +1229,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_Accept)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60298;
+  constexpr static std::size_t addrs = 0x5ba4248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1239,7 +1243,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipDtxState (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_GetIsConnectionUsingDtx)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60314;
+  constexpr static std::size_t addrs = 0x5ba42c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1253,7 +1257,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipBitrate (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_GetLocalBitrate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60390;
+  constexpr static std::size_t addrs = 0x5ba4340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1266,8 +1270,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_Voip_GetOutputBufferMaxSize)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6040c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba43bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1282,7 +1286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(uint64_t, ::ArrayW<int16_t, ::Array<int16_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Voip_GetPCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f60474;
+  constexpr static std::size_t addrs = 0x5ba4420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1299,7 +1303,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(uint64_t, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Voip_GetPCMFloat)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f60510;
+  constexpr static std::size_t addrs = 0x5ba44bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1315,7 +1319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_GetPCMSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f605ac;
+  constexpr static std::size_t addrs = 0x5ba4558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1330,7 +1334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(
     uint64_t, ::ArrayW<int16_t, ::Array<int16_t>*>, ::System::UIntPtr, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestamp)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f60628;
+  constexpr static std::size_t addrs = 0x5ba45d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1347,7 +1351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(
     uint64_t, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(&::Oculus::Platform::CAPI::ovr_Voip_GetPCMWithTimestampFloat)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f606d4;
+  constexpr static std::size_t addrs = 0x5ba4680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1363,7 +1367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipBitrate (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_GetRemoteBitrate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60780;
+  constexpr static std::size_t addrs = 0x5ba472c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1377,7 +1381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_GetSyncTimestamp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f607fc;
+  constexpr static std::size_t addrs = 0x5ba47a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1391,7 +1395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(uint32_t, uint32_t)>(&::Oculus::Platform::CAPI::ovr_Voip_GetSyncTimestampDifference)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f60878;
+  constexpr static std::size_t addrs = 0x5ba4824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1404,8 +1408,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipMuteState (*)()>(&::Oculus::Platform::CAPI::ovr_Voip_GetSystemVoipMicrophoneMuted)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f608fc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba48a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1418,8 +1422,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::SystemVoipStatus (*)()>(&::Oculus::Platform::CAPI::ovr_Voip_GetSystemVoipStatus)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f60964;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba490c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Voip_GetSystemVoipStatus",
@@ -1432,7 +1436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::VoipMuteState)>(&::Oculus::Platform::CAPI::ovr_Voip_SetMicrophoneMuted)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f609cc;
+  constexpr static std::size_t addrs = 0x5ba4970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1446,7 +1450,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Voip_SetNewConnectionOptions)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60a48;
+  constexpr static std::size_t addrs = 0x5ba49ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1460,7 +1464,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Oculus::Platform::VoipSampleRate)>(&::Oculus::Platform::CAPI::ovr_Voip_SetOutputSampleRate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60ac4;
+  constexpr static std::size_t addrs = 0x5ba4a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1474,7 +1478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_Start)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60b40;
+  constexpr static std::size_t addrs = 0x5ba4ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1488,7 +1492,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Voip_Stop)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60bbc;
+  constexpr static std::size_t addrs = 0x5ba4b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1502,7 +1506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AbuseReport_LaunchAdvancedReportFlow)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f60c38;
+  constexpr static std::size_t addrs = 0x5ba4bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1517,7 +1521,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Oculus::Platform::ReportRequestResponse)>(
     &::Oculus::Platform::CAPI::ovr_AbuseReport_ReportRequestHandled)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f60cbc;
+  constexpr static std::size_t addrs = 0x5ba4c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1530,8 +1534,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, uint64_t)>(&::Oculus::Platform::CAPI::ovr_Achievements_AddCount)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f60d38;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5ba4cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1545,7 +1549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_Achievements_AddCount_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f60de4;
+  constexpr static std::size_t addrs = 0x5ba4d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1559,7 +1563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_Achievements_AddFields)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3f60e68;
+  constexpr static std::size_t addrs = 0x5ba4e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1573,7 +1577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Achievements_AddFields_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f60f30;
+  constexpr static std::size_t addrs = 0x5ba4ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -1587,8 +1591,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Achievements_GetAllDefinitions)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f60fb4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba4f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1601,8 +1605,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Achievements_GetAllProgress)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6101c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba4fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1616,8 +1620,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::Oculus::Platform::CAPI::ovr_Achievements_GetDefinitionsByName)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3f61084;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5ba5024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1632,8 +1636,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::Oculus::Platform::CAPI::ovr_Achievements_GetProgressByName)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3f611b0;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5ba5154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1647,8 +1651,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_Achievements_Unlock)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f612dc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba5284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1662,7 +1666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Achievements_Unlock_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61378;
+  constexpr static std::size_t addrs = 0x5ba5324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1675,8 +1679,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Application_CancelAppDownload)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f613f4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba53a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1689,8 +1693,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Application_CheckAppDownloadProgress)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6145c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba5404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1703,8 +1707,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Application_GetInstalledApplications)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f614c4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba5468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1717,8 +1721,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Application_GetVersion)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6152c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba54cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Application_GetVersion",
@@ -1731,7 +1735,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Application_InstallAppUpdateAndRelaunch)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61594;
+  constexpr static std::size_t addrs = 0x5ba5530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1745,7 +1749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Application_LaunchOtherApp)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f61610;
+  constexpr static std::size_t addrs = 0x5ba55ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1758,8 +1762,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Application_StartAppDownload)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f61694;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba5630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1772,8 +1776,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetRegisteredPIDs)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f616fc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba5694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1786,8 +1790,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_GetSessionKey)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f61764;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba56f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1800,8 +1804,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f617cc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba575c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1815,7 +1819,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationLifecycle_RegisterSessionKey_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61868;
+  constexpr static std::size_t addrs = 0x5ba57fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1829,7 +1833,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_Delete)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f618e4;
+  constexpr static std::size_t addrs = 0x5ba5878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1843,7 +1847,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DeleteById)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61960;
+  constexpr static std::size_t addrs = 0x5ba58f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1856,8 +1860,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f619dc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba5970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1871,7 +1875,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DeleteByName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61a78;
+  constexpr static std::size_t addrs = 0x5ba5a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1885,7 +1889,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_Download)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61af4;
+  constexpr static std::size_t addrs = 0x5ba5a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1899,7 +1903,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadById)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61b70;
+  constexpr static std::size_t addrs = 0x5ba5b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1912,8 +1916,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f61bec;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba5b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1927,7 +1931,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadByName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61c88;
+  constexpr static std::size_t addrs = 0x5ba5c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1941,7 +1945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61d04;
+  constexpr static std::size_t addrs = 0x5ba5ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1955,7 +1959,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelById)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61d80;
+  constexpr static std::size_t addrs = 0x5ba5d1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1968,8 +1972,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f61dfc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba5d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1983,7 +1987,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFile_DownloadCancelByName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61e98;
+  constexpr static std::size_t addrs = 0x5ba5e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1996,8 +2000,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_AssetFile_GetList)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f61f14;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba5eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_AssetFile_GetList",
@@ -2010,7 +2014,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_Status)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61f7c;
+  constexpr static std::size_t addrs = 0x5ba5f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2024,7 +2028,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_AssetFile_StatusById)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f61ff8;
+  constexpr static std::size_t addrs = 0x5ba5f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2037,8 +2041,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_AssetFile_StatusByName)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f62074;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba6010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2052,7 +2056,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFile_StatusByName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62110;
+  constexpr static std::size_t addrs = 0x5ba60b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2066,7 +2070,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Avatar_LaunchAvatarEditor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6218c;
+  constexpr static std::size_t addrs = 0x5ba612c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2080,7 +2084,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3f62208;
+  constexpr static std::size_t addrs = 0x5ba61a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2094,7 +2098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Avatar_UpdateMetaData_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f622d0;
+  constexpr static std::size_t addrs = 0x5ba6270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -2108,8 +2112,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_Create)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f62354;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5ba62f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2124,7 +2128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_Create_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f62400;
+  constexpr static std::size_t addrs = 0x5ba63a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2139,7 +2143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_DeclineInvite)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62484;
+  constexpr static std::size_t addrs = 0x5ba6428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2153,7 +2157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_Delete)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62500;
+  constexpr static std::size_t addrs = 0x5ba64a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2167,7 +2171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_Get)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6257c;
+  constexpr static std::size_t addrs = 0x5ba6520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2182,7 +2186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardFilterType, ::Oculus::Platform::LeaderboardStartAt)>(
     &::Oculus::Platform::CAPI::ovr_Challenges_GetEntries)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f625f8;
+  constexpr static std::size_t addrs = 0x5ba659c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2198,7 +2202,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, int32_t, uint64_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetEntriesAfterRank)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f62694;
+  constexpr static std::size_t addrs = 0x5ba6638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2214,7 +2218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint64_t (*)(uint64_t, int32_t, ::Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t, ::Array<uint64_t>*>, uint32_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetEntriesByIds)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f62728;
+  constexpr static std::size_t addrs = 0x5ba66cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2231,7 +2235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, int32_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetList)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f627dc;
+  constexpr static std::size_t addrs = 0x5ba6780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2245,7 +2249,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetNextChallenges)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62860;
+  constexpr static std::size_t addrs = 0x5ba6804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2259,7 +2263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetNextEntries)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f628dc;
+  constexpr static std::size_t addrs = 0x5ba6880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2273,7 +2277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetPreviousChallenges)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62958;
+  constexpr static std::size_t addrs = 0x5ba68fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2287,7 +2291,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_GetPreviousEntries)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f629d4;
+  constexpr static std::size_t addrs = 0x5ba6978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2301,7 +2305,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_Join)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62a50;
+  constexpr static std::size_t addrs = 0x5ba69f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2315,7 +2319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Challenges_Leave)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62acc;
+  constexpr static std::size_t addrs = 0x5ba6a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2329,7 +2333,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenges_UpdateInfo)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f62b48;
+  constexpr static std::size_t addrs = 0x5ba6aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2342,8 +2346,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Colocation_GetCurrentMapUuid)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f62bcc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba6b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2356,8 +2360,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_Colocation_RequestMap)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f62c34;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba6bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2371,7 +2375,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Colocation_RequestMap_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62cd0;
+  constexpr static std::size_t addrs = 0x5ba6c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2384,8 +2388,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_Colocation_ShareMap)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f62d4c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba6cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2399,7 +2403,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Colocation_ShareMap_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62de8;
+  constexpr static std::size_t addrs = 0x5ba6d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2408,12 +2412,178 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_GetPresenterData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_GetPresenterData)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba6e0c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_GetPresenterData",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_GetViewersData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_GetViewersData)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba6e70;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                               "ovr_Cowatching_GetViewersData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_IsInSession
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_IsInSession)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba6ed4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_IsInSession",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_JoinSession
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_JoinSession)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba6f38;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_JoinSession",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_LaunchInviteDialog
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_LaunchInviteDialog)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba6f9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_LaunchInviteDialog",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_LeaveSession
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_LeaveSession)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba7000;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_LeaveSession",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_RequestToPresent
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_RequestToPresent)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba7064;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_RequestToPresent",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_ResignFromPresenting
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Cowatching_ResignFromPresenting)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba70c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_ResignFromPresenting",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_SetPresenterData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_Cowatching_SetPresenterData)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5ba712c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_SetPresenterData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_SetPresenterData_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr)>(
+    &::Oculus::Platform::CAPI::ovr_Cowatching_SetPresenterData_Native)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5ba71f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                               "ovr_Cowatching_SetPresenterData_Native", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_SetViewerData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_Cowatching_SetViewerData)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba7278;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_SetViewerData", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Cowatching_SetViewerData_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Cowatching_SetViewerData_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5ba7318;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_SetViewerData_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_DeviceApplicationIntegrity_GetAttestationToken
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_DeviceApplicationIntegrity_GetAttestationToken)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f62e64;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba7394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2428,7 +2598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_DeviceApplicationIntegrity_GetAttestationToken_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f62f00;
+  constexpr static std::size_t addrs = 0x5ba7434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2441,8 +2611,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_DeviceApplicationIntegrity_GetIntegrityToken)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f62f7c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba74b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2456,7 +2626,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DeviceApplicationIntegrity_GetIntegrityToken_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63018;
+  constexpr static std::size_t addrs = 0x5ba7550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2469,8 +2639,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Entitlement_GetIsViewerEntitled)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f63094;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba75cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2483,8 +2653,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_GraphAPI_Get)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f630fc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba7630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2498,7 +2668,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GraphAPI_Get_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63198;
+  constexpr static std::size_t addrs = 0x5ba76d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2511,8 +2681,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_GraphAPI_Post)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f63214;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba774c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2526,7 +2696,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GraphAPI_Post_Native)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f632b0;
+  constexpr static std::size_t addrs = 0x5ba77ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2539,8 +2709,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_GroupPresence_Clear)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f63328;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba7864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_GroupPresence_Clear",
@@ -2553,7 +2723,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_GetInvitableUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63390;
+  constexpr static std::size_t addrs = 0x5ba78c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2566,8 +2736,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_GroupPresence_GetSentInvites)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6340c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba7944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2581,7 +2751,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_LaunchInvitePanel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63474;
+  constexpr static std::size_t addrs = 0x5ba79a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2595,7 +2765,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_LaunchMultiplayerErrorDialog)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f634f0;
+  constexpr static std::size_t addrs = 0x5ba7a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2608,8 +2778,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_LaunchRejoinDialog)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3f6356c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5ba7aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2625,7 +2795,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresence_LaunchRejoinDialog_Native)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f63654;
+  constexpr static std::size_t addrs = 0x5ba7b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -2641,7 +2811,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_LaunchRosterPanel)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f636e8;
+  constexpr static std::size_t addrs = 0x5ba7c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2656,7 +2826,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, uint32_t)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresence_SendInvites)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3f63764;
+  constexpr static std::size_t addrs = 0x5ba7c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2671,7 +2841,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_Set)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f637f0;
+  constexpr static std::size_t addrs = 0x5ba7d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2684,8 +2854,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetDeeplinkMessageOverride)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f6386c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba7d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2699,7 +2869,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetDeeplinkMessageOverride_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63908;
+  constexpr static std::size_t addrs = 0x5ba7e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2712,8 +2882,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetDestination)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f63984;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba7eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2727,7 +2897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetDestination_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63a20;
+  constexpr static std::size_t addrs = 0x5ba7f58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2741,7 +2911,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetIsJoinable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63a9c;
+  constexpr static std::size_t addrs = 0x5ba7fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2754,8 +2924,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetLobbySession)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f63b18;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba8050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2769,7 +2939,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetLobbySession_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63bb4;
+  constexpr static std::size_t addrs = 0x5ba80f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2782,8 +2952,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetMatchSession)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f63c30;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba816c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2797,7 +2967,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresence_SetMatchSession_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63ccc;
+  constexpr static std::size_t addrs = 0x5ba820c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2810,8 +2980,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_HTTP_Get)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f63d48;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba8288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2825,7 +2995,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HTTP_Get_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f63de4;
+  constexpr static std::size_t addrs = 0x5ba8328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2839,7 +3009,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_HTTP_GetToFile)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3f63e60;
+  constexpr static std::size_t addrs = 0x5ba83a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2853,7 +3023,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HTTP_GetToFile_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f63f28;
+  constexpr static std::size_t addrs = 0x5ba846c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2869,8 +3039,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<uint64_t (*)(::StringW, ::StringW, ::StringW, ::StringW, ::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*>)>(
         &::Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3f63fac;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5ba84f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2888,8 +3058,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(
     ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::System::IntPtr, ::ArrayW<::Oculus::Platform::CAPI_ovrKeyValuePair, ::Array<::Oculus::Platform::CAPI_ovrKeyValuePair>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_HTTP_MultiPartPost_Native)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3f640dc;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x5ba860c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2906,8 +3076,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_HTTP_Post)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f642cc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba8800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2921,7 +3091,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HTTP_Post_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64368;
+  constexpr static std::size_t addrs = 0x5ba88a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2934,8 +3104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f643e4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba891c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2949,7 +3119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_IAP_ConsumePurchase_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64480;
+  constexpr static std::size_t addrs = 0x5ba89bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2963,8 +3133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<::StringW, ::Array<::StringW>*>, int32_t)>(
     &::Oculus::Platform::CAPI::ovr_IAP_GetProductsBySKU)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3f644fc;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5ba8a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2978,8 +3148,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_IAP_GetViewerPurchases)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f64628;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba8b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_IAP_GetViewerPurchases",
@@ -2991,8 +3161,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_IAP_GetViewerPurchasesDurableCache)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f64690;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba8bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3005,8 +3175,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f646f8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba8c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3020,7 +3190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_IAP_LaunchCheckoutFlow_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64794;
+  constexpr static std::size_t addrs = 0x5ba8cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3033,8 +3203,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_LanguagePack_GetCurrent)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f64810;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba8d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LanguagePack_GetCurrent",
@@ -3046,8 +3216,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f64878;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba8db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3061,7 +3231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePack_SetCurrent_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64914;
+  constexpr static std::size_t addrs = 0x5ba8e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3074,8 +3244,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_Get)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f64990;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba8ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3089,7 +3259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_Get_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64a2c;
+  constexpr static std::size_t addrs = 0x5ba8f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3103,8 +3273,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int32_t, ::Oculus::Platform::LeaderboardFilterType, ::Oculus::Platform::LeaderboardStartAt)>(
     &::Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3f64aa8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5ba8fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3121,7 +3291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, int32_t, ::Oculus::Platform::LeaderboardFilterType,
                                                                                                ::Oculus::Platform::LeaderboardStartAt)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetEntries_Native)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f64b6c;
+  constexpr static std::size_t addrs = 0x5ba90b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3136,8 +3306,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int32_t, uint64_t)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f64c08;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5ba914c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3153,7 +3323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, int32_t, uint64_t)>(
     &::Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesAfterRank_Native)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f64cbc;
+  constexpr static std::size_t addrs = 0x5ba9204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3168,8 +3338,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int32_t, ::Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t, ::Array<uint64_t>*>,
                                                                                                uint32_t)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3f64d50;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5ba9298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3187,7 +3357,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(
     ::System::IntPtr, int32_t, ::Oculus::Platform::LeaderboardStartAt, ::ArrayW<uint64_t, ::Array<uint64_t>*>, uint32_t)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetEntriesByIds_Native)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f64e1c;
+  constexpr static std::size_t addrs = 0x5ba9368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3204,7 +3374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetNextEntries)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64ed0;
+  constexpr static std::size_t addrs = 0x5ba941c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3218,7 +3388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetPreviousEntries)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f64f4c;
+  constexpr static std::size_t addrs = 0x5ba9498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3232,8 +3402,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint32_t, bool)>(
     &::Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3f64fc8;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5ba9514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3250,7 +3420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint32_t, bool)>(
     &::Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntry_Native)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f65094;
+  constexpr static std::size_t addrs = 0x5ba95e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3266,8 +3436,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, int64_t, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint32_t, bool)>(
     &::Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3f65148;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5ba9698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3285,7 +3455,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, int64_t, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, uint32_t, bool)>(
     &::Oculus::Platform::CAPI::ovr_Leaderboard_WriteEntryWithSupplementaryMetric_Native)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3f65224;
+  constexpr static std::size_t addrs = 0x5ba9778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3301,8 +3471,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f652e0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5ba9834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3316,7 +3486,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Livestreaming_IsAllowedForApplication_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6537c;
+  constexpr static std::size_t addrs = 0x5ba98d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3329,8 +3499,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Livestreaming_StartPartyStream)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f653f8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba9950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3345,7 +3515,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Oculus::Platform::LivestreamingAudience, ::Oculus::Platform::LivestreamingMicrophoneStatus)>(
     &::Oculus::Platform::CAPI::ovr_Livestreaming_StartStream)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f65460;
+  constexpr static std::size_t addrs = 0x5ba99b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3359,8 +3529,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Livestreaming_StopPartyStream)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f654e4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba9a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3373,8 +3543,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Livestreaming_StopStream)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6554c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba9a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Livestreaming_StopStream",
@@ -3388,7 +3558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Oculus::Platform::LivestreamingMicrophoneStatus)>(
     &::Oculus::Platform::CAPI::ovr_Livestreaming_UpdateMicStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f655b4;
+  constexpr static std::size_t addrs = 0x5ba9b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3403,7 +3573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::StringW, ::Oculus::Platform::MediaContentType)>(
     &::Oculus::Platform::CAPI::ovr_Media_ShareToFacebook)> {
   constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f65630;
+  constexpr static std::size_t addrs = 0x5ba9b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3419,7 +3589,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::System::IntPtr, ::Oculus::Platform::MediaContentType)>(
     &::Oculus::Platform::CAPI::ovr_Media_ShareToFacebook_Native)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f65700;
+  constexpr static std::size_t addrs = 0x5ba9c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3435,7 +3605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSync_Connect)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f65794;
+  constexpr static std::size_t addrs = 0x5ba9ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3449,7 +3619,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&::Oculus::Platform::CAPI::ovr_NetSync_Disconnect)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f65810;
+  constexpr static std::size_t addrs = 0x5ba9d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3463,7 +3633,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&::Oculus::Platform::CAPI::ovr_NetSync_GetSessions)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6588c;
+  constexpr static std::size_t addrs = 0x5ba9dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3477,7 +3647,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t)>(&::Oculus::Platform::CAPI::ovr_NetSync_GetVoipAttenuation)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f65908;
+  constexpr static std::size_t addrs = 0x5ba9e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3490,8 +3660,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_NetSync_GetVoipAttenuationDefault)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f65984;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba9ed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3506,7 +3676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<float_t, ::Array<float_t>*>, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuation)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f659ec;
+  constexpr static std::size_t addrs = 0x5ba9f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3522,8 +3692,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::StringW, ::ArrayW<float_t, ::Array<float_t>*>, ::ArrayW<float_t, ::Array<float_t>*>,
                                                                                                ::System::UIntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f65a98;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5ba9fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3541,7 +3711,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::System::IntPtr, ::ArrayW<float_t, ::Array<float_t>*>, ::ArrayW<float_t, ::Array<float_t>*>,
                                                                                                ::System::UIntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSync_SetVoipAttenuationModel_Native)> {
   constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3f65b68;
+  constexpr static std::size_t addrs = 0x5baa0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3558,7 +3728,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::StringW, ::StringW, bool)>(&::Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3f65c24;
+  constexpr static std::size_t addrs = 0x5baa170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3574,7 +3744,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::System::IntPtr, ::System::IntPtr, bool)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetVoipChannelCfg_Native)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f65d04;
+  constexpr static std::size_t addrs = 0x5baa250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3588,8 +3758,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f65da0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5baa2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3603,7 +3773,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSync_SetVoipGroup_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f65e50;
+  constexpr static std::size_t addrs = 0x5baa3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3617,8 +3787,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetVoipListentoChannels)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3f65ed4;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5baa424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3635,7 +3805,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::Oculus::Platform::NetSyncVoipMicSource)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetVoipMicSource)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f66014;
+  constexpr static std::size_t addrs = 0x5baa568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3650,7 +3820,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, uint64_t, bool)>(&::Oculus::Platform::CAPI::ovr_NetSync_SetVoipSessionMuted)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f66098;
+  constexpr static std::size_t addrs = 0x5baa5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3665,8 +3835,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, ::ArrayW<::StringW, ::Array<::StringW>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetVoipSpeaktoChannels)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3f6612c;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5baa680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3683,7 +3853,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(int64_t, uint64_t, ::Oculus::Platform::NetSyncVoipStreamMode)>(
     &::Oculus::Platform::CAPI::ovr_NetSync_SetVoipStreamMode)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f6626c;
+  constexpr static std::size_t addrs = 0x5baa7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3698,7 +3868,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Notification_MarkAsRead)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66300;
+  constexpr static std::size_t addrs = 0x5baa858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3711,8 +3881,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Party_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6637c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baa8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Party_Create",
@@ -3725,7 +3895,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Oculus::Platform::CAPI::ovr_Party_GatherInApplication)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f663e4;
+  constexpr static std::size_t addrs = 0x5baa938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3739,7 +3909,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Party_Get)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66468;
+  constexpr static std::size_t addrs = 0x5baa9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3752,8 +3922,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Party_GetCurrent)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f664e4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baaa38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Party_GetCurrent",
@@ -3766,7 +3936,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Party_GetCurrentForUser)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6654c;
+  constexpr static std::size_t addrs = 0x5baaa9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3780,7 +3950,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, uint64_t)>(&::Oculus::Platform::CAPI::ovr_Party_Invite)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3f665c8;
+  constexpr static std::size_t addrs = 0x5baab18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3794,7 +3964,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Party_Join)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66648;
+  constexpr static std::size_t addrs = 0x5baab98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3808,7 +3978,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_Party_Leave)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f666c4;
+  constexpr static std::size_t addrs = 0x5baac14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3817,12 +3987,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_PushNotification_Register
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_PushNotification_Register)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baac90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                               "ovr_PushNotification_Register", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_RichPresence_Clear
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_RichPresence_Clear)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f66740;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baacf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_RichPresence_Clear",
@@ -3834,8 +4017,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_RichPresence_GetDestinations)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f667a8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baad58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3849,7 +4032,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RichPresence_Set)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66810;
+  constexpr static std::size_t addrs = 0x5baadbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3862,8 +4045,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetDestination)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f6688c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5baae38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3877,7 +4060,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetDestination_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66928;
+  constexpr static std::size_t addrs = 0x5baaed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3891,7 +4074,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetIsJoinable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f669a4;
+  constexpr static std::size_t addrs = 0x5baaf54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3904,8 +4087,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f66a20;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5baafd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3919,7 +4102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetLobbySession_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66abc;
+  constexpr static std::size_t addrs = 0x5bab070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3932,8 +4115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f66b38;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5bab0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3947,7 +4130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RichPresence_SetMatchSession_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66bd4;
+  constexpr static std::size_t addrs = 0x5bab18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3960,8 +4143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f66c50;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5bab208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3975,7 +4158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_CancelRecordingForReportFlow_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66cec;
+  constexpr static std::size_t addrs = 0x5bab2a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3989,7 +4172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_User_Get)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66d68;
+  constexpr static std::size_t addrs = 0x5bab324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4002,8 +4185,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetAccessToken)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f66de4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetAccessToken",
@@ -4015,8 +4198,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetBlockedUsers)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f66e4c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetBlockedUsers",
@@ -4029,7 +4212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetLinkedAccounts)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f66eb4;
+  constexpr static std::size_t addrs = 0x5bab468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4042,8 +4225,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetLoggedInUser)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f66f30;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetLoggedInUser",
@@ -4055,12 +4238,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetLoggedInUserFriends)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f66f98;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetLoggedInUserFriends",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_User_GetLoggedInUserManagedInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetLoggedInUserManagedInfo)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab5ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetLoggedInUserManagedInfo",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -4070,7 +4267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_User_GetOrgScopedID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f67000;
+  constexpr static std::size_t addrs = 0x5bab610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4083,8 +4280,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetSdkAccounts)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6707c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetSdkAccounts",
@@ -4096,8 +4293,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetUserCapabilities)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f670e4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetUserCapabilities",
@@ -4109,8 +4306,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_GetUserProof)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6714c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bab754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetUserProof",
@@ -4123,7 +4320,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_User_LaunchBlockFlow)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f671b4;
+  constexpr static std::size_t addrs = 0x5bab7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4137,7 +4334,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_User_LaunchFriendRequestFlow)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f67230;
+  constexpr static std::size_t addrs = 0x5bab834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4151,7 +4348,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_User_LaunchReportFlow)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f672ac;
+  constexpr static std::size_t addrs = 0x5bab8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4165,7 +4362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_LaunchReportFlow2)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f67328;
+  constexpr static std::size_t addrs = 0x5bab92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4179,7 +4376,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_User_LaunchUnblockFlow)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f673ac;
+  constexpr static std::size_t addrs = 0x5bab9b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4192,8 +4389,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_NewEntitledTestUser)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f67428;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baba2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_NewEntitledTestUser",
@@ -4205,8 +4402,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_NewTestUser)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f67490;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5baba90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_NewTestUser",
@@ -4218,8 +4415,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_NewTestUserFriends)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f674f8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5babaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_NewTestUserFriends",
@@ -4231,8 +4428,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_User_StartRecordingForReportFlow)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f67560;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5babb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4245,8 +4442,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f675c8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5babbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4261,7 +4458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f67678;
+  constexpr static std::size_t addrs = 0x5babc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4275,8 +4472,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f676fc;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5babcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4292,7 +4489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_User_StopRecordingAndLaunchReportFlow2_Native)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f677b4;
+  constexpr static std::size_t addrs = 0x5babdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4307,8 +4504,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW, ::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t)>(
     &::Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f67848;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5babe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4325,7 +4522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, ::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t)>(
     &::Oculus::Platform::CAPI::ovr_User_TestUserCreateDeviceManifest_Native)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f678fc;
+  constexpr static std::size_t addrs = 0x5babefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4340,8 +4537,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_UserAgeCategory_Get)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f67998;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5babf98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserAgeCategory_Get",
@@ -4354,7 +4551,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::Oculus::Platform::AppAgeCategory)>(&::Oculus::Platform::CAPI::ovr_UserAgeCategory_Report)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f67a00;
+  constexpr static std::size_t addrs = 0x5babffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4363,216 +4560,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateDeleteEntryByKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f67a7c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateDeleteEntryByKey", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateDeleteEntryByKey_Native
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(
-    &::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey_Native)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f67b2c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateDeleteEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateGetEntries
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntries)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f67bb0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateGetEntries",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateGetEntryByKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f67c2c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateGetEntryByKey", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateGetEntryByKey_Native
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey_Native)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f67cdc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateGetEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateWriteEntry
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f67d60;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateWriteEntry", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PrivateWriteEntry_Native
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr, ::System::IntPtr)>(
-    &::Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry_Native)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f67e30;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateWriteEntry_Native", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicDeleteEntryByKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f67ec4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicDeleteEntryByKey", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicDeleteEntryByKey_Native
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(
-    &::Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey_Native)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f67f74;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicDeleteEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicGetEntries
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntries)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f67ff8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicGetEntries",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicGetEntryByKey
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f68074;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicGetEntryByKey", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicGetEntryByKey_Native
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey_Native)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68124;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicGetEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicWriteEntry
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::StringW, ::StringW)>(&::Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f681a8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicWriteEntry", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_UserDataStore_PublicWriteEntry_Native
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(uint64_t, ::System::IntPtr, ::System::IntPtr)>(
-    &::Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry_Native)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f68278;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicWriteEntry_Native", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Voip_GetMicrophoneAvailability
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::Oculus::Platform::CAPI::ovr_Voip_GetMicrophoneAvailability)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f6830c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bac078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4586,7 +4579,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Oculus::Platform::CAPI::ovr_Voip_ReportAppVoipSessions)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68374;
+  constexpr static std::size_t addrs = 0x5bac0dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -4600,7 +4593,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(bool)>(&::Oculus::Platform::CAPI::ovr_Voip_SetSystemVoipSuppressed)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f683f8;
+  constexpr static std::size_t addrs = 0x5bac160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4613,8 +4606,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f68474;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bac1dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4629,7 +4622,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AbuseReportRecording_GetRecordingUuid_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f684cc;
+  constexpr static std::size_t addrs = 0x5bac238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4643,7 +4636,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinition_GetBitfieldLength)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68548;
+  constexpr static std::size_t addrs = 0x5bac2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4656,8 +4649,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f685c4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bac330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4671,7 +4664,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinition_GetName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6861c;
+  constexpr static std::size_t addrs = 0x5bac38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4685,7 +4678,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinition_GetTarget)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68698;
+  constexpr static std::size_t addrs = 0x5bac408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4700,7 +4693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::AchievementType (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AchievementDefinition_GetType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68714;
+  constexpr static std::size_t addrs = 0x5bac484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4715,7 +4708,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68790;
+  constexpr static std::size_t addrs = 0x5bac500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -4729,8 +4722,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f68814;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bac584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4745,7 +4738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6886c;
+  constexpr static std::size_t addrs = 0x5bac5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4759,7 +4752,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f688e8;
+  constexpr static std::size_t addrs = 0x5bac65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4773,7 +4766,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementDefinitionArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68964;
+  constexpr static std::size_t addrs = 0x5bac6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4786,8 +4779,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f689e8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bac75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4801,7 +4794,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetBitfield_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68a40;
+  constexpr static std::size_t addrs = 0x5bac7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4815,7 +4808,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68abc;
+  constexpr static std::size_t addrs = 0x5bac834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4829,7 +4822,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetIsUnlocked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68b38;
+  constexpr static std::size_t addrs = 0x5bac8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4842,8 +4835,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f68bbc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bac934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4857,7 +4850,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68c14;
+  constexpr static std::size_t addrs = 0x5bac990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4870,8 +4863,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetUnlockTime)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f68c90;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baca0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4885,7 +4878,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgress_GetUnlockTime_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68ce8;
+  constexpr static std::size_t addrs = 0x5baca68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4900,7 +4893,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68d64;
+  constexpr static std::size_t addrs = 0x5bacae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -4914,8 +4907,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f68de8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bacb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4929,7 +4922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68e40;
+  constexpr static std::size_t addrs = 0x5bacbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4943,7 +4936,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgressArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f68ebc;
+  constexpr static std::size_t addrs = 0x5bacc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4957,7 +4950,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementProgressArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68f38;
+  constexpr static std::size_t addrs = 0x5baccbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4971,7 +4964,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementUpdate_GetJustUnlocked)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f68fbc;
+  constexpr static std::size_t addrs = 0x5bacd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4984,8 +4977,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f69040;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bacdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4999,7 +4992,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AchievementUpdate_GetName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69098;
+  constexpr static std::size_t addrs = 0x5bace20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5013,7 +5006,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AppDownloadProgressResult_GetDownloadBytes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69114;
+  constexpr static std::size_t addrs = 0x5bace9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5027,7 +5020,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AppDownloadProgressResult_GetDownloadedBytes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69190;
+  constexpr static std::size_t addrs = 0x5bacf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5042,11 +5035,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::AppStatus (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AppDownloadProgressResult_GetStatusCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6920c;
+  constexpr static std::size_t addrs = 0x5bacf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_AppDownloadProgressResult_GetStatusCode",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_AppDownloadResult_GetAppInstallResult
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::AppInstallResult (*)(::System::IntPtr)>(
+    &::Oculus::Platform::CAPI::ovr_AppDownloadResult_GetAppInstallResult)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bad010;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_AppDownloadResult_GetAppInstallResult",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -5056,7 +5064,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AppDownloadResult_GetTimestamp)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69288;
+  constexpr static std::size_t addrs = 0x5bad08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5070,7 +5078,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Application_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69304;
+  constexpr static std::size_t addrs = 0x5bad108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5084,7 +5092,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetDestination)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69380;
+  constexpr static std::size_t addrs = 0x5bad184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5098,7 +5106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f693fc;
+  constexpr static std::size_t addrs = 0x5bad200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5112,7 +5120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetIsActive)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f69478;
+  constexpr static std::size_t addrs = 0x5bad27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5125,8 +5133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetLobbySessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f694fc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bad300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5140,7 +5148,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetLobbySessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69554;
+  constexpr static std::size_t addrs = 0x5bad35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5153,8 +5161,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetMatchSessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f695d0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bad3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5168,7 +5176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetMatchSessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69628;
+  constexpr static std::size_t addrs = 0x5bad434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5182,7 +5190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInvite_GetRecipient)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f696a4;
+  constexpr static std::size_t addrs = 0x5bad4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5197,7 +5205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationInviteArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f69720;
+  constexpr static std::size_t addrs = 0x5bad52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -5211,8 +5219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInviteArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f697a4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bad5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5226,7 +5234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInviteArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f697fc;
+  constexpr static std::size_t addrs = 0x5bad60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5240,7 +5248,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInviteArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69878;
+  constexpr static std::size_t addrs = 0x5bad688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5254,7 +5262,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationInviteArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f698f4;
+  constexpr static std::size_t addrs = 0x5bad704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5268,7 +5276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69978;
+  constexpr static std::size_t addrs = 0x5bad788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5281,8 +5289,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f699f4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bad804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5296,7 +5304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetCurrentName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69a4c;
+  constexpr static std::size_t addrs = 0x5bad860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5310,7 +5318,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69ac8;
+  constexpr static std::size_t addrs = 0x5bad8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5323,8 +5331,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f69b44;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bad958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5338,7 +5346,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetLatestName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69b9c;
+  constexpr static std::size_t addrs = 0x5bad9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5352,7 +5360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetReleaseDate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69c18;
+  constexpr static std::size_t addrs = 0x5bada30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5365,8 +5373,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetSize)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f69c94;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5badaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5380,7 +5388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationVersion_GetSize_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69cec;
+  constexpr static std::size_t addrs = 0x5badb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5394,7 +5402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69d68;
+  constexpr static std::size_t addrs = 0x5badb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5407,8 +5415,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f69de4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5badc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5422,7 +5430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetAssetType_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69e3c;
+  constexpr static std::size_t addrs = 0x5badc5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5435,8 +5443,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f69eb8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5badcd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5450,7 +5458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetDownloadStatus_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69f10;
+  constexpr static std::size_t addrs = 0x5badd34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5463,8 +5471,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f69f8c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baddb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5478,7 +5486,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetFilepath_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f69fe4;
+  constexpr static std::size_t addrs = 0x5bade0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5491,8 +5499,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6a060;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bade88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5506,7 +5514,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetIapStatus_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a0b8;
+  constexpr static std::size_t addrs = 0x5badee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5520,7 +5528,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetLanguage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a134;
+  constexpr static std::size_t addrs = 0x5badf60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5533,8 +5541,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6a1b0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5badfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5548,7 +5556,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetails_GetMetadata_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a208;
+  constexpr static std::size_t addrs = 0x5bae038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5563,7 +5571,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AssetDetailsArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6a284;
+  constexpr static std::size_t addrs = 0x5bae0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -5578,7 +5586,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetDetailsArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a308;
+  constexpr static std::size_t addrs = 0x5bae138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5592,7 +5600,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetAssetFileId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a384;
+  constexpr static std::size_t addrs = 0x5bae1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5606,7 +5614,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetAssetId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a400;
+  constexpr static std::size_t addrs = 0x5bae230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5619,8 +5627,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6a47c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bae2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5634,7 +5642,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetFilepath_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a4d4;
+  constexpr static std::size_t addrs = 0x5bae308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5648,7 +5656,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDeleteResult_GetSuccess)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6a550;
+  constexpr static std::size_t addrs = 0x5bae384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5662,7 +5670,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetAssetFileId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a5d4;
+  constexpr static std::size_t addrs = 0x5bae408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5676,7 +5684,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetAssetId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a650;
+  constexpr static std::size_t addrs = 0x5bae484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5689,8 +5697,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6a6cc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bae500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5705,7 +5713,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetFilepath_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a724;
+  constexpr static std::size_t addrs = 0x5bae55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5719,7 +5727,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadCancelResult_GetSuccess)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6a7a0;
+  constexpr static std::size_t addrs = 0x5bae5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5733,7 +5741,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetAssetId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a824;
+  constexpr static std::size_t addrs = 0x5bae65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5746,8 +5754,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6a8a0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bae6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5761,7 +5769,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadResult_GetFilepath_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a8f8;
+  constexpr static std::size_t addrs = 0x5bae734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5775,7 +5783,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetAssetFileId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a974;
+  constexpr static std::size_t addrs = 0x5bae7b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5789,7 +5797,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetAssetId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6a9f0;
+  constexpr static std::size_t addrs = 0x5bae82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5803,7 +5811,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTotal)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6aa6c;
+  constexpr static std::size_t addrs = 0x5bae8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5817,7 +5825,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTotalLong)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6aae8;
+  constexpr static std::size_t addrs = 0x5bae924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5831,7 +5839,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTransferred)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ab64;
+  constexpr static std::size_t addrs = 0x5bae9a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5845,7 +5853,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetBytesTransferredLong)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6abe0;
+  constexpr static std::size_t addrs = 0x5baea1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5859,7 +5867,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AssetFileDownloadUpdate_GetCompleted)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6ac5c;
+  constexpr static std::size_t addrs = 0x5baea98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5873,7 +5881,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AvatarEditorResult_GetRequestSent)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6ace0;
+  constexpr static std::size_t addrs = 0x5baeb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5882,12 +5890,70 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_BillingPlan_GetPaidOffer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BillingPlan_GetPaidOffer)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5baeba0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlan_GetPaidOffer", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_BillingPlan_GetTrialOffers
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BillingPlan_GetTrialOffers)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5baec1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlan_GetTrialOffers",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_BillingPlanArray_GetElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
+    &::Oculus::Platform::CAPI::ovr_BillingPlanArray_GetElement)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5baec98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                               "ovr_BillingPlanArray_GetElement", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UIntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_BillingPlanArray_GetSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BillingPlanArray_GetSize)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5baed1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlanArray_GetSize", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_BlockedUser_GetId
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BlockedUser_GetId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ad64;
+  constexpr static std::size_t addrs = 0x5baed98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5902,7 +5968,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_BlockedUserArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6ade0;
+  constexpr static std::size_t addrs = 0x5baee14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -5916,8 +5982,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BlockedUserArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6ae64;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baee98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5931,7 +5997,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BlockedUserArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6aebc;
+  constexpr static std::size_t addrs = 0x5baeef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5945,7 +6011,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BlockedUserArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6af38;
+  constexpr static std::size_t addrs = 0x5baef70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5959,7 +6025,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_BlockedUserArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6afb4;
+  constexpr static std::size_t addrs = 0x5baefec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5974,7 +6040,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::ChallengeCreationType (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Challenge_GetCreationType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b038;
+  constexpr static std::size_t addrs = 0x5baf070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -5987,8 +6053,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetDescription)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6b0b4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baf0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6002,7 +6068,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetDescription_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b10c;
+  constexpr static std::size_t addrs = 0x5baf148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6015,8 +6081,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetEndDate)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6b188;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baf1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6030,7 +6096,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetEndDate_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b1e0;
+  constexpr static std::size_t addrs = 0x5baf220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6044,7 +6110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b25c;
+  constexpr static std::size_t addrs = 0x5baf29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6058,7 +6124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetInvitedUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b2d8;
+  constexpr static std::size_t addrs = 0x5baf318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6072,7 +6138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetLeaderboard)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b354;
+  constexpr static std::size_t addrs = 0x5baf394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6086,7 +6152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetParticipants)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b3d0;
+  constexpr static std::size_t addrs = 0x5baf410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6099,8 +6165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetStartDate)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6b44c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baf48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6114,7 +6180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetStartDate_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b4a4;
+  constexpr static std::size_t addrs = 0x5baf4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6127,8 +6193,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetTitle)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6b520;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baf564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6142,7 +6208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Challenge_GetTitle_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b578;
+  constexpr static std::size_t addrs = 0x5baf5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6157,7 +6223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::ChallengeVisibility (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Challenge_GetVisibility)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b5f4;
+  constexpr static std::size_t addrs = 0x5baf63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6172,7 +6238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6b670;
+  constexpr static std::size_t addrs = 0x5baf6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6186,8 +6252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6b6f4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baf73c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6201,7 +6267,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b74c;
+  constexpr static std::size_t addrs = 0x5baf798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6214,8 +6280,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6b7c8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baf814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6229,7 +6295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_GetPreviousUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b820;
+  constexpr static std::size_t addrs = 0x5baf870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6243,7 +6309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b89c;
+  constexpr static std::size_t addrs = 0x5baf8ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6257,7 +6323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_GetTotalCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6b918;
+  constexpr static std::size_t addrs = 0x5baf968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6271,7 +6337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6b994;
+  constexpr static std::size_t addrs = 0x5baf9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6285,7 +6351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeArray_HasPreviousPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6ba18;
+  constexpr static std::size_t addrs = 0x5bafa68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6298,8 +6364,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6ba9c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bafaec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6313,7 +6379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetDisplayScore_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6baf4;
+  constexpr static std::size_t addrs = 0x5bafb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6327,8 +6393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraData)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f6bb70;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5bafbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6342,7 +6408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraData_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bc58;
+  constexpr static std::size_t addrs = 0x5bafcb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6356,7 +6422,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetExtraDataLength)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bcd4;
+  constexpr static std::size_t addrs = 0x5bafd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6370,7 +6436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bd50;
+  constexpr static std::size_t addrs = 0x5bafda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6384,7 +6450,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetRank)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bdcc;
+  constexpr static std::size_t addrs = 0x5bafe24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6398,7 +6464,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetScore)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6be48;
+  constexpr static std::size_t addrs = 0x5bafea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6411,8 +6477,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetTimestamp)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6bec4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5baff1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6426,7 +6492,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetTimestamp_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bf1c;
+  constexpr static std::size_t addrs = 0x5baff78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6440,7 +6506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntry_GetUser)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bf98;
+  constexpr static std::size_t addrs = 0x5bafff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6455,7 +6521,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c014;
+  constexpr static std::size_t addrs = 0x5bb0070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -6469,8 +6535,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6c098;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb00f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6484,7 +6550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c0f0;
+  constexpr static std::size_t addrs = 0x5bb0150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6497,8 +6563,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6c16c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb01cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6512,7 +6578,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetPreviousUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c1c4;
+  constexpr static std::size_t addrs = 0x5bb0228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6526,7 +6592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c240;
+  constexpr static std::size_t addrs = 0x5bb02a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6540,7 +6606,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_GetTotalCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c2bc;
+  constexpr static std::size_t addrs = 0x5bb0320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6554,7 +6620,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c338;
+  constexpr static std::size_t addrs = 0x5bb039c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6568,7 +6634,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasPreviousPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c3bc;
+  constexpr static std::size_t addrs = 0x5bb0420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6577,12 +6643,338 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetAgeRatingImageUri
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingImageUri)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb04a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingImageUri",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetAgeRatingImageUri_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingImageUri_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0500;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingImageUri_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetAgeRatingText
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingText)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb057c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingText",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetAgeRatingText_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingText_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb05d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingText_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetDescriptor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, uint32_t)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetDescriptor)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5bb0654;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetDescriptor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetDescriptor_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, uint32_t)>(
+    &::Oculus::Platform::CAPI::ovr_ContentRating_GetDescriptor_Native)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5bb06c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetDescriptor_Native", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetDescriptorsSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetDescriptorsSize)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0744;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetDescriptorsSize",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetInteractiveElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, uint32_t)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetInteractiveElement)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5bb07c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetInteractiveElement", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetInteractiveElement_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, uint32_t)>(
+    &::Oculus::Platform::CAPI::ovr_ContentRating_GetInteractiveElement_Native)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5bb082c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetInteractiveElement_Native", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetInteractiveElementsSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetInteractiveElementsSize)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb08b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetInteractiveElementsSize",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetRatingDefinitionUri
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetRatingDefinitionUri)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb092c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetRatingDefinitionUri",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ContentRating_GetRatingDefinitionUri_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ContentRating_GetRatingDefinitionUri_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0988;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetRatingDefinitionUri_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewer_GetData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewer_GetData)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb0a04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewer_GetData", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewer_GetData_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewer_GetData_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0a60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewer_GetData_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewer_GetId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewer_GetId)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0adc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewer_GetId", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerArray_GetElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
+    &::Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetElement)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5bb0b58;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                               "ovr_CowatchViewerArray_GetElement", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UIntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerArray_GetNextUrl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetNextUrl)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb0bdc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_GetNextUrl",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerArray_GetNextUrl_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetNextUrl_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0c38;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_GetNextUrl_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerArray_GetSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetSize)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0cb4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_GetSize",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerArray_HasNextPage
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewerArray_HasNextPage)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5bb0d30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_HasNextPage",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerUpdate_GetDataList
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewerUpdate_GetDataList)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0db4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerUpdate_GetDataList",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchViewerUpdate_GetId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchViewerUpdate_GetId)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb0e30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerUpdate_GetId", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_CowatchingState_GetInSession
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_CowatchingState_GetInSession)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5bb0eac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchingState_GetInSession",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_DataStore_Contains
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_DataStore_Contains)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f6c440;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5bb0f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6597,7 +6989,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DataStore_Contains_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c4f0;
+  constexpr static std::size_t addrs = 0x5bb0fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6611,8 +7003,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, int32_t)>(&::Oculus::Platform::CAPI::ovr_DataStore_GetKey)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5dae0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5ba1a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6626,7 +7018,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, int32_t)>(&::Oculus::Platform::CAPI::ovr_DataStore_GetKey_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c574;
+  constexpr static std::size_t addrs = 0x5bb1068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -6640,7 +7032,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DataStore_GetNumKeys)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5da64;
+  constexpr static std::size_t addrs = 0x5ba1994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6653,8 +7045,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_DataStore_GetValue)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f5db48;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5ba1a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6669,7 +7061,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DataStore_GetValue_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c5f8;
+  constexpr static std::size_t addrs = 0x5bb10ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6683,8 +7075,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetApiName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6c67c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6698,7 +7090,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetApiName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c6d4;
+  constexpr static std::size_t addrs = 0x5bb11cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6711,8 +7103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6c750;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6726,7 +7118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetDeeplinkMessage_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c7a8;
+  constexpr static std::size_t addrs = 0x5bb12a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6739,8 +7131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetDisplayName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6c824;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6754,11 +7146,39 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetDisplayName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c87c;
+  constexpr static std::size_t addrs = 0x5bb137c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Destination_GetDisplayName_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Destination_GetShareableUri
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetShareableUri)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb13f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Destination_GetShareableUri",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Destination_GetShareableUri_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Destination_GetShareableUri_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb1454;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Destination_GetShareableUri_Native",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -6769,7 +7189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_DestinationArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6c8f8;
+  constexpr static std::size_t addrs = 0x5bb14d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -6783,8 +7203,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6c97c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6798,7 +7218,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DestinationArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6c9d4;
+  constexpr static std::size_t addrs = 0x5bb15b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6812,7 +7232,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DestinationArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ca50;
+  constexpr static std::size_t addrs = 0x5bb162c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6826,7 +7246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_DestinationArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6cacc;
+  constexpr static std::size_t addrs = 0x5bb16a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6840,7 +7260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Error_GetCode)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f6cb50;
+  constexpr static std::size_t addrs = 0x5bb172c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6853,8 +7273,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6cbc8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb17a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6868,7 +7288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Error_GetDisplayableMessage_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6cc20;
+  constexpr static std::size_t addrs = 0x5bb1800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6882,7 +7302,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Error_GetHttpCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6cc9c;
+  constexpr static std::size_t addrs = 0x5bb187c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6895,8 +7315,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Error_GetMessage)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6cd18;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb18f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6910,7 +7330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Error_GetMessage_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6cd70;
+  constexpr static std::size_t addrs = 0x5bb1954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6923,8 +7343,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDeeplinkMessage)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6cdec;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb19d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6939,7 +7359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDeeplinkMessage_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ce44;
+  constexpr static std::size_t addrs = 0x5bb1a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6952,8 +7372,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDestinationApiName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6cec0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6968,7 +7388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetDestinationApiName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6cf18;
+  constexpr static std::size_t addrs = 0x5bb1b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6981,8 +7401,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetLobbySessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6cf94;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -6997,7 +7417,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetLobbySessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6cfec;
+  constexpr static std::size_t addrs = 0x5bb1bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7010,8 +7430,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetMatchSessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d068;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7026,7 +7446,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceJoinIntent_GetMatchSessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d0c0;
+  constexpr static std::size_t addrs = 0x5bb1cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7039,8 +7459,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d13c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7055,7 +7475,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetDestinationApiName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d194;
+  constexpr static std::size_t addrs = 0x5bb1d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7068,8 +7488,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d210;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7084,7 +7504,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetLobbySessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d268;
+  constexpr static std::size_t addrs = 0x5bb1e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7097,8 +7517,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d2e4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb1ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7113,7 +7533,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceLeaveIntent_GetMatchSessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d33c;
+  constexpr static std::size_t addrs = 0x5bb1f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7127,7 +7547,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetBytes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d3b8;
+  constexpr static std::size_t addrs = 0x5bb1fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7141,7 +7561,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d434;
+  constexpr static std::size_t addrs = 0x5bb2034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7155,7 +7575,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HttpTransferUpdate_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d4b0;
+  constexpr static std::size_t addrs = 0x5bb20b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7169,7 +7589,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_HttpTransferUpdate_IsCompleted)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6d52c;
+  constexpr static std::size_t addrs = 0x5bb212c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7182,8 +7602,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d5b0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb21b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7198,7 +7618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_InstalledApplication_GetApplicationId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d608;
+  constexpr static std::size_t addrs = 0x5bb220c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7211,8 +7631,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d684;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7226,7 +7646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetPackageName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d6dc;
+  constexpr static std::size_t addrs = 0x5bb22e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7239,8 +7659,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d758;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7254,7 +7674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetStatus_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d7b0;
+  constexpr static std::size_t addrs = 0x5bb23bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7268,7 +7688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d82c;
+  constexpr static std::size_t addrs = 0x5bb2438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7281,8 +7701,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6d8a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb24b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7296,7 +7716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplication_GetVersionName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6d900;
+  constexpr static std::size_t addrs = 0x5bb2510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7311,7 +7731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_InstalledApplicationArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6d97c;
+  constexpr static std::size_t addrs = 0x5bb258c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -7326,7 +7746,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InstalledApplicationArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6da00;
+  constexpr static std::size_t addrs = 0x5bb2610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7340,7 +7760,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InvitePanelResultInfo_GetInvitesSent)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6da7c;
+  constexpr static std::size_t addrs = 0x5bb268c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7353,8 +7773,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6db00;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7368,7 +7788,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetEnglishName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6db58;
+  constexpr static std::size_t addrs = 0x5bb276c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7381,8 +7801,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6dbd4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb27e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7396,7 +7816,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetNativeName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6dc2c;
+  constexpr static std::size_t addrs = 0x5bb2844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7409,8 +7829,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6dca8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb28c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7424,7 +7844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LanguagePackInfo_GetTag_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6dd00;
+  constexpr static std::size_t addrs = 0x5bb291c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7438,7 +7858,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchBlockFlowResult_GetDidBlock)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6dd7c;
+  constexpr static std::size_t addrs = 0x5bb2998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7452,7 +7872,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchBlockFlowResult_GetDidCancel)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6de00;
+  constexpr static std::size_t addrs = 0x5bb2a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7465,8 +7885,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6de84;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7480,7 +7900,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetDeeplinkMessage_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6dedc;
+  constexpr static std::size_t addrs = 0x5bb2afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7493,8 +7913,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6df58;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7508,7 +7928,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetDestinationApiName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6dfb0;
+  constexpr static std::size_t addrs = 0x5bb2bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7521,8 +7941,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6e02c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7536,7 +7956,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchSource_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e084;
+  constexpr static std::size_t addrs = 0x5bb2cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7550,7 +7970,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::LaunchType (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetLaunchType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e100;
+  constexpr static std::size_t addrs = 0x5bb2d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7559,12 +7979,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_LaunchDetails_GetLobbySessionID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetLobbySessionID)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2da4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetLobbySessionID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_LaunchDetails_GetLobbySessionID_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetLobbySessionID_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb2e00;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetLobbySessionID_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_LaunchDetails_GetMatchSessionID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetMatchSessionID)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2e7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetMatchSessionID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_LaunchDetails_GetMatchSessionID_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetMatchSessionID_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb2ed8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetMatchSessionID_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_LaunchDetails_GetTrackingID
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6e17c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb2f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7578,7 +8054,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e1d4;
+  constexpr static std::size_t addrs = 0x5bb2fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7592,7 +8068,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchDetails_GetUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e250;
+  constexpr static std::size_t addrs = 0x5bb302c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7606,7 +8082,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchFriendRequestFlowResult_GetDidCancel)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e2cc;
+  constexpr static std::size_t addrs = 0x5bb30a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7620,7 +8096,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchFriendRequestFlowResult_GetDidSendRequest)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e350;
+  constexpr static std::size_t addrs = 0x5bb312c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7634,7 +8110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchInvitePanelFlowResult_GetInvitedUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e3d4;
+  constexpr static std::size_t addrs = 0x5bb31b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7648,7 +8124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchReportFlowResult_GetDidCancel)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e450;
+  constexpr static std::size_t addrs = 0x5bb322c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7662,7 +8138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchReportFlowResult_GetUserReportId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e4d4;
+  constexpr static std::size_t addrs = 0x5bb32b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7676,7 +8152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchUnblockFlowResult_GetDidCancel)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e550;
+  constexpr static std::size_t addrs = 0x5bb332c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7690,7 +8166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LaunchUnblockFlowResult_GetDidUnblock)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e5d4;
+  constexpr static std::size_t addrs = 0x5bb33b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7703,8 +8179,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6e658;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb3434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7718,7 +8194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetApiName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e6b0;
+  constexpr static std::size_t addrs = 0x5bb3490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7732,7 +8208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetDestination)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e72c;
+  constexpr static std::size_t addrs = 0x5bb350c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7746,7 +8222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Leaderboard_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e7a8;
+  constexpr static std::size_t addrs = 0x5bb3588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7761,7 +8237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LeaderboardArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e824;
+  constexpr static std::size_t addrs = 0x5bb3604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -7775,8 +8251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6e8a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb3688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7790,7 +8266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e900;
+  constexpr static std::size_t addrs = 0x5bb36e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7804,7 +8280,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6e97c;
+  constexpr static std::size_t addrs = 0x5bb3760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7818,7 +8294,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6e9f8;
+  constexpr static std::size_t addrs = 0x5bb37dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7831,8 +8307,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6ea7c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb3860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7846,7 +8322,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetDisplayScore_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ead4;
+  constexpr static std::size_t addrs = 0x5bb38bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7860,8 +8336,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraData)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f6eb50;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5bb3938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7875,7 +8351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraData_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ebbc;
+  constexpr static std::size_t addrs = 0x5bb39a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7889,7 +8365,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetExtraDataLength)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6bbdc;
+  constexpr static std::size_t addrs = 0x5bafc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7903,7 +8379,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ec38;
+  constexpr static std::size_t addrs = 0x5bb3a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7917,7 +8393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetRank)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ecb4;
+  constexpr static std::size_t addrs = 0x5bb3aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7931,7 +8407,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetScore)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ed30;
+  constexpr static std::size_t addrs = 0x5bb3b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7945,7 +8421,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetSupplementaryMetric)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6edac;
+  constexpr static std::size_t addrs = 0x5bb3b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7958,8 +8434,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetTimestamp)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6ee28;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb3c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7973,7 +8449,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetTimestamp_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ee80;
+  constexpr static std::size_t addrs = 0x5bb3c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -7987,7 +8463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntry_GetUser)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6eefc;
+  constexpr static std::size_t addrs = 0x5bb3cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8002,7 +8478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6ef78;
+  constexpr static std::size_t addrs = 0x5bb3d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -8016,8 +8492,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6effc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb3dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8031,7 +8507,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f054;
+  constexpr static std::size_t addrs = 0x5bb3e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8044,8 +8520,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6f0d0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb3ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8059,7 +8535,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetPreviousUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f128;
+  constexpr static std::size_t addrs = 0x5bb3f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8073,7 +8549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f1a4;
+  constexpr static std::size_t addrs = 0x5bb3f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8087,7 +8563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_GetTotalCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f220;
+  constexpr static std::size_t addrs = 0x5bb4018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8101,7 +8577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f29c;
+  constexpr static std::size_t addrs = 0x5bb4094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8115,7 +8591,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardEntryArray_HasPreviousPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f320;
+  constexpr static std::size_t addrs = 0x5bb4118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8129,7 +8605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetDidUpdate)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f3a4;
+  constexpr static std::size_t addrs = 0x5bb419c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8144,7 +8620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr, uint32_t)>(
     &::Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeId)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f428;
+  constexpr static std::size_t addrs = 0x5bb4220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8158,7 +8634,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LeaderboardUpdateStatus_GetUpdatedChallengeIdsSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f4ac;
+  constexpr static std::size_t addrs = 0x5bb42a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8171,8 +8647,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6f528;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8186,7 +8662,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LinkedAccount_GetAccessToken_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f580;
+  constexpr static std::size_t addrs = 0x5bb437c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8201,7 +8677,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::ServiceProvider (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LinkedAccount_GetServiceProvider)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f5fc;
+  constexpr static std::size_t addrs = 0x5bb43f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8214,8 +8690,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6f678;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8229,7 +8705,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LinkedAccount_GetUserId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f6d0;
+  constexpr static std::size_t addrs = 0x5bb44d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8244,7 +8720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LinkedAccountArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f74c;
+  constexpr static std::size_t addrs = 0x5bb454c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -8259,7 +8735,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LinkedAccountArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f7d0;
+  constexpr static std::size_t addrs = 0x5bb45d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8273,7 +8749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingApplicationStatus_GetStreamingEnabled)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f84c;
+  constexpr static std::size_t addrs = 0x5bb464c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8288,7 +8764,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::LivestreamingStartStatus (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LivestreamingStartResult_GetStreamingResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6f8d0;
+  constexpr static std::size_t addrs = 0x5bb46d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8302,7 +8778,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetCommentsVisible)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f94c;
+  constexpr static std::size_t addrs = 0x5bb474c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8316,7 +8792,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetIsPaused)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6f9d0;
+  constexpr static std::size_t addrs = 0x5bb47d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8330,7 +8806,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetLivestreamingEnabled)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6fa54;
+  constexpr static std::size_t addrs = 0x5bb4854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8344,7 +8820,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetLivestreamingType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fad8;
+  constexpr static std::size_t addrs = 0x5bb48d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8358,7 +8834,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingStatus_GetMicEnabled)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f6fb54;
+  constexpr static std::size_t addrs = 0x5bb4954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8372,7 +8848,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetCommentCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fbd8;
+  constexpr static std::size_t addrs = 0x5bb49d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8386,7 +8862,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetReactionCount)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fc54;
+  constexpr static std::size_t addrs = 0x5bb4a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8399,8 +8875,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f6fcd0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8415,11 +8891,291 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetTotalViews_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fd28;
+  constexpr static std::size_t addrs = 0x5bb4b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LivestreamingVideoStats_GetTotalViews_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetDepartment
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetDepartment)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4ba8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetDepartment", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetDepartment_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetDepartment_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb4c04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetDepartment_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetEmail
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmail)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4c80;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmail", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetEmail_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmail_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb4cdc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmail_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetEmployeeNumber
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmployeeNumber)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4d58;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmployeeNumber",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetEmployeeNumber_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmployeeNumber_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb4db4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmployeeNumber_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetExternalId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetExternalId)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4e30;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetExternalId", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetExternalId_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetExternalId_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb4e8c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetExternalId_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetLocation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetLocation)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4f08;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetLocation", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetLocation_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetLocation_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb4f64;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetLocation_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetManager
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetManager)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb4fe0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetManager", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetManager_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetManager_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb503c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetManager_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetName)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb50b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetName", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetName_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetName_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb5114;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetName_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetOrganizationId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationId)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb5190;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationId",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetOrganizationId_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationId_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb51ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationId_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetOrganizationName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationName)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb5268;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetOrganizationName_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationName_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb52c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationName_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetPosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetPosition)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb5340;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetPosition", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_ManagedInfo_GetPosition_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ManagedInfo_GetPosition_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb539c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetPosition_Native",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -8429,7 +9185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAbuseReportRecording)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fda4;
+  constexpr static std::size_t addrs = 0x5bb5418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8443,7 +9199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAchievementDefinitionArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fe20;
+  constexpr static std::size_t addrs = 0x5bb5494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8457,7 +9213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAchievementProgressArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6fe9c;
+  constexpr static std::size_t addrs = 0x5bb5510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8471,7 +9227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAchievementUpdate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ff18;
+  constexpr static std::size_t addrs = 0x5bb558c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8485,7 +9241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAppDownloadProgressResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f6ff94;
+  constexpr static std::size_t addrs = 0x5bb5608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8499,7 +9255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAppDownloadResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70010;
+  constexpr static std::size_t addrs = 0x5bb5684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8513,7 +9269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetApplicationInviteArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7008c;
+  constexpr static std::size_t addrs = 0x5bb5700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8527,7 +9283,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetApplicationVersion)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70108;
+  constexpr static std::size_t addrs = 0x5bb577c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8541,7 +9297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAssetDetails)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70184;
+  constexpr static std::size_t addrs = 0x5bb57f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8555,7 +9311,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAssetDetailsArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70200;
+  constexpr static std::size_t addrs = 0x5bb5874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8569,7 +9325,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAssetFileDeleteResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7027c;
+  constexpr static std::size_t addrs = 0x5bb58f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8583,7 +9339,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadCancelResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f702f8;
+  constexpr static std::size_t addrs = 0x5bb596c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8597,7 +9353,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70374;
+  constexpr static std::size_t addrs = 0x5bb59e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8611,7 +9367,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAssetFileDownloadUpdate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f703f0;
+  constexpr static std::size_t addrs = 0x5bb5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8625,7 +9381,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetAvatarEditorResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7046c;
+  constexpr static std::size_t addrs = 0x5bb5ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8639,7 +9395,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetBlockedUserArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f704e8;
+  constexpr static std::size_t addrs = 0x5bb5b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8653,7 +9409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetChallenge)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70564;
+  constexpr static std::size_t addrs = 0x5bb5bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8667,7 +9423,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetChallengeArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f705e0;
+  constexpr static std::size_t addrs = 0x5bb5c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8681,11 +9437,53 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetChallengeEntryArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7065c;
+  constexpr static std::size_t addrs = 0x5bb5cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetChallengeEntryArray",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Message_GetCowatchViewerArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetCowatchViewerArray)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb5d4c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetCowatchViewerArray",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Message_GetCowatchViewerUpdate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetCowatchViewerUpdate)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb5dc8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetCowatchViewerUpdate",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Message_GetCowatchingState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetCowatchingState)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb5e44;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetCowatchingState",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -8695,7 +9493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetDataStore)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f706d8;
+  constexpr static std::size_t addrs = 0x5bb5ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8709,7 +9507,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetDestinationArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70754;
+  constexpr static std::size_t addrs = 0x5bb5f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8723,7 +9521,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetError)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f707d0;
+  constexpr static std::size_t addrs = 0x5bb5fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8737,7 +9535,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetGroupPresenceJoinIntent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7084c;
+  constexpr static std::size_t addrs = 0x5bb6034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8751,7 +9549,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetGroupPresenceLeaveIntent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f708c8;
+  constexpr static std::size_t addrs = 0x5bb60b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8765,7 +9563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetHttpTransferUpdate)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70944;
+  constexpr static std::size_t addrs = 0x5bb612c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8779,7 +9577,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetInstalledApplicationArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f709c0;
+  constexpr static std::size_t addrs = 0x5bb61a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8793,7 +9591,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetInvitePanelResultInfo)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70a3c;
+  constexpr static std::size_t addrs = 0x5bb6224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8807,7 +9605,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLaunchBlockFlowResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70ab8;
+  constexpr static std::size_t addrs = 0x5bb62a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8821,7 +9619,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLaunchFriendRequestFlowResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70b34;
+  constexpr static std::size_t addrs = 0x5bb631c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8835,7 +9633,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLaunchInvitePanelFlowResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70bb0;
+  constexpr static std::size_t addrs = 0x5bb6398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8849,7 +9647,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLaunchReportFlowResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70c2c;
+  constexpr static std::size_t addrs = 0x5bb6414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8863,7 +9661,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLaunchUnblockFlowResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70ca8;
+  constexpr static std::size_t addrs = 0x5bb6490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8877,7 +9675,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLeaderboardArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70d24;
+  constexpr static std::size_t addrs = 0x5bb650c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8891,7 +9689,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLeaderboardEntryArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70da0;
+  constexpr static std::size_t addrs = 0x5bb6588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8905,7 +9703,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLeaderboardUpdateStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70e1c;
+  constexpr static std::size_t addrs = 0x5bb6604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8919,7 +9717,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLinkedAccountArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70e98;
+  constexpr static std::size_t addrs = 0x5bb6680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8933,7 +9731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLivestreamingApplicationStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70f14;
+  constexpr static std::size_t addrs = 0x5bb66fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8947,7 +9745,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLivestreamingStartResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f70f90;
+  constexpr static std::size_t addrs = 0x5bb6778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8961,7 +9759,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLivestreamingStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7100c;
+  constexpr static std::size_t addrs = 0x5bb67f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8975,7 +9773,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetLivestreamingVideoStats)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71088;
+  constexpr static std::size_t addrs = 0x5bb6870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -8989,7 +9787,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetMicrophoneAvailabilityState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71104;
+  constexpr static std::size_t addrs = 0x5bb68ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9003,7 +9801,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetNativeMessage)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71180;
+  constexpr static std::size_t addrs = 0x5bb6968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9017,7 +9815,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetNetSyncConnection)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f711fc;
+  constexpr static std::size_t addrs = 0x5bb69e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9031,7 +9829,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetNetSyncSessionArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71278;
+  constexpr static std::size_t addrs = 0x5bb6a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9046,7 +9844,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Message_GetNetSyncSessionsChangedNotification)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f712f4;
+  constexpr static std::size_t addrs = 0x5bb6adc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9060,7 +9858,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetNetSyncSetSessionPropertyResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71370;
+  constexpr static std::size_t addrs = 0x5bb6b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9074,7 +9872,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetNetSyncVoipAttenuationValueArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f713ec;
+  constexpr static std::size_t addrs = 0x5bb6bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9088,7 +9886,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetOrgScopedID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71468;
+  constexpr static std::size_t addrs = 0x5bb6c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9102,7 +9900,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetParty)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f714e4;
+  constexpr static std::size_t addrs = 0x5bb6ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9116,7 +9914,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPartyID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71560;
+  constexpr static std::size_t addrs = 0x5bb6d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9130,7 +9928,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPartyUpdateNotification)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f715dc;
+  constexpr static std::size_t addrs = 0x5bb6dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9144,7 +9942,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPidArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71658;
+  constexpr static std::size_t addrs = 0x5bb6e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9158,7 +9956,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPlatformInitialize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f716d4;
+  constexpr static std::size_t addrs = 0x5bb6ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9172,7 +9970,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetProductArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71750;
+  constexpr static std::size_t addrs = 0x5bb6f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9186,7 +9984,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPurchase)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f717cc;
+  constexpr static std::size_t addrs = 0x5bb6fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9200,7 +9998,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPurchaseArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71848;
+  constexpr static std::size_t addrs = 0x5bb7030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9209,12 +10007,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Message_GetPushNotificationResult
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetPushNotificationResult)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb70ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetPushNotificationResult",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Message_GetRejoinDialogResult
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetRejoinDialogResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f718c4;
+  constexpr static std::size_t addrs = 0x5bb7128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9228,7 +10040,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetRequestID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71940;
+  constexpr static std::size_t addrs = 0x5bb71a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9242,7 +10054,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetSdkAccountArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f719bc;
+  constexpr static std::size_t addrs = 0x5bb7220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9256,7 +10068,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetSendInvitesResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71a38;
+  constexpr static std::size_t addrs = 0x5bb729c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9270,7 +10082,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetShareMediaResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71ab4;
+  constexpr static std::size_t addrs = 0x5bb7318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9283,8 +10095,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetString)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f71b30;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb7394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9298,7 +10110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetString_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71b88;
+  constexpr static std::size_t addrs = 0x5bb73f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9312,7 +10124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetSystemVoipState)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71c04;
+  constexpr static std::size_t addrs = 0x5bb746c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9326,7 +10138,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Message_MessageType (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71c80;
+  constexpr static std::size_t addrs = 0x5bb74e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9340,7 +10152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUser)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71cfc;
+  constexpr static std::size_t addrs = 0x5bb7564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9354,7 +10166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUserAccountAgeCategory)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71d78;
+  constexpr static std::size_t addrs = 0x5bb75e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9368,7 +10180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUserArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71df4;
+  constexpr static std::size_t addrs = 0x5bb765c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9382,7 +10194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUserCapabilityArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71e70;
+  constexpr static std::size_t addrs = 0x5bb76d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9396,7 +10208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUserDataStoreUpdateResponse)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71eec;
+  constexpr static std::size_t addrs = 0x5bb7754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9410,7 +10222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUserProof)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71f68;
+  constexpr static std::size_t addrs = 0x5bb77d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9424,7 +10236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_GetUserReportID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f71fe4;
+  constexpr static std::size_t addrs = 0x5bb784c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9438,7 +10250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Message_IsError)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f72060;
+  constexpr static std::size_t addrs = 0x5bb78c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9452,7 +10264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Microphone_GetNumSamplesAvailable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f720e4;
+  constexpr static std::size_t addrs = 0x5bb794c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9466,7 +10278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Microphone_GetOutputBufferMaxSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72160;
+  constexpr static std::size_t addrs = 0x5bb79c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9481,7 +10293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr, ::ArrayW<int16_t, ::Array<int16_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Microphone_GetPCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f721dc;
+  constexpr static std::size_t addrs = 0x5bb7a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9498,7 +10310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Microphone_GetPCMFloat)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f72278;
+  constexpr static std::size_t addrs = 0x5bb7ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9515,7 +10327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Microphone_ReadData)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f72314;
+  constexpr static std::size_t addrs = 0x5bb7b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9532,7 +10344,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_Microphone_SetAcceptableRecordingDelayHint)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f723b0;
+  constexpr static std::size_t addrs = 0x5bb7c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -9547,7 +10359,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Microphone_Start)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72434;
+  constexpr static std::size_t addrs = 0x5bb7c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9561,7 +10373,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Microphone_Stop)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f724b0;
+  constexpr static std::size_t addrs = 0x5bb7d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9575,7 +10387,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_MicrophoneAvailabilityState_GetMicrophoneAvailable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f7252c;
+  constexpr static std::size_t addrs = 0x5bb7d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9589,7 +10401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncConnection_GetConnectionId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f725b0;
+  constexpr static std::size_t addrs = 0x5bb7e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9604,7 +10416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::NetSyncDisconnectReason (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSyncConnection_GetDisconnectReason)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7262c;
+  constexpr static std::size_t addrs = 0x5bb7e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9618,7 +10430,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncConnection_GetSessionId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f726a8;
+  constexpr static std::size_t addrs = 0x5bb7f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9633,7 +10445,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::NetSyncConnectionStatus (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSyncConnection_GetStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72724;
+  constexpr static std::size_t addrs = 0x5bb7f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9646,8 +10458,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f727a0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb8008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9661,7 +10473,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncConnection_GetZoneId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f727f8;
+  constexpr static std::size_t addrs = 0x5bb8064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9675,7 +10487,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSession_GetConnectionId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72874;
+  constexpr static std::size_t addrs = 0x5bb80e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9689,7 +10501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSession_GetMuted)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f728f0;
+  constexpr static std::size_t addrs = 0x5bb815c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9703,7 +10515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSession_GetSessionId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72974;
+  constexpr static std::size_t addrs = 0x5bb81e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9717,7 +10529,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSession_GetUserId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f729f0;
+  constexpr static std::size_t addrs = 0x5bb825c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9730,8 +10542,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f72a6c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb82d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9745,7 +10557,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSession_GetVoipGroup_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72ac4;
+  constexpr static std::size_t addrs = 0x5bb8334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9760,7 +10572,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSyncSessionArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f72b40;
+  constexpr static std::size_t addrs = 0x5bb83b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -9775,7 +10587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSessionArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72bc4;
+  constexpr static std::size_t addrs = 0x5bb8434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9789,7 +10601,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSessionsChangedNotification_GetConnectionId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72c40;
+  constexpr static std::size_t addrs = 0x5bb84b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9804,7 +10616,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSyncSessionsChangedNotification_GetSessions)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72cbc;
+  constexpr static std::size_t addrs = 0x5bb852c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9818,7 +10630,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncSetSessionPropertyResult_GetSession)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72d38;
+  constexpr static std::size_t addrs = 0x5bb85a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9832,7 +10644,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValue_GetDecibels)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72db4;
+  constexpr static std::size_t addrs = 0x5bb8624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9846,7 +10658,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValue_GetDistance)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72e30;
+  constexpr static std::size_t addrs = 0x5bb86a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9861,7 +10673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValueArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f72eac;
+  constexpr static std::size_t addrs = 0x5bb871c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -9876,7 +10688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncVoipAttenuationValueArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72f30;
+  constexpr static std::size_t addrs = 0x5bb87a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9890,7 +10702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_OrgScopedID_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f72fac;
+  constexpr static std::size_t addrs = 0x5bb881c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9904,7 +10716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Packet_Free)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73028;
+  constexpr static std::size_t addrs = 0x5bb8898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -9918,7 +10730,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Packet_GetBytes)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f730a4;
+  constexpr static std::size_t addrs = 0x5bb8914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9932,7 +10744,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Packet_GetSenderID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73120;
+  constexpr static std::size_t addrs = 0x5bb8990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9946,7 +10758,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Packet_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7319c;
+  constexpr static std::size_t addrs = 0x5bb8a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9955,12 +10767,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_PaidOffer_GetPrice
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PaidOffer_GetPrice)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb8a88;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PaidOffer_GetPrice", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_PaidOffer_GetSubscriptionTerm
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::OfferTerm (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PaidOffer_GetSubscriptionTerm)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb8b04;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PaidOffer_GetSubscriptionTerm",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Party_GetID
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Party_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73218;
+  constexpr static std::size_t addrs = 0x5bb8b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -9974,7 +10814,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Party_GetInvitedUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73294;
+  constexpr static std::size_t addrs = 0x5bb8bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -9988,7 +10828,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Party_GetLeader)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73310;
+  constexpr static std::size_t addrs = 0x5bb8c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10002,7 +10842,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Party_GetUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7338c;
+  constexpr static std::size_t addrs = 0x5bb8cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10016,7 +10856,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyID_GetID)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f73408;
+  constexpr static std::size_t addrs = 0x5bb8d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10031,7 +10871,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::PartyUpdateAction (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetAction)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73480;
+  constexpr static std::size_t addrs = 0x5bb8de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10045,7 +10885,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetPartyId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f734fc;
+  constexpr static std::size_t addrs = 0x5bb8e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10059,7 +10899,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetSenderId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73578;
+  constexpr static std::size_t addrs = 0x5bb8ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10072,8 +10912,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f735f4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb8f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10088,7 +10928,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUpdateTimestamp_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7364c;
+  constexpr static std::size_t addrs = 0x5bb8fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10101,8 +10941,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f736c8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10116,7 +10956,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserAlias_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73720;
+  constexpr static std::size_t addrs = 0x5bb9090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10130,7 +10970,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7379c;
+  constexpr static std::size_t addrs = 0x5bb910c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10143,8 +10983,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73818;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10158,7 +10998,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PartyUpdateNotification_GetUserName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73870;
+  constexpr static std::size_t addrs = 0x5bb91e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10171,8 +11011,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Pid_GetId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f738ec;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -10186,7 +11026,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Pid_GetId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73944;
+  constexpr static std::size_t addrs = 0x5bb92bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10200,7 +11040,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(&::Oculus::Platform::CAPI::ovr_PidArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f739c0;
+  constexpr static std::size_t addrs = 0x5bb9338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10215,7 +11055,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PidArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73a44;
+  constexpr static std::size_t addrs = 0x5bb93bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10230,7 +11070,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::PlatformInitializeResult (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_PlatformInitialize_GetResult)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73ac0;
+  constexpr static std::size_t addrs = 0x5bb9438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10244,7 +11084,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Price_GetAmountInHundredths)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73b3c;
+  constexpr static std::size_t addrs = 0x5bb94b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10257,8 +11097,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Price_GetCurrency)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73bb8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10272,7 +11112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Price_GetCurrency_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73c10;
+  constexpr static std::size_t addrs = 0x5bb958c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10285,8 +11125,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Price_GetFormatted)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73c8c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10300,7 +11140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Price_GetFormatted_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73ce4;
+  constexpr static std::size_t addrs = 0x5bb9664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10309,12 +11149,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetBillingPlans
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetBillingPlans)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb96e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetBillingPlans", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetContentRating
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetContentRating)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb975c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetContentRating", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetCoverUrl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetCoverUrl)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb97d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetCoverUrl", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetCoverUrl_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetCoverUrl_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb9834;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetCoverUrl_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetDescription
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetDescription)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73d60;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb98b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10328,7 +11224,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetDescription_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73db8;
+  constexpr static std::size_t addrs = 0x5bb990c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10341,8 +11237,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73e34;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10356,7 +11252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73e8c;
+  constexpr static std::size_t addrs = 0x5bb99e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10365,12 +11261,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetIconUrl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetIconUrl)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9a60;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetIconUrl", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetIconUrl_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetIconUrl_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb9abc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetIconUrl_Native", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73f08;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10384,7 +11308,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f73f60;
+  constexpr static std::size_t addrs = 0x5bb9b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10393,12 +11317,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetPrice
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetPrice)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb9c10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetPrice", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetShortDescription
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetShortDescription)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9c8c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetShortDescription",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetShortDescription_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetShortDescription_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb9ce8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetShortDescription_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetSKU
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetSKU)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f73fdc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10412,11 +11378,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetSKU_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74034;
+  constexpr static std::size_t addrs = 0x5bb9dc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetSKU_Native", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Product_GetType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::ProductType (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Product_GetType)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bb9e3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetType", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -10426,7 +11406,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(&::Oculus::Platform::CAPI::ovr_ProductArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f740b0;
+  constexpr static std::size_t addrs = 0x5bb9eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10440,8 +11420,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f74134;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bb9f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10455,7 +11435,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ProductArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7418c;
+  constexpr static std::size_t addrs = 0x5bb9f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10469,7 +11449,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ProductArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74208;
+  constexpr static std::size_t addrs = 0x5bba014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10483,7 +11463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ProductArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f74284;
+  constexpr static std::size_t addrs = 0x5bba090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10496,8 +11476,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetDeveloperPayload)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f74308;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10511,7 +11491,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetDeveloperPayload_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74360;
+  constexpr static std::size_t addrs = 0x5bba170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10524,8 +11504,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetExpirationTime)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f743dc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10539,7 +11519,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetExpirationTime_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74434;
+  constexpr static std::size_t addrs = 0x5bba248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10552,8 +11532,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetGrantTime)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f744b0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10567,7 +11547,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetGrantTime_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74508;
+  constexpr static std::size_t addrs = 0x5bba320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10581,7 +11561,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74584;
+  constexpr static std::size_t addrs = 0x5bba39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10594,8 +11574,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f74600;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10609,7 +11589,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetPurchaseStrID_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74658;
+  constexpr static std::size_t addrs = 0x5bba474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10622,8 +11602,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetReportingId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f746d4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10637,7 +11617,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetReportingId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7472c;
+  constexpr static std::size_t addrs = 0x5bba54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10650,8 +11630,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetSKU)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f747a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10665,11 +11645,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetSKU_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74800;
+  constexpr static std::size_t addrs = 0x5bba624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Purchase_GetSKU_Native", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_Purchase_GetType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::ProductType (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_Purchase_GetType)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bba6a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Purchase_GetType", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
@@ -10679,7 +11673,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(&::Oculus::Platform::CAPI::ovr_PurchaseArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f7487c;
+  constexpr static std::size_t addrs = 0x5bba71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10693,8 +11687,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f74900;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10708,7 +11702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PurchaseArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74958;
+  constexpr static std::size_t addrs = 0x5bba7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10722,7 +11716,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PurchaseArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f749d4;
+  constexpr static std::size_t addrs = 0x5bba878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10736,7 +11730,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PurchaseArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f74a50;
+  constexpr static std::size_t addrs = 0x5bba8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10745,12 +11739,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_PushNotificationResult_GetId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PushNotificationResult_GetId)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bba978;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PushNotificationResult_GetId",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_PushNotificationResult_GetId_Native
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_PushNotificationResult_GetId_Native)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bba9d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PushNotificationResult_GetId_Native",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_RejoinDialogResult_GetRejoinSelected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RejoinDialogResult_GetRejoinSelected)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f74ad4;
+  constexpr static std::size_t addrs = 0x5bbaa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10764,7 +11786,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::SdkAccountType (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_SdkAccount_GetAccountType)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74b58;
+  constexpr static std::size_t addrs = 0x5bbaad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10778,7 +11800,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_SdkAccount_GetUserId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74bd4;
+  constexpr static std::size_t addrs = 0x5bbab50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10793,7 +11815,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_SdkAccountArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f74c50;
+  constexpr static std::size_t addrs = 0x5bbabcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -10808,7 +11830,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_SdkAccountArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74cd4;
+  constexpr static std::size_t addrs = 0x5bbac50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10822,7 +11844,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_SendInvitesResult_GetInvites)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74d50;
+  constexpr static std::size_t addrs = 0x5bbaccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10837,7 +11859,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::ShareMediaStatus (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ShareMediaResult_GetStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74dcc;
+  constexpr static std::size_t addrs = 0x5bbad48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10851,7 +11873,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_SupplementaryMetric_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74e48;
+  constexpr static std::size_t addrs = 0x5bbadc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10865,7 +11887,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_SupplementaryMetric_GetMetric)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74ec4;
+  constexpr static std::size_t addrs = 0x5bbae40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10880,7 +11902,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::VoipMuteState (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_SystemVoipState_GetMicrophoneMuted)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74f40;
+  constexpr static std::size_t addrs = 0x5bbaebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10895,7 +11917,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::SystemVoipStatus (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_SystemVoipState_GetStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f74fbc;
+  constexpr static std::size_t addrs = 0x5bbaf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10908,8 +11930,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75038;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbafb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10923,7 +11945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetAccessToken_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75090;
+  constexpr static std::size_t addrs = 0x5bbb010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10937,7 +11959,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetAppAccessArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7510c;
+  constexpr static std::size_t addrs = 0x5bbb08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10951,7 +11973,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetFbAppAccessArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75188;
+  constexpr static std::size_t addrs = 0x5bbb108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10964,8 +11986,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75204;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbb184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10979,7 +12001,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetFriendAccessToken_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7525c;
+  constexpr static std::size_t addrs = 0x5bbb1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -10993,7 +12015,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetFriendAppAccessArray)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f752d8;
+  constexpr static std::size_t addrs = 0x5bbb25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11006,8 +12028,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75354;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbb2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11021,7 +12043,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetUserAlias_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f753ac;
+  constexpr static std::size_t addrs = 0x5bbb334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11035,7 +12057,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetUserFbid)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75428;
+  constexpr static std::size_t addrs = 0x5bbb3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11049,7 +12071,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUser_GetUserId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f754a4;
+  constexpr static std::size_t addrs = 0x5bbb42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11062,8 +12084,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75520;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbb4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11077,7 +12099,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAccessToken_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75578;
+  constexpr static std::size_t addrs = 0x5bbb504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11091,7 +12113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetAppId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f755f4;
+  constexpr static std::size_t addrs = 0x5bbb580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11105,7 +12127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUserAppAccess_GetUserId)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75670;
+  constexpr static std::size_t addrs = 0x5bbb5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11120,7 +12142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f756ec;
+  constexpr static std::size_t addrs = 0x5bbb678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -11135,7 +12157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75770;
+  constexpr static std::size_t addrs = 0x5bbb6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11144,12 +12166,98 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_TrialOffer_GetMaxTermCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TrialOffer_GetMaxTermCount)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bbb778;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetMaxTermCount",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_TrialOffer_GetPrice
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TrialOffer_GetPrice)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bbb7f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetPrice", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_TrialOffer_GetTrialTerm
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::OfferTerm (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TrialOffer_GetTrialTerm)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bbb870;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetTrialTerm", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_TrialOffer_GetTrialType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::OfferType (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TrialOffer_GetTrialType)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bbb8ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetTrialType", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_TrialOfferArray_GetElement
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
+    &::Oculus::Platform::CAPI::ovr_TrialOfferArray_GetElement)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5bbb968;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                               "ovr_TrialOfferArray_GetElement", std::span<Il2CppClass const* const, 0>(),
+                                                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UIntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_TrialOfferArray_GetSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_TrialOfferArray_GetSize)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bbb9ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOfferArray_GetSize", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_User_GetDisplayName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetDisplayName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f757ec;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbba68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11163,7 +12271,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetDisplayName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75844;
+  constexpr static std::size_t addrs = 0x5bbbac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11177,7 +12285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f758c0;
+  constexpr static std::size_t addrs = 0x5bbbb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -11190,8 +12298,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetImageUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7593c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbbbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11205,7 +12313,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetImageUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75994;
+  constexpr static std::size_t addrs = 0x5bbbc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11214,12 +12322,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_User_GetManagedInfo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetManagedInfo)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5bbbc94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetManagedInfo", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Oculus::Platform::CAPI.ovr_User_GetOculusID
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetOculusID)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75a10;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbbd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11233,7 +12355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetOculusID_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75a68;
+  constexpr static std::size_t addrs = 0x5bbbd6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11246,8 +12368,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresence)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75ae4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbbde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11261,7 +12383,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresence_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75b3c;
+  constexpr static std::size_t addrs = 0x5bbbe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11274,8 +12396,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75bb8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbbec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11289,7 +12411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceDeeplinkMessage_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75c10;
+  constexpr static std::size_t addrs = 0x5bbbf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11302,8 +12424,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75c8c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbbf98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11317,7 +12439,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceDestinationApiName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75ce4;
+  constexpr static std::size_t addrs = 0x5bbbff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11330,8 +12452,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceLobbySessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75d60;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11345,7 +12467,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceLobbySessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75db8;
+  constexpr static std::size_t addrs = 0x5bbc0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11358,8 +12480,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceMatchSessionId)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75e34;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11373,7 +12495,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetPresenceMatchSessionId_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75e8c;
+  constexpr static std::size_t addrs = 0x5bbc1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11388,7 +12510,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::UserPresenceStatus (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_User_GetPresenceStatus)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75f08;
+  constexpr static std::size_t addrs = 0x5bbc220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11401,8 +12523,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f75f84;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11416,7 +12538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_User_GetSmallImageUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f75fdc;
+  constexpr static std::size_t addrs = 0x5bbc2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11431,7 +12553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::AccountAgeCategory (*)(::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_UserAccountAgeCategory_GetAgeCategory)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76058;
+  constexpr static std::size_t addrs = 0x5bbc374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11445,7 +12567,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(&::Oculus::Platform::CAPI::ovr_UserArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f760d4;
+  constexpr static std::size_t addrs = 0x5bbc3f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11459,8 +12581,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f76158;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11474,7 +12596,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f761b0;
+  constexpr static std::size_t addrs = 0x5bbc4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11488,7 +12610,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7622c;
+  constexpr static std::size_t addrs = 0x5bbc54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11502,7 +12624,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f762a8;
+  constexpr static std::size_t addrs = 0x5bbc5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11515,8 +12637,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetDescription)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7632c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11530,7 +12652,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetDescription_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76384;
+  constexpr static std::size_t addrs = 0x5bbc6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11544,7 +12666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetIsEnabled)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76400;
+  constexpr static std::size_t addrs = 0x5bbc724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11557,8 +12679,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f76484;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11572,7 +12694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetName_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f764dc;
+  constexpr static std::size_t addrs = 0x5bbc804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11585,8 +12707,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetReasonCode)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f76558;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11600,7 +12722,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapability_GetReasonCode_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f765b0;
+  constexpr static std::size_t addrs = 0x5bbc8dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11615,7 +12737,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_UserCapabilityArray_GetElement)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f7662c;
+  constexpr static std::size_t addrs = 0x5bbc958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -11629,8 +12751,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapabilityArray_GetNextUrl)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f766b0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbc9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11644,7 +12766,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapabilityArray_GetNextUrl_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76708;
+  constexpr static std::size_t addrs = 0x5bbca38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11658,7 +12780,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapabilityArray_GetSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76784;
+  constexpr static std::size_t addrs = 0x5bbcab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11672,7 +12794,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserCapabilityArray_HasNextPage)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76800;
+  constexpr static std::size_t addrs = 0x5bbcb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11686,7 +12808,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserDataStoreUpdateResponse_GetSuccess)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76884;
+  constexpr static std::size_t addrs = 0x5bbcbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11699,8 +12821,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserProof_GetNonce)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f76908;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bbcc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11714,7 +12836,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserProof_GetNonce_Native)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76960;
+  constexpr static std::size_t addrs = 0x5bbcc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11728,7 +12850,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserReportID_GetDidCancel)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f769dc;
+  constexpr static std::size_t addrs = 0x5bbcd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11742,7 +12864,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserReportID_GetID)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76a60;
+  constexpr static std::size_t addrs = 0x5bbcd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11757,7 +12879,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_VoipDecoder_Decode)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f76adc;
+  constexpr static std::size_t addrs = 0x5bbce10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11774,7 +12896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr, ::ArrayW<float_t, ::Array<float_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_VoipDecoder_GetDecodedPCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f76b78;
+  constexpr static std::size_t addrs = 0x5bbceac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11791,7 +12913,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ArrayW<float_t, ::Array<float_t>*>, uint32_t)>(
     &::Oculus::Platform::CAPI::ovr_VoipEncoder_AddPCM)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f76c14;
+  constexpr static std::size_t addrs = 0x5bbcf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11808,7 +12930,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::System::UIntPtr)>(
     &::Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedData)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3f76cb0;
+  constexpr static std::size_t addrs = 0x5bbcfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11824,7 +12946,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::UIntPtr (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_VoipEncoder_GetCompressedDataSize)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f76d4c;
+  constexpr static std::size_t addrs = 0x5bbd080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11837,8 +12959,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_AbuseReportOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5ab2c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5b9ea58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -11851,7 +12973,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AbuseReportOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5ae4c;
+  constexpr static std::size_t addrs = 0x5b9ed3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11865,7 +12987,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::Oculus::Platform::CAPI::ovr_AbuseReportOptions_SetPreventPeopleChooser)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5abfc;
+  constexpr static std::size_t addrs = 0x5b9eb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11880,7 +13002,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::AbuseReportType)>(
     &::Oculus::Platform::CAPI::ovr_AbuseReportOptions_SetReportType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5ace8;
+  constexpr static std::size_t addrs = 0x5b9ec18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -11894,8 +13016,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5af2c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5b9ee14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -11909,7 +13031,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5b718;
+  constexpr static std::size_t addrs = 0x5b9f5dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11924,7 +13046,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW, ::StringW)>(
     &::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetDeveloperDefinedContextString)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3f5b004;
+  constexpr static std::size_t addrs = 0x5b9eeec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -11941,7 +13063,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetDeveloperDefinedContextString_Native)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f76dc8;
+  constexpr static std::size_t addrs = 0x5bbd0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -11957,7 +13079,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_ClearDeveloperDefinedContext)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5b11c;
+  constexpr static std::size_t addrs = 0x5b9f008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -11970,8 +13092,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5b200;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5b9f0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -11987,7 +13109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetObjectType_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76e5c;
+  constexpr static std::size_t addrs = 0x5bbd190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12003,7 +13125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::AbuseReportType)>(
     &::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetReportType)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5b308;
+  constexpr static std::size_t addrs = 0x5b9f200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12018,7 +13140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_AddSuggestedUser)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5b3f4;
+  constexpr static std::size_t addrs = 0x5b9f2f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12032,7 +13154,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_ClearSuggestedUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5b4d0;
+  constexpr static std::size_t addrs = 0x5b9f3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12047,7 +13169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::AbuseReportVideoMode)>(
     &::Oculus::Platform::CAPI::ovr_AdvancedAbuseReportOptions_SetVideoMode)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5b5b4;
+  constexpr static std::size_t addrs = 0x5b9f4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12061,8 +13183,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5bad4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5b9f988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12075,7 +13197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5c128;
+  constexpr static std::size_t addrs = 0x5b9ffbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12088,8 +13210,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5bba4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5b9fa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12105,7 +13227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDeeplinkMessage_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76ee0;
+  constexpr static std::size_t addrs = 0x5bbd214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12119,8 +13241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDestinationApiName)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5bcac;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5b9fb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12136,7 +13258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetDestinationApiName_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76f64;
+  constexpr static std::size_t addrs = 0x5bbd298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12150,8 +13272,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetLobbySessionId)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5bdb4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5b9fc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12167,7 +13289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetLobbySessionId_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f76fe8;
+  constexpr static std::size_t addrs = 0x5bbd31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12181,8 +13303,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetMatchSessionId)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5bebc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5b9fd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12198,7 +13320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetMatchSessionId_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f7706c;
+  constexpr static std::size_t addrs = 0x5bbd3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12213,7 +13335,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_ApplicationOptions_SetRoomId)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f5bfc4;
+  constexpr static std::size_t addrs = 0x5b9fe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12226,8 +13348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_AvatarEditorOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5c208;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ba0094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12240,7 +13362,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_AvatarEditorOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f5c458;
+  constexpr static std::size_t addrs = 0x5ba02a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12253,8 +13375,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_AvatarEditorOptions_SetSourceOverride)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f5c2d8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5ba0164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12270,7 +13392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_AvatarEditorOptions_SetSourceOverride_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f770f0;
+  constexpr static std::size_t addrs = 0x5bbd424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12284,8 +13406,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f77174;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbd4a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ChallengeOptions_Create",
@@ -12298,7 +13420,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f771dc;
+  constexpr static std::size_t addrs = 0x5bbd50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12311,8 +13433,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f77258;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbd588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12328,7 +13450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetDescription_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f772f8;
+  constexpr static std::size_t addrs = 0x5bbd62c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12342,8 +13464,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::DateTime)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetEndDate)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f7737c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5bbd6b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12358,7 +13480,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetEndDate_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f773e8;
+  constexpr static std::size_t addrs = 0x5bbd720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12372,7 +13494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludeActiveChallenges)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f7746c;
+  constexpr static std::size_t addrs = 0x5bbd7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12386,7 +13508,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludeFutureChallenges)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f774f0;
+  constexpr static std::size_t addrs = 0x5bbd828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12400,7 +13522,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetIncludePastChallenges)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77574;
+  constexpr static std::size_t addrs = 0x5bbd8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12413,8 +13535,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f775f8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbd930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12430,7 +13552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetLeaderboardName_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77698;
+  constexpr static std::size_t addrs = 0x5bbd9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12444,8 +13566,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::DateTime)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetStartDate)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f7771c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5bbda58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12460,7 +13582,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetStartDate_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77788;
+  constexpr static std::size_t addrs = 0x5bbdac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12473,8 +13595,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f7780c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbdb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12489,7 +13611,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetTitle_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f778ac;
+  constexpr static std::size_t addrs = 0x5bbdbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12505,7 +13627,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::ChallengeViewerFilter)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetViewerFilter)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77930;
+  constexpr static std::size_t addrs = 0x5bbdc74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12521,7 +13643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::ChallengeVisibility)>(
     &::Oculus::Platform::CAPI::ovr_ChallengeOptions_SetVisibility)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f779b4;
+  constexpr static std::size_t addrs = 0x5bbdcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12535,8 +13657,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f77a38;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbdd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -12550,7 +13672,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f77aa0;
+  constexpr static std::size_t addrs = 0x5bbdde0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12564,8 +13686,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDeeplinkMessageOverride)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f77b1c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbde5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12581,7 +13703,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDeeplinkMessageOverride_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77bbc;
+  constexpr static std::size_t addrs = 0x5bbdf00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12595,8 +13717,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDestinationApiName)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f77c40;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbdf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12612,7 +13734,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetDestinationApiName_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77ce0;
+  constexpr static std::size_t addrs = 0x5bbe028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12627,7 +13749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetIsJoinable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77d64;
+  constexpr static std::size_t addrs = 0x5bbe0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12640,8 +13762,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetLobbySessionId)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f77de8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbe130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12657,7 +13779,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetLobbySessionId_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77e88;
+  constexpr static std::size_t addrs = 0x5bbe1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12671,8 +13793,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetMatchSessionId)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f77f0c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbe258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12688,7 +13810,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_GroupPresenceOptions_SetMatchSessionId_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f77fac;
+  constexpr static std::size_t addrs = 0x5bbe2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12702,8 +13824,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_InviteOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f78030;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbe380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_InviteOptions_Create",
@@ -12716,7 +13838,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InviteOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78098;
+  constexpr static std::size_t addrs = 0x5bbe3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12730,7 +13852,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_InviteOptions_AddSuggestedUser)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78114;
+  constexpr static std::size_t addrs = 0x5bbe460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12744,7 +13866,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_InviteOptions_ClearSuggestedUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78198;
+  constexpr static std::size_t addrs = 0x5bbe4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12757,8 +13879,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_MultiplayerErrorOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f78214;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbe560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -12772,7 +13894,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_MultiplayerErrorOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f7827c;
+  constexpr static std::size_t addrs = 0x5bbe5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12787,7 +13909,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::MultiplayerErrorErrorKey)>(
     &::Oculus::Platform::CAPI::ovr_MultiplayerErrorOptions_SetErrorKey)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f782f8;
+  constexpr static std::size_t addrs = 0x5bbe640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12801,8 +13923,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_NetSyncOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f7837c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbe6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_NetSyncOptions_Create",
@@ -12815,7 +13937,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f783e4;
+  constexpr static std::size_t addrs = 0x5bbe728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12828,8 +13950,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f78460;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbe7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12844,7 +13966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipGroup_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78500;
+  constexpr static std::size_t addrs = 0x5bbe848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12860,7 +13982,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::NetSyncVoipStreamMode)>(
     &::Oculus::Platform::CAPI::ovr_NetSyncOptions_SetVoipStreamDefault)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78584;
+  constexpr static std::size_t addrs = 0x5bbe8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -12874,8 +13996,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f78608;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbe950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12890,7 +14012,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_NetSyncOptions_SetZoneId_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f786a8;
+  constexpr static std::size_t addrs = 0x5bbe9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12904,8 +14026,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_RichPresenceOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f7872c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbea78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12918,7 +14040,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RichPresenceOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78794;
+  constexpr static std::size_t addrs = 0x5bbeadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -12931,8 +14053,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(&::Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f78810;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbeb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12947,7 +14069,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetApiName_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f788b0;
+  constexpr static std::size_t addrs = 0x5bbebfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12962,8 +14084,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::StringW)>(
     &::Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3f78934;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5bbec80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12979,7 +14101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::IntPtr)>(
     &::Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetDeeplinkMessageOverride_Native)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f789d4;
+  constexpr static std::size_t addrs = 0x5bbed24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
@@ -12994,7 +14116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(&::Oculus::Platform::CAPI::ovr_RichPresenceOptions_SetIsJoinable)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78a58;
+  constexpr static std::size_t addrs = 0x5bbeda8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13007,8 +14129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_RosterOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f78adc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbee2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_RosterOptions_Create",
@@ -13021,7 +14143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RosterOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78b44;
+  constexpr static std::size_t addrs = 0x5bbee90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13035,7 +14157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint64_t)>(&::Oculus::Platform::CAPI::ovr_RosterOptions_AddSuggestedUser)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78bc0;
+  constexpr static std::size_t addrs = 0x5bbef0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13049,7 +14171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_RosterOptions_ClearSuggestedUsers)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78c44;
+  constexpr static std::size_t addrs = 0x5bbef90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13062,8 +14184,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_UserOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f78cc0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbf00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserOptions_Create",
@@ -13076,7 +14198,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78d28;
+  constexpr static std::size_t addrs = 0x5bbf070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13090,7 +14212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, uint32_t)>(&::Oculus::Platform::CAPI::ovr_UserOptions_SetMaxUsers)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78da4;
+  constexpr static std::size_t addrs = 0x5bbf0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13105,7 +14227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::ServiceProvider)>(
     &::Oculus::Platform::CAPI::ovr_UserOptions_AddServiceProvider)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78e28;
+  constexpr static std::size_t addrs = 0x5bbf170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13120,7 +14242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_UserOptions_ClearServiceProviders)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f78eac;
+  constexpr static std::size_t addrs = 0x5bbf1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13135,7 +14257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::TimeWindow)>(
     &::Oculus::Platform::CAPI::ovr_UserOptions_SetTimeWindow)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f78f28;
+  constexpr static std::size_t addrs = 0x5bbf270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13149,8 +14271,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::Oculus::Platform::CAPI::ovr_VoipOptions_Create)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f78fac;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5bbf2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_VoipOptions_Create",
@@ -13163,7 +14285,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Oculus::Platform::CAPI::ovr_VoipOptions_Destroy)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3f79014;
+  constexpr static std::size_t addrs = 0x5bbf358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -13178,7 +14300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::VoipBitrate)>(
     &::Oculus::Platform::CAPI::ovr_VoipOptions_SetBitrateForNewConnections)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f79090;
+  constexpr static std::size_t addrs = 0x5bbf3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13194,7 +14316,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::Oculus::Platform::VoipDtxState)>(
     &::Oculus::Platform::CAPI::ovr_VoipOptions_SetCreateNewConnectionUseDtx)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f79114;
+  constexpr static std::size_t addrs = 0x5bbf458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -13208,8 +14330,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::CAPI::*)()>(&::Oculus::Platform::CAPI::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f79198;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5bbf4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), ".ctor",
@@ -14168,6 +15290,73 @@ inline uint64_t Oculus::Platform::CAPI::ovr_Colocation_ShareMap_Native(::System:
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, uuid);
 }
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_GetPresenterData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                             "ovr_Cowatching_GetPresenterData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_GetViewersData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_GetViewersData",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_IsInSession() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_IsInSession",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_JoinSession() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_JoinSession",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_LaunchInviteDialog() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_LaunchInviteDialog",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_LeaveSession() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_LeaveSession",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_RequestToPresent() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                             "ovr_Cowatching_RequestToPresent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_ResignFromPresenting() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_ResignFromPresenting",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_SetPresenterData(::StringW video_title, ::StringW presenter_data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_SetPresenterData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, video_title, presenter_data);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_SetPresenterData_Native(::System::IntPtr video_title, ::System::IntPtr presenter_data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                             "ovr_Cowatching_SetPresenterData_Native", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, video_title, presenter_data);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_SetViewerData(::StringW viewer_data) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_SetViewerData", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, viewer_data);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_Cowatching_SetViewerData_Native(::System::IntPtr viewer_data) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Cowatching_SetViewerData_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, viewer_data);
+}
 inline uint64_t Oculus::Platform::CAPI::ovr_DeviceApplicationIntegrity_GetAttestationToken(::StringW challenge_nonce) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_DeviceApplicationIntegrity_GetAttestationToken",
@@ -14801,6 +15990,11 @@ inline uint64_t Oculus::Platform::CAPI::ovr_Party_Leave(uint64_t partyID) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, partyID);
 }
+inline uint64_t Oculus::Platform::CAPI::ovr_PushNotification_Register() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PushNotification_Register",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
 inline uint64_t Oculus::Platform::CAPI::ovr_RichPresence_Clear() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_RichPresence_Clear",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -14901,6 +16095,12 @@ inline uint64_t Oculus::Platform::CAPI::ovr_User_GetLoggedInUser() {
 inline uint64_t Oculus::Platform::CAPI::ovr_User_GetLoggedInUserFriends() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
                                                                              "ovr_User_GetLoggedInUserFriends", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_User_GetLoggedInUserManagedInfo() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetLoggedInUserManagedInfo",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method);
 }
 inline uint64_t Oculus::Platform::CAPI::ovr_User_GetOrgScopedID(uint64_t userID) {
@@ -15027,94 +16227,6 @@ inline uint64_t Oculus::Platform::CAPI::ovr_UserAgeCategory_Report(::Oculus::Pla
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserAgeCategory_Report", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Oculus::Platform::AppAgeCategory>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, age_category);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey(uint64_t userID, ::StringW key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateDeleteEntryByKey", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateDeleteEntryByKey_Native(uint64_t userID, ::System::IntPtr key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateDeleteEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntries(uint64_t userID) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateGetEntries",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey(uint64_t userID, ::StringW key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateGetEntryByKey", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateGetEntryByKey_Native(uint64_t userID, ::System::IntPtr key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateGetEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry(uint64_t userID, ::StringW key, ::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateWriteEntry", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key, value);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PrivateWriteEntry_Native(uint64_t userID, ::System::IntPtr key, ::System::IntPtr value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PrivateWriteEntry_Native", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key, value);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey(uint64_t userID, ::StringW key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicDeleteEntryByKey", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicDeleteEntryByKey_Native(uint64_t userID, ::System::IntPtr key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicDeleteEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntries(uint64_t userID) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicGetEntries",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey(uint64_t userID, ::StringW key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicGetEntryByKey", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicGetEntryByKey_Native(uint64_t userID, ::System::IntPtr key) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicGetEntryByKey_Native", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry(uint64_t userID, ::StringW key, ::StringW value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicWriteEntry", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key, value);
-}
-inline uint64_t Oculus::Platform::CAPI::ovr_UserDataStore_PublicWriteEntry_Native(uint64_t userID, ::System::IntPtr key, ::System::IntPtr value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_UserDataStore_PublicWriteEntry_Native", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, userID, key, value);
 }
 inline uint64_t Oculus::Platform::CAPI::ovr_Voip_GetMicrophoneAvailability() {
   static auto* ___internal_method =
@@ -15321,6 +16433,12 @@ inline ::Oculus::Platform::AppStatus Oculus::Platform::CAPI::ovr_AppDownloadProg
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_AppDownloadProgressResult_GetStatusCode",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::AppStatus, false>(nullptr, ___internal_method, obj);
+}
+inline ::Oculus::Platform::AppInstallResult Oculus::Platform::CAPI::ovr_AppDownloadResult_GetAppInstallResult(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_AppDownloadResult_GetAppInstallResult",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::AppInstallResult, false>(nullptr, ___internal_method, obj);
 }
 inline int64_t Oculus::Platform::CAPI::ovr_AppDownloadResult_GetTimestamp(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -15678,6 +16796,31 @@ inline bool Oculus::Platform::CAPI::ovr_AvatarEditorResult_GetRequestSent(::Syst
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
 }
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_BillingPlan_GetPaidOffer(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlan_GetPaidOffer", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_BillingPlan_GetTrialOffers(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlan_GetTrialOffers", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_BillingPlanArray_GetElement(::System::IntPtr obj, ::System::UIntPtr index) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlanArray_GetElement", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UIntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, index);
+}
+inline ::System::UIntPtr Oculus::Platform::CAPI::ovr_BillingPlanArray_GetSize(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BillingPlanArray_GetSize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::UIntPtr, false>(nullptr, ___internal_method, obj);
+}
 inline uint64_t Oculus::Platform::CAPI::ovr_BlockedUser_GetId(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_BlockedUser_GetId", std::span<Il2CppClass const* const, 0>(),
@@ -15975,6 +17118,145 @@ inline bool Oculus::Platform::CAPI::ovr_ChallengeEntryArray_HasPreviousPage(::Sy
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
 }
+inline ::StringW Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingImageUri(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingImageUri",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingImageUri_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingImageUri_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingText(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingText",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ContentRating_GetAgeRatingText_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetAgeRatingText_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ContentRating_GetDescriptor(::System::IntPtr obj, uint32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetDescriptor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj, index);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ContentRating_GetDescriptor_Native(::System::IntPtr obj, uint32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetDescriptor_Native", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, index);
+}
+inline uint32_t Oculus::Platform::CAPI::ovr_ContentRating_GetDescriptorsSize(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetDescriptorsSize",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ContentRating_GetInteractiveElement(::System::IntPtr obj, uint32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetInteractiveElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj, index);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ContentRating_GetInteractiveElement_Native(::System::IntPtr obj, uint32_t index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetInteractiveElement_Native", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, index);
+}
+inline uint32_t Oculus::Platform::CAPI::ovr_ContentRating_GetInteractiveElementsSize(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetInteractiveElementsSize",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ContentRating_GetRatingDefinitionUri(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetRatingDefinitionUri",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ContentRating_GetRatingDefinitionUri_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ContentRating_GetRatingDefinitionUri_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_CowatchViewer_GetData(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewer_GetData", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_CowatchViewer_GetData_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewer_GetData_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_CowatchViewer_GetId(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewer_GetId", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetElement(::System::IntPtr obj, ::System::UIntPtr index) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(),
+                                                                             "ovr_CowatchViewerArray_GetElement", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UIntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, index);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetNextUrl(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_GetNextUrl",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetNextUrl_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_GetNextUrl_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::UIntPtr Oculus::Platform::CAPI::ovr_CowatchViewerArray_GetSize(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_GetSize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::UIntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline bool Oculus::Platform::CAPI::ovr_CowatchViewerArray_HasNextPage(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerArray_HasNextPage",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_CowatchViewerUpdate_GetDataList(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerUpdate_GetDataList",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline uint64_t Oculus::Platform::CAPI::ovr_CowatchViewerUpdate_GetId(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchViewerUpdate_GetId", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(nullptr, ___internal_method, obj);
+}
+inline bool Oculus::Platform::CAPI::ovr_CowatchingState_GetInSession(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_CowatchingState_GetInSession",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
+}
 inline uint32_t Oculus::Platform::CAPI::ovr_DataStore_Contains(::System::IntPtr obj, ::StringW key) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_DataStore_Contains", std::span<Il2CppClass const* const, 0>(),
@@ -16052,6 +17334,18 @@ inline ::StringW Oculus::Platform::CAPI::ovr_Destination_GetDisplayName(::System
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Destination_GetDisplayName_Native(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Destination_GetDisplayName_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_Destination_GetShareableUri(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Destination_GetShareableUri", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Destination_GetShareableUri_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Destination_GetShareableUri_Native",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
@@ -16392,6 +17686,30 @@ inline ::Oculus::Platform::LaunchType Oculus::Platform::CAPI::ovr_LaunchDetails_
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetLaunchType", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::LaunchType, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_LaunchDetails_GetLobbySessionID(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetLobbySessionID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_LaunchDetails_GetLobbySessionID_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetLobbySessionID_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_LaunchDetails_GetMatchSessionID(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetMatchSessionID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_LaunchDetails_GetMatchSessionID_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_LaunchDetails_GetMatchSessionID_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline ::StringW Oculus::Platform::CAPI::ovr_LaunchDetails_GetTrackingID(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -16762,6 +18080,126 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_LivestreamingVideoStats_GetT
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetDepartment(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetDepartment", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetDepartment_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetDepartment_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmail(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmail", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmail_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmail_Native", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmployeeNumber(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmployeeNumber",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetEmployeeNumber_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetEmployeeNumber_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetExternalId(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetExternalId", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetExternalId_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetExternalId_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetLocation(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetLocation", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetLocation_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetLocation_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetManager(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetManager", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetManager_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetManager_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetName(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetName", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetName_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetName_Native", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationId(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationId",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationId_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationId_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationName(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetOrganizationName_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetOrganizationName_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_ManagedInfo_GetPosition(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetPosition", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ManagedInfo_GetPosition_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_ManagedInfo_GetPosition_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetAbuseReportRecording(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetAbuseReportRecording",
@@ -16874,6 +18312,24 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetChallengeEntryArr
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetChallengeEntryArray",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetCowatchViewerArray(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetCowatchViewerArray",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetCowatchViewerUpdate(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetCowatchViewerUpdate",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetCowatchingState(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetCowatchingState", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetDataStore(::System::IntPtr obj) {
@@ -17096,6 +18552,12 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetPurchaseArray(::S
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetPurchaseArray", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetPushNotificationResult(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Message_GetPushNotificationResult",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Message_GetRejoinDialogResult(::System::IntPtr obj) {
@@ -17419,6 +18881,18 @@ inline ::System::UIntPtr Oculus::Platform::CAPI::ovr_Packet_GetSize(::System::In
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::UIntPtr, false>(nullptr, ___internal_method, obj);
 }
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_PaidOffer_GetPrice(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PaidOffer_GetPrice", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::Oculus::Platform::OfferTerm Oculus::Platform::CAPI::ovr_PaidOffer_GetSubscriptionTerm(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PaidOffer_GetSubscriptionTerm",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::OfferTerm, false>(nullptr, ___internal_method, obj);
+}
 inline uint64_t Oculus::Platform::CAPI::ovr_Party_GetID(::System::IntPtr obj) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Party_GetID", std::span<Il2CppClass const* const, 0>(),
@@ -17570,6 +19044,30 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Price_GetFormatted_Native(::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetBillingPlans(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetBillingPlans", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetContentRating(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetContentRating", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_Product_GetCoverUrl(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetCoverUrl", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetCoverUrl_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetCoverUrl_Native", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
 inline ::StringW Oculus::Platform::CAPI::ovr_Product_GetDescription(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetDescription", std::span<Il2CppClass const* const, 0>(),
@@ -17594,6 +19092,18 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetFormattedPrice_Na
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
+inline ::StringW Oculus::Platform::CAPI::ovr_Product_GetIconUrl(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetIconUrl", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetIconUrl_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetIconUrl_Native", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
 inline ::StringW Oculus::Platform::CAPI::ovr_Product_GetName(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetName", std::span<Il2CppClass const* const, 0>(),
@@ -17604,6 +19114,24 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetName_Native(::Sys
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetName_Native", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetPrice(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetPrice", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_Product_GetShortDescription(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetShortDescription", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetShortDescription_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetShortDescription_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline ::StringW Oculus::Platform::CAPI::ovr_Product_GetSKU(::System::IntPtr obj) {
@@ -17617,6 +19145,12 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Product_GetSKU_Native(::Syst
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetSKU_Native", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::Oculus::Platform::ProductType Oculus::Platform::CAPI::ovr_Product_GetType(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Product_GetType", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::ProductType, false>(nullptr, ___internal_method, obj);
 }
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_ProductArray_GetElement(::System::IntPtr obj, ::System::UIntPtr index) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -17727,6 +19261,12 @@ inline ::System::IntPtr Oculus::Platform::CAPI::ovr_Purchase_GetSKU_Native(::Sys
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
+inline ::Oculus::Platform::ProductType Oculus::Platform::CAPI::ovr_Purchase_GetType(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_Purchase_GetType", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::ProductType, false>(nullptr, ___internal_method, obj);
+}
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_PurchaseArray_GetElement(::System::IntPtr obj, ::System::UIntPtr index) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PurchaseArray_GetElement", std::span<Il2CppClass const* const, 0>(),
@@ -17757,6 +19297,18 @@ inline bool Oculus::Platform::CAPI::ovr_PurchaseArray_HasNextPage(::System::IntP
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PurchaseArray_HasNextPage", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, obj);
+}
+inline ::StringW Oculus::Platform::CAPI::ovr_PushNotificationResult_GetId(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PushNotificationResult_GetId",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_PushNotificationResult_GetId_Native(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_PushNotificationResult_GetId_Native",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }
 inline bool Oculus::Platform::CAPI::ovr_RejoinDialogResult_GetRejoinSelected(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -17928,6 +19480,43 @@ inline ::System::UIntPtr Oculus::Platform::CAPI::ovr_TestUserAppAccessArray_GetS
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::UIntPtr, false>(nullptr, ___internal_method, obj);
 }
+inline int32_t Oculus::Platform::CAPI::ovr_TrialOffer_GetMaxTermCount(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetMaxTermCount", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_TrialOffer_GetPrice(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetPrice", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::Oculus::Platform::OfferTerm Oculus::Platform::CAPI::ovr_TrialOffer_GetTrialTerm(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetTrialTerm", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::OfferTerm, false>(nullptr, ___internal_method, obj);
+}
+inline ::Oculus::Platform::OfferType Oculus::Platform::CAPI::ovr_TrialOffer_GetTrialType(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOffer_GetTrialType", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::OfferType, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_TrialOfferArray_GetElement(::System::IntPtr obj, ::System::UIntPtr index) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOfferArray_GetElement", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UIntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, index);
+}
+inline ::System::UIntPtr Oculus::Platform::CAPI::ovr_TrialOfferArray_GetSize(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_TrialOfferArray_GetSize", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::UIntPtr, false>(nullptr, ___internal_method, obj);
+}
 inline ::StringW Oculus::Platform::CAPI::ovr_User_GetDisplayName(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetDisplayName", std::span<Il2CppClass const* const, 0>(),
@@ -17955,6 +19544,12 @@ inline ::StringW Oculus::Platform::CAPI::ovr_User_GetImageUrl(::System::IntPtr o
 inline ::System::IntPtr Oculus::Platform::CAPI::ovr_User_GetImageUrl_Native(::System::IntPtr obj) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetImageUrl_Native", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
+}
+inline ::System::IntPtr Oculus::Platform::CAPI::ovr_User_GetManagedInfo(::System::IntPtr obj) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::CAPI*>::get(), "ovr_User_GetManagedInfo", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj);
 }

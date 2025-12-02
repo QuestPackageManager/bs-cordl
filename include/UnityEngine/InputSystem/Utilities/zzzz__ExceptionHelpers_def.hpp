@@ -21,7 +21,7 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE ExceptionHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x4568318, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsExceptionIndicatingBugInCode, addr 0x62e32c4, size 0xf0, virtual false, abstract: false, final false
   static inline bool IsExceptionIndicatingBugInCode(::System::Exception* exception);
 
 protected:
@@ -39,7 +39,7 @@ public:
   ExceptionHelpers(ExceptionHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7076 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9134 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -69,7 +69,7 @@ public:
   static ::GlobalNamespace::SettingsNavigationController_FinishAction const Ok;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4957 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6540 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -107,21 +107,21 @@ public:
   __declspec(property(get = __cordl_internal_get_didFinishEvent,
                       put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* didFinishEvent;
 
-  /// @brief Method DidActivate, addr 0x3afb1f0, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x56de04c, size 0x1c0, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method HandleFinishButton, addr 0x3afb340, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleFinishButton, addr 0x56de20c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleFinishButton(::GlobalNamespace::SettingsNavigationController_FinishAction finishAction);
 
   static inline ::GlobalNamespace::SettingsNavigationController* New_ctor();
 
-  /// @brief Method <DidActivate>b__7_0, addr 0x3afb364, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_0, addr 0x56de234, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_0();
 
-  /// @brief Method <DidActivate>b__7_1, addr 0x3afb384, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_1, addr 0x56de254, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_1();
 
-  /// @brief Method <DidActivate>b__7_2, addr 0x3afb3a4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__7_2, addr 0x56de274, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__7_2();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__applyButton() const;
@@ -148,13 +148,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
-  /// @brief Method .ctor, addr 0x3afb35c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56de228, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3afb090, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x56ddecc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3afb140, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x56ddf8c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::GlobalNamespace::SettingsNavigationController_FinishAction>* value);
 
 protected:
@@ -172,7 +172,7 @@ public:
   SettingsNavigationController(SettingsNavigationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4958 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6541 };
 
   /// @brief Field _okButton, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____okButton;

@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelBuyView::add_didFavoriteToggleChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b07350;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56e9578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>*)>(
     &::GlobalNamespace::StandardLevelBuyView::remove_didFavoriteToggleChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b07400;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56e9638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::StandardLevelBuyView::*)()>(
     &::GlobalNamespace::StandardLevelBuyView::get_buyButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b074b0;
+  constexpr static std::size_t addrs = 0x56e96f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "get_buyButton",
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::Awake)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3b074b8;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x56e9700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "Awake",
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b07598;
+  constexpr static std::size_t addrs = 0x56e9810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), "OnDestroy",
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::StandardLevelBuyView::SetContent)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b075ac;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x56e9824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(
     &::GlobalNamespace::StandardLevelBuyView::RefreshFavouriteToggle)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b07624;
+  constexpr static std::size_t addrs = 0x56e9884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(),
@@ -113,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)()>(&::GlobalNamespace::StandardLevelBuyView::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b07668;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56e98c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelBuyView*>::get(), ".ctor",
@@ -127,7 +127,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelBuyView::*)(bool)>(&::GlobalNamespace::StandardLevelBuyView::_Awake_b__12_0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b07670;
+  constexpr static std::size_t addrs = 0x56e98cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

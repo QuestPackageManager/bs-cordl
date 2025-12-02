@@ -36,13 +36,13 @@ public:
   /// @brief Field _encoding, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding)) ::System::Text::Encoding* _encoding;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x3c787c0, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreateFallbackBuffer, addr 0x58bccfc, size 0x5c, virtual true, abstract: false, final false
   inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
 
-  /// @brief Method Equals, addr 0x3c78944, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x58bce78, size 0xcc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3c78a08, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x58bcf44, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Text::InternalEncoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
@@ -59,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
 
-  /// @brief Method .ctor, addr 0x3c78790, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bccf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::Encoding* encoding);
 
-  /// @brief Method get_MaxCharCount, addr 0x3c7893c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_MaxCharCount, addr 0x58bce70, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_MaxCharCount();
 
 protected:
@@ -80,7 +80,7 @@ public:
   InternalEncoderBestFitFallback(InternalEncoderBestFitFallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2842 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2858 };
 
   /// @brief Field _encoding, offset: 0x10, size: 0x8, def value: None
   ::System::Text::Encoding* ____encoding;

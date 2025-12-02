@@ -3,18 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -65,6 +58,9 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Runtime::CompilerServices {
@@ -77,7 +73,13 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace BeatSaber::GameSettings {
@@ -120,13 +122,13 @@ public:
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel___c* New_ctor();
 
-  /// @brief Method <GetControllerProfilesSaveData>b__23_0, addr 0x226f290, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetControllerProfilesSaveData>b__23_0, addr 0x3192d2c, size 0x14, virtual false, abstract: false, final false
   inline bool _GetControllerProfilesSaveData_b__23_0(::BeatSaber::GameSettings::ControllerProfile* profile);
 
-  /// @brief Method <GetControllerProfilesSaveData>b__23_1, addr 0x226f2a8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetControllerProfilesSaveData>b__23_1, addr 0x3192d40, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfileSaveData* _GetControllerProfilesSaveData_b__23_1(::BeatSaber::GameSettings::ControllerProfile* profile);
 
-  /// @brief Method .ctor, addr 0x226f288, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3192d28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel___c* getStaticF___9();
@@ -156,7 +158,7 @@ public:
   ControllerProfilesModel___c(ControllerProfilesModel___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,8 +166,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllerProfilesModel___c, 0x10>, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
 // CS Name: BeatSaber.GameSettings.ControllerProfilesModel/<GetBuiltInProfiles>d__21
@@ -201,27 +202,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x226f368, size 0x84, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3192df4, size 0x88, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<BeatSaber.GameSettings.ControllerProfile>.GetEnumerator, addr 0x226f434, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<BeatSaber.GameSettings.ControllerProfile>.GetEnumerator, addr 0x3192ec4, size 0x8c, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::BeatSaber::GameSettings::ControllerProfile*>* System_Collections_Generic_IEnumerable_BeatSaber_GameSettings_ControllerProfile__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<BeatSaber.GameSettings.ControllerProfile>.get_Current, addr 0x226f3ec, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<BeatSaber.GameSettings.ControllerProfile>.get_Current, addr 0x3192e7c, size 0x8, virtual true, abstract: false, final true
   inline ::BeatSaber::GameSettings::ControllerProfile* System_Collections_Generic_IEnumerator_BeatSaber_GameSettings_ControllerProfile__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x226f4c4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3192f50, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x226f3f4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3192e84, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x226f42c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3192ebc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x226f364, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x3192df0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -242,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x226eeac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31929f4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>"
@@ -277,7 +278,7 @@ public:
   ControllerProfilesModel__GetBuiltInProfiles_d__21(ControllerProfilesModel__GetBuiltInProfiles_d__21 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21848 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -300,7 +301,7 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfilesModel__GetBu
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21, 0x28>, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace BeatSaber::GameSettings {
 // Is value type: true
 // CS Name: BeatSaber.GameSettings.ControllerProfilesModel/<Initialize>d__16
@@ -310,10 +311,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x226f4c8, size 0x228, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3192f54, size 0x244, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x226f6f0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3193198, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -330,7 +331,7 @@ public:
                                                       ::BeatSaber::GameSettings::ControllerProfilesModel* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -361,7 +362,7 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfilesModel__Initi
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__16, 0x38>, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BeatSaber::GameSettings {
 // Is value type: true
 // CS Name: BeatSaber.GameSettings.ControllerProfilesModel/<LoadAsync>d__17
@@ -371,10 +372,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x226f6fc, size 0x4d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31931a0, size 0x504, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x226fd08, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31937d8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -393,7 +394,7 @@ public:
                                                      ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::GameSettings::ControllerProfilesSaveData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21850 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -424,7 +425,7 @@ static_assert(offsetof(::BeatSaber::GameSettings::ControllerProfilesModel__LoadA
 static_assert(::cordl_internals::size_check_v<::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__17, 0x30>, "Size mismatch!");
 
 } // namespace BeatSaber::GameSettings
-// Dependencies System.Object, Zenject.IInitializable
+// Dependencies System.Object
 namespace BeatSaber::GameSettings {
 // Is value type: false
 // CS Name: BeatSaber.GameSettings.ControllerProfilesModel
@@ -464,39 +465,39 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method GetBuiltInProfiles, addr 0x226e738, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetBuiltInProfiles, addr 0x319224c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>* GetBuiltInProfiles();
 
-  /// @brief Method GetControllerProfilesSaveData, addr 0x226ebd8, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetControllerProfilesSaveData, addr 0x3192700, size 0x1c8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* GetControllerProfilesSaveData();
 
-  /// @brief Method GetDefaultController, addr 0x226f1d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultController, addr 0x3192c6c, size 0x68, virtual false, abstract: false, final false
   static inline ::BeatSaber::GameSettings::Controller GetDefaultController();
 
-  /// @brief Method GetDefaultControllersProfile, addr 0x226f0f4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultControllersProfile, addr 0x3192b78, size 0xf4, virtual false, abstract: false, final false
   static inline ::BeatSaber::GameSettings::ControllerProfile* GetDefaultControllersProfile(::StringW localizationKey, int32_t index, bool modifiable);
 
-  /// @brief Method GetDefaultCustomControllerProfile, addr 0x226eee0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultCustomControllerProfile, addr 0x3192a14, size 0x130, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* GetDefaultCustomControllerProfile(int32_t profileIndex);
 
-  /// @brief Method GetSelectedProfileIndexFromSettings, addr 0x226ee58, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedProfileIndexFromSettings, addr 0x31929a8, size 0x4c, virtual false, abstract: false, final false
   inline int32_t GetSelectedProfileIndexFromSettings(int32_t builtInProfilesCount);
 
-  /// @brief Method Initialize, addr 0x226e7a0, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x31922b4, size 0xa4, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method LoadAsync, addr 0x226e830, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x3192358, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* LoadAsync();
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesModel* New_ctor();
 
-  /// @brief Method RefreshControllersReference, addr 0x226eabc, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method RefreshControllersReference, addr 0x31925dc, size 0xa8, virtual false, abstract: false, final false
   inline void RefreshControllersReference();
 
-  /// @brief Method SaveAsync, addr 0x226eb60, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SaveAsync, addr 0x3192684, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SaveAsync();
 
-  /// @brief Method UpdateSelectedProfile, addr 0x226e8f0, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method UpdateSelectedProfile, addr 0x3192408, size 0x1cc, virtual false, abstract: false, final false
   inline void UpdateSelectedProfile(int32_t newSelectedProfileIndex, bool forceUpdate);
 
   constexpr ::BeatSaber::GameSettings::ControllerProfileFileModel* const& __cordl_internal_get__fileModel() const;
@@ -529,22 +530,22 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x226e658, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3192160, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_profiles, addr 0x226e5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_profiles, addr 0x31920f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::GameSettings::ControllerProfile*>* get_profiles();
 
-  /// @brief Method get_selectedProfile, addr 0x226e604, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_selectedProfile, addr 0x3192108, size 0x58, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* get_selectedProfile();
 
-  /// @brief Method get_selectedProfileIndex, addr 0x226e5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedProfileIndex, addr 0x31920f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_selectedProfileIndex();
 
   /// @brief Convert to "::Zenject::IInitializable"
   constexpr ::Zenject::IInitializable* i___Zenject__IInitializable() noexcept;
 
-  /// @brief Method set_selectedProfileIndex, addr 0x226e5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedProfileIndex, addr 0x3192100, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedProfileIndex(int32_t value);
 
 protected:
@@ -562,7 +563,7 @@ public:
   ControllerProfilesModel(ControllerProfilesModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21851 };
 
   /// @brief Field kCustomLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kCustomLocalizationKey{ u"CONTROLLER_PROFILES_LABEL_CUSTOM" };

@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::WebExceptionStatus)>(&::System::Net::WebExceptionMapping::GetWebStatusString)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44a2998;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x61f2240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

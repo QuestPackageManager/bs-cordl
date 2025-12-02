@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchState.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__TouchPhase_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::TouchState.get_Format
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(&::UnityEngine::InputSystem::LowLevel::TouchState::get_Format)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4608d90;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x63900e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_phase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4608dc0;
+  constexpr static std::size_t addrs = 0x63900f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(::UnityEngine::InputSystem::TouchPhase)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_phase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4603710;
+  constexpr static std::size_t addrs = 0x638b4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isNoneEndedOrCanceled)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4608dc8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x63900fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isInProgress)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4608dec;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6390118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isPrimaryTouch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46056a8;
+  constexpr static std::size_t addrs = 0x6390134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isPrimaryTouch)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4605688;
+  constexpr static std::size_t addrs = 0x6390140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isOrphanedPrimaryTouch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4608e14;
+  constexpr static std::size_t addrs = 0x6390160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isOrphanedPrimaryTouch)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4608e20;
+  constexpr static std::size_t addrs = 0x639016c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isIndirectTouch)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4608e40;
+  constexpr static std::size_t addrs = 0x639018c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isIndirectTouch)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4608e4c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6390198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isTap)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4601dd4;
+  constexpr static std::size_t addrs = 0x6389a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -182,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isTap)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46056b4;
+  constexpr static std::size_t addrs = 0x63901b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isTapPress)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4608e5c;
+  constexpr static std::size_t addrs = 0x63901ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isTapPress)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4608e68;
+  constexpr static std::size_t addrs = 0x63901d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,7 +226,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_isTapRelease)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4600f9c;
+  constexpr static std::size_t addrs = 0x6388b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_isTapRelease)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4608e88;
+  constexpr static std::size_t addrs = 0x63901f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_beganInSameFrame)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4601234;
+  constexpr static std::size_t addrs = 0x6388e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -269,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::TouchState::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::set_beganInSameFrame)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4601240;
+  constexpr static std::size_t addrs = 0x6388e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -283,8 +283,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::get_format)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4608ea8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6390218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchState>::get(),
@@ -297,8 +297,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::TouchState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchState::ToString)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x4608ed8;
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x6390224;
 
   inline static ::MethodInfo const* methodInfo() {
 

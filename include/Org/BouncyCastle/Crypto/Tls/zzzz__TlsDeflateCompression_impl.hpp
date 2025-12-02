@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsDeflateCompression.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZOutputStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDeflateCompression_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsDeflateCompression_def.hpp"
 #include "Org/BouncyCastle/Utilities/Zlib/zzzz__ZStream_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression_DeflateOutputStream::*)(
     ::System::IO::Stream*, ::Org::BouncyCastle::Utilities::Zlib::ZStream*, bool)>(&::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression_DeflateOutputStream::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2428460;
+  constexpr static std::size_t addrs = 0x33565b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression_DeflateOutputStream::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression_DeflateOutputStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2428634;
+  constexpr static std::size_t addrs = 0x33567a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2428320;
+  constexpr static std::size_t addrs = 0x3356470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x2428328;
+  constexpr static std::size_t addrs = 0x3356478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::Compress)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24283d4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x3356524;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Crypto::Tls::TlsDeflateCompression::Decompress)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2428498;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x33565ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, float_t, int32_t, int32_t, bool, bool)>(&::UnityEngine::ProBuilder::Spline::Extrude)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4740210;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x64d6a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, float_t, int32_t, int32_t, bool, bool, ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*>)>(
         &::UnityEngine::ProBuilder::Spline::Extrude)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4740234;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x64d6a44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,8 +52,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* (*)(::System::Collections::Generic::IList_1<::UnityEngine::ProBuilder::BezierPoint>*, int32_t, bool,
                                                                         ::System::Collections::Generic::List_1<::UnityEngine::Quaternion>*)>(&::UnityEngine::ProBuilder::Spline::GetControlPoints)> {
-  constexpr static std::size_t size = 0x518;
-  constexpr static std::size_t addrs = 0x4740304;
+  constexpr static std::size_t size = 0x540;
+  constexpr static std::size_t addrs = 0x64d6b18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, float_t, int32_t, bool, bool, ::ByRef<::UnityEngine::ProBuilder::ProBuilderMesh*>,
                          ::System::Collections::Generic::IList_1<::UnityEngine::Quaternion>*)>(&::UnityEngine::ProBuilder::Spline::Extrude)> {
-  constexpr static std::size_t size = 0x924;
-  constexpr static std::size_t addrs = 0x474081c;
+  constexpr static std::size_t size = 0x994;
+  constexpr static std::size_t addrs = 0x64d7058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::System::Collections::Generic::IList_1<::UnityEngine::Vector3>*, int32_t, bool,
                                                                                                                 ::ByRef<float_t>)>(&::UnityEngine::ProBuilder::Spline::GetRingRotation)> {
-  constexpr static std::size_t size = 0x868;
-  constexpr static std::size_t addrs = 0x4741140;
+  constexpr static std::size_t size = 0x8f0;
+  constexpr static std::size_t addrs = 0x64d79ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(
     ::UnityEngine::Quaternion, ::UnityEngine::Vector3, float_t, int32_t)>(&::UnityEngine::ProBuilder::Spline::VertexRing)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x47419a8;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x64d82dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -52,19 +52,19 @@ public:
   /// @brief Field lastEncodingItem, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_lastEncodingItem, put = setStaticF_lastEncodingItem)) int32_t lastEncodingItem;
 
-  /// @brief Method ENC, addr 0x3da8e48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ENC, addr 0x59bc8d8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalEncodingDataItem ENC(::StringW name, uint16_t cp);
 
-  /// @brief Method GetCodePageDataItem, addr 0x3dae800, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageDataItem, addr 0x59c289c, size 0x2d4, virtual false, abstract: false, final false
   static inline ::System::Globalization::CodePageDataItem* GetCodePageDataItem(int32_t codepage);
 
-  /// @brief Method GetCodePageFromName, addr 0x3dae584, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method GetCodePageFromName, addr 0x59c25f8, size 0x2a4, virtual false, abstract: false, final false
   static inline int32_t GetCodePageFromName(::StringW name);
 
-  /// @brief Method GetNumEncodingItems, addr 0x3da8de4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetNumEncodingItems, addr 0x59bc870, size 0x68, virtual false, abstract: false, final false
   static inline int32_t GetNumEncodingItems();
 
-  /// @brief Method MapCodePageDataItem, addr 0x3da8e50, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MapCodePageDataItem, addr 0x59bc8e0, size 0x1c, virtual false, abstract: false, final false
   static inline ::System::Globalization::InternalCodePageDataItem MapCodePageDataItem(uint16_t cp, uint16_t fcp, ::StringW names, uint32_t flags);
 
   static inline ::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> getStaticF_codePageDataPtr();
@@ -77,7 +77,7 @@ public:
 
   static inline int32_t getStaticF_lastEncodingItem();
 
-  /// @brief Method internalGetCodePageFromName, addr 0x3dae314, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method internalGetCodePageFromName, addr 0x59c23a0, size 0x238, virtual false, abstract: false, final false
   static inline int32_t internalGetCodePageFromName(::StringW name);
 
   static inline void setStaticF_codePageDataPtr(::ArrayW<::System::Globalization::InternalCodePageDataItem, ::Array<::System::Globalization::InternalCodePageDataItem>*> value);
@@ -105,7 +105,7 @@ public:
   EncodingTable(EncodingTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3721 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,10 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/Util/DependenciesCacheKey.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__DependenciesCacheKey_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
@@ -14,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int32_t)>(
     &::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x478f694;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x66eebfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)()>(
     &::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4797534;
+  constexpr static std::size_t addrs = 0x66f7160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(::System::Object*)>(
     &::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x479753c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x66f7168;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(
     ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*)>(&::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x47975f4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x66f7230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::*)(
     ::UnityEngine::ResourceManagement::Util::DependenciesCacheKey*)>(&::UnityEngine::ResourceManagement::Util::DependenciesCacheKey::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47975cc;
+  constexpr static std::size_t addrs = 0x66f7208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Mono/SafeGPtrArrayHandle.hpp"
 #include "Mono/zzzz__RuntimeGPtrArrayHandle_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "Mono/zzzz__SafeGPtrArrayHandle_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Mono::SafeGPtrArrayHandle._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SafeGPtrArrayHandle::*)(::System::IntPtr)>(&::Mono::SafeGPtrArrayHandle::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c55d00;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5898ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SafeGPtrArrayHandle::*)()>(&::Mono::SafeGPtrArrayHandle::Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c55d20;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5898bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeGPtrArrayHandle>::get(), "Dispose",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::SafeGPtrArrayHandle::*)()>(&::Mono::SafeGPtrArrayHandle::get_Length)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c55d3c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5898bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeGPtrArrayHandle>::get(), "get_Length",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::SafeGPtrArrayHandle::*)(int32_t)>(&::Mono::SafeGPtrArrayHandle::get_Item)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c55d58;
+  constexpr static std::size_t addrs = 0x5898c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -107,7 +107,7 @@ public:
   TaskWhenAnyCast_Task_1___c(TaskWhenAnyCast_Task_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2774 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2785 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -147,7 +147,7 @@ public:
   Task_1_TaskWhenAnyCast(Task_1_TaskWhenAnyCast const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2775 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2786 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -314,7 +314,7 @@ public:
   Task_1(Task_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2776 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2787 };
 
   /// @brief Field m_result, offset: 0x50, size: 0x8, def value: None
   TResult ___m_result;

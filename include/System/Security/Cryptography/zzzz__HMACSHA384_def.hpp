@@ -34,13 +34,13 @@ public:
 
   constexpr void __cordl_internal_set_m_useLegacyBlockSize(bool value);
 
-  /// @brief Method .ctor, addr 0x3ca17ac, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e55b8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ca17d0, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e55dc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method get_BlockSize, addr 0x3ca18b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_BlockSize, addr 0x58e56ac, size 0x18, virtual false, abstract: false, final false
   inline int32_t get_BlockSize();
 
 protected:
@@ -58,7 +58,7 @@ public:
   HMACSHA384(HMACSHA384 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2955 };
 
   /// @brief Field m_useLegacyBlockSize, offset: 0x61, size: 0x1, def value: None
   bool ___m_useLegacyBlockSize;

@@ -14,8 +14,7 @@ template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::In
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>::get(), 4)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, value, control);
 }
-template <typename TValue>
-inline void UnityEngine::InputSystem::InputProcessor_1<TValue>::Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control) {
+template <typename TValue> inline void UnityEngine::InputSystem::InputProcessor_1<TValue>::Process(void* buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputProcessor_1<TValue>*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, bufferSize, control);

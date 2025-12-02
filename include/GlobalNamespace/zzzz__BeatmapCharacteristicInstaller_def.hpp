@@ -27,18 +27,18 @@ public:
   // Declarations
   __declspec(property(get = get_assetRuntimeKey)) ::StringW assetRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x27175bc, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x3642740, size 0x98, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x2717638, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method LoadCharacteristicCollectionAsync, addr 0x36427d8, size 0x84, virtual false, abstract: false, final false
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicCollectionSO>> LoadCharacteristicCollectionAsync();
 
   static inline ::GlobalNamespace::BeatmapCharacteristicInstaller* New_ctor();
 
-  /// @brief Method .ctor, addr 0x27176b4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364285c, size 0x44, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetRuntimeKey, addr 0x271757c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetRuntimeKey, addr 0x36426fc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetRuntimeKey();
 
 protected:
@@ -56,12 +56,12 @@ public:
   BeatmapCharacteristicInstaller(BeatmapCharacteristicInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21029 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicInstaller, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapCharacteristicInstaller, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapCharacteristicInstaller);

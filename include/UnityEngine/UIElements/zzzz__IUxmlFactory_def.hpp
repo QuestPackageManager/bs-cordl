@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
 CORDL_MODULE_EXPORT(IUxmlFactory)
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IBaseUxmlFactory;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -20,7 +22,7 @@ class IUxmlFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IUxmlFactory);
-// Dependencies UnityEngine.UIElements.IBaseUxmlFactory
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IUxmlFactory
@@ -41,7 +43,7 @@ public:
   IUxmlFactory(IUxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6274 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5180 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

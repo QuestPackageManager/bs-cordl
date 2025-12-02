@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsProcessableFile)
+namespace Org::BouncyCastle::Cms {
+class CmsProcessable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsReadable;
+}
 namespace System::IO {
 class FileInfo;
 }
@@ -23,7 +27,7 @@ class CmsProcessableFile;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsProcessableFile);
-// Dependencies Org.BouncyCastle.Cms.CmsProcessable, Org.BouncyCastle.Cms.CmsReadable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.CmsProcessableFile
@@ -42,17 +46,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsReadable*() noexcept;
 
-  /// @brief Method GetContent, addr 0x265ad9c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetContent, addr 0x358a2ac, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* GetContent();
 
-  /// @brief Method GetInputStream, addr 0x265ac88, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method GetInputStream, addr 0x358a174, size 0xa0, virtual true, abstract: false, final false
   inline ::System::IO::Stream* GetInputStream();
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file);
 
   static inline ::Org::BouncyCastle::Cms::CmsProcessableFile* New_ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
-  /// @brief Method Write, addr 0x265ad18, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x358a214, size 0x98, virtual true, abstract: false, final false
   inline void Write(::System::IO::Stream* zOut);
 
   constexpr int32_t const& __cordl_internal_get__bufSize() const;
@@ -67,10 +71,10 @@ public:
 
   constexpr void __cordl_internal_set__file(::System::IO::FileInfo* value);
 
-  /// @brief Method .ctor, addr 0x265ac28, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358a158, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file);
 
-  /// @brief Method .ctor, addr 0x265ac58, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358a168, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::FileInfo* file, int32_t bufSize);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsProcessable"

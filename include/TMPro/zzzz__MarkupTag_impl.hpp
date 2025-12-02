@@ -77,6 +77,14 @@ constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SCALE{ static_cast<int32_t>(0x5fe
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_SCALE{ static_cast<int32_t>(0x72f142b7) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ROTATE{ static_cast<int32_t>(0xc4651799) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_ROTATE{ static_cast<int32_t>(0xd26babf6) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::TABLE{ static_cast<int32_t>(0xd7fc39b) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_TABLE{ static_cast<int32_t>(0xc5a3d774) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::TH{ static_cast<int32_t>(0x597459) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_TH{ static_cast<int32_t>(0xb863a16) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::TR{ static_cast<int32_t>(0x597443) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_TR{ static_cast<int32_t>(0xb863a0c) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::TD{ static_cast<int32_t>(0x597455) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_TD{ static_cast<int32_t>(0xb863a1a) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::LOWERCASE{ static_cast<int32_t>(0xa62e8917) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SLASH_LOWERCASE{ static_cast<int32_t>(0xa97f2798) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ALLCAPS{ static_cast<int32_t>(0xd0298a0) };
@@ -96,6 +104,10 @@ constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ANIM{ static_cast<int32_t>(0x22d7
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::MATERIAL{ static_cast<int32_t>(0x313400cb) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::HREF{ static_cast<int32_t>(0x26afb9) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ANGLE{ static_cast<int32_t>(0x47db7c1) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::PADDING{ static_cast<int32_t>(0x802c7b71) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::FAMILYNAME{ static_cast<int32_t>(0x29fa0511) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::STYLENAME{ static_cast<int32_t>(0xb80d6430) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::DUOSPACE{ static_cast<int32_t>(0x22bcfb9a) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::RED{ static_cast<int32_t>(0x165f3) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::GREEN{ static_cast<int32_t>(0x53084fb) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::BLUE{ static_cast<int32_t>(0x257e7e) };
@@ -104,8 +116,12 @@ constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ORANGE{ static_cast<int32_t>(0xbd
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::BLACK{ static_cast<int32_t>(0x4d51a27) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::WHITE{ static_cast<int32_t>(0x64c8d87) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::PURPLE{ static_cast<int32_t>(0xb57b1fce) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::GREY{ static_cast<int32_t>(0x284209) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::LIGHTBLUE{ static_cast<int32_t>(0x145436c0) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::BR{ static_cast<int32_t>(0x8d0) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::CR{ static_cast<int32_t>(0x8f1) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ZWSP{ static_cast<int32_t>(0x322cae) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::ZWJ{ static_cast<int32_t>(0x18527) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::NBSP{ static_cast<int32_t>(0x2bc72f) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::SHY{ static_cast<int32_t>(0x16a02) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::LEFT{ static_cast<int32_t>(0x28989b) };
@@ -131,5 +147,7 @@ constexpr ::TMPro::MarkupTag TMPro::MarkupTag::MINUS_PERCENTAGE{ static_cast<int
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::TRUE{ static_cast<int32_t>(0x2cbd36) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::FALSE{ static_cast<int32_t>(0x51772dd) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::INVALID{ static_cast<int32_t>(0x5e7f8411) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::NOTDEF{ static_cast<int32_t>(0x247c9e5c) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::NORMAL{ static_cast<int32_t>(0xb97550f3) };
 constexpr ::TMPro::MarkupTag TMPro::MarkupTag::DEFAULT{ static_cast<int32_t>(0xdafcb04b) };
+constexpr ::TMPro::MarkupTag TMPro::MarkupTag::REGULAR{ static_cast<int32_t>(0x4cf8c63a) };

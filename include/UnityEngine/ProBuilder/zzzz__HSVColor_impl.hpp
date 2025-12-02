@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::HSVColor::*)(float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::HSVColor::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4705a8c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x649a890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::HSVColor::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::HSVColor::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4705ac8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x649a89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::HSVColor* (*)(::UnityEngine::Color)>(&::UnityEngine::ProBuilder::HSVColor::FromRGB)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4705b10;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x649a8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::HSVColor::*)()>(&::UnityEngine::ProBuilder::HSVColor::ToString)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4705d5c;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x649aafc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::HSVColor::*)(::UnityEngine::ProBuilder::HSVColor*)>(
     &::UnityEngine::ProBuilder::HSVColor::SqrDistance)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4705e20;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x649abd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -21,7 +21,7 @@ namespace BGNet::Core {
 class CORDL_TYPE DefaultTimeProvider : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_instance, addr 0x22ed5bc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x321d708, size 0x5c, virtual false, abstract: false, final false
   static inline ::BGNet::Core::ITimeProvider* get_instance();
 
 protected:
@@ -39,7 +39,7 @@ public:
   DefaultTimeProvider(DefaultTimeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15011 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18263 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

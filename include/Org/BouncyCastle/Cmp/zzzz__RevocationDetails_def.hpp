@@ -38,7 +38,7 @@ public:
 
   static inline ::Org::BouncyCastle::Cmp::RevocationDetails* New_ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method ToASN1Structure, addr 0x264ec6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ToASN1Structure, addr 0x357e21c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::RevDetails* ToASN1Structure();
 
   constexpr ::Org::BouncyCastle::Asn1::Cmp::RevDetails* const& __cordl_internal_get_revDetails() const;
@@ -47,16 +47,16 @@ public:
 
   constexpr void __cordl_internal_set_revDetails(::Org::BouncyCastle::Asn1::Cmp::RevDetails* value);
 
-  /// @brief Method .ctor, addr 0x264eba8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357e178, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::RevDetails* revDetails);
 
-  /// @brief Method get_Issuer, addr 0x264ec00, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Issuer, addr 0x357e1b0, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
 
-  /// @brief Method get_SerialNumber, addr 0x264ec30, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_SerialNumber, addr 0x357e1e0, size 0x3c, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
 
-  /// @brief Method get_Subject, addr 0x264ebd0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Subject, addr 0x357e180, size 0x30, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Subject();
 
 protected:

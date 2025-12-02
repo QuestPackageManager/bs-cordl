@@ -39,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::PolicyMappings* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x260d7a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x353d530, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence* const& __cordl_internal_get_seq() const;
@@ -48,13 +48,13 @@ public:
 
   constexpr void __cordl_internal_set_seq(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
 
-  /// @brief Method .ctor, addr 0x260d1c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353cf78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Hashtable* mappings);
 
-  /// @brief Method .ctor, addr 0x260d1cc, size 0x5dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353cf7c, size 0x5b4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IDictionary* mappings);
 
-  /// @brief Method .ctor, addr 0x260d1a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x353cf70, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -26,7 +26,7 @@ public:
                       put = __cordl_internal_set__whitelistPlatforms)) ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*>
       _whitelistPlatforms;
 
-  /// @brief Method Awake, addr 0x39bd4b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56375e0, size 0x108, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::DisableIfNotPlatform* New_ctor();
@@ -37,7 +37,7 @@ public:
 
   constexpr void __cordl_internal_set__whitelistPlatforms(::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> value);
 
-  /// @brief Method .ctor, addr 0x39bd588, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56376e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -55,7 +55,7 @@ public:
   DisableIfNotPlatform(DisableIfNotPlatform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22762 };
 
   /// @brief Field _whitelistPlatforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::RuntimePlatform, ::Array<::UnityEngine::RuntimePlatform>*> ____whitelistPlatforms;

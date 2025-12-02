@@ -72,10 +72,10 @@ public:
 
   static inline ::GlobalNamespace::BakedReflectionProbe* New_ctor();
 
-  /// @brief Method SendDataToShaders, addr 0x3b14b90, size 0x22c, virtual false, abstract: false, final false
+  /// @brief Method SendDataToShaders, addr 0x56f3c58, size 0x224, virtual false, abstract: false, final false
   inline void SendDataToShaders();
 
-  /// @brief Method Start, addr 0x3b14ad8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56f3b94, size 0xc4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Cubemap> const& __cordl_internal_get__blackCubemap() const;
@@ -114,7 +114,7 @@ public:
 
   constexpr void __cordl_internal_set__size(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b14dbc, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56f3e7c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__reflectionProbeBoundsMaxPropertyId();
@@ -127,16 +127,16 @@ public:
 
   static inline int32_t getStaticF__reflectionProbeTexture2PropertyId();
 
-  /// @brief Method get_downsampleByHalfCount, addr 0x3b14ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_downsampleByHalfCount, addr 0x56f3b8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_downsampleByHalfCount();
 
-  /// @brief Method get_position, addr 0x3b14aa8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x56f3b64, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_reflectionProbeData, addr 0x3b14a98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reflectionProbeData, addr 0x56f3b54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::ReflectionProbeDataSO> get_reflectionProbeData();
 
-  /// @brief Method get_resolutionBeforeDownsample, addr 0x3b14ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_resolutionBeforeDownsample, addr 0x56f3b84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_resolutionBeforeDownsample();
 
   static inline void setStaticF__reflectionProbeBoundsMaxPropertyId(int32_t value);
@@ -149,7 +149,7 @@ public:
 
   static inline void setStaticF__reflectionProbeTexture2PropertyId(int32_t value);
 
-  /// @brief Method set_reflectionProbeData, addr 0x3b14aa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_reflectionProbeData, addr 0x56f3b5c, size 0x8, virtual false, abstract: false, final false
   inline void set_reflectionProbeData(::GlobalNamespace::ReflectionProbeDataSO* value);
 
 protected:
@@ -167,7 +167,7 @@ public:
   BakedReflectionProbe(BakedReflectionProbe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5052 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6619 };
 
   /// @brief Field _resolutionBeforeDownsample, offset: 0x20, size: 0x4, def value: None
   int32_t ____resolutionBeforeDownsample;

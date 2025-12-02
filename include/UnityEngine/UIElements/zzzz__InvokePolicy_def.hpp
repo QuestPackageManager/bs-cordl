@@ -25,6 +25,7 @@ public:
   enum struct __InvokePolicy_Unwrapped : int32_t {
     __E_Default = static_cast<int32_t>(0x0),
     __E_IncludeDisabled = static_cast<int32_t>(0x1),
+    __E_Once = static_cast<int32_t>(0x2),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -50,8 +51,11 @@ public:
   /// @brief Field IncludeDisabled value: I32(1)
   static ::UnityEngine::UIElements::InvokePolicy const IncludeDisabled;
 
+  /// @brief Field Once value: I32(2)
+  static ::UnityEngine::UIElements::InvokePolicy const Once;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4457 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -78,18 +78,18 @@ public:
   /// @brief Method AnimateNewLeaderSelected, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void AnimateNewLeaderSelected(bool isLeading);
 
-  /// @brief Method HandleNewLeaderWasSelected, addr 0x3bd4598, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method HandleNewLeaderWasSelected, addr 0x57c6174, size 0xf4, virtual false, abstract: false, final false
   inline void HandleNewLeaderWasSelected(::StringW userId);
 
-  /// @brief Method HandleStateChanged, addr 0x3bd438c, size 0x15c, virtual true, abstract: false, final false
+  /// @brief Method HandleStateChanged, addr 0x57c5f64, size 0x150, virtual true, abstract: false, final false
   inline void HandleStateChanged(::GlobalNamespace::MultiplayerController_State state);
 
   static inline ::GlobalNamespace::MultiplayerGameplayAnimator* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bd4158, size 0x184, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57c5cd4, size 0x1d0, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bd40c8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x57c5c04, size 0xd0, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::ColorSO> const& __cordl_internal_get__activeLightsColor() const;
@@ -152,7 +152,7 @@ public:
 
   constexpr void __cordl_internal_set_tweeningManager(::UnityW<::Tweening::TimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3bd4680, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57c6268, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -170,7 +170,7 @@ public:
   MultiplayerGameplayAnimator(MultiplayerGameplayAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4570 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6150 };
 
   /// @brief Field _activeLightsColor, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSO> ____activeLightsColor;

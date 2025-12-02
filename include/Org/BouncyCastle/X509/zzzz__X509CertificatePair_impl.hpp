@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::X509CertificatePair::*)(
     ::Org::BouncyCastle::X509::X509Certificate*, ::Org::BouncyCastle::X509::X509Certificate*)>(&::Org::BouncyCastle::X509::X509CertificatePair::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x25f3ee0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3523bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::X509CertificatePair::*)(::Org::BouncyCastle::Asn1::X509::CertificatePair*)>(
     &::Org::BouncyCastle::X509::X509CertificatePair::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x25f3f0c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3523bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(
     &::Org::BouncyCastle::X509::X509CertificatePair::GetEncoded)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x25f3fac;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x3523c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509CertificatePair*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(
     &::Org::BouncyCastle::X509::X509CertificatePair::get_Forward)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f4200;
+  constexpr static std::size_t addrs = 0x3523ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509CertificatePair*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::X509::X509Certificate* (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(
     &::Org::BouncyCastle::X509::X509CertificatePair::get_Reverse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25f4208;
+  constexpr static std::size_t addrs = 0x3523ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::X509::X509CertificatePair*>::get(),
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::X509::X509CertificatePair::*)(::System::Object*)>(
     &::Org::BouncyCastle::X509::X509CertificatePair::Equals)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x25f4210;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x3523ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -100,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::X509::X509CertificatePair::*)()>(
     &::Org::BouncyCastle::X509::X509CertificatePair::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x25f42d0;
+  constexpr static std::size_t addrs = 0x3523ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 

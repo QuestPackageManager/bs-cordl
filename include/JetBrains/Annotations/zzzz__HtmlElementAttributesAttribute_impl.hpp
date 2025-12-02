@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3650;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c095ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::HtmlElementAttributesAttribute*>::get(),
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4af3658;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c095f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)()>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3680;
+  constexpr static std::size_t addrs = 0x6c095f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::HtmlElementAttributesAttribute*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::HtmlElementAttributesAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::HtmlElementAttributesAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3688;
+  constexpr static std::size_t addrs = 0x6c09600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

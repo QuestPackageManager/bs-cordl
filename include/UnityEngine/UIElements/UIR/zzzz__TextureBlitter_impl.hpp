@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/TextureBlitter.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -9,6 +8,7 @@
 #include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__TextureBlitter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49af7a0;
+  constexpr static std::size_t addrs = 0x6abdd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureBlitter*>::get(),
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(bool)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49af7a8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6abdd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49af7b4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6abdd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureBlitter*>::get(),
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(bool)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::Dispose)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49af820;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6abddb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x49af9c8;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6abdf74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(
     ::UnityEngine::Texture*, ::UnityEngine::RectInt, ::UnityEngine::Vector2Int, bool, ::UnityEngine::Color)>(&::UnityEngine::UIElements::UIR::TextureBlitter::QueueBlit)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x49afa7c;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x6abe024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -129,7 +129,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::RenderTexture*, ::UnityEngine::Texture*, ::UnityEngine::RectInt, ::UnityEngine::Vector2Int, bool, ::UnityEngine::Color)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::BlitOneNow)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49afbc8;
+  constexpr static std::size_t addrs = 0x6abe180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::Commit)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x49b0454;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6abeba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,8 +161,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(::UnityEngine::RenderTexture*)>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::BeginBlit)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x49afc40;
+  constexpr static std::size_t size = 0x254;
+  constexpr static std::size_t addrs = 0x6abe1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)(
     ::System::Collections::Generic::IList_1<::UnityEngine::UIElements::UIR::TextureBlitter_BlitInfo>*, int32_t)>(&::UnityEngine::UIElements::UIR::TextureBlitter::DoBlit)> {
-  constexpr static std::size_t size = 0x5a0;
-  constexpr static std::size_t addrs = 0x49afe38;
+  constexpr static std::size_t size = 0x6dc;
+  constexpr static std::size_t addrs = 0x6abe44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::TextureBlitter::*)()>(
     &::UnityEngine::UIElements::UIR::TextureBlitter::EndBlit)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x49b03d8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6abeb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::TextureBlitter*>::get(),

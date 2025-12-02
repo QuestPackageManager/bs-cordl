@@ -11,6 +11,7 @@
 #include "System/Threading/Tasks/zzzz__TaskFactory_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
+#include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
@@ -18,6 +19,7 @@
 #include "System/zzzz__Func_3_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
 #include "System/zzzz__Func_5_def.hpp"
+#include "System/zzzz__Func_6_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TResult, typename TInstance> constexpr TInstance& System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::__cordl_internal_get_m_thisRef() {
@@ -95,6 +97,105 @@ System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstanc
 }
 // Ctor Parameters []
 template <typename TResult, typename TInstance> constexpr ::System::Threading::Tasks::TaskFactory_1_FromAsyncTrimPromise_1<TResult, TInstance>::TaskFactory_1_FromAsyncTrimPromise_1() {}
+template <typename TResult> constexpr ::System::IAsyncResult*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_asyncResult() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___asyncResult;
+}
+template <typename TResult> constexpr ::System::IAsyncResult* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_asyncResult() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___asyncResult;
+}
+template <typename TResult> constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_set_asyncResult(::System::IAsyncResult* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___asyncResult, value);
+}
+template <typename TResult> constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_endFunction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endFunction;
+}
+template <typename TResult>
+constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_endFunction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endFunction;
+}
+template <typename TResult>
+constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___endFunction, value);
+}
+template <typename TResult> constexpr ::System::Action_1<::System::IAsyncResult*>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_endAction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endAction;
+}
+template <typename TResult>
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_endAction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endAction;
+}
+template <typename TResult> constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___endAction, value);
+}
+template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_promise() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___promise;
+}
+template <typename TResult> constexpr ::System::Threading::Tasks::Task_1<TResult>* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_promise() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___promise;
+}
+template <typename TResult> constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___promise, value);
+}
+template <typename TResult> constexpr ::System::Threading::Tasks::Task*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_t() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___t;
+}
+template <typename TResult> constexpr ::System::Threading::Tasks::Task* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_t() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___t;
+}
+template <typename TResult> constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_set_t(::System::Threading::Tasks::Task* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___t, value);
+}
+template <typename TResult> constexpr ::System::Threading::Tasks::TaskScheduler*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_scheduler() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scheduler;
+}
+template <typename TResult> constexpr ::System::Threading::Tasks::TaskScheduler* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_get_scheduler() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___scheduler;
+}
+template <typename TResult> constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::__cordl_internal_set_scheduler(::System::Threading::Tasks::TaskScheduler* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___scheduler, value);
+}
+template <typename TResult> inline void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TResult> inline void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::_FromAsyncImpl_b__0(::System::Object* _p0_) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>*>::get(), "<FromAsyncImpl>b__0",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _p0_);
+}
+template <typename TResult> inline void System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::_FromAsyncImpl_b__1(::System::Object* _p0_, bool _p1_) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>*>::get(), "<FromAsyncImpl>b__1",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _p0_, _p1_);
+}
+template <typename TResult> inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>* System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>*>());
+}
+// Ctor Parameters []
+template <typename TResult> constexpr ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass32_0<TResult>::TaskFactory_1___c__DisplayClass32_0() {}
 template <typename TResult> constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass35_0<TResult>::__cordl_internal_get_endFunction() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___endFunction;
@@ -279,6 +380,74 @@ inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass41_0_2<TResult
 // Ctor Parameters []
 template <typename TResult, typename TArg1, typename TArg2>
 constexpr ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass41_0_2<TResult, TArg1, TArg2>::TaskFactory_1___c__DisplayClass41_0_2() {}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Func_2<::System::IAsyncResult*, TResult>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_get_endFunction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endFunction;
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Func_2<::System::IAsyncResult*, TResult>* const&
+System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_get_endFunction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endFunction;
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr void
+System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_set_endFunction(::System::Func_2<::System::IAsyncResult*, TResult>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___endFunction, value);
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Action_1<::System::IAsyncResult*>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_get_endAction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endAction;
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Action_1<::System::IAsyncResult*>* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_get_endAction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___endAction;
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_set_endAction(::System::Action_1<::System::IAsyncResult*>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___endAction, value);
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Threading::Tasks::Task_1<TResult>*& System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_get_promise() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___promise;
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Threading::Tasks::Task_1<TResult>* const& System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_get_promise() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___promise;
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr void System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::__cordl_internal_set_promise(::System::Threading::Tasks::Task_1<TResult>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___promise, value);
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3> inline void System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>*>::get(),
+                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+inline void System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::_FromAsyncImpl_b__0(::System::IAsyncResult* iar) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>*>::get(), "<FromAsyncImpl>b__0",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, iar);
+}
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+inline ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>*
+System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>*>());
+}
+// Ctor Parameters []
+template <typename TResult, typename TArg1, typename TArg2, typename TArg3>
+constexpr ::System::Threading::Tasks::TaskFactory_1___c__DisplayClass44_0_3<TResult, TArg1, TArg2, TArg3>::TaskFactory_1___c__DisplayClass44_0_3() {}
 template <typename TResult> constexpr ::System::Threading::CancellationToken& System::Threading::Tasks::TaskFactory_1<TResult>::__cordl_internal_get_m_defaultCancellationToken() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_defaultCancellationToken;
@@ -373,6 +542,20 @@ inline void System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncCoreLogic
 }
 template <typename TResult>
 inline ::System::Threading::Tasks::Task_1<TResult>*
+System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncImpl(::System::IAsyncResult* asyncResult, ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction,
+                                                                ::System::Action_1<::System::IAsyncResult*>* endAction, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
+                                                                ::System::Threading::Tasks::TaskScheduler* scheduler) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1<TResult>*>::get(), "FromAsyncImpl", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IAsyncResult*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::IAsyncResult*, TResult>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::System::IAsyncResult*>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCreationOptions>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskScheduler*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(nullptr, ___internal_method, asyncResult, endFunction, endAction, creationOptions, scheduler);
+}
+template <typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>*
 System::Threading::Tasks::TaskFactory_1<TResult>::FromAsync(::System::Func_3<::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
                                                             ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, ::System::Object* state) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -448,6 +631,50 @@ System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncImpl(::System::Func_5
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg1>::get(),
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg2>::get() }));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(nullptr, ___internal_method, beginMethod, endFunction, endAction, arg1, arg2, state, creationOptions);
+}
+template <typename TResult>
+template <typename TArg1, typename TArg2, typename TArg3>
+inline ::System::Threading::Tasks::Task_1<TResult>*
+System::Threading::Tasks::TaskFactory_1<TResult>::FromAsync(::System::Func_6<TArg1, TArg2, TArg3, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
+                                                            ::System::Func_2<::System::IAsyncResult*, TResult>* endMethod, TArg1 arg1, TArg2 arg2, TArg3 arg3, ::System::Object* state) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1<TResult>*>::get(), "FromAsync",
+      std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg3>::get() },
+      ::std::array<Il2CppType const*, 6>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_6<TArg1, TArg2, TArg3, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::IAsyncResult*, TResult>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg1>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg3>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg1>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg2>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg3>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(this, ___internal_method, beginMethod, endMethod, arg1, arg2, arg3, state);
+}
+template <typename TResult>
+template <typename TArg1, typename TArg2, typename TArg3>
+inline ::System::Threading::Tasks::Task_1<TResult>*
+System::Threading::Tasks::TaskFactory_1<TResult>::FromAsyncImpl(::System::Func_6<TArg1, TArg2, TArg3, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
+                                                                ::System::Func_2<::System::IAsyncResult*, TResult>* endFunction, ::System::Action_1<::System::IAsyncResult*>* endAction, TArg1 arg1,
+                                                                TArg2 arg2, TArg3 arg3, ::System::Object* state, ::System::Threading::Tasks::TaskCreationOptions creationOptions) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskFactory_1<TResult>*>::get(), "FromAsyncImpl",
+      std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg3>::get() },
+      ::std::array<Il2CppType const*, 8>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_6<TArg1, TArg2, TArg3, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::System::IAsyncResult*, TResult>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::System::IAsyncResult*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg1>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TArg3>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::Tasks::TaskCreationOptions>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg1>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg2>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TArg3>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<TResult>*, false>(nullptr, ___internal_method, beginMethod, endFunction, endAction, arg1, arg2, arg3, state,
+                                                                                                  creationOptions);
 }
 template <typename TResult>
 template <typename TInstance, typename TArgs>

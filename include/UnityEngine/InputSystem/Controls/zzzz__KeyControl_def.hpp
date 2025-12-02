@@ -23,19 +23,19 @@ namespace UnityEngine::InputSystem::Controls {
 class CORDL_TYPE KeyControl : public ::UnityEngine::InputSystem::Controls::ButtonControl {
 public:
   // Declarations
-  /// @brief Field <keyCode>k__BackingField, offset 0x130, size 0x4
+  /// @brief Field <keyCode>k__BackingField, offset 0x140, size 0x4
   __declspec(property(get = __cordl_internal_get__keyCode_k__BackingField, put = __cordl_internal_set__keyCode_k__BackingField)) ::UnityEngine::InputSystem::Key _keyCode_k__BackingField;
 
   __declspec(property(get = get_keyCode, put = set_keyCode)) ::UnityEngine::InputSystem::Key keyCode;
 
-  /// @brief Field m_ScanCode, offset 0x134, size 0x4
+  /// @brief Field m_ScanCode, offset 0x144, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ScanCode, put = __cordl_internal_set_m_ScanCode)) int32_t m_ScanCode;
 
   __declspec(property(get = get_scanCode)) int32_t scanCode;
 
   static inline ::UnityEngine::InputSystem::Controls::KeyControl* New_ctor();
 
-  /// @brief Method RefreshConfiguration, addr 0x4562f94, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method RefreshConfiguration, addr 0x62dde2c, size 0x180, virtual true, abstract: false, final false
   inline void RefreshConfiguration();
 
   constexpr ::UnityEngine::InputSystem::Key const& __cordl_internal_get__keyCode_k__BackingField() const;
@@ -50,16 +50,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ScanCode(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4563104, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62ddfac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_keyCode, addr 0x4562f68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x62ddde0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Key get_keyCode();
 
-  /// @brief Method get_scanCode, addr 0x4562f78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_scanCode, addr 0x62dddf0, size 0x3c, virtual false, abstract: false, final false
   inline int32_t get_scanCode();
 
-  /// @brief Method set_keyCode, addr 0x4562f70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_keyCode, addr 0x62ddde8, size 0x8, virtual false, abstract: false, final false
   inline void set_keyCode(::UnityEngine::InputSystem::Key value);
 
 protected:
@@ -77,22 +77,22 @@ public:
   KeyControl(KeyControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9106 };
 
-  /// @brief Field <keyCode>k__BackingField, offset: 0x130, size: 0x4, def value: None
+  /// @brief Field <keyCode>k__BackingField, offset: 0x140, size: 0x4, def value: None
   ::UnityEngine::InputSystem::Key ____keyCode_k__BackingField;
 
-  /// @brief Field m_ScanCode, offset: 0x134, size: 0x4, def value: None
+  /// @brief Field m_ScanCode, offset: 0x144, size: 0x4, def value: None
   int32_t ___m_ScanCode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::KeyControl, ____keyCode_k__BackingField) == 0x130, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::KeyControl, ____keyCode_k__BackingField) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Controls::KeyControl, ___m_ScanCode) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Controls::KeyControl, ___m_ScanCode) == 0x144, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::KeyControl, 0x138>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::KeyControl, 0x148>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::KeyControl);

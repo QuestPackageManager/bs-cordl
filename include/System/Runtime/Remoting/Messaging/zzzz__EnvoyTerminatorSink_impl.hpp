@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/EnvoyTerminatorSink.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__EnvoyTerminatorSink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
@@ -12,8 +11,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Messaging::IMessage* (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(
         &::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::SyncProcessMessage)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3cecb60;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x592eca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +27,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageCtrl* (
     ::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::AsyncProcessMessage)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3cecc14;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x592ed68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::*)()>(
     &::System::Runtime::Remoting::Messaging::EnvoyTerminatorSink::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ceccd4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x592ee44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

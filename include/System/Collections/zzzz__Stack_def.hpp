@@ -3,13 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Stack)
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -21,6 +23,9 @@ class Stack_StackEnumerator;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
@@ -39,7 +44,7 @@ class Stack_StackEnumerator;
 MARK_REF_PTR_T(::System::Collections::Stack);
 MARK_REF_PTR_T(::System::Collections::Stack_StackDebugView);
 MARK_REF_PTR_T(::System::Collections::Stack_StackEnumerator);
-// Dependencies System.Collections.IEnumerator, System.ICloneable, System.Object
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
 // CS Name: System.Collections.Stack/StackEnumerator
@@ -66,15 +71,15 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3dc0008, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x59d3b30, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method MoveNext, addr 0x3dc0010, size 0x108, virtual true, abstract: false, final false
+  /// @brief Method MoveNext, addr 0x59d3b34, size 0xe0, virtual true, abstract: false, final false
   inline bool MoveNext();
 
   static inline ::System::Collections::Stack_StackEnumerator* New_ctor(::System::Collections::Stack* stack);
 
-  /// @brief Method Reset, addr 0x3dc01a4, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x59d3ca0, size 0x7c, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Object* const& __cordl_internal_get__currentElement() const;
@@ -101,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dbfdac, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d38ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Stack* stack);
 
-  /// @brief Method get_Current, addr 0x3dc0118, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method get_Current, addr 0x59d3c14, size 0x8c, virtual true, abstract: false, final false
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -128,7 +133,7 @@ public:
   Stack_StackEnumerator(Stack_StackEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3716 };
 
   /// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Stack* ____stack;
@@ -178,7 +183,7 @@ public:
   Stack_StackDebugView(Stack_StackDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3792 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3717 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -186,7 +191,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Collections::Stack_StackDebugView, 0x10>, "Size mismatch!");
 
 } // namespace System::Collections
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.ICloneable, System.Object
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
 // CS Name: System.Collections.Stack
@@ -224,29 +229,29 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clear, addr 0x3dbf9ec, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x59d351c, size 0x30, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Clone, addr 0x3dbfa1c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x59d354c, size 0x90, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method CopyTo, addr 0x3dbfaac, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method CopyTo, addr 0x59d35dc, size 0x2a8, virtual true, abstract: false, final false
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x3dbfd54, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x59d3884, size 0x68, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::Stack* New_ctor();
 
   static inline ::System::Collections::Stack* New_ctor(int32_t initialCapacity);
 
-  /// @brief Method Peek, addr 0x3dbfdec, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Peek, addr 0x59d3910, size 0x84, virtual true, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method Pop, addr 0x3dbfe70, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Pop, addr 0x59d3994, size 0x94, virtual true, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x3dbff04, size 0x104, virtual true, abstract: false, final false
+  /// @brief Method Push, addr 0x59d3a28, size 0x108, virtual true, abstract: false, final false
   inline void Push(::System::Object* obj);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__array() const;
@@ -273,19 +278,19 @@ public:
 
   constexpr void __cordl_internal_set__version(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3dbf848, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d3384, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dbf8a4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d33d8, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialCapacity);
 
-  /// @brief Method get_Count, addr 0x3dbf96c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x59d34a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3dbf974, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSynchronized, addr 0x59d34a8, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3dbf97c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_SyncRoot, addr 0x59d34b0, size 0x6c, virtual true, abstract: false, final false
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -312,10 +317,7 @@ public:
   Stack(Stack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3793 };
-
-  /// @brief Field _defaultCapacity offset 0xffffffff size 0x4
-  static constexpr int32_t _defaultCapacity{ static_cast<int32_t>(0xa) };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3718 };
 
   /// @brief Field _array, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____array;

@@ -3,9 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/Field/zzzz__IExtensionField_def.hpp"
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 CORDL_MODULE_EXPORT(IPolynomialExtensionField)
+namespace Org::BouncyCastle::Math::Field {
+class IExtensionField;
+}
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
+}
 namespace Org::BouncyCastle::Math::Field {
 class IPolynomial;
 }
@@ -15,7 +19,7 @@ class IPolynomialExtensionField;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::IPolynomialExtensionField);
-// Dependencies Org.BouncyCastle.Math.Field.IExtensionField, Org.BouncyCastle.Math.Field.IFiniteField
+// Dependencies
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.Field.IPolynomialExtensionField

@@ -12,6 +12,9 @@ namespace System {
 class Attribute;
 }
 namespace System {
+class Object;
+}
+namespace System {
 class Type;
 }
 // Forward declare root types
@@ -36,6 +39,12 @@ public:
   /// @brief Method GetCustomAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* GetCustomAttributes();
 
+  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Object* GetValue(::System::Object* obj);
+
+  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetValue(::System::Object* obj, ::System::Object* value);
+
   /// @brief Method get_IsReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsReadOnly();
 
@@ -50,7 +59,7 @@ public:
   IMemberInfo(IMemberInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17455 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19322 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

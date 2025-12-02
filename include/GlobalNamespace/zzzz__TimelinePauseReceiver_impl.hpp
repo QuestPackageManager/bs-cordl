@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TimelinePauseReceiver.hpp"
-#include "UnityEngine/Playables/zzzz__INotificationReceiver_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseReceiver_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotificationReceiver_def.hpp"
 #include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseReceiver.add_timelinePauseEvent
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::System::Action*)>(
     &::GlobalNamespace::TimelinePauseReceiver::add_timelinePauseEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39c4da4;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x563fb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(::System::Action*)>(
     &::GlobalNamespace::TimelinePauseReceiver::remove_timelinePauseEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x39c4e40;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x563fbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::INotification*, ::System::Object*)>(&::GlobalNamespace::TimelinePauseReceiver::OnNotify)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39c4edc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x563fc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseReceiver::*)()>(&::GlobalNamespace::TimelinePauseReceiver::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4f70;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563fd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseReceiver*>::get(), ".ctor",

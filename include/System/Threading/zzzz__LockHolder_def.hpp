@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(LockHolder)
 namespace System::Threading {
 class Lock;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -15,7 +17,7 @@ struct LockHolder;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::LockHolder);
-// Dependencies System.IDisposable
+// Dependencies
 namespace System::Threading {
 // Is value type: true
 // CS Name: System.Threading.LockHolder
@@ -25,10 +27,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x3e517f8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5a96c40, size 0x18, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Hold, addr 0x3e517cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hold, addr 0x5a96c14, size 0x24, virtual false, abstract: false, final false
   static inline ::System::Threading::LockHolder Hold(::System::Threading::Lock* l);
 
   /// @brief Convert to "::System::IDisposable"
@@ -42,7 +44,7 @@ public:
   constexpr LockHolder(::System::Threading::Lock* _lock) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2707 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

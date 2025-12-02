@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnableEmmisionOnVisible::*)()>(&::GlobalNamespace::EnableEmmisionOnVisible::Awake)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x39c1cdc;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x563c6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnableEmmisionOnVisible*>::get(), "Awake",
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnableEmmisionOnVisible::*)()>(
     &::GlobalNamespace::EnableEmmisionOnVisible::OnBecameVisible)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39c1dc4;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x563c7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnableEmmisionOnVisible*>::get(),
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnableEmmisionOnVisible::*)()>(
     &::GlobalNamespace::EnableEmmisionOnVisible::OnBecameInvisible)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39c1e38;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x563c85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnableEmmisionOnVisible*>::get(),
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnableEmmisionOnVisible::*)()>(&::GlobalNamespace::EnableEmmisionOnVisible::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c1eac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563c904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnableEmmisionOnVisible*>::get(), ".ctor",

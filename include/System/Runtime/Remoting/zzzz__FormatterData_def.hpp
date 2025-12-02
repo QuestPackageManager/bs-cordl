@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Runtime::Remoting::FormatterData* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ccf448, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591296c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   FormatterData(FormatterData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3067 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

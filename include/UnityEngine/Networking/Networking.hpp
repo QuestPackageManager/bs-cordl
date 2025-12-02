@@ -9,6 +9,8 @@ module;
 #include "UnityEngine/Networking/DownloadHandlerAudioClip.hpp"
 #include "UnityEngine/Networking/DownloadHandlerBuffer.hpp"
 #include "UnityEngine/Networking/DownloadHandlerTexture.hpp"
+#include "UnityEngine/Networking/DownloadedTextureFlags.hpp"
+#include "UnityEngine/Networking/DownloadedTextureParams.hpp"
 #include "UnityEngine/Networking/UnityWebRequest.hpp"
 #include "UnityEngine/Networking/UnityWebRequestAssetBundle.hpp"
 #include "UnityEngine/Networking/UnityWebRequestAsyncOperation.hpp"

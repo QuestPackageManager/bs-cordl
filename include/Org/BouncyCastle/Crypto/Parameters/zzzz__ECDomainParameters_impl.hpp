@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(
     ::Org::BouncyCastle::Asn1::X9::X9ECParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x23bb498;
+  constexpr static std::size_t addrs = 0x32e9630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23bb61c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x32e97b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bb6a8;
+  constexpr static std::size_t addrs = 0x32e9848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,8 +64,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(
     ::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECPoint*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*,
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::_ctor)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x23bb4e0;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x32e9678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_Curve)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bb7d4;
+  constexpr static std::size_t addrs = 0x32e997c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_G)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bb7dc;
+  constexpr static std::size_t addrs = 0x32e9984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_N)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bb7e4;
+  constexpr static std::size_t addrs = 0x32e998c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_H)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bb7ec;
+  constexpr static std::size_t addrs = 0x32e9994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::get_HInv)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23bb7f4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x32e999c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::GetSeed)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23bb8b8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x32e9a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::Equals)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23bb914;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x32e9abc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(
     ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*)>(&::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::Equals)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x23bb9b8;
+  constexpr static std::size_t addrs = 0x32e9b70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::GetHashCode)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x23bba40;
+  constexpr static std::size_t addrs = 0x32e9bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePrivateScalar)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x23bbabc;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x32e9c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePublicPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bbbec;
+  constexpr static std::size_t addrs = 0x32e9db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,8 +252,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::ECPoint*)>(
         &::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters::ValidatePublicPoint)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x23bb6b0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x32e9850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

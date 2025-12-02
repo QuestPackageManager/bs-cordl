@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::DurationFacetsChecker::*)(::System::Object*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DurationFacetsChecker::CheckValueFacets)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x43b8e0c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5fb681c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Xml::Schema::DurationFacetsChecker::*)(::System::TimeSpan, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DurationFacetsChecker::CheckValueFacets)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x43b8f20;
+  constexpr static std::size_t size = 0x308;
+  constexpr static std::size_t addrs = 0x5fb6924;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DurationFacetsChecker::*)(
     ::System::Object*, ::System::Collections::ArrayList*, ::System::Xml::Schema::XmlSchemaDatatype*)>(&::System::Xml::Schema::DurationFacetsChecker::MatchEnumeration)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43b9398;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5fb6d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::DurationFacetsChecker::*)(::System::TimeSpan, ::System::Collections::ArrayList*)>(
     &::System::Xml::Schema::DurationFacetsChecker::MatchEnumeration)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x43b9280;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5fb6c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::DurationFacetsChecker::*)()>(&::System::Xml::Schema::DurationFacetsChecker::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43a4e88;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5fa3100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::DurationFacetsChecker*>::get(), ".ctor",

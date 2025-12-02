@@ -9,6 +9,9 @@ CORDL_MODULE_EXPORT(XRDevice)
 namespace System {
 template <typename T> class Action_1;
 }
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::XR {
 struct TrackingSpaceType;
 }
@@ -31,13 +34,16 @@ public:
   /// @brief Field deviceLoaded, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_deviceLoaded, put = setStaticF_deviceLoaded)) ::System::Action_1<::StringW>* deviceLoaded;
 
-  /// @brief Method DisableAutoXRCameraTracking, addr 0x4aea694, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking, addr 0x6bfef9c, size 0xb4, virtual false, abstract: false, final false
   static inline void DisableAutoXRCameraTracking(::UnityEngine::Camera* camera, bool disabled);
 
-  /// @brief Method InvokeDeviceLoaded, addr 0x4aea6d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method DisableAutoXRCameraTracking_Injected, addr 0x6bff050, size 0x44, virtual false, abstract: false, final false
+  static inline void DisableAutoXRCameraTracking_Injected(::System::IntPtr camera, bool disabled);
+
+  /// @brief Method InvokeDeviceLoaded, addr 0x6bff094, size 0x70, virtual false, abstract: false, final false
   static inline void InvokeDeviceLoaded(::StringW loadedDeviceName);
 
-  /// @brief Method SetTrackingSpaceType, addr 0x4aea658, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetTrackingSpaceType, addr 0x6bfef60, size 0x3c, virtual false, abstract: false, final false
   static inline bool SetTrackingSpaceType(::UnityEngine::XR::TrackingSpaceType trackingSpaceType);
 
   static inline ::System::Action_1<::StringW>* getStaticF_deviceLoaded();
@@ -59,7 +65,7 @@ public:
   XRDevice(XRDevice const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22816 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlNodeList.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNodeList_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlNodeList.Item
 template <>
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlNodeList::*)(int32_t)>(&::System::Xml::XmlNodeList::get_ItemOf)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43456e8;
+  constexpr static std::size_t addrs = 0x60ac120;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43456f4;
+  constexpr static std::size_t addrs = 0x60ac12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), "System.IDisposable.Dispose",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::PrivateDisposeNodeList)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4345700;
+  constexpr static std::size_t addrs = 0x60ac138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNodeList::*)()>(&::System::Xml::XmlNodeList::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4345704;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x609e360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNodeList*>::get(), ".ctor",

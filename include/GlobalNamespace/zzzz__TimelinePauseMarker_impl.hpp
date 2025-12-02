@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TimelinePauseMarker.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__TimelinePauseMarker_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TimelinePauseMarker.get_id
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (::GlobalNamespace::TimelinePauseMarker::*)()>(
     &::GlobalNamespace::TimelinePauseMarker::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4d94;
+  constexpr static std::size_t addrs = 0x563fb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(), "get_id",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimelinePauseMarker::*)()>(&::GlobalNamespace::TimelinePauseMarker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4d9c;
+  constexpr static std::size_t addrs = 0x563fb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimelinePauseMarker*>::get(), ".ctor",

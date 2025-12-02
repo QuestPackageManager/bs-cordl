@@ -5,13 +5,14 @@
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentSpawnRotation.get_targetRotation
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(
     &::GlobalNamespace::EnvironmentSpawnRotation::get_targetRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9bc1c;
+  constexpr static std::size_t addrs = 0x578a468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(),
@@ -23,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::OnEnable)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b9bc24;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x578a470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "OnEnable",
@@ -36,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::OnDisable)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b9bc84;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x578a4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "OnDisable",
@@ -49,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::Start)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3b9bce4;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x578a538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "Start",
@@ -63,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b9be44;
+  constexpr static std::size_t addrs = 0x578a6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), "OnDestroy",
@@ -76,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::EnvironmentSpawnRotation::HandleSpawnRotationBeatmapEvent)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3b9be60;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x578a6e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::FixedUpdate)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b9bf60;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x578a7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(),
@@ -103,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::LateUpdate)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3b9bfec;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x578a850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(),
@@ -116,8 +117,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentSpawnRotation::*)()>(&::GlobalNamespace::EnvironmentSpawnRotation::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9c10c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x578a95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentSpawnRotation*>::get(), ".ctor",
@@ -160,6 +161,18 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace:
 constexpr void GlobalNamespace::EnvironmentSpawnRotation::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::EnvironmentSpawnRotation::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::EnvironmentSpawnRotation::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::EnvironmentSpawnRotation::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::EnvironmentSpawnRotation::__cordl_internal_get__beatmapDataCallbackWrapper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

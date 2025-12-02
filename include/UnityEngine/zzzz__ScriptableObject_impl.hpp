@@ -2,13 +2,14 @@
 // IWYU pragma private; include "UnityEngine/ScriptableObject.hpp"
 #include "UnityEngine/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ScriptableObject._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ScriptableObject::*)()>(&::UnityEngine::ScriptableObject::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x48ae8d0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x68b2638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), ".ctor",
@@ -20,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)(::System::Type*)>(&::UnityEngine::ScriptableObject::CreateInstance)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48ae98c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68b26ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ScriptableObject*)>(&::UnityEngine::ScriptableObject::CreateScriptableObject)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48ae950;
+  constexpr static std::size_t addrs = 0x68b26b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,12 +50,27 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ScriptableObject> (*)(::System::Type*, bool)>(
     &::UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48ae9cc;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x68b26f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), "CreateScriptableObjectInstanceFromType", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ScriptableObject.CreateScriptableObjectInstanceFromType_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Type*, bool)>(
+    &::UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x68b281c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), "CreateScriptableObjectInstanceFromType_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -89,6 +105,12 @@ inline ::UnityW<::UnityEngine::ScriptableObject> UnityEngine::ScriptableObject::
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), "CreateScriptableObjectInstanceFromType", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::ScriptableObject>, false>(nullptr, ___internal_method, type, applyDefaultsAndReset);
+}
+inline ::System::IntPtr UnityEngine::ScriptableObject::CreateScriptableObjectInstanceFromType_Injected(::System::Type* type, bool applyDefaultsAndReset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ScriptableObject*>::get(), "CreateScriptableObjectInstanceFromType_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, type, applyDefaultsAndReset);
 }
 inline ::UnityEngine::ScriptableObject* UnityEngine::ScriptableObject::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ScriptableObject*>());

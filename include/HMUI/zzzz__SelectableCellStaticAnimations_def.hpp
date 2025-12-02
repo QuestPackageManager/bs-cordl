@@ -46,24 +46,24 @@ public:
   /// @brief Field _selectedAnimationClip, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__selectedAnimationClip, put = __cordl_internal_set__selectedAnimationClip)) ::UnityW<::UnityEngine::AnimationClip> _selectedAnimationClip;
 
-  /// @brief Method Awake, addr 0x39fcbd8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5675fdc, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleHighlightDidChange, addr 0x39fce0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleHighlightDidChange, addr 0x5676234, size 0x4, virtual false, abstract: false, final false
   inline void HandleHighlightDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType);
 
-  /// @brief Method HandleSelectionDidChange, addr 0x39fce08, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleSelectionDidChange, addr 0x5676230, size 0x4, virtual false, abstract: false, final false
   inline void HandleSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner);
 
   static inline ::HMUI::SelectableCellStaticAnimations* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39fcd24, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5676144, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshVisuals, addr 0x39fccc0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RefreshVisuals, addr 0x56760cc, size 0x78, virtual false, abstract: false, final false
   inline void RefreshVisuals();
 
-  /// @brief Method Start, addr 0x39fccbc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56760c8, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::AnimationClip> const& __cordl_internal_get__highlightedAnimationClip() const;
@@ -96,7 +96,7 @@ public:
 
   constexpr void __cordl_internal_set__selectedAnimationClip(::UnityW<::UnityEngine::AnimationClip> value);
 
-  /// @brief Method .ctor, addr 0x39fce10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5676238, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -114,7 +114,7 @@ public:
   SelectableCellStaticAnimations(SelectableCellStaticAnimations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19179 };
 
   /// @brief Field _selectableCell, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::SelectableCell> ____selectableCell;

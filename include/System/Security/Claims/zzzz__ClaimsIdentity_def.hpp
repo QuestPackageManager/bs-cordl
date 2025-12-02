@@ -3,12 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Security/Principal/zzzz__IIdentity_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -24,6 +18,9 @@ template <typename T> class List_1;
 }
 namespace System::Collections::ObjectModel {
 template <typename T> class Collection_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -44,6 +41,9 @@ namespace System::Security::Principal {
 class IIdentity;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -56,8 +56,7 @@ class ClaimsIdentity__get_Claims_d__51;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Claims::ClaimsIdentity);
 MARK_REF_PTR_T(::System::Security::Claims::ClaimsIdentity__get_Claims_d__51);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace System::Security::Claims {
 // Is value type: false
 // CS Name: System.Security.Claims.ClaimsIdentity/<get_Claims>d__51
@@ -102,27 +101,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3cc083c, size 0x3f4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x590419c, size 0x3f4, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Security::Claims::ClaimsIdentity__get_Claims_d__51* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator, addr 0x3cc0d28, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Security.Claims.Claim>.GetEnumerator, addr 0x590468c, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Security::Claims::Claim*>* System_Collections_Generic_IEnumerable_System_Security_Claims_Claim__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current, addr 0x3cc0ce0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Security.Claims.Claim>.get_Current, addr 0x5904644, size 0x8, virtual true, abstract: false, final true
   inline ::System::Security::Claims::Claim* System_Collections_Generic_IEnumerator_System_Security_Claims_Claim__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3cc0dc4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5904724, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3cc0ce8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x590464c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3cc0d20, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5904684, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3cc0820, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5904180, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -161,10 +160,10 @@ public:
 
   constexpr void __cordl_internal_set__i_5__2(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x3cc0c30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5904590, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x3cbf6fc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59030f0, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>"
@@ -197,7 +196,7 @@ public:
   ClaimsIdentity__get_Claims_d__51(ClaimsIdentity__get_Claims_d__51 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3025 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -235,7 +234,7 @@ static_assert(offsetof(::System::Security::Claims::ClaimsIdentity__get_Claims_d_
 static_assert(::cordl_internals::size_check_v<::System::Security::Claims::ClaimsIdentity__get_Claims_d__51, 0x40>, "Size mismatch!");
 
 } // namespace System::Security::Claims
-// Dependencies System.Object, System.Security.Principal.IIdentity
+// Dependencies System.Object
 namespace System::Security::Claims {
 // Is value type: false
 // CS Name: System.Security.Claims.ClaimsIdentity
@@ -298,25 +297,25 @@ public:
   /// @brief Convert operator to "::System::Security::Principal::IIdentity"
   constexpr operator ::System::Security::Principal::IIdentity*() noexcept;
 
-  /// @brief Method AddClaim, addr 0x3cb8e00, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method AddClaim, addr 0x58fcb34, size 0x178, virtual true, abstract: false, final false
   inline void AddClaim(::System::Security::Claims::Claim* claim);
 
-  /// @brief Method Clone, addr 0x3cbd6d0, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x5901194, size 0x148, virtual true, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* Clone();
 
-  /// @brief Method Deserialize, addr 0x3cbee58, size 0x808, virtual false, abstract: false, final false
+  /// @brief Method Deserialize, addr 0x59028e8, size 0x778, virtual false, abstract: false, final false
   inline void Deserialize(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context, bool useContext);
 
-  /// @brief Method DeserializeClaims, addr 0x3cbfe44, size 0x33c, virtual false, abstract: false, final false
+  /// @brief Method DeserializeClaims, addr 0x59037dc, size 0x31c, virtual false, abstract: false, final false
   inline void DeserializeClaims(::StringW serializedClaims);
 
-  /// @brief Method FindFirst, addr 0x3cbf75c, size 0x35c, virtual true, abstract: false, final false
+  /// @brief Method FindFirst, addr 0x590313c, size 0x338, virtual true, abstract: false, final false
   inline ::System::Security::Claims::Claim* FindFirst(::StringW type);
 
-  /// @brief Method GetObjectData, addr 0x3cc0250, size 0x5d0, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5903bdc, size 0x5a4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method IsCircular, addr 0x3cbe778, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsCircular, addr 0x590223c, size 0x40, virtual false, abstract: false, final false
   inline bool IsCircular(::System::Security::Claims::ClaimsIdentity* subject);
 
   static inline ::System::Security::Claims::ClaimsIdentity* New_ctor();
@@ -335,22 +334,22 @@ public:
 
   static inline ::System::Security::Claims::ClaimsIdentity* New_ctor(::System::Security::Claims::ClaimsIdentity* other);
 
-  /// @brief Method OnDeserializedMethod, addr 0x3cbfd70, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializedMethod, addr 0x590370c, size 0xd0, virtual false, abstract: false, final false
   inline void OnDeserializedMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnDeserializingMethod, addr 0x3cc0180, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDeserializingMethod, addr 0x5903af8, size 0xe4, virtual false, abstract: false, final false
   inline void OnDeserializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method OnSerializingMethod, addr 0x3cbfab8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method OnSerializingMethod, addr 0x5903474, size 0x68, virtual false, abstract: false, final false
   inline void OnSerializingMethod(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method SafeAddClaim, addr 0x3cbeb9c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SafeAddClaim, addr 0x5902628, size 0x130, virtual false, abstract: false, final false
   inline void SafeAddClaim(::System::Security::Claims::Claim* claim);
 
-  /// @brief Method SafeAddClaims, addr 0x3cbe7b4, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method SafeAddClaims, addr 0x590227c, size 0x3ac, virtual false, abstract: false, final false
   inline void SafeAddClaims(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* claims);
 
-  /// @brief Method SerializeClaims, addr 0x3cbfb1c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SerializeClaims, addr 0x59034dc, size 0x230, virtual false, abstract: false, final false
   inline ::StringW SerializeClaims();
 
   constexpr ::System::Security::Claims::ClaimsIdentity* const& __cordl_internal_get_m_actor() const;
@@ -431,45 +430,45 @@ public:
 
   constexpr void __cordl_internal_set_m_version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cb89d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fc70c, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cbe108, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901ba4, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* claims);
 
-  /// @brief Method .ctor, addr 0x3cbe124, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901bc0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* claims, ::StringW authenticationType,
                     ::StringW nameType, ::StringW roleType);
 
-  /// @brief Method .ctor, addr 0x3cbe12c, size 0x64c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5901bc8, size 0x674, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IIdentity* identity, ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* claims, ::StringW authenticationType,
                     ::StringW nameType, ::StringW roleType, bool checkAuthType);
 
-  /// @brief Method .ctor, addr 0x3cbecc4, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5902758, size 0x190, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cb8b10, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fc850, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Claims::ClaimsIdentity* other);
 
-  /// @brief Method get_Actor, addr 0x3cbf668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Actor, addr 0x5903068, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::Claims::ClaimsIdentity* get_Actor();
 
-  /// @brief Method get_AuthenticationType, addr 0x3cbf660, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AuthenticationType, addr 0x5903060, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_AuthenticationType();
 
-  /// @brief Method get_Claims, addr 0x3cb8d60, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_Claims, addr 0x58fca94, size 0x70, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims();
 
-  /// @brief Method get_Name, addr 0x3cbf730, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5903110, size 0x24, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameClaimType, addr 0x3cbf754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameClaimType, addr 0x5903134, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_NameClaimType();
 
   /// @brief Convert to "::System::Security::Principal::IIdentity"
   constexpr ::System::Security::Principal::IIdentity* i___System__Security__Principal__IIdentity() noexcept;
 
-  /// @brief Method set_Actor, addr 0x3cbf670, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method set_Actor, addr 0x5903070, size 0x80, virtual false, abstract: false, final false
   inline void set_Actor(::System::Security::Claims::ClaimsIdentity* value);
 
 protected:
@@ -487,7 +486,7 @@ public:
   ClaimsIdentity(ClaimsIdentity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3026 };
 
   /// @brief Field m_userSerializationData, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___m_userSerializationData;

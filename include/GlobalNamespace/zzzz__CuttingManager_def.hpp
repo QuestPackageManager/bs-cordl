@@ -33,15 +33,15 @@ public:
   /// @brief Field _saberManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x3be9e64, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleSaberManagerDidUpdateSaberPositions, addr 0x57dcabc, size 0xb4, virtual false, abstract: false, final false
   inline void HandleSaberManagerDidUpdateSaberPositions(::GlobalNamespace::Saber* leftSaber, ::GlobalNamespace::Saber* rightSaber);
 
   static inline ::GlobalNamespace::CuttingManager* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3be9d28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x57dc970, size 0x8c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3be9bec, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x57dc824, size 0x8c, virtual false, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::GlobalNamespace::NoteCutter* const& __cordl_internal_get__noteCutter() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
 
-  /// @brief Method .ctor, addr 0x3bea3e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57dd0f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   CuttingManager(CuttingManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
 
   /// @brief Field _saberManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;

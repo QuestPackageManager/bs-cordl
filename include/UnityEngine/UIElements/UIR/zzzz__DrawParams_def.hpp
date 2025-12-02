@@ -59,7 +59,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::DrawParams* New_ctor();
 
-  /// @brief Method Reset, addr 0x49b9f00, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6ac7d4c, size 0x1e8, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* const& __cordl_internal_get_defaultMaterial() const;
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_view(::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* value);
 
-  /// @brief Method .ctor, addr 0x49b5cc8, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac7f34, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Rect getStaticF_k_FullNormalizedRect();
@@ -112,7 +112,7 @@ public:
   DrawParams(DrawParams const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5385 };
 
   /// @brief Field view, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Stack_1<::UnityEngine::Matrix4x4>* ___view;

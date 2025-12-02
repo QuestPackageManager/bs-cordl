@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Zenject/DisposeBlock.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__DisposeBlock_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -33,7 +32,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DisposeBlock*)>(&::Zenject::DisposeBlock::OnSpawned)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b5344c;
+  constexpr static std::size_t addrs = 0x6c668d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,8 +45,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Zenject::DisposeBlock*)>(&::Zenject::DisposeBlock::OnDespawned)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x4b53478;
+  constexpr static std::size_t size = 0x3b8;
+  constexpr static std::size_t addrs = 0x6c66904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::LazyInitializeDisposableList)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4b537d8;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6c66cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), "LazyInitializeDisposableList",
@@ -73,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)(::System::IDisposable*)>(&::Zenject::DisposeBlock::Add)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4b538cc;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6c66dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)(::System::IDisposable*)>(&::Zenject::DisposeBlock::Remove)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4b539b0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6c66ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,8 +100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::DisposeBlock* (*)()>(&::Zenject::DisposeBlock::Spawn)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4b53a14;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6c66f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), "Spawn",
@@ -114,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::Dispose)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4b53a8c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6c66fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), "Dispose",
@@ -127,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DisposeBlock::*)()>(&::Zenject::DisposeBlock::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b53b0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c67034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::DisposeBlock*>::get(), ".ctor",

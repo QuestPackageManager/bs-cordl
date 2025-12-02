@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492d820;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6992b84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(),
@@ -25,97 +25,97 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortGlyphPairAdjustmentRecords_b__25_0
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortGlyphPairAdjustmentRecords_b__24_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
-    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_0)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x492d828;
+    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__24_0)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__25_0",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__24_0",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortGlyphPairAdjustmentRecords_b__25_1
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortGlyphPairAdjustmentRecords_b__24_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
-    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_1)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x492d870;
+    ::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__24_1)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__25_1",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__24_1",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToBaseAdjustmentRecords_b__26_0
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToBaseAdjustmentRecords_b__25_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
-    ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_0)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x492d8b8;
+    ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__25_0)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__26_0",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__25_0",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToBaseAdjustmentRecords_b__26_1
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToBaseAdjustmentRecords_b__25_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
-    ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_1)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x492d8c4;
+    ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__25_1)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__26_1",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__25_1",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToMarkAdjustmentRecords_b__27_0
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToMarkAdjustmentRecords_b__26_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
-    ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_0)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x492d8d0;
+    ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__26_0)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__27_0",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__26_0",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToMarkAdjustmentRecords_b__27_1
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable___c._SortMarkToMarkAdjustmentRecords_b__26_1
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::Text::FontFeatureTable___c::*)(
-    ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_1)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x492d8dc;
+    ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord)>(&::UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__26_1)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__27_1",
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__26_1",
                                    std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>::get() })));
     return ___internal_method;
@@ -130,58 +130,58 @@ inline ::UnityEngine::TextCore::Text::FontFeatureTable___c* UnityEngine::TextCor
   return ::cordl_internals::getStaticField<::UnityEngine::TextCore::Text::FontFeatureTable___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__25_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__25_0",
+inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__24_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__24_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__25_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__25_0",
+inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__24_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__24_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__25_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__25_1",
+inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__24_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__24_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__25_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__25_1",
+inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__24_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord, uint32_t>*, "<>9__24_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__26_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__26_0",
+inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__25_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__25_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__26_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__26_0",
+inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__25_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__25_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__26_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__26_1",
+inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__25_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__25_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__26_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__26_1",
+inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__25_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord, uint32_t>*, "<>9__25_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__27_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__27_0",
+inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__26_0(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__26_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__27_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__27_0",
+inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__26_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__26_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
-inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__27_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__27_1",
+inline void UnityEngine::TextCore::Text::FontFeatureTable___c::setStaticF___9__26_1(::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__26_1",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__27_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__27_1",
+inline ::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>* UnityEngine::TextCore::Text::FontFeatureTable___c::getStaticF___9__26_1() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord, uint32_t>*, "<>9__26_1",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get>();
 }
 inline void UnityEngine::TextCore::Text::FontFeatureTable___c::_ctor() {
@@ -189,44 +189,44 @@ inline void UnityEngine::TextCore::Text::FontFeatureTable___c::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) {
+inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__24_0(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__25_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__24_0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
 }
-inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__25_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) {
+inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortGlyphPairAdjustmentRecords_b__24_1(::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord s) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__25_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortGlyphPairAdjustmentRecords>b__24_1",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
 }
-inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_0(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s) {
+inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__25_0(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__26_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__25_0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
 }
-inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__26_1(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s) {
+inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToBaseAdjustmentRecords_b__25_1(::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord s) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__26_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToBaseAdjustmentRecords>b__25_1",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
 }
-inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_0(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s) {
+inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__26_0(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__27_0",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__26_0",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
 }
-inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__27_1(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s) {
+inline uint32_t UnityEngine::TextCore::Text::FontFeatureTable___c::_SortMarkToMarkAdjustmentRecords_b__26_1(::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord s) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__27_1",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable___c*>::get(), "<SortMarkToMarkAdjustmentRecords>b__26_1",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, s);
@@ -236,13 +236,57 @@ inline ::UnityEngine::TextCore::Text::FontFeatureTable___c* UnityEngine::TextCor
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::TextCore::Text::FontFeatureTable___c::FontFeatureTable___c() {}
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable.get_glyphPairAdjustmentRecords
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* (
+    ::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::get_glyphPairAdjustmentRecords)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992210;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(),
+                                                                               "get_glyphPairAdjustmentRecords", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable.get_MarkToBaseAdjustmentRecords
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>* (
+    ::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::get_MarkToBaseAdjustmentRecords)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992218;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(), "get_MarkToBaseAdjustmentRecords",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable.get_MarkToMarkAdjustmentRecords
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* (
+    ::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(&::UnityEngine::TextCore::Text::FontFeatureTable::get_MarkToMarkAdjustmentRecords)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6992220;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(), "get_MarkToMarkAdjustmentRecords",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontFeatureTable._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::_ctor)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x492b6dc;
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x6992228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(), ".ctor",
@@ -255,8 +299,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortGlyphPairAdjustmentRecords)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4926144;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x6992524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(),
@@ -269,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortMarkToBaseAdjustmentRecords)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4926330;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x6992728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -284,8 +328,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::FontFeatureTable::*)()>(
     &::UnityEngine::TextCore::Text::FontFeatureTable::SortMarkToMarkAdjustmentRecords)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x492651c;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x699292c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -428,6 +472,21 @@ constexpr void UnityEngine::TextCore::Text::FontFeatureTable::__cordl_internal_s
     ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_MarkToMarkAdjustmentRecordLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>* UnityEngine::TextCore::Text::FontFeatureTable::get_glyphPairAdjustmentRecords() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(),
+                                                                             "get_glyphPairAdjustmentRecords", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::GlyphPairAdjustmentRecord>*, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>* UnityEngine::TextCore::Text::FontFeatureTable::get_MarkToBaseAdjustmentRecords() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(),
+                                                                             "get_MarkToBaseAdjustmentRecords", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>*, false>(this, ___internal_method);
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>* UnityEngine::TextCore::Text::FontFeatureTable::get_MarkToMarkAdjustmentRecords() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(),
+                                                                             "get_MarkToMarkAdjustmentRecords", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::TextCore::LowLevel::MarkToMarkAdjustmentRecord>*, false>(this, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::FontFeatureTable::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontFeatureTable*>::get(), ".ctor",

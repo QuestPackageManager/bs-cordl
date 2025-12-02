@@ -125,76 +125,76 @@ public:
 
   static inline ::UnityEngine::UIElements::ComputedTransitionUtils___c* New_ctor();
 
-  /// @brief Method <ConvertTransitionFunction>b__12_0, addr 0x4a6b8f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_0, addr 0x6ba8a9c, size 0x30, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_0(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_1, addr 0x4a6b928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_1, addr 0x6ba8acc, size 0x8, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_1(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_10, addr 0x4a6b970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_10, addr 0x6ba8bc4, size 0x48, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_10(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_11, addr 0x4a6b978, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_11, addr 0x6ba8c0c, size 0x20, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_11(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_12, addr 0x4a6b980, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_12, addr 0x6ba8c2c, size 0x1c, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_12(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_13, addr 0x4a6b988, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_13, addr 0x6ba8c48, size 0x48, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_13(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_14, addr 0x4a6b990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_14, addr 0x6ba8c90, size 0x78, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_14(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_15, addr 0x4a6b998, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_15, addr 0x6ba8d08, size 0x78, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_15(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_16, addr 0x4a6b9a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_16, addr 0x6ba8d80, size 0x8, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_16(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_17, addr 0x4a6b9a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_17, addr 0x6ba8d88, size 0x24, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_17(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_18, addr 0x4a6b9b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_18, addr 0x6ba8dac, size 0x30, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_18(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_19, addr 0x4a6b9b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_19, addr 0x6ba8ddc, size 0x8, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_19(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_2, addr 0x4a6b930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_2, addr 0x6ba8ad4, size 0x10, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_2(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_20, addr 0x4a6b9c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_20, addr 0x6ba8de4, size 0x24, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_20(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_21, addr 0x4a6b9c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_21, addr 0x6ba8e08, size 0x8, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_21(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_22, addr 0x4a6b9d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_22, addr 0x6ba8e10, size 0x8, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_22(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_3, addr 0x4a6b938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_3, addr 0x6ba8ae4, size 0x40, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_3(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_4, addr 0x4a6b940, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_4, addr 0x6ba8b24, size 0x4, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_4(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_5, addr 0x4a6b948, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_5, addr 0x6ba8b28, size 0x2c, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_5(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_6, addr 0x4a6b950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_6, addr 0x6ba8b54, size 0x10, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_6(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_7, addr 0x4a6b958, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_7, addr 0x6ba8b64, size 0x34, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_7(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_8, addr 0x4a6b960, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_8, addr 0x6ba8b98, size 0x8, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_8(float_t t);
 
-  /// @brief Method <ConvertTransitionFunction>b__12_9, addr 0x4a6b968, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ConvertTransitionFunction>b__12_9, addr 0x6ba8ba0, size 0x24, virtual false, abstract: false, final false
   inline float_t _ConvertTransitionFunction_b__12_9(float_t t);
 
-  /// @brief Method .ctor, addr 0x4a6b8f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ba8a98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ComputedTransitionUtils___c* getStaticF___9();
@@ -308,7 +308,7 @@ public:
   ComputedTransitionUtils___c(ComputedTransitionUtils___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6058 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4706 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -329,45 +329,45 @@ public:
   __declspec(property(get = getStaticF_s_ComputedTransitionsBuffer,
                       put = setStaticF_s_ComputedTransitionsBuffer)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ComputedTransitionProperty>* s_ComputedTransitionsBuffer;
 
-  /// @brief Method ComputeTransitionPropertyData, addr 0x4a6a4a0, size 0x2a0, virtual false, abstract: false, final false
+  /// @brief Method ComputeTransitionPropertyData, addr 0x6ba77a0, size 0x294, virtual false, abstract: false, final false
   static inline void ComputeTransitionPropertyData(::ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle,
                                                    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ComputedTransitionProperty>* outData);
 
-  /// @brief Method ConvertTransitionFunction, addr 0x4a6ab68, size 0xca0, virtual false, abstract: false, final false
+  /// @brief Method ConvertTransitionFunction, addr 0x6ba7e68, size 0xb4c, virtual false, abstract: false, final false
   static inline ::System::Func_2<float_t, float_t>* ConvertTransitionFunction(::UnityEngine::UIElements::EasingMode mode);
 
-  /// @brief Method ConvertTransitionTime, addr 0x4a6aa6c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ConvertTransitionTime, addr 0x6ba7d6c, size 0xf8, virtual false, abstract: false, final false
   static inline int32_t ConvertTransitionTime(::UnityEngine::UIElements::TimeValue time);
 
-  /// @brief Method GetOrComputeTransitionPropertyData, addr 0x4a69c70, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetOrComputeTransitionPropertyData, addr 0x6ba7074, size 0x1d0, virtual false, abstract: false, final false
   static inline ::ArrayW<::UnityEngine::UIElements::ComputedTransitionProperty, ::Array<::UnityEngine::UIElements::ComputedTransitionProperty>*>
   GetOrComputeTransitionPropertyData(::ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
-  /// @brief Method GetTransitionHashCode, addr 0x4a6a018, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method GetTransitionHashCode, addr 0x6ba7468, size 0x338, virtual false, abstract: false, final false
   static inline int32_t GetTransitionHashCode(::ByRef<::UnityEngine::UIElements::ComputedStyle> cs);
 
-  /// @brief Method GetTransitionProperty, addr 0x4a69ee0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method GetTransitionProperty, addr 0x6ba7310, size 0x158, virtual false, abstract: false, final false
   static inline bool GetTransitionProperty(::ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id,
                                            ::ByRef<::UnityEngine::UIElements::ComputedTransitionProperty> result);
 
   /// @brief Method GetWrappingTransitionData, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetWrappingTransitionData(::System::Collections::Generic::List_1<T>* list, int32_t i, T defaultValue);
 
-  /// @brief Method HasTransitionProperty, addr 0x4a69e14, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method HasTransitionProperty, addr 0x6ba7244, size 0xcc, virtual false, abstract: false, final false
   static inline bool HasTransitionProperty(::ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method SameTransitionProperty, addr 0x4a6a888, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method SameTransitionProperty, addr 0x6ba7b80, size 0xec, virtual false, abstract: false, final false
   static inline bool SameTransitionProperty(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* a,
                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StylePropertyName>* b);
 
-  /// @brief Method SameTransitionProperty, addr 0x4a6a980, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SameTransitionProperty, addr 0x6ba7c6c, size 0x100, virtual false, abstract: false, final false
   static inline bool SameTransitionProperty(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* a,
                                             ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TimeValue>* b);
 
-  /// @brief Method SameTransitionProperty, addr 0x4a6a748, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method SameTransitionProperty, addr 0x6ba7a3c, size 0x144, virtual false, abstract: false, final false
   static inline bool SameTransitionProperty(::ByRef<::UnityEngine::UIElements::ComputedStyle> x, ::ByRef<::UnityEngine::UIElements::ComputedStyle> y);
 
-  /// @brief Method UpdateComputedTransitions, addr 0x4a69c0c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method UpdateComputedTransitions, addr 0x6ba700c, size 0x68, virtual false, abstract: false, final false
   static inline void UpdateComputedTransitions(::ByRef<::UnityEngine::UIElements::ComputedStyle> computedStyle);
 
   static inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::ComputedTransitionProperty>* getStaticF_s_ComputedTransitionsBuffer();
@@ -389,7 +389,7 @@ public:
   ComputedTransitionUtils(ComputedTransitionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6059 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SecureStringHasher)
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
 namespace System::Xml {
 class SecureStringHasher_HashCodeOfStringDelegate;
 }
@@ -35,12 +37,12 @@ namespace System::Xml {
 class CORDL_TYPE SecureStringHasher_HashCodeOfStringDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x430c898, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5f96b50, size 0x14, virtual true, abstract: false, final false
   inline int32_t Invoke(::StringW s, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::SecureStringHasher_HashCodeOfStringDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x430c7f8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f96ad0, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -58,7 +60,7 @@ public:
   SecureStringHasher_HashCodeOfStringDelegate(SecureStringHasher_HashCodeOfStringDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9269 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -66,7 +68,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Xml::SecureStringHasher_HashCodeOfStringDelegate, 0x80>, "Size mismatch!");
 
 } // namespace System::Xml
-// Dependencies System.Collections.Generic.IEqualityComparer`1<T>, System.Object
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.SecureStringHasher
@@ -84,16 +86,16 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::StringW>"
   constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::StringW>*() noexcept;
 
-  /// @brief Method Equals, addr 0x430c584, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5f96930, size 0x14, virtual true, abstract: false, final true
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x430c59c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5f8fb98, size 0xa0, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCodeDelegate, addr 0x430c638, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeDelegate, addr 0x5f96944, size 0x148, virtual false, abstract: false, final false
   static inline ::System::Xml::SecureStringHasher_HashCodeOfStringDelegate* GetHashCodeDelegate();
 
-  /// @brief Method GetHashCodeOfString, addr 0x430c78c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetHashCodeOfString, addr 0x5f96a8c, size 0x44, virtual false, abstract: false, final false
   static inline int32_t GetHashCodeOfString(::StringW key, int32_t sLen, int64_t additionalEntropy);
 
   static inline ::System::Xml::SecureStringHasher* New_ctor();
@@ -104,7 +106,7 @@ public:
 
   constexpr void __cordl_internal_set_hashCodeRandomizer(int32_t value);
 
-  /// @brief Method .ctor, addr 0x430c560, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f96918, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Xml::SecureStringHasher_HashCodeOfStringDelegate* getStaticF_hashCodeDelegate();
@@ -129,7 +131,7 @@ public:
   SecureStringHasher(SecureStringHasher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9270 };
 
   /// @brief Field hashCodeRandomizer, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCodeRandomizer;

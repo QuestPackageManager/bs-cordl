@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseCaptureEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseCaptureEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a245a4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b61e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseCaptureEvent___c*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MouseCaptureEvent* (::UnityEngine::UIElements::MouseCaptureEvent___c::*)()>(
     &::UnityEngine::UIElements::MouseCaptureEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a245ac;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b61e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseCaptureEvent___c*>::get(),
@@ -60,8 +60,8 @@ constexpr ::UnityEngine::UIElements::MouseCaptureEvent___c::MouseCaptureEvent___
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::MouseCaptureEvent::*)()>(&::UnityEngine::UIElements::MouseCaptureEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a24500;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b61d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MouseCaptureEvent*>::get(), ".ctor",

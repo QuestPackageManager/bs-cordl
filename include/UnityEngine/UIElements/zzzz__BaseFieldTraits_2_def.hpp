@@ -29,7 +29,7 @@ template <typename TValueType, typename TValueUxmlAttributeType>
 class CORDL_TYPE BaseFieldTraits_2 : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType> {
 public:
   // Declarations
-  /// @brief Field m_Value, offset 0x80, size 0x8
+  /// @brief Field m_Value, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Value, put = __cordl_internal_set_m_Value)) TValueUxmlAttributeType m_Value;
 
   /// @brief Method Init, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -61,9 +61,9 @@ public:
   BaseFieldTraits_2(BaseFieldTraits_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5608 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4221 };
 
-  /// @brief Field m_Value, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_Value, offset: 0x98, size: 0x8, def value: None
   TValueUxmlAttributeType ___m_Value;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

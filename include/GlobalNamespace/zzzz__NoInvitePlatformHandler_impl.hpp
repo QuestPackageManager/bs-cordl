@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoInvitePlatformHandler.hpp"
-#include "GlobalNamespace/zzzz__IInvitePlatformHandler_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoInvitePlatformHandler_def.hpp"
+#include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NoInvitePlatformHandler.get_isSupported
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoInvitePlatformHandler::*)()>(
     &::GlobalNamespace::NoInvitePlatformHandler::get_isSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dc200;
+  constexpr static std::size_t addrs = 0x360e178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoInvitePlatformHandler*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoInvitePlatformHandler::*)()>(
     &::GlobalNamespace::NoInvitePlatformHandler::OpenInvitePanel)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26dc208;
+  constexpr static std::size_t addrs = 0x360e180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoInvitePlatformHandler*>::get(),
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoInvitePlatformHandler::*)()>(&::GlobalNamespace::NoInvitePlatformHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dc240;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x360e1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoInvitePlatformHandler*>::get(), ".ctor",

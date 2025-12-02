@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncCallback::*)(::System::Object*, ::System::IntPtr)>(&::System::IOAsyncCallback::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x440f8a8;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x615dd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IOAsyncCallback::*)(::System::IOAsyncResult*)>(&::System::IOAsyncCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x440f9a8;
+  constexpr static std::size_t addrs = 0x615dec8;
 
   inline static ::MethodInfo const* methodInfo() {
 

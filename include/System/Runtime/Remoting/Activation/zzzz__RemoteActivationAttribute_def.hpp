@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Contexts/zzzz__IContextAttribute_def.hpp"
 #include "System/zzzz__Attribute_def.hpp"
 CORDL_MODULE_EXPORT(RemoteActivationAttribute)
 namespace System::Collections {
@@ -15,13 +14,16 @@ class IConstructionCallMessage;
 namespace System::Runtime::Remoting::Contexts {
 class Context;
 }
+namespace System::Runtime::Remoting::Contexts {
+class IContextAttribute;
+}
 // Forward declare root types
 namespace System::Runtime::Remoting::Activation {
 class RemoteActivationAttribute;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::RemoteActivationAttribute);
-// Dependencies System.Attribute, System.Runtime.Remoting.Contexts.IContextAttribute
+// Dependencies System.Attribute
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Activation.RemoteActivationAttribute
@@ -34,10 +36,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Contexts::IContextAttribute"
   constexpr operator ::System::Runtime::Remoting::Contexts::IContextAttribute*() noexcept;
 
-  /// @brief Method GetPropertiesForNewContext, addr 0x3ce504c, size 0x3e8, virtual true, abstract: false, final true
+  /// @brief Method GetPropertiesForNewContext, addr 0x59270f4, size 0x3c8, virtual true, abstract: false, final true
   inline void GetPropertiesForNewContext(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
 
-  /// @brief Method IsContextOK, addr 0x3ce5044, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsContextOK, addr 0x59270ec, size 0x8, virtual true, abstract: false, final true
   inline bool IsContextOK(::System::Runtime::Remoting::Contexts::Context* ctx, ::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctor);
 
   static inline ::System::Runtime::Remoting::Activation::RemoteActivationAttribute* New_ctor(::System::Collections::IList* contextProperties);
@@ -48,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set__contextProperties(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x3ce501c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59270e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* contextProperties);
 
   /// @brief Convert to "::System::Runtime::Remoting::Contexts::IContextAttribute"
@@ -69,7 +71,7 @@ public:
   RemoteActivationAttribute(RemoteActivationAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3152 };
 
   /// @brief Field _contextProperties, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____contextProperties;

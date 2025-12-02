@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ContextualMenuManager::*)()>(
     &::UnityEngine::UIElements::ContextualMenuManager::get_displayMenuHandledOSX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497f9ac;
+  constexpr static std::size_t addrs = 0x6a225f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(),
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(bool)>(
     &::UnityEngine::UIElements::ContextualMenuManager::set_displayMenuHandledOSX)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x497f9b4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a225fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,14 +55,31 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(
     ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IEventHandler*)>(&::UnityEngine::UIElements::ContextualMenuManager::DisplayMenu)> {
-  constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x497f9c0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6a22604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(), "DisplayMenu", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IEventHandler*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager.DisplayMenu
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)(
+    ::UnityEngine::UIElements::EventBase*, ::UnityEngine::UIElements::IEventHandler*, ::UnityEngine::UIElements::DropdownMenu*)>(&::UnityEngine::UIElements::ContextualMenuManager::DisplayMenu)> {
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x6a2267c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(), "DisplayMenu", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IEventHandler*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenu*>::get() })));
     return ___internal_method;
   }
 };
@@ -79,6 +96,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ContextualMenuManager._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ContextualMenuManager::*)()>(
+    &::UnityEngine::UIElements::ContextualMenuManager::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a229f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -117,10 +148,27 @@ inline void UnityEngine::UIElements::ContextualMenuManager::DisplayMenu(::UnityE
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IEventHandler*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, triggerEvent, target);
 }
+inline void UnityEngine::UIElements::ContextualMenuManager::DisplayMenu(::UnityEngine::UIElements::EventBase* triggerEvent, ::UnityEngine::UIElements::IEventHandler* target,
+                                                                        ::UnityEngine::UIElements::DropdownMenu* menu) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(), "DisplayMenu", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IEventHandler*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenu*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, triggerEvent, target, menu);
+}
 inline void UnityEngine::UIElements::ContextualMenuManager::DoDisplayMenu(::UnityEngine::UIElements::DropdownMenu* menu, ::UnityEngine::UIElements::EventBase* triggerEvent) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, menu, triggerEvent);
+}
+inline void UnityEngine::UIElements::ContextualMenuManager::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ContextualMenuManager*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::ContextualMenuManager* UnityEngine::UIElements::ContextualMenuManager::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::ContextualMenuManager*>());
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::ContextualMenuManager::ContextualMenuManager() {}

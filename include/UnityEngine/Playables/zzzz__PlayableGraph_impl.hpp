@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/Playables/PlayableGraph.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameRate_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableOutputHandle_def.hpp"
@@ -13,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Playables::PlayableGraph::*)(int32_t)>(
     &::UnityEngine::Playables::PlayableGraph::GetRootPlayable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48cc310;
+  constexpr static std::size_t addrs = 0x68d0aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,7 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableGraph::*)()>(&::UnityEngine::Playables::PlayableGraph::Evaluate)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48cc370;
+  constexpr static std::size_t addrs = 0x68d0b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "Evaluate",
@@ -40,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::PlayableGraph::*)()>(&::UnityEngine::Playables::PlayableGraph::IsValid)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc3fc;
+  constexpr static std::size_t addrs = 0x68d0bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsValid",
@@ -53,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::PlayableGraph::*)()>(&::UnityEngine::Playables::PlayableGraph::IsPlaying)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc474;
+  constexpr static std::size_t addrs = 0x68d0c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsPlaying",
@@ -66,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableGraph::*)(float_t)>(&::UnityEngine::Playables::PlayableGraph::Evaluate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48cc3b0;
+  constexpr static std::size_t addrs = 0x68d0b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IExposedPropertyTable* (::UnityEngine::Playables::PlayableGraph::*)()>(
     &::UnityEngine::Playables::PlayableGraph::GetResolver)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc538;
+  constexpr static std::size_t addrs = 0x68d0c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetResolver",
@@ -94,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Playables::PlayableGraph::*)()>(&::UnityEngine::Playables::PlayableGraph::GetPlayableCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc5b0;
+  constexpr static std::size_t addrs = 0x68d0c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(),
@@ -108,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Playables::PlayableGraph::*)()>(
     &::UnityEngine::Playables::PlayableGraph::GetRootPlayableCount)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc628;
+  constexpr static std::size_t addrs = 0x68d0cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(),
@@ -122,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Playables::PlayableGraph::*)(::UnityEngine::Playables::PlayableGraph)>(
     &::UnityEngine::Playables::PlayableGraph::SynchronizeEvaluation)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x48cc6a0;
+  constexpr static std::size_t addrs = 0x68d0d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Playables::PlayableGraph::*)()>(
     &::UnityEngine::Playables::PlayableGraph::CreatePlayableHandle)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48cbbbc;
+  constexpr static std::size_t addrs = 0x68d03a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(),
@@ -150,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::PlayableGraph::*)(
     ::StringW, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(&::UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48cc778;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x68d0ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +168,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Playables::PlayableGraph::*)(int32_t)>(
     &::UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48cc314;
+  constexpr static std::size_t addrs = 0x68d0af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,7 +183,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::PlayableGraph::*)()>(
     &::UnityEngine::Playables::PlayableGraph::IsMatchFrameRateEnabled)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc874;
+  constexpr static std::size_t addrs = 0x68d0fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(),
@@ -196,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::FrameRate (::UnityEngine::Playables::PlayableGraph::*)()>(
     &::UnityEngine::Playables::PlayableGraph::GetFrameRate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48cc8ec;
+  constexpr static std::size_t addrs = 0x68d1008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetFrameRate",
@@ -210,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Playables::PlayableGraph::*)(
     ::UnityEngine::Playables::PlayableHandle, int32_t, ::UnityEngine::Playables::PlayableHandle, int32_t)>(&::UnityEngine::Playables::PlayableGraph::ConnectInternal)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48cc97c;
+  constexpr static std::size_t addrs = 0x68d1098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -221,104 +222,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.IsValid_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
-    &::UnityEngine::Playables::PlayableGraph::IsValid_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc438;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsValid_Injected", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.IsPlaying_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
-    &::UnityEngine::Playables::PlayableGraph::IsPlaying_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc4b0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsPlaying_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.Evaluate_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, float_t)>(
-    &::UnityEngine::Playables::PlayableGraph::Evaluate_Injected)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48cc4ec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "Evaluate_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.GetResolver_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IExposedPropertyTable* (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
-    &::UnityEngine::Playables::PlayableGraph::GetResolver_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc574;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetResolver_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.GetPlayableCount_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
-    &::UnityEngine::Playables::PlayableGraph::GetPlayableCount_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc5ec;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetPlayableCount_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.GetRootPlayableCount_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
-    &::UnityEngine::Playables::PlayableGraph::GetRootPlayableCount_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc664;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetRootPlayableCount_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.SynchronizeEvaluation_Injected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
     &::UnityEngine::Playables::PlayableGraph::SynchronizeEvaluation_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cc6f0;
+  constexpr static std::size_t addrs = 0x68d0d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -334,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
     &::UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cc734;
+  constexpr static std::size_t addrs = 0x68d0d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -348,16 +258,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::StringW, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(
+    static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Playables::PlayableOutputHandle>)>(
         &::UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48cc7cc;
+  constexpr static std::size_t addrs = 0x68d0f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "CreateScriptOutputInternal_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get() })));
     return ___internal_method;
   }
@@ -368,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::ByRef<::UnityEngine::Playables::PlayableGraph>, int32_t, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(&::UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x48cc820;
+  constexpr static std::size_t addrs = 0x68d0f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -379,28 +289,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.IsMatchFrameRateEnabled_Injected
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>)>(
-    &::UnityEngine::Playables::PlayableGraph::IsMatchFrameRateEnabled_Injected)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48cc8b0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsMatchFrameRateEnabled_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::Playables::PlayableGraph.GetFrameRate_Injected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Playables::FrameRate>)>(
     &::UnityEngine::Playables::PlayableGraph::GetFrameRate_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x48cc938;
+  constexpr static std::size_t addrs = 0x68d1054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,7 +312,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::ByRef<::UnityEngine::Playables::PlayableHandle>, int32_t, ::ByRef<::UnityEngine::Playables::PlayableHandle>, int32_t)>(
         &::UnityEngine::Playables::PlayableGraph::ConnectInternal_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x48cc9f0;
+  constexpr static std::size_t addrs = 0x68d110c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -525,43 +420,6 @@ inline bool UnityEngine::Playables::PlayableGraph::ConnectInternal(::UnityEngine
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Playables::PlayableHandle>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, source, sourceOutputPort, destination, destinationInputPort);
 }
-inline bool UnityEngine::Playables::PlayableGraph::IsValid_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsValid_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
-}
-inline bool UnityEngine::Playables::PlayableGraph::IsPlaying_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self) {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsPlaying_Injected", std::span<Il2CppClass const* const, 0>(),
-                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
-}
-inline void UnityEngine::Playables::PlayableGraph::Evaluate_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, float_t deltaTime) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "Evaluate_Injected", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, deltaTime);
-}
-inline ::UnityEngine::IExposedPropertyTable* UnityEngine::Playables::PlayableGraph::GetResolver_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetResolver_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::IExposedPropertyTable*, false>(nullptr, ___internal_method, _unity_self);
-}
-inline int32_t UnityEngine::Playables::PlayableGraph::GetPlayableCount_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetPlayableCount_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
-}
-inline int32_t UnityEngine::Playables::PlayableGraph::GetRootPlayableCount_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "GetRootPlayableCount_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, _unity_self);
-}
 inline void UnityEngine::Playables::PlayableGraph::SynchronizeEvaluation_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self,
                                                                                   ::ByRef<::UnityEngine::Playables::PlayableGraph> playable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -577,12 +435,13 @@ inline void UnityEngine::Playables::PlayableGraph::CreatePlayableHandle_Injected
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, ret);
 }
-inline bool UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ::StringW name,
+inline bool UnityEngine::Playables::PlayableGraph::CreateScriptOutputInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self,
+                                                                                       ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name,
                                                                                        ::ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "CreateScriptOutputInternal_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableOutputHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self, name, handle);
 }
@@ -594,12 +453,6 @@ inline void UnityEngine::Playables::PlayableGraph::GetRootPlayableInternal_Injec
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, index, ret);
-}
-inline bool UnityEngine::Playables::PlayableGraph::IsMatchFrameRateEnabled_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Playables::PlayableGraph>::get(), "IsMatchFrameRateEnabled_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
 }
 inline void UnityEngine::Playables::PlayableGraph::GetFrameRate_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> _unity_self, ::ByRef<::UnityEngine::Playables::FrameRate> ret) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

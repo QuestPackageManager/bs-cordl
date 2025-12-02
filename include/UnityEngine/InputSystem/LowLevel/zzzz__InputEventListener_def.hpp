@@ -3,10 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IObservable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(InputEventListener)
@@ -15,6 +12,9 @@ template <typename T1, typename T2> class Action_2;
 }
 namespace System {
 class IDisposable;
+}
+namespace System {
+template <typename T> class IObservable_1;
 }
 namespace System {
 template <typename T> class IObserver_1;
@@ -75,10 +75,10 @@ public:
 
   constexpr void __cordl_internal_set_onEventDelegate(::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* value);
 
-  /// @brief Method <.ctor>b__2_0, addr 0x460b340, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__2_0, addr 0x6392634, size 0x100, virtual false, abstract: false, final false
   inline void __ctor_b__2_0(::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr, ::UnityEngine::InputSystem::InputDevice* device);
 
-  /// @brief Method .ctor, addr 0x460b2b0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x63925b4, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   InputEventListener_ObserverState(InputEventListener_ObserverState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6943 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9001 };
 
   /// @brief Field observers, offset: 0x10, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*> ___observers;
@@ -114,7 +114,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputEventListener_
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InputEventListener_ObserverState, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.LowLevel.InputEventListener/DisposableObserver
@@ -127,7 +127,7 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x460b434, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6392734, size 0x148, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener_DisposableObserver* New_ctor();
@@ -138,7 +138,7 @@ public:
 
   constexpr void __cordl_internal_set_observer(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* value);
 
-  /// @brief Method .ctor, addr 0x460b338, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6392630, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IDisposable"
@@ -159,7 +159,7 @@ public:
   InputEventListener_DisposableObserver(InputEventListener_DisposableObserver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6944 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9002 };
 
   /// @brief Field observer, offset: 0x10, size: 0x8, def value: None
   ::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* ___observer;
@@ -172,7 +172,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::InputEventListener_
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::InputEventListener_DisposableObserver, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies System.IObservable`1<T>, UnityEngine.InputSystem.LowLevel.InputEventPtr
+// Dependencies
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.InputEventListener
@@ -190,7 +190,7 @@ public:
   /// @brief Convert operator to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr operator ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*();
 
-  /// @brief Method Subscribe, addr 0x460b158, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method Subscribe, addr 0x6392458, size 0x15c, virtual true, abstract: false, final true
   inline ::System::IDisposable* Subscribe(::System::IObserver_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* observer);
 
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener_ObserverState* getStaticF_s_ObserverState();
@@ -198,11 +198,11 @@ public:
   /// @brief Convert to "::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>"
   constexpr ::System::IObservable_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* i___System__IObservable_1___UnityEngine__InputSystem__LowLevel__InputEventPtr_();
 
-  /// @brief Method op_Addition, addr 0x4605104, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x638cdb0, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Addition(::UnityEngine::InputSystem::LowLevel::InputEventListener _, ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
 
-  /// @brief Method op_Subtraction, addr 0x46053e0, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x638d084, size 0x178, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::InputEventListener
   op_Subtraction(::UnityEngine::InputSystem::LowLevel::InputEventListener _,
                  ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>* callback);
@@ -214,7 +214,7 @@ public:
   constexpr InputEventListener();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6945 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9003 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

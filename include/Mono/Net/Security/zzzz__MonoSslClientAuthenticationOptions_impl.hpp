@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Security::SslClientAuthenticationOptions* (
     ::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_Options)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4116784;
+  constexpr static std::size_t addrs = 0x5dc063c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_ServerMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x411678c;
+  constexpr static std::size_t addrs = 0x5dc0644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4113928;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5dbd6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(
     ::System::Security::Cryptography::X509Certificates::X509RevocationMode)>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_CertificateRevocationCheckMode)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4116794;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc064c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(::System::Net::Security::EncryptionPolicy)>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_EncryptionPolicy)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41167b0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc0664;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Authentication::SslProtocols (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_EnabledSslProtocols)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41167cc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc067c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(
     ::System::Security::Authentication::SslProtocols)>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_EnabledSslProtocols)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41167e8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc0694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_TargetHost)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4116804;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc06ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(::StringW)>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_TargetHost)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4116820;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc06c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_ClientCertificateRequired)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x411683c;
+  constexpr static std::size_t addrs = 0x5dc06dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(bool)>(
     &::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_ClientCertificateRequired)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4116874;
+  constexpr static std::size_t addrs = 0x5dc0714;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (
     ::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_ClientCertificates)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41168ac;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc074c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(
     ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*)>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_ClientCertificates)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41168c8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5dc0764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate* (
     ::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)()>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::get_ServerCertificate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41168e4;
+  constexpr static std::size_t addrs = 0x5dc077c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::MonoSslClientAuthenticationOptions::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate*)>(&::Mono::Net::Security::MonoSslClientAuthenticationOptions::set_ServerCertificate)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x411691c;
+  constexpr static std::size_t addrs = 0x5dc07b4;
 
   inline static ::MethodInfo const* methodInfo() {
 

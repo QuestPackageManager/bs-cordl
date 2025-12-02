@@ -54,7 +54,7 @@ public:
   /// @brief Field pSourceAlgorithm, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_pSourceAlgorithm, put = __cordl_internal_set_pSourceAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* pSourceAlgorithm;
 
-  /// @brief Method GetInstance, addr 0x24133fc, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3341868, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* New_ctor();
@@ -65,7 +65,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Pkcs::RsaesOaepParameters* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x24137f0, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3341c28, size 0x288, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* const& __cordl_internal_get_hashAlgorithm() const;
@@ -86,14 +86,14 @@ public:
 
   constexpr void __cordl_internal_set_pSourceAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x2413728, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3341b98, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x241379c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3341c04, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* hashAlgorithm, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* maskGenAlgorithm,
                     ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* pSourceAlgorithm);
 
-  /// @brief Method .ctor, addr 0x2413578, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33419ec, size 0x1ac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultHashAlgorithm();
@@ -102,13 +102,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* getStaticF_DefaultPSourceAlgorithm();
 
-  /// @brief Method get_HashAlgorithm, addr 0x24137d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HashAlgorithm, addr 0x3341c10, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_HashAlgorithm();
 
-  /// @brief Method get_MaskGenAlgorithm, addr 0x24137e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaskGenAlgorithm, addr 0x3341c18, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_MaskGenAlgorithm();
 
-  /// @brief Method get_PSourceAlgorithm, addr 0x24137e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PSourceAlgorithm, addr 0x3341c20, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_PSourceAlgorithm();
 
   static inline void setStaticF_DefaultHashAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);

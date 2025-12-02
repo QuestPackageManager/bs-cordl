@@ -47,7 +47,7 @@ public:
 
   static inline ::System::Reflection::ExceptionHandlingClause* New_ctor();
 
-  /// @brief Method ToString, addr 0x3d2dcd0, size 0x2c4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x597405c, size 0x2ec, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Type* const& __cordl_internal_get_catch_type() const;
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_try_offset(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d2dcc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5974058, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ExceptionHandlingClause(ExceptionHandlingClause const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3518 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3541 };
 
   /// @brief Field catch_type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___catch_type;

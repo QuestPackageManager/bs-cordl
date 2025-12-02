@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AnimationOffsetPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
@@ -30,7 +34,7 @@ struct AnimationOffsetPlayable;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationOffsetPlayable);
-// Dependencies System.IEquatable`1<T>, UnityEngine.Playables.IPlayable, UnityEngine.Playables.PlayableHandle
+// Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
 // CS Name: UnityEngine.Animations.AnimationOffsetPlayable
@@ -46,29 +50,29 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x4856000, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6810890, size 0xf4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationOffsetPlayable Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                           int32_t inputCount);
 
-  /// @brief Method CreateHandle, addr 0x48560f0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x6810984, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                       int32_t inputCount);
 
-  /// @brief Method CreateHandleInternal, addr 0x4856324, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x6810c00, size 0xa8, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                           ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x4856508, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x6810dd4, size 0x5c, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Quaternion> rotation,
                                                    ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x4856454, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6810d1c, size 0xb8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationOffsetPlayable other);
 
-  /// @brief Method GetHandle, addr 0x48563c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x6810ca8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method .ctor, addr 0x4856234, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6810aec, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationOffsetPlayable getStaticF_m_NullPlayable();
@@ -79,7 +83,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x48563d4, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6810cb4, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationOffsetPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationOffsetPlayable value);
@@ -92,7 +96,7 @@ public:
   constexpr AnimationOffsetPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19993 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

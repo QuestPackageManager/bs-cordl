@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngineInternal/Input/NativeInputEventBuffer.hpp"
 #include "UnityEngineInternal/Input/zzzz__NativeInputEventBuffer_def.hpp"
-constexpr ::cordl_internals::Ptr<void>& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() {
+constexpr void*& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() {
   return this->___eventBuffer;
 }
-constexpr ::cordl_internals::Ptr<void> const& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() const {
+constexpr void* const& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventBuffer() const {
   return this->___eventBuffer;
 }
-constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_eventBuffer(::cordl_internals::Ptr<void> value) {
+constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_eventBuffer(void* value) {
   this->___eventBuffer = value;
 }
 constexpr int32_t& UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_get_eventCount() {
@@ -37,10 +37,9 @@ constexpr int32_t const& UnityEngineInternal::Input::NativeInputEventBuffer::__c
 constexpr void UnityEngineInternal::Input::NativeInputEventBuffer::__cordl_internal_set_capacityInBytes(int32_t value) {
   this->___capacityInBytes = value;
 }
-// Ctor Parameters [CppParam { name: "eventBuffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: Some("{}") }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngineInternal::Input::NativeInputEventBuffer::NativeInputEventBuffer(::cordl_internals::Ptr<void> eventBuffer, int32_t eventCount, int32_t sizeInBytes,
-                                                                                       int32_t capacityInBytes) noexcept {
+// Ctor Parameters [CppParam { name: "eventBuffer", ty: "void*", modifiers: "", def_value: Some("{}") }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam
+// { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngineInternal::Input::NativeInputEventBuffer::NativeInputEventBuffer(void* eventBuffer, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes) noexcept {
   this->eventBuffer = eventBuffer;
   this->eventCount = eventCount;
   this->sizeInBytes = sizeInBytes;

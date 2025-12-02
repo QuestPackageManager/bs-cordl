@@ -27,7 +27,7 @@ public:
   /// @brief Field memberName, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_memberName, put = __cordl_internal_set_memberName)) ::StringW memberName;
 
-  /// @brief Method AddKeyHash, addr 0x4370f88, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AddKeyHash, addr 0x60d7658, size 0x84, virtual false, abstract: false, final false
   inline void AddKeyHash(::System::Text::StringBuilder* sb);
 
   constexpr ::StringW const& __cordl_internal_get_memberName() const;
@@ -36,7 +36,7 @@ public:
 
   constexpr void __cordl_internal_set_memberName(::StringW value);
 
-  /// @brief Method get_MemberName, addr 0x4371408, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x60d7638, size 0x20, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
 protected:
@@ -54,7 +54,7 @@ public:
   XmlChoiceIdentifierAttribute(XmlChoiceIdentifierAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7415 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9479 };
 
   /// @brief Field memberName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___memberName;

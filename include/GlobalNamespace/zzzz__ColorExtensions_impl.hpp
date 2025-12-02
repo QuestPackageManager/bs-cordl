@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::UnityEngine::Color>)>(&::GlobalNamespace::ColorExtensions::FromHtmlStringRGBA)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22b30e8;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x31f9cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::StringW)>(&::GlobalNamespace::ColorExtensions::GetColorFromHtmlString)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22b3250;
+  constexpr static std::size_t addrs = 0x31f9e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::SaturatedColor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22b3290;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x31f9ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::ColorWithAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b32e8;
+  constexpr static std::size_t addrs = 0x31f9f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(
     &::GlobalNamespace::ColorExtensions::ColorWithMultipliedAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b32f0;
+  constexpr static std::size_t addrs = 0x31f9f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorExtensions*>::get(),
@@ -84,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::ColorWithR)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b32f8;
+  constexpr static std::size_t addrs = 0x31f9f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::ColorWithG)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b3300;
+  constexpr static std::size_t addrs = 0x31f9f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::ColorWithB)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b3308;
+  constexpr static std::size_t addrs = 0x31f9f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::ColorWithValue)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x22b3310;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x31f9f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, float_t)>(&::GlobalNamespace::ColorExtensions::MultiplyRGB)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22b3364;
+  constexpr static std::size_t addrs = 0x31f9f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color, float_t)>(
     &::GlobalNamespace::ColorExtensions::LerpRGBUnclamped)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22b3374;
+  constexpr static std::size_t addrs = 0x31f9f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Color32, ::UnityEngine::Color32)>(&::GlobalNamespace::ColorExtensions::IsEqualTo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22b33a0;
+  constexpr static std::size_t addrs = 0x31f9fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -190,8 +190,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::StringW)>(&::GlobalNamespace::ColorExtensions::_FromHtmlStringRGBA_g__HtmlStringToFloat_0_0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22b31e0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31f9e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

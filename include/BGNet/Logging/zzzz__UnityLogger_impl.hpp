@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "BGNet/Logging/UnityLogger.hpp"
-#include "BGNet/Logging/zzzz__Debug_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BGNet/Logging/zzzz__UnityLogger_def.hpp"
+#include "BGNet/Logging/zzzz__Debug_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 //  Writing Method size for method: ::BGNet::Logging::UnityLogger.LogInfo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::UnityLogger::*)(::StringW)>(&::BGNet::Logging::UnityLogger::LogInfo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22f1378;
+  constexpr static std::size_t addrs = 0x321e60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::UnityLogger::*)(::StringW)>(&::BGNet::Logging::UnityLogger::LogError)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22f137c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x321e610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::UnityLogger::*)(::System::Exception*, ::StringW)>(
     &::BGNet::Logging::UnityLogger::LogException)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22f13d4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x321e66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::UnityLogger::*)(::StringW)>(&::BGNet::Logging::UnityLogger::LogWarning)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22f145c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x321e6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,8 +66,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::UnityLogger::*)()>(&::BGNet::Logging::UnityLogger::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f0b44;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x321de10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::UnityLogger*>::get(), ".ctor",

@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_time)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270addc;
+  constexpr static std::size_t addrs = 0x3635c58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_colorType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ade4;
+  constexpr static std::size_t addrs = 0x3635c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_headLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270adec;
+  constexpr static std::size_t addrs = 0x3635c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteLineLayer (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_headLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270adf4;
+  constexpr static std::size_t addrs = 0x3635c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_headControlPointLengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270adfc;
+  constexpr static std::size_t addrs = 0x3635c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteCutDirection (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_headCutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae04;
+  constexpr static std::size_t addrs = 0x3635c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_tailTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae0c;
+  constexpr static std::size_t addrs = 0x3635c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_tailLineIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae14;
+  constexpr static std::size_t addrs = 0x3635c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteLineLayer (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_tailLineLayer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae1c;
+  constexpr static std::size_t addrs = 0x3635c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_tailControlPointLengthMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae24;
+  constexpr static std::size_t addrs = 0x3635ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +160,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::NoteCutDirection (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_tailCutDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae2c;
+  constexpr static std::size_t addrs = 0x3635ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::SliderMidAnchorMode (::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::*)()>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::get_sliderMidAnchorMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270ae34;
+  constexpr static std::size_t addrs = 0x3635cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData*>::get(),
@@ -189,8 +189,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::BeatmapSaveDataVersion2_6_0AndEarlier::ColorType, float_t, int32_t, ::BeatmapSaveDataCommon::NoteLineLayer, float_t, ::BeatmapSaveDataCommon::NoteCutDirection, float_t, int32_t,
     ::BeatmapSaveDataCommon::NoteLineLayer, float_t, ::BeatmapSaveDataCommon::NoteCutDirection, ::BeatmapSaveDataCommon::SliderMidAnchorMode)>(
     &::BeatmapSaveDataVersion2_6_0AndEarlier::SliderData::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x270ae3c;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x3635cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

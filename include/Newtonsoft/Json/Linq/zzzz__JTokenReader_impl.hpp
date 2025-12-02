@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Linq/JTokenReader.hpp"
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_impl.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_impl.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JTokenReader_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
 #include "Newtonsoft/Json/Linq/zzzz__JToken_def.hpp"
+#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Newtonsoft::Json::Linq::JToken* (::Newtonsoft::Json::Linq::JTokenReader::*)()>(
     &::Newtonsoft::Json::Linq::JTokenReader::get_CurrentToken)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3f2a148;
+  constexpr static std::size_t addrs = 0x5b70f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JTokenReader*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenReader::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JTokenReader::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f2a150;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b70f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenReader::*)(::Newtonsoft::Json::Linq::JToken*, ::StringW)>(
     &::Newtonsoft::Json::Linq::JTokenReader::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3f2a1bc;
+  constexpr static std::size_t addrs = 0x5b70fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JTokenReader::*)()>(&::Newtonsoft::Json::Linq::JTokenReader::Read)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3f2a1e0;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5b70ffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JTokenReader::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JTokenReader::ReadOver)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f2a318;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5b71138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JTokenReader::*)()>(&::Newtonsoft::Json::Linq::JTokenReader::ReadToEnd)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f2a9c8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5b7186c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Linq::JTokenReader*>::get(), "ReadToEnd",
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Nullable_1<::Newtonsoft::Json::JsonToken> (::Newtonsoft::Json::Linq::JTokenReader::*)(
     ::Newtonsoft::Json::Linq::JContainer*)>(&::Newtonsoft::Json::Linq::JTokenReader::GetEndToken)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f2aa6c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5b71928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JTokenReader::*)(::Newtonsoft::Json::Linq::JContainer*)>(
     &::Newtonsoft::Json::Linq::JTokenReader::ReadInto)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f2a2b0;
+  constexpr static std::size_t addrs = 0x5b710d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JTokenReader::*)(::Newtonsoft::Json::Linq::JContainer*)>(
     &::Newtonsoft::Json::Linq::JTokenReader::SetEnd)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3f2a9e8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5b71884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Linq::JTokenReader::*)(::Newtonsoft::Json::Linq::JToken*)>(
     &::Newtonsoft::Json::Linq::JTokenReader::SetToken)> {
-  constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x3f2a3cc;
+  constexpr static std::size_t size = 0x694;
+  constexpr static std::size_t addrs = 0x5b711d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Linq::JTokenReader::*)(::System::Object*)>(
     &::Newtonsoft::Json::Linq::JTokenReader::SafeToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3f2abc4;
+  constexpr static std::size_t addrs = 0x5b71a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -175,8 +175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Linq::JTokenReader::*)()>(
     &::Newtonsoft::Json::Linq::JTokenReader::Newtonsoft_Json_IJsonLineInfo_HasLineInfo)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3f2abe4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5b71a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JTokenReader::*)()>(
     &::Newtonsoft::Json::Linq::JTokenReader::Newtonsoft_Json_IJsonLineInfo_get_LineNumber)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f2ac98;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5b71b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Newtonsoft::Json::Linq::JTokenReader::*)()>(
     &::Newtonsoft::Json::Linq::JTokenReader::Newtonsoft_Json_IJsonLineInfo_get_LinePosition)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3f2ad50;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5b71bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -219,8 +219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Linq::JTokenReader::*)()>(&::Newtonsoft::Json::Linq::JTokenReader::get_Path)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3f2ae08;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5b71c80;
 
   inline static ::MethodInfo const* methodInfo() {
 

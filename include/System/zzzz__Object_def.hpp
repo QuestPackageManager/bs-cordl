@@ -23,42 +23,42 @@ namespace System {
 class CORDL_TYPE Object : public Il2CppObject {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3e3b2fc, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a80f24, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3e3b308, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a80f30, size 0x2c, virtual false, abstract: false, final false
   static inline bool Equals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method FieldGetter, addr 0x3e3b36c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FieldGetter, addr 0x5a80fbc, size 0x4, virtual false, abstract: false, final false
   inline void FieldGetter(::StringW typeName, ::StringW fieldName, ::ByRef<::System::Object*> val);
 
-  /// @brief Method FieldSetter, addr 0x3e3b370, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method FieldSetter, addr 0x5a80fc0, size 0x4, virtual false, abstract: false, final false
   inline void FieldSetter(::StringW typeName, ::StringW fieldName, ::System::Object* val);
 
-  /// @brief Method Finalize, addr 0x3e3b334, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5a80f5c, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method GetHashCode, addr 0x3e3b338, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a80f60, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetType, addr 0x3e2e3d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetType, addr 0x5a73d9c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Type* GetType();
 
-  /// @brief Method InternalGetHashCode, addr 0x3e3b33c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetHashCode, addr 0x5a80f74, size 0x14, virtual false, abstract: false, final false
   static inline int32_t InternalGetHashCode(::System::Object* o);
 
-  /// @brief Method MemberwiseClone, addr 0x3e35888, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method MemberwiseClone, addr 0x5a7b57c, size 0x4, virtual false, abstract: false, final false
   inline ::System::Object* MemberwiseClone();
 
   static inline ::System::Object* New_ctor();
 
-  /// @brief Method ReferenceEquals, addr 0x3e3b360, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReferenceEquals, addr 0x5a80fb0, size 0xc, virtual false, abstract: false, final false
   static inline bool ReferenceEquals(::System::Object* objA, ::System::Object* objB);
 
-  /// @brief Method ToString, addr 0x3e3b340, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a80f88, size 0x28, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3e2dc44, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a73664, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   Object(Object const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2623 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

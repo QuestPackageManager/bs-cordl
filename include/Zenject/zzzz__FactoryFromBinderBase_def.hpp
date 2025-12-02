@@ -3,12 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Zenject/zzzz__ScopeConcreteIdArgConditionCopyNonLazyBinder_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -21,6 +16,9 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
@@ -28,6 +26,9 @@ template <typename T, typename TResult> class Func_2;
 }
 namespace System {
 struct Guid;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -190,7 +191,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass20_0* New_ctor();
 
-  /// @brief Method <FromInstance>b__0, addr 0x4b057d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method <FromInstance>b__0, addr 0x6c1b448, size 0x74, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromInstance_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -205,13 +206,13 @@ public:
 
   constexpr void __cordl_internal_set_instance(::System::Object* value);
 
-  /// @brief Method __zenCreate, addr 0x4b0585c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1b4bc, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b058b0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1b500, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b04ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1a798, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -229,7 +230,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass20_0(FactoryFromBinderBase___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14154 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -262,7 +263,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass21_0* New_ctor();
 
-  /// @brief Method <FromResolve>b__0, addr 0x4b05a68, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <FromResolve>b__0, addr 0x6c1b694, size 0x80, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromResolve_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -277,13 +278,13 @@ public:
 
   constexpr void __cordl_internal_set_subIdentifier(::System::Object* value);
 
-  /// @brief Method __zenCreate, addr 0x4b05af8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1b714, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b05b4c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1b758, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b04ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1a79c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -301,7 +302,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass21_0(FactoryFromBinderBase___c__DisplayClass21_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14155 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -334,7 +335,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass23_0* New_ctor();
 
-  /// @brief Method <FromComponentOn>b__0, addr 0x4b05d04, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentOn>b__0, addr 0x6c1b8ec, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentOn_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -349,13 +350,13 @@ public:
 
   constexpr void __cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method __zenCreate, addr 0x4b05d7c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1b958, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b05dd0, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1b99c, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b04bb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1a888, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -373,7 +374,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass23_0(FactoryFromBinderBase___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14156 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -407,7 +408,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <FromComponentOn>b__0, addr 0x4b05f88, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentOn>b__0, addr 0x6c1bb30, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentOn_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -422,13 +423,13 @@ public:
 
   constexpr void __cordl_internal_set_gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b06000, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1bb9c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b06054, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1bbe0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b04c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1a968, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -446,7 +447,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass24_0(FactoryFromBinderBase___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14157 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -479,7 +480,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass26_0* New_ctor();
 
-  /// @brief Method <FromNewComponentOn>b__0, addr 0x4b0620c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOn>b__0, addr 0x6c1bd74, size 0xf4, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOn_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -494,13 +495,13 @@ public:
 
   constexpr void __cordl_internal_set_gameObject(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method __zenCreate, addr 0x4b062f8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1be68, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0634c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1beac, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b04e00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1aad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -518,7 +519,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass26_0(FactoryFromBinderBase___c__DisplayClass26_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14158 };
 
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;
@@ -552,7 +553,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass27_0* New_ctor();
 
-  /// @brief Method <FromNewComponentOn>b__0, addr 0x4b06504, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOn>b__0, addr 0x6c1c040, size 0xf4, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOn_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -567,13 +568,13 @@ public:
 
   constexpr void __cordl_internal_set_gameObjectGetter(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method __zenCreate, addr 0x4b065f0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1c134, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b06644, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1c178, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b04ee0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1abb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -591,7 +592,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass27_0(FactoryFromBinderBase___c__DisplayClass27_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12179 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14159 };
 
   /// @brief Field gameObjectGetter, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* ___gameObjectGetter;
@@ -627,7 +628,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass28_0* New_ctor();
 
-  /// @brief Method <FromNewComponentOnNewPrefab>b__0, addr 0x4b067fc, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOnNewPrefab>b__0, addr 0x6c1c30c, size 0x1c8, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOnNewPrefab_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -648,13 +649,13 @@ public:
 
   constexpr void __cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method __zenCreate, addr 0x4b069c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1c4d4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b06a14, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1c518, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b0503c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1acf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -672,7 +673,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass28_0(FactoryFromBinderBase___c__DisplayClass28_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12180 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14160 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -713,7 +714,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass29_0* New_ctor();
 
-  /// @brief Method <FromComponentInNewPrefab>b__0, addr 0x4b06bcc, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInNewPrefab>b__0, addr 0x6c1c6ac, size 0x1d0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInNewPrefab_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -734,13 +735,13 @@ public:
 
   constexpr void __cordl_internal_set_prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method __zenCreate, addr 0x4b06d94, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1c87c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b06de8, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1c8c0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b05194, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1ae30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -758,7 +759,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass29_0(FactoryFromBinderBase___c__DisplayClass29_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12181 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14161 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -799,7 +800,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass30_0* New_ctor();
 
-  /// @brief Method <FromComponentInNewPrefabResource>b__0, addr 0x4b06fa0, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentInNewPrefabResource>b__0, addr 0x6c1ca54, size 0x1c8, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromComponentInNewPrefabResource_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -820,13 +821,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b07168, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1cc1c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b071bc, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1cc60, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b052e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1af68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -844,7 +845,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass30_0(FactoryFromBinderBase___c__DisplayClass30_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14162 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -885,7 +886,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass31_0* New_ctor();
 
-  /// @brief Method <FromNewComponentOnNewPrefabResource>b__0, addr 0x4b07374, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method <FromNewComponentOnNewPrefabResource>b__0, addr 0x6c1cdf4, size 0x1c0, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewComponentOnNewPrefabResource_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -906,13 +907,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b07538, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1cfb4, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0758c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1cff8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b05440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1b0ac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -930,7 +931,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass31_0(FactoryFromBinderBase___c__DisplayClass31_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14163 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::FactoryFromBinderBase* _____4__this;
@@ -968,7 +969,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass32_0* New_ctor();
 
-  /// @brief Method <FromNewScriptableObjectResource>b__0, addr 0x4b07744, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <FromNewScriptableObjectResource>b__0, addr 0x6c1d18c, size 0x100, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromNewScriptableObjectResource_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -983,13 +984,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b07838, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1d28c, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b0788c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1d2d0, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b05520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1b18c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1007,7 +1008,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass32_0(FactoryFromBinderBase___c__DisplayClass32_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14164 };
 
   /// @brief Field resourcePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___resourcePath;
@@ -1040,7 +1041,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass33_0* New_ctor();
 
-  /// @brief Method <FromScriptableObjectResource>b__0, addr 0x4b07a44, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method <FromScriptableObjectResource>b__0, addr 0x6c1d464, size 0x100, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromScriptableObjectResource_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -1055,13 +1056,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b07b38, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1d564, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b07b8c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1d5a8, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b05600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1b26c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1079,7 +1080,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass33_0(FactoryFromBinderBase___c__DisplayClass33_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14165 };
 
   /// @brief Field resourcePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___resourcePath;
@@ -1112,7 +1113,7 @@ public:
 
   static inline ::Zenject::FactoryFromBinderBase___c__DisplayClass34_0* New_ctor();
 
-  /// @brief Method <FromResource>b__0, addr 0x4b07d44, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method <FromResource>b__0, addr 0x6c1d73c, size 0x6c, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* _FromResource_b__0(::Zenject::DiContainer* container);
 
   constexpr ::Zenject::FactoryFromBinderBase* const& __cordl_internal_get___4__this() const;
@@ -1127,13 +1128,13 @@ public:
 
   constexpr void __cordl_internal_set_resourcePath(::StringW value);
 
-  /// @brief Method __zenCreate, addr 0x4b07dbc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1d7a8, size 0x44, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b07e10, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1d7ec, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b056d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1b340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1151,7 +1152,7 @@ public:
   FactoryFromBinderBase___c__DisplayClass34_0(FactoryFromBinderBase___c__DisplayClass34_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12186 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14166 };
 
   /// @brief Field resourcePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___resourcePath;
@@ -1169,8 +1170,7 @@ static_assert(offsetof(::Zenject::FactoryFromBinderBase___c__DisplayClass34_0, _
 static_assert(::cordl_internals::size_check_v<::Zenject::FactoryFromBinderBase___c__DisplayClass34_0, 0x20>, "Size mismatch!");
 
 } // namespace Zenject
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.List`1::Enumerator<T>, System.Collections.IEnumerable,
-// System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.FactoryFromBinderBase/<get_AllParentTypes>d__17
@@ -1211,27 +1211,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4b07fe4, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x6c1d9dc, size 0x1e8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Zenject::FactoryFromBinderBase__get_AllParentTypes_d__17* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x4b08258, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Type>.GetEnumerator, addr 0x6c1dc54, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Type*>* System_Collections_Generic_IEnumerable_System_Type__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x4b08210, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Type>.get_Current, addr 0x6c1dc0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* System_Collections_Generic_IEnumerator_System_Type__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x4b082f4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x6c1dcec, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4b08218, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x6c1dc14, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4b08250, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x6c1dc4c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4b07fc8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6c1d980, size 0x5c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -1264,16 +1264,16 @@ public:
 
   constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
 
-  /// @brief Method <>m__Finally1, addr 0x4b081c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x6c1dbc4, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method __zenCreate, addr 0x4b082f8, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c1dcf0, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b083c0, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c1dd9c, size 0x234, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b048c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1a5a4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Type*>"
@@ -1306,7 +1306,7 @@ public:
   FactoryFromBinderBase__get_AllParentTypes_d__17(FactoryFromBinderBase__get_AllParentTypes_d__17 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12187 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14167 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1397,58 +1397,58 @@ public:
   /// @brief Method CreateIFactoryBinder, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline ::Zenject::ConcreteBinderGeneric_1<T>* CreateIFactoryBinder(::ByRef<::System::Guid> factoryId);
 
-  /// @brief Method FromComponentInNewPrefab, addr 0x4b0504c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInNewPrefab, addr 0x6c1acfc, size 0x134, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method FromComponentInNewPrefabResource, addr 0x4b0519c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method FromComponentInNewPrefabResource, addr 0x6c1ae34, size 0x134, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromComponentInNewPrefabResource(::StringW resourcePath);
 
-  /// @brief Method FromComponentOn, addr 0x4b04ad0, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromComponentOn, addr 0x6c1a7a0, size 0xe8, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOn(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method FromComponentOn, addr 0x4b04bbc, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FromComponentOn, addr 0x6c1a88c, size 0xdc, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
-  /// @brief Method FromComponentOnRoot, addr 0x4b04c9c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method FromComponentOnRoot, addr 0x6c1a96c, size 0x80, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromComponentOnRoot();
 
-  /// @brief Method FromInstance, addr 0x4b049e8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FromInstance, addr 0x6c1a6bc, size 0xdc, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromInstance(::System::Object* instance);
 
-  /// @brief Method FromNew, addr 0x4b048f4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method FromNew, addr 0x6c1a5c4, size 0x2c, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromNew();
 
-  /// @brief Method FromNewComponentOn, addr 0x4b04d1c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOn, addr 0x6c1a9ec, size 0xe8, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(::UnityEngine::GameObject* gameObject);
 
-  /// @brief Method FromNewComponentOn, addr 0x4b04e08, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOn, addr 0x6c1aad8, size 0xdc, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromNewComponentOn(::System::Func_2<::Zenject::InjectContext*, ::UnityW<::UnityEngine::GameObject>>* gameObjectGetter);
 
-  /// @brief Method FromNewComponentOnNewPrefab, addr 0x4b04ee8, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnNewPrefab, addr 0x6c1abb8, size 0x140, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefab(::UnityEngine::Object* prefab);
 
-  /// @brief Method FromNewComponentOnNewPrefabResource, addr 0x4b052ec, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method FromNewComponentOnNewPrefabResource, addr 0x6c1af6c, size 0x140, virtual false, abstract: false, final false
   inline ::Zenject::NameTransformScopeConcreteIdArgConditionCopyNonLazyBinder* FromNewComponentOnNewPrefabResource(::StringW resourcePath);
 
-  /// @brief Method FromNewScriptableObjectResource, addr 0x4b05448, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FromNewScriptableObjectResource, addr 0x6c1b0b0, size 0xdc, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromNewScriptableObjectResource(::StringW resourcePath);
 
-  /// @brief Method FromResolve, addr 0x4b04920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method FromResolve, addr 0x6c1a5f0, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromResolve();
 
-  /// @brief Method FromResolve, addr 0x4b04928, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method FromResolve, addr 0x6c1a5f8, size 0xc4, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromResolve(::System::Object* subIdentifier);
 
-  /// @brief Method FromResource, addr 0x4b05608, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method FromResource, addr 0x6c1b270, size 0xd0, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromResource(::StringW resourcePath);
 
-  /// @brief Method FromScriptableObjectResource, addr 0x4b05528, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method FromScriptableObjectResource, addr 0x6c1b190, size 0xdc, virtual false, abstract: false, final false
   inline ::Zenject::ConditionCopyNonLazyBinder* FromScriptableObjectResource(::StringW resourcePath);
 
   static inline ::Zenject::FactoryFromBinderBase* New_ctor(::Zenject::DiContainer* bindContainer, ::System::Type* contractType, ::Zenject::BindInfo* bindInfo,
                                                            ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method <FromComponentOnRoot>b__25_0, addr 0x4b0577c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method <FromComponentOnRoot>b__25_0, addr 0x6c1b3e8, size 0x60, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> _FromComponentOnRoot_b__25_0(::Zenject::InjectContext* ctx);
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__BindContainer_k__BackingField() const;
@@ -1469,37 +1469,37 @@ public:
 
   constexpr void __cordl_internal_set__FactoryBindInfo_k__BackingField(::Zenject::FactoryBindInfo* value);
 
-  /// @brief Method <.ctor>b__0_0, addr 0x4b056dc, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6c1b344, size 0xa4, virtual false, abstract: false, final false
   inline ::Zenject::IProvider* __ctor_b__0_0(::Zenject::DiContainer* container);
 
-  /// @brief Method .ctor, addr 0x4b0472c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c1a424, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* bindContainer, ::System::Type* contractType, ::Zenject::BindInfo* bindInfo, ::Zenject::FactoryBindInfo* factoryBindInfo);
 
-  /// @brief Method get_AllParentTypes, addr 0x4b04850, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_AllParentTypes, addr 0x6c1a534, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Type*>* get_AllParentTypes();
 
-  /// @brief Method get_BindContainer, addr 0x4b047e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindContainer, addr 0x6c1a4d4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_BindContainer();
 
-  /// @brief Method get_ContractType, addr 0x4b04840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContractType, addr 0x6c1a524, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ContractType();
 
-  /// @brief Method get_FactoryBindInfo, addr 0x4b047f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FactoryBindInfo, addr 0x6c1a4e4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::FactoryBindInfo* get_FactoryBindInfo();
 
-  /// @brief Method get_ProviderFunc, addr 0x4b04808, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_ProviderFunc, addr 0x6c1a4f4, size 0x18, virtual false, abstract: false, final false
   inline ::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* get_ProviderFunc();
 
-  /// @brief Method set_BindContainer, addr 0x4b047f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_BindContainer, addr 0x6c1a4dc, size 0x8, virtual false, abstract: false, final false
   inline void set_BindContainer(::Zenject::DiContainer* value);
 
-  /// @brief Method set_ContractType, addr 0x4b04848, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ContractType, addr 0x6c1a52c, size 0x8, virtual false, abstract: false, final false
   inline void set_ContractType(::System::Type* value);
 
-  /// @brief Method set_FactoryBindInfo, addr 0x4b04800, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FactoryBindInfo, addr 0x6c1a4ec, size 0x8, virtual false, abstract: false, final false
   inline void set_FactoryBindInfo(::Zenject::FactoryBindInfo* value);
 
-  /// @brief Method set_ProviderFunc, addr 0x4b04824, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_ProviderFunc, addr 0x6c1a50c, size 0x18, virtual false, abstract: false, final false
   inline void set_ProviderFunc(::System::Func_2<::Zenject::DiContainer*, ::Zenject::IProvider*>* value);
 
 protected:
@@ -1517,7 +1517,7 @@ public:
   FactoryFromBinderBase(FactoryFromBinderBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14168 };
 
   /// @brief Field <BindContainer>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____BindContainer_k__BackingField;

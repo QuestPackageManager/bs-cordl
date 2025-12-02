@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PollRepContent::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22fcd9c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x322a0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PollRepContent* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PollRepContent::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22f94d4;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x3226790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)(
     ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*)>(&::Org::BouncyCastle::Asn1::Cmp::PollRepContent::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22fce40;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x322a184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)(
     ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText*)>(&::Org::BouncyCastle::Asn1::Cmp::PollRepContent::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22fce70;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x322a190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PollRepContent::get_CertReqID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fceac;
+  constexpr static std::size_t addrs = 0x322a19c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PollRepContent::get_CheckAfter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fceb4;
+  constexpr static std::size_t addrs = 0x322a1a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PollRepContent::get_Reason)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fcebc;
+  constexpr static std::size_t addrs = 0x322a1ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PollRepContent::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PollRepContent::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x22fcec4;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x322a1b4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -38,18 +38,18 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::System::Object* value;
 
-  /// @brief Method Dump, addr 0x3d01144, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x59422cc, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
 
-  /// @brief Method Read, addr 0x3d010fc, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x594227c, size 0x50, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3d01090, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5942210, size 0xc, virtual false, abstract: false, final false
   inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::System::Object* value);
 
-  /// @brief Method Write, addr 0x3d0109c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x594221c, size 0x60, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_primitiveTypeEnum() const;
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3d01088, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594220c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +82,7 @@ public:
   MemberPrimitiveTyped(MemberPrimitiveTyped const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3280 };
 
   /// @brief Field primitiveTypeEnum, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ___primitiveTypeEnum;

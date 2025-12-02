@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IntFxBaseData::*)(float_t, bool, int32_t)>(&::GlobalNamespace::IntFxBaseData::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26bdeb0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x35ef488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

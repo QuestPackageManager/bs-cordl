@@ -19,7 +19,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::GradientImage::*)()>(&::HMUI::GradientImage::get_color0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f538c;
+  constexpr static std::size_t addrs = 0x566dbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::GradientImage*>::get(), "get_color0",
@@ -31,8 +31,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::Color)>(&::HMUI::GradientImage::set_color0)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39f53a0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x566dbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::GradientImage::*)()>(&::HMUI::GradientImage::get_color1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f53d8;
+  constexpr static std::size_t addrs = 0x566dc2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::GradientImage*>::get(), "get_color1",
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::Color)>(&::HMUI::GradientImage::set_color1)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39f53ec;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x566dc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::GradientImage::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x39f5424;
+  constexpr static std::size_t addrs = 0x566dc94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*, bool, float_t)>(
     &::HMUI::GradientImage::GenerateSimpleSprite)> {
-  constexpr static std::size_t size = 0x564;
-  constexpr static std::size_t addrs = 0x39f5594;
+  constexpr static std::size_t size = 0x538;
+  constexpr static std::size_t addrs = 0x566de04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*, float_t)>(
     &::HMUI::GradientImage::GenerateSlicedSprite)> {
   constexpr static std::size_t size = 0x7b8;
-  constexpr static std::size_t addrs = 0x39f5af8;
+  constexpr static std::size_t addrs = 0x566e33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,8 +118,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*)>(&::HMUI::GradientImage::GenerateTiledSprite)> {
-  constexpr static std::size_t size = 0x8ac;
-  constexpr static std::size_t addrs = 0x39f62b0;
+  constexpr static std::size_t size = 0x8c8;
+  constexpr static std::size_t addrs = 0x566eaf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -134,8 +134,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::VertexHelper*, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>,
                                                                                            ::UnityEngine::Color32, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>)>(
     &::HMUI::GradientImage::AddQuad)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x39f7d88;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x56706dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color32,
                                                                                            ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::HMUI::GradientImage::AddQuad)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x39f7c34;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x5670558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,8 +171,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Color32,
                                                                                            ::UnityEngine::Color32, ::UnityEngine::Vector2, ::UnityEngine::Vector2, float_t, float_t)>(
     &::HMUI::GradientImage::AddQuad)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x39f78a4;
+  constexpr static std::size_t size = 0x410;
+  constexpr static std::size_t addrs = 0x5670148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -191,8 +191,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::HMUI::GradientImage::*)(::UnityEngine::Vector4, ::UnityEngine::Rect)>(
     &::HMUI::GradientImage::GetAdjustedBorders)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x39f7860;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x56700c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)(::UnityEngine::UI::VertexHelper*, bool)>(
     &::HMUI::GradientImage::GenerateFilledSprite)> {
-  constexpr static std::size_t size = 0x8f0;
-  constexpr static std::size_t addrs = 0x39f6b5c;
+  constexpr static std::size_t size = 0x8f8;
+  constexpr static std::size_t addrs = 0x566f3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,8 +224,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, float_t, bool, int32_t)>(
         &::HMUI::GradientImage::RadialCut)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x39f7e6c;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x56707ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,8 +242,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, float_t, float_t, bool, int32_t)>(
     &::HMUI::GradientImage::RadialCut)> {
-  constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x39f7f8c;
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x5670920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::HMUI::GradientImage::*)(bool)>(&::HMUI::GradientImage::GetDrawingDimensions)> {
   constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x39f744c;
+  constexpr static std::size_t addrs = 0x566fcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -272,8 +272,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::GradientImage::*)()>(&::HMUI::GradientImage::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39f83b8;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5670d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::GradientImage*>::get(), ".ctor",

@@ -30,13 +30,13 @@ public:
 
   static inline ::MS::Internal::Xml::XPath::Root* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4306c00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x605a840, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_ReturnType, addr 0x4306c10, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReturnType, addr 0x605a84c, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XPath::XPathResultType get_ReturnType();
 
-  /// @brief Method get_Type, addr 0x4306c08, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x605a844, size 0x8, virtual true, abstract: false, final false
   inline ::MS::Internal::Xml::XPath::AstNode_AstType get_Type();
 
 protected:
@@ -54,7 +54,7 @@ public:
   Root(Root const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7783 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

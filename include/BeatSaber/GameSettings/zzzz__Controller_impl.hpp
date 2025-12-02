@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::Controller::*)()>(&::BeatSaber::GameSettings::Controller::HasDefaultValues)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x226ff50;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x31939ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::Controller>::get(), "HasDefaultValues",

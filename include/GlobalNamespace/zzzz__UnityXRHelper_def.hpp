@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
-#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Pose_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -13,6 +11,12 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnityXRHelper)
+namespace GlobalNamespace {
+class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IVerboseLogger;
+}
 namespace GlobalNamespace {
 class UnityXRController_Configuration;
 }
@@ -123,7 +127,7 @@ public:
   static ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName const Valve;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20103 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -139,7 +143,7 @@ static_assert(offsetof(::GlobalNamespace::UnityXRHelper_VRControllerManufacturer
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IVRPlatformHelper, IVerboseLogger, UnityEngine.MonoBehaviour, UnityEngine.Pose, UnityEngine.Vector3
+// Dependencies UnityEngine.MonoBehaviour, UnityEngine.Pose, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: UnityXRHelper
@@ -147,6 +151,9 @@ class CORDL_TYPE UnityXRHelper : public ::UnityEngine::MonoBehaviour {
 public:
   // Declarations
   using VRControllerManufacturerName = ::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName;
+
+  /// @brief Field _hasInputFocus, offset 0xc2, size 0x1
+  __declspec(property(get = __cordl_internal_get__hasInputFocus, put = __cordl_internal_set__hasInputFocus)) bool _hasInputFocus;
 
   /// @brief Field <hasVrFocus>k__BackingField, offset 0x90, size 0x1
   __declspec(property(get = __cordl_internal_get__hasVrFocus_k__BackingField, put = __cordl_internal_set__hasVrFocus_k__BackingField)) bool _hasVrFocus_k__BackingField;
@@ -166,7 +173,7 @@ public:
   __declspec(property(get = __cordl_internal_get__headPositionActionReference, put = __cordl_internal_set__headPositionActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference>
       _headPositionActionReference;
 
-  /// @brief Field _isPausePressed, offset 0xca, size 0x1
+  /// @brief Field _isPausePressed, offset 0xc3, size 0x1
   __declspec(property(get = __cordl_internal_get__isPausePressed, put = __cordl_internal_set__isPausePressed)) bool _isPausePressed;
 
   /// @brief Field _leftController, offset 0x98, size 0x8
@@ -176,7 +183,7 @@ public:
   __declspec(property(get = __cordl_internal_get__leftControllerConfiguration,
                       put = __cordl_internal_set__leftControllerConfiguration)) ::GlobalNamespace::UnityXRController_Configuration* _leftControllerConfiguration;
 
-  /// @brief Field _pauseGameAction, offset 0xc0, size 0x8
+  /// @brief Field _pauseGameAction, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__pauseGameAction, put = __cordl_internal_set__pauseGameAction)) ::UnityEngine::InputSystem::InputAction* _pauseGameAction;
 
   /// @brief Field _pauseGameActionReference, offset 0x48, size 0x8
@@ -190,20 +197,17 @@ public:
   __declspec(property(get = __cordl_internal_get__rightControllerConfiguration,
                       put = __cordl_internal_set__rightControllerConfiguration)) ::GlobalNamespace::UnityXRController_Configuration* _rightControllerConfiguration;
 
-  /// @brief Field _scrollingLastFrame, offset 0xc8, size 0x1
+  /// @brief Field _scrollingLastFrame, offset 0xc0, size 0x1
   __declspec(property(get = __cordl_internal_get__scrollingLastFrame, put = __cordl_internal_set__scrollingLastFrame)) bool _scrollingLastFrame;
 
-  /// @brief Field _userPresence, offset 0xc9, size 0x1
+  /// @brief Field _userPresence, offset 0xc1, size 0x1
   __declspec(property(get = __cordl_internal_get__userPresence, put = __cordl_internal_set__userPresence)) bool _userPresence;
-
-  /// @brief Field _userPresenceAction, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get__userPresenceAction, put = __cordl_internal_set__userPresenceAction)) ::UnityEngine::InputSystem::InputAction* _userPresenceAction;
 
   /// @brief Field _userPresenceActionReference, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__userPresenceActionReference, put = __cordl_internal_set__userPresenceActionReference)) ::UnityW<::UnityEngine::InputSystem::InputActionReference>
       _userPresenceActionReference;
 
-  /// @brief Field _wasPausePressedThisFrame, offset 0xcb, size 0x1
+  /// @brief Field _wasPausePressedThisFrame, offset 0xc4, size 0x1
   __declspec(property(get = __cordl_internal_get__wasPausePressedThisFrame, put = __cordl_internal_set__wasPausePressedThisFrame)) bool _wasPausePressedThisFrame;
 
   /// @brief Field controllersDidChangeReferenceEvent, offset 0x80, size 0x8
@@ -273,8 +277,6 @@ public:
 
   __declspec(property(get = get_rightController)) ::GlobalNamespace::UnityXRController* rightController;
 
-  __declspec(property(put = set_userPresence)) bool userPresence;
-
   /// @brief Field vrFocusWasCapturedEvent, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_vrFocusWasCapturedEvent, put = __cordl_internal_set_vrFocusWasCapturedEvent)) ::System::Action* vrFocusWasCapturedEvent;
 
@@ -289,101 +291,111 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method ControllerFromNode, addr 0x39cfec0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ControllerFromNode, addr 0x564707c, size 0x2c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* ControllerFromNode(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetAnyJoystickMaxAxis, addr 0x39d0ca8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetAnyJoystickMaxAxis, addr 0x5647fa4, size 0x4, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetAnyJoystickMaxAxis();
 
-  /// @brief Method GetMenuButton, addr 0x39d0d34, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMenuButton, addr 0x5648044, size 0x8, virtual true, abstract: false, final true
   inline bool GetMenuButton();
 
-  /// @brief Method GetMenuButtonDown, addr 0x39d0d3c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetMenuButtonDown, addr 0x564804c, size 0x8, virtual true, abstract: false, final true
   inline bool GetMenuButtonDown();
 
-  /// @brief Method GetNodePose, addr 0x39d0488, size 0x1f4, virtual true, abstract: false, final true
+  /// @brief Method GetNodePose, addr 0x56476a8, size 0x23c, virtual true, abstract: false, final true
   inline bool GetNodePose(::UnityEngine::XR::XRNode nodeType, int32_t idx, ::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot);
 
-  /// @brief Method GetPoseOffsetForManufacturer, addr 0x39d02d8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetPoseOffsetForManufacturer, addr 0x56474b8, size 0x1f0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose GetPoseOffsetForManufacturer(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName manufacturerName);
 
-  /// @brief Method GetRootPositionOffsetForLegacyNodePose, addr 0x39d07cc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method GetRootPositionOffsetForLegacyNodePose, addr 0x5647a40, size 0x1f0, virtual false, abstract: false, final false
   inline ::UnityEngine::Pose GetRootPositionOffsetForLegacyNodePose(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName manufacturerName);
 
-  /// @brief Method GetRootPositionOffsetForLegacyNodePose, addr 0x39d0714, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method GetRootPositionOffsetForLegacyNodePose, addr 0x5647984, size 0xbc, virtual true, abstract: false, final true
   inline ::UnityEngine::Pose GetRootPositionOffsetForLegacyNodePose(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetThumbstickValue, addr 0x39d0cb4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method GetThumbstickValue, addr 0x5647fb0, size 0x84, virtual true, abstract: false, final true
   inline ::UnityEngine::Vector2 GetThumbstickValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetTriggerValue, addr 0x39d0cac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetTriggerValue, addr 0x5647fa8, size 0x8, virtual true, abstract: false, final true
   inline float_t GetTriggerValue(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method HandleNewXRNode, addr 0x39cfe3c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method HandleNewXRNode, addr 0x5647020, size 0x8, virtual false, abstract: false, final false
   inline void HandleNewXRNode(::UnityEngine::XR::XRNodeState state);
 
-  /// @brief Method HandleRemovedXRNode, addr 0x39cfe60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method HandleRemovedXRNode, addr 0x5647028, size 0x54, virtual false, abstract: false, final false
   inline void HandleRemovedXRNode(::UnityEngine::XR::XRNodeState state);
 
-  /// @brief Method IsAdvancedHapticsSupported, addr 0x39d0d2c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method IsAdvancedHapticsSupported, addr 0x5648034, size 0x10, virtual true, abstract: false, final true
   inline bool IsAdvancedHapticsSupported(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method LateUpdate, addr 0x39d0d44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5648058, size 0x8, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::UnityXRHelper* New_ctor();
 
-  /// @brief Method OnApplicationPause, addr 0x39cfdf4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationPause, addr 0x5646fd4, size 0x38, virtual false, abstract: false, final false
   inline void OnApplicationPause(bool pauseStatus);
 
-  /// @brief Method OnDestroy, addr 0x39cfbd0, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5646d80, size 0x254, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnPauseGameCancelled, addr 0x39cfe34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method OnPauseGameCancelled, addr 0x5647018, size 0x8, virtual false, abstract: false, final false
   inline void OnPauseGameCancelled(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnPauseGamePerformed, addr 0x39cfe28, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnPauseGamePerformed, addr 0x564700c, size 0xc, virtual false, abstract: false, final false
   inline void OnPauseGamePerformed(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnTrackingOriginUpdated, addr 0x39cfb7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnTrackingOriginUpdated, addr 0x5646d2c, size 0x1c, virtual false, abstract: false, final false
   inline void OnTrackingOriginUpdated(::UnityEngine::XR::XRInputSubsystem* inputSystem);
 
-  /// @brief Method OnUserPresenceCanceled, addr 0x39cfde4, size 0x8, virtual false, abstract: false, final false
-  inline void OnUserPresenceCanceled(::UnityEngine::InputSystem::InputAction_CallbackContext context);
-
-  /// @brief Method OnUserPresenceStarted, addr 0x39cfdec, size 0x8, virtual false, abstract: false, final false
-  inline void OnUserPresenceStarted(::UnityEngine::InputSystem::InputAction_CallbackContext context);
-
-  /// @brief Method OnboundaryChanged, addr 0x39cfbb4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnboundaryChanged, addr 0x5646d64, size 0x1c, virtual false, abstract: false, final false
   inline void OnboundaryChanged(::UnityEngine::XR::XRInputSubsystem* inputSystem);
 
-  /// @brief Method ReadHeadPose, addr 0x39d067c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ReadHeadPose, addr 0x56478e4, size 0xa0, virtual false, abstract: false, final false
   inline void ReadHeadPose(::ByRef<::UnityEngine::Vector3> pos, ::ByRef<::UnityEngine::Quaternion> rot);
 
-  /// @brief Method RefreshControllersReference, addr 0x39cfb98, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method RefreshControllersReference, addr 0x5646d48, size 0x1c, virtual true, abstract: false, final true
   inline void RefreshControllersReference();
 
-  /// @brief Method Start, addr 0x39cf6c0, size 0x424, virtual false, abstract: false, final false
+  /// @brief Method SetInputFocus, addr 0x56466e8, size 0x40, virtual false, abstract: false, final false
+  inline void SetInputFocus(bool newInputFocus);
+
+  /// @brief Method SetUserPresence, addr 0x56466a8, size 0x40, virtual false, abstract: false, final false
+  inline void SetUserPresence(bool newUserPresence);
+
+  /// @brief Method Start, addr 0x5646728, size 0x46c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopHaptics, addr 0x39d0078, size 0x174, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x5647250, size 0x190, virtual true, abstract: false, final true
   inline void StopHaptics(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method TriggerHapticPulse, addr 0x39cfeec, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x56470a8, size 0x1a8, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(::UnityEngine::XR::XRNode node, float_t duration, float_t strength, float_t frequency);
 
-  /// @brief Method TryGetLegacyPoseOffsetForNode, addr 0x39d0a80, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method TryGetLegacyPoseOffsetForNode, addr 0x5647d48, size 0x25c, virtual false, abstract: false, final false
   static inline bool TryGetLegacyPoseOffsetForNode(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName manufacturerName, ::ByRef<::UnityEngine::Vector3> position,
                                                    ::ByRef<::UnityEngine::Vector3> rotation);
 
-  /// @brief Method TryGetLegacyPoseOffsetForNode, addr 0x39d097c, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method TryGetLegacyPoseOffsetForNode, addr 0x5647c30, size 0x118, virtual true, abstract: false, final true
   inline bool TryGetLegacyPoseOffsetForNode(::UnityEngine::XR::XRNode node, ::ByRef<::UnityEngine::Vector3> position, ::ByRef<::UnityEngine::Vector3> rotation);
 
-  /// @brief Method TryGetPoseOffsetForNode, addr 0x39d01ec, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method TryGetPoseOffsetForNode, addr 0x56473e0, size 0xd8, virtual true, abstract: false, final true
   inline bool TryGetPoseOffsetForNode(::UnityEngine::XR::XRNode node, ::ByRef<::UnityEngine::Pose> poseOffset);
 
-  /// @brief Method UpdateManufacturerOnNode, addr 0x39cfae4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5648054, size 0x4, virtual false, abstract: false, final false
+  inline void Update();
+
+  /// @brief Method UpdateManufacturerOnNode, addr 0x5646b94, size 0xac, virtual false, abstract: false, final false
   inline void UpdateManufacturerOnNode(::UnityEngine::XR::XRNode node);
+
+  /// @brief Method UpdateUserPresence, addr 0x5646c40, size 0xec, virtual false, abstract: false, final false
+  inline void UpdateUserPresence();
+
+  constexpr bool const& __cordl_internal_get__hasInputFocus() const;
+
+  constexpr bool& __cordl_internal_get__hasInputFocus();
 
   constexpr bool const& __cordl_internal_get__hasVrFocus_k__BackingField() const;
 
@@ -441,10 +453,6 @@ public:
 
   constexpr bool& __cordl_internal_get__userPresence();
 
-  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get__userPresenceAction() const;
-
-  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get__userPresenceAction();
-
   constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference> const& __cordl_internal_get__userPresenceActionReference() const;
 
   constexpr ::UnityW<::UnityEngine::InputSystem::InputActionReference>& __cordl_internal_get__userPresenceActionReference();
@@ -485,6 +493,8 @@ public:
 
   constexpr ::System::Action*& __cordl_internal_get_vrFocusWasReleasedEvent();
 
+  constexpr void __cordl_internal_set__hasInputFocus(bool value);
+
   constexpr void __cordl_internal_set__hasVrFocus_k__BackingField(bool value);
 
   constexpr void __cordl_internal_set__headOrientationAction(::UnityEngine::InputSystem::InputAction* value);
@@ -513,8 +523,6 @@ public:
 
   constexpr void __cordl_internal_set__userPresence(bool value);
 
-  constexpr void __cordl_internal_set__userPresenceAction(::UnityEngine::InputSystem::InputAction* value);
-
   constexpr void __cordl_internal_set__userPresenceActionReference(::UnityW<::UnityEngine::InputSystem::InputActionReference> value);
 
   constexpr void __cordl_internal_set__wasPausePressedThisFrame(bool value);
@@ -535,31 +543,31 @@ public:
 
   constexpr void __cordl_internal_set_vrFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39d0d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5648060, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x39cf354, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_controllersDidChangeReferenceEvent, addr 0x564637c, size 0xac, virtual true, abstract: false, final true
   inline void add_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method add_controllersDidDisconnectEvent, addr 0x39cf48c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_controllersDidDisconnectEvent, addr 0x56464d4, size 0xac, virtual true, abstract: false, final true
   inline void add_controllersDidDisconnectEvent(::System::Action* value);
 
-  /// @brief Method add_hmdMountedEvent, addr 0x39cf21c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_hmdMountedEvent, addr 0x5646224, size 0xac, virtual true, abstract: false, final true
   inline void add_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method add_hmdUnmountedEvent, addr 0x39cf0e4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_hmdUnmountedEvent, addr 0x56460cc, size 0xac, virtual true, abstract: false, final true
   inline void add_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasCapturedEvent, addr 0x39cec04, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_inputFocusWasCapturedEvent, addr 0x5645b6c, size 0xac, virtual true, abstract: false, final true
   inline void add_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_inputFocusWasReleasedEvent, addr 0x39ced3c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_inputFocusWasReleasedEvent, addr 0x5645cc4, size 0xac, virtual true, abstract: false, final true
   inline void add_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasCapturedEvent, addr 0x39cee74, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_vrFocusWasCapturedEvent, addr 0x5645e1c, size 0xac, virtual true, abstract: false, final true
   inline void add_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method add_vrFocusWasReleasedEvent, addr 0x39cefac, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_vrFocusWasReleasedEvent, addr 0x5645f74, size 0xac, virtual true, abstract: false, final true
   inline void add_vrFocusWasReleasedEvent(::System::Action* value);
 
   static inline ::UnityEngine::Vector3 getStaticF_kHTCViveLegacyPositionOffset();
@@ -586,25 +594,25 @@ public:
 
   static inline ::UnityEngine::Pose getStaticF_kValveIndexOriginOffsetToLegacy();
 
-  /// @brief Method get_hasInputFocus, addr 0x39cf5c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasInputFocus, addr 0x564662c, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasInputFocus();
 
-  /// @brief Method get_hasVrFocus, addr 0x39cf5cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_hasVrFocus, addr 0x5646634, size 0x8, virtual true, abstract: false, final true
   inline bool get_hasVrFocus();
 
-  /// @brief Method get_isAlwaysWireless, addr 0x39cf5e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isAlwaysWireless, addr 0x5646644, size 0x8, virtual true, abstract: false, final true
   inline bool get_isAlwaysWireless();
 
-  /// @brief Method get_leftController, addr 0x39cf630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftController, addr 0x5646698, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* get_leftController();
 
-  /// @brief Method get_loggerPrefix, addr 0x39cf5f0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x5646654, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
-  /// @brief Method get_rightController, addr 0x39cf638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightController, addr 0x56466a0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::UnityXRController* get_rightController();
 
-  /// @brief Method get_vrPlatformSDK, addr 0x39cf5e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_vrPlatformSDK, addr 0x564664c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::VRPlatformSDK get_vrPlatformSDK();
 
   /// @brief Convert to "::GlobalNamespace::IVRPlatformHelper"
@@ -613,28 +621,28 @@ public:
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
   constexpr ::GlobalNamespace::IVerboseLogger* i___GlobalNamespace__IVerboseLogger() noexcept;
 
-  /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x39cf3f0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_controllersDidChangeReferenceEvent, addr 0x5646428, size 0xac, virtual true, abstract: false, final true
   inline void remove_controllersDidChangeReferenceEvent(::System::Action* value);
 
-  /// @brief Method remove_controllersDidDisconnectEvent, addr 0x39cf528, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_controllersDidDisconnectEvent, addr 0x5646580, size 0xac, virtual true, abstract: false, final true
   inline void remove_controllersDidDisconnectEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdMountedEvent, addr 0x39cf2b8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_hmdMountedEvent, addr 0x56462d0, size 0xac, virtual true, abstract: false, final true
   inline void remove_hmdMountedEvent(::System::Action* value);
 
-  /// @brief Method remove_hmdUnmountedEvent, addr 0x39cf180, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_hmdUnmountedEvent, addr 0x5646178, size 0xac, virtual true, abstract: false, final true
   inline void remove_hmdUnmountedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x39ceca0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_inputFocusWasCapturedEvent, addr 0x5645c18, size 0xac, virtual true, abstract: false, final true
   inline void remove_inputFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x39cedd8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_inputFocusWasReleasedEvent, addr 0x5645d70, size 0xac, virtual true, abstract: false, final true
   inline void remove_inputFocusWasReleasedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x39cef10, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_vrFocusWasCapturedEvent, addr 0x5645ec8, size 0xac, virtual true, abstract: false, final true
   inline void remove_vrFocusWasCapturedEvent(::System::Action* value);
 
-  /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x39cf048, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_vrFocusWasReleasedEvent, addr 0x5646020, size 0xac, virtual true, abstract: false, final true
   inline void remove_vrFocusWasReleasedEvent(::System::Action* value);
 
   static inline void setStaticF_kHTCViveLegacyPositionOffset(::UnityEngine::Vector3 value);
@@ -661,11 +669,8 @@ public:
 
   static inline void setStaticF_kValveIndexOriginOffsetToLegacy(::UnityEngine::Pose value);
 
-  /// @brief Method set_hasVrFocus, addr 0x39cf5d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasVrFocus, addr 0x564663c, size 0x8, virtual false, abstract: false, final false
   inline void set_hasVrFocus(bool value);
-
-  /// @brief Method set_userPresence, addr 0x39cf640, size 0x80, virtual false, abstract: false, final false
-  inline void set_userPresence(bool value);
 
 protected:
   // Ctor Parameters []
@@ -682,7 +687,7 @@ public:
   UnityXRHelper(UnityXRHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16497 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20104 };
 
   /// @brief Field _leftControllerConfiguration, offset: 0x20, size: 0x8, def value: None
   ::GlobalNamespace::UnityXRController_Configuration* ____leftControllerConfiguration;
@@ -741,22 +746,22 @@ public:
   /// @brief Field _headOrientationAction, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ____headOrientationAction;
 
-  /// @brief Field _userPresenceAction, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputAction* ____userPresenceAction;
-
-  /// @brief Field _pauseGameAction, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field _pauseGameAction, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::InputAction* ____pauseGameAction;
 
-  /// @brief Field _scrollingLastFrame, offset: 0xc8, size: 0x1, def value: None
+  /// @brief Field _scrollingLastFrame, offset: 0xc0, size: 0x1, def value: None
   bool ____scrollingLastFrame;
 
-  /// @brief Field _userPresence, offset: 0xc9, size: 0x1, def value: None
+  /// @brief Field _userPresence, offset: 0xc1, size: 0x1, def value: None
   bool ____userPresence;
 
-  /// @brief Field _isPausePressed, offset: 0xca, size: 0x1, def value: None
+  /// @brief Field _hasInputFocus, offset: 0xc2, size: 0x1, def value: None
+  bool ____hasInputFocus;
+
+  /// @brief Field _isPausePressed, offset: 0xc3, size: 0x1, def value: None
   bool ____isPausePressed;
 
-  /// @brief Field _wasPausePressedThisFrame, offset: 0xcb, size: 0x1, def value: None
+  /// @brief Field _wasPausePressedThisFrame, offset: 0xc4, size: 0x1, def value: None
   bool ____wasPausePressedThisFrame;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -800,19 +805,19 @@ static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____headPositionAction)
 
 static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____headOrientationAction) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____userPresenceAction) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____pauseGameAction) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____pauseGameAction) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____scrollingLastFrame) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____scrollingLastFrame) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____userPresence) == 0xc1, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____userPresence) == 0xc9, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____hasInputFocus) == 0xc2, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____isPausePressed) == 0xca, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____isPausePressed) == 0xc3, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____wasPausePressedThisFrame) == 0xcb, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::UnityXRHelper, ____wasPausePressedThisFrame) == 0xc4, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityXRHelper, 0xd0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::UnityXRHelper, 0xc8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::UnityXRHelper_VRControllerManufacturerName, "", "UnityXRHelper/VRControllerManufacturerName");

@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::ConstraintEnumerator::*)(::System::Data::DataSet*)>(
     &::System::Data::ConstraintEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4158d40;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5e03954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ConstraintEnumerator::*)()>(&::System::Data::ConstraintEnumerator::GetNext)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x4158d94;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x5e03994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(), "GetNext",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::ConstraintEnumerator::*)()>(
     &::System::Data::ConstraintEnumerator::GetConstraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4159074;
+  constexpr static std::size_t addrs = 0x5e03c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(), "GetConstraint",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::ConstraintEnumerator::*)(::System::Data::Constraint*)>(
     &::System::Data::ConstraintEnumerator::IsValidCandidate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x415907c;
+  constexpr static std::size_t addrs = 0x5e03c88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::Constraint* (::System::Data::ConstraintEnumerator::*)()>(
     &::System::Data::ConstraintEnumerator::get_CurrentObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4159084;
+  constexpr static std::size_t addrs = 0x5e03c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::ConstraintEnumerator*>::get(),

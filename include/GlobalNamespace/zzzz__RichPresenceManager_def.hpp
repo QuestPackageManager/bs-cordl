@@ -141,34 +141,34 @@ public:
   __declspec(property(get = __cordl_internal_get__unifiedNetworkPlayerModel,
                       put = __cordl_internal_set__unifiedNetworkPlayerModel)) ::GlobalNamespace::IUnifiedNetworkPlayerModel* _unifiedNetworkPlayerModel;
 
-  /// @brief Method Awake, addr 0x3b2cf30, size 0x29c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x570dd90, size 0x310, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method Clear, addr 0x3b2da38, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x570ea38, size 0xac, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x3b2d718, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerTransitionDidFinish, addr 0x570e6f4, size 0x344, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerTransitionDidFinish(::GlobalNamespace::GameScenesManager_SceneTransitionType sceneTransitionType,
                                                          ::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* diContainer);
 
-  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x3b2d420, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyGameStateModelDidChange, addr 0x570e3f0, size 0x1c, virtual false, abstract: false, final false
   inline void HandleLobbyGameStateModelDidChange(::GlobalNamespace::MultiplayerGameState newGameState);
 
-  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x3b2dcb4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method HandleLobbyPlayerPermissionChanged, addr 0x570ecc0, size 0x15c, virtual false, abstract: false, final false
   inline void HandleLobbyPlayerPermissionChanged();
 
-  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x3b2dae0, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerPartySizeChanged, addr 0x570eae4, size 0x1dc, virtual false, abstract: false, final false
   inline void HandleMultiplayerPartySizeChanged(int32_t currentPartySize);
 
   static inline ::GlobalNamespace::RichPresenceManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b2d1cc, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x570e0a0, size 0x350, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetMenuPresence, addr 0x3b2d43c, size 0x230, virtual false, abstract: false, final false
+  /// @brief Method SetMenuPresence, addr 0x570e40c, size 0x230, virtual false, abstract: false, final false
   inline void SetMenuPresence();
 
-  /// @brief Method SetPresence, addr 0x3b2d66c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method SetPresence, addr 0x570e63c, size 0xb8, virtual false, abstract: false, final false
   inline void SetPresence(::GlobalNamespace::IRichPresenceData* presenceData);
 
   constexpr ::GlobalNamespace::BrowsingMenusRichPresenceData* const& __cordl_internal_get__browsingMenusRichPresenceData() const;
@@ -273,7 +273,7 @@ public:
 
   constexpr void __cordl_internal_set__unifiedNetworkPlayerModel(::GlobalNamespace::IUnifiedNetworkPlayerModel* value);
 
-  /// @brief Method .ctor, addr 0x3b2de0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570ee1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -291,7 +291,7 @@ public:
   RichPresenceManager(RichPresenceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5162 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6736 };
 
   /// @brief Field _standardLevelScenesTransitionSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> ____standardLevelScenesTransitionSetupData;

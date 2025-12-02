@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 CORDL_MODULE_EXPORT(AvatarColorAsset)
 namespace GlobalNamespace {
 class AvatarColorBehaviour;
@@ -18,6 +17,9 @@ struct Playable;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -27,7 +29,7 @@ class AvatarColorAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AvatarColorAsset);
-// Dependencies UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
+// Dependencies UnityEngine.Playables.PlayableAsset
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AvatarColorAsset
@@ -42,7 +44,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3b33884, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x5714ff4, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::AvatarColorAsset* New_ctor();
@@ -53,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::AvatarColorBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3b3392c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57150a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b3387c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x5714fec, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -77,7 +79,7 @@ public:
   AvatarColorAsset(AvatarColorAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6768 };
 
   /// @brief Field _template, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::AvatarColorBehaviour* ____template;

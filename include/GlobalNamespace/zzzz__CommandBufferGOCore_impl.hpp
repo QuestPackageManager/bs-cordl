@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnEnable)> {
-  constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x40810c4;
+  constexpr static std::size_t size = 0x408;
+  constexpr static std::size_t addrs = 0x5d2b920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), "OnEnable",
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnDisable)> {
-  constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x40814a4;
+  constexpr static std::size_t size = 0x448;
+  constexpr static std::size_t addrs = 0x5d2bd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), "OnDisable",
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::OnWillRenderObject)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x408194c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x5d2c230;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,8 +99,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferGOCore::*)()>(&::GlobalNamespace::CommandBufferGOCore::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4080d00;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d2b4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferGOCore*>::get(), ".ctor",

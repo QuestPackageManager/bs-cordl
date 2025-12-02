@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/OpacityIdAccelerator.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_impl.hpp"
-#include "Unity/Jobs/zzzz__IJobParallelFor_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OpacityIdAccelerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
+#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__OpacityIdAccelerator_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::*)(int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob::Execute)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x49aa648;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6ab17ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,8 +60,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(
     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex>, ::UnityEngine::Color32, int32_t)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CreateJob)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49aa360;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6ab1474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::CompleteJobs)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x49aa454;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6ab1584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49aa4ec;
+  constexpr static std::size_t addrs = 0x6ab164c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49aa4f4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ab1654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49aa500;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ab165c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),
@@ -135,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)(bool)>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::Dispose)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49aa56c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ab16cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::OpacityIdAccelerator::*)()>(
     &::UnityEngine::UIElements::UIR::OpacityIdAccelerator::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49aa5d0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6ab173c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::OpacityIdAccelerator*>::get(),

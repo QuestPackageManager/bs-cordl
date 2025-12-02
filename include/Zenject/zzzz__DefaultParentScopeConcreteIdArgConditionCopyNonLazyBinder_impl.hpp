@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(
     ::Zenject::SubContainerCreatorBindInfo*, ::Zenject::BindInfo*)>(&::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b046d0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6c1a3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SubContainerCreatorBindInfo* (::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)()>(
     &::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::get_SubContainerCreatorBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b046fc;
+  constexpr static std::size_t addrs = 0x6c1a3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(
     ::Zenject::SubContainerCreatorBindInfo*)>(&::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::set_SubContainerCreatorBindInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b04704;
+  constexpr static std::size_t addrs = 0x6c1a400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ScopeConcreteIdArgConditionCopyNonLazyBinder* (
     ::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::*)(::StringW)>(&::Zenject::DefaultParentScopeConcreteIdArgConditionCopyNonLazyBinder::WithDefaultGameObjectParent)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b0470c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c1a408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

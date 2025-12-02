@@ -1,11 +1,8 @@
 #pragma once
 // IWYU pragma private; include "IntervalTree/IntervalTree_2.hpp"
-#include "IntervalTree/zzzz__IIntervalTree_2_impl.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
+#include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTree_2_def.hpp"
 #include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
@@ -13,6 +10,7 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TKey, typename TValue> inline void IntervalTree::IntervalTree_2___c<TKey, TValue>::setStaticF___9(::IntervalTree::IntervalTree_2___c<TKey, TValue>* value) {

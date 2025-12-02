@@ -85,25 +85,25 @@ public:
   /// @brief Field class_to_proxy, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_class_to_proxy, put = __cordl_internal_set_class_to_proxy)) ::System::Type* class_to_proxy;
 
-  /// @brief Method AttachServer, addr 0x3cd9884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AttachServer, addr 0x591c62c, size 0x8, virtual false, abstract: false, final false
   inline void AttachServer(::System::MarshalByRefObject* s);
 
-  /// @brief Method GetAppDomainTarget, addr 0x3cd9894, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetAppDomainTarget, addr 0x591c63c, size 0x124, virtual false, abstract: false, final false
   inline ::System::Object* GetAppDomainTarget();
 
-  /// @brief Method GetObjectData, addr 0x3cd8d6c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x591bb00, size 0x68, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetProxiedType, addr 0x3cd0ef8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method GetProxiedType, addr 0x59140e8, size 0x98, virtual false, abstract: false, final false
   inline ::System::Type* GetProxiedType();
 
-  /// @brief Method GetTransparentProxy, addr 0x3cd9720, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method GetTransparentProxy, addr 0x591c4d4, size 0x158, virtual true, abstract: false, final false
   inline ::System::Object* GetTransparentProxy();
 
-  /// @brief Method InternalGetProxyType, addr 0x3cd8d68, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalGetProxyType, addr 0x591baf8, size 0x8, virtual false, abstract: false, final false
   static inline ::System::Type* InternalGetProxyType(::System::Object* transparentProxy);
 
-  /// @brief Method InternalGetTransparentProxy, addr 0x3cd971c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InternalGetTransparentProxy, addr 0x591c4cc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* InternalGetTransparentProxy(::StringW className);
 
   /// @brief Method Invoke, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -117,15 +117,15 @@ public:
 
   static inline ::System::Runtime::Remoting::Proxies::RealProxy* New_ctor(::System::Type* classToProxy, ::System::IntPtr stub, ::System::Object* stubData);
 
-  /// @brief Method PrivateInvoke, addr 0x3cd80b0, size 0x8b8, virtual false, abstract: false, final false
+  /// @brief Method PrivateInvoke, addr 0x591ae40, size 0x8f4, virtual false, abstract: false, final false
   static inline ::System::Object* PrivateInvoke(::System::Runtime::Remoting::Proxies::RealProxy* rp, ::System::Runtime::Remoting::Messaging::IMessage* msg, ::ByRef<::System::Exception*> exc,
                                                 ::ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> out_args);
 
-  /// @brief Method ProcessResponse, addr 0x3cd9034, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method ProcessResponse, addr 0x591bdb0, size 0x71c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ProcessResponse(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* mrm,
                                                                                          ::System::Runtime::Remoting::Messaging::MonoMethodMessage* call);
 
-  /// @brief Method SetTargetDomain, addr 0x3cd988c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTargetDomain, addr 0x591c634, size 0x8, virtual false, abstract: false, final false
   inline void SetTargetDomain(int32_t domainId);
 
   constexpr ::System::Object* const& __cordl_internal_get__objTP() const;
@@ -176,22 +176,22 @@ public:
 
   constexpr void __cordl_internal_set_class_to_proxy(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3cd8c3c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591b9e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cd8c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591b9ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* classToProxy);
 
-  /// @brief Method .ctor, addr 0x3cd8d40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591bad0, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* classToProxy, ::System::Runtime::Remoting::ClientIdentity* identity);
 
-  /// @brief Method .ctor, addr 0x3cd8c54, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591b9f4, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* classToProxy, ::System::IntPtr stub, ::System::Object* stubData);
 
-  /// @brief Method get_ObjectIdentity, addr 0x3cd8de8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectIdentity, addr 0x591bb68, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Identity* get_ObjectIdentity();
 
-  /// @brief Method set_ObjectIdentity, addr 0x3cd8df0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_ObjectIdentity, addr 0x591bb70, size 0x8, virtual false, abstract: false, final false
   inline void set_ObjectIdentity(::System::Runtime::Remoting::Identity* value);
 
 protected:
@@ -209,7 +209,7 @@ public:
   RealProxy(RealProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3104 };
 
   /// @brief Field class_to_proxy, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___class_to_proxy;

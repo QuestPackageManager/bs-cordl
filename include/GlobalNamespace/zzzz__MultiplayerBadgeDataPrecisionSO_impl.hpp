@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerBadgeDataPrecisionSO::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgeDataPrecisionSO::GetValue)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26da6d0;
+  constexpr static std::size_t addrs = 0x360c7d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgeDataPrecisionSO::*)()>(
     &::GlobalNamespace::MultiplayerBadgeDataPrecisionSO::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26da70c;
+  constexpr static std::size_t addrs = 0x360c80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgeDataPrecisionSO*>::get(),

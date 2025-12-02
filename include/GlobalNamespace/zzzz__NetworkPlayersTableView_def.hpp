@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -31,6 +30,9 @@ class NetworkPlayersTableView_CellInfo;
 }
 namespace HMUI {
 class TableCell;
+}
+namespace HMUI {
+class TableView_IDataSource;
 }
 namespace HMUI {
 class TableView;
@@ -98,7 +100,7 @@ public:
   static ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType const Player;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6433 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -161,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType value);
 
-  /// @brief Method .ctor, addr 0x3c11788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5808e30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -179,7 +181,7 @@ public:
   NetworkPlayersTableView_CellInfo(NetworkPlayersTableView_CellInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4849 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6434 };
 
   /// @brief Field type, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::CellInfo_NetworkPlayersTableView_CellType ___type;
@@ -207,7 +209,7 @@ static_assert(offsetof(::GlobalNamespace::NetworkPlayersTableView_CellInfo, ___l
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NetworkPlayersTableView_CellInfo, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies HMUI.TableView::IDataSource, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NetworkPlayersTableView
@@ -247,27 +249,27 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method AddPlayers, addr 0x3c110f0, size 0x698, virtual false, abstract: false, final false
+  /// @brief Method AddPlayers, addr 0x58087e8, size 0x648, virtual false, abstract: false, final false
   inline void AddPlayers(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* players, ::StringW title);
 
-  /// @brief Method CellForIdx, addr 0x3c10a54, size 0x5d4, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x5808114, size 0x608, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t row);
 
-  /// @brief Method CellSize, addr 0x3c10a04, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x58080bc, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method HandleCellWasPressed, addr 0x3c11c24, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleCellWasPressed, addr 0x5809244, size 0x4, virtual false, abstract: false, final false
   inline void HandleCellWasPressed(::HMUI::TableView* tableView, ::HMUI::TableCell* tableCell);
 
-  /// @brief Method HasVisibleOptions, addr 0x3c11790, size 0x350, virtual false, abstract: false, final false
+  /// @brief Method HasVisibleOptions, addr 0x5808e34, size 0x2bc, virtual false, abstract: false, final false
   static inline bool HasVisibleOptions(::GlobalNamespace::INetworkPlayer* player);
 
   static inline ::GlobalNamespace::NetworkPlayersTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3c10a0c, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x58080c4, size 0x50, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetParties, addr 0x3c11ae0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetParties, addr 0x58090f0, size 0x154, virtual false, abstract: false, final false
   inline void SetParties(::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* partyPlayers,
                          ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* otherPlayers, ::StringW myPartyTitle, ::StringW otherPlayersTitle);
 
@@ -325,7 +327,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x3c11c28, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5809248, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
@@ -346,7 +348,7 @@ public:
   NetworkPlayersTableView(NetworkPlayersTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4850 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6435 };
 
   /// @brief Field kHeaderCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kHeaderCellIdentifier{ u"HeaderCell" };

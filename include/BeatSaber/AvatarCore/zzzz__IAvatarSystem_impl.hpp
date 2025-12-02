@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/AvatarCore/IAvatarSystem.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarEditorFlowCoordinator_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"

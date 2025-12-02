@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/WeakReference_1.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__WeakReference_1_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 template <typename T> constexpr ::System::Runtime::InteropServices::GCHandle& System::WeakReference_1<T>::__cordl_internal_get_handle() {

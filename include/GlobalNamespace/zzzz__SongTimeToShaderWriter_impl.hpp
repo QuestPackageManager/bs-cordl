@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeToShaderWriter::*)()>(&::GlobalNamespace::SongTimeToShaderWriter::Update)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3b32ec4;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x57144f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeToShaderWriter*>::get(), "Update",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeToShaderWriter::*)()>(&::GlobalNamespace::SongTimeToShaderWriter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b33104;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5714734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeToShaderWriter*>::get(), ".ctor",

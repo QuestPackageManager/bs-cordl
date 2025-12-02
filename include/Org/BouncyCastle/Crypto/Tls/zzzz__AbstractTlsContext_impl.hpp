@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsContext.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SecurityParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::NextCounterValue)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23e14fc;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x330f934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters*)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::_ctor)> {
-  constexpr static std::size_t size = 0x324;
-  constexpr static std::size_t addrs = 0x23e1554;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x330f99c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_NonceRandomGenerator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e1878;
+  constexpr static std::size_t addrs = 0x330fcc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Security::SecureRandom* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_SecureRandom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e1880;
+  constexpr static std::size_t addrs = 0x330fcd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SecurityParameters* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_SecurityParameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e1888;
+  constexpr static std::size_t addrs = 0x330fcd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_ClientVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e1890;
+  constexpr static std::size_t addrs = 0x330fce0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::SetClientVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e1898;
+  constexpr static std::size_t addrs = 0x330fce8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_ServerVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e18a0;
+  constexpr static std::size_t addrs = 0x330fcf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::SetServerVersion)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e18a8;
+  constexpr static std::size_t addrs = 0x330fcf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsSession* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_ResumableSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e18b0;
+  constexpr static std::size_t addrs = 0x330fd00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +188,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::Org::BouncyCastle::Crypto::Tls::TlsSession*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::SetResumableSession)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e18b8;
+  constexpr static std::size_t addrs = 0x330fd08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::get_UserObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e18c0;
+  constexpr static std::size_t addrs = 0x330fd10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::set_UserObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e18c8;
+  constexpr static std::size_t addrs = 0x330fd18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +236,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext::ExportKeyingMaterial)> {
   constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x23e18d0;
+  constexpr static std::size_t addrs = 0x330fd20;
 
   inline static ::MethodInfo const* methodInfo() {
 

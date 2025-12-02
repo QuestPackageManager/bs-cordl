@@ -42,24 +42,24 @@ public:
   /// @brief Field _subtree, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__subtree, put = __cordl_internal_set__subtree)) ::System::Xml::Schema::ForwardAxis* _subtree;
 
-  /// @brief Method Equal, addr 0x4393f1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Equal, addr 0x60fa724, size 0x74, virtual false, abstract: false, final false
   static inline bool Equal(::StringW thisname, ::StringW thisURN, ::StringW name, ::StringW URN);
 
-  /// @brief Method MoveToAttribute, addr 0x43943c4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method MoveToAttribute, addr 0x60fabb4, size 0x178, virtual false, abstract: false, final false
   inline bool MoveToAttribute(::StringW name, ::StringW URN, int32_t depth);
 
-  /// @brief Method MoveToChild, addr 0x4394284, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MoveToChild, addr 0x60faa70, size 0x144, virtual false, abstract: false, final false
   inline bool MoveToChild(::StringW name, ::StringW URN, int32_t depth);
 
-  /// @brief Method MoveToParent, addr 0x439413c, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method MoveToParent, addr 0x60fa928, size 0x148, virtual false, abstract: false, final false
   inline void MoveToParent(::StringW name, ::StringW URN, int32_t depth);
 
   static inline ::System::Xml::Schema::AxisStack* New_ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent);
 
-  /// @brief Method Pop, addr 0x43940fc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x60fa8e8, size 0x40, virtual false, abstract: false, final false
   inline void Pop();
 
-  /// @brief Method Push, addr 0x4394068, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x60fa85c, size 0x8c, virtual false, abstract: false, final false
   inline void Push(int32_t depth);
 
   constexpr ::System::Xml::Schema::ActiveAxis* const& __cordl_internal_get__parent() const;
@@ -80,13 +80,13 @@ public:
 
   constexpr void __cordl_internal_set__subtree(::System::Xml::Schema::ForwardAxis* value);
 
-  /// @brief Method .ctor, addr 0x4393fc4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60fa7c0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::ForwardAxis* faxis, ::System::Xml::Schema::ActiveAxis* parent);
 
-  /// @brief Method get_Length, addr 0x4393fa0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_Length, addr 0x60fa7a0, size 0x20, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
-  /// @brief Method get_Subtree, addr 0x4393f98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Subtree, addr 0x60fa798, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::ForwardAxis* get_Subtree();
 
 protected:
@@ -104,7 +104,7 @@ public:
   AxisStack(AxisStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9540 };
 
   /// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____stack;

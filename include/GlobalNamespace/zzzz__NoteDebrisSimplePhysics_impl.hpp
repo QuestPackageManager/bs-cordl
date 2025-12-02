@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteDebrisSimplePhysics::*)()>(
     &::GlobalNamespace::NoteDebrisSimplePhysics::get_currentLinearVelocity)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aece94;
+  constexpr static std::size_t addrs = 0x56c8cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisSimplePhysics*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteDebrisSimplePhysics::*)()>(
     &::GlobalNamespace::NoteDebrisSimplePhysics::get_currentAngularVelocityDegrees)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aecea0;
+  constexpr static std::size_t addrs = 0x56c8ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&::GlobalNamespace::NoteDebrisSimplePhysics::Awake)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3aeceac;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x56c8cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisSimplePhysics*>::get(), "Awake",
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&::GlobalNamespace::NoteDebrisSimplePhysics::LateUpdate)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3aecbcc;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x56c89e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisSimplePhysics*>::get(), "LateUpdate",
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSimplePhysics::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, bool)>(
     &::GlobalNamespace::NoteDebrisSimplePhysics::Init)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3aecf1c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x56c8d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteDebrisSimplePhysics::*)()>(&::GlobalNamespace::NoteDebrisSimplePhysics::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aecfc0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56c8e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteDebrisSimplePhysics*>::get(), ".ctor",

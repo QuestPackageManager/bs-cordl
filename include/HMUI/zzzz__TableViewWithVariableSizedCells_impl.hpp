@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::get_contentSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a01cc8;
+  constexpr static std::size_t addrs = 0x567b344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::GetMinVisibleIdx)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3a01cd0;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x567b34c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::GetMaxVisibleIdx)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3a01da8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x567b41c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TableViewWithVariableSizedCells::*)(int32_t)>(
     &::HMUI::TableViewWithVariableSizedCells::GetCellSize)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3a01e9c;
+  constexpr static std::size_t addrs = 0x567b50c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::TableViewWithVariableSizedCells::*)(int32_t)>(
     &::HMUI::TableViewWithVariableSizedCells::GetCellPosition)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3a01ecc;
+  constexpr static std::size_t addrs = 0x567b53c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::UpdateCachedData)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3a01f1c;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x567b58c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TableViewWithVariableSizedCells::*)()>(&::HMUI::TableViewWithVariableSizedCells::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a02134;
+  constexpr static std::size_t addrs = 0x567b780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TableViewWithVariableSizedCells*>::get(), ".ctor",

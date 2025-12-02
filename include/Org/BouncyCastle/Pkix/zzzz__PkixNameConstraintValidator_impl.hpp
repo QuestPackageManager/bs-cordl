@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2574ae8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x34a4328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>::get(),
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Org::BouncyCastle::Asn1::Asn1Sequence*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::WithinDNSubtree)> {
-  constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x2583c20;
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x34b3308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedDN)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2583fdc;
+  constexpr static std::size_t addrs = 0x34b36d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedDN)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x2584108;
+  constexpr static std::size_t addrs = 0x34b380c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectDN)> {
-  constexpr static std::size_t size = 0x804;
-  constexpr static std::size_t addrs = 0x2584170;
+  constexpr static std::size_t size = 0x78c;
+  constexpr static std::size_t addrs = 0x34b3874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionDN)> {
-  constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x2584974;
+  constexpr static std::size_t size = 0x5ec;
+  constexpr static std::size_t addrs = 0x34b4000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +110,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectOtherName)> {
-  constexpr static std::size_t size = 0x69c;
-  constexpr static std::size_t addrs = 0x2584f7c;
+  constexpr static std::size_t size = 0x65c;
+  constexpr static std::size_t addrs = 0x34b45ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +127,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Asn1::X509::OtherName*, ::Org::BouncyCastle::Asn1::X509::OtherName*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectOtherName)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2585618;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x34b4c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,8 +145,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionOtherName)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x25856f0;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x34b4d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,8 +162,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectEmail)> {
-  constexpr static std::size_t size = 0x6c0;
-  constexpr static std::size_t addrs = 0x25857e0;
+  constexpr static std::size_t size = 0x650;
+  constexpr static std::size_t addrs = 0x34b4e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionEmail)> {
-  constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x2586494;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x34b59c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,8 +195,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectIP)> {
-  constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x2587254;
+  constexpr static std::size_t size = 0x720;
+  constexpr static std::size_t addrs = 0x34b65e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,8 +212,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionIP)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x2587c38;
+  constexpr static std::size_t size = 0x48c;
+  constexpr static std::size_t addrs = 0x34b6f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,8 +229,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionIPRange)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x25880ec;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x34b73d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,7 +247,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectIPRange)> {
   constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x25879f4;
+  constexpr static std::size_t addrs = 0x34b6d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,8 +262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IpWithSubnetMask)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x25888a0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x34b7c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +279,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ExtractIPsAndSubnetMasks)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x2588260;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x34b75ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,8 +296,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Array<::ArrayW<uint8_t, ::Array<uint8_t>*>>*> (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>,
                                                                ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::MinMaxIPs)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x25883dc;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x34b7730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,7 +315,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Asn1::X509::OtherName*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsOtherNameConstrained)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2588944;
+  constexpr static std::size_t addrs = 0x34b7cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,8 +330,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsOtherNameConstrained)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x2588960;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x34b7ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -347,7 +347,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedOtherName)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2588c6c;
+  constexpr static std::size_t addrs = 0x34b7fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -363,7 +363,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::X509::OtherName*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedOtherName)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2588d30;
+  constexpr static std::size_t addrs = 0x34b807c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -378,8 +378,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsEmailConstrained)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x2588d88;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x34b80d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,8 +393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsEmailConstrained)> {
-  constexpr static std::size_t size = 0x33c;
-  constexpr static std::size_t addrs = 0x25890f4;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x34b847c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,8 +409,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedEmail)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2589430;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x34b876c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -426,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedEmail)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x258954c;
+  constexpr static std::size_t addrs = 0x34b8884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -441,8 +441,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsDnsConstrained)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x25895a4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x34b88dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -456,8 +456,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsDnsConstrained)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x2589624;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x34b896c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -472,8 +472,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedDns)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2589950;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x34b8c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -489,7 +489,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedDns)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2589a5c;
+  constexpr static std::size_t addrs = 0x34b8d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -504,8 +504,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsDirectoryConstrained)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x2589ab4;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x34b8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -520,8 +520,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedDirectory)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2583fec;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x34b36e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -537,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Asn1::Asn1Sequence*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedDirectory)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2584118;
+  constexpr static std::size_t addrs = 0x34b381c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -552,8 +552,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsUriConstrained)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x2589de8;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x34b90d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -567,8 +567,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsUriConstrained)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x258a070;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x34b93a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -583,8 +583,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedUri)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x258a39c;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x34b9698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -600,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedUri)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x258a4a8;
+  constexpr static std::size_t addrs = 0x34b97b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -615,8 +615,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsIPConstrained)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x258a500;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x34b9808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -631,8 +631,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IsIPConstrained)> {
-  constexpr static std::size_t size = 0x34c;
-  constexpr static std::size_t addrs = 0x258a6b8;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x34b99c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -647,8 +647,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckPermittedIP)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x258aa04;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x34b9cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -664,7 +664,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CheckExcludedIP)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x258ab10;
+  constexpr static std::size_t addrs = 0x34b9e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -679,8 +679,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::StringW, ::StringW)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::WithinDomain)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x2588f00;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x34b826c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -694,8 +694,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionEmail)> {
-  constexpr static std::size_t size = 0x984;
-  constexpr static std::size_t addrs = 0x25868d0;
+  constexpr static std::size_t size = 0x834;
+  constexpr static std::size_t addrs = 0x34b5db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -710,8 +710,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::unionURI)> {
-  constexpr static std::size_t size = 0x984;
-  constexpr static std::size_t addrs = 0x258ab68;
+  constexpr static std::size_t size = 0x834;
+  constexpr static std::size_t addrs = 0x34b9e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -727,8 +727,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectDns)> {
-  constexpr static std::size_t size = 0x7e0;
-  constexpr static std::size_t addrs = 0x258b4ec;
+  constexpr static std::size_t size = 0x754;
+  constexpr static std::size_t addrs = 0x34ba690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -743,8 +743,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionDns)> {
-  constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x258bccc;
+  constexpr static std::size_t size = 0x5c4;
+  constexpr static std::size_t addrs = 0x34bade4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -759,8 +759,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectEmail)> {
-  constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x2585ecc;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x34b5498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -776,8 +776,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectUri)> {
-  constexpr static std::size_t size = 0x6ac;
-  constexpr static std::size_t addrs = 0x258c2bc;
+  constexpr static std::size_t size = 0x650;
+  constexpr static std::size_t addrs = 0x34bb3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -792,8 +792,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::Collections::ISet* (
     ::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Utilities::Collections::ISet*, ::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::UnionUri)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x258cf30;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x34bbf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -808,8 +808,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::StringW, ::StringW, ::Org::BouncyCastle::Utilities::Collections::ISet*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectUri)> {
-  constexpr static std::size_t size = 0x5c8;
-  constexpr static std::size_t addrs = 0x258c968;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x34bb9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -823,8 +823,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ExtractHostFromURL)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x2589ed4;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x34b91d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -838,8 +838,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::checkPermitted)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x258d354;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x34bc310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -853,8 +853,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::checkExcluded)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x258d47c;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x34bc424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -868,8 +868,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectPermittedSubtree)> {
-  constexpr static std::size_t size = 0xaa8;
-  constexpr static std::size_t addrs = 0x258d5a4;
+  constexpr static std::size_t size = 0xa04;
+  constexpr static std::size_t addrs = 0x34bc538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -884,7 +884,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ExtractNameAsString)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2585ea0;
+  constexpr static std::size_t addrs = 0x34b546c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -898,8 +898,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(int32_t)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::IntersectEmptyPermittedSubtree)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x258e04c;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x34bcf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -913,8 +913,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::Org::BouncyCastle::Asn1::X509::GeneralSubtree*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::AddExcludedSubtree)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x258e180;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x34bd078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -928,8 +928,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Max)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x258868c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x34b79e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -944,8 +944,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Min)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2588618;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x34b7974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -960,8 +960,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CompareTo)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2588700;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x34b7a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -976,8 +976,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Or)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x25887dc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x34b7b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -993,7 +993,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::HashCode)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x258e308;
+  constexpr static std::size_t addrs = 0x34bd21c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>::get(),
@@ -1007,7 +1007,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::GetHashCode)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x258e314;
+  constexpr static std::size_t addrs = 0x34bd228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1022,8 +1022,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::HashCollection)> {
-  constexpr static std::size_t size = 0x394;
-  constexpr static std::size_t addrs = 0x258e404;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x34bd318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1037,8 +1037,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Object*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::Equals)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x258e798;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x34bd694;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1053,8 +1053,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::System::Collections::ICollection*, ::System::Collections::ICollection*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::CollectionsAreEqual)> {
-  constexpr static std::size_t size = 0x6a8;
-  constexpr static std::size_t addrs = 0x258e904;
+  constexpr static std::size_t size = 0x630;
+  constexpr static std::size_t addrs = 0x34bd7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1069,8 +1069,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::SpecialEquals)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x258efac;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x34bde10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Pkix::PkixNameConstraintValidator*>::get(),
@@ -1085,8 +1085,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::StringifyIP)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x258f0d4;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x34bdf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1100,8 +1100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::StringifyIPCollection)> {
-  constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x258f298;
+  constexpr static std::size_t size = 0x3d4;
+  constexpr static std::size_t addrs = 0x34be0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1115,8 +1115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)(
     ::Org::BouncyCastle::Utilities::Collections::ISet*)>(&::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::StringifyOtherNameCollection)> {
-  constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x258f688;
+  constexpr static std::size_t size = 0x578;
+  constexpr static std::size_t addrs = 0x34be4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1131,8 +1131,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::*)()>(
     &::Org::BouncyCastle::Pkix::PkixNameConstraintValidator::ToString)> {
-  constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x258fc1c;
+  constexpr static std::size_t size = 0x6e8;
+  constexpr static std::size_t addrs = 0x34bea40;
 
   inline static ::MethodInfo const* methodInfo() {
 

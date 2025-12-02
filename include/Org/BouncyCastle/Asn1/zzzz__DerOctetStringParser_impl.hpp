@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/DerOctetStringParser.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerOctetStringParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DefiniteLengthInputStream_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DerOctetStringParser._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerOctetStringParser::*)(::Org::BouncyCastle::Asn1::DefiniteLengthInputStream*)>(
     &::Org::BouncyCastle::Asn1::DerOctetStringParser::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2631704;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x356165c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Asn1::DerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerOctetStringParser::GetOctetStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x263a8ac;
+  constexpr static std::size_t addrs = 0x356a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerOctetStringParser*>::get(),
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerOctetStringParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerOctetStringParser::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x263a8b4;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x356a600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerOctetStringParser*>::get(),

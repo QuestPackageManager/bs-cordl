@@ -3,8 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
 CORDL_MODULE_EXPORT(AssetBundleRequest)
+namespace System {
+struct IntPtr;
+}
+namespace UnityEngine {
+class AssetBundleRequest_BindingsMarshaller;
+}
 namespace UnityEngine {
 class Object;
 }
@@ -12,8 +19,48 @@ class Object;
 namespace UnityEngine {
 class AssetBundleRequest;
 }
+namespace UnityEngine {
+class AssetBundleRequest_BindingsMarshaller;
+}
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AssetBundleRequest);
+MARK_REF_PTR_T(::UnityEngine::AssetBundleRequest_BindingsMarshaller);
+// Dependencies System.Object
+namespace UnityEngine {
+// Is value type: false
+// CS Name: UnityEngine.AssetBundleRequest/BindingsMarshaller
+class CORDL_TYPE AssetBundleRequest_BindingsMarshaller : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Method ConvertToManaged, addr 0x6813dc4, size 0x84, virtual false, abstract: false, final false
+  static inline ::UnityEngine::AssetBundleRequest* ConvertToManaged(::System::IntPtr ptr);
+
+  /// @brief Method ConvertToNative, addr 0x6813e48, size 0x14, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ConvertToNative(::UnityEngine::AssetBundleRequest* request);
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr AssetBundleRequest_BindingsMarshaller();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest_BindingsMarshaller", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  AssetBundleRequest_BindingsMarshaller(AssetBundleRequest_BindingsMarshaller&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "AssetBundleRequest_BindingsMarshaller", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  AssetBundleRequest_BindingsMarshaller(AssetBundleRequest_BindingsMarshaller const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22684 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AssetBundleRequest_BindingsMarshaller, 0x10>, "Size mismatch!");
+
+} // namespace UnityEngine
 // Dependencies UnityEngine.ResourceRequest
 namespace UnityEngine {
 // Is value type: false
@@ -21,22 +68,30 @@ namespace UnityEngine {
 class CORDL_TYPE AssetBundleRequest : public ::UnityEngine::ResourceRequest {
 public:
   // Declarations
+  using BindingsMarshaller = ::UnityEngine::AssetBundleRequest_BindingsMarshaller;
+
   __declspec(property(get = get_allAssets)) ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> allAssets;
 
   __declspec(property(get = get_asset)) ::UnityW<::UnityEngine::Object> asset;
 
-  /// @brief Method GetResult, addr 0x485809c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x6813b68, size 0x13c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
-  static inline ::UnityEngine::AssetBundleRequest* New_ctor();
+  /// @brief Method GetResult_Injected, addr 0x6813ca4, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetResult_Injected(::System::IntPtr _unity_self);
 
-  /// @brief Method .ctor, addr 0x4858120, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  static inline ::UnityEngine::AssetBundleRequest* New_ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_allAssets, addr 0x48580e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6813d78, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
+
+  /// @brief Method get_allAssets, addr 0x6813cec, size 0x50, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> get_allAssets();
 
-  /// @brief Method get_asset, addr 0x48580d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_allAssets_Injected, addr 0x6813d3c, size 0x3c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> get_allAssets_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_asset, addr 0x6813ce0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:
@@ -54,7 +109,7 @@ public:
   AssetBundleRequest(AssetBundleRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18847 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22685 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -64,3 +119,5 @@ static_assert(::cordl_internals::size_check_v<::UnityEngine::AssetBundleRequest,
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::AssetBundleRequest);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleRequest*, "UnityEngine", "AssetBundleRequest");
+NEED_NO_BOX(::UnityEngine::AssetBundleRequest_BindingsMarshaller);
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AssetBundleRequest_BindingsMarshaller*, "UnityEngine", "AssetBundleRequest/BindingsMarshaller");

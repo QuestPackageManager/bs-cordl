@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StaticPreviewMediaData.hpp"
-#include "GlobalNamespace/zzzz__IPreviewMediaData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StaticPreviewMediaData_def.hpp"
+#include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)(::UnityEngine::Sprite*, ::UnityEngine::AudioClip*)>(
     &::GlobalNamespace::StaticPreviewMediaData::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26c9438;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35fba20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* (
     ::GlobalNamespace::StaticPreviewMediaData::*)()>(&::GlobalNamespace::StaticPreviewMediaData::GetCoverSpriteAsync)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26ce2f4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3600d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* (
     ::GlobalNamespace::StaticPreviewMediaData::*)()>(&::GlobalNamespace::StaticPreviewMediaData::GetPreviewAudioClip)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26ce364;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3600dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)()>(
     &::GlobalNamespace::StaticPreviewMediaData::UnloadPreviewAudioClip)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ce3d4;
+  constexpr static std::size_t addrs = 0x3600e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StaticPreviewMediaData::*)()>(
     &::GlobalNamespace::StaticPreviewMediaData::UnloadCoverSprite)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26ce3d8;
+  constexpr static std::size_t addrs = 0x3600e40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StaticPreviewMediaData*>::get(),

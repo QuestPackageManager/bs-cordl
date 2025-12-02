@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(RandomAnimationStartTime)
+namespace GlobalNamespace {
+class IRandom;
+}
 namespace UnityEngine {
 class Animation;
 }
@@ -24,18 +27,30 @@ public:
   /// @brief Field _animation, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__animation, put = __cordl_internal_set__animation)) ::UnityW<::UnityEngine::Animation> _animation;
 
+  /// @brief Field _random, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::GlobalNamespace::IRandom* _random;
+
   static inline ::GlobalNamespace::RandomAnimationStartTime* New_ctor();
 
-  /// @brief Method Start, addr 0x39c33c0, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method PlayAnimation, addr 0x563de44, size 0x2bc, virtual false, abstract: false, final false
+  inline void PlayAnimation();
+
+  /// @brief Method Start, addr 0x563de40, size 0x4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
 
   constexpr ::UnityW<::UnityEngine::Animation>& __cordl_internal_get__animation();
 
+  constexpr ::GlobalNamespace::IRandom* const& __cordl_internal_get__random() const;
+
+  constexpr ::GlobalNamespace::IRandom*& __cordl_internal_get__random();
+
   constexpr void __cordl_internal_set__animation(::UnityW<::UnityEngine::Animation> value);
 
-  /// @brief Method .ctor, addr 0x39c3698, size 0x8, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__random(::GlobalNamespace::IRandom* value);
+
+  /// @brief Method .ctor, addr 0x563e100, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -53,17 +68,22 @@ public:
   RandomAnimationStartTime(RandomAnimationStartTime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20053 };
 
   /// @brief Field _animation, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Animation> ____animation;
+
+  /// @brief Field _random, offset: 0x28, size: 0x8, def value: None
+  ::GlobalNamespace::IRandom* ____random;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::RandomAnimationStartTime, ____animation) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomAnimationStartTime, 0x28>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::RandomAnimationStartTime, ____random) == 0x28, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RandomAnimationStartTime, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RandomAnimationStartTime);

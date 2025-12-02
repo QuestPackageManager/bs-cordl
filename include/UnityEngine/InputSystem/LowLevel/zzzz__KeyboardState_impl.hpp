@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/KeyboardState.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__KeyboardState_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__KeyboardState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::KeyboardState::get_Format)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46088e0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638fe44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::KeyboardState>::get(),
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::KeyboardState::*)(
     ::ArrayW<::UnityEngine::InputSystem::Key, ::Array<::UnityEngine::InputSystem::Key>*>)>(&::UnityEngine::InputSystem::LowLevel::KeyboardState::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4608910;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x638fe50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::KeyboardState::*)(::UnityEngine::InputSystem::Key, bool)>(
     &::UnityEngine::InputSystem::LowLevel::KeyboardState::Set)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46089d4;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x638ff3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::KeyboardState::*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::LowLevel::KeyboardState::Press)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46089e0;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x638ff6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::KeyboardState::*)(::UnityEngine::InputSystem::Key)>(
     &::UnityEngine::InputSystem::LowLevel::KeyboardState::Release)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46089ec;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x638ff90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::KeyboardState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::KeyboardState::get_format)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46089f8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x638ffb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::KeyboardState>::get(),

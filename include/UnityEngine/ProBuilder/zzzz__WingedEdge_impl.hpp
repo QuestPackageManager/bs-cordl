@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/WingedEdge.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_impl.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
@@ -10,6 +9,7 @@
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Converter_2_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__EdgeLookup_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__Edge_def.hpp"
@@ -20,8 +20,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge___c::*)()>(&::UnityEngine::ProBuilder::WingedEdge___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474c6a0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64e3490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge___c*>::get(), ".ctor",
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::WingedEdge___c::*)(
     ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::WingedEdge___c::_SortCommonIndexesByAdjacency_b__32_1)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x474c6a8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x64e3494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::WingedEdge___c::*)(::UnityEngine::ProBuilder::Edge)>(
     &::UnityEngine::ProBuilder::WingedEdge___c::_SortCommonIndexesByAdjacency_b__32_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474c6c0;
+  constexpr static std::size_t addrs = 0x64e34a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::*)()>(
     &::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474bdb0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64e2ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge___c__DisplayClass32_0::_SortCommonIndexesByAdjacency_b__0)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x474c6c8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x64e34b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::EdgeLookup (::UnityEngine::ProBuilder::WingedEdge::*)()>(
     &::UnityEngine::ProBuilder::WingedEdge::get_edge)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x474aaf8;
+  constexpr static std::size_t addrs = 0x64e17f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), "get_edge",
@@ -186,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::EdgeLookup)>(
     &::UnityEngine::ProBuilder::WingedEdge::set_edge)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab04;
+  constexpr static std::size_t addrs = 0x64e1800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Face* (::UnityEngine::ProBuilder::WingedEdge::*)()>(
     &::UnityEngine::ProBuilder::WingedEdge::get_face)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab0c;
+  constexpr static std::size_t addrs = 0x64e1808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), "get_face",
@@ -215,7 +215,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::WingedEdge::set_face)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab14;
+  constexpr static std::size_t addrs = 0x64e1810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -230,7 +230,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)()>(
     &::UnityEngine::ProBuilder::WingedEdge::get_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab1c;
+  constexpr static std::size_t addrs = 0x64e1818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), "get_next",
@@ -244,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge::set_next)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab24;
+  constexpr static std::size_t addrs = 0x64e1820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)()>(
     &::UnityEngine::ProBuilder::WingedEdge::get_previous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab2c;
+  constexpr static std::size_t addrs = 0x64e1828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), "get_previous",
@@ -273,7 +273,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge::set_previous)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab34;
+  constexpr static std::size_t addrs = 0x64e1830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -288,7 +288,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)()>(
     &::UnityEngine::ProBuilder::WingedEdge::get_opposite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab3c;
+  constexpr static std::size_t addrs = 0x64e1838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), "get_opposite",
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge::set_opposite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab44;
+  constexpr static std::size_t addrs = 0x64e1840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -315,8 +315,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x474ab4c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64e1848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), ".ctor",
@@ -329,8 +329,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdge::*)(::UnityEngine::ProBuilder::WingedEdge*)>(
     &::UnityEngine::ProBuilder::WingedEdge::Equals)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x474ab54;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x64e184c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -343,8 +343,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::WingedEdge::*)(::System::Object*)>(&::UnityEngine::ProBuilder::WingedEdge::Equals)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x474abdc;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x64e18ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -357,8 +357,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::GetHashCode)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x474acd0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x64e19f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,7 +372,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::Count)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x474ad3c;
+  constexpr static std::size_t addrs = 0x64e1a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::WingedEdge*>::get(), "Count",
@@ -384,8 +384,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::WingedEdge::*)()>(&::UnityEngine::ProBuilder::WingedEdge::ToString)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x474ad70;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x64e1aa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -399,8 +399,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::WingedEdge::MakeQuad)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x474af64;
+  constexpr static std::size_t size = 0x3dc;
+  constexpr static std::size_t addrs = 0x64e1ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::WingedEdge* (::UnityEngine::ProBuilder::WingedEdge::*)(int32_t)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetAdjacentEdgeWithCommonIndex)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x474b338;
+  constexpr static std::size_t addrs = 0x64e207c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -430,8 +430,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>* (*)(::UnityEngine::ProBuilder::Face*)>(
     &::UnityEngine::ProBuilder::WingedEdge::SortEdgesByAdjacency)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x474b404;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x64e2148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -445,8 +445,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Edge>*)>(
     &::UnityEngine::ProBuilder::WingedEdge::SortEdgesByAdjacency)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x474b518;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x64e2264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -461,8 +461,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<
     int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>* (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetSpokes)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x474b6b0;
+  constexpr static std::size_t size = 0x484;
+  constexpr static std::size_t addrs = 0x64e2408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -477,8 +477,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::List_1<int32_t>* (*)(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*,
                                                                      ::System::Collections::Generic::HashSet_1<int32_t>*)>(&::UnityEngine::ProBuilder::WingedEdge::SortCommonIndexesByAdjacency)> {
-  constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x474bac8;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x64e288c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -493,8 +493,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, bool)>(&::UnityEngine::ProBuilder::WingedEdge::GetWingedEdges)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x474bdb8;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x64e2ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -510,8 +510,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
     ::UnityEngine::ProBuilder::WingedEdge*>* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*, bool)>(
     &::UnityEngine::ProBuilder::WingedEdge::GetWingedEdges)> {
-  constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x474beac;
+  constexpr static std::size_t size = 0x6e4;
+  constexpr static std::size_t addrs = 0x64e2ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

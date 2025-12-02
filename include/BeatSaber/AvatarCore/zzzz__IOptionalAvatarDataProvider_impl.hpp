@@ -21,11 +21,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider.get_playbackDelaySeconds
+//  Writing Method size for method: ::BeatSaber::AvatarCore::IOptionalAvatarDataProvider.get_playbackDelayMs
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatSaber::AvatarCore::IOptionalAvatarDataProvider::*)()>(
-    &::BeatSaber::AvatarCore::IOptionalAvatarDataProvider::get_playbackDelaySeconds)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::BeatSaber::AvatarCore::IOptionalAvatarDataProvider::*)()>(
+    &::BeatSaber::AvatarCore::IOptionalAvatarDataProvider::get_playbackDelayMs)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -90,10 +90,10 @@ inline ::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::Avata
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<uint32_t, ::BeatSaber::AvatarCore::OptionalAvatarData>*, false>(this, ___internal_method);
 }
-inline float_t BeatSaber::AvatarCore::IOptionalAvatarDataProvider::get_playbackDelaySeconds() {
+inline int64_t BeatSaber::AvatarCore::IOptionalAvatarDataProvider::get_playbackDelayMs() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::IOptionalAvatarDataProvider*>::get(), 1)));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
 }
 inline void BeatSaber::AvatarCore::IOptionalAvatarDataProvider::add_dataDidChangeEvent(::System::Action_1<::BeatSaber::AvatarCore::OptionalAvatarData>* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

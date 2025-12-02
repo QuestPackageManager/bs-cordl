@@ -4,17 +4,21 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsEncryptionCredentials_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsEncryptionCredentials)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsEncryptionCredentials;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
 class AbstractTlsEncryptionCredentials;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials);
-// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsCredentials, Org.BouncyCastle.Crypto.Tls.TlsCredentials, Org.BouncyCastle.Crypto.Tls.TlsEncryptionCredentials
+// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsCredentials
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsEncryptionCredentials
@@ -32,7 +36,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsEncryptionCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e1c04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331005c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCredentials"

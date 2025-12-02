@@ -195,7 +195,7 @@ public:
   DisappearingArrowControllerBase_1(DisappearingArrowControllerBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5661 };
 
   /// @brief Field _transparentObjectMaterialPropertyBlocks, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> ____transparentObjectMaterialPropertyBlocks;

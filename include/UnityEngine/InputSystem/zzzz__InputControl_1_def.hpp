@@ -59,7 +59,7 @@ public:
   inline void AddProcessor(::System::Object* processor);
 
   /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr);
+  inline bool CompareValue(void* firstStatePtr, void* secondStatePtr);
 
   /// @brief Method CompareValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool CompareValue(::ByRef<TValue> firstValue, ::ByRef<TValue> secondValue);
@@ -82,43 +82,43 @@ public:
   inline TValue ReadUnprocessedValue();
 
   /// @brief Method ReadUnprocessedValueFromState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TValue ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
+  inline TValue ReadUnprocessedValueFromState(void* statePtr);
 
   /// @brief Method ReadUnprocessedValueFromStateWithCaching, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue ReadUnprocessedValueFromStateWithCaching(::cordl_internals::Ptr<void> statePtr);
+  inline TValue ReadUnprocessedValueFromStateWithCaching(void* statePtr);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadValue();
 
   /// @brief Method ReadValueFromBufferAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Object* ReadValueFromBufferAsObject(::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+  inline ::System::Object* ReadValueFromBufferAsObject(void* buffer, int32_t bufferSize);
 
   /// @brief Method ReadValueFromPreviousFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValue ReadValueFromPreviousFrame();
 
   /// @brief Method ReadValueFromState, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue ReadValueFromState(::cordl_internals::Ptr<void> statePtr);
+  inline TValue ReadValueFromState(void* statePtr);
 
   /// @brief Method ReadValueFromStateAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Object* ReadValueFromStateAsObject(::cordl_internals::Ptr<void> statePtr);
+  inline ::System::Object* ReadValueFromStateAsObject(void* statePtr);
 
   /// @brief Method ReadValueFromStateIntoBuffer, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize);
+  inline void ReadValueFromStateIntoBuffer(void* statePtr, void* bufferPtr, int32_t bufferSize);
 
   /// @brief Method ReadValueFromStateWithCaching, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TValue ReadValueFromStateWithCaching(::cordl_internals::Ptr<void> statePtr);
+  inline TValue ReadValueFromStateWithCaching(void* statePtr);
 
   /// @brief Method TryGetProcessor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TProcessor> inline TProcessor TryGetProcessor();
 
   /// @brief Method WriteValueFromBufferIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void WriteValueFromBufferIntoState(::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize, ::cordl_internals::Ptr<void> statePtr);
+  inline void WriteValueFromBufferIntoState(void* bufferPtr, int32_t bufferSize, void* statePtr);
 
   /// @brief Method WriteValueFromObjectIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void WriteValueFromObjectIntoState(::System::Object* value, ::cordl_internals::Ptr<void> statePtr);
+  inline void WriteValueFromObjectIntoState(::System::Object* value, void* statePtr);
 
   /// @brief Method WriteValueIntoState, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(TValue value, ::cordl_internals::Ptr<void> statePtr);
+  inline void WriteValueIntoState(TValue value, void* statePtr);
 
   constexpr bool const& __cordl_internal_get_evaluateProcessorsEveryRead() const;
 
@@ -177,7 +177,7 @@ public:
   InputControl_1(InputControl_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6622 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8675 };
 
   /// @brief Field m_ProcessorStack, offset: 0xe0, size: 0x18, def value: None
   ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::InputProcessor_1<TValue>*> ___m_ProcessorStack;

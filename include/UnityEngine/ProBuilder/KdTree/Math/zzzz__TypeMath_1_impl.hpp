@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/Math/TypeMath_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/Math/zzzz__TypeMath_1_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 template <typename T> inline int32_t UnityEngine::ProBuilder::KdTree::Math::TypeMath_1<T>::Compare(T a, T b) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

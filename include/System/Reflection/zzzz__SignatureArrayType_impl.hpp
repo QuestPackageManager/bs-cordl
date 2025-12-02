@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::SignatureArrayType::*)(::System::Reflection::SignatureType*, int32_t, bool)>(
     &::System::Reflection::SignatureArrayType::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d25cac;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x596ac20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::IsArrayImpl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d25d0c;
+  constexpr static std::size_t addrs = 0x596acac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(), "IsArrayImpl",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::IsByRefImpl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d25d14;
+  constexpr static std::size_t addrs = 0x596acb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(), "IsByRefImpl",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::IsPointerImpl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d25d1c;
+  constexpr static std::size_t addrs = 0x596acbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(),
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::get_IsSZArray)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d25d24;
+  constexpr static std::size_t addrs = 0x596acc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::SignatureArrayType::*)()>(
     &::System::Reflection::SignatureArrayType::get_IsVariableBoundArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d25d34;
+  constexpr static std::size_t addrs = 0x596acd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(),
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::GetArrayRank)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d25d3c;
+  constexpr static std::size_t addrs = 0x596acdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(), "GetArrayRank",
@@ -102,8 +102,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::SignatureArrayType::*)()>(&::System::Reflection::SignatureArrayType::get_Suffix)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3d25d44;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x596ace4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::SignatureArrayType*>::get(), "get_Suffix",

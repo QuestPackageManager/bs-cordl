@@ -1,12 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/RenderTargetIdentifier.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_impl.hpp"
 #include "UnityEngine/zzzz__CubemapFace_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__RenderTargetIdentifier_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__BuiltinRenderTextureType_def.hpp"
+#include "UnityEngine/zzzz__CubemapFace_def.hpp"
+#include "UnityEngine/zzzz__RenderBuffer_def.hpp"
 #include "UnityEngine/zzzz__Texture_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
 template <>
@@ -14,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::UnityEngine::Rendering::BuiltinRenderTextureType)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48c4320;
+  constexpr static std::size_t addrs = 0x68d53ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,10 +28,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::StringW)>(
+    &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x68d540c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(int32_t)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48c4340;
+  constexpr static std::size_t addrs = 0x68d5444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,10 +58,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(int32_t, int32_t, ::UnityEngine::CubemapFace, int32_t)>(
+    &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x68d5464;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(
+    ::UnityEngine::Rendering::RenderTargetIdentifier, int32_t, ::UnityEngine::CubemapFace, int32_t)>(&::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x68d5480;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x48c4360;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x68d54ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,13 +104,47 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(
+    ::UnityEngine::Texture*, int32_t, ::UnityEngine::CubemapFace, int32_t)>(&::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x68d55d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::RenderTargetIdentifier::*)(
+    ::UnityEngine::RenderBuffer, int32_t, ::UnityEngine::CubemapFace, int32_t)>(&::UnityEngine::Rendering::RenderTargetIdentifier::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x68d570c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderBuffer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier.op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(::UnityEngine::Rendering::BuiltinRenderTextureType)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48c4474;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x68d572c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,10 +156,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier.op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(::StringW)>(
+    &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x68d574c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Implicit",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier.op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(int32_t)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x48c4498;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x68d5780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -88,8 +188,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::RenderTargetIdentifier (*)(::UnityEngine::Texture*)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x48c44b4;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x68d57a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Rendering::RenderTargetIdentifier::*)()>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::ToString)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x48c44fc;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x68d57e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,8 +219,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::RenderTargetIdentifier::*)()>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::GetHashCode)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x48c47a4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x68d5a74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -135,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::UnityEngine::Rendering::RenderTargetIdentifier)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x48c47f0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x68d5a8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,8 +250,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::RenderTargetIdentifier::*)(::System::Object*)>(
     &::UnityEngine::Rendering::RenderTargetIdentifier::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x48c4888;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x68d5b08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,11 +261,49 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier.op_Equality
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier)>(
+    &::UnityEngine::Rendering::RenderTargetIdentifier::op_Equality)> {
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x68d5b9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::RenderTargetIdentifier.op_Inequality
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::RenderTargetIdentifier, ::UnityEngine::Rendering::RenderTargetIdentifier)>(
+    &::UnityEngine::Rendering::RenderTargetIdentifier::op_Inequality)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x68d5bcc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Inequality", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get() })));
+    return ___internal_method;
+  }
+};
 inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::UnityEngine::Rendering::BuiltinRenderTextureType type) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BuiltinRenderTextureType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, type);
+}
+inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
 inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(int32_t nameID) {
   static auto* ___internal_method =
@@ -173,11 +311,44 @@ inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(int32_t nameID
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nameID);
 }
+inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(int32_t nameID, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace, int32_t depthSlice) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nameID, mipLevel, cubeFace, depthSlice);
+}
+inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::UnityEngine::Rendering::RenderTargetIdentifier renderTargetIdentifier, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace,
+                                                                  int32_t depthSlice) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, renderTargetIdentifier, mipLevel, cubeFace, depthSlice);
+}
 inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::UnityEngine::Texture* tex) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tex);
+}
+inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::UnityEngine::Texture* tex, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace, int32_t depthSlice) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Texture*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, tex, mipLevel, cubeFace, depthSlice);
+}
+inline void UnityEngine::Rendering::RenderTargetIdentifier::_ctor(::UnityEngine::RenderBuffer buf, int32_t mipLevel, ::UnityEngine::CubemapFace cubeFace, int32_t depthSlice) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderBuffer>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::CubemapFace>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buf, mipLevel, cubeFace, depthSlice);
 }
 inline ::UnityEngine::Rendering::RenderTargetIdentifier
 UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::UnityEngine::Rendering::BuiltinRenderTextureType type) {
@@ -185,6 +356,12 @@ UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rende
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Implicit", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BuiltinRenderTextureType>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderTargetIdentifier, false>(nullptr, ___internal_method, type);
+}
+inline ::UnityEngine::Rendering::RenderTargetIdentifier UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Implicit",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::RenderTargetIdentifier, false>(nullptr, ___internal_method, name);
 }
 inline ::UnityEngine::Rendering::RenderTargetIdentifier UnityEngine::Rendering::RenderTargetIdentifier::op_Implicit___UnityEngine__Rendering__RenderTargetIdentifier(int32_t nameID) {
   static auto* ___internal_method =
@@ -218,6 +395,20 @@ inline bool UnityEngine::Rendering::RenderTargetIdentifier::Equals(::System::Obj
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+}
+inline bool UnityEngine::Rendering::RenderTargetIdentifier::op_Equality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
+}
+inline bool UnityEngine::Rendering::RenderTargetIdentifier::op_Inequality(::UnityEngine::Rendering::RenderTargetIdentifier lhs, ::UnityEngine::Rendering::RenderTargetIdentifier rhs) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderTargetIdentifier>::get(), "op_Inequality", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::RenderTargetIdentifier>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, lhs, rhs);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>"
 constexpr UnityEngine::Rendering::RenderTargetIdentifier::operator ::System::IEquatable_1<::UnityEngine::Rendering::RenderTargetIdentifier>*() {

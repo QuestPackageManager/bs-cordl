@@ -24,21 +24,21 @@ public:
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::MagneticFieldSensor* _current_k__BackingField;
 
-  /// @brief Field <magneticField>k__BackingField, offset 0x170, size 0x8
+  /// @brief Field <magneticField>k__BackingField, offset 0x188, size 0x8
   __declspec(property(get = __cordl_internal_get__magneticField_k__BackingField,
                       put = __cordl_internal_set__magneticField_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _magneticField_k__BackingField;
 
   __declspec(property(get = get_magneticField, put = set_magneticField)) ::UnityEngine::InputSystem::Controls::Vector3Control* magneticField;
 
-  /// @brief Method FinishSetup, addr 0x45c7e08, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6348414, size 0x70, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x45c7d30, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x6348334, size 0x50, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x45c7d84, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x6348384, size 0x90, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__magneticField_k__BackingField() const;
@@ -47,23 +47,23 @@ public:
 
   constexpr void __cordl_internal_set__magneticField_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method .ctor, addr 0x45c7e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6348484, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_current, addr 0x45c7c9c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x6348298, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::MagneticFieldSensor* get_current();
 
-  /// @brief Method get_magneticField, addr 0x45c7c8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_magneticField, addr 0x6348288, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_magneticField();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::MagneticFieldSensor* value);
 
-  /// @brief Method set_current, addr 0x45c7ce4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x63482e4, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::MagneticFieldSensor* value);
 
-  /// @brief Method set_magneticField, addr 0x45c7c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_magneticField, addr 0x6348290, size 0x8, virtual false, abstract: false, final false
   inline void set_magneticField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
 protected:
@@ -81,17 +81,17 @@ public:
   MagneticFieldSensor(MagneticFieldSensor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6688 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8741 };
 
-  /// @brief Field <magneticField>k__BackingField, offset: 0x170, size: 0x8, def value: None
+  /// @brief Field <magneticField>k__BackingField, offset: 0x188, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____magneticField_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InputSystem::MagneticFieldSensor, ____magneticField_k__BackingField) == 0x170, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::MagneticFieldSensor, ____magneticField_k__BackingField) == 0x188, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::MagneticFieldSensor, 0x178>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::MagneticFieldSensor, 0x190>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::MagneticFieldSensor);

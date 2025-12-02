@@ -19,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE SpaceAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field height, offset 0x10, size 0x4
+  /// @brief Field height, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_height, put = __cordl_internal_set_height)) float_t height;
 
   static inline ::UnityEngine::SpaceAttribute* New_ctor();
@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_height(float_t value);
 
-  /// @brief Method .ctor, addr 0x48a6cbc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a4698, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48a6cdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a46a8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(float_t height);
 
 protected:
@@ -53,17 +53,17 @@ public:
   SpaceAttribute(SpaceAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10255 };
 
-  /// @brief Field height, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field height, offset: 0x18, size: 0x4, def value: None
   float_t ___height;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::SpaceAttribute, ___height) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::SpaceAttribute, ___height) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::SpaceAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::SpaceAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::SpaceAttribute);

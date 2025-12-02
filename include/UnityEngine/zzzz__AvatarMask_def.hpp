@@ -8,6 +8,12 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(AvatarMask)
+namespace System {
+struct IntPtr;
+}
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 namespace UnityEngine {
 struct AvatarMaskBodyPart;
 }
@@ -26,20 +32,40 @@ public:
   // Declarations
   __declspec(property(get = get_transformCount)) int32_t transformCount;
 
-  /// @brief Method GetHumanoidBodyPartActive, addr 0x48543a0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive, addr 0x680e764, size 0x90, virtual false, abstract: false, final false
   inline bool GetHumanoidBodyPartActive(::UnityEngine::AvatarMaskBodyPart index);
 
-  /// @brief Method GetTransformActive, addr 0x48544a8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetHumanoidBodyPartActive_Injected, addr 0x680e7f4, size 0x44, virtual false, abstract: false, final false
+  static inline bool GetHumanoidBodyPartActive_Injected(::System::IntPtr _unity_self, ::UnityEngine::AvatarMaskBodyPart index);
+
+  /// @brief Method GetTransformActive, addr 0x680eb5c, size 0x1c, virtual false, abstract: false, final false
   inline bool GetTransformActive(int32_t index);
 
-  /// @brief Method GetTransformPath, addr 0x4854420, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath, addr 0x680e8f4, size 0x140, virtual false, abstract: false, final false
   inline ::StringW GetTransformPath(int32_t index);
 
-  /// @brief Method GetTransformWeight, addr 0x4854464, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetTransformPath_Injected, addr 0x680ea34, size 0x54, virtual false, abstract: false, final false
+  static inline void GetTransformPath_Injected(::System::IntPtr _unity_self, int32_t index, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> ret);
+
+  /// @brief Method GetTransformWeight, addr 0x680ea88, size 0x90, virtual false, abstract: false, final false
   inline float_t GetTransformWeight(int32_t index);
 
-  /// @brief Method get_transformCount, addr 0x48543e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method GetTransformWeight_Injected, addr 0x680eb18, size 0x44, virtual false, abstract: false, final false
+  static inline float_t GetTransformWeight_Injected(::System::IntPtr _unity_self, int32_t index);
+
+  /// @brief Method Internal_Create, addr 0x680e728, size 0x3c, virtual false, abstract: false, final false
+  static inline void Internal_Create(::UnityEngine::AvatarMask* self);
+
+  static inline ::UnityEngine::AvatarMask* New_ctor();
+
+  /// @brief Method .ctor, addr 0x680e6b0, size 0x78, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method get_transformCount, addr 0x680e838, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_transformCount();
+
+  /// @brief Method get_transformCount_Injected, addr 0x680e8b8, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_transformCount_Injected(::System::IntPtr _unity_self);
 
 protected:
   // Ctor Parameters []
@@ -56,7 +82,7 @@ public:
   AvatarMask(AvatarMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16889 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19980 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

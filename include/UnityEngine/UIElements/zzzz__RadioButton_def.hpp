@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__BaseBoolField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RadioButton)
@@ -17,6 +16,9 @@ struct CreationContext;
 }
 namespace UnityEngine::UIElements {
 class DetachFromPanelEvent;
+}
+namespace UnityEngine::UIElements {
+class IGroupBoxOption;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -59,7 +61,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RadioButton_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a03194, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b30d74, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +79,7 @@ public:
   RadioButton_UxmlFactory(RadioButton_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -92,10 +94,10 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE RadioButton_UxmlTraits : public ::UnityEngine::UIElements::BaseFieldTraits_2<bool, ::UnityEngine::UIElements::UxmlBoolAttributeDescription*> {
 public:
   // Declarations
-  /// @brief Field m_Text, offset 0x88, size 0x8
+  /// @brief Field m_Text, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x4a031dc, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b30ddc, size 0x138, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RadioButton_UxmlTraits* New_ctor();
@@ -106,7 +108,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x4a032f8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b30f14, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -124,20 +126,20 @@ public:
   RadioButton_UxmlTraits(RadioButton_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5676 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
 
-  /// @brief Field m_Text, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_Text, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::RadioButton_UxmlTraits, ___m_Text) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RadioButton_UxmlTraits, ___m_Text) == 0xa0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioButton_UxmlTraits, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioButton_UxmlTraits, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.BaseBoolField, UnityEngine.UIElements.IGroupBoxOption
+// Dependencies UnityEngine.UIElements.BaseBoolField
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.RadioButton
@@ -160,7 +162,7 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_CheckmarkBackground, offset 0x460, size 0x8
+  /// @brief Field m_CheckmarkBackground, offset 0x550, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CheckmarkBackground, put = __cordl_internal_set_m_CheckmarkBackground)) ::UnityEngine::UIElements::VisualElement* m_CheckmarkBackground;
 
   /// @brief Field textUssClassName, offset 0xffffffff, size 0x8
@@ -174,32 +176,32 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBoxOption"
   constexpr operator ::UnityEngine::UIElements::IGroupBoxOption*() noexcept;
 
-  /// @brief Method InitLabel, addr 0x4a02e90, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method InitLabel, addr 0x6b30a60, size 0x80, virtual true, abstract: false, final false
   inline void InitLabel();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor();
 
   static inline ::UnityEngine::UIElements::RadioButton* New_ctor(::StringW label);
 
-  /// @brief Method OnOptionAttachToPanel, addr 0x4a02db8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionAttachToPanel, addr 0x6b30978, size 0x74, virtual false, abstract: false, final false
   inline void OnOptionAttachToPanel(::UnityEngine::UIElements::AttachToPanelEvent* evt);
 
-  /// @brief Method OnOptionDetachFromPanel, addr 0x4a02e24, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnOptionDetachFromPanel, addr 0x6b309ec, size 0x74, virtual false, abstract: false, final false
   inline void OnOptionDetachFromPanel(::UnityEngine::UIElements::DetachFromPanelEvent* evt);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x4a02f60, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6b30b30, size 0x1c, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(bool newValue);
 
-  /// @brief Method ToggleValue, addr 0x4a02f0c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method ToggleValue, addr 0x6b30ae0, size 0x40, virtual true, abstract: false, final false
   inline void ToggleValue();
 
-  /// @brief Method UnityEngine.UIElements.IGroupBoxOption.SetSelected, addr 0x4a02f4c, size 0x14, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.UIElements.IGroupBoxOption.SetSelected, addr 0x6b30b20, size 0x10, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IGroupBoxOption_SetSelected(bool selected);
 
-  /// @brief Method UpdateCheckmark, addr 0x4a02a3c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method UpdateCheckmark, addr 0x6b305bc, size 0xfc, virtual false, abstract: false, final false
   inline void UpdateCheckmark();
 
-  /// @brief Method UpdateMixedValueContent, addr 0x4a02f80, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6b30b4c, size 0xa4, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_CheckmarkBackground() const;
@@ -208,10 +210,10 @@ public:
 
   constexpr void __cordl_internal_set_m_CheckmarkBackground(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x4a02b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b306b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a02b38, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b306c0, size 0x2b8, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_checkmarkBackgroundUssClassName();
@@ -226,7 +228,7 @@ public:
 
   static inline ::StringW getStaticF_ussClassName();
 
-  /// @brief Method get_value, addr 0x4a02910, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method get_value, addr 0x6b3048c, size 0x44, virtual true, abstract: false, final false
   inline bool get_value();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupBoxOption"
@@ -244,7 +246,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_value, addr 0x4a02958, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method set_value, addr 0x6b304d0, size 0xec, virtual true, abstract: false, final false
   inline void set_value(bool value);
 
 protected:
@@ -262,17 +264,17 @@ public:
   RadioButton(RadioButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5677 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4295 };
 
-  /// @brief Field m_CheckmarkBackground, offset: 0x460, size: 0x8, def value: None
+  /// @brief Field m_CheckmarkBackground, offset: 0x550, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_CheckmarkBackground;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::RadioButton, ___m_CheckmarkBackground) == 0x460, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RadioButton, ___m_CheckmarkBackground) == 0x550, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioButton, 0x468>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RadioButton, 0x558>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RadioButton);

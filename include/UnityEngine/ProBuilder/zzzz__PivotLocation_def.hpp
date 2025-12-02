@@ -24,7 +24,7 @@ public:
   /// @brief Nested struct __PivotLocation_Unwrapped
   enum struct __PivotLocation_Unwrapped : int32_t {
     __E_Center = static_cast<int32_t>(0x0),
-    __E_FirstCorner = static_cast<int32_t>(0x1),
+    __E_FirstVertex = static_cast<int32_t>(0x1),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -47,11 +47,11 @@ public:
   /// @brief Field Center value: I32(0)
   static ::UnityEngine::ProBuilder::PivotLocation const Center;
 
-  /// @brief Field FirstCorner value: I32(1)
-  static ::UnityEngine::ProBuilder::PivotLocation const FirstCorner;
+  /// @brief Field FirstVertex value: I32(1)
+  static ::UnityEngine::ProBuilder::PivotLocation const FirstVertex;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14313 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16760 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

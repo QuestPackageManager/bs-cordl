@@ -37,36 +37,42 @@ public:
   /// @brief Field _environmentLayerMask, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__environmentLayerMask, put = __cordl_internal_set__environmentLayerMask)) ::UnityEngine::LayerMask _environmentLayerMask;
 
-  /// @brief Field _hitPointDistanceToAlphaCurve, offset 0x48, size 0x8
+  /// @brief Field _hitPointDistanceToAlphaCurve, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__hitPointDistanceToAlphaCurve, put = __cordl_internal_set__hitPointDistanceToAlphaCurve)) ::UnityEngine::AnimationCurve* _hitPointDistanceToAlphaCurve;
 
-  /// @brief Field _hitPointGameObject, offset 0x30, size 0x8
+  /// @brief Field _hitPointGameObject, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__hitPointGameObject, put = __cordl_internal_set__hitPointGameObject)) ::UnityW<::UnityEngine::GameObject> _hitPointGameObject;
 
-  /// @brief Field _hitPointLightWithId, offset 0x40, size 0x8
+  /// @brief Field _hitPointLightWithId, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__hitPointLightWithId, put = __cordl_internal_set__hitPointLightWithId)) ::UnityW<::GlobalNamespace::InstancedMaterialLightWithId> _hitPointLightWithId;
 
-  /// @brief Field _hitPointState, offset 0x58, size 0x1
+  /// @brief Field _hitPointState, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__hitPointState, put = __cordl_internal_set__hitPointState)) bool _hitPointState;
 
-  /// @brief Field _hitPointTransform, offset 0x38, size 0x8
+  /// @brief Field _hitPointTransform, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__hitPointTransform, put = __cordl_internal_set__hitPointTransform)) ::UnityW<::UnityEngine::Transform> _hitPointTransform;
 
-  /// @brief Field _showHitPoint, offset 0x2c, size 0x1
+  /// @brief Field _scaleTransform, offset 0x30, size 0x8
+  __declspec(property(get = __cordl_internal_get__scaleTransform, put = __cordl_internal_set__scaleTransform)) ::UnityW<::UnityEngine::Transform> _scaleTransform;
+
+  /// @brief Field _showHitPoint, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__showHitPoint, put = __cordl_internal_set__showHitPoint)) bool _showHitPoint;
 
-  /// @brief Field _transform, offset 0x50, size 0x8
+  /// @brief Field _transform, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
   /// @brief Field _tubeBloomPrePassLight, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__tubeBloomPrePassLight, put = __cordl_internal_set__tubeBloomPrePassLight)) ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> _tubeBloomPrePassLight;
 
+  /// @brief Field _useScale, offset 0x2c, size 0x1
+  __declspec(property(get = __cordl_internal_get__useScale, put = __cordl_internal_set__useScale)) bool _useScale;
+
   static inline ::GlobalNamespace::TubeBloomPrePassLightCollisionEffect* New_ctor();
 
-  /// @brief Method Start, addr 0x3b9a7fc, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5789148, size 0x38, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b9a834, size 0x3e0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5789180, size 0x400, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityEngine::LayerMask const& __cordl_internal_get__environmentLayerMask() const;
@@ -93,6 +99,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__hitPointTransform();
 
+  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__scaleTransform() const;
+
+  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__scaleTransform();
+
   constexpr bool const& __cordl_internal_get__showHitPoint() const;
 
   constexpr bool& __cordl_internal_get__showHitPoint();
@@ -104,6 +114,10 @@ public:
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> const& __cordl_internal_get__tubeBloomPrePassLight() const;
 
   constexpr ::UnityW<::GlobalNamespace::TubeBloomPrePassLight>& __cordl_internal_get__tubeBloomPrePassLight();
+
+  constexpr bool const& __cordl_internal_get__useScale() const;
+
+  constexpr bool& __cordl_internal_get__useScale();
 
   constexpr void __cordl_internal_set__environmentLayerMask(::UnityEngine::LayerMask value);
 
@@ -117,13 +131,17 @@ public:
 
   constexpr void __cordl_internal_set__hitPointTransform(::UnityW<::UnityEngine::Transform> value);
 
+  constexpr void __cordl_internal_set__scaleTransform(::UnityW<::UnityEngine::Transform> value);
+
   constexpr void __cordl_internal_set__showHitPoint(bool value);
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
   constexpr void __cordl_internal_set__tubeBloomPrePassLight(::UnityW<::GlobalNamespace::TubeBloomPrePassLight> value);
 
-  /// @brief Method .ctor, addr 0x3b9ac14, size 0x34, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__useScale(bool value);
+
+  /// @brief Method .ctor, addr 0x5789580, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -141,7 +159,7 @@ public:
   TubeBloomPrePassLightCollisionEffect(TubeBloomPrePassLightCollisionEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4346 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5929 };
 
   /// @brief Field _tubeBloomPrePassLight, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::TubeBloomPrePassLight> ____tubeBloomPrePassLight;
@@ -149,25 +167,31 @@ public:
   /// @brief Field _environmentLayerMask, offset: 0x28, size: 0x4, def value: None
   ::UnityEngine::LayerMask ____environmentLayerMask;
 
-  /// @brief Field _showHitPoint, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field _useScale, offset: 0x2c, size: 0x1, def value: None
+  bool ____useScale;
+
+  /// @brief Field _scaleTransform, offset: 0x30, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Transform> ____scaleTransform;
+
+  /// @brief Field _showHitPoint, offset: 0x38, size: 0x1, def value: None
   bool ____showHitPoint;
 
-  /// @brief Field _hitPointGameObject, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _hitPointGameObject, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____hitPointGameObject;
 
-  /// @brief Field _hitPointTransform, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _hitPointTransform, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____hitPointTransform;
 
-  /// @brief Field _hitPointLightWithId, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _hitPointLightWithId, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::InstancedMaterialLightWithId> ____hitPointLightWithId;
 
-  /// @brief Field _hitPointDistanceToAlphaCurve, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _hitPointDistanceToAlphaCurve, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::AnimationCurve* ____hitPointDistanceToAlphaCurve;
 
-  /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _transform, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;
 
-  /// @brief Field _hitPointState, offset: 0x58, size: 0x1, def value: None
+  /// @brief Field _hitPointState, offset: 0x68, size: 0x1, def value: None
   bool ____hitPointState;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -177,21 +201,25 @@ static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, 
 
 static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____environmentLayerMask) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____showHitPoint) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____useScale) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointGameObject) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____scaleTransform) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointTransform) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____showHitPoint) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointLightWithId) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointGameObject) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointDistanceToAlphaCurve) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointTransform) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____transform) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointLightWithId) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointState) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointDistanceToAlphaCurve) == 0x58, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, 0x60>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____transform) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, ____hitPointState) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TubeBloomPrePassLightCollisionEffect, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TubeBloomPrePassLightCollisionEffect);

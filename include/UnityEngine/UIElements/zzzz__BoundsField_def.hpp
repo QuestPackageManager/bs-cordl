@@ -61,7 +61,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::BoundsField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498c404, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b02820, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +79,7 @@ public:
   BoundsField_UxmlFactory(BoundsField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4135 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,25 +94,25 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE BoundsField_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<::UnityEngine::Bounds> {
 public:
   // Declarations
-  /// @brief Field m_CenterXValue, offset 0x80, size 0x8
+  /// @brief Field m_CenterXValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CenterXValue, put = __cordl_internal_set_m_CenterXValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_CenterXValue;
 
-  /// @brief Field m_CenterYValue, offset 0x88, size 0x8
+  /// @brief Field m_CenterYValue, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CenterYValue, put = __cordl_internal_set_m_CenterYValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_CenterYValue;
 
-  /// @brief Field m_CenterZValue, offset 0x90, size 0x8
+  /// @brief Field m_CenterZValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CenterZValue, put = __cordl_internal_set_m_CenterZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_CenterZValue;
 
-  /// @brief Field m_ExtentsXValue, offset 0x98, size 0x8
+  /// @brief Field m_ExtentsXValue, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExtentsXValue, put = __cordl_internal_set_m_ExtentsXValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ExtentsXValue;
 
-  /// @brief Field m_ExtentsYValue, offset 0xa0, size 0x8
+  /// @brief Field m_ExtentsYValue, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExtentsYValue, put = __cordl_internal_set_m_ExtentsYValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ExtentsYValue;
 
-  /// @brief Field m_ExtentsZValue, offset 0xa8, size 0x8
+  /// @brief Field m_ExtentsZValue, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExtentsZValue, put = __cordl_internal_set_m_ExtentsZValue)) ::UnityEngine::UIElements::UxmlFloatAttributeDescription* m_ExtentsZValue;
 
-  /// @brief Method Init, addr 0x498c44c, size 0x25c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b02888, size 0x2a4, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::BoundsField_UxmlTraits* New_ctor();
@@ -153,7 +153,7 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtentsZValue(::UnityEngine::UIElements::UxmlFloatAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x498c6a8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b02b2c, size 0x1d0, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -171,42 +171,42 @@ public:
   BoundsField_UxmlTraits(BoundsField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4136 };
 
-  /// @brief Field m_CenterXValue, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_CenterXValue, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_CenterXValue;
 
-  /// @brief Field m_CenterYValue, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_CenterYValue, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_CenterYValue;
 
-  /// @brief Field m_CenterZValue, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field m_CenterZValue, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_CenterZValue;
 
-  /// @brief Field m_ExtentsXValue, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field m_ExtentsXValue, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_ExtentsXValue;
 
-  /// @brief Field m_ExtentsYValue, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field m_ExtentsYValue, offset: 0xb8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_ExtentsYValue;
 
-  /// @brief Field m_ExtentsZValue, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field m_ExtentsZValue, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlFloatAttributeDescription* ___m_ExtentsZValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_CenterXValue) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_CenterXValue) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_CenterYValue) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_CenterYValue) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_CenterZValue) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_CenterZValue) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_ExtentsXValue) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_ExtentsXValue) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_ExtentsYValue) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_ExtentsYValue) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_ExtentsZValue) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField_UxmlTraits, ___m_ExtentsZValue) == 0xc0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsField_UxmlTraits, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsField_UxmlTraits, 0xc8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies UnityEngine.Bounds, UnityEngine.UIElements.BaseField`1<TValueType>
@@ -232,10 +232,10 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_CenterField, offset 0x450, size 0x8
+  /// @brief Field m_CenterField, offset 0x538, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CenterField, put = __cordl_internal_set_m_CenterField)) ::UnityEngine::UIElements::Vector3Field* m_CenterField;
 
-  /// @brief Field m_ExtentsField, offset 0x458, size 0x8
+  /// @brief Field m_ExtentsField, offset 0x540, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExtentsField, put = __cordl_internal_set_m_ExtentsField)) ::UnityEngine::UIElements::Vector3Field* m_ExtentsField;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
@@ -245,10 +245,10 @@ public:
 
   static inline ::UnityEngine::UIElements::BoundsField* New_ctor(::StringW label);
 
-  /// @brief Method SetValueWithoutNotify, addr 0x498c004, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetValueWithoutNotify, addr 0x6b02408, size 0xd4, virtual true, abstract: false, final false
   inline void SetValueWithoutNotify(::UnityEngine::Bounds newValue);
 
-  /// @brief Method UpdateMixedValueContent, addr 0x498c100, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method UpdateMixedValueContent, addr 0x6b024dc, size 0x80, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
 
   constexpr ::UnityEngine::UIElements::Vector3Field* const& __cordl_internal_get_m_CenterField() const;
@@ -263,16 +263,16 @@ public:
 
   constexpr void __cordl_internal_set_m_ExtentsField(::UnityEngine::UIElements::Vector3Field* value);
 
-  /// @brief Method <.ctor>b__10_0, addr 0x498c2ac, size 0xac, virtual false, abstract: false, final false
-  inline void __ctor_b__10_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
+  /// @brief Method <.ctor>b__11_0, addr 0x6b026a8, size 0xbc, virtual false, abstract: false, final false
+  inline void __ctor_b__11_0(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
 
-  /// @brief Method <.ctor>b__10_1, addr 0x498c358, size 0xac, virtual false, abstract: false, final false
-  inline void __ctor_b__10_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
+  /// @brief Method <.ctor>b__11_1, addr 0x6b02764, size 0xbc, virtual false, abstract: false, final false
+  inline void __ctor_b__11_1(::UnityEngine::UIElements::ChangeEvent_1<::UnityEngine::Vector3>* e);
 
-  /// @brief Method .ctor, addr 0x498bb64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b01f14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498bb6c, size 0x378, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b01f1c, size 0x3c0, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_centerFieldUssClassName();
@@ -310,22 +310,22 @@ public:
   BoundsField(BoundsField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4137 };
 
-  /// @brief Field m_CenterField, offset: 0x450, size: 0x8, def value: None
+  /// @brief Field m_CenterField, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::Vector3Field* ___m_CenterField;
 
-  /// @brief Field m_ExtentsField, offset: 0x458, size: 0x8, def value: None
+  /// @brief Field m_ExtentsField, offset: 0x540, size: 0x8, def value: None
   ::UnityEngine::UIElements::Vector3Field* ___m_ExtentsField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField, ___m_CenterField) == 0x450, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField, ___m_CenterField) == 0x538, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::BoundsField, ___m_ExtentsField) == 0x458, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::BoundsField, ___m_ExtentsField) == 0x540, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsField, 0x460>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::BoundsField, 0x548>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::BoundsField);

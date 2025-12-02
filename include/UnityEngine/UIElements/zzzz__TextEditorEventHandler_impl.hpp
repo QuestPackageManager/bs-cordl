@@ -4,14 +4,15 @@
 #include "UnityEngine/UIElements/zzzz__TextEditorEventHandler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
+#include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__TextEditingUtilities_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TextEditorEventHandler._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(
     ::UnityEngine::UIElements::TextElement*, ::UnityEngine::TextEditingUtilities*)>(&::UnityEngine::UIElements::TextEditorEventHandler::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49eddf8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b159d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -21,19 +22,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::TextEditorEventHandler.ExecuteDefaultActionAtTarget
+//  Writing Method size for method: ::UnityEngine::UIElements::TextEditorEventHandler.RegisterCallbacksOnTarget
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
-    &::UnityEngine::UIElements::TextEditorEventHandler::ExecuteDefaultActionAtTarget)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::TextEditorEventHandler::RegisterCallbacksOnTarget)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49ee0d4;
+  constexpr static std::size_t addrs = 0x6b16d60;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 4));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TextEditorEventHandler.UnregisterCallbacksFromTarget
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::VisualElement*)>(
+    &::UnityEngine::UIElements::TextEditorEventHandler::UnregisterCallbacksFromTarget)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b16d64;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 5));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TextEditorEventHandler.HandleEventBubbleUp
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TextEditorEventHandler::*)(::UnityEngine::UIElements::EventBase*)>(
+    &::UnityEngine::UIElements::TextEditorEventHandler::HandleEventBubbleUp)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b15cdc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 6));
     return ___internal_method;
   }
 };
@@ -68,9 +101,19 @@ inline void UnityEngine::UIElements::TextEditorEventHandler::_ctor(::UnityEngine
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextEditingUtilities*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, textElement, editingUtilities);
 }
-inline void UnityEngine::UIElements::TextEditorEventHandler::ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt) {
+inline void UnityEngine::UIElements::TextEditorEventHandler::RegisterCallbacksOnTarget(::UnityEngine::UIElements::VisualElement* target) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, target);
+}
+inline void UnityEngine::UIElements::TextEditorEventHandler::UnregisterCallbacksFromTarget(::UnityEngine::UIElements::VisualElement* target) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, target);
+}
+inline void UnityEngine::UIElements::TextEditorEventHandler::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TextEditorEventHandler*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 inline ::UnityEngine::UIElements::TextEditorEventHandler* UnityEngine::UIElements::TextEditorEventHandler::New_ctor(::UnityEngine::UIElements::TextElement* textElement,

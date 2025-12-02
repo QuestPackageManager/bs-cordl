@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/ResourceLocations/LocationWrapper.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__IResourceLocation_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/zzzz__LocationWrapper_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -12,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47992f8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x66f9094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_InternalId)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47a24d4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6703e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_ProviderId)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a2574;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6703f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* (
     ::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(&::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_Dependencies)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a2618;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6703fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_DependencyHashCode)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a26bc;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x670407c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_HasDependencies)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a2760;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6704124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_Data)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a2804;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x67041cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_PrimaryKey)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a28a8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6704274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,8 +131,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)()>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::get_ResourceType)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x47a294c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x670431c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::*)(::System::Type*)>(
     &::UnityEngine::ResourceManagement::ResourceLocations::LocationWrapper::Hash)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x47a29f0;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x67043c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

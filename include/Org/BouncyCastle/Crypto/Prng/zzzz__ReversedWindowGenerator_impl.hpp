@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Prng/ReversedWindowGenerator.hpp"
-#include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__ReversedWindowGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
@@ -9,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(
     ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x23ca330;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x32f82c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::AddSeedMaterial)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x23ca43c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x32f83c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::AddSeedMaterial)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x23ca570;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x32f84f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::NextBytes)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x23ca6a8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32f862c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::NextBytes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x23ca8e4;
+  constexpr static std::size_t addrs = 0x32f8844;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator::doNextBytes)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x23ca6c4;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x32f8644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

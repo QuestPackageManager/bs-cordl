@@ -52,7 +52,7 @@ public:
   constexpr Volatile_VolatileBoolean(bool Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2755 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -83,7 +83,7 @@ public:
   constexpr Volatile_VolatileInt32(int32_t Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2756 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -114,7 +114,7 @@ public:
   constexpr Volatile_VolatileObject(::System::Object* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2757 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2768 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -146,19 +146,19 @@ public:
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T Read(::ByRef<T> location);
 
-  /// @brief Method Read, addr 0x3e5ea44, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5aa43f0, size 0xc, virtual false, abstract: false, final false
   static inline bool Read(::ByRef<bool> location);
 
-  /// @brief Method Read, addr 0x3e5ea80, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Read, addr 0x5aa4408, size 0xc, virtual false, abstract: false, final false
   static inline int32_t Read(::ByRef<int32_t> location);
 
   /// @brief Method Write, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void Write(::ByRef<T> location, T value);
 
-  /// @brief Method Write, addr 0x3e5ea5c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5aa43fc, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::ByRef<bool> location, bool value);
 
-  /// @brief Method Write, addr 0x3e5ea98, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5aa4414, size 0xc, virtual false, abstract: false, final false
   static inline void Write(::ByRef<int32_t> location, int32_t value);
 
 protected:
@@ -176,7 +176,7 @@ public:
   Volatile(Volatile const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2758 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2769 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

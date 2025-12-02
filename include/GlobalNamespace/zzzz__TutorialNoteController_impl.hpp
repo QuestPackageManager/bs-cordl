@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TutorialNoteController.hpp"
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteController_impl.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialNoteController_def.hpp"
 #include "GlobalNamespace/zzzz__BoxCuttableBySaber_def.hpp"
+#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnData_def.hpp"
@@ -19,8 +19,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController_Pool::*)()>(&::GlobalNamespace::TutorialNoteController_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af0b30;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56ccd3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialNoteController_Pool*>::get(), ".ctor",
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::NoteMovement> (::GlobalNamespace::TutorialNoteController::*)()>(
     &::GlobalNamespace::TutorialNoteController::get_noteMovement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af0238;
+  constexpr static std::size_t addrs = 0x56cc46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialNoteController*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteVisualModifierType (::GlobalNamespace::TutorialNoteController::*)()>(
     &::GlobalNamespace::TutorialNoteController::get_noteVisualModifierType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af0240;
+  constexpr static std::size_t addrs = 0x56cc474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialNoteController*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData_GameplayType (::GlobalNamespace::TutorialNoteController::*)()>(
     &::GlobalNamespace::TutorialNoteController::get_gameplayType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af0248;
+  constexpr static std::size_t addrs = 0x56cc47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialNoteController*>::get(),
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)(
     ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, float_t, float_t)>(&::GlobalNamespace::TutorialNoteController::Init)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3af0250;
+  constexpr static std::size_t addrs = 0x56cc484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)()>(&::GlobalNamespace::TutorialNoteController::Awake)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3af02e8;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x56cc51c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -115,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)()>(&::GlobalNamespace::TutorialNoteController::OnDestroy)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3af03c8;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x56cc608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)()>(
     &::GlobalNamespace::TutorialNoteController::NoteDidPassMissedMarker)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af051c;
+  constexpr static std::size_t addrs = 0x56cc770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::TutorialNoteController::HandleBeforeNoteWasCutBySaber)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3af0564;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x56cc7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::TutorialNoteController::HandleCoreWasCutBySaber)> {
-  constexpr static std::size_t size = 0x488;
-  constexpr static std::size_t addrs = 0x3af0670;
+  constexpr static std::size_t size = 0x474;
+  constexpr static std::size_t addrs = 0x56cc894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)(bool)>(
     &::GlobalNamespace::TutorialNoteController::HiddenStateDidChange)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3af0af8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x56ccd08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)(bool)>(&::GlobalNamespace::TutorialNoteController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3af0b1c;
+  constexpr static std::size_t addrs = 0x56ccd28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialNoteController::*)()>(&::GlobalNamespace::TutorialNoteController::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af0b2c;
+  constexpr static std::size_t addrs = 0x56ccd38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialNoteController*>::get(), ".ctor",

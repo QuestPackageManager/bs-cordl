@@ -3,19 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
-#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OpacityIdAccelerator)
+namespace System {
+class IDisposable;
+}
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
+}
+namespace Unity::Jobs {
+class IJobParallelFor;
 }
 namespace UnityEngine::UIElements::UIR {
 struct OpacityIdAccelerator_OpacityIdUpdateJob;
@@ -36,7 +40,7 @@ struct OpacityIdAccelerator_OpacityIdUpdateJob;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::OpacityIdAccelerator);
 MARK_VAL_T(::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob);
-// Dependencies Unity.Collections.NativeSlice`1<T>, Unity.Jobs.IJobParallelFor, UnityEngine.Color32, UnityEngine.UIElements.Vertex
+// Dependencies Unity.Collections.NativeSlice`1<T>, UnityEngine.Color32, UnityEngine.UIElements.Vertex
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.UIR.OpacityIdAccelerator/OpacityIdUpdateJob
@@ -46,7 +50,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJobParallelFor"
   constexpr operator ::Unity::Jobs::IJobParallelFor*();
 
-  /// @brief Method Execute, addr 0x49aa648, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x6ab17ac, size 0x108, virtual true, abstract: false, final true
   inline void Execute(int32_t i);
 
   /// @brief Convert to "::Unity::Jobs::IJobParallelFor"
@@ -63,7 +67,7 @@ public:
                                                     ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> newVerts, ::UnityEngine::Color32 opacityData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6377 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5323 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -89,7 +93,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::OpacityIdAccelerator_Opac
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::OpacityIdAccelerator_OpacityIdUpdateJob, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.IDisposable, System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.OpacityIdAccelerator
@@ -112,17 +116,17 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CompleteJobs, addr 0x49aa454, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method CompleteJobs, addr 0x6ab1584, size 0xc8, virtual false, abstract: false, final false
   inline void CompleteJobs();
 
-  /// @brief Method CreateJob, addr 0x49aa360, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method CreateJob, addr 0x6ab1474, size 0x110, virtual false, abstract: false, final false
   inline void CreateJob(::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> oldVerts, ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::Vertex> newVerts,
                         ::UnityEngine::Color32 opacityData, int32_t vertexCount);
 
-  /// @brief Method Dispose, addr 0x49aa500, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6ab165c, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49aa56c, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6ab16cc, size 0x70, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::OpacityIdAccelerator* New_ctor();
@@ -145,16 +149,16 @@ public:
 
   constexpr void __cordl_internal_set_m_NextJobIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x49aa5d0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ab173c, size 0x70, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disposed, addr 0x49aa4ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6ab164c, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x49aa4f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6ab1654, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -172,7 +176,7 @@ public:
   OpacityIdAccelerator(OpacityIdAccelerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5324 };
 
   /// @brief Field m_Jobs, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> ___m_Jobs;

@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::Destination::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::Destination::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3f8f474;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5bda640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,6 +53,18 @@ constexpr ::StringW const& Oculus::Platform::Models::Destination::__cordl_intern
 constexpr void Oculus::Platform::Models::Destination::__cordl_internal_set_DisplayName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___DisplayName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& Oculus::Platform::Models::Destination::__cordl_internal_get_ShareableUri() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ShareableUri;
+}
+constexpr ::StringW const& Oculus::Platform::Models::Destination::__cordl_internal_get_ShareableUri() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ShareableUri;
+}
+constexpr void Oculus::Platform::Models::Destination::__cordl_internal_set_ShareableUri(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ShareableUri)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void Oculus::Platform::Models::Destination::_ctor(::System::IntPtr o) {
   static auto* ___internal_method = THROW_UNLESS(

@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/RandomNoteRotation.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomNoteRotation_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RandomNoteRotation.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)()>(&::GlobalNamespace::RandomNoteRotation::Awake)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3af0050;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x56cc27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomNoteRotation*>::get(), "Awake",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)()>(&::GlobalNamespace::RandomNoteRotation::OnDestroy)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3af0108;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x56cc338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomNoteRotation*>::get(), "OnDestroy",
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::RandomNoteRotation::HandleNoteControllerDidInit)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3af0208;
+  constexpr static std::size_t addrs = 0x56cc440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomNoteRotation::*)()>(&::GlobalNamespace::RandomNoteRotation::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af0230;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56cc468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomNoteRotation*>::get(), ".ctor",

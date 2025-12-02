@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveGameUIView::*)(::GlobalNamespace::MissionObjectiveChecker*)>(
     &::GlobalNamespace::MissionObjectiveGameUIView::SetMissionObjectiveChecker)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x3ba7860;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x5796568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveGameUIView::*)(::GlobalNamespace::MissionObjectiveChecker*)>(
     &::GlobalNamespace::MissionObjectiveGameUIView::HandleMissionObjectiveStatusDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba7c30;
+  constexpr static std::size_t addrs = 0x5796990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveGameUIView::*)(::GlobalNamespace::MissionObjectiveChecker*)>(
     &::GlobalNamespace::MissionObjectiveGameUIView::HandleMissionObjectiveCheckedValueDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ba7c34;
+  constexpr static std::size_t addrs = 0x5796994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveGameUIView::*)()>(
     &::GlobalNamespace::MissionObjectiveGameUIView::RefreshIcon)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ba7ad4;
+  constexpr static std::size_t addrs = 0x5796834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveGameUIView*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveGameUIView::*)()>(
     &::GlobalNamespace::MissionObjectiveGameUIView::RefreshValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3ba7bd8;
+  constexpr static std::size_t addrs = 0x5796938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveGameUIView*>::get(),
@@ -85,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionObjectiveGameUIView::*)()>(&::GlobalNamespace::MissionObjectiveGameUIView::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ba7c38;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5796998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionObjectiveGameUIView*>::get(), ".ctor",

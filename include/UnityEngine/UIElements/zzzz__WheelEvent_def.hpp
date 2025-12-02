@@ -8,6 +8,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 CORDL_MODULE_EXPORT(WheelEvent)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 class IPointerEvent;
 }
 namespace UnityEngine::UIElements {
@@ -44,10 +47,10 @@ public:
 
   static inline ::UnityEngine::UIElements::WheelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2da74, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::WheelEvent* __cctor_b__0_0();
+  /// @brief Method <.cctor>b__1_0, addr 0x6b6b358, size 0x54, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::WheelEvent* __cctor_b__1_0();
 
-  /// @brief Method .ctor, addr 0x4a2da6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6b354, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::WheelEvent___c* getStaticF___9();
@@ -69,7 +72,7 @@ public:
   WheelEvent___c(WheelEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4497 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -86,24 +89,27 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::WheelEvent___c;
 
-  /// @brief Field <delta>k__BackingField, offset 0xb8, size 0xc
+  /// @brief Field <delta>k__BackingField, offset 0x98, size 0xc
   __declspec(property(get = __cordl_internal_get__delta_k__BackingField, put = __cordl_internal_set__delta_k__BackingField)) ::UnityEngine::Vector3 _delta_k__BackingField;
 
   __declspec(property(get = get_delta, put = set_delta)) ::UnityEngine::Vector3 delta;
 
-  /// @brief Method GetPooled, addr 0x4a2d7d0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6b6b274, size 0x8c, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method GetPooled, addr 0x6b6b00c, size 0xe0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::EventModifiers modifiers);
 
-  /// @brief Method GetPooled, addr 0x4a2d898, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6b6b0ec, size 0x7c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::IPointerEvent* pointerEvent);
 
-  /// @brief Method GetPooled, addr 0x4a2d754, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6b6af94, size 0x78, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::WheelEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x4a2d910, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b6b168, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a2d960, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b6b1bc, size 0x64, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::WheelEvent* New_ctor();
@@ -114,13 +120,13 @@ public:
 
   constexpr void __cordl_internal_set__delta_k__BackingField(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x4a2d9c0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6b220, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_delta, addr 0x4a2d73c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_delta, addr 0x6b6af7c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_delta();
 
-  /// @brief Method set_delta, addr 0x4a2d748, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_delta, addr 0x6b6af88, size 0xc, virtual false, abstract: false, final false
   inline void set_delta(::UnityEngine::Vector3 value);
 
 protected:
@@ -138,17 +144,17 @@ public:
   WheelEvent(WheelEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4498 };
 
-  /// @brief Field <delta>k__BackingField, offset: 0xb8, size: 0xc, def value: None
+  /// @brief Field <delta>k__BackingField, offset: 0x98, size: 0xc, def value: None
   ::UnityEngine::Vector3 ____delta_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::WheelEvent, ____delta_k__BackingField) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::WheelEvent, ____delta_k__BackingField) == 0x98, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::WheelEvent, 0xc8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::WheelEvent, 0xa8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::WheelEvent);

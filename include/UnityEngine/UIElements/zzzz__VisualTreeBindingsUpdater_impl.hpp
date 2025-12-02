@@ -18,14 +18,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerMarker (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_profilerMarker)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x497137c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6a10d04;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 10));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 12));
     return ___internal_method;
   }
 };
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_disableBindingsThrottling)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49713d4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6a10d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IBinding* (
     ::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::GetBindingObjectFromElement)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x497142c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x6a10dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StartTracking)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49715ec;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6a10f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTracking)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x497166c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6a11028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* (
     ::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::get_temporaryObjectCache)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49716ec;
+  constexpr static std::size_t addrs = 0x6a110c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IBinding* (*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::GetAdditionalBinding)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4971564;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6a10efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StartTrackingRecursive)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x49716f4;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x6a110cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTrackingRecursive)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x497180c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6a111f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,14 +151,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VersionChangeType)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::OnVersionChanged)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4971918;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x6a11304;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 13));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -168,13 +168,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::HierarchyChangeType)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::OnHierarchyChange)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4971a10;
+  constexpr static std::size_t addrs = 0x6a11410;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 14));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 16));
     return ___internal_method;
   }
 };
@@ -182,12 +182,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::CurrentTime)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4971a28;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6a11428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
                                                                                "CurrentTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeBindingsUpdater.ShouldProcessBindings
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int64_t)>(&::UnityEngine::UIElements::VisualTreeBindingsUpdater::ShouldProcessBindings)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6a1147c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), "ShouldProcessBindings",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
     return ___internal_method;
   }
 };
@@ -196,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::PerformTrackingOperations)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x4971a78;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x6a11544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -210,14 +224,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::Update)> {
-  constexpr static std::size_t size = 0x5b8;
-  constexpr static std::size_t addrs = 0x4971d00;
+  constexpr static std::size_t size = 0x568;
+  constexpr static std::size_t addrs = 0x6a11748;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 12));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 14));
     return ___internal_method;
   }
 };
@@ -226,12 +240,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::UpdateBindings)> {
-  constexpr static std::size_t size = 0x530;
-  constexpr static std::size_t addrs = 0x49722b8;
+  constexpr static std::size_t size = 0x45c;
+  constexpr static std::size_t addrs = 0x6a11cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
                                                                                "UpdateBindings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::VisualTreeBindingsUpdater.Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)(bool)>(
+    &::UnityEngine::UIElements::VisualTreeBindingsUpdater::Dispose)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a1210c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 13));
     return ___internal_method;
   }
 };
@@ -240,8 +270,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::VisualTreeBindingsUpdater::*)()>(
     &::UnityEngine::UIElements::VisualTreeBindingsUpdater::_ctor)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x49727e8;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x6a12110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -415,7 +445,7 @@ inline bool UnityEngine::UIElements::VisualTreeBindingsUpdater::getStaticF__disa
 inline ::Unity::Profiling::ProfilerMarker UnityEngine::UIElements::VisualTreeBindingsUpdater::get_profilerMarker() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 10)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerMarker, false>(this, ___internal_method);
 }
 inline bool UnityEngine::UIElements::VisualTreeBindingsUpdater::get_disableBindingsThrottling() {
@@ -467,19 +497,25 @@ inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::StopTrackingRecu
 inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 13)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, versionChangeType);
 }
 inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::OnHierarchyChange(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::HierarchyChangeType type) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 14)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 16)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ve, type);
 }
 inline int64_t UnityEngine::UIElements::VisualTreeBindingsUpdater::CurrentTime() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
                                                                              "CurrentTime", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(nullptr, ___internal_method);
+}
+inline bool UnityEngine::UIElements::VisualTreeBindingsUpdater::ShouldProcessBindings(int64_t startTime) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), "ShouldProcessBindings",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, startTime);
 }
 inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::PerformTrackingOperations() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
@@ -489,13 +525,19 @@ inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::PerformTrackingO
 inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::Update() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::UpdateBindings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),
                                                                              "UpdateBindings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::Dispose(bool disposing) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 inline void UnityEngine::UIElements::VisualTreeBindingsUpdater::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::VisualTreeBindingsUpdater*>::get(),

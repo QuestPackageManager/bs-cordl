@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Serialization/DefaultSerializationBinder.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_impl.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationBinder_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__DefaultSerializationBinder_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__ISerializationBinder_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StructMultiKey_2_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__ThreadSafeStore_2_def.hpp"
 #include "System/Reflection/zzzz__Assembly_def.hpp"
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)()>(
     &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3ee3d70;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b2b0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,8 +28,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>)>(
         &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeFromTypeNameKey)> {
-  constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x3ee3e40;
+  constexpr static std::size_t size = 0x3c0;
+  constexpr static std::size_t addrs = 0x5b2b18c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +45,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::StringW, ::System::Reflection::Assembly*)>(
         &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetGenericTypeFromTypeName)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3ee4230;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x5b2b54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,8 +63,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::Newtonsoft::Json::Utilities::StructMultiKey_2<::StringW, ::StringW>)>(
         &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::GetTypeByName)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ee44f0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b2b834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(::StringW, ::StringW)>(
     &::Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToType)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3ee4558;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b2b8a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::DefaultSerializationBinder::*)(
     ::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>)>(&::Newtonsoft::Json::Serialization::DefaultSerializationBinder::BindToName)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ee45d4;
+  constexpr static std::size_t addrs = 0x5b2b8fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

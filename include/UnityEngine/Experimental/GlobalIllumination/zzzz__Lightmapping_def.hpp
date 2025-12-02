@@ -49,13 +49,13 @@ namespace UnityEngine::Experimental::GlobalIllumination {
 class CORDL_TYPE Lightmapping_RequestLightsDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48d0814, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x68fc0c8, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> requests,
                      ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48d0774, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fc048, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -73,7 +73,7 @@ public:
   Lightmapping_RequestLightsDelegate(Lightmapping_RequestLightsDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10884 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -93,11 +93,11 @@ public:
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c* New_ctor();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x48d088c, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__7_0, addr 0x68fc134, size 0x400, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> requests,
                              ::Unity::Collections::NativeArray_1<::UnityEngine::Experimental::GlobalIllumination::LightDataGI> lightsOutput);
 
-  /// @brief Method .ctor, addr 0x48d0884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68fc130, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping___c* getStaticF___9();
@@ -119,7 +119,7 @@ public:
   Lightmapping___c(Lightmapping___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10885 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -145,16 +145,16 @@ public:
   __declspec(property(get = getStaticF_s_RequestLightsDelegate,
                       put = setStaticF_s_RequestLightsDelegate)) ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* s_RequestLightsDelegate;
 
-  /// @brief Method GetDelegate, addr 0x48d0524, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetDelegate, addr 0x68fbe0c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* GetDelegate();
 
-  /// @brief Method RequestLights, addr 0x48d05d8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method RequestLights, addr 0x68fbec8, size 0xa8, virtual false, abstract: false, final false
   static inline void RequestLights(::ArrayW<::UnityEngine::Light*, ::Array<::UnityEngine::Light*>*> lights, ::System::IntPtr outLightsPtr, int32_t outLightsCount);
 
-  /// @brief Method ResetDelegate, addr 0x48d057c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ResetDelegate, addr 0x68fbe68, size 0x60, virtual false, abstract: false, final false
   static inline void ResetDelegate();
 
-  /// @brief Method SetDelegate, addr 0x48d04ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetDelegate, addr 0x68fbd90, size 0x7c, virtual false, abstract: false, final false
   static inline void SetDelegate(::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* del);
 
   static inline ::UnityEngine::Experimental::GlobalIllumination::Lightmapping_RequestLightsDelegate* getStaticF_s_DefaultDelegate();
@@ -180,7 +180,7 @@ public:
   Lightmapping(Lightmapping const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11310 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10886 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

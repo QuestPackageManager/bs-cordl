@@ -7,6 +7,7 @@ module;
 #include "UnityEngine/ResourceManagement/ResourceLocations/IResourceLocation.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/LocationWrapper.hpp"
 #include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationBase.hpp"
+#include "UnityEngine/ResourceManagement/ResourceLocations/ResourceLocationComparer.hpp"
 #ifdef __cpp_modules
 export module ResourceLocations;
 #endif

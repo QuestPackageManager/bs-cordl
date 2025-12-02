@@ -18,6 +18,9 @@ class Type;
 namespace UnityEngine::Events {
 class BaseInvokableCall;
 }
+namespace UnityEngine::Events {
+template <typename T0, typename T1> class UnityAction_2;
+}
 // Forward declare root types
 namespace UnityEngine::Events {
 template <typename T0, typename T1> class UnityEvent_2;
@@ -36,13 +39,25 @@ public:
   /// @brief Field m_InvokeArray, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InvokeArray, put = __cordl_internal_set_m_InvokeArray)) ::ArrayW<::System::Object*, ::Array<::System::Object*>*> m_InvokeArray;
 
+  /// @brief Method AddListener, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AddListener(::UnityEngine::Events::UnityAction_2<T0, T1>* call);
+
   /// @brief Method FindMethod_Impl, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* FindMethod_Impl(::StringW name, ::System::Type* targetObjType);
+
+  /// @brief Method GetDelegate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::UnityEngine::Events::UnityAction_2<T0, T1>* action);
 
   /// @brief Method GetDelegate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Events::BaseInvokableCall* GetDelegate(::System::Object* target, ::System::Reflection::MethodInfo* theFunction);
 
+  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void Invoke(T0 arg0, T1 arg1);
+
   static inline ::UnityEngine::Events::UnityEvent_2<T0, T1>* New_ctor();
+
+  /// @brief Method RemoveListener, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveListener(::UnityEngine::Events::UnityAction_2<T0, T1>* call);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_m_InvokeArray() const;
 
@@ -68,7 +83,7 @@ public:
   UnityEvent_2(UnityEvent_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10433 };
 
   /// @brief Field m_InvokeArray, offset: 0x28, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___m_InvokeArray;

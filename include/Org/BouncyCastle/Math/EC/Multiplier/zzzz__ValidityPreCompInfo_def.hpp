@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ValidityPreCompInfo)
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class ValidityPreCompInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo);
-// Dependencies Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.ValidityPreCompInfo
@@ -35,24 +37,24 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr operator ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo*() noexcept;
 
-  /// @brief Method HasCurveEquationPassed, addr 0x24b9828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasCurveEquationPassed, addr 0x33e8980, size 0x8, virtual false, abstract: false, final false
   inline bool HasCurveEquationPassed();
 
-  /// @brief Method HasFailed, addr 0x24b9814, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasFailed, addr 0x33e896c, size 0x8, virtual false, abstract: false, final false
   inline bool HasFailed();
 
-  /// @brief Method HasOrderPassed, addr 0x24b983c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method HasOrderPassed, addr 0x33e8994, size 0x8, virtual false, abstract: false, final false
   inline bool HasOrderPassed();
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo* New_ctor();
 
-  /// @brief Method ReportCurveEquationPassed, addr 0x24b9830, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportCurveEquationPassed, addr 0x33e8988, size 0xc, virtual false, abstract: false, final false
   inline void ReportCurveEquationPassed();
 
-  /// @brief Method ReportFailed, addr 0x24b981c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportFailed, addr 0x33e8974, size 0xc, virtual false, abstract: false, final false
   inline void ReportFailed();
 
-  /// @brief Method ReportOrderPassed, addr 0x24b9844, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReportOrderPassed, addr 0x33e899c, size 0xc, virtual false, abstract: false, final false
   inline void ReportOrderPassed();
 
   constexpr bool const& __cordl_internal_get_curveEquationPassed() const;
@@ -73,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_orderPassed(bool value);
 
-  /// @brief Method .ctor, addr 0x24b98b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e8a10, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_PRECOMP_NAME();

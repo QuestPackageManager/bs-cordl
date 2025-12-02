@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::Composites::Vector3Composite::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::Vector3Composite::ReadValue)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x4573fa8;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x62eea74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,13 +31,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::InputSystem::Composites::Vector3Composite.EvaluateMagnitude
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Composites::Vector3Composite::*)(
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::UnityEngine::InputSystem::Composites::Vector3Composite::EvaluateMagnitude)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x62eecdc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(), 8));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::Composites::Vector3Composite._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Composites::Vector3Composite::*)()>(
     &::UnityEngine::InputSystem::Composites::Vector3Composite::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45741fc;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x62eed6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(),
@@ -134,6 +150,12 @@ inline ::UnityEngine::Vector3 UnityEngine::InputSystem::Composites::Vector3Compo
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, context);
+}
+inline float_t UnityEngine::InputSystem::Composites::Vector3Composite::EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
 }
 inline void UnityEngine::InputSystem::Composites::Vector3Composite::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Composites::Vector3Composite*>::get(),

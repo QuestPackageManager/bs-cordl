@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c51f8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d7468c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::get_ConsumedStack)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c5200;
+  constexpr static std::size_t addrs = 0x5d74690;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::get_ConsumedContinuations)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40c5208;
+  constexpr static std::size_t addrs = 0x5d74698;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::*)()>(
     &::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::get_InstructionName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40c5210;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d746a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::System::Linq::Expressions::Interpreter::LeaveFaultInstruction::Run)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40c5250;
+  constexpr static std::size_t addrs = 0x5d746e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

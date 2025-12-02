@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializationFixupCallback::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::Serialization::XmlSerializationFixupCallback::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4379d70;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x60e0a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Serialization::XmlSerializationFixupCallback::*)(::System::Object*)>(
     &::System::Xml::Serialization::XmlSerializationFixupCallback::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4379e70;
+  constexpr static std::size_t addrs = 0x60e0b98;
 
   inline static ::MethodInfo const* methodInfo() {
 

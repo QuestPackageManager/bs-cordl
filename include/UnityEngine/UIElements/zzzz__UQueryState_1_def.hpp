@@ -3,16 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UQuery_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UQueryState_1)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
@@ -20,10 +17,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -117,7 +123,7 @@ public:
   UQueryState_1_ListQueryMatcher_1(UQueryState_1_ListQueryMatcher_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6227 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5128 };
 
   /// @brief Field <matches>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TElement>* ____matches_k__BackingField;
@@ -172,7 +178,7 @@ public:
   UQueryState_1_ActionQueryMatcher(UQueryState_1_ActionQueryMatcher const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5129 };
 
   /// @brief Field <callBack>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::System::Action_1<T>* ____callBack_k__BackingField;
@@ -181,7 +187,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -239,7 +245,7 @@ public:
   constexpr UQueryState_1_Enumerator(::System::Collections::Generic::List_1<::UnityEngine::UIElements::VisualElement*>* iterationList, int32_t currentIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6229 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5130 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -254,7 +260,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -315,6 +321,12 @@ public:
   /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
+  /// @brief Method ToList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<T>* ToList();
+
+  /// @brief Method ToList, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ToList(::System::Collections::Generic::List_1<T>* results);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* matchers);
 
@@ -348,7 +360,7 @@ public:
   constexpr UQueryState_1(::UnityEngine::UIElements::VisualElement* m_Element, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::RuleMatcher>* m_Matchers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6230 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5131 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

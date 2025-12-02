@@ -57,16 +57,16 @@ public:
 
   constexpr void __cordl_internal_set__parentIndex(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3cf4b54, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5936918, size 0xfc, virtual false, abstract: false, final false
   inline void _ctor(int64_t containerID, ::System::Reflection::FieldInfo* member, ::ArrayW<int32_t, ::Array<int32_t>*> parentIndex);
 
-  /// @brief Method get_ContainerID, addr 0x3cf4c98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ContainerID, addr 0x5936a14, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_ContainerID();
 
-  /// @brief Method get_ParentField, addr 0x3cf4ca0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentField, addr 0x5936a1c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::FieldInfo* get_ParentField();
 
-  /// @brief Method get_ParentIndex, addr 0x3cf4ca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ParentIndex, addr 0x5936a24, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> get_ParentIndex();
 
 protected:
@@ -84,7 +84,7 @@ public:
   ValueTypeFixupInfo(ValueTypeFixupInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3211 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3228 };
 
   /// @brief Field _containerID, offset: 0x10, size: 0x8, def value: None
   int64_t ____containerID;

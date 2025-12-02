@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FaceInfo_Legacy::*)()>(&::TMPro::FaceInfo_Legacy::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d42d0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x673c978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FaceInfo_Legacy*>::get(), ".ctor",

@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__MouseCaptureEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(MouseCaptureOutEvent)
 namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
 class MouseCaptureOutEvent___c;
 }
 // Forward declare root types
@@ -31,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a243cc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b61c58, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseCaptureOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a243c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b61c54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent___c* getStaticF___9();
@@ -56,7 +59,7 @@ public:
   MouseCaptureOutEvent___c(MouseCaptureOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5790 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4434 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +78,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseCaptureOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a24320, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6b61b5c, size 0x4c, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method .ctor, addr 0x6b61ba8, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +99,12 @@ public:
   MouseCaptureOutEvent(MouseCaptureOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5791 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4435 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseCaptureOutEvent, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseCaptureOutEvent, 0x78>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseCaptureOutEvent);

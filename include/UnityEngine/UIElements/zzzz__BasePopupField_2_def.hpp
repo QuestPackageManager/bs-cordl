@@ -5,6 +5,7 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextElement_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -45,6 +46,9 @@ template <typename T> class PointerEventBase_1;
 }
 namespace UnityEngine::UIElements {
 class PointerMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
 class TextElement;
@@ -105,7 +109,7 @@ public:
   BasePopupField_2_PopupTextElement(BasePopupField_2_PopupTextElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5504 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4111 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -123,24 +127,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* __9;
 
-  /// @brief Field <>9__23_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__23_0, put = setStaticF___9__23_0)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* __9__23_0;
+  /// @brief Field <>9__27_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__27_0, put = setStaticF___9__27_0)) ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* __9__27_0;
 
   static inline ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* New_ctor();
 
-  /// @brief Method <.ctor>b__23_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void __ctor_b__23_0(::UnityEngine::UIElements::MouseDownEvent* e);
+  /// @brief Method <.ctor>b__27_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void __ctor_b__27_0(::UnityEngine::UIElements::MouseDownEvent* e);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* getStaticF___9();
 
-  static inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* getStaticF___9__23_0();
+  static inline ::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* getStaticF___9__27_0();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::BasePopupField_2___c<TValueType, TValueChoice>* value);
 
-  static inline void setStaticF___9__23_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value);
+  static inline void setStaticF___9__27_0(::UnityEngine::UIElements::EventCallback_1<::UnityEngine::UIElements::MouseDownEvent*>* value);
 
 protected:
   // Ctor Parameters []
@@ -157,13 +161,13 @@ public:
   BasePopupField_2___c(BasePopupField_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>
+// Dependencies UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType, typename TValueChoice>
@@ -179,9 +183,12 @@ public:
   /// @brief Field arrowUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_arrowUssClassName, put = setStaticF_arrowUssClassName)) ::StringW arrowUssClassName;
 
-  __declspec(property(put = set_choices)) ::System::Collections::Generic::List_1<TValueChoice>* choices;
+  __declspec(property(get = get_choices, put = set_choices)) ::System::Collections::Generic::List_1<TValueChoice>* choices;
 
-  /// @brief Field createMenuCallback, offset 0x468, size 0x8
+  /// @brief Field choicesProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_choicesProperty, put = setStaticF_choicesProperty)) ::UnityEngine::UIElements::BindingId choicesProperty;
+
+  /// @brief Field createMenuCallback, offset 0x550, size 0x8
   __declspec(property(get = __cordl_internal_get_createMenuCallback, put = __cordl_internal_set_createMenuCallback)) ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* createMenuCallback;
 
   /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
@@ -190,23 +197,31 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_ArrowElement, offset 0x450, size 0x8
+  /// @brief Field m_ArrowElement, offset 0x538, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ArrowElement, put = __cordl_internal_set_m_ArrowElement)) ::UnityEngine::UIElements::VisualElement* m_ArrowElement;
 
-  /// @brief Field m_Choices, offset 0x440, size 0x8
+  /// @brief Field m_AutoCloseMenu, offset 0x558, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_AutoCloseMenu, put = __cordl_internal_set_m_AutoCloseMenu)) bool m_AutoCloseMenu;
+
+  /// @brief Field m_Choices, offset 0x528, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Choices, put = __cordl_internal_set_m_Choices)) ::System::Collections::Generic::List_1<TValueChoice>* m_Choices;
 
-  /// @brief Field m_FormatListItemCallback, offset 0x460, size 0x8
+  /// @brief Field m_FormatListItemCallback, offset 0x548, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FormatListItemCallback, put = __cordl_internal_set_m_FormatListItemCallback)) ::System::Func_2<TValueChoice, ::StringW>* m_FormatListItemCallback;
 
-  /// @brief Field m_FormatSelectedValueCallback, offset 0x458, size 0x8
+  /// @brief Field m_FormatSelectedValueCallback, offset 0x540, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FormatSelectedValueCallback,
                       put = __cordl_internal_set_m_FormatSelectedValueCallback)) ::System::Func_2<TValueChoice, ::StringW>* m_FormatSelectedValueCallback;
 
-  /// @brief Field m_TextElement, offset 0x448, size 0x8
+  /// @brief Field m_TextElement, offset 0x530, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
+  __declspec(property(get = get_text)) ::StringW text;
+
   __declspec(property(get = get_textElement)) ::UnityEngine::UIElements::TextElement* textElement;
+
+  /// @brief Field textProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_textProperty, put = setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId textProperty;
 
   /// @brief Field textUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textUssClassName, put = setStaticF_textUssClassName)) ::StringW textUssClassName;
@@ -237,6 +252,9 @@ public:
   /// @brief Method OnPointerMoveEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnPointerMoveEvent(::UnityEngine::UIElements::PointerMoveEvent* evt);
 
+  /// @brief Method OnPointerUpEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent* evt);
+
   /// @brief Method ProcessPointerDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ProcessPointerDown(::UnityEngine::UIElements::PointerEventBase_1<T>* evt);
 
@@ -256,6 +274,10 @@ public:
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_ArrowElement() const;
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_ArrowElement();
+
+  constexpr bool const& __cordl_internal_get_m_AutoCloseMenu() const;
+
+  constexpr bool& __cordl_internal_get_m_AutoCloseMenu();
 
   constexpr ::System::Collections::Generic::List_1<TValueChoice>* const& __cordl_internal_get_m_Choices() const;
 
@@ -277,6 +299,8 @@ public:
 
   constexpr void __cordl_internal_set_m_ArrowElement(::UnityEngine::UIElements::VisualElement* value);
 
+  constexpr void __cordl_internal_set_m_AutoCloseMenu(bool value);
+
   constexpr void __cordl_internal_set_m_Choices(::System::Collections::Generic::List_1<TValueChoice>* value);
 
   constexpr void __cordl_internal_set_m_FormatListItemCallback(::System::Func_2<TValueChoice, ::StringW>* value);
@@ -290,22 +314,36 @@ public:
 
   static inline ::StringW getStaticF_arrowUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_choicesProperty();
+
   static inline ::StringW getStaticF_inputUssClassName();
 
   static inline ::StringW getStaticF_labelUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_textProperty();
+
   static inline ::StringW getStaticF_textUssClassName();
 
   static inline ::StringW getStaticF_ussClassName();
+
+  /// @brief Method get_choices, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<TValueChoice>* get_choices();
+
+  /// @brief Method get_text, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::StringW get_text();
 
   /// @brief Method get_textElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextElement* get_textElement();
 
   static inline void setStaticF_arrowUssClassName(::StringW value);
 
+  static inline void setStaticF_choicesProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_inputUssClassName(::StringW value);
 
   static inline void setStaticF_labelUssClassName(::StringW value);
+
+  static inline void setStaticF_textProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_textUssClassName(::StringW value);
 
@@ -329,25 +367,28 @@ public:
   BasePopupField_2(BasePopupField_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4113 };
 
-  /// @brief Field m_Choices, offset: 0x440, size: 0x8, def value: None
+  /// @brief Field m_Choices, offset: 0x528, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<TValueChoice>* ___m_Choices;
 
-  /// @brief Field m_TextElement, offset: 0x448, size: 0x8, def value: None
+  /// @brief Field m_TextElement, offset: 0x530, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ___m_TextElement;
 
-  /// @brief Field m_ArrowElement, offset: 0x450, size: 0x8, def value: None
+  /// @brief Field m_ArrowElement, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_ArrowElement;
 
-  /// @brief Field m_FormatSelectedValueCallback, offset: 0x458, size: 0x8, def value: None
+  /// @brief Field m_FormatSelectedValueCallback, offset: 0x540, size: 0x8, def value: None
   ::System::Func_2<TValueChoice, ::StringW>* ___m_FormatSelectedValueCallback;
 
-  /// @brief Field m_FormatListItemCallback, offset: 0x460, size: 0x8, def value: None
+  /// @brief Field m_FormatListItemCallback, offset: 0x548, size: 0x8, def value: None
   ::System::Func_2<TValueChoice, ::StringW>* ___m_FormatListItemCallback;
 
-  /// @brief Field createMenuCallback, offset: 0x468, size: 0x8, def value: None
+  /// @brief Field createMenuCallback, offset: 0x550, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::UIElements::IGenericMenu*>* ___createMenuCallback;
+
+  /// @brief Field m_AutoCloseMenu, offset: 0x558, size: 0x1, def value: None
+  bool ___m_AutoCloseMenu;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

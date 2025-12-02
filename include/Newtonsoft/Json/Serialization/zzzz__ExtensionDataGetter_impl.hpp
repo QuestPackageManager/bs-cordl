@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::Object*, ::System::IntPtr)>(
     &::Newtonsoft::Json::Serialization::ExtensionDataGetter::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3edc260;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5b236f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::ExtensionDataGetter*>::get(),
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* (
         ::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::Object*)>(&::Newtonsoft::Json::Serialization::ExtensionDataGetter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3ee5bc4;
+  constexpr static std::size_t addrs = 0x5b2cee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::Object*, ::System::AsyncCallback*, ::System::Object*)>(&::Newtonsoft::Json::Serialization::ExtensionDataGetter::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ee5bd8;
+  constexpr static std::size_t addrs = 0x5b2cef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::System::Object*, ::System::Object*>>* (
         ::Newtonsoft::Json::Serialization::ExtensionDataGetter::*)(::System::IAsyncResult*)>(&::Newtonsoft::Json::Serialization::ExtensionDataGetter::EndInvoke)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ee5bf8;
+  constexpr static std::size_t addrs = 0x5b2cf18;
 
   inline static ::MethodInfo const* methodInfo() {
 

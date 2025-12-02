@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SteamNetworkPlayerModel.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_impl.hpp"
 #include "GlobalNamespace/zzzz__SteamNetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModel_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SteamNetworkPlayerModel._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamNetworkPlayerModel::*)()>(&::GlobalNamespace::SteamNetworkPlayerModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e735b4;
+  constexpr static std::size_t addrs = 0x5ab964c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamNetworkPlayerModel*>::get(), ".ctor",

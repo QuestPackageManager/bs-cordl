@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::EnumerationOptions* (*)()>(&::System::IO::EnumerationOptions::get_Compatible)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d669a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59f0c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(), "get_Compatible",
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::EnumerationOptions* (*)()>(&::System::IO::EnumerationOptions::get_CompatibleRecursive)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d66a00;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59f0c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(),
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::EnumerationOptions* (*)()>(&::System::IO::EnumerationOptions::get_Default)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3d66a58;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x59f0ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(), "get_Default",
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d66ab0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x59f0d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(), ".ctor",
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::EnumerationOptions* (*)(::System::IO::SearchOption)>(
     &::System::IO::EnumerationOptions::FromSearchOption)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3d65b70;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x59f069c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_RecurseSubdirectories)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66ad8;
+  constexpr static std::size_t addrs = 0x59f0d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(),
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::EnumerationOptions::*)(bool)>(&::System::IO::EnumerationOptions::set_RecurseSubdirectories)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d66ae0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59f0d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_IgnoreInaccessible)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66aec;
+  constexpr static std::size_t addrs = 0x59f0d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(),
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::EnumerationOptions::*)(bool)>(&::System::IO::EnumerationOptions::set_IgnoreInaccessible)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d66af4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59f0d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::FileAttributes (::System::IO::EnumerationOptions::*)()>(
     &::System::IO::EnumerationOptions::get_AttributesToSkip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66b00;
+  constexpr static std::size_t addrs = 0x59f0d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(), "get_AttributesToSkip",
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::EnumerationOptions::*)(::System::IO::FileAttributes)>(
     &::System::IO::EnumerationOptions::set_AttributesToSkip)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66b08;
+  constexpr static std::size_t addrs = 0x59f0d78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MatchType (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_MatchType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66b10;
+  constexpr static std::size_t addrs = 0x59f0d80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(), "get_MatchType",
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::EnumerationOptions::*)(::System::IO::MatchType)>(
     &::System::IO::EnumerationOptions::set_MatchType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66b18;
+  constexpr static std::size_t addrs = 0x59f0d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::MatchCasing (::System::IO::EnumerationOptions::*)()>(
     &::System::IO::EnumerationOptions::get_MatchCasing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66b20;
+  constexpr static std::size_t addrs = 0x59f0d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(), "get_MatchCasing",
@@ -206,7 +206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::EnumerationOptions::*)()>(&::System::IO::EnumerationOptions::get_ReturnSpecialDirectories)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d66b28;
+  constexpr static std::size_t addrs = 0x59f0d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::EnumerationOptions*>::get(),

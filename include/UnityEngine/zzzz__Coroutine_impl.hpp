@@ -1,15 +1,39 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Coroutine.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
+#include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__YieldInstruction_impl.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/zzzz__Coroutine_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Coroutine_BindingsMarshaller.ConvertToNative
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Coroutine*)>(&::UnityEngine::Coroutine_BindingsMarshaller::ConvertToNative)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x68aaecc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Coroutine_BindingsMarshaller*>::get(), "ConvertToNative", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Coroutine*>::get() })));
+    return ___internal_method;
+  }
+};
+inline ::System::IntPtr UnityEngine::Coroutine_BindingsMarshaller::ConvertToNative(::UnityEngine::Coroutine* coroutine) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Coroutine_BindingsMarshaller*>::get(), "ConvertToNative", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Coroutine*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, coroutine);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Coroutine_BindingsMarshaller::Coroutine_BindingsMarshaller() {}
 //  Writing Method size for method: ::UnityEngine::Coroutine._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Coroutine::*)()>(&::UnityEngine::Coroutine::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48aa2f0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68aae18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Coroutine*>::get(), ".ctor",
@@ -21,8 +45,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Coroutine::*)()>(&::UnityEngine::Coroutine::Finalize)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x48aa2f8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x68aae1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::UnityEngine::Coroutine::ReleaseCoroutine)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x48aa3b4;
+  constexpr static std::size_t addrs = 0x68aae90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

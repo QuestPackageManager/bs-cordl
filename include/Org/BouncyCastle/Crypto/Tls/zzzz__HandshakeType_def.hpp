@@ -21,7 +21,7 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::HandshakeType* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2416c78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33450a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

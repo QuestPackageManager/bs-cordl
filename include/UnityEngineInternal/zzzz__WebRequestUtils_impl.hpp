@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngineInternal::WebRequestUtils::RedirectTo)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4ae3b64;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6bf2950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngineInternal::WebRequestUtils::MakeInitialUrl)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x4ae3c50;
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x6bf2a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Uri*, ::StringW, bool)>(&::UnityEngineInternal::WebRequestUtils::MakeUriString)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x4ae3fc0;
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x6bf2dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngineInternal::WebRequestUtils::URLDecode)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4ae439c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6bf31f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

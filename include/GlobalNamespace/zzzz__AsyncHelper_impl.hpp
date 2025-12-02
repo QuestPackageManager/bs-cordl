@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/AsyncHelper.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncHelper_def.hpp"
@@ -16,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::*)()>(
     &::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0x300;
-  constexpr static std::size_t addrs = 0x229e798;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x31e4254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2>::get(),
@@ -30,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x229ea98;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31e45b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +76,8 @@ constexpr ::GlobalNamespace::AsyncHelper__AnyTaskTrueNonAlloc_d__2::AsyncHelper_
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_1<::System::Threading::Tasks::Task*>*)>(&::GlobalNamespace::AsyncHelper::RunSync)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x229e624;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x31e4110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Threading::Tasks::Task_1<bool>* (*)(::System::Collections::Generic::List_1<::System::Threading::Tasks::Task_1<bool>*>*)>(&::GlobalNamespace::AsyncHelper::AnyTaskTrueNonAlloc)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x229e6a8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x31e4178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

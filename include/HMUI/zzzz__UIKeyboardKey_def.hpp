@@ -45,12 +45,12 @@ public:
 
   __declspec(property(get = get_keyCode)) ::UnityEngine::KeyCode keyCode;
 
-  /// @brief Method Awake, addr 0x39ee940, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5666a68, size 0xa4, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::HMUI::UIKeyboardKey* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x39ee9e8, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5666b0c, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
 
   constexpr bool const& __cordl_internal_get__canBeUppercase() const;
@@ -83,13 +83,13 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x39eeacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5666bf0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_canBeUppercase, addr 0x39ee938, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_canBeUppercase, addr 0x5666a60, size 0x8, virtual false, abstract: false, final false
   inline bool get_canBeUppercase();
 
-  /// @brief Method get_keyCode, addr 0x39ee930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_keyCode, addr 0x5666a58, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::KeyCode get_keyCode();
 
 protected:
@@ -107,7 +107,7 @@ public:
   UIKeyboardKey(UIKeyboardKey const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16048 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19116 };
 
   /// @brief Field _keyCode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::KeyCode ____keyCode;

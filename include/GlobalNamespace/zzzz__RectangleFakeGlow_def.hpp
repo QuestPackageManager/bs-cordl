@@ -50,18 +50,18 @@ public:
 
   __declspec(property(get = get_color, put = set_color)) ::UnityEngine::Color color;
 
-  /// @brief Method Awake, addr 0x3b9cedc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x578b6c4, size 0x60, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::RectangleFakeGlow* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b9d0cc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x578b89c, size 0x60, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3b9cf48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x578b724, size 0x68, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method Refresh, addr 0x3b9cfbc, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Refresh, addr 0x578b78c, size 0x110, virtual false, abstract: false, final false
   inline void Refresh();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -88,21 +88,21 @@ public:
 
   constexpr void __cordl_internal_set__size(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b9d138, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578b8fc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__colorID();
 
   static inline int32_t getStaticF__sizeParamsID();
 
-  /// @brief Method get_color, addr 0x3b9ced0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x578b6b8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
   static inline void setStaticF__colorID(int32_t value);
 
   static inline void setStaticF__sizeParamsID(int32_t value);
 
-  /// @brief Method set_color, addr 0x3b9ce0c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x578b5f4, size 0xc4, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -120,7 +120,7 @@ public:
   RectangleFakeGlow(RectangleFakeGlow const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
 
   /// @brief Field _size, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____size;

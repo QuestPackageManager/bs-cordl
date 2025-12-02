@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 CORDL_MODULE_EXPORT(BloomFogParamsAsset)
 namespace GlobalNamespace {
 class BloomFogParamsBehaviour;
@@ -18,6 +17,9 @@ struct Playable;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -27,7 +29,7 @@ class BloomFogParamsAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomFogParamsAsset);
-// Dependencies UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
+// Dependencies UnityEngine.Playables.PlayableAsset
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BloomFogParamsAsset
@@ -42,7 +44,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3b33c94, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x571543c, size 0xb4, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::BloomFogParamsAsset* New_ctor();
@@ -53,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set__template(::GlobalNamespace::BloomFogParamsBehaviour* value);
 
-  /// @brief Method .ctor, addr 0x3b33d3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57154f0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b33c8c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x5715434, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -77,7 +79,7 @@ public:
   BloomFogParamsAsset(BloomFogParamsAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6771 };
 
   /// @brief Field _template, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::BloomFogParamsBehaviour* ____template;

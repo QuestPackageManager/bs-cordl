@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultPKMacPrimitivesProvider)
 namespace Org::BouncyCastle::Asn1::X509 {
 class AlgorithmIdentifier;
+}
+namespace Org::BouncyCastle::Crmf {
+class IPKMacPrimitivesProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
@@ -21,7 +23,7 @@ class DefaultPKMacPrimitivesProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider);
-// Dependencies Org.BouncyCastle.Crmf.IPKMacPrimitivesProvider, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crmf.DefaultPKMacPrimitivesProvider
@@ -31,15 +33,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"
   constexpr operator ::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider*() noexcept;
 
-  /// @brief Method CreateDigest, addr 0x2684c5c, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateDigest, addr 0x35b40b8, size 0x7c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IDigest* CreateDigest(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* digestAlg);
 
-  /// @brief Method CreateMac, addr 0x2684cd4, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method CreateMac, addr 0x35b4134, size 0x7c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IMac* CreateMac(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* macAlg);
 
   static inline ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2684d4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b41b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IPKMacPrimitivesProvider"

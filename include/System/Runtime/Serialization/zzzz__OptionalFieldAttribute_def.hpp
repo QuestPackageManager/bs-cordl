@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set_versionAdded(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3cfcbe4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593e658, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_VersionAdded, addr 0x3cfcbf4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method set_VersionAdded, addr 0x593e664, size 0x60, virtual false, abstract: false, final false
   inline void set_VersionAdded(int32_t value);
 
 protected:
@@ -53,7 +53,7 @@ public:
   OptionalFieldAttribute(OptionalFieldAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3228 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3244 };
 
   /// @brief Field versionAdded, offset: 0x10, size: 0x4, def value: None
   int32_t ___versionAdded;

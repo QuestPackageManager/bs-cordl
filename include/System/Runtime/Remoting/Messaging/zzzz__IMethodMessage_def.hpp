@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMethodMessage)
 namespace System::Reflection {
 class MethodBase;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
 }
 namespace System::Runtime::Remoting::Messaging {
 class LogicalCallContext;
@@ -22,7 +24,7 @@ class IMethodMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IMethodMessage);
-// Dependencies System.Runtime.Remoting.Messaging.IMessage
+// Dependencies
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Messaging.IMethodMessage
@@ -83,7 +85,7 @@ public:
   IMethodMessage(IMethodMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3171 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3188 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

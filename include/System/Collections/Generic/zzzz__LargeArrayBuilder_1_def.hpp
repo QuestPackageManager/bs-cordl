@@ -64,7 +64,7 @@ public:
                                 ::ArrayW<T, ::Array<T>*> _current, int32_t _index, int32_t _count) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3861 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3786 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

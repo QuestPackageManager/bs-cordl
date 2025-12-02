@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_loadHint(::System::Runtime::CompilerServices::LoadHint value);
 
-  /// @brief Method .ctor, addr 0x3d1ac80, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595c518, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW dependentAssemblyArgument, ::System::Runtime::CompilerServices::LoadHint loadHintArgument);
 
 protected:
@@ -61,7 +61,7 @@ public:
   DependencyAttribute(DependencyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3411 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3428 };
 
   /// @brief Field dependentAssembly, offset: 0x10, size: 0x8, def value: None
   ::StringW ___dependentAssembly;

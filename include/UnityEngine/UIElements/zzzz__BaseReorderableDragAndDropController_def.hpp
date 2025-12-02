@@ -4,9 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ICollectionDragAndDropController_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IDragAndDropController_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IReorderable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseReorderableDragAndDropController)
 namespace System::Collections::Generic {
@@ -22,7 +19,16 @@ namespace UnityEngine::UIElements {
 struct DragVisualMode;
 }
 namespace UnityEngine::UIElements {
+class ICollectionDragAndDropController;
+}
+namespace UnityEngine::UIElements {
+template <typename TArgs> class IDragAndDropController_1;
+}
+namespace UnityEngine::UIElements {
 class IListDragAndDropArgs;
+}
+namespace UnityEngine::UIElements {
+class IReorderable;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
@@ -39,7 +45,7 @@ class BaseReorderableDragAndDropController;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::BaseReorderableDragAndDropController);
-// Dependencies System.Object, UnityEngine.UIElements.ICollectionDragAndDropController, UnityEngine.UIElements.IDragAndDropController`1<TArgs>, UnityEngine.UIElements.IReorderable
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.BaseReorderableDragAndDropController
@@ -66,19 +72,19 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IReorderable"
   constexpr operator ::UnityEngine::UIElements::IReorderable*() noexcept;
 
-  /// @brief Method CanStartDrag, addr 0x4a17c58, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CanStartDrag, addr 0x6b54dd8, size 0x8, virtual true, abstract: false, final false
   inline bool CanStartDrag(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds);
 
-  /// @brief Method CompareId, addr 0x4a18570, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method CompareId, addr 0x6b5545c, size 0x10, virtual true, abstract: false, final false
   inline int32_t CompareId(int32_t id1, int32_t id2);
 
-  /// @brief Method DragCleanup, addr 0x4a18590, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method DragCleanup, addr 0x6b5546c, size 0x4, virtual true, abstract: false, final false
   inline void DragCleanup();
 
-  /// @brief Method GetSortedSelectedIds, addr 0x4a17bac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetSortedSelectedIds, addr 0x6b54d38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerable_1<int32_t>* GetSortedSelectedIds();
 
-  /// @brief Method HandleAutoExpand, addr 0x4a18594, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method HandleAutoExpand, addr 0x6b55470, size 0x4, virtual true, abstract: false, final false
   inline void HandleAutoExpand(::UnityEngine::UIElements::ReusableCollectionItem* item, ::UnityEngine::Vector2 pointerPosition);
 
   /// @brief Method HandleDragAndDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -89,7 +95,7 @@ public:
   /// @brief Method OnDrop, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDrop(::UnityEngine::UIElements::IListDragAndDropArgs* args);
 
-  /// @brief Method SetupDragAndDrop, addr 0x4a17c68, size 0x5b4, virtual true, abstract: false, final false
+  /// @brief Method SetupDragAndDrop, addr 0x6b54de0, size 0x668, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::StartDragArgs SetupDragAndDrop(::System::Collections::Generic::IEnumerable_1<int32_t>* itemIds, bool skipText);
 
   constexpr bool const& __cordl_internal_get__enableReordering_k__BackingField() const;
@@ -110,10 +116,10 @@ public:
 
   constexpr void __cordl_internal_set_m_View(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
-  /// @brief Method .ctor, addr 0x4a17bb4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b54d40, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* view);
 
-  /// @brief Method get_enableReordering, addr 0x4a17c44, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_enableReordering, addr 0x6b54dc8, size 0x8, virtual true, abstract: false, final false
   inline bool get_enableReordering();
 
   /// @brief Convert to "::UnityEngine::UIElements::ICollectionDragAndDropController"
@@ -126,7 +132,7 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IReorderable"
   constexpr ::UnityEngine::UIElements::IReorderable* i___UnityEngine__UIElements__IReorderable() noexcept;
 
-  /// @brief Method set_enableReordering, addr 0x4a17c4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_enableReordering, addr 0x6b54dd0, size 0x8, virtual true, abstract: false, final false
   inline void set_enableReordering(bool value);
 
 protected:
@@ -144,7 +150,7 @@ public:
   BaseReorderableDragAndDropController(BaseReorderableDragAndDropController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5744 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4388 };
 
   /// @brief Field m_View, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseVerticalCollectionView* ___m_View;

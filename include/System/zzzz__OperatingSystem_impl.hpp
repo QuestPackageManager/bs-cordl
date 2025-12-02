@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/OperatingSystem.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PlatformID_impl.hpp"
 #include "System/zzzz__OperatingSystem_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__PlatformID_def.hpp"
 #include "System/zzzz__Version_def.hpp"
@@ -15,7 +15,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OperatingSystem::*)(::System::PlatformID, ::System::Version*)>(&::System::OperatingSystem::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0cfe8;
+  constexpr static std::size_t addrs = 0x5a535a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OperatingSystem::*)(::System::PlatformID, ::System::Version*, ::StringW)>(
     &::System::OperatingSystem::_ctor)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3e0cff0;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5a535b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OperatingSystem::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::OperatingSystem::GetObjectData)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e0d128;
+  constexpr static std::size_t addrs = 0x5a536d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,10 +63,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::PlatformID (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_Platform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e0d15c;
+  constexpr static std::size_t addrs = 0x5a53708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "get_Platform",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::OperatingSystem.get_Version
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Version* (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_Version)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a53710;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "get_Version",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -75,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::OperatingSystem::*)()>(&::System::OperatingSystem::Clone)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e0d164;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5a53718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "Clone",
@@ -89,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::OperatingSystem::*)()>(&::System::OperatingSystem::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e0d1d8;
+  constexpr static std::size_t addrs = 0x5a53790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,8 +115,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::OperatingSystem::*)()>(&::System::OperatingSystem::get_VersionString)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3e0d1dc;
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x5a53794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "get_VersionString",
@@ -185,6 +198,11 @@ inline ::System::PlatformID System::OperatingSystem::get_Platform() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "get_Platform",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::PlatformID, false>(this, ___internal_method);
+}
+inline ::System::Version* System::OperatingSystem::get_Version() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "get_Version",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Version*, false>(this, ___internal_method);
 }
 inline ::System::Object* System::OperatingSystem::Clone() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OperatingSystem*>::get(), "Clone",

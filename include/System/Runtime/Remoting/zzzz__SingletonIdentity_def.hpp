@@ -37,19 +37,19 @@ namespace System::Runtime::Remoting {
 class CORDL_TYPE SingletonIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
-  /// @brief Method AsyncObjectProcessMessage, addr 0x3cd5d40, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x5918ce4, size 0xe8, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method GetServerObject, addr 0x3cd5a84, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method GetServerObject, addr 0x5918a60, size 0x1a8, virtual false, abstract: false, final false
   inline ::System::MarshalByRefObject* GetServerObject();
 
   static inline ::System::Runtime::Remoting::SingletonIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x3cd5c70, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x5918c08, size 0xdc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3cd39fc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5916ae0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
 protected:
@@ -67,7 +67,7 @@ public:
   SingletonIdentity(SingletonIdentity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3073 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3090 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

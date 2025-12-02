@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::get_rootElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df20;
+  constexpr static std::size_t addrs = 0x6a20a98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::get_bindableElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df28;
+  constexpr static std::size_t addrs = 0x6a20aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableCollectionItem*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::set_bindableElement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df30;
+  constexpr static std::size_t addrs = 0x6a20aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>* (
     ::UnityEngine::UIElements::ReusableCollectionItem::*)()>(&::UnityEngine::UIElements::ReusableCollectionItem::get_animator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df38;
+  constexpr static std::size_t addrs = 0x6a20ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableCollectionItem*>::get(),
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(
     ::UnityEngine::UIElements::Experimental::ValueAnimation_1<::UnityEngine::UIElements::Experimental::StyleValues>*)>(&::UnityEngine::UIElements::ReusableCollectionItem::set_animator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df40;
+  constexpr static std::size_t addrs = 0x6a20ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df48;
+  constexpr static std::size_t addrs = 0x6a20ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableCollectionItem*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(int32_t)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::set_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df50;
+  constexpr static std::size_t addrs = 0x6a20ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df58;
+  constexpr static std::size_t addrs = 0x6a20ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableCollectionItem*>::get(),
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(int32_t)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::set_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df60;
+  constexpr static std::size_t addrs = 0x6a20ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::get_isDragGhost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497df68;
+  constexpr static std::size_t addrs = 0x6a20ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableCollectionItem*>::get(),
@@ -160,8 +160,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::set_isDragGhost)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x497df70;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a20ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -175,8 +175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*)>(&::UnityEngine::UIElements::ReusableCollectionItem::add_onGeometryChanged)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x497df7c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a20af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*)>(&::UnityEngine::UIElements::ReusableCollectionItem::remove_onGeometryChanged)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x497e02c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a20bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*)>(&::UnityEngine::UIElements::ReusableCollectionItem::add_onDestroy)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x497e0dc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a20c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,8 +220,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(
     ::System::Action_1<::UnityEngine::UIElements::ReusableCollectionItem*>*)>(&::UnityEngine::UIElements::ReusableCollectionItem::remove_onDestroy)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x497e18c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6a20d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x497e23c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6a20df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableCollectionItem*>::get(),
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x497e2cc;
+  constexpr static std::size_t addrs = 0x6a20e74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -265,8 +265,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::PreAttachElement)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x497e2d4;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6a20e7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -281,8 +281,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::DetachElement)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x497e390;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6a20f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -298,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)()>(
     &::UnityEngine::UIElements::ReusableCollectionItem::DestroyElement)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x497e49c;
+  constexpr static std::size_t addrs = 0x6a21054;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -313,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::SetSelected)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x497e4bc;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6a21074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -329,8 +329,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::SetDragGhost)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x497e5ac;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6a21178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableCollectionItem::*)(::UnityEngine::UIElements::GeometryChangedEvent*)>(
     &::UnityEngine::UIElements::ReusableCollectionItem::OnGeometryChanged)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x497e74c;
+  constexpr static std::size_t addrs = 0x6a2130c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

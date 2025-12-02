@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnMovePreview::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x49e255c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6aec658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

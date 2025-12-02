@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PickingMode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlAsset_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementAsset)
@@ -13,7 +12,19 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace UnityEngine::UIElements {
+struct CreationContext;
+}
+namespace UnityEngine::UIElements {
 class StyleSheet;
+}
+namespace UnityEngine::UIElements {
+class UxmlSerializedData;
+}
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -21,7 +32,7 @@ class VisualElementAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementAsset);
-// Dependencies UnityEngine.ISerializationCallbackReceiver, UnityEngine.UIElements.PickingMode, UnityEngine.UIElements.UxmlAsset
+// Dependencies UnityEngine.UIElements.PickingMode, UnityEngine.UIElements.UxmlAsset
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.VisualElementAsset
@@ -34,32 +45,37 @@ public:
 
   __declspec(property(get = get_hasStylesheets)) bool hasStylesheets;
 
-  /// @brief Field m_Classes, offset 0x50, size 0x8
+  /// @brief Field m_Classes, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Classes, put = __cordl_internal_set_m_Classes)) ::ArrayW<::StringW, ::Array<::StringW>*> m_Classes;
 
-  /// @brief Field m_Name, offset 0x30, size 0x8
+  /// @brief Field m_Name, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
 
-  /// @brief Field m_PickingMode, offset 0x48, size 0x4
+  /// @brief Field m_PickingMode, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_PickingMode, put = __cordl_internal_set_m_PickingMode)) ::UnityEngine::UIElements::PickingMode m_PickingMode;
 
-  /// @brief Field m_RuleIndex, offset 0x38, size 0x4
+  /// @brief Field m_RuleIndex, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_RuleIndex, put = __cordl_internal_set_m_RuleIndex)) int32_t m_RuleIndex;
 
-  /// @brief Field m_SkipClone, offset 0x68, size 0x1
+  /// @brief Field m_SerializedData, offset 0x80, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_SerializedData, put = __cordl_internal_set_m_SerializedData)) ::UnityEngine::UIElements::UxmlSerializedData* m_SerializedData;
+
+  /// @brief Field m_SkipClone, offset 0x88, size 0x1
   __declspec(property(get = __cordl_internal_get_m_SkipClone, put = __cordl_internal_set_m_SkipClone)) bool m_SkipClone;
 
-  /// @brief Field m_StylesheetPaths, offset 0x58, size 0x8
+  /// @brief Field m_StylesheetPaths, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_StylesheetPaths, put = __cordl_internal_set_m_StylesheetPaths)) ::System::Collections::Generic::List_1<::StringW>* m_StylesheetPaths;
 
-  /// @brief Field m_Stylesheets, offset 0x60, size 0x8
+  /// @brief Field m_Stylesheets, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Stylesheets,
                       put = __cordl_internal_set_m_Stylesheets)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* m_Stylesheets;
 
-  /// @brief Field m_Text, offset 0x40, size 0x8
+  /// @brief Field m_Text, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::StringW m_Text;
 
   __declspec(property(get = get_ruleIndex)) int32_t ruleIndex;
+
+  __declspec(property(get = get_serializedData)) ::UnityEngine::UIElements::UxmlSerializedData* serializedData;
 
   __declspec(property(get = get_skipClone)) bool skipClone;
 
@@ -70,11 +86,21 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method OnAfterDeserialize, addr 0x4aa4fec, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method IdsPathMatchesAttributeOverrideIdsPath, addr 0x6a8d33c, size 0x13c, virtual false, abstract: false, final false
+  static inline bool IdsPathMatchesAttributeOverrideIdsPath(::System::Collections::Generic::List_1<int32_t>* idsPath, ::System::Collections::Generic::List_1<int32_t>* attributeOverrideIdsPath,
+                                                            int32_t templateId);
+
+  /// @brief Method Instantiate, addr 0x6a87b90, size 0x56c, virtual true, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* Instantiate(::UnityEngine::UIElements::CreationContext cc);
+
+  /// @brief Method OnAfterDeserialize, addr 0x6a8d19c, size 0x1a0, virtual true, abstract: false, final true
   inline void OnAfterDeserialize();
 
-  /// @brief Method OnBeforeSerialize, addr 0x4aa4fe8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method OnBeforeSerialize, addr 0x6a8d198, size 0x4, virtual true, abstract: false, final true
   inline void OnBeforeSerialize();
+
+  /// @brief Method ToString, addr 0x6a8d53c, size 0xa8, virtual true, abstract: false, final false
+  inline ::StringW ToString();
 
   constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_m_Classes() const;
 
@@ -91,6 +117,10 @@ public:
   constexpr int32_t const& __cordl_internal_get_m_RuleIndex() const;
 
   constexpr int32_t& __cordl_internal_get_m_RuleIndex();
+
+  constexpr ::UnityEngine::UIElements::UxmlSerializedData* const& __cordl_internal_get_m_SerializedData() const;
+
+  constexpr ::UnityEngine::UIElements::UxmlSerializedData*& __cordl_internal_get_m_SerializedData();
 
   constexpr bool const& __cordl_internal_get_m_SkipClone() const;
 
@@ -116,6 +146,8 @@ public:
 
   constexpr void __cordl_internal_set_m_RuleIndex(int32_t value);
 
+  constexpr void __cordl_internal_set_m_SerializedData(::UnityEngine::UIElements::UxmlSerializedData* value);
+
   constexpr void __cordl_internal_set_m_SkipClone(bool value);
 
   constexpr void __cordl_internal_set_m_StylesheetPaths(::System::Collections::Generic::List_1<::StringW>* value);
@@ -124,25 +156,28 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::StringW value);
 
-  /// @brief Method get_classes, addr 0x4aa4ec8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_classes, addr 0x6a8d060, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_classes();
 
-  /// @brief Method get_hasStylesheetPaths, addr 0x4aa4f48, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheetPaths, addr 0x6a8d0e8, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheetPaths();
 
-  /// @brief Method get_hasStylesheets, addr 0x4aa4fd0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasStylesheets, addr 0x6a8d178, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasStylesheets();
 
-  /// @brief Method get_ruleIndex, addr 0x4aa4ec0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ruleIndex, addr 0x6a8d058, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ruleIndex();
 
-  /// @brief Method get_skipClone, addr 0x4aa4fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_serializedData, addr 0x6a8d188, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::UxmlSerializedData* get_serializedData();
+
+  /// @brief Method get_skipClone, addr 0x6a8d190, size 0x8, virtual false, abstract: false, final false
   inline bool get_skipClone();
 
-  /// @brief Method get_stylesheetPaths, addr 0x4aa4ed0, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheetPaths, addr 0x6a8d068, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::StringW>* get_stylesheetPaths();
 
-  /// @brief Method get_stylesheets, addr 0x4aa4f58, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_stylesheets, addr 0x6a8d0f8, size 0x80, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* get_stylesheets();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -163,52 +198,57 @@ public:
   VisualElementAsset(VisualElementAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6286 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5197 };
 
-  /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_Name, offset: 0x48, size: 0x8, def value: None
   ::StringW ___m_Name;
 
-  /// @brief Field m_RuleIndex, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field m_RuleIndex, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_RuleIndex;
 
-  /// @brief Field m_Text, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_Text, offset: 0x58, size: 0x8, def value: None
   ::StringW ___m_Text;
 
-  /// @brief Field m_PickingMode, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field m_PickingMode, offset: 0x60, size: 0x4, def value: None
   ::UnityEngine::UIElements::PickingMode ___m_PickingMode;
 
-  /// @brief Field m_Classes, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field m_Classes, offset: 0x68, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ___m_Classes;
 
-  /// @brief Field m_StylesheetPaths, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field m_StylesheetPaths, offset: 0x70, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_StylesheetPaths;
 
-  /// @brief Field m_Stylesheets, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field m_Stylesheets, offset: 0x78, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UIElements::StyleSheet>>* ___m_Stylesheets;
 
-  /// @brief Field m_SkipClone, offset: 0x68, size: 0x1, def value: None
+  /// @brief Field m_SerializedData, offset: 0x80, size: 0x8, def value: None
+  ::UnityEngine::UIElements::UxmlSerializedData* ___m_SerializedData;
+
+  /// @brief Field m_SkipClone, offset: 0x88, size: 0x1, def value: None
   bool ___m_SkipClone;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Name) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Name) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_RuleIndex) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_RuleIndex) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Text) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Text) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_PickingMode) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_PickingMode) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Classes) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Classes) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_StylesheetPaths) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_StylesheetPaths) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Stylesheets) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_Stylesheets) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_SkipClone) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_SerializedData) == 0x80, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAsset, 0x70>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::VisualElementAsset, ___m_SkipClone) == 0x88, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementAsset, 0x90>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementAsset);

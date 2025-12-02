@@ -3,15 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMultiplayerStatusModel_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerStatusModel)
+namespace GlobalNamespace {
+class IMultiplayerStatusModel;
+}
 namespace GlobalNamespace {
 class INetworkConfig;
 }
@@ -71,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_data(::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d6e88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3608e78, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -89,7 +90,7 @@ public:
   MultiplayerStatusModel_MultiplayerStatusDataFB(MultiplayerStatusModel_MultiplayerStatusDataFB const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15033 };
 
   /// @brief Field data, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MultiplayerStatusData*, ::Array<::GlobalNamespace::MultiplayerStatusData*>*> ___data;
@@ -102,7 +103,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerStatusModel_MultiplayerStat
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerStatusModel_MultiplayerStatusDataFB, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MultiplayerStatusModel/<GetMultiplayerStatusAsyncInternal>d__9
@@ -112,10 +113,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26d6e90, size 0x868, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3608e7c, size 0x8b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26d76f8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3609734, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -135,7 +136,7 @@ public:
                                                                            ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15034 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -171,7 +172,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerStatusModel__GetMultiplayer
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerStatusModel__GetMultiplayerStatusAsyncInternal_d__9, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IMultiplayerStatusModel, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerStatusModel
@@ -194,21 +195,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IMultiplayerStatusModel"
   constexpr operator ::GlobalNamespace::IMultiplayerStatusModel*() noexcept;
 
-  /// @brief Method GetMultiplayerStatusAsync, addr 0x26d6c78, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method GetMultiplayerStatusAsync, addr 0x3608c60, size 0x78, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x26d6d40, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method GetMultiplayerStatusAsyncInternal, addr 0x3608d3c, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* GetMultiplayerStatusAsyncInternal();
 
-  /// @brief Method Init, addr 0x26d6c48, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x3608c30, size 0x18, virtual false, abstract: false, final false
   inline void Init();
 
-  /// @brief Method IsAvailabilityTaskValid, addr 0x26d6ce4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsAvailabilityTaskValid, addr 0x3608cd8, size 0x64, virtual false, abstract: false, final false
   inline bool IsAvailabilityTaskValid();
 
   static inline ::GlobalNamespace::MultiplayerStatusModel* New_ctor();
 
-  /// @brief Method StartRequest, addr 0x26d6c60, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method StartRequest, addr 0x3608c48, size 0x18, virtual false, abstract: false, final false
   inline void StartRequest();
 
   constexpr ::System::Net::Http::HttpClient* const& __cordl_internal_get__client() const;
@@ -229,7 +230,7 @@ public:
 
   constexpr void __cordl_internal_set__request(::System::Threading::Tasks::Task_1<::GlobalNamespace::MultiplayerStatusData*>* value);
 
-  /// @brief Method .ctor, addr 0x26d6e28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3608e1c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerStatusModel"
@@ -250,7 +251,7 @@ public:
   MultiplayerStatusModel(MultiplayerStatusModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13063 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15035 };
 
   /// @brief Field kRequestTimeoutSeconds offset 0xffffffff size 0x4
   static constexpr int32_t kRequestTimeoutSeconds{ static_cast<int32_t>(0x3c) };

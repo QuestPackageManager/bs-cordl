@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::ButtonSpriteSwapToggle::*)()>(&::HMUI::ButtonSpriteSwapToggle::get_isToggled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f446c;
+  constexpr static std::size_t addrs = 0x566cb48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), "get_isToggled",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)(bool)>(&::HMUI::ButtonSpriteSwapToggle::set_isToggled)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39f4474;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x566cb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)()>(&::HMUI::ButtonSpriteSwapToggle::OnEnable)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39f44b4;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x566cb88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)(::HMUI::NoTransitionsButton_SelectionState)>(
     &::HMUI::ButtonSpriteSwapToggle::HandleButtonSelectionStateDidChange)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x39f44e4;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x566cbb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonSpriteSwapToggle::*)()>(&::HMUI::ButtonSpriteSwapToggle::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f4630;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x566cd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonSpriteSwapToggle*>::get(), ".ctor",

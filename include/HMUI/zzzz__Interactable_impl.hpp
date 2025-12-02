@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Interactable::*)(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>*)>(
     &::HMUI::Interactable::add_interactableChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aaa2cc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5683c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Interactable::*)(::System::Action_2<::UnityW<::HMUI::Interactable>, bool>*)>(
     &::HMUI::Interactable::remove_interactableChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aaa37c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5683d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::Interactable::*)()>(&::HMUI::Interactable::get_interactable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3aaa42c;
+  constexpr static std::size_t addrs = 0x5683df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Interactable*>::get(), "get_interactable",
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Interactable::*)(bool)>(&::HMUI::Interactable::set_interactable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3aaa44c;
+  constexpr static std::size_t addrs = 0x5683e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Interactable::*)()>(&::HMUI::Interactable::OnCanvasGroupChanged)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3aaa4ac;
+  constexpr static std::size_t addrs = 0x5683e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::Interactable::*)()>(&::HMUI::Interactable::ParentGroupAllowsInteraction)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x3aaa55c;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x5683f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Interactable*>::get(), "ParentGroupAllowsInteraction",
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::Interactable::*)()>(&::HMUI::Interactable::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3aaa798;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5684108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::Interactable*>::get(), ".ctor",

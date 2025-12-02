@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidPassJumpThreeQuartersEvent_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MirroredNoteController_1)
@@ -38,7 +36,7 @@ template <typename T> class MirroredNoteController_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::MirroredNoteController_1);
-// Dependencies INoteControllerNoteDidPassJumpThreeQuartersEvent, INoteControllerNoteDidStartDissolvingEvent, NoteControllerBase
+// Dependencies NoteControllerBase
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -183,7 +181,7 @@ public:
   MirroredNoteController_1(MirroredNoteController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5675 };
 
   /// @brief Field _noteTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____noteTransform;

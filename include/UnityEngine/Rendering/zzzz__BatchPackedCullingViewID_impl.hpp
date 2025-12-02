@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/BatchPackedCullingViewID.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchPackedCullingViewID_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchPackedCullingViewID.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchPackedCullingViewID::*)()>(
     &::UnityEngine::Rendering::BatchPackedCullingViewID::GetHashCode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48cab38;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x68f6680;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchPackedCullingViewID::*)(::UnityEngine::Rendering::BatchPackedCullingViewID)>(
     &::UnityEngine::Rendering::BatchPackedCullingViewID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48cab40;
+  constexpr static std::size_t addrs = 0x68f668c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,14 +39,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchPackedCullingViewID::*)(::System::Object*)>(
     &::UnityEngine::Rendering::BatchPackedCullingViewID::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48cab50;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x68f669c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchPackedCullingViewID>::get(),
                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchPackedCullingViewID>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BatchPackedCullingViewID.GetInstanceID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchPackedCullingViewID::*)()>(
+    &::UnityEngine::Rendering::BatchPackedCullingViewID::GetInstanceID)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68f6718;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchPackedCullingViewID>::get(),
+                                                                               "GetInstanceID", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -65,6 +79,11 @@ inline bool UnityEngine::Rendering::BatchPackedCullingViewID::Equals(::System::O
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchPackedCullingViewID>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::Rendering::BatchPackedCullingViewID::GetInstanceID() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchPackedCullingViewID>::get(),
+                                                                             "GetInstanceID", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>"
 constexpr UnityEngine::Rendering::BatchPackedCullingViewID::operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchPackedCullingViewID>*() {

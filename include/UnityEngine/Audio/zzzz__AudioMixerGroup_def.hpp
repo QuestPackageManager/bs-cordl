@@ -3,11 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/Internal/zzzz__ISubAssetNotDuplicatable_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AudioMixerGroup)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::Audio {
 class AudioMixer;
+}
+namespace UnityEngine::Internal {
+class ISubAssetNotDuplicatable;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -15,7 +20,7 @@ class AudioMixerGroup;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerGroup);
-// Dependencies UnityEngine.Internal.ISubAssetNotDuplicatable, UnityEngine.Object
+// Dependencies UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
 // CS Name: UnityEngine.Audio.AudioMixerGroup
@@ -29,11 +34,14 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerGroup* New_ctor();
 
-  /// @brief Method .ctor, addr 0x485dcd0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x681fe5c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x485dd28, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x681feb4, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
+
+  /// @brief Method get_audioMixer_Injected, addr 0x6820004, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_audioMixer_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
   constexpr ::UnityEngine::Internal::ISubAssetNotDuplicatable* i___UnityEngine__Internal__ISubAssetNotDuplicatable() noexcept;
@@ -53,7 +61,7 @@ public:
   AudioMixerGroup(AudioMixerGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20564 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

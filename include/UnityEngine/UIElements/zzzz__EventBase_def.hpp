@@ -3,16 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__EventCategory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PropagationPhase_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(EventBase)
-namespace System::Collections::Generic {
-template <typename T> class List_1;
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
 }
 namespace UnityEngine::UIElements {
 struct EventBase_EventPropagation;
@@ -30,10 +31,10 @@ namespace UnityEngine::UIElements {
 class IPanel;
 }
 namespace UnityEngine::UIElements {
-class PropagationPaths;
+struct PropagationPhase;
 }
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
+class VisualElement;
 }
 namespace UnityEngine {
 class Event;
@@ -69,9 +70,8 @@ public:
     __E_None = static_cast<int32_t>(0x0),
     __E_Bubbles = static_cast<int32_t>(0x1),
     __E_TricklesDown = static_cast<int32_t>(0x2),
-    __E_Cancellable = static_cast<int32_t>(0x4),
-    __E_SkipDisabledElements = static_cast<int32_t>(0x8),
-    __E_IgnoreCompositeRoots = static_cast<int32_t>(0x10),
+    __E_SkipDisabledElements = static_cast<int32_t>(0x4),
+    __E_BubblesOrTricklesDown = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -94,23 +94,20 @@ public:
   /// @brief Field Bubbles value: I32(1)
   static ::UnityEngine::UIElements::EventBase_EventPropagation const Bubbles;
 
-  /// @brief Field Cancellable value: I32(4)
-  static ::UnityEngine::UIElements::EventBase_EventPropagation const Cancellable;
-
-  /// @brief Field IgnoreCompositeRoots value: I32(16)
-  static ::UnityEngine::UIElements::EventBase_EventPropagation const IgnoreCompositeRoots;
+  /// @brief Field BubblesOrTricklesDown value: I32(3)
+  static ::UnityEngine::UIElements::EventBase_EventPropagation const BubblesOrTricklesDown;
 
   /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::EventBase_EventPropagation const None;
 
-  /// @brief Field SkipDisabledElements value: I32(8)
+  /// @brief Field SkipDisabledElements value: I32(4)
   static ::UnityEngine::UIElements::EventBase_EventPropagation const SkipDisabledElements;
 
   /// @brief Field TricklesDown value: I32(2)
   static ::UnityEngine::UIElements::EventBase_EventPropagation const TricklesDown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4446 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -140,15 +137,13 @@ public:
     __E_None = static_cast<int32_t>(0x0),
     __E_PropagationStopped = static_cast<int32_t>(0x1),
     __E_ImmediatePropagationStopped = static_cast<int32_t>(0x2),
-    __E_DefaultPrevented = static_cast<int32_t>(0x4),
-    __E_Dispatching = static_cast<int32_t>(0x8),
-    __E_Pooled = static_cast<int32_t>(0x10),
-    __E_IMGUIEventIsValid = static_cast<int32_t>(0x20),
-    __E_StopDispatch = static_cast<int32_t>(0x40),
-    __E_PropagateToIMGUI = static_cast<int32_t>(0x80),
-    __E_Dispatched = static_cast<int32_t>(0x200),
-    __E_Processed = static_cast<int32_t>(0x400),
-    __E_ProcessedByFocusController = static_cast<int32_t>(0x800),
+    __E_Dispatching = static_cast<int32_t>(0x4),
+    __E_Pooled = static_cast<int32_t>(0x8),
+    __E_IMGUIEventIsValid = static_cast<int32_t>(0x10),
+    __E_PropagateToIMGUI = static_cast<int32_t>(0x20),
+    __E_Dispatched = static_cast<int32_t>(0x40),
+    __E_Processed = static_cast<int32_t>(0x80),
+    __E_ProcessedByFocusController = static_cast<int32_t>(0x100),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -168,16 +163,13 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr EventBase_LifeCycleStatus(int32_t value__) noexcept;
 
-  /// @brief Field DefaultPrevented value: I32(4)
-  static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const DefaultPrevented;
-
-  /// @brief Field Dispatched value: I32(512)
+  /// @brief Field Dispatched value: I32(64)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const Dispatched;
 
-  /// @brief Field Dispatching value: I32(8)
+  /// @brief Field Dispatching value: I32(4)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const Dispatching;
 
-  /// @brief Field IMGUIEventIsValid value: I32(32)
+  /// @brief Field IMGUIEventIsValid value: I32(16)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const IMGUIEventIsValid;
 
   /// @brief Field ImmediatePropagationStopped value: I32(2)
@@ -186,26 +178,23 @@ public:
   /// @brief Field None value: I32(0)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const None;
 
-  /// @brief Field Pooled value: I32(16)
+  /// @brief Field Pooled value: I32(8)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const Pooled;
 
-  /// @brief Field Processed value: I32(1024)
+  /// @brief Field Processed value: I32(128)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const Processed;
 
-  /// @brief Field ProcessedByFocusController value: I32(2048)
+  /// @brief Field ProcessedByFocusController value: I32(256)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const ProcessedByFocusController;
 
-  /// @brief Field PropagateToIMGUI value: I32(128)
+  /// @brief Field PropagateToIMGUI value: I32(32)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const PropagateToIMGUI;
 
   /// @brief Field PropagationStopped value: I32(1)
   static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const PropagationStopped;
 
-  /// @brief Field StopDispatch value: I32(64)
-  static ::UnityEngine::UIElements::EventBase_LifeCycleStatus const StopDispatch;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4447 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -221,8 +210,7 @@ static_assert(offsetof(::UnityEngine::UIElements::EventBase_LifeCycleStatus, val
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventBase_LifeCycleStatus, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies System.IDisposable, System.Object, UnityEngine.UIElements.EventBase::EventPropagation, UnityEngine.UIElements.EventBase::LifeCycleStatus, UnityEngine.UIElements.EventCategory,
-// UnityEngine.UIElements.PropagationPhase, UnityEngine.Vector2
+// Dependencies System.Object, UnityEngine.UIElements.EventBase::EventPropagation, UnityEngine.UIElements.EventBase::LifeCycleStatus, UnityEngine.UIElements.PropagationPhase, UnityEngine.Vector2
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.EventBase
@@ -233,29 +221,25 @@ public:
 
   using LifeCycleStatus = ::UnityEngine::UIElements::EventBase_LifeCycleStatus;
 
-  /// @brief Field <eventCategory>k__BackingField, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__eventCategory_k__BackingField,
-                      put = __cordl_internal_set__eventCategory_k__BackingField)) ::UnityEngine::UIElements::EventCategory _eventCategory_k__BackingField;
+  /// @brief Field <elementTarget>k__BackingField, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__elementTarget_k__BackingField,
+                      put = __cordl_internal_set__elementTarget_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _elementTarget_k__BackingField;
+
+  /// @brief Field <eventCategories>k__BackingField, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get__eventCategories_k__BackingField, put = __cordl_internal_set__eventCategories_k__BackingField)) int32_t _eventCategories_k__BackingField;
 
   /// @brief Field <eventId>k__BackingField, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__eventId_k__BackingField, put = __cordl_internal_set__eventId_k__BackingField)) uint64_t _eventId_k__BackingField;
 
-  /// @brief Field <leafTarget>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__leafTarget_k__BackingField,
-                      put = __cordl_internal_set__leafTarget_k__BackingField)) ::UnityEngine::UIElements::IEventHandler* _leafTarget_k__BackingField;
-
-  /// @brief Field <lifeCycleStatus>k__BackingField, offset 0x40, size 0x4
+  /// @brief Field <lifeCycleStatus>k__BackingField, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get__lifeCycleStatus_k__BackingField,
                       put = __cordl_internal_set__lifeCycleStatus_k__BackingField)) ::UnityEngine::UIElements::EventBase_LifeCycleStatus _lifeCycleStatus_k__BackingField;
 
-  /// @brief Field <originalMousePosition>k__BackingField, offset 0x78, size 0x8
+  /// @brief Field <originalMousePosition>k__BackingField, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__originalMousePosition_k__BackingField,
                       put = __cordl_internal_set__originalMousePosition_k__BackingField)) ::UnityEngine::Vector2 _originalMousePosition_k__BackingField;
 
-  /// @brief Field <path>k__BackingField, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__path_k__BackingField, put = __cordl_internal_set__path_k__BackingField)) ::UnityEngine::UIElements::PropagationPaths* _path_k__BackingField;
-
-  /// @brief Field <propagationPhase>k__BackingField, offset 0x60, size 0x4
+  /// @brief Field <propagationPhase>k__BackingField, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__propagationPhase_k__BackingField,
                       put = __cordl_internal_set__propagationPhase_k__BackingField)) ::UnityEngine::UIElements::PropagationPhase _propagationPhase_k__BackingField;
 
@@ -263,17 +247,13 @@ public:
   __declspec(property(get = __cordl_internal_get__propagation_k__BackingField,
                       put = __cordl_internal_set__propagation_k__BackingField)) ::UnityEngine::UIElements::EventBase_EventPropagation _propagation_k__BackingField;
 
-  /// @brief Field <skipElements>k__BackingField, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__skipElements_k__BackingField,
-                      put = __cordl_internal_set__skipElements_k__BackingField)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* _skipElements_k__BackingField;
-
   /// @brief Field <timestamp>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__timestamp_k__BackingField, put = __cordl_internal_set__timestamp_k__BackingField)) int64_t _timestamp_k__BackingField;
 
   /// @brief Field <triggerEventId>k__BackingField, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__triggerEventId_k__BackingField, put = __cordl_internal_set__triggerEventId_k__BackingField)) uint64_t _triggerEventId_k__BackingField;
 
-  __declspec(property(get = get_bubbles)) bool bubbles;
+  __declspec(property(get = get_bubbles, put = set_bubbles)) bool bubbles;
 
   __declspec(property(get = get_bubblesOrTricklesDown)) bool bubblesOrTricklesDown;
 
@@ -283,40 +263,31 @@ public:
 
   __declspec(property(get = get_dispatched, put = set_dispatched)) bool dispatched;
 
-  __declspec(property(get = get_eventCategory)) ::UnityEngine::UIElements::EventCategory eventCategory;
+  __declspec(property(get = get_elementTarget, put = set_elementTarget)) ::UnityEngine::UIElements::VisualElement* elementTarget;
+
+  __declspec(property(get = get_eventCategories)) int32_t eventCategories;
 
   __declspec(property(get = get_eventId, put = set_eventId)) uint64_t eventId;
 
   __declspec(property(get = get_eventTypeId)) int64_t eventTypeId;
 
-  __declspec(property(get = get_ignoreCompositeRoots, put = set_ignoreCompositeRoots)) bool ignoreCompositeRoots;
-
   __declspec(property(get = get_imguiEvent, put = set_imguiEvent)) ::UnityEngine::Event* imguiEvent;
 
   __declspec(property(get = get_imguiEventIsValid, put = set_imguiEventIsValid)) bool imguiEventIsValid;
-
-  __declspec(property(get = get_isDefaultPrevented, put = set_isDefaultPrevented)) bool isDefaultPrevented;
 
   __declspec(property(get = get_isImmediatePropagationStopped, put = set_isImmediatePropagationStopped)) bool isImmediatePropagationStopped;
 
   __declspec(property(get = get_isPropagationStopped, put = set_isPropagationStopped)) bool isPropagationStopped;
 
-  __declspec(property(get = get_leafTarget, put = set_leafTarget)) ::UnityEngine::UIElements::IEventHandler* leafTarget;
-
   __declspec(property(get = get_lifeCycleStatus, put = set_lifeCycleStatus)) ::UnityEngine::UIElements::EventBase_LifeCycleStatus lifeCycleStatus;
 
-  /// @brief Field m_CurrentTarget, offset 0x68, size 0x8
+  /// @brief Field m_CurrentTarget, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CurrentTarget, put = __cordl_internal_set_m_CurrentTarget)) ::UnityEngine::UIElements::IEventHandler* m_CurrentTarget;
 
-  /// @brief Field m_ImguiEvent, offset 0x70, size 0x8
+  /// @brief Field m_ImguiEvent, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ImguiEvent, put = __cordl_internal_set_m_ImguiEvent)) ::UnityEngine::Event* m_ImguiEvent;
 
-  /// @brief Field m_Target, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Target, put = __cordl_internal_set_m_Target)) ::UnityEngine::UIElements::IEventHandler* m_Target;
-
   __declspec(property(get = get_originalMousePosition, put = set_originalMousePosition)) ::UnityEngine::Vector2 originalMousePosition;
-
-  __declspec(property(get = get_path, put = set_path)) ::UnityEngine::UIElements::PropagationPaths* path;
 
   __declspec(property(get = get_pooled, put = set_pooled)) bool pooled;
 
@@ -328,7 +299,7 @@ public:
 
   __declspec(property(get = get_propagation, put = set_propagation)) ::UnityEngine::UIElements::EventBase_EventPropagation propagation;
 
-  __declspec(property(get = get_propagationPhase, put = set_propagationPhase)) ::UnityEngine::UIElements::PropagationPhase propagationPhase;
+  __declspec(property(put = set_propagationPhase)) ::UnityEngine::UIElements::PropagationPhase propagationPhase;
 
   /// @brief Field s_LastTypeId, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_LastTypeId, put = setStaticF_s_LastTypeId)) int64_t s_LastTypeId;
@@ -338,15 +309,11 @@ public:
 
   __declspec(property(get = get_skipDisabledElements, put = set_skipDisabledElements)) bool skipDisabledElements;
 
-  __declspec(property(get = get_skipElements)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* skipElements;
-
-  __declspec(property(get = get_stopDispatch, put = set_stopDispatch)) bool stopDispatch;
-
   __declspec(property(get = get_target, put = set_target)) ::UnityEngine::UIElements::IEventHandler* target;
 
   __declspec(property(get = get_timestamp, put = set_timestamp)) int64_t timestamp;
 
-  __declspec(property(get = get_tricklesDown)) bool tricklesDown;
+  __declspec(property(get = get_tricklesDown, put = set_tricklesDown)) bool tricklesDown;
 
   __declspec(property(put = set_triggerEventId)) uint64_t triggerEventId;
 
@@ -356,61 +323,60 @@ public:
   /// @brief Method Acquire, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Acquire();
 
+  /// @brief Method Dispatch, addr 0x6b63cfc, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
   /// @brief Method Dispose, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method Init, addr 0x4a27690, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b64198, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a27694, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b6419c, size 0xf4, virtual false, abstract: false, final false
   inline void LocalInit();
 
-  /// @brief Method MarkReceivedByDispatcher, addr 0x4a22874, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MarkReceivedByDispatcher, addr 0x6b60888, size 0x90, virtual false, abstract: false, final false
   inline void MarkReceivedByDispatcher();
+
+  static inline ::UnityEngine::UIElements::EventBase* New_ctor();
 
   static inline ::UnityEngine::UIElements::EventBase* New_ctor(::UnityEngine::UIElements::EventCategory category);
 
-  /// @brief Method PostDispatch, addr 0x4a272c4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6b63cb0, size 0x4, virtual true, abstract: false, final false
   inline void PostDispatch();
 
-  /// @brief Method PostDispatch, addr 0x4a272c8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6b63cb4, size 0x28, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreDispatch, addr 0x4a272b4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6b63cac, size 0x4, virtual true, abstract: false, final false
   inline void PreDispatch();
 
-  /// @brief Method PreDispatch, addr 0x4a272b8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6b6171c, size 0xc, virtual true, abstract: false, final false
   inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method PreventDefault, addr 0x4a24a48, size 0x18, virtual false, abstract: false, final false
-  inline void PreventDefault();
-
-  /// @brief Method RegisterEventType, addr 0x4a271f4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method RegisterEventType, addr 0x6b63bf8, size 0x54, virtual false, abstract: false, final false
   static inline int64_t RegisterEventType();
 
-  /// @brief Method SetTriggerEventId, addr 0x4a2727c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTriggerEventId, addr 0x6b63c84, size 0x8, virtual false, abstract: false, final false
   inline void SetTriggerEventId(uint64_t id);
 
-  /// @brief Method Skip, addr 0x4a249e0, size 0x58, virtual false, abstract: false, final false
-  inline bool Skip(::UnityEngine::UIElements::IEventHandler* h);
-
-  /// @brief Method StopImmediatePropagation, addr 0x4a273d4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StopImmediatePropagation, addr 0x6b63ea8, size 0x10, virtual false, abstract: false, final false
   inline void StopImmediatePropagation();
 
-  /// @brief Method StopPropagation, addr 0x4a24a38, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method StopPropagation, addr 0x6b63e6c, size 0x10, virtual false, abstract: false, final false
   inline void StopPropagation();
 
-  constexpr ::UnityEngine::UIElements::EventCategory const& __cordl_internal_get__eventCategory_k__BackingField() const;
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__elementTarget_k__BackingField() const;
 
-  constexpr ::UnityEngine::UIElements::EventCategory& __cordl_internal_get__eventCategory_k__BackingField();
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__elementTarget_k__BackingField();
+
+  constexpr int32_t const& __cordl_internal_get__eventCategories_k__BackingField() const;
+
+  constexpr int32_t& __cordl_internal_get__eventCategories_k__BackingField();
 
   constexpr uint64_t const& __cordl_internal_get__eventId_k__BackingField() const;
 
   constexpr uint64_t& __cordl_internal_get__eventId_k__BackingField();
-
-  constexpr ::UnityEngine::UIElements::IEventHandler* const& __cordl_internal_get__leafTarget_k__BackingField() const;
-
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get__leafTarget_k__BackingField();
 
   constexpr ::UnityEngine::UIElements::EventBase_LifeCycleStatus const& __cordl_internal_get__lifeCycleStatus_k__BackingField() const;
 
@@ -420,10 +386,6 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get__originalMousePosition_k__BackingField();
 
-  constexpr ::UnityEngine::UIElements::PropagationPaths* const& __cordl_internal_get__path_k__BackingField() const;
-
-  constexpr ::UnityEngine::UIElements::PropagationPaths*& __cordl_internal_get__path_k__BackingField();
-
   constexpr ::UnityEngine::UIElements::PropagationPhase const& __cordl_internal_get__propagationPhase_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::PropagationPhase& __cordl_internal_get__propagationPhase_k__BackingField();
@@ -431,10 +393,6 @@ public:
   constexpr ::UnityEngine::UIElements::EventBase_EventPropagation const& __cordl_internal_get__propagation_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::EventBase_EventPropagation& __cordl_internal_get__propagation_k__BackingField();
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* const& __cordl_internal_get__skipElements_k__BackingField() const;
-
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>*& __cordl_internal_get__skipElements_k__BackingField();
 
   constexpr int64_t const& __cordl_internal_get__timestamp_k__BackingField() const;
 
@@ -452,27 +410,19 @@ public:
 
   constexpr ::UnityEngine::Event*& __cordl_internal_get_m_ImguiEvent();
 
-  constexpr ::UnityEngine::UIElements::IEventHandler* const& __cordl_internal_get_m_Target() const;
+  constexpr void __cordl_internal_set__elementTarget_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
-  constexpr ::UnityEngine::UIElements::IEventHandler*& __cordl_internal_get_m_Target();
-
-  constexpr void __cordl_internal_set__eventCategory_k__BackingField(::UnityEngine::UIElements::EventCategory value);
+  constexpr void __cordl_internal_set__eventCategories_k__BackingField(int32_t value);
 
   constexpr void __cordl_internal_set__eventId_k__BackingField(uint64_t value);
-
-  constexpr void __cordl_internal_set__leafTarget_k__BackingField(::UnityEngine::UIElements::IEventHandler* value);
 
   constexpr void __cordl_internal_set__lifeCycleStatus_k__BackingField(::UnityEngine::UIElements::EventBase_LifeCycleStatus value);
 
   constexpr void __cordl_internal_set__originalMousePosition_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr void __cordl_internal_set__path_k__BackingField(::UnityEngine::UIElements::PropagationPaths* value);
-
   constexpr void __cordl_internal_set__propagationPhase_k__BackingField(::UnityEngine::UIElements::PropagationPhase value);
 
   constexpr void __cordl_internal_set__propagation_k__BackingField(::UnityEngine::UIElements::EventBase_EventPropagation value);
-
-  constexpr void __cordl_internal_set__skipElements_k__BackingField(::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* value);
 
   constexpr void __cordl_internal_set__timestamp_k__BackingField(int64_t value);
 
@@ -482,103 +432,86 @@ public:
 
   constexpr void __cordl_internal_set_m_ImguiEvent(::UnityEngine::Event* value);
 
-  constexpr void __cordl_internal_set_m_Target(::UnityEngine::UIElements::IEventHandler* value);
+  /// @brief Method .ctor, addr 0x6b642b0, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4a27904, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b642c0, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::EventCategory category);
 
   static inline int64_t getStaticF_s_LastTypeId();
 
   static inline uint64_t getStaticF_s_NextEventId();
 
-  /// @brief Method get_bubbles, addr 0x4a27310, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_bubbles, addr 0x6b63d34, size 0xc, virtual false, abstract: false, final false
   inline bool get_bubbles();
 
-  /// @brief Method get_bubblesOrTricklesDown, addr 0x4a234f8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_bubblesOrTricklesDown, addr 0x6b63da8, size 0x10, virtual false, abstract: false, final false
   inline bool get_bubblesOrTricklesDown();
 
-  /// @brief Method get_currentTarget, addr 0x4a27420, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_currentTarget, addr 0x6b63ec0, size 0x8, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_currentTarget();
 
-  /// @brief Method get_dispatch, addr 0x4a27514, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dispatch, addr 0x6b63fc0, size 0xc, virtual false, abstract: false, final false
   inline bool get_dispatch();
 
-  /// @brief Method get_dispatched, addr 0x4a27560, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_dispatched, addr 0x6b6400c, size 0xc, virtual false, abstract: false, final false
   inline bool get_dispatched();
 
-  /// @brief Method get_eventCategory, addr 0x4a2724c, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::EventCategory get_eventCategory();
+  /// @brief Method get_elementTarget, addr 0x6b63db8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_elementTarget();
 
-  /// @brief Method get_eventId, addr 0x4a27264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventCategories, addr 0x6b63c54, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_eventCategories();
+
+  /// @brief Method get_eventId, addr 0x6b63c6c, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_eventId();
 
-  /// @brief Method get_eventTypeId, addr 0x4a27244, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_eventTypeId, addr 0x6b63c4c, size 0x8, virtual true, abstract: false, final false
   inline int64_t get_eventTypeId();
 
-  /// @brief Method get_ignoreCompositeRoots, addr 0x4a27354, size 0xc, virtual false, abstract: false, final false
-  inline bool get_ignoreCompositeRoots();
-
-  /// @brief Method get_imguiEvent, addr 0x4a228fc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_imguiEvent, addr 0x6b60918, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Event* get_imguiEvent();
 
-  /// @brief Method get_imguiEventIsValid, addr 0x4a275a4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_imguiEventIsValid, addr 0x6b6407c, size 0xc, virtual false, abstract: false, final false
   inline bool get_imguiEventIsValid();
 
-  /// @brief Method get_isDefaultPrevented, addr 0x4a273e4, size 0xc, virtual false, abstract: false, final false
-  inline bool get_isDefaultPrevented();
-
-  /// @brief Method get_isImmediatePropagationStopped, addr 0x4a273a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isImmediatePropagationStopped, addr 0x6b63e7c, size 0xc, virtual false, abstract: false, final false
   inline bool get_isImmediatePropagationStopped();
 
-  /// @brief Method get_isPropagationStopped, addr 0x4a231f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPropagationStopped, addr 0x6b613dc, size 0xc, virtual false, abstract: false, final false
   inline bool get_isPropagationStopped();
 
-  /// @brief Method get_leafTarget, addr 0x4a27380, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::IEventHandler* get_leafTarget();
-
-  /// @brief Method get_lifeCycleStatus, addr 0x4a272a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lifeCycleStatus, addr 0x6b63c9c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase_LifeCycleStatus get_lifeCycleStatus();
 
-  /// @brief Method get_originalMousePosition, addr 0x4a27680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_originalMousePosition, addr 0x6b64188, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_originalMousePosition();
 
-  /// @brief Method get_path, addr 0x4a27294, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::PropagationPaths* get_path();
-
-  /// @brief Method get_pooled, addr 0x4a27994, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_pooled, addr 0x6b642d4, size 0xc, virtual false, abstract: false, final false
   inline bool get_pooled();
 
-  /// @brief Method get_processed, addr 0x4a2756c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_processed, addr 0x6b64018, size 0xc, virtual false, abstract: false, final false
   inline bool get_processed();
 
-  /// @brief Method get_processedByFocusController, addr 0x4a27578, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_processedByFocusController, addr 0x6b64024, size 0xc, virtual false, abstract: false, final false
   inline bool get_processedByFocusController();
 
-  /// @brief Method get_propagateToIMGUI, addr 0x4a24a60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_propagateToIMGUI, addr 0x6b64050, size 0xc, virtual false, abstract: false, final false
   inline bool get_propagateToIMGUI();
 
-  /// @brief Method get_propagation, addr 0x4a27284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_propagation, addr 0x6b63c8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::EventBase_EventPropagation get_propagation();
 
-  /// @brief Method get_propagationPhase, addr 0x4a27410, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::PropagationPhase get_propagationPhase();
-
-  /// @brief Method get_skipDisabledElements, addr 0x4a27328, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_skipDisabledElements, addr 0x6b63d7c, size 0xc, virtual false, abstract: false, final false
   inline bool get_skipDisabledElements();
 
-  /// @brief Method get_skipElements, addr 0x4a27390, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* get_skipElements();
-
-  /// @brief Method get_stopDispatch, addr 0x4a231e8, size 0xc, virtual false, abstract: false, final false
-  inline bool get_stopDispatch();
-
-  /// @brief Method get_target, addr 0x4a23930, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_target, addr 0x6b63dc8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IEventHandler* get_target();
 
-  /// @brief Method get_timestamp, addr 0x4a27254, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_timestamp, addr 0x6b63c5c, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_timestamp();
 
-  /// @brief Method get_tricklesDown, addr 0x4a2731c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_tricklesDown, addr 0x6b63d50, size 0xc, virtual false, abstract: false, final false
   inline bool get_tricklesDown();
 
   /// @brief Convert to "::System::IDisposable"
@@ -588,79 +521,73 @@ public:
 
   static inline void setStaticF_s_NextEventId(uint64_t value);
 
-  /// @brief Method set_currentTarget, addr 0x4a27428, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method set_bubbles, addr 0x6b63d40, size 0x10, virtual false, abstract: false, final false
+  inline void set_bubbles(bool value);
+
+  /// @brief Method set_currentTarget, addr 0x6b63ec8, size 0xf8, virtual true, abstract: false, final false
   inline void set_currentTarget(::UnityEngine::UIElements::IEventHandler* value);
 
-  /// @brief Method set_dispatch, addr 0x4a27520, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_dispatch, addr 0x6b63fcc, size 0x20, virtual false, abstract: false, final false
   inline void set_dispatch(bool value);
 
-  /// @brief Method set_dispatched, addr 0x4a27540, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_dispatched, addr 0x6b63fec, size 0x20, virtual false, abstract: false, final false
   inline void set_dispatched(bool value);
 
-  /// @brief Method set_eventId, addr 0x4a2726c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_elementTarget, addr 0x6b63dc0, size 0x8, virtual false, abstract: false, final false
+  inline void set_elementTarget(::UnityEngine::UIElements::VisualElement* value);
+
+  /// @brief Method set_eventId, addr 0x6b63c74, size 0x8, virtual false, abstract: false, final false
   inline void set_eventId(uint64_t value);
 
-  /// @brief Method set_ignoreCompositeRoots, addr 0x4a27360, size 0x20, virtual false, abstract: false, final false
-  inline void set_ignoreCompositeRoots(bool value);
-
-  /// @brief Method set_imguiEvent, addr 0x4a275d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method set_imguiEvent, addr 0x6b640a8, size 0xe0, virtual false, abstract: false, final false
   inline void set_imguiEvent(::UnityEngine::Event* value);
 
-  /// @brief Method set_imguiEventIsValid, addr 0x4a275b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_imguiEventIsValid, addr 0x6b64088, size 0x20, virtual false, abstract: false, final false
   inline void set_imguiEventIsValid(bool value);
 
-  /// @brief Method set_isDefaultPrevented, addr 0x4a273f0, size 0x20, virtual false, abstract: false, final false
-  inline void set_isDefaultPrevented(bool value);
-
-  /// @brief Method set_isImmediatePropagationStopped, addr 0x4a273b4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_isImmediatePropagationStopped, addr 0x6b63e88, size 0x20, virtual false, abstract: false, final false
   inline void set_isImmediatePropagationStopped(bool value);
 
-  /// @brief Method set_isPropagationStopped, addr 0x4a27398, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_isPropagationStopped, addr 0x6b63e5c, size 0x10, virtual false, abstract: false, final false
   inline void set_isPropagationStopped(bool value);
 
-  /// @brief Method set_leafTarget, addr 0x4a27388, size 0x8, virtual false, abstract: false, final false
-  inline void set_leafTarget(::UnityEngine::UIElements::IEventHandler* value);
-
-  /// @brief Method set_lifeCycleStatus, addr 0x4a272ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lifeCycleStatus, addr 0x6b63ca4, size 0x8, virtual false, abstract: false, final false
   inline void set_lifeCycleStatus(::UnityEngine::UIElements::EventBase_LifeCycleStatus value);
 
-  /// @brief Method set_originalMousePosition, addr 0x4a27688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_originalMousePosition, addr 0x6b64190, size 0x8, virtual false, abstract: false, final false
   inline void set_originalMousePosition(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_path, addr 0x4a2729c, size 0x8, virtual false, abstract: false, final false
-  inline void set_path(::UnityEngine::UIElements::PropagationPaths* value);
-
-  /// @brief Method set_pooled, addr 0x4a278e4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_pooled, addr 0x6b64290, size 0x20, virtual false, abstract: false, final false
   inline void set_pooled(bool value);
 
-  /// @brief Method set_processed, addr 0x4a272f0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_processed, addr 0x6b63cdc, size 0x20, virtual false, abstract: false, final false
   inline void set_processed(bool value);
 
-  /// @brief Method set_processedByFocusController, addr 0x4a27584, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_processedByFocusController, addr 0x6b64030, size 0x20, virtual false, abstract: false, final false
   inline void set_processedByFocusController(bool value);
 
-  /// @brief Method set_propagateToIMGUI, addr 0x4a24ff0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_propagateToIMGUI, addr 0x6b6405c, size 0x20, virtual false, abstract: false, final false
   inline void set_propagateToIMGUI(bool value);
 
-  /// @brief Method set_propagation, addr 0x4a2728c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propagation, addr 0x6b63c94, size 0x8, virtual false, abstract: false, final false
   inline void set_propagation(::UnityEngine::UIElements::EventBase_EventPropagation value);
 
-  /// @brief Method set_propagationPhase, addr 0x4a27418, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_propagationPhase, addr 0x6b63eb8, size 0x8, virtual false, abstract: false, final false
   inline void set_propagationPhase(::UnityEngine::UIElements::PropagationPhase value);
 
-  /// @brief Method set_skipDisabledElements, addr 0x4a27334, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_skipDisabledElements, addr 0x6b63d88, size 0x20, virtual false, abstract: false, final false
   inline void set_skipDisabledElements(bool value);
 
-  /// @brief Method set_stopDispatch, addr 0x4a25010, size 0x20, virtual false, abstract: false, final false
-  inline void set_stopDispatch(bool value);
-
-  /// @brief Method set_target, addr 0x4a237b0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_target, addr 0x6b63dd0, size 0x8c, virtual false, abstract: false, final false
   inline void set_target(::UnityEngine::UIElements::IEventHandler* value);
 
-  /// @brief Method set_timestamp, addr 0x4a2725c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_timestamp, addr 0x6b63c64, size 0x8, virtual false, abstract: false, final false
   inline void set_timestamp(int64_t value);
 
-  /// @brief Method set_triggerEventId, addr 0x4a27274, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tricklesDown, addr 0x6b63d5c, size 0x20, virtual false, abstract: false, final false
+  inline void set_tricklesDown(bool value);
+
+  /// @brief Method set_triggerEventId, addr 0x6b63c7c, size 0x8, virtual false, abstract: false, final false
   inline void set_triggerEventId(uint64_t value);
 
 protected:
@@ -678,10 +605,10 @@ public:
   EventBase(EventBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4448 };
 
-  /// @brief Field <eventCategory>k__BackingField, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::UIElements::EventCategory ____eventCategory_k__BackingField;
+  /// @brief Field <eventCategories>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  int32_t ____eventCategories_k__BackingField;
 
   /// @brief Field <timestamp>k__BackingField, offset: 0x18, size: 0x8, def value: None
   int64_t ____timestamp_k__BackingField;
@@ -695,37 +622,28 @@ public:
   /// @brief Field <propagation>k__BackingField, offset: 0x30, size: 0x4, def value: None
   ::UnityEngine::UIElements::EventBase_EventPropagation ____propagation_k__BackingField;
 
-  /// @brief Field <path>k__BackingField, offset: 0x38, size: 0x8, def value: None
-  ::UnityEngine::UIElements::PropagationPaths* ____path_k__BackingField;
-
-  /// @brief Field <lifeCycleStatus>k__BackingField, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field <lifeCycleStatus>k__BackingField, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::UIElements::EventBase_LifeCycleStatus ____lifeCycleStatus_k__BackingField;
 
-  /// @brief Field <leafTarget>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IEventHandler* ____leafTarget_k__BackingField;
+  /// @brief Field <elementTarget>k__BackingField, offset: 0x38, size: 0x8, def value: None
+  ::UnityEngine::UIElements::VisualElement* ____elementTarget_k__BackingField;
 
-  /// @brief Field m_Target, offset: 0x50, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IEventHandler* ___m_Target;
-
-  /// @brief Field <skipElements>k__BackingField, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IEventHandler*>* ____skipElements_k__BackingField;
-
-  /// @brief Field <propagationPhase>k__BackingField, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field <propagationPhase>k__BackingField, offset: 0x40, size: 0x4, def value: None
   ::UnityEngine::UIElements::PropagationPhase ____propagationPhase_k__BackingField;
 
-  /// @brief Field m_CurrentTarget, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field m_CurrentTarget, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::IEventHandler* ___m_CurrentTarget;
 
-  /// @brief Field m_ImguiEvent, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field m_ImguiEvent, offset: 0x50, size: 0x8, def value: None
   ::UnityEngine::Event* ___m_ImguiEvent;
 
-  /// @brief Field <originalMousePosition>k__BackingField, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field <originalMousePosition>k__BackingField, offset: 0x58, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____originalMousePosition_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____eventCategory_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____eventCategories_k__BackingField) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____timestamp_k__BackingField) == 0x18, "Offset mismatch!");
 
@@ -735,25 +653,19 @@ static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____triggerEventId_
 
 static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____propagation_k__BackingField) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____path_k__BackingField) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____lifeCycleStatus_k__BackingField) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____lifeCycleStatus_k__BackingField) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____elementTarget_k__BackingField) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____leafTarget_k__BackingField) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____propagationPhase_k__BackingField) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ___m_Target) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ___m_CurrentTarget) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____skipElements_k__BackingField) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ___m_ImguiEvent) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____propagationPhase_k__BackingField) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____originalMousePosition_k__BackingField) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ___m_CurrentTarget) == 0x68, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ___m_ImguiEvent) == 0x70, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::UIElements::EventBase, ____originalMousePosition_k__BackingField) == 0x78, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventBase, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventBase, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::EventBase_EventPropagation, "UnityEngine.UIElements", "EventBase/EventPropagation");

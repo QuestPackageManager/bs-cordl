@@ -69,7 +69,7 @@ public:
   EventBase_1___c(EventBase_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4449 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,7 +91,7 @@ public:
 
   __declspec(property(get = get_eventTypeId)) int64_t eventTypeId;
 
-  /// @brief Field m_RefCount, offset 0x80, size 0x4
+  /// @brief Field m_RefCount, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_RefCount, put = __cordl_internal_set_m_RefCount)) int32_t m_RefCount;
 
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
@@ -165,9 +165,9 @@ public:
   EventBase_1(EventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4450 };
 
-  /// @brief Field m_RefCount, offset: 0x80, size: 0x4, def value: None
+  /// @brief Field m_RefCount, offset: 0x60, size: 0x4, def value: None
   int32_t ___m_RefCount;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

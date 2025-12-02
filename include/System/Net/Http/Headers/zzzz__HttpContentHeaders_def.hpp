@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HttpContentHeaders)
 namespace System::Net::Http::Headers {
+class ContentDispositionHeaderValue;
+}
+namespace System::Net::Http::Headers {
 class MediaTypeHeaderValue;
 }
 namespace System::Net::Http {
@@ -28,7 +31,9 @@ namespace System::Net::Http::Headers {
 class CORDL_TYPE HttpContentHeaders : public ::System::Net::Http::Headers::HttpHeaders {
 public:
   // Declarations
-  __declspec(property(get = get_ContentLength)) ::System::Nullable_1<int64_t> ContentLength;
+  __declspec(property(get = get_ContentDisposition, put = set_ContentDisposition)) ::System::Net::Http::Headers::ContentDispositionHeaderValue* ContentDisposition;
+
+  __declspec(property(get = get_ContentLength, put = set_ContentLength)) ::System::Nullable_1<int64_t> ContentLength;
 
   __declspec(property(get = get_ContentType, put = set_ContentType)) ::System::Net::Http::Headers::MediaTypeHeaderValue* ContentType;
 
@@ -43,16 +48,25 @@ public:
 
   constexpr void __cordl_internal_set_content(::System::Net::Http::HttpContent* value);
 
-  /// @brief Method .ctor, addr 0x4218b30, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ec0ae8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::HttpContent* content);
 
-  /// @brief Method get_ContentLength, addr 0x42166d0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method get_ContentDisposition, addr 0x5ec54e4, size 0x68, virtual false, abstract: false, final false
+  inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* get_ContentDisposition();
+
+  /// @brief Method get_ContentLength, addr 0x5ebdd24, size 0x138, virtual false, abstract: false, final false
   inline ::System::Nullable_1<int64_t> get_ContentLength();
 
-  /// @brief Method get_ContentType, addr 0x4219798, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_ContentType, addr 0x5ec2404, size 0x68, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::MediaTypeHeaderValue* get_ContentType();
 
-  /// @brief Method set_ContentType, addr 0x421ad1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method set_ContentDisposition, addr 0x5ec56c4, size 0x7c, virtual false, abstract: false, final false
+  inline void set_ContentDisposition(::System::Net::Http::Headers::ContentDispositionHeaderValue* value);
+
+  /// @brief Method set_ContentLength, addr 0x5eca954, size 0x80, virtual false, abstract: false, final false
+  inline void set_ContentLength(::System::Nullable_1<int64_t> value);
+
+  /// @brief Method set_ContentType, addr 0x5ebecc0, size 0x7c, virtual false, abstract: false, final false
   inline void set_ContentType(::System::Net::Http::Headers::MediaTypeHeaderValue* value);
 
 protected:
@@ -70,7 +84,7 @@ public:
   HttpContentHeaders(HttpContentHeaders const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16718 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20165 };
 
   /// @brief Field content, offset: 0x20, size: 0x8, def value: None
   ::System::Net::Http::HttpContent* ___content;

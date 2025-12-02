@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/Poly2Tri/DTSweepPointComparator.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__DTSweepPointComparator_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "UnityEngine/ProBuilder/Poly2Tri/zzzz__TriangulationPoint_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator.Compare
 template <>
@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::*)(
     ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*, ::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*)>(&::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::Compare)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x46fda50;
+  constexpr static std::size_t addrs = 0x649297c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::*)()>(
     &::UnityEngine::ProBuilder::Poly2Tri::DTSweepPointComparator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46fd1c8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x649214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

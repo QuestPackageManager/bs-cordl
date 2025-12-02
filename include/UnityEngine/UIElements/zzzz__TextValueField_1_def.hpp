@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__IValueField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextInputBaseField_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -16,6 +16,9 @@ struct DeltaSpeed;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IValueField_1;
 }
 namespace UnityEngine::UIElements {
 template <typename TValueType> class TextValueField_1_TextValueInput;
@@ -42,7 +45,7 @@ template <typename TValueType>
 class CORDL_TYPE TextValueField_1_TextValueInput : public ::UnityEngine::UIElements::TextInputBaseField_1_TextInputBase<TValueType> {
 public:
   // Declarations
-  /// @brief Field <formatString>k__BackingField, offset 0x400, size 0x8
+  /// @brief Field <formatString>k__BackingField, offset 0x4e0, size 0x8
   __declspec(property(get = __cordl_internal_get__formatString_k__BackingField, put = __cordl_internal_set__formatString_k__BackingField)) ::StringW _formatString_k__BackingField;
 
   __declspec(property(get = get_allowedCharacters)) ::StringW allowedCharacters;
@@ -107,16 +110,16 @@ public:
   TextValueField_1_TextValueInput(TextValueField_1_TextValueInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4337 };
 
-  /// @brief Field <formatString>k__BackingField, offset: 0x400, size: 0x8, def value: None
+  /// @brief Field <formatString>k__BackingField, offset: 0x4e0, size: 0x8, def value: None
   ::StringW ____formatString_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.IValueField`1<T>, UnityEngine.UIElements.TextInputBaseField`1<TValueType>
+// Dependencies UnityEngine.UIElements.BindingId, UnityEngine.UIElements.TextInputBaseField`1<TValueType>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
@@ -127,20 +130,21 @@ public:
   // Declarations
   using TextValueInput = ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>;
 
-  __declspec(property(get = get_formatString)) ::StringW formatString;
+  __declspec(property(get = get_formatString, put = set_formatString)) ::StringW formatString;
 
-  /// @brief Field m_Dragger, offset 0x458, size 0x8
+  /// @brief Field formatStringProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_formatStringProperty, put = setStaticF_formatStringProperty)) ::UnityEngine::UIElements::BindingId formatStringProperty;
+
+  /// @brief Field m_Dragger, offset 0x530, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Dragger, put = __cordl_internal_set_m_Dragger)) ::UnityEngine::UIElements::BaseFieldMouseDragger* m_Dragger;
 
-  /// @brief Field m_ForceUpdateDisplay, offset 0x461, size 0x1
+  /// @brief Field m_ForceUpdateDisplay, offset 0x539, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ForceUpdateDisplay, put = __cordl_internal_set_m_ForceUpdateDisplay)) bool m_ForceUpdateDisplay;
 
-  /// @brief Field m_UpdateTextFromValue, offset 0x460, size 0x1
+  /// @brief Field m_UpdateTextFromValue, offset 0x538, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UpdateTextFromValue, put = __cordl_internal_set_m_UpdateTextFromValue)) bool m_UpdateTextFromValue;
 
   __declspec(property(get = get_textValueInput)) ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* textValueInput;
-
-  __declspec(property(get = get_value, put = set_value)) TValueType value;
 
   /// @brief Convert operator to "::UnityEngine::UIElements::IValueField_1<TValueType>"
   constexpr operator ::UnityEngine::UIElements::IValueField_1<TValueType>*() noexcept;
@@ -157,8 +161,8 @@ public:
   /// @brief Method EnableLabelDragger, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void EnableLabelDragger(bool enable);
 
-  /// @brief Method ExecuteDefaultAction, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextValueField_1<TValueType>* New_ctor(::StringW label, int32_t maxLength,
                                                                                   ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* textValueInput);
@@ -211,20 +215,21 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, int32_t maxLength, ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* textValueInput);
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_formatStringProperty();
+
   /// @brief Method get_formatString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::StringW get_formatString();
 
   /// @brief Method get_textValueInput, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::TextValueField_1_TextValueInput<TValueType>* get_textValueInput();
 
-  /// @brief Method get_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline TValueType get_value();
-
   /// @brief Convert to "::UnityEngine::UIElements::IValueField_1<TValueType>"
   constexpr ::UnityEngine::UIElements::IValueField_1<TValueType>* i___UnityEngine__UIElements__IValueField_1_TValueType_() noexcept;
 
-  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void set_value(TValueType value);
+  static inline void setStaticF_formatStringProperty(::UnityEngine::UIElements::BindingId value);
+
+  /// @brief Method set_formatString, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_formatString(::StringW value);
 
 protected:
   // Ctor Parameters []
@@ -241,15 +246,15 @@ public:
   TextValueField_1(TextValueField_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4338 };
 
-  /// @brief Field m_Dragger, offset: 0x458, size: 0x8, def value: None
+  /// @brief Field m_Dragger, offset: 0x530, size: 0x8, def value: None
   ::UnityEngine::UIElements::BaseFieldMouseDragger* ___m_Dragger;
 
-  /// @brief Field m_UpdateTextFromValue, offset: 0x460, size: 0x1, def value: None
+  /// @brief Field m_UpdateTextFromValue, offset: 0x538, size: 0x1, def value: None
   bool ___m_UpdateTextFromValue;
 
-  /// @brief Field m_ForceUpdateDisplay, offset: 0x461, size: 0x1, def value: None
+  /// @brief Field m_ForceUpdateDisplay, offset: 0x539, size: 0x1, def value: None
   bool ___m_ForceUpdateDisplay;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

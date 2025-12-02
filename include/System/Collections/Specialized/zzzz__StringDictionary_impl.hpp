@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Specialized/StringDictionary.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__StringDictionary_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 //  Writing Method size for method: ::System::Collections::Specialized::StringDictionary._ctor
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::StringDictionary::*)()>(
     &::System::Collections::Specialized::StringDictionary::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x44840a0;
+  constexpr static std::size_t addrs = 0x61d39b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Specialized::StringDictionary*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::StringDictionary::*)(::StringW, ::StringW)>(
     &::System::Collections::Specialized::StringDictionary::Add)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4484100;
+  constexpr static std::size_t addrs = 0x61d3a18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::StringDictionary::*)()>(
     &::System::Collections::Specialized::StringDictionary::GetEnumerator)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4484194;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61d3aac;
 
   inline static ::MethodInfo const* methodInfo() {
 

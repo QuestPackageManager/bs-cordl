@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(
     &::GlobalNamespace::SpectrogramRowPropertyAnimator::SetProperty)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b9f120;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x578db18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(
     &::GlobalNamespace::SpectrogramRowPropertyAnimator::Awake)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b9f154;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x578db48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpectrogramRowPropertyAnimator*>::get(),
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(
     &::GlobalNamespace::SpectrogramRowPropertyAnimator::Update)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b9f214;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x578dc14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpectrogramRowPropertyAnimator*>::get(),
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(
     &::GlobalNamespace::SpectrogramRowPropertyAnimator::LazyInit)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b9f1e4;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x578dbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpectrogramRowPropertyAnimator*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)(float_t)>(
     &::GlobalNamespace::SpectrogramRowPropertyAnimator::SetMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9f2b8;
+  constexpr static std::size_t addrs = 0x578dcbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpectrogramRowPropertyAnimator::*)()>(
     &::GlobalNamespace::SpectrogramRowPropertyAnimator::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b9f2c0;
+  constexpr static std::size_t addrs = 0x578dcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpectrogramRowPropertyAnimator*>::get(),

@@ -57,7 +57,7 @@ public:
 
   constexpr void __cordl_internal_set__revision(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d14c50, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5955cd4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t major, int32_t minor, int32_t build, int32_t revision);
 
 protected:
@@ -75,7 +75,7 @@ public:
   ComCompatibleVersionAttribute(ComCompatibleVersionAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3345 };
 
   /// @brief Field _major, offset: 0x10, size: 0x4, def value: None
   int32_t ____major;

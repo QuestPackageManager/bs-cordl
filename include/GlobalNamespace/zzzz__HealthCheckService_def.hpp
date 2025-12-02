@@ -3,12 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IHealthCheckService_def.hpp"
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(HealthCheckService)
+namespace GlobalNamespace {
+class IHealthCheckService;
+}
+namespace GlobalNamespace {
+class IPollable;
+}
 namespace System::Net {
 class HttpListener;
 }
@@ -18,13 +21,16 @@ class ManualResetEvent;
 namespace System::Threading {
 class Thread;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class HealthCheckService;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HealthCheckService);
-// Dependencies IHealthCheckService, IPollable, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: HealthCheckService
@@ -55,15 +61,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x22cbdec, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x320d684, size 0xc0, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::HealthCheckService* New_ctor(int32_t port);
 
-  /// @brief Method PollUpdate, addr 0x22cbe90, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method PollUpdate, addr 0x320d744, size 0x98, virtual true, abstract: false, final true
   inline void PollUpdate();
 
-  /// @brief Method Run, addr 0x22cbf24, size 0x4a0, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x320d7dc, size 0x51c, virtual false, abstract: false, final false
   inline void Run();
 
   constexpr bool const& __cordl_internal_get__disposed() const;
@@ -96,7 +102,7 @@ public:
 
   constexpr void __cordl_internal_set__runThread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x22cbcf8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x320d590, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(int32_t port);
 
   /// @brief Convert to "::GlobalNamespace::IHealthCheckService"
@@ -123,7 +129,7 @@ public:
   HealthCheckService(HealthCheckService const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };
 
   /// @brief Field kTimeoutLengthMs offset 0xffffffff size 0x4
   static constexpr int32_t kTimeoutLengthMs{ static_cast<int32_t>(0x3e8) };

@@ -17,11 +17,10 @@ template <typename T> inline void System::ReadOnlySpan_1<T>::_ctor(::ArrayW<T, :
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, start, length);
 }
-template <typename T> inline void System::ReadOnlySpan_1<T>::_ctor(::cordl_internals::Ptr<void> pointer, int32_t length) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlySpan_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+template <typename T> inline void System::ReadOnlySpan_1<T>::_ctor(void* pointer, int32_t length) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlySpan_1<T>>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pointer, length);
 }
 template <typename T> inline void System::ReadOnlySpan_1<T>::_ctor(::ByRef<T> ptr, int32_t length) {
@@ -52,6 +51,13 @@ template <typename T> inline bool System::ReadOnlySpan_1<T>::TryCopyTo(::System:
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlySpan_1<T>>::get(), "TryCopyTo", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, destination);
+}
+template <typename T> inline bool System::ReadOnlySpan_1<T>::op_Equality(::System::ReadOnlySpan_1<T> left, ::System::ReadOnlySpan_1<T> right) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ReadOnlySpan_1<T>>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<T>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::ReadOnlySpan_1<T>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
 template <typename T> inline ::StringW System::ReadOnlySpan_1<T>::ToString() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

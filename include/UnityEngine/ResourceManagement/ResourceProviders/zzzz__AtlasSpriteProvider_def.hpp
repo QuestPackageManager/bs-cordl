@@ -5,6 +5,12 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ResourceProviderBase_def.hpp"
 CORDL_MODULE_EXPORT(AtlasSpriteProvider)
+namespace System {
+class Object;
+}
+namespace UnityEngine::ResourceManagement::ResourceLocations {
+class IResourceLocation;
+}
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct ProvideHandle;
 }
@@ -23,10 +29,13 @@ public:
   // Declarations
   static inline ::UnityEngine::ResourceManagement::ResourceProviders::AtlasSpriteProvider* New_ctor();
 
-  /// @brief Method Provide, addr 0x479c10c, size 0x380, virtual true, abstract: false, final false
+  /// @brief Method Provide, addr 0x66fcd6c, size 0x37c, virtual true, abstract: false, final false
   inline void Provide(::UnityEngine::ResourceManagement::ResourceProviders::ProvideHandle providerInterface);
 
-  /// @brief Method .ctor, addr 0x479c48c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x66fd0e8, size 0x94, virtual true, abstract: false, final false
+  inline void Release(::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location, ::System::Object* obj);
+
+  /// @brief Method .ctor, addr 0x66fd17c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +53,7 @@ public:
   AtlasSpriteProvider(AtlasSpriteProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18722 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

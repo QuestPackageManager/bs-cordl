@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PkiBody)
 namespace Org::BouncyCastle::Asn1 {
@@ -16,6 +15,9 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace System {
 class Object;
 }
@@ -25,7 +27,7 @@ class PkiBody;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::PkiBody);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Cmp.PkiBody
@@ -45,17 +47,17 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetBodyForType, addr 0x22f8784, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetBodyForType, addr 0x3225a58, size 0x158, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBodyForType(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* o);
 
-  /// @brief Method GetInstance, addr 0x22f85b8, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3225880, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method ToAsn1Object, addr 0x22f9660, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3226924, size 0x9c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_body() const;
@@ -70,16 +72,16 @@ public:
 
   constexpr void __cordl_internal_set_tagNo(int32_t value);
 
-  /// @brief Method .ctor, addr 0x22f8734, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3225a04, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged);
 
-  /// @brief Method .ctor, addr 0x22f88dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3225bb0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* content);
 
-  /// @brief Method get_Content, addr 0x22f9658, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Content, addr 0x322691c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Content();
 
-  /// @brief Method get_Type, addr 0x22f9650, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3226914, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Type();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

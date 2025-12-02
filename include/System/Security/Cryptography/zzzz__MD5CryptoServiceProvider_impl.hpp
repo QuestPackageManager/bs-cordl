@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3cb061c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x58f42f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::Finalize)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3cb2b98;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x58f68ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(bool)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::Dispose)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3cb2c38;
+  constexpr static std::size_t addrs = 0x58f693c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::MD5CryptoServiceProvider::HashCore)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3cb2ca8;
+  constexpr static std::size_t addrs = 0x58f69ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::HashFinal)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3cb3a20;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x58f7720;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)()>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::Initialize)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cb3ca4;
+  constexpr static std::size_t addrs = 0x58f79b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::System::Security::Cryptography::MD5CryptoServiceProvider::ProcessBlock)> {
-  constexpr static std::size_t size = 0xc78;
-  constexpr static std::size_t addrs = 0x3cb2da8;
+  constexpr static std::size_t size = 0xc74;
+  constexpr static std::size_t addrs = 0x58f6aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,8 +118,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::System::Security::Cryptography::MD5CryptoServiceProvider::ProcessFinalBlock)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3cb3af8;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x58f77fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5CryptoServiceProvider::*)(
     uint64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::System::Security::Cryptography::MD5CryptoServiceProvider::AddLength)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3cb3d18;
+  constexpr static std::size_t addrs = 0x58f7a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

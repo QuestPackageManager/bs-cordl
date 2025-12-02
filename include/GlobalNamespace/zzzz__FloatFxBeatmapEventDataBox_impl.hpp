@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FloatFxBeatmapEventDataBox.hpp"
-#include "GlobalNamespace/zzzz__FxBeatmapEventDataBox_2_impl.hpp"
+#include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataBox_2_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatFxBeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventDataBox::get_subtypeIdentifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdd14;
+  constexpr static std::size_t addrs = 0x35ef310;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)()>(
     &::GlobalNamespace::FloatFxBeatmapEventDataBox::get_beatStep)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdd1c;
+  constexpr static std::size_t addrs = 0x35ef318;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)(
     ::GlobalNamespace::IndexFilter*, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, bool,
     ::GlobalNamespace::EaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::FloatFxBaseData*>*)>(&::GlobalNamespace::FloatFxBeatmapEventDataBox::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26bdd24;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x35ef320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +66,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::FloatFxBeatmapEventData* (::GlobalNamespace::FloatFxBeatmapEventDataBox::*)(::GlobalNamespace::FloatFxBaseData*, float_t, int32_t, int32_t, float_t)>(
         &::GlobalNamespace::FloatFxBeatmapEventDataBox::CreateVfxBeatmapEventData)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x26bddcc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x35ef3cc;
 
   inline static ::MethodInfo const* methodInfo() {
 

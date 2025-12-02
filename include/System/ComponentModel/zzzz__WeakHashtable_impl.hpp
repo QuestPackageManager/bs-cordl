@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/WeakHashtable.hpp"
 #include "System/Collections/zzzz__Hashtable_impl.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/ComponentModel/zzzz__WeakHashtable_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
@@ -12,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_Equals)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x447e084;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x61cda2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>::get(),
@@ -28,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)(::System::Object*)>(
     &::System::ComponentModel::WeakHashtable_WeakKeyComparer::System_Collections_IEqualityComparer_GetHashCode)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x447e1e0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61cdb8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>::get(),
@@ -43,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::WeakHashtable_WeakKeyComparer::*)()>(
     &::System::ComponentModel::WeakHashtable_WeakKeyComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447e07c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x61cda28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable_WeakKeyComparer*>::get(),
@@ -87,8 +86,8 @@ constexpr ::System::ComponentModel::WeakHashtable_WeakKeyComparer::WeakHashtable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::WeakHashtable::*)()>(&::System::ComponentModel::WeakHashtable::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4478234;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x61cd938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::WeakHashtable*>::get(), ".ctor",
@@ -101,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::WeakHashtable::*)()>(&::System::ComponentModel::WeakHashtable::Clear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447dffc;
+  constexpr static std::size_t addrs = 0x61cd9ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::WeakHashtable::*)(::System::Object*)>(
     &::System::ComponentModel::WeakHashtable::Remove)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447e004;
+  constexpr static std::size_t addrs = 0x61cd9b4;
 
   inline static ::MethodInfo const* methodInfo() {
 

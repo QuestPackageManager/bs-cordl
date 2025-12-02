@@ -1,12 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Net/CookieCollection.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Net/zzzz__CookieCollection_def.hpp"
 #include "System/Net/zzzz__Cookie_def.hpp"
@@ -28,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection_CookieCollectionEnumerator::*)(::System::Net::CookieCollection*)>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x44b0868;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x61ffa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::CookieCollection_CookieCollectionEnumerator::*)()>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x44b08c4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x61ffaa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieCollection_CookieCollectionEnumerator::*)()>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::System_Collections_IEnumerator_MoveNext)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x44b0968;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x61ffb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection_CookieCollectionEnumerator::*)()>(
     &::System::Net::CookieCollection_CookieCollectionEnumerator::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44b0a04;
+  constexpr static std::size_t addrs = 0x61ffbd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -172,8 +171,8 @@ constexpr ::System::Net::CookieCollection_CookieCollectionEnumerator::CookieColl
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44af910;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x61feb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieCollection*>::get(), ".ctor",
@@ -185,8 +184,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Cookie* (::System::Net::CookieCollection::*)(int32_t)>(&::System::Net::CookieCollection::get_Item)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x44af9b8;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x61febf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -200,7 +199,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection::*)(::System::Net::Cookie*)>(&::System::Net::CookieCollection::Add)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x44afaa0;
+  constexpr static std::size_t addrs = 0x61fecec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,8 +212,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection::*)(::System::Net::CookieCollection*)>(&::System::Net::CookieCollection::Add)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x44aff10;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x61ff140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,8 +226,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_Count)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b0264;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61ff46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieCollection*>::get(), "get_Count",
@@ -241,7 +240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b0288;
+  constexpr static std::size_t addrs = 0x61ff48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieCollection*>::get(), "get_IsSynchronized",
@@ -254,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44b0290;
+  constexpr static std::size_t addrs = 0x61ff494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieCollection*>::get(), "get_SyncRoot",
@@ -266,8 +265,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection::*)(::System::Array*, int32_t)>(&::System::Net::CookieCollection::CopyTo)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b0294;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61ff498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Net::CookieCollection::*)(::System::Net::CookieCollection_Stamp)>(
     &::System::Net::CookieCollection::TimeStamp)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x44b02b8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x61ff4b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -296,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::CookieCollection::*)()>(&::System::Net::CookieCollection::get_IsOtherVersionSeen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b0388;
+  constexpr static std::size_t addrs = 0x61ff58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieCollection*>::get(),
@@ -309,8 +308,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CookieCollection::*)(::System::Net::Cookie*, bool)>(
     &::System::Net::CookieCollection::InternalAdd)> {
-  constexpr static std::size_t size = 0x4b4;
-  constexpr static std::size_t addrs = 0x44b0390;
+  constexpr static std::size_t size = 0x49c;
+  constexpr static std::size_t addrs = 0x61ff594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -324,8 +323,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::CookieCollection::*)(::System::Net::Cookie*)>(&::System::Net::CookieCollection::IndexOf)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x44afb60;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x61fedac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -338,8 +337,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::CookieCollection::*)(int32_t)>(&::System::Net::CookieCollection::RemoveAt)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b0844;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61ffa30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -353,8 +352,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::CookieCollection::*)()>(
     &::System::Net::CookieCollection::GetEnumerator)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44b020c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x61ff410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::CookieCollection*>::get(), "GetEnumerator",

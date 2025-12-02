@@ -25,12 +25,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE FloatMaterialPropertyEffectTarget : public ::GlobalNamespace::FloatFxGroupEffectTarget {
 public:
   // Declarations
+  /// @brief Field _granularityMultiplier, offset 0x38, size 0x4
+  __declspec(property(get = __cordl_internal_get__granularityMultiplier, put = __cordl_internal_set__granularityMultiplier)) float_t _granularityMultiplier;
+
   /// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
                       put = __cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>
       _materialPropertyBlockController;
 
-  /// @brief Field _propertyId, offset 0x38, size 0x4
+  /// @brief Field _propertyId, offset 0x3c, size 0x4
   __declspec(property(get = __cordl_internal_get__propertyId, put = __cordl_internal_set__propertyId)) int32_t _propertyId;
 
   /// @brief Field _propertyName, offset 0x28, size 0x8
@@ -39,19 +42,23 @@ public:
   /// @brief Field _valueBounds, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__valueBounds, put = __cordl_internal_set__valueBounds)) ::UnityEngine::Vector2 _valueBounds;
 
-  /// @brief Method Awake, addr 0x3b8e51c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x577aef4, size 0x20, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::FloatMaterialPropertyEffectTarget* New_ctor();
 
-  /// @brief Method SetFloat, addr 0x3b8e540, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetFloat, addr 0x577af18, size 0x64, virtual false, abstract: false, final false
   inline void SetFloat(float_t value);
 
-  /// @brief Method SetValue, addr 0x3b8e53c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x577af14, size 0x4, virtual true, abstract: false, final false
   inline void SetValue(int32_t groupId, int32_t elementId, float_t value);
 
-  /// @brief Method TriggerValue, addr 0x3b8e5a0, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method TriggerValue, addr 0x577af7c, size 0x4, virtual true, abstract: false, final false
   inline void TriggerValue(int32_t groupId, int32_t elementId, float_t value);
+
+  constexpr float_t const& __cordl_internal_get__granularityMultiplier() const;
+
+  constexpr float_t& __cordl_internal_get__granularityMultiplier();
 
   constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
@@ -69,6 +76,8 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get__valueBounds();
 
+  constexpr void __cordl_internal_set__granularityMultiplier(float_t value);
+
   constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
 
   constexpr void __cordl_internal_set__propertyId(int32_t value);
@@ -77,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set__valueBounds(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x3b8e5a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577af80, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +104,7 @@ public:
   FloatMaterialPropertyEffectTarget(FloatMaterialPropertyEffectTarget const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4275 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5842 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
@@ -106,7 +115,10 @@ public:
   /// @brief Field _valueBounds, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____valueBounds;
 
-  /// @brief Field _propertyId, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _granularityMultiplier, offset: 0x38, size: 0x4, def value: None
+  float_t ____granularityMultiplier;
+
+  /// @brief Field _propertyId, offset: 0x3c, size: 0x4, def value: None
   int32_t ____propertyId;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -118,7 +130,9 @@ static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ___
 
 static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ____valueBounds) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ____propertyId) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ____granularityMultiplier) == 0x38, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::FloatMaterialPropertyEffectTarget, ____propertyId) == 0x3c, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FloatMaterialPropertyEffectTarget, 0x40>, "Size mismatch!");
 

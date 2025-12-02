@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456376c;
+  constexpr static std::size_t addrs = 0x62de63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::StickControl*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_up)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563774;
+  constexpr static std::size_t addrs = 0x62de644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456377c;
+  constexpr static std::size_t addrs = 0x62de64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::StickControl*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_down)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563784;
+  constexpr static std::size_t addrs = 0x62de654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456378c;
+  constexpr static std::size_t addrs = 0x62de65c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::StickControl*>::get(),
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4563794;
+  constexpr static std::size_t addrs = 0x62de664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x456379c;
+  constexpr static std::size_t addrs = 0x62de66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::StickControl*>::get(),
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Controls::StickControl::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45637a4;
+  constexpr static std::size_t addrs = 0x62de674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::FinishSetup)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x45637ac;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x62de67c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::StickControl::*)()>(
     &::UnityEngine::InputSystem::Controls::StickControl::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45638a4;
+  constexpr static std::size_t addrs = 0x62de778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::StickControl*>::get(),

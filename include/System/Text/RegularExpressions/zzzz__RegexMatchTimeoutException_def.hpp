@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
 #include "System/zzzz__TimeoutException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegexMatchTimeoutException)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -23,7 +25,7 @@ class RegexMatchTimeoutException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Text::RegularExpressions::RegexMatchTimeoutException);
-// Dependencies System.Runtime.Serialization.ISerializable, System.TimeSpan, System.TimeoutException
+// Dependencies System.TimeSpan, System.TimeoutException
 namespace System::Text::RegularExpressions {
 // Is value type: false
 // CS Name: System.Text.RegularExpressions.RegexMatchTimeoutException
@@ -55,7 +57,7 @@ public:
 
   static inline ::System::Text::RegularExpressions::RegexMatchTimeoutException* New_ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x4421860, size 0xfc, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x617033c, size 0x114, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   constexpr ::StringW const& __cordl_internal_get__Input_k__BackingField() const;
@@ -76,22 +78,22 @@ public:
 
   constexpr void __cordl_internal_set__Pattern_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4421694, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6170198, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4421728, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6170210, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x44215c8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61700d4, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::StringW regexInput, ::StringW regexPattern, ::System::TimeSpan matchTimeout);
 
-  /// @brief Method get_Input, addr 0x442195c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Input, addr 0x6170450, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Input();
 
-  /// @brief Method get_MatchTimeout, addr 0x442196c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MatchTimeout, addr 0x6170460, size 0x8, virtual false, abstract: false, final false
   inline ::System::TimeSpan get_MatchTimeout();
 
-  /// @brief Method get_Pattern, addr 0x4421964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Pattern, addr 0x6170458, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Pattern();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -112,7 +114,7 @@ public:
   RegexMatchTimeoutException(RegexMatchTimeoutException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9243 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11088 };
 
   /// @brief Field <Input>k__BackingField, offset: 0x90, size: 0x8, def value: None
   ::StringW ____Input_k__BackingField;

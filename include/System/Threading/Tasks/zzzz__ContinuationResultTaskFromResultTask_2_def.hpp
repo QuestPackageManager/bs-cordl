@@ -71,7 +71,7 @@ public:
   ContinuationResultTaskFromResultTask_2(ContinuationResultTaskFromResultTask_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2816 };
 
   /// @brief Field m_antecedent, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<TAntecedentResult>* ___m_antecedent;

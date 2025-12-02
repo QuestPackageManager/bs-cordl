@@ -1,19 +1,19 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/Headers/ContentDispositionHeaderValue.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/Headers/zzzz__ContentDispositionHeaderValue_def.hpp"
 #include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Net/Http/Headers/zzzz__NameValueHeaderValue_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421dc58;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ec8870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,10 +25,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::StringW)>(
+    &::System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5ec554c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(
     ::System::Net::Http::Headers::ContentDispositionHeaderValue*)>(&::System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x421dc60;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x5ec889c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,13 +52,73 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.set_DispositionType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::StringW)>(
+    &::System::Net::Http::Headers::ContentDispositionHeaderValue::set_DispositionType)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5ec8874;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_DispositionType",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.set_FileName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::StringW)>(
+    &::System::Net::Http::Headers::ContentDispositionHeaderValue::set_FileName)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ec55e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_FileName",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.set_FileNameStar
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::StringW)>(
+    &::System::Net::Http::Headers::ContentDispositionHeaderValue::set_FileNameStar)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ec5654;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_FileNameStar",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.set_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::StringW)>(
+    &::System::Net::Http::Headers::ContentDispositionHeaderValue::set_Name)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ec5574;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_Name",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.get_Parameters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* (
     ::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(&::System::Net::Http::Headers::ContentDispositionHeaderValue::get_Parameters)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x421dec8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ec8abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::System_ICloneable_Clone)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x421df74;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ec909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::System::Object*)>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::Equals)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x421dfcc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5ec90f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,13 +158,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.EncodeBase64Value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::Http::Headers::ContentDispositionHeaderValue::EncodeBase64Value)> {
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x5ec8b54;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "EncodeBase64Value",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.EncodeRFC5987
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::Http::Headers::ContentDispositionHeaderValue::EncodeRFC5987)> {
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x5ec8de8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "EncodeRFC5987",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::GetHashCode)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x421e094;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ec9330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,13 +202,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)(::StringW, ::StringW)>(
+    &::System::Net::Http::Headers::ContentDispositionHeaderValue::SetValue)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5ec8d50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "SetValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Net::Http::Headers::ContentDispositionHeaderValue.ToString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::ContentDispositionHeaderValue::*)()>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::ToString)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x421e110;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ec93b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,8 +238,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Net::Http::Headers::ContentDispositionHeaderValue*>)>(
     &::System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x421e168;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x5ec940c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -163,11 +281,41 @@ inline void System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor() {
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor(::StringW dispositionType) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dispositionType);
+}
 inline void System::Net::Http::Headers::ContentDispositionHeaderValue::_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, source);
+}
+inline void System::Net::Http::Headers::ContentDispositionHeaderValue::set_DispositionType(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_DispositionType",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Net::Http::Headers::ContentDispositionHeaderValue::set_FileName(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_FileName",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Net::Http::Headers::ContentDispositionHeaderValue::set_FileNameStar(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_FileNameStar",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Net::Http::Headers::ContentDispositionHeaderValue::set_Name(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "set_Name",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Collections::Generic::ICollection_1<::System::Net::Http::Headers::NameValueHeaderValue*>* System::Net::Http::Headers::ContentDispositionHeaderValue::get_Parameters() {
   static auto* ___internal_method =
@@ -187,11 +335,29 @@ inline bool System::Net::Http::Headers::ContentDispositionHeaderValue::Equals(::
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), 0)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
+inline ::StringW System::Net::Http::Headers::ContentDispositionHeaderValue::EncodeBase64Value(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "EncodeBase64Value",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value);
+}
+inline ::StringW System::Net::Http::Headers::ContentDispositionHeaderValue::EncodeRFC5987(::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "EncodeRFC5987",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, value);
+}
 inline int32_t System::Net::Http::Headers::ContentDispositionHeaderValue::GetHashCode() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), 2)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline void System::Net::Http::Headers::ContentDispositionHeaderValue::SetValue(::StringW key, ::StringW value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::ContentDispositionHeaderValue*>::get(), "SetValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, key, value);
 }
 inline ::StringW System::Net::Http::Headers::ContentDispositionHeaderValue::ToString() {
   auto* ___internal_method =
@@ -208,6 +374,9 @@ inline bool System::Net::Http::Headers::ContentDispositionHeaderValue::TryParse(
 }
 inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::ContentDispositionHeaderValue*>());
+}
+inline ::System::Net::Http::Headers::ContentDispositionHeaderValue* System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor(::StringW dispositionType) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::Headers::ContentDispositionHeaderValue*>(dispositionType));
 }
 inline ::System::Net::Http::Headers::ContentDispositionHeaderValue*
 System::Net::Http::Headers::ContentDispositionHeaderValue::New_ctor(::System::Net::Http::Headers::ContentDispositionHeaderValue* source) {

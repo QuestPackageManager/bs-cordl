@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Linq/Expressions/Interpreter/zzzz__IBoxableInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InitializeLocalInstruction_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InitializeLocalInstruction_MutableValue)
+namespace System::Linq::Expressions::Interpreter {
+class IBoxableInstruction;
+}
 namespace System::Linq::Expressions::Interpreter {
 class Instruction;
 }
@@ -23,7 +25,7 @@ class InitializeLocalInstruction_MutableValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::InitializeLocalInstruction_MutableValue);
-// Dependencies System.Linq.Expressions.Interpreter.IBoxableInstruction, System.Linq.Expressions.Interpreter.InitializeLocalInstruction
+// Dependencies System.Linq.Expressions.Interpreter.InitializeLocalInstruction
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: System.Linq.Expressions.Interpreter.InitializeLocalInstruction/MutableValue
@@ -38,12 +40,12 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
   constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x40ea85c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method BoxIfIndexMatches, addr 0x5d96f24, size 0x78, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_MutableValue* New_ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method Run, addr 0x40ea740, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d96e08, size 0x11c, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Type* const& __cordl_internal_get__type() const;
@@ -52,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set__type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40ea710, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d96dfc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Type* type);
 
-  /// @brief Method get_InstructionName, addr 0x40ea908, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5d96fa8, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
   /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
@@ -76,7 +78,7 @@ public:
   InitializeLocalInstruction_MutableValue(InitializeLocalInstruction_MutableValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16426 };
 
   /// @brief Field _type, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____type;

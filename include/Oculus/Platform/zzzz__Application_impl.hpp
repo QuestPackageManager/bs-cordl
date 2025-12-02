@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* (*)()>(
     &::Oculus::Platform::Application::CancelAppDownload)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f87778;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5bcfe1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Application*>::get(), "CancelAppDownload",
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadProgressResult*>* (*)()>(
     &::Oculus::Platform::Application::CheckAppDownloadProgress)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f878c8;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5bcff74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Application*>::get(),
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::ApplicationVersion*>* (*)()>(
     &::Oculus::Platform::Application::GetVersion)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f87a18;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5bd00cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Application*>::get(), "GetVersion",
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* (*)(::Oculus::Platform::ApplicationOptions*)>(&::Oculus::Platform::Application::InstallAppUpdateAndRelaunch)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3f87b68;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5bd0224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::StringW>* (*)(uint64_t, ::Oculus::Platform::ApplicationOptions*)>(
     &::Oculus::Platform::Application::LaunchOtherApp)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3f87cc8;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5bd0394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::AppDownloadResult*>* (*)()>(
     &::Oculus::Platform::Application::StartAppDownload)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3f87e38;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5bd050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::Application*>::get(), "StartAppDownload",

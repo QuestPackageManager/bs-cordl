@@ -1,17 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetworkConfigSO.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
-#include "GlobalNamespace/zzzz__DnsEndPoint_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "GlobalNamespace/zzzz__ServiceEnvironment_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_maxPartySize
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_maxPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e722c8;
+  constexpr static std::size_t addrs = 0x5ab8224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_maxPartySize",
@@ -24,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_discoveryPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e722d0;
+  constexpr static std::size_t addrs = 0x5ab822c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_discoveryPort",
@@ -37,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_partyPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e722d8;
+  constexpr static std::size_t addrs = 0x5ab8234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_partyPort",
@@ -50,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_multiplayerPort)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e722e0;
+  constexpr static std::size_t addrs = 0x5ab823c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
@@ -58,17 +57,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_masterServerEndPoint
+//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_masterServerPort
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::DnsEndPoint* (::GlobalNamespace::NetworkConfigSO::*)()>(
-    &::GlobalNamespace::NetworkConfigSO::get_masterServerEndPoint)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e722e8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_masterServerPort)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ab8244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
-                                                                               "get_masterServerEndPoint", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_masterServerPort", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -77,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_multiplayerStatusUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72350;
+  constexpr static std::size_t addrs = 0x5ab824c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
@@ -90,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_quickPlaySetupUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72358;
+  constexpr static std::size_t addrs = 0x5ab8254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
@@ -103,10 +101,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_graphUrl)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72360;
+  constexpr static std::size_t addrs = 0x5ab825c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_graphUrl",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_graphQLUrl
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_graphQLUrl)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5ab8264;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_graphQLUrl",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -115,12 +126,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_graphAccessToken)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e72368;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5ab82b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
                                                                                "get_graphAccessToken", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_graphAppId
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_graphAppId)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ab834c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_graphAppId",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -129,7 +153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_forceGameLift)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72440;
+  constexpr static std::size_t addrs = 0x5ab8354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_forceGameLift",
@@ -143,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ServiceEnvironment (::GlobalNamespace::NetworkConfigSO::*)()>(
     &::GlobalNamespace::NetworkConfigSO::get_serviceEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72448;
+  constexpr static std::size_t addrs = 0x5ab835c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
@@ -151,15 +175,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_appId
+//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_customLocation
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_appId)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e723d0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_customLocation)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ab8364;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_appId",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_customLocation",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_localServerPort
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_localServerPort)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ab836c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
+                                                                               "get_localServerPort", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NetworkConfigSO.get_useLocalServer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::get_useLocalServer)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ab8374;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_useLocalServer",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -168,8 +218,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NetworkConfigSO::*)()>(&::GlobalNamespace::NetworkConfigSO::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e72450;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5ab837c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), ".ctor",
@@ -237,18 +287,6 @@ constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__masterSer
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____masterServerPort = value;
 }
-constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__masterServerHostName() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____masterServerHostName;
-}
-constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__masterServerHostName() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____masterServerHostName;
-}
-constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__masterServerHostName(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____masterServerHostName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__multiplayerStatusUrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerStatusUrl;
@@ -285,17 +323,17 @@ constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__graphUrl(
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__graphAppId() {
+constexpr uint64_t& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__graphAppId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAppId;
 }
-constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__graphAppId() const {
+constexpr uint64_t const& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__graphAppId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____graphAppId;
 }
-constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__graphAppId(::StringW value) {
+constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__graphAppId(uint64_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAppId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  this->____graphAppId = value;
 }
 constexpr bool& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__forceGameLift() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -309,6 +347,30 @@ constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__forceGame
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____forceGameLift = value;
 }
+constexpr bool& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__useLocalServer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useLocalServer;
+}
+constexpr bool const& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__useLocalServer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useLocalServer;
+}
+constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__useLocalServer(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useLocalServer = value;
+}
+constexpr int32_t& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__localServerPort() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localServerPort;
+}
+constexpr int32_t const& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__localServerPort() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____localServerPort;
+}
+constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__localServerPort(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____localServerPort = value;
+}
 constexpr ::GlobalNamespace::ServiceEnvironment& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__serviceEnvironment() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____serviceEnvironment;
@@ -320,6 +382,18 @@ constexpr ::GlobalNamespace::ServiceEnvironment const& GlobalNamespace::NetworkC
 constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__serviceEnvironment(::GlobalNamespace::ServiceEnvironment value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____serviceEnvironment = value;
+}
+constexpr ::StringW& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__customLocation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____customLocation;
+}
+constexpr ::StringW const& GlobalNamespace::NetworkConfigSO::__cordl_internal_get__customLocation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____customLocation;
+}
+constexpr void GlobalNamespace::NetworkConfigSO::__cordl_internal_set__customLocation(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____customLocation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline int32_t GlobalNamespace::NetworkConfigSO::get_maxPartySize() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_maxPartySize",
@@ -341,10 +415,10 @@ inline int32_t GlobalNamespace::NetworkConfigSO::get_multiplayerPort() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::DnsEndPoint* GlobalNamespace::NetworkConfigSO::get_masterServerEndPoint() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
-                                                                             "get_masterServerEndPoint", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::DnsEndPoint*, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::NetworkConfigSO::get_masterServerPort() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_masterServerPort",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::NetworkConfigSO::get_multiplayerStatusUrl() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(),
@@ -361,10 +435,20 @@ inline ::StringW GlobalNamespace::NetworkConfigSO::get_graphUrl() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
+inline ::StringW GlobalNamespace::NetworkConfigSO::get_graphQLUrl() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_graphQLUrl",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
 inline ::StringW GlobalNamespace::NetworkConfigSO::get_graphAccessToken() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_graphAccessToken",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline uint64_t GlobalNamespace::NetworkConfigSO::get_graphAppId() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_graphAppId",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint64_t, false>(this, ___internal_method);
 }
 inline bool GlobalNamespace::NetworkConfigSO::get_forceGameLift() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_forceGameLift",
@@ -376,10 +460,20 @@ inline ::GlobalNamespace::ServiceEnvironment GlobalNamespace::NetworkConfigSO::g
                                                                              "get_serviceEnvironment", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::ServiceEnvironment, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::NetworkConfigSO::get_appId() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_appId",
+inline ::StringW GlobalNamespace::NetworkConfigSO::get_customLocation() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_customLocation",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline int32_t GlobalNamespace::NetworkConfigSO::get_localServerPort() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_localServerPort",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::NetworkConfigSO::get_useLocalServer() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), "get_useLocalServer",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::NetworkConfigSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NetworkConfigSO*>::get(), ".ctor",

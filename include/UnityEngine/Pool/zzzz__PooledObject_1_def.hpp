@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(PooledObject_1)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::Pool {
 template <typename T> class IObjectPool_1;
 }
@@ -15,7 +17,7 @@ template <typename T> struct PooledObject_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::Pool::PooledObject_1);
-// Dependencies System.IDisposable
+// Dependencies
 namespace UnityEngine::Pool {
 // cpp template
 template <typename T>
@@ -45,7 +47,7 @@ public:
   constexpr PooledObject_1(T m_ToReturn, ::UnityEngine::Pool::IObjectPool_1<T>* m_Pool) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10621 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -26,6 +25,9 @@ template <typename T> class ThreadLocal_1_LinkedSlot;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::Threading {
@@ -66,7 +68,7 @@ public:
   constexpr ThreadLocal_1_LinkedSlotVolatile(::System::Threading::ThreadLocal_1_LinkedSlot<T>* Value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2705 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2714 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -146,7 +148,7 @@ public:
   ThreadLocal_1_LinkedSlot(ThreadLocal_1_LinkedSlot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2706 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2715 };
 
   /// @brief Field Next, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ThreadLocal_1_LinkedSlot<T>* ___Next;
@@ -217,7 +219,7 @@ public:
   ThreadLocal_1_IdManager(ThreadLocal_1_IdManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2716 };
 
   /// @brief Field m_nextIdToTry, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_nextIdToTry;
@@ -282,7 +284,7 @@ public:
   ThreadLocal_1_FinalizationHelper(ThreadLocal_1_FinalizationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2708 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2717 };
 
   /// @brief Field SlotArray, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Threading::ThreadLocal_1_LinkedSlotVolatile<T>, ::Array<::System::Threading::ThreadLocal_1_LinkedSlotVolatile<T>>*> ___SlotArray;
@@ -294,7 +296,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Threading
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -370,6 +372,8 @@ public:
 
   static inline ::System::Threading::ThreadLocal_1<T>* New_ctor();
 
+  static inline ::System::Threading::ThreadLocal_1<T>* New_ctor(::System::Func_1<T>* valueFactory);
+
   /// @brief Method SetValueSlow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void SetValueSlow(T value, ::ArrayW<::System::Threading::ThreadLocal_1_LinkedSlotVolatile<T>, ::Array<::System::Threading::ThreadLocal_1_LinkedSlotVolatile<T>>*> slotArray);
 
@@ -408,6 +412,9 @@ public:
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Func_1<T>* valueFactory);
 
   static inline ::System::Threading::ThreadLocal_1_IdManager<T>* getStaticF_s_idManager();
 
@@ -448,7 +455,7 @@ public:
   ThreadLocal_1(ThreadLocal_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2718 };
 
   /// @brief Field m_valueFactory, offset: 0x10, size: 0x8, def value: None
   ::System::Func_1<T>* ___m_valueFactory;

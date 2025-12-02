@@ -4,13 +4,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/UI/zzzz__GraphicRaycaster_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRRaycaster)
+namespace GlobalNamespace {
+class OVRRayTransformer;
+}
 namespace GlobalNamespace {
 struct OVRRaycaster_RaycastHit;
 }
@@ -22,6 +23,12 @@ template <typename T> class List_1;
 }
 namespace System {
 template <typename T> class Comparison_1;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -83,7 +90,7 @@ public:
   constexpr OVRRaycaster_RaycastHit(::UnityW<::UnityEngine::UI::Graphic> graphic, ::UnityEngine::Vector3 worldPos, bool fromMouse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7944 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -119,24 +126,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::GlobalNamespace::OVRRaycaster___c* __9;
 
-  /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__16_0, put = setStaticF___9__16_0)) ::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* __9__16_0;
+  /// @brief Field <>9__20_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__20_0, put = setStaticF___9__20_0)) ::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* __9__20_0;
 
   static inline ::GlobalNamespace::OVRRaycaster___c* New_ctor();
 
-  /// @brief Method <GraphicRaycast>b__16_0, addr 0x404135c, size 0x50, virtual false, abstract: false, final false
-  inline int32_t _GraphicRaycast_b__16_0(::GlobalNamespace::OVRRaycaster_RaycastHit g1, ::GlobalNamespace::OVRRaycaster_RaycastHit g2);
+  /// @brief Method <GraphicRaycast>b__20_0, addr 0x5cf6ba4, size 0x48, virtual false, abstract: false, final false
+  inline int32_t _GraphicRaycast_b__20_0(::GlobalNamespace::OVRRaycaster_RaycastHit g1, ::GlobalNamespace::OVRRaycaster_RaycastHit g2);
 
-  /// @brief Method .ctor, addr 0x4041354, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf6ba0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRRaycaster___c* getStaticF___9();
 
-  static inline ::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* getStaticF___9__16_0();
+  static inline ::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* getStaticF___9__20_0();
 
   static inline void setStaticF___9(::GlobalNamespace::OVRRaycaster___c* value);
 
-  static inline void setStaticF___9__16_0(::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* value);
+  static inline void setStaticF___9__20_0(::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* value);
 
 protected:
   // Ctor Parameters []
@@ -153,7 +160,7 @@ public:
   OVRRaycaster___c(OVRRaycaster___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8473 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -161,7 +168,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRaycaster___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.UI.GraphicRaycaster
+// Dependencies UnityEngine.UI.GraphicRaycaster
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRRaycaster
@@ -172,6 +179,9 @@ public:
 
   using __c = ::GlobalNamespace::OVRRaycaster___c;
 
+  /// @brief Field _corners, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF__corners, put = setStaticF__corners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _corners;
+
   __declspec(property(get = get_canvas)) ::UnityW<::UnityEngine::Canvas> canvas;
 
   __declspec(property(get = get_eventCamera)) ::UnityW<::UnityEngine::Camera> eventCamera;
@@ -179,12 +189,17 @@ public:
   /// @brief Field m_Canvas, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Canvas, put = __cordl_internal_set_m_Canvas)) ::UnityW<::UnityEngine::Canvas> m_Canvas;
 
-  /// @brief Field m_RaycastResults, offset 0x60, size 0x8
+  /// @brief Field m_RayTransformer, offset 0x60, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_RayTransformer, put = __cordl_internal_set_m_RayTransformer)) ::UnityW<::GlobalNamespace::OVRRayTransformer> m_RayTransformer;
+
+  /// @brief Field m_RaycastResults, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_RaycastResults,
                       put = __cordl_internal_set_m_RaycastResults)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* m_RaycastResults;
 
   /// @brief Field pointer, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_pointer, put = __cordl_internal_set_pointer)) ::UnityW<::UnityEngine::GameObject> pointer;
+
+  __declspec(property(get = get_rayTransformer)) ::UnityW<::GlobalNamespace::OVRRayTransformer> rayTransformer;
 
   /// @brief Field s_SortedGraphics, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_SortedGraphics, put = setStaticF_s_SortedGraphics)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* s_SortedGraphics;
@@ -200,39 +215,48 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerEnterHandler*() noexcept;
 
-  /// @brief Method GetScreenPosition, addr 0x4041018, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method GetScreenPosition, addr 0x5cf6818, size 0x38, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetScreenPosition(::UnityEngine::EventSystems::RaycastResult raycastResult);
 
-  /// @brief Method GraphicRaycast, addr 0x4040390, size 0x688, virtual false, abstract: false, final false
-  inline void GraphicRaycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* results);
+  /// @brief Method GraphicRaycast, addr 0x5cf5960, size 0x684, virtual false, abstract: false, final false
+  inline void GraphicRaycast(::UnityEngine::Canvas* canvas, ::GlobalNamespace::OVRRayTransformer* rayTransformer, ::UnityEngine::Ray ray,
+                             ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* results, bool checkOnlyRaycastableGraphics);
 
-  /// @brief Method IsFocussed, addr 0x4041050, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method IsFocussed, addr 0x5cf6850, size 0x124, virtual true, abstract: false, final false
   inline bool IsFocussed();
 
   static inline ::GlobalNamespace::OVRRaycaster* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x4041168, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5cf6974, size 0x118, virtual true, abstract: false, final false
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* e);
 
-  /// @brief Method RayIntersectsRectTransform, addr 0x4040d44, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method RayIntersectsRectTransform, addr 0x5cf6388, size 0x490, virtual false, abstract: false, final false
   static inline bool RayIntersectsRectTransform(::UnityEngine::RectTransform* rectTransform, ::UnityEngine::Ray ray, ::ByRef<::UnityEngine::Vector3> worldPos);
 
-  /// @brief Method Raycast, addr 0x4040a18, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method Raycast, addr 0x5cf5fe4, size 0x60, virtual true, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method Raycast, addr 0x403fcc8, size 0x6c8, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x5cf532c, size 0x634, virtual false, abstract: false, final false
   inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
-                      ::UnityEngine::Ray ray, bool checkForBlocking);
+                      ::UnityEngine::Ray ray, bool checkForBlocking, bool checkOnlyRaycastable);
 
-  /// @brief Method RaycastPointer, addr 0x4040a84, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method RaycastOnRaycastableGraphics, addr 0x5cf6044, size 0x60, virtual false, abstract: false, final false
+  inline void RaycastOnRaycastableGraphics(::UnityEngine::EventSystems::PointerEventData* eventData,
+                                           ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
+
+  /// @brief Method RaycastPointer, addr 0x5cf60a4, size 0x2e4, virtual false, abstract: false, final false
   inline void RaycastPointer(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
 
-  /// @brief Method Start, addr 0x403fb78, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf51bc, size 0x170, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Canvas> const& __cordl_internal_get_m_Canvas() const;
 
   constexpr ::UnityW<::UnityEngine::Canvas>& __cordl_internal_get_m_Canvas();
+
+  constexpr ::UnityW<::GlobalNamespace::OVRRayTransformer> const& __cordl_internal_get_m_RayTransformer() const;
+
+  constexpr ::UnityW<::GlobalNamespace::OVRRayTransformer>& __cordl_internal_get_m_RayTransformer();
 
   constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* const& __cordl_internal_get_m_RaycastResults() const;
 
@@ -248,24 +272,31 @@ public:
 
   constexpr void __cordl_internal_set_m_Canvas(::UnityW<::UnityEngine::Canvas> value);
 
+  constexpr void __cordl_internal_set_m_RayTransformer(::UnityW<::GlobalNamespace::OVRRayTransformer> value);
+
   constexpr void __cordl_internal_set_m_RaycastResults(::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* value);
 
   constexpr void __cordl_internal_set_pointer(::UnityW<::UnityEngine::GameObject> value);
 
   constexpr void __cordl_internal_set_sortOrder(int32_t value);
 
-  /// @brief Method .ctor, addr 0x403fa20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf502c, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
+
+  static inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> getStaticF__corners();
 
   static inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* getStaticF_s_SortedGraphics();
 
-  /// @brief Method get_canvas, addr 0x403fac0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_canvas, addr 0x5cf50d0, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Canvas> get_canvas();
 
-  /// @brief Method get_eventCamera, addr 0x403fb54, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_eventCamera, addr 0x5cf5198, size 0x1c, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
 
-  /// @brief Method get_sortOrderPriority, addr 0x403fb70, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_rayTransformer, addr 0x5cf5190, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityW<::GlobalNamespace::OVRRayTransformer> get_rayTransformer();
+
+  /// @brief Method get_sortOrderPriority, addr 0x5cf51b4, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_sortOrderPriority();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -273,6 +304,8 @@ public:
 
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerEnterHandler"
   constexpr ::UnityEngine::EventSystems::IPointerEnterHandler* i___UnityEngine__EventSystems__IPointerEnterHandler() noexcept;
+
+  static inline void setStaticF__corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
 
   static inline void setStaticF_s_SortedGraphics(::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* value);
 
@@ -291,7 +324,7 @@ public:
   OVRRaycaster(OVRRaycaster const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8474 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7946 };
 
   /// @brief Field pointer, offset: 0x48, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___pointer;
@@ -302,7 +335,10 @@ public:
   /// @brief Field m_Canvas, offset: 0x58, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Canvas> ___m_Canvas;
 
-  /// @brief Field m_RaycastResults, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field m_RayTransformer, offset: 0x60, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::OVRRayTransformer> ___m_RayTransformer;
+
+  /// @brief Field m_RaycastResults, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* ___m_RaycastResults;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -314,9 +350,11 @@ static_assert(offsetof(::GlobalNamespace::OVRRaycaster, ___sortOrder) == 0x50, "
 
 static_assert(offsetof(::GlobalNamespace::OVRRaycaster, ___m_Canvas) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRRaycaster, ___m_RaycastResults) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRaycaster, ___m_RayTransformer) == 0x60, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRaycaster, 0x68>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRRaycaster, ___m_RaycastResults) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRRaycaster, 0x70>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRRaycaster);

@@ -5,6 +5,7 @@ module;
 #pragma once
 #include "System/Net/Http/ByteArrayContent.hpp"
 #include "System/Net/Http/ClientCertificateOption.hpp"
+#include "System/Net/Http/FormUrlEncodedContent.hpp"
 #include "System/Net/Http/HttpClient.hpp"
 #include "System/Net/Http/HttpClientHandler.hpp"
 #include "System/Net/Http/HttpCompletionOption.hpp"
@@ -18,6 +19,8 @@ module;
 #include "System/Net/Http/HttpUtilities.hpp"
 #include "System/Net/Http/IMonoHttpClientHandler.hpp"
 #include "System/Net/Http/MonoWebRequestHandler.hpp"
+#include "System/Net/Http/MultipartContent.hpp"
+#include "System/Net/Http/MultipartFormDataContent.hpp"
 #include "System/Net/Http/PlatformHelper.hpp"
 #include "System/Net/Http/StreamContent.hpp"
 #include "System/Net/Http/StringContent.hpp"

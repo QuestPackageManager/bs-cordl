@@ -109,7 +109,7 @@ public:
   static ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6170 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -172,7 +172,7 @@ public:
   static ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType const QuickPlay;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4591 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6171 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -239,34 +239,34 @@ public:
 
   __declspec(property(get = get_connectionType, put = set_connectionType)) ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType connectionType;
 
-  /// @brief Method ClearCurrentConnection, addr 0x3bdb278, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ClearCurrentConnection, addr 0x57ccc20, size 0x8, virtual false, abstract: false, final false
   inline void ClearCurrentConnection();
 
-  /// @brief Method ConnectToMatchmaking, addr 0x3bdaea4, size 0x32c, virtual false, abstract: false, final false
+  /// @brief Method ConnectToMatchmaking, addr 0x57cc80c, size 0x368, virtual false, abstract: false, final false
   inline void ConnectToMatchmaking(::GlobalNamespace::BeatmapDifficultyMask beatmapDifficultyMask, ::GlobalNamespace::SongPackMask songPackMask, bool allowSongSelection);
 
-  /// @brief Method ConnectToParty, addr 0x3bda538, size 0x31c, virtual false, abstract: false, final false
+  /// @brief Method ConnectToParty, addr 0x57cbe50, size 0x340, virtual false, abstract: false, final false
   inline void ConnectToParty(::StringW serverCode);
 
-  /// @brief Method ConnectToServer, addr 0x3bdac68, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method ConnectToServer, addr 0x57cc5c0, size 0x24c, virtual false, abstract: false, final false
   inline void ConnectToServer(::GlobalNamespace::INetworkPlayer* server, ::StringW password);
 
-  /// @brief Method CreateOrConnectToDestinationParty, addr 0x3bda854, size 0x414, virtual false, abstract: false, final false
+  /// @brief Method CreateOrConnectToDestinationParty, addr 0x57cc190, size 0x430, virtual false, abstract: false, final false
   inline void CreateOrConnectToDestinationParty(::GlobalNamespace::SelectMultiplayerLobbyDestination* lobbyDestination);
 
-  /// @brief Method CreateParty, addr 0x3bd9e6c, size 0x448, virtual false, abstract: false, final false
+  /// @brief Method CreateParty, addr 0x57cb724, size 0x490, virtual false, abstract: false, final false
   inline void CreateParty(::GlobalNamespace::CreateServerFormData data);
 
-  /// @brief Method HandleMultiplayerSessionManagerConnected, addr 0x3bdb280, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerConnected, addr 0x57ccc28, size 0x280, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerConnected();
 
-  /// @brief Method HandleMultiplayerSessionManagerConnectionFailed, addr 0x3bda2b4, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerConnectionFailed, addr 0x57cbbb4, size 0x29c, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerConnectionFailed(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method HandleMultiplayerSessionManagerConnectionFailedWithRetry, addr 0x3bdb4f4, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method HandleMultiplayerSessionManagerConnectionFailedWithRetry, addr 0x57ccea8, size 0x134, virtual false, abstract: false, final false
   inline void HandleMultiplayerSessionManagerConnectionFailedWithRetry(::GlobalNamespace::ConnectionFailedReason reason);
 
-  /// @brief Method LeaveLobby, addr 0x3bdb1d0, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LeaveLobby, addr 0x57ccb74, size 0xac, virtual false, abstract: false, final false
   inline void LeaveLobby();
 
   static inline ::GlobalNamespace::MultiplayerLobbyConnectionController* New_ctor();
@@ -327,37 +327,37 @@ public:
 
   constexpr void __cordl_internal_set_connectionSuccessEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bdb624, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57ccfdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_connectionFailedEvent, addr 0x3bd9cdc, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_connectionFailedEvent, addr 0x57cb574, size 0xc0, virtual false, abstract: false, final false
   inline void add_connectionFailedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method add_connectionSuccessEvent, addr 0x3bd9ba4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_connectionSuccessEvent, addr 0x57cb41c, size 0xac, virtual false, abstract: false, final false
   inline void add_connectionSuccessEvent(::System::Action* value);
 
-  /// @brief Method get_connectionFailedReason, addr 0x3bd9e5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_connectionFailedReason, addr 0x57cb714, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ConnectionFailedReason get_connectionFailedReason();
 
-  /// @brief Method get_connectionState, addr 0x3bd9e3c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_connectionState, addr 0x57cb6f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState get_connectionState();
 
-  /// @brief Method get_connectionType, addr 0x3bd9e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_connectionType, addr 0x57cb704, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType get_connectionType();
 
-  /// @brief Method remove_connectionFailedEvent, addr 0x3bd9d8c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_connectionFailedEvent, addr 0x57cb634, size 0xc0, virtual false, abstract: false, final false
   inline void remove_connectionFailedEvent(::System::Action_2<::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType, ::GlobalNamespace::ConnectionFailedReason>* value);
 
-  /// @brief Method remove_connectionSuccessEvent, addr 0x3bd9c40, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_connectionSuccessEvent, addr 0x57cb4c8, size 0xac, virtual false, abstract: false, final false
   inline void remove_connectionSuccessEvent(::System::Action* value);
 
-  /// @brief Method set_connectionFailedReason, addr 0x3bd9e64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectionFailedReason, addr 0x57cb71c, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionFailedReason(::GlobalNamespace::ConnectionFailedReason value);
 
-  /// @brief Method set_connectionState, addr 0x3bd9e44, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectionState, addr 0x57cb6fc, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionState(::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionState value);
 
-  /// @brief Method set_connectionType, addr 0x3bd9e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_connectionType, addr 0x57cb70c, size 0x8, virtual false, abstract: false, final false
   inline void set_connectionType(::GlobalNamespace::MultiplayerLobbyConnectionController_LobbyConnectionType value);
 
 protected:
@@ -375,7 +375,7 @@ public:
   MultiplayerLobbyConnectionController(MultiplayerLobbyConnectionController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4592 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6172 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

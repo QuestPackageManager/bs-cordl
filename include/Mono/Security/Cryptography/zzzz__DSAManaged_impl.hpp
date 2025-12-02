@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler::*)(::System::Object*, ::System::IntPtr)>(
     &::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler::_ctor)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3c6ae94;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x58ae130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler::*)(
     ::System::Object*, ::System::EventArgs*)>(&::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c6af98;
+  constexpr static std::size_t addrs = 0x58ae278;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ constexpr ::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler::D
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(int32_t)>(&::Mono::Security::Cryptography::DSAManaged::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c693ac;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x58ac678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)()>(&::Mono::Security::Cryptography::DSAManaged::Finalize)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c69468;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x58ac72c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)()>(&::Mono::Security::Cryptography::DSAManaged::Generate)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3c69508;
+  constexpr static std::size_t addrs = 0x58ac77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::DSAManaged*>::get(), "Generate",
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)()>(
     &::Mono::Security::Cryptography::DSAManaged::GenerateKeyPair)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3c69a7c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x58accf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::DSAManaged*>::get(),
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Mono::Security::Cryptography::DSAManaged::add)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c69c98;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x58acf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(int32_t)>(
     &::Mono::Security::Cryptography::DSAManaged::GenerateParams)> {
-  constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x3c69554;
+  constexpr static std::size_t size = 0x530;
+  constexpr static std::size_t addrs = 0x58ac7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::RandomNumberGenerator* (::Mono::Security::Cryptography::DSAManaged::*)()>(
     &::Mono::Security::Cryptography::DSAManaged::get_Random)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c69d34;
+  constexpr static std::size_t addrs = 0x58acfb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::DSAManaged*>::get(), "get_Random",
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Security::Cryptography::DSAManaged::*)()>(
     &::Mono::Security::Cryptography::DSAManaged::get_KeySize)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c6a068;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x58ad2f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,8 +182,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Cryptography::DSAManaged::*)()>(
     &::Mono::Security::Cryptography::DSAManaged::get_PublicOnly)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c6a094;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x58ad31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Cryptography::DSAManaged*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Mono::Security::Cryptography::DSAManaged::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::Cryptography::DSAManaged::NormalizeArray)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c6a108;
+  constexpr static std::size_t addrs = 0x58ad394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,8 +211,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::DSAParameters (::Mono::Security::Cryptography::DSAManaged::*)(bool)>(
     &::Mono::Security::Cryptography::DSAManaged::ExportParameters)> {
-  constexpr static std::size_t size = 0x26c;
-  constexpr static std::size_t addrs = 0x3c6a1ac;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x58ad438;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(::System::Security::Cryptography::DSAParameters)>(
     &::Mono::Security::Cryptography::DSAManaged::ImportParameters)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3c6a484;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x58ad70c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Security::Cryptography::DSAManaged::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::Security::Cryptography::DSAManaged::VerifySignature)> {
-  constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3c6a700;
+  constexpr static std::size_t size = 0x488;
+  constexpr static std::size_t addrs = 0x58ad97c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,8 +255,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(bool)>(&::Mono::Security::Cryptography::DSAManaged::Dispose)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3c6ab8c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x58ade04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,8 +270,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(
     ::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler*)>(&::Mono::Security::Cryptography::DSAManaged::add_KeyGenerated)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c6ad5c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x58adfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -285,8 +285,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Cryptography::DSAManaged::*)(
     ::Mono::Security::Cryptography::DSAManaged_KeyGeneratedEventHandler*)>(&::Mono::Security::Cryptography::DSAManaged::remove_KeyGenerated)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c6adf8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x58ae084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

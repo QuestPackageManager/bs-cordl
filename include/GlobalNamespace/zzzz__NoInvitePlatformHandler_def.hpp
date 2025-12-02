@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IInvitePlatformHandler_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoInvitePlatformHandler)
+namespace GlobalNamespace {
+class IInvitePlatformHandler;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class NoInvitePlatformHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoInvitePlatformHandler);
-// Dependencies IInvitePlatformHandler, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoInvitePlatformHandler
@@ -26,13 +28,13 @@ public:
 
   static inline ::GlobalNamespace::NoInvitePlatformHandler* New_ctor();
 
-  /// @brief Method OpenInvitePanel, addr 0x26dc208, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method OpenInvitePanel, addr 0x360e180, size 0x38, virtual true, abstract: false, final true
   inline void OpenInvitePanel();
 
-  /// @brief Method .ctor, addr 0x26dc240, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360e1b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isSupported, addr 0x26dc200, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isSupported, addr 0x360e178, size 0x8, virtual true, abstract: false, final true
   inline bool get_isSupported();
 
   /// @brief Convert to "::GlobalNamespace::IInvitePlatformHandler"
@@ -53,7 +55,7 @@ public:
   NoInvitePlatformHandler(NoInvitePlatformHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15071 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

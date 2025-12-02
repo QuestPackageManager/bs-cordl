@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSelector___c* New_ctor();
 
-  /// @brief Method <ToString>b__10_0, addr 0x4a8d7c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__10_0, addr 0x6a674b4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__10_0(::UnityEngine::UIElements::StyleSelectorPart p);
 
-  /// @brief Method .ctor, addr 0x4a8d7b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a674b0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::StyleSelector___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   StyleSelector___c(StyleSelector___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5064 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -112,7 +112,7 @@ public:
 
   static inline ::UnityEngine::UIElements::StyleSelector* New_ctor();
 
-  /// @brief Method ToString, addr 0x4a8d60c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a67300, size 0x150, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> const& __cordl_internal_get_m_Parts() const;
@@ -139,19 +139,19 @@ public:
 
   constexpr void __cordl_internal_set_pseudoStateMask(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a8d74c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a67450, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_parts, addr 0x4a8cdfc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_parts, addr 0x6a66a5c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> get_parts();
 
-  /// @brief Method get_previousRelationship, addr 0x4a8d5fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_previousRelationship, addr 0x6a672f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::StyleSelectorRelationship get_previousRelationship();
 
-  /// @brief Method set_parts, addr 0x4a8d5f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_parts, addr 0x6a672e8, size 0x8, virtual false, abstract: false, final false
   inline void set_parts(::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> value);
 
-  /// @brief Method set_previousRelationship, addr 0x4a8d604, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousRelationship, addr 0x6a672f8, size 0x8, virtual false, abstract: false, final false
   inline void set_previousRelationship(::UnityEngine::UIElements::StyleSelectorRelationship value);
 
 protected:
@@ -169,7 +169,7 @@ public:
   StyleSelector(StyleSelector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5065 };
 
   /// @brief Field m_Parts, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleSelectorPart, ::Array<::UnityEngine::UIElements::StyleSelectorPart>*> ___m_Parts;

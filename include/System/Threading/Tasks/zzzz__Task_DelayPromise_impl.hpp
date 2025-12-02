@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Task_DelayPromise::*)(::System::Threading::CancellationToken)>(
     &::GlobalNamespace::Task_DelayPromise::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3e670f8;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5aace60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Task_DelayPromise::*)()>(&::GlobalNamespace::Task_DelayPromise::Complete)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3e68c6c;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x5aaea7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Task_DelayPromise*>::get(), "Complete",

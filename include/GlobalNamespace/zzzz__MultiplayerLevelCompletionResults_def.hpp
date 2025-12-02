@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -19,10 +17,16 @@ namespace GlobalNamespace {
 struct MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState;
 }
 namespace LiteNetLib::Utils {
+template <typename T> class INetImmutableSerializable_1;
+}
+namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
+}
+namespace System {
+class IComparable;
 }
 namespace System {
 class Object;
@@ -84,7 +88,7 @@ public:
   static ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState const SongFinished;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14883 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -163,7 +167,7 @@ public:
   static ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason const WasInactive;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14884 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19016 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -179,8 +183,7 @@ static_assert(offsetof(::GlobalNamespace::MultiplayerLevelCompletionResults_Mult
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies LiteNetLib.Utils.INetImmutableSerializable`1<T>, MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason, MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState,
-// System.IComparable, System.Object
+// Dependencies MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndReason, MultiplayerLevelCompletionResults::MultiplayerPlayerLevelEndState, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLevelCompletionResults
@@ -218,13 +221,13 @@ public:
   /// @brief Convert operator to "::System::IComparable"
   constexpr operator ::System::IComparable*() noexcept;
 
-  /// @brief Method CompareTo, addr 0x22d9f48, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method CompareTo, addr 0x31b1984, size 0xf8, virtual true, abstract: false, final true
   inline int32_t CompareTo(::System::Object* obj);
 
-  /// @brief Method CreateFromSerializedData, addr 0x22d9ea4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method CreateFromSerializedData, addr 0x31b18dc, size 0xa8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults* CreateFromSerializedData(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method HasAnyResult, addr 0x22d9dd4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HasAnyResult, addr 0x31b1820, size 0xc, virtual false, abstract: false, final false
   static inline bool HasAnyResult(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState playerLevelEndState);
 
   static inline ::GlobalNamespace::MultiplayerLevelCompletionResults* New_ctor();
@@ -233,7 +236,7 @@ public:
                                                                                ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason playerLevelEndReason,
                                                                                ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Serialize, addr 0x22d9e38, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x31b1850, size 0x8c, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
   constexpr ::GlobalNamespace::LevelCompletionResults* const& __cordl_internal_get__levelCompletionResults() const;
@@ -254,26 +257,26 @@ public:
 
   constexpr void __cordl_internal_set__playerLevelEndState(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState value);
 
-  /// @brief Method .ctor, addr 0x22d9df4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b1840, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x22d9dfc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b1844, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState playerLevelEndState,
                     ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason playerLevelEndReason, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method get_failedOrGivenUp, addr 0x22d9de0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_failedOrGivenUp, addr 0x31b182c, size 0x14, virtual false, abstract: false, final false
   inline bool get_failedOrGivenUp();
 
-  /// @brief Method get_hasAnyResults, addr 0x22d9dc4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_hasAnyResults, addr 0x31b1810, size 0x10, virtual false, abstract: false, final false
   inline bool get_hasAnyResults();
 
-  /// @brief Method get_levelCompletionResults, addr 0x22d9dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_levelCompletionResults, addr 0x31b1808, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* get_levelCompletionResults();
 
-  /// @brief Method get_playerLevelEndReason, addr 0x22d9db4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerLevelEndReason, addr 0x31b1800, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndReason get_playerLevelEndReason();
 
-  /// @brief Method get_playerLevelEndState, addr 0x22d9dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playerLevelEndState, addr 0x31b17f8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState get_playerLevelEndState();
 
   /// @brief Convert to "::LiteNetLib::Utils::INetImmutableSerializable_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>"
@@ -298,7 +301,7 @@ public:
   MultiplayerLevelCompletionResults(MultiplayerLevelCompletionResults const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14885 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19017 };
 
   /// @brief Field _playerLevelEndState, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::MultiplayerLevelCompletionResults_MultiplayerPlayerLevelEndState ____playerLevelEndState;

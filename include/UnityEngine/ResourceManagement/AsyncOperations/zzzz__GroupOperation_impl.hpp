@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ResourceManagement/AsyncOperations/GroupOperation.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_impl.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__GroupOperation_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
@@ -11,6 +10,7 @@
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__GroupOperation_def.hpp"
+#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__IOperationCacheKey_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings::GroupOperation_GroupOperationSettings(int32_t value__) noexcept {
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::_ctor)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47a4b60;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x6707068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::InvokeWaitForCompletion)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x47a4c98;
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x67071ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,7 +63,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::Util::IOperationCacheKey* (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
         &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_get_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a506c;
+  constexpr static std::size_t addrs = 0x6707584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(::UnityEngine::ResourceManagement::Util::IOperationCacheKey*)>(
         &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47a5074;
+  constexpr static std::size_t addrs = 0x670758c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* (
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependentOps)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x478f6c4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6707594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,8 +110,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDependencies)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47a507c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x67075d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::ReleaseDependencies)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x47a50e0;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x6707660;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,8 +143,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus (
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(::System::Collections::Generic::HashSet_1<::System::Object*>*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::GetDownloadStatus)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x47a532c;
+  constexpr static std::size_t size = 0x270;
+  constexpr static std::size_t addrs = 0x67078c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,8 +160,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::DependenciesAreUnchanged)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x47a5588;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x6707b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -177,8 +177,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_DebugName)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x47a575c;
+  constexpr static std::size_t size = 0x340;
+  constexpr static std::size_t addrs = 0x6707cc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Execute)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x47a5a30;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x6708004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,8 +209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::CompleteIfDependenciesComplete)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x47a5c40;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x670822c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -224,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Destroy)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47a5f34;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6708544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)()>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::get_Progress)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x47a5f44;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x6708568;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -257,8 +257,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*, bool, bool)>(
     &::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x478f5e4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6708770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,8 +275,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*,
     ::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation_GroupOperationSettings)>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::Init)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x47a6130;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6708830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -293,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle)>(&::UnityEngine::ResourceManagement::AsyncOperations::GroupOperation::OnOperationCompleted)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47a61c8;
+  constexpr static std::size_t addrs = 0x67088d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/TypeName.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__TypeName_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::System::TypeName.get_DisplayName
 template <>
 

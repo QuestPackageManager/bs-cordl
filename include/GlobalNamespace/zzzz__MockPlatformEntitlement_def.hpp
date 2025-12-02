@@ -33,7 +33,7 @@ public:
 
   __declspec(property(get = get_status)) ::GlobalNamespace::EntitlementStatus status;
 
-  /// @brief Method GetIt, addr 0x26a4e38, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetIt, addr 0x35d5a68, size 0xc, virtual false, abstract: false, final false
   inline void GetIt();
 
   static inline ::GlobalNamespace::MockPlatformEntitlement* New_ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
@@ -50,13 +50,13 @@ public:
 
   constexpr void __cordl_internal_set__status(::GlobalNamespace::EntitlementStatus value);
 
-  /// @brief Method .ctor, addr 0x26a4e44, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d5a74, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW id, ::GlobalNamespace::EntitlementStatus status);
 
-  /// @brief Method get_id, addr 0x26a5f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x35d6c24, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_status, addr 0x26a5f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x35d6c2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EntitlementStatus get_status();
 
 protected:
@@ -74,7 +74,7 @@ public:
   MockPlatformEntitlement(MockPlatformEntitlement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12770 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14743 };
 
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__IAsyncLocal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AsyncLocal_1)
 namespace System::Threading {
 template <typename T> struct AsyncLocalValueChangedArgs_1;
+}
+namespace System::Threading {
+class IAsyncLocal;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -21,7 +23,7 @@ template <typename T> class AsyncLocal_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Threading::AsyncLocal_1);
-// Dependencies System.Object, System.Threading.IAsyncLocal
+// Dependencies System.Object
 namespace System::Threading {
 // cpp template
 template <typename T>
@@ -74,7 +76,7 @@ public:
   AsyncLocal_1(AsyncLocal_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2661 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2669 };
 
   /// @brief Field m_valueChangedHandler, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::System::Threading::AsyncLocalValueChangedArgs_1<T>>* ___m_valueChangedHandler;

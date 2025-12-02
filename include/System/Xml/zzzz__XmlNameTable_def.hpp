@@ -27,11 +27,14 @@ public:
   inline ::StringW Add(::StringW array);
 
   /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW Get(::ArrayW<char16_t, ::Array<char16_t>*> array, int32_t offset, int32_t length);
+
+  /// @brief Method Get, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW Get(::StringW array);
 
   static inline ::System::Xml::XmlNameTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4361b0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c92ec, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +52,7 @@ public:
   XmlNameTable(XmlNameTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9429 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

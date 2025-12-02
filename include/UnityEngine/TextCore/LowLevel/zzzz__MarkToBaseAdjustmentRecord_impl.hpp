@@ -11,12 +11,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_baseGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492357c;
+  constexpr static std::size_t addrs = 0x698c49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "get_baseGlyphID",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord.set_baseGlyphID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(uint32_t)>(
+    &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_baseGlyphID)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698c4a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_baseGlyphID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -26,12 +41,28 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint (
     ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_baseGlyphAnchorPoint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923584;
+  constexpr static std::size_t addrs = 0x698c4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(),
                                                  "get_baseGlyphAnchorPoint", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord.set_baseGlyphAnchorPoint
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(
+    ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint)>(&::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_baseGlyphAnchorPoint)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698c4b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_baseGlyphAnchorPoint",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>::get() })));
     return ___internal_method;
   }
 };
@@ -41,12 +72,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_markGlyphID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x492358c;
+  constexpr static std::size_t addrs = 0x698c4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "get_markGlyphID",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord.set_markGlyphID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(uint32_t)>(
+    &::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_markGlyphID)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698c4c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_markGlyphID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -56,12 +102,28 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment (
     ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)()>(&::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_markPositionAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923594;
+  constexpr static std::size_t addrs = 0x698c4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(),
                                                  "get_markPositionAdjustment", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord.set_markPositionAdjustment
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::*)(
+    ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment)>(&::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_markPositionAdjustment)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698c4d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_markPositionAdjustment",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment>::get() })));
     return ___internal_method;
   }
 };
@@ -71,11 +133,24 @@ inline uint32_t UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
+inline void UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_baseGlyphID(uint32_t value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_baseGlyphID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_baseGlyphAnchorPoint() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "get_baseGlyphAnchorPoint",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_baseGlyphAnchorPoint(::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_baseGlyphAnchorPoint",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline uint32_t UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_markGlyphID() {
   static auto* ___internal_method =
@@ -83,11 +158,24 @@ inline uint32_t UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
+inline void UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_markGlyphID(uint32_t value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_markGlyphID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::get_markPositionAdjustment() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(),
                                                "get_markPositionAdjustment", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord::set_markPositionAdjustment(::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::MarkToBaseAdjustmentRecord>::get(), "set_markPositionAdjustment",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::LowLevel::MarkPositionAdjustment>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 // Ctor Parameters [CppParam { name: "m_BaseGlyphID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_BaseGlyphAnchorPoint", ty:
 // "::UnityEngine::TextCore::LowLevel::GlyphAnchorPoint", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MarkGlyphID", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {

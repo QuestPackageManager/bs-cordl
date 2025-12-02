@@ -3,18 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Net/Http/zzzz__IMonoHttpClientHandler_def.hpp"
 #include "System/Net/Security/zzzz__AuthenticationLevel_def.hpp"
 #include "System/Net/zzzz__DecompressionMethods_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Security/Principal/zzzz__TokenImpersonationLevel_def.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__TimeSpan_def.hpp"
@@ -42,6 +39,9 @@ class HttpRequestMessage;
 }
 namespace System::Net::Http {
 class HttpResponseMessage;
+}
+namespace System::Net::Http {
+class IMonoHttpClientHandler;
 }
 namespace System::Net::Http {
 struct MonoWebRequestHandler__SendAsync_d__99;
@@ -95,6 +95,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -135,16 +138,16 @@ public:
 
   static inline ::System::Net::Http::MonoWebRequestHandler___c* New_ctor();
 
-  /// @brief Method <CreateWebRequest>b__96_1, addr 0x4214ca4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <CreateWebRequest>b__96_1, addr 0x5ebc27c, size 0x58, virtual false, abstract: false, final false
   inline bool _CreateWebRequest_b__96_1(::StringW l);
 
-  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x4214c54, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <GetConnectionKeepAlive>b__95_0, addr 0x5ebc228, size 0x54, virtual false, abstract: false, final false
   inline bool _GetConnectionKeepAlive_b__95_0(::StringW l);
 
-  /// @brief Method <SendAsync>b__99_0, addr 0x4214cf0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method <SendAsync>b__99_0, addr 0x5ebc2d4, size 0x8c, virtual false, abstract: false, final false
   inline void _SendAsync_b__99_0(::System::Object* l);
 
-  /// @brief Method .ctor, addr 0x4214c4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ebc224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Net::Http::MonoWebRequestHandler___c* getStaticF___9();
@@ -178,7 +181,7 @@ public:
   MonoWebRequestHandler___c(MonoWebRequestHandler___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20122 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -187,8 +190,8 @@ static_assert(::cordl_internals::size_check_v<::System::Net::Http::MonoWebReques
 
 } // namespace System::Net::Http
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken, System.Threading.CancellationTokenRegistration
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken,
+// System.Threading.CancellationTokenRegistration
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: System.Net.Http.MonoWebRequestHandler/<SendAsync>d__99
@@ -198,10 +201,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x4214d78, size 0x17ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ebc360, size 0x1860, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x4216940, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ebdf98, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -232,7 +235,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20123 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xa8 };
@@ -313,8 +316,7 @@ static_assert(offsetof(::System::Net::Http::MonoWebRequestHandler__SendAsync_d__
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::MonoWebRequestHandler__SendAsync_d__99, 0xa8>, "Size mismatch!");
 
 } // namespace System::Net::Http
-// Dependencies System.IDisposable, System.Net.DecompressionMethods, System.Net.Http.IMonoHttpClientHandler, System.Net.Security.AuthenticationLevel, System.Nullable`1<T>, System.Object,
-// System.Security.Principal.TokenImpersonationLevel, System.TimeSpan
+// Dependencies System.Net.DecompressionMethods, System.Net.Security.AuthenticationLevel, System.Nullable`1<T>, System.Object, System.Security.Principal.TokenImpersonationLevel, System.TimeSpan
 namespace System::Net::Http {
 // Is value type: false
 // CS Name: System.Net.Http.MonoWebRequestHandler
@@ -325,11 +327,15 @@ public:
 
   using __c = ::System::Net::Http::MonoWebRequestHandler___c;
 
+  __declspec(property(put = set_AllowAutoRedirect)) bool AllowAutoRedirect;
+
   __declspec(property(get = get_CookieContainer)) ::System::Net::CookieContainer* CookieContainer;
 
   __declspec(property(get = get_MaxRequestContentBufferSize)) int64_t MaxRequestContentBufferSize;
 
   __declspec(property(get = get_SslOptions, put = set_SslOptions)) ::System::Net::Security::SslClientAuthenticationOptions* SslOptions;
+
+  __declspec(property(put = set_UseProxy)) bool UseProxy;
 
   /// @brief Field allowAutoRedirect, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_allowAutoRedirect, put = __cordl_internal_set_allowAutoRedirect)) bool allowAutoRedirect;
@@ -413,38 +419,38 @@ public:
   /// @brief Convert operator to "::System::Net::Http::IMonoHttpClientHandler"
   constexpr operator ::System::Net::Http::IMonoHttpClientHandler*() noexcept;
 
-  /// @brief Method CreateResponseMessage, addr 0x4214408, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method CreateResponseMessage, addr 0x5ebba38, size 0x1bc, virtual false, abstract: false, final false
   inline ::System::Net::Http::HttpResponseMessage* CreateResponseMessage(::System::Net::HttpWebResponse* wr, ::System::Net::Http::HttpRequestMessage* requestMessage,
                                                                          ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CreateWebRequest, addr 0x421366c, size 0x8bc, virtual true, abstract: false, final false
+  /// @brief Method CreateWebRequest, addr 0x5ebac9c, size 0x8c8, virtual true, abstract: false, final false
   inline ::System::Net::HttpWebRequest* CreateWebRequest(::System::Net::Http::HttpRequestMessage* request);
 
-  /// @brief Method Dispose, addr 0x4213464, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5ebaa70, size 0x14, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4213474, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5ebaa84, size 0x94, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method EnsureModifiability, addr 0x4213314, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EnsureModifiability, addr 0x5eba8dc, size 0x58, virtual false, abstract: false, final false
   inline void EnsureModifiability();
 
-  /// @brief Method GetConnectionKeepAlive, addr 0x42134f8, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetConnectionKeepAlive, addr 0x5ebab18, size 0x11c, virtual false, abstract: false, final false
   inline bool GetConnectionKeepAlive(::System::Net::Http::Headers::HttpRequestHeaders* headers);
 
-  /// @brief Method MethodHasBody, addr 0x421490c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method MethodHasBody, addr 0x5ebbf08, size 0x10c, virtual false, abstract: false, final false
   static inline bool MethodHasBody(::System::Net::Http::HttpMethod* method);
 
   static inline ::System::Net::Http::MonoWebRequestHandler* New_ctor();
 
-  /// @brief Method SendAsync, addr 0x4214a18, size 0x104, virtual true, abstract: false, final true
+  /// @brief Method SendAsync, addr 0x5ebc014, size 0xf8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x4214b1c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method System.Net.Http.IMonoHttpClientHandler.SetWebRequestTimeout, addr 0x5ebc10c, size 0x60, virtual true, abstract: false, final true
   inline void System_Net_Http_IMonoHttpClientHandler_SetWebRequestTimeout(::System::TimeSpan timeout);
 
-  /// @brief Method <CreateWebRequest>b__96_0, addr 0x4214b8c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method <CreateWebRequest>b__96_0, addr 0x5ebc16c, size 0x64, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* _CreateWebRequest_b__96_0(::StringW t, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection* lc,
                                                                                                         ::System::Security::Cryptography::X509Certificates::X509Certificate* rc,
                                                                                                         ::ArrayW<::StringW, ::Array<::StringW>*> ai);
@@ -593,18 +599,18 @@ public:
 
   constexpr void __cordl_internal_set_useProxy(bool value);
 
-  /// @brief Method .ctor, addr 0x42128f4, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5eb9d3c, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int64_t getStaticF_groupCounter();
 
-  /// @brief Method get_CookieContainer, addr 0x4213370, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_CookieContainer, addr 0x5eba958, size 0x68, virtual true, abstract: false, final true
   inline ::System::Net::CookieContainer* get_CookieContainer();
 
-  /// @brief Method get_MaxRequestContentBufferSize, addr 0x42133d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_MaxRequestContentBufferSize, addr 0x5eba9c0, size 0x8, virtual true, abstract: false, final true
   inline int64_t get_MaxRequestContentBufferSize();
 
-  /// @brief Method get_SslOptions, addr 0x42133dc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method get_SslOptions, addr 0x5eba9ec, size 0x60, virtual true, abstract: false, final true
   inline ::System::Net::Security::SslClientAuthenticationOptions* get_SslOptions();
 
   /// @brief Convert to "::System::IDisposable"
@@ -615,8 +621,14 @@ public:
 
   static inline void setStaticF_groupCounter(int64_t value);
 
-  /// @brief Method set_SslOptions, addr 0x4213440, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method set_AllowAutoRedirect, addr 0x5eba934, size 0x24, virtual true, abstract: false, final true
+  inline void set_AllowAutoRedirect(bool value);
+
+  /// @brief Method set_SslOptions, addr 0x5ebaa4c, size 0x24, virtual true, abstract: false, final true
   inline void set_SslOptions(::System::Net::Security::SslClientAuthenticationOptions* value);
+
+  /// @brief Method set_UseProxy, addr 0x5eba9c8, size 0x24, virtual true, abstract: false, final true
+  inline void set_UseProxy(bool value);
 
 protected:
   // Ctor Parameters []
@@ -633,7 +645,7 @@ public:
   MonoWebRequestHandler(MonoWebRequestHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20124 };
 
   /// @brief Field allowAutoRedirect, offset: 0x10, size: 0x1, def value: None
   bool ___allowAutoRedirect;

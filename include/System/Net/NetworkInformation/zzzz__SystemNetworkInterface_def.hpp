@@ -27,7 +27,7 @@ public:
   /// @brief Field nif, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_nif, put = setStaticF_nif)) ::System::Net::NetworkInformation::NetworkInterfaceFactory* nif;
 
-  /// @brief Method GetNetworkInterfaces, addr 0x43e9810, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method GetNetworkInterfaces, addr 0x6135cec, size 0x100, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetNetworkInterfaces();
 
   static inline ::System::Net::NetworkInformation::NetworkInterfaceFactory* getStaticF_nif();
@@ -49,7 +49,7 @@ public:
   SystemNetworkInterface(SystemNetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

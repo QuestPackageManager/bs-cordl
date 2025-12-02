@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crmf/zzzz__IControl_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RegTokenControl)
@@ -16,13 +15,16 @@ class DerObjectIdentifier;
 namespace Org::BouncyCastle::Asn1 {
 class DerUtf8String;
 }
+namespace Org::BouncyCastle::Crmf {
+class IControl;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crmf {
 class RegTokenControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::RegTokenControl);
-// Dependencies Org.BouncyCastle.Crmf.IControl, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crmf.RegTokenControl
@@ -52,18 +54,18 @@ public:
 
   constexpr void __cordl_internal_set_token(::Org::BouncyCastle::Asn1::DerUtf8String* value);
 
-  /// @brief Method .ctor, addr 0x26827e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b1cf4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerUtf8String* token);
 
-  /// @brief Method .ctor, addr 0x26873fc, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b671c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW token);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_type();
 
-  /// @brief Method get_Type, addr 0x2687470, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x35b6788, size 0x5c, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_Type();
 
-  /// @brief Method get_Value, addr 0x26874c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Value, addr 0x35b67e4, size 0x8, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Value();
 
   /// @brief Convert to "::Org::BouncyCastle::Crmf::IControl"

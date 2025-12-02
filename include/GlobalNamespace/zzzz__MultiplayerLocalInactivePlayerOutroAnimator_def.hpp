@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::MultiplayerLocalInactivePlayerOutroAnimator* New_ctor();
 
-  /// @brief Method Start, addr 0x3bc5900, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57b6abc, size 0x3c, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::MultiplayerController> const& __cordl_internal_get__multiplayerController() const;
@@ -48,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set__outroPlayableDirector(::UnityW<::UnityEngine::Playables::PlayableDirector> value);
 
-  /// @brief Method .ctor, addr 0x3bc593c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57b6af8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -66,7 +66,7 @@ public:
   MultiplayerLocalInactivePlayerOutroAnimator(MultiplayerLocalInactivePlayerOutroAnimator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6109 };
 
   /// @brief Field _outroPlayableDirector, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Playables::PlayableDirector> ____outroPlayableDirector;

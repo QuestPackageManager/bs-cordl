@@ -24,7 +24,7 @@ public:
   static inline ::System::Security::AccessControl::AuthorizationRuleCollection*
   New_ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
-  /// @brief Method .ctor, addr 0x3cc2b38, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59062a0, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Security::AccessControl::AuthorizationRule*, ::Array<::System::Security::AccessControl::AuthorizationRule*>*> rules);
 
 protected:
@@ -42,7 +42,7 @@ public:
   AuthorizationRuleCollection(AuthorizationRuleCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3021 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3038 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

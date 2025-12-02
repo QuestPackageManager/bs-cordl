@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__Trademark_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d21e48, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59670a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW trademark);
 
 protected:
@@ -48,7 +48,7 @@ public:
   AssemblyTrademarkAttribute(AssemblyTrademarkAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3457 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3477 };
 
   /// @brief Field <Trademark>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Trademark_k__BackingField;

@@ -46,7 +46,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FlyingTextEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b82bf8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576eb34, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -64,7 +64,7 @@ public:
   FlyingTextEffect_Pool(FlyingTextEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4219 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5784 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,10 +90,10 @@ public:
   /// @brief Field _text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshPro> _text;
 
-  /// @brief Method InitAndPresent, addr 0x3b82aec, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x576ea24, size 0x78, virtual false, abstract: false, final false
   inline void InitAndPresent(::StringW text, float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Color color, float_t fontSize, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x3b82b64, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x576ea9c, size 0x64, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingTextEffect* New_ctor();
@@ -116,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshPro> value);
 
-  /// @brief Method .ctor, addr 0x3b82bc8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576eb00, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +134,7 @@ public:
   FlyingTextEffect(FlyingTextEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5785 };
 
   /// @brief Field _text, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshPro> ____text;

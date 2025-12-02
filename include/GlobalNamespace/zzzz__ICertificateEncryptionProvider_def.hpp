@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICertificateEncryptionProvider)
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ICertificateEncryptionProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ICertificateEncryptionProvider);
-// Dependencies System.IDisposable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ICertificateEncryptionProvider
@@ -33,7 +35,7 @@ public:
   ICertificateEncryptionProvider(ICertificateEncryptionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14781 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18119 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

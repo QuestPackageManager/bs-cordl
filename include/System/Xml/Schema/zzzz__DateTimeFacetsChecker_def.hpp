@@ -33,21 +33,21 @@ namespace System::Xml::Schema {
 class CORDL_TYPE DateTimeFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
   // Declarations
-  /// @brief Method CheckValueFacets, addr 0x43b9474, size 0x3f4, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x5fb6e18, size 0x3c8, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::DateTime value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method CheckValueFacets, addr 0x43b9410, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method CheckValueFacets, addr 0x5fb6db4, size 0x64, virtual true, abstract: false, final false
   inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x43b9868, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x5fb71e0, size 0x148, virtual false, abstract: false, final false
   inline bool MatchEnumeration(::System::DateTime value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
-  /// @brief Method MatchEnumeration, addr 0x43b99a8, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method MatchEnumeration, addr 0x5fb7328, size 0x5c, virtual true, abstract: false, final false
   inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
 
   static inline ::System::Xml::Schema::DateTimeFacetsChecker* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43a4e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5fa30fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -65,7 +65,7 @@ public:
   DateTimeFacetsChecker(DateTimeFacetsChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9658 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

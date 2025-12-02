@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
 CORDL_MODULE_EXPORT(AnimationPreviewUpdateCallback)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -17,13 +16,16 @@ struct AnimationPlayableOutput;
 namespace UnityEngine::Animations {
 class IAnimationWindowPreview;
 }
+namespace UnityEngine::Timeline {
+class ITimelineEvaluateCallback;
+}
 // Forward declare root types
 namespace UnityEngine::Timeline {
 class AnimationPreviewUpdateCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::AnimationPreviewUpdateCallback);
-// Dependencies System.Object, UnityEngine.Animations.AnimationPlayableOutput, UnityEngine.Playables.PlayableGraph, UnityEngine.Timeline.ITimelineEvaluateCallback
+// Dependencies System.Object, UnityEngine.Animations.AnimationPlayableOutput, UnityEngine.Playables.PlayableGraph
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: UnityEngine.Timeline.AnimationPreviewUpdateCallback
@@ -43,10 +45,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
   constexpr operator ::UnityEngine::Timeline::ITimelineEvaluateCallback*() noexcept;
 
-  /// @brief Method Evaluate, addr 0x480df10, size 0x1e4, virtual true, abstract: false, final true
+  /// @brief Method Evaluate, addr 0x678e278, size 0x1c0, virtual true, abstract: false, final true
   inline void Evaluate();
 
-  /// @brief Method FetchPreviewComponents, addr 0x480e0f4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method FetchPreviewComponents, addr 0x678e438, size 0x140, virtual false, abstract: false, final false
   inline void FetchPreviewComponents();
 
   static inline ::UnityEngine::Timeline::AnimationPreviewUpdateCallback* New_ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
@@ -69,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set_m_PreviewComponents(::System::Collections::Generic::List_1<::UnityEngine::Animations::IAnimationWindowPreview*>* value);
 
-  /// @brief Method .ctor, addr 0x480de48, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x678e1b8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Animations::AnimationPlayableOutput output);
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineEvaluateCallback"
@@ -90,7 +92,7 @@ public:
   AnimationPreviewUpdateCallback(AnimationPreviewUpdateCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15803 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18797 };
 
   /// @brief Field m_Output, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::Animations::AnimationPlayableOutput ___m_Output;

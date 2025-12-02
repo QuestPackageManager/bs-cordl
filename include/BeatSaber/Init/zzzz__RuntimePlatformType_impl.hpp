@@ -7,8 +7,6 @@ constexpr ::BeatSaber::Init::RuntimePlatformType::RuntimePlatformType(int32_t va
 }
 // Ctor Parameters []
 constexpr ::BeatSaber::Init::RuntimePlatformType::RuntimePlatformType() {}
-constexpr ::BeatSaber::Init::RuntimePlatformType BeatSaber::Init::RuntimePlatformType::PS4{ static_cast<int32_t>(0x0) };
-constexpr ::BeatSaber::Init::RuntimePlatformType BeatSaber::Init::RuntimePlatformType::PS5{ static_cast<int32_t>(0x1) };
 constexpr ::BeatSaber::Init::RuntimePlatformType BeatSaber::Init::RuntimePlatformType::Quest{ static_cast<int32_t>(0x2) };
 constexpr ::BeatSaber::Init::RuntimePlatformType BeatSaber::Init::RuntimePlatformType::Rift{ static_cast<int32_t>(0x3) };
 constexpr ::BeatSaber::Init::RuntimePlatformType BeatSaber::Init::RuntimePlatformType::Steam{ static_cast<int32_t>(0x4) };

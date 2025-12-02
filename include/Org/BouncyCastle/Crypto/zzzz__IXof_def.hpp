@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IXof)
+namespace Org::BouncyCastle::Crypto {
+class IDigest;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
 class IXof;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IXof);
-// Dependencies Org.BouncyCastle.Crypto.IDigest
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.IXof

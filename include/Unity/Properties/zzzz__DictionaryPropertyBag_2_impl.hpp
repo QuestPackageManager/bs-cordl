@@ -7,13 +7,13 @@
 template <typename TKey, typename TValue> inline ::Unity::Properties::InstantiationKind Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::get_InstantiationKind() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>::get(), 8)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::InstantiationKind, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::Instantiate() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>::get(), 9)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::Dictionary_2<TKey, TValue>*, false>(this, ___internal_method);
 }
 template <typename TKey, typename TValue> inline void Unity::Properties::DictionaryPropertyBag_2<TKey, TValue>::_ctor() {

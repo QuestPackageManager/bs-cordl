@@ -4,10 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DynamicScenesTransitionSetupDataSO)
-namespace GlobalNamespace {
-class SceneInfo;
-}
 namespace GlobalNamespace {
 class SceneSetupData;
 }
@@ -26,11 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::DynamicScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method SetScenes, addr 0x229bb18, size 0x8, virtual false, abstract: false, final false
-  inline void SetScenes(::ArrayW<::GlobalNamespace::SceneInfo*, ::Array<::GlobalNamespace::SceneInfo*>*> scenes,
-                        ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
+  /// @brief Method SetScenes, addr 0x31e1880, size 0x8, virtual false, abstract: false, final false
+  inline void SetScenes(::ArrayW<::StringW, ::Array<::StringW>*> scenes, ::ArrayW<::GlobalNamespace::SceneSetupData*, ::Array<::GlobalNamespace::SceneSetupData*>*> sceneSetupData);
 
-  /// @brief Method .ctor, addr 0x229bb28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31e1890, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,12 +45,12 @@ public:
   DynamicScenesTransitionSetupDataSO(DynamicScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17638 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21343 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DynamicScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::DynamicScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::DynamicScenesTransitionSetupDataSO);

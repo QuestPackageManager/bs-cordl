@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Comparer.hpp"
-#include "System/Collections/zzzz__IComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__Comparer_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Net::Comparer.System_Collections_IComparer_Compare
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Comparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Net::Comparer::System_Collections_IComparer_Compare)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x44af824;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x61fea70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Comparer*>::get(),
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Comparer::*)()>(&::System::Net::Comparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44af908;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x61feb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Comparer*>::get(), ".ctor",

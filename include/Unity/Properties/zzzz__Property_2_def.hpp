@@ -4,9 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Unity/Properties/Internal/zzzz__IAttributes_def.hpp"
-#include "Unity/Properties/zzzz__IProperty_1_def.hpp"
-#include "Unity/Properties/zzzz__IProperty_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Property_2)
 namespace System::Collections::Generic {
@@ -21,13 +18,31 @@ class Attribute;
 namespace System {
 class Type;
 }
+namespace Unity::Properties::Internal {
+class IAttributes;
+}
+namespace Unity::Properties {
+struct AttributesScope;
+}
+namespace Unity::Properties {
+template <typename TContainer> class IPropertyAccept_1;
+}
+namespace Unity::Properties {
+class IPropertyVisitor;
+}
+namespace Unity::Properties {
+template <typename TContainer> class IProperty_1;
+}
+namespace Unity::Properties {
+class IProperty;
+}
 // Forward declare root types
 namespace Unity::Properties {
 template <typename TContainer, typename TValue> class Property_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::Property_2);
-// Dependencies System.Object, Unity.Properties.IProperty, Unity.Properties.IProperty`1<TContainer>, Unity.Properties.Internal.IAttributes
+// Dependencies System.Object
 namespace Unity::Properties {
 // cpp template
 template <typename TContainer, typename TValue>
@@ -36,7 +51,12 @@ template <typename TContainer, typename TValue>
 class CORDL_TYPE Property_2 : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
+
+  __declspec(property(get = Unity_Properties_Internal_IAttributes_get_Attributes,
+                      put = Unity_Properties_Internal_IAttributes_set_Attributes)) ::System::Collections::Generic::List_1<::System::Attribute*>* Unity_Properties_Internal_IAttributes_Attributes;
 
   /// @brief Field m_Attributes, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Attributes, put = __cordl_internal_set_m_Attributes)) ::System::Collections::Generic::List_1<::System::Attribute*>* m_Attributes;
@@ -44,11 +64,17 @@ public:
   /// @brief Convert operator to "::Unity::Properties::IProperty"
   constexpr operator ::Unity::Properties::IProperty*() noexcept;
 
+  /// @brief Convert operator to "::Unity::Properties::IPropertyAccept_1<TContainer>"
+  constexpr operator ::Unity::Properties::IPropertyAccept_1<TContainer>*() noexcept;
+
   /// @brief Convert operator to "::Unity::Properties::IProperty_1<TContainer>"
   constexpr operator ::Unity::Properties::IProperty_1<TContainer>*() noexcept;
 
   /// @brief Convert operator to "::Unity::Properties::Internal::IAttributes"
   constexpr operator ::Unity::Properties::Internal::IAttributes*() noexcept;
+
+  /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Accept(::Unity::Properties::IPropertyVisitor* visitor, ::ByRef<TContainer> container);
 
   /// @brief Method AddAttribute, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void AddAttribute(::System::Attribute* attribute);
@@ -59,16 +85,34 @@ public:
   /// @brief Method DeclaredValueType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::System::Type* DeclaredValueType();
 
+  /// @brief Method GetAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  template <typename TAttribute> inline TAttribute GetAttribute();
+
+  /// @brief Method GetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TValue GetValue(::ByRef<TContainer> container);
+
   /// @brief Method HasAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   template <typename TAttribute> inline bool HasAttribute();
 
   static inline ::Unity::Properties::Property_2<TContainer, TValue>* New_ctor();
+
+  /// @brief Method SetValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<TContainer> container, TValue value);
 
   /// @brief Method Unity.Properties.Internal.IAttributes.AddAttribute, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unity_Properties_Internal_IAttributes_AddAttribute(::System::Attribute* attribute);
 
   /// @brief Method Unity.Properties.Internal.IAttributes.AddAttributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unity_Properties_Internal_IAttributes_AddAttributes(::System::Collections::Generic::IEnumerable_1<::System::Attribute*>* attributes);
+
+  /// @brief Method Unity.Properties.Internal.IAttributes.CreateAttributesScope, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::Unity::Properties::AttributesScope Unity_Properties_Internal_IAttributes_CreateAttributesScope(::Unity::Properties::Internal::IAttributes* attributes);
+
+  /// @brief Method Unity.Properties.Internal.IAttributes.get_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::System::Collections::Generic::List_1<::System::Attribute*>* Unity_Properties_Internal_IAttributes_get_Attributes();
+
+  /// @brief Method Unity.Properties.Internal.IAttributes.set_Attributes, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Unity_Properties_Internal_IAttributes_set_Attributes(::System::Collections::Generic::List_1<::System::Attribute*>* value);
 
   constexpr ::System::Collections::Generic::List_1<::System::Attribute*>* const& __cordl_internal_get_m_Attributes() const;
 
@@ -79,11 +123,17 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Method get_IsReadOnly, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
   /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
   /// @brief Convert to "::Unity::Properties::IProperty"
   constexpr ::Unity::Properties::IProperty* i___Unity__Properties__IProperty() noexcept;
+
+  /// @brief Convert to "::Unity::Properties::IPropertyAccept_1<TContainer>"
+  constexpr ::Unity::Properties::IPropertyAccept_1<TContainer>* i___Unity__Properties__IPropertyAccept_1_TContainer_() noexcept;
 
   /// @brief Convert to "::Unity::Properties::IProperty_1<TContainer>"
   constexpr ::Unity::Properties::IProperty_1<TContainer>* i___Unity__Properties__IProperty_1_TContainer_() noexcept;
@@ -106,7 +156,7 @@ public:
   Property_2(Property_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19317 };
 
   /// @brief Field m_Attributes, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Attribute*>* ___m_Attributes;

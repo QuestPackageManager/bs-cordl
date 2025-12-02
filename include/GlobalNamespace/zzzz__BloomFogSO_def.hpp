@@ -73,16 +73,19 @@ public:
 
   static inline ::GlobalNamespace::BloomFogSO* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x39d477c, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x564bc14, size 0x34, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetParams, addr 0x39d4798, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method SetParams, addr 0x564bc48, size 0x1bc, virtual false, abstract: false, final false
   inline void SetParams(float_t attenuation, float_t offset, float_t heightFogStartY, float_t heightFogHeight, float_t autoExposureLimit, float_t noteSpawnIntensity);
 
-  /// @brief Method Setup, addr 0x39d4038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x564b4bc, size 0x8, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::BloomFogEnvironmentParams* defaultFogParams);
 
-  /// @brief Method UpdateShaderParams, addr 0x39d4178, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UpdateKeyword, addr 0x564bb94, size 0x60, virtual false, abstract: false, final false
+  inline void UpdateKeyword();
+
+  /// @brief Method UpdateShaderParams, addr 0x564b5c8, size 0x198, virtual false, abstract: false, final false
   inline void UpdateShaderParams();
 
   constexpr float_t const& __cordl_internal_get__autoExposureLimit() const;
@@ -127,7 +130,7 @@ public:
 
   constexpr void __cordl_internal_set__transitionFogParams(::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> value);
 
-  /// @brief Method .ctor, addr 0x39d48d0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x564be04, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__customFogAttenuationID();
@@ -138,25 +141,25 @@ public:
 
   static inline int32_t getStaticF__customFogOffsetID();
 
-  /// @brief Method get_autoExposureLimit, addr 0x39d476c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_autoExposureLimit, addr 0x564bc04, size 0x8, virtual false, abstract: false, final false
   inline float_t get_autoExposureLimit();
 
-  /// @brief Method get_bloomFogEnabled, addr 0x39d475c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_bloomFogEnabled, addr 0x564bbf4, size 0x8, virtual false, abstract: false, final false
   inline bool get_bloomFogEnabled();
 
-  /// @brief Method get_defaultForParams, addr 0x39d474c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultForParams, addr 0x564bb84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_defaultForParams();
 
-  /// @brief Method get_legacyAutoExposureEnabled, addr 0x39d4764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_legacyAutoExposureEnabled, addr 0x564bbfc, size 0x8, virtual false, abstract: false, final false
   inline bool get_legacyAutoExposureEnabled();
 
-  /// @brief Method get_noteSpawnIntensity, addr 0x39d4774, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_noteSpawnIntensity, addr 0x564bc0c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_noteSpawnIntensity();
 
-  /// @brief Method get_transition, addr 0x39d4744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transition, addr 0x564bb7c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_transition();
 
-  /// @brief Method get_transitionFogParams, addr 0x39d4754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_transitionFogParams, addr 0x564bb8c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> get_transitionFogParams();
 
   static inline void setStaticF__customFogAttenuationID(int32_t value);
@@ -167,19 +170,19 @@ public:
 
   static inline void setStaticF__customFogOffsetID(int32_t value);
 
-  /// @brief Method set_bloomFogEnabled, addr 0x39d40e4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_bloomFogEnabled, addr 0x564b590, size 0x1c, virtual false, abstract: false, final false
   inline void set_bloomFogEnabled(bool value);
 
-  /// @brief Method set_defaultForParams, addr 0x39d4574, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_defaultForParams, addr 0x564b998, size 0xa0, virtual false, abstract: false, final false
   inline void set_defaultForParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
 
-  /// @brief Method set_legacyAutoExposureEnabled, addr 0x39d415c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_legacyAutoExposureEnabled, addr 0x564b5ac, size 0x1c, virtual false, abstract: false, final false
   inline void set_legacyAutoExposureEnabled(bool value);
 
-  /// @brief Method set_transition, addr 0x39d4020, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_transition, addr 0x564b4a4, size 0x18, virtual false, abstract: false, final false
   inline void set_transition(float_t value);
 
-  /// @brief Method set_transitionFogParams, addr 0x39d43bc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_transitionFogParams, addr 0x564b810, size 0x9c, virtual false, abstract: false, final false
   inline void set_transitionFogParams(::GlobalNamespace::BloomFogEnvironmentParams* value);
 
 protected:
@@ -197,7 +200,7 @@ public:
   BloomFogSO(BloomFogSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16240 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19614 };
 
   /// @brief Field kBloomFogEnabledKeyword offset 0xffffffff size 0x8
   static constexpr ::ConstString kBloomFogEnabledKeyword{ u"ENABLE_BLOOM_FOG" };

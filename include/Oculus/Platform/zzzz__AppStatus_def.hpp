@@ -30,6 +30,7 @@ public:
     __E_Installing = static_cast<int32_t>(0x4),
     __E_Installed = static_cast<int32_t>(0x5),
     __E_Uninstalling = static_cast<int32_t>(0x6),
+    __E_InstallQueued = static_cast<int32_t>(0x7),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -58,6 +59,9 @@ public:
   /// @brief Field Entitled value: I32(1)
   static ::Oculus::Platform::AppStatus const Entitled;
 
+  /// @brief Field InstallQueued value: I32(7)
+  static ::Oculus::Platform::AppStatus const InstallQueued;
+
   /// @brief Field Installed value: I32(5)
   static ::Oculus::Platform::AppStatus const Installed;
 
@@ -71,7 +75,7 @@ public:
   static ::Oculus::Platform::AppStatus const Unknown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17777 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

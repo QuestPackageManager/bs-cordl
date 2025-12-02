@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (
     ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t, ::System::Object*)>(&::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateSearchBase)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c6e5d0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x58962fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t)>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c6e644;
+  constexpr static std::size_t addrs = 0x589636c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Math::BigInteger* (
     ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(int32_t, ::System::Object*)>(&::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::GenerateNewPrime)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x3c6e654;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x589637c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)(
     ::Mono::Math::BigInteger*, ::System::Object*)>(&::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::IsPrimeAcceptable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6e938;
+  constexpr static std::size_t addrs = 0x5896668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::*)()>(
     &::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c6d0d8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5894fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

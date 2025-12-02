@@ -1,9 +1,6 @@
 #pragma once
 // IWYU pragma private; include "System/Enum.hpp"
 #include "System/zzzz__Enum_ParseFailureKind_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
-#include "System/zzzz__IConvertible_impl.hpp"
-#include "System/zzzz__IFormattable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueType_impl.hpp"
 #include "System/zzzz__Enum_def.hpp"
@@ -13,7 +10,10 @@
 #include "System/zzzz__Enum_ParseFailureKind_def.hpp"
 #include "System/zzzz__Enum_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IConvertible_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
 #include "System/zzzz__TypeCode_def.hpp"
@@ -22,8 +22,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Enum_EnumResult::*)(bool)>(&::System::Enum_EnumResult::Init)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3e1ed2c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5a64978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Enum_EnumResult::*)(::System::Exception*)>(&::System::Enum_EnumResult::SetFailure)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e1fb90;
+  constexpr static std::size_t addrs = 0x5a656bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Enum_EnumResult::*)(::GlobalNamespace::Enum_ParseFailureKind, ::StringW)>(
     &::System::Enum_EnumResult::SetFailure)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e1f554;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5a65180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Enum_EnumResult::*)(::GlobalNamespace::Enum_ParseFailureKind, ::StringW, ::System::Object*)>(
     &::System::Enum_EnumResult::SetFailure)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3e1f590;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5a651b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (::System::Enum_EnumResult::*)()>(&::System::Enum_EnumResult::GetEnumParseException)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3e1f3e8;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5a64fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Enum_EnumResult>::get(), "GetEnumParseException",
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Enum_ValuesAndNames::*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Enum_ValuesAndNames::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e1e1c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a63fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -32,7 +32,7 @@ public:
   /// @brief Field <Name>k__BackingField, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
-  /// @brief Method Bind, addr 0x4102358, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Bind, addr 0x5dac3c0, size 0xbc, virtual true, abstract: false, final true
   inline ::System::Dynamic::DynamicMetaObject* Bind(::System::Dynamic::DynamicMetaObject* target,
                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
@@ -41,7 +41,7 @@ public:
                                                               ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args,
                                                               ::System::Dynamic::DynamicMetaObject* errorSuggestion);
 
-  /// @brief Method FallbackInvokeMember, addr 0x4100e94, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method FallbackInvokeMember, addr 0x5daafec, size 0x10, virtual false, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* FallbackInvokeMember(::System::Dynamic::DynamicMetaObject* target,
                                                                     ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*> args);
 
@@ -62,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method get_IgnoreCase, addr 0x4102350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IgnoreCase, addr 0x5dac3b8, size 0x8, virtual false, abstract: false, final false
   inline bool get_IgnoreCase();
 
-  /// @brief Method get_Name, addr 0x4102348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5dac3b0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
 protected:
@@ -83,7 +83,7 @@ public:
   InvokeMemberBinder(InvokeMemberBinder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14177 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16624 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x18, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

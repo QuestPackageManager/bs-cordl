@@ -3,25 +3,33 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LowLevelList_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LowLevelListWithIList_1)
 namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> struct LowLevelListWithIList_1_Enumerator;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -36,7 +44,7 @@ template <typename T> struct LowLevelListWithIList_1_Enumerator;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LowLevelListWithIList_1);
 MARK_GEN_VAL_T(::System::Collections::Generic::LowLevelListWithIList_1_Enumerator);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -97,7 +105,7 @@ public:
   constexpr LowLevelListWithIList_1_Enumerator(::System::Collections::Generic::LowLevelListWithIList_1<T>* _list, int32_t _index, int32_t _version, T _current) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3875 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3800 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -118,8 +126,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IList`1<T>, System.Collections.Generic.LowLevelList`1<T>,
-// System.Collections.IEnumerable
+// Dependencies System.Collections.Generic.LowLevelList`1<T>
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -190,7 +197,7 @@ public:
   LowLevelListWithIList_1(LowLevelListWithIList_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3876 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3801 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

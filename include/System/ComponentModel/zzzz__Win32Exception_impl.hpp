@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/Win32Exception.hpp"
 #include "System/Runtime/InteropServices/zzzz__ExternalException_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/ComponentModel/zzzz__Win32Exception_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::ComponentModel::Win32Exception._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Win32Exception::*)()>(&::System::ComponentModel::Win32Exception::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x447d174;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x61cc814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Win32Exception*>::get(), ".ctor",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Win32Exception::*)(int32_t)>(&::System::ComponentModel::Win32Exception::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x447d1e8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x61cc894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Win32Exception::*)(int32_t, ::StringW)>(
     &::System::ComponentModel::Win32Exception::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x447db14;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x61cd474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Win32Exception::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ComponentModel::Win32Exception::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x447db40;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x61cd4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::Win32Exception::*)()>(
     &::System::ComponentModel::Win32Exception::get_NativeErrorCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447dbc8;
+  constexpr static std::size_t addrs = 0x61cd540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::Win32Exception*>::get(),
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Win32Exception::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ComponentModel::Win32Exception::GetObjectData)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x447dbd0;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x61cd548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::ComponentModel::Win32Exception::GetErrorMessage)> {
-  constexpr static std::size_t size = 0x8f4;
-  constexpr static std::size_t addrs = 0x447d220;
+  constexpr static std::size_t size = 0xb9c;
+  constexpr static std::size_t addrs = 0x61cc8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

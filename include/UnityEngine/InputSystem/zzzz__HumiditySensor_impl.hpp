@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AxisControl* (::UnityEngine::InputSystem::HumiditySensor::*)()>(
     &::UnityEngine::InputSystem::HumiditySensor::get_relativeHumidity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c847c;
+  constexpr static std::size_t addrs = 0x6348af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)(::UnityEngine::InputSystem::Controls::AxisControl*)>(
     &::UnityEngine::InputSystem::HumiditySensor::set_relativeHumidity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c8484;
+  constexpr static std::size_t addrs = 0x6348b00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::HumiditySensor* (*)()>(&::UnityEngine::InputSystem::HumiditySensor::get_current)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45c848c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6348b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(),
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::HumiditySensor*)>(&::UnityEngine::InputSystem::HumiditySensor::set_current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45c84d4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6348b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::MakeCurrent)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45c8520;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6348ba4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::OnRemoved)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45c8574;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6348bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::FinishSetup)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45c85f8;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6348c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::HumiditySensor::*)()>(&::UnityEngine::InputSystem::HumiditySensor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45c8670;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6348cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::HumiditySensor*>::get(), ".ctor",

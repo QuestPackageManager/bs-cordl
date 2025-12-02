@@ -4,14 +4,15 @@
 #include "UnityEngine/UIElements/zzzz__EventCategoryFlags_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventInterestAttribute_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "UnityEngine/UIElements/zzzz__EventInterestOptionsInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventInterestOptions_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::EventInterestAttribute._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x499e8b0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a967d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -25,13 +26,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::UnityEngine::UIElements::EventInterestOptions)>(
     &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x499e8dc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a967e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
         ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventInterestOptions>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::EventInterestAttribute._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventInterestAttribute::*)(::UnityEngine::UIElements::EventInterestOptionsInternal)>(
+    &::UnityEngine::UIElements::EventInterestAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a967ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventInterestOptionsInternal>::get() })));
     return ___internal_method;
   }
 };
@@ -71,10 +87,19 @@ inline void UnityEngine::UIElements::EventInterestAttribute::_ctor(::UnityEngine
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventInterestOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, interests);
 }
+inline void UnityEngine::UIElements::EventInterestAttribute::_ctor(::UnityEngine::UIElements::EventInterestOptionsInternal interests) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestAttribute*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventInterestOptionsInternal>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, interests);
+}
 inline ::UnityEngine::UIElements::EventInterestAttribute* UnityEngine::UIElements::EventInterestAttribute::New_ctor(::ArrayW<::System::Type*, ::Array<::System::Type*>*> eventTypes) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventInterestAttribute*>(eventTypes));
 }
 inline ::UnityEngine::UIElements::EventInterestAttribute* UnityEngine::UIElements::EventInterestAttribute::New_ctor(::UnityEngine::UIElements::EventInterestOptions interests) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventInterestAttribute*>(interests));
+}
+inline ::UnityEngine::UIElements::EventInterestAttribute* UnityEngine::UIElements::EventInterestAttribute::New_ctor(::UnityEngine::UIElements::EventInterestOptionsInternal interests) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::EventInterestAttribute*>(interests));
 }
 // Ctor Parameters []

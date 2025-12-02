@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ILobbyGameStateController.hpp"
-#include "GlobalNamespace/zzzz__ILobbyGameStateControllerBase_impl.hpp"
 #include "GlobalNamespace/zzzz__ILobbyGameStateController_def.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
 #include "GlobalNamespace/zzzz__DisconnectedReason_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
+#include "GlobalNamespace/zzzz__ILobbyGameStateControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLobbyState_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerResultsData_def.hpp"

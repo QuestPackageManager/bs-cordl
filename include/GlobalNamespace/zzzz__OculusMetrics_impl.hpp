@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OculusMetrics.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__OculusMetrics_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OculusMetrics.RecordMetrics
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OculusMetrics* (*)(int32_t)>(&::GlobalNamespace::OculusMetrics::RecordMetrics)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3b1d2e0;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x56ff308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMetrics::*)(int32_t)>(&::GlobalNamespace::OculusMetrics::_ctor)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3b1d564;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x56ff348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::Dispose)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b1d794;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56ff434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMetrics*>::get(), "Dispose",
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::CaptureFrame)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3b1d7a0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56ff438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMetrics*>::get(), "CaptureFrame",
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::GenerateListReport)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3b1da30;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x56ff43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMetrics*>::get(), "GenerateListReport",
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OculusMetrics::*)()>(&::GlobalNamespace::OculusMetrics::GenerateTableReport)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3b1dbbc;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x56ff5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OculusMetrics*>::get(), "GenerateTableReport",

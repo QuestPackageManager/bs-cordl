@@ -50,7 +50,9 @@ namespace UnityEngine {
 struct CORDL_TYPE RenderTextureDescriptor {
 public:
   // Declarations
-  __declspec(property(put = set_autoGenerateMips)) bool autoGenerateMips;
+  __declspec(property(get = get_autoGenerateMips, put = set_autoGenerateMips)) bool autoGenerateMips;
+
+  __declspec(property(get = get_bindMS, put = set_bindMS)) bool bindMS;
 
   __declspec(property(get = get_colorFormat, put = set_colorFormat)) ::UnityEngine::RenderTextureFormat colorFormat;
 
@@ -62,15 +64,15 @@ public:
 
   __declspec(property(get = get_dimension, put = set_dimension)) ::UnityEngine::Rendering::TextureDimension dimension;
 
-  __declspec(property(put = set_enableRandomWrite)) bool enableRandomWrite;
+  __declspec(property(get = get_enableRandomWrite, put = set_enableRandomWrite)) bool enableRandomWrite;
 
   __declspec(property(get = get_graphicsFormat, put = set_graphicsFormat)) ::UnityEngine::Experimental::Rendering::GraphicsFormat graphicsFormat;
 
   __declspec(property(get = get_height, put = set_height)) int32_t height;
 
-  __declspec(property(put = set_memoryless)) ::UnityEngine::RenderTextureMemoryless memoryless;
+  __declspec(property(get = get_memoryless, put = set_memoryless)) ::UnityEngine::RenderTextureMemoryless memoryless;
 
-  __declspec(property(put = set_mipCount)) int32_t mipCount;
+  __declspec(property(get = get_mipCount, put = set_mipCount)) int32_t mipCount;
 
   __declspec(property(get = get_msaaSamples, put = set_msaaSamples)) int32_t msaaSamples;
 
@@ -78,123 +80,175 @@ public:
 
   __declspec(property(get = get_shadowSamplingMode, put = set_shadowSamplingMode)) ::UnityEngine::Rendering::ShadowSamplingMode shadowSamplingMode;
 
-  __declspec(property(put = set_useDynamicScale)) bool useDynamicScale;
+  __declspec(property(put = set_stencilFormat)) ::UnityEngine::Experimental::Rendering::GraphicsFormat stencilFormat;
 
-  __declspec(property(put = set_useMipMap)) bool useMipMap;
+  __declspec(property(get = get_useDynamicScale, put = set_useDynamicScale)) bool useDynamicScale;
+
+  __declspec(property(get = get_useDynamicScaleExplicit, put = set_useDynamicScaleExplicit)) bool useDynamicScaleExplicit;
+
+  __declspec(property(get = get_useMipMap, put = set_useMipMap)) bool useMipMap;
 
   __declspec(property(get = get_volumeDepth, put = set_volumeDepth)) int32_t volumeDepth;
 
-  __declspec(property(put = set_vrUsage)) ::UnityEngine::VRTextureUsage vrUsage;
+  __declspec(property(get = get_vrUsage, put = set_vrUsage)) ::UnityEngine::VRTextureUsage vrUsage;
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method SetOrClearRenderTextureCreationFlag, addr 0x4899d78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetOrClearRenderTextureCreationFlag, addr 0x689369c, size 0x1c, virtual false, abstract: false, final false
   inline void SetOrClearRenderTextureCreationFlag(bool value, ::UnityEngine::RenderTextureCreationFlags flag);
 
-  /// @brief Method .ctor, addr 0x4899a14, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6893ab4, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(int32_t width, int32_t height);
+
+  /// @brief Method .ctor, addr 0x6893b68, size 0x94, virtual false, abstract: false, final false
+  inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t depthBufferBits);
+
+  /// @brief Method .ctor, addr 0x6893bfc, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, int32_t depthBufferBits, int32_t mipCount);
+
+  /// @brief Method .ctor, addr 0x6893da0, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat);
 
-  /// @brief Method .ctor, addr 0x489a260, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6893d44, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::Experimental::Rendering::GraphicsFormat colorFormat, ::UnityEngine::Experimental::Rendering::GraphicsFormat depthStencilFormat,
                     int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x489a0ac, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6893ac0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(int32_t width, int32_t height, ::UnityEngine::RenderTextureFormat colorFormat);
+
+  /// @brief Method .ctor, addr 0x6893ac8, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::RenderTextureFormat colorFormat, int32_t depthBufferBits);
 
-  /// @brief Method .ctor, addr 0x489a140, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6893b60, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::RenderTextureFormat colorFormat, int32_t depthBufferBits, int32_t mipCount);
 
-  /// @brief Method .ctor, addr 0x489a148, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6893c64, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(int32_t width, int32_t height, ::UnityEngine::RenderTextureFormat colorFormat, int32_t depthBufferBits, int32_t mipCount, ::UnityEngine::RenderTextureReadWrite readWrite);
 
-  /// @brief Method get_colorFormat, addr 0x4899e24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_autoGenerateMips, addr 0x6893e7c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_autoGenerateMips();
+
+  /// @brief Method get_bindMS, addr 0x6893ed4, size 0xc, virtual false, abstract: false, final false
+  inline bool get_bindMS();
+
+  /// @brief Method get_colorFormat, addr 0x68936d0, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityEngine::RenderTextureFormat get_colorFormat();
 
-  /// @brief Method get_depthBufferBits, addr 0x4899d94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_depthBufferBits, addr 0x68938d0, size 0x7c, virtual false, abstract: false, final false
   inline int32_t get_depthBufferBits();
 
-  /// @brief Method get_depthStencilFormat, addr 0x4899e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_depthStencilFormat, addr 0x68936c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_depthStencilFormat();
 
-  /// @brief Method get_dimension, addr 0x489a07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dimension, addr 0x6893a74, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::TextureDimension get_dimension();
 
-  /// @brief Method get_graphicsFormat, addr 0x48998d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_enableRandomWrite, addr 0x6893ea8, size 0xc, virtual false, abstract: false, final false
+  inline bool get_enableRandomWrite();
+
+  /// @brief Method get_graphicsFormat, addr 0x68935ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Experimental::Rendering::GraphicsFormat get_graphicsFormat();
 
-  /// @brief Method get_height, addr 0x4899ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x68935ac, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_msaaSamples, addr 0x4899cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_memoryless, addr 0x6893aa4, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::RenderTextureMemoryless get_memoryless();
+
+  /// @brief Method get_mipCount, addr 0x68935dc, size 0x8, virtual false, abstract: false, final false
+  inline int32_t get_mipCount();
+
+  /// @brief Method get_msaaSamples, addr 0x68935bc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_msaaSamples();
 
-  /// @brief Method get_sRGB, addr 0x4899f30, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_sRGB, addr 0x6893854, size 0x7c, virtual false, abstract: false, final false
   inline bool get_sRGB();
 
-  /// @brief Method get_shadowSamplingMode, addr 0x489a08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shadowSamplingMode, addr 0x6893a84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::ShadowSamplingMode get_shadowSamplingMode();
 
-  /// @brief Method get_volumeDepth, addr 0x4899cc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDynamicScale, addr 0x6893f20, size 0xc, virtual false, abstract: false, final false
+  inline bool get_useDynamicScale();
+
+  /// @brief Method get_useDynamicScaleExplicit, addr 0x6893f4c, size 0xc, virtual false, abstract: false, final false
+  inline bool get_useDynamicScaleExplicit();
+
+  /// @brief Method get_useMipMap, addr 0x6893e60, size 0xc, virtual false, abstract: false, final false
+  inline bool get_useMipMap();
+
+  /// @brief Method get_volumeDepth, addr 0x68935cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_volumeDepth();
 
-  /// @brief Method get_width, addr 0x4899c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_vrUsage, addr 0x6893a94, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::VRTextureUsage get_vrUsage();
+
+  /// @brief Method get_width, addr 0x689359c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
-  /// @brief Method set_autoGenerateMips, addr 0x489a2cc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_autoGenerateMips, addr 0x6893e88, size 0x20, virtual false, abstract: false, final false
   inline void set_autoGenerateMips(bool value);
 
-  /// @brief Method set_colorFormat, addr 0x4899ea0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_bindMS, addr 0x6893ee0, size 0x20, virtual false, abstract: false, final false
+  inline void set_bindMS(bool value);
+
+  /// @brief Method set_colorFormat, addr 0x689376c, size 0xe8, virtual false, abstract: false, final false
   inline void set_colorFormat(::UnityEngine::RenderTextureFormat value);
 
-  /// @brief Method set_createdFromScript, addr 0x489995c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_createdFromScript, addr 0x6893f00, size 0x20, virtual false, abstract: false, final false
   inline void set_createdFromScript(bool value);
 
-  /// @brief Method set_depthBufferBits, addr 0x4899df0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_depthBufferBits, addr 0x6893a48, size 0x2c, virtual false, abstract: false, final false
   inline void set_depthBufferBits(int32_t value);
 
-  /// @brief Method set_depthStencilFormat, addr 0x4899e1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_depthStencilFormat, addr 0x68936c8, size 0x8, virtual false, abstract: false, final false
   inline void set_depthStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_dimension, addr 0x489a084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_dimension, addr 0x6893a7c, size 0x8, virtual false, abstract: false, final false
   inline void set_dimension(::UnityEngine::Rendering::TextureDimension value);
 
-  /// @brief Method set_enableRandomWrite, addr 0x489a2ec, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_enableRandomWrite, addr 0x6893eb4, size 0x20, virtual false, abstract: false, final false
   inline void set_enableRandomWrite(bool value);
 
-  /// @brief Method set_graphicsFormat, addr 0x4899cdc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_graphicsFormat, addr 0x68935f4, size 0xa8, virtual false, abstract: false, final false
   inline void set_graphicsFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
 
-  /// @brief Method set_height, addr 0x4899cac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x68935b4, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_memoryless, addr 0x489a0a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_memoryless, addr 0x6893aac, size 0x8, virtual false, abstract: false, final false
   inline void set_memoryless(::UnityEngine::RenderTextureMemoryless value);
 
-  /// @brief Method set_mipCount, addr 0x4899cd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_mipCount, addr 0x68935e4, size 0x8, virtual false, abstract: false, final false
   inline void set_mipCount(int32_t value);
 
-  /// @brief Method set_msaaSamples, addr 0x4899cbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_msaaSamples, addr 0x68935c4, size 0x8, virtual false, abstract: false, final false
   inline void set_msaaSamples(int32_t value);
 
-  /// @brief Method set_sRGB, addr 0x4899f8c, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method set_sRGB, addr 0x689394c, size 0xfc, virtual false, abstract: false, final false
   inline void set_sRGB(bool value);
 
-  /// @brief Method set_shadowSamplingMode, addr 0x489a094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_shadowSamplingMode, addr 0x6893a8c, size 0x8, virtual false, abstract: false, final false
   inline void set_shadowSamplingMode(::UnityEngine::Rendering::ShadowSamplingMode value);
 
-  /// @brief Method set_useDynamicScale, addr 0x4899ad0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_stencilFormat, addr 0x68936b8, size 0x8, virtual false, abstract: false, final false
+  inline void set_stencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat value);
+
+  /// @brief Method set_useDynamicScale, addr 0x6893f2c, size 0x20, virtual false, abstract: false, final false
   inline void set_useDynamicScale(bool value);
 
-  /// @brief Method set_useMipMap, addr 0x489a2bc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_useDynamicScaleExplicit, addr 0x6893f58, size 0x20, virtual false, abstract: false, final false
+  inline void set_useDynamicScaleExplicit(bool value);
+
+  /// @brief Method set_useMipMap, addr 0x6893e6c, size 0x10, virtual false, abstract: false, final false
   inline void set_useMipMap(bool value);
 
-  /// @brief Method set_volumeDepth, addr 0x4899ccc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeDepth, addr 0x68935d4, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeDepth(int32_t value);
 
-  /// @brief Method set_vrUsage, addr 0x489a09c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_vrUsage, addr 0x6893a9c, size 0x8, virtual false, abstract: false, final false
   inline void set_vrUsage(::UnityEngine::VRTextureUsage value);
 
-  /// @brief Method set_width, addr 0x4899c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x68935a4, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
   // Ctor Parameters []
@@ -218,7 +272,7 @@ public:
                                     ::UnityEngine::RenderTextureCreationFlags _flags, ::UnityEngine::RenderTextureMemoryless _memoryless_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x34 };

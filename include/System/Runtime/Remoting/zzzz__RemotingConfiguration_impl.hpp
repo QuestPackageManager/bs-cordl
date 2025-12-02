@@ -16,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::RemotingConfiguration::get_ApplicationName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cc8670;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x590bd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::RemotingConfiguration*>::get(),
@@ -29,8 +29,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Runtime::Remoting::RemotingConfiguration::set_ApplicationName)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cc86c8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x590bd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::System::Runtime::Remoting::RemotingConfiguration::get_ProcessId)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3cc8724;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x590bdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::RemotingConfiguration*>::get(),
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Runtime::Remoting::RemotingConfiguration::LoadDefaultDelayedChannels)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x3cc87cc;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x590be98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::RemotingConfiguration*>::get(),
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::System::Runtime::Remoting::RemotingConfiguration::IsActivationAllowed)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3cc8be0;
+  constexpr static std::size_t addrs = 0x590c258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ActivatedClientTypeEntry* (*)(::System::Type*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::IsRemotelyActivatedClientType)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3cc8d20;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x590c398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::WellKnownClientTypeEntry* (*)(::System::Type*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::IsWellKnownClientType)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3cc8ea8;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x590c52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ActivatedClientTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedClientType)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3cc9030;
+  constexpr static std::size_t addrs = 0x590c6c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ActivatedServiceTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterActivatedServiceType)> {
   constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3cc92ac;
+  constexpr static std::size_t addrs = 0x590c93c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::WellKnownClientTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownClientType)> {
   constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x3cc93ec;
+  constexpr static std::size_t addrs = 0x590ca7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::WellKnownServiceTypeEntry*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterWellKnownServiceType)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3cc9668;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x590ccf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,8 +174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ChannelData*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterChannelTemplate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3cc97f0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x590ce84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ProviderData*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterClientProviderTemplate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3cc986c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x590cf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::ProviderData*)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterServerProviderTemplate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3cc98e8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x590cf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,8 +219,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ArrayList*, bool)>(
     &::System::Runtime::Remoting::RemotingConfiguration::RegisterChannels)> {
-  constexpr static std::size_t size = 0xc78;
-  constexpr static std::size_t addrs = 0x3cc9964;
+  constexpr static std::size_t size = 0xc10;
+  constexpr static std::size_t addrs = 0x590d004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,8 +234,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Collections::ArrayList*)>(&::System::Runtime::Remoting::RemotingConfiguration::RegisterTypes)> {
-  constexpr static std::size_t size = 0x51c;
-  constexpr static std::size_t addrs = 0x3cca5dc;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x590dc14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -248,8 +248,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::System::Runtime::Remoting::RemotingConfiguration::CustomErrorsEnabled)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ccaaf8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x590e120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -262,8 +262,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Runtime::Remoting::RemotingConfiguration::SetCustomErrorsMode)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3ccab8c;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x590e1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -3,7 +3,6 @@
 #include "Newtonsoft/Json/zzzz__StringEscapeHandling_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__JavaScriptUtils_def.hpp"
@@ -23,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::*)()>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::MoveNext)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x3ecfb78;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x5b17310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteCharAsync_d__14::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ecfe2c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b175b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,8 +92,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::*)()>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x9d8;
-  constexpr static std::size_t addrs = 0x3ecfe94;
+  constexpr static std::size_t size = 0x9b8;
+  constexpr static std::size_t addrs = 0x5b17624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,8 +108,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync_d__16::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ed086c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b17fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -181,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::*)()>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::MoveNext)> {
-  constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x3ed08d4;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x5b18048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -196,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::Newtonsoft::Json::Utilities::JavaScriptUtils__WriteEscapedJavaScriptStringWithDelimitersAsync_d__13::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ed0c8c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b183dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -263,8 +262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<bool, ::Array<bool>*> (*)(::Newtonsoft::Json::StringEscapeHandling, char16_t)>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils::GetCharEscapeFlags)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ece364;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5b15af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +278,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<bool, ::Array<bool>*>)>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils::ShouldEscapeJavaScriptString)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3ece3fc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5b15bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -296,8 +295,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::IO::TextWriter*, ::StringW, char16_t, bool, ::ArrayW<bool, ::Array<bool>*>, ::Newtonsoft::Json::StringEscapeHandling, ::Newtonsoft::Json::IArrayPool_1<char16_t>*,
                          ::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>)>(&::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptString)> {
-  constexpr static std::size_t size = 0x5f4;
-  constexpr static std::size_t addrs = 0x3ece484;
+  constexpr static std::size_t size = 0x62c;
+  constexpr static std::size_t addrs = 0x5b15c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,8 +316,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, char16_t, bool, ::Newtonsoft::Json::StringEscapeHandling)>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils::ToEscapedJavaScriptString)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3eceb2c;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5b162cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -334,8 +333,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::ArrayW<bool, ::Array<bool>*>, ::Newtonsoft::Json::StringEscapeHandling)>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils::FirstCharToEscape)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3ecea78;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5b16234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,8 +352,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::StringW, char16_t, bool, ::ArrayW<bool, ::Array<bool>*>, ::Newtonsoft::Json::StringEscapeHandling,
                                                       ::Newtonsoft::Json::JsonTextWriter*, ::ArrayW<char16_t, ::Array<char16_t>*>, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptStringAsync)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3eced54;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x5b164a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -377,8 +376,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::StringW, char16_t, ::ArrayW<bool, ::Array<bool>*>, ::Newtonsoft::Json::StringEscapeHandling,
                                                       ::Newtonsoft::Json::JsonTextWriter*, ::ArrayW<char16_t, ::Array<char16_t>*>, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptStringWithDelimitersAsync)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3ecef14;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x5b1669c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -401,8 +400,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::IO::TextWriter*, ::StringW, char16_t, ::ArrayW<bool, ::Array<bool>*>,
                                                       ::Newtonsoft::Json::StringEscapeHandling, ::Newtonsoft::Json::JsonTextWriter*, ::ArrayW<char16_t, ::Array<char16_t>*>,
                                                       ::System::Threading::CancellationToken)>(&::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptStringWithDelimitersAsync)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3ecf240;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5b169cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -425,8 +424,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::Threading::Tasks::Task*, ::System::IO::TextWriter*, char16_t, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteCharAsync)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3ecf364;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5b16ae0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -444,8 +443,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::StringW, ::ArrayW<bool, ::Array<bool>*>, ::Newtonsoft::Json::StringEscapeHandling,
                                                       ::Newtonsoft::Json::JsonTextWriter*, ::ArrayW<char16_t, ::Array<char16_t>*>, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteEscapedJavaScriptStringWithoutDelimitersAsync)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3ecf11c;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x5b168a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -468,8 +467,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (*)(::System::IO::TextWriter*, ::StringW, int32_t, ::ArrayW<bool, ::Array<bool>*>, ::Newtonsoft::Json::StringEscapeHandling,
                                                       ::Newtonsoft::Json::JsonTextWriter*, ::ArrayW<char16_t, ::Array<char16_t>*>, ::System::Threading::CancellationToken)>(
         &::Newtonsoft::Json::Utilities::JavaScriptUtils::WriteDefinitelyEscapedJavaScriptStringWithoutDelimitersAsync)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3ecf450;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5b16bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -490,8 +489,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonReader*, ::ByRef<::System::DateTime>, ::ByRef<::StringW>)>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateFromConstructorJson)> {
-  constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x3ecf568;
+  constexpr static std::size_t size = 0x498;
+  constexpr static std::size_t addrs = 0x5b16cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -507,8 +506,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::Newtonsoft::Json::JsonReader*, ::ByRef<::System::Nullable_1<int64_t>>, ::ByRef<::StringW>)>(
     &::Newtonsoft::Json::Utilities::JavaScriptUtils::TryGetDateConstructorValue)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3ecf9bc;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x5b1715c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

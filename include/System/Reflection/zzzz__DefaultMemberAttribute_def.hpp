@@ -32,10 +32,10 @@ public:
 
   constexpr void __cordl_internal_set__MemberName_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d220d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5967328, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW memberName);
 
-  /// @brief Method get_MemberName, addr 0x3d220f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x5967330, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
 protected:
@@ -53,7 +53,7 @@ public:
   DefaultMemberAttribute(DefaultMemberAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3483 };
 
   /// @brief Field <MemberName>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____MemberName_k__BackingField;

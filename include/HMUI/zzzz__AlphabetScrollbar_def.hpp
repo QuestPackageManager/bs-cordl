@@ -4,15 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__Interactable_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -27,6 +19,9 @@ namespace HMUI {
 class TableView;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
@@ -36,10 +31,28 @@ namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 namespace TMPro {
 class TextMeshProUGUI;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -57,7 +70,7 @@ class AlphabetScrollbar__PointerMoveInsideCoroutine_d__18;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::AlphabetScrollbar);
 MARK_REF_PTR_T(::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.AlphabetScrollbar/<PointerMoveInsideCoroutine>d__18
@@ -89,21 +102,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39e8c2c, size 0x13c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5660900, size 0x140, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39e8d68, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5660a40, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39e8d70, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5660a48, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39e8da8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5660a80, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39e8c28, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x56608fc, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -130,7 +143,7 @@ public:
 
   constexpr void __cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value);
 
-  /// @brief Method .ctor, addr 0x39e8bdc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56608d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -157,7 +170,7 @@ public:
   AlphabetScrollbar__PointerMoveInsideCoroutine_d__18(AlphabetScrollbar__PointerMoveInsideCoroutine_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16017 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19084 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -185,8 +198,7 @@ static_assert(offsetof(::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__
 static_assert(::cordl_internals::size_check_v<::HMUI::AlphabetScrollbar__PointerMoveInsideCoroutine_d__18, 0x30>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies HMUI.Interactable, UnityEngine.Color, UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerDownHandler, UnityEngine.EventSystems.IPointerEnterHandler,
-// UnityEngine.EventSystems.IPointerExitHandler, UnityEngine.EventSystems.IPointerUpHandler
+// Dependencies HMUI.Interactable, UnityEngine.Color
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.AlphabetScrollbar
@@ -243,39 +255,39 @@ public:
   /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x39e7d80, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x565fa68, size 0x1c, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetPointerCharacterIndex, addr 0x39e86fc, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GetPointerCharacterIndex, addr 0x56603e8, size 0x2e0, virtual false, abstract: false, final false
   inline int32_t GetPointerCharacterIndex(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method InitText, addr 0x39e8028, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method InitText, addr 0x565fd24, size 0xc0, virtual false, abstract: false, final false
   inline void InitText(::TMPro::TextMeshProUGUI* text, char16_t character);
 
   static inline ::HMUI::AlphabetScrollbar* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x39e8618, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x56602f8, size 0xf0, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerEnter, addr 0x39e89d8, size 0x20, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x56606d0, size 0x20, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x39e8a64, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5660750, size 0x24, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x39e89d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x56606c8, size 0x8, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method PointerMoveInsideCoroutine, addr 0x39e89f8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method PointerMoveInsideCoroutine, addr 0x56606f0, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* PointerMoveInsideCoroutine(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method PrepareTransforms, addr 0x39e811c, size 0x4fc, virtual false, abstract: false, final false
+  /// @brief Method PrepareTransforms, addr 0x565fde4, size 0x514, virtual false, abstract: false, final false
   inline void PrepareTransforms();
 
-  /// @brief Method RefreshHighlight, addr 0x39e8a88, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method RefreshHighlight, addr 0x5660774, size 0x15c, virtual false, abstract: false, final false
   inline void RefreshHighlight();
 
-  /// @brief Method SetData, addr 0x39e7db0, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x565fa84, size 0x2a0, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::AlphabetScrollInfo_Data*>* characterScrollData);
 
   constexpr float_t const& __cordl_internal_get__characterHeight() const;
@@ -338,7 +350,7 @@ public:
 
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::List_1<::UnityW<::TMPro::TextMeshProUGUI>>* value);
 
-  /// @brief Method .ctor, addr 0x39e8c04, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56608d8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -371,7 +383,7 @@ public:
   AlphabetScrollbar(AlphabetScrollbar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19085 };
 
   /// @brief Field _tableView, offset: 0x40, size: 0x8, def value: None
   ::UnityW<::HMUI::TableView> ____tableView;

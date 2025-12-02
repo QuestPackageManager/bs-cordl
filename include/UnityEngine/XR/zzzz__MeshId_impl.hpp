@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/MeshId.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__MeshId_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::MeshId.ToString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::MeshId::*)()>(&::UnityEngine::XR::MeshId::ToString)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4aebf8c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c01ebc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::MeshId::*)()>(&::UnityEngine::XR::MeshId::GetHashCode)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4aec020;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c01f7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::MeshId::*)(::System::Object*)>(&::UnityEngine::XR::MeshId::Equals)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4aec054;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6c01f94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::MeshId::*)(::UnityEngine::XR::MeshId)>(&::UnityEngine::XR::MeshId::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4aec10c;
+  constexpr static std::size_t addrs = 0x6c02054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

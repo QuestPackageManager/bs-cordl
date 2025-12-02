@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::*)()>(
     &::Org::BouncyCastle::Asn1::TeleTrust::TeleTrusTObjectIdentifiers::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f98c4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x342959c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

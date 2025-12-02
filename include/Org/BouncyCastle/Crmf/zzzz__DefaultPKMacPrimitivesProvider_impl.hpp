@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crmf/DefaultPKMacPrimitivesProvider.hpp"
-#include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crmf/zzzz__DefaultPKMacPrimitivesProvider_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crmf/zzzz__IPKMacPrimitivesProvider_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider.CreateDigest
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (
     ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::CreateDigest)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2684c5c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b40b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (
     ::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::*)(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*)>(&::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::CreateMac)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2684cd4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x35b4134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::*)()>(
     &::Org::BouncyCastle::Crmf::DefaultPKMacPrimitivesProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2684d4c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35b41b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

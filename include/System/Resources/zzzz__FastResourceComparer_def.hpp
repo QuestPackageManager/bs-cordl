@@ -3,14 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FastResourceComparer)
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IComparer;
+}
+namespace System::Collections {
+class IEqualityComparer;
+}
 namespace System {
 class Object;
 }
@@ -20,7 +28,7 @@ class FastResourceComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Resources::FastResourceComparer);
-// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.Generic.IEqualityComparer`1<T>, System.Collections.IComparer, System.Collections.IEqualityComparer, System.Object
+// Dependencies System.Object
 namespace System::Resources {
 // Is value type: false
 // CS Name: System.Resources.FastResourceComparer
@@ -42,39 +50,39 @@ public:
   /// @brief Convert operator to "::System::Collections::IEqualityComparer"
   constexpr operator ::System::Collections::IEqualityComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x3d1cc74, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x595e704, size 0x10, virtual true, abstract: false, final true
   inline int32_t Compare(::StringW a, ::StringW b);
 
-  /// @brief Method Compare, addr 0x3d1cbd8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x595e69c, size 0x68, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method CompareOrdinal, addr 0x3d1cd30, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x595e78c, size 0x84, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::StringW a, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t bCharLength);
 
-  /// @brief Method CompareOrdinal, addr 0x3d1ce5c, size 0x90, virtual false, abstract: false, final false
-  static inline int32_t CompareOrdinal(::cordl_internals::Ptr<uint8_t> a, int32_t byteLen, ::StringW b);
+  /// @brief Method CompareOrdinal, addr 0x595e888, size 0x5c, virtual false, abstract: false, final false
+  static inline int32_t CompareOrdinal(uint8_t* a, int32_t byteLen, ::StringW b);
 
-  /// @brief Method CompareOrdinal, addr 0x3d1cde8, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method CompareOrdinal, addr 0x595e810, size 0x78, virtual false, abstract: false, final false
   static inline int32_t CompareOrdinal(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t aCharLength, ::StringW b);
 
-  /// @brief Method Equals, addr 0x3d1cc84, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x595e714, size 0x10, virtual true, abstract: false, final true
   inline bool Equals(::StringW a, ::StringW b);
 
-  /// @brief Method Equals, addr 0x3d1cc94, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x595e724, size 0x68, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* a, ::System::Object* b);
 
-  /// @brief Method GetHashCode, addr 0x3d1cb84, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x595e610, size 0x8c, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::StringW key);
 
-  /// @brief Method GetHashCode, addr 0x3d1ca8c, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x595e524, size 0xa8, virtual true, abstract: false, final true
   inline int32_t GetHashCode(::System::Object* key);
 
-  /// @brief Method HashFunction, addr 0x3d1cb18, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HashFunction, addr 0x595e5cc, size 0x44, virtual false, abstract: false, final false
   static inline int32_t HashFunction(::StringW key);
 
   static inline ::System::Resources::FastResourceComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d1ceec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595e8e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Resources::FastResourceComparer* getStaticF_Default();
@@ -108,7 +116,7 @@ public:
   FastResourceComparer(FastResourceComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/CallContextSecurityData.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallContextSecurityData_def.hpp"
 #include "System/Security/Principal/zzzz__IPrincipal_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::CallContextSecurityData.get_HasInfo
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::CallContextSecurityData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextSecurityData::get_HasInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ce6f44;
+  constexpr static std::size_t addrs = 0x59290d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::CallContextSecurityData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextSecurityData::Clone)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ce6ecc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5929064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CallContextSecurityData::*)()>(
     &::System::Runtime::Remoting::Messaging::CallContextSecurityData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7028;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59291ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

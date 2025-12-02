@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IPoolableSerializable.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__IPoolableSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IPoolableSerializable.Retain
 template <>
 

@@ -4,13 +4,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
-#include "Zenject/zzzz__IInstaller_def.hpp"
 CORDL_MODULE_EXPORT(ScriptableObjectInstallerBase)
 namespace System {
 class Object;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IInstaller;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -21,7 +23,7 @@ class ScriptableObjectInstallerBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ScriptableObjectInstallerBase);
-// Dependencies UnityEngine.ScriptableObject, Zenject.IInstaller
+// Dependencies UnityEngine.ScriptableObject
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.ScriptableObjectInstallerBase
@@ -38,12 +40,12 @@ public:
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0x4b2cb10, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6c40e7c, size 0x38, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::ScriptableObjectInstallerBase* New_ctor();
 
-  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x4b2cb08, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Zenject.IInstaller.get_IsEnabled, addr 0x6c40e74, size 0x8, virtual true, abstract: false, final true
   inline bool Zenject_IInstaller_get_IsEnabled();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -52,19 +54,19 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreate, addr 0x4b2cb48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c40eb4, size 0x58, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2ccd0, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c41030, size 0x2c4, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenFieldSetter0, addr 0x4b2cb9c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method __zenFieldSetter0, addr 0x6c40f0c, size 0x124, virtual false, abstract: false, final false
   static inline void __zenFieldSetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x4b2c8ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c40c78, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x4b2cb00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x6c40e6c, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::IInstaller"
@@ -85,7 +87,7 @@ public:
   ScriptableObjectInstallerBase(ScriptableObjectInstallerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12496 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14477 };
 
   /// @brief Field _container, offset: 0x18, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

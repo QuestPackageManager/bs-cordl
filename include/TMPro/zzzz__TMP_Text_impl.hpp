@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "TMPro/TMP_Text.hpp"
+#include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "TMPro/zzzz__ColorMode_impl.hpp"
 #include "TMPro/zzzz__Extents_impl.hpp"
@@ -13,7 +14,9 @@
 #include "TMPro/zzzz__TMP_TextProcessingStack_1_impl.hpp"
 #include "TMPro/zzzz__TextAlignmentOptions_impl.hpp"
 #include "TMPro/zzzz__TextOverflowModes_impl.hpp"
+#include "TMPro/zzzz__TextProcessingElementType_impl.hpp"
 #include "TMPro/zzzz__TextRenderFlags_impl.hpp"
+#include "TMPro/zzzz__TextWrappingModes_impl.hpp"
 #include "TMPro/zzzz__TextureMappingOptions_impl.hpp"
 #include "TMPro/zzzz__VertexGradient_impl.hpp"
 #include "TMPro/zzzz__VertexSortingOrder_impl.hpp"
@@ -23,15 +26,21 @@
 #include "UnityEngine/UI/zzzz__MaskableGraphic_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
-#include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
+#include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
+#include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__Decimal_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
+#include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__FontStyles_def.hpp"
 #include "TMPro/zzzz__FontWeight_def.hpp"
 #include "TMPro/zzzz__HorizontalAlignmentOptions_def.hpp"
@@ -54,11 +63,13 @@
 #include "TMPro/zzzz__TextAlignmentOptions_def.hpp"
 #include "TMPro/zzzz__TextOverflowModes_def.hpp"
 #include "TMPro/zzzz__TextRenderFlags_def.hpp"
+#include "TMPro/zzzz__TextWrappingModes_def.hpp"
 #include "TMPro/zzzz__TextureMappingOptions_def.hpp"
 #include "TMPro/zzzz__VertexGradient_def.hpp"
 #include "TMPro/zzzz__VertexSortingOrder_def.hpp"
 #include "TMPro/zzzz__VerticalAlignmentOptions_def.hpp"
 #include "TMPro/zzzz__WordWrapState_def.hpp"
+#include "UnityEngine/TextCore/zzzz__OTL_FeatureTag_def.hpp"
 #include "UnityEngine/UI/zzzz__LayoutElement_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
@@ -71,13 +82,106 @@
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
+//  Writing Method size for method: ::TMPro::TMP_Text_MissingCharacterEventCallback._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_MissingCharacterEventCallback::*)(::System::Object*, ::System::IntPtr)>(
+    &::TMPro::TMP_Text_MissingCharacterEventCallback::_ctor)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6784fe8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text_MissingCharacterEventCallback.Invoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_MissingCharacterEventCallback::*)(
+    int32_t, int32_t, ::StringW, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_Text*)>(&::TMPro::TMP_Text_MissingCharacterEventCallback::Invoke)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6785054;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text_MissingCharacterEventCallback.BeginInvoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
+    ::TMPro::TMP_Text_MissingCharacterEventCallback::*)(int32_t, int32_t, ::StringW, ::TMPro::TMP_FontAsset*, ::TMPro::TMP_Text*, ::System::AsyncCallback*, ::System::Object*)>(
+    &::TMPro::TMP_Text_MissingCharacterEventCallback::BeginInvoke)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6785068;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text_MissingCharacterEventCallback.EndInvoke
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_MissingCharacterEventCallback::*)(::System::IAsyncResult*)>(
+    &::TMPro::TMP_Text_MissingCharacterEventCallback::EndInvoke)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x67850f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), 15));
+    return ___internal_method;
+  }
+};
+inline void TMPro::TMP_Text_MissingCharacterEventCallback::_ctor(::System::Object* object, ::System::IntPtr method) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, object, method);
+}
+inline void TMPro::TMP_Text_MissingCharacterEventCallback::Invoke(int32_t unicode, int32_t stringIndex, ::StringW text, ::TMPro::TMP_FontAsset* fontAsset, ::TMPro::TMP_Text* textComponent) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unicode, stringIndex, text, fontAsset, textComponent);
+}
+inline ::System::IAsyncResult* TMPro::TMP_Text_MissingCharacterEventCallback::BeginInvoke(int32_t unicode, int32_t stringIndex, ::StringW text, ::TMPro::TMP_FontAsset* fontAsset,
+                                                                                          ::TMPro::TMP_Text* textComponent, ::System::AsyncCallback* callback, ::System::Object* object) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::System::IAsyncResult*, false>(this, ___internal_method, unicode, stringIndex, text, fontAsset, textComponent, callback, object);
+}
+inline void TMPro::TMP_Text_MissingCharacterEventCallback::EndInvoke(::System::IAsyncResult* result) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, result);
+}
+inline ::TMPro::TMP_Text_MissingCharacterEventCallback* TMPro::TMP_Text_MissingCharacterEventCallback::New_ctor(::System::Object* object, ::System::IntPtr method) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_Text_MissingCharacterEventCallback*>(object, method));
+}
+// Ctor Parameters []
+constexpr ::TMPro::TMP_Text_MissingCharacterEventCallback::TMP_Text_MissingCharacterEventCallback() {}
 //  Writing Method size for method: ::TMPro::TMP_Text_CharacterSubstitution._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_CharacterSubstitution::*)(int32_t, uint32_t)>(
     &::TMPro::TMP_Text_CharacterSubstitution::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4805e2c;
+  constexpr static std::size_t addrs = 0x6785100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,22 +213,23 @@ constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::T
 constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::SetText{ static_cast<int32_t>(0x1) };
 constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::SetTextArray{ static_cast<int32_t>(0x2) };
 constexpr ::TMPro::TMP_Text_TextInputSources TMPro::TMP_Text_TextInputSources::TextString{ static_cast<int32_t>(0x3) };
-// Ctor Parameters [CppParam { name: "unicode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::TMPro::TMP_Text_UnicodeChar::TMP_Text_UnicodeChar(int32_t unicode, int32_t stringIndex, int32_t length) noexcept {
+// Ctor Parameters [CppParam { name: "elementType", ty: "::TMPro::TextProcessingElementType", modifiers: "", def_value: Some("{}") }, CppParam { name: "unicode", ty: "uint32_t", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "stringIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::TMPro::TMP_Text_TextProcessingElement::TMP_Text_TextProcessingElement(::TMPro::TextProcessingElementType elementType, uint32_t unicode, int32_t stringIndex, int32_t length) noexcept {
+  this->elementType = elementType;
   this->unicode = unicode;
   this->stringIndex = stringIndex;
   this->length = length;
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_Text_UnicodeChar::TMP_Text_UnicodeChar() {}
+constexpr ::TMPro::TMP_Text_TextProcessingElement::TMP_Text_TextProcessingElement() {}
 //  Writing Method size for method: ::TMPro::TMP_Text_SpecialCharacter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_SpecialCharacter::*)(::TMPro::TMP_Character*, int32_t)>(
     &::TMPro::TMP_Text_SpecialCharacter::_ctor)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4805e34;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6785108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,12 +258,26 @@ constexpr ::TMPro::TMP_Text_SpecialCharacter::TMP_Text_SpecialCharacter(::TMPro:
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Text_SpecialCharacter::TMP_Text_SpecialCharacter() {}
+//  Writing Method size for method: ::TMPro::TMP_Text_TextBackingContainer.get_Text
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::TMPro::TMP_Text_TextBackingContainer::*)()>(
+    &::TMPro::TMP_Text_TextBackingContainer::get_Text)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6785210;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_TextBackingContainer>::get(), "get_Text",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text_TextBackingContainer.get_Capacity
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text_TextBackingContainer::*)()>(&::TMPro::TMP_Text_TextBackingContainer::get_Capacity)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4805f20;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6785218;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_TextBackingContainer>::get(), "get_Capacity",
@@ -171,7 +290,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text_TextBackingContainer::*)()>(&::TMPro::TMP_Text_TextBackingContainer::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4805f3c;
+  constexpr static std::size_t addrs = 0x6785230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_TextBackingContainer>::get(), "get_Count",
@@ -184,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_TextBackingContainer::*)(int32_t)>(&::TMPro::TMP_Text_TextBackingContainer::set_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4805f44;
+  constexpr static std::size_t addrs = 0x6785238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -198,7 +317,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_Text_TextBackingContainer::*)(int32_t)>(&::TMPro::TMP_Text_TextBackingContainer::get_Item)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4805f4c;
+  constexpr static std::size_t addrs = 0x6785240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -213,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_TextBackingContainer::*)(int32_t, uint32_t)>(
     &::TMPro::TMP_Text_TextBackingContainer::set_Item)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4805f7c;
+  constexpr static std::size_t addrs = 0x6785270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,8 +345,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_TextBackingContainer::*)(int32_t)>(&::TMPro::TMP_Text_TextBackingContainer::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4806040;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6785340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -240,8 +359,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text_TextBackingContainer::*)(int32_t)>(&::TMPro::TMP_Text_TextBackingContainer::Resize)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4805fdc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x67852d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,6 +369,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+inline ::ArrayW<uint32_t, ::Array<uint32_t>*> TMPro::TMP_Text_TextBackingContainer::get_Text() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_TextBackingContainer>::get(), "get_Text",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(this, ___internal_method);
+}
 inline int32_t TMPro::TMP_Text_TextBackingContainer::get_Capacity() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text_TextBackingContainer>::get(), "get_Capacity",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -290,11 +414,11 @@ inline void TMPro::TMP_Text_TextBackingContainer::Resize(int32_t size) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, size);
 }
-// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t,::Array<uint32_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "",
+// Ctor Parameters [CppParam { name: "m_Array", ty: "::ArrayW<uint32_t,::Array<uint32_t>*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Index", ty: "int32_t", modifiers: "",
 // def_value: Some("{}") }]
-constexpr ::TMPro::TMP_Text_TextBackingContainer::TMP_Text_TextBackingContainer(::ArrayW<uint32_t, ::Array<uint32_t>*> m_Array, int32_t m_Count) noexcept {
+constexpr ::TMPro::TMP_Text_TextBackingContainer::TMP_Text_TextBackingContainer(::ArrayW<uint32_t, ::Array<uint32_t>*> m_Array, int32_t m_Index) noexcept {
   this->m_Array = m_Array;
-  this->m_Count = m_Count;
+  this->m_Index = m_Index;
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_Text_TextBackingContainer::TMP_Text_TextBackingContainer() {}
@@ -302,8 +426,8 @@ constexpr ::TMPro::TMP_Text_TextBackingContainer::TMP_Text_TextBackingContainer(
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text___c::*)()>(&::TMPro::TMP_Text___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48060fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x67853f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get(), ".ctor",
@@ -311,16 +435,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_Text___c.__ctor_b__622_0
+//  Writing Method size for method: ::TMPro::TMP_Text___c.__ctor_b__645_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text___c::*)(::TMPro::TMP_TextInfo*)>(&::TMPro::TMP_Text___c::__ctor_b__622_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text___c::*)(::TMPro::TMP_TextInfo*)>(&::TMPro::TMP_Text___c::__ctor_b__645_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4806104;
+  constexpr static std::size_t addrs = 0x67853fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get(), "<.ctor>b__622_0", std::span<Il2CppClass const* const, 0>(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get(), "<.ctor>b__645_0", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_TextInfo*>::get() })));
     return ___internal_method;
   }
@@ -331,21 +455,21 @@ inline void TMPro::TMP_Text___c::setStaticF___9(::TMPro::TMP_Text___c* value) {
 inline ::TMPro::TMP_Text___c* TMPro::TMP_Text___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::TMPro::TMP_Text___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get>();
 }
-inline void TMPro::TMP_Text___c::setStaticF___9__622_0(::System::Action_1<::TMPro::TMP_TextInfo*>* value) {
-  ::cordl_internals::setStaticField<::System::Action_1<::TMPro::TMP_TextInfo*>*, "<>9__622_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get>(
+inline void TMPro::TMP_Text___c::setStaticF___9__645_0(::System::Action_1<::TMPro::TMP_TextInfo*>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<::TMPro::TMP_TextInfo*>*, "<>9__645_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get>(
       std::forward<::System::Action_1<::TMPro::TMP_TextInfo*>*>(value));
 }
-inline ::System::Action_1<::TMPro::TMP_TextInfo*>* TMPro::TMP_Text___c::getStaticF___9__622_0() {
-  return ::cordl_internals::getStaticField<::System::Action_1<::TMPro::TMP_TextInfo*>*, "<>9__622_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get>();
+inline ::System::Action_1<::TMPro::TMP_TextInfo*>* TMPro::TMP_Text___c::getStaticF___9__645_0() {
+  return ::cordl_internals::getStaticField<::System::Action_1<::TMPro::TMP_TextInfo*>*, "<>9__645_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get>();
 }
 inline void TMPro::TMP_Text___c::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void TMPro::TMP_Text___c::__ctor_b__622_0(::TMPro::TMP_TextInfo* _p0_) {
+inline void TMPro::TMP_Text___c::__ctor_b__645_0(::TMPro::TMP_TextInfo* _p0_) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get(), "<.ctor>b__622_0", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text___c*>::get(), "<.ctor>b__645_0", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_TextInfo*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _p0_);
 }
@@ -359,7 +483,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_text)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e1364;
+  constexpr static std::size_t addrs = 0x674cac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,8 +496,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW)>(&::TMPro::TMP_Text::set_text)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x47e144c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x674cb9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,7 +511,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::ITextPreprocessor* (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_textPreprocessor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e14e4;
+  constexpr static std::size_t addrs = 0x674cc30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_textPreprocessor",
@@ -400,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::ITextPreprocessor*)>(&::TMPro::TMP_Text::set_textPreprocessor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e14ec;
+  constexpr static std::size_t addrs = 0x674cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -414,7 +538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isRightToLeftText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e14f4;
+  constexpr static std::size_t addrs = 0x674cc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isRightToLeftText",
@@ -426,8 +550,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_isRightToLeftText)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e14fc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674cc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -441,7 +565,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_font)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1550;
+  constexpr static std::size_t addrs = 0x674cc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_font",
@@ -453,8 +577,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_Text::set_font)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47e1558;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x674cca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -468,7 +592,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontSharedMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1620;
+  constexpr static std::size_t addrs = 0x674cd6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -481,8 +605,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(&::TMPro::TMP_Text::set_fontSharedMaterial)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47e1628;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x674cd74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -497,7 +621,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> (::TMPro::TMP_Text::*)()>(
     &::TMPro::TMP_Text::get_fontSharedMaterials)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47e16f0;
+  constexpr static std::size_t addrs = 0x674ce40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -512,7 +636,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(
     &::TMPro::TMP_Text::set_fontSharedMaterials)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47e1700;
+  constexpr static std::size_t addrs = 0x674ce50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -526,7 +650,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontMaterial)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e174c;
+  constexpr static std::size_t addrs = 0x674ce9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontMaterial",
@@ -538,8 +662,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(&::TMPro::TMP_Text::set_fontMaterial)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x47e1760;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x674ceb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -554,7 +678,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> (::TMPro::TMP_Text::*)()>(
     &::TMPro::TMP_Text::get_fontMaterials)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e185c;
+  constexpr static std::size_t addrs = 0x674cfb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -569,7 +693,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(
     &::TMPro::TMP_Text::set_fontMaterials)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47e1870;
+  constexpr static std::size_t addrs = 0x674cfc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -583,7 +707,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_color)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e18bc;
+  constexpr static std::size_t addrs = 0x674d010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -597,7 +721,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color)>(&::TMPro::TMP_Text::set_color)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x47e18d0;
+  constexpr static std::size_t addrs = 0x674d024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -611,7 +735,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_alpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1948;
+  constexpr static std::size_t addrs = 0x674d09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_alpha",
@@ -624,7 +748,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_alpha)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e1950;
+  constexpr static std::size_t addrs = 0x674d0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -638,7 +762,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_enableVertexGradient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e197c;
+  constexpr static std::size_t addrs = 0x674d0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_enableVertexGradient",
@@ -651,7 +775,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_enableVertexGradient)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47e1984;
+  constexpr static std::size_t addrs = 0x674d0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -665,7 +789,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::VertexGradient (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_colorGradient)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e19b4;
+  constexpr static std::size_t addrs = 0x674d108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_colorGradient",
@@ -678,7 +802,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::VertexGradient)>(&::TMPro::TMP_Text::set_colorGradient)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e19cc;
+  constexpr static std::size_t addrs = 0x674d120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -692,7 +816,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_ColorGradient> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_colorGradientPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e19f8;
+  constexpr static std::size_t addrs = 0x674d14c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_colorGradientPreset",
@@ -704,8 +828,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_ColorGradient*)>(&::TMPro::TMP_Text::set_colorGradientPreset)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47e1a00;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x674d154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -719,7 +843,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAsset> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_spriteAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1a1c;
+  constexpr static std::size_t addrs = 0x674d174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_spriteAsset",
@@ -732,7 +856,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_SpriteAsset*)>(&::TMPro::TMP_Text::set_spriteAsset)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47e1a24;
+  constexpr static std::size_t addrs = 0x674d17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -746,7 +870,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_tintAllSprites)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1a60;
+  constexpr static std::size_t addrs = 0x674d1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_tintAllSprites",
@@ -759,7 +883,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_tintAllSprites)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47e1a68;
+  constexpr static std::size_t addrs = 0x674d1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -773,7 +897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_StyleSheet> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_styleSheet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1a98;
+  constexpr static std::size_t addrs = 0x674d1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_styleSheet",
@@ -786,7 +910,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_StyleSheet*)>(&::TMPro::TMP_Text::set_styleSheet)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47e1aa0;
+  constexpr static std::size_t addrs = 0x674d1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -800,7 +924,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_textStyle)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47e1adc;
+  constexpr static std::size_t addrs = 0x674d234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_textStyle",
@@ -813,7 +937,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_Style*)>(&::TMPro::TMP_Text::set_textStyle)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47e1c04;
+  constexpr static std::size_t addrs = 0x674d398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -827,7 +951,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_overrideColorTags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1c50;
+  constexpr static std::size_t addrs = 0x674d3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_overrideColorTags",
@@ -840,7 +964,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_overrideColorTags)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47e1c58;
+  constexpr static std::size_t addrs = 0x674d3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -854,7 +978,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_faceColor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47e1c88;
+  constexpr static std::size_t addrs = 0x674d41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_faceColor",
@@ -866,8 +990,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color32)>(&::TMPro::TMP_Text::set_faceColor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47e1d50;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x674d4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -881,7 +1005,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_outlineColor)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x47e1dd8;
+  constexpr static std::size_t addrs = 0x674d55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_outlineColor",
@@ -893,8 +1017,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color32)>(&::TMPro::TMP_Text::set_outlineColor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47e1ea0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x674d624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -907,8 +1031,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_outlineWidth)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47e1f14;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x674d688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_outlineWidth",
@@ -920,8 +1044,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_outlineWidth)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47e1fd0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x674d748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -935,7 +1059,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2030;
+  constexpr static std::size_t addrs = 0x674d7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontSize",
@@ -947,8 +1071,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_fontSize)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47e2038;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x674d7a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -962,7 +1086,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::FontWeight (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontWeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2098;
+  constexpr static std::size_t addrs = 0x674d804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontWeight",
@@ -974,8 +1098,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::FontWeight)>(&::TMPro::TMP_Text::set_fontWeight)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e20a0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674d80c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -988,8 +1112,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_pixelsPerUnit)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x47e20f0;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x674d858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_pixelsPerUnit",
@@ -1002,7 +1126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_enableAutoSizing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2260;
+  constexpr static std::size_t addrs = 0x674d97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_enableAutoSizing",
@@ -1014,8 +1138,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_enableAutoSizing)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47e2268;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x674d984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1029,7 +1153,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontSizeMin)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e22b4;
+  constexpr static std::size_t addrs = 0x674d9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontSizeMin",
@@ -1041,8 +1165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_fontSizeMin)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47e22bc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x674d9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1056,7 +1180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontSizeMax)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2304;
+  constexpr static std::size_t addrs = 0x674da18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontSizeMax",
@@ -1068,8 +1192,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_fontSizeMax)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47e230c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x674da20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1083,7 +1207,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::FontStyles (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_fontStyle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2354;
+  constexpr static std::size_t addrs = 0x674da64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontStyle",
@@ -1095,8 +1219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::FontStyles)>(&::TMPro::TMP_Text::set_fontStyle)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e235c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674da6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1110,7 +1234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isUsingBold)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e23ac;
+  constexpr static std::size_t addrs = 0x674dab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isUsingBold",
@@ -1123,7 +1247,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::HorizontalAlignmentOptions (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_horizontalAlignment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e23b4;
+  constexpr static std::size_t addrs = 0x674dac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_horizontalAlignment",
@@ -1135,8 +1259,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::HorizontalAlignmentOptions)>(&::TMPro::TMP_Text::set_horizontalAlignment)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e23bc;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674dac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1150,7 +1274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::VerticalAlignmentOptions (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_verticalAlignment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e23e8;
+  constexpr static std::size_t addrs = 0x674daf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_verticalAlignment",
@@ -1162,8 +1286,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::VerticalAlignmentOptions)>(&::TMPro::TMP_Text::set_verticalAlignment)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e23f0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674db00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1177,7 +1301,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextAlignmentOptions (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_alignment)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47e241c;
+  constexpr static std::size_t addrs = 0x674db30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_alignment",
@@ -1190,7 +1314,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TextAlignmentOptions)>(&::TMPro::TMP_Text::set_alignment)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47e242c;
+  constexpr static std::size_t addrs = 0x674db40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1204,7 +1328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_characterSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2470;
+  constexpr static std::size_t addrs = 0x674db84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_characterSpacing",
@@ -1216,8 +1340,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_characterSpacing)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e2478;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674db8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1231,7 +1355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_wordSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e24c8;
+  constexpr static std::size_t addrs = 0x674dbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_wordSpacing",
@@ -1243,8 +1367,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_wordSpacing)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e24d0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674dbe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1258,7 +1382,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_lineSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2520;
+  constexpr static std::size_t addrs = 0x674dc2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_lineSpacing",
@@ -1270,8 +1394,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_lineSpacing)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e2528;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674dc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1285,7 +1409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_lineSpacingAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2578;
+  constexpr static std::size_t addrs = 0x674dc80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_lineSpacingAdjustment",
@@ -1297,8 +1421,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_lineSpacingAdjustment)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e2580;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674dc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1312,7 +1436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_paragraphSpacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e25d0;
+  constexpr static std::size_t addrs = 0x674dcd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_paragraphSpacing",
@@ -1324,8 +1448,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_paragraphSpacing)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e25d8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674dcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1339,7 +1463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_characterWidthAdjustment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2628;
+  constexpr static std::size_t addrs = 0x674dd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_characterWidthAdjustment",
@@ -1351,8 +1475,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_characterWidthAdjustment)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e2630;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674dd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1361,12 +1485,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.get_textWrappingMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextWrappingModes (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_textWrappingMode)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674dd7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_textWrappingMode",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.set_textWrappingMode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TextWrappingModes)>(&::TMPro::TMP_Text::set_textWrappingMode)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674dd84;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_textWrappingMode", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TextWrappingModes>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.get_enableWordWrapping
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_enableWordWrapping)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2680;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x674ddd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_enableWordWrapping",
@@ -1378,8 +1529,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_enableWordWrapping)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e2688;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674dde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1393,7 +1544,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_wordWrappingRatios)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e26dc;
+  constexpr static std::size_t addrs = 0x674de38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_wordWrappingRatios",
@@ -1405,8 +1556,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_wordWrappingRatios)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e26e4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674de40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1420,7 +1571,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextOverflowModes (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_overflowMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2734;
+  constexpr static std::size_t addrs = 0x674de8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_overflowMode",
@@ -1432,8 +1583,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TextOverflowModes)>(&::TMPro::TMP_Text::set_overflowMode)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47e273c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x674de94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1447,7 +1598,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isTextOverflowing)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47e278c;
+  constexpr static std::size_t addrs = 0x674dee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isTextOverflowing",
@@ -1460,7 +1611,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_firstOverflowCharacterIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e279c;
+  constexpr static std::size_t addrs = 0x674def0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_firstOverflowCharacterIndex",
@@ -1473,7 +1624,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_linkedTextComponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e27a4;
+  constexpr static std::size_t addrs = 0x674def8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_linkedTextComponent",
@@ -1485,8 +1636,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Text::set_linkedTextComponent)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x47e27ac;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x674df00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1500,7 +1651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isTextTruncated)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2a90;
+  constexpr static std::size_t addrs = 0x674e1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isTextTruncated",
@@ -1512,8 +1663,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_enableKerning)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2a98;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x674e1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_enableKerning",
@@ -1525,8 +1676,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_enableKerning)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e2aa0;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x674e244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1535,12 +1686,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.get_fontFeatures
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* (::TMPro::TMP_Text::*)()>(
+    &::TMPro::TMP_Text::get_fontFeatures)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674e3b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontFeatures",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.set_fontFeatures
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>*)>(
+    &::TMPro::TMP_Text::set_fontFeatures)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x674e3bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_fontFeatures", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.get_extraPadding
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_extraPadding)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2af4;
+  constexpr static std::size_t addrs = 0x674e404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_extraPadding",
@@ -1552,8 +1732,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_extraPadding)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e2afc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674e40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1567,7 +1747,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_richText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2b50;
+  constexpr static std::size_t addrs = 0x674e45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_richText",
@@ -1579,8 +1759,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_richText)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e2b58;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674e464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1589,12 +1769,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.get_emojiFallbackSupport
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_emojiFallbackSupport)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674e4b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_emojiFallbackSupport",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.set_emojiFallbackSupport
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_emojiFallbackSupport)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674e4bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_emojiFallbackSupport",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.get_parseCtrlCharacters
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_parseCtrlCharacters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2bac;
+  constexpr static std::size_t addrs = 0x674e50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_parseCtrlCharacters",
@@ -1606,8 +1813,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_parseCtrlCharacters)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e2bb4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674e514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1621,7 +1828,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2c08;
+  constexpr static std::size_t addrs = 0x674e564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isOverlay",
@@ -1633,8 +1840,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_isOverlay)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e2c10;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x674e56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1648,7 +1855,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isOrthographic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2c64;
+  constexpr static std::size_t addrs = 0x674e5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isOrthographic",
@@ -1661,7 +1868,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_isOrthographic)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47e2c6c;
+  constexpr static std::size_t addrs = 0x674e5c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1675,7 +1882,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_enableCulling)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2c9c;
+  constexpr static std::size_t addrs = 0x674e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_enableCulling",
@@ -1688,7 +1895,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_enableCulling)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47e2ca4;
+  constexpr static std::size_t addrs = 0x674e5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1702,7 +1909,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_ignoreVisibility)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2ce0;
+  constexpr static std::size_t addrs = 0x674e638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_ignoreVisibility",
@@ -1715,7 +1922,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_ignoreVisibility)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47e2ce8;
+  constexpr static std::size_t addrs = 0x674e640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1729,7 +1936,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextureMappingOptions (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_horizontalMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2d08;
+  constexpr static std::size_t addrs = 0x674e660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_horizontalMapping",
@@ -1741,8 +1948,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TextureMappingOptions)>(&::TMPro::TMP_Text::set_horizontalMapping)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2d10;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1756,7 +1963,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextureMappingOptions (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_verticalMapping)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2d3c;
+  constexpr static std::size_t addrs = 0x674e698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_verticalMapping",
@@ -1768,8 +1975,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TextureMappingOptions)>(&::TMPro::TMP_Text::set_verticalMapping)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2d44;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1783,7 +1990,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_mappingUvLineOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2d70;
+  constexpr static std::size_t addrs = 0x674e6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_mappingUvLineOffset",
@@ -1796,7 +2003,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::set_mappingUvLineOffset)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2d78;
+  constexpr static std::size_t addrs = 0x674e6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1810,7 +2017,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TextRenderFlags (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_renderMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2da4;
+  constexpr static std::size_t addrs = 0x674e704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_renderMode",
@@ -1823,7 +2030,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TextRenderFlags)>(&::TMPro::TMP_Text::set_renderMode)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47e2dac;
+  constexpr static std::size_t addrs = 0x674e70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1837,7 +2044,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::VertexSortingOrder (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_geometrySortingOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2dc8;
+  constexpr static std::size_t addrs = 0x674e728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_geometrySortingOrder",
@@ -1849,8 +2056,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::VertexSortingOrder)>(&::TMPro::TMP_Text::set_geometrySortingOrder)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47e2dd0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x674e730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1864,7 +2071,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isTextObjectScaleStatic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2dec;
+  constexpr static std::size_t addrs = 0x674e750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isTextObjectScaleStatic",
@@ -1876,8 +2083,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_isTextObjectScaleStatic)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47e2df4;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x674e758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1891,7 +2098,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_vertexBufferAutoSizeReduction)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2e74;
+  constexpr static std::size_t addrs = 0x674e7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_vertexBufferAutoSizeReduction",
@@ -1904,7 +2111,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_vertexBufferAutoSizeReduction)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47e2e7c;
+  constexpr static std::size_t addrs = 0x674e7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1918,7 +2125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_firstVisibleCharacter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2e9c;
+  constexpr static std::size_t addrs = 0x674e814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_firstVisibleCharacter",
@@ -1930,8 +2137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::set_firstVisibleCharacter)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2ea4;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e81c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1945,7 +2152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_maxVisibleCharacters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2ed0;
+  constexpr static std::size_t addrs = 0x674e84c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_maxVisibleCharacters",
@@ -1957,8 +2164,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::set_maxVisibleCharacters)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2ed8;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e854;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1972,7 +2179,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_maxVisibleWords)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2f04;
+  constexpr static std::size_t addrs = 0x674e884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_maxVisibleWords",
@@ -1984,8 +2191,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::set_maxVisibleWords)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2f0c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1999,7 +2206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_maxVisibleLines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2f38;
+  constexpr static std::size_t addrs = 0x674e8bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_maxVisibleLines",
@@ -2011,8 +2218,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::set_maxVisibleLines)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2f40;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e8c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2026,7 +2233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_useMaxVisibleDescender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2f6c;
+  constexpr static std::size_t addrs = 0x674e8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_useMaxVisibleDescender",
@@ -2039,7 +2246,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_useMaxVisibleDescender)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x47e2f74;
+  constexpr static std::size_t addrs = 0x674e8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2053,7 +2260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_pageToDisplay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e2fa4;
+  constexpr static std::size_t addrs = 0x674e92c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_pageToDisplay",
@@ -2065,8 +2272,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::set_pageToDisplay)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e2fac;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674e934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2080,7 +2287,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_margin)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e2fd8;
+  constexpr static std::size_t addrs = 0x674e964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2093,8 +2300,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Vector4)>(&::TMPro::TMP_Text::set_margin)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x47e2fec;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x674e978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2107,8 +2314,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_TextInfo* (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_textInfo)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3088;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x674ea10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_textInfo",
@@ -2121,7 +2328,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_havePropertiesChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3090;
+  constexpr static std::size_t addrs = 0x674ea7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_havePropertiesChanged",
@@ -2134,7 +2341,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_havePropertiesChanged)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47e3098;
+  constexpr static std::size_t addrs = 0x674ea84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2148,7 +2355,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isUsingLegacyAnimationComponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e30c0;
+  constexpr static std::size_t addrs = 0x674eaac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isUsingLegacyAnimationComponent",
@@ -2160,8 +2367,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_isUsingLegacyAnimationComponent)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47e30c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674eab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2174,8 +2381,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_transform)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47e30d4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x674eabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_transform",
@@ -2187,8 +2394,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_rectTransform)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47e3168;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x674eb58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_rectTransform",
@@ -2201,7 +2408,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_autoSizeTextContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e31fc;
+  constexpr static std::size_t addrs = 0x674ebf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2214,8 +2421,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_autoSizeTextContainer)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47e3204;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674ebfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2229,7 +2436,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3210;
+  constexpr static std::size_t addrs = 0x674ec04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2243,7 +2450,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_isVolumetricText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3218;
+  constexpr static std::size_t addrs = 0x674ec0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_isVolumetricText",
@@ -2256,7 +2463,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::set_isVolumetricText)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x47e3220;
+  constexpr static std::size_t addrs = 0x674ec14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2269,8 +2476,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_bounds)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47e3288;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x674ec7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_bounds",
@@ -2283,7 +2490,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_textBounds)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47e3338;
+  constexpr static std::size_t addrs = 0x674ed30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_textBounds",
@@ -2296,8 +2503,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>*)>(
     &::TMPro::TMP_Text::add_OnFontAssetRequest)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x47e3528;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x674eee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2311,8 +2518,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_FontAsset>>*)>(
     &::TMPro::TMP_Text::remove_OnFontAssetRequest)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x47e361c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x674efec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2326,8 +2533,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>*)>(
     &::TMPro::TMP_Text::add_OnSpriteAssetRequest)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x47e3710;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x674f0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2341,8 +2548,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>*)>(
     &::TMPro::TMP_Text::remove_OnSpriteAssetRequest)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x47e3804;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x674f1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2351,12 +2558,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.add_OnMissingCharacter
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text_MissingCharacterEventCallback*)>(&::TMPro::TMP_Text::add_OnMissingCharacter)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x674f304;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "add_OnMissingCharacter", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.remove_OnMissingCharacter
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text_MissingCharacterEventCallback*)>(&::TMPro::TMP_Text::remove_OnMissingCharacter)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x674f3f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "remove_OnMissingCharacter", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.add_OnPreRenderText
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::System::Action_1<::TMPro::TMP_TextInfo*>*)>(&::TMPro::TMP_Text::add_OnPreRenderText)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47e38f8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x674f4e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2370,8 +2605,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::System::Action_1<::TMPro::TMP_TextInfo*>*)>(
     &::TMPro::TMP_Text::remove_OnPreRenderText)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47e39ac;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x674f5a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2384,8 +2619,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_SpriteAnimator> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_spriteAnimator)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x47e3a60;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x674f664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_spriteAnimator",
@@ -2398,7 +2633,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_flexibleHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3b4c;
+  constexpr static std::size_t addrs = 0x674f760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_flexibleHeight",
@@ -2411,7 +2646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_flexibleWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3b54;
+  constexpr static std::size_t addrs = 0x674f768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_flexibleWidth",
@@ -2424,7 +2659,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_minWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3b5c;
+  constexpr static std::size_t addrs = 0x674f770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_minWidth",
@@ -2437,7 +2672,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_minHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3b64;
+  constexpr static std::size_t addrs = 0x674f778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_minHeight",
@@ -2450,7 +2685,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_maxWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3b6c;
+  constexpr static std::size_t addrs = 0x674f780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_maxWidth",
@@ -2463,7 +2698,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_maxHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3b74;
+  constexpr static std::size_t addrs = 0x674f788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_maxHeight",
@@ -2475,8 +2710,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::LayoutElement> (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_layoutElement)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47e3b7c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x674f790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_layoutElement",
@@ -2489,7 +2724,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_preferredWidth)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e3c10;
+  constexpr static std::size_t addrs = 0x674f82c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2503,7 +2738,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_preferredHeight)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e3d64;
+  constexpr static std::size_t addrs = 0x674f9bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2517,7 +2752,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_renderedWidth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e3ef4;
+  constexpr static std::size_t addrs = 0x674fb7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2531,7 +2766,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_renderedHeight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e3f3c;
+  constexpr static std::size_t addrs = 0x674fbc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2545,7 +2780,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::get_layoutPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3f84;
+  constexpr static std::size_t addrs = 0x674fc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_layoutPriority",
@@ -2558,7 +2793,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::LoadFontAsset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e3f8c;
+  constexpr static std::size_t addrs = 0x674fc14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2572,7 +2807,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(&::TMPro::TMP_Text::SetSharedMaterial)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e3f90;
+  constexpr static std::size_t addrs = 0x674fc18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2587,7 +2822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(
     &::TMPro::TMP_Text::GetMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3f94;
+  constexpr static std::size_t addrs = 0x674fc1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2601,7 +2836,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(&::TMPro::TMP_Text::SetFontBaseMaterial)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e3f9c;
+  constexpr static std::size_t addrs = 0x674fc24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2616,7 +2851,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> (::TMPro::TMP_Text::*)()>(
     &::TMPro::TMP_Text::GetSharedMaterials)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3fa0;
+  constexpr static std::size_t addrs = 0x674fc28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2631,7 +2866,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(
     &::TMPro::TMP_Text::SetSharedMaterials)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e3fa8;
+  constexpr static std::size_t addrs = 0x674fc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2646,7 +2881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::Material>, ::Array<::UnityW<::UnityEngine::Material>>*> (::TMPro::TMP_Text::*)(
     ::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*>)>(&::TMPro::TMP_Text::GetMaterials)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e3fac;
+  constexpr static std::size_t addrs = 0x674fc34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2660,8 +2895,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(
     &::TMPro::TMP_Text::CreateMaterialInstance)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47e3fb4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x674fc3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2674,8 +2909,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_ColorGradient*)>(&::TMPro::TMP_Text::SetVertexColorGradient)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47e4074;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x674fcf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2689,7 +2924,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::VertexSortingOrder)>(&::TMPro::TMP_Text::SetTextSortingOrder)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4130;
+  constexpr static std::size_t addrs = 0x674fdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2703,7 +2938,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<int32_t, ::Array<int32_t>*>)>(&::TMPro::TMP_Text::SetTextSortingOrder)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4134;
+  constexpr static std::size_t addrs = 0x674fdb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2717,7 +2952,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color32)>(&::TMPro::TMP_Text::SetFaceColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4138;
+  constexpr static std::size_t addrs = 0x674fdbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2731,7 +2966,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color32)>(&::TMPro::TMP_Text::SetOutlineColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e413c;
+  constexpr static std::size_t addrs = 0x674fdc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2745,7 +2980,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t)>(&::TMPro::TMP_Text::SetOutlineThickness)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4140;
+  constexpr static std::size_t addrs = 0x674fdc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2759,7 +2994,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::SetShaderDepth)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4144;
+  constexpr static std::size_t addrs = 0x674fdc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2773,7 +3008,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::SetCulling)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4148;
+  constexpr static std::size_t addrs = 0x674fdcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2787,7 +3022,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::UpdateCulling)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e414c;
+  constexpr static std::size_t addrs = 0x674fdd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2800,8 +3035,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetPaddingForMaterial)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x47e4150;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x674fdd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2814,8 +3049,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(::UnityEngine::Material*)>(&::TMPro::TMP_Text::GetPaddingForMaterial)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x47e4270;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x674fefc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2830,7 +3065,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (::TMPro::TMP_Text::*)()>(
     &::TMPro::TMP_Text::GetTextContainerLocalCorners)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e4370;
+  constexpr static std::size_t addrs = 0x6750004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2844,7 +3079,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool, bool)>(&::TMPro::TMP_Text::ForceMeshUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4378;
+  constexpr static std::size_t addrs = 0x675000c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2858,7 +3093,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Mesh*, int32_t)>(&::TMPro::TMP_Text::UpdateGeometry)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e437c;
+  constexpr static std::size_t addrs = 0x6750010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2872,7 +3107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_VertexDataUpdateFlags)>(&::TMPro::TMP_Text::UpdateVertexData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4380;
+  constexpr static std::size_t addrs = 0x6750014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2886,7 +3121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::UpdateVertexData)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4384;
+  constexpr static std::size_t addrs = 0x6750018;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2901,7 +3136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>)>(
     &::TMPro::TMP_Text::SetVertices)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4388;
+  constexpr static std::size_t addrs = 0x675001c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2915,7 +3150,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::UpdateMeshPadding)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e438c;
+  constexpr static std::size_t addrs = 0x6750020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2928,8 +3163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color, float_t, bool, bool)>(&::TMPro::TMP_Text::CrossFadeColor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47e4390;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6750024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2942,8 +3177,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t, float_t, bool)>(&::TMPro::TMP_Text::CrossFadeAlpha)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e4418;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x67500b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2957,7 +3192,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color, float_t, bool, bool)>(&::TMPro::TMP_Text::InternalCrossFadeColor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e446c;
+  constexpr static std::size_t addrs = 0x6750100;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2971,7 +3206,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t, float_t, bool)>(&::TMPro::TMP_Text::InternalCrossFadeAlpha)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e4470;
+  constexpr static std::size_t addrs = 0x6750104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2984,8 +3219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::ParseInputText)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x47e4474;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6750108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ParseInputText",
@@ -2998,7 +3233,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW)>(&::TMPro::TMP_Text::PopulateTextBackingArray)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e458c;
+  constexpr static std::size_t addrs = 0x675020c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3011,8 +3246,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, int32_t, int32_t)>(&::TMPro::TMP_Text::PopulateTextBackingArray)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x47e5014;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6750c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3027,8 +3262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::System::Text::StringBuilder*, int32_t, int32_t)>(
     &::TMPro::TMP_Text::PopulateTextBackingArray)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x47e510c;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6750d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3043,8 +3278,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::TMPro::TMP_Text::PopulateTextBackingArray)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x47e5234;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6750e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3058,8 +3293,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::PopulateTextProcessingArray)> {
-  constexpr static std::size_t size = 0xa70;
-  constexpr static std::size_t addrs = 0x47e45a4;
+  constexpr static std::size_t size = 0xa18;
+  constexpr static std::size_t addrs = 0x6750224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "PopulateTextProcessingArray",
@@ -3072,7 +3307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW)>(&::TMPro::TMP_Text::SetTextInternal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47e65c8;
+  constexpr static std::size_t addrs = 0x675181c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3084,9 +3319,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.SetText
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW)>(&::TMPro::TMP_Text::SetText)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6751868;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "SetText", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.SetText
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, bool)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47e6614;
+  constexpr static std::size_t addrs = 0x67518e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3100,7 +3349,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47e6690;
+  constexpr static std::size_t addrs = 0x6751960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3114,7 +3363,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47e6970;
+  constexpr static std::size_t addrs = 0x6751cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3129,7 +3378,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t, float_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e698c;
+  constexpr static std::size_t addrs = 0x6751ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3144,7 +3393,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t, float_t, float_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47e69a4;
+  constexpr static std::size_t addrs = 0x6751cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3160,7 +3409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t, float_t, float_t, float_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47e69b8;
+  constexpr static std::size_t addrs = 0x6751d10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3177,7 +3426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47e69c8;
+  constexpr static std::size_t addrs = 0x6751d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3195,7 +3444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e69d4;
+  constexpr static std::size_t addrs = 0x6751d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3212,8 +3461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::StringW, float_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t)>(
     &::TMPro::TMP_Text::SetText)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x47e66b0;
+  constexpr static std::size_t size = 0x348;
+  constexpr static std::size_t addrs = 0x6751980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3230,8 +3479,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::System::Text::StringBuilder*)>(&::TMPro::TMP_Text::SetText)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47e6cb8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6752014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3245,7 +3494,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::System::Text::StringBuilder*, int32_t, int32_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47e6cfc;
+  constexpr static std::size_t addrs = 0x6752030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3260,7 +3509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e6d58;
+  constexpr static std::size_t addrs = 0x675208c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3274,7 +3523,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::TMPro::TMP_Text::SetText)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e6dcc;
+  constexpr static std::size_t addrs = 0x6752100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3289,7 +3538,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(&::TMPro::TMP_Text::SetCharArray)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47e6dd0;
+  constexpr static std::size_t addrs = 0x6752104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3304,7 +3553,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::TMPro::TMP_Text::SetCharArray)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47e6d70;
+  constexpr static std::size_t addrs = 0x67520a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3318,8 +3567,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::GetStyle)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x47e1b14;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x674d26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3328,22 +3577,59 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_Text.ReplaceOpeningStyleTag
+//  Writing Method size for method: ::TMPro::TMP_Text.InsertOpeningTextStyle
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(
-    ::ByRef<::TMPro::TMP_Text_TextBackingContainer>, int32_t, ::ByRef<int32_t>, ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>, ::ByRef<int32_t>)>(
-    &::TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
-  constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x47e59fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_Style*, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>, ::ByRef<int32_t>)>(
+        &::TMPro::TMP_Text::InsertOpeningTextStyle)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6751424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_Text_TextBackingContainer>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertOpeningTextStyle", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.InsertClosingTextStyle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_Style*, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>, ::ByRef<int32_t>)>(
+        &::TMPro::TMP_Text::InsertClosingTextStyle)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x67515f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertClosingTextStyle", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.InsertTextStyleInTextProcessingArray
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(
+    ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>, ::ByRef<int32_t>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
+    &::TMPro::TMP_Text::InsertTextStyleInTextProcessingArray)> {
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x675211c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertTextStyleInTextProcessingArray", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -3351,18 +3637,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(
-    ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, ::ByRef<int32_t>, ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>, ::ByRef<int32_t>)>(
-    &::TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
-  constexpr static std::size_t size = 0x41c;
-  constexpr static std::size_t addrs = 0x47e7200;
+    ::ByRef<::TMPro::TMP_Text_TextBackingContainer>, int32_t, ::ByRef<int32_t>, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>,
+    ::ByRef<int32_t>)>(&::TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x67514e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_Text_TextBackingContainer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_Text.ReplaceOpeningStyleTag
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(
+    ::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>, int32_t, ::ByRef<int32_t>, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>,
+    ::ByRef<int32_t>)>(&::TMPro::TMP_Text::ReplaceOpeningStyleTag)> {
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6752814;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -3370,85 +3677,66 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(
-    ::ByRef<::TMPro::TMP_Text_TextBackingContainer>, int32_t, ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>, ::ByRef<int32_t>)>(
-    &::TMPro::TMP_Text::ReplaceClosingStyleTag)> {
-  constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x47e5e18;
+    ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::ReplaceClosingStyleTag)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x67516b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceClosingStyleTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_Text_TextBackingContainer>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_Text.ReplaceClosingStyleTag
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(
-    ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>, ::ByRef<int32_t>)>(
-    &::TMPro::TMP_Text::ReplaceClosingStyleTag)> {
-  constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x47e761c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceClosingStyleTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_Text.InsertOpeningStyleTag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(
-    ::TMPro::TMP_Style*, int32_t, ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::InsertOpeningStyleTag)> {
-  constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x47e5348;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(
+    ::TMPro::TMP_Style*, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::InsertOpeningStyleTag)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6750f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_Text.InsertClosingStyleTag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::TMPro::TMP_Text::*)(::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::InsertClosingStyleTag)> {
-  constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x47e6204;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(
+    ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::InsertClosingStyleTag)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x675177c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertClosingStyleTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::TMPro::TMP_Text.GetMarkupTagHashCode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::TMPro::TMP_Text::GetMarkupTagHashCode)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x47e70e4;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x675270c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetMarkupTagHashCode", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -3458,8 +3746,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(
     &::TMPro::TMP_Text::GetMarkupTagHashCode)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x47e58f0;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6751328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3472,15 +3760,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.GetStyleHashCode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, int32_t, ::ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>, int32_t, ::ByRef<int32_t>)>(
     &::TMPro::TMP_Text::GetStyleHashCode)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x47e7a08;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6752a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetStyleHashCode", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
@@ -3490,8 +3778,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ByRef<::TMPro::TMP_Text_TextBackingContainer>, int32_t, ::ByRef<int32_t>)>(
     &::TMPro::TMP_Text::GetStyleHashCode)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x47e6de8;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x675291c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3506,8 +3794,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t, int32_t, int32_t, ::ByRef<int32_t>)>(
     &::TMPro::TMP_Text::AddFloatToInternalTextBackingArray)> {
-  constexpr static std::size_t size = 0x2dc;
-  constexpr static std::size_t addrs = 0x47e69dc;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x6751d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3522,8 +3810,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(double_t, int32_t, ::ByRef<int32_t>)>(
     &::TMPro::TMP_Text::AddIntegerToInternalTextBackingArray)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x47e7ae4;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x6752af4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3537,8 +3825,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::InternalTextBackingArrayToString)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47e1378;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x674cad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InternalTextBackingArrayToString",
@@ -3549,10 +3837,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.SetArraySizes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>)>(
-    &::TMPro::TMP_Text::SetArraySizes)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>)>(&::TMPro::TMP_Text::SetArraySizes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e7c14;
+  constexpr static std::size_t addrs = 0x6752c20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3566,7 +3854,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetPreferredValues)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x47e7c1c;
+  constexpr static std::size_t addrs = 0x6752c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredValues",
@@ -3578,8 +3866,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(float_t, float_t)>(&::TMPro::TMP_Text::GetPreferredValues)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x47e7c68;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6752c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3592,8 +3880,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(::StringW)>(&::TMPro::TMP_Text::GetPreferredValues)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x47e7e1c;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6752ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3607,7 +3895,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(::StringW, float_t, float_t)>(&::TMPro::TMP_Text::GetPreferredValues)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x47e7f44;
+  constexpr static std::size_t addrs = 0x6752eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3621,8 +3909,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetPreferredWidth)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x47e3c28;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x674f844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredWidth",
@@ -3634,8 +3922,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(::UnityEngine::Vector2)>(&::TMPro::TMP_Text::GetPreferredWidth)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47e7d14;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6752cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3644,12 +3932,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.GetPreferredWidth
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(::UnityEngine::Vector2, ::TMPro::TextWrappingModes)>(
+    &::TMPro::TMP_Text::GetPreferredWidth)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6752f78;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredWidth", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TextWrappingModes>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.GetPreferredHeight
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetPreferredHeight)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x47e3d7c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x674f9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredHeight",
@@ -3661,8 +3965,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(::UnityEngine::Vector2)>(&::TMPro::TMP_Text::GetPreferredHeight)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x47e7d70;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6752d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3676,7 +3980,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetRenderedValues)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47e8008;
+  constexpr static std::size_t addrs = 0x6752fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetRenderedValues",
@@ -3688,8 +3992,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::GetRenderedValues)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e8030;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6752ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3703,7 +4007,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetRenderedWidth)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e3f18;
+  constexpr static std::size_t addrs = 0x674fba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetRenderedWidth",
@@ -3715,8 +4019,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::GetRenderedWidth)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47e8264;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x67531e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3730,7 +4034,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetRenderedHeight)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e3f60;
+  constexpr static std::size_t addrs = 0x674fbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetRenderedHeight",
@@ -3742,8 +4046,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::GetRenderedHeight)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47e828c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6753204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3755,10 +4059,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.CalculatePreferredValues
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(::ByRef<float_t>, ::UnityEngine::Vector2, bool, bool)>(
-    &::TMPro::TMP_Text::CalculatePreferredValues)> {
-  constexpr static std::size_t size = 0x208c;
-  constexpr static std::size_t addrs = 0x47e82b4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(::ByRef<float_t>, ::UnityEngine::Vector2, bool, ::TMPro::TextWrappingModes)>(&::TMPro::TMP_Text::CalculatePreferredValues)> {
+  constexpr static std::size_t size = 0x22e4;
+  constexpr static std::size_t addrs = 0x6753228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3772,7 +4076,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetCompoundBounds)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47f03c8;
+  constexpr static std::size_t addrs = 0x675a5e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3786,7 +4090,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetCanvasSpaceClippingRect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f03d4;
+  constexpr static std::size_t addrs = 0x675a5f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3799,8 +4103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetTextBounds)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x47e337c;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x674ed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetTextBounds",
@@ -3812,8 +4116,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::GetTextBounds)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x47e805c;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6753024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3826,8 +4130,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t, int32_t, float_t)>(&::TMPro::TMP_Text::AdjustLineOffset)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x47f03dc;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x675a5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3841,8 +4145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::ResizeLineExtents)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x47f0594;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x675a7b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3856,7 +4160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_TextInfo* (::TMPro::TMP_Text::*)(::StringW)>(&::TMPro::TMP_Text::GetTextInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f073c;
+  constexpr static std::size_t addrs = 0x675a968;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3870,7 +4174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::ComputeMarginSize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f0744;
+  constexpr static std::size_t addrs = 0x675a970;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3883,18 +4187,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::TMPro::TMP_Text::*)(int32_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t, ::ByRef<bool>, ::ByRef<float_t>)>(&::TMPro::TMP_Text::InsertNewLine)> {
-  constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x47f0748;
+    static_cast<void (::TMPro::TMP_Text::*)(int32_t, float_t, float_t, float_t, float_t, float_t, float_t, float_t, ::ByRef<bool>, ::ByRef<float_t>)>(&::TMPro::TMP_Text::InsertNewLine)> {
+  constexpr static std::size_t size = 0x4cc;
+  constexpr static std::size_t addrs = 0x675a974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertNewLine", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 11>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+        ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
     return ___internal_method;
   }
@@ -3904,8 +4208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ByRef<::TMPro::WordWrapState>, int32_t, int32_t)>(
     &::TMPro::TMP_Text::SaveWordWrappingState)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x47f0110;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x675a2d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3919,8 +4223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ByRef<::TMPro::WordWrapState>)>(&::TMPro::TMP_Text::RestoreWordWrappingState)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x47efe2c;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x6759fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3933,8 +4237,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(float_t, float_t, ::UnityEngine::Color32)>(&::TMPro::TMP_Text::SaveGlyphVertexInfo)> {
-  constexpr static std::size_t size = 0xb78;
-  constexpr static std::size_t addrs = 0x47f0c18;
+  constexpr static std::size_t size = 0xb94;
+  constexpr static std::size_t addrs = 0x675ae40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3947,8 +4251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Color32)>(&::TMPro::TMP_Text::SaveSpriteVertexInfo)> {
-  constexpr static std::size_t size = 0x760;
-  constexpr static std::size_t addrs = 0x47f1790;
+  constexpr static std::size_t size = 0x708;
+  constexpr static std::size_t addrs = 0x675b9d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3960,9 +4264,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.FillCharacterVertexBuffers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t, int32_t)>(&::TMPro::TMP_Text::FillCharacterVertexBuffers)> {
-  constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x47f1ef0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::FillCharacterVertexBuffers)> {
+  constexpr static std::size_t size = 0x828;
+  constexpr static std::size_t addrs = 0x675c0dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3974,9 +4278,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.FillCharacterVertexBuffers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t, int32_t, bool)>(&::TMPro::TMP_Text::FillCharacterVertexBuffers)> {
-  constexpr static std::size_t size = 0xb30;
-  constexpr static std::size_t addrs = 0x47f2610;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t, bool)>(&::TMPro::TMP_Text::FillCharacterVertexBuffers)> {
+  constexpr static std::size_t size = 0xb1c;
+  constexpr static std::size_t addrs = 0x675c904;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3988,9 +4292,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.FillSpriteVertexBuffers
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t, int32_t)>(&::TMPro::TMP_Text::FillSpriteVertexBuffers)> {
-  constexpr static std::size_t size = 0x720;
-  constexpr static std::size_t addrs = 0x47f3140;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::FillSpriteVertexBuffers)> {
+  constexpr static std::size_t size = 0x828;
+  constexpr static std::size_t addrs = 0x675d420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4004,8 +4308,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<int32_t>, float_t, float_t,
                                                                                                               float_t, float_t, ::UnityEngine::Color32)>(&::TMPro::TMP_Text::DrawUnderlineMesh)> {
-  constexpr static std::size_t size = 0xe84;
-  constexpr static std::size_t addrs = 0x47f3860;
+  constexpr static std::size_t size = 0xc58;
+  constexpr static std::size_t addrs = 0x675dc48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4019,8 +4323,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::TMPro::TMP_Text::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<int32_t>, ::UnityEngine::Color32)>(&::TMPro::TMP_Text::DrawTextHighlight)> {
-  constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x47f4894;
+  constexpr static std::size_t size = 0x554;
+  constexpr static std::size_t addrs = 0x675e954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4033,8 +4337,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::LoadDefaultSettings)> {
-  constexpr static std::size_t size = 0x274;
-  constexpr static std::size_t addrs = 0x47f4dbc;
+  constexpr static std::size_t size = 0x3cc;
+  constexpr static std::size_t addrs = 0x675eea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "LoadDefaultSettings",
@@ -4047,7 +4351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_Text::GetSpecialCharacters)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47f5030;
+  constexpr static std::size_t addrs = 0x675f274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4060,8 +4364,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_Text::GetEllipsisSpecialCharacter)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x47f5058;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x675f29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4074,8 +4378,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_Text::GetUnderlineSpecialCharacter)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x47f46e4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x675e8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4089,8 +4393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t, char16_t)>(
     &::TMPro::TMP_Text::ReplaceTagWithCharacter)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47f529c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x675f558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4105,8 +4409,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (::TMPro::TMP_Text::*)(int32_t)>(&::TMPro::TMP_Text::GetFontAssetForWeight)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47f5310;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x675f5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4120,8 +4424,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::TMPro::TMP_TextElement* (::TMPro::TMP_Text::*)(uint32_t, ::TMPro::TMP_FontAsset*, ::TMPro::FontStyles, ::TMPro::FontWeight, ::ByRef<bool>)>(&::TMPro::TMP_Text::GetTextElement)> {
-  constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x47f538c;
+  constexpr static std::size_t size = 0x5bc;
+  constexpr static std::size_t addrs = 0x675f674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4139,7 +4443,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::SetActiveSubMeshes)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f5770;
+  constexpr static std::size_t addrs = 0x675fc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4153,7 +4457,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::DestroySubMeshObjects)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f5774;
+  constexpr static std::size_t addrs = 0x675fc34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4167,7 +4471,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::ClearMesh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f5778;
+  constexpr static std::size_t addrs = 0x675fc38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4181,7 +4485,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(bool)>(&::TMPro::TMP_Text::ClearMesh)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f577c;
+  constexpr static std::size_t addrs = 0x675fc3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4194,8 +4498,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::GetParsedText)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x47f5780;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x675fc40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4208,8 +4512,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Text::IsSelfOrLinkedAncestor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x47e29b0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x674e0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4222,8 +4526,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_Text::ReleaseLinkedTextComponent)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x47e2898;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x674dff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -4232,12 +4536,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.DoMissingGlyphCallback
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)(int32_t, int32_t, ::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_Text::DoMissingGlyphCallback)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x675fd28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "DoMissingGlyphCallback", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.PackUV
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::TMPro::TMP_Text::*)(float_t, float_t, float_t)>(&::TMPro::TMP_Text::PackUV)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47f4834;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x675fddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4252,7 +4571,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(float_t, float_t)>(&::TMPro::TMP_Text::PackUV)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47f5878;
+  constexpr static std::size_t addrs = 0x675fe34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4266,7 +4585,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::InternalUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f58d8;
+  constexpr static std::size_t addrs = 0x675fe94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -4278,9 +4597,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.HexToInt
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(char16_t)>(&::TMPro::TMP_Text::HexToInt)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_Text::*)(char16_t)>(&::TMPro::TMP_Text::HexToInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47f58dc;
+  constexpr static std::size_t addrs = 0x675fe98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4289,31 +4608,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_Text.GetUTF16
+//  Writing Method size for method: ::TMPro::TMP_Text.IsValidUTF16
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::StringW, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47f5908;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_Text.GetUTF16
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47e6ef4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(&::TMPro::TMP_Text::IsValidUTF16)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6751000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "IsValidUTF16", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -4321,9 +4626,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.GetUTF16
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_Text::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47f59b0;
+  constexpr static std::size_t addrs = 0x675251c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4336,24 +4641,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.GetUTF16
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::System::Text::StringBuilder*, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
   constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47f5a58;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_Text.GetUTF16
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(&::TMPro::TMP_Text::GetUTF16)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47e5710;
+  constexpr static std::size_t addrs = 0x67510a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4363,31 +4653,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_Text.GetUTF32
+//  Writing Method size for method: ::TMPro::TMP_Text.IsValidUTF32
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::StringW, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47f5b00;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_Text.GetUTF32
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x47e6f9c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(&::TMPro::TMP_Text::IsValidUTF32)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x675114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "IsValidUTF32", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -4395,9 +4671,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.GetUTF32
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_Text::*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x47f5c38;
+  constexpr static std::size_t addrs = 0x67525c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4410,24 +4686,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Text.GetUTF32
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::System::Text::StringBuilder*, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
   constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47f5d80;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_Text.GetUTF32
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Text::*)(::TMPro::TMP_Text_TextBackingContainer, int32_t)>(&::TMPro::TMP_Text::GetUTF32)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47e57b8;
+  constexpr static std::size_t addrs = 0x67511f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4442,8 +4703,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(
     &::TMPro::TMP_Text::HexCharsToColor)> {
-  constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x47f5eb8;
+  constexpr static std::size_t size = 0x45c;
+  constexpr static std::size_t addrs = 0x675fec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -4458,8 +4719,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::TMPro::TMP_Text::HexCharsToColor)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x47f62cc;
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x6760320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4475,7 +4736,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(&::TMPro::TMP_Text::GetAttributeParameters)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x47f6518;
+  constexpr static std::size_t addrs = 0x6760570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4491,8 +4752,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::TMPro::TMP_Text::ConvertToFloat)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47f6744;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6760790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4507,8 +4768,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Text::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(
     &::TMPro::TMP_Text::ConvertToFloat)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x47f65c4;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x676061c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -4519,19 +4780,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_Text.ClearMarkupTagAttributes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::ClearMarkupTagAttributes)> {
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x67607a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ClearMarkupTagAttributes",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_Text.ValidateHtmlTag
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (::TMPro::TMP_Text::*)(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>, int32_t, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::ValidateHtmlTag)> {
-  constexpr static std::size_t size = 0x5aec;
-  constexpr static std::size_t addrs = 0x47ea340;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Text::*)(
+    ::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>, int32_t, ::ByRef<int32_t>)>(&::TMPro::TMP_Text::ValidateHtmlTag)> {
+  constexpr static std::size_t size = 0x4abc;
+  constexpr static std::size_t addrs = 0x675550c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ValidateHtmlTag", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -4539,8 +4814,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Text::*)()>(&::TMPro::TMP_Text::_ctor)> {
-  constexpr static std::size_t size = 0x934;
-  constexpr static std::size_t addrs = 0x47f675c;
+  constexpr static std::size_t size = 0x89c;
+  constexpr static std::size_t addrs = 0x6760870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), ".ctor",
@@ -4764,6 +5039,30 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_m_strikethroughColor(::Unit
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_strikethroughColor = value;
 }
+constexpr ::TMPro::HighlightState& TMPro::TMP_Text::__cordl_internal_get_m_HighlightState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HighlightState;
+}
+constexpr ::TMPro::HighlightState const& TMPro::TMP_Text::__cordl_internal_get_m_HighlightState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_HighlightState;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_HighlightState(::TMPro::HighlightState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_HighlightState = value;
+}
+constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_ConvertToLinearSpace() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ConvertToLinearSpace;
+}
+constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_ConvertToLinearSpace() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ConvertToLinearSpace;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_ConvertToLinearSpace(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ConvertToLinearSpace = value;
+}
 constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_enableVertexGradient() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_enableVertexGradient;
@@ -4943,6 +5242,30 @@ constexpr float_t const& TMPro::TMP_Text::__cordl_internal_get_m_outlineWidth() 
 constexpr void TMPro::TMP_Text::__cordl_internal_set_m_outlineWidth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_outlineWidth = value;
+}
+constexpr ::UnityEngine::Vector3& TMPro::TMP_Text::__cordl_internal_get_m_currentEnvMapRotation() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_currentEnvMapRotation;
+}
+constexpr ::UnityEngine::Vector3 const& TMPro::TMP_Text::__cordl_internal_get_m_currentEnvMapRotation() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_currentEnvMapRotation;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_currentEnvMapRotation(::UnityEngine::Vector3 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_currentEnvMapRotation = value;
+}
+constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_hasEnvMapProperty() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_hasEnvMapProperty;
+}
+constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_hasEnvMapProperty() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_hasEnvMapProperty;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_hasEnvMapProperty(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_hasEnvMapProperty = value;
 }
 constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_fontSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -5280,6 +5603,18 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_m_monoSpacing(float_t value
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_monoSpacing = value;
 }
+constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_duoSpace() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_duoSpace;
+}
+constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_duoSpace() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_duoSpace;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_duoSpace(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_duoSpace = value;
+}
 constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_wordSpacing() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_wordSpacing;
@@ -5388,17 +5723,17 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_m_charWidthAdjDelta(float_t
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_charWidthAdjDelta = value;
 }
-constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_enableWordWrapping() {
+constexpr ::TMPro::TextWrappingModes& TMPro::TMP_Text::__cordl_internal_get_m_TextWrappingMode() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_enableWordWrapping;
+  return this->___m_TextWrappingMode;
 }
-constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_enableWordWrapping() const {
+constexpr ::TMPro::TextWrappingModes const& TMPro::TMP_Text::__cordl_internal_get_m_TextWrappingMode() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_enableWordWrapping;
+  return this->___m_TextWrappingMode;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_enableWordWrapping(bool value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_TextWrappingMode(::TMPro::TextWrappingModes value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_enableWordWrapping = value;
+  this->___m_TextWrappingMode = value;
 }
 constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_isCharacterWrappingEnabled() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -5520,17 +5855,29 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_m_enableKerning(bool value)
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_enableKerning = value;
 }
-constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_GlyphHorizontalAdvanceAdjustment() {
+constexpr int32_t& TMPro::TMP_Text::__cordl_internal_get_m_LastBaseGlyphIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GlyphHorizontalAdvanceAdjustment;
+  return this->___m_LastBaseGlyphIndex;
 }
-constexpr float_t const& TMPro::TMP_Text::__cordl_internal_get_m_GlyphHorizontalAdvanceAdjustment() const {
+constexpr int32_t const& TMPro::TMP_Text::__cordl_internal_get_m_LastBaseGlyphIndex() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_GlyphHorizontalAdvanceAdjustment;
+  return this->___m_LastBaseGlyphIndex;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_GlyphHorizontalAdvanceAdjustment(float_t value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_LastBaseGlyphIndex(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_GlyphHorizontalAdvanceAdjustment = value;
+  this->___m_LastBaseGlyphIndex = value;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>*& TMPro::TMP_Text::__cordl_internal_get_m_ActiveFontFeatures() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActiveFontFeatures;
+}
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* const& TMPro::TMP_Text::__cordl_internal_get_m_ActiveFontFeatures() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActiveFontFeatures;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_ActiveFontFeatures(::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ActiveFontFeatures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_enableExtraPadding() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -5567,6 +5914,18 @@ constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_isRichText() const
 constexpr void TMPro::TMP_Text::__cordl_internal_set_m_isRichText(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_isRichText = value;
+}
+constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_EmojiFallbackSupport() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EmojiFallbackSupport;
+}
+constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_EmojiFallbackSupport() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_EmojiFallbackSupport;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_EmojiFallbackSupport(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_EmojiFallbackSupport = value;
 }
 constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_parseCtrlCharacters() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -6144,17 +6503,17 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_m_preferredWidth(float_t va
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_preferredWidth = value;
 }
-constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_renderedWidth() {
+constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_RenderedWidth() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_renderedWidth;
+  return this->___m_RenderedWidth;
 }
-constexpr float_t const& TMPro::TMP_Text::__cordl_internal_get_m_renderedWidth() const {
+constexpr float_t const& TMPro::TMP_Text::__cordl_internal_get_m_RenderedWidth() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_renderedWidth;
+  return this->___m_RenderedWidth;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_renderedWidth(float_t value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_RenderedWidth(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_renderedWidth = value;
+  this->___m_RenderedWidth = value;
 }
 constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_isPreferredWidthDirty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -6180,17 +6539,17 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_m_preferredHeight(float_t v
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_preferredHeight = value;
 }
-constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_renderedHeight() {
+constexpr float_t& TMPro::TMP_Text::__cordl_internal_get_m_RenderedHeight() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_renderedHeight;
+  return this->___m_RenderedHeight;
 }
-constexpr float_t const& TMPro::TMP_Text::__cordl_internal_get_m_renderedHeight() const {
+constexpr float_t const& TMPro::TMP_Text::__cordl_internal_get_m_RenderedHeight() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_renderedHeight;
+  return this->___m_RenderedHeight;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_renderedHeight(float_t value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_RenderedHeight(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_renderedHeight = value;
+  this->___m_RenderedHeight = value;
 }
 constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_isPreferredHeightDirty() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -6336,51 +6695,51 @@ constexpr void TMPro::TMP_Text::__cordl_internal_set_tag_NoParsing(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___tag_NoParsing = value;
 }
-constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_isParsingText() {
+constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_isTextLayoutPhase() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isParsingText;
+  return this->___m_isTextLayoutPhase;
 }
-constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_isParsingText() const {
+constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_isTextLayoutPhase() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isParsingText;
+  return this->___m_isTextLayoutPhase;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_isParsingText(bool value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_isTextLayoutPhase(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_isParsingText = value;
+  this->___m_isTextLayoutPhase = value;
 }
-constexpr ::UnityEngine::Matrix4x4& TMPro::TMP_Text::__cordl_internal_get_m_FXMatrix() {
+constexpr ::UnityEngine::Quaternion& TMPro::TMP_Text::__cordl_internal_get_m_FXRotation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FXMatrix;
+  return this->___m_FXRotation;
 }
-constexpr ::UnityEngine::Matrix4x4 const& TMPro::TMP_Text::__cordl_internal_get_m_FXMatrix() const {
+constexpr ::UnityEngine::Quaternion const& TMPro::TMP_Text::__cordl_internal_get_m_FXRotation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_FXMatrix;
+  return this->___m_FXRotation;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_FXMatrix(::UnityEngine::Matrix4x4 value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_FXRotation(::UnityEngine::Quaternion value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_FXMatrix = value;
+  this->___m_FXRotation = value;
 }
-constexpr bool& TMPro::TMP_Text::__cordl_internal_get_m_isFXMatrixSet() {
+constexpr ::UnityEngine::Vector3& TMPro::TMP_Text::__cordl_internal_get_m_FXScale() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isFXMatrixSet;
+  return this->___m_FXScale;
 }
-constexpr bool const& TMPro::TMP_Text::__cordl_internal_get_m_isFXMatrixSet() const {
+constexpr ::UnityEngine::Vector3 const& TMPro::TMP_Text::__cordl_internal_get_m_FXScale() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isFXMatrixSet;
+  return this->___m_FXScale;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_isFXMatrixSet(bool value) {
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_FXScale(::UnityEngine::Vector3 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_isFXMatrixSet = value;
+  this->___m_FXScale = value;
 }
-constexpr ::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>& TMPro::TMP_Text::__cordl_internal_get_m_TextProcessingArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_TextProcessingArray;
-}
-constexpr ::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*> const& TMPro::TMP_Text::__cordl_internal_get_m_TextProcessingArray() const {
+constexpr ::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>& TMPro::TMP_Text::__cordl_internal_get_m_TextProcessingArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_TextProcessingArray;
 }
-constexpr void TMPro::TMP_Text::__cordl_internal_set_m_TextProcessingArray(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*> value) {
+constexpr ::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*> const& TMPro::TMP_Text::__cordl_internal_get_m_TextProcessingArray() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TextProcessingArray;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_TextProcessingArray(::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextProcessingArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -6503,6 +6862,18 @@ constexpr int32_t const& TMPro::TMP_Text::__cordl_internal_get_m_lineVisibleChar
 constexpr void TMPro::TMP_Text::__cordl_internal_set_m_lineVisibleCharacterCount(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_lineVisibleCharacterCount = value;
+}
+constexpr int32_t& TMPro::TMP_Text::__cordl_internal_get_m_lineVisibleSpaceCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_lineVisibleSpaceCount;
+}
+constexpr int32_t const& TMPro::TMP_Text::__cordl_internal_get_m_lineVisibleSpaceCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_lineVisibleSpaceCount;
+}
+constexpr void TMPro::TMP_Text::__cordl_internal_set_m_lineVisibleSpaceCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_lineVisibleSpaceCount = value;
 }
 constexpr int32_t& TMPro::TMP_Text::__cordl_internal_get_m_pageNumber() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -7072,6 +7443,13 @@ inline ::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>*
   return ::cordl_internals::getStaticField<::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>*, "OnSpriteAssetRequest",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get>();
 }
+inline void TMPro::TMP_Text::setStaticF_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value) {
+  ::cordl_internals::setStaticField<::TMPro::TMP_Text_MissingCharacterEventCallback*, "OnMissingCharacter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get>(
+      std::forward<::TMPro::TMP_Text_MissingCharacterEventCallback*>(value));
+}
+inline ::TMPro::TMP_Text_MissingCharacterEventCallback* TMPro::TMP_Text::getStaticF_OnMissingCharacter() {
+  return ::cordl_internals::getStaticField<::TMPro::TMP_Text_MissingCharacterEventCallback*, "OnMissingCharacter", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get>();
+}
 inline void TMPro::TMP_Text::setStaticF_m_htmlTag(::ArrayW<char16_t, ::Array<char16_t>*> value) {
   ::cordl_internals::setStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "m_htmlTag", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get>(
       std::forward<::ArrayW<char16_t, ::Array<char16_t>*>>(value));
@@ -7591,6 +7969,17 @@ inline void TMPro::TMP_Text::set_characterWidthAdjustment(float_t value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::TMPro::TextWrappingModes TMPro::TMP_Text::get_textWrappingMode() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_textWrappingMode",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::TMPro::TextWrappingModes, false>(this, ___internal_method);
+}
+inline void TMPro::TMP_Text::set_textWrappingMode(::TMPro::TextWrappingModes value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_textWrappingMode", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TextWrappingModes>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline bool TMPro::TMP_Text::get_enableWordWrapping() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_enableWordWrapping",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -7661,6 +8050,17 @@ inline void TMPro::TMP_Text::set_enableKerning(bool value) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* TMPro::TMP_Text::get_fontFeatures() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_fontFeatures",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>*, false>(this, ___internal_method);
+}
+inline void TMPro::TMP_Text::set_fontFeatures(::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_fontFeatures", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::TextCore::OTL_FeatureTag>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline bool TMPro::TMP_Text::get_extraPadding() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_extraPadding",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -7680,6 +8080,17 @@ inline bool TMPro::TMP_Text::get_richText() {
 inline void TMPro::TMP_Text::set_richText(bool value) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_richText", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool TMPro::TMP_Text::get_emojiFallbackSupport() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "get_emojiFallbackSupport",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void TMPro::TMP_Text::set_emojiFallbackSupport(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "set_emojiFallbackSupport", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
@@ -7988,6 +8399,18 @@ inline void TMPro::TMP_Text::remove_OnSpriteAssetRequest(::System::Func_3<int32_
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_3<int32_t, ::StringW, ::UnityW<::TMPro::TMP_SpriteAsset>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
 }
+inline void TMPro::TMP_Text::add_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "add_OnMissingCharacter", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
+inline void TMPro::TMP_Text::remove_OnMissingCharacter(::TMPro::TMP_Text_MissingCharacterEventCallback* value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "remove_OnMissingCharacter", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_MissingCharacterEventCallback*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+}
 inline void TMPro::TMP_Text::add_OnPreRenderText(::System::Action_1<::TMPro::TMP_TextInfo*>* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 78)));
@@ -8260,6 +8683,12 @@ inline void TMPro::TMP_Text::SetTextInternal(::StringW sourceText) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceText);
 }
+inline void TMPro::TMP_Text::SetText(::StringW sourceText) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "SetText", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceText);
+}
 inline void TMPro::TMP_Text::SetText(::StringW sourceText, bool syncTextInputBox) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "SetText", std::span<Il2CppClass const* const, 0>(),
@@ -8375,80 +8804,105 @@ inline ::TMPro::TMP_Style* TMPro::TMP_Text::GetStyle(int32_t hashCode) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::TMPro::TMP_Style*, false>(this, ___internal_method, hashCode);
 }
+inline void TMPro::TMP_Text::InsertOpeningTextStyle(::TMPro::TMP_Style* style, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                    ::ByRef<int32_t> writeIndex) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertOpeningTextStyle", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, style, charBuffer, writeIndex);
+}
+inline void TMPro::TMP_Text::InsertClosingTextStyle(::TMPro::TMP_Style* style, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                    ::ByRef<int32_t> writeIndex) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertClosingTextStyle", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, style, charBuffer, writeIndex);
+}
+inline void TMPro::TMP_Text::InsertTextStyleInTextProcessingArray(::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                                  ::ByRef<int32_t> writeIndex, ::ArrayW<uint32_t, ::Array<uint32_t>*> styleDefinition) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertTextStyleInTextProcessingArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, charBuffer, writeIndex, styleDefinition);
+}
 inline bool TMPro::TMP_Text::ReplaceOpeningStyleTag(::ByRef<::TMPro::TMP_Text_TextBackingContainer> sourceText, int32_t srcIndex, ::ByRef<int32_t> srcOffset,
-                                                    ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>> charBuffer, ::ByRef<int32_t> writeIndex) {
+                                                    ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                    ::ByRef<int32_t> writeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_Text_TextBackingContainer>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_Text_TextBackingContainer>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, sourceText, srcIndex, srcOffset, charBuffer, writeIndex);
 }
-inline bool TMPro::TMP_Text::ReplaceOpeningStyleTag(::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> sourceText, int32_t srcIndex, ::ByRef<int32_t> srcOffset,
-                                                    ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>> charBuffer, ::ByRef<int32_t> writeIndex) {
+inline bool TMPro::TMP_Text::ReplaceOpeningStyleTag(::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> sourceText, int32_t srcIndex, ::ByRef<int32_t> srcOffset,
+                                                    ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                    ::ByRef<int32_t> writeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, sourceText, srcIndex, srcOffset, charBuffer, writeIndex);
 }
-inline void TMPro::TMP_Text::ReplaceClosingStyleTag(::ByRef<::TMPro::TMP_Text_TextBackingContainer> sourceText, int32_t srcIndex,
-                                                    ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>> charBuffer, ::ByRef<int32_t> writeIndex) {
+inline void TMPro::TMP_Text::ReplaceClosingStyleTag(::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                    ::ByRef<int32_t> writeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceClosingStyleTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::TMPro::TMP_Text_TextBackingContainer>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceText, srcIndex, charBuffer, writeIndex);
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, charBuffer, writeIndex);
 }
-inline void TMPro::TMP_Text::ReplaceClosingStyleTag(::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> sourceText, int32_t srcIndex,
-                                                    ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>> charBuffer, ::ByRef<int32_t> writeIndex) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ReplaceClosingStyleTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceText, srcIndex, charBuffer, writeIndex);
-}
-inline bool TMPro::TMP_Text::InsertOpeningStyleTag(::TMPro::TMP_Style* style, int32_t srcIndex, ::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>> charBuffer,
+inline void TMPro::TMP_Text::InsertOpeningStyleTag(::TMPro::TMP_Style* style, ::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
                                                    ::ByRef<int32_t> writeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertOpeningStyleTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, style, srcIndex, charBuffer, writeIndex);
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Style*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, style, charBuffer, writeIndex);
 }
-inline void TMPro::TMP_Text::InsertClosingStyleTag(::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>> charBuffer, ::ByRef<int32_t> writeIndex) {
+inline void TMPro::TMP_Text::InsertClosingStyleTag(::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>> charBuffer,
+                                                   ::ByRef<int32_t> writeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertClosingStyleTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, charBuffer, writeIndex);
 }
-inline int32_t TMPro::TMP_Text::GetMarkupTagHashCode(::ArrayW<int32_t, ::Array<int32_t>*> tagDefinition, int32_t readIndex) {
+inline int32_t TMPro::TMP_Text::GetMarkupTagHashCode(::ArrayW<uint32_t, ::Array<uint32_t>*> styleDefinition, int32_t readIndex) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetMarkupTagHashCode", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, tagDefinition, readIndex);
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, styleDefinition, readIndex);
 }
-inline int32_t TMPro::TMP_Text::GetMarkupTagHashCode(::TMPro::TMP_Text_TextBackingContainer tagDefinition, int32_t readIndex) {
+inline int32_t TMPro::TMP_Text::GetMarkupTagHashCode(::TMPro::TMP_Text_TextBackingContainer styleDefinition, int32_t readIndex) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetMarkupTagHashCode", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, tagDefinition, readIndex);
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, styleDefinition, readIndex);
 }
-inline int32_t TMPro::TMP_Text::GetStyleHashCode(::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> text, int32_t index, ::ByRef<int32_t> closeIndex) {
+inline int32_t TMPro::TMP_Text::GetStyleHashCode(::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> text, int32_t index, ::ByRef<int32_t> closeIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetStyleHashCode", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, index, closeIndex);
 }
@@ -8497,7 +8951,7 @@ inline ::StringW TMPro::TMP_Text::InternalTextBackingArrayToString() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline int32_t TMPro::TMP_Text::SetArraySizes(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*> unicodeChars) {
+inline int32_t TMPro::TMP_Text::SetArraySizes(::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*> unicodeChars) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 114)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, unicodeChars);
@@ -8536,6 +8990,13 @@ inline float_t TMPro::TMP_Text::GetPreferredWidth(::UnityEngine::Vector2 margin)
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredWidth", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, margin);
+}
+inline float_t TMPro::TMP_Text::GetPreferredWidth(::UnityEngine::Vector2 margin, ::TMPro::TextWrappingModes wrapMode) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredWidth", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TextWrappingModes>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, margin, wrapMode);
 }
 inline float_t TMPro::TMP_Text::GetPreferredHeight() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetPreferredHeight",
@@ -8581,10 +9042,11 @@ inline float_t TMPro::TMP_Text::GetRenderedHeight(bool onlyVisibleCharacters) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, onlyVisibleCharacters);
 }
-inline ::UnityEngine::Vector2 TMPro::TMP_Text::CalculatePreferredValues(::ByRef<float_t> fontSize, ::UnityEngine::Vector2 marginSize, bool isTextAutoSizingEnabled, bool isWordWrappingEnabled) {
+inline ::UnityEngine::Vector2 TMPro::TMP_Text::CalculatePreferredValues(::ByRef<float_t> fontSize, ::UnityEngine::Vector2 marginSize, bool isTextAutoSizingEnabled,
+                                                                        ::TMPro::TextWrappingModes textWrapMode) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 115)));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, fontSize, marginSize, isTextAutoSizingEnabled, isWordWrappingEnabled);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, fontSize, marginSize, isTextAutoSizingEnabled, textWrapMode);
 }
 inline ::UnityEngine::Bounds TMPro::TMP_Text::GetCompoundBounds() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -8630,18 +9092,18 @@ inline void TMPro::TMP_Text::ComputeMarginSize() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 119)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void TMPro::TMP_Text::InsertNewLine(int32_t i, float_t baseScale, float_t currentElementScale, float_t currentEmScale, float_t glyphAdjustment, float_t boldSpacingAdjustment,
-                                           float_t characterSpacingAdjustment, float_t width, float_t lineGap, ::ByRef<bool> isMaxVisibleDescenderSet, ::ByRef<float_t> maxVisibleDescender) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertNewLine", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 11>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, baseScale, currentElementScale, currentEmScale, glyphAdjustment, boldSpacingAdjustment,
-                                                          characterSpacingAdjustment, width, lineGap, isMaxVisibleDescenderSet, maxVisibleDescender);
+inline void TMPro::TMP_Text::InsertNewLine(int32_t i, float_t baseScale, float_t currentElementScale, float_t currentEmScale, float_t boldSpacingAdjustment, float_t characterSpacingAdjustment,
+                                           float_t width, float_t lineGap, ::ByRef<bool> isMaxVisibleDescenderSet, ::ByRef<float_t> maxVisibleDescender) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "InsertNewLine", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 10>{
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, baseScale, currentElementScale, currentEmScale, boldSpacingAdjustment, characterSpacingAdjustment, width,
+                                                          lineGap, isMaxVisibleDescenderSet, maxVisibleDescender);
 }
 inline void TMPro::TMP_Text::SaveWordWrappingState(::ByRef<::TMPro::WordWrapState> state, int32_t index, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -8666,20 +9128,20 @@ inline void TMPro::TMP_Text::SaveSpriteVertexInfo(::UnityEngine::Color32 vertexC
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 121)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, vertexColor);
 }
-inline void TMPro::TMP_Text::FillCharacterVertexBuffers(int32_t i, int32_t index_X4) {
+inline void TMPro::TMP_Text::FillCharacterVertexBuffers(int32_t i) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 122)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, index_X4);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
 }
-inline void TMPro::TMP_Text::FillCharacterVertexBuffers(int32_t i, int32_t index_X4, bool isVolumetric) {
+inline void TMPro::TMP_Text::FillCharacterVertexBuffers(int32_t i, bool isVolumetric) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 123)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, index_X4, isVolumetric);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, isVolumetric);
 }
-inline void TMPro::TMP_Text::FillSpriteVertexBuffers(int32_t i, int32_t index_X4) {
+inline void TMPro::TMP_Text::FillSpriteVertexBuffers(int32_t i) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 124)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i, index_X4);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, i);
 }
 inline void TMPro::TMP_Text::DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::ByRef<int32_t> index, float_t startScale, float_t endScale, float_t maxScale,
                                                float_t sdfScale, ::UnityEngine::Color32 underlineColor) {
@@ -8776,6 +9238,13 @@ inline void TMPro::TMP_Text::ReleaseLinkedTextComponent(::TMPro::TMP_Text* targe
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, targetTextComponent);
 }
+inline void TMPro::TMP_Text::DoMissingGlyphCallback(int32_t unicode, int32_t stringIndex, ::TMPro::TMP_FontAsset* fontAsset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "DoMissingGlyphCallback", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_FontAsset*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unicode, stringIndex, fontAsset);
+}
 inline ::UnityEngine::Vector2 TMPro::TMP_Text::PackUV(float_t x, float_t y, float_t scale) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "PackUV", std::span<Il2CppClass const* const, 0>(),
@@ -8794,79 +9263,53 @@ inline void TMPro::TMP_Text::InternalUpdate() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), 132)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t TMPro::TMP_Text::HexToInt(char16_t hex) {
+inline uint32_t TMPro::TMP_Text::HexToInt(char16_t hex) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "HexToInt", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, hex);
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, hex);
 }
-inline int32_t TMPro::TMP_Text::GetUTF16(::StringW text, int32_t i) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
-}
-inline int32_t TMPro::TMP_Text::GetUTF16(::ArrayW<int32_t, ::Array<int32_t>*> text, int32_t i) {
+inline bool TMPro::TMP_Text::IsValidUTF16(::TMPro::TMP_Text_TextBackingContainer text, int32_t index) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "IsValidUTF16", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, text, index);
 }
-inline int32_t TMPro::TMP_Text::GetUTF16(::ArrayW<uint32_t, ::Array<uint32_t>*> text, int32_t i) {
+inline uint32_t TMPro::TMP_Text::GetUTF16(::ArrayW<uint32_t, ::Array<uint32_t>*> text, int32_t i) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, text, i);
 }
-inline int32_t TMPro::TMP_Text::GetUTF16(::System::Text::StringBuilder* text, int32_t i) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
-}
-inline int32_t TMPro::TMP_Text::GetUTF16(::TMPro::TMP_Text_TextBackingContainer text, int32_t i) {
+inline uint32_t TMPro::TMP_Text::GetUTF16(::TMPro::TMP_Text_TextBackingContainer text, int32_t i) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF16", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, text, i);
 }
-inline int32_t TMPro::TMP_Text::GetUTF32(::StringW text, int32_t i) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
-}
-inline int32_t TMPro::TMP_Text::GetUTF32(::ArrayW<int32_t, ::Array<int32_t>*> text, int32_t i) {
+inline bool TMPro::TMP_Text::IsValidUTF32(::TMPro::TMP_Text_TextBackingContainer text, int32_t index) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<int32_t, ::Array<int32_t>*>>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "IsValidUTF32", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, text, index);
 }
-inline int32_t TMPro::TMP_Text::GetUTF32(::ArrayW<uint32_t, ::Array<uint32_t>*> text, int32_t i) {
+inline uint32_t TMPro::TMP_Text::GetUTF32(::ArrayW<uint32_t, ::Array<uint32_t>*> text, int32_t i) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint32_t, ::Array<uint32_t>*>>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, text, i);
 }
-inline int32_t TMPro::TMP_Text::GetUTF32(::System::Text::StringBuilder* text, int32_t i) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::StringBuilder*>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
-}
-inline int32_t TMPro::TMP_Text::GetUTF32(::TMPro::TMP_Text_TextBackingContainer text, int32_t i) {
+inline uint32_t TMPro::TMP_Text::GetUTF32(::TMPro::TMP_Text_TextBackingContainer text, int32_t i) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "GetUTF32", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_Text_TextBackingContainer>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, text, i);
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, text, i);
 }
 inline ::UnityEngine::Color32 TMPro::TMP_Text::HexCharsToColor(::ArrayW<char16_t, ::Array<char16_t>*> hexChars, int32_t tagCount) {
   static auto* ___internal_method =
@@ -8905,11 +9348,18 @@ inline float_t TMPro::TMP_Text::ConvertToFloat(::ArrayW<char16_t, ::Array<char16
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, chars, startIndex, length, lastIndex);
 }
-inline bool TMPro::TMP_Text::ValidateHtmlTag(::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*> chars, int32_t startIndex, ::ByRef<int32_t> endIndex) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ValidateHtmlTag", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::TMPro::TMP_Text_UnicodeChar, ::Array<::TMPro::TMP_Text_UnicodeChar>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+inline void TMPro::TMP_Text::ClearMarkupTagAttributes() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ClearMarkupTagAttributes",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool TMPro::TMP_Text::ValidateHtmlTag(::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*> chars, int32_t startIndex,
+                                             ::ByRef<int32_t> endIndex) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Text*>::get(), "ValidateHtmlTag", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 3>{
+                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::TMPro::TMP_Text_TextProcessingElement, ::Array<::TMPro::TMP_Text_TextProcessingElement>*>>::get(),
+                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, chars, startIndex, endIndex);
 }
 inline void TMPro::TMP_Text::_ctor() {

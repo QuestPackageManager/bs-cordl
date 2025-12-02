@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FixedPointPreCompInfo)
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECLookupTable;
 }
@@ -19,7 +21,7 @@ class FixedPointPreCompInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::FixedPointPreCompInfo);
-// Dependencies Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.FixedPointPreCompInfo
@@ -64,28 +66,28 @@ public:
 
   constexpr void __cordl_internal_set_m_width(int32_t value);
 
-  /// @brief Method .ctor, addr 0x24b8454, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33e75f0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LookupTable, addr 0x24b8424, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LookupTable, addr 0x33e75c0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECLookupTable* get_LookupTable();
 
-  /// @brief Method get_Offset, addr 0x24b8434, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Offset, addr 0x33e75d0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_Offset();
 
-  /// @brief Method get_Width, addr 0x24b8444, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Width, addr 0x33e75e0, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Width();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_LookupTable, addr 0x24b842c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_LookupTable, addr 0x33e75c8, size 0x8, virtual true, abstract: false, final false
   inline void set_LookupTable(::Org::BouncyCastle::Math::EC::ECLookupTable* value);
 
-  /// @brief Method set_Offset, addr 0x24b843c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Offset, addr 0x33e75d8, size 0x8, virtual true, abstract: false, final false
   inline void set_Offset(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method set_Width, addr 0x24b844c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Width, addr 0x33e75e8, size 0x8, virtual true, abstract: false, final false
   inline void set_Width(int32_t value);
 
 protected:

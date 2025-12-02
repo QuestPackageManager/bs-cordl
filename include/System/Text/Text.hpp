@@ -5,6 +5,8 @@ module;
 #pragma once
 #include "System/Text/ASCIIEncoding.hpp"
 #include "System/Text/ASCIIEncoding_ASCIIEncodingSealed.hpp"
+#include "System/Text/Base64Encoding.hpp"
+#include "System/Text/BinHexEncoding.hpp"
 #include "System/Text/Decoder.hpp"
 #include "System/Text/DecoderExceptionFallback.hpp"
 #include "System/Text/DecoderExceptionFallbackBuffer.hpp"
@@ -37,6 +39,7 @@ module;
 #include "System/Text/NormalizationForm.hpp"
 #include "System/Text/StringBuilder.hpp"
 #include "System/Text/StringBuilderCache.hpp"
+#include "System/Text/SurrogateChar.hpp"
 #include "System/Text/UTF32Encoding.hpp"
 #include "System/Text/UTF7Encoding.hpp"
 #include "System/Text/UTF8Encoding.hpp"

@@ -43,14 +43,14 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextElementInfo {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x4931628, size 0x16f8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x69ce39c, size 0x1774, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr TextElementInfo();
 
-  // Ctor Parameters [CppParam { name: "character", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // Ctor Parameters [CppParam { name: "character", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
   // "elementType", ty: "::UnityEngine::TextCore::Text::TextElementType", modifiers: "", def_value: None }, CppParam { name: "stringLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
   // name: "textElement", ty: "::UnityEngine::TextCore::Text::TextElement*", modifiers: "", def_value: None }, CppParam { name: "alternativeGlyph", ty: "::UnityEngine::TextCore::Glyph*", modifiers:
   // "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "", def_value: None }, CppParam { name: "spriteAsset", ty:
@@ -72,7 +72,7 @@ public:
   // "strikethroughVertexIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "highlightColor", ty: "::UnityEngine::Color32", modifiers: "", def_value: None }, CppParam { name:
   // "highlightState", ty: "::UnityEngine::TextCore::Text::HighlightState", modifiers: "", def_value: None }, CppParam { name: "style", ty: "::UnityEngine::TextCore::Text::FontStyles", modifiers: "",
   // def_value: None }, CppParam { name: "isVisible", ty: "bool", modifiers: "", def_value: None }]
-  constexpr TextElementInfo(char16_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength,
+  constexpr TextElementInfo(uint32_t character, int32_t index, ::UnityEngine::TextCore::Text::TextElementType elementType, int32_t stringLength,
                             ::UnityEngine::TextCore::Text::TextElement* textElement, ::UnityEngine::TextCore::Glyph* alternativeGlyph, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
                             ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, int32_t spriteIndex, ::UnityW<::UnityEngine::Material> material, int32_t materialReferenceIndex,
                             bool isUsingAlternateTypeface, float_t pointSize, int32_t lineNumber, int32_t pageNumber, int32_t vertexIndex, ::UnityEngine::TextCore::Text::TextVertex vertexTopLeft,
@@ -84,13 +84,13 @@ public:
                             ::UnityEngine::TextCore::Text::HighlightState highlightState, ::UnityEngine::TextCore::Text::FontStyles style, bool isVisible) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17200 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x188 };
 
-  /// @brief Field character, offset: 0x0, size: 0x2, def value: None
-  char16_t character;
+  /// @brief Field character, offset: 0x0, size: 0x4, def value: None
+  uint32_t character;
 
   /// @brief Field index, offset: 0x4, size: 0x4, def value: None
   int32_t index;

@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/GetterProvider_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__InjectSources_impl.hpp"
 #include "Zenject/zzzz__GetterProvider_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__InjectSources_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"

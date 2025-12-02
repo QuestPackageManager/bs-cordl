@@ -7,6 +7,7 @@
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__MenuTransitionsHelper_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingSettings_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigurationProcessor_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettings_def.hpp"
@@ -25,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RecordingToolManager::*)()>(
     &::GlobalNamespace::RecordingToolManager::get_showRecordingToolScene)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b2b150;
+  constexpr static std::size_t addrs = 0x570bcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolManager*>::get(),
@@ -39,8 +40,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)(
     ::GlobalNamespace::RecordingToolConfigurationProcessor*, ::GlobalNamespace::BeatmapCharacteristicCollection*, ::Zenject::DiContainer*, ::GlobalNamespace::MenuTransitionsHelper*,
     ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::PlayerDataModel*)>(&::GlobalNamespace::RecordingToolManager::_ctor)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b2b164;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x570bd0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,12 +59,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)()>(&::GlobalNamespace::RecordingToolManager::Run)> {
-  constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x3b2b27c;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x570bdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolManager*>::get(), "Run",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::RecordingToolManager.SetupNextSettings
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RecordingSettings* (::GlobalNamespace::RecordingToolManager::*)()>(
+    &::GlobalNamespace::RecordingToolManager::SetupNextSettings)> {
+  constexpr static std::size_t size = 0x360;
+  constexpr static std::size_t addrs = 0x570c098;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolManager*>::get(),
+                                                                               "SetupNextSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -73,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolManager::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::RecordingToolManager::_Run_b__15_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b2b7b0;
+  constexpr static std::size_t addrs = 0x570c3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -227,6 +242,11 @@ inline void GlobalNamespace::RecordingToolManager::Run() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolManager*>::get(), "Run",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::RecordingSettings* GlobalNamespace::RecordingToolManager::SetupNextSettings() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolManager*>::get(),
+                                                                             "SetupNextSettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::RecordingSettings*, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::RecordingToolManager::_Run_b__15_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* StandardLevelScenesTransitionSetupDataSO,
                                                                 ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults) {

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_def.hpp"
 CORDL_MODULE_EXPORT(GhostEffectAsset)
 namespace GlobalNamespace {
@@ -23,6 +22,9 @@ struct Playable;
 namespace UnityEngine::Timeline {
 struct ClipCaps;
 }
+namespace UnityEngine::Timeline {
+class ITimelineClipAsset;
+}
 namespace UnityEngine {
 class GameObject;
 }
@@ -32,7 +34,7 @@ class GhostEffectAsset;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GhostEffectAsset);
-// Dependencies GhostEffectBehaviour::GhostEffectType, UnityEngine.ExposedReference`1<T>, UnityEngine.Playables.PlayableAsset, UnityEngine.Timeline.ITimelineClipAsset
+// Dependencies GhostEffectBehaviour::GhostEffectType, UnityEngine.ExposedReference`1<T>, UnityEngine.Playables.PlayableAsset
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GhostEffectAsset
@@ -54,7 +56,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::Timeline::ITimelineClipAsset"
   constexpr operator ::UnityEngine::Timeline::ITimelineClipAsset*() noexcept;
 
-  /// @brief Method CreatePlayable, addr 0x3b3490c, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method CreatePlayable, addr 0x5716130, size 0x15c, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::Playable CreatePlayable(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* go);
 
   static inline ::GlobalNamespace::GhostEffectAsset* New_ctor();
@@ -77,10 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_arrayReference(::UnityEngine::ExposedReference_1<::UnityW<::GlobalNamespace::TimelineArrayReference>> value);
 
-  /// @brief Method .ctor, addr 0x3b34a48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571628c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_clipCaps, addr 0x3b34904, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_clipCaps, addr 0x5716128, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::Timeline::ClipCaps get_clipCaps();
 
   /// @brief Convert to "::UnityEngine::Timeline::ITimelineClipAsset"
@@ -101,7 +103,7 @@ public:
   GhostEffectAsset(GhostEffectAsset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5203 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6778 };
 
   /// @brief Field _ghostEffectType, offset: 0x18, size: 0x4, def value: None
   ::GlobalNamespace::GhostEffectBehaviour_GhostEffectType ____ghostEffectType;

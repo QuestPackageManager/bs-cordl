@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ColorNoteVisuals.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidPassJumpThreeQuartersEvent_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorNoteVisuals_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidPassJumpThreeQuartersEvent_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*)>(&::GlobalNamespace::ColorNoteVisuals::add_didInitEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae8794;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56c464c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::ColorNoteVisuals>, ::UnityW<::GlobalNamespace::NoteControllerBase>>*)>(&::GlobalNamespace::ColorNoteVisuals::remove_didInitEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae8844;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56c470c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(bool)>(&::GlobalNamespace::ColorNoteVisuals::set_showArrow)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ae88f4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x56c47cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(bool)>(&::GlobalNamespace::ColorNoteVisuals::set_showCircle)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3ae895c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x56c4830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)()>(&::GlobalNamespace::ColorNoteVisuals::Awake)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3ae89c4;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x56c4894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorNoteVisuals*>::get(), "Awake",
@@ -88,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)()>(&::GlobalNamespace::ColorNoteVisuals::OnDestroy)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3ae8b94;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x56c4a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorNoteVisuals*>::get(), "OnDestroy",
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::ColorNoteVisuals::HandleNoteControllerDidInit)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3ae8db4;
+  constexpr static std::size_t addrs = 0x56c4ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::ColorNoteVisuals::HandleNoteControllerNoteDidPassJumpThreeQuarters)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ae8f2c;
+  constexpr static std::size_t addrs = 0x56c4e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)(::GlobalNamespace::NoteControllerBase*, float_t)>(
     &::GlobalNamespace::ColorNoteVisuals::HandleNoteControllerNoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ae8f4c;
+  constexpr static std::size_t addrs = 0x56c4e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,8 +147,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorNoteVisuals::*)()>(&::GlobalNamespace::ColorNoteVisuals::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ae8f6c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x56c4e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ColorNoteVisuals*>::get(), ".ctor",

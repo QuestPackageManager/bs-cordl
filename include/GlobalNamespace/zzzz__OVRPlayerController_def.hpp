@@ -19,6 +19,9 @@ template <typename T> class Action_1;
 namespace System {
 class Action;
 }
+namespace UnityEngine::InputSystem {
+class InputAction;
+}
 namespace UnityEngine {
 class CharacterController;
 }
@@ -142,6 +145,18 @@ public:
   /// @brief Field buttonRotation, offset 0xd0, size 0x4
   __declspec(property(get = __cordl_internal_get_buttonRotation, put = __cordl_internal_set_buttonRotation)) float_t buttonRotation;
 
+  /// @brief Field moveBackAction, offset 0xf0, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveBackAction, put = __cordl_internal_set_moveBackAction)) ::UnityEngine::InputSystem::InputAction* moveBackAction;
+
+  /// @brief Field moveForwardAction, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveForwardAction, put = __cordl_internal_set_moveForwardAction)) ::UnityEngine::InputSystem::InputAction* moveForwardAction;
+
+  /// @brief Field moveLeftAction, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveLeftAction, put = __cordl_internal_set_moveLeftAction)) ::UnityEngine::InputSystem::InputAction* moveLeftAction;
+
+  /// @brief Field moveRightAction, offset 0xe8, size 0x8
+  __declspec(property(get = __cordl_internal_get_moveRightAction, put = __cordl_internal_set_moveRightAction)) ::UnityEngine::InputSystem::InputAction* moveRightAction;
+
   /// @brief Field playerControllerEnabled, offset 0xd5, size 0x1
   __declspec(property(get = __cordl_internal_get_playerControllerEnabled, put = __cordl_internal_set_playerControllerEnabled)) bool playerControllerEnabled;
 
@@ -151,66 +166,69 @@ public:
   /// @brief Field prevHatRight, offset 0xcb, size 0x1
   __declspec(property(get = __cordl_internal_get_prevHatRight, put = __cordl_internal_set_prevHatRight)) bool prevHatRight;
 
+  /// @brief Field runAction, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get_runAction, put = __cordl_internal_set_runAction)) ::UnityEngine::InputSystem::InputAction* runAction;
+
   /// @brief Field useProfileData, offset 0x48, size 0x1
   __declspec(property(get = __cordl_internal_get_useProfileData, put = __cordl_internal_set_useProfileData)) bool useProfileData;
 
-  /// @brief Method Awake, addr 0x403dbc8, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5cf2e68, size 0x1f8, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetHaltUpdateMovement, addr 0x403f7e8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetHaltUpdateMovement, addr 0x5cf4de8, size 0xc, virtual false, abstract: false, final false
   inline void GetHaltUpdateMovement(::ByRef<bool> haltUpdateMovement);
 
-  /// @brief Method GetMoveScaleMultiplier, addr 0x403f7a8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetMoveScaleMultiplier, addr 0x5cf4dac, size 0xc, virtual false, abstract: false, final false
   inline void GetMoveScaleMultiplier(::ByRef<float_t> moveScaleMultiplier);
 
-  /// @brief Method GetRotationScaleMultiplier, addr 0x403f7bc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetRotationScaleMultiplier, addr 0x5cf4dc0, size 0xc, virtual false, abstract: false, final false
   inline void GetRotationScaleMultiplier(::ByRef<float_t> rotationScaleMultiplier);
 
-  /// @brief Method GetSkipMouseRotation, addr 0x403f7d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetSkipMouseRotation, addr 0x5cf4dd4, size 0xc, virtual false, abstract: false, final false
   inline void GetSkipMouseRotation(::ByRef<bool> skipMouseRotation);
 
-  /// @brief Method Jump, addr 0x403f67c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Jump, addr 0x5cf4c74, size 0x84, virtual false, abstract: false, final false
   inline bool Jump();
 
   static inline ::GlobalNamespace::OVRPlayerController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x403dda8, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5cf3064, size 0x234, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x403dda4, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5cf3060, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ResetOrientation, addr 0x403f800, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method ResetOrientation, addr 0x5cf4dfc, size 0xc4, virtual false, abstract: false, final false
   inline void ResetOrientation();
 
-  /// @brief Method SetHaltUpdateMovement, addr 0x403f7f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetHaltUpdateMovement, addr 0x5cf4df4, size 0x8, virtual false, abstract: false, final false
   inline void SetHaltUpdateMovement(bool haltUpdateMovement);
 
-  /// @brief Method SetMoveScaleMultiplier, addr 0x403f7b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetMoveScaleMultiplier, addr 0x5cf4db8, size 0x8, virtual false, abstract: false, final false
   inline void SetMoveScaleMultiplier(float_t moveScaleMultiplier);
 
-  /// @brief Method SetRotationScaleMultiplier, addr 0x403f7c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetRotationScaleMultiplier, addr 0x5cf4dcc, size 0x8, virtual false, abstract: false, final false
   inline void SetRotationScaleMultiplier(float_t rotationScaleMultiplier);
 
-  /// @brief Method SetSkipMouseRotation, addr 0x403f7dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetSkipMouseRotation, addr 0x5cf4de0, size 0x8, virtual false, abstract: false, final false
   inline void SetSkipMouseRotation(bool skipMouseRotation);
 
-  /// @brief Method Start, addr 0x403db04, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf2a74, size 0x3f4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x403f700, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5cf4cf8, size 0xb4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x403df3c, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cf3298, size 0x27c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateController, addr 0x403e128, size 0x728, virtual true, abstract: false, final false
+  /// @brief Method UpdateController, addr 0x5cf3514, size 0x790, virtual true, abstract: false, final false
   inline void UpdateController();
 
-  /// @brief Method UpdateMovement, addr 0x403e850, size 0xca4, virtual true, abstract: false, final false
+  /// @brief Method UpdateMovement, addr 0x5cf3ca4, size 0xe48, virtual true, abstract: false, final false
   inline void UpdateMovement();
 
-  /// @brief Method UpdateTransform, addr 0x403f4f4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransform, addr 0x5cf4aec, size 0x188, virtual false, abstract: false, final false
   inline void UpdateTransform(::GlobalNamespace::OVRCameraRig* rig);
 
   constexpr float_t const& __cordl_internal_get_Acceleration() const;
@@ -349,6 +367,22 @@ public:
 
   constexpr float_t& __cordl_internal_get_buttonRotation();
 
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveBackAction() const;
+
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveBackAction();
+
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveForwardAction() const;
+
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveForwardAction();
+
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveLeftAction() const;
+
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveLeftAction();
+
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_moveRightAction() const;
+
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_moveRightAction();
+
   constexpr bool const& __cordl_internal_get_playerControllerEnabled() const;
 
   constexpr bool& __cordl_internal_get_playerControllerEnabled();
@@ -360,6 +394,10 @@ public:
   constexpr bool const& __cordl_internal_get_prevHatRight() const;
 
   constexpr bool& __cordl_internal_get_prevHatRight();
+
+  constexpr ::UnityEngine::InputSystem::InputAction* const& __cordl_internal_get_runAction() const;
+
+  constexpr ::UnityEngine::InputSystem::InputAction*& __cordl_internal_get_runAction();
 
   constexpr bool const& __cordl_internal_get_useProfileData() const;
 
@@ -433,39 +471,49 @@ public:
 
   constexpr void __cordl_internal_set_buttonRotation(float_t value);
 
+  constexpr void __cordl_internal_set_moveBackAction(::UnityEngine::InputSystem::InputAction* value);
+
+  constexpr void __cordl_internal_set_moveForwardAction(::UnityEngine::InputSystem::InputAction* value);
+
+  constexpr void __cordl_internal_set_moveLeftAction(::UnityEngine::InputSystem::InputAction* value);
+
+  constexpr void __cordl_internal_set_moveRightAction(::UnityEngine::InputSystem::InputAction* value);
+
   constexpr void __cordl_internal_set_playerControllerEnabled(bool value);
 
   constexpr void __cordl_internal_set_prevHatLeft(bool value);
 
   constexpr void __cordl_internal_set_prevHatRight(bool value);
 
+  constexpr void __cordl_internal_set_runAction(::UnityEngine::InputSystem::InputAction* value);
+
   constexpr void __cordl_internal_set_useProfileData(bool value);
 
-  /// @brief Method .ctor, addr 0x403f8c4, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf4ec0, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_CameraUpdated, addr 0x403d884, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_CameraUpdated, addr 0x5cf27b4, size 0xac, virtual false, abstract: false, final false
   inline void add_CameraUpdated(::System::Action* value);
 
-  /// @brief Method add_PreCharacterMove, addr 0x403d9bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_PreCharacterMove, addr 0x5cf290c, size 0xac, virtual false, abstract: false, final false
   inline void add_PreCharacterMove(::System::Action* value);
 
-  /// @brief Method add_TransformUpdated, addr 0x403d724, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_TransformUpdated, addr 0x5cf2634, size 0xc0, virtual false, abstract: false, final false
   inline void add_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method get_InitialYRotation, addr 0x403daf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_InitialYRotation, addr 0x5cf2a64, size 0x8, virtual false, abstract: false, final false
   inline float_t get_InitialYRotation();
 
-  /// @brief Method remove_CameraUpdated, addr 0x403d920, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_CameraUpdated, addr 0x5cf2860, size 0xac, virtual false, abstract: false, final false
   inline void remove_CameraUpdated(::System::Action* value);
 
-  /// @brief Method remove_PreCharacterMove, addr 0x403da58, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_PreCharacterMove, addr 0x5cf29b8, size 0xac, virtual false, abstract: false, final false
   inline void remove_PreCharacterMove(::System::Action* value);
 
-  /// @brief Method remove_TransformUpdated, addr 0x403d7d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_TransformUpdated, addr 0x5cf26f4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_TransformUpdated(::System::Action_1<::UnityW<::UnityEngine::Transform>>* value);
 
-  /// @brief Method set_InitialYRotation, addr 0x403dafc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_InitialYRotation, addr 0x5cf2a6c, size 0x8, virtual false, abstract: false, final false
   inline void set_InitialYRotation(float_t value);
 
 protected:
@@ -483,7 +531,7 @@ public:
   OVRPlayerController(OVRPlayerController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8469 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7941 };
 
   /// @brief Field Acceleration, offset: 0x20, size: 0x4, def value: None
   float_t ___Acceleration;
@@ -599,6 +647,21 @@ public:
   /// @brief Field playerControllerEnabled, offset: 0xd5, size: 0x1, def value: None
   bool ___playerControllerEnabled;
 
+  /// @brief Field moveForwardAction, offset: 0xd8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveForwardAction;
+
+  /// @brief Field moveLeftAction, offset: 0xe0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveLeftAction;
+
+  /// @brief Field moveRightAction, offset: 0xe8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveRightAction;
+
+  /// @brief Field moveBackAction, offset: 0xf0, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___moveBackAction;
+
+  /// @brief Field runAction, offset: 0xf8, size: 0x8, def value: None
+  ::UnityEngine::InputSystem::InputAction* ___runAction;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -678,7 +741,17 @@ static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___ReadyToSnapTur
 
 static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___playerControllerEnabled) == 0xd5, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPlayerController, 0xd8>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___moveForwardAction) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___moveLeftAction) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___moveRightAction) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___moveBackAction) == 0xf0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRPlayerController, ___runAction) == 0xf8, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRPlayerController, 0x100>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRPlayerController);

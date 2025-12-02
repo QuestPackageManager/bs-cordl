@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WTauNafPreCompInfo)
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class PreCompInfo;
+}
 namespace Org::BouncyCastle::Math::EC {
 class AbstractF2mPoint;
 }
@@ -15,7 +17,7 @@ class WTauNafPreCompInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafPreCompInfo);
-// Dependencies Org.BouncyCastle.Math.EC.Multiplier.PreCompInfo, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.WTauNafPreCompInfo
@@ -40,16 +42,16 @@ public:
 
   constexpr void __cordl_internal_set_m_preComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> value);
 
-  /// @brief Method .ctor, addr 0x24bcf1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ebf28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_PreComp, addr 0x24bcf24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PreComp, addr 0x33ebf2c, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> get_PreComp();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo"
   constexpr ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* i___Org__BouncyCastle__Math__EC__Multiplier__PreCompInfo() noexcept;
 
-  /// @brief Method set_PreComp, addr 0x24bcf2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_PreComp, addr 0x33ebf34, size 0x8, virtual true, abstract: false, final false
   inline void set_PreComp(::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> value);
 
 protected:

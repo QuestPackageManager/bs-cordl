@@ -26,6 +26,8 @@ public:
     __E_Base = static_cast<int32_t>(0x0),
     __E_Upper = static_cast<int32_t>(0x1),
     __E_Top = static_cast<int32_t>(0x2),
+    __E_Layer3 = static_cast<int32_t>(0x3),
+    __E_Layer4 = static_cast<int32_t>(0x4),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -48,6 +50,12 @@ public:
   /// @brief Field Base value: I32(0)
   static ::GlobalNamespace::NoteLineLayer const Base;
 
+  /// @brief Field Layer3 value: I32(3)
+  static ::GlobalNamespace::NoteLineLayer const Layer3;
+
+  /// @brief Field Layer4 value: I32(4)
+  static ::GlobalNamespace::NoteLineLayer const Layer4;
+
   /// @brief Field Top value: I32(2)
   static ::GlobalNamespace::NoteLineLayer const Top;
 
@@ -55,7 +63,7 @@ public:
   static ::GlobalNamespace::NoteLineLayer const Upper;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20998 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

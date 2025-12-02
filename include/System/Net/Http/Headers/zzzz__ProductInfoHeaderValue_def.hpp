@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -18,6 +17,9 @@ namespace System::Net::Http::Headers {
 class ProductHeaderValue;
 }
 namespace System {
+class ICloneable;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,7 +28,7 @@ class ProductInfoHeaderValue;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Http::Headers::ProductInfoHeaderValue);
-// Dependencies System.ICloneable, System.Object
+// Dependencies System.Object
 namespace System::Net::Http::Headers {
 // Is value type: false
 // CS Name: System.Net.Http.Headers.ProductInfoHeaderValue
@@ -47,26 +49,26 @@ public:
   /// @brief Convert operator to "::System::ICloneable"
   constexpr operator ::System::ICloneable*() noexcept;
 
-  /// @brief Method Equals, addr 0x4225b58, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5ed1238, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x4225c18, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5ed12f8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor();
 
   static inline ::System::Net::Http::Headers::ProductInfoHeaderValue* New_ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method System.ICloneable.Clone, addr 0x4225b50, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ICloneable.Clone, addr 0x5ed1234, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* System_ICloneable_Clone();
 
-  /// @brief Method ToString, addr 0x4225fe0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5ed16b0, size 0x20, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method TryParse, addr 0x4225c44, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method TryParse, addr 0x5ed1320, size 0x1b4, virtual false, abstract: false, final false
   static inline bool TryParse(::StringW input, int32_t minimalCount, ::ByRef<::System::Collections::Generic::List_1<::System::Net::Http::Headers::ProductInfoHeaderValue*>*> result);
 
-  /// @brief Method TryParseElement, addr 0x4225df4, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method TryParseElement, addr 0x5ed14d4, size 0x1dc, virtual false, abstract: false, final false
   static inline bool TryParseElement(::System::Net::Http::Headers::Lexer* lexer, ::ByRef<::System::Net::Http::Headers::ProductInfoHeaderValue*> parsedValue);
 
   constexpr ::StringW const& __cordl_internal_get__Comment_k__BackingField() const;
@@ -81,25 +83,25 @@ public:
 
   constexpr void __cordl_internal_set__Product_k__BackingField(::System::Net::Http::Headers::ProductHeaderValue* value);
 
-  /// @brief Method .ctor, addr 0x4225b28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed1210, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4225ac8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ed11cc, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::Http::Headers::ProductHeaderValue* product);
 
-  /// @brief Method get_Comment, addr 0x4225b30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Comment, addr 0x5ed1214, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Comment();
 
-  /// @brief Method get_Product, addr 0x4225b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Product, addr 0x5ed1224, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::Http::Headers::ProductHeaderValue* get_Product();
 
   /// @brief Convert to "::System::ICloneable"
   constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Comment, addr 0x4225b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Comment, addr 0x5ed121c, size 0x8, virtual false, abstract: false, final false
   inline void set_Comment(::StringW value);
 
-  /// @brief Method set_Product, addr 0x4225b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Product, addr 0x5ed122c, size 0x8, virtual false, abstract: false, final false
   inline void set_Product(::System::Net::Http::Headers::ProductHeaderValue* value);
 
 protected:
@@ -117,7 +119,7 @@ public:
   ProductInfoHeaderValue(ProductInfoHeaderValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20195 };
 
   /// @brief Field <Comment>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Comment_k__BackingField;

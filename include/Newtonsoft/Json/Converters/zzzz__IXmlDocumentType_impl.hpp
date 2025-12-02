@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Converters/IXmlDocumentType.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__IXmlDocumentType_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::IXmlDocumentType.get_Name
 template <>
 

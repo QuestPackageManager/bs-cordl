@@ -4,6 +4,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(IPropertyBag)
+namespace System {
+class Object;
+}
+namespace Unity::Properties {
+class IPropertyBagVisitor;
+}
 namespace Unity::Properties {
 class ITypeVisitor;
 }
@@ -21,6 +27,9 @@ class CORDL_TYPE IPropertyBag {
 public:
   // Declarations
   /// @brief Method Accept, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Accept(::Unity::Properties::IPropertyBagVisitor* visitor, ::ByRef<::System::Object*> container);
+
+  /// @brief Method Accept, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Accept(::Unity::Properties::ITypeVisitor* visitor);
 
   // Ctor Parameters [CppParam { name: "", ty: "IPropertyBag", modifiers: "const&", def_value: None }]
@@ -28,7 +37,7 @@ public:
   IPropertyBag(IPropertyBag const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17467 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19337 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

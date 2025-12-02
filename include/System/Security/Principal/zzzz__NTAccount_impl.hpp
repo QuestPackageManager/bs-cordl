@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::NTAccount::*)(::StringW)>(&::System::Security::Principal::NTAccount::_ctor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3cb9218;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x58fcf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::NTAccount::*)()>(&::System::Security::Principal::NTAccount::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb92f8;
+  constexpr static std::size_t addrs = 0x58fd000;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Principal::NTAccount::*)(::System::Object*)>(
     &::System::Security::Principal::NTAccount::Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3cb9300;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x58fd008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Principal::NTAccount::*)()>(&::System::Security::Principal::NTAccount::GetHashCode)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cb9400;
+  constexpr static std::size_t addrs = 0x58fd10c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::NTAccount::*)()>(&::System::Security::Principal::NTAccount::ToString)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cb9428;
+  constexpr static std::size_t addrs = 0x58fd134;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Principal::IdentityReference* (::System::Security::Principal::NTAccount::*)(::System::Type*)>(
     &::System::Security::Principal::NTAccount::Translate)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x3cb9434;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x58fd140;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Security::Principal::NTAccount*, ::System::Security::Principal::NTAccount*)>(
     &::System::Security::Principal::NTAccount::op_Equality)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cb9398;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x58fd0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

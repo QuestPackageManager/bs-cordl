@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_RootScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4047120;
+  constexpr static std::size_t addrs = 0x5cfe360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(float_t)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_RootScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4047128;
+  constexpr static std::size_t addrs = 0x5cfe368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4047130;
+  constexpr static std::size_t addrs = 0x5cfe370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataValid)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4047138;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfe378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4047144;
+  constexpr static std::size_t addrs = 0x5cfe380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_IsDataHighConfidence)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x404714c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfe388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4047158;
+  constexpr static std::size_t addrs = 0x5cfe390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer_SkeletonRendererData::set_ShouldUseSystemGestureMaterial)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4047160;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfe398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,8 +236,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*, float_t, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::_ctor)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x404652c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x5cfd7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -255,8 +255,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::*)(
     float_t, bool, bool, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior)>(
     &::GlobalNamespace::OVRSkeletonRenderer_BoneVisualization::Update)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4046a88;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x5cfdd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,8 +374,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Material*, ::UnityEngine::Material*, float_t, ::GlobalNamespace::OVRBoneCapsule*)>(
     &::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::_ctor)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4046704;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5cfd988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,8 +393,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::*)(
     float_t, bool, bool, ::GlobalNamespace::OVRSkeletonRenderer_ConfidenceBehavior, ::GlobalNamespace::OVRSkeletonRenderer_SystemGestureBehavior)>(
     &::GlobalNamespace::OVRSkeletonRenderer_CapsuleVisualization::Update)> {
-  constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x4046c60;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x5cfded0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -512,7 +512,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsInitialized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045bf8;
+  constexpr static std::size_t addrs = 0x5cfce4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -524,8 +524,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsInitialized)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4045c00;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfce54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -539,7 +539,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::get_IsDataValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045c0c;
+  constexpr static std::size_t addrs = 0x5cfce5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -551,8 +551,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(&::GlobalNamespace::OVRSkeletonRenderer::set_IsDataValid)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4045c14;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfce64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -567,7 +567,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer::get_IsDataHighConfidence)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045c20;
+  constexpr static std::size_t addrs = 0x5cfce6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -580,8 +580,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer::set_IsDataHighConfidence)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4045c28;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfce74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(
     &::GlobalNamespace::OVRSkeletonRenderer::get_ShouldUseSystemGestureMaterial)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4045c34;
+  constexpr static std::size_t addrs = 0x5cfce7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -610,8 +610,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)(bool)>(
     &::GlobalNamespace::OVRSkeletonRenderer::set_ShouldUseSystemGestureMaterial)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4045c3c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cfce84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -624,8 +624,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Awake)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4045c48;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5cfce8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Awake",
@@ -637,8 +637,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Start)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4045d00;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5cfcf50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Start",
@@ -650,8 +650,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::ShouldInitialize)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4045dac;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5cfd000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(),
@@ -663,8 +663,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Initialize)> {
-  constexpr static std::size_t size = 0x74c;
-  constexpr static std::size_t addrs = 0x4045de0;
+  constexpr static std::size_t size = 0x784;
+  constexpr static std::size_t addrs = 0x5cfd030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Initialize",
@@ -676,8 +676,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::Update)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x40468c4;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x5cfdb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "Update",
@@ -689,8 +689,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::OnDestroy)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4046f80;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5cfe1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), "OnDestroy",
@@ -702,8 +702,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSkeletonRenderer::*)()>(&::GlobalNamespace::OVRSkeletonRenderer::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40470ac;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5cfe2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSkeletonRenderer*>::get(), ".ctor",

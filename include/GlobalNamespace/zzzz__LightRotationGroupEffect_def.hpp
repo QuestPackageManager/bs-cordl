@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b91e0c, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57804a4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(int32_t groupId, int32_t elementId, ::GlobalNamespace::LightAxis axis, bool mirrored, ::UnityEngine::Transform* transform);
 
 protected:
@@ -118,7 +118,7 @@ public:
   LightRotationGroupEffect_InitData(LightRotationGroupEffect_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5889 };
 
   /// @brief Field groupId, offset: 0x10, size: 0x4, def value: None
   int32_t ___groupId;
@@ -183,19 +183,19 @@ public:
   /// @brief Field _tweeningManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__tweeningManager, put = __cordl_internal_set__tweeningManager)) ::UnityW<::Tweening::SongTimeTweeningManager> _tweeningManager;
 
-  /// @brief Method Cleanup, addr 0x3b919bc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method Cleanup, addr 0x57800ac, size 0xa0, virtual false, abstract: false, final false
   inline void Cleanup();
 
-  /// @brief Method ComputeTargetAngle, addr 0x3b91d30, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ComputeTargetAngle, addr 0x57803d4, size 0xd0, virtual false, abstract: false, final false
   static inline float_t ComputeTargetAngle(float_t startAngle, float_t targetAngle, int32_t loopCount, ::GlobalNamespace::LightRotationDirection rotationOrientation);
 
-  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x3b91a58, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method HandleRotationChangeBeatmapEvent, addr 0x578014c, size 0x128, virtual false, abstract: false, final false
   inline void HandleRotationChangeBeatmapEvent(::GlobalNamespace::LightRotationBeatmapEventData* currentEventData);
 
   static inline ::GlobalNamespace::LightRotationGroupEffect* New_ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                                                                       ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
-  /// @brief Method SetRotation, addr 0x3b91be0, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method SetRotation, addr 0x5780274, size 0x160, virtual false, abstract: false, final false
   inline void SetRotation(float_t rotation);
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -240,7 +240,7 @@ public:
 
   constexpr void __cordl_internal_set__tweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value);
 
-  /// @brief Method .ctor, addr 0x3b917a4, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577fe58, size 0x254, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::LightRotationGroupEffect_InitData* initData, ::Tweening::SongTimeTweeningManager* tweeningManager,
                     ::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
@@ -259,7 +259,7 @@ public:
   LightRotationGroupEffect(LightRotationGroupEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4309 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5890 };
 
   /// @brief Field _transform, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;

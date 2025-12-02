@@ -14,8 +14,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x2305518;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3232780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::_ctor)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x2305554;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x323278c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::GetInstance)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x23034ac;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x323069c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::get_ContentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23056c4;
+  constexpr static std::size_t addrs = 0x3232904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*>::get(),
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::get_ContentEncryptionAlgorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23056cc;
+  constexpr static std::size_t addrs = 0x323290c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::get_EncryptedContent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23056d4;
+  constexpr static std::size_t addrs = 0x3232914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo*>::get(),
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::EncryptedContentInfo::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x23056dc;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x323291c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LiteNetLib::PacketProperty (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_Property)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ab31c4;
+  constexpr static std::size_t addrs = 0x568ce24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_Property",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(::LiteNetLib::PacketProperty)>(&::LiteNetLib::NetPacket::set_Property)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ab4c94;
+  constexpr static std::size_t addrs = 0x568e924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_ConnectionNumber)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ab5fec;
+  constexpr static std::size_t addrs = 0x568fc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_ConnectionNumber",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(uint8_t)>(&::LiteNetLib::NetPacket::set_ConnectionNumber)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ab278c;
+  constexpr static std::size_t addrs = 0x568c3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_Sequence)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6018;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x568fcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_Sequence",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_Sequence)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6028;
+  constexpr static std::size_t addrs = 0x568fcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,7 +90,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_IsFragmented)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ab603c;
+  constexpr static std::size_t addrs = 0x568fcd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_IsFragmented",
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::MarkFragmented)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ab6068;
+  constexpr static std::size_t addrs = 0x568fd00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "MarkFragmented",
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_ChannelId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ab6098;
+  constexpr static std::size_t addrs = 0x568fd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_ChannelId",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(uint8_t)>(&::LiteNetLib::NetPacket::set_ChannelId)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ab60c4;
+  constexpr static std::size_t addrs = 0x568fd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_FragmentId)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab60f0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x568fd88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_FragmentId",
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_FragmentId)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6100;
+  constexpr static std::size_t addrs = 0x568fd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,8 +169,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_FragmentPart)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6110;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x568fda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_FragmentPart",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_FragmentPart)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6120;
+  constexpr static std::size_t addrs = 0x568fdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,8 +196,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::get_FragmentsTotal)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6130;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x568fdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "get_FragmentsTotal",
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(uint16_t)>(&::LiteNetLib::NetPacket::set_FragmentsTotal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ab6140;
+  constexpr static std::size_t addrs = 0x568fdcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -223,8 +223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(int32_t)>(&::LiteNetLib::NetPacket::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3ab6150;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x568fddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -237,8 +237,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NetPacket::*)(::LiteNetLib::PacketProperty, int32_t)>(&::LiteNetLib::NetPacket::_ctor)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ab61bc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x568fe40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -253,7 +253,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::LiteNetLib::PacketProperty)>(&::LiteNetLib::NetPacket::GetHeaderSize)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ab4c68;
+  constexpr static std::size_t addrs = 0x568e8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -266,8 +266,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::LiteNetLib::NetPacket::*)()>(&::LiteNetLib::NetPacket::GetHeaderSize)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3aafa50;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x56895a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NetPacket*>::get(), "GetHeaderSize",
@@ -280,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::NetPacket::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::LiteNetLib::NetPacket::FromBytes)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x3ab3098;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x568cd04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

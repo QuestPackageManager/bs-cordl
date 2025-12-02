@@ -1,24 +1,24 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockNodePoseSyncStateSender.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockNodePoseSyncStateSender_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockNodePoseSyncStateSender._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockNodePoseSyncStateSender::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockNodePoseSyncStateSender::*)(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(
     &::GlobalNamespace::MockNodePoseSyncStateSender::_ctor)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3c29f2c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x586d31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockNodePoseSyncStateSender*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get() })));
     return ___internal_method;
   }
 };
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockNodePoseSyncStateSender::*)()>(
     &::GlobalNamespace::MockNodePoseSyncStateSender::Dispose)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c2a09c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x586d4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockNodePoseSyncStateSender*>::get(),
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockNodePoseSyncStateSender::*)(
     ::GlobalNamespace::PoseSerializable, ::GlobalNamespace::PoseSerializable, ::GlobalNamespace::PoseSerializable)>(&::GlobalNamespace::MockNodePoseSyncStateSender::SendPose)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3c2a158;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x586d584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockNodePoseSyncStateSender::*)(
     ::GlobalNamespace::NodePoseSyncStateNetSerializable*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockNodePoseSyncStateSender::HandleNodePoseSyncStateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c2a388;
+  constexpr static std::size_t addrs = 0x586d75c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,23 +69,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MockNodePoseSyncStateSender::__cordl_internal_get__multiplayerSessionManager() {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& GlobalNamespace::MockNodePoseSyncStateSender::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MockNodePoseSyncStateSender::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& GlobalNamespace::MockNodePoseSyncStateSender::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr void GlobalNamespace::MockNodePoseSyncStateSender::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::MockNodePoseSyncStateSender::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MockNodePoseSyncStateSender::_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm) {
+inline void GlobalNamespace::MockNodePoseSyncStateSender::_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockNodePoseSyncStateSender*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, msm);
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, multiplayerSessionManager);
 }
 inline void GlobalNamespace::MockNodePoseSyncStateSender::Dispose() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockNodePoseSyncStateSender*>::get(), "Dispose",
@@ -109,8 +109,8 @@ inline void GlobalNamespace::MockNodePoseSyncStateSender::HandleNodePoseSyncStat
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IConnectedPlayer*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nodePose, connectedPlayer);
 }
-inline ::GlobalNamespace::MockNodePoseSyncStateSender* GlobalNamespace::MockNodePoseSyncStateSender::New_ctor(::GlobalNamespace::IMultiplayerSessionManager* msm) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockNodePoseSyncStateSender*>(msm));
+inline ::GlobalNamespace::MockNodePoseSyncStateSender* GlobalNamespace::MockNodePoseSyncStateSender::New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockNodePoseSyncStateSender*>(multiplayerSessionManager));
 }
 /// @brief Convert operator to "::System::IDisposable"
 constexpr GlobalNamespace::MockNodePoseSyncStateSender::operator ::System::IDisposable*() noexcept {

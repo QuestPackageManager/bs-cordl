@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsKeyExchange)
@@ -22,6 +21,9 @@ class TlsContext;
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsCredentials;
 }
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsKeyExchange;
+}
 namespace System::Collections {
 class IList;
 }
@@ -34,7 +36,7 @@ class AbstractTlsKeyExchange;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsKeyExchange, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsKeyExchange
@@ -61,42 +63,42 @@ public:
   /// @brief Method GeneratePremasterSecret, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GeneratePremasterSecret();
 
-  /// @brief Method GenerateServerKeyExchange, addr 0x23e2078, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GenerateServerKeyExchange, addr 0x33104d8, size 0x5c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateServerKeyExchange();
 
-  /// @brief Method Init, addr 0x23e1da8, size 0x20c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x33101ec, size 0x21c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsKeyExchange* New_ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method ParseSignature, addr 0x23e1c3c, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method ParseSignature, addr 0x331006c, size 0xa4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* ParseSignature(::System::IO::Stream* input);
 
-  /// @brief Method ProcessClientCertificate, addr 0x23e2188, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientCertificate, addr 0x33105e8, size 0x4, virtual true, abstract: false, final false
   inline void ProcessClientCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* clientCertificate);
 
   /// @brief Method ProcessClientCredentials, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ProcessClientCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* clientCredentials);
 
-  /// @brief Method ProcessClientKeyExchange, addr 0x23e218c, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method ProcessClientKeyExchange, addr 0x33105ec, size 0x3c, virtual true, abstract: false, final false
   inline void ProcessClientKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method ProcessServerCertificate, addr 0x23e1fb4, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCertificate, addr 0x3310408, size 0x4, virtual true, abstract: false, final false
   inline void ProcessServerCertificate(::Org::BouncyCastle::Crypto::Tls::Certificate* serverCertificate);
 
-  /// @brief Method ProcessServerCredentials, addr 0x23e1fb8, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerCredentials, addr 0x331040c, size 0xc4, virtual true, abstract: false, final false
   inline void ProcessServerCredentials(::Org::BouncyCastle::Crypto::Tls::TlsCredentials* serverCredentials);
 
-  /// @brief Method ProcessServerKeyExchange, addr 0x23e212c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method ProcessServerKeyExchange, addr 0x331058c, size 0x58, virtual true, abstract: false, final false
   inline void ProcessServerKeyExchange(::System::IO::Stream* input);
 
-  /// @brief Method SkipClientCredentials, addr 0x23e2184, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method SkipClientCredentials, addr 0x33105e4, size 0x4, virtual true, abstract: false, final false
   inline void SkipClientCredentials();
 
   /// @brief Method SkipServerCredentials, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SkipServerCredentials();
 
-  /// @brief Method SkipServerKeyExchange, addr 0x23e20d4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method SkipServerKeyExchange, addr 0x3310534, size 0x58, virtual true, abstract: false, final false
   inline void SkipServerKeyExchange();
 
   /// @brief Method ValidateCertificateRequest, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -120,10 +122,10 @@ public:
 
   constexpr void __cordl_internal_set_mSupportedSignatureAlgorithms(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x23e1c0c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3310060, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t keyExchange, ::System::Collections::IList* supportedSignatureAlgorithms);
 
-  /// @brief Method get_RequiresServerKeyExchange, addr 0x23e2070, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresServerKeyExchange, addr 0x33104d0, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresServerKeyExchange();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange"

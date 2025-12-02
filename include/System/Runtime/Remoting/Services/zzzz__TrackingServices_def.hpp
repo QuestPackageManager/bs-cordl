@@ -30,13 +30,13 @@ public:
   /// @brief Field _handlers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers)) ::System::Collections::ArrayList* _handlers;
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x3cd53a0, size 0x300, virtual false, abstract: false, final false
+  /// @brief Method NotifyDisconnectedObject, addr 0x5918350, size 0x308, virtual false, abstract: false, final false
   static inline void NotifyDisconnectedObject(::System::Object* obj);
 
-  /// @brief Method NotifyMarshaledObject, addr 0x3cd1624, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NotifyMarshaledObject, addr 0x5914840, size 0x31c, virtual false, abstract: false, final false
   static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x3cd09ec, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method NotifyUnmarshaledObject, addr 0x5913ba4, size 0x31c, virtual false, abstract: false, final false
   static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
 
   static inline ::System::Collections::ArrayList* getStaticF__handlers();
@@ -58,7 +58,7 @@ public:
   TrackingServices(TrackingServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3084 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3101 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::ServicePointManagerElement::*)()>(
     &::System::Net::Configuration::ServicePointManagerElement::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44075b4;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x61558a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::ServicePointManagerElement*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Configuration::ConfigurationPropertyCollection* (
     ::System::Net::Configuration::ServicePointManagerElement::*)()>(&::System::Net::Configuration::ServicePointManagerElement::get_Properties)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x44075ec;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x61558dc;
 
   inline static ::MethodInfo const* methodInfo() {
 

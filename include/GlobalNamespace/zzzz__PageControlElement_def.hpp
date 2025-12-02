@@ -41,7 +41,7 @@ public:
 
   static inline ::GlobalNamespace::PageControlElement* New_ctor();
 
-  /// @brief Method SetSelected, addr 0x3b05bf8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetSelected, addr 0x56e76d4, size 0x68, virtual false, abstract: false, final false
   inline void SetSelected(bool isSelected);
 
   constexpr ::UnityW<::HMUI::ImageView> const& __cordl_internal_get__imageView() const;
@@ -68,10 +68,10 @@ public:
 
   constexpr void __cordl_internal_set__unselectedColor(::UnityEngine::Color value);
 
-  /// @brief Method .ctor, addr 0x3b05d64, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e7924, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rectTransform, addr 0x3b05d5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rectTransform, addr 0x56e791c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_rectTransform();
 
 protected:
@@ -89,7 +89,7 @@ public:
   PageControlElement(PageControlElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6578 };
 
   /// @brief Field _rectTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::RectTransform> ____rectTransform;

@@ -28,10 +28,10 @@ public:
 
   static inline ::System::TypeAccessException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e06d20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4d160, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e06d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4d1bc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -49,7 +49,7 @@ public:
   TypeAccessException(TypeAccessException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2494 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2500 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

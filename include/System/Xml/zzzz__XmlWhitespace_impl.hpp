@@ -2,6 +2,7 @@
 // IWYU pragma private; include "System/Xml/XmlWhitespace.hpp"
 #include "System/Xml/zzzz__XmlCharacterData_impl.hpp"
 #include "System/Xml/zzzz__XmlWhitespace_def.hpp"
+#include "System/Xml/XPath/zzzz__XPathNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlDocument_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/Xml/zzzz__XmlNode_def.hpp"
@@ -11,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::StringW, ::System::Xml::XmlDocument*)>(
     &::System::Xml::XmlWhitespace::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x434a1c8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x60b0dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,63 +28,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_Name)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x434a264;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 6));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_LocalName
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_LocalName)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x434a28c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 36));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_NodeType
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_NodeType)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434a2b4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 9));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_ParentNode
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_ParentNode)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x434a2bc;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 10));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_Value
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_Value)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x434a344;
+  constexpr static std::size_t addrs = 0x60b0ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,12 +37,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::XmlWhitespace.set_Value
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_LocalName
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::StringW)>(&::System::Xml::XmlWhitespace::set_Value)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_LocalName)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x60b0ecc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 37));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_NodeType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_NodeType)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x60b0ef4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 10));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_ParentNode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_ParentNode)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x434a354;
+  constexpr static std::size_t addrs = 0x60b0efc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 11));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_Value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_Value)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x60b0f88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,17 +93,31 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.set_Value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::StringW)>(&::System::Xml::XmlWhitespace::set_Value)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x60b0f98;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 9));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlWhitespace.CloneNode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlWhitespace::*)(bool)>(&::System::Xml::XmlWhitespace::CloneNode)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x434a3e0;
+  constexpr static std::size_t addrs = 0x60b102c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 31));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 32));
     return ___internal_method;
   }
 };
@@ -125,21 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlWhitespace::WriteTo)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x434a43c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 43));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::System::Xml::XmlWhitespace.WriteContentTo
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlWhitespace::WriteContentTo)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x434a47c;
+  constexpr static std::size_t addrs = 0x60b1088;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,17 +135,60 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.WriteContentTo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlWhitespace::*)(::System::Xml::XmlWriter*)>(&::System::Xml::XmlWhitespace::WriteContentTo)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60b10c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 45));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_XPNodeType
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathNodeType (::System::Xml::XmlWhitespace::*)()>(
+    &::System::Xml::XmlWhitespace::get_XPNodeType)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x60b10cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 56));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlWhitespace.get_IsText
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_IsText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x434a480;
+  constexpr static std::size_t addrs = 0x60b10f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 55));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 58));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlWhitespace.get_PreviousText
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNode* (::System::Xml::XmlWhitespace::*)()>(&::System::Xml::XmlWhitespace::get_PreviousText)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x60b10fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 59));
     return ___internal_method;
   }
 };
@@ -171,53 +201,63 @@ inline void System::Xml::XmlWhitespace::_ctor(::StringW strData, ::System::Xml::
 }
 inline ::StringW System::Xml::XmlWhitespace::get_Name() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 6)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XmlWhitespace::get_LocalName() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 36)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 37)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlNodeType System::Xml::XmlWhitespace::get_NodeType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 9)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNodeType, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlNode* System::Xml::XmlWhitespace::get_ParentNode() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 10)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method);
 }
 inline ::StringW System::Xml::XmlWhitespace::get_Value() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 7)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlWhitespace::set_Value(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 8)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline ::System::Xml::XmlNode* System::Xml::XmlWhitespace::CloneNode(bool deep) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method, deep);
 }
 inline void System::Xml::XmlWhitespace::WriteTo(::System::Xml::XmlWriter* w) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 43)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 44)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, w);
 }
 inline void System::Xml::XmlWhitespace::WriteContentTo(::System::Xml::XmlWriter* w) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 44)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 45)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, w);
+}
+inline ::System::Xml::XPath::XPathNodeType System::Xml::XmlWhitespace::get_XPNodeType() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 56)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XPath::XPathNodeType, false>(this, ___internal_method);
 }
 inline bool System::Xml::XmlWhitespace::get_IsText() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 55)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 58)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::System::Xml::XmlNode* System::Xml::XmlWhitespace::get_PreviousText() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlWhitespace*>::get(), 59)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlNode*, false>(this, ___internal_method);
 }
 inline ::System::Xml::XmlWhitespace* System::Xml::XmlWhitespace::New_ctor(::StringW strData, ::System::Xml::XmlDocument* doc) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::XmlWhitespace*>(strData, doc));

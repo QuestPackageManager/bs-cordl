@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Position)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x479df94;
+  constexpr static std::size_t addrs = 0x66ff7f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Rotation)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x479dfa0;
+  constexpr static std::size_t addrs = 0x66ff7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (
     ::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(&::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_Parent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479dfac;
+  constexpr static std::size_t addrs = 0x66ff808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_InstantiateInWorldPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479dfb4;
+  constexpr static std::size_t addrs = 0x66ff810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)()>(
     &::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::get_SetPositionRotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479dfbc;
+  constexpr static std::size_t addrs = 0x66ff818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)(
     ::UnityEngine::Transform*, bool)>(&::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x479dfc4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x66ff820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Transform*)>(&::UnityEngine::ResourceManagement::ResourceProviders::InstantiationParameters::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x479e074;
+  constexpr static std::size_t addrs = 0x66ff8d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

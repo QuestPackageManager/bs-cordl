@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler___c::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bc90;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ab1dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ThreadPoolTaskScheduler___c*>::get(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler___c::*)(::System::Object*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler___c::__cctor_b__10_0)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e6bc98;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5ab1dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e6b850;
+  constexpr static std::size_t addrs = 0x5ab194c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ThreadPoolTaskScheduler*>::get(),
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::QueueTask)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3e6b8a8;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x5ab19a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::TryExecuteTaskInline)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3e6ba70;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5ab1bb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::TryDequeue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bb50;
+  constexpr static std::size_t addrs = 0x5ab1c90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::NotifyWorkItemProgress)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e6bb58;
+  constexpr static std::size_t addrs = 0x5ab1c98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ThreadPoolTaskScheduler::*)()>(
     &::System::Threading::Tasks::ThreadPoolTaskScheduler::get_RequiresAtomicStartTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6bb68;
+  constexpr static std::size_t addrs = 0x5ab1ca8;
 
   inline static ::MethodInfo const* methodInfo() {
 

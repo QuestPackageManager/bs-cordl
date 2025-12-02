@@ -20,20 +20,10 @@ template <typename TSubsystemDescriptor>
 class CORDL_TYPE IntegratedSubsystem_1 : public ::UnityEngine::IntegratedSubsystem {
 public:
   // Declarations
-  __declspec(property(get = get_SubsystemDescriptor)) TSubsystemDescriptor SubsystemDescriptor;
-
-  __declspec(property(get = get_subsystemDescriptor)) TSubsystemDescriptor subsystemDescriptor;
-
   static inline ::UnityEngine::IntegratedSubsystem_1<TSubsystemDescriptor>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
-
-  /// @brief Method get_SubsystemDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TSubsystemDescriptor get_SubsystemDescriptor();
-
-  /// @brief Method get_subsystemDescriptor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline TSubsystemDescriptor get_subsystemDescriptor();
 
 protected:
   // Ctor Parameters []
@@ -50,7 +40,7 @@ public:
   IntegratedSubsystem_1(IntegratedSubsystem_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18733 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22502 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

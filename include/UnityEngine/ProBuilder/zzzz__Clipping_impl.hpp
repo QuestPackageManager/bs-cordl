@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Clipping_OutCode (*)(::UnityEngine::Rect, float_t, float_t)>(
     &::UnityEngine::ProBuilder::Clipping::ComputeOutCode)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4704b08;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6499898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rect, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::ProBuilder::Clipping::RectContainsLineSegment)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4704b54;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x64998d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

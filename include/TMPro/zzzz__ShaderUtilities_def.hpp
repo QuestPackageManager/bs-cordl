@@ -72,6 +72,9 @@ public:
   /// @brief Field ID_GradientScale, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ID_GradientScale, put = setStaticF_ID_GradientScale)) int32_t ID_GradientScale;
 
+  /// @brief Field ID_IsoPerimeter, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_ID_IsoPerimeter, put = setStaticF_ID_IsoPerimeter)) int32_t ID_IsoPerimeter;
+
   /// @brief Field ID_LightAngle, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ID_LightAngle, put = setStaticF_ID_LightAngle)) int32_t ID_LightAngle;
 
@@ -95,6 +98,18 @@ public:
 
   /// @brief Field ID_OutlineColor, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ID_OutlineColor, put = setStaticF_ID_OutlineColor)) int32_t ID_OutlineColor;
+
+  /// @brief Field ID_OutlineMode, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_ID_OutlineMode, put = setStaticF_ID_OutlineMode)) int32_t ID_OutlineMode;
+
+  /// @brief Field ID_OutlineOffset1, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_ID_OutlineOffset1, put = setStaticF_ID_OutlineOffset1)) int32_t ID_OutlineOffset1;
+
+  /// @brief Field ID_OutlineOffset2, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_ID_OutlineOffset2, put = setStaticF_ID_OutlineOffset2)) int32_t ID_OutlineOffset2;
+
+  /// @brief Field ID_OutlineOffset3, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_ID_OutlineOffset3, put = setStaticF_ID_OutlineOffset3)) int32_t ID_OutlineOffset3;
 
   /// @brief Field ID_OutlineSoftness, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ID_OutlineSoftness, put = setStaticF_ID_OutlineSoftness)) int32_t ID_OutlineSoftness;
@@ -134,6 +149,9 @@ public:
 
   /// @brief Field ID_Shininess, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ID_Shininess, put = setStaticF_ID_Shininess)) int32_t ID_Shininess;
+
+  /// @brief Field ID_Softness, offset 0xffffffff, size 0x4
+  __declspec(property(get = getStaticF_ID_Softness, put = setStaticF_ID_Softness)) int32_t ID_Softness;
 
   /// @brief Field ID_StencilComp, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_ID_StencilComp, put = setStaticF_ID_StencilComp)) int32_t ID_StencilComp;
@@ -234,22 +252,25 @@ public:
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetFontExtent, addr 0x47ff1d0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method ComputePaddingForProperties, addr 0x677ecb4, size 0x2f4, virtual false, abstract: false, final false
+  static inline float_t ComputePaddingForProperties(::UnityEngine::Material* mat);
+
+  /// @brief Method GetFontExtent, addr 0x677e32c, size 0x50, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector4 GetFontExtent(::UnityEngine::Material* material);
 
-  /// @brief Method GetPadding, addr 0x47ff3b0, size 0x6a8, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x677e518, size 0x79c, virtual false, abstract: false, final false
   static inline float_t GetPadding(::UnityEngine::Material* material, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetPadding, addr 0x47ffa58, size 0x8f0, virtual false, abstract: false, final false
+  /// @brief Method GetPadding, addr 0x677efa8, size 0x838, virtual false, abstract: false, final false
   static inline float_t GetPadding(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> materials, bool enableExtraPadding, bool isBold);
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x47f8308, size 0xacc, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x6775014, size 0xdc4, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
-  /// @brief Method IsMaskingEnabled, addr 0x47ff214, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method IsMaskingEnabled, addr 0x677e37c, size 0x19c, virtual false, abstract: false, final false
   static inline bool IsMaskingEnabled(::UnityEngine::Material* material);
 
-  /// @brief Method UpdateShaderRatios, addr 0x47fed74, size 0x45c, virtual false, abstract: false, final false
+  /// @brief Method UpdateShaderRatios, addr 0x677df00, size 0x42c, virtual false, abstract: false, final false
   static inline void UpdateShaderRatios(::UnityEngine::Material* mat);
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -280,6 +301,8 @@ public:
 
   static inline int32_t getStaticF_ID_GradientScale();
 
+  static inline int32_t getStaticF_ID_IsoPerimeter();
+
   static inline int32_t getStaticF_ID_LightAngle();
 
   static inline int32_t getStaticF_ID_MainTex();
@@ -295,6 +318,14 @@ public:
   static inline int32_t getStaticF_ID_Outline2Width();
 
   static inline int32_t getStaticF_ID_OutlineColor();
+
+  static inline int32_t getStaticF_ID_OutlineMode();
+
+  static inline int32_t getStaticF_ID_OutlineOffset1();
+
+  static inline int32_t getStaticF_ID_OutlineOffset2();
+
+  static inline int32_t getStaticF_ID_OutlineOffset3();
 
   static inline int32_t getStaticF_ID_OutlineSoftness();
 
@@ -321,6 +352,8 @@ public:
   static inline int32_t getStaticF_ID_Sharpness();
 
   static inline int32_t getStaticF_ID_Shininess();
+
+  static inline int32_t getStaticF_ID_Softness();
 
   static inline int32_t getStaticF_ID_StencilComp();
 
@@ -388,10 +421,10 @@ public:
 
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x47feafc, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x677dc78, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x47fea00, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x677db70, size 0x108, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
@@ -422,6 +455,8 @@ public:
 
   static inline void setStaticF_ID_GradientScale(int32_t value);
 
+  static inline void setStaticF_ID_IsoPerimeter(int32_t value);
+
   static inline void setStaticF_ID_LightAngle(int32_t value);
 
   static inline void setStaticF_ID_MainTex(int32_t value);
@@ -437,6 +472,14 @@ public:
   static inline void setStaticF_ID_Outline2Width(int32_t value);
 
   static inline void setStaticF_ID_OutlineColor(int32_t value);
+
+  static inline void setStaticF_ID_OutlineMode(int32_t value);
+
+  static inline void setStaticF_ID_OutlineOffset1(int32_t value);
+
+  static inline void setStaticF_ID_OutlineOffset2(int32_t value);
+
+  static inline void setStaticF_ID_OutlineOffset3(int32_t value);
 
   static inline void setStaticF_ID_OutlineSoftness(int32_t value);
 
@@ -463,6 +506,8 @@ public:
   static inline void setStaticF_ID_Sharpness(int32_t value);
 
   static inline void setStaticF_ID_Shininess(int32_t value);
+
+  static inline void setStaticF_ID_Softness(int32_t value);
 
   static inline void setStaticF_ID_StencilComp(int32_t value);
 
@@ -545,7 +590,7 @@ public:
   ShaderUtilities(ShaderUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14538 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

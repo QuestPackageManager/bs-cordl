@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(::UnityEngine::UIElements::UIDocument*)>(
     &::UnityEngine::UIElements::UIDocumentList::RemoveFromListAndFromVisualTree)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a3b23c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6b78cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)(
     ::UnityEngine::UIElements::UIDocument*, ::UnityEngine::UIElements::VisualElement*, int32_t)>(&::UnityEngine::UIElements::UIDocumentList::AddToListAndToVisualTree)> {
-  constexpr static std::size_t size = 0x338;
-  constexpr static std::size_t addrs = 0x4a3b2bc;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x6b78d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIDocumentList::*)()>(&::UnityEngine::UIElements::UIDocumentList::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a3b5f4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6b78c60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIDocumentList*>::get(), ".ctor",

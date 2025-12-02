@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IAsyncResult_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FileStreamAsyncResult)
@@ -28,7 +27,7 @@ class FileStreamAsyncResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IO::FileStreamAsyncResult);
-// Dependencies System.IAsyncResult, System.Object
+// Dependencies System.Object
 namespace System::IO {
 // Is value type: false
 // CS Name: System.IO.FileStreamAsyncResult
@@ -73,7 +72,7 @@ public:
   /// @brief Convert operator to "::System::IAsyncResult"
   constexpr operator ::System::IAsyncResult*() noexcept;
 
-  /// @brief Method CBWrapper, addr 0x3d7e044, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method CBWrapper, addr 0x5a07b58, size 0xa4, virtual false, abstract: false, final false
   static inline void CBWrapper(::System::IAsyncResult* ares);
 
   static inline ::System::IO::FileStreamAsyncResult* New_ctor(::System::AsyncCallback* cb, ::System::Object* state);
@@ -132,19 +131,19 @@ public:
 
   constexpr void __cordl_internal_set_wh(::System::Threading::ManualResetEvent* value);
 
-  /// @brief Method .ctor, addr 0x3d7df78, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a06bfc, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::System::AsyncCallback* cb, ::System::Object* state);
 
-  /// @brief Method get_AsyncState, addr 0x3d7e0d8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncState, addr 0x5a07bfc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_AsyncState();
 
-  /// @brief Method get_AsyncWaitHandle, addr 0x3d7e0e8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_AsyncWaitHandle, addr 0x5a07c0c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Threading::WaitHandle* get_AsyncWaitHandle();
 
-  /// @brief Method get_CompletedSynchronously, addr 0x3d7e0e0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CompletedSynchronously, addr 0x5a07c04, size 0x8, virtual true, abstract: false, final true
   inline bool get_CompletedSynchronously();
 
-  /// @brief Method get_IsCompleted, addr 0x3d7e0f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsCompleted, addr 0x5a07c14, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IAsyncResult"
@@ -165,7 +164,7 @@ public:
   FileStreamAsyncResult(FileStreamAsyncResult const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3912 };
 
   /// @brief Field state, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___state;

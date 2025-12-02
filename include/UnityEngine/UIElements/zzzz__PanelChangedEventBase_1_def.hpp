@@ -23,11 +23,11 @@ template <typename T>
 class CORDL_TYPE PanelChangedEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
-  /// @brief Field <destinationPanel>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <destinationPanel>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__destinationPanel_k__BackingField,
                       put = __cordl_internal_set__destinationPanel_k__BackingField)) ::UnityEngine::UIElements::IPanel* _destinationPanel_k__BackingField;
 
-  /// @brief Field <originPanel>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <originPanel>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__originPanel_k__BackingField,
                       put = __cordl_internal_set__originPanel_k__BackingField)) ::UnityEngine::UIElements::IPanel* _originPanel_k__BackingField;
 
@@ -88,12 +88,12 @@ public:
   PanelChangedEventBase_1(PanelChangedEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4525 };
 
-  /// @brief Field <originPanel>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <originPanel>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____originPanel_k__BackingField;
 
-  /// @brief Field <destinationPanel>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <destinationPanel>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::IPanel* ____destinationPanel_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

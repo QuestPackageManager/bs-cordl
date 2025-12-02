@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultAuthenticatedAttributeTableGenerator)
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
 }
 namespace System::Collections {
 class IDictionary;
@@ -18,7 +20,7 @@ class DefaultAuthenticatedAttributeTableGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator);
-// Dependencies Org.BouncyCastle.Cms.CmsAttributeTableGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.DefaultAuthenticatedAttributeTableGenerator
@@ -31,10 +33,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method CreateStandardAttributeTable, addr 0x2675b50, size 0x52c, virtual true, abstract: false, final false
+  /// @brief Method CreateStandardAttributeTable, addr 0x35a5098, size 0x510, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionary* CreateStandardAttributeTable(::System::Collections::IDictionary* parameters);
 
-  /// @brief Method GetAttributes, addr 0x267607c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x35a55a8, size 0x88, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::DefaultAuthenticatedAttributeTableGenerator* New_ctor();
@@ -47,10 +49,10 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Collections::IDictionary* value);
 
-  /// @brief Method .ctor, addr 0x2675a68, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a4fb8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x2675ad0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35a5018, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributeTable);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

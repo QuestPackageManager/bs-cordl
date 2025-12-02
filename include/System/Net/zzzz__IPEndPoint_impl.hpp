@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::AddressFamily (::System::Net::IPEndPoint::*)()>(
     &::System::Net::IPEndPoint::get_AddressFamily)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x448eb2c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x61de548;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::IPEndPoint::*)(::System::Net::IPAddress*, int32_t)>(&::System::Net::IPEndPoint::_ctor)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x448eb58;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x61de570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPAddress* (::System::Net::IPEndPoint::*)()>(&::System::Net::IPEndPoint::get_Address)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448ec10;
+  constexpr static std::size_t addrs = 0x61de60c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPEndPoint*>::get(), "get_Address",
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::IPEndPoint::*)()>(&::System::Net::IPEndPoint::get_Port)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x448ec18;
+  constexpr static std::size_t addrs = 0x61de614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::IPEndPoint*>::get(), "get_Port",
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::IPEndPoint::*)()>(&::System::Net::IPEndPoint::ToString)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x448ec20;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x61de61c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::SocketAddress* (::System::Net::IPEndPoint::*)()>(&::System::Net::IPEndPoint::Serialize)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x448ecdc;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x61de708;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::EndPoint* (::System::Net::IPEndPoint::*)(::System::Net::SocketAddress*)>(
     &::System::Net::IPEndPoint::Create)> {
   constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x448ed44;
+  constexpr static std::size_t addrs = 0x61de774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::IPEndPoint::*)(::System::Object*)>(&::System::Net::IPEndPoint::Equals)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x448ef34;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x61de964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +125,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::IPEndPoint::*)()>(&::System::Net::IPEndPoint::GetHashCode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x448efe8;
+  constexpr static std::size_t addrs = 0x61dea1c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::Start)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b98744;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x5786e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>::get(),
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::OnDestroy)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3b98988;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x5787160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>::get(),
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)(float_t)>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::HandleSongTimeFixedUpdate)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b98ac8;
+  constexpr static std::size_t addrs = 0x5787320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::HandleSongTimeUpdate)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3b98ba4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x57873fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b98c14;
+  constexpr static std::size_t addrs = 0x5787470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PhysicsPositionsMovementEventEffect::*)()>(
     &::GlobalNamespace::PhysicsPositionsMovementEventEffect::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b98c90;
+  constexpr static std::size_t addrs = 0x57874ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PhysicsPositionsMovementEventEffect*>::get(),

@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::FieldByRefUpdater::*)(
     ::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition>, ::System::Reflection::FieldInfo*, int32_t)>(&::System::Linq::Expressions::Interpreter::FieldByRefUpdater::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x40e5ca8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5d92390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::FieldByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*, ::System::Object*)>(&::System::Linq::Expressions::Interpreter::FieldByRefUpdater::Update)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x40e5cf0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5d923a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,8 +50,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::FieldByRefUpdater::*)(
     ::System::Linq::Expressions::Interpreter::InstructionList*, ::System::Linq::Expressions::Interpreter::LocalVariables*)>(
     &::System::Linq::Expressions::Interpreter::FieldByRefUpdater::UndefineTemps)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x40e5d94;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5d92458;
 
   inline static ::MethodInfo const* methodInfo() {
 

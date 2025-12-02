@@ -1,13 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoteController.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectController_impl.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
 #include "GlobalNamespace/zzzz__ILazyCopyHashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteDidDissolveEvent_def.hpp"
@@ -17,13 +13,16 @@
 #include "GlobalNamespace/zzzz__INoteControllerNoteDidStartJumpEvent_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteWasCutEvent_def.hpp"
 #include "GlobalNamespace/zzzz__INoteControllerNoteWasMissedEvent_def.hpp"
+#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMovement_def.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnData_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
@@ -33,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController__DissolveCoroutine_d__69::*)(int32_t)>(
     &::GlobalNamespace::NoteController__DissolveCoroutine_d__69::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3aebaf0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56c7990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController__DissolveCoroutine_d__69::*)()>(
     &::GlobalNamespace::NoteController__DissolveCoroutine_d__69::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3aebb80;
+  constexpr static std::size_t addrs = 0x56c79f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteController__DissolveCoroutine_d__69::*)()>(
     &::GlobalNamespace::NoteController__DissolveCoroutine_d__69::MoveNext)> {
-  constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x3aebb84;
+  constexpr static std::size_t size = 0x36c;
+  constexpr static std::size_t addrs = 0x56c79f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NoteController__DissolveCoroutine_d__69::*)()>(
     &::GlobalNamespace::NoteController__DissolveCoroutine_d__69::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aebf74;
+  constexpr static std::size_t addrs = 0x56c7d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController__DissolveCoroutine_d__69::*)()>(
     &::GlobalNamespace::NoteController__DissolveCoroutine_d__69::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3aebf7c;
+  constexpr static std::size_t addrs = 0x56c7d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::NoteController__DissolveCoroutine_d__69::*)()>(
     &::GlobalNamespace::NoteController__DissolveCoroutine_d__69::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aebfb4;
+  constexpr static std::size_t addrs = 0x56c7da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerDidInitEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_didInitEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaac4;
+  constexpr static std::size_t addrs = 0x56c69ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartJumpEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteDidStartJumpEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaacc;
+  constexpr static std::size_t addrs = 0x56c69b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -265,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidFinishJumpEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteDidFinishJumpEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaad4;
+  constexpr static std::size_t addrs = 0x56c69bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -279,7 +278,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidPassJumpThreeQuartersEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteDidPassJumpThreeQuartersEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaadc;
+  constexpr static std::size_t addrs = 0x56c69c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,7 +293,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasCutEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteWasCutEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaae4;
+  constexpr static std::size_t addrs = 0x56c69cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_noteWasCutEvent",
@@ -308,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteWasMissedEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteWasMissedEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaaec;
+  constexpr static std::size_t addrs = 0x56c69d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -322,7 +321,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteDidStartDissolvingEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaaf4;
+  constexpr static std::size_t addrs = 0x56c69dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -337,7 +336,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteControllerNoteDidDissolveEvent*>* (
     ::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteDidDissolveEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaafc;
+  constexpr static std::size_t addrs = 0x56c69e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -351,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::NoteController::*)()>(
     &::GlobalNamespace::NoteController::get_noteTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeab04;
+  constexpr static std::size_t addrs = 0x56c69ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_noteTransform",
@@ -365,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::NoteController::*)()>(
     &::GlobalNamespace::NoteController::get_worldRotation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ae6fcc;
+  constexpr static std::size_t addrs = 0x56c2e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_worldRotation",
@@ -379,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::GlobalNamespace::NoteController::*)()>(
     &::GlobalNamespace::NoteController::get_inverseWorldRotation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ae6ff4;
+  constexpr static std::size_t addrs = 0x56c2e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -392,7 +391,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_noteTime)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3aeab4c;
+  constexpr static std::size_t addrs = 0x56c6a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_noteTime",
@@ -404,8 +403,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_beatPos)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3aeab8c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56c6a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_beatPos",
@@ -419,7 +418,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteController::*)()>(
     &::GlobalNamespace::NoteController::get_jumpStartPos)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3aeabe8;
+  constexpr static std::size_t addrs = 0x56c6abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_jumpStartPos",
@@ -433,7 +432,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData* (::GlobalNamespace::NoteController::*)()>(
     &::GlobalNamespace::NoteController::get_noteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeac20;
+  constexpr static std::size_t addrs = 0x56c6af0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +446,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_moveVec)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3aeac28;
+  constexpr static std::size_t addrs = 0x56c6af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_moveVec",
@@ -460,7 +459,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_uniformScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeacd0;
+  constexpr static std::size_t addrs = 0x56c6b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_uniformScale",
@@ -473,7 +472,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_hidden)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeacd8;
+  constexpr static std::size_t addrs = 0x56c6ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_hidden",
@@ -485,8 +484,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(bool)>(&::GlobalNamespace::NoteController::set_hidden)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aeace0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56c6bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -500,7 +499,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::get_dissolving)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeacec;
+  constexpr static std::size_t addrs = 0x56c6bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "get_dissolving",
@@ -512,8 +511,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::Awake)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3ae66a0;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x56c2438;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -526,8 +525,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::OnDestroy)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3ae6988;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x56c27ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -541,7 +540,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::Update)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3aeb1fc;
+  constexpr static std::size_t addrs = 0x56c7144;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), "Update",
@@ -553,8 +552,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::ManualUpdate)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ae8008;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56c3f00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -567,8 +566,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::HandleNoteDidStartJump)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x3aeb2f8;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x56c7240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -580,8 +579,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::HandleNoteDidFinishJump)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3aeb4d8;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x56c73f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -594,8 +593,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(::GlobalNamespace::NoteMovement*)>(
     &::GlobalNamespace::NoteController::HandleNoteDidPassJumpThreeQuarters)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3aeb6d0;
+  constexpr static std::size_t size = 0x1c4;
+  constexpr static std::size_t addrs = 0x56c75b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -610,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(
     &::GlobalNamespace::NoteController::HandleNoteDidPassMissedMarkerEvent)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3aeb8d0;
+  constexpr static std::size_t addrs = 0x56c7774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -624,7 +623,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::NoteDidStartJump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3aeb8ec;
+  constexpr static std::size_t addrs = 0x56c7790;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -638,7 +637,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::NoteDidFinishJump)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3aeb8f0;
+  constexpr static std::size_t addrs = 0x56c7794;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -653,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(::GlobalNamespace::NoteMovement*)>(
     &::GlobalNamespace::NoteController::NoteDidPassJumpThreeQuarters)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3aeb8f4;
+  constexpr static std::size_t addrs = 0x56c7798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -667,7 +666,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::NoteDidPassMissedMarker)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3aeb8f8;
+  constexpr static std::size_t addrs = 0x56c779c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -681,7 +680,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::NoteDidStartDissolving)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3aeb8fc;
+  constexpr static std::size_t addrs = 0x56c77a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -694,8 +693,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::SendNoteWasMissedEvent)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3ae6b70;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x56c2a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(),
@@ -708,8 +707,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(::ByRef<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::NoteController::SendNoteWasCutEvent)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3ae701c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x56c2ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -723,8 +722,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(
     ::GlobalNamespace::NoteData*, ::ByRef<::GlobalNamespace::NoteSpawnData>, float_t, float_t, bool, bool)>(&::GlobalNamespace::NoteController::Init)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3ae632c;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x56c20a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -741,8 +740,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::NoteController::*)(float_t)>(
     &::GlobalNamespace::NoteController::DissolveCoroutine)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3aeba80;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x56c792c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -755,8 +754,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(float_t)>(&::GlobalNamespace::NoteController::Dissolve)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3aebb18;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x56c7998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -783,8 +782,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)(bool)>(&::GlobalNamespace::NoteController::Hide)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3adfddc;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56bb7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -811,8 +810,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteController::*)()>(&::GlobalNamespace::NoteController::_ctor)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x3ae7254;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x56c30a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteController*>::get(), ".ctor",

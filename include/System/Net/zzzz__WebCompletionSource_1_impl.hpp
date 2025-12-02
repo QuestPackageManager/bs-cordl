@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Net/WebCompletionSource_1.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__WebCompletionSource_1_def.hpp"
 #include "System/Net/zzzz__WebCompletionSource_1_def.hpp"

@@ -42,15 +42,15 @@ public:
   __declspec(property(get = __cordl_internal_get__onSerializedHandler,
                       put = __cordl_internal_set__onSerializedHandler)) ::System::Runtime::Serialization::SerializationEventHandler* _onSerializedHandler;
 
-  /// @brief Method AddOnSerialized, addr 0x3cf4aa4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method AddOnSerialized, addr 0x5936858, size 0x9c, virtual false, abstract: false, final false
   inline void AddOnSerialized(::System::Object* obj);
 
   static inline ::System::Runtime::Serialization::SerializationObjectManager* New_ctor(::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method RaiseOnSerializedEvent, addr 0x3cf4b34, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method RaiseOnSerializedEvent, addr 0x59368f4, size 0x24, virtual false, abstract: false, final false
   inline void RaiseOnSerializedEvent();
 
-  /// @brief Method RegisterObject, addr 0x3cf4994, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method RegisterObject, addr 0x5936734, size 0x124, virtual false, abstract: false, final false
   inline void RegisterObject(::System::Object* obj);
 
   constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get__context() const;
@@ -71,7 +71,7 @@ public:
 
   constexpr void __cordl_internal_set__onSerializedHandler(::System::Runtime::Serialization::SerializationEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x3cf4900, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5936688, size 0xac, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -89,7 +89,7 @@ public:
   SerializationObjectManager(SerializationObjectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3210 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3227 };
 
   /// @brief Field _objectSeenTable, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::System::Object*, ::System::Object*>* ____objectSeenTable;

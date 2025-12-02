@@ -47,18 +47,18 @@ public:
   /// @brief Field _rp, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__rp, put = __cordl_internal_set__rp)) ::System::Runtime::Remoting::Proxies::RealProxy* _rp;
 
-  /// @brief Method GetProxyType, addr 0x3cd7c9c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method GetProxyType, addr 0x591aa78, size 0xa8, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetProxyType();
 
-  /// @brief Method InCurrentContext, addr 0x3cd7da4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method InCurrentContext, addr 0x591ab5c, size 0x50, virtual false, abstract: false, final false
   inline bool InCurrentContext();
 
-  /// @brief Method LoadRemoteFieldNew, addr 0x3cd7de4, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method LoadRemoteFieldNew, addr 0x591abac, size 0x294, virtual false, abstract: false, final false
   inline ::System::Object* LoadRemoteFieldNew(::System::IntPtr classPtr, ::System::IntPtr fieldPtr);
 
   static inline ::System::Runtime::Remoting::Proxies::TransparentProxy* New_ctor();
 
-  /// @brief Method StoreRemoteField, addr 0x3cd8968, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method StoreRemoteField, addr 0x591b734, size 0x2a8, virtual false, abstract: false, final false
   inline void StoreRemoteField(::System::IntPtr classPtr, ::System::IntPtr fieldPtr, ::System::Object* arg);
 
   constexpr ::Mono::RuntimeRemoteClassHandle const& __cordl_internal_get__class() const;
@@ -79,13 +79,13 @@ public:
 
   constexpr void __cordl_internal_set__rp(::System::Runtime::Remoting::Proxies::RealProxy* value);
 
-  /// @brief Method .ctor, addr 0x3cd8c34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591b9dc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsContextBoundObject, addr 0x3cd7d6c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_IsContextBoundObject, addr 0x591ab20, size 0x24, virtual false, abstract: false, final false
   inline bool get_IsContextBoundObject();
 
-  /// @brief Method get_TargetContext, addr 0x3cd7d88, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_TargetContext, addr 0x591ab44, size 0x18, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_TargetContext();
 
 protected:
@@ -103,7 +103,7 @@ public:
   TransparentProxy(TransparentProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3086 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3103 };
 
   /// @brief Field _rp, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Proxies::RealProxy* ____rp;

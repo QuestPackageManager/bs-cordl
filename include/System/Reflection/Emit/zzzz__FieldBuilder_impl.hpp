@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldAttributes (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_Attributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a2c;
+  constexpr static std::size_t addrs = 0x597c148;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_DeclaringType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a34;
+  constexpr static std::size_t addrs = 0x597c150;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,12 +45,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeFieldHandle (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_FieldHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a3c;
+  constexpr static std::size_t addrs = 0x597c158;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 24));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 25));
     return ___internal_method;
   }
 };
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_FieldType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a44;
+  constexpr static std::size_t addrs = 0x597c160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::FieldBuilder::*)()>(&::System::Reflection::Emit::FieldBuilder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a4c;
+  constexpr static std::size_t addrs = 0x597c168;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::FieldBuilder::*)()>(
     &::System::Reflection::Emit::FieldBuilder::get_ReflectedType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a54;
+  constexpr static std::size_t addrs = 0x597c170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::FieldBuilder::*)(bool)>(
     &::System::Reflection::Emit::FieldBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a5c;
+  constexpr static std::size_t addrs = 0x597c178;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::FieldBuilder::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::FieldBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a64;
+  constexpr static std::size_t addrs = 0x597c180;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,12 +134,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Reflection::Emit::FieldBuilder::*)(::System::Object*)>(
     &::System::Reflection::Emit::FieldBuilder::GetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a6c;
+  constexpr static std::size_t addrs = 0x597c188;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 25));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 26));
     return ___internal_method;
   }
 };
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::FieldBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::FieldBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d35a74;
+  constexpr static std::size_t addrs = 0x597c190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -165,12 +165,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*)>(
     &::System::Reflection::Emit::FieldBuilder::SetValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35a7c;
+  constexpr static std::size_t addrs = 0x597c198;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 27));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 28));
     return ___internal_method;
   }
 };
@@ -186,7 +186,7 @@ inline ::System::Type* System::Reflection::Emit::FieldBuilder::get_DeclaringType
 }
 inline ::System::RuntimeFieldHandle System::Reflection::Emit::FieldBuilder::get_FieldHandle() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<::System::RuntimeFieldHandle, false>(this, ___internal_method);
 }
 inline ::System::Type* System::Reflection::Emit::FieldBuilder::get_FieldType() {
@@ -216,7 +216,7 @@ inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> System::Reflecti
 }
 inline ::System::Object* System::Reflection::Emit::FieldBuilder::GetValue(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, obj);
 }
 inline bool System::Reflection::Emit::FieldBuilder::IsDefined(::System::Type* attributeType, bool inherit) {
@@ -227,7 +227,7 @@ inline bool System::Reflection::Emit::FieldBuilder::IsDefined(::System::Type* at
 inline void System::Reflection::Emit::FieldBuilder::SetValue(::System::Object* obj, ::System::Object* val, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                                              ::System::Globalization::CultureInfo* culture) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::FieldBuilder*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, val, invokeAttr, binder, culture);
 }
 // Ctor Parameters []

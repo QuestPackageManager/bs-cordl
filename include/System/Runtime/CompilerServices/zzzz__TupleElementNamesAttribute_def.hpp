@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__transformNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x3d18c6c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5959ef4, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> transformNames);
 
 protected:
@@ -48,7 +48,7 @@ public:
   TupleElementNamesAttribute(TupleElementNamesAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3401 };
 
   /// @brief Field _transformNames, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> ____transformNames;

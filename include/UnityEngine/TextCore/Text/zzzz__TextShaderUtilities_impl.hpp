@@ -8,12 +8,26 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
     &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x49515b8;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x69df140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                                "get_ShaderRef_MobileSDF", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_MobileSDF_IMGUI
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
+    &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF_IMGUI)> {
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x69df2bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
+                                                                               "get_ShaderRef_MobileSDF_IMGUI", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -22,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(
     &::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x49517a0;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x69df428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
@@ -31,12 +45,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.get_ShaderRef_Sprite
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Shader> (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite)> {
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x69df604;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
+                                                                               "get_ShaderRef_Sprite", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextShaderUtilities.GetShaderPropertyIDs
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs)> {
-  constexpr static std::size_t size = 0xac8;
-  constexpr static std::size_t addrs = 0x4951b04;
+  constexpr static std::size_t size = 0xca8;
+  constexpr static std::size_t addrs = 0x69df980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
@@ -555,6 +582,15 @@ inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUt
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
 }
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileSDF_IMGUI(::UnityW<::UnityEngine::Shader> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF_IMGUI",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<::UnityW<::UnityEngine::Shader>>(value));
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_MobileSDF_IMGUI() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileSDF_IMGUI",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
 inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_MobileBitmap(::UnityW<::UnityEngine::Shader> value) {
   ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileBitmap",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
@@ -564,14 +600,33 @@ inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUt
   return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_MobileBitmap",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
 }
+inline void UnityEngine::TextCore::Text::TextShaderUtilities::setStaticF_k_ShaderRef_Sprite(::UnityW<::UnityEngine::Shader> value) {
+  ::cordl_internals::setStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_Sprite",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>(
+      std::forward<::UnityW<::UnityEngine::Shader>>(value));
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::getStaticF_k_ShaderRef_Sprite() {
+  return ::cordl_internals::getStaticField<::UnityW<::UnityEngine::Shader>, "k_ShaderRef_Sprite",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get>();
+}
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                              "get_ShaderRef_MobileSDF", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(nullptr, ___internal_method);
 }
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileSDF_IMGUI() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
+                                                                             "get_ShaderRef_MobileSDF_IMGUI", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(nullptr, ___internal_method);
+}
 inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_MobileBitmap() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
                                                                              "get_ShaderRef_MobileBitmap", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(nullptr, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Shader> UnityEngine::TextCore::Text::TextShaderUtilities::get_ShaderRef_Sprite() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextShaderUtilities*>::get(),
+                                                                             "get_ShaderRef_Sprite", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Shader>, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::TextCore::Text::TextShaderUtilities::GetShaderPropertyIDs() {

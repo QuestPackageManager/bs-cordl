@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/InMultiplayerRichPresenceData.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_impl.hpp"
-#include "GlobalNamespace/zzzz__IRichPresenceData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__InMultiplayerRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IMultiplayerRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InMultiplayerRichPresenceData.get_apiName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4c4;
+  constexpr static std::size_t addrs = 0x570d368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InMultiplayerRichPresenceData*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_apiName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4cc;
+  constexpr static std::size_t addrs = 0x570d370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_localizedDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4d4;
+  constexpr static std::size_t addrs = 0x570d378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InMultiplayerRichPresenceData*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_localizedDescription)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4dc;
+  constexpr static std::size_t addrs = 0x570d380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_multiplayerSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4e4;
+  constexpr static std::size_t addrs = 0x570d388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InMultiplayerRichPresenceData*>::get(),
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_multiplayerSecret)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4ec;
+  constexpr static std::size_t addrs = 0x570d390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_atMaxPartySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c4f4;
+  constexpr static std::size_t addrs = 0x570d398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InMultiplayerRichPresenceData*>::get(),
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(bool)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_atMaxPartySize)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b2c4fc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x570d3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_canInvite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2c508;
+  constexpr static std::size_t addrs = 0x570d3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InMultiplayerRichPresenceData*>::get(),
@@ -139,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(bool)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::set_canInvite)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b2c510;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x570d3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::InMultiplayerRichPresenceData::*)()>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::get_isJoinable)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b2c51c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x570d3b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InMultiplayerRichPresenceData*>::get(),
@@ -168,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InMultiplayerRichPresenceData::*)(::StringW, bool, bool)>(
     &::GlobalNamespace::InMultiplayerRichPresenceData::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3b2c554;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x570d3e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

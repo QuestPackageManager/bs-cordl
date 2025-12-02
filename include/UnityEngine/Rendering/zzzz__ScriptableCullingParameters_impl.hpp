@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/ScriptableCullingParameters.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CameraProperties_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__CullingOptions_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__LODParameters_impl.hpp"
@@ -8,8 +7,12 @@
 #include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableCullingParameters_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/Rendering/zzzz__CullingOptions_def.hpp"
+#include "UnityEngine/Rendering/zzzz__ReflectionProbeSortingCriteria_def.hpp"
 #include "UnityEngine/Rendering/zzzz__ScriptableCullingParameters_def.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Plane_def.hpp"
 // Ctor Parameters [CppParam { name: "FixedElementField", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept {
@@ -24,17 +27,181 @@ constexpr ::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullD
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer() {}
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_maximumVisibleLights
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_maximumVisibleLights)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb29c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_maximumVisibleLights",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_conservativeEnclosingSphere
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(bool)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_conservativeEnclosingSphere)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb2a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_conservativeEnclosingSphere",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_numIterationsEnclosingSphere
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_numIterationsEnclosingSphere)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb2ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_numIterationsEnclosingSphere",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.get_cullingPlaneCount
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingPlaneCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48c799c;
+  constexpr static std::size_t addrs = 0x68eb2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
                                                                                "get_cullingPlaneCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_shadowDistance
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(float_t)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_shadowDistance)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb2bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_shadowDistance",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.get_cullingOptions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CullingOptions (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::get_cullingOptions)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb2c4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
+                                                                               "get_cullingOptions", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_cullingOptions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Rendering::CullingOptions)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_cullingOptions)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb2cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_cullingOptions", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::CullingOptions>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_reflectionProbeSortingCriteria
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(
+    ::UnityEngine::Rendering::ReflectionProbeSortingCriteria)>(&::UnityEngine::Rendering::ScriptableCullingParameters::set_reflectionProbeSortingCriteria)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb2d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_reflectionProbeSortingCriteria",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ReflectionProbeSortingCriteria>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_stereoViewMatrix
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoViewMatrix)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x68eb2dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_stereoViewMatrix", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.get_stereoProjectionMatrix
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::get_stereoProjectionMatrix)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x68eb2f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
+                                                                               "get_stereoProjectionMatrix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_stereoProjectionMatrix
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::UnityEngine::Matrix4x4)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoProjectionMatrix)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x68eb30c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_stereoProjectionMatrix", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::ScriptableCullingParameters.set_stereoSeparationDistance
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Rendering::ScriptableCullingParameters::*)(float_t)>(
+    &::UnityEngine::Rendering::ScriptableCullingParameters::set_stereoSeparationDistance)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x68eb324;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_stereoSeparationDistance",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -43,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetLayerCullingDistance)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x48c79a4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x68eb32c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Plane (::UnityEngine::Rendering::ScriptableCullingParameters::*)(int32_t)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetCullingPlane)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x48c7a7c;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x68eb3ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(
     ::UnityEngine::Rendering::ScriptableCullingParameters)>(&::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x48c7bb0;
+  constexpr static std::size_t size = 0x488;
+  constexpr static std::size_t addrs = 0x68eb518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::ScriptableCullingParameters::*)(::System::Object*)>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::Equals)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x48c8058;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x68eba70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::ScriptableCullingParameters::*)()>(
     &::UnityEngine::Rendering::ScriptableCullingParameters::GetHashCode)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x48c8140;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x68ebb70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,10 +296,75 @@ inline void UnityEngine::Rendering::ScriptableCullingParameters::setStaticF_laye
 inline int32_t UnityEngine::Rendering::ScriptableCullingParameters::getStaticF_layerCount() {
   return ::cordl_internals::getStaticField<int32_t, "layerCount", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get>();
 }
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_maximumVisibleLights(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_maximumVisibleLights",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_conservativeEnclosingSphere(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_conservativeEnclosingSphere",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_numIterationsEnclosingSphere(int32_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_numIterationsEnclosingSphere",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline int32_t UnityEngine::Rendering::ScriptableCullingParameters::get_cullingPlaneCount() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
                                                                              "get_cullingPlaneCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_shadowDistance(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_shadowDistance",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Rendering::CullingOptions UnityEngine::Rendering::ScriptableCullingParameters::get_cullingOptions() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
+                                                                             "get_cullingOptions", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rendering::CullingOptions, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_cullingOptions(::UnityEngine::Rendering::CullingOptions value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_cullingOptions", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::CullingOptions>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_reflectionProbeSortingCriteria(::UnityEngine::Rendering::ReflectionProbeSortingCriteria value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_reflectionProbeSortingCriteria",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::ReflectionProbeSortingCriteria>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_stereoViewMatrix(::UnityEngine::Matrix4x4 value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_stereoViewMatrix", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Matrix4x4 UnityEngine::Rendering::ScriptableCullingParameters::get_stereoProjectionMatrix() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(),
+                                                                             "get_stereoProjectionMatrix", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4, false>(this, ___internal_method);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_stereoProjectionMatrix(::UnityEngine::Matrix4x4 value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_stereoProjectionMatrix", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::Rendering::ScriptableCullingParameters::set_stereoSeparationDistance(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::ScriptableCullingParameters>::get(), "set_stereoSeparationDistance",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::Rendering::ScriptableCullingParameters::GetLayerCullingDistance(int32_t layerIndex) {
   static auto* ___internal_method =
@@ -171,29 +403,28 @@ constexpr ::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingPara
 UnityEngine::Rendering::ScriptableCullingParameters::i___System__IEquatable_1___UnityEngine__Rendering__ScriptableCullingParameters_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::Rendering::ScriptableCullingParameters>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_IsOrthographic", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LODParameters", ty: "::UnityEngine::Rendering::LODParameters",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingPlanes", ty: "::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_CullingPlaneCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingMask", ty: "uint32_t", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "m_SceneMask", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ViewID", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_LayerFarCullDistances", ty: "::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_LayerCull", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_Origin", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShadowDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_ShadowNearPlaneOffset", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingOptions", ty: "::UnityEngine::Rendering::CullingOptions", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_ReflectionProbeSortingCriteria", ty: "::UnityEngine::Rendering::ReflectionProbeSortingCriteria", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CameraProperties", ty: "::UnityEngine::Rendering::CameraProperties", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AccurateOcclusionThreshold", ty: "float_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_MaximumPortalCullingJobs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StereoViewMatrix", ty: "::UnityEngine::Matrix4x4",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StereoProjectionMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_StereoSeparationDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_maximumVisibleLights", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "m_ConservativeEnclosingSphere", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NumIterationsEnclosingSphere", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_LODParameters", ty: "::UnityEngine::Rendering::LODParameters", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingPlanes", ty:
+// "::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingPlaneCount", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "m_CullingMask", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_SceneMask", ty: "uint64_t", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "m_ViewID", ty: "uint64_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LayerFarCullDistances", ty:
+// "::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_LayerCull", ty: "int32_t", modifiers:
+// "", def_value: Some("{}") }, CppParam { name: "m_CullingMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Origin", ty: "::UnityEngine::Vector3",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShadowDistance", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_ShadowNearPlaneOffset", ty: "float_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CullingOptions", ty: "::UnityEngine::Rendering::CullingOptions", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_ReflectionProbeSortingCriteria", ty: "::UnityEngine::Rendering::ReflectionProbeSortingCriteria", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CameraProperties", ty:
+// "::UnityEngine::Rendering::CameraProperties", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AccurateOcclusionThreshold", ty: "float_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "m_MaximumPortalCullingJobs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StereoViewMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "m_StereoProjectionMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StereoSeparationDistance", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_maximumVisibleLights", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "m_ConservativeEnclosingSphere", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NumIterationsEnclosingSphere", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::Rendering::ScriptableCullingParameters::ScriptableCullingParameters(
-    int32_t m_IsOrthographic, ::UnityEngine::Rendering::LODParameters m_LODParameters, ::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer m_CullingPlanes,
-    int32_t m_CullingPlaneCount, uint32_t m_CullingMask, uint64_t m_SceneMask, uint64_t m_ViewID,
-    ::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer m_LayerFarCullDistances, int32_t m_LayerCull, ::UnityEngine::Matrix4x4 m_CullingMatrix,
-    ::UnityEngine::Vector3 m_Origin, float_t m_ShadowDistance, float_t m_ShadowNearPlaneOffset, ::UnityEngine::Rendering::CullingOptions m_CullingOptions,
-    ::UnityEngine::Rendering::ReflectionProbeSortingCriteria m_ReflectionProbeSortingCriteria, ::UnityEngine::Rendering::CameraProperties m_CameraProperties, float_t m_AccurateOcclusionThreshold,
-    int32_t m_MaximumPortalCullingJobs, ::UnityEngine::Matrix4x4 m_StereoViewMatrix, ::UnityEngine::Matrix4x4 m_StereoProjectionMatrix, float_t m_StereoSeparationDistance,
-    int32_t m_maximumVisibleLights, bool m_ConservativeEnclosingSphere, int32_t m_NumIterationsEnclosingSphere) noexcept {
-  this->m_IsOrthographic = m_IsOrthographic;
+    ::UnityEngine::Rendering::LODParameters m_LODParameters, ::UnityEngine::Rendering::ScriptableCullingParameters__m_CullingPlanes_e__FixedBuffer m_CullingPlanes, int32_t m_CullingPlaneCount,
+    uint32_t m_CullingMask, uint64_t m_SceneMask, uint64_t m_ViewID, ::UnityEngine::Rendering::ScriptableCullingParameters__m_LayerFarCullDistances_e__FixedBuffer m_LayerFarCullDistances,
+    int32_t m_LayerCull, ::UnityEngine::Matrix4x4 m_CullingMatrix, ::UnityEngine::Vector3 m_Origin, float_t m_ShadowDistance, float_t m_ShadowNearPlaneOffset,
+    ::UnityEngine::Rendering::CullingOptions m_CullingOptions, ::UnityEngine::Rendering::ReflectionProbeSortingCriteria m_ReflectionProbeSortingCriteria,
+    ::UnityEngine::Rendering::CameraProperties m_CameraProperties, float_t m_AccurateOcclusionThreshold, int32_t m_MaximumPortalCullingJobs, ::UnityEngine::Matrix4x4 m_StereoViewMatrix,
+    ::UnityEngine::Matrix4x4 m_StereoProjectionMatrix, float_t m_StereoSeparationDistance, int32_t m_maximumVisibleLights, bool m_ConservativeEnclosingSphere,
+    int32_t m_NumIterationsEnclosingSphere) noexcept {
   this->m_LODParameters = m_LODParameters;
   this->m_CullingPlanes = m_CullingPlanes;
   this->m_CullingPlaneCount = m_CullingPlaneCount;

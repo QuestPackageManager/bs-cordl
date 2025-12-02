@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SortedList_2.hpp"
-#include "GlobalNamespace/zzzz__ISortedList_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__SortedList_2_def.hpp"
 #include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
+#include "GlobalNamespace/zzzz__ISortedList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedListNode_1_def.hpp"
 #include "System/Collections/Generic/zzzz__LinkedList_1_def.hpp"
 template <typename T, typename TBase> constexpr ::System::Collections::Generic::LinkedList_1<TBase>*& GlobalNamespace::SortedList_2<T, TBase>::__cordl_internal_get__items() {

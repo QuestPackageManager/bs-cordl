@@ -3,15 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 namespace System {
 class Object;
@@ -25,7 +29,7 @@ struct Vector2;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Vector2);
-// Dependencies System.IEquatable`1<T>, System.IFormattable
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.Vector2
@@ -70,67 +74,67 @@ public:
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Angle, addr 0x48a3e00, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Angle, addr 0x689f07c, size 0xfc, virtual false, abstract: false, final false
   static inline float_t Angle(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to);
 
-  /// @brief Method ClampMagnitude, addr 0x48a407c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method ClampMagnitude, addr 0x689f314, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 ClampMagnitude(::UnityEngine::Vector2 vector, float_t maxLength);
 
-  /// @brief Method Distance, addr 0x48a3ff8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Distance, addr 0x689f28c, size 0x88, virtual false, abstract: false, final false
   static inline float_t Distance(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method Dot, addr 0x48a3d70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Dot, addr 0x689eff0, size 0x10, virtual false, abstract: false, final false
   static inline float_t Dot(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
-  /// @brief Method Equals, addr 0x48a3cb0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x689ef2c, size 0x8c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* other);
 
-  /// @brief Method Equals, addr 0x48a3d38, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x689efb8, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Vector2 other);
 
-  /// @brief Method GetHashCode, addr 0x48a3c7c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x689eefc, size 0x30, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Lerp, addr 0x48a38f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Lerp, addr 0x689eb50, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Lerp(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float_t t);
 
-  /// @brief Method LerpUnclamped, addr 0x48a3928, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method LerpUnclamped, addr 0x689eb84, size 0x1c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 LerpUnclamped(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, float_t t);
 
-  /// @brief Method Max, addr 0x48a4134, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Max, addr 0x689f3d8, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Max(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
-  /// @brief Method Min, addr 0x48a4120, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Min, addr 0x689f3c4, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Min(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
-  /// @brief Method Normalize, addr 0x48a3964, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Normalize, addr 0x689ebc0, size 0xc8, virtual false, abstract: false, final false
   inline void Normalize();
 
-  /// @brief Method Perpendicular, addr 0x48a3d5c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Perpendicular, addr 0x689efdc, size 0x14, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Perpendicular(::UnityEngine::Vector2 inDirection);
 
-  /// @brief Method Scale, addr 0x48a3944, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x689eba0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Scale(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method Scale, addr 0x48a3950, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Scale, addr 0x689ebac, size 0x14, virtual false, abstract: false, final false
   inline void Scale(::UnityEngine::Vector2 scale);
 
-  /// @brief Method SignedAngle, addr 0x48a3ef4, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method SignedAngle, addr 0x689f178, size 0x114, virtual false, abstract: false, final false
   static inline float_t SignedAngle(::UnityEngine::Vector2 from, ::UnityEngine::Vector2 to);
 
-  /// @brief Method SqrMagnitude, addr 0x48a4110, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SqrMagnitude, addr 0x689f3b4, size 0x10, virtual false, abstract: false, final false
   static inline float_t SqrMagnitude(::UnityEngine::Vector2 a);
 
-  /// @brief Method ToString, addr 0x48a3ad8, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x689ed48, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x48a3ae8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x689ed58, size 0xc, virtual false, abstract: false, final false
   inline ::StringW ToString(::StringW format);
 
-  /// @brief Method ToString, addr 0x48a3af4, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x689ed64, size 0x198, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
-  /// @brief Method .ctor, addr 0x48a38f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689eb48, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t x, float_t y);
 
   static inline ::UnityEngine::Vector2 getStaticF_downVector();
@@ -149,37 +153,37 @@ public:
 
   static inline ::UnityEngine::Vector2 getStaticF_zeroVector();
 
-  /// @brief Method get_Item, addr 0x48a3820, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x689ea80, size 0x64, virtual false, abstract: false, final false
   inline float_t get_Item(int32_t index);
 
-  /// @brief Method get_down, addr 0x48a42e0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_down, addr 0x689f590, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_down();
 
-  /// @brief Method get_left, addr 0x48a4328, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x689f5dc, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_left();
 
-  /// @brief Method get_magnitude, addr 0x48a3d80, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_magnitude, addr 0x689f000, size 0x6c, virtual false, abstract: false, final false
   inline float_t get_magnitude();
 
-  /// @brief Method get_negativeInfinity, addr 0x48a43b8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_negativeInfinity, addr 0x689f674, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_negativeInfinity();
 
-  /// @brief Method get_normalized, addr 0x48a3a28, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_normalized, addr 0x689ec88, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_normalized();
 
-  /// @brief Method get_one, addr 0x48a4250, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_one, addr 0x689f4f8, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_one();
 
-  /// @brief Method get_right, addr 0x48a4370, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x689f628, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_right();
 
-  /// @brief Method get_sqrMagnitude, addr 0x48a3dec, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_sqrMagnitude, addr 0x689f06c, size 0x10, virtual false, abstract: false, final false
   inline float_t get_sqrMagnitude();
 
-  /// @brief Method get_up, addr 0x48a4298, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_up, addr 0x689f544, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_up();
 
-  /// @brief Method get_zero, addr 0x48a4208, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_zero, addr 0x689f4ac, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 get_zero();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Vector2>"
@@ -188,40 +192,40 @@ public:
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Addition, addr 0x48a4148, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Addition, addr 0x689f3ec, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Addition(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method op_Division, addr 0x48a416c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x689f410, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Division(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method op_Division, addr 0x48a41a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Division, addr 0x689f444, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Division(::UnityEngine::Vector2 a, float_t d);
 
-  /// @brief Method op_Equality, addr 0x48a41ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x689f450, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
-  /// @brief Method op_Implicit, addr 0x48a41fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x689f4a0, size 0x4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::Vector3 v);
 
-  /// @brief Method op_Implicit, addr 0x48a4200, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x689f4a4, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector3 op_Implicit___UnityEngine__Vector3(::UnityEngine::Vector2 v);
 
-  /// @brief Method op_Inequality, addr 0x48a41d4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x689f478, size 0x28, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::Vector2 lhs, ::UnityEngine::Vector2 rhs);
 
-  /// @brief Method op_Multiply, addr 0x48a4160, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x689f404, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Multiply(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method op_Multiply, addr 0x48a4184, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x689f428, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Multiply(::UnityEngine::Vector2 a, float_t d);
 
-  /// @brief Method op_Multiply, addr 0x48a4190, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method op_Multiply, addr 0x689f434, size 0x10, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Multiply(float_t d, ::UnityEngine::Vector2 a);
 
-  /// @brief Method op_Subtraction, addr 0x48a4154, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Subtraction, addr 0x689f3f8, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_Subtraction(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method op_UnaryNegation, addr 0x48a4178, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_UnaryNegation, addr 0x689f41c, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 op_UnaryNegation(::UnityEngine::Vector2 a);
 
   static inline void setStaticF_downVector(::UnityEngine::Vector2 value);
@@ -240,7 +244,7 @@ public:
 
   static inline void setStaticF_zeroVector(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_Item, addr 0x48a3888, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method set_Item, addr 0x689eae4, size 0x64, virtual false, abstract: false, final false
   inline void set_Item(int32_t index, float_t value);
 
   // Ctor Parameters []
@@ -251,7 +255,7 @@ public:
   constexpr Vector2(float_t x, float_t y) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10824 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10235 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

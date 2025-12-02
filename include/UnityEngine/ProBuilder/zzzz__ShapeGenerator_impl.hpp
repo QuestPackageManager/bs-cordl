@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::ShapeType, ::UnityEngine::ProBuilder::PivotLocation)>(&::UnityEngine::ProBuilder::ShapeGenerator::CreateShape)> {
-  constexpr static std::size_t size = 0x550;
-  constexpr static std::size_t addrs = 0x4734bc4;
+  constexpr static std::size_t size = 0x528;
+  constexpr static std::size_t addrs = 0x64cb350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, ::UnityEngine::Vector3, int32_t, bool)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
-  constexpr static std::size_t size = 0x98c;
-  constexpr static std::size_t addrs = 0x4735384;
+  constexpr static std::size_t size = 0x96c;
+  constexpr static std::size_t addrs = 0x64cbac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, float_t, float_t, float_t, int32_t, bool)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateCurvedStair)> {
-  constexpr static std::size_t size = 0xd8c;
-  constexpr static std::size_t addrs = 0x4735d10;
+  constexpr static std::size_t size = 0xd90;
+  constexpr static std::size_t addrs = 0x64cc430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, int32_t, float_t, float_t, float_t, bool, bool, bool)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateStair)> {
-  constexpr static std::size_t size = 0x4e0;
-  constexpr static std::size_t addrs = 0x473bde8;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x64d26a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::UnityEngine::ProBuilder::PivotLocation, ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateCube)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x4735114;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x64cb878;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, int32_t, float_t, float_t, int32_t, int32_t)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateCylinder)> {
-  constexpr static std::size_t size = 0x8b8;
-  constexpr static std::size_t addrs = 0x47370d0;
+  constexpr static std::size_t size = 0x898;
+  constexpr static std::size_t addrs = 0x64cd818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(::UnityEngine::ProBuilder::PivotLocation, ::UnityEngine::Vector3)>(&::UnityEngine::ProBuilder::ShapeGenerator::GeneratePrism)> {
-  constexpr static std::size_t size = 0x634;
-  constexpr static std::size_t addrs = 0x4736a9c;
+  constexpr static std::size_t size = 0x658;
+  constexpr static std::size_t addrs = 0x64cd1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, float_t, float_t, float_t, float_t)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateDoor)> {
-  constexpr static std::size_t size = 0x1664;
-  constexpr static std::size_t addrs = 0x4737f6c;
+  constexpr static std::size_t size = 0x1594;
+  constexpr static std::size_t addrs = 0x64ce6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, float_t, int32_t, int32_t, ::UnityEngine::ProBuilder::Axis)>(&::UnityEngine::ProBuilder::ShapeGenerator::GeneratePlane)> {
-  constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x4737988;
+  constexpr static std::size_t size = 0x5fc;
+  constexpr static std::size_t addrs = 0x64ce0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -169,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, float_t, float_t, int32_t, int32_t)>(&::UnityEngine::ProBuilder::ShapeGenerator::GeneratePipe)> {
-  constexpr static std::size_t size = 0x6c4;
-  constexpr static std::size_t addrs = 0x47395d0;
+  constexpr static std::size_t size = 0x72c;
+  constexpr static std::size_t addrs = 0x64cfc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, float_t, int32_t)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateCone)> {
-  constexpr static std::size_t size = 0x9c0;
-  constexpr static std::size_t addrs = 0x4739c94;
+  constexpr static std::size_t size = 0xa18;
+  constexpr static std::size_t addrs = 0x64d036c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, float_t, float_t, float_t, int32_t, bool, bool, bool, bool, bool)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateArch)> {
-  constexpr static std::size_t size = 0x75c;
-  constexpr static std::size_t addrs = 0x473a654;
+  constexpr static std::size_t size = 0x7e8;
+  constexpr static std::size_t addrs = 0x64d0d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -224,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, float_t, int32_t, bool, bool)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateIcosahedron)> {
-  constexpr static std::size_t size = 0xa30;
-  constexpr static std::size_t addrs = 0x473adb0;
+  constexpr static std::size_t size = 0xaa8;
+  constexpr static std::size_t addrs = 0x64d156c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(
     ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, float_t)>(&::UnityEngine::ProBuilder::ShapeGenerator::SubdivideIcosahedron)> {
-  constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x473c4fc;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x64d2dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -257,8 +257,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> (*)(
     int32_t, float_t, float_t, ::UnityEngine::Quaternion, float_t)>(&::UnityEngine::ProBuilder::ShapeGenerator::GetCirclePoints)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x473d0b4;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x64d393c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,8 +275,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (*)(
     ::UnityEngine::ProBuilder::PivotLocation, int32_t, int32_t, float_t, float_t, bool, float_t, float_t, bool)>(&::UnityEngine::ProBuilder::ShapeGenerator::GenerateTorus)> {
-  constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x473b7e0;
+  constexpr static std::size_t size = 0x690;
+  constexpr static std::size_t addrs = 0x64d2014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

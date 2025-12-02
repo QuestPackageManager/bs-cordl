@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FlyingSpriteSpawner.hpp"
-#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FlyingSpriteSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingObjectEffect_def.hpp"
 #include "GlobalNamespace/zzzz__FlyingSpriteEffect_def.hpp"
+#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingSpriteSpawner::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion)>(&::GlobalNamespace::FlyingSpriteSpawner::SpawnFlyingSprite)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3b88e70;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x5775550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingSpriteSpawner::*)(::GlobalNamespace::FlyingObjectEffect*)>(
     &::GlobalNamespace::FlyingSpriteSpawner::HandleFlyingObjectEffectDidFinish)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3b89060;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5775744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlyingSpriteSpawner::*)()>(&::GlobalNamespace::FlyingSpriteSpawner::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b8917c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5775874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlyingSpriteSpawner*>::get(), ".ctor",

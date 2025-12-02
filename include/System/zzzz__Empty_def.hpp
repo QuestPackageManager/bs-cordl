@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Empty)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +21,7 @@ class Empty;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Empty);
-// Dependencies System.Object, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.Empty
@@ -32,15 +34,15 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetObjectData, addr 0x3e1dfb4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5a63db4, size 0x68, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::Empty* New_ctor();
 
-  /// @brief Method ToString, addr 0x3e1df6c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a63da0, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3e1df64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a63d9c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Empty* getStaticF_Value();
@@ -65,7 +67,7 @@ public:
   Empty(Empty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2565 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,10 +23,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACMD5* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3ca1334, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e51a0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ca1358, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e51c4, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:
@@ -44,7 +44,7 @@ public:
   HMACMD5(HMACMD5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2951 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -19,6 +19,9 @@ class BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty;
 namespace GlobalNamespace {
 class BloomPrePassBackgroundNonLightRenderer;
 }
+namespace GlobalNamespace {
+class TimeHelper;
+}
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
@@ -98,7 +101,7 @@ public:
   static ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType const Vector;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16249 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19623 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -151,7 +154,7 @@ public:
 
   constexpr void __cordl_internal_set_propertyType(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType value);
 
-  /// @brief Method .ctor, addr 0x39d76e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x564ec5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -169,7 +172,7 @@ public:
   BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty(BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19622 };
 
   /// @brief Field propertyType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType ___propertyType;
@@ -203,70 +206,73 @@ public:
 
   using SupportedProperty = ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty;
 
-  /// @brief Field _commandBuffer, offset 0x58, size 0x8
+  /// @brief Field _commandBuffer, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__commandBuffer, put = __cordl_internal_set__commandBuffer)) ::UnityEngine::Rendering::CommandBuffer* _commandBuffer;
 
-  /// @brief Field _renderers, offset 0x28, size 0x8
+  /// @brief Field _renderers, offset 0x30, size 0x8
   __declspec(property(
       get = __cordl_internal_get__renderers,
       put =
           __cordl_internal_set__renderers)) ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>, ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*>
       _renderers;
 
-  /// @brief Field _reusableArraysSize, offset 0x50, size 0x4
+  /// @brief Field _reusableArraysSize, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get__reusableArraysSize, put = __cordl_internal_set__reusableArraysSize)) int32_t _reusableArraysSize;
 
-  /// @brief Field _reusableFloatArrays, offset 0x38, size 0x8
+  /// @brief Field _reusableFloatArrays, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableFloatArrays,
                       put = __cordl_internal_set__reusableFloatArrays)) ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>* _reusableFloatArrays;
 
-  /// @brief Field _reusableGetMaterialPropertyBlock, offset 0x68, size 0x8
+  /// @brief Field _reusableGetMaterialPropertyBlock, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableGetMaterialPropertyBlock,
                       put = __cordl_internal_set__reusableGetMaterialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _reusableGetMaterialPropertyBlock;
 
-  /// @brief Field _reusableMatrixArrays, offset 0x48, size 0x8
+  /// @brief Field _reusableMatrixArrays, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableMatrixArrays, put = __cordl_internal_set__reusableMatrixArrays)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>* _reusableMatrixArrays;
 
-  /// @brief Field _reusableSetMaterialPropertyBlock, offset 0x60, size 0x8
+  /// @brief Field _reusableSetMaterialPropertyBlock, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableSetMaterialPropertyBlock,
                       put = __cordl_internal_set__reusableSetMaterialPropertyBlock)) ::UnityEngine::MaterialPropertyBlock* _reusableSetMaterialPropertyBlock;
 
-  /// @brief Field _reusableVectorArrays, offset 0x40, size 0x8
+  /// @brief Field _reusableVectorArrays, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__reusableVectorArrays,
                       put = __cordl_internal_set__reusableVectorArrays)) ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>*
       _reusableVectorArrays;
 
-  /// @brief Field _supportedProperties, offset 0x30, size 0x8
+  /// @brief Field _supportedProperties, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__supportedProperties,
                       put = __cordl_internal_set__supportedProperties)) ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*,
                                                                                  ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*>*>
       _supportedProperties;
 
+  /// @brief Field _timeHelper, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
+
   /// @brief Field _worldSpaceCameraPosID, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__worldSpaceCameraPosID, put = setStaticF__worldSpaceCameraPosID)) int32_t _worldSpaceCameraPosID;
 
-  /// @brief Method AutoFillRenderers, addr 0x39d7500, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method AutoFillRenderers, addr 0x564e9fc, size 0x54, virtual false, abstract: false, final false
   inline void AutoFillRenderers();
 
-  /// @brief Method Awake, addr 0x39d6968, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x564ddfc, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method GetCachedFloatArray, addr 0x39d7428, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedFloatArray, addr 0x564e908, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> GetCachedFloatArray(::StringW propertyName);
 
-  /// @brief Method GetCachedMatrixArray, addr 0x39d7278, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedMatrixArray, addr 0x564e720, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> GetCachedMatrixArray(::StringW propertyName);
 
-  /// @brief Method GetCachedVectorArray, addr 0x39d7350, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetCachedVectorArray, addr 0x564e814, size 0xf4, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> GetCachedVectorArray(::StringW propertyName);
 
-  /// @brief Method InitIfNeeded, addr 0x39d696c, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method InitIfNeeded, addr 0x564de00, size 0x284, virtual false, abstract: false, final false
   inline void InitIfNeeded();
 
   static inline ::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer* New_ctor();
 
-  /// @brief Method Render, addr 0x39d6bf0, size 0x688, virtual true, abstract: false, final false
+  /// @brief Method Render, addr 0x564e0b8, size 0x668, virtual true, abstract: false, final false
   inline void Render(::UnityEngine::RenderTexture* dest, ::UnityEngine::Matrix4x4 viewMatrix, ::UnityEngine::Matrix4x4 projectionMatrix);
 
   constexpr ::UnityEngine::Rendering::CommandBuffer* const& __cordl_internal_get__commandBuffer() const;
@@ -311,6 +317,10 @@ public:
                      ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*>*>&
   __cordl_internal_get__supportedProperties();
 
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
+
   constexpr void __cordl_internal_set__commandBuffer(::UnityEngine::Rendering::CommandBuffer* value);
 
   constexpr void
@@ -332,7 +342,9 @@ public:
                                                                     ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*>*>
                                                                value);
 
-  /// @brief Method .ctor, addr 0x39d7550, size 0x130, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
+  /// @brief Method .ctor, addr 0x564ea50, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__worldSpaceCameraPosID();
@@ -354,62 +366,67 @@ public:
   BloomPrePassBackgroundNonLightInstancedGroupRenderer(BloomPrePassBackgroundNonLightInstancedGroupRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19624 };
 
   /// @brief Field kInternalMatricesCachingId offset 0xffffffff size 0x8
   static constexpr ::ConstString kInternalMatricesCachingId{ u"INTERNAL_MATRICES" };
 
-  /// @brief Field _renderers, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _timeHelper, offset: 0x28, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
+  /// @brief Field _renderers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>, ::Array<::UnityW<::GlobalNamespace::BloomPrePassBackgroundNonLightRenderer>>*> ____renderers;
 
-  /// @brief Field _supportedProperties, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _supportedProperties, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*,
            ::Array<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_SupportedProperty*>*>
       ____supportedProperties;
 
-  /// @brief Field _reusableFloatArrays, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _reusableFloatArrays, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<float_t, ::Array<float_t>*>>* ____reusableFloatArrays;
 
-  /// @brief Field _reusableVectorArrays, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _reusableVectorArrays, offset: 0x48, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>>* ____reusableVectorArrays;
 
-  /// @brief Field _reusableMatrixArrays, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _reusableMatrixArrays, offset: 0x50, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>>* ____reusableMatrixArrays;
 
-  /// @brief Field _reusableArraysSize, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field _reusableArraysSize, offset: 0x58, size: 0x4, def value: None
   int32_t ____reusableArraysSize;
 
-  /// @brief Field _commandBuffer, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _commandBuffer, offset: 0x60, size: 0x8, def value: None
   ::UnityEngine::Rendering::CommandBuffer* ____commandBuffer;
 
-  /// @brief Field _reusableSetMaterialPropertyBlock, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _reusableSetMaterialPropertyBlock, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::MaterialPropertyBlock* ____reusableSetMaterialPropertyBlock;
 
-  /// @brief Field _reusableGetMaterialPropertyBlock, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _reusableGetMaterialPropertyBlock, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::MaterialPropertyBlock* ____reusableGetMaterialPropertyBlock;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____renderers) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____timeHelper) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____supportedProperties) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____renderers) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableFloatArrays) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____supportedProperties) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableVectorArrays) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableFloatArrays) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableMatrixArrays) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableVectorArrays) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableArraysSize) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableMatrixArrays) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____commandBuffer) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableArraysSize) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableSetMaterialPropertyBlock) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____commandBuffer) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableGetMaterialPropertyBlock) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableSetMaterialPropertyBlock) == 0x68, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, 0x70>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, ____reusableGetMaterialPropertyBlock) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundNonLightInstancedGroupRenderer_PropertyType, "", "BloomPrePassBackgroundNonLightInstancedGroupRenderer/PropertyType");

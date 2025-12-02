@@ -3,10 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__CustomYieldInstruction_def.hpp"
+#include "UnityEngine/zzzz__AsyncInstantiateOperation_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(AsyncInstantiateOperation_1)
+namespace System::Threading {
+struct CancellationToken;
+}
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
-class AsyncInstantiateOperation;
+class Object;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -14,33 +21,22 @@ template <typename T> class AsyncInstantiateOperation_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::AsyncInstantiateOperation_1);
-// Dependencies UnityEngine.CustomYieldInstruction
+// Dependencies UnityEngine.AsyncInstantiateOperation
 namespace UnityEngine {
 // cpp template
 template <typename T>
 // Is value type: false
 // CS Name: UnityEngine.AsyncInstantiateOperation`1<T>
-class CORDL_TYPE AsyncInstantiateOperation_1 : public ::UnityEngine::CustomYieldInstruction {
+class CORDL_TYPE AsyncInstantiateOperation_1 : public ::UnityEngine::AsyncInstantiateOperation {
 public:
   // Declarations
-  __declspec(property(get = get_keepWaiting)) bool keepWaiting;
+  /// @brief Method CreateResultArray, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::ArrayW<::UnityW<::UnityEngine::Object>, ::Array<::UnityW<::UnityEngine::Object>>*> CreateResultArray(int32_t size);
 
-  /// @brief Field m_op, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_op, put = __cordl_internal_set_m_op)) ::UnityEngine::AsyncInstantiateOperation* m_op;
-
-  static inline ::UnityEngine::AsyncInstantiateOperation_1<T>* New_ctor(::UnityEngine::AsyncInstantiateOperation* op);
-
-  constexpr ::UnityEngine::AsyncInstantiateOperation* const& __cordl_internal_get_m_op() const;
-
-  constexpr ::UnityEngine::AsyncInstantiateOperation*& __cordl_internal_get_m_op();
-
-  constexpr void __cordl_internal_set_m_op(::UnityEngine::AsyncInstantiateOperation* value);
+  static inline ::UnityEngine::AsyncInstantiateOperation_1<T>* New_ctor(::System::IntPtr ptr, ::System::Threading::CancellationToken cancellationToken);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::AsyncInstantiateOperation* op);
-
-  /// @brief Method get_keepWaiting, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool get_keepWaiting();
+  inline void _ctor(::System::IntPtr ptr, ::System::Threading::CancellationToken cancellationToken);
 
 protected:
   // Ctor Parameters []
@@ -57,10 +53,7 @@ public:
   AsyncInstantiateOperation_1(AsyncInstantiateOperation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10856 };
-
-  /// @brief Field m_op, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::AsyncInstantiateOperation* ___m_op;
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10273 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

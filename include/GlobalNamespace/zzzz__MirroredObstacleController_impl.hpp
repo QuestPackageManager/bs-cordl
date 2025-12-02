@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController_Pool::*)()>(
     &::GlobalNamespace::MirroredObstacleController_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af10dc;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56cd304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController_Pool*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)(bool)>(
     &::GlobalNamespace::MirroredObstacleController::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ae4880;
+  constexpr static std::size_t addrs = 0x56c02f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::Awake)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3af0b78;
+  constexpr static std::size_t addrs = 0x56ccd78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController*>::get(), "Awake",
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(
     &::GlobalNamespace::MirroredObstacleController::OnDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af0b94;
+  constexpr static std::size_t addrs = 0x56ccd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController*>::get(),
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::Update)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3af0c60;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x56cce6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController*>::get(), "Update",
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(
     &::GlobalNamespace::MirroredObstacleController::RemoveListeners)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3af0b98;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x56ccd98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController*>::get(),
@@ -106,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(
     &::GlobalNamespace::MirroredObstacleController::UpdatePositionAndRotation)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3af0d70;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x56ccf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController*>::get(),
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::MirroredObstacleController::Mirror)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3ae3c8c;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x56bf858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)(::GlobalNamespace::ObstacleControllerBase*, float_t)>(
     &::GlobalNamespace::MirroredObstacleController::HandleDidStartDissolving)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3af1090;
+  constexpr static std::size_t addrs = 0x56cd2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,8 +150,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredObstacleController::*)()>(&::GlobalNamespace::MirroredObstacleController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af10cc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56cd2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredObstacleController*>::get(), ".ctor",

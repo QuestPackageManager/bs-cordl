@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Positions::*)(int32_t, ::System::Object*)>(&::System::Xml::Schema::Positions::Add)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x439b9c0;
+  constexpr static std::size_t addrs = 0x610210c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::Position (::System::Xml::Schema::Positions::*)(int32_t)>(
     &::System::Xml::Schema::Positions::get_Item)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x439ba50;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x610219c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Positions::*)()>(&::System::Xml::Schema::Positions::get_Count)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x439bae0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6102234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Positions*>::get(), "get_Count",
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Positions::*)()>(&::System::Xml::Schema::Positions::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x439bb04;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6102254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Positions*>::get(), ".ctor",

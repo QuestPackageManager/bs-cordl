@@ -2,9 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/SongTimeSyncedVideoPlayer.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentContext_impl.hpp"
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__SongTimeSyncedVideoPlayer_def.hpp"
@@ -12,7 +9,9 @@
 #include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockController_def.hpp"
 #include "GlobalNamespace/zzzz__SongTimeSyncedVideoPlayer_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Video/zzzz__VideoClip_def.hpp"
 #include "UnityEngine/Video/zzzz__VideoPlayer_def.hpp"
@@ -24,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::*)(int32_t)>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b32a54;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5714074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b32c6c;
+  constexpr static std::size_t addrs = 0x5714288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::MoveNext)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x3b32c70;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x571428c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b32e7c;
+  constexpr static std::size_t addrs = 0x57144a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b32e84;
+  constexpr static std::size_t addrs = 0x57144b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPlay_d__20::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b32ebc;
+  constexpr static std::size_t addrs = 0x57144e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -215,8 +214,8 @@ constexpr ::GlobalNamespace::SongTimeSyncedVideoPlayer__WaitForDependenciesAndPl
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(&::GlobalNamespace::SongTimeSyncedVideoPlayer::Start)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3b31fb4;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x5713540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,8 +228,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(&::GlobalNamespace::SongTimeSyncedVideoPlayer::OnDestroy)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3b321e4;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x57137a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(),
@@ -242,8 +241,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(&::GlobalNamespace::SongTimeSyncedVideoPlayer::Update)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3b32450;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x5713a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(), "Update",
@@ -257,7 +256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::LateUpdate)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b32650;
+  constexpr static std::size_t addrs = 0x5713c5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(),
@@ -271,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::ColorWasSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b326ec;
+  constexpr static std::size_t addrs = 0x5713cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -285,8 +284,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)(::UnityEngine::Video::VideoClip*)>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::SetVideoClip)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3b326f4;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x5713d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -300,8 +299,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)(::UnityEngine::Sprite*)>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::SetSpriteAndStopVideo)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3b3281c;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x5713e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -315,8 +314,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::StopVideoPlayer)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b32380;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5713980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(),
@@ -329,8 +328,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::HandleGamePauseDidPause)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b32a1c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5714044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(),
@@ -343,8 +342,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::HandleGamePauseDidResume)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b32a38;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x571405c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(),
@@ -357,8 +356,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::WaitForDependenciesAndPlay)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b32184;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5713750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(),
@@ -370,8 +369,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(&::GlobalNamespace::SongTimeSyncedVideoPlayer::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b32a7c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x571407c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongTimeSyncedVideoPlayer*>::get(), ".ctor",
@@ -384,8 +383,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SongTimeSyncedVideoPlayer::*)()>(
     &::GlobalNamespace::SongTimeSyncedVideoPlayer::_WaitForDependenciesAndPlay_b__20_0)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b32b54;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5714168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

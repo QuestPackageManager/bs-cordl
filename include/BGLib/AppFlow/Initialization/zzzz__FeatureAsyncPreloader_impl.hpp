@@ -2,7 +2,6 @@
 // IWYU pragma private; include "BGLib/AppFlow/Initialization/FeatureAsyncPreloader.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncPreloader_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -18,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229d6b4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31e32f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,8 +33,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c::*)(::BGLib::AppFlow::Initialization::AsyncPreloader*)>(
         &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader___c::_PreloadAsync_b__1_0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x229d6bc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x31e32f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1::MoveNext)> {
-  constexpr static std::size_t size = 0x8ec;
-  constexpr static std::size_t addrs = 0x229d6e0;
+  constexpr static std::size_t size = 0x90c;
+  constexpr static std::size_t addrs = 0x31e3318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::AppFlow::Initialization::FeatureAsyncPreloader__PreloadAsync_d__1::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x229dfcc;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31e3c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -154,8 +153,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::PreloadAsync)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x229d594;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x31e31f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::*)()>(
     &::BGLib::AppFlow::Initialization::FeatureAsyncPreloader::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229d650;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31e329c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::FeatureAsyncPreloader*>::get(),

@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CutScoreBuffer.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_impl.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_impl.hpp"
-#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__CutScoreBuffer_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidChangeReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ICutScoreBufferDidFinishReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyCutScoreBuffer_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidChangeReceiver_def.hpp"
+#include "GlobalNamespace/zzzz__ISaberSwingRatingCounterDidFinishReceiver_def.hpp"
 #include "GlobalNamespace/zzzz__ISaberSwingRatingCounter_def.hpp"
 #include "GlobalNamespace/zzzz__LazyCopyHashSet_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfo_def.hpp"
@@ -17,8 +17,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_executionOrder)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3becbd8;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x57dfa64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "get_executionOrder",
@@ -30,8 +30,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_maxPossibleCutScore)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3becbf4;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x57dfa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(),
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_isFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becc10;
+  constexpr static std::size_t addrs = 0x57dfabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "get_isFinished",
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_cutScore)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3becc18;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x57dfac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "get_cutScore",
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_beforeCutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becc48;
+  constexpr static std::size_t addrs = 0x57dfaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "get_beforeCutScore",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_centerDistanceCutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becc50;
+  constexpr static std::size_t addrs = 0x57dfaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(),
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_afterCutScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becc58;
+  constexpr static std::size_t addrs = 0x57dfb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "get_afterCutScore",
@@ -110,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ScoreModel_NoteScoreDefinition* (::GlobalNamespace::CutScoreBuffer::*)()>(
     &::GlobalNamespace::CutScoreBuffer::get_noteScoreDefinition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3becc60;
+  constexpr static std::size_t addrs = 0x57dfb08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(),
@@ -124,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutInfo (::GlobalNamespace::CutScoreBuffer::*)()>(
     &::GlobalNamespace::CutScoreBuffer::get_noteCutInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3becc68;
+  constexpr static std::size_t addrs = 0x57dfb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "get_noteCutInfo",
@@ -136,8 +136,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_beforeCutSwingRating)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3becc78;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dfb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(),
@@ -149,8 +149,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::get_afterCutSwingRating)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3becc94;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dfb38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(),
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidChangeReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::RegisterDidChangeReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3beccb0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57dfb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -178,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidFinishReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::RegisterDidFinishReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3becd08;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57dfbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidChangeReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::UnregisterDidChangeReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3becd60;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57dfc18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ICutScoreBufferDidFinishReceiver*)>(
     &::GlobalNamespace::CutScoreBuffer::UnregisterDidFinishReceiver)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3becdb8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57dfc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CutScoreBuffer::*)(::ByRef<::GlobalNamespace::NoteCutInfo>)>(
     &::GlobalNamespace::CutScoreBuffer::Init)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x3bece10;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x57dfce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -237,8 +237,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::RefreshScores)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3bed070;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x57dff4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), "RefreshScores",
@@ -251,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ISaberSwingRatingCounter*, float_t)>(
     &::GlobalNamespace::CutScoreBuffer::HandleSaberSwingRatingCounterDidChange)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3bed268;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x57e0150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -267,8 +267,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)(::GlobalNamespace::ISaberSwingRatingCounter*)>(
     &::GlobalNamespace::CutScoreBuffer::HandleSaberSwingRatingCounterDidFinish)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3bed43c;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x57e02f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -281,8 +281,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CutScoreBuffer::*)()>(&::GlobalNamespace::CutScoreBuffer::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3bed6f4;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x57e0588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CutScoreBuffer*>::get(), ".ctor",

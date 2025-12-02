@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/IGrouping_2.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Linq/zzzz__IGrouping_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 template <typename TKey, typename TElement> inline TKey System::Linq::IGrouping_2<TKey, TElement>::get_Key() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::IGrouping_2<TKey, TElement>*>::get(), 0)));

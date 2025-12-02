@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IValidatable_def.hpp"
 CORDL_MODULE_EXPORT(IPlaceholderFactory)
+namespace Zenject {
+class IValidatable;
+}
 // Forward declare root types
 namespace Zenject {
 class IPlaceholderFactory;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::IPlaceholderFactory);
-// Dependencies Zenject.IValidatable
+// Dependencies
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.IPlaceholderFactory
@@ -29,7 +31,7 @@ public:
   IPlaceholderFactory(IPlaceholderFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

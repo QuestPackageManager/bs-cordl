@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
@@ -38,7 +37,7 @@ template <typename TInstantiate, typename TReturn> struct AddressablesLoader__In
 // Write type traits
 MARK_REF_PTR_T(::BGLib::AsyncInitialization::AddressablesLoader);
 MARK_GEN_VAL_T(::BGLib::AsyncInitialization::AddressablesLoader__InstantiateFromAddressableToContainer_d__0_2);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AsyncInitialization {
 // cpp template
 template <typename TInstantiate, typename TReturn>
@@ -72,7 +71,7 @@ public:
                                                                              ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::GameObject>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21374 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -126,7 +125,7 @@ public:
   AddressablesLoader(AddressablesLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17556 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21375 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Net/NetworkCredential.hpp"
-#include "System/Net/zzzz__ICredentials_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__NetworkCredential_def.hpp"
+#include "System/Net/zzzz__ICredentials_def.hpp"
 #include "System/Security/zzzz__SecureString_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: ::System::Net::NetworkCredential._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkCredential::*)(::StringW, ::StringW)>(&::System::Net::NetworkCredential::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4497ac4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x61e75bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkCredential::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Net::NetworkCredential::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x449d9b4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x61ed45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +40,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkCredential::*)()>(&::System::Net::NetworkCredential::get_UserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a1b74;
+  constexpr static std::size_t addrs = 0x61f1434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkCredential*>::get(), "get_UserName",
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkCredential::*)(::StringW)>(&::System::Net::NetworkCredential::set_UserName)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44a1aa4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x61f13dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkCredential::*)()>(&::System::Net::NetworkCredential::get_Password)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44a1b7c;
+  constexpr static std::size_t addrs = 0x61f143c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkCredential*>::get(), "get_Password",
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkCredential::*)(::StringW)>(&::System::Net::NetworkCredential::set_Password)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44a1afc;
+  constexpr static std::size_t addrs = 0x61f13f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,7 +94,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkCredential::*)()>(&::System::Net::NetworkCredential::get_Domain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a1b94;
+  constexpr static std::size_t addrs = 0x61f1454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkCredential*>::get(), "get_Domain",
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkCredential::*)(::StringW)>(&::System::Net::NetworkCredential::set_Domain)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x44a1b1c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x61f1418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkCredential::*)()>(&::System::Net::NetworkCredential::InternalGetUserName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a1b9c;
+  constexpr static std::size_t addrs = 0x61f145c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkCredential*>::get(), "InternalGetUserName",
@@ -134,7 +134,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkCredential::*)()>(&::System::Net::NetworkCredential::InternalGetPassword)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44a1b88;
+  constexpr static std::size_t addrs = 0x61f1448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkCredential*>::get(), "InternalGetPassword",
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkCredential::*)()>(&::System::Net::NetworkCredential::InternalGetDomain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44a1ba4;
+  constexpr static std::size_t addrs = 0x61f1464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkCredential*>::get(), "InternalGetDomain",
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkCredential* (::System::Net::NetworkCredential::*)(::System::Uri*, ::StringW)>(
     &::System::Net::NetworkCredential::GetCredential)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44a1bac;
+  constexpr static std::size_t addrs = 0x61f146c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

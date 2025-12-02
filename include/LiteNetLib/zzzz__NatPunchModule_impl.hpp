@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::get_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf438;
+  constexpr static std::size_t addrs = 0x5688f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket*>::get(),
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::*)(::System::Net::IPEndPoint*)>(
     &::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::set_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf440;
+  constexpr static std::size_t addrs = 0x5688f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::get_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf448;
+  constexpr static std::size_t addrs = 0x5688f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket*>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::*)(::StringW)>(
     &::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::set_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf450;
+  constexpr static std::size_t addrs = 0x5688f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaed04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5688894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket*>::get(),
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::get_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf458;
+  constexpr static std::size_t addrs = 0x5688f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket*>::get(),
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)(::System::Net::IPEndPoint*)>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::set_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf460;
+  constexpr static std::size_t addrs = 0x5688f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,7 +194,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::IPEndPoint* (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::get_External)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf468;
+  constexpr static std::size_t addrs = 0x5688f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket*>::get(),
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)(::System::Net::IPEndPoint*)>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::set_External)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf470;
+  constexpr static std::size_t addrs = 0x5688f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::get_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf478;
+  constexpr static std::size_t addrs = 0x5688f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket*>::get(),
@@ -237,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)(::StringW)>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::set_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf480;
+  constexpr static std::size_t addrs = 0x5688f7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -251,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aae544;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56880b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket*>::get(),
@@ -345,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LiteNetLib::NatPunchModule_NatPunchPacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatPunchPacket::get_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf488;
+  constexpr static std::size_t addrs = 0x5688f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatPunchPacket*>::get(), "get_Token",
@@ -359,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatPunchPacket::*)(::StringW)>(
     &::LiteNetLib::NatPunchModule_NatPunchPacket::set_Token)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf490;
+  constexpr static std::size_t addrs = 0x5688f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::NatPunchModule_NatPunchPacket::*)()>(
     &::LiteNetLib::NatPunchModule_NatPunchPacket::get_IsExternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaf498;
+  constexpr static std::size_t addrs = 0x5688f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatPunchPacket*>::get(),
@@ -387,8 +387,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatPunchPacket::*)(bool)>(
     &::LiteNetLib::NatPunchModule_NatPunchPacket::set_IsExternal)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aaf4a0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5688f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -401,8 +401,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule_NatPunchPacket::*)()>(&::LiteNetLib::NatPunchModule_NatPunchPacket::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aaef80;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5688b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule_NatPunchPacket*>::get(), ".ctor",
@@ -470,8 +470,8 @@ constexpr ::LiteNetLib::NatPunchModule_NatPunchPacket::NatPunchModule_NatPunchPa
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::LiteNetLib::NetSocket*)>(&::LiteNetLib::NatPunchModule::_ctor)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x3aae084;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x5687be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,8 +485,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::System::Net::IPEndPoint*, ::LiteNetLib::NetPacket*)>(
     &::LiteNetLib::NatPunchModule::ProcessMessage)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3aae354;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5687ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -501,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::LiteNetLib::INatPunchListener*)>(&::LiteNetLib::NatPunchModule::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aae470;
+  constexpr static std::size_t addrs = 0x5687fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -516,7 +516,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(
     ::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::System::Net::IPEndPoint*, ::StringW)>(&::LiteNetLib::NatPunchModule::NatIntroduce)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3aae478;
+  constexpr static std::size_t addrs = 0x5687fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -533,8 +533,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)()>(&::LiteNetLib::NatPunchModule::PollEvents)> {
-  constexpr static std::size_t size = 0x360;
-  constexpr static std::size_t addrs = 0x3aae54c;
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x56880b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LiteNetLib::NatPunchModule*>::get(), "PollEvents",
@@ -547,8 +547,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::StringW, int32_t, ::StringW)>(
     &::LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3aae8ac;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5688428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -563,8 +563,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::System::Net::IPEndPoint*, ::StringW)>(
     &::LiteNetLib::NatPunchModule::SendNatIntroduceRequest)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3aae9d0;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5688558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -580,7 +580,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::LiteNetLib::NatPunchModule::*)(::LiteNetLib::NatPunchModule_NatIntroduceRequestPacket*, ::System::Net::IPEndPoint*)>(&::LiteNetLib::NatPunchModule::OnNatIntroductionRequest)> {
   constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3aaed0c;
+  constexpr static std::size_t addrs = 0x5688898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -596,7 +596,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::LiteNetLib::NatPunchModule_NatIntroduceResponsePacket*)>(
     &::LiteNetLib::NatPunchModule::OnNatIntroductionResponse)> {
   constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3aaee2c;
+  constexpr static std::size_t addrs = 0x56889b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -610,8 +610,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::NatPunchModule::*)(::LiteNetLib::NatPunchModule_NatPunchPacket*, ::System::Net::IPEndPoint*)>(
     &::LiteNetLib::NatPunchModule::OnNatPunch)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3aaf308;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x5688e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

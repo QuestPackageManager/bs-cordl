@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Reflection/MemberInfo.hpp"
-#include "System/Reflection/zzzz__ICustomAttributeProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
+#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
 #include "System/Reflection/zzzz__MemberTypes_def.hpp"
 #include "System/Reflection/zzzz__Module_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22108;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x596733c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::MemberInfo*>::get(), ".ctor",
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::MemberInfo::*)()>(
     &::System::Reflection::MemberInfo::get_Module)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3d23808;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x59686f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::get_MetadataToken)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d238dc;
+  constexpr static std::size_t addrs = 0x5968788;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,8 +154,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::MemberInfo::*)(::System::Object*)>(&::System::Reflection::MemberInfo::Equals)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22270;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x596748c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,8 +168,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Reflection::MemberInfo::*)()>(&::System::Reflection::MemberInfo::GetHashCode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d22280;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x59674ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,8 +183,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*)>(
     &::System::Reflection::MemberInfo::op_Equality)> {
-  constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x3d23914;
+  constexpr static std::size_t size = 0x308;
+  constexpr static std::size_t addrs = 0x59687c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -200,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Reflection::MemberInfo*, ::System::Reflection::MemberInfo*)>(
     &::System::Reflection::MemberInfo::op_Inequality)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d23ea4;
+  constexpr static std::size_t addrs = 0x5968cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

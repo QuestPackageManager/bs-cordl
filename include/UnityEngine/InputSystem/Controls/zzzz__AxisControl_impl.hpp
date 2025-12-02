@@ -19,8 +19,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::Preprocess)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4561180;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x62dbc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::Unpreprocess)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4561254;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x62dbcc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x45612a0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x62dbd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(),
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::FinishSetup)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4561328;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x62dbdc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,10 +77,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::AxisControl.ReadUnprocessedValueFromState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::ReadUnprocessedValueFromState)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4561410;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x62dbeb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,10 +93,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::AxisControl.WriteValueIntoState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t, ::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t, void*)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::WriteValueIntoState)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4561590;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x62dc020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,10 +109,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::AxisControl.CompareValue
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::AxisControl::*)(
-    ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::AxisControl::CompareValue)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x456166c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Controls::AxisControl::*)(void*, void*)>(
+    &::UnityEngine::InputSystem::Controls::AxisControl::CompareValue)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x62dc108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,10 +125,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::AxisControl.EvaluateMagnitude
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(void*)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4561758;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x62dc1fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::Controls::AxisControl::*)(float_t)>(
     &::UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x45617b8;
+  constexpr static std::size_t addrs = 0x62dc260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::Controls::AxisControl::*)()>(
     &::UnityEngine::InputSystem::Controls::AxisControl::CalculateOptimizedControlDataType)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x456186c;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x62dc314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -323,22 +323,22 @@ inline void UnityEngine::InputSystem::Controls::AxisControl::FinishSetup() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline float_t UnityEngine::InputSystem::Controls::AxisControl::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+inline float_t UnityEngine::InputSystem::Controls::AxisControl::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, statePtr);
 }
-inline void UnityEngine::InputSystem::Controls::AxisControl::WriteValueIntoState(float_t value, ::cordl_internals::Ptr<void> statePtr) {
+inline void UnityEngine::InputSystem::Controls::AxisControl::WriteValueIntoState(float_t value, void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);
 }
-inline bool UnityEngine::InputSystem::Controls::AxisControl::CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr) {
+inline bool UnityEngine::InputSystem::Controls::AxisControl::CompareValue(void* firstStatePtr, void* secondStatePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, firstStatePtr, secondStatePtr);
 }
-inline float_t UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude(::cordl_internals::Ptr<void> statePtr) {
+inline float_t UnityEngine::InputSystem::Controls::AxisControl::EvaluateMagnitude(void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::AxisControl*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, statePtr);

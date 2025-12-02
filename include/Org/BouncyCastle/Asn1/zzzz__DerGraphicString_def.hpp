@@ -35,25 +35,25 @@ public:
   /// @brief Field mString, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_mString, put = __cordl_internal_set_mString)) ::ArrayW<uint8_t, ::Array<uint8_t>*> mString;
 
-  /// @brief Method Asn1Equals, addr 0x263a384, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x356a0ec, size 0xd0, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x263a328, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x356a08c, size 0x60, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method Encode, addr 0x263a304, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x356a070, size 0x1c, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Asn1::DerOutputStream* derOut);
 
-  /// @brief Method GetInstance, addr 0x263a190, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3569ee4, size 0x120, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGraphicString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2639f74, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3569cbc, size 0x228, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::DerGraphicString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctets, addr 0x263a2a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x356a010, size 0x60, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
-  /// @brief Method GetString, addr 0x263a29c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x356a004, size 0xc, virtual true, abstract: false, final false
   inline ::StringW GetString();
 
   static inline ::Org::BouncyCastle::Asn1::DerGraphicString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
@@ -64,7 +64,7 @@ public:
 
   constexpr void __cordl_internal_set_mString(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x262e674, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355e590, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoding);
 
 protected:

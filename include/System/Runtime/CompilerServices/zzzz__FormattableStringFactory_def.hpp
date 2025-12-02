@@ -47,15 +47,15 @@ public:
   /// @brief Field _format, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__format, put = __cordl_internal_set__format)) ::StringW _format;
 
-  /// @brief Method GetArgument, addr 0x3d18910, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5959bf8, size 0x30, virtual true, abstract: false, final false
   inline ::System::Object* GetArgument(int32_t index);
 
-  /// @brief Method GetArguments, addr 0x3d188ec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetArguments, addr 0x5959bd8, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArguments();
 
   static inline ::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString* New_ctor(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method ToString, addr 0x3d18940, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5959c28, size 0x14, virtual true, abstract: false, final false
   inline ::StringW ToString(::System::IFormatProvider* formatProvider);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__arguments() const;
@@ -70,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set__format(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d188b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5959bc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
-  /// @brief Method get_ArgumentCount, addr 0x3d188f4, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5959be0, size 0x18, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Format, addr 0x3d188e4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Format, addr 0x5959bd0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Format();
 
 protected:
@@ -94,7 +94,7 @@ public:
   FormattableStringFactory_ConcreteFormattableString(FormattableStringFactory_ConcreteFormattableString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3385 };
 
   /// @brief Field _format, offset: 0x10, size: 0x8, def value: None
   ::StringW ____format;
@@ -121,7 +121,7 @@ public:
   // Declarations
   using ConcreteFormattableString = ::System::Runtime::CompilerServices::FormattableStringFactory_ConcreteFormattableString;
 
-  /// @brief Method Create, addr 0x3d187e8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5959afc, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::FormattableString* Create(::StringW format, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> arguments);
 
 protected:
@@ -139,7 +139,7 @@ public:
   FormattableStringFactory(FormattableStringFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3371 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3386 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

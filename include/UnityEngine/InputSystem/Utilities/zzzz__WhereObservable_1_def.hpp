@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(WhereObservable_1)
 namespace System {
@@ -35,7 +33,7 @@ template <typename TValue> class WhereObservable_1_Where;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::WhereObservable_1);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::WhereObservable_1_Where);
-// Dependencies System.IObserver`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -98,7 +96,7 @@ public:
   WhereObservable_1_Where(WhereObservable_1_Where const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9162 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Utilities::WhereObservable_1<TValue>* ___m_Observable;
@@ -110,7 +108,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Dependencies System.IObservable`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -168,7 +166,7 @@ public:
   WhereObservable_1(WhereObservable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9163 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;

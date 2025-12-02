@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::*)(
     bool, ::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters*)>(&::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x23bec94;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x32ecf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::*)(
     bool, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x23becc4;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x32ecf58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* (
     ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::get_Parameters)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bee64;
+  constexpr static std::size_t addrs = 0x32ed104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (
     ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::*)()>(&::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::get_PublicKeyParamSet)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23bee6c;
+  constexpr static std::size_t addrs = 0x32ed10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Parameters::Gost3410Parameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyParameters::LookupParameters)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x23becfc;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x32ecf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,14 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRRaycaster.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_impl.hpp"
 #include "UnityEngine/UI/zzzz__GraphicRaycaster_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRayTransformer_def.hpp"
 #include "GlobalNamespace/zzzz__OVRRaycaster_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
@@ -32,8 +33,8 @@ constexpr ::GlobalNamespace::OVRRaycaster_RaycastHit::OVRRaycaster_RaycastHit() 
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster___c::*)()>(&::GlobalNamespace::OVRRaycaster___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4041354;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5cf6ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get(), ".ctor",
@@ -41,17 +42,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRRaycaster___c._GraphicRaycast_b__16_0
+//  Writing Method size for method: ::GlobalNamespace::OVRRaycaster___c._GraphicRaycast_b__20_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRRaycaster___c::*)(
-    ::GlobalNamespace::OVRRaycaster_RaycastHit, ::GlobalNamespace::OVRRaycaster_RaycastHit)>(&::GlobalNamespace::OVRRaycaster___c::_GraphicRaycast_b__16_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x404135c;
+    ::GlobalNamespace::OVRRaycaster_RaycastHit, ::GlobalNamespace::OVRRaycaster_RaycastHit)>(&::GlobalNamespace::OVRRaycaster___c::_GraphicRaycast_b__20_0)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5cf6ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get(), "<GraphicRaycast>b__16_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get(), "<GraphicRaycast>b__20_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRRaycaster_RaycastHit>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRRaycaster_RaycastHit>::get() })));
     return ___internal_method;
@@ -64,13 +65,13 @@ inline void GlobalNamespace::OVRRaycaster___c::setStaticF___9(::GlobalNamespace:
 inline ::GlobalNamespace::OVRRaycaster___c* GlobalNamespace::OVRRaycaster___c::getStaticF___9() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::OVRRaycaster___c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get>();
 }
-inline void GlobalNamespace::OVRRaycaster___c::setStaticF___9__16_0(::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* value) {
-  ::cordl_internals::setStaticField<::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*, "<>9__16_0",
+inline void GlobalNamespace::OVRRaycaster___c::setStaticF___9__20_0(::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* value) {
+  ::cordl_internals::setStaticField<::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*, "<>9__20_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get>(
       std::forward<::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*>(value));
 }
-inline ::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* GlobalNamespace::OVRRaycaster___c::getStaticF___9__16_0() {
-  return ::cordl_internals::getStaticField<::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*, "<>9__16_0",
+inline ::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* GlobalNamespace::OVRRaycaster___c::getStaticF___9__20_0() {
+  return ::cordl_internals::getStaticField<::System::Comparison_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*, "<>9__20_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get>();
 }
 inline void GlobalNamespace::OVRRaycaster___c::_ctor() {
@@ -78,9 +79,9 @@ inline void GlobalNamespace::OVRRaycaster___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t GlobalNamespace::OVRRaycaster___c::_GraphicRaycast_b__16_0(::GlobalNamespace::OVRRaycaster_RaycastHit g1, ::GlobalNamespace::OVRRaycaster_RaycastHit g2) {
+inline int32_t GlobalNamespace::OVRRaycaster___c::_GraphicRaycast_b__20_0(::GlobalNamespace::OVRRaycaster_RaycastHit g1, ::GlobalNamespace::OVRRaycaster_RaycastHit g2) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get(), "<GraphicRaycast>b__16_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster___c*>::get(), "<GraphicRaycast>b__20_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRRaycaster_RaycastHit>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRRaycaster_RaycastHit>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, g1, g2);
@@ -94,8 +95,8 @@ constexpr ::GlobalNamespace::OVRRaycaster___c::OVRRaycaster___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x403fa20;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5cf502c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), ".ctor",
@@ -108,11 +109,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Canvas> (::GlobalNamespace::OVRRaycaster::*)()>(
     &::GlobalNamespace::OVRRaycaster::get_canvas)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x403fac0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5cf50d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "get_canvas",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRRaycaster.get_rayTransformer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OVRRayTransformer> (::GlobalNamespace::OVRRaycaster::*)()>(
+    &::GlobalNamespace::OVRRaycaster::get_rayTransformer)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cf5190;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "get_rayTransformer",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -123,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::GlobalNamespace::OVRRaycaster::*)()>(
     &::GlobalNamespace::OVRRaycaster::get_eventCamera)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x403fb54;
+  constexpr static std::size_t addrs = 0x5cf5198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -137,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::get_sortOrderPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x403fb70;
+  constexpr static std::size_t addrs = 0x5cf51b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,8 +165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::Start)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x403fb78;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5cf51bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -164,17 +179,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
-    ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*, ::UnityEngine::Ray, bool)>(
+    ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*, ::UnityEngine::Ray, bool, bool)>(
     &::GlobalNamespace::OVRRaycaster::Raycast)> {
-  constexpr static std::size_t size = 0x6c8;
-  constexpr static std::size_t addrs = 0x403fcc8;
+  constexpr static std::size_t size = 0x634;
+  constexpr static std::size_t addrs = 0x5cf532c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "Raycast", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -183,8 +199,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::GlobalNamespace::OVRRaycaster::Raycast)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4040a18;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5cf5fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,13 +209,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRRaycaster.RaycastOnRaycastableGraphics
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (::GlobalNamespace::OVRRaycaster::*)(::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(
+        &::GlobalNamespace::OVRRaycaster::RaycastOnRaycastableGraphics)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5cf6044;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "RaycastOnRaycastableGraphics", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRRaycaster.RaycastPointer
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::GlobalNamespace::OVRRaycaster::RaycastPointer)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x4040a84;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x5cf60a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,16 +246,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(
-    ::UnityEngine::Canvas*, ::UnityEngine::Ray, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*)>(&::GlobalNamespace::OVRRaycaster::GraphicRaycast)> {
-  constexpr static std::size_t size = 0x688;
-  constexpr static std::size_t addrs = 0x4040390;
+    ::UnityEngine::Canvas*, ::GlobalNamespace::OVRRayTransformer*, ::UnityEngine::Ray, ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*, bool)>(
+    &::GlobalNamespace::OVRRaycaster::GraphicRaycast)> {
+  constexpr static std::size_t size = 0x684;
+  constexpr static std::size_t addrs = 0x5cf5960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "GraphicRaycast", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRRayTransformer*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -232,7 +268,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::GlobalNamespace::OVRRaycaster::*)(::UnityEngine::EventSystems::RaycastResult)>(
     &::GlobalNamespace::OVRRaycaster::GetScreenPosition)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4041018;
+  constexpr static std::size_t addrs = 0x5cf6818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,8 +282,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RectTransform*, ::UnityEngine::Ray, ::ByRef<::UnityEngine::Vector3>)>(
     &::GlobalNamespace::OVRRaycaster::RayIntersectsRectTransform)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x4040d44;
+  constexpr static std::size_t size = 0x490;
+  constexpr static std::size_t addrs = 0x5cf6388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,12 +298,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRRaycaster::*)()>(&::GlobalNamespace::OVRRaycaster::IsFocussed)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4041050;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5cf6850;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "IsFocussed",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), 23));
     return ___internal_method;
   }
 };
@@ -276,13 +313,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRRaycaster::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::OVRRaycaster::OnPointerEnter)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4041168;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5cf6974;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "OnPointerEnter", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get() })));
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), 24));
     return ___internal_method;
   }
 };
@@ -322,6 +359,18 @@ constexpr void GlobalNamespace::OVRRaycaster::__cordl_internal_set_m_Canvas(::Un
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Canvas)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityW<::GlobalNamespace::OVRRayTransformer>& GlobalNamespace::OVRRaycaster::__cordl_internal_get_m_RayTransformer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RayTransformer;
+}
+constexpr ::UnityW<::GlobalNamespace::OVRRayTransformer> const& GlobalNamespace::OVRRaycaster::__cordl_internal_get_m_RayTransformer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_RayTransformer;
+}
+constexpr void GlobalNamespace::OVRRaycaster::__cordl_internal_set_m_RayTransformer(::UnityW<::GlobalNamespace::OVRRayTransformer> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_RayTransformer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*& GlobalNamespace::OVRRaycaster::__cordl_internal_get_m_RaycastResults() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_RaycastResults;
@@ -343,6 +392,15 @@ inline ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_Ra
   return ::cordl_internals::getStaticField<::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*, "s_SortedGraphics",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get>();
 }
+inline void GlobalNamespace::OVRRaycaster::setStaticF__corners(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
+  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "_corners",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get>(
+      std::forward<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>(value));
+}
+inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GlobalNamespace::OVRRaycaster::getStaticF__corners() {
+  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "_corners",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get>();
+}
 inline void GlobalNamespace::OVRRaycaster::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -352,6 +410,11 @@ inline ::UnityW<::UnityEngine::Canvas> GlobalNamespace::OVRRaycaster::get_canvas
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "get_canvas",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Canvas>, false>(this, ___internal_method);
+}
+inline ::UnityW<::GlobalNamespace::OVRRayTransformer> GlobalNamespace::OVRRaycaster::get_rayTransformer() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "get_rayTransformer",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OVRRayTransformer>, false>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::Camera> GlobalNamespace::OVRRaycaster::get_eventCamera() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -369,19 +432,28 @@ inline void GlobalNamespace::OVRRaycaster::Start() {
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRRaycaster::Raycast(::UnityEngine::EventSystems::PointerEventData* eventData,
-                                                   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList, ::UnityEngine::Ray ray,
-                                                   bool checkForBlocking) {
+                                                   ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList, ::UnityEngine::Ray ray, bool checkForBlocking,
+                                                   bool checkOnlyRaycastable) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "Raycast", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData, resultAppendList, ray, checkForBlocking);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData, resultAppendList, ray, checkForBlocking, checkOnlyRaycastable);
 }
 inline void GlobalNamespace::OVRRaycaster::Raycast(::UnityEngine::EventSystems::PointerEventData* eventData,
                                                    ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), 17)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData, resultAppendList);
+}
+inline void GlobalNamespace::OVRRaycaster::RaycastOnRaycastableGraphics(::UnityEngine::EventSystems::PointerEventData* eventData,
+                                                                        ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "RaycastOnRaycastableGraphics", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData, resultAppendList);
 }
 inline void GlobalNamespace::OVRRaycaster::RaycastPointer(::UnityEngine::EventSystems::PointerEventData* eventData,
@@ -392,14 +464,16 @@ inline void GlobalNamespace::OVRRaycaster::RaycastPointer(::UnityEngine::EventSy
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData, resultAppendList);
 }
-inline void GlobalNamespace::OVRRaycaster::GraphicRaycast(::UnityEngine::Canvas* canvas, ::UnityEngine::Ray ray,
-                                                          ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* results) {
+inline void GlobalNamespace::OVRRaycaster::GraphicRaycast(::UnityEngine::Canvas* canvas, ::GlobalNamespace::OVRRayTransformer* rayTransformer, ::UnityEngine::Ray ray,
+                                                          ::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>* results, bool checkOnlyRaycastableGraphics) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "GraphicRaycast", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Canvas*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRRayTransformer*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Ray>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, canvas, ray, results);
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::GlobalNamespace::OVRRaycaster_RaycastHit>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, canvas, rayTransformer, ray, results, checkOnlyRaycastableGraphics);
 }
 inline ::UnityEngine::Vector2 GlobalNamespace::OVRRaycaster::GetScreenPosition(::UnityEngine::EventSystems::RaycastResult raycastResult) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -416,14 +490,13 @@ inline bool GlobalNamespace::OVRRaycaster::RayIntersectsRectTransform(::UnityEng
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, rectTransform, ray, worldPos);
 }
 inline bool GlobalNamespace::OVRRaycaster::IsFocussed() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "IsFocussed",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRRaycaster::OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* e) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), "OnPointerEnter", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventSystems::PointerEventData*>::get() })));
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRRaycaster*>::get(), 24)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, e);
 }
 inline ::GlobalNamespace::OVRRaycaster* GlobalNamespace::OVRRaycaster::New_ctor() {

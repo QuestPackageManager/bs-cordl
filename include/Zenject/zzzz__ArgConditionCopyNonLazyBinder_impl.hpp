@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ArgConditionCopyNonLazyBinder::*)(::Zenject::BindInfo*)>(
     &::Zenject::ArgConditionCopyNonLazyBinder::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aff538;
+  constexpr static std::size_t addrs = 0x6c1555c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (
     ::Zenject::ArgConditionCopyNonLazyBinder::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::Zenject::ArgConditionCopyNonLazyBinder::WithArguments)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x4aff540;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x6c15564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InstantiateCallbackConditionCopyNonLazyBinder* (
     ::Zenject::ArgConditionCopyNonLazyBinder::*)(::System::Collections::Generic::IEnumerable_1<::Zenject::TypeValuePair>*)>(&::Zenject::ArgConditionCopyNonLazyBinder::WithArgumentsExplicit)> {
-  constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x4aff6c8;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x6c156e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

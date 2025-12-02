@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)()>(
     &::System::Globalization::GregorianCalendarHelper::get_MaxYear)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d9ee5c;
+  constexpr static std::size_t addrs = 0x59b241c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::GregorianCalendarHelper*>::get(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::GregorianCalendarHelper::*)(
     ::System::Globalization::Calendar*, ::ArrayW<::System::Globalization::EraInfo*, ::Array<::System::Globalization::EraInfo*>*>)>(&::System::Globalization::GregorianCalendarHelper::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3d9ee64;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x59b2424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t, bool)>(
     &::System::Globalization::GregorianCalendarHelper::GetYearOffset)> {
-  constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x3d9eedc;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x59b2488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::GetGregorianYear)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d9f1c4;
+  constexpr static std::size_t addrs = 0x59b2768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::IsValidYear)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3d9f1e0;
+  constexpr static std::size_t addrs = 0x59b2784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int64_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::GetDatePart)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3d9f1fc;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x59b27a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int32_t, int32_t)>(&::System::Globalization::GregorianCalendarHelper::GetAbsoluteDate)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3d9f5f0;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x59b2b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -118,8 +118,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int32_t, int32_t)>(&::System::Globalization::GregorianCalendarHelper::DateToTicks)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d9f7e0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x59b2d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)(int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::GregorianCalendarHelper::TimeToTicks)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3d9f860;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x59b2df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::GregorianCalendarHelper::*)(int64_t)>(
     &::System::Globalization::GregorianCalendarHelper::CheckTicksRange)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3d9f40c;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x59b29c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,7 +165,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(
     &::System::Globalization::GregorianCalendarHelper::GetDayOfMonth)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d9fa10;
+  constexpr static std::size_t addrs = 0x59b2f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DayOfWeek (::System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(
     &::System::Globalization::GregorianCalendarHelper::GetDayOfWeek)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d9fa90;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x59b300c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::GetDaysInMonth)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3d9fb5c;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x59b30dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::GetDaysInYear)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3d9fcf8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x59b3280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -225,8 +225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(
     &::System::Globalization::GregorianCalendarHelper::GetEra)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3d9fd64;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x59b32e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::System::Globalization::GregorianCalendarHelper::*)()>(
     &::System::Globalization::GregorianCalendarHelper::get_Eras)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x3d9fe6c;
+  constexpr static std::size_t addrs = 0x59b33dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::GregorianCalendarHelper*>::get(),
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(
     &::System::Globalization::GregorianCalendarHelper::GetMonth)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3d9ff5c;
+  constexpr static std::size_t addrs = 0x59b34cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::GetMonthsInYear)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3d9ffdc;
+  constexpr static std::size_t addrs = 0x59b354c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -284,8 +284,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(::System::DateTime)>(
     &::System::Globalization::GregorianCalendarHelper::GetYear)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3d9fff4;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x59b3564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -300,7 +300,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::IsLeapYear)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3da011c;
+  constexpr static std::size_t addrs = 0x59b3680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -314,8 +314,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::System::Globalization::GregorianCalendarHelper::*)(
     int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t)>(&::System::Globalization::GregorianCalendarHelper::ToDateTime)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3da018c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x59b36f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -332,8 +332,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Globalization::GregorianCalendarHelper::*)(int32_t, int32_t)>(
     &::System::Globalization::GregorianCalendarHelper::ToFourDigitYear)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3da0290;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x59b37f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

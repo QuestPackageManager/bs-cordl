@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecColorController::*)(bool)>(&::GlobalNamespace::IncDecColorController::set_enableDec)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c2747c;
+  constexpr static std::size_t addrs = 0x58191ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecColorController::*)(bool)>(&::GlobalNamespace::IncDecColorController::set_enableInc)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c274a4;
+  constexpr static std::size_t addrs = 0x58191d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecColorController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::IncDecColorController::set_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c274cc;
+  constexpr static std::size_t addrs = 0x58191fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecColorController::*)()>(&::GlobalNamespace::IncDecColorController::Awake)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c274f8;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5819228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecColorController::*)()>(&::GlobalNamespace::IncDecColorController::OnDestroy)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3c275a8;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x5819344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IncDecColorController*>::get(), "OnDestroy",
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IncDecColorController::*)()>(&::GlobalNamespace::IncDecColorController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c276a4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58194b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IncDecColorController*>::get(), ".ctor",

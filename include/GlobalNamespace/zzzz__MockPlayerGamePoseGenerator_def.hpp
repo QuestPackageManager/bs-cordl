@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MockPlayerGamePoseGenerator)
@@ -11,10 +10,10 @@ namespace GlobalNamespace {
 class GameplayModifiers;
 }
 namespace GlobalNamespace {
-class IGameplayRpcManager;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IGameplayRpcManager;
 }
 namespace GlobalNamespace {
 struct LevelCompletionResults_LevelEndStateType;
@@ -34,13 +33,16 @@ class MockScoreSyncStateSender;
 namespace System {
 class Action;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MockPlayerGamePoseGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockPlayerGamePoseGenerator);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockPlayerGamePoseGenerator
@@ -62,27 +64,27 @@ public:
 
   /// @brief Field multiplayerSessionManager, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_multiplayerSessionManager,
-                      put = __cordl_internal_set_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+                      put = __cordl_internal_set_multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager;
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x3c2ab88, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method CreateEmptyLevelCompletionResults, addr 0x586df78, size 0xd0, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::LevelCompletionResults* CreateEmptyLevelCompletionResults(::GlobalNamespace::LevelCompletionResults_LevelEndStateType levelEndStateType);
 
-  /// @brief Method Dispose, addr 0x3c2a9b4, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x586dda0, size 0x2c, virtual true, abstract: false, final false
   inline void Dispose();
 
   /// @brief Method Init, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Init(int64_t introStartTime, ::GlobalNamespace::MockBeatmapData* beatmapData, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::System::Action* onSongFinished);
 
-  static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
+  static inline ::GlobalNamespace::MockPlayerGamePoseGenerator* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
-  /// @brief Method SimulateFail, addr 0x3c2aa9c, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method SimulateFail, addr 0x586de8c, size 0xec, virtual true, abstract: false, final false
   inline void SimulateFail();
 
-  /// @brief Method SimulateGiveUp, addr 0x3c2ac8c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method SimulateGiveUp, addr 0x586e048, size 0xf0, virtual false, abstract: false, final false
   inline void SimulateGiveUp();
 
   /// @brief Method Tick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -104,9 +106,9 @@ public:
 
   constexpr ::GlobalNamespace::MockScoreSyncStateSender*& __cordl_internal_get_mockScoreSyncStateSender();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get_multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get_multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get_multiplayerSessionManager();
 
   constexpr void __cordl_internal_set_gameplayRpcManager(::GlobalNamespace::IGameplayRpcManager* value);
 
@@ -116,10 +118,10 @@ public:
 
   constexpr void __cordl_internal_set_mockScoreSyncStateSender(::GlobalNamespace::MockScoreSyncStateSender* value);
 
-  constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set_multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x3c2a78c, size 0xb8, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
+  /// @brief Method .ctor, addr 0x586db44, size 0xb4, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
@@ -139,10 +141,10 @@ public:
   MockPlayerGamePoseGenerator(MockPlayerGamePoseGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22015 };
 
   /// @brief Field multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ___multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ___multiplayerSessionManager;
 
   /// @brief Field gameplayRpcManager, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::IGameplayRpcManager* ___gameplayRpcManager;

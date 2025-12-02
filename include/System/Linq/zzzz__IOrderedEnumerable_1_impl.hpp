@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/IOrderedEnumerable_1.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
 template <typename TElement>
 template <typename TKey>

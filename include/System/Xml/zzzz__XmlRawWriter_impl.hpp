@@ -7,13 +7,14 @@
 #include "System/Xml/zzzz__WriteState_def.hpp"
 #include "System/Xml/zzzz__XmlRawWriterBase64Encoder_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlSpace_def.hpp"
 #include "System/Xml/zzzz__XmlStandalone_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlRawWriter.WriteStartDocument
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::WriteStartDocument)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314b0c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072b2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(bool)>(&::System::Xml::XmlRawWriter::WriteStartDocument)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314b64;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072b7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::WriteEndDocument)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314bbc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072bcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlRawWriter::WriteDocType)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4314c14;
+  constexpr static std::size_t addrs = 0x6072c1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::WriteEndElement)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314c18;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072c20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,8 +84,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::WriteFullEndElement)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314c70;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072c70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlRawWriter::WriteBase64)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4313dcc;
+  constexpr static std::size_t addrs = 0x6072cc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::LookupPrefix)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314cc8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072d54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,8 +127,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::WriteState (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::get_WriteState)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314d20;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,12 +137,54 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Xml::XmlRawWriter.get_XmlSpace
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::get_XmlSpace)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072df4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 31));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlRawWriter.get_XmlLang
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::get_XmlLang)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072e44;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlRawWriter.WriteQualifiedName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW, ::StringW)>(&::System::Xml::XmlRawWriter::WriteQualifiedName)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6072e94;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 33));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Xml::XmlRawWriter.WriteCData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::WriteCData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4314d78;
+  constexpr static std::size_t addrs = 0x6072ee4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,8 +197,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(char16_t)>(&::System::Xml::XmlRawWriter::WriteCharEntity)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4314d88;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6072ef4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,8 +211,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(char16_t, char16_t)>(&::System::Xml::XmlRawWriter::WriteSurrogateCharEntity)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4314e1c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6072f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4314ec0;
+  constexpr static std::size_t addrs = 0x607301c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlRawWriter::WriteChars)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4314ed0;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x607302c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlRawWriter::WriteRaw)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4314f00;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6073060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,7 +270,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4314f30;
+  constexpr static std::size_t addrs = 0x6073094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,12 +284,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::WriteValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4314f40;
+  constexpr static std::size_t addrs = 0x60730a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 31));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 34));
     return ___internal_method;
   }
 };
@@ -255,13 +298,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::System::Xml::XmlReader*, bool)>(
     &::System::Xml::XmlRawWriter::WriteAttributes)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314f50;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x60730b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 32));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 42));
     return ___internal_method;
   }
 };
@@ -269,13 +312,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::System::Xml::XmlReader*, bool)>(&::System::Xml::XmlRawWriter::WriteNode)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4314fa8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6073104;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 33));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 43));
     return ___internal_method;
   }
 };
@@ -285,12 +328,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::System::Xml::IXmlNamespaceResolver*)>(
     &::System::Xml::XmlRawWriter::set_NamespaceResolver)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4315000;
+  constexpr static std::size_t addrs = 0x6073154;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 35));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 45));
     return ___internal_method;
   }
 };
@@ -300,12 +343,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::System::Xml::XmlStandalone)>(
     &::System::Xml::XmlRawWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4315008;
+  constexpr static std::size_t addrs = 0x607315c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 36));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 46));
     return ___internal_method;
   }
 };
@@ -314,12 +357,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::WriteXmlDeclaration)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x431500c;
+  constexpr static std::size_t addrs = 0x6073160;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 37));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 47));
     return ___internal_method;
   }
 };
@@ -333,7 +376,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 38));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 48));
     return ___internal_method;
   }
 };
@@ -343,12 +386,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::System::Xml::ConformanceLevel)>(
     &::System::Xml::XmlRawWriter::OnRootElement)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4315010;
+  constexpr static std::size_t addrs = 0x6073164;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 39));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 49));
     return ___internal_method;
   }
 };
@@ -363,7 +406,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 40));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 50));
     return ___internal_method;
   }
 };
@@ -373,12 +416,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlRawWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4315014;
+  constexpr static std::size_t addrs = 0x6073168;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 41));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 51));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlRawWriter.WriteQualifiedName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW, ::StringW, ::StringW)>(
+    &::System::Xml::XmlRawWriter::WriteQualifiedName)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6073178;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 52));
     return ___internal_method;
   }
 };
@@ -393,7 +451,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 42));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 53));
     return ___internal_method;
   }
 };
@@ -402,12 +460,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::get_SupportsNamespaceDeclarationInChunks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4315024;
+  constexpr static std::size_t addrs = 0x6073220;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 43));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 54));
     return ___internal_method;
   }
 };
@@ -416,12 +474,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::StringW)>(&::System::Xml::XmlRawWriter::WriteStartNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x431502c;
+  constexpr static std::size_t addrs = 0x6073228;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 44));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 55));
     return ___internal_method;
   }
 };
@@ -430,12 +488,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::WriteEndNamespaceDeclaration)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4315064;
+  constexpr static std::size_t addrs = 0x6073260;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 45));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 56));
     return ___internal_method;
   }
 };
@@ -443,13 +501,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::WriteEndBase64)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x431509c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6073298;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 46));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 57));
     return ___internal_method;
   }
 };
@@ -458,12 +516,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)(::System::Xml::WriteState)>(&::System::Xml::XmlRawWriter::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x43150b8;
+  constexpr static std::size_t addrs = 0x60732b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 47));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 58));
     return ___internal_method;
   }
 };
@@ -471,8 +529,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlRawWriter::*)()>(&::System::Xml::XmlRawWriter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x430ba24;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60732c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), ".ctor",
@@ -549,6 +607,21 @@ inline ::System::Xml::WriteState System::Xml::XmlRawWriter::get_WriteState() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<::System::Xml::WriteState, false>(this, ___internal_method);
 }
+inline ::System::Xml::XmlSpace System::Xml::XmlRawWriter::get_XmlSpace() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 31)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlSpace, false>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlRawWriter::get_XmlLang() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 32)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline void System::Xml::XmlRawWriter::WriteQualifiedName(::StringW localName, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 33)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localName, ns);
+}
 inline void System::Xml::XmlRawWriter::WriteCData(::StringW text) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 14)));
@@ -586,82 +659,87 @@ inline void System::Xml::XmlRawWriter::WriteRaw(::StringW data) {
 }
 inline void System::Xml::XmlRawWriter::WriteValue(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Xml::XmlRawWriter::WriteAttributes(::System::Xml::XmlReader* reader, bool defattr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, defattr);
 }
 inline void System::Xml::XmlRawWriter::WriteNode(::System::Xml::XmlReader* reader, bool defattr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 43)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, defattr);
 }
 inline void System::Xml::XmlRawWriter::set_NamespaceResolver(::System::Xml::IXmlNamespaceResolver* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 35)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 45)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Xml::XmlRawWriter::WriteXmlDeclaration(::System::Xml::XmlStandalone standalone) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 36)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 46)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, standalone);
 }
 inline void System::Xml::XmlRawWriter::WriteXmlDeclaration(::StringW xmldecl) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 37)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 47)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xmldecl);
 }
 inline void System::Xml::XmlRawWriter::StartElementContent() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 38)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 48)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlRawWriter::OnRootElement(::System::Xml::ConformanceLevel conformanceLevel) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 39)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 49)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, conformanceLevel);
 }
 inline void System::Xml::XmlRawWriter::WriteEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 40)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 50)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, localName, ns);
 }
 inline void System::Xml::XmlRawWriter::WriteFullEndElement(::StringW prefix, ::StringW localName, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 41)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 51)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, localName, ns);
+}
+inline void System::Xml::XmlRawWriter::WriteQualifiedName(::StringW prefix, ::StringW localName, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 52)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, localName, ns);
 }
 inline void System::Xml::XmlRawWriter::WriteNamespaceDeclaration(::StringW prefix, ::StringW ns) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 42)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 53)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix, ns);
 }
 inline bool System::Xml::XmlRawWriter::get_SupportsNamespaceDeclarationInChunks() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 43)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 54)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlRawWriter::WriteStartNamespaceDeclaration(::StringW prefix) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 44)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 55)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, prefix);
 }
 inline void System::Xml::XmlRawWriter::WriteEndNamespaceDeclaration() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 45)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 56)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlRawWriter::WriteEndBase64() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 46)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 57)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void System::Xml::XmlRawWriter::Close(::System::Xml::WriteState currentState) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 47)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlRawWriter*>::get(), 58)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentState);
 }
 inline void System::Xml::XmlRawWriter::_ctor() {

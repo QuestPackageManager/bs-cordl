@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/NaccacheSternEngine.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__NaccacheSternEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__NaccacheSternKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2361f8c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x328fc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Init)> {
-  constexpr static std::size_t size = 0x56c;
-  constexpr static std::size_t addrs = 0x2361fcc;
+  constexpr static std::size_t size = 0x580;
+  constexpr static std::size_t addrs = 0x328fcd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(bool)>(
     &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::set_Debug)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2362538;
+  constexpr static std::size_t addrs = 0x3290258;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetInputBlockSize)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x236253c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x329025c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::GetOutputBlockSize)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2362590;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x32902b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessBlock)> {
-  constexpr static std::size_t size = 0x8e4;
-  constexpr static std::size_t addrs = 0x23625e4;
+  constexpr static std::size_t size = 0x8b8;
+  constexpr static std::size_t addrs = 0x329030c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
     ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::Encrypt)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x23632ac;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x3290fb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::AddCryptedBlocks)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x2363384;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x3291094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::ProcessData)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x2363580;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x32912a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -155,8 +155,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::System::Collections::IList*, ::System::Collections::IList*)>(
     &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::chineseRemainder)> {
-  constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x2362ec8;
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x3290bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::NaccacheSternEngine::_ctor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2363790;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32914b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

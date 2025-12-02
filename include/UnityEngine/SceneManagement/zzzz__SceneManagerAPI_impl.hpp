@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::SceneManagerAPI* (*)()>(
     &::UnityEngine::SceneManagement::SceneManagerAPI::get_ActiveAPI)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x48c0954;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x68cbf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SceneManagement::SceneManagerAPI*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::SceneManagement::SceneManagerAPI* (*)()>(
     &::UnityEngine::SceneManagement::SceneManagerAPI::get_overrideAPI)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48c09fc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x68cbffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SceneManagement::SceneManagerAPI*>::get(),
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SceneManagement::SceneManagerAPI::*)()>(
     &::UnityEngine::SceneManagement::SceneManagerAPI::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48c0a54;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68cc058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SceneManagement::SceneManagerAPI*>::get(), ".ctor",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::SceneManagement::SceneManagerAPI::*)()>(
     &::UnityEngine::SceneManagement::SceneManagerAPI::GetNumScenesInBuildSettings)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48c0a5c;
+  constexpr static std::size_t addrs = 0x68cc05c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,8 +68,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::AsyncOperation* (::UnityEngine::SceneManagement::SceneManagerAPI::*)(::StringW, int32_t, ::UnityEngine::SceneManagement::LoadSceneParameters, bool)>(
         &::UnityEngine::SceneManagement::SceneManagerAPI::LoadSceneAsyncByNameOrIndex)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x48c0a84;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x68cc084;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AsyncOperation* (::UnityEngine::SceneManagement::SceneManagerAPI::*)(bool)>(
     &::UnityEngine::SceneManagement::SceneManagerAPI::LoadFirstScene)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48c0ae4;
+  constexpr static std::size_t addrs = 0x68cc098;
 
   inline static ::MethodInfo const* methodInfo() {
 

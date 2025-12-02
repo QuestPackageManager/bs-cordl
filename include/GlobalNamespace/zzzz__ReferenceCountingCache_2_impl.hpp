@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ReferenceCountingCache_2.hpp"
-#include "GlobalNamespace/zzzz__IReferenceCountingCache_2_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__ReferenceCountingCache_2_def.hpp"
+#include "GlobalNamespace/zzzz__IReferenceCountingCache_2_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 template <typename TKey, typename TValue>

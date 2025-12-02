@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -14,8 +11,14 @@ CORDL_MODULE_EXPORT(VFXController)
 namespace GlobalNamespace {
 class VFXController__MainCoroutine_d__9;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -36,7 +39,7 @@ class VFXController__MainCoroutine_d__9;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::VFXController);
 MARK_REF_PTR_T(::GlobalNamespace::VFXController__MainCoroutine_d__9);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: VFXController/<MainCoroutine>d__9
@@ -71,21 +74,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x39c4270, size 0x180, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x563ef04, size 0x180, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::VFXController__MainCoroutine_d__9* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x39c43f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x563f084, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x39c43f8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x563f08c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x39c4430, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x563f0c4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x39c426c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x563ef00, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -118,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method .ctor, addr 0x39c423c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x563eef4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -145,7 +148,7 @@ public:
   VFXController__MainCoroutine_d__9(VFXController__MainCoroutine_d__9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16443 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20061 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -202,15 +205,15 @@ public:
 
   __declspec(property(get = get_particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> particleSystems;
 
-  /// @brief Method Awake, addr 0x39c4084, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x563ed44, size 0x24, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method MainCoroutine, addr 0x39c41b8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method MainCoroutine, addr 0x563ee7c, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* MainCoroutine(bool deactivateAfterDuration, float_t duration);
 
   static inline ::GlobalNamespace::VFXController* New_ctor();
 
-  /// @brief Method Play, addr 0x39c40a8, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Play, addr 0x563ed68, size 0x114, virtual false, abstract: false, final false
   inline void Play();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -231,13 +234,13 @@ public:
 
   constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
 
-  /// @brief Method .ctor, addr 0x39c4264, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x563eefc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animation, addr 0x39c4074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animation, addr 0x563ed34, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Animation> get_animation();
 
-  /// @brief Method get_particleSystems, addr 0x39c407c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_particleSystems, addr 0x563ed3c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> get_particleSystems();
 
 protected:
@@ -255,7 +258,7 @@ public:
   VFXController(VFXController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20062 };
 
   /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;

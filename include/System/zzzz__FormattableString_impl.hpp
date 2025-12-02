@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/FormattableString.hpp"
-#include "System/zzzz__IFormattable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__FormattableString_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::FormattableString.get_Format
 template <>
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::FormattableString::*)(::StringW, ::System::IFormatProvider*)>(
     &::System::FormattableString::System_IFormattable_ToString)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3dd4e7c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5a19f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::FormattableString::*)()>(&::System::FormattableString::ToString)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3dd4e90;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5a19f64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::FormattableString::*)()>(&::System::FormattableString::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3dd4ef8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5a19fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::FormattableString*>::get(), ".ctor",

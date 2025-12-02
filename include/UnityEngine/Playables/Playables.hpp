@@ -3,10 +3,12 @@ module;
 #endif
 
 #pragma once
+#include "UnityEngine/Playables/DataPlayableOutput.hpp"
 #include "UnityEngine/Playables/DirectorUpdateMode.hpp"
 #include "UnityEngine/Playables/DirectorWrapMode.hpp"
 #include "UnityEngine/Playables/FrameData.hpp"
 #include "UnityEngine/Playables/FrameRate.hpp"
+#include "UnityEngine/Playables/IDataPlayer.hpp"
 #include "UnityEngine/Playables/INotification.hpp"
 #include "UnityEngine/Playables/INotificationReceiver.hpp"
 #include "UnityEngine/Playables/IPlayable.hpp"
@@ -25,6 +27,7 @@ module;
 #include "UnityEngine/Playables/PlayableOutput.hpp"
 #include "UnityEngine/Playables/PlayableOutputExtensions.hpp"
 #include "UnityEngine/Playables/PlayableOutputHandle.hpp"
+#include "UnityEngine/Playables/PlayableSystems.hpp"
 #include "UnityEngine/Playables/PlayableTraversalMode.hpp"
 #include "UnityEngine/Playables/ScriptPlayableBinding.hpp"
 #include "UnityEngine/Playables/ScriptPlayableOutput.hpp"

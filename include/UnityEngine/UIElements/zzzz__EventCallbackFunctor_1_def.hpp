@@ -10,7 +10,7 @@ namespace System {
 class Delegate;
 }
 namespace UnityEngine::UIElements {
-struct CallbackPhase;
+class CallbackEventHandler;
 }
 namespace UnityEngine::UIElements {
 class EventBase;
@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements {
 struct InvokePolicy;
 }
 namespace UnityEngine::UIElements {
-struct PropagationPhase;
+struct TrickleDown;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -39,35 +39,35 @@ template <typename TEventType>
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:
   // Declarations
-  /// @brief Field m_Callback, offset 0x18, size 0x8
+  /// @brief Field m_Callback, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback)) ::UnityEngine::UIElements::EventCallback_1<TEventType>* m_Callback;
 
-  /// @brief Field m_EventTypeId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EventTypeId, put = __cordl_internal_set_m_EventTypeId)) int64_t m_EventTypeId;
+  /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Dispose();
+
+  /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* GetPooled(int64_t eventTypeId, ::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
+                                                                                         ::UnityEngine::UIElements::InvokePolicy invokePolicy);
 
   /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
+  inline void Invoke(::UnityEngine::UIElements::EventBase* evt);
 
   /// @brief Method IsEquivalentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
+  inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback);
 
-  static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
-                                                                                        ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+  static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* New_ctor();
+
+  /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void UnregisterCallback(::UnityEngine::UIElements::CallbackEventHandler* target, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
 
   constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>* const& __cordl_internal_get_m_Callback() const;
 
   constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& __cordl_internal_get_m_Callback();
 
-  constexpr int64_t const& __cordl_internal_get_m_EventTypeId() const;
-
-  constexpr int64_t& __cordl_internal_get_m_EventTypeId();
-
   constexpr void __cordl_internal_set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>* value);
 
-  constexpr void __cordl_internal_set_m_EventTypeId(int64_t value);
-
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+  inline void _ctor();
 
 protected:
   // Ctor Parameters []
@@ -84,13 +84,10 @@ public:
   EventCallbackFunctor_1(EventCallbackFunctor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4454 };
 
-  /// @brief Field m_Callback, offset: 0x18, size: 0x8, def value: None
+  /// @brief Field m_Callback, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::UIElements::EventCallback_1<TEventType>* ___m_Callback;
-
-  /// @brief Field m_EventTypeId, offset: 0x20, size: 0x8, def value: None
-  int64_t ___m_EventTypeId;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

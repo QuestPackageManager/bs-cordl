@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/zzzz__ECLookupTable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractECLookupTable)
+namespace Org::BouncyCastle::Math::EC {
+class ECLookupTable;
+}
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
 }
@@ -16,7 +18,7 @@ class AbstractECLookupTable;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::AbstractECLookupTable);
-// Dependencies Org.BouncyCastle.Math.EC.ECLookupTable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.AbstractECLookupTable
@@ -31,12 +33,12 @@ public:
   /// @brief Method Lookup, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* Lookup(int32_t index);
 
-  /// @brief Method LookupVar, addr 0x2450438, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method LookupVar, addr 0x337ee58, size 0xc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* LookupVar(int32_t index);
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractECLookupTable* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2450064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x337ea58, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Size, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false

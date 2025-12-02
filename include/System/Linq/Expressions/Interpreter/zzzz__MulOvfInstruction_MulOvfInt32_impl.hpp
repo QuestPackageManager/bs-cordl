@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::GlobalNamespace::MulOvfInstruction_MulOvfInt32::*)(::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::MulOvfInstruction_MulOvfInt32::Run)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x40ed8d4;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5d9999c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MulOvfInstruction_MulOvfInt32::*)()>(
     &::GlobalNamespace::MulOvfInstruction_MulOvfInt32::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ed660;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d99830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MulOvfInstruction_MulOvfInt32*>::get(),

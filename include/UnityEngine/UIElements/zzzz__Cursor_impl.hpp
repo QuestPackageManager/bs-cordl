@@ -1,9 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Cursor.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Cursor_def.hpp"
 #include "UnityEngine/zzzz__Texture2D_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Cursor.get_texture
@@ -12,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::Cursor::*)()>(
     &::UnityEngine::UIElements::Cursor::get_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1415c;
+  constexpr static std::size_t addrs = 0x6b4e41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Cursor>::get(), "get_texture",
@@ -26,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Cursor::*)(::UnityEngine::Texture2D*)>(
     &::UnityEngine::UIElements::Cursor::set_texture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a14164;
+  constexpr static std::size_t addrs = 0x6b4e424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::get_hotspot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1416c;
+  constexpr static std::size_t addrs = 0x6b4e42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Cursor>::get(), "get_hotspot",
@@ -54,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Cursor::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UIElements::Cursor::set_hotspot)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a14174;
+  constexpr static std::size_t addrs = 0x6b4e434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::get_defaultCursorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a1417c;
+  constexpr static std::size_t addrs = 0x6b4e43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Cursor>::get(), "get_defaultCursorId",
@@ -81,7 +84,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Cursor::*)(int32_t)>(&::UnityEngine::UIElements::Cursor::set_defaultCursorId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a14184;
+  constexpr static std::size_t addrs = 0x6b4e444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Cursor::*)(::System::Object*)>(&::UnityEngine::UIElements::Cursor::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4a1418c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6b4e44c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Cursor::*)(::UnityEngine::UIElements::Cursor)>(
     &::UnityEngine::UIElements::Cursor::Equals)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4a1421c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6b4e4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::GetHashCode)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4a142cc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6b4e594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Cursor, ::UnityEngine::UIElements::Cursor)>(
     &::UnityEngine::UIElements::Cursor::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4a143a0;
+  constexpr static std::size_t addrs = 0x6b4e658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,8 +156,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::Cursor::*)()>(&::UnityEngine::UIElements::Cursor::ToString)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a143d0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6b4e688;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -242,3 +245,440 @@ constexpr ::UnityEngine::UIElements::Cursor::Cursor(::UnityW<::UnityEngine::Text
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Cursor::Cursor() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Cursor>)>(&::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Cursor>, ::UnityEngine::Texture2D*)>(&::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b4e8a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Texture2D> UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::GetValue(::ByRef<::UnityEngine::UIElements::Cursor> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture2D>, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::SetValue(::ByRef<::UnityEngine::UIElements::Cursor> container, ::UnityEngine::Texture2D* value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty* UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_Cursor_TextureProperty::PropertyBag_Cursor_TextureProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Cursor>)>(&::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4e9fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Cursor>, ::UnityEngine::Vector2)>(&::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4ea04;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b4e904;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector2 UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::GetValue(::ByRef<::UnityEngine::UIElements::Cursor> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::SetValue(::ByRef<::UnityEngine::UIElements::Cursor> container, ::UnityEngine::Vector2 value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty* UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_Cursor_HotspotProperty::PropertyBag_Cursor_HotspotProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4ea0c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4ea14;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Cursor>)>(&::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4ea1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Cursor>, int32_t)>(&::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6b4ea24;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6b4e968;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::GetValue(::ByRef<::UnityEngine::UIElements::Cursor> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::SetValue(::ByRef<::UnityEngine::UIElements::Cursor> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty* UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_Cursor_DefaultCursorIdProperty::PropertyBag_Cursor_DefaultCursorIdProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Cursor_PropertyBag._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Cursor_PropertyBag::*)()>(&::UnityEngine::UIElements::Cursor_PropertyBag::_ctor)> {
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6b4e73c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Cursor_PropertyBag*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::Cursor_PropertyBag::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Cursor_PropertyBag*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Cursor_PropertyBag* UnityEngine::UIElements::Cursor_PropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Cursor_PropertyBag*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::Cursor_PropertyBag::Cursor_PropertyBag() {}

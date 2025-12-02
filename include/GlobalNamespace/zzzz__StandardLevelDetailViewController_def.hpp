@@ -10,7 +10,6 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -207,7 +206,7 @@ public:
   static ::GlobalNamespace::StandardLevelDetailViewController_ContentType const OwnedAndReady;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6952 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -223,8 +222,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailViewController_Cont
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailViewController_ContentType, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailViewController/<<BuyPackButtonWasPressed>b__55_0>d
@@ -234,10 +232,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b682dc, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5752160, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b685a0, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5752440, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -257,7 +255,7 @@ public:
                                                                                   ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6953 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -293,8 +291,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailViewController___Bu
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailViewController___BuyPackButtonWasPressed_b__55_0_d, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailViewController/<<OpenLevelProductStore>b__57_0>d
@@ -304,10 +301,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b68608, size 0x2c4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57524ac, size 0x2e0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b688cc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x575278c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -326,7 +323,7 @@ public:
                                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::OpenProductStoreResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -362,8 +359,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailViewController___Op
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailViewController___OpenLevelProductStore_b__57_0_d, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IsPackBetterBuyThanLevelResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies IsPackBetterBuyThanLevelResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailViewController/<<OpenLevelProductStoreOrShowBuyInfo>b__56_0>d
@@ -373,10 +369,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b68934, size 0x3d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57527f8, size 0x3f4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b68d04, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5752bec, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -395,7 +391,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5364 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6955 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -426,8 +422,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailViewController___Op
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailViewController___OpenLevelProductStoreOrShowBuyInfo_b__56_0_d, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailViewController/<<RefreshAvailabilityIfNeeded>b__58_0>d
@@ -437,10 +432,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b68d6c, size 0x38c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5752c58, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b690f8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x575300c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -460,7 +455,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::EntitlementStatus> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5365 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6956 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -496,7 +491,7 @@ static_assert(offsetof(::GlobalNamespace::StandardLevelDetailViewController___Re
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardLevelDetailViewController___RefreshAvailabilityIfNeeded_b__58_0_d, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: StandardLevelDetailViewController/<ShowLoadingAndDoSomething>d__61
@@ -506,10 +501,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b69160, size 0x2ec, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5753078, size 0x320, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b6944c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5753398, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -530,7 +525,7 @@ public:
                                                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6957 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -684,93 +679,93 @@ public:
       get = __cordl_internal_get_levelFavoriteStatusDidChangeEvent,
       put = __cordl_internal_set_levelFavoriteStatusDidChangeEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* levelFavoriteStatusDidChangeEvent;
 
-  /// @brief Method BuyLevelButtonWasPressed, addr 0x3b66d14, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method BuyLevelButtonWasPressed, addr 0x5751034, size 0x9c, virtual false, abstract: false, final false
   inline void BuyLevelButtonWasPressed();
 
-  /// @brief Method BuyPackButtonWasPressed, addr 0x3b66e28, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method BuyPackButtonWasPressed, addr 0x5751150, size 0x13c, virtual false, abstract: false, final false
   inline void BuyPackButtonWasPressed();
 
-  /// @brief Method ClearSelected, addr 0x3b66bf4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ClearSelected, addr 0x5748638, size 0x1c, virtual false, abstract: false, final false
   inline void ClearSelected();
 
-  /// @brief Method DidActivate, addr 0x3b66730, size 0x360, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x57509ac, size 0x4f8, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b66a90, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5750ea4, size 0x70, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleDidChangeDifficultyBeatmap, addr 0x3b66c1c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method HandleDidChangeDifficultyBeatmap, addr 0x5750f50, size 0x58, virtual false, abstract: false, final false
   inline void HandleDidChangeDifficultyBeatmap(::GlobalNamespace::StandardLevelDetailView* view);
 
-  /// @brief Method HandleDidFavoriteToggleChange, addr 0x3b66c9c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method HandleDidFavoriteToggleChange, addr 0x5750fa8, size 0x8c, virtual false, abstract: false, final false
   inline void HandleDidFavoriteToggleChange(::UnityEngine::UI::Toggle* toggle);
 
   static inline ::GlobalNamespace::StandardLevelDetailViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b66ae8, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5750f14, size 0x3c, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OpenLevelProductStore, addr 0x3b66da8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelProductStore, addr 0x57510d0, size 0x80, virtual false, abstract: false, final false
   inline void OpenLevelProductStore();
 
-  /// @brief Method OpenLevelProductStoreOrShowBuyInfo, addr 0x3b66fb4, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreOrShowBuyInfo, addr 0x5751338, size 0x124, virtual false, abstract: false, final false
   inline void OpenLevelProductStoreOrShowBuyInfo();
 
-  /// @brief Method RefreshAvailabilityIfNeeded, addr 0x3b66694, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method RefreshAvailabilityIfNeeded, addr 0x57508d0, size 0xdc, virtual false, abstract: false, final false
   inline void RefreshAvailabilityIfNeeded();
 
-  /// @brief Method RefreshContentLevelDetailView, addr 0x3b66b24, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method RefreshContentLevelDetailView, addr 0x57485f8, size 0x18, virtual false, abstract: false, final false
   inline void RefreshContentLevelDetailView();
 
-  /// @brief Method SetData, addr 0x3b66358, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5748a14, size 0x88, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hidePracticeButton, ::StringW playButtonText, ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                       ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> notAllowedCharacteristics);
 
-  /// @brief Method SetData, addr 0x3b663dc, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5748a9c, size 0x2f8, virtual false, abstract: false, final false
   inline void SetData(::GlobalNamespace::BeatmapLevelPack* pack, ::GlobalNamespace::BeatmapLevel* beatmapLevel, bool hidePracticeButton, bool canBuyPack, ::StringW playButtonText,
                       ::GlobalNamespace::BeatmapDifficultyMask allowedBeatmapDifficultyMask,
                       ::ArrayW<::GlobalNamespace::BeatmapCharacteristicSO*, ::Array<::GlobalNamespace::BeatmapCharacteristicSO*>*> notAllowedCharacteristics);
 
-  /// @brief Method ShowContent, addr 0x3b67434, size 0x280, virtual false, abstract: false, final false
+  /// @brief Method ShowContent, addr 0x57514ec, size 0x298, virtual false, abstract: false, final false
   inline void ShowContent(::GlobalNamespace::StandardLevelDetailViewController_ContentType contentType, ::StringW errorText);
 
-  /// @brief Method ShowLoadingAndDoSomething, addr 0x3b66f1c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method ShowLoadingAndDoSomething, addr 0x575128c, size 0xac, virtual false, abstract: false, final false
   inline void ShowLoadingAndDoSomething(::System::Func_2<::System::Threading::CancellationToken, ::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method ShowOwnedContent, addr 0x3b67098, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method ShowOwnedContent, addr 0x575145c, size 0x90, virtual false, abstract: false, final false
   inline void ShowOwnedContent();
 
-  /// @brief Method <BuyPackButtonWasPressed>b__55_0, addr 0x3b67fa0, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <BuyPackButtonWasPressed>b__55_0, addr 0x5751e64, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _BuyPackButtonWasPressed_b__55_0(::System::Threading::CancellationToken token);
 
-  /// @brief Method <DidActivate>b__47_0, addr 0x3b6772c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_0, addr 0x57517fc, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_0();
 
-  /// @brief Method <DidActivate>b__47_1, addr 0x3b67750, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_1, addr 0x5751820, size 0x20, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_1();
 
-  /// @brief Method <DidActivate>b__47_2, addr 0x3b67770, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_2, addr 0x5751840, size 0x24, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_2();
 
-  /// @brief Method <DidActivate>b__47_3, addr 0x3b67794, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_3, addr 0x5751864, size 0x194, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_3();
 
-  /// @brief Method <DidActivate>b__47_4, addr 0x3b67a68, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_4, addr 0x57519f8, size 0x240, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_4();
 
-  /// @brief Method <DidActivate>b__47_5, addr 0x3b67db0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_5, addr 0x5751c38, size 0xf4, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_5();
 
-  /// @brief Method <DidActivate>b__47_6, addr 0x3b67ea0, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__47_6, addr 0x5751d2c, size 0x138, virtual false, abstract: false, final false
   inline void _DidActivate_b__47_6();
 
-  /// @brief Method <OpenLevelProductStoreOrShowBuyInfo>b__56_0, addr 0x3b68074, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method <OpenLevelProductStoreOrShowBuyInfo>b__56_0, addr 0x5751f28, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _OpenLevelProductStoreOrShowBuyInfo_b__56_0(::System::Threading::CancellationToken _);
 
-  /// @brief Method <OpenLevelProductStore>b__57_0, addr 0x3b68134, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <OpenLevelProductStore>b__57_0, addr 0x5751fd8, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _OpenLevelProductStore_b__57_0(::System::Threading::CancellationToken token);
 
-  /// @brief Method <RefreshAvailabilityIfNeeded>b__58_0, addr 0x3b68208, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method <RefreshAvailabilityIfNeeded>b__58_0, addr 0x575209c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _RefreshAvailabilityIfNeeded_b__58_0(::System::Threading::CancellationToken token);
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
@@ -933,49 +928,49 @@ public:
 
   constexpr void __cordl_internal_set_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value);
 
-  /// @brief Method .ctor, addr 0x3b676b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5751784, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeContentEvent, addr 0x3b661c8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeContentEvent, addr 0x574737c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeContentEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
-  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x3b66068, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeDifficultyBeatmapEvent, addr 0x57472bc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
-  /// @brief Method add_didPressActionButtonEvent, addr 0x3b65ae8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressActionButtonEvent, addr 0x574713c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
-  /// @brief Method add_didPressOpenLevelPackButtonEvent, addr 0x3b65c48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressOpenLevelPackButtonEvent, addr 0x574743c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressOpenLevelPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method add_didPressPracticeButtonEvent, addr 0x3b65f08, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didPressPracticeButtonEvent, addr 0x57471fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method add_levelFavoriteStatusDidChangeEvent, addr 0x3b65da8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_levelFavoriteStatusDidChangeEvent, addr 0x57474fc, size 0xc0, virtual false, abstract: false, final false
   inline void add_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value);
 
-  /// @brief Method get_beatmapKey, addr 0x3b66328, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x57465a8, size 0x1c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_beatmapLevel, addr 0x3b66350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapLevel, addr 0x57508c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapLevel* get_beatmapLevel();
 
-  /// @brief Method remove_didChangeContentEvent, addr 0x3b66278, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeContentEvent, addr 0x5747cbc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeContentEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::StandardLevelDetailViewController_ContentType>* value);
 
-  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x3b66118, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeDifficultyBeatmapEvent, addr 0x5747bfc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeDifficultyBeatmapEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
-  /// @brief Method remove_didPressActionButtonEvent, addr 0x3b65b98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressActionButtonEvent, addr 0x5747a7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressActionButtonEvent(::System::Action_1<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>>* value);
 
-  /// @brief Method remove_didPressOpenLevelPackButtonEvent, addr 0x3b65cf8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressOpenLevelPackButtonEvent, addr 0x5747d7c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressOpenLevelPackButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevelPack*>* value);
 
-  /// @brief Method remove_didPressPracticeButtonEvent, addr 0x3b65fb8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didPressPracticeButtonEvent, addr 0x5747b3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didPressPracticeButtonEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method remove_levelFavoriteStatusDidChangeEvent, addr 0x3b65e58, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_levelFavoriteStatusDidChangeEvent, addr 0x5747e3c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_levelFavoriteStatusDidChangeEvent(::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelDetailViewController>, bool>* value);
 
 protected:
@@ -993,7 +988,7 @@ public:
   StandardLevelDetailViewController(StandardLevelDetailViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6958 };
 
   /// @brief Field kLoadingDataErrorLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kLoadingDataErrorLocalizationKey{ u"ERROR_LOADING_DATA" };

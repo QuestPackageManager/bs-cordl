@@ -19,10 +19,10 @@ namespace System::Threading {
 class CORDL_TYPE TimeoutHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTime, addr 0x3e4f0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTime, addr 0x5a94594, size 0x4, virtual false, abstract: false, final false
   static inline uint32_t GetTime();
 
-  /// @brief Method UpdateTimeOut, addr 0x3e4f1fc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method UpdateTimeOut, addr 0x5a94690, size 0x34, virtual false, abstract: false, final false
   static inline int32_t UpdateTimeOut(uint32_t startTime, int32_t originalWaitMillisecondsTimeout);
 
 protected:
@@ -40,7 +40,7 @@ public:
   TimeoutHelper(TimeoutHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2685 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2694 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

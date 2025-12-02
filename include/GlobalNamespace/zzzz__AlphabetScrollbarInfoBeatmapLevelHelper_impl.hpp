@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::*)()>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d4624;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3605950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper___c::_CreateData_b__4_0)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26d462c;
+  constexpr static std::size_t addrs = 0x3605954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::AlphabetScrollInfo_Data*>* (*)(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*, bool,
                                                                                                       ::ByRef<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapLevel*>*>)>(
     &::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::CreateData)> {
-  constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x26d3fec;
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x36052ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::GlobalNamespace::AlphabetScrollbarInfoBeatmapLevelHelper::IsNumericOrSpecial)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x26d4540;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x360586c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

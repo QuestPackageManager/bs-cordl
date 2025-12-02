@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<bool>)>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::unitydroid_get_network_interface_up_state)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43ecbf8;
+  constexpr static std::size_t addrs = 0x6139118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::get_IfacePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ecbfc;
+  constexpr static std::size_t addrs = 0x613911c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::LinuxNetworkInterface*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::LinuxNetworkInterface::*)(::StringW)>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x43ecb18;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6139030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::IPInterfaceProperties* (
     ::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(&::System::Net::NetworkInformation::LinuxNetworkInterface::GetIPProperties)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x43ecc04;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6139124;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::NetworkInformation::OperationalStatus (::System::Net::NetworkInformation::LinuxNetworkInterface::*)()>(
     &::System::Net::NetworkInformation::LinuxNetworkInterface::get_OperationalStatus)> {
-  constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x43ecc70;
+  constexpr static std::size_t size = 0x344;
+  constexpr static std::size_t addrs = 0x6139194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Net::NetworkInformation::LinuxNetworkInterface::ReadLine)> {
-  constexpr static std::size_t size = 0x2f4;
-  constexpr static std::size_t addrs = 0x43ecfa0;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x61394d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

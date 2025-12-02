@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Assembly* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_Assembly)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d352bc;
+  constexpr static std::size_t addrs = 0x597b9a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d352f4;
+  constexpr static std::size_t addrs = 0x597b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,12 +55,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_BaseType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3532c;
+  constexpr static std::size_t addrs = 0x597ba10;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 115));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 116));
     return ___internal_method;
   }
 };
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_FullName)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35364;
+  constexpr static std::size_t addrs = 0x597ba48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,12 +83,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_GUID)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3539c;
+  constexpr static std::size_t addrs = 0x597ba80;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 114));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 115));
     return ___internal_method;
   }
 };
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_Module)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d353d4;
+  constexpr static std::size_t addrs = 0x597bab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Name)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3540c;
+  constexpr static std::size_t addrs = 0x597baf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::get_Namespace)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35444;
+  constexpr static std::size_t addrs = 0x597bb28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::get_UnderlyingSystemType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3547c;
+  constexpr static std::size_t addrs = 0x597bb60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::TypeAttributes (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetAttributeFlagsImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d354b4;
+  constexpr static std::size_t addrs = 0x597bb98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +174,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::EnumBuilder::GetConstructorImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d354ec;
+  constexpr static std::size_t addrs = 0x597bbd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,7 +189,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::ConstructorInfo*, ::Array<::System::Reflection::ConstructorInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetConstructors)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35524;
+  constexpr static std::size_t addrs = 0x597bc08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::EnumBuilder::*)(bool)>(
     &::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3555c;
+  constexpr static std::size_t addrs = 0x597bc40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::System::Reflection::Emit::EnumBuilder::*)(
     ::System::Type*, bool)>(&::System::Reflection::Emit::EnumBuilder::GetCustomAttributes)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35594;
+  constexpr static std::size_t addrs = 0x597bc78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetElementType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d355cc;
+  constexpr static std::size_t addrs = 0x597bcb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -249,7 +249,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::EventInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetEvent)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35604;
+  constexpr static std::size_t addrs = 0x597bce8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::EventInfo*, ::Array<::System::Reflection::EventInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetEvents)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3563c;
+  constexpr static std::size_t addrs = 0x597bd20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -279,7 +279,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Reflection::FieldInfo* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetField)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35674;
+  constexpr static std::size_t addrs = 0x597bd58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -294,12 +294,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetFields)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d356ac;
+  constexpr static std::size_t addrs = 0x597bd90;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 89));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Reflection::Emit::EnumBuilder.GetInterface
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, bool)>(
+    &::System::Reflection::Emit::EnumBuilder::GetInterface)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x597bdc8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 119));
     return ___internal_method;
   }
 };
@@ -309,12 +324,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Type*, ::Array<::System::Type*>*> (::System::Reflection::Emit::EnumBuilder::*)()>(
     &::System::Reflection::Emit::EnumBuilder::GetInterfaces)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d356e4;
+  constexpr static std::size_t addrs = 0x597be00;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 117));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 120));
     return ___internal_method;
   }
 };
@@ -324,7 +339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetMembers)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3571c;
+  constexpr static std::size_t addrs = 0x597be38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -342,7 +357,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                                                ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
         &::System::Reflection::Emit::EnumBuilder::GetMethodImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35754;
+  constexpr static std::size_t addrs = 0x597be70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -357,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::MethodInfo*, ::Array<::System::Reflection::MethodInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetMethods)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3578c;
+  constexpr static std::size_t addrs = 0x597bea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -372,7 +387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Reflection::Emit::EnumBuilder::*)(::StringW, ::System::Reflection::BindingFlags)>(
     &::System::Reflection::Emit::EnumBuilder::GetNestedType)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d357c4;
+  constexpr static std::size_t addrs = 0x597bee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -387,12 +402,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*> (
     ::System::Reflection::Emit::EnumBuilder::*)(::System::Reflection::BindingFlags)>(&::System::Reflection::Emit::EnumBuilder::GetProperties)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d357fc;
+  constexpr static std::size_t addrs = 0x597bf18;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 111));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 112));
     return ___internal_method;
   }
 };
@@ -404,7 +419,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>)>(
     &::System::Reflection::Emit::EnumBuilder::GetPropertyImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35834;
+  constexpr static std::size_t addrs = 0x597bf50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -418,7 +433,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::HasElementTypeImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3586c;
+  constexpr static std::size_t addrs = 0x597bf88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -436,12 +451,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                 ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*>, ::System::Globalization::CultureInfo*,
                                                 ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Reflection::Emit::EnumBuilder::InvokeMember)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d358a4;
+  constexpr static std::size_t addrs = 0x597bfc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 116));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 117));
     return ___internal_method;
   }
 };
@@ -450,7 +465,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsArrayImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d358dc;
+  constexpr static std::size_t addrs = 0x597bff8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -464,7 +479,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsByRefImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35914;
+  constexpr static std::size_t addrs = 0x597c030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -478,7 +493,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsCOMObjectImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d3594c;
+  constexpr static std::size_t addrs = 0x597c068;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -493,7 +508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)(::System::Type*, bool)>(
     &::System::Reflection::Emit::EnumBuilder::IsDefined)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d35984;
+  constexpr static std::size_t addrs = 0x597c0a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -507,7 +522,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPointerImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d359bc;
+  constexpr static std::size_t addrs = 0x597c0d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -521,7 +536,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Reflection::Emit::EnumBuilder::*)()>(&::System::Reflection::Emit::EnumBuilder::IsPrimitiveImpl)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d359f4;
+  constexpr static std::size_t addrs = 0x597c110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -542,7 +557,7 @@ inline ::StringW System::Reflection::Emit::EnumBuilder::get_AssemblyQualifiedNam
 }
 inline ::System::Type* System::Reflection::Emit::EnumBuilder::get_BaseType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 115)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 116)));
   return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method);
 }
 inline ::StringW System::Reflection::Emit::EnumBuilder::get_FullName() {
@@ -552,7 +567,7 @@ inline ::StringW System::Reflection::Emit::EnumBuilder::get_FullName() {
 }
 inline ::System::Guid System::Reflection::Emit::EnumBuilder::get_GUID() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 114)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 115)));
   return ::cordl_internals::RunMethodRethrow<::System::Guid, false>(this, ___internal_method);
 }
 inline ::System::Reflection::Module* System::Reflection::Emit::EnumBuilder::get_Module() {
@@ -629,9 +644,14 @@ inline ::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 89)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::FieldInfo*, ::Array<::System::Reflection::FieldInfo*>*>, false>(this, ___internal_method, bindingAttr);
 }
+inline ::System::Type* System::Reflection::Emit::EnumBuilder::GetInterface(::StringW name, bool ignoreCase) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 119)));
+  return ::cordl_internals::RunMethodRethrow<::System::Type*, false>(this, ___internal_method, name, ignoreCase);
+}
 inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> System::Reflection::Emit::EnumBuilder::GetInterfaces() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 117)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 120)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Type*, ::Array<::System::Type*>*>, false>(this, ___internal_method);
 }
 inline ::ArrayW<::System::Reflection::MemberInfo*, ::Array<::System::Reflection::MemberInfo*>*> System::Reflection::Emit::EnumBuilder::GetMembers(::System::Reflection::BindingFlags bindingAttr) {
@@ -660,7 +680,7 @@ inline ::System::Type* System::Reflection::Emit::EnumBuilder::GetNestedType(::St
 inline ::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*>
 System::Reflection::Emit::EnumBuilder::GetProperties(::System::Reflection::BindingFlags bindingAttr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 111)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 112)));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Reflection::PropertyInfo*, ::Array<::System::Reflection::PropertyInfo*>*>, false>(this, ___internal_method, bindingAttr);
 }
 inline ::System::Reflection::PropertyInfo*
@@ -681,7 +701,7 @@ inline ::System::Object* System::Reflection::Emit::EnumBuilder::InvokeMember(::S
                                                                              ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers,
                                                                              ::System::Globalization::CultureInfo* culture, ::ArrayW<::StringW, ::Array<::StringW>*> namedParameters) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 116)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Reflection::Emit::EnumBuilder*>::get(), 117)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, name, invokeAttr, binder, target, args, modifiers, culture, namedParameters);
 }
 inline bool System::Reflection::Emit::EnumBuilder::IsArrayImpl() {

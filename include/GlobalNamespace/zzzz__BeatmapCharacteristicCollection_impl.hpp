@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicCollection::*)(
     ::GlobalNamespace::BeatmapCharacteristicCollectionSO*, ::GlobalNamespace::AppStaticSettingsSO*)>(&::GlobalNamespace::BeatmapCharacteristicCollection::_ctor)> {
-  constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x26b59ec;
+  constexpr static std::size_t size = 0x53c;
+  constexpr static std::size_t addrs = 0x35e714c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (::GlobalNamespace::BeatmapCharacteristicCollection::*)(
     ::StringW)>(&::GlobalNamespace::BeatmapCharacteristicCollection::GetBeatmapCharacteristicBySerializedName)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26b5f0c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x35e7688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -11,8 +11,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ColorScheme* (*)(::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::ColorScheme*, bool)>(
         &::GlobalNamespace::ColorSchemeExtensions::ResolveColorScheme)> {
-  constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x26a14fc;
+  constexpr static std::size_t size = 0x520;
+  constexpr static std::size_t addrs = 0x35d0cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::ILightshowColorScheme* (*)(::GlobalNamespace::ILightshowColorScheme*, bool, ::GlobalNamespace::ILightshowColorScheme*, ::GlobalNamespace::ILightshowColorScheme*,
                                                               bool)>(&::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForLightshowOverride)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x26a1af4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x35d12ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::IGameplayColorScheme* (*)(::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, ::GlobalNamespace::IGameplayColorScheme*, bool)>(
         &::GlobalNamespace::ColorSchemeExtensions::GetColorSchemeForGameplayOverride)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x26a1a24;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x35d11d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

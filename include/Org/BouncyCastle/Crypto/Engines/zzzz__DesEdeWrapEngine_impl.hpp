@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/DesEdeWrapEngine.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__DesEdeWrapEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__CbcBlockCipher_def.hpp"
@@ -8,13 +7,14 @@
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ParametersWithIV_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Init)> {
-  constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x2357a38;
+  constexpr static std::size_t size = 0x3b0;
+  constexpr static std::size_t addrs = 0x328552c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2357dbc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x32858dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Wrap)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x2357dfc;
+  constexpr static std::size_t size = 0x338;
+  constexpr static std::size_t addrs = 0x3285920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::Unwrap)> {
-  constexpr static std::size_t size = 0x414;
-  constexpr static std::size_t addrs = 0x2358354;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x3285e88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::CalculateCmsKeyChecksum)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2358128;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x3285c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::CheckCmsKeyChecksum)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2358768;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x32862a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::reverse)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23582a8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x3285de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x235887c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x32863c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine*>::get(),

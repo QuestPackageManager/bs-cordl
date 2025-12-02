@@ -23,13 +23,20 @@ public:
 
   __declspec(property(put = set_Enabled)) bool Enabled;
 
+  __declspec(property(put = set_StubReturnStatement)) ::StringW StubReturnStatement;
+
   /// @brief Field <Condition>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Condition_k__BackingField, put = __cordl_internal_set__Condition_k__BackingField)) ::StringW _Condition_k__BackingField;
 
-  /// @brief Field <Enabled>k__BackingField, offset 0x18, size 0x1
+  /// @brief Field <Enabled>k__BackingField, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get__Enabled_k__BackingField, put = __cordl_internal_set__Enabled_k__BackingField)) bool _Enabled_k__BackingField;
 
+  /// @brief Field <StubReturnStatement>k__BackingField, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__StubReturnStatement_k__BackingField, put = __cordl_internal_set__StubReturnStatement_k__BackingField)) ::StringW _StubReturnStatement_k__BackingField;
+
   static inline ::UnityEngine::Bindings::NativeConditionalAttribute* New_ctor(::StringW condition);
+
+  static inline ::UnityEngine::Bindings::NativeConditionalAttribute* New_ctor(::StringW condition, ::StringW stubReturnStatement);
 
   constexpr ::StringW const& __cordl_internal_get__Condition_k__BackingField() const;
 
@@ -39,18 +46,30 @@ public:
 
   constexpr bool& __cordl_internal_get__Enabled_k__BackingField();
 
+  constexpr ::StringW const& __cordl_internal_get__StubReturnStatement_k__BackingField() const;
+
+  constexpr ::StringW& __cordl_internal_get__StubReturnStatement_k__BackingField();
+
   constexpr void __cordl_internal_set__Condition_k__BackingField(::StringW value);
 
   constexpr void __cordl_internal_set__Enabled_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4918aa8, size 0x30, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__StubReturnStatement_k__BackingField(::StringW value);
+
+  /// @brief Method .ctor, addr 0x6981c24, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW condition);
 
-  /// @brief Method set_Condition, addr 0x4918a94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6981c34, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor(::StringW condition, ::StringW stubReturnStatement);
+
+  /// @brief Method set_Condition, addr 0x6981c0c, size 0x8, virtual false, abstract: false, final false
   inline void set_Condition(::StringW value);
 
-  /// @brief Method set_Enabled, addr 0x4918a9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Enabled, addr 0x6981c1c, size 0x8, virtual false, abstract: false, final false
   inline void set_Enabled(bool value);
+
+  /// @brief Method set_StubReturnStatement, addr 0x6981c14, size 0x8, virtual false, abstract: false, final false
+  inline void set_StubReturnStatement(::StringW value);
 
 protected:
   // Ctor Parameters []
@@ -67,12 +86,15 @@ public:
   NativeConditionalAttribute(NativeConditionalAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18707 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22696 };
 
   /// @brief Field <Condition>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Condition_k__BackingField;
 
-  /// @brief Field <Enabled>k__BackingField, offset: 0x18, size: 0x1, def value: None
+  /// @brief Field <StubReturnStatement>k__BackingField, offset: 0x18, size: 0x8, def value: None
+  ::StringW ____StubReturnStatement_k__BackingField;
+
+  /// @brief Field <Enabled>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____Enabled_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -80,9 +102,11 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::Bindings::NativeConditionalAttribute, ____Condition_k__BackingField) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::Bindings::NativeConditionalAttribute, ____Enabled_k__BackingField) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::Bindings::NativeConditionalAttribute, ____StubReturnStatement_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeConditionalAttribute, 0x20>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Bindings::NativeConditionalAttribute, ____Enabled_k__BackingField) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeConditionalAttribute, 0x28>, "Size mismatch!");
 
 } // namespace UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeConditionalAttribute);

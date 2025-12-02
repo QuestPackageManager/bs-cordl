@@ -39,10 +39,10 @@ public:
   /// @brief Field workStealingQueue, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_workStealingQueue, put = __cordl_internal_set_workStealingQueue)) ::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* workStealingQueue;
 
-  /// @brief Method CleanUp, addr 0x3e5a050, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method CleanUp, addr 0x5a9f6a4, size 0xe0, virtual false, abstract: false, final false
   inline void CleanUp();
 
-  /// @brief Method Finalize, addr 0x3e5a118, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5a9f784, size 0x70, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* New_ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
@@ -65,7 +65,7 @@ public:
 
   constexpr void __cordl_internal_set_workStealingQueue(::System::Threading::ThreadPoolWorkQueue_WorkStealingQueue* value);
 
-  /// @brief Method .ctor, addr 0x3e58514, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9dc74, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ThreadPoolWorkQueue* tpq);
 
   static inline ::System::Threading::ThreadPoolWorkQueueThreadLocals* getStaticF_threadLocals();
@@ -87,7 +87,7 @@ public:
   ThreadPoolWorkQueueThreadLocals(ThreadPoolWorkQueueThreadLocals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2748 };
 
   /// @brief Field workQueue, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ThreadPoolWorkQueue* ___workQueue;

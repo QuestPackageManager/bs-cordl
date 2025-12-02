@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(XPathNavigatorKeyComparer)
+namespace System::Collections {
+class IEqualityComparer;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ class XPathNavigatorKeyComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XPath::XPathNavigatorKeyComparer);
-// Dependencies System.Collections.IEqualityComparer, System.Object
+// Dependencies System.Object
 namespace System::Xml::XPath {
 // Is value type: false
 // CS Name: System.Xml.XPath.XPathNavigatorKeyComparer
@@ -28,13 +30,13 @@ public:
 
   static inline ::System::Xml::XPath::XPathNavigatorKeyComparer* New_ctor();
 
-  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x43667f0, size 0xdc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.Equals, addr 0x60cdf20, size 0xe0, virtual true, abstract: false, final true
   inline bool System_Collections_IEqualityComparer_Equals(::System::Object* obj1, ::System::Object* obj2);
 
-  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x43668cc, size 0x1cc, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEqualityComparer.GetHashCode, addr 0x60ce000, size 0x1c8, virtual true, abstract: false, final true
   inline int32_t System_Collections_IEqualityComparer_GetHashCode(::System::Object* obj);
 
-  /// @brief Method .ctor, addr 0x43667e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60cdf1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Collections::IEqualityComparer"
@@ -55,7 +57,7 @@ public:
   XPathNavigatorKeyComparer(XPathNavigatorKeyComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7383 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9447 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

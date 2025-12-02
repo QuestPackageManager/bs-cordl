@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Data/SimpleType.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/zzzz__SimpleType_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Data/Common/zzzz__StorageType_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSimpleType_def.hpp"
@@ -16,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SimpleType::*)(::StringW)>(&::System::Data::SimpleType::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4189604;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5e33de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SimpleType::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(
     &::System::Data::SimpleType::_ctor)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4189690;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5e33e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SimpleType::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Data::SimpleType::System_Runtime_Serialization_ISerializable_GetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x418a040;
+  constexpr static std::size_t addrs = 0x5e347d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SimpleType::*)(::System::Xml::Schema::XmlSchemaSimpleType*)>(
     &::System::Data::SimpleType::LoadTypeValues)> {
-  constexpr static std::size_t size = 0x890;
-  constexpr static std::size_t addrs = 0x41897b0;
+  constexpr static std::size_t size = 0x8b8;
+  constexpr static std::size_t addrs = 0x5e33f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::IsPlainString)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x418a078;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x5e3480c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "IsPlainString",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_BaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1b0;
+  constexpr static std::size_t addrs = 0x5e3494c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_BaseType",
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_XmlBaseType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1b8;
+  constexpr static std::size_t addrs = 0x5e34954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_XmlBaseType",
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1c0;
+  constexpr static std::size_t addrs = 0x5e3495c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_Name",
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_Namespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1c8;
+  constexpr static std::size_t addrs = 0x5e34964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_Namespace",
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1d0;
+  constexpr static std::size_t addrs = 0x5e3496c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_Length",
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_MaxLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1d8;
+  constexpr static std::size_t addrs = 0x5e34974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_MaxLength",
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SimpleType::*)(int32_t)>(&::System::Data::SimpleType::set_MaxLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1e0;
+  constexpr static std::size_t addrs = 0x5e3497c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SimpleType* (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_BaseSimpleType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x418a1e8;
+  constexpr static std::size_t addrs = 0x5e34984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "get_BaseSimpleType",
@@ -195,8 +195,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::get_SimpleTypeQualifiedName)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x418a1f0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5e3498c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(),
@@ -208,8 +208,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SimpleType::*)(::StringW)>(&::System::Data::SimpleType::QualifiedName)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x418a260;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5e34a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlNode* (::System::Data::SimpleType::*)(::System::Xml::XmlDocument*, ::System::Collections::Hashtable*, bool)>(&::System::Data::SimpleType::ToNode)> {
-  constexpr static std::size_t size = 0x46c;
-  constexpr static std::size_t addrs = 0x418a2dc;
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x5e34a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,8 +239,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SimpleType* (*)(::StringW)>(&::System::Data::SimpleType::CreateEnumeratedType)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x418a748;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5e34efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,8 +253,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SimpleType* (*)(::StringW)>(&::System::Data::SimpleType::CreateByteArrayType)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x418a7c8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5e34f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,8 +267,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SimpleType* (*)(int32_t)>(&::System::Data::SimpleType::CreateLimitedStringType)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x418a830;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5e35038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,8 +282,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Data::SimpleType* (*)(::System::Data::Common::StorageType, ::System::Type*)>(
     &::System::Data::SimpleType::CreateSimpleType)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x418a8b0;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5e350d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,8 +298,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::SimpleType::*)(::System::Data::SimpleType*)>(
     &::System::Data::SimpleType::HasConflictingDefinition)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x418a9a0;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5e351c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -312,8 +312,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::CanHaveMaxLength)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x418aaa0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5e352e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(), "CanHaveMaxLength",
@@ -325,8 +325,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SimpleType::*)()>(&::System::Data::SimpleType::ConvertToAnnonymousSimpleType)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x418ab04;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5e35348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SimpleType*>::get(),

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/SM2Signer.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__SM2Signer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ECDomainParameters_def.hpp"
@@ -9,6 +8,7 @@
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ECMultiplier_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x23ddf44;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x330c2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::SM2Signer*>::get(), ".ctor",
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23de04c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x330c3ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*)>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23de0bc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x330c420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(
     ::Org::BouncyCastle::Crypto::Signers::IDsaEncoding*, ::Org::BouncyCastle::Crypto::IDigest*)>(&::Org::BouncyCastle::Crypto::Signers::SM2Signer::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x23ddfd4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x330c348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x23de128;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x330c490;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::Init)> {
-  constexpr static std::size_t size = 0x630;
-  constexpr static std::size_t addrs = 0x23de168;
+  constexpr static std::size_t size = 0x65c;
+  constexpr static std::size_t addrs = 0x330c4d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::Update)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23de908;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x330ccac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::BlockUpdate)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x23de9b4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x330cd64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::VerifySignature)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x23dea78;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x330ce34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -158,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::Reset)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x23dee60;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x330d22c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,8 +174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::GenerateSignature)> {
-  constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x23def94;
+  constexpr static std::size_t size = 0x510;
+  constexpr static std::size_t addrs = 0x330d364;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -190,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Signers::SM2Signer::VerifySignature)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x23debfc;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x330cfc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -206,8 +206,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::SM2Signer::GetZ)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x23de798;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x330cb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::SM2Signer::AddUserID)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x23df488;
+  constexpr static std::size_t addrs = 0x330d874;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(
     ::Org::BouncyCastle::Crypto::IDigest*, ::Org::BouncyCastle::Math::EC::ECFieldElement*)>(&::Org::BouncyCastle::Crypto::Signers::SM2Signer::AddFieldElement)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x23df614;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x330da00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -253,8 +253,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Signers::SM2Signer::CalculateE)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x23df6e8;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x330dae0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,8 +269,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* (::Org::BouncyCastle::Crypto::Signers::SM2Signer::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::SM2Signer::CreateBasePointMultiplier)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x23df748;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x330db44;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -3,14 +3,32 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryState_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UQueryExtensions_def.hpp"
+#include "UnityEngine/UIElements/zzzz__UQueryBuilder_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::UQueryExtensions.Q
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::VisualElement*, ::StringW, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::UnityEngine::UIElements::UQueryExtensions::Q)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6a86240;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Q", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::UQueryExtensions.Q
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (*)(::UnityEngine::UIElements::VisualElement*, ::StringW, ::StringW)>(
     &::UnityEngine::UIElements::UQueryExtensions::Q)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x4aa0e78;
+  constexpr static std::size_t size = 0x3ac;
+  constexpr static std::size_t addrs = 0x6a86360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,6 +110,15 @@ inline ::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::Visua
   return ::cordl_internals::getStaticField<::UnityEngine::UIElements::UQueryState_1<::UnityEngine::UIElements::VisualElement*>, "SingleElementTypeAndNameAndClassQuery",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get>();
 }
+inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name,
+                                                                                              ::ArrayW<::StringW, ::Array<::StringW>*> classes) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Q", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(nullptr, ___internal_method, e, name, classes);
+}
 template <typename T> inline T UnityEngine::UIElements::UQueryExtensions::Q(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Q",
@@ -108,6 +135,30 @@ inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::UQuery
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(nullptr, ___internal_method, e, name, className);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQueryExtensions::Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name,
+                                                                                                      ::ArrayW<::StringW, ::Array<::StringW>*> classes) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Query",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::StringW, ::Array<::StringW>*>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UQueryBuilder_1<T>, false>(nullptr, ___internal_method, e, name, classes);
+}
+template <typename T>
+inline ::UnityEngine::UIElements::UQueryBuilder_1<T> UnityEngine::UIElements::UQueryExtensions::Query(::UnityEngine::UIElements::VisualElement* e, ::StringW name, ::StringW className) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UQueryExtensions*>::get(), "Query",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::UQueryBuilder_1<T>, false>(nullptr, ___internal_method, e, name, className);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::UQueryExtensions::UQueryExtensions() {}

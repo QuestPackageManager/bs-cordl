@@ -1,8 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EnvironmentShaderWarmupDebugger.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
-#include "Zenject/zzzz__ILateTickable_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentShaderWarmupDebugger_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentShaderWarmupDebugger_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -12,13 +10,15 @@
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__Renderer_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
+#include "Zenject/zzzz__ILateTickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aca69c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56a3f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentShaderWarmupDebugger___c*>::get(),
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::*)(
     ::UnityEngine::Renderer*)>(&::GlobalNamespace::EnvironmentShaderWarmupDebugger___c::_Initialize_b__4_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3aca6a4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56a3f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::Initialize)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3ac9a84;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x56a3368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>::get(),
@@ -95,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::LateTick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3ac9c0c;
+  constexpr static std::size_t addrs = 0x56a3510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>::get(),
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::JustRenderersAndInitialMaterials)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3ac9c10;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x56a3514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::FullMaterialLookup)> {
-  constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x3ac9fd4;
+  constexpr static std::size_t size = 0x5a0;
+  constexpr static std::size_t addrs = 0x56a38f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>::get(),
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)(::UnityEngine::GameObject*)>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::GetGameObjectPath)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3ac9e78;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x56a37a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentShaderWarmupDebugger::*)()>(
     &::GlobalNamespace::EnvironmentShaderWarmupDebugger::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3aca598;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x56a3e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentShaderWarmupDebugger*>::get(),

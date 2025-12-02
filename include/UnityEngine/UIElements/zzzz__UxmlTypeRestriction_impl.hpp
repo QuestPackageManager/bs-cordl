@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UxmlTypeRestriction.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlTypeRestriction_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UxmlTypeRestriction.Equals
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlTypeRestriction::*)(::UnityEngine::UIElements::UxmlTypeRestriction*)>(
     &::UnityEngine::UIElements::UxmlTypeRestriction::Equals)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aa4c98;
+  constexpr static std::size_t addrs = 0x6a8cca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlTypeRestriction::*)()>(&::UnityEngine::UIElements::UxmlTypeRestriction::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa4ca4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a8ccb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlTypeRestriction*>::get(), ".ctor",

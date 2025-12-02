@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PopupWindow_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::PopupWindow_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a01bb8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b2f194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow_UxmlFactory*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PopupWindow_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::PopupWindow_UxmlTraits::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a01c00;
+  constexpr static std::size_t addrs = 0x6b2f1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow_UxmlTraits*>::get(),
@@ -57,8 +57,8 @@ constexpr ::UnityEngine::UIElements::PopupWindow_UxmlTraits::PopupWindow_UxmlTra
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PopupWindow::*)()>(&::UnityEngine::UIElements::PopupWindow::_ctor)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x4a019e4;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6b2efb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow*>::get(), ".ctor",
@@ -72,12 +72,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::PopupWindow::*)()>(
     &::UnityEngine::UIElements::PopupWindow::get_contentContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a01b10;
+  constexpr static std::size_t addrs = 0x6b2f0e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow*>::get(), 99));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow*>::get(), 135));
     return ___internal_method;
   }
 };
@@ -113,7 +113,7 @@ inline void UnityEngine::UIElements::PopupWindow::_ctor() {
 }
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::PopupWindow::get_contentContainer() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow*>::get(), 99)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PopupWindow*>::get(), 135)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::PopupWindow* UnityEngine::UIElements::PopupWindow::New_ctor() {

@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Threading/Tasks/ValueTask.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredValueTaskAwaitable_def.hpp"
@@ -11,14 +10,15 @@
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c::*)()>(
     &::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e5fd84;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5aa5708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c::*)(::System::Object*)>(
     &::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c::__cctor_b__4_0)> {
-  constexpr static std::size_t size = 0x2a4;
-  constexpr static std::size_t addrs = 0x3e5fd8c;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x5aa570c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTask::*)(
     ::System::Threading::Tasks::Sources::IValueTaskSource*, int16_t)>(&::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTask::_ctor)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3e5f834;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5aa5180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -134,8 +134,8 @@ constexpr ::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTask::ValueTask
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (*)()>(&::System::Threading::Tasks::ValueTask::get_CompletedTask)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3e5f1cc;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5aa4af8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask>::get(),
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTask::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::ValueTask::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e5f254;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5aa4b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTask::*)(::System::Threading::Tasks::Sources::IValueTaskSource*, int16_t)>(
     &::System::Threading::Tasks::ValueTask::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3e5f28c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5aa4bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTask::*)(::System::Object*, int16_t, bool)>(
     &::System::Threading::Tasks::ValueTask::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e5f2c8;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5aa4bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::Tasks::ValueTask::*)()>(&::System::Threading::Tasks::ValueTask::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e5f2dc;
+  constexpr static std::size_t addrs = 0x5aa4be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,8 +208,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ValueTask::*)(::System::Object*)>(&::System::Threading::Tasks::ValueTask::Equals)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3e5f2f4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5aa4bfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -224,7 +224,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ValueTask::*)(::System::Threading::Tasks::ValueTask)>(
     &::System::Threading::Tasks::ValueTask::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3e5f3ac;
+  constexpr static std::size_t addrs = 0x5aa4cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -238,8 +238,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Threading::Tasks::ValueTask::*)()>(
     &::System::Threading::Tasks::ValueTask::AsTask)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3e5f3d0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5aa4ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask>::get(), "AsTask",
@@ -252,8 +252,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Threading::Tasks::ValueTask::*)(::System::Threading::Tasks::Sources::IValueTaskSource*)>(&::System::Threading::Tasks::ValueTask::GetTaskForValueTaskSource)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x3e5f49c;
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x5aa4db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,8 +266,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::ValueTask::*)()>(&::System::Threading::Tasks::ValueTask::get_IsCompleted)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3e5f954;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5aa52a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask>::get(), "get_IsCompleted",
@@ -280,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::ValueTask::*)()>(
     &::System::Threading::Tasks::ValueTask::ThrowIfCompletedUnsuccessfully)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3e5fa58;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5aa53b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask>::get(),
@@ -295,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::ValueTaskAwaiter (::System::Threading::Tasks::ValueTask::*)()>(
     &::System::Threading::Tasks::ValueTask::GetAwaiter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e5fb5c;
+  constexpr static std::size_t addrs = 0x5aa54d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::ValueTask>::get(), "GetAwaiter",
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable (::System::Threading::Tasks::ValueTask::*)(bool)>(
     &::System::Threading::Tasks::ValueTask::ConfigureAwait)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3e5fb68;
+  constexpr static std::size_t addrs = 0x5aa54e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

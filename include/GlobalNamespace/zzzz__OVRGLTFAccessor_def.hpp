@@ -8,10 +8,17 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
+#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRGLTFAccessor)
 namespace GlobalNamespace {
-struct OVRBinaryChunk;
+struct OVRGLTFAccessor_GLTFAccessor;
+}
+namespace GlobalNamespace {
+struct OVRGLTFAccessor_GLTFBufferView;
+}
+namespace GlobalNamespace {
+struct OVRGLTFAccessor_GLTFBuffer;
 }
 namespace GlobalNamespace {
 struct OVRGLTFComponentType;
@@ -22,11 +29,29 @@ struct OVRGLTFType;
 namespace OVRSimpleJSON {
 class JSONNode;
 }
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System::IO {
+class BinaryReader;
+}
+namespace System::IO {
+class Stream;
+}
+namespace System {
+class IDisposable;
+}
+namespace UnityEngine {
+struct BoneWeight;
+}
 namespace UnityEngine {
 struct Color;
 }
 namespace UnityEngine {
 struct Matrix4x4;
+}
+namespace UnityEngine {
+struct Quaternion;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -41,148 +66,367 @@ struct Vector4;
 namespace GlobalNamespace {
 class OVRGLTFAccessor;
 }
+namespace GlobalNamespace {
+struct OVRGLTFAccessor_GLTFAccessor;
+}
+namespace GlobalNamespace {
+struct OVRGLTFAccessor_GLTFBuffer;
+}
+namespace GlobalNamespace {
+struct OVRGLTFAccessor_GLTFBufferView;
+}
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRGLTFAccessor);
-// Dependencies OVRGLTFComponentType, OVRGLTFType, System.Object
+MARK_VAL_T(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor);
+MARK_VAL_T(::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer);
+MARK_VAL_T(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView);
+// Dependencies OVRGLTFComponentType, OVRGLTFType
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: OVRGLTFAccessor/GLTFAccessor
+struct CORDL_TYPE OVRGLTFAccessor_GLTFAccessor {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRGLTFAccessor_GLTFAccessor();
+
+  // Ctor Parameters [CppParam { name: "Type", ty: "::GlobalNamespace::OVRGLTFType", modifiers: "", def_value: None }, CppParam { name: "ComponentType", ty: "::GlobalNamespace::OVRGLTFComponentType",
+  // modifiers: "", def_value: None }, CppParam { name: "ComponentTypeStride", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "BufferViewIndex", ty: "int32_t", modifiers: "",
+  // def_value: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Count", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "Min", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: None }, CppParam { name: "Max", ty: "::OVRSimpleJSON::JSONNode*", modifiers: "", def_value: None }]
+  constexpr OVRGLTFAccessor_GLTFAccessor(::GlobalNamespace::OVRGLTFType Type, ::GlobalNamespace::OVRGLTFComponentType ComponentType, int32_t ComponentTypeStride, int32_t BufferViewIndex,
+                                         int32_t ByteOffset, int32_t Count, ::OVRSimpleJSON::JSONNode* Min, ::OVRSimpleJSON::JSONNode* Max) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7128 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+
+  /// @brief Field Type, offset: 0x0, size: 0x4, def value: None
+  ::GlobalNamespace::OVRGLTFType Type;
+
+  /// @brief Field ComponentType, offset: 0x4, size: 0x4, def value: None
+  ::GlobalNamespace::OVRGLTFComponentType ComponentType;
+
+  /// @brief Field ComponentTypeStride, offset: 0x8, size: 0x4, def value: None
+  int32_t ComponentTypeStride;
+
+  /// @brief Field BufferViewIndex, offset: 0xc, size: 0x4, def value: None
+  int32_t BufferViewIndex;
+
+  /// @brief Field ByteOffset, offset: 0x10, size: 0x4, def value: None
+  int32_t ByteOffset;
+
+  /// @brief Field Count, offset: 0x14, size: 0x4, def value: None
+  int32_t Count;
+
+  /// @brief Field Min, offset: 0x18, size: 0x8, def value: None
+  ::OVRSimpleJSON::JSONNode* Min;
+
+  /// @brief Field Max, offset: 0x20, size: 0x8, def value: None
+  ::OVRSimpleJSON::JSONNode* Max;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, Type) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, ComponentType) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, ComponentTypeStride) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, BufferViewIndex) == 0xc, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, ByteOffset) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, Count) == 0x14, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, Min) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, Max) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, 0x28>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Dependencies
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: OVRGLTFAccessor/GLTFBufferView
+struct CORDL_TYPE OVRGLTFAccessor_GLTFBufferView {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRGLTFAccessor_GLTFBufferView();
+
+  // Ctor Parameters [CppParam { name: "BufferIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ByteOffset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "ByteLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "ByteStride", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr OVRGLTFAccessor_GLTFBufferView(int32_t BufferIndex, int32_t ByteOffset, int32_t ByteLength, int32_t ByteStride) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7129 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+
+  /// @brief Field BufferIndex, offset: 0x0, size: 0x4, def value: None
+  int32_t BufferIndex;
+
+  /// @brief Field ByteOffset, offset: 0x4, size: 0x4, def value: None
+  int32_t ByteOffset;
+
+  /// @brief Field ByteLength, offset: 0x8, size: 0x4, def value: None
+  int32_t ByteLength;
+
+  /// @brief Field ByteStride, offset: 0xc, size: 0x4, def value: None
+  int32_t ByteStride;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView, BufferIndex) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView, ByteOffset) == 0x4, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView, ByteLength) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView, ByteStride) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView, 0x10>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Dependencies
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: OVRGLTFAccessor/GLTFBuffer
+struct CORDL_TYPE OVRGLTFAccessor_GLTFBuffer {
+public:
+  // Declarations
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRGLTFAccessor_GLTFBuffer();
+
+  // Ctor Parameters [CppParam { name: "ByteLength", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr OVRGLTFAccessor_GLTFBuffer(int32_t ByteLength) noexcept;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7130 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field ByteLength, offset: 0x0, size: 0x4, def value: None
+  int32_t ByteLength;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer, ByteLength) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer, 0x4>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Dependencies OVRGLTFAccessor::GLTFAccessor, OVRGLTFAccessor::GLTFBuffer, OVRGLTFAccessor::GLTFBufferView, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRGLTFAccessor
 class CORDL_TYPE OVRGLTFAccessor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field additionalOffset, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_additionalOffset, put = __cordl_internal_set_additionalOffset)) int32_t additionalOffset;
+  using GLTFAccessor = ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor;
 
-  /// @brief Field bufferId, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_bufferId, put = __cordl_internal_set_bufferId)) int32_t bufferId;
+  using GLTFBuffer = ::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer;
 
-  /// @brief Field bufferLength, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_bufferLength, put = __cordl_internal_set_bufferLength)) int32_t bufferLength;
+  using GLTFBufferView = ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView;
 
-  /// @brief Field byteLength, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_byteLength, put = __cordl_internal_set_byteLength)) int32_t byteLength;
+  /// @brief Field _accessors, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get__accessors,
+                      put = __cordl_internal_set__accessors)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor>* _accessors;
 
-  /// @brief Field byteOffset, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_byteOffset, put = __cordl_internal_set_byteOffset)) int32_t byteOffset;
+  /// @brief Field _activeBuffer, offset 0x78, size 0x4
+  __declspec(property(get = __cordl_internal_get__activeBuffer, put = __cordl_internal_set__activeBuffer)) ::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer _activeBuffer;
 
-  /// @brief Field byteStride, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_byteStride, put = __cordl_internal_set_byteStride)) int32_t byteStride;
+  /// @brief Field _activeBufferOffset, offset 0x7c, size 0x4
+  __declspec(property(get = __cordl_internal_get__activeBufferOffset, put = __cordl_internal_set__activeBufferOffset)) int32_t _activeBufferOffset;
 
-  /// @brief Field componentType, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get_componentType, put = __cordl_internal_set_componentType)) ::GlobalNamespace::OVRGLTFComponentType componentType;
+  /// @brief Field _activeBufferView, offset 0x68, size 0x10
+  __declspec(property(get = __cordl_internal_get__activeBufferView, put = __cordl_internal_set__activeBufferView)) ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView _activeBufferView;
 
-  /// @brief Field dataCount, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_dataCount, put = __cordl_internal_set_dataCount)) int32_t dataCount;
+  /// @brief Field _activeGltfAccessor, offset 0x40, size 0x28
+  __declspec(property(get = __cordl_internal_get__activeGltfAccessor, put = __cordl_internal_set__activeGltfAccessor)) ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor _activeGltfAccessor;
 
-  /// @brief Field dataType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_dataType, put = __cordl_internal_set_dataType)) ::GlobalNamespace::OVRGLTFType dataType;
+  /// @brief Field _binaryChunk, offset 0x28, size 0x8
+  __declspec(property(get = __cordl_internal_get__binaryChunk, put = __cordl_internal_set__binaryChunk)) ::System::IO::Stream* _binaryChunk;
 
-  /// @brief Method GetDataCount, addr 0x3faa7ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Field _binaryChunkLength, offset 0x30, size 0x4
+  __declspec(property(get = __cordl_internal_get__binaryChunkLength, put = __cordl_internal_set__binaryChunkLength)) int32_t _binaryChunkLength;
+
+  /// @brief Field _binaryChunkStart, offset 0x34, size 0x4
+  __declspec(property(get = __cordl_internal_get__binaryChunkStart, put = __cordl_internal_set__binaryChunkStart)) int32_t _binaryChunkStart;
+
+  /// @brief Field _bufferViews, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get__bufferViews,
+                      put = __cordl_internal_set__bufferViews)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView>* _bufferViews;
+
+  /// @brief Field _buffers, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__buffers, put = __cordl_internal_set__buffers)) ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer>* _buffers;
+
+  /// @brief Field _reader, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__reader, put = __cordl_internal_set__reader)) ::System::IO::BinaryReader* _reader;
+
+  /// @brief Field _requireStrideSeek, offset 0x80, size 0x1
+  __declspec(property(get = __cordl_internal_get__requireStrideSeek, put = __cordl_internal_set__requireStrideSeek)) bool _requireStrideSeek;
+
+  /// @brief Convert operator to "::System::IDisposable"
+  constexpr operator ::System::IDisposable*() noexcept;
+
+  /// @brief Method Dispose, addr 0x5c0f550, size 0x20, virtual true, abstract: false, final true
+  inline void Dispose();
+
+  /// @brief Method GetDataCount, addr 0x5c0f570, size 0x8, virtual false, abstract: false, final false
   inline int32_t GetDataCount();
 
-  /// @brief Method GetMaxValueForType, addr 0x3fabcd0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetMaxValueForType, addr 0x5c0e6c0, size 0x100, virtual false, abstract: false, final false
   inline float_t GetMaxValueForType(::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method GetStrideForType, addr 0x3faaa10, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method GetStrideForType, addr 0x5c0d178, size 0x100, virtual false, abstract: false, final false
   inline int32_t GetStrideForType(::GlobalNamespace::OVRGLTFComponentType type);
 
-  static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
+  static inline ::GlobalNamespace::OVRGLTFAccessor* New_ctor(::OVRSimpleJSON::JSONNode* accessorsRoot, ::OVRSimpleJSON::JSONNode* bufferViewsRoot, ::OVRSimpleJSON::JSONNode* buffersRoot,
+                                                             ::System::IO::BinaryReader* binaryChunkReader, int32_t binaryChinkStart, int32_t binaryChunkLength);
 
-  /// @brief Method ReadAsBoneWeights, addr 0x3fac158, size 0x3c0, virtual false, abstract: false, final false
-  inline void ReadAsBoneWeights(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> data, int32_t offset);
+  /// @brief Method ReadAsFloat, addr 0x5c0d82c, size 0x194, virtual false, abstract: false, final false
+  static inline float_t ReadAsFloat(::System::IO::BinaryReader* reader, ::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ReadAsColor, addr 0x3fab844, size 0x48c, virtual false, abstract: false, final false
-  inline void ReadAsColor(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*>> data, int32_t offset);
+  /// @brief Method ReadAsInt, addr 0x5c0da68, size 0x19c, virtual false, abstract: false, final false
+  static inline int32_t ReadAsInt(::System::IO::BinaryReader* reader, ::GlobalNamespace::OVRGLTFComponentType type);
 
-  /// @brief Method ReadAsFloat, addr 0x3faabe4, size 0x21c, virtual false, abstract: false, final false
-  inline void ReadAsFloat(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>> data, int32_t offset);
+  /// @brief Method ReadBuffer, addr 0x5c0f454, size 0xfc, virtual false, abstract: false, final false
+  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadBuffer(int32_t bufferViewIndex);
 
-  /// @brief Method ReadAsInt, addr 0x3faa7f4, size 0x21c, virtual false, abstract: false, final false
-  inline void ReadAsInt(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> data, int32_t offset);
+  /// @brief Method ReadColor, addr 0x5c0e2b0, size 0x410, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ReadColor();
 
-  /// @brief Method ReadAsMatrix4x4, addr 0x3fabcf8, size 0x350, virtual false, abstract: false, final false
-  inline void ReadAsMatrix4x4(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*>> data, int32_t offset,
-                              ::UnityEngine::Vector3 conversionScale);
+  /// @brief Method ReadFloat, addr 0x5c0d6a8, size 0x184, virtual false, abstract: false, final false
+  inline ::ArrayW<float_t, ::Array<float_t>*> ReadFloat();
 
-  /// @brief Method ReadAsTexture, addr 0x3fac048, size 0x110, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsTexture(::GlobalNamespace::OVRBinaryChunk chunk);
+  /// @brief Method ReadInt, addr 0x5c0d9c0, size 0xa8, virtual false, abstract: false, final false
+  inline ::ArrayW<int32_t, ::Array<int32_t>*> ReadInt();
 
-  /// @brief Method ReadAsVector2, addr 0x3faae10, size 0x26c, virtual false, abstract: false, final false
-  inline void ReadAsVector2(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*>> data, int32_t offset);
+  /// @brief Method ReadJoints, addr 0x5c0eaa8, size 0x1b8, virtual false, abstract: false, final false
+  inline void ReadJoints(::ByRef<::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*>> resultsBoneWeights);
 
-  /// @brief Method ReadAsVector3, addr 0x3fab07c, size 0x3b4, virtual false, abstract: false, final false
-  inline void ReadAsVector3(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>> data, int32_t offset,
-                            ::UnityEngine::Vector3 conversionScale);
+  /// @brief Method ReadMatrix4x4, addr 0x5c0efa0, size 0x4b4, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Matrix4x4, ::Array<::UnityEngine::Matrix4x4>*> ReadMatrix4x4(::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ReadAsVector4, addr 0x3fab430, size 0x414, virtual false, abstract: false, final false
-  inline void ReadAsVector4(::GlobalNamespace::OVRBinaryChunk chunk, ::ByRef<::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>> data, int32_t offset,
-                            ::UnityEngine::Vector4 conversionScale);
+  /// @brief Method ReadQuaterion, addr 0x5c0ec60, size 0x340, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Quaternion, ::Array<::UnityEngine::Quaternion>*> ReadQuaterion(::UnityEngine::Vector4 gltfToUnitySpaceRotation);
 
-  /// @brief Method ReadElementAsFloat, addr 0x3faae00, size 0x10, virtual false, abstract: false, final false
-  inline float_t ReadElementAsFloat(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index);
+  /// @brief Method ReadVector2, addr 0x5c0dc04, size 0x1b4, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> ReadVector2();
 
-  /// @brief Method ReadElementAsUint, addr 0x3faaa38, size 0x1ac, virtual false, abstract: false, final false
-  inline uint32_t ReadElementAsUint(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t index, ::GlobalNamespace::OVRGLTFComponentType type);
+  /// @brief Method ReadVector3, addr 0x5c0ddb8, size 0x274, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ReadVector3(::UnityEngine::Vector3 conversionScale);
 
-  /// @brief Method ToOVRType, addr 0x3faa688, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method ReadVector4, addr 0x5c0e02c, size 0x284, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ReadVector4(::UnityEngine::Vector4 conversionScale);
+
+  /// @brief Method ReadWeights, addr 0x5c0e7c0, size 0x2e8, virtual false, abstract: false, final false
+  inline void ReadWeights(::ByRef<::ArrayW<::UnityEngine::BoneWeight, ::Array<::UnityEngine::BoneWeight>*>> resultsBoneWeights);
+
+  /// @brief Method Seek, addr 0x5c0d3e4, size 0x1e0, virtual false, abstract: false, final false
+  inline void Seek(int32_t accessorIndex, bool onlyBufferView);
+
+  /// @brief Method SeekStride, addr 0x5c0d5c4, size 0xe4, virtual false, abstract: false, final false
+  inline void SeekStride(int32_t strideIndex);
+
+  /// @brief Method ToOVRType, addr 0x5c0d278, size 0x16c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRGLTFType ToOVRType(::StringW type);
 
-  constexpr int32_t const& __cordl_internal_get_additionalOffset() const;
+  /// @brief Method TryCreate, addr 0x5c0bf44, size 0x1a8, virtual false, abstract: false, final false
+  static inline bool TryCreate(::OVRSimpleJSON::JSONNode* accessorsRoot, ::OVRSimpleJSON::JSONNode* bufferViewsRoot, ::OVRSimpleJSON::JSONNode* buffersRoot, ::System::IO::Stream* binaryChunk,
+                               ::ByRef<::GlobalNamespace::OVRGLTFAccessor*> dataAccessor);
 
-  constexpr int32_t& __cordl_internal_get_additionalOffset();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor>* const& __cordl_internal_get__accessors() const;
 
-  constexpr int32_t const& __cordl_internal_get_bufferId() const;
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor>*& __cordl_internal_get__accessors();
 
-  constexpr int32_t& __cordl_internal_get_bufferId();
+  constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer const& __cordl_internal_get__activeBuffer() const;
 
-  constexpr int32_t const& __cordl_internal_get_bufferLength() const;
+  constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer& __cordl_internal_get__activeBuffer();
 
-  constexpr int32_t& __cordl_internal_get_bufferLength();
+  constexpr int32_t const& __cordl_internal_get__activeBufferOffset() const;
 
-  constexpr int32_t const& __cordl_internal_get_byteLength() const;
+  constexpr int32_t& __cordl_internal_get__activeBufferOffset();
 
-  constexpr int32_t& __cordl_internal_get_byteLength();
+  constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView const& __cordl_internal_get__activeBufferView() const;
 
-  constexpr int32_t const& __cordl_internal_get_byteOffset() const;
+  constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView& __cordl_internal_get__activeBufferView();
 
-  constexpr int32_t& __cordl_internal_get_byteOffset();
+  constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor const& __cordl_internal_get__activeGltfAccessor() const;
 
-  constexpr int32_t const& __cordl_internal_get_byteStride() const;
+  constexpr ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor& __cordl_internal_get__activeGltfAccessor();
 
-  constexpr int32_t& __cordl_internal_get_byteStride();
+  constexpr ::System::IO::Stream* const& __cordl_internal_get__binaryChunk() const;
 
-  constexpr ::GlobalNamespace::OVRGLTFComponentType const& __cordl_internal_get_componentType() const;
+  constexpr ::System::IO::Stream*& __cordl_internal_get__binaryChunk();
 
-  constexpr ::GlobalNamespace::OVRGLTFComponentType& __cordl_internal_get_componentType();
+  constexpr int32_t const& __cordl_internal_get__binaryChunkLength() const;
 
-  constexpr int32_t const& __cordl_internal_get_dataCount() const;
+  constexpr int32_t& __cordl_internal_get__binaryChunkLength();
 
-  constexpr int32_t& __cordl_internal_get_dataCount();
+  constexpr int32_t const& __cordl_internal_get__binaryChunkStart() const;
 
-  constexpr ::GlobalNamespace::OVRGLTFType const& __cordl_internal_get_dataType() const;
+  constexpr int32_t& __cordl_internal_get__binaryChunkStart();
 
-  constexpr ::GlobalNamespace::OVRGLTFType& __cordl_internal_get_dataType();
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView>* const& __cordl_internal_get__bufferViews() const;
 
-  constexpr void __cordl_internal_set_additionalOffset(int32_t value);
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView>*& __cordl_internal_get__bufferViews();
 
-  constexpr void __cordl_internal_set_bufferId(int32_t value);
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer>* const& __cordl_internal_get__buffers() const;
 
-  constexpr void __cordl_internal_set_bufferLength(int32_t value);
+  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer>*& __cordl_internal_get__buffers();
 
-  constexpr void __cordl_internal_set_byteLength(int32_t value);
+  constexpr ::System::IO::BinaryReader* const& __cordl_internal_get__reader() const;
 
-  constexpr void __cordl_internal_set_byteOffset(int32_t value);
+  constexpr ::System::IO::BinaryReader*& __cordl_internal_get__reader();
 
-  constexpr void __cordl_internal_set_byteStride(int32_t value);
+  constexpr bool const& __cordl_internal_get__requireStrideSeek() const;
 
-  constexpr void __cordl_internal_set_componentType(::GlobalNamespace::OVRGLTFComponentType value);
+  constexpr bool& __cordl_internal_get__requireStrideSeek();
 
-  constexpr void __cordl_internal_set_dataCount(int32_t value);
+  constexpr void __cordl_internal_set__accessors(::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor>* value);
 
-  constexpr void __cordl_internal_set_dataType(::GlobalNamespace::OVRGLTFType value);
+  constexpr void __cordl_internal_set__activeBuffer(::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer value);
 
-  /// @brief Method .ctor, addr 0x3faa348, size 0x340, virtual false, abstract: false, final false
-  inline void _ctor(::OVRSimpleJSON::JSONNode* node, ::OVRSimpleJSON::JSONNode* root, bool bufferViewOnly);
+  constexpr void __cordl_internal_set__activeBufferOffset(int32_t value);
+
+  constexpr void __cordl_internal_set__activeBufferView(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView value);
+
+  constexpr void __cordl_internal_set__activeGltfAccessor(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor value);
+
+  constexpr void __cordl_internal_set__binaryChunk(::System::IO::Stream* value);
+
+  constexpr void __cordl_internal_set__binaryChunkLength(int32_t value);
+
+  constexpr void __cordl_internal_set__binaryChunkStart(int32_t value);
+
+  constexpr void __cordl_internal_set__bufferViews(::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView>* value);
+
+  constexpr void __cordl_internal_set__buffers(::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer>* value);
+
+  constexpr void __cordl_internal_set__reader(::System::IO::BinaryReader* value);
+
+  constexpr void __cordl_internal_set__requireStrideSeek(bool value);
+
+  /// @brief Method .ctor, addr 0x5c0c0ec, size 0x108c, virtual false, abstract: false, final false
+  inline void _ctor(::OVRSimpleJSON::JSONNode* accessorsRoot, ::OVRSimpleJSON::JSONNode* bufferViewsRoot, ::OVRSimpleJSON::JSONNode* buffersRoot, ::System::IO::BinaryReader* binaryChunkReader,
+                    int32_t binaryChinkStart, int32_t binaryChunkLength);
+
+  /// @brief Convert to "::System::IDisposable"
+  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -199,58 +443,76 @@ public:
   OVRGLTFAccessor(OVRGLTFAccessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7131 };
 
-  /// @brief Field byteOffset, offset: 0x10, size: 0x4, def value: None
-  int32_t ___byteOffset;
+  /// @brief Field _accessors, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor>* ____accessors;
 
-  /// @brief Field byteLength, offset: 0x14, size: 0x4, def value: None
-  int32_t ___byteLength;
+  /// @brief Field _bufferViews, offset: 0x18, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView>* ____bufferViews;
 
-  /// @brief Field byteStride, offset: 0x18, size: 0x4, def value: None
-  int32_t ___byteStride;
+  /// @brief Field _buffers, offset: 0x20, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer>* ____buffers;
 
-  /// @brief Field bufferId, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___bufferId;
+  /// @brief Field _binaryChunk, offset: 0x28, size: 0x8, def value: None
+  ::System::IO::Stream* ____binaryChunk;
 
-  /// @brief Field bufferLength, offset: 0x20, size: 0x4, def value: None
-  int32_t ___bufferLength;
+  /// @brief Field _binaryChunkLength, offset: 0x30, size: 0x4, def value: None
+  int32_t ____binaryChunkLength;
 
-  /// @brief Field additionalOffset, offset: 0x24, size: 0x4, def value: None
-  int32_t ___additionalOffset;
+  /// @brief Field _binaryChunkStart, offset: 0x34, size: 0x4, def value: None
+  int32_t ____binaryChunkStart;
 
-  /// @brief Field dataType, offset: 0x28, size: 0x4, def value: None
-  ::GlobalNamespace::OVRGLTFType ___dataType;
+  /// @brief Field _reader, offset: 0x38, size: 0x8, def value: None
+  ::System::IO::BinaryReader* ____reader;
 
-  /// @brief Field componentType, offset: 0x2c, size: 0x4, def value: None
-  ::GlobalNamespace::OVRGLTFComponentType ___componentType;
+  /// @brief Field _activeGltfAccessor, offset: 0x40, size: 0x28, def value: None
+  ::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor ____activeGltfAccessor;
 
-  /// @brief Field dataCount, offset: 0x30, size: 0x4, def value: None
-  int32_t ___dataCount;
+  /// @brief Field _activeBufferView, offset: 0x68, size: 0x10, def value: None
+  ::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView ____activeBufferView;
+
+  /// @brief Field _activeBuffer, offset: 0x78, size: 0x4, def value: None
+  ::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer ____activeBuffer;
+
+  /// @brief Field _activeBufferOffset, offset: 0x7c, size: 0x4, def value: None
+  int32_t ____activeBufferOffset;
+
+  /// @brief Field _requireStrideSeek, offset: 0x80, size: 0x1, def value: None
+  bool ____requireStrideSeek;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___byteOffset) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____accessors) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___byteLength) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____bufferViews) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___byteStride) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____buffers) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___bufferId) == 0x1c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____binaryChunk) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___bufferLength) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____binaryChunkLength) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___additionalOffset) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____binaryChunkStart) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___dataType) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____reader) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___componentType) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____activeGltfAccessor) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ___dataCount) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____activeBufferView) == 0x68, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAccessor, 0x38>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____activeBuffer) == 0x78, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____activeBufferOffset) == 0x7c, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRGLTFAccessor, ____requireStrideSeek) == 0x80, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRGLTFAccessor, 0x88>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRGLTFAccessor);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFAccessor*, "", "OVRGLTFAccessor");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFAccessor_GLTFAccessor, "", "OVRGLTFAccessor/GLTFAccessor");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFAccessor_GLTFBuffer, "", "OVRGLTFAccessor/GLTFBuffer");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRGLTFAccessor_GLTFBufferView, "", "OVRGLTFAccessor/GLTFBufferView");

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Engines/ElGamalEngine.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Engines/zzzz__ElGamalEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__ElGamalKeyParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Engines::ElGamalEngine.get_AlgorithmName
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x235c1cc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x3289db8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)(bool, ::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::Init)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x235c20c;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x3289dfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::GetInputBlockSize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x235c4b4;
+  constexpr static std::size_t addrs = 0x328a0c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::GetOutputBlockSize)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x235c4f4;
+  constexpr static std::size_t addrs = 0x328a104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::ProcessBlock)> {
-  constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x235c534;
+  constexpr static std::size_t size = 0x4f8;
+  constexpr static std::size_t addrs = 0x328a144;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::ElGamalEngine::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x235ca60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x328a63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::ElGamalEngine*>::get(),

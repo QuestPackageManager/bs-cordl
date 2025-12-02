@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKResolution (*)()>(&::LIV::SDK::Unity::SDKResolution::get_zero)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac2534;
+  constexpr static std::size_t addrs = 0x569bcd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKResolution>::get(), "get_zero",
@@ -18,8 +18,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::LIV::SDK::Unity::SDKResolution::*)()>(&::LIV::SDK::Unity::SDKResolution::ToString)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3ac6618;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x569ff10;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -5,13 +5,10 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapLevelDataVersion_def.hpp"
 #include "GlobalNamespace/zzzz__GetAssetBundleFileResult_def.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapLevelLoader_def.hpp"
 #include "GlobalNamespace/zzzz__LoadBeatmapLevelDataResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -61,6 +58,9 @@ namespace GlobalNamespace {
 class IBeatmapLevelData;
 }
 namespace GlobalNamespace {
+class IBeatmapLevelLoader;
+}
+namespace GlobalNamespace {
 struct LevelDataAssetDownloadUpdate;
 }
 namespace GlobalNamespace {
@@ -80,6 +80,9 @@ struct CancellationToken;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -133,7 +136,7 @@ public:
 
   constexpr void __cordl_internal_set_maxCachedBeatmapLevels(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26c2c28, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f5338, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t maxCachedBeatmapLevels);
 
 protected:
@@ -151,7 +154,7 @@ public:
   BeatmapLevelLoader_InitData(BeatmapLevelLoader_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14901 };
 
   /// @brief Field maxCachedBeatmapLevels, offset: 0x10, size: 0x4, def value: None
   int32_t ___maxCachedBeatmapLevels;
@@ -207,7 +210,7 @@ public:
   static ::GlobalNamespace::LevelDownloadingUpdate_BeatmapLevelLoader_DownloadingState const PreparingToDownload;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14902 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -232,7 +235,7 @@ public:
   // Declarations
   using DownloadingState = ::GlobalNamespace::LevelDownloadingUpdate_BeatmapLevelLoader_DownloadingState;
 
-  /// @brief Method .ctor, addr 0x26c29c8, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f50c8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelID, float_t progress, ::GlobalNamespace::LevelDownloadingUpdate_BeatmapLevelLoader_DownloadingState downloadingState);
 
   // Ctor Parameters []
@@ -244,7 +247,7 @@ public:
   constexpr BeatmapLevelLoader_LevelDownloadingUpdate(::StringW levelID, float_t progress, ::GlobalNamespace::LevelDownloadingUpdate_BeatmapLevelLoader_DownloadingState downloadingState) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12929 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14903 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -270,8 +273,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpd
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatmapLevelLoader/<CheckBeatmapLevelDataExistsAsync>d__14
@@ -281,10 +283,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c2c50, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35f5340, size 0x2b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c2ee4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35f55f4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -305,7 +307,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14904 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -351,8 +353,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelD
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataExistsAsync_d__14, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatmapLevelLoader/<CheckBeatmapLevelDataFromAssetBundleExistsAsync>d__16
@@ -362,10 +364,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c2f60, size 0x4d4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35f5674, size 0x4d4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c3434, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35f5b48, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -388,7 +390,7 @@ public:
                                                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::GetAssetBundleFileResult> __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14905 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -439,8 +441,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelD
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelLoader__CheckBeatmapLevelDataFromAssetBundleExistsAsync_d__16, 0x50>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, LoadBeatmapLevelDataResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatmapLevelLoader/<LoadBeatmapLevelDataAsync>d__13
@@ -450,10 +452,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c34b0, size 0x35c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35f5bc8, size 0x3a8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c380c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35f5f70, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -476,7 +478,7 @@ public:
                                                                 ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::IBeatmapLevelData*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14906 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -522,8 +524,8 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDa
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataAsync_d__13, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatmapLevelDataVersion, GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
+// Dependencies BeatmapLevelDataVersion, GetAssetBundleFileResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
+// System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatmapLevelLoader/<LoadBeatmapLevelDataFromAssetBundle>d__18
@@ -533,10 +535,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c3888, size 0x7fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35f5ff0, size 0x7c0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c4084, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35f67b0, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -565,7 +567,7 @@ public:
                                                                           ::System::Runtime::CompilerServices::TaskAwaiter_1<bool> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14907 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -631,7 +633,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDa
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelLoader__LoadBeatmapLevelDataFromAssetBundle_d__18, 0x68>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IBeatmapLevelLoader, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapLevelLoader
@@ -677,44 +679,44 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x26c2560, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method CheckBeatmapLevelDataExistsAsync, addr 0x35f4c6c, size 0x108, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                     ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x26c267c, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataFromAssetBundleExistsAsync, addr 0x35f4d7c, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* CheckBeatmapLevelDataFromAssetBundleExistsAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                    ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                    ::System::Threading::CancellationToken token);
 
-  /// @brief Method CheckBeatmapLevelDataFromCustomLevels, addr 0x26c2674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmapLevelDataFromCustomLevels, addr 0x35f4d74, size 0x8, virtual false, abstract: false, final false
   inline bool CheckBeatmapLevelDataFromCustomLevels(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method ClearCache, addr 0x26c2bd8, size 0x50, virtual true, abstract: false, final true
+  /// @brief Method ClearCache, addr 0x35f52e4, size 0x54, virtual true, abstract: false, final true
   inline void ClearCache();
 
-  /// @brief Method Dispose, addr 0x26c22dc, size 0x170, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35f49a8, size 0x1bc, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DownloadAssetBundleAndGetPath, addr 0x26c289c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DownloadAssetBundleAndGetPath, addr 0x35f4f90, size 0xd0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::GetAssetBundleFileResult>*
   DownloadAssetBundleAndGetPath(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::System::Threading::CancellationToken token);
 
-  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x26c29d8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandleItemWillBeRemovedFromCache, addr 0x35f50d8, size 0x38, virtual false, abstract: false, final false
   inline void HandleItemWillBeRemovedFromCache(::StringW beatmapLevelId, ::GlobalNamespace::IBeatmapLevelData* beatmapLevel);
 
-  /// @brief Method HandleLevelDataAssetDownloadUpdate, addr 0x26c2960, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelDataAssetDownloadUpdate, addr 0x35f5060, size 0x68, virtual false, abstract: false, final false
   inline void HandleLevelDataAssetDownloadUpdate(::GlobalNamespace::LevelDataAssetDownloadUpdate update);
 
-  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x26c244c, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method LoadBeatmapLevelDataAsync, addr 0x35f4b64, size 0x108, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::LoadBeatmapLevelDataResult>* LoadBeatmapLevelDataAsync(::GlobalNamespace::BeatmapLevel* beatmapLevel,
                                                                                                                       ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion,
                                                                                                                       ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadBeatmapLevelDataFromAssetBundle, addr 0x26c2794, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromAssetBundle, addr 0x35f4e88, size 0x108, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>*
   LoadBeatmapLevelDataFromAssetBundle(::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::BeatmapLevelDataVersion beatmapLevelDataVersion, ::System::Threading::CancellationToken token);
 
-  /// @brief Method LoadBeatmapLevelDataFromCustomLevels, addr 0x26c278c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method LoadBeatmapLevelDataFromCustomLevels, addr 0x35f4e80, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IBeatmapLevelData* LoadBeatmapLevelDataFromCustomLevels(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
   static inline ::GlobalNamespace::BeatmapLevelLoader* New_ctor(::GlobalNamespace::BeatmapLevelDataLoader* beatmapLevelDataLoader,
@@ -751,14 +753,14 @@ public:
 
   constexpr void __cordl_internal_set_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>* value);
 
-  /// @brief Method .ctor, addr 0x26c2104, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f4780, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::BeatmapLevelDataLoader* beatmapLevelDataLoader, ::GlobalNamespace::IBeatmapDataAssetFileModel* beatmapDataAssetFileModel,
                     ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapLevelLoader_InitData* initData);
 
-  /// @brief Method add_levelDownloadingUpdateEvent, addr 0x26c1f8c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_levelDownloadingUpdateEvent, addr 0x35f45ec, size 0xc0, virtual true, abstract: false, final true
   inline void add_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>* value);
 
-  /// @brief Method get_cachedLoadRequestCount, addr 0x26c20ec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_cachedLoadRequestCount, addr 0x35f476c, size 0x14, virtual false, abstract: false, final false
   inline int32_t get_cachedLoadRequestCount();
 
   /// @brief Convert to "::GlobalNamespace::IBeatmapLevelLoader"
@@ -767,7 +769,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_levelDownloadingUpdateEvent, addr 0x26c203c, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_levelDownloadingUpdateEvent, addr 0x35f46ac, size 0xc0, virtual true, abstract: false, final true
   inline void remove_levelDownloadingUpdateEvent(::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>* value);
 
 protected:
@@ -785,7 +787,7 @@ public:
   BeatmapLevelLoader(BeatmapLevelLoader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12934 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14908 };
 
   /// @brief Field levelDownloadingUpdateEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::BeatmapLevelLoader_LevelDownloadingUpdate>* ___levelDownloadingUpdateEvent;

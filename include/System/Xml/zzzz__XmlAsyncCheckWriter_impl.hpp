@@ -5,14 +5,17 @@
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Xml/zzzz__WriteState_def.hpp"
 #include "System/Xml/zzzz__XmlReader_def.hpp"
+#include "System/Xml/zzzz__XmlSpace_def.hpp"
 #include "System/Xml/zzzz__XmlWriter_def.hpp"
+#include "System/zzzz__DateTime_def.hpp"
+#include "System/zzzz__Decimal_def.hpp"
 //  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Xml::XmlWriter*)>(
     &::System::Xml::XmlAsyncCheckWriter::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x430ebc4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5f98dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::CheckAsync)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x430ec40;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5f98e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), "CheckAsync",
@@ -39,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteStartDocument)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x430ecbc;
+  constexpr static std::size_t addrs = 0x5f98ee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(bool)>(&::System::Xml::XmlAsyncCheckWriter::WriteStartDocument)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x430ece4;
+  constexpr static std::size_t addrs = 0x5f98f08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteEndDocument)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x430ed1c;
+  constexpr static std::size_t addrs = 0x5f98f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteDocType)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x430ed44;
+  constexpr static std::size_t addrs = 0x5f98f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteStartElement)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x430ed9c;
+  constexpr static std::size_t addrs = 0x5f98fc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteEndElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x430edec;
+  constexpr static std::size_t addrs = 0x5f99010;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteFullEndElement)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x430ee14;
+  constexpr static std::size_t addrs = 0x5f99038;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +143,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW, ::StringW)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteStartAttribute)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x430ee3c;
+  constexpr static std::size_t addrs = 0x5f99060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +157,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::WriteEndAttribute)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x430ee8c;
+  constexpr static std::size_t addrs = 0x5f990b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,7 +171,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteCData)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430eeb8;
+  constexpr static std::size_t addrs = 0x5f990dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,7 +185,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteComment)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430eef4;
+  constexpr static std::size_t addrs = 0x5f99118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteProcessingInstruction)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x430ef30;
+  constexpr static std::size_t addrs = 0x5f99154;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteEntityRef)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430ef74;
+  constexpr static std::size_t addrs = 0x5f99198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(char16_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteCharEntity)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430efb0;
+  constexpr static std::size_t addrs = 0x5f991d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +242,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteWhitespace)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430efec;
+  constexpr static std::size_t addrs = 0x5f99210;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteString)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430f028;
+  constexpr static std::size_t addrs = 0x5f9924c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,7 +271,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(char16_t, char16_t)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteSurrogateCharEntity)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x430f064;
+  constexpr static std::size_t addrs = 0x5f99288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteChars)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x430f0a8;
+  constexpr static std::size_t addrs = 0x5f992cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -298,7 +301,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x430f0fc;
+  constexpr static std::size_t addrs = 0x5f99320;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -312,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteRaw)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430f150;
+  constexpr static std::size_t addrs = 0x5f99374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,7 +330,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteBase64)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x430f18c;
+  constexpr static std::size_t addrs = 0x5f993b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -342,7 +345,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteBinHex)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x430f1e0;
+  constexpr static std::size_t addrs = 0x5f99404;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -357,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::WriteState (::System::Xml::XmlAsyncCheckWriter::*)()>(
     &::System::Xml::XmlAsyncCheckWriter::get_WriteState)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x430f234;
+  constexpr static std::size_t addrs = 0x5f99458;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -371,7 +374,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::Close)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x430f260;
+  constexpr static std::size_t addrs = 0x5f99484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -385,7 +388,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::Flush)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x430f28c;
+  constexpr static std::size_t addrs = 0x5f994b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -399,7 +402,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::LookupPrefix)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430f2b8;
+  constexpr static std::size_t addrs = 0x5f994dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -408,17 +411,159 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.get_XmlSpace
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x430f2f4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlSpace (::System::Xml::XmlAsyncCheckWriter::*)()>(
+    &::System::Xml::XmlAsyncCheckWriter::get_XmlSpace)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5f99518;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 31));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.get_XmlLang
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlAsyncCheckWriter::*)()>(&::System::Xml::XmlAsyncCheckWriter::get_XmlLang)> {
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5f99544;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 32));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteQualifiedName
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW, ::StringW)>(
+    &::System::Xml::XmlAsyncCheckWriter::WriteQualifiedName)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5f99570;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 33));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::StringW)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f995b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 34));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(bool)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f995f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 35));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::DateTime)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f9962c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 36));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(double_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f99668;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 37));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(float_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f996a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 38));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Decimal)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5f996e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 39));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(int32_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f99724;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 40));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::XmlAsyncCheckWriter.WriteValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(int64_t)>(&::System::Xml::XmlAsyncCheckWriter::WriteValue)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5f99760;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 41));
     return ___internal_method;
   }
 };
@@ -428,12 +573,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Xml::XmlReader*, bool)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteAttributes)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x430f330;
+  constexpr static std::size_t addrs = 0x5f9979c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 32));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 42));
     return ___internal_method;
   }
 };
@@ -443,12 +588,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(::System::Xml::XmlReader*, bool)>(
     &::System::Xml::XmlAsyncCheckWriter::WriteNode)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x430f374;
+  constexpr static std::size_t addrs = 0x5f997e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 33));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 43));
     return ___internal_method;
   }
 };
@@ -456,13 +601,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlAsyncCheckWriter::*)(bool)>(&::System::Xml::XmlAsyncCheckWriter::Dispose)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x430f3b8;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5f99824;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 34));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 44));
     return ___internal_method;
   }
 };
@@ -631,24 +776,74 @@ inline ::StringW System::Xml::XmlAsyncCheckWriter::LookupPrefix(::StringW ns) {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, ns);
 }
-inline void System::Xml::XmlAsyncCheckWriter::WriteValue(::StringW value) {
+inline ::System::Xml::XmlSpace System::Xml::XmlAsyncCheckWriter::get_XmlSpace() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 31)));
+  return ::cordl_internals::RunMethodRethrow<::System::Xml::XmlSpace, false>(this, ___internal_method);
+}
+inline ::StringW System::Xml::XmlAsyncCheckWriter::get_XmlLang() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 32)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteQualifiedName(::StringW localName, ::StringW ns) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 33)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, localName, ns);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(::StringW value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 34)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(bool value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 35)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(::System::DateTime value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 36)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(double_t value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 37)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(float_t value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 38)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(::System::Decimal value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 39)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(int32_t value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 40)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Xml::XmlAsyncCheckWriter::WriteValue(int64_t value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 41)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Xml::XmlAsyncCheckWriter::WriteAttributes(::System::Xml::XmlReader* reader, bool defattr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 42)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, defattr);
 }
 inline void System::Xml::XmlAsyncCheckWriter::WriteNode(::System::Xml::XmlReader* reader, bool defattr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 33)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 43)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reader, defattr);
 }
 inline void System::Xml::XmlAsyncCheckWriter::Dispose(bool disposing) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 34)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlAsyncCheckWriter*>::get(), 44)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
 inline ::System::Xml::XmlAsyncCheckWriter* System::Xml::XmlAsyncCheckWriter::New_ctor(::System::Xml::XmlWriter* writer) {

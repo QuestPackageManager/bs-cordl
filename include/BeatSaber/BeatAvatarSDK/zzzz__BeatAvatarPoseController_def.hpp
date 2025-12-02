@@ -49,10 +49,10 @@ public:
 
   static inline ::BeatSaber::BeatAvatarSDK::BeatAvatarPoseController* New_ctor();
 
-  /// @brief Method UpdateBodyPosition, addr 0x225c4e4, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method UpdateBodyPosition, addr 0x317da90, size 0x1b8, virtual false, abstract: false, final false
   inline void UpdateBodyPosition();
 
-  /// @brief Method UpdateTransforms, addr 0x225c410, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method UpdateTransforms, addr 0x317d9c4, size 0xcc, virtual false, abstract: false, final false
   inline void UpdateTransforms(::UnityEngine::Vector3 headPosition, ::UnityEngine::Vector3 leftHandPosition, ::UnityEngine::Vector3 rightHandPosition, ::UnityEngine::Quaternion headRotation,
                                ::UnityEngine::Quaternion leftHandRotation, ::UnityEngine::Quaternion rightHandRotation);
 
@@ -86,10 +86,10 @@ public:
 
   constexpr void __cordl_internal_set__rightHandTransform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x225c690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x317dc48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_bodyWorldPosition, addr 0x225c3f4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_bodyWorldPosition, addr 0x317d9ac, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_bodyWorldPosition();
 
 protected:
@@ -107,7 +107,7 @@ public:
   BeatAvatarPoseController(BeatAvatarPoseController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22049 };
 
   /// @brief Field _headTransform, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____headTransform;

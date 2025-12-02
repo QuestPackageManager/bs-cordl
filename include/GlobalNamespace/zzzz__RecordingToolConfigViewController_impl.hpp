@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolConfigViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolConfigViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3af5fb0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x56d90a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolConfigViewController::*)()>(
     &::GlobalNamespace::RecordingToolConfigViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af6038;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56d913c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolConfigViewController*>::get(),

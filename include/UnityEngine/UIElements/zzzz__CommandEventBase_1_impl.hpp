@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/CommandEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__ICommandEvent_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CommandEventBase_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
 template <typename T> constexpr ::StringW& UnityEngine::UIElements::CommandEventBase_1<T>::__cordl_internal_get_m_CommandName() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -29,7 +29,7 @@ template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>
 }
 template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CommandEventBase_1<T>*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CommandEventBase_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>::LocalInit() {
@@ -49,6 +49,11 @@ template <typename T> inline T UnityEngine::UIElements::CommandEventBase_1<T>::G
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, commandName);
 }
+template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CommandEventBase_1<T>*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
+}
 template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CommandEventBase_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -56,14 +61,6 @@ template <typename T> inline void UnityEngine::UIElements::CommandEventBase_1<T>
 }
 template <typename T> inline ::UnityEngine::UIElements::CommandEventBase_1<T>* UnityEngine::UIElements::CommandEventBase_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::CommandEventBase_1<T>*>());
-}
-/// @brief Convert operator to "::UnityEngine::UIElements::ICommandEvent"
-template <typename T> constexpr UnityEngine::UIElements::CommandEventBase_1<T>::operator ::UnityEngine::UIElements::ICommandEvent*() noexcept {
-  return static_cast<::UnityEngine::UIElements::ICommandEvent*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
-template <typename T> constexpr ::UnityEngine::UIElements::ICommandEvent* UnityEngine::UIElements::CommandEventBase_1<T>::i___UnityEngine__UIElements__ICommandEvent() noexcept {
-  return static_cast<::UnityEngine::UIElements::ICommandEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::CommandEventBase_1<T>::CommandEventBase_1() {}

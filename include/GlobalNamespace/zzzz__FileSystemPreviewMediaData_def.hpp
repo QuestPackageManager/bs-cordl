@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPreviewMediaData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileSystemPreviewMediaData)
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
+}
+namespace GlobalNamespace {
+class IPreviewMediaData;
 }
 namespace GlobalNamespace {
 class SpriteAsyncLoader;
@@ -28,7 +30,7 @@ class FileSystemPreviewMediaData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FileSystemPreviewMediaData);
-// Dependencies IPreviewMediaData, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FileSystemPreviewMediaData
@@ -50,19 +52,19 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPreviewMediaData"
   constexpr operator ::GlobalNamespace::IPreviewMediaData*() noexcept;
 
-  /// @brief Method GetCoverSpriteAsync, addr 0x26ce59c, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetCoverSpriteAsync, addr 0x3600fa0, size 0x20, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::Sprite>>* GetCoverSpriteAsync();
 
-  /// @brief Method GetPreviewAudioClip, addr 0x26ce5c0, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method GetPreviewAudioClip, addr 0x3600fc0, size 0x20, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* GetPreviewAudioClip();
 
   static inline ::GlobalNamespace::FileSystemPreviewMediaData* New_ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
                                                                         ::StringW rootPath, ::StringW coverSpritePath, ::StringW previewAudioClipPath);
 
-  /// @brief Method UnloadCoverSprite, addr 0x26ce608, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnloadCoverSprite, addr 0x3601000, size 0x20, virtual true, abstract: false, final true
   inline void UnloadCoverSprite();
 
-  /// @brief Method UnloadPreviewAudioClip, addr 0x26ce5e4, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method UnloadPreviewAudioClip, addr 0x3600fe0, size 0x20, virtual true, abstract: false, final true
   inline void UnloadPreviewAudioClip();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
@@ -89,7 +91,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteAsyncLoader(::GlobalNamespace::SpriteAsyncLoader* value);
 
-  /// @brief Method .ctor, addr 0x26ce3dc, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3600e44, size 0x15c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::SpriteAsyncLoader* spriteAsyncLoader, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::StringW rootPath, ::StringW coverSpritePath,
                     ::StringW previewAudioClipPath);
 
@@ -111,7 +113,7 @@ public:
   FileSystemPreviewMediaData(FileSystemPreviewMediaData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14955 };
 
   /// @brief Field _spriteAsyncLoader, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::SpriteAsyncLoader* ____spriteAsyncLoader;

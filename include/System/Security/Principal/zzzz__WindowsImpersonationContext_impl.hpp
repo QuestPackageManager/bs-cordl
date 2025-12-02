@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "System/Security/Principal/WindowsImpersonationContext.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/Principal/zzzz__WindowsImpersonationContext_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::System::Security::Principal::WindowsImpersonationContext._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)(::System::IntPtr)>(
     &::System::Security::Principal::WindowsImpersonationContext::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3cbd198;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5900cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)()>(
     &::System::Security::Principal::WindowsImpersonationContext::Dispose)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cbd87c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5901340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::WindowsImpersonationContext::*)()>(
     &::System::Security::Principal::WindowsImpersonationContext::Undo)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3cbd88c;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5901354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::CloseToken)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd950;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5901390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
     &::System::Security::Principal::WindowsImpersonationContext::DuplicateToken)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd874;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5901330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(&::System::Security::Principal::WindowsImpersonationContext::SetCurrentToken)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd878;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5901338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Security::Principal::WindowsImpersonationContext::RevertToSelf)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cbd94c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5901388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

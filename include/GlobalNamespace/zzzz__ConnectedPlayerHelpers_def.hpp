@@ -21,22 +21,22 @@ namespace GlobalNamespace {
 class CORDL_TYPE ConnectedPlayerHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method HasFinishedLevel, addr 0x22c2338, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method HasFinishedLevel, addr 0x3208fe0, size 0xc4, virtual false, abstract: false, final false
   static inline bool HasFinishedLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActive, addr 0x22c227c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method IsActive, addr 0x3208f1c, size 0xc4, virtual false, abstract: false, final false
   static inline bool IsActive(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsActiveOrFinished, addr 0x22c23f4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsActiveOrFinished, addr 0x32090a4, size 0x28, virtual false, abstract: false, final false
   static inline bool IsActiveOrFinished(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method IsFailed, addr 0x22c241c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method IsFailed, addr 0x32090cc, size 0xdc, virtual false, abstract: false, final false
   static inline bool IsFailed(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WantsToPlayNextLevel, addr 0x22c2104, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WantsToPlayNextLevel, addr 0x3208d94, size 0xc4, virtual false, abstract: false, final false
   static inline bool WantsToPlayNextLevel(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
-  /// @brief Method WasActiveAtLevelStart, addr 0x22c21c0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method WasActiveAtLevelStart, addr 0x3208e58, size 0xc4, virtual false, abstract: false, final false
   static inline bool WasActiveAtLevelStart(::GlobalNamespace::IConnectedPlayer* connectedPlayer);
 
 protected:
@@ -54,7 +54,7 @@ public:
   ConnectedPlayerHelpers(ConnectedPlayerHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14714 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18089 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

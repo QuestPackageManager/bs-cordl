@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23f39cc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3321e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::get_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f4180;
+  constexpr static std::size_t addrs = 0x33225a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::set_Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f4188;
+  constexpr static std::size_t addrs = 0x33225ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::get_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f4190;
+  constexpr static std::size_t addrs = 0x33225b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range*>::get(),
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler_Range::set_End)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f4198;
+  constexpr static std::size_t addrs = 0x33225bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)(uint8_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::_ctor)> {
   constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x23f3884;
+  constexpr static std::size_t addrs = 0x3321d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::get_MsgType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23f39f8;
+  constexpr static std::size_t addrs = 0x3321ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler*>::get(),
@@ -168,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::GetBodyIfComplete)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x23f3a00;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x3321eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler*>::get(),
@@ -182,8 +182,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)(
     uint8_t, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::ContributeFragment)> {
-  constexpr static std::size_t size = 0x57c;
-  constexpr static std::size_t addrs = 0x23f3ab8;
+  constexpr static std::size_t size = 0x4f0;
+  constexpr static std::size_t addrs = 0x3321f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DtlsReassembler::Reset)> {
   constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x23f4034;
+  constexpr static std::size_t addrs = 0x3322458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DtlsReassembler*>::get(),

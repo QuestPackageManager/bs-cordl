@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_compositionString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc1f4;
+  constexpr static std::size_t addrs = 0x6be8cf0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::IMECompositionMode (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_imeCompositionMode)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc1fc;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6be8cf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseInput::*)(::UnityEngine::IMECompositionMode)>(
     &::UnityEngine::EventSystems::BaseInput::set_imeCompositionMode)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adc204;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6be8d20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_compositionCursorPos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc210;
+  constexpr static std::size_t addrs = 0x6be8d5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseInput::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::EventSystems::BaseInput::set_compositionCursorPos)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc218;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x6be8d64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_mousePresent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc220;
+  constexpr static std::size_t addrs = 0x6be8da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
     &::UnityEngine::EventSystems::BaseInput::GetMouseButtonDown)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adc228;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6be8dac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
     &::UnityEngine::EventSystems::BaseInput::GetMouseButtonUp)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adc234;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6be8de8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(&::UnityEngine::EventSystems::BaseInput::GetMouseButton)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adc240;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6be8e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_mousePosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc24c;
+  constexpr static std::size_t addrs = 0x6be8e60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::EventSystems::BaseInput::*)()>(
     &::UnityEngine::EventSystems::BaseInput::get_mouseScrollDelta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc254;
+  constexpr static std::size_t addrs = 0x6be8e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,12 +168,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.get_touchSupported
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.get_mouseScrollDeltaPerTick
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_touchSupported)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::EventSystems::BaseInput::*)()>(
+    &::UnityEngine::EventSystems::BaseInput::get_mouseScrollDeltaPerTick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc25c;
+  constexpr static std::size_t addrs = 0x6be8e70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,12 +183,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.get_touchCount
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.get_touchSupported
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_touchCount)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_touchSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc264;
+  constexpr static std::size_t addrs = 0x6be8e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -196,13 +197,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.GetTouch
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.get_touchCount
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Touch (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
-    &::UnityEngine::EventSystems::BaseInput::GetTouch)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4adc26c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::get_touchCount)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6be8e80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,13 +211,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.GetAxisRaw
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.GetTouch
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::EventSystems::BaseInput::*)(::StringW)>(
-    &::UnityEngine::EventSystems::BaseInput::GetAxisRaw)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adc2a4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Touch (::UnityEngine::EventSystems::BaseInput::*)(int32_t)>(
+    &::UnityEngine::EventSystems::BaseInput::GetTouch)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6be8ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,13 +226,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.GetButtonDown
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.GetAxisRaw
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(::StringW)>(
-    &::UnityEngine::EventSystems::BaseInput::GetButtonDown)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4adc2b0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::EventSystems::BaseInput::*)(::StringW)>(
+    &::UnityEngine::EventSystems::BaseInput::GetAxisRaw)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6be8f28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,12 +241,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput.GetButtonDown
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::EventSystems::BaseInput::*)(::StringW)>(
+    &::UnityEngine::EventSystems::BaseInput::GetButtonDown)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6be8f30;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 33));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::EventSystems::BaseInput._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::BaseInput::*)()>(&::UnityEngine::EventSystems::BaseInput::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4adc2bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6be8f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), ".ctor",
@@ -309,29 +324,34 @@ inline ::UnityEngine::Vector2 UnityEngine::EventSystems::BaseInput::get_mouseScr
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 27)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(this, ___internal_method);
 }
-inline bool UnityEngine::EventSystems::BaseInput::get_touchSupported() {
+inline float_t UnityEngine::EventSystems::BaseInput::get_mouseScrollDeltaPerTick() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 28)));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline bool UnityEngine::EventSystems::BaseInput::get_touchSupported() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 29)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline int32_t UnityEngine::EventSystems::BaseInput::get_touchCount() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 30)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline ::UnityEngine::Touch UnityEngine::EventSystems::BaseInput::GetTouch(int32_t index) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 30)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Touch, false>(this, ___internal_method, index);
 }
 inline float_t UnityEngine::EventSystems::BaseInput::GetAxisRaw(::StringW axisName) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, axisName);
 }
 inline bool UnityEngine::EventSystems::BaseInput::GetButtonDown(::StringW buttonName) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::BaseInput*>::get(), 33)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, buttonName);
 }
 inline void UnityEngine::EventSystems::BaseInput::_ctor() {

@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_objref(::System::Runtime::Remoting::ObjRef* value);
 
-  /// @brief Method .ctor, addr 0x3ce7680, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59297f4, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::ObjRef* o, int32_t sourceDomain);
 
 protected:
@@ -69,7 +69,7 @@ public:
   CADObjRef(CADObjRef const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3169 };
 
   /// @brief Field objref, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::ObjRef* ___objref;

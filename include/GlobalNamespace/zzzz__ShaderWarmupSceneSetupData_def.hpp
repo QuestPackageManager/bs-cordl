@@ -5,8 +5,8 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__SceneSetupData_def.hpp"
 CORDL_MODULE_EXPORT(ShaderWarmupSceneSetupData)
-namespace GlobalNamespace {
-class ScenesTransitionSetupDataSO;
+namespace System::Threading::Tasks {
+template <typename TResult> class TaskCompletionSource_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -21,29 +21,19 @@ namespace GlobalNamespace {
 class CORDL_TYPE ShaderWarmupSceneSetupData : public ::GlobalNamespace::SceneSetupData {
 public:
   // Declarations
-  /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField,
-                      put = __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>
-      _nextScenesTransitionSetupData_k__BackingField;
+  /// @brief Field taskCompletionSource, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_taskCompletionSource, put = __cordl_internal_set_taskCompletionSource)) ::System::Threading::Tasks::TaskCompletionSource_1<bool>* taskCompletionSource;
 
-  __declspec(property(get = get_nextScenesTransitionSetupData, put = set_nextScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> nextScenesTransitionSetupData;
+  static inline ::GlobalNamespace::ShaderWarmupSceneSetupData* New_ctor();
 
-  static inline ::GlobalNamespace::ShaderWarmupSceneSetupData* New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>* const& __cordl_internal_get_taskCompletionSource() const;
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField() const;
+  constexpr ::System::Threading::Tasks::TaskCompletionSource_1<bool>*& __cordl_internal_get_taskCompletionSource();
 
-  constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& __cordl_internal_get__nextScenesTransitionSetupData_k__BackingField();
+  constexpr void __cordl_internal_set_taskCompletionSource(::System::Threading::Tasks::TaskCompletionSource_1<bool>* value);
 
-  constexpr void __cordl_internal_set__nextScenesTransitionSetupData_k__BackingField(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value);
-
-  /// @brief Method .ctor, addr 0x3b3b1c4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData);
-
-  /// @brief Method get_nextScenesTransitionSetupData, addr 0x3b3b1b4, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> get_nextScenesTransitionSetupData();
-
-  /// @brief Method set_nextScenesTransitionSetupData, addr 0x3b3b1bc, size 0x8, virtual false, abstract: false, final false
-  inline void set_nextScenesTransitionSetupData(::GlobalNamespace::ScenesTransitionSetupDataSO* value);
+  /// @brief Method .ctor, addr 0x571e8e4, size 0x74, virtual false, abstract: false, final false
+  inline void _ctor();
 
 protected:
   // Ctor Parameters []
@@ -60,15 +50,15 @@ public:
   ShaderWarmupSceneSetupData(ShaderWarmupSceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6822 };
 
-  /// @brief Field <nextScenesTransitionSetupData>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> ____nextScenesTransitionSetupData_k__BackingField;
+  /// @brief Field taskCompletionSource, offset: 0x10, size: 0x8, def value: None
+  ::System::Threading::Tasks::TaskCompletionSource_1<bool>* ___taskCompletionSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::ShaderWarmupSceneSetupData, ____nextScenesTransitionSetupData_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ShaderWarmupSceneSetupData, ___taskCompletionSource) == 0x10, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupSceneSetupData, 0x18>, "Size mismatch!");
 

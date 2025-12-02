@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 CORDL_MODULE_EXPORT(IUpdateSelectedHandler)
 namespace UnityEngine::EventSystems {
 class BaseEventData;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -14,7 +16,7 @@ class IUpdateSelectedHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::IUpdateSelectedHandler);
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler
+// Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: UnityEngine.EventSystems.IUpdateSelectedHandler
@@ -35,7 +37,7 @@ public:
   IUpdateSelectedHandler(IUpdateSelectedHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17506 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

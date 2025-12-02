@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ContractionComparer)
 namespace Mono::Globalization::Unicode {
 class Contraction;
+}
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
 }
 // Forward declare root types
 namespace Mono::Globalization::Unicode {
@@ -16,7 +18,7 @@ class ContractionComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::Globalization::Unicode::ContractionComparer);
-// Dependencies System.Collections.Generic.IComparer`1<T>, System.Object
+// Dependencies System.Object
 namespace Mono::Globalization::Unicode {
 // Is value type: false
 // CS Name: Mono.Globalization.Unicode.ContractionComparer
@@ -29,12 +31,12 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::Mono::Globalization::Unicode::Contraction*>*() noexcept;
 
-  /// @brief Method Compare, addr 0x3c5835c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x589b1fc, size 0x9c, virtual true, abstract: false, final true
   inline int32_t Compare(::Mono::Globalization::Unicode::Contraction* c1, ::Mono::Globalization::Unicode::Contraction* c2);
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c583f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x589b298, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::Globalization::Unicode::ContractionComparer* getStaticF_Instance();

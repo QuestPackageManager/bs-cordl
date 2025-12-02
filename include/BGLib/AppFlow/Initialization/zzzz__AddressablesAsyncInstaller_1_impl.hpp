@@ -2,7 +2,6 @@
 // IWYU pragma private; include "BGLib/AppFlow/Initialization/AddressablesAsyncInstaller_1.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AddressablesAsyncInstaller_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
@@ -45,18 +45,22 @@ BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1__LoadResourcesBefor
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<T>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__2", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*>", modifiers: "", def_value: Some("{}") }]
+// CppParam { name: "registry", ty: "::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*", modifiers: "", def_value: Some("{}") }, CppParam { name: "container", ty:
+// "::Zenject::DiContainer*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_stopWatch_5__2", ty: "::System::Diagnostics::Stopwatch*", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*>", modifiers: "", def_value: Some("{}") }]
 template <typename T>
 constexpr ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__2<T>::AddressablesAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__2(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<T> __4__this, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry,
+    ::Zenject::DiContainer* container, ::System::Diagnostics::Stopwatch* _stopWatch_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> __u__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Collections::Generic::IList_1<T>*> __u__2) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->registry = registry;
+  this->container = container;
+  this->_stopWatch_5__2 = _stopWatch_5__2;
   this->__u__1 = __u__1;
   this->__u__2 = __u__2;
 }
@@ -94,13 +98,13 @@ inline void BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::Loa
 template <typename T>
 inline ::System::Threading::Tasks::Task*
 BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::LoadResourcesBeforeInstallAsync(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry,
-                                                                                                 ::Zenject::DiContainer* _) {
+                                                                                                 ::Zenject::DiContainer* container) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), "LoadResourcesBeforeInstallAsync",
                                  std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*>::get(),
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Zenject::DiContainer*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, registry, _);
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, registry, container);
 }
 template <typename T>
 inline ::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>>
@@ -111,10 +115,16 @@ BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::LoadAsync(::Str
   return ::cordl_internals::RunMethodRethrow<::System::Nullable_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<T>*>>, false>(
       nullptr, ___internal_method, runtimeKey);
 }
-template <typename T> inline ::StringW BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::get_assetLabelRuntimeKey() {
+template <typename T> inline ::StringW BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::get_telemetryEventName() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), 11)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+template <typename T> inline ::StringW BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::get_assetLabelRuntimeKey() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 template <typename T>
@@ -122,7 +132,7 @@ inline void BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::Loa
                                                                                                         ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, assets, registry);
 }
 template <typename T> inline void BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<T>::OnDestroy() {

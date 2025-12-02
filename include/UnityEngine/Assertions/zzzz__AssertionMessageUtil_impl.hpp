@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x48d2610;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x68d36dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::UnityEngine::Assertions::AssertionMessageUtil::GetMessage)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x48d26fc;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x68d37d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, ::System::Object*, bool)>(
     &::UnityEngine::Assertions::AssertionMessageUtil::GetEqualityMessage)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x48d1ff0;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x68d304c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Object*, bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::NullFailureMessage)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x48d22a0;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x68d3330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(bool)>(&::UnityEngine::Assertions::AssertionMessageUtil::BooleanFailureMessage)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48d1df4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x68d2de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

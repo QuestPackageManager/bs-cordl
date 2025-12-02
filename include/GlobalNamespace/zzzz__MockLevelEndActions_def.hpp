@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockLevelEndActions)
+namespace GlobalNamespace {
+class ILevelEndActions;
+}
 namespace System {
 class Action;
 }
@@ -15,7 +17,7 @@ class MockLevelEndActions;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockLevelEndActions);
-// Dependencies ILevelEndActions, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockLevelEndActions
@@ -45,22 +47,22 @@ public:
 
   constexpr void __cordl_internal_set_levelFinishedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3ba4fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5793aac, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_levelFailedEvent, addr 0x3ba4e68, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFailedEvent, addr 0x5793954, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method add_levelFinishedEvent, addr 0x3ba4d30, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_levelFinishedEvent, addr 0x57937fc, size 0xac, virtual true, abstract: false, final true
   inline void add_levelFinishedEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::ILevelEndActions"
   constexpr ::GlobalNamespace::ILevelEndActions* i___GlobalNamespace__ILevelEndActions() noexcept;
 
-  /// @brief Method remove_levelFailedEvent, addr 0x3ba4f04, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFailedEvent, addr 0x5793a00, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFailedEvent(::System::Action* value);
 
-  /// @brief Method remove_levelFinishedEvent, addr 0x3ba4dcc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_levelFinishedEvent, addr 0x57938a8, size 0xac, virtual true, abstract: false, final true
   inline void remove_levelFinishedEvent(::System::Action* value);
 
 protected:
@@ -78,7 +80,7 @@ public:
   MockLevelEndActions(MockLevelEndActions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4399 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5982 };
 
   /// @brief Field levelFinishedEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___levelFinishedEvent;

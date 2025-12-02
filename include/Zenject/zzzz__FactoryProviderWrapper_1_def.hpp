@@ -4,11 +4,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_1_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 CORDL_MODULE_EXPORT(FactoryProviderWrapper_1)
 namespace System {
 class Object;
+}
+namespace Zenject {
+template <typename TValue> class IFactory_1;
+}
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 class IProvider;
@@ -25,7 +29,7 @@ template <typename TContract> class FactoryProviderWrapper_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::FactoryProviderWrapper_1);
-// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`1<TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TContract>
@@ -93,7 +97,7 @@ public:
   FactoryProviderWrapper_1(FactoryProviderWrapper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14304 };
 
   /// @brief Field _provider, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IProvider* ____provider;

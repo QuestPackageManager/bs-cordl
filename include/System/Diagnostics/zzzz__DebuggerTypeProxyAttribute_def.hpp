@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3db6424, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ca190, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type);
 
 protected:
@@ -51,7 +51,7 @@ public:
   DebuggerTypeProxyAttribute(DebuggerTypeProxyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3742 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3663 };
 
   /// @brief Field typeName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___typeName;

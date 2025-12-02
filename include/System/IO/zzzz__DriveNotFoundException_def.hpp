@@ -31,13 +31,13 @@ public:
 
   static inline ::System::IO::DriveNotFoundException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3d64e10, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f004c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d64e90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f00d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d64e6c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59f00ac, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   DriveNotFoundException(DriveNotFoundException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3873 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

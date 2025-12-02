@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetMovedFromAttributeDataForType)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x48bcf20;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x68c71b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::ByRef<::StringW>, ::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::UnityEngine::_Scripting::APIUpdating::APIUpdaterRuntimeHelpers::GetObsoleteTypeRedirection)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x48bd05c;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x68c72ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

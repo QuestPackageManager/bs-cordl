@@ -22,12 +22,12 @@ namespace BGLib::UnityExtension {
 class CORDL_TYPE ShaderPropertyIDFromGameObjectAttribute : public ::BGLib::UnityExtension::ShaderPropertyIDAttribute {
 public:
   // Declarations
-  /// @brief Method GetTargetName, addr 0x22b75ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetTargetName, addr 0x31fe660, size 0x44, virtual true, abstract: false, final false
   inline ::StringW GetTargetName();
 
   static inline ::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute* New_ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
-  /// @brief Method .ctor, addr 0x22b75a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fe65c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::StringW nameFilter, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType filterPropType);
 
 protected:
@@ -45,7 +45,7 @@ public:
   ShaderPropertyIDFromGameObjectAttribute(ShaderPropertyIDFromGameObjectAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17182 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20722 };
 
   /// @brief Field kTargetName offset 0xffffffff size 0x8
   static constexpr ::ConstString kTargetName{ u"GameObject" };
@@ -53,7 +53,7 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute, 0x20>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 NEED_NO_BOX(::BGLib::UnityExtension::ShaderPropertyIDFromGameObjectAttribute);

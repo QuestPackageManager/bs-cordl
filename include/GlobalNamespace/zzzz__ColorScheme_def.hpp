@@ -3,14 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IGameplayColorScheme_def.hpp"
-#include "GlobalNamespace/zzzz__ILightshowColorScheme_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ColorScheme)
 namespace GlobalNamespace {
 class ColorSchemeSO;
+}
+namespace GlobalNamespace {
+class IGameplayColorScheme;
+}
+namespace GlobalNamespace {
+class ILightshowColorScheme;
 }
 namespace UnityEngine {
 struct Color;
@@ -21,7 +25,7 @@ class ColorScheme;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorScheme);
-// Dependencies IGameplayColorScheme, ILightshowColorScheme, System.Object, UnityEngine.Color
+// Dependencies System.Object, UnityEngine.Color
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ColorScheme
@@ -118,6 +122,8 @@ public:
 
   /// @brief Convert operator to "::GlobalNamespace::ILightshowColorScheme"
   constexpr operator ::GlobalNamespace::ILightshowColorScheme*() noexcept;
+
+  static inline ::GlobalNamespace::ColorScheme* New_ctor();
 
   static inline ::GlobalNamespace::ColorScheme* New_ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::ColorSchemeSO* environmentColorScheme);
 
@@ -238,75 +244,78 @@ public:
 
   constexpr void __cordl_internal_set__useNonLocalizedName(bool value);
 
-  /// @brief Method .ctor, addr 0x26a13b4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d09d4, size 0x10, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x35d0b68, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::GlobalNamespace::ColorSchemeSO* environmentColorScheme);
 
-  /// @brief Method .ctor, addr 0x26a13e0, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d0b94, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, ::UnityEngine::Color environmentColorW, ::UnityEngine::Color environmentColorWBoost);
 
-  /// @brief Method .ctor, addr 0x26a129c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d0a50, size 0x118, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorScheme* colorScheme, bool overrideNotes, ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, bool overrideLights,
                     ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1, ::UnityEngine::Color environmentColorW, bool supportsEnvironmentColorBoost,
                     ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost, ::UnityEngine::Color environmentColorWBoost, ::UnityEngine::Color obstaclesColor);
 
-  /// @brief Method .ctor, addr 0x26a14d0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d0c84, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::ColorSchemeSO* colorScheme);
 
-  /// @brief Method .ctor, addr 0x26a1138, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d09e4, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::StringW colorSchemeId, ::StringW colorSchemeNameLocalizationKey, bool useNonLocalizedName, ::StringW nonLocalizedName, bool isEditable, bool overrideNotes,
                     ::UnityEngine::Color saberAColor, ::UnityEngine::Color saberBColor, bool overrideLights, ::UnityEngine::Color environmentColor0, ::UnityEngine::Color environmentColor1,
                     ::UnityEngine::Color environmentColorW, bool supportsEnvironmentColorBoost, ::UnityEngine::Color environmentColor0Boost, ::UnityEngine::Color environmentColor1Boost,
                     ::UnityEngine::Color environmentColorWBoost, ::UnityEngine::Color obstaclesColor);
 
-  /// @brief Method get_colorSchemeId, addr 0x26a108c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemeId, addr 0x35d0928, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_colorSchemeId();
 
-  /// @brief Method get_colorSchemeNameLocalizationKey, addr 0x26a1094, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_colorSchemeNameLocalizationKey, addr 0x35d0930, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_colorSchemeNameLocalizationKey();
 
-  /// @brief Method get_environmentColor0, addr 0x26a10dc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor0, addr 0x35d0978, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor0();
 
-  /// @brief Method get_environmentColor0Boost, addr 0x26a1108, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor0Boost, addr 0x35d09a4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor0Boost();
 
-  /// @brief Method get_environmentColor1, addr 0x26a10e8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor1, addr 0x35d0984, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor1();
 
-  /// @brief Method get_environmentColor1Boost, addr 0x26a1114, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_environmentColor1Boost, addr 0x35d09b0, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_environmentColor1Boost();
 
-  /// @brief Method get_environmentColorW, addr 0x26a10f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColorW, addr 0x35d0990, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColorW();
 
-  /// @brief Method get_environmentColorWBoost, addr 0x26a1120, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColorWBoost, addr 0x35d09bc, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_environmentColorWBoost();
 
-  /// @brief Method get_isEditable, addr 0x26a10ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isEditable, addr 0x35d0948, size 0x8, virtual false, abstract: false, final false
   inline bool get_isEditable();
 
-  /// @brief Method get_nonLocalizedName, addr 0x26a109c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nonLocalizedName, addr 0x35d0938, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_nonLocalizedName();
 
-  /// @brief Method get_obstaclesColor, addr 0x26a112c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_obstaclesColor, addr 0x35d09c8, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_obstaclesColor();
 
-  /// @brief Method get_overrideLights, addr 0x26a10d4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_overrideLights, addr 0x35d0970, size 0x8, virtual true, abstract: false, final true
   inline bool get_overrideLights();
 
-  /// @brief Method get_overrideNotes, addr 0x26a10b4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_overrideNotes, addr 0x35d0950, size 0x8, virtual true, abstract: false, final true
   inline bool get_overrideNotes();
 
-  /// @brief Method get_saberAColor, addr 0x26a10bc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_saberAColor, addr 0x35d0958, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_saberAColor();
 
-  /// @brief Method get_saberBColor, addr 0x26a10c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_saberBColor, addr 0x35d0964, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Color get_saberBColor();
 
-  /// @brief Method get_supportsEnvironmentColorBoost, addr 0x26a1100, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_supportsEnvironmentColorBoost, addr 0x35d099c, size 0x8, virtual true, abstract: false, final true
   inline bool get_supportsEnvironmentColorBoost();
 
-  /// @brief Method get_useNonLocalizedName, addr 0x26a10a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useNonLocalizedName, addr 0x35d0940, size 0x8, virtual false, abstract: false, final false
   inline bool get_useNonLocalizedName();
 
   /// @brief Convert to "::GlobalNamespace::IGameplayColorScheme"
@@ -330,7 +339,7 @@ public:
   ColorScheme(ColorScheme const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18924 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22736 };
 
   /// @brief Field _colorSchemeId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____colorSchemeId;

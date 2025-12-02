@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Mono/Net/Security/ChainValidationHelper.hpp"
-#include "Mono/Security/Interface/zzzz__ICertificateValidator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "Mono/Net/Security/zzzz__ChainValidationHelper_def.hpp"
 #include "Mono/Net/Security/zzzz__MobileTlsProvider_def.hpp"
 #include "Mono/Net/Security/zzzz__MonoTlsStream_def.hpp"
+#include "Mono/Security/Interface/zzzz__ICertificateValidator_def.hpp"
 #include "Mono/Security/Interface/zzzz__MonoTlsSettings_def.hpp"
 #include "Mono/Security/Interface/zzzz__ValidationResult_def.hpp"
 #include "System/Net/Security/zzzz__LocalCertSelectionCallback_def.hpp"
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::*)()>(
     &::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4112bfc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5dbc940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::*)(
     ::System::Object*, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(
     &::Mono::Net::Security::ChainValidationHelper___c__DisplayClass11_0::_GetValidationCallback_b__0)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x41132f4;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5dbd04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,8 +94,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::ChainValidationHelper* (*)(::System::Net::Security::SslStream*, ::Mono::Net::Security::MobileTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*)>(
         &::Mono::Net::Security::ChainValidationHelper::GetInternalValidator)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4112578;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5dbc280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -112,8 +112,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Net::Security::ChainValidationHelper* (*)(::Mono::Net::Security::MobileTlsProvider*, ::ByRef<::Mono::Security::Interface::MonoTlsSettings*>,
                                                                   ::Mono::Net::Security::MonoTlsStream*)>(&::Mono::Net::Security::ChainValidationHelper::Create)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x41128bc;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5dbc5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,8 +130,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::ChainValidationHelper::*)(
     ::System::Net::Security::SslStream*, ::Mono::Net::Security::MobileTlsProvider*, ::Mono::Security::Interface::MonoTlsSettings*, bool, ::Mono::Net::Security::MonoTlsStream*)>(
     &::Mono::Net::Security::ChainValidationHelper::_ctor)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x4112658;
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x5dbc35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::ServerCertValidationCallback* (*)(::Mono::Security::Interface::MonoTlsSettings*)>(
     &::Mono::Net::Security::ChainValidationHelper::GetValidationCallback)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4112a60;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5dbc7a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::Cryptography::X509Certificates::X509Certificate* (*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                                                                              ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Mono::Net::Security::ChainValidationHelper::DefaultSelectionCallback)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4112c04;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5dbc944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +185,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::MonoTlsSettings* (::Mono::Net::Security::ChainValidationHelper::*)()>(
     &::Mono::Net::Security::ChainValidationHelper::get_Settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4112c40;
+  constexpr static std::size_t addrs = 0x5dbc990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Net::Security::ChainValidationHelper*>::get(),
@@ -200,7 +200,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
     ::ArrayW<::StringW, ::Array<::StringW>*>, ::ByRef<::System::Security::Cryptography::X509Certificates::X509Certificate*>)>(&::Mono::Net::Security::ChainValidationHelper::SelectClientCertificate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4112c48;
+  constexpr static std::size_t addrs = 0x5dbc998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -220,7 +220,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::ChainValidationHelper::*)(::StringW, bool, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
                                                      ::System::Security::Cryptography::X509Certificates::X509Chain*)>(&::Mono::Net::Security::ChainValidationHelper::ValidateCertificate)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4112c90;
+  constexpr static std::size_t addrs = 0x5dbc9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -238,8 +238,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::ChainValidationHelper::*)(::StringW, bool, ::System::Security::Cryptography::X509Certificates::X509Certificate*,
                                                      ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                                                      ::System::Net::Security::SslPolicyErrors)>(&::Mono::Net::Security::ChainValidationHelper::ValidateChain)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4112d64;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5dbcab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,8 +260,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                      ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*>,
                                                      ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, ::System::Net::Security::SslPolicyErrors)>(
     &::Mono::Net::Security::ChainValidationHelper::ValidateChain)> {
-  constexpr static std::size_t size = 0x408;
-  constexpr static std::size_t addrs = 0x4112e30;
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x5dbcb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,8 +280,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::ChainValidationHelper::*)(
     ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::System::Net::Security::SslPolicyErrors)>(
     &::Mono::Net::Security::ChainValidationHelper::InvokeCallback)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4113238;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5dbcf94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TubeLightIntensityAsset.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_impl.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityAsset_def.hpp"
 #include "GlobalNamespace/zzzz__TubeLightIntensityBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::TubeLightIntensityAsset.get_clipCaps
 template <>
@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::TubeLightIntensityAsset::*)()>(
     &::GlobalNamespace::TubeLightIntensityAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b35d2c;
+  constexpr static std::size_t addrs = 0x5718dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::TubeLightIntensityAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::TubeLightIntensityAsset::CreatePlayable)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b35d34;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5718dcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeLightIntensityAsset::*)()>(&::GlobalNamespace::TubeLightIntensityAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b35ddc;
+  constexpr static std::size_t addrs = 0x5718e80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeLightIntensityAsset*>::get(), ".ctor",

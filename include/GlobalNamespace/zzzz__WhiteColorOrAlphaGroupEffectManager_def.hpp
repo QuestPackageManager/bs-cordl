@@ -48,10 +48,10 @@ public:
 
   static inline ::GlobalNamespace::WhiteColorOrAlphaGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b91388, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x577fa98, size 0x104, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b91110, size 0x278, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x577f828, size 0x270, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -78,7 +78,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteColorOrAlphaEffects(::System::Collections::Generic::List_1<::GlobalNamespace::WhiteColorOrAlphaGroupEffect*>* value);
 
-  /// @brief Method .ctor, addr 0x3b914d0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577fb9c, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -96,7 +96,7 @@ public:
   WhiteColorOrAlphaGroupEffectManager(WhiteColorOrAlphaGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5875 };
 
   /// @brief Field _lightGroup, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::LightGroup>, ::Array<::UnityW<::GlobalNamespace::LightGroup>>*> ____lightGroup;

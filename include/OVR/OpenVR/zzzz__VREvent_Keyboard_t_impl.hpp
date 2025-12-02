@@ -5,8 +5,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::OVR::OpenVR::VREvent_Keyboard_t::*)()>(&::OVR::OpenVR::VREvent_Keyboard_t::get_cNewInput)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4076d24;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5c33084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::VREvent_Keyboard_t>::get(), "get_cNewInput",

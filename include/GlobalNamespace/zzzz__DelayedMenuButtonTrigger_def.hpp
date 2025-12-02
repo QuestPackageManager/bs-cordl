@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ITickable_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DelayedMenuButtonTrigger)
+namespace GlobalNamespace {
+class IMenuButtonTrigger;
+}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
 namespace System {
 class Action;
+}
+namespace Zenject {
+class ITickable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -20,7 +24,7 @@ class DelayedMenuButtonTrigger;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DelayedMenuButtonTrigger);
-// Dependencies IMenuButtonTrigger, System.Object, Zenject.ITickable
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: DelayedMenuButtonTrigger
@@ -50,7 +54,7 @@ public:
 
   static inline ::GlobalNamespace::DelayedMenuButtonTrigger* New_ctor();
 
-  /// @brief Method Tick, addr 0x3bab440, size 0x110, virtual true, abstract: false, final true
+  /// @brief Method Tick, addr 0x579a3f0, size 0x12c, virtual true, abstract: false, final true
   inline void Tick();
 
   constexpr float_t const& __cordl_internal_get__pressDuration() const;
@@ -83,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set_menuButtonTriggeredEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3bab550, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x579a51c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_menuButtonTriggeredEvent, addr 0x3bab308, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_menuButtonTriggeredEvent, addr 0x579a298, size 0xac, virtual true, abstract: false, final true
   inline void add_menuButtonTriggeredEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IMenuButtonTrigger"
@@ -95,7 +99,7 @@ public:
   /// @brief Convert to "::Zenject::ITickable"
   constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x3bab3a4, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_menuButtonTriggeredEvent, addr 0x579a344, size 0xac, virtual true, abstract: false, final true
   inline void remove_menuButtonTriggeredEvent(::System::Action* value);
 
 protected:
@@ -113,7 +117,7 @@ public:
   DelayedMenuButtonTrigger(DelayedMenuButtonTrigger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6012 };
 
   /// @brief Field menuButtonTriggeredEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___menuButtonTriggeredEvent;

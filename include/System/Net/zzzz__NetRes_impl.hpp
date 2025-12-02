@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Net::WebExceptionStatus)>(&::System::Net::NetRes::GetWebStatusString)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x44a12f4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x61f0cdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::WebExceptionStatus)>(&::System::Net::NetRes::GetWebStatusString)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x44aae60;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x61fa4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Net::FtpStatusCode, ::StringW)>(&::System::Net::NetRes::GetWebStatusCodeString)> {
   constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x44aaebc;
+  constexpr static std::size_t addrs = 0x61fa508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

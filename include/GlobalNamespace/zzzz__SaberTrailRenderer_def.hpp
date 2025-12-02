@@ -9,6 +9,9 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SaberTrailRenderer)
 namespace GlobalNamespace {
+class TimeHelper;
+}
+namespace GlobalNamespace {
 class TrailElementCollection;
 }
 namespace UnityEngine {
@@ -45,75 +48,78 @@ public:
   /// @brief Field _bounds, offset 0xffffffff, size 0x18
   __declspec(property(get = getStaticF__bounds, put = setStaticF__bounds)) ::UnityEngine::Bounds _bounds;
 
-  /// @brief Field _colors, offset 0x50, size 0x8
+  /// @brief Field _colors, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__colors, put = __cordl_internal_set__colors)) ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> _colors;
 
-  /// @brief Field _granularity, offset 0x64, size 0x4
+  /// @brief Field _granularity, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get__granularity, put = __cordl_internal_set__granularity)) int32_t _granularity;
 
-  /// @brief Field _indices, offset 0x40, size 0x8
+  /// @brief Field _indices, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__indices, put = __cordl_internal_set__indices)) ::ArrayW<int32_t, ::Array<int32_t>*> _indices;
 
-  /// @brief Field _inverseGranularity, offset 0x68, size 0x4
+  /// @brief Field _inverseGranularity, offset 0x70, size 0x4
   __declspec(property(get = __cordl_internal_get__inverseGranularity, put = __cordl_internal_set__inverseGranularity)) float_t _inverseGranularity;
 
-  /// @brief Field _inverseSegmentDuration, offset 0x60, size 0x4
+  /// @brief Field _inverseSegmentDuration, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__inverseSegmentDuration, put = __cordl_internal_set__inverseSegmentDuration)) float_t _inverseSegmentDuration;
 
-  /// @brief Field _inverseTrailDuration, offset 0x5c, size 0x4
+  /// @brief Field _inverseTrailDuration, offset 0x64, size 0x4
   __declspec(property(get = __cordl_internal_get__inverseTrailDuration, put = __cordl_internal_set__inverseTrailDuration)) float_t _inverseTrailDuration;
 
-  /// @brief Field _mesh, offset 0x30, size 0x8
+  /// @brief Field _mesh, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__mesh, put = __cordl_internal_set__mesh)) ::UnityW<::UnityEngine::Mesh> _mesh;
 
-  /// @brief Field _meshFilter, offset 0x28, size 0x8
+  /// @brief Field _meshFilter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Field _meshRenderer, offset 0x20, size 0x8
+  /// @brief Field _meshRenderer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__meshRenderer, put = __cordl_internal_set__meshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _meshRenderer;
 
   /// @brief Field _saberTravelledDistanceId, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__saberTravelledDistanceId, put = setStaticF__saberTravelledDistanceId)) int32_t _saberTravelledDistanceId;
 
-  /// @brief Field _trailWidth, offset 0x58, size 0x4
+  /// @brief Field _timeHelper, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
+
+  /// @brief Field _trailWidth, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get__trailWidth, put = __cordl_internal_set__trailWidth)) float_t _trailWidth;
 
-  /// @brief Field _uvs, offset 0x48, size 0x8
+  /// @brief Field _uvs, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__uvs, put = __cordl_internal_set__uvs)) ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> _uvs;
 
-  /// @brief Field _vertices, offset 0x38, size 0x8
+  /// @brief Field _vertices, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__vertices, put = __cordl_internal_set__vertices)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> _vertices;
 
-  /// @brief Field _whiteSectionMaxDuration, offset 0x6c, size 0x4
+  /// @brief Field _whiteSectionMaxDuration, offset 0x74, size 0x4
   __declspec(property(get = __cordl_internal_get__whiteSectionMaxDuration, put = __cordl_internal_set__whiteSectionMaxDuration)) float_t _whiteSectionMaxDuration;
 
-  /// @brief Method Init, addr 0x4088188, size 0x17c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x5d37c64, size 0x1a4, virtual true, abstract: false, final false
   inline void Init(float_t trailWidth, float_t trailDuration, int32_t granularity, float_t whiteSectionMaxDuration);
 
   static inline ::GlobalNamespace::SaberTrailRenderer* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x408845c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5d37f60, size 0xc, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnDisable, addr 0x40885c4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d380d8, size 0x88, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4088540, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d38050, size 0x88, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnValidate, addr 0x4088468, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5d37f6c, size 0xe4, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetTrailWidth, addr 0x4088648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetTrailWidth, addr 0x5d38160, size 0x8, virtual false, abstract: false, final false
   inline void SetTrailWidth(float_t width);
 
-  /// @brief Method UpdateIndices, addr 0x4088304, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method UpdateIndices, addr 0x5d37e08, size 0x158, virtual false, abstract: false, final false
   inline void UpdateIndices();
 
-  /// @brief Method UpdateMesh, addr 0x4087c74, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method UpdateMesh, addr 0x5d375d0, size 0x130, virtual false, abstract: false, final false
   inline void UpdateMesh(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
 
-  /// @brief Method UpdateVertices, addr 0x4088650, size 0x440, virtual true, abstract: false, final false
+  /// @brief Method UpdateVertices, addr 0x5d38168, size 0x3b8, virtual true, abstract: false, final false
   inline void UpdateVertices(::GlobalNamespace::TrailElementCollection* trailElementCollection, ::UnityEngine::Color color);
 
   constexpr ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> const& __cordl_internal_get__colors() const;
@@ -152,6 +158,10 @@ public:
 
   constexpr ::UnityW<::UnityEngine::MeshRenderer>& __cordl_internal_get__meshRenderer();
 
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
+
   constexpr float_t const& __cordl_internal_get__trailWidth() const;
 
   constexpr float_t& __cordl_internal_get__trailWidth();
@@ -186,6 +196,8 @@ public:
 
   constexpr void __cordl_internal_set__meshRenderer(::UnityW<::UnityEngine::MeshRenderer> value);
 
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
   constexpr void __cordl_internal_set__trailWidth(float_t value);
 
   constexpr void __cordl_internal_set__uvs(::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> value);
@@ -194,7 +206,7 @@ public:
 
   constexpr void __cordl_internal_set__whiteSectionMaxDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x4088d24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d387c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::Bounds getStaticF__bounds();
@@ -220,7 +232,7 @@ public:
   SaberTrailRenderer(SaberTrailRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22786 };
 
   /// @brief Field kMinMotionBlurSpeed offset 0xffffffff size 0x4
   static constexpr float_t kMinMotionBlurSpeed{ static_cast<float_t>(2.5f) };
@@ -228,75 +240,80 @@ public:
   /// @brief Field kMotionBlurStrength offset 0xffffffff size 0x4
   static constexpr float_t kMotionBlurStrength{ static_cast<float_t>(0.8f) };
 
-  /// @brief Field _meshRenderer, offset: 0x20, size: 0x8, def value: None
+  /// @brief Field _timeHelper, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
+  /// @brief Field _meshRenderer, offset: 0x28, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____meshRenderer;
 
-  /// @brief Field _meshFilter, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _meshFilter, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;
 
-  /// @brief Field _mesh, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field _mesh, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____mesh;
 
-  /// @brief Field _vertices, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field _vertices, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ____vertices;
 
-  /// @brief Field _indices, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _indices, offset: 0x48, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____indices;
 
-  /// @brief Field _uvs, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _uvs, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector2, ::Array<::UnityEngine::Vector2>*> ____uvs;
 
-  /// @brief Field _colors, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _colors, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> ____colors;
 
-  /// @brief Field _trailWidth, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field _trailWidth, offset: 0x60, size: 0x4, def value: None
   float_t ____trailWidth;
 
-  /// @brief Field _inverseTrailDuration, offset: 0x5c, size: 0x4, def value: None
+  /// @brief Field _inverseTrailDuration, offset: 0x64, size: 0x4, def value: None
   float_t ____inverseTrailDuration;
 
-  /// @brief Field _inverseSegmentDuration, offset: 0x60, size: 0x4, def value: None
+  /// @brief Field _inverseSegmentDuration, offset: 0x68, size: 0x4, def value: None
   float_t ____inverseSegmentDuration;
 
-  /// @brief Field _granularity, offset: 0x64, size: 0x4, def value: None
+  /// @brief Field _granularity, offset: 0x6c, size: 0x4, def value: None
   int32_t ____granularity;
 
-  /// @brief Field _inverseGranularity, offset: 0x68, size: 0x4, def value: None
+  /// @brief Field _inverseGranularity, offset: 0x70, size: 0x4, def value: None
   float_t ____inverseGranularity;
 
-  /// @brief Field _whiteSectionMaxDuration, offset: 0x6c, size: 0x4, def value: None
+  /// @brief Field _whiteSectionMaxDuration, offset: 0x74, size: 0x4, def value: None
   float_t ____whiteSectionMaxDuration;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____meshRenderer) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____timeHelper) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____meshFilter) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____meshRenderer) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____mesh) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____meshFilter) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____vertices) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____mesh) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____indices) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____vertices) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____uvs) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____indices) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____colors) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____uvs) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____trailWidth) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____colors) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____inverseTrailDuration) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____trailWidth) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____inverseSegmentDuration) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____inverseTrailDuration) == 0x64, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____granularity) == 0x64, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____inverseSegmentDuration) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____inverseGranularity) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____granularity) == 0x6c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____whiteSectionMaxDuration) == 0x6c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____inverseGranularity) == 0x70, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTrailRenderer, 0x70>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::SaberTrailRenderer, ____whiteSectionMaxDuration) == 0x74, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SaberTrailRenderer, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SaberTrailRenderer);

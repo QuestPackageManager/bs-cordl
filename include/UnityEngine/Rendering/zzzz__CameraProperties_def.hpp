@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CoreCameraValues_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
@@ -12,6 +11,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CameraProperties)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -61,7 +63,7 @@ public:
   constexpr CameraProperties__layerCullDistances_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11221 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
@@ -97,7 +99,7 @@ public:
   constexpr CameraProperties__m_CameraCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11222 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -133,7 +135,7 @@ public:
   constexpr CameraProperties__m_ShadowCullPlanes_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11223 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10767 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -153,7 +155,7 @@ static_assert(offsetof(::UnityEngine::Rendering::CameraProperties__m_ShadowCullP
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
-// Dependencies System.IEquatable`1<T>, UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Rendering.CameraProperties::<layerCullDistances>e__FixedBuffer,
+// Dependencies UnityEngine.Matrix4x4, UnityEngine.Rect, UnityEngine.Rendering.CameraProperties::<layerCullDistances>e__FixedBuffer,
 // UnityEngine.Rendering.CameraProperties::<m_CameraCullPlanes>e__FixedBuffer, UnityEngine.Rendering.CameraProperties::<m_ShadowCullPlanes>e__FixedBuffer, UnityEngine.Rendering.CoreCameraValues,
 // UnityEngine.Vector3
 namespace UnityEngine::Rendering {
@@ -171,19 +173,19 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>*();
 
-  /// @brief Method Equals, addr 0x48c748c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x68eacb0, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x48c6e24, size 0x668, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x68ea4e8, size 0x7c8, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Rendering::CameraProperties other);
 
-  /// @brief Method GetCameraCullingPlane, addr 0x48c6d40, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetCameraCullingPlane, addr 0x68ea41c, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetCameraCullingPlane(int32_t index);
 
-  /// @brief Method GetHashCode, addr 0x48c7544, size 0x458, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x68ead6c, size 0x530, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetShadowCullingPlane, addr 0x48c6c5c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method GetShadowCullingPlane, addr 0x68ea350, size 0xcc, virtual false, abstract: false, final false
   inline ::UnityEngine::Plane GetShadowCullingPlane(int32_t index);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Rendering::CameraProperties>"
@@ -210,7 +212,7 @@ public:
   // "::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer", modifiers: "", def_value: None }, CppParam { name: "layerCullSpherical", ty: "int32_t", modifiers: "", def_value:
   // None }, CppParam { name: "coreCameraValues", ty: "::UnityEngine::Rendering::CoreCameraValues", modifiers: "", def_value: None }, CppParam { name: "cameraType", ty: "uint32_t", modifiers: "",
   // def_value: None }, CppParam { name: "projectionIsOblique", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "isImplicitProjectionMatrix", ty: "int32_t", modifiers: "", def_value:
-  // None }]
+  // None }, CppParam { name: "useInteractiveLightBakingData", ty: "bool", modifiers: "", def_value: None }]
   constexpr CameraProperties(::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 viewDir, float_t projectionNear, float_t projectionFar, float_t cameraNear, float_t cameraFar, float_t cameraAspect,
                              ::UnityEngine::Matrix4x4 cameraToWorld, ::UnityEngine::Matrix4x4 actualWorldToClip, ::UnityEngine::Matrix4x4 cameraClipToWorld, ::UnityEngine::Matrix4x4 cameraWorldToClip,
                              ::UnityEngine::Matrix4x4 implicitProjection, ::UnityEngine::Matrix4x4 stereoWorldToClipLeft, ::UnityEngine::Matrix4x4 stereoWorldToClipRight,
@@ -219,13 +221,20 @@ public:
                              ::UnityEngine::Rendering::CameraProperties__m_ShadowCullPlanes_e__FixedBuffer m_ShadowCullPlanes,
                              ::UnityEngine::Rendering::CameraProperties__m_CameraCullPlanes_e__FixedBuffer m_CameraCullPlanes, float_t baseFarDistance, ::UnityEngine::Vector3 shadowCullCenter,
                              ::UnityEngine::Rendering::CameraProperties__layerCullDistances_e__FixedBuffer layerCullDistances, int32_t layerCullSpherical,
-                             ::UnityEngine::Rendering::CoreCameraValues coreCameraValues, uint32_t cameraType, int32_t projectionIsOblique, int32_t isImplicitProjectionMatrix) noexcept;
+                             ::UnityEngine::Rendering::CoreCameraValues coreCameraValues, uint32_t cameraType, int32_t projectionIsOblique, int32_t isImplicitProjectionMatrix,
+                             bool useInteractiveLightBakingData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10768 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3e0 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3e4 };
+
+  /// @brief Field k_NumLayers offset 0xffffffff size 0x4
+  static constexpr int32_t k_NumLayers{ static_cast<int32_t>(0x20) };
+
+  /// @brief Field k_PlaneCount offset 0xffffffff size 0x4
+  static constexpr int32_t k_PlaneCount{ static_cast<int32_t>(0x6) };
 
   /// @brief Field screenRect, offset: 0x0, size: 0x10, def value: None
   ::UnityEngine::Rect screenRect;
@@ -323,6 +332,9 @@ public:
   /// @brief Field isImplicitProjectionMatrix, offset: 0x3dc, size: 0x4, def value: None
   int32_t isImplicitProjectionMatrix;
 
+  /// @brief Field useInteractiveLightBakingData, offset: 0x3e0, size: 0x1, def value: None
+  bool useInteractiveLightBakingData;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -390,7 +402,9 @@ static_assert(offsetof(::UnityEngine::Rendering::CameraProperties, projectionIsO
 
 static_assert(offsetof(::UnityEngine::Rendering::CameraProperties, isImplicitProjectionMatrix) == 0x3dc, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CameraProperties, 0x3e0>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::Rendering::CameraProperties, useInteractiveLightBakingData) == 0x3e0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Rendering::CameraProperties, 0x3e4>, "Size mismatch!");
 
 } // namespace UnityEngine::Rendering
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Rendering::CameraProperties, "UnityEngine.Rendering", "CameraProperties");

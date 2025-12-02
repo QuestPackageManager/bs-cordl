@@ -2,7 +2,6 @@
 // IWYU pragma private; include "UnityEngine/ResourceManagement/Util/BinaryStorageBuffer.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__LRUCache_2_impl.hpp"
-#include "UnityEngine/zzzz__Hash128_impl.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__BinaryStorageBuffer_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -10,7 +9,9 @@
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Text/zzzz__Encoding_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "System/zzzz__Span_1_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/ResourceManagement/Util/zzzz__BinaryStorageBuffer_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
@@ -27,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0::*)()>(
     &::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479363c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f2c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0::*)(
     char16_t)>(&::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0::_FindBestSeparator_b__0)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4793ab4;
+  constexpr static std::size_t addrs = 0x66f2fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,90 +83,6 @@ UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffe
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0::BuiltinTypesSerializer_BinaryStorageBuffer___c__DisplayClass4_0() {}
-//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.get_Dependencies
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
-    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)()>(
-    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::get_Dependencies)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 0));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.Serialize
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)(
-    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*, ::System::Object*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Serialize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 1));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.Deserialize
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
-    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*, ::System::Type*, uint32_t)>(
-    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Deserialize)> {
-  constexpr static std::size_t size = 0xffffffffffffffff;
-  constexpr static std::size_t addrs = 0xffffffffffffffff;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(
-        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 2));
-    return ___internal_method;
-  }
-};
-inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*
-UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::get_Dependencies() {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*, false>(
-      this, ___internal_method);
-}
-inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Serialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer* writer,
-                                                                                                            ::System::Object* val) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 1)));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, writer, val);
-}
-inline ::System::Object* UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Deserialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader* reader,
-                                                                                                                       ::System::Type* t, uint32_t offset) {
-  auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader, t, offset);
-}
-/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
-template <typename T>
-constexpr UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<
-    T>::operator ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
-template <typename T>
-constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*
-UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<T>::i___UnityEngine__ResourceManagement__Util__BinaryStorageBuffer_ISerializationAdapter() noexcept {
-  return static_cast<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>(static_cast<void*>(this));
-}
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer.get_Dependencies
 template <>
 
@@ -173,7 +90,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x479310c;
+  constexpr static std::size_t addrs = 0x66f2694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,8 +105,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::*)(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*, ::System::Type*, uint32_t)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::Deserialize)> {
-  constexpr static std::size_t size = 0x348;
-  constexpr static std::size_t addrs = 0x4793114;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x66f269c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::*)(
     ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::FindBestSeparator)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4793484;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x66f2a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::*)(
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*, ::System::Object*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::Serialize)> {
-  constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x4793644;
+  constexpr static std::size_t size = 0x378;
+  constexpr static std::size_t addrs = 0x66f2c3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_BuiltinTypesSerializer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4793aac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f2fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -367,7 +284,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* (
         ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::*)()>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::get_Dependencies)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4793ac4;
+  constexpr static std::size_t addrs = 0x66f2fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -382,8 +299,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::*)(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*, ::System::Type*, uint32_t)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::Deserialize)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4793acc;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x66f2fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,8 +316,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::*)(
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*, ::System::Object*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::Serialize)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4793c80;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x66f318c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -416,8 +333,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_TypeSerializer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4793db0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f32ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -496,6 +413,115 @@ constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ObjectTyp
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ObjectTypeData::BinaryStorageBuffer_ObjectTypeData() {}
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.get_Dependencies
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>* (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)()>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::get_Dependencies)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.Serialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)(
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*, ::System::Object*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Serialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 1));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter.Deserialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::*)(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*, ::System::Type*, uint32_t)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Deserialize)> {
+  constexpr static std::size_t size = 0xffffffffffffffff;
+  constexpr static std::size_t addrs = 0xffffffffffffffff;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(
+        ::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 2));
+    return ___internal_method;
+  }
+};
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::get_Dependencies() {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*, false>(
+      this, ___internal_method);
+}
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Serialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer* writer,
+                                                                                                            ::System::Object* val) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 1)));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, writer, val);
+}
+inline ::System::Object* UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter::Deserialize(::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader* reader,
+                                                                                                                       ::System::Type* t, uint32_t offset) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, reader, t, offset);
+}
+/// @brief Convert operator to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
+template <typename T>
+constexpr UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<
+    T>::operator ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter"
+template <typename T>
+constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter_1<T>::i___UnityEngine__ResourceManagement__Util__BinaryStorageBuffer_ISerializationAdapter() noexcept {
+  return static_cast<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>(static_cast<void*>(this));
+}
+// Ctor Parameters [CppParam { name: "id", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sep", ty: "char16_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "length", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState::Reader_BinaryStorageBuffer_StringCreationState(uint32_t id, char16_t sep, int32_t length) noexcept {
+  this->id = id;
+  this->sep = sep;
+  this->length = length;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState::Reader_BinaryStorageBuffer_StringCreationState() {}
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.GetCacheStats
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetCacheStats)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x66f32b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "GetCacheStats", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.Init
 template <>
 
@@ -503,8 +529,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::Init)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x4793db8;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x66f32c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::AddSerializationAdapter)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4793f84;
+  constexpr static std::size_t addrs = 0x66f34b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -539,8 +565,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4793f90;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f34bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4793fd4;
+  constexpr static std::size_t addrs = 0x66f34c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -574,8 +600,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::IO::Stream*, uint32_t, int32_t,
     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4793fdc;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x66f34c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,32 +618,34 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
-    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x47940c0;
+    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, bool, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray)> {
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x66f35a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.ReadObjectArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
-    ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(::System::Type*, uint32_t, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x47942b4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(::System::Type*, uint32_t, bool, bool)>(
+        &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x66f3804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -626,8 +654,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, bool)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObject)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x47941fc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x66f3744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -641,8 +669,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(::System::Type*, uint32_t, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObject)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x47943f8;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x66f39b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -657,8 +685,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, char16_t, bool)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadString)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x479345c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x66f2960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -673,8 +701,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(
     uint32_t, ::System::Text::Encoding*, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadStringInternal)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x47947f0;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x66f3d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -692,7 +720,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, bool)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadAutoEncodedString)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47945f4;
+  constexpr static std::size_t addrs = 0x66f3bcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -702,13 +730,77 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.ComputeStringLength
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, char16_t)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ComputeStringLength)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x66f3fcc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ComputeStringLength",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.GetDynamicStringLength
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, char16_t)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetDynamicStringLength)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x66f4034;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "GetDynamicStringLength",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.GetAutoEncodedStringLength
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetAutoEncodedStringLength)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x66f3fec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "GetAutoEncodedStringLength",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.GetStringLengthInternal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(
+    uint32_t, ::System::Text::Encoding*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetStringLengthInternal)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x66f40e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(),
+                                                 "GetStringLengthInternal", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader.ReadDynamicString
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(uint32_t, char16_t, bool)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadDynamicString)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x4794648;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x66f3c20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -716,6 +808,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader._ReadDynamicString_b__29_0
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::*)(
+    ::System::Span_1<char16_t>, ::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ReadDynamicString_b__29_0)> {
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x66f4288;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "<ReadDynamicString>b__29_0",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<char16_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState>::get() })));
     return ___internal_method;
   }
 };
@@ -770,6 +880,13 @@ constexpr ::System::Text::StringBuilder* const& UnityEngine::ResourceManagement:
 constexpr void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::__cordl_internal_set_stringBuilder(::System::Text::StringBuilder* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___stringBuilder)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetCacheStats(::ByRef<int32_t> reqCount, ::ByRef<int32_t> reqHits) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "GetCacheStats", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reqCount, reqHits);
 }
 inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::Init(
     ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t maxCachedObjects,
@@ -830,27 +947,63 @@ template <typename T> inline bool UnityEngine::ResourceManagement::Util::BinaryS
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, offset, val);
 }
-inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(uint32_t id, bool cacheValues) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, false>(this, ___internal_method, id, cacheValues);
-}
-inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(::System::Type* t, uint32_t id, bool cacheValues) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, false>(this, ___internal_method, t, id, cacheValues);
-}
-template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(uint32_t id, bool cacheValues) {
+template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValueArray(uint32_t id, bool cacheValue) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadValueArray",
       std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method, id, cacheValues);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method, id, cacheValue);
+}
+template <typename T, typename C>
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ProcessObjectArray(uint32_t id, C context, ::System::Action_2<T, C>* procFunc, bool cacheValues) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ProcessObjectArray",
+      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<C>::get() },
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<C>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_2<T, C>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<C>::get() }));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, id, context, procFunc, cacheValues);
+}
+template <typename T>
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(::ByRef<::System::Collections::Generic::List_1<T>*> results, uint32_t id, bool cacheValues) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Collections::Generic::List_1<T>*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, results, id, cacheValues);
+}
+inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(uint32_t id, bool cacheValues, bool cacheFullArray) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, false>(this, ___internal_method, id, cacheValues, cacheFullArray);
+}
+inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(::System::Type* t, uint32_t id, bool cacheValues,
+                                                                                                                                                   bool cacheFullArray) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::System::Object*, ::Array<::System::Object*>*>, false>(this, ___internal_method, t, id, cacheValues, cacheFullArray);
+}
+template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObjectArray(uint32_t id, bool cacheValues, bool cacheFullArray) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadObjectArray",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method, id, cacheValues, cacheFullArray);
 }
 inline ::System::Object* UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadObject(uint32_t id, bool cacheValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -873,15 +1026,6 @@ inline ::System::Object* UnityEngine::ResourceManagement::Util::BinaryStorageBuf
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, t, id, cacheValue);
-}
-template <typename T> inline ::ArrayW<T, ::Array<T>*> UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValueArray(uint32_t id, bool cacheValue) {
-  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadValueArray",
-      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<T, ::Array<T>*>, false>(this, ___internal_method, id, cacheValue);
 }
 template <typename T> inline T UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadValue(uint32_t id) {
   static auto* ___internal_method_base =
@@ -915,6 +1059,34 @@ inline ::StringW UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Read
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, id, cacheValue);
 }
+inline int32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ComputeStringLength(uint32_t id, char16_t sep) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ComputeStringLength",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, id, sep);
+}
+inline int32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetDynamicStringLength(uint32_t id, char16_t sep) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "GetDynamicStringLength",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, id, sep);
+}
+inline int32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetAutoEncodedStringLength(uint32_t id) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "GetAutoEncodedStringLength",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, id);
+}
+inline int32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::GetStringLengthInternal(uint32_t offset, ::System::Text::Encoding* enc) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(),
+                                               "GetStringLengthInternal", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Text::Encoding*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, offset, enc);
+}
 inline ::StringW UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::ReadDynamicString(uint32_t id, char16_t sep, bool cacheValue) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "ReadDynamicString",
@@ -922,6 +1094,16 @@ inline ::StringW UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Read
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, id, sep, cacheValue);
+}
+inline void
+UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::_ReadDynamicString_b__29_0(::System::Span_1<char16_t> chars,
+                                                                                              ::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState state) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader*>::get(), "<ReadDynamicString>b__29_0",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Span_1<char16_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::Util::Reader_BinaryStorageBuffer_StringCreationState>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, chars, state);
 }
 inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader* UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Reader::New_ctor(
     ::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t maxCachedObjects,
@@ -942,8 +1124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk::*)()>(
     &::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4794cbc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f46e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1002,7 +1184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4794a28;
+  constexpr static std::size_t addrs = 0x66f4420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1017,8 +1199,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(
     int32_t, ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*,
                       ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::_ctor)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4794a30;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x66f4428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1035,8 +1217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk* (
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(uint32_t)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::FindChunkWithSpace)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4794cc4;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x66f46e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1048,16 +1230,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer.WriteInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(
-    ::cordl_internals::Ptr<void>, uint32_t, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4794e44;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(void*, uint32_t, bool)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal)> {
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x66f4880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -1066,8 +1248,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(uint32_t, bool)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::ReserveInternal)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4794ff4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x66f4ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1080,16 +1262,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer.WriteInternal
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(
-    uint32_t, ::cordl_internals::Ptr<void>, uint32_t, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x479504c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(uint32_t, void*, uint32_t, bool)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal)> {
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x66f4b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteInternal", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -1099,8 +1280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::System::Object*, bool)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteObject)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x47952cc;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x66f4d68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1115,7 +1296,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::StringW, char16_t)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteString)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4793a90;
+  constexpr static std::size_t addrs = 0x66f2fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1130,7 +1311,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(
     ::StringW, ::System::Text::Encoding*)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteStringInternal)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4795618;
+  constexpr static std::size_t addrs = 0x66f50ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1146,8 +1327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::SerializeToByteArray)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x4795674;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x66f5148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1161,8 +1342,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::System::IO::Stream*)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::SerializeToStream)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x47958c0;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x66f5344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1176,7 +1357,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::IsUnicode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4795a40;
+  constexpr static std::size_t addrs = 0x66f5480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1190,8 +1371,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteAutoEncodedString)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4795578;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x66f503c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1206,7 +1387,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::StringW)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteUnicodeString)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4795aac;
+  constexpr static std::size_t addrs = 0x66f54ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1221,7 +1402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW, ::ByRef<bool>)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::ComputeStringSize)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4795ae4;
+  constexpr static std::size_t addrs = 0x66f5524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1231,14 +1412,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer.WriteDynamicString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::StringW, char16_t)>(
+    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteDynamicString)> {
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x66f4ec0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteDynamicString",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer.RecurseDynamicStringParts
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(
     ::ArrayW<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts, ::Array<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts>*>, int32_t,
     char16_t, uint32_t)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::RecurseDynamicStringParts)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x4795b38;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x66f5578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1249,22 +1446,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                                            ::Array<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer.WriteDynamicString
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::*)(::StringW, char16_t)>(
-    &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteDynamicString)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x4795414;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteDynamicString",
-        std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
     return ___internal_method;
   }
 };
@@ -1360,11 +1541,11 @@ inline ::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_Chunk*, false>(this, ___internal_method, length);
 }
-inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal(::cordl_internals::Ptr<void> pData, uint32_t dataSize, bool prefixSize) {
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal(void* pData, uint32_t dataSize, bool prefixSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, pData, dataSize, prefixSize);
 }
 inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::ReserveInternal(uint32_t dataSize, bool prefixSize) {
@@ -1373,11 +1554,10 @@ inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Write
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, dataSize, prefixSize);
 }
-inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal(uint32_t id, ::cordl_internals::Ptr<void> pData, uint32_t dataSize, bool prefixSize) {
+inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteInternal(uint32_t id, void* pData, uint32_t dataSize, bool prefixSize) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteInternal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, pData, dataSize, prefixSize);
 }
@@ -1522,6 +1702,13 @@ inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Write
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, str, isUnicode);
 }
+inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteDynamicString(::StringW str, char16_t sep) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteDynamicString",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, str, sep);
+}
 inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::RecurseDynamicStringParts(
     ::ArrayW<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts, ::Array<::UnityEngine::ResourceManagement::Util::Writer_BinaryStorageBuffer_StringParts>*> parts,
     int32_t index, char16_t sep, uint32_t minSize) {
@@ -1535,13 +1722,6 @@ inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Write
                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, parts, index, sep, minSize);
 }
-inline uint32_t UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::WriteDynamicString(::StringW str, char16_t sep) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer*>::get(), "WriteDynamicString",
-      std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, str, sep);
-}
 inline ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer* UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::New_ctor(
     int32_t chunkSize,
     ::ArrayW<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, ::Array<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*>
@@ -1553,17 +1733,16 @@ constexpr ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_Writer::B
 //  Writing Method size for method: ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer.ComputeHash
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, uint64_t, ::cordl_internals::Ptr<::UnityEngine::Hash128>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, uint64_t, ::UnityEngine::Hash128*)>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::ComputeHash)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47928b8;
+  constexpr static std::size_t addrs = 0x66f1df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer*>::get(), "ComputeHash", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::Hash128>>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Hash128*>::get() })));
     return ___internal_method;
   }
 };
@@ -1573,8 +1752,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*,
     ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*, bool)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::AddSerializationAdapter)> {
-  constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x47928d0;
+  constexpr static std::size_t size = 0x658;
+  constexpr static std::size_t addrs = 0x66f1e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1594,8 +1773,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
     ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>*, ::System::Type*,
     ::ByRef<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer_ISerializationAdapter*>)>(&::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::GetSerializationAdapter)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x4792ecc;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x66f2464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1614,8 +1793,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::*)()>(
     &::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4793104;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f2690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1624,12 +1803,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::ComputeHash(::cordl_internals::Ptr<void> pData, uint64_t size, ::cordl_internals::Ptr<::UnityEngine::Hash128> hash) {
+inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::ComputeHash(void* pData, uint64_t size, ::UnityEngine::Hash128* hash) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceManagement::Util::BinaryStorageBuffer*>::get(), "ComputeHash", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::Hash128>>::get() })));
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint64_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Hash128*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, pData, size, hash);
 }
 inline void UnityEngine::ResourceManagement::Util::BinaryStorageBuffer::AddSerializationAdapter(

@@ -19,7 +19,7 @@ namespace BeatSaber::GameSettings {
 struct CORDL_TYPE Controller {
 public:
   // Declarations
-  /// @brief Method HasDefaultValues, addr 0x226ff50, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HasDefaultValues, addr 0x31939ec, size 0xc8, virtual false, abstract: false, final false
   inline bool HasDefaultValues();
 
   // Ctor Parameters []
@@ -31,7 +31,7 @@ public:
   constexpr Controller(::UnityEngine::Vector3 position, ::UnityEngine::Vector3 rotation) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

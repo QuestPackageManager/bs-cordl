@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/GhostEffectAsset.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_impl.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectAsset_def.hpp"
 #include "GlobalNamespace/zzzz__GhostEffectBehaviour_def.hpp"
@@ -10,6 +9,7 @@
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GhostEffectAsset.get_clipCaps
 template <>
@@ -17,7 +17,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::GhostEffectAsset::*)()>(
     &::GlobalNamespace::GhostEffectAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b34904;
+  constexpr static std::size_t addrs = 0x5716128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostEffectAsset*>::get(), "get_clipCaps",
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::GhostEffectAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::GhostEffectAsset::CreatePlayable)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b3490c;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x5716130;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostEffectAsset::*)()>(&::GlobalNamespace::GhostEffectAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b34a48;
+  constexpr static std::size_t addrs = 0x571628c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostEffectAsset*>::get(), ".ctor",

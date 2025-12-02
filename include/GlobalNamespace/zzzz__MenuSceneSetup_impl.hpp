@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MenuSceneSetup.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuSceneSetup_def.hpp"
@@ -10,15 +7,17 @@
 #include "GlobalNamespace/zzzz__MenuSceneSetup_def.hpp"
 #include "HMUI/zzzz__FlowCoordinator_def.hpp"
 #include "HMUI/zzzz__HierarchyManager_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MenuSceneSetup__Start_d__3._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuSceneSetup__Start_d__3::*)(int32_t)>(
     &::GlobalNamespace::MenuSceneSetup__Start_d__3::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b38904;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x571bd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuSceneSetup__Start_d__3::*)()>(
     &::GlobalNamespace::MenuSceneSetup__Start_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b38934;
+  constexpr static std::size_t addrs = 0x571bd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuSceneSetup__Start_d__3*>::get(),
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MenuSceneSetup__Start_d__3::*)()>(
     &::GlobalNamespace::MenuSceneSetup__Start_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b38938;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x571bd94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuSceneSetup__Start_d__3*>::get(),
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MenuSceneSetup__Start_d__3::*)()>(
     &::GlobalNamespace::MenuSceneSetup__Start_d__3::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b389cc;
+  constexpr static std::size_t addrs = 0x571be2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuSceneSetup__Start_d__3::*)()>(
     &::GlobalNamespace::MenuSceneSetup__Start_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b389d4;
+  constexpr static std::size_t addrs = 0x571be34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MenuSceneSetup__Start_d__3::*)()>(
     &::GlobalNamespace::MenuSceneSetup__Start_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b38a0c;
+  constexpr static std::size_t addrs = 0x571be6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::MenuSceneSetup::*)()>(
     &::GlobalNamespace::MenuSceneSetup::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b388a4;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x571bd30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuSceneSetup*>::get(), "Start",
@@ -217,8 +216,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuSceneSetup::*)()>(&::GlobalNamespace::MenuSceneSetup::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3892c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x571bd8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuSceneSetup*>::get(), ".ctor",

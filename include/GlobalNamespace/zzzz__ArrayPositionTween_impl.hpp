@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ArrayPositionTween.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_impl.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ArrayPositionTween_def.hpp"
 #include "GlobalNamespace/zzzz__CustomTweenBehaviour_def.hpp"
@@ -9,6 +8,7 @@
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ArrayPositionTween.get_clipCaps
 template <>
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::GlobalNamespace::ArrayPositionTween::*)()>(
     &::GlobalNamespace::ArrayPositionTween::get_clipCaps)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b33730;
+  constexpr static std::size_t addrs = 0x5714e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), "get_clipCaps",
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::GlobalNamespace::ArrayPositionTween::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::GlobalNamespace::ArrayPositionTween::CreatePlayable)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b33738;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5714e7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArrayPositionTween::*)()>(&::GlobalNamespace::ArrayPositionTween::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b33874;
+  constexpr static std::size_t addrs = 0x5714fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArrayPositionTween*>::get(), ".ctor",

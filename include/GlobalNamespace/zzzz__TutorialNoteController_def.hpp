@@ -3,14 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IGameNoteMirrorable_def.hpp"
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "Zenject/zzzz__MonoMemoryPool_1_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(TutorialNoteController)
 namespace GlobalNamespace {
 class BoxCuttableBySaber;
+}
+namespace GlobalNamespace {
+class IGameNoteMirrorable;
+}
+namespace GlobalNamespace {
+class INoteMirrorable;
 }
 namespace GlobalNamespace {
 struct NoteData_GameplayType;
@@ -61,7 +65,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::TutorialNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3af0b30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ccd3c, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -79,7 +83,7 @@ public:
   TutorialNoteController_Pool(TutorialNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,7 +91,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TutorialNoteController_Pool, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IGameNoteMirrorable, INoteMirrorable, NoteController
+// Dependencies NoteController
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: TutorialNoteController
@@ -124,30 +128,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteMirrorable"
   constexpr operator ::GlobalNamespace::INoteMirrorable*() noexcept;
 
-  /// @brief Method Awake, addr 0x3af02e8, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Awake, addr 0x56cc51c, size 0xec, virtual true, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x3af0564, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeforeNoteWasCutBySaber, addr 0x56cc7b8, size 0xdc, virtual false, abstract: false, final false
   inline void HandleBeforeNoteWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HandleCoreWasCutBySaber, addr 0x3af0670, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method HandleCoreWasCutBySaber, addr 0x56cc894, size 0x474, virtual false, abstract: false, final false
   inline void HandleCoreWasCutBySaber(::GlobalNamespace::Saber* saber, ::UnityEngine::Vector3 cutPoint, ::UnityEngine::Quaternion orientation, ::UnityEngine::Vector3 cutDirVec);
 
-  /// @brief Method HiddenStateDidChange, addr 0x3af0af8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x56ccd08, size 0x20, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
-  /// @brief Method Init, addr 0x3af0250, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x56cc484, size 0x98, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::NoteData* noteData, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t cutAngleTolerance, float_t uniformScale);
 
   static inline ::GlobalNamespace::TutorialNoteController* New_ctor();
 
-  /// @brief Method NoteDidPassMissedMarker, addr 0x3af051c, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method NoteDidPassMissedMarker, addr 0x56cc770, size 0x48, virtual true, abstract: false, final false
   inline void NoteDidPassMissedMarker();
 
-  /// @brief Method OnDestroy, addr 0x3af03c8, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56cc608, size 0x168, virtual true, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Pause, addr 0x3af0b1c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x56ccd28, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr bool const& __cordl_internal_get__beforeNoteCutWasOk() const;
@@ -180,16 +184,16 @@ public:
 
   constexpr void __cordl_internal_set__wrapperGO(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3af0b2c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ccd38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_gameplayType, addr 0x3af0248, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_gameplayType, addr 0x56cc47c, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteData_GameplayType get_gameplayType();
 
-  /// @brief Method get_noteMovement, addr 0x3af0238, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteMovement, addr 0x56cc46c, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::GlobalNamespace::NoteMovement> get_noteMovement();
 
-  /// @brief Method get_noteVisualModifierType, addr 0x3af0240, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_noteVisualModifierType, addr 0x56cc474, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::NoteVisualModifierType get_noteVisualModifierType();
 
   /// @brief Convert to "::GlobalNamespace::IGameNoteMirrorable"
@@ -213,7 +217,7 @@ public:
   TutorialNoteController(TutorialNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5704 };
 
   /// @brief Field _cuttableBySaberCore, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BoxCuttableBySaber> ____cuttableBySaberCore;

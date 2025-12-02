@@ -51,13 +51,13 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e6ef94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab5250, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e6ef64, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab5214, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::ArrayW<uint8_t, ::Array<uint8_t>*> bytesUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3e6eff0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab52b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -75,7 +75,7 @@ public:
   DecoderFallbackException(DecoderFallbackException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2851 };
 
   /// @brief Field _bytesUnknown, offset: 0x98, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ____bytesUnknown;

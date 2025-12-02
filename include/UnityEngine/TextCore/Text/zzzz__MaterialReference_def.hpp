@@ -32,17 +32,17 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE MaterialReference {
 public:
   // Declarations
-  /// @brief Method AddMaterialReference, addr 0x492e618, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x699390c, size 0x1e0, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::FontAsset* fontAsset,
                                              ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method AddMaterialReference, addr 0x492e824, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method AddMaterialReference, addr 0x6993aec, size 0x1e4, virtual false, abstract: false, final false
   static inline int32_t AddMaterialReference(::UnityEngine::Material* material, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset,
                                              ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>> materialReferences,
                                              ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* materialReferenceIndexLookup);
 
-  /// @brief Method .ctor, addr 0x492e59c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69938ec, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, ::UnityEngine::Material* material, float_t padding);
 
   // Ctor Parameters []
@@ -51,15 +51,15 @@ public:
 
   // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers: "",
   // def_value: None }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: None }, CppParam { name: "material", ty:
-  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "isDefaultMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "isFallbackMaterial",
-  // ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fallbackMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "padding", ty:
-  // "float_t", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "", def_value: None }]
+  // "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "isFallbackMaterial", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "fallbackMaterial",
+  // ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "padding", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "referenceCount", ty:
+  // "int32_t", modifiers: "", def_value: None }]
   constexpr MaterialReference(int32_t index, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset, ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset,
-                              ::UnityW<::UnityEngine::Material> material, bool isDefaultMaterial, bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding,
+                              ::UnityW<::UnityEngine::Material> material, bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding,
                               int32_t referenceCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15250 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17169 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -76,10 +76,7 @@ public:
   /// @brief Field material, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> material;
 
-  /// @brief Field isDefaultMaterial, offset: 0x20, size: 0x1, def value: None
-  bool isDefaultMaterial;
-
-  /// @brief Field isFallbackMaterial, offset: 0x21, size: 0x1, def value: None
+  /// @brief Field isFallbackMaterial, offset: 0x20, size: 0x1, def value: None
   bool isFallbackMaterial;
 
   /// @brief Field fallbackMaterial, offset: 0x28, size: 0x8, def value: None
@@ -102,9 +99,7 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, spriteA
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, material) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, isDefaultMaterial) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, isFallbackMaterial) == 0x21, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, isFallbackMaterial) == 0x20, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::MaterialReference, fallbackMaterial) == 0x28, "Offset mismatch!");
 

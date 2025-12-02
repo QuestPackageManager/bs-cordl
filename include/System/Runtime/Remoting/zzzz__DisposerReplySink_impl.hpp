@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/DisposerReplySink.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__DisposerReplySink_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMessageCtrl_def.hpp"
@@ -12,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::DisposerReplySink::*)(
     ::System::Runtime::Remoting::Messaging::IMessageSink*, ::System::IDisposable*)>(&::System::Runtime::Remoting::DisposerReplySink::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3cd6200;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5919038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessage* (
     ::System::Runtime::Remoting::DisposerReplySink::*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::DisposerReplySink::SyncProcessMessage)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3cd622c;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x5919040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::DisposerReplySink::*)(::System::Runtime::Remoting::Messaging::IMessage*, ::System::Runtime::Remoting::Messaging::IMessageSink*)>(
     &::System::Runtime::Remoting::DisposerReplySink::AsyncProcessMessage)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3cd6348;
+  constexpr static std::size_t addrs = 0x591916c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

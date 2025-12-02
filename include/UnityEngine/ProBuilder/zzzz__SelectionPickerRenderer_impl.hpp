@@ -55,7 +55,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererHDRP::*)(::UnityEngine::Camera*, ::UnityEngine::Shader*, ::StringW, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererHDRP::RenderLookupTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4730cf4;
+  constexpr static std::size_t addrs = 0x64c7484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererHDRP::*)()>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererHDRP::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4730cfc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64c748c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,8 +120,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (
     ::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererStandard::*)(::UnityEngine::Camera*, ::UnityEngine::Shader*, ::StringW, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererStandard::RenderLookupTexture)> {
-  constexpr static std::size_t size = 0x3c0;
-  constexpr static std::size_t addrs = 0x4730d04;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x64c7490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererStandard::*)()>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer_SelectionPickerRendererStandard::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47310c4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64c787c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,8 +185,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SelectionPickerRenderer___c::*)()>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4731128;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64c78d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SelectionPickerRenderer___c*>::get(),
@@ -199,8 +199,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (
     ::UnityEngine::ProBuilder::SelectionPickerRenderer___c::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer___c::_GenerateFacePickingObjects_b__24_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4731130;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x64c78d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -249,8 +249,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::SelectionPickerRenderer___c__DisplayClass19_0::*)()>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer___c__DisplayClass19_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4731148;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x64c78ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::SelectionPickerRenderer___c__DisplayClass19_0::*)(int32_t)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer___c__DisplayClass19_0::_PickVerticesInRect_b__0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4731150;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x64c78f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -324,7 +324,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::RenderTextureFormat (*)()>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::get_renderTextureFormat)> {
   constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x472e774;
+  constexpr static std::size_t addrs = 0x64c4d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SelectionPickerRenderer*>::get(),
@@ -337,7 +337,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextureFormat (*)()>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::get_textureFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472e8d0;
+  constexpr static std::size_t addrs = 0x64c4e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SelectionPickerRenderer*>::get(),
@@ -350,8 +350,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SelectionPickerRenderer_ISelectionPickerRenderer* (*)()>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::get_pickerRenderer)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x472e8d8;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x64c4e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SelectionPickerRenderer*>::get(),
@@ -367,8 +367,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect,
                                                                                        ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, int32_t,
                                                                                        int32_t)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::PickFacesInRect)> {
-  constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x472ccfc;
+  constexpr static std::size_t size = 0x648;
+  constexpr static std::size_t addrs = 0x64c30cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -388,8 +388,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::HashSet_1<int32_t>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect,
                                                               ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, bool, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::PickVerticesInRect)> {
-  constexpr static std::size_t size = 0x968;
-  constexpr static std::size_t addrs = 0x472b450;
+  constexpr static std::size_t size = 0xbc8;
+  constexpr static std::size_t addrs = 0x64c14d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -410,8 +410,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Edge>*>* (*)(::UnityEngine::Camera*, ::UnityEngine::Rect,
                                                                                       ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, bool, int32_t,
                                                                                       int32_t)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::PickEdgesInRect)> {
-  constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x472dbb0;
+  constexpr static std::size_t size = 0x858;
+  constexpr static std::size_t addrs = 0x64c4094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -431,8 +431,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*,
     ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Face*>>*>,
     int32_t, int32_t)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x472e9b0;
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x64c4f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,8 +452,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, bool,
     ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*>, int32_t, int32_t)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x472ec10;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x64c5204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -475,8 +475,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Camera*, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*, bool,
     ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*>,
     int32_t, int32_t)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::RenderSelectionPickerTexture)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x472eef0;
+  constexpr static std::size_t size = 0x320;
+  constexpr static std::size_t addrs = 0x64c5524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -497,8 +497,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>>*,
     ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Face*>>*>)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateFacePickingObjects)> {
-  constexpr static std::size_t size = 0x568;
-  constexpr static std::size_t addrs = 0x472f1d0;
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x64c5844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -518,8 +518,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*>,
                          ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>, ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>)>(
         &::UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateVertexPickingObjects)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x472f738;
+  constexpr static std::size_t size = 0x468;
+  constexpr static std::size_t addrs = 0x64c5e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -542,8 +542,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*>,
     ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>, ::ByRef<::ArrayW<::UnityEngine::GameObject*, ::Array<::UnityEngine::GameObject*>*>>)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::GenerateEdgePickingObjects)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x472fb68;
+  constexpr static std::size_t size = 0x468;
+  constexpr static std::size_t addrs = 0x64c626c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -564,8 +564,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::ProBuilderMesh*,
     ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, int32_t>>*, ::ByRef<uint32_t>)>(
     &::UnityEngine::ProBuilder::SelectionPickerRenderer::BuildVertexMesh)> {
-  constexpr static std::size_t size = 0x7a0;
-  constexpr static std::size_t addrs = 0x472ffac;
+  constexpr static std::size_t size = 0x7fc;
+  constexpr static std::size_t addrs = 0x64c66e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -585,8 +585,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ProBuilder::ProBuilderMesh*,
     ::System::Collections::Generic::Dictionary_2<uint32_t, ::UnityEngine::ProBuilder::SimpleTuple_2<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>, ::UnityEngine::ProBuilder::Edge>>*,
     ::ByRef<uint32_t>)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::BuildEdgeMesh)> {
-  constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x473074c;
+  constexpr static std::size_t size = 0x4d8;
+  constexpr static std::size_t addrs = 0x64c6ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -603,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::Color32)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::DecodeRGBA)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x472ebfc;
+  constexpr static std::size_t addrs = 0x64c51f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -617,7 +617,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(uint32_t)>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::EncodeRGBA)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x472ff98;
+  constexpr static std::size_t addrs = 0x64c66d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -631,7 +631,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::ProBuilder::SelectionPickerRenderer::ShouldUseHDRP)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x472e9a8;
+  constexpr static std::size_t addrs = 0x64c4f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::SelectionPickerRenderer*>::get(),

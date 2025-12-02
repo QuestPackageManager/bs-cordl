@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(RumbleHapticFeedbackPlayer)
+namespace GlobalNamespace {
+class IHapticFeedbackPlayer;
+}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
 }
@@ -90,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_strength(float_t value);
 
-  /// @brief Method .ctor, addr 0x39ce754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56455c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +110,7 @@ public:
   RumbleHapticFeedbackPlayer_RumbleData(RumbleHapticFeedbackPlayer_RumbleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20099 };
 
   /// @brief Field active, offset: 0x10, size: 0x1, def value: None
   bool ___active;
@@ -141,7 +143,7 @@ static_assert(offsetof(::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData,
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IHapticFeedbackPlayer, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: RumbleHapticFeedbackPlayer
@@ -160,21 +162,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IHapticFeedbackPlayer"
   constexpr operator ::GlobalNamespace::IHapticFeedbackPlayer*() noexcept;
 
-  /// @brief Method CanPlayHapticPreset, addr 0x39ce28c, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method CanPlayHapticPreset, addr 0x5645088, size 0x3c, virtual true, abstract: false, final true
   inline bool CanPlayHapticPreset(::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset, ::UnityEngine::XR::XRNode node);
 
-  /// @brief Method GetRumble, addr 0x39ce110, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetRumble, addr 0x5644ebc, size 0x1cc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData* GetRumble(::UnityEngine::XR::XRNode node, ::System::Object* preset);
 
-  /// @brief Method LateUpdate, addr 0x39ce2cc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x56450c4, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::RumbleHapticFeedbackPlayer* New_ctor();
 
-  /// @brief Method PlayHapticFeedback, addr 0x39c6098, size 0xc8, virtual true, abstract: false, final true
+  /// @brief Method PlayHapticFeedback, addr 0x5641258, size 0xe0, virtual true, abstract: false, final true
   inline void PlayHapticFeedback(::UnityEngine::XR::XRNode node, ::Libraries::HM::HMLib::VR::HapticPresetSO* hapticPreset);
 
-  /// @brief Method UpdateRumbles, addr 0x39ce2d0, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method UpdateRumbles, addr 0x56450c8, size 0x4fc, virtual false, abstract: false, final false
   inline void UpdateRumbles();
 
   constexpr ::System::Collections::Generic::Dictionary_2<::UnityEngine::XR::XRNode,
@@ -195,7 +197,7 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39ce75c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56455c8, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IHapticFeedbackPlayer"
@@ -216,7 +218,7 @@ public:
   RumbleHapticFeedbackPlayer(RumbleHapticFeedbackPlayer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20100 };
 
   /// @brief Field kContinuousRumbleFrameDuration offset 0xffffffff size 0x4
   static constexpr float_t kContinuousRumbleFrameDuration{ static_cast<float_t>(0.016666668f) };

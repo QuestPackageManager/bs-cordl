@@ -43,7 +43,7 @@ public:
 
   static inline ::System::Threading::AbandonedMutexException* New_ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
-  /// @brief Method SetupException, addr 0x3e4ce54, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetupException, addr 0x5a922a8, size 0x70, virtual false, abstract: false, final false
   inline void SetupException(int32_t location, ::System::Threading::WaitHandle* handle);
 
   constexpr ::System::Threading::Mutex* const& __cordl_internal_get__mutex() const;
@@ -58,13 +58,13 @@ public:
 
   constexpr void __cordl_internal_set__mutexIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e4cd38, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a92180, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e4cec0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a92318, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e4cd9c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a921e8, size 0xc0, virtual false, abstract: false, final false
   inline void _ctor(int32_t location, ::System::Threading::WaitHandle* handle);
 
 protected:
@@ -82,7 +82,7 @@ public:
   AbandonedMutexException(AbandonedMutexException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2660 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2668 };
 
   /// @brief Field _mutexIndex, offset: 0x8c, size: 0x4, def value: None
   int32_t ____mutexIndex;

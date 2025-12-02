@@ -1,15 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Timeline/ControlPlayableAsset.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ActivationControlPlayable_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__IPropertyPreview_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_impl.hpp"
+#include "UnityEngine/Timeline/zzzz__DirectorControlPlayable_impl.hpp"
 #include "UnityEngine/zzzz__ExposedReference_1_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
@@ -18,7 +12,9 @@
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableAsset_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableDirector_def.hpp"
@@ -27,324 +23,326 @@
 #include "UnityEngine/Timeline/zzzz__ClipCaps_def.hpp"
 #include "UnityEngine/Timeline/zzzz__ControlPlayableAsset_def.hpp"
 #include "UnityEngine/Timeline/zzzz__IPropertyCollector_def.hpp"
+#include "UnityEngine/Timeline/zzzz__IPropertyPreview_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineClipAsset_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39._ctor
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)(int32_t)>(
-    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4822634;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)(int32_t)>(
+    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x67a2e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.System_IDisposable_Dispose
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4823e50;
+  constexpr static std::size_t addrs = 0x67a463c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.MoveNext
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::MoveNext)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4823e54;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::MoveNext)> {
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x67a4640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::UnityEngine::MonoBehaviour> (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-        &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current)> {
+    static_cast<::UnityW<::UnityEngine::MonoBehaviour> (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+        &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4823f8c;
+  constexpr static std::size_t addrs = 0x67a4784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
         "System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4823f94;
+  constexpr static std::size_t addrs = 0x67a478c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+    &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4823fcc;
+  constexpr static std::size_t addrs = 0x67a47c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-        &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4823fd4;
+    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+        &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x67a47cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
         "System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40.System_Collections_IEnumerable_GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::IEnumerator* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::*)()>(
-        &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerable_GetEnumerator)> {
+    static_cast<::System::Collections::IEnumerator* (::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::*)()>(
+        &::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4824070;
+  constexpr static std::size_t addrs = 0x67a4864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___1__state() {
+constexpr int32_t& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___1__state() const {
+constexpr int32_t const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set___1__state(int32_t value) {
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityW<::UnityEngine::MonoBehaviour>& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___2__current() {
+constexpr ::UnityW<::UnityEngine::MonoBehaviour>& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___2__current() const {
+constexpr ::UnityW<::UnityEngine::MonoBehaviour> const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set___2__current(::UnityW<::UnityEngine::MonoBehaviour> value) {
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set___2__current(::UnityW<::UnityEngine::MonoBehaviour> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get_root() {
+constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get_root() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get_root() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get_root() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___root;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set_root(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set_root(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___3__root() {
+constexpr ::UnityW<::UnityEngine::GameObject>& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___3__root() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__root;
 }
-constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___3__root() const {
+constexpr ::UnityW<::UnityEngine::GameObject> const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___3__root() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__root;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set___3__root(::UnityW<::UnityEngine::GameObject> value) {
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set___3__root(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__root)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityW<::UnityEngine::MonoBehaviour>, ::Array<::UnityW<::UnityEngine::MonoBehaviour>>*>&
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___7__wrap1() {
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::ArrayW<::UnityW<::UnityEngine::MonoBehaviour>, ::Array<::UnityW<::UnityEngine::MonoBehaviour>>*> const&
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___7__wrap1() const {
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set___7__wrap1(
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set___7__wrap1(
     ::ArrayW<::UnityW<::UnityEngine::MonoBehaviour>, ::Array<::UnityW<::UnityEngine::MonoBehaviour>>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___7__wrap2() {
+constexpr int32_t& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___7__wrap2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
-constexpr int32_t const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_get___7__wrap2() const {
+constexpr int32_t const& UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_get___7__wrap2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
-constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::__cordl_internal_set___7__wrap2(int32_t value) {
+constexpr void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::__cordl_internal_set___7__wrap2(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap2 = value;
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::_ctor(int32_t __1__state) {
+inline void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_IDisposable_Dispose() {
+inline void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::MoveNext() {
+inline bool UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::UnityW<::UnityEngine::MonoBehaviour>
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current() {
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_Generic_IEnumerator_UnityEngine_MonoBehaviour__get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
       "System.Collections.Generic.IEnumerator<UnityEngine.MonoBehaviour>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::MonoBehaviour>, false>(this, ___internal_method);
 }
-inline void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerator_Reset() {
+inline void UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator() {
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_Generic_IEnumerable_UnityEngine_MonoBehaviour__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
       "System.Collections.Generic.IEnumerable<UnityEngine.MonoBehaviour>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39*>(__1__state));
+inline ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::i___System__Collections__Generic__IEnumerable_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*
-UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
+UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::i___System__Collections__Generic__IEnumerator_1___UnityW___UnityEngine__MonoBehaviour__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::UnityEngine::MonoBehaviour>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::operator ::System::IDisposable*() noexcept {
+constexpr UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__39::ControlPlayableAsset__GetControlableScripts_d__39() {}
+constexpr ::UnityEngine::Timeline::ControlPlayableAsset__GetControlableScripts_d__40::ControlPlayableAsset__GetControlableScripts_d__40() {}
 //  Writing Method size for method: ::UnityEngine::Timeline::ControlPlayableAsset.get_controllingDirectors
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_controllingDirectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x481ffec;
+  constexpr static std::size_t addrs = 0x67a0748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -357,8 +355,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::set_controllingDirectors)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x481fff4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67a0750;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,7 +371,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_controllingParticles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4820000;
+  constexpr static std::size_t addrs = 0x67a0758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -386,8 +384,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(bool)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::set_controllingParticles)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4820008;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67a0760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -401,8 +399,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::OnEnable)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4820014;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x67a0768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -416,7 +414,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4820040;
+  constexpr static std::size_t addrs = 0x67a07bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,7 +429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Timeline::ClipCaps (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(
     &::UnityEngine::Timeline::ControlPlayableAsset::get_clipCaps)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4820048;
+  constexpr static std::size_t addrs = 0x67a07c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(),
@@ -444,8 +442,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ControlPlayableAsset::CreatePlayable)> {
-  constexpr static std::size_t size = 0x808;
-  constexpr static std::size_t addrs = 0x4820054;
+  constexpr static std::size_t size = 0x8a0;
+  constexpr static std::size_t addrs = 0x67a07d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -459,8 +457,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(
     ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::ConnectPlayablesToMixer)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x482219c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x67a2970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -476,8 +474,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::UnityEngine::GameObject*, ::UnityEngine::Playables::PlayableGraph, ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::CreateActivationPlayable)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x48212e0;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x67a1ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -494,8 +492,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*, ::UnityEngine::Playables::PlayableGraph,
     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectParticleSystem)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x48218d8;
+  constexpr static std::size_t size = 0x418;
+  constexpr static std::size_t addrs = 0x67a20dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -513,8 +511,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*, ::UnityEngine::Playables::PlayableGraph,
     ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*, bool)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectDirector)> {
-  constexpr static std::size_t size = 0x4a4;
-  constexpr static std::size_t addrs = 0x4821434;
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x67a1c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -533,8 +531,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*, ::UnityEngine::Playables::PlayableGraph,
                          ::System::Collections::Generic::List_1<::UnityEngine::Playables::Playable>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::SearchHierarchyAndConnectControlableScripts)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x4821d78;
+  constexpr static std::size_t size = 0x40c;
+  constexpr static std::size_t addrs = 0x67a2564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -553,7 +551,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::Playable, int32_t)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::ConnectMixerAndPlayable)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4822304;
+  constexpr static std::size_t addrs = 0x67a2af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -571,7 +569,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>* (*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControlableScripts)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4821d08;
+  constexpr static std::size_t addrs = 0x67a24f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -586,8 +584,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*, ::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::UpdateDurationAndLoopFlag)> {
-  constexpr static std::size_t size = 0x918;
-  constexpr static std::size_t addrs = 0x48209c8;
+  constexpr static std::size_t size = 0x8c4;
+  constexpr static std::size_t addrs = 0x67a11f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -603,8 +601,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IList_1<::UnityW<::UnityEngine::ParticleSystem>>* (
     ::UnityEngine::Timeline::ControlPlayableAsset::*)(::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x482085c;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x67a1070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -619,8 +617,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Transform*, ::System::Collections::Generic::ICollection_1<::UnityW<::UnityEngine::ParticleSystem>>*,
                          ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GetControllableParticleSystems)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x4822674;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x67a2e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -637,7 +635,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::UnityEngine::ParticleSystem*, ::System::Collections::Generic::HashSet_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(&::UnityEngine::Timeline::ControlPlayableAsset::CacheSubEmitters)> {
   constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x482285c;
+  constexpr static std::size_t addrs = 0x67a307c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -652,8 +650,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)(
     ::UnityEngine::Playables::PlayableDirector*, ::UnityEngine::Timeline::IPropertyCollector*)>(&::UnityEngine::Timeline::ControlPlayableAsset::GatherProperties)> {
-  constexpr static std::size_t size = 0x2e8;
-  constexpr static std::size_t addrs = 0x4822970;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x67a3190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -669,8 +667,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::ParticleSystem>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewParticles)> {
-  constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x4822c58;
+  constexpr static std::size_t size = 0x43c;
+  constexpr static std::size_t addrs = 0x67a34a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -686,8 +684,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::GameObject>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewActivation)> {
-  constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x48230ac;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x67a38e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -703,8 +701,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::UnityEngine::Playables::PlayableDirector*,
                                                                                            ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::MonoBehaviour>>*)>(
     &::UnityEngine::Timeline::ControlPlayableAsset::PreviewTimeControl)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x4823424;
+  constexpr static std::size_t size = 0x3fc;
+  constexpr static std::size_t addrs = 0x67a3c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -721,8 +719,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::Timeline::IPropertyCollector*, ::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::Playables::PlayableDirector>>*)>(
         &::UnityEngine::Timeline::ControlPlayableAsset::PreviewDirectors)> {
-  constexpr static std::size_t size = 0x3c4;
-  constexpr static std::size_t addrs = 0x482383c;
+  constexpr static std::size_t size = 0x3ac;
+  constexpr static std::size_t addrs = 0x67a4030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -737,8 +735,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::ControlPlayableAsset::*)()>(&::UnityEngine::Timeline::ControlPlayableAsset::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4823c00;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x67a43dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::ControlPlayableAsset*>::get(), ".ctor",
@@ -853,6 +851,18 @@ constexpr ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState c
 constexpr void UnityEngine::Timeline::ControlPlayableAsset::__cordl_internal_set_postPlayback(::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___postPlayback = value;
+}
+constexpr ::UnityEngine::Timeline::DirectorControlPlayable_PauseAction& UnityEngine::Timeline::ControlPlayableAsset::__cordl_internal_get_directorOnClipEnd() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___directorOnClipEnd;
+}
+constexpr ::UnityEngine::Timeline::DirectorControlPlayable_PauseAction const& UnityEngine::Timeline::ControlPlayableAsset::__cordl_internal_get_directorOnClipEnd() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___directorOnClipEnd;
+}
+constexpr void UnityEngine::Timeline::ControlPlayableAsset::__cordl_internal_set_directorOnClipEnd(::UnityEngine::Timeline::DirectorControlPlayable_PauseAction value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___directorOnClipEnd = value;
 }
 constexpr ::UnityW<::UnityEngine::Playables::PlayableAsset>& UnityEngine::Timeline::ControlPlayableAsset::__cordl_internal_get_m_ControlDirectorAsset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

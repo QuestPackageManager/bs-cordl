@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerName::*)()>(&::BeatSaber::AvatarCore::ConnectedPlayerName::Start)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x224f954;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x316fd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerName*>::get(), "Start",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerName::*)()>(&::BeatSaber::AvatarCore::ConnectedPlayerName::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224fa18;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x316fdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::ConnectedPlayerName*>::get(), ".ctor",

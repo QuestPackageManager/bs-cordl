@@ -3,20 +3,26 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Utilities/zzzz__IWrappedCollection_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CollectionWrapper_1)
+namespace Newtonsoft::Json::Utilities {
+class IWrappedCollection;
+}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -36,8 +42,7 @@ template <typename T> class CollectionWrapper_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::CollectionWrapper_1);
-// Dependencies Newtonsoft.Json.Utilities.IWrappedCollection, System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.ICollection,
-// System.Collections.IEnumerable, System.Collections.IList, System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename T>
@@ -220,7 +225,7 @@ public:
   CollectionWrapper_1(CollectionWrapper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13348 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IList* ____list;

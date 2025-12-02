@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Activation/ContextLevelActivator.hpp"
-#include "System/Runtime/Remoting/Activation/zzzz__IActivator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__ContextLevelActivator_def.hpp"
 #include "System/Runtime/Remoting/Activation/zzzz__IActivator_def.hpp"
@@ -11,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Activation::ContextLevelActivator::*)(
     ::System::Runtime::Remoting::Activation::IActivator*)>(&::System::Runtime::Remoting::Activation::ContextLevelActivator::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ce41b8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x59265e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IActivator* (
     ::System::Runtime::Remoting::Activation::ContextLevelActivator::*)()>(&::System::Runtime::Remoting::Activation::ContextLevelActivator::get_NextActivator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce4ce8;
+  constexpr static std::size_t addrs = 0x5926ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,8 +41,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Activation::IConstructionReturnMessage* (
     ::System::Runtime::Remoting::Activation::ContextLevelActivator::*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(
     &::System::Runtime::Remoting::Activation::ContextLevelActivator::Activate)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x3ce4cf0;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x5926efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

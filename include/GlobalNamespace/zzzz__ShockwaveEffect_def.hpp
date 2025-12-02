@@ -43,10 +43,10 @@ public:
 
   static inline ::GlobalNamespace::ShockwaveEffect* New_ctor();
 
-  /// @brief Method SpawnShockwave, addr 0x3b87d00, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SpawnShockwave, addr 0x5774440, size 0xc8, virtual false, abstract: false, final false
   inline void SpawnShockwave(::UnityEngine::Vector3 pos);
 
-  /// @brief Method Start, addr 0x3b87bc0, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5774260, size 0x1e0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get__prevShockwaveParticleSpawnTime() const;
@@ -73,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__shockwavePSEmitParams(::UnityEngine::ParticleSystem_EmitParams value);
 
-  /// @brief Method .ctor, addr 0x3b87dd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5774508, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -91,7 +91,7 @@ public:
   ShockwaveEffect(ShockwaveEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4239 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5805 };
 
   /// @brief Field _shockwavePS, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::ParticleSystem> ____shockwavePS;

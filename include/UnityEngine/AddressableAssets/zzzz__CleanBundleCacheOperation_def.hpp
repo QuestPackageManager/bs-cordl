@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
-#include "UnityEngine/ResourceManagement/zzzz__IUpdateReceiver_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(CleanBundleCacheOperation)
@@ -33,14 +32,16 @@ template <typename TObject> struct AsyncOperationHandle_1;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct AsyncOperationHandle;
 }
+namespace UnityEngine::ResourceManagement {
+class IUpdateReceiver;
+}
 // Forward declare root types
 namespace UnityEngine::AddressableAssets {
 class CleanBundleCacheOperation;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::CleanBundleCacheOperation);
-// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,
-// UnityEngine.ResourceManagement.IUpdateReceiver
+// Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>
 namespace UnityEngine::AddressableAssets {
 // Is value type: false
 // CS Name: UnityEngine.AddressableAssets.CleanBundleCacheOperation
@@ -50,62 +51,62 @@ public:
   /// @brief Field m_Addressables, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Field m_BaseCachePath, offset 0xd0, size 0x8
+  /// @brief Field m_BaseCachePath, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_BaseCachePath, put = __cordl_internal_set_m_BaseCachePath)) ::StringW m_BaseCachePath;
 
-  /// @brief Field m_CacheDirsForRemoval, offset 0xc0, size 0x8
+  /// @brief Field m_CacheDirsForRemoval, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CacheDirsForRemoval, put = __cordl_internal_set_m_CacheDirsForRemoval)) ::System::Collections::Generic::List_1<::StringW>* m_CacheDirsForRemoval;
 
-  /// @brief Field m_DepOp, offset 0xa0, size 0x20
+  /// @brief Field m_DepOp, offset 0xa0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       m_DepOp;
 
-  /// @brief Field m_EnumerationThread, offset 0xc8, size 0x8
+  /// @brief Field m_EnumerationThread, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EnumerationThread, put = __cordl_internal_set_m_EnumerationThread)) ::System::Threading::Thread* m_EnumerationThread;
 
-  /// @brief Field m_UseMultiThreading, offset 0xd8, size 0x1
+  /// @brief Field m_UseMultiThreading, offset 0xd0, size 0x1
   __declspec(property(get = __cordl_internal_get_m_UseMultiThreading, put = __cordl_internal_set_m_UseMultiThreading)) bool m_UseMultiThreading;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::IUpdateReceiver"
   constexpr operator ::UnityEngine::ResourceManagement::IUpdateReceiver*() noexcept;
 
-  /// @brief Method CompleteInternal, addr 0x44f3614, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CompleteInternal, addr 0x6243534, size 0xa8, virtual false, abstract: false, final false
   inline void CompleteInternal(bool result, bool success, ::StringW errorMsg);
 
-  /// @brief Method Destroy, addr 0x44f3908, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x624380c, size 0x80, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method DetermineCacheDirsNotInUse, addr 0x44f4594, size 0x40c, virtual false, abstract: false, final false
+  /// @brief Method DetermineCacheDirsNotInUse, addr 0x62444a0, size 0x3f0, virtual false, abstract: false, final false
   inline void DetermineCacheDirsNotInUse(::System::Collections::Generic::HashSet_1<::StringW>* cacheDirsInUse);
 
-  /// @brief Method DetermineCacheDirsNotInUse, addr 0x44f49e0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DetermineCacheDirsNotInUse, addr 0x62448d0, size 0x90, virtual false, abstract: false, final false
   inline void DetermineCacheDirsNotInUse(::System::Object* data);
 
-  /// @brief Method Execute, addr 0x44f3aa0, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6243970, size 0x210, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetCacheDirsInUse, addr 0x44f3c58, size 0x93c, virtual false, abstract: false, final false
+  /// @brief Method GetCacheDirsInUse, addr 0x6243b80, size 0x920, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::HashSet_1<::StringW>*
   GetCacheDirsInUse(::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* catalogOps);
 
-  /// @brief Method GetDependencies, addr 0x44f3984, size 0x11c, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x624388c, size 0xe4, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x44f36a4, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x62435dc, size 0xe0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::CleanBundleCacheOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 
-  /// @brief Method RemoveCacheEntries, addr 0x44f3774, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method RemoveCacheEntries, addr 0x62436bc, size 0x150, virtual false, abstract: false, final false
   inline void RemoveCacheEntries();
 
-  /// @brief Method Start, addr 0x44f0d0c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x6240cdc, size 0xf4, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>
   Start(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
             depOp);
 
-  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x44f49a0, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ResourceManagement.IUpdateReceiver.Update, addr 0x6244890, size 0x40, virtual true, abstract: false, final true
   inline void UnityEngine_ResourceManagement_IUpdateReceiver_Update(float_t unscaledDeltaTime);
 
   constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& __cordl_internal_get_m_Addressables() const;
@@ -150,7 +151,7 @@ public:
 
   constexpr void __cordl_internal_set_m_UseMultiThreading(bool value);
 
-  /// @brief Method .ctor, addr 0x44f0c64, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6240c18, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa, bool forceSingleThreading);
 
   /// @brief Convert to "::UnityEngine::ResourceManagement::IUpdateReceiver"
@@ -171,25 +172,25 @@ public:
   CleanBundleCacheOperation(CleanBundleCacheOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19520 };
 
   /// @brief Field m_Addressables, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
 
-  /// @brief Field m_DepOp, offset: 0xa0, size: 0x20, def value: None
+  /// @brief Field m_DepOp, offset: 0xa0, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       ___m_DepOp;
 
-  /// @brief Field m_CacheDirsForRemoval, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field m_CacheDirsForRemoval, offset: 0xb8, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::StringW>* ___m_CacheDirsForRemoval;
 
-  /// @brief Field m_EnumerationThread, offset: 0xc8, size: 0x8, def value: None
+  /// @brief Field m_EnumerationThread, offset: 0xc0, size: 0x8, def value: None
   ::System::Threading::Thread* ___m_EnumerationThread;
 
-  /// @brief Field m_BaseCachePath, offset: 0xd0, size: 0x8, def value: None
+  /// @brief Field m_BaseCachePath, offset: 0xc8, size: 0x8, def value: None
   ::StringW ___m_BaseCachePath;
 
-  /// @brief Field m_UseMultiThreading, offset: 0xd8, size: 0x1, def value: None
+  /// @brief Field m_UseMultiThreading, offset: 0xd0, size: 0x1, def value: None
   bool ___m_UseMultiThreading;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -199,15 +200,15 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperati
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_DepOp) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_CacheDirsForRemoval) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_CacheDirsForRemoval) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_EnumerationThread) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_EnumerationThread) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_BaseCachePath) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_BaseCachePath) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_UseMultiThreading) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::CleanBundleCacheOperation, ___m_UseMultiThreading) == 0xd0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::CleanBundleCacheOperation, 0xe0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::CleanBundleCacheOperation, 0xd8>, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::CleanBundleCacheOperation);

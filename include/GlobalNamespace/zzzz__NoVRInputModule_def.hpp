@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IVRInputModule_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoVRInputModule)
+namespace GlobalNamespace {
+class IVRInputModule;
+}
 namespace System {
 template <typename T> class Action_1;
 }
@@ -21,7 +23,7 @@ class NoVRInputModule;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoVRInputModule);
-// Dependencies IVRInputModule, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoVRInputModule
@@ -53,22 +55,22 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x4aecbf0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c02c90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onProcessMousePressEvent, addr 0x4aec930, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_onProcessMousePressEvent, addr 0x6c02990, size 0xc0, virtual true, abstract: false, final true
   inline void add_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method add_pointerDidClickEvent, addr 0x4aeca90, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_pointerDidClickEvent, addr 0x6c02b10, size 0xc0, virtual true, abstract: false, final true
   inline void add_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::GlobalNamespace::IVRInputModule"
   constexpr ::GlobalNamespace::IVRInputModule* i___GlobalNamespace__IVRInputModule() noexcept;
 
-  /// @brief Method remove_onProcessMousePressEvent, addr 0x4aec9e0, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_onProcessMousePressEvent, addr 0x6c02a50, size 0xc0, virtual true, abstract: false, final true
   inline void remove_onProcessMousePressEvent(::System::Action_1<::UnityW<::UnityEngine::GameObject>>* value);
 
-  /// @brief Method remove_pointerDidClickEvent, addr 0x4aecb40, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_pointerDidClickEvent, addr 0x6c02bd0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_pointerDidClickEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:
@@ -86,7 +88,7 @@ public:
   NoVRInputModule(NoVRInputModule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18253 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22063 };
 
   /// @brief Field onProcessMousePressEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::UnityW<::UnityEngine::GameObject>>* ___onProcessMousePressEvent;

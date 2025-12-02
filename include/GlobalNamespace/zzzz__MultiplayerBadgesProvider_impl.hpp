@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgesProvider___c::*)()>(
     &::GlobalNamespace::MultiplayerBadgesProvider___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dbde8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x360dcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgesProvider___c*>::get(),
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerBadgesProvider___c::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgesProvider___c::_SelectBadgesAndPutThemIntoResults_b__7_0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26dbdf0;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x360dcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerBadgesProvider___c::*)(::GlobalNamespace::MultiplayerPlayerResultsData*)>(
     &::GlobalNamespace::MultiplayerBadgesProvider___c::_SelectBadgesAndPutThemIntoResults_b__7_1)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26dbe10;
+  constexpr static std::size_t addrs = 0x360dd24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgesProvider::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*)>(&::GlobalNamespace::MultiplayerBadgesProvider::SelectBadgesAndPutThemIntoResults)> {
-  constexpr static std::size_t size = 0x14d8;
-  constexpr static std::size_t addrs = 0x26da8ac;
+  constexpr static std::size_t size = 0x12bc;
+  constexpr static std::size_t addrs = 0x360c9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,8 +124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerBadgesProvider::*)()>(&::GlobalNamespace::MultiplayerBadgesProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26dbd84;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x360dca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerBadgesProvider*>::get(), ".ctor",

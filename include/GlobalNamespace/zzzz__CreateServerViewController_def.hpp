@@ -51,21 +51,21 @@ public:
 
   __declspec(property(get = get_multiplayerModeSettings)) ::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings;
 
-  /// @brief Method ApplyAndGetData, addr 0x3b6c664, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ApplyAndGetData, addr 0x57572ec, size 0xcc, virtual false, abstract: false, final false
   inline ::GlobalNamespace::CreateServerFormData ApplyAndGetData();
 
-  /// @brief Method DidActivate, addr 0x3b6c564, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x57571ac, size 0x140, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
   static inline ::GlobalNamespace::CreateServerViewController* New_ctor();
 
-  /// @brief Method Setup, addr 0x3b6c520, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x5757168, size 0x44, virtual false, abstract: false, final false
   inline void Setup(::GlobalNamespace::MultiplayerModeSettings* multiplayerModeSettings);
 
-  /// @brief Method <DidActivate>b__10_0, addr 0x3b6c728, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_0, addr 0x57573bc, size 0x3c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_0();
 
-  /// @brief Method <DidActivate>b__10_1, addr 0x3b6c780, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <DidActivate>b__10_1, addr 0x57573f8, size 0x3c, virtual false, abstract: false, final false
   inline void _DidActivate_b__10_1();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__cancelCreateServerButton() const;
@@ -98,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method .ctor, addr 0x3b6c720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57573b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b6c3b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5756fe0, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
-  /// @brief Method get_multiplayerModeSettings, addr 0x3b6c518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiplayerModeSettings, addr 0x5757160, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MultiplayerModeSettings* get_multiplayerModeSettings();
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b6c468, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x57570a0, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_2<bool, ::GlobalNamespace::CreateServerFormData>* value);
 
 protected:
@@ -125,7 +125,7 @@ public:
   CreateServerViewController(CreateServerViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5375 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6968 };
 
   /// @brief Field _createServerButton, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____createServerButton;

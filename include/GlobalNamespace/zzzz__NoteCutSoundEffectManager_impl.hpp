@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoteCutSoundEffectManager.hpp"
-#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteCutSoundEffectManager_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__AudioTimeSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectManager_def.hpp"
+#include "GlobalNamespace/zzzz__INoteCutSoundEffectDidFinishEvent_def.hpp"
 #include "GlobalNamespace/zzzz__MemoryPoolContainer_1_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager_InitData::*)(bool, bool)>(
     &::GlobalNamespace::NoteCutSoundEffectManager_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ad35d8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x56ad910;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(
     &::GlobalNamespace::NoteCutSoundEffectManager::get_handleWrongSaberTypeAsGood)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad26c4;
+  constexpr static std::size_t addrs = 0x56aca34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(),
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(bool)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::set_handleWrongSaberTypeAsGood)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad26cc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56aca3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -100,8 +100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::Start)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3ad26d8;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x56aca44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), "Start",
@@ -113,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::OnDestroy)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3ad2974;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x56acd10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(),
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(
     &::GlobalNamespace::NoteCutSoundEffectManager::LateUpdate)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ad2acc;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x56ace74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(),
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteController*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasSpawned)> {
-  constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x3ad2b74;
+  constexpr static std::size_t size = 0x584;
+  constexpr static std::size_t addrs = 0x56acf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(
     ::GlobalNamespace::NoteController*, ::ByRef<::GlobalNamespace::NoteCutInfo>)>(&::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteWasCut)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x3ad3138;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x56ad4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -172,8 +172,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteDidStartDissolving)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3ad32e8;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x56ad654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteCutSoundEffect*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::HandleNoteCutSoundEffectDidFinish)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3ad3488;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x56ad7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -202,8 +202,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutSoundEffectManager::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::NoteCutSoundEffectManager::IsSupportedNote)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3ad3104;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x56ad4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,8 +216,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteCutSoundEffectManager::*)()>(&::GlobalNamespace::NoteCutSoundEffectManager::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3ad3560;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x56ad8a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutSoundEffectManager*>::get(), ".ctor",
@@ -225,18 +225,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__audioManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
-}
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__audioManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
-}
-constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr float_t& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__audioSamplesBeatAlignOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioSamplesBeatAlignOffset;
@@ -300,6 +288,18 @@ constexpr ::GlobalNamespace::NoteCutSoundEffectManager_InitData* const& GlobalNa
 constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__initData(::GlobalNamespace::NoteCutSoundEffectManager_InitData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__audioManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManager;
+}
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__audioManager() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManager;
+}
+constexpr void GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapObjectManager*& GlobalNamespace::NoteCutSoundEffectManager::__cordl_internal_get__beatmapObjectManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

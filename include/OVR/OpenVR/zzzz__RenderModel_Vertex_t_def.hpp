@@ -29,7 +29,7 @@ public:
   constexpr RenderModel_Vertex_t(::OVR::OpenVR::HmdVector3_t vPosition, ::OVR::OpenVR::HmdVector3_t vNormal, float_t rfTextureCoord0, float_t rfTextureCoord1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8507 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

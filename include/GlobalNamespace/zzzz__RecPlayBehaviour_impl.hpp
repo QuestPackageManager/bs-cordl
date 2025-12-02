@@ -22,8 +22,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour_State::*)()>(&::GlobalNamespace::RecPlayBehaviour_State::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b28e1c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5709c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour_State*>::get(), ".ctor",
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)(
     ::GlobalNamespace::GameplayCoreSceneSetupData*, ::GlobalNamespace::BeatmapObjectSpawnController*)>(&::GlobalNamespace::RecPlayBehaviour::Init)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3b27dcc;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5708d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Play)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x3b28324;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x570929c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "Play",
@@ -98,8 +98,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Record)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b28748;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5709604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "Record",
@@ -111,8 +111,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::SaveRecording)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b288d4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5709734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "SaveRecording",
@@ -124,8 +124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Configure)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3b28a24;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x5709890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "Configure",
@@ -137,8 +137,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::CleanUp)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3b28bcc;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5709a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "CleanUp",
@@ -151,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::Update)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b28cd4;
+  constexpr static std::size_t addrs = 0x5709b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "Update",
@@ -164,7 +164,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::LateUpdate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b28cfc;
+  constexpr static std::size_t addrs = 0x5709b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "LateUpdate",
@@ -177,7 +177,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b28d0c;
+  constexpr static std::size_t addrs = 0x5709b6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "OnDisable",
@@ -190,7 +190,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b28d10;
+  constexpr static std::size_t addrs = 0x5709b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "OnDestroy",
@@ -202,8 +202,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapKey)>(&::GlobalNamespace::RecPlayBehaviour::CreateRecordingPath)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3b27efc;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x5708e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -217,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(
     ::GlobalNamespace::GameplayCoreSceneSetupData*, ::GlobalNamespace::BeatmapObjectSpawnController*)>(&::GlobalNamespace::RecPlayBehaviour::CreateAutoLevelRecording)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3b281cc;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x570913c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,8 +232,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (*)(::StringW)>(&::GlobalNamespace::RecPlayBehaviour::LoadLevelRecording)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3b28070;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x5708fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -247,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::BeatSaber::RecPlay::PlayerPoseFrames>)>(
     &::GlobalNamespace::RecPlayBehaviour::SavePlayerPoseFrames)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3b28958;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x57097c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,8 +262,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecPlayBehaviour::*)()>(&::GlobalNamespace::RecPlayBehaviour::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b28d5c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5709b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), ".ctor",
@@ -276,8 +276,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::RecPlayBehaviour::_Play_g__ExtractLocalPose_14_0)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b286b4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57095a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,28 +291,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Pose (*)(::UnityEngine::Transform*)>(
     &::GlobalNamespace::RecPlayBehaviour::_Record_g__ExtractGlobalPose_15_0)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3b28840;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57096d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "<Record>g__ExtractGlobalPose|15_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::RecPlayBehaviour._SavePlayerPoseFrames_g__FileWriteAllText_26_0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(
-    &::GlobalNamespace::RecPlayBehaviour::_SavePlayerPoseFrames_g__FileWriteAllText_26_0)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b28d28;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "<SavePlayerPoseFrames>g__FileWriteAllText|26_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -555,12 +540,6 @@ inline ::UnityEngine::Pose GlobalNamespace::RecPlayBehaviour::_Record_g__Extract
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "<Record>g__ExtractGlobalPose|15_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Pose, false>(nullptr, ___internal_method, transform);
-}
-inline void GlobalNamespace::RecPlayBehaviour::_SavePlayerPoseFrames_g__FileWriteAllText_26_0(::StringW path, ::StringW contents) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecPlayBehaviour*>::get(), "<SavePlayerPoseFrames>g__FileWriteAllText|26_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, path, contents);
 }
 inline ::GlobalNamespace::RecPlayBehaviour* GlobalNamespace::RecPlayBehaviour::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecPlayBehaviour*>());

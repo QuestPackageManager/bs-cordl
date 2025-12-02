@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ActionResult_Status (::UnityEngine::ProBuilder::ActionResult::*)()>(
     &::UnityEngine::ProBuilder::ActionResult::get_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ff40c;
+  constexpr static std::size_t addrs = 0x6494318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ActionResult*>::get(), "get_status",
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ActionResult::*)(::UnityEngine::ProBuilder::ActionResult_Status)>(
     &::UnityEngine::ProBuilder::ActionResult::set_status)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ff414;
+  constexpr static std::size_t addrs = 0x6494320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::ActionResult::*)()>(
     &::UnityEngine::ProBuilder::ActionResult::get_notification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ff41c;
+  constexpr static std::size_t addrs = 0x6494328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ActionResult*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ActionResult::*)(::StringW)>(
     &::UnityEngine::ProBuilder::ActionResult::set_notification)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46ff424;
+  constexpr static std::size_t addrs = 0x6494330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::ActionResult::*)(::UnityEngine::ProBuilder::ActionResult_Status, ::StringW)>(
     &::UnityEngine::ProBuilder::ActionResult::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46ff42c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6494338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::ActionResult*)>(&::UnityEngine::ProBuilder::ActionResult::op_Implicit_bool)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x46ff45c;
+  constexpr static std::size_t addrs = 0x6494344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::ActionResult::*)()>(&::UnityEngine::ProBuilder::ActionResult::ToBool)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46ff470;
+  constexpr static std::size_t addrs = 0x6494358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ActionResult*>::get(), "ToBool",
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::UnityEngine::ProBuilder::ActionResult::FromBool)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x46ff480;
+  constexpr static std::size_t addrs = 0x6494368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -132,8 +132,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)()>(&::UnityEngine::ProBuilder::ActionResult::get_Success)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x46ff518;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6494400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ActionResult*>::get(), "get_Success",
@@ -145,8 +145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)()>(&::UnityEngine::ProBuilder::ActionResult::get_NoSelection)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46ff58c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x649446c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ActionResult*>::get(),
@@ -158,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)()>(&::UnityEngine::ProBuilder::ActionResult::get_UserCanceled)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46ff604;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x64944dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::ActionResult*>::get(),

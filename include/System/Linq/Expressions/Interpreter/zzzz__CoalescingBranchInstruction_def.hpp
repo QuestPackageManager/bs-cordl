@@ -41,24 +41,24 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::CoalescingBranchInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40c3b3c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d73080, size 0x34, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40c3b70, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d730b4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> getStaticF_s_cache();
 
-  /// @brief Method get_Cache, addr 0x40c3a68, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method get_Cache, addr 0x5d72fa0, size 0x8c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> get_Cache();
 
-  /// @brief Method get_ConsumedStack, addr 0x40c3b2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ConsumedStack, addr 0x5d73070, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ConsumedStack();
 
-  /// @brief Method get_InstructionName, addr 0x40c3aec, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5d7302c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40c3b34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5d73078, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_s_cache(::ArrayW<::System::Linq::Expressions::Interpreter::Instruction*, ::Array<::System::Linq::Expressions::Interpreter::Instruction*>*> value);
@@ -78,7 +78,7 @@ public:
   CoalescingBranchInstruction(CoalescingBranchInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16231 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

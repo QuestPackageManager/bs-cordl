@@ -87,7 +87,7 @@ public:
   static constexpr int32_t SocketTTL{ static_cast<int32_t>(0xff) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19798 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

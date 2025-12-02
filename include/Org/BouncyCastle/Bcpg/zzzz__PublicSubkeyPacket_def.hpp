@@ -33,17 +33,17 @@ namespace Org::BouncyCastle::Bcpg {
 class CORDL_TYPE PublicSubkeyPacket : public ::Org::BouncyCastle::Bcpg::PublicKeyPacket {
 public:
   // Declarations
-  /// @brief Method Encode, addr 0x2649690, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Encode, addr 0x3578ee0, size 0x38, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
   static inline ::Org::BouncyCastle::Bcpg::PublicSubkeyPacket* New_ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
-  /// @brief Method .ctor, addr 0x264968c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3578edc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag algorithm, ::System::DateTime time, ::Org::BouncyCastle::Bcpg::IBcpgKey* key);
 
-  /// @brief Method .ctor, addr 0x26460ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3575a1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Bcpg::BcpgInputStream* bcpgIn);
 
 protected:

@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ITimeProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SyncTimeProvider)
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
+}
+namespace GlobalNamespace {
+class ITimeProvider;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -16,7 +18,7 @@ class SyncTimeProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SyncTimeProvider);
-// Dependencies ITimeProvider, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: SyncTimeProvider
@@ -40,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
 
-  /// @brief Method .ctor, addr 0x39bdd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5637f04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_time, addr 0x39bdca8, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_time, addr 0x5637e5c, size 0xa8, virtual true, abstract: false, final true
   inline int64_t get_time();
 
   /// @brief Convert to "::GlobalNamespace::ITimeProvider"
@@ -64,7 +66,7 @@ public:
   SyncTimeProvider(SyncTimeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18871 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22777 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

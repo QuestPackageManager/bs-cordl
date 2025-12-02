@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Modes/IAeadBlockCipher.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockCipher_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher.GetBlockSize
 template <>

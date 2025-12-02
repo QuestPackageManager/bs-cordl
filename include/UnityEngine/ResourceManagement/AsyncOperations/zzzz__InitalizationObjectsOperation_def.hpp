@@ -37,36 +37,36 @@ public:
   // Declarations
   __declspec(property(get = get_DebugName)) ::StringW DebugName;
 
-  /// @brief Field m_Addressables, offset 0xb8, size 0x8
+  /// @brief Field m_Addressables, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Field m_DepOp, offset 0xc0, size 0x20
+  /// @brief Field m_DepOp, offset 0xb8, size 0x18
   __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       m_DepOp;
 
-  /// @brief Field m_RtdOp, offset 0x98, size 0x20
+  /// @brief Field m_RtdOp, offset 0x98, size 0x18
   __declspec(property(
       get = __cordl_internal_get_m_RtdOp,
       put = __cordl_internal_set_m_RtdOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*>
       m_RtdOp;
 
-  /// @brief Method Execute, addr 0x44dd910, size 0x650, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x622ced0, size 0x680, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method Init, addr 0x44dd338, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x622c96c, size 0x30, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> rtdOp,
                    ::UnityEngine::AddressableAssets::AddressablesImpl* addressables);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x44dd770, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x622ccf0, size 0x1e0, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
-  /// @brief Method LogRuntimeWarnings, addr 0x44dd43c, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method LogRuntimeWarnings, addr 0x622c9e0, size 0x1b8, virtual false, abstract: false, final false
   inline bool LogRuntimeWarnings(::StringW pathToBuildLogs);
 
   static inline ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation* New_ctor();
 
-  /// @brief Method <Execute>b__8_0, addr 0x44de050, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method <Execute>b__8_0, addr 0x622d650, size 0x1dc, virtual false, abstract: false, final false
   inline void _Execute_b__8_0(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           obj);
@@ -97,10 +97,10 @@ public:
   constexpr void
   __cordl_internal_set_m_RtdOp(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> value);
 
-  /// @brief Method .ctor, addr 0x44de008, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622d604, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_DebugName, addr 0x44dd3fc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_DebugName, addr 0x622c99c, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_DebugName();
 
 protected:
@@ -118,15 +118,15 @@ public:
   InitalizationObjectsOperation(InitalizationObjectsOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19469 };
 
-  /// @brief Field m_RtdOp, offset: 0x98, size: 0x20, def value: None
+  /// @brief Field m_RtdOp, offset: 0x98, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::Initialization::ResourceManagerRuntimeData*> ___m_RtdOp;
 
-  /// @brief Field m_Addressables, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field m_Addressables, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
 
-  /// @brief Field m_DepOp, offset: 0xc0, size: 0x20, def value: None
+  /// @brief Field m_DepOp, offset: 0xb8, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       ___m_DepOp;
 
@@ -135,11 +135,11 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_RtdOp) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_Addressables) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_Addressables) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_DepOp) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, ___m_DepOp) == 0xb8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, 0xe0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation, 0xd0>, "Size mismatch!");
 
 } // namespace UnityEngine::ResourceManagement::AsyncOperations
 NEED_NO_BOX(::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation);

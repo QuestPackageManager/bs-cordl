@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -40,7 +39,7 @@ template <typename T> struct ScriptableObjectReferenceAsyncInstaller_1__LoadReso
 // Write type traits
 MARK_GEN_REF_PTR_T(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1);
 MARK_GEN_VAL_T(::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace BGLib::AppFlow::Initialization {
 // cpp template
 template <typename T>
@@ -72,7 +71,7 @@ public:
                                                                                             ::UnityW<T> __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<T> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17664 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21365 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -104,7 +103,7 @@ public:
   // Declarations
   using _LoadResourcesBeforeInstallAsync_d__4 = ::BGLib::AppFlow::Initialization::ScriptableObjectReferenceAsyncInstaller_1__LoadResourcesBeforeInstallAsync_d__4<T>;
 
-  /// @brief Field _operationHandle, offset 0x28, size 0x20
+  /// @brief Field _operationHandle, offset 0x28, size 0x18
   __declspec(property(get = __cordl_internal_get__operationHandle, put = __cordl_internal_set__operationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>
       _operationHandle;
 
@@ -154,9 +153,9 @@ public:
   ScriptableObjectReferenceAsyncInstaller_1(ScriptableObjectReferenceAsyncInstaller_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17665 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21366 };
 
-  /// @brief Field _operationHandle, offset: 0x28, size: 0x20, def value: None
+  /// @brief Field _operationHandle, offset: 0x28, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ____operationHandle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

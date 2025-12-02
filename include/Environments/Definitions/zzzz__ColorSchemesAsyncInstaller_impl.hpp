@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller___c::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27170e0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3642148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Environments::Definitions::ColorSchemesAsyncInstaller___c::*)(::GlobalNamespace::ColorSchemeSO*)>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller___c::_LoadResourcesBeforeInstall_b__3_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x27170e8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x364214c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,25 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::get_assetLabelRuntimeKey)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2716de0;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 11));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::Environments::Definitions::ColorSchemesAsyncInstaller.LoadResourcesBeforeInstall
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)(
-    ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
-    &::Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x2716e20;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x3641e10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,13 +90,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::Environments::Definitions::ColorSchemesAsyncInstaller.LoadResourcesBeforeInstall
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)(
+    ::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>*, ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*)>(
+    &::Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall)> {
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x3641e54;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 13));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::Environments::Definitions::ColorSchemesAsyncInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x2716f44;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3641f9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Environments::Definitions::ColorSchemesAsyncInstaller::*)()>(
     &::Environments::Definitions::ColorSchemesAsyncInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2716ff4;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3642068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(),
@@ -152,14 +152,14 @@ constexpr void Environments::Definitions::ColorSchemesAsyncInstaller::__cordl_in
 inline ::StringW Environments::Definitions::ColorSchemesAsyncInstaller::get_assetLabelRuntimeKey() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 11)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void Environments::Definitions::ColorSchemesAsyncInstaller::LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::GlobalNamespace::ColorSchemeSO>>* colorSchemes,
                                                                                               ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 12)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Environments::Definitions::ColorSchemesAsyncInstaller*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, colorSchemes, registry);
 }
 inline void Environments::Definitions::ColorSchemesAsyncInstaller::InstallBindings() {

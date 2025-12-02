@@ -68,18 +68,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE BoolMonitor_OVRHandTest_BoolGenerator : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4036e08, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x5cebc64, size 0x1c, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4036e28, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x5cebc80, size 0x24, virtual true, abstract: false, final false
   inline bool EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4036df4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5cebc50, size 0x14, virtual true, abstract: false, final false
   inline bool Invoke();
 
   static inline ::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4035de4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cea800, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -97,7 +97,7 @@ public:
   BoolMonitor_OVRHandTest_BoolGenerator(BoolMonitor_OVRHandTest_BoolGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7899 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -135,12 +135,12 @@ public:
   /// @brief Field m_prevValue, offset 0x20, size 0x1
   __declspec(property(get = __cordl_internal_get_m_prevValue, put = __cordl_internal_set_m_prevValue)) bool m_prevValue;
 
-  /// @brief Method AppendToStringBuilder, addr 0x4036b78, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method AppendToStringBuilder, addr 0x5ceb978, size 0xfc, virtual false, abstract: false, final false
   inline void AppendToStringBuilder(::ByRef<::System::Text::StringBuilder*> sb);
 
   static inline ::GlobalNamespace::OVRHandTest_BoolMonitor* New_ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator* generator, float_t displayTimeout);
 
-  /// @brief Method Update, addr 0x4036ae8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5ceb8c8, size 0xb0, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr bool const& __cordl_internal_get_m_currentValue() const;
@@ -185,7 +185,7 @@ public:
 
   constexpr void __cordl_internal_set_m_prevValue(bool value);
 
-  /// @brief Method .ctor, addr 0x4035e6c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cea868, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator* generator, float_t displayTimeout);
 
 protected:
@@ -203,7 +203,7 @@ public:
   OVRHandTest_BoolMonitor(OVRHandTest_BoolMonitor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7900 };
 
   /// @brief Field m_name, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_name;
@@ -261,13 +261,13 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest___c* New_ctor();
 
-  /// @brief Method <Start>b__14_0, addr 0x4036eb4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__14_0, addr 0x5cebcfc, size 0x5c, virtual false, abstract: false, final false
   inline bool _Start_b__14_0();
 
-  /// @brief Method <.cctor>b__19_0, addr 0x4036f0c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__19_0, addr 0x5cebd58, size 0x11c, virtual false, abstract: false, final false
   inline bool __cctor_b__19_0();
 
-  /// @brief Method .ctor, addr 0x4036eac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cebcf8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHandTest___c* getStaticF___9();
@@ -293,7 +293,7 @@ public:
   OVRHandTest___c(OVRHandTest___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7901 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -318,16 +318,16 @@ public:
   /// @brief Field data, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_data, put = __cordl_internal_set_data)) ::System::Text::StringBuilder* data;
 
-  /// @brief Field hs_LH, offset 0x38, size 0x78
+  /// @brief Field hs_LH, offset 0x38, size 0x80
   __declspec(property(get = __cordl_internal_get_hs_LH, put = __cordl_internal_set_hs_LH)) ::GlobalNamespace::OVRPlugin_HandState hs_LH;
 
-  /// @brief Field hs_RH, offset 0xb0, size 0x78
+  /// @brief Field hs_RH, offset 0xb8, size 0x80
   __declspec(property(get = __cordl_internal_get_hs_RH, put = __cordl_internal_set_hs_RH)) ::GlobalNamespace::OVRPlugin_HandState hs_RH;
 
-  /// @brief Field mesh_LH, offset 0x168, size 0x8
+  /// @brief Field mesh_LH, offset 0x178, size 0x8
   __declspec(property(get = __cordl_internal_get_mesh_LH, put = __cordl_internal_set_mesh_LH)) ::GlobalNamespace::OVRPlugin_Mesh* mesh_LH;
 
-  /// @brief Field mesh_RH, offset 0x170, size 0x8
+  /// @brief Field mesh_RH, offset 0x180, size 0x8
   __declspec(property(get = __cordl_internal_get_mesh_RH, put = __cordl_internal_set_mesh_RH)) ::GlobalNamespace::OVRPlugin_Mesh* mesh_RH;
 
   /// @brief Field monitors, offset 0x28, size 0x8
@@ -336,22 +336,22 @@ public:
   /// @brief Field prevConnected, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_prevConnected, put = setStaticF_prevConnected)) ::StringW prevConnected;
 
-  /// @brief Field result_mesh_LH, offset 0x17a, size 0x1
+  /// @brief Field result_mesh_LH, offset 0x18a, size 0x1
   __declspec(property(get = __cordl_internal_get_result_mesh_LH, put = __cordl_internal_set_result_mesh_LH)) bool result_mesh_LH;
 
-  /// @brief Field result_mesh_RH, offset 0x17b, size 0x1
+  /// @brief Field result_mesh_RH, offset 0x18b, size 0x1
   __declspec(property(get = __cordl_internal_get_result_mesh_RH, put = __cordl_internal_set_result_mesh_RH)) bool result_mesh_RH;
 
-  /// @brief Field result_skel_LH, offset 0x178, size 0x1
+  /// @brief Field result_skel_LH, offset 0x188, size 0x1
   __declspec(property(get = __cordl_internal_get_result_skel_LH, put = __cordl_internal_set_result_skel_LH)) bool result_skel_LH;
 
-  /// @brief Field result_skel_RH, offset 0x179, size 0x1
+  /// @brief Field result_skel_RH, offset 0x189, size 0x1
   __declspec(property(get = __cordl_internal_get_result_skel_RH, put = __cordl_internal_set_result_skel_RH)) bool result_skel_RH;
 
-  /// @brief Field skel_LH, offset 0x128, size 0x20
+  /// @brief Field skel_LH, offset 0x138, size 0x20
   __declspec(property(get = __cordl_internal_get_skel_LH, put = __cordl_internal_set_skel_LH)) ::GlobalNamespace::OVRPlugin_Skeleton skel_LH;
 
-  /// @brief Field skel_RH, offset 0x148, size 0x20
+  /// @brief Field skel_RH, offset 0x158, size 0x20
   __declspec(property(get = __cordl_internal_get_skel_RH, put = __cordl_internal_set_skel_RH)) ::GlobalNamespace::OVRPlugin_Skeleton skel_RH;
 
   /// @brief Field uiText, offset 0x20, size 0x8
@@ -359,10 +359,10 @@ public:
 
   static inline ::GlobalNamespace::OVRHandTest* New_ctor();
 
-  /// @brief Method Start, addr 0x4035b14, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cea4e0, size 0x320, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x4035ee4, size 0xc04, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cea8cc, size 0xffc, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::System::Text::StringBuilder* const& __cordl_internal_get_data() const;
@@ -443,7 +443,7 @@ public:
 
   constexpr void __cordl_internal_set_uiText(::UnityW<::UnityEngine::UI::Text> value);
 
-  /// @brief Method .ctor, addr 0x4036c4c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ceba74, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::OVRHandTest_BoolMonitor* getStaticF_controllers();
@@ -469,7 +469,7 @@ public:
   OVRHandTest(OVRHandTest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8436 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7902 };
 
   /// @brief Field uiText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Text> ___uiText;
@@ -480,34 +480,34 @@ public:
   /// @brief Field data, offset: 0x30, size: 0x8, def value: None
   ::System::Text::StringBuilder* ___data;
 
-  /// @brief Field hs_LH, offset: 0x38, size: 0x78, def value: None
+  /// @brief Field hs_LH, offset: 0x38, size: 0x80, def value: None
   ::GlobalNamespace::OVRPlugin_HandState ___hs_LH;
 
-  /// @brief Field hs_RH, offset: 0xb0, size: 0x78, def value: None
+  /// @brief Field hs_RH, offset: 0xb8, size: 0x80, def value: None
   ::GlobalNamespace::OVRPlugin_HandState ___hs_RH;
 
-  /// @brief Field skel_LH, offset: 0x128, size: 0x20, def value: None
+  /// @brief Field skel_LH, offset: 0x138, size: 0x20, def value: None
   ::GlobalNamespace::OVRPlugin_Skeleton ___skel_LH;
 
-  /// @brief Field skel_RH, offset: 0x148, size: 0x20, def value: None
+  /// @brief Field skel_RH, offset: 0x158, size: 0x20, def value: None
   ::GlobalNamespace::OVRPlugin_Skeleton ___skel_RH;
 
-  /// @brief Field mesh_LH, offset: 0x168, size: 0x8, def value: None
+  /// @brief Field mesh_LH, offset: 0x178, size: 0x8, def value: None
   ::GlobalNamespace::OVRPlugin_Mesh* ___mesh_LH;
 
-  /// @brief Field mesh_RH, offset: 0x170, size: 0x8, def value: None
+  /// @brief Field mesh_RH, offset: 0x180, size: 0x8, def value: None
   ::GlobalNamespace::OVRPlugin_Mesh* ___mesh_RH;
 
-  /// @brief Field result_skel_LH, offset: 0x178, size: 0x1, def value: None
+  /// @brief Field result_skel_LH, offset: 0x188, size: 0x1, def value: None
   bool ___result_skel_LH;
 
-  /// @brief Field result_skel_RH, offset: 0x179, size: 0x1, def value: None
+  /// @brief Field result_skel_RH, offset: 0x189, size: 0x1, def value: None
   bool ___result_skel_RH;
 
-  /// @brief Field result_mesh_LH, offset: 0x17a, size: 0x1, def value: None
+  /// @brief Field result_mesh_LH, offset: 0x18a, size: 0x1, def value: None
   bool ___result_mesh_LH;
 
-  /// @brief Field result_mesh_RH, offset: 0x17b, size: 0x1, def value: None
+  /// @brief Field result_mesh_RH, offset: 0x18b, size: 0x1, def value: None
   bool ___result_mesh_RH;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -521,25 +521,25 @@ static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___data) == 0x30, "Offset
 
 static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___hs_LH) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___hs_RH) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___hs_RH) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___skel_LH) == 0x128, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___skel_LH) == 0x138, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___skel_RH) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___skel_RH) == 0x158, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___mesh_LH) == 0x168, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___mesh_LH) == 0x178, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___mesh_RH) == 0x170, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___mesh_RH) == 0x180, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_skel_LH) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_skel_LH) == 0x188, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_skel_RH) == 0x179, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_skel_RH) == 0x189, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_mesh_LH) == 0x17a, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_mesh_LH) == 0x18a, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_mesh_RH) == 0x17b, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRHandTest, ___result_mesh_RH) == 0x18b, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHandTest, 0x180>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRHandTest, 0x190>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BoolMonitor_OVRHandTest_BoolGenerator);

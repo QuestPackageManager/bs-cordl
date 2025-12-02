@@ -39,7 +39,7 @@ namespace VRUIControls {
 struct CORDL_TYPE PhysicsRaycasterWithCache_CachedRaycast {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4aed598, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03624, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   constexpr PhysicsRaycasterWithCache_CachedRaycast(bool wasHit, ::UnityEngine::Ray ray, ::UnityEngine::RaycastHit hitInfo, float_t maxDistance, int32_t layerMask) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22069 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -106,7 +106,7 @@ public:
 
   static inline ::VRUIControls::PhysicsRaycasterWithCache* New_ctor();
 
-  /// @brief Method Raycast, addr 0x4aed0c4, size 0x4d4, virtual false, abstract: false, final false
+  /// @brief Method Raycast, addr 0x6c03158, size 0x4cc, virtual false, abstract: false, final false
   inline bool Raycast(::UnityEngine::Ray ray, ::ByRef<::UnityEngine::RaycastHit> hitInfo, float_t maxDistance, int32_t layerMask);
 
   constexpr ::System::Collections::Generic::List_1<::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast>* const& __cordl_internal_get__cachedRaycasts() const;
@@ -121,7 +121,7 @@ public:
 
   constexpr void __cordl_internal_set__lastFrameCount(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4aed5d8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c03660, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -139,7 +139,7 @@ public:
   PhysicsRaycasterWithCache(PhysicsRaycasterWithCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18260 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22070 };
 
   /// @brief Field _cachedRaycasts, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::VRUIControls::PhysicsRaycasterWithCache_CachedRaycast>* ____cachedRaycasts;

@@ -9,7 +9,7 @@
 #include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatmapLightEventConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
-#include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType::BeatmapEventDataBox_DistributionParamType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter* (::GlobalNamespace::BeatmapEventDataBox::*)()>(
     &::GlobalNamespace::BeatmapEventDataBox::get_indexFilter)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bb0d8;
+  constexpr static std::size_t addrs = 0x35ec7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBox*>::get(),
@@ -67,8 +67,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBox::*)(
     ::GlobalNamespace::IndexFilter*, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, bool,
     ::GlobalNamespace::EaseType)>(&::GlobalNamespace::BeatmapEventDataBox::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26bb0e0;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x35ec7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,9 +85,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::BeatmapEventDataBox.Unpack
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBox::*)(
-    float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*,
-    ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*)>(&::GlobalNamespace::BeatmapEventDataBox::Unpack)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>* (
+    ::GlobalNamespace::BeatmapEventDataBox::*)(float_t, int32_t, int32_t, int32_t, int32_t, float_t, ::GlobalNamespace::IBeatToTimeConverter*, ::GlobalNamespace::IBeatmapLightEventConverter*)>(
+    &::GlobalNamespace::BeatmapEventDataBox::Unpack)> {
   constexpr static std::size_t size = 0xffffffffffffffff;
   constexpr static std::size_t addrs = 0xffffffffffffffff;
 
@@ -103,7 +103,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapEventDataBox::*)(float_t)>(&::GlobalNamespace::BeatmapEventDataBox::GetBeatStep)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26bb180;
+  constexpr static std::size_t addrs = 0x35ec810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -118,7 +118,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatmapEventDataBox::*)(bool, int32_t)>(
     &::GlobalNamespace::BeatmapEventDataBox::GetDistribution)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x26bb1f4;
+  constexpr static std::size_t addrs = 0x35ec880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, int32_t)>(
     &::GlobalNamespace::BeatmapEventDataBox::BeatDistributionParamToStep)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26bb28c;
+  constexpr static std::size_t addrs = 0x35ec918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<float_t (*)(::GlobalNamespace::IndexFilter*, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, float_t, float_t)>(&::GlobalNamespace::BeatmapEventDataBox::GetBeatStep)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x26bb1a0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x35ec830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(int32_t, float_t, ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType, int32_t,
                                                                                               ::GlobalNamespace::EaseType)>(&::GlobalNamespace::BeatmapEventDataBox::EventDistributionParamToStep)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x26bb220;
+  constexpr static std::size_t addrs = 0x35ec8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,13 +304,13 @@ inline void GlobalNamespace::BeatmapEventDataBox::_ctor(::GlobalNamespace::Index
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, indexFilter, beatDistributionParamType, beatDistributionParam, eventDistributionParamType, eventDistributionParam,
                                                           eventDistributionShouldAffectFirstBaseEvent, eventDistributionEaseType);
 }
-inline void GlobalNamespace::BeatmapEventDataBox::Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                                                         ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter,
-                                                         ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output) {
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*
+GlobalNamespace::BeatmapEventDataBox::Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
+                                             ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::GlobalNamespace::IBeatmapLightEventConverter* lightEventConverter) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBox*>::get(), 6)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter,
-                                                          lightEventConverter, output);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::BeatmapEventData*>*, false>(
+      this, ___internal_method, groupBoxBeat, groupId, elementId, durationOrderIndex, distributionOrderIndex, maxBeat, beatToTimeConverter, lightEventConverter);
 }
 inline float_t GlobalNamespace::BeatmapEventDataBox::GetBeatStep(float_t lastBaseEventRelativeBeat) {
   static auto* ___internal_method =

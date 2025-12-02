@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Ordering(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48a8adc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a7128, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName);
 
-  /// @brief Method .ctor, addr 0x48a8b08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a7134, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW menuName, int32_t order);
 
 protected:
@@ -63,7 +63,7 @@ public:
   AddComponentMenu(AddComponentMenu const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10862 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10280 };
 
   /// @brief Field m_AddComponentMenu, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_AddComponentMenu;

@@ -1,534 +1,32 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputStateHistory.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Nullable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_4_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateChangeMonitor_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputStateHistory_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_header
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> (
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_header)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4617aa0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_header",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_recordIndex
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_recordIndex)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4617ac4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_recordIndex",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_version
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_version)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4617ad0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_version",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_valid
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_valid)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4617ad8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_valid",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_owner
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory* (
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_owner)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4617b20;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_owner",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_index
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_index)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4617b28;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_index",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_time
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_time)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4617c0c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_time",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_control
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControl* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_control)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4617c34;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_control",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_next
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_next)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4617ce4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_next",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_previous
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_previous)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4617d74;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_previous",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory*, int32_t, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>)>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4616158;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.ReadValueAsObject
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValueAsObject)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4617dfc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "ReadValueAsObject",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeMemoryPtr
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtr)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4617e34;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "GetUnsafeMemoryPtr",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeMemoryPtrUnchecked
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtrUnchecked)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4617e4c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                                 "GetUnsafeMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeExtraMemoryPtr
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtr)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4617ecc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                                 "GetUnsafeExtraMemoryPtr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeExtraMemoryPtrUnchecked
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtrUnchecked)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x4617ee4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                                 "GetUnsafeExtraMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.CopyFrom
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CopyFrom)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x46162b0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.CheckValid
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CheckValid)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4617b64;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CheckValid",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.Equals
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4617fb0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.Equals
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(::System::Object*)>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4617fe4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 0));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetHashCode
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetHashCode)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x461807c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 2));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.ToString
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
-    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ToString)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x46180c4;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 3));
-    return ___internal_method;
-  }
-};
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_header() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_header",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>, false>(this, ___internal_method);
-}
-inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_recordIndex() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_recordIndex",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline uint32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_version() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_version",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
-}
-inline bool UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_valid() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_valid",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_owner() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_owner",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory*, false>(this, ___internal_method);
-}
-inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_index() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_index",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline double_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_time() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_time",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
-}
-inline ::UnityEngine::InputSystem::InputControl* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_control() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_control",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControl*, false>(this, ___internal_method);
-}
-inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_next() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_next",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record, false>(this, ___internal_method);
-}
-inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_previous() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_previous",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record, false>(this, ___internal_method);
-}
-inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::_ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory* owner, int32_t index,
-                                                                                ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> header) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, owner, index, header);
-}
-template <typename TValue> inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValue() {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "ReadValue",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }, ::std::span<Il2CppType const* const, 0>())));
-  static auto* ___internal_method =
-      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
-  return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
-}
-inline ::System::Object* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValueAsObject() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "ReadValueAsObject",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::cordl_internals::Ptr<void> UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtr() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "GetUnsafeMemoryPtr",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
-}
-inline ::cordl_internals::Ptr<void> UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtrUnchecked() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                               "GetUnsafeMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
-}
-inline ::cordl_internals::Ptr<void> UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtr() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "GetUnsafeExtraMemoryPtr",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
-}
-inline ::cordl_internals::Ptr<void> UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtrUnchecked() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
-                                               "GetUnsafeExtraMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
-}
-inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CopyFrom(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record record) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record);
-}
-inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CheckValid() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CheckValid",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record other) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
-}
-inline bool UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals(::System::Object* obj) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
-}
-inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetHashCode() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline ::StringW UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ToString() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 3)));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
-}
-/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>"
-constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::operator ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>"
-constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*
-UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel__InputStateHistory_Record_() {
-  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndexPlusOne", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
-constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::InputStateHistory_Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory* m_Owner, int32_t m_IndexPlusOne,
-                                                                                                   uint32_t m_Version) noexcept {
-  this->m_Owner = m_Owner;
-  this->m_IndexPlusOne = m_IndexPlusOne;
-  this->m_Version = m_Version;
-}
-// Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::InputStateHistory_Record() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::*)(
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory*)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x46173cc;
+  constexpr static std::size_t addrs = 0x639edd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -542,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::MoveNext)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46179d4;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x639f448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -558,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4617a0c;
+  constexpr static std::size_t addrs = 0x639f47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -572,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::get_Current)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4617a18;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x639f488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -587,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4617a38;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x639f4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -603,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4617a9c;
+  constexpr static std::size_t addrs = 0x639f50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -700,10 +198,10 @@ constexpr ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader.get_statePtrWithControlIndex
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::get_statePtrWithControlIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4617364;
+  constexpr static std::size_t addrs = 0x639ed68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -715,10 +213,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader.get_statePtrWithoutControlIndex
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::get_statePtrWithoutControlIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461735c;
+  constexpr static std::size_t addrs = 0x639ed60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -778,17 +276,17 @@ constexpr void UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeade
     ::UnityEngine::InputSystem::LowLevel::RecordHeader_InputStateHistory__m_StateWithControlIndex_e__FixedBuffer value) {
   this->___m_StateWithControlIndex = value;
 }
-inline ::cordl_internals::Ptr<uint8_t> UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::get_statePtrWithControlIndex() {
+inline uint8_t* UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::get_statePtrWithControlIndex() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>::get(),
                                                "get_statePtrWithControlIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<uint8_t>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<uint8_t*, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<uint8_t> UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::get_statePtrWithoutControlIndex() {
+inline uint8_t* UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::get_statePtrWithoutControlIndex() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>::get(),
                                                "get_statePtrWithoutControlIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<uint8_t>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<uint8_t*, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "time", ty: "double_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "controlIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_StateWithoutControlIndex", ty:
@@ -805,13 +303,511 @@ constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader::InputStateHistory_RecordHeader() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_header
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* (
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_header)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x639f510;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_header",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_recordIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_recordIndex)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x639f530;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_recordIndex",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_version
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_version)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x639f53c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_version",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_valid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_valid)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x639f544;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_valid",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_owner
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory* (
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_owner)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x639f58c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_owner",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_index
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_index)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x639f594;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_index",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_time
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_time)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x639f678;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_time",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_control
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControl* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_control)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x639f6a0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_control",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_next
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_next)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x639f794;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_next",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.get_previous
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_previous)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x639f824;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_previous",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory*, int32_t, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*)>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::_ctor)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x639dad0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.ReadValueAsObject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValueAsObject)> {
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x639f8ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "ReadValueAsObject",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeMemoryPtr
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtr)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x639f8e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "GetUnsafeMemoryPtr",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeMemoryPtrUnchecked
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtrUnchecked)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x639f8fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                                 "GetUnsafeMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeExtraMemoryPtr
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtr)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x639f9b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                                 "GetUnsafeExtraMemoryPtr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetUnsafeExtraMemoryPtrUnchecked
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtrUnchecked)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x639f9c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                                 "GetUnsafeExtraMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.CopyFrom
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CopyFrom)> {
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x639dc18;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.CheckValid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CheckValid)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x639f5d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CheckValid",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.Equals
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals)> {
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x639fa98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.Equals
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)(::System::Object*)>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x639facc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 0));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.GetHashCode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetHashCode)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x639fb68;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 2));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record.ToString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ToString)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x639fbb0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 3));
+    return ___internal_method;
+  }
+};
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_header() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_header",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*, false>(this, ___internal_method);
+}
+inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_recordIndex() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_recordIndex",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline uint32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_version() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_version",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
+}
+inline bool UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_valid() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_valid",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_owner() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_owner",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory*, false>(this, ___internal_method);
+}
+inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_index() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_index",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline double_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_time() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_time",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::InputControl* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_control() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_control",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputControl*, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_next() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_next",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::get_previous() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "get_previous",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::_ctor(::UnityEngine::InputSystem::LowLevel::InputStateHistory* owner, int32_t index,
+                                                                                ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* header) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, owner, index, header);
+}
+template <typename TValue> inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValue() {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "ReadValue",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }, ::std::span<Il2CppType const* const, 0>())));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
+  return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
+}
+inline ::System::Object* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ReadValueAsObject() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "ReadValueAsObject",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+inline void* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtr() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "GetUnsafeMemoryPtr",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method);
+}
+inline void* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeMemoryPtrUnchecked() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                               "GetUnsafeMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method);
+}
+inline void* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtr() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "GetUnsafeExtraMemoryPtr",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method);
+}
+inline void* UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetUnsafeExtraMemoryPtrUnchecked() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(),
+                                               "GetUnsafeExtraMemoryPtrUnchecked", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CopyFrom(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record record) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CopyFrom", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, record);
+}
+inline void UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::CheckValid() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "CheckValid",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline bool UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::Equals(::System::Object* obj) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 0)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+}
+inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::GetHashCode() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 2)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline ::StringW UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::ToString() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>::get(), 3)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>"
+constexpr UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::operator ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>"
+constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*
+UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::i___System__IEquatable_1___UnityEngine__InputSystem__LowLevel__InputStateHistory_Record_() {
+  return static_cast<::System::IEquatable_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+}
+// Ctor Parameters [CppParam { name: "m_Owner", ty: "::UnityEngine::InputSystem::LowLevel::InputStateHistory*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IndexPlusOne", ty:
+// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Version", ty: "uint32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::InputStateHistory_Record(::UnityEngine::InputSystem::LowLevel::InputStateHistory* m_Owner, int32_t m_IndexPlusOne,
+                                                                                                   uint32_t m_Version) noexcept {
+  this->m_Owner = m_Owner;
+  this->m_IndexPlusOne = m_IndexPlusOne;
+  this->m_Version = m_Version;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record::InputStateHistory_Record() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory.get_Count
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4615be4;
+  constexpr static std::size_t addrs = 0x639d54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -825,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_version)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4615bec;
+  constexpr static std::size_t addrs = 0x639d554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -839,7 +835,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_historyDepth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4615bf4;
+  constexpr static std::size_t addrs = 0x639d55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -852,8 +848,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::set_historyDepth)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4615bfc;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x639d564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -868,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_extraMemoryPerRecord)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4615cc4;
+  constexpr static std::size_t addrs = 0x639d63c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -881,8 +877,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::set_extraMemoryPerRecord)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4615ccc;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x639d644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -896,8 +892,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputUpdateType (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_updateMask)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4615d94;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x639d71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -910,8 +906,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(
     ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::set_updateMask)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4615e28;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x639d7c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -925,8 +921,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputControl*> (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_controls)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4615ef0;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x639d880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -939,8 +935,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_Item)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x4615f58;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x639d8cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -954,8 +950,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(
     int32_t, ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::set_Item)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x4616180;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x639daf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -971,7 +967,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>* (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_onRecordAdded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4616624;
+  constexpr static std::size_t addrs = 0x639e044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -985,7 +981,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(
     ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>*)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::set_onRecordAdded)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461662c;
+  constexpr static std::size_t addrs = 0x639e04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1001,7 +997,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>* (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_onShouldRecordStateChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4616634;
+  constexpr static std::size_t addrs = 0x639e054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1016,7 +1012,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Func_4<::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, bool>*)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::set_onShouldRecordStateChange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461663c;
+  constexpr static std::size_t addrs = 0x639e05c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1032,8 +1028,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4616644;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x639e064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1047,8 +1043,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x46166f0;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x639e0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1063,7 +1059,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4616848;
+  constexpr static std::size_t addrs = 0x639e240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1078,7 +1074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputControl*>*)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::_ctor)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4616940;
+  constexpr static std::size_t addrs = 0x639e338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1093,8 +1089,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::Finalize)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x46169bc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x639e3b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1110,7 +1106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::Clear)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4616ab8;
+  constexpr static std::size_t addrs = 0x639e464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1124,7 +1120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::AddRecord)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4616acc;
+  constexpr static std::size_t addrs = 0x639e478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1138,8 +1134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::StartRecording)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x4616c3c;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x639e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1152,8 +1148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::StopRecording)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4616d98;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x639e754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1167,8 +1163,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::RecordStateChange)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4616ef0;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x639e8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1182,17 +1178,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record (
-    ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::InputControl*, ::cordl_internals::Ptr<void>, double_t)>(
+    ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::InputControl*, void*, double_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::RecordStateChange)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x46170a4;
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x639ea94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "RecordStateChange", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
     return ___internal_method;
   }
 };
@@ -1201,8 +1196,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>* (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::GetEnumerator)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x461736c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x639ed70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1216,7 +1211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46173dc;
+  constexpr static std::size_t addrs = 0x639ede4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1230,8 +1225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::Dispose)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4616a50;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x639e3f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1244,8 +1239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::Destroy)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x46173e0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x639ede8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1258,8 +1253,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::Allocate)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x4617444;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x639ee58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1272,8 +1267,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::RecordIndexToUserIndex)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4617730;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x639f13c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1288,7 +1283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::UserIndexToRecordIndex)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4616068;
+  constexpr static std::size_t addrs = 0x639d9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1300,10 +1295,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory.GetRecord
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::GetRecord)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4616080;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x639d9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1315,10 +1310,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory.GetRecordUnchecked
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::GetRecordUnchecked)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4617754;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x639f158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1330,10 +1325,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputStateHistory.AllocateRecord
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* (
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::ByRef<int32_t>)>(&::UnityEngine::InputSystem::LowLevel::InputStateHistory::AllocateRecord)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4616b34;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x639e4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1346,16 +1341,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>)>(
+    static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*)>(
         &::UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValueAsObject)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4617800;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x639f200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "ReadValueAsObject", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>::get() })));
     return ___internal_method;
   }
 };
@@ -1365,8 +1359,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr, int64_t)>(
         &::UnityEngine::InputSystem::LowLevel::InputStateHistory::UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x46178f8;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x639f368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1386,7 +1380,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)(::UnityEngine::InputSystem::InputControl*, double_t, int64_t, int32_t)>(
         &::UnityEngine::InputSystem::LowLevel::InputStateHistory::UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyTimerExpired)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46179d0;
+  constexpr static std::size_t addrs = 0x639f444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1403,8 +1397,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputStateHistory::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputStateHistory::get_bytesPerRecord)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46176e0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x639f0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(),
@@ -1727,12 +1721,11 @@ UnityEngine::InputSystem::LowLevel::InputStateHistory::RecordStateChange(::Unity
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record, false>(this, ___internal_method, control, eventPtr);
 }
 inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record UnityEngine::InputSystem::LowLevel::InputStateHistory::RecordStateChange(::UnityEngine::InputSystem::InputControl* control,
-                                                                                                                                               ::cordl_internals::Ptr<void> statePtr, double_t time) {
+                                                                                                                                               void* statePtr, double_t time) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "RecordStateChange", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputControl*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record, false>(this, ___internal_method, control, statePtr, time);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record>* UnityEngine::InputSystem::LowLevel::InputStateHistory::GetEnumerator() {
@@ -1773,40 +1766,37 @@ inline int32_t UnityEngine::InputSystem::LowLevel::InputStateHistory::UserIndexT
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, index);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> UnityEngine::InputSystem::LowLevel::InputStateHistory::GetRecord(int32_t index) {
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* UnityEngine::InputSystem::LowLevel::InputStateHistory::GetRecord(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "GetRecord",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>, false>(this, ___internal_method, index);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*, false>(this, ___internal_method, index);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> UnityEngine::InputSystem::LowLevel::InputStateHistory::GetRecordUnchecked(int32_t index) {
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* UnityEngine::InputSystem::LowLevel::InputStateHistory::GetRecordUnchecked(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "GetRecordUnchecked",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>, false>(this, ___internal_method, index);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*, false>(this, ___internal_method, index);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> UnityEngine::InputSystem::LowLevel::InputStateHistory::AllocateRecord(::ByRef<int32_t> index) {
+inline ::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* UnityEngine::InputSystem::LowLevel::InputStateHistory::AllocateRecord(::ByRef<int32_t> index) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "AllocateRecord",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>, false>(this, ___internal_method, index);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*, false>(this, ___internal_method, index);
 }
-template <typename TValue>
-inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValue(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> data) {
-  static auto* ___internal_method_base = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "ReadValue",
-                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() },
-                                  ::std::array<Il2CppType const*, 1>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>>::get() })));
+template <typename TValue> inline TValue UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValue(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "ReadValue",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() },
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, data);
 }
-inline ::System::Object* UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValueAsObject(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader> data) {
+inline ::System::Object* UnityEngine::InputSystem::LowLevel::InputStateHistory::ReadValueAsObject(::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader* data) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputStateHistory*>::get(), "ReadValueAsObject", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader>>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateHistory_RecordHeader*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, data);
 }
 inline void UnityEngine::InputSystem::LowLevel::InputStateHistory::UnityEngine_InputSystem_LowLevel_IInputStateChangeMonitor_NotifyControlStateChanged(

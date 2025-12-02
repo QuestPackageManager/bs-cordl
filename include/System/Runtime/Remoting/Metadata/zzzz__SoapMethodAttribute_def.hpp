@@ -46,7 +46,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Metadata::SoapMethodAttribute* New_ctor();
 
-  /// @brief Method SetReflectionObject, addr 0x3ce58c4, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method SetReflectionObject, addr 0x5927a2c, size 0x1cc, virtual true, abstract: false, final false
   inline void SetReflectionObject(::System::Object* reflectionObject);
 
   constexpr ::StringW const& __cordl_internal_get__namespace() const;
@@ -85,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set__useAttribute(bool value);
 
-  /// @brief Method .ctor, addr 0x3ce58ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5927a18, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_UseAttribute, addr 0x3ce58b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UseAttribute, addr 0x5927a1c, size 0x8, virtual true, abstract: false, final false
   inline bool get_UseAttribute();
 
-  /// @brief Method get_XmlNamespace, addr 0x3ce58bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_XmlNamespace, addr 0x5927a24, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_XmlNamespace();
 
 protected:
@@ -109,7 +109,7 @@ public:
   SoapMethodAttribute(SoapMethodAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3139 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3156 };
 
   /// @brief Field _responseElement, offset: 0x28, size: 0x8, def value: None
   ::StringW ____responseElement;

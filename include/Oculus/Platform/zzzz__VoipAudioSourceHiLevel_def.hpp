@@ -42,12 +42,12 @@ public:
   /// @brief Field scratchBuffer, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_scratchBuffer, put = __cordl_internal_set_scratchBuffer)) ::ArrayW<float_t, ::Array<float_t>*> scratchBuffer;
 
-  /// @brief Method Awake, addr 0x3f8e0cc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5bd7b74, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::Oculus::Platform::VoipAudioSourceHiLevel_FilterReadDelegate* New_ctor();
 
-  /// @brief Method OnAudioFilterRead, addr 0x3f8e150, size 0x4e0, virtual false, abstract: false, final false
+  /// @brief Method OnAudioFilterRead, addr 0x5bd7bf8, size 0x4c0, virtual false, abstract: false, final false
   inline void OnAudioFilterRead(::ArrayW<float_t, ::Array<float_t>*> data, int32_t channels);
 
   constexpr ::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> const& __cordl_internal_get_parent() const;
@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_scratchBuffer(::ArrayW<float_t, ::Array<float_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3f8e630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd80b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   VoipAudioSourceHiLevel_FilterReadDelegate(VoipAudioSourceHiLevel_FilterReadDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17948 };
 
   /// @brief Field parent, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::Oculus::Platform::VoipAudioSourceHiLevel> ___parent;
@@ -127,27 +127,27 @@ public:
   /// @brief Field verboseLogging, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_verboseLogging, put = setStaticF_verboseLogging)) bool verboseLogging;
 
-  /// @brief Method Awake, addr 0x3f8da54, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5bd74c0, size 0x2d4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method CreatePCMSource, addr 0x3f8dd14, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method CreatePCMSource, addr 0x5bd77ac, size 0x50, virtual true, abstract: false, final false
   inline void CreatePCMSource();
 
-  /// @brief Method MSToElements, addr 0x3f8dd74, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method MSToElements, addr 0x5bd7800, size 0x6c, virtual false, abstract: false, final false
   static inline int32_t MSToElements(int32_t ms);
 
   static inline ::Oculus::Platform::VoipAudioSourceHiLevel* New_ctor();
 
-  /// @brief Method SampleRateToEnum, addr 0x3f8da10, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SampleRateToEnum, addr 0x5bd747c, size 0x44, virtual false, abstract: false, final false
   inline ::Oculus::Platform::VoipSampleRate SampleRateToEnum(int32_t rate);
 
-  /// @brief Method Start, addr 0x3f8dcf8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5bd7794, size 0x18, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Stop, addr 0x3f8da0c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Stop, addr 0x5bd7478, size 0x4, virtual false, abstract: false, final false
   inline void Stop();
 
-  /// @brief Method Update, addr 0x3f8dddc, size 0x2e8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5bd786c, size 0x304, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::UnityW<::UnityEngine::AudioSource> const& __cordl_internal_get_audioSource() const;
@@ -174,7 +174,7 @@ public:
 
   constexpr void __cordl_internal_set_peakAmplitude(float_t value);
 
-  /// @brief Method .ctor, addr 0x3f8e0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bd7b70, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_audioSystemPlaybackFrequency();
@@ -185,7 +185,7 @@ public:
 
   static inline void setStaticF_verboseLogging(bool value);
 
-  /// @brief Method set_senderID, addr 0x3f8d960, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method set_senderID, addr 0x5bd73c0, size 0xb8, virtual false, abstract: false, final false
   inline void set_senderID(uint64_t value);
 
 protected:
@@ -203,7 +203,7 @@ public:
   VoipAudioSourceHiLevel(VoipAudioSourceHiLevel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17949 };
 
   /// @brief Field initialPlaybackDelayMS, offset: 0x20, size: 0x4, def value: None
   int32_t ___initialPlaybackDelayMS;

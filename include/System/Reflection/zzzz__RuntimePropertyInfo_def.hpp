@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "System/Reflection/zzzz__MonoPropertyInfo_def.hpp"
 #include "System/Reflection/zzzz__PInfo_def.hpp"
 #include "System/Reflection/zzzz__PropertyInfo_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -55,6 +54,9 @@ namespace System::Reflection {
 template <typename R> class RuntimePropertyInfo_StaticGetter_1;
 }
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
@@ -100,12 +102,12 @@ namespace System::Reflection {
 class CORDL_TYPE RuntimePropertyInfo_GetterAdapter : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3d34a30, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x597b124, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::System::Object* _this);
 
   static inline ::System::Reflection::RuntimePropertyInfo_GetterAdapter* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3d34930, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597afe0, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -123,7 +125,7 @@ public:
   RuntimePropertyInfo_GetterAdapter(RuntimePropertyInfo_GetterAdapter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3532 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -163,7 +165,7 @@ public:
   RuntimePropertyInfo_Getter_2(RuntimePropertyInfo_Getter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3557 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -201,13 +203,13 @@ public:
   RuntimePropertyInfo_StaticGetter_1(RuntimePropertyInfo_StaticGetter_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Reflection
-// Dependencies System.IntPtr, System.Reflection.MonoPropertyInfo, System.Reflection.PInfo, System.Reflection.PropertyInfo, System.Runtime.Serialization.ISerializable
+// Dependencies System.IntPtr, System.Reflection.MonoPropertyInfo, System.Reflection.PInfo, System.Reflection.PropertyInfo
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.RuntimePropertyInfo
@@ -258,65 +260,65 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method CachePropertyInfo, addr 0x3d33e3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CachePropertyInfo, addr 0x597a530, size 0x40, virtual false, abstract: false, final false
   inline void CachePropertyInfo(::System::Reflection::PInfo flags);
 
-  /// @brief Method FormatNameAndSig, addr 0x3d33bf8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method FormatNameAndSig, addr 0x597a2c8, size 0x194, virtual false, abstract: false, final false
   inline ::StringW FormatNameAndSig(bool serialization);
 
-  /// @brief Method GetCustomAttributes, addr 0x3d343e8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x597aae8, size 0x70, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
 
-  /// @brief Method GetCustomAttributes, addr 0x3d3438c, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method GetCustomAttributes, addr 0x597aa88, size 0x60, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetDeclaringTypeInternal, addr 0x3d33ae8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetDeclaringTypeInternal, addr 0x597a1b0, size 0x88, virtual false, abstract: false, final false
   inline ::System::RuntimeType* GetDeclaringTypeInternal();
 
-  /// @brief Method GetGetMethod, addr 0x3d34054, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetGetMethod, addr 0x597a774, size 0x84, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetGetMethod(bool nonPublic);
 
-  /// @brief Method GetIndexParameters, addr 0x3d340d8, size 0x1c4, virtual true, abstract: false, final false
+  /// @brief Method GetIndexParameters, addr 0x597a7f8, size 0x19c, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Reflection::ParameterInfo*, ::Array<::System::Reflection::ParameterInfo*>*> GetIndexParameters();
 
-  /// @brief Method GetObjectData, addr 0x3d33d68, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x597a45c, size 0xcc, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method GetPropertyFromHandle, addr 0x3d34870, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetPropertyFromHandle, addr 0x597af5c, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* GetPropertyFromHandle(::Mono::RuntimePropertyHandle handle, ::System::RuntimeTypeHandle reflectedType);
 
-  /// @brief Method GetRuntimeModule, addr 0x3d33acc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeModule, addr 0x597a188, size 0x28, virtual false, abstract: false, final false
   inline ::System::Reflection::RuntimeModule* GetRuntimeModule();
 
-  /// @brief Method GetSetMethod, addr 0x3d3429c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method GetSetMethod, addr 0x597a994, size 0x84, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetSetMethod(bool nonPublic);
 
-  /// @brief Method GetValue, addr 0x3d34454, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x597ab58, size 0x20, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index);
 
-  /// @brief Method GetValue, addr 0x3d34474, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method GetValue, addr 0x597ab78, size 0x1c8, virtual true, abstract: false, final false
   inline ::System::Object* GetValue(::System::Object* obj, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                                     ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
   /// @brief Method GetterAdapterFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T, typename R> static inline ::System::Object* GetterAdapterFrame(::System::Reflection::RuntimePropertyInfo_Getter_2<T, R>* getter, ::System::Object* obj);
 
-  /// @brief Method IsDefined, addr 0x3d34320, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method IsDefined, addr 0x597aa18, size 0x70, virtual true, abstract: false, final false
   inline bool IsDefined(::System::Type* attributeType, bool inherit);
 
   static inline ::System::Reflection::RuntimePropertyInfo* New_ctor();
 
-  /// @brief Method SerializationToString, addr 0x3d33e34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SerializationToString, addr 0x597a528, size 0x8, virtual false, abstract: false, final false
   inline ::StringW SerializationToString();
 
-  /// @brief Method SetValue, addr 0x3d34668, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method SetValue, addr 0x597ad40, size 0x1f0, virtual true, abstract: false, final false
   inline void SetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder,
                        ::ArrayW<::System::Object*, ::Array<::System::Object*>*> index, ::System::Globalization::CultureInfo* culture);
 
   /// @brief Method StaticGetterAdapterFrame, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename R> static inline ::System::Object* StaticGetterAdapterFrame(::System::Reflection::RuntimePropertyInfo_StaticGetter_1<R>* getter, ::System::Object* obj);
 
-  /// @brief Method ToString, addr 0x3d33bf0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x597a2c0, size 0x8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Reflection::PInfo const& __cordl_internal_get_cached() const;
@@ -349,49 +351,49 @@ public:
 
   constexpr void __cordl_internal_set_prop(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3d34928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x597afdc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_BindingFlags, addr 0x3d33ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_BindingFlags, addr 0x597a17c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::BindingFlags get_BindingFlags();
 
-  /// @brief Method get_CanRead, addr 0x3d33e7c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_CanRead, addr 0x597a570, size 0x4c, virtual true, abstract: false, final false
   inline bool get_CanRead();
 
-  /// @brief Method get_CanWrite, addr 0x3d33ebc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_CanWrite, addr 0x597a5bc, size 0x4c, virtual true, abstract: false, final false
   inline bool get_CanWrite();
 
-  /// @brief Method get_DeclaringType, addr 0x3d33fe4, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_DeclaringType, addr 0x597a6e0, size 0x40, virtual true, abstract: false, final false
   inline ::System::Type* get_DeclaringType();
 
-  /// @brief Method get_MetadataToken, addr 0x3d34864, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x597af30, size 0x14, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_Module, addr 0x3d33ac8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x597a184, size 0x4, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
-  /// @brief Method get_Name, addr 0x3d3401c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x597a720, size 0x54, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_PropertyType, addr 0x3d33efc, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_PropertyType, addr 0x597a608, size 0x9c, virtual true, abstract: false, final false
   inline ::System::Type* get_PropertyType();
 
-  /// @brief Method get_ReflectedType, addr 0x3d33fac, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_ReflectedType, addr 0x597a6a4, size 0x3c, virtual true, abstract: false, final false
   inline ::System::Type* get_ReflectedType();
 
-  /// @brief Method get_ReflectedTypeInternal, addr 0x3d33b6c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_ReflectedTypeInternal, addr 0x597a238, size 0x88, virtual false, abstract: false, final false
   inline ::System::RuntimeType* get_ReflectedTypeInternal();
 
-  /// @brief Method get_metadata_token, addr 0x3d34868, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_metadata_token, addr 0x597af44, size 0x14, virtual false, abstract: false, final false
   static inline int32_t get_metadata_token(::System::Reflection::RuntimePropertyInfo* monoProperty);
 
-  /// @brief Method get_property_info, addr 0x3d33abc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_property_info, addr 0x597a178, size 0x4, virtual false, abstract: false, final false
   static inline void get_property_info(::System::Reflection::RuntimePropertyInfo* prop, ::ByRef<::System::Reflection::MonoPropertyInfo> info, ::System::Reflection::PInfo req_info);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
-  /// @brief Method internal_from_handle_type, addr 0x3d3486c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method internal_from_handle_type, addr 0x597af58, size 0x4, virtual false, abstract: false, final false
   static inline ::System::Reflection::PropertyInfo* internal_from_handle_type(::System::IntPtr event_handle, ::System::IntPtr type_handle);
 
 protected:
@@ -409,7 +411,7 @@ public:
   RuntimePropertyInfo(RuntimePropertyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3535 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3559 };
 
   /// @brief Field klass, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___klass;

@@ -3,12 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OnScreenButton)
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerDownHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerUpHandler;
+}
 namespace UnityEngine::EventSystems {
 class PointerEventData;
 }
@@ -18,7 +24,7 @@ class OnScreenButton;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::OnScreen::OnScreenButton);
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerDownHandler, UnityEngine.EventSystems.IPointerUpHandler, UnityEngine.InputSystem.OnScreen.OnScreenControl
+// Dependencies UnityEngine.InputSystem.OnScreen.OnScreenControl
 namespace UnityEngine::InputSystem::OnScreen {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.OnScreen.OnScreenButton
@@ -41,10 +47,10 @@ public:
 
   static inline ::UnityEngine::InputSystem::OnScreen::OnScreenButton* New_ctor();
 
-  /// @brief Method OnPointerDown, addr 0x45f7550, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerDown, addr 0x637e69c, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerUp, addr 0x45f7504, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerUp, addr 0x637e64c, size 0x50, virtual true, abstract: false, final true
   inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::StringW const& __cordl_internal_get_m_ControlPath() const;
@@ -53,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set_m_ControlPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x45f75ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637e6fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_controlPathInternal, addr 0x45f759c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_controlPathInternal, addr 0x637e6ec, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_controlPathInternal();
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -68,7 +74,7 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
   constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method set_controlPathInternal, addr 0x45f75a4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_controlPathInternal, addr 0x637e6f4, size 0x8, virtual true, abstract: false, final false
   inline void set_controlPathInternal(::StringW value);
 
 protected:
@@ -86,7 +92,7 @@ public:
   OnScreenButton(OnScreenButton const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6795 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8851 };
 
   /// @brief Field m_ControlPath, offset: 0x38, size: 0x8, def value: None
   ::StringW ___m_ControlPath;

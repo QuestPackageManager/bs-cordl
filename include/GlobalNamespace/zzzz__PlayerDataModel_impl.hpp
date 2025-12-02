@@ -1,70 +1,69 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlayerDataModel.hpp"
-#include "GlobalNamespace/zzzz__IPlayerDataModel_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
+#include "GlobalNamespace/zzzz__IPlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataFileModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerDataModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerData_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::*)()>(
-    &::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::MoveNext)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x26f8ad8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::*)()>(
+    &::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::MoveNext)> {
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x3624830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x26f8d00;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3624a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::MoveNext() {
+inline void GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::PlayerDataModel>", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::PlayerDataModel__UndoUnsavedChangesAsync_d__11(
+constexpr ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::PlayerDataModel__UndoUnsavedChangesAsync_d__12(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::PlayerDataModel> __4__this,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlayerData*> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -73,14 +72,14 @@ constexpr ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::Pla
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__11::PlayerDataModel__UndoUnsavedChangesAsync_d__11() {}
+constexpr ::GlobalNamespace::PlayerDataModel__UndoUnsavedChangesAsync_d__12::PlayerDataModel__UndoUnsavedChangesAsync_d__12() {}
 //  Writing Method size for method: ::GlobalNamespace::PlayerDataModel.get_playerDataFileModel
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerDataFileModel* (::GlobalNamespace::PlayerDataModel::*)()>(
     &::GlobalNamespace::PlayerDataModel::get_playerDataFileModel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f88e8;
+  constexpr static std::size_t addrs = 0x3624608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(),
@@ -94,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PlayerData* (::GlobalNamespace::PlayerDataModel::*)()>(
     &::GlobalNamespace::PlayerDataModel::get_playerData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f88f0;
+  constexpr static std::size_t addrs = 0x3624610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(), "get_playerData",
@@ -108,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel::*)(::StringW, ::GlobalNamespace::PlayerDataFileModel*)>(
     &::GlobalNamespace::PlayerDataModel::Inject)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26f88f8;
+  constexpr static std::size_t addrs = 0x3624618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,8 +121,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel::*)(bool)>(&::GlobalNamespace::PlayerDataModel::OnApplicationPause)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26f8920;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x3624640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,8 +135,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel::*)()>(&::GlobalNamespace::PlayerDataModel::OnDisable)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26f894c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x3624670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(), "OnDisable",
@@ -150,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel::*)()>(&::GlobalNamespace::PlayerDataModel::ResetData)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26f89cc;
+  constexpr static std::size_t addrs = 0x3624734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(), "ResetData",
@@ -163,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlayerDataModel::*)()>(
     &::GlobalNamespace::PlayerDataModel::UndoUnsavedChangesAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x26f89f0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3624758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(),
@@ -176,8 +175,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel::*)()>(&::GlobalNamespace::PlayerDataModel::Save)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26f892c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3624654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(), "Save",
@@ -190,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::PlayerDataModel::*)()>(
     &::GlobalNamespace::PlayerDataModel::SaveAsync)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26f8ab0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3624808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(), "SaveAsync",
@@ -203,8 +202,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerDataModel::*)()>(&::GlobalNamespace::PlayerDataModel::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26f8ad0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3624824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerDataModel*>::get(), ".ctor",
@@ -212,6 +211,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr bool& GlobalNamespace::PlayerDataModel::__cordl_internal_get_autoSaveOnDisable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___autoSaveOnDisable;
+}
+constexpr bool const& GlobalNamespace::PlayerDataModel::__cordl_internal_get_autoSaveOnDisable() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___autoSaveOnDisable;
+}
+constexpr void GlobalNamespace::PlayerDataModel::__cordl_internal_set_autoSaveOnDisable(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___autoSaveOnDisable = value;
+}
 constexpr ::GlobalNamespace::PlayerData*& GlobalNamespace::PlayerDataModel::__cordl_internal_get__playerData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____playerData;

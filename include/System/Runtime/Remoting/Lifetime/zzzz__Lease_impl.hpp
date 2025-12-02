@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Lifetime/Lease.hpp"
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_impl.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_impl.hpp"
 #include "System/zzzz__DateTime_impl.hpp"
 #include "System/zzzz__MarshalByRefObject_impl.hpp"
@@ -23,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3cdbf44;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x591ec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::*)(
     ::System::Runtime::Remoting::Lifetime::ILease*)>(&::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3cdc270;
+  constexpr static std::size_t addrs = 0x591efc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,7 +56,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::*)(::System::Runtime::Remoting::Lifetime::ILease*, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::BeginInvoke)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cdc044;
+  constexpr static std::size_t addrs = 0x591ed94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::*)(::System::IAsyncResult*)>(
     &::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::EndInvoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cdc248;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x591efa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +117,8 @@ constexpr ::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate::Lease_Re
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease::*)()>(&::System::Runtime::Remoting::Lifetime::Lease::_ctor)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3cd49fc;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5917a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(), ".ctor",
@@ -132,8 +131,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Runtime::Remoting::Lifetime::Lease::*)()>(
     &::System::Runtime::Remoting::Lifetime::Lease::get_CurrentLeaseTime)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cdb920;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x591e608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(),
@@ -147,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Lifetime::LeaseState (::System::Runtime::Remoting::Lifetime::Lease::*)()>(
     &::System::Runtime::Remoting::Lifetime::Lease::get_CurrentState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cdb988;
+  constexpr static std::size_t addrs = 0x591e674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(),
@@ -160,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease::*)()>(&::System::Runtime::Remoting::Lifetime::Lease::Activate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cdb990;
+  constexpr static std::size_t addrs = 0x591e67c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(), "Activate",
@@ -174,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Runtime::Remoting::Lifetime::Lease::*)()>(
     &::System::Runtime::Remoting::Lifetime::Lease::get_RenewOnCallTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cdb99c;
+  constexpr static std::size_t addrs = 0x591e688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(),
@@ -187,8 +186,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Runtime::Remoting::Lifetime::Lease::*)(::System::TimeSpan)>(
     &::System::Runtime::Remoting::Lifetime::Lease::Renew)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3cdb9a4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x591e690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease::*)(::System::Runtime::Remoting::Lifetime::ISponsor*)>(
     &::System::Runtime::Remoting::Lifetime::Lease::Unregister)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3cdba30;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x591e720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -218,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease::*)()>(
     &::System::Runtime::Remoting::Lifetime::Lease::UpdateState)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3cdbb74;
+  constexpr static std::size_t addrs = 0x591e860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(),
@@ -231,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease::*)()>(
     &::System::Runtime::Remoting::Lifetime::Lease::CheckNextSponsor)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x3cdbd04;
+  constexpr static std::size_t size = 0x260;
+  constexpr static std::size_t addrs = 0x591e9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Lifetime::Lease*>::get(),
@@ -245,8 +244,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Lifetime::Lease::*)(::System::Object*, bool)>(
     &::System::Runtime::Remoting::Lifetime::Lease::ProcessSponsorResponse)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3cdc064;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x591edb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

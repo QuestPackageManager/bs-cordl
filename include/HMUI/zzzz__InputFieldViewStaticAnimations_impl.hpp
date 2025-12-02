@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewStaticAnimations::*)()>(&::HMUI::InputFieldViewStaticAnimations::Awake)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39f943c;
+  constexpr static std::size_t addrs = 0x5671f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "Awake",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewStaticAnimations::*)()>(&::HMUI::InputFieldViewStaticAnimations::Start)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f94c8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5671fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "Start",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewStaticAnimations::*)()>(&::HMUI::InputFieldViewStaticAnimations::OnEnable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f95f0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x56720f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "OnEnable",
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewStaticAnimations::*)()>(&::HMUI::InputFieldViewStaticAnimations::OnDestroy)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x39f960c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5672110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), "OnDestroy",
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewStaticAnimations::*)(::HMUI::InputFieldView_SelectionState)>(
     &::HMUI::InputFieldViewStaticAnimations::HandleInputFieldViewSelectionStateDidChange)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39f94ec;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5671fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldViewStaticAnimations::*)()>(&::HMUI::InputFieldViewStaticAnimations::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f96d8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5672220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldViewStaticAnimations*>::get(), ".ctor",

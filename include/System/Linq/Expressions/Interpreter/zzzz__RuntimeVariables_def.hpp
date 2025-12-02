@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__IRuntimeVariables_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RuntimeVariables)
 namespace System::Runtime::CompilerServices {
@@ -18,7 +17,7 @@ class RuntimeVariables;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::RuntimeVariables);
-// Dependencies System.Object, System.Runtime.CompilerServices.IRuntimeVariables
+// Dependencies System.Object
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: System.Linq.Expressions.Interpreter.RuntimeVariables
@@ -33,7 +32,7 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IRuntimeVariables"
   constexpr operator ::System::Runtime::CompilerServices::IRuntimeVariables*() noexcept;
 
-  /// @brief Method Create, addr 0x40eaca8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x5d97318, size 0x50, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::IRuntimeVariables*
   Create(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
@@ -46,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set__boxes(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> value);
 
-  /// @brief Method .ctor, addr 0x40f5b40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da0494, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> boxes);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IRuntimeVariables"
@@ -67,7 +66,7 @@ public:
   RuntimeVariables(RuntimeVariables const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14083 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16530 };
 
   /// @brief Field _boxes, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::CompilerServices::IStrongBox*, ::Array<::System::Runtime::CompilerServices::IStrongBox*>*> ____boxes;

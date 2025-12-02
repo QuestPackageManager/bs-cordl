@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Configuration::SettingsSectionInternal* (*)()>(
     &::System::Net::Configuration::SettingsSectionInternal::get_Section)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43eecc4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x613ae8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Configuration::SettingsSectionInternal::*)()>(
     &::System::Net::Configuration::SettingsSectionInternal::get_Ipv6Enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eed1c;
+  constexpr static std::size_t addrs = 0x613aee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Configuration::SettingsSectionInternal::*)()>(
     &::System::Net::Configuration::SettingsSectionInternal::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x43eed24;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x613aef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Configuration::SettingsSectionInternal*>::get(),

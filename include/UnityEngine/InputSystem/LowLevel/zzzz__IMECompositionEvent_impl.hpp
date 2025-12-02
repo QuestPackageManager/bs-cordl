@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/IMECompositionEvent.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionEvent_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::IMECompositionEvent.get_typeStatic
 template <>
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::IMECompositionEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionEvent::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4609d34;
+  constexpr static std::size_t addrs = 0x6390fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::IMECompositionEvent>::get(),
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::IMECompositionEvent (*)(int32_t, ::StringW, double_t)>(
     &::UnityEngine::InputSystem::LowLevel::IMECompositionEvent::Create)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4609d40;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6390fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

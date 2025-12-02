@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::CurvedCanvasSettings::*)()>(&::HMUI::CurvedCanvasSettings::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ec1e4;
+  constexpr static std::size_t addrs = 0x5663c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedCanvasSettings*>::get(), "get_radius",
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedCanvasSettings::*)(float_t)>(&::HMUI::CurvedCanvasSettings::SetRadius)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39ec1ec;
+  constexpr static std::size_t addrs = 0x5663c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedCanvasSettings::*)()>(&::HMUI::CurvedCanvasSettings::Start)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x39ec2f4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5663d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedCanvasSettings::*)(::UnityEngine::UI::VertexHelper*)>(
     &::HMUI::CurvedCanvasSettings::OnPopulateMesh)> {
   constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x39ec398;
+  constexpr static std::size_t addrs = 0x5663e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HMUI::CurvedCanvasSettings::*)(::UnityEngine::Vector2)>(
     &::HMUI::CurvedCanvasSettings::TransformPointFromCanvasTo3D)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ec52c;
+  constexpr static std::size_t addrs = 0x5663fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*)>(&::HMUI::CurvedCanvasSettings::RebuildAndSetup)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39ec204;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5663c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::CurvedCanvasSettings::*)()>(&::HMUI::CurvedCanvasSettings::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39ec56c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5664000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::CurvedCanvasSettings*>::get(), ".ctor",

@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/DeltaStateEvent.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__DeltaStateEvent_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_deltaStateSizeInBytes)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x460958c;
+  constexpr static std::size_t addrs = 0x6390820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(),
@@ -33,10 +33,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent.get_deltaState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<void> (::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void* (::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_deltaState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4609598;
+  constexpr static std::size_t addrs = 0x639082c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(),
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_typeStatic)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x46095a0;
+  constexpr static std::size_t addrs = 0x6390834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(),
@@ -64,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventPtr (::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::*)()>(
     &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::ToEventPtr)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46095ac;
+  constexpr static std::size_t addrs = 0x6390840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(),
@@ -75,10 +75,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent.From
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> (*)(
-    ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::From)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x46095b0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* (*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
+    &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::From)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x6390844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,10 +90,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent.FromUnchecked
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> (*)(
-    ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::FromUnchecked)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* (*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
+    &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::FromUnchecked)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46096d4;
+  constexpr static std::size_t addrs = 0x6390974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Collections::NativeArray_1<uint8_t> (*)(
     ::UnityEngine::InputSystem::InputControl*, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr>, ::Unity::Collections::Allocator)>(
     &::UnityEngine::InputSystem::LowLevel::DeltaStateEvent::From)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x46096d8;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x6390978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -161,10 +161,10 @@ inline uint32_t UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_deltaSt
                                                                              "get_deltaStateSizeInBytes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<void> UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_deltaState() {
+inline void* UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_deltaState() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(),
                                                                              "get_deltaState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<void*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::DeltaStateEvent::get_typeStatic() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(),
@@ -176,19 +176,17 @@ inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr UnityEngine::InputSys
                                                                              "ToEventPtr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputEventPtr, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>
-UnityEngine::InputSystem::LowLevel::DeltaStateEvent::From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
+inline ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* UnityEngine::InputSystem::LowLevel::DeltaStateEvent::From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
   static auto* ___internal_method = THROW_UNLESS((
       ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(), "From", std::span<Il2CppClass const* const, 0>(),
                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEventPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>, false>(nullptr, ___internal_method, ptr);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent*, false>(nullptr, ___internal_method, ptr);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>
-UnityEngine::InputSystem::LowLevel::DeltaStateEvent::FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
+inline ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* UnityEngine::InputSystem::LowLevel::DeltaStateEvent::FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>::get(), "FromUnchecked", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEventPtr>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent>, false>(nullptr, ___internal_method, ptr);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent*, false>(nullptr, ___internal_method, ptr);
 }
 inline ::Unity::Collections::NativeArray_1<uint8_t> UnityEngine::InputSystem::LowLevel::DeltaStateEvent::From(::UnityEngine::InputSystem::InputControl* control,
                                                                                                               ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,

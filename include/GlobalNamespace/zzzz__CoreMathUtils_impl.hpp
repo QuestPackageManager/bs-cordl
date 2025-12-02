@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::CoreMathUtils::CalculateHalfJumpDurationInBeats)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x26a2314;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x35d2118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV2)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26a2354;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x35d215c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(float_t, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::CoreMathUtils::__CalculateHalfJumpDurationInBeatsV1)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x26a2388;
+  constexpr static std::size_t addrs = 0x35d2194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CoreMathUtils::*)()>(&::GlobalNamespace::CoreMathUtils::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26a23d0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35d21dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CoreMathUtils*>::get(), ".ctor",

@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ITupleInternal)
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
 namespace System::Text {
 class StringBuilder;
 }
@@ -15,7 +17,7 @@ class ITupleInternal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ITupleInternal);
-// Dependencies System.Runtime.CompilerServices.ITuple
+// Dependencies
 namespace System {
 // Is value type: false
 // CS Name: System.ITupleInternal
@@ -36,7 +38,7 @@ public:
   ITupleInternal(ITupleInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2493 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -16,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour___c::*)()>(&::GlobalNamespace::CustomTweenBehaviour___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b348f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57160fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour___c*>::get(), ".ctor",
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::CustomTweenBehaviour___c::*)(int32_t)>(
     &::GlobalNamespace::CustomTweenBehaviour___c::_OnBehaviourPlay_b__21_0)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b348fc;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5716100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -78,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3b34074;
+  constexpr static std::size_t addrs = 0x5715854;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::GlobalNamespace::CustomTweenBehaviour::ProcessFrame)> {
-  constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x3b341b0;
+  constexpr static std::size_t size = 0x3e0;
+  constexpr static std::size_t addrs = 0x5715990;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::GlobalNamespace::CustomTweenBehaviour::OnPlayableDestroy)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b34598;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5715d70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::GlobalNamespace::CustomTweenBehaviour::OnBehaviourPlay)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x3b3469c;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x5715e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,8 +136,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CustomTweenBehaviour::*)()>(&::GlobalNamespace::CustomTweenBehaviour::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b34880;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5716094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CustomTweenBehaviour*>::get(), ".ctor",

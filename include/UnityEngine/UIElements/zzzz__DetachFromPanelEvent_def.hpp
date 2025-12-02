@@ -31,10 +31,10 @@ public:
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a30478, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b6e2d0, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::DetachFromPanelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a30470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6e2cc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent___c* getStaticF___9();
@@ -56,7 +56,7 @@ public:
   DetachFromPanelEvent___c(DetachFromPanelEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5898 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4528 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -75,7 +75,7 @@ public:
 
   static inline ::UnityEngine::UIElements::DetachFromPanelEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a303cc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6e22c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +93,12 @@ public:
   DetachFromPanelEvent(DetachFromPanelEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5899 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4529 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DetachFromPanelEvent, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::DetachFromPanelEvent, 0x78>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::DetachFromPanelEvent);

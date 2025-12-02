@@ -42,20 +42,28 @@ public:
   constexpr EventInterestReflectionUtils_DefaultEventInterests();
 
   // Ctor Parameters [CppParam { name: "DefaultActionCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "DefaultActionAtTargetCategories", ty: "int32_t", modifiers: "",
-  // def_value: None }]
-  constexpr EventInterestReflectionUtils_DefaultEventInterests(int32_t DefaultActionCategories, int32_t DefaultActionAtTargetCategories) noexcept;
+  // def_value: None }, CppParam { name: "HandleEventTrickleDownCategories", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "HandleEventBubbleUpCategories", ty: "int32_t",
+  // modifiers: "", def_value: None }]
+  constexpr EventInterestReflectionUtils_DefaultEventInterests(int32_t DefaultActionCategories, int32_t DefaultActionAtTargetCategories, int32_t HandleEventTrickleDownCategories,
+                                                               int32_t HandleEventBubbleUpCategories) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6314 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5231 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
 
   /// @brief Field DefaultActionCategories, offset: 0x0, size: 0x4, def value: None
   int32_t DefaultActionCategories;
 
   /// @brief Field DefaultActionAtTargetCategories, offset: 0x4, size: 0x4, def value: None
   int32_t DefaultActionAtTargetCategories;
+
+  /// @brief Field HandleEventTrickleDownCategories, offset: 0x8, size: 0x4, def value: None
+  int32_t HandleEventTrickleDownCategories;
+
+  /// @brief Field HandleEventBubbleUpCategories, offset: 0xc, size: 0x4, def value: None
+  int32_t HandleEventBubbleUpCategories;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -64,7 +72,11 @@ static_assert(offsetof(::UnityEngine::UIElements::EventInterestReflectionUtils_D
 
 static_assert(offsetof(::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, DefaultActionAtTargetCategories) == 0x4, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, 0x8>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, HandleEventTrickleDownCategories) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, HandleEventBubbleUpCategories) == 0xc, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies System.Object
@@ -84,13 +96,14 @@ public:
   __declspec(property(get = getStaticF_s_EventCategories,
                       put = setStaticF_s_EventCategories)) ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventCategory>* s_EventCategories;
 
-  /// @brief Method ComputeDefaultEventInterests, addr 0x499e3c8, size 0x204, virtual false, abstract: false, final false
+  /// @brief Method ComputeDefaultEventInterests, addr 0x6a96294, size 0x1f8, virtual false, abstract: false, final false
   static inline int32_t ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName);
 
-  /// @brief Method GetDefaultEventInterests, addr 0x499e19c, size 0x22c, virtual false, abstract: false, final false
-  static inline void GetDefaultEventInterests(::System::Type* elementType, ::ByRef<int32_t> defaultActionCategories, ::ByRef<int32_t> defaultActionAtTargetCategories);
+  /// @brief Method GetDefaultEventInterests, addr 0x6a95f70, size 0x324, virtual false, abstract: false, final false
+  static inline void GetDefaultEventInterests(::System::Type* elementType, ::ByRef<int32_t> defaultActionCategories, ::ByRef<int32_t> defaultActionAtTargetCategories,
+                                              ::ByRef<int32_t> handleEventTrickleDownCategories, ::ByRef<int32_t> handleEventBubbleUpCategories);
 
-  /// @brief Method GetEventCategory, addr 0x499e5cc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method GetEventCategory, addr 0x6a9648c, size 0x224, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::EventCategory GetEventCategory(::System::Type* eventType);
 
   static inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests>* getStaticF_s_DefaultEventInterests();
@@ -117,7 +130,7 @@ public:
   EventInterestReflectionUtils(EventInterestReflectionUtils const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6315 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5232 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

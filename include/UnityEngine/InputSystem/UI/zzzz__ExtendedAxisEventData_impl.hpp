@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45eda98;
+  constexpr static std::size_t addrs = 0x6373f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedAxisEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedAxisEventData::ToString)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x45edaa0;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6373f54;
 
   inline static ::MethodInfo const* methodInfo() {
 

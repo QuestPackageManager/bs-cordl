@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Converters/XmlDeclarationWrapper.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_impl.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_impl.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlDeclarationWrapper_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
+#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "System/Xml/zzzz__XmlDeclaration_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Converters::XmlDeclarationWrapper._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XmlDeclarationWrapper::*)(::System::Xml::XmlDeclaration*)>(
     &::Newtonsoft::Json::Converters::XmlDeclarationWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3f43388;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5b8a048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XmlDeclarationWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XmlDeclarationWrapper::get_Version)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f43994;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5b8a5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XmlDeclarationWrapper*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XmlDeclarationWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XmlDeclarationWrapper::get_Encoding)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f439b0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5b8a5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XmlDeclarationWrapper*>::get(),
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XmlDeclarationWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XmlDeclarationWrapper::set_Encoding)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f439cc;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5b8a5fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Converters::XmlDeclarationWrapper::*)()>(
     &::Newtonsoft::Json::Converters::XmlDeclarationWrapper::get_Standalone)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f439e8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5b8a628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Converters::XmlDeclarationWrapper*>::get(),
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Converters::XmlDeclarationWrapper::*)(::StringW)>(
     &::Newtonsoft::Json::Converters::XmlDeclarationWrapper::set_Standalone)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3f43a04;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5b8a640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

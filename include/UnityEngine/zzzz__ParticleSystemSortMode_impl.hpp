@@ -12,3 +12,5 @@ constexpr ::UnityEngine::ParticleSystemSortMode UnityEngine::ParticleSystemSortM
 constexpr ::UnityEngine::ParticleSystemSortMode UnityEngine::ParticleSystemSortMode::OldestInFront{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::ParticleSystemSortMode UnityEngine::ParticleSystemSortMode::YoungestInFront{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::ParticleSystemSortMode UnityEngine::ParticleSystemSortMode::Depth{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::ParticleSystemSortMode UnityEngine::ParticleSystemSortMode::DistanceReverse{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::ParticleSystemSortMode UnityEngine::ParticleSystemSortMode::DepthReverse{ static_cast<int32_t>(0x6) };

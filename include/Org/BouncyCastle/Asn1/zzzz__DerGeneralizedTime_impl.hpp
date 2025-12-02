@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::GetInstance)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2638984;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3568660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::GetInstance)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2638a80;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x3568760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::_ctor)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2638b9c;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x3568890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::System::DateTime)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2638f3c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3568c54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x262e61c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x355e54c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::get_TimeString)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2638fcc;
+  constexpr static std::size_t addrs = 0x3568ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::GetTime)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x2638fd4;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x3568ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(), "GetTime",
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::CalculateGmtOffset)> {
-  constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x2639250;
+  constexpr static std::size_t size = 0x2ec;
+  constexpr static std::size_t addrs = 0x3568f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::Org::BouncyCastle::Asn1::DerGeneralizedTime::Convert)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x26394f0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3569248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::ToDateTime)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x2638cac;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x3568990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -158,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(int32_t)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::FString)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x26395b0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3569314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::DateTime (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::StringW, ::StringW, bool)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::ParseDateString)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x2639634;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x35693a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::get_HasFractionalSeconds)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2639584;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x35692e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::GetOctets)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2639890;
+  constexpr static std::size_t addrs = 0x3569608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerGeneralizedTime*>::get(),
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::Org::BouncyCastle::Asn1::DerOutputStream*)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::Encode)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x263989c;
+  constexpr static std::size_t addrs = 0x3569614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,8 +232,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)(::Org::BouncyCastle::Asn1::Asn1Object*)>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::Asn1Equals)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x26398cc;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x3569644;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Asn1::DerGeneralizedTime::*)()>(
     &::Org::BouncyCastle::Asn1::DerGeneralizedTime::Asn1GetHashCode)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2639964;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x35696ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

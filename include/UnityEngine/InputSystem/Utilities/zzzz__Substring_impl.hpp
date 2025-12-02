@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Utilities/Substring.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__Substring_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__StringComparison_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::Substring::*)()>(
     &::UnityEngine::InputSystem::Utilities::Substring::get_isEmpty)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45717a8;
+  constexpr static std::size_t addrs = 0x62ec460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Substring>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::Substring::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::Substring::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x45717b8;
+  constexpr static std::size_t addrs = 0x62ec470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::Substring::*)(::StringW, int32_t, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::Substring::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x457165c;
+  constexpr static std::size_t addrs = 0x62ec314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Utilities::Substring::*)(::StringW, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::Substring::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x45717d8;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x62ec490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::Substring::*)(::System::Object*)>(
     &::UnityEngine::InputSystem::Utilities::Substring::Equals)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4571800;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x62ec4b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::Substring::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::Substring::Equals)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x45718e4;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x62ec574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::Substring::*)(::UnityEngine::InputSystem::Utilities::Substring)>(
     &::UnityEngine::InputSystem::Utilities::Substring::Equals)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45718b4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x62ec55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::Substring::*)(::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::Substring::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x45719c8;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x62ec664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Substring::*)(::UnityEngine::InputSystem::Utilities::Substring)>(
     &::UnityEngine::InputSystem::Utilities::Substring::CompareTo)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45719ac;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x62ec624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -147,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Utilities::Substring, ::UnityEngine::InputSystem::Utilities::Substring,
                                                                                               ::System::StringComparison)>(&::UnityEngine::InputSystem::Utilities::Substring::Compare)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4571a48;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x62ec6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -164,8 +164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::Utilities::Substring::*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::Substring::StartsWith)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4571a70;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x62ec700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::Substring::*)(int32_t, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::Substring::Substr)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4571b10;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x62ec790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Utilities::Substring::*)()>(
     &::UnityEngine::InputSystem::Utilities::Substring::ToString)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4571b44;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x62ec7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Substring::*)()>(
     &::UnityEngine::InputSystem::Utilities::Substring::GetHashCode)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4571bac;
+  constexpr static std::size_t addrs = 0x62ec7ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::Substring, ::UnityEngine::InputSystem::Utilities::Substring)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Equality)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4571bfc;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x62ec83c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,8 +242,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::Substring, ::UnityEngine::InputSystem::Utilities::Substring)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Inequality)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4571c18;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x62ec86c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -259,7 +259,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::Substring, ::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Equality)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4571c34;
+  constexpr static std::size_t addrs = 0x62ec89c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,7 +275,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::Substring, ::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Inequality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4571c60;
+  constexpr static std::size_t addrs = 0x62ec8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::Substring)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4571c90;
+  constexpr static std::size_t addrs = 0x62ec8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -307,7 +307,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::Substring)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4571cc0;
+  constexpr static std::size_t addrs = 0x62ec928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -323,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::Substring (*)(::StringW)>(
     &::UnityEngine::InputSystem::Utilities::Substring::op_Implicit___UnityEngine__InputSystem__Utilities__Substring)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4571cf4;
+  constexpr static std::size_t addrs = 0x62ec95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,7 +338,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Substring::*)()>(
     &::UnityEngine::InputSystem::Utilities::Substring::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4571d0c;
+  constexpr static std::size_t addrs = 0x62ec974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Substring>::get(),
@@ -352,7 +352,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::Utilities::Substring::*)()>(
     &::UnityEngine::InputSystem::Utilities::Substring::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4571d14;
+  constexpr static std::size_t addrs = 0x62ec97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::Substring>::get(),
@@ -365,8 +365,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::UnityEngine::InputSystem::Utilities::Substring::*)(int32_t)>(
     &::UnityEngine::InputSystem::Utilities::Substring::get_Item)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4571d1c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x62ec984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

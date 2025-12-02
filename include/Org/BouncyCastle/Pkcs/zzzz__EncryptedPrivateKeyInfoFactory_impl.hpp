@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::*)()>(
     &::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25555dc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3485610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                               ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
         &::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::CreateEncryptedPrivateKeyInfo)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x25555e4;
+  constexpr static std::size_t addrs = 0x3485614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,7 +52,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                               ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
         &::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::CreateEncryptedPrivateKeyInfo)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25547fc;
+  constexpr static std::size_t addrs = 0x34847fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
                                                                               ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(
         &::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::CreateEncryptedPrivateKeyInfo)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x2555638;
+  constexpr static std::size_t size = 0x298;
+  constexpr static std::size_t addrs = 0x3485668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,7 +95,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                               ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
         &::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::CreateEncryptedPrivateKeyInfo)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x25558cc;
+  constexpr static std::size_t addrs = 0x3485900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,8 +119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                                                                               ::ArrayW<char16_t, ::Array<char16_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
                                                                               ::Org::BouncyCastle::Security::SecureRandom*, ::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*)>(
         &::Org::BouncyCastle::Pkcs::EncryptedPrivateKeyInfoFactory::CreateEncryptedPrivateKeyInfo)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x2555930;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x3485964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -29,6 +29,9 @@ public:
     __E_Area = static_cast<int32_t>(0x3),
     __E_Rectangle = static_cast<int32_t>(0x3),
     __E_Disc = static_cast<int32_t>(0x4),
+    __E_Pyramid = static_cast<int32_t>(0x5),
+    __E_Box = static_cast<int32_t>(0x6),
+    __E_Tube = static_cast<int32_t>(0x7),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -51,6 +54,9 @@ public:
   /// @brief Field Area value: I32(3)
   static ::UnityEngine::LightType const Area;
 
+  /// @brief Field Box value: I32(6)
+  static ::UnityEngine::LightType const Box;
+
   /// @brief Field Directional value: I32(1)
   static ::UnityEngine::LightType const Directional;
 
@@ -60,14 +66,20 @@ public:
   /// @brief Field Point value: I32(2)
   static ::UnityEngine::LightType const Point;
 
+  /// @brief Field Pyramid value: I32(5)
+  static ::UnityEngine::LightType const Pyramid;
+
   /// @brief Field Rectangle value: I32(3)
   static ::UnityEngine::LightType const Rectangle;
 
   /// @brief Field Spot value: I32(0)
   static ::UnityEngine::LightType const Spot;
 
+  /// @brief Field Tube value: I32(7)
+  static ::UnityEngine::LightType const Tube;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10750 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10150 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SimpleAttributeTableGenerator)
 namespace Org::BouncyCastle::Asn1::Cms {
 class AttributeTable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsAttributeTableGenerator;
 }
 namespace System::Collections {
 class IDictionary;
@@ -18,7 +20,7 @@ class SimpleAttributeTableGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator);
-// Dependencies Org.BouncyCastle.Cms.CmsAttributeTableGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.SimpleAttributeTableGenerator
@@ -31,7 +33,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*() noexcept;
 
-  /// @brief Method GetAttributes, addr 0x26822c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetAttributes, addr 0x35b181c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::AttributeTable* GetAttributes(::System::Collections::IDictionary* parameters);
 
   static inline ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator* New_ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
@@ -42,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_attributes(::Org::BouncyCastle::Asn1::Cms::AttributeTable* value);
 
-  /// @brief Method .ctor, addr 0x26822a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b1814, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::AttributeTable* attributes);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsAttributeTableGenerator"

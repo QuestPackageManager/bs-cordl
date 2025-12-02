@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/DualShock/IDualShockHaptics.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_impl.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_impl.hpp"
 #include "UnityEngine/InputSystem/DualShock/zzzz__IDualShockHaptics_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::DualShock::IDualShockHaptics.SetLightBarColor
 template <>

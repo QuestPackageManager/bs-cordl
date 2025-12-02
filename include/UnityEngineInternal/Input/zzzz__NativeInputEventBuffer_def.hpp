@@ -24,7 +24,7 @@ public:
   __declspec(property(get = __cordl_internal_get_capacityInBytes, put = __cordl_internal_set_capacityInBytes)) int32_t capacityInBytes;
 
   /// @brief Field eventBuffer, offset 0x0, size 0x8
-  __declspec(property(get = __cordl_internal_get_eventBuffer, put = __cordl_internal_set_eventBuffer)) ::cordl_internals::Ptr<void> eventBuffer;
+  __declspec(property(get = __cordl_internal_get_eventBuffer, put = __cordl_internal_set_eventBuffer)) void* eventBuffer;
 
   /// @brief Field eventCount, offset 0x8, size 0x4
   __declspec(property(get = __cordl_internal_get_eventCount, put = __cordl_internal_set_eventCount)) int32_t eventCount;
@@ -36,9 +36,9 @@ public:
 
   constexpr int32_t& __cordl_internal_get_capacityInBytes();
 
-  constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get_eventBuffer() const;
+  constexpr void* const& __cordl_internal_get_eventBuffer() const;
 
-  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get_eventBuffer();
+  constexpr void*& __cordl_internal_get_eventBuffer();
 
   constexpr int32_t const& __cordl_internal_get_eventCount() const;
 
@@ -50,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_capacityInBytes(int32_t value);
 
-  constexpr void __cordl_internal_set_eventBuffer(::cordl_internals::Ptr<void> value);
+  constexpr void __cordl_internal_set_eventBuffer(void* value);
 
   constexpr void __cordl_internal_set_eventCount(int32_t value);
 
@@ -60,9 +60,9 @@ public:
   // @brief default ctor
   constexpr NativeInputEventBuffer();
 
-  // Ctor Parameters [CppParam { name: "eventBuffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr NativeInputEventBuffer(::cordl_internals::Ptr<void> eventBuffer, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes) noexcept;
+  // Ctor Parameters [CppParam { name: "eventBuffer", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "eventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "sizeInBytes", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "capacityInBytes", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr NativeInputEventBuffer(void* eventBuffer, int32_t eventCount, int32_t sizeInBytes, int32_t capacityInBytes) noexcept;
 
 private:
   /// @brief Explicitly laid out type with union based offsets
@@ -72,14 +72,14 @@ private:
       /// @brief Padding field 0x0
       uint8_t ___eventBuffer_padding[0x0];
       /// @brief Field eventBuffer, offset: 0x0, size: 0x8, def value: None
-      ::cordl_internals::Ptr<void> ___eventBuffer;
+      void* ___eventBuffer;
     };
 #pragma pack(pop, tp)
     struct {
       /// @brief Padding field 0x0 for alignment
       uint8_t ___eventBuffer_padding_forAlignment[0x0];
       /// @brief Field eventBuffer, offset: 0x0, size: 0x8, def value: None
-      ::cordl_internals::Ptr<void> ___eventBuffer_forAlignment;
+      void* ___eventBuffer_forAlignment;
     };
 #pragma pack(push, tp, 1)
     struct {
@@ -127,7 +127,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22898 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };

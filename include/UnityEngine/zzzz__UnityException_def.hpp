@@ -31,13 +31,13 @@ public:
 
   static inline ::UnityEngine::UnityException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x48af748, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b35a4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x48af7c8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b362c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x48adf98, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68b1168, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   UnityException(UnityException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10341 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

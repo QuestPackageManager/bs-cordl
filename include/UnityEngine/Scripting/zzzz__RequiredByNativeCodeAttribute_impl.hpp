@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)()>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x491929c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6982228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>::get(),
@@ -21,13 +21,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49192a4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698222c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Scripting::RequiredByNativeCodeAttribute._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
+    &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6982234;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -37,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(::StringW)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49192cc;
+  constexpr static std::size_t addrs = 0x698223c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Optional)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49192d4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6982244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -66,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Scripting::RequiredByNativeCodeAttribute::*)(bool)>(
     &::UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_GenerateProxy)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49192e0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,6 +138,12 @@ inline void UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor(::Strin
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
+inline void UnityEngine::Scripting::RequiredByNativeCodeAttribute::_ctor(bool optional) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, optional);
+}
 inline void UnityEngine::Scripting::RequiredByNativeCodeAttribute::set_Name(::StringW value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>::get(), "set_Name",
@@ -146,6 +167,9 @@ inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* UnityEngine::Scr
 }
 inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* UnityEngine::Scripting::RequiredByNativeCodeAttribute::New_ctor(::StringW name) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>(name));
+}
+inline ::UnityEngine::Scripting::RequiredByNativeCodeAttribute* UnityEngine::Scripting::RequiredByNativeCodeAttribute::New_ctor(bool optional) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Scripting::RequiredByNativeCodeAttribute*>(optional));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::Scripting::RequiredByNativeCodeAttribute::RequiredByNativeCodeAttribute() {}

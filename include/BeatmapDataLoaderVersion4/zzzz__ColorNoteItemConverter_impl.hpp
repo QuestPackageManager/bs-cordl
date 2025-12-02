@@ -12,8 +12,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::ColorNoteItemConverter::*)(
     ::ArrayW<::BeatmapSaveDataVersion4::ColorNote, ::Array<::BeatmapSaveDataVersion4::ColorNote>*>, ::GlobalNamespace::BpmTimeProcessor*)>(
     &::BeatmapDataLoaderVersion4::ColorNoteItemConverter::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x270d188;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x363884c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapObjectData* (
     ::BeatmapDataLoaderVersion4::ColorNoteItemConverter::*)(::BeatmapSaveDataVersion4::BeatmapBeatIndex*)>(&::BeatmapDataLoaderVersion4::ColorNoteItemConverter::Convert)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x270d298;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x3638884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

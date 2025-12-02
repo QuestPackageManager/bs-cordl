@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_m_next(::System::Security::Util::TokenizerShortBlock* value);
 
-  /// @brief Method .ctor, addr 0x3c990a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd654, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   TokenizerShortBlock(TokenizerShortBlock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2900 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2917 };
 
   /// @brief Field m_block, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int16_t, ::Array<int16_t>*> ___m_block;

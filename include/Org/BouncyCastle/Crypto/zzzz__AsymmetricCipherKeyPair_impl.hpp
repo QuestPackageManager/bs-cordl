@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(&::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::_ctor)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2447534;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3375e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(
     &::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Public)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2447608;
+  constexpr static std::size_t addrs = 0x3375f38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* (::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::*)()>(
     &::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair::get_Private)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2447610;
+  constexpr static std::size_t addrs = 0x3375f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair*>::get(),

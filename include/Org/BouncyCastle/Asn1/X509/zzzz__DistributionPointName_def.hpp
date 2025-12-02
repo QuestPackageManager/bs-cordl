@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DistributionPointName)
@@ -20,6 +19,9 @@ class Asn1Object;
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
 }
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
+}
 namespace System::Text {
 class StringBuilder;
 }
@@ -32,7 +34,7 @@ class DistributionPointName;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::DistributionPointName);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.X509.DistributionPointName
@@ -52,10 +54,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2604cec, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3534ce0, size 0x18, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
 
-  /// @brief Method GetInstance, addr 0x2605188, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x353514c, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name);
@@ -64,10 +66,10 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* New_ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
-  /// @brief Method ToAsn1Object, addr 0x26053c8, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x353533c, size 0x6c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
-  /// @brief Method ToString, addr 0x2605434, size 0x168, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x35353a8, size 0x170, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_name() const;
@@ -82,22 +84,22 @@ public:
 
   constexpr void __cordl_internal_set_type(int32_t value);
 
-  /// @brief Method .ctor, addr 0x260538c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3535320, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralNames* name);
 
-  /// @brief Method .ctor, addr 0x2605304, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35352d0, size 0x44, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj);
 
-  /// @brief Method .ctor, addr 0x260535c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3535314, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t type, ::Org::BouncyCastle::Asn1::Asn1Encodable* name);
 
-  /// @brief Method appendObject, addr 0x260559c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method appendObject, addr 0x3535518, size 0xe4, virtual false, abstract: false, final false
   inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
 
-  /// @brief Method get_Name, addr 0x26053c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x3535334, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Name();
 
-  /// @brief Method get_PointType, addr 0x26053b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PointType, addr 0x353532c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_PointType();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

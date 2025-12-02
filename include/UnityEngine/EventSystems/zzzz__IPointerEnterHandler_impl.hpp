@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/EventSystems/IPointerEnterHandler.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::IPointerEnterHandler.OnPointerEnter
 template <>

@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__Title_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d21e20, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5967098, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW title);
 
 protected:
@@ -48,7 +48,7 @@ public:
   AssemblyTitleAttribute(AssemblyTitleAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3456 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3476 };
 
   /// @brief Field <Title>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Title_k__BackingField;

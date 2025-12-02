@@ -10,7 +10,7 @@ namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class LinkedList_1;
+template <typename T> class Stack_1;
 }
 // Forward declare root types
 namespace UnityEngine::ResourceManagement::Util {
@@ -32,33 +32,51 @@ public:
   __declspec(property(get = get_CreatedNodeCount)) int32_t CreatedNodeCount;
 
   /// @brief Field m_NodeCache, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_NodeCache, put = __cordl_internal_set_m_NodeCache)) ::System::Collections::Generic::LinkedList_1<T>* m_NodeCache;
+  __declspec(property(get = __cordl_internal_get_m_NodeCache,
+                      put = __cordl_internal_set_m_NodeCache)) ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<T>*>* m_NodeCache;
 
-  /// @brief Field m_NodesCreated, offset 0x10, size 0x4
+  /// @brief Field m_NodesCreated, offset 0x14, size 0x4
   __declspec(property(get = __cordl_internal_get_m_NodesCreated, put = __cordl_internal_set_m_NodesCreated)) int32_t m_NodesCreated;
+
+  /// @brief Field m_maxNodesAllowed, offset 0x10, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_maxNodesAllowed, put = __cordl_internal_set_m_maxNodesAllowed)) int32_t m_maxNodesAllowed;
 
   /// @brief Method Acquire, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::LinkedListNode_1<T>* Acquire(T val);
 
+  /// @brief Method InitCache, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void InitCache(int32_t maxNodesAllowed, int32_t initialCapacity, int32_t initialPreallocateCount);
+
   static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* New_ctor();
+
+  static inline ::UnityEngine::ResourceManagement::Util::LinkedListNodeCache_1<T>* New_ctor(int32_t maxNodesAllowed, int32_t initialCapacity, int32_t initialPreallocateCount);
 
   /// @brief Method Release, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Release(::System::Collections::Generic::LinkedListNode_1<T>* node);
 
-  constexpr ::System::Collections::Generic::LinkedList_1<T>* const& __cordl_internal_get_m_NodeCache() const;
+  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<T>*>* const& __cordl_internal_get_m_NodeCache() const;
 
-  constexpr ::System::Collections::Generic::LinkedList_1<T>*& __cordl_internal_get_m_NodeCache();
+  constexpr ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<T>*>*& __cordl_internal_get_m_NodeCache();
 
   constexpr int32_t const& __cordl_internal_get_m_NodesCreated() const;
 
   constexpr int32_t& __cordl_internal_get_m_NodesCreated();
 
-  constexpr void __cordl_internal_set_m_NodeCache(::System::Collections::Generic::LinkedList_1<T>* value);
+  constexpr int32_t const& __cordl_internal_get_m_maxNodesAllowed() const;
+
+  constexpr int32_t& __cordl_internal_get_m_maxNodesAllowed();
+
+  constexpr void __cordl_internal_set_m_NodeCache(::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<T>*>* value);
 
   constexpr void __cordl_internal_set_m_NodesCreated(int32_t value);
 
+  constexpr void __cordl_internal_set_m_maxNodesAllowed(int32_t value);
+
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(int32_t maxNodesAllowed, int32_t initialCapacity, int32_t initialPreallocateCount);
 
   /// @brief Method get_CachedNodeCount, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_CachedNodeCount();
@@ -84,13 +102,16 @@ public:
   LinkedListNodeCache_1(LinkedListNodeCache_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18705 };
 
-  /// @brief Field m_NodesCreated, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field m_maxNodesAllowed, offset: 0x10, size: 0x4, def value: None
+  int32_t ___m_maxNodesAllowed;
+
+  /// @brief Field m_NodesCreated, offset: 0x14, size: 0x4, def value: None
   int32_t ___m_NodesCreated;
 
   /// @brief Field m_NodeCache, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::LinkedList_1<T>* ___m_NodeCache;
+  ::System::Collections::Generic::Stack_1<::System::Collections::Generic::LinkedListNode_1<T>*>* ___m_NodeCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

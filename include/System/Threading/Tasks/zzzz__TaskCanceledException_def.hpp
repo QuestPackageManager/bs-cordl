@@ -45,16 +45,16 @@ public:
 
   constexpr void __cordl_internal_set__canceledTask(::System::Threading::Tasks::Task* value);
 
-  /// @brief Method .ctor, addr 0x3e5eabc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4420, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e5ebb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4540, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e5eb08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa447c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e5eb10, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa449c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
 protected:
@@ -72,7 +72,7 @@ public:
   TaskCanceledException(TaskCanceledException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2770 };
 
   /// @brief Field _canceledTask, offset: 0x98, size: 0x8, def value: None
   ::System::Threading::Tasks::Task* ____canceledTask;

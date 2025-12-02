@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Operators/zzzz__WrapperProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RsaOaepWrapperProvider)
 namespace Org::BouncyCastle::Asn1 {
 class DerObjectIdentifier;
+}
+namespace Org::BouncyCastle::Crypto::Operators {
+class WrapperProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class ICipherParameters;
@@ -21,7 +23,7 @@ class RsaOaepWrapperProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider);
-// Dependencies Org.BouncyCastle.Crypto.Operators.WrapperProvider, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.RsaOaepWrapperProvider
@@ -36,7 +38,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapperProvider* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
-  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x23b26f4, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Org.BouncyCastle.Crypto.Operators.WrapperProvider.CreateWrapper, addr 0x32e091c, size 0x78, virtual true, abstract: false, final true
   inline ::System::Object* Org_BouncyCastle_Crypto_Operators_WrapperProvider_CreateWrapper(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_digestOid() const;
@@ -45,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set_digestOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x23b1fec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e025c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestOid);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Operators::WrapperProvider"

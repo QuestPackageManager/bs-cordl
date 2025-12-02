@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/IDsaExt.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDsa_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDsaExt_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDsa_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IDsaExt.get_Order
 template <>

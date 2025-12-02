@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Mono/Globalization/Unicode/ContractionComparer.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__ContractionComparer_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__Contraction_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::ContractionComparer.Compare
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::ContractionComparer::*)(
     ::Mono::Globalization::Unicode::Contraction*, ::Mono::Globalization::Unicode::Contraction*)>(&::Mono::Globalization::Unicode::ContractionComparer::Compare)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c5835c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x589b1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::ContractionComparer::*)()>(
     &::Mono::Globalization::Unicode::ContractionComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c583f0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x589b298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::ContractionComparer*>::get(),

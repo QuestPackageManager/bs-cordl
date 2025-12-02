@@ -41,13 +41,13 @@ public:
   /// @brief Field utf8EncodingWithoutMarkers, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_utf8EncodingWithoutMarkers, put = setStaticF_utf8EncodingWithoutMarkers)) ::System::Text::Encoding* utf8EncodingWithoutMarkers;
 
-  /// @brief Method GetDefaultEncoding, addr 0x3c8ffb0, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetDefaultEncoding, addr 0x58d4618, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* GetDefaultEncoding();
 
-  /// @brief Method InternalCodePage, addr 0x3c93210, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method InternalCodePage, addr 0x58d7898, size 0x4, virtual false, abstract: false, final false
   static inline ::StringW InternalCodePage(::ByRef<int32_t> code_page);
 
-  /// @brief Method InvokeI18N, addr 0x3c8e420, size 0x714, virtual false, abstract: false, final false
+  /// @brief Method InvokeI18N, addr 0x58d2b2c, size 0x6cc, virtual false, abstract: false, final false
   static inline ::System::Object* InvokeI18N(::StringW name, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::System::Reflection::Assembly* getStaticF_i18nAssembly();
@@ -58,7 +58,7 @@ public:
 
   static inline ::System::Text::Encoding* getStaticF_utf8EncodingWithoutMarkers();
 
-  /// @brief Method get_UTF8Unmarked, addr 0x3c9302c, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method get_UTF8Unmarked, addr 0x58d76a4, size 0x1f4, virtual false, abstract: false, final false
   static inline ::System::Text::Encoding* get_UTF8Unmarked();
 
   static inline void setStaticF_i18nAssembly(::System::Reflection::Assembly* value);
@@ -84,7 +84,7 @@ public:
   EncodingHelper(EncodingHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2896 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

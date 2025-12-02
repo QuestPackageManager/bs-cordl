@@ -13,8 +13,20 @@ template <typename T> class List_1;
 namespace System {
 class Action;
 }
+namespace System {
+struct IntPtr;
+}
+namespace UnityEngine::Bindings {
+struct BlittableArrayWrapper;
+}
+namespace UnityEngine::Bindings {
+struct ManagedSpanWrapper;
+}
 namespace UnityEngine::Rendering {
 struct SphericalHarmonicsL2;
+}
+namespace UnityEngine::SceneManagement {
+struct Scene;
 }
 namespace UnityEngine {
 class Renderer;
@@ -42,9 +54,13 @@ public:
 
   __declspec(property(get = get_cellCount)) int32_t cellCount;
 
+  __declspec(property(get = get_cellCountSelf)) int32_t cellCountSelf;
+
   __declspec(property(get = get_coefficients, put = set_coefficients)) ::ArrayW<float_t, ::Array<float_t>*> coefficients;
 
   __declspec(property(get = get_count)) int32_t count;
+
+  __declspec(property(get = get_countSelf)) int32_t countSelf;
 
   /// @brief Field lightProbesUpdated, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_lightProbesUpdated, put = setStaticF_lightProbesUpdated)) ::System::Action* lightProbesUpdated;
@@ -57,64 +73,96 @@ public:
   /// @brief Field tetrahedralizationCompleted, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_tetrahedralizationCompleted, put = setStaticF_tetrahedralizationCompleted)) ::System::Action* tetrahedralizationCompleted;
 
-  /// @brief Method AreLightProbesAllowed, addr 0x4877a34, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method AreLightProbesAllowed, addr 0x6855900, size 0x80, virtual false, abstract: false, final false
   static inline bool AreLightProbesAllowed(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x4877a70, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method AreLightProbesAllowed_Injected, addr 0x6855980, size 0x3c, virtual false, abstract: false, final false
+  static inline bool AreLightProbesAllowed_Injected(::System::IntPtr renderer);
+
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x68559bc, size 0x148, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions,
                                                                   ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> lightProbes,
                                                                   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> occlusionProbes);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x4877c50, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes, addr 0x6855cc0, size 0x1d8, virtual false, abstract: false, final false
   static inline void CalculateInterpolatedLightAndOcclusionProbes(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* positions,
                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Rendering::SphericalHarmonicsL2>* lightProbes,
                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* occlusionProbes);
 
-  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes_Internal, addr 0x4877bf4, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes_Internal, addr 0x6855b04, size 0x1bc, virtual false, abstract: false, final false
   static inline void
   CalculateInterpolatedLightAndOcclusionProbes_Internal(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, int32_t positionsCount,
                                                         ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> lightProbes,
                                                         ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> occlusionProbes);
 
-  /// @brief Method GetCount, addr 0x4878014, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected, addr 0x6855e98, size 0x5c, virtual false, abstract: false, final false
+  static inline void CalculateInterpolatedLightAndOcclusionProbes_Internal_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> positions, int32_t positionsCount,
+                                                                                    ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> lightProbes,
+                                                                                    ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> occlusionProbes);
+
+  /// @brief Method GetCount, addr 0x6856c34, size 0x28, virtual false, abstract: false, final false
   static inline int32_t GetCount();
 
-  /// @brief Method GetInterpolatedLightProbe, addr 0x487803c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetInstantiatedLightProbesForScene, addr 0x6856050, size 0x120, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::LightProbes> GetInstantiatedLightProbesForScene(::UnityEngine::SceneManagement::Scene scene);
+
+  /// @brief Method GetInstantiatedLightProbesForScene_Injected, addr 0x6856170, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetInstantiatedLightProbesForScene_Injected(::ByRef<::UnityEngine::SceneManagement::Scene> scene);
+
+  /// @brief Method GetInterpolatedLightProbe, addr 0x6856c5c, size 0x4, virtual false, abstract: false, final false
   inline void GetInterpolatedLightProbe(::UnityEngine::Vector3 position, ::UnityEngine::Renderer* renderer, ::ArrayW<float_t, ::Array<float_t>*> coefficients);
 
-  /// @brief Method GetInterpolatedProbe, addr 0x4877984, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method GetInterpolatedProbe, addr 0x6855804, size 0xa8, virtual false, abstract: false, final false
   static inline void GetInterpolatedProbe(::UnityEngine::Vector3 position, ::UnityEngine::Renderer* renderer, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
 
-  /// @brief Method GetInterpolatedProbe_Injected, addr 0x48779e0, size 0x54, virtual false, abstract: false, final false
-  static inline void GetInterpolatedProbe_Injected(::ByRef<::UnityEngine::Vector3> position, ::UnityEngine::Renderer* renderer, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
+  /// @brief Method GetInterpolatedProbe_Injected, addr 0x68558ac, size 0x54, virtual false, abstract: false, final false
+  static inline void GetInterpolatedProbe_Injected(::ByRef<::UnityEngine::Vector3> position, ::System::IntPtr renderer, ::ByRef<::UnityEngine::Rendering::SphericalHarmonicsL2> probe);
 
-  /// @brief Method Internal_CallLightProbesUpdatedFunction, addr 0x4877518, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method GetPositionsSelf, addr 0x6856350, size 0x160, virtual false, abstract: false, final false
+  inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GetPositionsSelf();
+
+  /// @brief Method GetPositionsSelf_Injected, addr 0x68564b0, size 0x44, virtual false, abstract: false, final false
+  static inline void GetPositionsSelf_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method GetSharedLightProbesForScene, addr 0x6855ef4, size 0x120, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::LightProbes> GetSharedLightProbesForScene(::UnityEngine::SceneManagement::Scene scene);
+
+  /// @brief Method GetSharedLightProbesForScene_Injected, addr 0x6856014, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr GetSharedLightProbesForScene_Injected(::ByRef<::UnityEngine::SceneManagement::Scene> scene);
+
+  /// @brief Method Internal_CallLightProbesUpdatedFunction, addr 0x685533c, size 0x68, virtual false, abstract: false, final false
   static inline void Internal_CallLightProbesUpdatedFunction();
 
-  /// @brief Method Internal_CallNeedsRetetrahedralizationFunction, addr 0x48778d0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallNeedsRetetrahedralizationFunction, addr 0x685574c, size 0x68, virtual false, abstract: false, final false
   static inline void Internal_CallNeedsRetetrahedralizationFunction();
 
-  /// @brief Method Internal_CallTetrahedralizationCompletedFunction, addr 0x48776f4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Internal_CallTetrahedralizationCompletedFunction, addr 0x6855544, size 0x68, virtual false, abstract: false, final false
   static inline void Internal_CallTetrahedralizationCompletedFunction();
 
   static inline ::UnityEngine::LightProbes* New_ctor();
 
-  /// @brief Method Tetrahedralize, addr 0x4877934, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method SetPositionsSelf, addr 0x68564f4, size 0x110, virtual false, abstract: false, final false
+  inline bool SetPositionsSelf(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> positions, bool checkForDuplicatePositions);
+
+  /// @brief Method SetPositionsSelf_Injected, addr 0x6856604, size 0x54, virtual false, abstract: false, final false
+  static inline bool SetPositionsSelf_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> positions, bool checkForDuplicatePositions);
+
+  /// @brief Method Tetrahedralize, addr 0x68557b4, size 0x28, virtual false, abstract: false, final false
   static inline void Tetrahedralize();
 
-  /// @brief Method TetrahedralizeAsync, addr 0x487795c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method TetrahedralizeAsync, addr 0x68557dc, size 0x28, virtual false, abstract: false, final false
   static inline void TetrahedralizeAsync();
 
-  /// @brief Method .ctor, addr 0x4877350, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x685514c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_lightProbesUpdated, addr 0x48773a8, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method add_lightProbesUpdated, addr 0x68551a4, size 0xcc, virtual false, abstract: false, final false
   static inline void add_lightProbesUpdated(::System::Action* value);
 
-  /// @brief Method add_needsRetetrahedralization, addr 0x4877758, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_needsRetetrahedralization, addr 0x68555ac, size 0xd0, virtual false, abstract: false, final false
   static inline void add_needsRetetrahedralization(::System::Action* value);
 
-  /// @brief Method add_tetrahedralizationCompleted, addr 0x487757c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method add_tetrahedralizationCompleted, addr 0x68553a4, size 0xd0, virtual false, abstract: false, final false
   static inline void add_tetrahedralizationCompleted(::System::Action* value);
 
   static inline ::System::Action* getStaticF_lightProbesUpdated();
@@ -123,28 +171,52 @@ public:
 
   static inline ::System::Action* getStaticF_tetrahedralizationCompleted();
 
-  /// @brief Method get_bakedProbes, addr 0x4877f1c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedProbes, addr 0x6856658, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> get_bakedProbes();
 
-  /// @brief Method get_cellCount, addr 0x4877fd8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_bakedProbes_Injected, addr 0x68567b8, size 0x44, virtual false, abstract: false, final false
+  static inline void get_bakedProbes_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method get_cellCount, addr 0x6856abc, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_cellCount();
 
-  /// @brief Method get_coefficients, addr 0x4878040, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_cellCountSelf, addr 0x6856b78, size 0x80, virtual false, abstract: false, final false
+  inline int32_t get_cellCountSelf();
+
+  /// @brief Method get_cellCountSelf_Injected, addr 0x6856bf8, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_cellCountSelf_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_cellCount_Injected, addr 0x6856b3c, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_cellCount_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_coefficients, addr 0x6856c60, size 0x48, virtual false, abstract: false, final false
   inline ::ArrayW<float_t, ::Array<float_t>*> get_coefficients();
 
-  /// @brief Method get_count, addr 0x4877f9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_count, addr 0x6856944, size 0x80, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_positions, addr 0x4877ee0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_countSelf, addr 0x6856a00, size 0x80, virtual false, abstract: false, final false
+  inline int32_t get_countSelf();
+
+  /// @brief Method get_countSelf_Injected, addr 0x6856a80, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_countSelf_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_count_Injected, addr 0x68569c4, size 0x3c, virtual false, abstract: false, final false
+  static inline int32_t get_count_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_positions, addr 0x68561ac, size 0x160, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> get_positions();
 
-  /// @brief Method remove_lightProbesUpdated, addr 0x4877460, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_positions_Injected, addr 0x685630c, size 0x44, virtual false, abstract: false, final false
+  static inline void get_positions_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::BlittableArrayWrapper> ret);
+
+  /// @brief Method remove_lightProbesUpdated, addr 0x6855270, size 0xcc, virtual false, abstract: false, final false
   static inline void remove_lightProbesUpdated(::System::Action* value);
 
-  /// @brief Method remove_needsRetetrahedralization, addr 0x4877814, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_needsRetetrahedralization, addr 0x685567c, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_needsRetetrahedralization(::System::Action* value);
 
-  /// @brief Method remove_tetrahedralizationCompleted, addr 0x4877638, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method remove_tetrahedralizationCompleted, addr 0x6855474, size 0xd0, virtual false, abstract: false, final false
   static inline void remove_tetrahedralizationCompleted(::System::Action* value);
 
   static inline void setStaticF_lightProbesUpdated(::System::Action* value);
@@ -153,10 +225,13 @@ public:
 
   static inline void setStaticF_tetrahedralizationCompleted(::System::Action* value);
 
-  /// @brief Method set_bakedProbes, addr 0x4877f58, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_bakedProbes, addr 0x68567fc, size 0x104, virtual false, abstract: false, final false
   inline void set_bakedProbes(::ArrayW<::UnityEngine::Rendering::SphericalHarmonicsL2, ::Array<::UnityEngine::Rendering::SphericalHarmonicsL2>*> value);
 
-  /// @brief Method set_coefficients, addr 0x4878084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_bakedProbes_Injected, addr 0x6856900, size 0x44, virtual false, abstract: false, final false
+  static inline void set_bakedProbes_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> value);
+
+  /// @brief Method set_coefficients, addr 0x6856ca8, size 0x4, virtual false, abstract: false, final false
   inline void set_coefficients(::ArrayW<float_t, ::Array<float_t>*> value);
 
 protected:
@@ -174,7 +249,7 @@ public:
   LightProbes(LightProbes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

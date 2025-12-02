@@ -35,37 +35,37 @@ public:
   /// @brief Field <current>k__BackingField, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__current_k__BackingField, put = setStaticF__current_k__BackingField)) ::UnityEngine::InputSystem::Pen* _current_k__BackingField;
 
-  /// @brief Field <eraser>k__BackingField, offset 0x1a8, size 0x8
+  /// @brief Field <eraser>k__BackingField, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__eraser_k__BackingField,
                       put = __cordl_internal_set__eraser_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _eraser_k__BackingField;
 
-  /// @brief Field <firstBarrelButton>k__BackingField, offset 0x1b0, size 0x8
+  /// @brief Field <firstBarrelButton>k__BackingField, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__firstBarrelButton_k__BackingField,
                       put = __cordl_internal_set__firstBarrelButton_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _firstBarrelButton_k__BackingField;
 
-  /// @brief Field <fourthBarrelButton>k__BackingField, offset 0x1c8, size 0x8
+  /// @brief Field <fourthBarrelButton>k__BackingField, offset 0x1e0, size 0x8
   __declspec(property(get = __cordl_internal_get__fourthBarrelButton_k__BackingField,
                       put = __cordl_internal_set__fourthBarrelButton_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _fourthBarrelButton_k__BackingField;
 
-  /// @brief Field <inRange>k__BackingField, offset 0x1d0, size 0x8
+  /// @brief Field <inRange>k__BackingField, offset 0x1e8, size 0x8
   __declspec(property(get = __cordl_internal_get__inRange_k__BackingField,
                       put = __cordl_internal_set__inRange_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _inRange_k__BackingField;
 
-  /// @brief Field <secondBarrelButton>k__BackingField, offset 0x1b8, size 0x8
+  /// @brief Field <secondBarrelButton>k__BackingField, offset 0x1d0, size 0x8
   __declspec(property(get = __cordl_internal_get__secondBarrelButton_k__BackingField,
                       put = __cordl_internal_set__secondBarrelButton_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _secondBarrelButton_k__BackingField;
 
-  /// @brief Field <thirdBarrelButton>k__BackingField, offset 0x1c0, size 0x8
+  /// @brief Field <thirdBarrelButton>k__BackingField, offset 0x1d8, size 0x8
   __declspec(property(get = __cordl_internal_get__thirdBarrelButton_k__BackingField,
                       put = __cordl_internal_set__thirdBarrelButton_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _thirdBarrelButton_k__BackingField;
 
-  /// @brief Field <tilt>k__BackingField, offset 0x1d8, size 0x8
+  /// @brief Field <tilt>k__BackingField, offset 0x1f0, size 0x8
   __declspec(property(get = __cordl_internal_get__tilt_k__BackingField, put = __cordl_internal_set__tilt_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector2Control* _tilt_k__BackingField;
 
-  /// @brief Field <tip>k__BackingField, offset 0x1a0, size 0x8
+  /// @brief Field <tip>k__BackingField, offset 0x1b8, size 0x8
   __declspec(property(get = __cordl_internal_get__tip_k__BackingField, put = __cordl_internal_set__tip_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _tip_k__BackingField;
 
-  /// @brief Field <twist>k__BackingField, offset 0x1e0, size 0x8
+  /// @brief Field <twist>k__BackingField, offset 0x1f8, size 0x8
   __declspec(property(get = __cordl_internal_get__twist_k__BackingField, put = __cordl_internal_set__twist_k__BackingField)) ::UnityEngine::InputSystem::Controls::AxisControl* _twist_k__BackingField;
 
   __declspec(property(get = get_eraser, put = set_eraser)) ::UnityEngine::InputSystem::Controls::ButtonControl* eraser;
@@ -86,15 +86,15 @@ public:
 
   __declspec(property(get = get_twist, put = set_twist)) ::UnityEngine::InputSystem::Controls::AxisControl* twist;
 
-  /// @brief Method FinishSetup, addr 0x45882b4, size 0x1f4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x6306cb8, size 0x24c, virtual true, abstract: false, final false
   inline void FinishSetup();
 
-  /// @brief Method MakeCurrent, addr 0x45881b4, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method MakeCurrent, addr 0x6306b9c, size 0x88, virtual true, abstract: false, final false
   inline void MakeCurrent();
 
   static inline ::UnityEngine::InputSystem::Pen* New_ctor();
 
-  /// @brief Method OnRemoved, addr 0x4588234, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnRemoved, addr 0x6306c24, size 0x94, virtual true, abstract: false, final false
   inline void OnRemoved();
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__eraser_k__BackingField() const;
@@ -151,74 +151,74 @@ public:
 
   constexpr void __cordl_internal_set__twist_k__BackingField(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
-  /// @brief Method .ctor, addr 0x45884a8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6306f04, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Pen* getStaticF__current_k__BackingField();
 
-  /// @brief Method get_Item, addr 0x45880c0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6306a90, size 0x10c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_Item(::UnityEngine::InputSystem::PenButton button);
 
-  /// @brief Method get_current, addr 0x458802c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_current, addr 0x63069f4, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Pen* get_current();
 
-  /// @brief Method get_eraser, addr 0x4587fac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eraser, addr 0x6306974, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_eraser();
 
-  /// @brief Method get_firstBarrelButton, addr 0x4587fbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_firstBarrelButton, addr 0x6306984, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_firstBarrelButton();
 
-  /// @brief Method get_fourthBarrelButton, addr 0x4587fec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fourthBarrelButton, addr 0x63069b4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_fourthBarrelButton();
 
-  /// @brief Method get_inRange, addr 0x4587ffc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inRange, addr 0x63069c4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_inRange();
 
-  /// @brief Method get_secondBarrelButton, addr 0x4587fcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_secondBarrelButton, addr 0x6306994, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_secondBarrelButton();
 
-  /// @brief Method get_thirdBarrelButton, addr 0x4587fdc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_thirdBarrelButton, addr 0x63069a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_thirdBarrelButton();
 
-  /// @brief Method get_tilt, addr 0x458800c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tilt, addr 0x63069d4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_tilt();
 
-  /// @brief Method get_tip, addr 0x4587f9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tip, addr 0x6306964, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_tip();
 
-  /// @brief Method get_twist, addr 0x458801c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_twist, addr 0x63069e4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::AxisControl* get_twist();
 
   static inline void setStaticF__current_k__BackingField(::UnityEngine::InputSystem::Pen* value);
 
-  /// @brief Method set_current, addr 0x4588074, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_current, addr 0x6306a40, size 0x50, virtual false, abstract: false, final false
   static inline void set_current(::UnityEngine::InputSystem::Pen* value);
 
-  /// @brief Method set_eraser, addr 0x4587fb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_eraser, addr 0x630697c, size 0x8, virtual false, abstract: false, final false
   inline void set_eraser(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_firstBarrelButton, addr 0x4587fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_firstBarrelButton, addr 0x630698c, size 0x8, virtual false, abstract: false, final false
   inline void set_firstBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_fourthBarrelButton, addr 0x4587ff4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_fourthBarrelButton, addr 0x63069bc, size 0x8, virtual false, abstract: false, final false
   inline void set_fourthBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_inRange, addr 0x4588004, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_inRange, addr 0x63069cc, size 0x8, virtual false, abstract: false, final false
   inline void set_inRange(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_secondBarrelButton, addr 0x4587fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_secondBarrelButton, addr 0x630699c, size 0x8, virtual false, abstract: false, final false
   inline void set_secondBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_thirdBarrelButton, addr 0x4587fe4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_thirdBarrelButton, addr 0x63069ac, size 0x8, virtual false, abstract: false, final false
   inline void set_thirdBarrelButton(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_tilt, addr 0x4588014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tilt, addr 0x63069dc, size 0x8, virtual false, abstract: false, final false
   inline void set_tilt(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method set_tip, addr 0x4587fa4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_tip, addr 0x630696c, size 0x8, virtual false, abstract: false, final false
   inline void set_tip(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_twist, addr 0x4588024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_twist, addr 0x63069ec, size 0x8, virtual false, abstract: false, final false
   inline void set_twist(::UnityEngine::InputSystem::Controls::AxisControl* value);
 
 protected:
@@ -236,57 +236,57 @@ public:
   Pen(Pen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6654 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8707 };
 
-  /// @brief Field <tip>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
+  /// @brief Field <tip>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____tip_k__BackingField;
 
-  /// @brief Field <eraser>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
+  /// @brief Field <eraser>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____eraser_k__BackingField;
 
-  /// @brief Field <firstBarrelButton>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
+  /// @brief Field <firstBarrelButton>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____firstBarrelButton_k__BackingField;
 
-  /// @brief Field <secondBarrelButton>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
+  /// @brief Field <secondBarrelButton>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____secondBarrelButton_k__BackingField;
 
-  /// @brief Field <thirdBarrelButton>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
+  /// @brief Field <thirdBarrelButton>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____thirdBarrelButton_k__BackingField;
 
-  /// @brief Field <fourthBarrelButton>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
+  /// @brief Field <fourthBarrelButton>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____fourthBarrelButton_k__BackingField;
 
-  /// @brief Field <inRange>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
+  /// @brief Field <inRange>k__BackingField, offset: 0x1e8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____inRange_k__BackingField;
 
-  /// @brief Field <tilt>k__BackingField, offset: 0x1d8, size: 0x8, def value: None
+  /// @brief Field <tilt>k__BackingField, offset: 0x1f0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____tilt_k__BackingField;
 
-  /// @brief Field <twist>k__BackingField, offset: 0x1e0, size: 0x8, def value: None
+  /// @brief Field <twist>k__BackingField, offset: 0x1f8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::AxisControl* ____twist_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____tip_k__BackingField) == 0x1a0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____tip_k__BackingField) == 0x1b8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____eraser_k__BackingField) == 0x1a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____eraser_k__BackingField) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____firstBarrelButton_k__BackingField) == 0x1b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____firstBarrelButton_k__BackingField) == 0x1c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____secondBarrelButton_k__BackingField) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____secondBarrelButton_k__BackingField) == 0x1d0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____thirdBarrelButton_k__BackingField) == 0x1c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____thirdBarrelButton_k__BackingField) == 0x1d8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____fourthBarrelButton_k__BackingField) == 0x1c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____fourthBarrelButton_k__BackingField) == 0x1e0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____inRange_k__BackingField) == 0x1d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____inRange_k__BackingField) == 0x1e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____tilt_k__BackingField) == 0x1d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____tilt_k__BackingField) == 0x1f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____twist_k__BackingField) == 0x1e0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Pen, ____twist_k__BackingField) == 0x1f8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Pen, 0x1e8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Pen, 0x200>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 NEED_NO_BOX(::UnityEngine::InputSystem::Pen);

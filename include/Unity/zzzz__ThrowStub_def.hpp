@@ -18,7 +18,7 @@ namespace Unity {
 class CORDL_TYPE ThrowStub : public ::System::ObjectDisposedException {
 public:
   // Declarations
-  /// @brief Method ThrowNotSupportedException, addr 0x3dc9e24, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method ThrowNotSupportedException, addr 0x5a0e780, size 0x38, virtual false, abstract: false, final false
   static inline void ThrowNotSupportedException();
 
 protected:
@@ -36,7 +36,7 @@ public:
   ThrowStub(ThrowStub const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3993 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

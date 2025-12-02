@@ -2,12 +2,13 @@
 // IWYU pragma private; include "System/Xml/BinHexDecoder.hpp"
 #include "System/Xml/zzzz__IncrementalReadDecoder_impl.hpp"
 #include "System/Xml/zzzz__BinHexDecoder_def.hpp"
-//  Writing Method size for method: ::System::Xml::BinHexDecoder.get_IsFull
+#include "System/zzzz__Array_def.hpp"
+//  Writing Method size for method: ::System::Xml::BinHexDecoder.get_DecodedCount
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::BinHexDecoder::*)()>(&::System::Xml::BinHexDecoder::get_IsFull)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4235e2c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::BinHexDecoder::*)()>(&::System::Xml::BinHexDecoder::get_DecodedCount)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5f764f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -16,13 +17,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::System::Xml::BinHexDecoder.Decode
+//  Writing Method size for method: ::System::Xml::BinHexDecoder.get_IsFull
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::BinHexDecoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
-    &::System::Xml::BinHexDecoder::Decode)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4235e3c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::BinHexDecoder::*)()>(&::System::Xml::BinHexDecoder::get_IsFull)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5f764fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -34,10 +34,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::BinHexDecoder.Decode
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::BinHexDecoder::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::System::Xml::BinHexDecoder::Decode)> {
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5f7650c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 7));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::BinHexDecoder.Decode
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::BinHexDecoder::*)(::StringW, int32_t, int32_t)>(&::System::Xml::BinHexDecoder::Decode)> {
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x5f76808;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 8));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::BinHexDecoder.Reset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinHexDecoder::*)()>(&::System::Xml::BinHexDecoder::Reset)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5f76954;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 9));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::BinHexDecoder.SetNextOutputBuffer
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinHexDecoder::*)(::System::Array*, int32_t, int32_t)>(
+    &::System::Xml::BinHexDecoder::SetNextOutputBuffer)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5f7695c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::BinHexDecoder.Decode
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>, bool)>(
     &::System::Xml::BinHexDecoder::Decode)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x4236150;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5f76a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,22 +108,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::BinHexDecoder.Decode
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<char16_t>, ::cordl_internals::Ptr<char16_t>, ::cordl_internals::Ptr<uint8_t>,
-                                                                                           ::cordl_internals::Ptr<uint8_t>, ::ByRef<bool>, ::ByRef<uint8_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
-    &::System::Xml::BinHexDecoder::Decode)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x4235f88;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(char16_t*, char16_t*, uint8_t*, uint8_t*, ::ByRef<bool>, ::ByRef<uint8_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(&::System::Xml::BinHexDecoder::Decode)> {
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x5f7665c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), "Decode", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+        ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::BinHexDecoder._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::BinHexDecoder::*)()>(&::System::Xml::BinHexDecoder::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5f76be4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -80,6 +148,18 @@ constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& System::Xml::BinHexDecoder
 constexpr void System::Xml::BinHexDecoder::__cordl_internal_set_buffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___buffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& System::Xml::BinHexDecoder::__cordl_internal_get_startIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startIndex;
+}
+constexpr int32_t const& System::Xml::BinHexDecoder::__cordl_internal_get_startIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___startIndex;
+}
+constexpr void System::Xml::BinHexDecoder::__cordl_internal_set_startIndex(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___startIndex = value;
 }
 constexpr int32_t& System::Xml::BinHexDecoder::__cordl_internal_get_curIndex() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -129,15 +209,35 @@ constexpr void System::Xml::BinHexDecoder::__cordl_internal_set_cachedHalfByte(u
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___cachedHalfByte = value;
 }
-inline bool System::Xml::BinHexDecoder::get_IsFull() {
+inline int32_t System::Xml::BinHexDecoder::get_DecodedCount() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline bool System::Xml::BinHexDecoder::get_IsFull() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline int32_t System::Xml::BinHexDecoder::Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 5)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, chars, startPos, len);
+}
+inline int32_t System::Xml::BinHexDecoder::Decode(::StringW str, int32_t startPos, int32_t len) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, str, startPos, len);
+}
+inline void System::Xml::BinHexDecoder::Reset() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 9)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void System::Xml::BinHexDecoder::SetNextOutputBuffer(::System::Array* buffer, int32_t index, int32_t count) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), 6)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, index, count);
 }
 inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Xml::BinHexDecoder::Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, bool allowOddChars) {
   static auto* ___internal_method =
@@ -146,18 +246,24 @@ inline ::ArrayW<uint8_t, ::Array<uint8_t>*> System::Xml::BinHexDecoder::Decode(:
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::ArrayW<uint8_t, ::Array<uint8_t>*>, false>(nullptr, ___internal_method, chars, allowOddChars);
 }
-inline void System::Xml::BinHexDecoder::Decode(::cordl_internals::Ptr<char16_t> pChars, ::cordl_internals::Ptr<char16_t> pCharsEndPos, ::cordl_internals::Ptr<uint8_t> pBytes,
-                                               ::cordl_internals::Ptr<uint8_t> pBytesEndPos, ::ByRef<bool> hasHalfByteCached, ::ByRef<uint8_t> cachedHalfByte, ::ByRef<int32_t> charsDecoded,
-                                               ::ByRef<int32_t> bytesDecoded) {
+inline void System::Xml::BinHexDecoder::Decode(char16_t* pChars, char16_t* pCharsEndPos, uint8_t* pBytes, uint8_t* pBytesEndPos, ::ByRef<bool> hasHalfByteCached, ::ByRef<uint8_t> cachedHalfByte,
+                                               ::ByRef<int32_t> charsDecoded, ::ByRef<int32_t> bytesDecoded) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), "Decode", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 8>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, pChars, pCharsEndPos, pBytes, pBytesEndPos, hasHalfByteCached, cachedHalfByte, charsDecoded, bytesDecoded);
+}
+inline void System::Xml::BinHexDecoder::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::BinHexDecoder*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Xml::BinHexDecoder* System::Xml::BinHexDecoder::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Xml::BinHexDecoder*>());
 }
 // Ctor Parameters []
 constexpr ::System::Xml::BinHexDecoder::BinHexDecoder() {}

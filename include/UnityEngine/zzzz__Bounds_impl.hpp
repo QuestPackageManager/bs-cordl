@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Bounds.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__IFormattable_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__IFormatProvider_def.hpp"
+#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Ray_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -12,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Bounds::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x48703b4;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x684a4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::GetHashCode)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x48703d4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x684a4e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Bounds::*)(::System::Object*)>(&::UnityEngine::Bounds::Equals)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x48704a4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x684a584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Bounds)>(&::UnityEngine::Bounds::Equals)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4870574;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x684a64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48705e0;
+  constexpr static std::size_t addrs = 0x684a6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "get_center",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_center)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48705ec;
+  constexpr static std::size_t addrs = 0x684a6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_size)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x48705f8;
+  constexpr static std::size_t addrs = 0x684a6b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "get_size",
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_size)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4870610;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x684a6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_extents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x487062c;
+  constexpr static std::size_t addrs = 0x684a6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "get_extents",
@@ -137,7 +137,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_extents)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4870638;
+  constexpr static std::size_t addrs = 0x684a6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -151,11 +151,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_min)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4870644;
+  constexpr static std::size_t addrs = 0x684a708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "get_min",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Bounds.set_min
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_min)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x684a728;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "set_min", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -164,7 +178,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::get_max)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4870664;
+  constexpr static std::size_t addrs = 0x684a778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "get_max",
@@ -172,12 +186,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Bounds.set_max
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::set_max)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x684a798;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "set_max", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Bounds.op_Equality
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Bounds, ::UnityEngine::Bounds)>(&::UnityEngine::Bounds::op_Equality)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4870684;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x684a7e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,8 +219,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Bounds, ::UnityEngine::Bounds)>(&::UnityEngine::Bounds::op_Inequality)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4870700;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x684a85c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,7 +235,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::UnityEngine::Bounds::SetMinMax)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x487077c;
+  constexpr static std::size_t addrs = 0x684a8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::Encapsulate)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48707b4;
+  constexpr static std::size_t addrs = 0x684a90c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -231,12 +259,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Bounds.Encapsulate
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Bounds)>(&::UnityEngine::Bounds::Encapsulate)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x684a984;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "Encapsulate", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Bounds.Expand
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::Expand)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x487082c;
+  constexpr static std::size_t addrs = 0x684aa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -250,7 +292,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Bounds)>(&::UnityEngine::Bounds::Intersects)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x487085c;
+  constexpr static std::size_t addrs = 0x684aab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +306,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Ray, ::ByRef<float_t>)>(&::UnityEngine::Bounds::IntersectRay)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x48708fc;
+  constexpr static std::size_t addrs = 0x684ab50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -279,7 +321,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Bounds::*)()>(&::UnityEngine::Bounds::ToString)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48709c4;
+  constexpr static std::size_t addrs = 0x684ac18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -292,8 +334,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Bounds::*)(::StringW, ::System::IFormatProvider*)>(&::UnityEngine::Bounds::ToString)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x48709d4;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x684ac28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -308,7 +350,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::Contains)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4870b5c;
+  constexpr static std::size_t addrs = 0x684adc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -322,7 +364,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Ray, ::UnityEngine::Bounds, ::ByRef<float_t>)>(&::UnityEngine::Bounds::IntersectRayAABB)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4870970;
+  constexpr static std::size_t addrs = 0x684abc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -338,7 +380,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::Bounds::*)(::UnityEngine::Vector3)>(&::UnityEngine::Bounds::ClosestPoint)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4870c4c;
+  constexpr static std::size_t addrs = 0x684aeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -353,7 +395,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Bounds>, ::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::Bounds::Contains_Injected)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4870bb4;
+  constexpr static std::size_t addrs = 0x684ae18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -369,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::UnityEngine::Ray>, ::ByRef<::UnityEngine::Bounds>, ::ByRef<float_t>)>(
     &::UnityEngine::Bounds::IntersectRayAABB_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4870bf8;
+  constexpr static std::size_t addrs = 0x684ae5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -385,8 +427,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Bounds>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>)>(
     &::UnityEngine::Bounds::ClosestPoint_Injected)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4870cb4;
+  constexpr static std::size_t size = 0x754;
+  constexpr static std::size_t addrs = 0x684af18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,10 +500,22 @@ inline ::UnityEngine::Vector3 UnityEngine::Bounds::get_min() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
 }
+inline void UnityEngine::Bounds::set_min(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "set_min", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::Vector3 UnityEngine::Bounds::get_max() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "get_max",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+}
+inline void UnityEngine::Bounds::set_max(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "set_max", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool UnityEngine::Bounds::op_Equality(::UnityEngine::Bounds lhs, ::UnityEngine::Bounds rhs) {
   static auto* ___internal_method =
@@ -489,6 +543,12 @@ inline void UnityEngine::Bounds::Encapsulate(::UnityEngine::Vector3 point) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "Encapsulate", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, point);
+}
+inline void UnityEngine::Bounds::Encapsulate(::UnityEngine::Bounds bounds) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bounds>::get(), "Encapsulate", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Bounds>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bounds);
 }
 inline void UnityEngine::Bounds::Expand(::UnityEngine::Vector3 amount) {
   static auto* ___internal_method =

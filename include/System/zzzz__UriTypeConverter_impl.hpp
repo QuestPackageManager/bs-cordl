@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::UriTypeConverter::*)()>(&::System::UriTypeConverter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4410190;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x615e654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::UriTypeConverter*>::get(), ".ctor",
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::UriTypeConverter::*)(::System::Type*)>(&::System::UriTypeConverter::CanConvert)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4410198;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x615e658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::UriTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::UriTypeConverter::CanConvertFrom)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x441027c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x615e700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::UriTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Type*)>(
     &::System::UriTypeConverter::CanConvertTo)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x441032c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x615e774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::UriTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*)>(&::System::UriTypeConverter::ConvertFrom)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x44103a4;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x615e7b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,8 +84,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::System::UriTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*, ::System::Globalization::CultureInfo*, ::System::Object*, ::System::Type*)>(
         &::System::UriTypeConverter::ConvertTo)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4410540;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x615e93c;
 
   inline static ::MethodInfo const* methodInfo() {
 

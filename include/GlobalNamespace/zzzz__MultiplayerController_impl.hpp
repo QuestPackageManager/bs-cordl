@@ -1,9 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerController.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
@@ -11,9 +8,9 @@
 #include "GlobalNamespace/zzzz__FadeInOutController_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreSceneSetupData_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IStartSeekSongController_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerBadgesProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerController_def.hpp"
@@ -30,9 +27,11 @@
 #include "GlobalNamespace/zzzz__SceneStartSyncController_def.hpp"
 #include "GlobalNamespace/zzzz__SongStartSyncController_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
@@ -54,8 +53,8 @@ constexpr ::GlobalNamespace::MultiplayerController_State GlobalNamespace::Multip
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController___c::*)()>(&::GlobalNamespace::MultiplayerController___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bd175c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57c3240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController___c*>::get(), ".ctor",
@@ -68,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerController___c::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::MultiplayerController___c::_EndGameplay_b__50_0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bd1764;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57c3244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -116,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController___c__DisplayClass45_0::*)()>(
     &::GlobalNamespace::MultiplayerController___c__DisplayClass45_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bcfecc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57c1a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -131,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController___c__DisplayClass45_0::*)()>(
     &::GlobalNamespace::MultiplayerController___c__DisplayClass45_0::_HandleSongStartSyncControllerSyncStartSuccess_b__0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bd1784;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x57c3260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -187,8 +186,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::*)(int32_t)>(
     &::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bcf5c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57c10b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::*)()>(
     &::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bd17a4;
+  constexpr static std::size_t addrs = 0x57c327c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,8 +216,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::*)()>(
     &::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::MoveNext)> {
-  constexpr static std::size_t size = 0x998;
-  constexpr static std::size_t addrs = 0x3bd17a8;
+  constexpr static std::size_t size = 0xa30;
+  constexpr static std::size_t addrs = 0x57c3280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -233,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::*)()>(
     &::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bd2fac;
+  constexpr static std::size_t addrs = 0x57c4b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::*)()>(
     &::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bd2fb4;
+  constexpr static std::size_t addrs = 0x57c4b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -263,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::*)()>(
     &::GlobalNamespace::MultiplayerController__PerformSongStartSync_d__39::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bd2fec;
+  constexpr static std::size_t addrs = 0x57c4bd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -404,7 +403,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerController_State (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::get_state)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bce150;
+  constexpr static std::size_t addrs = 0x57bf954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(), "get_state",
@@ -417,8 +416,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(
     ::System::Action_1<::GlobalNamespace::MultiplayerController_State>*)>(&::GlobalNamespace::MultiplayerController::add_stateChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bce158;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57bf95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -432,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(
     ::System::Action_1<::GlobalNamespace::MultiplayerController_State>*)>(&::GlobalNamespace::MultiplayerController::remove_stateChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3bce208;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57bfa1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -446,8 +445,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(&::GlobalNamespace::MultiplayerController::Start)> {
-  constexpr static std::size_t size = 0x440;
-  constexpr static std::size_t addrs = 0x3bce2b8;
+  constexpr static std::size_t size = 0x4b8;
+  constexpr static std::size_t addrs = 0x57bfadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(), "Start",
@@ -459,8 +458,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(&::GlobalNamespace::MultiplayerController::OnDestroy)> {
-  constexpr static std::size_t size = 0x5cc;
-  constexpr static std::size_t addrs = 0x3bceb3c;
+  constexpr static std::size_t size = 0x758;
+  constexpr static std::size_t addrs = 0x57c03fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(), "OnDestroy",
@@ -474,7 +473,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::HandleIsDisconnectedDuringLoading)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bcf1a4;
+  constexpr static std::size_t addrs = 0x57c0c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -488,8 +487,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(::StringW, ::GlobalNamespace::MultiplayerGameState)>(
     &::GlobalNamespace::MultiplayerController::HandleSetMultiplayerGameState)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x3bcf200;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x57c0c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -504,8 +503,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::CreateAndBindPlayersSpecificSettingsAtGameStartModel)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x3bce6f8;
+  constexpr static std::size_t size = 0x448;
+  constexpr static std::size_t addrs = 0x57bff94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -519,8 +518,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::StartSceneLoadSync)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3bcf3ec;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x57c0e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(),
@@ -533,8 +532,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::MultiplayerController::*)(::GlobalNamespace::MultiplayerPlayerStartState)>(&::GlobalNamespace::MultiplayerController::PerformSongStartSync)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3bcf558;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57c104c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -548,8 +547,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::HandleDidSwitchPlayerToInactive)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3bcf5f0;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x57c10b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -564,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerController::HandleSceneStartSyncControllerSyncStartDidSuccess)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bcf848;
+  constexpr static std::size_t addrs = 0x57c1324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -579,7 +578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerController::HandleSceneStartSyncControllerSyncStartDidReceiveTooLate)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bcf870;
+  constexpr static std::size_t addrs = 0x57c134c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(),
@@ -593,8 +592,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::HandleInitialGetGameStateFailed)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3bcf898;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x57c1374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -608,8 +607,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::HandleSceneStartSyncControllerSyncStartDidFail)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3bcf970;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x57c1464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -623,8 +622,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerController::HandleSongStartSyncControllerSyncStartSuccess)> {
-  constexpr static std::size_t size = 0x25c;
-  constexpr static std::size_t addrs = 0x3bcfc70;
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x57c17b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -638,8 +637,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerController::HandleSongStartSyncControllerSyncResume)> {
-  constexpr static std::size_t size = 0x4dc;
-  constexpr static std::size_t addrs = 0x3bd0d40;
+  constexpr static std::size_t size = 0x4d0;
+  constexpr static std::size_t addrs = 0x57c2848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -653,8 +652,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::HandleSongStartSyncControllerSyncStartFailed)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3bd1284;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x57c2d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -668,8 +667,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerController::StartGameplay)> {
-  constexpr static std::size_t size = 0x878;
-  constexpr static std::size_t addrs = 0x3bd04c8;
+  constexpr static std::size_t size = 0x828;
+  constexpr static std::size_t addrs = 0x57c2020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -685,7 +684,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(
     &::GlobalNamespace::MultiplayerController::HandleAllResultsCollected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bd131c;
+  constexpr static std::size_t addrs = 0x57c2e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -702,8 +701,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(
     ::GlobalNamespace::MultiplayerLevelCompletionResults*, ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(
     &::GlobalNamespace::MultiplayerController::EndGameplay)> {
-  constexpr static std::size_t size = 0x268;
-  constexpr static std::size_t addrs = 0x3bcfa08;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x57c14f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -719,8 +718,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(
     &::GlobalNamespace::MultiplayerController::HandleOutroAnimationDidFinish)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bd14dc;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x57c2fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(),
@@ -733,8 +732,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerController::HandleRpcReturnToMenu)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bd1524;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x57c3040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -748,8 +747,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(::GlobalNamespace::DisconnectedReason)>(
     &::GlobalNamespace::MultiplayerController::HandleDisconnected)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3bcf1ac;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x57c0c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -764,7 +763,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)(::GlobalNamespace::MultiplayerController_State)>(
     &::GlobalNamespace::MultiplayerController::ChangeState)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bceb1c;
+  constexpr static std::size_t addrs = 0x57c03dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -778,8 +777,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::MultiplayerController::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerController::GetCurrentSongTime)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3bcf788;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x57c1258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -794,7 +793,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MultiplayerController::*)(int64_t)>(
     &::GlobalNamespace::MultiplayerController::GetSongStartSyncTime)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3bcf760;
+  constexpr static std::size_t addrs = 0x57c1230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -807,8 +806,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerController::*)()>(&::GlobalNamespace::MultiplayerController::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3bd16a8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57c31d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerController*>::get(), ".ctor",
@@ -912,15 +911,15 @@ constexpr void GlobalNamespace::MultiplayerController::__cordl_internal_set__fad
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____fadeInOutController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::MultiplayerController::__cordl_internal_get__multiplayerSessionManager() {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& GlobalNamespace::MultiplayerController::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::MultiplayerController::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& GlobalNamespace::MultiplayerController::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr void GlobalNamespace::MultiplayerController::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::MultiplayerController::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

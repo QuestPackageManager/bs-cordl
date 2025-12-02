@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Timeline/BasicPlayableBehaviour.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableAsset_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__BasicPlayableBehaviour_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Playables/zzzz__FrameData_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableAsset_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayableBehaviour_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableBinding_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::Timeline::BasicPlayableBehaviour::*)()>(
     &::UnityEngine::Timeline::BasicPlayableBehaviour::get_duration)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x482779c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x67a80f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::Playables::PlayableBinding>* (
     ::UnityEngine::Timeline::BasicPlayableBehaviour::*)()>(&::UnityEngine::Timeline::BasicPlayableBehaviour::get_outputs)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x48277f4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x67a814c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::BasicPlayableBehaviour::OnGraphStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x482784c;
+  constexpr static std::size_t addrs = 0x67a81a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::BasicPlayableBehaviour::OnGraphStop)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827850;
+  constexpr static std::size_t addrs = 0x67a81ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::BasicPlayableBehaviour::OnPlayableCreate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827854;
+  constexpr static std::size_t addrs = 0x67a81b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(::UnityEngine::Playables::Playable)>(
     &::UnityEngine::Timeline::BasicPlayableBehaviour::OnPlayableDestroy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827858;
+  constexpr static std::size_t addrs = 0x67a81b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::BasicPlayableBehaviour::OnBehaviourPlay)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x482785c;
+  constexpr static std::size_t addrs = 0x67a81b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +129,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::BasicPlayableBehaviour::OnBehaviourPause)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827860;
+  constexpr static std::size_t addrs = 0x67a81bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData)>(&::UnityEngine::Timeline::BasicPlayableBehaviour::PrepareFrame)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827864;
+  constexpr static std::size_t addrs = 0x67a81c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(
     ::UnityEngine::Playables::Playable, ::UnityEngine::Playables::FrameData, ::System::Object*)>(&::UnityEngine::Timeline::BasicPlayableBehaviour::ProcessFrame)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4827868;
+  constexpr static std::size_t addrs = 0x67a81c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (::UnityEngine::Timeline::BasicPlayableBehaviour::*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::GameObject*)>(&::UnityEngine::Timeline::BasicPlayableBehaviour::CreatePlayable)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x482786c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x67a81c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::BasicPlayableBehaviour::*)()>(
     &::UnityEngine::Timeline::BasicPlayableBehaviour::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4827910;
+  constexpr static std::size_t addrs = 0x67a8278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::BasicPlayableBehaviour*>::get(), ".ctor",

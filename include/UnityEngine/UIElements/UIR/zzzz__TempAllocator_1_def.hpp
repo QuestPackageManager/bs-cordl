@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include <cstddef>
@@ -11,6 +10,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(TempAllocator_1)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace Unity::Collections {
 template <typename T> struct NativeSlice_1;
@@ -46,7 +48,7 @@ public:
   constexpr TempAllocator_1_Page(::Unity::Collections::NativeArray_1<T> array, int32_t used) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6397 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5347 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -61,7 +63,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.IDisposable, System.Object, UnityEngine.UIElements.UIR.TempAllocator`1::Page<T>
+// Dependencies System.Object, UnityEngine.UIElements.UIR.TempAllocator`1::Page<T>
 namespace UnityEngine::UIElements::UIR {
 // cpp template
 template <typename T>
@@ -104,6 +106,9 @@ public:
 
   /// @brief Method Dispose, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
+
+  /// @brief Method DoAlloc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::Unity::Collections::NativeSlice_1<T> DoAlloc(int32_t count);
 
   static inline ::UnityEngine::UIElements::UIR::TempAllocator_1<T>* New_ctor(int32_t poolCapacity, int32_t excessMinCapacity, int32_t excessMaxCapacity);
 
@@ -176,7 +181,7 @@ public:
   TempAllocator_1(TempAllocator_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6398 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5348 };
 
   /// @brief Field m_ExcessMinCapacity, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_ExcessMinCapacity;

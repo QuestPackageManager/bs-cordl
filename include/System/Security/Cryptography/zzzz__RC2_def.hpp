@@ -46,24 +46,24 @@ public:
 
   constexpr void __cordl_internal_set_EffectiveKeySizeValue(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3ca26f8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e6440, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalBlockSizes();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x3ca2774, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x58e64c0, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
-  /// @brief Method get_KeySize, addr 0x3ca2790, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeySize, addr 0x58e64dc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_KeySize();
 
   static inline void setStaticF_s_legalBlockSizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
 
-  /// @brief Method set_KeySize, addr 0x3ca2798, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method set_KeySize, addr 0x58e64e4, size 0x60, virtual true, abstract: false, final false
   inline void set_KeySize(int32_t value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   RC2(RC2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2946 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2963 };
 
   /// @brief Field EffectiveKeySizeValue, offset: 0x44, size: 0x4, def value: None
   int32_t ___EffectiveKeySizeValue;

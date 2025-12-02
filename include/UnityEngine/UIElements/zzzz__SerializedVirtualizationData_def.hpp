@@ -77,7 +77,7 @@ public:
 
   constexpr void __cordl_internal_set_scrollOffset(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x4985928, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af9fe8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -95,7 +95,7 @@ public:
   SerializedVirtualizationData(SerializedVirtualizationData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4124 };
 
   /// @brief Field scrollOffset, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___scrollOffset;

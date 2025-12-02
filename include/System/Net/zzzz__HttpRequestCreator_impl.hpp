@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Net/HttpRequestCreator.hpp"
-#include "System/Net/zzzz__IWebRequestCreate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__HttpRequestCreator_def.hpp"
+#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 #include "System/Net/zzzz__WebRequest_def.hpp"
 #include "System/zzzz__Uri_def.hpp"
 //  Writing Method size for method: ::System::Net::HttpRequestCreator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::HttpRequestCreator::*)()>(&::System::Net::HttpRequestCreator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43c8b00;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6113e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::HttpRequestCreator*>::get(), ".ctor",
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::WebRequest* (::System::Net::HttpRequestCreator::*)(::System::Uri*)>(
     &::System::Net::HttpRequestCreator::Create)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43c8b08;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6113e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

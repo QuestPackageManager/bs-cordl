@@ -35,23 +35,23 @@ public:
   // Declarations
   __declspec(property(get = get_IsNullable)) bool IsNullable;
 
-  /// @brief Method ConstructChildPos, addr 0x439c878, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ConstructChildPos, addr 0x6102f3c, size 0xd8, virtual false, abstract: false, final false
   static inline void ConstructChildPos(::System::Xml::Schema::SyntaxTreeNode* child, ::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                                        ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ConstructPos, addr 0x439c94c, size 0x12c, virtual true, abstract: false, final false
+  /// @brief Method ConstructPos, addr 0x6103014, size 0x118, virtual true, abstract: false, final false
   inline void ConstructPos(::System::Xml::Schema::BitSet* firstpos, ::System::Xml::Schema::BitSet* lastpos,
                            ::ArrayW<::System::Xml::Schema::BitSet*, ::Array<::System::Xml::Schema::BitSet*>*> followpos);
 
-  /// @brief Method ExpandTree, addr 0x439cb10, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ExpandTree, addr 0x61031c0, size 0x4, virtual true, abstract: false, final false
   inline void ExpandTree(::System::Xml::Schema::InteriorNode* parent, ::System::Xml::Schema::SymbolsDictionary* symbols, ::System::Xml::Schema::Positions* positions);
 
   static inline ::System::Xml::Schema::ChoiceNode* New_ctor();
 
-  /// @brief Method .ctor, addr 0x439c0b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6102764, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsNullable, addr 0x439ca78, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method get_IsNullable, addr 0x610312c, size 0x94, virtual true, abstract: false, final false
   inline bool get_IsNullable();
 
 protected:
@@ -69,7 +69,7 @@ public:
   ChoiceNode(ChoiceNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9569 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

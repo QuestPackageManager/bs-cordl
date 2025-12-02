@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -15,6 +13,12 @@ template <typename T> class List_1;
 }
 namespace System::Text {
 class StringBuilder;
+}
+namespace Tayx::Graphy::UI {
+class IModifiableState;
+}
+namespace Tayx::Graphy::UI {
+class IMovable;
 }
 namespace Tayx::Graphy {
 struct GraphyManager_ModulePosition;
@@ -40,7 +44,7 @@ class G_AdvancedData;
 }
 // Write type traits
 MARK_REF_PTR_T(::Tayx::Graphy::Advanced::G_AdvancedData);
-// Dependencies Tayx.Graphy.GraphyManager::ModuleState, Tayx.Graphy.UI.IModifiableState, Tayx.Graphy.UI.IMovable, UnityEngine.MonoBehaviour
+// Dependencies Tayx.Graphy.GraphyManager::ModuleState, UnityEngine.MonoBehaviour
 namespace Tayx::Graphy::Advanced {
 // Is value type: false
 // CS Name: Tayx.Graphy.Advanced.G_AdvancedData
@@ -105,30 +109,30 @@ public:
   /// @brief Convert operator to "::Tayx::Graphy::UI::IMovable"
   constexpr operator ::Tayx::Graphy::UI::IMovable*() noexcept;
 
-  /// @brief Method Init, addr 0x44cf87c, size 0xcf0, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x621ea54, size 0xd6c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::Tayx::Graphy::Advanced::G_AdvancedData* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x44d575c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x62249c4, size 0x4, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshParameters, addr 0x44d10f8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method RefreshParameters, addr 0x622027c, size 0x148, virtual false, abstract: false, final false
   inline void RefreshParameters();
 
-  /// @brief Method RestorePreviousState, addr 0x44ce820, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RestorePreviousState, addr 0x621da00, size 0xc, virtual false, abstract: false, final false
   inline void RestorePreviousState();
 
-  /// @brief Method SetPosition, addr 0x44cd1a4, size 0x7ac, virtual true, abstract: false, final true
+  /// @brief Method SetPosition, addr 0x621c2e0, size 0x814, virtual true, abstract: false, final true
   inline void SetPosition(::Tayx::Graphy::GraphyManager_ModulePosition newModulePosition);
 
-  /// @brief Method SetState, addr 0x44cd104, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method SetState, addr 0x621c244, size 0x78, virtual true, abstract: false, final true
   inline void SetState(::Tayx::Graphy::GraphyManager_ModuleState state, bool silentUpdate);
 
-  /// @brief Method Update, addr 0x44d5760, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x62249c8, size 0x2e4, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateParameters, addr 0x44d0a1c, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method UpdateParameters, addr 0x621fce0, size 0x150, virtual false, abstract: false, final false
   inline void UpdateParameters();
 
   constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* const& __cordl_internal_get_m_backgroundImages() const;
@@ -233,7 +237,7 @@ public:
 
   constexpr void __cordl_internal_set_m_windowStrings(::ArrayW<::StringW, ::Array<::StringW>*> value);
 
-  /// @brief Method .ctor, addr 0x44d5a18, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6224cac, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Tayx::Graphy::UI::IModifiableState"
@@ -257,7 +261,7 @@ public:
   G_AdvancedData(G_AdvancedData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17245 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21208 };
 
   /// @brief Field m_backgroundImages, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::UI::Image>>* ___m_backgroundImages;

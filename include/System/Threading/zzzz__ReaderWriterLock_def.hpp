@@ -45,36 +45,36 @@ public:
   /// @brief Field writer_queue, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_writer_queue, put = __cordl_internal_set_writer_queue)) ::System::Threading::LockQueue* writer_queue;
 
-  /// @brief Method AcquireReaderLock, addr 0x3e5c584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x5aa1eac, size 0x8, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireReaderLock, addr 0x3e5c58c, size 0x394, virtual false, abstract: false, final false
+  /// @brief Method AcquireReaderLock, addr 0x5aa1eb4, size 0x360, virtual false, abstract: false, final false
   inline void AcquireReaderLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method AcquireWriterLock, addr 0x3e5caf4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x5aa23f4, size 0x8, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout);
 
-  /// @brief Method AcquireWriterLock, addr 0x3e5c954, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method AcquireWriterLock, addr 0x5aa2248, size 0x1ac, virtual false, abstract: false, final false
   inline void AcquireWriterLock(int32_t millisecondsTimeout, int32_t initialLockCount);
 
-  /// @brief Method Finalize, addr 0x3e5c4a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5aa1dc8, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method HasWriterLock, addr 0x3e5c920, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method HasWriterLock, addr 0x5aa2214, size 0x34, virtual false, abstract: false, final false
   inline bool HasWriterLock();
 
   static inline ::System::Threading::ReaderWriterLock* New_ctor();
 
-  /// @brief Method ReleaseReaderLock, addr 0x3e5cafc, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x5aa23fc, size 0x1c4, virtual false, abstract: false, final false
   inline void ReleaseReaderLock();
 
-  /// @brief Method ReleaseReaderLock, addr 0x3e5ce08, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method ReleaseReaderLock, addr 0x5aa26ec, size 0x11c, virtual false, abstract: false, final false
   inline void ReleaseReaderLock(int32_t currentCount, int32_t releaseCount);
 
-  /// @brief Method ReleaseWriterLock, addr 0x3e5cce0, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x5aa25c0, size 0x12c, virtual false, abstract: false, final false
   inline void ReleaseWriterLock();
 
-  /// @brief Method ReleaseWriterLock, addr 0x3e5cf28, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ReleaseWriterLock, addr 0x5aa2808, size 0x5c, virtual false, abstract: false, final false
   inline void ReleaseWriterLock(int32_t releaseCount);
 
   constexpr ::System::Collections::Hashtable* const& __cordl_internal_get_reader_locks() const;
@@ -113,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set_writer_queue(::System::Threading::LockQueue* value);
 
-  /// @brief Method .ctor, addr 0x3e5c3d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa1d04, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsWriterLockHeld, addr 0x3e5c4a8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method get_IsWriterLockHeld, addr 0x5aa1dcc, size 0xe0, virtual false, abstract: false, final false
   inline bool get_IsWriterLockHeld();
 
 protected:
@@ -134,7 +134,7 @@ public:
   ReaderWriterLock(ReaderWriterLock const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2759 };
 
   /// @brief Field seq_num, offset: 0x10, size: 0x4, def value: None
   int32_t ___seq_num;

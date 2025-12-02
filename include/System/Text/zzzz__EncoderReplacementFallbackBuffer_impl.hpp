@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderReplacementFallbackBuffer::*)(::System::Text::EncoderReplacementFallback*)>(
     &::System::Text::EncoderReplacementFallbackBuffer::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c7a778;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x58beaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderReplacementFallbackBuffer::*)(char16_t, int32_t)>(
     &::System::Text::EncoderReplacementFallbackBuffer::Fallback)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3c7a87c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x58bebe0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderReplacementFallbackBuffer::*)(char16_t, char16_t, int32_t)>(
     &::System::Text::EncoderReplacementFallbackBuffer::Fallback)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3c7a9bc;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x58bed10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::System::Text::EncoderReplacementFallbackBuffer::*)()>(
     &::System::Text::EncoderReplacementFallbackBuffer::GetNextChar)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3c7abcc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x58beee0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::EncoderReplacementFallbackBuffer::*)()>(
     &::System::Text::EncoderReplacementFallbackBuffer::MovePrevious)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c7ac1c;
+  constexpr static std::size_t addrs = 0x58bef5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::EncoderReplacementFallbackBuffer::*)()>(
     &::System::Text::EncoderReplacementFallbackBuffer::get_Remaining)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c7ac4c;
+  constexpr static std::size_t addrs = 0x58bef8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,7 +104,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::EncoderReplacementFallbackBuffer::*)()>(
     &::System::Text::EncoderReplacementFallbackBuffer::Reset)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c7ac58;
+  constexpr static std::size_t addrs = 0x58bef98;
 
   inline static ::MethodInfo const* methodInfo() {
 

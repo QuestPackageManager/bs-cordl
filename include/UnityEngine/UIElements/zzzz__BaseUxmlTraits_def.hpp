@@ -31,10 +31,10 @@ public:
 
   constexpr void __cordl_internal_set__canHaveAnyAttribute_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4aa3edc, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a8b638, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_canHaveAnyAttribute, addr 0x4aa3efc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_canHaveAnyAttribute, addr 0x6a8b644, size 0x8, virtual false, abstract: false, final false
   inline void set_canHaveAnyAttribute(bool value);
 
 protected:
@@ -52,7 +52,7 @@ public:
   BaseUxmlTraits(BaseUxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5176 };
 
   /// @brief Field <canHaveAnyAttribute>k__BackingField, offset: 0x10, size: 0x1, def value: None
   bool ____canHaveAnyAttribute_k__BackingField;

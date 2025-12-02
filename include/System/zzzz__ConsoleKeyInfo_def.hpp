@@ -31,22 +31,22 @@ public:
 
   __declspec(property(get = get_KeyChar)) char16_t KeyChar;
 
-  /// @brief Method Equals, addr 0x3e0bbac, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a51e78, size 0x34, virtual false, abstract: false, final false
   inline bool Equals(::System::ConsoleKeyInfo obj);
 
-  /// @brief Method Equals, addr 0x3e0bb14, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a51ddc, size 0x9c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* value);
 
-  /// @brief Method GetHashCode, addr 0x3e0bbe0, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a51eac, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method .ctor, addr 0x3e0ba68, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a51d38, size 0x94, virtual false, abstract: false, final false
   inline void _ctor(char16_t keyChar, ::System::ConsoleKey key, bool shift, bool alt, bool control);
 
-  /// @brief Method get_Key, addr 0x3e0bb0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Key, addr 0x5a51dd4, size 0x8, virtual false, abstract: false, final false
   inline ::System::ConsoleKey get_Key();
 
-  /// @brief Method get_KeyChar, addr 0x3e0bb04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_KeyChar, addr 0x5a51dcc, size 0x8, virtual false, abstract: false, final false
   inline char16_t get_KeyChar();
 
   // Ctor Parameters []
@@ -58,7 +58,7 @@ public:
   constexpr ConsoleKeyInfo(char16_t _keyChar, ::System::ConsoleKey _key, ::System::ConsoleModifiers _mods) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2527 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

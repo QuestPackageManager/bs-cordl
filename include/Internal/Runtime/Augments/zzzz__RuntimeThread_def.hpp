@@ -36,24 +36,24 @@ public:
   /// @brief Field thread, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_thread, put = __cordl_internal_set_thread)) ::System::Threading::Thread* thread;
 
-  /// @brief Method Create, addr 0x3c6f1b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x58b23e0, size 0x90, virtual false, abstract: false, final false
   static inline ::Internal::Runtime::Augments::RuntimeThread* Create(::System::Threading::ParameterizedThreadStart* start, int32_t maxStackSize);
 
-  /// @brief Method GetCurrentProcessorId, addr 0x3c6f2ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentProcessorId, addr 0x58b24cc, size 0x8, virtual false, abstract: false, final false
   static inline int32_t GetCurrentProcessorId();
 
   static inline ::Internal::Runtime::Augments::RuntimeThread* New_ctor(::System::Threading::Thread* t);
 
-  /// @brief Method Sleep, addr 0x3c6f284, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Sleep, addr 0x58b24a4, size 0x8, virtual false, abstract: false, final false
   static inline void Sleep(int32_t millisecondsTimeout);
 
-  /// @brief Method SpinWait, addr 0x3c6f294, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SpinWait, addr 0x58b24c4, size 0x8, virtual false, abstract: false, final false
   static inline bool SpinWait(int32_t iterations);
 
-  /// @brief Method Start, addr 0x3c6f268, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x58b248c, size 0x18, virtual false, abstract: false, final false
   inline void Start(::System::Object* state);
 
-  /// @brief Method Yield, addr 0x3c6f28c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Yield, addr 0x58b24ac, size 0x18, virtual false, abstract: false, final false
   static inline bool Yield();
 
   constexpr ::System::Threading::Thread* const& __cordl_internal_get_thread() const;
@@ -62,14 +62,14 @@ public:
 
   constexpr void __cordl_internal_set_thread(::System::Threading::Thread* value);
 
-  /// @brief Method .ctor, addr 0x3c6f188, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58b23d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Thread* t);
 
   static inline int32_t getStaticF_OptimalMaxSpinWaitsPerSpinIteration();
 
   static inline void setStaticF_OptimalMaxSpinWaitsPerSpinIteration(int32_t value);
 
-  /// @brief Method set_IsBackground, addr 0x3c6f248, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method set_IsBackground, addr 0x58b2470, size 0x1c, virtual false, abstract: false, final false
   inline void set_IsBackground(bool value);
 
 protected:

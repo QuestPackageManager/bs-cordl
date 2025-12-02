@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -23,13 +22,16 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Engines {
 class DesEdeWrapEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine);
-// Dependencies Org.BouncyCastle.Crypto.IWrapper, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Engines.DesEdeWrapEngine
@@ -65,21 +67,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method CalculateCmsKeyChecksum, addr 0x2358128, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CalculateCmsKeyChecksum, addr 0x3285c58, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckCmsKeyChecksum, addr 0x2358768, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckCmsKeyChecksum, addr 0x32862a4, size 0x84, virtual false, abstract: false, final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum);
 
-  /// @brief Method Init, addr 0x2357a38, size 0x384, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x328552c, size 0x3b0, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::DesEdeWrapEngine* New_ctor();
 
-  /// @brief Method Unwrap, addr 0x2358354, size 0x414, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x3285e88, size 0x41c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x2357dfc, size 0x32c, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x3285920, size 0x338, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
@@ -124,18 +126,18 @@ public:
 
   constexpr void __cordl_internal_set_sha1(::Org::BouncyCastle::Crypto::IDigest* value);
 
-  /// @brief Method .ctor, addr 0x235887c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32863c0, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV2();
 
-  /// @brief Method get_AlgorithmName, addr 0x2357dbc, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x32858dc, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr ::Org::BouncyCastle::Crypto::IWrapper* i___Org__BouncyCastle__Crypto__IWrapper() noexcept;
 
-  /// @brief Method reverse, addr 0x23582a8, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method reverse, addr 0x3285de0, size 0xa8, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> reverse(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
   static inline void setStaticF_IV2(::ArrayW<uint8_t, ::Array<uint8_t>*> value);

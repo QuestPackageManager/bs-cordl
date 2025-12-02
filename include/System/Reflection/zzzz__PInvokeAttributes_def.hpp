@@ -131,7 +131,7 @@ public:
   static ::System::Reflection::PInvokeAttributes const ThrowOnUnmappableCharUseAssem;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3534 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

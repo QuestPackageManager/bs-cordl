@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyParameter)
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::KeyParameter);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.KeyParameter
@@ -26,7 +28,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetKey, addr 0x23a7da8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetKey, addr 0x32d5cc8, size 0x78, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetKey();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::KeyParameter* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
@@ -39,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set_key(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23b12b8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32df4fc, size 0xe4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x23b856c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e6700, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key, int32_t keyOff, int32_t keyLen);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

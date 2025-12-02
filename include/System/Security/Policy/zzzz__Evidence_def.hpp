@@ -3,14 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Evidence)
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -34,7 +37,7 @@ class Evidence_EvidenceEnumerator;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Policy::Evidence);
 MARK_REF_PTR_T(::System::Security::Policy::Evidence_EvidenceEnumerator);
-// Dependencies System.Collections.IEnumerator, System.Object
+// Dependencies System.Object
 namespace System::Security::Policy {
 // Is value type: false
 // CS Name: System.Security.Policy.Evidence/EvidenceEnumerator
@@ -55,12 +58,12 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerator"
   constexpr operator ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c9936c, size 0x128, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58dd8dc, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::System::Security::Policy::Evidence_EvidenceEnumerator* New_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
 
-  /// @brief Method Reset, addr 0x3c99494, size 0x120, virtual true, abstract: false, final true
+  /// @brief Method Reset, addr 0x58dda08, size 0x124, virtual true, abstract: false, final true
   inline void Reset();
 
   constexpr ::System::Collections::IEnumerator* const& __cordl_internal_get_assemblyEnum() const;
@@ -81,10 +84,10 @@ public:
 
   constexpr void __cordl_internal_set_hostEnum(::System::Collections::IEnumerator* value);
 
-  /// @brief Method .ctor, addr 0x3c9933c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd8d0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
 
-  /// @brief Method get_Current, addr 0x3c995b4, size 0xa4, virtual true, abstract: false, final true
+  /// @brief Method get_Current, addr 0x58ddb2c, size 0xa8, virtual true, abstract: false, final true
   inline ::System::Object* get_Current();
 
   /// @brief Convert to "::System::Collections::IEnumerator"
@@ -105,7 +108,7 @@ public:
   Evidence_EvidenceEnumerator(Evidence_EvidenceEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2920 };
 
   /// @brief Field currentEnum, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IEnumerator* ___currentEnum;
@@ -128,7 +131,7 @@ static_assert(offsetof(::System::Security::Policy::Evidence_EvidenceEnumerator, 
 static_assert(::cordl_internals::size_check_v<::System::Security::Policy::Evidence_EvidenceEnumerator, 0x28>, "Size mismatch!");
 
 } // namespace System::Security::Policy
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Security::Policy {
 // Is value type: false
 // CS Name: System.Security.Policy.Evidence
@@ -158,10 +161,10 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x3c991d0, size 0xc4, virtual true, abstract: false, final true
+  /// @brief Method CopyTo, addr 0x58dd770, size 0xc4, virtual true, abstract: false, final true
   inline void CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method GetEnumerator, addr 0x3c99294, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x58dd834, size 0x9c, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Security::Policy::Evidence* New_ctor();
@@ -184,16 +187,16 @@ public:
 
   constexpr void __cordl_internal_set_hostEvidenceList(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x3c99160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58dd704, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x3c99168, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method get_Count, addr 0x58dd708, size 0x5c, virtual true, abstract: false, final true
   inline int32_t get_Count();
 
-  /// @brief Method get_IsSynchronized, addr 0x3c991c4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_IsSynchronized, addr 0x58dd764, size 0x8, virtual true, abstract: false, final true
   inline bool get_IsSynchronized();
 
-  /// @brief Method get_SyncRoot, addr 0x3c991cc, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method get_SyncRoot, addr 0x58dd76c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Object* get_SyncRoot();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -217,7 +220,7 @@ public:
   Evidence(Evidence const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2921 };
 
   /// @brief Field _locked, offset: 0x10, size: 0x1, def value: None
   bool ____locked;

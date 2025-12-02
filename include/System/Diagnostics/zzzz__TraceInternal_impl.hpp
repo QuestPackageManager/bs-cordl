@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceListenerCollection* (*)()>(&::System::Diagnostics::TraceInternal::get_Listeners)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x442b7e8;
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x617a72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(), "get_Listeners",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Diagnostics::TraceInternal::get_AutoFlush)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x442ba78;
+  constexpr static std::size_t addrs = 0x617aa1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(), "get_AutoFlush",
@@ -30,12 +30,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Diagnostics::TraceInternal.get_UseGlobalLock
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Diagnostics::TraceInternal::get_UseGlobalLock)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x617b498;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(),
+                                                                               "get_UseGlobalLock", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Diagnostics::TraceInternal.get_IndentLevel
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceInternal::get_IndentLevel)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x442c4e0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x617b4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(), "get_IndentLevel",
@@ -48,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::System::Diagnostics::TraceInternal::get_IndentSize)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x442c538;
+  constexpr static std::size_t addrs = 0x617b578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(), "get_IndentSize",
@@ -61,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::System::Diagnostics::TraceInternal::InitializeSettings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x442c218;
+  constexpr static std::size_t addrs = 0x617b1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(),
@@ -89,6 +102,12 @@ inline void System::Diagnostics::TraceInternal::setStaticF_autoFlush(bool value)
 inline bool System::Diagnostics::TraceInternal::getStaticF_autoFlush() {
   return ::cordl_internals::getStaticField<bool, "autoFlush", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get>();
 }
+inline void System::Diagnostics::TraceInternal::setStaticF_useGlobalLock(bool value) {
+  ::cordl_internals::setStaticField<bool, "useGlobalLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get>(std::forward<bool>(value));
+}
+inline bool System::Diagnostics::TraceInternal::getStaticF_useGlobalLock() {
+  return ::cordl_internals::getStaticField<bool, "useGlobalLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get>();
+}
 inline void System::Diagnostics::TraceInternal::setStaticF_indentLevel(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "indentLevel", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get>(std::forward<int32_t>(value));
 }
@@ -115,6 +134,11 @@ inline ::System::Diagnostics::TraceListenerCollection* System::Diagnostics::Trac
 }
 inline bool System::Diagnostics::TraceInternal::get_AutoFlush() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(), "get_AutoFlush",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
+}
+inline bool System::Diagnostics::TraceInternal::get_UseGlobalLock() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceInternal*>::get(), "get_UseGlobalLock",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method);
 }

@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DoesNotRequireDomainReloadInitAttribute.hpp"
-#include "UnityEngine/zzzz__PropertyAttribute_impl.hpp"
+#include "System/zzzz__Attribute_impl.hpp"
 #include "GlobalNamespace/zzzz__DoesNotRequireDomainReloadInitAttribute_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::*)()>(
     &::GlobalNamespace::DoesNotRequireDomainReloadInitAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229e114;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31e3d24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

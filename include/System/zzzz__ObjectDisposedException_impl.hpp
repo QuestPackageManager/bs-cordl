@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3df9de8;
+  constexpr static std::size_t addrs = 0x5a40df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(::StringW)>(&::System::ObjectDisposedException::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3df9e80;
+  constexpr static std::size_t addrs = 0x5a40e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(::StringW, ::StringW)>(&::System::ObjectDisposedException::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3df9e48;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5a40e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3df9eec;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5a40ef0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ObjectDisposedException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::ObjectDisposedException::GetObjectData)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3df9f74;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5a40f80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_Message)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3dfa148;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5a410a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -94,8 +94,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ObjectDisposedException::*)()>(&::System::ObjectDisposedException::get_ObjectName)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3dfa07c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5a41048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ObjectDisposedException*>::get(), "get_ObjectName",

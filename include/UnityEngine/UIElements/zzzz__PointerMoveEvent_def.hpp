@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a32cd8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b6ff64, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerMoveEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a32cd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6ff60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   PointerMoveEvent___c(PointerMoveEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4542 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,21 +76,28 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerMoveEvent___c;
 
-  /// @brief Field <isHandledByDraggable>k__BackingField, offset 0x106, size 0x1
+  /// @brief Field <isHandledByDraggable>k__BackingField, offset 0xf4, size 0x1
   __declspec(property(get = __cordl_internal_get__isHandledByDraggable_k__BackingField, put = __cordl_internal_set__isHandledByDraggable_k__BackingField)) bool _isHandledByDraggable_k__BackingField;
 
   __declspec(property(get = get_isHandledByDraggable, put = set_isHandledByDraggable)) bool isHandledByDraggable;
 
-  /// @brief Method Init, addr 0x4a32428, size 0x50, virtual true, abstract: false, final false
+  __declspec(property(get = get_isPointerDown)) bool isPointerDown;
+
+  __declspec(property(get = get_isPointerUp)) bool isPointerUp;
+
+  /// @brief Method Init, addr 0x6b6fa6c, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a32478, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b6fac0, size 0xb0, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerMoveEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a325d4, size 0x6a0, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6b6fe04, size 0x108, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method PreDispatch, addr 0x6b6fbc4, size 0x240, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
 
   constexpr bool const& __cordl_internal_get__isHandledByDraggable_k__BackingField() const;
 
@@ -98,13 +105,19 @@ public:
 
   constexpr void __cordl_internal_set__isHandledByDraggable_k__BackingField(bool value);
 
-  /// @brief Method .ctor, addr 0x4a32584, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6fb70, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isHandledByDraggable, addr 0x4a32414, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isHandledByDraggable, addr 0x6b6f978, size 0x8, virtual false, abstract: false, final false
   inline bool get_isHandledByDraggable();
 
-  /// @brief Method set_isHandledByDraggable, addr 0x4a3241c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_isPointerDown, addr 0x6b6f988, size 0x70, virtual false, abstract: false, final false
+  inline bool get_isPointerDown();
+
+  /// @brief Method get_isPointerUp, addr 0x6b6f9f8, size 0x74, virtual false, abstract: false, final false
+  inline bool get_isPointerUp();
+
+  /// @brief Method set_isHandledByDraggable, addr 0x6b6f980, size 0x8, virtual false, abstract: false, final false
   inline void set_isHandledByDraggable(bool value);
 
 protected:
@@ -122,17 +135,17 @@ public:
   PointerMoveEvent(PointerMoveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5914 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4543 };
 
-  /// @brief Field <isHandledByDraggable>k__BackingField, offset: 0x106, size: 0x1, def value: None
+  /// @brief Field <isHandledByDraggable>k__BackingField, offset: 0xf4, size: 0x1, def value: None
   bool ____isHandledByDraggable_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::PointerMoveEvent, ____isHandledByDraggable_k__BackingField) == 0x106, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::PointerMoveEvent, ____isHandledByDraggable_k__BackingField) == 0xf4, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerMoveEvent, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerMoveEvent, 0xf8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerMoveEvent);

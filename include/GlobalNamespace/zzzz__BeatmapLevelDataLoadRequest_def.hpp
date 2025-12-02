@@ -4,10 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -34,6 +32,9 @@ class CancellationTokenSource;
 namespace System::Threading {
 struct CancellationToken;
 }
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine {
 class AssetBundle;
 }
@@ -50,8 +51,7 @@ struct BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapLevelDataLoadRequest);
 MARK_VAL_T(::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: BeatmapLevelDataLoadRequest/<LoadDataAsyncInternal>d__8
@@ -61,10 +61,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26c1804, size 0x70c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35f3ddc, size 0x790, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26c1f10, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35f456c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -88,7 +88,7 @@ public:
                                                                     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::Object>> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12925 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14899 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -134,7 +134,7 @@ static_assert(offsetof(::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataA
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapLevelDataLoadRequest__LoadDataAsyncInternal_d__8, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapLevelDataLoadRequest
@@ -170,21 +170,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x26c0b30, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x35f3104, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method LoadDataAsync, addr 0x26c0b90, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsync, addr 0x35f3178, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsync(::System::Threading::CancellationToken externalCancellationToken);
 
-  /// @brief Method LoadDataAsyncInternal, addr 0x26c149c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method LoadDataAsyncInternal, addr 0x35f3ac8, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* LoadDataAsyncInternal(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::BeatmapLevelDataLoadRequest* New_ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x26c1588, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfExternalCancellationRequested, addr 0x35f3bb8, size 0x19c, virtual false, abstract: false, final false
   inline void ThrowIfExternalCancellationRequested();
 
-  /// @brief Method UnloadBundle, addr 0x26c1780, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method UnloadBundle, addr 0x35f3d54, size 0x88, virtual false, abstract: false, final false
   inline void UnloadBundle();
 
   constexpr ::StringW const& __cordl_internal_get__assetBundlePath() const;
@@ -223,13 +223,13 @@ public:
 
   constexpr void __cordl_internal_set_assetBundle(::UnityW<::UnityEngine::AssetBundle> value);
 
-  /// @brief Method .ctor, addr 0x26c0c58, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35f324c, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::StringW assetBundlePath, ::StringW levelDataAssetName);
 
-  /// @brief Method get_HasFailed, addr 0x26c0af4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_HasFailed, addr 0x35f30c8, size 0x3c, virtual false, abstract: false, final false
   inline bool get_HasFailed();
 
-  /// @brief Method get_HasValidResult, addr 0x26c13a8, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_HasValidResult, addr 0x35f399c, size 0xac, virtual false, abstract: false, final false
   inline bool get_HasValidResult();
 
   /// @brief Convert to "::System::IDisposable"
@@ -250,7 +250,7 @@ public:
   BeatmapLevelDataLoadRequest(BeatmapLevelDataLoadRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12926 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14900 };
 
   /// @brief Field _task, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::Tasks::Task_1<::GlobalNamespace::IBeatmapLevelData*>* ____task;

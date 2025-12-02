@@ -33,10 +33,10 @@ public:
 
   static inline ::GlobalNamespace::CountdownElementController* New_ctor();
 
-  /// @brief Method SetTextAndRunAnimation, addr 0x3c0cf6c, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method SetTextAndRunAnimation, addr 0x580458c, size 0x60, virtual false, abstract: false, final false
   inline void SetTextAndRunAnimation(::StringW text);
 
-  /// @brief Method StopAndHide, addr 0x3c0d0c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method StopAndHide, addr 0x58046dc, size 0x24, virtual false, abstract: false, final false
   inline void StopAndHide();
 
   constexpr ::UnityW<::UnityEngine::Animation> const& __cordl_internal_get__animation() const;
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c0d24c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5804858, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   CountdownElementController(CountdownElementController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6416 };
 
   /// @brief Field _text, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____text;

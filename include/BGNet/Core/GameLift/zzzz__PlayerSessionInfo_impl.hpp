@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Core::GameLift::PlayerSessionInfo::*)()>(&::BGNet::Core::GameLift::PlayerSessionInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22f0544;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31bdbe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Core::GameLift::PlayerSessionInfo*>::get(), ".ctor",
@@ -52,6 +52,18 @@ constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__cordl_int
 constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__cordl_internal_set_dnsName(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___dnsName)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& BGNet::Core::GameLift::PlayerSessionInfo::__cordl_internal_get_ipAddress() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ipAddress;
+}
+constexpr ::StringW const& BGNet::Core::GameLift::PlayerSessionInfo::__cordl_internal_get_ipAddress() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___ipAddress;
+}
+constexpr void BGNet::Core::GameLift::PlayerSessionInfo::__cordl_internal_set_ipAddress(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___ipAddress)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr int32_t& BGNet::Core::GameLift::PlayerSessionInfo::__cordl_internal_get_port() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

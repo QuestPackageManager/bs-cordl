@@ -8,4 +8,4 @@ constexpr ::UnityEngine::ProBuilder::PivotLocation::PivotLocation(int32_t value_
 // Ctor Parameters []
 constexpr ::UnityEngine::ProBuilder::PivotLocation::PivotLocation() {}
 constexpr ::UnityEngine::ProBuilder::PivotLocation UnityEngine::ProBuilder::PivotLocation::Center{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::ProBuilder::PivotLocation UnityEngine::ProBuilder::PivotLocation::FirstCorner{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::ProBuilder::PivotLocation UnityEngine::ProBuilder::PivotLocation::FirstVertex{ static_cast<int32_t>(0x1) };

@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CmsProcessableByteArray.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_impl.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsProcessableByteArray_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsProcessable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CmsProcessableByteArray._ctor
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x265aac4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x358a024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cms::CmsProcessableByteArray::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x265ab3c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x358a094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265ab68;
+  constexpr static std::size_t addrs = 0x358a09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsProcessableByteArray*>::get(),
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::GetInputStream)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x265ab70;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x358a0a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::Write)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x265abd4;
+  constexpr static std::size_t addrs = 0x358a10c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Cms::CmsProcessableByteArray::*)()>(
     &::Org::BouncyCastle::Cms::CmsProcessableByteArray::GetContent)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x265ac0c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x358a144;
 
   inline static ::MethodInfo const* methodInfo() {
 

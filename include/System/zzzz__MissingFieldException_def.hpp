@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__MissingMemberException_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(MissingFieldException)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -19,7 +21,7 @@ class MissingFieldException;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::MissingFieldException);
-// Dependencies System.MissingMemberException, System.Runtime.Serialization.ISerializable
+// Dependencies System.MissingMemberException
 namespace System {
 // Is value type: false
 // CS Name: System.MissingFieldException
@@ -39,19 +41,19 @@ public:
 
   static inline ::System::MissingFieldException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e0d3a8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a53a60, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e0d44c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a53afc, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW className, ::StringW fieldName);
 
-  /// @brief Method .ctor, addr 0x3e0d4d0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a53b80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e0d428, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a53adc, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method get_Message, addr 0x3e0d658, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5a53d00, size 0xf4, virtual true, abstract: false, final false
   inline ::StringW get_Message();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -72,7 +74,7 @@ public:
   MissingFieldException(MissingFieldException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2526 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2535 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

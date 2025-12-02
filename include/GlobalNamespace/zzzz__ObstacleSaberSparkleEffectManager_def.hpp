@@ -55,6 +55,9 @@ struct Quaternion;
 namespace UnityEngine {
 struct Vector3;
 }
+namespace Zenject {
+class DiContainer;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class ObstacleSaberSparkleEffectManager;
@@ -129,7 +132,7 @@ public:
   ObstacleSaberSparkleEffectManager_BoxSideRotations(ObstacleSaberSparkleEffectManager_BoxSideRotations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4254 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5820 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -152,7 +155,10 @@ public:
   /// @brief Field _colorManager, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager* _colorManager;
 
-  /// @brief Field _effects, offset 0x58, size 0x8
+  /// @brief Field _container, offset 0x50, size 0x8
+  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container)) ::Zenject::DiContainer* _container;
+
+  /// @brief Field _effects, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__effects,
                       put = __cordl_internal_set__effects)) ::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>, ::Array<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>>*>
       _effects;
@@ -171,39 +177,39 @@ public:
   /// @brief Field _saberManager, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager> _saberManager;
 
-  /// @brief Field _sabers, offset 0x50, size 0x8
+  /// @brief Field _sabers, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__sabers, put = __cordl_internal_set__sabers)) ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> _sabers;
 
-  /// @brief Field sparkleEffectDidEndEvent, offset 0x68, size 0x8
+  /// @brief Field sparkleEffectDidEndEvent, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_sparkleEffectDidEndEvent,
                       put = __cordl_internal_set_sparkleEffectDidEndEvent)) ::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidEndEvent;
 
-  /// @brief Field sparkleEffectDidStartEvent, offset 0x60, size 0x8
+  /// @brief Field sparkleEffectDidStartEvent, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_sparkleEffectDidStartEvent,
                       put = __cordl_internal_set_sparkleEffectDidStartEvent)) ::System::Action_1<::GlobalNamespace::SaberType>* sparkleEffectDidStartEvent;
 
-  /// @brief Method FindBoxSurfaceRotation, addr 0x3b8c338, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method FindBoxSurfaceRotation, addr 0x5778c40, size 0x1ac, virtual false, abstract: false, final false
   static inline ::UnityEngine::Quaternion FindBoxSurfaceRotation(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 position);
 
-  /// @brief Method IntersectBounds, addr 0x3b8be00, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method IntersectBounds, addr 0x57786b4, size 0x1e0, virtual false, abstract: false, final false
   static inline bool IntersectBounds(::UnityEngine::Bounds bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end);
 
-  /// @brief Method IntersectBoxSurfacePose, addr 0x3b8bdbc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IntersectBoxSurfacePose, addr 0x5778670, size 0x44, virtual false, abstract: false, final false
   static inline bool IntersectBoxSurfacePose(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::ByRef<::UnityEngine::Pose> hit);
 
-  /// @brief Method IntersectBoxSurfacePosition, addr 0x3b8bfac, size 0x38c, virtual false, abstract: false, final false
+  /// @brief Method IntersectBoxSurfacePosition, addr 0x5778894, size 0x3ac, virtual false, abstract: false, final false
   static inline bool IntersectBoxSurfacePosition(::ByRef<::UnityEngine::Bounds> bounds, ::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::ByRef<::UnityEngine::Vector3> hit);
 
-  /// @brief Method IntersectSaberWithObstacles, addr 0x3b8b91c, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method IntersectSaberWithObstacles, addr 0x5778178, size 0x31c, virtual false, abstract: false, final false
   static inline bool IntersectSaberWithObstacles(::GlobalNamespace::Saber* saber, ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::ObstacleController>>* obstacles,
                                                  ::ByRef<bool> intersectObstacleSurface, ::ByRef<::UnityEngine::Pose> hit);
 
   static inline ::GlobalNamespace::ObstacleSaberSparkleEffectManager* New_ctor();
 
-  /// @brief Method Start, addr 0x3b8b384, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5777bc0, size 0x25c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b8b654, size 0x2bc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5777ec4, size 0x278, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -213,6 +219,10 @@ public:
   constexpr ::GlobalNamespace::ColorManager* const& __cordl_internal_get__colorManager() const;
 
   constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+
+  constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
+
+  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
 
   constexpr ::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>, ::Array<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>>*> const& __cordl_internal_get__effects() const;
 
@@ -250,6 +260,8 @@ public:
 
   constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
 
+  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+
   constexpr void __cordl_internal_set__effects(::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>, ::Array<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>>*> value);
 
   constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
@@ -266,19 +278,19 @@ public:
 
   constexpr void __cordl_internal_set_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method .ctor, addr 0x3b8c4f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5778dec, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x3b8b224, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidEndEvent, addr 0x5777a40, size 0xc0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x3b8b0c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_sparkleEffectDidStartEvent, addr 0x57778c0, size 0xc0, virtual false, abstract: false, final false
   inline void add_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x3b8b2d4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidEndEvent, addr 0x5777b00, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidEndEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
-  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x3b8b174, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_sparkleEffectDidStartEvent, addr 0x5777980, size 0xc0, virtual false, abstract: false, final false
   inline void remove_sparkleEffectDidStartEvent(::System::Action_1<::GlobalNamespace::SaberType>* value);
 
 protected:
@@ -296,7 +308,7 @@ public:
   ObstacleSaberSparkleEffectManager(ObstacleSaberSparkleEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4255 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5821 };
 
   /// @brief Field _obstacleSaberSparkleEffectPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect> ____obstacleSaberSparkleEffectPrefab;
@@ -316,16 +328,19 @@ public:
   /// @brief Field _colorManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ColorManager* ____colorManager;
 
-  /// @brief Field _sabers, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field _container, offset: 0x50, size: 0x8, def value: None
+  ::Zenject::DiContainer* ____container;
+
+  /// @brief Field _sabers, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*> ____sabers;
 
-  /// @brief Field _effects, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _effects, offset: 0x60, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>, ::Array<::UnityW<::GlobalNamespace::ObstacleSaberSparkleEffect>>*> ____effects;
 
-  /// @brief Field sparkleEffectDidStartEvent, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field sparkleEffectDidStartEvent, offset: 0x68, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::SaberType>* ___sparkleEffectDidStartEvent;
 
-  /// @brief Field sparkleEffectDidEndEvent, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field sparkleEffectDidEndEvent, offset: 0x70, size: 0x8, def value: None
   ::System::Action_1<::GlobalNamespace::SaberType>* ___sparkleEffectDidEndEvent;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -343,15 +358,17 @@ static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___
 
 static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____colorManager) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____sabers) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____container) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____effects) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____sabers) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___sparkleEffectDidStartEvent) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ____effects) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___sparkleEffectDidEndEvent) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___sparkleEffectDidStartEvent) == 0x68, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleSaberSparkleEffectManager, 0x70>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::ObstacleSaberSparkleEffectManager, ___sparkleEffectDidEndEvent) == 0x70, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ObstacleSaberSparkleEffectManager, 0x78>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ObstacleSaberSparkleEffectManager);

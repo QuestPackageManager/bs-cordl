@@ -19,7 +19,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -44,6 +43,9 @@ struct FontStyles;
 }
 namespace UnityEngine::TextCore::Text {
 struct MaterialReference;
+}
+namespace UnityEngine::TextCore::Text {
+struct RenderedText;
 }
 namespace UnityEngine::TextCore::Text {
 struct RichTextTagAttribute;
@@ -80,9 +82,6 @@ struct TextProcessingElement;
 }
 namespace UnityEngine::TextCore::Text {
 template <typename T> struct TextProcessingStack_1;
-}
-namespace UnityEngine::TextCore::Text {
-struct TextWrappingMode;
 }
 namespace UnityEngine::TextCore::Text {
 struct WordWrapState;
@@ -126,12 +125,12 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE TextGenerator_MissingCharacterEventCallback : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4949f2c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x69cfeec, size 0x14, virtual true, abstract: false, final false
   inline void Invoke(uint32_t unicode, int32_t stringIndex, ::UnityEngine::TextCore::Text::TextInfo* text, ::UnityEngine::TextCore::Text::FontAsset* fontAsset);
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4949ea0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cfe80, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -149,7 +148,7 @@ public:
   TextGenerator_MissingCharacterEventCallback(TextGenerator_MissingCharacterEventCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17202 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -164,7 +163,7 @@ namespace UnityEngine::TextCore::Text {
 struct CORDL_TYPE TextGenerator_SpecialCharacter {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x4949f40, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69cff00, size 0x108, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::TextCore::Text::Character* character, int32_t materialIndex);
 
   // Ctor Parameters []
@@ -178,7 +177,7 @@ public:
                                            ::UnityW<::UnityEngine::Material> material, int32_t materialIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15267 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17203 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -226,16 +225,21 @@ public:
   /// @brief Field OnMissingCharacter, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_OnMissingCharacter, put = setStaticF_OnMissingCharacter)) ::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* OnMissingCharacter;
 
+  /// @brief Field <IsExecutingJob>k__BackingField, offset 0xffffffff, size 0x1
+  __declspec(property(get = getStaticF__IsExecutingJob_k__BackingField, put = setStaticF__IsExecutingJob_k__BackingField)) bool _IsExecutingJob_k__BackingField;
+
+  __declspec(property(get = get_isTextTruncated)) bool isTextTruncated;
+
   /// @brief Field m_ActionStack, offset 0x2c0, size 0x20
   __declspec(property(get = __cordl_internal_get_m_ActionStack, put = __cordl_internal_set_m_ActionStack)) ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> m_ActionStack;
 
   /// @brief Field m_AttributeParameterValues, offset 0x19d8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_AttributeParameterValues, put = __cordl_internal_set_m_AttributeParameterValues)) ::ArrayW<float_t, ::Array<float_t>*> m_AttributeParameterValues;
 
-  /// @brief Field m_AutoSizeIterationCount, offset 0x15a0, size 0x4
+  /// @brief Field m_AutoSizeIterationCount, offset 0x15a8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AutoSizeIterationCount, put = __cordl_internal_set_m_AutoSizeIterationCount)) int32_t m_AutoSizeIterationCount;
 
-  /// @brief Field m_AutoSizeMaxIterationCount, offset 0x15a4, size 0x4
+  /// @brief Field m_AutoSizeMaxIterationCount, offset 0x15ac, size 0x4
   __declspec(property(get = __cordl_internal_get_m_AutoSizeMaxIterationCount, put = __cordl_internal_set_m_AutoSizeMaxIterationCount)) int32_t m_AutoSizeMaxIterationCount;
 
   /// @brief Field m_BaselineOffset, offset 0x180, size 0x4
@@ -248,13 +252,13 @@ public:
   /// @brief Field m_CSpacing, offset 0x2ec, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CSpacing, put = __cordl_internal_set_m_CSpacing)) float_t m_CSpacing;
 
-  /// @brief Field m_CachedTextElement, offset 0x1588, size 0x8
+  /// @brief Field m_CachedTextElement, offset 0x1590, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CachedTextElement, put = __cordl_internal_set_m_CachedTextElement)) ::UnityEngine::TextCore::Text::TextElement* m_CachedTextElement;
 
-  /// @brief Field m_CharWidthAdjDelta, offset 0x1594, size 0x4
+  /// @brief Field m_CharWidthAdjDelta, offset 0x159c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CharWidthAdjDelta, put = __cordl_internal_set_m_CharWidthAdjDelta)) float_t m_CharWidthAdjDelta;
 
-  /// @brief Field m_CharacterCount, offset 0x324, size 0x4
+  /// @brief Field m_CharacterCount, offset 0x32c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_CharacterCount, put = __cordl_internal_set_m_CharacterCount)) int32_t m_CharacterCount;
 
   /// @brief Field m_ColorGradientPreset, offset 0x288, size 0x8
@@ -287,10 +291,10 @@ public:
   /// @brief Field m_CurrentSpriteAsset, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CurrentSpriteAsset, put = __cordl_internal_set_m_CurrentSpriteAsset)) ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> m_CurrentSpriteAsset;
 
-  /// @brief Field m_DefaultSpriteAsset, offset 0x19f0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DefaultSpriteAsset, put = __cordl_internal_set_m_DefaultSpriteAsset)) ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> m_DefaultSpriteAsset;
+  /// @brief Field m_DuoSpace, offset 0x2f4, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_DuoSpace, put = __cordl_internal_set_m_DuoSpace)) bool m_DuoSpace;
 
-  /// @brief Field m_Ellipsis, offset 0x1a00, size 0x20
+  /// @brief Field m_Ellipsis, offset 0x19f0, size 0x20
   __declspec(property(get = __cordl_internal_get_m_Ellipsis, put = __cordl_internal_set_m_Ellipsis)) ::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter m_Ellipsis;
 
   /// @brief Field m_EllipsisInsertionCandidateStack, offset 0x15e8, size 0x3b8
@@ -304,13 +308,13 @@ public:
   /// @brief Field m_FXScale, offset 0x19a8, size 0xc
   __declspec(property(get = __cordl_internal_get_m_FXScale, put = __cordl_internal_set_m_FXScale)) ::UnityEngine::Vector3 m_FXScale;
 
-  /// @brief Field m_FirstCharacterOfLine, offset 0x328, size 0x4
+  /// @brief Field m_FirstCharacterOfLine, offset 0x330, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FirstCharacterOfLine, put = __cordl_internal_set_m_FirstCharacterOfLine)) int32_t m_FirstCharacterOfLine;
 
-  /// @brief Field m_FirstOverflowCharacterIndex, offset 0x34c, size 0x4
+  /// @brief Field m_FirstOverflowCharacterIndex, offset 0x354, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FirstOverflowCharacterIndex, put = __cordl_internal_set_m_FirstOverflowCharacterIndex)) int32_t m_FirstOverflowCharacterIndex;
 
-  /// @brief Field m_FirstVisibleCharacterOfLine, offset 0x330, size 0x4
+  /// @brief Field m_FirstVisibleCharacterOfLine, offset 0x338, size 0x4
   __declspec(property(get = __cordl_internal_get_m_FirstVisibleCharacterOfLine, put = __cordl_internal_set_m_FirstVisibleCharacterOfLine)) int32_t m_FirstVisibleCharacterOfLine;
 
   /// @brief Field m_FontColor32, offset 0x1a8, size 0x4
@@ -336,7 +340,7 @@ public:
                       put = __cordl_internal_set_m_FontWeightStack)) ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextFontWeight>
       m_FontWeightStack;
 
-  /// @brief Field m_HighlightColor, offset 0x1590, size 0x4
+  /// @brief Field m_HighlightColor, offset 0x1598, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HighlightColor, put = __cordl_internal_set_m_HighlightColor)) ::UnityEngine::Color32 m_HighlightColor;
 
   /// @brief Field m_HighlightColorStack, offset 0x218, size 0x20
@@ -357,19 +361,16 @@ public:
   /// @brief Field m_HtmlTag, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HtmlTag, put = __cordl_internal_set_m_HtmlTag)) ::ArrayW<char16_t, ::Array<char16_t>*> m_HtmlTag;
 
-  /// @brief Field m_IndentStack, offset 0x300, size 0x20
+  /// @brief Field m_IndentStack, offset 0x308, size 0x20
   __declspec(property(get = __cordl_internal_get_m_IndentStack, put = __cordl_internal_set_m_IndentStack)) ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> m_IndentStack;
 
-  /// @brief Field m_InternalTextElementInfo, offset 0x1a40, size 0x8
+  /// @brief Field m_InternalTextElementInfo, offset 0x1a30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_InternalTextElementInfo,
                       put = __cordl_internal_set_m_InternalTextElementInfo)) ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*>
       m_InternalTextElementInfo;
 
   /// @brief Field m_InternalTextProcessingArraySize, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_InternalTextProcessingArraySize, put = __cordl_internal_set_m_InternalTextProcessingArraySize)) int32_t m_InternalTextProcessingArraySize;
-
-  /// @brief Field m_IsAutoSizePointSizeSet, offset 0x15a8, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_IsAutoSizePointSizeSet, put = __cordl_internal_set_m_IsAutoSizePointSizeSet)) bool m_IsAutoSizePointSizeSet;
 
   /// @brief Field m_IsCalculatingPreferredValues, offset 0x19e8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsCalculatingPreferredValues, put = __cordl_internal_set_m_IsCalculatingPreferredValues)) bool m_IsCalculatingPreferredValues;
@@ -380,14 +381,14 @@ public:
   /// @brief Field m_IsIgnoringAlignment, offset 0x4c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsIgnoringAlignment, put = __cordl_internal_set_m_IsIgnoringAlignment)) bool m_IsIgnoringAlignment;
 
-  /// @brief Field m_IsNewPage, offset 0x37c, size 0x1
+  /// @brief Field m_IsNewPage, offset 0x384, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsNewPage, put = __cordl_internal_set_m_IsNewPage)) bool m_IsNewPage;
 
-  /// @brief Field m_IsNonBreakingSpace, offset 0x37d, size 0x1
+  /// @brief Field m_IsNonBreakingSpace, offset 0x385, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsNonBreakingSpace, put = __cordl_internal_set_m_IsNonBreakingSpace)) bool m_IsNonBreakingSpace;
 
-  /// @brief Field m_IsTextTruncated, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_m_IsTextTruncated, put = setStaticF_m_IsTextTruncated)) bool m_IsTextTruncated;
+  /// @brief Field m_IsTextTruncated, offset 0x4d, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_IsTextTruncated, put = __cordl_internal_set_m_IsTextTruncated)) bool m_IsTextTruncated;
 
   /// @brief Field m_ItalicAngle, offset 0x19a4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ItalicAngle, put = __cordl_internal_set_m_ItalicAngle)) int32_t m_ItalicAngle;
@@ -398,10 +399,10 @@ public:
   /// @brief Field m_LastBaseGlyphIndex, offset 0x19c4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LastBaseGlyphIndex, put = __cordl_internal_set_m_LastBaseGlyphIndex)) int32_t m_LastBaseGlyphIndex;
 
-  /// @brief Field m_LastCharacterOfLine, offset 0x32c, size 0x4
+  /// @brief Field m_LastCharacterOfLine, offset 0x334, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LastCharacterOfLine, put = __cordl_internal_set_m_LastCharacterOfLine)) int32_t m_LastCharacterOfLine;
 
-  /// @brief Field m_LastVisibleCharacterOfLine, offset 0x334, size 0x4
+  /// @brief Field m_LastVisibleCharacterOfLine, offset 0x33c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LastVisibleCharacterOfLine, put = __cordl_internal_set_m_LastVisibleCharacterOfLine)) int32_t m_LastVisibleCharacterOfLine;
 
   /// @brief Field m_LineHeight, offset 0x2e4, size 0x4
@@ -415,28 +416,28 @@ public:
                       put = __cordl_internal_set_m_LineJustificationStack)) ::UnityEngine::TextCore::Text::TextProcessingStack_1<::UnityEngine::TextCore::Text::TextAlignment>
       m_LineJustificationStack;
 
-  /// @brief Field m_LineNumber, offset 0x340, size 0x4
+  /// @brief Field m_LineNumber, offset 0x348, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LineNumber, put = __cordl_internal_set_m_LineNumber)) int32_t m_LineNumber;
 
   /// @brief Field m_LineOffset, offset 0x2e0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LineOffset, put = __cordl_internal_set_m_LineOffset)) float_t m_LineOffset;
 
-  /// @brief Field m_LineSpacingDelta, offset 0x15b0, size 0x4
+  /// @brief Field m_LineSpacingDelta, offset 0x15b4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LineSpacingDelta, put = __cordl_internal_set_m_LineSpacingDelta)) float_t m_LineSpacingDelta;
 
-  /// @brief Field m_LineVisibleCharacterCount, offset 0x344, size 0x4
+  /// @brief Field m_LineVisibleCharacterCount, offset 0x34c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LineVisibleCharacterCount, put = __cordl_internal_set_m_LineVisibleCharacterCount)) int32_t m_LineVisibleCharacterCount;
 
-  /// @brief Field m_LineVisibleSpaceCount, offset 0x348, size 0x4
+  /// @brief Field m_LineVisibleSpaceCount, offset 0x350, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LineVisibleSpaceCount, put = __cordl_internal_set_m_LineVisibleSpaceCount)) int32_t m_LineVisibleSpaceCount;
 
   /// @brief Field m_MarginHeight, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MarginHeight, put = __cordl_internal_set_m_MarginHeight)) float_t m_MarginHeight;
 
-  /// @brief Field m_MarginLeft, offset 0x354, size 0x4
+  /// @brief Field m_MarginLeft, offset 0x35c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MarginLeft, put = __cordl_internal_set_m_MarginLeft)) float_t m_MarginLeft;
 
-  /// @brief Field m_MarginRight, offset 0x358, size 0x4
+  /// @brief Field m_MarginRight, offset 0x360, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MarginRight, put = __cordl_internal_set_m_MarginRight)) float_t m_MarginRight;
 
   /// @brief Field m_MarginWidth, offset 0x58, size 0x4
@@ -456,28 +457,28 @@ public:
                       put = __cordl_internal_set_m_MaterialReferences)) ::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>
       m_MaterialReferences;
 
-  /// @brief Field m_MaxAscender, offset 0x374, size 0x4
+  /// @brief Field m_MaxAscender, offset 0x37c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxAscender, put = __cordl_internal_set_m_MaxAscender)) float_t m_MaxAscender;
 
-  /// @brief Field m_MaxCapHeight, offset 0x370, size 0x4
+  /// @brief Field m_MaxCapHeight, offset 0x378, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxCapHeight, put = __cordl_internal_set_m_MaxCapHeight)) float_t m_MaxCapHeight;
 
-  /// @brief Field m_MaxDescender, offset 0x378, size 0x4
+  /// @brief Field m_MaxDescender, offset 0x380, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxDescender, put = __cordl_internal_set_m_MaxDescender)) float_t m_MaxDescender;
 
-  /// @brief Field m_MaxFontSize, offset 0x1598, size 0x4
+  /// @brief Field m_MaxFontSize, offset 0x15a0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxFontSize, put = __cordl_internal_set_m_MaxFontSize)) float_t m_MaxFontSize;
 
-  /// @brief Field m_MaxLineAscender, offset 0x338, size 0x4
+  /// @brief Field m_MaxLineAscender, offset 0x340, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxLineAscender, put = __cordl_internal_set_m_MaxLineAscender)) float_t m_MaxLineAscender;
 
-  /// @brief Field m_MaxLineDescender, offset 0x33c, size 0x4
+  /// @brief Field m_MaxLineDescender, offset 0x344, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxLineDescender, put = __cordl_internal_set_m_MaxLineDescender)) float_t m_MaxLineDescender;
 
-  /// @brief Field m_MeshExtents, offset 0x360, size 0x10
+  /// @brief Field m_MeshExtents, offset 0x368, size 0x10
   __declspec(property(get = __cordl_internal_get_m_MeshExtents, put = __cordl_internal_set_m_MeshExtents)) ::UnityEngine::TextCore::Text::Extents m_MeshExtents;
 
-  /// @brief Field m_MinFontSize, offset 0x159c, size 0x4
+  /// @brief Field m_MinFontSize, offset 0x15a4, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MinFontSize, put = __cordl_internal_set_m_MinFontSize)) float_t m_MinFontSize;
 
   /// @brief Field m_MonoSpacing, offset 0x2f0, size 0x4
@@ -489,7 +490,7 @@ public:
   /// @brief Field m_PageAscender, offset 0x19c8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_PageAscender, put = __cordl_internal_set_m_PageAscender)) float_t m_PageAscender;
 
-  /// @brief Field m_PageNumber, offset 0x350, size 0x4
+  /// @brief Field m_PageNumber, offset 0x358, size 0x4
   __declspec(property(get = __cordl_internal_get_m_PageNumber, put = __cordl_internal_set_m_PageNumber)) int32_t m_PageNumber;
 
   /// @brief Field m_PreferredHeight, offset 0x64, size 0x4
@@ -502,20 +503,20 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RectTransformCorners, put = __cordl_internal_set_m_RectTransformCorners)) ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>
       m_RectTransformCorners;
 
-  /// @brief Field m_SavedEllipsisState, offset 0xab0, size 0x398
+  /// @brief Field m_SavedEllipsisState, offset 0xab8, size 0x398
   __declspec(property(get = __cordl_internal_get_m_SavedEllipsisState, put = __cordl_internal_set_m_SavedEllipsisState)) ::UnityEngine::TextCore::Text::WordWrapState m_SavedEllipsisState;
 
-  /// @brief Field m_SavedLastValidState, offset 0xe48, size 0x398
+  /// @brief Field m_SavedLastValidState, offset 0xe50, size 0x398
   __declspec(property(get = __cordl_internal_get_m_SavedLastValidState, put = __cordl_internal_set_m_SavedLastValidState)) ::UnityEngine::TextCore::Text::WordWrapState m_SavedLastValidState;
 
-  /// @brief Field m_SavedLineState, offset 0x718, size 0x398
+  /// @brief Field m_SavedLineState, offset 0x720, size 0x398
   __declspec(property(get = __cordl_internal_get_m_SavedLineState, put = __cordl_internal_set_m_SavedLineState)) ::UnityEngine::TextCore::Text::WordWrapState m_SavedLineState;
 
-  /// @brief Field m_SavedSoftLineBreakState, offset 0x11e0, size 0x398
+  /// @brief Field m_SavedSoftLineBreakState, offset 0x11e8, size 0x398
   __declspec(property(get = __cordl_internal_get_m_SavedSoftLineBreakState,
                       put = __cordl_internal_set_m_SavedSoftLineBreakState)) ::UnityEngine::TextCore::Text::WordWrapState m_SavedSoftLineBreakState;
 
-  /// @brief Field m_SavedWordWrapState, offset 0x380, size 0x398
+  /// @brief Field m_SavedWordWrapState, offset 0x388, size 0x398
   __declspec(property(get = __cordl_internal_get_m_SavedWordWrapState, put = __cordl_internal_set_m_SavedWordWrapState)) ::UnityEngine::TextCore::Text::WordWrapState m_SavedWordWrapState;
 
   /// @brief Field m_SizeStack, offset 0xf8, size 0x20
@@ -524,16 +525,16 @@ public:
   /// @brief Field m_SpriteAnimationId, offset 0x19a0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_SpriteAnimationId, put = __cordl_internal_set_m_SpriteAnimationId)) int32_t m_SpriteAnimationId;
 
-  /// @brief Field m_SpriteColor, offset 0x1580, size 0x4
+  /// @brief Field m_SpriteColor, offset 0x1588, size 0x4
   __declspec(property(get = __cordl_internal_get_m_SpriteColor, put = __cordl_internal_set_m_SpriteColor)) ::UnityEngine::Color32 m_SpriteColor;
 
   /// @brief Field m_SpriteCount, offset 0x15c0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_SpriteCount, put = __cordl_internal_set_m_SpriteCount)) int32_t m_SpriteCount;
 
-  /// @brief Field m_SpriteIndex, offset 0x157c, size 0x4
+  /// @brief Field m_SpriteIndex, offset 0x1584, size 0x4
   __declspec(property(get = __cordl_internal_get_m_SpriteIndex, put = __cordl_internal_set_m_SpriteIndex)) int32_t m_SpriteIndex;
 
-  /// @brief Field m_StartOfLineAscender, offset 0x15ac, size 0x4
+  /// @brief Field m_StartOfLineAscender, offset 0x15b0, size 0x4
   __declspec(property(get = __cordl_internal_get_m_StartOfLineAscender, put = __cordl_internal_set_m_StartOfLineAscender)) float_t m_StartOfLineAscender;
 
   /// @brief Field m_StrikethroughColor, offset 0x1b4, size 0x4
@@ -547,19 +548,19 @@ public:
   /// @brief Field m_StyleStack, offset 0x15c8, size 0x20
   __declspec(property(get = __cordl_internal_get_m_StyleStack, put = __cordl_internal_set_m_StyleStack)) ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> m_StyleStack;
 
-  /// @brief Field m_TagIndent, offset 0x2fc, size 0x4
+  /// @brief Field m_TagIndent, offset 0x300, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TagIndent, put = __cordl_internal_set_m_TagIndent)) float_t m_TagIndent;
 
-  /// @brief Field m_TagLineIndent, offset 0x2f8, size 0x4
+  /// @brief Field m_TagLineIndent, offset 0x2fc, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TagLineIndent, put = __cordl_internal_set_m_TagLineIndent)) float_t m_TagLineIndent;
 
-  /// @brief Field m_TagNoParsing, offset 0x320, size 0x1
+  /// @brief Field m_TagNoParsing, offset 0x328, size 0x1
   __declspec(property(get = __cordl_internal_get_m_TagNoParsing, put = __cordl_internal_set_m_TagNoParsing)) bool m_TagNoParsing;
 
   /// @brief Field m_TextBackingArray, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_m_TextBackingArray, put = __cordl_internal_set_m_TextBackingArray)) ::UnityEngine::TextCore::Text::TextBackingContainer m_TextBackingArray;
 
-  /// @brief Field m_TextElementType, offset 0x1578, size 0x1
+  /// @brief Field m_TextElementType, offset 0x1580, size 0x1
   __declspec(property(get = __cordl_internal_get_m_TextElementType, put = __cordl_internal_set_m_TextElementType)) ::UnityEngine::TextCore::Text::TextElementType m_TextElementType;
 
   /// @brief Field m_TextProcessingArray, offset 0x20, size 0x8
@@ -576,13 +577,13 @@ public:
       put = __cordl_internal_set_m_TextStyleStacks)) ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>
       m_TextStyleStacks;
 
-  /// @brief Field m_TintSprite, offset 0x19f8, size 0x1
+  /// @brief Field m_TintSprite, offset 0x19e9, size 0x1
   __declspec(property(get = __cordl_internal_get_m_TintSprite, put = __cordl_internal_set_m_TintSprite)) bool m_TintSprite;
 
   /// @brief Field m_TotalCharacterCount, offset 0xe8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TotalCharacterCount, put = __cordl_internal_set_m_TotalCharacterCount)) int32_t m_TotalCharacterCount;
 
-  /// @brief Field m_Underline, offset 0x1a20, size 0x20
+  /// @brief Field m_Underline, offset 0x1a10, size 0x20
   __declspec(property(get = __cordl_internal_get_m_Underline, put = __cordl_internal_set_m_Underline)) ::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter m_Underline;
 
   /// @brief Field m_UnderlineColor, offset 0x1b0, size 0x4
@@ -595,10 +596,10 @@ public:
   /// @brief Field m_VertexBufferAutoSizeReduction, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_VertexBufferAutoSizeReduction, put = __cordl_internal_set_m_VertexBufferAutoSizeReduction)) bool m_VertexBufferAutoSizeReduction;
 
-  /// @brief Field m_Width, offset 0x35c, size 0x4
+  /// @brief Field m_Width, offset 0x364, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Width, put = __cordl_internal_set_m_Width)) float_t m_Width;
 
-  /// @brief Field m_XAdvance, offset 0x2f4, size 0x4
+  /// @brief Field m_XAdvance, offset 0x2f8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_XAdvance, put = __cordl_internal_set_m_XAdvance)) float_t m_XAdvance;
 
   /// @brief Field m_XmlAttribute, offset 0x19d0, size 0x8
@@ -606,105 +607,113 @@ public:
                       put = __cordl_internal_set_m_XmlAttribute)) ::ArrayW<::UnityEngine::TextCore::Text::RichTextTagAttribute, ::Array<::UnityEngine::TextCore::Text::RichTextTagAttribute>*>
       m_XmlAttribute;
 
-  /// @brief Field m_isTextLayoutPhase, offset 0x1579, size 0x1
+  /// @brief Field m_isTextLayoutPhase, offset 0x1581, size 0x1
   __declspec(property(get = __cordl_internal_get_m_isTextLayoutPhase, put = __cordl_internal_set_m_isTextLayoutPhase)) bool m_isTextLayoutPhase;
 
   /// @brief Field s_TextGenerator, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_TextGenerator, put = setStaticF_s_TextGenerator)) ::UnityEngine::TextCore::Text::TextGenerator* s_TextGenerator;
 
-  /// @brief Method CalculatePreferredValues, addr 0x4946ee4, size 0x29bc, virtual true, abstract: false, final false
+  /// @brief Method CalculatePreferredValues, addr 0x69b0364, size 0x2360, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 CalculatePreferredValues(::ByRef<float_t> fontSize, ::UnityEngine::Vector2 marginSize, bool isTextAutoSizingEnabled,
-                                                         ::UnityEngine::TextCore::Text::TextWrappingMode textWrapMode, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
-                                                         ::UnityEngine::TextCore::Text::TextInfo* textInfo);
+                                                         ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ClearMarkupTagAttributes, addr 0x4944404, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ClearMarkupTagAttributes, addr 0x69accb8, size 0x64, virtual false, abstract: false, final false
   inline void ClearMarkupTagAttributes();
 
-  /// @brief Method ClearMesh, addr 0x49469a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ClearMesh, addr 0x69a1ecc, size 0x20, virtual false, abstract: false, final false
   static inline void ClearMesh(bool updateMesh, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ComputeMarginSize, addr 0x493d558, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ComputeMarginSize, addr 0x69b2700, size 0x68, virtual false, abstract: false, final false
   inline void ComputeMarginSize(::UnityEngine::Rect rect, ::UnityEngine::Vector4 margins);
 
-  /// @brief Method DoMissingGlyphCallback, addr 0x4946e48, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method DoMissingGlyphCallback, addr 0x69b659c, size 0xa0, virtual false, abstract: false, final false
   inline void DoMissingGlyphCallback(uint32_t unicode, int32_t stringIndex, ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method DrawTextHighlight, addr 0x4946424, size 0x57c, virtual false, abstract: false, final false
+  /// @brief Method DrawTextHighlight, addr 0x69af3bc, size 0x808, virtual false, abstract: false, final false
   inline void DrawTextHighlight(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, ::UnityEngine::Color32 highlightColor,
                                 ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method DrawUnderlineMesh, addr 0x49457f8, size 0xba8, virtual false, abstract: false, final false
+  /// @brief Method DrawUnderlineMesh, addr 0x69ae390, size 0xf04, virtual false, abstract: false, final false
   inline void DrawUnderlineMesh(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t startScale, float_t endScale, float_t maxScale, float_t sdfScale,
                                 ::UnityEngine::Color32 underlineColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GenerateText, addr 0x493d014, size 0x174, virtual false, abstract: false, final false
-  static inline void GenerateText(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
+  /// @brief Method GenerateText, addr 0x69a1820, size 0x1cc, virtual false, abstract: false, final false
+  inline void GenerateText(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GenerateTextMesh, addr 0x49352d0, size 0x7654, virtual false, abstract: false, final false
+  /// @brief Method GenerateTextMesh, addr 0x69a1adc, size 0x3e8, virtual false, abstract: false, final false
   inline void GenerateTextMesh(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetEllipsisSpecialCharacter, addr 0x49469c0, size 0x19c, virtual false, abstract: false, final false
-  inline void GetEllipsisSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
+  /// @brief Method GetEllipsisSpecialCharacter, addr 0x69b5e98, size 0x2b4, virtual false, abstract: false, final false
+  inline bool GetEllipsisSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetPreferredValues, addr 0x493d27c, size 0x130, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 GetPreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
+  /// @brief Method GetPreferredValues, addr 0x69b00c8, size 0x164, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 GetPreferredValues(::UnityEngine::TextCore::Text::TextGenerationSettings* settings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetPreferredValuesInternal, addr 0x493d3ac, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method GetPreferredValuesInternal, addr 0x69b022c, size 0x138, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 GetPreferredValuesInternal(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method GetSpecialCharacters, addr 0x493d530, size 0x28, virtual false, abstract: false, final false
-  inline void GetSpecialCharacters(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
+  /// @brief Method GetSpecialCharacters, addr 0x69b26c4, size 0x3c, virtual false, abstract: false, final false
+  inline bool GetSpecialCharacters(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetTextElement, addr 0x4946b5c, size 0x2ec, virtual false, abstract: false, final false
+  /// @brief Method GetTextElement, addr 0x69b614c, size 0x450, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextElement* GetTextElement(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, uint32_t unicode,
                                                                     ::UnityEngine::TextCore::Text::FontAsset* fontAsset, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
-                                                                    ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isUsingAlternativeTypeface);
+                                                                    ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isUsingAlternativeTypeface, bool populateLigatures);
 
-  /// @brief Method GetTextGenerator, addr 0x493c924, size 0x70, virtual false, abstract: false, final false
-  static inline ::UnityEngine::TextCore::Text::TextGenerator* GetTextGenerator();
+  /// @brief Method GetUnderlineSpecialCharacter, addr 0x69af294, size 0x128, virtual false, abstract: false, final false
+  inline bool GetUnderlineSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method GetUnderlineSpecialCharacter, addr 0x49463a0, size 0x84, virtual false, abstract: false, final false
-  inline void GetUnderlineSpecialCharacter(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
-
-  /// @brief Method InsertNewLine, addr 0x4949994, size 0x50c, virtual false, abstract: false, final false
+  /// @brief Method InsertNewLine, addr 0x69afbc4, size 0x504, virtual false, abstract: false, final false
   inline void InsertNewLine(int32_t i, float_t baseScale, float_t currentElementScale, float_t currentEmScale, float_t boldSpacingAdjustment, float_t characterSpacingAdjustment, float_t width,
                             float_t lineGap, ::ByRef<bool> isMaxVisibleDescenderSet, ::ByRef<float_t> maxVisibleDescender, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                             ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
+  /// @brief Method LayoutPhase, addr 0x69a5e50, size 0x29dc, virtual false, abstract: false, final false
+  inline void LayoutPhase(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, float_t maxVisibleDescender);
+
   static inline ::UnityEngine::TextCore::Text::TextGenerator* New_ctor();
 
-  /// @brief Method PopulateTextBackingArray, addr 0x493d5c0, size 0x18, virtual false, abstract: false, final false
-  inline void PopulateTextBackingArray(::StringW sourceText);
+  /// @brief Method ParsingPhase, addr 0x69a1eec, size 0x3f64, virtual false, abstract: false, final false
+  inline void ParsingPhase(::UnityEngine::TextCore::Text::TextInfo* textInfo, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::ByRef<uint32_t> charCode,
+                           ::ByRef<float_t> maxVisibleDescender);
 
-  /// @brief Method PopulateTextBackingArray, addr 0x49498a0, size 0xf4, virtual false, abstract: false, final false
-  inline void PopulateTextBackingArray(::StringW sourceText, int32_t start, int32_t length);
+  /// @brief Method PopulateFontAsset, addr 0x69b4da0, size 0x10f8, virtual false, abstract: false, final false
+  inline bool PopulateFontAsset(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
+                                ::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> textProcessingArray);
 
-  /// @brief Method PopulateTextProcessingArray, addr 0x493d5d8, size 0xd60, virtual false, abstract: false, final false
+  /// @brief Method PopulateTextBackingArray, addr 0x69b2768, size 0xd4, virtual false, abstract: false, final false
+  inline void PopulateTextBackingArray(::ByRef<::UnityEngine::TextCore::Text::RenderedText> sourceText);
+
+  /// @brief Method PopulateTextProcessingArray, addr 0x69b283c, size 0xce4, virtual false, abstract: false, final false
   inline void PopulateTextProcessingArray(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
 
-  /// @brief Method Prepare, addr 0x493d188, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Prepare, addr 0x69a19ec, size 0xf0, virtual false, abstract: false, final false
   inline void Prepare(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method RestoreWordWrappingState, addr 0x493f9c4, size 0x2c0, virtual false, abstract: false, final false
+  /// @brief Method PrepareFontAsset, addr 0x69b4d00, size 0xa0, virtual false, abstract: false, final false
+  inline bool PrepareFontAsset(::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings);
+
+  /// @brief Method RestoreWordWrappingState, addr 0x69acfbc, size 0x2a4, virtual false, abstract: false, final false
   inline int32_t RestoreWordWrappingState(::ByRef<::UnityEngine::TextCore::Text::WordWrapState> state, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveGlyphVertexInfo, addr 0x4944468, size 0xb6c, virtual false, abstract: false, final false
+  /// @brief Method SaveGlyphVertexInfo, addr 0x69ad260, size 0xad4, virtual false, abstract: false, final false
   inline void SaveGlyphVertexInfo(float_t padding, float_t stylePadding, ::UnityEngine::Color32 vertexColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings,
                                   ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveSpriteVertexInfo, addr 0x4944fd4, size 0x824, virtual false, abstract: false, final false
+  /// @brief Method SaveSpriteVertexInfo, addr 0x69add34, size 0x65c, virtual false, abstract: false, final false
   inline void SaveSpriteVertexInfo(::UnityEngine::Color32 vertexColor, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SaveWordWrappingState, addr 0x493f730, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method SaveWordWrappingState, addr 0x69acd1c, size 0x2a0, virtual false, abstract: false, final false
   inline void SaveWordWrappingState(::ByRef<::UnityEngine::TextCore::Text::WordWrapState> state, int32_t index, int32_t count, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method SetArraySizes, addr 0x493e338, size 0x13f8, virtual false, abstract: false, final false
+  /// @brief Method SetArraySizes, addr 0x69b3520, size 0x17e0, virtual false, abstract: false, final false
   inline int32_t SetArraySizes(::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> textProcessingArray,
                                ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
 
-  /// @brief Method ValidateHtmlTag, addr 0x493fc84, size 0x4780, virtual false, abstract: false, final false
+  /// @brief Method ValidateHtmlTag, addr 0x69a882c, size 0x448c, virtual false, abstract: false, final false
   inline bool ValidateHtmlTag(::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*> chars, int32_t startIndex,
-                              ::ByRef<int32_t> endIndex, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo);
+                              ::ByRef<int32_t> endIndex, ::UnityEngine::TextCore::Text::TextGenerationSettings* generationSettings, ::UnityEngine::TextCore::Text::TextInfo* textInfo,
+                              ::ByRef<bool> isThreadSuccess);
 
   constexpr ::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t> const& __cordl_internal_get_m_ActionStack() const;
 
@@ -782,9 +791,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>& __cordl_internal_get_m_CurrentSpriteAsset();
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> const& __cordl_internal_get_m_DefaultSpriteAsset() const;
+  constexpr bool const& __cordl_internal_get_m_DuoSpace() const;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>& __cordl_internal_get_m_DefaultSpriteAsset();
+  constexpr bool& __cordl_internal_get_m_DuoSpace();
 
   constexpr ::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter const& __cordl_internal_get_m_Ellipsis() const;
 
@@ -878,10 +887,6 @@ public:
 
   constexpr int32_t& __cordl_internal_get_m_InternalTextProcessingArraySize();
 
-  constexpr bool const& __cordl_internal_get_m_IsAutoSizePointSizeSet() const;
-
-  constexpr bool& __cordl_internal_get_m_IsAutoSizePointSizeSet();
-
   constexpr bool const& __cordl_internal_get_m_IsCalculatingPreferredValues() const;
 
   constexpr bool& __cordl_internal_get_m_IsCalculatingPreferredValues();
@@ -901,6 +906,10 @@ public:
   constexpr bool const& __cordl_internal_get_m_IsNonBreakingSpace() const;
 
   constexpr bool& __cordl_internal_get_m_IsNonBreakingSpace();
+
+  constexpr bool const& __cordl_internal_get_m_IsTextTruncated() const;
+
+  constexpr bool& __cordl_internal_get_m_IsTextTruncated();
 
   constexpr int32_t const& __cordl_internal_get_m_ItalicAngle() const;
 
@@ -1209,7 +1218,7 @@ public:
 
   constexpr void __cordl_internal_set_m_CurrentSpriteAsset(::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> value);
 
-  constexpr void __cordl_internal_set_m_DefaultSpriteAsset(::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> value);
+  constexpr void __cordl_internal_set_m_DuoSpace(bool value);
 
   constexpr void __cordl_internal_set_m_Ellipsis(::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter value);
 
@@ -1257,8 +1266,6 @@ public:
 
   constexpr void __cordl_internal_set_m_InternalTextProcessingArraySize(int32_t value);
 
-  constexpr void __cordl_internal_set_m_IsAutoSizePointSizeSet(bool value);
-
   constexpr void __cordl_internal_set_m_IsCalculatingPreferredValues(bool value);
 
   constexpr void __cordl_internal_set_m_IsDrivenLineSpacing(bool value);
@@ -1268,6 +1275,8 @@ public:
   constexpr void __cordl_internal_set_m_IsNewPage(bool value);
 
   constexpr void __cordl_internal_set_m_IsNonBreakingSpace(bool value);
+
+  constexpr void __cordl_internal_set_m_IsTextTruncated(bool value);
 
   constexpr void __cordl_internal_set_m_ItalicAngle(int32_t value);
 
@@ -1404,23 +1413,29 @@ public:
 
   constexpr void __cordl_internal_set_m_isTextLayoutPhase(bool value);
 
-  /// @brief Method .ctor, addr 0x493c994, size 0x680, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69b663c, size 0x6c4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* getStaticF_OnMissingCharacter();
 
-  static inline bool getStaticF_m_IsTextTruncated();
+  static inline bool getStaticF__IsExecutingJob_k__BackingField();
 
   static inline ::UnityEngine::TextCore::Text::TextGenerator* getStaticF_s_TextGenerator();
 
-  /// @brief Method get_isTextTruncated, addr 0x493d4e8, size 0x48, virtual false, abstract: false, final false
-  static inline bool get_isTextTruncated();
+  /// @brief Method get_IsExecutingJob, addr 0x69a1780, size 0x4c, virtual false, abstract: false, final false
+  static inline bool get_IsExecutingJob();
+
+  /// @brief Method get_isTextTruncated, addr 0x69a1ec4, size 0x8, virtual false, abstract: false, final false
+  inline bool get_isTextTruncated();
 
   static inline void setStaticF_OnMissingCharacter(::UnityEngine::TextCore::Text::TextGenerator_MissingCharacterEventCallback* value);
 
-  static inline void setStaticF_m_IsTextTruncated(bool value);
+  static inline void setStaticF__IsExecutingJob_k__BackingField(bool value);
 
   static inline void setStaticF_s_TextGenerator(::UnityEngine::TextCore::Text::TextGenerator* value);
+
+  /// @brief Method set_IsExecutingJob, addr 0x69a17cc, size 0x54, virtual false, abstract: false, final false
+  static inline void set_IsExecutingJob(bool value);
 
 protected:
   // Ctor Parameters []
@@ -1437,7 +1452,145 @@ public:
   TextGenerator(TextGenerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15268 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17204 };
+
+  /// @brief Field k_CarriageReturn offset 0xffffffff size 0x4
+  static constexpr int32_t k_CarriageReturn{ static_cast<int32_t>(0xd) };
+
+  /// @brief Field k_CjkEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkEnd{ static_cast<int32_t>(0x9fff) };
+
+  /// @brief Field k_CjkFormsEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkFormsEnd{ static_cast<int32_t>(0xfe4f) };
+
+  /// @brief Field k_CjkFormsStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkFormsStart{ static_cast<int32_t>(0xfe30) };
+
+  /// @brief Field k_CjkHalfwidthEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkHalfwidthEnd{ static_cast<int32_t>(0xffef) };
+
+  /// @brief Field k_CjkHalfwidthStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkHalfwidthStart{ static_cast<int32_t>(0xff00) };
+
+  /// @brief Field k_CjkIdeographsEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkIdeographsEnd{ static_cast<int32_t>(0xfaff) };
+
+  /// @brief Field k_CjkIdeographsStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkIdeographsStart{ static_cast<int32_t>(0xf900) };
+
+  /// @brief Field k_CjkStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_CjkStart{ static_cast<int32_t>(0x2e80) };
+
+  /// @brief Field k_DoubleQuotes offset 0xffffffff size 0x4
+  static constexpr int32_t k_DoubleQuotes{ static_cast<int32_t>(0x22) };
+
+  /// @brief Field k_EndOfText offset 0xffffffff size 0x4
+  static constexpr int32_t k_EndOfText{ static_cast<int32_t>(0x3) };
+
+  /// @brief Field k_Equal offset 0xffffffff size 0x4
+  static constexpr int32_t k_Equal{ static_cast<int32_t>(0x3d) };
+
+  /// @brief Field k_FigureSpace offset 0xffffffff size 0x4
+  static constexpr int32_t k_FigureSpace{ static_cast<int32_t>(0x2007) };
+
+  /// @brief Field k_FloatUnset offset 0xffffffff size 0x4
+  static constexpr float_t k_FloatUnset{ static_cast<float_t>(-32767.0f) };
+
+  /// @brief Field k_GreaterThan offset 0xffffffff size 0x4
+  static constexpr int32_t k_GreaterThan{ static_cast<int32_t>(0x3e) };
+
+  /// @brief Field k_HangulJameExtendedEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_HangulJameExtendedEnd{ static_cast<int32_t>(0xa97f) };
+
+  /// @brief Field k_HangulJameExtendedStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_HangulJameExtendedStart{ static_cast<int32_t>(0xa960) };
+
+  /// @brief Field k_HangulJamoEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_HangulJamoEnd{ static_cast<int32_t>(0x11ff) };
+
+  /// @brief Field k_HangulJamoStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_HangulJamoStart{ static_cast<int32_t>(0x1100) };
+
+  /// @brief Field k_HangulSyllablesEnd offset 0xffffffff size 0x4
+  static constexpr int32_t k_HangulSyllablesEnd{ static_cast<int32_t>(0xd7ff) };
+
+  /// @brief Field k_HangulSyllablesStart offset 0xffffffff size 0x4
+  static constexpr int32_t k_HangulSyllablesStart{ static_cast<int32_t>(0xac00) };
+
+  /// @brief Field k_HorizontalEllipsis offset 0xffffffff size 0x4
+  static constexpr int32_t k_HorizontalEllipsis{ static_cast<int32_t>(0x2026) };
+
+  /// @brief Field k_Hyphen offset 0xffffffff size 0x4
+  static constexpr int32_t k_Hyphen{ static_cast<int32_t>(0x2010) };
+
+  /// @brief Field k_HyphenMinus offset 0xffffffff size 0x4
+  static constexpr int32_t k_HyphenMinus{ static_cast<int32_t>(0x2d) };
+
+  /// @brief Field k_LesserThan offset 0xffffffff size 0x4
+  static constexpr int32_t k_LesserThan{ static_cast<int32_t>(0x3c) };
+
+  /// @brief Field k_LineFeed offset 0xffffffff size 0x4
+  static constexpr int32_t k_LineFeed{ static_cast<int32_t>(0xa) };
+
+  /// @brief Field k_LineSeparator offset 0xffffffff size 0x4
+  static constexpr int32_t k_LineSeparator{ static_cast<int32_t>(0x2028) };
+
+  /// @brief Field k_MaxCharacters offset 0xffffffff size 0x4
+  static constexpr int32_t k_MaxCharacters{ static_cast<int32_t>(0x8) };
+
+  /// @brief Field k_NarrowNoBreakSpace offset 0xffffffff size 0x4
+  static constexpr int32_t k_NarrowNoBreakSpace{ static_cast<int32_t>(0x202f) };
+
+  /// @brief Field k_NoBreakSpace offset 0xffffffff size 0x4
+  static constexpr int32_t k_NoBreakSpace{ static_cast<int32_t>(0xa0) };
+
+  /// @brief Field k_NonBreakingHyphen offset 0xffffffff size 0x4
+  static constexpr int32_t k_NonBreakingHyphen{ static_cast<int32_t>(0x2011) };
+
+  /// @brief Field k_NumberSign offset 0xffffffff size 0x4
+  static constexpr int32_t k_NumberSign{ static_cast<int32_t>(0x23) };
+
+  /// @brief Field k_ParagraphSeparator offset 0xffffffff size 0x4
+  static constexpr int32_t k_ParagraphSeparator{ static_cast<int32_t>(0x2029) };
+
+  /// @brief Field k_PercentSign offset 0xffffffff size 0x4
+  static constexpr int32_t k_PercentSign{ static_cast<int32_t>(0x25) };
+
+  /// @brief Field k_Period offset 0xffffffff size 0x4
+  static constexpr int32_t k_Period{ static_cast<int32_t>(0x2e) };
+
+  /// @brief Field k_Plus offset 0xffffffff size 0x4
+  static constexpr int32_t k_Plus{ static_cast<int32_t>(0x2b) };
+
+  /// @brief Field k_RightSingleQuote offset 0xffffffff size 0x4
+  static constexpr int32_t k_RightSingleQuote{ static_cast<int32_t>(0x2019) };
+
+  /// @brief Field k_SingleQuote offset 0xffffffff size 0x4
+  static constexpr int32_t k_SingleQuote{ static_cast<int32_t>(0x27) };
+
+  /// @brief Field k_SoftHyphen offset 0xffffffff size 0x4
+  static constexpr int32_t k_SoftHyphen{ static_cast<int32_t>(0xad) };
+
+  /// @brief Field k_Space offset 0xffffffff size 0x4
+  static constexpr int32_t k_Space{ static_cast<int32_t>(0x20) };
+
+  /// @brief Field k_Square offset 0xffffffff size 0x4
+  static constexpr int32_t k_Square{ static_cast<int32_t>(0x25a1) };
+
+  /// @brief Field k_Tab offset 0xffffffff size 0x4
+  static constexpr int32_t k_Tab{ static_cast<int32_t>(0x9) };
+
+  /// @brief Field k_Underline offset 0xffffffff size 0x4
+  static constexpr int32_t k_Underline{ static_cast<int32_t>(0x5f) };
+
+  /// @brief Field k_VerticalTab offset 0xffffffff size 0x4
+  static constexpr int32_t k_VerticalTab{ static_cast<int32_t>(0xb) };
+
+  /// @brief Field k_WordJoiner offset 0xffffffff size 0x4
+  static constexpr int32_t k_WordJoiner{ static_cast<int32_t>(0x2060) };
+
+  /// @brief Field k_ZeroWidthSpace offset 0xffffffff size 0x4
+  static constexpr int32_t k_ZeroWidthSpace{ static_cast<int32_t>(0x200b) };
 
   /// @brief Field m_TextBackingArray, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::TextCore::Text::TextBackingContainer ___m_TextBackingArray;
@@ -1459,6 +1612,9 @@ public:
 
   /// @brief Field m_IsIgnoringAlignment, offset: 0x4c, size: 0x1, def value: None
   bool ___m_IsIgnoringAlignment;
+
+  /// @brief Field m_IsTextTruncated, offset: 0x4d, size: 0x1, def value: None
+  bool ___m_IsTextTruncated;
 
   /// @brief Field m_RectTransformCorners, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___m_RectTransformCorners;
@@ -1595,139 +1751,139 @@ public:
   /// @brief Field m_MonoSpacing, offset: 0x2f0, size: 0x4, def value: None
   float_t ___m_MonoSpacing;
 
-  /// @brief Field m_XAdvance, offset: 0x2f4, size: 0x4, def value: None
+  /// @brief Field m_DuoSpace, offset: 0x2f4, size: 0x1, def value: None
+  bool ___m_DuoSpace;
+
+  /// @brief Field m_XAdvance, offset: 0x2f8, size: 0x4, def value: None
   float_t ___m_XAdvance;
 
-  /// @brief Field m_TagLineIndent, offset: 0x2f8, size: 0x4, def value: None
+  /// @brief Field m_TagLineIndent, offset: 0x2fc, size: 0x4, def value: None
   float_t ___m_TagLineIndent;
 
-  /// @brief Field m_TagIndent, offset: 0x2fc, size: 0x4, def value: None
+  /// @brief Field m_TagIndent, offset: 0x300, size: 0x4, def value: None
   float_t ___m_TagIndent;
 
-  /// @brief Field m_IndentStack, offset: 0x300, size: 0x20, def value: None
+  /// @brief Field m_IndentStack, offset: 0x308, size: 0x20, def value: None
   ::UnityEngine::TextCore::Text::TextProcessingStack_1<float_t> ___m_IndentStack;
 
-  /// @brief Field m_TagNoParsing, offset: 0x320, size: 0x1, def value: None
+  /// @brief Field m_TagNoParsing, offset: 0x328, size: 0x1, def value: None
   bool ___m_TagNoParsing;
 
-  /// @brief Field m_CharacterCount, offset: 0x324, size: 0x4, def value: None
+  /// @brief Field m_CharacterCount, offset: 0x32c, size: 0x4, def value: None
   int32_t ___m_CharacterCount;
 
-  /// @brief Field m_FirstCharacterOfLine, offset: 0x328, size: 0x4, def value: None
+  /// @brief Field m_FirstCharacterOfLine, offset: 0x330, size: 0x4, def value: None
   int32_t ___m_FirstCharacterOfLine;
 
-  /// @brief Field m_LastCharacterOfLine, offset: 0x32c, size: 0x4, def value: None
+  /// @brief Field m_LastCharacterOfLine, offset: 0x334, size: 0x4, def value: None
   int32_t ___m_LastCharacterOfLine;
 
-  /// @brief Field m_FirstVisibleCharacterOfLine, offset: 0x330, size: 0x4, def value: None
+  /// @brief Field m_FirstVisibleCharacterOfLine, offset: 0x338, size: 0x4, def value: None
   int32_t ___m_FirstVisibleCharacterOfLine;
 
-  /// @brief Field m_LastVisibleCharacterOfLine, offset: 0x334, size: 0x4, def value: None
+  /// @brief Field m_LastVisibleCharacterOfLine, offset: 0x33c, size: 0x4, def value: None
   int32_t ___m_LastVisibleCharacterOfLine;
 
-  /// @brief Field m_MaxLineAscender, offset: 0x338, size: 0x4, def value: None
+  /// @brief Field m_MaxLineAscender, offset: 0x340, size: 0x4, def value: None
   float_t ___m_MaxLineAscender;
 
-  /// @brief Field m_MaxLineDescender, offset: 0x33c, size: 0x4, def value: None
+  /// @brief Field m_MaxLineDescender, offset: 0x344, size: 0x4, def value: None
   float_t ___m_MaxLineDescender;
 
-  /// @brief Field m_LineNumber, offset: 0x340, size: 0x4, def value: None
+  /// @brief Field m_LineNumber, offset: 0x348, size: 0x4, def value: None
   int32_t ___m_LineNumber;
 
-  /// @brief Field m_LineVisibleCharacterCount, offset: 0x344, size: 0x4, def value: None
+  /// @brief Field m_LineVisibleCharacterCount, offset: 0x34c, size: 0x4, def value: None
   int32_t ___m_LineVisibleCharacterCount;
 
-  /// @brief Field m_LineVisibleSpaceCount, offset: 0x348, size: 0x4, def value: None
+  /// @brief Field m_LineVisibleSpaceCount, offset: 0x350, size: 0x4, def value: None
   int32_t ___m_LineVisibleSpaceCount;
 
-  /// @brief Field m_FirstOverflowCharacterIndex, offset: 0x34c, size: 0x4, def value: None
+  /// @brief Field m_FirstOverflowCharacterIndex, offset: 0x354, size: 0x4, def value: None
   int32_t ___m_FirstOverflowCharacterIndex;
 
-  /// @brief Field m_PageNumber, offset: 0x350, size: 0x4, def value: None
+  /// @brief Field m_PageNumber, offset: 0x358, size: 0x4, def value: None
   int32_t ___m_PageNumber;
 
-  /// @brief Field m_MarginLeft, offset: 0x354, size: 0x4, def value: None
+  /// @brief Field m_MarginLeft, offset: 0x35c, size: 0x4, def value: None
   float_t ___m_MarginLeft;
 
-  /// @brief Field m_MarginRight, offset: 0x358, size: 0x4, def value: None
+  /// @brief Field m_MarginRight, offset: 0x360, size: 0x4, def value: None
   float_t ___m_MarginRight;
 
-  /// @brief Field m_Width, offset: 0x35c, size: 0x4, def value: None
+  /// @brief Field m_Width, offset: 0x364, size: 0x4, def value: None
   float_t ___m_Width;
 
-  /// @brief Field m_MeshExtents, offset: 0x360, size: 0x10, def value: None
+  /// @brief Field m_MeshExtents, offset: 0x368, size: 0x10, def value: None
   ::UnityEngine::TextCore::Text::Extents ___m_MeshExtents;
 
-  /// @brief Field m_MaxCapHeight, offset: 0x370, size: 0x4, def value: None
+  /// @brief Field m_MaxCapHeight, offset: 0x378, size: 0x4, def value: None
   float_t ___m_MaxCapHeight;
 
-  /// @brief Field m_MaxAscender, offset: 0x374, size: 0x4, def value: None
+  /// @brief Field m_MaxAscender, offset: 0x37c, size: 0x4, def value: None
   float_t ___m_MaxAscender;
 
-  /// @brief Field m_MaxDescender, offset: 0x378, size: 0x4, def value: None
+  /// @brief Field m_MaxDescender, offset: 0x380, size: 0x4, def value: None
   float_t ___m_MaxDescender;
 
-  /// @brief Field m_IsNewPage, offset: 0x37c, size: 0x1, def value: None
+  /// @brief Field m_IsNewPage, offset: 0x384, size: 0x1, def value: None
   bool ___m_IsNewPage;
 
-  /// @brief Field m_IsNonBreakingSpace, offset: 0x37d, size: 0x1, def value: None
+  /// @brief Field m_IsNonBreakingSpace, offset: 0x385, size: 0x1, def value: None
   bool ___m_IsNonBreakingSpace;
 
-  /// @brief Field m_SavedWordWrapState, offset: 0x380, size: 0x398, def value: None
+  /// @brief Field m_SavedWordWrapState, offset: 0x388, size: 0x398, def value: None
   ::UnityEngine::TextCore::Text::WordWrapState ___m_SavedWordWrapState;
 
-  /// @brief Field m_SavedLineState, offset: 0x718, size: 0x398, def value: None
+  /// @brief Field m_SavedLineState, offset: 0x720, size: 0x398, def value: None
   ::UnityEngine::TextCore::Text::WordWrapState ___m_SavedLineState;
 
-  /// @brief Field m_SavedEllipsisState, offset: 0xab0, size: 0x398, def value: None
+  /// @brief Field m_SavedEllipsisState, offset: 0xab8, size: 0x398, def value: None
   ::UnityEngine::TextCore::Text::WordWrapState ___m_SavedEllipsisState;
 
-  /// @brief Field m_SavedLastValidState, offset: 0xe48, size: 0x398, def value: None
+  /// @brief Field m_SavedLastValidState, offset: 0xe50, size: 0x398, def value: None
   ::UnityEngine::TextCore::Text::WordWrapState ___m_SavedLastValidState;
 
-  /// @brief Field m_SavedSoftLineBreakState, offset: 0x11e0, size: 0x398, def value: None
+  /// @brief Field m_SavedSoftLineBreakState, offset: 0x11e8, size: 0x398, def value: None
   ::UnityEngine::TextCore::Text::WordWrapState ___m_SavedSoftLineBreakState;
 
-  /// @brief Field m_TextElementType, offset: 0x1578, size: 0x1, def value: None
+  /// @brief Field m_TextElementType, offset: 0x1580, size: 0x1, def value: None
   ::UnityEngine::TextCore::Text::TextElementType ___m_TextElementType;
 
-  /// @brief Field m_isTextLayoutPhase, offset: 0x1579, size: 0x1, def value: None
+  /// @brief Field m_isTextLayoutPhase, offset: 0x1581, size: 0x1, def value: None
   bool ___m_isTextLayoutPhase;
 
-  /// @brief Field m_SpriteIndex, offset: 0x157c, size: 0x4, def value: None
+  /// @brief Field m_SpriteIndex, offset: 0x1584, size: 0x4, def value: None
   int32_t ___m_SpriteIndex;
 
-  /// @brief Field m_SpriteColor, offset: 0x1580, size: 0x4, def value: None
+  /// @brief Field m_SpriteColor, offset: 0x1588, size: 0x4, def value: None
   ::UnityEngine::Color32 ___m_SpriteColor;
 
-  /// @brief Field m_CachedTextElement, offset: 0x1588, size: 0x8, def value: None
+  /// @brief Field m_CachedTextElement, offset: 0x1590, size: 0x8, def value: None
   ::UnityEngine::TextCore::Text::TextElement* ___m_CachedTextElement;
 
-  /// @brief Field m_HighlightColor, offset: 0x1590, size: 0x4, def value: None
+  /// @brief Field m_HighlightColor, offset: 0x1598, size: 0x4, def value: None
   ::UnityEngine::Color32 ___m_HighlightColor;
 
-  /// @brief Field m_CharWidthAdjDelta, offset: 0x1594, size: 0x4, def value: None
+  /// @brief Field m_CharWidthAdjDelta, offset: 0x159c, size: 0x4, def value: None
   float_t ___m_CharWidthAdjDelta;
 
-  /// @brief Field m_MaxFontSize, offset: 0x1598, size: 0x4, def value: None
+  /// @brief Field m_MaxFontSize, offset: 0x15a0, size: 0x4, def value: None
   float_t ___m_MaxFontSize;
 
-  /// @brief Field m_MinFontSize, offset: 0x159c, size: 0x4, def value: None
+  /// @brief Field m_MinFontSize, offset: 0x15a4, size: 0x4, def value: None
   float_t ___m_MinFontSize;
 
-  /// @brief Field m_AutoSizeIterationCount, offset: 0x15a0, size: 0x4, def value: None
+  /// @brief Field m_AutoSizeIterationCount, offset: 0x15a8, size: 0x4, def value: None
   int32_t ___m_AutoSizeIterationCount;
 
-  /// @brief Field m_AutoSizeMaxIterationCount, offset: 0x15a4, size: 0x4, def value: None
+  /// @brief Field m_AutoSizeMaxIterationCount, offset: 0x15ac, size: 0x4, def value: None
   int32_t ___m_AutoSizeMaxIterationCount;
 
-  /// @brief Field m_IsAutoSizePointSizeSet, offset: 0x15a8, size: 0x1, def value: None
-  bool ___m_IsAutoSizePointSizeSet;
-
-  /// @brief Field m_StartOfLineAscender, offset: 0x15ac, size: 0x4, def value: None
+  /// @brief Field m_StartOfLineAscender, offset: 0x15b0, size: 0x4, def value: None
   float_t ___m_StartOfLineAscender;
 
-  /// @brief Field m_LineSpacingDelta, offset: 0x15b0, size: 0x4, def value: None
+  /// @brief Field m_LineSpacingDelta, offset: 0x15b4, size: 0x4, def value: None
   float_t ___m_LineSpacingDelta;
 
   /// @brief Field m_MaterialReferences, offset: 0x15b8, size: 0x8, def value: None
@@ -1772,19 +1928,16 @@ public:
   /// @brief Field m_IsCalculatingPreferredValues, offset: 0x19e8, size: 0x1, def value: None
   bool ___m_IsCalculatingPreferredValues;
 
-  /// @brief Field m_DefaultSpriteAsset, offset: 0x19f0, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> ___m_DefaultSpriteAsset;
-
-  /// @brief Field m_TintSprite, offset: 0x19f8, size: 0x1, def value: None
+  /// @brief Field m_TintSprite, offset: 0x19e9, size: 0x1, def value: None
   bool ___m_TintSprite;
 
-  /// @brief Field m_Ellipsis, offset: 0x1a00, size: 0x20, def value: None
+  /// @brief Field m_Ellipsis, offset: 0x19f0, size: 0x20, def value: None
   ::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter ___m_Ellipsis;
 
-  /// @brief Field m_Underline, offset: 0x1a20, size: 0x20, def value: None
+  /// @brief Field m_Underline, offset: 0x1a10, size: 0x20, def value: None
   ::UnityEngine::TextCore::Text::TextGenerator_SpecialCharacter ___m_Underline;
 
-  /// @brief Field m_InternalTextElementInfo, offset: 0x1a40, size: 0x8, def value: None
+  /// @brief Field m_InternalTextElementInfo, offset: 0x1a30, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::TextCore::Text::TextElementInfo, ::Array<::UnityEngine::TextCore::Text::TextElementInfo>*> ___m_InternalTextElementInfo;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -1803,6 +1956,8 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HtmlTa
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HighlightState) == 0x38, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsIgnoringAlignment) == 0x4c, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsTextTruncated) == 0x4d, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_RectTransformCorners) == 0x50, "Offset mismatch!");
 
@@ -1894,95 +2049,95 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CSpaci
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MonoSpacing) == 0x2f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_XAdvance) == 0x2f4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_DuoSpace) == 0x2f4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagLineIndent) == 0x2f8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_XAdvance) == 0x2f8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagIndent) == 0x2fc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagLineIndent) == 0x2fc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IndentStack) == 0x300, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagIndent) == 0x300, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagNoParsing) == 0x320, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IndentStack) == 0x308, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharacterCount) == 0x324, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TagNoParsing) == 0x328, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstCharacterOfLine) == 0x328, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharacterCount) == 0x32c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LastCharacterOfLine) == 0x32c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstCharacterOfLine) == 0x330, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstVisibleCharacterOfLine) == 0x330, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LastCharacterOfLine) == 0x334, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LastVisibleCharacterOfLine) == 0x334, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstVisibleCharacterOfLine) == 0x338, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxLineAscender) == 0x338, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LastVisibleCharacterOfLine) == 0x33c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxLineDescender) == 0x33c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxLineAscender) == 0x340, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineNumber) == 0x340, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxLineDescender) == 0x344, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineVisibleCharacterCount) == 0x344, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineNumber) == 0x348, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineVisibleSpaceCount) == 0x348, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineVisibleCharacterCount) == 0x34c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstOverflowCharacterIndex) == 0x34c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineVisibleSpaceCount) == 0x350, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_PageNumber) == 0x350, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_FirstOverflowCharacterIndex) == 0x354, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginLeft) == 0x354, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_PageNumber) == 0x358, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginRight) == 0x358, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginLeft) == 0x35c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Width) == 0x35c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MarginRight) == 0x360, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MeshExtents) == 0x360, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Width) == 0x364, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxCapHeight) == 0x370, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MeshExtents) == 0x368, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxAscender) == 0x374, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxCapHeight) == 0x378, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxDescender) == 0x378, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxAscender) == 0x37c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsNewPage) == 0x37c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxDescender) == 0x380, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsNonBreakingSpace) == 0x37d, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsNewPage) == 0x384, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedWordWrapState) == 0x380, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsNonBreakingSpace) == 0x385, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedLineState) == 0x718, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedWordWrapState) == 0x388, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedEllipsisState) == 0xab0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedLineState) == 0x720, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedLastValidState) == 0xe48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedEllipsisState) == 0xab8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedSoftLineBreakState) == 0x11e0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedLastValidState) == 0xe50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TextElementType) == 0x1578, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SavedSoftLineBreakState) == 0x11e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_isTextLayoutPhase) == 0x1579, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TextElementType) == 0x1580, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteIndex) == 0x157c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_isTextLayoutPhase) == 0x1581, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteColor) == 0x1580, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteIndex) == 0x1584, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CachedTextElement) == 0x1588, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_SpriteColor) == 0x1588, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HighlightColor) == 0x1590, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CachedTextElement) == 0x1590, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharWidthAdjDelta) == 0x1594, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_HighlightColor) == 0x1598, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxFontSize) == 0x1598, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_CharWidthAdjDelta) == 0x159c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MinFontSize) == 0x159c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaxFontSize) == 0x15a0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_AutoSizeIterationCount) == 0x15a0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MinFontSize) == 0x15a4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_AutoSizeMaxIterationCount) == 0x15a4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_AutoSizeIterationCount) == 0x15a8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsAutoSizePointSizeSet) == 0x15a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_AutoSizeMaxIterationCount) == 0x15ac, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_StartOfLineAscender) == 0x15ac, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_StartOfLineAscender) == 0x15b0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineSpacingDelta) == 0x15b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_LineSpacingDelta) == 0x15b4, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_MaterialReferences) == 0x15b8, "Offset mismatch!");
 
@@ -2012,17 +2167,15 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Materi
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_IsCalculatingPreferredValues) == 0x19e8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_DefaultSpriteAsset) == 0x19f0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TintSprite) == 0x19e9, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_TintSprite) == 0x19f8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Ellipsis) == 0x19f0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Ellipsis) == 0x1a00, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Underline) == 0x1a10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_Underline) == 0x1a20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_InternalTextElementInfo) == 0x1a30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerator, ___m_InternalTextElementInfo) == 0x1a40, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerator, 0x1a48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerator, 0x1a38>, "Size mismatch!");
 
 } // namespace UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextGenerator);

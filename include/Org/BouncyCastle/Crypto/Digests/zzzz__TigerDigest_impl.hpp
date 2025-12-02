@@ -1,17 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Digests/TigerDigest.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_impl.hpp"
-#include "Org/BouncyCastle/Utilities/zzzz__IMemoable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__TigerDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 #include "Org/BouncyCastle/Utilities/zzzz__IMemoable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Digests::TigerDigest._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x23368f0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x3263b40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -24,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Org::BouncyCastle::Crypto::Digests::TigerDigest*)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2336a20;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3263c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -39,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2336b9c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x3263df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -54,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::GetDigestSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2336bdc;
+  constexpr static std::size_t addrs = 0x3263e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -68,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::GetByteLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2336be4;
+  constexpr static std::size_t addrs = 0x3263e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -82,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessWord)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2336bec;
+  constexpr static std::size_t addrs = 0x3263e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Update)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x23370ec;
+  constexpr static std::size_t addrs = 0x326434c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::BlockUpdate)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x233715c;
+  constexpr static std::size_t addrs = 0x32643bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundABC)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x2337260;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x32644c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundBCA)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x23373e4;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x3264648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -158,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, int64_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::RoundCAB)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x2337564;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x32647cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,8 +172,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::KeySchedule)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x23376e4;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x3264950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -188,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessBlock)> {
   constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x2336d08;
+  constexpr static std::size_t addrs = 0x3263f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -202,7 +201,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::UnpackWord)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x23377c0;
+  constexpr static std::size_t addrs = 0x3264a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(int64_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::ProcessLength)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x23378b0;
+  constexpr static std::size_t addrs = 0x3264b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Finish)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x23378dc;
+  constexpr static std::size_t addrs = 0x3264b38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -248,7 +247,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::DoFinal)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2337924;
+  constexpr static std::size_t addrs = 0x3264b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -264,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x233697c;
+  constexpr static std::size_t addrs = 0x3263bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -277,8 +276,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IMemoable* (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)()>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Copy)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2337984;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x3264be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Digests::TigerDigest*>::get(),
@@ -291,8 +290,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Digests::TigerDigest::*)(::Org::BouncyCastle::Utilities::IMemoable*)>(
     &::Org::BouncyCastle::Crypto::Digests::TigerDigest::Reset)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2336ab4;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x3263d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

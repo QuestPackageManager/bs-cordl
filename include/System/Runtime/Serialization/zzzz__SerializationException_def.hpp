@@ -40,16 +40,16 @@ public:
 
   static inline ::System::Runtime::Serialization::SerializationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3cf350c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5935300, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cf35c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59353c0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3cf3580, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5935378, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3cf35a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593539c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::StringW getStaticF_s_nullMessage();
@@ -71,7 +71,7 @@ public:
   SerializationException(SerializationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3214 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

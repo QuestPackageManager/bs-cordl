@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILightGroup)
 // Forward declare root types
@@ -20,10 +21,15 @@ public:
   // Declarations
   __declspec(property(get = get_groupId)) int32_t groupId;
 
+  __declspec(property(get = get_groupName)) ::StringW groupName;
+
   __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
 
   /// @brief Method get_groupId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_groupId();
+
+  /// @brief Method get_groupName, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::StringW get_groupName();
 
   /// @brief Method get_numberOfElements, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_numberOfElements();
@@ -33,7 +39,7 @@ public:
   ILightGroup(ILightGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

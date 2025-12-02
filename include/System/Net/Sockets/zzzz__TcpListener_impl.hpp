@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)(::System::Net::IPAddress*, int32_t)>(
     &::System::Net::Sockets::TcpListener::_ctor)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x4401380;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x614e91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::EndPoint* (::System::Net::Sockets::TcpListener::*)()>(
     &::System::Net::Sockets::TcpListener::get_LocalEndpoint)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4401514;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x614ea9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "get_LocalEndpoint",
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)()>(&::System::Net::Sockets::TcpListener::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4401544;
+  constexpr static std::size_t addrs = 0x614eac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Start",
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)(int32_t)>(&::System::Net::Sockets::TcpListener::Start)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x440154c;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x614eacc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,7 +72,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::TcpListener::*)()>(&::System::Net::Sockets::TcpListener::Stop)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x44016cc;
+  constexpr static std::size_t addrs = 0x614ec3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::TcpListener*>::get(), "Stop",
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (::System::Net::Sockets::TcpListener::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::Net::Sockets::TcpListener::BeginAcceptTcpClient)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4401790;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x614ed00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::TcpClient* (::System::Net::Sockets::TcpListener::*)(::System::IAsyncResult*)>(
     &::System::Net::Sockets::TcpListener::EndAcceptTcpClient)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x440183c;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x614ed74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

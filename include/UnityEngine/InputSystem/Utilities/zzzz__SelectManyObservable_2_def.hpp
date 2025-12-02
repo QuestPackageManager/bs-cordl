@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SelectManyObservable_2)
 namespace System::Collections::Generic {
@@ -38,7 +36,7 @@ template <typename TSource, typename TResult> class SelectManyObservable_2_Selec
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::SelectManyObservable_2);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::SelectManyObservable_2_Select);
-// Dependencies System.IObserver`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TSource, typename TResult>
@@ -101,7 +99,7 @@ public:
   SelectManyObservable_2_Select(SelectManyObservable_2_Select const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9158 };
 
   /// @brief Field m_Observable, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Utilities::SelectManyObservable_2<TSource, TResult>* ___m_Observable;
@@ -113,7 +111,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Dependencies System.IObservable`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TSource, typename TResult>
@@ -172,7 +170,7 @@ public:
   SelectManyObservable_2(SelectManyObservable_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9159 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TSource>* ___m_Source;

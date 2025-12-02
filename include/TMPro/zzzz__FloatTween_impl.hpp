@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "TMPro/FloatTween.hpp"
-#include "TMPro/zzzz__ITweenValue_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"
 #include "TMPro/zzzz__FloatTween_def.hpp"
+#include "TMPro/zzzz__ITweenValue_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityAction_1_def.hpp"
 //  Writing Method size for method: ::TMPro::FloatTween_FloatTweenCallback._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween_FloatTweenCallback::*)()>(&::TMPro::FloatTween_FloatTweenCallback::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47c69ac;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x672abbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween_FloatTweenCallback*>::get(), ".ctor",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_startValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c6844;
+  constexpr static std::size_t addrs = 0x672aa40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "get_startValue",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::set_startValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c684c;
+  constexpr static std::size_t addrs = 0x672aa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_targetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c6854;
+  constexpr static std::size_t addrs = 0x672aa50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "get_targetValue",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::set_targetValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c685c;
+  constexpr static std::size_t addrs = 0x672aa58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c6864;
+  constexpr static std::size_t addrs = 0x672aa60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "get_duration",
@@ -100,7 +100,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::set_duration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c686c;
+  constexpr static std::size_t addrs = 0x672aa68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::get_ignoreTimeScale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c6874;
+  constexpr static std::size_t addrs = 0x672aa70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "get_ignoreTimeScale",
@@ -126,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween::*)(bool)>(&::TMPro::FloatTween::set_ignoreTimeScale)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47c687c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x672aa78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween::*)(float_t)>(&::TMPro::FloatTween::TweenValue)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x47c6888;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x672aa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,8 +155,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::FloatTween::*)(::UnityEngine::Events::UnityAction_1<float_t>*)>(
     &::TMPro::FloatTween::AddOnChangedCallback)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47c6924;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x672ab24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::GetIgnoreTimescale)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c69f4;
+  constexpr static std::size_t addrs = 0x672ac08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "GetIgnoreTimescale",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::GetDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c69fc;
+  constexpr static std::size_t addrs = 0x672ac10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "GetDuration",
@@ -196,7 +196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::FloatTween::*)()>(&::TMPro::FloatTween::ValidTarget)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47c6914;
+  constexpr static std::size_t addrs = 0x672ab14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::FloatTween>::get(), "ValidTarget",

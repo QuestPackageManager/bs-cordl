@@ -9,10 +9,10 @@ namespace BeatSaber::AvatarCore {
 class OptionalAvatarDataPacket;
 }
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class NodePoseSyncStateManager;
@@ -37,22 +37,22 @@ public:
   __declspec(property(get = __cordl_internal_get__nodePoseSyncStateManager, put = __cordl_internal_set__nodePoseSyncStateManager)) ::UnityW<::GlobalNamespace::NodePoseSyncStateManager>
       _nodePoseSyncStateManager;
 
-  /// @brief Method Dispose, addr 0x3bcb85c, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x57bcbc0, size 0xd4, virtual true, abstract: false, final false
   inline void Dispose();
 
-  /// @brief Method FindPlayerToMirror, addr 0x3bcba7c, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method FindPlayerToMirror, addr 0x57bcd58, size 0x380, virtual false, abstract: false, final false
   inline void FindPlayerToMirror();
 
-  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x3bcbe18, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method HandleOptionalAvatarDataReceived, addr 0x57bd0d8, size 0x1e0, virtual false, abstract: false, final false
   inline void HandleOptionalAvatarDataReceived(::BeatSaber::AvatarCore::OptionalAvatarDataPacket* optionalAvatarDataPacket, ::GlobalNamespace::IConnectedPlayer* player);
 
-  /// @brief Method Init, addr 0x3bcb858, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x57bcbbc, size 0x4, virtual true, abstract: false, final false
   inline void Init();
 
-  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
+  static inline ::GlobalNamespace::MockPlayerLobbyPoseGeneratorMirror* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                                 ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
-  /// @brief Method Tick, addr 0x3bcb92c, size 0x150, virtual true, abstract: false, final false
+  /// @brief Method Tick, addr 0x57bcc94, size 0xc4, virtual true, abstract: false, final false
   inline void Tick();
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get__mirroredPlayer() const;
@@ -67,8 +67,8 @@ public:
 
   constexpr void __cordl_internal_set__nodePoseSyncStateManager(::UnityW<::GlobalNamespace::NodePoseSyncStateManager> value);
 
-  /// @brief Method .ctor, addr 0x3bcb6e0, size 0x178, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
+  /// @brief Method .ctor, addr 0x57ba98c, size 0x1bc, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager);
 
 protected:
   // Ctor Parameters []
@@ -85,7 +85,7 @@ public:
   MockPlayerLobbyPoseGeneratorMirror(MockPlayerLobbyPoseGeneratorMirror const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4545 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6125 };
 
   /// @brief Field _nodePoseSyncStateManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NodePoseSyncStateManager> ____nodePoseSyncStateManager;

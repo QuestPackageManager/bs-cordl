@@ -11,7 +11,6 @@
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ContentCatalogData_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__IResourceLocator_def.hpp"
 #include "UnityEngine/AddressableAssets/ResourceLocators/zzzz__ResourceLocationMap_def.hpp"
-#include "UnityEngine/AddressableAssets/Utility/zzzz__ResourceManagerDiagnostics_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AddressablesImpl_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__InitalizationObjectsOperation_def.hpp"
@@ -23,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4502c98;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x625137c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,17 +32,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c._Execute_b__13_0
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c._Execute_b__12_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::*)(
-    ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_Execute_b__13_0)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4502ca0;
+    ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_Execute_b__12_0)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6251380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get(), "<Execute>b__13_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get(), "<Execute>b__12_0",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>::get() })));
     return ___internal_method;
@@ -58,15 +57,15 @@ inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation
   return ::cordl_internals::getStaticField<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get>();
 }
-inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::setStaticF___9__13_0(
+inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::setStaticF___9__12_0(
     ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*, "<>9__13_0",
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*, "<>9__12_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*>(value));
 }
 inline ::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::getStaticF___9__13_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*, "<>9__13_0",
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::getStaticF___9__12_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*, bool>*, "<>9__12_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get>();
 }
 inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_ctor() {
@@ -75,9 +74,9 @@ inline void UnityEngine::AddressableAssets::Initialization::InitializationOperat
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_Execute_b__13_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp) {
+inline bool UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::_Execute_b__12_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get(), "<Execute>b__13_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c*>::get(), "<Execute>b__12_0",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, rp);
@@ -87,131 +86,131 @@ inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c::InitializationOperation___c() {}
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0._ctor
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::*)()>(
-    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x450288c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::*)()>(
+    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x625140c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>::get(),
                                     ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0._LoadContentCatalog_b__0
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0._LoadContentCatalog_b__0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
-    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::*)(
+    ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>)>(
-    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_LoadContentCatalog_b__0)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4502d3c;
+    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_LoadContentCatalog_b__0)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6251410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>::get(),
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>::get(),
                                    "<LoadContentCatalog>b__0", std::span<Il2CppClass const* const, 0>(),
                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                                        ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_addressables() {
+constexpr ::UnityEngine::AddressableAssets::AddressablesImpl*& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_addressables() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addressables;
 }
 constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_addressables() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_addressables() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___addressables;
 }
 constexpr void
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_set_addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_set_addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___addressables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_providerSuffix() {
+constexpr ::StringW& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_providerSuffix() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___providerSuffix;
 }
-constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_providerSuffix() const {
+constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_providerSuffix() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___providerSuffix;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_set_providerSuffix(::StringW value) {
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_set_providerSuffix(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___providerSuffix)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_remoteHashLocation() {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_remoteHashLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteHashLocation;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_get_remoteHashLocation() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_get_remoteHashLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteHashLocation;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::__cordl_internal_set_remoteHashLocation(
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::__cordl_internal_set_remoteHashLocation(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___remoteHashLocation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_ctor() {
+inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>::get(),
                                   ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::_LoadContentCatalog_b__0(
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::_LoadContentCatalog_b__0(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*> res) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>::get(),
                                   "<LoadContentCatalog>b__0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>, false>(
       this, ___internal_method, res);
 }
-inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0*>());
+inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass16_0::InitializationOperation___c__DisplayClass16_0() {}
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0._ctor
+constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass15_0::InitializationOperation___c__DisplayClass15_0() {}
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::*)()>(
-    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45028c0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::*)()>(
+    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6251464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*>::get(),
                                     ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0._LoadContentCatalogInternal_b__0
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0._LoadContentCatalogInternal_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::*)(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>)>(
-    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::_LoadContentCatalogInternal_b__0)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4502d7c;
+    &::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::_LoadContentCatalogInternal_b__0)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6251468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*>::get(),
                                     "<LoadContentCatalogInternal>b__0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                                         ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>::get() })));
@@ -219,105 +218,105 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
   }
 };
 constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation*&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get___4__this() {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get___4__this() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_set___4__this(
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_set___4__this(
     ::UnityEngine::AddressableAssets::Initialization::InitializationOperation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_catalogs() {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_catalogs() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogs;
 }
 constexpr ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_catalogs() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_catalogs() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___catalogs;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_set_catalogs(
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_set_catalogs(
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___catalogs)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_locMap() {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_locMap() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locMap;
 }
 constexpr ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_locMap() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_locMap() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___locMap;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_set_locMap(
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_set_locMap(
     ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___locMap)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_index() {
+constexpr int32_t& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_index() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
-constexpr int32_t const& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_index() const {
+constexpr int32_t const& UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_index() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___index;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_set_index(int32_t value) {
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_set_index(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___index = value;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_remoteHashLocation() {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_remoteHashLocation() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteHashLocation;
 }
 constexpr ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_get_remoteHashLocation() const {
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_get_remoteHashLocation() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___remoteHashLocation;
 }
-constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::__cordl_internal_set_remoteHashLocation(
+constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::__cordl_internal_set_remoteHashLocation(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___remoteHashLocation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::_ctor() {
+inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::_ctor() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*>::get(),
                                   ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::_LoadContentCatalogInternal_b__0(
+inline void UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::_LoadContentCatalogInternal_b__0(
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> op) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*>::get(),
                                   "<LoadContentCatalogInternal>b__0", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<
                                       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, op);
 }
-inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0*
-UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0*>());
+inline ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*
+UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass18_0::InitializationOperation___c__DisplayClass18_0() {}
+constexpr ::UnityEngine::AddressableAssets::Initialization::InitializationOperation___c__DisplayClass17_0::InitializationOperation___c__DisplayClass17_0() {}
 //  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::InitializationOperation._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(
     ::UnityEngine::AddressableAssets::AddressablesImpl*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44fff5c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x624f310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -331,8 +330,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::get_Progress)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4500004;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x624f370;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -347,8 +346,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::get_DebugName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4500084;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x624f3f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -364,8 +363,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(
         ::UnityEngine::AddressableAssets::AddressablesImpl*, ::StringW, ::StringW)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::CreateInitializationOperation)> {
-  constexpr static std::size_t size = 0x5b0;
-  constexpr static std::size_t addrs = 0x45000c4;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x623aefc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -381,8 +380,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::InvokeWaitForCompletion)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x4500674;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x624f438;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -397,8 +396,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::Execute)> {
-  constexpr static std::size_t size = 0xd50;
-  constexpr static std::size_t addrs = 0x4500840;
+  constexpr static std::size_t size = 0xd14;
+  constexpr static std::size_t addrs = 0x624f640;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -414,8 +413,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::UnityEngine::AddressableAssets::AddressablesImpl*, ::UnityEngine::ResourceManagement::Util::ObjectInitializationData, ::StringW)>(
         &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadProvider)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x450178c;
+  constexpr static std::size_t size = 0x480;
+  constexpr static std::size_t addrs = 0x6250594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -435,8 +434,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::UnityEngine::AddressableAssets::AddressablesImpl*,
         ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::ContentCatalogData*>, ::StringW,
         ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::OnCatalogDataLoaded)> {
-  constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x4501c34;
+  constexpr static std::size_t size = 0x548;
+  constexpr static std::size_t addrs = 0x6250a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -458,8 +457,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (*)(
         ::UnityEngine::AddressableAssets::AddressablesImpl*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW,
         ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
-  constexpr static std::size_t size = 0x6b4;
-  constexpr static std::size_t addrs = 0x45021d8;
+  constexpr static std::size_t size = 0x694;
+  constexpr static std::size_t addrs = 0x623b410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -479,8 +478,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*> (::UnityEngine::AddressableAssets::Initialization::InitializationOperation::*)(
     ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*, ::StringW, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalog)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4502894;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6250f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -500,8 +499,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, int32_t,
     ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(
     &::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadContentCatalogInternal)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x450159c;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x6250354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,8 +521,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>,
     ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*, ::UnityEngine::AddressableAssets::ResourceLocators::ResourceLocationMap*,
     int32_t, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*)>(&::UnityEngine::AddressableAssets::Initialization::InitializationOperation::LoadOpComplete)> {
-  constexpr static std::size_t size = 0x374;
-  constexpr static std::size_t addrs = 0x45028c8;
+  constexpr static std::size_t size = 0x398;
+  constexpr static std::size_t addrs = 0x6250f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,20 +591,6 @@ constexpr ::UnityEngine::AddressableAssets::AddressablesImpl* const& UnityEngine
 constexpr void UnityEngine::AddressableAssets::Initialization::InitializationOperation::__cordl_internal_set_m_Addressables(::UnityEngine::AddressableAssets::AddressablesImpl* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Addressables)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics*& UnityEngine::AddressableAssets::Initialization::InitializationOperation::__cordl_internal_get_m_Diagnostics() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Diagnostics;
-}
-constexpr ::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* const&
-UnityEngine::AddressableAssets::Initialization::InitializationOperation::__cordl_internal_get_m_Diagnostics() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_Diagnostics;
-}
-constexpr void
-UnityEngine::AddressableAssets::Initialization::InitializationOperation::__cordl_internal_set_m_Diagnostics(::UnityEngine::AddressableAssets::Utility::ResourceManagerDiagnostics* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Diagnostics)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityEngine::ResourceManagement::AsyncOperations::InitalizationObjectsOperation*&
 UnityEngine::AddressableAssets::Initialization::InitializationOperation::__cordl_internal_get_m_InitGroupOps() {

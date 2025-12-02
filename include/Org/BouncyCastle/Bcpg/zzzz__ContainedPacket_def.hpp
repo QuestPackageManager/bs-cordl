@@ -25,12 +25,12 @@ public:
   /// @brief Method Encode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Encode(::Org::BouncyCastle::Bcpg::BcpgOutputStream* bcpgOut);
 
-  /// @brief Method GetEncoded, addr 0x2647314, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method GetEncoded, addr 0x3576c78, size 0xb8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
 
   static inline ::Org::BouncyCastle::Bcpg::ContainedPacket* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26473cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3576d30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

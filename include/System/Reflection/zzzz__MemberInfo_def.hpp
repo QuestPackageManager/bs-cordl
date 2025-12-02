@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Reflection/zzzz__ICustomAttributeProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MemberInfo)
+namespace System::Reflection {
+class ICustomAttributeProvider;
+}
 namespace System::Reflection {
 struct MemberTypes;
 }
@@ -26,7 +28,7 @@ class MemberInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::MemberInfo);
-// Dependencies System.Object, System.Reflection.ICustomAttributeProvider
+// Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.MemberInfo
@@ -48,7 +50,7 @@ public:
   /// @brief Convert operator to "::System::Reflection::ICustomAttributeProvider"
   constexpr operator ::System::Reflection::ICustomAttributeProvider*() noexcept;
 
-  /// @brief Method Equals, addr 0x3d22270, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x596748c, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
   /// @brief Method GetCustomAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -57,7 +59,7 @@ public:
   /// @brief Method GetCustomAttributes, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
 
-  /// @brief Method GetHashCode, addr 0x3d22280, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x59674ac, size 0x14, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   /// @brief Method IsDefined, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -65,7 +67,7 @@ public:
 
   static inline ::System::Reflection::MemberInfo* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d22108, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596733c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_DeclaringType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -74,10 +76,10 @@ public:
   /// @brief Method get_MemberType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Reflection::MemberTypes get_MemberType();
 
-  /// @brief Method get_MetadataToken, addr 0x3d238dc, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method get_MetadataToken, addr 0x5968788, size 0x38, virtual true, abstract: false, final false
   inline int32_t get_MetadataToken();
 
-  /// @brief Method get_Module, addr 0x3d23808, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method get_Module, addr 0x59686f8, size 0x90, virtual true, abstract: false, final false
   inline ::System::Reflection::Module* get_Module();
 
   /// @brief Method get_Name, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -89,10 +91,10 @@ public:
   /// @brief Convert to "::System::Reflection::ICustomAttributeProvider"
   constexpr ::System::Reflection::ICustomAttributeProvider* i___System__Reflection__ICustomAttributeProvider() noexcept;
 
-  /// @brief Method op_Equality, addr 0x3d23914, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x59687c0, size 0x308, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
-  /// @brief Method op_Inequality, addr 0x3d23ea4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x5968cfc, size 0x18, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::MemberInfo* left, ::System::Reflection::MemberInfo* right);
 
 protected:
@@ -110,7 +112,7 @@ public:
   MemberInfo(MemberInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3498 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

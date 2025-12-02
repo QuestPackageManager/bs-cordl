@@ -3,13 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILevelPackProductData_1_def.hpp"
-#include "GlobalNamespace/zzzz__ILevelProductData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OculusLevelProductCollectionModel)
 namespace GlobalNamespace {
 struct BeatmapLevelDataVersion;
+}
+namespace GlobalNamespace {
+template <typename TLevelProductData> class ILevelPackProductData_1;
+}
+namespace GlobalNamespace {
+class ILevelProductData;
 }
 namespace GlobalNamespace {
 class OculusLevelProductCollectionModel_AdditionalSkus;
@@ -84,7 +88,7 @@ public:
 
   constexpr void __cordl_internal_set_noEnvironmentKeywordsSku(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e9d9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c4bc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -102,7 +106,7 @@ public:
   OculusLevelProductCollectionModel_AdditionalSkus(OculusLevelProductCollectionModel_AdditionalSkus const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15113 };
 
   /// @brief Field checkAdditionalSkus, offset: 0x10, size: 0x1, def value: None
   bool ___checkAdditionalSkus;
@@ -120,7 +124,7 @@ static_assert(offsetof(::GlobalNamespace::OculusLevelProductCollectionModel_Addi
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies ILevelProductData, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OculusLevelProductCollectionModel/LevelProductData
@@ -165,16 +169,16 @@ public:
 
   constexpr void __cordl_internal_set__sku(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e9dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c4d8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_additionalSkus, addr 0x26e9dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalSkus, addr 0x361c4c8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* get_additionalSkus();
 
-  /// @brief Method get_levelId, addr 0x26e9db4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelId, addr 0x361c4d0, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelId();
 
-  /// @brief Method get_sku, addr 0x26e9da4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sku, addr 0x361c4c0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sku();
 
   /// @brief Convert to "::GlobalNamespace::ILevelProductData"
@@ -195,7 +199,7 @@ public:
   OculusLevelProductCollectionModel_LevelProductData(OculusLevelProductCollectionModel_LevelProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15114 };
 
   /// @brief Field _levelId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelId;
@@ -218,7 +222,7 @@ static_assert(offsetof(::GlobalNamespace::OculusLevelProductCollectionModel_Leve
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies ILevelPackProductData`1<TLevelProductData>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OculusLevelProductCollectionModel/LevelPackProductData
@@ -281,19 +285,19 @@ public:
 
   constexpr void __cordl_internal_set__sku(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e9de4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c4fc, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::StringW levelPackId, ::StringW sku, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>* levelProductsData);
 
-  /// @brief Method get_additionalSkus, addr 0x26e9dcc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_additionalSkus, addr 0x361c4e4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_AdditionalSkus* get_additionalSkus();
 
-  /// @brief Method get_levelPackId, addr 0x26e9dd4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelPackId, addr 0x361c4ec, size 0x8, virtual true, abstract: false, final true
   inline ::StringW get_levelPackId();
 
-  /// @brief Method get_levelProductsData, addr 0x26e9ddc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_levelProductsData, addr 0x361c4f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>* get_levelProductsData();
 
-  /// @brief Method get_sku, addr 0x26e9dc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sku, addr 0x361c4dc, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_sku();
 
   /// @brief Convert to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>"
@@ -315,7 +319,7 @@ public:
   OculusLevelProductCollectionModel_LevelPackProductData(OculusLevelProductCollectionModel_LevelPackProductData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15115 };
 
   /// @brief Field _levelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____levelPackId;
@@ -396,19 +400,19 @@ public:
 
   constexpr void __cordl_internal_set__validUntilDate(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26e9e80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361c590, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_redirectedSku, addr 0x26e9e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_redirectedSku, addr 0x361c580, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_redirectedSku();
 
-  /// @brief Method get_shouldOwnLevelPackId, addr 0x26e9e68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_shouldOwnLevelPackId, addr 0x361c578, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_shouldOwnLevelPackId();
 
-  /// @brief Method get_targetLevelPackId, addr 0x26e9e60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetLevelPackId, addr 0x361c570, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_targetLevelPackId();
 
-  /// @brief Method get_validUntilDate, addr 0x26e9e78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_validUntilDate, addr 0x361c588, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_validUntilDate();
 
 protected:
@@ -426,7 +430,7 @@ public:
   OculusLevelProductCollectionModel_LevelPackRedirectionData(OculusLevelProductCollectionModel_LevelPackRedirectionData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13144 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15116 };
 
   /// @brief Field _targetLevelPackId, offset: 0x10, size: 0x8, def value: None
   ::StringW ____targetLevelPackId;
@@ -484,19 +488,19 @@ public:
   __declspec(property(get = __cordl_internal_get__levelPackRedirectionData, put = __cordl_internal_set__levelPackRedirectionData)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>* _levelPackRedirectionData;
 
-  /// @brief Method GetLevelPackProductData, addr 0x26e9c34, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackProductData, addr 0x361c348, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackProductData* GetLevelPackProductData(::StringW levelPackId);
 
-  /// @brief Method GetLevelPackRedirectionData, addr 0x26e9d24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelPackRedirectionData, addr 0x361c440, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData* GetLevelPackRedirectionData(::StringW levelPackId);
 
-  /// @brief Method GetLevelProductData, addr 0x26e9bbc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelProductData, addr 0x361c2cc, size 0x7c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData* GetLevelProductData(::StringW levelId);
 
-  /// @brief Method GetLevelSku, addr 0x26e9cac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetLevelSku, addr 0x361c3c4, size 0x7c, virtual false, abstract: false, final false
   inline ::StringW GetLevelSku(::StringW assetFile);
 
-  /// @brief Method InsertAdditionalSkuIfValid, addr 0x26e9af8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method InsertAdditionalSkuIfValid, addr 0x361c1e8, size 0xe4, virtual false, abstract: false, final false
   inline void InsertAdditionalSkuIfValid(::StringW levelId, ::StringW additionalSku, ::GlobalNamespace::BeatmapLevelDataVersion additionalSkuType);
 
   static inline ::GlobalNamespace::OculusLevelProductCollectionModel*
@@ -530,7 +534,7 @@ public:
   constexpr void
   __cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductCollectionModel_LevelPackRedirectionData*>* value);
 
-  /// @brief Method .ctor, addr 0x26e9028, size 0xad0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361b6d8, size 0xb10, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* levelProductPacksSOs);
 
 protected:
@@ -548,7 +552,7 @@ public:
   OculusLevelProductCollectionModel(OculusLevelProductCollectionModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13145 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15117 };
 
   /// @brief Field _levelIdToProductData, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::OculusLevelProductCollectionModel_LevelProductData*>* ____levelIdToProductData;

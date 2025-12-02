@@ -43,7 +43,7 @@ public:
 
   constexpr void __cordl_internal_set_bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value);
 
-  /// @brief Method .ctor, addr 0x26d6170, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36080e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   BloomPrePassGraphicsSettingsPresetsSO_Preset(BloomPrePassGraphicsSettingsPresetsSO_Preset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15008 };
 
   /// @brief Field bloomPrePassEffect, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> ___bloomPrePassEffect;
@@ -104,13 +104,13 @@ public:
   constexpr void
   __cordl_internal_set__presets(::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> value);
 
-  /// @brief Method .ctor, addr 0x26d6160, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36080d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_namedPresets, addr 0x26d6158, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_namedPresets, addr 0x36080d0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> get_namedPresets();
 
-  /// @brief Method get_presets, addr 0x26d6150, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_presets, addr 0x36080c8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> get_presets();
 
 protected:
@@ -128,7 +128,7 @@ public:
   BloomPrePassGraphicsSettingsPresetsSO(BloomPrePassGraphicsSettingsPresetsSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15009 };
 
   /// @brief Field _presets, offset: 0x18, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> ____presets;

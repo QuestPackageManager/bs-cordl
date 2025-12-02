@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4070a00;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5c2d520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::*)(
     ::StringW, ::ByRef<uint32_t>)>(&::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070aa0;
+  constexpr static std::size_t addrs = 0x5c2d5a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::*)(::StringW, ::ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
         &::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::BeginInvoke)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4070ab4;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5c2d5b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::*)(
     ::ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromDescriptor::EndInvoke)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4070b48;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d60c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4070b74;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::*)(
     uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ::ByRef<uint32_t>)>(&::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070c00;
+  constexpr static std::size_t addrs = 0x5c2d69c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -146,8 +146,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::*)(uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ::ByRef<uint32_t>,
                                                                       ::System::AsyncCallback*, ::System::Object*)>(&::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::BeginInvoke)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4070c14;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5c2d6b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::*)(
     ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ::ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSpatialAnchors__CreateSpatialAnchorFromPose::EndInvoke)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4070d1c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5c2d7a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -212,8 +212,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4070d50;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose*>::get(),
@@ -229,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::*)(
     uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>)>(&::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070ddc;
+  constexpr static std::size_t addrs = 0x5c2d83c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -245,8 +245,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::*)(uint32_t, ::OVR::OpenVR::ETrackingUniverseOrigin, ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ::System::AsyncCallback*,
                                                                ::System::Object*)>(&::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::BeginInvoke)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4070df0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5c2d850;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,8 +261,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::*)(
     ::ByRef<::OVR::OpenVR::SpatialAnchorPose_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorPose::EndInvoke)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4070edc;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2d928;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -310,8 +310,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::*)(::System::Object*, ::System::IntPtr)>(
     &::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4070f08;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5c2d94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -327,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::*)(
     uint32_t, ::System::Text::StringBuilder*, ::ByRef<uint32_t>)>(&::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4070f94;
+  constexpr static std::size_t addrs = 0x5c2d9b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -343,8 +343,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::*)(uint32_t, ::System::Text::StringBuilder*, ::ByRef<uint32_t>, ::System::AsyncCallback*, ::System::Object*)>(
     &::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::BeginInvoke)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4070fa8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5c2d9cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -359,8 +359,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EVRSpatialAnchorError (::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::*)(
     ::ByRef<uint32_t>, ::System::IAsyncResult*)>(&::OVR::OpenVR::IVRSpatialAnchors__GetSpatialAnchorDescriptor::EndInvoke)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4071054;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c2da4c;
 
   inline static ::MethodInfo const* methodInfo() {
 

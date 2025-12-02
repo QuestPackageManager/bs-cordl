@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ParametricBoxController::*)()>(
     &::GlobalNamespace::ParametricBoxController::get_useCollision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dabc4;
+  constexpr static std::size_t addrs = 0x565276c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)(bool)>(
     &::GlobalNamespace::ParametricBoxController::set_useCollision)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39dabcc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5652774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ParametricBoxController::*)()>(
     &::GlobalNamespace::ParametricBoxController::get_collisionHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dabd8;
+  constexpr static std::size_t addrs = 0x565277c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)(float_t)>(
     &::GlobalNamespace::ParametricBoxController::set_collisionHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dabe0;
+  constexpr static std::size_t addrs = 0x5652784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)()>(&::GlobalNamespace::ParametricBoxController::Awake)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39dabe8;
+  constexpr static std::size_t addrs = 0x565278c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(), "Awake",
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)()>(&::GlobalNamespace::ParametricBoxController::OnEnable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39dacd4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56528b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(), "OnEnable",
@@ -94,8 +94,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)()>(&::GlobalNamespace::ParametricBoxController::OnDisable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39dacf4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56528cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(), "OnDisable",
@@ -107,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)()>(&::GlobalNamespace::ParametricBoxController::InitIfNeeded)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39dac10;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x56527b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(),
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)()>(&::GlobalNamespace::ParametricBoxController::Refresh)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x39dad14;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x56528e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(), "Refresh",
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ParametricBoxController::*)()>(&::GlobalNamespace::ParametricBoxController::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39daf34;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5652afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ParametricBoxController*>::get(), ".ctor",

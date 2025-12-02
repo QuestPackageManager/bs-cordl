@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/CreditsScenesTransitionSetupDataSO.hpp"
-#include "GlobalNamespace/zzzz__NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO_impl.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__CreditsScenesTransitionSetupDataSO_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::CreditsScenesTransitionSetupDataSO.add_didFinishEvent
@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupDataSO::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>*)>(&::GlobalNamespace::CreditsScenesTransitionSetupDataSO::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b3b4c4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x571eb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,13 +23,27 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupDataSO::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>*)>(&::GlobalNamespace::CreditsScenesTransitionSetupDataSO::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b3b574;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x571ec50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::CreditsScenesTransitionSetupDataSO.Init
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupDataSO::*)()>(
+    &::GlobalNamespace::CreditsScenesTransitionSetupDataSO::Init)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x571ed10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(),
+                                                                               "Init", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -39,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::CreditsScenesTransitionSetupDataSO::Finish)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b3b624;
+  constexpr static std::size_t addrs = 0x571edd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(),
@@ -53,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CreditsScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::CreditsScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3b644;
+  constexpr static std::size_t addrs = 0x571edf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(),
@@ -84,6 +98,11 @@ inline void GlobalNamespace::CreditsScenesTransitionSetupDataSO::remove_didFinis
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(), "remove_didFinishEvent", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action_1<::UnityW<::GlobalNamespace::CreditsScenesTransitionSetupDataSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void GlobalNamespace::CreditsScenesTransitionSetupDataSO::Init() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(),
+                                                                             "Init", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::CreditsScenesTransitionSetupDataSO::Finish() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CreditsScenesTransitionSetupDataSO*>::get(),

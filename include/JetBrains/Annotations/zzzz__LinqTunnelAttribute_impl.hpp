@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::LinqTunnelAttribute::*)()>(&::JetBrains::Annotations::LinqTunnelAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3750;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0965c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::JetBrains::Annotations::LinqTunnelAttribute*>::get(), ".ctor",

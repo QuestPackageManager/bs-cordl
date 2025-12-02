@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__ISceneProvider_def.hpp"
 CORDL_MODULE_EXPORT(ISceneProvider2)
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 template <typename TObject> struct AsyncOperationHandle_1;
+}
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+class ISceneProvider;
 }
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
@@ -23,7 +25,7 @@ class ISceneProvider2;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ResourceManagement::ResourceProviders::ISceneProvider2);
-// Dependencies UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider
+// Dependencies
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 // Is value type: false
 // CS Name: UnityEngine.ResourceManagement.ResourceProviders.ISceneProvider2
@@ -47,7 +49,7 @@ public:
   ISceneProvider2(ISceneProvider2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15675 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18736 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

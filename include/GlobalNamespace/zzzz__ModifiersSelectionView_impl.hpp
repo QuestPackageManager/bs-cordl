@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ModifiersSelectionView___c__DisplayClass3_0::*)()>(
     &::GlobalNamespace::ModifiersSelectionView___c__DisplayClass3_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b05954;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56e7080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ModifiersSelectionView___c__DisplayClass3_0::*)(
     int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&::GlobalNamespace::ModifiersSelectionView___c__DisplayClass3_0::_SetGameplayModifiers_b__0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b0595c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x56e7084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ModifiersSelectionView::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::ModifiersSelectionView::SetGameplayModifiers)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3b000c8;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x56e227c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ModifiersSelectionView::*)()>(&::GlobalNamespace::ModifiersSelectionView::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b00240;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56e243c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ModifiersSelectionView*>::get(), ".ctor",

@@ -4,10 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 CORDL_MODULE_EXPORT(LazyInject_1)
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IValidatable;
 }
 namespace Zenject {
 class InjectContext;
@@ -18,7 +20,7 @@ template <typename T> class LazyInject_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::LazyInject_1);
-// Dependencies System.Object, Zenject.IValidatable
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename T>
@@ -97,7 +99,7 @@ public:
   LazyInject_1(LazyInject_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14440 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

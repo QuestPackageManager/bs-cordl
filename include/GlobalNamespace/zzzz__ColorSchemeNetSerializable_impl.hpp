@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ColorSchemeNetSerializable.hpp"
 #include "GlobalNamespace/zzzz__ColorNoAlphaSerializable_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_impl.hpp"
 #include "GlobalNamespace/zzzz__ColorSchemeNetSerializable_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -12,8 +12,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeNetSerializable::*)(
     ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color, ::UnityEngine::Color)>(
     &::GlobalNamespace::ColorSchemeNetSerializable::_ctor)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x22bab28;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x3201120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::ColorSchemeNetSerializable::Serialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22baca8;
+  constexpr static std::size_t addrs = 0x320115c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ColorSchemeNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::ColorSchemeNetSerializable::Deserialize)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x22bad28;
+  constexpr static std::size_t addrs = 0x32011dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

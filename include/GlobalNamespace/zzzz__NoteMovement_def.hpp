@@ -122,34 +122,34 @@ public:
 
   __declspec(property(get = get_worldRotation)) ::UnityEngine::Quaternion worldRotation;
 
-  /// @brief Method Awake, addr 0x3aef734, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56cb7bc, size 0x258, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteJumpDidFinish, addr 0x3aefb00, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidFinish, addr 0x56cbd00, size 0x1c, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidFinish();
 
-  /// @brief Method HandleNoteJumpDidPassMissedMark, addr 0x3aefb1c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidPassMissedMark, addr 0x56cbd1c, size 0x1c, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidPassMissedMark();
 
-  /// @brief Method HandleNoteJumpDidPassThreeQuarters, addr 0x3aefb38, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidPassThreeQuarters, addr 0x56cbd38, size 0x20, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidPassThreeQuarters(::GlobalNamespace::NoteJump* noteJump);
 
-  /// @brief Method HandleNoteJumpDidStart, addr 0x3aefae4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpDidStart, addr 0x56cbce4, size 0x1c, virtual false, abstract: false, final false
   inline void HandleNoteJumpDidStart();
 
-  /// @brief Method HandleNoteJumpNoteJumpDidPassHalf, addr 0x3aefb58, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteJumpNoteJumpDidPassHalf, addr 0x56cbd58, size 0x1c, virtual false, abstract: false, final false
   inline void HandleNoteJumpNoteJumpDidPassHalf();
 
-  /// @brief Method Init, addr 0x3aeb900, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x56c77a4, size 0x188, virtual false, abstract: false, final false
   inline void Init(float_t noteTime, float_t worldRotation, ::ByRef<::GlobalNamespace::NoteSpawnData> noteSpawnData, float_t flipYSide, float_t endRotation, bool rotateTowardsPlayer,
                    bool useRandomRotation);
 
-  /// @brief Method ManualUpdate, addr 0x3aeb20c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x56c7154, size 0xec, virtual false, abstract: false, final false
   inline void ManualUpdate();
 
   static inline ::GlobalNamespace::NoteMovement* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3aef8ec, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56cba14, size 0x2d0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr float_t const& __cordl_internal_get__distanceToPlayer() const;
@@ -254,82 +254,82 @@ public:
 
   constexpr void __cordl_internal_set_noteDidStartJumpEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x3aefd4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56cbf54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInitEvent, addr 0x3aef3f0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didInitEvent, addr 0x56cb428, size 0xac, virtual false, abstract: false, final false
   inline void add_didInitEvent(::System::Action* value);
 
-  /// @brief Method add_noteDidFinishJumpEvent, addr 0x3aeacf4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteDidFinishJumpEvent, addr 0x56c6bbc, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidFinishJumpEvent(::System::Action* value);
 
-  /// @brief Method add_noteDidMoveInJumpPhaseEvent, addr 0x3aef5c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteDidMoveInJumpPhaseEvent, addr 0x56cb62c, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidMoveInJumpPhaseEvent(::System::Action* value);
 
-  /// @brief Method add_noteDidPassHalfJumpEvent, addr 0x3ae6814, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteDidPassHalfJumpEvent, addr 0x56c261c, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidPassHalfJumpEvent(::System::Action* value);
 
-  /// @brief Method add_noteDidPassJumpThreeQuartersEvent, addr 0x3aeae2c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_noteDidPassJumpThreeQuartersEvent, addr 0x56c6d14, size 0xc0, virtual false, abstract: false, final false
   inline void add_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
-  /// @brief Method add_noteDidPassMissedMarkerEvent, addr 0x3aeaedc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteDidPassMissedMarkerEvent, addr 0x56c6dd4, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidPassMissedMarkerEvent(::System::Action* value);
 
-  /// @brief Method add_noteDidStartJumpEvent, addr 0x3aead90, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_noteDidStartJumpEvent, addr 0x56c6c68, size 0xac, virtual false, abstract: false, final false
   inline void add_noteDidStartJumpEvent(::System::Action* value);
 
-  /// @brief Method get_beatPos, addr 0x3aeaba4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_beatPos, addr 0x56c6a7c, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_beatPos();
 
-  /// @brief Method get_distanceToPlayer, addr 0x3aef72c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distanceToPlayer, addr 0x56cb7b4, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distanceToPlayer();
 
-  /// @brief Method get_inverseWorldRotation, addr 0x3aeab2c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_inverseWorldRotation, addr 0x56c6a10, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_inverseWorldRotation();
 
-  /// @brief Method get_jumpMoveVec, addr 0x3aeac8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_jumpMoveVec, addr 0x56c6b5c, size 0x40, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_jumpMoveVec();
 
-  /// @brief Method get_localPosition, addr 0x3aef714, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_localPosition, addr 0x56cb79c, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_localPosition();
 
-  /// @brief Method get_moveEndPos, addr 0x3aeac08, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_moveEndPos, addr 0x56c6adc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_moveEndPos();
 
-  /// @brief Method get_noteTime, addr 0x3aeab70, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_noteTime, addr 0x56c6a50, size 0x18, virtual false, abstract: false, final false
   inline float_t get_noteTime();
 
-  /// @brief Method get_position, addr 0x3aef6fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_position, addr 0x56cb784, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_position();
 
-  /// @brief Method get_prevLocalPosition, addr 0x3aef720, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_prevLocalPosition, addr 0x56cb7a8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_prevLocalPosition();
 
-  /// @brief Method get_prevPosition, addr 0x3aef708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_prevPosition, addr 0x56cb790, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_prevPosition();
 
-  /// @brief Method get_worldRotation, addr 0x3aeab0c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_worldRotation, addr 0x56c69f4, size 0x1c, virtual false, abstract: false, final false
   inline ::UnityEngine::Quaternion get_worldRotation();
 
-  /// @brief Method remove_didInitEvent, addr 0x3aef48c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didInitEvent, addr 0x56cb4d4, size 0xac, virtual false, abstract: false, final false
   inline void remove_didInitEvent(::System::Action* value);
 
-  /// @brief Method remove_noteDidFinishJumpEvent, addr 0x3aeaf78, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteDidFinishJumpEvent, addr 0x56c6e80, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidFinishJumpEvent(::System::Action* value);
 
-  /// @brief Method remove_noteDidMoveInJumpPhaseEvent, addr 0x3aef660, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteDidMoveInJumpPhaseEvent, addr 0x56cb6d8, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidMoveInJumpPhaseEvent(::System::Action* value);
 
-  /// @brief Method remove_noteDidPassHalfJumpEvent, addr 0x3aef528, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteDidPassHalfJumpEvent, addr 0x56cb580, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidPassHalfJumpEvent(::System::Action* value);
 
-  /// @brief Method remove_noteDidPassJumpThreeQuartersEvent, addr 0x3aeb0b0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_noteDidPassJumpThreeQuartersEvent, addr 0x56c6fd8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_noteDidPassJumpThreeQuartersEvent(::System::Action_1<::UnityW<::GlobalNamespace::NoteMovement>>* value);
 
-  /// @brief Method remove_noteDidPassMissedMarkerEvent, addr 0x3aeb160, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteDidPassMissedMarkerEvent, addr 0x56c7098, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidPassMissedMarkerEvent(::System::Action* value);
 
-  /// @brief Method remove_noteDidStartJumpEvent, addr 0x3aeb014, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_noteDidStartJumpEvent, addr 0x56c6f2c, size 0xac, virtual false, abstract: false, final false
   inline void remove_noteDidStartJumpEvent(::System::Action* value);
 
 protected:
@@ -347,7 +347,7 @@ public:
   NoteMovement(NoteMovement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4136 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5699 };
 
   /// @brief Field _waiting, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::NoteWaiting> ____waiting;

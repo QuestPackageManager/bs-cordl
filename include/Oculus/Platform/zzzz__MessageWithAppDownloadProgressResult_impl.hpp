@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAppDownloadProgressResult::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7b96c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc2000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (
     ::Oculus::Platform::MessageWithAppDownloadProgressResult::*)()>(&::Oculus::Platform::MessageWithAppDownloadProgressResult::GetAppDownloadProgressResult)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7d9dc;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc4810;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AppDownloadProgressResult* (
     ::Oculus::Platform::MessageWithAppDownloadProgressResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAppDownloadProgressResult::GetDataFromMessage)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7da18;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5bc4854;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadProgressResult*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadProgressResult*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadProgressResult*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -66,7 +66,7 @@ inline ::Oculus::Platform::Models::AppDownloadProgressResult* Oculus::Platform::
 inline ::Oculus::Platform::Models::AppDownloadProgressResult* Oculus::Platform::MessageWithAppDownloadProgressResult::GetDataFromMessage(::System::IntPtr c_message) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadProgressResult*>::get(), 72)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAppDownloadProgressResult*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::AppDownloadProgressResult*, false>(this, ___internal_method, c_message);
 }
 inline ::Oculus::Platform::MessageWithAppDownloadProgressResult* Oculus::Platform::MessageWithAppDownloadProgressResult::New_ctor(::System::IntPtr c_message) {

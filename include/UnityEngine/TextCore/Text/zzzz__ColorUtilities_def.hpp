@@ -21,10 +21,10 @@ namespace UnityEngine::TextCore::Text {
 class CORDL_TYPE ColorUtilities : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CompareColors, addr 0x49236c4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CompareColors, addr 0x6992048, size 0x10, virtual false, abstract: false, final false
   static inline bool CompareColors(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
 
-  /// @brief Method MultiplyColors, addr 0x49236d4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MultiplyColors, addr 0x6992058, size 0xe4, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
 
 protected:
@@ -42,7 +42,7 @@ public:
   ColorUtilities(ColorUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15236 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17157 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

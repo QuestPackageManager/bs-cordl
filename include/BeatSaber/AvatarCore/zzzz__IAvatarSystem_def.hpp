@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IAvatarSystem)
 namespace BeatSaber::AvatarCore {
@@ -17,6 +16,9 @@ class AvatarSelectionView;
 }
 namespace BeatSaber::AvatarCore {
 class Avatar;
+}
+namespace BeatSaber::AvatarCore {
+class IAvatarSystemMetadata;
 }
 namespace BeatSaber::AvatarCore {
 class IOptionalAvatarDataProvider;
@@ -39,7 +41,7 @@ class IAvatarSystem;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::AvatarCore::IAvatarSystem);
-// Dependencies BeatSaber.AvatarCore.IAvatarSystemMetadata
+// Dependencies
 namespace BeatSaber::AvatarCore {
 // Is value type: false
 // CS Name: BeatSaber.AvatarCore.IAvatarSystem
@@ -102,7 +104,7 @@ public:
   IAvatarSystem(IAvatarSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21404 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

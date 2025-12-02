@@ -1,6 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVROverlayMeshGenerator.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_impl.hpp"
+#include "UnityEngine/Rendering/zzzz__TextureDimension_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
@@ -9,38 +10,65 @@
 #include "GlobalNamespace/zzzz__OVROverlayMeshGenerator_def.hpp"
 #include "GlobalNamespace/zzzz__OVROverlay_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/zzzz__Material_def.hpp"
 #include "UnityEngine/zzzz__MeshCollider_def.hpp"
 #include "UnityEngine/zzzz__MeshFilter_def.hpp"
 #include "UnityEngine/zzzz__MeshRenderer_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
-#include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace::OVROverlayMeshGenerator_CubeFace(int32_t value__) noexcept {
   this->value__ = value__;
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace::OVROverlayMeshGenerator_CubeFace() {}
-constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Right{ static_cast<int32_t>(0x0) };
-constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Left{ static_cast<int32_t>(0x1) };
-constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Top{ static_cast<int32_t>(0x2) };
-constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Bottom{ static_cast<int32_t>(0x3) };
-constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Front{ static_cast<int32_t>(0x4) };
-constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Back{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Bottom{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Front{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Back{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Right{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Left{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::Top{ static_cast<int32_t>(0x5) };
 constexpr ::GlobalNamespace::OVROverlayMeshGenerator_CubeFace GlobalNamespace::OVROverlayMeshGenerator_CubeFace::COUNT{ static_cast<int32_t>(0x6) };
-//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.Awake
+//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.OnEnable
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::Awake)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3fd491c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::OnEnable)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5c85144;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "Awake",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnEnable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.OnDestroy
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::OnDestroy)> {
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x5c852b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnDestroy",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.Initialize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::Initialize)> {
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5c85148;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "Initialize",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -51,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)(::GlobalNamespace::OVROverlay*)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::SetOverlay)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fd4a90;
+  constexpr static std::size_t addrs = 0x5c85b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,58 +88,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.GetBoundingRect
+//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.TryUpdateMesh
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rect (::GlobalNamespace::OVROverlayMeshGenerator::*)(::UnityEngine::Rect, ::UnityEngine::Rect)>(
-    &::GlobalNamespace::OVROverlayMeshGenerator::GetBoundingRect)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3fd4a98;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::TryUpdateMesh)> {
+  constexpr static std::size_t size = 0x744;
+  constexpr static std::size_t addrs = 0x5c85454;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetBoundingRect", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.OnEnable
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::OnEnable)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fd4ad4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnEnable",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.OnDisable
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::OnDisable)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fd4ad8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnDisable",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.Update
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::Update)> {
-  constexpr static std::size_t size = 0x5fc;
-  constexpr static std::size_t addrs = 0x3fd4adc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "Update",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(),
+                                                                               "TryUpdateMesh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -119,18 +105,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)(
-    ::GlobalNamespace::OVROverlay_OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect)>(
+    ::GlobalNamespace::OVROverlay_OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect, bool)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x3fd50d8;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x5c85ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "UpdateMesh", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -138,22 +125,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int32_t>*,
-    ::GlobalNamespace::OVROverlay_OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect)>(
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*,
+    ::System::Collections::Generic::List_1<int32_t>*, ::GlobalNamespace::OVROverlay_OverlayShape, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh)> {
-  constexpr static std::size_t size = 0x354;
-  constexpr static std::size_t addrs = 0x3fd53b8;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5c85da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GenerateMesh", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 8>{
+        ::std::array<Il2CppType const*, 9>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.InverseTransformVert
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(
+    ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, ::ByRef<::UnityEngine::Vector3>, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5c879c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "InverseTransformVert", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -162,7 +168,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3fd6f68;
+  constexpr static std::size_t addrs = 0x5c879fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,8 +182,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(float_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fd6fa0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c87a34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,8 +198,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int32_t>*,
     ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::UnityEngine::Rect, float_t, int32_t, int32_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::BuildSphere)> {
-  constexpr static std::size_t size = 0x6f0;
-  constexpr static std::size_t addrs = 0x3fd570c;
+  constexpr static std::size_t size = 0x6d0;
+  constexpr static std::size_t addrs = 0x5c85ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,34 +218,33 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.GetCubeUV
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, ::UnityEngine::Vector2, float_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, float_t, float_t, float_t, float_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3fd6ffc;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5c87a88;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeUV", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeUV", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::OVROverlayMeshGenerator.GetCubeVert
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, ::UnityEngine::Vector2, float_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace, float_t, float_t)>(
     &::GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3fd7164;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5c87b6c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeVert", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeVert", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -247,21 +252,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<int32_t>*,
-    ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, float_t, int32_t, float_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::BuildCube)> {
-  constexpr static std::size_t size = 0x53c;
-  constexpr static std::size_t addrs = 0x3fd5dfc;
+    ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*,
+    ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, float_t, int32_t, float_t)>(
+    &::GlobalNamespace::OVROverlayMeshGenerator::BuildCube)> {
+  constexpr static std::size_t size = 0x83c;
+  constexpr static std::size_t addrs = 0x5c86574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "BuildCube", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+        ::std::array<Il2CppType const*, 10>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -271,8 +278,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*,
                          ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Rect)>(&::GlobalNamespace::OVROverlayMeshGenerator::BuildQuad)> {
-  constexpr static std::size_t size = 0x638;
-  constexpr static std::size_t addrs = 0x3fd6338;
+  constexpr static std::size_t size = 0x644;
+  constexpr static std::size_t addrs = 0x5c86db0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -290,8 +297,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Collections::Generic::List_1<::UnityEngine::Vector3>*, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*,
                          ::System::Collections::Generic::List_1<int32_t>*, ::UnityEngine::Vector3, ::UnityEngine::Rect, int32_t)>(&::GlobalNamespace::OVROverlayMeshGenerator::BuildHemicylinder)> {
-  constexpr static std::size_t size = 0x5f8;
-  constexpr static std::size_t addrs = 0x3fd6970;
+  constexpr static std::size_t size = 0x5cc;
+  constexpr static std::size_t addrs = 0x5c873f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,8 +316,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVROverlayMeshGenerator::*)()>(&::GlobalNamespace::OVROverlayMeshGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3fd7270;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x5c87c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), ".ctor",
@@ -318,29 +325,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Mesh() {
+constexpr ::System::Collections::Generic::List_1<int32_t>*& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Tris() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Mesh;
+  return this->____Tris;
 }
-constexpr ::UnityW<::UnityEngine::Mesh> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Mesh() const {
+constexpr ::System::Collections::Generic::List_1<int32_t>* const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Tris() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Mesh;
+  return this->____Tris;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Mesh(::UnityW<::UnityEngine::Mesh> value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Tris(::System::Collections::Generic::List_1<int32_t>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Verts() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Verts;
-}
-constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Verts() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Verts;
-}
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Verts(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Verts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Tris)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__UV() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -354,65 +349,29 @@ constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__U
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____UV)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::List_1<int32_t>*& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Tris() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>*& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__CubeUV() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Tris;
+  return this->____CubeUV;
 }
-constexpr ::System::Collections::Generic::List_1<int32_t>* const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Tris() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__CubeUV() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Tris;
+  return this->____CubeUV;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Tris(::System::Collections::Generic::List_1<int32_t>* value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__CubeUV(::System::Collections::Generic::List_1<::UnityEngine::Vector4>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Tris)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CubeUV)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::OVROverlay>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Overlay() {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>*& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Verts() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Overlay;
+  return this->____Verts;
 }
-constexpr ::UnityW<::GlobalNamespace::OVROverlay> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Overlay() const {
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Vector3>* const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Verts() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Overlay;
+  return this->____Verts;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Overlay(::UnityW<::GlobalNamespace::OVROverlay> value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Verts(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Overlay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshFilter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MeshFilter;
-}
-constexpr ::UnityW<::UnityEngine::MeshFilter> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshFilter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MeshFilter;
-}
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__MeshFilter(::UnityW<::UnityEngine::MeshFilter> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MeshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::UnityEngine::MeshCollider>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshCollider() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MeshCollider;
-}
-constexpr ::UnityW<::UnityEngine::MeshCollider> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshCollider() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MeshCollider;
-}
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__MeshCollider(::UnityW<::UnityEngine::MeshCollider> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MeshCollider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MeshRenderer;
-}
-constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____MeshRenderer;
-}
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__MeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Verts)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__CameraRoot() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -426,29 +385,17 @@ constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__C
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____CameraRoot)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Transform() {
+constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastDestRectLeft() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Transform;
+  return this->____LastDestRectLeft;
 }
-constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Transform() const {
+constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastDestRectLeft() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Transform;
+  return this->____LastDestRectLeft;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Transform(::UnityW<::UnityEngine::Transform> value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastDestRectLeft(::UnityEngine::Rect value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::OVROverlay_OverlayShape& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastShape() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastShape;
-}
-constexpr ::GlobalNamespace::OVROverlay_OverlayShape const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastShape() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastShape;
-}
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastShape(::GlobalNamespace::OVROverlay_OverlayShape value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____LastShape = value;
+  this->____LastDestRectLeft = value;
 }
 constexpr ::UnityEngine::Vector3& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastPosition() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -486,29 +433,29 @@ constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LastScale = value;
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastDestRectLeft() {
+constexpr ::UnityEngine::Rendering::TextureDimension& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastTextureDimension() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastDestRectLeft;
+  return this->____LastTextureDimension;
 }
-constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastDestRectLeft() const {
+constexpr ::UnityEngine::Rendering::TextureDimension const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastTextureDimension() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastDestRectLeft;
+  return this->____LastTextureDimension;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastDestRectLeft(::UnityEngine::Rect value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastTextureDimension(::UnityEngine::Rendering::TextureDimension value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____LastDestRectLeft = value;
+  this->____LastTextureDimension = value;
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastDestRectRight() {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastShape() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastDestRectRight;
+  return this->____LastShape;
 }
-constexpr ::UnityEngine::Rect const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastDestRectRight() const {
+constexpr ::GlobalNamespace::OVROverlay_OverlayShape const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastShape() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastDestRectRight;
+  return this->____LastShape;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastDestRectRight(::UnityEngine::Rect value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastShape(::GlobalNamespace::OVROverlay_OverlayShape value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____LastDestRectRight = value;
+  this->____LastShape = value;
 }
 constexpr ::UnityEngine::Rect& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastSrcRectLeft() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -522,59 +469,102 @@ constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__L
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____LastSrcRectLeft = value;
 }
-constexpr ::UnityW<::UnityEngine::Texture>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastTexture() {
+constexpr ::UnityW<::UnityEngine::Mesh>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Mesh() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastTexture;
+  return this->____Mesh;
 }
-constexpr ::UnityW<::UnityEngine::Texture> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__LastTexture() const {
+constexpr ::UnityW<::UnityEngine::Mesh> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Mesh() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____LastTexture;
+  return this->____Mesh;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__LastTexture(::UnityW<::UnityEngine::Texture> value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Mesh(::UnityW<::UnityEngine::Mesh> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____LastTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr bool& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Awake() {
+constexpr ::UnityW<::UnityEngine::MeshCollider>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshCollider() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Awake;
+  return this->____MeshCollider;
 }
-constexpr bool const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Awake() const {
+constexpr ::UnityW<::UnityEngine::MeshCollider> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshCollider() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____Awake;
+  return this->____MeshCollider;
 }
-constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Awake(bool value) {
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__MeshCollider(::UnityW<::UnityEngine::MeshCollider> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____Awake = value;
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MeshCollider)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVROverlayMeshGenerator::setStaticF_BottomLeft(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "BottomLeft",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get>(
-      std::forward<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>(value));
+constexpr ::UnityW<::UnityEngine::MeshFilter>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshFilter() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____MeshFilter;
 }
-inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GlobalNamespace::OVROverlayMeshGenerator::getStaticF_BottomLeft() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "BottomLeft",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get>();
+constexpr ::UnityW<::UnityEngine::MeshFilter> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshFilter() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____MeshFilter;
 }
-inline void GlobalNamespace::OVROverlayMeshGenerator::setStaticF_RightVector(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "RightVector",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get>(
-      std::forward<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>(value));
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__MeshFilter(::UnityW<::UnityEngine::MeshFilter> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MeshFilter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GlobalNamespace::OVROverlayMeshGenerator::getStaticF_RightVector() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "RightVector",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get>();
+constexpr ::UnityW<::UnityEngine::MeshRenderer>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshRenderer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____MeshRenderer;
 }
-inline void GlobalNamespace::OVROverlayMeshGenerator::setStaticF_UpVector(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value) {
-  ::cordl_internals::setStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "UpVector",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get>(
-      std::forward<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>>(value));
+constexpr ::UnityW<::UnityEngine::MeshRenderer> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__MeshRenderer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____MeshRenderer;
 }
-inline ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> GlobalNamespace::OVROverlayMeshGenerator::getStaticF_UpVector() {
-  return ::cordl_internals::getStaticField<::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>, "UpVector",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get>();
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__MeshRenderer(::UnityW<::UnityEngine::MeshRenderer> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____MeshRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::OVROverlayMeshGenerator::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "Awake",
+constexpr ::UnityW<::GlobalNamespace::OVROverlay>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Overlay() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Overlay;
+}
+constexpr ::UnityW<::GlobalNamespace::OVROverlay> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Overlay() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Overlay;
+}
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Overlay(::UnityW<::GlobalNamespace::OVROverlay> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Overlay)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Transform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Transform;
+}
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__Transform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Transform;
+}
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__Transform(::UnityW<::UnityEngine::Transform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Transform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::UnityEngine::Material>& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__PreviewMaterial() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____PreviewMaterial;
+}
+constexpr ::UnityW<::UnityEngine::Material> const& GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_get__PreviewMaterial() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____PreviewMaterial;
+}
+constexpr void GlobalNamespace::OVROverlayMeshGenerator::__cordl_internal_set__PreviewMaterial(::UnityW<::UnityEngine::Material> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____PreviewMaterial)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void GlobalNamespace::OVROverlayMeshGenerator::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnEnable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVROverlayMeshGenerator::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnDestroy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVROverlayMeshGenerator::Initialize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "Initialize",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
@@ -584,59 +574,54 @@ inline void GlobalNamespace::OVROverlayMeshGenerator::SetOverlay(::GlobalNamespa
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, overlay);
 }
-inline ::UnityEngine::Rect GlobalNamespace::OVROverlayMeshGenerator::GetBoundingRect(::UnityEngine::Rect a, ::UnityEngine::Rect b) {
+inline void GlobalNamespace::OVROverlayMeshGenerator::TryUpdateMesh() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(),
-                                                                             "GetBoundingRect", std::span<Il2CppClass const* const, 0>(),
-                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
-                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Rect, false>(this, ___internal_method, a, b);
-}
-inline void GlobalNamespace::OVROverlayMeshGenerator::OnEnable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnEnable",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::OVROverlayMeshGenerator::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "OnDisable",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::OVROverlayMeshGenerator::Update() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "Update",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "TryUpdateMesh", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVROverlayMeshGenerator::UpdateMesh(::GlobalNamespace::OVROverlay_OverlayShape shape, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
-                                                                 ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect) {
+                                                                 ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect, bool cubemap) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "UpdateMesh", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shape, position, rotation, scale, rect);
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, shape, position, rotation, scale, rect, cubemap);
 }
 inline void GlobalNamespace::OVROverlayMeshGenerator::GenerateMesh(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts,
-                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs, ::System::Collections::Generic::List_1<int32_t>* tris,
+                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uvs,
+                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* cubeUVs, ::System::Collections::Generic::List_1<int32_t>* tris,
                                                                    ::GlobalNamespace::OVROverlay_OverlayShape shape, ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation,
                                                                    ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GenerateMesh", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 8>{
+      ::std::array<Il2CppType const*, 9>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlay_OverlayShape>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uvs, tris, shape, position, rotation, scale, rect);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uvs, cubeUVs, tris, shape, position, rotation, scale, rect);
 }
-inline ::UnityEngine::Vector2 GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV(float_t theta, float_t phi, float_t expand_coef) {
+inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::InverseTransformVert(::ByRef<::UnityEngine::Vector3> vert, ::ByRef<::UnityEngine::Vector3> position,
+                                                                                             ::ByRef<::UnityEngine::Vector3> scale, float_t worldScale) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "InverseTransformVert", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, vert, position, scale, worldScale);
+}
+inline ::UnityEngine::Vector2 GlobalNamespace::OVROverlayMeshGenerator::GetSphereUV(float_t theta, float_t phi, float_t expandScale) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetSphereUV", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, theta, phi, expand_coef);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, theta, phi, expandScale);
 }
 inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::GetSphereVert(float_t theta, float_t phi) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -647,7 +632,7 @@ inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::GetSpher
 inline void GlobalNamespace::OVROverlayMeshGenerator::BuildSphere(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts,
                                                                   ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int32_t>* triangles,
                                                                   ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, ::UnityEngine::Rect rect,
-                                                                  float_t worldScale, int32_t latitudes, int32_t longitudes, float_t expand_coef) {
+                                                                  float_t worldScale, int32_t latitudes, int32_t longitudes, float_t expandCoefficient) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "BuildSphere", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 11>{
@@ -658,38 +643,40 @@ inline void GlobalNamespace::OVROverlayMeshGenerator::BuildSphere(::System::Coll
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uv, triangles, position, rotation, scale, rect, worldScale, latitudes, longitudes, expand_coef);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uv, triangles, position, rotation, scale, rect, worldScale, latitudes, longitudes, expandCoefficient);
 }
-inline ::UnityEngine::Vector2 GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace face, ::UnityEngine::Vector2 sideUV, float_t expand_coef) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeUV", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, face, sideUV, expand_coef);
+inline ::UnityEngine::Vector2 GlobalNamespace::OVROverlayMeshGenerator::GetCubeUV(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace face, float_t sideU, float_t sideV, float_t expandScale,
+                                                                                  float_t expandOffset) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeUV", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, face, sideU, sideV, expandScale, expandOffset);
 }
-inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace face, ::UnityEngine::Vector2 sideUV, float_t expand_coef) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeVert", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, face, sideUV, expand_coef);
+inline ::UnityEngine::Vector3 GlobalNamespace::OVROverlayMeshGenerator::GetCubeVert(::GlobalNamespace::OVROverlayMeshGenerator_CubeFace face, float_t sideU, float_t sideV) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "GetCubeVert", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVROverlayMeshGenerator_CubeFace>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, face, sideU, sideV);
 }
 inline void GlobalNamespace::OVROverlayMeshGenerator::BuildCube(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts,
-                                                                ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int32_t>* triangles,
+                                                                ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv,
+                                                                ::System::Collections::Generic::List_1<::UnityEngine::Vector4>* cubeUV, ::System::Collections::Generic::List_1<int32_t>* triangles,
                                                                 ::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, ::UnityEngine::Vector3 scale, float_t worldScale, int32_t subQuads,
-                                                                float_t expand_coef) {
+                                                                float_t expandCoefficient) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVROverlayMeshGenerator*>::get(), "BuildCube", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uv, triangles, position, rotation, scale, worldScale, subQuads, expand_coef);
+      ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector3>*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector2>*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::Vector4>*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, verts, uv, cubeUV, triangles, position, rotation, scale, worldScale, subQuads, expandCoefficient);
 }
 inline void GlobalNamespace::OVROverlayMeshGenerator::BuildQuad(::System::Collections::Generic::List_1<::UnityEngine::Vector3>* verts,
                                                                 ::System::Collections::Generic::List_1<::UnityEngine::Vector2>* uv, ::System::Collections::Generic::List_1<int32_t>* triangles,

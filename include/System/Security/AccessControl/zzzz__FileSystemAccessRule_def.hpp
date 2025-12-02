@@ -41,12 +41,12 @@ public:
                                                                                   ::System::Security::AccessControl::PropagationFlags propagationFlags,
                                                                                   ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method .ctor, addr 0x3cc5600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5908d80, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, ::System::Security::AccessControl::FileSystemRights fileSystemRights, bool isInherited,
                     ::System::Security::AccessControl::InheritanceFlags inheritanceFlags, ::System::Security::AccessControl::PropagationFlags propagationFlags,
                     ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_FileSystemRights, addr 0x3cc5608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FileSystemRights, addr 0x5908d84, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::FileSystemRights get_FileSystemRights();
 
 protected:
@@ -64,7 +64,7 @@ public:
   FileSystemAccessRule(FileSystemAccessRule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3048 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -24,8 +24,7 @@ template <typename TValue> inline TValue UnityEngine::InputSystem::InputBindingC
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, context);
 }
 template <typename TValue>
-inline void UnityEngine::InputSystem::InputBindingComposite_1<TValue>::ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer,
-                                                                                 int32_t bufferSize) {
+inline void UnityEngine::InputSystem::InputBindingComposite_1<TValue>::ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputBindingComposite_1<TValue>*>::get(), 6)));

@@ -66,7 +66,7 @@ public:
   /// @brief Field valueHint, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_valueHint, put = __cordl_internal_set_valueHint)) ::Org::BouncyCastle::Asn1::Asn1OctetString* valueHint;
 
-  /// @brief Method GetInstance, addr 0x2313f7c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3240e5c, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg,
@@ -76,7 +76,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Crmf::EncryptedValue* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x2314398, size 0x114, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3241264, size 0x118, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerBitString* const& __cordl_internal_get_encSymmKey() const;
@@ -115,30 +115,30 @@ public:
 
   constexpr void __cordl_internal_set_valueHint(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
 
-  /// @brief Method .ctor, addr 0x23142c8, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32411d4, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* intendedAlg, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* symmAlg,
                     ::Org::BouncyCastle::Asn1::DerBitString* encSymmKey, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyAlg, ::Org::BouncyCastle::Asn1::Asn1OctetString* valueHint,
                     ::Org::BouncyCastle::Asn1::DerBitString* encValue);
 
-  /// @brief Method .ctor, addr 0x23140d0, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3240fac, size 0x228, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_EncSymmKey, addr 0x2314378, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncSymmKey, addr 0x3241244, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_EncSymmKey();
 
-  /// @brief Method get_EncValue, addr 0x2314390, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EncValue, addr 0x324125c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerBitString* get_EncValue();
 
-  /// @brief Method get_IntendedAlg, addr 0x2314368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IntendedAlg, addr 0x3241234, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_IntendedAlg();
 
-  /// @brief Method get_KeyAlg, addr 0x2314380, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_KeyAlg, addr 0x324124c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyAlg();
 
-  /// @brief Method get_SymmAlg, addr 0x2314370, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SymmAlg, addr 0x324123c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SymmAlg();
 
-  /// @brief Method get_ValueHint, addr 0x2314388, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValueHint, addr 0x3241254, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_ValueHint();
 
 protected:

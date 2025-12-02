@@ -41,12 +41,12 @@ public:
 
   __declspec(property(put = set_nameText)) ::StringW nameText;
 
-  /// @brief Method Awake, addr 0x3c09dc4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5801338, size 0xcc, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::GuestNameButtonsListItem* New_ctor();
 
-  /// @brief Method <Awake>b__7_0, addr 0x3c09e5c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__7_0, addr 0x5801408, size 0x1c, virtual false, abstract: false, final false
   inline void _Awake_b__7_0();
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get__button() const;
@@ -67,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set__nameText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3c09e54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5801404, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_buttonPressed, addr 0x3c09dbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_buttonPressed, addr 0x5801330, size 0x8, virtual false, abstract: false, final false
   inline void set_buttonPressed(::System::Action* value);
 
-  /// @brief Method set_nameText, addr 0x3c09d98, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_nameText, addr 0x5801310, size 0x20, virtual false, abstract: false, final false
   inline void set_nameText(::StringW value);
 
 protected:
@@ -91,7 +91,7 @@ public:
   GuestNameButtonsListItem(GuestNameButtonsListItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4809 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6394 };
 
   /// @brief Field _nameText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____nameText;

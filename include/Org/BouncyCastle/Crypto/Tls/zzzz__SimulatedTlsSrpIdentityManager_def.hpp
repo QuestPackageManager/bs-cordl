@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpIdentityManager_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SimulatedTlsSrpIdentityManager)
@@ -12,6 +11,9 @@ class Srp6VerifierGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSrpIdentityManager;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSrpLoginParameters;
@@ -25,7 +27,7 @@ class SimulatedTlsSrpIdentityManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsSrpIdentityManager, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.SimulatedTlsSrpIdentityManager
@@ -51,10 +53,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpIdentityManager*() noexcept;
 
-  /// @brief Method GetLoginParameters, addr 0x241c454, size 0x4b8, virtual true, abstract: false, final false
+  /// @brief Method GetLoginParameters, addr 0x334a78c, size 0x4b4, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSrpLoginParameters* GetLoginParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> identity);
 
-  /// @brief Method GetRfc5054Default, addr 0x241c2a4, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method GetRfc5054Default, addr 0x334a614, size 0x16c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Crypto::Tls::SimulatedTlsSrpIdentityManager* GetRfc5054Default(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group,
                                                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> seedKey);
 
@@ -80,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_mVerifierGenerator(::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* value);
 
-  /// @brief Method .ctor, addr 0x241c418, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334a780, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group, ::Org::BouncyCastle::Crypto::Agreement::Srp::Srp6VerifierGenerator* verifierGenerator,
                     ::Org::BouncyCastle::Crypto::IMac* mac);
 

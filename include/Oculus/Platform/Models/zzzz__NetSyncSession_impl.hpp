@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::NetSyncSession::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::NetSyncSession::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3f924dc;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x5bdbf6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

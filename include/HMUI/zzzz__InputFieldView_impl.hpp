@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "HMUI/InputFieldView.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
@@ -12,8 +9,10 @@
 #include "HMUI/zzzz__ImageViewBase_def.hpp"
 #include "HMUI/zzzz__InputFieldView_def.hpp"
 #include "HMUI/zzzz__UIKeyboard_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
@@ -37,8 +36,8 @@ constexpr ::HMUI::InputFieldView_SelectionState HMUI::InputFieldView_SelectionSt
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView_InputFieldChanged::*)()>(&::HMUI::InputFieldView_InputFieldChanged::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39f9294;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5671d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView_InputFieldChanged*>::get(), ".ctor",
@@ -56,201 +55,201 @@ inline ::HMUI::InputFieldView_InputFieldChanged* HMUI::InputFieldView_InputField
 }
 // Ctor Parameters []
 constexpr ::HMUI::InputFieldView_InputFieldChanged::InputFieldView_InputFieldChanged() {}
-//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43._ctor
+//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::*)(int32_t)>(
-    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39f9138;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)(int32_t)>(
+    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5671c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43.System_IDisposable_Dispose
+//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::*)()>(
-    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
+    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39f9364;
+  constexpr static std::size_t addrs = 0x5671e50;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43.MoveNext
+//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::*)()>(
-    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::MoveNext)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
+    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::MoveNext)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39f9368;
+  constexpr static std::size_t addrs = 0x5671e54;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::*)()>(
-    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
+    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f93f4;
+  constexpr static std::size_t addrs = 0x5671ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::*)()>(
-    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
+    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39f93fc;
+  constexpr static std::size_t addrs = 0x5671ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::*)()>(
-    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::*)()>(
+    &::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f9434;
+  constexpr static std::size_t addrs = 0x5671f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_get___1__state() {
+constexpr int32_t& HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_get___1__state() const {
+constexpr int32_t const& HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_set___1__state(int32_t value) {
+constexpr void HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::HMUI::InputFieldView>& HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::HMUI::InputFieldView>& HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::HMUI::InputFieldView> const& HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::HMUI::InputFieldView> const& HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::__cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView> value) {
+constexpr void HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::__cordl_internal_set___4__this(::UnityW<::HMUI::InputFieldView> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::_ctor(int32_t __1__state) {
+inline void HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+inline void HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+inline bool HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_Collections_IEnumerator_Reset() {
+inline void HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43* HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43*>(__1__state));
+inline ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46* HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::operator ::System::IDisposable*() noexcept {
+constexpr HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__43::InputFieldView__BlinkingCaretCoroutine_d__43() {}
+constexpr ::HMUI::InputFieldView__BlinkingCaretCoroutine_d__46::InputFieldView__BlinkingCaretCoroutine_d__46() {}
 //  Writing Method size for method: ::HMUI::InputFieldView.get_onValueChanged
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::InputFieldView_InputFieldChanged* (::HMUI::InputFieldView::*)()>(
     &::HMUI::InputFieldView::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f8660;
+  constexpr static std::size_t addrs = 0x567100c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_onValueChanged",
@@ -264,7 +263,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::HMUI::InputFieldView_InputFieldChanged*)>(
     &::HMUI::InputFieldView::set_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f8668;
+  constexpr static std::size_t addrs = 0x5671014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -278,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::System::Action_1<::HMUI::InputFieldView_SelectionState>*)>(
     &::HMUI::InputFieldView::add_selectionStateDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39f8670;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x567101c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -293,8 +292,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::System::Action_1<::HMUI::InputFieldView_SelectionState>*)>(
     &::HMUI::InputFieldView::remove_selectionStateDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x39f8724;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56710dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -308,7 +307,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::HMUI::InputFieldView_SelectionState (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_selectionState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f87d8;
+  constexpr static std::size_t addrs = 0x567119c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_selectionState",
@@ -321,11 +320,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_useGlobalKeyboard)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f87e0;
+  constexpr static std::size_t addrs = 0x56711a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_useGlobalKeyboard",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::InputFieldView.get_useSystemKeyboardIfAvailable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_useSystemKeyboardIfAvailable)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56711ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_useSystemKeyboardIfAvailable",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -334,7 +347,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_keyboardPositionOffset)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39f87e8;
+  constexpr static std::size_t addrs = 0x56711b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_keyboardPositionOffset",
@@ -347,7 +360,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f87f8;
+  constexpr static std::size_t addrs = 0x56711c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_text",
@@ -359,8 +372,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::StringW)>(&::HMUI::InputFieldView::set_text)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39f8800;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x56711cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,8 +386,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::Awake)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x39f8974;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5671354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -388,7 +401,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f8a5c;
+  constexpr static std::size_t addrs = 0x5671470;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -403,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(
     &::HMUI::InputFieldView::DoStateTransition)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39f8a70;
+  constexpr static std::size_t addrs = 0x5671484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -416,8 +429,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::HMUI::UIKeyboard*)>(&::HMUI::InputFieldView::ActivateKeyboard)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x39f8ad0;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x56714e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -430,8 +443,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::HMUI::UIKeyboard*)>(&::HMUI::InputFieldView::DeactivateKeyboard)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x39f8ce8;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x567177c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -445,7 +458,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(::StringW)>(&::HMUI::InputFieldView::SetText)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39f8eb4;
+  constexpr static std::size_t addrs = 0x56719cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -458,8 +471,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::ClearInput)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x39f8ecc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x56719e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "ClearInput",
@@ -471,8 +484,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)(char16_t)>(&::HMUI::InputFieldView::KeyboardKeyPressed)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x39f8f1c;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5671a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,8 +498,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::KeyboardDeletePressed)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39f905c;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5671b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "KeyboardDeletePressed",
@@ -498,8 +511,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::BlinkingCaretCoroutine)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39f8c88;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5671728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "BlinkingCaretCoroutine",
@@ -511,8 +524,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::UpdateCaretPosition)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39f8858;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5671220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "UpdateCaretPosition",
@@ -524,8 +537,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::UpdatePlaceholder)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39f8944;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x567131c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "UpdatePlaceholder",
@@ -537,8 +550,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::UpdateClearButton)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39f8e80;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5671994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "UpdateClearButton",
@@ -550,8 +563,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::_ctor)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x39f9160;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x5671c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), ".ctor",
@@ -559,15 +572,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::HMUI::InputFieldView._Awake_b__34_0
+//  Writing Method size for method: ::HMUI::InputFieldView._Awake_b__37_0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::_Awake_b__34_0)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x39f92dc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::InputFieldView::*)()>(&::HMUI::InputFieldView::_Awake_b__37_0)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5671dc0;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "<Awake>b__34_0",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "<Awake>b__37_0",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -643,6 +656,18 @@ constexpr bool const& HMUI::InputFieldView::__cordl_internal_get__useGlobalKeybo
 constexpr void HMUI::InputFieldView::__cordl_internal_set__useGlobalKeyboard(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____useGlobalKeyboard = value;
+}
+constexpr bool& HMUI::InputFieldView::__cordl_internal_get__useSystemKeyboardIfAvailable() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useSystemKeyboardIfAvailable;
+}
+constexpr bool const& HMUI::InputFieldView::__cordl_internal_get__useSystemKeyboardIfAvailable() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useSystemKeyboardIfAvailable;
+}
+constexpr void HMUI::InputFieldView::__cordl_internal_set__useSystemKeyboardIfAvailable(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useSystemKeyboardIfAvailable = value;
 }
 constexpr ::UnityEngine::Vector3& HMUI::InputFieldView::__cordl_internal_get__keyboardPositionOffset() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -809,6 +834,11 @@ inline bool HMUI::InputFieldView::get_useGlobalKeyboard() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline bool HMUI::InputFieldView::get_useSystemKeyboardIfAvailable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_useSystemKeyboardIfAvailable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 inline ::UnityEngine::Vector3 HMUI::InputFieldView::get_keyboardPositionOffset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "get_keyboardPositionOffset",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -899,8 +929,8 @@ inline void HMUI::InputFieldView::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void HMUI::InputFieldView::_Awake_b__34_0() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "<Awake>b__34_0",
+inline void HMUI::InputFieldView::_Awake_b__37_0() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::InputFieldView*>::get(), "<Awake>b__37_0",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }

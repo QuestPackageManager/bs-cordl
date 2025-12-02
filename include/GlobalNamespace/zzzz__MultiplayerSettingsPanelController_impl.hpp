@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerSettingsPanelController.hpp"
-#include "GlobalNamespace/zzzz__IRefreshable_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSettingsPanelController_def.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
+#include "GlobalNamespace/zzzz__IRefreshable_def.hpp"
 #include "GlobalNamespace/zzzz__ServerCodeView_def.hpp"
 #include "HMUI/zzzz__ToggleBinder_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::add_playerActiveStateChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c19a5c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5810ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::remove_playerActiveStateChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c19b0c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5810f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::GlobalNamespace::ILobbyPlayerData*)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyPlayerDataModel)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c19bbc;
+  constexpr static std::size_t addrs = 0x5811040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::HideConnectionSettings)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c19cd4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x581115c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::HideSpectateSettings)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c19cf8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x581117c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(::StringW)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::SetLobbyCode)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c19d1c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x581119c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::Awake)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c19d38;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x58111bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSettingsPanelController*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::OnDestroy)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3c19df8;
+  constexpr static std::size_t addrs = 0x5811284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSettingsPanelController*>::get(),
@@ -133,7 +133,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::UpdateLocalPlayerIsActiveState)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c19e0c;
+  constexpr static std::size_t addrs = 0x5811298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::Refresh)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3c19bc8;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x581104c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSettingsPanelController*>::get(),
@@ -161,8 +161,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)()>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c19e30;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58112bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSettingsPanelController*>::get(),
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerSettingsPanelController::*)(bool)>(
     &::GlobalNamespace::MultiplayerSettingsPanelController::_Awake_b__14_0)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c19e38;
+  constexpr static std::size_t addrs = 0x58112c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

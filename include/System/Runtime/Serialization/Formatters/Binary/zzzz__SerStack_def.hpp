@@ -32,24 +32,24 @@ public:
   /// @brief Field top, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
 
-  /// @brief Method IncreaseCapacity, addr 0x3d13068, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method IncreaseCapacity, addr 0x59542d4, size 0x8c, virtual false, abstract: false, final false
   inline void IncreaseCapacity();
 
-  /// @brief Method IsEmpty, addr 0x3d07890, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsEmpty, addr 0x5948a54, size 0x10, virtual false, abstract: false, final false
   inline bool IsEmpty();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW stackId);
 
-  /// @brief Method Peek, addr 0x3d0b16c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Peek, addr 0x594c400, size 0x40, virtual false, abstract: false, final false
   inline ::System::Object* Peek();
 
-  /// @brief Method PeekPeek, addr 0x3d120b4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method PeekPeek, addr 0x5953394, size 0x44, virtual false, abstract: false, final false
   inline ::System::Object* PeekPeek();
 
-  /// @brief Method Pop, addr 0x3d078a0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x5948a64, size 0x50, virtual false, abstract: false, final false
   inline ::System::Object* Pop();
 
-  /// @brief Method Push, addr 0x3d078f0, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x5948ab4, size 0xac, virtual false, abstract: false, final false
   inline void Push(::System::Object* obj);
 
   constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
@@ -70,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d08e1c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594a00c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW stackId);
 
 protected:
@@ -88,7 +88,7 @@ public:
   SerStack(SerStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3305 };
 
   /// @brief Field objects, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___objects;

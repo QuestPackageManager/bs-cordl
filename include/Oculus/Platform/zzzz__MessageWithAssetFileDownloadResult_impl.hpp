@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::MessageWithAssetFileDownloadResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::MessageWithAssetFileDownloadResult::_ctor)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f7bc2c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5bc22e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (::Oculus::Platform::MessageWithAssetFileDownloadResult::*)()>(
     &::Oculus::Platform::MessageWithAssetFileDownloadResult::GetAssetFileDownloadResult)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3f7e05c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5bc5398;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,14 +40,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Models::AssetFileDownloadResult* (
     ::Oculus::Platform::MessageWithAssetFileDownloadResult::*)(::System::IntPtr)>(&::Oculus::Platform::MessageWithAssetFileDownloadResult::GetDataFromMessage)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3f7e098;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5bc53dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAssetFileDownloadResult*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAssetFileDownloadResult*>::get(), 72));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAssetFileDownloadResult*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -66,7 +66,7 @@ inline ::Oculus::Platform::Models::AssetFileDownloadResult* Oculus::Platform::Me
 inline ::Oculus::Platform::Models::AssetFileDownloadResult* Oculus::Platform::MessageWithAssetFileDownloadResult::GetDataFromMessage(::System::IntPtr c_message) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAssetFileDownloadResult*>::get(), 72)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::MessageWithAssetFileDownloadResult*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<::Oculus::Platform::Models::AssetFileDownloadResult*, false>(this, ___internal_method, c_message);
 }
 inline ::Oculus::Platform::MessageWithAssetFileDownloadResult* Oculus::Platform::MessageWithAssetFileDownloadResult::New_ctor(::System::IntPtr c_message) {

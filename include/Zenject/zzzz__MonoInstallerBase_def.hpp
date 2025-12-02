@@ -4,13 +4,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
-#include "Zenject/zzzz__IInstaller_def.hpp"
 CORDL_MODULE_EXPORT(MonoInstallerBase)
 namespace System {
 class Object;
 }
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IInstaller;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -21,7 +23,7 @@ class MonoInstallerBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::MonoInstallerBase);
-// Dependencies UnityEngine.MonoBehaviour, Zenject.IInstaller
+// Dependencies UnityEngine.MonoBehaviour
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.MonoInstallerBase
@@ -38,12 +40,12 @@ public:
   /// @brief Convert operator to "::Zenject::IInstaller"
   constexpr operator ::Zenject::IInstaller*() noexcept;
 
-  /// @brief Method InstallBindings, addr 0x4b2c534, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x6c408e0, size 0x38, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::Zenject::MonoInstallerBase* New_ctor();
 
-  /// @brief Method Start, addr 0x4b2c530, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Start, addr 0x6c408dc, size 0x4, virtual true, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__Container_k__BackingField() const;
@@ -52,25 +54,25 @@ public:
 
   constexpr void __cordl_internal_set__Container_k__BackingField(::Zenject::DiContainer* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2c63c, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c409f8, size 0x278, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenPropertySetter0, addr 0x4b2c56c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method __zenPropertySetter0, addr 0x6c40918, size 0xe0, virtual false, abstract: false, final false
   static inline void __zenPropertySetter0(::System::Object* P_0, ::System::Object* P_1);
 
-  /// @brief Method .ctor, addr 0x4b2c3a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c40778, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Container, addr 0x4b2c518, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x6c408c4, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
-  /// @brief Method get_IsEnabled, addr 0x4b2c528, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsEnabled, addr 0x6c408d4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsEnabled();
 
   /// @brief Convert to "::Zenject::IInstaller"
   constexpr ::Zenject::IInstaller* i___Zenject__IInstaller() noexcept;
 
-  /// @brief Method set_Container, addr 0x4b2c520, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Container, addr 0x6c408cc, size 0x8, virtual false, abstract: false, final false
   inline void set_Container(::Zenject::DiContainer* value);
 
 protected:
@@ -88,7 +90,7 @@ public:
   MonoInstallerBase(MonoInstallerBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14469 };
 
   /// @brief Field <Container>k__BackingField, offset: 0x20, size: 0x8, def value: None
   ::Zenject::DiContainer* ____Container_k__BackingField;

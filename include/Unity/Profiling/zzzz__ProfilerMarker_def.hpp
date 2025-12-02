@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ProfilerMarker)
+namespace System {
+class IDisposable;
+}
 namespace System {
 struct IntPtr;
 }
@@ -27,7 +29,7 @@ struct ProfilerMarker_AutoScope;
 // Write type traits
 MARK_VAL_T(::Unity::Profiling::ProfilerMarker);
 MARK_VAL_T(::Unity::Profiling::ProfilerMarker_AutoScope);
-// Dependencies System.IDisposable, System.IntPtr
+// Dependencies System.IntPtr
 namespace Unity::Profiling {
 // Is value type: true
 // CS Name: Unity.Profiling.ProfilerMarker/AutoScope
@@ -37,10 +39,10 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x4860758, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6828e8c, size 0x4c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x48606bc, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828e08, size 0x48, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr markerPtr);
 
   /// @brief Convert to "::System::IDisposable"
@@ -54,7 +56,7 @@ public:
   constexpr ProfilerMarker_AutoScope(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9918 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -79,14 +81,19 @@ public:
   // Declarations
   using AutoScope = ::Unity::Profiling::ProfilerMarker_AutoScope;
 
-  /// @brief Method Auto, addr 0x4860664, size 0x58, virtual false, abstract: false, final false
+  __declspec(property(get = get_Handle)) ::System::IntPtr Handle;
+
+  /// @brief Method Auto, addr 0x6828dc0, size 0x48, virtual false, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker_AutoScope Auto();
 
-  /// @brief Method .ctor, addr 0x4860604, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828d9c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Profiling::ProfilerCategory category, ::StringW name);
 
-  /// @brief Method .ctor, addr 0x4860554, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6828c20, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
+
+  /// @brief Method get_Handle, addr 0x6828c18, size 0x8, virtual false, abstract: false, final false
+  inline ::System::IntPtr get_Handle();
 
   // Ctor Parameters []
   // @brief default ctor
@@ -96,7 +103,7 @@ public:
   constexpr ProfilerMarker(::System::IntPtr m_Ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10565 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9919 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

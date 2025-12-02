@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/ThreadLocal_1.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Threading/zzzz__ThreadLocal_1_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "Value", ty: "::System::Threading::ThreadLocal_1_LinkedSlot<T>*", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Threading::ThreadLocal_1_LinkedSlotVolatile<T>::ThreadLocal_1_LinkedSlotVolatile(::System::Threading::ThreadLocal_1_LinkedSlot<T>* Value) noexcept {
   this->Value = Value;
@@ -276,6 +276,12 @@ template <typename T> inline void System::Threading::ThreadLocal_1<T>::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline void System::Threading::ThreadLocal_1<T>::_ctor(::System::Func_1<T>* valueFactory) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadLocal_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, valueFactory);
+}
 template <typename T> inline void System::Threading::ThreadLocal_1<T>::Initialize(::System::Func_1<T>* valueFactory, bool trackAllValues) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::ThreadLocal_1<T>*>::get(), "Initialize", std::span<Il2CppClass const* const, 0>(),
@@ -364,6 +370,9 @@ template <typename T> inline int32_t System::Threading::ThreadLocal_1<T>::GetNew
 }
 template <typename T> inline ::System::Threading::ThreadLocal_1<T>* System::Threading::ThreadLocal_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ThreadLocal_1<T>*>());
+}
+template <typename T> inline ::System::Threading::ThreadLocal_1<T>* System::Threading::ThreadLocal_1<T>::New_ctor(::System::Func_1<T>* valueFactory) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Threading::ThreadLocal_1<T>*>(valueFactory));
 }
 /// @brief Convert operator to "::System::IDisposable"
 template <typename T> constexpr System::Threading::ThreadLocal_1<T>::operator ::System::IDisposable*() noexcept {

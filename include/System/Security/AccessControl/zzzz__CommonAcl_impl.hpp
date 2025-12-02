@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(bool, bool, uint8_t, int32_t)>(
     &::System::Security::AccessControl::CommonAcl::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3cc32cc;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5906a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(bool, bool, int32_t)>(
     &::System::Security::AccessControl::CommonAcl::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3cc3460;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5906b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(bool, bool, ::System::Security::AccessControl::RawAcl*)>(
     &::System::Security::AccessControl::CommonAcl::Init)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3cc3448;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5906b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::get_Count)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cc35ac;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5906d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::get_IsCanonical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc35cc;
+  constexpr static std::size_t addrs = 0x5906d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::get_IsContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc35d4;
+  constexpr static std::size_t addrs = 0x5906d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::CommonAcl::*)()>(&::System::Security::AccessControl::CommonAcl::get_IsDS)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc35dc;
+  constexpr static std::size_t addrs = 0x5906d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(), "get_IsDS",
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(bool)>(
     &::System::Security::AccessControl::CommonAcl::set_IsAefa)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3cc35e4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5906d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::GenericAce* (::System::Security::AccessControl::CommonAcl::*)(int32_t)>(
     &::System::Security::AccessControl::CommonAcl::get_Item)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cc35f0;
+  constexpr static std::size_t addrs = 0x5906d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -176,7 +176,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(int32_t, ::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::CommonAcl::set_Item)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3cc36a0;
+  constexpr static std::size_t addrs = 0x5906dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -191,8 +191,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::RequireCanonicity)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cc36d8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5906e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -205,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::CanonicalizeAndClearAefa)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3cc34ec;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5906c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -219,8 +219,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::CommonAcl::*)(::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::CommonAcl::IsAceMeaningless)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3cc3a14;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5907174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,7 +235,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::TestCanonicity)> {
   constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3cc3734;
+  constexpr static std::size_t addrs = 0x5906e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -248,8 +248,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::GetCanonicalExplicitDenyAceCount)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3cc3d88;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x59074f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -264,7 +264,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::GetCanonicalExplicitAceCount)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3cc4020;
+  constexpr static std::size_t addrs = 0x59077a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -277,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)()>(
     &::System::Security::AccessControl::CommonAcl::MergeExplicitAces)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3cc38fc;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x5907054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::CommonAcl*>::get(),
@@ -292,8 +292,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::GenericAce* (
     ::System::Security::AccessControl::CommonAcl::*)(::System::Security::AccessControl::GenericAce*, ::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::CommonAcl::MergeExplicitAcePair)> {
-  constexpr static std::size_t size = 0x3b8;
-  constexpr static std::size_t addrs = 0x3cc40a0;
+  constexpr static std::size_t size = 0x408;
+  constexpr static std::size_t addrs = 0x5907828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,7 +309,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Security::AccessControl::ObjectAce*, ::ByRef<::System::Guid>, ::ByRef<::System::Guid>)>(
     &::System::Security::AccessControl::CommonAcl::GetObjectAceTypeGuids)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3cc44c4;
+  constexpr static std::size_t addrs = 0x5907ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -341,7 +341,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(int32_t, int32_t)>(
     &::System::Security::AccessControl::CommonAcl::ApplyCanonicalSortToExplicitAces)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3cc45f4;
+  constexpr static std::size_t addrs = 0x5907dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,7 +357,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::AccessControl::AceQualifier, ::System::Security::Principal::SecurityIdentifier*, int32_t, ::System::Security::AccessControl::InheritanceFlags,
     ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AuditFlags)>(&::System::Security::AccessControl::CommonAcl::AddAce)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3cc47b8;
+  constexpr static std::size_t addrs = 0x5907f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -378,8 +378,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Security::AccessControl::CommonAcl::*)(::System::Security::AccessControl::AceQualifier, ::System::Security::Principal::SecurityIdentifier*, int32_t,
                                                      ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags,
                                                      ::System::Security::AccessControl::AuditFlags)>(&::System::Security::AccessControl::CommonAcl::AddAceGetQualifiedAce)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3cc47d4;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5907fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -399,7 +399,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::CommonAcl::*)(::System::Security::AccessControl::QualifiedAce*)>(
     &::System::Security::AccessControl::CommonAcl::AddAce)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cc488c;
+  constexpr static std::size_t addrs = 0x5908070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -413,8 +413,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::GenericAce* (*)(::System::Security::AccessControl::GenericAce*)>(
     &::System::Security::AccessControl::CommonAcl::CopyAce)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3cc3614;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5906d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -444,8 +444,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceFlags (::System::Security::AccessControl::CommonAcl::*)(
     ::System::Security::AccessControl::InheritanceFlags, ::System::Security::AccessControl::PropagationFlags, ::System::Security::AccessControl::AuditFlags)>(
     &::System::Security::AccessControl::CommonAcl::GetAceFlags)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3cc4904;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x59080e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

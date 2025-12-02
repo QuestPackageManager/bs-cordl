@@ -19,7 +19,7 @@ namespace UnityEngine {
 class CORDL_TYPE MultilineAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field lines, offset 0x10, size 0x4
+  /// @brief Field lines, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_lines, put = __cordl_internal_set_lines)) int32_t lines;
 
   static inline ::UnityEngine::MultilineAttribute* New_ctor();
@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set_lines(int32_t value);
 
-  /// @brief Method .ctor, addr 0x48a6d80, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68a46d8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,17 +48,17 @@ public:
   MultilineAttribute(MultilineAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10259 };
 
-  /// @brief Field lines, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field lines, offset: 0x18, size: 0x4, def value: None
   int32_t ___lines;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::MultilineAttribute, ___lines) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::MultilineAttribute, ___lines) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::MultilineAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::MultilineAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::MultilineAttribute);

@@ -7,6 +7,12 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__MouseEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(MouseOutEvent)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
+class IPanel;
+}
+namespace UnityEngine::UIElements {
 class MouseOutEvent___c;
 }
 // Forward declare root types
@@ -31,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::MouseOutEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a2ebdc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b6bcf8, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::MouseOutEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a2ebd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b6bcf4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::MouseOutEvent___c* getStaticF___9();
@@ -56,7 +62,7 @@ public:
   MouseOutEvent___c(MouseOutEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4505 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,9 +79,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::MouseOutEvent___c;
 
+  /// @brief Method Dispatch, addr 0x6b6bbc8, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
   static inline ::UnityEngine::UIElements::MouseOutEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a2eb30, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6b6bbcc, size 0x88, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method .ctor, addr 0x6b6bc54, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +105,12 @@ public:
   MouseOutEvent(MouseOutEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5879 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4506 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseOutEvent, 0xb8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::MouseOutEvent, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::MouseOutEvent);

@@ -56,10 +56,10 @@ public:
   /// @brief Field namingAuthorityUrl, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_namingAuthorityUrl, put = __cordl_internal_set_namingAuthorityUrl)) ::StringW namingAuthorityUrl;
 
-  /// @brief Method GetInstance, addr 0x23fd244, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x332b548, size 0x7c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x23fe970, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x332cbf4, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namingAuthorityID, ::StringW namingAuthorityUrl,
@@ -67,7 +67,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::NamingAuthority* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23ff200, size 0x194, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x332d450, size 0x1a0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier* const& __cordl_internal_get_namingAuthorityID() const;
@@ -88,21 +88,21 @@ public:
 
   constexpr void __cordl_internal_set_namingAuthorityUrl(::StringW value);
 
-  /// @brief Method .ctor, addr 0x23ff1c4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332d444, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* namingAuthorityID, ::StringW namingAuthorityUrl, ::Org::BouncyCastle::Asn1::X500::DirectoryString* namingAuthorityText);
 
-  /// @brief Method .ctor, addr 0x23feaec, size 0x5d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x332cd78, size 0x5c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
   static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* getStaticF_IdIsisMttATNamingAuthoritiesRechtWirtschaftSteuern();
 
-  /// @brief Method get_NamingAuthorityID, addr 0x23ff1ac, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamingAuthorityID, addr 0x332d42c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* get_NamingAuthorityID();
 
-  /// @brief Method get_NamingAuthorityText, addr 0x23ff1b4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamingAuthorityText, addr 0x332d434, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_NamingAuthorityText();
 
-  /// @brief Method get_NamingAuthorityUrl, addr 0x23ff1bc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NamingAuthorityUrl, addr 0x332d43c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NamingAuthorityUrl();
 
   static inline void setStaticF_IdIsisMttATNamingAuthoritiesRechtWirtschaftSteuern(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);

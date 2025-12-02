@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(QueryUserIdCommand)
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputDeviceCommandInfo;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct QueryUserIdCommand__idBuffer_e__FixedBuffer;
 }
@@ -41,7 +43,7 @@ public:
   constexpr QueryUserIdCommand__idBuffer_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6894 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8953 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -61,8 +63,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand_
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer, 0x200>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies UnityEngine.InputSystem.LowLevel.IInputDeviceCommandInfo, UnityEngine.InputSystem.LowLevel.InputDeviceCommand,
-// UnityEngine.InputSystem.LowLevel.QueryUserIdCommand::<idBuffer>e__FixedBuffer
+// Dependencies UnityEngine.InputSystem.LowLevel.InputDeviceCommand, UnityEngine.InputSystem.LowLevel.QueryUserIdCommand::<idBuffer>e__FixedBuffer
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.QueryUserIdCommand
@@ -83,10 +84,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo*();
 
-  /// @brief Method Create, addr 0x46082a0, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x638fc0c, size 0x20, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand Create();
 
-  /// @brief Method ReadId, addr 0x4608260, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadId, addr 0x638fbe0, size 0x20, virtual false, abstract: false, final false
   inline ::StringW ReadId();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand const& __cordl_internal_get_baseCommand() const;
@@ -101,10 +102,10 @@ public:
 
   constexpr void __cordl_internal_set_idBuffer(::UnityEngine::InputSystem::LowLevel::QueryUserIdCommand__idBuffer_e__FixedBuffer value);
 
-  /// @brief Method get_Type, addr 0x4608230, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x638fbd4, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Type();
 
-  /// @brief Method get_typeStatic, addr 0x4608270, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x638fc00, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputDeviceCommandInfo"
@@ -154,7 +155,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6895 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8954 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x208 };

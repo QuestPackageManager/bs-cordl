@@ -21,8 +21,8 @@ constexpr ::GlobalNamespace::RankModel_Rank GlobalNamespace::RankModel_Rank::SSS
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::RankModel_Rank)>(&::GlobalNamespace::RankModel::GetRankName)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x272454c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x3653c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RankModel_Rank (*)(int32_t, int32_t, int32_t, int32_t)>(
     &::GlobalNamespace::RankModel::GetRankForScore)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2724608;
+  constexpr static std::size_t addrs = 0x3653d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

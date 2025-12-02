@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetStartSprite)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c00050;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57f467c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetMiddleSprite)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c00074;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57f469c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::SetEndSprite)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c00098;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57f46bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StartMiddleEndButtonBackgroundController::*)()>(
     &::GlobalNamespace::StartMiddleEndButtonBackgroundController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c000bc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57f46dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

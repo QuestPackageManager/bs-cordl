@@ -35,6 +35,8 @@ public:
   /// @brief Field m_endOfPacket, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get_m_endOfPacket, put = __cordl_internal_set_m_endOfPacket)) bool m_endOfPacket;
 
+  static inline ::System::Net::Sockets::SendPacketsElement* New_ctor();
+
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_m_Buffer() const;
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_m_Buffer();
@@ -65,6 +67,9 @@ public:
 
   constexpr void __cordl_internal_set_m_endOfPacket(bool value);
 
+  /// @brief Method .ctor, addr 0x614da0c, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -80,7 +85,7 @@ public:
   SendPacketsElement(SendPacketsElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11742 };
 
   /// @brief Field m_FilePath, offset: 0x10, size: 0x8, def value: None
   ::StringW ___m_FilePath;

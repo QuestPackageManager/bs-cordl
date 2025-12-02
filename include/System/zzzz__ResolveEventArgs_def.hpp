@@ -22,8 +22,6 @@ namespace System {
 class CORDL_TYPE ResolveEventArgs : public ::System::EventArgs {
 public:
   // Declarations
-  __declspec(property(get = get_Name)) ::StringW Name;
-
   /// @brief Field <Name>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__Name_k__BackingField, put = __cordl_internal_set__Name_k__BackingField)) ::StringW _Name_k__BackingField;
 
@@ -47,14 +45,11 @@ public:
 
   constexpr void __cordl_internal_set__RequestingAssembly_k__BackingField(::System::Reflection::Assembly* value);
 
-  /// @brief Method .ctor, addr 0x3dfc5c4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a43908, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method .ctor, addr 0x3dfc630, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4396c, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::System::Reflection::Assembly* requestingAssembly);
-
-  /// @brief Method get_Name, addr 0x3dfc6a0, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
 
 protected:
   // Ctor Parameters []
@@ -71,7 +66,7 @@ public:
   ResolveEventArgs(ResolveEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2470 };
 
   /// @brief Field <Name>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Name_k__BackingField;

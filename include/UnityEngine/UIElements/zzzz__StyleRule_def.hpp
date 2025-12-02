@@ -55,10 +55,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Properties(::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> value);
 
-  /// @brief Method .ctor, addr 0x4a8d5ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a672e4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_properties, addr 0x4a8d5e4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_properties, addr 0x6a672dc, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> get_properties();
 
 protected:
@@ -76,7 +76,7 @@ public:
   StyleRule(StyleRule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5063 };
 
   /// @brief Field m_Properties, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::UIElements::StyleProperty*, ::Array<::UnityEngine::UIElements::StyleProperty*>*> ___m_Properties;

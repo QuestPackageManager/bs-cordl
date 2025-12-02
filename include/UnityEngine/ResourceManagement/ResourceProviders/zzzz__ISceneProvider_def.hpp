@@ -14,6 +14,9 @@ class IResourceLocation;
 namespace UnityEngine::ResourceManagement::ResourceProviders {
 struct SceneInstance;
 }
+namespace UnityEngine::ResourceManagement::ResourceProviders {
+struct SceneReleaseMode;
+}
 namespace UnityEngine::ResourceManagement {
 class ResourceManager;
 }
@@ -46,6 +49,12 @@ public:
   ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
                ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, bool activateOnLoad, int32_t priority);
 
+  /// @brief Method ProvideScene, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
+  ProvideScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager, ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* location,
+               ::UnityEngine::SceneManagement::LoadSceneParameters loadSceneParameters, ::UnityEngine::ResourceManagement::ResourceProviders::SceneReleaseMode releaseMode, bool activateOnLoad,
+               int32_t priority);
+
   /// @brief Method ReleaseScene, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::UnityEngine::ResourceManagement::ResourceProviders::SceneInstance>
   ReleaseScene(::UnityEngine::ResourceManagement::ResourceManager* resourceManager,
@@ -56,7 +65,7 @@ public:
   ISceneProvider(ISceneProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18735 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

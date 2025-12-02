@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IUnityXRHapticsHandler_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(DefaultUnityXRHapticsHandler)
+namespace GlobalNamespace {
+class IUnityXRHapticsHandler;
+}
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::XR {
 struct XRNode;
 }
@@ -18,7 +22,7 @@ class DefaultUnityXRHapticsHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DefaultUnityXRHapticsHandler);
-// Dependencies IUnityXRHapticsHandler, System.IDisposable, System.Object, UnityEngine.XR.XRNode
+// Dependencies System.Object, UnityEngine.XR.XRNode
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: DefaultUnityXRHapticsHandler
@@ -34,18 +38,18 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Destroy, addr 0x39c6190, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Destroy, addr 0x5641344, size 0x4, virtual false, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Dispose, addr 0x39c6210, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x564143c, size 0x4, virtual true, abstract: false, final true
   inline void Dispose();
 
   static inline ::GlobalNamespace::DefaultUnityXRHapticsHandler* New_ctor(::UnityEngine::XR::XRNode node);
 
-  /// @brief Method StopHaptics, addr 0x39c61e0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method StopHaptics, addr 0x56413c0, size 0x7c, virtual true, abstract: false, final true
   inline void StopHaptics();
 
-  /// @brief Method TriggerHapticPulse, addr 0x39c6194, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method TriggerHapticPulse, addr 0x5641348, size 0x78, virtual true, abstract: false, final true
   inline void TriggerHapticPulse(float_t strength, float_t duration);
 
   constexpr ::UnityEngine::XR::XRNode const& __cordl_internal_get__node() const;
@@ -54,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set__node(::UnityEngine::XR::XRNode value);
 
-  /// @brief Method .ctor, addr 0x39c6168, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x564133c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::XR::XRNode node);
 
   /// @brief Convert to "::GlobalNamespace::IUnityXRHapticsHandler"
@@ -78,7 +82,7 @@ public:
   DefaultUnityXRHapticsHandler(DefaultUnityXRHapticsHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16468 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20089 };
 
   /// @brief Field _node, offset: 0x10, size: 0x4, def value: None
   ::UnityEngine::XR::XRNode ____node;

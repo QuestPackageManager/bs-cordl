@@ -54,7 +54,7 @@ public:
   /// @brief Field didSetColorEvent, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_didSetColorEvent, put = __cordl_internal_set_didSetColorEvent)) ::System::Action_2<int32_t, ::UnityEngine::Color>* didSetColorEvent;
 
-  /// @brief Method ColorWasSet, addr 0x39e10c8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x5658910, size 0x40, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color newColor);
 
   static inline ::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId* New_ctor(int32_t index, int32_t lightId);
@@ -71,13 +71,13 @@ public:
 
   constexpr void __cordl_internal_set_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method .ctor, addr 0x39e1070, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56588fc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, int32_t lightId);
 
-  /// @brief Method add_didSetColorEvent, addr 0x39e0e98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSetColorEvent, addr 0x565870c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
-  /// @brief Method remove_didSetColorEvent, addr 0x39e0f48, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSetColorEvent, addr 0x56587cc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSetColorEvent(::System::Action_2<int32_t, ::UnityEngine::Color>* value);
 
 protected:
@@ -95,7 +95,7 @@ public:
   ColorArrayLightWithIds_ColorArrayLightWithId(ColorArrayLightWithIds_ColorArrayLightWithId const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19681 };
 
   /// @brief Field _index, offset: 0x30, size: 0x4, def value: None
   int32_t ____index;
@@ -152,33 +152,33 @@ public:
                                                                                               ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*>
       _materialPropertyBlockControllers;
 
-  /// @brief Method GetLightWithIds, addr 0x39e0d38, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetLightWithIds, addr 0x5658580, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::LightWithIds_LightWithId*>* GetLightWithIds();
 
-  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x39e0d40, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorLightWithIdDidSetColor, addr 0x5658588, size 0xd4, virtual false, abstract: false, final false
   inline void HandleColorLightWithIdDidSetColor(int32_t index, ::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::ColorArrayLightWithIds* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39e0c30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5658474, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x39e0a94, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5658278, size 0x18, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method ProcessNewColorData, addr 0x39e0d04, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ProcessNewColorData, addr 0x565854c, size 0x4, virtual true, abstract: false, final false
   inline void ProcessNewColorData();
 
-  /// @brief Method RegisterArrayForColorChanges, addr 0x39e0ab0, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method RegisterArrayForColorChanges, addr 0x5658294, size 0x1e0, virtual false, abstract: false, final false
   inline void RegisterArrayForColorChanges();
 
-  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x39e0dcc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SetColorArrayOffsetToMaterialPropertyBlocks, addr 0x565865c, size 0xb0, virtual false, abstract: false, final false
   inline void SetColorArrayOffsetToMaterialPropertyBlocks();
 
-  /// @brief Method SetColorDataToMaterial, addr 0x39e0d08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method SetColorDataToMaterial, addr 0x5658550, size 0x30, virtual false, abstract: false, final false
   inline void SetColorDataToMaterial();
 
-  /// @brief Method UnregisterArrayFromColorChanges, addr 0x39e0c34, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method UnregisterArrayFromColorChanges, addr 0x5658478, size 0xd4, virtual false, abstract: false, final false
   inline void UnregisterArrayFromColorChanges();
 
   constexpr ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*, ::Array<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>*> const&
@@ -235,7 +235,7 @@ public:
   constexpr void __cordl_internal_set__materialPropertyBlockControllers(
       ::ArrayW<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>, ::Array<::UnityW<::GlobalNamespace::MaterialPropertyBlockController>>*> value);
 
-  /// @brief Method .ctor, addr 0x39e0ff8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x565888c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -253,7 +253,7 @@ public:
   ColorArrayLightWithIds(ColorArrayLightWithIds const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19682 };
 
   /// @brief Field _colorArrayLightWithIds, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*, ::Array<::GlobalNamespace::ColorArrayLightWithIds_ColorArrayLightWithId*>*> ____colorArrayLightWithIds;

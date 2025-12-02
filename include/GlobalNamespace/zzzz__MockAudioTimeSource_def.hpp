@@ -3,17 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(MockAudioTimeSource)
+namespace GlobalNamespace {
+struct IAudioTimeSource_State;
+}
+namespace GlobalNamespace {
+class IAudioTimeSource;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class MockAudioTimeSource;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockAudioTimeSource);
-// Dependencies IAudioTimeSource, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockAudioTimeSource
@@ -37,6 +42,8 @@ public:
 
   __declspec(property(get = get_songTime, put = set_songTime)) float_t songTime;
 
+  __declspec(property(get = get_state)) ::GlobalNamespace::IAudioTimeSource_State state;
+
   __declspec(property(get = get_timeScale)) float_t timeScale;
 
   /// @brief Convert operator to "::GlobalNamespace::IAudioTimeSource"
@@ -44,7 +51,7 @@ public:
 
   static inline ::GlobalNamespace::MockAudioTimeSource* New_ctor();
 
-  /// @brief Method Update, addr 0x3ad1be8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x56abebc, size 0x6c, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr float_t const& __cordl_internal_get__lastFrameDeltaSongTime_k__BackingField() const;
@@ -59,34 +66,37 @@ public:
 
   constexpr void __cordl_internal_set__songTime_k__BackingField(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad1c20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56abf28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isReady, addr 0x3ad1be0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_isReady, addr 0x56abeac, size 0x8, virtual true, abstract: false, final true
   inline bool get_isReady();
 
-  /// @brief Method get_lastFrameDeltaSongTime, addr 0x3ad1bb0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_lastFrameDeltaSongTime, addr 0x56abe7c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_lastFrameDeltaSongTime();
 
-  /// @brief Method get_songEndTime, addr 0x3ad1bc0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songEndTime, addr 0x56abe8c, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songEndTime();
 
-  /// @brief Method get_songLength, addr 0x3ad1bcc, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_songLength, addr 0x56abe98, size 0xc, virtual true, abstract: false, final true
   inline float_t get_songLength();
 
-  /// @brief Method get_songTime, addr 0x3ad1ba0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songTime, addr 0x56abe6c, size 0x8, virtual true, abstract: false, final true
   inline float_t get_songTime();
 
-  /// @brief Method get_timeScale, addr 0x3ad1bd8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_state, addr 0x56abeb4, size 0x8, virtual true, abstract: false, final true
+  inline ::GlobalNamespace::IAudioTimeSource_State get_state();
+
+  /// @brief Method get_timeScale, addr 0x56abea4, size 0x8, virtual true, abstract: false, final true
   inline float_t get_timeScale();
 
   /// @brief Convert to "::GlobalNamespace::IAudioTimeSource"
   constexpr ::GlobalNamespace::IAudioTimeSource* i___GlobalNamespace__IAudioTimeSource() noexcept;
 
-  /// @brief Method set_lastFrameDeltaSongTime, addr 0x3ad1bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_lastFrameDeltaSongTime, addr 0x56abe84, size 0x8, virtual false, abstract: false, final false
   inline void set_lastFrameDeltaSongTime(float_t value);
 
-  /// @brief Method set_songTime, addr 0x3ad1ba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_songTime, addr 0x56abe74, size 0x8, virtual false, abstract: false, final false
   inline void set_songTime(float_t value);
 
 protected:
@@ -104,7 +114,7 @@ public:
   MockAudioTimeSource(MockAudioTimeSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5574 };
 
   /// @brief Field <songTime>k__BackingField, offset: 0x20, size: 0x4, def value: None
   float_t ____songTime_k__BackingField;

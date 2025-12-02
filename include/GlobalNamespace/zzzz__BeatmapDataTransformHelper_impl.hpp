@@ -18,8 +18,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::GameplayModifiers*, bool,
                                                              ::GlobalNamespace::EnvironmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions*,
                                                              ::ByRef<::BeatSaber::Settings::Settings>)>(&::GlobalNamespace::BeatmapDataTransformHelper::CreateTransformedBeatmapData)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x26ae154;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x35df82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(float_t, float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer,
                          ::GlobalNamespace::NoteCutDirection, int32_t, float_t, ::GlobalNamespace::BeatmapData*)>(&::GlobalNamespace::BeatmapDataTransformHelper::AddTestBurstSlider)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x26ae39c;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x35dfa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,8 +63,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     float_t, float_t, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteCutDirection, float_t, int32_t, int32_t, ::GlobalNamespace::NoteLineLayer,
     ::GlobalNamespace::NoteCutDirection, float_t, bool, bool, ::GlobalNamespace::BeatmapData*)>(&::GlobalNamespace::BeatmapDataTransformHelper::AddTestSlider)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x26ae4a0;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x35dfbc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapLevel*, bool)>(
     &::GlobalNamespace::BeatmapDataTransformHelper::IsObstaclesMergingNeeded)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26ae390;
+  constexpr static std::size_t addrs = 0x35dfa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

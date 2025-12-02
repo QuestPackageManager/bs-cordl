@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BrowsingMenusRichPresenceData.hpp"
-#include "GlobalNamespace/zzzz__IRichPresenceData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BrowsingMenusRichPresenceData_def.hpp"
+#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BrowsingMenusRichPresenceData.get_apiName
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::get_apiName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b2cb90;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x570d9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BrowsingMenusRichPresenceData*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::get_localizedDescription)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3b2cbd0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x570da34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BrowsingMenusRichPresenceData*>::get(),
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BrowsingMenusRichPresenceData::*)()>(
     &::GlobalNamespace::BrowsingMenusRichPresenceData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b2cc28;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x570da90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BrowsingMenusRichPresenceData*>::get(),

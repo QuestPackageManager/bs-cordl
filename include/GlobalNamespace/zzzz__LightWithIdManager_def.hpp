@@ -54,21 +54,21 @@ public:
   /// @brief Field didChangeSomeColorsThisFrameEvent, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_didChangeSomeColorsThisFrameEvent, put = __cordl_internal_set_didChangeSomeColorsThisFrameEvent)) ::System::Action* didChangeSomeColorsThisFrameEvent;
 
-  /// @brief Method GetColorForId, addr 0x39e2df0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method GetColorForId, addr 0x565a668, size 0xd8, virtual false, abstract: false, final false
   inline ::UnityEngine::Color GetColorForId(int32_t lightId, bool initializeIfNull);
 
-  /// @brief Method LateUpdate, addr 0x39e2548, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5659dc4, size 0x248, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::LightWithIdManager* New_ctor();
 
-  /// @brief Method RegisterLight, addr 0x39e27c4, size 0x42c, virtual false, abstract: false, final false
+  /// @brief Method RegisterLight, addr 0x565a00c, size 0x448, virtual false, abstract: false, final false
   inline void RegisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
-  /// @brief Method SetColorForId, addr 0x39e01dc, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method SetColorForId, addr 0x5657994, size 0x214, virtual false, abstract: false, final false
   inline void SetColorForId(int32_t lightId, ::UnityEngine::Color color);
 
-  /// @brief Method UnregisterLight, addr 0x39e2bf0, size 0x200, virtual false, abstract: false, final false
+  /// @brief Method UnregisterLight, addr 0x565a454, size 0x214, virtual false, abstract: false, final false
   inline void UnregisterLight(::GlobalNamespace::ILightWithId* lightWithId);
 
   constexpr ::ArrayW<::System::Nullable_1<::UnityEngine::Color>, ::Array<::System::Nullable_1<::UnityEngine::Color>>*> const& __cordl_internal_get__colors() const;
@@ -104,13 +104,13 @@ public:
 
   constexpr void __cordl_internal_set_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x39e2ebc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x565a740, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x39e2410, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeSomeColorsThisFrameEvent, addr 0x5659c6c, size 0xac, virtual false, abstract: false, final false
   inline void add_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
-  /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x39e24ac, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeSomeColorsThisFrameEvent, addr 0x5659d18, size 0xac, virtual false, abstract: false, final false
   inline void remove_didChangeSomeColorsThisFrameEvent(::System::Action* value);
 
 protected:
@@ -128,10 +128,10 @@ public:
   LightWithIdManager(LightWithIdManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16331 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19706 };
 
   /// @brief Field kMaxLightId offset 0xffffffff size 0x4
-  static constexpr int32_t kMaxLightId{ static_cast<int32_t>(0x1f4) };
+  static constexpr int32_t kMaxLightId{ static_cast<int32_t>(0x226) };
 
   /// @brief Field didChangeSomeColorsThisFrameEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action* ___didChangeSomeColorsThisFrameEvent;

@@ -3,13 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(GradientSettingsAtlas)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements::UIR {
 struct Alloc;
 }
@@ -48,10 +50,10 @@ namespace UnityEngine::UIElements::UIR {
 struct CORDL_TYPE GradientSettingsAtlas_RawTexture {
 public:
   // Declarations
-  /// @brief Method WriteRawFloat4Packed, addr 0x49a89e4, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method WriteRawFloat4Packed, addr 0x6aa8edc, size 0xb8, virtual false, abstract: false, final false
   inline void WriteRawFloat4Packed(float_t f0, float_t f1, float_t f2, float_t f3, int32_t destX, int32_t destY);
 
-  /// @brief Method WriteRawInt2Packed, addr 0x49a8a8c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method WriteRawInt2Packed, addr 0x6aa8f94, size 0x80, virtual false, abstract: false, final false
   inline void WriteRawInt2Packed(int32_t v0, int32_t v1, int32_t destX, int32_t destY);
 
   // Ctor Parameters []
@@ -63,7 +65,7 @@ public:
   constexpr GradientSettingsAtlas_RawTexture(::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> rgba, int32_t width, int32_t height) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5297 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -89,7 +91,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::GradientSettingsAtlas_Raw
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::UIR
-// Dependencies System.IDisposable, System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.UIR.GradientSettingsAtlas::RawTexture
+// Dependencies System.Object, Unity.Profiling.ProfilerMarker, UnityEngine.UIElements.UIR.GradientSettingsAtlas::RawTexture
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.GradientSettingsAtlas
@@ -139,27 +141,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x49a8564, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6aa8a98, size 0xe0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Add(int32_t count);
 
-  /// @brief Method Commit, addr 0x49a8b30, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Commit, addr 0x6aa9024, size 0x68, virtual false, abstract: false, final false
   inline void Commit();
 
-  /// @brief Method Dispose, addr 0x49a8390, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6aa88d0, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a83fc, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6aa8940, size 0x84, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
   static inline ::UnityEngine::UIElements::UIR::GradientSettingsAtlas* New_ctor(int32_t length);
 
-  /// @brief Method PrepareAtlas, addr 0x49a8b94, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method PrepareAtlas, addr 0x6aa908c, size 0x178, virtual false, abstract: false, final false
   inline void PrepareAtlas();
 
-  /// @brief Method Reset, addr 0x49a84a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6aa89d0, size 0xc0, virtual false, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Write, addr 0x49a8640, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x6aa8b78, size 0x364, virtual false, abstract: false, final false
   inline void Write(::UnityEngine::UIElements::UIR::Alloc alloc, ::ArrayW<::UnityEngine::UIElements::GradientSettings, ::Array<::UnityEngine::UIElements::GradientSettings>*> settings,
                     ::UnityEngine::UIElements::UIR::GradientRemap* remap);
 
@@ -205,7 +207,7 @@ public:
 
   constexpr void __cordl_internal_set_m_RawAtlas(::UnityEngine::UIElements::UIR::GradientSettingsAtlas_RawTexture value);
 
-  /// @brief Method .ctor, addr 0x49a8474, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa89c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t length);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerCommit();
@@ -214,16 +216,16 @@ public:
 
   static inline int32_t getStaticF_s_TextureCounter();
 
-  /// @brief Method get_MustCommit, addr 0x49a8b1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MustCommit, addr 0x6aa9014, size 0x8, virtual false, abstract: false, final false
   inline bool get_MustCommit();
 
-  /// @brief Method get_atlas, addr 0x49a855c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_atlas, addr 0x6aa8a90, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> get_atlas();
 
-  /// @brief Method get_disposed, addr 0x49a837c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6aa88c0, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_length, addr 0x49a8374, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_length, addr 0x6aa88b8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_length();
 
   /// @brief Convert to "::System::IDisposable"
@@ -235,10 +237,10 @@ public:
 
   static inline void setStaticF_s_TextureCounter(int32_t value);
 
-  /// @brief Method set_MustCommit, addr 0x49a8b24, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_MustCommit, addr 0x6aa901c, size 0x8, virtual false, abstract: false, final false
   inline void set_MustCommit(bool value);
 
-  /// @brief Method set_disposed, addr 0x49a8384, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6aa88c8, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -256,7 +258,7 @@ public:
   GradientSettingsAtlas(GradientSettingsAtlas const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6363 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5298 };
 
   /// @brief Field m_Length, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Length;

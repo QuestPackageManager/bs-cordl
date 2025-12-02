@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IStreamCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PKMacStreamCalculator)
 namespace Org::BouncyCastle::Crypto::IO {
@@ -11,6 +10,9 @@ class MacSink;
 }
 namespace Org::BouncyCastle::Crypto {
 class IMac;
+}
+namespace Org::BouncyCastle::Crypto {
+class IStreamCalculator;
 }
 namespace System::IO {
 class Stream;
@@ -24,7 +26,7 @@ class PKMacStreamCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crmf::PKMacStreamCalculator);
-// Dependencies Org.BouncyCastle.Crypto.IStreamCalculator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crmf {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crmf.PKMacStreamCalculator
@@ -39,7 +41,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IStreamCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::IStreamCalculator*() noexcept;
 
-  /// @brief Method GetResult, addr 0x26863b4, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method GetResult, addr 0x35b57fc, size 0x74, virtual true, abstract: false, final true
   inline ::System::Object* GetResult();
 
   static inline ::Org::BouncyCastle::Crmf::PKMacStreamCalculator* New_ctor(::Org::BouncyCastle::Crypto::IMac* mac);
@@ -50,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__stream(::Org::BouncyCastle::Crypto::IO::MacSink* value);
 
-  /// @brief Method .ctor, addr 0x2686338, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35b5788, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IMac* mac);
 
-  /// @brief Method get_Stream, addr 0x26863ac, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Stream, addr 0x35b57f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::IO::Stream* get_Stream();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IStreamCalculator"

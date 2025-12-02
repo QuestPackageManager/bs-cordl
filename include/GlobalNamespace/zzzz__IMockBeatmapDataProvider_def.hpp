@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IMockBeatmapDataProvider)
 namespace GlobalNamespace {
 class BeatmapKeyNetSerializable;
@@ -17,13 +16,16 @@ template <typename TResult> class Task_1;
 namespace System::Threading {
 struct CancellationToken;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IMockBeatmapDataProvider);
-// Dependencies System.IDisposable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IMockBeatmapDataProvider
@@ -45,7 +47,7 @@ public:
   IMockBeatmapDataProvider(IMockBeatmapDataProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22007 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

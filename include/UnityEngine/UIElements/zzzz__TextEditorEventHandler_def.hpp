@@ -11,6 +11,9 @@ class EventBase;
 namespace UnityEngine::UIElements {
 class TextElement;
 }
+namespace UnityEngine::UIElements {
+class VisualElement;
+}
 namespace UnityEngine {
 class TextEditingUtilities;
 }
@@ -33,10 +36,16 @@ public:
   /// @brief Field textElement, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_textElement, put = __cordl_internal_set_textElement)) ::UnityEngine::UIElements::TextElement* textElement;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x49ee0d4, size 0x4, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Method HandleEventBubbleUp, addr 0x6b15cdc, size 0x4, virtual true, abstract: false, final false
+  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
   static inline ::UnityEngine::UIElements::TextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
+
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x6b16d60, size 0x4, virtual true, abstract: false, final false
+  inline void RegisterCallbacksOnTarget(::UnityEngine::UIElements::VisualElement* target);
+
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6b16d64, size 0x4, virtual true, abstract: false, final false
+  inline void UnregisterCallbacksFromTarget(::UnityEngine::UIElements::VisualElement* target);
 
   constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
 
@@ -50,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set_textElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x49eddf8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b159d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement, ::UnityEngine::TextEditingUtilities* editingUtilities);
 
 protected:
@@ -68,7 +77,7 @@ public:
   TextEditorEventHandler(TextEditorEventHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5610 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4223 };
 
   /// @brief Field textElement, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ___textElement;

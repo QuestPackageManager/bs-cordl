@@ -1,9 +1,10 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Animations/AnimationClipPlayable.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationClipPlayable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/Playables/zzzz__Playable_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Animations::AnimationClipPlayable (*)(
     ::UnityEngine::Playables::PlayableGraph, ::UnityEngine::AnimationClip*)>(&::UnityEngine::Animations::AnimationClipPlayable::Create)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x48547b8;
+  constexpr static std::size_t addrs = 0x680ee58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::AnimationClip*)>(
     &::UnityEngine::Animations::AnimationClipPlayable::CreateHandle)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x48547f0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x680ee90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationClipPlayable::*)(::UnityEngine::Playables::PlayableHandle)>(
     &::UnityEngine::Animations::AnimationClipPlayable::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x485489c;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x680ef40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::PlayableHandle (::UnityEngine::Animations::AnimationClipPlayable::*)()>(
     &::UnityEngine::Animations::AnimationClipPlayable::GetHandle)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48549e8;
+  constexpr static std::size_t addrs = 0x680f0fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationClipPlayable>::get(),
@@ -74,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Playables::Playable (*)(::UnityEngine::Animations::AnimationClipPlayable)>(
     &::UnityEngine::Animations::AnimationClipPlayable::op_Implicit___UnityEngine__Playables__Playable)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x48549f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x680f108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Animations::AnimationClipPlayable::*)(::UnityEngine::Animations::AnimationClipPlayable)>(
     &::UnityEngine::Animations::AnimationClipPlayable::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4854a24;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x680f10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetApplyFootIK)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854a9c;
+  constexpr static std::size_t addrs = 0x680f188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -120,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetRemoveStartOffset)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854b24;
+  constexpr static std::size_t addrs = 0x680f210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetOverrideLoopTime)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854bac;
+  constexpr static std::size_t addrs = 0x680f298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Animations::AnimationClipPlayable::*)(bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetLoopTime)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854c34;
+  constexpr static std::size_t addrs = 0x680f320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,8 +166,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::Playables::PlayableGraph, ::UnityEngine::AnimationClip*, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
         &::UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x485498c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x680f054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetApplyFootIKInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854ae0;
+  constexpr static std::size_t addrs = 0x680f1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -199,7 +200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetRemoveStartOffsetInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854b68;
+  constexpr static std::size_t addrs = 0x680f254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,7 +216,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetOverrideLoopTimeInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854bf0;
+  constexpr static std::size_t addrs = 0x680f2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, bool)>(
     &::UnityEngine::Animations::AnimationClipPlayable::SetLoopTimeInternal)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4854c78;
+  constexpr static std::size_t addrs = 0x680f364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,16 +246,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::UnityEngine::AnimationClip*, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
+    static_cast<bool (*)(::ByRef<::UnityEngine::Playables::PlayableGraph>, ::System::IntPtr, ::ByRef<::UnityEngine::Playables::PlayableHandle>)>(
         &::UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4854cbc;
+  constexpr static std::size_t addrs = 0x680f3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationClipPlayable>::get(), "CreateHandleInternal_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AnimationClip*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get() })));
     return ___internal_method;
   }
@@ -357,12 +358,12 @@ inline void UnityEngine::Animations::AnimationClipPlayable::SetLoopTimeInternal(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, handle, value);
 }
-inline bool UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::UnityEngine::AnimationClip* clip,
+inline bool UnityEngine::Animations::AnimationClipPlayable::CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::System::IntPtr clip,
                                                                                           ::ByRef<::UnityEngine::Playables::PlayableHandle> handle) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationClipPlayable>::get(), "CreateHandleInternal_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableGraph>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AnimationClip*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, graph, clip, handle);
 }

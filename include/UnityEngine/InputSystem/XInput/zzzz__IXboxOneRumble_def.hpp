@@ -3,17 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(IXboxOneRumble)
+namespace UnityEngine::InputSystem::Haptics {
+class IDualMotorRumble;
+}
+namespace UnityEngine::InputSystem::Haptics {
+class IHaptics;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::XInput {
 class IXboxOneRumble;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XInput::IXboxOneRumble);
-// Dependencies UnityEngine.InputSystem.Haptics.IDualMotorRumble, UnityEngine.InputSystem.Haptics.IHaptics
+// Dependencies
 namespace UnityEngine::InputSystem::XInput {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.XInput.IXboxOneRumble
@@ -40,7 +44,7 @@ public:
   IXboxOneRumble(IXboxOneRumble const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

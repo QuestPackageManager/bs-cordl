@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/StandardLevelReturnToMenuController.hpp"
-#include "GlobalNamespace/zzzz__IReturnToMenuController_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelReturnToMenuController_def.hpp"
+#include "GlobalNamespace/zzzz__IReturnToMenuController_def.hpp"
 #include "GlobalNamespace/zzzz__PrepareLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelReturnToMenuController.ReturnToMenu
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(
     &::GlobalNamespace::StandardLevelReturnToMenuController::ReturnToMenu)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bb279c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x57a2b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelReturnToMenuController::*)()>(
     &::GlobalNamespace::StandardLevelReturnToMenuController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb27dc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57a2bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelReturnToMenuController*>::get(),

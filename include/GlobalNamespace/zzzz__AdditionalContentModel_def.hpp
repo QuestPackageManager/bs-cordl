@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IAdditionalContentEntitlementModel_def.hpp"
-#include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -21,6 +18,12 @@ namespace GlobalNamespace {
 struct EntitlementStatus;
 }
 namespace GlobalNamespace {
+class IAdditionalContentEntitlementModel;
+}
+namespace GlobalNamespace {
+class IAdditionalContentModel;
+}
+namespace GlobalNamespace {
 struct IsPackBetterBuyThanLevelResult;
 }
 namespace GlobalNamespace {
@@ -34,6 +37,9 @@ struct CancellationToken;
 }
 namespace System {
 class Action;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -84,7 +90,7 @@ public:
   static ::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult const OK;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14734 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -100,7 +106,7 @@ static_assert(offsetof(::GlobalNamespace::AdditionalContentModel_UpdateEntitleme
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AdditionalContentModel_UpdateEntitlementsResult, 0x4>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IAdditionalContentEntitlementModel, IAdditionalContentModel, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: AdditionalContentModel
@@ -121,8 +127,11 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x26a4144, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x35d4c9c, size 0xa8, virtual true, abstract: false, final false
   inline void Dispose();
+
+  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
 
   /// @brief Method GetLevelDataVersionInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
@@ -133,19 +142,22 @@ public:
   /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x26a4284, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetExcludedLevelIdsAsync, addr 0x35d4df0, size 0x10, virtual true, abstract: false, final true
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* IAdditionalContentEntitlementModel_GetExcludedLevelIdsAsync(::System::Threading::CancellationToken token);
+
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelDataVersionAsync, addr 0x35d4de0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* IAdditionalContentEntitlementModel_GetLevelDataVersionAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x26a4264, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetLevelEntitlementStatusAsync, addr 0x35d4dc0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetLevelEntitlementStatusAsync(::StringW levelId,
                                                                                                                                                      ::System::Threading::CancellationToken token);
 
-  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x26a4274, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method IAdditionalContentEntitlementModel.GetPackEntitlementStatusAsync, addr 0x35d4dd0, size 0x10, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* IAdditionalContentEntitlementModel_GetPackEntitlementStatusAsync(::StringW levelPackId,
                                                                                                                                                     ::System::Threading::CancellationToken token);
 
-  /// @brief Method InvalidateData, addr 0x26a4228, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method InvalidateData, addr 0x35d4d84, size 0x3c, virtual false, abstract: false, final false
   inline void InvalidateData();
 
   /// @brief Method InvalidateDataInternal, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -156,7 +168,7 @@ public:
 
   static inline ::GlobalNamespace::AdditionalContentModel* New_ctor();
 
-  /// @brief Method OnApplicationFocusChanged, addr 0x26a41e8, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method OnApplicationFocusChanged, addr 0x35d4d44, size 0x40, virtual false, abstract: false, final false
   inline void OnApplicationFocusChanged(bool hasFocus);
 
   /// @brief Method OpenLevelPackProductStoreAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -174,10 +186,10 @@ public:
 
   constexpr void __cordl_internal_set_didInvalidateDataEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26a4094, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d4bf4, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didInvalidateDataEvent, addr 0x26a3f5c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_didInvalidateDataEvent, addr 0x35d4a9c, size 0xac, virtual true, abstract: false, final true
   inline void add_didInvalidateDataEvent(::System::Action* value);
 
   /// @brief Convert to "::GlobalNamespace::IAdditionalContentEntitlementModel"
@@ -189,7 +201,7 @@ public:
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method remove_didInvalidateDataEvent, addr 0x26a3ff8, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_didInvalidateDataEvent, addr 0x35d4b48, size 0xac, virtual true, abstract: false, final true
   inline void remove_didInvalidateDataEvent(::System::Action* value);
 
 protected:
@@ -207,7 +219,7 @@ public:
   AdditionalContentModel(AdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12762 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14735 };
 
   /// @brief Field didInvalidateDataEvent, offset: 0x10, size: 0x8, def value: None
   ::System::Action* ___didInvalidateDataEvent;

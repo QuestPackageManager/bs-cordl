@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
     &::System::ComponentModel::DesignerCategoryAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4447274;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6196e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::DesignerCategoryAttribute::*)(::StringW)>(
     &::System::ComponentModel::DesignerCategoryAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44472d0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6196e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
     &::System::ComponentModel::DesignerCategoryAttribute::get_Category)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44472f8;
+  constexpr static std::size_t addrs = 0x6196e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::DesignerCategoryAttribute*>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerCategoryAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::DesignerCategoryAttribute::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4447300;
+  constexpr static std::size_t addrs = 0x6196ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
     &::System::ComponentModel::DesignerCategoryAttribute::GetHashCode)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4447390;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6196f34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
     &::System::ComponentModel::DesignerCategoryAttribute::IsDefaultAttribute)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44473b0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6196f50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::DesignerCategoryAttribute::*)()>(
     &::System::ComponentModel::DesignerCategoryAttribute::get_TypeId)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4447428;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6196fcc;
 
   inline static ::MethodInfo const* methodInfo() {
 

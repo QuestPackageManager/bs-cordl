@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -16,6 +15,9 @@ class ProtocolVersion;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsSession;
@@ -32,7 +34,7 @@ class AbstractTlsContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsContext, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsContext
@@ -82,22 +84,22 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsContext*() noexcept;
 
-  /// @brief Method ExportKeyingMaterial, addr 0x23e18d0, size 0x2c0, virtual true, abstract: false, final false
+  /// @brief Method ExportKeyingMaterial, addr 0x330fd20, size 0x2c0, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ExportKeyingMaterial(::StringW asciiLabel, ::ArrayW<uint8_t, ::Array<uint8_t>*> context_value, int32_t length);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsContext* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method NextCounterValue, addr 0x23e14fc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method NextCounterValue, addr 0x330f934, size 0x68, virtual false, abstract: false, final false
   static inline int64_t NextCounterValue();
 
-  /// @brief Method SetClientVersion, addr 0x23e1898, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetClientVersion, addr 0x330fce8, size 0x8, virtual true, abstract: false, final false
   inline void SetClientVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* clientVersion);
 
-  /// @brief Method SetResumableSession, addr 0x23e18b8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetResumableSession, addr 0x330fd08, size 0x8, virtual true, abstract: false, final false
   inline void SetResumableSession(::Org::BouncyCastle::Crypto::Tls::TlsSession* session);
 
-  /// @brief Method SetServerVersion, addr 0x23e18a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetServerVersion, addr 0x330fcf8, size 0x8, virtual true, abstract: false, final false
   inline void SetServerVersion(::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* serverVersion);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* const& __cordl_internal_get_mClientVersion() const;
@@ -142,33 +144,33 @@ public:
 
   constexpr void __cordl_internal_set_mUserObject(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x23e1554, size 0x324, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330f99c, size 0x32c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
   static inline int64_t getStaticF_counter();
 
-  /// @brief Method get_ClientVersion, addr 0x23e1890, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ClientVersion, addr 0x330fce0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ClientVersion();
 
   /// @brief Method get_IsServer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
-  /// @brief Method get_NonceRandomGenerator, addr 0x23e1878, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NonceRandomGenerator, addr 0x330fcc8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* get_NonceRandomGenerator();
 
-  /// @brief Method get_ResumableSession, addr 0x23e18b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ResumableSession, addr 0x330fd00, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsSession* get_ResumableSession();
 
-  /// @brief Method get_SecureRandom, addr 0x23e1880, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SecureRandom, addr 0x330fcd0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Security::SecureRandom* get_SecureRandom();
 
-  /// @brief Method get_SecurityParameters, addr 0x23e1888, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_SecurityParameters, addr 0x330fcd8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* get_SecurityParameters();
 
-  /// @brief Method get_ServerVersion, addr 0x23e18a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ServerVersion, addr 0x330fcf0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::ProtocolVersion* get_ServerVersion();
 
-  /// @brief Method get_UserObject, addr 0x23e18c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_UserObject, addr 0x330fd10, size 0x8, virtual true, abstract: false, final false
   inline ::System::Object* get_UserObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsContext"
@@ -176,7 +178,7 @@ public:
 
   static inline void setStaticF_counter(int64_t value);
 
-  /// @brief Method set_UserObject, addr 0x23e18c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_UserObject, addr 0x330fd18, size 0x8, virtual true, abstract: false, final false
   inline void set_UserObject(::System::Object* value);
 
 protected:

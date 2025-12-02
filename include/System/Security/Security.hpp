@@ -14,6 +14,7 @@ module;
 #include "System/Security/SecurityElementType.hpp"
 #include "System/Security/SecurityException.hpp"
 #include "System/Security/SecurityManager.hpp"
+#include "System/Security/SecurityTreatAsSafeAttribute.hpp"
 #include "System/Security/XmlSyntaxException.hpp"
 #ifdef __cpp_modules
 export module Security;

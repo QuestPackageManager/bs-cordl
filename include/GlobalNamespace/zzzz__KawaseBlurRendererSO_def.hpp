@@ -125,7 +125,7 @@ public:
   static ::GlobalNamespace::KawaseBlurRendererSO_KernelSize const Kernel7;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16291 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -184,7 +184,7 @@ public:
   static ::GlobalNamespace::KawaseBlurRendererSO_WeightsType const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16292 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set_sharedPartWithNext(int32_t value);
 
-  /// @brief Method .ctor, addr 0x39de7d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5655d30, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
   KawaseBlurRendererSO_BloomKernel(KawaseBlurRendererSO_BloomKernel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19667 };
 
   /// @brief Field kernelSize, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::KawaseBlurRendererSO_KernelSize ___kernelSize;
@@ -322,7 +322,7 @@ public:
   static ::GlobalNamespace::KawaseBlurRendererSO_Pass const BlurWithAlphaWeights;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19668 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -416,40 +416,40 @@ public:
   __declspec(property(get = getStaticF_kBloomIterationWeights, put = setStaticF_kBloomIterationWeights)) ::ArrayW<::ArrayW<float_t, ::Array<float_t>*>, ::Array<::ArrayW<float_t, ::Array<float_t>*>>*>
       kBloomIterationWeights;
 
-  /// @brief Method AlphaWeights, addr 0x39df4f4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method AlphaWeights, addr 0x5656be0, size 0xd4, virtual false, abstract: false, final false
   inline void AlphaWeights(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest);
 
-  /// @brief Method Bloom, addr 0x39de814, size 0x484, virtual false, abstract: false, final false
+  /// @brief Method Bloom, addr 0x5655d70, size 0x520, virtual false, abstract: false, final false
   inline void Bloom(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, int32_t iterationsStart, int32_t iterations, float_t boost, float_t alphaWeights,
                     ::GlobalNamespace::KawaseBlurRendererSO_WeightsType blurStartWeightsType, ::ArrayW<float_t, ::Array<float_t>*> bloomIterationWeights);
 
-  /// @brief Method Blur, addr 0x39df3b0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x5656a7c, size 0xdc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Texture2D> Blur(::UnityEngine::Texture* src, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize, int32_t downsample);
 
-  /// @brief Method Blur, addr 0x39dec98, size 0x4ac, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x5656290, size 0x558, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::ArrayW<int32_t, ::Array<int32_t>*> kernel, float_t boost, int32_t downsample, int32_t startIdx, int32_t length,
                    float_t alphaWeights, float_t additiveAlpha, bool additivelyBlendToDest, bool gammaCorrection, ::GlobalNamespace::KawaseBlurRendererSO_WeightsType blurStartWeightsType);
 
-  /// @brief Method Blur, addr 0x39df46c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x5656b58, size 0x88, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::Texture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize, float_t boost, int32_t downsample);
 
-  /// @brief Method CreateBlurCommandBuffer, addr 0x39df5c4, size 0x30c, virtual false, abstract: false, final false
+  /// @brief Method CreateBlurCommandBuffer, addr 0x5656cb4, size 0x344, virtual false, abstract: false, final false
   inline ::UnityEngine::Rendering::CommandBuffer* CreateBlurCommandBuffer(int32_t width, int32_t height, ::StringW globalTextureName, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize,
                                                                           float_t boost);
 
-  /// @brief Method DoubleBlur, addr 0x39df144, size 0x26c, virtual false, abstract: false, final false
+  /// @brief Method DoubleBlur, addr 0x56567e8, size 0x294, virtual false, abstract: false, final false
   inline void DoubleBlur(::UnityEngine::RenderTexture* src, ::UnityEngine::RenderTexture* dest, ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize0, float_t boost0,
                          ::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize1, float_t boost1, float_t secondBlurAlpha, int32_t downsample, bool gammaCorrection);
 
-  /// @brief Method GetBlurKernel, addr 0x39de204, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method GetBlurKernel, addr 0x5655780, size 0x230, virtual false, abstract: false, final false
   inline ::ArrayW<int32_t, ::Array<int32_t>*> GetBlurKernel(::GlobalNamespace::KawaseBlurRendererSO_KernelSize kernelSize);
 
   static inline ::GlobalNamespace::KawaseBlurRendererSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x39de7d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5655d34, size 0x3c, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x39de428, size 0x3a8, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x56559b0, size 0x380, virtual true, abstract: false, final false
   inline void OnEnable();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__additiveMaterial() const;
@@ -512,7 +512,7 @@ public:
 
   constexpr void __cordl_internal_set__tintShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x39df8d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5656ff8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__additiveAlphaID();
@@ -566,7 +566,7 @@ public:
   KawaseBlurRendererSO(KawaseBlurRendererSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19669 };
 
   /// @brief Field kMaxBloomIterations offset 0xffffffff size 0x4
   static constexpr int32_t kMaxBloomIterations{ static_cast<int32_t>(0x5) };

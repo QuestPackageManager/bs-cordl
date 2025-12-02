@@ -13,7 +13,13 @@ namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace Unity::Properties {
+template <typename TContainer> class INamedProperties_1;
+}
+namespace Unity::Properties {
 template <typename TContainer> class IProperty_1;
+}
+namespace Unity::Properties {
+template <typename TContainer> struct PropertyCollection_1;
 }
 namespace Unity::Properties {
 template <typename TContainer, typename TValue> class Property_2;
@@ -41,8 +47,17 @@ public:
   __declspec(property(get = __cordl_internal_get_m_PropertiesList,
                       put = __cordl_internal_set_m_PropertiesList)) ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>* m_PropertiesList;
 
+  /// @brief Convert operator to "::Unity::Properties::INamedProperties_1<TContainer>"
+  constexpr operator ::Unity::Properties::INamedProperties_1<TContainer>*() noexcept;
+
   /// @brief Method AddProperty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline void AddProperty(::Unity::Properties::Property_2<TContainer, TValue>* property);
+
+  /// @brief Method GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties();
+
+  /// @brief Method GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties(::ByRef<TContainer> container);
 
   static inline ::Unity::Properties::ContainerPropertyBag_1<TContainer>* New_ctor();
 
@@ -64,6 +79,9 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
+  /// @brief Convert to "::Unity::Properties::INamedProperties_1<TContainer>"
+  constexpr ::Unity::Properties::INamedProperties_1<TContainer>* i___Unity__Properties__INamedProperties_1_TContainer_() noexcept;
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -79,7 +97,7 @@ public:
   ContainerPropertyBag_1(ContainerPropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19331 };
 
   /// @brief Field m_PropertiesList, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>* ___m_PropertiesList;

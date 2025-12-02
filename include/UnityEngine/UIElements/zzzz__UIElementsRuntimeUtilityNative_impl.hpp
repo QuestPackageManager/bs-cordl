@@ -2,45 +2,46 @@
 // IWYU pragma private; include "UnityEngine/UIElements/UIElementsRuntimeUtilityNative.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__UIElementsRuntimeUtilityNative_def.hpp"
+#include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
-//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative.RepaintOverlayPanels
+//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative.UpdatePanels
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOverlayPanels)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a42828;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UpdatePanels)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b82d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "RepaintOverlayPanels",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "UpdatePanels",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative.UpdateRuntimePanels
+//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative.RepaintPanels
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UpdateRuntimePanels)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a4288c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintPanels)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6b82d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "UpdateRuntimePanels",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "RepaintPanels",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative.RepaintOffscreenPanels
+//  Writing Method size for method: ::UnityEngine::UIElements::UIElementsRuntimeUtilityNative.RenderOffscreenPanels
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOffscreenPanels)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a428f0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RenderOffscreenPanels)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b82ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "RepaintOffscreenPanels",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "RenderOffscreenPanels",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -50,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a42954;
+  constexpr static std::size_t addrs = 0x6b82e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UnregisterPlayerloopCallback)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a4297c;
+  constexpr static std::size_t addrs = 0x6b82e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UIElements::UIElementsRuntimeUtilityNative::VisualElementCreation)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a429a4;
+  constexpr static std::size_t addrs = 0x6b82e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,43 +88,45 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::setStaticF_RepaintOverlayPanelsCallback(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "RepaintOverlayPanelsCallback",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>(std::forward<::System::Action*>(value));
+inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::setStaticF_UpdatePanelsCallback(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "UpdatePanelsCallback", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>(
+      std::forward<::System::Action*>(value));
 }
-inline ::System::Action* UnityEngine::UIElements::UIElementsRuntimeUtilityNative::getStaticF_RepaintOverlayPanelsCallback() {
-  return ::cordl_internals::getStaticField<::System::Action*, "RepaintOverlayPanelsCallback",
+inline ::System::Action* UnityEngine::UIElements::UIElementsRuntimeUtilityNative::getStaticF_UpdatePanelsCallback() {
+  return ::cordl_internals::getStaticField<::System::Action*, "UpdatePanelsCallback",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>();
 }
-inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::setStaticF_UpdateRuntimePanelsCallback(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "UpdateRuntimePanelsCallback",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>(std::forward<::System::Action*>(value));
+inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::setStaticF_RepaintPanelsCallback(::System::Action_1<bool>* value) {
+  ::cordl_internals::setStaticField<::System::Action_1<bool>*, "RepaintPanelsCallback",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>(
+      std::forward<::System::Action_1<bool>*>(value));
 }
-inline ::System::Action* UnityEngine::UIElements::UIElementsRuntimeUtilityNative::getStaticF_UpdateRuntimePanelsCallback() {
-  return ::cordl_internals::getStaticField<::System::Action*, "UpdateRuntimePanelsCallback",
+inline ::System::Action_1<bool>* UnityEngine::UIElements::UIElementsRuntimeUtilityNative::getStaticF_RepaintPanelsCallback() {
+  return ::cordl_internals::getStaticField<::System::Action_1<bool>*, "RepaintPanelsCallback",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>();
 }
-inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::setStaticF_RepaintOffscreenPanelsCallback(::System::Action* value) {
-  ::cordl_internals::setStaticField<::System::Action*, "RepaintOffscreenPanelsCallback",
+inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::setStaticF_RenderOffscreenPanelsCallback(::System::Action* value) {
+  ::cordl_internals::setStaticField<::System::Action*, "RenderOffscreenPanelsCallback",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>(std::forward<::System::Action*>(value));
 }
-inline ::System::Action* UnityEngine::UIElements::UIElementsRuntimeUtilityNative::getStaticF_RepaintOffscreenPanelsCallback() {
-  return ::cordl_internals::getStaticField<::System::Action*, "RepaintOffscreenPanelsCallback",
+inline ::System::Action* UnityEngine::UIElements::UIElementsRuntimeUtilityNative::getStaticF_RenderOffscreenPanelsCallback() {
+  return ::cordl_internals::getStaticField<::System::Action*, "RenderOffscreenPanelsCallback",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get>();
 }
-inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOverlayPanels() {
+inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UpdatePanels() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(),
-                                                                             "RepaintOverlayPanels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "UpdatePanels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
-inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::UpdateRuntimePanels() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(),
-                                                                             "UpdateRuntimePanels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintPanels(bool onlyOffscreen) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(), "RepaintPanels",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, onlyOffscreen);
 }
-inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RepaintOffscreenPanels() {
+inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RenderOffscreenPanels() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*>::get(),
-                                                                             "RepaintOffscreenPanels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "RenderOffscreenPanels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 inline void UnityEngine::UIElements::UIElementsRuntimeUtilityNative::RegisterPlayerloopCallback() {

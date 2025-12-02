@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "System/StringComparer.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_impl.hpp"
-#include "System/Collections/zzzz__IComparer_impl.hpp"
-#include "System/Collections/zzzz__IEqualityComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__StringComparer_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
+#include "System/Collections/zzzz__IEqualityComparer_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
 #include "System/zzzz__CultureAwareComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -15,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_InvariantCultureIgnoreCase)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e00950;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5a46ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(),
@@ -28,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_Ordinal)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e009a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5a4704c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), "get_Ordinal",
@@ -41,8 +41,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)()>(&::System::StringComparer::get_OrdinalIgnoreCase)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e00a00;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5a470a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), "get_OrdinalIgnoreCase",
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::StringComparer* (*)(::System::Globalization::CultureInfo*, bool)>(&::System::StringComparer::Create)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3e00a58;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5a47104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,8 +69,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Compare)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x3e00b4c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x5a47214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::StringComparer::*)(::System::Object*, ::System::Object*)>(&::System::StringComparer::Equals)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3e00cd8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5a47394;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,8 +99,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::StringComparer::*)(::System::Object*)>(&::System::StringComparer::GetHashCode)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3e00da0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5a473f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,8 +155,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::StringComparer::*)()>(&::System::StringComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e00e64;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5a47474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::StringComparer*>::get(), ".ctor",

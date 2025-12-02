@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MockLevelEndActions.hpp"
-#include "GlobalNamespace/zzzz__ILevelEndActions_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MockLevelEndActions_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelEndActions_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MockLevelEndActions.add_levelFinishedEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(
     &::GlobalNamespace::MockLevelEndActions::add_levelFinishedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba4d30;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57937fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(
     &::GlobalNamespace::MockLevelEndActions::remove_levelFinishedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba4dcc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57938a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(
     &::GlobalNamespace::MockLevelEndActions::add_levelFailedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba4e68;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5793954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)(::System::Action*)>(
     &::GlobalNamespace::MockLevelEndActions::remove_levelFailedEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3ba4f04;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5793a00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockLevelEndActions::*)()>(&::GlobalNamespace::MockLevelEndActions::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba4fa0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5793aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockLevelEndActions*>::get(), ".ctor",

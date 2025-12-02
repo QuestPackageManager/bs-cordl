@@ -36,8 +36,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::StringW, ::ByRef<::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg>, ::ByRef<::Org::BouncyCastle::OpenSsl::PemUtilities_PemMode>)>(
         &::Org::BouncyCastle::OpenSsl::PemUtilities::ParseDekAlgName)> {
-  constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x2553174;
+  constexpr static std::size_t size = 0x354;
+  constexpr static std::size_t addrs = 0x34831c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<char16_t, ::Array<char16_t>*>, ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::OpenSsl::PemUtilities::Crypt)> {
-  constexpr static std::size_t size = 0x4f0;
-  constexpr static std::size_t addrs = 0x2550630;
+  constexpr static std::size_t size = 0x54c;
+  constexpr static std::size_t addrs = 0x3480474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +72,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::ICipherParameters* (*)(::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::OpenSsl::PemUtilities_PemBaseAlg,
                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::OpenSsl::PemUtilities::GetCipherParameters)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x25534c4;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x3483518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::PemUtilities::*)()>(&::Org::BouncyCastle::OpenSsl::PemUtilities::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2553604;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x348369c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::PemUtilities*>::get(), ".ctor",

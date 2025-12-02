@@ -12,8 +12,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Net::Http::Headers::Parser_Token::Check)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4219a30;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5ec26a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW)>(&::System::Net::Http::Headers::Parser_Token::TryCheck)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4222098;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5ecd760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::DateTime_Parser___c::*)()>(
     &::System::Net::Http::Headers::DateTime_Parser___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4224fac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ed0688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::DateTime_Parser___c*>::get(),
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::DateTime_Parser___c::*)(::System::Object*)>(
     &::System::Net::Http::Headers::DateTime_Parser___c::__cctor_b__2_0)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4224fb4;
+  constexpr static std::size_t addrs = 0x5ed068c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,8 +108,8 @@ constexpr ::System::Net::Http::Headers::DateTime_Parser___c::DateTime_Parser___c
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::DateTimeOffset>)>(&::System::Net::Http::Headers::Parser_DateTime::TryParse)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4224e28;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ed0500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,8 +141,8 @@ constexpr ::System::Net::Http::Headers::Parser_DateTime::Parser_DateTime() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::StringW>)>(&::System::Net::Http::Headers::Parser_EmailAddress::TryParse)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x42250a4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5ed077c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -166,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::StringW>)>(&::System::Net::Http::Headers::Parser_Host::TryParse)> {
   constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x4225184;
+  constexpr static std::size_t addrs = 0x5ed0860;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,8 +189,8 @@ constexpr ::System::Net::Http::Headers::Parser_Host::Parser_Host() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<int32_t>)>(&::System::Net::Http::Headers::Parser_Int::TryParse)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x422524c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5ed0928;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -212,8 +212,8 @@ constexpr ::System::Net::Http::Headers::Parser_Int::Parser_Int() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<int64_t>)>(&::System::Net::Http::Headers::Parser_Long::TryParse)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x42252c4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5ed09a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -235,8 +235,8 @@ constexpr ::System::Net::Http::Headers::Parser_Long::Parser_Long() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::Headers::MD5_Parser___c::*)()>(&::System::Net::Http::Headers::MD5_Parser___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x422554c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ed0c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::Headers::MD5_Parser___c*>::get(), ".ctor",
@@ -249,8 +249,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::Http::Headers::MD5_Parser___c::*)(::System::Object*)>(
     &::System::Net::Http::Headers::MD5_Parser___c::__cctor_b__2_0)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4225554;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5ed0c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -289,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>>)>(
     &::System::Net::Http::Headers::Parser_MD5::TryParse)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x422533c;
+  constexpr static std::size_t addrs = 0x5ed0a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -321,8 +321,8 @@ constexpr ::System::Net::Http::Headers::Parser_MD5::Parser_MD5() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::TimeSpan>)>(&::System::Net::Http::Headers::Parser_TimeSpanSeconds::TryParse)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x42255e8;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5ed0cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,8 +345,8 @@ constexpr ::System::Net::Http::Headers::Parser_TimeSpanSeconds::Parser_TimeSpanS
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ByRef<::System::Uri*>)>(&::System::Net::Http::Headers::Parser_Uri::TryParse)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4225698;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ed0d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

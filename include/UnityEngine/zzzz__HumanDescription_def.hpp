@@ -42,7 +42,7 @@ public:
                              float_t m_GlobalScale, ::StringW m_RootMotionBoneName, bool m_HasTranslationDoF, bool m_HasExtraRoot, bool m_SkeletonHasParents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16887 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

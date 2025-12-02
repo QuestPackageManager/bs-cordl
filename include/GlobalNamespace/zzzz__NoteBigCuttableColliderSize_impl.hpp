@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoteBigCuttableColliderSize.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__NoteBigCuttableColliderSize_def.hpp"
+#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
 #include "GlobalNamespace/zzzz__NoteControllerBase_def.hpp"
 #include "GlobalNamespace/zzzz__NoteController_def.hpp"
 #include "UnityEngine/zzzz__BoxCollider_def.hpp"
@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteBigCuttableColliderSize::*)()>(&::GlobalNamespace::NoteBigCuttableColliderSize::Awake)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3aea874;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x56c6754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteBigCuttableColliderSize*>::get(), "Awake",
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteBigCuttableColliderSize::*)()>(
     &::GlobalNamespace::NoteBigCuttableColliderSize::OnDestroy)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3aea944;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x56c6828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteBigCuttableColliderSize*>::get(),
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteBigCuttableColliderSize::*)(::GlobalNamespace::NoteControllerBase*)>(
     &::GlobalNamespace::NoteBigCuttableColliderSize::HandleNoteControllerDidInit)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3aeaa48;
+  constexpr static std::size_t addrs = 0x56c6934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteBigCuttableColliderSize::*)()>(&::GlobalNamespace::NoteBigCuttableColliderSize::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aeaabc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56c69a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteBigCuttableColliderSize*>::get(), ".ctor",

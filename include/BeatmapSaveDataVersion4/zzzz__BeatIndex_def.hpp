@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatmapSaveDataCommon/zzzz__IBeat_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -12,13 +10,16 @@ CORDL_MODULE_EXPORT(BeatIndex)
 namespace BeatmapSaveDataCommon {
 class IBeat;
 }
+namespace System {
+template <typename T> class IComparable_1;
+}
 // Forward declare root types
 namespace BeatmapSaveDataVersion4 {
 class BeatIndex;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataVersion4::BeatIndex);
-// Dependencies BeatmapSaveDataCommon.IBeat, System.IComparable`1<T>, System.Object
+// Dependencies System.Object
 namespace BeatmapSaveDataVersion4 {
 // Is value type: false
 // CS Name: BeatmapSaveDataVersion4.BeatIndex
@@ -53,10 +54,10 @@ public:
 
   constexpr void __cordl_internal_set_i(int32_t value);
 
-  /// @brief Method .ctor, addr 0x27084b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36338e8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beat, addr 0x27084a8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_beat, addr 0x36338e0, size 0x8, virtual true, abstract: false, final true
   inline float_t get_beat();
 
   /// @brief Convert to "::BeatmapSaveDataCommon::IBeat"
@@ -80,7 +81,7 @@ public:
   BeatIndex(BeatIndex const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13366 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15273 };
 
   /// @brief Field b, offset: 0x10, size: 0x4, def value: None
   float_t ___b;

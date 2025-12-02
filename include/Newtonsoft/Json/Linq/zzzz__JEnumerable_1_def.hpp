@@ -3,10 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Linq/zzzz__IJEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(JEnumerable_1)
@@ -23,7 +19,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -34,7 +36,7 @@ template <typename T> struct JEnumerable_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Newtonsoft::Json::Linq::JEnumerable_1);
-// Dependencies Newtonsoft.Json.Linq.IJEnumerable`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IEquatable`1<T>
+// Dependencies
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
@@ -105,7 +107,7 @@ public:
   constexpr JEnumerable_1(::System::Collections::Generic::IEnumerable_1<T>* _enumerable) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10400 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13554 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

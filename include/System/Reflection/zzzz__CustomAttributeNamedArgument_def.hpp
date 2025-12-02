@@ -41,40 +41,40 @@ public:
 
   __declspec(property(get = get_TypedValue)) ::System::Reflection::CustomAttributeTypedArgument TypedValue;
 
-  /// @brief Method Equals, addr 0x3d290f4, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x596e0f8, size 0x7c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3d2916c, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x596e174, size 0x6c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x3d292dc, size 0x328, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x596e2e4, size 0x330, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x3d28c9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596dc7c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* attributeType, ::StringW memberName, bool isField, ::System::Reflection::CustomAttributeTypedArgument typedValue);
 
-  /// @brief Method .ctor, addr 0x3d28ee0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596ded0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Reflection::CustomAttributeTypedArgument typedArgument);
 
-  /// @brief Method .ctor, addr 0x3d28cc4, size 0x21c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x596dc94, size 0x23c, virtual false, abstract: false, final false
   inline void _ctor(::System::Reflection::MemberInfo* memberInfo, ::System::Object* value);
 
-  /// @brief Method get_IsField, addr 0x3d2900c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsField, addr 0x596e008, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsField();
 
-  /// @brief Method get_MemberInfo, addr 0x3d2901c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberInfo, addr 0x596e018, size 0xe0, virtual false, abstract: false, final false
   inline ::System::Reflection::MemberInfo* get_MemberInfo();
 
-  /// @brief Method get_MemberName, addr 0x3d29014, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MemberName, addr 0x596e010, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_MemberName();
 
-  /// @brief Method get_TypedValue, addr 0x3d29000, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_TypedValue, addr 0x596dffc, size 0xc, virtual false, abstract: false, final false
   inline ::System::Reflection::CustomAttributeTypedArgument get_TypedValue();
 
-  /// @brief Method op_Equality, addr 0x3d291d8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x596e1e0, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
-  /// @brief Method op_Inequality, addr 0x3d29258, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x596e25c, size 0x88, virtual false, abstract: false, final false
   static inline bool op_Inequality(::System::Reflection::CustomAttributeNamedArgument left, ::System::Reflection::CustomAttributeNamedArgument right);
 
   // Ctor Parameters []
@@ -88,7 +88,7 @@ public:
                                          ::System::Type* _attributeType, ::System::Reflection::MemberInfo* _lazyMemberInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3529 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };

@@ -3,16 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IIntervalTree_2)
+namespace IntervalTree {
+template <typename TKey, typename TValue> struct RangeValuePair_2;
+}
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace IntervalTree {
@@ -20,7 +23,7 @@ template <typename TKey, typename TValue> class IIntervalTree_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::IntervalTree::IIntervalTree_2);
-// Dependencies IntervalTree.RangeValuePair`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -78,7 +81,7 @@ public:
   IIntervalTree_2(IIntervalTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18961 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22882 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

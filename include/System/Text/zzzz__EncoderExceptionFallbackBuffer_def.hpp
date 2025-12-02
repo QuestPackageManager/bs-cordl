@@ -21,24 +21,24 @@ public:
   // Declarations
   __declspec(property(get = get_Remaining)) int32_t Remaining;
 
-  /// @brief Method Fallback, addr 0x3c78f00, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x58bd3d8, size 0xa0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x3c78fdc, size 0x250, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x58bd4b4, size 0x218, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3c7941c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x58bd874, size 0x8, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x3c79424, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x58bd87c, size 0x8, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3c78e8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bd364, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Remaining, addr 0x3c7942c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x58bd884, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -56,7 +56,7 @@ public:
   EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2845 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

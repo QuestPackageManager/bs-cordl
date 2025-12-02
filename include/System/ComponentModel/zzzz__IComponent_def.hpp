@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IComponent)
 namespace System::ComponentModel {
 class ISite;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -14,7 +16,7 @@ class IComponent;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::IComponent);
-// Dependencies System.IDisposable
+// Dependencies
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.IComponent
@@ -37,7 +39,7 @@ public:
   IComponent(IComponent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11293 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

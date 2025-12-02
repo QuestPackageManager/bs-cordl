@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::TextStyle::*)()>(&::UnityEngine::TextCore::Text::TextStyle::get_hashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494b20c;
+  constexpr static std::size_t addrs = 0x69cdba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyle*>::get(), "get_hashCode",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::UnityEngine::TextCore::Text::TextStyle::*)()>(
     &::UnityEngine::TextCore::Text::TextStyle::get_styleOpeningTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494b214;
+  constexpr static std::size_t addrs = 0x69cdbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyle*>::get(),
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::UnityEngine::TextCore::Text::TextStyle::*)()>(
     &::UnityEngine::TextCore::Text::TextStyle::get_styleClosingTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494b7a8;
+  constexpr static std::size_t addrs = 0x69cdbb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyle*>::get(),
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextStyle::*)(::StringW, ::StringW, ::StringW)>(
     &::UnityEngine::TextCore::Text::TextStyle::_ctor)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x49525cc;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x69cdbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::TextStyle::*)()>(&::UnityEngine::TextCore::Text::TextStyle::RefreshStyle)> {
   constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4952618;
+  constexpr static std::size_t addrs = 0x69cdbf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextStyle*>::get(), "RefreshStyle",

@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/Linq/XObject.hpp"
-#include "System/Xml/zzzz__IXmlLineInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/Linq/zzzz__XObject_def.hpp"
 #include "System/Xml/Linq/zzzz__SaveOptions_def.hpp"
 #include "System/Xml/Linq/zzzz__XContainer_def.hpp"
 #include "System/Xml/Linq/zzzz__XElement_def.hpp"
 #include "System/Xml/Linq/zzzz__XObjectChangeEventArgs_def.hpp"
+#include "System/Xml/zzzz__IXmlLineInfo_def.hpp"
 #include "System/Xml/zzzz__XmlNodeType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -14,8 +14,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42455d0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5f86b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObject*>::get(), ".ctor",
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::get_BaseUri)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x424a1b8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5f8b4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObject*>::get(), "get_BaseUri",
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XElement* (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::get_Parent)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x424dd48;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5f8f010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObject*>::get(), "get_Parent",
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XObject::*)(::System::Object*)>(&::System::Xml::Linq::XObject::AddAnnotation)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x424c03c;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x5f8d300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Xml::Linq::XObject::*)(::System::Type*)>(
     &::System::Xml::Linq::XObject::AnnotationForSealedType)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x424ddc4;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x5f8f090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::System_Xml_IXmlLineInfo_HasLineInfo)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x424df10;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f8f1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::System_Xml_IXmlLineInfo_get_LineNumber)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x424df64;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f8f214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Linq::XObject::*)()>(
     &::System::Xml::Linq::XObject::System_Xml_IXmlLineInfo_get_LinePosition)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x424dfb8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f8f26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,8 +139,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::get_HasBaseUri)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x424a164;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f8b46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObject*>::get(), "get_HasBaseUri",
@@ -153,8 +153,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XObject::*)(::System::Object*, ::System::Xml::Linq::XObjectChangeEventArgs*)>(
     &::System::Xml::Linq::XObject::NotifyChanged)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4245f30;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5f8744c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XObject::*)(::System::Object*, ::System::Xml::Linq::XObjectChangeEventArgs*)>(
     &::System::Xml::Linq::XObject::NotifyChanging)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4245e88;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5f873a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,8 +184,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XObject::*)(::StringW)>(&::System::Xml::Linq::XObject::SetBaseUri)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x424a018;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5f8b338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,8 +198,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XObject::*)(int32_t, int32_t)>(&::System::Xml::Linq::XObject::SetLineInfo)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x424a084;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5f8b39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -212,8 +212,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Linq::XObject::*)()>(&::System::Xml::Linq::XObject::SkipNotify)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x42473a8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5f887c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObject*>::get(), "SkipNotify",
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::SaveOptions (::System::Xml::Linq::XObject::*)()>(
     &::System::Xml::Linq::XObject::GetSaveOptionsFromAnnotations)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x424d7ec;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5f8eb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XObject*>::get(),

@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/CustomYieldInstruction.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::CustomYieldInstruction.get_keepWaiting
 template <>
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::CustomYieldInstruction::*)()>(
     &::UnityEngine::CustomYieldInstruction::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48aa610;
+  constexpr static std::size_t addrs = 0x68ab0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomYieldInstruction*>::get(), "get_Current",
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::MoveNext)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48aa618;
+  constexpr static std::size_t addrs = 0x68ab0f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomYieldInstruction*>::get(), "MoveNext",
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::Reset)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x48aa624;
+  constexpr static std::size_t addrs = 0x68ab104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::CustomYieldInstruction::*)()>(&::UnityEngine::CustomYieldInstruction::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48aa628;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x68ab108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::CustomYieldInstruction*>::get(), ".ctor",

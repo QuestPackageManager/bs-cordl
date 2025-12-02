@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)()>(
     &::System::Runtime::Serialization::OptionalFieldAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cfcbe4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x593e658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::OptionalFieldAttribute*>::get(),
@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::OptionalFieldAttribute::*)(int32_t)>(
     &::System::Runtime::Serialization::OptionalFieldAttribute::set_VersionAdded)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3cfcbf4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x593e664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

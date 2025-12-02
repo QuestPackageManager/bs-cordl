@@ -2,13 +2,14 @@
 // IWYU pragma private; include "GlobalNamespace/RandomAnimationStartTime.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RandomAnimationStartTime_def.hpp"
+#include "GlobalNamespace/zzzz__IRandom_def.hpp"
 #include "UnityEngine/zzzz__Animation_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RandomAnimationStartTime.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomAnimationStartTime::*)()>(&::GlobalNamespace::RandomAnimationStartTime::Start)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x39c33c0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563de40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomAnimationStartTime*>::get(), "Start",
@@ -16,12 +17,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::RandomAnimationStartTime.PlayAnimation
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomAnimationStartTime::*)()>(
+    &::GlobalNamespace::RandomAnimationStartTime::PlayAnimation)> {
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x563de44;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomAnimationStartTime*>::get(),
+                                                                               "PlayAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::RandomAnimationStartTime._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RandomAnimationStartTime::*)()>(&::GlobalNamespace::RandomAnimationStartTime::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c3698;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563e100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomAnimationStartTime*>::get(), ".ctor",
@@ -41,9 +56,26 @@ constexpr void GlobalNamespace::RandomAnimationStartTime::__cordl_internal_set__
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____animation)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::RandomAnimationStartTime::__cordl_internal_get__random() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
+}
+constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::RandomAnimationStartTime::__cordl_internal_get__random() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
+}
+constexpr void GlobalNamespace::RandomAnimationStartTime::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 inline void GlobalNamespace::RandomAnimationStartTime::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomAnimationStartTime*>::get(), "Start",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::RandomAnimationStartTime::PlayAnimation() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RandomAnimationStartTime*>::get(),
+                                                                             "PlayAnimation", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::RandomAnimationStartTime::_ctor() {

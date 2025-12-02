@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__HelpBoxMessageType_def.hpp"
 #include "UnityEngine/UIElements/zzzz__UxmlFactory_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
@@ -58,7 +59,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::HelpBox_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x499a500, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b132b4, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +77,7 @@ public:
   HelpBox_UxmlFactory(HelpBox_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4209 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,14 +92,14 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE HelpBox_UxmlTraits : public ::UnityEngine::UIElements::VisualElement_UxmlTraits {
 public:
   // Declarations
-  /// @brief Field m_MessageType, offset 0x78, size 0x8
+  /// @brief Field m_MessageType, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get_m_MessageType,
                       put = __cordl_internal_set_m_MessageType)) ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::HelpBoxMessageType>* m_MessageType;
 
-  /// @brief Field m_Text, offset 0x70, size 0x8
+  /// @brief Field m_Text, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
 
-  /// @brief Method Init, addr 0x499a548, size 0x154, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b1331c, size 0x160, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::HelpBox_UxmlTraits* New_ctor();
@@ -115,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x499a69c, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b1347c, size 0x110, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -133,25 +134,25 @@ public:
   HelpBox_UxmlTraits(HelpBox_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5598 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4210 };
 
-  /// @brief Field m_Text, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field m_Text, offset: 0x88, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
 
-  /// @brief Field m_MessageType, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field m_MessageType, offset: 0x90, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlEnumAttributeDescription_1<::UnityEngine::UIElements::HelpBoxMessageType>* ___m_MessageType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::HelpBox_UxmlTraits, ___m_Text) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::HelpBox_UxmlTraits, ___m_Text) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::HelpBox_UxmlTraits, ___m_MessageType) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::HelpBox_UxmlTraits, ___m_MessageType) == 0x90, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HelpBox_UxmlTraits, 0x80>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HelpBox_UxmlTraits, 0x98>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.HelpBoxMessageType, UnityEngine.UIElements.VisualElement
+// Dependencies UnityEngine.UIElements.BindingId, UnityEngine.UIElements.HelpBoxMessageType, UnityEngine.UIElements.VisualElement
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.HelpBox
@@ -177,33 +178,39 @@ public:
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
-  /// @brief Field m_HelpBoxMessageType, offset 0x3c8, size 0x4
+  /// @brief Field m_HelpBoxMessageType, offset 0x4a8, size 0x4
   __declspec(property(get = __cordl_internal_get_m_HelpBoxMessageType, put = __cordl_internal_set_m_HelpBoxMessageType)) ::UnityEngine::UIElements::HelpBoxMessageType m_HelpBoxMessageType;
 
-  /// @brief Field m_Icon, offset 0x3d0, size 0x8
+  /// @brief Field m_Icon, offset 0x4b0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Icon, put = __cordl_internal_set_m_Icon)) ::UnityEngine::UIElements::VisualElement* m_Icon;
 
-  /// @brief Field m_IconClass, offset 0x3d8, size 0x8
+  /// @brief Field m_IconClass, offset 0x4b8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IconClass, put = __cordl_internal_set_m_IconClass)) ::StringW m_IconClass;
 
-  /// @brief Field m_Label, offset 0x3e0, size 0x8
+  /// @brief Field m_Label, offset 0x4c0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Label, put = __cordl_internal_set_m_Label)) ::UnityEngine::UIElements::Label* m_Label;
 
-  __declspec(property(put = set_messageType)) ::UnityEngine::UIElements::HelpBoxMessageType messageType;
+  __declspec(property(get = get_messageType, put = set_messageType)) ::UnityEngine::UIElements::HelpBoxMessageType messageType;
 
-  __declspec(property(put = set_text)) ::StringW text;
+  /// @brief Field messageTypeProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_messageTypeProperty, put = setStaticF_messageTypeProperty)) ::UnityEngine::UIElements::BindingId messageTypeProperty;
+
+  __declspec(property(get = get_text, put = set_text)) ::StringW text;
+
+  /// @brief Field textProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_textProperty, put = setStaticF_textProperty)) ::UnityEngine::UIElements::BindingId textProperty;
 
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method GetIconClass, addr 0x499a2cc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetIconClass, addr 0x6b12f30, size 0xcc, virtual false, abstract: false, final false
   inline ::StringW GetIconClass(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor();
 
   static inline ::UnityEngine::UIElements::HelpBox* New_ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
-  /// @brief Method UpdateIcon, addr 0x499a074, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method UpdateIcon, addr 0x6b12d1c, size 0xa4, virtual false, abstract: false, final false
   inline void UpdateIcon(::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   constexpr ::UnityEngine::UIElements::HelpBoxMessageType const& __cordl_internal_get_m_HelpBoxMessageType() const;
@@ -230,10 +237,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Label(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x499a128, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b12dc0, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x499a17c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b12dd8, size 0x158, virtual false, abstract: false, final false
   inline void _ctor(::StringW text, ::UnityEngine::UIElements::HelpBoxMessageType messageType);
 
   static inline ::StringW getStaticF_iconErrorUssClassName();
@@ -246,7 +253,17 @@ public:
 
   static inline ::StringW getStaticF_labelUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_messageTypeProperty();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_textProperty();
+
   static inline ::StringW getStaticF_ussClassName();
+
+  /// @brief Method get_messageType, addr 0x6b12c74, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::HelpBoxMessageType get_messageType();
+
+  /// @brief Method get_text, addr 0x6b12b68, size 0x20, virtual false, abstract: false, final false
+  inline ::StringW get_text();
 
   static inline void setStaticF_iconErrorUssClassName(::StringW value);
 
@@ -258,12 +275,16 @@ public:
 
   static inline void setStaticF_labelUssClassName(::StringW value);
 
+  static inline void setStaticF_messageTypeProperty(::UnityEngine::UIElements::BindingId value);
+
+  static inline void setStaticF_textProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_messageType, addr 0x499a05c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_messageType, addr 0x6b12c7c, size 0xa0, virtual false, abstract: false, final false
   inline void set_messageType(::UnityEngine::UIElements::HelpBoxMessageType value);
 
-  /// @brief Method set_text, addr 0x499a038, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_text, addr 0x6b12b88, size 0xec, virtual false, abstract: false, final false
   inline void set_text(::StringW value);
 
 protected:
@@ -281,32 +302,32 @@ public:
   HelpBox(HelpBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5599 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4211 };
 
-  /// @brief Field m_HelpBoxMessageType, offset: 0x3c8, size: 0x4, def value: None
+  /// @brief Field m_HelpBoxMessageType, offset: 0x4a8, size: 0x4, def value: None
   ::UnityEngine::UIElements::HelpBoxMessageType ___m_HelpBoxMessageType;
 
-  /// @brief Field m_Icon, offset: 0x3d0, size: 0x8, def value: None
+  /// @brief Field m_Icon, offset: 0x4b0, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Icon;
 
-  /// @brief Field m_IconClass, offset: 0x3d8, size: 0x8, def value: None
+  /// @brief Field m_IconClass, offset: 0x4b8, size: 0x8, def value: None
   ::StringW ___m_IconClass;
 
-  /// @brief Field m_Label, offset: 0x3e0, size: 0x8, def value: None
+  /// @brief Field m_Label, offset: 0x4c0, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_Label;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_HelpBoxMessageType) == 0x3c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_HelpBoxMessageType) == 0x4a8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_Icon) == 0x3d0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_Icon) == 0x4b0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_IconClass) == 0x3d8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_IconClass) == 0x4b8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_Label) == 0x3e0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::HelpBox, ___m_Label) == 0x4c0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HelpBox, 0x3e8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::HelpBox, 0x4c8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::HelpBox);

@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::*)(
     ::System::Object*, ::System::IntPtr)>(&::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e56840;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5a9bb88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::*)(::System::IntPtr)>(
     &::System::Threading::OSSpecificSynchronizationContext_InvocationEntryDelegate::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e569b0;
+  constexpr static std::size_t addrs = 0x5a9bcb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationContext::*)(
     ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext_InvocationContext::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3e568cc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a9bbf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext_InvocationContext::*)()>(
     &::System::Threading::OSSpecificSynchronizationContext_InvocationContext::Invoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e568fc;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5a9bc00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext___c::*)()>(
     &::System::Threading::OSSpecificSynchronizationContext___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e56a20;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5a9bd1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::OSSpecificSynchronizationContext* (
     ::System::Threading::OSSpecificSynchronizationContext___c::*)(::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext___c::_Get_b__3_0)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3e56a28;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5a9bd20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(::System::Object*)>(
     &::System::Threading::OSSpecificSynchronizationContext::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e56628;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a9b9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,8 +222,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::OSSpecificSynchronizationContext* (*)()>(
     &::System::Threading::OSSpecificSynchronizationContext::Get)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3e56310;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5a9b6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get(),
@@ -236,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::SynchronizationContext* (::System::Threading::OSSpecificSynchronizationContext::*)()>(
     &::System::Threading::OSSpecificSynchronizationContext::CreateCopy)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3e56654;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5a9b9cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(
     ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext::Send)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3e566b4;
+  constexpr static std::size_t addrs = 0x5a9ba20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -268,8 +268,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::OSSpecificSynchronizationContext::*)(
     ::System::Threading::SendOrPostCallback*, ::System::Object*)>(&::System::Threading::OSSpecificSynchronizationContext::Post)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x3e566ec;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5a9ba58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,8 +283,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::System::Threading::OSSpecificSynchronizationContext::InvocationEntry)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3e564c0;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5a9b7e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,8 +297,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)()>(&::System::Threading::OSSpecificSynchronizationContext::GetOSContext)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e56650;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a9b9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get(),
@@ -312,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::IntPtr, ::System::IntPtr)>(
     &::System::Threading::OSSpecificSynchronizationContext::PostInternal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e568f8;
+  constexpr static std::size_t addrs = 0x5a9bbfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::OSSpecificSynchronizationContext*>::get(),

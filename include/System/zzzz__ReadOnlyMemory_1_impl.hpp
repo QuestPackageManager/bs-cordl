@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/ReadOnlyMemory_1.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__ReadOnlyMemory_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
 template <typename T> inline void System::ReadOnlyMemory_1<T>::_ctor(::ArrayW<T, ::Array<T>*> array) {

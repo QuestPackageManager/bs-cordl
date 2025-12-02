@@ -38,18 +38,18 @@ public:
   /// @brief Field time, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_time, put = __cordl_internal_set_time)) float_t time;
 
-  /// @brief Method CopyFrom, addr 0x4088f3c, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CopyFrom, addr 0x5d389f4, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFrom(::GlobalNamespace::TrailElement* other);
 
   static inline ::GlobalNamespace::TrailElement* New_ctor();
 
-  /// @brief Method SetData, addr 0x4088efc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5d389b4, size 0x40, virtual false, abstract: false, final false
   inline void SetData(::UnityEngine::Vector3 start, ::UnityEngine::Vector3 end, float_t time);
 
-  /// @brief Method SetDistance, addr 0x4088f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetDistance, addr 0x5d38a30, size 0x8, virtual false, abstract: false, final false
   inline void SetDistance(float_t value);
 
-  /// @brief Method UpdateLocalDistance, addr 0x4088f84, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UpdateLocalDistance, addr 0x5d38a38, size 0x9c, virtual false, abstract: false, final false
   inline void UpdateLocalDistance(::GlobalNamespace::TrailElement* prev);
 
   constexpr float_t const& __cordl_internal_get_distance() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_time(float_t value);
 
-  /// @brief Method .ctor, addr 0x408902c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d38ad4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +100,7 @@ public:
   TrailElement(TrailElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22788 };
 
   /// @brief Field position, offset: 0x10, size: 0xc, def value: None
   ::UnityEngine::Vector3 ___position;

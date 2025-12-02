@@ -29,13 +29,13 @@ public:
 
   __declspec(property(get = get_Value)) ::System::Object* Value;
 
-  /// @brief Method .ctor, addr 0x3cf3630, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5935430, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW entryName, ::System::Object* entryValue, ::System::Type* entryType);
 
-  /// @brief Method get_Name, addr 0x3cf3644, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x5935444, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x3cf363c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x593543c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
   // Ctor Parameters []
@@ -47,7 +47,7 @@ public:
   constexpr SerializationEntry(::StringW _name, ::System::Object* _value, ::System::Type* _type) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3215 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

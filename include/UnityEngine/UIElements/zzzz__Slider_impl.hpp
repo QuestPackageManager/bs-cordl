@@ -18,8 +18,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider_UxmlFactory::*)()>(&::UnityEngine::UIElements::Slider_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a0c948;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b3c7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider_UxmlFactory*>::get(), ".ctor",
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider_UxmlTraits::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::Slider_UxmlTraits::Init)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x4a0c990;
+  constexpr static std::size_t size = 0x304;
+  constexpr static std::size_t addrs = 0x6b3c860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider_UxmlTraits::*)()>(&::UnityEngine::UIElements::Slider_UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x4a0cc44;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x6b3cb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider_UxmlTraits*>::get(), ".ctor",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider::*)()>(&::UnityEngine::UIElements::Slider::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a0c0b8;
+  constexpr static std::size_t addrs = 0x6b3bef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), ".ctor",
@@ -174,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider::*)(float_t, float_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(
     &::UnityEngine::UIElements::Slider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a0bc34;
+  constexpr static std::size_t addrs = 0x6b3b950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::UIElements::Slider::*)(::StringW, float_t, float_t, ::UnityEngine::UIElements::SliderDirection, float_t)>(&::UnityEngine::UIElements::Slider::_ctor)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4a0c0d0;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6b3bf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,13 +208,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider::*)(::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, float_t)>(
     &::UnityEngine::UIElements::Slider::ApplyInputDeviceDelta)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a0c21c;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6b3c064;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 127));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 163));
     return ___internal_method;
   }
 };
@@ -223,13 +223,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::Slider::SliderLerpUnclamped)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x4a0c340;
+  constexpr static std::size_t size = 0x2b8;
+  constexpr static std::size_t addrs = 0x6b3c174;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 128));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 164));
     return ___internal_method;
   }
 };
@@ -238,13 +238,27 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)(float_t, float_t, float_t)>(
     &::UnityEngine::UIElements::Slider::SliderNormalizeValue)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4a0bc64;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b3b984;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 129));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 165));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Slider.SliderRange
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)()>(&::UnityEngine::UIElements::Slider::SliderRange)> {
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6b3c42c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 166));
     return ___internal_method;
   }
 };
@@ -253,13 +267,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::Slider::*)(::StringW, ::StringW)>(
     &::UnityEngine::UIElements::Slider::ParseStringToValue)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a0c5f4;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6b3c4bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 130));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 167));
     return ___internal_method;
   }
 };
@@ -268,13 +282,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Slider::*)(::UnityEngine::UIElements::BaseSlider_1_SliderKey<float_t>, bool)>(
     &::UnityEngine::UIElements::Slider::ComputeValueFromKey)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x4a0c678;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x6b3c544;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 131));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 168));
     return ___internal_method;
   }
 };
@@ -320,27 +334,32 @@ inline void UnityEngine::UIElements::Slider::_ctor(::StringW label, float_t star
 }
 inline void UnityEngine::UIElements::Slider::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, float_t startValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 127)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 163)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 inline float_t UnityEngine::UIElements::Slider::SliderLerpUnclamped(float_t a, float_t b, float_t interpolant) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 128)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 164)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, a, b, interpolant);
 }
 inline float_t UnityEngine::UIElements::Slider::SliderNormalizeValue(float_t currentValue, float_t lowerValue, float_t higherValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 129)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 165)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, currentValue, lowerValue, higherValue);
+}
+inline float_t UnityEngine::UIElements::Slider::SliderRange() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 166)));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t UnityEngine::UIElements::Slider::ParseStringToValue(::StringW previousValue, ::StringW newValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 130)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 167)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, previousValue, newValue);
 }
 inline void UnityEngine::UIElements::Slider::ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<float_t> sliderKey, bool isShift) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 131)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Slider*>::get(), 168)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderKey, isShift);
 }
 inline ::UnityEngine::UIElements::Slider* UnityEngine::UIElements::Slider::New_ctor() {

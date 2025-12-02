@@ -26,7 +26,7 @@ public:
   /// @brief Field m_Store, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Store, put = __cordl_internal_set_m_Store)) ::System::LocalDataStore* m_Store;
 
-  /// @brief Method Finalize, addr 0x3e13fb4, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5a5a244, size 0x4c, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::LocalDataStoreHolder* New_ctor(::System::LocalDataStore* store);
@@ -37,10 +37,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Store(::System::LocalDataStore* value);
 
-  /// @brief Method .ctor, addr 0x3e13f8c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5a23c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::LocalDataStore* store);
 
-  /// @brief Method get_Store, addr 0x3e1406c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Store, addr 0x5a5a2a8, size 0x8, virtual false, abstract: false, final false
   inline ::System::LocalDataStore* get_Store();
 
 protected:
@@ -58,7 +58,7 @@ public:
   LocalDataStoreHolder(LocalDataStoreHolder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2551 };
 
   /// @brief Field m_Store, offset: 0x10, size: 0x8, def value: None
   ::System::LocalDataStore* ___m_Store;

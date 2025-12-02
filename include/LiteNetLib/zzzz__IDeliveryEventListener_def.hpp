@@ -31,7 +31,7 @@ public:
   IDeliveryEventListener(IDeliveryEventListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

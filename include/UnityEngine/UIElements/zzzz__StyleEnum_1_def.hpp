@@ -3,15 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleEnum_1)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -22,7 +26,7 @@ template <typename T> struct StyleEnum_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::StyleEnum_1);
-// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.StyleKeyword
+// Dependencies UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -31,9 +35,9 @@ template <typename T>
 struct CORDL_TYPE StyleEnum_1 {
 public:
   // Declarations
-  __declspec(property(get = get_keyword)) ::UnityEngine::UIElements::StyleKeyword keyword;
+  __declspec(property(get = get_keyword, put = set_keyword)) ::UnityEngine::UIElements::StyleKeyword keyword;
 
-  __declspec(property(get = get_value)) T value;
+  __declspec(property(get = get_value, put = set_value)) T value;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleEnum_1<T>>*();
@@ -86,6 +90,12 @@ public:
   /// @brief Method op_Inequality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::UIElements::StyleEnum_1<T> lhs, ::UnityEngine::UIElements::StyleEnum_1<T> rhs);
 
+  /// @brief Method set_keyword, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
+
+  /// @brief Method set_value, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void set_value(T value);
+
   // Ctor Parameters []
   // @brief default ctor
   constexpr StyleEnum_1();
@@ -95,7 +105,7 @@ public:
   constexpr StyleEnum_1(T m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

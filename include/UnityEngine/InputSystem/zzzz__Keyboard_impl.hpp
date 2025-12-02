@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Keyboard.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Keyboard_def.hpp"
@@ -9,6 +8,7 @@
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__KeyControl_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__IMECompositionString_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__ITextInputReceiver_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__Key_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::System::Action_1<char16_t>*)>(
     &::UnityEngine::InputSystem::Keyboard::add_onTextInput)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4585768;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6303e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::System::Action_1<char16_t>*)>(
     &::UnityEngine::InputSystem::Keyboard::remove_onTextInput)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x458584c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6303f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(
     ::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*)>(&::UnityEngine::InputSystem::Keyboard::add_onIMECompositionChange)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x45858a4;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6303fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(
     ::System::Action_1<::UnityEngine::InputSystem::LowLevel::IMECompositionString>*)>(&::UnityEngine::InputSystem::Keyboard::remove_onIMECompositionChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4585984;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x63040a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(bool)>(&::UnityEngine::InputSystem::Keyboard::SetIMEEnabled)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45859dc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6304100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::InputSystem::Keyboard::SetIMECursorPosition)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4585a54;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x6304180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::get_keyboardLayout)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4585af8;
+  constexpr static std::size_t addrs = 0x6304230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -120,7 +120,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::StringW)>(
     &::UnityEngine::InputSystem::Keyboard::set_keyboardLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585b34;
+  constexpr static std::size_t addrs = 0x630426c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::AnyKeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_anyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585b3c;
+  constexpr static std::size_t addrs = 0x6304274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_anyKey",
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::AnyKeyControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_anyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585b44;
+  constexpr static std::size_t addrs = 0x630427c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_spaceKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585b4c;
+  constexpr static std::size_t addrs = 0x6304284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_spaceKey",
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_enterKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585bd8;
+  constexpr static std::size_t addrs = 0x6304310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_enterKey",
@@ -192,7 +192,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_tabKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585be0;
+  constexpr static std::size_t addrs = 0x6304318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_tabKey",
@@ -206,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_backquoteKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585be8;
+  constexpr static std::size_t addrs = 0x6304320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_backquoteKey",
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_quoteKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585bf0;
+  constexpr static std::size_t addrs = 0x6304328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_quoteKey",
@@ -234,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_semicolonKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585bf8;
+  constexpr static std::size_t addrs = 0x6304330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_semicolonKey",
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_commaKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c00;
+  constexpr static std::size_t addrs = 0x6304338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_commaKey",
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_periodKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c08;
+  constexpr static std::size_t addrs = 0x6304340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_periodKey",
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_slashKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c10;
+  constexpr static std::size_t addrs = 0x6304348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_slashKey",
@@ -290,7 +290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_backslashKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c18;
+  constexpr static std::size_t addrs = 0x6304350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_backslashKey",
@@ -304,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftBracketKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c20;
+  constexpr static std::size_t addrs = 0x6304358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightBracketKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c28;
+  constexpr static std::size_t addrs = 0x6304360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -332,7 +332,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_minusKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c30;
+  constexpr static std::size_t addrs = 0x6304368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_minusKey",
@@ -346,7 +346,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_equalsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c38;
+  constexpr static std::size_t addrs = 0x6304370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_equalsKey",
@@ -360,7 +360,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_aKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c40;
+  constexpr static std::size_t addrs = 0x6304378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_aKey",
@@ -374,7 +374,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_bKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c48;
+  constexpr static std::size_t addrs = 0x6304380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_bKey",
@@ -388,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_cKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c50;
+  constexpr static std::size_t addrs = 0x6304388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_cKey",
@@ -402,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_dKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c58;
+  constexpr static std::size_t addrs = 0x6304390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_dKey",
@@ -416,7 +416,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_eKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c60;
+  constexpr static std::size_t addrs = 0x6304398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_eKey",
@@ -430,7 +430,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_fKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c68;
+  constexpr static std::size_t addrs = 0x63043a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_fKey",
@@ -444,7 +444,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_gKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c70;
+  constexpr static std::size_t addrs = 0x63043a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_gKey",
@@ -458,7 +458,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_hKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c78;
+  constexpr static std::size_t addrs = 0x63043b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_hKey",
@@ -472,7 +472,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_iKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c80;
+  constexpr static std::size_t addrs = 0x63043b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_iKey",
@@ -486,7 +486,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_jKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c88;
+  constexpr static std::size_t addrs = 0x63043c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_jKey",
@@ -500,7 +500,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_kKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c90;
+  constexpr static std::size_t addrs = 0x63043c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_kKey",
@@ -514,7 +514,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_lKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585c98;
+  constexpr static std::size_t addrs = 0x63043d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_lKey",
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_mKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ca0;
+  constexpr static std::size_t addrs = 0x63043d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_mKey",
@@ -542,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_nKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ca8;
+  constexpr static std::size_t addrs = 0x63043e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_nKey",
@@ -556,7 +556,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cb0;
+  constexpr static std::size_t addrs = 0x63043e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_oKey",
@@ -570,7 +570,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cb8;
+  constexpr static std::size_t addrs = 0x63043f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_pKey",
@@ -584,7 +584,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_qKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cc0;
+  constexpr static std::size_t addrs = 0x63043f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_qKey",
@@ -598,7 +598,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cc8;
+  constexpr static std::size_t addrs = 0x6304400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_rKey",
@@ -612,7 +612,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_sKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cd0;
+  constexpr static std::size_t addrs = 0x6304408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_sKey",
@@ -626,7 +626,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_tKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cd8;
+  constexpr static std::size_t addrs = 0x6304410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_tKey",
@@ -640,7 +640,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_uKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ce0;
+  constexpr static std::size_t addrs = 0x6304418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_uKey",
@@ -654,7 +654,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_vKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ce8;
+  constexpr static std::size_t addrs = 0x6304420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_vKey",
@@ -668,7 +668,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_wKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cf0;
+  constexpr static std::size_t addrs = 0x6304428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_wKey",
@@ -682,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_xKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585cf8;
+  constexpr static std::size_t addrs = 0x6304430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_xKey",
@@ -696,7 +696,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_yKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d00;
+  constexpr static std::size_t addrs = 0x6304438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_yKey",
@@ -710,7 +710,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_zKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d08;
+  constexpr static std::size_t addrs = 0x6304440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_zKey",
@@ -724,7 +724,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d10;
+  constexpr static std::size_t addrs = 0x6304448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit1Key",
@@ -738,7 +738,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d18;
+  constexpr static std::size_t addrs = 0x6304450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit2Key",
@@ -752,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d20;
+  constexpr static std::size_t addrs = 0x6304458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit3Key",
@@ -766,7 +766,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d28;
+  constexpr static std::size_t addrs = 0x6304460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit4Key",
@@ -780,7 +780,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d30;
+  constexpr static std::size_t addrs = 0x6304468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit5Key",
@@ -794,7 +794,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit6Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d38;
+  constexpr static std::size_t addrs = 0x6304470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit6Key",
@@ -808,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit7Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d40;
+  constexpr static std::size_t addrs = 0x6304478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit7Key",
@@ -822,7 +822,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit8Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d48;
+  constexpr static std::size_t addrs = 0x6304480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit8Key",
@@ -836,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit9Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d50;
+  constexpr static std::size_t addrs = 0x6304488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit9Key",
@@ -850,7 +850,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_digit0Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d58;
+  constexpr static std::size_t addrs = 0x6304490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_digit0Key",
@@ -864,7 +864,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftShiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d60;
+  constexpr static std::size_t addrs = 0x6304498;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_leftShiftKey",
@@ -878,7 +878,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightShiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d68;
+  constexpr static std::size_t addrs = 0x63044a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -892,7 +892,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftAltKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d70;
+  constexpr static std::size_t addrs = 0x63044a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_leftAltKey",
@@ -906,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightAltKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d78;
+  constexpr static std::size_t addrs = 0x63044b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_rightAltKey",
@@ -920,7 +920,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftCtrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d80;
+  constexpr static std::size_t addrs = 0x63044b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_leftCtrlKey",
@@ -934,7 +934,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightCtrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d88;
+  constexpr static std::size_t addrs = 0x63044c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_rightCtrlKey",
@@ -948,7 +948,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftMetaKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d90;
+  constexpr static std::size_t addrs = 0x63044c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_leftMetaKey",
@@ -962,7 +962,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightMetaKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585d98;
+  constexpr static std::size_t addrs = 0x63044d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_rightMetaKey",
@@ -976,7 +976,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftWindowsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585da0;
+  constexpr static std::size_t addrs = 0x63044d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -990,7 +990,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightWindowsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585da8;
+  constexpr static std::size_t addrs = 0x63044e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1004,7 +1004,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftAppleKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585db0;
+  constexpr static std::size_t addrs = 0x63044e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_leftAppleKey",
@@ -1018,7 +1018,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightAppleKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585db8;
+  constexpr static std::size_t addrs = 0x63044f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1032,7 +1032,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftCommandKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585dc0;
+  constexpr static std::size_t addrs = 0x63044f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1046,7 +1046,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightCommandKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585dc8;
+  constexpr static std::size_t addrs = 0x6304500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1060,7 +1060,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_contextMenuKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585dd0;
+  constexpr static std::size_t addrs = 0x6304508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1074,7 +1074,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_escapeKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585dd8;
+  constexpr static std::size_t addrs = 0x6304510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_escapeKey",
@@ -1088,7 +1088,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_leftArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585de0;
+  constexpr static std::size_t addrs = 0x6304518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_leftArrowKey",
@@ -1102,7 +1102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_rightArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585de8;
+  constexpr static std::size_t addrs = 0x6304520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1116,7 +1116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_upArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585df0;
+  constexpr static std::size_t addrs = 0x6304528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_upArrowKey",
@@ -1130,7 +1130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_downArrowKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585df8;
+  constexpr static std::size_t addrs = 0x6304530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_downArrowKey",
@@ -1144,7 +1144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_backspaceKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e00;
+  constexpr static std::size_t addrs = 0x6304538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_backspaceKey",
@@ -1158,7 +1158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pageDownKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e08;
+  constexpr static std::size_t addrs = 0x6304540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_pageDownKey",
@@ -1172,7 +1172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pageUpKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e10;
+  constexpr static std::size_t addrs = 0x6304548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_pageUpKey",
@@ -1186,7 +1186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_homeKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e18;
+  constexpr static std::size_t addrs = 0x6304550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_homeKey",
@@ -1200,7 +1200,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_endKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e20;
+  constexpr static std::size_t addrs = 0x6304558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_endKey",
@@ -1214,7 +1214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_insertKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e28;
+  constexpr static std::size_t addrs = 0x6304560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_insertKey",
@@ -1228,7 +1228,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_deleteKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e30;
+  constexpr static std::size_t addrs = 0x6304568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_deleteKey",
@@ -1242,7 +1242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_capsLockKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e38;
+  constexpr static std::size_t addrs = 0x6304570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_capsLockKey",
@@ -1256,7 +1256,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_scrollLockKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e40;
+  constexpr static std::size_t addrs = 0x6304578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1270,7 +1270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numLockKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e48;
+  constexpr static std::size_t addrs = 0x6304580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numLockKey",
@@ -1284,7 +1284,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_printScreenKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e50;
+  constexpr static std::size_t addrs = 0x6304588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1298,7 +1298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_pauseKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e58;
+  constexpr static std::size_t addrs = 0x6304590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_pauseKey",
@@ -1312,7 +1312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadEnterKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e60;
+  constexpr static std::size_t addrs = 0x6304598;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1326,7 +1326,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadDivideKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e68;
+  constexpr static std::size_t addrs = 0x63045a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1340,7 +1340,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadMultiplyKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e70;
+  constexpr static std::size_t addrs = 0x63045a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1354,7 +1354,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadMinusKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e78;
+  constexpr static std::size_t addrs = 0x63045b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1368,7 +1368,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadPlusKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e80;
+  constexpr static std::size_t addrs = 0x63045b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1382,7 +1382,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadPeriodKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e88;
+  constexpr static std::size_t addrs = 0x63045c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1396,7 +1396,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpadEqualsKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e90;
+  constexpr static std::size_t addrs = 0x63045c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(),
@@ -1410,7 +1410,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad0Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585e98;
+  constexpr static std::size_t addrs = 0x63045d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad0Key",
@@ -1424,7 +1424,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ea0;
+  constexpr static std::size_t addrs = 0x63045d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad1Key",
@@ -1438,7 +1438,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ea8;
+  constexpr static std::size_t addrs = 0x63045e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad2Key",
@@ -1452,7 +1452,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585eb0;
+  constexpr static std::size_t addrs = 0x63045e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad3Key",
@@ -1466,7 +1466,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585eb8;
+  constexpr static std::size_t addrs = 0x63045f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad4Key",
@@ -1480,7 +1480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ec0;
+  constexpr static std::size_t addrs = 0x63045f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad5Key",
@@ -1494,7 +1494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad6Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ec8;
+  constexpr static std::size_t addrs = 0x6304600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad6Key",
@@ -1508,7 +1508,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad7Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ed0;
+  constexpr static std::size_t addrs = 0x6304608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad7Key",
@@ -1522,7 +1522,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad8Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ed8;
+  constexpr static std::size_t addrs = 0x6304610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad8Key",
@@ -1536,7 +1536,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_numpad9Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ee0;
+  constexpr static std::size_t addrs = 0x6304618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_numpad9Key",
@@ -1550,7 +1550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ee8;
+  constexpr static std::size_t addrs = 0x6304620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f1Key",
@@ -1564,7 +1564,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ef0;
+  constexpr static std::size_t addrs = 0x6304628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f2Key",
@@ -1578,7 +1578,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585ef8;
+  constexpr static std::size_t addrs = 0x6304630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f3Key",
@@ -1592,7 +1592,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f00;
+  constexpr static std::size_t addrs = 0x6304638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f4Key",
@@ -1606,7 +1606,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f08;
+  constexpr static std::size_t addrs = 0x6304640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f5Key",
@@ -1620,7 +1620,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f6Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f10;
+  constexpr static std::size_t addrs = 0x6304648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f6Key",
@@ -1634,7 +1634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f7Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f18;
+  constexpr static std::size_t addrs = 0x6304650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f7Key",
@@ -1648,7 +1648,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f8Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f20;
+  constexpr static std::size_t addrs = 0x6304658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f8Key",
@@ -1662,7 +1662,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f9Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f28;
+  constexpr static std::size_t addrs = 0x6304660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f9Key",
@@ -1676,7 +1676,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f10Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f30;
+  constexpr static std::size_t addrs = 0x6304668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f10Key",
@@ -1690,7 +1690,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f11Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f38;
+  constexpr static std::size_t addrs = 0x6304670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f11Key",
@@ -1704,7 +1704,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_f12Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f40;
+  constexpr static std::size_t addrs = 0x6304678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_f12Key",
@@ -1718,7 +1718,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem1Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f48;
+  constexpr static std::size_t addrs = 0x6304680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_oem1Key",
@@ -1732,7 +1732,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem2Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f50;
+  constexpr static std::size_t addrs = 0x6304688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_oem2Key",
@@ -1746,7 +1746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem3Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f58;
+  constexpr static std::size_t addrs = 0x6304690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_oem3Key",
@@ -1760,7 +1760,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem4Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f60;
+  constexpr static std::size_t addrs = 0x6304698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_oem4Key",
@@ -1774,7 +1774,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_oem5Key)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f68;
+  constexpr static std::size_t addrs = 0x63046a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_oem5Key",
@@ -1788,7 +1788,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_shiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f70;
+  constexpr static std::size_t addrs = 0x63046a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_shiftKey",
@@ -1802,7 +1802,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_shiftKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f78;
+  constexpr static std::size_t addrs = 0x63046b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1817,7 +1817,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_ctrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f80;
+  constexpr static std::size_t addrs = 0x63046b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_ctrlKey",
@@ -1831,7 +1831,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_ctrlKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f88;
+  constexpr static std::size_t addrs = 0x63046c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1846,7 +1846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_altKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f90;
+  constexpr static std::size_t addrs = 0x63046c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_altKey",
@@ -1860,7 +1860,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_altKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585f98;
+  constexpr static std::size_t addrs = 0x63046d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1875,7 +1875,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Keyboard::*)()>(
     &::UnityEngine::InputSystem::Keyboard::get_imeSelected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585fa0;
+  constexpr static std::size_t addrs = 0x63046d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_imeSelected",
@@ -1889,7 +1889,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Keyboard::set_imeSelected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4585fa8;
+  constexpr static std::size_t addrs = 0x63046e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1904,7 +1904,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::Key)>(&::UnityEngine::InputSystem::Keyboard::get_Item)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4585b54;
+  constexpr static std::size_t addrs = 0x630428c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1918,8 +1918,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Controls::KeyControl*> (
     ::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::get_allKeys)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4585fb0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x63046e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_allKeys",
@@ -1931,8 +1931,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Keyboard* (*)()>(&::UnityEngine::InputSystem::Keyboard::get_current)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4586010;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6304740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_current",
@@ -1944,8 +1944,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::Keyboard*)>(&::UnityEngine::InputSystem::Keyboard::set_current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4586058;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x630478c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1958,8 +1958,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::MakeCurrent)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45860a4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x63047dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1972,8 +1972,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::OnRemoved)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x45860f0;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x630482c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1986,8 +1986,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::FinishSetup)> {
-  constexpr static std::size_t size = 0x11ac;
-  constexpr static std::size_t addrs = 0x458616c;
+  constexpr static std::size_t size = 0x1390;
+  constexpr static std::size_t addrs = 0x63048bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2000,8 +2000,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::RefreshConfiguration)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4587318;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6305c4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2014,8 +2014,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(char16_t)>(&::UnityEngine::InputSystem::Keyboard::OnTextInput)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x45873dc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6305d14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2029,8 +2029,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::KeyControl* (::UnityEngine::InputSystem::Keyboard::*)(::StringW)>(
     &::UnityEngine::InputSystem::Keyboard::FindKeyOnCurrentKeyboardLayout)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x458747c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6305db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2044,8 +2044,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(::UnityEngine::InputSystem::LowLevel::IMECompositionString)>(
     &::UnityEngine::InputSystem::Keyboard::OnIMECompositionChanged)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4587548;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6305e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2061,7 +2061,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*> (::UnityEngine::InputSystem::Keyboard::*)()>(
         &::UnityEngine::InputSystem::Keyboard::get_keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4587644;
+  constexpr static std::size_t addrs = 0x6305f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), "get_keys",
@@ -2075,7 +2075,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)(
     ::ArrayW<::UnityEngine::InputSystem::Controls::KeyControl*, ::Array<::UnityEngine::InputSystem::Controls::KeyControl*>*>)>(&::UnityEngine::InputSystem::Keyboard::set_keys)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458764c;
+  constexpr static std::size_t addrs = 0x6305f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2090,7 +2090,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Keyboard::*)()>(&::UnityEngine::InputSystem::Keyboard::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4587654;
+  constexpr static std::size_t addrs = 0x6305f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Keyboard*>::get(), ".ctor",

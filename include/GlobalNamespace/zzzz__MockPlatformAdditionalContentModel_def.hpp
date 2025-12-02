@@ -8,7 +8,6 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__IsPackBetterBuyThanLevelResult_def.hpp"
 #include "GlobalNamespace/zzzz__OpenProductStoreResult_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "UnityEngine/zzzz__RangeInt_def.hpp"
@@ -38,7 +37,7 @@ namespace GlobalNamespace {
 struct MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9;
 }
 namespace GlobalNamespace {
-struct MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13;
+struct MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14;
 }
 namespace GlobalNamespace {
 struct MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10;
@@ -78,7 +77,7 @@ namespace GlobalNamespace {
 struct MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9;
 }
 namespace GlobalNamespace {
-struct MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13;
+struct MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14;
 }
 namespace GlobalNamespace {
 struct MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10;
@@ -88,10 +87,9 @@ MARK_REF_PTR_T(::GlobalNamespace::MockPlatformAdditionalContentModel);
 MARK_VAL_T(::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__6);
 MARK_VAL_T(::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7);
 MARK_VAL_T(::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9);
-MARK_VAL_T(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13);
+MARK_VAL_T(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14);
 MARK_VAL_T(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10);
-// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Threading.CancellationToken
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlatformAdditionalContentModel/<GetLevelEntitlementStatusInternalAsync>d__6
@@ -101,10 +99,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a5050, size 0x25c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35d5c74, size 0x274, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a52ac, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35d5ee8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -125,7 +123,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -166,8 +164,7 @@ static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__Ge
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModel__GetLevelEntitlementStatusInternalAsync_d__6, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Threading.CancellationToken
+// Dependencies EntitlementStatus, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__7
@@ -177,10 +174,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a5328, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35d5f68, size 0x2ac, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a55b8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35d6214, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -201,7 +198,7 @@ public:
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12764 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -242,8 +239,7 @@ static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__Ge
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IsPackBetterBuyThanLevelResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// Dependencies IsPackBetterBuyThanLevelResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__9
@@ -253,10 +249,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a5634, size 0x240, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35d6294, size 0x254, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a5874, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35d64e8, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -275,7 +271,7 @@ public:
       ::GlobalNamespace::MockPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken token, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -311,21 +307,20 @@ static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__Is
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: MockPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__13
-struct CORDL_TYPE MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13 {
+// CS Name: MockPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__14
+struct CORDL_TYPE MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a58f0, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35d6568, size 0x2a4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a5b74, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35d680c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -333,20 +328,20 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13();
+  constexpr MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
   // "::GlobalNamespace::MockPlatformAdditionalContentModel*", modifiers: "", def_value: None }, CppParam { name: "token", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None
   // }, CppParam { name: "levelPackId", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value:
   // None }]
-  constexpr MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13(
+  constexpr MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14(
       int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::OpenProductStoreResult> __t__builder,
       ::GlobalNamespace::MockPlatformAdditionalContentModel* __4__this, ::System::Threading::CancellationToken token, ::StringW levelPackId,
       ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14739 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -372,23 +367,22 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, token) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, token) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, levelPackId) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, levelPackId) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine,
-// System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
+// Dependencies OpenProductStoreResult, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__10
@@ -398,10 +392,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x26a5bf0, size 0x2d0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x35d688c, size 0x2f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x26a5ec0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x35d6b7c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -422,7 +416,7 @@ public:
                                                                                  ::StringW levelId, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14740 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -476,7 +470,7 @@ public:
 
   using _IsPackBetterBuyThanLevelAsync_d__9 = ::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9;
 
-  using _OpenLevelPackProductStoreAsync_d__13 = ::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13;
+  using _OpenLevelPackProductStoreAsync_d__14 = ::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14;
 
   using _OpenLevelProductStoreAsync_d__10 = ::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10;
 
@@ -495,36 +489,39 @@ public:
   /// @brief Field randomMillisecondsResponseTime, offset 0x2c, size 0x8
   __declspec(property(get = __cordl_internal_get_randomMillisecondsResponseTime, put = __cordl_internal_set_randomMillisecondsResponseTime)) ::UnityEngine::RangeInt randomMillisecondsResponseTime;
 
-  /// @brief Method BuyLevel, addr 0x26a4d50, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method BuyLevel, addr 0x35d5968, size 0x100, virtual false, abstract: false, final false
   inline void BuyLevel(::StringW levelId);
 
-  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x26a4b00, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method GetExcludedLevelIdsInternalAsync, addr 0x35d5884, size 0xe4, virtual true, abstract: false, final false
+  inline ::System::Threading::Tasks::Task_1<::ArrayW<::StringW, ::Array<::StringW>*>>* GetExcludedLevelIdsInternalAsync(::System::Threading::CancellationToken token);
+
+  /// @brief Method GetLevelDataVersionInternalAsync, addr 0x35d5630, size 0x70, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::BeatmapLevelDataVersion>* GetLevelDataVersionInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x26a4910, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetLevelEntitlementStatusInternalAsync, addr 0x35d5450, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetLevelEntitlementStatusInternalAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x26a4a08, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method GetPackEntitlementStatusInternalAsync, addr 0x35d5540, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>* GetPackEntitlementStatusInternalAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method InvalidateDataInternal, addr 0x26a490c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method InvalidateDataInternal, addr 0x35d544c, size 0x4, virtual true, abstract: false, final false
   inline void InvalidateDataInternal();
 
-  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x26a4b68, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method IsPackBetterBuyThanLevelAsync, addr 0x35d56a0, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::IsPackBetterBuyThanLevelResult>* IsPackBetterBuyThanLevelAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
   static inline ::GlobalNamespace::MockPlatformAdditionalContentModel* New_ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* initialData);
 
-  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x26a4e74, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelPackProductStoreAsync, addr 0x35d5a80, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelPackProductStoreAsync(::StringW levelPackId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method OpenLevelProductStoreAsync, addr 0x26a4c54, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method OpenLevelProductStoreAsync, addr 0x35d5790, size 0xf0, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::OpenProductStoreResult>* OpenLevelProductStoreAsync(::StringW levelId, ::System::Threading::CancellationToken token);
 
-  /// @brief Method OpenStore, addr 0x26a4d4c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OpenStore, addr 0x35d5880, size 0x4, virtual true, abstract: false, final false
   inline void OpenStore(::StringW uri);
 
-  /// @brief Method Wait, addr 0x26a4f6c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x35d5b70, size 0x104, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* Wait(::System::Threading::CancellationToken token);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* const& __cordl_internal_get__levelPacksEntitlements() const;
@@ -551,7 +548,7 @@ public:
 
   constexpr void __cordl_internal_set_randomMillisecondsResponseTime(::UnityEngine::RangeInt value);
 
-  /// @brief Method .ctor, addr 0x26a4294, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d4e00, size 0x64c, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::MockPlatformAdditionalContentModelInitialDataSO* initialData);
 
 protected:
@@ -569,7 +566,7 @@ public:
   MockPlatformAdditionalContentModel(MockPlatformAdditionalContentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12768 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14741 };
 
   /// @brief Field _levelsEntitlements, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::MockPlatformEntitlement*>* ____levelsEntitlements;
@@ -604,5 +601,5 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformAdditionalContentModel__Ge
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformAdditionalContentModel__GetPackEntitlementStatusInternalAsync_d__7, "",
                        "MockPlatformAdditionalContentModel/<GetPackEntitlementStatusInternalAsync>d__7");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformAdditionalContentModel__IsPackBetterBuyThanLevelAsync_d__9, "", "MockPlatformAdditionalContentModel/<IsPackBetterBuyThanLevelAsync>d__9");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__13, "", "MockPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__13");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelPackProductStoreAsync_d__14, "", "MockPlatformAdditionalContentModel/<OpenLevelPackProductStoreAsync>d__14");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MockPlatformAdditionalContentModel__OpenLevelProductStoreAsync_d__10, "", "MockPlatformAdditionalContentModel/<OpenLevelProductStoreAsync>d__10");

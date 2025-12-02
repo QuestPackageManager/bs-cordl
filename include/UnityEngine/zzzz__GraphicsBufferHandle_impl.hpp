@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/GraphicsBufferHandle.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__GraphicsBufferHandle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::GraphicsBufferHandle.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::GraphicsBufferHandle::*)()>(&::UnityEngine::GraphicsBufferHandle::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48862c4;
+  constexpr static std::size_t addrs = 0x686fddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GraphicsBufferHandle::*)(::System::Object*)>(&::UnityEngine::GraphicsBufferHandle::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x48862cc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x686fde4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::GraphicsBufferHandle::*)(::UnityEngine::GraphicsBufferHandle)>(
     &::UnityEngine::GraphicsBufferHandle::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4886344;
+  constexpr static std::size_t addrs = 0x686fe60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

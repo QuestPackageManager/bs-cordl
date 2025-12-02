@@ -5,11 +5,13 @@ module;
 #pragma once
 #include "UnityEngine/InputSystem/Android/AndroidAccelerometer.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidAmbientTemperature.hpp"
+#include "UnityEngine/InputSystem/Android/AndroidGameRotationVector.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidGamepad.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidGamepadWithDpadAxes.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidGamepadWithDpadButtons.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidGravitySensor.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidGyroscope.hpp"
+#include "UnityEngine/InputSystem/Android/AndroidHingeAngle.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidJoystick.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidLightSensor.hpp"
 #include "UnityEngine/InputSystem/Android/AndroidLinearAccelerationSensor.hpp"

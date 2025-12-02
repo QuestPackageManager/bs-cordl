@@ -29,7 +29,7 @@ public:
   constexpr VRActiveActionSet_t(uint64_t ulActionSet, uint64_t ulRestrictedToDevice, uint64_t ulSecondaryActionSet, uint32_t unPadding, int32_t nPriority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9043 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8520 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

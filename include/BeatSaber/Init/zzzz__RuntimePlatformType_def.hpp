@@ -23,8 +23,6 @@ public:
 
   /// @brief Nested struct __RuntimePlatformType_Unwrapped
   enum struct __RuntimePlatformType_Unwrapped : int32_t {
-    __E_PS4 = static_cast<int32_t>(0x0),
-    __E_PS5 = static_cast<int32_t>(0x1),
     __E_Quest = static_cast<int32_t>(0x2),
     __E_Rift = static_cast<int32_t>(0x3),
     __E_Steam = static_cast<int32_t>(0x4),
@@ -47,12 +45,6 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr RuntimePlatformType(int32_t value__) noexcept;
 
-  /// @brief Field PS4 value: I32(0)
-  static ::BeatSaber::Init::RuntimePlatformType const PS4;
-
-  /// @brief Field PS5 value: I32(1)
-  static ::BeatSaber::Init::RuntimePlatformType const PS5;
-
   /// @brief Field Quest value: I32(2)
   static ::BeatSaber::Init::RuntimePlatformType const Quest;
 
@@ -63,7 +55,7 @@ public:
   static ::BeatSaber::Init::RuntimePlatformType const Steam;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18385 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22358 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

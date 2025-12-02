@@ -48,16 +48,16 @@ public:
 
   constexpr void __cordl_internal_set__titleText(::UnityW<::TMPro::TextMeshProUGUI> value);
 
-  /// @brief Method .ctor, addr 0x3b7075c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x575b820, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_conditionText, addr 0x3b70704, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_conditionText, addr 0x575b7cc, size 0x20, virtual false, abstract: false, final false
   inline void set_conditionText(::StringW value);
 
-  /// @brief Method set_hideCondition, addr 0x3b70728, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_hideCondition, addr 0x575b7ec, size 0x34, virtual false, abstract: false, final false
   inline void set_hideCondition(bool value);
 
-  /// @brief Method set_title, addr 0x3b706e0, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_title, addr 0x575b7ac, size 0x20, virtual false, abstract: false, final false
   inline void set_title(::StringW value);
 
 protected:
@@ -75,7 +75,7 @@ public:
   ObjectiveListItem(ObjectiveListItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5394 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6987 };
 
   /// @brief Field _titleText, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TextMeshProUGUI> ____titleText;

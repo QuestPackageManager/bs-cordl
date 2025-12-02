@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BeatmapLineData.hpp"
-#include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLineData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
+#include "GlobalNamespace/zzzz__IReadonlyBeatmapLineData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BeatmapLineData.get_beatmapObjectsData
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::BeatmapObjectData*>* (
     ::GlobalNamespace::BeatmapLineData::*)()>(&::GlobalNamespace::BeatmapLineData::get_beatmapObjectsData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22451ac;
+  constexpr static std::size_t addrs = 0x3165834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapLineData*>::get(),
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLineData::*)(int32_t)>(&::GlobalNamespace::BeatmapLineData::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22451b4;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x316583c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapLineData::*)(::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapObjectData*>*)>(&::GlobalNamespace::BeatmapLineData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x224523c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x31658c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapLineData::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::BeatmapLineData::AddBeatmapObjectData)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2245264;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x31658c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((

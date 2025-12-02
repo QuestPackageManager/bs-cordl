@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_reflectionsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15cc4;
+  constexpr static std::size_t addrs = 0x56f5078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(int32_t)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::set_reflectionsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15ccc;
+  constexpr static std::size_t addrs = 0x56f5080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_colorFromSchemeAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15cd4;
+  constexpr static std::size_t addrs = 0x56f5088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)(float_t)>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::set_colorFromSchemeAlpha)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15cdc;
+  constexpr static std::size_t addrs = 0x56f5090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color, ::Array<::UnityEngine::Color>*> (
     ::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(&::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightEditorColors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15ce4;
+  constexpr static std::size_t addrs = 0x56f5098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BakedLightDataLoader> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedLightDataLoaderPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15cec;
+  constexpr static std::size_t addrs = 0x56f50a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BakedReflectionProbe> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_bakedReflectionProbePrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15cf4;
+  constexpr static std::size_t addrs = 0x56f50a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightmapLightsWithIds> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_lightmapLightsWithIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15cfc;
+  constexpr static std::size_t addrs = 0x56f50b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::FakeMirrorObjectsInstaller> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorObjectsInstallerPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15d04;
+  constexpr static std::size_t addrs = 0x56f50b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,7 +145,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::FakeMirrorSettings> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_fakeMirrorSettingsPrefab)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15d0c;
+  constexpr static std::size_t addrs = 0x56f50c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -159,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Material> (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::get_defaultDepthOnlyWriteMaterialForFakeMirror)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b15d14;
+  constexpr static std::size_t addrs = 0x56f50c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::ApplySettings)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b15d1c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x56f50d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightBakingPersistentSettingsSO::*)()>(
     &::GlobalNamespace::LightBakingPersistentSettingsSO::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3b15d94;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x56f514c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightBakingPersistentSettingsSO*>::get(),

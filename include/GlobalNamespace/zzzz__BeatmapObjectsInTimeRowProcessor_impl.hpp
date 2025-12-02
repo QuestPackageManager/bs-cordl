@@ -235,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData::*)(::GlobalNamespace::SliderData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22478d0;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x3167dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData::*)()>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_SliderTailData::GetCopy)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2249d64;
+  constexpr static std::size_t addrs = 0x3169fd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -295,8 +295,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c::*)()>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2249dc4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x316a028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c*>::get(),
@@ -309,8 +309,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c::*)(::GlobalNamespace::BeatmapDataItem*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c::_HandleCurrentTimeSliceColorNotesDidFinishTimeSlice_b__17_0)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2249dcc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x316a02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -358,8 +358,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0::*)()>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22499b4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3169cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -373,8 +373,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0::*)(::GlobalNamespace::SliderData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor___c__DisplayClass17_0::_HandleCurrentTimeSliceColorNotesDidFinishTimeSlice_b__1)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x2249e84;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x316a0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -419,8 +419,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(int32_t)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::_ctor)> {
-  constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x2246ce0;
+  constexpr static std::size_t size = 0x608;
+  constexpr static std::size_t addrs = 0x3167128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -434,8 +434,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessNote)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x224727c;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x3167730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -449,8 +449,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::SliderData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessSlider)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x2247350;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x3167818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -464,8 +464,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)()>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::ProcessAllRemainingData)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x22474c0;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x316799c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapObjectsInTimeRowProcessor*>::get(),
@@ -479,8 +479,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(
     ::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<::GlobalNamespace::NoteData*>*, ::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::HandleCurrentTimeSliceColorNotesDidAddItem)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x22476bc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3167b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,8 +498,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*)>(
         &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::HandleCurrentNewTimeSliceAllNotesAndSlidersDidStartNewTimeSlice)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x224771c;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x3167bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -516,8 +516,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<::GlobalNamespace::BeatmapDataItem*>*, float_t)>(
         &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::HandleCurrentTimeSliceAllNotesAndSlidersDidFinishTimeSlice)> {
-  constexpr static std::size_t size = 0x1920;
-  constexpr static std::size_t addrs = 0x2247920;
+  constexpr static std::size_t size = 0x1740;
+  constexpr static std::size_t addrs = 0x3167e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -535,8 +535,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<::GlobalNamespace::NoteData*>*, float_t)>(
         &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::HandleCurrentTimeSliceColorNotesDidFinishTimeSlice)> {
-  constexpr static std::size_t size = 0x6a0;
-  constexpr static std::size_t addrs = 0x2249314;
+  constexpr static std::size_t size = 0x6b0;
+  constexpr static std::size_t addrs = 0x3169618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -554,8 +554,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::*)(::GlobalNamespace::BeatmapObjectsInTimeRowProcessor_TimeSliceContainer_1<::GlobalNamespace::NoteData*>*, float_t)>(
         &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::HandlePerColorTypeTimeSliceContainerDidFinishTimeSlice)> {
-  constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x22499bc;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x3169ccc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SliderData*, ::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::SliderHeadPositionOverlapsWithNote)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2249240;
+  constexpr static std::size_t addrs = 0x3169544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -590,7 +590,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SliderData*, ::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::SliderTailPositionOverlapsWithNote)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22492d4;
+  constexpr static std::size_t addrs = 0x31695d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -607,7 +607,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SliderData*, ::GlobalNamespace::SliderData*)>(
     &::GlobalNamespace::BeatmapObjectsInTimeRowProcessor::SliderHeadPositionOverlapsWithBurstTail)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x2249280;
+  constexpr static std::size_t addrs = 0x3169584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

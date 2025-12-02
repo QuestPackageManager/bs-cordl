@@ -61,7 +61,7 @@ public:
   MethodCall_2(MethodCall_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10259 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13413 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

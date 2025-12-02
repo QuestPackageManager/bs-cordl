@@ -1,12 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/InputEventTrace.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__CallbackArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
@@ -15,12 +11,14 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Comparison_1_def.hpp"
 #include "System/zzzz__Func_3_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventPtr_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventTrace_def.hpp"
@@ -32,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace*)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x460e0f8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6395570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::Dispose)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x460e844;
+  constexpr static std::size_t addrs = 0x6395d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::MoveNext)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x460e850;
+  constexpr static std::size_t addrs = 0x6395d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::Reset)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x460e914;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6395e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventPtr (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e938;
+  constexpr static std::size_t addrs = 0x6395e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_Enumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x460e940;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6395e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -232,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c::*)()>(
     &::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4610054;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x639754c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -248,8 +246,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c::_PlayAllEventsAccordingToTimestamps_b__38_0)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x461005c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6397550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -303,8 +301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c__DisplayClass43_0::*)()>(
     &::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c__DisplayClass43_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460fff0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x63974f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -319,7 +317,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c__DisplayClass43_0::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo)>(&::UnityEngine::InputSystem::LowLevel::ReplayController_InputEventTrace___c__DisplayClass43_0::_ApplyDeviceMapping_b__0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4610120;
+  constexpr static std::size_t addrs = 0x6397658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -366,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::get_trace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e99c;
+  constexpr static std::size_t addrs = 0x6395e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -381,7 +379,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::get_finished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e9a4;
+  constexpr static std::size_t addrs = 0x6395e98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -395,8 +393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::set_finished)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x460e9ac;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6395ea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -411,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::get_paused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e9b8;
+  constexpr static std::size_t addrs = 0x6395ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -425,8 +423,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::set_paused)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x460e9c0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6395eb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -441,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::get_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e9cc;
+  constexpr static std::size_t addrs = 0x6395eb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -456,7 +454,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::set_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e9d4;
+  constexpr static std::size_t addrs = 0x6395ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -470,8 +468,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::InputSystem::InputDevice*>* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::get_createdDevices)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x460e9dc;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6395ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -485,8 +483,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace*)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x460dc7c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6394fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -500,8 +498,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::Dispose)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x460ea40;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x6395f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -517,7 +515,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::WithDeviceMappedFromTo)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x460ed54;
+  constexpr static std::size_t addrs = 0x6396224;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -533,8 +531,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(int32_t, int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::WithDeviceMappedFromTo)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x460edd8;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x63962a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -550,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::WithAllDevicesMappedToNewInstances)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x460ef54;
+  constexpr static std::size_t addrs = 0x639640c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -565,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(::System::Action*)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::OnFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460ef60;
+  constexpr static std::size_t addrs = 0x6396418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -581,7 +579,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::OnEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460ef68;
+  constexpr static std::size_t addrs = 0x6396420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -596,7 +594,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::PlayOneEvent)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x460ef70;
+  constexpr static std::size_t addrs = 0x6396428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -611,7 +609,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::Rewind)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x460f554;
+  constexpr static std::size_t addrs = 0x6396a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -625,8 +623,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::PlayAllFramesOneByOne)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x460f56c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6396a24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -640,8 +638,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::PlayAllEvents)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x460f61c;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6396ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -655,8 +653,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::PlayAllEventsAccordingToTimestamps)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x460f6d4;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x6396b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -670,8 +668,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::OnBeginFrame)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x460f954;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x6396e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -686,7 +684,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::Finished)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x460fb84;
+  constexpr static std::size_t addrs = 0x6397034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -700,8 +698,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::QueueEvent)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x460f328;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x63967c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -715,8 +713,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(
     bool, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr>)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::MoveNext)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x460eff4;
+  constexpr static std::size_t size = 0x31c;
+  constexpr static std::size_t addrs = 0x63964ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -731,8 +729,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController::ApplyDeviceMapping)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x460fc58;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x6397108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1096,7 +1094,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::get_deviceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4610134;
+  constexpr static std::size_t addrs = 0x639766c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1111,7 +1109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::set_deviceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461013c;
+  constexpr static std::size_t addrs = 0x6397674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1126,7 +1124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::get_layout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4610144;
+  constexpr static std::size_t addrs = 0x639767c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1141,7 +1139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::set_layout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461014c;
+  constexpr static std::size_t addrs = 0x6397684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1156,7 +1154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::get_stateFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4610154;
+  constexpr static std::size_t addrs = 0x639768c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1171,7 +1169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)(
     ::UnityEngine::InputSystem::Utilities::FourCC)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::set_stateFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461015c;
+  constexpr static std::size_t addrs = 0x6397694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1186,7 +1184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::get_stateSizeInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4610164;
+  constexpr static std::size_t addrs = 0x639769c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1201,7 +1199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo::set_stateSizeInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x461016c;
+  constexpr static std::size_t addrs = 0x63976a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1277,8 +1275,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_FrameMarkerEvent)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x460c26c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x639362c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1292,7 +1290,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_deviceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c29c;
+  constexpr static std::size_t addrs = 0x6393638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1306,7 +1304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(int32_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::set_deviceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c2a4;
+  constexpr static std::size_t addrs = 0x6393640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1321,7 +1319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_enabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c2ac;
+  constexpr static std::size_t addrs = 0x6393648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1335,7 +1333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_recordFrameMarkers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c2b4;
+  constexpr static std::size_t addrs = 0x6393650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1348,8 +1346,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(bool)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::set_recordFrameMarkers)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x460c2bc;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6393658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1364,7 +1362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_eventCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c3a4;
+  constexpr static std::size_t addrs = 0x6393794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1378,7 +1376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_totalEventSizeInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c3ac;
+  constexpr static std::size_t addrs = 0x639379c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1392,7 +1390,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_allocatedSizeInBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x460c3b4;
+  constexpr static std::size_t addrs = 0x63937a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1406,7 +1404,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_maxSizeInBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c3d4;
+  constexpr static std::size_t addrs = 0x63937c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1420,8 +1418,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::LowLevel::InputEventTrace_DeviceInfo> (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
         &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_deviceInfos)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x460c3dc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63937cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1436,7 +1434,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>* (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
         &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_onFilterEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c424;
+  constexpr static std::size_t addrs = 0x6393818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1451,7 +1449,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Func_3<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*, bool>*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::set_onFilterEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c42c;
+  constexpr static std::size_t addrs = 0x6393820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1466,8 +1464,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(
     ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::add_onEvent)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x460c434;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6393828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1481,8 +1479,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(
     ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::remove_onEvent)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x460c48c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6393884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1496,8 +1494,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(
     ::UnityEngine::InputSystem::InputDevice*, int64_t, bool, int64_t, int64_t)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::_ctor)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x460c4e4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x63938e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1513,8 +1511,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(int64_t, bool, int64_t, int64_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x460c5b8;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6393978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1529,8 +1527,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::WriteTo)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x460c628;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x63939b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1544,8 +1542,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::System::IO::Stream*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::WriteTo)> {
-  constexpr static std::size_t size = 0x6e0;
-  constexpr static std::size_t addrs = 0x460c7f4;
+  constexpr static std::size_t size = 0x6dc;
+  constexpr static std::size_t addrs = 0x6393b34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1559,8 +1557,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::ReadFrom)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x460cf5c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x639427c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1574,8 +1572,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::System::IO::Stream*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::ReadFrom)> {
-  constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x460d128;
+  constexpr static std::size_t size = 0x710;
+  constexpr static std::size_t addrs = 0x63943fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1589,8 +1587,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace* (*)(::StringW)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::LoadFrom)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x460d7f0;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6394b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1604,8 +1602,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace* (*)(::System::IO::Stream*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::LoadFrom)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x460d9f0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6394cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1619,8 +1617,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEventTrace_ReplayController* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::Replay)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x460db08;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6394de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1633,8 +1631,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(int64_t, int64_t)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Resize)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x460dcf0;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x6395014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1649,7 +1647,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Clear)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x460df64;
+  constexpr static std::size_t addrs = 0x6395324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1662,8 +1660,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Enable)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x460df80;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x6395340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1676,8 +1674,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Disable)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x460db68;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x6394e48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1691,7 +1689,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(
     ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr>)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::GetNextEvent)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x460deec;
+  constexpr static std::size_t addrs = 0x63952ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1705,8 +1703,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityEngine::InputSystem::LowLevel::InputEventPtr>* (
     ::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::GetEnumerator)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x460cf04;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x639421c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1720,7 +1718,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x460e130;
+  constexpr static std::size_t addrs = 0x639558c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1735,7 +1733,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x460e134;
+  constexpr static std::size_t addrs = 0x6395590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1746,10 +1744,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventTrace.get_m_EventBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t* (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460c3cc;
+  constexpr static std::size_t addrs = 0x63937bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1760,25 +1758,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventTrace.set_m_EventBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::cordl_internals::Ptr<uint8_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(uint8_t*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460d7d8;
+  constexpr static std::size_t addrs = 0x6394b0c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBuffer", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBuffer",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventTrace.get_m_EventBufferHead
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t* (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBufferHead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460dee4;
+  constexpr static std::size_t addrs = 0x63952a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1789,25 +1787,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventTrace.set_m_EventBufferHead
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::cordl_internals::Ptr<uint8_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(uint8_t*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBufferHead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460d7e0;
+  constexpr static std::size_t addrs = 0x6394b14;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferHead", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferHead",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventTrace.get_m_EventBufferTail
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<uint8_t> (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t* (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBufferTail)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460e0f0;
+  constexpr static std::size_t addrs = 0x6395568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1818,15 +1816,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventTrace.set_m_EventBufferTail
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(::cordl_internals::Ptr<uint8_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(uint8_t*)>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBufferTail)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460d7e8;
+  constexpr static std::size_t addrs = 0x6394b1c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferTail", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferTail",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
     return ___internal_method;
   }
 };
@@ -1835,8 +1833,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Allocate)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x460e0c8;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6395518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1849,8 +1847,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::Release)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x460e14c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x63955a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1864,7 +1862,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::OnBeforeUpdate)> {
   constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x460e18c;
+  constexpr static std::size_t addrs = 0x6395610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -1877,8 +1875,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventTrace::*)(
     ::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*)>(&::UnityEngine::InputSystem::LowLevel::InputEventTrace::OnInputEvent)> {
-  constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x460e304;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x6395788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1893,8 +1891,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventTrace::get_kFileFormat)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x460ced4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6394210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
@@ -2103,6 +2101,15 @@ constexpr void UnityEngine::InputSystem::LowLevel::InputEventTrace::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_DeviceInfos)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::setStaticF_k_InputEvenTraceMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputEvenTraceMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get>(
+      std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::LowLevel::InputEventTrace::getStaticF_k_InputEvenTraceMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputEvenTraceMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get>();
+}
 inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::setStaticF_kFileVersion(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "kFileVersion", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get>(
       std::forward<int32_t>(value));
@@ -2292,37 +2299,37 @@ inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::Dispose() {
                                                                              "Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<uint8_t> UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBuffer() {
+inline uint8_t* UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBuffer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
                                                                              "get_m_EventBuffer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<uint8_t>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<uint8_t*, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBuffer(::cordl_internals::Ptr<uint8_t> value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBuffer", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBuffer(uint8_t* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBuffer",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::cordl_internals::Ptr<uint8_t> UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBufferHead() {
+inline uint8_t* UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBufferHead() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
                                                                              "get_m_EventBufferHead", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<uint8_t>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<uint8_t*, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBufferHead(::cordl_internals::Ptr<uint8_t> value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferHead", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBufferHead(uint8_t* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferHead",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::cordl_internals::Ptr<uint8_t> UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBufferTail() {
+inline uint8_t* UnityEngine::InputSystem::LowLevel::InputEventTrace::get_m_EventBufferTail() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(),
                                                                              "get_m_EventBufferTail", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<uint8_t>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<uint8_t*, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBufferTail(::cordl_internals::Ptr<uint8_t> value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferTail", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::set_m_EventBufferTail(uint8_t* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventTrace*>::get(), "set_m_EventBufferTail",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::InputSystem::LowLevel::InputEventTrace::Allocate() {

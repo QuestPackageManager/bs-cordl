@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/ProBuilder/KdTree/PriorityQueue_2.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_impl.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__PriorityQueue_2_def.hpp"
+#include "UnityEngine/ProBuilder/KdTree/zzzz__IPriorityQueue_2_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 #include "UnityEngine/ProBuilder/KdTree/zzzz__ItemPriority_2_def.hpp"
 template <typename TItem, typename TPriority>

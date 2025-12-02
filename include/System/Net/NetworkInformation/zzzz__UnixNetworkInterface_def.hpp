@@ -52,12 +52,12 @@ public:
   /// @brief Field type, offset 0x30, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::System::Net::NetworkInformation::NetworkInterfaceType type;
 
-  /// @brief Method AddAddress, addr 0x43eb734, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AddAddress, addr 0x6137c70, size 0xb4, virtual false, abstract: false, final false
   inline void AddAddress(::System::Net::IPAddress* address);
 
   static inline ::System::Net::NetworkInformation::UnixNetworkInterface* New_ctor(::StringW name);
 
-  /// @brief Method SetLinkLayerInfo, addr 0x43eb7d8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method SetLinkLayerInfo, addr 0x6137d24, size 0xc, virtual false, abstract: false, final false
   inline void SetLinkLayerInfo(int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> macAddress, ::System::Net::NetworkInformation::NetworkInterfaceType type);
 
   constexpr ::System::Collections::Generic::List_1<::System::Net::IPAddress*>* const& __cordl_internal_get_addresses() const;
@@ -90,13 +90,13 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Net::NetworkInformation::NetworkInterfaceType value);
 
-  /// @brief Method .ctor, addr 0x43eb7f4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6137d38, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Name, addr 0x43eeaec, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Name, addr 0x613acc4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NetworkInterfaceType, addr 0x43eeaf4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NetworkInterfaceType, addr 0x613accc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Net::NetworkInformation::NetworkInterfaceType get_NetworkInterfaceType();
 
 protected:
@@ -114,7 +114,7 @@ public:
   UnixNetworkInterface(UnixNetworkInterface const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11687 };
 
   /// @brief Field ipproperties, offset: 0x10, size: 0x8, def value: None
   ::System::Net::NetworkInformation::IPInterfaceProperties* ___ipproperties;

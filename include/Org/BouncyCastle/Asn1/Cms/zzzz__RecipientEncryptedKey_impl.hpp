@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x230b550;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x32386cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::GetInstance)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x230b634;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x32387b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x230b64c;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x32387c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::*)(
     ::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier*, ::Org::BouncyCastle::Asn1::Asn1OctetString*)>(&::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x230b7c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x323894c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::KeyAgreeRecipientIdentifier* (
     ::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::*)()>(&::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230b7f4;
+  constexpr static std::size_t addrs = 0x3238954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey*>::get(),
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::get_EncryptedKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230b7fc;
+  constexpr static std::size_t addrs = 0x323895c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey*>::get(),
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::RecipientEncryptedKey::ToAsn1Object)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x230b804;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3238964;
 
   inline static ::MethodInfo const* methodInfo() {
 

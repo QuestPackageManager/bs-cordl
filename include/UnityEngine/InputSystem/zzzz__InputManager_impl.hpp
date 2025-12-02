@@ -1,12 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/InputManager.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
+#include "Unity/Profiling/zzzz__ProfilerMarker_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputControlLayout_impl.hpp"
 #include "UnityEngine/InputSystem/Layouts/zzzz__InputDeviceDescription_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEventStream_impl.hpp"
@@ -18,16 +14,19 @@
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__DynamicBitfield_impl.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputSettings_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
@@ -49,9 +48,11 @@
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputUpdateType_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InlinedArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
+#include "UnityEngine/InputSystem/Utilities/zzzz__JsonParser_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__MemoryHelpers_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputActionAsset_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlLayoutChange_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControl_def.hpp"
@@ -113,7 +114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)()>(
     &::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::get_count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d5c6c;
+  constexpr static std::size_t addrs = 0x6358064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,8 +129,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*, int64_t, uint32_t)>(
     &::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::Add)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x45d5394;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x635806c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)(
     ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*, int64_t, bool)>(&::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::Remove)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x45d568c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6358220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -162,7 +163,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)()>(
     &::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::Clear)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x45d54d0;
+  constexpr static std::size_t addrs = 0x6358418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -176,8 +177,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)()>(
     &::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::CompactArrays)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x45d5330;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6358480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::RemoveAt)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x45d5ce4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6358374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -206,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::*)()>(
     &::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice::SortMonitorsByIndex)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x45d58f4;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x63584e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -285,8 +286,8 @@ constexpr ::UnityEngine::InputSystem::InputManager_StateChangeMonitorsForDevice:
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager___c::*)()>(&::UnityEngine::InputSystem::InputManager___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d5df0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x63586a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get(), ".ctor",
@@ -294,17 +295,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager___c._MakeDeviceNameUnique_b__144_0
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager___c._MakeDeviceNameUnique_b__184_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputManager___c::*)(::UnityEngine::InputSystem::InputDevice*)>(
-    &::UnityEngine::InputSystem::InputManager___c::_MakeDeviceNameUnique_b__144_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x45d5df8;
+    &::UnityEngine::InputSystem::InputManager___c::_MakeDeviceNameUnique_b__184_0)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x63586a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get(), "<MakeDeviceNameUnique>b__144_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get(), "<MakeDeviceNameUnique>b__184_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get() })));
     return ___internal_method;
   }
@@ -317,13 +318,13 @@ inline ::UnityEngine::InputSystem::InputManager___c* UnityEngine::InputSystem::I
   return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::InputManager___c*, "<>9",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get>();
 }
-inline void UnityEngine::InputSystem::InputManager___c::setStaticF___9__144_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>*, "<>9__144_0",
+inline void UnityEngine::InputSystem::InputManager___c::setStaticF___9__184_0(::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>*, "<>9__184_0",
                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get>(
       std::forward<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* UnityEngine::InputSystem::InputManager___c::getStaticF___9__144_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>*, "<>9__144_0",
+inline ::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>* UnityEngine::InputSystem::InputManager___c::getStaticF___9__184_0() {
+  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::InputSystem::InputDevice*, ::StringW>*, "<>9__184_0",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get>();
 }
 inline void UnityEngine::InputSystem::InputManager___c::_ctor() {
@@ -331,9 +332,9 @@ inline void UnityEngine::InputSystem::InputManager___c::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::InputSystem::InputManager___c::_MakeDeviceNameUnique_b__144_0(::UnityEngine::InputSystem::InputDevice* x) {
+inline ::StringW UnityEngine::InputSystem::InputManager___c::_MakeDeviceNameUnique_b__184_0(::UnityEngine::InputSystem::InputDevice* x) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get(), "<MakeDeviceNameUnique>b__144_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c*>::get(), "<MakeDeviceNameUnique>b__184_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, x);
 }
@@ -342,521 +343,521 @@ inline ::UnityEngine::InputSystem::InputManager___c* UnityEngine::InputSystem::I
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::InputSystem::InputManager___c::InputManager___c() {}
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::setStaticF___9(::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>::get>(
-      std::forward<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>(value));
+template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::setStaticF___9(::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*, "<>9",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>::get>(
+      std::forward<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>(value));
 }
-template <typename TDevice> inline ::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>* UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>::get>();
+template <typename TDevice> inline ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::getStaticF___9() {
+  return ::cordl_internals::getStaticField<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*, "<>9",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>::get>();
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::setStaticF___9__60_0(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*, "<>9__60_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>::get>(
+template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::setStaticF___9__82_0(::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* value) {
+  ::cordl_internals::setStaticField<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*, "<>9__82_0",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>::get>(
       std::forward<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*>(value));
 }
-template <typename TDevice> inline ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::getStaticF___9__60_0() {
-  return ::cordl_internals::getStaticField<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*, "<>9__60_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>::get>();
+template <typename TDevice> inline ::System::Func_1<::UnityEngine::InputSystem::InputDevice*>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::getStaticF___9__82_0() {
+  return ::cordl_internals::getStaticField<::System::Func_1<::UnityEngine::InputSystem::InputDevice*>*, "<>9__82_0",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>::get>();
 }
-template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::_ctor() {
+template <typename TDevice> inline void UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TDevice> inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::_RegisterPrecompiledLayout_b__60_0() {
+template <typename TDevice> inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::_RegisterPrecompiledLayout_b__82_0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>::get(),
-                                               "<RegisterPrecompiledLayout>b__60_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>::get(),
+                                               "<RegisterPrecompiledLayout>b__82_0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputDevice*, false>(this, ___internal_method);
 }
-template <typename TDevice> inline ::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>* UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>*>());
+template <typename TDevice> inline ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>* UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>*>());
 }
 // Ctor Parameters []
-template <typename TDevice> constexpr ::UnityEngine::InputSystem::InputManager___c__60_1<TDevice>::InputManager___c__60_1() {}
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75._ctor
+template <typename TDevice> constexpr ::UnityEngine::InputSystem::InputManager___c__82_1<TDevice>::InputManager___c__82_1() {}
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)(int32_t)>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x45ce338;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)(int32_t)>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x63586cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.System_IDisposable_Dispose
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x45d5e5c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_IDisposable_Dispose)> {
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x63586ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.MoveNext
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::MoveNext)> {
-  constexpr static std::size_t size = 0x6c4;
-  constexpr static std::size_t addrs = 0x45d5ea0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::MoveNext)> {
+  constexpr static std::size_t size = 0x960;
+  constexpr static std::size_t addrs = 0x6358818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.__m__Finally1
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally1)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d6564;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally1)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6359178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally1",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally1",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.__m__Finally2
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.__m__Finally2
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally2)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d65b4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally2)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x63591c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally2",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally2",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.__m__Finally3
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.__m__Finally3
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally3)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d6604;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally3)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6359208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally3",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally3",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.__m__Finally4
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.__m__Finally4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally4)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d6654;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally4)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6359250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally4",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally4",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.__m__Finally5
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.__m__Finally5
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally5)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d66a4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally5)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6359298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally5",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally5",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.__m__Finally6
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.__m__Finally6
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally6)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d66f4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally6)> {
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x63592e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally6",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally6",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.System_Collections_Generic_IEnumerator_System_String__get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.System_Collections_Generic_IEnumerator_System_String__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_Generic_IEnumerator_System_String__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d6744;
+  constexpr static std::size_t addrs = 0x6359328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.String>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x45d674c;
+  constexpr static std::size_t addrs = 0x6359330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d6784;
+  constexpr static std::size_t addrs = 0x6359368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.System_Collections_Generic_IEnumerable_System_String__GetEnumerator
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.System_Collections_Generic_IEnumerable_System_String__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-        &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x45d678c;
+    static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>* (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+        &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_Generic_IEnumerable_System_String__GetEnumerator)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6359370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                     "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::*)()>(
-    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::*)()>(
+    &::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45d6830;
+  constexpr static std::size_t addrs = 0x6359410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___1__state() {
+constexpr int32_t& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___1__state() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___1__state(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::StringW& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___2__current() {
+constexpr ::StringW& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::StringW const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___2__current() const {
+constexpr ::StringW const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___2__current(::StringW value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___2__current(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
-constexpr ::StringW& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get_basedOn() {
+constexpr ::StringW& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get_basedOn() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basedOn;
 }
-constexpr ::StringW const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get_basedOn() const {
+constexpr ::StringW const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get_basedOn() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___basedOn;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set_basedOn(::StringW value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set_basedOn(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___basedOn)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___3__basedOn() {
+constexpr ::StringW& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___3__basedOn() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__basedOn;
 }
-constexpr ::StringW const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___3__basedOn() const {
+constexpr ::StringW const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___3__basedOn() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__basedOn;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___3__basedOn(::StringW value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___3__basedOn(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__basedOn)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::InputSystem::InputManager*& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___4__this() {
+constexpr ::UnityEngine::InputSystem::InputManager*& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityEngine::InputSystem::InputManager* const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___4__this() const {
+constexpr ::UnityEngine::InputSystem::InputManager* const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___4__this(::UnityEngine::InputSystem::InputManager* value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___4__this(::UnityEngine::InputSystem::InputManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::InputSystem::Utilities::InternedString& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get__internedBasedOn_5__2() {
+constexpr ::UnityEngine::InputSystem::Utilities::InternedString& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get__internedBasedOn_5__2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internedBasedOn_5__2;
 }
-constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get__internedBasedOn_5__2() const {
+constexpr ::UnityEngine::InputSystem::Utilities::InternedString const& UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get__internedBasedOn_5__2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____internedBasedOn_5__2;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set__internedBasedOn_5__2(::UnityEngine::InputSystem::Utilities::InternedString value) {
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set__internedBasedOn_5__2(::UnityEngine::InputSystem::Utilities::InternedString value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____internedBasedOn_5__2 = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*>&
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___7__wrap2() {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___7__wrap2() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*> const&
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___7__wrap2() const {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___7__wrap2() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap2;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___7__wrap2(
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___7__wrap2(
     ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Type*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap2 = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW>&
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___7__wrap3() {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___7__wrap3() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap3;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW> const&
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___7__wrap3() const {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___7__wrap3() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap3;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___7__wrap3(
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___7__wrap3(
     ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::StringW> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap3 = value;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*>&
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___7__wrap4() {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___7__wrap4() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap4;
 }
 constexpr ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString,
                                                                   ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*> const&
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_get___7__wrap4() const {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_get___7__wrap4() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap4;
 }
-constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__cordl_internal_set___7__wrap4(
+constexpr void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__cordl_internal_set___7__wrap4(
     ::System::Collections::Generic::Dictionary_2_Enumerator<::UnityEngine::InputSystem::Utilities::InternedString, ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____7__wrap4 = value;
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::_ctor(int32_t __1__state) {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_IDisposable_Dispose() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::MoveNext() {
+inline bool UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally1() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally1",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally1",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally2() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally2() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally2",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally2",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally3() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally3() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally3",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally3",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally4() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally4() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally4",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally4",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally5() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally5() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally5",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally5",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::__m__Finally6() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::__m__Finally6() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(), "<>m__Finally6",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(), "<>m__Finally6",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::StringW UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_Generic_IEnumerator_System_String__get_Current() {
+inline ::StringW UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_Generic_IEnumerator_System_String__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.String>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_IEnumerator_Reset() {
+inline void UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::StringW>*
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_Generic_IEnumerable_System_String__GetEnumerator() {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_Generic_IEnumerable_System_String__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                   "System.Collections.Generic.IEnumerable<System.String>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::StringW>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75*>(__1__state));
+inline ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::StringW>"
-constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept {
+constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::operator ::System::Collections::Generic::IEnumerable_1<::StringW>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::StringW>*
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::i___System__Collections__Generic__IEnumerable_1___StringW_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::StringW>"
-constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept {
+constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::operator ::System::Collections::Generic::IEnumerator_1<::StringW>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::StringW>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::StringW>*
-UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept {
+UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::i___System__Collections__Generic__IEnumerator_1___StringW_() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::StringW>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::operator ::System::IDisposable*() noexcept {
+constexpr UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__75::InputManager__ListControlLayouts_d__75() {}
+constexpr ::UnityEngine::InputSystem::InputManager__ListControlLayouts_d__97::InputManager__ListControlLayouts_d__97() {}
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.get_devices
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> (
     ::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::get_devices)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x45c45e8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63448d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_devices",
@@ -870,7 +871,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::TypeTable (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_processors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ca424;
+  constexpr static std::size_t addrs = 0x634b0a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -884,7 +885,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::TypeTable (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_interactions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ca42c;
+  constexpr static std::size_t addrs = 0x634b0ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -898,7 +899,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::TypeTable (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_composites)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ca434;
+  constexpr static std::size_t addrs = 0x634b0b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -911,8 +912,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputMetrics (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_metrics)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x45ca43c;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x634b0bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_metrics",
@@ -926,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputSettings> (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_settings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ca5d8;
+  constexpr static std::size_t addrs = 0x634b25c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_settings",
@@ -939,13 +940,42 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputSettings*)>(
     &::UnityEngine::InputSystem::InputManager::set_settings)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x45ca5e0;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x634b264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_settings", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputSettings*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.get_actions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::InputSystem::InputActionAsset> (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::get_actions)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x634b92c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_actions",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.set_actions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputActionAsset*)>(
+    &::UnityEngine::InputSystem::InputManager::set_actions)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x634b934;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_actions", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionAsset*>::get() })));
     return ___internal_method;
   }
 };
@@ -955,7 +985,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputUpdateType (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_updateMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45cac70;
+  constexpr static std::size_t addrs = 0x634b9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -969,7 +999,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::InputManager::set_updateMask)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x45cac78;
+  constexpr static std::size_t addrs = 0x634b9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -983,12 +1013,41 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputUpdateType (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_defaultUpdateType)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45cae28;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x634bb60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
                                                                                "get_defaultUpdateType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.get_scrollDeltaBehavior
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::get_scrollDeltaBehavior)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x634bb90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                                               "get_scrollDeltaBehavior", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.set_scrollDeltaBehavior
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior)>(
+    &::UnityEngine::InputSystem::InputManager::set_scrollDeltaBehavior)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x634bb98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_scrollDeltaBehavior", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior>::get() })));
     return ___internal_method;
   }
 };
@@ -998,7 +1057,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_pollingFrequency)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45cae44;
+  constexpr static std::size_t addrs = 0x634bc94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -1011,8 +1070,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(float_t)>(
     &::UnityEngine::InputSystem::InputManager::set_pollingFrequency)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x45cae4c;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x634bc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1026,8 +1085,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*)>(&::UnityEngine::InputSystem::InputManager::add_onDeviceChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c2f80;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x63431a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1042,8 +1101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*)>(&::UnityEngine::InputSystem::InputManager::remove_onDeviceChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c31ec;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634346c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1058,8 +1117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(&::UnityEngine::InputSystem::InputManager::add_onDeviceStateChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45caf74;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634bdc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1074,8 +1133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEventPtr>*)>(&::UnityEngine::InputSystem::InputManager::remove_onDeviceStateChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cafcc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634be24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1090,8 +1149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*)>(&::UnityEngine::InputSystem::InputManager::add_onDeviceCommand)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb024;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634be80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1105,8 +1164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::LowLevel::InputDeviceCommandDelegate*)>(&::UnityEngine::InputSystem::InputManager::remove_onDeviceCommand)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb07c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634bedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1120,8 +1179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*)>(&::UnityEngine::InputSystem::InputManager::add_onFindControlLayoutForDevice)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45cb0d4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x634bf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1135,8 +1194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*)>(&::UnityEngine::InputSystem::InputManager::remove_onFindControlLayoutForDevice)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb3b8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1150,8 +1209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*)>(&::UnityEngine::InputSystem::InputManager::add_onLayoutChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c2fd8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6343200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1165,8 +1224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::StringW, ::UnityEngine::InputSystem::InputControlLayoutChange>*)>(&::UnityEngine::InputSystem::InputManager::remove_onLayoutChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c3244;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x63434c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1180,8 +1239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*)>(&::UnityEngine::InputSystem::InputManager::add_onEvent)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c2f28;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6343148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1196,8 +1255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Action_2<::UnityEngine::InputSystem::LowLevel::InputEventPtr, ::UnityEngine::InputSystem::InputDevice*>*)>(&::UnityEngine::InputSystem::InputManager::remove_onEvent)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45c3194;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6343410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1212,8 +1271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
     &::UnityEngine::InputSystem::InputManager::add_onBeforeUpdate)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x45cb410;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x634c23c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1227,8 +1286,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
     &::UnityEngine::InputSystem::InputManager::remove_onBeforeUpdate)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb56c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1242,8 +1301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
     &::UnityEngine::InputSystem::InputManager::add_onAfterUpdate)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb5c4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1257,8 +1316,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
     &::UnityEngine::InputSystem::InputManager::remove_onAfterUpdate)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb61c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1272,8 +1331,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
     &::UnityEngine::InputSystem::InputManager::add_onSettingsChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb674;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1287,12 +1346,42 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
     &::UnityEngine::InputSystem::InputManager::remove_onSettingsChange)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cb6cc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "remove_onSettingsChange",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.add_onActionsChange
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
+    &::UnityEngine::InputSystem::InputManager::add_onActionsChange)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c5b0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "add_onActionsChange",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.remove_onActionsChange
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::System::Action*)>(
+    &::UnityEngine::InputSystem::InputManager::remove_onActionsChange)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x634c60c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "remove_onActionsChange",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
     return ___internal_method;
   }
@@ -1303,7 +1392,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_isProcessingEvents)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45cb724;
+  constexpr static std::size_t addrs = 0x634c668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -1316,7 +1405,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::get_gameIsPlaying)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45cb72c;
+  constexpr static std::size_t addrs = 0x634c670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -1328,8 +1417,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::get_gameHasFocus)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x45cb734;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x634c678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -1342,8 +1431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::get_gameShouldGetInputRegardlessOfFocus)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x45cb768;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x634c6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1357,8 +1446,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::StringW, ::System::Type*)>(
     &::UnityEngine::InputSystem::InputManager::RegisterControlLayout)> {
-  constexpr static std::size_t size = 0x5ac;
-  constexpr static std::size_t addrs = 0x45cb78c;
+  constexpr static std::size_t size = 0x5c4;
+  constexpr static std::size_t addrs = 0x634c6c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1372,8 +1461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::StringW, ::StringW, bool)>(
     &::UnityEngine::InputSystem::InputManager::RegisterControlLayout)> {
-  constexpr static std::size_t size = 0x4cc;
-  constexpr static std::size_t addrs = 0x45c5740;
+  constexpr static std::size_t size = 0x528;
+  constexpr static std::size_t addrs = 0x6345b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1388,8 +1477,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Func_1<::UnityEngine::InputSystem::Layouts::InputControlLayout*>*, ::StringW, ::StringW)>(&::UnityEngine::InputSystem::InputManager::RegisterControlLayoutBuilder)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x45cc2f0;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x634d2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1405,8 +1494,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::Utilities::InternedString, ::UnityEngine::InputSystem::Utilities::InlinedArray_1<::UnityEngine::InputSystem::Utilities::InternedString>, bool, bool, bool)>(
     &::UnityEngine::InputSystem::InputManager::PerformLayoutPostRegistration)> {
-  constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x45cbd38;
+  constexpr static std::size_t size = 0x4cc;
+  constexpr static std::size_t addrs = 0x634cc8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1424,8 +1513,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Utilities::InternedString, bool)>(
     &::UnityEngine::InputSystem::InputManager::RecreateDevicesUsingLayout)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x45cc47c;
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x634d454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1440,8 +1529,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::IsControlOrChildUsingLayoutRecursive)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x45cc7b0;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x634d7a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1456,8 +1545,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::IsControlUsingLayout)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x45cc6e0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x634d6cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1472,8 +1561,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::StringW, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher)>(&::UnityEngine::InputSystem::InputManager::RegisterControlLayoutMatcher)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x45cc19c;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x634d158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1488,8 +1577,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Type*, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher)>(&::UnityEngine::InputSystem::InputManager::RegisterControlLayoutMatcher)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x45ccfc8;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x634df78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1504,8 +1593,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher)>(
     &::UnityEngine::InputSystem::InputManager::RecreateDevicesUsingLayoutWithInferiorMatch)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x45cc9f4;
+  constexpr static std::size_t size = 0x218;
+  constexpr static std::size_t addrs = 0x634d9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1521,7 +1610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::RecreateDevice)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x45cc8a4;
+  constexpr static std::size_t addrs = 0x634d8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1537,8 +1626,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher, ::UnityEngine::InputSystem::Utilities::InternedString)>(
         &::UnityEngine::InputSystem::InputManager::AddAvailableDevicesMatchingDescription)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x45ccc30;
+  constexpr static std::size_t size = 0x368;
+  constexpr static std::size_t addrs = 0x634dc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1553,8 +1642,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputManager::RemoveControlLayout)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x45cdcdc;
+  constexpr static std::size_t size = 0x278;
+  constexpr static std::size_t addrs = 0x634edc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1568,8 +1657,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (
     ::UnityEngine::InputSystem::InputManager::*)(::System::Type*)>(&::UnityEngine::InputSystem::InputManager::TryLoadControlLayout)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x45cdeec;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x634f03c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1584,7 +1673,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Layouts::InputControlLayout* (
     ::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::TryLoadControlLayout)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45c5730;
+  constexpr static std::size_t addrs = 0x6345b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1598,8 +1687,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::InternedString (::UnityEngine::InputSystem::InputManager::*)(
     ::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, int32_t)>(&::UnityEngine::InputSystem::InputManager::TryFindMatchingControlLayout)> {
-  constexpr static std::size_t size = 0x42c;
-  constexpr static std::size_t addrs = 0x45cd1e4;
+  constexpr static std::size_t size = 0x4d8;
+  constexpr static std::size_t addrs = 0x634e15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1614,8 +1703,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::InternedString (::UnityEngine::InputSystem::InputManager::*)(::System::Type*)>(
     &::UnityEngine::InputSystem::InputManager::FindOrRegisterDeviceLayoutForType)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x45ce114;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x634f228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1630,7 +1719,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::InputManager::IsDeviceLayoutMarkedAsSupportedInSettings)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x45ce1b4;
+  constexpr static std::size_t addrs = 0x634f2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1644,8 +1733,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::StringW>* (::UnityEngine::InputSystem::InputManager::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputManager::ListControlLayouts)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x45ce2bc;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x634f3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1659,8 +1748,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::SetDeviceUsage)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x45ce36c;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x634f42c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1675,8 +1764,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::AddDeviceUsage)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x45c5d4c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x63461c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -1691,8 +1780,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::RemoveDeviceUsage)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x45c5f04;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6346388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1707,8 +1796,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::NotifyUsageChanged)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x45ce4c0;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x634f5a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1722,8 +1811,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputManager::*)(::System::Type*, ::StringW)>(
     &::UnityEngine::InputSystem::InputManager::AddDevice)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x45ce564;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x634f6a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1737,8 +1826,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (
     ::UnityEngine::InputSystem::InputManager::*)(::StringW, ::StringW, ::UnityEngine::InputSystem::Utilities::InternedString)>(&::UnityEngine::InputSystem::InputManager::AddDevice)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x45c5c0c;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6346088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1755,8 +1844,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Utilities::InternedString, int32_t, ::StringW, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription,
                                                  ::UnityEngine::InputSystem::InputDevice_DeviceFlags, ::UnityEngine::InputSystem::Utilities::InternedString)>(
     &::UnityEngine::InputSystem::InputManager::AddDevice)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x45cdb44;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x634ec40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1774,8 +1863,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::AddDevice)> {
-  constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x45cd610;
+  constexpr static std::size_t size = 0x60c;
+  constexpr static std::size_t addrs = 0x634e634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1790,7 +1879,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (
     ::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Layouts::InputDeviceDescription)>(&::UnityEngine::InputSystem::InputManager::AddDevice)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x45cf070;
+  constexpr static std::size_t addrs = 0x635008c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1805,8 +1894,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (
     ::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Layouts::InputDeviceDescription, bool, ::StringW, int32_t, ::UnityEngine::InputSystem::InputDevice_DeviceFlags)>(
     &::UnityEngine::InputSystem::InputManager::AddDevice)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x45cf0b4;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x63500d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1824,8 +1913,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (
     ::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::Layouts::InputDeviceDescription, ::UnityEngine::InputSystem::Utilities::InternedString, ::StringW, int32_t,
                                                  ::UnityEngine::InputSystem::InputDevice_DeviceFlags)>(&::UnityEngine::InputSystem::InputManager::AddDevice)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x45cf280;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x635027c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1842,8 +1931,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*, bool)>(
     &::UnityEngine::InputSystem::InputManager::RemoveDevice)> {
-  constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x45c5258;
+  constexpr static std::size_t size = 0x550;
+  constexpr static std::size_t addrs = 0x63455a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1858,8 +1947,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::FlushDisconnectedDevices)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x45cf474;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6350438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -1872,8 +1961,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, bool, ::System::Nullable_1<bool>)>(&::UnityEngine::InputSystem::InputManager::ResetDevice)> {
-  constexpr static std::size_t size = 0x5c4;
-  constexpr static std::size_t addrs = 0x45cf4c8;
+  constexpr static std::size_t size = 0x654;
+  constexpr static std::size_t addrs = 0x6350494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1889,8 +1978,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputManager::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputManager::TryGetDevice)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x45cfc84;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x6350f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1905,7 +1994,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputManager::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputManager::GetDevice)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x45cfda8;
+  constexpr static std::size_t addrs = 0x63510a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1919,8 +2008,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputManager::*)(::System::Type*)>(
     &::UnityEngine::InputSystem::InputManager::TryGetDevice)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x45cfe48;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6351140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1934,8 +2023,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputManager::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputManager::TryGetDeviceById)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45c50dc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6345420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1949,8 +2038,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::InputManager::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>*)>(&::UnityEngine::InputSystem::InputManager::GetUnsupportedDevices)> {
-  constexpr static std::size_t size = 0x1e0;
-  constexpr static std::size_t addrs = 0x45cfea0;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x635118c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1965,8 +2054,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, bool, ::UnityEngine::InputSystem::InputManager_DeviceDisableScope)>(&::UnityEngine::InputSystem::InputManager::EnableOrDisableDevice)> {
-  constexpr static std::size_t size = 0x43c;
-  constexpr static std::size_t addrs = 0x45cec34;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x634fd60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1980,15 +2069,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.QueueEvent
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>)>(&::UnityEngine::InputSystem::InputManager::QueueEvent)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x45d0080;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputEvent*)>(
+    &::UnityEngine::InputSystem::InputManager::QueueEvent)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6351358;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "QueueEvent", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "QueueEvent", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get() })));
     return ___internal_method;
   }
 };
@@ -1998,7 +2087,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::InputManager::QueueEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45c5f00;
+  constexpr static std::size_t addrs = 0x6346384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2012,7 +2101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::Update)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x45d014c;
+  constexpr static std::size_t addrs = 0x6351434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "Update",
@@ -2025,8 +2114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::InputManager::Update)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x45d0178;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6351460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2040,8 +2129,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::LowLevel::IInputRuntime*, ::UnityEngine::InputSystem::InputSettings*)>(&::UnityEngine::InputSystem::InputManager::Initialize)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x45d0224;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6351518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2055,8 +2144,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::Destroy)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x45d1fc4;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6353608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "Destroy",
@@ -2064,16 +2153,58 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.InitializeActions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::InitializeActions)> {
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6351564;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                                               "InitializeActions", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.InitializeData
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::InitializeData)> {
-  constexpr static std::size_t size = 0x1480;
-  constexpr static std::size_t addrs = 0x45d0260;
+  constexpr static std::size_t size = 0x16c0;
+  constexpr static std::size_t addrs = 0x63515f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
                                                                                "InitializeData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.RegisterCustomTypes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(
+    &::UnityEngine::InputSystem::InputManager::RegisterCustomTypes)> {
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x6353d14;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "RegisterCustomTypes", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.RegisterCustomTypes
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::RegisterCustomTypes)> {
+  constexpr static std::size_t size = 0x250;
+  constexpr static std::size_t addrs = 0x6353ac4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                                               "RegisterCustomTypes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -2082,8 +2213,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::IInputRuntime*)>(
     &::UnityEngine::InputSystem::InputManager::InstallRuntime)> {
-  constexpr static std::size_t size = 0x6d4;
-  constexpr static std::size_t addrs = 0x45d16e0;
+  constexpr static std::size_t size = 0x72c;
+  constexpr static std::size_t addrs = 0x6352cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2096,8 +2227,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::InstallGlobals)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x45d1db4;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x63533e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -2109,12 +2240,102 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::UninstallGlobals)> {
-  constexpr static std::size_t size = 0x38c;
-  constexpr static std::size_t addrs = 0x45d20d0;
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x6353720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
                                                                                "UninstallGlobals", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.get_optimizedControlsFeatureEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::get_optimizedControlsFeatureEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6353f80;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_optimizedControlsFeatureEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.set_optimizedControlsFeatureEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(bool)>(
+    &::UnityEngine::InputSystem::InputManager::set_optimizedControlsFeatureEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6353f88;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_optimizedControlsFeatureEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.get_readValueCachingFeatureEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::get_readValueCachingFeatureEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6353f90;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_readValueCachingFeatureEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.set_readValueCachingFeatureEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(bool)>(
+    &::UnityEngine::InputSystem::InputManager::set_readValueCachingFeatureEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6353f98;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_readValueCachingFeatureEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.get_paranoidReadValueCachingChecksEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::get_paranoidReadValueCachingChecksEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6353fa0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_paranoidReadValueCachingChecksEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.set_paranoidReadValueCachingChecksEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(bool)>(
+    &::UnityEngine::InputSystem::InputManager::set_paranoidReadValueCachingChecksEnabled)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6353fa8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_paranoidReadValueCachingChecksEnabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -2123,8 +2344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::MakeDeviceNameUnique)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x45ce648;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x634f760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2138,8 +2359,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::InputManager::ResetControlPathsRecursive)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x45d245c;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6353fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2153,8 +2374,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::AssignUniqueDeviceId)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x45ce7c8;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x634f920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2168,8 +2389,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::ReallocateStateBuffers)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x45cac9c;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x634b9f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -2182,8 +2403,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::InitializeDefaultState)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x45d24fc;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6354098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2197,8 +2418,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::InitializeDeviceState)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x45ce94c;
+  constexpr static std::size_t size = 0x290;
+  constexpr static std::size_t addrs = 0x634fa98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2212,8 +2433,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(int32_t, ::StringW)>(
     &::UnityEngine::InputSystem::InputManager::OnNativeDeviceDiscovered)> {
-  constexpr static std::size_t size = 0x3d4;
-  constexpr static std::size_t addrs = 0x45d26ac;
+  constexpr static std::size_t size = 0x464;
+  constexpr static std::size_t addrs = 0x6354244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2222,13 +2443,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.MakeEscapedJsonString
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString (::UnityEngine::InputSystem::InputManager::*)(
+    ::StringW)>(&::UnityEngine::InputSystem::InputManager::MakeEscapedJsonString)> {
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x6354960;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "MakeEscapedJsonString",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.TryMatchDisconnectedDevice
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::InputManager::*)(::StringW)>(
     &::UnityEngine::InputSystem::InputManager::TryMatchDisconnectedDevice)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x45d2a84;
+  constexpr static std::size_t size = 0x2b4;
+  constexpr static std::size_t addrs = 0x63546ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2242,8 +2478,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::InstallBeforeUpdateHookIfNecessary)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x45cb470;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x634c2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2258,7 +2494,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::RestoreDevicesAfterDomainReloadIfNecessary)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45d2a80;
+  constexpr static std::size_t addrs = 0x63546a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2273,7 +2509,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::WarnAboutDevicesFailingToRecreateAfterDomainReload)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x45d2c68;
+  constexpr static std::size_t addrs = 0x6354aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2287,8 +2523,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::InputManager::OnBeforeUpdate)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x45d2c6c;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x6354af0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2301,12 +2537,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::ApplySettings)> {
-  constexpr static std::size_t size = 0x598;
-  constexpr static std::size_t addrs = 0x45ca6d8;
+  constexpr static std::size_t size = 0x5cc;
+  constexpr static std::size_t addrs = 0x634b360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
                                                                                "ApplySettings", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.ApplyActions
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::ApplyActions)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x634b93c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ApplyActions",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -2315,8 +2564,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::AddAvailableDevicesThatAreNowRecognized)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x45cb134;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x634bf9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2330,8 +2579,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::ShouldRunDeviceInBackground)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x45cebf8;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x634fd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2345,8 +2594,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(bool)>(
     &::UnityEngine::InputSystem::InputManager::OnFocusChanged)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x45d2e2c;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x6354d00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2361,7 +2610,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::InputManager::ShouldRunUpdate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x45d306c;
+  constexpr static std::size_t addrs = 0x6354f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2375,8 +2624,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::LowLevel::InputUpdateType, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>)>(&::UnityEngine::InputSystem::InputManager::OnUpdate)> {
-  constexpr static std::size_t size = 0x1380;
-  constexpr static std::size_t addrs = 0x45d3088;
+  constexpr static std::size_t size = 0x11ec;
+  constexpr static std::size_t addrs = 0x6354f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2386,13 +2635,73 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.AreMaximumEventBytesPerUpdateExceeded
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(uint32_t)>(
+    &::UnityEngine::InputSystem::InputManager::AreMaximumEventBytesPerUpdateExceeded)> {
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x63565d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "AreMaximumEventBytesPerUpdateExceeded",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.MakeStringWithEventsProcessedByDevice
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::MakeStringWithEventsProcessedByDevice)> {
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x63567d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "MakeStringWithEventsProcessedByDevice",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.ResetCurrentProcessedEventBytesForDevices
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::ResetCurrentProcessedEventBytesForDevices)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6356714;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ResetCurrentProcessedEventBytesForDevices",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.CheckAllDevicesOptimizedControlsHaveValidState
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
+    &::UnityEngine::InputSystem::InputManager::CheckAllDevicesOptimizedControlsHaveValidState)> {
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x6356980;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                 "CheckAllDevicesOptimizedControlsHaveValidState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.InvokeAfterUpdateCallback
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::InputManager::InvokeAfterUpdateCallback)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x45d46bc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6356428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2407,7 +2716,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::DontMakeCurrentlyUpdatingDeviceCurrent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d4894;
+  constexpr static std::size_t addrs = 0x6356b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2420,17 +2729,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(
-    ::UnityEngine::InputSystem::InputDevice*, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
+    ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputEvent*, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(
     &::UnityEngine::InputSystem::InputManager::UpdateState)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x45d4724;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x63564d4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "UpdateState", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "UpdateState", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get() })));
     return ___internal_method;
   }
 };
@@ -2438,19 +2747,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(
-    ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputUpdateType, ::cordl_internals::Ptr<void>, uint32_t, uint32_t, double_t,
-    ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(&::UnityEngine::InputSystem::InputManager::UpdateState)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x45cfa8c;
+    ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputUpdateType, void*, uint32_t, uint32_t, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
+    &::UnityEngine::InputSystem::InputManager::UpdateState)> {
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x6350ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "UpdateState", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEventPtr>::get() })));
     return ___internal_method;
   }
@@ -2459,10 +2767,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
-    ::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers, int32_t, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock>, uint32_t, ::cordl_internals::Ptr<void>, uint32_t,
-    bool)>(&::UnityEngine::InputSystem::InputManager::WriteStateChange)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x45d4bf0;
+    ::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers, int32_t, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock>, uint32_t, void*, uint32_t, bool)>(
+    &::UnityEngine::InputSystem::InputManager::WriteStateChange)> {
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x6356e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2470,8 +2778,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -2481,8 +2788,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(&::UnityEngine::InputSystem::InputManager::FlipBuffersForDeviceIfNecessary)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x45d4b4c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6356da4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2497,8 +2804,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*, int64_t, uint32_t)>(&::UnityEngine::InputSystem::InputManager::AddStateChangeMonitor)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x45d51fc;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x63575c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2514,8 +2821,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::InputManager::RemoveStateChangeMonitors)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x45cf34c;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x635031c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2529,8 +2836,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*, int64_t)>(&::UnityEngine::InputSystem::InputManager::RemoveStateChangeMonitor)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x45d5538;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x6357724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2547,8 +2854,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*, double_t, int64_t, int32_t)>(
     &::UnityEngine::InputSystem::InputManager::AddStateChangeMonitorTimeout)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x45d5744;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6357884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2565,8 +2872,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*, int64_t, int32_t)>(&::UnityEngine::InputSystem::InputManager::RemoveStateChangeMonitorTimeout)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x45d57d8;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x635791c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2581,8 +2888,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(int32_t)>(
     &::UnityEngine::InputSystem::InputManager::SortStateChangeMonitorsIfNecessary)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45d489c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6356b14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2597,7 +2904,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
     ::UnityEngine::InputSystem::InputControl*, ::UnityEngine::InputSystem::LowLevel::IInputStateChangeMonitor*)>(&::UnityEngine::InputSystem::InputManager::SignalStateChangeMonitor)> {
   constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x45d5a30;
+  constexpr static std::size_t addrs = 0x6357a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2612,8 +2919,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::FireStateChangeNotifications)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x45d5b20;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x6357b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -2624,18 +2931,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::InputManager.ProcessStateChangeMonitors
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(
-    int32_t, ::cordl_internals::Ptr<void>, ::cordl_internals::Ptr<void>, uint32_t, uint32_t)>(&::UnityEngine::InputSystem::InputManager::ProcessStateChangeMonitors)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x45d48ec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::InputManager::*)(int32_t, void*, void*, uint32_t, uint32_t)>(
+    &::UnityEngine::InputSystem::InputManager::ProcessStateChangeMonitors)> {
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x6356b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ProcessStateChangeMonitors", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -2643,15 +2949,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)(
-    int32_t, double_t, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>)>(&::UnityEngine::InputSystem::InputManager::FireStateChangeNotifications)> {
-  constexpr static std::size_t size = 0x418;
-  constexpr static std::size_t addrs = 0x45d4de4;
+    int32_t, double_t, ::UnityEngine::InputSystem::LowLevel::InputEvent*)>(&::UnityEngine::InputSystem::InputManager::FireStateChangeNotifications)> {
+  constexpr static std::size_t size = 0x4dc;
+  constexpr static std::size_t addrs = 0x63570ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "FireStateChangeNotifications", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get() })));
     return ___internal_method;
   }
 };
@@ -2660,8 +2966,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(
     &::UnityEngine::InputSystem::InputManager::ProcessStateChangeMonitorTimeouts)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x45d4408;
+  constexpr static std::size_t size = 0x2d4;
+  constexpr static std::size_t addrs = 0x6356154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2674,8 +2980,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::InputManager::*)()>(&::UnityEngine::InputSystem::InputManager::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45d5c74;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6357c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), ".ctor",
@@ -2683,17 +2989,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager._TryFindMatchingControlLayout_b__72_0
+//  Writing Method size for method: ::UnityEngine::InputSystem::InputManager._TryFindMatchingControlLayout_b__94_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::InputSystem::InputManager::*)(
-    ::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>)>(&::UnityEngine::InputSystem::InputManager::_TryFindMatchingControlLayout_b__72_0)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x45d5c7c;
+    ::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>)>(&::UnityEngine::InputSystem::InputManager::_TryFindMatchingControlLayout_b__94_0)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6357fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "<TryFindMatchingControlLayout>b__72_0", std::span<Il2CppClass const* const, 0>(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "<TryFindMatchingControlLayout>b__94_0", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>>::get() })));
     return ___internal_method;
   }
@@ -2895,6 +3201,18 @@ constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_St
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StateBuffers = value;
 }
+constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ScrollDeltaBehavior() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScrollDeltaBehavior;
+}
+constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior const& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ScrollDeltaBehavior() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScrollDeltaBehavior;
+}
+constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_ScrollDeltaBehavior(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScrollDeltaBehavior = value;
+}
 constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<::UnityEngine::InputSystem::InputDevice*, ::UnityEngine::InputSystem::InputDeviceChange>*>&
 UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_DeviceChangeListeners() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -3021,6 +3339,18 @@ constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_Se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_SettingsChangedListeners = value;
 }
+constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ActionsChangedListeners() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActionsChangedListeners;
+}
+constexpr ::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> const& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ActionsChangedListeners() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ActionsChangedListeners;
+}
+constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_ActionsChangedListeners(::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ActionsChangedListeners = value;
+}
 constexpr bool& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_NativeBeforeUpdateHooked() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_NativeBeforeUpdateHooked;
@@ -3129,6 +3459,54 @@ constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_Se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Settings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr bool& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_OptimizedControlsFeatureEnabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OptimizedControlsFeatureEnabled;
+}
+constexpr bool const& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_OptimizedControlsFeatureEnabled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_OptimizedControlsFeatureEnabled;
+}
+constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_OptimizedControlsFeatureEnabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_OptimizedControlsFeatureEnabled = value;
+}
+constexpr bool& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ReadValueCachingFeatureEnabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadValueCachingFeatureEnabled;
+}
+constexpr bool const& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ReadValueCachingFeatureEnabled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ReadValueCachingFeatureEnabled;
+}
+constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_ReadValueCachingFeatureEnabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ReadValueCachingFeatureEnabled = value;
+}
+constexpr bool& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ParanoidReadValueCachingChecksEnabled() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ParanoidReadValueCachingChecksEnabled;
+}
+constexpr bool const& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ParanoidReadValueCachingChecksEnabled() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ParanoidReadValueCachingChecksEnabled;
+}
+constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_ParanoidReadValueCachingChecksEnabled(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ParanoidReadValueCachingChecksEnabled = value;
+}
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset>& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_Actions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Actions;
+}
+constexpr ::UnityW<::UnityEngine::InputSystem::InputActionAsset> const& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_Actions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Actions;
+}
+constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_Actions(::UnityW<::UnityEngine::InputSystem::InputActionAsset> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Actions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr bool& UnityEngine::InputSystem::InputManager::__cordl_internal_get_m_ShouldMakeCurrentlyUpdatingDeviceCurrent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ShouldMakeCurrentlyUpdatingDeviceCurrent;
@@ -3171,6 +3549,110 @@ constexpr void UnityEngine::InputSystem::InputManager::__cordl_internal_set_m_St
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_StateChangeMonitorTimeouts = value;
 }
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputUpdateProfilerMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputUpdateProfilerMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputUpdateProfilerMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputUpdateProfilerMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputTryFindMatchingControllerMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputTryFindMatchingControllerMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputTryFindMatchingControllerMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputTryFindMatchingControllerMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputAddDeviceMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputAddDeviceMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputAddDeviceMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputAddDeviceMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputRestoreDevicesAfterReloadMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputRestoreDevicesAfterReloadMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputRestoreDevicesAfterReloadMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputRestoreDevicesAfterReloadMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputRegisterCustomTypesMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputRegisterCustomTypesMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputRegisterCustomTypesMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputRegisterCustomTypesMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnBeforeUpdateMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnBeforeUpdateMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnBeforeUpdateMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnBeforeUpdateMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnAfterUpdateMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnAfterUpdateMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnAfterUpdateMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnAfterUpdateMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnSettingsChangeMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnSettingsChangeMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnSettingsChangeMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnSettingsChangeMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnDeviceSettingsChangeMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnDeviceSettingsChangeMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnDeviceSettingsChangeMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnDeviceSettingsChangeMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnEventMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnEventMarker", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(
+      std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnEventMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnEventMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnLayoutChangeMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnLayoutChangeMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnLayoutChangeMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnLayoutChangeMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnDeviceChangeMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnDeviceChangeMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnDeviceChangeMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnDeviceChangeMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
+inline void UnityEngine::InputSystem::InputManager::setStaticF_k_InputOnActionsChangeMarker(::Unity::Profiling::ProfilerMarker value) {
+  ::cordl_internals::setStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnActionsChangeMarker",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>(std::forward<::Unity::Profiling::ProfilerMarker>(value));
+}
+inline ::Unity::Profiling::ProfilerMarker UnityEngine::InputSystem::InputManager::getStaticF_k_InputOnActionsChangeMarker() {
+  return ::cordl_internals::getStaticField<::Unity::Profiling::ProfilerMarker, "k_InputOnActionsChangeMarker",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get>();
+}
 inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::InputDevice*> UnityEngine::InputSystem::InputManager::get_devices() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_devices",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -3207,6 +3689,17 @@ inline void UnityEngine::InputSystem::InputManager::set_settings(::UnityEngine::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputSettings*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::UnityW<::UnityEngine::InputSystem::InputActionAsset> UnityEngine::InputSystem::InputManager::get_actions() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_actions",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::InputSystem::InputActionAsset>, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::set_actions(::UnityEngine::InputSystem::InputActionAsset* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_actions", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputActionAsset*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputSystem::InputManager::get_updateMask() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_updateMask",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -3222,6 +3715,17 @@ inline ::UnityEngine::InputSystem::LowLevel::InputUpdateType UnityEngine::InputS
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
                                                                              "get_defaultUpdateType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputUpdateType, false>(this, ___internal_method);
+}
+inline ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior UnityEngine::InputSystem::InputManager::get_scrollDeltaBehavior() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                                             "get_scrollDeltaBehavior", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::set_scrollDeltaBehavior(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_scrollDeltaBehavior", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline float_t UnityEngine::InputSystem::InputManager::get_pollingFrequency() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
@@ -3346,6 +3850,18 @@ inline void UnityEngine::InputSystem::InputManager::add_onSettingsChange(::Syste
 inline void UnityEngine::InputSystem::InputManager::remove_onSettingsChange(::System::Action* value) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "remove_onSettingsChange",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::InputSystem::InputManager::add_onActionsChange(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "add_onActionsChange",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void UnityEngine::InputSystem::InputManager::remove_onActionsChange(::System::Action* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "remove_onActionsChange",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Action*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
@@ -3671,10 +4187,10 @@ inline void UnityEngine::InputSystem::InputManager::EnableOrDisableDevice(::Unit
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputManager_DeviceDisableScope>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, device, enable, scope);
 }
-inline void UnityEngine::InputSystem::InputManager::QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "QueueEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get() })));
+inline void UnityEngine::InputSystem::InputManager::QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "QueueEvent", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventPtr);
 }
 inline void UnityEngine::InputSystem::InputManager::QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr) {
@@ -3715,9 +4231,25 @@ inline void UnityEngine::InputSystem::InputManager::Destroy() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void UnityEngine::InputSystem::InputManager::InitializeActions() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                                             "InitializeActions", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void UnityEngine::InputSystem::InputManager::InitializeData() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "InitializeData",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::RegisterCustomTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> types) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "RegisterCustomTypes", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::System::Type*, ::Array<::System::Type*>*>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, types);
+}
+inline void UnityEngine::InputSystem::InputManager::RegisterCustomTypes() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                                                             "RegisterCustomTypes", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::InputSystem::InputManager::InstallRuntime(::UnityEngine::InputSystem::LowLevel::IInputRuntime* runtime) {
@@ -3735,6 +4267,42 @@ inline void UnityEngine::InputSystem::InputManager::UninstallGlobals() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
                                                                              "UninstallGlobals", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline bool UnityEngine::InputSystem::InputManager::get_optimizedControlsFeatureEnabled() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_optimizedControlsFeatureEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::set_optimizedControlsFeatureEnabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_optimizedControlsFeatureEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::InputSystem::InputManager::get_readValueCachingFeatureEnabled() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_readValueCachingFeatureEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::set_readValueCachingFeatureEnabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_readValueCachingFeatureEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::InputSystem::InputManager::get_paranoidReadValueCachingChecksEnabled() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "get_paranoidReadValueCachingChecksEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::set_paranoidReadValueCachingChecksEnabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "set_paranoidReadValueCachingChecksEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::InputSystem::InputManager::MakeDeviceNameUnique(::UnityEngine::InputSystem::InputDevice* device) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3777,6 +4345,12 @@ inline void UnityEngine::InputSystem::InputManager::OnNativeDeviceDiscovered(int
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deviceId, deviceDescriptor);
 }
+inline ::UnityEngine::InputSystem::Utilities::JsonParser_JsonString UnityEngine::InputSystem::InputManager::MakeEscapedJsonString(::StringW theString) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "MakeEscapedJsonString",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::JsonParser_JsonString, false>(this, ___internal_method, theString);
+}
 inline ::UnityEngine::InputSystem::InputDevice* UnityEngine::InputSystem::InputManager::TryMatchDisconnectedDevice(::StringW deviceDescriptor) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "TryMatchDisconnectedDevice",
@@ -3809,6 +4383,11 @@ inline void UnityEngine::InputSystem::InputManager::OnBeforeUpdate(::UnityEngine
 }
 inline void UnityEngine::InputSystem::InputManager::ApplySettings() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ApplySettings",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::ApplyActions() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ApplyActions",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
@@ -3853,6 +4432,30 @@ inline void UnityEngine::InputSystem::InputManager::OnUpdate(::UnityEngine::Inpu
                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, updateType, eventBuffer);
 }
+inline bool UnityEngine::InputSystem::InputManager::AreMaximumEventBytesPerUpdateExceeded(uint32_t totalEventBytesProcessed) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "AreMaximumEventBytesPerUpdateExceeded",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, totalEventBytesProcessed);
+}
+inline ::StringW UnityEngine::InputSystem::InputManager::MakeStringWithEventsProcessedByDevice() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "MakeStringWithEventsProcessedByDevice",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::ResetCurrentProcessedEventBytesForDevices() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ResetCurrentProcessedEventBytesForDevices",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::InputManager::CheckAllDevicesOptimizedControlsHaveValidState() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(),
+                                               "CheckAllDevicesOptimizedControlsHaveValidState", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void UnityEngine::InputSystem::InputManager::InvokeAfterUpdateCallback(::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "InvokeAfterUpdateCallback", std::span<Il2CppClass const* const, 0>(),
@@ -3865,38 +4468,35 @@ inline void UnityEngine::InputSystem::InputManager::DontMakeCurrentlyUpdatingDev
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::InputManager::UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr,
+inline bool UnityEngine::InputSystem::InputManager::UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr,
                                                                 ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "UpdateState", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "UpdateState", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, device, eventPtr, updateType);
 }
-inline bool UnityEngine::InputSystem::InputManager::UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType,
-                                                                ::cordl_internals::Ptr<void> statePtr, uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime,
-                                                                ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
+inline bool UnityEngine::InputSystem::InputManager::UpdateState(::UnityEngine::InputSystem::InputDevice* device, ::UnityEngine::InputSystem::LowLevel::InputUpdateType updateType, void* statePtr,
+                                                                uint32_t stateOffsetInDevice, uint32_t stateSize, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEventPtr eventPtr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "UpdateState", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputDevice*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputUpdateType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEventPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, device, updateType, statePtr, stateOffsetInDevice, stateSize, internalTime, eventPtr);
 }
 inline void UnityEngine::InputSystem::InputManager::WriteStateChange(::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers buffers, int32_t deviceIndex,
-                                                                     ::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock> deviceStateBlock, uint32_t stateOffsetInDevice,
-                                                                     ::cordl_internals::Ptr<void> statePtr, uint32_t stateSizeInBytes, bool flippedBuffers) {
+                                                                     ::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock> deviceStateBlock, uint32_t stateOffsetInDevice, void* statePtr,
+                                                                     uint32_t stateSizeInBytes, bool flippedBuffers) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "WriteStateChange", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputStateBuffers_DoubleBuffers>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::LowLevel::InputStateBlock>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffers, deviceIndex, deviceStateBlock, stateOffsetInDevice, statePtr, stateSizeInBytes, flippedBuffers);
 }
@@ -3968,22 +4568,20 @@ inline void UnityEngine::InputSystem::InputManager::FireStateChangeNotifications
                                                                              "FireStateChangeNotifications", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::InputSystem::InputManager::ProcessStateChangeMonitors(int32_t deviceIndex, ::cordl_internals::Ptr<void> newStateFromEvent, ::cordl_internals::Ptr<void> oldStateOfDevice,
-                                                                               uint32_t newStateSizeInBytes, uint32_t newStateOffsetInBytes) {
+inline bool UnityEngine::InputSystem::InputManager::ProcessStateChangeMonitors(int32_t deviceIndex, void* newStateFromEvent, void* oldStateOfDevice, uint32_t newStateSizeInBytes,
+                                                                               uint32_t newStateOffsetInBytes) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "ProcessStateChangeMonitors", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, deviceIndex, newStateFromEvent, oldStateOfDevice, newStateSizeInBytes, newStateOffsetInBytes);
 }
-inline void UnityEngine::InputSystem::InputManager::FireStateChangeNotifications(int32_t deviceIndex, double_t internalTime,
-                                                                                 ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr) {
+inline void UnityEngine::InputSystem::InputManager::FireStateChangeNotifications(int32_t deviceIndex, double_t internalTime, ::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "FireStateChangeNotifications", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<double_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, deviceIndex, internalTime, eventPtr);
 }
 inline void UnityEngine::InputSystem::InputManager::ProcessStateChangeMonitorTimeouts() {
@@ -3997,9 +4595,9 @@ inline void UnityEngine::InputSystem::InputManager::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int64_t UnityEngine::InputSystem::InputManager::_TryFindMatchingControlLayout_b__72_0(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandRef) {
+inline int64_t UnityEngine::InputSystem::InputManager::_TryFindMatchingControlLayout_b__94_0(::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandRef) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "<TryFindMatchingControlLayout>b__72_0", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputManager*>::get(), "<TryFindMatchingControlLayout>b__94_0", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method, commandRef);
 }

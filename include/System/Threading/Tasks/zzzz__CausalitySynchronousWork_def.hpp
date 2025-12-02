@@ -55,7 +55,7 @@ public:
   static ::System::Threading::Tasks::CausalitySynchronousWork const ProgressNotification;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2822 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2835 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

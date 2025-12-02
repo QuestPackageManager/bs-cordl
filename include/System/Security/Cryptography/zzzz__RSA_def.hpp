@@ -23,16 +23,16 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RSA : public ::System::Security::Cryptography::AsymmetricAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3ca7c5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x58eb898, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RSA* Create();
 
-  /// @brief Method EncryptValue, addr 0x3ca7cf4, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method EncryptValue, addr 0x58eb910, size 0x50, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncryptValue(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb);
 
   /// @brief Method ExportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::RSAParameters ExportParameters(bool includePrivateParameters);
 
-  /// @brief Method FromXmlString, addr 0x3ca7d4c, size 0x52c, virtual true, abstract: false, final false
+  /// @brief Method FromXmlString, addr 0x58eb960, size 0x584, virtual true, abstract: false, final false
   inline void FromXmlString(::StringW xmlString);
 
   /// @brief Method ImportParameters, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -40,10 +40,10 @@ public:
 
   static inline ::System::Security::Cryptography::RSA* New_ctor();
 
-  /// @brief Method ToXmlString, addr 0x3ca8294, size 0x430, virtual true, abstract: false, final false
+  /// @brief Method ToXmlString, addr 0x58ebefc, size 0x46c, virtual true, abstract: false, final false
   inline ::StringW ToXmlString(bool includePrivateParameters);
 
-  /// @brief Method .ctor, addr 0x3ca7c54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58eb894, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -61,7 +61,7 @@ public:
   RSA(RSA const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2972 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

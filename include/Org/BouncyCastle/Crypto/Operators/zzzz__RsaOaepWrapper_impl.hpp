@@ -1,7 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/RsaOaepWrapper.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyUnwrapper_impl.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__RsaOaepWrapper_def.hpp"
 #include "Org/BouncyCastle/Asn1/X509/zzzz__AlgorithmIdentifier_def.hpp"
@@ -9,14 +7,16 @@
 #include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricBlockCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBlockResult_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IKeyUnwrapper_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IKeyWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::*)(
     bool, ::Org::BouncyCastle::Crypto::ICipherParameters*, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x2a0;
-  constexpr static std::size_t addrs = 0x23b224c;
+  constexpr static std::size_t size = 0x274;
+  constexpr static std::size_t addrs = 0x32e04a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::get_AlgorithmDetails)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b24ec;
+  constexpr static std::size_t addrs = 0x32e071c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper*>::get(),
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IBlockResult* (
     ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::Unwrap)> {
   constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23b24f4;
+  constexpr static std::size_t addrs = 0x32e0724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IBlockResult* (
     ::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Operators::RsaOaepWrapper::Wrap)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x23b25f4;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x32e0824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

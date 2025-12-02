@@ -25,12 +25,12 @@ public:
   /// @brief Field crossAppDomainArrayIndex, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_crossAppDomainArrayIndex, put = __cordl_internal_set_crossAppDomainArrayIndex)) int32_t crossAppDomainArrayIndex;
 
-  /// @brief Method Dump, addr 0x3d01084, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5942208, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainMap* New_ctor();
 
-  /// @brief Method Read, addr 0x3d0105c, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x59421d4, size 0x34, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
   constexpr int32_t const& __cordl_internal_get_crossAppDomainArrayIndex() const;
@@ -39,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_crossAppDomainArrayIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3d01054, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59421d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -57,7 +57,7 @@ public:
   BinaryCrossAppDomainMap(BinaryCrossAppDomainMap const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3266 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3279 };
 
   /// @brief Field crossAppDomainArrayIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ___crossAppDomainArrayIndex;

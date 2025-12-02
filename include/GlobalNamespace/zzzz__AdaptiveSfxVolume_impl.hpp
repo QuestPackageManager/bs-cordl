@@ -4,7 +4,7 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__AdaptiveSfxVolume_def.hpp"
 #include "GlobalNamespace/zzzz__AdaptiveSfxVolume_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__MomentaryLoudnessBuffer_def.hpp"
 #include "GlobalNamespace/zzzz__MomentaryLoudnessHistory_def.hpp"
 #include "LufsMetering/zzzz__LufsMeter_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume_InitData::*)(float_t, bool, int32_t)>(
     &::GlobalNamespace::AdaptiveSfxVolume_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3acdd8c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x56a79b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ constexpr ::GlobalNamespace::AdaptiveSfxVolume_InitData::AdaptiveSfxVolume_InitD
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::Start)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3acd764;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x56a7468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "Start",
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::OnDisable)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3acd838;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x56a74c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "OnDisable",
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
     &::GlobalNamespace::AdaptiveSfxVolume::OnAudioFilterRead)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3acd8c4;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x56a74f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::Update)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3acdba4;
+  constexpr static std::size_t addrs = 0x56a77e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), "Update",
@@ -131,8 +131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)(float_t)>(&::GlobalNamespace::AdaptiveSfxVolume::ApplyLoudness)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3acdc58;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x56a788c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,8 +145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AdaptiveSfxVolume::*)()>(&::GlobalNamespace::AdaptiveSfxVolume::_ctor)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3acdc88;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x56a78c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AdaptiveSfxVolume*>::get(), ".ctor",
@@ -154,15 +154,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager() {
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager() const {
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_get__audioManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____audioManager;
 }
-constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
+constexpr void GlobalNamespace::AdaptiveSfxVolume::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }

@@ -21,7 +21,7 @@ namespace System {
 class CORDL_TYPE Nullable : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetUnderlyingType, addr 0x3dee0f8, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method GetUnderlyingType, addr 0x5a34b08, size 0x140, virtual false, abstract: false, final false
   static inline ::System::Type* GetUnderlyingType(::System::Type* nullableType);
 
 protected:
@@ -39,7 +39,7 @@ public:
   Nullable(Nullable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::GridLayoutGroup_Corner (::UnityEngine::UI::GridLayoutGroup::*)()>(
     &::UnityEngine::UI::GridLayoutGroup::get_startCorner)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8bf8;
+  constexpr static std::size_t addrs = 0x6bc4e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(), "get_startCorner",
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(::UnityEngine::UI::GridLayoutGroup_Corner)>(
     &::UnityEngine::UI::GridLayoutGroup::set_startCorner)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ab8c00;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6bc4e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,7 +67,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::GridLayoutGroup_Axis (::UnityEngine::UI::GridLayoutGroup::*)()>(
     &::UnityEngine::UI::GridLayoutGroup::get_startAxis)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8c5c;
+  constexpr static std::size_t addrs = 0x6bc4efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(), "get_startAxis",
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(::UnityEngine::UI::GridLayoutGroup_Axis)>(
     &::UnityEngine::UI::GridLayoutGroup::set_startAxis)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ab8c64;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6bc4f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -96,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::GridLayoutGroup::*)()>(
     &::UnityEngine::UI::GridLayoutGroup::get_cellSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8cc0;
+  constexpr static std::size_t addrs = 0x6bc4f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(), "get_cellSize",
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::GridLayoutGroup::set_cellSize)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4ab8cc8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6bc4f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,7 +124,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::UI::GridLayoutGroup::*)()>(&::UnityEngine::UI::GridLayoutGroup::get_spacing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8d2c;
+  constexpr static std::size_t addrs = 0x6bc4fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(), "get_spacing",
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(::UnityEngine::Vector2)>(
     &::UnityEngine::UI::GridLayoutGroup::set_spacing)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4ab8d34;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6bc4fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,7 +153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::GridLayoutGroup_Constraint (::UnityEngine::UI::GridLayoutGroup::*)()>(
     &::UnityEngine::UI::GridLayoutGroup::get_constraint)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8d98;
+  constexpr static std::size_t addrs = 0x6bc5044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(), "get_constraint",
@@ -166,8 +166,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(::UnityEngine::UI::GridLayoutGroup_Constraint)>(
     &::UnityEngine::UI::GridLayoutGroup::set_constraint)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ab8da0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6bc504c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,7 +181,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::GridLayoutGroup::*)()>(&::UnityEngine::UI::GridLayoutGroup::get_constraintCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab8dfc;
+  constexpr static std::size_t addrs = 0x6bc50ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(),
@@ -193,8 +193,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(int32_t)>(&::UnityEngine::UI::GridLayoutGroup::set_constraintCount)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4ab8e04;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6bc50b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -207,8 +207,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)()>(&::UnityEngine::UI::GridLayoutGroup::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4ab8e64;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6bc5118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::GridLayoutGroup*>::get(), ".ctor",
@@ -221,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)()>(
     &::UnityEngine::UI::GridLayoutGroup::CalculateLayoutInputHorizontal)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x4ab8fe8;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x6bc52e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,8 +235,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)()>(&::UnityEngine::UI::GridLayoutGroup::CalculateLayoutInputVertical)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x4ab95ec;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x6bc58fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)()>(&::UnityEngine::UI::GridLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4ab9888;
+  constexpr static std::size_t addrs = 0x6bc5bcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -264,7 +264,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)()>(&::UnityEngine::UI::GridLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aba01c;
+  constexpr static std::size_t addrs = 0x6bc6360;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -278,7 +278,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::GridLayoutGroup::*)(int32_t)>(&::UnityEngine::UI::GridLayoutGroup::SetCellsAlongAxis)> {
   constexpr static std::size_t size = 0x78c;
-  constexpr static std::size_t addrs = 0x4ab9890;
+  constexpr static std::size_t addrs = 0x6bc5bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::Module* (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_Module)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cfcc84;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x593e6d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_MetadataToken)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfcca4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationFieldInfo::*)(
     ::System::Reflection::RuntimeFieldInfo*, ::StringW)>(&::System::Runtime::Serialization::SerializationFieldInfo::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3cf5acc;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x59377dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cfccc8;
+  constexpr static std::size_t addrs = 0x593e710;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_DeclaringType)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cfccd0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x593e718;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_ReflectedType)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3cfccf0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x593e734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Runtime::Serialization::SerializationFieldInfo::*)(bool)>(&::System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cfcd10;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x593e750;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Runtime::Serialization::SerializationFieldInfo::*)(::System::Type*, bool)>(&::System::Runtime::Serialization::SerializationFieldInfo::GetCustomAttributes)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3cfcd38;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x593e774;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::SerializationFieldInfo::*)(::System::Type*, bool)>(
     &::System::Runtime::Serialization::SerializationFieldInfo::IsDefined)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfcd60;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,8 +160,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_FieldType)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfcd84;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e7b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,14 +176,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationFieldInfo::*)(::System::Object*)>(
     &::System::Runtime::Serialization::SerializationFieldInfo::GetValue)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfcda8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e7d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 25));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 26));
     return ___internal_method;
   }
 };
@@ -192,8 +192,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Serialization::SerializationFieldInfo::*)(::System::Object*)>(
     &::System::Runtime::Serialization::SerializationFieldInfo::InternalGetValue)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3cf695c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5938594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,14 +208,14 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationFieldInfo::*)(
     ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*)>(
     &::System::Runtime::Serialization::SerializationFieldInfo::SetValue)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfcdcc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e7f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 27));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 28));
     return ___internal_method;
   }
 };
@@ -225,8 +225,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::SerializationFieldInfo::*)(
     ::System::Object*, ::System::Object*, ::System::Reflection::BindingFlags, ::System::Reflection::Binder*, ::System::Globalization::CultureInfo*)>(
     &::System::Runtime::Serialization::SerializationFieldInfo::InternalSetValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3cf6250;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5937f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::RuntimeFieldInfo* (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_FieldInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cfcdf0;
+  constexpr static std::size_t addrs = 0x593e818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(),
@@ -258,14 +258,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeFieldHandle (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_FieldHandle)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfcdf8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e820;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 24));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 25));
     return ___internal_method;
   }
 };
@@ -274,8 +274,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::FieldAttributes (::System::Runtime::Serialization::SerializationFieldInfo::*)()>(
     &::System::Runtime::Serialization::SerializationFieldInfo::get_Attributes)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3cfce1c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x593e840;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -373,7 +373,7 @@ inline ::System::Type* System::Runtime::Serialization::SerializationFieldInfo::g
 inline ::System::Object* System::Runtime::Serialization::SerializationFieldInfo::GetValue(::System::Object* obj) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 25)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 26)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, obj);
 }
 inline ::System::Object* System::Runtime::Serialization::SerializationFieldInfo::InternalGetValue(::System::Object* obj) {
@@ -386,7 +386,7 @@ inline void System::Runtime::Serialization::SerializationFieldInfo::SetValue(::S
                                                                              ::System::Reflection::Binder* binder, ::System::Globalization::CultureInfo* culture) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 27)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 28)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, obj, value, invokeAttr, binder, culture);
 }
 inline void System::Runtime::Serialization::SerializationFieldInfo::InternalSetValue(::System::Object* obj, ::System::Object* value, ::System::Reflection::BindingFlags invokeAttr,
@@ -407,7 +407,7 @@ inline ::System::Reflection::RuntimeFieldInfo* System::Runtime::Serialization::S
 inline ::System::RuntimeFieldHandle System::Runtime::Serialization::SerializationFieldInfo::get_FieldHandle() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 24)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Serialization::SerializationFieldInfo*>::get(), 25)));
   return ::cordl_internals::RunMethodRethrow<::System::RuntimeFieldHandle, false>(this, ___internal_method);
 }
 inline ::System::Reflection::FieldAttributes System::Runtime::Serialization::SerializationFieldInfo::get_Attributes() {

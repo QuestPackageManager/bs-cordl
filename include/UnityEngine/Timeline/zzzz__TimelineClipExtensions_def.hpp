@@ -31,14 +31,14 @@ public:
   /// @brief Field k_UndoSetParentTrackText, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_UndoSetParentTrackText, put = setStaticF_k_UndoSetParentTrackText)) ::StringW k_UndoSetParentTrackText;
 
-  /// @brief Method MoveToTrack, addr 0x482d964, size 0x34c, virtual false, abstract: false, final false
+  /// @brief Method MoveToTrack, addr 0x67ae29c, size 0x31c, virtual false, abstract: false, final false
   static inline void MoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
-  /// @brief Method MoveToTrack_Impl, addr 0x482dcb0, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method MoveToTrack_Impl, addr 0x67ae5b8, size 0x124, virtual false, abstract: false, final false
   static inline void MoveToTrack_Impl(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack, ::UnityEngine::Object* asset,
                                       ::UnityEngine::Timeline::TrackAsset* parentTrack);
 
-  /// @brief Method TryMoveToTrack, addr 0x482ddd0, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method TryMoveToTrack, addr 0x67ae6dc, size 0x1a4, virtual false, abstract: false, final false
   static inline bool TryMoveToTrack(::UnityEngine::Timeline::TimelineClip* clip, ::UnityEngine::Timeline::TrackAsset* destinationTrack);
 
   static inline ::StringW getStaticF_k_UndoSetParentTrackText();
@@ -60,7 +60,7 @@ public:
   TimelineClipExtensions(TimelineClipExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15903 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

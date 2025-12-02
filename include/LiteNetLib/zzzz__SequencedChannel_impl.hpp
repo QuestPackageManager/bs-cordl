@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::SequencedChannel::*)(::LiteNetLib::NetPeer*, bool, uint8_t)>(
     &::LiteNetLib::SequencedChannel::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3ab6bb0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5690794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LiteNetLib::SequencedChannel::*)()>(&::LiteNetLib::SequencedChannel::SendNextPackets)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x3abaeac;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x5694984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::LiteNetLib::SequencedChannel::*)(::LiteNetLib::NetPacket*)>(&::LiteNetLib::SequencedChannel::ProcessPacket)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3abb1b8;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5694c98;
 
   inline static ::MethodInfo const* methodInfo() {
 

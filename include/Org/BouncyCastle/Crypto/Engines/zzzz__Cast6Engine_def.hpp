@@ -37,27 +37,27 @@ public:
   /// @brief Field _workingKey, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__workingKey, put = __cordl_internal_set__workingKey)) ::ArrayW<uint32_t, ::Array<uint32_t>*> _workingKey;
 
-  /// @brief Method CAST_Decipher, addr 0x2354138, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method CAST_Decipher, addr 0x3282208, size 0x34c, virtual false, abstract: false, final false
   inline void CAST_Decipher(uint32_t A, uint32_t B, uint32_t C, uint32_t D, ::ArrayW<uint32_t, ::Array<uint32_t>*> result);
 
-  /// @brief Method CAST_Encipher, addr 0x2353c80, size 0x344, virtual false, abstract: false, final false
+  /// @brief Method CAST_Encipher, addr 0x3281d48, size 0x348, virtual false, abstract: false, final false
   inline void CAST_Encipher(uint32_t A, uint32_t B, uint32_t C, uint32_t D, ::ArrayW<uint32_t, ::Array<uint32_t>*> result);
 
-  /// @brief Method DecryptBlock, addr 0x2353fc4, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method DecryptBlock, addr 0x3282090, size 0x178, virtual true, abstract: false, final false
   inline int32_t DecryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method EncryptBlock, addr 0x2353b0c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method EncryptBlock, addr 0x3281bd0, size 0x178, virtual true, abstract: false, final false
   inline int32_t EncryptBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> src, int32_t srcIndex, ::ArrayW<uint8_t, ::Array<uint8_t>*> dst, int32_t dstIndex);
 
-  /// @brief Method GetBlockSize, addr 0x235314c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x3281208, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
   static inline ::Org::BouncyCastle::Crypto::Engines::Cast6Engine* New_ctor();
 
-  /// @brief Method Reset, addr 0x2353148, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x3281204, size 0x4, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method SetKey, addr 0x2353154, size 0x9b8, virtual true, abstract: false, final false
+  /// @brief Method SetKey, addr 0x3281210, size 0x9c0, virtual true, abstract: false, final false
   inline void SetKey(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__Km() const;
@@ -90,10 +90,10 @@ public:
 
   constexpr void __cordl_internal_set__workingKey(::ArrayW<uint32_t, ::Array<uint32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x2353034, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32810d4, size 0xec, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AlgorithmName, addr 0x2353108, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x32811c0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
 protected:

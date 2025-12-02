@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::NameTable_Entry::*)(::StringW, int32_t, ::System::Xml::NameTable_Entry*)>(
     &::System::Xml::NameTable_Entry::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x434b360;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x60b2034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +72,8 @@ constexpr ::System::Xml::NameTable_Entry::NameTable_Entry() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::NameTable::*)()>(&::System::Xml::NameTable::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x434acd4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x60b190c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), ".ctor",
@@ -85,13 +85,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Add)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x434ad44;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x60b1970;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 6));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 7));
     return ___internal_method;
   }
 };
@@ -100,8 +100,22 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::NameTable::Add)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x434afc0;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x60b1bd4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 6));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Xml::NameTable.Get
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Get)> {
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x60b1dd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,9 +127,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Xml::NameTable.Get
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW)>(&::System::Xml::NameTable::Get)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x434b1fc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
+    &::System::Xml::NameTable::Get)> {
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x60b1f14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -129,7 +144,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::NameTable::*)(::StringW, int32_t)>(&::System::Xml::NameTable::AddEntry)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x434aebc;
+  constexpr static std::size_t addrs = 0x60b1ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,8 +157,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::NameTable::*)()>(&::System::Xml::NameTable::Grow)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x434b3a0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x60b2044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), "Grow",
@@ -156,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::System::Xml::NameTable::TextEquals)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x434b140;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x60b1d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -223,18 +238,23 @@ inline void System::Xml::NameTable::_ctor() {
 }
 inline ::StringW System::Xml::NameTable::Add(::StringW key) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 6)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key);
 }
 inline ::StringW System::Xml::NameTable::Add(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t len) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 5)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 6)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key, start, len);
 }
 inline ::StringW System::Xml::NameTable::Get(::StringW value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 4)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 5)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, value);
+}
+inline ::StringW System::Xml::NameTable::Get(::ArrayW<char16_t, ::Array<char16_t>*> key, int32_t start, int32_t len) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::NameTable*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, key, start, len);
 }
 inline ::StringW System::Xml::NameTable::AddEntry(::StringW str, int32_t hashCode) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

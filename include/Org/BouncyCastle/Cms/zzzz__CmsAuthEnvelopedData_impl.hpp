@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CmsAuthEnvelopedData.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__ContentInfo_def.hpp"
@@ -9,6 +8,7 @@
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Set_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsAuthEnvelopedData_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsReadable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__RecipientInformationStore_def.hpp"
 #include "Org/BouncyCastle/Crypto/Parameters/zzzz__KeyParameter_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::*)(
     ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData*)>(&::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26530c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35826d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (
     ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::*)()>(&::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::get_Algorithm)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26530f0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x35826dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::*)()>(
     &::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::get_CryptoObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x265310c;
+  constexpr static std::size_t addrs = 0x35826f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -65,7 +65,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Cms::CmsReadable* (::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::*)(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*)>(
         &::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable::GetReadable)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x2653114;
+  constexpr static std::size_t addrs = 0x35826fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2652f74;
+  constexpr static std::size_t addrs = 0x358258c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,7 +147,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26530a4;
+  constexpr static std::size_t addrs = 0x35826b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -161,8 +161,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::*)(::Org::BouncyCastle::Asn1::Cms::ContentInfo*)>(
     &::Org::BouncyCastle::Cms::CmsAuthEnvelopedData::_ctor)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2652f98;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x35825b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

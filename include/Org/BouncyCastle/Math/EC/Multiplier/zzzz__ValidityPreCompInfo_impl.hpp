@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Math/EC/Multiplier/ValidityPreCompInfo.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__ValidityPreCompInfo_def.hpp"
+#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__PreCompInfo_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo.HasFailed
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasFailed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b9814;
+  constexpr static std::size_t addrs = 0x33e896c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportFailed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b981c;
+  constexpr static std::size_t addrs = 0x33e8974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasCurveEquationPassed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b9828;
+  constexpr static std::size_t addrs = 0x33e8980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportCurveEquationPassed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b9830;
+  constexpr static std::size_t addrs = 0x33e8988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::HasOrderPassed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24b983c;
+  constexpr static std::size_t addrs = 0x33e8994;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::ReportOrderPassed)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x24b9844;
+  constexpr static std::size_t addrs = 0x33e899c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::*)()>(
     &::Org::BouncyCastle::Math::EC::Multiplier::ValidityPreCompInfo::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x24b98b0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x33e8a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

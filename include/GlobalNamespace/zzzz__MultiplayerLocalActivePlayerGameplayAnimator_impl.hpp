@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::OnDestroy)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3bc33c8;
+  constexpr static std::size_t addrs = 0x57b4534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::InitializeIfNeeded)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3bc34d4;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x57b4640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(
     ::GlobalNamespace::MultiplayerController_State)>(&::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::HandleStateChanged)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3bc3598;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x57b4784;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(bool)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::AnimateNewLeaderSelected)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3bc37f8;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x57b49e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::TransitionIntoFailedState)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bc3744;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x57b493c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(
     ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::HandlePlayerDidFinish)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3bc38dc;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x57b4ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)()>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bc3910;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x57b4ad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::*)(float_t)>(
     &::GlobalNamespace::MultiplayerLocalActivePlayerGameplayAnimator::_InitializeIfNeeded_b__6_0)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3bc3918;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x57b4ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

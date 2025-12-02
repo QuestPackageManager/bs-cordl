@@ -3,13 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntervalTree_2)
+namespace IntervalTree {
+template <typename TKey, typename TValue> class IIntervalTree_2;
+}
 namespace IntervalTree {
 template <typename TKey, typename TValue> class IntervalTreeNode_2;
 }
@@ -42,6 +41,9 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -121,7 +123,7 @@ public:
   IntervalTree_2___c(IntervalTree_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18962 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22883 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -168,7 +170,7 @@ public:
   IntervalTree_2___c__DisplayClass19_0(IntervalTree_2___c__DisplayClass19_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22884 };
 
   /// @brief Field value, offset: 0x10, size: 0x8, def value: None
   TValue ___value;
@@ -218,7 +220,7 @@ public:
   IntervalTree_2___c__DisplayClass20_0(IntervalTree_2___c__DisplayClass20_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18964 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22885 };
 
   /// @brief Field items, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TValue>* ___items;
@@ -277,7 +279,7 @@ public:
   IntervalTree_2___c__DisplayClass23_0(IntervalTree_2___c__DisplayClass23_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18965 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22886 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTree_2<TKey, TValue>* _____4__this;
@@ -339,7 +341,7 @@ public:
   IntervalTree_2___c__DisplayClass24_0(IntervalTree_2___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18966 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22887 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTree_2<TKey, TValue>* _____4__this;
@@ -351,7 +353,7 @@ public:
 };
 // Non member Declarations
 } // namespace IntervalTree
-// Dependencies IntervalTree.IIntervalTree`2<TKey, TValue>, IntervalTree.RangeValuePair`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -506,7 +508,7 @@ public:
   IntervalTree_2(IntervalTree_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18967 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22888 };
 
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::IntervalTree::IntervalTreeNode_2<TKey, TValue>* ___root;

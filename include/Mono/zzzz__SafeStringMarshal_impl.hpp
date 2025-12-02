@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Mono/SafeStringMarshal.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Mono/zzzz__SafeStringMarshal_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::Mono::SafeStringMarshal.StringToUtf8_icall
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::ByRef<::StringW>)>(&::Mono::SafeStringMarshal::StringToUtf8_icall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c55d5c;
+  constexpr static std::size_t addrs = 0x5898c10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW)>(&::Mono::SafeStringMarshal::StringToUtf8)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c55d60;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5898c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr)>(&::Mono::SafeStringMarshal::GFree)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c55d78;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5898c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SafeStringMarshal::*)(::StringW)>(&::Mono::SafeStringMarshal::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c55b90;
+  constexpr static std::size_t addrs = 0x5898a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Mono::SafeStringMarshal::*)()>(&::Mono::SafeStringMarshal::get_Value)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c55d7c;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x5898c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeStringMarshal>::get(), "get_Value",
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::SafeStringMarshal::*)()>(&::Mono::SafeStringMarshal::Dispose)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c55dc4;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5898c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::SafeStringMarshal>::get(), "Dispose",

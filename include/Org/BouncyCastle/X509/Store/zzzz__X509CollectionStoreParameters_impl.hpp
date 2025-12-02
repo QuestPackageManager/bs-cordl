@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/X509/Store/X509CollectionStoreParameters.hpp"
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/X509/Store/zzzz__X509CollectionStoreParameters_def.hpp"
+#include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters._ctor
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::*)(::System::Collections::ICollection*)>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::_ctor)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x25ebcc0;
+  constexpr static std::size_t addrs = 0x351b934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::GetCollection)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25ebd78;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x351b9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::*)()>(
     &::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters::ToString)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x25ebdd0;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x351ba48;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILobbyGameStateControllerBase_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ILobbyGameStateController)
 namespace GlobalNamespace {
@@ -14,6 +13,9 @@ struct DisconnectedReason;
 }
 namespace GlobalNamespace {
 class ILevelGameplaySetupData;
+}
+namespace GlobalNamespace {
+class ILobbyGameStateControllerBase;
 }
 namespace GlobalNamespace {
 class MultiplayerLevelScenesTransitionSetupDataSO;
@@ -48,7 +50,7 @@ class ILobbyGameStateController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ILobbyGameStateController);
-// Dependencies ILobbyGameStateControllerBase
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ILobbyGameStateController
@@ -221,7 +223,7 @@ public:
   ILobbyGameStateController(ILobbyGameStateController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4505 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6085 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

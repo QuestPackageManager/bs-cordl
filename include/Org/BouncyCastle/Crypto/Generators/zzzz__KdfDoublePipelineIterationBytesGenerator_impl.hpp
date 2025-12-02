@@ -1,11 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/KdfDoublePipelineIterationBytesGenerator.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_impl.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMacDerivationFunction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__KdfDoublePipelineIterationBytesGenerator_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMacDerivationFunction_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator._ctor
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::*)(
     ::Org::BouncyCastle::Crypto::IMac*)>(&::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2388474;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x32b5ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::*)(
     ::Org::BouncyCastle::Crypto::IDerivationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::Init)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x2388564;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x32b5ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::generateNext)> {
-  constexpr static std::size_t size = 0x4d8;
-  constexpr static std::size_t addrs = 0x2388818;
+  constexpr static std::size_t size = 0x4e8;
+  constexpr static std::size_t addrs = 0x32b62cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (
     ::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::get_Digest)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2388cf0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x32b67b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::GenerateBytes)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x2388d78;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x32b6840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IMac* (
     ::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::KdfDoublePipelineIterationBytesGenerator::GetMac)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2388f78;
+  constexpr static std::size_t addrs = 0x32b6a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

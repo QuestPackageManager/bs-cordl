@@ -7,10 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PlayersSpecificSettingsAtGameStartModel)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 class PlayerSpecificSettingsAtStartNetSerializable;
@@ -46,7 +46,7 @@ public:
 
   static inline ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0* New_ctor();
 
-  /// @brief Method <SaveFromNetSerializable>b__0, addr 0x22e32f0, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method <SaveFromNetSerializable>b__0, addr 0x31b3f00, size 0x124, virtual false, abstract: false, final false
   inline bool _SaveFromNetSerializable_b__0(::GlobalNamespace::IConnectedPlayer* p);
 
   constexpr ::GlobalNamespace::IConnectedPlayer* const& __cordl_internal_get_player() const;
@@ -55,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_player(::GlobalNamespace::IConnectedPlayer* value);
 
-  /// @brief Method .ctor, addr 0x22e32e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31b3efc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -73,7 +73,7 @@ public:
   PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0(PlayersSpecificSettingsAtGameStartModel___c__DisplayClass13_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14938 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19037 };
 
   /// @brief Field player, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IConnectedPlayer* ___player;
@@ -101,7 +101,7 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   /// @brief Field <playersAtGameStartNetSerializable>k__BackingField, offset 0x18, size 0x8
   __declspec(property(
@@ -116,22 +116,22 @@ public:
   __declspec(property(get = get_playersAtGameStartNetSerializable,
                       put = set_playersAtGameStartNetSerializable)) ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable;
 
-  /// @brief Method GetPlayerSpecificSettingsForUserId, addr 0x22e2b5c, size 0x3a4, virtual false, abstract: false, final false
+  /// @brief Method GetPlayerSpecificSettingsForUserId, addr 0x31b377c, size 0x37c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* GetPlayerSpecificSettingsForUserId(::StringW userId);
 
-  static inline ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
+  static inline ::GlobalNamespace::PlayersSpecificSettingsAtGameStartModel* New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                                      ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
 
-  /// @brief Method SaveFromNetSerializable, addr 0x22e2f00, size 0x3e8, virtual false, abstract: false, final false
+  /// @brief Method SaveFromNetSerializable, addr 0x31b3af8, size 0x404, virtual false, abstract: false, final false
   inline void SaveFromNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* playersAtGameStartNetSerializable);
 
   constexpr ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* const& __cordl_internal_get__localPlayerSpecificSettings_k__BackingField() const;
 
   constexpr ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*& __cordl_internal_get__localPlayerSpecificSettings_k__BackingField();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* const& __cordl_internal_get__playersAtGameStartNetSerializable_k__BackingField() const;
 
@@ -139,26 +139,26 @@ public:
 
   constexpr void __cordl_internal_set__localPlayerSpecificSettings_k__BackingField(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   constexpr void __cordl_internal_set__playersAtGameStartNetSerializable_k__BackingField(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
 
-  /// @brief Method .ctor, addr 0x22e2ae0, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
+  /// @brief Method .ctor, addr 0x31b3714, size 0x68, virtual false, abstract: false, final false
+  inline void _ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* localPlayerSpecificSettings);
 
-  /// @brief Method get_localPlayerSpecificSettings, addr 0x22e2ac0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_localPlayerSpecificSettings, addr 0x31b36f4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* get_localPlayerSpecificSettings();
 
-  /// @brief Method get_playersAtGameStart, addr 0x22e2aa8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_playersAtGameStart, addr 0x31b36e0, size 0x14, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* get_playersAtGameStart();
 
-  /// @brief Method get_playersAtGameStartNetSerializable, addr 0x22e2ad0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_playersAtGameStartNetSerializable, addr 0x31b3704, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* get_playersAtGameStartNetSerializable();
 
-  /// @brief Method set_localPlayerSpecificSettings, addr 0x22e2ac8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_localPlayerSpecificSettings, addr 0x31b36fc, size 0x8, virtual false, abstract: false, final false
   inline void set_localPlayerSpecificSettings(::GlobalNamespace::PlayerSpecificSettingsNetSerializable* value);
 
-  /// @brief Method set_playersAtGameStartNetSerializable, addr 0x22e2ad8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_playersAtGameStartNetSerializable, addr 0x31b370c, size 0x8, virtual false, abstract: false, final false
   inline void set_playersAtGameStartNetSerializable(::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* value);
 
 protected:
@@ -176,7 +176,7 @@ public:
   PlayersSpecificSettingsAtGameStartModel(PlayersSpecificSettingsAtGameStartModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19038 };
 
   /// @brief Field <localPlayerSpecificSettings>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::PlayerSpecificSettingsNetSerializable* ____localPlayerSpecificSettings_k__BackingField;
@@ -185,7 +185,7 @@ public:
   ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable* ____playersAtGameStartNetSerializable_k__BackingField;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "GlobalNamespace/zzzz__EnvironmentContext_impl.hpp"
 #include "GlobalNamespace/zzzz__VideoProjectionEffect_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
@@ -27,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_InitData::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::VideoProjectionEffect_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b9b0ec;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5789a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -65,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::*)()>(
     &::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9b54c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5789ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::*)(
     ::GlobalNamespace::VideoProjectionDataModelSO_VideoClipWithId*)>(&::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect___c__DisplayClass8_0::_LoadVideoFromModel_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b9b5e4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5789f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::*)()>(
     &::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x3b9b608;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x5789f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -141,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::VideoProjectionBehavior_VideoProjectionEffect__LoadPreviewCoverAsset_d__9::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b9b8bc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x578a258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -194,8 +193,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)(
     ::GlobalNamespace::VideoProjectionDataModelSO*, ::GlobalNamespace::SongTimeSyncedVideoPlayer*, ::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b9b114;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5789a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::Dispose)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b9b150;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5789a78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -227,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)(int32_t)>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::LoadVideoFromModel)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3b9b2c8;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x5789c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -242,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::LoadPreviewCoverAsset)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3b9b554;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5789ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -257,8 +256,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_VideoProjectionBehavior::UnloadCoverAsset)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3b9b210;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5789b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -388,8 +387,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::*)(
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::VideoProjectionDataModelSO*, ::GlobalNamespace::SongTimeSyncedVideoPlayer*, ::GlobalNamespace::BasicBeatmapEventType,
     ::GlobalNamespace::BeatmapCallbacksController*, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::_ctor)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3b9aeac;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x5789824;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -410,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::*)()>(
     &::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::Dispose)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b9b8c8;
+  constexpr static std::size_t addrs = 0x578a260;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -425,8 +424,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::*)(
     ::GlobalNamespace::BasicBeatmapEventData*)>(&::GlobalNamespace::VideoProjectionEffect_BeatmapEditorVideoProjectionBehavior::HandleBeatmapEvent)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x3b9b8f0;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x578a288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -498,8 +497,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect_GameplayVideoProjectionBehavior::*)(
     ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::VideoProjectionDataModelSO*, ::GlobalNamespace::SongTimeSyncedVideoPlayer*, ::GlobalNamespace::BasicBeatmapEventType,
     ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::VideoProjectionEffect_GameplayVideoProjectionBehavior::_ctor)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3b9ad74;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x57896e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -537,8 +536,8 @@ constexpr ::GlobalNamespace::VideoProjectionEffect_GameplayVideoProjectionBehavi
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect::*)()>(&::GlobalNamespace::VideoProjectionEffect::Start)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b9ac70;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x57895d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionEffect*>::get(), "Start",
@@ -551,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect::*)()>(&::GlobalNamespace::VideoProjectionEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b9b0cc;
+  constexpr static std::size_t addrs = 0x5789a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionEffect*>::get(), "OnDestroy",
@@ -563,8 +562,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::VideoProjectionEffect::*)()>(&::GlobalNamespace::VideoProjectionEffect::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9b0e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5789a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::VideoProjectionEffect*>::get(), ".ctor",

@@ -21,6 +21,7 @@ module;
 #include "UnityEngine/XR/MeshGenerationStatus.hpp"
 #include "UnityEngine/XR/MeshId.hpp"
 #include "UnityEngine/XR/MeshVertexAttributes.hpp"
+#include "UnityEngine/XR/TrackingOriginModeFlags.hpp"
 #include "UnityEngine/XR/TrackingSpaceType.hpp"
 #include "UnityEngine/XR/XRDevice.hpp"
 #include "UnityEngine/XR/XRDisplaySubsystem.hpp"

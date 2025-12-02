@@ -1,10 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/DerSetParser.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_impl.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerSetParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__Asn1SetParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1StreamParser_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::DerSetParser._ctor
@@ -12,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::DerSetParser::*)(::Org::BouncyCastle::Asn1::Asn1StreamParser*)>(
     &::Org::BouncyCastle::Asn1::DerSetParser::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26316b4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x356164c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::IAsn1Convertible* (::Org::BouncyCastle::Asn1::DerSetParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerSetParser::ReadObject)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x263b2dc;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x356b000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerSetParser*>::get(), "ReadObject",
@@ -41,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::DerSetParser::*)()>(
     &::Org::BouncyCastle::Asn1::DerSetParser::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x263b2fc;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x356b01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::DerSetParser*>::get(), "ToAsn1Object",

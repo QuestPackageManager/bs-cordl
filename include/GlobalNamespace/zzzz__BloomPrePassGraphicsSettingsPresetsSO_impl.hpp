@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::*)()>(
     &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6170;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x36080e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,7 +51,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*, ::Array<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO_Preset*>*> (
         ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_presets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6150;
+  constexpr static std::size_t addrs = 0x36080c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(),
@@ -65,7 +65,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::NamedPreset*, ::Array<::GlobalNamespace::NamedPreset*>*> (
     ::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(&::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::get_namedPresets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6158;
+  constexpr static std::size_t addrs = 0x36080d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::*)()>(
     &::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d6160;
+  constexpr static std::size_t addrs = 0x36080d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO*>::get(),

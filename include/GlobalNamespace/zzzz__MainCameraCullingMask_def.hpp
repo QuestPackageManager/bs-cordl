@@ -40,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_showDebris(bool value);
 
-  /// @brief Method .ctor, addr 0x40824d0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2cd28, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool showDebris);
 
 protected:
@@ -58,7 +58,7 @@ public:
   MainCameraCullingMask_InitData(MainCameraCullingMask_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17872 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20756 };
 
   /// @brief Field showDebris, offset: 0x10, size: 0x1, def value: None
   bool ___showDebris;
@@ -88,7 +88,7 @@ public:
 
   static inline ::GlobalNamespace::MainCameraCullingMask* New_ctor();
 
-  /// @brief Method Start, addr 0x40823b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5d2cbdc, size 0xec, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__camera() const;
@@ -103,7 +103,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::MainCameraCullingMask_InitData* value);
 
-  /// @brief Method .ctor, addr 0x4082468, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d2ccc8, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -121,7 +121,7 @@ public:
   MainCameraCullingMask(MainCameraCullingMask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17873 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20757 };
 
   /// @brief Field _camera, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____camera;

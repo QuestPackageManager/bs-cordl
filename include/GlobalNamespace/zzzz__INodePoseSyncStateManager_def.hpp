@@ -3,15 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INodePoseSyncStateManager_5_def.hpp"
-#include "GlobalNamespace/zzzz__NodePoseSyncState_def.hpp"
-#include "GlobalNamespace/zzzz__PoseSerializable_def.hpp"
 CORDL_MODULE_EXPORT(INodePoseSyncStateManager)
+namespace GlobalNamespace {
+template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class INodePoseSyncStateManager_5;
+}
 namespace GlobalNamespace {
 class NodePoseSyncStateDeltaNetSerializable;
 }
 namespace GlobalNamespace {
 class NodePoseSyncStateNetSerializable;
+}
+namespace GlobalNamespace {
+struct NodePoseSyncState_NodePose;
+}
+namespace GlobalNamespace {
+struct NodePoseSyncState;
+}
+namespace GlobalNamespace {
+struct PoseSerializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -19,7 +28,7 @@ class INodePoseSyncStateManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::INodePoseSyncStateManager);
-// Dependencies INodePoseSyncStateManager`5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>, NodePoseSyncState, NodePoseSyncState::NodePose, PoseSerializable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: INodePoseSyncStateManager
@@ -42,7 +51,7 @@ public:
   INodePoseSyncStateManager(INodePoseSyncStateManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21219 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

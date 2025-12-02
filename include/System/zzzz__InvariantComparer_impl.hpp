@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/InvariantComparer.hpp"
-#include "System/Collections/zzzz__IComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__InvariantComparer_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Globalization/zzzz__CompareInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::InvariantComparer._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::InvariantComparer::*)()>(&::System::InvariantComparer::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x440a520;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x61587e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::InvariantComparer*>::get(), ".ctor",
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::InvariantComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::InvariantComparer::Compare)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x440a59c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6158858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

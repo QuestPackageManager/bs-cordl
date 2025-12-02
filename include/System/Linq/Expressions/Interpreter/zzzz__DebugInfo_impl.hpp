@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/Interpreter/DebugInfo.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
+#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__DebugInfo_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer.System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare
 template <>
@@ -10,8 +10,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::*)(
     ::System::Linq::Expressions::Interpreter::DebugInfo*, ::System::Linq::Expressions::Interpreter::DebugInfo*)>(
     &::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::System_Collections_Generic_IComparer_System_Linq_Expressions_Interpreter_DebugInfo__Compare)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x40d814c;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x5d84e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo_DebugInfoComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40d8144;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d84e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,7 +73,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Linq::Expressions::Interpreter::DebugInfo* (*)(::ArrayW<::System::Linq::Expressions::Interpreter::DebugInfo*, ::Array<::System::Linq::Expressions::Interpreter::DebugInfo*>*>,
                                                                          int32_t)>(&::System::Linq::Expressions::Interpreter::DebugInfo::GetMatchingDebugInfo)> {
   constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x40d3d04;
+  constexpr static std::size_t addrs = 0x5d815c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::ToString)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x40d7ec0;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x5d84bc8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::Interpreter::DebugInfo::*)()>(
     &::System::Linq::Expressions::Interpreter::DebugInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40d7eb8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d84bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::Interpreter::DebugInfo*>::get(),

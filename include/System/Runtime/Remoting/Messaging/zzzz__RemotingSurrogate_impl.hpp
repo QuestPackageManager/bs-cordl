@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/RemotingSurrogate.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__RemotingSurrogate_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializationSurrogate_def.hpp"
 #include "System/Runtime/Serialization/zzzz__ISurrogateSelector_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)(
     ::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogate::GetObjectData)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3cf1878;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x59337d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,7 +31,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)(::System::Object*, ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext,
                                                                   ::System::Runtime::Serialization::ISurrogateSelector*)>(&::System::Runtime::Remoting::Messaging::RemotingSurrogate::SetObjectData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3cf1988;
+  constexpr static std::size_t addrs = 0x5933868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::RemotingSurrogate::*)()>(
     &::System::Runtime::Remoting::Messaging::RemotingSurrogate::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf19c0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59338a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

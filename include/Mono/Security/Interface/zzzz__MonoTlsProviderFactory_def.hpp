@@ -21,7 +21,7 @@ namespace Mono::Security::Interface {
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetProvider, addr 0x3c46080, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetProvider, addr 0x5888bc8, size 0x7c, virtual false, abstract: false, final false
   static inline ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
 
 protected:
@@ -39,7 +39,7 @@ public:
   MonoTlsProviderFactory(MonoTlsProviderFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15963 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19253 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

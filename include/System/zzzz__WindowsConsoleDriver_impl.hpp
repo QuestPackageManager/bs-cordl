@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "System/WindowsConsoleDriver.hpp"
-#include "System/zzzz__IConsoleDriver_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__WindowsConsoleDriver_def.hpp"
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
 #include "System/zzzz__ConsoleScreenBufferInfo_def.hpp"
 #include "System/zzzz__Handles_def.hpp"
+#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__InputRecord_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 //  Writing Method size for method: ::System::WindowsConsoleDriver._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::WindowsConsoleDriver::*)()>(&::System::WindowsConsoleDriver::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e457c8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5a8a818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::WindowsConsoleDriver*>::get(), ".ctor",
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ConsoleKeyInfo (::System::WindowsConsoleDriver::*)(bool)>(&::System::WindowsConsoleDriver::ReadKey)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3e45934;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x5a8a97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int16_t)>(&::System::WindowsConsoleDriver::IsModifierKey)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3e45b74;
+  constexpr static std::size_t addrs = 0x5a8abc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Handles)>(&::System::WindowsConsoleDriver::GetStdHandle)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3e4581c;
+  constexpr static std::size_t addrs = 0x5a8a864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<::System::ConsoleScreenBufferInfo>)>(
     &::System::WindowsConsoleDriver::GetConsoleScreenBufferInfo)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e458a0;
+  constexpr static std::size_t addrs = 0x5a8a8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr, ::ByRef<::System::InputRecord>, int32_t, ::ByRef<int32_t>)>(
     &::System::WindowsConsoleDriver::ReadConsoleInput)> {
   constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3e45a6c;
+  constexpr static std::size_t addrs = 0x5a8aabc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

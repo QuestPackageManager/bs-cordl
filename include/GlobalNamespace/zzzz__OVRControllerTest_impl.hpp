@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::*)(::System::Object*, ::System::IntPtr)>(
     &::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x402d7cc;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5ce054c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::*)()>(
     &::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x402d854;
+  constexpr static std::size_t addrs = 0x5ce140c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::*)(::System::AsyncCallback*, ::System::Object*)>(&::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::BeginInvoke)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x402d868;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5ce1420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::*)(::System::IAsyncResult*)>(
     &::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator::EndInvoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x402d888;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5ce143c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest_BoolMonitor::*)(
     ::StringW, ::GlobalNamespace::BoolMonitor_OVRControllerTest_BoolGenerator*, float_t)>(&::GlobalNamespace::OVRControllerTest_BoolMonitor::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x402d5f0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5ce05b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest_BoolMonitor::*)()>(
     &::GlobalNamespace::OVRControllerTest_BoolMonitor::Update)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x402d668;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5ce10e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest_BoolMonitor*>::get(),
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest_BoolMonitor::*)(::ByRef<::System::Text::StringBuilder*>)>(
     &::GlobalNamespace::OVRControllerTest_BoolMonitor::AppendToStringBuilder)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x402d6f8;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5ce1198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,8 +265,8 @@ constexpr ::GlobalNamespace::OVRControllerTest_BoolMonitor::OVRControllerTest_Bo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x402d90c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ce14b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(), ".ctor",
@@ -278,8 +278,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_0)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402d914;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce14b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -291,8 +291,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_1)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402d96c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -304,8 +304,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_2)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402d9c4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -317,8 +317,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_3)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402da1c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce15cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -330,8 +330,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_4)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402da74;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -343,8 +343,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_5)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dacc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -356,8 +356,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_6)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402db24;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce16e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -369,8 +369,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_7)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402db7c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce173c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -382,8 +382,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_8)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dbd4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1798;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -395,8 +395,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_9)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dc2c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce17f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -408,8 +408,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_10)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dc84;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -421,8 +421,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_11)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dcdc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce18ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -434,8 +434,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_12)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dd34;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -447,8 +447,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_13)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dd8c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -460,8 +460,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_14)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dde4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce19c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -473,8 +473,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_15)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402de3c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -486,8 +486,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_16)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402de94;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -499,8 +499,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_17)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402deec;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -512,8 +512,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_18)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402df44;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -525,8 +525,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_19)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402df9c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -538,8 +538,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_20)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402dff4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -551,8 +551,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_21)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e04c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1c44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -564,8 +564,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_22)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e0a4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -577,8 +577,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_23)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e0fc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -590,8 +590,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_24)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e154;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -603,8 +603,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_25)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e1ac;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -616,8 +616,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_26)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e204;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -629,8 +629,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_27)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e25c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -642,8 +642,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_28)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e2b4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -655,8 +655,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_29)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e30c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -668,8 +668,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::_Start_b__4_30)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x402e364;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ce1f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -681,8 +681,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerTest___c::*)()>(&::GlobalNamespace::OVRControllerTest___c::__cctor_b__9_0)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x402e3bc;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5ce1fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest___c*>::get(),
@@ -1150,8 +1150,8 @@ constexpr ::GlobalNamespace::OVRControllerTest___c::OVRControllerTest___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest::*)()>(&::GlobalNamespace::OVRControllerTest::Start)> {
-  constexpr static std::size_t size = 0x2160;
-  constexpr static std::size_t addrs = 0x402aa80;
+  constexpr static std::size_t size = 0x24e0;
+  constexpr static std::size_t addrs = 0x5cde06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest*>::get(), "Start",
@@ -1163,8 +1163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest::*)()>(&::GlobalNamespace::OVRControllerTest::Update)> {
-  constexpr static std::size_t size = 0x8d0;
-  constexpr static std::size_t addrs = 0x402cbe0;
+  constexpr static std::size_t size = 0xad0;
+  constexpr static std::size_t addrs = 0x5ce0618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest*>::get(), "Update",
@@ -1176,8 +1176,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerTest::*)()>(&::GlobalNamespace::OVRControllerTest::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x402d4b0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ce1294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerTest*>::get(), ".ctor",

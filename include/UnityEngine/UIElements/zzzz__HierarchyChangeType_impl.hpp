@@ -7,6 +7,8 @@ constexpr ::UnityEngine::UIElements::HierarchyChangeType::HierarchyChangeType(in
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::HierarchyChangeType::HierarchyChangeType() {}
-constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::Add{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::Remove{ static_cast<int32_t>(0x1) };
-constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::Move{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::AddedToParent{ static_cast<int32_t>(0x0) };
+constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::RemovedFromParent{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::ChildrenReordered{ static_cast<int32_t>(0x2) };
+constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::AttachedToPanel{ static_cast<int32_t>(0x3) };
+constexpr ::UnityEngine::UIElements::HierarchyChangeType UnityEngine::UIElements::HierarchyChangeType::DetachedFromPanel{ static_cast<int32_t>(0x4) };

@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/X509/Store/zzzz__IX509StoreParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(X509CollectionStoreParameters)
+namespace Org::BouncyCastle::X509::Store {
+class IX509StoreParameters;
+}
 namespace System::Collections {
 class ICollection;
 }
@@ -19,7 +21,7 @@ class X509CollectionStoreParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters);
-// Dependencies Org.BouncyCastle.X509.Store.IX509StoreParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::X509::Store {
 // Is value type: false
 // CS Name: Org.BouncyCastle.X509.Store.X509CollectionStoreParameters
@@ -32,12 +34,12 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"
   constexpr operator ::Org::BouncyCastle::X509::Store::IX509StoreParameters*() noexcept;
 
-  /// @brief Method GetCollection, addr 0x25ebd78, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method GetCollection, addr 0x351b9ec, size 0x5c, virtual false, abstract: false, final false
   inline ::System::Collections::ICollection* GetCollection();
 
   static inline ::Org::BouncyCastle::X509::Store::X509CollectionStoreParameters* New_ctor(::System::Collections::ICollection* collection);
 
-  /// @brief Method ToString, addr 0x25ebdd0, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x351ba48, size 0x104, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_collection() const;
@@ -46,7 +48,7 @@ public:
 
   constexpr void __cordl_internal_set_collection(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x25ebcc0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x351b934, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::ICollection* collection);
 
   /// @brief Convert to "::Org::BouncyCastle::X509::Store::IX509StoreParameters"

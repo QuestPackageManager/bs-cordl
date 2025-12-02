@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerConnectedPlayerSpectatingSpot.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSpectatingSpot_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerConnectedPlayerSpectatingSpot_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
@@ -15,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::add_hasBeenRemovedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be4810;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57d702c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(
     ::System::Action_1<::GlobalNamespace::IMultiplayerSpectatingSpot*>*)>(&::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::remove_hasBeenRemovedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be48c0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57d70ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::add_isObservedChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be4970;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57d71ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(::System::Action_1<bool>*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::remove_isObservedChangedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3be4a20;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57d726c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IMultiplayerObservable* (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::get_observable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be4ad0;
+  constexpr static std::size_t addrs = 0x57d732c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(::GlobalNamespace::IMultiplayerObservable*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::set_observable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be4ad8;
+  constexpr static std::size_t addrs = 0x57d7334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::get_spotName)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3be4ae0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x57d733c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -123,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::get_isMain)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be4b84;
+  constexpr static std::size_t addrs = 0x57d73e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -137,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::Start)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3be4b8c;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x57d73ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::OnDestroy)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3be4ee0;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x57d7754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(bool)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::SetIsObserved)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3be5088;
+  constexpr static std::size_t addrs = 0x57d7900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,7 +182,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::ReloadBasedOnPlayerCurrentState)> {
   constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3be50a8;
+  constexpr static std::size_t addrs = 0x57d7920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerStateChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be521c;
+  constexpr static std::size_t addrs = 0x57d7a94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)(::GlobalNamespace::IConnectedPlayer*)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::HandlePlayerDisconnected)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3be5220;
+  constexpr static std::size_t addrs = 0x57d7a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -227,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be5224;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57d7a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -243,7 +242,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerSpectatingSpot::IMultiplayerSpectatingSpot_get_transform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be522c;
+  constexpr static std::size_t addrs = 0x57d7aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

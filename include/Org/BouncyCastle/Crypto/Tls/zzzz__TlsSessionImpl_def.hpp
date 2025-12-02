@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsSessionImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
 class SessionParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSession;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -16,7 +18,7 @@ class TlsSessionImpl;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsSession, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsSessionImpl
@@ -39,10 +41,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSession"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSession*() noexcept;
 
-  /// @brief Method ExportSessionParameters, addr 0x243bb68, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ExportSessionParameters, addr 0x336a2b4, size 0xb0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::SessionParameters* ExportSessionParameters();
 
-  /// @brief Method Invalidate, addr 0x243bc50, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Invalidate, addr 0x336a390, size 0x1c, virtual true, abstract: false, final false
   inline void Invalidate();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsSessionImpl* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
@@ -65,13 +67,13 @@ public:
 
   constexpr void __cordl_internal_set_mSessionParameters(::Org::BouncyCastle::Crypto::Tls::SessionParameters* value);
 
-  /// @brief Method .ctor, addr 0x243ba28, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x336a17c, size 0x138, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> sessionID, ::Org::BouncyCastle::Crypto::Tls::SessionParameters* sessionParameters);
 
-  /// @brief Method get_IsResumable, addr 0x243bc74, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_IsResumable, addr 0x336a3ac, size 0x2c, virtual true, abstract: false, final false
   inline bool get_IsResumable();
 
-  /// @brief Method get_SessionID, addr 0x243bc1c, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method get_SessionID, addr 0x336a364, size 0x2c, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_SessionID();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsSession"

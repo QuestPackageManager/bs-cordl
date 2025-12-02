@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TutorialPause.hpp"
-#include "GlobalNamespace/zzzz__IGamePause_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__TutorialPause_def.hpp"
 #include "GlobalNamespace/zzzz__AudioListenerController_def.hpp"
+#include "GlobalNamespace/zzzz__IGamePause_def.hpp"
 #include "GlobalNamespace/zzzz__SaberManager_def.hpp"
 #include "GlobalNamespace/zzzz__TutorialSongController_def.hpp"
 #include "System/zzzz__Action_def.hpp"
@@ -12,7 +12,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TutorialPause::*)()>(&::GlobalNamespace::TutorialPause::get_isPaused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf18fc;
+  constexpr static std::size_t addrs = 0x57e4a10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialPause*>::get(), "get_isPaused",
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)(::System::Action*)>(
     &::GlobalNamespace::TutorialPause::add_didPauseEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf1904;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e4a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)(::System::Action*)>(
     &::GlobalNamespace::TutorialPause::remove_didPauseEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf19a0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e4ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)(::System::Action*)>(
     &::GlobalNamespace::TutorialPause::add_willResumeEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf1a3c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e4b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)(::System::Action*)>(
     &::GlobalNamespace::TutorialPause::remove_willResumeEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf1ad8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e4c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)(::System::Action*)>(
     &::GlobalNamespace::TutorialPause::add_didResumeEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf1b74;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e4cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)(::System::Action*)>(
     &::GlobalNamespace::TutorialPause::remove_didResumeEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bf1c10;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57e4d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,8 +114,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)()>(&::GlobalNamespace::TutorialPause::Pause)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3bf1cac;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x57e4e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialPause*>::get(), "Pause",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)()>(&::GlobalNamespace::TutorialPause::WillResume)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bf1d24;
+  constexpr static std::size_t addrs = 0x57e4ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialPause*>::get(), "WillResume",
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)()>(&::GlobalNamespace::TutorialPause::Resume)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3bf1d40;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x57e4ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialPause*>::get(), "Resume",
@@ -153,8 +153,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TutorialPause::*)()>(&::GlobalNamespace::TutorialPause::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf1db4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e4f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TutorialPause*>::get(), ".ctor",

@@ -1,11 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Rotate.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Angle_def.hpp"
+#include "UnityEngine/UIElements/zzzz__Rotate_def.hpp"
 #include "UnityEngine/zzzz__Quaternion_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::Rotate._ctor
@@ -13,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Angle)>(
     &::UnityEngine::UIElements::Rotate::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a848c0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a5d0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,12 +26,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::Rotate._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::Quaternion)>(&::UnityEngine::UIElements::Rotate::_ctor)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6a5d130;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Rotate.Initial
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Rotate (*)()>(&::UnityEngine::UIElements::Rotate::Initial)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a84920;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a5d184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "Initial",
@@ -40,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Rotate (*)()>(&::UnityEngine::UIElements::Rotate::None)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4a849c0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6a5d1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "None",
@@ -55,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Angle (::UnityEngine::UIElements::Rotate::*)()>(
     &::UnityEngine::UIElements::Rotate::get_angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a84a20;
+  constexpr static std::size_t addrs = 0x6a5d240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "get_angle",
@@ -69,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Angle)>(
     &::UnityEngine::UIElements::Rotate::set_angle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a84a28;
+  constexpr static std::size_t addrs = 0x6a5d248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,11 +100,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::get_axis)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a84a30;
+  constexpr static std::size_t addrs = 0x6a5d250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "get_axis",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Rotate.set_axis
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::Vector3)>(&::UnityEngine::UIElements::Rotate::set_axis)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5d25c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "set_axis", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
     return ___internal_method;
   }
 };
@@ -96,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate)>(
     &::UnityEngine::UIElements::Rotate::op_Equality)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4a82eb8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6a5acc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::Rotate, ::UnityEngine::UIElements::Rotate)>(
     &::UnityEngine::UIElements::Rotate::op_Inequality)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a84a3c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6a5d268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Rotate::*)(::UnityEngine::UIElements::Rotate)>(
     &::UnityEngine::UIElements::Rotate::Equals)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a84a84;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6a5d2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,8 +173,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Rotate::*)(::System::Object*)>(&::UnityEngine::UIElements::Rotate::Equals)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a84ac8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6a5d364;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,8 +187,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::GetHashCode)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4a831a8;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6a5afbc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,8 +201,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::Rotate::*)()>(&::UnityEngine::UIElements::Rotate::ToString)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a84b68;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6a5d448;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::UIElements::Rotate::*)()>(
     &::UnityEngine::UIElements::Rotate::ToQuaternion)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a84bdc;
+  constexpr static std::size_t addrs = 0x6a5d4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "ToQuaternion",
@@ -199,6 +230,12 @@ inline void UnityEngine::UIElements::Rotate::_ctor(::UnityEngine::UIElements::An
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Angle>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, angle);
+}
+inline void UnityEngine::UIElements::Rotate::_ctor(::UnityEngine::Quaternion quaternion) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, quaternion);
 }
 inline ::UnityEngine::UIElements::Rotate UnityEngine::UIElements::Rotate::Initial() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "Initial",
@@ -225,6 +262,12 @@ inline ::UnityEngine::Vector3 UnityEngine::UIElements::Rotate::get_axis() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "get_axis",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::Rotate::set_axis(::UnityEngine::Vector3 value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate>::get(), "set_axis", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool UnityEngine::UIElements::Rotate::op_Equality(::UnityEngine::UIElements::Rotate lhs, ::UnityEngine::UIElements::Rotate rhs) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -283,3 +326,301 @@ constexpr ::UnityEngine::UIElements::Rotate::Rotate(::UnityEngine::UIElements::A
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Rotate::Rotate() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5d6c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5d6c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Angle (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Rotate>)>(&::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5d6d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Rotate>, ::UnityEngine::UIElements::Angle)>(&::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5d6d8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a5d5f8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Angle UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::GetValue(::ByRef<::UnityEngine::UIElements::Rotate> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::Angle, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::SetValue(::ByRef<::UnityEngine::UIElements::Rotate> container, ::UnityEngine::UIElements::Angle value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty* UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_Rotate_AngleProperty::PropertyBag_Rotate_AngleProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5d6e0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5d6e8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Rotate>)>(&::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::GetValue)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5d6f0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::Rotate>, ::UnityEngine::Vector3)>(&::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::SetValue)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6a5d6fc;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a5d65c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::Vector3 UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::GetValue(::ByRef<::UnityEngine::UIElements::Rotate> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::SetValue(::ByRef<::UnityEngine::UIElements::Rotate> container, ::UnityEngine::Vector3 value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>::get(),
+                                                                             ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty* UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_Rotate_AxisProperty::PropertyBag_Rotate_AxisProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Rotate_PropertyBag._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Rotate_PropertyBag::*)()>(&::UnityEngine::UIElements::Rotate_PropertyBag::_ctor)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6a5d4e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate_PropertyBag*>::get(), ".ctor",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::Rotate_PropertyBag::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Rotate_PropertyBag*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::Rotate_PropertyBag* UnityEngine::UIElements::Rotate_PropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Rotate_PropertyBag*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::Rotate_PropertyBag::Rotate_PropertyBag() {}

@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(int32_t)>(&::System::Text::Normalization::PropValue)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c91768;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x58d5df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Text::Normalization::CharMapIdx)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c917fc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x58d5e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(int32_t)>(&::System::Text::Normalization::GetCombiningClass)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c91890;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x58d5f28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Text::Normalization::GetPrimaryCompositeFromMapIndex)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c91938;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x58d5fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Text::Normalization::GetPrimaryCompositeHelperIndex)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3c919e0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x58d6088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::Text::Normalization::Compose)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3c91a88;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x58d6138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (*)(::StringW, int32_t, int32_t)>(&::System::Text::Normalization::Combine)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3c91c94;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x58d6344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, int32_t)>(&::System::Text::Normalization::Combine)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3c91dd0;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x58d6474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Text::StringBuilder*, ::StringW, int32_t)>(&::System::Text::Normalization::CombineHangul)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3c92014;
+  constexpr static std::size_t addrs = 0x58d66ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Text::StringBuilder*, ::StringW, int32_t)>(&::System::Text::Normalization::Fetch)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c9240c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x58d6aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,8 +156,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Text::StringBuilder*, ::StringW, int32_t)>(
     &::System::Text::Normalization::TryComposeWithPreviousStarter)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x3c921d8;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x58d6870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,8 +171,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t, int32_t)>(&::System::Text::Normalization::TryCompose)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3c92448;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x58d6aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,8 +186,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::Text::Normalization::Decompose)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3c92560;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x58d6c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,8 +200,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::System::Text::StringBuilder*>, int32_t)>(&::System::Text::Normalization::Decompose)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3c91b64;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x58d6220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -217,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::ByRef<::System::Text::StringBuilder*>, int32_t)>(
     &::System::Text::Normalization::ReorderCanonical)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3c927c4;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x58d6e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -234,8 +234,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::System::Text::StringBuilder*>, ::ByRef<::ArrayW<int32_t, ::Array<int32_t>*>>, ::StringW, int32_t,
                                                                                            int32_t, ::ByRef<int32_t>)>(&::System::Text::Normalization::DecomposeChar)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3c925ec;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x58d6ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,8 +251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::NormalizationCheck (*)(char16_t, int32_t)>(&::System::Text::Normalization::QuickCheck)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3c91ee0;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x58d6580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,8 +266,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(
     &::System::Text::Normalization::GetCanonicalHangul)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3c92bec;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x58d72cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -283,8 +283,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t)>(
     &::System::Text::Normalization::GetCanonical)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3c92a34;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x58d7118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -299,8 +299,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::System::Text::NormalizationForm)>(&::System::Text::Normalization::Normalize)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c92cd8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x58d73b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -315,7 +315,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, int32_t)>(&::System::Text::Normalization::Normalize)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c92d94;
+  constexpr static std::size_t addrs = 0x58d7458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,8 +330,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::System::IntPtr>, ::ByRef<::System::IntPtr>, ::ByRef<::System::IntPtr>, ::ByRef<::System::IntPtr>, ::ByRef<::System::IntPtr>, ::ByRef<::System::IntPtr>)>(
         &::System::Text::Normalization::load_normalization_resource)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c92e34;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x58d74f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -343,47 +343,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-inline void System::Text::Normalization::setStaticF_props(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "props", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void System::Text::Normalization::setStaticF_props(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "props", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> System::Text::Normalization::getStaticF_props() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "props", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
+inline uint8_t* System::Text::Normalization::getStaticF_props() {
+  return ::cordl_internals::getStaticField<uint8_t*, "props", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
 }
-inline void System::Text::Normalization::setStaticF_mappedChars(::cordl_internals::Ptr<int32_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<int32_t>, "mappedChars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(
-      std::forward<::cordl_internals::Ptr<int32_t>>(value));
+inline void System::Text::Normalization::setStaticF_mappedChars(int32_t* value) {
+  ::cordl_internals::setStaticField<int32_t*, "mappedChars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<int32_t*>(value));
 }
-inline ::cordl_internals::Ptr<int32_t> System::Text::Normalization::getStaticF_mappedChars() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<int32_t>, "mappedChars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
+inline int32_t* System::Text::Normalization::getStaticF_mappedChars() {
+  return ::cordl_internals::getStaticField<int32_t*, "mappedChars", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
 }
-inline void System::Text::Normalization::setStaticF_charMapIndex(::cordl_internals::Ptr<int16_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<int16_t>, "charMapIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(
-      std::forward<::cordl_internals::Ptr<int16_t>>(value));
+inline void System::Text::Normalization::setStaticF_charMapIndex(int16_t* value) {
+  ::cordl_internals::setStaticField<int16_t*, "charMapIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<int16_t*>(value));
 }
-inline ::cordl_internals::Ptr<int16_t> System::Text::Normalization::getStaticF_charMapIndex() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<int16_t>, "charMapIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
+inline int16_t* System::Text::Normalization::getStaticF_charMapIndex() {
+  return ::cordl_internals::getStaticField<int16_t*, "charMapIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
 }
-inline void System::Text::Normalization::setStaticF_helperIndex(::cordl_internals::Ptr<int16_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<int16_t>, "helperIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(
-      std::forward<::cordl_internals::Ptr<int16_t>>(value));
+inline void System::Text::Normalization::setStaticF_helperIndex(int16_t* value) {
+  ::cordl_internals::setStaticField<int16_t*, "helperIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<int16_t*>(value));
 }
-inline ::cordl_internals::Ptr<int16_t> System::Text::Normalization::getStaticF_helperIndex() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<int16_t>, "helperIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
+inline int16_t* System::Text::Normalization::getStaticF_helperIndex() {
+  return ::cordl_internals::getStaticField<int16_t*, "helperIndex", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
 }
-inline void System::Text::Normalization::setStaticF_mapIdxToComposite(::cordl_internals::Ptr<uint16_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint16_t>, "mapIdxToComposite", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(
-      std::forward<::cordl_internals::Ptr<uint16_t>>(value));
+inline void System::Text::Normalization::setStaticF_mapIdxToComposite(uint16_t* value) {
+  ::cordl_internals::setStaticField<uint16_t*, "mapIdxToComposite", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<uint16_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint16_t> System::Text::Normalization::getStaticF_mapIdxToComposite() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint16_t>, "mapIdxToComposite", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
+inline uint16_t* System::Text::Normalization::getStaticF_mapIdxToComposite() {
+  return ::cordl_internals::getStaticField<uint16_t*, "mapIdxToComposite", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
 }
-inline void System::Text::Normalization::setStaticF_combiningClass(::cordl_internals::Ptr<uint8_t> value) {
-  ::cordl_internals::setStaticField<::cordl_internals::Ptr<uint8_t>, "combiningClass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(
-      std::forward<::cordl_internals::Ptr<uint8_t>>(value));
+inline void System::Text::Normalization::setStaticF_combiningClass(uint8_t* value) {
+  ::cordl_internals::setStaticField<uint8_t*, "combiningClass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<uint8_t*>(value));
 }
-inline ::cordl_internals::Ptr<uint8_t> System::Text::Normalization::getStaticF_combiningClass() {
-  return ::cordl_internals::getStaticField<::cordl_internals::Ptr<uint8_t>, "combiningClass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
+inline uint8_t* System::Text::Normalization::getStaticF_combiningClass() {
+  return ::cordl_internals::getStaticField<uint8_t*, "combiningClass", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>();
 }
 inline void System::Text::Normalization::setStaticF_forLock(::System::Object* value) {
   ::cordl_internals::setStaticField<::System::Object*, "forLock", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::Normalization*>::get>(std::forward<::System::Object*>(value));

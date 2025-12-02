@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadValue)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d1050;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x56481f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -19,13 +19,43 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite.ReadOculusRuntimeValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadOculusRuntimeValue)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5648278;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), "ReadOculusRuntimeValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite.ReadOtherRuntimeValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
+    ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadOtherRuntimeValue)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x56482d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), "ReadOtherRuntimeValue", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite.EvaluateMagnitude
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)(
     ::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>)>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d1058;
+  constexpr static std::size_t addrs = 0x5648330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::Init)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d10cc;
+  constexpr static std::size_t addrs = 0x56483ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -54,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::*)()>(
     &::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39d10d0;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56483b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,6 +122,18 @@ inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadVa
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
+}
+inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadOculusRuntimeValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), "ReadOculusRuntimeValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
+}
+inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::ReadOtherRuntimeValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*>::get(), "ReadOtherRuntimeValue", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, context);
 }
 inline float_t GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite::EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context) {

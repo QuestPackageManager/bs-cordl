@@ -3,15 +3,27 @@
 #include "GlobalNamespace/zzzz__LightWithIdMonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__InstancedMaterialLightWithId_def.hpp"
+#include "GlobalNamespace/zzzz__InstancedMaterialLightWithId_def.hpp"
 #include "GlobalNamespace/zzzz__MaterialPropertyBlockColorSetter_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType::InstancedMaterialLightWithId_MultiplyColorByAlphaType(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType::InstancedMaterialLightWithId_MultiplyColorByAlphaType() {}
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType::None{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType::BeforeApplyingMinAlpha{ static_cast<int32_t>(
+    0x1) };
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType::AfterApplyingMinAlpha{ static_cast<int32_t>(
+    0x2) };
 //  Writing Method size for method: ::GlobalNamespace::InstancedMaterialLightWithId.get_intensity
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(
     &::GlobalNamespace::InstancedMaterialLightWithId::get_intensity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e152c;
+  constexpr static std::size_t addrs = 0x5658ce4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
@@ -24,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)(float_t)>(
     &::GlobalNamespace::InstancedMaterialLightWithId::set_intensity)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39e1534;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5658cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::InstancedMaterialLightWithId::ColorWasSet)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x39e154c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5658d08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(
     &::GlobalNamespace::InstancedMaterialLightWithId::AddNecessaryComponents)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39e15f4;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5658ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(),
@@ -69,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstancedMaterialLightWithId::*)()>(
     &::GlobalNamespace::InstancedMaterialLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39e16f8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5658eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstancedMaterialLightWithId*>::get(), ".ctor",
@@ -125,6 +137,18 @@ constexpr float_t const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_
 constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__minAlpha(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____minAlpha = value;
+}
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__multiplyColorByAlpha() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplyColorByAlpha;
+}
+constexpr ::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType const& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__multiplyColorByAlpha() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____multiplyColorByAlpha;
+}
+constexpr void GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_set__multiplyColorByAlpha(::GlobalNamespace::InstancedMaterialLightWithId_MultiplyColorByAlphaType value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____multiplyColorByAlpha = value;
 }
 constexpr bool& GlobalNamespace::InstancedMaterialLightWithId::__cordl_internal_get__saturateIntensity() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

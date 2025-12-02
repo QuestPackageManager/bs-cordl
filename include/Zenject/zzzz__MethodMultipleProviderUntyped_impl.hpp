@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/MethodMultipleProviderUntyped.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__MethodMultipleProviderUntyped_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::MethodMultipleProviderUntyped._ctor
@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MethodMultipleProviderUntyped::*)(
     ::System::Func_2<::Zenject::InjectContext*, ::System::Collections::Generic::IEnumerable_1<::System::Object*>*>*, ::Zenject::DiContainer*)>(&::Zenject::MethodMultipleProviderUntyped::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b3e4e8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c524c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::MethodMultipleProviderUntyped::*)()>(&::Zenject::MethodMultipleProviderUntyped::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3e514;
+  constexpr static std::size_t addrs = 0x6c524cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::MethodMultipleProviderUntyped*>::get(), "get_IsCached",
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::MethodMultipleProviderUntyped::*)()>(
     &::Zenject::MethodMultipleProviderUntyped::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3e51c;
+  constexpr static std::size_t addrs = 0x6c524d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::MethodMultipleProviderUntyped::*)(::Zenject::InjectContext*)>(
     &::Zenject::MethodMultipleProviderUntyped::GetInstanceType)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b3e524;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6c524dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,8 +78,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::MethodMultipleProviderUntyped::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::MethodMultipleProviderUntyped::GetAllInstancesWithInjectSplit)> {
-  constexpr static std::size_t size = 0x580;
-  constexpr static std::size_t addrs = 0x4b3e53c;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x6c524f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

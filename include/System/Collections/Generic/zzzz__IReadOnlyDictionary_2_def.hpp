@@ -3,13 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IReadOnlyDictionary_2)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> struct KeyValuePair_2;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 // Forward declare root types
 namespace System::Collections::Generic {
@@ -17,8 +22,7 @@ template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::IReadOnlyDictionary_2);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>,
-// System.Collections.IEnumerable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -73,7 +77,7 @@ public:
   IReadOnlyDictionary_2(IReadOnlyDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

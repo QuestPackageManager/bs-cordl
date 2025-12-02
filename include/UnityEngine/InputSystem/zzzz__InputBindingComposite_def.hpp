@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__TypeTable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -21,10 +16,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Reflection {
 class FieldInfo;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -48,8 +49,7 @@ class InputBindingComposite__GetPartNames_d__12;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputBindingComposite);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputBindingComposite__GetPartNames_d__12);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.InputBindingComposite/<GetPartNames>d__12
@@ -96,27 +96,27 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x455c51c, size 0x1c8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x62eedcc, size 0x1b0, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite__GetPartNames_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x455c72c, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerable<System.String>.GetEnumerator, addr 0x62eefc4, size 0x98, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::StringW>* System_Collections_Generic_IEnumerable_System_String__GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x455c6e4, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.String>.get_Current, addr 0x62eef7c, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_Collections_Generic_IEnumerator_System_String__get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x455c7c8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x62ef05c, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x455c6ec, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x62eef84, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x455c724, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x62eefbc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x455c518, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x62eedc8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -161,7 +161,7 @@ public:
 
   constexpr void __cordl_internal_set_composite(::StringW value);
 
-  /// @brief Method .ctor, addr 0x455c3c0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62eeda8, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::StringW>"
@@ -194,7 +194,7 @@ public:
   InputBindingComposite__GetPartNames_d__12(InputBindingComposite__GetPartNames_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6594 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8647 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -253,36 +253,36 @@ public:
 
   __declspec(property(get = get_valueType)) ::System::Type* valueType;
 
-  /// @brief Method CallFinishSetup, addr 0x45547dc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CallFinishSetup, addr 0x62d0a08, size 0xc, virtual false, abstract: false, final false
   inline void CallFinishSetup(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method EvaluateMagnitude, addr 0x455c070, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method EvaluateMagnitude, addr 0x62d8aac, size 0x8, virtual true, abstract: false, final false
   inline float_t EvaluateMagnitude(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method FinishSetup, addr 0x455c078, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x62d8ab4, size 0x4, virtual true, abstract: false, final false
   inline void FinishSetup(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method GetDisplayFormatString, addr 0x455c3f4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method GetDisplayFormatString, addr 0x62d8dac, size 0x104, virtual false, abstract: false, final false
   static inline ::StringW GetDisplayFormatString(::StringW composite);
 
-  /// @brief Method GetExpectedControlLayoutName, addr 0x455c1bc, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method GetExpectedControlLayoutName, addr 0x62d8be0, size 0x15c, virtual false, abstract: false, final false
   static inline ::StringW GetExpectedControlLayoutName(::StringW composite, ::StringW part);
 
-  /// @brief Method GetPartNames, addr 0x455c350, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetPartNames, addr 0x62d8d3c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetPartNames(::StringW composite);
 
-  /// @brief Method GetValueType, addr 0x455c07c, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method GetValueType, addr 0x62d8ab8, size 0x128, virtual false, abstract: false, final false
   static inline ::System::Type* GetValueType(::StringW composite);
 
   static inline ::UnityEngine::InputSystem::InputBindingComposite* New_ctor();
 
   /// @brief Method ReadValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+  inline void ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize);
 
   /// @brief Method ReadValueAsObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
-  /// @brief Method .ctor, addr 0x455c510, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d8eb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Utilities::TypeTable getStaticF_s_Composites();
@@ -310,7 +310,7 @@ public:
   InputBindingComposite(InputBindingComposite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6595 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8648 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

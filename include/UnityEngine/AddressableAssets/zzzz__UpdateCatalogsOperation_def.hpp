@@ -73,10 +73,10 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c* New_ctor();
 
-  /// @brief Method <Start>b__6_0, addr 0x44f5570, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__6_0, addr 0x62454ac, size 0x8c, virtual false, abstract: false, final false
   inline bool _Start_b__6_0(::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* rp);
 
-  /// @brief Method .ctor, addr 0x44f5568, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62454a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c* getStaticF___9();
@@ -102,7 +102,7 @@ public:
   UpdateCatalogsOperation___c(UpdateCatalogsOperation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16196 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19521 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,7 +126,7 @@ public:
 
   static inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation___c__DisplayClass11_0* New_ctor();
 
-  /// @brief Method <OnCleanCacheCompleted>b__0, addr 0x44f560c, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method <OnCleanCacheCompleted>b__0, addr 0x6245538, size 0x1c4, virtual false, abstract: false, final false
   inline void _OnCleanCacheCompleted_b__0(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> obj);
 
   constexpr ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* const& __cordl_internal_get___4__this() const;
@@ -141,7 +141,7 @@ public:
 
   constexpr void __cordl_internal_set_catalogs(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* value);
 
-  /// @brief Method .ctor, addr 0x44f5504, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6245450, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -159,7 +159,7 @@ public:
   UpdateCatalogsOperation___c__DisplayClass11_0(UpdateCatalogsOperation___c__DisplayClass11_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19522 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* _____4__this;
@@ -192,14 +192,14 @@ public:
   /// @brief Field m_Addressables, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Addressables, put = __cordl_internal_set_m_Addressables)) ::UnityEngine::AddressableAssets::AddressablesImpl* m_Addressables;
 
-  /// @brief Field m_AutoCleanBundleCache, offset 0xe8, size 0x1
+  /// @brief Field m_AutoCleanBundleCache, offset 0xd8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_AutoCleanBundleCache, put = __cordl_internal_set_m_AutoCleanBundleCache)) bool m_AutoCleanBundleCache;
 
-  /// @brief Field m_CleanCacheOp, offset 0xc8, size 0x20
+  /// @brief Field m_CleanCacheOp, offset 0xc0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_CleanCacheOp, put = __cordl_internal_set_m_CleanCacheOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool>
       m_CleanCacheOp;
 
-  /// @brief Field m_DepOp, offset 0xa8, size 0x20
+  /// @brief Field m_DepOp, offset 0xa8, size 0x18
   __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       m_DepOp;
@@ -208,25 +208,25 @@ public:
   __declspec(property(get = __cordl_internal_get_m_LocatorInfos,
                       put = __cordl_internal_set_m_LocatorInfos)) ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* m_LocatorInfos;
 
-  /// @brief Method Destroy, addr 0x44f4c20, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method Destroy, addr 0x6244b5c, size 0x4c, virtual true, abstract: false, final false
   inline void Destroy();
 
-  /// @brief Method Execute, addr 0x44f4db4, size 0x67c, virtual true, abstract: false, final false
+  /// @brief Method Execute, addr 0x6244c8c, size 0x6b0, virtual true, abstract: false, final false
   inline void Execute();
 
-  /// @brief Method GetDependencies, addr 0x44f4c94, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method GetDependencies, addr 0x6244ba8, size 0xe4, virtual true, abstract: false, final false
   inline void GetDependencies(::System::Collections::Generic::List_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>* dependencies);
 
-  /// @brief Method InvokeWaitForCompletion, addr 0x44f4a70, size 0x1b0, virtual true, abstract: false, final false
+  /// @brief Method InvokeWaitForCompletion, addr 0x6244970, size 0x1ec, virtual true, abstract: false, final false
   inline bool InvokeWaitForCompletion();
 
   static inline ::UnityEngine::AddressableAssets::UpdateCatalogsOperation* New_ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
-  /// @brief Method OnCleanCacheCompleted, addr 0x44f5430, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method OnCleanCacheCompleted, addr 0x624533c, size 0x114, virtual false, abstract: false, final false
   inline void OnCleanCacheCompleted(::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> handle,
                                     ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>* catalogs);
 
-  /// @brief Method Start, addr 0x44efd7c, size 0x6e8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x623fc98, size 0x6e0, virtual false, abstract: false, final false
   inline ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*>*>
   Start(::System::Collections::Generic::IEnumerable_1<::StringW>* catalogIds, bool autoCleanBundleCache);
 
@@ -266,7 +266,7 @@ public:
 
   constexpr void __cordl_internal_set_m_LocatorInfos(::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* value);
 
-  /// @brief Method .ctor, addr 0x44efd20, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x623fc38, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::AddressableAssets::AddressablesImpl* aa);
 
 protected:
@@ -284,7 +284,7 @@ public:
   UpdateCatalogsOperation(UpdateCatalogsOperation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16198 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19523 };
 
   /// @brief Field m_Addressables, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::AddressableAssets::AddressablesImpl* ___m_Addressables;
@@ -292,14 +292,14 @@ public:
   /// @brief Field m_LocatorInfos, offset: 0xa0, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::AddressableAssets::ResourceLocatorInfo*>* ___m_LocatorInfos;
 
-  /// @brief Field m_DepOp, offset: 0xa8, size: 0x20, def value: None
+  /// @brief Field m_DepOp, offset: 0xa8, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       ___m_DepOp;
 
-  /// @brief Field m_CleanCacheOp, offset: 0xc8, size: 0x20, def value: None
+  /// @brief Field m_CleanCacheOp, offset: 0xc0, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<bool> ___m_CleanCacheOp;
 
-  /// @brief Field m_AutoCleanBundleCache, offset: 0xe8, size: 0x1, def value: None
+  /// @brief Field m_AutoCleanBundleCache, offset: 0xd8, size: 0x1, def value: None
   bool ___m_AutoCleanBundleCache;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -311,11 +311,11 @@ static_assert(offsetof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation
 
 static_assert(offsetof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation, ___m_DepOp) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation, ___m_CleanCacheOp) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation, ___m_CleanCacheOp) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation, ___m_AutoCleanBundleCache) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::AddressableAssets::UpdateCatalogsOperation, ___m_AutoCleanBundleCache) == 0xd8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::UpdateCatalogsOperation, 0xf0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::UpdateCatalogsOperation, 0xe0>, "Size mismatch!");
 
 } // namespace UnityEngine::AddressableAssets
 NEED_NO_BOX(::UnityEngine::AddressableAssets::UpdateCatalogsOperation);

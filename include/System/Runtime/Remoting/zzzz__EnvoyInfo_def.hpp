@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/zzzz__IEnvoyInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(EnvoyInfo)
 namespace System::Runtime::Remoting::Messaging {
 class IMessageSink;
+}
+namespace System::Runtime::Remoting {
+class IEnvoyInfo;
 }
 // Forward declare root types
 namespace System::Runtime::Remoting {
@@ -15,7 +17,7 @@ class EnvoyInfo;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::EnvoyInfo);
-// Dependencies System.Object, System.Runtime.Remoting.IEnvoyInfo
+// Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.EnvoyInfo
@@ -38,10 +40,10 @@ public:
 
   constexpr void __cordl_internal_set_envoySinks(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cc6fc0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x590a6b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* sinks);
 
-  /// @brief Method get_EnvoySinks, addr 0x3cc6fe8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_EnvoySinks, addr 0x590a6c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageSink* get_EnvoySinks();
 
   /// @brief Convert to "::System::Runtime::Remoting::IEnvoyInfo"
@@ -62,7 +64,7 @@ public:
   EnvoyInfo(EnvoyInfo const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3055 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3072 };
 
   /// @brief Field envoySinks, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ___envoySinks;

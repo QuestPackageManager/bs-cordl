@@ -3,16 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Utilities/zzzz__IWrappedDictionary_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -23,11 +13,17 @@ template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnu
 namespace Newtonsoft::Json::Utilities {
 template <typename TKey, typename TValue> class DictionaryWrapper_2___c;
 }
+namespace Newtonsoft::Json::Utilities {
+class IWrappedDictionary;
+}
 namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
@@ -49,6 +45,9 @@ class IDictionaryEnumerator;
 }
 namespace System::Collections {
 class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -76,7 +75,7 @@ template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnu
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::DictionaryWrapper_2);
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Utilities::DictionaryWrapper_2___c);
 MARK_GEN_VAL_T(::Newtonsoft::Json::Utilities::DictionaryWrapper_2_DictionaryEnumerator_2);
-// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator
+// Dependencies
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue, typename TEnumeratorKey, typename TEnumeratorValue>
@@ -135,7 +134,7 @@ public:
   constexpr DictionaryWrapper_2_DictionaryEnumerator_2(::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TEnumeratorKey, TEnumeratorValue>>* _e) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10205 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13359 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -194,15 +193,13 @@ public:
   DictionaryWrapper_2___c(DictionaryWrapper_2___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10206 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace Newtonsoft::Json::Utilities
-// Dependencies Newtonsoft.Json.Utilities.IWrappedDictionary, System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>,
-// System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable,
-// System.Object
+// Dependencies System.Object
 namespace Newtonsoft::Json::Utilities {
 // cpp template
 template <typename TKey, typename TValue>
@@ -446,7 +443,7 @@ public:
   DictionaryWrapper_2(DictionaryWrapper_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10207 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13361 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::IDictionary* ____dictionary;

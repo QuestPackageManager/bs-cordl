@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Security/AccessControl/PrivilegeNotHeldException.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__UnauthorizedAccessException_impl.hpp"
 #include "System/Security/AccessControl/zzzz__PrivilegeNotHeldException_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::Security::AccessControl::PrivilegeNotHeldException._ctor
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::PrivilegeNotHeldException::*)()>(
     &::System::Security::AccessControl::PrivilegeNotHeldException::_ctor)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3cc269c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5905e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::PrivilegeNotHeldException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::AccessControl::PrivilegeNotHeldException::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3cc26e8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5905e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::PrivilegeNotHeldException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Security::AccessControl::PrivilegeNotHeldException::GetObjectData)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3cc2770;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5905f1c;
 
   inline static ::MethodInfo const* methodInfo() {
 

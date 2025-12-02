@@ -26,11 +26,6 @@ namespace TMPro {
 class CORDL_TYPE TMP_SpriteCharacter : public ::TMPro::TMP_TextElement {
 public:
   // Declarations
-  __declspec(property(get = get_hashCode)) int32_t hashCode;
-
-  /// @brief Field m_HashCode, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_HashCode, put = __cordl_internal_set_m_HashCode)) int32_t m_HashCode;
-
   /// @brief Field m_Name, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Name, put = __cordl_internal_set_m_Name)) ::StringW m_Name;
 
@@ -44,37 +39,28 @@ public:
 
   static inline ::TMPro::TMP_SpriteCharacter* New_ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  constexpr int32_t const& __cordl_internal_get_m_HashCode() const;
-
-  constexpr int32_t& __cordl_internal_get_m_HashCode();
-
   constexpr ::StringW const& __cordl_internal_get_m_Name() const;
 
   constexpr ::StringW& __cordl_internal_get_m_Name();
 
-  constexpr void __cordl_internal_set_m_HashCode(int32_t value);
-
   constexpr void __cordl_internal_set_m_Name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x480298c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6781f0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4802c00, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6782070, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method .ctor, addr 0x4802cb4, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67820c8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, uint32_t glyphIndex);
 
-  /// @brief Method .ctor, addr 0x4802c54, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x678209c, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(uint32_t unicode, ::TMPro::TMP_SpriteAsset* spriteAsset, ::TMPro::TMP_SpriteGlyph* glyph);
 
-  /// @brief Method get_hashCode, addr 0x4802bf0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_hashCode();
-
-  /// @brief Method get_name, addr 0x4802b7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_name, addr 0x678205c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_name();
 
-  /// @brief Method set_name, addr 0x48029ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method set_name, addr 0x6782064, size 0x8, virtual false, abstract: false, final false
   inline void set_name(::StringW value);
 
 protected:
@@ -92,22 +78,17 @@ public:
   TMP_SpriteCharacter(TMP_SpriteCharacter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15937 };
 
   /// @brief Field m_Name, offset: 0x30, size: 0x8, def value: None
   ::StringW ___m_Name;
-
-  /// @brief Field m_HashCode, offset: 0x38, size: 0x4, def value: None
-  int32_t ___m_HashCode;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::TMPro::TMP_SpriteCharacter, ___m_Name) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::TMPro::TMP_SpriteCharacter, ___m_HashCode) == 0x38, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteCharacter, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::TMPro::TMP_SpriteCharacter, 0x38>, "Size mismatch!");
 
 } // namespace TMPro
 NEED_NO_BOX(::TMPro::TMP_SpriteCharacter);

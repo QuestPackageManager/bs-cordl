@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::Socket*)>(
     &::System::Net::Sockets::NetworkStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43ef44c;
+  constexpr static std::size_t addrs = 0x613b5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::Socket*, bool)>(
     &::System::Net::Sockets::NetworkStream::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x43ef5f8;
+  constexpr static std::size_t addrs = 0x613b74c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::Socket*, ::System::IO::FileAccess, bool)>(
     &::System::Net::Sockets::NetworkStream::_ctor)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x43ef458;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x613b5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -71,7 +71,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ef604;
+  constexpr static std::size_t addrs = 0x613b758;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ef60c;
+  constexpr static std::size_t addrs = 0x613b760;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ef614;
+  constexpr static std::size_t addrs = 0x613b768;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_CanTimeout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43ef61c;
+  constexpr static std::size_t addrs = 0x613b770;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_ReadTimeout)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43ef624;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x613b778;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,7 +141,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int32_t)>(&::System::Net::Sockets::NetworkStream::set_ReadTimeout)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43ef848;
+  constexpr static std::size_t addrs = 0x613b964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,8 +154,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_WriteTimeout)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43efa90;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x613bb98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int32_t)>(&::System::Net::Sockets::NetworkStream::set_WriteTimeout)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43efb18;
+  constexpr static std::size_t addrs = 0x613bbec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,8 +182,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_DataAvailable)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43efb9c;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x613bc70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_Length)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43efcf0;
+  constexpr static std::size_t addrs = 0x613bdc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::get_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43efd3c;
+  constexpr static std::size_t addrs = 0x613be0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -225,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int64_t)>(&::System::Net::Sockets::NetworkStream::set_Position)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43efd88;
+  constexpr static std::size_t addrs = 0x613be58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Sockets::NetworkStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::Net::Sockets::NetworkStream::Seek)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43efdd4;
+  constexpr static std::size_t addrs = 0x613bea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,8 +254,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::Sockets::NetworkStream::Read)> {
-  constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x43efe20;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x613bef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,8 +269,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)(::System::Span_1<uint8_t>)>(
     &::System::Net::Sockets::NetworkStream::Read)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x43f016c;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x613c22c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,8 +283,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::ReadByte)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43f04c4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x613c588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -298,8 +298,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Net::Sockets::NetworkStream::Write)> {
-  constexpr static std::size_t size = 0x2ec;
-  constexpr static std::size_t addrs = 0x43f0528;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x613c5fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -313,8 +313,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::ReadOnlySpan_1<uint8_t>)>(
     &::System::Net::Sockets::NetworkStream::Write)> {
-  constexpr static std::size_t size = 0x258;
-  constexpr static std::size_t addrs = 0x43f0874;
+  constexpr static std::size_t size = 0x24c;
+  constexpr static std::size_t addrs = 0x613c938;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -327,8 +327,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(uint8_t)>(&::System::Net::Sockets::NetworkStream::WriteByte)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43f0b58;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x613cc10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -341,8 +341,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int32_t)>(&::System::Net::Sockets::NetworkStream::Close)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x43f0bb0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x613cc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -355,8 +355,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(bool)>(&::System::Net::Sockets::NetworkStream::Dispose)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43f0c14;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x613cce4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -369,8 +369,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::Finalize)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x43f0d1c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x613cdd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -385,8 +385,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::Net::Sockets::NetworkStream::BeginRead)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x43f0dc0;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x613ce28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -400,8 +400,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::Sockets::NetworkStream::*)(::System::IAsyncResult*)>(
     &::System::Net::Sockets::NetworkStream::EndRead)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x43f113c;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x613d194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -416,8 +416,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::IAsyncResult* (::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::AsyncCallback*, ::System::Object*)>(
         &::System::Net::Sockets::NetworkStream::BeginWrite)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x43f13a4;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x613d3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::IAsyncResult*)>(
     &::System::Net::Sockets::NetworkStream::EndWrite)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x43f1720;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x613d754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -446,8 +446,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<int32_t>* (
     ::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::ReadAsync)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x43f1988;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x613d9a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -461,8 +461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask_1<int32_t> (::System::Net::Sockets::NetworkStream::*)(
     ::System::Memory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::ReadAsync)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x43f1fe0;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x613e040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -476,8 +476,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::System::Net::Sockets::NetworkStream::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::WriteAsync)> {
-  constexpr static std::size_t size = 0x380;
-  constexpr static std::size_t addrs = 0x43f2224;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x613e274;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -491,8 +491,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::Net::Sockets::NetworkStream::*)(
     ::System::ReadOnlyMemory_1<uint8_t>, ::System::Threading::CancellationToken)>(&::System::Net::Sockets::NetworkStream::WriteAsync)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x43f2894;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x613e8d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -506,7 +506,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)()>(&::System::Net::Sockets::NetworkStream::Flush)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43f2ad4;
+  constexpr static std::size_t addrs = 0x613eb08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -520,8 +520,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::System::Net::Sockets::NetworkStream::*)(::System::Threading::CancellationToken)>(
     &::System::Net::Sockets::NetworkStream::FlushAsync)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x43f2ad8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x613eb0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -535,7 +535,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(int64_t)>(&::System::Net::Sockets::NetworkStream::SetLength)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43f2b60;
+  constexpr static std::size_t addrs = 0x613eba0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -549,8 +549,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Sockets::NetworkStream::*)(::System::Net::Sockets::SocketShutdown, int32_t, bool)>(
     &::System::Net::Sockets::NetworkStream::SetSocketTimeoutOption)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x43ef8cc;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x613b9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -565,8 +565,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Sockets::Socket* (::System::Net::Sockets::NetworkStream::*)()>(
     &::System::Net::Sockets::NetworkStream::get_InternalSocket)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x43f2cec;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x613ed38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Sockets::NetworkStream*>::get(),

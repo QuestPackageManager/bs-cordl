@@ -43,26 +43,26 @@ public:
   __declspec(property(get = getStaticF_s_MovedTypesFactories, put = setStaticF_s_MovedTypesFactories)) ::System::Collections::Generic::Dictionary_2<
       ::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* s_MovedTypesFactories;
 
-  /// @brief Method GetMovedUIControlTypeName, addr 0x4aa5174, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method GetMovedUIControlTypeName, addr 0x6a8d5e4, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW GetMovedUIControlTypeName(::System::Type* type, ::UnityEngine::Scripting::APIUpdating::MovedFromAttribute* attr);
 
-  /// @brief Method RegisterEngineFactories, addr 0x4aa53b4, size 0x10c4, virtual false, abstract: false, final false
+  /// @brief Method RegisterEngineFactories, addr 0x6a8d7f8, size 0x1294, virtual false, abstract: false, final false
   static inline void RegisterEngineFactories();
 
-  /// @brief Method RegisterFactory, addr 0x4aa6748, size 0x5d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterFactory, addr 0x6a8edac, size 0x5dc, virtual false, abstract: false, final false
   static inline void RegisterFactory(::UnityEngine::UIElements::IUxmlFactory* factory);
 
-  /// @brief Method RegisterUserFactories, addr 0x4aa6478, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method RegisterUserFactories, addr 0x6a8ea8c, size 0x320, virtual false, abstract: false, final false
   static inline void RegisterUserFactories();
 
-  /// @brief Method TryGetValue, addr 0x4aa6d18, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x6a8f388, size 0xb8, virtual false, abstract: false, final false
   static inline bool TryGetValue(::StringW fullTypeName, ::ByRef<::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*> factoryList);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* getStaticF_s_Factories();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* getStaticF_s_MovedTypesFactories();
 
-  /// @brief Method get_factories, addr 0x4aa52d4, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method get_factories, addr 0x6a8d6d4, size 0x124, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* get_factories();
 
   static inline void setStaticF_s_Factories(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IUxmlFactory*>*>* value);
@@ -85,7 +85,7 @@ public:
   VisualElementFactoryRegistry(VisualElementFactoryRegistry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5198 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

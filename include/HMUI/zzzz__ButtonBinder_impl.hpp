@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonBinder::*)()>(&::HMUI::ButtonBinder::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39e945c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5661134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonBinder*>::get(), ".ctor",
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonBinder::*)(::UnityEngine::UI::Button*, ::System::Action*)>(&::HMUI::ButtonBinder::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x39e94ec;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x56611ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::HMUI::ButtonBinder::*)(::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>*)>(&::HMUI::ButtonBinder::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x39e9670;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x566133c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonBinder::*)()>(&::HMUI::ButtonBinder::Init)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x39e9478;
+  constexpr static std::size_t addrs = 0x5661138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonBinder*>::get(), "Init",
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonBinder::*)(
     ::System::Collections::Generic::List_1<::System::Tuple_2<::UnityW<::UnityEngine::UI::Button>, ::System::Action*>*>*)>(&::HMUI::ButtonBinder::AddBindings)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x39e96a4;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x5661364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonBinder::*)(::UnityEngine::UI::Button*, ::System::Action*)>(&::HMUI::ButtonBinder::AddBinding)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x39e9528;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x56611dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,8 +99,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ButtonBinder::*)()>(&::HMUI::ButtonBinder::ClearBindings)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x39e9808;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x56614a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ButtonBinder*>::get(), "ClearBindings",

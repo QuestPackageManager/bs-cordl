@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::GlobalNamespace::EaseType)>(&::GlobalNamespace::Interpolation::Interpolate)> {
-  constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x44da4c8;
+  constexpr static std::size_t size = 0x574;
+  constexpr static std::size_t addrs = 0x6229964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

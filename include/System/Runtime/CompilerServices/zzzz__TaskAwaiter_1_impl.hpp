@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/CompilerServices/TaskAwaiter_1.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 template <typename TResult> inline void System::Runtime::CompilerServices::TaskAwaiter_1<TResult>::_ctor(::System::Threading::Tasks::Task_1<TResult>* task) {

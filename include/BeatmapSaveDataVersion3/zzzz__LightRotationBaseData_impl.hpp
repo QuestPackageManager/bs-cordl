@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_beat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a1d0;
+  constexpr static std::size_t addrs = 0x36354f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightRotationBaseData*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_usePreviousEventRotationValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x270a1d8;
+  constexpr static std::size_t addrs = 0x3635500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::EaseType (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_easeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a1e8;
+  constexpr static std::size_t addrs = 0x3635510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightRotationBaseData*>::get(),
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_loopsCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a1f0;
+  constexpr static std::size_t addrs = 0x3635518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightRotationBaseData*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a1f8;
+  constexpr static std::size_t addrs = 0x3635520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightRotationBaseData*>::get(),
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatmapSaveDataCommon::RotationDirection (::BeatmapSaveDataVersion3::LightRotationBaseData::*)()>(
     &::BeatmapSaveDataVersion3::LightRotationBaseData::get_rotationDirection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x270a200;
+  constexpr static std::size_t addrs = 0x3635528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapSaveDataVersion3::LightRotationBaseData*>::get(),
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapSaveDataVersion3::LightRotationBaseData::*)(
     float_t, bool, ::BeatmapSaveDataCommon::EaseType, int32_t, float_t, ::BeatmapSaveDataCommon::RotationDirection)>(&::BeatmapSaveDataVersion3::LightRotationBaseData::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x270a208;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3635530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

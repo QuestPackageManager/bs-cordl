@@ -3,14 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "UnityEngine/InputSystem/zzzz__IInputActionCollection_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IInputActionCollection2)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace UnityEngine::InputSystem {
+class IInputActionCollection;
 }
 namespace UnityEngine::InputSystem {
 class InputAction;
@@ -24,7 +27,7 @@ class IInputActionCollection2;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection2);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, UnityEngine.InputSystem.IInputActionCollection
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.IInputActionCollection2
@@ -66,7 +69,7 @@ public:
   IInputActionCollection2(IInputActionCollection2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6534 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8586 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

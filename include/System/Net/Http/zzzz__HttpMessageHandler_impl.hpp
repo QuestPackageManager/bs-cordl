@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/HttpMessageHandler.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpMessageHandler.Dispose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMessageHandler::*)()>(&::System::Net::Http::HttpMessageHandler::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4219988;
+  constexpr static std::size_t addrs = 0x5ec2608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMessageHandler*>::get(), "Dispose",
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMessageHandler::*)(bool)>(&::System::Net::Http::HttpMessageHandler::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4212e4c;
+  constexpr static std::size_t addrs = 0x5eba294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMessageHandler::*)()>(&::System::Net::Http::HttpMessageHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4212b0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5eb9f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMessageHandler*>::get(), ".ctor",

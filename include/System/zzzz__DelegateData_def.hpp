@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set_target_type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e340c8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a79e64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   DelegateData(DelegateData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2590 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2599 };
 
   /// @brief Field target_type, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ___target_type;

@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -17,8 +14,14 @@ class CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7;
 namespace GlobalNamespace {
 class CutoutEffect;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -36,7 +39,7 @@ class CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CutoutAnimateEffect);
 MARK_REF_PTR_T(::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: CutoutAnimateEffect/<AnimateToCutoutCoroutine>d__7
@@ -77,21 +80,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b80240, size 0xf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x576bbbc, size 0x114, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b80338, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x576bcd0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b80340, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x576bcd8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b80378, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x576bd10, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b8023c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x576bbb8, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -136,7 +139,7 @@ public:
 
   constexpr void __cordl_internal_set_duration(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8011c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576bb20, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -163,7 +166,7 @@ public:
   CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7(CutoutAnimateEffect__AnimateToCutoutCoroutine_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5765 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -228,21 +231,21 @@ public:
 
   __declspec(property(get = get_animating, put = set_animating)) bool animating;
 
-  /// @brief Method AnimateCutout, addr 0x3b79e50, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x576580c, size 0x54, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
-  /// @brief Method AnimateToCutoutCoroutine, addr 0x3b80098, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method AnimateToCutoutCoroutine, addr 0x576baa8, size 0x78, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* AnimateToCutoutCoroutine(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
   static inline ::GlobalNamespace::CutoutAnimateEffect* New_ctor();
 
-  /// @brief Method ResetEffect, addr 0x3b76ba4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method ResetEffect, addr 0x57623d4, size 0x24, virtual false, abstract: false, final false
   inline void ResetEffect();
 
-  /// @brief Method SetCutout, addr 0x3b8002c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCutout, addr 0x576ba48, size 0x60, virtual false, abstract: false, final false
   inline void SetCutout(float_t cutout);
 
-  /// @brief Method Start, addr 0x3b80024, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x576ba40, size 0x8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__animating_k__BackingField() const;
@@ -263,13 +266,13 @@ public:
 
   constexpr void __cordl_internal_set__transitionCurve(::UnityEngine::AnimationCurve* value);
 
-  /// @brief Method .ctor, addr 0x3b80208, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576bb84, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animating, addr 0x3b80010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_animating, addr 0x576ba30, size 0x8, virtual false, abstract: false, final false
   inline bool get_animating();
 
-  /// @brief Method set_animating, addr 0x3b80018, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_animating, addr 0x576ba38, size 0x8, virtual false, abstract: false, final false
   inline void set_animating(bool value);
 
 protected:
@@ -287,7 +290,7 @@ public:
   CutoutAnimateEffect(CutoutAnimateEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4202 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5766 };
 
   /// @brief Field _cuttoutEffects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::CutoutEffect>, ::Array<::UnityW<::GlobalNamespace::CutoutEffect>>*> ____cuttoutEffects;

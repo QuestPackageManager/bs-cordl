@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/XInput/IXboxOneRumble.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_impl.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_impl.hpp"
 #include "UnityEngine/InputSystem/XInput/zzzz__IXboxOneRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XInput::IXboxOneRumble.SetMotorSpeeds
 template <>
 

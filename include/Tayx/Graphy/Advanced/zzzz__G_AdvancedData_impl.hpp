@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Tayx/Graphy/Advanced/G_AdvancedData.hpp"
-#include "Tayx/Graphy/UI/zzzz__IModifiableState_impl.hpp"
-#include "Tayx/Graphy/UI/zzzz__IMovable_impl.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "Tayx/Graphy/Advanced/zzzz__G_AdvancedData_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IModifiableState_def.hpp"
+#include "Tayx/Graphy/UI/zzzz__IMovable_def.hpp"
 #include "Tayx/Graphy/zzzz__GraphyManager_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 #include "UnityEngine/UI/zzzz__Text_def.hpp"
@@ -16,7 +16,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44d575c;
+  constexpr static std::size_t addrs = 0x62249c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(), "OnEnable",
@@ -28,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Update)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x44d5760;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x62249c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(), "Update",
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)(::Tayx::Graphy::GraphyManager_ModulePosition)>(
     &::Tayx::Graphy::Advanced::G_AdvancedData::SetPosition)> {
-  constexpr static std::size_t size = 0x7ac;
-  constexpr static std::size_t addrs = 0x44cd1a4;
+  constexpr static std::size_t size = 0x814;
+  constexpr static std::size_t addrs = 0x621c2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)(::Tayx::Graphy::GraphyManager_ModuleState, bool)>(
     &::Tayx::Graphy::Advanced::G_AdvancedData::SetState)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44cd104;
+  constexpr static std::size_t addrs = 0x621c244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(
     &::Tayx::Graphy::Advanced::G_AdvancedData::RestorePreviousState)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ce820;
+  constexpr static std::size_t addrs = 0x621da00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(),
@@ -86,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::UpdateParameters)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44d0a1c;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x621fce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(),
@@ -99,8 +99,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::RefreshParameters)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44d10f8;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x622027c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(),
@@ -112,8 +112,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::Init)> {
-  constexpr static std::size_t size = 0xcf0;
-  constexpr static std::size_t addrs = 0x44cf87c;
+  constexpr static std::size_t size = 0xd6c;
+  constexpr static std::size_t addrs = 0x621ea54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(), "Init",
@@ -125,8 +125,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::Advanced::G_AdvancedData::*)()>(&::Tayx::Graphy::Advanced::G_AdvancedData::_ctor)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x44d5a18;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x6224cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::Advanced::G_AdvancedData*>::get(), ".ctor",

@@ -28,7 +28,7 @@ public:
   constexpr SmallRect(int16_t Left, int16_t Top, int16_t Right, int16_t Bottom) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2656 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

@@ -1,8 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FlickeringNeonSign.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
@@ -10,7 +7,9 @@
 #include "GlobalNamespace/zzzz__FlickeringNeonSign_def.hpp"
 #include "GlobalNamespace/zzzz__RandomObjectPicker_1_def.hpp"
 #include "GlobalNamespace/zzzz__TubeBloomPrePassLight_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__AudioClip_def.hpp"
 #include "UnityEngine/zzzz__Material_def.hpp"
@@ -21,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)(int32_t)>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b9c2bc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x578ab04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b9c400;
+  constexpr static std::size_t addrs = 0x578ac40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b9c404;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x578ac44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -67,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9c508;
+  constexpr static std::size_t addrs = 0x578ad7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b9c510;
+  constexpr static std::size_t addrs = 0x578ad84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +96,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::*)()>(
     &::GlobalNamespace::FlickeringNeonSign__FlickeringCoroutine_d__16::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9c548;
+  constexpr static std::size_t addrs = 0x578adbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -213,7 +212,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::Awake)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b9c17c;
+  constexpr static std::size_t addrs = 0x578a9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlickeringNeonSign*>::get(), "Awake",
@@ -226,7 +225,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::Start)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b9c200;
+  constexpr static std::size_t addrs = 0x578aa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlickeringNeonSign*>::get(), "Start",
@@ -239,7 +238,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::OnEnable)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b9c23c;
+  constexpr static std::size_t addrs = 0x578aa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlickeringNeonSign*>::get(), "OnEnable",
@@ -252,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FlickeringNeonSign::*)()>(
     &::GlobalNamespace::FlickeringNeonSign::FlickeringCoroutine)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b9c25c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x578aab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlickeringNeonSign*>::get(),
@@ -265,8 +264,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)(bool)>(&::GlobalNamespace::FlickeringNeonSign::SetOn)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3b9c2e4;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x578ab0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -279,8 +278,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FlickeringNeonSign::*)()>(&::GlobalNamespace::FlickeringNeonSign::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b9c3ec;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x578ac30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FlickeringNeonSign*>::get(), ".ctor",

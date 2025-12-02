@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
-#include "Zenject/zzzz__ILateTickable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(EnvironmentShaderWarmupDebugger)
 namespace GlobalNamespace {
@@ -32,6 +30,12 @@ class Material;
 namespace UnityEngine {
 class Renderer;
 }
+namespace Zenject {
+class IInitializable;
+}
+namespace Zenject {
+class ILateTickable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class EnvironmentShaderWarmupDebugger;
@@ -57,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* New_ctor();
 
-  /// @brief Method <Initialize>b__4_0, addr 0x3aca6a4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Initialize>b__4_0, addr 0x56a3f94, size 0x14, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Material> _Initialize_b__4_0(::UnityEngine::Renderer* renderer);
 
-  /// @brief Method .ctor, addr 0x3aca69c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a3f90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger___c* getStaticF___9();
@@ -86,7 +90,7 @@ public:
   EnvironmentShaderWarmupDebugger___c(EnvironmentShaderWarmupDebugger___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3973 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -94,7 +98,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EnvironmentShaderWarmupDebugger___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Object, Zenject.IInitializable, Zenject.ILateTickable
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: EnvironmentShaderWarmupDebugger
@@ -124,19 +128,19 @@ public:
   /// @brief Convert operator to "::Zenject::ILateTickable"
   constexpr operator ::Zenject::ILateTickable*() noexcept;
 
-  /// @brief Method FullMaterialLookup, addr 0x3ac9fd4, size 0x5c4, virtual false, abstract: false, final false
+  /// @brief Method FullMaterialLookup, addr 0x56a38f8, size 0x5a0, virtual false, abstract: false, final false
   inline void FullMaterialLookup();
 
-  /// @brief Method GetGameObjectPath, addr 0x3ac9e78, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method GetGameObjectPath, addr 0x56a37a4, size 0x154, virtual false, abstract: false, final false
   inline ::StringW GetGameObjectPath(::UnityEngine::GameObject* obj);
 
-  /// @brief Method Initialize, addr 0x3ac9a84, size 0x188, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x56a3368, size 0x1a8, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method JustRenderersAndInitialMaterials, addr 0x3ac9c10, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method JustRenderersAndInitialMaterials, addr 0x56a3514, size 0x290, virtual false, abstract: false, final false
   inline void JustRenderersAndInitialMaterials();
 
-  /// @brief Method LateTick, addr 0x3ac9c0c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method LateTick, addr 0x56a3510, size 0x4, virtual true, abstract: false, final true
   inline void LateTick();
 
   static inline ::GlobalNamespace::EnvironmentShaderWarmupDebugger* New_ctor();
@@ -165,7 +169,7 @@ public:
 
   constexpr void __cordl_internal_set__reusableStringBuilder(::System::Text::StringBuilder* value);
 
-  /// @brief Method .ctor, addr 0x3aca598, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a3e98, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Zenject::IInitializable"
@@ -189,7 +193,7 @@ public:
   EnvironmentShaderWarmupDebugger(EnvironmentShaderWarmupDebugger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5535 };
 
   /// @brief Field _renderersThatWereNotRendered, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Renderer>>* ____renderersThatWereNotRendered;

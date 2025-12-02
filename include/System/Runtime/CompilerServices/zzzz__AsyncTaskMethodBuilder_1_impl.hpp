@@ -38,6 +38,19 @@ template <typename TResult> inline void System::Runtime::CompilerServices::Async
 }
 template <typename TResult>
 template <typename TAwaiter, typename TStateMachine>
+inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>::AwaitOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>::get(), "AwaitOnCompleted",
+      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get() },
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TAwaiter>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TStateMachine>>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TAwaiter>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TStateMachine>::get() }));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, awaiter, stateMachine);
+}
+template <typename TResult>
+template <typename TAwaiter, typename TStateMachine>
 inline void System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>::AwaitUnsafeOnCompleted(::ByRef<TAwaiter> awaiter, ::ByRef<TStateMachine> stateMachine) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResult>>::get(), "AwaitUnsafeOnCompleted",

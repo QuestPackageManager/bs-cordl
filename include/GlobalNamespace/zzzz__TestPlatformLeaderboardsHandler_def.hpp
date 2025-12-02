@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsHandler_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TestPlatformLeaderboardsHandler)
 namespace GlobalNamespace {
@@ -38,18 +37,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE TestPlatformLeaderboardsHandler : public ::GlobalNamespace::PlatformLeaderboardsHandler {
 public:
   // Declarations
-  /// @brief Method GetScores, addr 0x27064d4, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method GetScores, addr 0x3632350, size 0x54, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* GetScores(::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, int32_t count, int32_t fromRank,
-                                                      ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, ::StringW referencePlayerId,
+                                                      ::GlobalNamespace::PlatformLeaderboardsModel_ScoresScope scope, uint64_t referencePlayerId,
                                                       ::GlobalNamespace::PlatformLeaderboardsModel_GetScoresCompletionHandler* completionHandler);
 
   static inline ::GlobalNamespace::TestPlatformLeaderboardsHandler* New_ctor();
 
-  /// @brief Method UploadScore, addr 0x2706528, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method UploadScore, addr 0x36323a4, size 0x54, virtual true, abstract: false, final false
   inline ::GlobalNamespace::HMAsyncRequest* UploadScore(::GlobalNamespace::LeaderboardScoreUploader_ScoreData* scoreData,
                                                         ::GlobalNamespace::PlatformLeaderboardsModel_UploadScoreCompletionHandler* completionHandler);
 
-  /// @brief Method .ctor, addr 0x270657c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36323f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -67,7 +66,7 @@ public:
   TestPlatformLeaderboardsHandler(TestPlatformLeaderboardsHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13350 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15260 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

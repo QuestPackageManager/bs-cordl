@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::RoleSyntax* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::GetInstance)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x260e2ac;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x353e010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(
     ::Org::BouncyCastle::Asn1::X509::GeneralNames*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x260e554;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x353e2b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(::Org::BouncyCastle::Asn1::X509::GeneralName*)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x260e6e4;
+  constexpr static std::size_t addrs = 0x353e43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x260e6f0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x353e448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::_ctor)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x260e350;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x353e0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralNames* (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::get_RoleAuthority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x260e780;
+  constexpr static std::size_t addrs = 0x353e4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::get_RoleName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x260e788;
+  constexpr static std::size_t addrs = 0x353e4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -116,8 +116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::GetRoleNameAsString)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x260e790;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x353e4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -130,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::GetRoleAuthorityAsString)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x260e87c;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x353e5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::RoleSyntax*>::get(),
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::ToAsn1Object)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x260ea50;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x353e7c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::RoleSyntax::*)()>(
     &::Org::BouncyCastle::Asn1::X509::RoleSyntax::ToString)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x260eb44;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x353e8e0;
 
   inline static ::MethodInfo const* methodInfo() {
 

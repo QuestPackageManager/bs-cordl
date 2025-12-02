@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MainThreadDispatcher.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
 #include "GlobalNamespace/zzzz__MainThreadDispatcher_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 template <typename A> constexpr ::System::Action_1<A>*& GlobalNamespace::MainThreadDispatcher___c__DisplayClass2_0_1<A>::__cordl_internal_get_action() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___action;
@@ -256,8 +256,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)(::System::Action*)>(
     &::GlobalNamespace::MainThreadDispatcher::DispatchOnMainThread)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39bdad0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5637c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -270,8 +270,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)()>(&::GlobalNamespace::MainThreadDispatcher::Tick)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x39bdb28;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5637cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), "Tick",
@@ -283,8 +283,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainThreadDispatcher::*)()>(&::GlobalNamespace::MainThreadDispatcher::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39bdc2c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5637de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainThreadDispatcher*>::get(), ".ctor",

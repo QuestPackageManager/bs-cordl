@@ -14,7 +14,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Threading::Tasks::DebuggerSupport::get_LoggingOn)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e60198;
+  constexpr static std::size_t addrs = 0x5aa5a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::DebuggerSupport*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::StringW, uint64_t)>(
     &::System::Threading::Tasks::DebuggerSupport::TraceOperationCreation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e601a0;
+  constexpr static std::size_t addrs = 0x5aa5a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::Internal::Runtime::Augments::AsyncStatus)>(
         &::System::Threading::Tasks::DebuggerSupport::TraceOperationCompletion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e601a4;
+  constexpr static std::size_t addrs = 0x5aa5a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -64,7 +64,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::System::Threading::Tasks::CausalityRelation)>(
         &::System::Threading::Tasks::DebuggerSupport::TraceOperationRelation)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e601a8;
+  constexpr static std::size_t addrs = 0x5aa5aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -82,7 +82,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::Task*, ::System::Threading::Tasks::CausalitySynchronousWork)>(
         &::System::Threading::Tasks::DebuggerSupport::TraceSynchronousWorkStart)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e601ac;
+  constexpr static std::size_t addrs = 0x5aa5aa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::CausalityTraceLevel, ::System::Threading::Tasks::CausalitySynchronousWork)>(
     &::System::Threading::Tasks::DebuggerSupport::TraceSynchronousWorkCompletion)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e601b0;
+  constexpr static std::size_t addrs = 0x5aa5aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::DebuggerSupport::AddToActiveTasks)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e601b4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5aa5aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::DebuggerSupport::AddToActiveTasksNonInlined)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3e60248;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x5aa5b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,8 +142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(&::System::Threading::Tasks::DebuggerSupport::RemoveFromActiveTasks)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e60430;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5aa5d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::DebuggerSupport::RemoveFromActiveTasksNonInlined)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3e604c4;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x5aa5dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

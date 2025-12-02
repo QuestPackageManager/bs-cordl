@@ -29,7 +29,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::Box_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498d63c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b03be8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -47,7 +47,7 @@ public:
   Box_UxmlFactory(Box_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -69,7 +69,7 @@ public:
 
   static inline ::UnityEngine::UIElements::Box* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498d548, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b03ae4, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_ussClassName();
@@ -91,12 +91,12 @@ public:
   Box(Box const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5530 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4142 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x3c8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Box, 0x4a8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::Box);

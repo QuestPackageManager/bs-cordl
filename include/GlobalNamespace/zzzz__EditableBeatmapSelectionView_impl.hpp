@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::get_editButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3affe74;
+  constexpr static std::size_t addrs = 0x56e215c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableBeatmapSelectionView*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Button> (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::get_clearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3affe7c;
+  constexpr static std::size_t addrs = 0x56e2164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableBeatmapSelectionView*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3affe84;
+  constexpr static std::size_t addrs = 0x56e216c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableBeatmapSelectionView*>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableBeatmapSelectionView::set_interactable)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3affe8c;
+  constexpr static std::size_t addrs = 0x56d4844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::get_showClearButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3affeec;
+  constexpr static std::size_t addrs = 0x56e2174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableBeatmapSelectionView*>::get(),
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableBeatmapSelectionView::set_showClearButton)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3affef4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56e217c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableBeatmapSelectionView::SetVisibility)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3afff00;
+  constexpr static std::size_t addrs = 0x56d4228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(bool)>(
     &::GlobalNamespace::EditableBeatmapSelectionView::Setup)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3afff28;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56d4220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)(::ByRef<::GlobalNamespace::BeatmapKey>)>(
     &::GlobalNamespace::EditableBeatmapSelectionView::SetBeatmap)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3afff34;
+  constexpr static std::size_t addrs = 0x56e2184;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EditableBeatmapSelectionView::*)()>(
     &::GlobalNamespace::EditableBeatmapSelectionView::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3afff98;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x56e21e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EditableBeatmapSelectionView*>::get(), ".ctor",

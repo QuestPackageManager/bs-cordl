@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRScenePrefabOverride.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRScenePrefabOverride_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSceneAnchor_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRScenePrefabOverride.UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePrefabOverride::*)()>(
     &::GlobalNamespace::OVRScenePrefabOverride::UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4010a6c;
+  constexpr static std::size_t addrs = 0x5cb8f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePrefabOverride::*)()>(
     &::GlobalNamespace::OVRScenePrefabOverride::UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x4010a70;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5cb8f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,12 +35,27 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRScenePrefabOverride.UpdateEditorClassificationIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePrefabOverride::*)()>(
+    &::GlobalNamespace::OVRScenePrefabOverride::UpdateEditorClassificationIndex)> {
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x5cb8f38;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(), "UpdateEditorClassificationIndex",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRScenePrefabOverride._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRScenePrefabOverride::*)()>(&::GlobalNamespace::OVRScenePrefabOverride::_ctor)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4010ebc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x5cb9374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(), ".ctor",
@@ -48,18 +63,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::OVRScenePrefabOverride._UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0
+//  Writing Method size for method: ::GlobalNamespace::OVRScenePrefabOverride._UpdateEditorClassificationIndex_g__IndexOf_5_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, ::System::Collections::Generic::IEnumerable_1<::StringW>*)>(
-    &::GlobalNamespace::OVRScenePrefabOverride::_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0)> {
-  constexpr static std::size_t size = 0x2f8;
-  constexpr static std::size_t addrs = 0x4010bc4;
+    &::GlobalNamespace::OVRScenePrefabOverride::_UpdateEditorClassificationIndex_g__IndexOf_5_0)> {
+  constexpr static std::size_t size = 0x2cc;
+  constexpr static std::size_t addrs = 0x5cb90a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(),
-                                    "<UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(), "<UpdateEditorClassificationIndex>g__IndexOf|5_0",
+                                    std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::StringW>*>::get() })));
     return ___internal_method;
@@ -113,17 +128,20 @@ inline void GlobalNamespace::OVRScenePrefabOverride::UnityEngine_ISerializationC
                                                "UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void GlobalNamespace::OVRScenePrefabOverride::UpdateEditorClassificationIndex() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(),
+                                                                             "UpdateEditorClassificationIndex", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void GlobalNamespace::OVRScenePrefabOverride::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t
-GlobalNamespace::OVRScenePrefabOverride::_UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0(::StringW label,
-                                                                                                                       ::System::Collections::Generic::IEnumerable_1<::StringW>* collection) {
+inline int32_t GlobalNamespace::OVRScenePrefabOverride::_UpdateEditorClassificationIndex_g__IndexOf_5_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(),
-                                  "<UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRScenePrefabOverride*>::get(), "<UpdateEditorClassificationIndex>g__IndexOf|5_0",
+                                  std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::StringW>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, label, collection);

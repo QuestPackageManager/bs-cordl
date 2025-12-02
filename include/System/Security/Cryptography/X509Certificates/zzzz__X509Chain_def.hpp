@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(X509Chain)
 namespace System::Security::Cryptography::X509Certificates {
@@ -18,8 +17,8 @@ class X509ChainImpl;
 namespace System::Security::Cryptography::X509Certificates {
 class X509ChainPolicy;
 }
-namespace System::Security::Cryptography::X509Certificates {
-struct X509ChainStatus;
+namespace System {
+class IDisposable;
 }
 namespace System {
 struct IntPtr;
@@ -30,7 +29,7 @@ class X509Chain;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509Chain);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: System.Security.Cryptography.X509Certificates.X509Chain
@@ -41,10 +40,6 @@ public:
 
   __declspec(property(get = get_ChainPolicy)) ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* ChainPolicy;
 
-  __declspec(property(get =
-                          get_ChainStatus)) ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*>
-      ChainStatus;
-
   __declspec(property(get = get_Impl)) ::System::Security::Cryptography::X509Certificates::X509ChainImpl* Impl;
 
   /// @brief Field impl, offset 0x10, size 0x8
@@ -53,19 +48,19 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Build, addr 0x443d184, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method Build, addr 0x618d10c, size 0x40, virtual false, abstract: false, final false
   inline bool Build(::System::Security::Cryptography::X509Certificates::X509Certificate2* certificate);
 
-  /// @brief Method Create, addr 0x443d120, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x618d0a8, size 0x64, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* Create();
 
-  /// @brief Method Dispose, addr 0x443e548, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x618e3b8, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x443e5b4, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x618e428, size 0x20, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x443e640, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x618e4b8, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor();
@@ -76,7 +71,7 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509Chain* New_ctor(bool useMachineContext);
 
-  /// @brief Method Reset, addr 0x443e518, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x618e388, size 0x30, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509ChainImpl* const& __cordl_internal_get_impl() const;
@@ -85,28 +80,25 @@ public:
 
   constexpr void __cordl_internal_set_impl(::System::Security::Cryptography::X509Certificates::X509ChainImpl* value);
 
-  /// @brief Method .ctor, addr 0x443e3b8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618e284, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x443e448, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618e2f0, size 0x38, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr chainContext);
 
-  /// @brief Method .ctor, addr 0x443e414, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618e2c4, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Cryptography::X509Certificates::X509ChainImpl* impl);
 
-  /// @brief Method .ctor, addr 0x443e3e0, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x618e2a4, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(bool useMachineContext);
 
-  /// @brief Method get_ChainElements, addr 0x443e488, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ChainElements, addr 0x618e328, size 0x30, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainElementCollection* get_ChainElements();
 
-  /// @brief Method get_ChainPolicy, addr 0x443e4b8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_ChainPolicy, addr 0x618e358, size 0x30, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainPolicy* get_ChainPolicy();
 
-  /// @brief Method get_ChainStatus, addr 0x443e4e8, size 0x30, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Security::Cryptography::X509Certificates::X509ChainStatus, ::Array<::System::Security::Cryptography::X509Certificates::X509ChainStatus>*> get_ChainStatus();
-
-  /// @brief Method get_Impl, addr 0x443e398, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_Impl, addr 0x618e264, size 0x20, virtual false, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509ChainImpl* get_Impl();
 
   /// @brief Convert to "::System::IDisposable"
@@ -127,7 +119,7 @@ public:
   X509Chain(X509Chain const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11171 };
 
   /// @brief Field impl, offset: 0x10, size: 0x8, def value: None
   ::System::Security::Cryptography::X509Certificates::X509ChainImpl* ___impl;

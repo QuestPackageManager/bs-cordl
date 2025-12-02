@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::FacetsChecker* (::System::Xml::Schema::Datatype_long::*)()>(
     &::System::Xml::Schema::Datatype_long::get_FacetsChecker)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43adf80;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5fabfa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::Schema::Datatype_long::*)()>(&::System::Xml::Schema::Datatype_long::get_HasValueFacets)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43adfd8;
+  constexpr static std::size_t addrs = 0x5fabffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlTypeCode (::System::Xml::Schema::Datatype_long::*)()>(
     &::System::Xml::Schema::Datatype_long::get_TypeCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43adfe0;
+  constexpr static std::size_t addrs = 0x5fac004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Schema::Datatype_long::*)(::System::Object*, ::System::Object*)>(
     &::System::Xml::Schema::Datatype_long::Compare)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x43adfe8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5fac00c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_long::*)()>(&::System::Xml::Schema::Datatype_long::get_ValueType)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43ae07c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5fac060;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Xml::Schema::Datatype_long::*)()>(
     &::System::Xml::Schema::Datatype_long::get_ListValueType)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x43ae0d4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5fac0bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,8 +103,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Exception* (::System::Xml::Schema::Datatype_long::*)(::StringW, ::System::Xml::XmlNameTable*, ::System::Xml::IXmlNamespaceResolver*, ::ByRef<::System::Object*>)>(
         &::System::Xml::Schema::Datatype_long::TryParseValue)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x43ae12c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x5fac118;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Schema::Datatype_long::*)()>(&::System::Xml::Schema::Datatype_long::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x43a5720;
+  constexpr static std::size_t addrs = 0x5fa397c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Schema::Datatype_long*>::get(), ".ctor",

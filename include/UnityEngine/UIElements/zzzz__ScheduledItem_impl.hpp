@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem___c::*)()>(&::UnityEngine::UIElements::ScheduledItem___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a686b4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6ba5248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem___c*>::get(), ".ctor",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ScheduledItem___c::*)()>(
     &::UnityEngine::UIElements::ScheduledItem___c::__cctor_b__25_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a686bc;
+  constexpr static std::size_t addrs = 0x6ba524c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem___c*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ScheduledItem___c::*)()>(
     &::UnityEngine::UIElements::ScheduledItem___c::__cctor_b__25_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a686c4;
+  constexpr static std::size_t addrs = 0x6ba5254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem___c*>::get(),
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_startMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68418;
+  constexpr static std::size_t addrs = 0x6ba4fac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem*>::get(), "get_startMs",
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(
     &::UnityEngine::UIElements::ScheduledItem::set_startMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68420;
+  constexpr static std::size_t addrs = 0x6ba4fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,7 +107,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_delayMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68428;
+  constexpr static std::size_t addrs = 0x6ba4fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem*>::get(), "get_delayMs",
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(
     &::UnityEngine::UIElements::ScheduledItem::set_delayMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68430;
+  constexpr static std::size_t addrs = 0x6ba4fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -135,7 +135,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_intervalMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68438;
+  constexpr static std::size_t addrs = 0x6ba4fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem*>::get(),
@@ -149,7 +149,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)(int64_t)>(
     &::UnityEngine::UIElements::ScheduledItem::set_intervalMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68440;
+  constexpr static std::size_t addrs = 0x6ba4fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::get_endTimeMs)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a68448;
+  constexpr static std::size_t addrs = 0x6ba4fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem*>::get(),
@@ -175,8 +175,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4a68450;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6ba4fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem*>::get(), ".ctor",
@@ -188,8 +188,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::ResetStartTime)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4a684c4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6ba5050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ScheduledItem*>::get(),
@@ -217,7 +217,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::OnItemUnscheduled)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4a68520;
+  constexpr static std::size_t addrs = 0x6ba50b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -231,7 +231,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ScheduledItem::*)()>(&::UnityEngine::UIElements::ScheduledItem::ShouldUnschedule)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4a68524;
+  constexpr static std::size_t addrs = 0x6ba50b4;
 
   inline static ::MethodInfo const* methodInfo() {
 

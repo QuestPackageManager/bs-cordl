@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Versioning::TargetFrameworkAttribute::*)(::StringW)>(
     &::System::Runtime::Versioning::TargetFrameworkAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cf3444;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5935250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Versioning::TargetFrameworkAttribute::*)(::StringW)>(
     &::System::Runtime::Versioning::TargetFrameworkAttribute::set_FrameworkDisplayName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cf34b8;
+  constexpr static std::size_t addrs = 0x59352a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

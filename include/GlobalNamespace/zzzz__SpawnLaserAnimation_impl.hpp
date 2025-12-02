@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnLaserAnimation::*)()>(&::GlobalNamespace::SpawnLaserAnimation::InitIfNeeded)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b87ddc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x577450c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnLaserAnimation*>::get(), "InitIfNeeded",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnLaserAnimation::*)()>(&::GlobalNamespace::SpawnLaserAnimation::LateUpdate)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x3b87e9c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x57745d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnLaserAnimation*>::get(), "LateUpdate",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpawnLaserAnimation::*)()>(&::GlobalNamespace::SpawnLaserAnimation::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b87fac;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x57746c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpawnLaserAnimation*>::get(), ".ctor",

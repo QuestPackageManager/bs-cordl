@@ -1,20 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/InputControlList_1.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IList_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyList_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "Unity/Collections/zzzz__Allocator_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IList_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__Allocator_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputControlList_1_def.hpp"
@@ -79,10 +76,10 @@ template <typename TControl> constexpr UnityEngine::InputSystem::InputControlLis
 template <typename TControl> constexpr ::System::IDisposable* UnityEngine::InputSystem::InputControlList_1_Enumerator<TControl>::i___System__IDisposable() {
   return static_cast<::System::IDisposable*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "m_Indices", ty: "::cordl_internals::Ptr<uint64_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "m_Current", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// Ctor Parameters [CppParam { name: "m_Indices", ty: "uint64_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_Count", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_Current", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename TControl>
-constexpr ::UnityEngine::InputSystem::InputControlList_1_Enumerator<TControl>::InputControlList_1_Enumerator(::cordl_internals::Ptr<uint64_t> m_Indices, int32_t m_Count, int32_t m_Current) noexcept {
+constexpr ::UnityEngine::InputSystem::InputControlList_1_Enumerator<TControl>::InputControlList_1_Enumerator(uint64_t* m_Indices, int32_t m_Count, int32_t m_Current) noexcept {
   this->m_Indices = m_Indices;
   this->m_Count = m_Count;
   this->m_Current = m_Current;

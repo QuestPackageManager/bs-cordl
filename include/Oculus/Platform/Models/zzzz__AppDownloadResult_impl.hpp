@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Oculus/Platform/Models/AppDownloadResult.hpp"
+#include "Oculus/Platform/zzzz__AppInstallResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Oculus/Platform/Models/zzzz__AppDownloadResult_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
@@ -9,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::Models::AppDownloadResult::*)(::System::IntPtr)>(
     &::Oculus::Platform::Models::AppDownloadResult::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3f8f280;
+  constexpr static std::size_t addrs = 0x5bc4a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -18,6 +19,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::Oculus::Platform::AppInstallResult& Oculus::Platform::Models::AppDownloadResult::__cordl_internal_get_AppInstallResult() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___AppInstallResult;
+}
+constexpr ::Oculus::Platform::AppInstallResult const& Oculus::Platform::Models::AppDownloadResult::__cordl_internal_get_AppInstallResult() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___AppInstallResult;
+}
+constexpr void Oculus::Platform::Models::AppDownloadResult::__cordl_internal_set_AppInstallResult(::Oculus::Platform::AppInstallResult value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___AppInstallResult = value;
+}
 constexpr int64_t& Oculus::Platform::Models::AppDownloadResult::__cordl_internal_get_Timestamp() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___Timestamp;

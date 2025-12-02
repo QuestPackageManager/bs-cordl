@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::LufsMeter___c::*)()>(&::LufsMetering::LufsMeter___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b751d0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57609a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LufsMetering::LufsMeter___c*>::get(), ".ctor",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::LufsMetering::LufsMeter___c::*)(float_t, float_t)>(
     &::LufsMetering::LufsMeter___c::_IntegratedLoudness_b__5_0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b751d8;
+  constexpr static std::size_t addrs = 0x57609a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LufsMetering::LoudnessData (::LufsMetering::LufsMeter::*)(::UnityEngine::AudioClip*)>(
     &::LufsMetering::LufsMeter::AnalyzeClipLoudness)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3b73a18;
+  constexpr static std::size_t addrs = 0x575f1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LufsMetering::LoudnessData (::LufsMetering::LufsMeter::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(
     &::LufsMetering::LufsMeter::IntegratedLoudness)> {
-  constexpr static std::size_t size = 0xe1c;
-  constexpr static std::size_t addrs = 0x3b73adc;
+  constexpr static std::size_t size = 0xe10;
+  constexpr static std::size_t addrs = 0x575f294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::LufsMetering::LufsMeter::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t, int32_t)>(
     &::LufsMetering::LufsMeter::MomentaryLoudness)> {
-  constexpr static std::size_t size = 0x7d0;
-  constexpr static std::size_t addrs = 0x3b74908;
+  constexpr static std::size_t size = 0x800;
+  constexpr static std::size_t addrs = 0x57600b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,7 +117,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::LufsMeter::*)()>(&::LufsMetering::LufsMeter::SwapData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b748f8;
+  constexpr static std::size_t addrs = 0x57600a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LufsMetering::LufsMeter*>::get(), "SwapData",
@@ -129,8 +129,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::LufsMetering::LufsMeter::*)()>(&::LufsMetering::LufsMeter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b750d8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57608b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LufsMetering::LufsMeter*>::get(), ".ctor",

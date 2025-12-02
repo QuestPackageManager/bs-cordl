@@ -1,0 +1,43 @@
+#pragma once
+// IWYU pragma private; include "UnityEngine/Rendering/RenderGraphModule/UnsafeRenderGraphPass_1.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__BaseRenderGraphPass_2_impl.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeRenderGraphPass_1_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__InternalRenderGraphContext_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__RenderGraphObjectPool_def.hpp"
+#include "UnityEngine/Rendering/RenderGraphModule/zzzz__UnsafeGraphContext_def.hpp"
+template <typename PassData>
+inline void UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::setStaticF_c(::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* value) {
+  ::cordl_internals::setStaticField<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*, "c",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>*>::get>(
+      std::forward<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*>(value));
+}
+template <typename PassData> inline ::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext* UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::getStaticF_c() {
+  return ::cordl_internals::getStaticField<::UnityEngine::Rendering::RenderGraphModule::UnsafeGraphContext*, "c",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>*>::get>();
+}
+template <typename PassData>
+inline void UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::Execute(::UnityEngine::Rendering::RenderGraphModule::InternalRenderGraphContext* renderGraphContext) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, renderGraphContext);
+}
+template <typename PassData>
+inline void UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::Release(::UnityEngine::Rendering::RenderGraphModule::RenderGraphObjectPool* pool) {
+  auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>*>::get(), 5)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pool);
+}
+template <typename PassData> inline void UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename PassData>
+inline ::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>* UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>*>());
+}
+// Ctor Parameters []
+template <typename PassData> constexpr ::UnityEngine::Rendering::RenderGraphModule::UnsafeRenderGraphPass_1<PassData>::UnsafeRenderGraphPass_1() {}

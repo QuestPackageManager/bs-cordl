@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(
     ::GlobalNamespace::BeatmapData*, ::GlobalNamespace::IBeatToTimeConverter*, bool, ::GlobalNamespace::IBeatmapLightEventConverter*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26bcbec;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x35ee1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* (
     ::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(int32_t, ::GlobalNamespace::BeatmapEventDataBoxGroup*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::Insert)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x26bcc9c;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x35ee274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(
     int32_t, ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*)>(&::GlobalNamespace::BeatmapEventDataBoxGroupLists::Remove)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26bcda8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x35ee39c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)(bool)>(
     &::GlobalNamespace::BeatmapEventDataBoxGroupLists::ToggleUpdateBeatmapDataOnInsert)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x26bce60;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x35ee45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapEventDataBoxGroupLists::*)()>(
     &::GlobalNamespace::BeatmapEventDataBoxGroupLists::SyncWithBeatmapData)> {
-  constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x26bcff8;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x35ee5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapEventDataBoxGroupLists*>::get(),

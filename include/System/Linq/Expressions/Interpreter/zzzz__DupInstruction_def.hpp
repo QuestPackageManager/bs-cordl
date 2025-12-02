@@ -32,18 +32,18 @@ public:
 
   static inline ::System::Linq::Expressions::Interpreter::DupInstruction* New_ctor();
 
-  /// @brief Method Run, addr 0x40f60e0, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5da09f4, size 0x24, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40f6090, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5da09a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Linq::Expressions::Interpreter::DupInstruction* getStaticF_Instance();
 
-  /// @brief Method get_InstructionName, addr 0x40f60a0, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5da09b0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
-  /// @brief Method get_ProducedStack, addr 0x40f6098, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ProducedStack, addr 0x5da09a8, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_ProducedStack();
 
   static inline void setStaticF_Instance(::System::Linq::Expressions::Interpreter::DupInstruction* value);
@@ -63,7 +63,7 @@ public:
   DupInstruction(DupInstruction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14087 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16534 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -35,6 +35,7 @@ public:
     __E_ProductionC = static_cast<int32_t>(0x9),
     __E_ProductionQuest1 = static_cast<int32_t>(0xa),
     __E_ProductionPlayStation = static_cast<int32_t>(0xb),
+    __E_GameLiftAnywhere = static_cast<int32_t>(0xc),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -62,6 +63,9 @@ public:
 
   /// @brief Field DevelopmentB value: I32(8)
   static ::GlobalNamespace::ServiceEnvironment const DevelopmentB;
+
+  /// @brief Field GameLiftAnywhere value: I32(12)
+  static ::GlobalNamespace::ServiceEnvironment const GameLiftAnywhere;
 
   /// @brief Field InternalPlayTest value: I32(2)
   static ::GlobalNamespace::ServiceEnvironment const InternalPlayTest;
@@ -91,7 +95,7 @@ public:
   static ::GlobalNamespace::ServiceEnvironment const ReleaseCandidate;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14748 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

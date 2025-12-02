@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Asn1/Asn1OctetStringParser.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_impl.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_def.hpp"
+#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Asn1::Asn1OctetStringParser.GetOctetStream
 template <>

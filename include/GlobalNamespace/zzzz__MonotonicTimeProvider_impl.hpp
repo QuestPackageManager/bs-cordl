@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MonotonicTimeProvider.hpp"
-#include "BGNet/Core/zzzz__ITimeProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__MonotonicTimeProvider_def.hpp"
+#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MonotonicTimeProvider._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MonotonicTimeProvider::*)()>(&::GlobalNamespace::MonotonicTimeProvider::_ctor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x22d9b40;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x3215570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MonotonicTimeProvider::*)()>(&::GlobalNamespace::MonotonicTimeProvider::GetTimeMs)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22d9cd0;
+  constexpr static std::size_t addrs = 0x3215648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), "GetTimeMs",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::MonotonicTimeProvider::*)()>(&::GlobalNamespace::MonotonicTimeProvider::GetTicks)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22d9cfc;
+  constexpr static std::size_t addrs = 0x3215674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MonotonicTimeProvider*>::get(), "GetTicks",

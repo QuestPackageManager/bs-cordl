@@ -25,35 +25,41 @@ namespace GlobalNamespace {
 class CORDL_TYPE NoPostProcessMainEffectSO : public ::GlobalNamespace::MainEffectSO {
 public:
   // Declarations
-  /// @brief Field _baseColorBoost, offset 0x20, size 0x4
+  /// @brief Field _baseColorBoost, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__baseColorBoost, put = __cordl_internal_set__baseColorBoost)) float_t _baseColorBoost;
 
-  /// @brief Field _baseColorBoostThreshold, offset 0x24, size 0x4
+  /// @brief Field _baseColorBoostThreshold, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__baseColorBoostThreshold, put = __cordl_internal_set__baseColorBoostThreshold)) float_t _baseColorBoostThreshold;
 
-  /// @brief Field _fadeMaterial, offset 0x28, size 0x8
+  /// @brief Field _fadeMaterial, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeMaterial, put = __cordl_internal_set__fadeMaterial)) ::UnityW<::UnityEngine::Material> _fadeMaterial;
 
   /// @brief Field _fadeShader, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__fadeShader, put = __cordl_internal_set__fadeShader)) ::UnityW<::UnityEngine::Shader> _fadeShader;
 
+  /// @brief Field _setAlphaMaterial, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__setAlphaMaterial, put = __cordl_internal_set__setAlphaMaterial)) ::UnityW<::UnityEngine::Material> _setAlphaMaterial;
+
+  /// @brief Field _setAlphaShader, offset 0x20, size 0x8
+  __declspec(property(get = __cordl_internal_get__setAlphaShader, put = __cordl_internal_set__setAlphaShader)) ::UnityW<::UnityEngine::Shader> _setAlphaShader;
+
   __declspec(property(get = get_hasPostProcessEffect)) bool hasPostProcessEffect;
 
-  /// @brief Method DrawFadeQuad, addr 0x4083204, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DrawFadeQuad, addr 0x5d2dc34, size 0x1c4, virtual false, abstract: false, final false
   inline void DrawFadeQuad(float_t alpha);
 
   static inline ::GlobalNamespace::NoPostProcessMainEffectSO* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4083188, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d2db9c, size 0x24, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x4083108, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d2dacc, size 0xd0, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method PostRender, addr 0x40831f8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method PostRender, addr 0x5d2dc28, size 0xc, virtual true, abstract: false, final false
   inline void PostRender(float_t fade);
 
-  /// @brief Method PreRender, addr 0x4083194, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method PreRender, addr 0x5d2dbc0, size 0x68, virtual true, abstract: false, final false
   inline void PreRender();
 
   constexpr float_t const& __cordl_internal_get__baseColorBoost() const;
@@ -72,6 +78,14 @@ public:
 
   constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__fadeShader();
 
+  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__setAlphaMaterial() const;
+
+  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get__setAlphaMaterial();
+
+  constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get__setAlphaShader() const;
+
+  constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get__setAlphaShader();
+
   constexpr void __cordl_internal_set__baseColorBoost(float_t value);
 
   constexpr void __cordl_internal_set__baseColorBoostThreshold(float_t value);
@@ -80,10 +94,14 @@ public:
 
   constexpr void __cordl_internal_set__fadeShader(::UnityW<::UnityEngine::Shader> value);
 
-  /// @brief Method .ctor, addr 0x40832ec, size 0x10, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set__setAlphaMaterial(::UnityW<::UnityEngine::Material> value);
+
+  constexpr void __cordl_internal_set__setAlphaShader(::UnityW<::UnityEngine::Shader> value);
+
+  /// @brief Method .ctor, addr 0x5d2ddf8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_hasPostProcessEffect, addr 0x4083100, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_hasPostProcessEffect, addr 0x5d2dac4, size 0x8, virtual true, abstract: false, final false
   inline bool get_hasPostProcessEffect();
 
 protected:
@@ -101,32 +119,42 @@ public:
   NoPostProcessMainEffectSO(NoPostProcessMainEffectSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20764 };
 
   /// @brief Field _fadeShader, offset: 0x18, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ____fadeShader;
 
-  /// @brief Field _baseColorBoost, offset: 0x20, size: 0x4, def value: None
+  /// @brief Field _setAlphaShader, offset: 0x20, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Shader> ____setAlphaShader;
+
+  /// @brief Field _baseColorBoost, offset: 0x28, size: 0x4, def value: None
   float_t ____baseColorBoost;
 
-  /// @brief Field _baseColorBoostThreshold, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field _baseColorBoostThreshold, offset: 0x2c, size: 0x4, def value: None
   float_t ____baseColorBoostThreshold;
 
-  /// @brief Field _fadeMaterial, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field _fadeMaterial, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____fadeMaterial;
+
+  /// @brief Field _setAlphaMaterial, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::UnityEngine::Material> ____setAlphaMaterial;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____fadeShader) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseColorBoost) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____setAlphaShader) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseColorBoostThreshold) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseColorBoost) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____fadeMaterial) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____baseColorBoostThreshold) == 0x2c, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoPostProcessMainEffectSO, 0x30>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____fadeMaterial) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::NoPostProcessMainEffectSO, ____setAlphaMaterial) == 0x38, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoPostProcessMainEffectSO, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoPostProcessMainEffectSO);

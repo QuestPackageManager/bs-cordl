@@ -32,18 +32,18 @@ public:
   /// @brief Field value, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value)) ::StringW value;
 
-  /// @brief Method Dump, addr 0x3d01000, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5942164, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryObjectString* New_ctor();
 
-  /// @brief Method Read, addr 0x3d00fbc, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Read, addr 0x5942104, size 0x60, virtual true, abstract: false, final true
   inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
 
-  /// @brief Method Set, addr 0x3d00f40, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5942088, size 0xc, virtual false, abstract: false, final false
   inline void Set(int32_t objectId, ::StringW value);
 
-  /// @brief Method Write, addr 0x3d00f4c, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Write, addr 0x5942094, size 0x70, virtual true, abstract: false, final true
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr int32_t const& __cordl_internal_get_objectId() const;
@@ -58,7 +58,7 @@ public:
 
   constexpr void __cordl_internal_set_value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d00f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5942084, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -76,7 +76,7 @@ public:
   BinaryObjectString(BinaryObjectString const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3264 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3277 };
 
   /// @brief Field objectId, offset: 0x10, size: 0x4, def value: None
   int32_t ___objectId;

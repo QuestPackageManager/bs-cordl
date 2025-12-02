@@ -6,13 +6,41 @@
 #include "GlobalNamespace/zzzz__BeatmapDataItem_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventData_def.hpp"
 #include "GlobalNamespace/zzzz__EaseType_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::NoteJumpSpeedEventData.get_previousSameTypeEventData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
+    &::GlobalNamespace::NoteJumpSpeedEventData::get_previousSameTypeEventData)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3164838;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get(),
+                                                                               "get_previousSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::NoteJumpSpeedEventData.get_nextSameTypeEventData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteJumpSpeedEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
+    &::GlobalNamespace::NoteJumpSpeedEventData::get_nextSameTypeEventData)> {
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x31648b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get(),
+                                                                               "get_nextSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::NoteJumpSpeedEventData.get_relativeNoteJumpSpeed
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::get_relativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224410c;
+  constexpr static std::size_t addrs = 0x3164930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get(),
@@ -26,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t)>(
     &::GlobalNamespace::NoteJumpSpeedEventData::set_relativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2244114;
+  constexpr static std::size_t addrs = 0x3164938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t, float_t, ::GlobalNamespace::EaseType, bool)>(
     &::GlobalNamespace::NoteJumpSpeedEventData::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x224411c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x3164940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoteJumpSpeedEventData::*)(float_t)>(
     &::GlobalNamespace::NoteJumpSpeedEventData::ChangeRelativeNoteJumpSpeed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2244178;
+  constexpr static std::size_t addrs = 0x3164968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::GetCopy)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x2244180;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x3164970;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapEventData* (::GlobalNamespace::NoteJumpSpeedEventData::*)()>(
     &::GlobalNamespace::NoteJumpSpeedEventData::GetDefault)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x224421c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x31649f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,6 +168,16 @@ inline void GlobalNamespace::NoteJumpSpeedEventData::setStaticF__default(::Globa
 inline ::GlobalNamespace::NoteJumpSpeedEventData* GlobalNamespace::NoteJumpSpeedEventData::getStaticF__default() {
   return ::cordl_internals::getStaticField<::GlobalNamespace::NoteJumpSpeedEventData*, "_default",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get>();
+}
+inline ::GlobalNamespace::NoteJumpSpeedEventData* GlobalNamespace::NoteJumpSpeedEventData::get_previousSameTypeEventData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get(),
+                                                                             "get_previousSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteJumpSpeedEventData*, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::NoteJumpSpeedEventData* GlobalNamespace::NoteJumpSpeedEventData::get_nextSameTypeEventData() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get(),
+                                                                             "get_nextSameTypeEventData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NoteJumpSpeedEventData*, false>(this, ___internal_method);
 }
 inline float_t GlobalNamespace::NoteJumpSpeedEventData::get_relativeNoteJumpSpeed() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteJumpSpeedEventData*>::get(),

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::ReusableListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableListViewItem::get_rootElement)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x497e76c;
+  constexpr static std::size_t addrs = 0x6a2132c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(::UnityEngine::UIElements::VisualElement*, bool)>(
     &::UnityEngine::UIElements::ReusableListViewItem::Init)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4976444;
+  constexpr static std::size_t addrs = 0x6a17518;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(
     ::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::VisualElement*, bool)>(&::UnityEngine::UIElements::ReusableListViewItem::UpdateHierarchy)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x497e784;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x6a21344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,11 +58,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableListViewItem::UpdateDragHandle)> {
   constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4976a3c;
+  constexpr static std::size_t addrs = 0x6a17ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get(), "UpdateDragHandle",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::ReusableListViewItem.SetDragHandleEnabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(bool)>(
+    &::UnityEngine::UIElements::ReusableListViewItem::SetDragHandleEnabled)> {
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6a1fa68;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get(), "SetDragHandleEnabled",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -72,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableListViewItem::PreAttachElement)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x497e9d4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6a215a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableListViewItem::DetachElement)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x497ea60;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6a21638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -104,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)(bool)>(
     &::UnityEngine::UIElements::ReusableListViewItem::SetDragGhost)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x497eaec;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6a216c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ReusableListViewItem::*)()>(
     &::UnityEngine::UIElements::ReusableListViewItem::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x497ebe8;
+  constexpr static std::size_t addrs = 0x6a21758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get(), ".ctor",
@@ -165,6 +180,14 @@ constexpr void UnityEngine::UIElements::ReusableListViewItem::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ItemContainer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+inline void UnityEngine::UIElements::ReusableListViewItem::setStaticF_k_SortingDisablesReorderingTooltip(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "k_SortingDisablesReorderingTooltip", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get>(
+      std::forward<::StringW>(value));
+}
+inline ::StringW UnityEngine::UIElements::ReusableListViewItem::getStaticF_k_SortingDisablesReorderingTooltip() {
+  return ::cordl_internals::getStaticField<::StringW, "k_SortingDisablesReorderingTooltip",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get>();
+}
 inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::ReusableListViewItem::get_rootElement() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get(), 4)));
@@ -190,6 +213,12 @@ inline void UnityEngine::UIElements::ReusableListViewItem::UpdateDragHandle(bool
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get(), "UpdateDragHandle",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, needsDragHandle);
+}
+inline void UnityEngine::UIElements::ReusableListViewItem::SetDragHandleEnabled(bool enabled) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ReusableListViewItem*>::get(), "SetDragHandleEnabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, enabled);
 }
 inline void UnityEngine::UIElements::ReusableListViewItem::PreAttachElement() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

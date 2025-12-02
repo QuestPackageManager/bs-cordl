@@ -64,13 +64,13 @@ public:
   /// @brief Field uint64A, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_uint64A, put = __cordl_internal_set_uint64A)) ::ArrayW<uint64_t, ::Array<uint64_t>*> uint64A;
 
-  /// @brief Method Init, addr 0x3d13834, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5954aa8, size 0x3b4, virtual false, abstract: false, final false
   inline void Init(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::PrimitiveArray* New_ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code,
                                                                                                ::System::Array* array);
 
-  /// @brief Method SetValue, addr 0x3d0bdc8, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method SetValue, addr 0x594d098, size 0x414, virtual false, abstract: false, final false
   inline void SetValue(::StringW value, int32_t index);
 
   constexpr ::ArrayW<bool, ::Array<bool>*> const& __cordl_internal_get_booleanA() const;
@@ -145,7 +145,7 @@ public:
 
   constexpr void __cordl_internal_set_uint64A(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3d0b4bc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594c744, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE code, ::System::Array* array);
 
 protected:
@@ -163,7 +163,7 @@ public:
   PrimitiveArray(PrimitiveArray const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3312 };
 
   /// @brief Field code, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ___code;

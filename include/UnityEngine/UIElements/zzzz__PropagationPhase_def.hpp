@@ -25,10 +25,10 @@ public:
   enum struct __PropagationPhase_Unwrapped : int32_t {
     __E_None = static_cast<int32_t>(0x0),
     __E_TrickleDown = static_cast<int32_t>(0x1),
-    __E_AtTarget = static_cast<int32_t>(0x2),
-    __E_DefaultActionAtTarget = static_cast<int32_t>(0x5),
     __E_BubbleUp = static_cast<int32_t>(0x3),
+    __E_AtTarget = static_cast<int32_t>(0x2),
     __E_DefaultAction = static_cast<int32_t>(0x4),
+    __E_DefaultActionAtTarget = static_cast<int32_t>(0x5),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -67,7 +67,7 @@ public:
   static ::UnityEngine::UIElements::PropagationPhase const TrickleDown;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4462 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

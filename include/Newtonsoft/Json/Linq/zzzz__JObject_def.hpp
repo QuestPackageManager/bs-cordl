@@ -5,23 +5,12 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Linq/zzzz__JContainer_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__DynamicProxy_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/ComponentModel/zzzz__ICustomTypeDescriptor_def.hpp"
-#include "System/ComponentModel/zzzz__INotifyPropertyChanged_def.hpp"
-#include "System/ComponentModel/zzzz__INotifyPropertyChanging_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -85,6 +74,9 @@ namespace System::Collections::Generic {
 template <typename T> class ICollection_1;
 }
 namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IDictionary_2;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
@@ -96,6 +88,12 @@ template <typename T> class IList_1;
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IEnumerator;
+}
 namespace System::ComponentModel {
 class AttributeCollection;
 }
@@ -104,6 +102,15 @@ class EventDescriptorCollection;
 }
 namespace System::ComponentModel {
 class EventDescriptor;
+}
+namespace System::ComponentModel {
+class ICustomTypeDescriptor;
+}
+namespace System::ComponentModel {
+class INotifyPropertyChanged;
+}
+namespace System::ComponentModel {
+class INotifyPropertyChanging;
 }
 namespace System::ComponentModel {
 class PropertyChangedEventHandler;
@@ -149,6 +156,9 @@ class Attribute;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -204,10 +214,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c* New_ctor();
 
-  /// @brief Method <GetDynamicMemberNames>b__2_0, addr 0x3f1acb0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <GetDynamicMemberNames>b__2_0, addr 0x5b61a28, size 0x14, virtual false, abstract: false, final false
   inline ::StringW _GetDynamicMemberNames_b__2_0(::Newtonsoft::Json::Linq::JProperty* p);
 
-  /// @brief Method .ctor, addr 0x3f1aca8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b61a24, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c* getStaticF___9();
@@ -233,7 +243,7 @@ public:
   JObjectDynamicProxy_JObject___c(JObjectDynamicProxy_JObject___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10401 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -250,18 +260,18 @@ public:
   // Declarations
   using __c = ::Newtonsoft::Json::Linq::JObjectDynamicProxy_JObject___c;
 
-  /// @brief Method GetDynamicMemberNames, addr 0x3f1ab40, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method GetDynamicMemberNames, addr 0x5b618b4, size 0x11c, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::StringW>* GetDynamicMemberNames(::Newtonsoft::Json::Linq::JObject* instance);
 
   static inline ::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy* New_ctor();
 
-  /// @brief Method TryGetMember, addr 0x3f1aa38, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method TryGetMember, addr 0x5b61794, size 0x38, virtual true, abstract: false, final false
   inline bool TryGetMember(::Newtonsoft::Json::Linq::JObject* instance, ::System::Dynamic::GetMemberBinder* binder, ::ByRef<::System::Object*> result);
 
-  /// @brief Method TrySetMember, addr 0x3f1aa70, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method TrySetMember, addr 0x5b617cc, size 0xe8, virtual true, abstract: false, final false
   inline bool TrySetMember(::Newtonsoft::Json::Linq::JObject* instance, ::System::Dynamic::SetMemberBinder* binder, ::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3f1a9f0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b61758, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -279,7 +289,7 @@ public:
   JObject_JObjectDynamicProxy(JObject_JObjectDynamicProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10402 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13556 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -287,8 +297,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JObject_JObjectDynamicProxy, 0x10>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // CS Name: Newtonsoft.Json.Linq.JObject/<<WriteToAsync>g__AwaitProperties|0_0>d
@@ -298,10 +307,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3f1acc8, size 0x3fc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5b61a3c, size 0x3d0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3f1b0c4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5b61e0c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -324,7 +333,7 @@ public:
                                                             ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13557 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -395,10 +404,10 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JObject___c* New_ctor();
 
-  /// @brief Method <PropertyValues>b__31_0, addr 0x3f1b190, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <PropertyValues>b__31_0, addr 0x5b61ed0, size 0x20, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* _PropertyValues_b__31_0(::Newtonsoft::Json::Linq::JProperty* p);
 
-  /// @brief Method .ctor, addr 0x3f1b188, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b61ecc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Newtonsoft::Json::Linq::JObject___c* getStaticF___9();
@@ -424,7 +433,7 @@ public:
   JObject___c(JObject___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10404 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13558 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -432,7 +441,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JObject___c, 0x10>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.JObject/<GetEnumerator>d__64
@@ -467,23 +476,23 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3f1b1cc, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5b61f0c, size 0x2cc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::Newtonsoft::Json::Linq::JObject__GetEnumerator_d__64* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current, addr 0x3f1b55c, size 0xc, virtual true,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_Current, addr 0x5b6228c, size 0xc, virtual true,
   /// abstract: false, final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3f1b568, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5b62298, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3f1b5a0, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5b622d0, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3f1b1b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5b61ef0, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -510,10 +519,10 @@ public:
 
   constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::Newtonsoft::Json::Linq::JToken*>* value);
 
-  /// @brief Method <>m__Finally1, addr 0x3f1b4ac, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5b621d8, size 0xb4, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x3f1a200, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b60f44, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::Newtonsoft::Json::Linq::JToken*>>"
@@ -541,7 +550,7 @@ public:
   JObject__GetEnumerator_d__64(JObject__GetEnumerator_d__64 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10405 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13559 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -570,7 +579,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JObject_
 
 } // namespace Newtonsoft::Json::Linq
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json::Linq {
 // Is value type: true
 // CS Name: Newtonsoft.Json.Linq.JObject/<LoadAsync>d__2
@@ -580,10 +589,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3f1b5fc, size 0x61c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5b62330, size 0x67c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3f1bc18, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5b629ac, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -605,7 +614,7 @@ public:
                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10406 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13560 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -656,9 +665,7 @@ static_assert(offsetof(::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2, __u__2
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Linq::JObject__LoadAsync_d__2, 0x60>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json::Linq
-// Dependencies Newtonsoft.Json.Linq.JContainer, System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
-// System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable, System.ComponentModel.ICustomTypeDescriptor, System.ComponentModel.INotifyPropertyChanged,
-// System.ComponentModel.INotifyPropertyChanging
+// Dependencies Newtonsoft.Json.Linq.JContainer
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.JObject
@@ -723,68 +730,68 @@ public:
   /// @brief Convert operator to "::System::ComponentModel::INotifyPropertyChanging"
   constexpr operator ::System::ComponentModel::INotifyPropertyChanging*() noexcept;
 
-  /// @brief Method Add, addr 0x3f1869c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Add, addr 0x5b5f430, size 0x80, virtual true, abstract: false, final true
   inline void Add(::StringW propertyName, ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method CloneToken, addr 0x3f189b0, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method CloneToken, addr 0x5b5f750, size 0x6c, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* CloneToken(::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method ContainsKey, addr 0x3f19894, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method ContainsKey, addr 0x5b605d0, size 0x70, virtual true, abstract: false, final true
   inline bool ContainsKey(::StringW propertyName);
 
-  /// @brief Method DeepEquals, addr 0x3f17a58, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method DeepEquals, addr 0x5b5e778, size 0xa4, virtual true, abstract: false, final false
   inline bool DeepEquals(::Newtonsoft::Json::Linq::JToken* node);
 
-  /// @brief Method FromObject, addr 0x3f192a0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x5b6000c, size 0x20, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* FromObject(::System::Object* o);
 
-  /// @brief Method FromObject, addr 0x3f192c0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method FromObject, addr 0x5b6002c, size 0x184, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* FromObject(::System::Object* o, ::Newtonsoft::Json::JsonSerializer* jsonSerializer);
 
-  /// @brief Method GetDeepHashCode, addr 0x3f1a1fc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetDeepHashCode, addr 0x5b60f40, size 0x4, virtual true, abstract: false, final false
   inline int32_t GetDeepHashCode();
 
-  /// @brief Method GetEnumerator, addr 0x3f1863c, size 0x60, virtual true, abstract: false, final true
+  /// @brief Method GetEnumerator, addr 0x5b5f3dc, size 0x54, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>>* GetEnumerator();
 
-  /// @brief Method GetMetaObject, addr 0x3f1a940, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method GetMetaObject, addr 0x5b61680, size 0xd8, virtual true, abstract: false, final false
   inline ::System::Dynamic::DynamicMetaObject* GetMetaObject(::System::Linq::Expressions::Expression* parameter);
 
-  /// @brief Method GetValue, addr 0x3f19748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x5b60490, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* GetValue(::StringW propertyName);
 
-  /// @brief Method GetValue, addr 0x3f19750, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method GetValue, addr 0x5b60498, size 0x30, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* GetValue(::StringW propertyName, ::System::StringComparison comparison);
 
-  /// @brief Method IndexOfItem, addr 0x3f17e4c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method IndexOfItem, addr 0x5b5ec04, size 0x20, virtual true, abstract: false, final false
   inline int32_t IndexOfItem(::Newtonsoft::Json::Linq::JToken* item);
 
-  /// @brief Method InsertItem, addr 0x3f17f18, size 0x74, virtual true, abstract: false, final false
+  /// @brief Method InsertItem, addr 0x5b5ece0, size 0x74, virtual true, abstract: false, final false
   inline bool InsertItem(int32_t index, ::Newtonsoft::Json::Linq::JToken* item, bool skipParentCheck, bool copyAnnotations);
 
-  /// @brief Method InternalPropertyChanged, addr 0x3f18840, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method InternalPropertyChanged, addr 0x5b5f5dc, size 0x154, virtual false, abstract: false, final false
   inline void InternalPropertyChanged(::Newtonsoft::Json::Linq::JProperty* childProperty);
 
-  /// @brief Method InternalPropertyChanging, addr 0x3f1898c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method InternalPropertyChanging, addr 0x5b5f730, size 0x20, virtual false, abstract: false, final false
   inline void InternalPropertyChanging(::Newtonsoft::Json::Linq::JProperty* childProperty);
 
-  /// @brief Method IsNull, addr 0x3f18718, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x5b5f4b0, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsNull(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method Load, addr 0x3f18ecc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x5b5fc6c, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* Load(::Newtonsoft::Json::JsonReader* reader);
 
-  /// @brief Method Load, addr 0x3f18ed4, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method Load, addr 0x5b5fc74, size 0x1d8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* Load(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
 
-  /// @brief Method LoadAsync, addr 0x3f174ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x5b5e1c4, size 0xc, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JObject*>* LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method LoadAsync, addr 0x3f174f8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method LoadAsync, addr 0x5b5e1d0, size 0xf4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::Newtonsoft::Json::Linq::JObject*>* LoadAsync(::Newtonsoft::Json::JsonReader* reader, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings,
                                                                                                   ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MergeItem, addr 0x3f18218, size 0x424, virtual true, abstract: false, final false
+  /// @brief Method MergeItem, addr 0x5b5efdc, size 0x400, virtual true, abstract: false, final false
   inline void MergeItem(::System::Object* content, ::Newtonsoft::Json::Linq::JsonMergeSettings* settings);
 
   static inline ::Newtonsoft::Json::Linq::JObject* New_ctor();
@@ -797,48 +804,48 @@ public:
 
   static inline ::Newtonsoft::Json::Linq::JObject* New_ctor(::Newtonsoft::Json::Linq::JObject* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method OnPropertyChanged, addr 0x3f1a228, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnPropertyChanged, addr 0x5b60f4c, size 0x94, virtual true, abstract: false, final false
   inline void OnPropertyChanged(::StringW propertyName);
 
-  /// @brief Method OnPropertyChanging, addr 0x3f1a2b8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method OnPropertyChanging, addr 0x5b60fe0, size 0x94, virtual true, abstract: false, final false
   inline void OnPropertyChanging(::StringW propertyName);
 
-  /// @brief Method Parse, addr 0x3f190a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5b5fe4c, size 0x8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* Parse(::StringW json);
 
-  /// @brief Method Parse, addr 0x3f190b0, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Parse, addr 0x5b5fe54, size 0x1b8, virtual false, abstract: false, final false
   static inline ::Newtonsoft::Json::Linq::JObject* Parse(::StringW json, ::Newtonsoft::Json::Linq::JsonLoadSettings* settings);
 
-  /// @brief Method Properties, addr 0x3f18a20, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Properties, addr 0x5b5f7c4, size 0x4c, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::Newtonsoft::Json::Linq::JProperty*>* Properties();
 
-  /// @brief Method Property, addr 0x3f18a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x5b5f810, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JProperty* Property(::StringW name);
 
-  /// @brief Method Property, addr 0x3f150b4, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Property, addr 0x5b5bc50, size 0x190, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JProperty* Property(::StringW name, ::System::StringComparison comparison);
 
-  /// @brief Method PropertyValues, addr 0x3f18a70, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method PropertyValues, addr 0x5b5f818, size 0x148, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JEnumerable_1<::Newtonsoft::Json::Linq::JToken*> PropertyValues();
 
-  /// @brief Method Remove, addr 0x3f19a1c, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method Remove, addr 0x5b60774, size 0x2c, virtual true, abstract: false, final true
   inline bool Remove(::StringW propertyName);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add, addr 0x3f19b2c, size 0x94, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Add, addr 0x5b60880, size 0xa8, virtual true, abstract:
   /// false, final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Add(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Clear, addr 0x3f19bc0, size 0x10, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Clear, addr 0x5b60928, size 0x10, virtual true, abstract:
   /// false, final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Clear();
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains, addr 0x3f19bd0, size 0x80, virtual true,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Contains, addr 0x5b60938, size 0x90, virtual true,
   /// abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Contains(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo, addr 0x3f19c50, size 0x464, virtual true,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.CopyTo, addr 0x5b609c8, size 0x420, virtual true,
   /// abstract: false, final true
   inline void System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___CopyTo(
       ::ArrayW<::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*>,
@@ -846,74 +853,74 @@ public:
           array,
       int32_t arrayIndex);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove, addr 0x3f1a0bc, size 0x140, virtual true,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.Remove, addr 0x5b60df0, size 0x150, virtual true,
   /// abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___Remove(
       ::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Linq::JToken*> item);
 
-  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_IsReadOnly, addr 0x3f1a0b4, size 0x8, virtual true,
+  /// @brief Method System.Collections.Generic.ICollection<System.Collections.Generic.KeyValuePair<System.String,Newtonsoft.Json.Linq.JToken>>.get_IsReadOnly, addr 0x5b60de8, size 0x8, virtual true,
   /// abstract: false, final true
   inline bool System_Collections_Generic_ICollection_System_Collections_Generic_KeyValuePair_System_String_Newtonsoft_Json_Linq_JToken___get_IsReadOnly();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys, addr 0x3f199ac, size 0x18, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Keys, addr 0x5b60704, size 0x14, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<::StringW>* System_Collections_Generic_IDictionary_System_String_Newtonsoft_Json_Linq_JToken__get_Keys();
 
-  /// @brief Method System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values, addr 0x3f19af4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IDictionary<System.String,Newtonsoft.Json.Linq.JToken>.get_Values, addr 0x5b60848, size 0x38, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::ICollection_1<::Newtonsoft::Json::Linq::JToken*>* System_Collections_Generic_IDictionary_System_String_Newtonsoft_Json_Linq_JToken__get_Values();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes, addr 0x3f1a740, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetAttributes, addr 0x5b61478, size 0x5c, virtual true, abstract: false, final true
   inline ::System::ComponentModel::AttributeCollection* System_ComponentModel_ICustomTypeDescriptor_GetAttributes();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName, addr 0x3f1a798, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetClassName, addr 0x5b614d4, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetClassName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName, addr 0x3f1a7a0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetComponentName, addr 0x5b614dc, size 0x8, virtual true, abstract: false, final true
   inline ::StringW System_ComponentModel_ICustomTypeDescriptor_GetComponentName();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter, addr 0x3f1a7a8, size 0x54, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetConverter, addr 0x5b614e4, size 0x44, virtual true, abstract: false, final true
   inline ::System::ComponentModel::TypeConverter* System_ComponentModel_ICustomTypeDescriptor_GetConverter();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent, addr 0x3f1a7fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultEvent, addr 0x5b61528, size 0x8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultEvent();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty, addr 0x3f1a804, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetDefaultProperty, addr 0x5b61530, size 0x8, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptor* System_ComponentModel_ICustomTypeDescriptor_GetDefaultProperty();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor, addr 0x3f1a80c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEditor, addr 0x5b61538, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetEditor(::System::Type* editorBaseType);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x3f1a86c, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x5b6159c, size 0x5c, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x3f1a814, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetEvents, addr 0x5b61540, size 0x5c, virtual true, abstract: false, final true
   inline ::System::ComponentModel::EventDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetEvents(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x3f1a348, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x5b61074, size 0xa0, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties();
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x3f1a3e4, size 0x350, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetProperties, addr 0x5b61114, size 0x358, virtual true, abstract: false, final true
   inline ::System::ComponentModel::PropertyDescriptorCollection* System_ComponentModel_ICustomTypeDescriptor_GetProperties(::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*> attributes);
 
-  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner, addr 0x3f1a8c4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method System.ComponentModel.ICustomTypeDescriptor.GetPropertyOwner, addr 0x5b615f8, size 0x88, virtual true, abstract: false, final true
   inline ::System::Object* System_ComponentModel_ICustomTypeDescriptor_GetPropertyOwner(::System::ComponentModel::PropertyDescriptor* pd);
 
-  /// @brief Method TryGetValue, addr 0x3f19780, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method TryGetValue, addr 0x5b604c8, size 0x24, virtual false, abstract: false, final false
   inline bool TryGetValue(::StringW propertyName, ::System::StringComparison comparison, ::ByRef<::Newtonsoft::Json::Linq::JToken*> value);
 
-  /// @brief Method TryGetValue, addr 0x3f19ab4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method TryGetValue, addr 0x5b60808, size 0x40, virtual true, abstract: false, final true
   inline bool TryGetValue(::StringW propertyName, ::ByRef<::Newtonsoft::Json::Linq::JToken*> value);
 
-  /// @brief Method ValidateToken, addr 0x3f17f8c, size 0x214, virtual true, abstract: false, final false
+  /// @brief Method ValidateToken, addr 0x5b5ed54, size 0x20c, virtual true, abstract: false, final false
   inline void ValidateToken(::Newtonsoft::Json::Linq::JToken* o, ::Newtonsoft::Json::Linq::JToken* existing);
 
-  /// @brief Method WriteTo, addr 0x3f19658, size 0xf0, virtual true, abstract: false, final false
+  /// @brief Method WriteTo, addr 0x5b60398, size 0xf8, virtual true, abstract: false, final false
   inline void WriteTo(::Newtonsoft::Json::JsonWriter* writer, ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters);
 
-  /// @brief Method WriteToAsync, addr 0x3f1724c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method WriteToAsync, addr 0x5b5df10, size 0x1c4, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task* WriteToAsync(::Newtonsoft::Json::JsonWriter* writer, ::System::Threading::CancellationToken cancellationToken,
                                                         ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> converters);
 
-  /// @brief Method <WriteToAsync>g__AwaitProperties|0_0, addr 0x3f173ec, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method <WriteToAsync>g__AwaitProperties|0_0, addr 0x5b5e0d4, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _WriteToAsync_g__AwaitProperties_0_0(::System::Threading::Tasks::Task* task, int32_t i, ::Newtonsoft::Json::JsonWriter* Writer,
                                                                                 ::System::Threading::CancellationToken CancellationToken,
                                                                                 ::ArrayW<::Newtonsoft::Json::JsonConverter*, ::Array<::Newtonsoft::Json::JsonConverter*>*> Converters);
@@ -936,37 +943,37 @@ public:
 
   constexpr void __cordl_internal_set__properties(::Newtonsoft::Json::Linq::JPropertyKeyedCollection* value);
 
-  /// @brief Method .ctor, addr 0x3f14e84, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5ba18, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3f179d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5e6f8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::System::Object*, ::Array<::System::Object*>*> content);
 
-  /// @brief Method .ctor, addr 0x3f179dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5e6fc, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* content);
 
-  /// @brief Method .ctor, addr 0x3f178fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5e614, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JObject* other);
 
-  /// @brief Method .ctor, addr 0x3f17968, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b5e684, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JObject* other, ::Newtonsoft::Json::Linq::JsonCloneSettings* settings);
 
-  /// @brief Method add_PropertyChanged, addr 0x3f175fc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_PropertyChanged, addr 0x5b5e2cc, size 0xac, virtual true, abstract: false, final true
   inline void add_PropertyChanged(::System::ComponentModel::PropertyChangedEventHandler* value);
 
-  /// @brief Method add_PropertyChanging, addr 0x3f17734, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method add_PropertyChanging, addr 0x5b5e424, size 0xac, virtual true, abstract: false, final true
   inline void add_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler* value);
 
-  /// @brief Method get_ChildrenTokens, addr 0x3f175f4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ChildrenTokens, addr 0x5b5e2c4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Linq::JToken*>* get_ChildrenTokens();
 
-  /// @brief Method get_Item, addr 0x3f18bac, size 0x110, virtual true, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5b5f960, size 0x104, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_Item(::System::Object* key);
 
-  /// @brief Method get_Item, addr 0x3f18cbc, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method get_Item, addr 0x5b5fa64, size 0x84, virtual true, abstract: false, final true
   inline ::Newtonsoft::Json::Linq::JToken* get_Item(::StringW propertyName);
 
-  /// @brief Method get_Type, addr 0x3f18a18, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5b5f7bc, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JTokenType get_Type();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::Newtonsoft::Json::Linq::JToken*>>"
@@ -993,16 +1000,16 @@ public:
   /// @brief Convert to "::System::ComponentModel::INotifyPropertyChanging"
   constexpr ::System::ComponentModel::INotifyPropertyChanging* i___System__ComponentModel__INotifyPropertyChanging() noexcept;
 
-  /// @brief Method remove_PropertyChanged, addr 0x3f17698, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_PropertyChanged, addr 0x5b5e378, size 0xac, virtual true, abstract: false, final true
   inline void remove_PropertyChanged(::System::ComponentModel::PropertyChangedEventHandler* value);
 
-  /// @brief Method remove_PropertyChanging, addr 0x3f177d0, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method remove_PropertyChanging, addr 0x5b5e4d0, size 0xac, virtual true, abstract: false, final true
   inline void remove_PropertyChanging(::System::ComponentModel::PropertyChangingEventHandler* value);
 
-  /// @brief Method set_Item, addr 0x3f18d3c, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method set_Item, addr 0x5b5fae8, size 0x10c, virtual true, abstract: false, final false
   inline void set_Item(::System::Object* key, ::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method set_Item, addr 0x3f18e54, size 0x78, virtual true, abstract: false, final true
+  /// @brief Method set_Item, addr 0x5b5fbf4, size 0x78, virtual true, abstract: false, final true
   inline void set_Item(::StringW propertyName, ::Newtonsoft::Json::Linq::JToken* value);
 
 protected:
@@ -1020,7 +1027,7 @@ public:
   JObject(JObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10407 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13561 };
 
   /// @brief Field _properties, offset: 0x58, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JPropertyKeyedCollection* ____properties;

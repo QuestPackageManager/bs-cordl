@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::IconSegmentedControlCell::*)(::UnityEngine::Sprite*)>(&::HMUI::IconSegmentedControlCell::set_sprite)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x408a210;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5d39c74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::HMUI::IconSegmentedControlCell::*)()>(
     &::HMUI::IconSegmentedControlCell::get_sprite)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x408a3a4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5d39dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::IconSegmentedControlCell*>::get(), "get_sprite",
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::IconSegmentedControlCell::*)(::StringW)>(&::HMUI::IconSegmentedControlCell::set_hintText)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x408a22c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5d39c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::IconSegmentedControlCell::*)(float_t)>(&::HMUI::IconSegmentedControlCell::set_iconSize)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x408a2e4;
+  constexpr static std::size_t addrs = 0x5d39d44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +66,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::IconSegmentedControlCell::*)(bool)>(&::HMUI::IconSegmentedControlCell::set_hideBackgroundImage)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x408a248;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5d39ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,7 +81,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::IconSegmentedControlCell::*)()>(&::HMUI::IconSegmentedControlCell::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x408a3c0;
+  constexpr static std::size_t addrs = 0x5d39de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::IconSegmentedControlCell*>::get(), ".ctor",

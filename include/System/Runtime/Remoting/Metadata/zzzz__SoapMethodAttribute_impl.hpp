@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce58ac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5927a18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_UseAttribute)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce58b4;
+  constexpr static std::size_t addrs = 0x5927a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)()>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::get_XmlNamespace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce58bc;
+  constexpr static std::size_t addrs = 0x5927a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Metadata::SoapMethodAttribute::*)(::System::Object*)>(
     &::System::Runtime::Remoting::Metadata::SoapMethodAttribute::SetReflectionObject)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x3ce58c4;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x5927a2c;
 
   inline static ::MethodInfo const* methodInfo() {
 

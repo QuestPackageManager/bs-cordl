@@ -98,25 +98,27 @@ public:
     __E_Translate = static_cast<int32_t>(0x50003),
     __E_UnityBackgroundImageTintColor = static_cast<int32_t>(0x30002),
     __E_UnityBackgroundScaleMode = static_cast<int32_t>(0x40009),
-    __E_UnityFont = static_cast<int32_t>(0x10004),
-    __E_UnityFontDefinition = static_cast<int32_t>(0x10005),
-    __E_UnityFontStyleAndWeight = static_cast<int32_t>(0x10006),
+    __E_UnityEditorTextRenderingMode = static_cast<int32_t>(0x10004),
+    __E_UnityFont = static_cast<int32_t>(0x10005),
+    __E_UnityFontDefinition = static_cast<int32_t>(0x10006),
+    __E_UnityFontStyleAndWeight = static_cast<int32_t>(0x10007),
     __E_UnityOverflowClipBox = static_cast<int32_t>(0x30003),
-    __E_UnityParagraphSpacing = static_cast<int32_t>(0x10007),
+    __E_UnityParagraphSpacing = static_cast<int32_t>(0x10008),
     __E_UnitySliceBottom = static_cast<int32_t>(0x30004),
     __E_UnitySliceLeft = static_cast<int32_t>(0x30005),
     __E_UnitySliceRight = static_cast<int32_t>(0x30006),
     __E_UnitySliceScale = static_cast<int32_t>(0x30007),
     __E_UnitySliceTop = static_cast<int32_t>(0x30008),
-    __E_UnityTextAlign = static_cast<int32_t>(0x10008),
+    __E_UnityTextAlign = static_cast<int32_t>(0x10009),
+    __E_UnityTextGenerator = static_cast<int32_t>(0x1000a),
     __E_UnityTextOutline = static_cast<int32_t>(0x4000a),
-    __E_UnityTextOutlineColor = static_cast<int32_t>(0x10009),
-    __E_UnityTextOutlineWidth = static_cast<int32_t>(0x1000a),
+    __E_UnityTextOutlineColor = static_cast<int32_t>(0x1000b),
+    __E_UnityTextOutlineWidth = static_cast<int32_t>(0x1000c),
     __E_UnityTextOverflowPosition = static_cast<int32_t>(0x30009),
-    __E_Visibility = static_cast<int32_t>(0x1000b),
-    __E_WhiteSpace = static_cast<int32_t>(0x1000c),
+    __E_Visibility = static_cast<int32_t>(0x1000d),
+    __E_WhiteSpace = static_cast<int32_t>(0x1000e),
     __E_Width = static_cast<int32_t>(0x20020),
-    __E_WordSpacing = static_cast<int32_t>(0x1000d),
+    __E_WordSpacing = static_cast<int32_t>(0x1000f),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -358,19 +360,22 @@ public:
   /// @brief Field UnityBackgroundScaleMode value: I32(262153)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityBackgroundScaleMode;
 
-  /// @brief Field UnityFont value: I32(65540)
+  /// @brief Field UnityEditorTextRenderingMode value: I32(65540)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityEditorTextRenderingMode;
+
+  /// @brief Field UnityFont value: I32(65541)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFont;
 
-  /// @brief Field UnityFontDefinition value: I32(65541)
+  /// @brief Field UnityFontDefinition value: I32(65542)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontDefinition;
 
-  /// @brief Field UnityFontStyleAndWeight value: I32(65542)
+  /// @brief Field UnityFontStyleAndWeight value: I32(65543)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityFontStyleAndWeight;
 
   /// @brief Field UnityOverflowClipBox value: I32(196611)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityOverflowClipBox;
 
-  /// @brief Field UnityParagraphSpacing value: I32(65543)
+  /// @brief Field UnityParagraphSpacing value: I32(65544)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityParagraphSpacing;
 
   /// @brief Field UnitySliceBottom value: I32(196612)
@@ -388,16 +393,19 @@ public:
   /// @brief Field UnitySliceTop value: I32(196616)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnitySliceTop;
 
-  /// @brief Field UnityTextAlign value: I32(65544)
+  /// @brief Field UnityTextAlign value: I32(65545)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextAlign;
+
+  /// @brief Field UnityTextGenerator value: I32(65546)
+  static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextGenerator;
 
   /// @brief Field UnityTextOutline value: I32(262154)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutline;
 
-  /// @brief Field UnityTextOutlineColor value: I32(65545)
+  /// @brief Field UnityTextOutlineColor value: I32(65547)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutlineColor;
 
-  /// @brief Field UnityTextOutlineWidth value: I32(65546)
+  /// @brief Field UnityTextOutlineWidth value: I32(65548)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const UnityTextOutlineWidth;
 
   /// @brief Field UnityTextOverflowPosition value: I32(196617)
@@ -406,20 +414,20 @@ public:
   /// @brief Field Unknown value: I32(0)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Unknown;
 
-  /// @brief Field Visibility value: I32(65547)
+  /// @brief Field Visibility value: I32(65549)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Visibility;
 
-  /// @brief Field WhiteSpace value: I32(65548)
+  /// @brief Field WhiteSpace value: I32(65550)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const WhiteSpace;
 
   /// @brief Field Width value: I32(131104)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const Width;
 
-  /// @brief Field WordSpacing value: I32(65549)
+  /// @brief Field WordSpacing value: I32(65551)
   static ::UnityEngine::UIElements::StyleSheets::StylePropertyId const WordSpacing;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5450 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

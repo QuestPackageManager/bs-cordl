@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IPlaceholderFactory_def.hpp"
-#include "Zenject/zzzz__IValidatable_def.hpp"
 CORDL_MODULE_EXPORT(PlaceholderFactoryBase_1)
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
@@ -20,7 +18,13 @@ namespace System {
 class Type;
 }
 namespace Zenject {
+class IPlaceholderFactory;
+}
+namespace Zenject {
 class IProvider;
+}
+namespace Zenject {
+class IValidatable;
 }
 namespace Zenject {
 class InjectContext;
@@ -37,7 +41,7 @@ template <typename TValue> class PlaceholderFactoryBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PlaceholderFactoryBase_1);
-// Dependencies System.Object, Zenject.IPlaceholderFactory, Zenject.IValidatable
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TValue>
@@ -116,7 +120,7 @@ public:
   PlaceholderFactoryBase_1(PlaceholderFactoryBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14349 };
 
   /// @brief Field _provider, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IProvider* ____provider;

@@ -1,112 +1,143 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/TimeHelper.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
+#include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_time
+#include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
+#include "UnityEngine/zzzz__Vector4_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_Time
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::TimeHelper::get_time)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39c0108;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_Time)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae54;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_time",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_Time",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_time
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_Time
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::TimeHelper::set_time)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39c0150;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_Time)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_time", std::span<Il2CppClass const* const, 0>(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_Time", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_deltaTime
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_DeltaTime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::TimeHelper::get_deltaTime)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39c01a4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_DeltaTime)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae64;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_deltaTime",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_DeltaTime",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_deltaTime
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_DeltaTime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::TimeHelper::set_deltaTime)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39c01ec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_DeltaTime)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_deltaTime", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_DeltaTime", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_fixedDeltaTime
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_FixedDeltaTime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::TimeHelper::get_fixedDeltaTime)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39c0240;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_FixedDeltaTime)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae74;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_fixedDeltaTime",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_FixedDeltaTime",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_fixedDeltaTime
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_FixedDeltaTime
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::TimeHelper::set_fixedDeltaTime)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39c0288;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_FixedDeltaTime)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_fixedDeltaTime", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_FixedDeltaTime", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_interpolationFactor
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_InterpolationFactor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::TimeHelper::get_interpolationFactor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39c02dc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_InterpolationFactor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae84;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_interpolationFactor",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_InterpolationFactor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_interpolationFactor
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_InterpolationFactor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::TimeHelper::set_interpolationFactor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x39c0324;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::set_InterpolationFactor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563ae8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_interpolationFactor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_InterpolationFactor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.get_TimeHelperOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::get_TimeHelperOffset)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x563ae94;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_TimeHelperOffset",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.set_TimeHelperOffset
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(::UnityEngine::Vector4)>(
+    &::GlobalNamespace::TimeHelper::set_TimeHelperOffset)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x563aea0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_TimeHelperOffset", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
     return ___internal_method;
   }
 };
@@ -114,8 +145,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::Awake)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39c0378;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x563aeac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "Awake",
@@ -127,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::FixedUpdate)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39c040c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x563af00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "FixedUpdate",
@@ -140,8 +171,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::Update)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x39c04a0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x563af90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "Update",
@@ -149,17 +180,72 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::TimeHelper.__SetTime
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.GetFrameCount
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t)>(&::GlobalNamespace::TimeHelper::__SetTime)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x39c0610;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::GetFrameCount)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x563aff4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "GetFrameCount",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.SetTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(float_t)>(&::GlobalNamespace::TimeHelper::SetTime)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x563a770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "__SetTime", std::span<Il2CppClass const* const, 0>(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "SetTime", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.SetCommandBufferTimeProperties
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)(::UnityEngine::Rendering::CommandBuffer*)>(
+    &::GlobalNamespace::TimeHelper::SetCommandBufferTimeProperties)> {
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x563b07c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "SetCommandBufferTimeProperties", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::CommandBuffer*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.EncodeTimeAsVector
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(float_t)>(&::GlobalNamespace::TimeHelper::EncodeTimeAsVector)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x563b060;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "EncodeTimeAsVector", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::TimeHelper.GetShaderTimeValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)()>(&::GlobalNamespace::TimeHelper::GetShaderTimeValue)> {
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x563b038;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "GetShaderTimeValue",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -167,8 +253,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TimeHelper::*)()>(&::GlobalNamespace::TimeHelper::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c065c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563b154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), ".ctor",
@@ -176,6 +262,78 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr float_t& GlobalNamespace::TimeHelper::__cordl_internal_get__DeltaTime_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____DeltaTime_k__BackingField;
+}
+constexpr float_t const& GlobalNamespace::TimeHelper::__cordl_internal_get__DeltaTime_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____DeltaTime_k__BackingField;
+}
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__DeltaTime_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____DeltaTime_k__BackingField = value;
+}
+constexpr float_t& GlobalNamespace::TimeHelper::__cordl_internal_get__FixedDeltaTime_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____FixedDeltaTime_k__BackingField;
+}
+constexpr float_t const& GlobalNamespace::TimeHelper::__cordl_internal_get__FixedDeltaTime_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____FixedDeltaTime_k__BackingField;
+}
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__FixedDeltaTime_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____FixedDeltaTime_k__BackingField = value;
+}
+constexpr float_t& GlobalNamespace::TimeHelper::__cordl_internal_get__InterpolationFactor_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____InterpolationFactor_k__BackingField;
+}
+constexpr float_t const& GlobalNamespace::TimeHelper::__cordl_internal_get__InterpolationFactor_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____InterpolationFactor_k__BackingField;
+}
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__InterpolationFactor_k__BackingField(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____InterpolationFactor_k__BackingField = value;
+}
+constexpr ::UnityEngine::Vector4& GlobalNamespace::TimeHelper::__cordl_internal_get__TimeHelperOffset_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____TimeHelperOffset_k__BackingField;
+}
+constexpr ::UnityEngine::Vector4 const& GlobalNamespace::TimeHelper::__cordl_internal_get__TimeHelperOffset_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____TimeHelperOffset_k__BackingField;
+}
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__TimeHelperOffset_k__BackingField(::UnityEngine::Vector4 value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____TimeHelperOffset_k__BackingField = value;
+}
+constexpr float_t& GlobalNamespace::TimeHelper::__cordl_internal_get__time() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____time;
+}
+constexpr float_t const& GlobalNamespace::TimeHelper::__cordl_internal_get__time() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____time;
+}
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__time(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____time = value;
+}
+constexpr int32_t& GlobalNamespace::TimeHelper::__cordl_internal_get__baseFrameCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____baseFrameCount;
+}
+constexpr int32_t const& GlobalNamespace::TimeHelper::__cordl_internal_get__baseFrameCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____baseFrameCount;
+}
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__baseFrameCount(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____baseFrameCount = value;
+}
 constexpr float_t& GlobalNamespace::TimeHelper::__cordl_internal_get__accumulator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____accumulator;
@@ -188,75 +346,84 @@ constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__accumulator(fl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____accumulator = value;
 }
-inline void GlobalNamespace::TimeHelper::setStaticF__deltaTime_k__BackingField(float_t value) {
-  ::cordl_internals::setStaticField<float_t, "<deltaTime>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>(std::forward<float_t>(value));
+constexpr bool& GlobalNamespace::TimeHelper::__cordl_internal_get__shouldResetAccumulator() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____shouldResetAccumulator;
 }
-inline float_t GlobalNamespace::TimeHelper::getStaticF__deltaTime_k__BackingField() {
-  return ::cordl_internals::getStaticField<float_t, "<deltaTime>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>();
+constexpr bool const& GlobalNamespace::TimeHelper::__cordl_internal_get__shouldResetAccumulator() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____shouldResetAccumulator;
 }
-inline void GlobalNamespace::TimeHelper::setStaticF__fixedDeltaTime_k__BackingField(float_t value) {
-  ::cordl_internals::setStaticField<float_t, "<fixedDeltaTime>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>(
-      std::forward<float_t>(value));
+constexpr void GlobalNamespace::TimeHelper::__cordl_internal_set__shouldResetAccumulator(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____shouldResetAccumulator = value;
 }
-inline float_t GlobalNamespace::TimeHelper::getStaticF__fixedDeltaTime_k__BackingField() {
-  return ::cordl_internals::getStaticField<float_t, "<fixedDeltaTime>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>();
+inline void GlobalNamespace::TimeHelper::setStaticF_kTimeHelperPropertyID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "kTimeHelperPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>(std::forward<int32_t>(value));
 }
-inline void GlobalNamespace::TimeHelper::setStaticF__interpolationFactor_k__BackingField(float_t value) {
-  ::cordl_internals::setStaticField<float_t, "<interpolationFactor>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>(
-      std::forward<float_t>(value));
+inline int32_t GlobalNamespace::TimeHelper::getStaticF_kTimeHelperPropertyID() {
+  return ::cordl_internals::getStaticField<int32_t, "kTimeHelperPropertyID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>();
 }
-inline float_t GlobalNamespace::TimeHelper::getStaticF__interpolationFactor_k__BackingField() {
-  return ::cordl_internals::getStaticField<float_t, "<interpolationFactor>k__BackingField", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>();
+inline void GlobalNamespace::TimeHelper::setStaticF_kTimeID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "kTimeID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>(std::forward<int32_t>(value));
 }
-inline void GlobalNamespace::TimeHelper::setStaticF__time(float_t value) {
-  ::cordl_internals::setStaticField<float_t, "_time", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>(std::forward<float_t>(value));
+inline int32_t GlobalNamespace::TimeHelper::getStaticF_kTimeID() {
+  return ::cordl_internals::getStaticField<int32_t, "kTimeID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>();
 }
-inline float_t GlobalNamespace::TimeHelper::getStaticF__time() {
-  return ::cordl_internals::getStaticField<float_t, "_time", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get>();
-}
-inline float_t GlobalNamespace::TimeHelper::get_time() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_time",
+inline float_t GlobalNamespace::TimeHelper::get_Time() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_Time",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TimeHelper::set_time(float_t value) {
+inline void GlobalNamespace::TimeHelper::set_Time(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_time", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_Time", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::TimeHelper::get_deltaTime() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_deltaTime",
+inline float_t GlobalNamespace::TimeHelper::get_DeltaTime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_DeltaTime",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TimeHelper::set_deltaTime(float_t value) {
+inline void GlobalNamespace::TimeHelper::set_DeltaTime(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_deltaTime", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_DeltaTime", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::TimeHelper::get_fixedDeltaTime() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_fixedDeltaTime",
+inline float_t GlobalNamespace::TimeHelper::get_FixedDeltaTime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_FixedDeltaTime",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TimeHelper::set_fixedDeltaTime(float_t value) {
+inline void GlobalNamespace::TimeHelper::set_FixedDeltaTime(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_fixedDeltaTime",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_FixedDeltaTime",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline float_t GlobalNamespace::TimeHelper::get_interpolationFactor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_interpolationFactor",
+inline float_t GlobalNamespace::TimeHelper::get_InterpolationFactor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_InterpolationFactor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TimeHelper::set_interpolationFactor(float_t value) {
+inline void GlobalNamespace::TimeHelper::set_InterpolationFactor(float_t value) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_interpolationFactor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_InterpolationFactor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::Vector4 GlobalNamespace::TimeHelper::get_TimeHelperOffset() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "get_TimeHelperOffset",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::TimeHelper::set_TimeHelperOffset(::UnityEngine::Vector4 value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "set_TimeHelperOffset", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::TimeHelper::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "Awake",
@@ -273,11 +440,33 @@ inline void GlobalNamespace::TimeHelper::Update() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::TimeHelper::__SetTime(float_t time) {
+inline int32_t GlobalNamespace::TimeHelper::GetFrameCount() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "GetFrameCount",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::TimeHelper::SetTime(float_t time) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "__SetTime", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "SetTime", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, time);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, time);
+}
+inline void GlobalNamespace::TimeHelper::SetCommandBufferTimeProperties(::UnityEngine::Rendering::CommandBuffer* commandBuffer) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "SetCommandBufferTimeProperties", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::CommandBuffer*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, commandBuffer);
+}
+inline ::UnityEngine::Vector4 GlobalNamespace::TimeHelper::EncodeTimeAsVector(float_t time) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "EncodeTimeAsVector",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(nullptr, ___internal_method, time);
+}
+inline float_t GlobalNamespace::TimeHelper::GetShaderTimeValue() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), "GetShaderTimeValue",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method);
 }
 inline void GlobalNamespace::TimeHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TimeHelper*>::get(), ".ctor",

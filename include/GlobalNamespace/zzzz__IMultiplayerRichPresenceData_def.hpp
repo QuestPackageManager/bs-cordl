@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IMultiplayerRichPresenceData)
+namespace GlobalNamespace {
+class IRichPresenceData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IMultiplayerRichPresenceData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IMultiplayerRichPresenceData);
-// Dependencies IRichPresenceData
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IMultiplayerRichPresenceData
@@ -59,7 +61,7 @@ public:
   IMultiplayerRichPresenceData(IMultiplayerRichPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5152 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6726 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

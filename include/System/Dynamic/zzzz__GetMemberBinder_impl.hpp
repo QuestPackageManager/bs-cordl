@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::GetMemberBinder::*)(::StringW, bool)>(&::System::Dynamic::GetMemberBinder::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x41020ac;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5dac140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_ReturnType)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4102120;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5dac1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::GetMemberBinder*>::get(), "get_ReturnType",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410218c;
+  constexpr static std::size_t addrs = 0x5dac1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::GetMemberBinder*>::get(), "get_Name",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_IgnoreCase)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4102194;
+  constexpr static std::size_t addrs = 0x5dac1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::GetMemberBinder*>::get(), "get_IgnoreCase",
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (::System::Dynamic::GetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*)>(
     &::System::Dynamic::GetMemberBinder::FallbackGetMember)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4100d54;
+  constexpr static std::size_t addrs = 0x5daaea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,8 +93,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::DynamicMetaObject* (
     ::System::Dynamic::GetMemberBinder::*)(::System::Dynamic::DynamicMetaObject*, ::ArrayW<::System::Dynamic::DynamicMetaObject*, ::Array<::System::Dynamic::DynamicMetaObject*>*>)>(
     &::System::Dynamic::GetMemberBinder::Bind)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x410219c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5dac1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Dynamic::GetMemberBinder::*)()>(&::System::Dynamic::GetMemberBinder::get_IsStandardBinder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4102278;
+  constexpr static std::size_t addrs = 0x5dac2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::GetMemberBinder*>::get(),

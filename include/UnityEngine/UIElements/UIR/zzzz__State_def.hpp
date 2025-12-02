@@ -29,11 +29,12 @@ public:
   constexpr State();
 
   // Ctor Parameters [CppParam { name: "material", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityEngine::UIElements::TextureId",
-  // modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sdfScale", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr State(::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::TextureId texture, int32_t stencilRef, float_t sdfScale) noexcept;
+  // modifiers: "", def_value: None }, CppParam { name: "stencilRef", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "sdfScale", ty: "float_t", modifiers: "", def_value: None },
+  // CppParam { name: "sharpness", ty: "float_t", modifiers: "", def_value: None }]
+  constexpr State(::UnityW<::UnityEngine::Material> material, ::UnityEngine::UIElements::TextureId texture, int32_t stencilRef, float_t sdfScale, float_t sharpness) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5383 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -50,6 +51,9 @@ public:
   /// @brief Field sdfScale, offset: 0x10, size: 0x4, def value: None
   float_t sdfScale;
 
+  /// @brief Field sharpness, offset: 0x14, size: 0x4, def value: None
+  float_t sharpness;
+
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
@@ -60,6 +64,8 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::State, texture) == 0x8, "
 static_assert(offsetof(::UnityEngine::UIElements::UIR::State, stencilRef) == 0xc, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::State, sdfScale) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UIR::State, sharpness) == 0x14, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::State, 0x18>, "Size mismatch!");
 

@@ -36,7 +36,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::SpawnRotationChevron_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b9d6bc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578be24, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -54,7 +54,7 @@ public:
   SpawnRotationChevron_Pool(SpawnRotationChevron_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4369 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5952 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -82,15 +82,15 @@ public:
                       put = __cordl_internal_set__lights)) ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*>
       _lights;
 
-  /// @brief Method ColorWasSet, addr 0x3b9d630, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method ColorWasSet, addr 0x578bd98, size 0xc, virtual true, abstract: false, final false
   inline void ColorWasSet(::UnityEngine::Color color);
 
   static inline ::GlobalNamespace::SpawnRotationChevron* New_ctor();
 
-  /// @brief Method SetLightAmount, addr 0x3b9d6ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetLightAmount, addr 0x578be10, size 0x8, virtual false, abstract: false, final false
   inline void SetLightAmount(float_t amount);
 
-  /// @brief Method UpdateLights, addr 0x3b9d63c, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method UpdateLights, addr 0x578bda4, size 0x6c, virtual false, abstract: false, final false
   inline void UpdateLights();
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -111,7 +111,7 @@ public:
 
   constexpr void __cordl_internal_set__lights(::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9d6b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578be18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -129,7 +129,7 @@ public:
   SpawnRotationChevron(SpawnRotationChevron const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4370 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5953 };
 
   /// @brief Field _lights, offset: 0x38, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>, ::Array<::UnityW<::GlobalNamespace::TubeBloomPrePassLight>>*> ____lights;

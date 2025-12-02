@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
@@ -22,8 +19,14 @@ class FlowCoordinator;
 namespace HMUI {
 class HierarchyManager;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -38,7 +41,7 @@ class MenuSceneSetup__Start_d__3;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuSceneSetup);
 MARK_REF_PTR_T(::GlobalNamespace::MenuSceneSetup__Start_d__3);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MenuSceneSetup/<Start>d__3
@@ -67,21 +70,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3b38938, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x571bd94, size 0x98, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MenuSceneSetup__Start_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3b389cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x571be2c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3b389d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x571be34, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3b38a0c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x571be6c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3b38934, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x571bd90, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -102,7 +105,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MenuSceneSetup> value);
 
-  /// @brief Method .ctor, addr 0x3b38904, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571bd84, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -129,7 +132,7 @@ public:
   MenuSceneSetup__Start_d__3(MenuSceneSetup__Start_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5225 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6803 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -172,7 +175,7 @@ public:
 
   static inline ::GlobalNamespace::MenuSceneSetup* New_ctor();
 
-  /// @brief Method Start, addr 0x3b388a4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x571bd30, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Start();
 
   constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& __cordl_internal_get__gameScenesManager() const;
@@ -193,7 +196,7 @@ public:
 
   constexpr void __cordl_internal_set__rootFlowCoordinator(::UnityW<::HMUI::FlowCoordinator> value);
 
-  /// @brief Method .ctor, addr 0x3b3892c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571bd8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -211,7 +214,7 @@ public:
   MenuSceneSetup(MenuSceneSetup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5226 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6804 };
 
   /// @brief Field _rootFlowCoordinator, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::HMUI::FlowCoordinator> ____rootFlowCoordinator;

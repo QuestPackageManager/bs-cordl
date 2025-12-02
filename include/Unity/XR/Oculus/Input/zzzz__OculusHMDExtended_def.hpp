@@ -24,10 +24,10 @@ namespace Unity::XR::Oculus::Input {
 class CORDL_TYPE OculusHMDExtended : public ::Unity::XR::Oculus::Input::OculusHMD {
 public:
   // Declarations
-  /// @brief Field <back>k__BackingField, offset 0x278, size 0x8
+  /// @brief Field <back>k__BackingField, offset 0x240, size 0x8
   __declspec(property(get = __cordl_internal_get__back_k__BackingField, put = __cordl_internal_set__back_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _back_k__BackingField;
 
-  /// @brief Field <touchpad>k__BackingField, offset 0x280, size 0x8
+  /// @brief Field <touchpad>k__BackingField, offset 0x248, size 0x8
   __declspec(property(get = __cordl_internal_get__touchpad_k__BackingField,
                       put = __cordl_internal_set__touchpad_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector2Control* _touchpad_k__BackingField;
 
@@ -35,7 +35,7 @@ public:
 
   __declspec(property(get = get_touchpad, put = set_touchpad)) ::UnityEngine::InputSystem::Controls::Vector2Control* touchpad;
 
-  /// @brief Method FinishSetup, addr 0x483867c, size 0xbc, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x62b3ea4, size 0xbc, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusHMDExtended* New_ctor();
@@ -52,19 +52,19 @@ public:
 
   constexpr void __cordl_internal_set__touchpad_k__BackingField(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
-  /// @brief Method .ctor, addr 0x4838738, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b3f60, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_back, addr 0x483865c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_back, addr 0x62b3e84, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_back();
 
-  /// @brief Method get_touchpad, addr 0x483866c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_touchpad, addr 0x62b3e94, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector2Control* get_touchpad();
 
-  /// @brief Method set_back, addr 0x4838664, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_back, addr 0x62b3e8c, size 0x8, virtual false, abstract: false, final false
   inline void set_back(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_touchpad, addr 0x4838674, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_touchpad, addr 0x62b3e9c, size 0x8, virtual false, abstract: false, final false
   inline void set_touchpad(::UnityEngine::InputSystem::Controls::Vector2Control* value);
 
 protected:
@@ -82,22 +82,22 @@ public:
   OculusHMDExtended(OculusHMDExtended const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8578 };
 
-  /// @brief Field <back>k__BackingField, offset: 0x278, size: 0x8, def value: None
+  /// @brief Field <back>k__BackingField, offset: 0x240, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____back_k__BackingField;
 
-  /// @brief Field <touchpad>k__BackingField, offset: 0x280, size: 0x8, def value: None
+  /// @brief Field <touchpad>k__BackingField, offset: 0x248, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector2Control* ____touchpad_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Unity::XR::Oculus::Input::OculusHMDExtended, ____back_k__BackingField) == 0x278, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusHMDExtended, ____back_k__BackingField) == 0x240, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::Oculus::Input::OculusHMDExtended, ____touchpad_k__BackingField) == 0x280, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusHMDExtended, ____touchpad_k__BackingField) == 0x248, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusHMDExtended, 0x288>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusHMDExtended, 0x250>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus::Input
 NEED_NO_BOX(::Unity::XR::Oculus::Input::OculusHMDExtended);

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::NoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::Zenject::NoTransitionInstaller::InstallBindings)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b3ae6c;
+  constexpr static std::size_t addrs = 0x6c4ee7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::NoTransitionInstaller::*)(::Zenject::DiContainer*)>(
     &::Zenject::NoTransitionInstaller::PostInstall)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4b3ae70;
+  constexpr static std::size_t addrs = 0x6c4ee80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::NoTransitionInstaller::*)()>(&::Zenject::NoTransitionInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3ae74;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c4ee84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionInstaller*>::get(), ".ctor",
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::NoTransitionInstaller::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x4b3ae7c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6c4ee88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::NoTransitionInstaller*>::get(),

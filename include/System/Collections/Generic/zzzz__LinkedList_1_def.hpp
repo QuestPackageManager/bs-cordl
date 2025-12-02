@@ -3,23 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LinkedList_1)
 namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
@@ -28,7 +27,19 @@ namespace System::Collections::Generic {
 template <typename T> struct LinkedList_1_Enumerator;
 }
 namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -38,6 +49,9 @@ struct StreamingContext;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -52,8 +66,7 @@ template <typename T> struct LinkedList_1_Enumerator;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::LinkedList_1);
 MARK_GEN_VAL_T(::System::Collections::Generic::LinkedList_1_Enumerator);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Runtime.Serialization.IDeserializationCallback,
-// System.Runtime.Serialization.ISerializable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -134,7 +147,7 @@ public:
                                     int32_t _index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11368 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -158,8 +171,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
-// System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -402,7 +414,7 @@ public:
   static constexpr ::ConstString VersionName{ u"Version" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11369 };
 
   /// @brief Field head, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedListNode_1<T>* ___head;

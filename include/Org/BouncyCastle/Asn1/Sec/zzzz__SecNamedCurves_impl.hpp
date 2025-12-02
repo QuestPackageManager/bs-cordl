@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24eec04;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341e4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24eec0c;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x341e4fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24eee7c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341e788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp112r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x24eee84;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x341e78c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24ef0fc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341ea20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24ef104;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x341ea24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24ef374;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341ecb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp128r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x24ef37c;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x341ecb4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,8 +246,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24ef5f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341ef48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -261,8 +261,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x24ef5fc;
+  constexpr static std::size_t size = 0x4bc;
+  constexpr static std::size_t addrs = 0x341ef4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -303,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24efaf0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341f45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -318,8 +318,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24efaf8;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x341f460;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -360,8 +360,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24efd68;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341f6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,8 +375,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp160r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24efd70;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x341f6f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -417,8 +417,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24effe0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341f97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -432,8 +432,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x24effe8;
+  constexpr static std::size_t size = 0x4bc;
+  constexpr static std::size_t addrs = 0x341f980;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -474,8 +474,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f04dc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341fe90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -489,8 +489,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp192r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24f04e4;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x341fe94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -531,8 +531,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f0754;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3420120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -546,8 +546,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x24f075c;
+  constexpr static std::size_t size = 0x4bc;
+  constexpr static std::size_t addrs = 0x3420124;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -588,8 +588,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f0c50;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3420634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -603,8 +603,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp224r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24f0c58;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x3420638;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -645,8 +645,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f0ec8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34208c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -660,8 +660,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x498;
-  constexpr static std::size_t addrs = 0x24f0ed0;
+  constexpr static std::size_t size = 0x4bc;
+  constexpr static std::size_t addrs = 0x34208c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -702,8 +702,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f13c4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3420dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -717,8 +717,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp256r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24f13cc;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x3420ddc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -759,8 +759,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp384r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp384r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f163c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3421068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -774,8 +774,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp384r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp384r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24f1644;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x342106c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -816,8 +816,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp521r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp521r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f18b4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34212f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -831,8 +831,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp521r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Secp521r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x214;
-  constexpr static std::size_t addrs = 0x24f18bc;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x34212fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -873,8 +873,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f1b2c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3421588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -888,8 +888,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x24f1b34;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x342158c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -930,8 +930,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f1d8c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3421808;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -945,8 +945,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect113r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x24f1d94;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x342180c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -987,8 +987,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f1fec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3421a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1002,8 +1002,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x24f1ff4;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x3421a8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1044,8 +1044,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f2258;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3421d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1059,8 +1059,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect131r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x24f2260;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x3421d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1101,8 +1101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f24c4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3421f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1116,8 +1116,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x24f24cc;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x3421f8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1158,8 +1158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f26a0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3422168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1173,8 +1173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x24f26a8;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x342216c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1215,8 +1215,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f290c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34223e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1230,8 +1230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect163r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x24f2914;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x34223ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1272,8 +1272,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f2b60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x342264c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1287,8 +1287,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x24f2b68;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x3422650;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1329,8 +1329,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r2Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f2dc0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34228cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1344,8 +1344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r2Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect193r2Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x24f2dc8;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x34228d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1386,8 +1386,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f3020;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3422b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1401,8 +1401,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x24f3028;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x3422b50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1443,8 +1443,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f31f0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3422d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1458,8 +1458,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect233r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x24f31f8;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x3422d30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1500,8 +1500,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect239k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect239k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f3438;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3422f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1515,8 +1515,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect239k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect239k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x24f3440;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x3422f94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1557,8 +1557,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f3608;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3423170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1572,8 +1572,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x24f3610;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x3423174;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1614,8 +1614,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f37e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3423350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1629,8 +1629,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect283r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x24f37ec;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x3423354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1671,8 +1671,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f3a38;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34235b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1686,8 +1686,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x24f3a40;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x34235b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1728,8 +1728,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f3c08;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3423794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1743,8 +1743,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect409r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x24f3c10;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x3423798;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1785,8 +1785,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571k1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f3e50;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x34239f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1800,8 +1800,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571k1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571k1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x24f3e58;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x34239fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1842,8 +1842,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571r1Holder::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24f402c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3423bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1857,8 +1857,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571r1Holder::*)()>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571r1Holder::CreateParameters)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x24f4034;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x3423bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -1898,8 +1898,8 @@ constexpr ::Org::BouncyCastle::Asn1::Sec::SecNamedCurves_Sect571r1Holder::SecNam
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::*)()>(&::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24ed610;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x341cdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::SecNamedCurves*>::get(), ".ctor",
@@ -1912,8 +1912,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECPoint* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::StringW)>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::ConfigureBasepoint)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x24ed618;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x341cdc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1929,7 +1929,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (*)(::Org::BouncyCastle::Math::EC::ECCurve*)>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::ConfigureCurve)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24ed708;
+  constexpr static std::size_t addrs = 0x341cec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1944,8 +1944,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::EC::ECCurve* (*)(::Org::BouncyCastle::Math::EC::ECCurve*, ::Org::BouncyCastle::Math::EC::Endo::GlvTypeBParameters*)>(
         &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::ConfigureCurveGlv)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x24ed70c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x341cec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1959,8 +1959,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::StringW)>(&::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::FromHex)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x24ed7b0;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x341cf60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1974,8 +1974,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::StringW, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*)>(&::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::DefineCurve)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x24ed848;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x341d000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1991,8 +1991,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::GetByName)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x24ee6fc;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x341dfcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2006,8 +2006,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X9::X9ECParameters* (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::GetByOid)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x24ee8d0;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x341e1b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -2021,8 +2021,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (*)(::StringW)>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::GetOid)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x24ee77c;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x341e050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2036,8 +2036,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(
     &::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::GetName)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x24ee9fc;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x341e2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2050,8 +2050,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerable* (*)()>(&::Org::BouncyCastle::Asn1::Sec::SecNamedCurves::get_Names)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x24eeafc;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x341e3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Sec::SecNamedCurves*>::get(),

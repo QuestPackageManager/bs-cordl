@@ -48,7 +48,7 @@ public:
                      ::BeatSaber::Settings::DebugSettings debug) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18016 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21806 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf0 };
@@ -83,7 +83,7 @@ public:
   /// @brief Field performanceTools, offset: 0xe8, size: 0x4, def value: None
   ::BeatSaber::Settings::PerformanceToolSettings performanceTools;
 
-  /// @brief Field debug, offset: 0xec, size: 0x1, def value: None
+  /// @brief Field debug, offset: 0xec, size: 0x2, def value: None
   ::BeatSaber::Settings::DebugSettings debug;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;

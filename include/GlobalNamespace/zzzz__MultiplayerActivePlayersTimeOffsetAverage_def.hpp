@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMultiplayerObservable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerActivePlayersTimeOffsetAverage)
+namespace GlobalNamespace {
+class IMultiplayerObservable;
+}
 namespace GlobalNamespace {
 class IMultiplayerSessionManager;
 }
@@ -16,7 +18,7 @@ class MultiplayerActivePlayersTimeOffsetAverage;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerActivePlayersTimeOffsetAverage);
-// Dependencies IMultiplayerObservable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerActivePlayersTimeOffsetAverage
@@ -60,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set__timeOfLastValidReturnedTime(int64_t value);
 
-  /// @brief Method .ctor, addr 0x3bcc78c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57bda7c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isFailed, addr 0x3bcc644, size 0x148, virtual true, abstract: false, final true
+  /// @brief Method get_isFailed, addr 0x57bd930, size 0x14c, virtual true, abstract: false, final true
   inline bool get_isFailed();
 
-  /// @brief Method get_offsetSyncTime, addr 0x3bcc3f0, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method get_offsetSyncTime, addr 0x57bd6a4, size 0x28c, virtual true, abstract: false, final true
   inline int64_t get_offsetSyncTime();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerObservable"
@@ -87,7 +89,7 @@ public:
   MultiplayerActivePlayersTimeOffsetAverage(MultiplayerActivePlayersTimeOffsetAverage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4553 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6133 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;

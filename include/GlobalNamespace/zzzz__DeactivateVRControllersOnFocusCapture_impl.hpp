@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/DeactivateVRControllersOnFocusCapture.hpp"
-#include "GlobalNamespace/zzzz__IVerboseLogger_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__DeactivateVRControllersOnFocusCapture_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
+#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "GlobalNamespace/zzzz__VRController_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::DeactivateVRControllersOnFocusCapture.get_loggerPrefix
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::get_loggerPrefix)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39be7c4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5638df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::Start)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x39be804;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x5638e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::OnDestroy)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x39bec88;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x5639330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>::get(),
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39bee1c;
+  constexpr static std::size_t addrs = 0x5639508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>::get(),
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::UpdateVRControllerActiveState)> {
-  constexpr static std::size_t size = 0x260;
-  constexpr static std::size_t addrs = 0x39bea28;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x563909c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>::get(),
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::DeactivateVRControllersOnFocusCapture::*)()>(
     &::GlobalNamespace::DeactivateVRControllersOnFocusCapture::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bee20;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563950c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::DeactivateVRControllersOnFocusCapture*>::get(),

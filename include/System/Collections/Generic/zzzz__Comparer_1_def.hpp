@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Comparer_1)
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
+namespace System::Collections {
+class IComparer;
+}
 namespace System {
 class Object;
 }
@@ -17,7 +21,7 @@ template <typename T> class Comparer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::Comparer_1);
-// Dependencies System.Collections.Generic.IComparer`1<T>, System.Collections.IComparer, System.Object
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -77,7 +81,7 @@ public:
   Comparer_1(Comparer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3880 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3805 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

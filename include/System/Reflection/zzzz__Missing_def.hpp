@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Missing)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -18,7 +20,7 @@ class Missing;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Missing);
-// Dependencies System.Object, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.Missing
@@ -33,10 +35,10 @@ public:
 
   static inline ::System::Reflection::Missing* New_ctor();
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3d2498c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x5969838, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3d24984, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5969834, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Reflection::Missing* getStaticF_Value();
@@ -61,7 +63,7 @@ public:
   Missing(Missing const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3482 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3504 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

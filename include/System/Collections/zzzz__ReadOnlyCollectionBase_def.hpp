@@ -3,13 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyCollectionBase)
 namespace System::Collections {
 class ArrayList;
+}
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -26,7 +30,7 @@ class ReadOnlyCollectionBase;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::ReadOnlyCollectionBase);
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
 // CS Name: System.Collections.ReadOnlyCollectionBase
@@ -50,18 +54,18 @@ public:
   /// @brief Convert operator to "::System::Collections::IEnumerable"
   constexpr operator ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method GetEnumerator, addr 0x3dbc4b8, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x59d00fc, size 0x24, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
   static inline ::System::Collections::ReadOnlyCollectionBase* New_ctor();
 
-  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x3dbc47c, size 0x3c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.CopyTo, addr 0x59d00c0, size 0x3c, virtual true, abstract: false, final true
   inline void System_Collections_ICollection_CopyTo(::System::Array* array, int32_t index);
 
-  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x3dbc434, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_IsSynchronized, addr 0x59d0078, size 0x24, virtual true, abstract: false, final true
   inline bool System_Collections_ICollection_get_IsSynchronized();
 
-  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x3dbc458, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.ICollection.get_SyncRoot, addr 0x59d009c, size 0x24, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_ICollection_get_SyncRoot();
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get__list() const;
@@ -70,13 +74,13 @@ public:
 
   constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
 
-  /// @brief Method .ctor, addr 0x3dbc4dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59d0120, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Count, addr 0x3dbc410, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x59d0054, size 0x24, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_InnerList, addr 0x3dbc3b0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_InnerList, addr 0x59cfff0, size 0x64, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_InnerList();
 
   /// @brief Convert to "::System::Collections::ICollection"
@@ -100,7 +104,7 @@ public:
   ReadOnlyCollectionBase(ReadOnlyCollectionBase const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3784 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3709 };
 
   /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::ArrayList* ____list;

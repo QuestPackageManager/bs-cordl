@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::SetReqPolicy)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x25ca844;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x34f9dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(bool)>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::SetCertReq)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x25ca8ac;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x34f9e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(
     ::StringW, bool, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::AddExtension)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x25ca918;
+  constexpr static std::size_t addrs = 0x34f9ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(::StringW, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::AddExtension)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x25ca95c;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x34f9eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::AddExtension)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x25cab30;
+  constexpr static std::size_t addrs = 0x34fa0c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::AddExtension)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x25cab7c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x34fa110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,7 +109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Tsp::TimeStampRequest* (
     ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::Generate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25cad1c;
+  constexpr static std::size_t addrs = 0x34fa2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,8 +125,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Tsp::TimeStampRequest* (
     ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::Generate)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x25cad24;
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x34fa2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,8 +143,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Tsp::TimeStampRequest* (
     ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::Generate)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x25cafdc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x34fa584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -160,8 +160,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Tsp::TimeStampRequest* (
     ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::Generate)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x25caff8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x34fa59c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -176,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::*)()>(
     &::Org::BouncyCastle::Tsp::TimeStampRequestGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x25cb010;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x34fa5b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Tsp::TimeStampRequestGenerator*>::get(),

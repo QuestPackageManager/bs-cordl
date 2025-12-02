@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/ComponentModel/Design/IDesigner.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/ComponentModel/Design/zzzz__IDesigner_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 /// @brief Convert operator to "::System::IDisposable"
 constexpr System::ComponentModel::Design::IDesigner::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));

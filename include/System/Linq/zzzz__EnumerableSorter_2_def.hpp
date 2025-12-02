@@ -102,7 +102,7 @@ public:
   EnumerableSorter_2(EnumerableSorter_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13609 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16056 };
 
   /// @brief Field keySelector, offset: 0x10, size: 0x8, def value: None
   ::System::Func_2<TElement, TKey>* ___keySelector;

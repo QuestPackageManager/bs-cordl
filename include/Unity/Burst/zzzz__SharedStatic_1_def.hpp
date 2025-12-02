@@ -26,7 +26,7 @@ public:
   // Declarations
   __declspec(property(get = get_Data)) T Data;
 
-  __declspec(property(get = get_UnsafeDataPointer)) ::cordl_internals::Ptr<void> UnsafeDataPointer;
+  __declspec(property(get = get_UnsafeDataPointer)) void* UnsafeDataPointer;
 
   /// @brief Method CheckIf_T_IsUnmanagedOrThrow, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline void CheckIf_T_IsUnmanagedOrThrow();
@@ -53,32 +53,32 @@ public:
   static inline ::Unity::Burst::SharedStatic_1<T> GetOrCreateUnsafe(uint32_t alignment, int64_t hashCode, int64_t subHashCode);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> buffer);
+  inline void _ctor(void* buffer);
 
   /// @brief Method get_Data, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::ByRef<T> get_Data();
 
   /// @brief Method get_UnsafeDataPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<void> get_UnsafeDataPointer();
+  inline void* get_UnsafeDataPointer();
 
   // Ctor Parameters []
   // @brief default ctor
   constexpr SharedStatic_1();
 
-  // Ctor Parameters [CppParam { name: "_buffer", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }]
-  constexpr SharedStatic_1(::cordl_internals::Ptr<void> _buffer) noexcept;
+  // Ctor Parameters [CppParam { name: "_buffer", ty: "void*", modifiers: "", def_value: None }]
+  constexpr SharedStatic_1(void* _buffer) noexcept;
 
   /// @brief Field DefaultAlignment offset 0xffffffff size 0x4
   static constexpr uint32_t DefaultAlignment{ static_cast<uint32_t>(0x10u) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14636 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17287 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
 
   /// @brief Field _buffer, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> _buffer;
+  void* _buffer;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

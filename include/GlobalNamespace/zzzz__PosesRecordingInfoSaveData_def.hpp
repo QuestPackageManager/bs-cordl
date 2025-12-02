@@ -85,22 +85,22 @@ public:
 
   constexpr void __cordl_internal_set__nearOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b1b5a4, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56fa8b8, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(float_t fieldOfVision, float_t nearClip, float_t farClip, float_t hmdOffset, float_t nearOffset);
 
-  /// @brief Method get_farClip, addr 0x3b1b58c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_farClip, addr 0x56fa8a0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_farClip();
 
-  /// @brief Method get_fieldOfVision, addr 0x3b1b57c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_fieldOfVision, addr 0x56fa890, size 0x8, virtual false, abstract: false, final false
   inline float_t get_fieldOfVision();
 
-  /// @brief Method get_hmdOffset, addr 0x3b1b594, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hmdOffset, addr 0x56fa8a8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_hmdOffset();
 
-  /// @brief Method get_nearClip, addr 0x3b1b584, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearClip, addr 0x56fa898, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearClip();
 
-  /// @brief Method get_nearOffset, addr 0x3b1b59c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_nearOffset, addr 0x56fa8b0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_nearOffset();
 
 protected:
@@ -118,7 +118,7 @@ public:
   PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData(PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6674 };
 
   /// @brief Field _fieldOfVision, offset: 0x10, size: 0x4, def value: None
   float_t ____fieldOfVision;
@@ -208,20 +208,20 @@ public:
 
   constexpr void __cordl_internal_set__version(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b1b508, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56fa824, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::StringW, ::Array<::StringW>*> objectIds, ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* externalCameraCalibration,
                     ::StringW dataFileName);
 
-  /// @brief Method get_dataFileName, addr 0x3b1b500, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataFileName, addr 0x56fa81c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_dataFileName();
 
-  /// @brief Method get_externalCameraCalibration, addr 0x3b1b4f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_externalCameraCalibration, addr 0x56fa814, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::PosesRecordingInfoSaveData_ExternalCameraCalibrationSaveData* get_externalCameraCalibration();
 
-  /// @brief Method get_objectIds, addr 0x3b1b4f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_objectIds, addr 0x56fa80c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::StringW, ::Array<::StringW>*> get_objectIds();
 
-  /// @brief Method get_version, addr 0x3b1b4e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_version, addr 0x56fa804, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_version();
 
 protected:
@@ -239,7 +239,7 @@ public:
   PosesRecordingInfoSaveData(PosesRecordingInfoSaveData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6675 };
 
   /// @brief Field kCurrentVersion offset 0xffffffff size 0x8
   static constexpr ::ConstString kCurrentVersion{ u"1.0.0" };

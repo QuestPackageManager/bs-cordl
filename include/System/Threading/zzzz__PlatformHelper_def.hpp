@@ -34,7 +34,7 @@ public:
 
   static inline int32_t getStaticF_s_processorCount();
 
-  /// @brief Method get_ProcessorCount, addr 0x3e4f85c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method get_ProcessorCount, addr 0x5a94cd0, size 0xe4, virtual false, abstract: false, final false
   static inline int32_t get_ProcessorCount();
 
   static inline void setStaticF_IsSingleProcessor(bool value);
@@ -58,7 +58,7 @@ public:
   PlatformHelper(PlatformHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

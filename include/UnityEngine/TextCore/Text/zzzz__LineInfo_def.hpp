@@ -27,8 +27,8 @@ public:
   constexpr LineInfo();
 
   // Ctor Parameters [CppParam { name: "controlCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "characterCount", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty:
+  // CppParam { name: "visibleCharacterCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "visibleSpaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
+  // "spaceCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "wordCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstCharacterIndex", ty:
   // "int32_t", modifiers: "", def_value: None }, CppParam { name: "firstVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "lastCharacterIndex", ty: "int32_t",
   // modifiers: "", def_value: None }, CppParam { name: "lastVisibleCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "length", ty: "float_t", modifiers: "",
   // def_value: None }, CppParam { name: "lineHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "ascender", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
@@ -36,13 +36,13 @@ public:
   // modifiers: "", def_value: None }, CppParam { name: "width", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "marginLeft", ty: "float_t", modifiers: "", def_value: None },
   // CppParam { name: "marginRight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "alignment", ty: "::UnityEngine::TextCore::Text::TextAlignment", modifiers: "", def_value: None
   // }, CppParam { name: "lineExtents", ty: "::UnityEngine::TextCore::Text::Extents", modifiers: "", def_value: None }]
-  constexpr LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t spaceCount, int32_t visibleSpaceCount, int32_t wordCount,
+  constexpr LineInfo(int32_t controlCharacterCount, int32_t characterCount, int32_t visibleCharacterCount, int32_t visibleSpaceCount, int32_t spaceCount, int32_t wordCount,
                      int32_t firstCharacterIndex, int32_t firstVisibleCharacterIndex, int32_t lastCharacterIndex, int32_t lastVisibleCharacterIndex, float_t length, float_t lineHeight,
                      float_t ascender, float_t baseline, float_t descender, float_t maxAdvance, float_t width, float_t marginLeft, float_t marginRight,
                      ::UnityEngine::TextCore::Text::TextAlignment alignment, ::UnityEngine::TextCore::Text::Extents lineExtents) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15247 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17166 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -56,11 +56,11 @@ public:
   /// @brief Field visibleCharacterCount, offset: 0x8, size: 0x4, def value: None
   int32_t visibleCharacterCount;
 
-  /// @brief Field spaceCount, offset: 0xc, size: 0x4, def value: None
-  int32_t spaceCount;
-
-  /// @brief Field visibleSpaceCount, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field visibleSpaceCount, offset: 0xc, size: 0x4, def value: None
   int32_t visibleSpaceCount;
+
+  /// @brief Field spaceCount, offset: 0x10, size: 0x4, def value: None
+  int32_t spaceCount;
 
   /// @brief Field wordCount, offset: 0x14, size: 0x4, def value: None
   int32_t wordCount;
@@ -119,9 +119,9 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, characterCount) 
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, visibleCharacterCount) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, spaceCount) == 0xc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, visibleSpaceCount) == 0xc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, visibleSpaceCount) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, spaceCount) == 0x10, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::LineInfo, wordCount) == 0x14, "Offset mismatch!");
 

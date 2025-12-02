@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "GlobalNamespace/zzzz__TableCellWithSeparator_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
@@ -36,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bfda88;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57f1c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::*)(
     int32_t, ::GlobalNamespace::GameplayModifierInfoListItem*)>(&::GlobalNamespace::GameServerPlayerTableCell___c__DisplayClass30_0::_SetData_b__0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3bfdd38;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x57f1f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::MoveNext)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x3bfddb4;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x57f1fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::GameServerPlayerTableCell__SetBeatmapUseButtonEnabledAsync_d__36::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bfe210;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57f24f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,8 +170,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_kickPlayerEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bfcb68;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f0c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,8 +185,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_kickPlayerEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bfcc1c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f0d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -201,8 +200,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_useBeatmapEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bfccd0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f0de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -216,8 +215,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_useBeatmapEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bfcd84;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f0ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,8 +230,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::add_useModifiersEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bfce38;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f0f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -246,8 +245,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::remove_useModifiersEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3bfceec;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57f1028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -262,8 +261,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(
     ::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::ILobbyPlayerData*, bool, bool, ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*)>(
     &::GlobalNamespace::GameServerPlayerTableCell::SetData)> {
-  constexpr static std::size_t size = 0xae8;
-  constexpr static std::size_t addrs = 0x3bfcfa0;
+  constexpr static std::size_t size = 0xb44;
+  constexpr static std::size_t addrs = 0x57f10e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +278,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::Awake)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x3bfdb2c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x57f1ce0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -295,7 +294,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell::HandleKickPlayerButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bfdc78;
+  constexpr static std::size_t addrs = 0x57f1e88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
@@ -309,7 +308,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell::HandleUseBeatmapButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bfdc98;
+  constexpr static std::size_t addrs = 0x57f1ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(),
@@ -323,7 +322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(
     &::GlobalNamespace::GameServerPlayerTableCell::HandleUseModifiersButtonPressed)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3bfdcb8;
+  constexpr static std::size_t addrs = 0x57f1ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -337,8 +336,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)(
     ::System::Threading::Tasks::Task_1<::GlobalNamespace::EntitlementStatus>*)>(&::GlobalNamespace::GameServerPlayerTableCell::SetBeatmapUseButtonEnabledAsync)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bfda90;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57f1c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,7 +351,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameServerPlayerTableCell::*)()>(&::GlobalNamespace::GameServerPlayerTableCell::_ctor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3bfdcd8;
+  constexpr static std::size_t addrs = 0x57f1ee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameServerPlayerTableCell*>::get(), ".ctor",

@@ -30,23 +30,18 @@ public:
   // Declarations
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor();
 
-  static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::StringW message);
-
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::StringW message, ::System::Exception* innerException);
 
   static inline ::System::Security::Authentication::AuthenticationException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
                                                                                       ::System::Runtime::Serialization::StreamingContext streamingContext);
 
-  /// @brief Method .ctor, addr 0x4432efc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6183180, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4432f54, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
-
-  /// @brief Method .ctor, addr 0x4432f5c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61831d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x4432f64, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61831d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -64,7 +59,7 @@ public:
   AuthenticationException(AuthenticationException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

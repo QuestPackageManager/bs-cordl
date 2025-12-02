@@ -44,65 +44,65 @@ namespace UnityEngine::UIElements::Internal {
 class CORDL_TYPE ColumnResizer : public ::UnityEngine::UIElements::PointerManipulator {
 public:
   // Declarations
-  /// @brief Field <columnLayout>k__BackingField, offset 0x58, size 0x8
+  /// @brief Field <columnLayout>k__BackingField, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get__columnLayout_k__BackingField,
                       put = __cordl_internal_set__columnLayout_k__BackingField)) ::UnityEngine::UIElements::ColumnLayout* _columnLayout_k__BackingField;
 
-  /// @brief Field <preview>k__BackingField, offset 0x60, size 0x1
+  /// @brief Field <preview>k__BackingField, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get__preview_k__BackingField, put = __cordl_internal_set__preview_k__BackingField)) bool _preview_k__BackingField;
 
   __declspec(property(get = get_columnLayout, put = set_columnLayout)) ::UnityEngine::UIElements::ColumnLayout* columnLayout;
 
-  /// @brief Field m_Active, offset 0x38, size 0x1
+  /// @brief Field m_Active, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Active, put = __cordl_internal_set_m_Active)) bool m_Active;
 
-  /// @brief Field m_Column, offset 0x48, size 0x8
+  /// @brief Field m_Column, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Column, put = __cordl_internal_set_m_Column)) ::UnityEngine::UIElements::Column* m_Column;
 
-  /// @brief Field m_Header, offset 0x40, size 0x8
+  /// @brief Field m_Header, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Header, put = __cordl_internal_set_m_Header)) ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* m_Header;
 
-  /// @brief Field m_PreviewElement, offset 0x50, size 0x8
+  /// @brief Field m_PreviewElement, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_m_PreviewElement, put = __cordl_internal_set_m_PreviewElement)) ::UnityEngine::UIElements::VisualElement* m_PreviewElement;
 
-  /// @brief Field m_Resizing, offset 0x39, size 0x1
+  /// @brief Field m_Resizing, offset 0x2d, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Resizing, put = __cordl_internal_set_m_Resizing)) bool m_Resizing;
 
-  /// @brief Field m_Start, offset 0x30, size 0x8
+  /// @brief Field m_Start, offset 0x24, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Start, put = __cordl_internal_set_m_Start)) ::UnityEngine::Vector2 m_Start;
 
   __declspec(property(get = get_preview, put = set_preview)) bool preview;
 
-  /// @brief Method BeginDragResize, addr 0x49e5924, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method BeginDragResize, addr 0x6aef178, size 0x48, virtual false, abstract: false, final false
   inline void BeginDragResize(float_t pos);
 
-  /// @brief Method DragResize, addr 0x49e5a68, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DragResize, addr 0x6aef2cc, size 0x40, virtual false, abstract: false, final false
   inline void DragResize(float_t pos);
 
-  /// @brief Method EndDragResize, addr 0x49e56c0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method EndDragResize, addr 0x6aeef10, size 0x5c, virtual false, abstract: false, final false
   inline void EndDragResize(float_t pos, bool cancelled);
 
   static inline ::UnityEngine::UIElements::Internal::ColumnResizer* New_ctor(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method OnKeyDown, addr 0x49e564c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method OnKeyDown, addr 0x6aeee88, size 0x88, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* e);
 
-  /// @brief Method OnPointerDown, addr 0x49e571c, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method OnPointerDown, addr 0x6aeef6c, size 0x20c, virtual false, abstract: false, final false
   inline void OnPointerDown(::UnityEngine::UIElements::PointerDownEvent* e);
 
-  /// @brief Method OnPointerMove, addr 0x49e596c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method OnPointerMove, addr 0x6aef1c0, size 0x10c, virtual false, abstract: false, final false
   inline void OnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* e);
 
-  /// @brief Method OnPointerUp, addr 0x49e5aa8, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method OnPointerUp, addr 0x6aef30c, size 0x138, virtual false, abstract: false, final false
   inline void OnPointerUp(::UnityEngine::UIElements::PointerUpEvent* e);
 
-  /// @brief Method RegisterCallbacksOnTarget, addr 0x49e51c4, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method RegisterCallbacksOnTarget, addr 0x6aeea30, size 0x22c, virtual true, abstract: false, final false
   inline void RegisterCallbacksOnTarget();
 
-  /// @brief Method UnregisterCallbacksFromTarget, addr 0x49e5408, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method UnregisterCallbacksFromTarget, addr 0x6aeec5c, size 0x22c, virtual true, abstract: false, final false
   inline void UnregisterCallbacksFromTarget();
 
-  /// @brief Method UpdatePreviewPosition, addr 0x49e5bd8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method UpdatePreviewPosition, addr 0x6aef444, size 0x118, virtual false, abstract: false, final false
   inline void UpdatePreviewPosition();
 
   constexpr ::UnityEngine::UIElements::ColumnLayout* const& __cordl_internal_get__columnLayout_k__BackingField() const;
@@ -153,19 +153,19 @@ public:
 
   constexpr void __cordl_internal_set_m_Start(::UnityEngine::Vector2 value);
 
-  /// @brief Method .ctor, addr 0x49e5104, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aee968, size 0xc8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::Column* column);
 
-  /// @brief Method get_columnLayout, addr 0x49e50e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_columnLayout, addr 0x6aee948, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::ColumnLayout* get_columnLayout();
 
-  /// @brief Method get_preview, addr 0x49e50f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_preview, addr 0x6aee958, size 0x8, virtual false, abstract: false, final false
   inline bool get_preview();
 
-  /// @brief Method set_columnLayout, addr 0x49e50e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_columnLayout, addr 0x6aee950, size 0x8, virtual false, abstract: false, final false
   inline void set_columnLayout(::UnityEngine::UIElements::ColumnLayout* value);
 
-  /// @brief Method set_preview, addr 0x49e50f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_preview, addr 0x6aee960, size 0x8, virtual false, abstract: false, final false
   inline void set_preview(bool value);
 
 protected:
@@ -183,52 +183,52 @@ public:
   ColumnResizer(ColumnResizer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5514 };
 
-  /// @brief Field m_Start, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field m_Start, offset: 0x24, size: 0x8, def value: None
   ::UnityEngine::Vector2 ___m_Start;
 
-  /// @brief Field m_Active, offset: 0x38, size: 0x1, def value: None
+  /// @brief Field m_Active, offset: 0x2c, size: 0x1, def value: None
   bool ___m_Active;
 
-  /// @brief Field m_Resizing, offset: 0x39, size: 0x1, def value: None
+  /// @brief Field m_Resizing, offset: 0x2d, size: 0x1, def value: None
   bool ___m_Resizing;
 
-  /// @brief Field m_Header, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_Header, offset: 0x30, size: 0x8, def value: None
   ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* ___m_Header;
 
-  /// @brief Field m_Column, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_Column, offset: 0x38, size: 0x8, def value: None
   ::UnityEngine::UIElements::Column* ___m_Column;
 
-  /// @brief Field m_PreviewElement, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field m_PreviewElement, offset: 0x40, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_PreviewElement;
 
-  /// @brief Field <columnLayout>k__BackingField, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field <columnLayout>k__BackingField, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::ColumnLayout* ____columnLayout_k__BackingField;
 
-  /// @brief Field <preview>k__BackingField, offset: 0x60, size: 0x1, def value: None
+  /// @brief Field <preview>k__BackingField, offset: 0x50, size: 0x1, def value: None
   bool ____preview_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Start) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Start) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Active) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Active) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Resizing) == 0x39, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Resizing) == 0x2d, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Header) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Header) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Column) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_Column) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_PreviewElement) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ___m_PreviewElement) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ____columnLayout_k__BackingField) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ____columnLayout_k__BackingField) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ____preview_k__BackingField) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::ColumnResizer, ____preview_k__BackingField) == 0x50, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::ColumnResizer, 0x68>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::ColumnResizer, 0x58>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::ColumnResizer);

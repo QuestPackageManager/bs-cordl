@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::InitializeShader)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x44d1288;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x62203c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), "InitializeShader",
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::UpdateArray)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x44d1404;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6220558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), "UpdateArray",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::UpdateAverage)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x44d1448;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x62205bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), "UpdateAverage",
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::UpdateThresholds)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x44d1484;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x62205f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), "UpdateThresholds",
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::UpdateColors)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x44d14ec;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6220654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), "UpdateColors",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::UpdatePoints)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x44d158c;
+  constexpr static std::size_t addrs = 0x62206e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), "UpdatePoints",
@@ -86,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tayx::Graphy::G_GraphShader::*)()>(&::Tayx::Graphy::G_GraphShader::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x44d15c8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6220724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tayx::Graphy::G_GraphShader*>::get(), ".ctor",

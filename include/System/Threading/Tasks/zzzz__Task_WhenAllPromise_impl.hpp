@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/Tasks/Task_WhenAllPromise.hpp"
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_impl.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_impl.hpp"
 #include "System/Threading/Tasks/zzzz__Task_WhenAllPromise_def.hpp"
+#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::Task_WhenAllPromise._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Task_WhenAllPromise::*)(
     ::ArrayW<::System::Threading::Tasks::Task*, ::Array<::System::Threading::Tasks::Task*>*>)>(&::GlobalNamespace::Task_WhenAllPromise::_ctor)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3e67cfc;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x5aada88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Task_WhenAllPromise::*)(::System::Threading::Tasks::Task*)>(
     &::GlobalNamespace::Task_WhenAllPromise::Invoke)> {
-  constexpr static std::size_t size = 0x2d0;
-  constexpr static std::size_t addrs = 0x3e68dcc;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x5aaec04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Task_WhenAllPromise::*)()>(
     &::GlobalNamespace::Task_WhenAllPromise::get_ShouldNotifyDebuggerOfWaitCompletion)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3e6909c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5aaef38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Task_WhenAllPromise::*)()>(
     &::GlobalNamespace::Task_WhenAllPromise::get_InvokeMayRunArbitraryCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e69110;
+  constexpr static std::size_t addrs = 0x5aaefb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Task_WhenAllPromise*>::get(),

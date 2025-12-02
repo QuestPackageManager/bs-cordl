@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup___c::*)()>(&::UnityEngine::UI::ToggleGroup___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acfecc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6bdc5c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup___c*>::get(), ".ctor",
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ToggleGroup___c::*)(::UnityEngine::UI::Toggle*)>(
     &::UnityEngine::UI::ToggleGroup___c::_AnyTogglesOn_b__13_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4acfed4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6bdc5cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ToggleGroup___c::*)(::UnityEngine::UI::Toggle*)>(
     &::UnityEngine::UI::ToggleGroup___c::_ActiveToggles_b__14_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4acfeec;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6bdc5e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,7 +104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::get_allowSwitchOff)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4acf9e4;
+  constexpr static std::size_t addrs = 0x6bdc100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup*>::get(), "get_allowSwitchOff",
@@ -116,8 +116,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(bool)>(&::UnityEngine::UI::ToggleGroup::set_allowSwitchOff)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4acf9ec;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6bdc108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,8 +130,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4acf9f8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6bdc110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup*>::get(), ".ctor",
@@ -143,8 +143,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::Start)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4acfa74;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6bdc188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,8 +157,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::OnEnable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4acfa90;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6bdc18c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(
     &::UnityEngine::UI::ToggleGroup::ValidateToggleIsInGroup)> {
   constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4acfaac;
+  constexpr static std::size_t addrs = 0x6bdc190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*, bool)>(
     &::UnityEngine::UI::ToggleGroup::NotifyToggleOn)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4acf6f4;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6bdbddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(
     &::UnityEngine::UI::ToggleGroup::UnregisterToggle)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4acf594;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6bdbc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -218,8 +218,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(::UnityEngine::UI::Toggle*)>(
     &::UnityEngine::UI::ToggleGroup::RegisterToggle)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4acf624;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6bdbcf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -232,8 +232,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::EnsureValidState)> {
-  constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x4aceec0;
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x6bdb584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup*>::get(), "EnsureValidState",
@@ -245,8 +245,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::AnyTogglesOn)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x4acf820;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x6bdbf30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup*>::get(), "AnyTogglesOn",
@@ -259,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::UnityEngine::UI::Toggle>>* (::UnityEngine::UI::ToggleGroup::*)()>(&::UnityEngine::UI::ToggleGroup::ActiveToggles)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4acfbfc;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6bdc2e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup*>::get(), "ActiveToggles",
@@ -273,8 +273,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Toggle> (::UnityEngine::UI::ToggleGroup::*)()>(
     &::UnityEngine::UI::ToggleGroup::GetFirstActiveToggle)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4acfcf0;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6bdc3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ToggleGroup*>::get(), "GetFirstActiveToggle",
@@ -286,8 +286,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ToggleGroup::*)(bool)>(&::UnityEngine::UI::ToggleGroup::SetAllTogglesOff)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4acfd78;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6bdc474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

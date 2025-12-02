@@ -20,7 +20,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::SpriteArrayLightWithId::*)()>(
     &::GlobalNamespace::SpriteArrayLightWithId::get_color)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x39e4a14;
+  constexpr static std::size_t addrs = 0x565c0cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteArrayLightWithId*>::get(), "get_color",
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteArrayLightWithId::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::SpriteArrayLightWithId::ColorWasSet)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x39e4a44;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x565c0fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SpriteArrayLightWithId::*)()>(&::GlobalNamespace::SpriteArrayLightWithId::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39e4bdc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x565c2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SpriteArrayLightWithId*>::get(), ".ctor",

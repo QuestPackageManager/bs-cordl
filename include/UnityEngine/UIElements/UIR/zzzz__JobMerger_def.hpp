@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(JobMerger)
+namespace System {
+class IDisposable;
+}
 namespace Unity::Jobs {
 struct JobHandle;
 }
@@ -18,7 +20,7 @@ class JobMerger;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIR::JobMerger);
-// Dependencies System.IDisposable, System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle
 namespace UnityEngine::UIElements::UIR {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIR.JobMerger
@@ -39,16 +41,16 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Add, addr 0x49a90e8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6aa9d04, size 0x6c, virtual false, abstract: false, final false
   inline void Add(::Unity::Jobs::JobHandle job);
 
-  /// @brief Method Dispose, addr 0x49a978c, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6aa9e0c, size 0x68, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x49a9a00, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6aa9e74, size 0x70, virtual false, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method MergeAndReset, addr 0x49a9154, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method MergeAndReset, addr 0x6aa9d70, size 0x8c, virtual false, abstract: false, final false
   inline ::Unity::Jobs::JobHandle MergeAndReset();
 
   static inline ::UnityEngine::UIElements::UIR::JobMerger* New_ctor(int32_t capacity);
@@ -71,16 +73,16 @@ public:
 
   constexpr void __cordl_internal_set_m_Jobs(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> value);
 
-  /// @brief Method .ctor, addr 0x49a9934, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6aa9c50, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_disposed, addr 0x49a99ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6aa9dfc, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_disposed, addr 0x49a99f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6aa9e04, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
 protected:
@@ -98,7 +100,7 @@ public:
   JobMerger(JobMerger const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5304 };
 
   /// @brief Field m_Jobs, offset: 0x10, size: 0x10, def value: None
   ::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle> ___m_Jobs;

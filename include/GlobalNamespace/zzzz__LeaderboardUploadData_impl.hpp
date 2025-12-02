@@ -9,8 +9,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardUploadData::*)(
     ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::StringW, ::System::Collections::Generic::List_1<::StringW>*)>(
     &::GlobalNamespace::LeaderboardUploadData::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2700d80;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x362ca80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

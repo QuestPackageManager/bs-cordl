@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/XR/Haptics/GetCurrentHapticStateCommand.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputDeviceCommand_impl.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__GetCurrentHapticStateCommand_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputDeviceCommandInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include "UnityEngine/InputSystem/XR/Haptics/zzzz__HapticState_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand.get_Type
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::get_Type)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45e8be0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x636e100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::*)()>(&::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::get_typeStatic)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x45e8c10;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x636e10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Haptics::HapticState (
     ::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::*)()>(&::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::get_currentState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e8c40;
+  constexpr static std::size_t addrs = 0x636e118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand (*)()>(
     &::UnityEngine::InputSystem::XR::Haptics::GetCurrentHapticStateCommand::Create)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x45e8c48;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x636e120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

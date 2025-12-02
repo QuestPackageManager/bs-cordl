@@ -22,6 +22,8 @@ public:
   /// @brief Field <subMenuPath>k__BackingField, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get__subMenuPath_k__BackingField, put = __cordl_internal_set__subMenuPath_k__BackingField)) ::StringW _subMenuPath_k__BackingField;
 
+  __declspec(property(get = get_subMenuPath)) ::StringW subMenuPath;
+
   static inline ::UnityEngine::UIElements::DropdownMenuSeparator* New_ctor(::StringW subMenuPath);
 
   constexpr ::StringW const& __cordl_internal_get__subMenuPath_k__BackingField() const;
@@ -30,8 +32,11 @@ public:
 
   constexpr void __cordl_internal_set__subMenuPath_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a219b4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b5f70c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW subMenuPath);
+
+  /// @brief Method get_subMenuPath, addr 0x6b5f704, size 0x8, virtual false, abstract: false, final false
+  inline ::StringW get_subMenuPath();
 
 protected:
   // Ctor Parameters []
@@ -48,7 +53,7 @@ public:
   DropdownMenuSeparator(DropdownMenuSeparator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5771 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4415 };
 
   /// @brief Field <subMenuPath>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____subMenuPath_k__BackingField;

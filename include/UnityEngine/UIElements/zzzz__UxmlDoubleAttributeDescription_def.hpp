@@ -45,10 +45,10 @@ public:
 
   static inline ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c* New_ctor();
 
-  /// @brief Method <GetValueFromBag>b__3_0, addr 0x4aa2d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <GetValueFromBag>b__3_0, addr 0x6a8a314, size 0x8, virtual false, abstract: false, final false
   inline double_t _GetValueFromBag_b__3_0(::StringW s, double_t d);
 
-  /// @brief Method .ctor, addr 0x4aa2d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a8a310, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   UxmlDoubleAttributeDescription___c(UxmlDoubleAttributeDescription___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6251 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5154 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -91,15 +91,15 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::UxmlDoubleAttributeDescription___c;
 
-  /// @brief Method ConvertValueToDouble, addr 0x4aa2c84, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ConvertValueToDouble, addr 0x6a8a224, size 0x98, virtual false, abstract: false, final false
   static inline double_t ConvertValueToDouble(::StringW v, double_t defaultValue);
 
-  /// @brief Method GetValueFromBag, addr 0x4aa2b38, size 0x14c, virtual true, abstract: false, final false
+  /// @brief Method GetValueFromBag, addr 0x6a8a08c, size 0x198, virtual true, abstract: false, final false
   inline double_t GetValueFromBag(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::UxmlDoubleAttributeDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4aa2aa0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a89ff0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -117,7 +117,7 @@ public:
   UxmlDoubleAttributeDescription(UxmlDoubleAttributeDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6252 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "System/Security/IPermission.hpp"
-#include "System/Security/zzzz__ISecurityEncodable_impl.hpp"
 #include "System/Security/zzzz__IPermission_def.hpp"
+#include "System/Security/zzzz__ISecurityEncodable_def.hpp"
 //  Writing Method size for method: ::System::Security::IPermission.Demand
 template <>
 

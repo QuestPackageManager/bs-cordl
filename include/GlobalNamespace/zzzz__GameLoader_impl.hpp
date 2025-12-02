@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameLoader.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_impl.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/zzzz__SceneInstance_impl.hpp"
@@ -14,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLoader__Start_d__3::*)()>(&::GlobalNamespace::GameLoader__Start_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x2718324;
+  constexpr static std::size_t size = 0x398;
+  constexpr static std::size_t addrs = 0x364541c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLoader__Start_d__3>::get(), "MoveNext",
@@ -28,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLoader__Start_d__3::*)(::System::Runtime::CompilerServices::IAsyncStateMachine*)>(
     &::GlobalNamespace::GameLoader__Start_d__3::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2718658;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x36457b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,8 +77,8 @@ constexpr ::GlobalNamespace::GameLoader__Start_d__3::GameLoader__Start_d__3() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLoader::*)()>(&::GlobalNamespace::GameLoader::Start)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x2718158;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x364524c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLoader*>::get(), "Start",
@@ -91,8 +90,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLoader::*)()>(&::GlobalNamespace::GameLoader::HandleSceneContextPostInstall)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x27181ec;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x36452f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLoader*>::get(),
@@ -104,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameLoader::*)()>(&::GlobalNamespace::GameLoader::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x271831c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3645418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameLoader*>::get(), ".ctor",

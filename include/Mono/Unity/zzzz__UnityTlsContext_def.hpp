@@ -123,14 +123,13 @@ public:
                       put = __cordl_internal_set_remoteCertificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate2* remoteCertificate;
 
   /// @brief Field requestedClientCertChain, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestedClientCertChain, put = __cordl_internal_set_requestedClientCertChain)) ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>
-      requestedClientCertChain;
+  __declspec(property(get = __cordl_internal_get_requestedClientCertChain, put = __cordl_internal_set_requestedClientCertChain)) ::Mono::Unity::UnityTls_unitytls_x509list* requestedClientCertChain;
 
   /// @brief Field requestedClientKey, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_requestedClientKey, put = __cordl_internal_set_requestedClientKey)) ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> requestedClientKey;
+  __declspec(property(get = __cordl_internal_get_requestedClientKey, put = __cordl_internal_set_requestedClientKey)) ::Mono::Unity::UnityTls_unitytls_key* requestedClientKey;
 
   /// @brief Field tlsContext, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_tlsContext, put = __cordl_internal_set_tlsContext)) ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> tlsContext;
+  __declspec(property(get = __cordl_internal_get_tlsContext, put = __cordl_internal_set_tlsContext)) ::Mono::Unity::UnityTls_unitytls_tlsctx* tlsContext;
 
   /// @brief Field verifyCallback, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get_verifyCallback, put = __cordl_internal_set_verifyCallback)) ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* verifyCallback;
@@ -141,74 +140,66 @@ public:
   /// @brief Field writeCallback, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_writeCallback, put = __cordl_internal_set_writeCallback)) ::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* writeCallback;
 
-  /// @brief Method CertificateCallback, addr 0x410e854, size 0x2c4, virtual false, abstract: false, final false
-  inline void CertificateCallback(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> cn, ::System::IntPtr cnLen,
-                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509name> caList, ::System::IntPtr caListLen,
-                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list_ref> chain, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key_ref> key,
-                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method CertificateCallback, addr 0x5db8428, size 0x2d0, virtual false, abstract: false, final false
+  inline void CertificateCallback(::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList, ::System::IntPtr caListLen,
+                                  ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method CertificateCallback, addr 0x410c508, size 0xc8, virtual false, abstract: false, final false
-  static inline void CertificateCallback(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ctx, ::cordl_internals::Ptr<uint8_t> cn,
-                                         ::System::IntPtr cnLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509name> caList, ::System::IntPtr caListLen,
-                                         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list_ref> chain, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key_ref> key,
-                                         ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method CertificateCallback, addr 0x5db6374, size 0x110, virtual false, abstract: false, final false
+  static inline void CertificateCallback(void* userData, ::Mono::Unity::UnityTls_unitytls_tlsctx* ctx, uint8_t* cn, ::System::IntPtr cnLen, ::Mono::Unity::UnityTls_unitytls_x509name* caList,
+                                         ::System::IntPtr caListLen, ::Mono::Unity::UnityTls_unitytls_x509list_ref* chain, ::Mono::Unity::UnityTls_unitytls_key_ref* key,
+                                         ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method Dispose, addr 0x410d66c, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5db73fc, size 0x78, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method ExtractNativeKeyAndChainFromManagedCertificate, addr 0x410ce4c, size 0x354, virtual false, abstract: false, final false
-  static inline void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert,
-                                                                    ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState,
-                                                                    ::ByRef<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>> nativeCertChain,
-                                                                    ::ByRef<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>> nativeKey);
+  /// @brief Method ExtractNativeKeyAndChainFromManagedCertificate, addr 0x5db6ca8, size 0x31c, virtual false, abstract: false, final false
+  static inline void ExtractNativeKeyAndChainFromManagedCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate* cert, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState,
+                                                                    ::ByRef<::Mono::Unity::UnityTls_unitytls_x509list*> nativeCertChain, ::ByRef<::Mono::Unity::UnityTls_unitytls_key*> nativeKey);
 
-  /// @brief Method FinishHandshake, addr 0x410da20, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method FinishHandshake, addr 0x5db7790, size 0x114, virtual true, abstract: false, final false
   inline void FinishHandshake();
 
   static inline ::Mono::Unity::UnityTlsContext* New_ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method PendingRenegotiation, addr 0x410d550, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method PendingRenegotiation, addr 0x5db72e4, size 0x8, virtual true, abstract: false, final false
   inline bool PendingRenegotiation();
 
-  /// @brief Method ProcessHandshake, addr 0x410d864, size 0x16c, virtual true, abstract: false, final false
+  /// @brief Method ProcessHandshake, addr 0x5db75d8, size 0x168, virtual true, abstract: false, final false
   inline bool ProcessHandshake();
 
-  /// @brief Method Read, addr 0x410d1b8, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5db6fdc, size 0x16c, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method ReadCallback, addr 0x410dfac, size 0x2f8, virtual false, abstract: false, final false
-  inline ::System::IntPtr ReadCallback(::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method ReadCallback, addr 0x5db7c9c, size 0x298, virtual false, abstract: false, final false
+  inline ::System::IntPtr ReadCallback(uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method ReadCallback, addr 0x410c390, size 0xc8, virtual false, abstract: false, final false
-  static inline ::System::IntPtr ReadCallback(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> buffer, ::System::IntPtr bufferLen,
-                                              ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method ReadCallback, addr 0x5db616c, size 0x110, virtual false, abstract: false, final false
+  static inline ::System::IntPtr ReadCallback(void* userData, uint8_t* buffer, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method Renegotiate, addr 0x410d518, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method Renegotiate, addr 0x5db72ac, size 0x38, virtual true, abstract: false, final false
   inline void Renegotiate();
 
-  /// @brief Method Shutdown, addr 0x410d558, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method Shutdown, addr 0x5db72ec, size 0xf8, virtual true, abstract: false, final false
   inline void Shutdown();
 
-  /// @brief Method StartHandshake, addr 0x410d6e4, size 0x180, virtual true, abstract: false, final false
+  /// @brief Method StartHandshake, addr 0x5db7474, size 0x164, virtual true, abstract: false, final false
   inline void StartHandshake();
 
-  /// @brief Method VerifyCallback, addr 0x410e3b0, size 0x424, virtual false, abstract: false, final false
-  inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::Mono::Unity::UnityTls_unitytls_x509list_ref chain,
-                                                                           ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method VerifyCallback, addr 0x5db8050, size 0x364, virtual false, abstract: false, final false
+  inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::Mono::Unity::UnityTls_unitytls_x509list_ref chain, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method VerifyCallback, addr 0x410c458, size 0xb0, virtual false, abstract: false, final false
-  static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(::cordl_internals::Ptr<void> userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain,
-                                                                                  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method VerifyCallback, addr 0x5db627c, size 0xf8, virtual false, abstract: false, final false
+  static inline ::Mono::Unity::UnityTls_unitytls_x509verify_result VerifyCallback(void* userData, ::Mono::Unity::UnityTls_unitytls_x509list_ref chain,
+                                                                                  ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method Write, addr 0x410d36c, size 0x1ac, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x5db7148, size 0x164, virtual true, abstract: false, final false
   inline ::System::ValueTuple_2<int32_t, bool> Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
 
-  /// @brief Method WriteCallback, addr 0x410db64, size 0x260, virtual false, abstract: false, final false
-  inline ::System::IntPtr WriteCallback(::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method WriteCallback, addr 0x5db78c4, size 0x1f0, virtual false, abstract: false, final false
+  inline ::System::IntPtr WriteCallback(uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
-  /// @brief Method WriteCallback, addr 0x410c2c8, size 0xc8, virtual false, abstract: false, final false
-  static inline ::System::IntPtr WriteCallback(::cordl_internals::Ptr<void> userData, ::cordl_internals::Ptr<uint8_t> data, ::System::IntPtr bufferLen,
-                                               ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState);
+  /// @brief Method WriteCallback, addr 0x5db605c, size 0x110, virtual false, abstract: false, final false
+  static inline ::System::IntPtr WriteCallback(void* userData, uint8_t* data, ::System::IntPtr bufferLen, ::Mono::Unity::UnityTls_unitytls_errorstate* errorState);
 
   constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_certificate_callback* const& __cordl_internal_get_certificateCallback() const;
 
@@ -254,17 +245,17 @@ public:
 
   constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate2*& __cordl_internal_get_remoteCertificate();
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> const& __cordl_internal_get_requestedClientCertChain() const;
+  constexpr ::Mono::Unity::UnityTls_unitytls_x509list* const& __cordl_internal_get_requestedClientCertChain() const;
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list>& __cordl_internal_get_requestedClientCertChain();
+  constexpr ::Mono::Unity::UnityTls_unitytls_x509list*& __cordl_internal_get_requestedClientCertChain();
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> const& __cordl_internal_get_requestedClientKey() const;
+  constexpr ::Mono::Unity::UnityTls_unitytls_key* const& __cordl_internal_get_requestedClientKey() const;
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key>& __cordl_internal_get_requestedClientKey();
+  constexpr ::Mono::Unity::UnityTls_unitytls_key*& __cordl_internal_get_requestedClientKey();
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> const& __cordl_internal_get_tlsContext() const;
+  constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx* const& __cordl_internal_get_tlsContext() const;
 
-  constexpr ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx>& __cordl_internal_get_tlsContext();
+  constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx*& __cordl_internal_get_tlsContext();
 
   constexpr ::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* const& __cordl_internal_get_verifyCallback() const;
 
@@ -300,11 +291,11 @@ public:
 
   constexpr void __cordl_internal_set_remoteCertificate(::System::Security::Cryptography::X509Certificates::X509Certificate2* value);
 
-  constexpr void __cordl_internal_set_requestedClientCertChain(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> value);
+  constexpr void __cordl_internal_set_requestedClientCertChain(::Mono::Unity::UnityTls_unitytls_x509list* value);
 
-  constexpr void __cordl_internal_set_requestedClientKey(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> value);
+  constexpr void __cordl_internal_set_requestedClientKey(::Mono::Unity::UnityTls_unitytls_key* value);
 
-  constexpr void __cordl_internal_set_tlsContext(::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> value);
+  constexpr void __cordl_internal_set_tlsContext(::Mono::Unity::UnityTls_unitytls_tlsctx* value);
 
   constexpr void __cordl_internal_set_verifyCallback(::Mono::Unity::UnityTls_unitytls_tlsctx_x509verify_callback* value);
 
@@ -312,16 +303,16 @@ public:
 
   constexpr void __cordl_internal_set_writeCallback(::Mono::Unity::UnityTls_unitytls_tlsctx_write_callback* value);
 
-  /// @brief Method .ctor, addr 0x410c5d0, size 0x6d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db6484, size 0x68c, virtual false, abstract: false, final false
   inline void _ctor(::Mono::Net::Security::MobileAuthenticatedStream* parent, ::Mono::Net::Security::MonoSslAuthenticationOptions* options);
 
-  /// @brief Method get_IsAuthenticated, addr 0x410d1a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsAuthenticated, addr 0x5db6fc4, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsAuthenticated();
 
-  /// @brief Method get_LocalClientCertificate, addr 0x410d1a8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_LocalClientCertificate, addr 0x5db6fcc, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate* get_LocalClientCertificate();
 
-  /// @brief Method get_RemoteCertificate, addr 0x410d1b0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RemoteCertificate, addr 0x5db6fd4, size 0x8, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509Certificate2* get_RemoteCertificate();
 
 protected:
@@ -339,16 +330,16 @@ public:
   UnityTlsContext(UnityTlsContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10974 };
 
   /// @brief Field tlsContext, offset: 0x58, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_tlsctx> ___tlsContext;
+  ::Mono::Unity::UnityTls_unitytls_tlsctx* ___tlsContext;
 
   /// @brief Field requestedClientCertChain, offset: 0x60, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_x509list> ___requestedClientCertChain;
+  ::Mono::Unity::UnityTls_unitytls_x509list* ___requestedClientCertChain;
 
   /// @brief Field requestedClientKey, offset: 0x68, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_key> ___requestedClientKey;
+  ::Mono::Unity::UnityTls_unitytls_key* ___requestedClientKey;
 
   /// @brief Field readCallback, offset: 0x70, size: 0x8, def value: None
   ::Mono::Unity::UnityTls_unitytls_tlsctx_read_callback* ___readCallback;

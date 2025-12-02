@@ -32,10 +32,10 @@ public:
 
   static inline ::UnityEngine::UIElements::InputEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a29fe8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b68f94, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::InputEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a29fe0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b68f90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::InputEvent___c* getStaticF___9();
@@ -57,7 +57,7 @@ public:
   InputEvent___c(InputEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5840 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4475 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -74,23 +74,23 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::InputEvent___c;
 
-  /// @brief Field <newData>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <newData>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__newData_k__BackingField, put = __cordl_internal_set__newData_k__BackingField)) ::StringW _newData_k__BackingField;
 
-  /// @brief Field <previousData>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <previousData>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__previousData_k__BackingField, put = __cordl_internal_set__previousData_k__BackingField)) ::StringW _previousData_k__BackingField;
 
   __declspec(property(put = set_newData)) ::StringW newData;
 
   __declspec(property(put = set_previousData)) ::StringW previousData;
 
-  /// @brief Method GetPooled, addr 0x4a29e84, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetPooled, addr 0x6b68e2c, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::InputEvent* GetPooled(::StringW previousData, ::StringW newData);
 
-  /// @brief Method Init, addr 0x4a29e1c, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b68dc0, size 0x5c, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a29e74, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b68e1c, size 0x10, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::InputEvent* New_ctor();
@@ -107,13 +107,13 @@ public:
 
   constexpr void __cordl_internal_set__previousData_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4a29f08, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b68eb8, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_newData, addr 0x4a29e14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_newData, addr 0x6b68db8, size 0x8, virtual false, abstract: false, final false
   inline void set_newData(::StringW value);
 
-  /// @brief Method set_previousData, addr 0x4a29e0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_previousData, addr 0x6b68db0, size 0x8, virtual false, abstract: false, final false
   inline void set_previousData(::StringW value);
 
 protected:
@@ -131,22 +131,22 @@ public:
   InputEvent(InputEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4476 };
 
-  /// @brief Field <previousData>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <previousData>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::StringW ____previousData_k__BackingField;
 
-  /// @brief Field <newData>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <newData>k__BackingField, offset: 0x70, size: 0x8, def value: None
   ::StringW ____newData_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::InputEvent, ____previousData_k__BackingField) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::InputEvent, ____previousData_k__BackingField) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::InputEvent, ____newData_k__BackingField) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::InputEvent, ____newData_k__BackingField) == 0x70, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InputEvent, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InputEvent, 0x78>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::InputEvent);

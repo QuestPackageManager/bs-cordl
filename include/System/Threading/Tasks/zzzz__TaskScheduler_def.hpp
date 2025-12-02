@@ -6,9 +6,6 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TaskScheduler)
-namespace System::Runtime::CompilerServices {
-template <typename TKey, typename TValue> class ConditionalWeakTable_2;
-}
 namespace System::Threading::Tasks {
 class TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView;
 }
@@ -59,7 +56,7 @@ public:
   TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView(TaskScheduler_SystemThreadingTasks_TaskSchedulerDebugView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,11 +87,6 @@ public:
   /// @brief Field m_taskSchedulerId, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get_m_taskSchedulerId, put = __cordl_internal_set_m_taskSchedulerId)) int32_t m_taskSchedulerId;
 
-  /// @brief Field s_activeTaskSchedulers, offset 0xffffffff, size 0x8
-  __declspec(property(
-      get = getStaticF_s_activeTaskSchedulers,
-      put = setStaticF_s_activeTaskSchedulers)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>* s_activeTaskSchedulers;
-
   /// @brief Field s_defaultTaskScheduler, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_defaultTaskScheduler, put = setStaticF_s_defaultTaskScheduler)) ::System::Threading::Tasks::TaskScheduler* s_defaultTaskScheduler;
 
@@ -103,22 +95,22 @@ public:
 
   static inline ::System::Threading::Tasks::TaskScheduler* New_ctor();
 
-  /// @brief Method NotifyWorkItemProgress, addr 0x3e6b73c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method NotifyWorkItemProgress, addr 0x5ab1834, size 0x4, virtual true, abstract: false, final false
   inline void NotifyWorkItemProgress();
 
-  /// @brief Method PublishUnobservedTaskException, addr 0x3e6a90c, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method PublishUnobservedTaskException, addr 0x5ab0828, size 0x130, virtual false, abstract: false, final false
   static inline void PublishUnobservedTaskException(::System::Object* sender, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs* ueea);
 
   /// @brief Method QueueTask, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void QueueTask(::System::Threading::Tasks::Task* task);
 
-  /// @brief Method TryDequeue, addr 0x3e6b734, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method TryDequeue, addr 0x5ab182c, size 0x8, virtual true, abstract: false, final false
   inline bool TryDequeue(::System::Threading::Tasks::Task* task);
 
   /// @brief Method TryExecuteTaskInline, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool TryExecuteTaskInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
-  /// @brief Method TryRunInline, addr 0x3e652b4, size 0x1f4, virtual false, abstract: false, final false
+  /// @brief Method TryRunInline, addr 0x5aa77b4, size 0x1d8, virtual false, abstract: false, final false
   inline bool TryRunInline(::System::Threading::Tasks::Task* task, bool taskWasPreviouslyQueued);
 
   constexpr int32_t const& __cordl_internal_get_m_taskSchedulerId() const;
@@ -127,39 +119,35 @@ public:
 
   constexpr void __cordl_internal_set_m_taskSchedulerId(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3e6b748, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ab1840, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>* getStaticF__unobservedTaskException();
 
   static inline ::System::Threading::Lock* getStaticF__unobservedTaskExceptionLockObject();
 
-  static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>* getStaticF_s_activeTaskSchedulers();
-
   static inline ::System::Threading::Tasks::TaskScheduler* getStaticF_s_defaultTaskScheduler();
 
   static inline int32_t getStaticF_s_taskSchedulerIdCounter();
 
-  /// @brief Method get_Current, addr 0x3e65c1c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method get_Current, addr 0x5aab850, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Current();
 
-  /// @brief Method get_Default, addr 0x3e6b750, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_Default, addr 0x5ab1844, size 0x5c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_Default();
 
-  /// @brief Method get_Id, addr 0x3e654a8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x5aab2a0, size 0x9c, virtual false, abstract: false, final false
   inline int32_t get_Id();
 
-  /// @brief Method get_InternalCurrent, addr 0x3e648f4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method get_InternalCurrent, addr 0x5aaa8b0, size 0xd4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::TaskScheduler* get_InternalCurrent();
 
-  /// @brief Method get_RequiresAtomicStartTransition, addr 0x3e6b740, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_RequiresAtomicStartTransition, addr 0x5ab1838, size 0x8, virtual true, abstract: false, final false
   inline bool get_RequiresAtomicStartTransition();
 
   static inline void setStaticF__unobservedTaskException(::System::EventHandler_1<::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*>* value);
 
   static inline void setStaticF__unobservedTaskExceptionLockObject(::System::Threading::Lock* value);
-
-  static inline void setStaticF_s_activeTaskSchedulers(::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>* value);
 
   static inline void setStaticF_s_defaultTaskScheduler(::System::Threading::Tasks::TaskScheduler* value);
 
@@ -180,7 +168,7 @@ public:
   TaskScheduler(TaskScheduler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2828 };
 
   /// @brief Field m_taskSchedulerId, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_taskSchedulerId;

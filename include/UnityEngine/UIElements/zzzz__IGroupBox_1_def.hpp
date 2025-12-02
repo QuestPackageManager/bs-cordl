@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
 CORDL_MODULE_EXPORT(IGroupBox_1)
+namespace UnityEngine::UIElements {
+class IGroupBox;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 template <typename T> class IGroupBox_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::IGroupBox_1);
-// Dependencies UnityEngine.UIElements.IGroupBox
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -31,7 +33,7 @@ public:
   IGroupBox_1(IGroupBox_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5974 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

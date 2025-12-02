@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Reflection::Assembly*, ::Array<::System::Reflection::Assembly*>*> (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetAssemblies)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x44fec70;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x624de00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::GetCachedValueCount)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44fec90;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x624de1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::SetPropertyValue)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44fed08;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x624dea0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::ClearCachedPropertyValues)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x44fed98;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x624df48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateProperty)> {
-  constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x44fee10;
+  constexpr static std::size_t size = 0x3dc;
+  constexpr static std::size_t addrs = 0x624dfc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x44eaaac;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6239cbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,12 +102,30 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
     &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString)> {
-  constexpr static std::size_t size = 0x594;
-  constexpr static std::size_t addrs = 0x44ff248;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x624e964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>::get(), "EvaluateString",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::StringW, ::StringW>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties.EvaluateStringInternal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, char16_t, char16_t, ::System::Func_2<::StringW, ::StringW>*)>(
+    &::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateStringInternal)> {
+  constexpr static std::size_t size = 0x5c0;
+  constexpr static std::size_t addrs = 0x624e3a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>::get(), "EvaluateStringInternal",
         std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
@@ -182,16 +200,26 @@ inline ::StringW UnityEngine::AddressableAssets::Initialization::AddressablesRun
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, name);
 }
-inline ::StringW UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString(::StringW input) {
+inline ::StringW UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString(::StringW inputString) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>::get(), "EvaluateString",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, input);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, inputString);
 }
 inline ::StringW UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateString(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter,
                                                                                                                ::System::Func_2<::StringW, ::StringW>* varFunc) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>::get(), "EvaluateString",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_2<::StringW, ::StringW>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, inputString, startDelimiter, endDelimiter, varFunc);
+}
+inline ::StringW UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties::EvaluateStringInternal(::StringW inputString, char16_t startDelimiter, char16_t endDelimiter,
+                                                                                                                       ::System::Func_2<::StringW, ::StringW>* varFunc) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::AddressablesRuntimeProperties*>::get(), "EvaluateStringInternal",
       std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(),

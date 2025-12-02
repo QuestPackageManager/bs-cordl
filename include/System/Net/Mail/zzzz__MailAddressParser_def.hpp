@@ -23,25 +23,25 @@ namespace System::Net::Mail {
 class CORDL_TYPE MailAddressParser : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method NormalizeOrThrow, addr 0x4404c34, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method NormalizeOrThrow, addr 0x6152f70, size 0xec, virtual false, abstract: false, final false
   static inline ::StringW NormalizeOrThrow(::StringW input);
 
-  /// @brief Method ParseAddress, addr 0x4403f48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x615229c, size 0x2c, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data);
 
-  /// @brief Method ParseAddress, addr 0x4403f74, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method ParseAddress, addr 0x61522c8, size 0x368, virtual false, abstract: false, final false
   static inline ::System::Net::Mail::MailAddress* ParseAddress(::StringW data, bool expectMultipleAddresses, ::ByRef<int32_t> index);
 
-  /// @brief Method ParseDisplayName, addr 0x44046e0, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ParseDisplayName, addr 0x6152a48, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW ParseDisplayName(::StringW data, ::ByRef<int32_t> index, bool expectMultipleAddresses);
 
-  /// @brief Method ParseDomain, addr 0x440432c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method ParseDomain, addr 0x615268c, size 0xfc, virtual false, abstract: false, final false
   static inline ::StringW ParseDomain(::StringW data, ::ByRef<int32_t> index);
 
-  /// @brief Method ParseLocalPart, addr 0x4404414, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method ParseLocalPart, addr 0x6152788, size 0x2c0, virtual false, abstract: false, final false
   static inline ::StringW ParseLocalPart(::StringW data, ::ByRef<int32_t> index, bool expectAngleBracket, bool expectMultipleAddresses);
 
-  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x44042d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method ReadCfwsAndThrowIfIncomplete, addr 0x6152630, size 0x5c, virtual false, abstract: false, final false
   static inline int32_t ReadCfwsAndThrowIfIncomplete(::StringW data, int32_t index);
 
 protected:
@@ -59,7 +59,7 @@ public:
   MailAddressParser(MailAddressParser const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9886 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11763 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

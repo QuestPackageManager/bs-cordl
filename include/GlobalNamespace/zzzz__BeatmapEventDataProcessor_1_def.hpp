@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEventDataProcessor_1)
 namespace GlobalNamespace {
 class BeatmapDataItem;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedListItemProcessor_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class LinkedListNode_1;
@@ -18,7 +20,7 @@ template <typename T> class BeatmapEventDataProcessor_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::BeatmapEventDataProcessor_1);
-// Dependencies ISortedListItemProcessor`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -71,7 +73,7 @@ public:
   BeatmapEventDataProcessor_1(BeatmapEventDataProcessor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20979 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,6 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "System/zzzz__Nullable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CollectionVirtualizationController_def.hpp"
 #include <cmath>
@@ -18,6 +19,9 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
+class Action;
+}
+namespace System {
 template <typename TResult> class Func_1;
 }
 namespace System {
@@ -28,6 +32,9 @@ template <typename T> class ObjectPool_1;
 }
 namespace UnityEngine::UIElements {
 class BaseVerticalCollectionView;
+}
+namespace UnityEngine::UIElements {
+class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
 class ReusableCollectionItem;
@@ -63,44 +70,44 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* __9;
 
-  /// @brief Field <>9__30_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__30_0, put = setStaticF___9__30_0)) ::System::Func_1<T>* __9__30_0;
+  /// @brief Field <>9__33_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__33_0, put = setStaticF___9__33_0)) ::System::Func_1<T>* __9__33_0;
 
-  /// @brief Field <>9__30_1, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__30_1, put = setStaticF___9__30_1)) ::System::Action_1<T>* __9__30_1;
+  /// @brief Field <>9__33_1, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__33_1, put = setStaticF___9__33_1)) ::System::Action_1<T>* __9__33_1;
 
-  /// @brief Field <>9__30_2, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__30_2, put = setStaticF___9__30_2)) ::System::Action_1<T>* __9__30_2;
+  /// @brief Field <>9__33_2, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__33_2, put = setStaticF___9__33_2)) ::System::Action_1<T>* __9__33_2;
 
   static inline ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* New_ctor();
 
-  /// @brief Method <.ctor>b__30_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline T __ctor_b__30_0();
+  /// @brief Method <.ctor>b__33_0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T __ctor_b__33_0();
 
-  /// @brief Method <.ctor>b__30_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void __ctor_b__30_1(T i);
+  /// @brief Method <.ctor>b__33_1, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void __ctor_b__33_1(T i);
 
-  /// @brief Method <.ctor>b__30_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void __ctor_b__30_2(T i);
+  /// @brief Method <.ctor>b__33_2, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void __ctor_b__33_2(T i);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* getStaticF___9();
 
-  static inline ::System::Func_1<T>* getStaticF___9__30_0();
+  static inline ::System::Func_1<T>* getStaticF___9__33_0();
 
-  static inline ::System::Action_1<T>* getStaticF___9__30_1();
+  static inline ::System::Action_1<T>* getStaticF___9__33_1();
 
-  static inline ::System::Action_1<T>* getStaticF___9__30_2();
+  static inline ::System::Action_1<T>* getStaticF___9__33_2();
 
   static inline void setStaticF___9(::UnityEngine::UIElements::VerticalVirtualizationController_1___c<T>* value);
 
-  static inline void setStaticF___9__30_0(::System::Func_1<T>* value);
+  static inline void setStaticF___9__33_0(::System::Func_1<T>* value);
 
-  static inline void setStaticF___9__30_1(::System::Action_1<T>* value);
+  static inline void setStaticF___9__33_1(::System::Action_1<T>* value);
 
-  static inline void setStaticF___9__30_2(::System::Action_1<T>* value);
+  static inline void setStaticF___9__33_2(::System::Action_1<T>* value);
 
 protected:
   // Ctor Parameters []
@@ -117,13 +124,13 @@ public:
   VerticalVirtualizationController_1___c(VerticalVirtualizationController_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5492 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4099 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.UIElements.CollectionVirtualizationController
+// Dependencies System.Nullable`1<T>, UnityEngine.UIElements.CollectionVirtualizationController
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -154,26 +161,36 @@ public:
   /// @brief Field m_CollectionView, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CollectionView, put = __cordl_internal_set_m_CollectionView)) ::UnityEngine::UIElements::BaseVerticalCollectionView* m_CollectionView;
 
+  /// @brief Field m_DeferredScrollToItemIndex, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_DeferredScrollToItemIndex, put = __cordl_internal_set_m_DeferredScrollToItemIndex)) ::System::Nullable_1<int32_t> m_DeferredScrollToItemIndex;
+
   /// @brief Field m_DraggedItem, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_DraggedItem, put = __cordl_internal_set_m_DraggedItem)) T m_DraggedItem;
 
-  /// @brief Field m_EmptyRows, offset 0x58, size 0x8
+  /// @brief Field m_EmptyRows, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get_m_EmptyRows, put = __cordl_internal_set_m_EmptyRows)) ::UnityEngine::UIElements::VisualElement* m_EmptyRows;
 
-  /// @brief Field m_LastFocusedElementIndex, offset 0x38, size 0x4
+  /// @brief Field m_LastFocusedElementIndex, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_LastFocusedElementIndex, put = __cordl_internal_set_m_LastFocusedElementIndex)) int32_t m_LastFocusedElementIndex;
 
-  /// @brief Field m_LastFocusedElementTreeChildIndexes, offset 0x40, size 0x8
+  /// @brief Field m_LastFocusedElementTreeChildIndexes, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LastFocusedElementTreeChildIndexes,
                       put = __cordl_internal_set_m_LastFocusedElementTreeChildIndexes)) ::System::Collections::Generic::List_1<int32_t>* m_LastFocusedElementTreeChildIndexes;
+
+  /// @brief Field m_PerformDeferredScrollToItem, offset 0x40, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_PerformDeferredScrollToItem, put = __cordl_internal_set_m_PerformDeferredScrollToItem)) ::System::Action* m_PerformDeferredScrollToItem;
 
   /// @brief Field m_Pool, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Pool, put = __cordl_internal_set_m_Pool)) ::UnityEngine::Pool::ObjectPool_1<T>* m_Pool;
 
-  /// @brief Field m_ScrollInsertionList, offset 0x50, size 0x8
+  /// @brief Field m_ScheduleDeferredScrollToItem, offset 0x48, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ScheduleDeferredScrollToItem,
+                      put = __cordl_internal_set_m_ScheduleDeferredScrollToItem)) ::UnityEngine::UIElements::IVisualElementScheduledItem* m_ScheduleDeferredScrollToItem;
+
+  /// @brief Field m_ScrollInsertionList, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ScrollInsertionList, put = __cordl_internal_set_m_ScrollInsertionList)) ::System::Collections::Generic::List_1<T>* m_ScrollInsertionList;
 
-  /// @brief Field m_VisibleItemPredicateDelegate, offset 0x48, size 0x8
+  /// @brief Field m_VisibleItemPredicateDelegate, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_m_VisibleItemPredicateDelegate, put = __cordl_internal_set_m_VisibleItemPredicateDelegate)) ::System::Func_2<T, bool>* m_VisibleItemPredicateDelegate;
 
   __declspec(property(get = get_serializedData)) ::UnityEngine::UIElements::SerializedVirtualizationData* serializedData;
@@ -194,14 +211,17 @@ public:
 
   static inline ::UnityEngine::UIElements::VerticalVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
 
-  /// @brief Method OnBlur, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void OnBlur(::UnityEngine::UIElements::VisualElement* willFocus);
-
   /// @brief Method OnDestroyItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnDestroyItem(::UnityEngine::UIElements::ReusableCollectionItem* item);
 
-  /// @brief Method OnFocus, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void OnFocus(::UnityEngine::UIElements::VisualElement* leafTarget);
+  /// @brief Method OnFocusIn, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnFocusIn(::UnityEngine::UIElements::VisualElement* leafTarget);
+
+  /// @brief Method OnFocusOut, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void OnFocusOut(::UnityEngine::UIElements::VisualElement* willFocus);
+
+  /// @brief Method PerformDeferredScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void PerformDeferredScrollToItem();
 
   /// @brief Method Refresh, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Refresh(bool rebuild);
@@ -209,11 +229,20 @@ public:
   /// @brief Method ReleaseItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void ReleaseItem(int32_t activeItemsIndex);
 
+  /// @brief Method ScheduleDeferredScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void ScheduleDeferredScrollToItem();
+
   /// @brief Method Setup, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Setup(T recycledItem, int32_t newIndex);
 
+  /// @brief Method ShouldDeferScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool ShouldDeferScrollToItem(int32_t index);
+
   /// @brief Method StartDragItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void StartDragItem(::UnityEngine::UIElements::ReusableCollectionItem* item);
+
+  /// @brief Method UnbindAll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void UnbindAll();
 
   /// @brief Method UpdateBackground, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateBackground();
@@ -228,6 +257,10 @@ public:
   constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView* const& __cordl_internal_get_m_CollectionView() const;
 
   constexpr ::UnityEngine::UIElements::BaseVerticalCollectionView*& __cordl_internal_get_m_CollectionView();
+
+  constexpr ::System::Nullable_1<int32_t> const& __cordl_internal_get_m_DeferredScrollToItemIndex() const;
+
+  constexpr ::System::Nullable_1<int32_t>& __cordl_internal_get_m_DeferredScrollToItemIndex();
 
   constexpr T const& __cordl_internal_get_m_DraggedItem() const;
 
@@ -245,9 +278,17 @@ public:
 
   constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_LastFocusedElementTreeChildIndexes();
 
+  constexpr ::System::Action* const& __cordl_internal_get_m_PerformDeferredScrollToItem() const;
+
+  constexpr ::System::Action*& __cordl_internal_get_m_PerformDeferredScrollToItem();
+
   constexpr ::UnityEngine::Pool::ObjectPool_1<T>* const& __cordl_internal_get_m_Pool() const;
 
   constexpr ::UnityEngine::Pool::ObjectPool_1<T>*& __cordl_internal_get_m_Pool();
+
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& __cordl_internal_get_m_ScheduleDeferredScrollToItem() const;
+
+  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_ScheduleDeferredScrollToItem();
 
   constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_m_ScrollInsertionList() const;
 
@@ -261,6 +302,8 @@ public:
 
   constexpr void __cordl_internal_set_m_CollectionView(::UnityEngine::UIElements::BaseVerticalCollectionView* value);
 
+  constexpr void __cordl_internal_set_m_DeferredScrollToItemIndex(::System::Nullable_1<int32_t> value);
+
   constexpr void __cordl_internal_set_m_DraggedItem(T value);
 
   constexpr void __cordl_internal_set_m_EmptyRows(::UnityEngine::UIElements::VisualElement* value);
@@ -269,7 +312,11 @@ public:
 
   constexpr void __cordl_internal_set_m_LastFocusedElementTreeChildIndexes(::System::Collections::Generic::List_1<int32_t>* value);
 
+  constexpr void __cordl_internal_set_m_PerformDeferredScrollToItem(::System::Action* value);
+
   constexpr void __cordl_internal_set_m_Pool(::UnityEngine::Pool::ObjectPool_1<T>* value);
+
+  constexpr void __cordl_internal_set_m_ScheduleDeferredScrollToItem(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
   constexpr void __cordl_internal_set_m_ScrollInsertionList(::System::Collections::Generic::List_1<T>* value);
 
@@ -323,7 +370,7 @@ public:
   VerticalVirtualizationController_1(VerticalVirtualizationController_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5493 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4100 };
 
   /// @brief Field m_Pool, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::Pool::ObjectPool_1<T>* ___m_Pool;
@@ -337,19 +384,28 @@ public:
   /// @brief Field m_DraggedItem, offset: 0x30, size: 0x8, def value: None
   T ___m_DraggedItem;
 
-  /// @brief Field m_LastFocusedElementIndex, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field m_DeferredScrollToItemIndex, offset: 0x38, size: 0x8, def value: None
+  ::System::Nullable_1<int32_t> ___m_DeferredScrollToItemIndex;
+
+  /// @brief Field m_PerformDeferredScrollToItem, offset: 0x40, size: 0x8, def value: None
+  ::System::Action* ___m_PerformDeferredScrollToItem;
+
+  /// @brief Field m_ScheduleDeferredScrollToItem, offset: 0x48, size: 0x8, def value: None
+  ::UnityEngine::UIElements::IVisualElementScheduledItem* ___m_ScheduleDeferredScrollToItem;
+
+  /// @brief Field m_LastFocusedElementIndex, offset: 0x50, size: 0x4, def value: None
   int32_t ___m_LastFocusedElementIndex;
 
-  /// @brief Field m_LastFocusedElementTreeChildIndexes, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field m_LastFocusedElementTreeChildIndexes, offset: 0x58, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<int32_t>* ___m_LastFocusedElementTreeChildIndexes;
 
-  /// @brief Field m_VisibleItemPredicateDelegate, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field m_VisibleItemPredicateDelegate, offset: 0x60, size: 0x8, def value: None
   ::System::Func_2<T, bool>* ___m_VisibleItemPredicateDelegate;
 
-  /// @brief Field m_ScrollInsertionList, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field m_ScrollInsertionList, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<T>* ___m_ScrollInsertionList;
 
-  /// @brief Field m_EmptyRows, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field m_EmptyRows, offset: 0x70, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_EmptyRows;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

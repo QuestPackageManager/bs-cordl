@@ -12,8 +12,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::EnvironmentEffectsFilterPreset, ::StringW>*>* (
         ::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(&::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::GetNamedValues)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c13380;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x580aa94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::*)()>(
     &::GlobalNamespace::EnvironmentEffectsFilterPresetDropdown::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c134a8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x580abc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

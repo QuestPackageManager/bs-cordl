@@ -31,7 +31,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MirroredBombNoteController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ae9fac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c5e58, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -49,7 +49,7 @@ public:
   MirroredBombNoteController_Pool(MirroredBombNoteController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5670 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -68,7 +68,7 @@ public:
 
   static inline ::GlobalNamespace::MirroredBombNoteController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ae9f64, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c5e0c, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -86,7 +86,7 @@ public:
   MirroredBombNoteController(MirroredBombNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5671 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

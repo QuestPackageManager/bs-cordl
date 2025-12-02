@@ -20,9 +20,6 @@ struct FileSystemEntry___fileNameBuffer_e__FixedBuffer;
 namespace System::IO {
 struct FileAttributes;
 }
-namespace System::IO {
-class FileSystemInfo;
-}
 namespace System {
 template <typename T> struct ReadOnlySpan_1;
 }
@@ -55,7 +52,7 @@ public:
   constexpr FileSystemEntry___fileNameBuffer_e__FixedBuffer(char16_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3647 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3925 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x200 };
@@ -99,48 +96,42 @@ public:
 
   __declspec(property(get = get_RootDirectory, put = set_RootDirectory)) ::System::ReadOnlySpan_1<char16_t> RootDirectory;
 
-  /// @brief Method Initialize, addr 0x3d847d8, size 0x27c, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5a0c3dc, size 0x2e0, virtual false, abstract: false, final false
   static inline ::System::IO::FileAttributes Initialize(::ByRef<::System::IO::Enumeration::FileSystemEntry> entry, ::GlobalNamespace::Sys_Interop_DirectoryEntry directoryEntry,
                                                         ::System::ReadOnlySpan_1<char16_t> directory, ::System::ReadOnlySpan_1<char16_t> rootDirectory,
                                                         ::System::ReadOnlySpan_1<char16_t> originalRootDirectory, ::System::Span_1<char16_t> pathBuffer);
 
-  /// @brief Method ToFileSystemInfo, addr 0x3d84c98, size 0x70, virtual false, abstract: false, final false
-  inline ::System::IO::FileSystemInfo* ToFileSystemInfo();
-
-  /// @brief Method ToFullPath, addr 0x3d84d08, size 0x28, virtual false, abstract: false, final false
-  inline ::StringW ToFullPath();
-
-  /// @brief Method ToSpecifiedFullPath, addr 0x3d84d30, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ToSpecifiedFullPath, addr 0x5a0c93c, size 0x194, virtual false, abstract: false, final false
   inline ::StringW ToSpecifiedFullPath();
 
-  /// @brief Method get_Attributes, addr 0x3d84c48, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_Attributes, addr 0x5a0c8ec, size 0x48, virtual false, abstract: false, final false
   inline ::System::IO::FileAttributes get_Attributes();
 
-  /// @brief Method get_Directory, addr 0x3d84bf4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_Directory, addr 0x5a0c898, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_Directory();
 
-  /// @brief Method get_FileName, addr 0x3d84b84, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method get_FileName, addr 0x5a0c818, size 0x80, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_FileName();
 
-  /// @brief Method get_FullPath, addr 0x3d84a54, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method get_FullPath, addr 0x5a0c6bc, size 0x15c, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_FullPath();
 
-  /// @brief Method get_IsDirectory, addr 0x3d84c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDirectory, addr 0x5a0c934, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsDirectory();
 
-  /// @brief Method get_OriginalRootDirectory, addr 0x3d84c2c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_OriginalRootDirectory, addr 0x5a0c8d0, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_OriginalRootDirectory();
 
-  /// @brief Method get_RootDirectory, addr 0x3d84c10, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_RootDirectory, addr 0x5a0c8b4, size 0x10, virtual false, abstract: false, final false
   inline ::System::ReadOnlySpan_1<char16_t> get_RootDirectory();
 
-  /// @brief Method set_Directory, addr 0x3d84c04, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_Directory, addr 0x5a0c8a8, size 0xc, virtual false, abstract: false, final false
   inline void set_Directory(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method set_OriginalRootDirectory, addr 0x3d84c3c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_OriginalRootDirectory, addr 0x5a0c8e0, size 0xc, virtual false, abstract: false, final false
   inline void set_OriginalRootDirectory(::System::ReadOnlySpan_1<char16_t> value);
 
-  /// @brief Method set_RootDirectory, addr 0x3d84c20, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_RootDirectory, addr 0x5a0c8c4, size 0xc, virtual false, abstract: false, final false
   inline void set_RootDirectory(::System::ReadOnlySpan_1<char16_t> value);
 
   // Ctor Parameters []
@@ -161,7 +152,7 @@ public:
                             ::System::ReadOnlySpan_1<char16_t> _OriginalRootDirectory_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3648 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2f0 };

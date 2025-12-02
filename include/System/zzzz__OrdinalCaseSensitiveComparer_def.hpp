@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__OrdinalComparer_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrdinalCaseSensitiveComparer)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -20,7 +22,7 @@ class OrdinalCaseSensitiveComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::OrdinalCaseSensitiveComparer);
-// Dependencies System.OrdinalComparer, System.Runtime.Serialization.ISerializable
+// Dependencies System.OrdinalComparer
 namespace System {
 // Is value type: false
 // CS Name: System.OrdinalCaseSensitiveComparer
@@ -30,21 +32,21 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x3e01854, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5a47e90, size 0x10, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x3e01864, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a47ea0, size 0x10, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x3e01874, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a47eb0, size 0x24, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
-  /// @brief Method GetObjectData, addr 0x3e0189c, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5a47ed4, size 0xa4, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::OrdinalCaseSensitiveComparer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3e00fc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a475d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
@@ -65,7 +67,7 @@ public:
   OrdinalCaseSensitiveComparer(OrdinalCaseSensitiveComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2476 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2482 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

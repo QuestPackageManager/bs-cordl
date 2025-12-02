@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::AlertLevel (::Mono::Security::Interface::Alert::*)()>(
     &::Mono::Security::Interface::Alert::get_Level)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c45c54;
+  constexpr static std::size_t addrs = 0x58887e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::Alert*>::get(), "get_Level",
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Security::Interface::AlertDescription (::Mono::Security::Interface::Alert::*)()>(
     &::Mono::Security::Interface::Alert::get_Description)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c45c5c;
+  constexpr static std::size_t addrs = 0x58887f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::Alert*>::get(), "get_Description",
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::Alert::*)(::Mono::Security::Interface::AlertDescription)>(
     &::Mono::Security::Interface::Alert::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c45c64;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x58887f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Security::Interface::Alert::*)()>(&::Mono::Security::Interface::Alert::inferAlertLevel)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3c45cd0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5888848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Security::Interface::Alert*>::get(), "inferAlertLevel",
@@ -66,8 +66,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Security::Interface::Alert::*)()>(&::Mono::Security::Interface::Alert::ToString)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x3c45d10;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x588888c;
 
   inline static ::MethodInfo const* methodInfo() {
 

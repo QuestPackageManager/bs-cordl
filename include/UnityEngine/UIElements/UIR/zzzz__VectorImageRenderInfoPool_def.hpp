@@ -46,13 +46,13 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c* New_ctor();
 
-  /// @brief Method <.ctor>b__0_0, addr 0x49b468c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_0, addr 0x6ac1620, size 0x78, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfo* __ctor_b__0_0();
 
-  /// @brief Method <.ctor>b__0_1, addr 0x49b4724, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__0_1, addr 0x6ac16d4, size 0x1c, virtual false, abstract: false, final false
   inline void __ctor_b__0_1(::UnityEngine::UIElements::UIR::VectorImageRenderInfo* vectorImageInfo);
 
-  /// @brief Method .ctor, addr 0x49b4684, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac161c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool___c* getStaticF___9();
@@ -82,7 +82,7 @@ public:
   VectorImageRenderInfoPool___c(VectorImageRenderInfoPool___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -101,7 +101,7 @@ public:
 
   static inline ::UnityEngine::UIElements::UIR::VectorImageRenderInfoPool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x49b44a4, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac1434, size 0x194, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -119,7 +119,7 @@ public:
   VectorImageRenderInfoPool(VectorImageRenderInfoPool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5361 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

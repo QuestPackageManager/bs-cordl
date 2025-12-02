@@ -39,7 +39,7 @@ public:
 
   static inline ::System::Runtime::Remoting::WellKnownClientTypeEntry* New_ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method ToString, addr 0x3cd7894, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x591a680, size 0x24, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::StringW const& __cordl_internal_get_app_url() const;
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_obj_url(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cd7754, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591a580, size 0xe8, virtual false, abstract: false, final false
   inline void _ctor(::StringW typeName, ::StringW assemblyName, ::StringW objectUrl);
 
-  /// @brief Method get_ApplicationUrl, addr 0x3cd787c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ApplicationUrl, addr 0x591a668, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ApplicationUrl();
 
-  /// @brief Method get_ObjectType, addr 0x3cd7884, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x591a670, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method get_ObjectUrl, addr 0x3cd788c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectUrl, addr 0x591a678, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_ObjectUrl();
 
 protected:
@@ -87,7 +87,7 @@ public:
   WellKnownClientTypeEntry(WellKnownClientTypeEntry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3080 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3097 };
 
   /// @brief Field obj_type, offset: 0x20, size: 0x8, def value: None
   ::System::Type* ___obj_type;

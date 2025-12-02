@@ -25,27 +25,27 @@ public:
   /// @brief Field RandomSource, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_RandomSource, put = setStaticF_RandomSource)) ::Org::BouncyCastle::Security::SecureRandom* RandomSource;
 
-  /// @brief Method Add, addr 0x24de574, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x340dc90, size 0x4c, virtual false, abstract: false, final false
   static inline void Add(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionResult, addr 0x24de2ec, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method InversionResult, addr 0x340d9f8, size 0x4c, virtual false, abstract: false, final false
   static inline void InversionResult(::ArrayW<uint32_t, ::Array<uint32_t>*> p, int32_t ac, ::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method InversionStep, addr 0x24de1c0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method InversionStep, addr 0x340d8bc, size 0x13c, virtual false, abstract: false, final false
   static inline void InversionStep(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> u, int32_t uLen, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ByRef<int32_t> xc);
 
-  /// @brief Method Invert, addr 0x24ddc64, size 0x3ac, virtual false, abstract: false, final false
+  /// @brief Method Invert, addr 0x340d350, size 0x3b4, virtual false, abstract: false, final false
   static inline void Invert(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
   static inline ::Org::BouncyCastle::Math::Raw::Mod* New_ctor();
 
-  /// @brief Method Random, addr 0x24de41c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Random, addr 0x340db38, size 0x158, virtual false, abstract: false, final false
   static inline ::ArrayW<uint32_t, ::Array<uint32_t>*> Random(::ArrayW<uint32_t, ::Array<uint32_t>*> p);
 
-  /// @brief Method Subtract, addr 0x24de654, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Subtract, addr 0x340dd70, size 0x4c, virtual false, abstract: false, final false
   static inline void Subtract(::ArrayW<uint32_t, ::Array<uint32_t>*> p, ::ArrayW<uint32_t, ::Array<uint32_t>*> x, ::ArrayW<uint32_t, ::Array<uint32_t>*> y, ::ArrayW<uint32_t, ::Array<uint32_t>*> z);
 
-  /// @brief Method .ctor, addr 0x24de934, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340e06c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Security::SecureRandom* getStaticF_RandomSource();

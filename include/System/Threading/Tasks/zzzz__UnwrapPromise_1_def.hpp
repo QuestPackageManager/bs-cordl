@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/Tasks/zzzz__ITaskCompletionAction_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnwrapPromise_1)
+namespace System::Threading::Tasks {
+class ITaskCompletionAction;
+}
 namespace System::Threading::Tasks {
 class Task;
 }
@@ -76,13 +78,13 @@ public:
   UnwrapPromise_1___c(UnwrapPromise_1___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2799 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2812 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace System::Threading::Tasks
-// Dependencies System.Threading.Tasks.ITaskCompletionAction, System.Threading.Tasks.Task`1<TResult>
+// Dependencies System.Threading.Tasks.Task`1<TResult>
 namespace System::Threading::Tasks {
 // cpp template
 template <typename TResult>
@@ -160,7 +162,7 @@ public:
   UnwrapPromise_1(UnwrapPromise_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2800 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2813 };
 
   /// @brief Field _state, offset: 0x58, size: 0x1, def value: None
   uint8_t ____state;

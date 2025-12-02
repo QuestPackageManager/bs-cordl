@@ -4,9 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_def.hpp"
-#include "System/zzzz__IAsyncDisposable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(CancellationTokenRegistration)
@@ -20,6 +17,15 @@ namespace System::Threading {
 template <typename T> struct SparselyPopulatedArrayAddInfo_1;
 }
 namespace System {
+class IAsyncDisposable;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -28,7 +34,7 @@ struct CancellationTokenRegistration;
 }
 // Write type traits
 MARK_VAL_T(::System::Threading::CancellationTokenRegistration);
-// Dependencies System.IAsyncDisposable, System.IDisposable, System.IEquatable`1<T>, System.Threading.SparselyPopulatedArrayAddInfo`1<T>
+// Dependencies System.Threading.SparselyPopulatedArrayAddInfo`1<T>
 namespace System::Threading {
 // Is value type: true
 // CS Name: System.Threading.CancellationTokenRegistration
@@ -44,25 +50,25 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>"
   constexpr operator ::System::IEquatable_1<::System::Threading::CancellationTokenRegistration>*();
 
-  /// @brief Method Dispose, addr 0x3e4fa24, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5a94ea8, size 0x84, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3e4fd10, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method DisposeAsync, addr 0x5a9517c, size 0x94, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::ValueTask DisposeAsync();
 
-  /// @brief Method Equals, addr 0x3e4fb74, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a94fd8, size 0x94, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3e4fc04, size 0x80, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5a9506c, size 0x98, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::CancellationTokenRegistration other);
 
-  /// @brief Method GetHashCode, addr 0x3e4fc84, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a95104, size 0x78, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Unregister, addr 0x3e4f9a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method Unregister, addr 0x5a94e18, size 0x90, virtual false, abstract: false, final false
   inline bool Unregister();
 
-  /// @brief Method .ctor, addr 0x3e4f99c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a94e0c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::CancellationCallbackInfo* callbackInfo, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> registrationInfo);
 
   /// @brief Convert to "::System::IAsyncDisposable"
@@ -84,7 +90,7 @@ public:
                                           ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*> m_registrationInfo) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2686 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2695 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

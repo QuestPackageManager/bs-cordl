@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::Zenject::InjectableInfo::*)(bool, ::System::Object*, ::StringW, ::System::Type*, ::System::Object*, ::Zenject::InjectSources)>(&::Zenject::InjectableInfo::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4af27c4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c08b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

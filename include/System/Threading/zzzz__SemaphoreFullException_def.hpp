@@ -28,10 +28,10 @@ public:
 
   static inline ::System::Threading::SemaphoreFullException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e4d1c8, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9265c, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e4d214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a926ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
 protected:
@@ -49,7 +49,7 @@ public:
   SemaphoreFullException(SemaphoreFullException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2670 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2679 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

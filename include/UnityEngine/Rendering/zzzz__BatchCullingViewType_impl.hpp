@@ -12,3 +12,4 @@ constexpr ::UnityEngine::Rendering::BatchCullingViewType UnityEngine::Rendering:
 constexpr ::UnityEngine::Rendering::BatchCullingViewType UnityEngine::Rendering::BatchCullingViewType::Light{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::BatchCullingViewType UnityEngine::Rendering::BatchCullingViewType::Picking{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::BatchCullingViewType UnityEngine::Rendering::BatchCullingViewType::SelectionOutline{ static_cast<int32_t>(0x4) };
+constexpr ::UnityEngine::Rendering::BatchCullingViewType UnityEngine::Rendering::BatchCullingViewType::Filtering{ static_cast<int32_t>(0x5) };

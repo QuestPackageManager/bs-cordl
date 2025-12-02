@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IRichPresenceData_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(BrowsingMenusRichPresenceData)
+namespace GlobalNamespace {
+class IRichPresenceData;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class BrowsingMenusRichPresenceData;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BrowsingMenusRichPresenceData);
-// Dependencies IRichPresenceData, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BrowsingMenusRichPresenceData
@@ -38,13 +40,13 @@ public:
 
   constexpr void __cordl_internal_set__localizedDescription(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3b2cc28, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570da90, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_apiName, addr 0x3b2cb90, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_apiName, addr 0x570d9f0, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_apiName();
 
-  /// @brief Method get_localizedDescription, addr 0x3b2cbd0, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_localizedDescription, addr 0x570da34, size 0x5c, virtual true, abstract: false, final true
   inline ::StringW get_localizedDescription();
 
   /// @brief Convert to "::GlobalNamespace::IRichPresenceData"
@@ -65,7 +67,7 @@ public:
   BrowsingMenusRichPresenceData(BrowsingMenusRichPresenceData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5158 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6732 };
 
   /// @brief Field kBrowsingMenusRichPresenceLocalizationKey offset 0xffffffff size 0x8
   static constexpr ::ConstString kBrowsingMenusRichPresenceLocalizationKey{ u"BROWSING_MENUS_PRESENCE" };

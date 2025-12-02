@@ -8,7 +8,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (*)()>(&::System::Diagnostics::Stopwatch::GetTimestamp)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x442bd8c;
+  constexpr static std::size_t addrs = 0x617ad34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "GetTimestamp",
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::Stopwatch* (*)()>(&::System::Diagnostics::Stopwatch::StartNew)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4432a90;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6182c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "StartNew",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4432af4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6182ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), ".ctor",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::TimeSpan (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_Elapsed)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4432b64;
+  constexpr static std::size_t addrs = 0x6182d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "get_Elapsed",
@@ -59,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_ElapsedMilliseconds)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x4432ccc;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x6182ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(),
@@ -72,8 +72,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_ElapsedTicks)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4432c5c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6182e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "get_ElapsedTicks",
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::get_IsRunning)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4432e10;
+  constexpr static std::size_t addrs = 0x618302c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "get_IsRunning",
@@ -99,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4432e18;
+  constexpr static std::size_t addrs = 0x6183034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "Reset",
@@ -111,8 +111,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Start)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4432afc;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x6182cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "Start",
@@ -124,11 +124,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Stop)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4432e24;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6183040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "Stop",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::Stopwatch.Restart
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::Stopwatch::*)()>(&::System::Diagnostics::Stopwatch::Restart)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x61830bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "Restart",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -228,6 +241,11 @@ inline void System::Diagnostics::Stopwatch::Start() {
 }
 inline void System::Diagnostics::Stopwatch::Stop() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "Stop",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void System::Diagnostics::Stopwatch::Restart() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::Stopwatch*>::get(), "Restart",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }

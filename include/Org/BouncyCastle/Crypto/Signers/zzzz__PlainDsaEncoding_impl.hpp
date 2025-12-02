@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Signers/PlainDsaEncoding.hpp"
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Signers/zzzz__PlainDsaEncoding_def.hpp"
+#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaEncoding_def.hpp"
 #include "Org/BouncyCastle/Math/zzzz__BigInteger_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding.Decode
 template <>
@@ -10,8 +10,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> (
     ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::Decode)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x23da7ec;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x3308a54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(&::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::Encode)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x23da980;
+  constexpr static std::size_t addrs = 0x3308bec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,7 +44,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*)>(
         &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::CheckValue)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x23daa4c;
+  constexpr static std::size_t addrs = 0x3308cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +60,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (
     ::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::DecodeValue)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x23daae4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3308d50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,8 +77,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)(
     ::Org::BouncyCastle::Math::BigInteger*, ::Org::BouncyCastle::Math::BigInteger*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::EncodeValue)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x23dab7c;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x3308dec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::*)()>(
     &::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23dacfc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3308f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Signers::PlainDsaEncoding*>::get(),

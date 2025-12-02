@@ -101,15 +101,15 @@ public:
   /// @brief Field use, offset 0x6c, size 0x4
   __declspec(property(get = __cordl_internal_get_use, put = __cordl_internal_set_use)) ::System::Xml::Schema::XmlSchemaUse use;
 
-  /// @brief Method Clone, addr 0x42ba0dc, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x60103f4, size 0xec, virtual true, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaObject* Clone();
 
   static inline ::System::Xml::Schema::XmlSchemaAttribute* New_ctor();
 
-  /// @brief Method SetAttributeType, addr 0x42ba0b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetAttributeType, addr 0x60103cc, size 0x8, virtual false, abstract: false, final false
   inline void SetAttributeType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method SetQualifiedName, addr 0x42ba0ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetQualifiedName, addr 0x60103c4, size 0x8, virtual false, abstract: false, final false
   inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
 
   constexpr ::System::Xml::Schema::SchemaAttDef* const& __cordl_internal_get_attDef() const;
@@ -178,76 +178,76 @@ public:
 
   constexpr void __cordl_internal_set_use(::System::Xml::Schema::XmlSchemaUse value);
 
-  /// @brief Method .ctor, addr 0x42ba1ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60104e0, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_AttDef, addr 0x42ba0bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttDef, addr 0x60103d4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::SchemaAttDef* get_AttDef();
 
-  /// @brief Method get_AttributeSchemaType, addr 0x42ba08c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AttributeSchemaType, addr 0x60103a4, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_AttributeSchemaType();
 
-  /// @brief Method get_Datatype, addr 0x42ba094, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_Datatype, addr 0x60103ac, size 0x18, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaDatatype* get_Datatype();
 
-  /// @brief Method get_DefaultValue, addr 0x42b9ee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultValue, addr 0x6010204, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_DefaultValue();
 
-  /// @brief Method get_FixedValue, addr 0x42b9ef4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_FixedValue, addr 0x6010214, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_FixedValue();
 
-  /// @brief Method get_Form, addr 0x42b9f04, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Form, addr 0x6010224, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaForm get_Form();
 
-  /// @brief Method get_Name, addr 0x42b9f14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x6010234, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_NameAttribute, addr 0x42ba0cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameAttribute, addr 0x60103e4, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_NameAttribute();
 
-  /// @brief Method get_QualifiedName, addr 0x42ba084, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_QualifiedName, addr 0x601039c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
 
-  /// @brief Method get_RefName, addr 0x42b9f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RefName, addr 0x6010244, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_RefName();
 
-  /// @brief Method get_SchemaType, addr 0x42ba064, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaType, addr 0x601037c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaSimpleType* get_SchemaType();
 
-  /// @brief Method get_SchemaTypeName, addr 0x42b9fc4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SchemaTypeName, addr 0x60102e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::XmlQualifiedName* get_SchemaTypeName();
 
-  /// @brief Method get_Use, addr 0x42ba074, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Use, addr 0x601038c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaUse get_Use();
 
-  /// @brief Method set_AttDef, addr 0x42ba0c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AttDef, addr 0x60103dc, size 0x8, virtual false, abstract: false, final false
   inline void set_AttDef(::System::Xml::Schema::SchemaAttDef* value);
 
-  /// @brief Method set_DefaultValue, addr 0x42b9eec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_DefaultValue, addr 0x601020c, size 0x8, virtual false, abstract: false, final false
   inline void set_DefaultValue(::StringW value);
 
-  /// @brief Method set_FixedValue, addr 0x42b9efc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FixedValue, addr 0x601021c, size 0x8, virtual false, abstract: false, final false
   inline void set_FixedValue(::StringW value);
 
-  /// @brief Method set_Form, addr 0x42b9f0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Form, addr 0x601022c, size 0x8, virtual false, abstract: false, final false
   inline void set_Form(::System::Xml::Schema::XmlSchemaForm value);
 
-  /// @brief Method set_Name, addr 0x42b9f1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x601023c, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
-  /// @brief Method set_NameAttribute, addr 0x42ba0d4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_NameAttribute, addr 0x60103ec, size 0x8, virtual true, abstract: false, final false
   inline void set_NameAttribute(::StringW value);
 
-  /// @brief Method set_RefName, addr 0x42b9f2c, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_RefName, addr 0x601024c, size 0x94, virtual false, abstract: false, final false
   inline void set_RefName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_SchemaType, addr 0x42ba06c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaType, addr 0x6010384, size 0x8, virtual false, abstract: false, final false
   inline void set_SchemaType(::System::Xml::Schema::XmlSchemaSimpleType* value);
 
-  /// @brief Method set_SchemaTypeName, addr 0x42b9fcc, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method set_SchemaTypeName, addr 0x60102e8, size 0x94, virtual false, abstract: false, final false
   inline void set_SchemaTypeName(::System::Xml::XmlQualifiedName* value);
 
-  /// @brief Method set_Use, addr 0x42ba07c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Use, addr 0x6010394, size 0x8, virtual false, abstract: false, final false
   inline void set_Use(::System::Xml::Schema::XmlSchemaUse value);
 
 protected:
@@ -265,7 +265,7 @@ public:
   XmlSchemaAttribute(XmlSchemaAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9720 };
 
   /// @brief Field defaultValue, offset: 0x50, size: 0x8, def value: None
   ::StringW ___defaultValue;

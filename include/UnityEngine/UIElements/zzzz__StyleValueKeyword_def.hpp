@@ -30,6 +30,8 @@ public:
     __E_True = static_cast<int32_t>(0x4),
     __E_False = static_cast<int32_t>(0x5),
     __E_None = static_cast<int32_t>(0x6),
+    __E_Cover = static_cast<int32_t>(0x7),
+    __E_Contain = static_cast<int32_t>(0x8),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,6 +54,12 @@ public:
   /// @brief Field Auto value: I32(2)
   static ::UnityEngine::UIElements::StyleValueKeyword const Auto;
 
+  /// @brief Field Contain value: I32(8)
+  static ::UnityEngine::UIElements::StyleValueKeyword const Contain;
+
+  /// @brief Field Cover value: I32(7)
+  static ::UnityEngine::UIElements::StyleValueKeyword const Cover;
+
   /// @brief Field False value: I32(5)
   static ::UnityEngine::UIElements::StyleValueKeyword const False;
 
@@ -71,7 +79,7 @@ public:
   static ::UnityEngine::UIElements::StyleValueKeyword const Unset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6185 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5075 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

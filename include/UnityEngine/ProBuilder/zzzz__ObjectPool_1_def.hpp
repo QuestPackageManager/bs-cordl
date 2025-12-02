@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ObjectPool_1)
@@ -16,13 +15,16 @@ template <typename T> class Action_1;
 namespace System {
 template <typename TResult> class Func_1;
 }
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace UnityEngine::ProBuilder {
 template <typename T> class ObjectPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::ObjectPool_1);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder {
 // cpp template
 template <typename T>
@@ -118,7 +120,7 @@ public:
   ObjectPool_1(ObjectPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14265 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16712 };
 
   /// @brief Field m_IsDisposed, offset: 0x10, size: 0x1, def value: None
   bool ___m_IsDisposed;

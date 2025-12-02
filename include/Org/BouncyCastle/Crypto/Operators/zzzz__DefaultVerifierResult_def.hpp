@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifier_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DefaultVerifierResult)
 namespace Org::BouncyCastle::Crypto {
 class ISigner;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifier;
 }
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Operators {
@@ -16,7 +18,7 @@ class DefaultVerifierResult;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult);
-// Dependencies Org.BouncyCastle.Crypto.IVerifier, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.DefaultVerifierResult
@@ -29,10 +31,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifier*() noexcept;
 
-  /// @brief Method IsVerified, addr 0x23b6ee0, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method IsVerified, addr 0x32e5148, size 0x8c, virtual true, abstract: false, final true
   inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> sig, int32_t sigOff, int32_t sigLen);
 
-  /// @brief Method IsVerified, addr 0x23b6e34, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method IsVerified, addr 0x32e5090, size 0xb8, virtual true, abstract: false, final true
   inline bool IsVerified(::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::DefaultVerifierResult* New_ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
@@ -43,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_mSigner(::Org::BouncyCastle::Crypto::ISigner* value);
 
-  /// @brief Method .ctor, addr 0x23b6e0c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e5088, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ISigner* signer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifier"

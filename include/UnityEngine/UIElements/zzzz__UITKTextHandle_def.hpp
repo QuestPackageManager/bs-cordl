@@ -6,38 +6,45 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__TextHandle_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include "beatsaber-hook/shared/utils/value-wrapper-type.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(UITKTextHandle)
+namespace System::Collections::Generic {
+template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2> struct ValueTuple_2;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
+}
 namespace UnityEngine::TextCore::Text {
 class FontAsset;
 }
 namespace UnityEngine::TextCore::Text {
-class TextGenerationSettings;
-}
-namespace UnityEngine::TextCore::Text {
-class TextInfo;
+struct RenderedText;
 }
 namespace UnityEngine::TextCore::Text {
 struct TextOverflowMode;
 }
-namespace UnityEngine::UIElements {
-class PointerDownEvent;
+namespace UnityEngine::TextCore {
+struct NativeTextGenerationSettings;
+}
+namespace UnityEngine::TextCore {
+struct RichTextTagParser_TagType;
 }
 namespace UnityEngine::UIElements {
-class PointerMoveEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerOutEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerOverEvent;
-}
-namespace UnityEngine::UIElements {
-class PointerUpEvent;
+class ATGTextEventHandler;
 }
 namespace UnityEngine::UIElements {
 class TextElement;
+}
+namespace UnityEngine::UIElements {
+class TextEventHandler;
+}
+namespace UnityEngine {
+class TextAsset;
 }
 namespace UnityEngine {
 struct Vector2;
@@ -55,86 +62,123 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UITKTextHandle : public ::UnityEngine::TextCore::Text::TextHandle {
 public:
   // Declarations
+  __declspec(property(get = get_ATGMeasuredSizes, put = set_ATGMeasuredSizes)) ::UnityEngine::Vector2 ATGMeasuredSizes;
+
+  __declspec(property(get = get_ATGRoundedSizes, put = set_ATGRoundedSizes)) ::UnityEngine::Vector2 ATGRoundedSizes;
+
+  __declspec(property(get = get_IsPlaceholder)) bool IsPlaceholder;
+
+  __declspec(property(get = get_Links)) ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* Links;
+
   __declspec(property(get = get_MeasuredSizes, put = set_MeasuredSizes)) ::UnityEngine::Vector2 MeasuredSizes;
 
   __declspec(property(get = get_RoundedSizes, put = set_RoundedSizes)) ::UnityEngine::Vector2 RoundedSizes;
 
-  /// @brief Field <MeasuredSizes>k__BackingField, offset 0x34, size 0x8
+  __declspec(property(get = get_TextLib)) Il2CppObject* TextLib;
+
+  /// @brief Field <ATGMeasuredSizes>k__BackingField, offset 0xd0, size 0x8
+  __declspec(property(get = __cordl_internal_get__ATGMeasuredSizes_k__BackingField,
+                      put = __cordl_internal_set__ATGMeasuredSizes_k__BackingField)) ::UnityEngine::Vector2 _ATGMeasuredSizes_k__BackingField;
+
+  /// @brief Field <ATGRoundedSizes>k__BackingField, offset 0xd8, size 0x8
+  __declspec(property(get = __cordl_internal_get__ATGRoundedSizes_k__BackingField,
+                      put = __cordl_internal_set__ATGRoundedSizes_k__BackingField)) ::UnityEngine::Vector2 _ATGRoundedSizes_k__BackingField;
+
+  /// @brief Field <MeasuredSizes>k__BackingField, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__MeasuredSizes_k__BackingField, put = __cordl_internal_set__MeasuredSizes_k__BackingField)) ::UnityEngine::Vector2 _MeasuredSizes_k__BackingField;
 
-  /// @brief Field <RoundedSizes>k__BackingField, offset 0x3c, size 0x8
+  /// @brief Field <RoundedSizes>k__BackingField, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__RoundedSizes_k__BackingField, put = __cordl_internal_set__RoundedSizes_k__BackingField)) ::UnityEngine::Vector2 _RoundedSizes_k__BackingField;
-
-  /// @brief Field currentLinkIDHash, offset 0x54, size 0x4
-  __declspec(property(get = __cordl_internal_get_currentLinkIDHash, put = __cordl_internal_set_currentLinkIDHash)) int32_t currentLinkIDHash;
-
-  /// @brief Field hasATag, offset 0x59, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasATag, put = __cordl_internal_set_hasATag)) bool hasATag;
-
-  /// @brief Field hasLinkTag, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_hasLinkTag, put = __cordl_internal_set_hasLinkTag)) bool hasLinkTag;
-
-  /// @brief Field isOverridingCursor, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_isOverridingCursor, put = __cordl_internal_set_isOverridingCursor)) bool isOverridingCursor;
 
   /// @brief Field k_MinPadding, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_k_MinPadding, put = setStaticF_k_MinPadding)) float_t k_MinPadding;
 
-  /// @brief Field m_TextElement, offset 0x48, size 0x8
+  /// @brief Field m_ATGTextEventHandler, offset 0xb0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_ATGTextEventHandler, put = __cordl_internal_set_m_ATGTextEventHandler)) ::UnityEngine::UIElements::ATGTextEventHandler* m_ATGTextEventHandler;
+
+  /// @brief Field m_Links, offset 0xb8, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get_m_Links,
+      put = __cordl_internal_set_m_Links)) ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* m_Links;
+
+  /// @brief Field m_TextElement, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_TextElement, put = __cordl_internal_set_m_TextElement)) ::UnityEngine::UIElements::TextElement* m_TextElement;
 
-  /// @brief Method ATagOnPointerMove, addr 0x4a9495c, size 0x2b8, virtual false, abstract: false, final false
-  inline void ATagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
+  /// @brief Field m_TextEventHandler, offset 0xe0, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_TextEventHandler, put = __cordl_internal_set_m_TextEventHandler)) ::UnityEngine::UIElements::TextEventHandler* m_TextEventHandler;
 
-  /// @brief Method ATagOnPointerOut, addr 0x4a94c14, size 0x8, virtual false, abstract: false, final false
-  inline void ATagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* _);
+  /// @brief Field s_TextLib, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_TextLib, put = setStaticF_s_TextLib)) Il2CppObject* s_TextLib;
 
-  /// @brief Method ATagOnPointerOver, addr 0x4a94954, size 0x8, virtual false, abstract: false, final false
-  inline void ATagOnPointerOver(::UnityEngine::UIElements::PointerOverEvent* _);
+  /// @brief Field wasAdvancedTextEnabledForElement, offset 0xf0, size 0x1
+  __declspec(property(get = __cordl_internal_get_wasAdvancedTextEnabledForElement, put = __cordl_internal_set_wasAdvancedTextEnabledForElement)) bool wasAdvancedTextEnabledForElement;
 
-  /// @brief Method ATagOnPointerUp, addr 0x4a947b8, size 0x19c, virtual false, abstract: false, final false
-  inline void ATagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
+  /// @brief Method ATGFindIntersectingLink, addr 0x6a6b3e4, size 0x178, virtual false, abstract: false, final false
+  inline ::System::ValueTuple_2<::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW> ATGFindIntersectingLink(::UnityEngine::Vector2 point);
 
-  /// @brief Method ComputeTextHeight, addr 0x4a93cec, size 0xac, virtual false, abstract: false, final false
-  inline float_t ComputeTextHeight(::StringW textToMeasure, float_t width, float_t height);
+  /// @brief Method AddTextInfoToPermanentCache, addr 0x6a6ed40, size 0x8c, virtual true, abstract: false, final false
+  inline void AddTextInfoToPermanentCache();
 
-  /// @brief Method ComputeTextWidth, addr 0x4a93928, size 0xbc, virtual false, abstract: false, final false
-  inline float_t ComputeTextWidth(::StringW textToMeasure, bool wordWrap, float_t width, float_t height);
+  /// @brief Method ComputeNativeTextSize, addr 0x6a6c7e8, size 0x1ec, virtual false, abstract: false, final false
+  inline void ComputeNativeTextSize(::ByRef<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height);
 
-  /// @brief Method ConvertUssToTextGenerationSettings, addr 0x4a939e4, size 0x308, virtual false, abstract: false, final false
-  inline void ConvertUssToTextGenerationSettings(::UnityEngine::TextCore::Text::TextGenerationSettings* tgs);
+  /// @brief Method ComputeSettingsAndUpdate, addr 0x6a6e638, size 0x38, virtual false, abstract: false, final false
+  inline void ComputeSettingsAndUpdate();
 
-  /// @brief Method GetTextEffectPadding, addr 0x4a95db8, size 0x1b0, virtual false, abstract: false, final false
-  inline float_t GetTextEffectPadding(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
+  /// @brief Method ComputeTextSize, addr 0x6a6e454, size 0xf0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 ComputeTextSize(::ByRef<::UnityEngine::TextCore::Text::RenderedText> textToMeasure, float_t width, float_t height);
 
-  /// @brief Method GetTextOverflowMode, addr 0x4a95a64, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ConvertUssToNativeTextGenerationSettings, addr 0x6a6c9d4, size 0xb60, virtual false, abstract: false, final false
+  inline bool ConvertUssToNativeTextGenerationSettings();
+
+  /// @brief Method ConvertUssToTextGenerationSettings, addr 0x6a6ee54, size 0x4c8, virtual true, abstract: false, final false
+  inline bool ConvertUssToTextGenerationSettings();
+
+  /// @brief Method GetICUAsset, addr 0x6a6df70, size 0x214, virtual false, abstract: false, final false
+  inline ::UnityW<::UnityEngine::TextAsset> GetICUAsset();
+
+  /// @brief Method GetICUAssetStaticFalback, addr 0x6a6e184, size 0xbc, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::TextAsset> GetICUAssetStaticFalback();
+
+  /// @brief Method GetTextOverflowMode, addr 0x6a6edcc, size 0x88, virtual false, abstract: false, final false
   inline ::UnityEngine::TextCore::Text::TextOverflowMode GetTextOverflowMode();
 
-  /// @brief Method HandleATag, addr 0x4a93e80, size 0x528, virtual false, abstract: false, final false
+  /// @brief Method GetVertexPadding, addr 0x6a6dcf8, size 0x1dc, virtual false, abstract: false, final false
+  inline float_t GetVertexPadding(::UnityEngine::TextCore::Text::FontAsset* fontAsset);
+
+  /// @brief Method HandleATag, addr 0x6a6e738, size 0x14, virtual false, abstract: false, final false
   inline void HandleATag();
 
-  /// @brief Method HandleLinkTag, addr 0x4a943a8, size 0x410, virtual false, abstract: false, final false
+  /// @brief Method HandleLinkAndATagCallbacks, addr 0x6a6e760, size 0x14, virtual false, abstract: false, final false
+  inline void HandleLinkAndATagCallbacks();
+
+  /// @brief Method HandleLinkTag, addr 0x6a6e74c, size 0x14, virtual false, abstract: false, final false
   inline void HandleLinkTag();
 
-  /// @brief Method LinkTagOnPointerDown, addr 0x4a94c1c, size 0x2f8, virtual false, abstract: false, final false
-  inline void LinkTagOnPointerDown(::UnityEngine::UIElements::PointerDownEvent* pde);
-
-  /// @brief Method LinkTagOnPointerMove, addr 0x4a9520c, size 0x648, virtual false, abstract: false, final false
-  inline void LinkTagOnPointerMove(::UnityEngine::UIElements::PointerMoveEvent* pme);
-
-  /// @brief Method LinkTagOnPointerOut, addr 0x4a95854, size 0x210, virtual false, abstract: false, final false
-  inline void LinkTagOnPointerOut(::UnityEngine::UIElements::PointerOutEvent* poe);
-
-  /// @brief Method LinkTagOnPointerUp, addr 0x4a94f14, size 0x2f8, virtual false, abstract: false, final false
-  inline void LinkTagOnPointerUp(::UnityEngine::UIElements::PointerUpEvent* pue);
+  /// @brief Method IsAdvancedTextEnabledForElement, addr 0x6a6f444, size 0x134, virtual true, abstract: false, final false
+  inline bool IsAdvancedTextEnabledForElement();
 
   static inline ::UnityEngine::UIElements::UITKTextHandle* New_ctor(::UnityEngine::UIElements::TextElement* te);
 
-  /// @brief Method TextLibraryCanElide, addr 0x4a95b08, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method TextLibraryCanElide, addr 0x6a6daf8, size 0x2c, virtual false, abstract: false, final false
   inline bool TextLibraryCanElide();
 
-  /// @brief Method Update, addr 0x4a93d98, size 0xe8, virtual false, abstract: false, final false
-  inline ::UnityEngine::TextCore::Text::TextInfo* Update();
+  /// @brief Method UpdateATGTextEventHandler, addr 0x6a6d768, size 0x70, virtual false, abstract: false, final false
+  inline void UpdateATGTextEventHandler(::UnityEngine::TextCore::NativeTextGenerationSettings setting);
+
+  /// @brief Method UpdateMesh, addr 0x6a6e670, size 0xc8, virtual false, abstract: false, final false
+  inline void UpdateMesh();
+
+  /// @brief Method UpdateNative, addr 0x6a6d534, size 0x234, virtual false, abstract: false, final false
+  inline ::bs_hook::ValueTypeWrapper<8> UpdateNative(::ByRef<bool> success);
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__ATGMeasuredSizes_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__ATGMeasuredSizes_k__BackingField();
+
+  constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__ATGRoundedSizes_k__BackingField() const;
+
+  constexpr ::UnityEngine::Vector2& __cordl_internal_get__ATGRoundedSizes_k__BackingField();
 
   constexpr ::UnityEngine::Vector2 const& __cordl_internal_get__MeasuredSizes_k__BackingField() const;
 
@@ -144,57 +188,89 @@ public:
 
   constexpr ::UnityEngine::Vector2& __cordl_internal_get__RoundedSizes_k__BackingField();
 
-  constexpr int32_t const& __cordl_internal_get_currentLinkIDHash() const;
+  constexpr ::UnityEngine::UIElements::ATGTextEventHandler* const& __cordl_internal_get_m_ATGTextEventHandler() const;
 
-  constexpr int32_t& __cordl_internal_get_currentLinkIDHash();
+  constexpr ::UnityEngine::UIElements::ATGTextEventHandler*& __cordl_internal_get_m_ATGTextEventHandler();
 
-  constexpr bool const& __cordl_internal_get_hasATag() const;
+  constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* const& __cordl_internal_get_m_Links() const;
 
-  constexpr bool& __cordl_internal_get_hasATag();
-
-  constexpr bool const& __cordl_internal_get_hasLinkTag() const;
-
-  constexpr bool& __cordl_internal_get_hasLinkTag();
-
-  constexpr bool const& __cordl_internal_get_isOverridingCursor() const;
-
-  constexpr bool& __cordl_internal_get_isOverridingCursor();
+  constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>*& __cordl_internal_get_m_Links();
 
   constexpr ::UnityEngine::UIElements::TextElement* const& __cordl_internal_get_m_TextElement() const;
 
   constexpr ::UnityEngine::UIElements::TextElement*& __cordl_internal_get_m_TextElement();
 
+  constexpr ::UnityEngine::UIElements::TextEventHandler* const& __cordl_internal_get_m_TextEventHandler() const;
+
+  constexpr ::UnityEngine::UIElements::TextEventHandler*& __cordl_internal_get_m_TextEventHandler();
+
+  constexpr bool const& __cordl_internal_get_wasAdvancedTextEnabledForElement() const;
+
+  constexpr bool& __cordl_internal_get_wasAdvancedTextEnabledForElement();
+
+  constexpr void __cordl_internal_set__ATGMeasuredSizes_k__BackingField(::UnityEngine::Vector2 value);
+
+  constexpr void __cordl_internal_set__ATGRoundedSizes_k__BackingField(::UnityEngine::Vector2 value);
+
   constexpr void __cordl_internal_set__MeasuredSizes_k__BackingField(::UnityEngine::Vector2 value);
 
   constexpr void __cordl_internal_set__RoundedSizes_k__BackingField(::UnityEngine::Vector2 value);
 
-  constexpr void __cordl_internal_set_currentLinkIDHash(int32_t value);
+  constexpr void __cordl_internal_set_m_ATGTextEventHandler(::UnityEngine::UIElements::ATGTextEventHandler* value);
 
-  constexpr void __cordl_internal_set_hasATag(bool value);
-
-  constexpr void __cordl_internal_set_hasLinkTag(bool value);
-
-  constexpr void __cordl_internal_set_isOverridingCursor(bool value);
+  constexpr void __cordl_internal_set_m_Links(::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* value);
 
   constexpr void __cordl_internal_set_m_TextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x4a9388c, size 0x7c, virtual false, abstract: false, final false
+  constexpr void __cordl_internal_set_m_TextEventHandler(::UnityEngine::UIElements::TextEventHandler* value);
+
+  constexpr void __cordl_internal_set_wasAdvancedTextEnabledForElement(bool value);
+
+  /// @brief Method .ctor, addr 0x6a6e330, size 0xd4, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* te);
 
   static inline float_t getStaticF_k_MinPadding();
 
-  /// @brief Method get_MeasuredSizes, addr 0x4a93908, size 0x8, virtual false, abstract: false, final false
+  static inline Il2CppObject* getStaticF_s_TextLib();
+
+  /// @brief Method get_ATGMeasuredSizes, addr 0x6a6e434, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_ATGMeasuredSizes();
+
+  /// @brief Method get_ATGRoundedSizes, addr 0x6a6e444, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector2 get_ATGRoundedSizes();
+
+  /// @brief Method get_IsPlaceholder, addr 0x6a6f578, size 0x38, virtual true, abstract: false, final false
+  inline bool get_IsPlaceholder();
+
+  /// @brief Method get_Links, addr 0x6a6c768, size 0x80, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* get_Links();
+
+  /// @brief Method get_MeasuredSizes, addr 0x6a6e414, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_MeasuredSizes();
 
-  /// @brief Method get_RoundedSizes, addr 0x4a93918, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_RoundedSizes, addr 0x6a6e424, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector2 get_RoundedSizes();
+
+  /// @brief Method get_TextLib, addr 0x6a6e240, size 0xf0, virtual false, abstract: false, final false
+  inline Il2CppObject* get_TextLib();
+
+  /// @brief Method hasLinkAndHyperlink, addr 0x6a6d7d8, size 0x15c, virtual false, abstract: false, final false
+  inline ::System::ValueTuple_2<bool, bool> hasLinkAndHyperlink();
 
   static inline void setStaticF_k_MinPadding(float_t value);
 
-  /// @brief Method set_MeasuredSizes, addr 0x4a93910, size 0x8, virtual false, abstract: false, final false
+  static inline void setStaticF_s_TextLib(Il2CppObject* value);
+
+  /// @brief Method set_ATGMeasuredSizes, addr 0x6a6e43c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ATGMeasuredSizes(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_ATGRoundedSizes, addr 0x6a6e44c, size 0x8, virtual false, abstract: false, final false
+  inline void set_ATGRoundedSizes(::UnityEngine::Vector2 value);
+
+  /// @brief Method set_MeasuredSizes, addr 0x6a6e41c, size 0x8, virtual false, abstract: false, final false
   inline void set_MeasuredSizes(::UnityEngine::Vector2 value);
 
-  /// @brief Method set_RoundedSizes, addr 0x4a93920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_RoundedSizes, addr 0x6a6e42c, size 0x8, virtual false, abstract: false, final false
   inline void set_RoundedSizes(::UnityEngine::Vector2 value);
 
 protected:
@@ -212,47 +288,57 @@ public:
   UITKTextHandle(UITKTextHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5089 };
 
-  /// @brief Field <MeasuredSizes>k__BackingField, offset: 0x34, size: 0x8, def value: None
+  /// @brief Field m_ATGTextEventHandler, offset: 0xb0, size: 0x8, def value: None
+  ::UnityEngine::UIElements::ATGTextEventHandler* ___m_ATGTextEventHandler;
+
+  /// @brief Field m_Links, offset: 0xb8, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::System::ValueTuple_3<int32_t, ::UnityEngine::TextCore::RichTextTagParser_TagType, ::StringW>>* ___m_Links;
+
+  /// @brief Field <MeasuredSizes>k__BackingField, offset: 0xc0, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____MeasuredSizes_k__BackingField;
 
-  /// @brief Field <RoundedSizes>k__BackingField, offset: 0x3c, size: 0x8, def value: None
+  /// @brief Field <RoundedSizes>k__BackingField, offset: 0xc8, size: 0x8, def value: None
   ::UnityEngine::Vector2 ____RoundedSizes_k__BackingField;
 
-  /// @brief Field m_TextElement, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field <ATGMeasuredSizes>k__BackingField, offset: 0xd0, size: 0x8, def value: None
+  ::UnityEngine::Vector2 ____ATGMeasuredSizes_k__BackingField;
+
+  /// @brief Field <ATGRoundedSizes>k__BackingField, offset: 0xd8, size: 0x8, def value: None
+  ::UnityEngine::Vector2 ____ATGRoundedSizes_k__BackingField;
+
+  /// @brief Field m_TextEventHandler, offset: 0xe0, size: 0x8, def value: None
+  ::UnityEngine::UIElements::TextEventHandler* ___m_TextEventHandler;
+
+  /// @brief Field m_TextElement, offset: 0xe8, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ___m_TextElement;
 
-  /// @brief Field isOverridingCursor, offset: 0x50, size: 0x1, def value: None
-  bool ___isOverridingCursor;
-
-  /// @brief Field currentLinkIDHash, offset: 0x54, size: 0x4, def value: None
-  int32_t ___currentLinkIDHash;
-
-  /// @brief Field hasLinkTag, offset: 0x58, size: 0x1, def value: None
-  bool ___hasLinkTag;
-
-  /// @brief Field hasATag, offset: 0x59, size: 0x1, def value: None
-  bool ___hasATag;
+  /// @brief Field wasAdvancedTextEnabledForElement, offset: 0xf0, size: 0x1, def value: None
+  bool ___wasAdvancedTextEnabledForElement;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ____MeasuredSizes_k__BackingField) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___m_ATGTextEventHandler) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ____RoundedSizes_k__BackingField) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___m_Links) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___m_TextElement) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ____MeasuredSizes_k__BackingField) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___isOverridingCursor) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ____RoundedSizes_k__BackingField) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___currentLinkIDHash) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ____ATGMeasuredSizes_k__BackingField) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___hasLinkTag) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ____ATGRoundedSizes_k__BackingField) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___hasATag) == 0x59, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___m_TextEventHandler) == 0xe0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UITKTextHandle, 0x60>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___m_TextElement) == 0xe8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::UITKTextHandle, ___wasAdvancedTextEnabledForElement) == 0xf0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UITKTextHandle, 0xf8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UITKTextHandle);

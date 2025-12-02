@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DeactivateVRControllersOnFocusCapture)
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class IVerboseLogger;
 }
 namespace GlobalNamespace {
 class VRController;
@@ -22,7 +24,7 @@ class DeactivateVRControllersOnFocusCapture;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::DeactivateVRControllersOnFocusCapture);
-// Dependencies IVerboseLogger, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: DeactivateVRControllersOnFocusCapture
@@ -47,18 +49,18 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IVerboseLogger"
   constexpr operator ::GlobalNamespace::IVerboseLogger*() noexcept;
 
-  /// @brief Method LateUpdate, addr 0x39bee1c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x5639508, size 0x4, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::DeactivateVRControllersOnFocusCapture* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x39bec88, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5639330, size 0x1d8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x39be804, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5638e34, size 0x268, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method UpdateVRControllerActiveState, addr 0x39bea28, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method UpdateVRControllerActiveState, addr 0x563909c, size 0x294, virtual false, abstract: false, final false
   inline void UpdateVRControllerActiveState();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__vrControllerGameObjects() const;
@@ -79,10 +81,10 @@ public:
 
   constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
 
-  /// @brief Method .ctor, addr 0x39bee20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x563950c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_loggerPrefix, addr 0x39be7c4, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_loggerPrefix, addr 0x5638df0, size 0x44, virtual true, abstract: false, final true
   inline ::StringW get_loggerPrefix();
 
   /// @brief Convert to "::GlobalNamespace::IVerboseLogger"
@@ -103,7 +105,7 @@ public:
   DeactivateVRControllersOnFocusCapture(DeactivateVRControllersOnFocusCapture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16395 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20011 };
 
   /// @brief Field _vrControllers, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::VRController>, ::Array<::UnityW<::GlobalNamespace::VRController>>*> ____vrControllers;

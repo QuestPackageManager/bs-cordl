@@ -32,10 +32,10 @@ public:
 
   static inline ::System::Threading::LockQueue* New_ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method Pulse, addr 0x3e5c0cc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Pulse, addr 0x5aa1a00, size 0xb0, virtual false, abstract: false, final false
   inline void Pulse();
 
-  /// @brief Method Wait, addr 0x3e5be68, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Wait, addr 0x5aa17c0, size 0x184, virtual false, abstract: false, final false
   inline bool Wait(int32_t timeout);
 
   constexpr int32_t const& __cordl_internal_get_lockCount() const;
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_rwlock(::System::Threading::ReaderWriterLock* value);
 
-  /// @brief Method .ctor, addr 0x3e5be40, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa17b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::ReaderWriterLock* rwlock);
 
-  /// @brief Method get_IsEmpty, addr 0x3e5c00c, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method get_IsEmpty, addr 0x5aa1944, size 0xbc, virtual false, abstract: false, final false
   inline bool get_IsEmpty();
 
 protected:
@@ -71,7 +71,7 @@ public:
   LockQueue(LockQueue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2745 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2756 };
 
   /// @brief Field rwlock, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::ReaderWriterLock* ___rwlock;

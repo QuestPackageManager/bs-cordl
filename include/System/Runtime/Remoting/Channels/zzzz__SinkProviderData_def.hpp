@@ -64,13 +64,13 @@ public:
 
   constexpr void __cordl_internal_set_sinkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ce3e78, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59262bc, size 0xa0, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_Children, addr 0x3ce3f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x592635c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IList* get_Children();
 
-  /// @brief Method get_Properties, addr 0x3ce3f20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Properties, addr 0x5926364, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionary* get_Properties();
 
 protected:
@@ -88,7 +88,7 @@ public:
   SinkProviderData(SinkProviderData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3144 };
 
   /// @brief Field sinkName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___sinkName;

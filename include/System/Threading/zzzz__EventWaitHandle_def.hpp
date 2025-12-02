@@ -26,16 +26,16 @@ public:
 
   static inline ::System::Threading::EventWaitHandle* New_ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
-  /// @brief Method Reset, addr 0x3e523d0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x5a977b4, size 0x58, virtual false, abstract: false, final false
   inline bool Reset();
 
-  /// @brief Method Set, addr 0x3e4e998, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x5a93e44, size 0x58, virtual false, abstract: false, final false
   inline bool Set();
 
-  /// @brief Method .ctor, addr 0x3e4cee0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a92334, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode);
 
-  /// @brief Method .ctor, addr 0x3e542f8, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9976c, size 0x2f8, virtual false, abstract: false, final false
   inline void _ctor(bool initialState, ::System::Threading::EventResetMode mode, ::StringW name);
 
 protected:
@@ -53,7 +53,7 @@ public:
   EventWaitHandle(EventWaitHandle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2720 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

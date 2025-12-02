@@ -7,22 +7,10 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LocalizationImporter)
 namespace BGLib::Polyglot {
-struct GoogleDriveDownloadFormat;
-}
-namespace BGLib::Polyglot {
-struct Language;
-}
-namespace BGLib::Polyglot {
 class LocalizationAsset;
-}
-namespace BGLib::Polyglot {
-class LocalizationModel;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
-}
-namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -40,63 +28,15 @@ namespace BGLib::Polyglot {
 class CORDL_TYPE LocalizationImporter : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field EmptyList, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_EmptyList, put = setStaticF_EmptyList)) ::System::Collections::Generic::List_1<::StringW>* EmptyList;
+  /// @brief Method ImportFromFiles, addr 0x31f430c, size 0x24c, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>*
+  ImportFromFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* inputFiles);
 
-  /// @brief Field InputFiles, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_InputFiles, put = setStaticF_InputFiles)) ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* InputFiles;
+  /// @brief Method ImportTextFile, addr 0x31f4558, size 0x64c, virtual false, abstract: false, final false
+  static inline void ImportTextFile(::StringW text, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* result);
 
-  /// @brief Field languageStrings, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF_languageStrings,
-                      put = setStaticF_languageStrings)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* languageStrings;
-
-  /// @brief Method GetKeys, addr 0x22aeedc, size 0x94, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::StringW>* GetKeys();
-
-  /// @brief Method GetLanguages, addr 0x22b0014, size 0xc0, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key);
-
-  /// @brief Method GetLanguages, addr 0x22b00d4, size 0x444, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::StringW>* GetLanguages(::StringW key, ::System::Collections::Generic::IReadOnlyList_1<::BGLib::Polyglot::Language>* supportedLanguages);
-
-  /// @brief Method GetLanguagesContains, addr 0x22b07e0, size 0x2c8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesContains(::StringW key);
-
-  /// @brief Method GetLanguagesStartsWith, addr 0x22b0518, size 0x2c8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* GetLanguagesStartsWith(::StringW key);
-
-  /// @brief Method Import, addr 0x22af684, size 0x64, virtual false, abstract: false, final false
-  static inline void Import(::StringW text, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
-
-  /// @brief Method ImportFromFiles, addr 0x22af5bc, size 0xc8, virtual false, abstract: false, final false
-  static inline void ImportFromFiles(::BGLib::Polyglot::LocalizationModel* settings);
-
-  /// @brief Method ImportInputFiles, addr 0x22afd6c, size 0x218, virtual false, abstract: false, final false
-  static inline void ImportInputFiles();
-
-  /// @brief Method ImportTextFile, addr 0x22af6e8, size 0x684, virtual false, abstract: false, final false
-  static inline void ImportTextFile(::StringW text, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
-
-  /// @brief Method Initialize, addr 0x22af538, size 0x84, virtual false, abstract: false, final false
-  static inline void Initialize(::BGLib::Polyglot::LocalizationModel* settings);
-
-  /// @brief Method IsLineBreak, addr 0x22aff84, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method IsLineBreak, addr 0x31f4ba4, size 0x60, virtual false, abstract: false, final false
   static inline bool IsLineBreak(::StringW currentString);
-
-  /// @brief Method NoDomainReloadInit, addr 0x22af454, size 0xe4, virtual false, abstract: false, final false
-  static inline void NoDomainReloadInit();
-
-  static inline ::System::Collections::Generic::List_1<::StringW>* getStaticF_EmptyList();
-
-  static inline ::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* getStaticF_InputFiles();
-
-  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* getStaticF_languageStrings();
-
-  static inline void setStaticF_EmptyList(::System::Collections::Generic::List_1<::StringW>* value);
-
-  static inline void setStaticF_InputFiles(::System::Collections::Generic::List_1<::BGLib::Polyglot::LocalizationAsset*>* value);
-
-  static inline void setStaticF_languageStrings(::System::Collections::Generic::Dictionary_2<::StringW, ::System::Collections::Generic::List_1<::StringW>*>* value);
 
 protected:
   // Ctor Parameters []
@@ -113,7 +53,7 @@ public:
   LocalizationImporter(LocalizationImporter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18062 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21960 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

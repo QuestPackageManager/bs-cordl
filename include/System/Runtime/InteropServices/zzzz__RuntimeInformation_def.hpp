@@ -33,13 +33,13 @@ public:
   /// @brief Field _processArchitecture, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF__processArchitecture, put = setStaticF__processArchitecture)) ::System::Runtime::InteropServices::Architecture _processArchitecture;
 
-  /// @brief Method GetOSName, addr 0x3d157ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetOSName, addr 0x5956818, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetOSName();
 
-  /// @brief Method GetRuntimeArchitecture, addr 0x3d157a8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method GetRuntimeArchitecture, addr 0x5956808, size 0x10, virtual false, abstract: false, final false
   static inline ::StringW GetRuntimeArchitecture();
 
-  /// @brief Method IsOSPlatform, addr 0x3d157b0, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsOSPlatform, addr 0x5956828, size 0x94, virtual false, abstract: false, final false
   static inline bool IsOSPlatform(::System::Runtime::InteropServices::OSPlatform osPlatform);
 
   static inline ::System::Runtime::InteropServices::Architecture getStaticF__osArchitecture();
@@ -69,7 +69,7 @@ public:
   RuntimeInformation(RuntimeInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::get_useCollision)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da15c;
+  constexpr static std::size_t addrs = 0x5651cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)(bool)>(
     &::GlobalNamespace::Parametric3SliceSpriteController::set_useCollision)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39da164;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5651cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::get_collisionLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da170;
+  constexpr static std::size_t addrs = 0x5651cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)(float_t)>(
     &::GlobalNamespace::Parametric3SliceSpriteController::set_collisionLength)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39da178;
+  constexpr static std::size_t addrs = 0x5651cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::Awake)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x39da180;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x5651cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::Start)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x39da69c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5652248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::OnEnable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39da70c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56522bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -112,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::OnDisable)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x39da72c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56522d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::OnDestroy)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39da74c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x56522f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -140,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::InitIfNeeded)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x39da2e4;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x5651e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -154,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::CreateMesh)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x39da3e0;
+  constexpr static std::size_t size = 0x2d0;
+  constexpr static std::size_t addrs = 0x5651f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -168,8 +168,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::Refresh)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x39da810;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x56523bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),
@@ -182,8 +182,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Parametric3SliceSpriteController::*)()>(
     &::GlobalNamespace::Parametric3SliceSpriteController::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39daa18;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x56525b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Parametric3SliceSpriteController*>::get(),

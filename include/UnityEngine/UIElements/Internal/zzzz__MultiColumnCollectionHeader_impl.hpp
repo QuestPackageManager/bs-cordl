@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/Internal/MultiColumnCollectionHeader.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Length_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SortDirection_impl.hpp"
@@ -8,9 +7,11 @@
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnCollectionHeader_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__ColumnMover_def.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnCollectionHeader_def.hpp"
 #include "UnityEngine/UIElements/Internal/zzzz__MultiColumnHeaderColumnResizeHandle_def.hpp"
@@ -47,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState::*)(
     ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState::Save)> {
-  constexpr static std::size_t size = 0x710;
-  constexpr static std::size_t addrs = 0x49eb294;
+  constexpr static std::size_t size = 0x684;
+  constexpr static std::size_t addrs = 0x6af4978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState::*)(
     ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState::Apply)> {
-  constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x49eaf38;
+  constexpr static std::size_t size = 0x338;
+  constexpr static std::size_t addrs = 0x6af4640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ViewState::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x49ebf78;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x6af56c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +159,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn* (
     ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::get_control)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ec03c;
+  constexpr static std::size_t addrs = 0x6af577c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -173,7 +174,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::*)(
     ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumn*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::set_control)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ec044;
+  constexpr static std::size_t addrs = 0x6af5784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -189,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle* (
     ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::get_resizeHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ec04c;
+  constexpr static std::size_t addrs = 0x6af578c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,7 +205,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::*)(
     ::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnResizeHandle*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::set_resizeHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ec054;
+  constexpr static std::size_t addrs = 0x6af5794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -219,8 +220,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e8d84;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6af255c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -301,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_SortedColumnState::*)(
     ::UnityEngine::UIElements::SortColumnDescription*, ::UnityEngine::UIElements::SortDirection)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_SortedColumnState::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49e7cdc;
+  constexpr static std::size_t addrs = 0x6af15ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -330,170 +331,170 @@ constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_Sorte
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_SortedColumnState::MultiColumnCollectionHeader_SortedColumnState() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0._ctor
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::*)()>(
-    &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49ea2f8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::*)()>(
+    &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6af3a6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0._OnContextualMenuManipulator_b__1
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0._OnContextualMenuManipulator_b__1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::*)(
-    ::UnityEngine::UIElements::DropdownMenuAction*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::_OnContextualMenuManipulator_b__1)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x49ec05c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::*)(
+    ::UnityEngine::UIElements::DropdownMenuAction*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::_OnContextualMenuManipulator_b__1)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6af579c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>::get(), "<OnContextualMenuManipulator>b__1",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>::get(), "<OnContextualMenuManipulator>b__1",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenuAction*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0._OnContextualMenuManipulator_b__2
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0._OnContextualMenuManipulator_b__2
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::DropdownMenuAction_Status (
-    ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::*)(::UnityEngine::UIElements::DropdownMenuAction*)>(
-    &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::_OnContextualMenuManipulator_b__2)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49ec084;
+    ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::*)(::UnityEngine::UIElements::DropdownMenuAction*)>(
+    &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::_OnContextualMenuManipulator_b__2)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6af57c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>::get(), "<OnContextualMenuManipulator>b__2",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>::get(), "<OnContextualMenuManipulator>b__2",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenuAction*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::Column*& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::__cordl_internal_get_column() {
+constexpr ::UnityEngine::UIElements::Column*& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::__cordl_internal_get_column() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
-constexpr ::UnityEngine::UIElements::Column* const& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::__cordl_internal_get_column() const {
+constexpr ::UnityEngine::UIElements::Column* const& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::__cordl_internal_get_column() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
-constexpr void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::__cordl_internal_set_column(::UnityEngine::UIElements::Column* value) {
+constexpr void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::__cordl_internal_set_column(::UnityEngine::UIElements::Column* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___column)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::__cordl_internal_get___4__this() {
+constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* const&
-UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::__cordl_internal_get___4__this() const {
+UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
 constexpr void
-UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* value) {
+UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::__cordl_internal_set___4__this(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::_ctor() {
+inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::_OnContextualMenuManipulator_b__1(::UnityEngine::UIElements::DropdownMenuAction* a) {
+inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::_OnContextualMenuManipulator_b__1(::UnityEngine::UIElements::DropdownMenuAction* a) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>::get(), "<OnContextualMenuManipulator>b__1",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>::get(), "<OnContextualMenuManipulator>b__1",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenuAction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a);
 }
 inline ::UnityEngine::UIElements::DropdownMenuAction_Status
-UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::_OnContextualMenuManipulator_b__2(::UnityEngine::UIElements::DropdownMenuAction* a) {
+UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::_OnContextualMenuManipulator_b__2(::UnityEngine::UIElements::DropdownMenuAction* a) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>::get(), "<OnContextualMenuManipulator>b__2",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>::get(), "<OnContextualMenuManipulator>b__2",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenuAction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::DropdownMenuAction_Status, false>(this, ___internal_method, a);
 }
-inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0* UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0*>());
+inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0* UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass65_0::MultiColumnCollectionHeader___c__DisplayClass65_0() {}
-//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0._ctor
+constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass67_0::MultiColumnCollectionHeader___c__DisplayClass67_0() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::*)()>(
-    &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49eac58;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::*)()>(
+    &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6af43a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0*>::get(),
                                                  ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0._UpdateSortColumnDescriptionsOnClick_b__0
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0._UpdateSortColumnDescriptionsOnClick_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::*)(
-    ::UnityEngine::UIElements::SortColumnDescription*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::_UpdateSortColumnDescriptionsOnClick_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::*)(
+    ::UnityEngine::UIElements::SortColumnDescription*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::_UpdateSortColumnDescriptionsOnClick_b__0)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49ec104;
+  constexpr static std::size_t addrs = 0x6af5830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0*>::get(),
                                     "<UpdateSortColumnDescriptionsOnClick>b__0", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::SortColumnDescription*>::get() })));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::UIElements::Column*& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::__cordl_internal_get_column() {
+constexpr ::UnityEngine::UIElements::Column*& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::__cordl_internal_get_column() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
-constexpr ::UnityEngine::UIElements::Column* const& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::__cordl_internal_get_column() const {
+constexpr ::UnityEngine::UIElements::Column* const& UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::__cordl_internal_get_column() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___column;
 }
-constexpr void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::__cordl_internal_set_column(::UnityEngine::UIElements::Column* value) {
+constexpr void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::__cordl_internal_set_column(::UnityEngine::UIElements::Column* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___column)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::_ctor() {
+inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0*>::get(),
                                                ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::_UpdateSortColumnDescriptionsOnClick_b__0(::UnityEngine::UIElements::SortColumnDescription* d) {
+inline bool UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::_UpdateSortColumnDescriptionsOnClick_b__0(::UnityEngine::UIElements::SortColumnDescription* d) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0*>::get(),
                                                "<UpdateSortColumnDescriptionsOnClick>b__0", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::SortColumnDescription*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, d);
 }
-inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0* UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0*>());
+inline ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0* UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0*>());
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass71_0::MultiColumnCollectionHeader___c__DisplayClass71_0() {}
+constexpr ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader___c__DisplayClass73_0::MultiColumnCollectionHeader___c__DisplayClass73_0() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader.get_isApplyingViewState
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_isApplyingViewState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5ce0;
+  constexpr static std::size_t addrs = 0x6aef55c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -509,7 +510,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*>* (
         ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_columnDataMap)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5ce8;
+  constexpr static std::size_t addrs = 0x6aef564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -524,7 +525,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::ColumnLayout* (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_columnLayout)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5cf0;
+  constexpr static std::size_t addrs = 0x6aef56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -539,7 +540,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_columnContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5cf8;
+  constexpr static std::size_t addrs = 0x6aef574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -554,7 +555,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_resizeHandleContainer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5d00;
+  constexpr static std::size_t addrs = 0x6aef57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -569,12 +570,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::SortColumnDescription*>* (
     ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_sortedColumns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5d08;
+  constexpr static std::size_t addrs = 0x6aef584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "get_sortedColumns",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader.get_sortedColumnReadonly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::SortColumnDescription*>* (
+    ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_sortedColumnReadonly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6aef58c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(),
+                                                 "get_sortedColumnReadonly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -584,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::SortColumnDescriptions* (
     ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_sortDescriptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e5d10;
+  constexpr static std::size_t addrs = 0x6aef594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -598,8 +614,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::SortColumnDescriptions*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::set_sortDescriptions)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49e5d18;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6aef59c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -615,7 +631,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Columns* (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_columns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e64c0;
+  constexpr static std::size_t addrs = 0x6aefc98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -630,7 +646,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_sortingEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49e64c8;
+  constexpr static std::size_t addrs = 0x6aefca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -644,8 +660,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(bool)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::set_sortingEnabled)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49e64d0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6aefca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -659,8 +675,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::System::Action_2<int32_t, float_t>*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::add_columnResized)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x49e6b64;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6af02e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -674,8 +690,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::System::Action_2<int32_t, float_t>*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::remove_columnResized)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x49e6c18;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6af03a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -689,8 +705,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::System::Action*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::add_columnSortingChanged)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49e6ccc;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6af0460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,8 +720,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::System::Action*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::remove_columnSortingChanged)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49e6d6c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6af050c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -720,8 +736,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::add_contextMenuPopulateEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x49e6e0c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6af05b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -738,8 +754,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::System::Action_2<::UnityEngine::UIElements::ContextualMenuPopulateEvent*, ::UnityEngine::UIElements::Column*>*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::remove_contextMenuPopulateEvent)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x49e6ec0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6af0678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -755,8 +771,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::System::Action*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::add_viewDataRestored)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49e6f74;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6af0738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -770,8 +786,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::System::Action*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::remove_viewDataRestored)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49e7014;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6af07e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -786,8 +802,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::Columns*, ::UnityEngine::UIElements::SortColumnDescriptions*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::SortColumnDescription*>*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::_ctor)> {
-  constexpr static std::size_t size = 0x7e0;
-  constexpr static std::size_t addrs = 0x49e70b4;
+  constexpr static std::size_t size = 0x868;
+  constexpr static std::size_t addrs = 0x6af0890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -804,8 +820,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::ScheduleDoLayout)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x49e7ba0;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6af1448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -820,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::ResizeToFit)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49e7cb0;
+  constexpr static std::size_t addrs = 0x6af1580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -834,8 +850,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::UpdateSortedColumns)> {
-  constexpr static std::size_t size = 0x70c;
-  constexpr static std::size_t addrs = 0x49e5db4;
+  constexpr static std::size_t size = 0x658;
+  constexpr static std::size_t addrs = 0x6aef640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -849,8 +865,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::UpdateColumnControls)> {
-  constexpr static std::size_t size = 0x7a8;
-  constexpr static std::size_t addrs = 0x49e7d58;
+  constexpr static std::size_t size = 0x764;
+  constexpr static std::size_t addrs = 0x6af1624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -865,7 +881,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::Column*, int32_t)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnAdded)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49e8500;
+  constexpr static std::size_t addrs = 0x6af1d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -880,8 +896,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnAdded)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x49e7894;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x6af10f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -895,8 +911,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnRemoved)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x49e8d8c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6af2560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -911,7 +927,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnChanged)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x49e8fc0;
+  constexpr static std::size_t addrs = 0x6af27e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -926,8 +942,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::Column*, int32_t, int32_t)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnReordered)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x49e98d8;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x6af3090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -943,7 +959,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnResized)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49e9a54;
+  constexpr static std::size_t addrs = 0x6af321c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -957,8 +973,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::ContextualMenuPopulateEvent*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnContextualMenuManipulator)> {
-  constexpr static std::size_t size = 0x8a0;
-  constexpr static std::size_t addrs = 0x49e9a58;
+  constexpr static std::size_t size = 0x84c;
+  constexpr static std::size_t addrs = 0x6af3220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -973,8 +989,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::Internal::ColumnMover*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnMoveManipulatorActivated)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x49ea300;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6af3a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -990,7 +1006,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::GeometryChangedEvent*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnGeometryChanged)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49ea3e4;
+  constexpr static std::size_t addrs = 0x6af3b64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1005,7 +1021,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::DoLayout)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49ea464;
+  constexpr static std::size_t addrs = 0x6af3be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1019,8 +1035,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::GeometryChangedEvent*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnControlGeometryChanged)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x49ea4a4;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6af3c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1035,8 +1051,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnColumnClicked)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x49ea7dc;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x6af3f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1050,8 +1066,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::EventModifiers)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::UpdateSortColumnDescriptionsOnClick)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x49eaa04;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x6af4140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1067,8 +1083,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(float_t)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::ScrollHorizontally)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x49eac60;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x6af43ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1082,8 +1098,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(int32_t)>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::RaiseColumnResized)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x49ea6ec;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x6af3e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1098,7 +1114,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::RaiseColumnSortingChanged)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49e7d20;
+  constexpr static std::size_t addrs = 0x6af15ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1112,8 +1128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::ApplyColumnSorting)> {
-  constexpr static std::size_t size = 0x8bc;
-  constexpr static std::size_t addrs = 0x49e901c;
+  constexpr static std::size_t size = 0x850;
+  constexpr static std::size_t addrs = 0x6af2840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1127,8 +1143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::UpdateSortingStatus)> {
-  constexpr static std::size_t size = 0x660;
-  constexpr static std::size_t addrs = 0x49e6504;
+  constexpr static std::size_t size = 0x608;
+  constexpr static std::size_t addrs = 0x6aefcd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1142,14 +1158,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnViewDataReady)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49eae44;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6af4554;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), 96));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), 132));
     return ___internal_method;
   }
 };
@@ -1158,8 +1174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::SaveViewState)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49e7ce8;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6af15b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1168,13 +1184,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader.CleanupColumnData
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
+    ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::CleanupColumnData)> {
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6af2628;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "CleanupColumnData", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader.Dispose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)()>(
     &::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::Dispose)> {
-  constexpr static std::size_t size = 0x4c8;
-  constexpr static std::size_t addrs = 0x49eb9a4;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x6af518c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1183,17 +1214,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader._OnContextualMenuManipulator_b__65_0
+//  Writing Method size for method: ::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader._OnContextualMenuManipulator_b__67_0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::*)(
-    ::UnityEngine::UIElements::DropdownMenuAction*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::_OnContextualMenuManipulator_b__65_0)> {
+    ::UnityEngine::UIElements::DropdownMenuAction*)>(&::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::_OnContextualMenuManipulator_b__67_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49ebf74;
+  constexpr static std::size_t addrs = 0x6af56bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "<OnContextualMenuManipulator>b__65_0",
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "<OnContextualMenuManipulator>b__67_0",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenuAction*>::get() })));
     return ___internal_method;
   }
@@ -1484,6 +1515,12 @@ inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::UIElements::SortColumnDescription*>*, false>(this, ___internal_method);
 }
+inline ::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::SortColumnDescription*>* UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_sortedColumnReadonly() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(),
+                                               "get_sortedColumnReadonly", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::UnityEngine::UIElements::SortColumnDescription*>*, false>(this, ___internal_method);
+}
 inline ::UnityEngine::UIElements::SortColumnDescriptions* UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::get_sortDescriptions() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "get_sortDescriptions",
@@ -1720,7 +1757,7 @@ inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::Upda
 inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::OnViewDataReady() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), 96)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), 132)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::SaveViewState() {
@@ -1729,15 +1766,21 @@ inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::Save
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::CleanupColumnData(::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData* data) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "CleanupColumnData", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader_ColumnData*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, data);
+}
 inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::Dispose() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "Dispose",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::_OnContextualMenuManipulator_b__65_0(::UnityEngine::UIElements::DropdownMenuAction* a) {
+inline void UnityEngine::UIElements::Internal::MultiColumnCollectionHeader::_OnContextualMenuManipulator_b__67_0(::UnityEngine::UIElements::DropdownMenuAction* a) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "<OnContextualMenuManipulator>b__65_0",
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::Internal::MultiColumnCollectionHeader*>::get(), "<OnContextualMenuManipulator>b__67_0",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::DropdownMenuAction*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, a);
 }

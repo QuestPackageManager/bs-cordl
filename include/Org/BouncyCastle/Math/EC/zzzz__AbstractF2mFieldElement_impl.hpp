@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECFieldElement* (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::HalfTrace)> {
   constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2484924;
+  constexpr static std::size_t addrs = 0x33b3ac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::get_HasFastTrace)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2484a60;
+  constexpr static std::size_t addrs = 0x33b3c00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::Trace)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x2484a68;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x33b3c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::*)()>(
     &::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2484bac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33b3d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement*>::get(),

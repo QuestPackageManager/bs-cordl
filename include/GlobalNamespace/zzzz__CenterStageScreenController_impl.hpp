@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CenterStageScreenController::*)()>(
     &::GlobalNamespace::CenterStageScreenController::get_countdownShown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c1ebc4;
+  constexpr static std::size_t addrs = 0x56d2cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CenterStageScreenController*>::get(),
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(
     &::GlobalNamespace::CenterStageScreenController::set_countdownShown)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c1ebcc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56d2ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(
     &::GlobalNamespace::CenterStageScreenController::Setup)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c1ebd8;
+  constexpr static std::size_t addrs = 0x56d2ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::Show)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3c0d87c;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x56d2d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CenterStageScreenController*>::get(), "Show",
@@ -71,8 +71,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::Hide)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3c0da24;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x56d3030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CenterStageScreenController*>::get(), "Hide",
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(int64_t)>(
     &::GlobalNamespace::CenterStageScreenController::ShowCountdown)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c1edd8;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56d31b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(
     &::GlobalNamespace::CenterStageScreenController::HideCountdown)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c1ed9c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x56d316c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(int64_t)>(
     &::GlobalNamespace::CenterStageScreenController::SetCountdownEndTime)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3c1ee0c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x56d31ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(
     &::GlobalNamespace::CenterStageScreenController::ShowCountdownColorPreset)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c1ee60;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x56d3244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(bool)>(
     &::GlobalNamespace::CenterStageScreenController::ShowLobbyColorPreset)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c1ec08;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x56d2eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(
     &::GlobalNamespace::CenterStageScreenController::HandleLobbyGameStateControllerSelectedLevelGameplaySetupDataChanged)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c1ee90;
+  constexpr static std::size_t addrs = 0x56d3270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,8 +175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)(::GlobalNamespace::ILevelGameplaySetupData*)>(
     &::GlobalNamespace::CenterStageScreenController::SetNextGameplaySetupData)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3c1ec38;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x56d2ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -189,8 +189,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CenterStageScreenController::*)()>(&::GlobalNamespace::CenterStageScreenController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c1ee94;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56d3274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CenterStageScreenController*>::get(), ".ctor",

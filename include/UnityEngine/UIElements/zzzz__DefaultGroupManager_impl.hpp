@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/DefaultGroupManager.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupManager_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultGroupManager_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBoxOption_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IGroupBox_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::DefaultGroupManager.Init
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBox*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3d2c8;
+  constexpr static std::size_t addrs = 0x6b7d0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::OnOptionSelectionChanged)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x4a3d2d0;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x6b7d0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::RegisterOption)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4a3d4a0;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x6b7d258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)(::UnityEngine::UIElements::IGroupBoxOption*)>(
     &::UnityEngine::UIElements::DefaultGroupManager::UnregisterOption)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4a3d5ec;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6b7d3bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::DefaultGroupManager::*)()>(&::UnityEngine::UIElements::DefaultGroupManager::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a3cb34;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6b7c8e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultGroupManager*>::get(), ".ctor",

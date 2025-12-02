@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/LowLevel/TouchscreenState.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchState_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__TouchscreenState_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_Format)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4609198;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x63904c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),
@@ -34,10 +34,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::TouchscreenState.get_primaryTouch
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> (
-    ::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_primaryTouch)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::TouchState* (::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_primaryTouch)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46091c8;
+  constexpr static std::size_t addrs = 0x63904cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),
@@ -48,10 +48,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::TouchscreenState.get_touches
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> (
-    ::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(&::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_touches)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::TouchState* (::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_touches)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46091cc;
+  constexpr static std::size_t addrs = 0x63904d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (::UnityEngine::InputSystem::LowLevel::TouchscreenState::*)()>(
     &::UnityEngine::InputSystem::LowLevel::TouchscreenState::get_format)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46091d4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x63904d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),
@@ -98,15 +98,15 @@ inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::L
                                                                              "get_Format", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::Utilities::FourCC, false>(nullptr, ___internal_method);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> UnityEngine::InputSystem::LowLevel::TouchscreenState::get_primaryTouch() {
+inline ::UnityEngine::InputSystem::LowLevel::TouchState* UnityEngine::InputSystem::LowLevel::TouchscreenState::get_primaryTouch() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),
                                                                              "get_primaryTouch", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::TouchState*, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState> UnityEngine::InputSystem::LowLevel::TouchscreenState::get_touches() {
+inline ::UnityEngine::InputSystem::LowLevel::TouchState* UnityEngine::InputSystem::LowLevel::TouchscreenState::get_touches() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),
                                                                              "get_touches", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::TouchState>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::TouchState*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::InputSystem::Utilities::FourCC UnityEngine::InputSystem::LowLevel::TouchscreenState::get_format() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::TouchscreenState>::get(),

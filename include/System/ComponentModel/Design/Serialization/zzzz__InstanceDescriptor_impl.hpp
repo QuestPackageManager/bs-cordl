@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)(
     ::System::Reflection::MemberInfo*, ::System::Collections::ICollection*)>(&::System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447f454;
+  constexpr static std::size_t addrs = 0x61ced04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)(
     ::System::Reflection::MemberInfo*, ::System::Collections::ICollection*, bool)>(&::System::ComponentModel::Design::Serialization::InstanceDescriptor::_ctor)> {
-  constexpr static std::size_t size = 0x508;
-  constexpr static std::size_t addrs = 0x447f45c;
+  constexpr static std::size_t size = 0x534;
+  constexpr static std::size_t addrs = 0x61ced0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::get_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447f964;
+  constexpr static std::size_t addrs = 0x61cf240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MemberInfo* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::get_MemberInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x447f96c;
+  constexpr static std::size_t addrs = 0x61cf248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::Design::Serialization::InstanceDescriptor::*)()>(
     &::System::ComponentModel::Design::Serialization::InstanceDescriptor::Invoke)> {
-  constexpr static std::size_t size = 0x358;
-  constexpr static std::size_t addrs = 0x446f3c0;
+  constexpr static std::size_t size = 0x398;
+  constexpr static std::size_t addrs = 0x61cf250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

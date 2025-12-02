@@ -38,24 +38,24 @@ public:
   // @brief default ctor
   constexpr NativeParticleData_Array3();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "z", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }]
-  constexpr NativeParticleData_Array3(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z) noexcept;
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "z", ty:
+  // "float_t*", modifiers: "", def_value: None }]
+  constexpr NativeParticleData_Array3(float_t* x, float_t* y, float_t* z) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17306 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20636 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
 
   /// @brief Field x, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> x;
+  float_t* x;
 
   /// @brief Field y, offset: 0x8, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> y;
+  float_t* y;
 
   /// @brief Field z, offset: 0x10, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> z;
+  float_t* z;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -80,28 +80,27 @@ public:
   // @brief default ctor
   constexpr NativeParticleData_Array4();
 
-  // Ctor Parameters [CppParam { name: "x", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "y", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
-  // def_value: None }, CppParam { name: "z", ty: "::cordl_internals::Ptr<float_t>", modifiers: "", def_value: None }, CppParam { name: "w", ty: "::cordl_internals::Ptr<float_t>", modifiers: "",
-  // def_value: None }]
-  constexpr NativeParticleData_Array4(::cordl_internals::Ptr<float_t> x, ::cordl_internals::Ptr<float_t> y, ::cordl_internals::Ptr<float_t> z, ::cordl_internals::Ptr<float_t> w) noexcept;
+  // Ctor Parameters [CppParam { name: "x", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "y", ty: "float_t*", modifiers: "", def_value: None }, CppParam { name: "z", ty:
+  // "float_t*", modifiers: "", def_value: None }, CppParam { name: "w", ty: "float_t*", modifiers: "", def_value: None }]
+  constexpr NativeParticleData_Array4(float_t* x, float_t* y, float_t* z, float_t* w) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17307 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20637 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
 
   /// @brief Field x, offset: 0x0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> x;
+  float_t* x;
 
   /// @brief Field y, offset: 0x8, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> y;
+  float_t* y;
 
   /// @brief Field z, offset: 0x10, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> z;
+  float_t* z;
 
   /// @brief Field w, offset: 0x18, size: 0x8, def value: None
-  ::cordl_internals::Ptr<float_t> w;
+  float_t* w;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -137,20 +136,18 @@ public:
   // "axisOfRotations", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "rotations", ty:
   // "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "rotationalSpeeds", ty:
   // "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3", modifiers: "", def_value: None }, CppParam { name: "sizes", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3",
-  // modifiers: "", def_value: None }, CppParam { name: "startColors", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "aliveTimePercent", ty:
-  // "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "inverseStartLifetimes", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name:
-  // "randomSeeds", ty: "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }, CppParam { name: "customData1", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers:
-  // "", def_value: None }, CppParam { name: "customData2", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "meshIndices", ty:
-  // "::cordl_internals::Ptr<void>", modifiers: "", def_value: None }]
+  // modifiers: "", def_value: None }, CppParam { name: "startColors", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "aliveTimePercent", ty: "void*", modifiers: "", def_value: None
+  // }, CppParam { name: "inverseStartLifetimes", ty: "void*", modifiers: "", def_value: None }, CppParam { name: "randomSeeds", ty: "void*", modifiers: "", def_value: None }, CppParam { name:
+  // "customData1", ty: "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "customData2", ty:
+  // "::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4", modifiers: "", def_value: None }, CppParam { name: "meshIndices", ty: "void*", modifiers: "", def_value: None }]
   constexpr NativeParticleData(int32_t count, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 positions, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 velocities,
                                ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 axisOfRotations, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotations,
-                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotationalSpeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 sizes,
-                               ::cordl_internals::Ptr<void> startColors, ::cordl_internals::Ptr<void> aliveTimePercent, ::cordl_internals::Ptr<void> inverseStartLifetimes,
-                               ::cordl_internals::Ptr<void> randomSeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData1,
-                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2, ::cordl_internals::Ptr<void> meshIndices) noexcept;
+                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 rotationalSpeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 sizes, void* startColors,
+                               void* aliveTimePercent, void* inverseStartLifetimes, void* randomSeeds, ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData1,
+                               ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2, void* meshIndices) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17308 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20638 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x100 };
@@ -177,16 +174,16 @@ public:
   ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array3 sizes;
 
   /// @brief Field startColors, offset: 0x98, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> startColors;
+  void* startColors;
 
   /// @brief Field aliveTimePercent, offset: 0xa0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> aliveTimePercent;
+  void* aliveTimePercent;
 
   /// @brief Field inverseStartLifetimes, offset: 0xa8, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> inverseStartLifetimes;
+  void* inverseStartLifetimes;
 
   /// @brief Field randomSeeds, offset: 0xb0, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> randomSeeds;
+  void* randomSeeds;
 
   /// @brief Field customData1, offset: 0xb8, size: 0x20, def value: None
   ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData1;
@@ -195,7 +192,7 @@ public:
   ::UnityEngine::ParticleSystemJobs::NativeParticleData_Array4 customData2;
 
   /// @brief Field meshIndices, offset: 0xf8, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> meshIndices;
+  void* meshIndices;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };

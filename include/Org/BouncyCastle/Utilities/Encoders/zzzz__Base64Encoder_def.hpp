@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Utilities/Encoders/zzzz__IEncoder_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Base64Encoder)
+namespace Org::BouncyCastle::Utilities::Encoders {
+class IEncoder;
+}
 namespace System::IO {
 class Stream;
 }
@@ -17,7 +19,7 @@ class Base64Encoder;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::Base64Encoder);
-// Dependencies Org.BouncyCastle.Utilities.Encoders.IEncoder, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Utilities.Encoders.Base64Encoder
@@ -36,19 +38,19 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr operator ::Org::BouncyCastle::Utilities::Encoders::IEncoder*() noexcept;
 
-  /// @brief Method Decode, addr 0x25d690c, size 0x3f0, virtual true, abstract: false, final true
+  /// @brief Method Decode, addr 0x3505ee0, size 0x3f8, virtual true, abstract: false, final true
   inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t off, int32_t length, ::System::IO::Stream* outStream);
 
-  /// @brief Method DecodeString, addr 0x25d6f60, size 0x3fc, virtual true, abstract: false, final true
+  /// @brief Method DecodeString, addr 0x3506558, size 0x478, virtual true, abstract: false, final true
   inline int32_t DecodeString(::StringW data, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x25d67b4, size 0x12c, virtual true, abstract: false, final true
+  /// @brief Method Encode, addr 0x3505d94, size 0x12c, virtual true, abstract: false, final true
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, ::System::IO::Stream* outStream);
 
-  /// @brief Method Encode, addr 0x25d6424, size 0x390, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x3505a20, size 0x374, virtual false, abstract: false, final false
   inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBuf, int32_t outOff);
 
-  /// @brief Method InitialiseDecodingTable, addr 0x25d62c4, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method InitialiseDecodingTable, addr 0x35058cc, size 0xb8, virtual false, abstract: false, final false
   inline void InitialiseDecodingTable();
 
   static inline ::Org::BouncyCastle::Utilities::Encoders::Base64Encoder* New_ctor();
@@ -71,22 +73,22 @@ public:
 
   constexpr void __cordl_internal_set_padding(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x25d6380, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3505984, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method decodeLastBlock, addr 0x25d6d74, size 0x1ec, virtual false, abstract: false, final false
+  /// @brief Method decodeLastBlock, addr 0x3506350, size 0x208, virtual false, abstract: false, final false
   inline int32_t decodeLastBlock(::System::IO::Stream* outStream, char16_t c1, char16_t c2, char16_t c3, char16_t c4);
 
   /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::IEncoder"
   constexpr ::Org::BouncyCastle::Utilities::Encoders::IEncoder* i___Org__BouncyCastle__Utilities__Encoders__IEncoder() noexcept;
 
-  /// @brief Method ignore, addr 0x25d68e0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ignore, addr 0x3505ec0, size 0x20, virtual false, abstract: false, final false
   inline bool ignore(char16_t c);
 
-  /// @brief Method nextI, addr 0x25d6cfc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method nextI, addr 0x35062d8, size 0x78, virtual false, abstract: false, final false
   inline int32_t nextI(::ArrayW<uint8_t, ::Array<uint8_t>*> data, int32_t i, int32_t finish);
 
-  /// @brief Method nextI, addr 0x25d735c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method nextI, addr 0x35069d0, size 0x70, virtual false, abstract: false, final false
   inline int32_t nextI(::StringW data, int32_t i, int32_t finish);
 
 protected:

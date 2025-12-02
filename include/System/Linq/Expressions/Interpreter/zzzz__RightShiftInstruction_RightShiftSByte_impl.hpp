@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::RightShiftInstruction_RightShiftSByte::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::RightShiftInstruction_RightShiftSByte::Run)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x40f5358;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5d9feb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RightShiftInstruction_RightShiftSByte::*)()>(
     &::GlobalNamespace::RightShiftInstruction_RightShiftSByte::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40f5318;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d9fe90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RightShiftInstruction_RightShiftSByte*>::get(),

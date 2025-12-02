@@ -29,7 +29,7 @@ public:
   constexpr FilterCoefficients(float_t a0, float_t a1, float_t a2, float_t b0, float_t b1, float_t b2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7002 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

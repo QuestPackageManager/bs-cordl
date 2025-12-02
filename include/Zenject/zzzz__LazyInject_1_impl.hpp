@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Zenject/LazyInject_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IValidatable_impl.hpp"
 #include "Zenject/zzzz__LazyInject_1_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IValidatable_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 template <typename T> constexpr ::Zenject::DiContainer*& Zenject::LazyInject_1<T>::__cordl_internal_get__container() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

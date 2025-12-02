@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::Newtonsoft::Json::JsonWriter*)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::_ctor)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x3eff2dc;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x5b45e50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::GetSerializedJsonMessage)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3eff4a0;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5b46024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Newtonsoft::Json::Serialization::TraceJsonWriter*>::get(),
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Decimal)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3eff4c0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5b46040;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::Decimal>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3eff52c;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x5b460b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(bool)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3eff648;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5b461dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<bool>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3eff6ac;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b46250;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(uint8_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eff760;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b46314;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint8_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3eff7c0;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b46384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(char16_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eff870;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b46448;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<char16_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3eff8d0;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b464b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -175,8 +175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3eff980;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5b4657c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -191,8 +191,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::DateTime)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3eff9f4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b465f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -207,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::DateTime>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3effa54;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5b46668;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::DateTimeOffset)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3effb14;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5b46738;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,7 +240,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::DateTimeOffset>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3effb80;
+  constexpr static std::size_t addrs = 0x5b467b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -255,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(double_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3effc74;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b468a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -271,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<double_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3effcd4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5b46914;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -287,8 +287,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteUndefined)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3effd98;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5b469e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -303,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteNull)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3effde4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5b46a44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -319,8 +319,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(float_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3effe30;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b46aa4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,8 +335,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<float_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3effe90;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b46b14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -351,8 +351,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Guid)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3efff40;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5b46bd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -367,8 +367,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::Guid>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3efffac;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5b46c50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -383,8 +383,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(int32_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f000a4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b46d44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -399,8 +399,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int32_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f00104;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b46db4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -415,8 +415,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(int64_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f001b0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b46e78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int64_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3f00210;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5b46ee8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,8 +447,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Object*)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3f002d0;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5b46fb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -463,8 +463,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(int8_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f0039c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b470c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -479,8 +479,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int8_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f003fc;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b47138;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -495,8 +495,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(int16_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f004ac;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b471fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -511,8 +511,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<int16_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f0050c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b4726c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -527,8 +527,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f005bc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b47330;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -543,8 +543,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::TimeSpan)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f0061c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b473a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -559,8 +559,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<::System::TimeSpan>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3f0067c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5b47410;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -575,8 +575,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(uint32_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f0073c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b474e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -591,8 +591,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint32_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3f0079c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b47550;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -607,8 +607,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(uint64_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00848;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b47614;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -623,8 +623,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint64_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3f008a8;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5b47684;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -639,8 +639,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Uri*)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3f00968;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5b47754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -655,8 +655,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(uint16_t)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00a2c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b47830;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -671,8 +671,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::System::Nullable_1<uint16_t>)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteValue)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3f00a8c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5b478a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -687,8 +687,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteWhitespace)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00b3c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b47964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -703,8 +703,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteComment)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00b9c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b479c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -719,8 +719,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteStartArray)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f00bfc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5b47a1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -736,7 +736,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteEndArray)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f00c48;
+  constexpr static std::size_t addrs = 0x5b47a6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -752,7 +752,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteStartConstructor)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00c94;
+  constexpr static std::size_t addrs = 0x5b47ab8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -768,7 +768,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteEndConstructor)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f00cf4;
+  constexpr static std::size_t addrs = 0x5b47b18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -784,7 +784,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00d40;
+  constexpr static std::size_t addrs = 0x5b47b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -800,7 +800,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW, bool)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WritePropertyName)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3f00da0;
+  constexpr static std::size_t addrs = 0x5b47bc4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -815,8 +815,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteStartObject)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f00e0c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5b47c30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -832,7 +832,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteEndObject)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f00e58;
+  constexpr static std::size_t addrs = 0x5b47c80;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -847,8 +847,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteRawValue)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00ea4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5b47ccc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -863,8 +863,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)(::StringW)>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::WriteRaw)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3f00f04;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5b47d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -880,7 +880,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::Close)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3f00f64;
+  constexpr static std::size_t addrs = 0x5b47d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -896,7 +896,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::TraceJsonWriter::*)()>(
     &::Newtonsoft::Json::Serialization::TraceJsonWriter::Flush)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3f00fb0;
+  constexpr static std::size_t addrs = 0x5b47dd8;
 
   inline static ::MethodInfo const* methodInfo() {
 

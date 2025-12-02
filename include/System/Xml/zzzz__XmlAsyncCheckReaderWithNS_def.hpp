@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlAsyncCheckReader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlAsyncCheckReaderWithNS)
@@ -25,7 +24,7 @@ class XmlAsyncCheckReaderWithNS;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::XmlAsyncCheckReaderWithNS);
-// Dependencies System.Xml.IXmlNamespaceResolver, System.Xml.XmlAsyncCheckReader
+// Dependencies System.Xml.XmlAsyncCheckReader
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlAsyncCheckReaderWithNS
@@ -41,13 +40,13 @@ public:
 
   static inline ::System::Xml::XmlAsyncCheckReaderWithNS* New_ctor(::System::Xml::XmlReader* reader);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x430e164, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.GetNamespacesInScope, addr 0x5f9832c, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* System_Xml_IXmlNamespaceResolver_GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x430e20c, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupNamespace, addr 0x5f983e0, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupNamespace(::StringW prefix);
 
-  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x430e2b8, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method System.Xml.IXmlNamespaceResolver.LookupPrefix, addr 0x5f98498, size 0xb8, virtual true, abstract: false, final true
   inline ::StringW System_Xml_IXmlNamespaceResolver_LookupPrefix(::StringW namespaceName);
 
   constexpr ::System::Xml::IXmlNamespaceResolver* const& __cordl_internal_get_readerAsIXmlNamespaceResolver() const;
@@ -56,7 +55,7 @@ public:
 
   constexpr void __cordl_internal_set_readerAsIXmlNamespaceResolver(::System::Xml::IXmlNamespaceResolver* value);
 
-  /// @brief Method .ctor, addr 0x430d558, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f973f0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlReader* reader);
 
   /// @brief Convert to "::System::Xml::IXmlNamespaceResolver"
@@ -77,7 +76,7 @@ public:
   XmlAsyncCheckReaderWithNS(XmlAsyncCheckReaderWithNS const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7214 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9277 };
 
   /// @brief Field readerAsIXmlNamespaceResolver, offset: 0x20, size: 0x8, def value: None
   ::System::Xml::IXmlNamespaceResolver* ___readerAsIXmlNamespaceResolver;

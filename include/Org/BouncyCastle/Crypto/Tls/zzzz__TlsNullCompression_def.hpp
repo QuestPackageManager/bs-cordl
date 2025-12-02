@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCompression_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TlsNullCompression)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCompression;
+}
 namespace System::IO {
 class Stream;
 }
@@ -15,7 +17,7 @@ class TlsNullCompression;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsNullCompression);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCompression, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsNullCompression
@@ -25,15 +27,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCompression*() noexcept;
 
-  /// @brief Method Compress, addr 0x2434460, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Compress, addr 0x3362a44, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Compress(::System::IO::Stream* output);
 
-  /// @brief Method Decompress, addr 0x2434468, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Decompress, addr 0x3362a4c, size 0x8, virtual true, abstract: false, final false
   inline ::System::IO::Stream* Decompress(::System::IO::Stream* output);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsNullCompression* New_ctor();
 
-  /// @brief Method .ctor, addr 0x2434470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3362a54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCompression"

@@ -47,19 +47,19 @@ public:
 
   constexpr void __cordl_internal_set__message(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3dfa21c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a41158, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dfa23c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a41164, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3dfa268, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a41170, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, bool error);
 
-  /// @brief Method get_IsError, addr 0x3dfa2a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsError, addr 0x5a41184, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsError();
 
-  /// @brief Method get_Message, addr 0x3dfa298, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Message, addr 0x5a4117c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Message();
 
 protected:
@@ -77,7 +77,7 @@ public:
   ObsoleteAttribute(ObsoleteAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2458 };
 
   /// @brief Field _message, offset: 0x10, size: 0x8, def value: None
   ::StringW ____message;

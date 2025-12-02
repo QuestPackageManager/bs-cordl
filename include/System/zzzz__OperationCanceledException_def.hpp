@@ -48,22 +48,22 @@ public:
 
   constexpr void __cordl_internal_set__cancellationToken(::System::Threading::CancellationToken value);
 
-  /// @brief Method .ctor, addr 0x3dfa2b8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a4119c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dfa3d8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a412c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3dfa388, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a41270, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3dfa3a8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a41290, size 0x30, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Threading::CancellationToken token);
 
-  /// @brief Method get_CancellationToken, addr 0x3dfa2a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CancellationToken, addr 0x5a4118c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Threading::CancellationToken get_CancellationToken();
 
-  /// @brief Method set_CancellationToken, addr 0x3dfa2b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_CancellationToken, addr 0x5a41194, size 0x8, virtual false, abstract: false, final false
   inline void set_CancellationToken(::System::Threading::CancellationToken value);
 
 protected:
@@ -81,7 +81,7 @@ public:
   OperationCanceledException(OperationCanceledException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2454 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2459 };
 
   /// @brief Field _cancellationToken, offset: 0x90, size: 0x8, def value: None
   ::System::Threading::CancellationToken ____cancellationToken;

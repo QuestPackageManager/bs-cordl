@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 CORDL_MODULE_EXPORT(IMoveHandler)
 namespace UnityEngine::EventSystems {
 class AxisEventData;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
 }
 // Forward declare root types
 namespace UnityEngine::EventSystems {
@@ -14,7 +16,7 @@ class IMoveHandler;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::EventSystems::IMoveHandler);
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler
+// Dependencies
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: UnityEngine.EventSystems.IMoveHandler
@@ -35,7 +37,7 @@ public:
   IMoveHandler(IMoveHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15201 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

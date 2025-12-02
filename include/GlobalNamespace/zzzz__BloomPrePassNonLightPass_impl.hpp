@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BloomPrePassNonLightPass_ExecutionTimeType (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(
     &::GlobalNamespace::BloomPrePassNonLightPass::get_executionTimeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d8e00;
+  constexpr static std::size_t addrs = 0x56504b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* (*)()>(
     &::GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassAfterBlurList)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39d8e08;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x56504c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
@@ -48,8 +48,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::BloomPrePassNonLightPass>>* (*)()>(
     &::GlobalNamespace::BloomPrePassNonLightPass::get_bloomPrePassBeforeBlurList)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x39d8e60;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x565051c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(&::GlobalNamespace::BloomPrePassNonLightPass::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d7750;
+  constexpr static std::size_t addrs = 0x564ecc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(&::GlobalNamespace::BloomPrePassNonLightPass::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d8eb8;
+  constexpr static std::size_t addrs = 0x5650578;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(&::GlobalNamespace::BloomPrePassNonLightPass::Register)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x39d6644;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x564dac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(), "Register",
@@ -102,8 +102,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(&::GlobalNamespace::BloomPrePassNonLightPass::Unregister)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x39d67f8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x564dc84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(),
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(&::GlobalNamespace::BloomPrePassNonLightPass::OnValidate)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39d82ac;
+  constexpr static std::size_t addrs = 0x564f8e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,8 +144,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassNonLightPass::*)()>(&::GlobalNamespace::BloomPrePassNonLightPass::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d628c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x564d70c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassNonLightPass*>::get(), ".ctor",

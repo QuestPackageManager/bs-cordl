@@ -3,17 +3,24 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__Attribute_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRTelemetry)
+namespace GlobalNamespace {
+struct OVRPlugin_Bool;
+}
 namespace GlobalNamespace {
 struct OVRTelemetryMarker;
 }
 namespace GlobalNamespace {
 struct OVRTelemetry_MarkerPoint;
+}
+namespace GlobalNamespace {
+class OVRTelemetry_MarkersAttribute;
 }
 namespace GlobalNamespace {
 class OVRTelemetry_NullTelemetryClient;
@@ -25,11 +32,23 @@ namespace GlobalNamespace {
 class OVRTelemetry_TelemetryClient;
 }
 namespace GlobalNamespace {
+struct Qpl_OVRPlugin_Annotation;
+}
+namespace GlobalNamespace {
 struct Qpl_OVRPlugin_ResultType;
+}
+namespace GlobalNamespace {
+struct Qpl_OVRPlugin_Variant;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRTelemetry;
+}
+namespace GlobalNamespace {
+class OVRTelemetry_MarkersAttribute;
 }
 namespace GlobalNamespace {
 class OVRTelemetry_NullTelemetryClient;
@@ -45,11 +64,12 @@ struct OVRTelemetry_MarkerPoint;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRTelemetry);
+MARK_REF_PTR_T(::GlobalNamespace::OVRTelemetry_MarkersAttribute);
 MARK_REF_PTR_T(::GlobalNamespace::OVRTelemetry_NullTelemetryClient);
 MARK_REF_PTR_T(::GlobalNamespace::OVRTelemetry_QPLTelemetryClient);
 MARK_REF_PTR_T(::GlobalNamespace::OVRTelemetry_TelemetryClient);
 MARK_VAL_T(::GlobalNamespace::OVRTelemetry_MarkerPoint);
-// Dependencies System.IDisposable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRTelemetry/MarkerPoint
@@ -61,13 +81,13 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x401aea8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5cc9c04, size 0x6c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method .ctor, addr 0x401ae20, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc9b78, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW name);
 
-  /// @brief Method get_NameHandle, addr 0x401ae18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NameHandle, addr 0x5cc9b70, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_NameHandle();
 
   /// @brief Convert to "::System::IDisposable"
@@ -81,7 +101,7 @@ public:
   constexpr OVRTelemetry_MarkerPoint(int32_t _NameHandle_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8323 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7706 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -113,18 +133,48 @@ public:
   /// @brief Method MarkerAnnotation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
+  /// @brief Method MarkerAnnotation, addr 0x5cc9c70, size 0x18, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, bool annotationValue, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0x5cc9ca0, size 0x18, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, double_t annotationValue, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0x5cc9c88, size 0x18, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, int64_t annotationValue, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0x5cc9d0c, size 0x1c, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::GlobalNamespace::OVRPlugin_Bool* annotationValues, int32_t count, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0x5cc9cf0, size 0x1c, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, double_t* annotationValues, int32_t count, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0x5cc9cd4, size 0x1c, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, int64_t* annotationValues, int32_t count, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0x5cc9cb8, size 0x1c, virtual false, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, uint8_t* annotationValues, int32_t count, int32_t instanceKey);
+
+  /// @brief Method MarkerAnnotation, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW key, ::GlobalNamespace::Qpl_OVRPlugin_Variant value, int32_t instanceKey);
+
   /// @brief Method MarkerEnd, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::Qpl_OVRPlugin_ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
+
+  /// @brief Method MarkerPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void MarkerPoint(int32_t markerId, ::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount, int32_t instanceKey, int64_t timestampMs);
+
+  /// @brief Method MarkerPoint, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void MarkerPoint(int32_t markerId, ::StringW name, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerPointCached, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
   /// @brief Method MarkerStart, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
+  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joinId);
 
   static inline ::GlobalNamespace::OVRTelemetry_TelemetryClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x401af10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc9d28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -142,7 +192,7 @@ public:
   OVRTelemetry_TelemetryClient(OVRTelemetry_TelemetryClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8324 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7707 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -157,27 +207,36 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRTelemetry_NullTelemetryClient : public ::GlobalNamespace::OVRTelemetry_TelemetryClient {
 public:
   // Declarations
-  /// @brief Method CreateMarkerHandle, addr 0x401af28, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method CreateMarkerHandle, addr 0x5cc9d48, size 0xc, virtual true, abstract: false, final false
   inline bool CreateMarkerHandle(::StringW name, ::ByRef<int32_t> nameHandle);
 
-  /// @brief Method DestroyMarkerHandle, addr 0x401af34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method DestroyMarkerHandle, addr 0x5cc9d54, size 0x8, virtual true, abstract: false, final false
   inline bool DestroyMarkerHandle(int32_t nameHandle);
 
-  /// @brief Method MarkerAnnotation, addr 0x401af20, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x5cc9d40, size 0x4, virtual true, abstract: false, final false
   inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
-  /// @brief Method MarkerEnd, addr 0x401af24, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x5cc9d3c, size 0x4, virtual true, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW key, ::GlobalNamespace::Qpl_OVRPlugin_Variant value, int32_t instanceKey);
+
+  /// @brief Method MarkerEnd, addr 0x5cc9d44, size 0x4, virtual true, abstract: false, final false
   inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::Qpl_OVRPlugin_ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerPointCached, addr 0x401af1c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method MarkerPoint, addr 0x5cc9d38, size 0x4, virtual true, abstract: false, final false
+  inline void MarkerPoint(int32_t markerId, ::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount, int32_t instanceKey, int64_t timestampMs);
+
+  /// @brief Method MarkerPoint, addr 0x5cc9d34, size 0x4, virtual true, abstract: false, final false
+  inline void MarkerPoint(int32_t markerId, ::StringW name, int32_t instanceKey, int64_t timestampMs);
+
+  /// @brief Method MarkerPointCached, addr 0x5cc9d30, size 0x4, virtual true, abstract: false, final false
   inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerStart, addr 0x401af18, size 0x4, virtual true, abstract: false, final false
-  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
+  /// @brief Method MarkerStart, addr 0x5cc9d2c, size 0x4, virtual true, abstract: false, final false
+  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joinId);
 
   static inline ::GlobalNamespace::OVRTelemetry_NullTelemetryClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x401ae08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc9b68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -195,7 +254,7 @@ public:
   OVRTelemetry_NullTelemetryClient(OVRTelemetry_NullTelemetryClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8325 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7708 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -210,27 +269,36 @@ namespace GlobalNamespace {
 class CORDL_TYPE OVRTelemetry_QPLTelemetryClient : public ::GlobalNamespace::OVRTelemetry_TelemetryClient {
 public:
   // Declarations
-  /// @brief Method CreateMarkerHandle, addr 0x401af98, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method CreateMarkerHandle, addr 0x5cc9e34, size 0x10, virtual true, abstract: false, final false
   inline bool CreateMarkerHandle(::StringW name, ::ByRef<int32_t> nameHandle);
 
-  /// @brief Method DestroyMarkerHandle, addr 0x401afa8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method DestroyMarkerHandle, addr 0x5cc9e44, size 0xc, virtual true, abstract: false, final false
   inline bool DestroyMarkerHandle(int32_t nameHandle);
 
-  /// @brief Method MarkerAnnotation, addr 0x401af68, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x5cc9de8, size 0x18, virtual true, abstract: false, final false
   inline void MarkerAnnotation(int32_t markerId, ::StringW annotationKey, ::StringW annotationValue, int32_t instanceKey);
 
-  /// @brief Method MarkerEnd, addr 0x401af80, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MarkerAnnotation, addr 0x5cc9e00, size 0x1c, virtual true, abstract: false, final false
+  inline void MarkerAnnotation(int32_t markerId, ::StringW key, ::GlobalNamespace::Qpl_OVRPlugin_Variant value, int32_t instanceKey);
+
+  /// @brief Method MarkerEnd, addr 0x5cc9e1c, size 0x18, virtual true, abstract: false, final false
   inline void MarkerEnd(int32_t markerId, ::GlobalNamespace::Qpl_OVRPlugin_ResultType resultTypeId, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerPointCached, addr 0x401af50, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method MarkerPoint, addr 0x5cc9dc8, size 0x20, virtual true, abstract: false, final false
+  inline void MarkerPoint(int32_t markerId, ::StringW name, ::GlobalNamespace::Qpl_OVRPlugin_Annotation* annotations, int32_t annotationCount, int32_t instanceKey, int64_t timestampMs);
+
+  /// @brief Method MarkerPoint, addr 0x5cc9db0, size 0x18, virtual true, abstract: false, final false
+  inline void MarkerPoint(int32_t markerId, ::StringW name, int32_t instanceKey, int64_t timestampMs);
+
+  /// @brief Method MarkerPointCached, addr 0x5cc9d98, size 0x18, virtual true, abstract: false, final false
   inline void MarkerPointCached(int32_t markerId, int32_t nameHandle, int32_t instanceKey, int64_t timestampMs);
 
-  /// @brief Method MarkerStart, addr 0x401af3c, size 0x14, virtual true, abstract: false, final false
-  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
+  /// @brief Method MarkerStart, addr 0x5cc9d5c, size 0x3c, virtual true, abstract: false, final false
+  inline void MarkerStart(int32_t markerId, int32_t instanceKey, int64_t timestampMs, ::StringW joinId);
 
   static inline ::GlobalNamespace::OVRTelemetry_QPLTelemetryClient* New_ctor();
 
-  /// @brief Method .ctor, addr 0x401ae10, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cc9b6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -248,12 +316,47 @@ public:
   OVRTelemetry_QPLTelemetryClient(OVRTelemetry_QPLTelemetryClient const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8326 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7709 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTelemetry_QPLTelemetryClient, 0x10>, "Size mismatch!");
+
+} // namespace GlobalNamespace
+// Dependencies System.Attribute
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: OVRTelemetry/MarkersAttribute
+class CORDL_TYPE OVRTelemetry_MarkersAttribute : public ::System::Attribute {
+public:
+  // Declarations
+  static inline ::GlobalNamespace::OVRTelemetry_MarkersAttribute* New_ctor();
+
+  /// @brief Method .ctor, addr 0x5cc9e50, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr OVRTelemetry_MarkersAttribute();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttribute&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetry_MarkersAttribute", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  OVRTelemetry_MarkersAttribute(OVRTelemetry_MarkersAttribute const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7710 };
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTelemetry_MarkersAttribute, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies System.Object
@@ -264,6 +367,8 @@ class CORDL_TYPE OVRTelemetry : public ::System::Object {
 public:
   // Declarations
   using MarkerPoint = ::GlobalNamespace::OVRTelemetry_MarkerPoint;
+
+  using MarkersAttribute = ::GlobalNamespace::OVRTelemetry_MarkersAttribute;
 
   using NullTelemetryClient = ::GlobalNamespace::OVRTelemetry_NullTelemetryClient;
 
@@ -280,13 +385,22 @@ public:
   /// @brief Field _sdkVersionString, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__sdkVersionString, put = setStaticF__sdkVersionString)) ::StringW _sdkVersionString;
 
-  /// @brief Method AddSDKVersionAnnotation, addr 0x401abd8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method AddPlayModeOrigin, addr 0x5cc99b0, size 0xa8, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::OVRTelemetryMarker AddPlayModeOrigin(::GlobalNamespace::OVRTelemetryMarker marker);
+
+  /// @brief Method AddSDKVersionAnnotation, addr 0x5cc9718, size 0x140, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker AddSDKVersionAnnotation(::GlobalNamespace::OVRTelemetryMarker marker);
 
-  /// @brief Method SendEvent, addr 0x401aaa4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetPlayModeOrigin, addr 0x5cc98d8, size 0xd8, virtual false, abstract: false, final false
+  static inline ::StringW GetPlayModeOrigin();
+
+  /// @brief Method GetTelemetrySettingString, addr 0x5cc9a58, size 0x78, virtual false, abstract: false, final false
+  static inline ::StringW GetTelemetrySettingString(bool value);
+
+  /// @brief Method SendEvent, addr 0x5cc9638, size 0xb8, virtual false, abstract: false, final false
   static inline void SendEvent(int32_t markerId, ::GlobalNamespace::Qpl_OVRPlugin_ResultType result);
 
-  /// @brief Method Start, addr 0x401a9ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cc94fc, size 0x20, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetryMarker Start(int32_t markerId, int32_t instanceKey, int64_t timestampMs);
 
   static inline ::GlobalNamespace::OVRTelemetry_TelemetryClient* getStaticF_ActiveClient();
@@ -295,10 +409,10 @@ public:
 
   static inline ::StringW getStaticF__sdkVersionString();
 
-  /// @brief Method get_Client, addr 0x401a96c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Client, addr 0x5cc9524, size 0x6c, virtual false, abstract: false, final false
   static inline ::GlobalNamespace::OVRTelemetry_TelemetryClient* get_Client();
 
-  /// @brief Method get_IsActive, addr 0x401a94c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_IsActive, addr 0x5cc951c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsActive();
 
   static inline void setStaticF_ActiveClient(::GlobalNamespace::OVRTelemetry_TelemetryClient* value);
@@ -322,7 +436,7 @@ public:
   OVRTelemetry(OVRTelemetry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8327 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7711 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -332,6 +446,8 @@ static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTelemetry, 0
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRTelemetry);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTelemetry*, "", "OVRTelemetry");
+NEED_NO_BOX(::GlobalNamespace::OVRTelemetry_MarkersAttribute);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTelemetry_MarkersAttribute*, "", "OVRTelemetry/MarkersAttribute");
 NEED_NO_BOX(::GlobalNamespace::OVRTelemetry_NullTelemetryClient);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTelemetry_NullTelemetryClient*, "", "OVRTelemetry/NullTelemetryClient");
 NEED_NO_BOX(::GlobalNamespace::OVRTelemetry_QPLTelemetryClient);

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -19,6 +18,9 @@ namespace HMUI {
 class TableCell;
 }
 namespace HMUI {
+class TableView_IDataSource;
+}
+namespace HMUI {
 class TableView;
 }
 namespace System::Collections::Generic {
@@ -30,7 +32,7 @@ class ResultsTableView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ResultsTableView);
-// Dependencies HMUI.TableView::IDataSource, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ResultsTableView
@@ -53,18 +55,18 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x3b06338, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x56e7ee0, size 0x1e4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3b06290, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x56e7e34, size 0x8, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
   static inline ::GlobalNamespace::ResultsTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3b06298, size 0xa0, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x56e7e3c, size 0xa4, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x3b06508, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x56e80c4, size 0x30, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* dataList);
 
   constexpr ::UnityW<::GlobalNamespace::ResultsTableCell> const& __cordl_internal_get__cellPrefab() const;
@@ -91,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__tableView(::UnityW<::HMUI::TableView> value);
 
-  /// @brief Method .ctor, addr 0x3b0653c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e80f4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
@@ -112,7 +114,7 @@ public:
   ResultsTableView(ResultsTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5003 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6582 };
 
   /// @brief Field kCellIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellIdentifier{ u"Cell" };

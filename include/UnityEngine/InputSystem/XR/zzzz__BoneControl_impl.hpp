@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::IntegerControl* (::UnityEngine::InputSystem::XR::BoneControl::*)()>(
     &::UnityEngine::InputSystem::XR::BoneControl::get_parentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7778;
+  constexpr static std::size_t addrs = 0x636ca08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(),
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::Controls::IntegerControl*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::set_parentBoneIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7780;
+  constexpr static std::size_t addrs = 0x636ca10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector3Control* (::UnityEngine::InputSystem::XR::BoneControl::*)()>(
     &::UnityEngine::InputSystem::XR::BoneControl::get_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7788;
+  constexpr static std::size_t addrs = 0x636ca18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(),
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::Controls::Vector3Control*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::set_position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7790;
+  constexpr static std::size_t addrs = 0x636ca20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::QuaternionControl* (::UnityEngine::InputSystem::XR::BoneControl::*)()>(
     &::UnityEngine::InputSystem::XR::BoneControl::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e7798;
+  constexpr static std::size_t addrs = 0x636ca28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(),
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::Controls::QuaternionControl*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::set_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45e77a0;
+  constexpr static std::size_t addrs = 0x636ca30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,8 +98,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)()>(&::UnityEngine::InputSystem::XR::BoneControl::FinishSetup)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x45e77a8;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x636ca38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,10 +111,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::BoneControl.ReadUnprocessedValueFromState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Bone (::UnityEngine::InputSystem::XR::BoneControl::*)(::cordl_internals::Ptr<void>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::XR::Bone (::UnityEngine::InputSystem::XR::BoneControl::*)(void*)>(
     &::UnityEngine::InputSystem::XR::BoneControl::ReadUnprocessedValueFromState)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x45e78bc;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x636cb54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,10 +126,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::XR::BoneControl.WriteValueIntoState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(
-    ::UnityEngine::InputSystem::XR::Bone, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::XR::BoneControl::WriteValueIntoState)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)(::UnityEngine::InputSystem::XR::Bone, void*)>(
+    &::UnityEngine::InputSystem::XR::BoneControl::WriteValueIntoState)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x45e79ac;
+  constexpr static std::size_t addrs = 0x636cc50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::XR::BoneControl::*)()>(&::UnityEngine::InputSystem::XR::BoneControl::_ctor)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x45e7a30;
+  constexpr static std::size_t addrs = 0x636ccd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(), ".ctor",
@@ -225,12 +225,12 @@ inline void UnityEngine::InputSystem::XR::BoneControl::FinishSetup() {
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::XR::Bone UnityEngine::InputSystem::XR::BoneControl::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+inline ::UnityEngine::InputSystem::XR::Bone UnityEngine::InputSystem::XR::BoneControl::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::XR::Bone, false>(this, ___internal_method, statePtr);
 }
-inline void UnityEngine::InputSystem::XR::BoneControl::WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, ::cordl_internals::Ptr<void> statePtr) {
+inline void UnityEngine::InputSystem::XR::BoneControl::WriteValueIntoState(::UnityEngine::InputSystem::XR::Bone value, void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::XR::BoneControl*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);

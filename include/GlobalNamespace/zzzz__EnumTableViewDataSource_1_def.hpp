@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -16,6 +15,9 @@ namespace HMUI {
 class TableCell;
 }
 namespace HMUI {
+class TableView_IDataSource;
+}
+namespace HMUI {
 class TableView;
 }
 // Forward declare root types
@@ -24,7 +26,7 @@ template <typename T> class EnumTableViewDataSource_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::EnumTableViewDataSource_1);
-// Dependencies HMUI.TableView::IDataSource, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -107,7 +109,7 @@ public:
   EnumTableViewDataSource_1(EnumTableViewDataSource_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5188 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6763 };
 
   /// @brief Field kCellReuseIdentifier offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellReuseIdentifier{ u"Cell" };

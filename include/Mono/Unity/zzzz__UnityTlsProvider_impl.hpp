@@ -17,8 +17,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x410f0e0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5db8d7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -31,8 +31,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Guid (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_ID)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x410f120;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5db8dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsSslStream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410f178;
+  constexpr static std::size_t addrs = 0x5db8e1c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsMonoExtensions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410f180;
+  constexpr static std::size_t addrs = 0x5db8e24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsConnectionInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410f188;
+  constexpr static std::size_t addrs = 0x5db8e2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::get_SupportsCleanShutdown)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410f190;
+  constexpr static std::size_t addrs = 0x5db8e34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Authentication::SslProtocols (::Mono::Unity::UnityTlsProvider::*)()>(
     &::Mono::Unity::UnityTlsProvider::get_SupportedProtocols)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410f198;
+  constexpr static std::size_t addrs = 0x5db8e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +118,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Net::Security::MobileAuthenticatedStream* (
     ::Mono::Unity::UnityTlsProvider::*)(::System::Net::Security::SslStream*, ::System::IO::Stream*, bool, ::Mono::Security::Interface::MonoTlsSettings*)>(
     &::Mono::Unity::UnityTlsProvider::CreateSslStream)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x410f1a0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5db8e44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -132,18 +132,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Unity::UnityTls_unitytls_x509verify_result (*)(
-    ::cordl_internals::Ptr<void>, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>)>(
+    void*, ::Mono::Unity::UnityTls_unitytls_x509_ref, ::Mono::Unity::UnityTls_unitytls_x509verify_result, ::Mono::Unity::UnityTls_unitytls_errorstate*)>(
     &::Mono::Unity::UnityTlsProvider::x509verify_callback)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x410f07c;
+  constexpr static std::size_t addrs = 0x5db8d18;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsProvider*>::get(), "x509verify_callback", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509_ref>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509verify_result>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsProvider*>::get(), "x509verify_callback", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509_ref>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509verify_result>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_errorstate*>::get() })));
     return ___internal_method;
   }
 };
@@ -154,8 +154,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::ChainValidationHelper*, ::StringW, bool, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, bool,
     ::ByRef<::System::Security::Cryptography::X509Certificates::X509Chain*>, ::ByRef<::System::Net::Security::SslPolicyErrors>, ::ByRef<int32_t>)>(
     &::Mono::Unity::UnityTlsProvider::ValidateCertificate)> {
-  constexpr static std::size_t size = 0x958;
-  constexpr static std::size_t addrs = 0x410f2bc;
+  constexpr static std::size_t size = 0x890;
+  constexpr static std::size_t addrs = 0x5db8f68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -168,8 +168,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Unity::UnityTlsProvider::*)()>(&::Mono::Unity::UnityTlsProvider::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x410fc14;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5db98a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsProvider*>::get(), ".ctor",
@@ -218,15 +218,15 @@ inline ::Mono::Net::Security::MobileAuthenticatedStream* Mono::Unity::UnityTlsPr
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsProvider*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::Mono::Net::Security::MobileAuthenticatedStream*, false>(this, ___internal_method, sslStream, innerStream, leaveInnerStreamOpen, settings);
 }
-inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTlsProvider::x509verify_callback(::cordl_internals::Ptr<void> userData, ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
+inline ::Mono::Unity::UnityTls_unitytls_x509verify_result Mono::Unity::UnityTlsProvider::x509verify_callback(void* userData, ::Mono::Unity::UnityTls_unitytls_x509_ref cert,
                                                                                                              ::Mono::Unity::UnityTls_unitytls_x509verify_result result,
-                                                                                                             ::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate> errorState) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsProvider*>::get(), "x509verify_callback", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509_ref>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509verify_result>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::Mono::Unity::UnityTls_unitytls_errorstate>>::get() })));
+                                                                                                             ::Mono::Unity::UnityTls_unitytls_errorstate* errorState) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Unity::UnityTlsProvider*>::get(), "x509verify_callback", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509_ref>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_x509verify_result>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Unity::UnityTls_unitytls_errorstate*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Mono::Unity::UnityTls_unitytls_x509verify_result, false>(nullptr, ___internal_method, userData, cert, result, errorState);
 }
 inline bool Mono::Unity::UnityTlsProvider::ValidateCertificate(::Mono::Net::Security::ChainValidationHelper* validator, ::StringW targetHost, bool serverMode,

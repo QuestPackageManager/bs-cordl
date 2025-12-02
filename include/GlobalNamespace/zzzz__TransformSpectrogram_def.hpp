@@ -58,12 +58,12 @@ public:
   __declspec(property(get = __cordl_internal_get__transforms, put = __cordl_internal_set__transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>
       _transforms;
 
-  /// @brief Method Awake, addr 0x3b9f2fc, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x578dd00, size 0x184, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::TransformSpectrogram* New_ctor();
 
-  /// @brief Method Update, addr 0x3b9f484, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x578de84, size 0x270, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::LightAxis const& __cordl_internal_get__axis() const;
@@ -120,7 +120,7 @@ public:
 
   constexpr void __cordl_internal_set__transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b9f6ec, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578e0f4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -138,7 +138,7 @@ public:
   TransformSpectrogram(TransformSpectrogram const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4378 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5961 };
 
   /// @brief Field _transforms, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ____transforms;

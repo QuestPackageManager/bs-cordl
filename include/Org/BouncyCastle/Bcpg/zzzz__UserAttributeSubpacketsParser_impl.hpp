@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x264bc84;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x357b2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::UserAttributeSubpacket* (::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::*)()>(
     &::Org::BouncyCastle::Bcpg::UserAttributeSubpacketsParser::ReadPacket)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x264bdb4;
+  constexpr static std::size_t size = 0x2b0;
+  constexpr static std::size_t addrs = 0x357b394;
 
   inline static ::MethodInfo const* methodInfo() {
 

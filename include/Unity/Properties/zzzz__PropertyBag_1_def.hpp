@@ -4,18 +4,37 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Unity/Properties/Internal/zzzz__IPropertyBagRegister_def.hpp"
-#include "Unity/Properties/zzzz__IConstructor_1_def.hpp"
-#include "Unity/Properties/zzzz__IConstructor_def.hpp"
-#include "Unity/Properties/zzzz__IPropertyBag_1_def.hpp"
-#include "Unity/Properties/zzzz__IPropertyBag_def.hpp"
 #include "Unity/Properties/zzzz__InstantiationKind_def.hpp"
 CORDL_MODULE_EXPORT(PropertyBag_1)
+namespace System {
+class Object;
+}
+namespace Unity::Properties::Internal {
+class IPropertyBagRegister;
+}
+namespace Unity::Properties {
+template <typename T> class IConstructor_1;
+}
+namespace Unity::Properties {
+class IConstructor;
+}
+namespace Unity::Properties {
+class IPropertyBagVisitor;
+}
+namespace Unity::Properties {
+template <typename TContainer> class IPropertyBag_1;
+}
+namespace Unity::Properties {
+class IPropertyBag;
+}
 namespace Unity::Properties {
 class ITypeVisitor;
 }
 namespace Unity::Properties {
 struct InstantiationKind;
+}
+namespace Unity::Properties {
+template <typename TContainer> struct PropertyCollection_1;
 }
 // Forward declare root types
 namespace Unity::Properties {
@@ -23,8 +42,7 @@ template <typename TContainer> class PropertyBag_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Properties::PropertyBag_1);
-// Dependencies System.Object, Unity.Properties.IConstructor, Unity.Properties.IConstructor`1<T>, Unity.Properties.IPropertyBag, Unity.Properties.IPropertyBag`1<TContainer>,
-// Unity.Properties.InstantiationKind, Unity.Properties.Internal.IPropertyBagRegister
+// Dependencies System.Object, Unity.Properties.InstantiationKind
 namespace Unity::Properties {
 // cpp template
 template <typename TContainer>
@@ -59,6 +77,12 @@ public:
   /// @brief Method Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Accept(::Unity::Properties::ITypeVisitor* visitor);
 
+  /// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties();
+
+  /// @brief Method GetProperties, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::Unity::Properties::PropertyCollection_1<TContainer> GetProperties(::ByRef<TContainer> container);
+
   /// @brief Method Instantiate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline TContainer Instantiate();
 
@@ -69,6 +93,18 @@ public:
 
   /// @brief Method Unity.Properties.IConstructor.get_InstantiationKind, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::Unity::Properties::InstantiationKind Unity_Properties_IConstructor_get_InstantiationKind();
+
+  /// @brief Method Unity.Properties.IPropertyBag.Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Unity_Properties_IPropertyBag_Accept(::Unity::Properties::IPropertyBagVisitor* visitor, ::ByRef<::System::Object*> container);
+
+  /// @brief Method Unity.Properties.IPropertyBag<TContainer>.Accept, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void Unity_Properties_IPropertyBag_TContainer__Accept(::Unity::Properties::IPropertyBagVisitor* visitor, ::ByRef<TContainer> container);
+
+  /// @brief Method Unity.Properties.IPropertyBag<TContainer>.GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity_Properties_IPropertyBag_TContainer__GetProperties();
+
+  /// @brief Method Unity.Properties.IPropertyBag<TContainer>.GetProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity_Properties_IPropertyBag_TContainer__GetProperties(::ByRef<TContainer> container);
 
   /// @brief Method Unity.Properties.Internal.IPropertyBagRegister.Register, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void Unity_Properties_Internal_IPropertyBagRegister_Register();
@@ -115,7 +151,7 @@ public:
   PropertyBag_1(PropertyBag_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17477 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19358 };
 
   /// @brief Field <InstantiationKind>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::Unity::Properties::InstantiationKind ____InstantiationKind_k__BackingField;

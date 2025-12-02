@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoader::*)()>(&::UnityEngine::XR::Management::XRLoader::Initialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48319d4;
+  constexpr static std::size_t addrs = 0x67b2334;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoader::*)()>(&::UnityEngine::XR::Management::XRLoader::Start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48319dc;
+  constexpr static std::size_t addrs = 0x67b233c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoader::*)()>(&::UnityEngine::XR::Management::XRLoader::Stop)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48319e4;
+  constexpr static std::size_t addrs = 0x67b2344;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Management::XRLoader::*)()>(&::UnityEngine::XR::Management::XRLoader::Deinitialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48319ec;
+  constexpr static std::size_t addrs = 0x67b234c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::Rendering::GraphicsDeviceType>* (
     ::UnityEngine::XR::Management::XRLoader::*)(bool)>(&::UnityEngine::XR::Management::XRLoader::GetSupportedGraphicsDeviceTypes)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x48319f4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x67b2354;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::Management::XRLoader::*)()>(&::UnityEngine::XR::Management::XRLoader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4831a5c;
+  constexpr static std::size_t addrs = 0x67b23c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Management::XRLoader*>::get(), ".ctor",

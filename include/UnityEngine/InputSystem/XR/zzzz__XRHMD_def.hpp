@@ -24,27 +24,27 @@ namespace UnityEngine::InputSystem::XR {
 class CORDL_TYPE XRHMD : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Field <centerEyePosition>k__BackingField, offset 0x1b0, size 0x8
+  /// @brief Field <centerEyePosition>k__BackingField, offset 0x1c8, size 0x8
   __declspec(property(get = __cordl_internal_get__centerEyePosition_k__BackingField,
                       put = __cordl_internal_set__centerEyePosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _centerEyePosition_k__BackingField;
 
-  /// @brief Field <centerEyeRotation>k__BackingField, offset 0x1b8, size 0x8
+  /// @brief Field <centerEyeRotation>k__BackingField, offset 0x1d0, size 0x8
   __declspec(property(get = __cordl_internal_get__centerEyeRotation_k__BackingField,
                       put = __cordl_internal_set__centerEyeRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _centerEyeRotation_k__BackingField;
 
-  /// @brief Field <leftEyePosition>k__BackingField, offset 0x190, size 0x8
+  /// @brief Field <leftEyePosition>k__BackingField, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get__leftEyePosition_k__BackingField,
                       put = __cordl_internal_set__leftEyePosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _leftEyePosition_k__BackingField;
 
-  /// @brief Field <leftEyeRotation>k__BackingField, offset 0x198, size 0x8
+  /// @brief Field <leftEyeRotation>k__BackingField, offset 0x1b0, size 0x8
   __declspec(property(get = __cordl_internal_get__leftEyeRotation_k__BackingField,
                       put = __cordl_internal_set__leftEyeRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _leftEyeRotation_k__BackingField;
 
-  /// @brief Field <rightEyePosition>k__BackingField, offset 0x1a0, size 0x8
+  /// @brief Field <rightEyePosition>k__BackingField, offset 0x1b8, size 0x8
   __declspec(property(get = __cordl_internal_get__rightEyePosition_k__BackingField,
                       put = __cordl_internal_set__rightEyePosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _rightEyePosition_k__BackingField;
 
-  /// @brief Field <rightEyeRotation>k__BackingField, offset 0x1a8, size 0x8
+  /// @brief Field <rightEyeRotation>k__BackingField, offset 0x1c0, size 0x8
   __declspec(property(get = __cordl_internal_get__rightEyeRotation_k__BackingField,
                       put = __cordl_internal_set__rightEyeRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _rightEyeRotation_k__BackingField;
 
@@ -60,7 +60,7 @@ public:
 
   __declspec(property(get = get_rightEyeRotation, put = set_rightEyeRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* rightEyeRotation;
 
-  /// @brief Method FinishSetup, addr 0x45e4490, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x63693b4, size 0x170, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::UnityEngine::InputSystem::XR::XRHMD* New_ctor();
@@ -101,43 +101,43 @@ public:
 
   constexpr void __cordl_internal_set__rightEyeRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method .ctor, addr 0x45e4600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6369524, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_centerEyePosition, addr 0x45e4470, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyePosition, addr 0x6369394, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_centerEyePosition();
 
-  /// @brief Method get_centerEyeRotation, addr 0x45e4480, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_centerEyeRotation, addr 0x63693a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_centerEyeRotation();
 
-  /// @brief Method get_leftEyePosition, addr 0x45e4430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyePosition, addr 0x6369354, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_leftEyePosition();
 
-  /// @brief Method get_leftEyeRotation, addr 0x45e4440, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_leftEyeRotation, addr 0x6369364, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_leftEyeRotation();
 
-  /// @brief Method get_rightEyePosition, addr 0x45e4450, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyePosition, addr 0x6369374, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_rightEyePosition();
 
-  /// @brief Method get_rightEyeRotation, addr 0x45e4460, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rightEyeRotation, addr 0x6369384, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_rightEyeRotation();
 
-  /// @brief Method set_centerEyePosition, addr 0x45e4478, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyePosition, addr 0x636939c, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_centerEyeRotation, addr 0x45e4488, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_centerEyeRotation, addr 0x63693ac, size 0x8, virtual false, abstract: false, final false
   inline void set_centerEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_leftEyePosition, addr 0x45e4438, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyePosition, addr 0x636935c, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_leftEyeRotation, addr 0x45e4448, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_leftEyeRotation, addr 0x636936c, size 0x8, virtual false, abstract: false, final false
   inline void set_leftEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
-  /// @brief Method set_rightEyePosition, addr 0x45e4458, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyePosition, addr 0x636937c, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
 
-  /// @brief Method set_rightEyeRotation, addr 0x45e4468, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_rightEyeRotation, addr 0x636938c, size 0x8, virtual false, abstract: false, final false
   inline void set_rightEyeRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
 
 protected:
@@ -155,42 +155,42 @@ public:
   XRHMD(XRHMD const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6732 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8788 };
 
-  /// @brief Field <leftEyePosition>k__BackingField, offset: 0x190, size: 0x8, def value: None
+  /// @brief Field <leftEyePosition>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____leftEyePosition_k__BackingField;
 
-  /// @brief Field <leftEyeRotation>k__BackingField, offset: 0x198, size: 0x8, def value: None
+  /// @brief Field <leftEyeRotation>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____leftEyeRotation_k__BackingField;
 
-  /// @brief Field <rightEyePosition>k__BackingField, offset: 0x1a0, size: 0x8, def value: None
+  /// @brief Field <rightEyePosition>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____rightEyePosition_k__BackingField;
 
-  /// @brief Field <rightEyeRotation>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
+  /// @brief Field <rightEyeRotation>k__BackingField, offset: 0x1c0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____rightEyeRotation_k__BackingField;
 
-  /// @brief Field <centerEyePosition>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
+  /// @brief Field <centerEyePosition>k__BackingField, offset: 0x1c8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::Vector3Control* ____centerEyePosition_k__BackingField;
 
-  /// @brief Field <centerEyeRotation>k__BackingField, offset: 0x1b8, size: 0x8, def value: None
+  /// @brief Field <centerEyeRotation>k__BackingField, offset: 0x1d0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::QuaternionControl* ____centerEyeRotation_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____leftEyePosition_k__BackingField) == 0x190, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____leftEyePosition_k__BackingField) == 0x1a8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____leftEyeRotation_k__BackingField) == 0x198, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____leftEyeRotation_k__BackingField) == 0x1b0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____rightEyePosition_k__BackingField) == 0x1a0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____rightEyePosition_k__BackingField) == 0x1b8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____rightEyeRotation_k__BackingField) == 0x1a8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____rightEyeRotation_k__BackingField) == 0x1c0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____centerEyePosition_k__BackingField) == 0x1b0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____centerEyePosition_k__BackingField) == 0x1c8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____centerEyeRotation_k__BackingField) == 0x1b8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::XR::XRHMD, ____centerEyeRotation_k__BackingField) == 0x1d0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRHMD, 0x1c0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRHMD, 0x1d8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRHMD);

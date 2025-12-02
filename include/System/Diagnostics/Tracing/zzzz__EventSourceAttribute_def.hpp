@@ -43,13 +43,13 @@ public:
 
   constexpr void __cordl_internal_set__Name_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3db88a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59cc640, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_Guid, addr 0x3db8898, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Guid, addr 0x59cc630, size 0x8, virtual false, abstract: false, final false
   inline void set_Guid(::StringW value);
 
-  /// @brief Method set_Name, addr 0x3db88a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Name, addr 0x59cc638, size 0x8, virtual false, abstract: false, final false
   inline void set_Name(::StringW value);
 
 protected:
@@ -67,7 +67,7 @@ public:
   EventSourceAttribute(EventSourceAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3675 };
 
   /// @brief Field <Guid>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Guid_k__BackingField;

@@ -60,6 +60,8 @@ public:
 
   __declspec(property(get = get_isPlayerFocused)) bool isPlayerFocused;
 
+  __declspec(property(get = get_normalizeScrollWheelDelta, put = set_normalizeScrollWheelDelta)) bool normalizeScrollWheelDelta;
+
   __declspec(property(get = get_onBeforeUpdate, put = set_onBeforeUpdate)) ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* onBeforeUpdate;
 
   __declspec(property(get = get_onDeviceDiscovered, put = set_onDeviceDiscovered)) ::System::Action_2<int32_t, ::StringW>* onDeviceDiscovered;
@@ -80,16 +82,18 @@ public:
 
   __declspec(property(get = get_screenSize)) ::UnityEngine::Vector2 screenSize;
 
+  __declspec(property(get = get_scrollWheelDeltaPerTick)) float_t scrollWheelDeltaPerTick;
+
   __declspec(property(get = get_unscaledGameTime)) float_t unscaledGameTime;
 
   /// @brief Method AllocateDeviceId, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t AllocateDeviceId();
 
   /// @brief Method DeviceCommand, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int64_t DeviceCommand(int32_t deviceId, ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputDeviceCommand> commandPtr);
+  inline int64_t DeviceCommand(int32_t deviceId, ::UnityEngine::InputSystem::LowLevel::InputDeviceCommand* commandPtr);
 
   /// @brief Method QueueEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void QueueEvent(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> ptr);
+  inline void QueueEvent(::UnityEngine::InputSystem::LowLevel::InputEvent* ptr);
 
   /// @brief Method Update, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Update(::UnityEngine::InputSystem::LowLevel::InputUpdateType type);
@@ -108,6 +112,9 @@ public:
 
   /// @brief Method get_isPlayerFocused, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_isPlayerFocused();
+
+  /// @brief Method get_normalizeScrollWheelDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_normalizeScrollWheelDelta();
 
   /// @brief Method get_onBeforeUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* get_onBeforeUpdate();
@@ -139,8 +146,14 @@ public:
   /// @brief Method get_screenSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector2 get_screenSize();
 
+  /// @brief Method get_scrollWheelDeltaPerTick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline float_t get_scrollWheelDeltaPerTick();
+
   /// @brief Method get_unscaledGameTime, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_unscaledGameTime();
+
+  /// @brief Method set_normalizeScrollWheelDelta, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void set_normalizeScrollWheelDelta(bool value);
 
   /// @brief Method set_onBeforeUpdate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void set_onBeforeUpdate(::System::Action_1<::UnityEngine::InputSystem::LowLevel::InputUpdateType>* value);
@@ -171,7 +184,7 @@ public:
   IInputRuntime(IInputRuntime const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6959 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,14 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(PlayerHeightToJumpOffsetYProvider)
 namespace GlobalNamespace {
+class IJumpOffsetYProvider;
+}
+namespace GlobalNamespace {
 class PlayerHeightDetector;
+}
+namespace System {
+class IDisposable;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -18,7 +24,7 @@ class PlayerHeightToJumpOffsetYProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayerHeightToJumpOffsetYProvider);
-// Dependencies IJumpOffsetYProvider, System.IDisposable, System.Object, Zenject.IInitializable
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PlayerHeightToJumpOffsetYProvider
@@ -42,16 +48,16 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3be8c64, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x57db754, size 0x110, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandlePlayerHeightDidChange, addr 0x3be8c2c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HandlePlayerHeightDidChange, addr 0x57db718, size 0x3c, virtual false, abstract: false, final false
   inline void HandlePlayerHeightDidChange(float_t playerHeight);
 
-  /// @brief Method Initialize, addr 0x3be8b04, size 0xf4, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x57db5a0, size 0x140, virtual true, abstract: false, final true
   inline void Initialize();
 
-  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x3be8bf8, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method JumpOffsetYForPlayerHeight, addr 0x57db6e0, size 0x38, virtual false, abstract: false, final false
   static inline float_t JumpOffsetYForPlayerHeight(float_t playerHeight);
 
   static inline ::GlobalNamespace::PlayerHeightToJumpOffsetYProvider* New_ctor();
@@ -68,10 +74,10 @@ public:
 
   constexpr void __cordl_internal_set__playerHeightDetector(::UnityW<::GlobalNamespace::PlayerHeightDetector> value);
 
-  /// @brief Method .ctor, addr 0x3be8d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57db864, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x3be8afc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x57db598, size 0x8, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
@@ -98,7 +104,7 @@ public:
   PlayerHeightToJumpOffsetYProvider(PlayerHeightToJumpOffsetYProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4645 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6224 };
 
   /// @brief Field _playerHeightDetector, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PlayerHeightDetector> ____playerHeightDetector;

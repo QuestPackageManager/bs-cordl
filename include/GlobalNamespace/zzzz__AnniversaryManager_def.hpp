@@ -37,24 +37,24 @@ public:
   __declspec(property(get = __cordl_internal_get__mainMenuViewController, put = __cordl_internal_set__mainMenuViewController)) ::UnityW<::GlobalNamespace::MainMenuViewController>
       _mainMenuViewController;
 
-  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x3aca8fc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerDidFinish, addr 0x56a4200, size 0x4, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerDidFinish(::GlobalNamespace::MainMenuViewController* mainMenuViewController, ::GlobalNamespace::MainMenuViewController_MenuButton menuButton);
 
-  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x3aca920, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleMainMenuViewControllerPromoButtonWasPressed, addr 0x56a4220, size 0x4, virtual false, abstract: false, final false
   inline void HandleMainMenuViewControllerPromoButtonWasPressed(::GlobalNamespace::DlcPromoPanelModel_PromoInfo* promoInfo);
 
   static inline ::GlobalNamespace::AnniversaryManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3aca7d0, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56a40c0, size 0x140, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3aca6bc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56a3fa8, size 0xfc, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartFireworks, addr 0x3aca7b0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StartFireworks, addr 0x56a40a4, size 0x1c, virtual false, abstract: false, final false
   inline void StartFireworks();
 
-  /// @brief Method StopFireworks, addr 0x3aca900, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method StopFireworks, addr 0x56a4204, size 0x1c, virtual false, abstract: false, final false
   inline void StopFireworks();
 
   constexpr ::UnityW<::GlobalNamespace::FireworksController> const& __cordl_internal_get__fireworksController() const;
@@ -69,7 +69,7 @@ public:
 
   constexpr void __cordl_internal_set__mainMenuViewController(::UnityW<::GlobalNamespace::MainMenuViewController> value);
 
-  /// @brief Method .ctor, addr 0x3aca924, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56a4224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -87,7 +87,7 @@ public:
   AnniversaryManager(AnniversaryManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5536 };
 
   /// @brief Field _fireworksController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FireworksController> ____fireworksController;

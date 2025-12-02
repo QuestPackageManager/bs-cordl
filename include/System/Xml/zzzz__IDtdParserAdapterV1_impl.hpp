@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/IDtdParserAdapterV1.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_impl.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapter_impl.hpp"
 #include "System/Xml/zzzz__IDtdParserAdapterV1_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
+#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
 //  Writing Method size for method: ::System::Xml::IDtdParserAdapterV1.get_V1CompatibilityMode
 template <>
 

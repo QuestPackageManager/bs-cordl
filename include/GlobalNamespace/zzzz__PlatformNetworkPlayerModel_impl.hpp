@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlatformNetworkPlayerModel.hpp"
 #include "GlobalNamespace/zzzz__BaseNetworkPlayerModel_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPlayerModelPartyConfig_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformNetworkPlayerModel_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::*)()>(
     &::GlobalNamespace::PlatformNetworkPlayerModel_CreatePartyConfig::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72664;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ab8584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::INetworkPlayer*>* (
     ::GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&::GlobalNamespace::PlatformNetworkPlayerModel::get_friends)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3e7263c;
+  constexpr static std::size_t addrs = 0x5ab855c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformNetworkPlayerModel*>::get(),
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformNetworkPlayerModel::*)()>(
     &::GlobalNamespace::PlatformNetworkPlayerModel::DestroyPartyConnection)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e7264c;
+  constexpr static std::size_t addrs = 0x5ab856c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -77,7 +77,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformNetworkPlayerModel::*)()>(&::GlobalNamespace::PlatformNetworkPlayerModel::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e72634;
+  constexpr static std::size_t addrs = 0x5ab8554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformNetworkPlayerModel*>::get(), ".ctor",

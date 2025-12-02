@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/BoneWeight.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__BoneWeight_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::BoneWeight.get_weight0
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890b70;
+  constexpr static std::size_t addrs = 0x6882938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight0",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890b78;
+  constexpr static std::size_t addrs = 0x6882940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890b80;
+  constexpr static std::size_t addrs = 0x6882948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight1",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890b88;
+  constexpr static std::size_t addrs = 0x6882950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890b90;
+  constexpr static std::size_t addrs = 0x6882958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight2",
@@ -75,7 +75,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890b98;
+  constexpr static std::size_t addrs = 0x6882960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_weight3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890ba0;
+  constexpr static std::size_t addrs = 0x6882968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_weight3",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(float_t)>(&::UnityEngine::BoneWeight::set_weight3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890ba8;
+  constexpr static std::size_t addrs = 0x6882970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -116,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890bb0;
+  constexpr static std::size_t addrs = 0x6882978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex0",
@@ -129,7 +129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex0)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890bb8;
+  constexpr static std::size_t addrs = 0x6882980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890bc0;
+  constexpr static std::size_t addrs = 0x6882988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex1",
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890bc8;
+  constexpr static std::size_t addrs = 0x6882990;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -170,7 +170,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890bd0;
+  constexpr static std::size_t addrs = 0x6882998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex2",
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890bd8;
+  constexpr static std::size_t addrs = 0x68829a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::get_boneIndex3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890be0;
+  constexpr static std::size_t addrs = 0x68829a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::BoneWeight>::get(), "get_boneIndex3",
@@ -210,7 +210,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::BoneWeight::*)(int32_t)>(&::UnityEngine::BoneWeight::set_boneIndex3)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4890be8;
+  constexpr static std::size_t addrs = 0x68829b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,8 +223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::BoneWeight::*)()>(&::UnityEngine::BoneWeight::GetHashCode)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4890bf0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x68829b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,8 +237,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoneWeight::*)(::System::Object*)>(&::UnityEngine::BoneWeight::Equals)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4890cf8;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6882a3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -251,8 +251,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::BoneWeight::*)(::UnityEngine::BoneWeight)>(&::UnityEngine::BoneWeight::Equals)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x4890d80;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6882ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

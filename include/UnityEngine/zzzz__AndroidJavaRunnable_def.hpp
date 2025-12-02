@@ -24,12 +24,12 @@ namespace UnityEngine {
 class CORDL_TYPE AndroidJavaRunnable : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x4845498, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x67f5078, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4845410, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67f5010, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -47,7 +47,7 @@ public:
   AndroidJavaRunnable(AndroidJavaRunnable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19897 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

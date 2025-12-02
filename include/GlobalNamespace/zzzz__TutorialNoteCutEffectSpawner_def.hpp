@@ -36,15 +36,15 @@ public:
   /// @brief Field _failFlyingTextSpawner, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__failFlyingTextSpawner, put = __cordl_internal_set__failFlyingTextSpawner)) ::UnityW<::GlobalNamespace::FlyingTextSpawner> _failFlyingTextSpawner;
 
-  /// @brief Method HandleNoteWasCut, addr 0x3bf1690, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x57e4794, size 0x278, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::TutorialNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bf1600, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57e46fc, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bf1570, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57e466c, size 0x90, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapObjectManager* const& __cordl_internal_get__beatmapObjectManager() const;
@@ -59,7 +59,7 @@ public:
 
   constexpr void __cordl_internal_set__failFlyingTextSpawner(::UnityW<::GlobalNamespace::FlyingTextSpawner> value);
 
-  /// @brief Method .ctor, addr 0x3bf18f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e4a0c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -77,7 +77,7 @@ public:
   TutorialNoteCutEffectSpawner(TutorialNoteCutEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4704 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6283 };
 
   /// @brief Field _failFlyingTextSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingTextSpawner> ____failFlyingTextSpawner;

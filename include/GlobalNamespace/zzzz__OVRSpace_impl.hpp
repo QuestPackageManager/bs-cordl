@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRSpace.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
 #include "System/zzzz__Guid_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRSpace_StorageLocation::OVRSpace_StorageLocation(int32_t value__) noexcept {
@@ -18,7 +18,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::get_Handle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4014170;
+  constexpr static std::size_t addrs = 0x5cbc764;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpace>::get(), "get_Handle",
@@ -30,8 +30,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSpace::*)(::ByRef<::System::Guid>)>(&::GlobalNamespace::OVRSpace::TryGetUuid)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4014178;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5cbc76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,7 +45,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::get_Valid)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x40072cc;
+  constexpr static std::size_t addrs = 0x5cb5b4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSpace>::get(), "get_Valid",
@@ -58,7 +58,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSpace::*)(uint64_t)>(&::GlobalNamespace::OVRSpace::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40141e4;
+  constexpr static std::size_t addrs = 0x5cbc7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,8 +71,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::ToString)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x40141ec;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5cbc7e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSpace::*)(::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4014270;
+  constexpr static std::size_t addrs = 0x5cbc87c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -99,8 +99,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSpace::*)(::System::Object*)>(&::GlobalNamespace::OVRSpace::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4014280;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5cbc88c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRSpace::*)()>(&::GlobalNamespace::OVRSpace::GetHashCode)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x40142f8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5cbc908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSpace, ::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::op_Equality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4014318;
+  constexpr static std::size_t addrs = 0x5cbc914;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::OVRSpace, ::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::op_Inequality)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4014324;
+  constexpr static std::size_t addrs = 0x5cbc920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -158,7 +158,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRSpace (*)(uint64_t)>(&::GlobalNamespace::OVRSpace::op_Implicit___GlobalNamespace__OVRSpace)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x40072c8;
+  constexpr static std::size_t addrs = 0x5cb114c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -172,7 +172,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::GlobalNamespace::OVRSpace)>(&::GlobalNamespace::OVRSpace::op_Implicit_uint64_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4006f34;
+  constexpr static std::size_t addrs = 0x5cb1150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

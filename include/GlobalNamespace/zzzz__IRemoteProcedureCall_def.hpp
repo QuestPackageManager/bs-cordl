@@ -3,17 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPoolablePacket_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IRemoteProcedureCall)
+namespace GlobalNamespace {
+class IPoolablePacket;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IRemoteProcedureCall;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IRemoteProcedureCall);
-// Dependencies IPoolablePacket, LiteNetLib.Utils.INetSerializable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IRemoteProcedureCall
@@ -42,7 +46,7 @@ public:
   IRemoteProcedureCall(IRemoteProcedureCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18152 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

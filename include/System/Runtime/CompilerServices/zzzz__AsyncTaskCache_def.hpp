@@ -35,7 +35,7 @@ public:
   /// @brief Method CreateCacheableTask, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TResult> static inline ::System::Threading::Tasks::Task_1<TResult>* CreateCacheableTask(TResult result);
 
-  /// @brief Method CreateInt32Tasks, addr 0x3d1a078, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CreateInt32Tasks, addr 0x595b4a8, size 0x10c, virtual false, abstract: false, final false
   static inline ::ArrayW<::System::Threading::Tasks::Task_1<int32_t>*, ::Array<::System::Threading::Tasks::Task_1<int32_t>*>*> CreateInt32Tasks();
 
   static inline ::System::Threading::Tasks::Task_1<bool>* getStaticF_FalseTask();
@@ -65,7 +65,7 @@ public:
   AsyncTaskCache(AsyncTaskCache const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3403 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3418 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

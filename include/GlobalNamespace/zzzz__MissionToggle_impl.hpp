@@ -1,10 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MissionToggle.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__UIBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "GlobalNamespace/zzzz__MissionToggle_def.hpp"
@@ -13,6 +8,11 @@
 #include "System/zzzz__Action_1_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/UI/zzzz__Image_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MissionToggle.add_selectionDidChangeEvent
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*)>(
     &::GlobalNamespace::MissionToggle::add_selectionDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b54b14;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x573d5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,8 +35,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::System::Action_1<::UnityW<::GlobalNamespace::MissionToggle>>*)>(
     &::GlobalNamespace::MissionToggle::remove_selectionDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b54bc4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x573d6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool)>(&::GlobalNamespace::MissionToggle::set_missionCleared)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b54c74;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x573d76c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::get_selected)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b54c80;
+  constexpr static std::size_t addrs = 0x573d774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "get_selected",
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool)>(&::GlobalNamespace::MissionToggle::set_selected)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b54c88;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x573d77c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::get_interactable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b54cfc;
+  constexpr static std::size_t addrs = 0x573d7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "get_interactable",
@@ -103,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool)>(&::GlobalNamespace::MissionToggle::set_interactable)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b54d04;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x573d7f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -118,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::get_highlighted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b54fb8;
+  constexpr static std::size_t addrs = 0x573daa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "get_highlighted",
@@ -130,8 +130,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::Start)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b54fc0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x573dab0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -145,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool, bool, bool)>(&::GlobalNamespace::MissionToggle::ChangeSelection)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b54c98;
+  constexpr static std::size_t addrs = 0x573d788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(bool, bool)>(&::GlobalNamespace::MissionToggle::ChangeHighlight)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b54fdc;
+  constexpr static std::size_t addrs = 0x573dab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,8 +173,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::StringW)>(&::GlobalNamespace::MissionToggle::SetText)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b54ffc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x573dad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -188,7 +188,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::InternalToggle)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b55020;
+  constexpr static std::size_t addrs = 0x573daf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "InternalToggle",
@@ -200,8 +200,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::RefreshUI)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3b54d10;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x573d7fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), "RefreshUI",
@@ -214,8 +214,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::MissionToggle::OnPointerClick)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b55050;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x573db24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,8 +229,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::GlobalNamespace::MissionToggle::OnSubmit)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b550f8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x573dbdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -244,8 +244,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::MissionToggle::OnPointerEnter)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b55190;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x573dc78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -260,7 +260,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::GlobalNamespace::MissionToggle::OnPointerExit)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b551b4;
+  constexpr static std::size_t addrs = 0x573dc98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -273,8 +273,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MissionToggle::*)()>(&::GlobalNamespace::MissionToggle::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b551d0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x573dcb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MissionToggle*>::get(), ".ctor",

@@ -11,12 +11,13 @@
 #include "UnityEngine/zzzz__Collider_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "Zenject/zzzz__DiContainer_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SaberBurnMarkSparkles.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::Start)> {
-  constexpr static std::size_t size = 0x40c;
-  constexpr static std::size_t addrs = 0x3b869e8;
+  constexpr static std::size_t size = 0x420;
+  constexpr static std::size_t addrs = 0x5772b94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "Start",
@@ -28,8 +29,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDestroy)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3b86df4;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5772fb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnDestroy",
@@ -41,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnEnable)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3b86ee8;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x57730ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnEnable",
@@ -54,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::OnDisable)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3b870f0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x57732c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "OnDisable",
@@ -68,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SaberBurnMarkSparkles::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::ByRef<::UnityEngine::Vector3>)>(&::GlobalNamespace::SaberBurnMarkSparkles::GetBurnMarkPos)> {
-  constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x3b871d0;
+  constexpr static std::size_t size = 0x45c;
+  constexpr static std::size_t addrs = 0x57733a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -84,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::LateUpdate)> {
-  constexpr static std::size_t size = 0x434;
-  constexpr static std::size_t addrs = 0x3b87624;
+  constexpr static std::size_t size = 0x450;
+  constexpr static std::size_t addrs = 0x5773800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), "LateUpdate",
@@ -97,8 +98,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SaberBurnMarkSparkles::*)()>(&::GlobalNamespace::SaberBurnMarkSparkles::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b87a58;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5773c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SaberBurnMarkSparkles*>::get(), ".ctor",
@@ -177,6 +178,18 @@ constexpr ::UnityW<::GlobalNamespace::SaberManager> const& GlobalNamespace::Sabe
 constexpr void GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____saberManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::Zenject::DiContainer*& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__container() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____container;
+}
+constexpr ::Zenject::DiContainer* const& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__container() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____container;
+}
+constexpr void GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_set__container(::Zenject::DiContainer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____container)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::ArrayW<::UnityW<::GlobalNamespace::Saber>, ::Array<::UnityW<::GlobalNamespace::Saber>>*>& GlobalNamespace::SaberBurnMarkSparkles::__cordl_internal_get__sabers() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

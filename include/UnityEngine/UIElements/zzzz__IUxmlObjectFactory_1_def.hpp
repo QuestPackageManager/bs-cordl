@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_def.hpp"
 CORDL_MODULE_EXPORT(IUxmlObjectFactory_1)
 namespace UnityEngine::UIElements {
 struct CreationContext;
+}
+namespace UnityEngine::UIElements {
+class IBaseUxmlFactory;
+}
+namespace UnityEngine::UIElements {
+class IBaseUxmlObjectFactory;
 }
 namespace UnityEngine::UIElements {
 class IUxmlAttributes;
@@ -18,7 +22,7 @@ template <typename T> class IUxmlObjectFactory_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::IUxmlObjectFactory_1);
-// Dependencies UnityEngine.UIElements.IBaseUxmlFactory, UnityEngine.UIElements.IBaseUxmlObjectFactory
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -47,7 +51,7 @@ public:
   IUxmlObjectFactory_1(IUxmlObjectFactory_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6276 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5182 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

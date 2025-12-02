@@ -86,7 +86,7 @@ public:
   static ::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode const SoftwareCursor;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6793 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8849 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -197,31 +197,31 @@ public:
 
   static inline ::UnityEngine::InputSystem::UI::VirtualMouseInput* New_ctor();
 
-  /// @brief Method OnAfterInputUpdate, addr 0x45f74ec, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnAfterInputUpdate, addr 0x637e638, size 0x4, virtual false, abstract: false, final false
   inline void OnAfterInputUpdate();
 
-  /// @brief Method OnButtonActionTriggered, addr 0x45f72f4, size 0x1f8, virtual false, abstract: false, final false
+  /// @brief Method OnButtonActionTriggered, addr 0x637e428, size 0x210, virtual false, abstract: false, final false
   inline void OnButtonActionTriggered(::UnityEngine::InputSystem::InputAction_CallbackContext context);
 
-  /// @brief Method OnDisable, addr 0x45f6d1c, size 0x23c, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x637de5c, size 0x218, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x45f6918, size 0x404, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x637d9d0, size 0x48c, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method SetAction, addr 0x45f6408, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetAction, addr 0x637d494, size 0x168, virtual false, abstract: false, final false
   static inline void SetAction(::ByRef<::UnityEngine::InputSystem::InputActionProperty> field, ::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method SetActionCallback, addr 0x45f65d4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method SetActionCallback, addr 0x637d69c, size 0x70, virtual false, abstract: false, final false
   static inline void SetActionCallback(::UnityEngine::InputSystem::InputActionProperty field, ::System::Action_1<::UnityEngine::InputSystem::InputAction_CallbackContext>* callback, bool install);
 
-  /// @brief Method TryEnableHardwareCursor, addr 0x45f6130, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method TryEnableHardwareCursor, addr 0x637d190, size 0x240, virtual false, abstract: false, final false
   inline void TryEnableHardwareCursor();
 
-  /// @brief Method TryFindCanvas, addr 0x45f6358, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method TryFindCanvas, addr 0x637d3e0, size 0x58, virtual false, abstract: false, final false
   inline void TryFindCanvas();
 
-  /// @brief Method UpdateMotion, addr 0x45f6f58, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMotion, addr 0x637e074, size 0x3b4, virtual false, abstract: false, final false
   inline void UpdateMotion();
 
   constexpr ::System::Action* const& __cordl_internal_get_m_AfterInputUpdateDelegate() const;
@@ -338,82 +338,82 @@ public:
 
   constexpr void __cordl_internal_set_m_VirtualMouse(::UnityEngine::InputSystem::Mouse* value);
 
-  /// @brief Method .ctor, addr 0x45f74f0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x637e63c, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_backButtonAction, addr 0x45f6830, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_backButtonAction, addr 0x637d8ec, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_backButtonAction();
 
-  /// @brief Method get_cursorGraphic, addr 0x45f6348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorGraphic, addr 0x637d3d0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Graphic> get_cursorGraphic();
 
-  /// @brief Method get_cursorMode, addr 0x45f6030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorMode, addr 0x637d078, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode get_cursorMode();
 
-  /// @brief Method get_cursorSpeed, addr 0x45f6020, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorSpeed, addr 0x637d068, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cursorSpeed();
 
-  /// @brief Method get_cursorTransform, addr 0x45f6010, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cursorTransform, addr 0x637d058, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_cursorTransform();
 
-  /// @brief Method get_forwardButtonAction, addr 0x45f678c, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_forwardButtonAction, addr 0x637d84c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_forwardButtonAction();
 
-  /// @brief Method get_leftButtonAction, addr 0x45f6530, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_leftButtonAction, addr 0x637d5fc, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_leftButtonAction();
 
-  /// @brief Method get_middleButtonAction, addr 0x45f66e8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_middleButtonAction, addr 0x637d7ac, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_middleButtonAction();
 
-  /// @brief Method get_rightButtonAction, addr 0x45f6644, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_rightButtonAction, addr 0x637d70c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_rightButtonAction();
 
-  /// @brief Method get_scrollSpeed, addr 0x45f63ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollSpeed, addr 0x637d438, size 0x8, virtual false, abstract: false, final false
   inline float_t get_scrollSpeed();
 
-  /// @brief Method get_scrollWheelAction, addr 0x45f68d4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_scrollWheelAction, addr 0x637d98c, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_scrollWheelAction();
 
-  /// @brief Method get_stickAction, addr 0x45f63c4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_stickAction, addr 0x637d450, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputActionProperty get_stickAction();
 
-  /// @brief Method get_virtualMouse, addr 0x45f63bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualMouse, addr 0x637d448, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Mouse* get_virtualMouse();
 
-  /// @brief Method set_backButtonAction, addr 0x45f6844, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_backButtonAction, addr 0x637d900, size 0x8c, virtual false, abstract: false, final false
   inline void set_backButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_cursorGraphic, addr 0x45f6350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cursorGraphic, addr 0x637d3d8, size 0x8, virtual false, abstract: false, final false
   inline void set_cursorGraphic(::UnityEngine::UI::Graphic* value);
 
-  /// @brief Method set_cursorMode, addr 0x45f6038, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method set_cursorMode, addr 0x637d080, size 0x110, virtual false, abstract: false, final false
   inline void set_cursorMode(::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode value);
 
-  /// @brief Method set_cursorSpeed, addr 0x45f6028, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cursorSpeed, addr 0x637d070, size 0x8, virtual false, abstract: false, final false
   inline void set_cursorSpeed(float_t value);
 
-  /// @brief Method set_cursorTransform, addr 0x45f6018, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_cursorTransform, addr 0x637d060, size 0x8, virtual false, abstract: false, final false
   inline void set_cursorTransform(::UnityEngine::RectTransform* value);
 
-  /// @brief Method set_forwardButtonAction, addr 0x45f67a0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_forwardButtonAction, addr 0x637d860, size 0x8c, virtual false, abstract: false, final false
   inline void set_forwardButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_leftButtonAction, addr 0x45f6544, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_leftButtonAction, addr 0x637d610, size 0x8c, virtual false, abstract: false, final false
   inline void set_leftButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_middleButtonAction, addr 0x45f66fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_middleButtonAction, addr 0x637d7c0, size 0x8c, virtual false, abstract: false, final false
   inline void set_middleButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_rightButtonAction, addr 0x45f6658, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method set_rightButtonAction, addr 0x637d720, size 0x8c, virtual false, abstract: false, final false
   inline void set_rightButtonAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_scrollSpeed, addr 0x45f63b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_scrollSpeed, addr 0x637d440, size 0x8, virtual false, abstract: false, final false
   inline void set_scrollSpeed(float_t value);
 
-  /// @brief Method set_scrollWheelAction, addr 0x45f68e8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_scrollWheelAction, addr 0x637d9a0, size 0x30, virtual false, abstract: false, final false
   inline void set_scrollWheelAction(::UnityEngine::InputSystem::InputActionProperty value);
 
-  /// @brief Method set_stickAction, addr 0x45f63d8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method set_stickAction, addr 0x637d464, size 0x30, virtual false, abstract: false, final false
   inline void set_stickAction(::UnityEngine::InputSystem::InputActionProperty value);
 
 protected:
@@ -431,7 +431,7 @@ public:
   VirtualMouseInput(VirtualMouseInput const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6794 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8850 };
 
   /// @brief Field m_CursorMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::UI::VirtualMouseInput_CursorMode ___m_CursorMode;

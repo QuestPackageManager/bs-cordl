@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardViewController::*)()>(
     &::GlobalNamespace::LeaderboardViewController::RefreshLevelStats)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b595e0;
+  constexpr static std::size_t addrs = 0x5742368;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LeaderboardViewController::*)()>(&::GlobalNamespace::LeaderboardViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b595e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x574236c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LeaderboardViewController*>::get(), ".ctor",

@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::BasicBeatmapEventDataProcessor::ProcessInsertedEventDataInternal)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x22442f0;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x3164ac8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapEventDataProcessor::*)(
     ::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapDataItem*>*)>(&::GlobalNamespace::BasicBeatmapEventDataProcessor::ProcessBeforeDeleteEventDataInternal)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x22444d8;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x3164cac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BasicBeatmapEventDataProcessor::*)()>(
     &::GlobalNamespace::BasicBeatmapEventDataProcessor::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x224470c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x3164e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BasicBeatmapEventDataProcessor*>::get(),

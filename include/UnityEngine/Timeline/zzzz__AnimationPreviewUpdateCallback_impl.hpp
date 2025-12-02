@@ -3,18 +3,18 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_impl.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableGraph_impl.hpp"
-#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__AnimationPreviewUpdateCallback_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableOutput_def.hpp"
 #include "UnityEngine/Animations/zzzz__IAnimationWindowPreview_def.hpp"
+#include "UnityEngine/Timeline/zzzz__ITimelineEvaluateCallback_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Timeline::AnimationPreviewUpdateCallback._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)(
     ::UnityEngine::Animations::AnimationPlayableOutput)>(&::UnityEngine::Timeline::AnimationPreviewUpdateCallback::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x480de48;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x678e1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(
     &::UnityEngine::Timeline::AnimationPreviewUpdateCallback::Evaluate)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x480df10;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x678e278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Timeline::AnimationPreviewUpdateCallback::*)()>(
     &::UnityEngine::Timeline::AnimationPreviewUpdateCallback::FetchPreviewComponents)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x480e0f4;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x678e438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::AnimationPreviewUpdateCallback*>::get(),

@@ -46,16 +46,16 @@ public:
 
   constexpr void __cordl_internal_set_m_value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e14074, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5a2b0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int64_t cookie);
 
-  /// @brief Method get_Cookie, addr 0x3e140ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Cookie, addr 0x5a5a2c8, size 0x8, virtual false, abstract: false, final false
   inline int64_t get_Cookie();
 
-  /// @brief Method get_Value, addr 0x3e1409c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5a5a2b8, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x3e140a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5a5a2c0, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
 protected:
@@ -73,7 +73,7 @@ public:
   LocalDataStoreElement(LocalDataStoreElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2552 };
 
   /// @brief Field m_value, offset: 0x10, size: 0x8, def value: None
   ::System::Object* ___m_value;

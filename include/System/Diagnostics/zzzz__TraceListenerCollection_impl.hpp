@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Diagnostics/TraceListenerCollection.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IList_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Diagnostics/zzzz__TraceListenerCollection_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Collections/zzzz__IList_def.hpp"
 #include "System/Diagnostics/zzzz__TraceListener_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -14,12 +14,27 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)()>(&::System::Diagnostics::TraceListenerCollection::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x442c21c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x617b1f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), ".ctor",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Diagnostics::TraceListenerCollection.get_Item
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Diagnostics::TraceListener* (::System::Diagnostics::TraceListenerCollection::*)(::StringW)>(
+    &::System::Diagnostics::TraceListenerCollection::get_Item)> {
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x617c008;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), "get_Item",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -28,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::get_Count)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x442cf74;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x617c304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(),
@@ -42,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)(::System::Diagnostics::TraceListener*)>(
     &::System::Diagnostics::TraceListenerCollection::Add)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x442c3ac;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x617b35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,8 +71,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)()>(&::System::Diagnostics::TraceListenerCollection::Clear)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x442d088;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x617c44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), "Clear",
@@ -70,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::GetEnumerator)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x442d0e0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x617c2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(),
@@ -84,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::System::Diagnostics::TraceListener*)>(
     &::System::Diagnostics::TraceListenerCollection::InitializeListener)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x442cf98;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x617c324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,13 +109,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Diagnostics::TraceListenerCollection.Remove
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::StringW)>(
+    &::System::Diagnostics::TraceListenerCollection::Remove)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x617c4a8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Diagnostics::TraceListenerCollection.RemoveAt
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(int32_t)>(
     &::System::Diagnostics::TraceListenerCollection::RemoveAt)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x442d104;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x617c578;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Diagnostics::TraceListenerCollection::*)(int32_t)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_get_Item)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x442d220;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x617c69c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(int32_t, ::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_set_Item)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x442d244;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x617c6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x442d350;
+  constexpr static std::size_t addrs = 0x617c7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -160,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_get_IsFixedSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x442d358;
+  constexpr static std::size_t addrs = 0x617c7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -174,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Add)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x442d360;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x617c7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -189,8 +219,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Contains)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x442d53c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x617c9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -204,8 +234,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_IndexOf)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x442d560;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x617c9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,8 +249,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(int32_t, ::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Insert)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x442d584;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x617c9f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -234,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::System::Object*)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_IList_Remove)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x442d758;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x617cbcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -250,7 +280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_ICollection_get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x442d874;
+  constexpr static std::size_t addrs = 0x617ccf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -265,7 +295,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Diagnostics::TraceListenerCollection::*)()>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x442d878;
+  constexpr static std::size_t addrs = 0x617ccf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -280,7 +310,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Diagnostics::TraceListenerCollection::*)(::System::Array*, int32_t)>(
     &::System::Diagnostics::TraceListenerCollection::System_Collections_ICollection_CopyTo)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x442d880;
+  constexpr static std::size_t addrs = 0x617ccfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -306,6 +336,12 @@ inline void System::Diagnostics::TraceListenerCollection::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::System::Diagnostics::TraceListener* System::Diagnostics::TraceListenerCollection::get_Item(::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), "get_Item", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Diagnostics::TraceListener*, false>(this, ___internal_method, name);
 }
 inline int32_t System::Diagnostics::TraceListenerCollection::get_Count() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(),
@@ -333,6 +369,12 @@ inline void System::Diagnostics::TraceListenerCollection::InitializeListener(::S
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), "InitializeListener", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Diagnostics::TraceListener*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, listener);
+}
+inline void System::Diagnostics::TraceListenerCollection::Remove(::StringW name) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Diagnostics::TraceListenerCollection*>::get(), "Remove", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, name);
 }
 inline void System::Diagnostics::TraceListenerCollection::RemoveAt(int32_t index) {
   static auto* ___internal_method =

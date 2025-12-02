@@ -5,13 +5,14 @@
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__MoveAndRotateWithMainCamera_def.hpp"
 #include "GlobalNamespace/zzzz__MainCamera_def.hpp"
+#include "UnityEngine/zzzz__Camera_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MoveAndRotateWithMainCamera.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::Awake)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b18054;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x56f724c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(), "Awake",
@@ -19,17 +20,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MoveAndRotateWithMainCamera.LateUpdate
+//  Writing Method size for method: ::GlobalNamespace::MoveAndRotateWithMainCamera.OnDestroy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(
-    &::GlobalNamespace::MoveAndRotateWithMainCamera::LateUpdate)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x3b180a0;
+    &::GlobalNamespace::MoveAndRotateWithMainCamera::OnDestroy)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x56f7380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(),
-                                                                               "LateUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::MoveAndRotateWithMainCamera.OnPreCullCallback
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)(::UnityEngine::Camera*)>(
+    &::GlobalNamespace::MoveAndRotateWithMainCamera::OnPreCullCallback)> {
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x56f7474;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(), "OnPreCullCallback", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
     return ___internal_method;
   }
 };
@@ -37,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MoveAndRotateWithMainCamera::*)()>(&::GlobalNamespace::MoveAndRotateWithMainCamera::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b181a8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f7600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(), ".ctor",
@@ -99,10 +115,16 @@ inline void GlobalNamespace::MoveAndRotateWithMainCamera::Awake() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MoveAndRotateWithMainCamera::LateUpdate() {
+inline void GlobalNamespace::MoveAndRotateWithMainCamera::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(),
-                                                                             "LateUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::MoveAndRotateWithMainCamera::OnPreCullCallback(::UnityEngine::Camera* currentCamera) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(), "OnPreCullCallback", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentCamera);
 }
 inline void GlobalNamespace::MoveAndRotateWithMainCamera::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MoveAndRotateWithMainCamera*>::get(), ".ctor",

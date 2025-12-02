@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e40f0;
+  constexpr static std::size_t addrs = 0x3513ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(::System::IO::Stream*, bool)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::_ctor)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x25e40f8;
+  constexpr static std::size_t addrs = 0x3513abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::get_CanRead)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e4208;
+  constexpr static std::size_t addrs = 0x3513bcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::get_CanSeek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e4210;
+  constexpr static std::size_t addrs = 0x3513bd4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::get_CanWrite)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e4218;
+  constexpr static std::size_t addrs = 0x3513bdc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e4220;
+  constexpr static std::size_t addrs = 0x3513be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::get_Position)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e4228;
+  constexpr static std::size_t addrs = 0x3513bec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -122,7 +122,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(int64_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::set_Position)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25e4230;
+  constexpr static std::size_t addrs = 0x3513bf4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::Write)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25e4234;
+  constexpr static std::size_t addrs = 0x3513bf8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::Seek)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25e4238;
+  constexpr static std::size_t addrs = 0x3513bfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -170,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(int64_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::SetLength)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25e4240;
+  constexpr static std::size_t addrs = 0x3513c04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -185,8 +185,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::Read)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x25e4244;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x3513c08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -201,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::Flush)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x25e43cc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3513d8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -218,7 +218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::WriteByte)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x25e43f0;
+  constexpr static std::size_t addrs = 0x3513dac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -233,8 +233,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::Close)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x25e43f4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3513db0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,7 +250,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::*)()>(
     &::Org::BouncyCastle::Utilities::Zlib::ZInflaterInputStream::ReadByte)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x25e448c;
+  constexpr static std::size_t addrs = 0x3513e48;
 
   inline static ::MethodInfo const* methodInfo() {
 

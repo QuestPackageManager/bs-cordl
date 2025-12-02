@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime)>(&::GlobalNamespace::PerformanceReport::CreateTimestamp)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b246c8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5705634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::DateTime, ::GlobalNamespace::GameplayCoreSceneSetupData*)>(
     &::GlobalNamespace::PerformanceReport::CreateReportDescriptor)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b2473c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x57056b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>, float_t)>(
     &::GlobalNamespace::PerformanceReport::ListAggregatedFps)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x3b243b4;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x570531c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,17 +50,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PerformanceReport.ListFrameDurations
+//  Writing Method size for method: ::GlobalNamespace::PerformanceReport.ListFrameTimes
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::PerformanceReport::ListFrameDurations)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::PerformanceReport::ListFrameTimes)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3b24298;
+  constexpr static std::size_t addrs = 0x5705200;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceReport*>::get(), "ListFrameDurations", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceReport*>::get(), "ListFrameTimes", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
     return ___internal_method;
   }
 };
@@ -69,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::PerformanceReport::ListStat)> {
   constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x3b24e00;
+  constexpr static std::size_t addrs = 0x5705e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::ArrayW<int64_t, ::Array<int64_t>*>)>(&::GlobalNamespace::PerformanceReport::ListStat)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b24f1c;
+  constexpr static std::size_t addrs = 0x5705f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,11 +112,11 @@ inline ::StringW GlobalNamespace::PerformanceReport::ListAggregatedFps(::ArrayW<
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, frameDurations, minWindowSize);
 }
-inline ::StringW GlobalNamespace::PerformanceReport::ListFrameDurations(::ArrayW<float_t, ::Array<float_t>*> frameDurations) {
+inline ::StringW GlobalNamespace::PerformanceReport::ListFrameTimes(::ArrayW<float_t, ::Array<float_t>*> frameTimes) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceReport*>::get(), "ListFrameDurations", std::span<Il2CppClass const* const, 0>(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PerformanceReport*>::get(), "ListFrameTimes", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, frameDurations);
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(nullptr, ___internal_method, frameTimes);
 }
 inline ::StringW GlobalNamespace::PerformanceReport::ListStat(::ArrayW<float_t, ::Array<float_t>*> statList) {
   static auto* ___internal_method = THROW_UNLESS(

@@ -24,15 +24,15 @@ namespace Oculus::Platform {
 class CORDL_TYPE MessageWithSystemVoipState : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::SystemVoipState*> {
 public:
   // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x3f80910, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method GetDataFromMessage, addr 0x5bc8130, size 0x9c, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetDataFromMessage(::System::IntPtr c_message);
 
-  /// @brief Method GetSystemVoipState, addr 0x3f808d4, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method GetSystemVoipState, addr 0x5bc80ec, size 0x44, virtual true, abstract: false, final false
   inline ::Oculus::Platform::Models::SystemVoipState* GetSystemVoipState();
 
   static inline ::Oculus::Platform::MessageWithSystemVoipState* New_ctor(::System::IntPtr c_message);
 
-  /// @brief Method .ctor, addr 0x3f7c88c, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc30e4, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr c_message);
 
 protected:
@@ -50,7 +50,7 @@ public:
   MessageWithSystemVoipState(MessageWithSystemVoipState const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15416 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17874 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

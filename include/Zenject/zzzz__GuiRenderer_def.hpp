@@ -30,12 +30,12 @@ public:
   /// @brief Field _renderableManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__renderableManager, put = __cordl_internal_set__renderableManager)) ::Zenject::GuiRenderableManager* _renderableManager;
 
-  /// @brief Method Construct, addr 0x4b48d8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Construct, addr 0x6c5c62c, size 0x8, virtual false, abstract: false, final false
   inline void Construct(::Zenject::GuiRenderableManager* renderableManager);
 
   static inline ::Zenject::GuiRenderer* New_ctor();
 
-  /// @brief Method OnGUI, addr 0x4b48d94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnGUI, addr 0x6c5c634, size 0x14, virtual false, abstract: false, final false
   inline void OnGUI();
 
   constexpr ::Zenject::GuiRenderableManager* const& __cordl_internal_get__renderableManager() const;
@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__renderableManager(::Zenject::GuiRenderableManager* value);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b48e90, size 0x2fc, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c5c738, size 0x2cc, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method __zenInjectMethod0, addr 0x4b48db4, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method __zenInjectMethod0, addr 0x6c5c64c, size 0xec, virtual false, abstract: false, final false
   static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
 
-  /// @brief Method .ctor, addr 0x4b48dac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c5c648, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -68,7 +68,7 @@ public:
   GuiRenderer(GuiRenderer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12658 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14639 };
 
   /// @brief Field _renderableManager, offset: 0x20, size: 0x8, def value: None
   ::Zenject::GuiRenderableManager* ____renderableManager;

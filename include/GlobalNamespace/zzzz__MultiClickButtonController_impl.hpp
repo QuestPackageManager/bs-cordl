@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiClickButtonController::add_wasTriggeredEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bffa04;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57f3fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)(::System::Action*)>(
     &::GlobalNamespace::MultiClickButtonController::remove_wasTriggeredEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bffaa0;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57f4074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(
     &::GlobalNamespace::MultiClickButtonController::OnEnable)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3bffb3c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x57f4120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(),
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(
     &::GlobalNamespace::MultiClickButtonController::OnDisable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3bffbd4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57f41c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(),
@@ -69,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(
     &::GlobalNamespace::MultiClickButtonController::HandleButtonClicked)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bffbf0;
+  constexpr static std::size_t addrs = 0x57f41d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(),
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiClickButtonController::*)()>(&::GlobalNamespace::MultiClickButtonController::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3bffc28;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x57f4210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiClickButtonController*>::get(), ".ctor",

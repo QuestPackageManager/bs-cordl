@@ -31,13 +31,13 @@ public:
 
   static inline ::System::OutOfMemoryException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3e0da38, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a5404c, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e0dab0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a53a5c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e0da90, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a53a38, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   OutOfMemoryException(OutOfMemoryException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2537 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

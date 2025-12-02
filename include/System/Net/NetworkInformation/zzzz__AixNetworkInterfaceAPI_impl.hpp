@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Net::NetworkInformation::AixAddressFamily, int32_t, int32_t)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::socket)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43ea3a8;
+  constexpr static std::size_t addrs = 0x6136830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::System::Net::NetworkInformation::AixNetworkInterfaceAPI::close)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x43ea448;
+  constexpr static std::size_t addrs = 0x61368d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::ByRef<int32_t>)>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43ea4c0;
+  constexpr static std::size_t addrs = 0x6136948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(
     int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::ByRef<::System::Net::NetworkInformation::AixStructs::ifconf>)>(&::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43ea560;
+  constexpr static std::size_t addrs = 0x61369e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::ByRef<::System::Net::NetworkInformation::AixStructs::ifreq_flags>)>(
         &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43ea600;
+  constexpr static std::size_t addrs = 0x6136a88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(int32_t, ::System::Net::NetworkInformation::AixIoctlRequest, ::ByRef<::System::Net::NetworkInformation::AixStructs::ifreq_mtu>)>(
         &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x43ea6a0;
+  constexpr static std::size_t addrs = 0x6136b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,16 +111,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 //  Writing Method size for method: ::System::Net::NetworkInformation::AixNetworkInterfaceAPI.ByteArrayCopy
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, int32_t)>(
-    &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ByteArrayCopy)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint8_t*, uint8_t*, int32_t)>(&::System::Net::NetworkInformation::AixNetworkInterfaceAPI::ByteArrayCopy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x43ea740;
+  constexpr static std::size_t addrs = 0x6136bc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>::get(), "ByteArrayCopy", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
@@ -131,8 +129,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> (::System::Net::NetworkInformation::AixNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::GetAllNetworkInterfaces)> {
-  constexpr static std::size_t size = 0xe20;
-  constexpr static std::size_t addrs = 0x43ea75c;
+  constexpr static std::size_t size = 0xf2c;
+  constexpr static std::size_t addrs = 0x6136be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -147,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::NetworkInformation::AixNetworkInterfaceAPI::*)()>(
     &::System::Net::NetworkInformation::AixNetworkInterfaceAPI::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x43eb7e4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6137d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,11 +203,10 @@ inline int32_t System::Net::NetworkInformation::AixNetworkInterfaceAPI::ioctl(in
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::System::Net::NetworkInformation::AixStructs::ifreq_mtu>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, fd, request, arg);
 }
-inline void System::Net::NetworkInformation::AixNetworkInterfaceAPI::ByteArrayCopy(::cordl_internals::Ptr<uint8_t> dst, ::cordl_internals::Ptr<uint8_t> src, int32_t elements) {
+inline void System::Net::NetworkInformation::AixNetworkInterfaceAPI::ByteArrayCopy(uint8_t* dst, uint8_t* src, int32_t elements) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::NetworkInformation::AixNetworkInterfaceAPI*>::get(), "ByteArrayCopy", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, dst, src, elements);
 }

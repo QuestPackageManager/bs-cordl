@@ -30,7 +30,7 @@ public:
 
   constexpr void __cordl_internal_set__oid(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3ca0b4c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e4908, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   DSASignatureFormatter(DSASignatureFormatter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2949 };
 
   /// @brief Field _oid, offset: 0x10, size: 0x8, def value: None
   ::StringW ____oid;

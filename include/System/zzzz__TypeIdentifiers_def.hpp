@@ -3,13 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "System/zzzz__TypeIdentifier_def.hpp"
-#include "System/zzzz__TypeName_def.hpp"
 #include "System/zzzz__TypeNames_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TypeIdentifiers)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class TypeIdentifier;
 }
@@ -29,7 +29,7 @@ class TypeIdentifiers_Display;
 // Write type traits
 MARK_REF_PTR_T(::System::TypeIdentifiers);
 MARK_REF_PTR_T(::System::TypeIdentifiers_Display);
-// Dependencies System.IEquatable`1<T>, System.TypeIdentifier, System.TypeName, System.TypeNames::ATypeName
+// Dependencies System.TypeNames::ATypeName
 namespace System {
 // Is value type: false
 // CS Name: System.TypeIdentifiers/Display
@@ -55,7 +55,7 @@ public:
   /// @brief Convert operator to "::System::TypeName"
   constexpr operator ::System::TypeName*() noexcept;
 
-  /// @brief Method GetInternalName, addr 0x3e42bf0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetInternalName, addr 0x5a87eb4, size 0x8, virtual false, abstract: false, final false
   inline ::StringW GetInternalName();
 
   static inline ::System::TypeIdentifiers_Display* New_ctor(::StringW displayName);
@@ -72,13 +72,13 @@ public:
 
   constexpr void __cordl_internal_set_internal_name(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e42bb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a87e80, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW displayName);
 
-  /// @brief Method get_DisplayName, addr 0x3e42bc0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_DisplayName, addr 0x5a87e88, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_DisplayName();
 
-  /// @brief Method get_InternalName, addr 0x3e42bc8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method get_InternalName, addr 0x5a87e90, size 0x24, virtual true, abstract: false, final true
   inline ::StringW get_InternalName();
 
   /// @brief Convert to "::System::IEquatable_1<::System::TypeName*>"
@@ -105,7 +105,7 @@ public:
   TypeIdentifiers_Display(TypeIdentifiers_Display const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2641 };
 
   /// @brief Field displayName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___displayName;
@@ -132,7 +132,7 @@ public:
   // Declarations
   using Display = ::System::TypeIdentifiers_Display;
 
-  /// @brief Method FromDisplay, addr 0x3e42b6c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method FromDisplay, addr 0x5a87e30, size 0x50, virtual false, abstract: false, final false
   static inline ::System::TypeIdentifier* FromDisplay(::StringW displayName);
 
 protected:
@@ -150,7 +150,7 @@ public:
   TypeIdentifiers(TypeIdentifiers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2634 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2642 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,17 +1,10 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/GameSettings/ControllerProfilesModel.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IInitializable_impl.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfilesModel_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfileFileModel_def.hpp"
 #include "BeatSaber/GameSettings/zzzz__ControllerProfileSaveData_def.hpp"
@@ -25,18 +18,21 @@
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IInitializable_def.hpp"
 //  Writing Method size for method: ::BeatSaber::GameSettings::ControllerProfilesModel___c._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel___c::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f288;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3192d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel___c*>::get(),
@@ -49,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::ControllerProfilesModel___c::*)(::BeatSaber::GameSettings::ControllerProfile*)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel___c::_GetControllerProfilesSaveData_b__23_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x226f290;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x3192d2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,7 +62,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::BeatSaber::GameSettings::ControllerProfileSaveData* (::BeatSaber::GameSettings::ControllerProfilesModel___c::*)(::BeatSaber::GameSettings::ControllerProfile*)>(
         &::BeatSaber::GameSettings::ControllerProfilesModel___c::_GetControllerProfilesSaveData_b__23_1)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x226f2a8;
+  constexpr static std::size_t addrs = 0x3192d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x226eeac;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x31929f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -148,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x226f364;
+  constexpr static std::size_t addrs = 0x3192df0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,8 +158,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::MoveNext)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x226f368;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x3192df4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,7 +176,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
         &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::System_Collections_Generic_IEnumerator_BeatSaber_GameSettings_ControllerProfile__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f3ec;
+  constexpr static std::size_t addrs = 0x3192e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +191,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x226f3f4;
+  constexpr static std::size_t addrs = 0x3192e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -210,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226f42c;
+  constexpr static std::size_t addrs = 0x3192ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,8 +222,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::BeatSaber::GameSettings::ControllerProfile*>* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
         &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::System_Collections_Generic_IEnumerable_BeatSaber_GameSettings_ControllerProfile__GetEnumerator)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x226f434;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3192ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -243,7 +239,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::IEnumerator* (::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::*)()>(
         &::BeatSaber::GameSettings::ControllerProfilesModel__GetBuiltInProfiles_d__21::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x226f4c4;
+  constexpr static std::size_t addrs = 0x3192f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -392,8 +388,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__16::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x226f4c8;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x3192f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -407,8 +403,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__16::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::GameSettings::ControllerProfilesModel__Initialize_d__16::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x226f6f0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3193198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -457,8 +453,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__17::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__17::MoveNext)> {
-  constexpr static std::size_t size = 0x4d0;
-  constexpr static std::size_t addrs = 0x226f6fc;
+  constexpr static std::size_t size = 0x504;
+  constexpr static std::size_t addrs = 0x31931a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -472,8 +468,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__17::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BeatSaber::GameSettings::ControllerProfilesModel__LoadAsync_d__17::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x226fd08;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31937d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,7 +518,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::BeatSaber::GameSettings::ControllerProfile*>* (
     ::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::get_profiles)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226e5ec;
+  constexpr static std::size_t addrs = 0x31920f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -536,7 +532,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::get_selectedProfileIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226e5f4;
+  constexpr static std::size_t addrs = 0x31920f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -550,7 +546,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::set_selectedProfileIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226e5fc;
+  constexpr static std::size_t addrs = 0x3192100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,8 +560,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::get_selectedProfile)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x226e604;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x3192108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -578,8 +574,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::_ctor)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x226e658;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3192160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -592,8 +588,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::Initialize)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x226e7a0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x31922b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -606,8 +602,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::LoadAsync)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x226e830;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x3192358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -620,8 +616,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t, bool)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::UpdateSelectedProfile)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x226e8f0;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x3192408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -635,8 +631,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::SaveAsync)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x226eb60;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x3192684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -649,8 +645,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetSelectedProfileIndexFromSettings)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x226ee58;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31929a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -665,7 +661,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfile*>* (
     ::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::GetBuiltInProfiles)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x226e738;
+  constexpr static std::size_t addrs = 0x319224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -678,8 +674,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::RefreshControllersReference)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x226eabc;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x31925dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -692,8 +688,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::BeatSaber::GameSettings::ControllerProfileSaveData*>* (
     ::BeatSaber::GameSettings::ControllerProfilesModel::*)()>(&::BeatSaber::GameSettings::ControllerProfilesModel::GetControllerProfilesSaveData)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x226ebd8;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x3192700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),
@@ -706,8 +702,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (::BeatSaber::GameSettings::ControllerProfilesModel::*)(int32_t)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetDefaultCustomControllerProfile)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x226eee0;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x3192a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -721,8 +717,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::ControllerProfile* (*)(::StringW, int32_t, bool)>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetDefaultControllersProfile)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x226f0f4;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x3192b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -737,8 +733,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::GameSettings::Controller (*)()>(
     &::BeatSaber::GameSettings::ControllerProfilesModel::GetDefaultController)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x226f1d0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3192c6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::GameSettings::ControllerProfilesModel*>::get(),

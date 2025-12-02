@@ -105,16 +105,16 @@ public:
 
   constexpr void __cordl_internal_set__value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26af5f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e0b44, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_eventType, addr 0x26af5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_eventType, addr 0x35e0b2c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BasicBeatmapEventType get_eventType();
 
-  /// @brief Method get_floatValue, addr 0x26af5f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatValue, addr 0x35e0b3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatValue();
 
-  /// @brief Method get_value, addr 0x26af5e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_value, addr 0x35e0b34, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_value();
 
 protected:
@@ -132,7 +132,7 @@ public:
   DefaultEnvironmentEvents_BasicBeatmapEvent(DefaultEnvironmentEvents_BasicBeatmapEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14797 };
 
   /// @brief Field _eventType, offset: 0x10, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____eventType;
@@ -198,16 +198,16 @@ public:
 
   constexpr void __cordl_internal_set__useDistribution(bool value);
 
-  /// @brief Method .ctor, addr 0x26af618, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e0b60, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_distributionParam, addr 0x26af608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distributionParam, addr 0x35e0b50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_distributionParam();
 
-  /// @brief Method get_distributionParamType, addr 0x26af610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_distributionParamType, addr 0x35e0b58, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox_DistributionParamType get_distributionParamType();
 
-  /// @brief Method get_useDistribution, addr 0x26af600, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useDistribution, addr 0x35e0b48, size 0x8, virtual false, abstract: false, final false
   inline bool get_useDistribution();
 
 protected:
@@ -225,7 +225,7 @@ public:
   DefaultEnvironmentEvents_LightGroupDistribution(DefaultEnvironmentEvents_LightGroupDistribution const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14798 };
 
   /// @brief Field _useDistribution, offset: 0x10, size: 0x1, def value: None
   bool ____useDistribution;
@@ -323,25 +323,25 @@ public:
 
   constexpr void __cordl_internal_set__useFiltering(bool value);
 
-  /// @brief Method .ctor, addr 0x26af650, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e0b94, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_alsoAffectType, addr 0x26af638, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_alsoAffectType, addr 0x35e0b7c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType get_alsoAffectType();
 
-  /// @brief Method get_chunks, addr 0x26af648, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_chunks, addr 0x35e0b8c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_chunks();
 
-  /// @brief Method get_limit, addr 0x26af630, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_limit, addr 0x35e0b74, size 0x8, virtual false, abstract: false, final false
   inline float_t get_limit();
 
-  /// @brief Method get_randomType, addr 0x26af628, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_randomType, addr 0x35e0b6c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IndexFilter_IndexFilterRandomType get_randomType();
 
-  /// @brief Method get_seed, addr 0x26af640, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_seed, addr 0x35e0b84, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_seed();
 
-  /// @brief Method get_useFiltering, addr 0x26af620, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_useFiltering, addr 0x35e0b64, size 0x8, virtual false, abstract: false, final false
   inline bool get_useFiltering();
 
 protected:
@@ -359,7 +359,7 @@ public:
   DefaultEnvironmentEvents_LightGroupFiltering(DefaultEnvironmentEvents_LightGroupFiltering const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14799 };
 
   /// @brief Field _useFiltering, offset: 0x10, size: 0x1, def value: None
   bool ____useFiltering;
@@ -659,73 +659,73 @@ public:
 
   constexpr void __cordl_internal_set__translationZDistribution(::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* value);
 
-  /// @brief Method .ctor, addr 0x26af708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e0c48, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_brightness, addr 0x26af668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightness, addr 0x35e0ba8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_brightness();
 
-  /// @brief Method get_brightnessDistribution, addr 0x26af670, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessDistribution, addr 0x35e0bb0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_brightnessDistribution();
 
-  /// @brief Method get_brightnessFiltering, addr 0x26af678, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_brightnessFiltering, addr 0x35e0bb8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* get_brightnessFiltering();
 
-  /// @brief Method get_environmentColorType, addr 0x26af660, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_environmentColorType, addr 0x35e0ba0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::EnvironmentColorType get_environmentColorType();
 
-  /// @brief Method get_floatFxDistribution, addr 0x26af6f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxDistribution, addr 0x35e0c38, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_floatFxDistribution();
 
-  /// @brief Method get_floatFxFiltering, addr 0x26af700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxFiltering, addr 0x35e0c40, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* get_floatFxFiltering();
 
-  /// @brief Method get_floatFxValue, addr 0x26af6f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_floatFxValue, addr 0x35e0c30, size 0x8, virtual false, abstract: false, final false
   inline float_t get_floatFxValue();
 
-  /// @brief Method get_lightGroup, addr 0x26af658, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroup, addr 0x35e0b98, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::LightGroupSO> get_lightGroup();
 
-  /// @brief Method get_rotationFiltering, addr 0x26af6b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationFiltering, addr 0x35e0bf0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* get_rotationFiltering();
 
-  /// @brief Method get_rotationX, addr 0x26af680, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationX, addr 0x35e0bc0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationX();
 
-  /// @brief Method get_rotationXDistribution, addr 0x26af698, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationXDistribution, addr 0x35e0bd8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_rotationXDistribution();
 
-  /// @brief Method get_rotationY, addr 0x26af688, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationY, addr 0x35e0bc8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationY();
 
-  /// @brief Method get_rotationYDistribution, addr 0x26af6a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationYDistribution, addr 0x35e0be0, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_rotationYDistribution();
 
-  /// @brief Method get_rotationZ, addr 0x26af690, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationZ, addr 0x35e0bd0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_rotationZ();
 
-  /// @brief Method get_rotationZDistribution, addr 0x26af6a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_rotationZDistribution, addr 0x35e0be8, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_rotationZDistribution();
 
-  /// @brief Method get_translationFiltering, addr 0x26af6e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationFiltering, addr 0x35e0c28, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupFiltering* get_translationFiltering();
 
-  /// @brief Method get_translationX, addr 0x26af6b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationX, addr 0x35e0bf8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translationX();
 
-  /// @brief Method get_translationXDistribution, addr 0x26af6d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationXDistribution, addr 0x35e0c10, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_translationXDistribution();
 
-  /// @brief Method get_translationY, addr 0x26af6c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationY, addr 0x35e0c00, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translationY();
 
-  /// @brief Method get_translationYDistribution, addr 0x26af6d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationYDistribution, addr 0x35e0c18, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_translationYDistribution();
 
-  /// @brief Method get_translationZ, addr 0x26af6c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationZ, addr 0x35e0c08, size 0x8, virtual false, abstract: false, final false
   inline float_t get_translationZ();
 
-  /// @brief Method get_translationZDistribution, addr 0x26af6e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_translationZDistribution, addr 0x35e0c20, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::DefaultEnvironmentEvents_LightGroupDistribution* get_translationZDistribution();
 
 protected:
@@ -743,7 +743,7 @@ public:
   DefaultEnvironmentEvents_LightGroupEvent(DefaultEnvironmentEvents_LightGroupEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14800 };
 
   /// @brief Field _lightGroup, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LightGroupSO> ____lightGroup;
@@ -916,16 +916,16 @@ public:
   constexpr void
   __cordl_internal_set__lightGroupEvents(::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*, ::Array<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*>*> value);
 
-  /// @brief Method .ctor, addr 0x26af5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e0b28, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_basicBeatmapEvents, addr 0x26af590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_basicBeatmapEvents, addr 0x35e0ae0, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*, ::Array<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*>*> get_basicBeatmapEvents();
 
-  /// @brief Method get_isEmpty, addr 0x26af5a0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x35e0af0, size 0x38, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
-  /// @brief Method get_lightGroupEvents, addr 0x26af598, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lightGroupEvents, addr 0x35e0ae8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*, ::Array<::GlobalNamespace::DefaultEnvironmentEvents_LightGroupEvent*>*> get_lightGroupEvents();
 
 protected:
@@ -943,7 +943,7 @@ public:
   DefaultEnvironmentEvents(DefaultEnvironmentEvents const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14801 };
 
   /// @brief Field _basicBeatmapEvents, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*, ::Array<::GlobalNamespace::DefaultEnvironmentEvents_BasicBeatmapEvent*>*> ____basicBeatmapEvents;

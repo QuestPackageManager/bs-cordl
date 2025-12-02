@@ -3,13 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerEnterHandler_def.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerExitHandler_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(EventSystemListener)
 namespace System {
 template <typename T> class Action_1;
+}
+namespace UnityEngine::EventSystems {
+class IEventSystemHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerEnterHandler;
+}
+namespace UnityEngine::EventSystems {
+class IPointerExitHandler;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -20,7 +26,7 @@ class EventSystemListener;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::EventSystemListener);
-// Dependencies UnityEngine.EventSystems.IEventSystemHandler, UnityEngine.EventSystems.IPointerEnterHandler, UnityEngine.EventSystems.IPointerExitHandler, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.EventSystemListener
@@ -46,10 +52,10 @@ public:
 
   static inline ::HMUI::EventSystemListener* New_ctor();
 
-  /// @brief Method OnPointerEnter, addr 0x39ecf70, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerEnter, addr 0x5664b1c, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerEnter(::UnityEngine::EventSystems::PointerEventData* eventData);
 
-  /// @brief Method OnPointerExit, addr 0x39ecf8c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method OnPointerExit, addr 0x5664b38, size 0x1c, virtual true, abstract: false, final true
   inline void OnPointerExit(::UnityEngine::EventSystems::PointerEventData* eventData);
 
   constexpr ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* const& __cordl_internal_get_pointerDidEnterEvent() const;
@@ -64,13 +70,13 @@ public:
 
   constexpr void __cordl_internal_set_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method .ctor, addr 0x39ecfa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5664b54, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_pointerDidEnterEvent, addr 0x39eccb0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidEnterEvent, addr 0x566481c, size 0xc0, virtual false, abstract: false, final false
   inline void add_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method add_pointerDidExitEvent, addr 0x39ece10, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_pointerDidExitEvent, addr 0x566499c, size 0xc0, virtual false, abstract: false, final false
   inline void add_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
   /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
@@ -82,10 +88,10 @@ public:
   /// @brief Convert to "::UnityEngine::EventSystems::IPointerExitHandler"
   constexpr ::UnityEngine::EventSystems::IPointerExitHandler* i___UnityEngine__EventSystems__IPointerExitHandler() noexcept;
 
-  /// @brief Method remove_pointerDidEnterEvent, addr 0x39ecd60, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidEnterEvent, addr 0x56648dc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_pointerDidEnterEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
-  /// @brief Method remove_pointerDidExitEvent, addr 0x39ecec0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_pointerDidExitEvent, addr 0x5664a5c, size 0xc0, virtual false, abstract: false, final false
   inline void remove_pointerDidExitEvent(::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* value);
 
 protected:
@@ -103,7 +109,7 @@ public:
   EventSystemListener(EventSystemListener const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16040 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19107 };
 
   /// @brief Field pointerDidEnterEvent, offset: 0x20, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::EventSystems::PointerEventData*>* ___pointerDidEnterEvent;

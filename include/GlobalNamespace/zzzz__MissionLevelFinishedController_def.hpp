@@ -47,18 +47,18 @@ public:
   __declspec(property(get = __cordl_internal_get__prepareLevelCompletionResults, put = __cordl_internal_set__prepareLevelCompletionResults)) ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults>
       _prepareLevelCompletionResults;
 
-  /// @brief Method HandleLevelFinished, addr 0x3bb0ff8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelFinished, addr 0x57a1308, size 0x4, virtual false, abstract: false, final false
   inline void HandleLevelFinished();
 
   static inline ::GlobalNamespace::MissionLevelFinishedController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3bb0ef8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x57a11d0, size 0x138, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3bb0e08, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57a10dc, size 0xf4, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StartLevelFinished, addr 0x3bb0ffc, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method StartLevelFinished, addr 0x57a130c, size 0xb4, virtual false, abstract: false, final false
   inline void StartLevelFinished();
 
   constexpr ::GlobalNamespace::ILevelEndActions* const& __cordl_internal_get__gameplayManager() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3bb10a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a13c0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   MissionLevelFinishedController(MissionLevelFinishedController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6031 };
 
   /// @brief Field _prepareLevelCompletionResults, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> ____prepareLevelCompletionResults;

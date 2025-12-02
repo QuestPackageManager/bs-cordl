@@ -1,28 +1,29 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GameplayRpcManager.hpp"
-#include "GlobalNamespace/zzzz__IGameplayRpcManager_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_1_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_2_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_3_impl.hpp"
 #include "GlobalNamespace/zzzz__RemoteProcedureCall_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
+#include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkMessageType_def.hpp"
 #include "GlobalNamespace/zzzz__NoteCutInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteMissInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__NoteSpawnInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnInfoNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettingsAtStartNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerSpecificSettingsNetSerializable_def.hpp"
-#include "GlobalNamespace/zzzz__RpcHandler_1_def.hpp"
+#include "GlobalNamespace/zzzz__RpcHandler_2_def.hpp"
 #include "GlobalNamespace/zzzz__SliderSpawnInfoNetSerializable_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "uint8_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::GameplayRpcManager_RpcType::GameplayRpcManager_RpcType(uint8_t value__) noexcept {
   this->value__ = value__;
@@ -49,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_SetGameplaySceneSyncFinishedRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_SetGameplaySceneSyncFinishedRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb364;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31a9e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_SetGameplaySceneReadyRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_SetGameplaySceneReadyRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb3ac;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31a9ec8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_GetGameplaySceneReadyRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_GetGameplaySceneReadyRpc::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb3f4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31a9f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_SetPlayerDidConnectLateRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_SetPlayerDidConnectLateRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb3fc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31a9f18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -153,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_SetGameplaySongReadyRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_SetGameplaySongReadyRpc::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb444;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31a9f64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -179,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_GetGameplaySongReadyRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_GetGameplaySongReadyRpc::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb44c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31a9f68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,8 +206,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_SetSongStartTimeRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_SetSongStartTimeRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb454;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31a9f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -230,8 +231,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_NoteSpawnedRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_NoteSpawnedRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb49c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31a9fb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_NoteSpawnedRpc*>::get(),
@@ -254,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_ObstacleSpawnedRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_ObstacleSpawnedRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb4e4;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31aa004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_ObstacleSpawnedRpc*>::get(),
@@ -278,8 +279,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_SliderSpawnedRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_SliderSpawnedRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb52c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31aa050;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_SliderSpawnedRpc*>::get(),
@@ -302,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_NoteCutRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_NoteCutRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb574;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31aa09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_NoteCutRpc*>::get(),
@@ -326,8 +327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_NoteMissedRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_NoteMissedRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb5bc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31aa0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_NoteMissedRpc*>::get(),
@@ -350,8 +351,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_LevelFinishedRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_LevelFinishedRpc::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22cb604;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31aa134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_LevelFinishedRpc*>::get(),
@@ -374,8 +375,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_ReturnToMenuRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_ReturnToMenuRpc::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb64c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31aa180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager_ReturnToMenuRpc*>::get(),
@@ -398,8 +399,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager_RequestReturnToMenuRpc::*)()>(
     &::GlobalNamespace::GameplayRpcManager_RequestReturnToMenuRpc::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22cb654;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31aa184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -423,8 +424,8 @@ constexpr ::GlobalNamespace::GameplayRpcManager_RequestReturnToMenuRpc::Gameplay
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::get_enabled)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x22c8ea8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x31a76a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(), "get_enabled",
@@ -436,8 +437,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(bool)>(&::GlobalNamespace::GameplayRpcManager::set_enabled)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x22c8f68;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x31a776c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -449,15 +450,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::GameplayRpcManager._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::GlobalNamespace::IMultiplayerSessionManager*)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::GlobalNamespace::IBeatSaberMultiplayerSessionManager*)>(
     &::GlobalNamespace::GameplayRpcManager::_ctor)> {
-  constexpr static std::size_t size = 0x71c;
-  constexpr static std::size_t addrs = 0x22c9030;
+  constexpr static std::size_t size = 0x7b8;
+  constexpr static std::size_t addrs = 0x31a7844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get() })));
     return ___internal_method;
   }
 };
@@ -465,8 +466,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::Dispose)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x22c974c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x31a7ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(), "Dispose",
@@ -479,8 +480,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>*)>(&::GlobalNamespace::GameplayRpcManager::add_setGameplaySceneSyncFinishedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c97a8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a805c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -495,8 +496,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_3<::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>*)>(&::GlobalNamespace::GameplayRpcManager::remove_setGameplaySceneSyncFinishedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9858;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a811c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -511,8 +512,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&::GlobalNamespace::GameplayRpcManager::SetGameplaySceneSyncFinished)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22c9908;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x31a81dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -528,7 +529,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&::GlobalNamespace::GameplayRpcManager::InvokeSetGameplaySceneSyncFinishCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c9970;
+  constexpr static std::size_t addrs = 0x31a8248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -544,8 +545,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::add_setGameplaySceneReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c998c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -560,8 +561,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_setGameplaySceneReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9a3c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -576,8 +577,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(
     &::GlobalNamespace::GameplayRpcManager::SetGameplaySceneReady)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22c9aec;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x31a83e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,7 +593,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, ::GlobalNamespace::PlayerSpecificSettingsNetSerializable*)>(&::GlobalNamespace::GameplayRpcManager::InvokeSetGameplaySceneReadyCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c9b44;
+  constexpr static std::size_t addrs = 0x31a8448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -607,8 +608,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::add_getGameplaySceneReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9b60;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -622,8 +623,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::remove_getGameplaySceneReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9c10;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,8 +637,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::GetGameplaySceneReady)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22c9cc0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31a85e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(),
@@ -651,7 +652,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeGetGameplaySceneReadyCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c9d10;
+  constexpr static std::size_t addrs = 0x31a8638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -666,8 +667,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>*)>(
         &::GlobalNamespace::GameplayRpcManager::add_setPlayerDidConnectLateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9d2c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -683,8 +684,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_4<::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW>*)>(
         &::GlobalNamespace::GameplayRpcManager::remove_setPlayerDidConnectLateEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9ddc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -699,8 +700,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&::GlobalNamespace::GameplayRpcManager::SetPlayerDidConnectLate)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22c9e8c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x31a87d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -717,7 +718,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, ::StringW, ::GlobalNamespace::PlayerSpecificSettingsAtStartNetSerializable*, ::StringW)>(&::GlobalNamespace::GameplayRpcManager::InvokeSetPlayerDidConnectLate)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22c9efc;
+  constexpr static std::size_t addrs = 0x31a8850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -733,8 +734,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::add_setGameplaySongReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9f18;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a886c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -748,8 +749,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::remove_setGameplaySongReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22c9fc8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a892c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -762,8 +763,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::SetGameplaySongReady)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22ca078;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31a89ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(),
@@ -777,7 +778,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeSetGameplaySongReadyCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22ca0c8;
+  constexpr static std::size_t addrs = 0x31a8a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -791,8 +792,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::add_getGameplaySongReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca0e4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -806,8 +807,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::remove_getGameplaySongReadyEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca194;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -820,8 +821,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::GetGameplaySongReady)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22ca244;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31a8bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(),
@@ -835,7 +836,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeGetGameplayLevelReadyCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22ca294;
+  constexpr static std::size_t addrs = 0x31a8c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -849,8 +850,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::GameplayRpcManager::add_setSongStartTimeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca2b0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8c4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -864,8 +865,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_2<::StringW, int64_t>*)>(
     &::GlobalNamespace::GameplayRpcManager::remove_setSongStartTimeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca360;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -878,8 +879,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(int64_t)>(&::GlobalNamespace::GameplayRpcManager::SetSongStartTime)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22ca410;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x31a8dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -894,7 +895,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW, int64_t)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeSetSongStartTimeCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22ca468;
+  constexpr static std::size_t addrs = 0x31a8e30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -908,8 +909,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::add_noteWasSpawnedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca484;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -924,8 +925,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_noteWasSpawnedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca534;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a8f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -940,8 +941,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(
     &::GlobalNamespace::GameplayRpcManager::NoteSpawned)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22ca5e4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31a8fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -957,7 +958,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(&::GlobalNamespace::GameplayRpcManager::InvokeNoteWasSpawnedCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22ca64c;
+  constexpr static std::size_t addrs = 0x31a9040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -973,8 +974,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::add_obstacleWasSpawnedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca668;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a905c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -989,8 +990,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_obstacleWasSpawnedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca718;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a911c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1005,8 +1006,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(
     &::GlobalNamespace::GameplayRpcManager::ObstacleSpawned)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22ca7c8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31a91dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1022,7 +1023,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(&::GlobalNamespace::GameplayRpcManager::InvokeObstacleWasSpawnedCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22ca830;
+  constexpr static std::size_t addrs = 0x31a9250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1038,8 +1039,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::add_sliderWasSpawnedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca84c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a926c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1054,8 +1055,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_sliderWasSpawnedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22ca8fc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a932c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1070,8 +1071,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(
     &::GlobalNamespace::GameplayRpcManager::SliderSpawned)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22ca9ac;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31a93ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1087,7 +1088,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&::GlobalNamespace::GameplayRpcManager::InvokeSliderWasSpawnedCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22caa14;
+  constexpr static std::size_t addrs = 0x31a9460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1103,8 +1104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::add_noteWasCutEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22caa30;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a947c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1119,8 +1120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_noteWasCutEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22caae0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a953c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1135,8 +1136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*)>(
     &::GlobalNamespace::GameplayRpcManager::NoteCut)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22cab90;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31a95fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1152,7 +1153,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*)>(&::GlobalNamespace::GameplayRpcManager::InvokeNoteWasCutCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cabf8;
+  constexpr static std::size_t addrs = 0x31a9670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1168,8 +1169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::add_noteWasMissedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cac14;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a968c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1184,8 +1185,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_4<::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_noteWasMissedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cacc4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a974c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1200,8 +1201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*)>(
     &::GlobalNamespace::GameplayRpcManager::NoteMissed)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22cad74;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x31a980c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1217,7 +1218,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*)>(&::GlobalNamespace::GameplayRpcManager::InvokeNoteWasMissedCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22caddc;
+  constexpr static std::size_t addrs = 0x31a9880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1233,8 +1234,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&::GlobalNamespace::GameplayRpcManager::add_levelFinishedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cadf8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a989c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1248,8 +1249,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(
     ::System::Action_2<::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*>*)>(&::GlobalNamespace::GameplayRpcManager::remove_levelFinishedEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22caea8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a995c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1263,8 +1264,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::GameplayRpcManager::LevelFinished)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22caf58;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x31a9a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1279,7 +1280,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeLevelFinishedCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cafb0;
+  constexpr static std::size_t addrs = 0x31a9a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1294,8 +1295,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::add_returnToMenuEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cafcc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a9a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1309,8 +1310,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::remove_returnToMenuEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cb07c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a9b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1323,8 +1324,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::ReturnToMenu)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22cb12c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31a9c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(), "ReturnToMenu",
@@ -1338,7 +1339,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeReturnToMenuCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cb17c;
+  constexpr static std::size_t addrs = 0x31a9c70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1352,8 +1353,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::add_requestReturnToMenuEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cb198;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a9c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1367,8 +1368,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::System::Action_1<::StringW>*)>(
     &::GlobalNamespace::GameplayRpcManager::remove_requestReturnToMenuEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x22cb248;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x31a9d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1381,8 +1382,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)()>(&::GlobalNamespace::GameplayRpcManager::RequestReturnToMenu)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x22cb2f8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x31a9e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(),
@@ -1396,7 +1397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayRpcManager::*)(::StringW)>(
     &::GlobalNamespace::GameplayRpcManager::InvokeRequestReturnToMenuCallback)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22cb348;
+  constexpr static std::size_t addrs = 0x31a9e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1405,27 +1406,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*& GlobalNamespace::GameplayRpcManager::__cordl_internal_get__multiplayerSessionManager() {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& GlobalNamespace::GameplayRpcManager::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& GlobalNamespace::GameplayRpcManager::__cordl_internal_get__multiplayerSessionManager() const {
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& GlobalNamespace::GameplayRpcManager::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
-constexpr void GlobalNamespace::GameplayRpcManager::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value) {
+constexpr void GlobalNamespace::GameplayRpcManager::__cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____multiplayerSessionManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::RpcHandler_1<::GlobalNamespace::GameplayRpcManager_RpcType>*& GlobalNamespace::GameplayRpcManager::__cordl_internal_get__rpcHandler() {
+constexpr ::GlobalNamespace::RpcHandler_2<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::GameplayRpcManager_RpcType>*&
+GlobalNamespace::GameplayRpcManager::__cordl_internal_get__rpcHandler() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rpcHandler;
 }
-constexpr ::GlobalNamespace::RpcHandler_1<::GlobalNamespace::GameplayRpcManager_RpcType>* const& GlobalNamespace::GameplayRpcManager::__cordl_internal_get__rpcHandler() const {
+constexpr ::GlobalNamespace::RpcHandler_2<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::GameplayRpcManager_RpcType>* const&
+GlobalNamespace::GameplayRpcManager::__cordl_internal_get__rpcHandler() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____rpcHandler;
 }
-constexpr void GlobalNamespace::GameplayRpcManager::__cordl_internal_set__rpcHandler(::GlobalNamespace::RpcHandler_1<::GlobalNamespace::GameplayRpcManager_RpcType>* value) {
+constexpr void
+GlobalNamespace::GameplayRpcManager::__cordl_internal_set__rpcHandler(::GlobalNamespace::RpcHandler_2<::GlobalNamespace::NetworkMessageType, ::GlobalNamespace::GameplayRpcManager_RpcType>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____rpcHandler)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1633,10 +1637,10 @@ inline void GlobalNamespace::GameplayRpcManager::set_enabled(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline void GlobalNamespace::GameplayRpcManager::_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get() })));
+inline void GlobalNamespace::GameplayRpcManager::_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayRpcManager*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, multiplayerSessionManager);
 }
 inline void GlobalNamespace::GameplayRpcManager::Dispose() {
@@ -2049,7 +2053,7 @@ inline void GlobalNamespace::GameplayRpcManager::InvokeRequestReturnToMenuCallba
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userId);
 }
-inline ::GlobalNamespace::GameplayRpcManager* GlobalNamespace::GameplayRpcManager::New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager) {
+inline ::GlobalNamespace::GameplayRpcManager* GlobalNamespace::GameplayRpcManager::New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GameplayRpcManager*>(multiplayerSessionManager));
 }
 /// @brief Convert operator to "::System::IDisposable"

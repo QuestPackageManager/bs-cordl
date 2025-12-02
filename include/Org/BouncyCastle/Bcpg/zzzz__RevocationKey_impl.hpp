@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationKey::*)(bool, bool, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x263f808;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x356f26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::RevocationKey::*)(
     bool, ::Org::BouncyCastle::Bcpg::RevocationKeyTag, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::RevocationKey::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x263f850;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x356f284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(
     ::Org::BouncyCastle::Bcpg::RevocationKeyTag, ::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Bcpg::RevocationKey::CreateData)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x263f8a4;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x356f2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::RevocationKeyTag (::Org::BouncyCastle::Bcpg::RevocationKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::get_SignatureClass)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x263f950;
+  constexpr static std::size_t addrs = 0x356f374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Bcpg::PublicKeyAlgorithmTag (::Org::BouncyCastle::Bcpg::RevocationKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::get_Algorithm)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x263f978;
+  constexpr static std::size_t addrs = 0x356f39c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::RevocationKey::*)()>(
     &::Org::BouncyCastle::Bcpg::RevocationKey::GetFingerprint)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x263f9a4;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x356f3c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

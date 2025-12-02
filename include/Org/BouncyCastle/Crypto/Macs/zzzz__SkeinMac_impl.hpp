@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Macs/SkeinMac.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IMac_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Macs/zzzz__SkeinMac_def.hpp"
 #include "Org/BouncyCastle/Crypto/Digests/zzzz__SkeinEngine_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IMac_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Macs::SkeinMac._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)(int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x239b314;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x32c906c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)(::Org::BouncyCastle::Crypto::Macs::SkeinMac*)>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::_ctor)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x239b390;
+  constexpr static std::size_t addrs = 0x32c90e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::get_AlgorithmName)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x239b408;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x32c9158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SkeinMac*>::get(),
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::Init)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x239b5bc;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x32c9308;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)()>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::GetMacSize)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x239b7e0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32c9534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SkeinMac*>::get(),
@@ -82,8 +82,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)()>(&::Org::BouncyCastle::Crypto::Macs::SkeinMac::Reset)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x239b7fc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32c954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Macs::SkeinMac*>::get(), "Reset",
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::Update)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x239b818;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32c9564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::BlockUpdate)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x239b834;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32c957c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Macs::SkeinMac::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Macs::SkeinMac::DoFinal)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x239b850;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32c9594;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

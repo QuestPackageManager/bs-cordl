@@ -13,3 +13,4 @@ constexpr ::UnityEngine::Rendering::RenderingThreadingMode UnityEngine::Renderin
 constexpr ::UnityEngine::Rendering::RenderingThreadingMode UnityEngine::Rendering::RenderingThreadingMode::LegacyJobified{ static_cast<int32_t>(0x3) };
 constexpr ::UnityEngine::Rendering::RenderingThreadingMode UnityEngine::Rendering::RenderingThreadingMode::NativeGraphicsJobs{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::RenderingThreadingMode UnityEngine::Rendering::RenderingThreadingMode::NativeGraphicsJobsWithoutRenderThread{ static_cast<int32_t>(0x5) };
+constexpr ::UnityEngine::Rendering::RenderingThreadingMode UnityEngine::Rendering::RenderingThreadingMode::NativeGraphicsJobsSplitThreading{ static_cast<int32_t>(0x6) };

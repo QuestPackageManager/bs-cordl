@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SM2KeyExchangePrivateParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPrivateKeyParameters;
+}
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
 }
 namespace Org::BouncyCastle::Math::EC {
 class ECPoint;
@@ -18,7 +20,7 @@ class SM2KeyExchangePrivateParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::SM2KeyExchangePrivateParameters);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.SM2KeyExchangePrivateParameters
@@ -87,23 +89,23 @@ public:
 
   constexpr void __cordl_internal_set_mStaticPublicPoint(::Org::BouncyCastle::Math::EC::ECPoint* value);
 
-  /// @brief Method .ctor, addr 0x23c30e8, size 0x268, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32f1084, size 0x25c, virtual false, abstract: false, final false
   inline void _ctor(bool initiator, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0x23c3368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0x32f12f8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicPoint, addr 0x23c3370, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicPoint, addr 0x32f1300, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_EphemeralPublicPoint();
 
-  /// @brief Method get_IsInitiator, addr 0x23c3350, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsInitiator, addr 0x32f12e0, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsInitiator();
 
-  /// @brief Method get_StaticPrivateKey, addr 0x23c3358, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0x32f12e8, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
-  /// @brief Method get_StaticPublicPoint, addr 0x23c3360, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPublicPoint, addr 0x32f12f0, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* get_StaticPublicPoint();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

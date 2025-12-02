@@ -2,7 +2,6 @@
 // IWYU pragma private; include "GlobalNamespace/StandardLevelScenesTransitionSetupDataSO.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelScenesTransitionSetupDataSO_impl.hpp"
-#include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataLoader_def.hpp"
@@ -20,78 +19,19 @@
 #include "GlobalNamespace/zzzz__PlayerSpecificSettings_def.hpp"
 #include "GlobalNamespace/zzzz__PracticeSettings_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolManager_def.hpp"
-#include "GlobalNamespace/zzzz__SceneInfo_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
-#include "GlobalNamespace/zzzz__StandardLevelScenesTransitionSetupDataSO_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::*)()>(
-    &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3f204;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0._InitEnvironmentInfo_b__0
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::*)(
-    ::GlobalNamespace::EnvironmentInfoSO*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::_InitEnvironmentInfo_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b3f214;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0*>::get(), "<InitEnvironmentInfo>b__0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::StringW& GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::__cordl_internal_get_openedLevelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___openedLevelId;
-}
-constexpr ::StringW const& GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::__cordl_internal_get_openedLevelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___openedLevelId;
-}
-constexpr void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::__cordl_internal_set_openedLevelId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___openedLevelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::_InitEnvironmentInfo_b__0(::GlobalNamespace::EnvironmentInfoSO* env) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0*>::get(), "<InitEnvironmentInfo>b__0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, env);
-}
-inline ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0* GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0*>());
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0::StandardLevelScenesTransitionSetupDataSO___c__DisplayClass48_0() {}
+#include "System/zzzz__ValueTuple_2_def.hpp"
+#include "System/zzzz__ValueTuple_3_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.add_didFinishEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::add_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b3bb1c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x571f2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,8 +47,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::remove_didFinishEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b3bffc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x571f7f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -124,7 +64,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_gameMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ebc0;
+  constexpr static std::size_t addrs = 0x57220e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -139,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::StringW)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_gameMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ebc8;
+  constexpr static std::size_t addrs = 0x57220e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -153,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_beatmapKey)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b3ebd0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x57220f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::BeatmapKey)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_beatmapKey)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b3ebe4;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5722100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -184,7 +124,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_beatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ebf8;
+  constexpr static std::size_t addrs = 0x5722110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -199,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_beatmapLevel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec00;
+  constexpr static std::size_t addrs = 0x5722118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PracticeSettings* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec08;
+  constexpr static std::size_t addrs = 0x5722120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -229,7 +169,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::PracticeSettings*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_practiceSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec10;
+  constexpr static std::size_t addrs = 0x5722128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -244,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_usingOverrideColorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec18;
+  constexpr static std::size_t addrs = 0x5722130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -258,8 +198,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(bool)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_usingOverrideColorScheme)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b3ec20;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5722138;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -274,7 +214,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ColorScheme* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec2c;
+  constexpr static std::size_t addrs = 0x5722140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -289,7 +229,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::ColorScheme*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_colorScheme)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec34;
+  constexpr static std::size_t addrs = 0x5722148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_usingOverrideEnvironment)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec3c;
+  constexpr static std::size_t addrs = 0x5722150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -318,8 +258,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(bool)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_usingOverrideEnvironment)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b3ec44;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5722158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -334,7 +274,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_targetEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec50;
+  constexpr static std::size_t addrs = 0x5722160;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -349,7 +289,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_targetEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec58;
+  constexpr static std::size_t addrs = 0x5722168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -364,7 +304,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_originalEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec60;
+  constexpr static std::size_t addrs = 0x5722170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -379,7 +319,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::EnvironmentInfoSO*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_originalEnvironmentInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec68;
+  constexpr static std::size_t addrs = 0x5722178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -394,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec70;
+  constexpr static std::size_t addrs = 0x5722180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -409,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::GameplayModifiers*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ec78;
+  constexpr static std::size_t addrs = 0x5722188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -422,51 +362,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
-    ::StringW, ::GlobalNamespace::IBeatmapLevelData*, ::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::OverrideEnvironmentSettings*,
-    ::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*,
-    ::GlobalNamespace::EnvironmentsListModel*, ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::BeatmapDataLoader*,
-    ::GlobalNamespace::BeatmapLevelsEntitlementModel*, ::StringW, bool, bool, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>)>(
-    &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3b39454;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 20>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelData*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentsListModel*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.Init
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
     ::StringW, ::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::OverrideEnvironmentSettings*, ::GlobalNamespace::ColorScheme*, bool,
-    ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*, ::GlobalNamespace::EnvironmentsListModel*,
-    ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::BeatmapDataLoader*, ::GlobalNamespace::SettingsManager*, ::StringW, ::GlobalNamespace::BeatmapLevelsModel*,
-    ::GlobalNamespace::BeatmapLevelsEntitlementModel*, bool, bool, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>)>(
+    ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::PlayerSpecificSettings*, ::GlobalNamespace::PracticeSettings*, ::GlobalNamespace::EnvironmentsListModel*,
+    ::GlobalNamespace::AudioClipAsyncLoader*, ::GlobalNamespace::SettingsManager*, ::GlobalNamespace::BeatmapDataLoader*, ::GlobalNamespace::BeatmapLevelsEntitlementModel*, ::StringW, bool, bool,
+    ::GlobalNamespace::BeatmapLevelsModel*, ::GlobalNamespace::IBeatmapLevelData*, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3b3c93c;
+  constexpr static std::size_t size = 0x3d4;
+  constexpr static std::size_t addrs = 0x571cdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -477,19 +379,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentsListModel*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelData*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>>::get() })));
     return ___internal_method;
   }
@@ -500,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(::GlobalNamespace::LevelCompletionResults*)>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Finish)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b3f1dc;
+  constexpr static std::size_t addrs = 0x57223f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -509,52 +411,57 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.InitEnvironmentInfo
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.GetEnvironmentInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
-    ::GlobalNamespace::OverrideEnvironmentSettings*, ::GlobalNamespace::EnvironmentsListModel*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitEnvironmentInfo)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3b3ec80;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::System::ValueTuple_3<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, bool> (*)(
+        ::GlobalNamespace::BeatmapKey, ::GlobalNamespace::BeatmapLevel*, ::GlobalNamespace::OverrideEnvironmentSettings*, ::GlobalNamespace::EnvironmentsListModel*)>(
+        &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::GetEnvironmentInfo)> {
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x5722190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "InitEnvironmentInfo", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "GetEnvironmentInfo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentsListModel*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.InitColorInfo
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.GetEnvironmentOverride
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
-    ::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitColorInfo)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b3eec4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::EnvironmentInfoSO> (*)(
+    ::GlobalNamespace::EnvironmentInfoSO*, ::GlobalNamespace::OverrideEnvironmentSettings*)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::GetEnvironmentOverride)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5722420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "InitColorInfo", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "GetEnvironmentOverride", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.InitAndSetupScenes
+//  Writing Method size for method: ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO.GetColorInfo
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)(
-    ::GlobalNamespace::PlayerSpecificSettings*, ::StringW, bool)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitAndSetupScenes)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x3b3ef24;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_2<bool, ::GlobalNamespace::ColorScheme*> (*)(
+    ::GlobalNamespace::ColorScheme*, bool, ::GlobalNamespace::ColorScheme*, ::GlobalNamespace::EnvironmentInfoSO*, bool)>(&::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::GetColorInfo)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x572235c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "InitAndSetupScenes", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "GetColorInfo", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -564,7 +471,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3f20c;
+  constexpr static std::size_t addrs = 0x57224e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -573,30 +480,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::SceneInfo>& GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_get__standardGameplaySceneInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____standardGameplaySceneInfo;
-}
-constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_get__standardGameplaySceneInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____standardGameplaySceneInfo;
-}
-constexpr void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_set__standardGameplaySceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____standardGameplaySceneInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::SceneInfo>& GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_get__gameCoreSceneInfo() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameCoreSceneInfo;
-}
-constexpr ::UnityW<::GlobalNamespace::SceneInfo> const& GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_get__gameCoreSceneInfo() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameCoreSceneInfo;
-}
-constexpr void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_set__gameCoreSceneInfo(::UnityW<::GlobalNamespace::SceneInfo> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameCoreSceneInfo)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::System::Action_2<::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>, ::GlobalNamespace::LevelCompletionResults*>*&
 GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::__cordl_internal_get_didFinishEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -871,46 +754,12 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::set_gamep
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init(
-    ::StringW gameMode, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-    ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings, ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
-    ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings,
-    ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader,
-    ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader, ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel,
-    ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused, ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 20>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelData*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::BeatmapKey>>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentsListModel*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameMode, beatmapLevelData, beatmapKey, beatmapLevel, overrideEnvironmentSettings, playerOverrideColorScheme,
-                                                          playerOverrideLightshowColors, beatmapOverrideColorScheme, gameplayModifiers, playerSpecificSettings, practiceSettings, environmentsListModel,
-                                                          audioClipAsyncLoader, settingsManager, beatmapDataLoader, beatmapLevelsEntitlementModel, backButtonText, useTestNoteCutSoundEffects,
-                                                          startPaused, recordingToolData);
-}
-inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init(
     ::StringW gameMode, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
-    ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme,
-    ::GlobalNamespace::GameplayModifiers* gameplayModifiers, ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings,
-    ::GlobalNamespace::EnvironmentsListModel* environmentsListModel, ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
-    ::GlobalNamespace::SettingsManager* settingsManager, ::StringW backButtonText, ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel,
-    ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, bool useTestNoteCutSoundEffects, bool startPaused,
+    ::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
+    ::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::GlobalNamespace::PracticeSettings* practiceSettings, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
+    ::GlobalNamespace::AudioClipAsyncLoader* audioClipAsyncLoader, ::GlobalNamespace::SettingsManager* settingsManager, ::GlobalNamespace::BeatmapDataLoader* beatmapDataLoader,
+    ::GlobalNamespace::BeatmapLevelsEntitlementModel* beatmapLevelsEntitlementModel, ::StringW backButtonText, bool useTestNoteCutSoundEffects, bool startPaused,
+    ::GlobalNamespace::BeatmapLevelsModel* beatmapLevelsModel, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData,
     ::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData> recordingToolData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
@@ -920,24 +769,24 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Init(
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PracticeSettings*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentsListModel*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::AudioClipAsyncLoader*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SettingsManager*>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataLoader*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsEntitlementModel*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevelsModel*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapLevelData*>::get(),
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Nullable_1<::GlobalNamespace::RecordingToolManager_SetupData>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameMode, beatmapKey, beatmapLevel, overrideEnvironmentSettings, playerOverrideColorScheme,
-                                                          playerOverrideLightshowColors, beatmapOverrideColorScheme, gameplayModifiers, playerSpecificSettings, practiceSettings, environmentsListModel,
-                                                          audioClipAsyncLoader, beatmapDataLoader, settingsManager, backButtonText, beatmapLevelsModel, beatmapLevelsEntitlementModel,
-                                                          useTestNoteCutSoundEffects, startPaused, recordingToolData);
+                                                          playerOverrideLightshowColors, gameplayModifiers, playerSpecificSettings, practiceSettings, environmentsListModel, audioClipAsyncLoader,
+                                                          settingsManager, beatmapDataLoader, beatmapLevelsEntitlementModel, backButtonText, useTestNoteCutSoundEffects, startPaused,
+                                                          beatmapLevelsModel, beatmapLevelData, recordingToolData);
 }
 inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Finish(::GlobalNamespace::LevelCompletionResults* levelCompletionResults) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -945,30 +794,40 @@ inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::Finish(::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LevelCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelCompletionResults);
 }
-inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitEnvironmentInfo(::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
-                                                                                           ::GlobalNamespace::EnvironmentsListModel* environmentsListModel) {
+inline ::System::ValueTuple_3<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, bool>
+GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::GetEnvironmentInfo(::GlobalNamespace::BeatmapKey beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
+                                                                              ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings,
+                                                                              ::GlobalNamespace::EnvironmentsListModel* environmentsListModel) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "InitEnvironmentInfo", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "GetEnvironmentInfo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapKey>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentsListModel*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, overrideEnvironmentSettings, environmentsListModel);
+  return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_3<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, ::UnityW<::GlobalNamespace::EnvironmentInfoSO>, bool>, false>(
+      nullptr, ___internal_method, beatmapKey, beatmapLevel, overrideEnvironmentSettings, environmentsListModel);
 }
-inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitColorInfo(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
-                                                                                     ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme) {
+inline ::UnityW<::GlobalNamespace::EnvironmentInfoSO>
+GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::GetEnvironmentOverride(::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
+                                                                                  ::GlobalNamespace::OverrideEnvironmentSettings* overrideEnvironmentSettings) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "InitColorInfo", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerOverrideColorScheme, playerOverrideLightshowColors, beatmapOverrideColorScheme);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "GetEnvironmentOverride", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OverrideEnvironmentSettings*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::EnvironmentInfoSO>, false>(nullptr, ___internal_method, targetEnvironmentInfo, overrideEnvironmentSettings);
 }
-inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::InitAndSetupScenes(::GlobalNamespace::PlayerSpecificSettings* playerSpecificSettings, ::StringW backButtonText,
-                                                                                          bool startPaused) {
+inline ::System::ValueTuple_2<bool, ::GlobalNamespace::ColorScheme*>
+GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::GetColorInfo(::GlobalNamespace::ColorScheme* playerOverrideColorScheme, bool playerOverrideLightshowColors,
+                                                                        ::GlobalNamespace::ColorScheme* beatmapOverrideColorScheme, ::GlobalNamespace::EnvironmentInfoSO* targetEnvironmentInfo,
+                                                                        bool usingOverrideEnvironment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "InitAndSetupScenes", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlayerSpecificSettings*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, playerSpecificSettings, backButtonText, startPaused);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*>::get(), "GetColorInfo", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ColorScheme*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::EnvironmentInfoSO*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::ValueTuple_2<bool, ::GlobalNamespace::ColorScheme*>, false>(
+      nullptr, ___internal_method, playerOverrideColorScheme, playerOverrideLightshowColors, beatmapOverrideColorScheme, targetEnvironmentInfo, usingOverrideEnvironment);
 }
 inline void GlobalNamespace::StandardLevelScenesTransitionSetupDataSO::_ctor() {
   static auto* ___internal_method =

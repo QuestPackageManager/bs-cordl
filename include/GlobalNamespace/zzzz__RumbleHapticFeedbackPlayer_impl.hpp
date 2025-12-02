@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/RumbleHapticFeedbackPlayer.hpp"
-#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "GlobalNamespace/zzzz__RumbleHapticFeedbackPlayer_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData::*)()>(
     &::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39ce754;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56455c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData*>::get(),
@@ -99,8 +99,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RumbleHapticFeedbackPlayer::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::RumbleHapticFeedbackPlayer::PlayHapticFeedback)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39c6098;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5641258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::RumbleHapticFeedbackPlayer::*)(
     ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::RumbleHapticFeedbackPlayer::CanPlayHapticPreset)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x39ce28c;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x5645088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RumbleHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::RumbleHapticFeedbackPlayer::LateUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39ce2cc;
+  constexpr static std::size_t addrs = 0x56450c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RumbleHapticFeedbackPlayer*>::get(),
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RumbleHapticFeedbackPlayer::*)()>(
     &::GlobalNamespace::RumbleHapticFeedbackPlayer::UpdateRumbles)> {
-  constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x39ce2d0;
+  constexpr static std::size_t size = 0x4fc;
+  constexpr static std::size_t addrs = 0x56450c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RumbleHapticFeedbackPlayer*>::get(),
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::RumbleHapticFeedbackPlayer_RumbleData* (
     ::GlobalNamespace::RumbleHapticFeedbackPlayer::*)(::UnityEngine::XR::XRNode, ::System::Object*)>(&::GlobalNamespace::RumbleHapticFeedbackPlayer::GetRumble)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x39ce110;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x5644ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -174,8 +174,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RumbleHapticFeedbackPlayer::*)()>(&::GlobalNamespace::RumbleHapticFeedbackPlayer::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39ce75c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x56455c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RumbleHapticFeedbackPlayer*>::get(), ".ctor",

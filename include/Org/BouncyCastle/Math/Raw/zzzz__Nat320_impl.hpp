@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat320::Copy64)> {
   constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x250e5c4;
+  constexpr static std::size_t addrs = 0x343e0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t, ::ArrayW<uint64_t, ::Array<uint64_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::Raw::Nat320::Copy64)> {
   constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x250e668;
+  constexpr static std::size_t addrs = 0x343e190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (*)()>(&::Org::BouncyCastle::Math::Raw::Nat320::Create64)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250e76c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x343e294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat320*>::get(), "Create64",
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (*)()>(&::Org::BouncyCastle::Math::Raw::Nat320::CreateExt64)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x250e7b0;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x343e2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat320*>::get(), "CreateExt64",
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>, ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat320::Eq64)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x250e7f4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x343e324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint64_t, ::Array<uint64_t>*> (*)(::Org::BouncyCastle::Math::BigInteger*)>(
     &::Org::BouncyCastle::Math::Raw::Nat320::FromBigInteger64)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x250e854;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x343e388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat320::IsOne64)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x250e920;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x343e448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -111,8 +111,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Org::BouncyCastle::Math::Raw::Nat320::IsZero64)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x250e98c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x343e4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (*)(::ArrayW<uint64_t, ::Array<uint64_t>*>)>(
     &::Org::BouncyCastle::Math::Raw::Nat320::ToBigInteger64)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x250e9e0;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x343e500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::Raw::Nat320::*)()>(&::Org::BouncyCastle::Math::Raw::Nat320::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x250eabc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x343e5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::Raw::Nat320*>::get(), ".ctor",

@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/ValueTuple_8.hpp"
-#include "System/Collections/zzzz__IStructuralComparable_impl.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_impl.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
-#include "System/zzzz__IValueTupleInternal_impl.hpp"
 #include "System/zzzz__ValueTuple_8_def.hpp"
 #include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
+#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
+#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
+#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename TRest>
 inline void System::ValueTuple_8<T1, T2, T3, T4, T5, T6, T7, TRest>::_ctor(T1 item1, T2 item2, T3 item3, T4 item4, T5 item5, T6 item6, T7 item7, TRest rest) {

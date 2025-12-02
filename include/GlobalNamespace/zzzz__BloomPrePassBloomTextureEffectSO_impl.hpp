@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ToneMapping (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassBloomTextureEffectSO::get_toneMapping)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4086958;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5d32ea4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -29,7 +29,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::BloomPrePassBloomTextureEffectSO::Render)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4086978;
+  constexpr static std::size_t addrs = 0x5d32eb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBloomTextureEffectSO::*)()>(
     &::GlobalNamespace::BloomPrePassBloomTextureEffectSO::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40869e4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d32f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBloomTextureEffectSO*>::get(),

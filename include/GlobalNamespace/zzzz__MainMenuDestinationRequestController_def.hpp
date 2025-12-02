@@ -4,12 +4,9 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IInitializable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainMenuDestinationRequestController)
@@ -37,8 +34,14 @@ class IAsyncStateMachine;
 namespace System::Threading {
 class CancellationTokenSource;
 }
+namespace System {
+class IDisposable;
+}
 namespace Zenject {
 class DiContainer;
+}
+namespace Zenject {
+class IInitializable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,8 +53,7 @@ struct MainMenuDestinationRequestController__ProcessDestinationRequest_d__9;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MainMenuDestinationRequestController);
 MARK_VAL_T(::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9);
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MainMenuDestinationRequestController/<ProcessDestinationRequest>d__9
@@ -61,10 +63,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b7eba8, size 0x4b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x576a544, size 0x4f0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b7f060, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x576aa34, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -84,7 +86,7 @@ public:
                                                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -125,7 +127,7 @@ static_assert(offsetof(::GlobalNamespace::MainMenuDestinationRequestController__
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MainMenuDestinationRequestController__ProcessDestinationRequest_d__9, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.IDisposable, System.Object, Zenject.IInitializable
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MainMenuDestinationRequestController
@@ -158,21 +160,21 @@ public:
   /// @brief Convert operator to "::Zenject::IInitializable"
   constexpr operator ::Zenject::IInitializable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3b7e760, size 0x1ac, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x576a0cc, size 0x1c4, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x3b7eb9c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method HandleDestinationRequestManagerDidSendMenuDestinationRequest, addr 0x576a53c, size 0x4, virtual false, abstract: false, final false
   inline void HandleDestinationRequestManagerDidSendMenuDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
-  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x3b7e90c, size 0x290, virtual false, abstract: false, final false
+  /// @brief Method HandleGameScenesManagerInstallEarlyBindings, addr 0x576a290, size 0x2ac, virtual false, abstract: false, final false
   inline void HandleGameScenesManagerInstallEarlyBindings(::GlobalNamespace::ScenesTransitionSetupDataSO* scenesTransitionSetupData, ::Zenject::DiContainer* container);
 
-  /// @brief Method Initialize, addr 0x3b7e454, size 0x270, virtual true, abstract: false, final true
+  /// @brief Method Initialize, addr 0x5769d9c, size 0x280, virtual true, abstract: false, final true
   inline void Initialize();
 
   static inline ::GlobalNamespace::MainMenuDestinationRequestController* New_ctor();
 
-  /// @brief Method ProcessDestinationRequest, addr 0x3b7e6c4, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method ProcessDestinationRequest, addr 0x576a01c, size 0xb0, virtual false, abstract: false, final false
   inline void ProcessDestinationRequest(::GlobalNamespace::MenuDestination* menuDestination);
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
@@ -199,7 +201,7 @@ public:
 
   constexpr void __cordl_internal_set__menuScenesTransitionSetupData(::UnityW<::GlobalNamespace::MenuScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x3b7eba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576a540, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MenuDestination* getStaticF__nextMenuDestination();
@@ -227,7 +229,7 @@ public:
   MainMenuDestinationRequestController(MainMenuDestinationRequestController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5758 };
 
   /// @brief Field _destinationRequestManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IDestinationRequestManager* ____destinationRequestManager;

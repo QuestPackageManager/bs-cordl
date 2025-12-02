@@ -5,13 +5,13 @@
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__TimeSpan_impl.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
 #include "System/Net/Http/Headers/zzzz__HttpRequestHeaders_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
 #include "System/Net/Http/zzzz__HttpCompletionOption_def.hpp"
+#include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient__SendAsyncWorker_d__47::*)()>(
     &::System::Net::Http::HttpClient__SendAsyncWorker_d__47::MoveNext)> {
-  constexpr static std::size_t size = 0x684;
-  constexpr static std::size_t addrs = 0x4217cf8;
+  constexpr static std::size_t size = 0x6d0;
+  constexpr static std::size_t addrs = 0x5ebfc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient__SendAsyncWorker_d__47>::get(),
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient__SendAsyncWorker_d__47::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::Http::HttpClient__SendAsyncWorker_d__47::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x421837c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ec02e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient__GetStringAsync_d__53::*)()>(
     &::System::Net::Http::HttpClient__GetStringAsync_d__53::MoveNext)> {
-  constexpr static std::size_t size = 0x534;
-  constexpr static std::size_t addrs = 0x42183f8;
+  constexpr static std::size_t size = 0x588;
+  constexpr static std::size_t addrs = 0x5ec0360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient__GetStringAsync_d__53>::get(),
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient__GetStringAsync_d__53::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::System::Net::Http::HttpClient__GetStringAsync_d__53::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4218ab4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ec0a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -168,8 +168,8 @@ constexpr ::System::Net::Http::HttpClient__GetStringAsync_d__53::HttpClient__Get
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient::*)()>(&::System::Net::Http::HttpClient::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4217010;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5ebee18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient*>::get(), ".ctor",
@@ -180,10 +180,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Net::Http::HttpClient._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpMessageHandler*)>(
+    &::System::Net::Http::HttpClient::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5ebef50;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpMessageHandler*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::HttpClient._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpMessageHandler*, bool)>(
     &::System::Net::Http::HttpClient::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x421706c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5ebee88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -198,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Net::Http::HttpClient::*)()>(&::System::Net::Http::HttpClient::get_MaxResponseContentBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42171a0;
+  constexpr static std::size_t addrs = 0x5ebefb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,8 +226,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient::*)(::System::TimeSpan)>(&::System::Net::Http::HttpClient::set_Timeout)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x42171a8;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x5ebefc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,8 +240,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClient::*)(bool)>(&::System::Net::Http::HttpClient::Dispose)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x42172e4;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5ebf108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -240,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClient::*)(::System::Uri*, ::System::Net::Http::HttpCompletionOption)>(&::System::Net::Http::HttpClient::GetAsync)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4217388;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5ebf1c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -251,13 +266,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::System::Net::Http::HttpClient.PostAsync
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
+    ::System::Net::Http::HttpClient::*)(::System::Uri*, ::System::Net::Http::HttpContent*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpClient::PostAsync)> {
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5ebf350;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient*>::get(), "PostAsync", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpContent*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::System::Net::Http::HttpClient.SendAsync
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption)>(&::System::Net::Http::HttpClient::SendAsync)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4217498;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5ebf2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -273,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpClient::SendAsync)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4217788;
+  constexpr static std::size_t addrs = 0x5ebf6b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -288,8 +320,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::HttpClient::SendAsync)> {
-  constexpr static std::size_t size = 0x278;
-  constexpr static std::size_t addrs = 0x4217510;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x5ebf45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -306,8 +338,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpRequestMessage*, ::System::Net::Http::HttpCompletionOption, ::System::Threading::CancellationToken)>(
     &::System::Net::Http::HttpClient::SendAsyncWorker)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4217a44;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5ebf954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -323,8 +355,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (::System::Net::Http::HttpClient::*)(::System::Uri*)>(
     &::System::Net::Http::HttpClient::GetStringAsync)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x4217b4c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5ebfa60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -338,8 +370,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClient::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpClient::__n__0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4217cb8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5ebfbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -433,6 +465,12 @@ inline void System::Net::Http::HttpClient::_ctor() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void System::Net::Http::HttpClient::_ctor(::System::Net::Http::HttpMessageHandler* handler) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpMessageHandler*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, handler);
+}
 inline void System::Net::Http::HttpClient::_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -463,6 +501,15 @@ inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessa
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpCompletionOption>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*, false>(this, ___internal_method, requestUri, completionOption);
+}
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* System::Net::Http::HttpClient::PostAsync(::System::Uri* requestUri, ::System::Net::Http::HttpContent* content,
+                                                                                                                               ::System::Threading::CancellationToken cancellationToken) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClient*>::get(), "PostAsync", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Uri*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Net::Http::HttpContent*>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*, false>(this, ___internal_method, requestUri, content, cancellationToken);
 }
 inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* System::Net::Http::HttpClient::SendAsync(::System::Net::Http::HttpRequestMessage* request,
                                                                                                                                ::System::Net::Http::HttpCompletionOption completionOption) {
@@ -516,6 +563,9 @@ inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessa
 }
 inline ::System::Net::Http::HttpClient* System::Net::Http::HttpClient::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpClient*>());
+}
+inline ::System::Net::Http::HttpClient* System::Net::Http::HttpClient::New_ctor(::System::Net::Http::HttpMessageHandler* handler) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpClient*>(handler));
 }
 inline ::System::Net::Http::HttpClient* System::Net::Http::HttpClient::New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Net::Http::HttpClient*>(handler, disposeHandler));

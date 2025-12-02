@@ -69,18 +69,18 @@ public:
   /// @brief Field permissionsChangedEvent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_permissionsChangedEvent, put = __cordl_internal_set_permissionsChangedEvent)) ::System::Action* permissionsChangedEvent;
 
-  /// @brief Method Activate, addr 0x26dc764, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x360e6d4, size 0xf8, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method Deactivate, addr 0x26dc9f8, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method Deactivate, addr 0x360e978, size 0xf8, virtual false, abstract: false, final false
   inline void Deactivate();
 
-  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x26dd09c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method HandleMenuRpcManagerSetPlayersPermissionConfiguration, addr 0x360f040, size 0x264, virtual false, abstract: false, final false
   inline void HandleMenuRpcManagerSetPlayersPermissionConfiguration(::StringW userId, ::GlobalNamespace::PlayersLobbyPermissionConfigurationNetSerializable* playersLobbyPermissionConfiguration);
 
   static inline ::GlobalNamespace::LobbyPlayerPermissionsModel* New_ctor();
 
-  /// @brief Method SetPlayerPermissions, addr 0x26dd058, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetPlayerPermissions, addr 0x360f010, size 0x30, virtual false, abstract: false, final false
   inline void SetPlayerPermissions(bool isPartyOwner, bool hasRecommendBeatmapPermission, bool hasRecommendModifiersPermission, bool hasKickVotePermission, bool hasInvitePermission);
 
   constexpr bool const& __cordl_internal_get__hasInvitePermission_k__BackingField() const;
@@ -131,43 +131,43 @@ public:
 
   constexpr void __cordl_internal_set_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method .ctor, addr 0x26dd348, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360f2a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_permissionsChangedEvent, addr 0x26dcf20, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_permissionsChangedEvent, addr 0x360eeb8, size 0xac, virtual false, abstract: false, final false
   inline void add_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method get_hasInvitePermission, addr 0x26dcf0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasInvitePermission, addr 0x360eea8, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasInvitePermission();
 
-  /// @brief Method get_hasKickVotePermission, addr 0x26dcef8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasKickVotePermission, addr 0x360ee98, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasKickVotePermission();
 
-  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x26dced0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendBeatmapPermission, addr 0x360ee78, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendBeatmapPermission();
 
-  /// @brief Method get_hasRecommendModifiersPermission, addr 0x26dcee4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_hasRecommendModifiersPermission, addr 0x360ee88, size 0x8, virtual false, abstract: false, final false
   inline bool get_hasRecommendModifiersPermission();
 
-  /// @brief Method get_isPartyOwner, addr 0x26dcebc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPartyOwner, addr 0x360ee68, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPartyOwner();
 
-  /// @brief Method remove_permissionsChangedEvent, addr 0x26dcfbc, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_permissionsChangedEvent, addr 0x360ef64, size 0xac, virtual false, abstract: false, final false
   inline void remove_permissionsChangedEvent(::System::Action* value);
 
-  /// @brief Method set_hasInvitePermission, addr 0x26dcf14, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasInvitePermission, addr 0x360eeb0, size 0x8, virtual false, abstract: false, final false
   inline void set_hasInvitePermission(bool value);
 
-  /// @brief Method set_hasKickVotePermission, addr 0x26dcf00, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasKickVotePermission, addr 0x360eea0, size 0x8, virtual false, abstract: false, final false
   inline void set_hasKickVotePermission(bool value);
 
-  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x26dced8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasRecommendBeatmapPermission, addr 0x360ee80, size 0x8, virtual false, abstract: false, final false
   inline void set_hasRecommendBeatmapPermission(bool value);
 
-  /// @brief Method set_hasRecommendModifiersPermission, addr 0x26dceec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_hasRecommendModifiersPermission, addr 0x360ee90, size 0x8, virtual false, abstract: false, final false
   inline void set_hasRecommendModifiersPermission(bool value);
 
-  /// @brief Method set_isPartyOwner, addr 0x26dcec4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isPartyOwner, addr 0x360ee70, size 0x8, virtual false, abstract: false, final false
   inline void set_isPartyOwner(bool value);
 
 protected:
@@ -185,7 +185,7 @@ public:
   LobbyPlayerPermissionsModel(LobbyPlayerPermissionsModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15078 };
 
   /// @brief Field _menuRpcManager, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::IMenuRpcManager* ____menuRpcManager;

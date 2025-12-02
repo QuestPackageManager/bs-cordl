@@ -5,12 +5,13 @@
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapObjectData_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::RotateBySpawnRotation.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotateBySpawnRotation::*)()>(&::GlobalNamespace::RotateBySpawnRotation::Start)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3b9d254;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x578ba18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotateBySpawnRotation*>::get(), "Start",
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotateBySpawnRotation::*)()>(&::GlobalNamespace::RotateBySpawnRotation::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b9d394;
+  constexpr static std::size_t addrs = 0x578bb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotateBySpawnRotation*>::get(), "OnDestroy",
@@ -37,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotateBySpawnRotation::*)(::GlobalNamespace::BeatmapObjectData*)>(
     &::GlobalNamespace::RotateBySpawnRotation::HandleSpawnRotationBeatmapEvent)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3b9d3b0;
+  constexpr static std::size_t addrs = 0x578bb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -50,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotateBySpawnRotation::*)()>(&::GlobalNamespace::RotateBySpawnRotation::FixedUpdate)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b9d450;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x578bc24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotateBySpawnRotation*>::get(), "FixedUpdate",
@@ -63,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotateBySpawnRotation::*)()>(&::GlobalNamespace::RotateBySpawnRotation::LateUpdate)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3b9d4dc;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x578bc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotateBySpawnRotation*>::get(), "LateUpdate",
@@ -76,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RotateBySpawnRotation::*)()>(&::GlobalNamespace::RotateBySpawnRotation::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b9d59c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x578bd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RotateBySpawnRotation*>::get(), ".ctor",
@@ -120,6 +121,18 @@ constexpr ::GlobalNamespace::BeatmapCallbacksController* const& GlobalNamespace:
 constexpr void GlobalNamespace::RotateBySpawnRotation::__cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____beatmapCallbacksController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::RotateBySpawnRotation::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::RotateBySpawnRotation::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::RotateBySpawnRotation::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& GlobalNamespace::RotateBySpawnRotation::__cordl_internal_get__beatmapDataCallbackWrapper() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

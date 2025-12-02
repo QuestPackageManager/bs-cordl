@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_def.hpp"
@@ -34,8 +33,7 @@ struct ExternalFileReader__ExistsAsync_d__0;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::ExternalFileReader);
 MARK_VAL_T(::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0);
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// UnityEngine.Networking.UnityWebRequest::Result
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, UnityEngine.Networking.UnityWebRequest::Result
 namespace BGLib::UnityExtension {
 // Is value type: true
 // CS Name: BGLib.UnityExtension.ExternalFileReader/<ExistsAsync>d__0
@@ -45,10 +43,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22b6af0, size 0x714, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31fdb14, size 0x7c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22b7390, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x31fe47c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -67,7 +65,7 @@ public:
                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityEngine::Networking::UnityWebRequest_Result> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -112,7 +110,7 @@ public:
   // Declarations
   using _ExistsAsync_d__0 = ::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0;
 
-  /// @brief Method ExistsAsync, addr 0x22b69fc, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ExistsAsync, addr 0x31fda34, size 0xe0, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<bool>* ExistsAsync(::StringW filePath);
 
 protected:
@@ -130,7 +128,7 @@ public:
   ExternalFileReader(ExternalFileReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20703 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

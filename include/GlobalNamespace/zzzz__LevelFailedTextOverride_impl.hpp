@@ -1,14 +1,13 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LevelFailedTextOverride.hpp"
-#include "BGLib/Polyglot/zzzz__Language_impl.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKey_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextOverride_def.hpp"
-#include "BGLib/Polyglot/zzzz__Language_def.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevelSO_def.hpp"
 #include "GlobalNamespace/zzzz__LevelFailedTextOverride_def.hpp"
@@ -18,10 +17,10 @@
 //  Writing Method size for method: ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride.get_language
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::Language (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::Polyglot::LocalizationLanguage (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
     &::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_language)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269e90;
+  constexpr static std::size_t addrs = 0x318d4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
     &::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_overrideText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269e98;
+  constexpr static std::size_t addrs = 0x318d4d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,8 +49,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::*)()>(
     &::GlobalNamespace::LevelFailedTextOverride_LanguageOverride::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269ea0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318d4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,15 +59,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__language() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____language;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__language() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_get__language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____language;
 }
-constexpr void GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_set__language(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cordl_internal_set__language(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____language = value;
 }
@@ -84,11 +83,11 @@ constexpr void GlobalNamespace::LevelFailedTextOverride_LanguageOverride::__cord
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____overrideText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::BGLib::Polyglot::Language GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_language() {
+inline ::BGLib::Polyglot::LocalizationLanguage GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_language() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*>::get(), "get_language",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::Language, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::BGLib::Polyglot::LocalizationLanguage, false>(this, ___internal_method);
 }
 inline ::StringW GlobalNamespace::LevelFailedTextOverride_LanguageOverride::get_overrideText() {
   static auto* ___internal_method =
@@ -112,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269ea8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318d4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -127,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::*)(
     ::GlobalNamespace::LevelFailedTextOverride_LanguageOverride*)>(&::GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::_Start_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2269eb0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x318d4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,15 +136,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedLanguage;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_get_selectedLanguage() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___selectedLanguage;
 }
-constexpr void GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_set_selectedLanguage(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LevelFailedTextOverride___c__DisplayClass6_0::__cordl_internal_set_selectedLanguage(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___selectedLanguage = value;
 }
@@ -171,8 +170,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride__Start_d__6::*)()>(
     &::GlobalNamespace::LevelFailedTextOverride__Start_d__6::MoveNext)> {
-  constexpr static std::size_t size = 0xbc8;
-  constexpr static std::size_t addrs = 0x2269ed4;
+  constexpr static std::size_t size = 0xbdc;
+  constexpr static std::size_t addrs = 0x318d508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride__Start_d__6>::get(),
@@ -185,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride__Start_d__6::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelFailedTextOverride__Start_d__6::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x226aa9c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x318e0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +240,8 @@ constexpr ::GlobalNamespace::LevelFailedTextOverride__Start_d__6::LevelFailedTex
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride::*)()>(&::GlobalNamespace::LevelFailedTextOverride::Start)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2269df8;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x318d428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride*>::get(), "Start",
@@ -254,8 +253,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelFailedTextOverride::*)()>(&::GlobalNamespace::LevelFailedTextOverride::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2269e88;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318d4cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelFailedTextOverride*>::get(), ".ctor",

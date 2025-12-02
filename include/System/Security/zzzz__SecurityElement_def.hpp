@@ -57,13 +57,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c961f4, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58da7a8, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::StringW value);
 
-  /// @brief Method get_Name, addr 0x3c97214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Name, addr 0x58db820, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Name();
 
-  /// @brief Method get_Value, addr 0x3c9721c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x58db828, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Value();
 
 protected:
@@ -81,7 +81,7 @@ public:
   SecurityElement_SecurityAttribute(SecurityElement_SecurityAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2890 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2907 };
 
   /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
   ::StringW ____name;
@@ -143,47 +143,47 @@ public:
   /// @brief Field text, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text)) ::StringW text;
 
-  /// @brief Method AddAttribute, addr 0x3c93d5c, size 0x194, virtual false, abstract: false, final false
+  /// @brief Method AddAttribute, addr 0x58d83b4, size 0x194, virtual false, abstract: false, final false
   inline void AddAttribute(::StringW name, ::StringW value);
 
-  /// @brief Method AddChild, addr 0x3c93ef0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AddChild, addr 0x58d8548, size 0xd8, virtual false, abstract: false, final false
   inline void AddChild(::System::Security::SecurityElement* child);
 
-  /// @brief Method Escape, addr 0x3c96350, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method Escape, addr 0x58da8ec, size 0x238, virtual false, abstract: false, final false
   static inline ::StringW Escape(::StringW str);
 
-  /// @brief Method GetAttribute, addr 0x3c95ef0, size 0x304, virtual false, abstract: false, final false
+  /// @brief Method GetAttribute, addr 0x58da4d4, size 0x2d4, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement_SecurityAttribute* GetAttribute(::StringW name);
 
-  /// @brief Method IsValidAttributeName, addr 0x3c96558, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttributeName, addr 0x58dab24, size 0x84, virtual false, abstract: false, final false
   static inline bool IsValidAttributeName(::StringW name);
 
-  /// @brief Method IsValidAttributeValue, addr 0x3c965d4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidAttributeValue, addr 0x58daba8, size 0x84, virtual false, abstract: false, final false
   static inline bool IsValidAttributeValue(::StringW value);
 
-  /// @brief Method IsValidTag, addr 0x3c95b24, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidTag, addr 0x58da0d0, size 0x84, virtual false, abstract: false, final false
   static inline bool IsValidTag(::StringW tag);
 
-  /// @brief Method IsValidText, addr 0x3c95ca4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsValidText, addr 0x58da25c, size 0x84, virtual false, abstract: false, final false
   static inline bool IsValidText(::StringW text);
 
   static inline ::System::Security::SecurityElement* New_ctor(::StringW tag);
 
   static inline ::System::Security::SecurityElement* New_ctor(::StringW tag, ::StringW text);
 
-  /// @brief Method SearchForChildByTag, addr 0x3c96650, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method SearchForChildByTag, addr 0x58dac2c, size 0x124, virtual false, abstract: false, final false
   inline ::System::Security::SecurityElement* SearchForChildByTag(::StringW tag);
 
-  /// @brief Method SearchForTextOfLocalName, addr 0x3c96e54, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method SearchForTextOfLocalName, addr 0x58db410, size 0x280, virtual false, abstract: false, final false
   inline ::StringW SearchForTextOfLocalName(::StringW strLocalName);
 
-  /// @brief Method ToString, addr 0x3c96774, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x58dad50, size 0x88, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToXml, addr 0x3c967f8, size 0x654, virtual false, abstract: false, final false
+  /// @brief Method ToXml, addr 0x58dadd8, size 0x630, virtual false, abstract: false, final false
   inline void ToXml(::ByRef<::System::Text::StringBuilder*> s, int32_t level);
 
-  /// @brief Method Unescape, addr 0x3c95d20, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Unescape, addr 0x58da2e0, size 0x1f4, virtual false, abstract: false, final false
   static inline ::StringW Unescape(::StringW str);
 
   constexpr ::System::Collections::ArrayList* const& __cordl_internal_get_attributes() const;
@@ -210,10 +210,10 @@ public:
 
   constexpr void __cordl_internal_set_text(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c93d54, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d83ac, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW tag);
 
-  /// @brief Method .ctor, addr 0x3c959e0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58d9f9c, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::StringW tag, ::StringW text);
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_attr_name_chars();
@@ -226,10 +226,10 @@ public:
 
   static inline ::ArrayW<char16_t, ::Array<char16_t>*> getStaticF_invalid_text_chars();
 
-  /// @brief Method get_Children, addr 0x3c95c94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Children, addr 0x58da24c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ArrayList* get_Children();
 
-  /// @brief Method get_Tag, addr 0x3c95c9c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x58da254, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Tag();
 
   static inline void setStaticF_invalid_attr_name_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
@@ -242,10 +242,10 @@ public:
 
   static inline void setStaticF_invalid_text_chars(::ArrayW<char16_t, ::Array<char16_t>*> value);
 
-  /// @brief Method set_Text, addr 0x3c95ba0, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method set_Text, addr 0x58da154, size 0xf8, virtual false, abstract: false, final false
   inline void set_Text(::StringW value);
 
-  /// @brief Method set_m_strText, addr 0x3c96e4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_m_strText, addr 0x58db408, size 0x8, virtual false, abstract: false, final false
   inline void set_m_strText(::StringW value);
 
 protected:
@@ -263,7 +263,7 @@ public:
   SecurityElement(SecurityElement const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2891 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2908 };
 
   /// @brief Field text, offset: 0x10, size: 0x8, def value: None
   ::StringW ___text;

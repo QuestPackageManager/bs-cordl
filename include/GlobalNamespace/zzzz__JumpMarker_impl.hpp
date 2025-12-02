@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/JumpMarker.hpp"
-#include "UnityEngine/Playables/zzzz__INotification_impl.hpp"
 #include "UnityEngine/Timeline/zzzz__Marker_impl.hpp"
 #include "UnityEngine/zzzz__PropertyName_impl.hpp"
 #include "GlobalNamespace/zzzz__JumpMarker_def.hpp"
 #include "GlobalNamespace/zzzz__JumpDestinationMarker_def.hpp"
+#include "UnityEngine/Playables/zzzz__INotification_def.hpp"
 #include "UnityEngine/zzzz__PropertyName_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::JumpMarker.get_id
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::PropertyName (::GlobalNamespace::JumpMarker::*)()>(&::GlobalNamespace::JumpMarker::get_id)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4c20;
+  constexpr static std::size_t addrs = 0x563f9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), "get_id",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::JumpDestinationMarker> (::GlobalNamespace::JumpMarker::*)()>(
     &::GlobalNamespace::JumpMarker::get_jumpDestination)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4c28;
+  constexpr static std::size_t addrs = 0x563f9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), "get_jumpDestination",
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::JumpMarker::*)()>(&::GlobalNamespace::JumpMarker::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c4c30;
+  constexpr static std::size_t addrs = 0x563f9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::JumpMarker*>::get(), ".ctor",

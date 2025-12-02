@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DatagramTransport.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DatagramTransport_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCloseable_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::DatagramTransport.GetReceiveLimit
 template <>
 

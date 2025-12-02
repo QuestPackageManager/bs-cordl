@@ -3,15 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IFactory_2_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_2_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_2)
 namespace System {
 class Object;
+}
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IMemoryPool_2;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -22,8 +32,7 @@ template <typename TParam1, typename TValue> class MemoryPool_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPool_2);
-// Dependencies Zenject.IDespawnableMemoryPool`1<TValue>, Zenject.IFactory, Zenject.IFactory`2<TParam1, TValue>, Zenject.IMemoryPool, Zenject.IMemoryPool`2<TParam1, TValue>,
-// Zenject.MemoryPoolBase`1<TContract>
+// Dependencies Zenject.MemoryPoolBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
@@ -97,7 +106,7 @@ public:
   MemoryPool_2(MemoryPool_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12381 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14362 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

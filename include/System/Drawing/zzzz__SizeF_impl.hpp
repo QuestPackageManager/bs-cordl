@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "System/Drawing/SizeF.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/Drawing/zzzz__SizeF_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Drawing::SizeF.op_Equality
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Drawing::SizeF, ::System::Drawing::SizeF)>(&::System::Drawing::SizeF::op_Equality)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4212580;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5eb99cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::SizeF::*)()>(&::System::Drawing::SizeF::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4212598;
+  constexpr static std::size_t addrs = 0x5eb99dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::SizeF>::get(), "get_Width",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::System::Drawing::SizeF::*)()>(&::System::Drawing::SizeF::get_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42125a0;
+  constexpr static std::size_t addrs = 0x5eb99e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::SizeF>::get(), "get_Height",
@@ -49,7 +49,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::SizeF::*)(::System::Object*)>(&::System::Drawing::SizeF::Equals)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x42125a8;
+  constexpr static std::size_t addrs = 0x5eb99ec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -62,8 +62,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::SizeF::*)(::System::Drawing::SizeF)>(&::System::Drawing::SizeF::Equals)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x421262c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5eb9a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::SizeF::*)()>(&::System::Drawing::SizeF::GetHashCode)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4212648;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5eb9a88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::SizeF::*)()>(&::System::Drawing::SizeF::ToString)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x42126e0;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5eb9b0c;
 
   inline static ::MethodInfo const* methodInfo() {
 

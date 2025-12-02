@@ -27,19 +27,19 @@ namespace System::Net {
 class CORDL_TYPE ExceptionHelper : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_MethodNotImplementedException, addr 0x449eb90, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_MethodNotImplementedException, addr 0x61ee4f8, size 0x84, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_MethodNotImplementedException();
 
-  /// @brief Method get_PropertyNotImplementedException, addr 0x449eaec, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotImplementedException, addr 0x61ee450, size 0x84, virtual false, abstract: false, final false
   static inline ::System::NotImplementedException* get_PropertyNotImplementedException();
 
-  /// @brief Method get_PropertyNotSupportedException, addr 0x449d5cc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNotSupportedException, addr 0x61ed088, size 0x84, virtual false, abstract: false, final false
   static inline ::System::NotSupportedException* get_PropertyNotSupportedException();
 
-  /// @brief Method get_RequestAbortedException, addr 0x449d2e8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method get_RequestAbortedException, addr 0x61e5734, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_RequestAbortedException();
 
-  /// @brief Method get_TimeoutException, addr 0x4498300, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_TimeoutException, addr 0x61e7df0, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Net::WebException* get_TimeoutException();
 
 protected:
@@ -57,7 +57,7 @@ public:
   ExceptionHelper(ExceptionHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11471 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

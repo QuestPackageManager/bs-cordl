@@ -23,10 +23,10 @@ public:
   // Declarations
   static inline ::Zenject::Installer* New_ctor();
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b2be44, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c40280, size 0x148, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b2be34, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c40278, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,7 +44,7 @@ public:
   Installer(Installer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12472 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14453 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

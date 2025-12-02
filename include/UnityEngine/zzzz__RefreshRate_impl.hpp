@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/RefreshRate.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__RefreshRate_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::RefreshRate.get_value
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::RefreshRate::*)()>(&::UnityEngine::RefreshRate::get_value)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4874c14;
+  constexpr static std::size_t addrs = 0x6850500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::RefreshRate>::get(), "get_value",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::RefreshRate::*)(::UnityEngine::RefreshRate)>(&::UnityEngine::RefreshRate::Equals)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4874c28;
+  constexpr static std::size_t addrs = 0x6850514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::RefreshRate::*)(::UnityEngine::RefreshRate)>(&::UnityEngine::RefreshRate::CompareTo)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4874c64;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6850550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -48,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::RefreshRate::*)()>(&::UnityEngine::RefreshRate::ToString)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4874cb4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6850594;
 
   inline static ::MethodInfo const* methodInfo() {
 

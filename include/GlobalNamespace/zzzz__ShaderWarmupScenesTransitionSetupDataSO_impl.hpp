@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ShaderWarmupScenesTransitionSetupDataSO.hpp"
-#include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_impl.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupScenesTransitionSetupDataSO_def.hpp"
 #include "GlobalNamespace/zzzz__ShaderWarmupSceneSetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO.Init
@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::*)(::GlobalNamespace::ShaderWarmupSceneSetupData*)>(
     &::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::Init)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ebb0;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5722014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3ebb8;
+  constexpr static std::size_t addrs = 0x57220d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -3,13 +3,11 @@
 #include "HMUI/zzzz__ViewController_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCollectionViewController_def.hpp"
-#include "BGLib/UnityExtension/zzzz__Debouncer_1_def.hpp"
 #include "GlobalNamespace/zzzz__AudioClipAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapLevel_def.hpp"
 #include "GlobalNamespace/zzzz__IAdditionalContentModel_def.hpp"
@@ -29,135 +27,135 @@
 #include "UnityEngine/zzzz__RectTransform_def.hpp"
 #include "UnityEngine/zzzz__Sprite_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0._ctor
+//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b5efc0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::*)()>(
+    &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::_ctor)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x574967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*>::get(), ".ctor",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*>::get(), ".ctor",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0._SongPlayerCrossfadeToLevelAsync_b__0
+//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0._SongPlayerCrossfadeToLevelAsync_b__0
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::_SongPlayerCrossfadeToLevelAsync_b__0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b5efc8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::*)()>(
+    &::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::_SongPlayerCrossfadeToLevelAsync_b__0)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5749680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*>::get(),
                                                  "<SongPlayerCrossfadeToLevelAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController>& GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController>& GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController> const& GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController> const& GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LevelCollectionViewController> value) {
+constexpr void GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::LevelCollectionViewController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::__cordl_internal_get_level() {
+constexpr ::GlobalNamespace::BeatmapLevel*& GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::__cordl_internal_get_level() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
-constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::__cordl_internal_get_level() const {
+constexpr ::GlobalNamespace::BeatmapLevel* const& GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::__cordl_internal_get_level() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___level;
 }
-constexpr void GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::__cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value) {
+constexpr void GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::__cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___level)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::_ctor() {
+inline void GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::_ctor() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::_SongPlayerCrossfadeToLevelAsync_b__0() {
+inline void GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::_SongPlayerCrossfadeToLevelAsync_b__0() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*>::get(),
                                                "<SongPlayerCrossfadeToLevelAsync>b__0", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0* GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*>());
+inline ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0* GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*>());
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0::LevelCollectionViewController___c__DisplayClass26_0() {}
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25.MoveNext
+constexpr ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0::LevelCollectionViewController___c__DisplayClass25_0() {}
+//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::MoveNext)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x3b5efe8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::*)()>(
+    &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::MoveNext)> {
+  constexpr static std::size_t size = 0x2c4;
+  constexpr static std::size_t addrs = 0x57496a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3b5f27c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::SetStateMachine)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5749968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::MoveNext() {
+inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::UnityW<::GlobalNamespace::LevelCollectionViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25(
+constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this,
     ::GlobalNamespace::BeatmapLevel* level, ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept {
   this->__1__state = __1__state;
@@ -167,69 +165,69 @@ constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeT
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25() {}
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26.MoveNext
+constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24() {}
+//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::MoveNext)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x3b5f288;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::*)()>(
+    &::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::MoveNext)> {
+  constexpr static std::size_t size = 0x438;
+  constexpr static std::size_t addrs = 0x5749970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b5f664;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5749da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::MoveNext() {
+inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
 // "::UnityW<::GlobalNamespace::LevelCollectionViewController>", modifiers: "", def_value: Some("{}") }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__8__1", ty:
-// "::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
+// "::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
 // "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26(
+constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this,
-    ::GlobalNamespace::BeatmapLevel* level, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0* __8__1,
+    ::GlobalNamespace::BeatmapLevel* level, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0* __8__1,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
@@ -240,14 +238,14 @@ constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeT
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26() {}
+constexpr ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25() {}
 //  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController.add_didSelectLevelEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(&::GlobalNamespace::LevelCollectionViewController::add_didSelectLevelEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b5d87c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5746fbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,8 +261,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>*)>(
         &::GlobalNamespace::LevelCollectionViewController::remove_didSelectLevelEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b5dcf8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57478fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -279,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*)>(&::GlobalNamespace::LevelCollectionViewController::add_didSelectHeaderEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b5d92c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x574707c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -294,8 +292,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*)>(&::GlobalNamespace::LevelCollectionViewController::remove_didSelectHeaderEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3b5dda8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57479bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -310,8 +308,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*>, ::StringW, ::UnityEngine::Sprite*, bool, bool, ::UnityEngine::GameObject*)>(
     &::GlobalNamespace::LevelCollectionViewController::SetData)> {
-  constexpr static std::size_t size = 0x2b0;
-  constexpr static std::size_t addrs = 0x3b5de58;
+  constexpr static std::size_t size = 0x300;
+  constexpr static std::size_t addrs = 0x5747efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,7 +328,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::SelectLevel)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b5d1c4;
+  constexpr static std::size_t addrs = 0x5746858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +343,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::RefreshFavorites)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b5e6bc;
+  constexpr static std::size_t addrs = 0x5748ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
@@ -358,8 +356,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::LevelCollectionViewController::DidActivate)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3b5e7d8;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x5748fcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -374,8 +372,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(bool, bool)>(
     &::GlobalNamespace::LevelCollectionViewController::DidDeactivate)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x3b5e9dc;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5749228;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -391,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(
     ::GlobalNamespace::LevelCollectionTableView*, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectLevel)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b5ebb0;
+  constexpr static std::size_t addrs = 0x5749450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -407,8 +405,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
     &::GlobalNamespace::LevelCollectionViewController::SongPlayerCrossfadeToLevel)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b5ec00;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x57494a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,8 +421,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*, ::System::Threading::CancellationToken)>(
         &::GlobalNamespace::LevelCollectionViewController::SongPlayerCrossfadeToLevelAsync)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b5ec98;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x574954c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,70 +432,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController.OnEnable
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController::OnEnable)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3b5ed70;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
-                                                                               "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController.OnDisable
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController::OnDisable)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3b5ee40;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
-                                                                               "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController.LateUpdate
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
-    &::GlobalNamespace::LevelCollectionViewController::LateUpdate)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b5ee94;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
-                                                                               "LateUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController.UnloadPreviewAudioClip
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::BeatmapLevel*)>(
-    &::GlobalNamespace::LevelCollectionViewController::UnloadPreviewAudioClip)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b5eee4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(), "UnloadPreviewAudioClip", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::LevelCollectionViewController.HandleLevelCollectionTableViewDidSelectPack
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)(::GlobalNamespace::LevelCollectionTableView*)>(
     &::GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectPack)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b5ef50;
+  constexpr static std::size_t addrs = 0x5749614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -511,8 +452,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::HandleAdditionalContentModelDidInvalidateData)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b5ef94;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5749658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -526,8 +467,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCollectionViewController::*)()>(
     &::GlobalNamespace::LevelCollectionViewController::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b5efb0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5749670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
@@ -706,18 +647,6 @@ constexpr void GlobalNamespace::LevelCollectionViewController::__cordl_internal_
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____crossfadeCancellationTokenSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>*& GlobalNamespace::LevelCollectionViewController::__cordl_internal_get__unloadLevelDebouncer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____unloadLevelDebouncer;
-}
-constexpr ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* const& GlobalNamespace::LevelCollectionViewController::__cordl_internal_get__unloadLevelDebouncer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____unloadLevelDebouncer;
-}
-constexpr void GlobalNamespace::LevelCollectionViewController::__cordl_internal_set__unloadLevelDebouncer(::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____unloadLevelDebouncer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 inline void
 GlobalNamespace::LevelCollectionViewController::add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -799,27 +728,6 @@ inline ::System::Threading::Tasks::Task* GlobalNamespace::LevelCollectionViewCon
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task*, false>(this, ___internal_method, level, cancellationToken);
-}
-inline void GlobalNamespace::LevelCollectionViewController::OnEnable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
-                                                                             "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::LevelCollectionViewController::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
-                                                                             "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::LevelCollectionViewController::LateUpdate() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(),
-                                                                             "LateUpdate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::LevelCollectionViewController::UnloadPreviewAudioClip(::GlobalNamespace::BeatmapLevel* level) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCollectionViewController*>::get(), "UnloadPreviewAudioClip", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapLevel*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, level);
 }
 inline void GlobalNamespace::LevelCollectionViewController::HandleLevelCollectionTableViewDidSelectPack(::GlobalNamespace::LevelCollectionTableView* tableView) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

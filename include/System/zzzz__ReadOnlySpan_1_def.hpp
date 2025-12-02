@@ -69,7 +69,7 @@ public:
   inline void _ctor(::ArrayW<T, ::Array<T>*> array, int32_t start, int32_t length);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> pointer, int32_t length);
+  inline void _ctor(void* pointer, int32_t length);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<T> ptr, int32_t length);
@@ -86,6 +86,9 @@ public:
   /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_Length();
 
+  /// @brief Method op_Equality, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline bool op_Equality(::System::ReadOnlySpan_1<T> left, ::System::ReadOnlySpan_1<T> right);
+
   /// @brief Method op_Implicit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline ::System::ReadOnlySpan_1<T> op_Implicit___System__ReadOnlySpan_1_T_(::ArrayW<T, ::Array<T>*> array);
 
@@ -97,7 +100,7 @@ public:
   constexpr ReadOnlySpan_1(::System::ByReference_1<T> _pointer, int32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2469 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

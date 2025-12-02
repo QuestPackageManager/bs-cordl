@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)(::StringW)>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::CreateHandle)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c6e9a8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x58b1c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::FreeHandle)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c6ea00;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x58b1cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafePasswordHandle*>::get(),
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)(::StringW)>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c6ea5c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x58b1d34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::ReleaseHandle)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3c6ea98;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x58b1da4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)(bool)>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::Dispose)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c6eadc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x58b1dd0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -84,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::get_IsInvalid)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c6eb4c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x58b1e50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Microsoft::Win32::SafeHandles::SafePasswordHandle::*)()>(
     &::Microsoft::Win32::SafeHandles::SafePasswordHandle::Mono_DangerousGetString)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c6eb74;
+  constexpr static std::size_t addrs = 0x58b1e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Microsoft::Win32::SafeHandles::SafePasswordHandle*>::get(),

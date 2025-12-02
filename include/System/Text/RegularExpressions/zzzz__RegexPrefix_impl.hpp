@@ -6,8 +6,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::RegularExpressions::RegexPrefix::*)(::StringW, bool)>(
     &::System::Text::RegularExpressions::RegexPrefix::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x441e21c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x616cbd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::RegularExpressions::RegexPrefix::*)()>(
     &::System::Text::RegularExpressions::RegexPrefix::get_CaseInsensitive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4428338;
+  constexpr static std::size_t addrs = 0x6176d88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexPrefix>::get(),
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::RegularExpressions::RegexPrefix (*)()>(&::System::Text::RegularExpressions::RegexPrefix::get_Empty)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4428340;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6176d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexPrefix>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::RegularExpressions::RegexPrefix::*)()>(
     &::System::Text::RegularExpressions::RegexPrefix::get_Prefix)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4428398;
+  constexpr static std::size_t addrs = 0x6176dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::RegularExpressions::RegexPrefix>::get(),

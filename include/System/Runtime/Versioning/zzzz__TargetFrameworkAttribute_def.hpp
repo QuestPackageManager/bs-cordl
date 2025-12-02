@@ -41,10 +41,10 @@ public:
 
   constexpr void __cordl_internal_set__frameworkName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3cf3444, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5935250, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::StringW frameworkName);
 
-  /// @brief Method set_FrameworkDisplayName, addr 0x3cf34b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_FrameworkDisplayName, addr 0x59352a8, size 0x8, virtual false, abstract: false, final false
   inline void set_FrameworkDisplayName(::StringW value);
 
 protected:
@@ -62,7 +62,7 @@ public:
   TargetFrameworkAttribute(TargetFrameworkAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3208 };
 
   /// @brief Field _frameworkName, offset: 0x10, size: 0x8, def value: None
   ::StringW ____frameworkName;

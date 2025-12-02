@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Esf::CrlListID* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlListID::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x231f478;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x324c2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlListID::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor)> {
-  constexpr static std::size_t size = 0x478;
-  constexpr static std::size_t addrs = 0x231f5f4;
+  constexpr static std::size_t size = 0x448;
+  constexpr static std::size_t addrs = 0x324c430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlListID::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*>)>(&::Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x231fbe8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x324c9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Esf::CrlListID::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Asn1::Esf::CrlListID::_ctor)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x231fca0;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x324cab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*, ::Array<::Org::BouncyCastle::Asn1::Esf::CrlValidatedID*>*> (
     ::Org::BouncyCastle::Asn1::Esf::CrlListID::*)()>(&::Org::BouncyCastle::Asn1::Esf::CrlListID::GetCrls)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x231fe34;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x324cc38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::Esf::CrlListID*>::get(), "GetCrls",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Esf::CrlListID::*)()>(
     &::Org::BouncyCastle::Asn1::Esf::CrlListID::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x231ff54;
+  constexpr static std::size_t addrs = 0x324cd5c;
 
   inline static ::MethodInfo const* methodInfo() {
 

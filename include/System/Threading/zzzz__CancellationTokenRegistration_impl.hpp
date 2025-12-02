@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/CancellationTokenRegistration.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_impl.hpp"
-#include "System/zzzz__IAsyncDisposable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationTokenRegistration_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_def.hpp"
 #include "System/Threading/zzzz__CancellationCallbackInfo_def.hpp"
 #include "System/Threading/zzzz__SparselyPopulatedArrayAddInfo_1_def.hpp"
+#include "System/zzzz__IAsyncDisposable_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Threading::CancellationTokenRegistration._ctor
 template <>
@@ -16,7 +16,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Threading::CancellationCallbackInfo*, ::System::Threading::SparselyPopulatedArrayAddInfo_1<::System::Threading::CancellationCallbackInfo*>)>(
     &::System::Threading::CancellationTokenRegistration::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3e4f99c;
+  constexpr static std::size_t addrs = 0x5a94e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::Unregister)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3e4f9a8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5a94e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenRegistration>::get(),
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::Dispose)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e4fa24;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x5a94ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenRegistration>::get(),
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)(::System::Object*)>(
     &::System::Threading::CancellationTokenRegistration::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3e4fb74;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5a94fd8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::CancellationTokenRegistration::*)(::System::Threading::CancellationTokenRegistration)>(
     &::System::Threading::CancellationTokenRegistration::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3e4fc04;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5a9506c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::GetHashCode)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3e4fc84;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5a95104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -108,7 +108,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::ValueTask (::System::Threading::CancellationTokenRegistration::*)()>(
     &::System::Threading::CancellationTokenRegistration::DisposeAsync)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e4fd10;
+  constexpr static std::size_t addrs = 0x5a9517c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::CancellationTokenRegistration>::get(),

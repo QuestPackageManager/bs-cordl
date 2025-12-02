@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::RecipientID::*)()>(
     &::Org::BouncyCastle::Cms::RecipientID::get_KeyIdentifier)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x267d9f8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x35acf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::RecipientID*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::RecipientID::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::RecipientID::set_KeyIdentifier)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x2677e8c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x35a7400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -36,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Cms::RecipientID::*)()>(&::Org::BouncyCastle::Cms::RecipientID::GetHashCode)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x267da54;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x35acf7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cms::RecipientID::*)(::System::Object*)>(&::Org::BouncyCastle::Cms::RecipientID::Equals)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x267db00;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x35ad02c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::RecipientID::*)()>(&::Org::BouncyCastle::Cms::RecipientID::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26778cc;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x35a6e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::RecipientID*>::get(), ".ctor",

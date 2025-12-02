@@ -95,7 +95,7 @@ public:
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass22_0* New_ctor();
 
-  /// @brief Method <HandleMissionHelpViewControllerDidFinish>b__0, addr 0x3b415c0, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionHelpViewControllerDidFinish>b__0, addr 0x572826c, size 0x54, virtual false, abstract: false, final false
   inline void _HandleMissionHelpViewControllerDidFinish_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::GlobalNamespace::MissionHelpViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b41098, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5727cd0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +128,7 @@ public:
   CampaignFlowCoordinator___c__DisplayClass22_0(CampaignFlowCoordinator___c__DisplayClass22_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5283 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6872 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> _____4__this;
@@ -161,7 +161,7 @@ public:
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator___c__DisplayClass24_0* New_ctor();
 
-  /// @brief Method <HandleMissionResultsViewControllerRetryButtonPressed>b__0, addr 0x3b41614, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionResultsViewControllerRetryButtonPressed>b__0, addr 0x57282c0, size 0x54, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerRetryButtonPressed_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> const& __cordl_internal_get___4__this() const;
@@ -176,7 +176,7 @@ public:
 
   constexpr void __cordl_internal_set_viewController(::UnityW<::GlobalNamespace::MissionResultsViewController> value);
 
-  /// @brief Method .ctor, addr 0x3b4120c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5727eb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -194,7 +194,7 @@ public:
   CampaignFlowCoordinator___c__DisplayClass24_0(CampaignFlowCoordinator___c__DisplayClass24_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6873 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CampaignFlowCoordinator> _____4__this;
@@ -279,50 +279,50 @@ public:
   /// @brief Field didFinishEvent, offset 0x120, size 0x8
   __declspec(property(get = __cordl_internal_get_didFinishEvent, put = __cordl_internal_set_didFinishEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* didFinishEvent;
 
-  /// @brief Method BackButtonWasPressed, addr 0x3b41454, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method BackButtonWasPressed, addr 0x57280f4, size 0xb0, virtual true, abstract: false, final false
   inline void BackButtonWasPressed(::HMUI::ViewController* topViewController);
 
-  /// @brief Method DidActivate, addr 0x3b40804, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x57272c8, size 0x260, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b40a4c, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5727528, size 0x1c4, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleMissionHelpViewControllerDidFinish, addr 0x3b40fe0, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionHelpViewControllerDidFinish, addr 0x5727be0, size 0xf0, virtual false, abstract: false, final false
   inline void HandleMissionHelpViewControllerDidFinish(::GlobalNamespace::MissionHelpViewController* viewController);
 
-  /// @brief Method HandleMissionLevelSceneDidFinish, addr 0x3b41214, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelSceneDidFinish, addr 0x5727eb8, size 0xd0, virtual false, abstract: false, final false
   inline void HandleMissionLevelSceneDidFinish(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMissionLevelSceneRestarted, addr 0x3b41418, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionLevelSceneRestarted, addr 0x57280c8, size 0x2c, virtual false, abstract: false, final false
   inline void HandleMissionLevelSceneRestarted(::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO* missionLevelScenesTransitionSetupData,
                                                ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method HandleMissionResultsViewControllerContinueButtonPressed, addr 0x3b410a0, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionResultsViewControllerContinueButtonPressed, addr 0x5727cd4, size 0xf0, virtual false, abstract: false, final false
   inline void HandleMissionResultsViewControllerContinueButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
 
-  /// @brief Method HandleMissionResultsViewControllerRetryButtonPressed, addr 0x3b41154, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionResultsViewControllerRetryButtonPressed, addr 0x5727dc4, size 0xf0, virtual false, abstract: false, final false
   inline void HandleMissionResultsViewControllerRetryButtonPressed(::GlobalNamespace::MissionResultsViewController* viewController);
 
-  /// @brief Method HandleMissionSelectionNavigationControllerDidPressPlayButton, addr 0x3b40cec, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method HandleMissionSelectionNavigationControllerDidPressPlayButton, addr 0x57277dc, size 0x144, virtual false, abstract: false, final false
   inline void HandleMissionSelectionNavigationControllerDidPressPlayButton(::GlobalNamespace::MissionSelectionNavigationController* viewController);
 
   static inline ::GlobalNamespace::CampaignFlowCoordinator* New_ctor();
 
-  /// @brief Method StartLevel, addr 0x3b40e10, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method StartLevel, addr 0x5727920, size 0x2c0, virtual false, abstract: false, final false
   inline void StartLevel(::System::Action* beforeSceneSwitchCallback);
 
-  /// @brief Method TopViewControllerWillChange, addr 0x3b40bf4, size 0xf8, virtual true, abstract: false, final false
+  /// @brief Method TopViewControllerWillChange, addr 0x57276ec, size 0xf0, virtual true, abstract: false, final false
   inline void TopViewControllerWillChange(::HMUI::ViewController* oldViewController, ::HMUI::ViewController* newViewController, ::HMUI::ViewController_AnimationType animationType);
 
-  /// @brief Method UpdatePlayerStatistics, addr 0x3b412f8, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method UpdatePlayerStatistics, addr 0x5727f88, size 0x140, virtual false, abstract: false, final false
   inline void UpdatePlayerStatistics(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::MissionNode* missionNode);
 
-  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_0, addr 0x3b414fc, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_0, addr 0x57281ac, size 0x90, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__23_0();
 
-  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_1, addr 0x3b4158c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method <HandleMissionResultsViewControllerContinueButtonPressed>b__23_1, addr 0x572823c, size 0x30, virtual false, abstract: false, final false
   inline void _HandleMissionResultsViewControllerContinueButtonPressed_b__23_1(bool presented);
 
   constexpr ::GlobalNamespace::BeatmapLevelsModel* const& __cordl_internal_get__beatmapLevelsModel() const;
@@ -421,13 +421,13 @@ public:
 
   constexpr void __cordl_internal_set_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
-  /// @brief Method .ctor, addr 0x3b414f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57281a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFinishEvent, addr 0x3b4069c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method add_didFinishEvent, addr 0x5727148, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
-  /// @brief Method remove_didFinishEvent, addr 0x3b40750, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method remove_didFinishEvent, addr 0x5727208, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFinishEvent(::System::Action_1<::UnityW<::GlobalNamespace::CampaignFlowCoordinator>>* value);
 
 protected:
@@ -445,7 +445,7 @@ public:
   CampaignFlowCoordinator(CampaignFlowCoordinator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5285 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6874 };
 
   /// @brief Field _defaultLightsPreset, offset: 0xb0, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MenuLightsPresetSO> ____defaultLightsPreset;

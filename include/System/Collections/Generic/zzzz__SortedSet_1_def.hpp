@@ -3,22 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(SortedSet_1)
+namespace GlobalNamespace {
+template <typename T> class SortedSet_1_TreeSubSet;
+}
+namespace System::Collections::Generic {
+template <typename T> class ICollection_1;
+}
 namespace System::Collections::Generic {
 template <typename T> class IComparer_1;
 }
@@ -27,6 +22,15 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class ISet_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class List_1;
 }
 namespace System::Collections::Generic {
 struct NodeColor;
@@ -56,7 +60,19 @@ namespace System::Collections::Generic {
 template <typename T> class TreeWalkPredicate_1;
 }
 namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -66,6 +82,9 @@ struct StreamingContext;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -84,6 +103,9 @@ namespace System::Collections::Generic {
 template <typename T> class SortedSet_1___c__DisplayClass53_0;
 }
 namespace System::Collections::Generic {
+template <typename T> class TreeSubSet_SortedSet_1___c__DisplayClass9_0;
+}
+namespace System::Collections::Generic {
 template <typename T> struct SortedSet_1_ElementCount;
 }
 namespace System::Collections::Generic {
@@ -94,8 +116,59 @@ MARK_GEN_REF_PTR_T(::System::Collections::Generic::SortedSet_1);
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::SortedSet_1_Node);
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::SortedSet_1___c__DisplayClass52_0);
 MARK_GEN_REF_PTR_T(::System::Collections::Generic::SortedSet_1___c__DisplayClass53_0);
+MARK_GEN_REF_PTR_T(::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0);
 MARK_GEN_VAL_T(::System::Collections::Generic::SortedSet_1_ElementCount);
 MARK_GEN_VAL_T(::System::Collections::Generic::SortedSet_1_Enumerator);
+// Dependencies System.Object
+namespace System::Collections::Generic {
+// cpp template
+template <typename T>
+// Is value type: false
+// CS Name: System.Collections.Generic.SortedSet`1/TreeSubSet/<>c__DisplayClass9_0<T>
+class CORDL_TYPE TreeSubSet_SortedSet_1___c__DisplayClass9_0 : public ::System::Object {
+public:
+  // Declarations
+  /// @brief Field toRemove, offset 0x10, size 0x8
+  __declspec(property(get = __cordl_internal_get_toRemove, put = __cordl_internal_set_toRemove)) ::System::Collections::Generic::List_1<T>* toRemove;
+
+  static inline ::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>* New_ctor();
+
+  /// @brief Method <Clear>b__0, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool _Clear_b__0(::System::Collections::Generic::SortedSet_1_Node<T>* n);
+
+  constexpr ::System::Collections::Generic::List_1<T>* const& __cordl_internal_get_toRemove() const;
+
+  constexpr ::System::Collections::Generic::List_1<T>*& __cordl_internal_get_toRemove();
+
+  constexpr void __cordl_internal_set_toRemove(::System::Collections::Generic::List_1<T>* value);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor();
+
+protected:
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr TreeSubSet_SortedSet_1___c__DisplayClass9_0();
+
+public:
+  // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "&&", def_value: None }]
+  // @brief delete move ctor to prevent accidental deref moves
+  TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0&&) = delete;
+
+  // Ctor Parameters [CppParam { name: "", ty: "TreeSubSet_SortedSet_1___c__DisplayClass9_0", modifiers: "const&", def_value: None }]
+  // @brief delete copy ctor to prevent accidental deref copies
+  TreeSubSet_SortedSet_1___c__DisplayClass9_0(TreeSubSet_SortedSet_1___c__DisplayClass9_0 const&) = delete;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11391 };
+
+  /// @brief Field toRemove, offset: 0x10, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<T>* ___toRemove;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+} // namespace System::Collections::Generic
 // Dependencies System.Collections.Generic.NodeColor, System.Object
 namespace System::Collections::Generic {
 // cpp template
@@ -140,6 +213,9 @@ public:
   /// @brief Method ColorRed, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ColorRed();
 
+  /// @brief Method DeepClone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::SortedSet_1_Node<T>* DeepClone(int32_t count);
+
   /// @brief Method GetRotation, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::TreeRotation GetRotation(::System::Collections::Generic::SortedSet_1_Node<T>* current, ::System::Collections::Generic::SortedSet_1_Node<T>* sibling);
 
@@ -174,6 +250,9 @@ public:
 
   /// @brief Method RotateRightLeft, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::SortedSet_1_Node<T>* RotateRightLeft();
+
+  /// @brief Method ShallowClone, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::SortedSet_1_Node<T>* ShallowClone();
 
   /// @brief Method Split4Node, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Split4Node();
@@ -256,7 +335,7 @@ public:
   SortedSet_1_Node(SortedSet_1_Node const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9519 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11393 };
 
   /// @brief Field <Item>k__BackingField, offset: 0x10, size: 0x8, def value: None
   T ____Item_k__BackingField;
@@ -274,8 +353,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Runtime.Serialization.IDeserializationCallback,
-// System.Runtime.Serialization.ISerializable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -285,6 +363,8 @@ struct CORDL_TYPE SortedSet_1_Enumerator {
 public:
   // Declarations
   __declspec(property(get = get_Current)) T Current;
+
+  __declspec(property(get = get_NotStartedOrEnded)) bool NotStartedOrEnded;
 
   __declspec(property(get = System_Collections_IEnumerator_get_Current)) ::System::Object* System_Collections_IEnumerator_Current;
 
@@ -341,6 +421,9 @@ public:
   /// @brief Method get_Current, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline T get_Current();
 
+  /// @brief Method get_NotStartedOrEnded, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_NotStartedOrEnded();
+
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<T>"
   constexpr ::System::Collections::Generic::IEnumerator_1<T>* i___System__Collections__Generic__IEnumerator_1_T_();
 
@@ -370,7 +453,7 @@ public:
                                    bool _reverse) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11394 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -411,7 +494,7 @@ public:
   constexpr SortedSet_1_ElementCount(int32_t UniqueCount, int32_t UnfoundCount) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9521 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11395 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -485,7 +568,7 @@ public:
   SortedSet_1___c__DisplayClass52_0(SortedSet_1___c__DisplayClass52_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9522 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11396 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -550,7 +633,7 @@ public:
   SortedSet_1___c__DisplayClass53_0(SortedSet_1___c__DisplayClass53_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9523 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11397 };
 
   /// @brief Field index, offset: 0x10, size: 0x4, def value: None
   int32_t ___index;
@@ -562,8 +645,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.ISet`1<T>,
-// System.Collections.ICollection, System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename T>
@@ -572,6 +654,8 @@ template <typename T>
 class CORDL_TYPE SortedSet_1 : public ::System::Object {
 public:
   // Declarations
+  using TreeSubSet = ::GlobalNamespace::SortedSet_1_TreeSubSet<T>;
+
   using ElementCount = ::System::Collections::Generic::SortedSet_1_ElementCount<T>;
 
   using Enumerator = ::System::Collections::Generic::SortedSet_1_Enumerator<T>;
@@ -585,6 +669,14 @@ public:
   __declspec(property(get = get_Comparer)) ::System::Collections::Generic::IComparer_1<T>* Comparer;
 
   __declspec(property(get = get_Count)) int32_t Count;
+
+  __declspec(property(get = get_Max)) T Max;
+
+  __declspec(property(get = get_MaxInternal)) T MaxInternal;
+
+  __declspec(property(get = get_Min)) T Min;
+
+  __declspec(property(get = get_MinInternal)) T MinInternal;
 
   __declspec(property(get = System_Collections_Generic_ICollection_T__get_IsReadOnly)) bool System_Collections_Generic_ICollection_T__IsReadOnly;
 
@@ -637,8 +729,14 @@ public:
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Add(T item);
 
+  /// @brief Method AddAllElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void AddAllElements(::System::Collections::Generic::IEnumerable_1<T>* collection);
+
   /// @brief Method AddIfNotPresent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool AddIfNotPresent(T item);
+
+  /// @brief Method BreadthFirstTreeWalk, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool BreadthFirstTreeWalk(::System::Collections::Generic::TreeWalkPredicate_1<T>* action);
 
   /// @brief Method CheckUniqueAndUnfoundElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::SortedSet_1_ElementCount<T> CheckUniqueAndUnfoundElements(::System::Collections::Generic::IEnumerable_1<T>* other, bool returnIfUnfound);
@@ -646,8 +744,15 @@ public:
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Clear();
 
+  /// @brief Method ConstructRootFromSortedArray, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  static inline ::System::Collections::Generic::SortedSet_1_Node<T>* ConstructRootFromSortedArray(::ArrayW<T, ::Array<T>*> arr, int32_t startIndex, int32_t endIndex,
+                                                                                                  ::System::Collections::Generic::SortedSet_1_Node<T>* redNode);
+
   /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool Contains(T item);
+
+  /// @brief Method ContainsAllElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool ContainsAllElements(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index);
@@ -658,14 +763,23 @@ public:
   /// @brief Method DoRemove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool DoRemove(T item);
 
+  /// @brief Method ExceptWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void ExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
+
   /// @brief Method FindNode, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::SortedSet_1_Node<T>* FindNode(T item);
+
+  /// @brief Method FindRange, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::System::Collections::Generic::SortedSet_1_Node<T>* FindRange(T from, T to, bool lowerBoundActive, bool upperBoundActive);
 
   /// @brief Method GetEnumerator, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::SortedSet_1_Enumerator<T> GetEnumerator();
 
   /// @brief Method GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method GetViewBetween, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::System::Collections::Generic::SortedSet_1<T>* GetViewBetween(T lowerValue, T upperValue);
 
   /// @brief Method HasEqualComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline bool HasEqualComparer(::System::Collections::Generic::SortedSet_1<T>* other);
@@ -680,6 +794,27 @@ public:
   /// @brief Method InternalIndexOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t InternalIndexOf(T item);
 
+  /// @brief Method IntersectWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void IntersectWith(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IntersectWithEnumerable, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void IntersectWithEnumerable(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsProperSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsProperSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsProperSupersetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsProperSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsSubsetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method IsSubsetOfSortedSetWithSameComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool IsSubsetOfSortedSetWithSameComparer(::System::Collections::Generic::SortedSet_1<T>* asSorted);
+
+  /// @brief Method IsSupersetOf, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool IsSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other);
+
   /// @brief Method IsWithinRange, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsWithinRange(T item);
 
@@ -688,13 +823,23 @@ public:
 
   static inline ::System::Collections::Generic::SortedSet_1<T>* New_ctor();
 
+  static inline ::System::Collections::Generic::SortedSet_1<T>* New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Collections::Generic::IComparer_1<T>* comparer);
+
+  static inline ::System::Collections::Generic::SortedSet_1<T>* New_ctor(::System::Collections::Generic::IComparer_1<T>* comparer);
+
   static inline ::System::Collections::Generic::SortedSet_1<T>* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Method OnDeserialization, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void OnDeserialization(::System::Object* sender);
 
+  /// @brief Method Overlaps, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline bool Overlaps(::System::Collections::Generic::IEnumerable_1<T>* other);
+
   /// @brief Method Remove, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool Remove(T item);
+
+  /// @brief Method RemoveAllElements, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void RemoveAllElements(::System::Collections::Generic::IEnumerable_1<T>* collection);
 
   /// @brief Method ReplaceChildOrRoot, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void ReplaceChildOrRoot(::System::Collections::Generic::SortedSet_1_Node<T>* parent, ::System::Collections::Generic::SortedSet_1_Node<T>* child,
@@ -706,6 +851,15 @@ public:
 
   /// @brief Method SetEquals, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool SetEquals(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method SymmetricExceptWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void SymmetricExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method SymmetricExceptWithSameComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SymmetricExceptWithSameComparer(::ArrayW<T, ::Array<T>*> other, int32_t count);
+
+  /// @brief Method SymmetricExceptWithSameComparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void SymmetricExceptWithSameComparer(::System::Collections::Generic::SortedSet_1<T>* other);
 
   /// @brief Method System.Collections.Generic.ICollection<T>.Add, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Collections_Generic_ICollection_T__Add(T item);
@@ -733,6 +887,12 @@ public:
 
   /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+
+  /// @brief Method UnionWith, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline void UnionWith(::System::Collections::Generic::IEnumerable_1<T>* other);
+
+  /// @brief Method UpdateVersion, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UpdateVersion();
 
   /// @brief Method VersionCheck, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void VersionCheck();
@@ -777,6 +937,12 @@ public:
   inline void _ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Collections::Generic::IComparer_1<T>* comparer);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IComparer_1<T>* comparer);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   /// @brief Method get_Comparer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -784,6 +950,18 @@ public:
 
   /// @brief Method get_Count, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline int32_t get_Count();
+
+  /// @brief Method get_Max, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_Max();
+
+  /// @brief Method get_MaxInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline T get_MaxInternal();
+
+  /// @brief Method get_Min, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline T get_Min();
+
+  /// @brief Method get_MinInternal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline T get_MinInternal();
 
   /// @brief Convert to "::System::Collections::Generic::ICollection_1<T>"
   constexpr ::System::Collections::Generic::ICollection_1<T>* i___System__Collections__Generic__ICollection_1_T_() noexcept;
@@ -824,7 +1002,7 @@ public:
   SortedSet_1(SortedSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9524 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11398 };
 
   /// @brief Field root, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::SortedSet_1_Node<T>* ___root;
@@ -852,5 +1030,6 @@ DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::SortedSet_1
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::SortedSet_1_Node, "System.Collections.Generic", "SortedSet`1/Node");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::SortedSet_1___c__DisplayClass52_0, "System.Collections.Generic", "SortedSet`1/<>c__DisplayClass52_0");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::SortedSet_1___c__DisplayClass53_0, "System.Collections.Generic", "SortedSet`1/<>c__DisplayClass53_0");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0, "System.Collections.Generic", "SortedSet`1/TreeSubSet/<>c__DisplayClass9_0");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::SortedSet_1_ElementCount, "System.Collections.Generic", "SortedSet`1/ElementCount");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::System::Collections::Generic::SortedSet_1_Enumerator, "System.Collections.Generic", "SortedSet`1/Enumerator");

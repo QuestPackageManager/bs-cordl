@@ -12,8 +12,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IReadOnlyList_1<::System::Tuple_2<::GlobalNamespace::ArcVisibilityType, ::StringW>*>* (::GlobalNamespace::ArcVisibilityTypeSettingsDropdown::*)()>(
         &::GlobalNamespace::ArcVisibilityTypeSettingsDropdown::GetNamedValues)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3c11f64;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5809588;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ArcVisibilityTypeSettingsDropdown::*)()>(
     &::GlobalNamespace::ArcVisibilityTypeSettingsDropdown::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c120c8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x58096f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ArcVisibilityTypeSettingsDropdown*>::get(),

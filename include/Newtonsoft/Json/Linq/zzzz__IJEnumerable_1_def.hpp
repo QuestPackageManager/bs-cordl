@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IJEnumerable_1)
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System {
 class Object;
@@ -18,7 +22,7 @@ template <typename T> class IJEnumerable_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Newtonsoft::Json::Linq::IJEnumerable_1);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace Newtonsoft::Json::Linq {
 // cpp template
 template <typename T>
@@ -49,7 +53,7 @@ public:
   IJEnumerable_1(IJEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10389 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13543 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

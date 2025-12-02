@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Math/EC/ScaleYNegateXPointMap.hpp"
-#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ScaleYNegateXPointMap_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECFieldElement_def.hpp"
+#include "Org/BouncyCastle/Math/EC/zzzz__ECPointMap_def.hpp"
 #include "Org/BouncyCastle/Math/EC/zzzz__ECPoint_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::*)(::Org::BouncyCastle::Math::EC::ECFieldElement*)>(
     &::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x24dcb04;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x340c2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::EC::ECPoint* (
     ::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::*)(::Org::BouncyCastle::Math::EC::ECPoint*)>(&::Org::BouncyCastle::Math::EC::ScaleYNegateXPointMap::Map)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x24dcb2c;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x340c2b4;
 
   inline static ::MethodInfo const* methodInfo() {
 

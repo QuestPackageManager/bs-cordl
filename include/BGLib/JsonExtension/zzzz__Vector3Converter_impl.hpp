@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::JsonExtension::Vector3Converter::*)(
     ::Newtonsoft::Json::JsonReader*, ::System::Type*, ::UnityEngine::Vector3, bool, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector3Converter::ReadJson)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x22a672c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x31ee2f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::JsonExtension::Vector3Converter::*)(
     ::Newtonsoft::Json::JsonWriter*, ::UnityEngine::Vector3, ::Newtonsoft::Json::JsonSerializer*)>(&::BGLib::JsonExtension::Vector3Converter::WriteJson)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x22a67cc;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x31ee3ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::JsonExtension::Vector3Converter::*)()>(&::BGLib::JsonExtension::Vector3Converter::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22a6914;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x31ee4f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::JsonExtension::Vector3Converter*>::get(), ".ctor",

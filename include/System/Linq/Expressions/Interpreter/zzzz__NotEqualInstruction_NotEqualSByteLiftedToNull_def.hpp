@@ -24,10 +24,10 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NotEqualInstruction_NotEqualSByteLiftedToNull* New_ctor();
 
-  /// @brief Method Run, addr 0x40f0a88, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d9c1b8, size 0xb0, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
-  /// @brief Method .ctor, addr 0x40efeb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9b8f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -45,7 +45,7 @@ public:
   NotEqualInstruction_NotEqualSByteLiftedToNull(NotEqualInstruction_NotEqualSByteLiftedToNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16484 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

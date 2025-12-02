@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Linq::Expressions::TypeBinaryExpression::*)(
     ::System::Linq::Expressions::Expression*, ::System::Type*, ::System::Linq::Expressions::ExpressionType)>(&::System::Linq::Expressions::TypeBinaryExpression::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x40bceec;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5d6cfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_Type)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x40bcf6c;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5d6d054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::ExpressionType (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bcfd8;
+  constexpr static std::size_t addrs = 0x5d6d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_Expression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bcfe0;
+  constexpr static std::size_t addrs = 0x5d6d08c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Linq::Expressions::TypeBinaryExpression::*)()>(
     &::System::Linq::Expressions::TypeBinaryExpression::get_TypeOperand)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bcfe8;
+  constexpr static std::size_t addrs = 0x5d6d094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::TypeBinaryExpression*>::get(),
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (
     ::System::Linq::Expressions::TypeBinaryExpression::*)(::System::Linq::Expressions::ExpressionVisitor*)>(&::System::Linq::Expressions::TypeBinaryExpression::Accept)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x40bcff0;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5d6d09c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::TypeBinaryExpression* (
     ::System::Linq::Expressions::TypeBinaryExpression::*)(::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::TypeBinaryExpression::Update)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x40b8c48;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5d68dcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

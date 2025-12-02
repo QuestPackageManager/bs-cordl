@@ -4,9 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Enum_ParseFailureKind_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IConvertible_def.hpp"
-#include "System/zzzz__IFormattable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueType_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -36,7 +33,16 @@ namespace System {
 class Exception;
 }
 namespace System {
+class IComparable;
+}
+namespace System {
+class IConvertible;
+}
+namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
 }
 namespace System {
 class Object;
@@ -71,19 +77,19 @@ namespace System {
 struct CORDL_TYPE Enum_EnumResult {
 public:
   // Declarations
-  /// @brief Method GetEnumParseException, addr 0x3e1f3e8, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumParseException, addr 0x5a64fec, size 0x194, virtual false, abstract: false, final false
   inline ::System::Exception* GetEnumParseException();
 
-  /// @brief Method Init, addr 0x3e1ed2c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5a64978, size 0x38, virtual false, abstract: false, final false
   inline void Init(bool canMethodThrow);
 
-  /// @brief Method SetFailure, addr 0x3e1f590, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5a651b8, size 0x3c, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureMessageID, ::System::Object* failureMessageFormatArgument);
 
-  /// @brief Method SetFailure, addr 0x3e1f554, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5a65180, size 0x38, virtual false, abstract: false, final false
   inline void SetFailure(::GlobalNamespace::Enum_ParseFailureKind failure, ::StringW failureParameter);
 
-  /// @brief Method SetFailure, addr 0x3e1fb90, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetFailure, addr 0x5a656bc, size 0x10, virtual false, abstract: false, final false
   inline void SetFailure(::System::Exception* unhandledException);
 
   // Ctor Parameters []
@@ -98,7 +104,7 @@ public:
                             ::System::Object* m_failureMessageFormatArgument, ::System::Exception* m_innerException) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2558 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2567 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -171,7 +177,7 @@ public:
 
   constexpr void __cordl_internal_set_Values(::ArrayW<uint64_t, ::Array<uint64_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3e1e1c8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a63fe8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint64_t, ::Array<uint64_t>*> values, ::ArrayW<::StringW, ::Array<::StringW>*> names);
 
 protected:
@@ -189,7 +195,7 @@ public:
   Enum_ValuesAndNames(Enum_ValuesAndNames const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2559 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2568 };
 
   /// @brief Field Values, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint64_t, ::Array<uint64_t>*> ___Values;
@@ -207,7 +213,7 @@ static_assert(offsetof(::System::Enum_ValuesAndNames, ___Names) == 0x18, "Offset
 static_assert(::cordl_internals::size_check_v<::System::Enum_ValuesAndNames, 0x20>, "Size mismatch!");
 
 } // namespace System
-// Dependencies System.IComparable, System.IConvertible, System.IFormattable, System.ValueType
+// Dependencies System.ValueType
 namespace System {
 // Is value type: false
 // CS Name: System.Enum
@@ -238,7 +244,7 @@ public:
   Enum(Enum const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2560 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2569 };
 
   /// @brief Field enumSeperator offset 0xffffffff size 0x8
   static constexpr ::ConstString enumSeperator{ u", " };

@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(
     ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::RGBPanelController::add_colorDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c26848;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x58184e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(
     ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>*)>(&::GlobalNamespace::RGBPanelController::remove_colorDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c268f8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x58185a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::RGBPanelController::*)()>(
     &::GlobalNamespace::RGBPanelController::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3c269a8;
+  constexpr static std::size_t addrs = 0x5818668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "get_color",
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::RGBPanelController::set_color)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c269b4;
+  constexpr static std::size_t addrs = 0x5818674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::Awake)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3c26b98;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x58187c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "Awake",
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::OnDestroy)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3c26c90;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x58188c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), "OnDestroy",
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)(
     ::HMUI::ColorGradientSlider*, ::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType)>(&::GlobalNamespace::RGBPanelController::HandleSliderColorDidChange)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c26e30;
+  constexpr static std::size_t addrs = 0x5818a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -114,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::RefreshSlidersValues)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3c26b4c;
+  constexpr static std::size_t addrs = 0x5818774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
@@ -126,8 +126,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::RefreshSlidersColors)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3c269d4;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5818694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(),
@@ -139,8 +139,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RGBPanelController::*)()>(&::GlobalNamespace::RGBPanelController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c26e6c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5818aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RGBPanelController*>::get(), ".ctor",

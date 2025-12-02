@@ -26,14 +26,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE StaticBeatmapObjectSpawnMovementData : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Get2DNoteOffset, addr 0x2249d18, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method Get2DNoteOffset, addr 0x3169f9c, size 0x34, virtual false, abstract: false, final false
   static inline ::UnityEngine::Vector2 Get2DNoteOffset(int32_t noteLineIndex, int32_t noteLinesCount, ::GlobalNamespace::NoteLineLayer noteLineLayer);
 
-  /// @brief Method LineYPosForLineLayer, addr 0x224a008, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method LineYPosForLineLayer, addr 0x316a248, size 0x1c, virtual false, abstract: false, final false
   static inline float_t LineYPosForLineLayer(::GlobalNamespace::NoteLineLayer lineLayer);
-
-  /// @brief Method get_layerHeight, addr 0x224a02c, size 0xc, virtual false, abstract: false, final false
-  static inline float_t get_layerHeight();
 
 protected:
   // Ctor Parameters []
@@ -50,7 +47,7 @@ public:
   StaticBeatmapObjectSpawnMovementData(StaticBeatmapObjectSpawnMovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21017 };
 
   /// @brief Field kBaseLinesYPos offset 0xffffffff size 0x4
   static constexpr float_t kBaseLinesYPos{ static_cast<float_t>(0.25f) };
@@ -60,12 +57,6 @@ public:
 
   /// @brief Field kObstacleVerticalOffset offset 0xffffffff size 0x4
   static constexpr float_t kObstacleVerticalOffset{ static_cast<float_t>(-0.15f) };
-
-  /// @brief Field kTopLinesYPos offset 0xffffffff size 0x4
-  static constexpr float_t kTopLinesYPos{ static_cast<float_t>(1.45f) };
-
-  /// @brief Field kUpperLinesYPos offset 0xffffffff size 0x4
-  static constexpr float_t kUpperLinesYPos{ static_cast<float_t>(0.85f) };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

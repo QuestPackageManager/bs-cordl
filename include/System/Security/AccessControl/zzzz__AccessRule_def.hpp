@@ -48,11 +48,11 @@ public:
 
   constexpr void __cordl_internal_set_type(::System::Security::AccessControl::AccessControlType value);
 
-  /// @brief Method .ctor, addr 0x3cc284c, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5905fdc, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::System::Security::Principal::IdentityReference* identity, int32_t accessMask, bool isInherited, ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
                     ::System::Security::AccessControl::PropagationFlags propagationFlags, ::System::Security::AccessControl::AccessControlType type);
 
-  /// @brief Method get_AccessControlType, addr 0x3cc2a60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AccessControlType, addr 0x59061f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Security::AccessControl::AccessControlType get_AccessControlType();
 
 protected:
@@ -70,7 +70,7 @@ public:
   AccessRule(AccessRule const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3014 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3031 };
 
   /// @brief Field type, offset: 0x28, size: 0x4, def value: None
   ::System::Security::AccessControl::AccessControlType ___type;

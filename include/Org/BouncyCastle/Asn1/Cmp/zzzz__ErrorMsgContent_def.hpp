@@ -51,7 +51,7 @@ public:
   /// @brief Field pkiStatusInfo, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_pkiStatusInfo, put = __cordl_internal_set_pkiStatusInfo)) ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo;
 
-  /// @brief Method GetInstance, addr 0x22f677c, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3223ae0, size 0x184, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo);
@@ -61,7 +61,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Cmp::ErrorMsgContent* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x22f69a4, size 0x170, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3223ce4, size 0x180, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerInteger* const& __cordl_internal_get_errorCode() const;
@@ -82,22 +82,22 @@ public:
 
   constexpr void __cordl_internal_set_pkiStatusInfo(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* value);
 
-  /// @brief Method .ctor, addr 0x22f68f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3223c64, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo);
 
-  /// @brief Method .ctor, addr 0x22f6904, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3223c70, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* pkiStatusInfo, ::Org::BouncyCastle::Asn1::DerInteger* errorCode, ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* errorDetails);
 
-  /// @brief Method .ctor, addr 0x22f64e4, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3223848, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method get_ErrorCode, addr 0x22f6994, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorCode, addr 0x3223cd4, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_ErrorCode();
 
-  /// @brief Method get_ErrorDetails, addr 0x22f699c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ErrorDetails, addr 0x3223cdc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* get_ErrorDetails();
 
-  /// @brief Method get_PkiStatusInfo, addr 0x22f698c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_PkiStatusInfo, addr 0x3223ccc, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cmp::PkiStatusInfo* get_PkiStatusInfo();
 
 protected:

@@ -3,9 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IInputActionCollection)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 namespace System {
 template <typename T> struct Nullable_1;
 }
@@ -30,7 +34,7 @@ class IInputActionCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::IInputActionCollection);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace UnityEngine::InputSystem {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.IInputActionCollection
@@ -85,7 +89,7 @@ public:
   IInputActionCollection(IInputActionCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6533 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8585 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

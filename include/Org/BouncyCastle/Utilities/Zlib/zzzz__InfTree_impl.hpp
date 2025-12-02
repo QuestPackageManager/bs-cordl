@@ -10,8 +10,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<int32_t, ::Array<int32_t>*>, int32_t, int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>,
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>)>(
     &::Org::BouncyCastle::Utilities::Zlib::InfTree::huft_build)> {
-  constexpr static std::size_t size = 0x778;
-  constexpr static std::size_t addrs = 0x25e20e4;
+  constexpr static std::size_t size = 0x79c;
+  constexpr static std::size_t addrs = 0x3511a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,8 +35,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Utilities::Zlib::InfTree::*)(
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>,
     ::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(&::Org::BouncyCastle::Utilities::Zlib::InfTree::inflate_trees_bits)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x25dfd30;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x350f5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     int32_t, int32_t, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>,
     ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(
     &::Org::BouncyCastle::Utilities::Zlib::InfTree::inflate_trees_dynamic)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x25dfe44;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x350f720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +80,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (*)(::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<int32_t, ::Array<int32_t>*>, ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>,
                             ::ArrayW<::ArrayW<int32_t, ::Array<int32_t>*>, ::Array<::ArrayW<int32_t, ::Array<int32_t>*>>*>, ::Org::BouncyCastle::Utilities::Zlib::ZStream*)>(
         &::Org::BouncyCastle::Utilities::Zlib::InfTree::inflate_trees_fixed)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x25dfc3c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x350f4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -100,8 +100,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::InfTree::*)(int32_t)>(
     &::Org::BouncyCastle::Utilities::Zlib::InfTree::initWorkArea)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x25e285c;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x35121f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,8 +114,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Zlib::InfTree::*)()>(&::Org::BouncyCastle::Utilities::Zlib::InfTree::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x25deaa0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x350e1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Utilities::Zlib::InfTree*>::get(), ".ctor",

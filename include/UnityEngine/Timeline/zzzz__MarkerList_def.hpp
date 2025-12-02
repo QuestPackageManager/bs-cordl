@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
@@ -30,6 +29,9 @@ namespace UnityEngine::Timeline {
 class TrackAsset;
 }
 namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
+namespace UnityEngine {
 class ScriptableObject;
 }
 // Forward declare root types
@@ -38,7 +40,7 @@ struct MarkerList;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Timeline::MarkerList);
-// Dependencies UnityEngine.ISerializationCallbackReceiver
+// Dependencies
 namespace UnityEngine::Timeline {
 // Is value type: true
 // CS Name: UnityEngine.Timeline.MarkerList
@@ -54,52 +56,52 @@ public:
   /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
   constexpr operator ::UnityEngine::ISerializationCallbackReceiver*();
 
-  /// @brief Method Add, addr 0x481b0dc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x679b7e4, size 0xf0, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::ScriptableObject* item);
 
-  /// @brief Method BuildCache, addr 0x48259a0, size 0x2d0, virtual false, abstract: false, final false
+  /// @brief Method BuildCache, addr 0x67a6228, size 0x2a0, virtual false, abstract: false, final false
   inline void BuildCache();
 
-  /// @brief Method Clear, addr 0x481b064, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x679b764, size 0x78, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x4825c70, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Contains, addr 0x67a64c8, size 0x64, virtual false, abstract: false, final false
   inline bool Contains(::UnityEngine::ScriptableObject* item);
 
-  /// @brief Method CreateMarker, addr 0x4819ea4, size 0x2f8, virtual false, abstract: false, final false
+  /// @brief Method CreateMarker, addr 0x679a530, size 0x2f8, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* CreateMarker(::System::Type* type, double_t time, ::UnityEngine::Timeline::TrackAsset* owner);
 
-  /// @brief Method GetMarkers, addr 0x481a384, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetMarkers, addr 0x679aa18, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::IMarker*>* GetMarkers();
 
-  /// @brief Method GetRawMarkerList, addr 0x4825cc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetRawMarkerList, addr 0x67a652c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* GetRawMarkerList();
 
-  /// @brief Method HasNotifications, addr 0x481e46c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HasNotifications, addr 0x679ebe0, size 0x18, virtual false, abstract: false, final false
   inline bool HasNotifications();
 
-  /// @brief Method Remove, addr 0x481b1f8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x679b904, size 0xcc, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::ScriptableObject* item, ::UnityEngine::Timeline::TimelineAsset* timelineAsset, ::UnityEngine::Playables::PlayableAsset* thingToDirty);
 
-  /// @brief Method Remove, addr 0x481a1a4, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x679a830, size 0x1e8, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::Timeline::IMarker* item);
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x4825cd4, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x67a6538, size 0xc, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x4825cd0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x67a6534, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method .ctor, addr 0x481e484, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x679ebf8, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity);
 
-  /// @brief Method get_Count, addr 0x481a39c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x679aa30, size 0x58, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x481a3f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x679aa90, size 0x6c, virtual false, abstract: false, final false
   inline ::UnityEngine::Timeline::IMarker* get_Item(int32_t idx);
 
-  /// @brief Method get_markers, addr 0x4825988, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_markers, addr 0x67a6210, size 0x18, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Timeline::IMarker*>* get_markers();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -116,7 +118,7 @@ public:
                        bool m_CacheDirty, bool m_HasNotifications) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15856 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18850 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

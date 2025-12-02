@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Serialization/zzzz__ITraceWriter_def.hpp"
 #include "System/Diagnostics/zzzz__TraceLevel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(DiagnosticsTraceWriter)
+namespace Newtonsoft::Json::Serialization {
+class ITraceWriter;
+}
 namespace System::Diagnostics {
 struct TraceEventType;
 }
@@ -23,7 +25,7 @@ class DiagnosticsTraceWriter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter);
-// Dependencies Newtonsoft.Json.Serialization.ITraceWriter, System.Diagnostics.TraceLevel, System.Object
+// Dependencies System.Diagnostics.TraceLevel, System.Object
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Serialization.DiagnosticsTraceWriter
@@ -38,12 +40,12 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr operator ::Newtonsoft::Json::Serialization::ITraceWriter*() noexcept;
 
-  /// @brief Method GetTraceEventType, addr 0x3ee46a4, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetTraceEventType, addr 0x5b2b9d0, size 0x68, virtual false, abstract: false, final false
   inline ::System::Diagnostics::TraceEventType GetTraceEventType(::System::Diagnostics::TraceLevel level);
 
   static inline ::Newtonsoft::Json::Serialization::DiagnosticsTraceWriter* New_ctor();
 
-  /// @brief Method Trace, addr 0x3ee4710, size 0x478, virtual true, abstract: false, final true
+  /// @brief Method Trace, addr 0x5b2ba38, size 0x460, virtual true, abstract: false, final true
   inline void Trace(::System::Diagnostics::TraceLevel level, ::StringW message, ::System::Exception* ex);
 
   constexpr ::System::Diagnostics::TraceLevel const& __cordl_internal_get__LevelFilter_k__BackingField() const;
@@ -52,16 +54,16 @@ public:
 
   constexpr void __cordl_internal_set__LevelFilter_k__BackingField(::System::Diagnostics::TraceLevel value);
 
-  /// @brief Method .ctor, addr 0x3ee4b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b2be98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_LevelFilter, addr 0x3ee4694, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_LevelFilter, addr 0x5b2b9c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Diagnostics::TraceLevel get_LevelFilter();
 
   /// @brief Convert to "::Newtonsoft::Json::Serialization::ITraceWriter"
   constexpr ::Newtonsoft::Json::Serialization::ITraceWriter* i___Newtonsoft__Json__Serialization__ITraceWriter() noexcept;
 
-  /// @brief Method set_LevelFilter, addr 0x3ee469c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_LevelFilter, addr 0x5b2b9c8, size 0x8, virtual false, abstract: false, final false
   inline void set_LevelFilter(::System::Diagnostics::TraceLevel value);
 
 protected:
@@ -79,7 +81,7 @@ public:
   DiagnosticsTraceWriter(DiagnosticsTraceWriter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13456 };
 
   /// @brief Field <LevelFilter>k__BackingField, offset: 0x10, size: 0x4, def value: None
   ::System::Diagnostics::TraceLevel ____LevelFilter_k__BackingField;

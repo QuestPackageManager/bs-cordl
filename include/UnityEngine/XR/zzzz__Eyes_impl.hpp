@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/Eyes.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__Eyes_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::Eyes.get_deviceId
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::XR::Eyes::*)()>(&::UnityEngine::XR::Eyes::get_deviceId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeb54c;
+  constexpr static std::size_t addrs = 0x6c00270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Eyes>::get(), "get_deviceId",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::XR::Eyes::*)()>(&::UnityEngine::XR::Eyes::get_featureIndex)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aeb554;
+  constexpr static std::size_t addrs = 0x6c00278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::Eyes>::get(), "get_featureIndex",
@@ -33,8 +33,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Eyes::*)(::System::Object*)>(&::UnityEngine::XR::Eyes::Equals)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4aeb55c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6c00280;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::Eyes::*)(::UnityEngine::XR::Eyes)>(&::UnityEngine::XR::Eyes::Equals)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4aeb5e4;
+  constexpr static std::size_t addrs = 0x6c0030c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,8 +61,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::Eyes::*)()>(&::UnityEngine::XR::Eyes::GetHashCode)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4aeb608;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6c00330;
 
   inline static ::MethodInfo const* methodInfo() {
 

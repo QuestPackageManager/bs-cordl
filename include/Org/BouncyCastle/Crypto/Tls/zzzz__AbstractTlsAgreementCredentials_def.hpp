@@ -4,10 +4,14 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAgreementCredentials_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AbstractTlsAgreementCredentials)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsAgreementCredentials;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCredentials;
+}
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
 }
@@ -17,7 +21,7 @@ class AbstractTlsAgreementCredentials;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials);
-// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsCredentials, Org.BouncyCastle.Crypto.Tls.TlsAgreementCredentials, Org.BouncyCastle.Crypto.Tls.TlsCredentials
+// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsCredentials
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.AbstractTlsAgreementCredentials
@@ -35,7 +39,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::AbstractTlsAgreementCredentials* New_ctor();
 
-  /// @brief Method .ctor, addr 0x23e09f8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330ee4c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsAgreementCredentials"

@@ -40,6 +40,9 @@ public:
     __E_RenderHints = static_cast<int32_t>(0x4000),
     __E_TransitionProperty = static_cast<int32_t>(0x8000),
     __E_EventCallbackCategories = static_cast<int32_t>(0x10000),
+    __E_DisableRendering = static_cast<int32_t>(0x20000),
+    __E_BindingRegistration = static_cast<int32_t>(0x40000),
+    __E_DataSource = static_cast<int32_t>(0x80000),
     __E_Picking = static_cast<int32_t>(0x100000),
   };
 
@@ -60,6 +63,9 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr VersionChangeType(int32_t value__) noexcept;
 
+  /// @brief Field BindingRegistration value: I32(262144)
+  static ::UnityEngine::UIElements::VersionChangeType const BindingRegistration;
+
   /// @brief Field Bindings value: I32(1)
   static ::UnityEngine::UIElements::VersionChangeType const Bindings;
 
@@ -71,6 +77,12 @@ public:
 
   /// @brief Field Color value: I32(8192)
   static ::UnityEngine::UIElements::VersionChangeType const Color;
+
+  /// @brief Field DataSource value: I32(524288)
+  static ::UnityEngine::UIElements::VersionChangeType const DataSource;
+
+  /// @brief Field DisableRendering value: I32(131072)
+  static ::UnityEngine::UIElements::VersionChangeType const DisableRendering;
 
   /// @brief Field EventCallbackCategories value: I32(65536)
   static ::UnityEngine::UIElements::VersionChangeType const EventCallbackCategories;
@@ -115,7 +127,7 @@ public:
   static ::UnityEngine::UIElements::VersionChangeType const ViewData;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6004 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4635 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

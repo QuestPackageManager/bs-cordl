@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/PointerSpec.hpp"
-#include "System/zzzz__ModifierSpec_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__PointerSpec_def.hpp"
 #include "System/Text/zzzz__StringBuilder_def.hpp"
+#include "System/zzzz__ModifierSpec_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::PointerSpec._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::PointerSpec::*)(int32_t)>(&::System::PointerSpec::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e42d84;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a88168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::PointerSpec::*)(::System::Type*)>(&::System::PointerSpec::Resolve)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3e42dac;
+  constexpr static std::size_t addrs = 0x5a88170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::StringBuilder* (::System::PointerSpec::*)(::System::Text::StringBuilder*)>(
     &::System::PointerSpec::Append)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3e42e00;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5a881c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::PointerSpec::*)()>(&::System::PointerSpec::ToString)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3e42e28;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5a881e4;
 
   inline static ::MethodInfo const* methodInfo() {
 

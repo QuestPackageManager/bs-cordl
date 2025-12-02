@@ -4,8 +4,14 @@
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
 #include "GlobalNamespace/zzzz__OVRControllerHelper_def.hpp"
+#include "GlobalNamespace/zzzz__OVRInputRayData_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "GlobalNamespace/zzzz__OVRRayHelper_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__OVRInputModule_def.hpp"
+#include "UnityEngine/SceneManagement/zzzz__Scene_def.hpp"
 #include "UnityEngine/zzzz__Animator_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
+#include "UnityEngine/zzzz__Transform_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType::OVRControllerHelper_ControllerType(int32_t value__) noexcept {
   this->value__ = value__;
@@ -21,12 +27,54 @@ constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType GlobalNamespace:
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::Start)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4029ce4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5cdccd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "Start",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.OnEnable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::OnEnable)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5cdd290;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "OnEnable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.OnDisable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::OnDisable)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5cdd36c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "OnDisable",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.OnSceneChanged
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)(
+    ::UnityEngine::SceneManagement::Scene, ::UnityEngine::SceneManagement::Scene)>(&::GlobalNamespace::OVRControllerHelper::OnSceneChanged)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5cdd448;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "OnSceneChanged", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
     return ___internal_method;
   }
 };
@@ -35,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(
     &::GlobalNamespace::OVRControllerHelper::InitializeControllerModels)> {
-  constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x4029d54;
+  constexpr static std::size_t size = 0x544;
+  constexpr static std::size_t addrs = 0x5cdcd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
@@ -48,8 +96,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::Update)> {
-  constexpr static std::size_t size = 0x868;
-  constexpr static std::size_t addrs = 0x402a1e8;
+  constexpr static std::size_t size = 0x958;
+  constexpr static std::size_t addrs = 0x5cdd4a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "Update",
@@ -62,7 +110,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InputFocusAquired)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x402aa50;
+  constexpr static std::size_t addrs = 0x5cdddfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
@@ -75,7 +123,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::InputFocusLost)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x402aa5c;
+  constexpr static std::size_t addrs = 0x5cdde08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "InputFocusLost",
@@ -83,12 +131,107 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.IsPressed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsPressed)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5cdde10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsPressed",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.IsReleased
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsReleased)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5cdde74;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsReleased",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.GetPointerRayTransform
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::OVRControllerHelper::*)()>(
+    &::GlobalNamespace::OVRControllerHelper::GetPointerRayTransform)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cdded8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
+                                                                               "GetPointerRayTransform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.IsValid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsValid)> {
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5cddee0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsValid",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.IsActive
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::IsActive)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5cddf40;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsActive",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.GetHand
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRPlugin_Hand (::GlobalNamespace::OVRControllerHelper::*)()>(
+    &::GlobalNamespace::OVRControllerHelper::GetHand)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5cddf48;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "GetHand",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper.UpdatePointerRay
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)(::GlobalNamespace::OVRInputRayData)>(
+    &::GlobalNamespace::OVRControllerHelper::UpdatePointerRay)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5cddf58;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "UpdatePointerRay", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRInputRayData>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRControllerHelper._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRControllerHelper::*)()>(&::GlobalNamespace::OVRControllerHelper::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x402aa64;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5cde054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), ".ctor",
@@ -270,6 +413,18 @@ constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_anim
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_animator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityW<::GlobalNamespace::OVRRayHelper>& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_RayHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RayHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::OVRRayHelper> const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_RayHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___RayHelper;
+}
+constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_RayHelper(::UnityW<::GlobalNamespace::OVRRayHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___RayHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::UnityEngine::GameObject>& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_activeController() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_activeController;
@@ -317,6 +472,18 @@ constexpr bool const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get
 constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_hasInputFocusPrev(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_hasInputFocusPrev = value;
+}
+constexpr bool& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_isActive() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_isActive;
+}
+constexpr bool const& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_m_isActive() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_isActive;
+}
+constexpr void GlobalNamespace::OVRControllerHelper::__cordl_internal_set_m_isActive(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_isActive = value;
 }
 constexpr ::GlobalNamespace::OVRControllerHelper_ControllerType& GlobalNamespace::OVRControllerHelper::__cordl_internal_get_activeControllerType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -371,6 +538,23 @@ inline void GlobalNamespace::OVRControllerHelper::Start() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void GlobalNamespace::OVRControllerHelper::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "OnEnable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRControllerHelper::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "OnDisable",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRControllerHelper::OnSceneChanged(::UnityEngine::SceneManagement::Scene unloading, ::UnityEngine::SceneManagement::Scene loading) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "OnSceneChanged", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::SceneManagement::Scene>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, unloading, loading);
+}
 inline void GlobalNamespace::OVRControllerHelper::InitializeControllerModels() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
                                                                              "InitializeControllerModels", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -391,6 +575,42 @@ inline void GlobalNamespace::OVRControllerHelper::InputFocusLost() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline bool GlobalNamespace::OVRControllerHelper::IsPressed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsPressed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::OVRControllerHelper::IsReleased() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsReleased",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::Transform> GlobalNamespace::OVRControllerHelper::GetPointerRayTransform() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(),
+                                                                             "GetPointerRayTransform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Transform>, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::OVRControllerHelper::IsValid() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsValid",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool GlobalNamespace::OVRControllerHelper::IsActive() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "IsActive",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::GlobalNamespace::OVRPlugin_Hand GlobalNamespace::OVRControllerHelper::GetHand() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "GetHand",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::OVRPlugin_Hand, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRControllerHelper::UpdatePointerRay(::GlobalNamespace::OVRInputRayData rayData) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), "UpdatePointerRay", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRInputRayData>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, rayData);
+}
 inline void GlobalNamespace::OVRControllerHelper::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRControllerHelper*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -398,6 +618,14 @@ inline void GlobalNamespace::OVRControllerHelper::_ctor() {
 }
 inline ::GlobalNamespace::OVRControllerHelper* GlobalNamespace::OVRControllerHelper::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::OVRControllerHelper*>());
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::OVRInputModule_InputSource"
+constexpr GlobalNamespace::OVRControllerHelper::operator ::UnityEngine::EventSystems::OVRInputModule_InputSource*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::OVRInputModule_InputSource*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::OVRInputModule_InputSource"
+constexpr ::UnityEngine::EventSystems::OVRInputModule_InputSource* GlobalNamespace::OVRControllerHelper::i___UnityEngine__EventSystems__OVRInputModule_InputSource() noexcept {
+  return static_cast<::UnityEngine::EventSystems::OVRInputModule_InputSource*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRControllerHelper::OVRControllerHelper() {}

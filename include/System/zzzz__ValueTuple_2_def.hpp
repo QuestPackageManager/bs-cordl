@@ -3,13 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IStructuralComparable_def.hpp"
-#include "System/Collections/zzzz__IStructuralEquatable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
-#include "System/zzzz__IComparable_1_def.hpp"
-#include "System/zzzz__IComparable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "System/zzzz__IValueTupleInternal_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -20,6 +13,27 @@ class IComparer;
 namespace System::Collections {
 class IEqualityComparer;
 }
+namespace System::Collections {
+class IStructuralComparable;
+}
+namespace System::Collections {
+class IStructuralEquatable;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
+}
+namespace System {
+template <typename T> class IComparable_1;
+}
+namespace System {
+class IComparable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
+class IValueTupleInternal;
+}
 namespace System {
 class Object;
 }
@@ -29,8 +43,7 @@ template <typename T1, typename T2> struct ValueTuple_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ValueTuple_2);
-// Dependencies System.Collections.IStructuralComparable, System.Collections.IStructuralEquatable, System.IComparable, System.IComparable`1<T>, System.IEquatable`1<T>, System.IValueTupleInternal,
-// System.Runtime.CompilerServices.ITuple
+// Dependencies
 namespace System {
 // cpp template
 template <typename T1, typename T2>
@@ -133,7 +146,7 @@ public:
   constexpr ValueTuple_2(T1 Item1, T2 Item2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2506 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2512 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

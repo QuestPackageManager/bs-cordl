@@ -26,19 +26,19 @@ public:
   /// @brief Field _ignoreCase, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get__ignoreCase, put = __cordl_internal_set__ignoreCase)) bool _ignoreCase;
 
-  /// @brief Method Compare, addr 0x3e015f8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method Compare, addr 0x5a47c10, size 0x64, virtual true, abstract: false, final false
   inline int32_t Compare(::StringW x, ::StringW y);
 
-  /// @brief Method Equals, addr 0x3e01758, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a47d90, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3e01650, size 0x80, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a47c74, size 0x84, virtual true, abstract: false, final false
   inline bool Equals(::StringW x, ::StringW y);
 
-  /// @brief Method GetHashCode, addr 0x3e017f0, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a47e28, size 0x68, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetHashCode, addr 0x3e016d0, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a47cf8, size 0x98, virtual true, abstract: false, final false
   inline int32_t GetHashCode(::StringW obj);
 
   static inline ::System::OrdinalComparer* New_ctor(bool ignoreCase);
@@ -49,7 +49,7 @@ public:
 
   constexpr void __cordl_internal_set__ignoreCase(bool value);
 
-  /// @brief Method .ctor, addr 0x3e01588, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a47ba8, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(bool ignoreCase);
 
 protected:
@@ -67,7 +67,7 @@ public:
   OrdinalComparer(OrdinalComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2475 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2481 };
 
   /// @brief Field _ignoreCase, offset: 0x10, size: 0x1, def value: None
   bool ____ignoreCase;

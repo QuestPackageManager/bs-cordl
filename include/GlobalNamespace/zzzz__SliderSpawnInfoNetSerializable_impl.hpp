@@ -21,8 +21,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SliderSpawnInfoNetSerializable* (*)()>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Obtain)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2726fec;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3656758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(),
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                           ::GlobalNamespace::NoteLineLayer, ::GlobalNamespace::NoteLineLayer, float_t, ::GlobalNamespace::NoteCutDirection, float_t,
                                                           ::GlobalNamespace::SliderMidAnchorMode, int32_t, float_t, ::UnityEngine::Vector3, float_t, ::UnityEngine::Vector3, float_t, float_t)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Init)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x2727050;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x36567c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -81,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)()>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x2727168;
+  constexpr static std::size_t addrs = 0x36568d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderSpawnInfoNetSerializable*>::get(),
@@ -94,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Serialize)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x27271c0;
+  constexpr static std::size_t size = 0x3e4;
+  constexpr static std::size_t addrs = 0x3656928;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SliderSpawnInfoNetSerializable::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SliderSpawnInfoNetSerializable::Deserialize)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2727468;
+  constexpr static std::size_t size = 0x2e8;
+  constexpr static std::size_t addrs = 0x3656d0c;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -3,11 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Vector2MagnitudeComparer)
+namespace System::Collections::Generic {
+template <typename T> class IComparer_1;
+}
 namespace UnityEngine {
 struct Vector2;
 }
@@ -17,7 +18,7 @@ struct Vector2MagnitudeComparer;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::Utilities::Vector2MagnitudeComparer);
-// Dependencies System.Collections.Generic.IComparer`1<T>, UnityEngine.Vector2
+// Dependencies
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Utilities.Vector2MagnitudeComparer
@@ -28,7 +29,7 @@ public:
   /// @brief Convert operator to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
   constexpr operator ::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>*();
 
-  /// @brief Method Compare, addr 0x4567a54, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x62e2ad0, size 0x28, virtual true, abstract: false, final true
   inline int32_t Compare(::UnityEngine::Vector2 x, ::UnityEngine::Vector2 y);
 
   /// @brief Convert to "::System::Collections::Generic::IComparer_1<::UnityEngine::Vector2>"
@@ -39,7 +40,7 @@ public:
   constexpr Vector2MagnitudeComparer();
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9129 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };

@@ -4,8 +4,12 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IncrementalReadDecoder)
+namespace System {
+class Array;
+}
 // Forward declare root types
 namespace System::Xml {
 class IncrementalReadDecoder;
@@ -19,15 +23,29 @@ namespace System::Xml {
 class CORDL_TYPE IncrementalReadDecoder : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_DecodedCount)) int32_t DecodedCount;
+
   __declspec(property(get = get_IsFull)) bool IsFull;
 
   /// @brief Method Decode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t Decode(::ArrayW<char16_t, ::Array<char16_t>*> chars, int32_t startPos, int32_t len);
 
+  /// @brief Method Decode, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t Decode(::StringW str, int32_t startPos, int32_t len);
+
   static inline ::System::Xml::IncrementalReadDecoder* New_ctor();
 
-  /// @brief Method .ctor, addr 0x430b754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Reset();
+
+  /// @brief Method SetNextOutputBuffer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetNextOutputBuffer(::System::Array* array, int32_t offset, int32_t len);
+
+  /// @brief Method .ctor, addr 0x5f95400, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_DecodedCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline int32_t get_DecodedCount();
 
   /// @brief Method get_IsFull, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_IsFull();
@@ -47,7 +65,7 @@ public:
   IncrementalReadDecoder(IncrementalReadDecoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7195 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9258 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

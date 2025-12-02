@@ -1,16 +1,15 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/LogicalCallContext.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
-#include "System/zzzz__ICloneable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallContextRemotingData_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__CallContextSecurityData_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__Header_def.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__LogicalCallContext_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
+#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader._ctor
@@ -19,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::*)(
     ::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce7010;
+  constexpr static std::size_t addrs = 0x5929194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cd3c24;
+  constexpr static std::size_t addrs = 0x5916cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -49,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::get_HasInfo)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ce7018;
+  constexpr static std::size_t addrs = 0x592919c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -63,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::LogicalCallContext* (
     ::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::*)()>(&::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::Clone)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cd3c3c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5916cec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,7 +78,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext_Reader::GetData)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3ce5d40;
+  constexpr static std::size_t addrs = 0x5927e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -129,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ce6178;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x59282ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -144,8 +143,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::LogicalCallContext::_ctor)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x3ce6180;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x59282b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::Messaging::LogicalCallContext::GetObjectData)> {
-  constexpr static std::size_t size = 0x350;
-  constexpr static std::size_t addrs = 0x3ce64e0;
+  constexpr static std::size_t size = 0x39c;
+  constexpr static std::size_t addrs = 0x5928628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,8 +175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::Clone)> {
-  constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x3ce685c;
+  constexpr static std::size_t size = 0x618;
+  constexpr static std::size_t addrs = 0x59289f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,8 +190,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)(
     ::System::Runtime::Remoting::Messaging::LogicalCallContext*)>(&::System::Runtime::Remoting::Messaging::LogicalCallContext::Merge)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3cd3f40;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x5917004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,7 +206,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::get_HasInfo)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3cd3ee0;
+  constexpr static std::size_t addrs = 0x5916fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::get_HasUserData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ce6830;
+  constexpr static std::size_t addrs = 0x59289c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -236,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Hashtable* (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)()>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::get_Datastore)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3ce647c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x59285bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -252,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::StringW)>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::GetData)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3ce6f54;
+  constexpr static std::size_t addrs = 0x59290e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -266,8 +265,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::LogicalCallContext::*)(::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::Messaging::LogicalCallContext::SetData)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ce5de4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5927f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,36 +335,6 @@ constexpr bool const& System::Runtime::Remoting::Messaging::LogicalCallContext::
 constexpr void System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_set_m_IsCorrelationMgr(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsCorrelationMgr = value;
-}
-constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>&
-System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_get__sendHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sendHeaders;
-}
-constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const&
-System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_get__sendHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sendHeaders;
-}
-constexpr void System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_set__sendHeaders(
-    ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sendHeaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*>&
-System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_get__recvHeaders() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____recvHeaders;
-}
-constexpr ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> const&
-System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_get__recvHeaders() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____recvHeaders;
-}
-constexpr void System::Runtime::Remoting::Messaging::LogicalCallContext::__cordl_internal_set__recvHeaders(
-    ::ArrayW<::System::Runtime::Remoting::Messaging::Header*, ::Array<::System::Runtime::Remoting::Messaging::Header*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recvHeaders)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void System::Runtime::Remoting::Messaging::LogicalCallContext::setStaticF_s_callContextType(::System::Type* value) {
   ::cordl_internals::setStaticField<::System::Type*, "s_callContextType", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Messaging::LogicalCallContext*>::get>(

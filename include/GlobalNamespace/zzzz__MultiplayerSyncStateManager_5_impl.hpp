@@ -3,13 +3,13 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncStateManager_5_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
 #include "GlobalNamespace/zzzz__LocalMultiplayerSyncState_3_def.hpp"
-#include "GlobalNamespace/zzzz__MultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncStateManager_5_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerSyncState_3_def.hpp"
+#include "GlobalNamespace/zzzz__NetworkMessageType_def.hpp"
 #include "GlobalNamespace/zzzz__RemoteMultiplayerSyncState_3_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
@@ -68,20 +68,20 @@ GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, T
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr ::GlobalNamespace::MultiplayerSyncStateManager_5___c<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::MultiplayerSyncStateManager_5___c() {}
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::GlobalNamespace::IMultiplayerSessionManager*&
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__multiplayerSessionManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-constexpr ::GlobalNamespace::IMultiplayerSessionManager* const&
+constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const&
 GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_get__multiplayerSessionManager() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____multiplayerSessionManager;
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 constexpr void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::__cordl_internal_set__multiplayerSessionManager(
-    ::GlobalNamespace::IMultiplayerSessionManager* value) {
+    ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____multiplayerSessionManager, value);
 }
@@ -140,11 +140,12 @@ constexpr void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType
   ::cordl_internals::setInstanceField(this, &this->____disconnectedPlayerStates, value);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::IMultiplayerSessionManager* GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_multiplayerSessionManager() {
+inline ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*
+GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_multiplayerSessionManager() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(),
       "get_multiplayerSessionManager", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IMultiplayerSessionManager*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*
@@ -219,18 +220,18 @@ GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSeri
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IPacketPool_1<TDeltaSerializable>*, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::MultiplayerSessionManager_MessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_messageType() {
+inline ::GlobalNamespace::NetworkMessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_messageType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), 13)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerSessionManager_MessageType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NetworkMessageType, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
-inline ::GlobalNamespace::MultiplayerSessionManager_MessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_deltaMessageType() {
+inline ::GlobalNamespace::NetworkMessageType GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::get_deltaMessageType() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
       il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>*>::get(), 14)));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::MultiplayerSessionManager_MessageType, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::NetworkMessageType, false>(this, ___internal_method);
 }
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable>
 inline void GlobalNamespace::MultiplayerSyncStateManager_5<TStateTable, TType, TState, TSerializable, TDeltaSerializable>::Start() {

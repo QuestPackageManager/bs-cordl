@@ -28,9 +28,6 @@ public:
     __E_Quest2 = static_cast<int32_t>(0x2),
     __E_Quest3 = static_cast<int32_t>(0x3),
     __E_QuestPro = static_cast<int32_t>(0x4),
-    __E_PlayStation4 = static_cast<int32_t>(0x5),
-    __E_PlayStation4Pro = static_cast<int32_t>(0x6),
-    __E_PlayStation5 = static_cast<int32_t>(0x7),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -50,15 +47,6 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr HardwareCategory(int32_t value__) noexcept;
 
-  /// @brief Field PlayStation4 value: I32(5)
-  static ::GlobalNamespace::HardwareCategory const PlayStation4;
-
-  /// @brief Field PlayStation4Pro value: I32(6)
-  static ::GlobalNamespace::HardwareCategory const PlayStation4Pro;
-
-  /// @brief Field PlayStation5 value: I32(7)
-  static ::GlobalNamespace::HardwareCategory const PlayStation5;
-
   /// @brief Field Quest1 value: I32(1)
   static ::GlobalNamespace::HardwareCategory const Quest1;
 
@@ -75,7 +63,7 @@ public:
   static ::GlobalNamespace::HardwareCategory const Standalone;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21835 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

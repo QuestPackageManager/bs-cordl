@@ -20,8 +20,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler___c::*)()>(&::System::Net::Http::HttpClientHandler___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4213304;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5eba8d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler___c*>::get(), ".ctor",
@@ -37,7 +37,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                    ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Net::Http::HttpClientHandler___c::_set_ClientCertificateOptions_b__23_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x421330c;
+  constexpr static std::size_t addrs = 0x5eba8d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,8 @@ constexpr ::System::Net::Http::HttpClientHandler___c::HttpClientHandler___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::IMonoHttpClientHandler* (*)()>(&::System::Net::Http::HttpClientHandler::CreateDefaultHandler)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x42128a4;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5eb9ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(),
@@ -105,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)()>(&::System::Net::Http::HttpClientHandler::_ctor)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4212aa4;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5eb9f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(), ".ctor",
@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(::System::Net::Http::IMonoHttpClientHandler*)>(
     &::System::Net::Http::HttpClientHandler::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4212adc;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5eb9f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(bool)>(&::System::Net::Http::HttpClientHandler::Dispose)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4212d98;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5eba1d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)()>(
     &::System::Net::Http::HttpClientHandler::ThrowForModifiedManagedSslOptionsIfStarted)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x4212e50;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x5eba298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Net::Http::ClientCertificateOption (::System::Net::Http::HttpClientHandler::*)()>(
     &::System::Net::Http::HttpClientHandler::get_ClientCertificateOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4212f54;
+  constexpr static std::size_t addrs = 0x5eba3a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(),
@@ -177,8 +177,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(::System::Net::Http::ClientCertificateOption)>(
     &::System::Net::Http::HttpClientHandler::set_ClientCertificateOptions)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x4212b14;
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x5eb9f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,12 +192,41 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509CertificateCollection* (
     ::System::Net::Http::HttpClientHandler::*)()>(&::System::Net::Http::HttpClientHandler::get_ClientCertificates)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x4212f5c;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x5eba3a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(),
                                                                                "get_ClientCertificates", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::HttpClientHandler.set_UseProxy
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(bool)>(&::System::Net::Http::HttpClientHandler::set_UseProxy)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5eba580;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(), "set_UseProxy",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Net::Http::HttpClientHandler.set_AllowAutoRedirect
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(bool)>(
+    &::System::Net::Http::HttpClientHandler::set_AllowAutoRedirect)> {
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5eba638;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(), "set_AllowAutoRedirect",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -206,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpClientHandler::*)(::System::TimeSpan)>(
     &::System::Net::Http::HttpClientHandler::SetWebRequestTimeout)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x421312c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5eba6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -221,8 +250,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpClientHandler::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpClientHandler::SendAsync)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x42131d8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5eba7a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -239,7 +268,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::System::Net::Http::HttpClientHandler::_set_ClientCertificateOptions_b__23_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4213294;
+  constexpr static std::size_t addrs = 0x5eba868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -317,6 +346,18 @@ inline ::System::Security::Cryptography::X509Certificates::X509CertificateCollec
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(),
                                                                              "get_ClientCertificates", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Security::Cryptography::X509Certificates::X509CertificateCollection*, false>(this, ___internal_method);
+}
+inline void System::Net::Http::HttpClientHandler::set_UseProxy(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(), "set_UseProxy",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline void System::Net::Http::HttpClientHandler::set_AllowAutoRedirect(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpClientHandler*>::get(), "set_AllowAutoRedirect",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void System::Net::Http::HttpClientHandler::SetWebRequestTimeout(::System::TimeSpan timeout) {
   static auto* ___internal_method = THROW_UNLESS(

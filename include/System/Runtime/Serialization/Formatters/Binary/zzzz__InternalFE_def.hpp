@@ -62,7 +62,7 @@ public:
 
   constexpr void __cordl_internal_set_FEtypeFormat(::System::Runtime::Serialization::Formatters::FormatterTypeStyle value);
 
-  /// @brief Method .ctor, addr 0x3d137ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5954a64, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   InternalFE(InternalFE const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3310 };
 
   /// @brief Field FEtypeFormat, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::FormatterTypeStyle ___FEtypeFormat;

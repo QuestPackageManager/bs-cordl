@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/zzzz__ISerializationCallbackReceiver_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRScenePrefabOverride)
@@ -14,13 +13,16 @@ class OVRSceneAnchor;
 namespace System::Collections::Generic {
 template <typename T> class IEnumerable_1;
 }
+namespace UnityEngine {
+class ISerializationCallbackReceiver;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRScenePrefabOverride;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRScenePrefabOverride);
-// Dependencies System.Object, UnityEngine.ISerializationCallbackReceiver
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRScenePrefabOverride
@@ -41,14 +43,17 @@ public:
 
   static inline ::GlobalNamespace::OVRScenePrefabOverride* New_ctor();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x4010a70, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize, addr 0x5cb8f34, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize();
 
-  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x4010a6c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method UnityEngine.ISerializationCallbackReceiver.OnBeforeSerialize, addr 0x5cb8f30, size 0x4, virtual true, abstract: false, final true
   inline void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize();
 
-  /// @brief Method <UnityEngine.ISerializationCallbackReceiver.OnAfterDeserialize>g__IndexOf|4_0, addr 0x4010bc4, size 0x2f8, virtual false, abstract: false, final false
-  static inline int32_t _UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize_g__IndexOf_4_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
+  /// @brief Method UpdateEditorClassificationIndex, addr 0x5cb8f38, size 0x170, virtual false, abstract: false, final false
+  inline void UpdateEditorClassificationIndex();
+
+  /// @brief Method <UpdateEditorClassificationIndex>g__IndexOf|5_0, addr 0x5cb90a8, size 0x2cc, virtual false, abstract: false, final false
+  static inline int32_t _UpdateEditorClassificationIndex_g__IndexOf_5_0(::StringW label, ::System::Collections::Generic::IEnumerable_1<::StringW>* collection);
 
   constexpr ::StringW const& __cordl_internal_get_ClassificationLabel() const;
 
@@ -68,7 +73,7 @@ public:
 
   constexpr void __cordl_internal_set__editorClassificationIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4010ebc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb9374, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
@@ -89,7 +94,7 @@ public:
   OVRScenePrefabOverride(OVRScenePrefabOverride const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7668 };
 
   /// @brief Field Prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRSceneAnchor> ___Prefab;

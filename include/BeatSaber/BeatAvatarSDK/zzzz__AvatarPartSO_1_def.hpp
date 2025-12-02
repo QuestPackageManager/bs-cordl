@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_def.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(AvatarPartSO_1)
+namespace BeatSaber::BeatAvatarSDK {
+class IAvatarPart;
+}
 // Forward declare root types
 namespace BeatSaber::BeatAvatarSDK {
 template <typename T> class AvatarPartSO_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarPartSO_1);
-// Dependencies BeatSaber.BeatAvatarSDK.IAvatarPart, PersistentScriptableObject
+// Dependencies PersistentScriptableObject
 namespace BeatSaber::BeatAvatarSDK {
 // cpp template
 template <typename T>
@@ -90,7 +92,7 @@ public:
   AvatarPartSO_1(AvatarPartSO_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18161 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22043 };
 
   /// @brief Field _id, offset: 0x18, size: 0x8, def value: None
   ::StringW ____id;

@@ -13,8 +13,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtendedPropertyDescriptor::*)(
     ::System::ComponentModel::ReflectPropertyDescriptor*, ::System::Type*, ::System::ComponentModel::IExtenderProvider*, ::ArrayW<::System::Attribute*, ::Array<::System::Attribute*>*>)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::_ctor)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x4453538;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x61a4328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::CanResetValue)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4453804;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x61a4608;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_ComponentType)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x445382c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61a462c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_IsReadOnly)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4453850;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x61a464c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_PropertyType)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4453948;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61a4734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -95,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::ComponentModel::ExtendedPropertyDescriptor::*)()>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::get_DisplayName)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x445396c;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x61a4754;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,8 +111,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::GetValue)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4453b48;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x61a4954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::ResetValue)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4453b70;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x61a4978;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,7 +144,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*, ::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::SetValue)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4453b98;
+  constexpr static std::size_t addrs = 0x61a499c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ExtendedPropertyDescriptor::*)(::System::Object*)>(
     &::System::ComponentModel::ExtendedPropertyDescriptor::ShouldSerializeValue)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4453bc4;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x61a49c8;
 
   inline static ::MethodInfo const* methodInfo() {
 

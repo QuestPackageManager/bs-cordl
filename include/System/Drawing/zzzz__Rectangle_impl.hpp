@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "System/Drawing/Rectangle.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/Drawing/zzzz__Rectangle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Drawing::Rectangle.get_X
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Rectangle::*)()>(&::System::Drawing::Rectangle::get_X)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4211c04;
+  constexpr static std::size_t addrs = 0x5eb9054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Rectangle>::get(), "get_X",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Rectangle::*)()>(&::System::Drawing::Rectangle::get_Y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4211c0c;
+  constexpr static std::size_t addrs = 0x5eb905c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Rectangle>::get(), "get_Y",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Rectangle::*)()>(&::System::Drawing::Rectangle::get_Width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4211c14;
+  constexpr static std::size_t addrs = 0x5eb9064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Rectangle>::get(), "get_Width",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Rectangle::*)()>(&::System::Drawing::Rectangle::get_Height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4211c1c;
+  constexpr static std::size_t addrs = 0x5eb906c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Drawing::Rectangle>::get(), "get_Height",
@@ -59,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Rectangle::*)(::System::Object*)>(&::System::Drawing::Rectangle::Equals)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x4211c24;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5eb9074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Drawing::Rectangle::*)(::System::Drawing::Rectangle)>(&::System::Drawing::Rectangle::Equals)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4211cd4;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5eb9114;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Drawing::Rectangle, ::System::Drawing::Rectangle)>(&::System::Drawing::Rectangle::op_Equality)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4211d18;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x5eb9148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,8 +102,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Drawing::Rectangle::*)()>(&::System::Drawing::Rectangle::GetHashCode)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4211d54;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5eb9170;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -116,8 +116,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Drawing::Rectangle::*)()>(&::System::Drawing::Rectangle::ToString)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x4211dd0;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5eb91f0;
 
   inline static ::MethodInfo const* methodInfo() {
 

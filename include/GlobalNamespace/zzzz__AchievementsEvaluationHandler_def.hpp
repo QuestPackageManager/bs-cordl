@@ -9,9 +9,6 @@ namespace GlobalNamespace {
 class AchievementSO;
 }
 namespace GlobalNamespace {
-class AchievementsModelSO;
-}
-namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace GlobalNamespace {
@@ -28,6 +25,9 @@ class MissionCompletionResults;
 }
 namespace GlobalNamespace {
 class PlayerDataModel;
+}
+namespace OculusStudios::Platform::Core {
+class IPlatform;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -60,9 +60,6 @@ public:
 
   /// @brief Field _24HoursPlayedAchievement, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__24HoursPlayedAchievement, put = __cordl_internal_set__24HoursPlayedAchievement)) ::UnityW<::GlobalNamespace::AchievementSO> _24HoursPlayedAchievement;
-
-  /// @brief Field _achievementsModel, offset 0xf8, size 0x8
-  __declspec(property(get = __cordl_internal_get__achievementsModel, put = __cordl_internal_set__achievementsModel)) ::UnityW<::GlobalNamespace::AchievementsModelSO> _achievementsModel;
 
   /// @brief Field _allMissionClearedAchievement, offset 0xe0, size 0x8
   __declspec(property(get = __cordl_internal_get__allMissionClearedAchievement, put = __cordl_internal_set__allMissionClearedAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
@@ -140,6 +137,9 @@ public:
   /// @brief Field _missionNodesManager, offset 0xf0, size 0x8
   __declspec(property(get = __cordl_internal_get__missionNodesManager, put = __cordl_internal_set__missionNodesManager)) ::GlobalNamespace::IMissionNodesManager* _missionNodesManager;
 
+  /// @brief Field _platform, offset 0xf8, size 0x8
+  __declspec(property(get = __cordl_internal_get__platform, put = __cordl_internal_set__platform)) ::OculusStudios::Platform::Core::IPlatform* _platform;
+
   /// @brief Field _playerDataModel, offset 0xe8, size 0x8
   __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
 
@@ -162,30 +162,30 @@ public:
   __declspec(property(get = __cordl_internal_get__totalScore100MillionAchievement, put = __cordl_internal_set__totalScore100MillionAchievement)) ::UnityW<::GlobalNamespace::AchievementSO>
       _totalScore100MillionAchievement;
 
-  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x26a32f4, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method HandleCampaignOverallStatsDataDidUpdate, addr 0x35d40cc, size 0xfc, virtual false, abstract: false, final false
   inline void HandleCampaignOverallStatsDataDidUpdate(::GlobalNamespace::MissionCompletionResults* missionCompletionResults, ::GlobalNamespace::IMissionNode* missionNode);
 
-  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x26a32c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method HandlePartyFreePlayOverallStatsDataDidUpdate, addr 0x35d40a4, size 0x28, virtual false, abstract: false, final false
   inline void HandlePartyFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
-  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x26a2c78, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method HandleSoloFreePlayOverallStatsDataDidUpdate, addr 0x35d2850, size 0x54, virtual false, abstract: false, final false
   inline void HandleSoloFreePlayOverallStatsDataDidUpdate(::GlobalNamespace::LevelCompletionResults* levelCompletionResults, ::GlobalNamespace::BeatmapDifficulty beatmapDifficulty);
 
   static inline ::GlobalNamespace::AchievementsEvaluationHandler* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x26a2ac8, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x35d2688, size 0x1c8, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method ProcessLevelFinishData, addr 0x26a2ccc, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method ProcessLevelFinishData, addr 0x35d28a4, size 0x1230, virtual false, abstract: false, final false
   inline void ProcessLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method ProcessMissionFinishData, addr 0x26a33ec, size 0x400, virtual false, abstract: false, final false
+  /// @brief Method ProcessMissionFinishData, addr 0x35d41c8, size 0x664, virtual false, abstract: false, final false
   inline void ProcessMissionFinishData(::GlobalNamespace::IMissionNode* missionNode, ::GlobalNamespace::MissionCompletionResults* missionCompletionResults);
 
-  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x26a302c, size 0x298, virtual false, abstract: false, final false
+  /// @brief Method ProcessSoloFreePlayLevelFinishData, addr 0x35d3ad4, size 0x5d0, virtual false, abstract: false, final false
   inline void ProcessSoloFreePlayLevelFinishData(::GlobalNamespace::BeatmapDifficulty beatmapDifficulty, ::GlobalNamespace::LevelCompletionResults* levelCompletionResults);
 
-  /// @brief Method Start, addr 0x26a27e8, size 0x170, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x35d2510, size 0x178, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__15ExpertLevelsFullComboAchievement() const;
@@ -207,10 +207,6 @@ public:
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__24HoursPlayedAchievement() const;
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO>& __cordl_internal_get__24HoursPlayedAchievement();
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO> const& __cordl_internal_get__achievementsModel() const;
-
-  constexpr ::UnityW<::GlobalNamespace::AchievementsModelSO>& __cordl_internal_get__achievementsModel();
 
   constexpr ::UnityW<::GlobalNamespace::AchievementSO> const& __cordl_internal_get__allMissionClearedAchievement() const;
 
@@ -280,6 +276,10 @@ public:
 
   constexpr ::GlobalNamespace::IMissionNodesManager*& __cordl_internal_get__missionNodesManager();
 
+  constexpr ::OculusStudios::Platform::Core::IPlatform* const& __cordl_internal_get__platform() const;
+
+  constexpr ::OculusStudios::Platform::Core::IPlatform*& __cordl_internal_get__platform();
+
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
   constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
@@ -309,8 +309,6 @@ public:
   constexpr void __cordl_internal_set__15HardLevelsRankSAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
   constexpr void __cordl_internal_set__24HoursPlayedAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
-
-  constexpr void __cordl_internal_set__achievementsModel(::UnityW<::GlobalNamespace::AchievementsModelSO> value);
 
   constexpr void __cordl_internal_set__allMissionClearedAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
@@ -346,6 +344,8 @@ public:
 
   constexpr void __cordl_internal_set__missionNodesManager(::GlobalNamespace::IMissionNodesManager* value);
 
+  constexpr void __cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value);
+
   constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
 
   constexpr void __cordl_internal_set__resultMinRankANormalWithoutModifiersAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
@@ -356,7 +356,7 @@ public:
 
   constexpr void __cordl_internal_set__totalScore100MillionAchievement(::UnityW<::GlobalNamespace::AchievementSO> value);
 
-  /// @brief Method .ctor, addr 0x26a396c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35d482c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -374,7 +374,7 @@ public:
   AchievementsEvaluationHandler(AchievementsEvaluationHandler const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14730 };
 
   /// @brief Field _clearedLevel100Achievement, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::AchievementSO> ____clearedLevel100Achievement;
@@ -457,8 +457,8 @@ public:
   /// @brief Field _missionNodesManager, offset: 0xf0, size: 0x8, def value: None
   ::GlobalNamespace::IMissionNodesManager* ____missionNodesManager;
 
-  /// @brief Field _achievementsModel, offset: 0xf8, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AchievementsModelSO> ____achievementsModel;
+  /// @brief Field _platform, offset: 0xf8, size: 0x8, def value: None
+  ::OculusStudios::Platform::Core::IPlatform* ____platform;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -517,7 +517,7 @@ static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____pla
 
 static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____missionNodesManager) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____achievementsModel) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AchievementsEvaluationHandler, ____platform) == 0xf8, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AchievementsEvaluationHandler, 0x100>, "Size mismatch!");
 

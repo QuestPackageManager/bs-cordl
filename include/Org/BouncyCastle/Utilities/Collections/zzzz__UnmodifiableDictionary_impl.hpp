@@ -1,12 +1,11 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/UnmodifiableDictionary.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IDictionary_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__UnmodifiableDictionary_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -15,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d4698;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3503be4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -31,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Add)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25d46a0;
+  constexpr static std::size_t addrs = 0x3503be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Clear)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25d46d8;
+  constexpr static std::size_t addrs = 0x3503c20;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -111,7 +110,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25d4710;
+  constexpr static std::size_t addrs = 0x3503c58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +141,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::Remove)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25d4720;
+  constexpr static std::size_t addrs = 0x3503c68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -174,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x25d4758;
+  constexpr static std::size_t addrs = 0x3503ca0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +253,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::get_Item)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x25d4760;
+  constexpr static std::size_t addrs = 0x3503ca8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::*)(::System::Object*, ::System::Object*)>(
     &::Org::BouncyCastle::Utilities::Collections::UnmodifiableDictionary::set_Item)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x25d4770;
+  constexpr static std::size_t addrs = 0x3503cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::Org::BouncyCastle::Crypto::Engines::SerpentEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Engines::SerpentEngine::MakeWorkingKey)> {
-  constexpr static std::size_t size = 0x157c;
-  constexpr static std::size_t addrs = 0x236e034;
+  constexpr static std::size_t size = 0x1494;
+  constexpr static std::size_t addrs = 0x329bd3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SerpentEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::SerpentEngine::EncryptBlock)> {
-  constexpr static std::size_t size = 0x14e8;
-  constexpr static std::size_t addrs = 0x236f5b0;
+  constexpr static std::size_t size = 0x146c;
+  constexpr static std::size_t addrs = 0x329d1d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SerpentEngine::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::Engines::SerpentEngine::DecryptBlock)> {
-  constexpr static std::size_t size = 0x1720;
-  constexpr static std::size_t addrs = 0x2370a98;
+  constexpr static std::size_t size = 0x171c;
+  constexpr static std::size_t addrs = 0x329e63c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Engines::SerpentEngine::*)()>(
     &::Org::BouncyCastle::Crypto::Engines::SerpentEngine::_ctor)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23721b8;
+  constexpr static std::size_t addrs = 0x329fd58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Engines::SerpentEngine*>::get(),

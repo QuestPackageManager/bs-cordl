@@ -4,7 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(InvocationExpression)
 namespace System::Linq::Expressions {
@@ -16,6 +15,9 @@ class ExpressionVisitor;
 namespace System::Linq::Expressions {
 class Expression;
 }
+namespace System::Linq::Expressions {
+class IArgumentProvider;
+}
 namespace System {
 class Type;
 }
@@ -25,7 +27,7 @@ class InvocationExpression;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::InvocationExpression);
-// Dependencies System.Linq.Expressions.Expression, System.Linq.Expressions.IArgumentProvider
+// Dependencies System.Linq.Expressions.Expression
 namespace System::Linq::Expressions {
 // Is value type: false
 // CS Name: System.Linq.Expressions.InvocationExpression
@@ -50,15 +52,15 @@ public:
   /// @brief Convert operator to "::System::Linq::Expressions::IArgumentProvider"
   constexpr operator ::System::Linq::Expressions::IArgumentProvider*() noexcept;
 
-  /// @brief Method Accept, addr 0x40b92b4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x5d69438, size 0x24, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* Accept(::System::Linq::Expressions::ExpressionVisitor* visitor);
 
-  /// @brief Method GetArgument, addr 0x40b9264, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetArgument, addr 0x5d693e8, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   static inline ::System::Linq::Expressions::InvocationExpression* New_ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method Rewrite, addr 0x40b92dc, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Rewrite, addr 0x5d6945c, size 0x28, virtual true, abstract: false, final false
   inline ::System::Linq::Expressions::InvocationExpression* Rewrite(::System::Linq::Expressions::Expression* lambda,
                                                                     ::ArrayW<::System::Linq::Expressions::Expression*, ::Array<::System::Linq::Expressions::Expression*>*> arguments);
 
@@ -74,19 +76,19 @@ public:
 
   constexpr void __cordl_internal_set__Type_k__BackingField(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x40b91dc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d69368, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Linq::Expressions::Expression* expression, ::System::Type* returnType);
 
-  /// @brief Method get_ArgumentCount, addr 0x40b928c, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method get_ArgumentCount, addr 0x5d69410, size 0x28, virtual true, abstract: false, final false
   inline int32_t get_ArgumentCount();
 
-  /// @brief Method get_Expression, addr 0x40b925c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Expression, addr 0x5d693e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::Expression* get_Expression();
 
-  /// @brief Method get_NodeType, addr 0x40b9254, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_NodeType, addr 0x5d693d8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::ExpressionType get_NodeType();
 
-  /// @brief Method get_Type, addr 0x40b924c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_Type, addr 0x5d693d0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Type* get_Type();
 
   /// @brief Convert to "::System::Linq::Expressions::IArgumentProvider"
@@ -107,7 +109,7 @@ public:
   InvocationExpression(InvocationExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16127 };
 
   /// @brief Field <Type>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____Type_k__BackingField;

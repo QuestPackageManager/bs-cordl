@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
     &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::Start)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3b8c6c8;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5778fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
     &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b8c774;
+  constexpr static std::size_t addrs = 0x5779078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)(
     ::GlobalNamespace::ColorBoostBeatmapEventData*)>(&::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::HandleBeatmapEvent)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b8c790;
+  constexpr static std::size_t addrs = 0x5779094;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::*)()>(
     &::GlobalNamespace::BackgroundTextureGradientSwitchEventEffect::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8c7e0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57790e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

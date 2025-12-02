@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IObservable_1_def.hpp"
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TakeNObservable_1)
@@ -33,7 +31,7 @@ template <typename TValue> class TakeNObservable_1_Take;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::TakeNObservable_1);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::TakeNObservable_1_Take);
-// Dependencies System.IObserver`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -96,7 +94,7 @@ public:
   TakeNObservable_1_Take(TakeNObservable_1_Take const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9160 };
 
   /// @brief Field m_Observer, offset: 0x10, size: 0x8, def value: None
   ::System::IObserver_1<TValue>* ___m_Observer;
@@ -108,7 +106,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Dependencies System.IObservable`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -166,7 +164,7 @@ public:
   TakeNObservable_1(TakeNObservable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9161 };
 
   /// @brief Field m_Source, offset: 0x10, size: 0x8, def value: None
   ::System::IObservable_1<TValue>* ___m_Source;

@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventStream::get_isOpen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460bd20;
+  constexpr static std::size_t addrs = 0x6393084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventStream::get_remainingEventCount)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x460bd28;
+  constexpr static std::size_t addrs = 0x639308c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventStream::get_numEventsRetainedInBuffer)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x460bd38;
+  constexpr static std::size_t addrs = 0x639309c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -49,10 +49,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventStream.get_currentEventPtr
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> (
-    ::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventStream::get_currentEventPtr)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEvent* (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputEventStream::get_currentEventPtr)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x460bd40;
+  constexpr static std::size_t addrs = 0x63930a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -65,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventStream::get_numBytesRetainedInBuffer)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x460bd74;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63930d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)(
     ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>, int32_t)>(&::UnityEngine::InputSystem::LowLevel::InputEventStream::_ctor)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x460bdc8;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6393124;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -95,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)(
     ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer>)>(&::UnityEngine::InputSystem::LowLevel::InputEventStream::Close)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x460be54;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x63931a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
     &::UnityEngine::InputSystem::LowLevel::InputEventStream::CleanUpAfterException)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x460bf70;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x63932c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -122,25 +122,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventStream.Write
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)(
-    ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>)>(&::UnityEngine::InputSystem::LowLevel::InputEventStream::Write)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x460bfd8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)(::UnityEngine::InputSystem::LowLevel::InputEvent*)>(
+    &::UnityEngine::InputSystem::LowLevel::InputEventStream::Write)> {
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x6393338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(), "Write", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get() })));
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get() })));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventStream.Advance
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> (
-    ::UnityEngine::InputSystem::LowLevel::InputEventStream::*)(bool)>(&::UnityEngine::InputSystem::LowLevel::InputEventStream::Advance)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x460c168;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEvent* (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)(bool)>(
+    &::UnityEngine::InputSystem::LowLevel::InputEventStream::Advance)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x639352c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,10 +152,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::LowLevel::InputEventStream.Peek
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> (
-    ::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(&::UnityEngine::InputSystem::LowLevel::InputEventStream::Peek)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::LowLevel::InputEvent* (::UnityEngine::InputSystem::LowLevel::InputEventStream::*)()>(
+    &::UnityEngine::InputSystem::LowLevel::InputEventStream::Peek)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x460c20c;
+  constexpr static std::size_t addrs = 0x63935cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -178,10 +178,10 @@ inline int32_t UnityEngine::InputSystem::LowLevel::InputEventStream::get_numEven
                                                                              "get_numEventsRetainedInBuffer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> UnityEngine::InputSystem::LowLevel::InputEventStream::get_currentEventPtr() {
+inline ::UnityEngine::InputSystem::LowLevel::InputEvent* UnityEngine::InputSystem::LowLevel::InputEventStream::get_currentEventPtr() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
                                                                              "get_currentEventPtr", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputEvent*, false>(this, ___internal_method);
 }
 inline uint32_t UnityEngine::InputSystem::LowLevel::InputEventStream::get_numBytesRetainedInBuffer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
@@ -206,40 +206,38 @@ inline void UnityEngine::InputSystem::LowLevel::InputEventStream::CleanUpAfterEx
                                                                              "CleanUpAfterException", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::InputSystem::LowLevel::InputEventStream::Write(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr) {
+inline void UnityEngine::InputSystem::LowLevel::InputEventStream::Write(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(), "Write", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>>::get() })));
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::LowLevel::InputEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventPtr);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> UnityEngine::InputSystem::LowLevel::InputEventStream::Advance(bool leaveEventInBuffer) {
+inline ::UnityEngine::InputSystem::LowLevel::InputEvent* UnityEngine::InputSystem::LowLevel::InputEventStream::Advance(bool leaveEventInBuffer) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(), "Advance",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>, false>(this, ___internal_method, leaveEventInBuffer);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputEvent*, false>(this, ___internal_method, leaveEventInBuffer);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> UnityEngine::InputSystem::LowLevel::InputEventStream::Peek() {
+inline ::UnityEngine::InputSystem::LowLevel::InputEvent* UnityEngine::InputSystem::LowLevel::InputEventStream::Peek() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::LowLevel::InputEventStream>::get(),
                                                                              "Peek", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::LowLevel::InputEvent*, false>(this, ___internal_method);
 }
 // Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CurrentNativeEventReadPtr", ty: "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_CurrentNativeEventWritePtr", ty: "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "m_AppendBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentAppendEventReadPtr", ty:
-// "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentAppendEventWritePtr", ty:
-// "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsOpen", ty: "bool", modifiers: "", def_value:
-// Some("{}") }]
+// "m_CurrentNativeEventReadPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentNativeEventWritePtr", ty:
+// "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_AppendBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_CurrentAppendEventReadPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "m_CurrentAppendEventWritePtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "m_IsOpen", ty: "bool", modifiers:
+// "", def_value: Some("{}") }]
 constexpr ::UnityEngine::InputSystem::LowLevel::InputEventStream::InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer,
-                                                                                   ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentNativeEventReadPtr,
-                                                                                   ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentNativeEventWritePtr,
-                                                                                   int32_t m_RemainingNativeEventCount, int32_t m_MaxAppendedEvents,
-                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer,
-                                                                                   ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentAppendEventReadPtr,
-                                                                                   ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentAppendEventWritePtr,
-                                                                                   int32_t m_RemainingAppendEventCount, int32_t m_NumEventsRetainedInBuffer, bool m_IsOpen) noexcept {
+                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventReadPtr,
+                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventWritePtr, int32_t m_RemainingNativeEventCount,
+                                                                                   int32_t m_MaxAppendedEvents, ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer,
+                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentAppendEventReadPtr,
+                                                                                   ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentAppendEventWritePtr, int32_t m_RemainingAppendEventCount,
+                                                                                   int32_t m_NumEventsRetainedInBuffer, bool m_IsOpen) noexcept {
   this->m_NativeBuffer = m_NativeBuffer;
   this->m_CurrentNativeEventReadPtr = m_CurrentNativeEventReadPtr;
   this->m_CurrentNativeEventWritePtr = m_CurrentNativeEventWritePtr;

@@ -25,6 +25,8 @@ public:
   enum struct __WhiteSpace_Unwrapped : int32_t {
     __E_Normal = static_cast<int32_t>(0x0),
     __E_NoWrap = static_cast<int32_t>(0x1),
+    __E_Pre = static_cast<int32_t>(0x2),
+    __E_PreWrap = static_cast<int32_t>(0x3),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -50,8 +52,14 @@ public:
   /// @brief Field Normal value: I32(0)
   static ::UnityEngine::UIElements::WhiteSpace const Normal;
 
+  /// @brief Field Pre value: I32(2)
+  static ::UnityEngine::UIElements::WhiteSpace const Pre;
+
+  /// @brief Field PreWrap value: I32(3)
+  static ::UnityEngine::UIElements::WhiteSpace const PreWrap;
+
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6130 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5015 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

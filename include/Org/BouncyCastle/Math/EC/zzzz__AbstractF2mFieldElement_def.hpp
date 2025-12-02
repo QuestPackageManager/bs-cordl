@@ -24,18 +24,18 @@ public:
   // Declarations
   __declspec(property(get = get_HasFastTrace)) bool HasFastTrace;
 
-  /// @brief Method HalfTrace, addr 0x2484924, size 0x13c, virtual true, abstract: false, final false
+  /// @brief Method HalfTrace, addr 0x33b3ac4, size 0x13c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECFieldElement* HalfTrace();
 
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mFieldElement* New_ctor();
 
-  /// @brief Method Trace, addr 0x2484a68, size 0x144, virtual true, abstract: false, final false
+  /// @brief Method Trace, addr 0x33b3c08, size 0x164, virtual true, abstract: false, final false
   inline int32_t Trace();
 
-  /// @brief Method .ctor, addr 0x2484bac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33b3d6c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_HasFastTrace, addr 0x2484a60, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_HasFastTrace, addr 0x33b3c00, size 0x8, virtual true, abstract: false, final false
   inline bool get_HasFastTrace();
 
 protected:

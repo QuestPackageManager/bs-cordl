@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ModestTree::TypeStringFormatter___c::*)()>(&::ModestTree::TypeStringFormatter___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af75ec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c0d56c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ModestTree::TypeStringFormatter___c*>::get(), ".ctor",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ModestTree::TypeStringFormatter___c::*)(::System::Type*)>(
     &::ModestTree::TypeStringFormatter___c::_PrettyNameInternal_b__2_0)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4af75f4;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6c0d570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -69,8 +69,8 @@ constexpr ::ModestTree::TypeStringFormatter___c::TypeStringFormatter___c() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::ModestTree::TypeStringFormatter::PrettyName)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x4af54b8;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6c0b294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,8 +83,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::ModestTree::TypeStringFormatter::PrettyNameInternal)> {
-  constexpr static std::size_t size = 0x454;
-  constexpr static std::size_t addrs = 0x4af6d98;
+  constexpr static std::size_t size = 0x49c;
+  constexpr static std::size_t addrs = 0x6c0cc3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::ModestTree::TypeStringFormatter::GetCSharpTypeName)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x4af71ec;
+  constexpr static std::size_t size = 0x38c;
+  constexpr static std::size_t addrs = 0x6c0d0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

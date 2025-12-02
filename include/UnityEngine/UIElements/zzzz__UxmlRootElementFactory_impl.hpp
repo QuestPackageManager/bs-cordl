@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::get_uxmlName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4aa175c;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6a86be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::get_uxmlQualifiedName)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x4aa179c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6a86c2c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -45,7 +45,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::UIElements::UxmlRootElementFactory::*)(::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::Create)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa1810;
+  constexpr static std::size_t addrs = 0x6a86ca4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlRootElementFactory::*)()>(
     &::UnityEngine::UIElements::UxmlRootElementFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4aa1818;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6a86cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlRootElementFactory*>::get(),

@@ -93,7 +93,7 @@ public:
   ArraySortHelper_1(ArraySortHelper_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3803 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

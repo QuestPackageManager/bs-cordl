@@ -55,7 +55,7 @@ public:
   static ::System::Runtime::CompilerServices::LoadHint const Sometimes;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3409 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3426 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

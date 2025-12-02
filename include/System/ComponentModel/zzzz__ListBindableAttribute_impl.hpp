@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::ListBindableAttribute::*)(bool)>(
     &::System::ComponentModel::ListBindableAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x445497c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61a54d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)()>(
     &::System::ComponentModel::ListBindableAttribute::get_ListBindable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44549a4;
+  constexpr static std::size_t addrs = 0x61a54e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::ComponentModel::ListBindableAttribute*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)(::System::Object*)>(
     &::System::ComponentModel::ListBindableAttribute::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x44549ac;
+  constexpr static std::size_t addrs = 0x61a54e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::ComponentModel::ListBindableAttribute::*)()>(
     &::System::ComponentModel::ListBindableAttribute::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4454a44;
+  constexpr static std::size_t addrs = 0x61a5580;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::ComponentModel::ListBindableAttribute::*)()>(
     &::System::ComponentModel::ListBindableAttribute::IsDefaultAttribute)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4454a4c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x61a5588;
 
   inline static ::MethodInfo const* methodInfo() {
 

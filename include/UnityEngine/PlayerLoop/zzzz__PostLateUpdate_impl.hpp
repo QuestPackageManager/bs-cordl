@@ -11,6 +11,8 @@ constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_UpdateCanvasRectTransform::P
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_PlayerUpdateCanvases::PostLateUpdate_PlayerUpdateCanvases() {}
 // Ctor Parameters []
+constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_UIElementsRepaintPanels::PostLateUpdate_UIElementsRepaintPanels() {}
+// Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_UpdateAudio::PostLateUpdate_UpdateAudio() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_UpdateVideo::PostLateUpdate_UpdateVideo() {}
@@ -49,7 +51,7 @@ constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_DirectorRenderImage::PostLat
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_PlayerEmitCanvasGeometry::PostLateUpdate_PlayerEmitCanvasGeometry() {}
 // Ctor Parameters []
-constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_PlayerRenderUIEBatchModeOffscreen::PostLateUpdate_PlayerRenderUIEBatchModeOffscreen() {}
+constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_UIElementsRenderBatchModeOffscreen::PostLateUpdate_UIElementsRenderBatchModeOffscreen() {}
 // Ctor Parameters []
 constexpr ::UnityEngine::PlayerLoop::PostLateUpdate_FinishFrameRendering::PostLateUpdate_FinishFrameRendering() {}
 // Ctor Parameters []

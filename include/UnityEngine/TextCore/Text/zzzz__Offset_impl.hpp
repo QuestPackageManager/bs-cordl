@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494a1bc;
+  constexpr static std::size_t addrs = 0x69d322c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Offset>::get(), "get_left",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494a1c4;
+  constexpr static std::size_t addrs = 0x69d3234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Offset>::get(), "get_right",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494a1cc;
+  constexpr static std::size_t addrs = 0x69d323c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Offset>::get(), "get_top",
@@ -46,7 +46,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::get_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x494a1d4;
+  constexpr static std::size_t addrs = 0x69d3244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Offset>::get(), "get_bottom",
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::Offset (*)()>(&::UnityEngine::TextCore::Text::Offset::get_zero)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x494a1dc;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x69d324c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::Offset>::get(), "get_zero",
@@ -73,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::Offset::*)(float_t, float_t, float_t, float_t)>(
     &::UnityEngine::TextCore::Text::Offset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x494a238;
+  constexpr static std::size_t addrs = 0x69d32ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -88,8 +88,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::Offset, ::UnityEngine::TextCore::Text::Offset)>(
     &::UnityEngine::TextCore::Text::Offset::op_Equality)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x494a244;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x69d32b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::Offset (*)(::UnityEngine::TextCore::Text::Offset, float_t)>(
     &::UnityEngine::TextCore::Text::Offset::op_Multiply)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x494a274;
+  constexpr static std::size_t addrs = 0x69d32e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::Text::Offset::*)()>(&::UnityEngine::TextCore::Text::Offset::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x494a288;
+  constexpr static std::size_t addrs = 0x69d32f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::Offset::*)(::System::Object*)>(&::UnityEngine::TextCore::Text::Offset::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x494a2ec;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x69d3358;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -34,30 +34,30 @@ public:
   /// @brief Field count, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) uint64_t count;
 
-  /// @brief Method AddLength, addr 0x3cb6744, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method AddLength, addr 0x58fa5cc, size 0xf0, virtual false, abstract: false, final false
   inline void AddLength(uint64_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t position);
 
-  /// @brief Method FillBuff, addr 0x3cb65c0, size 0x184, virtual false, abstract: false, final false
+  /// @brief Method FillBuff, addr 0x58fa448, size 0x184, virtual false, abstract: false, final false
   static inline void FillBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> buff);
 
-  /// @brief Method HashCore, addr 0x3cb5678, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method HashCore, addr 0x58f91d4, size 0x100, virtual false, abstract: false, final false
   inline void HashCore(::ArrayW<uint8_t, ::Array<uint8_t>*> rgb, int32_t ibStart, int32_t cbSize);
 
-  /// @brief Method HashFinal, addr 0x3cb5c8c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method HashFinal, addr 0x58f9afc, size 0xe0, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> HashFinal();
 
-  /// @brief Method InitialiseBuff, addr 0x3cb5f20, size 0x6a0, virtual false, abstract: false, final false
+  /// @brief Method InitialiseBuff, addr 0x58f9da8, size 0x6a0, virtual false, abstract: false, final false
   static inline void InitialiseBuff(::ArrayW<uint32_t, ::Array<uint32_t>*> buff, ::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint32_t inputOffset);
 
-  /// @brief Method Initialize, addr 0x3cb55f0, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x58f914c, size 0x88, virtual false, abstract: false, final false
   inline void Initialize();
 
   static inline ::System::Security::Cryptography::SHA1Internal* New_ctor();
 
-  /// @brief Method ProcessBlock, addr 0x3cb5778, size 0x514, virtual false, abstract: false, final false
+  /// @brief Method ProcessBlock, addr 0x58f92d4, size 0x828, virtual false, abstract: false, final false
   inline void ProcessBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, uint32_t inputOffset);
 
-  /// @brief Method ProcessFinalBlock, addr 0x3cb5d64, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method ProcessFinalBlock, addr 0x58f9bdc, size 0x1cc, virtual false, abstract: false, final false
   inline void ProcessFinalBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> inputBuffer, int32_t inputOffset, int32_t inputCount);
 
   constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& __cordl_internal_get__H() const;
@@ -90,7 +90,7 @@ public:
 
   constexpr void __cordl_internal_set_count(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3cb5554, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f90b0, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -108,7 +108,7 @@ public:
   SHA1Internal(SHA1Internal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2984 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3001 };
 
   /// @brief Field _H, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint32_t, ::Array<uint32_t>*> ____H;

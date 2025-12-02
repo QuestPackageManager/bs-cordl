@@ -38,7 +38,7 @@ public:
   __declspec(property(get = __cordl_internal_get__arguments,
                       put = __cordl_internal_set__arguments)) ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* _arguments;
 
-  /// @brief Method GetArgument, addr 0x40bc410, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method GetArgument, addr 0x5d6c6f8, size 0xb4, virtual true, abstract: false, final true
   inline ::System::Linq::Expressions::Expression* GetArgument(int32_t index);
 
   constexpr ::System::Reflection::ConstructorInfo* const& __cordl_internal_get__Constructor_k__BackingField() const;
@@ -53,7 +53,7 @@ public:
 
   constexpr void __cordl_internal_set__arguments(::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* value);
 
-  /// @brief Method get_Constructor, addr 0x40bc408, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Constructor, addr 0x5d6c6f0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Reflection::ConstructorInfo* get_Constructor();
 
 protected:
@@ -71,7 +71,7 @@ public:
   NewExpression(NewExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13727 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16174 };
 
   /// @brief Field _arguments, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>* ____arguments;

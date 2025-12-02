@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyDataModelInstaller::*)()>(
     &::GlobalNamespace::LobbyDataModelInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x3bf5b64;
+  constexpr static std::size_t size = 0x3ec;
+  constexpr static std::size_t addrs = 0x57e8f48;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LobbyDataModelInstaller::*)()>(&::GlobalNamespace::LobbyDataModelInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf5ee0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e9334;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LobbyDataModelInstaller*>::get(), ".ctor",

@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferOwners::*)(::UnityEngine::Object*)>(
     &::GlobalNamespace::CommandBufferOwners::AddOwner)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4081b54;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5d2c468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferOwners::*)(::UnityEngine::Object*)>(
     &::GlobalNamespace::CommandBufferOwners::RemoveOwner)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x40818a4;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5d2c170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::CommandBufferOwners::*)(::UnityEngine::Object*)>(
     &::GlobalNamespace::CommandBufferOwners::ContainsOwner)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4081afc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5d2c404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::CommandBufferOwners::*)()>(&::GlobalNamespace::CommandBufferOwners::get_NumberOfOwners)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4081904;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5d2c1e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferOwners*>::get(),
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferOwners::*)()>(&::GlobalNamespace::CommandBufferOwners::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4081bf4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d2c528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferOwners*>::get(), ".ctor",

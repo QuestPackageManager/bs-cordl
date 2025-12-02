@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__IntPtr_def.hpp"
-#include "Unity/Burst/zzzz__IFunctionPointer_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(FunctionPointer_1)
 namespace System {
@@ -19,7 +18,7 @@ template <typename T> struct FunctionPointer_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::Unity::Burst::FunctionPointer_1);
-// Dependencies System.IntPtr, Unity.Burst.IFunctionPointer
+// Dependencies System.IntPtr
 namespace Unity::Burst {
 // cpp template
 template <typename T>
@@ -66,7 +65,7 @@ public:
   constexpr FunctionPointer_1(::System::IntPtr _ptr) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14633 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17284 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

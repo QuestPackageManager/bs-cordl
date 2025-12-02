@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c15438;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x580cc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::*)(
     ::GlobalNamespace::BeatmapCharacteristicSO*, ::GlobalNamespace::BeatmapCharacteristicSO*)>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController___c::_SetData_b__10_0)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3c15440;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x580cc64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,8 +87,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::add_didSelectBeatmapCharacteristicEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c148f4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580c0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,8 +105,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::BeatmapCharacteristicSegmentedControlController>, ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::remove_didSelectBeatmapCharacteristicEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c149a4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580c180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> (
     ::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::get_selectedBeatmapCharacteristic)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c14a54;
+  constexpr static std::size_t addrs = 0x580c240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -138,7 +138,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::Awake)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x3c14a5c;
+  constexpr static std::size_t addrs = 0x580c248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3c14aec;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x580c2d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,8 +168,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*, ::GlobalNamespace::BeatmapCharacteristicSO*,
     ::System::Collections::Generic::HashSet_1<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*)>(&::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::SetData)> {
-  constexpr static std::size_t size = 0x718;
-  constexpr static std::size_t addrs = 0x3c14bbc;
+  constexpr static std::size_t size = 0x744;
+  constexpr static std::size_t addrs = 0x580c3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -186,8 +186,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::HandleBeatmapCharacteristicSegmentedControlDidSelectCell)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3c152d4;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x580caf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -203,8 +203,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::*)()>(
     &::GlobalNamespace::BeatmapCharacteristicSegmentedControlController::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3c1535c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x580cb90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

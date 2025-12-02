@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage* (*)(::System::Runtime::Remoting::Messaging::IMessage*)>(&::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::Create)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ce9e9c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x592bf18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(
     ::System::Runtime::Remoting::Messaging::IMethodReturnMessage*)>(&::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::_ctor)> {
-  constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3ce9f1c;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x592bfa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ArrayList* (::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArguments)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3cea294;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x592c324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::System::Object*, ::Array<::System::Object*>*> (
     ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(::System::Collections::ArrayList*)>(&::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetArgs)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cea3cc;
+  constexpr static std::size_t addrs = 0x592c46c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (
     ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(::System::Collections::ArrayList*)>(&::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetReturnValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cea3dc;
+  constexpr static std::size_t addrs = 0x592c47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Exception* (
     ::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)(::System::Collections::ArrayList*)>(&::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::GetException)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3cea3ec;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x592c48c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::*)()>(
     &::System::Runtime::Remoting::Messaging::CADMethodReturnMessage::get_PropertiesCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cea490;
+  constexpr static std::size_t addrs = 0x592c53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -77,22 +77,22 @@ public:
 
   constexpr void __cordl_internal_set_y(int32_t value);
 
-  /// @brief Method .ctor, addr 0x270a830, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x36357e8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(float_t beat, int32_t line, int32_t layer, float_t duration, int32_t width, int32_t height);
 
-  /// @brief Method get_duration, addr 0x270a818, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_duration, addr 0x36357d0, size 0x8, virtual false, abstract: false, final false
   inline float_t get_duration();
 
-  /// @brief Method get_height, addr 0x270a828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_height, addr 0x36357e0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_height();
 
-  /// @brief Method get_layer, addr 0x270a810, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_layer, addr 0x36357c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_layer();
 
-  /// @brief Method get_line, addr 0x270a808, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_line, addr 0x36357c0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_line();
 
-  /// @brief Method get_width, addr 0x270a820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x36357d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ObstacleData(ObstacleData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15335 };
 
   /// @brief Field x, offset: 0x14, size: 0x4, def value: None
   int32_t ___x;

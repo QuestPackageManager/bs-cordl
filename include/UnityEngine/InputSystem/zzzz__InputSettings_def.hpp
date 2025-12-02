@@ -22,6 +22,12 @@ namespace UnityEngine::InputSystem {
 struct InputSettings_EditorInputBehaviorInPlayMode;
 }
 namespace UnityEngine::InputSystem {
+struct InputSettings_InputActionPropertyDrawerMode;
+}
+namespace UnityEngine::InputSystem {
+struct InputSettings_ScrollDeltaBehavior;
+}
+namespace UnityEngine::InputSystem {
 struct InputSettings_UpdateMode;
 }
 // Forward declare root types
@@ -32,6 +38,12 @@ namespace UnityEngine::InputSystem {
 struct InputSettings_EditorInputBehaviorInPlayMode;
 }
 namespace UnityEngine::InputSystem {
+struct InputSettings_InputActionPropertyDrawerMode;
+}
+namespace UnityEngine::InputSystem {
+struct InputSettings_ScrollDeltaBehavior;
+}
+namespace UnityEngine::InputSystem {
 struct InputSettings_UpdateMode;
 }
 namespace UnityEngine::InputSystem {
@@ -40,6 +52,8 @@ class InputSettings;
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::InputSettings_BackgroundBehavior);
 MARK_VAL_T(::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode);
+MARK_VAL_T(::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode);
+MARK_VAL_T(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior);
 MARK_VAL_T(::UnityEngine::InputSystem::InputSettings_UpdateMode);
 MARK_REF_PTR_T(::UnityEngine::InputSystem::InputSettings);
 // Dependencies
@@ -85,7 +99,7 @@ public:
   static ::UnityEngine::InputSystem::InputSettings_UpdateMode const ProcessEventsManually;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8763 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -99,6 +113,61 @@ public:
 static_assert(offsetof(::UnityEngine::InputSystem::InputSettings_UpdateMode, value__) == 0x0, "Offset mismatch!");
 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings_UpdateMode, 0x4>, "Size mismatch!");
+
+} // namespace UnityEngine::InputSystem
+// Dependencies
+namespace UnityEngine::InputSystem {
+// Is value type: true
+// CS Name: UnityEngine.InputSystem.InputSettings/ScrollDeltaBehavior
+struct CORDL_TYPE InputSettings_ScrollDeltaBehavior {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __InputSettings_ScrollDeltaBehavior_Unwrapped
+  enum struct __InputSettings_ScrollDeltaBehavior_Unwrapped : int32_t {
+    __E_UniformAcrossAllPlatforms = static_cast<int32_t>(0x0),
+    __E_KeepPlatformSpecificInputRange = static_cast<int32_t>(0x1),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __InputSettings_ScrollDeltaBehavior_Unwrapped() const noexcept {
+    return static_cast<__InputSettings_ScrollDeltaBehavior_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputSettings_ScrollDeltaBehavior();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InputSettings_ScrollDeltaBehavior(int32_t value__) noexcept;
+
+  /// @brief Field KeepPlatformSpecificInputRange value: I32(1)
+  static ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior const KeepPlatformSpecificInputRange;
+
+  /// @brief Field UniformAcrossAllPlatforms value: I32(0)
+  static ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior const UniformAcrossAllPlatforms;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8764 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 // Dependencies
@@ -144,7 +213,7 @@ public:
   static ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior const ResetAndDisableNonBackgroundDevices;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6710 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8765 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -203,7 +272,7 @@ public:
   static ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode const PointersAndKeyboardsRespectGameViewFocus;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6711 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8766 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -219,7 +288,67 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputSettings_EditorInputBeha
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode, 0x4>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
-// Dependencies UnityEngine.InputSystem.InputSettings::BackgroundBehavior, UnityEngine.InputSystem.InputSettings::EditorInputBehaviorInPlayMode, UnityEngine.InputSystem.InputSettings::UpdateMode,
+// Dependencies
+namespace UnityEngine::InputSystem {
+// Is value type: true
+// CS Name: UnityEngine.InputSystem.InputSettings/InputActionPropertyDrawerMode
+struct CORDL_TYPE InputSettings_InputActionPropertyDrawerMode {
+public:
+  // Declarations
+  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+
+  /// @brief Nested struct __InputSettings_InputActionPropertyDrawerMode_Unwrapped
+  enum struct __InputSettings_InputActionPropertyDrawerMode_Unwrapped : int32_t {
+    __E_Compact = static_cast<int32_t>(0x0),
+    __E_MultilineEffective = static_cast<int32_t>(0x1),
+    __E_MultilineBoth = static_cast<int32_t>(0x2),
+  };
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr operator __InputSettings_InputActionPropertyDrawerMode_Unwrapped() const noexcept {
+    return static_cast<__InputSettings_InputActionPropertyDrawerMode_Unwrapped>(this->value__);
+  }
+
+  /// @brief Conversion into unwrapped enum value
+  constexpr explicit operator int32_t() const noexcept {
+    return static_cast<int32_t>(this->value__);
+  }
+
+  // Ctor Parameters []
+  // @brief default ctor
+  constexpr InputSettings_InputActionPropertyDrawerMode();
+
+  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+  constexpr InputSettings_InputActionPropertyDrawerMode(int32_t value__) noexcept;
+
+  /// @brief Field Compact value: I32(0)
+  static ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode const Compact;
+
+  /// @brief Field MultilineBoth value: I32(2)
+  static ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode const MultilineBoth;
+
+  /// @brief Field MultilineEffective value: I32(1)
+  static ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode const MultilineEffective;
+
+  /// @brief IL2CPP Metadata Type Index
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8767 };
+
+  /// @brief The size of the true value type
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+
+  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+  int32_t value__;
+
+  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode, value__) == 0x0, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode, 0x4>, "Size mismatch!");
+
+} // namespace UnityEngine::InputSystem
+// Dependencies UnityEngine.InputSystem.InputSettings::BackgroundBehavior, UnityEngine.InputSystem.InputSettings::EditorInputBehaviorInPlayMode,
+// UnityEngine.InputSystem.InputSettings::InputActionPropertyDrawerMode, UnityEngine.InputSystem.InputSettings::ScrollDeltaBehavior, UnityEngine.InputSystem.InputSettings::UpdateMode,
 // UnityEngine.ScriptableObject
 namespace UnityEngine::InputSystem {
 // Is value type: false
@@ -230,6 +359,10 @@ public:
   using BackgroundBehavior = ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior;
 
   using EditorInputBehaviorInPlayMode = ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode;
+
+  using InputActionPropertyDrawerMode = ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode;
+
+  using ScrollDeltaBehavior = ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior;
 
   using UpdateMode = ::UnityEngine::InputSystem::InputSettings_UpdateMode;
 
@@ -258,60 +391,71 @@ public:
 
   __declspec(property(get = get_filterNoiseOnCurrent, put = set_filterNoiseOnCurrent)) bool filterNoiseOnCurrent;
 
-  /// @brief Field m_BackgroundBehavior, offset 0x30, size 0x4
+  __declspec(property(get = get_inputActionPropertyDrawerMode,
+                      put = set_inputActionPropertyDrawerMode)) ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode inputActionPropertyDrawerMode;
+
+  /// @brief Field m_BackgroundBehavior, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_m_BackgroundBehavior,
                       put = __cordl_internal_set_m_BackgroundBehavior)) ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior m_BackgroundBehavior;
 
-  /// @brief Field m_ButtonReleaseThreshold, offset 0x44, size 0x4
+  /// @brief Field m_ButtonReleaseThreshold, offset 0x4c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ButtonReleaseThreshold, put = __cordl_internal_set_m_ButtonReleaseThreshold)) float_t m_ButtonReleaseThreshold;
 
-  /// @brief Field m_CompensateForScreenOrientation, offset 0x2c, size 0x1
+  /// @brief Field m_CompensateForScreenOrientation, offset 0x30, size 0x1
   __declspec(property(get = __cordl_internal_get_m_CompensateForScreenOrientation, put = __cordl_internal_set_m_CompensateForScreenOrientation)) bool m_CompensateForScreenOrientation;
 
-  /// @brief Field m_DefaultButtonPressPoint, offset 0x40, size 0x4
+  /// @brief Field m_DefaultButtonPressPoint, offset 0x48, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DefaultButtonPressPoint, put = __cordl_internal_set_m_DefaultButtonPressPoint)) float_t m_DefaultButtonPressPoint;
 
-  /// @brief Field m_DefaultDeadzoneMax, offset 0x3c, size 0x4
+  /// @brief Field m_DefaultDeadzoneMax, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMax, put = __cordl_internal_set_m_DefaultDeadzoneMax)) float_t m_DefaultDeadzoneMax;
 
-  /// @brief Field m_DefaultDeadzoneMin, offset 0x38, size 0x4
+  /// @brief Field m_DefaultDeadzoneMin, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DefaultDeadzoneMin, put = __cordl_internal_set_m_DefaultDeadzoneMin)) float_t m_DefaultDeadzoneMin;
 
-  /// @brief Field m_DefaultHoldTime, offset 0x50, size 0x4
+  /// @brief Field m_DefaultHoldTime, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DefaultHoldTime, put = __cordl_internal_set_m_DefaultHoldTime)) float_t m_DefaultHoldTime;
 
-  /// @brief Field m_DefaultSlowTapTime, offset 0x4c, size 0x4
+  /// @brief Field m_DefaultSlowTapTime, offset 0x54, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DefaultSlowTapTime, put = __cordl_internal_set_m_DefaultSlowTapTime)) float_t m_DefaultSlowTapTime;
 
-  /// @brief Field m_DefaultTapTime, offset 0x48, size 0x4
+  /// @brief Field m_DefaultTapTime, offset 0x50, size 0x4
   __declspec(property(get = __cordl_internal_get_m_DefaultTapTime, put = __cordl_internal_set_m_DefaultTapTime)) float_t m_DefaultTapTime;
 
-  /// @brief Field m_DisableRedundantEventsMerging, offset 0x5c, size 0x1
+  /// @brief Field m_DisableRedundantEventsMerging, offset 0x64, size 0x1
   __declspec(property(get = __cordl_internal_get_m_DisableRedundantEventsMerging, put = __cordl_internal_set_m_DisableRedundantEventsMerging)) bool m_DisableRedundantEventsMerging;
 
-  /// @brief Field m_EditorInputBehaviorInPlayMode, offset 0x34, size 0x4
+  /// @brief Field m_EditorInputBehaviorInPlayMode, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get_m_EditorInputBehaviorInPlayMode,
                       put = __cordl_internal_set_m_EditorInputBehaviorInPlayMode)) ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode m_EditorInputBehaviorInPlayMode;
 
-  /// @brief Field m_FeatureFlags, offset 0x60, size 0x8
+  /// @brief Field m_FeatureFlags, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_FeatureFlags, put = __cordl_internal_set_m_FeatureFlags)) ::System::Collections::Generic::HashSet_1<::StringW>* m_FeatureFlags;
 
-  /// @brief Field m_MaxEventBytesPerUpdate, offset 0x24, size 0x4
+  /// @brief Field m_InputActionPropertyDrawerMode, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_InputActionPropertyDrawerMode,
+                      put = __cordl_internal_set_m_InputActionPropertyDrawerMode)) ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode m_InputActionPropertyDrawerMode;
+
+  /// @brief Field m_MaxEventBytesPerUpdate, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxEventBytesPerUpdate, put = __cordl_internal_set_m_MaxEventBytesPerUpdate)) int32_t m_MaxEventBytesPerUpdate;
 
-  /// @brief Field m_MaxQueuedEventsPerUpdate, offset 0x28, size 0x4
+  /// @brief Field m_MaxQueuedEventsPerUpdate, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MaxQueuedEventsPerUpdate, put = __cordl_internal_set_m_MaxQueuedEventsPerUpdate)) int32_t m_MaxQueuedEventsPerUpdate;
 
-  /// @brief Field m_MultiTapDelayTime, offset 0x58, size 0x4
+  /// @brief Field m_MultiTapDelayTime, offset 0x60, size 0x4
   __declspec(property(get = __cordl_internal_get_m_MultiTapDelayTime, put = __cordl_internal_set_m_MultiTapDelayTime)) float_t m_MultiTapDelayTime;
 
-  /// @brief Field m_ShortcutKeysConsumeInputs, offset 0x5d, size 0x1
+  /// @brief Field m_ScrollDeltaBehavior, offset 0x24, size 0x4
+  __declspec(property(get = __cordl_internal_get_m_ScrollDeltaBehavior,
+                      put = __cordl_internal_set_m_ScrollDeltaBehavior)) ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior m_ScrollDeltaBehavior;
+
+  /// @brief Field m_ShortcutKeysConsumeInputs, offset 0x65, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShortcutKeysConsumeInputs, put = __cordl_internal_set_m_ShortcutKeysConsumeInputs)) bool m_ShortcutKeysConsumeInputs;
 
   /// @brief Field m_SupportedDevices, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_m_SupportedDevices, put = __cordl_internal_set_m_SupportedDevices)) ::ArrayW<::StringW, ::Array<::StringW>*> m_SupportedDevices;
 
-  /// @brief Field m_TapRadius, offset 0x54, size 0x4
+  /// @brief Field m_TapRadius, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_m_TapRadius, put = __cordl_internal_set_m_TapRadius)) float_t m_TapRadius;
 
   /// @brief Field m_UpdateMode, offset 0x20, size 0x4
@@ -323,14 +467,7 @@ public:
 
   __declspec(property(get = get_multiTapDelayTime, put = set_multiTapDelayTime)) float_t multiTapDelayTime;
 
-  /// @brief Field optimizedControlsFeatureEnabled, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_optimizedControlsFeatureEnabled, put = setStaticF_optimizedControlsFeatureEnabled)) bool optimizedControlsFeatureEnabled;
-
-  /// @brief Field paranoidReadValueCachingChecksEnabled, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_paranoidReadValueCachingChecksEnabled, put = setStaticF_paranoidReadValueCachingChecksEnabled)) bool paranoidReadValueCachingChecksEnabled;
-
-  /// @brief Field readValueCachingFeatureEnabled, offset 0xffffffff, size 0x1
-  __declspec(property(get = getStaticF_readValueCachingFeatureEnabled, put = setStaticF_readValueCachingFeatureEnabled)) bool readValueCachingFeatureEnabled;
+  __declspec(property(get = get_scrollDeltaBehavior, put = set_scrollDeltaBehavior)) ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior scrollDeltaBehavior;
 
   __declspec(property(get = get_shortcutKeysConsumeInput, put = set_shortcutKeysConsumeInput)) bool shortcutKeysConsumeInput;
 
@@ -340,15 +477,27 @@ public:
 
   __declspec(property(get = get_updateMode, put = set_updateMode)) ::UnityEngine::InputSystem::InputSettings_UpdateMode updateMode;
 
-  /// @brief Method IsFeatureEnabled, addr 0x45d6eec, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method AreEqual, addr 0x6359b48, size 0x358, virtual false, abstract: false, final false
+  static inline bool AreEqual(::UnityEngine::InputSystem::InputSettings* a, ::UnityEngine::InputSystem::InputSettings* b);
+
+  /// @brief Method CompareFeatureFlag, addr 0x6359afc, size 0x4c, virtual false, abstract: false, final false
+  static inline bool CompareFeatureFlag(::UnityEngine::InputSystem::InputSettings* a, ::UnityEngine::InputSystem::InputSettings* b, ::StringW featureName);
+
+  /// @brief Method CompareFloats, addr 0x6359ae4, size 0x18, virtual false, abstract: false, final false
+  static inline bool CompareFloats(float_t a, float_t b);
+
+  /// @brief Method CompareSets, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  template <typename T> static inline bool CompareSets(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<T> a, ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<T> b);
+
+  /// @brief Method IsFeatureEnabled, addr 0x6359a58, size 0x8c, virtual false, abstract: false, final false
   inline bool IsFeatureEnabled(::StringW featureName);
 
   static inline ::UnityEngine::InputSystem::InputSettings* New_ctor();
 
-  /// @brief Method OnChange, addr 0x45d6854, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method OnChange, addr 0x6359434, size 0xd4, virtual false, abstract: false, final false
   inline void OnChange();
 
-  /// @brief Method SetInternalFeatureFlag, addr 0x45d6cd8, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method SetInternalFeatureFlag, addr 0x63598fc, size 0x15c, virtual false, abstract: false, final false
   inline void SetInternalFeatureFlag(::StringW featureName, bool enabled);
 
   constexpr ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior const& __cordl_internal_get_m_BackgroundBehavior() const;
@@ -399,6 +548,10 @@ public:
 
   constexpr ::System::Collections::Generic::HashSet_1<::StringW>*& __cordl_internal_get_m_FeatureFlags();
 
+  constexpr ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode const& __cordl_internal_get_m_InputActionPropertyDrawerMode() const;
+
+  constexpr ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode& __cordl_internal_get_m_InputActionPropertyDrawerMode();
+
   constexpr int32_t const& __cordl_internal_get_m_MaxEventBytesPerUpdate() const;
 
   constexpr int32_t& __cordl_internal_get_m_MaxEventBytesPerUpdate();
@@ -410,6 +563,10 @@ public:
   constexpr float_t const& __cordl_internal_get_m_MultiTapDelayTime() const;
 
   constexpr float_t& __cordl_internal_get_m_MultiTapDelayTime();
+
+  constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior const& __cordl_internal_get_m_ScrollDeltaBehavior() const;
+
+  constexpr ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior& __cordl_internal_get_m_ScrollDeltaBehavior();
 
   constexpr bool const& __cordl_internal_get_m_ShortcutKeysConsumeInputs() const;
 
@@ -451,11 +608,15 @@ public:
 
   constexpr void __cordl_internal_set_m_FeatureFlags(::System::Collections::Generic::HashSet_1<::StringW>* value);
 
+  constexpr void __cordl_internal_set_m_InputActionPropertyDrawerMode(::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode value);
+
   constexpr void __cordl_internal_set_m_MaxEventBytesPerUpdate(int32_t value);
 
   constexpr void __cordl_internal_set_m_MaxQueuedEventsPerUpdate(int32_t value);
 
   constexpr void __cordl_internal_set_m_MultiTapDelayTime(float_t value);
+
+  constexpr void __cordl_internal_set_m_ScrollDeltaBehavior(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior value);
 
   constexpr void __cordl_internal_set_m_ShortcutKeysConsumeInputs(bool value);
 
@@ -465,133 +626,133 @@ public:
 
   constexpr void __cordl_internal_set_m_UpdateMode(::UnityEngine::InputSystem::InputSettings_UpdateMode value);
 
-  /// @brief Method .ctor, addr 0x45d6f68, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6359ea0, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  static inline bool getStaticF_optimizedControlsFeatureEnabled();
-
-  static inline bool getStaticF_paranoidReadValueCachingChecksEnabled();
-
-  static inline bool getStaticF_readValueCachingFeatureEnabled();
-
-  /// @brief Method get_backgroundBehavior, addr 0x45d6a8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_backgroundBehavior, addr 0x6359698, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior get_backgroundBehavior();
 
-  /// @brief Method get_buttonReleaseThreshold, addr 0x45d69cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buttonReleaseThreshold, addr 0x63595d8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_buttonReleaseThreshold();
 
-  /// @brief Method get_compensateForScreenOrientation, addr 0x45d6920, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_compensateForScreenOrientation, addr 0x6359528, size 0x8, virtual false, abstract: false, final false
   inline bool get_compensateForScreenOrientation();
 
-  /// @brief Method get_defaultButtonPressPoint, addr 0x45d6990, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultButtonPressPoint, addr 0x6359598, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultButtonPressPoint();
 
-  /// @brief Method get_defaultDeadzoneMax, addr 0x45d6970, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDeadzoneMax, addr 0x6359578, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultDeadzoneMax();
 
-  /// @brief Method get_defaultDeadzoneMin, addr 0x45d6950, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultDeadzoneMin, addr 0x6359558, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultDeadzoneMin();
 
-  /// @brief Method get_defaultHoldTime, addr 0x45d6a2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultHoldTime, addr 0x6359638, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultHoldTime();
 
-  /// @brief Method get_defaultSlowTapTime, addr 0x45d6a0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultSlowTapTime, addr 0x6359618, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultSlowTapTime();
 
-  /// @brief Method get_defaultTapTime, addr 0x45d69ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_defaultTapTime, addr 0x63595f8, size 0x8, virtual false, abstract: false, final false
   inline float_t get_defaultTapTime();
 
-  /// @brief Method get_disableRedundantEventsMerging, addr 0x45d6c90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableRedundantEventsMerging, addr 0x63598b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableRedundantEventsMerging();
 
-  /// @brief Method get_editorInputBehaviorInPlayMode, addr 0x45d6aac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_editorInputBehaviorInPlayMode, addr 0x63596b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode get_editorInputBehaviorInPlayMode();
 
-  /// @brief Method get_filterNoiseOnCurrent, addr 0x45d6944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_filterNoiseOnCurrent, addr 0x635954c, size 0x8, virtual false, abstract: false, final false
   inline bool get_filterNoiseOnCurrent();
 
-  /// @brief Method get_maxEventBytesPerUpdate, addr 0x45d6acc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_inputActionPropertyDrawerMode, addr 0x63596d8, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode get_inputActionPropertyDrawerMode();
+
+  /// @brief Method get_maxEventBytesPerUpdate, addr 0x63596f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxEventBytesPerUpdate();
 
-  /// @brief Method get_maxQueuedEventsPerUpdate, addr 0x45d6aec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxQueuedEventsPerUpdate, addr 0x6359718, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxQueuedEventsPerUpdate();
 
-  /// @brief Method get_multiTapDelayTime, addr 0x45d6a6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_multiTapDelayTime, addr 0x6359678, size 0x8, virtual false, abstract: false, final false
   inline float_t get_multiTapDelayTime();
 
-  /// @brief Method get_shortcutKeysConsumeInput, addr 0x45d6cb4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollDeltaBehavior, addr 0x6359508, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior get_scrollDeltaBehavior();
+
+  /// @brief Method get_shortcutKeysConsumeInput, addr 0x63598d8, size 0x8, virtual false, abstract: false, final false
   inline bool get_shortcutKeysConsumeInput();
 
-  /// @brief Method get_supportedDevices, addr 0x45d6b0c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method get_supportedDevices, addr 0x6359738, size 0x58, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> get_supportedDevices();
 
-  /// @brief Method get_tapRadius, addr 0x45d6a4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tapRadius, addr 0x6359658, size 0x8, virtual false, abstract: false, final false
   inline float_t get_tapRadius();
 
-  /// @brief Method get_updateMode, addr 0x45d6834, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_updateMode, addr 0x6359414, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::InputSettings_UpdateMode get_updateMode();
 
-  static inline void setStaticF_optimizedControlsFeatureEnabled(bool value);
-
-  static inline void setStaticF_paranoidReadValueCachingChecksEnabled(bool value);
-
-  static inline void setStaticF_readValueCachingFeatureEnabled(bool value);
-
-  /// @brief Method set_backgroundBehavior, addr 0x45d6a94, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_backgroundBehavior, addr 0x63596a0, size 0x18, virtual false, abstract: false, final false
   inline void set_backgroundBehavior(::UnityEngine::InputSystem::InputSettings_BackgroundBehavior value);
 
-  /// @brief Method set_buttonReleaseThreshold, addr 0x45d69d4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_buttonReleaseThreshold, addr 0x63595e0, size 0x18, virtual false, abstract: false, final false
   inline void set_buttonReleaseThreshold(float_t value);
 
-  /// @brief Method set_compensateForScreenOrientation, addr 0x45d6928, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_compensateForScreenOrientation, addr 0x6359530, size 0x1c, virtual false, abstract: false, final false
   inline void set_compensateForScreenOrientation(bool value);
 
-  /// @brief Method set_defaultButtonPressPoint, addr 0x45d6998, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method set_defaultButtonPressPoint, addr 0x63595a0, size 0x38, virtual false, abstract: false, final false
   inline void set_defaultButtonPressPoint(float_t value);
 
-  /// @brief Method set_defaultDeadzoneMax, addr 0x45d6978, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultDeadzoneMax, addr 0x6359580, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultDeadzoneMax(float_t value);
 
-  /// @brief Method set_defaultDeadzoneMin, addr 0x45d6958, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultDeadzoneMin, addr 0x6359560, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultDeadzoneMin(float_t value);
 
-  /// @brief Method set_defaultHoldTime, addr 0x45d6a34, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultHoldTime, addr 0x6359640, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultHoldTime(float_t value);
 
-  /// @brief Method set_defaultSlowTapTime, addr 0x45d6a14, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultSlowTapTime, addr 0x6359620, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultSlowTapTime(float_t value);
 
-  /// @brief Method set_defaultTapTime, addr 0x45d69f4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_defaultTapTime, addr 0x6359600, size 0x18, virtual false, abstract: false, final false
   inline void set_defaultTapTime(float_t value);
 
-  /// @brief Method set_disableRedundantEventsMerging, addr 0x45d6c98, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_disableRedundantEventsMerging, addr 0x63598bc, size 0x1c, virtual false, abstract: false, final false
   inline void set_disableRedundantEventsMerging(bool value);
 
-  /// @brief Method set_editorInputBehaviorInPlayMode, addr 0x45d6ab4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_editorInputBehaviorInPlayMode, addr 0x63596c0, size 0x18, virtual false, abstract: false, final false
   inline void set_editorInputBehaviorInPlayMode(::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode value);
 
-  /// @brief Method set_filterNoiseOnCurrent, addr 0x45d694c, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method set_filterNoiseOnCurrent, addr 0x6359554, size 0x4, virtual false, abstract: false, final false
   inline void set_filterNoiseOnCurrent(bool value);
 
-  /// @brief Method set_maxEventBytesPerUpdate, addr 0x45d6ad4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_inputActionPropertyDrawerMode, addr 0x63596e0, size 0x18, virtual false, abstract: false, final false
+  inline void set_inputActionPropertyDrawerMode(::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode value);
+
+  /// @brief Method set_maxEventBytesPerUpdate, addr 0x6359700, size 0x18, virtual false, abstract: false, final false
   inline void set_maxEventBytesPerUpdate(int32_t value);
 
-  /// @brief Method set_maxQueuedEventsPerUpdate, addr 0x45d6af4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_maxQueuedEventsPerUpdate, addr 0x6359720, size 0x18, virtual false, abstract: false, final false
   inline void set_maxQueuedEventsPerUpdate(int32_t value);
 
-  /// @brief Method set_multiTapDelayTime, addr 0x45d6a74, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_multiTapDelayTime, addr 0x6359680, size 0x18, virtual false, abstract: false, final false
   inline void set_multiTapDelayTime(float_t value);
 
-  /// @brief Method set_shortcutKeysConsumeInput, addr 0x45d6cbc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_scrollDeltaBehavior, addr 0x6359510, size 0x18, virtual false, abstract: false, final false
+  inline void set_scrollDeltaBehavior(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior value);
+
+  /// @brief Method set_shortcutKeysConsumeInput, addr 0x63598e0, size 0x1c, virtual false, abstract: false, final false
   inline void set_shortcutKeysConsumeInput(bool value);
 
-  /// @brief Method set_supportedDevices, addr 0x45d6b6c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_supportedDevices, addr 0x6359790, size 0x124, virtual false, abstract: false, final false
   inline void set_supportedDevices(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::StringW> value);
 
-  /// @brief Method set_tapRadius, addr 0x45d6a54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_tapRadius, addr 0x6359660, size 0x18, virtual false, abstract: false, final false
   inline void set_tapRadius(float_t value);
 
-  /// @brief Method set_updateMode, addr 0x45d683c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method set_updateMode, addr 0x635941c, size 0x18, virtual false, abstract: false, final false
   inline void set_updateMode(::UnityEngine::InputSystem::InputSettings_UpdateMode value);
 
 protected:
@@ -609,7 +770,7 @@ public:
   InputSettings(InputSettings const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6712 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8768 };
 
   /// @brief Field s_OldUnsupportedFixedAndDynamicUpdateSetting offset 0xffffffff size 0x4
   static constexpr int32_t s_OldUnsupportedFixedAndDynamicUpdateSetting{ static_cast<int32_t>(0x0) };
@@ -620,55 +781,61 @@ public:
   /// @brief Field m_UpdateMode, offset: 0x20, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_UpdateMode ___m_UpdateMode;
 
-  /// @brief Field m_MaxEventBytesPerUpdate, offset: 0x24, size: 0x4, def value: None
+  /// @brief Field m_ScrollDeltaBehavior, offset: 0x24, size: 0x4, def value: None
+  ::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior ___m_ScrollDeltaBehavior;
+
+  /// @brief Field m_MaxEventBytesPerUpdate, offset: 0x28, size: 0x4, def value: None
   int32_t ___m_MaxEventBytesPerUpdate;
 
-  /// @brief Field m_MaxQueuedEventsPerUpdate, offset: 0x28, size: 0x4, def value: None
+  /// @brief Field m_MaxQueuedEventsPerUpdate, offset: 0x2c, size: 0x4, def value: None
   int32_t ___m_MaxQueuedEventsPerUpdate;
 
-  /// @brief Field m_CompensateForScreenOrientation, offset: 0x2c, size: 0x1, def value: None
+  /// @brief Field m_CompensateForScreenOrientation, offset: 0x30, size: 0x1, def value: None
   bool ___m_CompensateForScreenOrientation;
 
-  /// @brief Field m_BackgroundBehavior, offset: 0x30, size: 0x4, def value: None
+  /// @brief Field m_BackgroundBehavior, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_BackgroundBehavior ___m_BackgroundBehavior;
 
-  /// @brief Field m_EditorInputBehaviorInPlayMode, offset: 0x34, size: 0x4, def value: None
+  /// @brief Field m_EditorInputBehaviorInPlayMode, offset: 0x38, size: 0x4, def value: None
   ::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode ___m_EditorInputBehaviorInPlayMode;
 
-  /// @brief Field m_DefaultDeadzoneMin, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field m_InputActionPropertyDrawerMode, offset: 0x3c, size: 0x4, def value: None
+  ::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode ___m_InputActionPropertyDrawerMode;
+
+  /// @brief Field m_DefaultDeadzoneMin, offset: 0x40, size: 0x4, def value: None
   float_t ___m_DefaultDeadzoneMin;
 
-  /// @brief Field m_DefaultDeadzoneMax, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field m_DefaultDeadzoneMax, offset: 0x44, size: 0x4, def value: None
   float_t ___m_DefaultDeadzoneMax;
 
-  /// @brief Field m_DefaultButtonPressPoint, offset: 0x40, size: 0x4, def value: None
+  /// @brief Field m_DefaultButtonPressPoint, offset: 0x48, size: 0x4, def value: None
   float_t ___m_DefaultButtonPressPoint;
 
-  /// @brief Field m_ButtonReleaseThreshold, offset: 0x44, size: 0x4, def value: None
+  /// @brief Field m_ButtonReleaseThreshold, offset: 0x4c, size: 0x4, def value: None
   float_t ___m_ButtonReleaseThreshold;
 
-  /// @brief Field m_DefaultTapTime, offset: 0x48, size: 0x4, def value: None
+  /// @brief Field m_DefaultTapTime, offset: 0x50, size: 0x4, def value: None
   float_t ___m_DefaultTapTime;
 
-  /// @brief Field m_DefaultSlowTapTime, offset: 0x4c, size: 0x4, def value: None
+  /// @brief Field m_DefaultSlowTapTime, offset: 0x54, size: 0x4, def value: None
   float_t ___m_DefaultSlowTapTime;
 
-  /// @brief Field m_DefaultHoldTime, offset: 0x50, size: 0x4, def value: None
+  /// @brief Field m_DefaultHoldTime, offset: 0x58, size: 0x4, def value: None
   float_t ___m_DefaultHoldTime;
 
-  /// @brief Field m_TapRadius, offset: 0x54, size: 0x4, def value: None
+  /// @brief Field m_TapRadius, offset: 0x5c, size: 0x4, def value: None
   float_t ___m_TapRadius;
 
-  /// @brief Field m_MultiTapDelayTime, offset: 0x58, size: 0x4, def value: None
+  /// @brief Field m_MultiTapDelayTime, offset: 0x60, size: 0x4, def value: None
   float_t ___m_MultiTapDelayTime;
 
-  /// @brief Field m_DisableRedundantEventsMerging, offset: 0x5c, size: 0x1, def value: None
+  /// @brief Field m_DisableRedundantEventsMerging, offset: 0x64, size: 0x1, def value: None
   bool ___m_DisableRedundantEventsMerging;
 
-  /// @brief Field m_ShortcutKeysConsumeInputs, offset: 0x5d, size: 0x1, def value: None
+  /// @brief Field m_ShortcutKeysConsumeInputs, offset: 0x65, size: 0x1, def value: None
   bool ___m_ShortcutKeysConsumeInputs;
 
-  /// @brief Field m_FeatureFlags, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field m_FeatureFlags, offset: 0x68, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::StringW>* ___m_FeatureFlags;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -678,45 +845,51 @@ static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_Supported
 
 static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_UpdateMode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MaxEventBytesPerUpdate) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ScrollDeltaBehavior) == 0x24, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MaxQueuedEventsPerUpdate) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MaxEventBytesPerUpdate) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_CompensateForScreenOrientation) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MaxQueuedEventsPerUpdate) == 0x2c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_BackgroundBehavior) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_CompensateForScreenOrientation) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_EditorInputBehaviorInPlayMode) == 0x34, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_BackgroundBehavior) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultDeadzoneMin) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_EditorInputBehaviorInPlayMode) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultDeadzoneMax) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_InputActionPropertyDrawerMode) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultButtonPressPoint) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultDeadzoneMin) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ButtonReleaseThreshold) == 0x44, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultDeadzoneMax) == 0x44, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultTapTime) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultButtonPressPoint) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultSlowTapTime) == 0x4c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ButtonReleaseThreshold) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultHoldTime) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultTapTime) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_TapRadius) == 0x54, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultSlowTapTime) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MultiTapDelayTime) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DefaultHoldTime) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DisableRedundantEventsMerging) == 0x5c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_TapRadius) == 0x5c, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ShortcutKeysConsumeInputs) == 0x5d, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_MultiTapDelayTime) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_FeatureFlags) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_DisableRedundantEventsMerging) == 0x64, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings, 0x68>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_ShortcutKeysConsumeInputs) == 0x65, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::InputSystem::InputSettings, ___m_FeatureFlags) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::InputSettings, 0x70>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings_BackgroundBehavior, "UnityEngine.InputSystem", "InputSettings/BackgroundBehavior");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings_EditorInputBehaviorInPlayMode, "UnityEngine.InputSystem", "InputSettings/EditorInputBehaviorInPlayMode");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings_InputActionPropertyDrawerMode, "UnityEngine.InputSystem", "InputSettings/InputActionPropertyDrawerMode");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings_ScrollDeltaBehavior, "UnityEngine.InputSystem", "InputSettings/ScrollDeltaBehavior");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings_UpdateMode, "UnityEngine.InputSystem", "InputSettings/UpdateMode");
 NEED_NO_BOX(::UnityEngine::InputSystem::InputSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::InputSettings*, "UnityEngine.InputSystem", "InputSettings");

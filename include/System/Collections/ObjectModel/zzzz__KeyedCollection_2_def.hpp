@@ -144,7 +144,7 @@ public:
   KeyedCollection_2(KeyedCollection_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3825 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3750 };
 
   /// @brief Field comparer, offset: 0x18, size: 0x8, def value: None
   ::System::Collections::Generic::IEqualityComparer_1<TKey>* ___comparer;

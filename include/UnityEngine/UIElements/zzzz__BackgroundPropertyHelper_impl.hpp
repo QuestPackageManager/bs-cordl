@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundPosition (*)(::UnityEngine::ScaleMode)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ConvertScaleModeToBackgroundPosition)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x497043c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x69fac8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundRepeat (*)(::UnityEngine::ScaleMode)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ConvertScaleModeToBackgroundRepeat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49706e8;
+  constexpr static std::size_t addrs = 0x69fb168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::BackgroundSize (*)(::UnityEngine::ScaleMode)>(
     &::UnityEngine::UIElements::BackgroundPropertyHelper::ConvertScaleModeToBackgroundSize)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x49706f8;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x69fb178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +57,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::ScaleMode (*)(::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundPosition, ::UnityEngine::UIElements::BackgroundRepeat,
                                              ::UnityEngine::UIElements::BackgroundSize, ::ByRef<bool>)>(&::UnityEngine::UIElements::BackgroundPropertyHelper::ResolveUnityBackgroundScaleMode)> {
-  constexpr static std::size_t size = 0x3a0;
-  constexpr static std::size_t addrs = 0x4970800;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x69fb1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

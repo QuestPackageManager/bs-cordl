@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IComparable_1_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(IBeat)
+namespace System {
+template <typename T> class IComparable_1;
+}
 // Forward declare root types
 namespace BeatmapSaveDataCommon {
 class IBeat;
 }
 // Write type traits
 MARK_REF_PTR_T(::BeatmapSaveDataCommon::IBeat);
-// Dependencies System.IComparable`1<T>
+// Dependencies
 namespace BeatmapSaveDataCommon {
 // Is value type: false
 // CS Name: BeatmapSaveDataCommon.IBeat
@@ -25,7 +27,7 @@ public:
   /// @brief Convert operator to "::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>"
   constexpr operator ::System::IComparable_1<::BeatmapSaveDataCommon::IBeat*>*() noexcept;
 
-  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x270b100, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method System.IComparable<BeatmapSaveDataCommon.IBeat>.CompareTo, addr 0x3635e9c, size 0x168, virtual true, abstract: false, final true
   inline int32_t System_IComparable_BeatmapSaveDataCommon_IBeat__CompareTo(::BeatmapSaveDataCommon::IBeat* other);
 
   /// @brief Method get_beat, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -39,7 +41,7 @@ public:
   IBeat(IBeat const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13453 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15360 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

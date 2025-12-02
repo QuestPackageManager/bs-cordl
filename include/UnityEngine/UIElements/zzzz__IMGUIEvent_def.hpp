@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(IMGUIEvent)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 class IMGUIEvent___c;
 }
 namespace UnityEngine {
@@ -34,10 +37,10 @@ public:
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a35da0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b72d90, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IMGUIEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a35d98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b72d8c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent___c* getStaticF___9();
@@ -59,7 +62,7 @@ public:
   IMGUIEvent___c(IMGUIEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4575 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,18 +79,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::IMGUIEvent___c;
 
-  /// @brief Method GetPooled, addr 0x4a35be0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Dispatch, addr 0x6b72d34, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
+  /// @brief Method GetPooled, addr 0x6b72bc4, size 0x8c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::IMGUIEvent* GetPooled(::UnityEngine::Event* systemEvent);
 
-  /// @brief Method Init, addr 0x4a35c64, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b72c50, size 0x58, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a35cb8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b72ca8, size 0xc, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::IMGUIEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a35cc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b72cb4, size 0x80, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,12 +111,12 @@ public:
   IMGUIEvent(IMGUIEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5949 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4576 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IMGUIEvent, 0x88>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::IMGUIEvent, 0x68>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::IMGUIEvent);

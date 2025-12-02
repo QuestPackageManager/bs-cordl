@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::OnDestroy)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3bb4b68;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x57a522c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMissionObjectiveChecker*>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)(int32_t, int32_t)>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::HandleScoreDidChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3bb4c68;
+  constexpr static std::size_t addrs = 0x57a5368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::Init)> {
-  constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x3bb4cb0;
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x57a53b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoreMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::ScoreMissionObjectiveChecker::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb4eb0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57a55bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoreMissionObjectiveChecker*>::get(), ".ctor",

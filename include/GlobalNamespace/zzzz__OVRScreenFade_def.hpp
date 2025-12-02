@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -15,8 +12,14 @@ CORDL_MODULE_EXPORT(OVRScreenFade)
 namespace GlobalNamespace {
 class OVRScreenFade__Fade_d__25;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -40,7 +43,7 @@ class OVRScreenFade__Fade_d__25;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRScreenFade);
 MARK_REF_PTR_T(::GlobalNamespace::OVRScreenFade__Fade_d__25);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRScreenFade/<Fade>d__25
@@ -78,21 +81,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40432a8, size 0x114, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cf9020, size 0x12c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRScreenFade__Fade_d__25* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x40433bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5cf914c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40433c4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cf9154, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40433fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cf918c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40432a4, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5cf901c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -131,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set_startAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x4043250, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf8fec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -158,7 +161,7 @@ public:
   OVRScreenFade__Fade_d__25(OVRScreenFade__Fade_d__25 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8480 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7956 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -243,36 +246,36 @@ public:
   /// @brief Field uiFadeAlpha, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get_uiFadeAlpha, put = __cordl_internal_set_uiFadeAlpha)) float_t uiFadeAlpha;
 
-  /// @brief Method Fade, addr 0x4042ef4, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Fade, addr 0x5cf8c2c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Fade(float_t startAlpha, float_t endAlpha);
 
-  /// @brief Method FadeIn, addr 0x4042ecc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FadeIn, addr 0x5cf8c04, size 0x28, virtual false, abstract: false, final false
   inline void FadeIn();
 
-  /// @brief Method FadeOut, addr 0x4042f68, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method FadeOut, addr 0x5cf8c94, size 0x28, virtual false, abstract: false, final false
   inline void FadeOut();
 
   static inline ::GlobalNamespace::OVRScreenFade* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x4042fd0, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5cf8cfc, size 0x1c0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x4042fb8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5cf8ce4, size 0x18, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnLevelFinishedLoading, addr 0x4042f90, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method OnLevelFinishedLoading, addr 0x5cf8cbc, size 0x28, virtual false, abstract: false, final false
   inline void OnLevelFinishedLoading(int32_t level);
 
-  /// @brief Method SetExplicitFade, addr 0x4043248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetExplicitFade, addr 0x5cf8fe4, size 0x8, virtual false, abstract: false, final false
   inline void SetExplicitFade(float_t level);
 
-  /// @brief Method SetMaterialAlpha, addr 0x4043140, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method SetMaterialAlpha, addr 0x5cf8edc, size 0x108, virtual false, abstract: false, final false
   inline void SetMaterialAlpha();
 
-  /// @brief Method SetUIFade, addr 0x4043124, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method SetUIFade, addr 0x5cf8ebc, size 0x20, virtual false, abstract: false, final false
   inline void SetUIFade(float_t level);
 
-  /// @brief Method Start, addr 0x4042a34, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cf873c, size 0x4c8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr float_t const& __cordl_internal_get_animatedFadeAlpha() const;
@@ -341,20 +344,20 @@ public:
 
   constexpr void __cordl_internal_set_uiFadeAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x4043278, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cf8ff4, size 0x28, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityW<::GlobalNamespace::OVRScreenFade> getStaticF__instance_k__BackingField();
 
-  /// @brief Method get_currentAlpha, addr 0x404297c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method get_currentAlpha, addr 0x5cf868c, size 0xb0, virtual false, abstract: false, final false
   inline float_t get_currentAlpha();
 
-  /// @brief Method get_instance, addr 0x40428e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method get_instance, addr 0x5cf85f0, size 0x4c, virtual false, abstract: false, final false
   static inline ::UnityW<::GlobalNamespace::OVRScreenFade> get_instance();
 
   static inline void setStaticF__instance_k__BackingField(::UnityW<::GlobalNamespace::OVRScreenFade> value);
 
-  /// @brief Method set_instance, addr 0x4042930, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_instance, addr 0x5cf863c, size 0x50, virtual false, abstract: false, final false
   static inline void set_instance(::GlobalNamespace::OVRScreenFade* value);
 
 protected:
@@ -372,7 +375,7 @@ public:
   OVRScreenFade(OVRScreenFade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8481 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7957 };
 
   /// @brief Field fadeTime, offset: 0x20, size: 0x4, def value: None
   float_t ___fadeTime;

@@ -4,8 +4,6 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Object_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__Asn1OctetStringParser_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Asn1OctetString)
@@ -17,6 +15,9 @@ class Asn1OctetStringParser;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1TaggedObject;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Convertible;
 }
 namespace System::IO {
 class Stream;
@@ -30,7 +31,7 @@ class Asn1OctetString;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1OctetString);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Object, Org.BouncyCastle.Asn1.Asn1OctetStringParser, Org.BouncyCastle.Asn1.IAsn1Convertible
+// Dependencies Org.BouncyCastle.Asn1.Asn1Object
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.Asn1OctetString
@@ -48,27 +49,27 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Convertible"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Convertible*() noexcept;
 
-  /// @brief Method Asn1Equals, addr 0x262ecac, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method Asn1Equals, addr 0x355eb6c, size 0xf4, virtual true, abstract: false, final false
   inline bool Asn1Equals(::Org::BouncyCastle::Asn1::Asn1Object* asn1Object);
 
-  /// @brief Method Asn1GetHashCode, addr 0x262ec3c, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method Asn1GetHashCode, addr 0x355eaf8, size 0x74, virtual true, abstract: false, final false
   inline int32_t Asn1GetHashCode();
 
-  /// @brief Method GetInstance, addr 0x262e940, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x355e81c, size 0xec, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
 
-  /// @brief Method GetInstance, addr 0x2627cfc, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3557c00, size 0x2f8, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetOctetStream, addr 0x262ebcc, size 0x64, virtual true, abstract: false, final true
+  /// @brief Method GetOctetStream, addr 0x355ea84, size 0x68, virtual true, abstract: false, final true
   inline ::System::IO::Stream* GetOctetStream();
 
-  /// @brief Method GetOctets, addr 0x262ec34, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetOctets, addr 0x355eaf0, size 0x8, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetOctets();
 
   static inline ::Org::BouncyCastle::Asn1::Asn1OctetString* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method ToString, addr 0x262ed8c, size 0x84, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x355ec60, size 0x8c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_str() const;
@@ -77,10 +78,10 @@ public:
 
   constexpr void __cordl_internal_set_str(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x262eb58, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x355ea2c, size 0x58, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> str);
 
-  /// @brief Method get_Parser, addr 0x262ec30, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method get_Parser, addr 0x355eaec, size 0x4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetStringParser* get_Parser();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::Asn1OctetStringParser"

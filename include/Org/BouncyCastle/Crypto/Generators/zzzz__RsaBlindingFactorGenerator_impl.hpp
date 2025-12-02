@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::*)(
     ::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::Init)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x238fd84;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x32bd870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Math::BigInteger* (::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::GenerateBlindingFactor)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x238ff54;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x32bda60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::RsaBlindingFactorGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23900c8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32bdbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

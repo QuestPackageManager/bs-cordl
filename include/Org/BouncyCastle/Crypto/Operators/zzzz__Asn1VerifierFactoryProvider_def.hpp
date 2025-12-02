@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IVerifierFactoryProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Asn1VerifierFactoryProvider)
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricKeyParameter;
+}
+namespace Org::BouncyCastle::Crypto {
+class IVerifierFactoryProvider;
 }
 namespace Org::BouncyCastle::Crypto {
 class IVerifierFactory;
@@ -24,7 +26,7 @@ class Asn1VerifierFactoryProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider);
-// Dependencies Org.BouncyCastle.Crypto.IVerifierFactoryProvider, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Operators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Operators.Asn1VerifierFactoryProvider
@@ -39,7 +41,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"
   constexpr operator ::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*() noexcept;
 
-  /// @brief Method CreateVerifierFactory, addr 0x23b5f8c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method CreateVerifierFactory, addr 0x32e4254, size 0xb0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Crypto::IVerifierFactory* CreateVerifierFactory(::System::Object* algorithmDetails);
 
   static inline ::Org::BouncyCastle::Crypto::Operators::Asn1VerifierFactoryProvider* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
@@ -50,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_publicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* value);
 
-  /// @brief Method .ctor, addr 0x23b5f64, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e424c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
 
-  /// @brief Method get_SignatureAlgNames, addr 0x23b6048, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method get_SignatureAlgNames, addr 0x32e4304, size 0x50, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_SignatureAlgNames();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IVerifierFactoryProvider"

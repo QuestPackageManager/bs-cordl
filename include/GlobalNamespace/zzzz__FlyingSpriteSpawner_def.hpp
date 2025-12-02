@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IFlyingObjectEffectDidFinishEvent_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -13,6 +12,9 @@ class FlyingObjectEffect;
 }
 namespace GlobalNamespace {
 class FlyingSpriteEffect_Pool;
+}
+namespace GlobalNamespace {
+class IFlyingObjectEffectDidFinishEvent;
 }
 namespace UnityEngine {
 class Material;
@@ -32,7 +34,7 @@ class FlyingSpriteSpawner;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::FlyingSpriteSpawner);
-// Dependencies IFlyingObjectEffectDidFinishEvent, UnityEngine.Color, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.Color, UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FlyingSpriteSpawner
@@ -69,12 +71,12 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
   constexpr operator ::GlobalNamespace::IFlyingObjectEffectDidFinishEvent*() noexcept;
 
-  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x3b89060, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method HandleFlyingObjectEffectDidFinish, addr 0x5775744, size 0x130, virtual true, abstract: false, final true
   inline void HandleFlyingObjectEffectDidFinish(::GlobalNamespace::FlyingObjectEffect* flyingObjectEffect);
 
   static inline ::GlobalNamespace::FlyingSpriteSpawner* New_ctor();
 
-  /// @brief Method SpawnFlyingSprite, addr 0x3b88e70, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method SpawnFlyingSprite, addr 0x5775550, size 0x1f4, virtual false, abstract: false, final false
   inline void SpawnFlyingSprite(::UnityEngine::Vector3 pos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Quaternion inverseRotation);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -131,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__xSpread(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b8917c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5775874, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFlyingObjectEffectDidFinishEvent"
@@ -152,7 +154,7 @@ public:
   FlyingSpriteSpawner(FlyingSpriteSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5814 };
 
   /// @brief Field _sprite, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Sprite> ____sprite;

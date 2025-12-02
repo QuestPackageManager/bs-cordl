@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::Unity::XR::GoogleVr::DaydreamHMD* New_ctor();
 
-  /// @brief Method .ctor, addr 0x453c514, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b4254, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,12 +38,12 @@ public:
   DaydreamHMD(DaydreamHMD const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6528 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8580 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Unity::XR::GoogleVr::DaydreamHMD, 0x1c0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::GoogleVr::DaydreamHMD, 0x1d8>, "Size mismatch!");
 
 } // namespace Unity::XR::GoogleVr
 NEED_NO_BOX(::Unity::XR::GoogleVr::DaydreamHMD);

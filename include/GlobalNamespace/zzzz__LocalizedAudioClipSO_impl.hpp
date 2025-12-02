@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LocalizedAudioClipSO.hpp"
-#include "BGLib/Polyglot/zzzz__Language_impl.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizedAudioClipSO_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::*)()>(
     &::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16368;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f5720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,15 +21,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::__cordl_internal_get_language() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::__cordl_internal_get_language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::__cordl_internal_get_language() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::__cordl_internal_get_language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr void GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::__cordl_internal_set_language(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo::__cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::*)()>(
     &::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16358;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f5714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::*)(
     ::GlobalNamespace::LocalizedAudioClipSO_LocalizedAudioClipInfo*)>(&::GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::_get_localizedAudioClip_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b16370;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x56f5724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,15 +87,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::__cordl_internal_get_language() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::__cordl_internal_get_language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::__cordl_internal_get_language() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::__cordl_internal_get_language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr void GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::__cordl_internal_set_language(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LocalizedAudioClipSO___c__DisplayClass4_0::__cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AudioClip> (::GlobalNamespace::LocalizedAudioClipSO::*)()>(
     &::GlobalNamespace::LocalizedAudioClipSO::get_localizedAudioClip)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3b1624c;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x56f5600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedAudioClipSO*>::get(),
@@ -136,7 +136,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedAudioClipSO::*)()>(&::GlobalNamespace::LocalizedAudioClipSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16360;
+  constexpr static std::size_t addrs = 0x56f5718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedAudioClipSO*>::get(), ".ctor",

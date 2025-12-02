@@ -3,10 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IList_def.hpp"
 CORDL_MODULE_EXPORT(IWrappedCollection)
+namespace System::Collections {
+class ICollection;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
+class IList;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +22,7 @@ class IWrappedCollection;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Utilities::IWrappedCollection);
-// Dependencies System.Collections.ICollection, System.Collections.IEnumerable, System.Collections.IList
+// Dependencies
 namespace Newtonsoft::Json::Utilities {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Utilities.IWrappedCollection
@@ -51,7 +57,7 @@ public:
   IWrappedCollection(IWrappedCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13347 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cstdint>
 CORDL_MODULE_EXPORT(PersistentCallGroup)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -31,12 +30,10 @@ namespace UnityEngine::Events {
 class CORDL_TYPE PersistentCallGroup : public ::System::Object {
 public:
   // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
-
   /// @brief Field m_Calls, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Calls, put = __cordl_internal_set_m_Calls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* m_Calls;
 
-  /// @brief Method Initialize, addr 0x48bed80, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x68c9d44, size 0x14c, virtual false, abstract: false, final false
   inline void Initialize(::UnityEngine::Events::InvokableCallList* invokableList, ::UnityEngine::Events::UnityEventBase* unityEventBase);
 
   static inline ::UnityEngine::Events::PersistentCallGroup* New_ctor();
@@ -47,11 +44,8 @@ public:
 
   constexpr void __cordl_internal_set_m_Calls(::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* value);
 
-  /// @brief Method .ctor, addr 0x48becb8, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68c9cd0, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
-
-  /// @brief Method get_Count, addr 0x48bed38, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_Count();
 
 protected:
   // Ctor Parameters []
@@ -68,7 +62,7 @@ public:
   PersistentCallGroup(PersistentCallGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10987 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10425 };
 
   /// @brief Field m_Calls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::PersistentCall*>* ___m_Calls;

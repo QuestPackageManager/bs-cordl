@@ -4,10 +4,12 @@
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(SafeHandle)
+namespace System {
+class IDisposable;
+}
 namespace System {
 struct IntPtr;
 }
@@ -17,7 +19,7 @@ class SafeHandle;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::InteropServices::SafeHandle);
-// Dependencies System.IDisposable, System.IntPtr, System.Runtime.ConstrainedExecution.CriticalFinalizerObject
+// Dependencies System.IntPtr, System.Runtime.ConstrainedExecution.CriticalFinalizerObject
 namespace System::Runtime::InteropServices {
 // Is value type: false
 // CS Name: System.Runtime.InteropServices.SafeHandle
@@ -43,34 +45,34 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x3d14de4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x5955de4, size 0x10, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method DangerousAddRef, addr 0x3d14480, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method DangerousAddRef, addr 0x5955794, size 0xbc, virtual false, abstract: false, final false
   inline void DangerousAddRef(::ByRef<bool> success);
 
-  /// @brief Method DangerousGetHandle, addr 0x3d14dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousGetHandle, addr 0x5955dd0, size 0x8, virtual false, abstract: false, final false
   inline ::System::IntPtr DangerousGetHandle();
 
-  /// @brief Method DangerousRelease, addr 0x3d145ec, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method DangerousRelease, addr 0x59558f4, size 0x8, virtual false, abstract: false, final false
   inline void DangerousRelease();
 
-  /// @brief Method DangerousReleaseInternal, addr 0x3d14f58, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method DangerousReleaseInternal, addr 0x5955f54, size 0x154, virtual false, abstract: false, final false
   inline void DangerousReleaseInternal(bool dispose);
 
-  /// @brief Method Dispose, addr 0x3d14df4, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5955df4, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3d14e04, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x5955e04, size 0x1c, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Finalize, addr 0x3d14d28, size 0xa0, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5955d78, size 0x50, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method InternalDispose, addr 0x3d14e20, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method InternalDispose, addr 0x5955e20, size 0xa4, virtual false, abstract: false, final false
   inline void InternalDispose();
 
-  /// @brief Method InternalFinalize, addr 0x3d14ec0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method InternalFinalize, addr 0x5955ec4, size 0x14, virtual false, abstract: false, final false
   inline void InternalFinalize();
 
   static inline ::System::Runtime::InteropServices::SafeHandle* New_ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
@@ -78,10 +80,10 @@ public:
   /// @brief Method ReleaseHandle, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method SetHandle, addr 0x3d14dc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method SetHandle, addr 0x5955dc8, size 0x8, virtual false, abstract: false, final false
   inline void SetHandle(::System::IntPtr handle);
 
-  /// @brief Method SetHandleAsInvalid, addr 0x3d14ed4, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetHandleAsInvalid, addr 0x5955ed8, size 0x7c, virtual false, abstract: false, final false
   inline void SetHandleAsInvalid();
 
   constexpr bool const& __cordl_internal_get__fullyInitialized() const;
@@ -108,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_handle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3d14c90, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5955ce0, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr invalidHandleValue, bool ownsHandle);
 
-  /// @brief Method get_IsClosed, addr 0x3d14dd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_IsClosed, addr 0x5955dd8, size 0xc, virtual false, abstract: false, final false
   inline bool get_IsClosed();
 
   /// @brief Method get_IsInvalid, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -141,7 +143,7 @@ public:
   static constexpr int32_t RefCount_One{ static_cast<int32_t>(0x4) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3334 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3347 };
 
   /// @brief Field handle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___handle;

@@ -33,13 +33,13 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::Smime::SmimeEncryptionKeyPreferenceAttribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
-  /// @brief Method .ctor, addr 0x24f679c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3426304, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::IssuerAndSerialNumber* issAndSer);
 
-  /// @brief Method .ctor, addr 0x24f687c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34263d4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::RecipientKeyIdentifier* rKeyID);
 
-  /// @brief Method .ctor, addr 0x24f695c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34264a4, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1OctetString* sKeyID);
 
 protected:

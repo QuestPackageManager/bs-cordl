@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IEquatableByReference_1_def.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -11,6 +10,9 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StateBuffer_3)
+namespace GlobalNamespace {
+template <typename T> class IEquatableByReference_1;
+}
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class StateBuffer_3_InterpolationDelegate;
 }
@@ -53,7 +55,7 @@ MARK_GEN_REF_PTR_T(::GlobalNamespace::StateBuffer_3);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::StateBuffer_3_InterpolationDelegate);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::StateBuffer_3_SmoothingDelegate);
 MARK_GEN_VAL_T(::GlobalNamespace::StateBuffer_3_TimestampedStateTable);
-// Dependencies IEquatableByReference`1<T>, SyncStateId
+// Dependencies SyncStateId
 namespace GlobalNamespace {
 // cpp template
 template <typename TStateTable, typename TType, typename TState>
@@ -91,7 +93,7 @@ public:
   constexpr StateBuffer_3_TimestampedStateTable(bool isValid, ::GlobalNamespace::SyncStateId id, int64_t time, TStateTable state) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14993 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18247 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -150,7 +152,7 @@ public:
   StateBuffer_3_InterpolationDelegate(StateBuffer_3_InterpolationDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14994 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18248 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -194,7 +196,7 @@ public:
   StateBuffer_3_SmoothingDelegate(StateBuffer_3_SmoothingDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14995 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18249 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -298,7 +300,7 @@ public:
   StateBuffer_3(StateBuffer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18250 };
 
   /// @brief Field _currentIndex, offset: 0x10, size: 0x4, def value: None
   int32_t ____currentIndex;

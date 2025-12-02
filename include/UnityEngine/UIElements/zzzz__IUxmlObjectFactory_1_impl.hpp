@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/IUxmlObjectFactory_1.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlObjectFactory_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBaseUxmlFactory_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IBaseUxmlObjectFactory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IUxmlAttributes_def.hpp"
 template <typename T> inline T UnityEngine::UIElements::IUxmlObjectFactory_1<T>::CreateObject(::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

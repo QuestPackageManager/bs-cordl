@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__SyncBackgroundCommand_1_def.hpp"
 #include "GlobalNamespace/zzzz__SyncBackgroundCommand_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -26,6 +25,9 @@ class FileSystemFileStorage_SaveFileCommand;
 }
 namespace GlobalNamespace {
 class FileSystemFileStorage___c;
+}
+namespace GlobalNamespace {
+class IFileStorage;
 }
 namespace GlobalNamespace {
 struct StoragePreference;
@@ -81,7 +83,7 @@ public:
   /// @brief Field _value, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) ::StringW _value;
 
-  /// @brief Method ExecuteInternal, addr 0x22a5888, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method ExecuteInternal, addr 0x31ed4d0, size 0xe4, virtual true, abstract: false, final false
   inline void ExecuteInternal();
 
   static inline ::GlobalNamespace::FileSystemFileStorage_SaveFileCommand* New_ctor(::StringW filePath, ::StringW value);
@@ -98,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set__value(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a531c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ecf28, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::StringW filePath, ::StringW value);
 
 protected:
@@ -116,7 +118,7 @@ public:
   FileSystemFileStorage_SaveFileCommand(FileSystemFileStorage_SaveFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18905 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22864 };
 
   /// @brief Field _filePath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____filePath;
@@ -144,7 +146,7 @@ public:
   /// @brief Field _filePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath)) ::StringW _filePath;
 
-  /// @brief Method ExecuteInternal, addr 0x22a596c, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method ExecuteInternal, addr 0x31ed5b4, size 0xb4, virtual true, abstract: false, final false
   inline ::StringW ExecuteInternal();
 
   static inline ::GlobalNamespace::FileSystemFileStorage_LoadFileCommand* New_ctor(::StringW filePath);
@@ -155,7 +157,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a5508, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ed12c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW filePath);
 
 protected:
@@ -173,7 +175,7 @@ public:
   FileSystemFileStorage_LoadFileCommand(FileSystemFileStorage_LoadFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18906 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22865 };
 
   /// @brief Field _filePath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____filePath;
@@ -196,7 +198,7 @@ public:
   /// @brief Field _filePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath)) ::StringW _filePath;
 
-  /// @brief Method ExecuteInternal, addr 0x22a5a24, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ExecuteInternal, addr 0x31ed668, size 0x38, virtual true, abstract: false, final false
   inline void ExecuteInternal();
 
   static inline ::GlobalNamespace::FileSystemFileStorage_DeleteFileCommand* New_ctor(::StringW filePath);
@@ -207,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a560c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ed238, size 0x28, virtual false, abstract: false, final false
   inline void _ctor(::StringW filePath);
 
 protected:
@@ -225,7 +227,7 @@ public:
   FileSystemFileStorage_DeleteFileCommand(FileSystemFileStorage_DeleteFileCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18907 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22866 };
 
   /// @brief Field _filePath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____filePath;
@@ -248,7 +250,7 @@ public:
   /// @brief Field _filePath, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__filePath, put = __cordl_internal_set__filePath)) ::StringW _filePath;
 
-  /// @brief Method ExecuteInternal, addr 0x22a5a5c, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method ExecuteInternal, addr 0x31ed6a0, size 0x38, virtual true, abstract: false, final false
   inline bool ExecuteInternal();
 
   static inline ::GlobalNamespace::FileSystemFileStorage_FileExistsCommand* New_ctor(::StringW filePath);
@@ -259,7 +261,7 @@ public:
 
   constexpr void __cordl_internal_set__filePath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a56f0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ed324, size 0x60, virtual false, abstract: false, final false
   inline void _ctor(::StringW filePath);
 
 protected:
@@ -277,7 +279,7 @@ public:
   FileSystemFileStorage_FileExistsCommand(FileSystemFileStorage_FileExistsCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18908 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22867 };
 
   /// @brief Field _filePath, offset: 0x18, size: 0x8, def value: None
   ::StringW ____filePath;
@@ -305,10 +307,10 @@ public:
 
   static inline ::GlobalNamespace::FileSystemFileStorage___c* New_ctor();
 
-  /// @brief Method <GetCommandQueue>b__6_0, addr 0x22a5af8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <GetCommandQueue>b__6_0, addr 0x31ed730, size 0x58, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BackgroundCommandQueue* _GetCommandQueue_b__6_0(::StringW _);
 
-  /// @brief Method .ctor, addr 0x22a5af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ed72c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::FileSystemFileStorage___c* getStaticF___9();
@@ -334,7 +336,7 @@ public:
   FileSystemFileStorage___c(FileSystemFileStorage___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18909 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22868 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -342,7 +344,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FileSystemFileStorage___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IFileStorage, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: FileSystemFileStorage
@@ -369,30 +371,30 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IFileStorage"
   constexpr operator ::GlobalNamespace::IFileStorage*() noexcept;
 
-  /// @brief Method DeleteFileAsync, addr 0x22a5564, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method DeleteFileAsync, addr 0x31ed18c, size 0xac, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* DeleteFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method FileExistsAsync, addr 0x22a5634, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method FileExistsAsync, addr 0x31ed260, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* FileExistsAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method GetBackupFilePath, addr 0x22a574c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetBackupFilePath, addr 0x31ed384, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetBackupFilePath(::StringW filePath);
 
-  /// @brief Method GetCommandQueue, addr 0x22a5348, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method GetCommandQueue, addr 0x31ecf54, size 0x114, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BackgroundCommandQueue* GetCommandQueue(::StringW fileName);
 
-  /// @brief Method GetFilePath, addr 0x22a5204, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method GetFilePath, addr 0x31ece08, size 0x120, virtual false, abstract: false, final false
   inline ::StringW GetFilePath(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
-  /// @brief Method GetTempFilePath, addr 0x22a5798, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetTempFilePath, addr 0x31ed3d4, size 0x50, virtual false, abstract: false, final false
   static inline ::StringW GetTempFilePath(::StringW filePath);
 
-  /// @brief Method LoadFileAsync, addr 0x22a544c, size 0xbc, virtual true, abstract: false, final true
+  /// @brief Method LoadFileAsync, addr 0x31ed068, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::StringW>* LoadFileAsync(::StringW fileName, ::GlobalNamespace::StoragePreference storageLocation);
 
   static inline ::GlobalNamespace::FileSystemFileStorage* New_ctor();
 
-  /// @brief Method SaveFileAsync, addr 0x22a5150, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method SaveFileAsync, addr 0x31ecd50, size 0xb8, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* SaveFileAsync(::StringW fileName, ::StringW value, ::GlobalNamespace::StoragePreference storageLocation);
 
   constexpr ::System::Collections::Concurrent::ConcurrentDictionary_2<::StringW, ::GlobalNamespace::BackgroundCommandQueue*>* const& __cordl_internal_get__commandQueueMap() const;
@@ -407,7 +409,7 @@ public:
 
   constexpr void __cordl_internal_set__persistentDataPath(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22a57e4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ed424, size 0xac, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IFileStorage"
@@ -428,7 +430,7 @@ public:
   FileSystemFileStorage(FileSystemFileStorage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18910 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22869 };
 
   /// @brief Field _persistentDataPath, offset: 0x10, size: 0x8, def value: None
   ::StringW ____persistentDataPath;

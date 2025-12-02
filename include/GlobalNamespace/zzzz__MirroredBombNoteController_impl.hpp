@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBombNoteController_Pool::*)()>(
     &::GlobalNamespace::MirroredBombNoteController_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ae9fac;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56c5e58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredBombNoteController_Pool*>::get(),
@@ -33,8 +33,8 @@ constexpr ::GlobalNamespace::MirroredBombNoteController_Pool::MirroredBombNoteCo
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirroredBombNoteController::*)()>(&::GlobalNamespace::MirroredBombNoteController::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ae9f64;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x56c5e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirroredBombNoteController*>::get(), ".ctor",

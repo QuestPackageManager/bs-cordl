@@ -33,13 +33,13 @@ public:
   /// @brief Field m_Low, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Low, put = __cordl_internal_set_m_Low)) ::UnityEngine::UIElements::UIR::BestFitAllocator* m_Low;
 
-  /// @brief Method Allocate, addr 0x49b7bac, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method Allocate, addr 0x6ac7908, size 0x12c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIR::Alloc Allocate(uint32_t size, bool shortLived);
 
-  /// @brief Method Free, addr 0x49b7cd8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Free, addr 0x6ac7a6c, size 0x74, virtual false, abstract: false, final false
   inline void Free(::UnityEngine::UIElements::UIR::Alloc alloc);
 
-  /// @brief Method HighLowCollide, addr 0x49bbd3c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method HighLowCollide, addr 0x6ac7a34, size 0x38, virtual false, abstract: false, final false
   inline bool HighLowCollide();
 
   static inline ::UnityEngine::UIElements::UIR::GPUBufferAllocator* New_ctor(uint32_t maxSize);
@@ -56,10 +56,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Low(::UnityEngine::UIElements::UIR::BestFitAllocator* value);
 
-  /// @brief Method .ctor, addr 0x49bbcb4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac7888, size 0x80, virtual false, abstract: false, final false
   inline void _ctor(uint32_t maxSize);
 
-  /// @brief Method get_isEmpty, addr 0x49bbd74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_isEmpty, addr 0x6ac7ae0, size 0x3c, virtual false, abstract: false, final false
   inline bool get_isEmpty();
 
 protected:
@@ -77,7 +77,7 @@ public:
   GPUBufferAllocator(GPUBufferAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6428 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5379 };
 
   /// @brief Field m_Low, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::BestFitAllocator* ___m_Low;

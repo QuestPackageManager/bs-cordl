@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22e996c;
+  constexpr static std::size_t addrs = 0x321c170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,8 +37,8 @@ constexpr ::GlobalNamespace::SynchronizedActionQueue_SynchronizedAction::Synchro
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)()>(&::GlobalNamespace::SynchronizedActionQueue::Clear)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22e9844;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x321c030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SynchronizedActionQueue*>::get(), "Clear",
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)(float_t, ::System::Action*)>(
     &::GlobalNamespace::SynchronizedActionQueue::EnqueueAction)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x22e98b4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x321c0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)(float_t)>(&::GlobalNamespace::SynchronizedActionQueue::Update)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x22e9978;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x321c17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SynchronizedActionQueue::*)()>(&::GlobalNamespace::SynchronizedActionQueue::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22e9a8c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x321c284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SynchronizedActionQueue*>::get(), ".ctor",

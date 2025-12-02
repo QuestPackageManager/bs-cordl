@@ -35,38 +35,38 @@ public:
   /// @brief Field t_threadRandom, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_t_threadRandom, put = setStaticF_t_threadRandom)) ::System::Random* t_threadRandom;
 
-  /// @brief Method GenerateGlobalSeed, addr 0x3dfc1c4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GenerateGlobalSeed, addr 0x5a430d0, size 0x24, virtual false, abstract: false, final false
   static inline int32_t GenerateGlobalSeed();
 
-  /// @brief Method GenerateSeed, addr 0x3dfbda8, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x5a42c78, size 0x20c, virtual false, abstract: false, final false
   static inline int32_t GenerateSeed();
 
-  /// @brief Method GetSampleForLargeRange, addr 0x3dfc1ec, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method GetSampleForLargeRange, addr 0x5a430f8, size 0x4c, virtual false, abstract: false, final false
   inline double_t GetSampleForLargeRange();
 
-  /// @brief Method InternalSample, addr 0x3dfc138, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method InternalSample, addr 0x5a43040, size 0x90, virtual false, abstract: false, final false
   inline int32_t InternalSample();
 
   static inline ::System::Random* New_ctor();
 
   static inline ::System::Random* New_ctor(int32_t Seed);
 
-  /// @brief Method Next, addr 0x3dfc1e8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x5a430f4, size 0x4, virtual true, abstract: false, final false
   inline int32_t Next();
 
-  /// @brief Method Next, addr 0x3dfc350, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x5a4325c, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Next(int32_t maxValue);
 
-  /// @brief Method Next, addr 0x3dfc238, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Next, addr 0x5a43144, size 0x118, virtual true, abstract: false, final false
   inline int32_t Next(int32_t minValue, int32_t maxValue);
 
-  /// @brief Method NextBytes, addr 0x3dfc420, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x5a4332c, size 0xac, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer);
 
-  /// @brief Method NextDouble, addr 0x3dfc414, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method NextDouble, addr 0x5a43320, size 0xc, virtual true, abstract: false, final false
   inline double_t NextDouble();
 
-  /// @brief Method Sample, addr 0x3dfc118, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Sample, addr 0x5a43020, size 0x20, virtual true, abstract: false, final false
   inline double_t Sample();
 
   constexpr int32_t const& __cordl_internal_get__inext() const;
@@ -87,10 +87,10 @@ public:
 
   constexpr void __cordl_internal_set__seedArray(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  /// @brief Method .ctor, addr 0x3dfbd4c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a42c18, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dfbf68, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a42e84, size 0x19c, virtual false, abstract: false, final false
   inline void _ctor(int32_t Seed);
 
   static inline ::System::Random* getStaticF_s_globalRandom();
@@ -115,17 +115,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Random(Random const&) = delete;
 
-  /// @brief Field MBIG offset 0xffffffff size 0x4
-  static constexpr int32_t MBIG{ static_cast<int32_t>(0x7fffffff) };
-
-  /// @brief Field MSEED offset 0xffffffff size 0x4
-  static constexpr int32_t MSEED{ static_cast<int32_t>(0x9a4ec86) };
-
-  /// @brief Field MZ offset 0xffffffff size 0x4
-  static constexpr int32_t MZ{ static_cast<int32_t>(0x0) };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2465 };
 
   /// @brief Field _inext, offset: 0x10, size: 0x4, def value: None
   int32_t ____inext;

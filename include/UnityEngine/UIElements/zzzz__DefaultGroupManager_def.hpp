@@ -4,7 +4,6 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IGroupManager_def.hpp"
 CORDL_MODULE_EXPORT(DefaultGroupManager)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -15,13 +14,16 @@ class IGroupBoxOption;
 namespace UnityEngine::UIElements {
 class IGroupBox;
 }
+namespace UnityEngine::UIElements {
+class IGroupManager;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class DefaultGroupManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::DefaultGroupManager);
-// Dependencies System.Object, UnityEngine.UIElements.IGroupManager
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.DefaultGroupManager
@@ -41,18 +43,18 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IGroupManager"
   constexpr operator ::UnityEngine::UIElements::IGroupManager*() noexcept;
 
-  /// @brief Method Init, addr 0x4a3d2c8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Init, addr 0x6b7d0b8, size 0x8, virtual true, abstract: false, final true
   inline void Init(::UnityEngine::UIElements::IGroupBox* groupBox);
 
   static inline ::UnityEngine::UIElements::DefaultGroupManager* New_ctor();
 
-  /// @brief Method OnOptionSelectionChanged, addr 0x4a3d2d0, size 0x1d0, virtual true, abstract: false, final true
+  /// @brief Method OnOptionSelectionChanged, addr 0x6b7d0c0, size 0x198, virtual true, abstract: false, final true
   inline void OnOptionSelectionChanged(::UnityEngine::UIElements::IGroupBoxOption* selectedOption);
 
-  /// @brief Method RegisterOption, addr 0x4a3d4a0, size 0x14c, virtual true, abstract: false, final true
+  /// @brief Method RegisterOption, addr 0x6b7d258, size 0x164, virtual true, abstract: false, final true
   inline void RegisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
-  /// @brief Method UnregisterOption, addr 0x4a3d5ec, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method UnregisterOption, addr 0x6b7d3bc, size 0xe4, virtual true, abstract: false, final true
   inline void UnregisterOption(::UnityEngine::UIElements::IGroupBoxOption* option);
 
   constexpr ::UnityEngine::UIElements::IGroupBox* const& __cordl_internal_get_m_GroupBox() const;
@@ -73,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedOption(::UnityEngine::UIElements::IGroupBoxOption* value);
 
-  /// @brief Method .ctor, addr 0x4a3cb34, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b7c8e8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::UnityEngine::UIElements::IGroupManager"
@@ -94,7 +96,7 @@ public:
   DefaultGroupManager(DefaultGroupManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5976 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4606 };
 
   /// @brief Field m_GroupOptions, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::UIElements::IGroupBoxOption*>* ___m_GroupOptions;

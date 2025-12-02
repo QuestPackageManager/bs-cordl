@@ -49,10 +49,10 @@ public:
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* New_ctor();
 
-  /// @brief Method <Start>b__3_0, addr 0x3b8f170, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__3_0, addr 0x577d630, size 0x14, virtual false, abstract: false, final false
   inline bool _Start_b__3_0(::GlobalNamespace::FloatFxGroup* group);
 
-  /// @brief Method .ctor, addr 0x3b8f168, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577d62c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager___c* getStaticF___9();
@@ -78,7 +78,7 @@ public:
   TriggerFloatFxGroupEffectManager___c(TriggerFloatFxGroupEffectManager___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5861 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -109,10 +109,10 @@ public:
 
   static inline ::GlobalNamespace::TriggerFloatFxGroupEffectManager* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b8ef1c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x577d430, size 0x114, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b8ea30, size 0x4ec, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x577cf48, size 0x4e8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::Zenject::DiContainer* const& __cordl_internal_get__container() const;
@@ -133,7 +133,7 @@ public:
 
   constexpr void __cordl_internal_set__floatFxGroups(::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> value);
 
-  /// @brief Method .ctor, addr 0x3b8f090, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x577d560, size 0x78, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -151,7 +151,7 @@ public:
   TriggerFloatFxGroupEffectManager(TriggerFloatFxGroupEffectManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4281 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5862 };
 
   /// @brief Field _floatFxGroups, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::GlobalNamespace::FloatFxGroup>, ::Array<::UnityW<::GlobalNamespace::FloatFxGroup>>*> ____floatFxGroups;

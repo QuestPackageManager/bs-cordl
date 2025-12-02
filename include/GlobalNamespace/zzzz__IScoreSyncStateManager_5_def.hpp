@@ -55,7 +55,7 @@ public:
   IScoreSyncStateManager_5(IScoreSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17355 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21220 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

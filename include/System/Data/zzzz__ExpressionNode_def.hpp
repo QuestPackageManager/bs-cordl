@@ -55,10 +55,10 @@ public:
   /// @brief Method Bind, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method BindTable, addr 0x417a0f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method BindTable, addr 0x5e2493c, size 0x8, virtual false, abstract: false, final false
   inline void BindTable(::System::Data::DataTable* table);
 
-  /// @brief Method DependsOn, addr 0x417a0f8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x5e24944, size 0x8, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
   /// @brief Method Eval, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -79,37 +79,37 @@ public:
   /// @brief Method IsConstant, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsFloat, addr 0x417a100, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsFloat, addr 0x5e2494c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsFloat(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsFloatSql, addr 0x417a110, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsFloatSql, addr 0x5e2495c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsFloatSql(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsInteger, addr 0x41775b0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method IsInteger, addr 0x5e2204c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsInteger(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsIntegerSql, addr 0x4177228, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsIntegerSql, addr 0x5e21d18, size 0x20, virtual false, abstract: false, final false
   static inline bool IsIntegerSql(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsNumeric, addr 0x4177590, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsNumeric, addr 0x5e2203c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsNumeric(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsNumericSql, addr 0x41776c4, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsNumericSql, addr 0x5e22164, size 0x20, virtual false, abstract: false, final false
   static inline bool IsNumericSql(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsSigned, addr 0x4177460, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method IsSigned, addr 0x5e21f3c, size 0x30, virtual false, abstract: false, final false
   static inline bool IsSigned(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsSignedSql, addr 0x417753c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method IsSignedSql, addr 0x5e22000, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsSignedSql(::System::Data::Common::StorageType type);
 
   /// @brief Method IsTableConstant, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
-  /// @brief Method IsUnsigned, addr 0x4177490, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method IsUnsigned, addr 0x5e21f6c, size 0x10, virtual false, abstract: false, final false
   static inline bool IsUnsigned(::System::Data::Common::StorageType type);
 
-  /// @brief Method IsUnsignedSql, addr 0x4177568, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method IsUnsignedSql, addr 0x5e2201c, size 0x20, virtual false, abstract: false, final false
   static inline bool IsUnsignedSql(::System::Data::Common::StorageType type);
 
   static inline ::System::Data::ExpressionNode* New_ctor(::System::Data::DataTable* table);
@@ -123,16 +123,16 @@ public:
 
   constexpr void __cordl_internal_set__table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x416ecc8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e199e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table);
 
-  /// @brief Method get_FormatProvider, addr 0x4176758, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_FormatProvider, addr 0x5e21358, size 0x70, virtual false, abstract: false, final false
   inline ::System::IFormatProvider* get_FormatProvider();
 
-  /// @brief Method get_IsSqlColumn, addr 0x417a0e0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsSqlColumn, addr 0x5e2492c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsSqlColumn();
 
-  /// @brief Method get_table, addr 0x417a0e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_table, addr 0x5e24934, size 0x8, virtual false, abstract: false, final false
   inline ::System::Data::DataTable* get_table();
 
 protected:
@@ -150,7 +150,7 @@ public:
   ExpressionNode(ExpressionNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11425 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13783 };
 
   /// @brief Field _table, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ____table;

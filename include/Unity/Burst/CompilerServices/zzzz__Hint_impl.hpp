@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::Unity::Burst::CompilerServices::Hint::Likely)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453b608;
+  constexpr static std::size_t addrs = 0x6289408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(bool)>(&::Unity::Burst::CompilerServices::Hint::Unlikely)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x453b610;
+  constexpr static std::size_t addrs = 0x6289410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool)>(&::Unity::Burst::CompilerServices::Hint::Assume)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x453b618;
+  constexpr static std::size_t addrs = 0x6289418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

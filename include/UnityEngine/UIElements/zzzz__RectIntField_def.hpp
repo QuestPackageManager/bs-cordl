@@ -74,7 +74,7 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::RectIntField_UxmlFactory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x498f1e8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b06204, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -92,7 +92,7 @@ public:
   RectIntField_UxmlFactory(RectIntField_UxmlFactory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5541 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4153 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -107,19 +107,19 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE RectIntField_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<::UnityEngine::RectInt> {
 public:
   // Declarations
-  /// @brief Field m_HValue, offset 0x98, size 0x8
+  /// @brief Field m_HValue, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HValue, put = __cordl_internal_set_m_HValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_HValue;
 
-  /// @brief Field m_WValue, offset 0x90, size 0x8
+  /// @brief Field m_WValue, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WValue, put = __cordl_internal_set_m_WValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_WValue;
 
-  /// @brief Field m_XValue, offset 0x80, size 0x8
+  /// @brief Field m_XValue, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get_m_XValue, put = __cordl_internal_set_m_XValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_XValue;
 
-  /// @brief Field m_YValue, offset 0x88, size 0x8
+  /// @brief Field m_YValue, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_YValue, put = __cordl_internal_set_m_YValue)) ::UnityEngine::UIElements::UxmlIntAttributeDescription* m_YValue;
 
-  /// @brief Method Init, addr 0x498f230, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b0626c, size 0x20c, virtual true, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
 
   static inline ::UnityEngine::UIElements::RectIntField_UxmlTraits* New_ctor();
@@ -148,7 +148,7 @@ public:
 
   constexpr void __cordl_internal_set_m_YValue(::UnityEngine::UIElements::UxmlIntAttributeDescription* value);
 
-  /// @brief Method .ctor, addr 0x498f404, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b06478, size 0x158, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -166,32 +166,32 @@ public:
   RectIntField_UxmlTraits(RectIntField_UxmlTraits const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5542 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4154 };
 
-  /// @brief Field m_XValue, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field m_XValue, offset: 0x98, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_XValue;
 
-  /// @brief Field m_YValue, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_YValue, offset: 0xa0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_YValue;
 
-  /// @brief Field m_WValue, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field m_WValue, offset: 0xa8, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_WValue;
 
-  /// @brief Field m_HValue, offset: 0x98, size: 0x8, def value: None
+  /// @brief Field m_HValue, offset: 0xb0, size: 0x8, def value: None
   ::UnityEngine::UIElements::UxmlIntAttributeDescription* ___m_HValue;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_XValue) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_XValue) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_YValue) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_YValue) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_WValue) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_WValue) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_HValue) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::RectIntField_UxmlTraits, ___m_HValue) == 0xb0, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RectIntField_UxmlTraits, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RectIntField_UxmlTraits, 0xb8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 // Dependencies System.Object
@@ -238,31 +238,31 @@ public:
 
   static inline ::UnityEngine::UIElements::RectIntField___c* New_ctor();
 
-  /// @brief Method <DescribeFields>b__0_0, addr 0x498f5a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_0, addr 0x6b06628, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_0(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_1, addr 0x498f5b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_1, addr 0x6b06630, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_1(::ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_2, addr 0x498f5b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_2, addr 0x6b06638, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_2(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_3, addr 0x498f5c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_3, addr 0x6b06640, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_3(::ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_4, addr 0x498f5c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_4, addr 0x6b06648, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_4(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_5, addr 0x498f5d0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_5, addr 0x6b06650, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_5(::ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method <DescribeFields>b__0_6, addr 0x498f5d8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_6, addr 0x6b06658, size 0x8, virtual false, abstract: false, final false
   inline int32_t _DescribeFields_b__0_6(::UnityEngine::RectInt r);
 
-  /// @brief Method <DescribeFields>b__0_7, addr 0x498f5e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <DescribeFields>b__0_7, addr 0x6b06660, size 0x8, virtual false, abstract: false, final false
   inline void _DescribeFields_b__0_7(::ByRef<::UnityEngine::RectInt> r, int32_t v);
 
-  /// @brief Method .ctor, addr 0x498f5a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b06624, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::RectIntField___c* getStaticF___9();
@@ -320,7 +320,7 @@ public:
   RectIntField___c(RectIntField___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5543 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4155 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -350,7 +350,7 @@ public:
   /// @brief Field ussClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName)) ::StringW ussClassName;
 
-  /// @brief Method DescribeFields, addr 0x498e980, size 0x658, virtual true, abstract: false, final false
+  /// @brief Method DescribeFields, addr 0x6b05a0c, size 0x5d0, virtual true, abstract: false, final false
   inline ::ArrayW<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::RectInt, ::UnityEngine::UIElements::IntegerField*, int32_t>,
                   ::Array<::UnityEngine::UIElements::BaseCompositeField_3_FieldDescription<::UnityEngine::RectInt, ::UnityEngine::UIElements::IntegerField*, int32_t>>*>
   DescribeFields();
@@ -359,10 +359,10 @@ public:
 
   static inline ::UnityEngine::UIElements::RectIntField* New_ctor(::StringW label);
 
-  /// @brief Method .ctor, addr 0x498efd8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b05fdc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x498efe0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b05fe4, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::StringW label);
 
   static inline ::StringW getStaticF_inputUssClassName();
@@ -392,12 +392,12 @@ public:
   RectIntField(RectIntField const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5544 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4156 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RectIntField, 0x458>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::RectIntField, 0x540>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::RectIntField);

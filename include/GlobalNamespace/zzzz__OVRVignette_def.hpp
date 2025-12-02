@@ -108,7 +108,7 @@ public:
   static ::GlobalNamespace::OVRVignette_MeshComplexityLevel const VerySimple;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7977 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -163,7 +163,7 @@ public:
   static ::GlobalNamespace::OVRVignette_FalloffType const Quadratic;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8502 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -196,8 +196,14 @@ public:
   /// @brief Field MeshComplexity, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get_MeshComplexity, put = __cordl_internal_set_MeshComplexity)) ::GlobalNamespace::OVRVignette_MeshComplexityLevel MeshComplexity;
 
+  /// @brief Field OpaqueStencilValue, offset 0x50, size 0x4
+  __declspec(property(get = __cordl_internal_get_OpaqueStencilValue, put = __cordl_internal_set_OpaqueStencilValue)) int32_t OpaqueStencilValue;
+
   /// @brief Field QUADRATIC_FALLOFF, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_QUADRATIC_FALLOFF, put = setStaticF_QUADRATIC_FALLOFF)) ::StringW QUADRATIC_FALLOFF;
+
+  /// @brief Field TransparentStencilValue, offset 0x54, size 0x4
+  __declspec(property(get = __cordl_internal_get_TransparentStencilValue, put = __cordl_internal_set_TransparentStencilValue)) int32_t TransparentStencilValue;
 
   /// @brief Field VignetteAspectRatio, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_VignetteAspectRatio, put = __cordl_internal_set_VignetteAspectRatio)) float_t VignetteAspectRatio;
@@ -214,108 +220,126 @@ public:
   /// @brief Field VignetteShader, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_VignetteShader, put = __cordl_internal_set_VignetteShader)) ::UnityW<::UnityEngine::Shader> VignetteShader;
 
-  /// @brief Field _Camera, offset 0x50, size 0x8
+  /// @brief Field WriteColor, offset 0x58, size 0x1
+  __declspec(property(get = __cordl_internal_get_WriteColor, put = __cordl_internal_set_WriteColor)) bool WriteColor;
+
+  /// @brief Field WriteStencil, offset 0x4c, size 0x1
+  __declspec(property(get = __cordl_internal_get_WriteStencil, put = __cordl_internal_set_WriteStencil)) bool WriteStencil;
+
+  /// @brief Field _Camera, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get__Camera, put = __cordl_internal_set__Camera)) ::UnityW<::UnityEngine::Camera> _Camera;
 
-  /// @brief Field _OpaqueMaterial, offset 0x88, size 0x8
+  /// @brief Field _OpaqueMaterial, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__OpaqueMaterial, put = __cordl_internal_set__OpaqueMaterial)) ::UnityW<::UnityEngine::Material> _OpaqueMaterial;
 
-  /// @brief Field _OpaqueMesh, offset 0x78, size 0x8
+  /// @brief Field _OpaqueMesh, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__OpaqueMesh, put = __cordl_internal_set__OpaqueMesh)) ::UnityW<::UnityEngine::Mesh> _OpaqueMesh;
 
-  /// @brief Field _OpaqueMeshFilter, offset 0x58, size 0x8
+  /// @brief Field _OpaqueMeshFilter, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__OpaqueMeshFilter, put = __cordl_internal_set__OpaqueMeshFilter)) ::UnityW<::UnityEngine::MeshFilter> _OpaqueMeshFilter;
 
-  /// @brief Field _OpaqueMeshRenderer, offset 0x68, size 0x8
+  /// @brief Field _OpaqueMeshRenderer, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get__OpaqueMeshRenderer, put = __cordl_internal_set__OpaqueMeshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _OpaqueMeshRenderer;
 
-  /// @brief Field _OpaqueScaleAndOffset0, offset 0xb0, size 0x8
+  /// @brief Field _OpaqueScaleAndOffset0, offset 0xd0, size 0x8
   __declspec(property(get = __cordl_internal_get__OpaqueScaleAndOffset0, put = __cordl_internal_set__OpaqueScaleAndOffset0)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
       _OpaqueScaleAndOffset0;
 
-  /// @brief Field _OpaqueScaleAndOffset1, offset 0xb8, size 0x8
+  /// @brief Field _OpaqueScaleAndOffset1, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get__OpaqueScaleAndOffset1, put = __cordl_internal_set__OpaqueScaleAndOffset1)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
       _OpaqueScaleAndOffset1;
 
-  /// @brief Field _OpaqueVignetteVisible, offset 0xc0, size 0x1
+  /// @brief Field _OpaqueVignetteVisible, offset 0xe0, size 0x1
   __declspec(property(get = __cordl_internal_get__OpaqueVignetteVisible, put = __cordl_internal_set__OpaqueVignetteVisible)) bool _OpaqueVignetteVisible;
 
-  /// @brief Field _ShaderScaleAndOffset0Property, offset 0x98, size 0x4
+  /// @brief Field _ShaderColorMaskProperty, offset 0xb8, size 0x4
+  __declspec(property(get = __cordl_internal_get__ShaderColorMaskProperty, put = __cordl_internal_set__ShaderColorMaskProperty)) int32_t _ShaderColorMaskProperty;
+
+  /// @brief Field _ShaderScaleAndOffset0Property, offset 0xa8, size 0x4
   __declspec(property(get = __cordl_internal_get__ShaderScaleAndOffset0Property, put = __cordl_internal_set__ShaderScaleAndOffset0Property)) int32_t _ShaderScaleAndOffset0Property;
 
-  /// @brief Field _ShaderScaleAndOffset1Property, offset 0x9c, size 0x4
+  /// @brief Field _ShaderScaleAndOffset1Property, offset 0xac, size 0x4
   __declspec(property(get = __cordl_internal_get__ShaderScaleAndOffset1Property, put = __cordl_internal_set__ShaderScaleAndOffset1Property)) int32_t _ShaderScaleAndOffset1Property;
 
-  /// @brief Field _TransparentMaterial, offset 0x90, size 0x8
+  /// @brief Field _ShaderStencilOpProperty, offset 0xb4, size 0x4
+  __declspec(property(get = __cordl_internal_get__ShaderStencilOpProperty, put = __cordl_internal_set__ShaderStencilOpProperty)) int32_t _ShaderStencilOpProperty;
+
+  /// @brief Field _ShaderStencilRefProperty, offset 0xb0, size 0x4
+  __declspec(property(get = __cordl_internal_get__ShaderStencilRefProperty, put = __cordl_internal_set__ShaderStencilRefProperty)) int32_t _ShaderStencilRefProperty;
+
+  /// @brief Field _TransparentMaterial, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__TransparentMaterial, put = __cordl_internal_set__TransparentMaterial)) ::UnityW<::UnityEngine::Material> _TransparentMaterial;
 
-  /// @brief Field _TransparentMesh, offset 0x80, size 0x8
+  /// @brief Field _TransparentMesh, offset 0x90, size 0x8
   __declspec(property(get = __cordl_internal_get__TransparentMesh, put = __cordl_internal_set__TransparentMesh)) ::UnityW<::UnityEngine::Mesh> _TransparentMesh;
 
-  /// @brief Field _TransparentMeshFilter, offset 0x60, size 0x8
+  /// @brief Field _TransparentMeshFilter, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__TransparentMeshFilter, put = __cordl_internal_set__TransparentMeshFilter)) ::UnityW<::UnityEngine::MeshFilter> _TransparentMeshFilter;
 
-  /// @brief Field _TransparentMeshRenderer, offset 0x70, size 0x8
+  /// @brief Field _TransparentMeshRenderer, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__TransparentMeshRenderer, put = __cordl_internal_set__TransparentMeshRenderer)) ::UnityW<::UnityEngine::MeshRenderer> _TransparentMeshRenderer;
 
-  /// @brief Field _TransparentScaleAndOffset0, offset 0xa0, size 0x8
+  /// @brief Field _TransparentScaleAndOffset0, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__TransparentScaleAndOffset0,
                       put = __cordl_internal_set__TransparentScaleAndOffset0)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
       _TransparentScaleAndOffset0;
 
-  /// @brief Field _TransparentScaleAndOffset1, offset 0xa8, size 0x8
+  /// @brief Field _TransparentScaleAndOffset1, offset 0xc8, size 0x8
   __declspec(property(get = __cordl_internal_get__TransparentScaleAndOffset1,
                       put = __cordl_internal_set__TransparentScaleAndOffset1)) ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*>
       _TransparentScaleAndOffset1;
 
-  /// @brief Field _TransparentVignetteVisible, offset 0xc1, size 0x1
+  /// @brief Field _TransparentVignetteVisible, offset 0xe1, size 0x1
   __declspec(property(get = __cordl_internal_get__TransparentVignetteVisible, put = __cordl_internal_set__TransparentVignetteVisible)) bool _TransparentVignetteVisible;
 
-  /// @brief Method Awake, addr 0x404aaf8, size 0x314, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5d022c0, size 0x4, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method BuildMaterials, addr 0x404a5c0, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method BuildMaterials, addr 0x5d01ca0, size 0x400, virtual false, abstract: false, final false
   inline void BuildMaterials();
 
-  /// @brief Method BuildMeshes, addr 0x4049f48, size 0x678, virtual false, abstract: false, final false
+  /// @brief Method BuildMeshes, addr 0x5d01598, size 0x708, virtual false, abstract: false, final false
   inline void BuildMeshes();
 
-  /// @brief Method DisableRenderers, addr 0x404aac0, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method DisableRenderers, addr 0x5d021f8, size 0xc8, virtual false, abstract: false, final false
   inline void DisableRenderers();
 
-  /// @brief Method EnableRenderers, addr 0x404b3f8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method EnableRenderers, addr 0x5d02dd0, size 0x3c, virtual false, abstract: false, final false
   inline void EnableRenderers();
 
-  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x404afd4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForMonoEye, addr 0x5d02894, size 0x8c, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForMonoEye(::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX, ::ByRef<float_t> offsetY);
 
-  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x404ae0c, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method GetTanFovAndOffsetForStereoEye, addr 0x5d02704, size 0x190, virtual false, abstract: false, final false
   inline void GetTanFovAndOffsetForStereoEye(::UnityEngine::Camera_StereoscopicEye eye, ::ByRef<float_t> tanFovX, ::ByRef<float_t> tanFovY, ::ByRef<float_t> offsetX, ::ByRef<float_t> offsetY);
 
-  /// @brief Method GetTriangleCount, addr 0x4049f24, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method GetTriangleCount, addr 0x5d01574, size 0x24, virtual false, abstract: false, final false
   inline int32_t GetTriangleCount();
+
+  /// @brief Method Initialize, addr 0x5d022c4, size 0x440, virtual false, abstract: false, final false
+  inline void Initialize();
 
   static inline ::GlobalNamespace::OVRVignette* New_ctor();
 
-  /// @brief Method OnBeginCameraRendering, addr 0x404b438, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnBeginCameraRendering, addr 0x5d02e14, size 0x90, virtual false, abstract: false, final false
   inline void OnBeginCameraRendering(::UnityEngine::Rendering::ScriptableRenderContext context, ::UnityEngine::Camera* camera);
 
-  /// @brief Method OnDisable, addr 0x404aa14, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5d02148, size 0xb0, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x404a970, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5d020a0, size 0xa8, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method OnPostRender, addr 0x404b434, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPostRender, addr 0x5d02e10, size 0x4, virtual false, abstract: false, final false
   inline void OnPostRender();
 
-  /// @brief Method OnPreCull, addr 0x404b430, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnPreCull, addr 0x5d02e0c, size 0x4, virtual false, abstract: false, final false
   inline void OnPreCull();
 
-  /// @brief Method Update, addr 0x404b094, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5d02954, size 0x47c, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method VisibilityTest, addr 0x404b060, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method VisibilityTest, addr 0x5d02920, size 0x34, virtual false, abstract: false, final false
   inline bool VisibilityTest(float_t scaleX, float_t scaleY, float_t offsetX, float_t offsetY);
 
   constexpr ::GlobalNamespace::OVRVignette_FalloffType const& __cordl_internal_get_Falloff() const;
@@ -325,6 +349,14 @@ public:
   constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel const& __cordl_internal_get_MeshComplexity() const;
 
   constexpr ::GlobalNamespace::OVRVignette_MeshComplexityLevel& __cordl_internal_get_MeshComplexity();
+
+  constexpr int32_t const& __cordl_internal_get_OpaqueStencilValue() const;
+
+  constexpr int32_t& __cordl_internal_get_OpaqueStencilValue();
+
+  constexpr int32_t const& __cordl_internal_get_TransparentStencilValue() const;
+
+  constexpr int32_t& __cordl_internal_get_TransparentStencilValue();
 
   constexpr float_t const& __cordl_internal_get_VignetteAspectRatio() const;
 
@@ -345,6 +377,14 @@ public:
   constexpr ::UnityW<::UnityEngine::Shader> const& __cordl_internal_get_VignetteShader() const;
 
   constexpr ::UnityW<::UnityEngine::Shader>& __cordl_internal_get_VignetteShader();
+
+  constexpr bool const& __cordl_internal_get_WriteColor() const;
+
+  constexpr bool& __cordl_internal_get_WriteColor();
+
+  constexpr bool const& __cordl_internal_get_WriteStencil() const;
+
+  constexpr bool& __cordl_internal_get_WriteStencil();
 
   constexpr ::UnityW<::UnityEngine::Camera> const& __cordl_internal_get__Camera() const;
 
@@ -378,6 +418,10 @@ public:
 
   constexpr bool& __cordl_internal_get__OpaqueVignetteVisible();
 
+  constexpr int32_t const& __cordl_internal_get__ShaderColorMaskProperty() const;
+
+  constexpr int32_t& __cordl_internal_get__ShaderColorMaskProperty();
+
   constexpr int32_t const& __cordl_internal_get__ShaderScaleAndOffset0Property() const;
 
   constexpr int32_t& __cordl_internal_get__ShaderScaleAndOffset0Property();
@@ -385,6 +429,14 @@ public:
   constexpr int32_t const& __cordl_internal_get__ShaderScaleAndOffset1Property() const;
 
   constexpr int32_t& __cordl_internal_get__ShaderScaleAndOffset1Property();
+
+  constexpr int32_t const& __cordl_internal_get__ShaderStencilOpProperty() const;
+
+  constexpr int32_t& __cordl_internal_get__ShaderStencilOpProperty();
+
+  constexpr int32_t const& __cordl_internal_get__ShaderStencilRefProperty() const;
+
+  constexpr int32_t& __cordl_internal_get__ShaderStencilRefProperty();
 
   constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get__TransparentMaterial() const;
 
@@ -418,6 +470,10 @@ public:
 
   constexpr void __cordl_internal_set_MeshComplexity(::GlobalNamespace::OVRVignette_MeshComplexityLevel value);
 
+  constexpr void __cordl_internal_set_OpaqueStencilValue(int32_t value);
+
+  constexpr void __cordl_internal_set_TransparentStencilValue(int32_t value);
+
   constexpr void __cordl_internal_set_VignetteAspectRatio(float_t value);
 
   constexpr void __cordl_internal_set_VignetteColor(::UnityEngine::Color value);
@@ -427,6 +483,10 @@ public:
   constexpr void __cordl_internal_set_VignetteFieldOfView(float_t value);
 
   constexpr void __cordl_internal_set_VignetteShader(::UnityW<::UnityEngine::Shader> value);
+
+  constexpr void __cordl_internal_set_WriteColor(bool value);
+
+  constexpr void __cordl_internal_set_WriteStencil(bool value);
 
   constexpr void __cordl_internal_set__Camera(::UnityW<::UnityEngine::Camera> value);
 
@@ -444,9 +504,15 @@ public:
 
   constexpr void __cordl_internal_set__OpaqueVignetteVisible(bool value);
 
+  constexpr void __cordl_internal_set__ShaderColorMaskProperty(int32_t value);
+
   constexpr void __cordl_internal_set__ShaderScaleAndOffset0Property(int32_t value);
 
   constexpr void __cordl_internal_set__ShaderScaleAndOffset1Property(int32_t value);
+
+  constexpr void __cordl_internal_set__ShaderStencilOpProperty(int32_t value);
+
+  constexpr void __cordl_internal_set__ShaderStencilRefProperty(int32_t value);
 
   constexpr void __cordl_internal_set__TransparentMaterial(::UnityW<::UnityEngine::Material> value);
 
@@ -462,7 +528,7 @@ public:
 
   constexpr void __cordl_internal_set__TransparentVignetteVisible(bool value);
 
-  /// @brief Method .ctor, addr 0x404b4c4, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d02ea4, size 0xbc, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_QUADRATIC_FALLOFF();
@@ -484,7 +550,7 @@ public:
   OVRVignette(OVRVignette const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7979 };
 
   /// @brief Field VignetteShader, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Shader> ___VignetteShader;
@@ -507,55 +573,76 @@ public:
   /// @brief Field VignetteColor, offset: 0x3c, size: 0x10, def value: None
   ::UnityEngine::Color ___VignetteColor;
 
-  /// @brief Field _Camera, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field WriteStencil, offset: 0x4c, size: 0x1, def value: None
+  bool ___WriteStencil;
+
+  /// @brief Field OpaqueStencilValue, offset: 0x50, size: 0x4, def value: None
+  int32_t ___OpaqueStencilValue;
+
+  /// @brief Field TransparentStencilValue, offset: 0x54, size: 0x4, def value: None
+  int32_t ___TransparentStencilValue;
+
+  /// @brief Field WriteColor, offset: 0x58, size: 0x1, def value: None
+  bool ___WriteColor;
+
+  /// @brief Field _Camera, offset: 0x60, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Camera> ____Camera;
 
-  /// @brief Field _OpaqueMeshFilter, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field _OpaqueMeshFilter, offset: 0x68, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____OpaqueMeshFilter;
 
-  /// @brief Field _TransparentMeshFilter, offset: 0x60, size: 0x8, def value: None
+  /// @brief Field _TransparentMeshFilter, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____TransparentMeshFilter;
 
-  /// @brief Field _OpaqueMeshRenderer, offset: 0x68, size: 0x8, def value: None
+  /// @brief Field _OpaqueMeshRenderer, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____OpaqueMeshRenderer;
 
-  /// @brief Field _TransparentMeshRenderer, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _TransparentMeshRenderer, offset: 0x80, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshRenderer> ____TransparentMeshRenderer;
 
-  /// @brief Field _OpaqueMesh, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _OpaqueMesh, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____OpaqueMesh;
 
-  /// @brief Field _TransparentMesh, offset: 0x80, size: 0x8, def value: None
+  /// @brief Field _TransparentMesh, offset: 0x90, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Mesh> ____TransparentMesh;
 
-  /// @brief Field _OpaqueMaterial, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _OpaqueMaterial, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____OpaqueMaterial;
 
-  /// @brief Field _TransparentMaterial, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field _TransparentMaterial, offset: 0xa0, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Material> ____TransparentMaterial;
 
-  /// @brief Field _ShaderScaleAndOffset0Property, offset: 0x98, size: 0x4, def value: None
+  /// @brief Field _ShaderScaleAndOffset0Property, offset: 0xa8, size: 0x4, def value: None
   int32_t ____ShaderScaleAndOffset0Property;
 
-  /// @brief Field _ShaderScaleAndOffset1Property, offset: 0x9c, size: 0x4, def value: None
+  /// @brief Field _ShaderScaleAndOffset1Property, offset: 0xac, size: 0x4, def value: None
   int32_t ____ShaderScaleAndOffset1Property;
 
-  /// @brief Field _TransparentScaleAndOffset0, offset: 0xa0, size: 0x8, def value: None
+  /// @brief Field _ShaderStencilRefProperty, offset: 0xb0, size: 0x4, def value: None
+  int32_t ____ShaderStencilRefProperty;
+
+  /// @brief Field _ShaderStencilOpProperty, offset: 0xb4, size: 0x4, def value: None
+  int32_t ____ShaderStencilOpProperty;
+
+  /// @brief Field _ShaderColorMaskProperty, offset: 0xb8, size: 0x4, def value: None
+  int32_t ____ShaderColorMaskProperty;
+
+  /// @brief Field _TransparentScaleAndOffset0, offset: 0xc0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____TransparentScaleAndOffset0;
 
-  /// @brief Field _TransparentScaleAndOffset1, offset: 0xa8, size: 0x8, def value: None
+  /// @brief Field _TransparentScaleAndOffset1, offset: 0xc8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____TransparentScaleAndOffset1;
 
-  /// @brief Field _OpaqueScaleAndOffset0, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field _OpaqueScaleAndOffset0, offset: 0xd0, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____OpaqueScaleAndOffset0;
 
-  /// @brief Field _OpaqueScaleAndOffset1, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field _OpaqueScaleAndOffset1, offset: 0xd8, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::Vector4, ::Array<::UnityEngine::Vector4>*> ____OpaqueScaleAndOffset1;
 
-  /// @brief Field _OpaqueVignetteVisible, offset: 0xc0, size: 0x1, def value: None
+  /// @brief Field _OpaqueVignetteVisible, offset: 0xe0, size: 0x1, def value: None
   bool ____OpaqueVignetteVisible;
 
-  /// @brief Field _TransparentVignetteVisible, offset: 0xc1, size: 0x1, def value: None
+  /// @brief Field _TransparentVignetteVisible, offset: 0xe1, size: 0x1, def value: None
   bool ____TransparentVignetteVisible;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -575,41 +662,55 @@ static_assert(offsetof(::GlobalNamespace::OVRVignette, ___VignetteFalloffDegrees
 
 static_assert(offsetof(::GlobalNamespace::OVRVignette, ___VignetteColor) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____Camera) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ___WriteStencil) == 0x4c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMeshFilter) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ___OpaqueStencilValue) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMeshFilter) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ___TransparentStencilValue) == 0x54, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMeshRenderer) == 0x68, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ___WriteColor) == 0x58, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMeshRenderer) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____Camera) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMesh) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMeshFilter) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMesh) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMeshFilter) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMaterial) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMeshRenderer) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMaterial) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMeshRenderer) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderScaleAndOffset0Property) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMesh) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderScaleAndOffset1Property) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMesh) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentScaleAndOffset0) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueMaterial) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentScaleAndOffset1) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentMaterial) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueScaleAndOffset0) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderScaleAndOffset0Property) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueScaleAndOffset1) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderScaleAndOffset1Property) == 0xac, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueVignetteVisible) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderStencilRefProperty) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentVignetteVisible) == 0xc1, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderStencilOpProperty) == 0xb4, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVignette, 0xc8>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____ShaderColorMaskProperty) == 0xb8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentScaleAndOffset0) == 0xc0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentScaleAndOffset1) == 0xc8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueScaleAndOffset0) == 0xd0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueScaleAndOffset1) == 0xd8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____OpaqueVignetteVisible) == 0xe0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::OVRVignette, ____TransparentVignetteVisible) == 0xe1, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRVignette, 0xe8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRVignette_FalloffType, "", "OVRVignette/FalloffType");

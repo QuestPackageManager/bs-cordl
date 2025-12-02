@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IWrapper_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -20,6 +19,9 @@ class ICipherParameters;
 namespace Org::BouncyCastle::Crypto {
 class IDigest;
 }
+namespace Org::BouncyCastle::Crypto {
+class IWrapper;
+}
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
 }
@@ -29,7 +31,7 @@ class RC2WrapEngine;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine);
-// Dependencies Org.BouncyCastle.Crypto.IWrapper, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Engines.RC2WrapEngine
@@ -68,21 +70,21 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IWrapper"
   constexpr operator ::Org::BouncyCastle::Crypto::IWrapper*() noexcept;
 
-  /// @brief Method CalculateCmsKeyChecksum, addr 0x2365b28, size 0x180, virtual false, abstract: false, final false
+  /// @brief Method CalculateCmsKeyChecksum, addr 0x329373c, size 0x188, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculateCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method CheckCmsKeyChecksum, addr 0x236624c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method CheckCmsKeyChecksum, addr 0x3293e5c, size 0x84, virtual false, abstract: false, final false
   inline bool CheckCmsKeyChecksum(::ArrayW<uint8_t, ::Array<uint8_t>*> key, ::ArrayW<uint8_t, ::Array<uint8_t>*> checksum);
 
-  /// @brief Method Init, addr 0x23653d4, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x3292fcc, size 0x2bc, virtual true, abstract: false, final false
   inline void Init(bool forWrapping, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Engines::RC2WrapEngine* New_ctor();
 
-  /// @brief Method Unwrap, addr 0x2365ca8, size 0x5a4, virtual true, abstract: false, final false
+  /// @brief Method Unwrap, addr 0x32938c4, size 0x598, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Unwrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
-  /// @brief Method Wrap, addr 0x23656bc, size 0x46c, virtual true, abstract: false, final false
+  /// @brief Method Wrap, addr 0x32932cc, size 0x470, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Wrap(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_digest() const;
@@ -133,12 +135,12 @@ public:
 
   constexpr void __cordl_internal_set_sr(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x2366360, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3293f78, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_IV2();
 
-  /// @brief Method get_AlgorithmName, addr 0x236567c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x3293288, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IWrapper"

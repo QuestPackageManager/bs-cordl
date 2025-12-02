@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::KekRecipientInformation::*)(
     ::Org::BouncyCastle::Asn1::Cms::KekRecipientInfo*, ::Org::BouncyCastle::Cms::CmsSecureReadable*)>(&::Org::BouncyCastle::Cms::KekRecipientInformation::_ctor)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x265944c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x3588a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Cms::CmsTypedStream* (
     ::Org::BouncyCastle::Cms::KekRecipientInformation::*)(::Org::BouncyCastle::Crypto::ICipherParameters*)>(&::Org::BouncyCastle::Cms::KekRecipientInformation::GetContentStream)> {
-  constexpr static std::size_t size = 0x330;
-  constexpr static std::size_t addrs = 0x2677ef8;
+  constexpr static std::size_t size = 0x344;
+  constexpr static std::size_t addrs = 0x35a7470;
 
   inline static ::MethodInfo const* methodInfo() {
 

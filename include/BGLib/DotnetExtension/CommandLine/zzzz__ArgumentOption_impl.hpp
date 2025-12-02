@@ -3,13 +3,14 @@
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_impl.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentOption_def.hpp"
 #include "BGLib/DotnetExtension/CommandLine/zzzz__ArgumentType_def.hpp"
+#include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_def.hpp"
 //  Writing Method size for method: ::BGLib::DotnetExtension::CommandLine::ArgumentOption._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)(
     ::StringW, ::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentType, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::BGLib::DotnetExtension::CommandLine::ArgumentOption::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22a16dc;
+  constexpr static std::size_t addrs = 0x31e8ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)()>(
     &::BGLib::DotnetExtension::CommandLine::ArgumentOption::get_required)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22a16ec;
+  constexpr static std::size_t addrs = 0x31e8dec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(),
@@ -39,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)()>(
     &::BGLib::DotnetExtension::CommandLine::ArgumentOption::get_expectsValue)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22a1700;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x31e8e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(),
@@ -53,13 +54,28 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)(::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::ArgumentOption::ValidateArgumentValue)> {
-  constexpr static std::size_t size = 0x240;
-  constexpr static std::size_t addrs = 0x22a1728;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x31e8e14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(), "ValidateArgumentValue",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::BGLib::DotnetExtension::CommandLine::ArgumentOption.ToDestinationArguments
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (::BGLib::DotnetExtension::CommandLine::ArgumentOption::*)(
+    ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult)>(&::BGLib::DotnetExtension::CommandLine::ArgumentOption::ToDestinationArguments)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x31e9028;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(), "ToDestinationArguments", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult>::get() })));
     return ___internal_method;
   }
 };
@@ -87,6 +103,13 @@ inline void BGLib::DotnetExtension::CommandLine::ArgumentOption::ValidateArgumen
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(), "ValidateArgumentValue",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::ArrayW<::StringW, ::Array<::StringW>*>
+BGLib::DotnetExtension::CommandLine::ArgumentOption::ToDestinationArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult commandLineArguments) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::ArgumentOption>::get(), "ToDestinationArguments", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::StringW, ::Array<::StringW>*>, false>(this, ___internal_method, commandLineArguments);
 }
 // Ctor Parameters [CppParam { name: "name", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "identifiers", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "hint", ty: "::StringW", modifiers: "", def_value: Some("{}") }, CppParam { name: "type", ty: "::BGLib::DotnetExtension::CommandLine::ArgumentType",

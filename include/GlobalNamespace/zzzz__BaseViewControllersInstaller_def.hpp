@@ -34,7 +34,7 @@ public:
                       put = __cordl_internal_set__simpleDialogPromptViewControllerPrefab)) ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController>
       _simpleDialogPromptViewControllerPrefab;
 
-  /// @brief Method InstallBindings, addr 0x3bf34e4, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x57e6508, size 0xc8, virtual true, abstract: false, final false
   inline void InstallBindings();
 
   static inline ::GlobalNamespace::BaseViewControllersInstaller* New_ctor();
@@ -51,7 +51,7 @@ public:
 
   constexpr void __cordl_internal_set__simpleDialogPromptViewControllerPrefab(::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> value);
 
-  /// @brief Method .ctor, addr 0x3bf3590, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57e65d0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   BaseViewControllersInstaller(BaseViewControllersInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4717 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6296 };
 
   /// @brief Field _simpleDialogPromptViewControllerPrefab, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::SimpleDialogPromptViewController> ____simpleDialogPromptViewControllerPrefab;

@@ -3,13 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__InternedString_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -27,10 +21,19 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -90,7 +93,7 @@ public:
   constexpr MatcherJson_InputDeviceMatcher_Capability(::StringW path, ::StringW value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9089 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -120,10 +123,10 @@ public:
   // Declarations
   using Capability = ::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability;
 
-  /// @brief Method FromMatcher, addr 0x4560510, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method FromMatcher, addr 0x62db098, size 0x2e0, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson FromMatcher(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher matcher);
 
-  /// @brief Method ToMatcher, addr 0x456087c, size 0x458, virtual false, abstract: false, final false
+  /// @brief Method ToMatcher, addr 0x62db394, size 0x42c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher ToMatcher();
 
   // Ctor Parameters []
@@ -132,24 +135,24 @@ public:
 
   // Ctor Parameters [CppParam { name: "interface", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "interfaces", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "",
   // def_value: None }, CppParam { name: "deviceClass", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "deviceClasses", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers:
-  // "", def_value: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manufacturers", ty: "::ArrayW<::StringW,::Array<::StringW>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "products", ty: "::ArrayW<::StringW,::Array<::StringW>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "versions", ty: "::ArrayW<::StringW,::Array<::StringW>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "capabilities", ty:
+  // "", def_value: None }, CppParam { name: "manufacturer", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "manufacturerContains", ty: "::StringW", modifiers: "", def_value: None
+  // }, CppParam { name: "manufacturers", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "product", ty: "::StringW", modifiers: "", def_value: None
+  // }, CppParam { name: "products", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "version", ty: "::StringW", modifiers: "", def_value: None },
+  // CppParam { name: "versions", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }, CppParam { name: "capabilities", ty:
   // "::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability,::Array<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>*>", modifiers: "",
   // def_value: None }]
   constexpr InputDeviceMatcher_MatcherJson(
       ::StringW interface, ::ArrayW<::StringW, ::Array<::StringW>*> interfaces, ::StringW deviceClass, ::ArrayW<::StringW, ::Array<::StringW>*> deviceClasses, ::StringW manufacturer,
-      ::ArrayW<::StringW, ::Array<::StringW>*> manufacturers, ::StringW product, ::ArrayW<::StringW, ::Array<::StringW>*> products, ::StringW version,
+      ::StringW manufacturerContains, ::ArrayW<::StringW, ::Array<::StringW>*> manufacturers, ::StringW product, ::ArrayW<::StringW, ::Array<::StringW>*> products, ::StringW version,
       ::ArrayW<::StringW, ::Array<::StringW>*> versions,
       ::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability, ::Array<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>*>
           capabilities) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9090 };
 
   /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
 
   /// @brief Field interface, offset: 0x0, size: 0x8, def value: None
   ::StringW interface;
@@ -166,22 +169,25 @@ public:
   /// @brief Field manufacturer, offset: 0x20, size: 0x8, def value: None
   ::StringW manufacturer;
 
-  /// @brief Field manufacturers, offset: 0x28, size: 0x8, def value: None
+  /// @brief Field manufacturerContains, offset: 0x28, size: 0x8, def value: None
+  ::StringW manufacturerContains;
+
+  /// @brief Field manufacturers, offset: 0x30, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> manufacturers;
 
-  /// @brief Field product, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field product, offset: 0x38, size: 0x8, def value: None
   ::StringW product;
 
-  /// @brief Field products, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field products, offset: 0x40, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> products;
 
-  /// @brief Field version, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field version, offset: 0x48, size: 0x8, def value: None
   ::StringW version;
 
-  /// @brief Field versions, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field versions, offset: 0x50, size: 0x8, def value: None
   ::ArrayW<::StringW, ::Array<::StringW>*> versions;
 
-  /// @brief Field capabilities, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field capabilities, offset: 0x58, size: 0x8, def value: None
   ::ArrayW<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability, ::Array<::UnityEngine::InputSystem::Layouts::MatcherJson_InputDeviceMatcher_Capability>*> capabilities;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
@@ -197,19 +203,21 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_M
 
 static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, manufacturer) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, manufacturers) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, manufacturerContains) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, product) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, manufacturers) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, products) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, product) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, version) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, products) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, versions) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, version) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, capabilities) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, versions) == 0x50, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, 0x58>, "Size mismatch!");
+static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, capabilities) == 0x58, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher_MatcherJson, 0x60>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
 // Dependencies System.Object
@@ -222,24 +230,24 @@ public:
   /// @brief Field <>9, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF___9, put = setStaticF___9)) ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c* __9;
 
-  /// @brief Field <>9__11_0, offset 0xffffffff, size 0x8
-  __declspec(property(get = getStaticF___9__11_0, put = setStaticF___9__11_0)) ::System::Func_2<char16_t, bool>* __9__11_0;
+  /// @brief Field <>9__12_0, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF___9__12_0, put = setStaticF___9__12_0)) ::System::Func_2<char16_t, bool>* __9__12_0;
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c* New_ctor();
 
-  /// @brief Method <With>b__11_0, addr 0x4560d38, size 0x88, virtual false, abstract: false, final false
-  inline bool _With_b__11_0(char16_t ch);
+  /// @brief Method <With>b__12_0, addr 0x62db818, size 0x64, virtual false, abstract: false, final false
+  inline bool _With_b__12_0(char16_t ch);
 
-  /// @brief Method .ctor, addr 0x4560d30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62db814, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c* getStaticF___9();
 
-  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__11_0();
+  static inline ::System::Func_2<char16_t, bool>* getStaticF___9__12_0();
 
   static inline void setStaticF___9(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c* value);
 
-  static inline void setStaticF___9__11_0(::System::Func_2<char16_t, bool>* value);
+  static inline void setStaticF___9__12_0(::System::Func_2<char16_t, bool>* value);
 
 protected:
   // Ctor Parameters []
@@ -256,7 +264,7 @@ public:
   InputDeviceMatcher___c(InputDeviceMatcher___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7033 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -264,7 +272,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher___c, 0x10>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Dependencies System.IEquatable`1<T>, UnityEngine.InputSystem.Utilities.InternedString
+// Dependencies UnityEngine.InputSystem.Utilities.InternedString
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Layouts.InputDeviceMatcher
@@ -285,6 +293,9 @@ public:
   /// @brief Field kInterfaceKey, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_kInterfaceKey, put = setStaticF_kInterfaceKey)) ::UnityEngine::InputSystem::Utilities::InternedString kInterfaceKey;
 
+  /// @brief Field kManufacturerContainsKey, offset 0xffffffff, size 0x10
+  __declspec(property(get = getStaticF_kManufacturerContainsKey, put = setStaticF_kManufacturerContainsKey)) ::UnityEngine::InputSystem::Utilities::InternedString kManufacturerContainsKey;
+
   /// @brief Field kManufacturerKey, offset 0xffffffff, size 0x10
   __declspec(property(get = getStaticF_kManufacturerKey, put = setStaticF_kManufacturerKey)) ::UnityEngine::InputSystem::Utilities::InternedString kManufacturerKey;
 
@@ -299,54 +310,62 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>*();
 
-  /// @brief Method Equals, addr 0x456018c, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x62daccc, size 0x90, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4560050, size 0x130, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x62daba4, size 0x11c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher other);
 
-  /// @brief Method FromDeviceDescription, addr 0x455fd20, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method FromDeviceDescription, addr 0x62da854, size 0x168, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher FromDeviceDescription(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
-  /// @brief Method GetHashCode, addr 0x45602f8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x62dae40, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetNumPropertiesIn, addr 0x455fc5c, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method GetNumPropertiesIn, addr 0x62da790, size 0xc4, virtual false, abstract: false, final false
   static inline int32_t GetNumPropertiesIn(::UnityEngine::InputSystem::Layouts::InputDeviceDescription description);
 
-  /// @brief Method MatchPercentage, addr 0x455f1a4, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method MatchPercentage, addr 0x62da314, size 0x328, virtual false, abstract: false, final false
   inline float_t MatchPercentage(::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
 
-  /// @brief Method MatchSingleProperty, addr 0x455f4f8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method MatchSingleProperty, addr 0x62da648, size 0xd0, virtual false, abstract: false, final false
   static inline bool MatchSingleProperty(::System::Object* pattern, ::StringW value);
 
-  /// @brief Method ToString, addr 0x455fe9c, size 0x1b4, virtual true, abstract: false, final false
+  /// @brief Method MatchSinglePropertyContains, addr 0x62da718, size 0x58, virtual false, abstract: false, final false
+  static inline bool MatchSinglePropertyContains(::System::Object* pattern, ::StringW value);
+
+  /// @brief Method ToString, addr 0x62da9bc, size 0x1e8, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method With, addr 0x455edb8, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method With, addr 0x62d9ec8, size 0x1e4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher With(::UnityEngine::InputSystem::Utilities::InternedString key, ::System::Object* value, bool supportRegex);
 
   /// @brief Method WithCapability, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue> inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithCapability(::StringW path, TValue value);
 
-  /// @brief Method WithDeviceClass, addr 0x455efc4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithDeviceClass, addr 0x62da0ac, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithDeviceClass(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithInterface, addr 0x455ed40, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithInterface, addr 0x62d9e4c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithInterface(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithManufacturer, addr 0x455f03c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithManufacturer, addr 0x62da128, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithManufacturer(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithProduct, addr 0x455f0b4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithManufacturerContains, addr 0x62da1a4, size 0x78, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithManufacturerContains(::StringW noRegExPattern);
+
+  /// @brief Method WithProduct, addr 0x62da21c, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithProduct(::StringW pattern, bool supportRegex);
 
-  /// @brief Method WithVersion, addr 0x455f12c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WithVersion, addr 0x62da298, size 0x7c, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher WithVersion(::StringW pattern, bool supportRegex);
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kDeviceClassKey();
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kInterfaceKey();
+
+  static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kManufacturerContainsKey();
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kManufacturerKey();
 
@@ -354,24 +373,26 @@ public:
 
   static inline ::UnityEngine::InputSystem::Utilities::InternedString getStaticF_kVersionKey();
 
-  /// @brief Method get_empty, addr 0x455ec88, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_empty, addr 0x62d9dac, size 0x10, virtual false, abstract: false, final false
   inline bool get_empty();
 
-  /// @brief Method get_patterns, addr 0x455ec98, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method get_patterns, addr 0x62d9dbc, size 0x70, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>* get_patterns();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>"
   constexpr ::System::IEquatable_1<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher>* i___System__IEquatable_1___UnityEngine__InputSystem__Layouts__InputDeviceMatcher_();
 
-  /// @brief Method op_Equality, addr 0x456021c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x62dad5c, size 0x70, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher left, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher right);
 
-  /// @brief Method op_Inequality, addr 0x4560288, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method op_Inequality, addr 0x62dadcc, size 0x74, virtual false, abstract: false, final false
   static inline bool op_Inequality(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher left, ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher right);
 
   static inline void setStaticF_kDeviceClassKey(::UnityEngine::InputSystem::Utilities::InternedString value);
 
   static inline void setStaticF_kInterfaceKey(::UnityEngine::InputSystem::Utilities::InternedString value);
+
+  static inline void setStaticF_kManufacturerContainsKey(::UnityEngine::InputSystem::Utilities::InternedString value);
 
   static inline void setStaticF_kManufacturerKey(::UnityEngine::InputSystem::Utilities::InternedString value);
 
@@ -391,7 +412,7 @@ public:
                                    m_Patterns) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7035 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9093 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -409,8 +430,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceMatcher, 
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputDeviceMatcher, 0x8>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Layouts
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IEnumerable,
-// System.Collections.IEnumerator, System.IDisposable, System.Object, UnityEngine.InputSystem.Layouts.InputDeviceMatcher
+// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Object, UnityEngine.InputSystem.Layouts.InputDeviceMatcher
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
 // CS Name: UnityEngine.InputSystem.Layouts.InputDeviceMatcher/<get_patterns>d__4
@@ -460,31 +480,31 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x4560dc4, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x62db880, size 0x118, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::UnityEngine::InputSystem::Layouts::InputDeviceMatcher__get_patterns_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x4560fc0, size 0x9c, virtual true, abstract:
+  /// @brief Method System.Collections.Generic.IEnumerable<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.GetEnumerator, addr 0x62dba3c, size 0x98, virtual true, abstract:
   /// false, final true
   inline ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>>*
   System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String_System_Object___GetEnumerator();
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x4560f20, size 0xc, virtual true, abstract: false,
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Collections.Generic.KeyValuePair<System.String,System.Object>>.get_Current, addr 0x62db998, size 0xc, virtual true, abstract: false,
   /// final true
   inline ::System::Collections::Generic::KeyValuePair_2<::StringW, ::System::Object*>
   System_Collections_Generic_IEnumerator_System_Collections_Generic_KeyValuePair_System_String_System_Object___get_Current();
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x456105c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x62dbad4, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x4560f2c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x62db9a4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x4560f64, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x62db9dc, size 0x60, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4560dc0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x62db87c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -529,7 +549,7 @@ public:
 
   constexpr void __cordl_internal_set__i_5__3(int32_t value);
 
-  /// @brief Method .ctor, addr 0x455ed0c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62d9e2c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<::StringW,::System::Object*>>"
@@ -564,7 +584,7 @@ public:
   InputDeviceMatcher__get_patterns_d__4(InputDeviceMatcher__get_patterns_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7034 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9092 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;

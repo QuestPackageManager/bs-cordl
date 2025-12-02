@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include <cstdint>
 CORDL_MODULE_EXPORT(InvokableCallList)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -30,6 +31,8 @@ namespace UnityEngine::Events {
 class CORDL_TYPE InvokableCallList : public ::System::Object {
 public:
   // Declarations
+  __declspec(property(get = get_Count)) int32_t Count;
+
   /// @brief Field m_ExecutingCalls, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ExecutingCalls,
                       put = __cordl_internal_set_m_ExecutingCalls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_ExecutingCalls;
@@ -45,24 +48,24 @@ public:
   __declspec(property(get = __cordl_internal_get_m_RuntimeCalls,
                       put = __cordl_internal_set_m_RuntimeCalls)) ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* m_RuntimeCalls;
 
-  /// @brief Method AddListener, addr 0x48befb8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddListener, addr 0x68c9fa4, size 0xb4, virtual false, abstract: false, final false
   inline void AddListener(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method AddPersistentInvokableCall, addr 0x48bef10, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method AddPersistentInvokableCall, addr 0x68c9e90, size 0xb4, virtual false, abstract: false, final false
   inline void AddPersistentInvokableCall(::UnityEngine::Events::BaseInvokableCall* call);
 
-  /// @brief Method Clear, addr 0x48bf2d0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Clear, addr 0x68ca2fc, size 0xc4, virtual false, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method ClearPersistent, addr 0x48bf38c, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method ClearPersistent, addr 0x68ca3c0, size 0xc4, virtual false, abstract: false, final false
   inline void ClearPersistent();
 
   static inline ::UnityEngine::Events::InvokableCallList* New_ctor();
 
-  /// @brief Method PrepareInvoke, addr 0x48bf448, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method PrepareInvoke, addr 0x68ca484, size 0xe8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* PrepareInvoke();
 
-  /// @brief Method RemoveListener, addr 0x48bf060, size 0x270, virtual false, abstract: false, final false
+  /// @brief Method RemoveListener, addr 0x68ca058, size 0x2a4, virtual false, abstract: false, final false
   inline void RemoveListener(::System::Object* targetObj, ::System::Reflection::MethodInfo* method);
 
   constexpr ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* const& __cordl_internal_get_m_ExecutingCalls() const;
@@ -89,8 +92,11 @@ public:
 
   constexpr void __cordl_internal_set_m_RuntimeCalls(::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* value);
 
-  /// @brief Method .ctor, addr 0x48bf4fc, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68ca56c, size 0xb4, virtual false, abstract: false, final false
   inline void _ctor();
+
+  /// @brief Method get_Count, addr 0x68c9f44, size 0x60, virtual false, abstract: false, final false
+  inline int32_t get_Count();
 
 protected:
   // Ctor Parameters []
@@ -107,7 +113,7 @@ public:
   InvokableCallList(InvokableCallList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10988 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10426 };
 
   /// @brief Field m_PersistentCalls, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityEngine::Events::BaseInvokableCall*>* ___m_PersistentCalls;

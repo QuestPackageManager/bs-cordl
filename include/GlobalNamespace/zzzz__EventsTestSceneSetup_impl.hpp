@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestSceneSetup::*)()>(&::GlobalNamespace::EventsTestSceneSetup::InstallBindings)> {
-  constexpr static std::size_t size = 0xc14;
-  constexpr static std::size_t addrs = 0x3b36708;
+  constexpr static std::size_t size = 0xec4;
+  constexpr static std::size_t addrs = 0x571979c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestSceneSetup::*)()>(&::GlobalNamespace::EventsTestSceneSetup::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b3731c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x571a660;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestSceneSetup*>::get(), ".ctor",

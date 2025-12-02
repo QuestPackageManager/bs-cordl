@@ -41,7 +41,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MirroredObstacleController_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3af10dc, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56cd304, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -59,7 +59,7 @@ public:
   MirroredObstacleController_Pool(MirroredObstacleController_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4142 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5705 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -90,27 +90,27 @@ public:
 
   __declspec(property(put = set_hide)) bool hide;
 
-  /// @brief Method Awake, addr 0x3af0b78, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56ccd78, size 0x1c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleDidStartDissolving, addr 0x3af1090, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method HandleDidStartDissolving, addr 0x56cd2c0, size 0x20, virtual false, abstract: false, final false
   inline void HandleDidStartDissolving(::GlobalNamespace::ObstacleControllerBase* obstacleController, float_t duration);
 
-  /// @brief Method Mirror, addr 0x3ae3c8c, size 0x164, virtual false, abstract: false, final false
+  /// @brief Method Mirror, addr 0x56bf858, size 0x170, virtual false, abstract: false, final false
   inline void Mirror(::GlobalNamespace::ObstacleController* obstacleController);
 
   static inline ::GlobalNamespace::MirroredObstacleController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3af0b94, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56ccd94, size 0x4, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RemoveListeners, addr 0x3af0b98, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method RemoveListeners, addr 0x56ccd98, size 0xd4, virtual false, abstract: false, final false
   inline void RemoveListeners();
 
-  /// @brief Method Update, addr 0x3af0c60, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x56cce6c, size 0x114, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePositionAndRotation, addr 0x3af0d70, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method UpdatePositionAndRotation, addr 0x56ccf80, size 0x100, virtual false, abstract: false, final false
   inline void UpdatePositionAndRotation();
 
   constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& __cordl_internal_get__followedObstacle() const;
@@ -137,10 +137,10 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3af10cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56cd2fc, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method set_hide, addr 0x3ae4880, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method set_hide, addr 0x56c02f0, size 0x2c, virtual false, abstract: false, final false
   inline void set_hide(bool value);
 
 protected:
@@ -158,7 +158,7 @@ public:
   MirroredObstacleController(MirroredObstacleController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5706 };
 
   /// @brief Field _stretchableObstacle, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::StretchableObstacle> ____stretchableObstacle;

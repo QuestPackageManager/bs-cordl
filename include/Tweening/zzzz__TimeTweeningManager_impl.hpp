@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Tweening::TimeTweeningManager::*)()>(&::Tweening::TimeTweeningManager::GetTime)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44dba30;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x622b004;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::TimeTweeningManager::*)()>(&::Tweening::TimeTweeningManager::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x44dba38;
+  constexpr static std::size_t addrs = 0x622b02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::TimeTweeningManager*>::get(), ".ctor",

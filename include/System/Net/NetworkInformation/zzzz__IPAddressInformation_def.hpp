@@ -25,7 +25,7 @@ public:
 
   static inline ::System::Net::NetworkInformation::IPAddressInformation* New_ctor();
 
-  /// @brief Method .ctor, addr 0x43e96e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6135bb0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Address, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -46,7 +46,7 @@ public:
   IPAddressInformation(IPAddressInformation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9769 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11643 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

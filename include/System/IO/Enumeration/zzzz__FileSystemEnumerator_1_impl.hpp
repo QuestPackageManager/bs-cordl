@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/IO/Enumeration/FileSystemEnumerator_1.hpp"
 #include "GlobalNamespace/zzzz__Interop_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
 #include "System/Runtime/ConstrainedExecution/zzzz__CriticalFinalizerObject_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerator_1_def.hpp"
 #include "GlobalNamespace/zzzz__Interop_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Queue_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEntry_def.hpp"
 #include "System/IO/zzzz__EnumerationOptions_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ReadOnlySpan_1_def.hpp"
@@ -205,11 +205,10 @@ template <typename TResult> inline void System::IO::Enumeration::FileSystemEnume
                                                                              "FindNextEntry", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::FindNextEntry(::cordl_internals::Ptr<uint8_t> entryBufferPtr, int32_t bufferLength) {
+template <typename TResult> inline void System::IO::Enumeration::FileSystemEnumerator_1<TResult>::FindNextEntry(uint8_t* entryBufferPtr, int32_t bufferLength) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::Enumeration::FileSystemEnumerator_1<TResult>*>::get(), "FindNextEntry", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, entryBufferPtr, bufferLength);
 }
 template <typename TResult> inline bool System::IO::Enumeration::FileSystemEnumerator_1<TResult>::DequeueNextDirectory() {

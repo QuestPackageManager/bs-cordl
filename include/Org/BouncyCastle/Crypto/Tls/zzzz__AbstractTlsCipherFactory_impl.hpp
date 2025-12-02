@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsCipherFactory.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCipherFactory_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipherFactory_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory.CreateCipher
@@ -12,7 +12,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Crypto::Tls::TlsCipher* (::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*, int32_t, int32_t)>(
         &::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::CreateCipher)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x23e0a00;
+  constexpr static std::size_t addrs = 0x330ee50;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsCipherFactory::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e0a3c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x330ee8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

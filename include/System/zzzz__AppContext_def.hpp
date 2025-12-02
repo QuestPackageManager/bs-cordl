@@ -71,7 +71,7 @@ public:
   static ::System::AppContext_SwitchValueState const UnknownValue;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2539 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2548 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -102,10 +102,10 @@ public:
   /// @brief Field s_switchMap, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_switchMap, put = setStaticF_s_switchMap)) ::System::Collections::Generic::Dictionary_2<::StringW, ::System::AppContext_SwitchValueState>* s_switchMap;
 
-  /// @brief Method InitializeDefaultSwitchValues, addr 0x3e13974, size 0x174, virtual false, abstract: false, final false
+  /// @brief Method InitializeDefaultSwitchValues, addr 0x5a59c64, size 0x16c, virtual false, abstract: false, final false
   static inline void InitializeDefaultSwitchValues();
 
-  /// @brief Method TryGetSwitch, addr 0x3e13ae8, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method TryGetSwitch, addr 0x5a59dd0, size 0x3a8, virtual false, abstract: false, final false
   static inline bool TryGetSwitch(::StringW switchName, ::ByRef<bool> isEnabled);
 
   static inline bool getStaticF_s_defaultsInitialized();
@@ -131,7 +131,7 @@ public:
   AppContext(AppContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2540 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2549 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

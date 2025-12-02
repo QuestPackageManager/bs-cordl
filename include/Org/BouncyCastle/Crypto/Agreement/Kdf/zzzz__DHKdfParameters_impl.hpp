@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/Kdf/DHKdfParameters.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Kdf/zzzz__DHKdfParameters_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDerivationParameters_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x268b05c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x35ba500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x268b09c;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x35ba510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::get_Algorithm)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268b0e0;
+  constexpr static std::size_t addrs = 0x35ba520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::get_KeySize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268b0e8;
+  constexpr static std::size_t addrs = 0x35ba528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::GetZ)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268b0f0;
+  constexpr static std::size_t addrs = 0x35ba530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::DHKdfParameters::GetExtraInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x268b0f8;
+  constexpr static std::size_t addrs = 0x35ba538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(StaticJumpOffsetYProvider)
+namespace GlobalNamespace {
+class IJumpOffsetYProvider;
+}
 namespace GlobalNamespace {
 class StaticJumpOffsetYProvider_InitData;
 }
@@ -38,7 +40,7 @@ public:
 
   constexpr void __cordl_internal_set_jumpyYOffset(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b7ce58, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5768764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(float_t jumpyYOffset);
 
 protected:
@@ -56,7 +58,7 @@ public:
   StaticJumpOffsetYProvider_InitData(StaticJumpOffsetYProvider_InitData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5747 };
 
   /// @brief Field jumpyYOffset, offset: 0x10, size: 0x4, def value: None
   float_t ___jumpyYOffset;
@@ -69,7 +71,7 @@ static_assert(offsetof(::GlobalNamespace::StaticJumpOffsetYProvider_InitData, __
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticJumpOffsetYProvider_InitData, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IJumpOffsetYProvider, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: StaticJumpOffsetYProvider
@@ -94,10 +96,10 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::StaticJumpOffsetYProvider_InitData* value);
 
-  /// @brief Method .ctor, addr 0x3b7ce50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5768760, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_jumpOffsetY, addr 0x3b7ce34, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_jumpOffsetY, addr 0x5768748, size 0x18, virtual true, abstract: false, final true
   inline float_t get_jumpOffsetY();
 
   /// @brief Convert to "::GlobalNamespace::IJumpOffsetYProvider"
@@ -118,7 +120,7 @@ public:
   StaticJumpOffsetYProvider(StaticJumpOffsetYProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4184 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5748 };
 
   /// @brief Field _initData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::StaticJumpOffsetYProvider_InitData* ____initData;

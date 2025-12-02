@@ -51,7 +51,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::FlyingSpriteEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b82aa4, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576e9e8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -69,7 +69,7 @@ public:
   FlyingSpriteEffect_Pool(FlyingSpriteEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4217 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5782 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -95,11 +95,11 @@ public:
   /// @brief Field _spriteRenderer, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__spriteRenderer, put = __cordl_internal_set__spriteRenderer)) ::UnityW<::UnityEngine::SpriteRenderer> _spriteRenderer;
 
-  /// @brief Method InitAndPresent, addr 0x3b82960, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method InitAndPresent, addr 0x576e8a4, size 0xb4, virtual false, abstract: false, final false
   inline void InitAndPresent(float_t duration, ::UnityEngine::Vector3 targetPos, ::UnityEngine::Quaternion rotation, ::UnityEngine::Sprite* sprite, ::UnityEngine::Material* material,
                              ::UnityEngine::Color color, bool shake);
 
-  /// @brief Method ManualUpdate, addr 0x3b82a18, size 0x5c, virtual true, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x576e958, size 0x5c, virtual true, abstract: false, final false
   inline void ManualUpdate(float_t t);
 
   static inline ::GlobalNamespace::FlyingSpriteEffect* New_ctor();
@@ -122,7 +122,7 @@ public:
 
   constexpr void __cordl_internal_set__spriteRenderer(::UnityW<::UnityEngine::SpriteRenderer> value);
 
-  /// @brief Method .ctor, addr 0x3b82a74, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x576e9b4, size 0x34, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -140,7 +140,7 @@ public:
   FlyingSpriteEffect(FlyingSpriteEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4218 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5783 };
 
   /// @brief Field _spriteRenderer, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::SpriteRenderer> ____spriteRenderer;

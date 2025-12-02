@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Convertible_def.hpp"
 CORDL_MODULE_EXPORT(IAsn1ApplicationSpecificParser)
 namespace Org::BouncyCastle::Asn1 {
 class IAsn1Convertible;
@@ -14,7 +13,7 @@ class IAsn1ApplicationSpecificParser;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IAsn1ApplicationSpecificParser);
-// Dependencies Org.BouncyCastle.Asn1.IAsn1Convertible
+// Dependencies
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.IAsn1ApplicationSpecificParser

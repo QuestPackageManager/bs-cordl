@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::MaterialReference::*)(
     int32_t, ::UnityEngine::TextCore::Text::FontAsset*, ::UnityEngine::TextCore::Text::SpriteAsset*, ::UnityEngine::Material*, float_t)>(&::UnityEngine::TextCore::Text::MaterialReference::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x492e59c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x69938ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Material*, ::UnityEngine::TextCore::Text::FontAsset*,
     ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>>, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::TextCore::Text::MaterialReference::AddMaterialReference)> {
-  constexpr static std::size_t size = 0x20c;
-  constexpr static std::size_t addrs = 0x492e618;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x699390c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::Material*, ::UnityEngine::TextCore::Text::SpriteAsset*,
     ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::MaterialReference, ::Array<::UnityEngine::TextCore::Text::MaterialReference>*>>, ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
     &::UnityEngine::TextCore::Text::MaterialReference::AddMaterialReference)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x492e824;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x6993aec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -103,18 +103,17 @@ inline int32_t UnityEngine::TextCore::Text::MaterialReference::AddMaterialRefere
 }
 // Ctor Parameters [CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "fontAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::FontAsset>", modifiers:
 // "", def_value: Some("{}") }, CppParam { name: "spriteAsset", ty: "::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "material", ty:
-// "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "isDefaultMaterial", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "isFallbackMaterial", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name: "fallbackMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "padding", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "referenceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+// "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "isFallbackMaterial", ty: "bool", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "fallbackMaterial", ty: "::UnityW<::UnityEngine::Material>", modifiers: "", def_value: Some("{}") }, CppParam { name: "padding", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "referenceCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::TextCore::Text::MaterialReference::MaterialReference(int32_t index, ::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset,
                                                                               ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset, ::UnityW<::UnityEngine::Material> material,
-                                                                              bool isDefaultMaterial, bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding,
+                                                                              bool isFallbackMaterial, ::UnityW<::UnityEngine::Material> fallbackMaterial, float_t padding,
                                                                               int32_t referenceCount) noexcept {
   this->index = index;
   this->fontAsset = fontAsset;
   this->spriteAsset = spriteAsset;
   this->material = material;
-  this->isDefaultMaterial = isDefaultMaterial;
   this->isFallbackMaterial = isFallbackMaterial;
   this->fallbackMaterial = fallbackMaterial;
   this->padding = padding;

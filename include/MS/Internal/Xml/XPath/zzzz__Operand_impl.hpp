@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Operand::*)(::StringW)>(&::MS::Internal::Xml::XPath::Operand::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4306a54;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x605a720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::MS::Internal::Xml::XPath::Operand::*)(double_t)>(&::MS::Internal::Xml::XPath::Operand::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4306a84;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x605a730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::MS::Internal::Xml::XPath::AstNode_AstType (::MS::Internal::Xml::XPath::Operand::*)()>(
     &::MS::Internal::Xml::XPath::Operand::get_Type)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4306af4;
+  constexpr static std::size_t addrs = 0x605a764;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XPath::XPathResultType (::MS::Internal::Xml::XPath::Operand::*)()>(
     &::MS::Internal::Xml::XPath::Operand::get_ReturnType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4306afc;
+  constexpr static std::size_t addrs = 0x605a76c;
 
   inline static ::MethodInfo const* methodInfo() {
 

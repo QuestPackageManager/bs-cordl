@@ -33,7 +33,7 @@ public:
   inline TValue Process(TValue value, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method Process, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Process(::cordl_internals::Ptr<void> buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
+  inline void Process(void* buffer, int32_t bufferSize, ::UnityEngine::InputSystem::InputControl* control);
 
   /// @brief Method ProcessAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ProcessAsObject(::System::Object* value, ::UnityEngine::InputSystem::InputControl* control);
@@ -56,7 +56,7 @@ public:
   InputProcessor_1(InputProcessor_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6643 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8696 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

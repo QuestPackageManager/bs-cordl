@@ -5,19 +5,68 @@
 #include "UnityEngine/zzzz__RectInt_impl.hpp"
 #include "Unity/Properties/Internal/zzzz__RectIntPropertyBag_def.hpp"
 #include "Unity/Properties/Internal/zzzz__RectIntPropertyBag_def.hpp"
+#include "UnityEngine/zzzz__RectInt_def.hpp"
 //  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_XProperty.get_Name
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::RectIntPropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_XProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916f48;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x697fe38;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_XProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::RectIntPropertyBag_XProperty::*)()>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_XProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697fe7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_XProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::RectIntPropertyBag_XProperty::*)(::ByRef<::UnityEngine::RectInt>)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_XProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697fe84;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_XProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_XProperty::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_XProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697fe8c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -26,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_XProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_XProperty::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916e28;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x697fd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +88,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 inline ::StringW Unity::Properties::Internal::RectIntPropertyBag_XProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::RectIntPropertyBag_XProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::RectIntPropertyBag_XProperty::GetValue(::ByRef<::UnityEngine::RectInt> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::RectIntPropertyBag_XProperty::SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_XProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline void Unity::Properties::Internal::RectIntPropertyBag_XProperty::_ctor() {
   static auto* ___internal_method =
@@ -58,14 +125,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::RectIntPropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_YProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916f88;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x697fe94;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_YProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::RectIntPropertyBag_YProperty::*)()>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_YProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697fed8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_YProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::RectIntPropertyBag_YProperty::*)(::ByRef<::UnityEngine::RectInt>)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_YProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697fee0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_YProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_YProperty::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_YProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697fee8;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -74,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_YProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_YProperty::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916e70;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x697fd84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,8 +202,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 inline ::StringW Unity::Properties::Internal::RectIntPropertyBag_YProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::RectIntPropertyBag_YProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::RectIntPropertyBag_YProperty::GetValue(::ByRef<::UnityEngine::RectInt> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::RectIntPropertyBag_YProperty::SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_YProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline void Unity::Properties::Internal::RectIntPropertyBag_YProperty::_ctor() {
   static auto* ___internal_method =
@@ -106,14 +239,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4916fc8;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x697fef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::*)()>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697ff34;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::*)(::ByRef<::UnityEngine::RectInt>)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697ff3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697ff44;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -122,8 +303,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916eb8;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x697fdc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,8 +316,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 inline ::StringW Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::GetValue(::ByRef<::UnityEngine::RectInt> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_WidthProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline void Unity::Properties::Internal::RectIntPropertyBag_WidthProperty::_ctor() {
   static auto* ___internal_method =
@@ -154,14 +353,62 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::get_Name)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4917008;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x697ff4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 7));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::*)()>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697ff90;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::*)(::ByRef<::UnityEngine::RectInt>)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697ff98;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::*)(::ByRef<::UnityEngine::RectInt>, int32_t)>(
+    &::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x697ffa0;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 15));
     return ___internal_method;
   }
 };
@@ -170,8 +417,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4916f00;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x697fdfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -183,8 +430,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 inline ::StringW Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::get_Name() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 7)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline int32_t Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::GetValue(::ByRef<::UnityEngine::RectInt> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, container);
+}
+inline void Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::SetValue(::ByRef<::UnityEngine::RectInt> container, int32_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag_HeightProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
 }
 inline void Unity::Properties::Internal::RectIntPropertyBag_HeightProperty::_ctor() {
   static auto* ___internal_method =
@@ -202,8 +467,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Properties::Internal::RectIntPropertyBag::*)()>(
     &::Unity::Properties::Internal::RectIntPropertyBag::_ctor)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4915dd8;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x697ea30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::Internal::RectIntPropertyBag*>::get(),

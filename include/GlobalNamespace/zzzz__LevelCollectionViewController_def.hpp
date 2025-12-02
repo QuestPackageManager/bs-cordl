@@ -6,7 +6,6 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
@@ -15,9 +14,6 @@ CORDL_MODULE_INIT
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(LevelCollectionViewController)
-namespace BGLib::UnityExtension {
-template <typename T> class Debouncer_1;
-}
 namespace GlobalNamespace {
 class AudioClipAsyncLoader;
 }
@@ -31,13 +27,13 @@ namespace GlobalNamespace {
 class LevelCollectionTableView;
 }
 namespace GlobalNamespace {
-struct LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26;
+struct LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25;
 }
 namespace GlobalNamespace {
-struct LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25;
+struct LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24;
 }
 namespace GlobalNamespace {
-class LevelCollectionViewController___c__DisplayClass26_0;
+class LevelCollectionViewController___c__DisplayClass25_0;
 }
 namespace GlobalNamespace {
 class PerceivedLoudnessPerLevelModel;
@@ -86,24 +82,24 @@ namespace GlobalNamespace {
 class LevelCollectionViewController;
 }
 namespace GlobalNamespace {
-class LevelCollectionViewController___c__DisplayClass26_0;
+class LevelCollectionViewController___c__DisplayClass25_0;
 }
 namespace GlobalNamespace {
-struct LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26;
+struct LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25;
 }
 namespace GlobalNamespace {
-struct LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25;
+struct LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelCollectionViewController);
-MARK_REF_PTR_T(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0);
-MARK_VAL_T(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26);
-MARK_VAL_T(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25);
+MARK_REF_PTR_T(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0);
+MARK_VAL_T(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25);
+MARK_VAL_T(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24);
 // Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: LevelCollectionViewController/<>c__DisplayClass26_0
-class CORDL_TYPE LevelCollectionViewController___c__DisplayClass26_0 : public ::System::Object {
+// CS Name: LevelCollectionViewController/<>c__DisplayClass25_0
+class CORDL_TYPE LevelCollectionViewController___c__DisplayClass25_0 : public ::System::Object {
 public:
   // Declarations
   /// @brief Field <>4__this, offset 0x10, size 0x8
@@ -112,9 +108,9 @@ public:
   /// @brief Field level, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_level, put = __cordl_internal_set_level)) ::GlobalNamespace::BeatmapLevel* level;
 
-  static inline ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0* New_ctor();
+  static inline ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0* New_ctor();
 
-  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x3b5efc8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method <SongPlayerCrossfadeToLevelAsync>b__0, addr 0x5749680, size 0x24, virtual false, abstract: false, final false
   inline void _SongPlayerCrossfadeToLevelAsync_b__0();
 
   constexpr ::UnityW<::GlobalNamespace::LevelCollectionViewController> const& __cordl_internal_get___4__this() const;
@@ -129,25 +125,25 @@ public:
 
   constexpr void __cordl_internal_set_level(::GlobalNamespace::BeatmapLevel* value);
 
-  /// @brief Method .ctor, addr 0x3b5efc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x574967c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LevelCollectionViewController___c__DisplayClass26_0();
+  constexpr LevelCollectionViewController___c__DisplayClass25_0();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionViewController___c__DisplayClass26_0", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionViewController___c__DisplayClass25_0", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  LevelCollectionViewController___c__DisplayClass26_0(LevelCollectionViewController___c__DisplayClass26_0&&) = delete;
+  LevelCollectionViewController___c__DisplayClass25_0(LevelCollectionViewController___c__DisplayClass25_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionViewController___c__DisplayClass26_0", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "LevelCollectionViewController___c__DisplayClass25_0", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  LevelCollectionViewController___c__DisplayClass26_0(LevelCollectionViewController___c__DisplayClass26_0 const&) = delete;
+  LevelCollectionViewController___c__DisplayClass25_0(LevelCollectionViewController___c__DisplayClass25_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5341 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6932 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelCollectionViewController> _____4__this;
@@ -158,27 +154,27 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0, _____4__this) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0, _____4__this) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0, ___level) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0, ___level) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: LevelCollectionViewController/<SongPlayerCrossfadeToLevel>d__25
-struct CORDL_TYPE LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25 {
+// CS Name: LevelCollectionViewController/<SongPlayerCrossfadeToLevel>d__24
+struct CORDL_TYPE LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b5efe8, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x57496a4, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b5f27c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5749968, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -186,18 +182,18 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25();
+  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncVoidMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelCollectionViewController>",
   // modifiers: "", def_value: None }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
   // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
+  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncVoidMethodBuilder __t__builder,
                                                                             ::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this, ::GlobalNamespace::BeatmapLevel* level,
                                                                             ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6933 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -220,34 +216,33 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, __4__this) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, __4__this) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, level) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, level) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, __u__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, __u__1) == 0x38, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
-// CS Name: LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__26
-struct CORDL_TYPE LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26 {
+// CS Name: LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__25
+struct CORDL_TYPE LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25 {
 public:
   // Declarations
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3b5f288, size 0x3dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5749970, size 0x438, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3b5f664, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5749da8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -255,21 +250,21 @@ public:
 
   // Ctor Parameters []
   // @brief default ctor
-  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26();
+  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25();
 
   // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
   // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::LevelCollectionViewController>",
   // modifiers: "", def_value: None }, CppParam { name: "level", ty: "::GlobalNamespace::BeatmapLevel*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty:
-  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*", modifiers:
+  // "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__8__1", ty: "::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*", modifiers:
   // "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>>", modifiers: "", def_value: None }]
-  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
+  constexpr LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
                                                                                  ::UnityW<::GlobalNamespace::LevelCollectionViewController> __4__this, ::GlobalNamespace::BeatmapLevel* level,
                                                                                  ::System::Threading::CancellationToken cancellationToken,
-                                                                                 ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0* __8__1,
+                                                                                 ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0* __8__1,
                                                                                  ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5343 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6934 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -290,7 +285,7 @@ public:
   ::System::Threading::CancellationToken cancellationToken;
 
   /// @brief Field <>8__1, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0* __8__1;
+  ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0* __8__1;
 
   /// @brief Field <>u__1, offset: 0x40, size: 0x8, def value: None
   ::System::Runtime::CompilerServices::TaskAwaiter_1<::UnityW<::UnityEngine::AudioClip>> __u__1;
@@ -298,21 +293,21 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, __1__state) == 0x0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, __1__state) == 0x0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, __t__builder) == 0x8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, __t__builder) == 0x8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, __4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, __4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, level) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, level) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, cancellationToken) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, cancellationToken) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, __8__1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, __8__1) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, __u__1) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, __u__1) == 0x40, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 // Dependencies HMUI.ViewController
@@ -322,11 +317,11 @@ namespace GlobalNamespace {
 class CORDL_TYPE LevelCollectionViewController : public ::HMUI::ViewController {
 public:
   // Declarations
-  using _SongPlayerCrossfadeToLevelAsync_d__26 = ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26;
+  using _SongPlayerCrossfadeToLevelAsync_d__25 = ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25;
 
-  using _SongPlayerCrossfadeToLevel_d__25 = ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25;
+  using _SongPlayerCrossfadeToLevel_d__24 = ::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24;
 
-  using __c__DisplayClass26_0 = ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0;
+  using __c__DisplayClass25_0 = ::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0;
 
   /// @brief Field _additionalContentModel, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__additionalContentModel, put = __cordl_internal_set__additionalContentModel)) ::GlobalNamespace::IAdditionalContentModel* _additionalContentModel;
@@ -367,10 +362,6 @@ public:
   /// @brief Field _songPreviewPlayer, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get__songPreviewPlayer, put = __cordl_internal_set__songPreviewPlayer)) ::UnityW<::GlobalNamespace::SongPreviewPlayer> _songPreviewPlayer;
 
-  /// @brief Field _unloadLevelDebouncer, offset 0xe8, size 0x8
-  __declspec(property(get = __cordl_internal_get__unloadLevelDebouncer,
-                      put = __cordl_internal_set__unloadLevelDebouncer)) ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* _unloadLevelDebouncer;
-
   /// @brief Field didSelectHeaderEvent, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get_didSelectHeaderEvent,
                       put = __cordl_internal_set_didSelectHeaderEvent)) ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* didSelectHeaderEvent;
@@ -380,50 +371,38 @@ public:
       get = __cordl_internal_get_didSelectLevelEvent,
       put = __cordl_internal_set_didSelectLevelEvent)) ::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* didSelectLevelEvent;
 
-  /// @brief Method DidActivate, addr 0x3b5e7d8, size 0x204, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x5748fcc, size 0x25c, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x3b5e9dc, size 0x1d4, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x5749228, size 0x228, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x3b5ef94, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method HandleAdditionalContentModelDidInvalidateData, addr 0x5749658, size 0x18, virtual false, abstract: false, final false
   inline void HandleAdditionalContentModelDidInvalidateData();
 
-  /// @brief Method HandleLevelCollectionTableViewDidSelectLevel, addr 0x3b5ebb0, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelCollectionTableViewDidSelectLevel, addr 0x5749450, size 0x50, virtual false, abstract: false, final false
   inline void HandleLevelCollectionTableViewDidSelectLevel(::GlobalNamespace::LevelCollectionTableView* tableView, ::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method HandleLevelCollectionTableViewDidSelectPack, addr 0x3b5ef50, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method HandleLevelCollectionTableViewDidSelectPack, addr 0x5749614, size 0x44, virtual false, abstract: false, final false
   inline void HandleLevelCollectionTableViewDidSelectPack(::GlobalNamespace::LevelCollectionTableView* tableView);
-
-  /// @brief Method LateUpdate, addr 0x3b5ee94, size 0x50, virtual false, abstract: false, final false
-  inline void LateUpdate();
 
   static inline ::GlobalNamespace::LevelCollectionViewController* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3b5ee40, size 0x54, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnEnable, addr 0x3b5ed70, size 0xd0, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method RefreshFavorites, addr 0x3b5e6bc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavorites, addr 0x5748ea8, size 0x30, virtual false, abstract: false, final false
   inline void RefreshFavorites();
 
-  /// @brief Method SelectLevel, addr 0x3b5d1c4, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method SelectLevel, addr 0x5746858, size 0x34, virtual false, abstract: false, final false
   inline void SelectLevel(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method SetData, addr 0x3b5de58, size 0x2b0, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x5747efc, size 0x300, virtual false, abstract: false, final false
   inline void SetData(::ArrayW<::GlobalNamespace::BeatmapLevel*, ::Array<::GlobalNamespace::BeatmapLevel*>*> beatmapLevels, ::StringW headerText, ::UnityEngine::Sprite* headerSprite, bool sortLevels,
                       bool sortBeatmapLevels, ::UnityEngine::GameObject* noDataInfoPrefab);
 
-  /// @brief Method SongPlayerCrossfadeToLevel, addr 0x3b5ec00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevel, addr 0x57494a0, size 0xac, virtual false, abstract: false, final false
   inline void SongPlayerCrossfadeToLevel(::GlobalNamespace::BeatmapLevel* level);
 
-  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x3b5ec98, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method SongPlayerCrossfadeToLevelAsync, addr 0x574954c, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* SongPlayerCrossfadeToLevelAsync(::GlobalNamespace::BeatmapLevel* level, ::System::Threading::CancellationToken cancellationToken);
-
-  /// @brief Method UnloadPreviewAudioClip, addr 0x3b5eee4, size 0x6c, virtual false, abstract: false, final false
-  inline void UnloadPreviewAudioClip(::GlobalNamespace::BeatmapLevel* level);
 
   constexpr ::GlobalNamespace::IAdditionalContentModel* const& __cordl_internal_get__additionalContentModel() const;
 
@@ -473,10 +452,6 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::SongPreviewPlayer>& __cordl_internal_get__songPreviewPlayer();
 
-  constexpr ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* const& __cordl_internal_get__unloadLevelDebouncer() const;
-
-  constexpr ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>*& __cordl_internal_get__unloadLevelDebouncer();
-
   constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* const& __cordl_internal_get_didSelectHeaderEvent() const;
 
   constexpr ::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>*& __cordl_internal_get_didSelectHeaderEvent();
@@ -509,25 +484,23 @@ public:
 
   constexpr void __cordl_internal_set__songPreviewPlayer(::UnityW<::GlobalNamespace::SongPreviewPlayer> value);
 
-  constexpr void __cordl_internal_set__unloadLevelDebouncer(::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* value);
-
   constexpr void __cordl_internal_set_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
   constexpr void __cordl_internal_set_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method .ctor, addr 0x3b5efb0, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5749670, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didSelectHeaderEvent, addr 0x3b5d92c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectHeaderEvent, addr 0x574707c, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
-  /// @brief Method add_didSelectLevelEvent, addr 0x3b5d87c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectLevelEvent, addr 0x5746fbc, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
-  /// @brief Method remove_didSelectHeaderEvent, addr 0x3b5dda8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectHeaderEvent, addr 0x57479bc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectHeaderEvent(::System::Action_1<::UnityW<::GlobalNamespace::LevelCollectionViewController>>* value);
 
-  /// @brief Method remove_didSelectLevelEvent, addr 0x3b5dcf8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectLevelEvent, addr 0x57478fc, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectLevelEvent(::System::Action_2<::UnityW<::GlobalNamespace::LevelCollectionViewController>, ::GlobalNamespace::BeatmapLevel*>* value);
 
 protected:
@@ -545,7 +518,7 @@ public:
   LevelCollectionViewController(LevelCollectionViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6935 };
 
   /// @brief Field _levelCollectionTableView, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelCollectionTableView> ____levelCollectionTableView;
@@ -589,9 +562,6 @@ public:
   /// @brief Field _crossfadeCancellationTokenSource, offset: 0xe0, size: 0x8, def value: None
   ::System::Threading::CancellationTokenSource* ____crossfadeCancellationTokenSource;
 
-  /// @brief Field _unloadLevelDebouncer, offset: 0xe8, size: 0x8, def value: None
-  ::BGLib::UnityExtension::Debouncer_1<::GlobalNamespace::BeatmapLevel*>* ____unloadLevelDebouncer;
-
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
@@ -623,14 +593,12 @@ static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController, ____bea
 
 static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController, ____crossfadeCancellationTokenSource) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LevelCollectionViewController, ____unloadLevelDebouncer) == 0xe8, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController, 0xf0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelCollectionViewController, 0xe8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelCollectionViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController*, "", "LevelCollectionViewController");
-NEED_NO_BOX(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0);
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass26_0*, "", "LevelCollectionViewController/<>c__DisplayClass26_0");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__26, "", "LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__26");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__25, "", "LevelCollectionViewController/<SongPlayerCrossfadeToLevel>d__25");
+NEED_NO_BOX(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0);
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController___c__DisplayClass25_0*, "", "LevelCollectionViewController/<>c__DisplayClass25_0");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevelAsync_d__25, "", "LevelCollectionViewController/<SongPlayerCrossfadeToLevelAsync>d__25");
+DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelCollectionViewController__SongPlayerCrossfadeToLevel_d__24, "", "LevelCollectionViewController/<SongPlayerCrossfadeToLevel>d__24");

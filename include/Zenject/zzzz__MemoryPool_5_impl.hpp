@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Zenject/MemoryPool_5.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_impl.hpp"
-#include "Zenject/zzzz__IFactory_5_impl.hpp"
-#include "Zenject/zzzz__IFactory_impl.hpp"
-#include "Zenject/zzzz__IMemoryPool_5_impl.hpp"
-#include "Zenject/zzzz__IMemoryPool_impl.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_5_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IFactory_5_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_5_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TValue>
 inline TValue Zenject::MemoryPool_5<TParam1, TParam2, TParam3, TParam4, TValue>::Spawn(TParam1 param1, TParam2 param2, TParam3 param3, TParam4 param4) {

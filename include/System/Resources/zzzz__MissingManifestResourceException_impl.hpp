@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::MissingManifestResourceException::*)()>(
     &::System::Resources::MissingManifestResourceException::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3d1aee4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x595c6bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::MissingManifestResourceException*>::get(),
@@ -21,10 +21,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Resources::MissingManifestResourceException._ctor
 template <>
 
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::MissingManifestResourceException::*)(::StringW)>(
+    &::System::Resources::MissingManifestResourceException::_ctor)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x595c71c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::MissingManifestResourceException*>::get(), ".ctor",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::System::Resources::MissingManifestResourceException._ctor
+template <>
+
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::MissingManifestResourceException::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Resources::MissingManifestResourceException::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1af40;
+  constexpr static std::size_t addrs = 0x595c740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,6 +54,12 @@ inline void System::Resources::MissingManifestResourceException::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+inline void System::Resources::MissingManifestResourceException::_ctor(::StringW message) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::MissingManifestResourceException*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, message);
+}
 inline void System::Resources::MissingManifestResourceException::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::MissingManifestResourceException*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
@@ -48,6 +69,9 @@ inline void System::Resources::MissingManifestResourceException::_ctor(::System:
 }
 inline ::System::Resources::MissingManifestResourceException* System::Resources::MissingManifestResourceException::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::MissingManifestResourceException*>());
+}
+inline ::System::Resources::MissingManifestResourceException* System::Resources::MissingManifestResourceException::New_ctor(::StringW message) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Resources::MissingManifestResourceException*>(message));
 }
 inline ::System::Resources::MissingManifestResourceException* System::Resources::MissingManifestResourceException::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,
                                                                                                                             ::System::Runtime::Serialization::StreamingContext context) {

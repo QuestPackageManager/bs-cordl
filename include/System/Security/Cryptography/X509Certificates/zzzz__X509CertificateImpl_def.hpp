@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -18,6 +17,9 @@ namespace System {
 struct DateTime;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -26,7 +28,7 @@ class X509CertificateImpl;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::X509Certificates::X509CertificateImpl);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Security::Cryptography::X509Certificates {
 // Is value type: false
 // CS Name: System.Security.Cryptography.X509Certificates.X509CertificateImpl
@@ -66,22 +68,22 @@ public:
   /// @brief Method CopyWithPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* CopyWithPrivateKey(::System::Security::Cryptography::RSA* privateKey);
 
-  /// @brief Method Dispose, addr 0x3cb6fa8, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x58fadec, size 0x74, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3cb87ac, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x58fc52c, size 0x4, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method Equals, addr 0x3cb8620, size 0x18c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x58fc3b8, size 0x174, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Finalize, addr 0x3cb87b0, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x58fc530, size 0x54, virtual true, abstract: false, final false
   inline void Finalize();
 
   /// @brief Method GetDSAPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::DSA* GetDSAPrivateKey();
 
-  /// @brief Method GetHashCode, addr 0x3cb8598, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x58fc340, size 0x78, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
   /// @brief Method GetRSAPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -89,10 +91,10 @@ public:
 
   static inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* New_ctor();
 
-  /// @brief Method ThrowIfContextInvalid, addr 0x3cb84dc, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfContextInvalid, addr 0x58fc280, size 0x3c, virtual false, abstract: false, final false
   inline void ThrowIfContextInvalid();
 
-  /// @brief Method .ctor, addr 0x3cb8854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fc584, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_HasPrivateKey, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -149,7 +151,7 @@ public:
   X509CertificateImpl(X509CertificateImpl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2991 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

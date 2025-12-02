@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::XmlIgnoreNamespaceReader::*)(::System::Xml::XmlDocument*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(&::System::Data::XmlIgnoreNamespaceReader::_ctor)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x41a22a8;
+  constexpr static std::size_t addrs = 0x5e4bc7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,13 +25,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlIgnoreNamespaceReader::*)()>(
     &::System::Data::XmlIgnoreNamespaceReader::MoveToFirstAttribute)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x41a2340;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x5e4bd14;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 27));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 46));
     return ___internal_method;
   }
 };
@@ -40,13 +40,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::XmlIgnoreNamespaceReader::*)()>(
     &::System::Data::XmlIgnoreNamespaceReader::MoveToNextAttribute)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x41a2450;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5e4be28;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 28));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 47));
     return ___internal_method;
   }
 };
@@ -71,12 +71,12 @@ inline void System::Data::XmlIgnoreNamespaceReader::_ctor(::System::Xml::XmlDocu
 }
 inline bool System::Data::XmlIgnoreNamespaceReader::MoveToFirstAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 46)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline bool System::Data::XmlIgnoreNamespaceReader::MoveToNextAttribute() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::XmlIgnoreNamespaceReader*>::get(), 47)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 inline ::System::Data::XmlIgnoreNamespaceReader* System::Data::XmlIgnoreNamespaceReader::New_ctor(::System::Xml::XmlDocument* xdoc, ::ArrayW<::StringW, ::Array<::StringW>*> namespacesToIgnore) {

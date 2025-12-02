@@ -7,7 +7,9 @@
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Func_2_def.hpp"
+#include "UnityEngine/zzzz__Component_def.hpp"
 #include "UnityEngine/zzzz__Coroutine_def.hpp"
+#include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__LayerMask_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__ParticleSystem_def.hpp"
@@ -22,8 +24,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::LayerMask, int32_t)>(&::GlobalNamespace::ExtensionMethods::ContainsLayer)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22b3d64;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x31fa958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Coroutine* (*)(::UnityEngine::MonoBehaviour*, ::System::Func_1<::System::Collections::IEnumerator*>*)>(
     &::GlobalNamespace::ExtensionMethods::StartUniqueCoroutine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22b3d94;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x31fa964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -54,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MonoBehaviour*, ::System::Func_1<::System::Collections::IEnumerator*>*)>(
     &::GlobalNamespace::ExtensionMethods::StopUniqueCoroutine)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x22b3e10;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x31fa9e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -71,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::ExtensionMethods::IsDescendantOf)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x22b3e54;
+  constexpr static std::size_t addrs = 0x31faa34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Transform*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion)>(
     &::GlobalNamespace::ExtensionMethods::SetLocalPositionAndRotation)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22b3f20;
+  constexpr static std::size_t addrs = 0x31fab00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,8 +104,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::ExtensionMethods::GetPath)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x22b3f78;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x31fab58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (*)(::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::ExtensionMethods::Reflect)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x22b4078;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x31fac54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture2D> (*)(::UnityEngine::RenderTexture*, ::UnityEngine::TextureFormat)>(
     &::GlobalNamespace::ExtensionMethods::CreateTexture2D)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x22b4200;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x31fade0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -149,7 +151,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(::UnityEngine::Vector2, float_t)>(&::GlobalNamespace::ExtensionMethods::Rotate)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22b4328;
+  constexpr static std::size_t addrs = 0x31faf3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -163,14 +165,56 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::ParticleSystem*, uint32_t)>(&::GlobalNamespace::ExtensionMethods::SetSeed)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22b4370;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x31faf84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "SetSeed", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get(),
                                                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ExtensionMethods.GetFixedSeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Transform*)>(&::GlobalNamespace::ExtensionMethods::GetFixedSeed)> {
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x31fb000;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "GetFixedSeed", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ExtensionMethods.GetFixedSeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::GameObject*)>(&::GlobalNamespace::ExtensionMethods::GetFixedSeed)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x31fb168;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "GetFixedSeed", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::ExtensionMethods.GetFixedSeed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::Component*)>(&::GlobalNamespace::ExtensionMethods::GetFixedSeed)> {
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x31fb184;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "GetFixedSeed", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Component*>::get() })));
     return ___internal_method;
   }
 };
@@ -285,6 +329,24 @@ inline void GlobalNamespace::ExtensionMethods::SetSeed(::UnityEngine::ParticleSy
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ParticleSystem*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, particleSystem, seed);
+}
+inline int32_t GlobalNamespace::ExtensionMethods::GetFixedSeed(::UnityEngine::Transform* transform) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "GetFixedSeed", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Transform*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, transform);
+}
+inline int32_t GlobalNamespace::ExtensionMethods::GetFixedSeed(::UnityEngine::GameObject* gameObject) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "GetFixedSeed", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, gameObject);
+}
+inline int32_t GlobalNamespace::ExtensionMethods::GetFixedSeed(::UnityEngine::Component* component) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ExtensionMethods*>::get(), "GetFixedSeed", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Component*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, component);
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ExtensionMethods::ExtensionMethods() {}

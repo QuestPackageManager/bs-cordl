@@ -1,23 +1,23 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MultiplayerAvatarsData.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarsData_def.hpp"
 #include "GlobalNamespace/zzzz__BitMask128_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::MultiplayerAvatarsData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*, ::System::Collections::Generic::IEnumerable_1<uint32_t>*)>(&::GlobalNamespace::MultiplayerAvatarsData::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x27213f8;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x3650784;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,7 +33,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(
     ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>*, ::GlobalNamespace::BitMask128)>(&::GlobalNamespace::MultiplayerAvatarsData::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2721464;
+  constexpr static std::size_t addrs = 0x36507f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::Serialize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2721470;
+  constexpr static std::size_t addrs = 0x3650800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerAvatarsData::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::SerializeAvatarsData)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x2721498;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x3650828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (::GlobalNamespace::MultiplayerAvatarsData::*)(
     ::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::MultiplayerAvatarsData::CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x2721638;
+  constexpr static std::size_t addrs = 0x36509a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::MultiplayerAvatarsData (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::Deserialize)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2721670;
+  constexpr static std::size_t addrs = 0x36509d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Collections::Generic::List_1<::GlobalNamespace::MultiplayerAvatarData>* (*)(::LiteNetLib::Utils::NetDataReader*)>(&::GlobalNamespace::MultiplayerAvatarsData::DeserializeAvatarsData)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x27216a4;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x3650a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -123,8 +123,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)(::GlobalNamespace::MultiplayerAvatarsData)>(
     &::GlobalNamespace::MultiplayerAvatarsData::Equals)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x27217d4;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x3650b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -138,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)(::System::Object*)>(
     &::GlobalNamespace::MultiplayerAvatarsData::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2721940;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x3650cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -152,8 +152,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::MultiplayerAvatarsData::*)()>(&::GlobalNamespace::MultiplayerAvatarsData::GetHashCode)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x27219d0;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x3650d4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MultiplayerAvatarsData::*)(uint32_t)>(
     &::GlobalNamespace::MultiplayerAvatarsData::SupportsOptionalAvatarDataType)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2721bf4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x3650ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

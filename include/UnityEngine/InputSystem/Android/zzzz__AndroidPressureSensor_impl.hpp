@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidPressureSensor::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidPressureSensor::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4605a58;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x638d7bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

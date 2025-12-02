@@ -33,10 +33,10 @@ public:
 
   static inline ::System::Xml::ByteStack* New_ctor(int32_t growthRate);
 
-  /// @brief Method Pop, addr 0x4241f58, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Pop, addr 0x5f903a4, size 0x48, virtual false, abstract: false, final false
   inline uint8_t Pop();
 
-  /// @brief Method Push, addr 0x4241e88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method Push, addr 0x5f902c8, size 0xdc, virtual false, abstract: false, final false
   inline void Push(uint8_t data);
 
   constexpr int32_t const& __cordl_internal_get_growthRate() const;
@@ -63,7 +63,7 @@ public:
 
   constexpr void __cordl_internal_set_top(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4241e18, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5f90260, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(int32_t growthRate);
 
 protected:
@@ -81,7 +81,7 @@ public:
   ByteStack(ByteStack const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9236 };
 
   /// @brief Field stack, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<uint8_t, ::Array<uint8_t>*> ___stack;

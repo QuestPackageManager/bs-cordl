@@ -17,7 +17,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
         ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*>)>(
         &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::Copy)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2506a30;
+  constexpr static std::size_t addrs = 0x3436590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::GetInstance)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2506aa8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x3436608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::FromExtensions)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2506d10;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x3436868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x2506b4c;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x34366a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(
     ::Org::BouncyCastle::Asn1::X509::AccessDescription*)>(&::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x2506d78;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x34368e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*>)>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2506e20;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x3436980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2506e50;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x343699c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,7 +127,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::AccessDescription*, ::Array<::Org::BouncyCastle::Asn1::X509::AccessDescription*>*> (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::GetAccessDescriptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2506ec0;
+  constexpr static std::size_t addrs = 0x3436a04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToAsn1Object)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x2506ec8;
+  constexpr static std::size_t addrs = 0x3436a0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::*)()>(
     &::Org::BouncyCastle::Asn1::X509::AuthorityInformationAccess::ToString)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2506f28;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x3436a6c;
 
   inline static ::MethodInfo const* methodInfo() {
 

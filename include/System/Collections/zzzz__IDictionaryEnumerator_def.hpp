@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 CORDL_MODULE_EXPORT(IDictionaryEnumerator)
 namespace System::Collections {
 struct DictionaryEntry;
+}
+namespace System::Collections {
+class IEnumerator;
 }
 namespace System {
 class Object;
@@ -17,7 +19,7 @@ class IDictionaryEnumerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::IDictionaryEnumerator);
-// Dependencies System.Collections.IEnumerator
+// Dependencies
 namespace System::Collections {
 // Is value type: false
 // CS Name: System.Collections.IDictionaryEnumerator
@@ -50,7 +52,7 @@ public:
   IDictionaryEnumerator(IDictionaryEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3690 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

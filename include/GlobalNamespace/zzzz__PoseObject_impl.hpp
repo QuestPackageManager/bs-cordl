@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::GlobalNamespace::PoseObject::*)()>(
     &::GlobalNamespace::PoseObject::get_objectTransform)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b1aae8;
+  constexpr static std::size_t addrs = 0x56fa020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), "get_objectTransform",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PoseObject::*)()>(&::GlobalNamespace::PoseObject::get_id)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b1aaf0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x56fa028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PoseObject*>::get(), "get_id",
@@ -36,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PoseObject::*)(::UnityEngine::Transform*, ::GlobalNamespace::PoseObjectIdSO*)>(
     &::GlobalNamespace::PoseObject::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b18c20;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56f8078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

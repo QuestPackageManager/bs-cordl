@@ -3,15 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IBitMask_1_def.hpp"
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BitMaskSparse)
 namespace GlobalNamespace {
 class BitMaskSparse___c;
+}
+namespace GlobalNamespace {
+template <typename T> class IBitMask_1;
+}
+namespace LiteNetLib::Utils {
+class INetSerializable;
 }
 namespace LiteNetLib::Utils {
 class NetDataReader;
@@ -24,6 +27,9 @@ template <typename T> class SortedSet_1;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -50,10 +56,10 @@ public:
 
   static inline ::GlobalNamespace::BitMaskSparse___c* New_ctor();
 
-  /// @brief Method <ToString>b__8_0, addr 0x271feac, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method <ToString>b__8_0, addr 0x364f228, size 0x1c, virtual false, abstract: false, final false
   inline ::StringW _ToString_b__8_0(uint32_t i);
 
-  /// @brief Method .ctor, addr 0x271fea4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364f224, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::BitMaskSparse___c* getStaticF___9();
@@ -79,7 +85,7 @@ public:
   BitMaskSparse___c(BitMaskSparse___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20811 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -87,7 +93,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BitMaskSparse___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IBitMask`1<T>, LiteNetLib.Utils.INetSerializable, System.IEquatable`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BitMaskSparse
@@ -113,24 +119,24 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>"
   constexpr operator ::System::IEquatable_1<::GlobalNamespace::BitMaskSparse*>*() noexcept;
 
-  /// @brief Method Deserialize, addr 0x271e80c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method Deserialize, addr 0x364db80, size 0x9c, virtual true, abstract: false, final true
   inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
 
-  /// @brief Method Equals, addr 0x271fb90, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x364eeec, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::GlobalNamespace::BitMaskSparse* other);
 
-  /// @brief Method GetBits, addr 0x271fc8c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method GetBits, addr 0x364f008, size 0x98, virtual true, abstract: false, final true
   inline uint64_t GetBits(int32_t offset, int32_t count);
 
   static inline ::GlobalNamespace::BitMaskSparse* New_ctor(int32_t bitCount);
 
-  /// @brief Method Serialize, addr 0x271e608, size 0x1ec, virtual true, abstract: false, final true
+  /// @brief Method Serialize, addr 0x364d994, size 0x1d8, virtual true, abstract: false, final true
   inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
 
-  /// @brief Method SetBits, addr 0x271fbfc, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method SetBits, addr 0x364ef68, size 0xa0, virtual true, abstract: false, final true
   inline ::GlobalNamespace::BitMaskSparse* SetBits(int32_t offset, uint64_t bits);
 
-  /// @brief Method ToString, addr 0x271fd24, size 0x124, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x364f0a0, size 0x130, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr int32_t const& __cordl_internal_get__bitCount_k__BackingField() const;
@@ -145,10 +151,10 @@ public:
 
   constexpr void __cordl_internal_set__sparseSet(::System::Collections::Generic::SortedSet_1<uint32_t>* value);
 
-  /// @brief Method .ctor, addr 0x271e27c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364d634, size 0x98, virtual false, abstract: false, final false
   inline void _ctor(int32_t bitCount);
 
-  /// @brief Method get_bitCount, addr 0x271fb88, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_bitCount, addr 0x364eee4, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_bitCount();
 
   /// @brief Convert to "::GlobalNamespace::IBitMask_1<::GlobalNamespace::BitMaskSparse*>"
@@ -175,7 +181,7 @@ public:
   BitMaskSparse(BitMaskSparse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16978 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20812 };
 
   /// @brief Field <bitCount>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____bitCount_k__BackingField;

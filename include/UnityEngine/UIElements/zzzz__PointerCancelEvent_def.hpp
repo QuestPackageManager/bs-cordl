@@ -34,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a33d20, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b70b54, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerCancelEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a33d18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b70b50, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent___c* getStaticF___9();
@@ -59,7 +59,7 @@ public:
   PointerCancelEvent___c(PointerCancelEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5919 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4546 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -76,18 +76,21 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerCancelEvent___c;
 
-  /// @brief Method Init, addr 0x4a337cc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x6b706a0, size 0x54, virtual true, abstract: false, final false
   inline void Init();
 
-  /// @brief Method LocalInit, addr 0x4a3381c, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method LocalInit, addr 0x6b706f4, size 0xa8, virtual false, abstract: false, final false
   inline void LocalInit();
 
   static inline ::UnityEngine::UIElements::PointerCancelEvent* New_ctor();
 
-  /// @brief Method PostDispatch, addr 0x4a33970, size 0x34c, virtual true, abstract: false, final false
+  /// @brief Method PostDispatch, addr 0x6b7091c, size 0x1e0, virtual true, abstract: false, final false
   inline void PostDispatch(::UnityEngine::UIElements::IPanel* panel);
 
-  /// @brief Method .ctor, addr 0x4a33920, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method PreDispatch, addr 0x6b707f0, size 0x12c, virtual true, abstract: false, final false
+  inline void PreDispatch(::UnityEngine::UIElements::IPanel* panel);
+
+  /// @brief Method .ctor, addr 0x6b7079c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -105,12 +108,12 @@ public:
   PointerCancelEvent(PointerCancelEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4547 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerCancelEvent, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerCancelEvent, 0xf8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerCancelEvent);

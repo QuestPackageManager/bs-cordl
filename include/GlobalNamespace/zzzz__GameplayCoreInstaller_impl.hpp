@@ -6,7 +6,7 @@
 #include "Zenject/zzzz__MonoInstaller_impl.hpp"
 #include "GlobalNamespace/zzzz__GameplayCoreInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__ArcAndObstacleHapticEffectManager_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManager_def.hpp"
 #include "GlobalNamespace/zzzz__BadNoteCutEffectSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__BeatLineManager_def.hpp"
 #include "GlobalNamespace/zzzz__EffectPoolsManualInstaller_def.hpp"
@@ -15,14 +15,15 @@
 #include "GlobalNamespace/zzzz__NoteCutScoreSpawner_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessPerLevelModel_def.hpp"
 #include "GlobalNamespace/zzzz__PlayerHeightDetector_def.hpp"
+#include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "GlobalNamespace/zzzz__SongProfilingController_def.hpp"
 #include "Tweening/zzzz__SongTimeTweeningManager_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GameplayCoreInstaller.InstallBindings
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x18c8;
-  constexpr static std::size_t addrs = 0x3bf4294;
+  constexpr static std::size_t size = 0x1b9c;
+  constexpr static std::size_t addrs = 0x57e73a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,8 +36,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayCoreInstaller::*)()>(&::GlobalNamespace::GameplayCoreInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bf5b5c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e8f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayCoreInstaller*>::get(), ".ctor",
@@ -67,18 +68,6 @@ constexpr ::UnityW<::Tweening::SongTimeTweeningManager> const& GlobalNamespace::
 constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__songTimeTweeningManager(::UnityW<::Tweening::SongTimeTweeningManager> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songTimeTweeningManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__audioManager() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
-}
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__audioManager() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
-}
-constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::PlayerHeightDetector>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__playerHeightDetectorPrefab() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -165,6 +154,18 @@ constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__son
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____songProfilingControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::GlobalNamespace::AudioManager*& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__audioManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManager;
+}
+constexpr ::GlobalNamespace::AudioManager* const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__audioManager() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____audioManager;
+}
+constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__audioManager(::GlobalNamespace::AudioManager* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::GlobalNamespace::GameplayCoreSceneSetupData*& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__sceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____sceneSetupData;
@@ -200,6 +201,18 @@ constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& 
 constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__commandLineArguments(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____commandLineArguments = value;
+}
+constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__settingsManager() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsManager;
+}
+constexpr ::GlobalNamespace::SettingsManager* const& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__settingsManager() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____settingsManager;
+}
+constexpr void GlobalNamespace::GameplayCoreInstaller::__cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____settingsManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Nullable_1<::GlobalNamespace::PerformanceToolLauncher_OverrideConfig>& GlobalNamespace::GameplayCoreInstaller::__cordl_internal_get__performanceToolConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

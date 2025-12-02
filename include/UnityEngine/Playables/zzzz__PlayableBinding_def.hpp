@@ -46,12 +46,12 @@ namespace UnityEngine::Playables {
 class CORDL_TYPE PlayableBinding_CreateOutputMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x48cc2fc, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x68d0ad8, size 0x14, virtual true, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput Invoke(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
 
   static inline ::UnityEngine::Playables::PlayableBinding_CreateOutputMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x48cc270, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68d0a6c, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -69,7 +69,7 @@ public:
   PlayableBinding_CreateOutputMethod(PlayableBinding_CreateOutputMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11279 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -96,21 +96,21 @@ public:
 
   __declspec(property(get = get_streamName)) ::StringW streamName;
 
-  /// @brief Method CreateInternal, addr 0x48cc1ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CreateInternal, addr 0x68d09e0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableBinding CreateInternal(::StringW name, ::UnityEngine::Object* sourceObject, ::System::Type* sourceType,
                                                                          ::UnityEngine::Playables::PlayableBinding_CreateOutputMethod* createFunction);
 
-  /// @brief Method CreateOutput, addr 0x48cc104, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method CreateOutput, addr 0x68d08f0, size 0x94, virtual false, abstract: false, final false
   inline ::UnityEngine::Playables::PlayableOutput CreateOutput(::UnityEngine::Playables::PlayableGraph graph);
 
   static inline double_t getStaticF_DefaultDuration();
 
   static inline ::ArrayW<::UnityEngine::Playables::PlayableBinding, ::Array<::UnityEngine::Playables::PlayableBinding>*> getStaticF_None();
 
-  /// @brief Method get_sourceObject, addr 0x48cc0fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_sourceObject, addr 0x68d08e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_sourceObject();
 
-  /// @brief Method get_streamName, addr 0x48cc0f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_streamName, addr 0x68d08e0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_streamName();
 
   static inline void setStaticF_DefaultDuration(double_t value);
@@ -128,7 +128,7 @@ public:
                             ::UnityEngine::Playables::PlayableBinding_CreateOutputMethod* m_CreateOutputMethod) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11280 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10650 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

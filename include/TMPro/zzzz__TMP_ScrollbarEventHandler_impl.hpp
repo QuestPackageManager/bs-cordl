@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "TMPro/TMP_ScrollbarEventHandler.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISelectHandler_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "TMPro/zzzz__TMP_ScrollbarEventHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDeselectHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISelectHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 //  Writing Method size for method: ::TMPro::TMP_ScrollbarEventHandler.OnPointerClick
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_ScrollbarEventHandler::OnPointerClick)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x47fdd50;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x677bbf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::TMPro::TMP_ScrollbarEventHandler::OnSelect)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x47fddb8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x677bc60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::TMPro::TMP_ScrollbarEventHandler::OnDeselect)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47fde30;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x677bce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -57,8 +57,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_ScrollbarEventHandler::*)()>(&::TMPro::TMP_ScrollbarEventHandler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47fdea4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x677bd5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_ScrollbarEventHandler*>::get(), ".ctor",

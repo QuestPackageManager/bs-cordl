@@ -6,13 +6,9 @@
 #include "GlobalNamespace/zzzz__BeatmapLevelPackSO_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsSO_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductPacksSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4LevelProductPacksSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS5LevelProductPacksSO_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__PackPromoInfoSO_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessSO_def.hpp"
-#include "GlobalNamespace/zzzz__SonyLeaderboardIdsSO_def.hpp"
-#include "GlobalNamespace/zzzz__SonyLevelProductPackSourceSO_def.hpp"
 #include "GlobalNamespace/zzzz__SteamLevelProductPacksSO_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceGameObject_def.hpp"
 #include "UnityEngine/AddressableAssets/zzzz__AssetReferenceT_1_def.hpp"
@@ -32,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_riftLeaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ec4;
+  constexpr static std::size_t addrs = 0x36051bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
@@ -46,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)(::GlobalNamespace::LeaderboardIdsSO*)>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_riftLeaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ecc;
+  constexpr static std::size_t addrs = 0x36051c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_questLeaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ed4;
+  constexpr static std::size_t addrs = 0x36051cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
@@ -75,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)(::GlobalNamespace::LeaderboardIdsSO*)>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_questLeaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3edc;
+  constexpr static std::size_t addrs = 0x36051d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_steamLeaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ee4;
+  constexpr static std::size_t addrs = 0x36051dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
@@ -104,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)(::GlobalNamespace::LeaderboardIdsSO*)>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_steamLeaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3eec;
+  constexpr static std::size_t addrs = 0x36051e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -113,71 +109,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LeaderboardIds.get_ps4LeaderboardIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)()>(
-    &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_ps4LeaderboardIds)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ef4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
-                                                                               "get_ps4LeaderboardIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LeaderboardIds.set_ps4LeaderboardIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)(::GlobalNamespace::SonyLeaderboardIdsSO*)>(
-    &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_ps4LeaderboardIds)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3efc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(), "set_ps4LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLeaderboardIdsSO*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LeaderboardIds.get_ps5LeaderboardIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)()>(
-    &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_ps5LeaderboardIds)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f04;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
-                                                                               "get_ps5LeaderboardIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LeaderboardIds.set_ps5LeaderboardIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)(::GlobalNamespace::SonyLeaderboardIdsSO*)>(
-    &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_ps5LeaderboardIds)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f0c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(), "set_ps5LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLeaderboardIdsSO*>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LeaderboardIds._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LeaderboardIds::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LeaderboardIds::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f14;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x36051ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
@@ -221,30 +159,6 @@ constexpr void GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_interna
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____steamLeaderboardIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_internal_get__ps4LeaderboardIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps4LeaderboardIds;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_internal_get__ps4LeaderboardIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps4LeaderboardIds;
-}
-constexpr void GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_internal_set__ps4LeaderboardIds(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4LeaderboardIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_internal_get__ps5LeaderboardIds() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps5LeaderboardIds;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_internal_get__ps5LeaderboardIds() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps5LeaderboardIds;
-}
-constexpr void GlobalNamespace::PackDefinitionSO_LeaderboardIds::__cordl_internal_set__ps5LeaderboardIds(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5LeaderboardIds)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_riftLeaderboardIds() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
                                                                              "get_riftLeaderboardIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -278,28 +192,6 @@ inline void GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_steamLeaderboa
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::LeaderboardIdsSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_ps4LeaderboardIds() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
-                                                                             "get_ps4LeaderboardIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_ps4LeaderboardIds(::GlobalNamespace::SonyLeaderboardIdsSO* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(), "set_ps4LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLeaderboardIdsSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> GlobalNamespace::PackDefinitionSO_LeaderboardIds::get_ps5LeaderboardIds() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
-                                                                             "get_ps5LeaderboardIds", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionSO_LeaderboardIds::set_ps5LeaderboardIds(::GlobalNamespace::SonyLeaderboardIdsSO* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(), "set_ps5LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLeaderboardIdsSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 inline void GlobalNamespace::PackDefinitionSO_LeaderboardIds::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LeaderboardIds*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -316,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_steamLevelProductPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f1c;
+  constexpr static std::size_t addrs = 0x36051f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
@@ -330,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)(::GlobalNamespace::SteamLevelProductPacksSO*)>(
     &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_steamLevelProductPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f24;
+  constexpr static std::size_t addrs = 0x36051f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -345,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_oculusLevelProductPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f2c;
+  constexpr static std::size_t addrs = 0x3605200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
@@ -359,7 +251,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)(::GlobalNamespace::OculusLevelProductPacksSO*)>(
     &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_oculusLevelProductPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f34;
+  constexpr static std::size_t addrs = 0x3605208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -368,101 +260,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks.get_ps4LevelProductPacks
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)()>(
-    &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_ps4LevelProductPacks)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f3c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
-                                                                               "get_ps4LevelProductPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks.set_ps4LevelProductPacks
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)(::GlobalNamespace::PS4LevelProductPacksSO*)>(
-    &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_ps4LevelProductPacks)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f44;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(), "set_ps4LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PS4LevelProductPacksSO*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks.get_ps5LevelProductPacks
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)()>(
-    &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_ps5LevelProductPacks)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f4c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
-                                                                               "get_ps5LevelProductPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks.set_ps5LevelProductPacks
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)(::GlobalNamespace::PS5LevelProductPacksSO*)>(
-    &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_ps5LevelProductPacks)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f54;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(), "set_ps5LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PS5LevelProductPacksSO*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks.get_sonyLevelProductPackSource
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO> (
-    ::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)()>(&::GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_sonyLevelProductPackSource)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f5c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
-                                                                               "get_sonyLevelProductPackSource", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks.set_sonyLevelProductPackSource
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)(::GlobalNamespace::SonyLevelProductPackSourceSO*)>(
-    &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_sonyLevelProductPackSource)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f64;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(), "set_sonyLevelProductPackSource",
-                                    std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLevelProductPackSourceSO*>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionSO_LevelProductPacks._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_LevelProductPacks::*)()>(
     &::GlobalNamespace::PackDefinitionSO_LevelProductPacks::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f6c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3605210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
@@ -494,42 +298,6 @@ constexpr void GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_inte
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____oculusLevelProductPacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO>& GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_get__sonyLevelProductPackSource() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sonyLevelProductPackSource;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO> const& GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_get__sonyLevelProductPackSource() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____sonyLevelProductPackSource;
-}
-constexpr void GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_set__sonyLevelProductPackSource(::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____sonyLevelProductPackSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>& GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_get__ps4LevelProductPacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps4LevelProductPacks;
-}
-constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> const& GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_get__ps4LevelProductPacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps4LevelProductPacks;
-}
-constexpr void GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_set__ps4LevelProductPacks(::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps4LevelProductPacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>& GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_get__ps5LevelProductPacks() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps5LevelProductPacks;
-}
-constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> const& GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_get__ps5LevelProductPacks() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____ps5LevelProductPacks;
-}
-constexpr void GlobalNamespace::PackDefinitionSO_LevelProductPacks::__cordl_internal_set__ps5LevelProductPacks(::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____ps5LevelProductPacks)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_steamLevelProductPacks() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
                                                                              "get_steamLevelProductPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -552,39 +320,6 @@ inline void GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_oculusLevel
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OculusLevelProductPacksSO*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_ps4LevelProductPacks() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
-                                                                             "get_ps4LevelProductPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_ps4LevelProductPacks(::GlobalNamespace::PS4LevelProductPacksSO* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(), "set_ps4LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PS4LevelProductPacksSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_ps5LevelProductPacks() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
-                                                                             "get_ps5LevelProductPacks", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_ps5LevelProductPacks(::GlobalNamespace::PS5LevelProductPacksSO* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(), "set_ps5LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PS5LevelProductPacksSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline ::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO> GlobalNamespace::PackDefinitionSO_LevelProductPacks::get_sonyLevelProductPackSource() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
-                                                                             "get_sonyLevelProductPackSource", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SonyLevelProductPackSourceSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionSO_LevelProductPacks::set_sonyLevelProductPackSource(::GlobalNamespace::SonyLevelProductPackSourceSO* value) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(), "set_sonyLevelProductPackSource", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SonyLevelProductPackSourceSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
 inline void GlobalNamespace::PackDefinitionSO_LevelProductPacks::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_LevelProductPacks*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -599,8 +334,8 @@ constexpr ::GlobalNamespace::PackDefinitionSO_LevelProductPacks::PackDefinitionS
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO_Credits::*)()>(&::GlobalNamespace::PackDefinitionSO_Credits::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3f74;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3605214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO_Credits*>::get(), ".ctor",
@@ -648,7 +383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BeatmapLevelPackSO> (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ddc;
+  constexpr static std::size_t addrs = 0x36050a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_content",
@@ -662,7 +397,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO::*)(::GlobalNamespace::BeatmapLevelPackSO*)>(
     &::GlobalNamespace::PackDefinitionSO::set_content)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3de4;
+  constexpr static std::size_t addrs = 0x36050ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -676,7 +411,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3dec;
+  constexpr static std::size_t addrs = 0x36050b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_order",
@@ -689,7 +424,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO::*)(int32_t)>(&::GlobalNamespace::PackDefinitionSO::set_order)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3df4;
+  constexpr static std::size_t addrs = 0x36050bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -704,7 +439,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PackDefinitionSO_Tags (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_tags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3dfc;
+  constexpr static std::size_t addrs = 0x36050c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_tags",
@@ -718,7 +453,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO::*)(::GlobalNamespace::PackDefinitionSO_Tags)>(
     &::GlobalNamespace::PackDefinitionSO::set_tags)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3e04;
+  constexpr static std::size_t addrs = 0x36050cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -733,7 +468,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PackDefinitionSO_LevelProductPacks* (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_levelProductPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3e0c;
+  constexpr static std::size_t addrs = 0x36050d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -747,7 +482,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO::*)(::GlobalNamespace::PackDefinitionSO_LevelProductPacks*)>(
     &::GlobalNamespace::PackDefinitionSO::set_levelProductPacks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3e14;
+  constexpr static std::size_t addrs = 0x36050dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -762,7 +497,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PackDefinitionSO_LeaderboardIds* (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_leaderboardIds)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3e1c;
+  constexpr static std::size_t addrs = 0x36050e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -776,7 +511,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::AddressableAssets::AssetReferenceT_1<::UnityW<::GlobalNamespace::PackPromoInfoSO>>* (
     ::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_packPromoInfoReference)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3e24;
+  constexpr static std::size_t addrs = 0x36050ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -789,7 +524,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_isBuiltIn)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26d3e2c;
+  constexpr static std::size_t addrs = 0x36050f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_isBuiltIn",
@@ -802,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_isDLC)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26cc814;
+  constexpr static std::size_t addrs = 0x3605100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_isDLC",
@@ -815,7 +550,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_isBuiltInContent)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26d3e38;
+  constexpr static std::size_t addrs = 0x360510c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -828,7 +563,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_isOST)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26cc800;
+  constexpr static std::size_t addrs = 0x3605120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_isOST",
@@ -842,7 +577,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_isEntitlementCheckSkipped)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x26cc820;
+  constexpr static std::size_t addrs = 0x3605134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -855,7 +590,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_isHidden)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26d3e4c;
+  constexpr static std::size_t addrs = 0x3605148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_isHidden",
@@ -868,7 +603,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_isInDevelopment)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26d3e5c;
+  constexpr static std::size_t addrs = 0x3605158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -880,8 +615,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::get_hasCredits)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x26d3e68;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x3605164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_hasCredits",
@@ -895,7 +630,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::PerceivedLoudnessSO> (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_perceivedLoudness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ea4;
+  constexpr static std::size_t addrs = 0x360519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(),
@@ -909,7 +644,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO::*)(::GlobalNamespace::PerceivedLoudnessSO*)>(
     &::GlobalNamespace::PackDefinitionSO::set_perceivedLoudness)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3eac;
+  constexpr static std::size_t addrs = 0x36051a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -924,7 +659,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PackDefinitionSO_Credits* (::GlobalNamespace::PackDefinitionSO::*)()>(
     &::GlobalNamespace::PackDefinitionSO::get_credits)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3eb4;
+  constexpr static std::size_t addrs = 0x36051ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), "get_credits",
@@ -937,7 +672,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionSO::*)()>(&::GlobalNamespace::PackDefinitionSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3ebc;
+  constexpr static std::size_t addrs = 0x36051b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionSO*>::get(), ".ctor",

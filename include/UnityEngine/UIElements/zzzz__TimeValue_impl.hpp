@@ -1,20 +1,37 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TimeValue.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
+#include "Unity/Properties/zzzz__ContainerPropertyBag_1_impl.hpp"
+#include "Unity/Properties/zzzz__Property_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeUnit_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TimeUnit_def.hpp"
+#include "UnityEngine/UIElements/zzzz__TimeValue_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TimeValue.get_value
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::get_value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a87634;
+  constexpr static std::size_t addrs = 0x6a60c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "get_value",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TimeValue.set_value
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(float_t)>(&::UnityEngine::UIElements::TimeValue::set_value)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a60c10;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "set_value", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -24,11 +41,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TimeUnit (::UnityEngine::UIElements::TimeValue::*)()>(
     &::UnityEngine::UIElements::TimeValue::get_unit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8763c;
+  constexpr static std::size_t addrs = 0x6a60c18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "get_unit",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TimeValue.set_unit
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(::UnityEngine::UIElements::TimeUnit)>(
+    &::UnityEngine::UIElements::TimeValue::set_unit)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a60c20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "set_unit", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TimeUnit>::get() })));
     return ___internal_method;
   }
 };
@@ -37,7 +69,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(float_t)>(&::UnityEngine::UIElements::TimeValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a87644;
+  constexpr static std::size_t addrs = 0x6a60c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimeValue::*)(float_t, ::UnityEngine::UIElements::TimeUnit)>(
     &::UnityEngine::UIElements::TimeValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a87650;
+  constexpr static std::size_t addrs = 0x6a60c34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +100,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TimeValue (*)(float_t)>(
     &::UnityEngine::UIElements::TimeValue::op_Implicit___UnityEngine__UIElements__TimeValue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a8765c;
+  constexpr static std::size_t addrs = 0x6a60c40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +114,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TimeValue, ::UnityEngine::UIElements::TimeValue)>(
     &::UnityEngine::UIElements::TimeValue::op_Equality)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a87664;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6a60c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::TimeValue, ::UnityEngine::UIElements::TimeValue)>(
     &::UnityEngine::UIElements::TimeValue::op_Inequality)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a8768c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6a60c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TimeValue::*)(::UnityEngine::UIElements::TimeValue)>(
     &::UnityEngine::UIElements::TimeValue::Equals)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a876b4;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6a60c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,8 +160,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TimeValue::*)(::System::Object*)>(&::UnityEngine::UIElements::TimeValue::Equals)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x4a876dc;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6a60cac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +174,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::GetHashCode)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4a87768;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6a60d40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +189,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::TimeValue::*)()>(&::UnityEngine::UIElements::TimeValue::ToString)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4a87790;
+  constexpr static std::size_t addrs = 0x6a60d64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -171,10 +203,22 @@ inline float_t UnityEngine::UIElements::TimeValue::get_value() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
+inline void UnityEngine::UIElements::TimeValue::set_value(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "set_value",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityEngine::UIElements::TimeUnit UnityEngine::UIElements::TimeValue::get_unit() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "get_unit",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TimeUnit, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TimeValue::set_unit(::UnityEngine::UIElements::TimeUnit value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue>::get(), "set_unit", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TimeUnit>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::TimeValue::_ctor(float_t value) {
   static auto* ___internal_method =
@@ -246,3 +290,303 @@ constexpr ::UnityEngine::UIElements::TimeValue::TimeValue(float_t m_Value, ::Uni
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::TimeValue::TimeValue() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61038;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61040;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::TimeValue>)>(&::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61048;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::TimeValue>, float_t)>(&::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61050;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a60f70;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline float_t UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::GetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::SetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container, float_t value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty* UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_TimeValue_ValueProperty::PropertyBag_TimeValue_ValueProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty.get_Name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::get_Name)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61058;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 12));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty.get_IsReadOnly
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::get_IsReadOnly)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61060;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 13));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty.GetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::TimeUnit (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::TimeValue>)>(&::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::GetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61068;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 14));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty.SetValue
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)(
+    ::ByRef<::UnityEngine::UIElements::TimeValue>, ::UnityEngine::UIElements::TimeUnit)>(&::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::SetValue)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a61070;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method =
+        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(),
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 15));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::*)()>(
+    &::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::_ctor)> {
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x6a60fd4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), ".ctor",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+constexpr ::StringW& UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::__cordl_internal_get__Name_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr ::StringW const& UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::__cordl_internal_get__Name_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____Name_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::__cordl_internal_set__Name_k__BackingField(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____Name_k__BackingField)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::__cordl_internal_get__IsReadOnly_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::__cordl_internal_get__IsReadOnly_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____IsReadOnly_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::__cordl_internal_set__IsReadOnly_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____IsReadOnly_k__BackingField = value;
+}
+inline ::StringW UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::get_Name() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline bool UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::get_IsReadOnly() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::TimeUnit UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::GetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 14)));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::TimeUnit, false>(this, ___internal_method, container);
+}
+inline void UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::SetValue(::ByRef<::UnityEngine::UIElements::TimeValue> container, ::UnityEngine::UIElements::TimeUnit value) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), 15)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, container, value);
+}
+inline void UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty* UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::PropertyBag_TimeValue_UnitProperty::PropertyBag_TimeValue_UnitProperty() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::TimeValue_PropertyBag._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimeValue_PropertyBag::*)()>(
+    &::UnityEngine::UIElements::TimeValue_PropertyBag::_ctor)> {
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x6a60e5c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue_PropertyBag*>::get(),
+                                                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::TimeValue_PropertyBag::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimeValue_PropertyBag*>::get(), ".ctor",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline ::UnityEngine::UIElements::TimeValue_PropertyBag* UnityEngine::UIElements::TimeValue_PropertyBag::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::TimeValue_PropertyBag*>());
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::TimeValue_PropertyBag::TimeValue_PropertyBag() {}

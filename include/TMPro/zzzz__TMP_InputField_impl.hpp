@@ -1,32 +1,21 @@
 #pragma once
 // IWYU pragma private; include "TMPro/TMP_InputField.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__MulticastDelegate_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IScrollHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_impl.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_3_impl.hpp"
-#include "UnityEngine/UI/zzzz__ICanvasElement_impl.hpp"
-#include "UnityEngine/UI/zzzz__ILayoutElement_impl.hpp"
 #include "UnityEngine/UI/zzzz__Selectable_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
-#include "UnityEngine/zzzz__Rect_impl.hpp"
+#include "UnityEngine/zzzz__KeyCode_impl.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboardType_impl.hpp"
 #include "UnityEngine/zzzz__TouchScreenKeyboard_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "TMPro/zzzz__TMP_InputField_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__AsyncCallback_def.hpp"
 #include "System/zzzz__IAsyncResult_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__TMP_FontAsset_def.hpp"
@@ -34,12 +23,23 @@
 #include "TMPro/zzzz__TMP_InputValidator_def.hpp"
 #include "TMPro/zzzz__TMP_ScrollbarEventHandler_def.hpp"
 #include "TMPro/zzzz__TMP_Text_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__AxisEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseInput_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IBeginDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ICancelHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEndDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerClickHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__IScrollHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__ISubmitHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/UI/zzzz__CanvasUpdate_def.hpp"
 #include "UnityEngine/UI/zzzz__Graphic_def.hpp"
+#include "UnityEngine/UI/zzzz__ICanvasElement_def.hpp"
+#include "UnityEngine/UI/zzzz__ILayoutElement_def.hpp"
 #include "UnityEngine/UI/zzzz__LayoutGroup_def.hpp"
 #include "UnityEngine/UI/zzzz__RectMask2D_def.hpp"
 #include "UnityEngine/UI/zzzz__Scrollbar_def.hpp"
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField_OnValidateInput::*)(::System::Object*, ::System::IntPtr)>(
     &::TMPro::TMP_InputField_OnValidateInput::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47f73ac;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6774080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -130,7 +130,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::TMPro::TMP_InputField_OnValidateInput::*)(::StringW, int32_t, char16_t)>(
     &::TMPro::TMP_InputField_OnValidateInput::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47f744c;
+  constexpr static std::size_t addrs = 0x6774100;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IAsyncResult* (
     ::TMPro::TMP_InputField_OnValidateInput::*)(::StringW, int32_t, char16_t, ::System::AsyncCallback*, ::System::Object*)>(&::TMPro::TMP_InputField_OnValidateInput::BeginInvoke)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47f7460;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6774114;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -159,8 +159,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::TMPro::TMP_InputField_OnValidateInput::*)(::System::IAsyncResult*)>(
     &::TMPro::TMP_InputField_OnValidateInput::EndInvoke)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47f7520;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6774190;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,8 +200,8 @@ constexpr ::TMPro::TMP_InputField_OnValidateInput::TMP_InputField_OnValidateInpu
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField_SubmitEvent::*)()>(&::TMPro::TMP_InputField_SubmitEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47f7548;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x67741b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField_SubmitEvent*>::get(), ".ctor",
@@ -223,8 +223,8 @@ constexpr ::TMPro::TMP_InputField_SubmitEvent::TMP_InputField_SubmitEvent() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField_OnChangeEvent::*)()>(&::TMPro::TMP_InputField_OnChangeEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47f7590;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6774200;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField_OnChangeEvent*>::get(), ".ctor",
@@ -246,8 +246,8 @@ constexpr ::TMPro::TMP_InputField_OnChangeEvent::TMP_InputField_OnChangeEvent() 
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField_SelectionEvent::*)()>(&::TMPro::TMP_InputField_SelectionEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47f75d8;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x677424c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField_SelectionEvent*>::get(), ".ctor",
@@ -269,8 +269,8 @@ constexpr ::TMPro::TMP_InputField_SelectionEvent::TMP_InputField_SelectionEvent(
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField_TextSelectionEvent::*)()>(&::TMPro::TMP_InputField_TextSelectionEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47f7620;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6774298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField_TextSelectionEvent*>::get(), ".ctor",
@@ -293,8 +293,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField_TouchScreenKeyboardEvent::*)()>(
     &::TMPro::TMP_InputField_TouchScreenKeyboardEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x47f7668;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x67742e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField_TouchScreenKeyboardEvent*>::get(),
@@ -320,398 +320,398 @@ constexpr ::TMPro::TMP_InputField_EditState::TMP_InputField_EditState(int32_t va
 constexpr ::TMPro::TMP_InputField_EditState::TMP_InputField_EditState() {}
 constexpr ::TMPro::TMP_InputField_EditState TMPro::TMP_InputField_EditState::Continue{ static_cast<int32_t>(0x0) };
 constexpr ::TMPro::TMP_InputField_EditState TMPro::TMP_InputField_EditState::Finish{ static_cast<int32_t>(0x1) };
-//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__276._ctor
+//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__295._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__276::*)(int32_t)>(&::TMPro::TMP_InputField__CaretBlink_d__276::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47f76b0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__295::*)(int32_t)>(&::TMPro::TMP_InputField__CaretBlink_d__295::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6774330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__276.System_IDisposable_Dispose
+//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__295.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__276::*)()>(
-    &::TMPro::TMP_InputField__CaretBlink_d__276::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(
+    &::TMPro::TMP_InputField__CaretBlink_d__295::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f76d8;
+  constexpr static std::size_t addrs = 0x6774338;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__276.MoveNext
+//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__295.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField__CaretBlink_d__276::*)()>(&::TMPro::TMP_InputField__CaretBlink_d__276::MoveNext)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x47f76dc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(&::TMPro::TMP_InputField__CaretBlink_d__295::MoveNext)> {
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x677433c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), "MoveNext",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), "MoveNext",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__276.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__295.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__CaretBlink_d__276::*)()>(
-    &::TMPro::TMP_InputField__CaretBlink_d__276::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(
+    &::TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f77e0;
+  constexpr static std::size_t addrs = 0x6774478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__276.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__295.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__276::*)()>(
-    &::TMPro::TMP_InputField__CaretBlink_d__276::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(
+    &::TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47f77e8;
+  constexpr static std::size_t addrs = 0x6774480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), "System.Collections.IEnumerator.Reset",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), "System.Collections.IEnumerator.Reset",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__276.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::TMPro::TMP_InputField__CaretBlink_d__295.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__CaretBlink_d__276::*)()>(
-    &::TMPro::TMP_InputField__CaretBlink_d__276::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__CaretBlink_d__295::*)()>(
+    &::TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f7820;
+  constexpr static std::size_t addrs = 0x67744b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_get___1__state() {
+constexpr int32_t& TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_get___1__state() const {
+constexpr int32_t const& TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_set___1__state(int32_t value) {
+constexpr void TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::TMPro::TMP_InputField>& TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::TMPro::TMP_InputField>& TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::TMPro::TMP_InputField> const& TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::TMPro::TMP_InputField> const& TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void TMPro::TMP_InputField__CaretBlink_d__276::__cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value) {
+constexpr void TMPro::TMP_InputField__CaretBlink_d__295::__cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void TMPro::TMP_InputField__CaretBlink_d__276::_ctor(int32_t __1__state) {
+inline void TMPro::TMP_InputField__CaretBlink_d__295::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void TMPro::TMP_InputField__CaretBlink_d__276::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(),
+inline void TMPro::TMP_InputField__CaretBlink_d__295::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool TMPro::TMP_InputField__CaretBlink_d__276::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), "MoveNext",
+inline bool TMPro::TMP_InputField__CaretBlink_d__295::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), "MoveNext",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* TMPro::TMP_InputField__CaretBlink_d__276::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void TMPro::TMP_InputField__CaretBlink_d__276::System_Collections_IEnumerator_Reset() {
+inline void TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), "System.Collections.IEnumerator.Reset",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), "System.Collections.IEnumerator.Reset",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* TMPro::TMP_InputField__CaretBlink_d__276::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* TMPro::TMP_InputField__CaretBlink_d__295::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__276*>::get(), "System.Collections.IEnumerator.get_Current",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__CaretBlink_d__295*>::get(), "System.Collections.IEnumerator.get_Current",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::TMPro::TMP_InputField__CaretBlink_d__276* TMPro::TMP_InputField__CaretBlink_d__276::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_InputField__CaretBlink_d__276*>(__1__state));
+inline ::TMPro::TMP_InputField__CaretBlink_d__295* TMPro::TMP_InputField__CaretBlink_d__295::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_InputField__CaretBlink_d__295*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr TMPro::TMP_InputField__CaretBlink_d__276::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr TMPro::TMP_InputField__CaretBlink_d__295::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* TMPro::TMP_InputField__CaretBlink_d__276::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>* TMPro::TMP_InputField__CaretBlink_d__295::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr TMPro::TMP_InputField__CaretBlink_d__276::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr TMPro::TMP_InputField__CaretBlink_d__295::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* TMPro::TMP_InputField__CaretBlink_d__276::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* TMPro::TMP_InputField__CaretBlink_d__295::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr TMPro::TMP_InputField__CaretBlink_d__276::operator ::System::IDisposable*() noexcept {
+constexpr TMPro::TMP_InputField__CaretBlink_d__295::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* TMPro::TMP_InputField__CaretBlink_d__276::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* TMPro::TMP_InputField__CaretBlink_d__295::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_InputField__CaretBlink_d__276::TMP_InputField__CaretBlink_d__276() {}
-//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294._ctor
+constexpr ::TMPro::TMP_InputField__CaretBlink_d__295::TMP_InputField__CaretBlink_d__295() {}
+//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::*)(int32_t)>(
-    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47f7828;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)(int32_t)>(
+    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67744c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294.System_IDisposable_Dispose
+//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::*)()>(
-    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
+    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47f7850;
+  constexpr static std::size_t addrs = 0x67744c8;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294.MoveNext
+//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::*)()>(
-    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::MoveNext)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x47f7854;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
+    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::MoveNext)> {
+  constexpr static std::size_t size = 0x20c;
+  constexpr static std::size_t addrs = 0x67744cc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::*)()>(
-    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
+    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f7a7c;
+  constexpr static std::size_t addrs = 0x67746d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::*)()>(
-    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
+    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47f7a84;
+  constexpr static std::size_t addrs = 0x67746e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::*)()>(
-    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::*)()>(
+    &::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47f7abc;
+  constexpr static std::size_t addrs = 0x6774718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get___1__state() {
+constexpr int32_t& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get___1__state() const {
+constexpr int32_t const& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_set___1__state(int32_t value) {
+constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::TMPro::TMP_InputField>& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::TMPro::TMP_InputField>& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::TMPro::TMP_InputField> const& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::TMPro::TMP_InputField> const& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value) {
+constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_set___4__this(::UnityW<::TMPro::TMP_InputField> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::EventSystems::PointerEventData*& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get_eventData() {
+constexpr ::UnityEngine::EventSystems::PointerEventData*& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get_eventData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventData;
 }
-constexpr ::UnityEngine::EventSystems::PointerEventData* const& TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_get_eventData() const {
+constexpr ::UnityEngine::EventSystems::PointerEventData* const& TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_get_eventData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___eventData;
 }
-constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::__cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value) {
+constexpr void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::__cordl_internal_set_eventData(::UnityEngine::EventSystems::PointerEventData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___eventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::_ctor(int32_t __1__state) {
+inline void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_IDisposable_Dispose() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+inline void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_IDisposable_Dispose() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                                              "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool TMPro::TMP_InputField__MouseDragOutsideRect_d__294::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+inline bool TMPro::TMP_InputField__MouseDragOutsideRect_d__316::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_Collections_IEnumerator_Reset() {
+inline void TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* TMPro::TMP_InputField__MouseDragOutsideRect_d__294::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294* TMPro::TMP_InputField__MouseDragOutsideRect_d__294::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_InputField__MouseDragOutsideRect_d__294*>(__1__state));
+inline ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::TMPro::TMP_InputField__MouseDragOutsideRect_d__316*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr TMPro::TMP_InputField__MouseDragOutsideRect_d__294::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr TMPro::TMP_InputField__MouseDragOutsideRect_d__316::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-TMPro::TMP_InputField__MouseDragOutsideRect_d__294::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+TMPro::TMP_InputField__MouseDragOutsideRect_d__316::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr TMPro::TMP_InputField__MouseDragOutsideRect_d__294::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr TMPro::TMP_InputField__MouseDragOutsideRect_d__316::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* TMPro::TMP_InputField__MouseDragOutsideRect_d__294::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr TMPro::TMP_InputField__MouseDragOutsideRect_d__294::operator ::System::IDisposable*() noexcept {
+constexpr TMPro::TMP_InputField__MouseDragOutsideRect_d__316::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* TMPro::TMP_InputField__MouseDragOutsideRect_d__294::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* TMPro::TMP_InputField__MouseDragOutsideRect_d__316::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::TMPro::TMP_InputField__MouseDragOutsideRect_d__294::TMP_InputField__MouseDragOutsideRect_d__294() {}
+constexpr ::TMPro::TMP_InputField__MouseDragOutsideRect_d__316::TMP_InputField__MouseDragOutsideRect_d__316() {}
 //  Writing Method size for method: ::TMPro::TMP_InputField.get_inputSystem
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::EventSystems::BaseInput> (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_inputSystem)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x47d6444;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x673f974;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_inputSystem",
@@ -723,8 +723,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_compositionString)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47d6554;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x673fa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_compositionString",
@@ -737,7 +737,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_compositionLength)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47d65e8;
+  constexpr static std::size_t addrs = 0x673fb24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_compositionLength",
@@ -749,8 +749,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::_ctor)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x47d6614;
+  constexpr static std::size_t size = 0x2a4;
+  constexpr static std::size_t addrs = 0x673fb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), ".ctor",
@@ -762,8 +762,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Mesh> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_mesh)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47d6928;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x673fed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_mesh",
@@ -771,12 +771,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_InputField.set_shouldActivateOnSelect
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_shouldActivateOnSelect)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x673ff7c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 61));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_shouldActivateOnSelect
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_shouldActivateOnSelect)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x673ff84;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 62));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_InputField.get_shouldHideMobileInput
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_shouldHideMobileInput)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47d69c8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6740010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_shouldHideMobileInput",
@@ -788,8 +816,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_shouldHideMobileInput)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47d6a50;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x67400c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -802,8 +830,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_shouldHideSoftKeyboard)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47d6b0c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x67401ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_shouldHideSoftKeyboard",
@@ -815,8 +843,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_shouldHideSoftKeyboard)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x47d6be0;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x67402b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -829,11 +857,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::isKeyboardUsingEvents)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47d6d20;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x6740420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "isKeyboardUsingEvents",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.isUWP
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::isUWP)> {
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x67405d0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "isUWP",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -843,7 +884,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d6db4;
+  constexpr static std::size_t addrs = 0x67406b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_text",
@@ -856,7 +897,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW)>(&::TMPro::TMP_InputField::set_text)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d6dbc;
+  constexpr static std::size_t addrs = 0x67406c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -870,7 +911,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW)>(&::TMPro::TMP_InputField::SetTextWithoutNotify)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d6ef8;
+  constexpr static std::size_t addrs = 0x67407f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -883,8 +924,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW, bool)>(&::TMPro::TMP_InputField::SetText)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x47d6dc4;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x67406c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -898,7 +939,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_isFocused)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d73e0;
+  constexpr static std::size_t addrs = 0x6740d18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_isFocused",
@@ -911,7 +952,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretBlinkRate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d73e8;
+  constexpr static std::size_t addrs = 0x6740d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_caretBlinkRate",
@@ -923,8 +964,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::set_caretBlinkRate)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x47d73f0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x6740d28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -938,7 +979,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d74c0;
+  constexpr static std::size_t addrs = 0x6740dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_caretWidth",
@@ -950,8 +991,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretWidth)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47d74c8;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6740e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -965,7 +1006,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_textViewport)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7594;
+  constexpr static std::size_t addrs = 0x6740ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_textViewport",
@@ -977,8 +1018,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::RectTransform*)>(&::TMPro::TMP_InputField::set_textViewport)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47c7ac4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6740ee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -992,7 +1033,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_Text> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_textComponent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d759c;
+  constexpr static std::size_t addrs = 0x6740f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_textComponent",
@@ -1004,8 +1045,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_InputField::set_textComponent)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47c7b1c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6740f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1019,7 +1060,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Graphic> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_placeholder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d75a4;
+  constexpr static std::size_t addrs = 0x6740fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_placeholder",
@@ -1031,8 +1072,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::Graphic*)>(&::TMPro::TMP_InputField::set_placeholder)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47c7b90;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6740fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1047,7 +1088,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UI::Scrollbar> (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_verticalScrollbar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d75ac;
+  constexpr static std::size_t addrs = 0x6741060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_verticalScrollbar",
@@ -1059,8 +1100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::Scrollbar*)>(&::TMPro::TMP_InputField::set_verticalScrollbar)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x47d75b4;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x6741068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1074,7 +1115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_scrollSensitivity)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7768;
+  constexpr static std::size_t addrs = 0x67412ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_scrollSensitivity",
@@ -1086,8 +1127,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::set_scrollSensitivity)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47d7770;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x67412b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1101,7 +1142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretColor)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47d77e4;
+  constexpr static std::size_t addrs = 0x674132c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_caretColor",
@@ -1113,8 +1154,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Color)>(&::TMPro::TMP_InputField::set_caretColor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47d7828;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6741370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1128,7 +1169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_customCaretColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7854;
+  constexpr static std::size_t addrs = 0x67413b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_customCaretColor",
@@ -1141,7 +1182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_customCaretColor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47d785c;
+  constexpr static std::size_t addrs = 0x67413c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1155,7 +1196,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionColor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47d7878;
+  constexpr static std::size_t addrs = 0x67413dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_selectionColor",
@@ -1167,8 +1208,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Color)>(&::TMPro::TMP_InputField::set_selectionColor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47d788c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x67413f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1182,7 +1223,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_SubmitEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onEndEdit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d78b8;
+  constexpr static std::size_t addrs = 0x6741438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onEndEdit",
@@ -1194,8 +1235,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SubmitEvent*)>(&::TMPro::TMP_InputField::set_onEndEdit)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d78c0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6741440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1209,7 +1250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_SubmitEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onSubmit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7918;
+  constexpr static std::size_t addrs = 0x67414b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onSubmit",
@@ -1221,8 +1262,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SubmitEvent*)>(&::TMPro::TMP_InputField::set_onSubmit)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7920;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x67414bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1236,7 +1277,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_SelectionEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onSelect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7978;
+  constexpr static std::size_t addrs = 0x6741530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onSelect",
@@ -1248,8 +1289,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SelectionEvent*)>(&::TMPro::TMP_InputField::set_onSelect)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7980;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6741538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1263,7 +1304,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_SelectionEvent* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onDeselect)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d79d8;
+  constexpr static std::size_t addrs = 0x67415ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onDeselect",
@@ -1276,8 +1317,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_SelectionEvent*)>(
     &::TMPro::TMP_InputField::set_onDeselect)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d79e0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x67415b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1292,7 +1333,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_TextSelectionEvent* (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_onTextSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7a38;
+  constexpr static std::size_t addrs = 0x6741628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onTextSelection",
@@ -1305,8 +1346,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_TextSelectionEvent*)>(
     &::TMPro::TMP_InputField::set_onTextSelection)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7a40;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6741630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1321,7 +1362,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_TextSelectionEvent* (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_onEndTextSelection)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7a98;
+  constexpr static std::size_t addrs = 0x67416a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onEndTextSelection",
@@ -1334,8 +1375,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_TextSelectionEvent*)>(
     &::TMPro::TMP_InputField::set_onEndTextSelection)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7aa0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x67416ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1350,7 +1391,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_OnChangeEvent* (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_onValueChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7af8;
+  constexpr static std::size_t addrs = 0x6741720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onValueChanged",
@@ -1363,8 +1404,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_OnChangeEvent*)>(
     &::TMPro::TMP_InputField::set_onValueChanged)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7b00;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6741728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1379,7 +1420,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_TouchScreenKeyboardEvent* (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_onTouchScreenKeyboardStatusChanged)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7b58;
+  constexpr static std::size_t addrs = 0x674179c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1393,8 +1434,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_TouchScreenKeyboardEvent*)>(
     &::TMPro::TMP_InputField::set_onTouchScreenKeyboardStatusChanged)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7b60;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x67417a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1409,7 +1450,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_OnValidateInput* (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_onValidateInput)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7bb8;
+  constexpr static std::size_t addrs = 0x6741818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onValidateInput",
@@ -1422,8 +1463,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_OnValidateInput*)>(
     &::TMPro::TMP_InputField::set_onValidateInput)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d7bc0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6741820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1437,7 +1478,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_characterLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7c18;
+  constexpr static std::size_t addrs = 0x6741894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_characterLimit",
@@ -1449,8 +1490,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_characterLimit)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47d7c20;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x674189c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1464,7 +1505,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_pointSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7ce0;
+  constexpr static std::size_t addrs = 0x6741950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_pointSize",
@@ -1477,7 +1518,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::set_pointSize)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47d7ce8;
+  constexpr static std::size_t addrs = 0x6741958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1491,7 +1532,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_FontAsset> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_fontAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7e84;
+  constexpr static std::size_t addrs = 0x6741afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_fontAsset",
@@ -1503,8 +1544,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_InputField::set_fontAsset)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x47c7be8;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6741b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1518,7 +1559,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_onFocusSelectAll)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7f6c;
+  constexpr static std::size_t addrs = 0x6741c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_onFocusSelectAll",
@@ -1530,8 +1571,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_onFocusSelectAll)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d7f74;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6741c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1545,7 +1586,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_resetOnDeActivation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7f80;
+  constexpr static std::size_t addrs = 0x6741c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_resetOnDeActivation",
@@ -1557,12 +1598,39 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_resetOnDeActivation)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d7f88;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6741ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "set_resetOnDeActivation",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_keepTextSelectionVisible
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_keepTextSelectionVisible)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6741ca8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_keepTextSelectionVisible",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.set_keepTextSelectionVisible
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_keepTextSelectionVisible)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6741cb0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "set_keepTextSelectionVisible",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -1572,7 +1640,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_restoreOriginalTextOnEscape)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7f94;
+  constexpr static std::size_t addrs = 0x6741cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1585,8 +1653,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_restoreOriginalTextOnEscape)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d7f9c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6741cc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1600,7 +1668,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_isRichTextEditingAllowed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7fa8;
+  constexpr static std::size_t addrs = 0x6741cc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_isRichTextEditingAllowed",
@@ -1612,8 +1680,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_isRichTextEditingAllowed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d7fb0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6741cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1627,7 +1695,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_ContentType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_contentType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d7fbc;
+  constexpr static std::size_t addrs = 0x6741cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_contentType",
@@ -1639,8 +1707,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_ContentType)>(&::TMPro::TMP_InputField::set_contentType)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47d7fc4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6741ce0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1654,7 +1722,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_LineType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_lineType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d80f4;
+  constexpr static std::size_t addrs = 0x6741e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_lineType",
@@ -1666,8 +1734,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_LineType)>(&::TMPro::TMP_InputField::set_lineType)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47d80fc;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6741e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1681,7 +1749,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_lineLimit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d8220;
+  constexpr static std::size_t addrs = 0x6741f8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_lineLimit",
@@ -1693,8 +1761,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_lineLimit)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x47d8228;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6741f94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1708,7 +1776,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_InputType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_inputType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d8294;
+  constexpr static std::size_t addrs = 0x6742010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_inputType",
@@ -1720,8 +1788,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_InputType)>(&::TMPro::TMP_InputField::set_inputType)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47d829c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6742018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1730,12 +1798,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_touchScreenKeyboard
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TouchScreenKeyboard* (::TMPro::TMP_InputField::*)()>(
+    &::TMPro::TMP_InputField::get_touchScreenKeyboard)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67420b8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_touchScreenKeyboard",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_InputField.get_keyboardType
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TouchScreenKeyboardType (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_keyboardType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d8338;
+  constexpr static std::size_t addrs = 0x67420c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_keyboardType",
@@ -1748,8 +1830,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::TouchScreenKeyboardType)>(
     &::TMPro::TMP_InputField::set_keyboardType)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47d8340;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x67420c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1764,7 +1846,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_CharacterValidation (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::get_characterValidation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d83c4;
+  constexpr static std::size_t addrs = 0x6742150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_characterValidation",
@@ -1777,8 +1859,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_CharacterValidation)>(
     &::TMPro::TMP_InputField::set_characterValidation)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47d83cc;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6742158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1792,7 +1874,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::TMPro::TMP_InputValidator> (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_inputValidator)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d8450;
+  constexpr static std::size_t addrs = 0x67421e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_inputValidator",
@@ -1804,8 +1886,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputValidator*)>(&::TMPro::TMP_InputField::set_inputValidator)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x47d8458;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x67421e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1819,7 +1901,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_readOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d84f4;
+  constexpr static std::size_t addrs = 0x6742298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_readOnly",
@@ -1831,8 +1913,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_readOnly)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d84fc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67422a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1846,7 +1928,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_richText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d8508;
+  constexpr static std::size_t addrs = 0x67422a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_richText",
@@ -1858,8 +1940,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::set_richText)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47d8510;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67422b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1873,7 +1955,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_multiLine)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47d85a4;
+  constexpr static std::size_t addrs = 0x674237c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_multiLine",
@@ -1886,7 +1968,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_asteriskChar)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d85b8;
+  constexpr static std::size_t addrs = 0x6742390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_asteriskChar",
@@ -1898,8 +1980,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::set_asteriskChar)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47d85c0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6742398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1913,7 +1995,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_wasCanceled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47d8634;
+  constexpr static std::size_t addrs = 0x6742410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_wasCanceled",
@@ -1926,7 +2008,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::ByRef<int32_t>)>(&::TMPro::TMP_InputField::ClampStringPos)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d863c;
+  constexpr static std::size_t addrs = 0x6742418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1939,8 +2021,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::ByRef<int32_t>)>(&::TMPro::TMP_InputField::ClampCaretPos)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x47d8674;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6742450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1949,12 +2031,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_InputField.ClampArrayIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::ClampArrayIndex)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67424cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ClampArrayIndex", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_InputField.get_caretPositionInternal
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d86b8;
+  constexpr static std::size_t addrs = 0x67424d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_caretPositionInternal",
@@ -1967,7 +2063,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretPositionInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47d86d0;
+  constexpr static std::size_t addrs = 0x67424ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1981,7 +2077,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_stringPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d86e0;
+  constexpr static std::size_t addrs = 0x67424fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_stringPositionInternal",
@@ -1994,7 +2090,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_stringPositionInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d86f8;
+  constexpr static std::size_t addrs = 0x6742514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2008,7 +2104,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretSelectPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d8730;
+  constexpr static std::size_t addrs = 0x674254c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2022,7 +2118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretSelectPositionInternal)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47d8748;
+  constexpr static std::size_t addrs = 0x6742564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2036,7 +2132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_stringSelectPositionInternal)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d8758;
+  constexpr static std::size_t addrs = 0x6742574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2050,7 +2146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_stringSelectPositionInternal)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d8770;
+  constexpr static std::size_t addrs = 0x674258c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2064,7 +2160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_hasSelection)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47d87a8;
+  constexpr static std::size_t addrs = 0x67425c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_hasSelection",
@@ -2077,7 +2173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_caretPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d87e4;
+  constexpr static std::size_t addrs = 0x6742600;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_caretPosition",
@@ -2089,8 +2185,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_caretPosition)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x47d87fc;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6742618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2104,7 +2200,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionAnchorPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d88a8;
+  constexpr static std::size_t addrs = 0x6742744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_selectionAnchorPosition",
@@ -2117,7 +2213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionAnchorPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47d8830;
+  constexpr static std::size_t addrs = 0x6742648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2131,7 +2227,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionFocusPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d88c0;
+  constexpr static std::size_t addrs = 0x674275c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_selectionFocusPosition",
@@ -2144,7 +2240,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionFocusPosition)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47d886c;
+  constexpr static std::size_t addrs = 0x6742684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2158,7 +2254,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_stringPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d88d8;
+  constexpr static std::size_t addrs = 0x6742774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_stringPosition",
@@ -2170,8 +2266,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_stringPosition)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x47d88f0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x674278c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2185,7 +2281,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionStringAnchorPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d89d4;
+  constexpr static std::size_t addrs = 0x67428dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2198,8 +2294,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionStringAnchorPosition)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d8924;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x67427bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2213,7 +2309,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_selectionStringFocusPosition)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d89ec;
+  constexpr static std::size_t addrs = 0x67428f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2226,8 +2322,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::set_selectionStringFocusPosition)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d897c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6742818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2236,12 +2332,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_InputField.Awake
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::Awake)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x674290c;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 4));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_InputField.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnEnable)> {
-  constexpr static std::size_t size = 0x734;
-  constexpr static std::size_t addrs = 0x47d8a04;
+  constexpr static std::size_t size = 0x8e4;
+  constexpr static std::size_t addrs = 0x67429cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2254,8 +2364,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnDisable)> {
-  constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x47d963c;
+  constexpr static std::size_t size = 0x3e8;
+  constexpr static std::size_t addrs = 0x67437b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2268,8 +2378,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Object*)>(&::TMPro::TMP_InputField::ON_TEXT_CHANGED)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47d9b18;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x6743d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2282,8 +2392,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CaretBlink)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x47d9d98;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6743f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "CaretBlink",
@@ -2295,8 +2405,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetCaretVisible)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d9e00;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6743fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SetCaretVisible",
@@ -2309,7 +2419,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetCaretActive)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47d746c;
+  constexpr static std::size_t addrs = 0x6740da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SetCaretActive",
@@ -2321,8 +2431,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnFocus)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47d9e38;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x6744028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "OnFocus",
@@ -2334,8 +2444,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SelectAll)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47d9e48;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x674405c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SelectAll",
@@ -2347,8 +2457,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveTextEnd)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x47d9e80;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6744088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2361,8 +2471,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveTextStart)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x47da018;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6744248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2375,8 +2485,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveToEndOfLine)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x47da154;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6744344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2389,8 +2499,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveToStartOfLine)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x47da2d4;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x67444fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2403,8 +2513,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)()>(&::TMPro::TMP_InputField::get_clipboard)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x47da464;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x67446e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_clipboard",
@@ -2416,8 +2526,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::TMPro::TMP_InputField::set_clipboard)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47da4b4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x674473c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2430,11 +2540,51 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::InPlaceEditing)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x47da50c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6740548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "InPlaceEditing",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.InPlaceEditingChanged
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::InPlaceEditingChanged)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6744798;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "InPlaceEditingChanged",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.TouchScreenKeyboardShouldBeUsed
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::TouchScreenKeyboardShouldBeUsed)> {
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x674481c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "TouchScreenKeyboardShouldBeUsed",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.UpdateKeyboardStringPosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateKeyboardStringPosition)> {
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x67448ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateKeyboardStringPosition",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -2443,8 +2593,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateStringPositionFromKeyboard)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x47da610;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x6744a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2457,13 +2607,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::LateUpdate)> {
-  constexpr static std::size_t size = 0x664;
-  constexpr static std::size_t addrs = 0x47da758;
+  constexpr static std::size_t size = 0x874;
+  constexpr static std::size_t addrs = 0x6744cb8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 60));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 63));
     return ___internal_method;
   }
 };
@@ -2472,8 +2622,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::MayDrag)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x47dba3c;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x674621c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2488,12 +2638,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::OnBeginDrag)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47dbb14;
+  constexpr static std::size_t addrs = 0x6746304;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 61));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 64));
     return ___internal_method;
   }
 };
@@ -2502,13 +2652,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::OnDrag)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x47dbb34;
+  constexpr static std::size_t size = 0x388;
+  constexpr static std::size_t addrs = 0x6746324;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 62));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 65));
     return ___internal_method;
   }
 };
@@ -2517,8 +2667,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::MouseDragOutsideRect)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47dbdc8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x67466ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2533,12 +2683,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::OnEndDrag)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x47dbe3c;
+  constexpr static std::size_t addrs = 0x674670c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 63));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 66));
     return ___internal_method;
   }
 };
@@ -2547,8 +2697,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::OnPointerDown)> {
-  constexpr static std::size_t size = 0x738;
-  constexpr static std::size_t addrs = 0x47dbe58;
+  constexpr static std::size_t size = 0x960;
+  constexpr static std::size_t addrs = 0x6746728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -2562,8 +2712,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_InputField_EditState (::TMPro::TMP_InputField::*)(::UnityEngine::Event*)>(
     &::TMPro::TMP_InputField::KeyPressed)> {
-  constexpr static std::size_t size = 0x424;
-  constexpr static std::size_t addrs = 0x47dc590;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x6747088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2576,13 +2726,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::IsValidChar)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x47dd9d0;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x67489e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 64));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 67));
     return ___internal_method;
   }
 };
@@ -2591,7 +2741,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Event*)>(&::TMPro::TMP_InputField::ProcessEvent)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47dd9f0;
+  constexpr static std::size_t addrs = 0x6748a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2605,13 +2755,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::TMPro::TMP_InputField::OnUpdateSelected)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x47dd9f4;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x6748a24;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 65));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 68));
     return ___internal_method;
   }
 };
@@ -2620,13 +2770,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::OnScroll)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x47ddbf0;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x6748c34;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 66));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 69));
     return ___internal_method;
   }
 };
@@ -2634,8 +2784,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::GetScrollPositionRelativeToViewport)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x47ddda8;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x6748e10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2648,8 +2798,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::GetSelectedString)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47dcf60;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6747c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "GetSelectedString",
@@ -2661,8 +2811,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::FindNextWordBegin)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47de020;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6749100;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "FindNextWordBegin",
@@ -2674,8 +2824,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveRight)> {
-  constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x47dd5a4;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x67484b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2688,8 +2838,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::FindPrevWordBegin)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x47de0f4;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x67491dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "FindPrevWordBegin",
@@ -2701,8 +2851,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveLeft)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x47dd1f4;
+  constexpr static std::size_t size = 0x49c;
+  constexpr static std::size_t addrs = 0x674801c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2715,8 +2865,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::LineUpCharacterPosition)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x47de1ac;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x6749298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2729,8 +2879,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::LineDownCharacterPosition)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x47de2fc;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x6749484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2743,8 +2893,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::PageUpCharacterPosition)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x47de448;
+  constexpr static std::size_t size = 0x288;
+  constexpr static std::size_t addrs = 0x67496a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2757,8 +2907,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t, bool)>(&::TMPro::TMP_InputField::PageDownCharacterPosition)> {
-  constexpr static std::size_t size = 0x1ec;
-  constexpr static std::size_t addrs = 0x47de62c;
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x674992c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2771,8 +2921,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveDown)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47dd9ac;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67489cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2785,8 +2935,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveDown)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x47de818;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x6749c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2799,8 +2949,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MoveUp)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47dd9a0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67489c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2813,8 +2963,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MoveUp)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x47de9dc;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x6749de8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2827,8 +2977,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MovePageUp)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47dd9b8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67489d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2841,8 +2991,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MovePageUp)> {
-  constexpr static std::size_t size = 0x2ac;
-  constexpr static std::size_t addrs = 0x47deb8c;
+  constexpr static std::size_t size = 0x2c0;
+  constexpr static std::size_t addrs = 0x6749f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2855,8 +3005,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::MovePageDown)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47dd9c4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x67489dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2869,8 +3019,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool, bool)>(&::TMPro::TMP_InputField::MovePageDown)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x47dee38;
+  constexpr static std::size_t size = 0x2d4;
+  constexpr static std::size_t addrs = 0x674a250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -2883,8 +3033,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::Delete)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x47dd020;
+  constexpr static std::size_t size = 0x28c;
+  constexpr static std::size_t addrs = 0x6747d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "Delete",
@@ -2896,8 +3046,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::DeleteKey)> {
-  constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x47dcd3c;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x674796c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "DeleteKey",
@@ -2909,8 +3059,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::Backspace)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x47dc9b4;
+  constexpr static std::size_t size = 0x444;
+  constexpr static std::size_t addrs = 0x6747528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "Backspace",
@@ -2922,13 +3072,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::StringW)>(&::TMPro::TMP_InputField::Append)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47df0f4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x674a524;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 67));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 70));
     return ___internal_method;
   }
 };
@@ -2936,13 +3086,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::Append)> {
-  constexpr static std::size_t size = 0x23c;
-  constexpr static std::size_t addrs = 0x47df1a4;
+  constexpr static std::size_t size = 0x36c;
+  constexpr static std::size_t addrs = 0x674a5dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 68));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 71));
     return ___internal_method;
   }
 };
@@ -2950,8 +3100,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(char16_t)>(&::TMPro::TMP_InputField::Insert)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x47df3e0;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x674a948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2965,7 +3115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateTouchKeyboardFromEditChanges)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47dd1b8;
+  constexpr static std::size_t addrs = 0x6747fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2979,7 +3129,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnValueChangedAndUpdateLabel)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47dba24;
+  constexpr static std::size_t addrs = 0x6746204;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2992,8 +3142,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnValueChanged)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47d7384;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6740cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnValueChanged",
@@ -3005,8 +3155,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnEndEdit)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47df4f0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x674aa48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnEndEdit",
@@ -3018,8 +3168,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnSubmit)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47ddb94;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6748bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnSubmit",
@@ -3031,8 +3181,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnFocus)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47df54c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x674aaa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnFocus",
@@ -3044,8 +3194,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnFocusLost)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47df5a8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x674ab08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnFocusLost",
@@ -3057,8 +3207,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnTextSelection)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47df604;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x674ab68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnTextSelection",
@@ -3070,8 +3220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendOnEndTextSelection)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47df6ac;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x674ac14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SendOnEndTextSelection",
@@ -3084,7 +3234,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SendTouchScreenKeyboardStatusChanged)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47db1c4;
+  constexpr static std::size_t addrs = 0x67459ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3097,8 +3247,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateLabel)> {
-  constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x47d6f00;
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x67407f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateLabel",
@@ -3110,8 +3260,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateScrollbar)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x47d9cc0;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6743ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateScrollbar",
@@ -3124,7 +3274,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::OnScrollbarValueChange)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x47df740;
+  constexpr static std::size_t addrs = 0x674acb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3138,7 +3288,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateMaskRegions)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47d9638;
+  constexpr static std::size_t addrs = 0x67437b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateMaskRegions",
@@ -3150,8 +3300,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::AdjustTextPositionRelativeToViewport)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x47dde88;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x6748f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3164,8 +3314,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetCaretPositionFromStringIndex)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47d9c50;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6744c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3178,8 +3328,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetMinCaretPositionFromStringIndex)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x47df77c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x674acf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3192,8 +3342,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetMaxCaretPositionFromStringIndex)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x47df7f0;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x674add0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3206,8 +3356,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)(int32_t)>(&::TMPro::TMP_InputField::GetStringIndexFromCaretPosition)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47d9fb8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x67441e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3216,12 +3366,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_InputField.UpdateStringIndexFromCaretPosition
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateStringIndexFromCaretPosition)> {
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x67426c0;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateStringIndexFromCaretPosition",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.UpdateCaretPositionFromStringIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateCaretPositionFromStringIndex)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6742874;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateCaretPositionFromStringIndex",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_InputField.ForceLabelUpdate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ForceLabelUpdate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47df860;
+  constexpr static std::size_t addrs = 0x674ae74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ForceLabelUpdate",
@@ -3233,8 +3411,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::MarkGeometryAsDirty)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x47d753c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6740e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "MarkGeometryAsDirty",
@@ -3247,12 +3425,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::CanvasUpdate)>(&::TMPro::TMP_InputField::Rebuild)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x47df864;
+  constexpr static std::size_t addrs = 0x674ae78;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 69));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 72));
     return ___internal_method;
   }
 };
@@ -3261,12 +3439,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::LayoutComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47df928;
+  constexpr static std::size_t addrs = 0x674af48;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 70));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 73));
     return ___internal_method;
   }
 };
@@ -3275,12 +3453,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::GraphicUpdateComplete)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47df92c;
+  constexpr static std::size_t addrs = 0x674af4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 71));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 74));
     return ___internal_method;
   }
 };
@@ -3288,8 +3466,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::UpdateGeometry)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x47df874;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x674ae88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateGeometry",
@@ -3301,8 +3479,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::AssignPositioningIfNeeded)> {
-  constexpr static std::size_t size = 0x500;
-  constexpr static std::size_t addrs = 0x47d9138;
+  constexpr static std::size_t size = 0x504;
+  constexpr static std::size_t addrs = 0x67432b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "AssignPositioningIfNeeded",
@@ -3314,8 +3492,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Mesh*)>(&::TMPro::TMP_InputField::OnFillVBO)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x47df930;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x674af50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3329,8 +3507,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2)>(
     &::TMPro::TMP_InputField::GenerateCaret)> {
-  constexpr static std::size_t size = 0x5e4;
-  constexpr static std::size_t addrs = 0x47dfc98;
+  constexpr static std::size_t size = 0x6b4;
+  constexpr static std::size_t addrs = 0x674b1a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3344,8 +3522,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CreateCursorVerts)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x47e0850;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x674be2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "CreateCursorVerts",
@@ -3353,19 +3531,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField.GenerateHightlight
+//  Writing Method size for method: ::TMPro::TMP_InputField.GenerateHighlight
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::VertexHelper*, ::UnityEngine::Vector2)>(
-    &::TMPro::TMP_InputField::GenerateHightlight)> {
-  constexpr static std::size_t size = 0x5d4;
-  constexpr static std::size_t addrs = 0x47e027c;
+    &::TMPro::TMP_InputField::GenerateHighlight)> {
+  constexpr static std::size_t size = 0x5d0;
+  constexpr static std::size_t addrs = 0x674b85c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "GenerateHightlight", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::VertexHelper*>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "GenerateHighlight", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::VertexHelper*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
     return ___internal_method;
   }
 };
@@ -3374,8 +3552,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::Vector2, float_t, bool)>(
     &::TMPro::TMP_InputField::AdjustRectTransformRelativeToViewport)> {
-  constexpr static std::size_t size = 0x480;
-  constexpr static std::size_t addrs = 0x47e09a0;
+  constexpr static std::size_t size = 0x4b0;
+  constexpr static std::size_t addrs = 0x674bf78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3389,8 +3567,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (::TMPro::TMP_InputField::*)(::StringW, int32_t, char16_t)>(&::TMPro::TMP_InputField::Validate)> {
-  constexpr static std::size_t size = 0x7ec;
-  constexpr static std::size_t addrs = 0x47db238;
+  constexpr static std::size_t size = 0x7a4;
+  constexpr static std::size_t addrs = 0x6745a60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3404,8 +3582,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ActivateInputField)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x47e0e20;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x674c428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ActivateInputField",
@@ -3417,8 +3595,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ActivateInputFieldInternal)> {
-  constexpr static std::size_t size = 0x3dc;
-  constexpr static std::size_t addrs = 0x47dadbc;
+  constexpr static std::size_t size = 0x494;
+  constexpr static std::size_t addrs = 0x674552c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ActivateInputFieldInternal",
@@ -3430,8 +3608,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnSelect)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e0f34;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x674c540;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3445,13 +3623,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::TMPro::TMP_InputField::OnPointerClick)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x47e0f58;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x674c588;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 72));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 75));
     return ___internal_method;
   }
 };
@@ -3460,7 +3638,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::OnControlClick)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e0f7c;
+  constexpr static std::size_t addrs = 0x674c5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "OnControlClick",
@@ -3473,7 +3651,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::ReleaseSelection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47db198;
+  constexpr static std::size_t addrs = 0x67459c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ReleaseSelection",
@@ -3485,8 +3663,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(bool)>(&::TMPro::TMP_InputField::DeactivateInputField)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x47d995c;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x6743ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3500,8 +3678,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(
     &::TMPro::TMP_InputField::OnDeselect)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x47e0f80;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x674c5a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3514,13 +3692,41 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnSubmit)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x47e0fb8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x674c5d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 73));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 76));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.OnCancel
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::BaseEventData*)>(&::TMPro::TMP_InputField::OnCancel)> {
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x674c658;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 77));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.OnMove
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::EventSystems::AxisEventData*)>(&::TMPro::TMP_InputField::OnMove)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x674c6e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 31));
     return ___internal_method;
   }
 };
@@ -3528,8 +3734,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::EnforceContentType)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x47d8038;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x6741d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "EnforceContentType",
@@ -3541,8 +3747,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetTextComponentWrapMode)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x47d6894;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x673fdf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SetTextComponentWrapMode",
@@ -3554,8 +3760,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetTextComponentRichTextMode)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47d851c;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x67422b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SetTextComponentRichTextMode",
@@ -3568,8 +3774,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(
     ::ArrayW<::TMPro::TMP_InputField_ContentType, ::Array<::TMPro::TMP_InputField_ContentType>*>)>(&::TMPro::TMP_InputField::SetToCustomIfContentTypeIsNot)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47d81bc;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6741f30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3584,7 +3790,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::SetToCustom)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d8320;
+  constexpr static std::size_t addrs = 0x67420a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "SetToCustom",
@@ -3598,7 +3804,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_InputField_CharacterValidation)>(
     &::TMPro::TMP_InputField::SetToCustom)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x47d84dc;
+  constexpr static std::size_t addrs = 0x6742280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3613,7 +3819,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::UnityEngine::UI::Selectable_SelectionState, bool)>(
     &::TMPro::TMP_InputField::DoStateTransition)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x47e100c;
+  constexpr static std::size_t addrs = 0x674c6f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3627,63 +3833,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e1038;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 74));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_InputField.CalculateLayoutInputVertical
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CalculateLayoutInputVertical)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47e103c;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 75));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_minWidth
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_minWidth)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1040;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 76));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_preferredWidth
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_preferredWidth)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x47e1048;
-
-  inline static ::MethodInfo const* methodInfo() {
-
-    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 77));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_flexibleWidth
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_flexibleWidth)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1178;
+  constexpr static std::size_t addrs = 0x674c724;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3692,12 +3842,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_minHeight
+//  Writing Method size for method: ::TMPro::TMP_InputField.CalculateLayoutInputVertical
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_minHeight)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e1180;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::CalculateLayoutInputVertical)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x674c728;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3706,12 +3856,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_preferredHeight
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_minWidth
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_preferredHeight)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x47e1188;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_minWidth)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674c72c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3720,12 +3870,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_flexibleHeight
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_preferredWidth
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_flexibleHeight)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e12b8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_preferredWidth)> {
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x674c734;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3734,12 +3884,12 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::TMPro::TMP_InputField.get_layoutPriority
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_flexibleWidth
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_layoutPriority)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_flexibleWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e12c0;
+  constexpr static std::size_t addrs = 0x674c868;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -3748,12 +3898,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_minHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_minHeight)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674c870;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 83));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_preferredHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_preferredHeight)> {
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x674c878;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 84));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_flexibleHeight
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_flexibleHeight)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674c9ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 85));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_InputField.get_layoutPriority
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_InputField::*)()>(&::TMPro::TMP_InputField::get_layoutPriority)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x674c9b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+
+    static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 86));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::TMPro::TMP_InputField.SetGlobalPointSize
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(float_t)>(&::TMPro::TMP_InputField::SetGlobalPointSize)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x47d7d9c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6741a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3766,8 +3972,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_InputField::*)(::TMPro::TMP_FontAsset*)>(&::TMPro::TMP_InputField::SetGlobalFontAsset)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x47d7e8c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6741b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -3781,8 +3987,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Transform> (::TMPro::TMP_InputField::*)()>(
     &::TMPro::TMP_InputField::UnityEngine_UI_ICanvasElement_get_transform)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47e135c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x674ca60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -3850,18 +4056,6 @@ constexpr ::UnityW<::UnityEngine::UI::RectMask2D> const& TMPro::TMP_InputField::
 constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_TextViewportRectMask(::UnityW<::UnityEngine::UI::RectMask2D> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TextViewportRectMask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::UnityEngine::Rect& TMPro::TMP_InputField::__cordl_internal_get_m_CachedViewportRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CachedViewportRect;
-}
-constexpr ::UnityEngine::Rect const& TMPro::TMP_InputField::__cordl_internal_get_m_CachedViewportRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_CachedViewportRect;
-}
-constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_CachedViewportRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_CachedViewportRect = value;
 }
 constexpr ::UnityW<::TMPro::TMP_Text>& TMPro::TMP_InputField::__cordl_internal_get_m_TextComponent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -4608,17 +4802,17 @@ constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_IsTextComponentUpda
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsTextComponentUpdateRequired = value;
 }
-constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_isLastKeyBackspace() {
+constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_HasTextBeenRemoved() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isLastKeyBackspace;
+  return this->___m_HasTextBeenRemoved;
 }
-constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_m_isLastKeyBackspace() const {
+constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_m_HasTextBeenRemoved() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_isLastKeyBackspace;
+  return this->___m_HasTextBeenRemoved;
 }
-constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_isLastKeyBackspace(bool value) {
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_HasTextBeenRemoved(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_isLastKeyBackspace = value;
+  this->___m_HasTextBeenRemoved = value;
 }
 constexpr float_t& TMPro::TMP_InputField::__cordl_internal_get_m_PointerDownClickStartTime() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -4655,6 +4849,18 @@ constexpr float_t const& TMPro::TMP_InputField::__cordl_internal_get_m_DoubleCli
 constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_DoubleClickDelay(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_DoubleClickDelay = value;
+}
+constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_IsApplePlatform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsApplePlatform;
+}
+constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_m_IsApplePlatform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsApplePlatform;
+}
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_IsApplePlatform(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsApplePlatform = value;
 }
 constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_IsCompositionActive() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -4764,6 +4970,18 @@ constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_ReleaseSelection(bo
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_ReleaseSelection = value;
 }
+constexpr ::UnityEngine::KeyCode& TMPro::TMP_InputField::__cordl_internal_get_m_LastKeyCode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastKeyCode;
+}
+constexpr ::UnityEngine::KeyCode const& TMPro::TMP_InputField::__cordl_internal_get_m_LastKeyCode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_LastKeyCode;
+}
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_LastKeyCode(::UnityEngine::KeyCode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_LastKeyCode = value;
+}
 constexpr ::UnityW<::UnityEngine::GameObject>& TMPro::TMP_InputField::__cordl_internal_get_m_PreviouslySelectedObject() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_PreviouslySelectedObject;
@@ -4775,6 +4993,18 @@ constexpr ::UnityW<::UnityEngine::GameObject> const& TMPro::TMP_InputField::__co
 constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_PreviouslySelectedObject(::UnityW<::UnityEngine::GameObject> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PreviouslySelectedObject)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_KeepTextSelectionVisible() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_KeepTextSelectionVisible;
+}
+constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_m_KeepTextSelectionVisible() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_KeepTextSelectionVisible;
+}
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_KeepTextSelectionVisible(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_KeepTextSelectionVisible = value;
 }
 constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_RestoreOriginalTextOnEscape() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -4812,6 +5042,18 @@ constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_LineLimit(int32_t v
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LineLimit = value;
 }
+constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_isAlert() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isAlert;
+}
+constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_isAlert() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___isAlert;
+}
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_isAlert(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___isAlert = value;
+}
 constexpr ::UnityW<::TMPro::TMP_InputValidator>& TMPro::TMP_InputField::__cordl_internal_get_m_InputValidator() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_InputValidator;
@@ -4823,6 +5065,18 @@ constexpr ::UnityW<::TMPro::TMP_InputValidator> const& TMPro::TMP_InputField::__
 constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_InputValidator(::UnityW<::TMPro::TMP_InputValidator> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_InputValidator)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_ShouldActivateOnSelect() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ShouldActivateOnSelect;
+}
+constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_m_ShouldActivateOnSelect() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ShouldActivateOnSelect;
+}
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_ShouldActivateOnSelect(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ShouldActivateOnSelect = value;
 }
 constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_isSelected() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -4872,6 +5126,18 @@ constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_forceRectTransformA
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_forceRectTransformAdjustment = value;
 }
+constexpr bool& TMPro::TMP_InputField::__cordl_internal_get_m_IsKeyboardBeingClosedInHoloLens() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsKeyboardBeingClosedInHoloLens;
+}
+constexpr bool const& TMPro::TMP_InputField::__cordl_internal_get_m_IsKeyboardBeingClosedInHoloLens() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsKeyboardBeingClosedInHoloLens;
+}
+constexpr void TMPro::TMP_InputField::__cordl_internal_set_m_IsKeyboardBeingClosedInHoloLens(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsKeyboardBeingClosedInHoloLens = value;
+}
 constexpr ::UnityEngine::Event*& TMPro::TMP_InputField::__cordl_internal_get_m_ProcessingEvent() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ProcessingEvent;
@@ -4890,6 +5156,18 @@ inline void TMPro::TMP_InputField::setStaticF_kSeparators(::ArrayW<char16_t, ::A
 }
 inline ::ArrayW<char16_t, ::Array<char16_t>*> TMPro::TMP_InputField::getStaticF_kSeparators() {
   return ::cordl_internals::getStaticField<::ArrayW<char16_t, ::Array<char16_t>*>, "kSeparators", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get>();
+}
+inline void TMPro::TMP_InputField::setStaticF_s_IsQuestDeviceEvaluated(bool value) {
+  ::cordl_internals::setStaticField<bool, "s_IsQuestDeviceEvaluated", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get>(std::forward<bool>(value));
+}
+inline bool TMPro::TMP_InputField::getStaticF_s_IsQuestDeviceEvaluated() {
+  return ::cordl_internals::getStaticField<bool, "s_IsQuestDeviceEvaluated", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get>();
+}
+inline void TMPro::TMP_InputField::setStaticF_s_IsQuestDevice(bool value) {
+  ::cordl_internals::setStaticField<bool, "s_IsQuestDevice", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get>(std::forward<bool>(value));
+}
+inline bool TMPro::TMP_InputField::getStaticF_s_IsQuestDevice() {
+  return ::cordl_internals::getStaticField<bool, "s_IsQuestDevice", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get>();
 }
 inline ::UnityW<::UnityEngine::EventSystems::BaseInput> TMPro::TMP_InputField::get_inputSystem() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_inputSystem",
@@ -4916,6 +5194,16 @@ inline ::UnityW<::UnityEngine::Mesh> TMPro::TMP_InputField::get_mesh() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Mesh>, false>(this, ___internal_method);
 }
+inline void TMPro::TMP_InputField::set_shouldActivateOnSelect(bool value) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 61)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool TMPro::TMP_InputField::get_shouldActivateOnSelect() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 62)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 inline bool TMPro::TMP_InputField::get_shouldHideMobileInput() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_shouldHideMobileInput",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -4940,6 +5228,11 @@ inline void TMPro::TMP_InputField::set_shouldHideSoftKeyboard(bool value) {
 }
 inline bool TMPro::TMP_InputField::isKeyboardUsingEvents() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "isKeyboardUsingEvents",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool TMPro::TMP_InputField::isUWP() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "isUWP",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
@@ -5236,6 +5529,17 @@ inline void TMPro::TMP_InputField::set_resetOnDeActivation(bool value) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline bool TMPro::TMP_InputField::get_keepTextSelectionVisible() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_keepTextSelectionVisible",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void TMPro::TMP_InputField::set_keepTextSelectionVisible(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "set_keepTextSelectionVisible",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline bool TMPro::TMP_InputField::get_restoreOriginalTextOnEscape() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_restoreOriginalTextOnEscape",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -5301,6 +5605,11 @@ inline void TMPro::TMP_InputField::set_inputType(::TMPro::TMP_InputField_InputTy
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "set_inputType", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_InputField_InputType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::UnityEngine::TouchScreenKeyboard* TMPro::TMP_InputField::get_touchScreenKeyboard() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_touchScreenKeyboard",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TouchScreenKeyboard*, false>(this, ___internal_method);
 }
 inline ::UnityEngine::TouchScreenKeyboardType TMPro::TMP_InputField::get_keyboardType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_keyboardType",
@@ -5389,6 +5698,12 @@ inline void TMPro::TMP_InputField::ClampCaretPos(::ByRef<int32_t> pos) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ClampCaretPos", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, pos);
+}
+inline int32_t TMPro::TMP_InputField::ClampArrayIndex(int32_t index) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ClampArrayIndex", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, index);
 }
 inline int32_t TMPro::TMP_InputField::get_caretPositionInternal() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "get_caretPositionInternal",
@@ -5506,6 +5821,11 @@ inline void TMPro::TMP_InputField::set_selectionStringFocusPosition(int32_t valu
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline void TMPro::TMP_InputField::Awake() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 4)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void TMPro::TMP_InputField::OnEnable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 5)));
@@ -5587,6 +5907,21 @@ inline bool TMPro::TMP_InputField::InPlaceEditing() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline bool TMPro::TMP_InputField::InPlaceEditingChanged() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "InPlaceEditingChanged",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline bool TMPro::TMP_InputField::TouchScreenKeyboardShouldBeUsed() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "TouchScreenKeyboardShouldBeUsed",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void TMPro::TMP_InputField::UpdateKeyboardStringPosition() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateKeyboardStringPosition",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void TMPro::TMP_InputField::UpdateStringPositionFromKeyboard() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(),
                                                                              "UpdateStringPositionFromKeyboard", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -5594,7 +5929,7 @@ inline void TMPro::TMP_InputField::UpdateStringPositionFromKeyboard() {
 }
 inline void TMPro::TMP_InputField::LateUpdate() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 60)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 63)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline bool TMPro::TMP_InputField::MayDrag(::UnityEngine::EventSystems::PointerEventData* eventData) {
@@ -5605,12 +5940,12 @@ inline bool TMPro::TMP_InputField::MayDrag(::UnityEngine::EventSystems::PointerE
 }
 inline void TMPro::TMP_InputField::OnBeginDrag(::UnityEngine::EventSystems::PointerEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 61)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 64)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline void TMPro::TMP_InputField::OnDrag(::UnityEngine::EventSystems::PointerEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 62)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 65)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline ::System::Collections::IEnumerator* TMPro::TMP_InputField::MouseDragOutsideRect(::UnityEngine::EventSystems::PointerEventData* eventData) {
@@ -5621,7 +5956,7 @@ inline ::System::Collections::IEnumerator* TMPro::TMP_InputField::MouseDragOutsi
 }
 inline void TMPro::TMP_InputField::OnEndDrag(::UnityEngine::EventSystems::PointerEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 63)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 66)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline void TMPro::TMP_InputField::OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData) {
@@ -5637,7 +5972,7 @@ inline ::TMPro::TMP_InputField_EditState TMPro::TMP_InputField::KeyPressed(::Uni
 }
 inline bool TMPro::TMP_InputField::IsValidChar(char16_t c) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 64)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 67)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, c);
 }
 inline void TMPro::TMP_InputField::ProcessEvent(::UnityEngine::Event* e) {
@@ -5648,12 +5983,12 @@ inline void TMPro::TMP_InputField::ProcessEvent(::UnityEngine::Event* e) {
 }
 inline void TMPro::TMP_InputField::OnUpdateSelected(::UnityEngine::EventSystems::BaseEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 65)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 68)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline void TMPro::TMP_InputField::OnScroll(::UnityEngine::EventSystems::PointerEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 66)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 69)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline float_t TMPro::TMP_InputField::GetScrollPositionRelativeToViewport() {
@@ -5778,12 +6113,12 @@ inline void TMPro::TMP_InputField::Backspace() {
 }
 inline void TMPro::TMP_InputField::Append(::StringW input) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 67)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 70)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input);
 }
 inline void TMPro::TMP_InputField::Append(char16_t input) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 68)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 71)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, input);
 }
 inline void TMPro::TMP_InputField::Insert(char16_t c) {
@@ -5895,6 +6230,18 @@ inline int32_t TMPro::TMP_InputField::GetStringIndexFromCaretPosition(int32_t ca
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, caretPosition);
 }
+inline void TMPro::TMP_InputField::UpdateStringIndexFromCaretPosition() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateStringIndexFromCaretPosition",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void TMPro::TMP_InputField::UpdateCaretPositionFromStringIndex() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "UpdateCaretPositionFromStringIndex",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void TMPro::TMP_InputField::ForceLabelUpdate() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "ForceLabelUpdate",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -5907,17 +6254,17 @@ inline void TMPro::TMP_InputField::MarkGeometryAsDirty() {
 }
 inline void TMPro::TMP_InputField::Rebuild(::UnityEngine::UI::CanvasUpdate update) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 69)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 72)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, update);
 }
 inline void TMPro::TMP_InputField::LayoutComplete() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 70)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 73)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_InputField::GraphicUpdateComplete() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 71)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 74)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_InputField::UpdateGeometry() {
@@ -5948,9 +6295,9 @@ inline void TMPro::TMP_InputField::CreateCursorVerts() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void TMPro::TMP_InputField::GenerateHightlight(::UnityEngine::UI::VertexHelper* vbo, ::UnityEngine::Vector2 roundingOffset) {
+inline void TMPro::TMP_InputField::GenerateHighlight(::UnityEngine::UI::VertexHelper* vbo, ::UnityEngine::Vector2 roundingOffset) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "GenerateHightlight", std::span<Il2CppClass const* const, 0>(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), "GenerateHighlight", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UI::VertexHelper*>::get(),
                                                                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, vbo, roundingOffset);
@@ -5986,7 +6333,7 @@ inline void TMPro::TMP_InputField::OnSelect(::UnityEngine::EventSystems::BaseEve
 }
 inline void TMPro::TMP_InputField::OnPointerClick(::UnityEngine::EventSystems::PointerEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 72)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 75)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline void TMPro::TMP_InputField::OnControlClick() {
@@ -6012,7 +6359,17 @@ inline void TMPro::TMP_InputField::OnDeselect(::UnityEngine::EventSystems::BaseE
 }
 inline void TMPro::TMP_InputField::OnSubmit(::UnityEngine::EventSystems::BaseEventData* eventData) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 73)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 76)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
+}
+inline void TMPro::TMP_InputField::OnCancel(::UnityEngine::EventSystems::BaseEventData* eventData) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 77)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
+}
+inline void TMPro::TMP_InputField::OnMove(::UnityEngine::EventSystems::AxisEventData* eventData) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 31)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, eventData);
 }
 inline void TMPro::TMP_InputField::EnforceContentType() {
@@ -6055,47 +6412,47 @@ inline void TMPro::TMP_InputField::DoStateTransition(::UnityEngine::UI::Selectab
 }
 inline void TMPro::TMP_InputField::CalculateLayoutInputHorizontal() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 74)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 78)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_InputField::CalculateLayoutInputVertical() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 75)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 79)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline float_t TMPro::TMP_InputField::get_minWidth() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 76)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 80)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t TMPro::TMP_InputField::get_preferredWidth() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 77)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 81)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t TMPro::TMP_InputField::get_flexibleWidth() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 78)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 82)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t TMPro::TMP_InputField::get_minHeight() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 79)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 83)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t TMPro::TMP_InputField::get_preferredHeight() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 80)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 84)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline float_t TMPro::TMP_InputField::get_flexibleHeight() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 81)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 85)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 inline int32_t TMPro::TMP_InputField::get_layoutPriority() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 82)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_InputField*>::get(), 86)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_InputField::SetGlobalPointSize(float_t pointSize) {
@@ -6174,6 +6531,14 @@ constexpr TMPro::TMP_InputField::operator ::UnityEngine::EventSystems::ISubmitHa
 /// @brief Convert to "::UnityEngine::EventSystems::ISubmitHandler"
 constexpr ::UnityEngine::EventSystems::ISubmitHandler* TMPro::TMP_InputField::i___UnityEngine__EventSystems__ISubmitHandler() noexcept {
   return static_cast<::UnityEngine::EventSystems::ISubmitHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::EventSystems::ICancelHandler"
+constexpr TMPro::TMP_InputField::operator ::UnityEngine::EventSystems::ICancelHandler*() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ICancelHandler*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::EventSystems::ICancelHandler"
+constexpr ::UnityEngine::EventSystems::ICancelHandler* TMPro::TMP_InputField::i___UnityEngine__EventSystems__ICancelHandler() noexcept {
+  return static_cast<::UnityEngine::EventSystems::ICancelHandler*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::UnityEngine::UI::ICanvasElement"
 constexpr TMPro::TMP_InputField::operator ::UnityEngine::UI::ICanvasElement*() noexcept {

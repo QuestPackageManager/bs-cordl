@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::get_startPoint)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22b92d0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x3200288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::get_endPoint)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x22b92ec;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32002a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::get_hasReferences)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22b906c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3200024;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::ObjectBasedBezierCurveData::_ctor)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x22b9308;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x32002b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

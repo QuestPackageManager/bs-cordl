@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)(uint32_t)>(&::Unity::Mathematics::Random::_ctor)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x46d2e40;
+  constexpr static std::size_t addrs = 0x6463d50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::Random (*)(uint32_t)>(&::Unity::Mathematics::Random::CreateFromIndex)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d2e54;
+  constexpr static std::size_t addrs = 0x6463d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::Unity::Mathematics::Random::WangHash)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d2e8c;
+  constexpr static std::size_t addrs = 0x6463d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,7 +64,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)(uint32_t)>(&::Unity::Mathematics::Random::InitState)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x46d2eb4;
+  constexpr static std::size_t addrs = 0x6463dc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46d2ec8;
+  constexpr static std::size_t addrs = 0x6463dd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextBool",
@@ -91,7 +91,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool2)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46d2ee8;
+  constexpr static std::size_t addrs = 0x6463df8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextBool2",
@@ -103,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool3)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x46d2f18;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x6463e28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextBool3",
@@ -116,8 +116,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::bool4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextBool4)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46d2f58;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6463e70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextBool4",
@@ -130,7 +130,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46d2fa8;
+  constexpr static std::size_t addrs = 0x6463eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextInt",
@@ -143,7 +143,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x46d2fc8;
+  constexpr static std::size_t addrs = 0x6463ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextInt2",
@@ -156,7 +156,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x46d2ffc;
+  constexpr static std::size_t addrs = 0x6463f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextInt3",
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextInt4)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x46d3040;
+  constexpr static std::size_t addrs = 0x6463f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextInt4",
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Mathematics::Random::*)(int32_t)>(&::Unity::Mathematics::Random::NextInt)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d3098;
+  constexpr static std::size_t addrs = 0x6463f9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int2)>(
     &::Unity::Mathematics::Random::NextInt2)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46d30c0;
+  constexpr static std::size_t addrs = 0x6463fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -212,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int3)>(
     &::Unity::Mathematics::Random::NextInt3)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x46d30fc;
+  constexpr static std::size_t addrs = 0x6464000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -227,7 +227,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int4)>(
     &::Unity::Mathematics::Random::NextInt4)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x46d3150;
+  constexpr static std::size_t addrs = 0x6464054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Unity::Mathematics::Random::*)(int32_t, int32_t)>(&::Unity::Mathematics::Random::NextInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d31b8;
+  constexpr static std::size_t addrs = 0x64640bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -255,8 +255,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int2, ::Unity::Mathematics::int2)>(
     &::Unity::Mathematics::Random::NextInt2)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x46d31e4;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x64640e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -271,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int3, ::Unity::Mathematics::int3)>(
     &::Unity::Mathematics::Random::NextInt3)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46d3240;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6464140;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -287,8 +287,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::int4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::int4, ::Unity::Mathematics::int4)>(
     &::Unity::Mathematics::Random::NextInt4)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x46d32b8;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x64641b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -303,7 +303,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x46d3360;
+  constexpr static std::size_t addrs = 0x6464254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextUInt",
@@ -316,7 +316,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt2)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x46d3380;
+  constexpr static std::size_t addrs = 0x6464274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextUInt2",
@@ -329,7 +329,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x46d33b4;
+  constexpr static std::size_t addrs = 0x64642a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextUInt3",
@@ -342,7 +342,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextUInt4)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x46d33f8;
+  constexpr static std::size_t addrs = 0x64642ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextUInt4",
@@ -354,8 +354,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Mathematics::Random::*)(uint32_t)>(&::Unity::Mathematics::Random::NextUInt)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x46d3450;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6464344;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -370,7 +370,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint2)>(
     &::Unity::Mathematics::Random::NextUInt2)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46d3478;
+  constexpr static std::size_t addrs = 0x6464368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -385,7 +385,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint3)>(
     &::Unity::Mathematics::Random::NextUInt3)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46d34b4;
+  constexpr static std::size_t addrs = 0x64643a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -400,7 +400,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::uint4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint4)>(
     &::Unity::Mathematics::Random::NextUInt4)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x46d3504;
+  constexpr static std::size_t addrs = 0x64643f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -414,7 +414,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Mathematics::Random::*)(uint32_t, uint32_t)>(&::Unity::Mathematics::Random::NextUInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d3568;
+  constexpr static std::size_t addrs = 0x6464458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -428,8 +428,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::uint2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint2, ::Unity::Mathematics::uint2)>(&::Unity::Mathematics::Random::NextUInt2)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x46d3594;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6464484;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -444,8 +444,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::uint3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint3, ::Unity::Mathematics::uint3)>(&::Unity::Mathematics::Random::NextUInt3)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46d35f0;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x64644dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -460,8 +460,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::uint4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::uint4, ::Unity::Mathematics::uint4)>(&::Unity::Mathematics::Random::NextUInt4)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x46d3668;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6464550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -476,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x46d3710;
+  constexpr static std::size_t addrs = 0x64645f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextFloat",
@@ -489,7 +489,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat2)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x46d373c;
+  constexpr static std::size_t addrs = 0x646461c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextFloat2",
@@ -502,7 +502,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat3)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x46d3784;
+  constexpr static std::size_t addrs = 0x6464664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextFloat3",
@@ -515,7 +515,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextFloat4)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x46d37e8;
+  constexpr static std::size_t addrs = 0x64646c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextFloat4",
@@ -528,7 +528,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Mathematics::Random::*)(float_t)>(&::Unity::Mathematics::Random::NextFloat)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x46d3868;
+  constexpr static std::size_t addrs = 0x6464748;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -543,7 +543,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float2)>(
     &::Unity::Mathematics::Random::NextFloat2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x46d3898;
+  constexpr static std::size_t addrs = 0x6464778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -558,7 +558,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float3)>(
     &::Unity::Mathematics::Random::NextFloat3)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x46d38e8;
+  constexpr static std::size_t addrs = 0x64647c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -573,7 +573,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float4)>(
     &::Unity::Mathematics::Random::NextFloat4)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x46d3958;
+  constexpr static std::size_t addrs = 0x6464838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -587,7 +587,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::Unity::Mathematics::Random::*)(float_t, float_t)>(&::Unity::Mathematics::Random::NextFloat)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d39e8;
+  constexpr static std::size_t addrs = 0x64648c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -602,7 +602,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float2, ::Unity::Mathematics::float2)>(&::Unity::Mathematics::Random::NextFloat2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x46d3a20;
+  constexpr static std::size_t addrs = 0x6464900;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -618,7 +618,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float3, ::Unity::Mathematics::float3)>(&::Unity::Mathematics::Random::NextFloat3)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x46d3a80;
+  constexpr static std::size_t addrs = 0x6464960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -634,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::float4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::float4, ::Unity::Mathematics::float4)>(&::Unity::Mathematics::Random::NextFloat4)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x46d3b08;
+  constexpr static std::size_t addrs = 0x64649e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -649,7 +649,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x46d3bb8;
+  constexpr static std::size_t addrs = 0x6464a98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextDouble",
@@ -662,7 +662,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble2)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x46d3bf0;
+  constexpr static std::size_t addrs = 0x6464ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextDouble2",
@@ -675,7 +675,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble3)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x46d3c50;
+  constexpr static std::size_t addrs = 0x6464b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextDouble3",
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double4 (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextDouble4)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x46d3cd8;
+  constexpr static std::size_t addrs = 0x6464bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextDouble4",
@@ -701,7 +701,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Mathematics::Random::*)(double_t)>(&::Unity::Mathematics::Random::NextDouble)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x46d3d88;
+  constexpr static std::size_t addrs = 0x6464c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -716,7 +716,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double2)>(
     &::Unity::Mathematics::Random::NextDouble2)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x46d3dc4;
+  constexpr static std::size_t addrs = 0x6464ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -731,7 +731,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double3)>(
     &::Unity::Mathematics::Random::NextDouble3)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x46d3e2c;
+  constexpr static std::size_t addrs = 0x6464d0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -746,7 +746,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double4)>(
     &::Unity::Mathematics::Random::NextDouble4)> {
   constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x46d3ec0;
+  constexpr static std::size_t addrs = 0x6464da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -760,7 +760,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::Unity::Mathematics::Random::*)(double_t, double_t)>(&::Unity::Mathematics::Random::NextDouble)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x46d3f80;
+  constexpr static std::size_t addrs = 0x6464e60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -775,7 +775,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double2, ::Unity::Mathematics::double2)>(&::Unity::Mathematics::Random::NextDouble2)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46d3fc4;
+  constexpr static std::size_t addrs = 0x6464ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -791,7 +791,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double3, ::Unity::Mathematics::double3)>(&::Unity::Mathematics::Random::NextDouble3)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x46d403c;
+  constexpr static std::size_t addrs = 0x6464f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -807,7 +807,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Unity::Mathematics::double4 (::Unity::Mathematics::Random::*)(::Unity::Mathematics::double4, ::Unity::Mathematics::double4)>(&::Unity::Mathematics::Random::NextDouble4)> {
   constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x46d40e8;
+  constexpr static std::size_t addrs = 0x6464fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -822,8 +822,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float2 (::Unity::Mathematics::Random::*)()>(
     &::Unity::Mathematics::Random::NextFloat2Direction)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x46d41c8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x64650a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextFloat2Direction",
@@ -837,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double2 (::Unity::Mathematics::Random::*)()>(
     &::Unity::Mathematics::Random::NextDouble2Direction)> {
   constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x46d42b0;
+  constexpr static std::size_t addrs = 0x6465198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextDouble2Direction",
@@ -851,7 +851,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::float3 (::Unity::Mathematics::Random::*)()>(
     &::Unity::Mathematics::Random::NextFloat3Direction)> {
   constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x46d439c;
+  constexpr static std::size_t addrs = 0x6465284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextFloat3Direction",
@@ -864,8 +864,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::double3 (::Unity::Mathematics::Random::*)()>(
     &::Unity::Mathematics::Random::NextDouble3Direction)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x46d450c;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x64653f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextDouble3Direction",
@@ -878,8 +878,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Mathematics::quaternion (::Unity::Mathematics::Random::*)()>(
     &::Unity::Mathematics::Random::NextQuaternionRotation)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x46d4684;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x646557c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextQuaternionRotation",
@@ -892,7 +892,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::NextState)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x46d47ec;
+  constexpr static std::size_t addrs = 0x64656f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "NextState",
@@ -905,7 +905,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::CheckInitState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d4808;
+  constexpr static std::size_t addrs = 0x646570c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "CheckInitState",
@@ -918,7 +918,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(uint32_t)>(&::Unity::Mathematics::Random::CheckIndexForHash)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x46d480c;
+  constexpr static std::size_t addrs = 0x6465710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -932,7 +932,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)()>(&::Unity::Mathematics::Random::CheckState)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d4864;
+  constexpr static std::size_t addrs = 0x6465768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Mathematics::Random>::get(), "CheckState",
@@ -945,7 +945,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)(int32_t)>(&::Unity::Mathematics::Random::CheckNextIntMax)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d4868;
+  constexpr static std::size_t addrs = 0x646576c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -959,7 +959,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)(int32_t, int32_t)>(&::Unity::Mathematics::Random::CheckNextIntMinMax)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d486c;
+  constexpr static std::size_t addrs = 0x6465770;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -973,7 +973,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Mathematics::Random::*)(uint32_t, uint32_t)>(&::Unity::Mathematics::Random::CheckNextUIntMinMax)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x46d4870;
+  constexpr static std::size_t addrs = 0x6465774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

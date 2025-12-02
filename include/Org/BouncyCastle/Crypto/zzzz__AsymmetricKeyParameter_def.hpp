@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(AsymmetricKeyParameter)
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 namespace System {
 class Object;
 }
@@ -16,7 +18,7 @@ class AsymmetricKeyParameter;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.AsymmetricKeyParameter
@@ -31,13 +33,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method Equals, addr 0x23b9274, size 0x98, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x32e7488, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x23b930c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x32e7520, size 0x20, virtual false, abstract: false, final false
   inline bool Equals(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* other);
 
-  /// @brief Method GetHashCode, addr 0x23b9330, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x32e7540, size 0x2c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* New_ctor(bool privateKey);
@@ -48,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set_privateKey(bool value);
 
-  /// @brief Method .ctor, addr 0x23b9244, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32e7478, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(bool privateKey);
 
-  /// @brief Method get_IsPrivate, addr 0x23b926c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsPrivate, addr 0x32e7480, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsPrivate();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

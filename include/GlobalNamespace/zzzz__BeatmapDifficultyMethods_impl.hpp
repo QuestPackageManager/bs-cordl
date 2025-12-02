@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::Name)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26c44d4;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x35f6bc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::ShortName)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26c4570;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x35f6c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::GlobalNamespace::BeatmapDifficulty)>(&::GlobalNamespace::BeatmapDifficultyMethods::DefaultRating)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x26c460c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x35f6d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::BeatmapDifficulty, float_t, bool)>(
     &::GlobalNamespace::BeatmapDifficultyMethods::NoteJumpMovementSpeed)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26c462c;
+  constexpr static std::size_t addrs = 0x35f6d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::GlobalNamespace::BeatmapDifficulty)>(
     &::GlobalNamespace::BeatmapDifficultyMethods::DefaultNoteJumpMovementSpeed)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x26c4664;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x35f6da8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -23,7 +23,7 @@ namespace GlobalNamespace {
 struct CORDL_TYPE SliderSpawnData {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3ae4bb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c07d8, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Vector3 headNoteOffset, float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase);
 
   // Ctor Parameters []
@@ -35,7 +35,7 @@ public:
   constexpr SliderSpawnData(::UnityEngine::Vector3 headNoteOffset, float_t headGravityBase, ::UnityEngine::Vector3 tailNoteOffset, float_t tailGravityBase) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4085 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5648 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

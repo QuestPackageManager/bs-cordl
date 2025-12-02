@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSrpGroupVerifier_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DefaultTlsSrpGroupVerifier)
 namespace Org::BouncyCastle::Crypto::Parameters {
 class Srp6GroupParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsSrpGroupVerifier;
 }
 namespace Org::BouncyCastle::Math {
 class BigInteger;
@@ -21,7 +23,7 @@ class DefaultTlsSrpGroupVerifier;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsSrpGroupVerifier, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.DefaultTlsSrpGroupVerifier
@@ -37,13 +39,13 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsSrpGroupVerifier*() noexcept;
 
-  /// @brief Method Accept, addr 0x23ec890, size 0x340, virtual true, abstract: false, final false
+  /// @brief Method Accept, addr 0x331adf8, size 0x320, virtual true, abstract: false, final false
   inline bool Accept(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* group);
 
-  /// @brief Method AreGroupsEqual, addr 0x23ecbd0, size 0x78, virtual true, abstract: false, final false
+  /// @brief Method AreGroupsEqual, addr 0x331b118, size 0x78, virtual true, abstract: false, final false
   inline bool AreGroupsEqual(::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* a, ::Org::BouncyCastle::Crypto::Parameters::Srp6GroupParameters* b);
 
-  /// @brief Method AreParametersEqual, addr 0x23ecc48, size 0x3c, virtual true, abstract: false, final false
+  /// @brief Method AreParametersEqual, addr 0x331b190, size 0x34, virtual true, abstract: false, final false
   inline bool AreParametersEqual(::Org::BouncyCastle::Math::BigInteger* a, ::Org::BouncyCastle::Math::BigInteger* b);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DefaultTlsSrpGroupVerifier* New_ctor();
@@ -56,10 +58,10 @@ public:
 
   constexpr void __cordl_internal_set_mGroups(::System::Collections::IList* value);
 
-  /// @brief Method .ctor, addr 0x23ec7fc, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331ad8c, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x23ec868, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331adf0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* groups);
 
   static inline ::System::Collections::IList* getStaticF_DefaultGroups();

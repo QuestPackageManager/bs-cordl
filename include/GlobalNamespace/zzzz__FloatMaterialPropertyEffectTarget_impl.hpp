@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)()>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::Awake)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b8e51c;
+  constexpr static std::size_t addrs = 0x577aef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>::get(),
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8e53c;
+  constexpr static std::size_t addrs = 0x577af14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b8e5a0;
+  constexpr static std::size_t addrs = 0x577af7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)(float_t)>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::SetFloat)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3b8e540;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x577af18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatMaterialPropertyEffectTarget::*)()>(
     &::GlobalNamespace::FloatMaterialPropertyEffectTarget::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3b8e5a4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x577af80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatMaterialPropertyEffectTarget*>::get(),
@@ -114,6 +114,18 @@ constexpr ::UnityEngine::Vector2 const& GlobalNamespace::FloatMaterialPropertyEf
 constexpr void GlobalNamespace::FloatMaterialPropertyEffectTarget::__cordl_internal_set__valueBounds(::UnityEngine::Vector2 value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____valueBounds = value;
+}
+constexpr float_t& GlobalNamespace::FloatMaterialPropertyEffectTarget::__cordl_internal_get__granularityMultiplier() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____granularityMultiplier;
+}
+constexpr float_t const& GlobalNamespace::FloatMaterialPropertyEffectTarget::__cordl_internal_get__granularityMultiplier() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____granularityMultiplier;
+}
+constexpr void GlobalNamespace::FloatMaterialPropertyEffectTarget::__cordl_internal_set__granularityMultiplier(float_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____granularityMultiplier = value;
 }
 constexpr int32_t& GlobalNamespace::FloatMaterialPropertyEffectTarget::__cordl_internal_get__propertyId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

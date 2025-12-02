@@ -1,23 +1,22 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/BloomFogParamsAnimator.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogEnvironmentParams_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogParamsAnimator_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)(int32_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39d44d0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x564b91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d4618;
+  constexpr static std::size_t addrs = 0x564ba3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x39d461c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x564ba40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -62,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d46fc;
+  constexpr static std::size_t addrs = 0x564bb34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39d4704;
+  constexpr static std::size_t addrs = 0x564bb3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator__AnimationCoroutine_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d473c;
+  constexpr static std::size_t addrs = 0x564bb74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -245,7 +244,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::AnimateBloomFogParamsChange)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d4340;
+  constexpr static std::size_t addrs = 0x564b794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -260,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (
     ::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(&::GlobalNamespace::BloomFogParamsAnimator::AnimationCoroutine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d4454;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x564b8ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -277,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*, float_t)>(
     &::GlobalNamespace::BloomFogParamsAnimator::SetBloomFogParamsChange)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x39d44f8;
+  constexpr static std::size_t addrs = 0x564b924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -292,8 +291,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::BloomFogEnvironmentParams> (::GlobalNamespace::BloomFogParamsAnimator::*)()>(
     &::GlobalNamespace::BloomFogParamsAnimator::GetDefaultBloomFogParams)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d4540;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x564b96c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAnimator*>::get(),
@@ -306,8 +305,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)(::GlobalNamespace::BloomFogEnvironmentParams*)>(
     &::GlobalNamespace::BloomFogParamsAnimator::SetDefaultBloomFogParams)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39d455c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x564b984;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -320,8 +319,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomFogParamsAnimator::*)()>(&::GlobalNamespace::BloomFogParamsAnimator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d4610;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x564ba38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomFogParamsAnimator*>::get(), ".ctor",

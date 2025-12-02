@@ -15,6 +15,9 @@ namespace GlobalNamespace {
 class BeatmapEventDataBox;
 }
 namespace GlobalNamespace {
+class IBeatmapBoxConverter;
+}
+namespace GlobalNamespace {
 class IEnvironmentLightGroups;
 }
 namespace GlobalNamespace {
@@ -33,14 +36,14 @@ namespace BeatmapDataLoaderVersion4 {
 class CORDL_TYPE LightRotationEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
   // Declarations
-  /// @brief Method ConvertEvents, addr 0x270ebf8, size 0x248, virtual true, abstract: false, final false
+  /// @brief Method ConvertEvents, addr 0x363a154, size 0x2d4, virtual true, abstract: false, final false
   inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
 
-  static inline ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
-                                                                                           ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
+  static inline ::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter*
+  New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
-  /// @brief Method .ctor, addr 0x270e08c, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
+  /// @brief Method .ctor, addr 0x3639458, size 0xc, virtual false, abstract: false, final false
+  inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups, ::GlobalNamespace::IBeatmapBoxConverter* boxConverter);
 
 protected:
   // Ctor Parameters []
@@ -57,12 +60,12 @@ public:
   LightRotationEventBoxGroupConverter(LightRotationEventBoxGroupConverter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15399 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter, 0x28>, "Size mismatch!");
 
 } // namespace BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::LightRotationEventBoxGroupConverter);

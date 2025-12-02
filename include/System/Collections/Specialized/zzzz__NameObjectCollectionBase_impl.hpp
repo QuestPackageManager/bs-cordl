@@ -1,17 +1,16 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Specialized/NameObjectCollectionBase.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Specialized/zzzz__NameObjectCollectionBase_def.hpp"
 #include "System/Collections/Specialized/zzzz__NameObjectCollectionBase_def.hpp"
 #include "System/Collections/zzzz__ArrayList_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__IEqualityComparer_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Array_def.hpp"
@@ -23,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase_NameObjectEntry::*)(::StringW, ::System::Object*)>(
     &::System::Collections::Specialized::NameObjectCollectionBase_NameObjectEntry::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44863e0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61d5d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::*)(
     ::System::Collections::Specialized::NameObjectCollectionBase*)>(&::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4486464;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x61d5ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -91,8 +90,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::MoveNext)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x44868f8;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x61d624c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -106,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::Reset)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x44869d0;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x61d631c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase_NameObjectKeysEnumerator::get_Current)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4486a58;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x61d639c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -211,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::_ctor)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x4481014;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x61d0bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -226,8 +225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::System::Collections::IEqualityComparer*)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4485298;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x61d4c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -242,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(
     int32_t, ::System::Collections::IEqualityComparer*)>(&::System::Collections::Specialized::NameObjectCollectionBase::_ctor)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44811fc;
+  constexpr static std::size_t addrs = 0x61d0dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +257,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(int32_t)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x44810d8;
+  constexpr static std::size_t addrs = 0x61d0c84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -272,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::System::DBNull*)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4481f5c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x61d1b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -287,8 +286,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Specialized::NameObjectCollectionBase::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4481294;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x61d0e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -303,8 +302,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Collections::Specialized::NameObjectCollectionBase::GetObjectData)> {
-  constexpr static std::size_t size = 0x588;
-  constexpr static std::size_t addrs = 0x448547c;
+  constexpr static std::size_t size = 0x5a8;
+  constexpr static std::size_t addrs = 0x61d4df8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -319,8 +318,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::System::Object*)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::OnDeserialization)> {
-  constexpr static std::size_t size = 0x744;
-  constexpr static std::size_t addrs = 0x4485bb0;
+  constexpr static std::size_t size = 0x748;
+  constexpr static std::size_t addrs = 0x61d5560;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -335,8 +334,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::Reset)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4485318;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x61d4c88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -350,8 +349,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(int32_t)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::Reset)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x44853c4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x61d4d38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -365,8 +364,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Specialized::NameObjectCollectionBase_NameObjectEntry* (
     ::System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW)>(&::System::Collections::Specialized::NameObjectCollectionBase::FindEntry)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4486320;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x61d5cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -381,7 +380,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::get_IsReadOnly)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44863d8;
+  constexpr static std::size_t addrs = 0x61d5d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -395,8 +394,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW, ::System::Object*)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::BaseAdd)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x4481694;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x61d1220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -411,8 +410,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::BaseRemove)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x4481a9c;
+  constexpr static std::size_t size = 0x208;
+  constexpr static std::size_t addrs = 0x61d1628;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -427,7 +426,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::BaseGet)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x448167c;
+  constexpr static std::size_t addrs = 0x61d1208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -441,8 +440,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::StringW, ::System::Object*)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::BaseSet)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x44819ec;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x61d1580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -457,8 +456,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::NameObjectCollectionBase::*)(int32_t)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::BaseGet)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4481d44;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x61d18e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -472,8 +471,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Collections::Specialized::NameObjectCollectionBase::*)(int32_t)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::BaseGetKey)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4481e68;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x61d1a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -487,8 +486,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::GetEnumerator)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x448640c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x61d5d74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -503,8 +502,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::get_Count)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44864a4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x61d5e00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -519,8 +518,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Collections::Specialized::NameObjectCollectionBase::*)(::System::Array*, int32_t)>(
     &::System::Collections::Specialized::NameObjectCollectionBase::System_Collections_ICollection_CopyTo)> {
-  constexpr static std::size_t size = 0x30c;
-  constexpr static std::size_t addrs = 0x44864c8;
+  constexpr static std::size_t size = 0x300;
+  constexpr static std::size_t addrs = 0x61d5e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -535,8 +534,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::System_Collections_ICollection_get_SyncRoot)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x44867d4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x61d6120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -551,7 +550,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Collections::Specialized::NameObjectCollectionBase::*)()>(
     &::System::Collections::Specialized::NameObjectCollectionBase::System_Collections_ICollection_get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4486848;
+  constexpr static std::size_t addrs = 0x61d618c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

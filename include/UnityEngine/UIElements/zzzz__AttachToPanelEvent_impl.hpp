@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AttachToPanelEvent___c::*)()>(
     &::UnityEngine::UIElements::AttachToPanelEvent___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a30290;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b6e0e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::AttachToPanelEvent___c*>::get(),
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::AttachToPanelEvent* (::UnityEngine::UIElements::AttachToPanelEvent___c::*)()>(
     &::UnityEngine::UIElements::AttachToPanelEvent___c::__cctor_b__0_0)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x4a30298;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6b6e0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::AttachToPanelEvent___c*>::get(),
@@ -60,8 +60,8 @@ constexpr ::UnityEngine::UIElements::AttachToPanelEvent___c::AttachToPanelEvent_
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::AttachToPanelEvent::*)()>(&::UnityEngine::UIElements::AttachToPanelEvent::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a301ec;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6b6e044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::AttachToPanelEvent*>::get(), ".ctor",

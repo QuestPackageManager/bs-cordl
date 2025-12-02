@@ -32,7 +32,7 @@ public:
   template <typename T> static inline ::ByRef<T> Add(::ByRef<T> source, int32_t elementOffset);
 
   /// @brief Method Add, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> Add(::cordl_internals::Ptr<void> source, int32_t elementOffset);
+  template <typename T> static inline void* Add(void* source, int32_t elementOffset);
 
   /// @brief Method AddByteOffset, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ByRef<T> AddByteOffset(::ByRef<T> source, ::System::IntPtr byteOffset);
@@ -50,22 +50,22 @@ public:
   template <typename T> static inline T As(::System::Object* o);
 
   /// @brief Method AsPointer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::cordl_internals::Ptr<void> AsPointer(::ByRef<T> value);
+  template <typename T> static inline void* AsPointer(::ByRef<T> value);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::ByRef<T> AsRef(::ByRef<T> source);
 
   /// @brief Method AsRef, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline ::ByRef<T> AsRef(::cordl_internals::Ptr<void> source);
+  template <typename T> static inline ::ByRef<T> AsRef(void* source);
 
-  /// @brief Method InitBlockUnaligned, addr 0x3d1aedc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method InitBlockUnaligned, addr 0x595c6b4, size 0x8, virtual false, abstract: false, final false
   static inline void InitBlockUnaligned(::ByRef<uint8_t> startAddress, uint8_t value, uint32_t byteCount);
 
   /// @brief Method IsAddressLessThan, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline bool IsAddressLessThan(::ByRef<T> left, ::ByRef<T> right);
 
   /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename T> static inline T Read(::cordl_internals::Ptr<void> source);
+  template <typename T> static inline T Read(void* source);
 
   /// @brief Method ReadUnaligned, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T ReadUnaligned(::ByRef<uint8_t> source);
@@ -91,7 +91,7 @@ public:
   Unsafe(Unsafe const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3423 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

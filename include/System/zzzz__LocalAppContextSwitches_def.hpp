@@ -24,7 +24,7 @@ public:
 
   static inline int32_t getStaticF_s_allowArbitraryTypeInstantiation();
 
-  /// @brief Method get_AllowArbitraryTypeInstantiation, addr 0x4135db0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_AllowArbitraryTypeInstantiation, addr 0x5de0ef8, size 0x88, virtual false, abstract: false, final false
   static inline bool get_AllowArbitraryTypeInstantiation();
 
   static inline void setStaticF_s_allowArbitraryTypeInstantiation(int32_t value);
@@ -44,7 +44,7 @@ public:
   LocalAppContextSwitches(LocalAppContextSwitches const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11335 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13693 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

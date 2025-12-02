@@ -1,11 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ObstacleController.hpp"
-#include "GlobalNamespace/zzzz__IBeatmapObjectController_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleControllerBase_impl.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnData_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Bounds_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -16,27 +12,45 @@
 #include "BeatSaber/Settings/zzzz__Settings_def.hpp"
 #include "GlobalNamespace/zzzz__ColorManager_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapObjectController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleController_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleData_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleMaterialSetter_def.hpp"
 #include "GlobalNamespace/zzzz__ObstacleSpawnData_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "GlobalNamespace/zzzz__StretchableObstacle_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Bounds_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__GameObject_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+inline void GlobalNamespace::ObstacleController_Layers::setStaticF_standard(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "standard", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController_Layers*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::ObstacleController_Layers::getStaticF_standard() {
+  return ::cordl_internals::getStaticField<int32_t, "standard", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController_Layers*>::get>();
+}
+inline void GlobalNamespace::ObstacleController_Layers::setStaticF_screenDisplacement(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "screenDisplacement", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController_Layers*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::ObstacleController_Layers::getStaticF_screenDisplacement() {
+  return ::cordl_internals::getStaticField<int32_t, "screenDisplacement", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController_Layers*>::get>();
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::ObstacleController_Layers::ObstacleController_Layers() {}
 //  Writing Method size for method: ::GlobalNamespace::ObstacleController_Pool.OnCreated
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController_Pool::*)(::GlobalNamespace::ObstacleController*)>(
     &::GlobalNamespace::ObstacleController_Pool::OnCreated)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3af1cb0;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x56ce094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController_Pool::*)()>(&::GlobalNamespace::ObstacleController_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af1d50;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56ce128;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController_Pool*>::get(), ".ctor",
@@ -85,217 +99,217 @@ inline ::GlobalNamespace::ObstacleController_Pool* GlobalNamespace::ObstacleCont
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::ObstacleController_Pool::ObstacleController_Pool() {}
-//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64._ctor
+//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::*)(int32_t)>(
-    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3af1c30;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)(int32_t)>(
+    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56cdf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::*)()>(
-    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
+    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af1d98;
+  constexpr static std::size_t addrs = 0x56ce164;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::*)()>(
-    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::MoveNext)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3af1d9c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
+    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::MoveNext)> {
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x56ce168;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64.System_Collections_Generic_IEnumerator_System_Object__get_Current
+//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66.System_Collections_Generic_IEnumerator_System_Object__get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::*)()>(
-    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
+    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af1e80;
+  constexpr static std::size_t addrs = 0x56ce248;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                     "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::*)()>(
-    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
+    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3af1e88;
+  constexpr static std::size_t addrs = 0x56ce250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::*)()>(
-    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::*)()>(
+    &::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af1ec0;
+  constexpr static std::size_t addrs = 0x56ce288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::System::Object*& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get___2__current() {
+constexpr ::System::Object*& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::System::Object* const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get___2__current() const {
+constexpr ::System::Object* const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_set___2__current(::System::Object* value) {
+constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_set___2__current(::System::Object* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::ObstacleController>& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get___4__this() {
+constexpr ::UnityW<::GlobalNamespace::ObstacleController>& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get___4__this() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get___4__this() const {
+constexpr ::UnityW<::GlobalNamespace::ObstacleController> const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get___4__this() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____4__this;
 }
-constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ObstacleController> value) {
+constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_set___4__this(::UnityW<::GlobalNamespace::ObstacleController> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____4__this)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr float_t& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get_duration() {
+constexpr float_t& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get_duration() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
-constexpr float_t const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_get_duration() const {
+constexpr float_t const& GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_get_duration() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___duration;
 }
-constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::__cordl_internal_set_duration(float_t value) {
+constexpr void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::__cordl_internal_set_duration(float_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___duration = value;
 }
-inline void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_IDisposable_Dispose() {
+inline void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::MoveNext() {
+inline bool GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
+inline ::System::Object* GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_Generic_IEnumerator_System_Object__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                   "System.Collections.Generic.IEnumerator<System.Object>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64* GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64*>(__1__state));
+inline ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66* GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
-constexpr GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
+constexpr GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::operator ::System::Collections::Generic::IEnumerator_1<::System::Object*>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::System::Object*>*
-GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
+GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::i___System__Collections__Generic__IEnumerator_1___System__Object__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::System::Object*>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__64::ObstacleController__DissolveCoroutine_d__64() {}
+constexpr ::GlobalNamespace::ObstacleController__DissolveCoroutine_d__66::ObstacleController__DissolveCoroutine_d__66() {}
 //  Writing Method size for method: ::GlobalNamespace::ObstacleController.add_finishedMovementEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::add_finishedMovementEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae04d4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bbef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,8 +323,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::remove_finishedMovementEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae08dc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bc348;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -324,8 +338,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::add_passedThreeQuartersOfJumpDurationEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae0584;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bbfb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -339,8 +353,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::remove_passedThreeQuartersOfJumpDurationEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae098c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bc408;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -355,8 +369,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::add_passedAvoidedMarkEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae0634;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bc074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -370,8 +384,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::remove_passedAvoidedMarkEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae0a3c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bc4c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -385,8 +399,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::ObstacleController::*)(::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::add_didDissolveEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae06e4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bc134;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,8 +414,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_1<::UnityW<::GlobalNamespace::ObstacleController>>*)>(&::GlobalNamespace::ObstacleController::remove_didDissolveEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ae0aec;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56bc588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -415,8 +429,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*)>(&::GlobalNamespace::ObstacleController::add_didUpdateProgress)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af1124;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56cd340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -430,8 +444,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(
     ::System::Action_2<::UnityW<::GlobalNamespace::ObstacleController>, float_t>*)>(&::GlobalNamespace::ObstacleController::remove_didUpdateProgress)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3af11d4;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56cd400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -446,7 +460,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Bounds (::GlobalNamespace::ObstacleController::*)()>(
     &::GlobalNamespace::ObstacleController::get_bounds)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3af1284;
+  constexpr static std::size_t addrs = 0x56cd4c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "get_bounds",
@@ -460,7 +474,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ObstacleData* (::GlobalNamespace::ObstacleController::*)()>(
     &::GlobalNamespace::ObstacleController::get_obstacleData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af1298;
+  constexpr static std::size_t addrs = 0x56cd4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(),
@@ -474,7 +488,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ObstacleController::*)()>(
     &::GlobalNamespace::ObstacleController::get_hasPassedAvoidedMark)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af12a0;
+  constexpr static std::size_t addrs = 0x56cd4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(),
@@ -487,7 +501,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af12a8;
+  constexpr static std::size_t addrs = 0x56cd4e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "get_width",
@@ -500,7 +514,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af12b0;
+  constexpr static std::size_t addrs = 0x56cd4ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "get_height",
@@ -513,7 +527,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3af12b8;
+  constexpr static std::size_t addrs = 0x56cd4f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "get_length",
@@ -527,7 +541,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::ObstacleController::*)()>(
     &::GlobalNamespace::ObstacleController::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3af12c0;
+  constexpr static std::size_t addrs = 0x56cd4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "get_color",
@@ -539,8 +553,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::get_manualUvOffset)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3af0e74;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x56cd080;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(),
@@ -553,8 +567,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::ObstacleController::*)(::GlobalNamespace::ObstacleData*, ::ByRef<::GlobalNamespace::ObstacleSpawnData>)>(&::GlobalNamespace::ObstacleController::Init)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x3af12cc;
+  constexpr static std::size_t size = 0x4b8;
+  constexpr static std::size_t addrs = 0x56cd508;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -568,8 +582,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(::BeatSaber::Settings::Settings)>(
     &::GlobalNamespace::ObstacleController::InitGraphics)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3af1774;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x56cd9c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -583,7 +597,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::Update)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3af17f8;
+  constexpr static std::size_t addrs = 0x56cdb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "Update",
@@ -595,8 +609,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::ManualUpdate)> {
-  constexpr static std::size_t size = 0x80c;
-  constexpr static std::size_t addrs = 0x3adf0b0;
+  constexpr static std::size_t size = 0x810;
+  constexpr static std::size_t addrs = 0x56baa80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), "ManualUpdate",
@@ -609,8 +623,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::ObstacleController::*)(float_t)>(
     &::GlobalNamespace::ObstacleController::GetPosForTime)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3af17fc;
+  constexpr static std::size_t size = 0x294;
+  constexpr static std::size_t addrs = 0x56cdb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -623,8 +637,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::GetObstacleLength)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3af1a8c;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x56cdda4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(),
@@ -637,8 +651,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ObstacleController::*)(float_t)>(
     &::GlobalNamespace::ObstacleController::DissolveCoroutine)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3af1bc0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x56cdee0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -651,8 +665,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(float_t)>(&::GlobalNamespace::ObstacleController::Dissolve)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3af1c58;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x56cdf4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -665,8 +679,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(bool)>(&::GlobalNamespace::ObstacleController::Hide)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3adf8bc;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x56bb290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -680,7 +694,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)(bool)>(&::GlobalNamespace::ObstacleController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3af1c90;
+  constexpr static std::size_t addrs = 0x56cdf80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -693,8 +707,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObstacleController::*)()>(&::GlobalNamespace::ObstacleController::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3af1ca0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x56cdf90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObstacleController*>::get(), ".ctor",
@@ -702,6 +716,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*>& GlobalNamespace::ObstacleController::__cordl_internal_get__layerSwitch() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____layerSwitch;
+}
+constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& GlobalNamespace::ObstacleController::__cordl_internal_get__layerSwitch() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____layerSwitch;
+}
+constexpr void GlobalNamespace::ObstacleController::__cordl_internal_set__layerSwitch(::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____layerSwitch)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityW<::GlobalNamespace::StretchableObstacle>& GlobalNamespace::ObstacleController::__cordl_internal_get__stretchableObstacle() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____stretchableObstacle;

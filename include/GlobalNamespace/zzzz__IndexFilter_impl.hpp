@@ -1,18 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IndexFilter.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/zzzz__ValueTuple_3_impl.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__ValueTuple_2_def.hpp"
 #include "System/zzzz__ValueTuple_3_def.hpp"
@@ -39,8 +36,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)(int32_t)>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26be118;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35ef664;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26be1e8;
+  constexpr static std::size_t addrs = 0x35ef700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>::get(),
@@ -68,8 +65,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::MoveNext)> {
-  constexpr static std::size_t size = 0x4c4;
-  constexpr static std::size_t addrs = 0x26be204;
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x35ef71c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>::get(),
@@ -82,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26be6c8;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x35efbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter__GetEnumerator_d__23*>::get(),
@@ -98,7 +95,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::ValueTuple_3<int32_t, int32_t, int32_t> (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_Collections_Generic_IEnumerator__System_Int32element_System_Int32durationOrder_System_Int32distributionOrder___get_Current)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26be778;
+  constexpr static std::size_t addrs = 0x35efc78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -114,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26be788;
+  constexpr static std::size_t addrs = 0x35efc88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -128,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::IndexFilter__GetEnumerator_d__23::*)()>(
     &::GlobalNamespace::IndexFilter__GetEnumerator_d__23::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x26be7c0;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x35efcc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -310,8 +307,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetValues_d__24::*)(int32_t)>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26be1b0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x35ef6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,7 +323,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26be824;
+  constexpr static std::size_t addrs = 0x35efd28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter__GetValues_d__24*>::get(),
@@ -340,7 +337,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::MoveNext)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26be828;
+  constexpr static std::size_t addrs = 0x35efd2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter__GetValues_d__24*>::get(),
@@ -354,7 +351,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_Generic_IEnumerator_System_Int32__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26be8a8;
+  constexpr static std::size_t addrs = 0x35efdac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26be8b0;
+  constexpr static std::size_t addrs = 0x35efdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -383,8 +380,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x26be8e8;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x35efdec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -398,8 +395,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<int32_t>* (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_Generic_IEnumerable_System_Int32__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26be944;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x35efe10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -414,7 +411,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::IndexFilter__GetValues_d__24::*)()>(
     &::GlobalNamespace::IndexFilter__GetValues_d__24::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26be9e0;
+  constexpr static std::size_t addrs = 0x35efea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -591,7 +588,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_Count)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdf38;
+  constexpr static std::size_t addrs = 0x35ef4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(), "get_Count",
@@ -604,7 +601,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_VisibleCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdf40;
+  constexpr static std::size_t addrs = 0x35ef4b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(), "get_VisibleCount",
@@ -618,7 +615,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType (::GlobalNamespace::IndexFilter::*)()>(
     &::GlobalNamespace::IndexFilter::get_limitAlsoAffectType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26bdf48;
+  constexpr static std::size_t addrs = 0x35ef4bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(),
@@ -631,7 +628,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitsDuration)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26bdf50;
+  constexpr static std::size_t addrs = 0x35ef4c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(), "get_limitsDuration",
@@ -644,7 +641,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::get_limitsDistribution)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26bb174;
+  constexpr static std::size_t addrs = 0x35ec804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(), "get_limitsDistribution",
@@ -658,8 +655,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter::*)(
     int32_t, int32_t, int32_t, int32_t, ::GlobalNamespace::IndexFilter_IndexFilterRandomType, int32_t, int32_t, float_t, ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType)>(
     &::GlobalNamespace::IndexFilter::_ctor)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x26bdf5c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x35ef4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -679,8 +676,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::IndexFilter::*)(
     int32_t, int32_t, int32_t, ::GlobalNamespace::IndexFilter_IndexFilterRandomType, int32_t, int32_t, float_t, ::GlobalNamespace::IndexFilter_IndexFilterLimitAlsoAffectType)>(
     &::GlobalNamespace::IndexFilter::_ctor)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x26be044;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x35ef588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -699,8 +696,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::System::ValueTuple_3<int32_t, int32_t, int32_t>>* (
     ::GlobalNamespace::IndexFilter::*)()>(&::GlobalNamespace::IndexFilter::GetEnumerator)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x26bba34;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x35ed038;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(), "GetEnumerator",
@@ -714,7 +711,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<int32_t>* (::GlobalNamespace::IndexFilter::*)()>(
     &::GlobalNamespace::IndexFilter::GetValues)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26be140;
+  constexpr static std::size_t addrs = 0x35ef66c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IndexFilter*>::get(), "GetValues",
@@ -728,7 +725,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::IndexFilter::*)()>(
     &::GlobalNamespace::IndexFilter::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26be1e4;
+  constexpr static std::size_t addrs = 0x35ef6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

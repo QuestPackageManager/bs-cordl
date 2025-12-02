@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IGameLiftPlayerSessionProvider)
 namespace BGNet::Core::GameLift {
@@ -18,6 +17,9 @@ struct GameplayServerConfiguration;
 namespace GlobalNamespace {
 class IAuthenticationTokenProvider;
 }
+namespace GlobalNamespace {
+class IPollable;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
 }
@@ -30,7 +32,7 @@ class IGameLiftPlayerSessionProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGNet::Core::GameLift::IGameLiftPlayerSessionProvider);
-// Dependencies IPollable
+// Dependencies
 namespace BGNet::Core::GameLift {
 // Is value type: false
 // CS Name: BGNet.Core.GameLift.IGameLiftPlayerSessionProvider
@@ -53,7 +55,7 @@ public:
   IGameLiftPlayerSessionProvider(IGameLiftPlayerSessionProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15023 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

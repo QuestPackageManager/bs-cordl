@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::Ucs4Decoder1234::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Xml::Ucs4Decoder1234::GetFullChars)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x436058c;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x60c7b74;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Ucs4Decoder1234::*)()>(&::System::Xml::Ucs4Decoder1234::_ctor)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x435fc14;
+  constexpr static std::size_t addrs = 0x60c71c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Ucs4Decoder1234*>::get(), ".ctor",

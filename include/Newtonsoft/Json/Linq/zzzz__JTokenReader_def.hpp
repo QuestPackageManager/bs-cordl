@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -13,6 +12,9 @@ class JContainer;
 }
 namespace Newtonsoft::Json::Linq {
 class JToken;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 struct JsonToken;
@@ -29,7 +31,7 @@ class JTokenReader;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Linq::JTokenReader);
-// Dependencies Newtonsoft.Json.IJsonLineInfo, Newtonsoft.Json.JsonReader
+// Dependencies Newtonsoft.Json.JsonReader
 namespace Newtonsoft::Json::Linq {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Linq.JTokenReader
@@ -59,41 +61,41 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method GetEndToken, addr 0x3f2aa6c, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method GetEndToken, addr 0x5b71928, size 0x108, virtual false, abstract: false, final false
   inline ::System::Nullable_1<::Newtonsoft::Json::JsonToken> GetEndToken(::Newtonsoft::Json::Linq::JContainer* c);
 
   static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token);
 
   static inline ::Newtonsoft::Json::Linq::JTokenReader* New_ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x3f2abe4, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.HasLineInfo, addr 0x5b71a50, size 0xb8, virtual true, abstract: false, final true
   inline bool Newtonsoft_Json_IJsonLineInfo_HasLineInfo();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x3f2ac98, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LineNumber, addr 0x5b71b08, size 0xbc, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LineNumber();
 
-  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x3f2ad50, size 0xb8, virtual true, abstract: false, final true
+  /// @brief Method Newtonsoft.Json.IJsonLineInfo.get_LinePosition, addr 0x5b71bc4, size 0xbc, virtual true, abstract: false, final true
   inline int32_t Newtonsoft_Json_IJsonLineInfo_get_LinePosition();
 
-  /// @brief Method Read, addr 0x3f2a1e0, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5b70ffc, size 0xd4, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadInto, addr 0x3f2a2b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ReadInto, addr 0x5b710d0, size 0x68, virtual false, abstract: false, final false
   inline bool ReadInto(::Newtonsoft::Json::Linq::JContainer* c);
 
-  /// @brief Method ReadOver, addr 0x3f2a318, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ReadOver, addr 0x5b71138, size 0xa0, virtual false, abstract: false, final false
   inline bool ReadOver(::Newtonsoft::Json::Linq::JToken* t);
 
-  /// @brief Method ReadToEnd, addr 0x3f2a9c8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ReadToEnd, addr 0x5b7186c, size 0x18, virtual false, abstract: false, final false
   inline bool ReadToEnd();
 
-  /// @brief Method SafeToString, addr 0x3f2abc4, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method SafeToString, addr 0x5b71a30, size 0x20, virtual false, abstract: false, final false
   inline ::StringW SafeToString(::System::Object* value);
 
-  /// @brief Method SetEnd, addr 0x3f2a9e8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetEnd, addr 0x5b71884, size 0xa4, virtual false, abstract: false, final false
   inline bool SetEnd(::Newtonsoft::Json::Linq::JContainer* c);
 
-  /// @brief Method SetToken, addr 0x3f2a3cc, size 0x5fc, virtual false, abstract: false, final false
+  /// @brief Method SetToken, addr 0x5b711d8, size 0x694, virtual false, abstract: false, final false
   inline void SetToken(::Newtonsoft::Json::Linq::JToken* token);
 
   constexpr ::Newtonsoft::Json::Linq::JToken* const& __cordl_internal_get__current() const;
@@ -120,16 +122,16 @@ public:
 
   constexpr void __cordl_internal_set__root(::Newtonsoft::Json::Linq::JToken* value);
 
-  /// @brief Method .ctor, addr 0x3f2a150, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70f68, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token);
 
-  /// @brief Method .ctor, addr 0x3f2a1bc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b70fd8, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::Newtonsoft::Json::Linq::JToken* token, ::StringW initialPath);
 
-  /// @brief Method get_CurrentToken, addr 0x3f2a148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentToken, addr 0x5b70f60, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::Linq::JToken* get_CurrentToken();
 
-  /// @brief Method get_Path, addr 0x3f2ae08, size 0xe8, virtual true, abstract: false, final false
+  /// @brief Method get_Path, addr 0x5b71c80, size 0xe0, virtual true, abstract: false, final false
   inline ::StringW get_Path();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
@@ -150,7 +152,7 @@ public:
   JTokenReader(JTokenReader const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10430 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13584 };
 
   /// @brief Field _root, offset: 0x78, size: 0x8, def value: None
   ::Newtonsoft::Json::Linq::JToken* ____root;

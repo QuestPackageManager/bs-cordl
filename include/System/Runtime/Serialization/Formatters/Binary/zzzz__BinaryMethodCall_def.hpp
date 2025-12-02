@@ -50,12 +50,12 @@ public:
   /// @brief Field typeName, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_typeName, put = __cordl_internal_set_typeName)) ::StringW typeName;
 
-  /// @brief Method Dump, addr 0x3d00d20, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method Dump, addr 0x5941e8c, size 0x4, virtual false, abstract: false, final false
   inline void Dump();
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryMethodCall* New_ctor();
 
-  /// @brief Method Write, addr 0x3d00bd8, size 0x148, virtual false, abstract: false, final false
+  /// @brief Method Write, addr 0x5941d68, size 0x124, virtual false, abstract: false, final false
   inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
 
   constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_argTypes() const;
@@ -100,7 +100,7 @@ public:
 
   constexpr void __cordl_internal_set_typeName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3d00d24, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5941e90, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -118,7 +118,7 @@ public:
   BinaryMethodCall(BinaryMethodCall const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3262 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3275 };
 
   /// @brief Field methodName, offset: 0x10, size: 0x8, def value: None
   ::StringW ___methodName;

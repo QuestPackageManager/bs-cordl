@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CaseInsensitiveComparer)
+namespace System::Collections {
+class IComparer;
+}
 namespace System::Globalization {
 class CompareInfo;
 }
@@ -22,7 +24,7 @@ class CaseInsensitiveComparer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::CaseInsensitiveComparer);
-// Dependencies System.Collections.IComparer, System.Object
+// Dependencies System.Object
 namespace System::Collections {
 // Is value type: false
 // CS Name: System.Collections.CaseInsensitiveComparer
@@ -35,7 +37,7 @@ public:
   /// @brief Convert operator to "::System::Collections::IComparer"
   constexpr operator ::System::Collections::IComparer*() noexcept;
 
-  /// @brief Method Compare, addr 0x3dba744, size 0xec, virtual true, abstract: false, final true
+  /// @brief Method Compare, addr 0x59ce41c, size 0xe0, virtual true, abstract: false, final true
   inline int32_t Compare(::System::Object* a, ::System::Object* b);
 
   static inline ::System::Collections::CaseInsensitiveComparer* New_ctor();
@@ -48,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
 
-  /// @brief Method .ctor, addr 0x3dba644, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ce334, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3dba6c0, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59ce3a8, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::CultureInfo* culture);
 
   /// @brief Convert to "::System::Collections::IComparer"
@@ -72,7 +74,7 @@ public:
   CaseInsensitiveComparer(CaseInsensitiveComparer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3778 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3703 };
 
   /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
   ::System::Globalization::CompareInfo* ____compareInfo;

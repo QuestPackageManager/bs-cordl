@@ -44,31 +44,31 @@ namespace ModestTree {
 class CORDL_TYPE _cordl_Assert : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method CreateException, addr 0x4af5194, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x6c0af50, size 0x74, virtual false, abstract: false, final false
   static inline ::Zenject::ZenjectException* CreateException();
 
-  /// @brief Method CreateException, addr 0x4af5200, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x6c0afc4, size 0x88, virtual false, abstract: false, final false
   static inline ::Zenject::ZenjectException* CreateException(::System::Exception* innerException, ::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method CreateException, addr 0x4af3ac8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x6c09878, size 0x60, virtual false, abstract: false, final false
   static inline ::Zenject::ZenjectException* CreateException(::StringW message);
 
-  /// @brief Method CreateException, addr 0x4af3d50, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method CreateException, addr 0x6c09ae4, size 0x80, virtual false, abstract: false, final false
   static inline ::Zenject::ZenjectException* CreateException(::StringW message, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
 
-  /// @brief Method DerivesFrom, addr 0x4af3b68, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method DerivesFrom, addr 0x6c09918, size 0x134, virtual false, abstract: false, final false
   static inline void DerivesFrom(::System::Type* childType, ::System::Type* parentType);
 
   /// @brief Method DerivesFrom, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DerivesFrom(::System::Type* type);
 
-  /// @brief Method DerivesFromOrEqual, addr 0x4af3dcc, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method DerivesFromOrEqual, addr 0x6c09b64, size 0x134, virtual false, abstract: false, final false
   static inline void DerivesFromOrEqual(::System::Type* childType, ::System::Type* parentType);
 
   /// @brief Method DerivesFromOrEqual, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void DerivesFromOrEqual(::System::Type* type);
 
-  /// @brief Method IsApproximately, addr 0x4af4234, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method IsApproximately, addr 0x6c09fbc, size 0x12c, virtual false, abstract: false, final false
   static inline void IsApproximately(float_t left, float_t right, float_t epsilon);
 
   /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -77,49 +77,49 @@ public:
   /// @brief Method IsEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsEmpty(::System::Collections::Generic::IEnumerable_1<T>* sequence);
 
-  /// @brief Method IsEqual, addr 0x4af3fa4, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsEqual, addr 0x6c09d00, size 0x5c, virtual false, abstract: false, final false
   static inline void IsEqual(::System::Object* left, ::System::Object* right);
 
-  /// @brief Method IsEqual, addr 0x4af3ffc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method IsEqual, addr 0x6c09d5c, size 0x120, virtual false, abstract: false, final false
   static inline void IsEqual(::System::Object* left, ::System::Object* right, ::StringW message);
 
-  /// @brief Method IsEqual, addr 0x4af4108, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method IsEqual, addr 0x6c09e7c, size 0x140, virtual false, abstract: false, final false
   static inline void IsEqual(::System::Object* left, ::System::Object* right, ::System::Func_1<::StringW>* messageGenerator);
 
-  /// @brief Method IsNotEmpty, addr 0x4af3b24, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method IsNotEmpty, addr 0x6c098d8, size 0x40, virtual false, abstract: false, final false
   static inline void IsNotEmpty(::StringW str);
 
   /// @brief Method IsNotEmpty, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsNotEmpty(::System::Collections::Generic::IEnumerable_1<T>* val, ::StringW message);
 
-  /// @brief Method IsNotEqual, addr 0x4af4370, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method IsNotEqual, addr 0x6c0a0e8, size 0x5c, virtual false, abstract: false, final false
   static inline void IsNotEqual(::System::Object* left, ::System::Object* right);
 
-  /// @brief Method IsNotEqual, addr 0x4af43c8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method IsNotEqual, addr 0x6c0a144, size 0xec, virtual false, abstract: false, final false
   static inline void IsNotEqual(::System::Object* left, ::System::Object* right, ::StringW message);
 
-  /// @brief Method IsNotEqual, addr 0x4af44a4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method IsNotEqual, addr 0x6c0a230, size 0x140, virtual false, abstract: false, final false
   static inline void IsNotEqual(::System::Object* left, ::System::Object* right, ::System::Func_1<::StringW>* messageGenerator);
 
-  /// @brief Method IsNotNull, addr 0x4af494c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x6c0a6e0, size 0x38, virtual false, abstract: false, final false
   static inline void IsNotNull(::System::Object* val);
 
-  /// @brief Method IsNotNull, addr 0x4af4984, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x6c0a718, size 0x7c, virtual false, abstract: false, final false
   static inline void IsNotNull(::System::Object* val, ::StringW message);
 
-  /// @brief Method IsNotNull, addr 0x4af4a00, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x6c0a794, size 0xd0, virtual false, abstract: false, final false
   static inline void IsNotNull(::System::Object* val, ::StringW message, ::System::Object* p1);
 
-  /// @brief Method IsNotNull, addr 0x4af4ad0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method IsNotNull, addr 0x6c0a864, size 0xf0, virtual false, abstract: false, final false
   static inline void IsNotNull(::System::Object* val, ::StringW message, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method IsNull, addr 0x4af45d0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6c0a370, size 0x80, virtual false, abstract: false, final false
   static inline void IsNull(::System::Object* val);
 
-  /// @brief Method IsNull, addr 0x4af4650, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6c0a3f0, size 0x7c, virtual false, abstract: false, final false
   static inline void IsNull(::System::Object* val, ::StringW message);
 
-  /// @brief Method IsNull, addr 0x4af46cc, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsNull, addr 0x6c0a46c, size 0xd0, virtual false, abstract: false, final false
   static inline void IsNull(::System::Object* val, ::StringW message, ::System::Object* p1);
 
   /// @brief Method IsType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -128,34 +128,34 @@ public:
   /// @brief Method IsType, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline void IsType(::System::Object* obj, ::StringW message);
 
-  /// @brief Method That, addr 0x4af3a90, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method That, addr 0x6c09840, size 0x38, virtual false, abstract: false, final false
   static inline void That(bool condition);
 
-  /// @brief Method That, addr 0x4af4de8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method That, addr 0x6c0aba0, size 0x48, virtual false, abstract: false, final false
   static inline void That(bool condition, ::StringW message);
 
-  /// @brief Method That, addr 0x4af4e30, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method That, addr 0x6c0abe8, size 0x98, virtual false, abstract: false, final false
   static inline void That(bool condition, ::StringW message, ::System::Object* p1);
 
-  /// @brief Method That, addr 0x4af4ec8, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method That, addr 0x6c0ac80, size 0xbc, virtual false, abstract: false, final false
   static inline void That(bool condition, ::StringW message, ::System::Object* p1, ::System::Object* p2);
 
-  /// @brief Method That, addr 0x4af4f8c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method That, addr 0x6c0ad3c, size 0xdc, virtual false, abstract: false, final false
   static inline void That(bool condition, ::StringW message, ::System::Object* p1, ::System::Object* p2, ::System::Object* p3);
 
-  /// @brief Method Throws, addr 0x4af514c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method Throws, addr 0x6c0af04, size 0x4c, virtual false, abstract: false, final false
   static inline void Throws(::System::Action* action);
 
   /// @brief Method Throws, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TException> static inline void Throws(::System::Action* action);
 
-  /// @brief Method Warn, addr 0x4af4bc8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x6c0a954, size 0xc8, virtual false, abstract: false, final false
   static inline void Warn(bool condition);
 
-  /// @brief Method Warn, addr 0x4af5078, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x6c0ae18, size 0xec, virtual false, abstract: false, final false
   static inline void Warn(bool condition, ::StringW message);
 
-  /// @brief Method Warn, addr 0x4af4cfc, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method Warn, addr 0x6c0aa98, size 0x108, virtual false, abstract: false, final false
   static inline void Warn(bool condition, ::System::Func_1<::StringW>* messageGenerator);
 
 protected:
@@ -173,7 +173,7 @@ public:
   _cordl_Assert(_cordl_Assert const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11951 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13931 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

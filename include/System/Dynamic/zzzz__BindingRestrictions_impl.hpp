@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions_TestBuilder::*)(::System::Dynamic::BindingRestrictions*)>(
     &::System::Dynamic::BindingRestrictions_TestBuilder::Append)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40fb8a0;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5da58d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::BindingRestrictions_TestBuilder::*)()>(
     &::System::Dynamic::BindingRestrictions_TestBuilder::ToExpression)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x40fba60;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x5da5ab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(),
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions_TestBuilder::*)(::System::Linq::Expressions::Expression*, int32_t)>(
     &::System::Dynamic::BindingRestrictions_TestBuilder::Push)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x40fb92c;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x5da5980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions_TestBuilder::*)()>(
     &::System::Dynamic::BindingRestrictions_TestBuilder::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x40fbb34;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5da5b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions_TestBuilder*>::get(),
@@ -140,8 +140,8 @@ constexpr ::System::Dynamic::BindingRestrictions_BindingRestrictionsProxy::Bindi
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Dynamic::BindingRestrictions::*)()>(&::System::Dynamic::BindingRestrictions::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40fb278;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5da52a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), ".ctor",
@@ -169,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Dynamic::BindingRestrictions* (::System::Dynamic::BindingRestrictions::*)(::System::Dynamic::BindingRestrictions*)>(&::System::Dynamic::BindingRestrictions::Merge)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x40fb280;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5da52a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Linq::Expressions::Expression*, ::System::Type*)>(
     &::System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x40fb3e0;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5da540c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -200,8 +200,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Dynamic::DynamicMetaObject*)>(
     &::System::Dynamic::BindingRestrictions::GetTypeRestriction)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x40fb508;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5da5530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -215,8 +215,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Dynamic::BindingRestrictions* (*)(::System::Linq::Expressions::Expression*, ::System::Object*)>(
     &::System::Dynamic::BindingRestrictions::GetInstanceRestriction)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x40fb650;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5da5684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Dynamic::BindingRestrictions::*)()>(
     &::System::Dynamic::BindingRestrictions::ToExpression)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x40fb780;
+  constexpr static std::size_t addrs = 0x5da57b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Dynamic::BindingRestrictions*>::get(), "ToExpression",

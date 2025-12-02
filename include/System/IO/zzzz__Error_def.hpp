@@ -21,16 +21,16 @@ namespace System::IO {
 class CORDL_TYPE Error : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetEndOfFile, addr 0x3d371f4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method GetEndOfFile, addr 0x59dfcf4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetEndOfFile();
 
-  /// @brief Method GetReadNotSupported, addr 0x3d3726c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetReadNotSupported, addr 0x59dfd74, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetReadNotSupported();
 
-  /// @brief Method GetStreamIsClosed, addr 0x3d37184, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetStreamIsClosed, addr 0x59dfc70, size 0x84, virtual false, abstract: false, final false
   static inline ::System::Exception* GetStreamIsClosed();
 
-  /// @brief Method GetWriteNotSupported, addr 0x3d372d8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method GetWriteNotSupported, addr 0x59dfdf4, size 0x80, virtual false, abstract: false, final false
   static inline ::System::Exception* GetWriteNotSupported();
 
 protected:
@@ -48,7 +48,7 @@ public:
   Error(Error const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3561 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3840 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

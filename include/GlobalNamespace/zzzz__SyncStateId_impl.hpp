@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/SyncStateId.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "GlobalNamespace/zzzz__SyncStateId_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::SyncStateId._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SyncStateId::*)(uint8_t)>(&::GlobalNamespace::SyncStateId::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22eb074;
+  constexpr static std::size_t addrs = 0x321c2f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SyncStateId::*)(::GlobalNamespace::SyncStateId)>(&::GlobalNamespace::SyncStateId::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22eb07c;
+  constexpr static std::size_t addrs = 0x321c300;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SyncStateId::*)(::System::Object*)>(&::GlobalNamespace::SyncStateId::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x22eb08c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x321c310;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,8 +52,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SyncStateId::*)()>(&::GlobalNamespace::SyncStateId::GetHashCode)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22eb104;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x321c38c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,7 +67,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SyncStateId::*)()>(&::GlobalNamespace::SyncStateId::ToString)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22eb124;
+  constexpr static std::size_t addrs = 0x321c394;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SyncStateId, ::GlobalNamespace::SyncStateId)>(
     &::GlobalNamespace::SyncStateId::op_Equality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22eb144;
+  constexpr static std::size_t addrs = 0x321c3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::SyncStateId, ::GlobalNamespace::SyncStateId)>(
     &::GlobalNamespace::SyncStateId::op_Inequality)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22eb154;
+  constexpr static std::size_t addrs = 0x321c3c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -113,7 +113,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (::GlobalNamespace::SyncStateId::*)()>(&::GlobalNamespace::SyncStateId::Increment)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22eb164;
+  constexpr static std::size_t addrs = 0x321c3d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SyncStateId>::get(), "Increment",
@@ -126,7 +126,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::SyncStateId::*)(::GlobalNamespace::SyncStateId)>(&::GlobalNamespace::SyncStateId::Before)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22eb174;
+  constexpr static std::size_t addrs = 0x321c3e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -140,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SyncStateId::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::SyncStateId::Serialize)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22ea2fc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x321c410;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -155,8 +155,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SyncStateId::*)(::LiteNetLib::Utils::NetDataWriter*, bool)>(
     &::GlobalNamespace::SyncStateId::SerializeWithFlag)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x22ea0a0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x321c430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -171,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SyncStateId::Deserialize)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x22ea370;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x321c460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (*)(::LiteNetLib::Utils::NetDataReader*, ::ByRef<bool>)>(
     &::GlobalNamespace::SyncStateId::DeserializeWithFlag)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x22ea148;
+  constexpr static std::size_t addrs = 0x321c474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -202,8 +202,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SyncStateId (::GlobalNamespace::SyncStateId::*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::SyncStateId::CreateFromSerializedData)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x22eb1a0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x321c4a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

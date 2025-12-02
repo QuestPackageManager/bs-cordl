@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238ceec;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32ba950;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>::get(),
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Crypto::PbeParametersGenerator::Init)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x238cef4;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x32ba954;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::get_Password)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x238cfec;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x32baa58;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::GetPassword)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x238d048;
+  constexpr static std::size_t addrs = 0x32baab8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>::get(),
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::get_Salt)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x238d054;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x32baac4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,7 +85,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::GetSalt)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x238d0b0;
+  constexpr static std::size_t addrs = 0x32bab24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::PbeParametersGenerator*>::get(),
@@ -99,7 +99,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::PbeParametersGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::get_IterationCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238d0bc;
+  constexpr static std::size_t addrs = 0x32bab30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -194,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToBytes)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x238d0c4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x32bab38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -209,8 +209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToBytes)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x238d124;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x32bab9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -224,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToUtf8Bytes)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x238d184;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x32bac00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -239,8 +239,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs5PasswordToUtf8Bytes)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x238d1fc;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x32bac7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs12PasswordToBytes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x238d274;
+  constexpr static std::size_t addrs = 0x32bacf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -269,8 +269,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<char16_t, ::Array<char16_t>*>, bool)>(
     &::Org::BouncyCastle::Crypto::PbeParametersGenerator::Pkcs12PasswordToBytes)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x238d27c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x32bad00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

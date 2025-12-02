@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceSet)
@@ -15,10 +13,16 @@ namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System::Resources {
 class IResourceReader;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -29,7 +33,7 @@ class ResourceSet;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Resources::ResourceSet);
-// Dependencies System.Collections.IEnumerable, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Resources {
 // Is value type: false
 // CS Name: System.Resources.ResourceSet
@@ -51,44 +55,44 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method CommonInit, addr 0x3d21370, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method CommonInit, addr 0x59667a8, size 0x60, virtual false, abstract: false, final false
   inline void CommonInit();
 
-  /// @brief Method Dispose, addr 0x3d213c8, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x59628f8, size 0x10, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x3d1b45c, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x595d014, size 0xc0, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x3d21880, size 0x2cc, virtual false, abstract: false, final false
+  /// @brief Method GetCaseInsensitiveObjectInternal, addr 0x5966c48, size 0x2d8, virtual false, abstract: false, final false
   inline ::System::Object* GetCaseInsensitiveObjectInternal(::StringW name);
 
-  /// @brief Method GetEnumerator, addr 0x3d213d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5966808, size 0x4, virtual true, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumerator();
 
-  /// @brief Method GetEnumeratorHelper, addr 0x3d213dc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GetEnumeratorHelper, addr 0x596680c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::Collections::IDictionaryEnumerator* GetEnumeratorHelper();
 
-  /// @brief Method GetObject, addr 0x3d21b4c, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x5966f20, size 0x4, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW name);
 
-  /// @brief Method GetObject, addr 0x3d21b50, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method GetObject, addr 0x5966f24, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* GetObject(::StringW name, bool ignoreCase);
 
-  /// @brief Method GetObjectInternal, addr 0x3d215bc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method GetObjectInternal, addr 0x59669b0, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Object* GetObjectInternal(::StringW name);
 
-  /// @brief Method GetString, addr 0x3d2145c, size 0x160, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x596687c, size 0x134, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name);
 
-  /// @brief Method GetString, addr 0x3d21684, size 0x1fc, virtual true, abstract: false, final false
+  /// @brief Method GetString, addr 0x5966a70, size 0x1d8, virtual true, abstract: false, final false
   inline ::StringW GetString(::StringW name, bool ignoreCase);
 
   static inline ::System::Resources::ResourceSet* New_ctor();
 
   static inline ::System::Resources::ResourceSet* New_ctor(bool junk);
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x3d21458, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x5966878, size 0x4, virtual true, abstract: false, final true
   inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
 
   constexpr ::System::Resources::IResourceReader* const& __cordl_internal_get_Reader() const;
@@ -109,10 +113,10 @@ public:
 
   constexpr void __cordl_internal_set__caseInsensitiveTable(::System::Collections::Hashtable* value);
 
-  /// @brief Method .ctor, addr 0x3d21354, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59667a4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3d1b100, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595cca8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor(bool junk);
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -136,7 +140,7 @@ public:
   ResourceSet(ResourceSet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3441 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3461 };
 
   /// @brief Field Reader, offset: 0x10, size: 0x8, def value: None
   ::System::Resources::IResourceReader* ___Reader;

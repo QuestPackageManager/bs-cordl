@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusRemote::*)()>(
     &::Unity::XR::Oculus::Input::OculusRemote::get_back)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483852c;
+  constexpr static std::size_t addrs = 0x62b3d54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusRemote*>::get(), "get_back",
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusRemote::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusRemote::set_back)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838534;
+  constexpr static std::size_t addrs = 0x62b3d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::Unity::XR::Oculus::Input::OculusRemote::*)()>(
     &::Unity::XR::Oculus::Input::OculusRemote::get_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483853c;
+  constexpr static std::size_t addrs = 0x62b3d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusRemote*>::get(), "get_start",
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusRemote::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::Unity::XR::Oculus::Input::OculusRemote::set_start)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838544;
+  constexpr static std::size_t addrs = 0x62b3d6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::Vector2Control* (::Unity::XR::Oculus::Input::OculusRemote::*)()>(
     &::Unity::XR::Oculus::Input::OculusRemote::get_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x483854c;
+  constexpr static std::size_t addrs = 0x62b3d74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusRemote*>::get(), "get_touchpad",
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusRemote::*)(::UnityEngine::InputSystem::Controls::Vector2Control*)>(
     &::Unity::XR::Oculus::Input::OculusRemote::set_touchpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838554;
+  constexpr static std::size_t addrs = 0x62b3d7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusRemote::*)()>(&::Unity::XR::Oculus::Input::OculusRemote::FinishSetup)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x483855c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x62b3d84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::XR::Oculus::Input::OculusRemote::*)()>(&::Unity::XR::Oculus::Input::OculusRemote::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4838644;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x62b3e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::XR::Oculus::Input::OculusRemote*>::get(), ".ctor",

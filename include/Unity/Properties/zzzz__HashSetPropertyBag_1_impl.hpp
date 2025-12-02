@@ -6,12 +6,12 @@
 #include "Unity/Properties/zzzz__InstantiationKind_def.hpp"
 template <typename TElement> inline ::Unity::Properties::InstantiationKind Unity::Properties::HashSetPropertyBag_1<TElement>::get_InstantiationKind() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::HashSetPropertyBag_1<TElement>*>::get(), 8)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::HashSetPropertyBag_1<TElement>*>::get(), 14)));
   return ::cordl_internals::RunMethodRethrow<::Unity::Properties::InstantiationKind, false>(this, ___internal_method);
 }
 template <typename TElement> inline ::System::Collections::Generic::HashSet_1<TElement>* Unity::Properties::HashSetPropertyBag_1<TElement>::Instantiate() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::HashSetPropertyBag_1<TElement>*>::get(), 9)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::HashSetPropertyBag_1<TElement>*>::get(), 15)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::HashSet_1<TElement>*, false>(this, ___internal_method);
 }
 template <typename TElement> inline void Unity::Properties::HashSetPropertyBag_1<TElement>::_ctor() {

@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/OpenSsl/MiscPemGenerator.hpp"
-#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/OpenSsl/zzzz__MiscPemGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
+#include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObjectGenerator_def.hpp"
 #include "Org/BouncyCastle/Utilities/IO/Pem/zzzz__PemObject_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::OpenSsl::MiscPemGenerator._ctor
@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::MiscPemGenerator::*)(::System::Object*)>(
     &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x254f504;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x347f2b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::OpenSsl::MiscPemGenerator::*)(
     ::System::Object*, ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Security::SecureRandom*)>(&::Org::BouncyCastle::OpenSsl::MiscPemGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x254f52c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x347f2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (*)(::System::Object*)>(
     &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::CreatePemObject)> {
-  constexpr static std::size_t size = 0x640;
-  constexpr static std::size_t addrs = 0x254f56c;
+  constexpr static std::size_t size = 0x6b0;
+  constexpr static std::size_t addrs = 0x347f2cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,8 +60,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (*)(::System::Object*, ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, ::Org::BouncyCastle::Security::SecureRandom*)>(
         &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::CreatePemObject)> {
-  constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x2550094;
+  constexpr static std::size_t size = 0x5cc;
+  constexpr static std::size_t addrs = 0x347fea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,8 +77,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ByRef<::StringW>)>(
     &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::EncodePrivateKey)> {
-  constexpr static std::size_t size = 0x4e8;
-  constexpr static std::size_t addrs = 0x254fbac;
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x347f97c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Utilities::IO::Pem::PemObject* (::Org::BouncyCastle::OpenSsl::MiscPemGenerator::*)()>(
     &::Org::BouncyCastle::OpenSsl::MiscPemGenerator::Generate)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2550b20;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x34809c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::OpenSsl::MiscPemGenerator*>::get(),

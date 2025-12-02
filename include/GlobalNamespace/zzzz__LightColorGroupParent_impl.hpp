@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LightColorGroupParent.hpp"
-#include "GlobalNamespace/zzzz__IEditTimeValidated_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__LightColorGroupParent_def.hpp"
+#include "GlobalNamespace/zzzz__IEditTimeValidated_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightColorGroupParent._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightColorGroupParent::*)()>(&::GlobalNamespace::LightColorGroupParent::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b91080;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x577f788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightColorGroupParent*>::get(), ".ctor",

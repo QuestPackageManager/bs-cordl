@@ -22,8 +22,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect_InitData::*)(
     int32_t, int32_t, bool, bool, bool, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Transform*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2,
     ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::UnityEngine::Vector2)>(&::GlobalNamespace::LightTranslationGroupEffect_InitData::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b9377c;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x5781dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::*)()>(
     &::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b93524;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5781bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -256,8 +256,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::*)(
     ::GlobalNamespace::LightTranslationBeatmapEventData*)>(&::GlobalNamespace::LightTranslationGroupEffect___c__DisplayClass12_0::_GetTranslationEventHandler_b__0)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3b93854;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x5781e08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -351,8 +351,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(
     ::GlobalNamespace::LightTranslationGroupEffect_InitData*, ::Tweening::SongTimeTweeningManager*, ::GlobalNamespace::BeatmapCallbacksController*)>(
     &::GlobalNamespace::LightTranslationGroupEffect::_ctor)> {
-  constexpr static std::size_t size = 0xbd4;
-  constexpr static std::size_t addrs = 0x3b927fc;
+  constexpr static std::size_t size = 0xc4c;
+  constexpr static std::size_t addrs = 0x5780e38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,7 +369,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)()>(
     &::GlobalNamespace::LightTranslationGroupEffect::Cleanup)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b934bc;
+  constexpr static std::size_t addrs = 0x5781b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightTranslationGroupEffect*>::get(),
@@ -383,8 +383,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataCallback_1<::GlobalNamespace::LightTranslationBeatmapEventData*>* (
     ::GlobalNamespace::LightTranslationGroupEffect::*)(::Tweening::FloatTween*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::GetTranslationEventHandler)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3b933d0;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5781a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -400,8 +400,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightTranslationGroupEffect::*)(float_t)>(
     &::GlobalNamespace::LightTranslationGroupEffect::SetTranslation)> {
-  constexpr static std::size_t size = 0x1c8;
-  constexpr static std::size_t addrs = 0x3b9352c;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x5781be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -415,8 +415,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Tweening::FloatTween*, float_t, float_t, float_t, float_t, ::GlobalNamespace::EaseType)>(
     &::GlobalNamespace::LightTranslationGroupEffect::SetTweenData)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b936f4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5781d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -434,7 +434,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(float_t, ::UnityEngine::Vector2, float_t, ::UnityEngine::Vector2, bool)>(
     &::GlobalNamespace::LightTranslationGroupEffect::ComputeTranslation)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b93730;
+  constexpr static std::size_t addrs = 0x5781d84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

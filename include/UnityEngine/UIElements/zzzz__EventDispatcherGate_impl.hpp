@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/EventDispatcherGate.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcherGate_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::EventDispatcherGate._ctor
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcherGate::*)(::UnityEngine::UIElements::EventDispatcher*)>(
     &::UnityEngine::UIElements::EventDispatcherGate::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4a22320;
+  constexpr static std::size_t addrs = 0x6b60234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::EventDispatcherGate::*)()>(
     &::UnityEngine::UIElements::EventDispatcherGate::Dispose)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a22398;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6b602b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventDispatcherGate>::get(), "Dispose",
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventDispatcherGate::*)(::UnityEngine::UIElements::EventDispatcherGate)>(
     &::UnityEngine::UIElements::EventDispatcherGate::Equals)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a22438;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6b60458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::EventDispatcherGate::*)(::System::Object*)>(
     &::UnityEngine::UIElements::EventDispatcherGate::Equals)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a22444;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b60488;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::EventDispatcherGate::*)()>(
     &::UnityEngine::UIElements::EventDispatcherGate::GetHashCode)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4a224c0;
+  constexpr static std::size_t addrs = 0x6b60530;
 
   inline static ::MethodInfo const* methodInfo() {
 

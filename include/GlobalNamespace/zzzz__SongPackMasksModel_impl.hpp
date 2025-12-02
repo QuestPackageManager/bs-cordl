@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SongPackMasksModel_LocalizedText::*)()>(
     &::GlobalNamespace::SongPackMasksModel_LocalizedText::get_text)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x26e4488;
+  constexpr static std::size_t addrs = 0x3616720;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPackMasksModel_LocalizedText>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMasksModel_LocalizedText::*)(::StringW, bool)>(
     &::GlobalNamespace::SongPackMasksModel_LocalizedText::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26e41e8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x36164bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMasksModel_MaskInfo::*)(
     ::GlobalNamespace::SongPackMasksModel_LocalizedText, ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMasksModel_MaskInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x26e41f8;
+  constexpr static std::size_t addrs = 0x36164c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::SongPackMasksModel::*)(::GlobalNamespace::SongPackMasksModelSO*, ::GlobalNamespace::BeatmapLevelsModel*)>(&::GlobalNamespace::SongPackMasksModel::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x26e397c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3615c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -116,8 +116,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SongPackMasksModel::*)()>(&::GlobalNamespace::SongPackMasksModel::Init)> {
-  constexpr static std::size_t size = 0x544;
-  constexpr static std::size_t addrs = 0x26e3a20;
+  constexpr static std::size_t size = 0x564;
+  constexpr static std::size_t addrs = 0x3615cd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SongPackMasksModel*>::get(), "Init",
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMasksModel_LocalizedText (::GlobalNamespace::SongPackMasksModel::*)(::StringW)>(
     &::GlobalNamespace::SongPackMasksModel::ToLocalizedName)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26e4208;
+  constexpr static std::size_t addrs = 0x36164d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::SongPackMasksModel::*)(::StringW)>(
     &::GlobalNamespace::SongPackMasksModel::ToSongPackMask)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x26e3f64;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3616238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -160,8 +160,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMasksModel_LocalizedText (::GlobalNamespace::SongPackMasksModel::*)(
     ::GlobalNamespace::SongPackMask)>(&::GlobalNamespace::SongPackMasksModel::GetSongPackMaskText)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26e42c0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x3616590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -175,8 +175,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::SongPackMasksModel::*)(::GlobalNamespace::SongPackMask)>(
     &::GlobalNamespace::SongPackMasksModel::ToSerializedName)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x26e435c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x3616618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

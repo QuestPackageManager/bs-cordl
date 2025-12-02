@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__VoidTaskResult_def.hpp"
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -30,6 +29,9 @@ class ValueTask_ValueTaskSourceAsTask;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+template <typename T> class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -60,10 +62,10 @@ public:
 
   static inline ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c* New_ctor();
 
-  /// @brief Method <.cctor>b__4_0, addr 0x3e5fd8c, size 0x2a4, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__4_0, addr 0x5aa570c, size 0x2a8, virtual false, abstract: false, final false
   inline void __cctor_b__4_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3e5fd84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa5708, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::ValueTaskSourceAsTask_ValueTask___c* getStaticF___9();
@@ -85,7 +87,7 @@ public:
   ValueTaskSourceAsTask_ValueTask___c(ValueTaskSourceAsTask_ValueTask___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2765 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2776 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,7 +127,7 @@ public:
 
   constexpr void __cordl_internal_set__token(int16_t value);
 
-  /// @brief Method .ctor, addr 0x3e5f834, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa5180, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource* source, int16_t token);
 
   static inline ::System::Action_1<::System::Object*>* getStaticF_s_completionAction();
@@ -147,7 +149,7 @@ public:
   ValueTask_ValueTaskSourceAsTask(ValueTask_ValueTaskSourceAsTask const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2766 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2777 };
 
   /// @brief Field _source, offset: 0x58, size: 0x8, def value: None
   ::System::Threading::Tasks::Sources::IValueTaskSource* ____source;
@@ -165,7 +167,7 @@ static_assert(offsetof(::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTa
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::ValueTask_ValueTaskSourceAsTask, 0x68>, "Size mismatch!");
 
 } // namespace System::Threading::Tasks
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace System::Threading::Tasks {
 // Is value type: true
 // CS Name: System.Threading.Tasks.ValueTask
@@ -182,45 +184,45 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask>"
   constexpr operator ::System::IEquatable_1<::System::Threading::Tasks::ValueTask>*();
 
-  /// @brief Method AsTask, addr 0x3e5f3d0, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method AsTask, addr 0x5aa4ce0, size 0xd8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* AsTask();
 
-  /// @brief Method ConfigureAwait, addr 0x3e5fb68, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method ConfigureAwait, addr 0x5aa54e0, size 0x20, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ConfiguredValueTaskAwaitable ConfigureAwait(bool continueOnCapturedContext);
 
-  /// @brief Method Equals, addr 0x3e5f2f4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5aa4bfc, size 0xc0, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x3e5f3ac, size 0x24, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5aa4cbc, size 0x24, virtual true, abstract: false, final true
   inline bool Equals(::System::Threading::Tasks::ValueTask other);
 
-  /// @brief Method GetAwaiter, addr 0x3e5fb5c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GetAwaiter, addr 0x5aa54d4, size 0xc, virtual false, abstract: false, final false
   inline ::System::Runtime::CompilerServices::ValueTaskAwaiter GetAwaiter();
 
-  /// @brief Method GetHashCode, addr 0x3e5f2dc, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5aa4be4, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method GetTaskForValueTaskSource, addr 0x3e5f49c, size 0x2d4, virtual false, abstract: false, final false
+  /// @brief Method GetTaskForValueTaskSource, addr 0x5aa4db8, size 0x2fc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* GetTaskForValueTaskSource(::System::Threading::Tasks::Sources::IValueTaskSource* t);
 
-  /// @brief Method ThrowIfCompletedUnsuccessfully, addr 0x3e5fa58, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method ThrowIfCompletedUnsuccessfully, addr 0x5aa53b0, size 0x124, virtual false, abstract: false, final false
   inline void ThrowIfCompletedUnsuccessfully();
 
-  /// @brief Method .ctor, addr 0x3e5f2c8, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4bd4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* obj, int16_t token, bool continueOnCapturedContext);
 
-  /// @brief Method .ctor, addr 0x3e5f28c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4bb0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Sources::IValueTaskSource* source, int16_t token);
 
-  /// @brief Method .ctor, addr 0x3e5f254, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4b8c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::Tasks::Task* task);
 
   static inline ::System::Threading::Tasks::Task* getStaticF_s_canceledTask();
 
-  /// @brief Method get_CompletedTask, addr 0x3e5f1cc, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method get_CompletedTask, addr 0x5aa4af8, size 0x94, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task* get_CompletedTask();
 
-  /// @brief Method get_IsCompleted, addr 0x3e5f954, size 0x104, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x5aa52a4, size 0x10c, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
   /// @brief Convert to "::System::IEquatable_1<::System::Threading::Tasks::ValueTask>"
@@ -237,7 +239,7 @@ public:
   constexpr ValueTask(::System::Object* _obj, int16_t _token, bool _continueOnCapturedContext) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2767 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2778 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

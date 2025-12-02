@@ -19,7 +19,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::EventSystems::EventSystem*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb5c;
+  constexpr static std::size_t addrs = 0x6374034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputControl* (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_control)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb64;
+  constexpr static std::size_t addrs = 0x637403c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -48,7 +48,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::InputSystem::InputControl*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_control)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb6c;
+  constexpr static std::size_t addrs = 0x6374044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::InputDevice* (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb74;
+  constexpr static std::size_t addrs = 0x637404c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::InputSystem::InputDevice*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_device)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb7c;
+  constexpr static std::size_t addrs = 0x6374054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_touchId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb84;
+  constexpr static std::size_t addrs = 0x637405c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(int32_t)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_touchId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb8c;
+  constexpr static std::size_t addrs = 0x6374064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::UI::UIPointerType (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_pointerType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb94;
+  constexpr static std::size_t addrs = 0x637406c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -135,7 +135,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::InputSystem::UI::UIPointerType)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_pointerType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edb9c;
+  constexpr static std::size_t addrs = 0x6374074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_uiToolkitPointerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edba4;
+  constexpr static std::size_t addrs = 0x637407c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -164,7 +164,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(int32_t)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_uiToolkitPointerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45edbac;
+  constexpr static std::size_t addrs = 0x6374084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_trackedDevicePosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45edbb4;
+  constexpr static std::size_t addrs = 0x637408c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -193,7 +193,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::Vector3)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_trackedDevicePosition)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45edbc4;
+  constexpr static std::size_t addrs = 0x637409c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::get_trackedDeviceOrientation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45edbd4;
+  constexpr static std::size_t addrs = 0x63740ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -222,7 +222,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)(::UnityEngine::Quaternion)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::set_trackedDeviceOrientation)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45edbe8;
+  constexpr static std::size_t addrs = 0x63740c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::ToString)> {
-  constexpr static std::size_t size = 0x5a4;
-  constexpr static std::size_t addrs = 0x45edbfc;
+  constexpr static std::size_t size = 0x5d0;
+  constexpr static std::size_t addrs = 0x63740d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,7 +252,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, int32_t)>(&::UnityEngine::InputSystem::UI::ExtendedPointerEventData::MakePointerIdForTouch)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ee1a0;
+  constexpr static std::size_t addrs = 0x63746a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -266,7 +266,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t)>(&::UnityEngine::InputSystem::UI::ExtendedPointerEventData::TouchIdFromPointerId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45ee1a8;
+  constexpr static std::size_t addrs = 0x63746ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -280,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::UI::ExtendedPointerEventData::*)()>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::ReadDeviceState)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x45ee1b0;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x63746b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::UI::ExtendedPointerEventData*>::get(),
@@ -294,8 +294,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Pen*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::GetPenPointerId)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x45ee468;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x6374998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -309,8 +309,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::InputSystem::Controls::TouchControl*)>(
     &::UnityEngine::InputSystem::UI::ExtendedPointerEventData::GetTouchPointerId)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x45ee6b8;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x6374bbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

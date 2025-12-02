@@ -4,7 +4,9 @@
 #include "Unity/Properties/zzzz__ContainerPropertyBag_1_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "Unity/Properties/zzzz__INamedProperties_1_def.hpp"
 #include "Unity/Properties/zzzz__IProperty_1_def.hpp"
+#include "Unity/Properties/zzzz__PropertyCollection_1_def.hpp"
 #include "Unity/Properties/zzzz__Property_2_def.hpp"
 template <typename TContainer>
 constexpr ::System::Collections::Generic::List_1<::Unity::Properties::IProperty_1<TContainer>*>*& Unity::Properties::ContainerPropertyBag_1<TContainer>::__cordl_internal_get_m_PropertiesList() {
@@ -52,6 +54,18 @@ inline void Unity::Properties::ContainerPropertyBag_1<TContainer>::AddProperty(:
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TValue>::get() }));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, property);
 }
+template <typename TContainer> inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity::Properties::ContainerPropertyBag_1<TContainer>::GetProperties() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>::get(), 12)));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyCollection_1<TContainer>, false>(this, ___internal_method);
+}
+template <typename TContainer> inline ::Unity::Properties::PropertyCollection_1<TContainer> Unity::Properties::ContainerPropertyBag_1<TContainer>::GetProperties(::ByRef<TContainer> container) {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>::get(), 13)));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Properties::PropertyCollection_1<TContainer>, false>(this, ___internal_method, container);
+}
 template <typename TContainer>
 inline bool Unity::Properties::ContainerPropertyBag_1<TContainer>::TryGetProperty(::ByRef<TContainer> container, ::StringW name, ::ByRef<::Unity::Properties::IProperty_1<TContainer>*> property) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -67,6 +81,15 @@ template <typename TContainer> inline void Unity::Properties::ContainerPropertyB
 }
 template <typename TContainer> inline ::Unity::Properties::ContainerPropertyBag_1<TContainer>* Unity::Properties::ContainerPropertyBag_1<TContainer>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::Unity::Properties::ContainerPropertyBag_1<TContainer>*>());
+}
+/// @brief Convert operator to "::Unity::Properties::INamedProperties_1<TContainer>"
+template <typename TContainer> constexpr Unity::Properties::ContainerPropertyBag_1<TContainer>::operator ::Unity::Properties::INamedProperties_1<TContainer>*() noexcept {
+  return static_cast<::Unity::Properties::INamedProperties_1<TContainer>*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::Unity::Properties::INamedProperties_1<TContainer>"
+template <typename TContainer>
+constexpr ::Unity::Properties::INamedProperties_1<TContainer>* Unity::Properties::ContainerPropertyBag_1<TContainer>::i___Unity__Properties__INamedProperties_1_TContainer_() noexcept {
+  return static_cast<::Unity::Properties::INamedProperties_1<TContainer>*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename TContainer> constexpr ::Unity::Properties::ContainerPropertyBag_1<TContainer>::ContainerPropertyBag_1() {}

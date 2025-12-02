@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPollable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IConnectionManager)
@@ -23,14 +21,14 @@ template <typename T> class IConnectionInitParams_1;
 namespace GlobalNamespace {
 class IConnection;
 }
+namespace GlobalNamespace {
+class IPollable;
+}
 namespace LiteNetLib::Utils {
 class NetDataReader;
 }
 namespace LiteNetLib::Utils {
 class NetDataWriter;
-}
-namespace System::Threading::Tasks {
-class Task;
 }
 namespace System {
 template <typename T> class Action_1;
@@ -44,13 +42,19 @@ template <typename T1, typename T2, typename T3> class Action_3;
 namespace System {
 class Action;
 }
+namespace System {
+class IAsyncDisposable;
+}
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IConnectionManager;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IConnectionManager);
-// Dependencies IPollable, System.IDisposable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IConnectionManager
@@ -76,14 +80,14 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IPollable"
   constexpr operator ::GlobalNamespace::IPollable*() noexcept;
 
+  /// @brief Convert operator to "::System::IAsyncDisposable"
+  constexpr operator ::System::IAsyncDisposable*() noexcept;
+
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
   /// @brief Method Disconnect, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void Disconnect(::GlobalNamespace::DisconnectedReason disconnectedReason);
-
-  /// @brief Method DisposeAsync, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* DisposeAsync();
 
   /// @brief Method GetConnection, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IConnection* GetConnection(int32_t index);
@@ -145,6 +149,9 @@ public:
   /// @brief Convert to "::GlobalNamespace::IPollable"
   constexpr ::GlobalNamespace::IPollable* i___GlobalNamespace__IPollable() noexcept;
 
+  /// @brief Convert to "::System::IAsyncDisposable"
+  constexpr ::System::IAsyncDisposable* i___System__IAsyncDisposable() noexcept;
+
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
@@ -174,7 +181,7 @@ public:
   IConnectionManager(IConnectionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14785 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18123 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

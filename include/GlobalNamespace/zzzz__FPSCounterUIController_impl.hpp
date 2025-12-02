@@ -1,15 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/FPSCounterUIController.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__FPSCounterUIController_def.hpp"
 #include "GlobalNamespace/zzzz__FPSCounterUIController_def.hpp"
 #include "GlobalNamespace/zzzz__FPSCounter_def.hpp"
 #include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "TMPro/zzzz__TextMeshProUGUI_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FPSCounterUIController__Start_d__9._ctor
@@ -17,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)(int32_t)>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39bd870;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5637a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -33,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39bd9e8;
+  constexpr static std::size_t addrs = 0x5637b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FPSCounterUIController__Start_d__9*>::get(),
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x39bd9ec;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5637b8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FPSCounterUIController__Start_d__9*>::get(),
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bda80;
+  constexpr static std::size_t addrs = 0x5637c24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39bda88;
+  constexpr static std::size_t addrs = 0x5637c2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::FPSCounterUIController__Start_d__9::*)()>(
     &::GlobalNamespace::FPSCounterUIController__Start_d__9::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39bdac0;
+  constexpr static std::size_t addrs = 0x5637c64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -204,8 +203,8 @@ constexpr ::GlobalNamespace::FPSCounterUIController__Start_d__9::FPSCounterUICon
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::Awake)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39bd7b0;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5637954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FPSCounterUIController*>::get(), "Awake",
@@ -218,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::FPSCounterUIController::*)()>(
     &::GlobalNamespace::FPSCounterUIController::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39bd810;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x56379b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FPSCounterUIController*>::get(), "Start",
@@ -231,8 +230,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::LateUpdate)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x39bd898;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5637a14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FPSCounterUIController*>::get(), "LateUpdate",
@@ -244,8 +243,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FPSCounterUIController::*)()>(&::GlobalNamespace::FPSCounterUIController::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39bd9d8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5637b7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FPSCounterUIController*>::get(), ".ctor",

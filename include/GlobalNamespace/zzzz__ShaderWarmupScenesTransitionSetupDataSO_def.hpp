@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(ShaderWarmupScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
 class ShaderWarmupSceneSetupData;
@@ -14,19 +14,19 @@ class ShaderWarmupScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO);
-// Dependencies SingleFixedSceneScenesTransitionSetupDataSO
+// Dependencies ScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ShaderWarmupScenesTransitionSetupDataSO
-class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
+class CORDL_TYPE ShaderWarmupScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b3ebb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x5722014, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::ShaderWarmupSceneSetupData* shaderWarmupSceneSetupData);
 
   static inline ::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3ebb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57220d8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,12 +44,12 @@ public:
   ShaderWarmupScenesTransitionSetupDataSO(ShaderWarmupScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5271 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6848 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ShaderWarmupScenesTransitionSetupDataSO);

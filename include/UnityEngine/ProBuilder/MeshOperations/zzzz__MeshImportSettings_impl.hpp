@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_quads)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x477cd94;
+  constexpr static std::size_t addrs = 0x6514ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_quads)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x477cd9c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6514ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_smoothing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x477cda8;
+  constexpr static std::size_t addrs = 0x6515000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(bool)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_smoothing)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x477cdb0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6515008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::get_smoothingAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x477cdbc;
+  constexpr static std::size_t addrs = 0x6515010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -83,7 +83,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)(float_t)>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::set_smoothingAngle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x477cdc4;
+  constexpr static std::size_t addrs = 0x6515018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::ToString)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x477cdcc;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6515020;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -113,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::*)()>(
     &::UnityEngine::ProBuilder::MeshOperations::MeshImportSettings::_ctor)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x477cea4;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x65150fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

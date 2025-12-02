@@ -58,7 +58,8 @@ public:
     __E_Switch = static_cast<int32_t>(0x20),
     __E_Lumin = static_cast<int32_t>(0x21),
     __E_Stadia = static_cast<int32_t>(0x22),
-    __E_CloudRendering = static_cast<int32_t>(0x23),
+    __E_CloudRendering = static_cast<int32_t>(0xffffffff),
+    __E_LinuxHeadlessSimulation = static_cast<int32_t>(0x23),
     __E_GameCoreScarlett = static_cast<int32_t>(0xffffffff),
     __E_GameCoreXboxSeries = static_cast<int32_t>(0x24),
     __E_GameCoreXboxOne = static_cast<int32_t>(0x25),
@@ -75,6 +76,7 @@ public:
     __E_QNXX64 = static_cast<int32_t>(0x30),
     __E_QNXX86 = static_cast<int32_t>(0x31),
     __E_VisionOS = static_cast<int32_t>(0x32),
+    __E_ReservedCFE = static_cast<int32_t>(0x33),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -100,7 +102,7 @@ public:
   /// @brief Field BlackBerryPlayer value: I32(22)
   static ::UnityEngine::RuntimePlatform const BlackBerryPlayer;
 
-  /// @brief Field CloudRendering value: I32(35)
+  /// @brief Field CloudRendering value: I32(-1)
   static ::UnityEngine::RuntimePlatform const CloudRendering;
 
   /// @brief Field EmbeddedLinuxArm32 value: I32(40)
@@ -132,6 +134,9 @@ public:
 
   /// @brief Field LinuxEditor value: I32(16)
   static ::UnityEngine::RuntimePlatform const LinuxEditor;
+
+  /// @brief Field LinuxHeadlessSimulation value: I32(35)
+  static ::UnityEngine::RuntimePlatform const LinuxHeadlessSimulation;
 
   /// @brief Field LinuxPlayer value: I32(13)
   static ::UnityEngine::RuntimePlatform const LinuxPlayer;
@@ -196,6 +201,9 @@ public:
   /// @brief Field QNXX86 value: I32(49)
   static ::UnityEngine::RuntimePlatform const QNXX86;
 
+  /// @brief Field ReservedCFE value: I32(51)
+  static ::UnityEngine::RuntimePlatform const ReservedCFE;
+
   /// @brief Field SamsungTVPlayer value: I32(28)
   static ::UnityEngine::RuntimePlatform const SamsungTVPlayer;
 
@@ -248,7 +256,7 @@ public:
   static ::UnityEngine::RuntimePlatform const XboxOne;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10662 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10045 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

@@ -18,12 +18,12 @@ namespace System::Security::Cryptography {
 class CORDL_TYPE RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
   // Declarations
-  /// @brief Method Create, addr 0x3ca6100, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x58e9db0, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RIPEMD160* Create();
 
   static inline ::System::Security::Cryptography::RIPEMD160* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ca60e0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e9da4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   RIPEMD160(RIPEMD160 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2952 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2969 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

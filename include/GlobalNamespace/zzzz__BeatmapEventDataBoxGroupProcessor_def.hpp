@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ISortedListItemProcessor_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(BeatmapEventDataBoxGroupProcessor)
 namespace GlobalNamespace {
 class BeatmapEventDataBoxGroup;
+}
+namespace GlobalNamespace {
+template <typename T> class ISortedListItemProcessor_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class HashSet_1;
@@ -24,7 +26,7 @@ class BeatmapEventDataBoxGroupProcessor;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapEventDataBoxGroupProcessor);
-// Dependencies ISortedListItemProcessor`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BeatmapEventDataBoxGroupProcessor
@@ -40,15 +42,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
   constexpr operator ::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>*() noexcept;
 
-  /// @brief Method ClearDirtyData, addr 0x26bc620, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ClearDirtyData, addr 0x35edc30, size 0x54, virtual false, abstract: false, final false
   inline void ClearDirtyData();
 
   static inline ::GlobalNamespace::BeatmapEventDataBoxGroupProcessor* New_ctor();
 
-  /// @brief Method ProcessBeforeDeleteData, addr 0x26bd78c, size 0x36c, virtual true, abstract: false, final true
+  /// @brief Method ProcessBeforeDeleteData, addr 0x35eecdc, size 0x364, virtual true, abstract: false, final true
   inline void ProcessBeforeDeleteData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* nodeToDelete);
 
-  /// @brief Method ProcessInsertedData, addr 0x26bd18c, size 0x600, virtual true, abstract: false, final true
+  /// @brief Method ProcessInsertedData, addr 0x35ee710, size 0x5cc, virtual true, abstract: false, final true
   inline void ProcessInsertedData(::System::Collections::Generic::LinkedListNode_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* insertedNode);
 
   constexpr ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* const& __cordl_internal_get__dirtyBoxGroups() const;
@@ -57,10 +59,10 @@ public:
 
   constexpr void __cordl_internal_set__dirtyBoxGroups(::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* value);
 
-  /// @brief Method .ctor, addr 0x26bc228, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ed868, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_dirtyBoxGroups, addr 0x26bd184, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dirtyBoxGroups, addr 0x35ee708, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IReadOnlyCollection_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* get_dirtyBoxGroups();
 
   /// @brief Convert to "::GlobalNamespace::ISortedListItemProcessor_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>"
@@ -82,7 +84,7 @@ public:
   BeatmapEventDataBoxGroupProcessor(BeatmapEventDataBoxGroupProcessor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12904 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14874 };
 
   /// @brief Field _dirtyBoxGroups, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::HashSet_1<::GlobalNamespace::BeatmapEventDataBoxGroup*>* ____dirtyBoxGroups;

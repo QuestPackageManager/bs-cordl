@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NoFileStorage.hpp"
-#include "GlobalNamespace/zzzz__IFileStorage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NoFileStorage_def.hpp"
+#include "GlobalNamespace/zzzz__IFileStorage_def.hpp"
 #include "GlobalNamespace/zzzz__StoragePreference_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task* (
     ::GlobalNamespace::NoFileStorage::*)(::StringW, ::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::SaveFileAsync)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22a5c18;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x31ed864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::StringW>* (
     ::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::LoadFileAsync)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22a5ca0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x31ed8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::DeleteFileAsync)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22a5d08;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x31ed968;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<bool>* (::GlobalNamespace::NoFileStorage::*)(::StringW, ::GlobalNamespace::StoragePreference)>(&::GlobalNamespace::NoFileStorage::FileExistsAsync)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22a5d90;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x31ed9fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NoFileStorage::*)()>(&::GlobalNamespace::NoFileStorage::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a5df8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31eda6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoFileStorage*>::get(), ".ctor",

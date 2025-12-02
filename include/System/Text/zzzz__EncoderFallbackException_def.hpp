@@ -71,16 +71,16 @@ public:
 
   constexpr void __cordl_internal_set__index(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c79434, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bd88c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3c78fac, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bd478, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknown, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3c7922c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bd6cc, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method .ctor, addr 0x3c79490, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58bd8ec, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
 
 protected:
@@ -98,7 +98,7 @@ public:
   EncoderFallbackException(EncoderFallbackException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2846 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2862 };
 
   /// @brief Field _charUnknown, offset: 0x98, size: 0x2, def value: None
   char16_t ____charUnknown;

@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set__NewExpression_k__BackingField(::System::Linq::Expressions::NewExpression* value);
 
-  /// @brief Method get_Initializers, addr 0x40ba224, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Initializers, addr 0x5d6a414, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ElementInit*>* get_Initializers();
 
-  /// @brief Method get_NewExpression, addr 0x40ba21c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_NewExpression, addr 0x5d6a40c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Linq::Expressions::NewExpression* get_NewExpression();
 
 protected:
@@ -73,7 +73,7 @@ public:
   ListInitExpression(ListInitExpression const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16146 };
 
   /// @brief Field <NewExpression>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::System::Linq::Expressions::NewExpression* ____NewExpression_k__BackingField;

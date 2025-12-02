@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MqvPrivateParameters)
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -12,13 +11,16 @@ class ECPrivateKeyParameters;
 namespace Org::BouncyCastle::Crypto::Parameters {
 class ECPublicKeyParameters;
 }
+namespace Org::BouncyCastle::Crypto {
+class ICipherParameters;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Parameters {
 class MqvPrivateParameters;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::MqvPrivateParameters);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.MqvPrivateParameters
@@ -69,20 +71,20 @@ public:
 
   constexpr void __cordl_internal_set_staticPrivateKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* value);
 
-  /// @brief Method .ctor, addr 0x23c05dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ee73c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey);
 
-  /// @brief Method .ctor, addr 0x23c05e4, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32ee744, size 0x1c8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* staticPrivateKey, ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* ephemeralPrivateKey,
                     ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* ephemeralPublicKey);
 
-  /// @brief Method get_EphemeralPrivateKey, addr 0x23c07c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPrivateKey, addr 0x32ee914, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_EphemeralPrivateKey();
 
-  /// @brief Method get_EphemeralPublicKey, addr 0x23c07d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EphemeralPublicKey, addr 0x32ee91c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* get_EphemeralPublicKey();
 
-  /// @brief Method get_StaticPrivateKey, addr 0x23c07c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_StaticPrivateKey, addr 0x32ee90c, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* get_StaticPrivateKey();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

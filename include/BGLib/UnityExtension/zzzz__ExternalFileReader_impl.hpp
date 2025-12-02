@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BGLib/UnityExtension/ExternalFileReader.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__UnityWebRequest_impl.hpp"
@@ -15,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)()>(
     &::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x22b6af0;
+  constexpr static std::size_t size = 0x7c8;
+  constexpr static std::size_t addrs = 0x31fdb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::BGLib::UnityExtension::ExternalFileReader__ExistsAsync_d__0::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x22b7390;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31fe47c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<bool>* (*)(::StringW)>(
     &::BGLib::UnityExtension::ExternalFileReader::ExistsAsync)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22b69fc;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x31fda34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

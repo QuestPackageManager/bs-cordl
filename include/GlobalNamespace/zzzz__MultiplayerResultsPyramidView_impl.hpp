@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> (
     ::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidView::get_resultAvatarDirectors)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be0368;
+  constexpr static std::size_t addrs = 0x57d1cd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(),
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> (
     ::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(&::GlobalNamespace::MultiplayerResultsPyramidView::get_badgeTimelines)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be0370;
+  constexpr static std::size_t addrs = 0x57d1cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(),
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::IConnectedPlayer*>*)>(&::GlobalNamespace::MultiplayerResultsPyramidView::PrespawnAvatars)> {
-  constexpr static std::size_t size = 0x3fc;
-  constexpr static std::size_t addrs = 0x3bde85c;
+  constexpr static std::size_t size = 0x3f4;
+  constexpr static std::size_t addrs = 0x57d0154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,8 +59,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)(
     ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*, ::UnityEngine::Transform*, ::UnityEngine::Transform*)>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::SetupResults)> {
-  constexpr static std::size_t size = 0x5d0;
-  constexpr static std::size_t addrs = 0x3bde268;
+  constexpr static std::size_t size = 0x5f4;
+  constexpr static std::size_t addrs = 0x57cfb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerResultsPyramidView::*)()>(
     &::GlobalNamespace::MultiplayerResultsPyramidView::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3be0d80;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x57d2718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MultiplayerResultsPyramidView*>::get(),

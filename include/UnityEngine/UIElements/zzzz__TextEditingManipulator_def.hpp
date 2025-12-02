@@ -9,12 +9,6 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class FocusInEvent;
-}
-namespace UnityEngine::UIElements {
-class FocusOutEvent;
-}
-namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
@@ -39,11 +33,13 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE TextEditingManipulator : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field editingEventHandler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_editingEventHandler, put = __cordl_internal_set_editingEventHandler)) ::UnityEngine::UIElements::TextEditorEventHandler* editingEventHandler;
+  __declspec(property(get = get_editingEventHandler, put = set_editingEventHandler)) ::UnityEngine::UIElements::TextEditorEventHandler* editingEventHandler;
 
   /// @brief Field editingUtilities, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_editingUtilities, put = __cordl_internal_set_editingUtilities)) ::UnityEngine::TextEditingUtilities* editingUtilities;
+
+  /// @brief Field m_EditingEventHandler, offset 0x18, size 0x8
+  __declspec(property(get = __cordl_internal_get_m_EditingEventHandler, put = __cordl_internal_set_m_EditingEventHandler)) ::UnityEngine::UIElements::TextEditorEventHandler* m_EditingEventHandler;
 
   /// @brief Field m_HardwareKeyboardPoller, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HardwareKeyboardPoller,
@@ -57,30 +53,33 @@ public:
 
   __declspec(property(get = get_touchScreenTextFieldChanged)) bool touchScreenTextFieldChanged;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x4a91e94, size 0x160, virtual false, abstract: false, final false
-  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+  /// @brief Method HandleEventBubbleUp, addr 0x6a6fa38, size 0x270, virtual false, abstract: false, final false
+  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
 
-  /// @brief Method InitTextEditorEventHandler, addr 0x4a91dc8, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method InitTextEditorEventHandler, addr 0x6a6f938, size 0xd4, virtual false, abstract: false, final false
   inline void InitTextEditorEventHandler();
 
   static inline ::UnityEngine::UIElements::TextEditingManipulator* New_ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method OnFocusInEvent, addr 0x4a91ff8, size 0x2ac, virtual false, abstract: false, final false
-  inline void OnFocusInEvent(::UnityEngine::UIElements::FocusInEvent* _);
+  /// @brief Method OnFocusInEvent, addr 0x6a6fcac, size 0x2e0, virtual false, abstract: false, final false
+  inline void OnFocusInEvent();
 
-  /// @brief Method OnFocusOutEvent, addr 0x4a922a4, size 0xb4, virtual false, abstract: false, final false
-  inline void OnFocusOutEvent(::UnityEngine::UIElements::FocusOutEvent* _);
+  /// @brief Method OnFocusOutEvent, addr 0x6a6ff8c, size 0xb8, virtual false, abstract: false, final false
+  inline void OnFocusOutEvent();
 
-  /// @brief Method <OnFocusInEvent>b__10_0, addr 0x4a92358, size 0x40, virtual false, abstract: false, final false
-  inline void _OnFocusInEvent_b__10_0();
+  /// @brief Method Reset, addr 0x6a6fa0c, size 0x2c, virtual false, abstract: false, final false
+  inline void Reset();
 
-  constexpr ::UnityEngine::UIElements::TextEditorEventHandler* const& __cordl_internal_get_editingEventHandler() const;
-
-  constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& __cordl_internal_get_editingEventHandler();
+  /// @brief Method <OnFocusInEvent>b__14_0, addr 0x6a70044, size 0x40, virtual false, abstract: false, final false
+  inline void _OnFocusInEvent_b__14_0();
 
   constexpr ::UnityEngine::TextEditingUtilities* const& __cordl_internal_get_editingUtilities() const;
 
   constexpr ::UnityEngine::TextEditingUtilities*& __cordl_internal_get_editingUtilities();
+
+  constexpr ::UnityEngine::UIElements::TextEditorEventHandler* const& __cordl_internal_get_m_EditingEventHandler() const;
+
+  constexpr ::UnityEngine::UIElements::TextEditorEventHandler*& __cordl_internal_get_m_EditingEventHandler();
 
   constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem* const& __cordl_internal_get_m_HardwareKeyboardPoller() const;
 
@@ -94,9 +93,9 @@ public:
 
   constexpr bool& __cordl_internal_get_m_TouchScreenTextFieldInitialized();
 
-  constexpr void __cordl_internal_set_editingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
-
   constexpr void __cordl_internal_set_editingUtilities(::UnityEngine::TextEditingUtilities* value);
+
+  constexpr void __cordl_internal_set_m_EditingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
   constexpr void __cordl_internal_set_m_HardwareKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
 
@@ -104,11 +103,17 @@ public:
 
   constexpr void __cordl_internal_set_m_TouchScreenTextFieldInitialized(bool value);
 
-  /// @brief Method .ctor, addr 0x4a91ca4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a6f818, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::TextElement* textElement);
 
-  /// @brief Method get_touchScreenTextFieldChanged, addr 0x4a91bf4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method get_editingEventHandler, addr 0x6a6f70c, size 0x8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::TextEditorEventHandler* get_editingEventHandler();
+
+  /// @brief Method get_touchScreenTextFieldChanged, addr 0x6a6f774, size 0xa4, virtual false, abstract: false, final false
   inline bool get_touchScreenTextFieldChanged();
+
+  /// @brief Method set_editingEventHandler, addr 0x6a6f714, size 0x60, virtual false, abstract: false, final false
+  inline void set_editingEventHandler(::UnityEngine::UIElements::TextEditorEventHandler* value);
 
 protected:
   // Ctor Parameters []
@@ -125,13 +130,13 @@ public:
   TextEditingManipulator(TextEditingManipulator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6199 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5091 };
 
   /// @brief Field m_TextElement, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextElement* ___m_TextElement;
 
-  /// @brief Field editingEventHandler, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::TextEditorEventHandler* ___editingEventHandler;
+  /// @brief Field m_EditingEventHandler, offset: 0x18, size: 0x8, def value: None
+  ::UnityEngine::UIElements::TextEditorEventHandler* ___m_EditingEventHandler;
 
   /// @brief Field editingUtilities, offset: 0x20, size: 0x8, def value: None
   ::UnityEngine::TextEditingUtilities* ___editingUtilities;
@@ -147,7 +152,7 @@ public:
 // Non member Declarations
 static_assert(offsetof(::UnityEngine::UIElements::TextEditingManipulator, ___m_TextElement) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TextEditingManipulator, ___editingEventHandler) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TextEditingManipulator, ___m_EditingEventHandler) == 0x18, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TextEditingManipulator, ___editingUtilities) == 0x20, "Offset mismatch!");
 

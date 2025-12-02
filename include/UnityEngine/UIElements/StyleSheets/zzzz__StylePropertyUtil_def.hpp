@@ -44,6 +44,9 @@ public:
                       put = setStaticF_s_AnimatableWithUsageHintProperties)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId,
                                                                                                                           ::UnityEngine::UIElements::UsageHints>* s_AnimatableWithUsageHintProperties;
 
+  /// @brief Field s_CSharpNameToUssName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_CSharpNameToUssName, put = setStaticF_s_CSharpNameToUssName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_CSharpNameToUssName;
+
   /// @brief Field s_IdToName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_IdToName,
                       put = setStaticF_s_IdToName)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* s_IdToName;
@@ -52,13 +55,16 @@ public:
   __declspec(property(get = getStaticF_s_NameToId,
                       put = setStaticF_s_NameToId)) ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* s_NameToId;
 
-  /// @brief Method IsAnimatable, addr 0x49d3598, size 0x80, virtual false, abstract: false, final false
+  /// @brief Field s_UssNameToCSharpName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_s_UssNameToCSharpName, put = setStaticF_s_UssNameToCSharpName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_UssNameToCSharpName;
+
+  /// @brief Method IsAnimatable, addr 0x6ad826c, size 0x88, virtual false, abstract: false, final false
   static inline bool IsAnimatable(::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method IsMatchingShorthand, addr 0x49d342c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method IsMatchingShorthand, addr 0x6ad807c, size 0x1f0, virtual false, abstract: false, final false
   static inline bool IsMatchingShorthand(::UnityEngine::UIElements::StyleSheets::StylePropertyId shorthand, ::UnityEngine::UIElements::StyleSheets::StylePropertyId id);
 
-  /// @brief Method TryGetEnumIntValue, addr 0x49d0e1c, size 0xf78, virtual false, abstract: false, final false
+  /// @brief Method TryGetEnumIntValue, addr 0x6ad4e0c, size 0x1260, virtual false, abstract: false, final false
   static inline bool TryGetEnumIntValue(::UnityEngine::UIElements::StyleSheets::StyleEnumType enumType, ::StringW value, ::ByRef<int32_t> intValue);
 
   static inline ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* getStaticF_s_AnimatableProperties();
@@ -66,18 +72,26 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::UsageHints>*
   getStaticF_s_AnimatableWithUsageHintProperties();
 
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_CSharpNameToUssName();
+
   static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* getStaticF_s_IdToName();
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* getStaticF_s_NameToId();
+
+  static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_UssNameToCSharpName();
 
   static inline void setStaticF_s_AnimatableProperties(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);
 
   static inline void
   setStaticF_s_AnimatableWithUsageHintProperties(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::UsageHints>* value);
 
+  static inline void setStaticF_s_CSharpNameToUssName(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
+
   static inline void setStaticF_s_IdToName(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>* value);
 
   static inline void setStaticF_s_NameToId(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::StyleSheets::StylePropertyId>* value);
+
+  static inline void setStaticF_s_UssNameToCSharpName(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value);
 
 protected:
   // Ctor Parameters []
@@ -94,7 +108,7 @@ public:
   StylePropertyUtil(StylePropertyUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6449 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5451 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

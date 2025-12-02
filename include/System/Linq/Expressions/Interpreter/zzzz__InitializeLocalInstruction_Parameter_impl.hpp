@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/Interpreter/InitializeLocalInstruction_Parameter.hpp"
-#include "System/Linq/Expressions/Interpreter/zzzz__IBoxableInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InitializeLocalInstruction_impl.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InitializeLocalInstruction_Parameter_def.hpp"
+#include "System/Linq/Expressions/Interpreter/zzzz__IBoxableInstruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__Instruction_def.hpp"
 #include "System/Linq/Expressions/Interpreter/zzzz__InterpretedFrame_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InitializeLocalInstruction_Parameter._ctor
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InitializeLocalInstruction_Parameter::*)(int32_t)>(
     &::GlobalNamespace::InitializeLocalInstruction_Parameter::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x40ea628;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d96d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::InitializeLocalInstruction_Parameter::*)(
     ::System::Linq::Expressions::Interpreter::InterpretedFrame*)>(&::GlobalNamespace::InitializeLocalInstruction_Parameter::Run)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40ea650;
+  constexpr static std::size_t addrs = 0x5d96d28;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Interpreter::Instruction* (
     ::GlobalNamespace::InitializeLocalInstruction_Parameter::*)(int32_t)>(&::GlobalNamespace::InitializeLocalInstruction_Parameter::BoxIfIndexMatches)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x40ea658;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5d96d30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::InitializeLocalInstruction_Parameter::*)()>(
     &::GlobalNamespace::InitializeLocalInstruction_Parameter::get_InstructionName)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x40ea6d0;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5d96db8;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TextCore/LowLevel/GlyphValueRecord.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphValueRecord_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphValueRecord.get_xPlacement
 template <>
@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923030;
+  constexpr static std::size_t addrs = 0x698bf04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(),
@@ -23,7 +23,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(float_t)>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::set_xPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923038;
+  constexpr static std::size_t addrs = 0x698bf0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923040;
+  constexpr static std::size_t addrs = 0x698bf14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(float_t)>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::set_yPlacement)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923048;
+  constexpr static std::size_t addrs = 0x698bf1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,11 +67,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923050;
+  constexpr static std::size_t addrs = 0x698bf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(),
                                                                                "get_xAdvance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphValueRecord.set_xAdvance
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(float_t)>(
+    &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::set_xAdvance)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698bf2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(), "set_xAdvance",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -81,11 +96,27 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4923058;
+  constexpr static std::size_t addrs = 0x698bf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(),
                                                                                "get_yAdvance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::LowLevel::GlyphValueRecord._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(float_t, float_t, float_t, float_t)>(
+    &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x698bf3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
 };
@@ -95,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::LowLevel::GlyphValueRecord (*)(
     ::UnityEngine::TextCore::LowLevel::GlyphValueRecord, ::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(&::UnityEngine::TextCore::LowLevel::GlyphValueRecord::op_Addition)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4923060;
+  constexpr static std::size_t addrs = 0x698bf48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)()>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4923074;
+  constexpr static std::size_t addrs = 0x698bf5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -126,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(::System::Object*)>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49230d8;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x698bfc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::LowLevel::GlyphValueRecord::*)(::UnityEngine::TextCore::LowLevel::GlyphValueRecord)>(
     &::UnityEngine::TextCore::LowLevel::GlyphValueRecord::Equals)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4923150;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x698c030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,10 +210,23 @@ inline float_t UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_xAdvance()
                                                                              "get_xAdvance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
+inline void UnityEngine::TextCore::LowLevel::GlyphValueRecord::set_xAdvance(float_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(), "set_xAdvance",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline float_t UnityEngine::TextCore::LowLevel::GlyphValueRecord::get_yAdvance() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(),
                                                                              "get_yAdvance", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::TextCore::LowLevel::GlyphValueRecord::_ctor(float_t xPlacement, float_t yPlacement, float_t xAdvance, float_t yAdvance) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::LowLevel::GlyphValueRecord>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, xPlacement, yPlacement, xAdvance, yAdvance);
 }
 inline ::UnityEngine::TextCore::LowLevel::GlyphValueRecord UnityEngine::TextCore::LowLevel::GlyphValueRecord::op_Addition(::UnityEngine::TextCore::LowLevel::GlyphValueRecord a,
                                                                                                                           ::UnityEngine::TextCore::LowLevel::GlyphValueRecord b) {

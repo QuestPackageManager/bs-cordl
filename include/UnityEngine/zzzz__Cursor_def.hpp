@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Cursor)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 struct CursorLockMode;
 }
@@ -30,19 +33,19 @@ namespace UnityEngine {
 class CORDL_TYPE Cursor : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method SetCursor, addr 0x489bddc, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method SetCursor, addr 0x6895db0, size 0x9c, virtual false, abstract: false, final false
   static inline void SetCursor(::UnityEngine::Texture2D* texture, ::UnityEngine::Vector2 hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method SetCursor_Injected, addr 0x489be34, size 0x54, virtual false, abstract: false, final false
-  static inline void SetCursor_Injected(::UnityEngine::Texture2D* texture, ::ByRef<::UnityEngine::Vector2> hotspot, ::UnityEngine::CursorMode cursorMode);
+  /// @brief Method SetCursor_Injected, addr 0x6895e4c, size 0x54, virtual false, abstract: false, final false
+  static inline void SetCursor_Injected(::System::IntPtr texture, ::ByRef<::UnityEngine::Vector2> hotspot, ::UnityEngine::CursorMode cursorMode);
 
-  /// @brief Method get_lockState, addr 0x489bec4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method get_lockState, addr 0x6895edc, size 0x28, virtual false, abstract: false, final false
   static inline ::UnityEngine::CursorLockMode get_lockState();
 
-  /// @brief Method set_lockState, addr 0x489beec, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_lockState, addr 0x6895f04, size 0x3c, virtual false, abstract: false, final false
   static inline void set_lockState(::UnityEngine::CursorLockMode value);
 
-  /// @brief Method set_visible, addr 0x489be88, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_visible, addr 0x6895ea0, size 0x3c, virtual false, abstract: false, final false
   static inline void set_visible(bool value);
 
 protected:
@@ -60,7 +63,7 @@ public:
   Cursor(Cursor const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10216 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

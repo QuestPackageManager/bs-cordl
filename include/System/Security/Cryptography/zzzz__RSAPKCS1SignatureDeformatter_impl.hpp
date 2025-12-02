@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)()>(
     &::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb527c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x58f8e00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(
     ::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3cb5284;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x58f8e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(::StringW)>(
     &::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetHashAlgorithm)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cb52b8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x58f8e10;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(
     ::System::Security::Cryptography::AsymmetricAlgorithm*)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::SetKey)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x3cb5314;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x58f8e68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Security::Cryptography::RSAPKCS1SignatureDeformatter::VerifySignature)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3cb53fc;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x58f8f60;
 
   inline static ::MethodInfo const* methodInfo() {
 

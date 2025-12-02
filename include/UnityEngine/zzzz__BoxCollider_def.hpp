@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Collider_def.hpp"
 CORDL_MODULE_EXPORT(BoxCollider)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 struct Vector3;
 }
@@ -29,38 +32,38 @@ public:
 
   static inline ::UnityEngine::BoxCollider* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490aadc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69474e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_center, addr 0x490a83c, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_center, addr 0x6947134, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_center();
 
-  /// @brief Method get_center_Injected, addr 0x490a898, size 0x44, virtual false, abstract: false, final false
-  inline void get_center_Injected(::ByRef<::UnityEngine::Vector3> ret);
+  /// @brief Method get_center_Injected, addr 0x69471d4, size 0x44, virtual false, abstract: false, final false
+  static inline void get_center_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method get_extents, addr 0x490aaac, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_extents, addr 0x69474b4, size 0x20, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_extents();
 
-  /// @brief Method get_size, addr 0x490a974, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x69472f4, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::Vector3 get_size();
 
-  /// @brief Method get_size_Injected, addr 0x490a9d0, size 0x44, virtual false, abstract: false, final false
-  inline void get_size_Injected(::ByRef<::UnityEngine::Vector3> ret);
+  /// @brief Method get_size_Injected, addr 0x6947394, size 0x44, virtual false, abstract: false, final false
+  static inline void get_size_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method set_center, addr 0x490a8dc, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_center, addr 0x6947218, size 0x98, virtual false, abstract: false, final false
   inline void set_center(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_center_Injected, addr 0x490a930, size 0x44, virtual false, abstract: false, final false
-  inline void set_center_Injected(::ByRef<::UnityEngine::Vector3> value);
+  /// @brief Method set_center_Injected, addr 0x69472b0, size 0x44, virtual false, abstract: false, final false
+  static inline void set_center_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
-  /// @brief Method set_extents, addr 0x490aacc, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method set_extents, addr 0x69474d4, size 0x10, virtual false, abstract: false, final false
   inline void set_extents(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size, addr 0x490aa14, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_size, addr 0x69473d8, size 0x98, virtual false, abstract: false, final false
   inline void set_size(::UnityEngine::Vector3 value);
 
-  /// @brief Method set_size_Injected, addr 0x490aa68, size 0x44, virtual false, abstract: false, final false
-  inline void set_size_Injected(::ByRef<::UnityEngine::Vector3> value);
+  /// @brief Method set_size_Injected, addr 0x6947470, size 0x44, virtual false, abstract: false, final false
+  static inline void set_size_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> value);
 
 protected:
   // Ctor Parameters []
@@ -77,7 +80,7 @@ public:
   BoxCollider(BoxCollider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15759 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18582 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(GroupedEnumerable_3)
 namespace System::Collections::Generic {
@@ -15,6 +13,9 @@ template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -31,7 +32,7 @@ template <typename TSource, typename TKey, typename TElement> class GroupedEnume
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::GroupedEnumerable_3);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TSource, typename TKey, typename TElement>
@@ -118,7 +119,7 @@ public:
   GroupedEnumerable_3(GroupedEnumerable_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13604 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16051 };
 
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TSource>* ___source;

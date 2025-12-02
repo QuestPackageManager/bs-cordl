@@ -27,6 +27,8 @@ template <typename TContainer, typename TValue>
 class CORDL_TYPE DelegateProperty_2 : public ::Unity::Properties::Property_2<TContainer, TValue> {
 public:
   // Declarations
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+
   __declspec(property(get = get_Name)) ::StringW Name;
 
   /// @brief Field <Name>k__BackingField, offset 0x28, size 0x8
@@ -38,8 +40,14 @@ public:
   /// @brief Field m_Setter, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Setter, put = __cordl_internal_set_m_Setter)) ::Unity::Properties::PropertySetter_2<TContainer, TValue>* m_Setter;
 
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TValue GetValue(::ByRef<TContainer> container);
+
   static inline ::Unity::Properties::DelegateProperty_2<TContainer, TValue>* New_ctor(::StringW name, ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* getter,
                                                                                       ::Unity::Properties::PropertySetter_2<TContainer, TValue>* setter);
+
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<TContainer> container, TValue value);
 
   constexpr ::StringW const& __cordl_internal_get__Name_k__BackingField() const;
 
@@ -62,6 +70,9 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW name, ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* getter, ::Unity::Properties::PropertySetter_2<TContainer, TValue>* setter);
 
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -80,7 +91,7 @@ public:
   DelegateProperty_2(DelegateProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17451 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19311 };
 
   /// @brief Field m_Getter, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::PropertyGetter_2<TContainer, TValue>* ___m_Getter;

@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlDistPoint* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetInstance)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2603920;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x353390c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlDistPoint* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetInstance)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2603938;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x3533920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::CrlDistPoint* (*)(::Org::BouncyCastle::Asn1::X509::X509Extensions*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::FromExtensions)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2603a00;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x35339c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26039d8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35339bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)(
     ::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*>)>(&::Org::BouncyCastle::Asn1::X509::CrlDistPoint::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2603a80;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x3533a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -91,8 +91,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::X509::DistributionPoint*, ::Array<::Org::BouncyCastle::Asn1::X509::DistributionPoint*>*> (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(
         &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::GetDistributionPoints)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x2603af4;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x3533ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Asn1::X509::CrlDistPoint*>::get(),
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::ToAsn1Object)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2603d6c;
+  constexpr static std::size_t addrs = 0x3533d34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Asn1::X509::CrlDistPoint::*)()>(
     &::Org::BouncyCastle::Asn1::X509::CrlDistPoint::ToString)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x2603d74;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x3533d3c;
 
   inline static ::MethodInfo const* methodInfo() {
 

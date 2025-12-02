@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::UnityEngine::Timeline::TimelineUndo::get_undoEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x482e978;
+  constexpr static std::size_t addrs = 0x67af288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimelineUndo*>::get(), "get_undoEnabled",
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Timeline::TimelineAsset*, ::UnityEngine::Object*, ::UnityEngine::Object*)>(
     &::UnityEngine::Timeline::TimelineUndo::PushDestroyUndo)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x482e980;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x67af290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<::UnityEngine::Object*, ::Array<::UnityEngine::Object*>*>, ::StringW)>(
     &::UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x482ea08;
+  constexpr static std::size_t addrs = 0x67af31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Timeline::TimelineUndo::PushUndo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x482ea0c;
+  constexpr static std::size_t addrs = 0x67af320;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::Object*, ::StringW)>(&::UnityEngine::Timeline::TimelineUndo::RegisterCreatedObjectUndo)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x482ea10;
+  constexpr static std::size_t addrs = 0x67af324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Timeline::TimelineUndo*>::get(),
@@ -84,8 +84,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::UnityEngine::Timeline::TimelineUndo::UndoName)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x482ea14;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x67af328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

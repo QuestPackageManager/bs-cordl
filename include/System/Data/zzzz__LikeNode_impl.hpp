@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::LikeNode::*)(::System::Data::DataTable*, int32_t, ::System::Data::ExpressionNode*, ::System::Data::ExpressionNode*)>(&::System::Data::LikeNode::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x41776f0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5e22184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Data::LikeNode::*)(::System::Data::DataRow*, ::System::Data::DataRowVersion)>(
     &::System::Data::LikeNode::Eval)> {
-  constexpr static std::size_t size = 0x554;
-  constexpr static std::size_t addrs = 0x4177734;
+  constexpr static std::size_t size = 0x504;
+  constexpr static std::size_t addrs = 0x5e22194;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -44,8 +44,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Data::LikeNode::*)(::StringW)>(&::System::Data::LikeNode::AnalyzePattern)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x4177c88;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x5e22698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::RuntimePlatform)>(
     &::UnityEngine::ResourceManagement::Util::PlatformUtilities::PlatformUsesMultiThreading)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4797a74;
+  constexpr static std::size_t addrs = 0x66f76e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceManagement::Util::PlatformUtilities::*)()>(
     &::UnityEngine::ResourceManagement::Util::PlatformUtilities::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4797a80;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x66f76f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

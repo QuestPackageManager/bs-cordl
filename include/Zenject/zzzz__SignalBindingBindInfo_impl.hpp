@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBindingBindInfo::*)(::System::Type*)>(&::Zenject::SignalBindingBindInfo::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4afb2a0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c11370;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Zenject::SignalBindingBindInfo::*)()>(&::Zenject::SignalBindingBindInfo::get_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afb2c8;
+  constexpr static std::size_t addrs = 0x6c11378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBindingBindInfo*>::get(), "get_Identifier",
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBindingBindInfo::*)(::System::Object*)>(&::Zenject::SignalBindingBindInfo::set_Identifier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afb2d0;
+  constexpr static std::size_t addrs = 0x6c11380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,7 +50,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::SignalBindingBindInfo::*)()>(&::Zenject::SignalBindingBindInfo::get_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afb2d8;
+  constexpr static std::size_t addrs = 0x6c11388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::SignalBindingBindInfo*>::get(), "get_SignalType",
@@ -63,7 +63,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::SignalBindingBindInfo::*)(::System::Type*)>(&::Zenject::SignalBindingBindInfo::set_SignalType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4afb2e0;
+  constexpr static std::size_t addrs = 0x6c11390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -53,14 +53,14 @@ public:
   /// @brief Field callback, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_callback, put = __cordl_internal_set_callback)) ::System::Action* callback;
 
-  /// @brief Field closing, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_closing, put = __cordl_internal_set_closing)) bool closing;
-
   /// @brief Field indexCount, offset 0x5c, size 0x4
   __declspec(property(get = __cordl_internal_get_indexCount, put = __cordl_internal_set_indexCount)) int32_t indexCount;
 
   /// @brief Field indexOffset, offset 0x58, size 0x4
   __declspec(property(get = __cordl_internal_get_indexOffset, put = __cordl_internal_set_indexOffset)) int32_t indexOffset;
+
+  /// @brief Field isTail, offset 0x30, size 0x1
+  __declspec(property(get = __cordl_internal_get_isTail, put = __cordl_internal_set_isTail)) bool isTail;
 
   /// @brief Field k_ID_MainTex, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_k_ID_MainTex, put = setStaticF_k_ID_MainTex)) int32_t k_ID_MainTex;
@@ -86,30 +86,26 @@ public:
   /// @brief Field type, offset 0x34, size 0x4
   __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type)) ::UnityEngine::UIElements::UIR::CommandType type;
 
-  /// @brief Method Blit, addr 0x49bc34c, size 0x16c, virtual false, abstract: false, final false
+  /// @brief Method Blit, addr 0x6ac939c, size 0x29c, virtual false, abstract: false, final false
   inline void Blit(::UnityEngine::Texture* source, ::UnityEngine::RenderTexture* destination, float_t depth);
 
-  /// @brief Method CombineScissorRects, addr 0x49bc244, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method CombineScissorRects, addr 0x6ac9278, size 0x124, virtual false, abstract: false, final false
   static inline ::UnityEngine::Rect CombineScissorRects(::UnityEngine::Rect r0, ::UnityEngine::Rect r1);
 
-  /// @brief Method ExecuteNonDrawMesh, addr 0x49ba310, size 0xac0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteNonDrawMesh, addr 0x6ac811c, size 0xdd4, virtual false, abstract: false, final false
   inline void ExecuteNonDrawMesh(::UnityEngine::UIElements::UIR::DrawParams* drawParams, float_t pixelsPerPoint, ::ByRef<::System::Exception*> immediateException);
 
   static inline ::UnityEngine::UIElements::UIR::RenderChainCommand* New_ctor();
 
-  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x49bbedc, size 0x368, virtual false, abstract: false, final false
+  /// @brief Method RectPointsToPixelsAndFlipYAxis, addr 0x6ac8ef0, size 0x388, virtual false, abstract: false, final false
   static inline ::UnityEngine::RectInt RectPointsToPixelsAndFlipYAxis(::UnityEngine::Rect rect, float_t pixelsPerPoint);
 
-  /// @brief Method Reset, addr 0x49bbeb8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Reset, addr 0x6ac80f8, size 0x24, virtual false, abstract: false, final false
   inline void Reset();
 
   constexpr ::System::Action* const& __cordl_internal_get_callback() const;
 
   constexpr ::System::Action*& __cordl_internal_get_callback();
-
-  constexpr bool const& __cordl_internal_get_closing() const;
-
-  constexpr bool& __cordl_internal_get_closing();
 
   constexpr int32_t const& __cordl_internal_get_indexCount() const;
 
@@ -118,6 +114,10 @@ public:
   constexpr int32_t const& __cordl_internal_get_indexOffset() const;
 
   constexpr int32_t& __cordl_internal_get_indexOffset();
+
+  constexpr bool const& __cordl_internal_get_isTail() const;
+
+  constexpr bool& __cordl_internal_get_isTail();
 
   constexpr ::UnityEngine::UIElements::UIR::MeshHandle* const& __cordl_internal_get_mesh() const;
 
@@ -145,11 +145,11 @@ public:
 
   constexpr void __cordl_internal_set_callback(::System::Action* value);
 
-  constexpr void __cordl_internal_set_closing(bool value);
-
   constexpr void __cordl_internal_set_indexCount(int32_t value);
 
   constexpr void __cordl_internal_set_indexOffset(int32_t value);
+
+  constexpr void __cordl_internal_set_isTail(bool value);
 
   constexpr void __cordl_internal_set_mesh(::UnityEngine::UIElements::UIR::MeshHandle* value);
 
@@ -163,7 +163,7 @@ public:
 
   constexpr void __cordl_internal_set_type(::UnityEngine::UIElements::UIR::CommandType value);
 
-  /// @brief Method .ctor, addr 0x49aebf0, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6ac9638, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF_k_ID_MainTex();
@@ -189,7 +189,7 @@ public:
   RenderChainCommand(RenderChainCommand const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5386 };
 
   /// @brief Field owner, offset: 0x18, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___owner;
@@ -200,8 +200,8 @@ public:
   /// @brief Field next, offset: 0x28, size: 0x8, def value: None
   ::UnityEngine::UIElements::UIR::RenderChainCommand* ___next;
 
-  /// @brief Field closing, offset: 0x30, size: 0x1, def value: None
-  bool ___closing;
+  /// @brief Field isTail, offset: 0x30, size: 0x1, def value: None
+  bool ___isTail;
 
   /// @brief Field type, offset: 0x34, size: 0x4, def value: None
   ::UnityEngine::UIElements::UIR::CommandType ___type;
@@ -230,7 +230,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___pr
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___next) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___closing) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___isTail) == 0x30, "Offset mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::RenderChainCommand, ___type) == 0x34, "Offset mismatch!");
 

@@ -80,7 +80,7 @@ public:
   BloomFilterUtil___c__DisplayClass1_0_1(BloomFilterUtil___c__DisplayClass1_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16979 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20813 };
 
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
@@ -142,7 +142,7 @@ public:
   BloomFilterUtil___c__DisplayClass2_0_1(BloomFilterUtil___c__DisplayClass2_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16980 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20814 };
 
   /// @brief Field hashCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___hashCount;
@@ -201,7 +201,7 @@ public:
   BloomFilterUtil(BloomFilterUtil const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16981 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20815 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

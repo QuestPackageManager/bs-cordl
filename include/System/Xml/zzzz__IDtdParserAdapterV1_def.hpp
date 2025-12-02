@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Xml/zzzz__IDtdParserAdapterWithValidation_def.hpp"
-#include "System/Xml/zzzz__IDtdParserAdapter_def.hpp"
 CORDL_MODULE_EXPORT(IDtdParserAdapterV1)
+namespace System::Xml {
+class IDtdParserAdapterWithValidation;
+}
+namespace System::Xml {
+class IDtdParserAdapter;
+}
 // Forward declare root types
 namespace System::Xml {
 class IDtdParserAdapterV1;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IDtdParserAdapterV1);
-// Dependencies System.Xml.IDtdParserAdapter, System.Xml.IDtdParserAdapterWithValidation
+// Dependencies
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.IDtdParserAdapterV1
@@ -51,7 +55,7 @@ public:
   IDtdParserAdapterV1(IDtdParserAdapterV1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9255 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

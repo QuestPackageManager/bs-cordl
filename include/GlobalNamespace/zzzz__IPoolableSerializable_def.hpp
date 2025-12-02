@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"
 CORDL_MODULE_EXPORT(IPoolableSerializable)
+namespace LiteNetLib::Utils {
+class INetSerializable;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class IPoolableSerializable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IPoolableSerializable);
-// Dependencies LiteNetLib.Utils.INetSerializable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IPoolableSerializable
@@ -35,7 +37,7 @@ public:
   IPoolableSerializable(IPoolableSerializable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16996 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20830 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

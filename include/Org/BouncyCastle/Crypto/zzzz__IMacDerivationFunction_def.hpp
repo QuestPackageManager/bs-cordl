@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_def.hpp"
 CORDL_MODULE_EXPORT(IMacDerivationFunction)
+namespace Org::BouncyCastle::Crypto {
+class IDerivationFunction;
+}
 namespace Org::BouncyCastle::Crypto {
 class IMac;
 }
@@ -14,7 +16,7 @@ class IMacDerivationFunction;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IMacDerivationFunction);
-// Dependencies Org.BouncyCastle.Crypto.IDerivationFunction
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.IMacDerivationFunction

@@ -24,12 +24,12 @@ public:
   /// @brief Field _visualsWrapperGo, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__visualsWrapperGo, put = __cordl_internal_set__visualsWrapperGo)) ::UnityW<::UnityEngine::GameObject> _visualsWrapperGo;
 
-  /// @brief Method HiddenStateDidChange, addr 0x3bbb418, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method HiddenStateDidChange, addr 0x57abf68, size 0x20, virtual true, abstract: false, final false
   inline void HiddenStateDidChange(bool hide);
 
   static inline ::GlobalNamespace::MultiplayerConnectedPlayerNoteController* New_ctor();
 
-  /// @brief Method Pause, addr 0x3bbb43c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Pause, addr 0x57abf88, size 0x10, virtual true, abstract: false, final false
   inline void Pause(bool pause);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__visualsWrapperGo() const;
@@ -38,7 +38,7 @@ public:
 
   constexpr void __cordl_internal_set__visualsWrapperGo(::UnityW<::UnityEngine::GameObject> value);
 
-  /// @brief Method .ctor, addr 0x3bbb18c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57abcc8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   MultiplayerConnectedPlayerNoteController(MultiplayerConnectedPlayerNoteController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4501 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6081 };
 
   /// @brief Field _visualsWrapperGo, offset: 0x88, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ____visualsWrapperGo;

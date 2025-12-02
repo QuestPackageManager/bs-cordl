@@ -1,15 +1,14 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GhostDuplicationEffect.hpp"
 #include "GlobalNamespace/zzzz__EaseType_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
 #include "GlobalNamespace/zzzz__GhostDuplicationEffect_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Tweening/zzzz__TimeTweeningManager_def.hpp"
 #include "UnityEngine/zzzz__AnimationCurve_def.hpp"
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b83190;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x576f24c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b8345c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x576f4d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -77,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__1)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b83474;
+  constexpr static std::size_t addrs = 0x576f4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__2)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3b834a0;
+  constexpr static std::size_t addrs = 0x576f514;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -107,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect___c__DisplayClass7_0::_Animate_b__3)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b834f0;
+  constexpr static std::size_t addrs = 0x576f564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -192,8 +191,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)(int32_t)>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b83208;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x576f2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -208,7 +207,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b83530;
+  constexpr static std::size_t addrs = 0x576f5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -222,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3b83534;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x576f5a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -238,7 +237,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8362c;
+  constexpr static std::size_t addrs = 0x576f690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -253,7 +252,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b83634;
+  constexpr static std::size_t addrs = 0x576f698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -268,7 +267,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::*)()>(
     &::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8366c;
+  constexpr static std::size_t addrs = 0x576f6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -395,8 +394,8 @@ constexpr ::GlobalNamespace::GhostDuplicationEffect__HideRedundantWithDelay_d__8
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::OnDestroy)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b82c40;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x576eb70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -410,7 +409,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::Awake)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b82cc8;
+  constexpr static std::size_t addrs = 0x576ebfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostDuplicationEffect*>::get(), "Awake",
@@ -422,8 +421,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::Init)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b82cd8;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x576ec0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostDuplicationEffect*>::get(), "Init",
@@ -436,8 +435,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(::GlobalNamespace::GhostDuplicationEffect_GhostEffectParams)>(
     &::GlobalNamespace::GhostDuplicationEffect::Animate)> {
-  constexpr static std::size_t size = 0x3b0;
-  constexpr static std::size_t addrs = 0x3b82de0;
+  constexpr static std::size_t size = 0x548;
+  constexpr static std::size_t addrs = 0x576ed04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,8 +450,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::GhostDuplicationEffect::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect::HideRedundantWithDelay)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3b83198;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x576f250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -466,8 +465,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(float_t, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::GhostDuplicationEffect::SetDistances)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x3b83230;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x576f2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -482,7 +481,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(bool)>(&::GlobalNamespace::GhostDuplicationEffect::set_hide)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b8331c;
+  constexpr static std::size_t addrs = 0x576f3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -495,8 +494,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(float_t)>(&::GlobalNamespace::GhostDuplicationEffect::set_size)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3b83348;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x576f3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -510,7 +509,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::get_size)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b833cc;
+  constexpr static std::size_t addrs = 0x576f448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostDuplicationEffect*>::get(), "get_size",
@@ -523,8 +522,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)(float_t)>(
     &::GlobalNamespace::GhostDuplicationEffect::set_alpha)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3b82d60;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x576ec90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -538,7 +537,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::get_alpha)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b83414;
+  constexpr static std::size_t addrs = 0x576f490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostDuplicationEffect*>::get(), "get_alpha",
@@ -550,8 +549,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GhostDuplicationEffect::*)()>(&::GlobalNamespace::GhostDuplicationEffect::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b83454;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x576f4d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GhostDuplicationEffect*>::get(), ".ctor",

@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::get_radius)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be9674;
+  constexpr static std::size_t addrs = 0x57dc254;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(bool)>(&::GlobalNamespace::BoxCuttableBySaber::set_canBeCut)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3be967c;
+  constexpr static std::size_t addrs = 0x57dc25c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::get_canBeCut)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be96b4;
+  constexpr static std::size_t addrs = 0x57dc294;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,7 +54,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BoxCuttableBySaber::set_colliderSize)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3be96bc;
+  constexpr static std::size_t addrs = 0x57dc29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BoxCuttableBySaber::*)()>(
     &::GlobalNamespace::BoxCuttableBySaber::get_colliderSize)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3be9744;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dc324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BoxCuttableBySaber*>::get(),
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BoxCuttableBySaber::set_colliderCenter)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3be9760;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dc33c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::BoxCuttableBySaber::*)()>(
     &::GlobalNamespace::BoxCuttableBySaber::get_colliderCenter)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3be977c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57dc354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BoxCuttableBySaber*>::get(),
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::Awake)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3be9798;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x57dc36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BoxCuttableBySaber*>::get(), "Awake",
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(
     ::GlobalNamespace::Saber*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Vector3)>(&::GlobalNamespace::BoxCuttableBySaber::Cut)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3be97c8;
+  constexpr static std::size_t addrs = 0x57dc3a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -140,7 +140,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::BoxCuttableBySaber::SetColliderCenterAndSize)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3be9828;
+  constexpr static std::size_t addrs = 0x57dc400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::RefreshRadius)> {
   constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3be96e4;
+  constexpr static std::size_t addrs = 0x57dc2c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BoxCuttableBySaber*>::get(), "RefreshRadius",
@@ -167,8 +167,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BoxCuttableBySaber::*)()>(&::GlobalNamespace::BoxCuttableBySaber::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3be9880;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57dc458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BoxCuttableBySaber*>::get(), ".ctor",

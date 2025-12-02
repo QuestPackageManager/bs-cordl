@@ -33,13 +33,13 @@ public:
 
   static inline ::System::Threading::Tasks::TaskSchedulerException* New_ctor(::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3e5ebbc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa4544, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3e5ecac, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa464c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3e5ec2c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aa45c0, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::System::Exception* innerException);
 
 protected:
@@ -57,7 +57,7 @@ public:
   TaskSchedulerException(TaskSchedulerException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2772 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,6 +3,7 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextGeneratorUtilities_def.hpp"
+#include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/TextCore/LowLevel/zzzz__GlyphRenderMode_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
@@ -12,17 +13,18 @@
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingElement_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextProcessingStack_1_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextStyle_def.hpp"
+#include "UnityEngine/TextCore/zzzz__HorizontalAlignment_def.hpp"
+#include "UnityEngine/TextCore/zzzz__VerticalAlignment_def.hpp"
 #include "UnityEngine/zzzz__Color32_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__FontStyle_def.hpp"
 #include "UnityEngine/zzzz__TextAnchor_def.hpp"
-#include "UnityEngine/zzzz__Vector2_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.Approximately
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::Approximately)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x494a5e4;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x69d364c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,26 +36,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.HexCharsToColor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(
-    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor)> {
-  constexpr static std::size_t size = 0x608;
-  constexpr static std::size_t addrs = 0x494a614;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "HexCharsToColor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.HexCharsToColor
-template <>
-
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x494ac48;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x69d3674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::HexToInt)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x494ac1c;
+  constexpr static std::size_t addrs = 0x69d3a90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -83,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x494aed4;
+  constexpr static std::size_t addrs = 0x69d3abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -98,8 +84,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFloat)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x494af54;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x69d3b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -110,22 +96,6 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.PackUV
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (*)(float_t, float_t, float_t)>(
-    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::PackUV)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x494b0b4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "PackUV", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.InsertOpeningTextStyle
 template <>
 
@@ -133,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::TextStyle*, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>,
     ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
     ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningTextStyle)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x494b114;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x69d3c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,8 +127,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::TextStyle*, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>,
     ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
     ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingTextStyle)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x494b6b0;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x69d4234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,8 +152,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>,
                          ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
                          ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x494b7b0;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x69d433c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -208,8 +178,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
                          ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>,
                          ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
                          ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceOpeningStyleTag)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x494bad8;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x69d4674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -233,8 +203,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>,
                          ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
                          ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ReplaceClosingStyleTag)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x494bd08;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x69d48a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,8 +226,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::TextCore::Text::TextStyle*, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>,
     ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
     ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertOpeningStyleTag)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x494be34;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x69d49dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -280,8 +250,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingElement, ::Array<::UnityEngine::TextCore::Text::TextProcessingElement>*>>, ::ByRef<int32_t>, ::ByRef<int32_t>,
                          ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
                          ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertClosingStyleTag)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x494bf0c;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x69d4ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -304,7 +274,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ByRef<int32_t>, ::ByRef<::ArrayW<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>, ::Array<::UnityEngine::TextCore::Text::TextProcessingStack_1<int32_t>>*>>,
     ::ByRef<::UnityEngine::TextCore::Text::TextGenerationSettings*>)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::InsertTextStyleInTextProcessingArray)> {
   constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x494b21c;
+  constexpr static std::size_t addrs = 0x69d3da0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -326,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextStyle* (*)(::UnityEngine::TextCore::Text::TextGenerationSettings*, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyle)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x494b9f4;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x69d458c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -342,8 +312,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>>, int32_t, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x494bc30;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x69d47d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -358,8 +328,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ByRef<::UnityEngine::TextCore::Text::TextBackingContainer>, int32_t, ::ByRef<int32_t>)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetStyleHashCode)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x494b908;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x69d449c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -374,8 +344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x494bff0;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x69d4bb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -390,8 +360,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF16)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x494c46c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x69d4fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -406,8 +376,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x494c0d8;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x69d4c9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -422,8 +392,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetUTF32)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x494c528;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x69d5064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -439,8 +409,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(int32_t, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
         &::UnityEngine::TextCore::Text::TextGeneratorUtilities::FillCharacterVertexBuffers)> {
-  constexpr static std::size_t size = 0x99c;
-  constexpr static std::size_t addrs = 0x494c634;
+  constexpr static std::size_t size = 0x1228;
+  constexpr static std::size_t addrs = 0x69d5174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -457,8 +427,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(int32_t, bool, ::UnityEngine::TextCore::Text::TextGenerationSettings*, ::UnityEngine::TextCore::Text::TextInfo*)>(
         &::UnityEngine::TextCore::Text::TextGeneratorUtilities::FillSpriteVertexBuffers)> {
-  constexpr static std::size_t size = 0x8a0;
-  constexpr static std::size_t addrs = 0x494d06c;
+  constexpr static std::size_t size = 0x113c;
+  constexpr static std::size_t addrs = 0x69d6434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -474,8 +444,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, int32_t, float_t, ::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::AdjustLineOffset)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x494d90c;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x69d7570;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -491,8 +461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::TextCore::Text::TextInfo*)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeLineExtents)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x494da8c;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x69d76f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -508,7 +478,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::FontStyles (*)(::UnityEngine::FontStyle)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyStyleToNewStyle)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x494dc38;
+  constexpr static std::size_t addrs = 0x69d78a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -523,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::TextAlignment (*)(::UnityEngine::TextAnchor)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::LegacyAlignmentToNewAlignment)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x494dc48;
+  constexpr static std::size_t addrs = 0x69d78b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -532,12 +502,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetHorizontalAlignment
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::HorizontalAlignment (*)(::UnityEngine::TextAnchor)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetHorizontalAlignment)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x69d78dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "GetHorizontalAlignment", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.GetVerticalAlignment
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::VerticalAlignment (*)(::UnityEngine::TextAnchor)>(
+    &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetVerticalAlignment)> {
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x69d7900;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "GetVerticalAlignment", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.ConvertToUTF32
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToUTF32)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x494dc6c;
+  constexpr static std::size_t addrs = 0x69d7924;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -551,8 +551,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x494dc80;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x69d7938;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -567,8 +567,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetMarkupTagHashCode)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x494c258;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x69d4e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -582,8 +582,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x494c3f8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x69d4f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -596,8 +596,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperASCIIFast)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x494dd84;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x69d7a2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -610,8 +610,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<char16_t (*)(char16_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::ToUpperFast)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x494ddf8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x69d7aac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -625,8 +625,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t, ::ByRef<::ArrayW<float_t, ::Array<float_t>*>>)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GetAttributeParameters)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x494de6c;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x69d7b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -642,8 +642,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::LowLevel::GlyphRenderMode)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBitmapRendering)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x494df50;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x69d7c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -656,8 +656,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsBaseGlyph)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x494df90;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x69d7c48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -672,7 +672,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (*)(::UnityEngine::Color, ::UnityEngine::Color)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::MinAlpha)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x494e0b8;
+  constexpr static std::size_t addrs = 0x69d7dc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -687,8 +687,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color32 (*)(::UnityEngine::Color32)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x494cfd0;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x69d639c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -701,8 +701,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint8_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::GammaToLinear)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x494e0c4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x69d7dd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF16)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x494e174;
+  constexpr static std::size_t addrs = 0x69d7e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -733,7 +733,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::TextCore::Text::TextBackingContainer, int32_t)>(
     &::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF32)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x494e210;
+  constexpr static std::size_t addrs = 0x69d7f10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -743,12 +743,40 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsEmoji
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmoji)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x69d7fac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "IsEmoji",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsEmojiPresentationForm
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmojiPresentationForm)> {
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x69d8034;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "IsEmojiPresentationForm",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::TextGeneratorUtilities.IsHangul
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsHangul)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x494e2ac;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x69d80bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -761,8 +789,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(uint32_t)>(&::UnityEngine::TextCore::Text::TextGeneratorUtilities::IsCJK)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x494e31c;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x69d8150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -787,25 +815,36 @@ inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGeneratorUtilitie
   return ::cordl_internals::getStaticField<::UnityEngine::Vector2, "largeNegativeVector2",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
 }
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_k_EmojiLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiLookup",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>(
+      std::forward<::System::Collections::Generic::HashSet_1<uint32_t>*>(value));
+}
+inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_k_EmojiLookup() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiLookup",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
+}
+inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::setStaticF_k_EmojiPresentationFormLookup(::System::Collections::Generic::HashSet_1<uint32_t>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiPresentationFormLookup",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>(
+      std::forward<::System::Collections::Generic::HashSet_1<uint32_t>*>(value));
+}
+inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::TextGeneratorUtilities::getStaticF_k_EmojiPresentationFormLookup() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::HashSet_1<uint32_t>*, "k_EmojiPresentationFormLookup",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get>();
+}
 inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::Approximately(float_t a, float_t b) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "Approximately", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a, b);
 }
-inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor(::ArrayW<char16_t, ::Array<char16_t>*> hexChars, int32_t tagCount) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "HexCharsToColor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(nullptr, ___internal_method, hexChars, tagCount);
-}
-inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor(::ArrayW<char16_t, ::Array<char16_t>*> hexChars, int32_t startIndex, int32_t length) {
+inline ::UnityEngine::Color32 UnityEngine::TextCore::Text::TextGeneratorUtilities::HexCharsToColor(::ArrayW<char16_t, ::Array<char16_t>*> hexChars, int32_t startIndex, int32_t tagCount) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "HexCharsToColor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<char16_t, ::Array<char16_t>*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(nullptr, ___internal_method, hexChars, startIndex, length);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Color32, false>(nullptr, ___internal_method, hexChars, startIndex, tagCount);
 }
 inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::HexToInt(char16_t hex) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -827,13 +866,6 @@ inline float_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToFlo
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(nullptr, ___internal_method, chars, startIndex, length, lastIndex);
-}
-inline ::UnityEngine::Vector2 UnityEngine::TextCore::Text::TextGeneratorUtilities::PackUV(float_t x, float_t y, float_t scale) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "PackUV", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector2, false>(nullptr, ___internal_method, x, y, scale);
 }
 template <typename T> inline void UnityEngine::TextCore::Text::TextGeneratorUtilities::ResizeInternalArray(::ByRef<::ArrayW<T, ::Array<T>*>> array) {
   static auto* ___internal_method_base =
@@ -1092,6 +1124,18 @@ inline ::UnityEngine::TextCore::Text::TextAlignment UnityEngine::TextCore::Text:
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextAlignment, false>(nullptr, ___internal_method, anchor);
 }
+inline ::UnityEngine::TextCore::HorizontalAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::GetHorizontalAlignment(::UnityEngine::TextAnchor anchor) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "GetHorizontalAlignment", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::HorizontalAlignment, false>(nullptr, ___internal_method, anchor);
+}
+inline ::UnityEngine::TextCore::VerticalAlignment UnityEngine::TextCore::Text::TextGeneratorUtilities::GetVerticalAlignment(::UnityEngine::TextAnchor anchor) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "GetVerticalAlignment", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAnchor>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::VerticalAlignment, false>(nullptr, ___internal_method, anchor);
+}
 inline uint32_t UnityEngine::TextCore::Text::TextGeneratorUtilities::ConvertToUTF32(uint32_t highSurrogate, uint32_t lowSurrogate) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "ConvertToUTF32", std::span<Il2CppClass const* const, 0>(),
@@ -1183,6 +1227,18 @@ inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsValidUTF32(::
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextBackingContainer>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, text, index);
+}
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmoji(uint32_t c) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "IsEmoji",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
+}
+inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsEmojiPresentationForm(uint32_t c) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::TextGeneratorUtilities*>::get(), "IsEmojiPresentationForm",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, c);
 }
 inline bool UnityEngine::TextCore::Text::TextGeneratorUtilities::IsHangul(uint32_t c) {
   static auto* ___internal_method = THROW_UNLESS(

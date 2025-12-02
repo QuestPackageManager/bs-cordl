@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StyleEnumType, ::StringW, ::ByRef<int32_t>)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::TryGetEnumIntValue)> {
-  constexpr static std::size_t size = 0xf78;
-  constexpr static std::size_t addrs = 0x49d0e1c;
+  constexpr static std::size_t size = 0x1260;
+  constexpr static std::size_t addrs = 0x6ad4e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,8 +30,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
         &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsMatchingShorthand)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x49d342c;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x6ad807c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::StyleSheets::StylePropertyId)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyUtil::IsAnimatable)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x49d3598;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6ad826c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,6 +76,24 @@ inline void UnityEngine::UIElements::StyleSheets::StylePropertyUtil::setStaticF_
 inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>*
 UnityEngine::UIElements::StyleSheets::StylePropertyUtil::getStaticF_s_IdToName() {
   return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::StringW>*, "s_IdToName",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>::get>();
+}
+inline void UnityEngine::UIElements::StyleSheets::StylePropertyUtil::setStaticF_s_UssNameToCSharpName(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "s_UssNameToCSharpName",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* UnityEngine::UIElements::StyleSheets::StylePropertyUtil::getStaticF_s_UssNameToCSharpName() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "s_UssNameToCSharpName",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>::get>();
+}
+inline void UnityEngine::UIElements::StyleSheets::StylePropertyUtil::setStaticF_s_CSharpNameToUssName(::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* value) {
+  ::cordl_internals::setStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "s_CSharpNameToUssName",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>::get>(
+      std::forward<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*>(value));
+}
+inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* UnityEngine::UIElements::StyleSheets::StylePropertyUtil::getStaticF_s_CSharpNameToUssName() {
+  return ::cordl_internals::getStaticField<::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>*, "s_CSharpNameToUssName",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::StyleSheets::StylePropertyUtil*>::get>();
 }
 inline void

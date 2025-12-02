@@ -1,239 +1,163 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlatformAuthenticationTokenProvider.hpp"
-#include "BGNet/Core/zzzz__IPlatformAccessTokenFetcher_impl.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_impl.hpp"
-#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_impl.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
-#include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
+#include "BGNet/Core/zzzz__IPlatformAccessTokenFetcher_def.hpp"
 #include "GlobalNamespace/zzzz__AuthenticationToken_def.hpp"
-#include "GlobalNamespace/zzzz__IPlatformUserModel_def.hpp"
+#include "GlobalNamespace/zzzz__IAuthenticationTokenProvider_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformAuthenticationTokenProvider_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformEnvironment_def.hpp"
-#include "GlobalNamespace/zzzz__PlatformUserAuthTokenData_def.hpp"
 #include "GlobalNamespace/zzzz__UserInfo_def.hpp"
 #include "GlobalNamespace/zzzz__XPlatformAccessTokenData_def.hpp"
+#include "OculusStudios/Platform/Core/zzzz__IPlatform_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::*)()>(
-    &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::MoveNext)> {
-  constexpr static std::size_t size = 0x3f4;
-  constexpr static std::size_t addrs = 0x407fa34;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::*)()>(
+    &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::MoveNext)> {
+  constexpr static std::size_t size = 0x434;
+  constexpr static std::size_t addrs = 0x5d2a7b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x407fe28;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5d2abe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::MoveNext() {
+inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AuthenticationToken>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlatformUserAuthTokenData*>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16(
+// "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::AuthenticationToken> __t__builder,
-    ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::PlatformUserAuthTokenData*> __u__1) noexcept {
+    ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__16() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18.MoveNext
+constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12::PlatformAuthenticationTokenProvider__GetAuthenticationToken_d__12() {}
+//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::*)()>(
-    &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::MoveNext)> {
-  constexpr static std::size_t size = 0x3e4;
-  constexpr static std::size_t addrs = 0x407fea4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::*)()>(
+    &::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::MoveNext)> {
+  constexpr static std::size_t size = 0x358;
+  constexpr static std::size_t addrs = 0x5d2ac68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4080288;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::SetStateMachine)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5d2afc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14>::get(),
                                     "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::MoveNext() {
+inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14>::get(),
                                   "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
-// "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "skipCacheRead", ty: "bool",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty: "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty:
-// "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18(
-    int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData> __t__builder, bool skipCacheRead,
-    ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, ::System::Threading::CancellationToken cancellationToken,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1) noexcept {
-  this->__1__state = __1__state;
-  this->__t__builder = __t__builder;
-  this->skipCacheRead = skipCacheRead;
-  this->__4__this = __4__this;
-  this->cancellationToken = cancellationToken;
-  this->__u__1 = __u__1;
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__18() {}
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::*)()>(
-    &::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::MoveNext)> {
-  constexpr static std::size_t size = 0x3d8;
-  constexpr static std::size_t addrs = 0x4080304;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19>::get(),
-                                    "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19.SetStateMachine
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::SetStateMachine)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40806dc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19>::get(),
-                                    "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-    return ___internal_method;
-  }
-};
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19>::get(),
-                                               "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19>::get(),
-                                  "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
-}
-/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
-  return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
-}
-/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
 // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__4__this", ty:
-// "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: Some("{}") }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData>", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19(
+// "::GlobalNamespace::PlatformAuthenticationTokenProvider*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::GlobalNamespace::XPlatformAccessTokenData> __t__builder,
-    ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, ::System::Threading::CancellationToken cancellationToken,
-    ::System::Runtime::CompilerServices::TaskAwaiter_1<::GlobalNamespace::XPlatformAccessTokenData> __u__1) noexcept {
+    ::GlobalNamespace::PlatformAuthenticationTokenProvider* __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__1) noexcept {
   this->__1__state = __1__state;
   this->__t__builder = __t__builder;
   this->__4__this = __4__this;
-  this->cancellationToken = cancellationToken;
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19::PlatformAuthenticationTokenProvider__RequestXPlatformAccessToken_d__19() {}
+constexpr ::GlobalNamespace::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14::PlatformAuthenticationTokenProvider__GetXPlatformAccessToken_d__14() {}
 //  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider.get_hashedUserId
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407f5d4;
+  constexpr static std::size_t addrs = 0x5d2a51c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -247,7 +171,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
     &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_userName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407f5dc;
+  constexpr static std::size_t addrs = 0x5d2a524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -255,17 +179,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider.get_platform
+//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider.get_platformType
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_Platform (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
-    &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_platform)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(
+    &::GlobalNamespace::PlatformAuthenticationTokenProvider::get_platformType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407f5e4;
+  constexpr static std::size_t addrs = 0x5d2a52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
-                                                                               "get_platform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+                                                                               "get_platformType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -273,14 +197,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(
-    ::GlobalNamespace::IPlatformUserModel*, ::GlobalNamespace::UserInfo*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x407f5ec;
+    ::OculusStudios::Platform::Core::IPlatform*, ::GlobalNamespace::UserInfo*)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5d2a534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlatformUserModel*>::get(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::Platform::Core::IPlatform*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UserInfo*>::get() })));
     return ___internal_method;
   }
@@ -290,8 +214,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* (
     ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)()>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetAuthenticationToken)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x407f6dc;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5d2a5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -302,10 +226,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider.GetTokenPlatform
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_Platform (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::AuthenticationToken_PlatformType (::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(
     ::GlobalNamespace::PlatformEnvironment)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetTokenPlatform)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x407f7cc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d2a6d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,8 +243,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
     ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(::System::Threading::CancellationToken, bool)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::GetXPlatformAccessToken)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x407f82c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x5d2a6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -330,32 +254,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PlatformAuthenticationTokenProvider.RequestXPlatformAccessToken
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* (
-    ::GlobalNamespace::PlatformAuthenticationTokenProvider::*)(::System::Threading::CancellationToken)>(&::GlobalNamespace::PlatformAuthenticationTokenProvider::RequestXPlatformAccessToken)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x407f938;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(), "RequestXPlatformAccessToken", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::GlobalNamespace::IPlatformUserModel*& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platformUserModel() {
+constexpr ::OculusStudios::Platform::Core::IPlatform*& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platform() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformUserModel;
+  return this->____platform;
 }
-constexpr ::GlobalNamespace::IPlatformUserModel* const& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platformUserModel() const {
+constexpr ::OculusStudios::Platform::Core::IPlatform* const& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platform() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platformUserModel;
+  return this->____platform;
 }
-constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__platformUserModel(::GlobalNamespace::IPlatformUserModel* value) {
+constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__platform(::OculusStudios::Platform::Core::IPlatform* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platformUserModel)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____platform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::StringW& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__userId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -393,55 +302,17 @@ constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_int
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hashedUserId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::GlobalNamespace::AuthenticationToken_Platform& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platform() {
+constexpr ::GlobalNamespace::AuthenticationToken_PlatformType& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platformType() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
+  return this->____platformType;
 }
-constexpr ::GlobalNamespace::AuthenticationToken_Platform const& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platform() const {
+constexpr ::GlobalNamespace::AuthenticationToken_PlatformType const& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__platformType() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____platform;
+  return this->____platformType;
 }
-constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__platform(::GlobalNamespace::AuthenticationToken_Platform value) {
+constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__platformType(::GlobalNamespace::AuthenticationToken_PlatformType value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____platform = value;
-}
-constexpr ::GlobalNamespace::XPlatformAccessTokenData& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__cachedXPlatformAccessToken() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cachedXPlatformAccessToken;
-}
-constexpr ::GlobalNamespace::XPlatformAccessTokenData const& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__cachedXPlatformAccessToken() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____cachedXPlatformAccessToken;
-}
-constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__cachedXPlatformAccessToken(::GlobalNamespace::XPlatformAccessTokenData value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____cachedXPlatformAccessToken = value;
-}
-constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__xPlatformAccessTokenTask() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____xPlatformAccessTokenTask;
-}
-constexpr ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* const&
-GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__xPlatformAccessTokenTask() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____xPlatformAccessTokenTask;
-}
-constexpr void
-GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__xPlatformAccessTokenTask(::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____xPlatformAccessTokenTask)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr float_t& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__xPlatformTokenRetryDelayExpiration() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____xPlatformTokenRetryDelayExpiration;
-}
-constexpr float_t const& GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_get__xPlatformTokenRetryDelayExpiration() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____xPlatformTokenRetryDelayExpiration;
-}
-constexpr void GlobalNamespace::PlatformAuthenticationTokenProvider::__cordl_internal_set__xPlatformTokenRetryDelayExpiration(float_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____xPlatformTokenRetryDelayExpiration = value;
+  this->____platformType = value;
 }
 inline ::StringW GlobalNamespace::PlatformAuthenticationTokenProvider::get_hashedUserId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
@@ -453,28 +324,28 @@ inline ::StringW GlobalNamespace::PlatformAuthenticationTokenProvider::get_userN
                                                                              "get_userName", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::AuthenticationToken_Platform GlobalNamespace::PlatformAuthenticationTokenProvider::get_platform() {
+inline ::GlobalNamespace::AuthenticationToken_PlatformType GlobalNamespace::PlatformAuthenticationTokenProvider::get_platformType() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
-                                                                             "get_platform", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_Platform, false>(this, ___internal_method);
+                                                                             "get_platformType", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_PlatformType, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel, ::GlobalNamespace::UserInfo* userInfo) {
+inline void GlobalNamespace::PlatformAuthenticationTokenProvider::_ctor(::OculusStudios::Platform::Core::IPlatform* platform, ::GlobalNamespace::UserInfo* userInfo) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IPlatformUserModel*>::get(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::OculusStudios::Platform::Core::IPlatform*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::UserInfo*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, platformUserModel, userInfo);
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, platform, userInfo);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>* GlobalNamespace::PlatformAuthenticationTokenProvider::GetAuthenticationToken() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(),
                                                                              "GetAuthenticationToken", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::AuthenticationToken>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::AuthenticationToken_Platform GlobalNamespace::PlatformAuthenticationTokenProvider::GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) {
+inline ::GlobalNamespace::AuthenticationToken_PlatformType GlobalNamespace::PlatformAuthenticationTokenProvider::GetTokenPlatform(::GlobalNamespace::PlatformEnvironment tokenPlatformEnvironment) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(), "GetTokenPlatform", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::PlatformEnvironment>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_Platform, false>(this, ___internal_method, tokenPlatformEnvironment);
+  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::AuthenticationToken_PlatformType, false>(this, ___internal_method, tokenPlatformEnvironment);
 }
 inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*
 GlobalNamespace::PlatformAuthenticationTokenProvider::GetXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken, bool skipCacheRead) {
@@ -484,16 +355,9 @@ GlobalNamespace::PlatformAuthenticationTokenProvider::GetXPlatformAccessToken(::
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*, false>(this, ___internal_method, cancellationToken, skipCacheRead);
 }
-inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*
-GlobalNamespace::PlatformAuthenticationTokenProvider::RequestXPlatformAccessToken(::System::Threading::CancellationToken cancellationToken) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlatformAuthenticationTokenProvider*>::get(), "RequestXPlatformAccessToken", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Threading::CancellationToken>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Threading::Tasks::Task_1<::GlobalNamespace::XPlatformAccessTokenData>*, false>(this, ___internal_method, cancellationToken);
-}
-inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* GlobalNamespace::PlatformAuthenticationTokenProvider::New_ctor(::GlobalNamespace::IPlatformUserModel* platformUserModel,
+inline ::GlobalNamespace::PlatformAuthenticationTokenProvider* GlobalNamespace::PlatformAuthenticationTokenProvider::New_ctor(::OculusStudios::Platform::Core::IPlatform* platform,
                                                                                                                               ::GlobalNamespace::UserInfo* userInfo) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlatformAuthenticationTokenProvider*>(platformUserModel, userInfo));
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PlatformAuthenticationTokenProvider*>(platform, userInfo));
 }
 /// @brief Convert operator to "::GlobalNamespace::IAuthenticationTokenProvider"
 constexpr GlobalNamespace::PlatformAuthenticationTokenProvider::operator ::GlobalNamespace::IAuthenticationTokenProvider*() noexcept {

@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4605a30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d71c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,12 +38,12 @@ public:
   XboxOneGamepadAndroid(XboxOneGamepadAndroid const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6841 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8898 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid, 0x210>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid, 0x228>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::XboxOneGamepadAndroid);

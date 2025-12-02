@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::LocalAppContextSwitches::get_AllowArbitraryTypeInstantiation)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4135db0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5de0ef8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

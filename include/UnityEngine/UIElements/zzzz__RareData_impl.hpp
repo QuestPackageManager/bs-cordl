@@ -1,21 +1,21 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/RareData.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__Cursor_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__OverflowClipBox_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflowPosition_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TextOverflow_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RareData_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IStyleDataGroup_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::RareData.Copy
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::RareData (::UnityEngine::UIElements::RareData::*)()>(
     &::UnityEngine::UIElements::RareData::Copy)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4a829cc;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6a5a810;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RareData>::get(), "Copy",
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RareData::*)(::ByRef<::UnityEngine::UIElements::RareData>)>(
     &::UnityEngine::UIElements::RareData::CopyFrom)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a829e8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a5a820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UIElements::RareData, ::UnityEngine::UIElements::RareData)>(
     &::UnityEngine::UIElements::RareData::op_Equality)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x4a829fc;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x6a5a828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::RareData::*)(::UnityEngine::UIElements::RareData)>(
     &::UnityEngine::UIElements::RareData::Equals)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4a82b20;
+  constexpr static std::size_t addrs = 0x6a5a948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -73,8 +73,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::RareData::*)(::System::Object*)>(&::UnityEngine::UIElements::RareData::Equals)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a82b64;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6a5a98c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -87,8 +87,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::RareData::*)()>(&::UnityEngine::UIElements::RareData::GetHashCode)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4a82c04;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x6a5aa30;
 
   inline static ::MethodInfo const* methodInfo() {
 

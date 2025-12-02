@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/ResourceRequest.hpp"
 #include "UnityEngine/zzzz__AsyncOperation_impl.hpp"
 #include "UnityEngine/zzzz__ResourceRequest_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ResourceRequest.GetResult
@@ -9,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::ResourceRequest::*)()>(&::UnityEngine::ResourceRequest::GetResult)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48a749c;
+  constexpr static std::size_t addrs = 0x68a5160;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -23,7 +24,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Object> (::UnityEngine::ResourceRequest::*)()>(&::UnityEngine::ResourceRequest::get_asset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x48a7520;
+  constexpr static std::size_t addrs = 0x68a51e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceRequest*>::get(), "get_asset",
@@ -34,13 +35,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ResourceRequest._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceRequest::*)()>(&::UnityEngine::ResourceRequest::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48a752c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ResourceRequest::*)(::System::IntPtr)>(&::UnityEngine::ResourceRequest::_ctor)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x68a51f4;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceRequest*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -78,13 +80,14 @@ inline ::UnityW<::UnityEngine::Object> UnityEngine::ResourceRequest::get_asset()
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Object>, false>(this, ___internal_method);
 }
-inline void UnityEngine::ResourceRequest::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceRequest*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ResourceRequest::_ctor(::System::IntPtr ptr) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ResourceRequest*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ptr);
 }
-inline ::UnityEngine::ResourceRequest* UnityEngine::ResourceRequest::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceRequest*>());
+inline ::UnityEngine::ResourceRequest* UnityEngine::ResourceRequest::New_ctor(::System::IntPtr ptr) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ResourceRequest*>(ptr));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::ResourceRequest::ResourceRequest() {}

@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksUpdater::*)()>(&::GlobalNamespace::BeatmapCallbacksUpdater::LateUpdate)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3adc084;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x56b79b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksUpdater*>::get(), "LateUpdate",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksUpdater::*)()>(&::GlobalNamespace::BeatmapCallbacksUpdater::Pause)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3adc27c;
+  constexpr static std::size_t addrs = 0x56b7bac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksUpdater*>::get(), "Pause",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksUpdater::*)()>(&::GlobalNamespace::BeatmapCallbacksUpdater::Resume)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3adc288;
+  constexpr static std::size_t addrs = 0x56b7bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksUpdater*>::get(), "Resume",
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatmapCallbacksUpdater::*)()>(&::GlobalNamespace::BeatmapCallbacksUpdater::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3adc294;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x56b7bc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapCallbacksUpdater*>::get(), ".ctor",

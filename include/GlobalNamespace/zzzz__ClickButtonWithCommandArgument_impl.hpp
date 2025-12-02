@@ -1,13 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ClickButtonWithCommandArgument.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__ClickButtonWithCommandArgument_def.hpp"
 #include "GlobalNamespace/zzzz__ClickButtonWithCommandArgument_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UI/zzzz__Button_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2._ctor
@@ -15,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)(int32_t)>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x39c0b3c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x563b668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -31,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39c0b6c;
+  constexpr static std::size_t addrs = 0x563b674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x39c0b70;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x563b678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +60,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_Collections_Generic_IEnumerator_System_Object__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c0c38;
+  constexpr static std::size_t addrs = 0x563b738;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +75,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x39c0c40;
+  constexpr static std::size_t addrs = 0x563b740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -91,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument__Start_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c0c78;
+  constexpr static std::size_t addrs = 0x563b778;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -207,8 +206,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::ClickButtonWithCommandArgument::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument::Start)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x39c0adc;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x563b614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClickButtonWithCommandArgument*>::get(),
@@ -221,8 +220,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ClickButtonWithCommandArgument::*)()>(
     &::GlobalNamespace::ClickButtonWithCommandArgument::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39c0b64;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563b670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ClickButtonWithCommandArgument*>::get(),

@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Unity/Jobs/JobHandle.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeSlice_1_def.hpp"
 //  Writing Method size for method: ::Unity::Jobs::JobHandle.Complete
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Jobs::JobHandle::*)()>(&::Unity::Jobs::JobHandle::Complete)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x485fb38;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x682737c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "Complete",
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Jobs::JobHandle::*)()>(&::Unity::Jobs::JobHandle::get_IsCompleted)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485fbc4;
+  constexpr static std::size_t addrs = 0x6827400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "get_IsCompleted",
@@ -35,7 +35,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Unity::Jobs::JobHandle::ScheduleBatchedJobs)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x485fc3c;
+  constexpr static std::size_t addrs = 0x6827478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "ScheduleBatchedJobs",
@@ -48,7 +48,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::ScheduleBatchedJobsAndComplete)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485fb88;
+  constexpr static std::size_t addrs = 0x68273c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -62,7 +62,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::Unity::Jobs::JobHandle>)>(&::Unity::Jobs::JobHandle::ScheduleBatchedJobsAndIsCompleted)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x485fc00;
+  constexpr static std::size_t addrs = 0x682743c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Jobs::JobHandle, ::Unity::Jobs::JobHandle)>(
     &::Unity::Jobs::JobHandle::CombineDependencies)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x485fc64;
+  constexpr static std::size_t addrs = 0x68274a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Collections::NativeArray_1<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependencies)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x485fce8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6827524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::Unity::Collections::NativeSlice_1<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependencies)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x485fda4;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68275d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::ByRef<::Unity::Jobs::JobHandle>, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependenciesInternal2)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x485fc8c;
+  constexpr static std::size_t addrs = 0x68274c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,16 +136,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Unity::Jobs::JobHandle.CombineDependenciesInternalPtr
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(::cordl_internals::Ptr<void>, int32_t)>(
-    &::Unity::Jobs::JobHandle::CombineDependenciesInternalPtr)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (*)(void*, int32_t)>(&::Unity::Jobs::JobHandle::CombineDependenciesInternalPtr)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x485fd48;
+  constexpr static std::size_t addrs = 0x6827578;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "CombineDependenciesInternalPtr", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "CombineDependenciesInternalPtr", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -154,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Unity::Jobs::JobHandle::*)(::Unity::Jobs::JobHandle)>(&::Unity::Jobs::JobHandle::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x485fee4;
+  constexpr static std::size_t addrs = 0x68276e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::Unity::Jobs::JobHandle>, ::ByRef<::Unity::Jobs::JobHandle>, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependenciesInternal2_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x485fe3c;
+  constexpr static std::size_t addrs = 0x682763c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -183,16 +181,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Unity::Jobs::JobHandle.CombineDependenciesInternalPtr_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::cordl_internals::Ptr<void>, int32_t, ::ByRef<::Unity::Jobs::JobHandle>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(void*, int32_t, ::ByRef<::Unity::Jobs::JobHandle>)>(
     &::Unity::Jobs::JobHandle::CombineDependenciesInternalPtr_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x485fe90;
+  constexpr static std::size_t addrs = 0x6827690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "CombineDependenciesInternalPtr_Injected", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::JobHandle>>::get() })));
     return ___internal_method;
   }
@@ -250,11 +247,10 @@ inline ::Unity::Jobs::JobHandle Unity::Jobs::JobHandle::CombineDependenciesInter
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::JobHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(nullptr, ___internal_method, job0, job1);
 }
-inline ::Unity::Jobs::JobHandle Unity::Jobs::JobHandle::CombineDependenciesInternalPtr(::cordl_internals::Ptr<void> jobs, int32_t count) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "CombineDependenciesInternalPtr", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+inline ::Unity::Jobs::JobHandle Unity::Jobs::JobHandle::CombineDependenciesInternalPtr(void* jobs, int32_t count) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "CombineDependenciesInternalPtr", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::Unity::Jobs::JobHandle, false>(nullptr, ___internal_method, jobs, count);
 }
 inline bool Unity::Jobs::JobHandle::Equals(::Unity::Jobs::JobHandle other) {
@@ -271,11 +267,10 @@ inline void Unity::Jobs::JobHandle::CombineDependenciesInternal2_Injected(::ByRe
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::JobHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, job0, job1, ret);
 }
-inline void Unity::Jobs::JobHandle::CombineDependenciesInternalPtr_Injected(::cordl_internals::Ptr<void> jobs, int32_t count, ::ByRef<::Unity::Jobs::JobHandle> ret) {
+inline void Unity::Jobs::JobHandle::CombineDependenciesInternalPtr_Injected(void* jobs, int32_t count, ::ByRef<::Unity::Jobs::JobHandle> ret) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Jobs::JobHandle>::get(), "CombineDependenciesInternalPtr_Injected", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Unity::Jobs::JobHandle>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, jobs, count, ret);
 }

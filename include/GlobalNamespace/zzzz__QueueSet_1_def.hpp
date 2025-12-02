@@ -38,11 +38,14 @@ public:
   /// @brief Method Clear, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void Clear();
 
+  /// @brief Method Contains, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool Contains(T item);
+
   /// @brief Method Dequeue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline T Dequeue();
 
   /// @brief Method Enqueue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void Enqueue(T item);
+  inline bool Enqueue(T item);
 
   static inline ::GlobalNamespace::QueueSet_1<T>* New_ctor();
 
@@ -79,7 +82,7 @@ public:
   QueueSet_1(QueueSet_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20475 };
 
   /// @brief Field _linkedList, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::LinkedList_1<T>* ____linkedList;

@@ -4,12 +4,14 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(CalculateRmsBlockJob)
 namespace Unity::Collections {
 template <typename T> struct NativeArray_1;
+}
+namespace Unity::Jobs {
+class IJob;
 }
 // Forward declare root types
 namespace LufsMetering {
@@ -17,7 +19,7 @@ struct CalculateRmsBlockJob;
 }
 // Write type traits
 MARK_VAL_T(::LufsMetering::CalculateRmsBlockJob);
-// Dependencies Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJob
+// Dependencies Unity.Collections.NativeArray`1<T>
 namespace LufsMetering {
 // Is value type: true
 // CS Name: LufsMetering.CalculateRmsBlockJob
@@ -27,10 +29,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Create, addr 0x3b7386c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x575f00c, size 0xc, virtual false, abstract: false, final false
   static inline ::LufsMetering::CalculateRmsBlockJob Create(::Unity::Collections::NativeArray_1<float_t> inputData);
 
-  /// @brief Method Execute, addr 0x3b73878, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x575f018, size 0xc8, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -45,7 +47,7 @@ public:
   constexpr CalculateRmsBlockJob(::Unity::Collections::NativeArray_1<float_t> inputData, float_t outputData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5408 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7001 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -4,11 +4,7 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(Header)
-namespace System {
-class Object;
-}
 // Forward declare root types
 namespace System::Runtime::Remoting::Messaging {
 class Header;
@@ -22,42 +18,6 @@ namespace System::Runtime::Remoting::Messaging {
 class CORDL_TYPE Header : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field HeaderNamespace, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_HeaderNamespace, put = __cordl_internal_set_HeaderNamespace)) ::StringW HeaderNamespace;
-
-  /// @brief Field MustUnderstand, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_MustUnderstand, put = __cordl_internal_set_MustUnderstand)) bool MustUnderstand;
-
-  /// @brief Field Name, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Name, put = __cordl_internal_set_Name)) ::StringW Name;
-
-  /// @brief Field Value, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value)) ::System::Object* Value;
-
-  constexpr ::StringW const& __cordl_internal_get_HeaderNamespace() const;
-
-  constexpr ::StringW& __cordl_internal_get_HeaderNamespace();
-
-  constexpr bool const& __cordl_internal_get_MustUnderstand() const;
-
-  constexpr bool& __cordl_internal_get_MustUnderstand();
-
-  constexpr ::StringW const& __cordl_internal_get_Name() const;
-
-  constexpr ::StringW& __cordl_internal_get_Name();
-
-  constexpr ::System::Object* const& __cordl_internal_get_Value() const;
-
-  constexpr ::System::Object*& __cordl_internal_get_Value();
-
-  constexpr void __cordl_internal_set_HeaderNamespace(::StringW value);
-
-  constexpr void __cordl_internal_set_MustUnderstand(bool value);
-
-  constexpr void __cordl_internal_set_Name(::StringW value);
-
-  constexpr void __cordl_internal_set_Value(::System::Object* value);
-
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -73,32 +33,12 @@ public:
   Header(Header const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3164 };
-
-  /// @brief Field HeaderNamespace, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___HeaderNamespace;
-
-  /// @brief Field MustUnderstand, offset: 0x18, size: 0x1, def value: None
-  bool ___MustUnderstand;
-
-  /// @brief Field Name, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___Name;
-
-  /// @brief Field Value, offset: 0x28, size: 0x8, def value: None
-  ::System::Object* ___Value;
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3181 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::Header, ___HeaderNamespace) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::Header, ___MustUnderstand) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::Header, ___Name) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::System::Runtime::Remoting::Messaging::Header, ___Value) == 0x28, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::Header, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::Header, 0x10>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::Header);

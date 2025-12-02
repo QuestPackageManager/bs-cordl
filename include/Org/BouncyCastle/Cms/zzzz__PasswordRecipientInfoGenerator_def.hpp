@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__RecipientInfoGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(PasswordRecipientInfoGenerator)
@@ -15,6 +14,9 @@ class AlgorithmIdentifier;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsEnvelopedHelper;
+}
+namespace Org::BouncyCastle::Cms {
+class RecipientInfoGenerator;
 }
 namespace Org::BouncyCastle::Crypto::Parameters {
 class KeyParameter;
@@ -28,7 +30,7 @@ class PasswordRecipientInfoGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator);
-// Dependencies Org.BouncyCastle.Cms.RecipientInfoGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.PasswordRecipientInfoGenerator
@@ -57,7 +59,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::RecipientInfoGenerator"
   constexpr operator ::Org::BouncyCastle::Cms::RecipientInfoGenerator*() noexcept;
 
-  /// @brief Method Generate, addr 0x267cc2c, size 0x4a0, virtual true, abstract: false, final true
+  /// @brief Method Generate, addr 0x35ac0ec, size 0x4c0, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::Cms::RecipientInfo* Generate(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* contentEncryptionKey, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Cms::PasswordRecipientInfoGenerator* New_ctor();
@@ -80,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set_keyEncryptionKeyOID(::StringW value);
 
-  /// @brief Method .ctor, addr 0x267cc0c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35ac0d0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Org::BouncyCastle::Cms::CmsEnvelopedHelper* getStaticF_Helper();
@@ -90,13 +92,13 @@ public:
 
   static inline void setStaticF_Helper(::Org::BouncyCastle::Cms::CmsEnvelopedHelper* value);
 
-  /// @brief Method set_KeyDerivationAlgorithm, addr 0x267cc14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyDerivationAlgorithm, addr 0x35ac0d4, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyDerivationAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
 
-  /// @brief Method set_KeyEncryptionKey, addr 0x267cc1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKey, addr 0x35ac0dc, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* value);
 
-  /// @brief Method set_KeyEncryptionKeyOID, addr 0x267cc24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_KeyEncryptionKeyOID, addr 0x35ac0e4, size 0x8, virtual false, abstract: false, final false
   inline void set_KeyEncryptionKeyOID(::StringW value);
 
 protected:

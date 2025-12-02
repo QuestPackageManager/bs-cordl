@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Mono/zzzz__ISystemDependencyProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(SystemDependencyProvider)
 namespace Mono {
 class ISystemCertificateProvider;
+}
+namespace Mono {
+class ISystemDependencyProvider;
 }
 namespace Mono {
 class SystemCertificateProvider;
@@ -24,7 +26,7 @@ class SystemDependencyProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Mono::SystemDependencyProvider);
-// Dependencies Mono.ISystemDependencyProvider, System.Object
+// Dependencies System.Object
 namespace Mono {
 // Is value type: false
 // CS Name: Mono.SystemDependencyProvider
@@ -50,10 +52,10 @@ public:
   /// @brief Convert operator to "::Mono::ISystemDependencyProvider"
   constexpr operator ::Mono::ISystemDependencyProvider*() noexcept;
 
-  /// @brief Method Initialize, addr 0x41099bc, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5db3a70, size 0x144, virtual false, abstract: false, final false
   static inline void Initialize();
 
-  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x4109b98, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method Mono.ISystemDependencyProvider.get_CertificateProvider, addr 0x5db3c38, size 0x8, virtual true, abstract: false, final true
   inline ::Mono::ISystemCertificateProvider* Mono_ISystemDependencyProvider_get_CertificateProvider();
 
   static inline ::Mono::SystemDependencyProvider* New_ctor();
@@ -64,20 +66,20 @@ public:
 
   constexpr void __cordl_internal_set__CertificateProvider_k__BackingField(::Mono::SystemCertificateProvider* value);
 
-  /// @brief Method .ctor, addr 0x4109b00, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db3bb4, size 0x84, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Mono::SystemDependencyProvider* getStaticF_instance();
 
   static inline ::System::Object* getStaticF_syncRoot();
 
-  /// @brief Method get_CertificateProvider, addr 0x4109ba0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_CertificateProvider, addr 0x5db3c40, size 0x8, virtual false, abstract: false, final false
   inline ::Mono::SystemCertificateProvider* get_CertificateProvider();
 
-  /// @brief Method get_Instance, addr 0x4109960, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_Instance, addr 0x5db3a10, size 0x60, virtual false, abstract: false, final false
   static inline ::Mono::SystemDependencyProvider* get_Instance();
 
-  /// @brief Method get_X509Pal, addr 0x4109ba8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method get_X509Pal, addr 0x5db3c48, size 0x14, virtual false, abstract: false, final false
   inline ::Mono::X509PalImpl* get_X509Pal();
 
   /// @brief Convert to "::Mono::ISystemDependencyProvider"
@@ -102,7 +104,7 @@ public:
   SystemDependencyProvider(SystemDependencyProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10912 };
 
   /// @brief Field <CertificateProvider>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::Mono::SystemCertificateProvider* ____CertificateProvider_k__BackingField;

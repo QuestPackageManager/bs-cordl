@@ -44,13 +44,13 @@ public:
 
   constexpr void __cordl_internal_set__image(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x3bfc4a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57f0544, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_fillAmount, addr 0x3bfc48c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_fillAmount, addr 0x57f052c, size 0x18, virtual false, abstract: false, final false
   inline float_t get_fillAmount();
 
-  /// @brief Method set_fillAmount, addr 0x3bfc368, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_fillAmount, addr 0x57f0408, size 0x44, virtual false, abstract: false, final false
   inline void set_fillAmount(float_t value);
 
 protected:
@@ -68,7 +68,7 @@ public:
   FillIndicator(FillIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4749 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6328 };
 
   /// @brief Field _bgImage, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____bgImage;

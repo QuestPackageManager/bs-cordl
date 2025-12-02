@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectiveListItem::*)(::StringW)>(&::GlobalNamespace::ObjectiveListItem::set_title)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b706e0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x575b7ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectiveListItem::*)(::StringW)>(
     &::GlobalNamespace::ObjectiveListItem::set_conditionText)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b70704;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x575b7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectiveListItem::*)(bool)>(&::GlobalNamespace::ObjectiveListItem::set_hideCondition)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b70728;
+  constexpr static std::size_t addrs = 0x575b7ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -50,8 +50,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ObjectiveListItem::*)()>(&::GlobalNamespace::ObjectiveListItem::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b7075c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x575b820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ObjectiveListItem*>::get(), ".ctor",

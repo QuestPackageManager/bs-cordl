@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "System/Data/SqlTypes/SqlXml.hpp"
-#include "System/Data/SqlTypes/zzzz__INullable_impl.hpp"
-#include "System/Xml/Serialization/zzzz__IXmlSerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Data/SqlTypes/zzzz__SqlXml_def.hpp"
+#include "System/Data/SqlTypes/zzzz__INullable_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchemaSet_def.hpp"
 #include "System/Xml/Schema/zzzz__XmlSchema_def.hpp"
+#include "System/Xml/Serialization/zzzz__IXmlSerializable_def.hpp"
 #include "System/Xml/zzzz__XmlParserContext_def.hpp"
 #include "System/Xml/zzzz__XmlQualifiedName_def.hpp"
 #include "System/Xml/zzzz__XmlReaderSettings_def.hpp"
@@ -18,8 +18,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x41d5680;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5e7f2bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXml*>::get(), ".ctor",
@@ -31,8 +31,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::CreateReader)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x41d56bc;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5e7f2e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXml*>::get(), "CreateReader",
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlReader* (*)(::System::IO::Stream*, bool, bool)>(
     &::System::Data::SqlTypes::SqlXml::CreateSqlXmlReader)> {
   constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x41d59b4;
+  constexpr static std::size_t addrs = 0x5e7f5bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Func_4<::System::IO::Stream*, ::System::Xml::XmlReaderSettings*, ::System::Xml::XmlParserContext*, ::System::Xml::XmlReader*>* (*)()>(
         &::System::Data::SqlTypes::SqlXml::CreateSqlReaderDelegate)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x41d5b6c;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5e7f774;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXml*>::get(),
@@ -75,8 +75,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (*)()>(&::System::Data::SqlTypes::SqlXml::get_CreateSqlReaderMethodInfo)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x41d5890;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5e7f4ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXml*>::get(),
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::get_IsNull)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x41d5810;
+  constexpr static std::size_t addrs = 0x5e7f434;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXml*>::get(), "get_IsNull",
@@ -102,7 +102,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)()>(&::System::Data::SqlTypes::SqlXml::SetNull)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41d56a8;
+  constexpr static std::size_t addrs = 0x5e7f2d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXml*>::get(), "SetNull",
@@ -116,7 +116,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Schema::XmlSchema* (::System::Data::SqlTypes::SqlXml::*)()>(
     &::System::Data::SqlTypes::SqlXml::System_Xml_Serialization_IXmlSerializable_GetSchema)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41d5c64;
+  constexpr static std::size_t addrs = 0x5e7f868;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,8 +130,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)(::System::Xml::XmlReader*)>(
     &::System::Data::SqlTypes::SqlXml::System_Xml_Serialization_IXmlSerializable_ReadXml)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x41d5c6c;
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x5e7f870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,8 +145,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXml::*)(::System::Xml::XmlWriter*)>(
     &::System::Data::SqlTypes::SqlXml::System_Xml_Serialization_IXmlSerializable_WriteXml)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x41d5e3c;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x5e7fa54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -160,8 +160,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlQualifiedName* (*)(::System::Xml::Schema::XmlSchemaSet*)>(
     &::System::Data::SqlTypes::SqlXml::GetXsdType)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x41d5f8c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5e7fbec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

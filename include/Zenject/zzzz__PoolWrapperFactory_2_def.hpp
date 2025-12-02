@@ -4,11 +4,15 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_2_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 CORDL_MODULE_EXPORT(PoolWrapperFactory_2)
 namespace System {
 class Object;
+}
+namespace Zenject {
+template <typename TParam1, typename TValue> class IFactory_2;
+}
+namespace Zenject {
+class IFactory;
 }
 namespace Zenject {
 template <typename TParam1, typename TValue> class IMemoryPool_2;
@@ -22,7 +26,7 @@ template <typename TParam1, typename TValue> class PoolWrapperFactory_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PoolWrapperFactory_2);
-// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`2<TParam1, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TValue>
@@ -81,7 +85,7 @@ public:
   PoolWrapperFactory_2(PoolWrapperFactory_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12417 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14398 };
 
   /// @brief Field _pool, offset: 0x10, size: 0x8, def value: None
   ::Zenject::IMemoryPool_2<TParam1, TValue>* ____pool;

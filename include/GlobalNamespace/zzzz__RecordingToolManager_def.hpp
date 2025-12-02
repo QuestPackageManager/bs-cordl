@@ -24,6 +24,9 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace GlobalNamespace {
+class RecordingSettings;
+}
+namespace GlobalNamespace {
 class RecordingToolConfigurationProcessor;
 }
 namespace GlobalNamespace {
@@ -63,7 +66,7 @@ public:
   constexpr RecordingToolManager_SetupData(bool profileSong, bool runAutopilot) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5146 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6720 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -131,10 +134,13 @@ public:
                                                                   ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                                                                   ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method Run, addr 0x3b2b27c, size 0x534, virtual false, abstract: false, final false
+  /// @brief Method Run, addr 0x570bdec, size 0x2ac, virtual false, abstract: false, final false
   inline void Run();
 
-  /// @brief Method <Run>b__15_0, addr 0x3b2b7b0, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method SetupNextSettings, addr 0x570c098, size 0x360, virtual false, abstract: false, final false
+  inline ::GlobalNamespace::RecordingSettings* SetupNextSettings();
+
+  /// @brief Method <Run>b__15_0, addr 0x570c3f8, size 0x4, virtual false, abstract: false, final false
   inline void _Run_b__15_0(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* StandardLevelScenesTransitionSetupDataSO, ::GlobalNamespace::LevelCompletionResults* LevelCompletionResults);
 
   constexpr ::GlobalNamespace::RecordingToolConfigurationProcessor* const& __cordl_internal_get__configurationProcessor() const;
@@ -197,12 +203,12 @@ public:
 
   constexpr void __cordl_internal_set_recordingToolSettings(::GlobalNamespace::RecordingToolSettings* value);
 
-  /// @brief Method .ctor, addr 0x3b2b164, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x570bd0c, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::GlobalNamespace::RecordingToolConfigurationProcessor* processor, ::GlobalNamespace::BeatmapCharacteristicCollection* beatmapCharacteristicCollection,
                     ::Zenject::DiContainer* diContainer, ::GlobalNamespace::MenuTransitionsHelper* menuTransitionsHelper, ::GlobalNamespace::EnvironmentsListModel* environmentsListModel,
                     ::GlobalNamespace::PlayerDataModel* playerDataModel);
 
-  /// @brief Method get_showRecordingToolScene, addr 0x3b2b150, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_showRecordingToolScene, addr 0x570bcf8, size 0x14, virtual false, abstract: false, final false
   inline bool get_showRecordingToolScene();
 
 protected:
@@ -220,7 +226,7 @@ public:
   RecordingToolManager(RecordingToolManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6721 };
 
   /// @brief Field kRecordingToolId offset 0xffffffff size 0x8
   static constexpr ::ConstString kRecordingToolId{ u"RecordingTool" };

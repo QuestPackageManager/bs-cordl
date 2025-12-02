@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ProgressBar_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::ProgressBar_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a028c8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b30424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ProgressBar_UxmlFactory*>::get(),
@@ -33,8 +33,8 @@ constexpr ::UnityEngine::UIElements::ProgressBar_UxmlFactory::ProgressBar_UxmlFa
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ProgressBar::*)()>(&::UnityEngine::UIElements::ProgressBar::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a02874;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b303cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ProgressBar*>::get(), ".ctor",

@@ -22,7 +22,7 @@ namespace System::Collections::Generic {
 class CORDL_TYPE KeyValuePair : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PairToString, addr 0x3dc92bc, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method PairToString, addr 0x59dcd88, size 0xf0, virtual false, abstract: false, final false
   static inline ::StringW PairToString(::System::Object* key, ::System::Object* value);
 
 protected:
@@ -40,7 +40,7 @@ public:
   KeyValuePair(KeyValuePair const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3854 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3779 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

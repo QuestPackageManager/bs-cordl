@@ -12,6 +12,9 @@ class BeatLineManager;
 namespace GlobalNamespace {
 class EnvironmentSpawnRotation;
 }
+namespace GlobalNamespace {
+class TimeHelper;
+}
 // Forward declare root types
 namespace GlobalNamespace {
 class FlyingGameHUDRotation;
@@ -32,24 +35,27 @@ public:
   __declspec(property(get = __cordl_internal_get__environmentSpawnRotation, put = __cordl_internal_set__environmentSpawnRotation)) ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation>
       _environmentSpawnRotation;
 
-  /// @brief Field _prevYAngle, offset 0x38, size 0x4
+  /// @brief Field _prevYAngle, offset 0x40, size 0x4
   __declspec(property(get = __cordl_internal_get__prevYAngle, put = __cordl_internal_set__prevYAngle)) float_t _prevYAngle;
 
   /// @brief Field _smooth, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__smooth, put = __cordl_internal_set__smooth)) float_t _smooth;
 
-  /// @brief Field _yAngle, offset 0x3c, size 0x4
+  /// @brief Field _timeHelper, offset 0x38, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
+
+  /// @brief Field _yAngle, offset 0x44, size 0x4
   __declspec(property(get = __cordl_internal_get__yAngle, put = __cordl_internal_set__yAngle)) float_t _yAngle;
 
-  /// @brief Method FixedUpdate, addr 0x3b9c730, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method FixedUpdate, addr 0x578afdc, size 0x140, virtual false, abstract: false, final false
   inline void FixedUpdate();
 
-  /// @brief Method LateUpdate, addr 0x3b9c8a8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method LateUpdate, addr 0x578b11c, size 0x48, virtual false, abstract: false, final false
   inline void LateUpdate();
 
   static inline ::GlobalNamespace::FlyingGameHUDRotation* New_ctor();
 
-  /// @brief Method Start, addr 0x3b9c654, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x578aefc, size 0xe0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::BeatLineManager> const& __cordl_internal_get__beatLineManager() const;
@@ -68,6 +74,10 @@ public:
 
   constexpr float_t& __cordl_internal_get__smooth();
 
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
+
   constexpr float_t const& __cordl_internal_get__yAngle() const;
 
   constexpr float_t& __cordl_internal_get__yAngle();
@@ -80,9 +90,11 @@ public:
 
   constexpr void __cordl_internal_set__smooth(float_t value);
 
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
   constexpr void __cordl_internal_set__yAngle(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b9c930, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578b164, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -100,7 +112,7 @@ public:
   FlyingGameHUDRotation(FlyingGameHUDRotation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5945 };
 
   /// @brief Field _smooth, offset: 0x20, size: 0x4, def value: None
   float_t ____smooth;
@@ -111,10 +123,13 @@ public:
   /// @brief Field _environmentSpawnRotation, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::EnvironmentSpawnRotation> ____environmentSpawnRotation;
 
-  /// @brief Field _prevYAngle, offset: 0x38, size: 0x4, def value: None
+  /// @brief Field _timeHelper, offset: 0x38, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
+  /// @brief Field _prevYAngle, offset: 0x40, size: 0x4, def value: None
   float_t ____prevYAngle;
 
-  /// @brief Field _yAngle, offset: 0x3c, size: 0x4, def value: None
+  /// @brief Field _yAngle, offset: 0x44, size: 0x4, def value: None
   float_t ____yAngle;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -126,11 +141,13 @@ static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____beatLineMan
 
 static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____environmentSpawnRotation) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____prevYAngle) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____timeHelper) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____yAngle) == 0x3c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____prevYAngle) == 0x40, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingGameHUDRotation, 0x40>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::FlyingGameHUDRotation, ____yAngle) == 0x44, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::FlyingGameHUDRotation, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::FlyingGameHUDRotation);

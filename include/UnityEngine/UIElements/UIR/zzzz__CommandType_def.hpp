@@ -35,6 +35,9 @@ public:
     __E_BlitToPreviousRT = static_cast<int32_t>(0x9),
     __E_PushDefaultMaterial = static_cast<int32_t>(0xa),
     __E_PopDefaultMaterial = static_cast<int32_t>(0xb),
+    __E_BeginDisable = static_cast<int32_t>(0xc),
+    __E_EndDisable = static_cast<int32_t>(0xd),
+    __E_CutRenderChain = static_cast<int32_t>(0xe),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -54,11 +57,20 @@ public:
   // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
   constexpr CommandType(int32_t value__) noexcept;
 
+  /// @brief Field BeginDisable value: I32(12)
+  static ::UnityEngine::UIElements::UIR::CommandType const BeginDisable;
+
   /// @brief Field BlitToPreviousRT value: I32(9)
   static ::UnityEngine::UIElements::UIR::CommandType const BlitToPreviousRT;
 
+  /// @brief Field CutRenderChain value: I32(14)
+  static ::UnityEngine::UIElements::UIR::CommandType const CutRenderChain;
+
   /// @brief Field Draw value: I32(0)
   static ::UnityEngine::UIElements::UIR::CommandType const Draw;
+
+  /// @brief Field EndDisable value: I32(13)
+  static ::UnityEngine::UIElements::UIR::CommandType const EndDisable;
 
   /// @brief Field Immediate value: I32(2)
   static ::UnityEngine::UIElements::UIR::CommandType const Immediate;
@@ -91,7 +103,7 @@ public:
   static ::UnityEngine::UIElements::UIR::CommandType const PushView;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5384 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

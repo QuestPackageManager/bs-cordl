@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Net/zzzz__IWebRequestCreate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(FileWebRequestCreator)
+namespace System::Net {
+class IWebRequestCreate;
+}
 namespace System::Net {
 class WebRequest;
 }
@@ -18,7 +20,7 @@ class FileWebRequestCreator;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::FileWebRequestCreator);
-// Dependencies System.Net.IWebRequestCreate, System.Object
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.FileWebRequestCreator
@@ -28,12 +30,12 @@ public:
   /// @brief Convert operator to "::System::Net::IWebRequestCreate"
   constexpr operator ::System::Net::IWebRequestCreate*() noexcept;
 
-  /// @brief Method Create, addr 0x44b78e4, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method Create, addr 0x6206894, size 0x5c, virtual true, abstract: false, final true
   inline ::System::Net::WebRequest* Create(::System::Uri* uri);
 
   static inline ::System::Net::FileWebRequestCreator* New_ctor();
 
-  /// @brief Method .ctor, addr 0x44b78dc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6206890, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::Net::IWebRequestCreate"
@@ -54,7 +56,7 @@ public:
   FileWebRequestCreator(FileWebRequestCreator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9656 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11530 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

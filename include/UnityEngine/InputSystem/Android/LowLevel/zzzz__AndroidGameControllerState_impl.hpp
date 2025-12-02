@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Android/LowLevel/AndroidGameControllerState.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_impl.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_impl.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidGameControllerState_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidAxis_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidGameControllerState_def.hpp"
 #include "UnityEngine/InputSystem/Android/LowLevel/zzzz__AndroidKeyCode_def.hpp"
+#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants::*)()>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState_Variants::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46067dc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x638e6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +51,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::FourCC (
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)()>(&::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::get_format)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x46066b8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x638e590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidKeyCode, bool)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithButton)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4606710;
+  constexpr static std::size_t addrs = 0x638e5ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,7 +86,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::*)(::UnityEngine::InputSystem::Android::LowLevel::AndroidAxis, float_t)>(
     &::UnityEngine::InputSystem::Android::LowLevel::AndroidGameControllerState::WithAxis)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4606754;
+  constexpr static std::size_t addrs = 0x638e630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

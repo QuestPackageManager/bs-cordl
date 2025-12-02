@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::TimeSpanFormat_FormatLiterals::*)()>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::get_Start)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3d949a0;
+  constexpr static std::size_t addrs = 0x59a8240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::TimeSpanFormat_FormatLiterals>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::TimeSpanFormat_FormatLiterals::*)()>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::get_DayHourSep)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d949c8;
+  constexpr static std::size_t addrs = 0x59a8268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::TimeSpanFormat_FormatLiterals>::get(),
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::TimeSpanFormat_FormatLiterals::*)()>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::get_HourMinuteSep)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d949f4;
+  constexpr static std::size_t addrs = 0x59a8294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::TimeSpanFormat_FormatLiterals>::get(),
@@ -66,7 +66,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::TimeSpanFormat_FormatLiterals::*)()>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::get_MinuteSecondSep)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d94a20;
+  constexpr static std::size_t addrs = 0x59a82c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::TimeSpanFormat_FormatLiterals>::get(),
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::TimeSpanFormat_FormatLiterals::*)()>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::get_SecondFractionSep)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d94a4c;
+  constexpr static std::size_t addrs = 0x59a82ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::TimeSpanFormat_FormatLiterals>::get(),
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Globalization::TimeSpanFormat_FormatLiterals::*)()>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::get_End)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d94a78;
+  constexpr static std::size_t addrs = 0x59a8318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Globalization::TimeSpanFormat_FormatLiterals>::get(),
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::TimeSpanFormat_FormatLiterals (*)(bool)>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::InitInvariant)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3d94aa4;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x59a83dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Globalization::TimeSpanFormat_FormatLiterals::*)(::System::ReadOnlySpan_1<char16_t>, bool)>(
     &::System::Globalization::TimeSpanFormat_FormatLiterals::Init)> {
-  constexpr static std::size_t size = 0x37c;
-  constexpr static std::size_t addrs = 0x3d94c04;
+  constexpr static std::size_t size = 0x364;
+  constexpr static std::size_t addrs = 0x59a7e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,7 +198,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Text::StringBuilder*, int32_t, int32_t)>(
     &::System::Globalization::TimeSpanFormat::AppendNonNegativeInt32)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3d934e0;
+  constexpr static std::size_t addrs = 0x59a6cc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -213,8 +213,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan, ::StringW, ::System::IFormatProvider*)>(
     &::System::Globalization::TimeSpanFormat::Format)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3d935d8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x59a6dbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -229,8 +229,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::TimeSpan, ::System::Span_1<char16_t>, ::ByRef<int32_t>, ::System::ReadOnlySpan_1<char16_t>,
                                                                                            ::System::IFormatProvider*)>(&::System::Globalization::TimeSpanFormat::TryFormat)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x3d93968;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x59a7188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -247,8 +247,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Text::StringBuilder* (*)(::System::TimeSpan, ::System::ReadOnlySpan_1<char16_t>, ::System::IFormatProvider*)>(&::System::Globalization::TimeSpanFormat::FormatToBuilder)> {
-  constexpr static std::size_t size = 0x2d8;
-  constexpr static std::size_t addrs = 0x3d93690;
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x59a6e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -265,8 +265,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Text::StringBuilder* (*)(::System::TimeSpan, bool, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::TimeSpanFormat_Pattern)>(
         &::System::Globalization::TimeSpanFormat::FormatStandard)> {
-  constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x3d93a88;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x59a729c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -283,8 +283,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Text::StringBuilder* (*)(::System::TimeSpan, ::System::ReadOnlySpan_1<char16_t>, ::System::Globalization::DateTimeFormatInfo*, ::System::Text::StringBuilder*)>(
         &::System::Globalization::TimeSpanFormat::FormatCustomized)> {
-  constexpr static std::size_t size = 0x728;
-  constexpr static std::size_t addrs = 0x3d93f7c;
+  constexpr static std::size_t size = 0x6f8;
+  constexpr static std::size_t addrs = 0x59a773c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

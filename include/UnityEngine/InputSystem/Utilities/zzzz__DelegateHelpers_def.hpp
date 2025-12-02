@@ -24,6 +24,9 @@ template <typename T1, typename T2, typename TResult> class Func_3;
 namespace System {
 class Object;
 }
+namespace Unity::Profiling {
+struct ProfilerMarker;
+}
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TDelegate> struct CallbackArray_1;
 }
@@ -40,8 +43,9 @@ namespace UnityEngine::InputSystem::Utilities {
 class CORDL_TYPE DelegateHelpers : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method InvokeCallbacksSafe, addr 0x4568024, size 0x2bc, virtual false, abstract: false, final false
-  static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::StringW callbackName, ::System::Object* context);
+  /// @brief Method InvokeCallbacksSafe, addr 0x62e2fdc, size 0x2d0, virtual false, abstract: false, final false
+  static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action*>> callbacks, ::Unity::Profiling::ProfilerMarker marker,
+                                         ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
@@ -51,7 +55,7 @@ public:
   /// @brief Method InvokeCallbacksSafe, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue1, typename TValue2>
   static inline void InvokeCallbacksSafe(::ByRef<::UnityEngine::InputSystem::Utilities::CallbackArray_1<::System::Action_2<TValue1, TValue2>*>> callbacks, TValue1 argument1, TValue2 argument2,
-                                         ::StringW callbackName, ::System::Object* context);
+                                         ::Unity::Profiling::ProfilerMarker marker, ::StringW callbackName, ::System::Object* context);
 
   /// @brief Method InvokeCallbacksSafe_AndInvokeReturnedActions, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename TValue>
@@ -83,7 +87,7 @@ public:
   DelegateHelpers(DelegateHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9132 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

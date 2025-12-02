@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "ENet/SslConfiguration.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "ENet/zzzz__SslConfiguration_def.hpp"
 #include "ENet/zzzz__ENetSslConfiguration_def.hpp"
 #include "ENet/zzzz__SslMode_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::ENet::SslConfiguration.get_NativeSslConfiguration
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ENet::ENetSslConfiguration (::ENet::SslConfiguration::*)()>(
     &::ENet::SslConfiguration::get_NativeSslConfiguration)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3aa31e0;
+  constexpr static std::size_t addrs = 0x567c9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_NativeSslConfiguration",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::ENet::ENetSslConfiguration)>(
     &::ENet::SslConfiguration::set_NativeSslConfiguration)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa31f0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x567c9dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::ENet::ENetSslConfiguration)>(&::ENet::SslConfiguration::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa3204;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x567c9e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::Dispose)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3aa3218;
+  constexpr static std::size_t addrs = 0x567c9ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "Dispose",
@@ -66,7 +66,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ENet::SslMode (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3268;
+  constexpr static std::size_t addrs = 0x567ca3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_Mode",
@@ -79,7 +79,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::ENet::SslMode)>(&::ENet::SslConfiguration::set_Mode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3270;
+  constexpr static std::size_t addrs = 0x567ca44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_CertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3278;
+  constexpr static std::size_t addrs = 0x567ca4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_CertificatePath",
@@ -106,7 +106,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_CertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3230;
+  constexpr static std::size_t addrs = 0x567ca04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,7 +120,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3280;
+  constexpr static std::size_t addrs = 0x567ca54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_Certificate",
@@ -133,7 +133,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_Certificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3238;
+  constexpr static std::size_t addrs = 0x567ca0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -147,7 +147,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_PrivateKeyPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3288;
+  constexpr static std::size_t addrs = 0x567ca5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_PrivateKeyPath",
@@ -160,7 +160,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_PrivateKeyPath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3240;
+  constexpr static std::size_t addrs = 0x567ca14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -174,7 +174,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_PrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3290;
+  constexpr static std::size_t addrs = 0x567ca64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_PrivateKey",
@@ -187,7 +187,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_PrivateKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3248;
+  constexpr static std::size_t addrs = 0x567ca1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -201,7 +201,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_ValidateCertificate)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3aa3298;
+  constexpr static std::size_t addrs = 0x567ca6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_ValidateCertificate",
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(bool)>(&::ENet::SslConfiguration::set_ValidateCertificate)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3aa32a8;
+  constexpr static std::size_t addrs = 0x567ca7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,7 +228,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_RootCertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa32b4;
+  constexpr static std::size_t addrs = 0x567ca88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_RootCertificatePath",
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_RootCertificatePath)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3250;
+  constexpr static std::size_t addrs = 0x567ca24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -255,7 +255,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_RootCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa32bc;
+  constexpr static std::size_t addrs = 0x567ca90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_RootCertificate",
@@ -268,7 +268,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_RootCertificate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3258;
+  constexpr static std::size_t addrs = 0x567ca2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,7 +282,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::ENet::SslConfiguration::*)()>(&::ENet::SslConfiguration::get_HostName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa32c4;
+  constexpr static std::size_t addrs = 0x567ca98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::ENet::SslConfiguration>::get(), "get_HostName",
@@ -295,7 +295,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::ENet::SslConfiguration::*)(::StringW)>(&::ENet::SslConfiguration::set_HostName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3aa3260;
+  constexpr static std::size_t addrs = 0x567ca34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

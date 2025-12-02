@@ -32,19 +32,19 @@ public:
   /// @brief Field autoRestart, offset 0x10, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
 
-  /// @brief Field backButtonText, offset 0x38, size 0x8
+  /// @brief Field backButtonText, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText)) ::StringW backButtonText;
 
-  /// @brief Field beatmapKey, offset 0x18, size 0x18
+  /// @brief Field beatmapKey, offset 0x18, size 0x20
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapLevel, offset 0x30, size 0x8
+  /// @brief Field beatmapLevel, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
-  /// @brief Field gameplayModifiers, offset 0x40, size 0x8
+  /// @brief Field gameplayModifiers, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
-  /// @brief Field startPaused, offset 0x48, size 0x1
+  /// @brief Field startPaused, offset 0x50, size 0x1
   __declspec(property(get = __cordl_internal_get_startPaused, put = __cordl_internal_set_startPaused)) bool startPaused;
 
   static inline ::GlobalNamespace::StandardGameplaySceneSetupData* New_ctor(bool autoRestart, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
@@ -86,7 +86,7 @@ public:
 
   constexpr void __cordl_internal_set_startPaused(bool value);
 
-  /// @brief Method .ctor, addr 0x3b3b1ec, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571e958, size 0x20, virtual false, abstract: false, final false
   inline void _ctor(bool autoRestart, ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::StringW backButtonText,
                     ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool startPaused);
 
@@ -105,24 +105,24 @@ public:
   StandardGameplaySceneSetupData(StandardGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6823 };
 
   /// @brief Field autoRestart, offset: 0x10, size: 0x1, def value: None
   bool ___autoRestart;
 
-  /// @brief Field beatmapKey, offset: 0x18, size: 0x18, def value: None
+  /// @brief Field beatmapKey, offset: 0x18, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field beatmapLevel, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field beatmapLevel, offset: 0x38, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
-  /// @brief Field backButtonText, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field backButtonText, offset: 0x40, size: 0x8, def value: None
   ::StringW ___backButtonText;
 
-  /// @brief Field gameplayModifiers, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field gameplayModifiers, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;
 
-  /// @brief Field startPaused, offset: 0x48, size: 0x1, def value: None
+  /// @brief Field startPaused, offset: 0x50, size: 0x1, def value: None
   bool ___startPaused;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -132,15 +132,15 @@ static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___aut
 
 static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapKey) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapLevel) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___beatmapLevel) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___backButtonText) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___backButtonText) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___gameplayModifiers) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___gameplayModifiers) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___startPaused) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StandardGameplaySceneSetupData, ___startPaused) == 0x50, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardGameplaySceneSetupData, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StandardGameplaySceneSetupData, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StandardGameplaySceneSetupData);

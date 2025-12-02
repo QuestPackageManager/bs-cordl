@@ -75,19 +75,19 @@ public:
 
   constexpr void __cordl_internal_set__Message_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3db8008, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59cbe9c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t eventId);
 
-  /// @brief Method set_EventId, addr 0x3db8030, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_EventId, addr 0x59cbea4, size 0x8, virtual false, abstract: false, final false
   inline void set_EventId(int32_t value);
 
-  /// @brief Method set_Keywords, addr 0x3db8040, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Keywords, addr 0x59cbeb4, size 0x8, virtual false, abstract: false, final false
   inline void set_Keywords(::System::Diagnostics::Tracing::EventKeywords value);
 
-  /// @brief Method set_Level, addr 0x3db8038, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Level, addr 0x59cbeac, size 0x8, virtual false, abstract: false, final false
   inline void set_Level(::System::Diagnostics::Tracing::EventLevel value);
 
-  /// @brief Method set_Message, addr 0x3db8048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Message, addr 0x59cbebc, size 0x8, virtual false, abstract: false, final false
   inline void set_Message(::StringW value);
 
 protected:
@@ -105,7 +105,7 @@ public:
   EventAttribute(EventAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3751 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3672 };
 
   /// @brief Field <EventId>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____EventId_k__BackingField;

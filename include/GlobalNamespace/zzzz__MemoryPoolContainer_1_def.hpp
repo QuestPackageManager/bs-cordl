@@ -84,7 +84,7 @@ public:
   MemoryPoolContainer_1(MemoryPoolContainer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16432 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20050 };
 
   /// @brief Field _activeItems, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::LazyCopyHashSet_1<T>* ____activeItems;

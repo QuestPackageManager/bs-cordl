@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteMirrorable_def.hpp"
 CORDL_MODULE_EXPORT(IGameNoteMirrorable)
+namespace GlobalNamespace {
+class INoteMirrorable;
+}
 namespace GlobalNamespace {
 struct NoteData_GameplayType;
 }
@@ -20,7 +22,7 @@ class IGameNoteMirrorable;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IGameNoteMirrorable);
-// Dependencies INoteMirrorable
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: IGameNoteMirrorable
@@ -53,7 +55,7 @@ public:
   IGameNoteMirrorable(IGameNoteMirrorable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5665 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

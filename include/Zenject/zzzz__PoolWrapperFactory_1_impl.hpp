@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Zenject/PoolWrapperFactory_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IFactory_1_impl.hpp"
-#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__PoolWrapperFactory_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Zenject/zzzz__IFactory_1_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 #include "Zenject/zzzz__IMemoryPool_1_def.hpp"
 #include "Zenject/zzzz__InjectTypeInfo_def.hpp"
 template <typename T> constexpr ::Zenject::IMemoryPool_1<T>*& Zenject::PoolWrapperFactory_1<T>::__cordl_internal_get__pool() {

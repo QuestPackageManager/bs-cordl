@@ -37,13 +37,13 @@ public:
 
   static inline ::GlobalNamespace::FlyingCar* New_ctor();
 
-  /// @brief Method Start, addr 0x3b9c550, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x578adc4, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b9c5d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x578ae4c, size 0x98, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdatePos, addr 0x3b9c594, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method UpdatePos, addr 0x578ae08, size 0x44, virtual false, abstract: false, final false
   inline void UpdatePos();
 
   constexpr float_t const& __cordl_internal_get__endZ() const;
@@ -76,7 +76,7 @@ public:
 
   constexpr void __cordl_internal_set__startZ(float_t value);
 
-  /// @brief Method .ctor, addr 0x3b9c638, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x578aee4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -94,7 +94,7 @@ public:
   FlyingCar(FlyingCar const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5944 };
 
   /// @brief Field _startZ, offset: 0x20, size: 0x4, def value: None
   float_t ____startZ;

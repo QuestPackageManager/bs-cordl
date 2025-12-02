@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Threading/QueueUserWorkItemCallback.hpp"
-#include "System/Threading/zzzz__IThreadPoolWorkItem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/zzzz__QueueUserWorkItemCallback_def.hpp"
 #include "System/Threading/zzzz__ContextCallback_def.hpp"
 #include "System/Threading/zzzz__ExecutionContext_def.hpp"
+#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/Threading/zzzz__StackCrawlMark_def.hpp"
 #include "System/Threading/zzzz__ThreadAbortException_def.hpp"
 #include "System/Threading/zzzz__WaitCallback_def.hpp"
@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::QueueUserWorkItemCallback::*)(
     ::System::Threading::WaitCallback*, ::System::Object*, bool, ::ByRef<::System::Threading::StackCrawlMark>)>(&::System::Threading::QueueUserWorkItemCallback::_ctor)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3e5a230;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5a9f844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -31,8 +31,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::QueueUserWorkItemCallback::*)()>(
     &::System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_ExecuteWorkItem)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3e5a2e8;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5a9f8f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::QueueUserWorkItemCallback::*)(::System::Threading::ThreadAbortException*)>(
     &::System::Threading::QueueUserWorkItemCallback::System_Threading_IThreadPoolWorkItem_MarkAborted)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e5a3c0;
+  constexpr static std::size_t addrs = 0x5a9f9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*)>(&::System::Threading::QueueUserWorkItemCallback::WaitCallback_Context)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3e5a3c4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5a9f9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

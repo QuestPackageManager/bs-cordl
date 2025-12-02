@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::get_isEditing)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4700b48;
+  constexpr static std::size_t addrs = 0x6495ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "get_isEditing",
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)(bool)>(&::UnityEngine::ProBuilder::BezierShape::set_isEditing)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4700b50;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6495abc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> (::UnityEngine::ProBuilder::BezierShape::*)()>(
     &::UnityEngine::ProBuilder::BezierShape::get_mesh)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4700b5c;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6495ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "get_mesh",
@@ -52,7 +52,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)(::UnityEngine::ProBuilder::ProBuilderMesh*)>(
     &::UnityEngine::ProBuilder::BezierShape::set_mesh)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4700bf0;
+  constexpr static std::size_t addrs = 0x6495b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::Init)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x4700bf8;
+  constexpr static std::size_t size = 0x268;
+  constexpr static std::size_t addrs = 0x6495b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "Init",
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::Refresh)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4700e4c;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x6495dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), "Refresh",
@@ -91,8 +91,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::BezierShape::*)()>(&::UnityEngine::ProBuilder::BezierShape::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4700f08;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6495ea8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::BezierShape*>::get(), ".ctor",

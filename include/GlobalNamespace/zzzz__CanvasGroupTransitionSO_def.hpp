@@ -87,25 +87,25 @@ public:
 
   constexpr void __cordl_internal_set__selectedAndHighlightedAlpha(float_t value);
 
-  /// @brief Method .ctor, addr 0x44d9790, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6228c4c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledAlpha, addr 0x44d9778, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledAlpha, addr 0x6228c34, size 0x8, virtual false, abstract: false, final false
   inline float_t get_disabledAlpha();
 
-  /// @brief Method get_highlightedAlpha, addr 0x44d9768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedAlpha, addr 0x6228c24, size 0x8, virtual false, abstract: false, final false
   inline float_t get_highlightedAlpha();
 
-  /// @brief Method get_normalAlpha, addr 0x44d9760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalAlpha, addr 0x6228c1c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_normalAlpha();
 
-  /// @brief Method get_pressedAlpha, addr 0x44d9770, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedAlpha, addr 0x6228c2c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_pressedAlpha();
 
-  /// @brief Method get_selectedAlpha, addr 0x44d9780, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAlpha, addr 0x6228c3c, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAlpha();
 
-  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x44d9788, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedAndHighlightedAlpha, addr 0x6228c44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_selectedAndHighlightedAlpha();
 
 protected:
@@ -123,7 +123,7 @@ public:
   CanvasGroupTransitionSO(CanvasGroupTransitionSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22100 };
 
   /// @brief Field _normalAlpha, offset: 0x20, size: 0x4, def value: None
   float_t ____normalAlpha;

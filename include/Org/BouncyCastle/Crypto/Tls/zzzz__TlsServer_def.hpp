@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsServer)
 namespace Org::BouncyCastle::Crypto::Tls {
@@ -28,6 +27,9 @@ namespace Org::BouncyCastle::Crypto::Tls {
 class TlsKeyExchange;
 }
 namespace Org::BouncyCastle::Crypto::Tls {
+class TlsPeer;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
 class TlsServerContext;
 }
 namespace System::Collections {
@@ -42,7 +44,7 @@ class TlsServer;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsServer);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsPeer
+// Dependencies
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsServer

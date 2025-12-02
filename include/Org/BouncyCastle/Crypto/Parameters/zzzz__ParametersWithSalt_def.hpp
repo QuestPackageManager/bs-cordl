@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ParametersWithSalt)
@@ -16,7 +15,7 @@ class ParametersWithSalt;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt);
-// Dependencies Org.BouncyCastle.Crypto.ICipherParameters, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Parameters {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Parameters.ParametersWithSalt
@@ -34,7 +33,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::ICipherParameters"
   constexpr operator ::Org::BouncyCastle::Crypto::ICipherParameters*() noexcept;
 
-  /// @brief Method GetSalt, addr 0x23c0fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetSalt, addr 0x32ef000, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSalt();
 
   static inline ::Org::BouncyCastle::Crypto::Parameters::ParametersWithSalt* New_ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
@@ -54,13 +53,13 @@ public:
 
   constexpr void __cordl_internal_set_salt(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x23c0ef0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32eef5c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
 
-  /// @brief Method .ctor, addr 0x23c0f0c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32eef74, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::ICipherParameters* parameters, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t saltOff, int32_t saltLen);
 
-  /// @brief Method get_Parameters, addr 0x23c0fa8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Parameters, addr 0x32ef008, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::ICipherParameters* get_Parameters();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::ICipherParameters"

@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ExpiringDictionary_2)
@@ -27,13 +22,22 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class Dictionary_2;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -52,7 +56,7 @@ template <typename TKey, typename TValue> class ExpiringDictionary_2__Enumerate_
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ExpiringDictionary_2);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ExpiringDictionary_2_Entry);
 MARK_GEN_REF_PTR_T(::GlobalNamespace::ExpiringDictionary_2__Enumerate_d__14);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -117,7 +121,7 @@ public:
   ExpiringDictionary_2_Entry(ExpiringDictionary_2_Entry const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14736 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18110 };
 
   /// @brief Field key, offset: 0x10, size: 0x8, def value: None
   TKey ___key;
@@ -132,7 +136,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -238,7 +242,7 @@ public:
   ExpiringDictionary_2__Enumerate_d__14(ExpiringDictionary_2__Enumerate_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14737 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18111 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -256,7 +260,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename TKey, typename TValue>
@@ -419,7 +423,7 @@ public:
   ExpiringDictionary_2(ExpiringDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14738 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18112 };
 
   /// @brief Field kMaxReusableEntries offset 0xffffffff size 0x4
   static constexpr int32_t kMaxReusableEntries{ static_cast<int32_t>(0x400) };

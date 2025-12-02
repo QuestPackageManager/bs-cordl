@@ -18,7 +18,7 @@ namespace System::Runtime::CompilerServices {
 class CORDL_TYPE RuntimeFeature : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method get_IsDynamicCodeSupported, addr 0x3d189a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsDynamicCodeSupported, addr 0x5959c5c, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsDynamicCodeSupported();
 
 protected:
@@ -36,7 +36,7 @@ public:
   RuntimeFeature(RuntimeFeature const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3382 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3397 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

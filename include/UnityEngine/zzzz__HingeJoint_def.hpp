@@ -6,6 +6,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Joint_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(HingeJoint)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 struct JointLimits;
 }
@@ -50,80 +53,116 @@ public:
 
   static inline ::UnityEngine::HingeJoint* New_ctor();
 
-  /// @brief Method .ctor, addr 0x490c248, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x695cd58, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_angle, addr 0x490c18c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angle, addr 0x695cb0c, size 0x80, virtual false, abstract: false, final false
   inline float_t get_angle();
 
-  /// @brief Method get_extendedLimits, addr 0x490c050, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_angle_Injected, addr 0x695cb8c, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_angle_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_extendedLimits, addr 0x695c730, size 0x80, virtual false, abstract: false, final false
   inline bool get_extendedLimits();
 
-  /// @brief Method get_limits, addr 0x490bce0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method get_extendedLimits_Injected, addr 0x695c7b0, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_extendedLimits_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_limits, addr 0x695c080, size 0xb8, virtual false, abstract: false, final false
   inline ::UnityEngine::JointLimits get_limits();
 
-  /// @brief Method get_limits_Injected, addr 0x490bd4c, size 0x44, virtual false, abstract: false, final false
-  inline void get_limits_Injected(::ByRef<::UnityEngine::JointLimits> ret);
+  /// @brief Method get_limits_Injected, addr 0x695c138, size 0x44, virtual false, abstract: false, final false
+  static inline void get_limits_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::JointLimits> ret);
 
-  /// @brief Method get_motor, addr 0x490bba8, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_motor, addr 0x695bec0, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::JointMotor get_motor();
 
-  /// @brief Method get_motor_Injected, addr 0x490bc04, size 0x44, virtual false, abstract: false, final false
-  inline void get_motor_Injected(::ByRef<::UnityEngine::JointMotor> ret);
+  /// @brief Method get_motor_Injected, addr 0x695bf60, size 0x44, virtual false, abstract: false, final false
+  static inline void get_motor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::JointMotor> ret);
 
-  /// @brief Method get_spring, addr 0x490be18, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method get_spring, addr 0x695c250, size 0xa0, virtual false, abstract: false, final false
   inline ::UnityEngine::JointSpring get_spring();
 
-  /// @brief Method get_spring_Injected, addr 0x490be74, size 0x44, virtual false, abstract: false, final false
-  inline void get_spring_Injected(::ByRef<::UnityEngine::JointSpring> ret);
+  /// @brief Method get_spring_Injected, addr 0x695c2f0, size 0x44, virtual false, abstract: false, final false
+  static inline void get_spring_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::JointSpring> ret);
 
-  /// @brief Method get_useAcceleration, addr 0x490c1c8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration, addr 0x695cbc8, size 0x80, virtual false, abstract: false, final false
   inline bool get_useAcceleration();
 
-  /// @brief Method get_useLimits, addr 0x490bfd0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useAcceleration_Injected, addr 0x695cc48, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_useAcceleration_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_useLimits, addr 0x695c5a0, size 0x80, virtual false, abstract: false, final false
   inline bool get_useLimits();
 
-  /// @brief Method get_useMotor, addr 0x490bf50, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useLimits_Injected, addr 0x695c620, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_useLimits_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_useMotor, addr 0x695c410, size 0x80, virtual false, abstract: false, final false
   inline bool get_useMotor();
 
-  /// @brief Method get_useSpring, addr 0x490c0d0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useMotor_Injected, addr 0x695c490, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_useMotor_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_useSpring, addr 0x695c8c0, size 0x80, virtual false, abstract: false, final false
   inline bool get_useSpring();
 
-  /// @brief Method get_velocity, addr 0x490c150, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_useSpring_Injected, addr 0x695c940, size 0x3c, virtual false, abstract: false, final false
+  static inline bool get_useSpring_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method get_velocity, addr 0x695ca50, size 0x80, virtual false, abstract: false, final false
   inline float_t get_velocity();
 
-  /// @brief Method set_extendedLimits, addr 0x490c08c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_velocity_Injected, addr 0x695cad0, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_velocity_Injected(::System::IntPtr _unity_self);
+
+  /// @brief Method set_extendedLimits, addr 0x695c7ec, size 0x90, virtual false, abstract: false, final false
   inline void set_extendedLimits(bool value);
 
-  /// @brief Method set_limits, addr 0x490bd90, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_extendedLimits_Injected, addr 0x695c87c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_extendedLimits_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_limits, addr 0x695c17c, size 0x90, virtual false, abstract: false, final false
   inline void set_limits(::UnityEngine::JointLimits value);
 
-  /// @brief Method set_limits_Injected, addr 0x490bdd4, size 0x44, virtual false, abstract: false, final false
-  inline void set_limits_Injected(::ByRef<::UnityEngine::JointLimits> value);
+  /// @brief Method set_limits_Injected, addr 0x695c20c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_limits_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::JointLimits> value);
 
-  /// @brief Method set_motor, addr 0x490bc48, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_motor, addr 0x695bfa4, size 0x98, virtual false, abstract: false, final false
   inline void set_motor(::UnityEngine::JointMotor value);
 
-  /// @brief Method set_motor_Injected, addr 0x490bc9c, size 0x44, virtual false, abstract: false, final false
-  inline void set_motor_Injected(::ByRef<::UnityEngine::JointMotor> value);
+  /// @brief Method set_motor_Injected, addr 0x695c03c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_motor_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::JointMotor> value);
 
-  /// @brief Method set_spring, addr 0x490beb8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method set_spring, addr 0x695c334, size 0x98, virtual false, abstract: false, final false
   inline void set_spring(::UnityEngine::JointSpring value);
 
-  /// @brief Method set_spring_Injected, addr 0x490bf0c, size 0x44, virtual false, abstract: false, final false
-  inline void set_spring_Injected(::ByRef<::UnityEngine::JointSpring> value);
+  /// @brief Method set_spring_Injected, addr 0x695c3cc, size 0x44, virtual false, abstract: false, final false
+  static inline void set_spring_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::JointSpring> value);
 
-  /// @brief Method set_useAcceleration, addr 0x490c204, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration, addr 0x695cc84, size 0x90, virtual false, abstract: false, final false
   inline void set_useAcceleration(bool value);
 
-  /// @brief Method set_useLimits, addr 0x490c00c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useAcceleration_Injected, addr 0x695cd14, size 0x44, virtual false, abstract: false, final false
+  static inline void set_useAcceleration_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_useLimits, addr 0x695c65c, size 0x90, virtual false, abstract: false, final false
   inline void set_useLimits(bool value);
 
-  /// @brief Method set_useMotor, addr 0x490bf8c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useLimits_Injected, addr 0x695c6ec, size 0x44, virtual false, abstract: false, final false
+  static inline void set_useLimits_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_useMotor, addr 0x695c4cc, size 0x90, virtual false, abstract: false, final false
   inline void set_useMotor(bool value);
 
-  /// @brief Method set_useSpring, addr 0x490c10c, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method set_useMotor_Injected, addr 0x695c55c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_useMotor_Injected(::System::IntPtr _unity_self, bool value);
+
+  /// @brief Method set_useSpring, addr 0x695c97c, size 0x90, virtual false, abstract: false, final false
   inline void set_useSpring(bool value);
+
+  /// @brief Method set_useSpring_Injected, addr 0x695ca0c, size 0x44, virtual false, abstract: false, final false
+  static inline void set_useSpring_Injected(::System::IntPtr _unity_self, bool value);
 
 protected:
   // Ctor Parameters []
@@ -140,7 +179,7 @@ public:
   HingeJoint(HingeJoint const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15763 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18602 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

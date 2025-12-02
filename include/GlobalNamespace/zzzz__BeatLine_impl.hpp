@@ -15,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine_Pool::*)()>(&::GlobalNamespace::BeatLine_Pool::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3ad8958;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x56b3cd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine_Pool*>::get(), ".ctor",
@@ -38,8 +38,8 @@ constexpr ::GlobalNamespace::BeatLine_Pool::BeatLine_Pool() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::BeatLine::*)()>(&::GlobalNamespace::BeatLine::get_isFinished)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3ad84dc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x56b3898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "get_isFinished",
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BeatLine::*)()>(&::GlobalNamespace::BeatLine::get_rotation)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ad852c;
+  constexpr static std::size_t addrs = 0x56b38f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), "get_rotation",
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(::UnityEngine::Vector3, float_t)>(&::GlobalNamespace::BeatLine::Init)> {
   constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3ad8534;
+  constexpr static std::size_t addrs = 0x56b38f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,7 +80,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(::UnityEngine::Color)>(&::GlobalNamespace::BeatLine::ColorWasSet)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3ad8600;
+  constexpr static std::size_t addrs = 0x56b39c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(float_t)>(&::GlobalNamespace::BeatLine::AddHighlight)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3ad860c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x56b39d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,8 +107,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)(float_t)>(&::GlobalNamespace::BeatLine::ManualUpdate)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3ad86bc;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x56b3a84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,8 +121,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BeatLine::*)()>(&::GlobalNamespace::BeatLine::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3ad8898;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x56b3c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatLine*>::get(), ".ctor",

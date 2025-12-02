@@ -31,13 +31,13 @@ public:
 
   static inline ::System::MemberAccessException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3ded2e0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a33bb0, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ded360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a33c34, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3ded33c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a33c10, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   MemberAccessException(MemberAccessException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2435 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2440 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

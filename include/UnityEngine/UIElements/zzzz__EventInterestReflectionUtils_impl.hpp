@@ -7,28 +7,34 @@
 #include "UnityEngine/UIElements/zzzz__EventCategory_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventInterestReflectionUtils_def.hpp"
 // Ctor Parameters [CppParam { name: "DefaultActionCategories", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "DefaultActionAtTargetCategories", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }]
+// def_value: Some("{}") }, CppParam { name: "HandleEventTrickleDownCategories", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "HandleEventBubbleUpCategories", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests::EventInterestReflectionUtils_DefaultEventInterests(int32_t DefaultActionCategories,
-                                                                                                                                            int32_t DefaultActionAtTargetCategories) noexcept {
+                                                                                                                                            int32_t DefaultActionAtTargetCategories,
+                                                                                                                                            int32_t HandleEventTrickleDownCategories,
+                                                                                                                                            int32_t HandleEventBubbleUpCategories) noexcept {
   this->DefaultActionCategories = DefaultActionCategories;
   this->DefaultActionAtTargetCategories = DefaultActionAtTargetCategories;
+  this->HandleEventTrickleDownCategories = HandleEventTrickleDownCategories;
+  this->HandleEventBubbleUpCategories = HandleEventBubbleUpCategories;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::EventInterestReflectionUtils_DefaultEventInterests::EventInterestReflectionUtils_DefaultEventInterests() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::EventInterestReflectionUtils.GetDefaultEventInterests
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Type*, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x499e19c;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x6a95f70;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get(),
-                                                                               "GetDefaultEventInterests", std::span<Il2CppClass const* const, 0>(),
-                                                                               ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(),
-                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-                                                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get(), "GetDefaultEventInterests", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 5>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
     return ___internal_method;
   }
 };
@@ -37,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::Type*, ::StringW)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x499e3c8;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6a96294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::EventCategory (*)(::System::Type*)>(
     &::UnityEngine::UIElements::EventInterestReflectionUtils::GetEventCategory)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x499e5cc;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x6a9648c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -85,12 +91,16 @@ inline ::System::Collections::Generic::Dictionary_2<::System::Type*, ::UnityEngi
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get>();
 }
 inline void UnityEngine::UIElements::EventInterestReflectionUtils::GetDefaultEventInterests(::System::Type* elementType, ::ByRef<int32_t> defaultActionCategories,
-                                                                                            ::ByRef<int32_t> defaultActionAtTargetCategories) {
+                                                                                            ::ByRef<int32_t> defaultActionAtTargetCategories, ::ByRef<int32_t> handleEventTrickleDownCategories,
+                                                                                            ::ByRef<int32_t> handleEventBubbleUpCategories) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::EventInterestReflectionUtils*>::get(), "GetDefaultEventInterests", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Type*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, elementType, defaultActionCategories, defaultActionAtTargetCategories);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, elementType, defaultActionCategories, defaultActionAtTargetCategories, handleEventTrickleDownCategories,
+                                                          handleEventBubbleUpCategories);
 }
 inline int32_t UnityEngine::UIElements::EventInterestReflectionUtils::ComputeDefaultEventInterests(::System::Type* elementType, ::StringW methodName) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Newtonsoft/Json/Converters/zzzz__IXmlDeclaration_def.hpp"
-#include "Newtonsoft/Json/Converters/zzzz__IXmlNode_def.hpp"
 #include "Newtonsoft/Json/Converters/zzzz__XmlNodeWrapper_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(XmlDeclarationWrapper)
+namespace Newtonsoft::Json::Converters {
+class IXmlDeclaration;
+}
+namespace Newtonsoft::Json::Converters {
+class IXmlNode;
+}
 namespace System::Xml {
 class XmlDeclaration;
 }
@@ -17,7 +21,7 @@ class XmlDeclarationWrapper;
 }
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::XmlDeclarationWrapper);
-// Dependencies Newtonsoft.Json.Converters.IXmlDeclaration, Newtonsoft.Json.Converters.IXmlNode, Newtonsoft.Json.Converters.XmlNodeWrapper
+// Dependencies Newtonsoft.Json.Converters.XmlNodeWrapper
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: Newtonsoft.Json.Converters.XmlDeclarationWrapper
@@ -47,16 +51,16 @@ public:
 
   constexpr void __cordl_internal_set__declaration(::System::Xml::XmlDeclaration* value);
 
-  /// @brief Method .ctor, addr 0x3f43388, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b8a048, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlDeclaration* declaration);
 
-  /// @brief Method get_Encoding, addr 0x3f439b0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Encoding, addr 0x5b8a5e4, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Encoding();
 
-  /// @brief Method get_Standalone, addr 0x3f439e8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Standalone, addr 0x5b8a628, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Standalone();
 
-  /// @brief Method get_Version, addr 0x3f43994, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Version, addr 0x5b8a5cc, size 0x18, virtual true, abstract: false, final true
   inline ::StringW get_Version();
 
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlDeclaration"
@@ -65,10 +69,10 @@ public:
   /// @brief Convert to "::Newtonsoft::Json::Converters::IXmlNode"
   constexpr ::Newtonsoft::Json::Converters::IXmlNode* i___Newtonsoft__Json__Converters__IXmlNode() noexcept;
 
-  /// @brief Method set_Encoding, addr 0x3f439cc, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Encoding, addr 0x5b8a5fc, size 0x2c, virtual true, abstract: false, final true
   inline void set_Encoding(::StringW value);
 
-  /// @brief Method set_Standalone, addr 0x3f43a04, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method set_Standalone, addr 0x5b8a640, size 0x18, virtual true, abstract: false, final true
   inline void set_Standalone(::StringW value);
 
 protected:
@@ -86,7 +90,7 @@ public:
   XmlDeclarationWrapper(XmlDeclarationWrapper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10486 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13640 };
 
   /// @brief Field _declaration, offset: 0x28, size: 0x8, def value: None
   ::System::Xml::XmlDeclaration* ____declaration;

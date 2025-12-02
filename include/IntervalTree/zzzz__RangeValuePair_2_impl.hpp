@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "IntervalTree/RangeValuePair_2.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 template <typename TKey, typename TValue> inline TKey IntervalTree::RangeValuePair_2<TKey, TValue>::get_From() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::RangeValuePair_2<TKey, TValue>>::get(), "get_From",

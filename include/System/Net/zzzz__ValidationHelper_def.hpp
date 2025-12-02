@@ -29,13 +29,13 @@ public:
   /// @brief Field InvalidParamChars, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_InvalidParamChars, put = setStaticF_InvalidParamChars)) ::ArrayW<char16_t, ::Array<char16_t>*> InvalidParamChars;
 
-  /// @brief Method IsBlankString, addr 0x44a11b4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method IsBlankString, addr 0x61f0b7c, size 0x1c, virtual false, abstract: false, final false
   static inline bool IsBlankString(::StringW stringValue);
 
-  /// @brief Method MakeStringNull, addr 0x449e8b0, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method MakeStringNull, addr 0x61ee234, size 0x14, virtual false, abstract: false, final false
   static inline ::StringW MakeStringNull(::StringW stringValue);
 
-  /// @brief Method ValidateTcpPort, addr 0x44a11d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ValidateTcpPort, addr 0x61f0b98, size 0xc, virtual false, abstract: false, final false
   static inline bool ValidateTcpPort(int32_t port);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_EmptyArray();
@@ -65,7 +65,7 @@ public:
   ValidationHelper(ValidationHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11470 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,13 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__INoteControllerDidInitEvent_def.hpp"
-#include "GlobalNamespace/zzzz__INoteControllerNoteDidStartDissolvingEvent_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(BaseNoteVisuals)
 namespace GlobalNamespace {
 class CutoutAnimateEffect;
+}
+namespace GlobalNamespace {
+class INoteControllerDidInitEvent;
+}
+namespace GlobalNamespace {
+class INoteControllerNoteDidStartDissolvingEvent;
 }
 namespace GlobalNamespace {
 class NoteControllerBase;
@@ -20,7 +24,7 @@ class BaseNoteVisuals;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BaseNoteVisuals);
-// Dependencies INoteControllerDidInitEvent, INoteControllerNoteDidStartDissolvingEvent, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: BaseNoteVisuals
@@ -39,21 +43,21 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
   constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method AnimateCutout, addr 0x3ae62a0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method AnimateCutout, addr 0x56c2020, size 0x24, virtual false, abstract: false, final false
   inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
 
-  /// @brief Method Awake, addr 0x3ae5fa0, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56c1cf8, size 0x14c, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x3ae6274, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerDidInit, addr 0x56c1fe0, size 0x30, virtual true, abstract: false, final true
   inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x3ae6290, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x56c2010, size 0x10, virtual true, abstract: false, final true
   inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
 
   static inline ::GlobalNamespace::BaseNoteVisuals* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3ae60e4, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56c1e44, size 0x19c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
   constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
@@ -68,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase> value);
 
-  /// @brief Method .ctor, addr 0x3ae62cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56c2044, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
@@ -92,7 +96,7 @@ public:
   BaseNoteVisuals(BaseNoteVisuals const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5653 };
 
   /// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;

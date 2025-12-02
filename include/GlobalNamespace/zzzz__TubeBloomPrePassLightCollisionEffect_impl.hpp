@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffect::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffect::Start)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b9a7fc;
+  constexpr static std::size_t addrs = 0x5789148;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightCollisionEffect*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffect::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffect::Update)> {
-  constexpr static std::size_t size = 0x3e0;
-  constexpr static std::size_t addrs = 0x3b9a834;
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x5789180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightCollisionEffect*>::get(),
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TubeBloomPrePassLightCollisionEffect::*)()>(
     &::GlobalNamespace::TubeBloomPrePassLightCollisionEffect::_ctor)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b9ac14;
+  constexpr static std::size_t addrs = 0x5789580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TubeBloomPrePassLightCollisionEffect*>::get(),
@@ -73,6 +73,30 @@ constexpr ::UnityEngine::LayerMask const& GlobalNamespace::TubeBloomPrePassLight
 constexpr void GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_set__environmentLayerMask(::UnityEngine::LayerMask value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____environmentLayerMask = value;
+}
+constexpr bool& GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_get__useScale() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useScale;
+}
+constexpr bool const& GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_get__useScale() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____useScale;
+}
+constexpr void GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_set__useScale(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____useScale = value;
+}
+constexpr ::UnityW<::UnityEngine::Transform>& GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_get__scaleTransform() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scaleTransform;
+}
+constexpr ::UnityW<::UnityEngine::Transform> const& GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_get__scaleTransform() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____scaleTransform;
+}
+constexpr void GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_set__scaleTransform(::UnityW<::UnityEngine::Transform> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____scaleTransform)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr bool& GlobalNamespace::TubeBloomPrePassLightCollisionEffect::__cordl_internal_get__showHitPoint() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

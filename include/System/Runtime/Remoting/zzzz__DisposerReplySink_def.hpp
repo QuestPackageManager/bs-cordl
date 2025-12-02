@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DisposerReplySink)
 namespace System::Runtime::Remoting::Messaging {
@@ -24,7 +23,7 @@ class DisposerReplySink;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::DisposerReplySink);
-// Dependencies System.Object, System.Runtime.Remoting.Messaging.IMessageSink
+// Dependencies System.Object
 namespace System::Runtime::Remoting {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.DisposerReplySink
@@ -40,13 +39,13 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3cd6348, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x591916c, size 0x38, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::DisposerReplySink* New_ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::IDisposable* disposable);
 
-  /// @brief Method SyncProcessMessage, addr 0x3cd622c, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x5919040, size 0x12c, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
   constexpr ::System::IDisposable* const& __cordl_internal_get__disposable() const;
@@ -61,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set__next(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cd6200, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5919038, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessageSink* next, ::System::IDisposable* disposable);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -82,7 +81,7 @@ public:
   DisposerReplySink(DisposerReplySink const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3075 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3092 };
 
   /// @brief Field _next, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ____next;

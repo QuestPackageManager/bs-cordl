@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PosesSerializer.hpp"
-#include "GlobalNamespace/zzzz__IPosesSerializer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__IBeatSaberLogger_def.hpp"
+#include "GlobalNamespace/zzzz__IPosesSerializer_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingData_def.hpp"
 #include "GlobalNamespace/zzzz__PosesRecordingInfoSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingConverter_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::GlobalNamespace::IBeatSaberLogger*)>(
     &::GlobalNamespace::PosesSerializer::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b1b5f4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x56fa8c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(&::GlobalNamespace::PosesSerializer::SaveInfoFile)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3b1b694;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x56fa934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(&::GlobalNamespace::PosesSerializer::SaveDataFile)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x3b1b798;
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x56faa70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(
     &::GlobalNamespace::PosesSerializer::SaveRecordingIntoDirectory)> {
-  constexpr static std::size_t size = 0x290;
-  constexpr static std::size_t addrs = 0x3b1bb00;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x56fada0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingInfoSaveData* (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::LoadInfoFile)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3b1bd90;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x56fb04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::PosesRecordingData_TransformsKeyframe*>* (
     ::GlobalNamespace::PosesSerializer::*)(::StringW)>(&::GlobalNamespace::PosesSerializer::LoadDataFile)> {
-  constexpr static std::size_t size = 0x5f0;
-  constexpr static std::size_t addrs = 0x3b1bf34;
+  constexpr static std::size_t size = 0x588;
+  constexpr static std::size_t addrs = 0x56fb1b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::LoadRecordingFromDirectory)> {
-  constexpr static std::size_t size = 0x2d4;
-  constexpr static std::size_t addrs = 0x3b1c524;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x56fb740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*)>(
     &::GlobalNamespace::PosesSerializer::SaveToOldFormat)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b1c7f8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x56fba1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PosesSerializer::*)(::StringW, ::GlobalNamespace::PosesRecordingData*, bool)>(
     &::GlobalNamespace::PosesSerializer::SaveRecording)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3b1c900;
+  constexpr static std::size_t addrs = 0x56fbb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -152,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::PosesRecordingData* (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::LoadRecording)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3b1c93c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x56fbb6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -166,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PosesSerializer::*)(::StringW)>(&::GlobalNamespace::PosesSerializer::RecordingExists)> {
-  constexpr static std::size_t size = 0x388;
-  constexpr static std::size_t addrs = 0x3b1ca54;
+  constexpr static std::size_t size = 0x374;
+  constexpr static std::size_t addrs = 0x56fbc9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -181,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PosesSerializer::*)(::StringW)>(
     &::GlobalNamespace::PosesSerializer::RecordingCanBeCreated)> {
-  constexpr static std::size_t size = 0x504;
-  constexpr static std::size_t addrs = 0x3b1cddc;
+  constexpr static std::size_t size = 0x524;
+  constexpr static std::size_t addrs = 0x56fc010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -3,7 +3,6 @@
 #include "GlobalNamespace/zzzz__EntitlementStatus_impl.hpp"
 #include "HMUI/zzzz__TableCell_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -24,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell__RefreshAvailabilityAsync_d__26::*)()>(
     &::GlobalNamespace::LevelListTableCell__RefreshAvailabilityAsync_d__26::MoveNext)> {
-  constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x3bfe794;
+  constexpr static std::size_t size = 0x548;
+  constexpr static std::size_t addrs = 0x57f2ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell__RefreshAvailabilityAsync_d__26::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelListTableCell__RefreshAvailabilityAsync_d__26::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bfec24;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57f3018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -94,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell__SetDataFromLevelAsync_d__21::*)()>(
     &::GlobalNamespace::LevelListTableCell__SetDataFromLevelAsync_d__21::MoveNext)> {
-  constexpr static std::size_t size = 0x898;
-  constexpr static std::size_t addrs = 0x3bfec30;
+  constexpr static std::size_t size = 0xa58;
+  constexpr static std::size_t addrs = 0x57f3020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell__SetDataFromLevelAsync_d__21::*)(
     ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::LevelListTableCell__SetDataFromLevelAsync_d__21::SetStateMachine)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bff4c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57f3a78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,8 +166,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::GlobalNamespace::BeatmapLevel*, bool, bool, bool, bool)>(
     &::GlobalNamespace::LevelListTableCell::SetDataFromLevelAsync)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3bfe4fc;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x57f27f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -185,7 +184,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::LevelListTableCell::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bfe5d8;
+  constexpr static std::size_t addrs = 0x57f28e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -200,7 +199,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::HMUI::SelectableCell_TransitionType)>(
     &::GlobalNamespace::LevelListTableCell::HighlightDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bfe6a0;
+  constexpr static std::size_t addrs = 0x57f29a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -214,7 +213,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::RefreshVisuals)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3bfe5dc;
+  constexpr static std::size_t addrs = 0x57f28e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), "RefreshVisuals",
@@ -227,7 +226,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::WasPreparedForReuse)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bfe6a4;
+  constexpr static std::size_t addrs = 0x57f29ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -241,8 +240,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)(::GlobalNamespace::IEntitlementModel*, ::StringW)>(
     &::GlobalNamespace::LevelListTableCell::RefreshAvailabilityAsync)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3bfe6e0;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x57f2a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,8 +255,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::CancelAsyncOperations)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3bfe6a8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x57f29b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(),
@@ -270,7 +269,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelListTableCell::*)()>(&::GlobalNamespace::LevelListTableCell::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bfe784;
+  constexpr static std::size_t addrs = 0x57f2ac0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelListTableCell*>::get(), ".ctor",

@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/IO/FileStreamAsyncResult.hpp"
-#include "System/zzzz__IAsyncResult_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/IO/zzzz__FileStreamAsyncResult_def.hpp"
 #include "System/Threading/zzzz__ManualResetEvent_def.hpp"
@@ -13,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::FileStreamAsyncResult::*)(::System::AsyncCallback*, ::System::Object*)>(
     &::System::IO::FileStreamAsyncResult::_ctor)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3d7df78;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5a06bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IAsyncResult*)>(&::System::IO::FileStreamAsyncResult::CBWrapper)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3d7e044;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5a07b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -43,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::IO::FileStreamAsyncResult::*)()>(&::System::IO::FileStreamAsyncResult::get_AsyncState)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d7e0d8;
+  constexpr static std::size_t addrs = 0x5a07bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(), "get_AsyncState",
@@ -56,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::FileStreamAsyncResult::*)()>(&::System::IO::FileStreamAsyncResult::get_CompletedSynchronously)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d7e0e0;
+  constexpr static std::size_t addrs = 0x5a07c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(),
@@ -70,7 +69,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::WaitHandle* (::System::IO::FileStreamAsyncResult::*)()>(
     &::System::IO::FileStreamAsyncResult::get_AsyncWaitHandle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d7e0e8;
+  constexpr static std::size_t addrs = 0x5a07c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(),
@@ -83,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::IO::FileStreamAsyncResult::*)()>(&::System::IO::FileStreamAsyncResult::get_IsCompleted)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d7e0f0;
+  constexpr static std::size_t addrs = 0x5a07c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::IO::FileStreamAsyncResult*>::get(), "get_IsCompleted",

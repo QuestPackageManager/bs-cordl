@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/Messaging/IMethodReturnMessage.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_impl.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_impl.hpp"
 #include "System/Runtime/Remoting/Messaging/zzzz__IMethodReturnMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
+#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "System/zzzz__Exception_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::System::Runtime::Remoting::Messaging::IMethodReturnMessage.get_Exception

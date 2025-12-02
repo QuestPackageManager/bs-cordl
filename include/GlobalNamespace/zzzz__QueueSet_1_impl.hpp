@@ -33,11 +33,11 @@ template <typename T> inline int32_t GlobalNamespace::QueueSet_1<T>::get_Count()
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-template <typename T> inline void GlobalNamespace::QueueSet_1<T>::Enqueue(T item) {
+template <typename T> inline bool GlobalNamespace::QueueSet_1<T>::Enqueue(T item) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QueueSet_1<T>*>::get(), "Enqueue", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, item);
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
 template <typename T> inline T GlobalNamespace::QueueSet_1<T>::Dequeue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QueueSet_1<T>*>::get(), "Dequeue",
@@ -48,6 +48,12 @@ template <typename T> inline void GlobalNamespace::QueueSet_1<T>::Clear() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QueueSet_1<T>*>::get(), "Clear",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline bool GlobalNamespace::QueueSet_1<T>::Contains(T item) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QueueSet_1<T>*>::get(), "Contains", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
 template <typename T> inline void GlobalNamespace::QueueSet_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::QueueSet_1<T>*>::get(), ".ctor",

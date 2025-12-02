@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__TableView_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -34,6 +33,9 @@ namespace HMUI {
 class TableCell;
 }
 namespace HMUI {
+class TableView_IDataSource;
+}
+namespace HMUI {
 class TableView;
 }
 namespace System::Collections::Generic {
@@ -54,7 +56,7 @@ class GameServerPlayersTableView;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameServerPlayersTableView);
-// Dependencies HMUI.TableView::IDataSource, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: GameServerPlayersTableView
@@ -131,37 +133,37 @@ public:
   /// @brief Convert operator to "::HMUI::TableView_IDataSource"
   constexpr operator ::HMUI::TableView_IDataSource*() noexcept;
 
-  /// @brief Method CellForIdx, addr 0x3b007dc, size 0x4f0, virtual true, abstract: false, final true
+  /// @brief Method CellForIdx, addr 0x56e25d4, size 0x504, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::TableCell> CellForIdx(::HMUI::TableView* tableView, int32_t idx);
 
-  /// @brief Method CellSize, addr 0x3b00668, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method CellSize, addr 0x56e2440, size 0xc, virtual true, abstract: false, final true
   inline float_t CellSize(int32_t idx);
 
-  /// @brief Method GetCurrentPrefab, addr 0x3b00740, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method GetCurrentPrefab, addr 0x56e2538, size 0x9c, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::GameServerPlayerTableCell> GetCurrentPrefab();
 
-  /// @brief Method HandleCellKickPlayer, addr 0x3b013c0, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method HandleCellKickPlayer, addr 0x56e3210, size 0x10c, virtual false, abstract: false, final false
   inline void HandleCellKickPlayer(int32_t idx);
 
-  /// @brief Method HandleCellUseBeatmap, addr 0x3b00e34, size 0x338, virtual false, abstract: false, final false
+  /// @brief Method HandleCellUseBeatmap, addr 0x56e2c54, size 0x350, virtual false, abstract: false, final false
   inline void HandleCellUseBeatmap(int32_t idx);
 
-  /// @brief Method HandleCellUseModifiers, addr 0x3b0116c, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method HandleCellUseModifiers, addr 0x56e2fa4, size 0x26c, virtual false, abstract: false, final false
   inline void HandleCellUseModifiers(int32_t idx);
 
-  /// @brief Method Init, addr 0x3b01578, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x56e331c, size 0x3c, virtual false, abstract: false, final false
   inline void Init();
 
   static inline ::GlobalNamespace::GameServerPlayersTableView* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x3b00674, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x56e244c, size 0x50, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetData, addr 0x3b014bc, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method SetData, addr 0x56d6500, size 0xbc, virtual false, abstract: false, final false
   inline void SetData(::System::Collections::Generic::List_1<::GlobalNamespace::IConnectedPlayer*>* sortedPlayers, ::GlobalNamespace::ILobbyPlayersDataModel* lobbyPlayersDataModel,
                       bool hasKickPermissions, bool allowSelection, bool showSongSelection, bool showModifierSelection, bool clearSelection);
 
-  /// @brief Method TryGetLobbyPlayerData, addr 0x3b00ccc, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method TryGetLobbyPlayerData, addr 0x56e2ad8, size 0x17c, virtual false, abstract: false, final false
   inline bool TryGetLobbyPlayerData(int32_t idx, ::ByRef<::GlobalNamespace::IConnectedPlayer*> player, ::ByRef<::GlobalNamespace::ILobbyPlayerData*> playerData);
 
   constexpr bool const& __cordl_internal_get__allowSelection() const;
@@ -278,31 +280,31 @@ public:
 
   constexpr void __cordl_internal_set_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method .ctor, addr 0x3b015bc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e3358, size 0x14, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_kickPlayerEvent, addr 0x3b00508, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_kickPlayerEvent, addr 0x56d5914, size 0xc0, virtual false, abstract: false, final false
   inline void add_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x3b003a8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedGameplayModifiersEvent, addr 0x56d5854, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method add_selectSuggestedLevelEvent, addr 0x3b00248, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_selectSuggestedLevelEvent, addr 0x56d5794, size 0xc0, virtual false, abstract: false, final false
   inline void add_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
-  /// @brief Method get_currentCellId, addr 0x3b006bc, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method get_currentCellId, addr 0x56e249c, size 0x9c, virtual false, abstract: false, final false
   inline ::StringW get_currentCellId();
 
   /// @brief Convert to "::HMUI::TableView_IDataSource"
   constexpr ::HMUI::TableView_IDataSource* i___HMUI__TableView_IDataSource() noexcept;
 
-  /// @brief Method remove_kickPlayerEvent, addr 0x3b005b8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_kickPlayerEvent, addr 0x56d6434, size 0xc0, virtual false, abstract: false, final false
   inline void remove_kickPlayerEvent(::System::Action_1<::StringW>* value);
 
-  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x3b00458, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedGameplayModifiersEvent, addr 0x56d6374, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedGameplayModifiersEvent(::System::Action_1<::GlobalNamespace::GameplayModifiers*>* value);
 
-  /// @brief Method remove_selectSuggestedLevelEvent, addr 0x3b002f8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_selectSuggestedLevelEvent, addr 0x56d62b4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_selectSuggestedLevelEvent(::System::Action_1<::GlobalNamespace::BeatmapKey>* value);
 
 protected:
@@ -320,7 +322,7 @@ public:
   GameServerPlayersTableView(GameServerPlayersTableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4977 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6560 };
 
   /// @brief Field kCellId offset 0xffffffff size 0x8
   static constexpr ::ConstString kCellId{ u"Cell" };

@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::InternalEncoderBestFitFallback::*)(::System::Text::Encoding*)>(
     &::System::Text::InternalEncoderBestFitFallback::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c78790;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x58bccf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallbackBuffer* (::System::Text::InternalEncoderBestFitFallback::*)()>(
     &::System::Text::InternalEncoderBestFitFallback::CreateFallbackBuffer)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c787c0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x58bccfc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::InternalEncoderBestFitFallback::*)()>(
     &::System::Text::InternalEncoderBestFitFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c7893c;
+  constexpr static std::size_t addrs = 0x58bce70;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::InternalEncoderBestFitFallback::*)(::System::Object*)>(
     &::System::Text::InternalEncoderBestFitFallback::Equals)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3c78944;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x58bce78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::InternalEncoderBestFitFallback::*)()>(
     &::System::Text::InternalEncoderBestFitFallback::GetHashCode)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c78a08;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x58bcf44;
 
   inline static ::MethodInfo const* methodInfo() {
 

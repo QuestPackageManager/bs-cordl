@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
@@ -18,6 +17,9 @@ namespace System {
 struct Handles;
 }
 namespace System {
+class IConsoleDriver;
+}
+namespace System {
 struct InputRecord;
 }
 namespace System {
@@ -29,7 +31,7 @@ class WindowsConsoleDriver;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::WindowsConsoleDriver);
-// Dependencies System.IConsoleDriver, System.IntPtr, System.Object
+// Dependencies System.IntPtr, System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.WindowsConsoleDriver
@@ -48,21 +50,21 @@ public:
   /// @brief Convert operator to "::System::IConsoleDriver"
   constexpr operator ::System::IConsoleDriver*() noexcept;
 
-  /// @brief Method GetConsoleScreenBufferInfo, addr 0x3e458a0, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method GetConsoleScreenBufferInfo, addr 0x5a8a8e8, size 0x94, virtual false, abstract: false, final false
   static inline bool GetConsoleScreenBufferInfo(::System::IntPtr handle, ::ByRef<::System::ConsoleScreenBufferInfo> info);
 
-  /// @brief Method GetStdHandle, addr 0x3e4581c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method GetStdHandle, addr 0x5a8a864, size 0x84, virtual false, abstract: false, final false
   static inline ::System::IntPtr GetStdHandle(::System::Handles handle);
 
-  /// @brief Method IsModifierKey, addr 0x3e45b74, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method IsModifierKey, addr 0x5a8abc4, size 0x34, virtual false, abstract: false, final false
   static inline bool IsModifierKey(int16_t virtualKeyCode);
 
   static inline ::System::WindowsConsoleDriver* New_ctor();
 
-  /// @brief Method ReadConsoleInput, addr 0x3e45a6c, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method ReadConsoleInput, addr 0x5a8aabc, size 0x108, virtual false, abstract: false, final false
   static inline bool ReadConsoleInput(::System::IntPtr handle, ::ByRef<::System::InputRecord> record, int32_t length, ::ByRef<int32_t> nread);
 
-  /// @brief Method ReadKey, addr 0x3e45934, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x5a8a97c, size 0x140, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
   constexpr int16_t const& __cordl_internal_get_defaultAttribute() const;
@@ -83,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set_outputHandle(::System::IntPtr value);
 
-  /// @brief Method .ctor, addr 0x3e457c8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a8a818, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IConsoleDriver"
@@ -104,7 +106,7 @@ public:
   WindowsConsoleDriver(WindowsConsoleDriver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2659 };
 
   /// @brief Field inputHandle, offset: 0x10, size: 0x8, def value: None
   ::System::IntPtr ___inputHandle;

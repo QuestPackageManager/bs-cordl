@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::*)(::Org::BouncyCastle::Bcpg::BcpgInputStream*)>(
     &::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x26460f8;
+  constexpr static std::size_t addrs = 0x3575a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::_ctor)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2648b88;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x3578450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::*)()>(
     &::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::GetDigest)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2648c84;
+  constexpr static std::size_t addrs = 0x3578534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Bcpg::ModDetectionCodePacket*>::get(),
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::*)(::Org::BouncyCastle::Bcpg::BcpgOutputStream*)>(
     &::Org::BouncyCastle::Bcpg::ModDetectionCodePacket::Encode)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2648cfc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x35785ac;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(DHBasicKeyPairGenerator)
 namespace Org::BouncyCastle::Crypto::Parameters {
@@ -11,6 +10,9 @@ class DHKeyGenerationParameters;
 }
 namespace Org::BouncyCastle::Crypto {
 class AsymmetricCipherKeyPair;
+}
+namespace Org::BouncyCastle::Crypto {
+class IAsymmetricCipherKeyPairGenerator;
 }
 namespace Org::BouncyCastle::Crypto {
 class KeyGenerationParameters;
@@ -21,7 +23,7 @@ class DHBasicKeyPairGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator);
-// Dependencies Org.BouncyCastle.Crypto.IAsymmetricCipherKeyPairGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Generators.DHBasicKeyPairGenerator
@@ -34,10 +36,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0x2381c10, size 0x138, virtual true, abstract: false, final false
+  /// @brief Method GenerateKeyPair, addr 0x32af588, size 0x14c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
 
-  /// @brief Method Init, addr 0x2381b6c, size 0xa4, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x32af4d4, size 0xb4, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Generators::DHBasicKeyPairGenerator* New_ctor();
@@ -48,7 +50,7 @@ public:
 
   constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* value);
 
-  /// @brief Method .ctor, addr 0x2381f38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32af8d4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"

@@ -3,16 +3,21 @@
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__SubMeshDescriptor_impl.hpp"
+#include "UnityEngine/zzzz__Color_impl.hpp"
+#include "UnityEngine/zzzz__Matrix4x4_impl.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomFogSO_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassLightTypeSO_def.hpp"
-#include "GlobalNamespace/zzzz__BloomPrePassLight_def.hpp"
 #include "GlobalNamespace/zzzz__BloomPrePassRendererSO_def.hpp"
 #include "GlobalNamespace/zzzz__IBloomPrePassParams_def.hpp"
 #include "GlobalNamespace/zzzz__ToneMapping_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/Rendering/zzzz__CommandBuffer_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
+#include "UnityEngine/zzzz__ComputeBuffer_def.hpp"
+#include "UnityEngine/zzzz__ComputeShader_def.hpp"
+#include "UnityEngine/zzzz__GraphicsBuffer_def.hpp"
 #include "UnityEngine/zzzz__Matrix4x4_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__RenderTexture_def.hpp"
@@ -20,13 +25,67 @@
 #include "UnityEngine/zzzz__Texture_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO_InputData.GetSize
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)()>(&::GlobalNamespace::BloomPrePassRendererSO_InputData::GetSize)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5651ca4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_InputData>::get(),
+                                                                               "GetSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+inline int32_t GlobalNamespace::BloomPrePassRendererSO_InputData::GetSize() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_InputData>::get(),
+                                                                             "GetSize", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method);
+}
+// Ctor Parameters [CppParam { name: "limitAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "useCollision", ty: "float_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "minAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "maxAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "startAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "endAlpha", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "length", ty: "float_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "calculatedLength", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "multiplyLengthByAlphaBloomFogMultiplier", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "multiplyLengthByAlphaMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "center", ty:
+// "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "lightWidthMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "startWidth", ty: "float_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "endWidth", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "boostToWhite", ty: "float_t", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "bloomFogIntensityMultiplier", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "localToWorldMatrix", ty: "::UnityEngine::Matrix4x4", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::BloomPrePassRendererSO_InputData::BloomPrePassRendererSO_InputData(float_t limitAlpha, float_t useCollision, float_t minAlpha, float_t maxAlpha, float_t startAlpha,
+                                                                                                float_t endAlpha, float_t length, float_t calculatedLength,
+                                                                                                float_t multiplyLengthByAlphaBloomFogMultiplier, float_t multiplyLengthByAlphaMultiplier,
+                                                                                                float_t center, float_t lightWidthMultiplier, float_t startWidth, float_t endWidth,
+                                                                                                float_t boostToWhite, float_t bloomFogIntensityMultiplier, ::UnityEngine::Color color,
+                                                                                                ::UnityEngine::Matrix4x4 localToWorldMatrix) noexcept {
+  this->limitAlpha = limitAlpha;
+  this->useCollision = useCollision;
+  this->minAlpha = minAlpha;
+  this->maxAlpha = maxAlpha;
+  this->startAlpha = startAlpha;
+  this->endAlpha = endAlpha;
+  this->length = length;
+  this->calculatedLength = calculatedLength;
+  this->multiplyLengthByAlphaBloomFogMultiplier = multiplyLengthByAlphaBloomFogMultiplier;
+  this->multiplyLengthByAlphaMultiplier = multiplyLengthByAlphaMultiplier;
+  this->center = center;
+  this->lightWidthMultiplier = lightWidthMultiplier;
+  this->startWidth = startWidth;
+  this->endWidth = endWidth;
+  this->boostToWhite = boostToWhite;
+  this->bloomFogIntensityMultiplier = bloomFogIntensityMultiplier;
+  this->color = color;
+  this->localToWorldMatrix = localToWorldMatrix;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::BloomPrePassRendererSO_InputData::BloomPrePassRendererSO_InputData() {}
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO_PreallocationData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_PreallocationData::*)()>(
     &::GlobalNamespace::BloomPrePassRendererSO_PreallocationData::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x39da14c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5651cac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -70,13 +129,43 @@ inline ::GlobalNamespace::BloomPrePassRendererSO_PreallocationData* GlobalNamesp
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRendererSO_PreallocationData::BloomPrePassRendererSO_PreallocationData() {}
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData.Prepare
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::*)(int32_t)>(
+    &::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::Prepare)> {
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x565161c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>::get(), "Prepare",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData.Dispose
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::*)()>(
+    &::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::Dispose)> {
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5650bb4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>::get(), "Dispose",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::*)()>(
     &::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39d9180;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5650834;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,21 +186,6 @@ constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<::GlobalNamespace::BloomPrePassLight_QuadData, ::Array<::GlobalNamespace::BloomPrePassLight_QuadData>*>&
-GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_lightQuads() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lightQuads;
-}
-constexpr ::ArrayW<::GlobalNamespace::BloomPrePassLight_QuadData, ::Array<::GlobalNamespace::BloomPrePassLight_QuadData>*> const&
-GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_lightQuads() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lightQuads;
-}
-constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_lightQuads(
-    ::ArrayW<::GlobalNamespace::BloomPrePassLight_QuadData, ::Array<::GlobalNamespace::BloomPrePassLight_QuadData>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lightQuads)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
 constexpr ::UnityEngine::Rendering::SubMeshDescriptor& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_subMeshDescriptor() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___subMeshDescriptor;
@@ -124,6 +198,93 @@ constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__co
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___subMeshDescriptor = value;
 }
+constexpr ::UnityEngine::GraphicsBuffer*& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_vertexDataBuffer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___vertexDataBuffer;
+}
+constexpr ::UnityEngine::GraphicsBuffer* const& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_vertexDataBuffer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___vertexDataBuffer;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_vertexDataBuffer(::UnityEngine::GraphicsBuffer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___vertexDataBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::ComputeBuffer*& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_inputDataBuffer() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___inputDataBuffer;
+}
+constexpr ::UnityEngine::ComputeBuffer* const& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_inputDataBuffer() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___inputDataBuffer;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_inputDataBuffer(::UnityEngine::ComputeBuffer* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputDataBuffer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData, ::Array<::GlobalNamespace::BloomPrePassRendererSO_InputData>*>&
+GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_inputData() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___inputData;
+}
+constexpr ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData, ::Array<::GlobalNamespace::BloomPrePassRendererSO_InputData>*> const&
+GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_inputData() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___inputData;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_inputData(
+    ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_InputData, ::Array<::GlobalNamespace::BloomPrePassRendererSO_InputData>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___inputData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::UnityEngine::ComputeShader>& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_computeShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___computeShader;
+}
+constexpr ::UnityW<::UnityEngine::ComputeShader> const& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_computeShader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___computeShader;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_computeShader(::UnityW<::UnityEngine::ComputeShader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___computeShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr int32_t& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_computeShaderKernel() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___computeShaderKernel;
+}
+constexpr int32_t const& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_computeShaderKernel() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___computeShaderKernel;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_computeShaderKernel(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___computeShaderKernel = value;
+}
+constexpr int32_t& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_computeShaderGroupSize() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___computeShaderGroupSize;
+}
+constexpr int32_t const& GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_get_computeShaderGroupSize() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___computeShaderGroupSize;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::__cordl_internal_set_computeShaderGroupSize(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___computeShaderGroupSize = value;
+}
+inline void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::Prepare(int32_t numberOfLights) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>::get(), "Prepare",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, numberOfLights);
+}
+inline void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::Dispose() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>::get(), "Dispose",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::_ctor() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>::get(), ".ctor",
@@ -133,14 +294,22 @@ inline void GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::_ctor()
 inline ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData* GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>());
 }
+/// @brief Convert operator to "::System::IDisposable"
+constexpr GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
 // Ctor Parameters []
 constexpr ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData::BloomPrePassRendererSO_LightsRenderingData() {}
 //  Writing Method size for method: ::GlobalNamespace::BloomPrePassRendererSO.OnEnable
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::OnEnable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d8fc8;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x56506a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -154,7 +323,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39d8fe4;
+  constexpr static std::size_t addrs = 0x56506d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(), "OnDisable",
@@ -166,8 +335,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::Init)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x39d4aac;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x564bfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(), "Init",
@@ -179,8 +348,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::Cleanup)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x39d8fe8;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x56506d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(), "Cleanup",
@@ -194,8 +363,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::UnityEngine::Vector3, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, float_t, ::GlobalNamespace::IBloomPrePassParams*, ::UnityEngine::RenderTexture*, ::ByRef<::UnityEngine::Vector2>,
     ::ByRef<::GlobalNamespace::ToneMapping>)>(&::GlobalNamespace::BloomPrePassRendererSO::RenderAndSetData)> {
-  constexpr static std::size_t size = 0xa00;
-  constexpr static std::size_t addrs = 0x39d5350;
+  constexpr static std::size_t size = 0x958;
+  constexpr static std::size_t addrs = 0x564c82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,8 +383,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(float_t, ::UnityEngine::Vector2, ::UnityEngine::Texture*, ::GlobalNamespace::ToneMapping)>(
     &::GlobalNamespace::BloomPrePassRendererSO::SetDataToShaders)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x39d5d6c;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x564d1ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -231,8 +400,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(float_t)>(
     &::GlobalNamespace::BloomPrePassRendererSO::SetCustomStereoCameraEyeOffset)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x39d9e98;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x56514bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -246,8 +415,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RenderTexture> (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::UnityEngine::RenderTexture*, ::GlobalNamespace::IBloomPrePassParams*)>(&::GlobalNamespace::BloomPrePassRendererSO::CreateBloomPrePassRenderTextureIfNeeded)> {
-  constexpr static std::size_t size = 0x2f0;
-  constexpr static std::size_t addrs = 0x39d5060;
+  constexpr static std::size_t size = 0x2fc;
+  constexpr static std::size_t addrs = 0x564c530;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -261,8 +430,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::EnableBloomFog)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d5d50;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x564d184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(),
@@ -274,8 +443,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::DisableBloomFog)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39d5ef4;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x564d35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(),
@@ -288,8 +457,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(
     &::GlobalNamespace::BloomPrePassRendererSO::UpdateBloomFogParams)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x39d9f04;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x565154c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(),
@@ -302,8 +471,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::UnityEngine::Camera*, ::ByRef<::UnityEngine::Matrix4x4>, ::ByRef<::UnityEngine::Matrix4x4>, ::ByRef<float_t>)>(&::GlobalNamespace::BloomPrePassRendererSO::GetCameraParams)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x39d4eec;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x564c3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -319,8 +488,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, float_t)>(
     &::GlobalNamespace::BloomPrePassRendererSO::RenderAllLights)> {
-  constexpr static std::size_t size = 0x788;
-  constexpr static std::size_t addrs = 0x39d967c;
+  constexpr static std::size_t size = 0x7dc;
+  constexpr static std::size_t addrs = 0x5650c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,8 +505,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::GlobalNamespace::BloomPrePassLightTypeSO*, ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*, int32_t)>(&::GlobalNamespace::BloomPrePassRendererSO::PrepareLightsMeshRendering)> {
-  constexpr static std::size_t size = 0x4f4;
-  constexpr static std::size_t addrs = 0x39d9188;
+  constexpr static std::size_t size = 0x37c;
+  constexpr static std::size_t addrs = 0x5650838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -353,8 +522,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (::GlobalNamespace::BloomPrePassRendererSO::*)(
     ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4, float_t)>(&::GlobalNamespace::BloomPrePassRendererSO::MatrixLerp)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x39d9f1c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x5651560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -369,8 +538,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassRendererSO::*)()>(&::GlobalNamespace::BloomPrePassRendererSO::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39d9fd4;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x56519f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get(), ".ctor",
@@ -404,6 +573,18 @@ constexpr void GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_set__pr
     ::ArrayW<::GlobalNamespace::BloomPrePassRendererSO_PreallocationData*, ::Array<::GlobalNamespace::BloomPrePassRendererSO_PreallocationData*>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____preallocationData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::UnityEngine::ComputeShader>& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__computeShader() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____computeShader;
+}
+constexpr ::UnityW<::UnityEngine::ComputeShader> const& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__computeShader() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____computeShader;
+}
+constexpr void GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_set__computeShader(::UnityW<::UnityEngine::ComputeShader> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____computeShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::Dictionary_2<::UnityW<::GlobalNamespace::BloomPrePassLightTypeSO>, ::GlobalNamespace::BloomPrePassRendererSO_LightsRenderingData*>*&
 GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__lightsRenderingData() {
@@ -456,17 +637,12 @@ constexpr void GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_set__bl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____blackTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture>& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__lowestResBloomTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lowestResBloomTexture;
+inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF_bloomPrePassTextureID(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "bloomPrePassTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(
+      std::forward<int32_t>(value));
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture> const& GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_get__lowestResBloomTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____lowestResBloomTexture;
-}
-constexpr void GlobalNamespace::BloomPrePassRendererSO::__cordl_internal_set__lowestResBloomTexture(::UnityW<::UnityEngine::RenderTexture> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____lowestResBloomTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF_bloomPrePassTextureID() {
+  return ::cordl_internals::getStaticField<int32_t, "bloomPrePassTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
 }
 inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__vertexTransformMatrixID(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_vertexTransformMatrixID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(
@@ -474,13 +650,6 @@ inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__vertexTransform
 }
 inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__vertexTransformMatrixID() {
   return ::cordl_internals::getStaticField<int32_t, "_vertexTransformMatrixID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
-}
-inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__bloomPrePassTextureID(int32_t value) {
-  ::cordl_internals::setStaticField<int32_t, "_bloomPrePassTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(
-      std::forward<int32_t>(value));
-}
-inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__bloomPrePassTextureID() {
-  return ::cordl_internals::getStaticField<int32_t, "_bloomPrePassTextureID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
 }
 inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__stereoCameraEyeOffsetID(int32_t value) {
   ::cordl_internals::setStaticField<int32_t, "_stereoCameraEyeOffsetID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(
@@ -495,6 +664,37 @@ inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__customFogTextur
 }
 inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__customFogTextureToScreenRatioID() {
   return ::cordl_internals::getStaticField<int32_t, "_customFogTextureToScreenRatioID", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
+}
+inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__vertices(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_vertices", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__vertices() {
+  return ::cordl_internals::getStaticField<int32_t, "_vertices", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
+}
+inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__lightData(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_lightData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__lightData() {
+  return ::cordl_internals::getStaticField<int32_t, "_lightData", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
+}
+inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__viewMatrix(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_viewMatrix", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__viewMatrix() {
+  return ::cordl_internals::getStaticField<int32_t, "_viewMatrix", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
+}
+inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__projectionMatrix(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_projectionMatrix", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(
+      std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__projectionMatrix() {
+  return ::cordl_internals::getStaticField<int32_t, "_projectionMatrix", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
+}
+inline void GlobalNamespace::BloomPrePassRendererSO::setStaticF__lineWidth(int32_t value) {
+  ::cordl_internals::setStaticField<int32_t, "_lineWidth", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>(std::forward<int32_t>(value));
+}
+inline int32_t GlobalNamespace::BloomPrePassRendererSO::getStaticF__lineWidth() {
+  return ::cordl_internals::getStaticField<int32_t, "_lineWidth", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassRendererSO*>::get>();
 }
 inline void GlobalNamespace::BloomPrePassRendererSO::OnEnable() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),

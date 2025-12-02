@@ -24,12 +24,12 @@ namespace System::Threading {
 class CORDL_TYPE ThreadStart : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3e4d440, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5a92900, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Threading::ThreadStart* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3e4d3b8, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a92898, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -47,7 +47,7 @@ public:
   ThreadStart(ThreadStart const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2674 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2683 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

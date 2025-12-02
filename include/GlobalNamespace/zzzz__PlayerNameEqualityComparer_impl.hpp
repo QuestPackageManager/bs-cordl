@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PlayerNameEqualityComparer.hpp"
-#include "System/Collections/Generic/zzzz__IEqualityComparer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PlayerNameEqualityComparer_def.hpp"
 #include "GlobalNamespace/zzzz__PlatformLeaderboardsModel_def.hpp"
+#include "System/Collections/Generic/zzzz__IEqualityComparer_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::PlayerNameEqualityComparer.Equals
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PlayerNameEqualityComparer::*)(
     ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*, ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*)>(&::GlobalNamespace::PlayerNameEqualityComparer::Equals)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2700e1c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x362cab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::PlayerNameEqualityComparer::*)(
     ::GlobalNamespace::PlatformLeaderboardsModel_LeaderboardScore*)>(&::GlobalNamespace::PlayerNameEqualityComparer::GetHashCode)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2700e3c;
+  constexpr static std::size_t addrs = 0x362cad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PlayerNameEqualityComparer::*)()>(&::GlobalNamespace::PlayerNameEqualityComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2700e60;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x362caf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PlayerNameEqualityComparer*>::get(), ".ctor",

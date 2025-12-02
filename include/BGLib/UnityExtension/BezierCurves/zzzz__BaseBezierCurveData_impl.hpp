@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::get_startControlPoint)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22b82c8;
+  constexpr static std::size_t addrs = 0x31ff1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,7 +57,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)(::UnityEngine::Vector3)>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::set_startControlPoint)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22b82f8;
+  constexpr static std::size_t addrs = 0x31ff1d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::get_endControlPoint)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22b8344;
+  constexpr static std::size_t addrs = 0x31ff220;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -87,7 +87,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)(::UnityEngine::Vector3)>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::set_endControlPoint)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x22b8374;
+  constexpr static std::size_t addrs = 0x31ff250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::*)()>(
     &::BGLib::UnityExtension::BezierCurves::BaseBezierCurveData::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x22b83c0;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x31ff29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

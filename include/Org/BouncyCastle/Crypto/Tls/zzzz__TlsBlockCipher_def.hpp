@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCipher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TlsBlockCipher)
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsCipher;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class TlsContext;
 }
@@ -28,7 +30,7 @@ class TlsBlockCipher;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher);
-// Dependencies Org.BouncyCastle.Crypto.Tls.TlsCipher, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsBlockCipher
@@ -66,22 +68,22 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsCipher*() noexcept;
 
-  /// @brief Method CheckPaddingConstantTime, addr 0x2420a64, size 0x1a8, virtual true, abstract: false, final false
+  /// @brief Method CheckPaddingConstantTime, addr 0x334ee0c, size 0x1b0, virtual true, abstract: false, final false
   inline int32_t CheckPaddingConstantTime(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len, int32_t blockSize, int32_t macSize);
 
-  /// @brief Method ChooseExtraPadBlocks, addr 0x2420c0c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method ChooseExtraPadBlocks, addr 0x334efbc, size 0xa8, virtual true, abstract: false, final false
   inline int32_t ChooseExtraPadBlocks(::Org::BouncyCastle::Security::SecureRandom* r, int32_t max);
 
-  /// @brief Method DecodeCiphertext, addr 0x24205b8, size 0x4ac, virtual true, abstract: false, final false
+  /// @brief Method DecodeCiphertext, addr 0x334e960, size 0x4ac, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DecodeCiphertext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> ciphertext, int32_t offset, int32_t len);
 
-  /// @brief Method EncodePlaintext, addr 0x241ff68, size 0x650, virtual true, abstract: false, final false
+  /// @brief Method EncodePlaintext, addr 0x334e2fc, size 0x664, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> EncodePlaintext(int64_t seqNo, uint8_t type, ::ArrayW<uint8_t, ::Array<uint8_t>*> plaintext, int32_t offset, int32_t len);
 
-  /// @brief Method GetPlaintextLimit, addr 0x241fe68, size 0x100, virtual true, abstract: false, final false
+  /// @brief Method GetPlaintextLimit, addr 0x334e1ec, size 0x110, virtual true, abstract: false, final false
   inline int32_t GetPlaintextLimit(int32_t ciphertextLimit);
 
-  /// @brief Method LowestBitSet, addr 0x2420cb4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method LowestBitSet, addr 0x334f064, size 0x28, virtual true, abstract: false, final false
   inline int32_t LowestBitSet(int32_t x);
 
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher,
@@ -136,14 +138,14 @@ public:
 
   constexpr void __cordl_internal_set_useExplicitIV(bool value);
 
-  /// @brief Method .ctor, addr 0x241f310, size 0xb58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334d640, size 0xbac, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::IBlockCipher* clientWriteCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* serverWriteCipher,
                     ::Org::BouncyCastle::Crypto::IDigest* clientWriteDigest, ::Org::BouncyCastle::Crypto::IDigest* serverWriteDigest, int32_t cipherKeySize);
 
-  /// @brief Method get_ReadMac, addr 0x241f308, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ReadMac, addr 0x334d638, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_ReadMac();
 
-  /// @brief Method get_WriteMac, addr 0x241f300, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_WriteMac, addr 0x334d630, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsMac* get_WriteMac();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsCipher"

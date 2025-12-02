@@ -9,17 +9,59 @@
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/zzzz__Rigidbody_def.hpp"
 #include "UnityEngine/zzzz__SpringJoint_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.Start
+//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.Awake
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
-    &::GlobalNamespace::HydraulicCarSuspensionEffect::Start)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x226865c;
+    &::GlobalNamespace::HydraulicCarSuspensionEffect::Awake)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x318bb2c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), "Start",
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), "Awake",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.OnInject
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
+    &::GlobalNamespace::HydraulicCarSuspensionEffect::OnInject)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318bc28;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                               "OnInject", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.OnEnable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
+    &::GlobalNamespace::HydraulicCarSuspensionEffect::OnEnable)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318be18;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                               "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.OnDisable
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
+    &::GlobalNamespace::HydraulicCarSuspensionEffect::OnDisable)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318be1c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                               "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -28,12 +70,40 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::OnDestroy)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x2268874;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318be6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
                                                                                "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.TrySubscribe
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
+    &::GlobalNamespace::HydraulicCarSuspensionEffect::TrySubscribe)> {
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x318bc2c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                               "TrySubscribe", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::HydraulicCarSuspensionEffect.TryUnsubscribe
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
+    &::GlobalNamespace::HydraulicCarSuspensionEffect::TryUnsubscribe)> {
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x318be20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                               "TryUnsubscribe", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -42,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::HandleContractBeatmapEvent)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x22688b4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x318be70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -57,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::HandleExpandBeatmapEvent)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2268958;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x318bf24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::HydraulicCarSuspensionEffect::*)()>(
     &::GlobalNamespace::HydraulicCarSuspensionEffect::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x22689fc;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x318bfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), ".ctor",
@@ -237,14 +307,39 @@ constexpr void GlobalNamespace::HydraulicCarSuspensionEffect::__cordl_internal_s
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____expandBeatmapDataCallbackWrapper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::HydraulicCarSuspensionEffect::Start() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), "Start",
+inline void GlobalNamespace::HydraulicCarSuspensionEffect::Awake() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(), "Awake",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HydraulicCarSuspensionEffect::OnInject() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                             "OnInject", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HydraulicCarSuspensionEffect::OnEnable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                             "OnEnable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HydraulicCarSuspensionEffect::OnDisable() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                             "OnDisable", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::HydraulicCarSuspensionEffect::OnDestroy() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
                                                                              "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HydraulicCarSuspensionEffect::TrySubscribe() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                             "TrySubscribe", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::HydraulicCarSuspensionEffect::TryUnsubscribe() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::HydraulicCarSuspensionEffect*>::get(),
+                                                                             "TryUnsubscribe", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::HydraulicCarSuspensionEffect::HandleContractBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData) {

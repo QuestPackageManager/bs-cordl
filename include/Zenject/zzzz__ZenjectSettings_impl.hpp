@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectSettings_SignalSettings::*)(
     ::Zenject::SignalDefaultSyncModes, ::Zenject::SignalMissingHandlerResponses, bool, int32_t)>(&::Zenject::ZenjectSettings_SignalSettings::_ctor)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4b3a874;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6c4e920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectSettings_SignalSettings::*)()>(&::Zenject::ZenjectSettings_SignalSettings::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4b3a8b8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6c4e930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings_SignalSettings*>::get(), ".ctor",
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Zenject::ZenjectSettings_SignalSettings::*)()>(
     &::Zenject::ZenjectSettings_SignalSettings::get_DefaultAsyncTickPriority)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a8e8;
+  constexpr static std::size_t addrs = 0x6c4e94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings_SignalSettings*>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalDefaultSyncModes (::Zenject::ZenjectSettings_SignalSettings::*)()>(
     &::Zenject::ZenjectSettings_SignalSettings::get_DefaultSyncMode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a8f0;
+  constexpr static std::size_t addrs = 0x6c4e954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings_SignalSettings*>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::SignalMissingHandlerResponses (::Zenject::ZenjectSettings_SignalSettings::*)()>(
     &::Zenject::ZenjectSettings_SignalSettings::get_MissingHandlerDefaultResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a8f8;
+  constexpr static std::size_t addrs = 0x6c4e95c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ZenjectSettings_SignalSettings::*)()>(
     &::Zenject::ZenjectSettings_SignalSettings::get_RequireStrictUnsubscribe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a900;
+  constexpr static std::size_t addrs = 0x6c4e964;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings_SignalSettings*>::get(),
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::ZenjectSettings_SignalSettings::__zenCreate)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4b3a97c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x6c4e9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,8 +119,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(&::Zenject::ZenjectSettings_SignalSettings::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b3a9e8;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c4ea38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings_SignalSettings*>::get(),
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectSettings::*)(
     ::Zenject::ValidationErrorResponses, ::Zenject::RootResolveMethods, bool, bool, ::Zenject::ZenjectSettings_SignalSettings*)>(&::Zenject::ZenjectSettings::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4b3a728;
+  constexpr static std::size_t addrs = 0x6c4e7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::ZenjectSettings::*)()>(&::Zenject::ZenjectSettings::_ctor)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b3a7c8;
+  constexpr static std::size_t addrs = 0x6c4e870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings*>::get(), ".ctor",
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenjectSettings_SignalSettings* (::Zenject::ZenjectSettings::*)()>(
     &::Zenject::ZenjectSettings::get_Signals)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a7e0;
+  constexpr static std::size_t addrs = 0x6c4e888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings*>::get(), "get_Signals",
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ValidationErrorResponses (::Zenject::ZenjectSettings::*)()>(
     &::Zenject::ZenjectSettings::get_ValidationErrorResponse)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a7e8;
+  constexpr static std::size_t addrs = 0x6c4e890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::ZenjectSettings*>::get(),
@@ -305,7 +305,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::RootResolveMethods (::Zenject::ZenjectSettings::*)()>(
     &::Zenject::ZenjectSettings::get_ValidationRootResolveMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a7f0;
+  constexpr static std::size_t addrs = 0x6c4e898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -319,7 +319,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ZenjectSettings::*)()>(&::Zenject::ZenjectSettings::get_DisplayWarningWhenResolvingDuringInstall)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a7f8;
+  constexpr static std::size_t addrs = 0x6c4e8a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -334,7 +334,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::ZenjectSettings::*)()>(
     &::Zenject::ZenjectSettings::get_EnsureDeterministicDestructionOrderOnApplicationQuit)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3a800;
+  constexpr static std::size_t addrs = 0x6c4e8a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

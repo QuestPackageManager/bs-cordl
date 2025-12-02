@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::get_isReady)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22b89ac;
+  constexpr static std::size_t addrs = 0x31ff8c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::UnityExtension::BezierCurves::CurveData (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::GetBezierCurveData)> {
   constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x22b89b4;
+  constexpr static std::size_t addrs = 0x31ff8d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)(
     ::BGLib::UnityExtension::BezierCurves::CurveData)>(&::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::SetBezierCurveData)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x22b8b78;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x31ffa94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::*)()>(
     &::BGLib::UnityExtension::BezierCurves::GenericBezierCurve::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x22b8d34;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x31ffc44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

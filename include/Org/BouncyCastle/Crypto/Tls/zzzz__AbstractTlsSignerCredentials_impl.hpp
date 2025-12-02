@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/AbstractTlsSignerCredentials.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsCredentials_impl.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_impl.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsSignerCredentials_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__SignatureAndHashAlgorithm_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSignerCredentials_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials.GenerateCertificateSignature
 template <>
 
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* (
     ::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::*)()>(&::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::get_SignatureAndHashAlgorithm)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23e2ffc;
+  constexpr static std::size_t addrs = 0x331145c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::AbstractTlsSignerCredentials::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23e3048;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33114a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

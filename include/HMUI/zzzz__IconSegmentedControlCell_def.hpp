@@ -69,22 +69,22 @@ public:
 
   constexpr void __cordl_internal_set__icon(::UnityW<::UnityEngine::UI::Image> value);
 
-  /// @brief Method .ctor, addr 0x408a3c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d39de4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_sprite, addr 0x408a3a4, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method get_sprite, addr 0x5d39dcc, size 0x18, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_sprite();
 
-  /// @brief Method set_hideBackgroundImage, addr 0x408a248, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method set_hideBackgroundImage, addr 0x5d39ca4, size 0xa0, virtual false, abstract: false, final false
   inline void set_hideBackgroundImage(bool value);
 
-  /// @brief Method set_hintText, addr 0x408a22c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_hintText, addr 0x5d39c8c, size 0x18, virtual false, abstract: false, final false
   inline void set_hintText(::StringW value);
 
-  /// @brief Method set_iconSize, addr 0x408a2e4, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_iconSize, addr 0x5d39d44, size 0x3c, virtual false, abstract: false, final false
   inline void set_iconSize(float_t value);
 
-  /// @brief Method set_sprite, addr 0x408a210, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method set_sprite, addr 0x5d39c74, size 0x18, virtual false, abstract: false, final false
   inline void set_sprite(::UnityEngine::Sprite* value);
 
 protected:
@@ -102,7 +102,7 @@ public:
   IconSegmentedControlCell(IconSegmentedControlCell const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18802 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22724 };
 
   /// @brief Field _icon, offset: 0x70, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Image> ____icon;

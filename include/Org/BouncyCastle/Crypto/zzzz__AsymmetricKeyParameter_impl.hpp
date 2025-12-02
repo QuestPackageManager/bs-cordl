@@ -1,16 +1,16 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/AsymmetricKeyParameter.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricKeyParameter_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipherParameters_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::*)(bool)>(
     &::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23b9244;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32e7478;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::*)()>(
     &::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::get_IsPrivate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b926c;
+  constexpr static std::size_t addrs = 0x32e7480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::*)(::System::Object*)>(
     &::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::Equals)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x23b9274;
+  constexpr static std::size_t addrs = 0x32e7488;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::*)(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*)>(
     &::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::Equals)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x23b930c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x32e7520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::*)()>(
     &::Org::BouncyCastle::Crypto::AsymmetricKeyParameter::GetHashCode)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x23b9330;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x32e7540;
 
   inline static ::MethodInfo const* methodInfo() {
 

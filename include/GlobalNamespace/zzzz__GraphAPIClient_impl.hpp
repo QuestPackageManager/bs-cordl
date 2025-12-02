@@ -1,14 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GraphAPIClient.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_impl.hpp"
 #include "System/Threading/zzzz__CancellationToken_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
 #include "GlobalNamespace/zzzz__GraphAPIClient_def.hpp"
-#include "GlobalNamespace/zzzz__INetworkConfig_def.hpp"
 #include "System/Net/Http/zzzz__HttpClient_def.hpp"
 #include "System/Net/Http/zzzz__HttpContent_def.hpp"
 #include "System/Net/Http/zzzz__HttpRequestMessage_def.hpp"
@@ -27,26 +25,26 @@ constexpr ::GlobalNamespace::GraphAPIClient_PostOptions::GraphAPIClient_PostOpti
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GraphAPIClient_PostOptions::GraphAPIClient_PostOptions() {}
-template <typename TRequest, typename TResponse> inline void GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::MoveNext() {
+template <typename TRequest, typename TResponse> inline void GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TRequest, typename TResponse>
-inline void GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename TRequest, typename TResponse> constexpr GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename TRequest, typename TResponse> constexpr GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TRequest, typename TResponse>
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -58,7 +56,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // name: "_numAttempts_5__4", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse>", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: Some("{}") }]
 template <typename TRequest, typename TResponse>
-constexpr ::GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::GraphAPIClient__Post_d__4_2(
+constexpr ::GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>::GraphAPIClient__Post_d__5_2(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> __t__builder, ::GlobalNamespace::GraphAPIClient* __4__this, ::StringW path, TRequest request,
     ::StringW accessToken, ::System::Threading::CancellationToken cancellationToken, ::GlobalNamespace::GraphAPIClient_PostOptions postOptions, ::System::UriBuilder* _uriBuilder_5__2,
     ::System::Net::Http::HttpContent* _httpContent_5__3, int32_t _numAttempts_5__4, ::System::Runtime::CompilerServices::TaskAwaiter_1<TResponse> __u__1,
@@ -78,25 +76,25 @@ constexpr ::GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::G
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-template <typename TRequest, typename TResponse> constexpr ::GlobalNamespace::GraphAPIClient__Post_d__4_2<TRequest, TResponse>::GraphAPIClient__Post_d__4_2() {}
-template <typename TResponse> inline void GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::MoveNext() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>>::get(),
+template <typename TRequest, typename TResponse> constexpr ::GlobalNamespace::GraphAPIClient__Post_d__5_2<TRequest, TResponse>::GraphAPIClient__Post_d__5_2() {}
+template <typename TResponse> inline void GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>::MoveNext() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>>::get(),
                                                                              "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TResponse> inline void GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+template <typename TResponse> inline void GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>>::get(), "SetStateMachine", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-template <typename TResponse> constexpr GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+template <typename TResponse> constexpr GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 template <typename TResponse>
-constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -107,7 +105,7 @@ constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* GlobalNamespa
 // Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: Some("{}") }, CppParam {
 // name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW>", modifiers: "", def_value: Some("{}") }]
 template <typename TResponse>
-constexpr ::GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::GraphAPIClient__Post_d__5_1(
+constexpr ::GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>::GraphAPIClient__Post_d__6_1(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<TResponse> __t__builder, ::System::Uri* uri, ::StringW accessToken, ::System::Net::Http::HttpContent* httpContent,
     ::GlobalNamespace::GraphAPIClient* __4__this, ::System::Threading::CancellationToken cancellationToken, ::System::Net::Http::HttpRequestMessage* _requestMessage_5__2,
     ::System::Runtime::CompilerServices::TaskAwaiter_1<::System::Net::Http::HttpResponseMessage*> __u__1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::StringW> __u__2) noexcept {
@@ -123,19 +121,18 @@ constexpr ::GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::GraphAPICli
   this->__u__2 = __u__2;
 }
 // Ctor Parameters []
-template <typename TResponse> constexpr ::GlobalNamespace::GraphAPIClient__Post_d__5_1<TResponse>::GraphAPIClient__Post_d__5_1() {}
+template <typename TResponse> constexpr ::GlobalNamespace::GraphAPIClient__Post_d__6_1<TResponse>::GraphAPIClient__Post_d__6_1() {}
 //  Writing Method size for method: ::GlobalNamespace::GraphAPIClient._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphAPIClient::*)(::GlobalNamespace::INetworkConfig*)>(
-    &::GlobalNamespace::GraphAPIClient::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x22cbbec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GraphAPIClient::*)(::StringW, ::StringW)>(&::GlobalNamespace::GraphAPIClient::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x320d46c;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
     return ___internal_method;
   }
 };
@@ -144,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::GlobalNamespace::GraphAPIClient_PostOptions)>(
     &::GlobalNamespace::GraphAPIClient::CalculateDelayMsBeforeRetry)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x22cbc60;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x320d4dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,17 +152,29 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::INetworkConfig*& GlobalNamespace::GraphAPIClient::__cordl_internal_get__networkConfig() {
+constexpr ::StringW& GlobalNamespace::GraphAPIClient::__cordl_internal_get__graphUrl() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____networkConfig;
+  return this->____graphUrl;
 }
-constexpr ::GlobalNamespace::INetworkConfig* const& GlobalNamespace::GraphAPIClient::__cordl_internal_get__networkConfig() const {
+constexpr ::StringW const& GlobalNamespace::GraphAPIClient::__cordl_internal_get__graphUrl() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____networkConfig;
+  return this->____graphUrl;
 }
-constexpr void GlobalNamespace::GraphAPIClient::__cordl_internal_set__networkConfig(::GlobalNamespace::INetworkConfig* value) {
+constexpr void GlobalNamespace::GraphAPIClient::__cordl_internal_set__graphUrl(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____networkConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphUrl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::StringW& GlobalNamespace::GraphAPIClient::__cordl_internal_get__graphAccessToken() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____graphAccessToken;
+}
+constexpr ::StringW const& GlobalNamespace::GraphAPIClient::__cordl_internal_get__graphAccessToken() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____graphAccessToken;
+}
+constexpr void GlobalNamespace::GraphAPIClient::__cordl_internal_set__graphAccessToken(::StringW value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____graphAccessToken)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Net::Http::HttpClient*& GlobalNamespace::GraphAPIClient::__cordl_internal_get__client() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -179,11 +188,11 @@ constexpr void GlobalNamespace::GraphAPIClient::__cordl_internal_set__client(::S
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____client)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::GraphAPIClient::_ctor(::GlobalNamespace::INetworkConfig* networkConfig) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::INetworkConfig*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, networkConfig);
+inline void GlobalNamespace::GraphAPIClient::_ctor(::StringW graphUrl, ::StringW graphAccessToken) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GraphAPIClient*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, graphUrl, graphAccessToken);
 }
 template <typename TRequest, typename TResponse>
 inline ::System::Threading::Tasks::Task_1<TResponse>* GlobalNamespace::GraphAPIClient::PostLoggedOut(::StringW path, TRequest request, ::GlobalNamespace::GraphAPIClient_PostOptions postOptions,
@@ -235,8 +244,8 @@ inline int32_t GlobalNamespace::GraphAPIClient::CalculateDelayMsBeforeRetry(int3
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GraphAPIClient_PostOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, numAttempts, postOptions);
 }
-inline ::GlobalNamespace::GraphAPIClient* GlobalNamespace::GraphAPIClient::New_ctor(::GlobalNamespace::INetworkConfig* networkConfig) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GraphAPIClient*>(networkConfig));
+inline ::GlobalNamespace::GraphAPIClient* GlobalNamespace::GraphAPIClient::New_ctor(::StringW graphUrl, ::StringW graphAccessToken) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::GraphAPIClient*>(graphUrl, graphAccessToken));
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::GraphAPIClient::GraphAPIClient() {}

@@ -33,7 +33,7 @@ public:
 
   constexpr void __cordl_internal_set__paths(::System::Runtime::InteropServices::DllImportSearchPath value);
 
-  /// @brief Method .ctor, addr 0x3d1496c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5955b98, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::InteropServices::DllImportSearchPath paths);
 
 protected:
@@ -51,7 +51,7 @@ public:
   DefaultDllImportSearchPathsAttribute(DefaultDllImportSearchPathsAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3329 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3342 };
 
   /// @brief Field _paths, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::InteropServices::DllImportSearchPath ____paths;

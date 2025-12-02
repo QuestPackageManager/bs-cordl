@@ -30,7 +30,7 @@ public:
 
   static inline ::System::Runtime::Remoting::Messaging::MethodReturnDictionary* New_ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
-  /// @brief Method .ctor, addr 0x3cf043c, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593244c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodReturnMessage* message);
 
   static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_InternalExceptionKeys();
@@ -56,7 +56,7 @@ public:
   MethodReturnDictionary(MethodReturnDictionary const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3178 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3195 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

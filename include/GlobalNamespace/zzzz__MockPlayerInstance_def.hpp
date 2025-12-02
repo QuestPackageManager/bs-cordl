@@ -3,13 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IStandaloneMonobehavior_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncVoidMethodBuilder_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -20,6 +17,9 @@ class ITaskUtility;
 }
 namespace BGNet::Core {
 class ITimeProvider;
+}
+namespace GlobalNamespace {
+class BeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
 class ConnectedPlayerManager;
@@ -40,6 +40,9 @@ namespace GlobalNamespace {
 class IMockBeatmapDataProvider;
 }
 namespace GlobalNamespace {
+class IStandaloneMonobehavior;
+}
+namespace GlobalNamespace {
 class IStandaloneThreadRunner;
 }
 namespace GlobalNamespace {
@@ -56,9 +59,6 @@ struct MockPlayerInstance__Stop_d__21;
 }
 namespace GlobalNamespace {
 template <typename T> class MockPlayerInstance___c__DisplayClass17_0_1;
-}
-namespace GlobalNamespace {
-class MultiplayerSessionManager;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
@@ -77,6 +77,9 @@ class Action;
 }
 namespace System {
 template <typename TResult> class Func_1;
+}
+namespace System {
+class IDisposable;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -150,7 +153,7 @@ public:
   MockPlayerInstance___c__DisplayClass17_0_1(MockPlayerInstance___c__DisplayClass17_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22017 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::MockPlayerInstance* _____4__this;
@@ -162,7 +165,7 @@ public:
 };
 // Non member Declarations
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlayerInstance/<DisposeAsync>d__22
@@ -172,10 +175,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c2eea8, size 0x254, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58721b0, size 0x294, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c2f0fc, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5872444, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -192,7 +195,7 @@ public:
                                                    ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22018 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -223,8 +226,7 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance__DisposeAsync_d__22, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter, System.Threading.CancellationToken
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlayerInstance/<RunAsync>d__18
@@ -234,10 +236,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c2f164, size 0x284, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58724b0, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c2f3e8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5872788, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -256,7 +258,7 @@ public:
                                                ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22019 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -297,7 +299,7 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, __
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance__RunAsync_d__18, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter
+// Dependencies System.Runtime.CompilerServices.AsyncVoidMethodBuilder, System.Runtime.CompilerServices.TaskAwaiter
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: MockPlayerInstance/<Stop>d__21
@@ -307,10 +309,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3c2f450, size 0x178, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58727f4, size 0x184, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3c2f5c8, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5872978, size 0x8, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -327,7 +329,7 @@ public:
                                            ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22020 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
@@ -358,7 +360,7 @@ static_assert(offsetof(::GlobalNamespace::MockPlayerInstance__Stop_d__21, __u__1
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MockPlayerInstance__Stop_d__21, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IStandaloneMonobehavior, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockPlayerInstance
@@ -386,7 +388,7 @@ public:
   __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id)) ::StringW _id;
 
   /// @brief Field _multiplayerSessionManager, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager, put = __cordl_internal_set__multiplayerSessionManager)) ::UnityW<::GlobalNamespace::MultiplayerSessionManager>
+  __declspec(property(get = __cordl_internal_get__multiplayerSessionManager, put = __cordl_internal_set__multiplayerSessionManager)) ::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager>
       _multiplayerSessionManager;
 
   /// @brief Field _taskUtility, offset 0x30, size 0x8
@@ -416,31 +418,31 @@ public:
   /// @brief Method ConnectToServer, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void ConnectToServer(::GlobalNamespace::IConnectionInitParams_1<T>* connectionInitParams);
 
-  /// @brief Method Dispose, addr 0x3c2ed24, size 0xb4, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5871fe0, size 0xb8, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method DisposeAsync, addr 0x3c2ec64, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method DisposeAsync, addr 0x5871f30, size 0xb0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* DisposeAsync();
 
   static inline ::GlobalNamespace::MockPlayerInstance* New_ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility,
                                                                 ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider, ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method RunAsync, addr 0x3c2eac8, size 0xd4, virtual true, abstract: false, final true
+  /// @brief Method RunAsync, addr 0x5871d98, size 0xc4, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* RunAsync(::GlobalNamespace::IStandaloneThreadRunner* runner, ::System::Threading::CancellationToken token);
 
-  /// @brief Method Stop, addr 0x3c2ebd4, size 0x90, virtual true, abstract: false, final true
+  /// @brief Method Stop, addr 0x5871e8c, size 0xa4, virtual true, abstract: false, final true
   inline void Stop();
 
-  /// @brief Method Tick, addr 0x3c2eab0, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method Tick, addr 0x5871d84, size 0x14, virtual false, abstract: false, final false
   inline void Tick();
 
-  /// @brief Method WhenReady, addr 0x3c2eb9c, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReady, addr 0x5871e5c, size 0x18, virtual true, abstract: false, final true
   inline void WhenReady(::System::Action* action);
 
-  /// @brief Method WhenReadyAsync, addr 0x3c2ebb8, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method WhenReadyAsync, addr 0x5871e74, size 0x18, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task* WhenReadyAsync(::System::Func_1<::System::Threading::Tasks::Task*>* action);
 
-  /// @brief Method <DisposeAsync>b__22_0, addr 0x3c2ede0, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method <DisposeAsync>b__22_0, addr 0x58720a0, size 0x110, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* _DisposeAsync_b__22_0();
 
   constexpr ::System::Threading::CancellationTokenSource* const& __cordl_internal_get__cancellationTokenSource() const;
@@ -459,9 +461,9 @@ public:
 
   constexpr ::StringW& __cordl_internal_get__id();
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager> const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager> const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MultiplayerSessionManager>& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager>& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr ::BGNet::Core::ITaskUtility* const& __cordl_internal_get__taskUtility() const;
 
@@ -487,7 +489,7 @@ public:
 
   constexpr void __cordl_internal_set__id(::StringW value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::UnityW<::GlobalNamespace::MultiplayerSessionManager> value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager> value);
 
   constexpr void __cordl_internal_set__taskUtility(::BGNet::Core::ITaskUtility* value);
 
@@ -497,23 +499,23 @@ public:
 
   constexpr void __cordl_internal_set__userName(::StringW value);
 
-  /// @brief Method <.ctor>b__15_0, addr 0x3c2edd8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_0, addr 0x5872098, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_0(::GlobalNamespace::ConnectionFailedReason r);
 
-  /// @brief Method <.ctor>b__15_1, addr 0x3c2eddc, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method <.ctor>b__15_1, addr 0x587209c, size 0x4, virtual false, abstract: false, final false
   inline void __ctor_b__15_1(::GlobalNamespace::DisconnectedReason r);
 
-  /// @brief Method .ctor, addr 0x3c2e74c, size 0x360, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x587194c, size 0x434, virtual false, abstract: false, final false
   inline void _ctor(::BGNet::Core::ITimeProvider* timeProvider, ::BGNet::Core::ITaskUtility* taskUtility, ::GlobalNamespace::IMockBeatmapDataProvider* beatmapDataProvider,
                     ::GlobalNamespace::IConnectionManager* connectionManager);
 
-  /// @brief Method get_id, addr 0x3c2e734, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_id, addr 0x5871934, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_id();
 
-  /// @brief Method get_userId, addr 0x3c2e73c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userId, addr 0x587193c, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userId();
 
-  /// @brief Method get_userName, addr 0x3c2e744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_userName, addr 0x5871944, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_userName();
 
   /// @brief Convert to "::GlobalNamespace::IStandaloneMonobehavior"
@@ -537,7 +539,7 @@ public:
   MockPlayerInstance(MockPlayerInstance const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22021 };
 
   /// @brief Field _id, offset: 0x10, size: 0x8, def value: None
   ::StringW ____id;
@@ -558,7 +560,7 @@ public:
   ::System::Threading::CancellationTokenSource* ____cancellationTokenSource;
 
   /// @brief Field _multiplayerSessionManager, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MultiplayerSessionManager> ____multiplayerSessionManager;
+  ::UnityW<::GlobalNamespace::BeatSaberMultiplayerSessionManager> ____multiplayerSessionManager;
 
   /// @brief Field _connectedPlayerManager, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::ConnectedPlayerManager* ____connectedPlayerManager;

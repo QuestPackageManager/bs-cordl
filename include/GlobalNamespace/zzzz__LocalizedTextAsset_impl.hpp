@@ -1,6 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LocalizedTextAsset.hpp"
-#include "BGLib/Polyglot/zzzz__Language_impl.hpp"
+#include "BGLib/Polyglot/zzzz__LocalizationLanguage_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_impl.hpp"
 #include "GlobalNamespace/zzzz__LocalizedTextAsset_def.hpp"
@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset_TextInfo::*)()>(&::GlobalNamespace::LocalizedTextAsset_TextInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b166b0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f5a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset_TextInfo*>::get(), ".ctor",
@@ -20,15 +20,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LocalizedTextAsset_TextInfo::__cordl_internal_get_language() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::LocalizedTextAsset_TextInfo::__cordl_internal_get_language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LocalizedTextAsset_TextInfo::__cordl_internal_get_language() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::LocalizedTextAsset_TextInfo::__cordl_internal_get_language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr void GlobalNamespace::LocalizedTextAsset_TextInfo::__cordl_internal_set_language(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LocalizedTextAsset_TextInfo::__cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
@@ -58,8 +58,8 @@ constexpr ::GlobalNamespace::LocalizedTextAsset_TextInfo::LocalizedTextAsset_Tex
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset___c::*)()>(&::GlobalNamespace::LocalizedTextAsset___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16714;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f5ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset___c*>::get(), ".ctor",
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LocalizedTextAsset___c::*)(::GlobalNamespace::LocalizedTextAsset_TextInfo*)>(
     &::GlobalNamespace::LocalizedTextAsset___c::_get_localizedText_b__6_0)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3b1671c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56f5acc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b166a0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56f5a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::*)(
     ::GlobalNamespace::LocalizedTextAsset_TextInfo*)>(&::GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::_get_localizedText_b__1)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3b1673c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x56f5ae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -145,15 +145,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-constexpr ::BGLib::Polyglot::Language& GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::__cordl_internal_get_language() {
+constexpr ::BGLib::Polyglot::LocalizationLanguage& GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::__cordl_internal_get_language() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr ::BGLib::Polyglot::Language const& GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::__cordl_internal_get_language() const {
+constexpr ::BGLib::Polyglot::LocalizationLanguage const& GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::__cordl_internal_get_language() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___language;
 }
-constexpr void GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::__cordl_internal_set_language(::BGLib::Polyglot::Language value) {
+constexpr void GlobalNamespace::LocalizedTextAsset___c__DisplayClass6_0::__cordl_internal_set_language(::BGLib::Polyglot::LocalizationLanguage value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___language = value;
 }
@@ -179,7 +179,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::GlobalNamespace::LocalizedTextAsset_TextInfo*, ::Array<::GlobalNamespace::LocalizedTextAsset_TextInfo*>*> (
     ::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::get_textInfos)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b16394;
+  constexpr static std::size_t addrs = 0x56f5744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(), "get_textInfos",
@@ -191,8 +191,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::get_localizedText)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x3b1639c;
+  constexpr static std::size_t size = 0x318;
+  constexpr static std::size_t addrs = 0x56f574c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(),
@@ -205,7 +205,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LocalizedTextAsset::*)()>(&::GlobalNamespace::LocalizedTextAsset::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b166a8;
+  constexpr static std::size_t addrs = 0x56f5a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LocalizedTextAsset*>::get(), ".ctor",

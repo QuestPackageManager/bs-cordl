@@ -53,37 +53,37 @@ public:
   /// @brief Field reqPolicy, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_reqPolicy, put = __cordl_internal_set_reqPolicy)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier* reqPolicy;
 
-  /// @brief Method AddExtension, addr 0x25cab7c, size 0x1a0, virtual true, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x34fa110, size 0x1a8, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> extValue);
 
-  /// @brief Method AddExtension, addr 0x25cab30, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x34fa0c4, size 0x4c, virtual true, abstract: false, final false
   inline void AddExtension(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* extValue);
 
-  /// @brief Method AddExtension, addr 0x25ca95c, size 0x1d4, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x34f9eec, size 0x1d8, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method AddExtension, addr 0x25ca918, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method AddExtension, addr 0x34f9ea8, size 0x44, virtual false, abstract: false, final false
   inline void AddExtension(::StringW oid, bool critical, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method Generate, addr 0x25cafdc, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x34fa584, size 0x18, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method Generate, addr 0x25caff8, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Generate, addr 0x34fa59c, size 0x14, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::Org::BouncyCastle::Asn1::DerObjectIdentifier* digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest,
                                                               ::Org::BouncyCastle::Math::BigInteger* nonce);
 
-  /// @brief Method Generate, addr 0x25cad1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x34fa2b8, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
-  /// @brief Method Generate, addr 0x25cad24, size 0x2b8, virtual false, abstract: false, final false
+  /// @brief Method Generate, addr 0x34fa2c0, size 0x2c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Tsp::TimeStampRequest* Generate(::StringW digestAlgorithmOid, ::ArrayW<uint8_t, ::Array<uint8_t>*> digest, ::Org::BouncyCastle::Math::BigInteger* nonce);
 
   static inline ::Org::BouncyCastle::Tsp::TimeStampRequestGenerator* New_ctor();
 
-  /// @brief Method SetCertReq, addr 0x25ca8ac, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method SetCertReq, addr 0x34f9e38, size 0x70, virtual false, abstract: false, final false
   inline void SetCertReq(bool certReq);
 
-  /// @brief Method SetReqPolicy, addr 0x25ca844, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method SetReqPolicy, addr 0x34f9dcc, size 0x6c, virtual false, abstract: false, final false
   inline void SetReqPolicy(::StringW reqPolicy);
 
   constexpr ::Org::BouncyCastle::Asn1::DerBoolean* const& __cordl_internal_get_certReq() const;
@@ -110,7 +110,7 @@ public:
 
   constexpr void __cordl_internal_set_reqPolicy(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
 
-  /// @brief Method .ctor, addr 0x25cb010, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34fa5b0, size 0x6c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:

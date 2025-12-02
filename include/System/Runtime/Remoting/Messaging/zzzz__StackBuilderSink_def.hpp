@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessageSink_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StackBuilderSink)
 namespace System::Runtime::Remoting::Messaging {
@@ -30,7 +29,7 @@ class StackBuilderSink;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::StackBuilderSink);
-// Dependencies System.Object, System.Runtime.Remoting.Messaging.IMessageSink
+// Dependencies System.Object
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Messaging.StackBuilderSink
@@ -46,22 +45,22 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Messaging::IMessageSink"
   constexpr operator ::System::Runtime::Remoting::Messaging::IMessageSink*() noexcept;
 
-  /// @brief Method AsyncProcessMessage, addr 0x3cf30c0, size 0x11c, virtual true, abstract: false, final true
+  /// @brief Method AsyncProcessMessage, addr 0x5934e94, size 0x128, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                    ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method CheckParameters, addr 0x3cf2cfc, size 0x3c4, virtual false, abstract: false, final false
+  /// @brief Method CheckParameters, addr 0x5934b24, size 0x370, virtual false, abstract: false, final false
   inline void CheckParameters(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method ExecuteAsyncMessage, addr 0x3cf31dc, size 0x1e0, virtual false, abstract: false, final false
+  /// @brief Method ExecuteAsyncMessage, addr 0x5934fbc, size 0x214, virtual false, abstract: false, final false
   inline void ExecuteAsyncMessage(::System::Object* ob);
 
   static inline ::System::Runtime::Remoting::Messaging::StackBuilderSink* New_ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 
-  /// @brief Method SyncProcessMessage, addr 0x3cf2c30, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method SyncProcessMessage, addr 0x5934a44, size 0xe0, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method <AsyncProcessMessage>b__4_0, addr 0x3cf33bc, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method <AsyncProcessMessage>b__4_0, addr 0x59351d0, size 0x7c, virtual false, abstract: false, final false
   inline void _AsyncProcessMessage_b__4_0(::System::Object* data);
 
   constexpr ::System::Runtime::Remoting::Proxies::RealProxy* const& __cordl_internal_get__rp() const;
@@ -76,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__target(::System::MarshalByRefObject* value);
 
-  /// @brief Method .ctor, addr 0x3cf2b8c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59349cc, size 0x78, virtual false, abstract: false, final false
   inline void _ctor(::System::MarshalByRefObject* obj, bool forceInternalExecute);
 
   /// @brief Convert to "::System::Runtime::Remoting::Messaging::IMessageSink"
@@ -97,7 +96,7 @@ public:
   StackBuilderSink(StackBuilderSink const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3189 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3206 };
 
   /// @brief Field _target, offset: 0x10, size: 0x8, def value: None
   ::System::MarshalByRefObject* ____target;

@@ -1,20 +1,100 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/CreationContext.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/UIElements/zzzz__CreationContext_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TemplateAsset_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualTreeAsset_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::*)(
+    ::UnityEngine::UIElements::VisualTreeAsset*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*)>(
+    &::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::_ctor)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a88270;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>::get() })));
+    return ___internal_method;
+  }
+};
+inline void
+UnityEngine::UIElements::CreationContext_AttributeOverrideRange::_ctor(::UnityEngine::UIElements::VisualTreeAsset* sourceAsset,
+                                                                       ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceAsset, attributeOverrides);
+}
+// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "attributeOverrides", ty:
+// "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*", modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::CreationContext_AttributeOverrideRange(
+    ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides) noexcept {
+  this->sourceAsset = sourceAsset;
+  this->attributeOverrides = attributeOverrides;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::CreationContext_AttributeOverrideRange::CreationContext_AttributeOverrideRange() {}
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::*)(
+    ::UnityEngine::UIElements::VisualTreeAsset*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*, int32_t)>(
+    &::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::_ctor)> {
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6a88278;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
+inline void UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::_ctor(
+    ::UnityEngine::UIElements::VisualTreeAsset* sourceAsset, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides,
+    int32_t templateId) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sourceAsset, attributeOverrides, templateId);
+}
+// Ctor Parameters [CppParam { name: "sourceAsset", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "templateId", ty: "int32_t",
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "attributeOverrides", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>*",
+// modifiers: "", def_value: Some("{}") }]
+constexpr ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::CreationContext_SerializedDataOverrideRange(
+    ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> sourceAsset, int32_t templateId,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_UxmlSerializedDataOverride>* attributeOverrides) noexcept {
+  this->sourceAsset = sourceAsset;
+  this->templateId = templateId;
+  this->attributeOverrides = attributeOverrides;
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange::CreationContext_SerializedDataOverrideRange() {}
 //  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_target
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::VisualElement* (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::get_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d110;
+  constexpr static std::size_t addrs = 0x6a94654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "get_target",
@@ -28,12 +108,41 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::CreationContext::set_target)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d118;
+  constexpr static std::size_t addrs = 0x6a9465c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_target", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_veaIdsPath
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::UIElements::CreationContext::*)()>(
+    &::UnityEngine::UIElements::CreationContext::get_veaIdsPath)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a94664;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                               "get_veaIdsPath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.set_veaIdsPath
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::System::Collections::Generic::List_1<int32_t>*)>(
+    &::UnityEngine::UIElements::CreationContext::set_veaIdsPath)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a9466c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_veaIdsPath", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
     return ___internal_method;
   }
 };
@@ -43,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::VisualTreeAsset> (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::get_visualTreeAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d120;
+  constexpr static std::size_t addrs = 0x6a94674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
@@ -57,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
     &::UnityEngine::UIElements::CreationContext::set_visualTreeAsset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d128;
+  constexpr static std::size_t addrs = 0x6a9467c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -72,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* (
     ::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_slotInsertionPoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d130;
+  constexpr static std::size_t addrs = 0x6a94684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
@@ -86,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*)>(&::UnityEngine::UIElements::CreationContext::set_slotInsertionPoints)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d138;
+  constexpr static std::size_t addrs = 0x6a9468c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -99,10 +208,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_attributeOverrides
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* (
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* (
     ::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_attributeOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d140;
+  constexpr static std::size_t addrs = 0x6a94694;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
@@ -114,15 +223,121 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
-    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*)>(&::UnityEngine::UIElements::CreationContext::set_attributeOverrides)> {
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*)>(&::UnityEngine::UIElements::CreationContext::set_attributeOverrides)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x499d148;
+  constexpr static std::size_t addrs = 0x6a9469c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_attributeOverrides", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_serializedDataOverrides
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* (
+    ::UnityEngine::UIElements::CreationContext::*)()>(&::UnityEngine::UIElements::CreationContext::get_serializedDataOverrides)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a946a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                               "get_serializedDataOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.set_serializedDataOverrides
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*)>(&::UnityEngine::UIElements::CreationContext::set_serializedDataOverrides)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a946ac;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_serializedDataOverrides", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_namesPath
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::StringW>* (::UnityEngine::UIElements::CreationContext::*)()>(
+    &::UnityEngine::UIElements::CreationContext::get_namesPath)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a946b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                               "get_namesPath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.set_namesPath
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::System::Collections::Generic::List_1<::StringW>*)>(
+    &::UnityEngine::UIElements::CreationContext::set_namesPath)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a946bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((
+        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_namesPath", std::span<Il2CppClass const* const, 0>(),
+                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext.get_hasOverrides
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CreationContext::*)()>(
+    &::UnityEngine::UIElements::CreationContext::get_hasOverrides)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6a8d478;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                               "get_hasOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::VisualTreeAsset*)>(
+    &::UnityEngine::UIElements::CreationContext::_ctor)> {
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6a91518;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*)>(&::UnityEngine::UIElements::CreationContext::_ctor)> {
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6a94748;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get() })));
     return ___internal_method;
   }
 };
@@ -132,8 +347,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*, ::UnityEngine::UIElements::VisualTreeAsset*, ::UnityEngine::UIElements::VisualElement*)>(
     &::UnityEngine::UIElements::CreationContext::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x499d150;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x6a946c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -150,19 +365,45 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
-    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*, ::UnityEngine::UIElements::VisualTreeAsset*, ::UnityEngine::UIElements::VisualElement*)>(
-    &::UnityEngine::UIElements::CreationContext::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x499d1d0;
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*, ::UnityEngine::UIElements::VisualTreeAsset*,
+    ::UnityEngine::UIElements::VisualElement*)>(&::UnityEngine::UIElements::CreationContext::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6a947c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 4>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::CreationContext._ctor
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::CreationContext::*)(
+    ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*, ::UnityEngine::UIElements::VisualTreeAsset*,
+    ::UnityEngine::UIElements::VisualElement*, ::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<::StringW>*)>(
+    &::UnityEngine::UIElements::CreationContext::_ctor)> {
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6a88288;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
     return ___internal_method;
   }
 };
@@ -171,8 +412,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CreationContext::*)(::System::Object*)>(
     &::UnityEngine::UIElements::CreationContext::Equals)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x499d248;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x6a94860;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -186,8 +427,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::CreationContext::*)(::UnityEngine::UIElements::CreationContext)>(
     &::UnityEngine::UIElements::CreationContext::Equals)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x499d300;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x6a94930;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -201,8 +442,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::CreationContext::*)()>(
     &::UnityEngine::UIElements::CreationContext::GetHashCode)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x499d458;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x6a94a98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -230,6 +471,17 @@ inline void UnityEngine::UIElements::CreationContext::set_target(::UnityEngine::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::UIElements::CreationContext::get_veaIdsPath() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                             "get_veaIdsPath", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::CreationContext::set_veaIdsPath(::System::Collections::Generic::List_1<int32_t>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_veaIdsPath", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> UnityEngine::UIElements::CreationContext::get_visualTreeAsset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
                                                                              "get_visualTreeAsset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -253,17 +505,61 @@ inline void UnityEngine::UIElements::CreationContext::set_slotInsertionPoints(::
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* UnityEngine::UIElements::CreationContext::get_attributeOverrides() {
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* UnityEngine::UIElements::CreationContext::get_attributeOverrides() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
                                                                              "get_attributeOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*, false>(this, ___internal_method);
 }
-inline void UnityEngine::UIElements::CreationContext::set_attributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* value) {
+inline void UnityEngine::UIElements::CreationContext::set_attributeOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* value) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_attributeOverrides", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* UnityEngine::UIElements::CreationContext::get_serializedDataOverrides() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                             "get_serializedDataOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*, false>(this, ___internal_method);
+}
+inline void
+UnityEngine::UIElements::CreationContext::set_serializedDataOverrides(::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_serializedDataOverrides", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline ::System::Collections::Generic::List_1<::StringW>* UnityEngine::UIElements::CreationContext::get_namesPath() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "get_namesPath",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::StringW>*, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::CreationContext::set_namesPath(::System::Collections::Generic::List_1<::StringW>* value) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), "set_namesPath", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::CreationContext::get_hasOverrides() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(),
+                                                                             "get_hasOverrides", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::CreationContext::_ctor(::UnityEngine::UIElements::VisualTreeAsset* vta) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, vta);
+}
+inline void UnityEngine::UIElements::CreationContext::_ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
+                                                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slotInsertionPoints, attributeOverrides);
 }
 inline void UnityEngine::UIElements::CreationContext::_ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
                                                             ::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::VisualElement* target) {
@@ -276,16 +572,33 @@ inline void UnityEngine::UIElements::CreationContext::_ctor(::System::Collection
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slotInsertionPoints, vta, target);
 }
 inline void UnityEngine::UIElements::CreationContext::_ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
-                                                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* attributeOverrides,
+                                                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides,
                                                             ::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::VisualElement* target) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 4>{
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
-                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slotInsertionPoints, attributeOverrides, vta, target);
+}
+inline void UnityEngine::UIElements::CreationContext::_ctor(::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* slotInsertionPoints,
+                                                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* attributeOverrides,
+                                                            ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* serializedDataOverrides,
+                                                            ::UnityEngine::UIElements::VisualTreeAsset* vta, ::UnityEngine::UIElements::VisualElement* target,
+                                                            ::System::Collections::Generic::List_1<int32_t>* veaIdsPath, ::System::Collections::Generic::List_1<::StringW>* namesPath) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::CreationContext>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualTreeAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::StringW>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, slotInsertionPoints, attributeOverrides, serializedDataOverrides, vta, target, veaIdsPath, namesPath);
 }
 inline bool UnityEngine::UIElements::CreationContext::Equals(::System::Object* obj) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -311,18 +624,27 @@ constexpr UnityEngine::UIElements::CreationContext::operator ::System::IEquatabl
 constexpr ::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>* UnityEngine::UIElements::CreationContext::i___System__IEquatable_1___UnityEngine__UIElements__CreationContext_() {
   return static_cast<::System::IEquatable_1<::UnityEngine::UIElements::CreationContext>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "_visualTreeAsset_k__BackingField", ty: "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
+// Ctor Parameters [CppParam { name: "_target_k__BackingField", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_veaIdsPath_k__BackingField",
+// ty: "::System::Collections::Generic::List_1<int32_t>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_visualTreeAsset_k__BackingField", ty:
+// "::UnityW<::UnityEngine::UIElements::VisualTreeAsset>", modifiers: "", def_value: Some("{}") }, CppParam { name: "_slotInsertionPoints_k__BackingField", ty:
 // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::UIElements::VisualElement*>*", modifiers: "", def_value: Some("{}") }, CppParam { name: "_attributeOverrides_k__BackingField",
-// ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>*", modifiers: "", def_value: Some("{}") }]
+// ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>*", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "_serializedDataOverrides_k__BackingField", ty: "::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>*", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "_namesPath_k__BackingField", ty: "::System::Collections::Generic::List_1<::StringW>*", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::CreationContext::CreationContext(
-    ::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,
+    ::UnityEngine::UIElements::VisualElement* _target_k__BackingField, ::System::Collections::Generic::List_1<int32_t>* _veaIdsPath_k__BackingField,
+    ::UnityW<::UnityEngine::UIElements::VisualTreeAsset> _visualTreeAsset_k__BackingField,
     ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::UIElements::VisualElement*>* _slotInsertionPoints_k__BackingField,
-    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::TemplateAsset_AttributeOverride>* _attributeOverrides_k__BackingField) noexcept {
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_AttributeOverrideRange>* _attributeOverrides_k__BackingField,
+    ::System::Collections::Generic::List_1<::UnityEngine::UIElements::CreationContext_SerializedDataOverrideRange>* _serializedDataOverrides_k__BackingField,
+    ::System::Collections::Generic::List_1<::StringW>* _namesPath_k__BackingField) noexcept {
   this->_target_k__BackingField = _target_k__BackingField;
+  this->_veaIdsPath_k__BackingField = _veaIdsPath_k__BackingField;
   this->_visualTreeAsset_k__BackingField = _visualTreeAsset_k__BackingField;
   this->_slotInsertionPoints_k__BackingField = _slotInsertionPoints_k__BackingField;
   this->_attributeOverrides_k__BackingField = _attributeOverrides_k__BackingField;
+  this->_serializedDataOverrides_k__BackingField = _serializedDataOverrides_k__BackingField;
+  this->_namesPath_k__BackingField = _namesPath_k__BackingField;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::CreationContext::CreationContext() {}

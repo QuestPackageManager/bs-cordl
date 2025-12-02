@@ -30,8 +30,8 @@ constexpr ::GlobalNamespace::Noise3DTexturesGenerator_MaterialPropertyNameCouple
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Noise3DTexturesGenerator::*)()>(&::GlobalNamespace::Noise3DTexturesGenerator::Awake)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x408573c;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x5d3038c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Noise3DTexturesGenerator*>::get(), "Awake",
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::Color32, ::Array<::UnityEngine::Color32>*> (*)(
     int32_t, int32_t, int32_t, float_t, int32_t, float_t)>(&::GlobalNamespace::Noise3DTexturesGenerator::CreateNoisePixels)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x4085944;
+  constexpr static std::size_t size = 0x33c;
+  constexpr static std::size_t addrs = 0x5d305a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::Noise3DTexturesGenerator::*)()>(&::GlobalNamespace::Noise3DTexturesGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4085c5c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5d308e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::Noise3DTexturesGenerator*>::get(), ".ctor",

@@ -16,8 +16,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::*)()>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4118668;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5dc26a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -32,8 +32,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::*)(
     ::StringW, ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::System::Security::Cryptography::X509Certificates::X509Chain*, ::Mono::Security::Interface::MonoSslPolicyErrors)>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass0_0::_PublicToMono_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4118678;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5dc26a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::*)()>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4118670;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5dc26a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,8 +103,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::*)(::StringW, ::System::Security::Cryptography::X509Certificates::X509CertificateCollection*,
                                                                              ::System::Security::Cryptography::X509Certificates::X509Certificate*, ::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Mono::Net::Security::Private::CallbackHelpers___c__DisplayClass6_0::_MonoToInternal_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x411869c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5dc26c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,8 +159,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Mono::Security::Interface::MonoRemoteCertificateValidationCallback* (*)(::System::Net::Security::RemoteCertificateValidationCallback*)>(
         &::Mono::Net::Security::Private::CallbackHelpers::PublicToMono)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4117bcc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5dc1bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -174,8 +174,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Net::Security::LocalCertSelectionCallback* (*)(::Mono::Security::Interface::MonoLocalCertificateSelectionCallback*)>(&::Mono::Net::Security::Private::CallbackHelpers::MonoToInternal)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4112b48;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5dbc890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

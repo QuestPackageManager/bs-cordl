@@ -22,10 +22,10 @@ namespace UnityEngine::Networking {
 class CORDL_TYPE UnityWebRequestTexture : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetTexture, addr 0x4ae78e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6bf7198, size 0x8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri);
 
-  /// @brief Method GetTexture, addr 0x4ae78f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method GetTexture, addr 0x6bf71a0, size 0x100, virtual false, abstract: false, final false
   static inline ::UnityEngine::Networking::UnityWebRequest* GetTexture(::StringW uri, bool nonReadable);
 
 protected:
@@ -43,7 +43,7 @@ public:
   UnityWebRequestTexture(UnityWebRequestTexture const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19060 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22945 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

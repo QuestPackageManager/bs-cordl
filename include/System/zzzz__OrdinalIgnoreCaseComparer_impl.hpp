@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "System/OrdinalIgnoreCaseComparer.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__OrdinalComparer_impl.hpp"
 #include "System/zzzz__OrdinalIgnoreCaseComparer_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 //  Writing Method size for method: ::System::OrdinalIgnoreCaseComparer._ctor
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OrdinalIgnoreCaseComparer::*)()>(&::System::OrdinalIgnoreCaseComparer::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e00fc8;
+  constexpr static std::size_t addrs = 0x5a475e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::OrdinalIgnoreCaseComparer*>::get(), ".ctor",
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalIgnoreCaseComparer::*)(::StringW, ::StringW)>(
     &::System::OrdinalIgnoreCaseComparer::Compare)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e01950;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5a47f78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::OrdinalIgnoreCaseComparer::*)(::StringW, ::StringW)>(&::System::OrdinalIgnoreCaseComparer::Equals)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3e01968;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5a47f8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::OrdinalIgnoreCaseComparer::*)(::StringW)>(&::System::OrdinalIgnoreCaseComparer::GetHashCode)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3e01980;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5a47fa0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::OrdinalIgnoreCaseComparer::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::OrdinalIgnoreCaseComparer::GetObjectData)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3e019e4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x5a48008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

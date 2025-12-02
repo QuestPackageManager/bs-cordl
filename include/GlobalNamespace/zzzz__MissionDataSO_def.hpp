@@ -120,28 +120,28 @@ public:
 
   constexpr void __cordl_internal_set__songName(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d676c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360883c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_beatmapCharacteristic, addr 0x26d674c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapCharacteristic, addr 0x360881c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::BeatmapCharacteristicSO> get_beatmapCharacteristic();
 
-  /// @brief Method get_beatmapDifficulty, addr 0x26d6754, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapDifficulty, addr 0x3608824, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapDifficulty get_beatmapDifficulty();
 
-  /// @brief Method get_beatmapKey, addr 0x26d672c, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_beatmapKey, addr 0x36087e0, size 0x3c, virtual false, abstract: false, final false
   inline ::GlobalNamespace::BeatmapKey get_beatmapKey();
 
-  /// @brief Method get_gameplayModifiers, addr 0x26d675c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_gameplayModifiers, addr 0x360882c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::GameplayModifiers* get_gameplayModifiers();
 
-  /// @brief Method get_missionHelp, addr 0x26d6764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionHelp, addr 0x3608834, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionHelpSO> get_missionHelp();
 
-  /// @brief Method get_missionObjectives, addr 0x26d6724, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjectives, addr 0x36087d8, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> get_missionObjectives();
 
-  /// @brief Method get_songName, addr 0x26d671c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_songName, addr 0x36087d0, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_songName();
 
 protected:
@@ -159,7 +159,7 @@ public:
   MissionDataSO(MissionDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13045 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15022 };
 
   /// @brief Field _levelId, offset: 0x18, size: 0x8, def value: None
   ::StringW ____levelId;

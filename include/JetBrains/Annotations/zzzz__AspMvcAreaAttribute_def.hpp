@@ -34,16 +34,16 @@ public:
 
   constexpr void __cordl_internal_set__AnonymousProperty_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af3578, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c09588, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4af3580, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c0958c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW anonymousProperty);
 
-  /// @brief Method get_AnonymousProperty, addr 0x4af35a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_AnonymousProperty, addr 0x6c09594, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_AnonymousProperty();
 
-  /// @brief Method set_AnonymousProperty, addr 0x4af35b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_AnonymousProperty, addr 0x6c0959c, size 0x8, virtual false, abstract: false, final false
   inline void set_AnonymousProperty(::StringW value);
 
 protected:
@@ -61,7 +61,7 @@ public:
   AspMvcAreaAttribute(AspMvcAreaAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18484 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22271 };
 
   /// @brief Field <AnonymousProperty>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____AnonymousProperty_k__BackingField;

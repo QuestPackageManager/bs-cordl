@@ -18,7 +18,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Touchscreen* (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_screen)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46006e8;
+  constexpr static std::size_t addrs = 0x6388228;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_index)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46006f0;
+  constexpr static std::size_t addrs = 0x6388230;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_isActive)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x46006f8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6388238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector2 (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_screenPosition)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x46008b4;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6388404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_lastTouch)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x460094c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x63884a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_currentTouch)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4600770;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x63882b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -101,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)()>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::get_touchHistory)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4600afc;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x638865c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::EnhancedTouch::Finger*>::get(),
@@ -115,8 +115,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::Touchscreen*, int32_t, ::UnityEngine::InputSystem::LowLevel::InputUpdateType)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::_ctor)> {
-  constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x4600b6c;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x63886c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -132,8 +132,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::InputSystem::InputControl*, double_t, ::UnityEngine::InputSystem::LowLevel::InputEventPtr)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::ShouldRecordTouch)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4600ec0;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6388a70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::LowLevel::InputStateHistory_Record)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::OnTouchRecorded)> {
-  constexpr static std::size_t size = 0x28c;
-  constexpr static std::size_t addrs = 0x4600fa8;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x6388b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,8 +164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::Touch (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(uint32_t)>(
     &::UnityEngine::InputSystem::EnhancedTouch::Finger::FindTouch)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x460125c;
+  constexpr static std::size_t size = 0x324;
+  constexpr static std::size_t addrs = 0x6388e68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -179,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::EnhancedTouch::TouchHistory (::UnityEngine::InputSystem::EnhancedTouch::Finger::*)(
     ::UnityEngine::InputSystem::EnhancedTouch::Touch)>(&::UnityEngine::InputSystem::EnhancedTouch::Finger::GetTouchHistory)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x4601590;
+  constexpr static std::size_t size = 0x240;
+  constexpr static std::size_t addrs = 0x638918c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

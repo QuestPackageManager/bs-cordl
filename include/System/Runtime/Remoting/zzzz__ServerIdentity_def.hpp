@@ -71,21 +71,21 @@ public:
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
-  /// @brief Method AttachServerObject, addr 0x3cd3970, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method AttachServerObject, addr 0x5916a70, size 0x60, virtual false, abstract: false, final false
   inline void AttachServerObject(::System::MarshalByRefObject* serverObject, ::System::Runtime::Remoting::Contexts::Context* context);
 
-  /// @brief Method CreateObjRef, addr 0x3cd4c3c, size 0x1a4, virtual true, abstract: false, final false
+  /// @brief Method CreateObjRef, addr 0x5917c80, size 0x18c, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::ObjRef* CreateObjRef(::System::Type* requestedType);
 
-  /// @brief Method DisposeServerObject, addr 0x3cd4bc0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DisposeServerObject, addr 0x5917c2c, size 0x54, virtual false, abstract: false, final false
   inline void DisposeServerObject();
 
   static inline ::System::Runtime::Remoting::ServerIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method OnLifetimeExpired, addr 0x3cd4bbc, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method OnLifetimeExpired, addr 0x5917c28, size 0x4, virtual true, abstract: false, final false
   inline void OnLifetimeExpired();
 
-  /// @brief Method StartTrackingLifetime, addr 0x3cd1494, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method StartTrackingLifetime, addr 0x5914694, size 0x1ac, virtual false, abstract: false, final false
   inline void StartTrackingLifetime(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
   /// @brief Method SyncObjectProcessMessage, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -121,19 +121,19 @@ public:
 
   constexpr void __cordl_internal_set__serverSink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cd49c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5917a28, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method get_Context, addr 0x3cd5390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Context, addr 0x5918340, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Contexts::Context* get_Context();
 
-  /// @brief Method get_Lease, addr 0x3cd5388, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Lease, addr 0x5918338, size 0x8, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Lifetime::Lease* get_Lease();
 
-  /// @brief Method get_ObjectType, addr 0x3cd49f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectType, addr 0x5917a38, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ObjectType();
 
-  /// @brief Method set_Context, addr 0x3cd5398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Context, addr 0x5918348, size 0x8, virtual false, abstract: false, final false
   inline void set_Context(::System::Runtime::Remoting::Contexts::Context* value);
 
 protected:
@@ -151,7 +151,7 @@ public:
   ServerIdentity(ServerIdentity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3071 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3088 };
 
   /// @brief Field _objectType, offset: 0x48, size: 0x8, def value: None
   ::System::Type* ____objectType;

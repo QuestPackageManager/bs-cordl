@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/EC/Endo/zzzz__ECEndomorphism_def.hpp"
 CORDL_MODULE_EXPORT(GlvEndomorphism)
+namespace Org::BouncyCastle::Math::EC::Endo {
+class ECEndomorphism;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -14,7 +16,7 @@ class GlvEndomorphism;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Endo::GlvEndomorphism);
-// Dependencies Org.BouncyCastle.Math.EC.Endo.ECEndomorphism
+// Dependencies
 namespace Org::BouncyCastle::Math::EC::Endo {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Endo.GlvEndomorphism

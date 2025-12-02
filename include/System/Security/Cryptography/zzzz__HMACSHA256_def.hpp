@@ -23,10 +23,10 @@ public:
 
   static inline ::System::Security::Cryptography::HMACSHA256* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
-  /// @brief Method .ctor, addr 0x3ca16cc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e54dc, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3ca16f0, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e5500, size 0xb8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> key);
 
 protected:
@@ -44,7 +44,7 @@ public:
   HMACSHA256(HMACSHA256 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2954 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

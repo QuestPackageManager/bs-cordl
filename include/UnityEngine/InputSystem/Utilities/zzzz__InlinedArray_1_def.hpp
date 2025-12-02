@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(InlinedArray_1)
@@ -21,10 +16,16 @@ namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -42,7 +43,7 @@ template <typename TValue> struct InlinedArray_1_Enumerator;
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::InlinedArray_1);
 MARK_GEN_VAL_T(::UnityEngine::InputSystem::Utilities::InlinedArray_1_Enumerator);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -156,7 +157,7 @@ public:
   constexpr InlinedArray_1(int32_t length, TValue firstValue, ::ArrayW<TValue, ::Array<TValue>*> additionalValues) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7079 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9137 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -174,7 +175,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::InputSystem::Utilities
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
+// Dependencies UnityEngine.InputSystem.Utilities.InlinedArray`1<TValue>
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -229,7 +230,7 @@ public:
   constexpr InlinedArray_1_Enumerator(::UnityEngine::InputSystem::Utilities::InlinedArray_1<TValue> array, int32_t index) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7078 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9136 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };

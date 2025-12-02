@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IProvider_def.hpp"
 CORDL_MODULE_EXPORT(MethodProviderWithContainer_3)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -25,6 +24,9 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+class IProvider;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -36,7 +38,7 @@ template <typename TParam1, typename TParam2, typename TValue> class MethodProvi
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MethodProviderWithContainer_3);
-// Dependencies System.Object, Zenject.IProvider
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TValue>
@@ -97,7 +99,7 @@ public:
   MethodProviderWithContainer_3(MethodProviderWithContainer_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12555 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14536 };
 
   /// @brief Field _method, offset: 0x10, size: 0x8, def value: None
   ::System::Func_4<::Zenject::DiContainer*, TParam1, TParam2, TValue>* ____method;

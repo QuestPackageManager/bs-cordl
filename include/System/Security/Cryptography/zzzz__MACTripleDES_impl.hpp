@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MACTripleDES::*)()>(&::System::Security::Cryptography::MACTripleDES::_ctor)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3ca1b5c;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x58e5934;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::MACTripleDES*>::get(), ".ctor",
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MACTripleDES::*)()>(
     &::System::Security::Cryptography::MACTripleDES::Initialize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ca1c8c;
+  constexpr static std::size_t addrs = 0x58e5a60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MACTripleDES::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Security::Cryptography::MACTripleDES::HashCore)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3ca1c94;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x58e5a68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Security::Cryptography::MACTripleDES::*)()>(
     &::System::Security::Cryptography::MACTripleDES::HashFinal)> {
-  constexpr static std::size_t size = 0x144;
-  constexpr static std::size_t addrs = 0x3ca1e84;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x58e5c5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MACTripleDES::*)(bool)>(
     &::System::Security::Cryptography::MACTripleDES::Dispose)> {
-  constexpr static std::size_t size = 0x104;
-  constexpr static std::size_t addrs = 0x3ca2040;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x58e5e20;
 
   inline static ::MethodInfo const* methodInfo() {
 

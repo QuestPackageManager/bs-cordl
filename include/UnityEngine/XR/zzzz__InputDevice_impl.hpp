@@ -1,14 +1,15 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/XR/InputDevice.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/XR/zzzz__InputDevice_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "UnityEngine/XR/zzzz__InputDeviceCharacteristics_def.hpp"
 //  Writing Method size for method: ::UnityEngine::XR::InputDevice._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::InputDevice::*)(uint64_t)>(&::UnityEngine::XR::InputDevice::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4aeaff8;
+  constexpr static std::size_t addrs = 0x6bffb84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::get_deviceId)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4aeb008;
+  constexpr static std::size_t addrs = 0x6bffb94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_deviceId",
@@ -35,10 +36,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::get_isValid)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4aeb020;
+  constexpr static std::size_t addrs = 0x6bffbac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_isValid",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::InputDevice.get_name
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::get_name)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6bffc64;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_name",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -47,11 +61,25 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::get_manufacturer)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4aeb0d8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6bffd50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_manufacturer",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::XR::InputDevice.get_characteristics
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::XR::InputDeviceCharacteristics (::UnityEngine::XR::InputDevice::*)()>(
+    &::UnityEngine::XR::InputDevice::get_characteristics)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6bffe3c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_characteristics",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -61,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::IsValidId)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aeb07c;
+  constexpr static std::size_t addrs = 0x6bffc08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "IsValidId",
@@ -75,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputDevice::*)(uint32_t, float_t, float_t)>(
     &::UnityEngine::XR::InputDevice::SendHapticImpulse)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x4aeb170;
+  constexpr static std::size_t addrs = 0x6bffed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -90,7 +118,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::StopHaptics)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4aeb2c4;
+  constexpr static std::size_t addrs = 0x6c00028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "StopHaptics",
@@ -102,8 +130,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputDevice::*)(::System::Object*)>(&::UnityEngine::XR::InputDevice::Equals)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4aeb358;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x6c000bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,7 +145,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::XR::InputDevice::*)(::UnityEngine::XR::InputDevice)>(&::UnityEngine::XR::InputDevice::Equals)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4aeb3e8;
+  constexpr static std::size_t addrs = 0x6c00154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -130,8 +158,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::XR::InputDevice::*)()>(&::UnityEngine::XR::InputDevice::GetHashCode)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4aeb410;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c0017c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,10 +184,20 @@ inline bool UnityEngine::XR::InputDevice::get_isValid() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
+inline ::StringW UnityEngine::XR::InputDevice::get_name() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_name",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
 inline ::StringW UnityEngine::XR::InputDevice::get_manufacturer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_manufacturer",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::UnityEngine::XR::InputDeviceCharacteristics UnityEngine::XR::InputDevice::get_characteristics() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "get_characteristics",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::XR::InputDeviceCharacteristics, false>(this, ___internal_method);
 }
 inline bool UnityEngine::XR::InputDevice::IsValidId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::XR::InputDevice>::get(), "IsValidId",

@@ -4,8 +4,18 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__LightGroupSubsystem_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(LightTransformGroup_3)
+namespace GlobalNamespace {
+class ILightGroup;
+}
+namespace GlobalNamespace {
+class ILightTransformGroup;
+}
+namespace GlobalNamespace {
+struct LightTransformGroupType;
+}
 namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
@@ -47,17 +57,35 @@ public:
 
   __declspec(property(get = get_count)) int32_t count;
 
+  __declspec(property(get = get_groupName)) ::StringW groupName;
+
   __declspec(property(get = get_mirrorX)) bool mirrorX;
 
   __declspec(property(get = get_mirrorY)) bool mirrorY;
 
   __declspec(property(get = get_mirrorZ)) bool mirrorZ;
 
+  __declspec(property(get = get_numberOfElements)) int32_t numberOfElements;
+
+  __declspec(property(get = get_transformGroupType)) ::GlobalNamespace::LightTransformGroupType transformGroupType;
+
   __declspec(property(get = get_xTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* xTransforms;
+
+  __declspec(property(get = get_xTransformsCount)) int32_t xTransformsCount;
 
   __declspec(property(get = get_yTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* yTransforms;
 
+  __declspec(property(get = get_yTransformsCount)) int32_t yTransformsCount;
+
   __declspec(property(get = get_zTransforms)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* zTransforms;
+
+  __declspec(property(get = get_zTransformsCount)) int32_t zTransformsCount;
+
+  /// @brief Convert operator to "::GlobalNamespace::ILightGroup"
+  constexpr operator ::GlobalNamespace::ILightGroup*() noexcept;
+
+  /// @brief Convert operator to "::GlobalNamespace::ILightTransformGroup"
+  constexpr operator ::GlobalNamespace::ILightTransformGroup*() noexcept;
 
   static inline ::GlobalNamespace::LightTransformGroup_3<TX, TY, TZ>* New_ctor();
 
@@ -103,23 +131,47 @@ public:
   /// @brief Method get_count, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t get_count();
 
-  /// @brief Method get_mirrorX, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method get_groupName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline ::StringW get_groupName();
+
+  /// @brief Method get_mirrorX, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_mirrorX();
 
-  /// @brief Method get_mirrorY, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_mirrorY();
 
-  /// @brief Method get_mirrorZ, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  /// @brief Method get_mirrorZ, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline bool get_mirrorZ();
+
+  /// @brief Method get_numberOfElements, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_numberOfElements();
+
+  /// @brief Method get_transformGroupType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline ::GlobalNamespace::LightTransformGroupType get_transformGroupType();
 
   /// @brief Method get_xTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_xTransforms();
 
+  /// @brief Method get_xTransformsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_xTransformsCount();
+
   /// @brief Method get_yTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_yTransforms();
 
+  /// @brief Method get_yTransformsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_yTransformsCount();
+
   /// @brief Method get_zTransforms, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Transform>>* get_zTransforms();
+
+  /// @brief Method get_zTransformsCount, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
+  inline int32_t get_zTransformsCount();
+
+  /// @brief Convert to "::GlobalNamespace::ILightGroup"
+  constexpr ::GlobalNamespace::ILightGroup* i___GlobalNamespace__ILightGroup() noexcept;
+
+  /// @brief Convert to "::GlobalNamespace::ILightTransformGroup"
+  constexpr ::GlobalNamespace::ILightTransformGroup* i___GlobalNamespace__ILightTransformGroup() noexcept;
 
 protected:
   // Ctor Parameters []
@@ -136,7 +188,7 @@ public:
   LightTransformGroup_3(LightTransformGroup_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4311 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5894 };
 
   /// @brief Field _mirrorX, offset: 0x28, size: 0x1, def value: None
   bool ____mirrorX;

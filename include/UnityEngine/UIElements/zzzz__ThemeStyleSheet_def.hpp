@@ -20,10 +20,10 @@ public:
   // Declarations
   static inline ::UnityEngine::UIElements::ThemeStyleSheet* New_ctor();
 
-  /// @brief Method OnEnable, addr 0x4a903fc, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x6a6a5dc, size 0x1c, virtual true, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method .ctor, addr 0x4a90420, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a6a5f8, size 0x5c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,12 +41,12 @@ public:
   ThemeStyleSheet(ThemeStyleSheet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5084 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ThemeStyleSheet, 0x98>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::ThemeStyleSheet, 0xa0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::ThemeStyleSheet);

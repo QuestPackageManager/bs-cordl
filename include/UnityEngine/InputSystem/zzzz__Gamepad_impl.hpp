@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/Gamepad.hpp"
 #include "UnityEngine/InputSystem/Haptics/zzzz__DualMotorRumble_impl.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_impl.hpp"
-#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputDevice_impl.hpp"
 #include "UnityEngine/InputSystem/zzzz__Gamepad_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__ButtonControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__DpadControl_def.hpp"
 #include "UnityEngine/InputSystem/Controls/zzzz__StickControl_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IDualMotorRumble_def.hpp"
+#include "UnityEngine/InputSystem/Haptics/zzzz__IHaptics_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__GamepadButton_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__ReadOnlyArray_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::InputSystem::Gamepad.get_buttonWest
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_buttonWest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4582fec;
+  constexpr static std::size_t addrs = 0x6300e2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_buttonWest",
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_buttonWest)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4582ff4;
+  constexpr static std::size_t addrs = 0x6300e34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -45,7 +45,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_buttonNorth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4582ffc;
+  constexpr static std::size_t addrs = 0x6300e3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_buttonNorth",
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_buttonNorth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583004;
+  constexpr static std::size_t addrs = 0x6300e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_buttonSouth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458300c;
+  constexpr static std::size_t addrs = 0x6300e4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_buttonSouth",
@@ -88,7 +88,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_buttonSouth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583014;
+  constexpr static std::size_t addrs = 0x6300e54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_buttonEast)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458301c;
+  constexpr static std::size_t addrs = 0x6300e5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_buttonEast",
@@ -117,7 +117,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_buttonEast)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583024;
+  constexpr static std::size_t addrs = 0x6300e64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_leftStickButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458302c;
+  constexpr static std::size_t addrs = 0x6300e6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(),
@@ -146,7 +146,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_leftStickButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583034;
+  constexpr static std::size_t addrs = 0x6300e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -161,7 +161,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_rightStickButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458303c;
+  constexpr static std::size_t addrs = 0x6300e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(),
@@ -175,7 +175,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_rightStickButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583044;
+  constexpr static std::size_t addrs = 0x6300e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -190,7 +190,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_startButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458304c;
+  constexpr static std::size_t addrs = 0x6300e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_startButton",
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_startButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583054;
+  constexpr static std::size_t addrs = 0x6300e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,7 +219,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_selectButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458305c;
+  constexpr static std::size_t addrs = 0x6300e9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_selectButton",
@@ -233,7 +233,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_selectButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583064;
+  constexpr static std::size_t addrs = 0x6300ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -248,7 +248,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::DpadControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_dpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458306c;
+  constexpr static std::size_t addrs = 0x6300eac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_dpad",
@@ -262,7 +262,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::DpadControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_dpad)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583074;
+  constexpr static std::size_t addrs = 0x6300eb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -277,7 +277,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_leftShoulder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458307c;
+  constexpr static std::size_t addrs = 0x6300ebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_leftShoulder",
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_leftShoulder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583084;
+  constexpr static std::size_t addrs = 0x6300ec4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_rightShoulder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458308c;
+  constexpr static std::size_t addrs = 0x6300ecc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_rightShoulder",
@@ -320,7 +320,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_rightShoulder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583094;
+  constexpr static std::size_t addrs = 0x6300ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -335,7 +335,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::StickControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_leftStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458309c;
+  constexpr static std::size_t addrs = 0x6300edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_leftStick",
@@ -349,7 +349,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::StickControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_leftStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830a4;
+  constexpr static std::size_t addrs = 0x6300ee4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -364,7 +364,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::StickControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_rightStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830ac;
+  constexpr static std::size_t addrs = 0x6300eec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_rightStick",
@@ -378,7 +378,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::StickControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_rightStick)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830b4;
+  constexpr static std::size_t addrs = 0x6300ef4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -393,7 +393,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_leftTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830bc;
+  constexpr static std::size_t addrs = 0x6300efc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_leftTrigger",
@@ -407,7 +407,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_leftTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830c4;
+  constexpr static std::size_t addrs = 0x6300f04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -422,7 +422,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_rightTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830cc;
+  constexpr static std::size_t addrs = 0x6300f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_rightTrigger",
@@ -436,7 +436,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::Controls::ButtonControl*)>(
     &::UnityEngine::InputSystem::Gamepad::set_rightTrigger)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830d4;
+  constexpr static std::size_t addrs = 0x6300f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -451,7 +451,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_aButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830dc;
+  constexpr static std::size_t addrs = 0x6300f1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_aButton",
@@ -465,7 +465,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_bButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830e4;
+  constexpr static std::size_t addrs = 0x6300f24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_bButton",
@@ -479,7 +479,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_xButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830ec;
+  constexpr static std::size_t addrs = 0x6300f2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_xButton",
@@ -493,7 +493,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_yButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830f4;
+  constexpr static std::size_t addrs = 0x6300f34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_yButton",
@@ -507,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_triangleButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45830fc;
+  constexpr static std::size_t addrs = 0x6300f3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(),
@@ -521,7 +521,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_squareButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583104;
+  constexpr static std::size_t addrs = 0x6300f44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_squareButton",
@@ -535,7 +535,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_circleButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x458310c;
+  constexpr static std::size_t addrs = 0x6300f4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_circleButton",
@@ -549,7 +549,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (::UnityEngine::InputSystem::Gamepad::*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_crossButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4583114;
+  constexpr static std::size_t addrs = 0x6300f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_crossButton",
@@ -563,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Controls::ButtonControl* (
     ::UnityEngine::InputSystem::Gamepad::*)(::UnityEngine::InputSystem::LowLevel::GamepadButton)>(&::UnityEngine::InputSystem::Gamepad::get_Item)> {
   constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x458311c;
+  constexpr static std::size_t addrs = 0x6300f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -576,8 +576,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Gamepad* (*)()>(&::UnityEngine::InputSystem::Gamepad::get_current)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x458327c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x63010bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_current",
@@ -589,8 +589,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::InputSystem::Gamepad*)>(&::UnityEngine::InputSystem::Gamepad::set_current)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x45832c4;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6301108;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,8 +604,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::Gamepad*> (*)()>(
     &::UnityEngine::InputSystem::Gamepad::get_all)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4583310;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6301158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), "get_all",
@@ -617,8 +617,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::FinishSetup)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x4583390;
+  constexpr static std::size_t size = 0x308;
+  constexpr static std::size_t addrs = 0x63011c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -631,8 +631,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::MakeCurrent)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4583670;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x63014c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -646,7 +646,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::OnAdded)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x45836c0;
+  constexpr static std::size_t addrs = 0x630151c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -659,8 +659,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::OnRemoved)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4583738;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6301594;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -674,7 +674,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::PauseHaptics)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4583850;
+  constexpr static std::size_t addrs = 0x63016d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -688,7 +688,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::ResumeHaptics)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4583860;
+  constexpr static std::size_t addrs = 0x63016e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -702,7 +702,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::ResetHaptics)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4583870;
+  constexpr static std::size_t addrs = 0x63016f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -717,7 +717,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)(float_t, float_t)>(
     &::UnityEngine::InputSystem::Gamepad::SetMotorSpeeds)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4583880;
+  constexpr static std::size_t addrs = 0x6301700;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -731,7 +731,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Gamepad::*)()>(&::UnityEngine::InputSystem::Gamepad::_ctor)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4583890;
+  constexpr static std::size_t addrs = 0x6301710;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Gamepad*>::get(), ".ctor",

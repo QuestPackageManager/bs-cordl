@@ -4,6 +4,7 @@ module;
 
 #pragma once
 #include "Unity/Profiling/LowLevel/Unsafe/ProfilerCategoryDescription.hpp"
+#include "Unity/Profiling/LowLevel/Unsafe/ProfilerMarkerData.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/ProfilerRecorderDescription.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/ProfilerRecorderHandle.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/ProfilerUnsafeUtility.hpp"

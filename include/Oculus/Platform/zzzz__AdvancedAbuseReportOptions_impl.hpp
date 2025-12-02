@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(&::Oculus::Platform::AdvancedAbuseReportOptions::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3f5aec8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b9edb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AdvancedAbuseReportOptions*>::get(), ".ctor",
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::StringW, ::StringW)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetDeveloperDefinedContext)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3f5af94;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5b9ee78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::ClearDeveloperDefinedContext)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f5b0c4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b9efac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AdvancedAbuseReportOptions*>::get(),
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::StringW)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetObjectType)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5b198;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b9f084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::Oculus::Platform::AbuseReportType)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetReportType)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5b2a0;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b9f194;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(uint64_t)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::AddSuggestedUser)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5b38c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b9f284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::ClearSuggestedUsers)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3f5b478;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5b9f374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Oculus::Platform::AdvancedAbuseReportOptions*>::get(),
@@ -112,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)(::Oculus::Platform::AbuseReportVideoMode)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::SetVideoMode)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3f5b54c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5b9f44c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -128,7 +128,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::Oculus::Platform::AdvancedAbuseReportOptions*)>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::op_Explicit___System__IntPtr)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3f5b638;
+  constexpr static std::size_t addrs = 0x5b9f53c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Oculus::Platform::AdvancedAbuseReportOptions::*)()>(
     &::Oculus::Platform::AdvancedAbuseReportOptions::Finalize)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x3f5b644;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x5b9f548;
 
   inline static ::MethodInfo const* methodInfo() {
 

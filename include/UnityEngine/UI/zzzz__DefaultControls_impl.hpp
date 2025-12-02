@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::*)(
     ::StringW, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::CreateGameObject)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x495e52c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x69ebbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::*)()>(
     &::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x495e598;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x69ebc34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls_DefaultRuntimeFactory*>::get(),
@@ -119,8 +119,8 @@ constexpr ::UnityEngine::UI::DefaultControls_Resources::DefaultControls_Resource
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UI::DefaultControls_IFactoryControls* (*)()>(&::UnityEngine::UI::DefaultControls::get_factory)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4959c74;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x69e7090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::DefaultControls*>::get(), "get_factory",
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(
     ::StringW, ::UnityEngine::Vector2, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls::CreateUIElementRoot)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4959ccc;
+  constexpr static std::size_t size = 0x174;
+  constexpr static std::size_t addrs = 0x69e70ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(
     ::StringW, ::UnityEngine::GameObject*, ::ArrayW<::System::Type*, ::Array<::System::Type*>*>)>(&::UnityEngine::UI::DefaultControls::CreateUIObject)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4959e2c;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x69e7260;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -167,7 +167,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Text*)>(&::UnityEngine::UI::DefaultControls::SetDefaultTextValues)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x495a054;
+  constexpr static std::size_t addrs = 0x69e74a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -180,8 +180,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&::UnityEngine::UI::DefaultControls::SetDefaultColorTransitionValues)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x495a130;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x69e7584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(
     &::UnityEngine::UI::DefaultControls::SetParentAndAlign)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4959f54;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x69e73a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -210,8 +210,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, int32_t)>(&::UnityEngine::UI::DefaultControls::SetLayerRecursively)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x495a190;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x69e75e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreatePanel)> {
-  constexpr static std::size_t size = 0x2bc;
-  constexpr static std::size_t addrs = 0x495a274;
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x69e76d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateButton)> {
-  constexpr static std::size_t size = 0x3ec;
-  constexpr static std::size_t addrs = 0x495a864;
+  constexpr static std::size_t size = 0x424;
+  constexpr static std::size_t addrs = 0x69e7cf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -256,8 +256,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateText)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x495ac50;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x69e8118;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateImage)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x495adf0;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x69e82b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,8 +286,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateRawImage)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x495af2c;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x69e83e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,8 +301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateSlider)> {
-  constexpr static std::size_t size = 0x6bc;
-  constexpr static std::size_t addrs = 0x495b068;
+  constexpr static std::size_t size = 0x6e0;
+  constexpr static std::size_t addrs = 0x69e851c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -316,8 +316,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateScrollbar)> {
-  constexpr static std::size_t size = 0x47c;
-  constexpr static std::size_t addrs = 0x495b724;
+  constexpr static std::size_t size = 0x4a8;
+  constexpr static std::size_t addrs = 0x69e8bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,8 +331,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateToggle)> {
-  constexpr static std::size_t size = 0x574;
-  constexpr static std::size_t addrs = 0x495bba0;
+  constexpr static std::size_t size = 0x598;
+  constexpr static std::size_t addrs = 0x69e90a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -346,8 +346,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateInputField)> {
-  constexpr static std::size_t size = 0x624;
-  constexpr static std::size_t addrs = 0x495c114;
+  constexpr static std::size_t size = 0x674;
+  constexpr static std::size_t addrs = 0x69e963c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,8 +361,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateDropdown)> {
-  constexpr static std::size_t size = 0x122c;
-  constexpr static std::size_t addrs = 0x495c738;
+  constexpr static std::size_t size = 0x12c8;
+  constexpr static std::size_t addrs = 0x69e9cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -376,8 +376,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::UnityEngine::UI::DefaultControls_Resources)>(
     &::UnityEngine::UI::DefaultControls::CreateScrollView)> {
-  constexpr static std::size_t size = 0x8d8;
-  constexpr static std::size_t addrs = 0x495db7c;
+  constexpr static std::size_t size = 0x940;
+  constexpr static std::size_t addrs = 0x69eb1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

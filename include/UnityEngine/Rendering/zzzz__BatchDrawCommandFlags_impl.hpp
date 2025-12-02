@@ -12,4 +12,7 @@ constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering
 constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::HasMotion{ static_cast<int32_t>(0x2) };
 constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::IsLightMapped{ static_cast<int32_t>(0x4) };
 constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::HasSortingPosition{ static_cast<int32_t>(0x8) };
-constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::LODCrossFade{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::LODCrossFadeKeyword{ static_cast<int32_t>(0x10) };
+constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::LODCrossFadeValuePacked{ static_cast<int32_t>(0x20) };
+constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::LODCrossFade{ static_cast<int32_t>(0x30) };
+constexpr ::UnityEngine::Rendering::BatchDrawCommandFlags UnityEngine::Rendering::BatchDrawCommandFlags::UseLegacyLightmapsKeyword{ static_cast<int32_t>(0x40) };

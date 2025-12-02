@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiMessage* (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::ParseBytes)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x264cd6c;
+  constexpr static std::size_t addrs = 0x357c2dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)(::Org::BouncyCastle::Asn1::Cmp::PkiMessage*)>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x264cd84;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x357c2f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::_ctor)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x264cdac;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x357c2fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiHeader* (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::get_Header)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x264cdec;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x357c324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>::get(),
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiBody* (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::get_Body)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x264ce0c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x357c340;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>::get(), "get_Body",
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::get_HasProtection)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x264ce2c;
+  constexpr static std::size_t addrs = 0x357c35c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiMessage* (::Org::BouncyCastle::Cmp::GeneralPkiMessage::*)()>(
     &::Org::BouncyCastle::Cmp::GeneralPkiMessage::ToAsn1Structure)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x264ce58;
+  constexpr static std::size_t addrs = 0x357c388;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cmp::GeneralPkiMessage*>::get(),

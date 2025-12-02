@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::Physics2DRaycaster::*)()>(
     &::UnityEngine::EventSystems::Physics2DRaycaster::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4ae1e5c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6beee10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::EventSystems::Physics2DRaycaster*>::get(), ".ctor",
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::EventSystems::Physics2DRaycaster::*)(
     ::UnityEngine::EventSystems::PointerEventData*, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*)>(&::UnityEngine::EventSystems::Physics2DRaycaster::Raycast)> {
-  constexpr static std::size_t size = 0x6ec;
-  constexpr static std::size_t addrs = 0x4ae1eac;
+  constexpr static std::size_t size = 0x658;
+  constexpr static std::size_t addrs = 0x6beee28;
 
   inline static ::MethodInfo const* methodInfo() {
 

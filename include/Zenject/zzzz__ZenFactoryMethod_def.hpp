@@ -30,18 +30,18 @@ namespace Zenject {
 class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x4af2b0c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x6c08eec, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x4af2b2c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x6c08f0c, size 0xc, virtual true, abstract: false, final false
   inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x4af2af8, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x6c08ed8, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
   static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x4af29f8, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c08d94, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -59,7 +59,7 @@ public:
   ZenFactoryMethod(ZenFactoryMethod const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22218 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

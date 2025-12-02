@@ -23,10 +23,10 @@ namespace System {
 struct CORDL_TYPE ArgIterator {
 public:
   // Declarations
-  /// @brief Method Equals, addr 0x3e32704, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5a783fc, size 0x4c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* o);
 
-  /// @brief Method GetHashCode, addr 0x3e32750, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5a78448, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   // Ctor Parameters []
@@ -38,7 +38,7 @@ public:
   constexpr ArgIterator(::System::IntPtr sig, ::System::IntPtr args, int32_t next_arg, int32_t num_args) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2585 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2594 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

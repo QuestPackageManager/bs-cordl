@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::InputSystem::Android::AndroidGamepad* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4605a08, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638d67c, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,12 +38,12 @@ public:
   AndroidGamepad(AndroidGamepad const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8893 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidGamepad, 0x1f0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::AndroidGamepad, 0x208>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android
 NEED_NO_BOX(::UnityEngine::InputSystem::Android::AndroidGamepad);

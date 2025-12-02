@@ -3,13 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Linq/zzzz__Buffer_1_def.hpp"
-#include "System/Linq/zzzz__IOrderedEnumerable_1_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OrderedEnumerable_1)
@@ -21,6 +15,9 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -38,6 +35,9 @@ namespace System {
 template <typename T, typename TResult> class Func_2;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 // Forward declare root types
@@ -50,7 +50,7 @@ template <typename TElement> class OrderedEnumerable_1__GetEnumerator_d__1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::OrderedEnumerable_1);
 MARK_GEN_REF_PTR_T(::System::Linq::OrderedEnumerable_1__GetEnumerator_d__1);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Linq.Buffer`1<TElement>, System.Object
+// Dependencies System.Linq.Buffer`1<TElement>, System.Object
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -170,7 +170,7 @@ public:
   OrderedEnumerable_1__GetEnumerator_d__1(OrderedEnumerable_1__GetEnumerator_d__1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13605 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16052 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -194,7 +194,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Linq
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Linq.IOrderedEnumerable`1<TElement>, System.Object
+// Dependencies System.Object
 namespace System::Linq {
 // cpp template
 template <typename TElement>
@@ -266,7 +266,7 @@ public:
   OrderedEnumerable_1(OrderedEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16053 };
 
   /// @brief Field source, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IEnumerable_1<TElement>* ___source;

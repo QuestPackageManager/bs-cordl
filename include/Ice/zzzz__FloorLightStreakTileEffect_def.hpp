@@ -68,12 +68,12 @@ public:
 
   __declspec(property(get = get_lineIndex)) int32_t lineIndex;
 
-  /// @brief Method ManualUpdate, addr 0x226907c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ManualUpdate, addr 0x318c610, size 0x68, virtual false, abstract: false, final false
   inline void ManualUpdate(float_t deltaTime);
 
   static inline ::Ice::FloorLightStreakTileEffect_Element* New_ctor();
 
-  /// @brief Method Setup, addr 0x22691a4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Setup, addr 0x318c748, size 0x14, virtual false, abstract: false, final false
   inline void Setup(::UnityEngine::Color color, int32_t lineIndex, float_t stayOnTileDuration);
 
   constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
@@ -112,16 +112,16 @@ public:
 
   constexpr void __cordl_internal_set_didMoveToNextTile(::System::Action_1<::Ice::FloorLightStreakTileEffect_Element*>* value);
 
-  /// @brief Method .ctor, addr 0x2269550, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318cb20, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_color, addr 0x2269618, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x318cbf0, size 0xc, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method get_currentTileY, addr 0x2269610, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_currentTileY, addr 0x318cbe8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_currentTileY();
 
-  /// @brief Method get_lineIndex, addr 0x2269608, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_lineIndex, addr 0x318cbe0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_lineIndex();
 
 protected:
@@ -139,7 +139,7 @@ public:
   FloorLightStreakTileEffect_Element(FloorLightStreakTileEffect_Element const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22825 };
 
   /// @brief Field didMoveToNextTile, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<::Ice::FloorLightStreakTileEffect_Element*>* ___didMoveToNextTile;
@@ -199,24 +199,24 @@ public:
   /// @brief Field _stayOnTileDuration, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get__stayOnTileDuration, put = __cordl_internal_set__stayOnTileDuration)) float_t _stayOnTileDuration;
 
-  /// @brief Method CreateNewElement, addr 0x2269450, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method CreateNewElement, addr 0x318ca1c, size 0x104, virtual false, abstract: false, final false
   inline ::Ice::FloorLightStreakTileEffect_Element* CreateNewElement();
 
-  /// @brief Method DespawnAll, addr 0x226936c, size 0xe4, virtual true, abstract: false, final false
+  /// @brief Method DespawnAll, addr 0x318c920, size 0xfc, virtual true, abstract: false, final false
   inline void DespawnAll();
 
-  /// @brief Method HandleElementDidMoveToNextTile, addr 0x2269558, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method HandleElementDidMoveToNextTile, addr 0x318cb24, size 0xac, virtual false, abstract: false, final false
   inline void HandleElementDidMoveToNextTile(::Ice::FloorLightStreakTileEffect_Element* element);
 
   static inline ::Ice::FloorLightStreakTileEffect* New_ctor();
 
-  /// @brief Method SpawnEffect, addr 0x22690e4, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method SpawnEffect, addr 0x318c678, size 0xd0, virtual false, abstract: false, final false
   inline void SpawnEffect(int32_t x, ::UnityEngine::Color color);
 
-  /// @brief Method Start, addr 0x2268dc4, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x318c394, size 0xc8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x2268e8c, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x318c45c, size 0x1b4, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -243,7 +243,7 @@ public:
 
   constexpr void __cordl_internal_set__stayOnTileDuration(float_t value);
 
-  /// @brief Method .ctor, addr 0x22695f4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318cbd0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -261,7 +261,7 @@ public:
   FloorLightStreakTileEffect(FloorLightStreakTileEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18948 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22826 };
 
   /// @brief Field kFadeInDuration offset 0xffffffff size 0x4
   static constexpr float_t kFadeInDuration{ static_cast<float_t>(0.1f) };

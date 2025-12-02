@@ -5,6 +5,12 @@
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
 CORDL_MODULE_EXPORT(TextStyleSO)
+namespace BGLib::Polyglot {
+struct LocalizationLanguage;
+}
+namespace BGLib::UnityExtension {
+template <typename TKey, typename TValue> class SerializableDictionary_2;
+}
 namespace GlobalNamespace {
 class IReadOnlyTextStyle;
 }
@@ -24,23 +30,39 @@ namespace GlobalNamespace {
 class CORDL_TYPE TextStyleSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
   // Declarations
+  /// @brief Field _languageOverrides, offset 0x20, size 0x8
+  __declspec(property(
+      get = __cordl_internal_get__languageOverrides,
+      put = __cordl_internal_set__languageOverrides)) ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* _languageOverrides;
+
   /// @brief Field _textStyle, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__textStyle, put = __cordl_internal_set__textStyle)) ::GlobalNamespace::TextStyle* _textStyle;
+
+  __declspec(property(get = get_languageOverrides)) ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* languageOverrides;
 
   __declspec(property(get = get_textStyle)) ::GlobalNamespace::IReadOnlyTextStyle* textStyle;
 
   static inline ::GlobalNamespace::TextStyleSO* New_ctor();
 
+  constexpr ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* const& __cordl_internal_get__languageOverrides() const;
+
+  constexpr ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>*& __cordl_internal_get__languageOverrides();
+
   constexpr ::GlobalNamespace::TextStyle* const& __cordl_internal_get__textStyle() const;
 
   constexpr ::GlobalNamespace::TextStyle*& __cordl_internal_get__textStyle();
 
+  constexpr void __cordl_internal_set__languageOverrides(::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* value);
+
   constexpr void __cordl_internal_set__textStyle(::GlobalNamespace::TextStyle* value);
 
-  /// @brief Method .ctor, addr 0x22826e8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31c587c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_textStyle, addr 0x22826e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_languageOverrides, addr 0x31c5874, size 0x8, virtual false, abstract: false, final false
+  inline ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* get_languageOverrides();
+
+  /// @brief Method get_textStyle, addr 0x31c586c, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::IReadOnlyTextStyle* get_textStyle();
 
 protected:
@@ -58,17 +80,22 @@ public:
   TextStyleSO(TextStyleSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19147 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23232 };
 
   /// @brief Field _textStyle, offset: 0x18, size: 0x8, def value: None
   ::GlobalNamespace::TextStyle* ____textStyle;
+
+  /// @brief Field _languageOverrides, offset: 0x20, size: 0x8, def value: None
+  ::BGLib::UnityExtension::SerializableDictionary_2<::BGLib::Polyglot::LocalizationLanguage, ::GlobalNamespace::TextStyle*>* ____languageOverrides;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(offsetof(::GlobalNamespace::TextStyleSO, ____textStyle) == 0x18, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextStyleSO, 0x20>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextStyleSO, ____languageOverrides) == 0x20, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextStyleSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextStyleSO);

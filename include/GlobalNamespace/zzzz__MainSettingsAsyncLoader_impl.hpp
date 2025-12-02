@@ -4,71 +4,69 @@
 #include "BGLib/DotnetExtension/CommandLine/zzzz__CommandLineParserResult_impl.hpp"
 #include "BeatSaber/Settings/zzzz__Settings_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_impl.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_impl.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_impl.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsAsyncLoader_def.hpp"
 #include "BGLib/AppFlow/Initialization/zzzz__AsyncInstaller_def.hpp"
 #include "GlobalNamespace/zzzz__AppInitSetupData_def.hpp"
-#include "GlobalNamespace/zzzz__AudioManagerSO_def.hpp"
+#include "GlobalNamespace/zzzz__AudioManagerConfigSO_def.hpp"
 #include "GlobalNamespace/zzzz__HapticFeedbackManager_def.hpp"
-#include "GlobalNamespace/zzzz__ICoroutineStarter_def.hpp"
 #include "GlobalNamespace/zzzz__MainSettingsAsyncLoader_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkConfigSO_def.hpp"
 #include "GlobalNamespace/zzzz__SettingsManager_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::*)()>(
-    &::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::MoveNext)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x2719528;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::*)()>(
+    &::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::MoveNext)> {
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x3649714;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10.SetStateMachine
+//  Writing Method size for method: ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9.SetStateMachine
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::*)(
-    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::SetStateMachine)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x2719808;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::*)(
+    ::System::Runtime::CompilerServices::IAsyncStateMachine*)>(&::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::SetStateMachine)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3649a08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10>::get(), "SetStateMachine",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9>::get(), "SetStateMachine",
                                     std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
     return ___internal_method;
   }
 };
-inline void GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::MoveNext() {
+inline void GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9>::get(),
                                                "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
+inline void GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine) {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10>::get(), "SetStateMachine",
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9>::get(), "SetStateMachine",
                                   std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::CompilerServices::IAsyncStateMachine*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, stateMachine);
 }
 /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-constexpr GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
+constexpr GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::operator ::System::Runtime::CompilerServices::IAsyncStateMachine*() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
 constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine*
-GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
+GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::i___System__Runtime__CompilerServices__IAsyncStateMachine() {
   return static_cast<::System::Runtime::CompilerServices::IAsyncStateMachine*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "__t__builder", ty:
@@ -76,7 +74,7 @@ GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10:
 // Some("{}") }, CppParam { name: "__4__this", ty: "::UnityW<::GlobalNamespace::MainSettingsAsyncLoader>", modifiers: "", def_value: Some("{}") }, CppParam { name: "__7__wrap1", ty:
 // "::GlobalNamespace::SettingsManager*", modifiers: "", def_value: Some("{}") }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings>",
 // modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10(
+constexpr ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9(
     int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::Zenject::DiContainer* container, ::UnityW<::GlobalNamespace::MainSettingsAsyncLoader> __4__this,
     ::GlobalNamespace::SettingsManager* __7__wrap1, ::System::Runtime::CompilerServices::TaskAwaiter_1<::BeatSaber::Settings::Settings> __u__1) noexcept {
   this->__1__state = __1__state;
@@ -87,14 +85,14 @@ constexpr ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstall
   this->__u__1 = __u__1;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__10() {}
+constexpr ::GlobalNamespace::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9::MainSettingsAsyncLoader__LoadResourcesBeforeInstallAsync_d__9() {}
 //  Writing Method size for method: ::GlobalNamespace::MainSettingsAsyncLoader.get_isRunningFromTests
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader::get_isRunningFromTests)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x2718c20;
+  constexpr static std::size_t addrs = 0x3648d48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader*>::get(),
@@ -107,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)(
     ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(&::GlobalNamespace::MainSettingsAsyncLoader::LoadResourcesBeforeInstall)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x2718c40;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3648d68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +121,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task* (::GlobalNamespace::MainSettingsAsyncLoader::*)(::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry*, ::Zenject::DiContainer*)>(
         &::GlobalNamespace::MainSettingsAsyncLoader::LoadResourcesBeforeInstallAsync)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x2718d1c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3648e38;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader::InstallBindings)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x2718dec;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x3648ef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -153,8 +151,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(
     &::GlobalNamespace::MainSettingsAsyncLoader::InstallBindingsThatRelyOnSettings)> {
-  constexpr static std::size_t size = 0x610;
-  constexpr static std::size_t addrs = 0x2718ef4;
+  constexpr static std::size_t size = 0x6c0;
+  constexpr static std::size_t addrs = 0x3649030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,7 +166,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MainSettingsAsyncLoader::*)()>(&::GlobalNamespace::MainSettingsAsyncLoader::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2719504;
+  constexpr static std::size_t addrs = 0x36496f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MainSettingsAsyncLoader*>::get(), ".ctor",
@@ -200,17 +198,17 @@ constexpr void GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_set__h
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____hapticFeedbackControllerPrefab)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__audioManager() {
+constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO>& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__audioManagerConfig() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
+  return this->____audioManagerConfig;
 }
-constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__audioManager() const {
+constexpr ::UnityW<::GlobalNamespace::AudioManagerConfigSO> const& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__audioManagerConfig() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____audioManager;
+  return this->____audioManagerConfig;
 }
-constexpr void GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value) {
+constexpr void GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_set__audioManagerConfig(::UnityW<::GlobalNamespace::AudioManagerConfigSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioManagerConfig)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::AppInitSetupData*& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__setupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -235,18 +233,6 @@ constexpr ::BGLib::DotnetExtension::CommandLine::CommandLineParserResult const& 
 constexpr void GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_set__commandLineParserResult(::BGLib::DotnetExtension::CommandLine::CommandLineParserResult value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____commandLineParserResult = value;
-}
-constexpr ::GlobalNamespace::ICoroutineStarter*& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__coroutineStarter() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____coroutineStarter;
-}
-constexpr ::GlobalNamespace::ICoroutineStarter* const& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__coroutineStarter() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____coroutineStarter;
-}
-constexpr void GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_set__coroutineStarter(::GlobalNamespace::ICoroutineStarter* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____coroutineStarter)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::SettingsManager*& GlobalNamespace::MainSettingsAsyncLoader::__cordl_internal_get__settingManager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

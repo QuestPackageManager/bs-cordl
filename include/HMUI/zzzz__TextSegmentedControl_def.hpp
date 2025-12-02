@@ -4,12 +4,16 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__SegmentedControl_def.hpp"
+#include "TMPro/zzzz__TextOverflowModes_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextSegmentedControl)
 namespace HMUI {
 class SegmentedControlCell;
+}
+namespace HMUI {
+class SegmentedControl_IDataSource;
 }
 namespace HMUI {
 class TextSegmentedControlCell;
@@ -26,7 +30,7 @@ class TextSegmentedControl;
 }
 // Write type traits
 MARK_REF_PTR_T(::HMUI::TextSegmentedControl);
-// Dependencies HMUI.SegmentedControl, HMUI.SegmentedControl::IDataSource
+// Dependencies HMUI.SegmentedControl, TMPro.TextOverflowModes
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.TextSegmentedControl
@@ -35,6 +39,9 @@ public:
   // Declarations
   /// @brief Field _disabledIndexes, offset 0xc0, size 0x8
   __declspec(property(get = __cordl_internal_get__disabledIndexes, put = __cordl_internal_set__disabledIndexes)) ::System::Collections::Generic::HashSet_1<int32_t>* _disabledIndexes;
+
+  /// @brief Field _enableWordWrapping, offset 0x91, size 0x1
+  __declspec(property(get = __cordl_internal_get__enableWordWrapping, put = __cordl_internal_set__enableWordWrapping)) bool _enableWordWrapping;
 
   /// @brief Field _firstCellPrefab, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__firstCellPrefab, put = __cordl_internal_set__firstCellPrefab)) ::UnityW<::HMUI::TextSegmentedControlCell> _firstCellPrefab;
@@ -66,26 +73,33 @@ public:
   /// @brief Field _singleCellPrefab, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get__singleCellPrefab, put = __cordl_internal_set__singleCellPrefab)) ::UnityW<::HMUI::TextSegmentedControlCell> _singleCellPrefab;
 
+  /// @brief Field _textOverflowMode, offset 0x94, size 0x4
+  __declspec(property(get = __cordl_internal_get__textOverflowMode, put = __cordl_internal_set__textOverflowMode)) ::TMPro::TextOverflowModes _textOverflowMode;
+
   /// @brief Field _texts, offset 0xb8, size 0x8
   __declspec(property(get = __cordl_internal_get__texts, put = __cordl_internal_set__texts)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>* _texts;
 
   /// @brief Convert operator to "::HMUI::SegmentedControl_IDataSource"
   constexpr operator ::HMUI::SegmentedControl_IDataSource*() noexcept;
 
-  /// @brief Method CellForCellNumber, addr 0x408b000, size 0x308, virtual true, abstract: false, final true
+  /// @brief Method CellForCellNumber, addr 0x5d3aba4, size 0x3c4, virtual true, abstract: false, final true
   inline ::UnityW<::HMUI::SegmentedControlCell> CellForCellNumber(int32_t cellNumber);
 
   static inline ::HMUI::TextSegmentedControl* New_ctor();
 
-  /// @brief Method NumberOfCells, addr 0x408af54, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method NumberOfCells, addr 0x5d3aaf4, size 0xb0, virtual true, abstract: false, final true
   inline int32_t NumberOfCells();
 
-  /// @brief Method SetTexts, addr 0x408af3c, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method SetTexts, addr 0x5d3aadc, size 0x18, virtual false, abstract: false, final false
   inline void SetTexts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* texts, ::System::Collections::Generic::HashSet_1<int32_t>* disabledIndexes);
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>* const& __cordl_internal_get__disabledIndexes() const;
 
   constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& __cordl_internal_get__disabledIndexes();
+
+  constexpr bool const& __cordl_internal_get__enableWordWrapping() const;
+
+  constexpr bool& __cordl_internal_get__enableWordWrapping();
 
   constexpr ::UnityW<::HMUI::TextSegmentedControlCell> const& __cordl_internal_get__firstCellPrefab() const;
 
@@ -127,11 +141,17 @@ public:
 
   constexpr ::UnityW<::HMUI::TextSegmentedControlCell>& __cordl_internal_get__singleCellPrefab();
 
+  constexpr ::TMPro::TextOverflowModes const& __cordl_internal_get__textOverflowMode() const;
+
+  constexpr ::TMPro::TextOverflowModes& __cordl_internal_get__textOverflowMode();
+
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>* const& __cordl_internal_get__texts() const;
 
   constexpr ::System::Collections::Generic::IReadOnlyList_1<::StringW>*& __cordl_internal_get__texts();
 
   constexpr void __cordl_internal_set__disabledIndexes(::System::Collections::Generic::HashSet_1<int32_t>* value);
+
+  constexpr void __cordl_internal_set__enableWordWrapping(bool value);
 
   constexpr void __cordl_internal_set__firstCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
 
@@ -153,9 +173,11 @@ public:
 
   constexpr void __cordl_internal_set__singleCellPrefab(::UnityW<::HMUI::TextSegmentedControlCell> value);
 
+  constexpr void __cordl_internal_set__textOverflowMode(::TMPro::TextOverflowModes value);
+
   constexpr void __cordl_internal_set__texts(::System::Collections::Generic::IReadOnlyList_1<::StringW>* value);
 
-  /// @brief Method .ctor, addr 0x408b390, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d3b09c, size 0x18, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::HMUI::SegmentedControl_IDataSource"
@@ -176,7 +198,7 @@ public:
   TextSegmentedControl(TextSegmentedControl const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22728 };
 
   /// @brief Field _fontSize, offset: 0x80, size: 0x4, def value: None
   float_t ____fontSize;
@@ -195,6 +217,12 @@ public:
 
   /// @brief Field _hideCellBackground, offset: 0x90, size: 0x1, def value: None
   bool ____hideCellBackground;
+
+  /// @brief Field _enableWordWrapping, offset: 0x91, size: 0x1, def value: None
+  bool ____enableWordWrapping;
+
+  /// @brief Field _textOverflowMode, offset: 0x94, size: 0x4, def value: None
+  ::TMPro::TextOverflowModes ____textOverflowMode;
 
   /// @brief Field _firstCellPrefab, offset: 0x98, size: 0x8, def value: None
   ::UnityW<::HMUI::TextSegmentedControlCell> ____firstCellPrefab;
@@ -228,6 +256,10 @@ static_assert(offsetof(::HMUI::TextSegmentedControl, ____fixedCellSizeAmount) ==
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____padding) == 0x8c, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____hideCellBackground) == 0x90, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::TextSegmentedControl, ____enableWordWrapping) == 0x91, "Offset mismatch!");
+
+static_assert(offsetof(::HMUI::TextSegmentedControl, ____textOverflowMode) == 0x94, "Offset mismatch!");
 
 static_assert(offsetof(::HMUI::TextSegmentedControl, ____firstCellPrefab) == 0x98, "Offset mismatch!");
 

@@ -37,20 +37,20 @@ public:
   /// @brief Field unicodeVersion, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_unicodeVersion, put = __cordl_internal_set_unicodeVersion)) ::Org::BouncyCastle::Asn1::DerPrintableString* unicodeVersion;
 
-  /// @brief Method GetInstance, addr 0x23fb50c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x33298b0, size 0xa0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetLdsVersion, addr 0x23fbb10, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetLdsVersion, addr 0x3329e94, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW GetLdsVersion();
 
-  /// @brief Method GetUnicodeVersion, addr 0x23fbb30, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetUnicodeVersion, addr 0x3329eb0, size 0x1c, virtual true, abstract: false, final false
   inline ::StringW GetUnicodeVersion();
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
   static inline ::Org::BouncyCastle::Asn1::Icao::LdsVersionInfo* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
-  /// @brief Method ToAsn1Object, addr 0x23fbb50, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3329ecc, size 0xf0, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::DerPrintableString* const& __cordl_internal_get_ldsVersion() const;
@@ -65,10 +65,10 @@ public:
 
   constexpr void __cordl_internal_set_unicodeVersion(::Org::BouncyCastle::Asn1::DerPrintableString* value);
 
-  /// @brief Method .ctor, addr 0x23fb998, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329d2c, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor(::StringW ldsVersion, ::StringW unicodeVersion);
 
-  /// @brief Method .ctor, addr 0x23fba2c, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3329db8, size 0xdc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
 
 protected:

@@ -44,13 +44,13 @@ public:
   /// @brief Field values, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values)) ::Org::BouncyCastle::Asn1::Asn1Set* values;
 
-  /// @brief Method GetFirst, addr 0x25017d0, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetFirst, addr 0x3431530, size 0x50, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* GetFirst();
 
-  /// @brief Method GetInstance, addr 0x25014d0, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3431250, size 0x9c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* GetInstance(::System::Object* obj);
 
-  /// @brief Method GetTypesAndValues, addr 0x2501820, size 0xf4, virtual true, abstract: false, final false
+  /// @brief Method GetTypesAndValues, addr 0x3431580, size 0xf8, virtual true, abstract: false, final false
   inline ::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> GetTypesAndValues();
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn*
@@ -62,7 +62,7 @@ public:
 
   static inline ::Org::BouncyCastle::Asn1::X500::Rdn* New_ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 
-  /// @brief Method ToAsn1Object, addr 0x2501914, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x3431678, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Set* const& __cordl_internal_get_values() const;
@@ -71,22 +71,22 @@ public:
 
   constexpr void __cordl_internal_set_values(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x2501710, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3431478, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue*>*> aAndVs);
 
-  /// @brief Method .ctor, addr 0x250169c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3431410, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::X500::AttributeTypeAndValue* attrTAndV);
 
-  /// @brief Method .ctor, addr 0x2501570, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34312ec, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x25014a8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3431248, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Set* values);
 
-  /// @brief Method get_Count, addr 0x25017b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_Count, addr 0x3431514, size 0x1c, virtual true, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_IsMultiValued, addr 0x2501784, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method get_IsMultiValued, addr 0x34314e8, size 0x2c, virtual true, abstract: false, final false
   inline bool get_IsMultiValued();
 
 protected:

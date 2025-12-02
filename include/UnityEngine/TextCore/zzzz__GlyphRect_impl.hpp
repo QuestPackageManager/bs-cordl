@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TextCore/GlyphRect.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphRect_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::GlyphRect.get_x
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_x)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920d5c;
+  constexpr static std::size_t addrs = 0x69879ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphRect>::get(), "get_x",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_y)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920d64;
+  constexpr static std::size_t addrs = 0x69879b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphRect>::get(), "get_y",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920d6c;
+  constexpr static std::size_t addrs = 0x69879bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphRect>::get(), "get_width",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920d74;
+  constexpr static std::size_t addrs = 0x69879c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphRect>::get(), "get_height",
@@ -59,8 +59,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::GlyphRect (*)()>(&::UnityEngine::TextCore::GlyphRect::get_zero)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4920d7c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x69879cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphRect>::get(), "get_zero",
@@ -74,7 +74,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::GlyphRect::*)(int32_t, int32_t, int32_t, int32_t)>(
     &::UnityEngine::TextCore::GlyphRect::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4920dd4;
+  constexpr static std::size_t addrs = 0x6987a28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,7 +89,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::GlyphRect::*)()>(&::UnityEngine::TextCore::GlyphRect::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4920de0;
+  constexpr static std::size_t addrs = 0x6987a34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,8 +102,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::GlyphRect::*)(::System::Object*)>(&::UnityEngine::TextCore::GlyphRect::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4920e44;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6987a98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::GlyphRect::*)(::UnityEngine::TextCore::GlyphRect)>(
     &::UnityEngine::TextCore::GlyphRect::Equals)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4920ebc;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6987b08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

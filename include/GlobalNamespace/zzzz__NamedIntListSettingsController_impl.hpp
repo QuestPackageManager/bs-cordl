@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NamedIntListSettingsController_TextValuePair::*)()>(
     &::GlobalNamespace::NamedIntListSettingsController_TextValuePair::get_localizedText)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c12fec;
+  constexpr static std::size_t addrs = 0x580a6ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController_TextValuePair::*)()>(
     &::GlobalNamespace::NamedIntListSettingsController_TextValuePair::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c1301c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x580a6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController___c__DisplayClass6_0::*)()>(
     &::GlobalNamespace::NamedIntListSettingsController___c__DisplayClass6_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c12f2c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x580a5f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -96,8 +96,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedIntListSettingsController___c__DisplayClass6_0::*)(
     ::GlobalNamespace::NamedIntListSettingsController_TextValuePair*)>(&::GlobalNamespace::NamedIntListSettingsController___c__DisplayClass6_0::_SetValue_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3c13024;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x580a6dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -142,8 +142,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedIntListSettingsController::add_valueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c12cc0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580a368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController::*)(::System::Action_1<int32_t>*)>(
     &::GlobalNamespace::NamedIntListSettingsController::remove_valueDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c12d70;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x580a428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,7 +173,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController::*)(int32_t, bool)>(
     &::GlobalNamespace::NamedIntListSettingsController::SetValue)> {
   constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3c12e20;
+  constexpr static std::size_t addrs = 0x580a4e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -187,8 +187,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NamedIntListSettingsController::*)(::ByRef<int32_t>, ::ByRef<int32_t>)>(
     &::GlobalNamespace::NamedIntListSettingsController::GetInitValues)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c12f34;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x580a5f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -204,7 +204,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController::*)(int32_t)>(
     &::GlobalNamespace::NamedIntListSettingsController::ApplyValue)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c12f60;
+  constexpr static std::size_t addrs = 0x580a620;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -220,7 +220,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::NamedIntListSettingsController::*)(int32_t)>(
     &::GlobalNamespace::NamedIntListSettingsController::TextForValue)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3c12fb8;
+  constexpr static std::size_t addrs = 0x580a678;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -235,8 +235,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::NamedIntListSettingsController::*)()>(
     &::GlobalNamespace::NamedIntListSettingsController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c13014;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x580a6d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NamedIntListSettingsController*>::get(),

@@ -5,7 +5,6 @@
 CORDL_MODULE_INIT
 #include "Newtonsoft/Json/Utilities/zzzz__StringBuffer_def.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__StringReference_def.hpp"
-#include "Newtonsoft/Json/zzzz__IJsonLineInfo_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonReader_def.hpp"
 #include "Newtonsoft/Json/zzzz__JsonToken_def.hpp"
 #include "Newtonsoft/Json/zzzz__ReadType_def.hpp"
@@ -14,7 +13,6 @@ CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__ConfiguredTaskAwaitable_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
 #include "System/zzzz__DateTimeOffset_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
@@ -27,6 +25,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(JsonTextReader)
 namespace Newtonsoft::Json {
 template <typename T> class IArrayPool_1;
+}
+namespace Newtonsoft::Json {
+class IJsonLineInfo;
 }
 namespace Newtonsoft::Json {
 class JsonNameTable;
@@ -350,7 +351,7 @@ MARK_VAL_T(::Newtonsoft::Json::JsonTextReader__ReadStringIntoBufferAsync_d__9);
 MARK_VAL_T(::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37);
 // Dependencies System.Nullable`1<T>, System.Numerics.BigInteger, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
 // System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsBooleanAsync>d__40
@@ -360,10 +361,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e90788, size 0xdf8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad6ff0, size 0xe30, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e91580, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ad7e20, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -385,7 +386,7 @@ public:
                                                        bool _isTrue_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13244 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -437,7 +438,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsBytesAsync>d__42
@@ -447,10 +448,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e915fc, size 0xe10, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad7ea0, size 0xe2c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9240c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ad8ccc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -475,7 +476,7 @@ public:
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::ArrayW<uint8_t, ::Array<uint8_t>*>> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13245 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -532,7 +533,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.DateTime, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsDateTimeAsync>d__45
@@ -542,10 +543,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e92488, size 0x2a4, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad8d4c, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9272c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ad9114, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -564,7 +565,7 @@ public:
                                                         ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13246 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -601,7 +602,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.DateTimeOffset, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsDateTimeOffsetAsync>d__47
@@ -611,10 +612,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e927a8, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad9194, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e92a84, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ad9548, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -634,7 +635,7 @@ public:
                                                               ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10093 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13247 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -671,7 +672,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Decimal, System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsDecimalAsync>d__49
@@ -681,10 +682,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e92b00, size 0x2dc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad95c8, size 0x3b4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e92ddc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ad997c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -703,7 +704,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10094 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -740,7 +741,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsDoubleAsync>d__51
@@ -750,10 +751,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e92e58, size 0x2cc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad99fc, size 0x3c8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e93124, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ad9dc4, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -772,7 +773,7 @@ public:
                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13249 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -809,7 +810,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Nullable`1<T>, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsInt32Async>d__53
@@ -819,10 +820,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e931a0, size 0x2a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ad9e44, size 0x3c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e93440, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ada208, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -841,7 +842,7 @@ public:
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10096 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13250 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -878,7 +879,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsStringAsync>d__55
@@ -888,10 +889,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e934bc, size 0x280, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ada288, size 0x2bc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9373c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ada544, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -910,7 +911,7 @@ public:
                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10097 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13251 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -947,7 +948,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<DoReadAsync>d__3
@@ -957,10 +958,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e937b8, size 0x328, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ada5c4, size 0x378, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e93ae0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ada93c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -980,7 +981,7 @@ public:
                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13252 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1022,7 +1023,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<EatWhitespaceAsync>d__17
@@ -1032,10 +1033,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e93b5c, size 0x3e0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ada9bc, size 0x41c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e93f3c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adadd8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1056,7 +1057,7 @@ public:
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13253 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1098,7 +1099,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<HandleNullAsync>d__35
@@ -1108,10 +1109,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e93fa4, size 0x3bc, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adae44, size 0x404, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e94360, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adb248, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1132,7 +1133,7 @@ public:
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10100 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13254 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1174,7 +1175,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.JsonToken, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<MatchAndSetAsync>d__21
@@ -1184,10 +1185,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e943c8, size 0x300, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adb2b4, size 0x358, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e946c8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adb60c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1207,7 +1208,7 @@ public:
                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10101 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13255 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -1259,7 +1260,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<MatchValueAsync>d__19
@@ -1269,10 +1270,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e94730, size 0x290, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adb678, size 0x2dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e949c0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adb954, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1291,7 +1292,7 @@ public:
                                                   ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10102 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13256 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1333,7 +1334,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<MatchValueWithTrailingSeparatorAsync>d__20
@@ -1343,10 +1344,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e94a3c, size 0x3d8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adb9d4, size 0x42c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e94e14, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adbe00, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1365,7 +1366,7 @@ public:
                                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13257 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -1407,7 +1408,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseCommentAsync>d__16
@@ -1417,10 +1418,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e94e90, size 0x854, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adbe80, size 0x91c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e956e4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adc79c, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1444,7 +1445,7 @@ public:
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10104 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13258 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -1506,7 +1507,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseConstructorAsync>d__25
@@ -1516,10 +1517,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9574c, size 0x9a8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adc808, size 0x9dc, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e960f4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5add1e4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1544,7 +1545,7 @@ public:
                                                         ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10105 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13259 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -1606,7 +1607,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseNumberAsync>d__29
@@ -1616,10 +1617,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9615c, size 0x248, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5add250, size 0x258, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e963a4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5add4a8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1639,7 +1640,7 @@ public:
                                                    int32_t _initialPosition_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10106 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13260 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1691,7 +1692,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseNumberNaNAsync>d__26
@@ -1701,10 +1702,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9640c, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5add514, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e966c4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5add814, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1725,7 +1726,7 @@ public:
                                                       ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10107 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13261 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1772,7 +1773,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseNumberNegativeInfinityAsync>d__28
@@ -1782,10 +1783,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e96740, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5add894, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e969f8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5addb94, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1806,7 +1807,7 @@ public:
                                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10108 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13262 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1853,7 +1854,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseNumberPositiveInfinityAsync>d__27
@@ -1863,10 +1864,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e96a74, size 0x2b8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5addc14, size 0x300, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e96d2c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5addf14, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1887,7 +1888,7 @@ public:
                                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10109 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13263 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -1934,7 +1935,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseObjectAsync>d__15
@@ -1944,10 +1945,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e96da8, size 0x62c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5addf94, size 0x688, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e973d4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ade61c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -1970,7 +1971,7 @@ public:
                                                    ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10110 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13264 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
@@ -2017,7 +2018,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParsePostValueAsync>d__4
@@ -2027,10 +2028,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e97450, size 0x688, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ade69c, size 0x6c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e97ad8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5aded60, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2051,7 +2052,7 @@ public:
                                                      ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10111 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13265 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -2097,8 +2098,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader__ParsePostValueAsync_d__4, 0x58>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParsePropertyAsync>d__31
@@ -2108,10 +2108,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e97b54, size 0x678, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adede0, size 0x630, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e981cc, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adf410, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2131,7 +2131,7 @@ public:
                                                      ::StringW _propertyName_5__3, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10112 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13266 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -2178,7 +2178,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseStringAsync>d__18
@@ -2188,10 +2188,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e98248, size 0x250, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adf490, size 0x264, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e98498, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adf6f4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2211,7 +2211,7 @@ public:
                                                    ::Newtonsoft::Json::ReadType readType, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13267 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -2258,7 +2258,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseUnicodeAsync>d__12
@@ -2268,10 +2268,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e98500, size 0x278, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adf760, size 0x2c4, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e98778, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adfa24, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2290,7 +2290,7 @@ public:
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13268 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -2326,8 +2326,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader__ParseUnicodeAsync_d__12, 0x40>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseUnquotedPropertyAsync>d__33
@@ -2337,10 +2336,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e987f4, size 0x314, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adfaa4, size 0x350, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e98b08, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5adfdf4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2359,7 +2358,7 @@ public:
                                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13269 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -2401,7 +2400,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ParseValueAsync>d__8
@@ -2411,10 +2410,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e98b70, size 0x11c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5adfe60, size 0x116c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e99d30, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae0fcc, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2439,7 +2438,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10116 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13270 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -2490,8 +2489,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8,
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader__ParseValueAsync_d__8, 0x70>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ProcessCarriageReturnAsync>d__11
@@ -2501,10 +2499,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e99dac, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae104c, size 0x26c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e99fd8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae12b8, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2523,7 +2521,7 @@ public:
                                                              ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<bool> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10117 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13271 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -2560,7 +2558,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadCharsAsync>d__14
@@ -2570,10 +2568,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9a040, size 0x2a0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae1324, size 0x2f8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9a2e0, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae161c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2593,7 +2591,7 @@ public:
                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13272 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -2645,7 +2643,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadDataAsync>d__7
@@ -2655,10 +2653,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9a35c, size 0x330, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae169c, size 0x388, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9a68c, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae1a24, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2678,7 +2676,7 @@ public:
                                                ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13273 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -2725,7 +2723,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadFinishedAsync>d__36
@@ -2735,10 +2733,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9a708, size 0x518, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae1aa4, size 0x520, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9ac20, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae1fc4, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2759,7 +2757,7 @@ public:
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13274 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -2801,7 +2799,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadFromFinishedAsync>d__5
@@ -2811,10 +2809,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9ac88, size 0x54c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae2030, size 0x558, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9b1d4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae2588, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2835,7 +2833,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13275 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
@@ -2876,8 +2874,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader__ReadFromFinishedAsync_d__5, 0x50>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadIntoWrappedTypeObjectAsync>d__43
@@ -2887,10 +2884,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9b250, size 0x578, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae2608, size 0x54c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9b7c8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae2b54, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2909,7 +2906,7 @@ public:
                                                                  ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13276 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -2946,7 +2943,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadNullCharAsync>d__34
@@ -2956,10 +2953,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9b830, size 0x294, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae2bc0, size 0x2d8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9bac4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae2e98, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -2978,7 +2975,7 @@ public:
                                                     ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13277 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -3014,8 +3011,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader__ReadNullCharAsync_d__34, 0x40>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>,
-// System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadNumberIntoBufferAsync>d__32
@@ -3025,10 +3021,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9bb40, size 0x2c0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae2f18, size 0x30c, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9be00, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae3224, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3047,7 +3043,7 @@ public:
                                                             ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<int32_t> __u__1) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13278 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
@@ -3089,7 +3085,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadNumberValueAsync>d__38
@@ -3099,10 +3095,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9be68, size 0xf44, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae3290, size 0xfd0, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9cdac, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae4260, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3125,7 +3121,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10125 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13279 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
@@ -3177,7 +3173,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadStringIntoBufferAsync>d__9
@@ -3187,10 +3183,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9ce28, size 0xc9c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae42e0, size 0xe28, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9dac4, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae5108, size 0x6c, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3220,7 +3216,7 @@ public:
                                                            char16_t _highSurrogate_5__8, ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_ConfiguredTaskAwaiter __u__4) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10126 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13280 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
@@ -3312,7 +3308,7 @@ static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader
 
 } // namespace Newtonsoft::Json
 // Dependencies Newtonsoft.Json.ReadType, System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.ConfiguredTaskAwaitable::ConfiguredTaskAwaiter,
-// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Threading.CancellationToken
+// System.Runtime.CompilerServices.ConfiguredTaskAwaitable`1::ConfiguredTaskAwaiter<TResult>, System.Threading.CancellationToken
 namespace Newtonsoft::Json {
 // Is value type: true
 // CS Name: Newtonsoft.Json.JsonTextReader/<ReadStringValueAsync>d__37
@@ -3322,10 +3318,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x3e9db2c, size 0x10f8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5ae5174, size 0x11b8, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x3e9ec24, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x5ae632c, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -3349,7 +3345,7 @@ public:
                                                        ::System::Runtime::CompilerServices::ConfiguredTaskAwaitable_1_ConfiguredTaskAwaiter<::System::Object*> __u__3) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10127 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13281 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
@@ -3405,7 +3401,7 @@ static_assert(offsetof(::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::JsonTextReader__ReadStringValueAsync_d__37, 0x70>, "Size mismatch!");
 
 } // namespace Newtonsoft::Json
-// Dependencies Newtonsoft.Json.IJsonLineInfo, Newtonsoft.Json.JsonReader, Newtonsoft.Json.Utilities.StringBuffer, Newtonsoft.Json.Utilities.StringReference
+// Dependencies Newtonsoft.Json.JsonReader, Newtonsoft.Json.Utilities.StringBuffer, Newtonsoft.Json.Utilities.StringReference
 namespace Newtonsoft::Json {
 // Is value type: false
 // CS Name: Newtonsoft.Json.JsonTextReader
@@ -3536,388 +3532,388 @@ public:
   /// @brief Convert operator to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr operator ::Newtonsoft::Json::IJsonLineInfo*() noexcept;
 
-  /// @brief Method BigIntegerParse, addr 0x3e8ff50, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method BigIntegerParse, addr 0x5ad6704, size 0x8c, virtual false, abstract: false, final false
   static inline ::System::Object* BigIntegerParse(::StringW number, ::System::Globalization::CultureInfo* culture);
 
-  /// @brief Method BlockCopyChars, addr 0x3e8ad88, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method BlockCopyChars, addr 0x5ad13e8, size 0x14, virtual false, abstract: false, final false
   static inline void BlockCopyChars(::ArrayW<char16_t, ::Array<char16_t>*> src, int32_t srcOffset, ::ArrayW<char16_t, ::Array<char16_t>*> dst, int32_t dstOffset, int32_t count);
 
-  /// @brief Method ClearRecentString, addr 0x3e8e49c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ClearRecentString, addr 0x5ad4cec, size 0xc, virtual false, abstract: false, final false
   inline void ClearRecentString();
 
-  /// @brief Method Close, addr 0x3e906c8, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x5ad6f20, size 0x70, virtual true, abstract: false, final false
   inline void Close();
 
-  /// @brief Method ConvertUnicode, addr 0x3e8e148, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ConvertUnicode, addr 0x5ad49b0, size 0x158, virtual false, abstract: false, final false
   inline char16_t ConvertUnicode(bool enoughChars);
 
-  /// @brief Method CreateUnexpectedCharacterException, addr 0x3e8cec8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method CreateUnexpectedCharacterException, addr 0x5ad35d4, size 0xbc, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* CreateUnexpectedCharacterException(char16_t c);
 
-  /// @brief Method DoReadAsBooleanAsync, addr 0x3e89a60, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsBooleanAsync, addr 0x5ad011c, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* DoReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsBytesAsync, addr 0x3e89b70, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsBytesAsync, addr 0x5ad0220, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* DoReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDateTimeAsync, addr 0x3e89d40, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDateTimeAsync, addr 0x5ad03e4, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* DoReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDateTimeOffsetAsync, addr 0x3e89e48, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDateTimeOffsetAsync, addr 0x5ad04e0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* DoReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDecimalAsync, addr 0x3e89f50, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDecimalAsync, addr 0x5ad05dc, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* DoReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsDoubleAsync, addr 0x3e8a058, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsDoubleAsync, addr 0x5ad06d8, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* DoReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsInt32Async, addr 0x3e8a160, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsInt32Async, addr 0x5ad07d4, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* DoReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsStringAsync, addr 0x3e8a268, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsStringAsync, addr 0x5ad08d0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* DoReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsync, addr 0x3e877bc, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsync, addr 0x5acdff8, size 0x238, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DoReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method DoReadAsync, addr 0x3e87d18, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method DoReadAsync, addr 0x5ace558, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* DoReadAsync(::System::Threading::Tasks::Task_1<bool>* task, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method EatWhitespace, addr 0x3e8bae8, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method EatWhitespace, addr 0x5ad2120, size 0xf0, virtual false, abstract: false, final false
   inline void EatWhitespace();
 
-  /// @brief Method EatWhitespaceAsync, addr 0x3e88714, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method EatWhitespaceAsync, addr 0x5acef1c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* EatWhitespaceAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method EndComment, addr 0x3e8ffd8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method EndComment, addr 0x5ad6790, size 0x34, virtual false, abstract: false, final false
   inline void EndComment(bool setToken, int32_t initialPosition, int32_t endPosition);
 
-  /// @brief Method EnsureBuffer, addr 0x3e879c4, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method EnsureBuffer, addr 0x5ace230, size 0x44, virtual false, abstract: false, final false
   inline void EnsureBuffer();
 
-  /// @brief Method EnsureBufferNotEmpty, addr 0x3e8a3c4, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method EnsureBufferNotEmpty, addr 0x5ad0a2c, size 0x30, virtual false, abstract: false, final false
   inline void EnsureBufferNotEmpty();
 
-  /// @brief Method EnsureChars, addr 0x3e8afd0, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method EnsureChars, addr 0x5ad1624, size 0x20, virtual false, abstract: false, final false
   inline bool EnsureChars(int32_t relativePosition, bool append);
 
-  /// @brief Method EnsureCharsAsync, addr 0x3e88228, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method EnsureCharsAsync, addr 0x5acea54, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* EnsureCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method FinishReadQuotedNumber, addr 0x3e8dba0, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method FinishReadQuotedNumber, addr 0x5ad42a0, size 0x190, virtual false, abstract: false, final false
   inline ::System::Object* FinishReadQuotedNumber(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method FinishReadQuotedStringValue, addr 0x3e8d148, size 0x260, virtual false, abstract: false, final false
+  /// @brief Method FinishReadQuotedStringValue, addr 0x5ad3820, size 0x23c, virtual false, abstract: false, final false
   inline ::System::Object* FinishReadQuotedStringValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method FinishReadStringIntoBuffer, addr 0x3e8e0b0, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method FinishReadStringIntoBuffer, addr 0x5ad4918, size 0x98, virtual false, abstract: false, final false
   inline void FinishReadStringIntoBuffer(int32_t charPos, int32_t initialPosition, int32_t lastWritePosition);
 
-  /// @brief Method HandleNull, addr 0x3e8cd8c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method HandleNull, addr 0x5ad34b8, size 0xb8, virtual false, abstract: false, final false
   inline void HandleNull();
 
-  /// @brief Method HandleNullAsync, addr 0x3e89688, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method HandleNullAsync, addr 0x5acfd8c, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* HandleNullAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method HasLineInfo, addr 0x3e90728, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method HasLineInfo, addr 0x5ad6f90, size 0x8, virtual true, abstract: false, final true
   inline bool HasLineInfo();
 
-  /// @brief Method IsSeparator, addr 0x3e90174, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method IsSeparator, addr 0x5ad68f0, size 0x144, virtual false, abstract: false, final false
   inline bool IsSeparator(char16_t c);
 
-  /// @brief Method MatchAndSetAsync, addr 0x3e88ae4, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method MatchAndSetAsync, addr 0x5acf2a4, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* MatchAndSetAsync(::StringW value, ::Newtonsoft::Json::JsonToken newToken, ::System::Object* tokenValue,
                                                             ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MatchValue, addr 0x3e90094, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method MatchValue, addr 0x5ad6820, size 0xd0, virtual false, abstract: false, final false
   inline bool MatchValue(bool enoughChars, ::StringW value);
 
-  /// @brief Method MatchValue, addr 0x3e90038, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method MatchValue, addr 0x5ad67c4, size 0x5c, virtual false, abstract: false, final false
   inline bool MatchValue(::StringW value);
 
-  /// @brief Method MatchValueAsync, addr 0x3e888d4, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method MatchValueAsync, addr 0x5acf0bc, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MatchValueAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method MatchValueWithTrailingSeparator, addr 0x3e8d48c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method MatchValueWithTrailingSeparator, addr 0x5ad3b48, size 0xa4, virtual false, abstract: false, final false
   inline bool MatchValueWithTrailingSeparator(::StringW value);
 
-  /// @brief Method MatchValueWithTrailingSeparatorAsync, addr 0x3e889dc, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method MatchValueWithTrailingSeparatorAsync, addr 0x5acf1b0, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* MatchValueWithTrailingSeparatorAsync(::StringW value, ::System::Threading::CancellationToken cancellationToken);
 
   static inline ::Newtonsoft::Json::JsonTextReader* New_ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method OnNewLine, addr 0x3e8a418, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method OnNewLine, addr 0x5ad0a5c, size 0x10, virtual false, abstract: false, final false
   inline void OnNewLine(int32_t pos);
 
-  /// @brief Method ParseComment, addr 0x3e8bbfc, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method ParseComment, addr 0x5ad2210, size 0x2a8, virtual false, abstract: false, final false
   inline void ParseComment(bool setToken);
 
-  /// @brief Method ParseCommentAsync, addr 0x3e88630, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ParseCommentAsync, addr 0x5acee48, size 0xd4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseCommentAsync(bool setToken, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseConstructor, addr 0x3e8eb3c, size 0x320, virtual false, abstract: false, final false
+  /// @brief Method ParseConstructor, addr 0x5ad5360, size 0x2f0, virtual false, abstract: false, final false
   inline void ParseConstructor();
 
-  /// @brief Method ParseConstructorAsync, addr 0x3e88d9c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseConstructorAsync, addr 0x5acf530, size 0xc8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseConstructorAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseFalse, addr 0x3e8ea64, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseFalse, addr 0x5ad524c, size 0x114, virtual false, abstract: false, final false
   inline void ParseFalse();
 
-  /// @brief Method ParseFalseAsync, addr 0x3e88c80, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ParseFalseAsync, addr 0x5acf420, size 0x94, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseFalseAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNull, addr 0x3e8df74, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseNull, addr 0x5ad47a8, size 0xe0, virtual false, abstract: false, final false
   inline void ParseNull();
 
-  /// @brief Method ParseNullAsync, addr 0x3e88d24, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseNullAsync, addr 0x5acf4b4, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseNullAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumber, addr 0x3e8d424, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method ParseNumber, addr 0x5ad3ae0, size 0x68, virtual false, abstract: false, final false
   inline void ParseNumber(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberAsync, addr 0x3e89198, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberAsync, addr 0x5acf8e0, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseNumberAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumberNaN, addr 0x3e8d5ac, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaN, addr 0x5ad3c70, size 0x84, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberNaN, addr 0x3e90574, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaN, addr 0x5ad6d7c, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNaN(::Newtonsoft::Json::ReadType readType, bool matched);
 
-  /// @brief Method ParseNumberNaNAsync, addr 0x3e88e74, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNaNAsync, addr 0x5acf5f8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberNaNAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumberNegativeInfinity, addr 0x3e8d3a8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinity, addr 0x5ad3a5c, size 0x84, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberNegativeInfinity, addr 0x3e902cc, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinity, addr 0x5ad6a34, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberNegativeInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
 
-  /// @brief Method ParseNumberNegativeInfinityAsync, addr 0x3e8908c, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberNegativeInfinityAsync, addr 0x5acf7e8, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberNegativeInfinityAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseNumberPositiveInfinity, addr 0x3e8d530, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinity, addr 0x5ad3bec, size 0x84, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseNumberPositiveInfinity, addr 0x3e90420, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinity, addr 0x5ad6bd8, size 0x1a4, virtual false, abstract: false, final false
   inline ::System::Object* ParseNumberPositiveInfinity(::Newtonsoft::Json::ReadType readType, bool matched);
 
-  /// @brief Method ParseNumberPositiveInfinityAsync, addr 0x3e88f80, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method ParseNumberPositiveInfinityAsync, addr 0x5acf6f0, size 0xf8, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ParseNumberPositiveInfinityAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseObject, addr 0x3e8b6ac, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method ParseObject, addr 0x5ad1d40, size 0x160, virtual false, abstract: false, final false
   inline bool ParseObject();
 
-  /// @brief Method ParseObjectAsync, addr 0x3e87b08, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ParseObjectAsync, addr 0x5ace368, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParseObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParsePostValue, addr 0x3e8b83c, size 0x2ac, virtual false, abstract: false, final false
+  /// @brief Method ParsePostValue, addr 0x5ad1ea0, size 0x280, virtual false, abstract: false, final false
   inline bool ParsePostValue(bool ignoreComments);
 
-  /// @brief Method ParsePostValueAsync, addr 0x3e87c04, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method ParsePostValueAsync, addr 0x5ace458, size 0x100, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParsePostValueAsync(bool ignoreComments, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseProperty, addr 0x3e8e4a8, size 0x224, virtual false, abstract: false, final false
+  /// @brief Method ParseProperty, addr 0x5ad4cf8, size 0x220, virtual false, abstract: false, final false
   inline bool ParseProperty();
 
-  /// @brief Method ParsePropertyAsync, addr 0x3e892ec, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ParsePropertyAsync, addr 0x5acfa28, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParsePropertyAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseReadNumber, addr 0x3e8ef08, size 0xfcc, virtual false, abstract: false, final false
+  /// @brief Method ParseReadNumber, addr 0x5ad572c, size 0xfac, virtual false, abstract: false, final false
   inline void ParseReadNumber(::Newtonsoft::Json::ReadType readType, char16_t firstChar, int32_t initialPosition);
 
-  /// @brief Method ParseReadString, addr 0x3e8a990, size 0x3f8, virtual false, abstract: false, final false
+  /// @brief Method ParseReadString, addr 0x5ad105c, size 0x38c, virtual false, abstract: false, final false
   inline void ParseReadString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseString, addr 0x3e8a428, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ParseString, addr 0x5ad0a6c, size 0x48, virtual false, abstract: false, final false
   inline void ParseString(char16_t quote, ::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ParseStringAsync, addr 0x3e887e8, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method ParseStringAsync, addr 0x5acefe0, size 0xdc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseStringAsync(char16_t quote, ::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseTrue, addr 0x3e8e98c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method ParseTrue, addr 0x5ad5138, size 0x114, virtual false, abstract: false, final false
   inline void ParseTrue();
 
-  /// @brief Method ParseTrueAsync, addr 0x3e88bd8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method ParseTrueAsync, addr 0x5acf388, size 0x98, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseTrueAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseUndefined, addr 0x3e8ee5c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ParseUndefined, addr 0x5ad5650, size 0xdc, virtual false, abstract: false, final false
   inline void ParseUndefined();
 
-  /// @brief Method ParseUndefinedAsync, addr 0x3e89274, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method ParseUndefinedAsync, addr 0x5acf9ac, size 0x7c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseUndefinedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseUnicode, addr 0x3e8e020, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method ParseUnicode, addr 0x5ad4888, size 0x40, virtual false, abstract: false, final false
   inline char16_t ParseUnicode();
 
-  /// @brief Method ParseUnicodeAsync, addr 0x3e88420, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ParseUnicodeAsync, addr 0x5acec50, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<char16_t>* ParseUnicodeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseUnquotedProperty, addr 0x3e8e748, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method ParseUnquotedProperty, addr 0x5ad4f68, size 0xc4, virtual false, abstract: false, final false
   inline void ParseUnquotedProperty();
 
-  /// @brief Method ParseUnquotedPropertyAsync, addr 0x3e894bc, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ParseUnquotedPropertyAsync, addr 0x5acfbdc, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ParseUnquotedPropertyAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ParseValue, addr 0x3e8b28c, size 0x420, virtual false, abstract: false, final false
+  /// @brief Method ParseValue, addr 0x5ad18c0, size 0x480, virtual false, abstract: false, final false
   inline bool ParseValue();
 
-  /// @brief Method ParseValueAsync, addr 0x3e87a08, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ParseValueAsync, addr 0x5ace274, size 0xf4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ParseValueAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method PrepareBufferForReadData, addr 0x3e8ae38, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method PrepareBufferForReadData, addr 0x5ad1494, size 0x190, virtual false, abstract: false, final false
   inline void PrepareBufferForReadData(bool append, int32_t charsRequired);
 
-  /// @brief Method ProcessCarriageReturn, addr 0x3e8cf98, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturn, addr 0x5ad3690, size 0x48, virtual false, abstract: false, final false
   inline void ProcessCarriageReturn(bool append);
 
-  /// @brief Method ProcessCarriageReturnAsync, addr 0x3e88128, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturnAsync, addr 0x5ace920, size 0x134, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessCarriageReturnAsync(bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ProcessCarriageReturnAsync, addr 0x3e88350, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ProcessCarriageReturnAsync, addr 0x5aceb90, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ProcessCarriageReturnAsync(::System::Threading::Tasks::Task_1<bool>* task);
 
-  /// @brief Method ProcessLineFeed, addr 0x3e8cfe0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ProcessLineFeed, addr 0x5ad36d8, size 0x1c, virtual false, abstract: false, final false
   inline void ProcessLineFeed();
 
-  /// @brief Method ProcessValueComma, addr 0x3e8ce5c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method ProcessValueComma, addr 0x5ad3570, size 0x64, virtual false, abstract: false, final false
   inline void ProcessValueComma();
 
-  /// @brief Method Read, addr 0x3e8b060, size 0x22c, virtual true, abstract: false, final false
+  /// @brief Method Read, addr 0x5ad16b4, size 0x20c, virtual true, abstract: false, final false
   inline bool Read();
 
-  /// @brief Method ReadAsBoolean, addr 0x3e8d628, size 0x578, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBoolean, addr 0x5ad3cf4, size 0x5ac, virtual true, abstract: false, final false
   inline ::System::Nullable_1<bool> ReadAsBoolean();
 
-  /// @brief Method ReadAsBooleanAsync, addr 0x3e89a50, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBooleanAsync, addr 0x5ad010c, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<bool>>* ReadAsBooleanAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsBytes, addr 0x3e8c898, size 0x4a4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytes, addr 0x5ad3004, size 0x464, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReadAsBytes();
 
-  /// @brief Method ReadAsBytesAsync, addr 0x3e89b60, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsBytesAsync, addr 0x5ad0210, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::ArrayW<uint8_t, ::Array<uint8_t>*>>* ReadAsBytesAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTime, addr 0x3e8c2e8, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTime, addr 0x5ad29a0, size 0x118, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTime> ReadAsDateTime();
 
-  /// @brief Method ReadAsDateTimeAsync, addr 0x3e89d30, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeAsync, addr 0x5ad03d4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTime>>* ReadAsDateTimeAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDateTimeOffset, addr 0x3e8dd28, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffset, addr 0x5ad4430, size 0x130, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::DateTimeOffset> ReadAsDateTimeOffset();
 
-  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x3e89e38, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDateTimeOffsetAsync, addr 0x5ad04d0, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::DateTimeOffset>>* ReadAsDateTimeOffsetAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDecimal, addr 0x3e8ddf4, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimal, addr 0x5ad4560, size 0x130, virtual true, abstract: false, final false
   inline ::System::Nullable_1<::System::Decimal> ReadAsDecimal();
 
-  /// @brief Method ReadAsDecimalAsync, addr 0x3e89f40, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDecimalAsync, addr 0x5ad05cc, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<::System::Decimal>>* ReadAsDecimalAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsDouble, addr 0x3e8dec0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDouble, addr 0x5ad4690, size 0x118, virtual true, abstract: false, final false
   inline ::System::Nullable_1<double_t> ReadAsDouble();
 
-  /// @brief Method ReadAsDoubleAsync, addr 0x3e8a048, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsDoubleAsync, addr 0x5ad06c8, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<double_t>>* ReadAsDoubleAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsInt32, addr 0x3e8be88, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32, addr 0x5ad24b8, size 0x118, virtual true, abstract: false, final false
   inline ::System::Nullable_1<int32_t> ReadAsInt32();
 
-  /// @brief Method ReadAsInt32Async, addr 0x3e8a150, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsInt32Async, addr 0x5ad07c4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Nullable_1<int32_t>>* ReadAsInt32Async(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsString, addr 0x3e8c834, size 0x64, virtual true, abstract: false, final false
+  /// @brief Method ReadAsString, addr 0x5ad2fd4, size 0x30, virtual true, abstract: false, final false
   inline ::StringW ReadAsString();
 
-  /// @brief Method ReadAsStringAsync, addr 0x3e8a258, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsStringAsync, addr 0x5ad08c0, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::StringW>* ReadAsStringAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadAsync, addr 0x3e877ac, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ReadAsync, addr 0x5acdfe8, size 0x10, virtual true, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadChars, addr 0x3e8aff0, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method ReadChars, addr 0x5ad1644, size 0x70, virtual false, abstract: false, final false
   inline bool ReadChars(int32_t relativePosition, bool append);
 
-  /// @brief Method ReadCharsAsync, addr 0x3e88518, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadCharsAsync, addr 0x5aced3c, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadCharsAsync(int32_t relativePosition, bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadData, addr 0x3e8ad9c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x5ad13fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t ReadData(bool append);
 
-  /// @brief Method ReadData, addr 0x3e8ada8, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ReadData, addr 0x5ad1404, size 0x90, virtual false, abstract: false, final false
   inline int32_t ReadData(bool append, int32_t charsRequired);
 
-  /// @brief Method ReadDataAsync, addr 0x3e87f1c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method ReadDataAsync, addr 0x5ace73c, size 0xc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadDataAsync(bool append, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadDataAsync, addr 0x3e87f2c, size 0x118, virtual false, abstract: false, final false
+  /// @brief Method ReadDataAsync, addr 0x5ace748, size 0x10c, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<int32_t>* ReadDataAsync(bool append, int32_t charsRequired, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadFinished, addr 0x3e8cffc, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method ReadFinished, addr 0x5ad36f4, size 0x12c, virtual false, abstract: false, final false
   inline void ReadFinished();
 
-  /// @brief Method ReadFinishedAsync, addr 0x3e8975c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadFinishedAsync, addr 0x5acfe50, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadFinishedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadFromFinishedAsync, addr 0x3e87e20, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ReadFromFinishedAsync, addr 0x5ace64c, size 0xf0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadFromFinishedAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadIntoWrappedTypeObjectAsync, addr 0x3e89c60, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ReadIntoWrappedTypeObjectAsync, addr 0x5ad0314, size 0xc0, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadIntoWrappedTypeObjectAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadNullChar, addr 0x3e8cd3c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method ReadNullChar, addr 0x5ad3468, size 0x50, virtual false, abstract: false, final false
   inline bool ReadNullChar();
 
-  /// @brief Method ReadNullCharAsync, addr 0x3e89590, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method ReadNullCharAsync, addr 0x5acfca0, size 0xec, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<bool>* ReadNullCharAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadNumberCharIntoBuffer, addr 0x3e8e320, size 0x17c, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberCharIntoBuffer, addr 0x5ad4b8c, size 0x160, virtual false, abstract: false, final false
   inline bool ReadNumberCharIntoBuffer(char16_t currentChar, int32_t charPos);
 
-  /// @brief Method ReadNumberIntoBuffer, addr 0x3e8e29c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberIntoBuffer, addr 0x5ad4b08, size 0x84, virtual false, abstract: false, final false
   inline void ReadNumberIntoBuffer();
 
-  /// @brief Method ReadNumberIntoBufferAsync, addr 0x3e893e8, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberIntoBufferAsync, addr 0x5acfb18, size 0xc4, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadNumberIntoBufferAsync(::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadNumberValue, addr 0x3e8bf18, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberValue, addr 0x5ad25d0, size 0x3d0, virtual false, abstract: false, final false
   inline ::System::Object* ReadNumberValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ReadNumberValueAsync, addr 0x3e89940, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadNumberValueAsync, addr 0x5ad0010, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ReadNumberValueAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadStringIntoBuffer, addr 0x3e8a524, size 0x46c, virtual false, abstract: false, final false
+  /// @brief Method ReadStringIntoBuffer, addr 0x5ad0b78, size 0x4e4, virtual false, abstract: false, final false
   inline void ReadStringIntoBuffer(char16_t quote);
 
-  /// @brief Method ReadStringIntoBufferAsync, addr 0x3e88044, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ReadStringIntoBufferAsync, addr 0x5ace854, size 0xcc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task* ReadStringIntoBufferAsync(char16_t quote, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadStringValue, addr 0x3e8c378, size 0x4bc, virtual false, abstract: false, final false
+  /// @brief Method ReadStringValue, addr 0x5ad2ab8, size 0x51c, virtual false, abstract: false, final false
   inline ::System::Object* ReadStringValue(::Newtonsoft::Json::ReadType readType);
 
-  /// @brief Method ReadStringValueAsync, addr 0x3e89830, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method ReadStringValueAsync, addr 0x5acff14, size 0xfc, virtual false, abstract: false, final false
   inline ::System::Threading::Tasks::Task_1<::System::Object*>* ReadStringValueAsync(::Newtonsoft::Json::ReadType readType, ::System::Threading::CancellationToken cancellationToken);
 
-  /// @brief Method ReadUnquotedPropertyReportIfDone, addr 0x3e8e83c, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method ReadUnquotedPropertyReportIfDone, addr 0x5ad502c, size 0x10c, virtual false, abstract: false, final false
   inline bool ReadUnquotedPropertyReportIfDone(char16_t currentChar, int32_t initialPosition);
 
-  /// @brief Method SetNewLine, addr 0x3e882f0, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method SetNewLine, addr 0x5aceb30, size 0x60, virtual false, abstract: false, final false
   inline void SetNewLine(bool hasNextChar);
 
-  /// @brief Method ShiftBufferIfNeeded, addr 0x3e8a470, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method ShiftBufferIfNeeded, addr 0x5ad0ab4, size 0xc4, virtual false, abstract: false, final false
   inline void ShiftBufferIfNeeded();
 
-  /// @brief Method ThrowReaderError, addr 0x3e8fed4, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ThrowReaderError, addr 0x5ad66d8, size 0x2c, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonReaderException* ThrowReaderError(::StringW message, ::System::Exception* ex);
 
-  /// @brief Method ValidIdentifierChar, addr 0x3e8e6cc, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method ValidIdentifierChar, addr 0x5ad4f18, size 0x50, virtual false, abstract: false, final false
   inline bool ValidIdentifierChar(char16_t value);
 
-  /// @brief Method WriteCharToBuffer, addr 0x3e8e060, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method WriteCharToBuffer, addr 0x5ad48c8, size 0x50, virtual false, abstract: false, final false
   inline void WriteCharToBuffer(char16_t writeChar, int32_t lastWritePosition, int32_t writeToPosition);
 
   constexpr ::Newtonsoft::Json::JsonNameTable* const& __cordl_internal_get__PropertyNameTable_k__BackingField() const;
@@ -3992,28 +3988,28 @@ public:
 
   constexpr void __cordl_internal_set__stringReference(::Newtonsoft::Json::Utilities::StringReference value);
 
-  /// @brief Method .ctor, addr 0x3e7a8bc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac0ef4, size 0xf4, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::TextReader* reader);
 
-  /// @brief Method get_ArrayPool, addr 0x3e8a360, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ArrayPool, addr 0x5ad09cc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::IArrayPool_1<char16_t>* get_ArrayPool();
 
-  /// @brief Method get_LineNumber, addr 0x3e90730, size 0x4c, virtual true, abstract: false, final true
+  /// @brief Method get_LineNumber, addr 0x5ad6f98, size 0x4c, virtual true, abstract: false, final true
   inline int32_t get_LineNumber();
 
-  /// @brief Method get_LinePosition, addr 0x3e9077c, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_LinePosition, addr 0x5ad6fe4, size 0xc, virtual true, abstract: false, final true
   inline int32_t get_LinePosition();
 
-  /// @brief Method get_PropertyNameTable, addr 0x3e8a350, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_PropertyNameTable, addr 0x5ad09bc, size 0x8, virtual false, abstract: false, final false
   inline ::Newtonsoft::Json::JsonNameTable* get_PropertyNameTable();
 
   /// @brief Convert to "::Newtonsoft::Json::IJsonLineInfo"
   constexpr ::Newtonsoft::Json::IJsonLineInfo* i___Newtonsoft__Json__IJsonLineInfo() noexcept;
 
-  /// @brief Method set_ArrayPool, addr 0x3e8a368, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method set_ArrayPool, addr 0x5ad09d4, size 0x58, virtual false, abstract: false, final false
   inline void set_ArrayPool(::Newtonsoft::Json::IArrayPool_1<char16_t>* value);
 
-  /// @brief Method set_PropertyNameTable, addr 0x3e8a358, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_PropertyNameTable, addr 0x5ad09c4, size 0x8, virtual false, abstract: false, final false
   inline void set_PropertyNameTable(::Newtonsoft::Json::JsonNameTable* value);
 
 protected:
@@ -4040,7 +4036,7 @@ public:
   static constexpr char16_t UnicodeReplacementChar{ u'\u{fffd}' };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10128 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13282 };
 
   /// @brief Field _safeAsync, offset: 0x72, size: 0x1, def value: None
   bool ____safeAsync;

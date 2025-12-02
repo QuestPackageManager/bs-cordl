@@ -28,10 +28,10 @@ public:
   /// @brief Method GetOrAddComponent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline T GetOrAddComponent(::UnityEngine::GameObject* go);
 
-  /// @brief Method SafeDestroy, addr 0x22b44bc, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SafeDestroy, addr 0x31fb27c, size 0xf8, virtual false, abstract: false, final false
   static inline void SafeDestroy(::UnityEngine::Object* obj);
 
-  /// @brief Method get_CurrentTimeStamp, addr 0x22b43e4, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_CurrentTimeStamp, addr 0x31fb1a0, size 0xdc, virtual false, abstract: false, final false
   static inline double_t get_CurrentTimeStamp();
 
 protected:
@@ -49,7 +49,7 @@ public:
   EssentialHelpers(EssentialHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20662 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

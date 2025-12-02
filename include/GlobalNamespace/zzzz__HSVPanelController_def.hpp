@@ -54,25 +54,25 @@ public:
   __declspec(property(get = __cordl_internal_get_colorDidChangeEvent,
                       put = __cordl_internal_set_colorDidChangeEvent)) ::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* colorDidChangeEvent;
 
-  /// @brief Method Awake, addr 0x3c26200, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5817e68, size 0xec, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method HandleColorHueDidChange, addr 0x3c264b0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method HandleColorHueDidChange, addr 0x5818134, size 0x6c, virtual false, abstract: false, final false
   inline void HandleColorHueDidChange(::GlobalNamespace::ColorHueSlider* slider, float_t hue, ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
-  /// @brief Method HandleColorSaturationOrValueDidChange, addr 0x3c2643c, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method HandleColorSaturationOrValueDidChange, addr 0x58180c0, size 0x74, virtual false, abstract: false, final false
   inline void HandleColorSaturationOrValueDidChange(::GlobalNamespace::ColorSaturationValueSlider* slider, ::UnityEngine::Vector2 colorSaturationAndValue,
                                                     ::GlobalNamespace::ColorChangeUIEventType colorChangeUIEventType);
 
   static inline ::GlobalNamespace::HSVPanelController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3c262e4, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5817f54, size 0x16c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshSlidersColors, addr 0x3c26198, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RefreshSlidersColors, addr 0x5817dcc, size 0x2c, virtual false, abstract: false, final false
   inline void RefreshSlidersColors();
 
-  /// @brief Method RefreshSlidersValues, addr 0x3c261c8, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method RefreshSlidersValues, addr 0x5817df8, size 0x70, virtual false, abstract: false, final false
   inline void RefreshSlidersValues();
 
   constexpr ::UnityW<::GlobalNamespace::ColorHueSlider> const& __cordl_internal_get__colorHueSlider() const;
@@ -99,19 +99,19 @@ public:
 
   constexpr void __cordl_internal_set_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method .ctor, addr 0x3c2651c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58181a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_colorDidChangeEvent, addr 0x3c25fd8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_colorDidChangeEvent, addr 0x5817be8, size 0xc0, virtual false, abstract: false, final false
   inline void add_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method get_color, addr 0x3c26138, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_color, addr 0x5817d68, size 0x18, virtual false, abstract: false, final false
   inline ::UnityEngine::Color get_color();
 
-  /// @brief Method remove_colorDidChangeEvent, addr 0x3c26088, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_colorDidChangeEvent, addr 0x5817ca8, size 0xc0, virtual false, abstract: false, final false
   inline void remove_colorDidChangeEvent(::System::Action_2<::UnityEngine::Color, ::GlobalNamespace::ColorChangeUIEventType>* value);
 
-  /// @brief Method set_color, addr 0x3c2614c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method set_color, addr 0x5817d80, size 0x4c, virtual false, abstract: false, final false
   inline void set_color(::UnityEngine::Color value);
 
 protected:
@@ -129,7 +129,7 @@ public:
   HSVPanelController(HSVPanelController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19008 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22906 };
 
   /// @brief Field _colorSaturationValueSlider, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::ColorSaturationValueSlider> ____colorSaturationValueSlider;

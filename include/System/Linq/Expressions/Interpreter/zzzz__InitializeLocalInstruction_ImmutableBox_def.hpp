@@ -33,7 +33,7 @@ public:
 
   static inline ::GlobalNamespace::InitializeLocalInstruction_ImmutableBox* New_ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method Run, addr 0x40ea2ac, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method Run, addr 0x5d969ec, size 0xc4, virtual true, abstract: false, final false
   inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
 
   constexpr ::System::Object* const& __cordl_internal_get__defaultValue() const;
@@ -42,10 +42,10 @@ public:
 
   constexpr void __cordl_internal_set__defaultValue(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x40ea23c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d9699c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t index, ::System::Object* defaultValue);
 
-  /// @brief Method get_InstructionName, addr 0x40ea37c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_InstructionName, addr 0x5d96ab0, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_InstructionName();
 
 protected:
@@ -63,7 +63,7 @@ public:
   InitializeLocalInstruction_ImmutableBox(InitializeLocalInstruction_ImmutableBox const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13975 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16422 };
 
   /// @brief Field _defaultValue, offset: 0x18, size: 0x8, def value: None
   ::System::Object* ____defaultValue;

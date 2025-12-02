@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::IDragAndDrop* (*)(::UnityEngine::UIElements::IPanel*)>(
     &::UnityEngine::UIElements::DragAndDropUtility::GetDragAndDrop)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a18598;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6b55474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

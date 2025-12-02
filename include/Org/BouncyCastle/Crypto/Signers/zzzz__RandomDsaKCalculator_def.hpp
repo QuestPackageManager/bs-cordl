@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Signers/zzzz__IDsaKCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(RandomDsaKCalculator)
+namespace Org::BouncyCastle::Crypto::Signers {
+class IDsaKCalculator;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -19,7 +21,7 @@ class RandomDsaKCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
-// Dependencies Org.BouncyCastle.Crypto.Signers.IDsaKCalculator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Signers.RandomDsaKCalculator
@@ -37,15 +39,15 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
   constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method Init, addr 0x23dc61c, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x330a8fc, size 0x4c, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
 
-  /// @brief Method Init, addr 0x23dc614, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x330a8f4, size 0x8, virtual true, abstract: false, final false
   inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
 
   static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor();
 
-  /// @brief Method NextK, addr 0x23dc668, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method NextK, addr 0x330a948, size 0xbc, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* NextK();
 
   constexpr ::Org::BouncyCastle::Math::BigInteger* const& __cordl_internal_get_q() const;
@@ -60,10 +62,10 @@ public:
 
   constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
 
-  /// @brief Method .ctor, addr 0x23dc720, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x330aa04, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsDeterministic, addr 0x23dc60c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsDeterministic, addr 0x330a8ec, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsDeterministic();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"

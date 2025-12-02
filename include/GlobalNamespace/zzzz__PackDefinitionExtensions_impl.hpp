@@ -1,1967 +1,673 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/PackDefinitionExtensions.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__LeaderboardIdsSO_def.hpp"
 #include "GlobalNamespace/zzzz__OculusLevelProductPacksSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS4LevelProductPacksSO_def.hpp"
-#include "GlobalNamespace/zzzz__PS5LevelProductPacksSO_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionExtensions_def.hpp"
 #include "GlobalNamespace/zzzz__PackDefinitionSO_def.hpp"
 #include "GlobalNamespace/zzzz__PerceivedLoudnessSO_def.hpp"
-#include "GlobalNamespace/zzzz__SonyLeaderboardIdsSO_def.hpp"
 #include "GlobalNamespace/zzzz__SteamLevelProductPacksSO_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5._ctor
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0c0c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)(int32_t)>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3603338;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d0ed0;
+  constexpr static std::size_t addrs = 0x3603438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d0eec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::MoveNext)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x3603454;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d11f0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3603744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                  "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current)> {
+    static_cast<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+        &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d12a0;
+  constexpr static std::size_t addrs = 0x36037f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
         "System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d12a8;
+  constexpr static std::size_t addrs = 0x3603800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d12e0;
+  constexpr static std::size_t addrs = 0x3603838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* (
-    ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d12e8;
+    ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3603840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
         "System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3.System_Collections_IEnumerable_GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_IEnumerable_GetEnumerator)> {
+    static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::*)()>(
+        &::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d1384;
+  constexpr static std::size_t addrs = 0x36038d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___2__current() {
+constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> const& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___2__current() const {
+constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> const& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get_packDefinitions() {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get_packDefinitions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packDefinitions;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get_packDefinitions() const {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get_packDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packDefinitions;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_set_packDefinitions(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_set_packDefinitions(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___3__packDefinitions() {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___3__packDefinitions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__packDefinitions;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___3__packDefinitions() const {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___3__packDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__packDefinitions;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_set___3__packDefinitions(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_set___3__packDefinitions(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___7__wrap1() {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_get___7__wrap1() const {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__cordl_internal_set___7__wrap1(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__cordl_internal_set___7__wrap1(
     ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_IDisposable_Dispose() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::MoveNext() {
+inline bool GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::__m__Finally1() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current() {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
       "System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator() {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
       "System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5*>(__1__state));
+inline ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::Generic::IEnumerable_1<
+constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::operator ::System::Collections::Generic::IEnumerable_1<
     ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::Generic::IEnumerator_1<
+constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::operator ::System::Collections::Generic::IEnumerator_1<
     ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
+GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5::PackDefinitionExtensions__GetOculusLevelProductPacks_d__5() {}
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3._ctor
+constexpr ::GlobalNamespace::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3::PackDefinitionExtensions__GetOculusLevelProductPacks_d__3() {}
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0ac4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)(int32_t)>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x36038dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d1388;
+  constexpr static std::size_t addrs = 0x36038fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d13a4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::MoveNext)> {
+  constexpr static std::size_t size = 0x2e4;
+  constexpr static std::size_t addrs = 0x3603918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(), "MoveNext",
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(), "MoveNext",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d16a8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3603bfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                  "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current)> {
+    static_cast<::UnityW<::GlobalNamespace::PerceivedLoudnessSO> (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+        &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d1758;
+  constexpr static std::size_t addrs = 0x3603cb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                    "System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d1760;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d1798;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d17a0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                   "System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3.System_Collections_IEnumerable_GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d183c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get_packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get_packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_set_packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___3__packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___3__packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_set___3__packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__cordl_internal_set___7__wrap1(
-    ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::__m__Finally1() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(), "<>m__Finally1",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                  "System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                  "System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*, false>(this, ___internal_method);
-}
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>::get(),
-                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3*>(__1__state));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3::PackDefinitionExtensions__GetPS4LeaderboardIds_d__3() {}
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0d54;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d1840;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d185c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.__m__Finally1
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d1b60;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                                 "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d1c10;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                   "System.Collections.Generic.IEnumerator<PS4LevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d1c18;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d1c50;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.System_Collections_Generic_IEnumerable_PS4LevelProductPacksSO__GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_Generic_IEnumerable_PS4LevelProductPacksSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d1c58;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-        "System.Collections.Generic.IEnumerable<PS4LevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7.System_Collections_IEnumerable_GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d1cf4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>& GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> const& GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get_packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get_packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_set_packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___3__packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___3__packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_set___3__packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__cordl_internal_set___7__wrap1(
-    ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::__m__Finally1() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                               "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                  "System.Collections.Generic.IEnumerator<PS4LevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_Generic_IEnumerable_PS4LevelProductPacksSO__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                 "System.Collections.Generic.IEnumerable<PS4LevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*, false>(this, ___internal_method);
-}
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>::get(),
-                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7*>(__1__state));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::Generic::IEnumerable_1<
-    ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::Generic::IEnumerator_1<
-    ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7::PackDefinitionExtensions__GetPS4LevelProductPacks_d__7() {}
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0b68;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d1cf8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d1d14;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.__m__Finally1
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d2018;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                                 "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d20c8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                    "System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d20d0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2108;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d2110;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                   "System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4.System_Collections_IEnumerable_GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d21ac;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get_packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get_packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_set_packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___3__packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___3__packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_set___3__packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__cordl_internal_set___7__wrap1(
-    ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::__m__Finally1() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(), "<>m__Finally1",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                  "System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                  "System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*, false>(this, ___internal_method);
-}
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>::get(),
-                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4*>(__1__state));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4::PackDefinitionExtensions__GetPS5LeaderboardIds_d__4() {}
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0df8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d21b0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d21cc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.__m__Finally1
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d24d0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                                 "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2580;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                   "System.Collections.Generic.IEnumerator<PS5LevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.System_Collections_IEnumerator_Reset
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_IEnumerator_Reset)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d2588;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                                 "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.System_Collections_IEnumerator_get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d25c0;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                                 "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.System_Collections_Generic_IEnumerable_PS5LevelProductPacksSO__GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_Generic_IEnumerable_PS5LevelProductPacksSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d25c8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-        "System.Collections.Generic.IEnumerable<PS5LevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8.System_Collections_IEnumerable_GetEnumerator
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d2664;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                                 "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___1__state() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___1__state() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____1__state;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_set___1__state(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____1__state = value;
-}
-constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>& GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___2__current() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> const& GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___2__current() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____2__current;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___l__initialThreadId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___l__initialThreadId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____l__initialThreadId;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_set___l__initialThreadId(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->_____l__initialThreadId = value;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get_packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get_packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_set_packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___3__packDefinitions() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___3__packDefinitions() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____3__packDefinitions;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_set___3__packDefinitions(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___7__wrap1() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_get___7__wrap1() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->_____7__wrap1;
-}
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__cordl_internal_set___7__wrap1(
-    ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::_ctor(int32_t __1__state) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_IDisposable_Dispose() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                               "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline bool GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::MoveNext() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(), "MoveNext",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::__m__Finally1() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                               "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current() {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                  "System.Collections.Generic.IEnumerator<PS5LevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_IEnumerator_Reset() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                               "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_IEnumerator_get_Current() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                               "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
-}
-inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_Generic_IEnumerable_PS5LevelProductPacksSO__GetEnumerator() {
-  static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                 "System.Collections.Generic.IEnumerable<PS5LevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*, false>(this, ___internal_method);
-}
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::System_Collections_IEnumerable_GetEnumerator() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>::get(),
-                                               "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
-}
-inline ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8*>(__1__state));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::Generic::IEnumerable_1<
-    ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::IEnumerable*() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__IEnumerable() noexcept {
-  return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::Generic::IEnumerator_1<
-    ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept {
-  return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::Collections::IEnumerator*() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__Collections__IEnumerator() noexcept {
-  return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
-}
-/// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::operator ::System::IDisposable*() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-/// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::i___System__IDisposable() noexcept {
-  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8::PackDefinitionExtensions__GetPS5LevelProductPacks_d__8() {}
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0e9c;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(), ".ctor",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.System_IDisposable_Dispose
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_IDisposable_Dispose)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d2668;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
-                                                 "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.MoveNext
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::MoveNext)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x26d2684;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(), "MoveNext",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.__m__Finally1
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d2964;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
-                                                 "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::PerceivedLoudnessSO> (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2a14;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                     "System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d2a1c;
+  constexpr static std::size_t addrs = 0x3603cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2a54;
+  constexpr static std::size_t addrs = 0x3603cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d2a5c;
+    static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+        &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3603cf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                     "System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5.System_Collections_IEnumerable_GetEnumerator
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_IEnumerable_GetEnumerator)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d2af8;
+  constexpr static std::size_t addrs = 0x3603d90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___2__current() {
+constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> const& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___2__current() const {
+constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> const& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PerceivedLoudnessSO> value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PerceivedLoudnessSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get_packDefinitions() {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get_packDefinitions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packDefinitions;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get_packDefinitions() const {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get_packDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packDefinitions;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_set_packDefinitions(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_set_packDefinitions(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___3__packDefinitions() {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___3__packDefinitions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__packDefinitions;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___3__packDefinitions() const {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___3__packDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__packDefinitions;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_set___3__packDefinitions(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_set___3__packDefinitions(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___7__wrap1() {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_get___7__wrap1() const {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__cordl_internal_set___7__wrap1(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__cordl_internal_set___7__wrap1(
     ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_IDisposable_Dispose() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::MoveNext() {
+inline bool GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::__m__Finally1() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current() {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                   "System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator() {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                   "System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9*>(__1__state));
+inline ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::Generic::IEnumerable_1<
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::operator ::System::Collections::Generic::IEnumerable_1<
     ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::Generic::IEnumerator_1<
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::operator ::System::Collections::Generic::IEnumerator_1<
     ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
+GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__9() {}
+constexpr ::GlobalNamespace::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5::PackDefinitionExtensions__GetPerceivedLoudnessSOs_d__5() {}
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d08d8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3603d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -1976,7 +682,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d2afc;
+  constexpr static std::size_t addrs = 0x3603db4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -1990,8 +696,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d2b18;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x3603dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2005,8 +711,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d2e1c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x36040c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2022,7 +728,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2ecc;
+  constexpr static std::size_t addrs = 0x3604174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2037,7 +743,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d2ed4;
+  constexpr static std::size_t addrs = 0x360417c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2052,7 +758,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d2f0c;
+  constexpr static std::size_t addrs = 0x36041b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2067,8 +773,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d2f14;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x36041bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2083,7 +789,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetQuestLeaderboardIds_d__0::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d2fb0;
+  constexpr static std::size_t addrs = 0x3604254;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2280,8 +986,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d097c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3604258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2296,7 +1002,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d2fb4;
+  constexpr static std::size_t addrs = 0x3604278;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2310,8 +1016,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d2fd0;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x3604294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2325,8 +1031,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d32d4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3604584;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2342,7 +1048,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3384;
+  constexpr static std::size_t addrs = 0x3604638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2357,7 +1063,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d338c;
+  constexpr static std::size_t addrs = 0x3604640;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2372,7 +1078,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d33c4;
+  constexpr static std::size_t addrs = 0x3604678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2387,8 +1093,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d33cc;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3604680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2403,7 +1109,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetRiftLeaderboardIds_d__1::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d3468;
+  constexpr static std::size_t addrs = 0x3604718;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2600,8 +1306,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)(int32_t)>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0a20;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x360471c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2616,7 +1322,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d346c;
+  constexpr static std::size_t addrs = 0x360473c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2630,8 +1336,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d3488;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x3604758;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2645,8 +1351,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d378c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3604a48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2662,7 +1368,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityW<::GlobalNamespace::LeaderboardIdsSO> (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d383c;
+  constexpr static std::size_t addrs = 0x3604afc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2677,7 +1383,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d3844;
+  constexpr static std::size_t addrs = 0x3604b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2692,7 +1398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d387c;
+  constexpr static std::size_t addrs = 0x3604b3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2707,8 +1413,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
         &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d3884;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3604b44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -2723,7 +1429,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::*)()>(
     &::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d3920;
+  constexpr static std::size_t addrs = 0x3604bdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -2915,330 +1621,330 @@ constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetS
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2::PackDefinitionExtensions__GetSteamLeaderboardIds_d__2() {}
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6._ctor
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4._ctor
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)(int32_t)>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x26d0cb0;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)(int32_t)>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::_ctor)> {
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3604be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(), ".ctor",
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(), ".ctor",
                                     std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.System_IDisposable_Dispose
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.System_IDisposable_Dispose
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_IDisposable_Dispose)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_IDisposable_Dispose)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x26d3924;
+  constexpr static std::size_t addrs = 0x3604c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                  "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.MoveNext
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.MoveNext
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::MoveNext)> {
-  constexpr static std::size_t size = 0x304;
-  constexpr static std::size_t addrs = 0x26d3940;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::MoveNext)> {
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x3604c1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                  "MoveNext", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.__m__Finally1
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.__m__Finally1
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__m__Finally1)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x26d3c44;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__m__Finally1)> {
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x3604f0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                  "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current)> {
+    static_cast<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+        &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3cf4;
+  constexpr static std::size_t addrs = 0x3604fc0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
         "System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.System_Collections_IEnumerator_Reset
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.System_Collections_IEnumerator_Reset
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_IEnumerator_Reset)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerator_Reset)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x26d3cfc;
+  constexpr static std::size_t addrs = 0x3604fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                  "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.System_Collections_IEnumerator_get_Current
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.System_Collections_IEnumerator_get_Current
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_IEnumerator_get_Current)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerator_get_Current)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26d3d34;
+  constexpr static std::size_t addrs = 0x3605000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                  "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* (
-    ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x26d3d3c;
+    ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+    &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator)> {
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x3605008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
         "System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6.System_Collections_IEnumerable_GetEnumerator
+//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4.System_Collections_IEnumerable_GetEnumerator
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::*)()>(
-        &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_IEnumerable_GetEnumerator)> {
+    static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::*)()>(
+        &::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x26d3dd8;
+  constexpr static std::size_t addrs = 0x36050a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                  "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___1__state() {
+constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___1__state() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___1__state() const {
+constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___1__state() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____1__state;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_set___1__state(int32_t value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_set___1__state(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____1__state = value;
 }
-constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___2__current() {
+constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___2__current() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> const& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___2__current() const {
+constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> const& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___2__current() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____2__current;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____2__current)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___l__initialThreadId() {
+constexpr int32_t& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___l__initialThreadId() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___l__initialThreadId() const {
+constexpr int32_t const& GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___l__initialThreadId() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____l__initialThreadId;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_set___l__initialThreadId(int32_t value) {
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_set___l__initialThreadId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->_____l__initialThreadId = value;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get_packDefinitions() {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get_packDefinitions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packDefinitions;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get_packDefinitions() const {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get_packDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___packDefinitions;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_set_packDefinitions(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_set_packDefinitions(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___3__packDefinitions() {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___3__packDefinitions() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__packDefinitions;
 }
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___3__packDefinitions() const {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___3__packDefinitions() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____3__packDefinitions;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_set___3__packDefinitions(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_set___3__packDefinitions(
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____3__packDefinitions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*&
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___7__wrap1() {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___7__wrap1() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* const&
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_get___7__wrap1() const {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_get___7__wrap1() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->_____7__wrap1;
 }
-constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__cordl_internal_set___7__wrap1(
+constexpr void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__cordl_internal_set___7__wrap1(
     ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->_____7__wrap1)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::_ctor(int32_t __1__state) {
+inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::_ctor(int32_t __1__state) {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(), ".ctor",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(), ".ctor",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, __1__state);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_IDisposable_Dispose() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_IDisposable_Dispose() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                "System.IDisposable.Dispose", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::MoveNext() {
+inline bool GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::MoveNext() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(), "MoveNext",
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(), "MoveNext",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::__m__Finally1() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::__m__Finally1() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                "<>m__Finally1", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current() {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current() {
   static auto* ___internal_method = THROW_UNLESS((
-      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                  "System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_IEnumerator_Reset() {
+inline void GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerator_Reset() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                "System.Collections.IEnumerator.Reset", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_IEnumerator_get_Current() {
+inline ::System::Object* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerator_get_Current() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
 }
 inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator() {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
       "System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*, false>(this, ___internal_method);
 }
-inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::System_Collections_IEnumerable_GetEnumerator() {
+inline ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::System_Collections_IEnumerable_GetEnumerator() {
   static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>::get(),
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>::get(),
                                                "System.Collections.IEnumerable.GetEnumerator", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::IEnumerator*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::New_ctor(int32_t __1__state) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6*>(__1__state));
+inline ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::New_ctor(int32_t __1__state) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4*>(__1__state));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::Generic::IEnumerable_1<
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::operator ::System::Collections::Generic::IEnumerable_1<
     ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
 constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::IEnumerable*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::operator ::System::Collections::IEnumerable*() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerable"
-constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__IEnumerable() noexcept {
+constexpr ::System::Collections::IEnumerable* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::i___System__Collections__IEnumerable() noexcept {
   return static_cast<::System::Collections::IEnumerable*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::Generic::IEnumerator_1<
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::operator ::System::Collections::Generic::IEnumerator_1<
     ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
 constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
+GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept {
   return static_cast<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::Collections::IEnumerator"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::Collections::IEnumerator*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::operator ::System::Collections::IEnumerator*() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::Collections::IEnumerator"
-constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__Collections__IEnumerator() noexcept {
+constexpr ::System::Collections::IEnumerator* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::i___System__Collections__IEnumerator() noexcept {
   return static_cast<::System::Collections::IEnumerator*>(static_cast<void*>(this));
 }
 /// @brief Convert operator to "::System::IDisposable"
-constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::operator ::System::IDisposable*() noexcept {
+constexpr GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::operator ::System::IDisposable*() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::System::IDisposable"
-constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::i___System__IDisposable() noexcept {
+constexpr ::System::IDisposable* GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::i___System__IDisposable() noexcept {
   return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6::PackDefinitionExtensions__GetSteamLevelProductPacks_d__6() {}
+constexpr ::GlobalNamespace::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4::PackDefinitionExtensions__GetSteamLevelProductPacks_d__4() {}
 //  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetQuestLeaderboardIds
 template <>
 
@@ -3246,7 +1952,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetQuestLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0868;
+  constexpr static std::size_t addrs = 0x3603178;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3263,7 +1969,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetRiftLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d090c;
+  constexpr static std::size_t addrs = 0x36031e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3280,45 +1986,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetSteamLeaderboardIds)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d09b0;
+  constexpr static std::size_t addrs = 0x3603258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetSteamLeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS4LeaderboardIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
-    ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::PackDefinitionExtensions::GetPS4LeaderboardIds)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0a54;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS5LeaderboardIds
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
-    ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::PackDefinitionExtensions::GetPS5LeaderboardIds)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0af8;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
@@ -3331,7 +2003,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetOculusLevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0b9c;
+  constexpr static std::size_t addrs = 0x36032c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3348,45 +2020,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetSteamLevelProductPacks)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0c40;
+  constexpr static std::size_t addrs = 0x3603358;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetSteamLevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS4LevelProductPacks
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
-    ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::PackDefinitionExtensions::GetPS4LevelProductPacks)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0ce4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::PackDefinitionExtensions.GetPS5LevelProductPacks
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<
-    ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
-    &::GlobalNamespace::PackDefinitionExtensions::GetPS5LevelProductPacks)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0d88;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
     return ___internal_method;
@@ -3399,7 +2037,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* (*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*)>(
     &::GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x26d0e2c;
+  constexpr static std::size_t addrs = 0x36033c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3433,22 +2071,6 @@ GlobalNamespace::PackDefinitionExtensions::GetSteamLeaderboardIds(::System::Coll
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
-}
-inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LeaderboardIds", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*, false>(nullptr, ___internal_method, packDefinitions);
-}
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
 GlobalNamespace::PackDefinitionExtensions::GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -3466,22 +2088,6 @@ GlobalNamespace::PackDefinitionExtensions::GetSteamLevelProductPacks(::System::C
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*, false>(nullptr, ___internal_method,
                                                                                                                                                            packDefinitions);
-}
-inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS4LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*, false>(nullptr, ___internal_method, packDefinitions);
-}
-inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-GlobalNamespace::PackDefinitionExtensions::GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PackDefinitionExtensions*>::get(), "GetPS5LevelProductPacks", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*, false>(nullptr, ___internal_method, packDefinitions);
 }
 inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
 GlobalNamespace::PackDefinitionExtensions::GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions) {

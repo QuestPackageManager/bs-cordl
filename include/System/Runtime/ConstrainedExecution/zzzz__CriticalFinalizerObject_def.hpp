@@ -18,12 +18,12 @@ namespace System::Runtime::ConstrainedExecution {
 class CORDL_TYPE CriticalFinalizerObject : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method Finalize, addr 0x3d17dd8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5958f9c, size 0x4, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::System::Runtime::ConstrainedExecution::CriticalFinalizerObject* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3d17dd0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5958f98, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -41,7 +41,7 @@ public:
   CriticalFinalizerObject(CriticalFinalizerObject const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3354 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3367 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

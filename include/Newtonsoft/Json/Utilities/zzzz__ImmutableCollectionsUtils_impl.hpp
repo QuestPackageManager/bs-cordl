@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(
     ::StringW, ::StringW, ::StringW)>(&::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3ecd16c;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5b149a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_ContractTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd1a8;
+  constexpr static std::size_t addrs = 0x5b149b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_ContractTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd1b0;
+  constexpr static std::size_t addrs = 0x5b149bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_CreatedTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd1b8;
+  constexpr static std::size_t addrs = 0x5b149c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_CreatedTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd1c0;
+  constexpr static std::size_t addrs = 0x5b149cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::get_BuilderTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd1c8;
+  constexpr static std::size_t addrs = 0x5b149d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -107,7 +107,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::*)(::StringW)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo::set_BuilderTypeName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd1d0;
+  constexpr static std::size_t addrs = 0x5b149dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -207,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecd234;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b14a38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,7 +223,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)(::System::Reflection::MethodInfo*)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForArrayContract_b__24_1)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3ecd23c;
+  constexpr static std::size_t addrs = 0x5b14a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -237,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::*)(::System::Reflection::MethodInfo*)>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c::_TryBuildImmutableForDictionaryContract_b__25_1)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3ecd2d0;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5b14ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -302,8 +302,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecc408;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b13c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -318,8 +318,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass24_0::_TryBuildImmutableForArrayContract_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ecd420;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5b14c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -365,8 +365,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::*)()>(
     &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ecc89c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5b14120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -381,8 +381,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::*)(::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils_ImmutableCollectionTypeInfo*)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils___c__DisplayClass25_0::_TryBuildImmutableForDictionaryContract_b__0)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3ecd444;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5b14c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -429,8 +429,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Type*, ::System::Type*, ::ByRef<::System::Type*>, ::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForArrayContract)> {
-  constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x3ecbfd0;
+  constexpr static std::size_t size = 0x44c;
+  constexpr static std::size_t addrs = 0x5b13830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -449,8 +449,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Type*, ::System::Type*, ::System::Type*, ::ByRef<::System::Type*>, ::ByRef<::Newtonsoft::Json::Serialization::ObjectConstructor_1<::System::Object*>*>)>(
         &::Newtonsoft::Json::Utilities::ImmutableCollectionsUtils::TryBuildImmutableForDictionaryContract)> {
-  constexpr static std::size_t size = 0x48c;
-  constexpr static std::size_t addrs = 0x3ecc410;
+  constexpr static std::size_t size = 0x4a0;
+  constexpr static std::size_t addrs = 0x5b13c80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

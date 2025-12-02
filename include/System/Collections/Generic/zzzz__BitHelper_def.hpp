@@ -23,7 +23,7 @@ public:
   __declspec(property(get = __cordl_internal_get__array, put = __cordl_internal_set__array)) ::ArrayW<int32_t, ::Array<int32_t>*> _array;
 
   /// @brief Field _arrayPtr, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrayPtr, put = __cordl_internal_set__arrayPtr)) ::cordl_internals::Ptr<int32_t> _arrayPtr;
+  __declspec(property(get = __cordl_internal_get__arrayPtr, put = __cordl_internal_set__arrayPtr)) int32_t* _arrayPtr;
 
   /// @brief Field _length, offset 0x10, size 0x4
   __declspec(property(get = __cordl_internal_get__length, put = __cordl_internal_set__length)) int32_t _length;
@@ -31,26 +31,26 @@ public:
   /// @brief Field _useStackAlloc, offset 0x28, size 0x1
   __declspec(property(get = __cordl_internal_get__useStackAlloc, put = __cordl_internal_set__useStackAlloc)) bool _useStackAlloc;
 
-  /// @brief Method IsMarked, addr 0x4486fc8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method IsMarked, addr 0x5db12b4, size 0x84, virtual false, abstract: false, final false
   inline bool IsMarked(int32_t bitPosition);
 
-  /// @brief Method MarkBit, addr 0x4486f4c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method MarkBit, addr 0x5db1238, size 0x7c, virtual false, abstract: false, final false
   inline void MarkBit(int32_t bitPosition);
 
   static inline ::System::Collections::Generic::BitHelper* New_ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  static inline ::System::Collections::Generic::BitHelper* New_ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
+  static inline ::System::Collections::Generic::BitHelper* New_ctor(int32_t* bitArrayPtr, int32_t length);
 
-  /// @brief Method ToIntArrayLength, addr 0x448704c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method ToIntArrayLength, addr 0x5db1338, size 0x14, virtual false, abstract: false, final false
   static inline int32_t ToIntArrayLength(int32_t n);
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__array() const;
 
   constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__array();
 
-  constexpr ::cordl_internals::Ptr<int32_t> const& __cordl_internal_get__arrayPtr() const;
+  constexpr int32_t* const& __cordl_internal_get__arrayPtr() const;
 
-  constexpr ::cordl_internals::Ptr<int32_t>& __cordl_internal_get__arrayPtr();
+  constexpr int32_t*& __cordl_internal_get__arrayPtr();
 
   constexpr int32_t const& __cordl_internal_get__length() const;
 
@@ -62,17 +62,17 @@ public:
 
   constexpr void __cordl_internal_set__array(::ArrayW<int32_t, ::Array<int32_t>*> value);
 
-  constexpr void __cordl_internal_set__arrayPtr(::cordl_internals::Ptr<int32_t> value);
+  constexpr void __cordl_internal_set__arrayPtr(int32_t* value);
 
   constexpr void __cordl_internal_set__length(int32_t value);
 
   constexpr void __cordl_internal_set__useStackAlloc(bool value);
 
-  /// @brief Method .ctor, addr 0x4486f1c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5db122c, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<int32_t, ::Array<int32_t>*> bitArray, int32_t length);
 
-  /// @brief Method .ctor, addr 0x4486ee4, size 0x38, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<int32_t> bitArrayPtr, int32_t length);
+  /// @brief Method .ctor, addr 0x5db1218, size 0x14, virtual false, abstract: false, final false
+  inline void _ctor(int32_t* bitArrayPtr, int32_t length);
 
 protected:
   // Ctor Parameters []
@@ -89,13 +89,13 @@ public:
   BitHelper(BitHelper const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9514 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16639 };
 
   /// @brief Field _length, offset: 0x10, size: 0x4, def value: None
   int32_t ____length;
 
   /// @brief Field _arrayPtr, offset: 0x18, size: 0x8, def value: None
-  ::cordl_internals::Ptr<int32_t> ____arrayPtr;
+  int32_t* ____arrayPtr;
 
   /// @brief Field _array, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____array;

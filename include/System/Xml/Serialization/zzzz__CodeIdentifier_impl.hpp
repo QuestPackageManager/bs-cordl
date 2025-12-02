@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::CodeIdentifier::MakePascal)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x4366a98;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x60ce1c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -21,8 +21,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::System::Xml::Serialization::CodeIdentifier::MakeValid)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4366c48;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x60ce368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Xml::Serialization::CodeIdentifier::IsValidStart)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4366e48;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x60ce52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Xml::Serialization::CodeIdentifier::IsValid)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4366dcc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x60ce4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

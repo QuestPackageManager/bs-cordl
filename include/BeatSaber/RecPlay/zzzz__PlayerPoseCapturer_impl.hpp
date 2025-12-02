@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseCapturer::*)(int32_t)>(&::BeatSaber::RecPlay::PlayerPoseCapturer::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x227a850;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x31be580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::RecPlay::PlayerPoseCapturer::*)(float_t, ::BeatSaber::RecPlay::PlayerPose)>(
     &::BeatSaber::RecPlay::PlayerPoseCapturer::Capture)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x227a8d8;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x31be604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::RecPlay::PlayerPoseFrames (::BeatSaber::RecPlay::PlayerPoseCapturer::*)()>(
     &::BeatSaber::RecPlay::PlayerPoseCapturer::CreatePlayerPoseFrames)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x227a9f8;
+  constexpr static std::size_t size = 0x1e8;
+  constexpr static std::size_t addrs = 0x31be708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::RecPlay::PlayerPoseCapturer*>::get(),

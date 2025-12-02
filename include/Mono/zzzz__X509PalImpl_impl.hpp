@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Mono::X509PalImpl::PEM)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4109ca8;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x5db3d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::X509PalImpl::ConvertData)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x4109ddc;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5db3ed8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (::Mono::X509PalImpl::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::X509PalImpl::ImportFallback)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x41094d4;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5db357c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -105,8 +105,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* (
     ::Mono::X509PalImpl::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, ::Microsoft::Win32::SafeHandles::SafePasswordHandle*, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags)>(
     &::Mono::X509PalImpl::ImportFallback)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x410975c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5db3800;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::X509PalImpl::*)()>(&::Mono::X509PalImpl::get_SupportsLegacyBasicConstraintsExtension)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4109ee8;
+  constexpr static std::size_t addrs = 0x5db3fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -136,8 +136,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Security::Cryptography::X509Certificates::X509ContentType (::Mono::X509PalImpl::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Mono::X509PalImpl::GetCertContentType)> {
-  constexpr static std::size_t size = 0x400;
-  constexpr static std::size_t addrs = 0x4109ef0;
+  constexpr static std::size_t size = 0x43c;
+  constexpr static std::size_t addrs = 0x5db3ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -150,8 +150,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::X509PalImpl::*)()>(&::Mono::X509PalImpl::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4109ca0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5db3d3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::X509PalImpl*>::get(), ".ctor",

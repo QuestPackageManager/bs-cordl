@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Globalization::HebrewNumber_HebrewValue::*)(::System::Globalization::HebrewNumber_HebrewToken, int16_t)>(&::System::Globalization::HebrewNumber_HebrewValue::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3d934d4;
+  constexpr static std::size_t addrs = 0x59a6cb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ constexpr ::System::Globalization::HebrewNumber_HS System::Globalization::Hebrew
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(int32_t)>(&::System::Globalization::HebrewNumber::ToString)> {
-  constexpr static std::size_t size = 0x284;
-  constexpr static std::size_t addrs = 0x3d92fa0;
+  constexpr static std::size_t size = 0x2a8;
+  constexpr static std::size_t addrs = 0x59a64d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Globalization::HebrewNumberParsingState (*)(char16_t, ::ByRef<::System::Globalization::HebrewNumberParsingContext>)>(&::System::Globalization::HebrewNumber::ParseByChar)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x3d911f0;
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x59a6780;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -112,8 +112,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(char16_t)>(&::System::Globalization::HebrewNumber::IsDigit)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3d91114;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x59a6920;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

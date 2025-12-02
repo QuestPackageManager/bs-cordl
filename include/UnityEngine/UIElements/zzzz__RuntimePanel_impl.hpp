@@ -3,9 +3,12 @@
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseRuntimePanel_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventCallback_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventDispatcher_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IRuntimePanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__PanelSettings_def.hpp"
 #include "UnityEngine/UIElements/zzzz__RuntimePanel_def.hpp"
 #include "UnityEngine/zzzz__ScriptableObject_def.hpp"
@@ -13,8 +16,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel___c::*)()>(&::UnityEngine::UIElements::RuntimePanel___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3b220;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b79bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel___c*>::get(), ".ctor",
@@ -28,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel___c::*)(
     ::UnityEngine::UIElements::FocusEvent*, ::UnityEngine::UIElements::RuntimePanel*)>(&::UnityEngine::UIElements::RuntimePanel___c::__ctor_b__5_0)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4a3b228;
+  constexpr static std::size_t addrs = 0x6b79bd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::UIElements::PanelSettings> (::UnityEngine::UIElements::RuntimePanel::*)()>(
     &::UnityEngine::UIElements::RuntimePanel::get_panelSettings)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4a3ab20;
+  constexpr static std::size_t addrs = 0x6b794e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(),
@@ -92,8 +95,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::RuntimePanel* (*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::UIElements::RuntimePanel::Create)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a3ab28;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6b794ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,8 +110,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel::*)(::UnityEngine::ScriptableObject*)>(
     &::UnityEngine::UIElements::RuntimePanel::_ctor)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x4a3ab80;
+  constexpr static std::size_t size = 0x30c;
+  constexpr static std::size_t addrs = 0x6b79548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,12 +125,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel::*)()>(&::UnityEngine::UIElements::RuntimePanel::Update)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a3af78;
+  constexpr static std::size_t addrs = 0x6b7993c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(), 53));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(), 57));
     return ___internal_method;
   }
 };
@@ -136,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::RuntimePanel::*)(::UnityEngine::UIElements::FocusEvent*)>(
     &::UnityEngine::UIElements::RuntimePanel::OnElementFocus)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a3b100;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b79ac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -186,7 +189,7 @@ inline void UnityEngine::UIElements::RuntimePanel::_ctor(::UnityEngine::Scriptab
 }
 inline void UnityEngine::UIElements::RuntimePanel::Update() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(), 53)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::RuntimePanel*>::get(), 57)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::RuntimePanel::OnElementFocus(::UnityEngine::UIElements::FocusEvent* evt) {
@@ -197,6 +200,30 @@ inline void UnityEngine::UIElements::RuntimePanel::OnElementFocus(::UnityEngine:
 }
 inline ::UnityEngine::UIElements::RuntimePanel* UnityEngine::UIElements::RuntimePanel::New_ctor(::UnityEngine::ScriptableObject* ownerObject) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::RuntimePanel*>(ownerObject));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IRuntimePanel"
+constexpr UnityEngine::UIElements::RuntimePanel::operator ::UnityEngine::UIElements::IRuntimePanel*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IRuntimePanel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IRuntimePanel"
+constexpr ::UnityEngine::UIElements::IRuntimePanel* UnityEngine::UIElements::RuntimePanel::i___UnityEngine__UIElements__IRuntimePanel() noexcept {
+  return static_cast<::UnityEngine::UIElements::IRuntimePanel*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IPanel"
+constexpr UnityEngine::UIElements::RuntimePanel::operator ::UnityEngine::UIElements::IPanel*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPanel*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPanel"
+constexpr ::UnityEngine::UIElements::IPanel* UnityEngine::UIElements::RuntimePanel::i___UnityEngine__UIElements__IPanel() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPanel*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::System::IDisposable"
+constexpr UnityEngine::UIElements::RuntimePanel::operator ::System::IDisposable*() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* UnityEngine::UIElements::RuntimePanel::i___System__IDisposable() noexcept {
+  return static_cast<::System::IDisposable*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::RuntimePanel::RuntimePanel() {}

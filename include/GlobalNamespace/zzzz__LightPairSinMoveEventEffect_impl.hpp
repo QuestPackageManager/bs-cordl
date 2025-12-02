@@ -9,15 +9,17 @@
 #include "GlobalNamespace/zzzz__BeatmapCallbacksController_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapDataCallbackWrapper_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__IRandom_def.hpp"
 #include "GlobalNamespace/zzzz__LightPairSinMoveEventEffect_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::*)()>(
     &::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b94f7c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5783490;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -125,8 +127,8 @@ constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData::LightPair
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::Start)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x3b94c6c;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x57831a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), "Start",
@@ -140,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::Update)> {
   constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3b94f84;
+  constexpr static std::size_t addrs = 0x5783494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), "Update",
@@ -154,7 +156,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::OnDestroy)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b95160;
+  constexpr static std::size_t addrs = 0x5783670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(),
@@ -167,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)(::GlobalNamespace::BasicBeatmapEventData*)>(
     &::GlobalNamespace::LightPairSinMoveEventEffect::HandleBeatmapEvent)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3b9517c;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x578368c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -182,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)(
     int32_t, ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*, float_t)>(&::GlobalNamespace::LightPairSinMoveEventEffect::UpdateMovementData)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x3b952d8;
+  constexpr static std::size_t size = 0x140;
+  constexpr static std::size_t addrs = 0x5783818;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -198,8 +200,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightPairSinMoveEventEffect::*)()>(&::GlobalNamespace::LightPairSinMoveEventEffect::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3b95410;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5783958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightPairSinMoveEventEffect*>::get(), ".ctor",
@@ -338,6 +340,30 @@ constexpr ::GlobalNamespace::IAudioTimeSource* const& GlobalNamespace::LightPair
 constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__audioTimeSource(::GlobalNamespace::IAudioTimeSource* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____audioTimeSource)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__random() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
+}
+constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__random() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
+}
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData*& GlobalNamespace::LightPairSinMoveEventEffect::__cordl_internal_get__movementDataL() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

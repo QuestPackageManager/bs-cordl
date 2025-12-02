@@ -24,7 +24,7 @@ public:
   // Declarations
   static inline ::System::Security::AccessControl::FileSecurity* New_ctor(::StringW fileName, ::System::Security::AccessControl::AccessControlSections includeSections);
 
-  /// @brief Method .ctor, addr 0x3cc55e8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5908d68, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::StringW fileName, ::System::Security::AccessControl::AccessControlSections includeSections);
 
 protected:
@@ -42,7 +42,7 @@ public:
   FileSecurity(FileSecurity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3030 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3047 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

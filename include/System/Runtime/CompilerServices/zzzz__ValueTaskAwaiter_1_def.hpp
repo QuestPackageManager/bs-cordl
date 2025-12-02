@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__ICriticalNotifyCompletion_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__INotifyCompletion_def.hpp"
 #include "System/Threading/Tasks/zzzz__ValueTask_1_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(ValueTaskAwaiter_1)
+namespace System::Runtime::CompilerServices {
+class ICriticalNotifyCompletion;
+}
+namespace System::Runtime::CompilerServices {
+class INotifyCompletion;
+}
 namespace System::Threading::Tasks {
 template <typename TResult> struct ValueTask_1;
 }
@@ -20,7 +24,7 @@ template <typename TResult> struct ValueTaskAwaiter_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::Runtime::CompilerServices::ValueTaskAwaiter_1);
-// Dependencies System.Runtime.CompilerServices.ICriticalNotifyCompletion, System.Runtime.CompilerServices.INotifyCompletion, System.Threading.Tasks.ValueTask`1<TResult>
+// Dependencies System.Threading.Tasks.ValueTask`1<TResult>
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename TResult>
@@ -66,7 +70,7 @@ public:
   constexpr ValueTaskAwaiter_1(::System::Threading::Tasks::ValueTask_1<TResult> _value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3391 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3406 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

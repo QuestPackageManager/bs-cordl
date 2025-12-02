@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::Init)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3bb31c8;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x57a36e4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::OnDestroy)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3bb32c4;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x57a384c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FullComboMissionObjectiveChecker*>::get(),
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::HandleComboBreakingEventHappened)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3bb3394;
+  constexpr static std::size_t addrs = 0x57a395c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FullComboMissionObjectiveChecker::*)()>(
     &::GlobalNamespace::FullComboMissionObjectiveChecker::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bb33d0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57a3998;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FullComboMissionObjectiveChecker*>::get(),

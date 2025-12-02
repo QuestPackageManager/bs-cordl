@@ -1,22 +1,22 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/AvatarCore/ConnectedPlayerAvatarPoseDataProvider.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_impl.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__ConnectedPlayerAvatarPoseDataProvider_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarPoseData_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarPoseDataProvider_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IAvatarPoseRestriction_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__INodePoseSyncStateManager_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider.get_currentPose
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::AvatarCore::AvatarPoseData (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::get_currentPose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x224f160;
+  constexpr static std::size_t addrs = 0x316f5a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)(
     ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*)>(&::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::add_poseDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x224f170;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x316f5b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,8 +46,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)(
     ::System::Action_1<::BeatSaber::AvatarCore::AvatarPoseData>*)>(&::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::remove_poseDidChangeEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x224f220;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x316f674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,8 +63,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)(
     ::GlobalNamespace::IConnectedPlayer*, ::GlobalNamespace::INodePoseSyncStateManager*, ::BeatSaber::AvatarCore::IAvatarPoseRestriction*)>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x224f2d0;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x316f734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -80,8 +80,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::*)()>(
     &::BeatSaber::AvatarCore::ConnectedPlayerAvatarPoseDataProvider::Tick)> {
-  constexpr static std::size_t size = 0x558;
-  constexpr static std::size_t addrs = 0x224f30c;
+  constexpr static std::size_t size = 0x4f8;
+  constexpr static std::size_t addrs = 0x316f740;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

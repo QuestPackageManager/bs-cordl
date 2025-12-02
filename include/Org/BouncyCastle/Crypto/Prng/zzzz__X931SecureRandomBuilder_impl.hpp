@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)()>(
     &::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x23cda74;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x32fb8f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(
     ::Org::BouncyCastle::Security::SecureRandom*, bool)>(&::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23cdad0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x32fb958;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(
     ::Org::BouncyCastle::Crypto::IEntropySourceProvider*)>(&::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x23cdb54;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x32fb9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -59,7 +59,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder* (
     ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::SetDateTimeVector)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23cdb7c;
+  constexpr static std::size_t addrs = 0x32fb9d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,8 +74,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Prng::X931SecureRandom* (
     ::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::*)(::Org::BouncyCastle::Crypto::IBlockCipher*, ::Org::BouncyCastle::Crypto::Parameters::KeyParameter*, bool)>(
     &::Org::BouncyCastle::Crypto::Prng::X931SecureRandomBuilder::Build)> {
-  constexpr static std::size_t size = 0x2e4;
-  constexpr static std::size_t addrs = 0x23cdb84;
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x32fb9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

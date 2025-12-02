@@ -4,16 +4,18 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Unity/Collections/zzzz__NativeArrayDispose_def.hpp"
-#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(NativeArrayDisposeJob)
+namespace Unity::Jobs {
+class IJob;
+}
 // Forward declare root types
 namespace Unity::Collections {
 struct NativeArrayDisposeJob;
 }
 // Write type traits
 MARK_VAL_T(::Unity::Collections::NativeArrayDisposeJob);
-// Dependencies Unity.Collections.NativeArrayDispose, Unity.Jobs.IJob
+// Dependencies Unity.Collections.NativeArrayDispose
 namespace Unity::Collections {
 // Is value type: true
 // CS Name: Unity.Collections.NativeArrayDisposeJob
@@ -23,10 +25,10 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x4861854, size 0x44, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x682b338, size 0x44, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x4861898, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method RegisterNativeArrayDisposeJobReflectionData, addr 0x682b37c, size 0x44, virtual false, abstract: false, final false
   static inline void RegisterNativeArrayDisposeJobReflectionData();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -40,7 +42,7 @@ public:
   constexpr NativeArrayDisposeJob(::Unity::Collections::NativeArrayDispose Data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10606 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9972 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

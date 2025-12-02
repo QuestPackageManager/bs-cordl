@@ -48,15 +48,17 @@ public:
       get = __cordl_internal_get_threads_stacktraces,
       put = __cordl_internal_set_threads_stacktraces)) ::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* threads_stacktraces;
 
+  static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor();
+
   static inline ::System::Net::Sockets::SafeSocketHandle* New_ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
-  /// @brief Method RegisterForBlockingSyscall, addr 0x4402008, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method RegisterForBlockingSyscall, addr 0x6150310, size 0x168, virtual false, abstract: false, final false
   inline void RegisterForBlockingSyscall();
 
-  /// @brief Method ReleaseHandle, addr 0x4401a54, size 0x5b4, virtual true, abstract: false, final false
+  /// @brief Method ReleaseHandle, addr 0x614fe04, size 0x50c, virtual true, abstract: false, final false
   inline bool ReleaseHandle();
 
-  /// @brief Method UnRegisterForBlockingSyscall, addr 0x4402144, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method UnRegisterForBlockingSyscall, addr 0x6150478, size 0x210, virtual false, abstract: false, final false
   inline void UnRegisterForBlockingSyscall();
 
   constexpr ::System::Collections::Generic::List_1<::System::Threading::Thread*>* const& __cordl_internal_get_blocking_threads() const;
@@ -77,7 +79,10 @@ public:
 
   constexpr void __cordl_internal_set_threads_stacktraces(::System::Collections::Generic::Dictionary_2<::System::Threading::Thread*, ::System::Diagnostics::StackTrace*>* value);
 
-  /// @brief Method .ctor, addr 0x4401990, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x614fdac, size 0x58, virtual false, abstract: false, final false
+  inline void _ctor();
+
+  /// @brief Method .ctor, addr 0x614fcb4, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr preexistingHandle, bool ownsHandle);
 
   static inline bool getStaticF_THROW_ON_ABORT_RETRIES();
@@ -105,7 +110,7 @@ public:
   static constexpr int32_t SOCKET_CLOSED{ static_cast<int32_t>(0x2714) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9877 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11754 };
 
   /// @brief Field blocking_threads, offset: 0x20, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::System::Threading::Thread*>* ___blocking_threads;

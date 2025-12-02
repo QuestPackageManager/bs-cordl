@@ -164,6 +164,17 @@ public:
     __E_SysReq = static_cast<int32_t>(0x13d),
     __E_Break = static_cast<int32_t>(0x13e),
     __E_Menu = static_cast<int32_t>(0x13f),
+    __E_WheelUp = static_cast<int32_t>(0x141),
+    __E_WheelDown = static_cast<int32_t>(0x142),
+    __E_F16 = static_cast<int32_t>(0x29e),
+    __E_F17 = static_cast<int32_t>(0x29f),
+    __E_F18 = static_cast<int32_t>(0x2a0),
+    __E_F19 = static_cast<int32_t>(0x2a1),
+    __E_F20 = static_cast<int32_t>(0x2a2),
+    __E_F21 = static_cast<int32_t>(0x2a3),
+    __E_F22 = static_cast<int32_t>(0x2a4),
+    __E_F23 = static_cast<int32_t>(0x2a5),
+    __E_F24 = static_cast<int32_t>(0x2a6),
     __E_Mouse0 = static_cast<int32_t>(0x143),
     __E_Mouse1 = static_cast<int32_t>(0x144),
     __E_Mouse2 = static_cast<int32_t>(0x145),
@@ -502,8 +513,35 @@ public:
   /// @brief Field F15 value: I32(296)
   static ::UnityEngine::KeyCode const F15;
 
+  /// @brief Field F16 value: I32(670)
+  static ::UnityEngine::KeyCode const F16;
+
+  /// @brief Field F17 value: I32(671)
+  static ::UnityEngine::KeyCode const F17;
+
+  /// @brief Field F18 value: I32(672)
+  static ::UnityEngine::KeyCode const F18;
+
+  /// @brief Field F19 value: I32(673)
+  static ::UnityEngine::KeyCode const F19;
+
   /// @brief Field F2 value: I32(283)
   static ::UnityEngine::KeyCode const F2;
+
+  /// @brief Field F20 value: I32(674)
+  static ::UnityEngine::KeyCode const F20;
+
+  /// @brief Field F21 value: I32(675)
+  static ::UnityEngine::KeyCode const F21;
+
+  /// @brief Field F22 value: I32(676)
+  static ::UnityEngine::KeyCode const F22;
+
+  /// @brief Field F23 value: I32(677)
+  static ::UnityEngine::KeyCode const F23;
+
+  /// @brief Field F24 value: I32(678)
+  static ::UnityEngine::KeyCode const F24;
 
   /// @brief Field F3 value: I32(284)
   static ::UnityEngine::KeyCode const F3;
@@ -1345,6 +1383,12 @@ public:
   /// @brief Field W value: I32(119)
   static ::UnityEngine::KeyCode const W;
 
+  /// @brief Field WheelDown value: I32(322)
+  static ::UnityEngine::KeyCode const WheelDown;
+
+  /// @brief Field WheelUp value: I32(321)
+  static ::UnityEngine::KeyCode const WheelUp;
+
   /// @brief Field X value: I32(120)
   static ::UnityEngine::KeyCode const X;
 
@@ -1355,7 +1399,7 @@ public:
   static ::UnityEngine::KeyCode const Z;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10808 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10217 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

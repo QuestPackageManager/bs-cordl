@@ -1,8 +1,6 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/AvatarCore/AvatarSystem.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_impl.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_impl.hpp"
-#include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystem_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarDisplayContext_def.hpp"
@@ -10,6 +8,8 @@
 #include "BeatSaber/AvatarCore/zzzz__AvatarSelectionView_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__AvatarSystemIdentifier_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__Avatar_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystemMetadata_def.hpp"
+#include "BeatSaber/AvatarCore/zzzz__IAvatarSystem_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__IOptionalAvatarDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerAvatarData_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatSaber::AvatarCore::AvatarSystem::*)(
     ::BeatSaber::AvatarCore::AvatarSystemIdentifier, bool, bool, int32_t, ::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>*)>(&::BeatSaber::AvatarCore::AvatarSystem::_ctor)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x224cb44;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x316d040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BeatSaber::AvatarCore::AvatarSystemIdentifier (::BeatSaber::AvatarCore::AvatarSystem::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystem::get_typeIdentifier)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x224cba0;
+  constexpr static std::size_t addrs = 0x316d058;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarSystem*>::get(),
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystem::*)()>(&::BeatSaber::AvatarCore::AvatarSystem::get_selectableByUser)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224cbac;
+  constexpr static std::size_t addrs = 0x316d064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarSystem*>::get(),
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BeatSaber::AvatarCore::AvatarSystem::*)()>(&::BeatSaber::AvatarCore::AvatarSystem::get_isFallbackSystem)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224cbb4;
+  constexpr static std::size_t addrs = 0x316d06c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarSystem*>::get(),
@@ -79,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::BeatSaber::AvatarCore::AvatarSystem::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystem::get_selectionSortOrder)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224cbbc;
+  constexpr static std::size_t addrs = 0x316d074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatSaber::AvatarCore::AvatarSystem*>::get(),
@@ -93,7 +93,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyCollection_1<uint32_t>* (::BeatSaber::AvatarCore::AvatarSystem::*)()>(
     &::BeatSaber::AvatarCore::AvatarSystem::get_supportedOptionalAvatarDataTypes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x224cbc4;
+  constexpr static std::size_t addrs = 0x316d07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

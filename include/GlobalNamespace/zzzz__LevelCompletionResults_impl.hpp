@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/LevelCompletionResults.hpp"
 #include "GlobalNamespace/zzzz__RankModel_impl.hpp"
-#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_impl.hpp"
-#include "System/zzzz__IComparable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__LevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__RankModel_def.hpp"
+#include "LiteNetLib/Utils/zzzz__INetImmutableSerializable_1_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataReader_def.hpp"
 #include "LiteNetLib/Utils/zzzz__NetDataWriter_def.hpp"
+#include "System/zzzz__IComparable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::LevelCompletionResults_LevelEndStateType::LevelCompletionResults_LevelEndStateType(int32_t value__) noexcept {
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LevelCompletionResults::*)()>(
     &::GlobalNamespace::LevelCompletionResults::get_cumulativeScore)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2720b68;
+  constexpr static std::size_t addrs = 0x364fde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCompletionResults*>::get(),
@@ -47,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCompletionResults::*)()>(&::GlobalNamespace::LevelCompletionResults::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2720b70;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x364fdf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelCompletionResults*>::get(), ".ctor",
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::GameplayModifiers*, int32_t, int32_t, ::GlobalNamespace::RankModel_Rank, bool, float_t, float_t, float_t, float_t, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType,
     ::GlobalNamespace::LevelCompletionResults_LevelEndAction, float_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, int32_t, float_t, float_t, int32_t, float_t, bool)>(
     &::GlobalNamespace::LevelCompletionResults::_ctor)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x2720b78;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x364fdf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LevelCompletionResults::*)(::System::Object*)>(
     &::GlobalNamespace::LevelCompletionResults::CompareTo)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x2720cac;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x364fe6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelCompletionResults::*)(::LiteNetLib::Utils::NetDataWriter*)>(
     &::GlobalNamespace::LevelCompletionResults::Serialize)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x2720dc8;
+  constexpr static std::size_t size = 0x41c;
+  constexpr static std::size_t addrs = 0x364ff84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,7 +134,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::LevelCompletionResults* (::GlobalNamespace::LevelCompletionResults::*)(::LiteNetLib::Utils::NetDataReader*)>(
         &::GlobalNamespace::LevelCompletionResults::LiteNetLib_Utils_INetImmutableSerializable_LevelCompletionResults__CreateFromSerializedData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x27210ac;
+  constexpr static std::size_t addrs = 0x36503c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -149,8 +149,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::LevelCompletionResults* (*)(::LiteNetLib::Utils::NetDataReader*)>(
     &::GlobalNamespace::LevelCompletionResults::CreateFromSerializedData)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x27210b4;
+  constexpr static std::size_t size = 0x390;
+  constexpr static std::size_t addrs = 0x36503c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

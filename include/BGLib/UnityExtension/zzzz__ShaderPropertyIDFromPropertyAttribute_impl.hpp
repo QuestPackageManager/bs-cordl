@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::*)(
     ::StringW, ::StringW, ::StringW, ::BGLib::UnityExtension::ShaderPropertyAttributeFilter_PropType)>(&::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x22b7620;
+  constexpr static std::size_t addrs = 0x31fe6d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::*)()>(
     &::BGLib::UnityExtension::ShaderPropertyIDFromPropertyAttribute::GetTargetName)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22b7650;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x31fe708;
 
   inline static ::MethodInfo const* methodInfo() {
 

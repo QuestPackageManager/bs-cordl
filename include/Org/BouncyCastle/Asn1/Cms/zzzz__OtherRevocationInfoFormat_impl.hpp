@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)(
     ::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(&::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x230ac4c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3237ddc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::_ctor)> {
   constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x230ac78;
+  constexpr static std::size_t addrs = 0x3237de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -44,8 +44,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* (*)(::Org::BouncyCastle::Asn1::Asn1TaggedObject*, bool)>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::GetInstance)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x230ad24;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x3237e90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::GetInstance)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x230ad3c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x3237ea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerObjectIdentifier* (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::get_InfoFormat)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230ade0;
+  constexpr static std::size_t addrs = 0x3237f44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Encodable* (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::get_Info)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x230ade8;
+  constexpr static std::size_t addrs = 0x3237f4c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::*)()>(
     &::Org::BouncyCastle::Asn1::Cms::OtherRevocationInfoFormat::ToAsn1Object)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x230adf0;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x3237f54;
 
   inline static ::MethodInfo const* methodInfo() {
 

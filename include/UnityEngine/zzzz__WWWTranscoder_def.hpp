@@ -46,30 +46,17 @@ public:
   /// @brief Field urlSpace, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_urlSpace, put = setStaticF_urlSpace)) ::ArrayW<uint8_t, ::Array<uint8_t>*> urlSpace;
 
-  /// @brief Method Byte2Hex, addr 0x4ae4820, size 0x54, virtual false, abstract: false, final false
-  static inline void Byte2Hex(uint8_t b, ::ArrayW<uint8_t, ::Array<uint8_t>*> hexChars, ::ByRef<uint8_t> byte0, ::ByRef<uint8_t> byte1);
-
-  /// @brief Method ByteArrayContains, addr 0x4ae4cbc, size 0x68, virtual false, abstract: false, final false
-  static inline bool ByteArrayContains(::ArrayW<uint8_t, ::Array<uint8_t>*> array, uint8_t b);
-
-  /// @brief Method ByteSubArrayEquals, addr 0x4ae503c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method ByteSubArrayEquals, addr 0x6bf399c, size 0x90, virtual false, abstract: false, final false
   static inline bool ByteSubArrayEquals(::ArrayW<uint8_t, ::Array<uint8_t>*> array, int32_t index, ::ArrayW<uint8_t, ::Array<uint8_t>*> comperand);
 
-  /// @brief Method Decode, addr 0x4ae4d24, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x6bf36c0, size 0x2dc, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint8_t escapeChar, ::ArrayW<uint8_t, ::Array<uint8_t>*> space);
 
-  /// @brief Method Encode, addr 0x4ae48e0, size 0x3dc, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, uint8_t escapeChar, ::ArrayW<uint8_t, ::Array<uint8_t>*> space,
-                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*> forbidden, bool uppercase);
-
-  /// @brief Method Hex2Byte, addr 0x4ae4774, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Hex2Byte, addr 0x6bf3604, size 0xbc, virtual false, abstract: false, final false
   static inline uint8_t Hex2Byte(::ArrayW<uint8_t, ::Array<uint8_t>*> b, int32_t offset);
 
-  /// @brief Method URLDecode, addr 0x4ae4440, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method URLDecode, addr 0x6bf329c, size 0x68, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> URLDecode(::ArrayW<uint8_t, ::Array<uint8_t>*> toEncode);
-
-  /// @brief Method URLEncode, addr 0x4ae4874, size 0x6c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> URLEncode(::ArrayW<uint8_t, ::Array<uint8_t>*> toEncode);
 
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_dataSpace();
 
@@ -122,7 +109,7 @@ public:
   WWWTranscoder(WWWTranscoder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18242 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21974 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

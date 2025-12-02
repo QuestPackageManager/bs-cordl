@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallback::*)()>(&::System::Xml::CharEntityEncoderFallback::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4241fa0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5f903ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::CharEntityEncoderFallback*>::get(), ".ctor",
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Text::EncoderFallbackBuffer* (::System::Xml::CharEntityEncoderFallback::*)()>(
     &::System::Xml::CharEntityEncoderFallback::CreateFallbackBuffer)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4241fa8;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x5f903f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::CharEntityEncoderFallback::*)()>(
     &::System::Xml::CharEntityEncoderFallback::get_MaxCharCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4242080;
+  constexpr static std::size_t addrs = 0x5f90484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallback::*)(int32_t)>(
     &::System::Xml::CharEntityEncoderFallback::set_StartOffset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4242088;
+  constexpr static std::size_t addrs = 0x5f9048c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -68,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::CharEntityEncoderFallback::*)(::ArrayW<int32_t, ::Array<int32_t>*>, int32_t)>(
     &::System::Xml::CharEntityEncoderFallback::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4242090;
+  constexpr static std::size_t addrs = 0x5f90494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::CharEntityEncoderFallback::*)(int32_t)>(
     &::System::Xml::CharEntityEncoderFallback::CanReplaceAt)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x424209c;
+  constexpr static std::size_t addrs = 0x5f904a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

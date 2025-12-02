@@ -14,8 +14,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0::*)()>(
     &::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49fa548;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b248c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -30,7 +30,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::ColumnLayout___c__DisplayClass53_0::_RecomputeToMaxWidthProportionally_b__1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49fb5c0;
+  constexpr static std::size_t addrs = 0x6b25b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0::*)()>(
     &::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49fa66c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6b24a1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -101,7 +101,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::ColumnLayout___c__DisplayClass54_0::_RecomputeToMinWidthProportionally_b__1)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x49fb5f4;
+  constexpr static std::size_t addrs = 0x6b25b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::Columns* (::UnityEngine::UIElements::ColumnLayout::*)()>(
     &::UnityEngine::UIElements::ColumnLayout::get_columns)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f71ac;
+  constexpr static std::size_t addrs = 0x6b21520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(), "get_columns",
@@ -169,8 +169,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)()>(&::UnityEngine::UIElements::ColumnLayout::get_columnsWidth)> {
-  constexpr static std::size_t size = 0x320;
-  constexpr static std::size_t addrs = 0x49f71b4;
+  constexpr static std::size_t size = 0x2f8;
+  constexpr static std::size_t addrs = 0x6b21528;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -183,7 +183,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)()>(&::UnityEngine::UIElements::ColumnLayout::get_layoutWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f74d4;
+  constexpr static std::size_t addrs = 0x6b21820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -197,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)()>(
     &::UnityEngine::UIElements::ColumnLayout::get_minColumnsWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f74dc;
+  constexpr static std::size_t addrs = 0x6b21828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -211,7 +211,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)()>(
     &::UnityEngine::UIElements::ColumnLayout::get_maxColumnsWidth)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49f74e4;
+  constexpr static std::size_t addrs = 0x6b21830;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -224,8 +224,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ColumnLayout::*)()>(
     &::UnityEngine::UIElements::ColumnLayout::get_hasStretchableColumns)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49f74ec;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6b21838;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -238,8 +238,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ColumnLayout::*)()>(
     &::UnityEngine::UIElements::ColumnLayout::get_hasRelativeWidthColumns)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49f753c;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x6b21890;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -252,8 +252,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::System::Action*)>(
     &::UnityEngine::UIElements::ColumnLayout::add_layoutRequested)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49f75a8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6b21904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -267,8 +267,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::System::Action*)>(
     &::UnityEngine::UIElements::ColumnLayout::remove_layoutRequested)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x49f7644;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6b219b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -282,8 +282,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Columns*)>(
     &::UnityEngine::UIElements::ColumnLayout::_ctor)> {
-  constexpr static std::size_t size = 0x280;
-  constexpr static std::size_t addrs = 0x49f76e0;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x6b21a5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +297,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)()>(&::UnityEngine::UIElements::ColumnLayout::Dirty)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x49f7d9c;
+  constexpr static std::size_t addrs = 0x6b2216c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(), "Dirty",
@@ -310,8 +310,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, int32_t)>(
     &::UnityEngine::UIElements::ColumnLayout::OnColumnAdded)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x49f7a08;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6b21d94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -326,8 +326,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::ColumnLayout::OnColumnRemoved)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x49f7ea8;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x6b22280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -342,7 +342,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, int32_t, int32_t)>(
     &::UnityEngine::UIElements::ColumnLayout::OnColumnReordered)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x49f7f8c;
+  constexpr static std::size_t addrs = 0x6b22374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -357,8 +357,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::ColumnDataType)>(
     &::UnityEngine::UIElements::ColumnLayout::RequiresLayoutUpdate)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x49f7f90;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6b22378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -373,7 +373,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::ColumnDataType)>(&::UnityEngine::UIElements::ColumnLayout::OnColumnChanged)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x49f7fb4;
+  constexpr static std::size_t addrs = 0x6b22390;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -389,7 +389,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::ColumnLayout::OnColumnResized)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49f7fe0;
+  constexpr static std::size_t addrs = 0x6b223bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -402,8 +402,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(float_t, float_t, float_t)>(&::UnityEngine::UIElements::ColumnLayout::IsClamped)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x49f7fec;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x6b223c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -417,8 +417,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(float_t)>(&::UnityEngine::UIElements::ColumnLayout::DoLayout)> {
-  constexpr static std::size_t size = 0xdf8;
-  constexpr static std::size_t addrs = 0x49f8004;
+  constexpr static std::size_t size = 0xd10;
+  constexpr static std::size_t addrs = 0x6b223d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,8 +433,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, ::ByRef<float_t>, bool, bool)>(&::UnityEngine::UIElements::ColumnLayout::StretchResizeColumns)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x49f97bc;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x6b23a80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -453,8 +453,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, ::ByRef<float_t>, bool, bool)>(&::UnityEngine::UIElements::ColumnLayout::DistributeOverflow)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x49f98a4;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x6b23b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -473,8 +473,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*,
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, ::ByRef<float_t>, bool, bool)>(&::UnityEngine::UIElements::ColumnLayout::DistributeExcess)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x49f9a1c;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x6b23cf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -492,8 +492,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, float_t, bool)>(&::UnityEngine::UIElements::ColumnLayout::RecomputeToMaxWidthProportionally)> {
-  constexpr static std::size_t size = 0x2c4;
-  constexpr static std::size_t addrs = 0x49fa100;
+  constexpr static std::size_t size = 0x2f8;
+  constexpr static std::size_t addrs = 0x6b24430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -508,8 +508,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, float_t, bool)>(&::UnityEngine::UIElements::ColumnLayout::RecomputeToMinWidthProportionally)> {
-  constexpr static std::size_t size = 0x2e0;
-  constexpr static std::size_t addrs = 0x49f9c90;
+  constexpr static std::size_t size = 0x314;
+  constexpr static std::size_t addrs = 0x6b23f78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -524,8 +524,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, float_t, bool, bool)>(&::UnityEngine::UIElements::ColumnLayout::RecomputeToDesiredWidth)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x49f9b6c;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x6b23e44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -541,8 +541,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, float_t, bool, bool)>(
     &::UnityEngine::UIElements::ColumnLayout::RecomputeToDesiredWidth)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x49fa674;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x6b24a20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,8 +558,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, float_t, bool)>(&::UnityEngine::UIElements::ColumnLayout::RecomputeToMinWidth)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x49f9f70;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x6b2428c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -574,8 +574,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::System::Collections::Generic::List_1<::UnityEngine::UIElements::Column*>*, float_t, bool)>(&::UnityEngine::UIElements::ColumnLayout::RecomputeToMaxWidth)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x49fa3c4;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x6b24728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -589,8 +589,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(float_t)>(&::UnityEngine::UIElements::ColumnLayout::ResizeToFit)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x49fa828;
+  constexpr static std::size_t size = 0x334;
+  constexpr static std::size_t addrs = 0x6b24bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -604,8 +604,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, float_t, bool)>(
     &::UnityEngine::UIElements::ColumnLayout::ResizeColumn)> {
-  constexpr static std::size_t size = 0x11c;
-  constexpr static std::size_t addrs = 0x49fa550;
+  constexpr static std::size_t size = 0x158;
+  constexpr static std::size_t addrs = 0x6b248c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -620,8 +620,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, float_t, bool)>(
     &::UnityEngine::UIElements::ColumnLayout::BeginDragResize)> {
-  constexpr static std::size_t size = 0x328;
-  constexpr static std::size_t addrs = 0x49fab44;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x6b24f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -636,8 +636,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::ColumnLayout::GetDesiredPosition)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49fae6c;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6b252b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -651,8 +651,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*)>(
     &::UnityEngine::UIElements::ColumnLayout::GetDesiredWidth)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x49f971c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b239c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -666,8 +666,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, float_t)>(
     &::UnityEngine::UIElements::ColumnLayout::DragResize)> {
-  constexpr static std::size_t size = 0x27c;
-  constexpr static std::size_t addrs = 0x49faf60;
+  constexpr static std::size_t size = 0x2a0;
+  constexpr static std::size_t addrs = 0x6b253b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -682,8 +682,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)(::UnityEngine::UIElements::Column*, bool)>(
     &::UnityEngine::UIElements::ColumnLayout::EndDragResize)> {
-  constexpr static std::size_t size = 0x254;
-  constexpr static std::size_t addrs = 0x49fb1dc;
+  constexpr static std::size_t size = 0x234;
+  constexpr static std::size_t addrs = 0x6b25650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -697,8 +697,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)()>(&::UnityEngine::UIElements::ColumnLayout::UpdateCache)> {
-  constexpr static std::size_t size = 0x54c;
-  constexpr static std::size_t addrs = 0x49f8dfc;
+  constexpr static std::size_t size = 0x524;
+  constexpr static std::size_t addrs = 0x6b230e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(), "UpdateCache",
@@ -711,8 +711,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)()>(
     &::UnityEngine::UIElements::ColumnLayout::UpdateMinAndMaxColumnsWidth)> {
-  constexpr static std::size_t size = 0x334;
-  constexpr static std::size_t addrs = 0x49f9348;
+  constexpr static std::size_t size = 0x310;
+  constexpr static std::size_t addrs = 0x6b2360c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(),
@@ -724,8 +724,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::ColumnLayout::*)()>(&::UnityEngine::UIElements::ColumnLayout::ClearCache)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x49f7ddc;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x6b221ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::ColumnLayout*>::get(), "ClearCache",
@@ -738,8 +738,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Column*)>(&::UnityEngine::UIElements::ColumnLayout::_DoLayout_b__49_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49fb430;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b25884;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -754,8 +754,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Column*)>(&::UnityEngine::UIElements::ColumnLayout::_DoLayout_b__49_1)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49fb494;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b2592c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -770,8 +770,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Column*)>(&::UnityEngine::UIElements::ColumnLayout::_RecomputeToMaxWidthProportionally_b__53_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49fb4f8;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b259d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -786,8 +786,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::ColumnLayout::*)(
     ::UnityEngine::UIElements::Column*, ::UnityEngine::UIElements::Column*)>(&::UnityEngine::UIElements::ColumnLayout::_RecomputeToMinWidthProportionally_b__54_0)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49fb55c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x6b25a7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

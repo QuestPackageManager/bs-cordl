@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_4_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(StaticMemoryPool_4)
 namespace System {
@@ -14,13 +11,22 @@ template <typename T> class Action_1;
 namespace System {
 template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IMemoryPool_4;
+}
+namespace Zenject {
+class IMemoryPool;
+}
 // Forward declare root types
 namespace Zenject {
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class StaticMemoryPool_4;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::StaticMemoryPool_4);
-// Dependencies Zenject.IDespawnableMemoryPool`1<TValue>, Zenject.IMemoryPool, Zenject.IMemoryPool`4<TParam1, TParam2, TParam3, TValue>, Zenject.StaticMemoryPoolBase`1<TValue>
+// Dependencies Zenject.StaticMemoryPoolBase`1<TValue>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
@@ -85,7 +91,7 @@ public:
   StaticMemoryPool_4(StaticMemoryPool_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14412 };
 
   /// @brief Field _onSpawnMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_4<TParam1, TParam2, TParam3, TValue>* ____onSpawnMethod;

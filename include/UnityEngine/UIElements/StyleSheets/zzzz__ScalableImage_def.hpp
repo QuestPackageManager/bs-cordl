@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements::StyleSheets {
 struct CORDL_TYPE ScalableImage {
 public:
   // Declarations
-  /// @brief Method ToString, addr 0x49d5c44, size 0x164, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6addf3c, size 0x16c, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   // Ctor Parameters []
@@ -34,7 +34,7 @@ public:
   constexpr ScalableImage(::UnityW<::UnityEngine::Texture2D> normalImage, ::UnityW<::UnityEngine::Texture2D> highResolutionImage) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5454 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

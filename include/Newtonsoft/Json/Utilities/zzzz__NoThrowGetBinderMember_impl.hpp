@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Utilities::NoThrowGetBinderMember::*)(::System::Dynamic::GetMemberBinder*)>(
     &::Newtonsoft::Json::Utilities::NoThrowGetBinderMember::_ctor)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3ec95f4;
+  constexpr static std::size_t addrs = 0x5b10f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Dynamic::DynamicMetaObject* (::Newtonsoft::Json::Utilities::NoThrowGetBinderMember::*)(::System::Dynamic::DynamicMetaObject*, ::System::Dynamic::DynamicMetaObject*)>(
         &::Newtonsoft::Json::Utilities::NoThrowGetBinderMember::FallbackGetMember)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3ec962c;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x5b10f98;
 
   inline static ::MethodInfo const* methodInfo() {
 

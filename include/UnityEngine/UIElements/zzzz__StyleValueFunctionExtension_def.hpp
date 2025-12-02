@@ -22,7 +22,7 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToUssString, addr 0x4a8eb38, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method ToUssString, addr 0x6a68b00, size 0x108, virtual false, abstract: false, final false
   static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
 
 protected:
@@ -40,7 +40,7 @@ public:
   StyleValueFunctionExtension(StyleValueFunctionExtension const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6183 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5073 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

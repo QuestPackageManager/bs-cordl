@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Net/PathList.hpp"
-#include "System/Collections/zzzz__IComparer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
 #include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IComparer_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Collections/zzzz__SortedList_def.hpp"
 #include "System/Net/zzzz__PathList_def.hpp"
@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::PathList_PathListComparer::*)(::System::Object*, ::System::Object*)>(
     &::System::Net::PathList_PathListComparer::System_Collections_IComparer_Compare)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x44b4f04;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x6203dac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get(),
@@ -28,8 +28,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::PathList_PathListComparer::*)()>(&::System::Net::PathList_PathListComparer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44b506c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6203ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList_PathListComparer*>::get(), ".ctor",
@@ -76,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::PathList::*)()>(&::System::Net::PathList::_ctor)> {
   constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x44b1454;
+  constexpr static std::size_t addrs = 0x6200610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), ".ctor",
@@ -88,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::PathList::*)()>(&::System::Net::PathList::get_Count)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b3158;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x620213c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_Count",
@@ -101,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Net::PathList::*)()>(&::System::Net::PathList::GetCookiesCount)> {
-  constexpr static std::size_t size = 0x44c;
-  constexpr static std::size_t addrs = 0x44b14f4;
+  constexpr static std::size_t size = 0x414;
+  constexpr static std::size_t addrs = 0x62006b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "GetCookiesCount",
@@ -114,8 +114,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ICollection* (::System::Net::PathList::*)()>(&::System::Net::PathList::get_Values)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b2fc4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6201fa4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_Values",
@@ -127,8 +127,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::PathList::*)(::StringW)>(&::System::Net::PathList::get_Item)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b1964;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6200ae4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -141,8 +141,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::PathList::*)(::StringW, ::System::Object*)>(&::System::Net::PathList::set_Item)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x44b1988;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x6200b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -156,8 +156,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Net::PathList::*)()>(&::System::Net::PathList::GetEnumerator)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b47a8;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6203670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "GetEnumerator",
@@ -169,8 +169,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Net::PathList::*)()>(&::System::Net::PathList::get_SyncRoot)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x44b1940;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6200ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::PathList*>::get(), "get_SyncRoot",

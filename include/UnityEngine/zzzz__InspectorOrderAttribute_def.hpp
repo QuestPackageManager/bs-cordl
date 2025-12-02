@@ -26,11 +26,11 @@ namespace UnityEngine {
 class CORDL_TYPE InspectorOrderAttribute : public ::UnityEngine::PropertyAttribute {
 public:
   // Declarations
-  /// @brief Field <m_inspectorSort>k__BackingField, offset 0x10, size 0x4
+  /// @brief Field <m_inspectorSort>k__BackingField, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get__m_inspectorSort_k__BackingField,
                       put = __cordl_internal_set__m_inspectorSort_k__BackingField)) ::UnityEngine::InspectorSort _m_inspectorSort_k__BackingField;
 
-  /// @brief Field <m_sortDirection>k__BackingField, offset 0x14, size 0x4
+  /// @brief Field <m_sortDirection>k__BackingField, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get__m_sortDirection_k__BackingField,
                       put = __cordl_internal_set__m_sortDirection_k__BackingField)) ::UnityEngine::InspectorSortDirection _m_sortDirection_k__BackingField;
 
@@ -50,10 +50,10 @@ public:
 
   constexpr void __cordl_internal_set__m_sortDirection_k__BackingField(::UnityEngine::InspectorSortDirection value);
 
-  /// @brief Method get_m_inspectorSort, addr 0x48ad764, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_inspectorSort, addr 0x68b05ec, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSort get_m_inspectorSort();
 
-  /// @brief Method get_m_sortDirection, addr 0x48ad76c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_m_sortDirection, addr 0x68b05f4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InspectorSortDirection get_m_sortDirection();
 
 protected:
@@ -71,22 +71,22 @@ public:
   InspectorOrderAttribute(InspectorOrderAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10323 };
 
-  /// @brief Field <m_inspectorSort>k__BackingField, offset: 0x10, size: 0x4, def value: None
+  /// @brief Field <m_inspectorSort>k__BackingField, offset: 0x18, size: 0x4, def value: None
   ::UnityEngine::InspectorSort ____m_inspectorSort_k__BackingField;
 
-  /// @brief Field <m_sortDirection>k__BackingField, offset: 0x14, size: 0x4, def value: None
+  /// @brief Field <m_sortDirection>k__BackingField, offset: 0x1c, size: 0x4, def value: None
   ::UnityEngine::InspectorSortDirection ____m_sortDirection_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::InspectorOrderAttribute, ____m_inspectorSort_k__BackingField) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InspectorOrderAttribute, ____m_inspectorSort_k__BackingField) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::InspectorOrderAttribute, ____m_sortDirection_k__BackingField) == 0x14, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::InspectorOrderAttribute, ____m_sortDirection_k__BackingField) == 0x1c, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::InspectorOrderAttribute, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::InspectorOrderAttribute, 0x20>, "Size mismatch!");
 
 } // namespace UnityEngine
 NEED_NO_BOX(::UnityEngine::InspectorOrderAttribute);

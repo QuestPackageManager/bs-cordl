@@ -58,10 +58,10 @@ public:
            ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args, ::System::Reflection::MethodInfo* indexer,
            int32_t argumentIndex);
 
-  /// @brief Method UndefineTemps, addr 0x40e6314, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method UndefineTemps, addr 0x5d929a8, size 0x10c, virtual true, abstract: false, final false
   inline void UndefineTemps(::System::Linq::Expressions::Interpreter::InstructionList* instructions, ::System::Linq::Expressions::Interpreter::LocalVariables* locals);
 
-  /// @brief Method Update, addr 0x40e60c0, size 0x254, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x5d92734, size 0x274, virtual true, abstract: false, final false
   inline void Update(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame, ::System::Object* value);
 
   constexpr ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> const& __cordl_internal_get__args() const;
@@ -82,7 +82,7 @@ public:
 
   constexpr void __cordl_internal_set__obj(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> value);
 
-  /// @brief Method .ctor, addr 0x40e6070, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5d92718, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::Nullable_1<::System::Linq::Expressions::Interpreter::LocalDefinition> obj,
                     ::ArrayW<::System::Linq::Expressions::Interpreter::LocalDefinition, ::Array<::System::Linq::Expressions::Interpreter::LocalDefinition>*> args,
                     ::System::Reflection::MethodInfo* indexer, int32_t argumentIndex);
@@ -102,7 +102,7 @@ public:
   IndexMethodByRefUpdater(IndexMethodByRefUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16403 };
 
   /// @brief Field _indexer, offset: 0x18, size: 0x8, def value: None
   ::System::Reflection::MethodInfo* ____indexer;

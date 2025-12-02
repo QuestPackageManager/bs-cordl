@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_def.hpp"
@@ -23,10 +20,16 @@ namespace BGLib::UnityExtension::BezierCurves {
 class CurveAnimation_CurveEvent;
 }
 namespace BGLib::UnityExtension::BezierCurves {
-class CurveAnimation__Animate_d__17;
+class CurveAnimation__Animate_d__20;
+}
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -48,13 +51,13 @@ namespace BGLib::UnityExtension::BezierCurves {
 template <typename T> class CurveAnimation_CurveEvent_1;
 }
 namespace BGLib::UnityExtension::BezierCurves {
-class CurveAnimation__Animate_d__17;
+class CurveAnimation__Animate_d__20;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::CurveAnimation);
 MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent);
 MARK_GEN_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent_1);
-MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17);
+MARK_REF_PTR_T(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20);
 // Dependencies UnityEngine.Events.UnityEvent
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
@@ -64,7 +67,7 @@ public:
   // Declarations
   static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x22b865c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ff520, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -82,7 +85,7 @@ public:
   CurveAnimation_CurveEvent(CurveAnimation_CurveEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17191 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20731 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -119,17 +122,17 @@ public:
   CurveAnimation_CurveEvent_1(CurveAnimation_CurveEvent_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17192 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20732 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace BGLib::UnityExtension::BezierCurves
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace BGLib::UnityExtension::BezierCurves {
 // Is value type: false
-// CS Name: BGLib.UnityExtension.BezierCurves.CurveAnimation/<Animate>d__17
-class CORDL_TYPE CurveAnimation__Animate_d__17 : public ::System::Object {
+// CS Name: BGLib.UnityExtension.BezierCurves.CurveAnimation/<Animate>d__20
+class CORDL_TYPE CurveAnimation__Animate_d__20 : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = System_Collections_Generic_IEnumerator_System_Object__get_Current)) ::System::Object* System_Collections_Generic_IEnumerator_System_Object__Current;
@@ -160,21 +163,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22b8668, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31ff52c, size 0x180, virtual true, abstract: false, final true
   inline bool MoveNext();
 
-  static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17* New_ctor(int32_t __1__state);
+  static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x22b87cc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31ff6ac, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x22b87d4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31ff6b4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22b880c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31ff6ec, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x22b8664, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31ff528, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -207,7 +210,7 @@ public:
 
   constexpr void __cordl_internal_set_withDelay(bool value);
 
-  /// @brief Method .ctor, addr 0x22b8544, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ff4e0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -222,19 +225,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr CurveAnimation__Animate_d__17();
+  constexpr CurveAnimation__Animate_d__20();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__17", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  CurveAnimation__Animate_d__17(CurveAnimation__Animate_d__17&&) = delete;
+  CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__17", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "CurveAnimation__Animate_d__20", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  CurveAnimation__Animate_d__17(CurveAnimation__Animate_d__17 const&) = delete;
+  CurveAnimation__Animate_d__20(CurveAnimation__Animate_d__20 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17193 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20733 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -254,17 +257,17 @@ public:
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17, _____4__this) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20, _____4__this) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17, ___withDelay) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20, ___withDelay) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17, ____currentTime_5__2) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20, ____currentTime_5__2) == 0x2c, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20, 0x30>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension::BezierCurves
 // Dependencies UnityEngine.MonoBehaviour
@@ -278,7 +281,7 @@ public:
 
   template <typename T> using CurveEvent_1 = ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent_1<T>;
 
-  using _Animate_d__17 = ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17;
+  using _Animate_d__20 = ::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20;
 
   /// @brief Field _bezierCurve, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__bezierCurve, put = __cordl_internal_set__bezierCurve)) ::UnityW<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve> _bezierCurve;
@@ -289,42 +292,51 @@ public:
   /// @brief Field _duration, offset 0x28, size 0x4
   __declspec(property(get = __cordl_internal_get__duration, put = __cordl_internal_set__duration)) float_t _duration;
 
-  /// @brief Field <isPlaying>k__BackingField, offset 0x60, size 0x1
+  /// @brief Field <isPlaying>k__BackingField, offset 0x68, size 0x1
   __declspec(property(get = __cordl_internal_get__isPlaying_k__BackingField, put = __cordl_internal_set__isPlaying_k__BackingField)) bool _isPlaying_k__BackingField;
 
   /// @brief Field _playOnAwake, offset 0x38, size 0x1
   __declspec(property(get = __cordl_internal_get__playOnAwake, put = __cordl_internal_set__playOnAwake)) bool _playOnAwake;
 
+  /// @brief Field _previousProgress, offset 0x40, size 0x4
+  __declspec(property(get = __cordl_internal_get__previousProgress, put = __cordl_internal_set__previousProgress)) float_t _previousProgress;
+
+  /// @brief Field _progress, offset 0x3c, size 0x4
+  __declspec(property(get = __cordl_internal_get__progress, put = __cordl_internal_set__progress)) float_t _progress;
+
   /// @brief Field _speedCurve, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__speedCurve, put = __cordl_internal_set__speedCurve)) ::UnityEngine::AnimationCurve* _speedCurve;
 
-  /// @brief Field afterDelay, offset 0x48, size 0x8
+  /// @brief Field afterDelay, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_afterDelay, put = __cordl_internal_set_afterDelay)) ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* afterDelay;
 
   __declspec(property(get = get_isPlaying, put = set_isPlaying)) bool isPlaying;
 
-  /// @brief Field onFinish, offset 0x58, size 0x8
+  /// @brief Field onFinish, offset 0x60, size 0x8
   __declspec(property(get = __cordl_internal_get_onFinish, put = __cordl_internal_set_onFinish)) ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* onFinish;
 
-  /// @brief Field onIterate, offset 0x50, size 0x8
+  /// @brief Field onIterate, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get_onIterate,
                       put = __cordl_internal_set_onIterate)) ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent_1<::UnityEngine::Vector3>* onIterate;
 
-  /// @brief Field onStart, offset 0x40, size 0x8
+  /// @brief Field onStart, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_onStart, put = __cordl_internal_set_onStart)) ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* onStart;
 
-  /// @brief Method Animate, addr 0x22b84d0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x31ff478, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* Animate(bool withDelay);
 
-  /// @brief Method Animate, addr 0x22b856c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method Animate, addr 0x31ff38c, size 0xa8, virtual false, abstract: false, final false
   inline void Animate(float_t t);
 
-  /// @brief Method Awake, addr 0x22b8488, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x31ff434, size 0x14, virtual false, abstract: false, final false
   inline void Awake();
+
+  /// @brief Method LateUpdate, addr 0x31ff374, size 0x18, virtual false, abstract: false, final false
+  inline void LateUpdate();
 
   static inline ::BGLib::UnityExtension::BezierCurves::CurveAnimation* New_ctor();
 
-  /// @brief Method StartAnimation, addr 0x22b849c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method StartAnimation, addr 0x31ff448, size 0x30, virtual false, abstract: false, final false
   inline void StartAnimation(bool withDelay);
 
   constexpr ::UnityW<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve> const& __cordl_internal_get__bezierCurve() const;
@@ -346,6 +358,14 @@ public:
   constexpr bool const& __cordl_internal_get__playOnAwake() const;
 
   constexpr bool& __cordl_internal_get__playOnAwake();
+
+  constexpr float_t const& __cordl_internal_get__previousProgress() const;
+
+  constexpr float_t& __cordl_internal_get__previousProgress();
+
+  constexpr float_t const& __cordl_internal_get__progress() const;
+
+  constexpr float_t& __cordl_internal_get__progress();
 
   constexpr ::UnityEngine::AnimationCurve* const& __cordl_internal_get__speedCurve() const;
 
@@ -377,6 +397,10 @@ public:
 
   constexpr void __cordl_internal_set__playOnAwake(bool value);
 
+  constexpr void __cordl_internal_set__previousProgress(float_t value);
+
+  constexpr void __cordl_internal_set__progress(float_t value);
+
   constexpr void __cordl_internal_set__speedCurve(::UnityEngine::AnimationCurve* value);
 
   constexpr void __cordl_internal_set_afterDelay(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* value);
@@ -387,13 +411,13 @@ public:
 
   constexpr void __cordl_internal_set_onStart(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* value);
 
-  /// @brief Method .ctor, addr 0x22b8620, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31ff4e8, size 0x38, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_isPlaying, addr 0x22b8474, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isPlaying, addr 0x31ff364, size 0x8, virtual false, abstract: false, final false
   inline bool get_isPlaying();
 
-  /// @brief Method set_isPlaying, addr 0x22b847c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_isPlaying, addr 0x31ff36c, size 0x8, virtual false, abstract: false, final false
   inline void set_isPlaying(bool value);
 
 protected:
@@ -411,7 +435,7 @@ public:
   CurveAnimation(CurveAnimation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17194 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20734 };
 
   /// @brief Field _bezierCurve, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::BGLib::UnityExtension::BezierCurves::BaseBezierCurve> ____bezierCurve;
@@ -428,19 +452,25 @@ public:
   /// @brief Field _playOnAwake, offset: 0x38, size: 0x1, def value: None
   bool ____playOnAwake;
 
-  /// @brief Field onStart, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field _progress, offset: 0x3c, size: 0x4, def value: None
+  float_t ____progress;
+
+  /// @brief Field _previousProgress, offset: 0x40, size: 0x4, def value: None
+  float_t ____previousProgress;
+
+  /// @brief Field onStart, offset: 0x48, size: 0x8, def value: None
   ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* ___onStart;
 
-  /// @brief Field afterDelay, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field afterDelay, offset: 0x50, size: 0x8, def value: None
   ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* ___afterDelay;
 
-  /// @brief Field onIterate, offset: 0x50, size: 0x8, def value: None
+  /// @brief Field onIterate, offset: 0x58, size: 0x8, def value: None
   ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent_1<::UnityEngine::Vector3>* ___onIterate;
 
-  /// @brief Field onFinish, offset: 0x58, size: 0x8, def value: None
+  /// @brief Field onFinish, offset: 0x60, size: 0x8, def value: None
   ::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent* ___onFinish;
 
-  /// @brief Field <isPlaying>k__BackingField, offset: 0x60, size: 0x1, def value: None
+  /// @brief Field <isPlaying>k__BackingField, offset: 0x68, size: 0x1, def value: None
   bool ____isPlaying_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -456,17 +486,21 @@ static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, __
 
 static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ____playOnAwake) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___onStart) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ____progress) == 0x3c, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___afterDelay) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ____previousProgress) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___onIterate) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___onStart) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___onFinish) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___afterDelay) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ____isPlaying_k__BackingField) == 0x60, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___onIterate) == 0x58, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::CurveAnimation, 0x68>, "Size mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ___onFinish) == 0x60, "Offset mismatch!");
+
+static_assert(offsetof(::BGLib::UnityExtension::BezierCurves::CurveAnimation, ____isPlaying_k__BackingField) == 0x68, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::BezierCurves::CurveAnimation, 0x70>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension::BezierCurves
 NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::CurveAnimation);
@@ -474,5 +508,5 @@ DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::BezierCurves::CurveAnimation*, "
 NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent*, "BGLib.UnityExtension.BezierCurves", "CurveAnimation/CurveEvent");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::BGLib::UnityExtension::BezierCurves::CurveAnimation_CurveEvent_1, "BGLib.UnityExtension.BezierCurves", "CurveAnimation/CurveEvent`1");
-NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17);
-DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__17*, "BGLib.UnityExtension.BezierCurves", "CurveAnimation/<Animate>d__17");
+NEED_NO_BOX(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20);
+DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::BezierCurves::CurveAnimation__Animate_d__20*, "BGLib.UnityExtension.BezierCurves", "CurveAnimation/<Animate>d__20");

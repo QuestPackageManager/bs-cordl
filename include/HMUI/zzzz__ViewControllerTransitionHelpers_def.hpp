@@ -4,9 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
@@ -38,11 +35,17 @@ struct ViewController_AnimationDirection;
 namespace HMUI {
 class ViewController;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
 template <typename T> class Action_1;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -102,7 +105,7 @@ public:
 
   static inline ::HMUI::ViewControllerTransitionHelpers___c__DisplayClass5_0* New_ctor();
 
-  /// @brief Method <DoHorizontalTransition>b__0, addr 0x228cda8, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method <DoHorizontalTransition>b__0, addr 0x31d1168, size 0xd8, virtual false, abstract: false, final false
   inline void _DoHorizontalTransition_b__0(float_t t);
 
   constexpr float_t const& __cordl_internal_get_baseCanvasGroupAlpha() const;
@@ -129,7 +132,7 @@ public:
 
   constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228cda0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d1164, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -147,7 +150,7 @@ public:
   ViewControllerTransitionHelpers___c__DisplayClass5_0(ViewControllerTransitionHelpers___c__DisplayClass5_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16830 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20443 };
 
   /// @brief Field toPresentViewController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ___toPresentViewController;
@@ -196,7 +199,7 @@ public:
 
   static inline ::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0* New_ctor();
 
-  /// @brief Method <DoVerticalTransition>b__0, addr 0x228ce88, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method <DoVerticalTransition>b__0, addr 0x31d1244, size 0xe8, virtual false, abstract: false, final false
   inline void _DoVerticalTransition_b__0(float_t t);
 
   constexpr float_t const& __cordl_internal_get_baseCanvasGroupAlpha() const;
@@ -223,7 +226,7 @@ public:
 
   constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228ce80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d1240, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -241,7 +244,7 @@ public:
   ViewControllerTransitionHelpers___c__DisplayClass6_0(ViewControllerTransitionHelpers___c__DisplayClass6_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16831 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20444 };
 
   /// @brief Field toPresentViewController, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::HMUI::ViewController> ___toPresentViewController;
@@ -269,7 +272,7 @@ static_assert(offsetof(::HMUI::ViewControllerTransitionHelpers___c__DisplayClass
 static_assert(::cordl_internals::size_check_v<::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0, 0x28>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ViewControllerTransitionHelpers/<AnimationCoroutine>d__8
@@ -301,21 +304,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228cf70, size 0xe0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d1330, size 0x110, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x228d050, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31d1440, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228d058, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31d1448, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x228d090, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31d1480, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x228cf6c, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31d132c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -342,7 +345,7 @@ public:
 
   constexpr void __cordl_internal_set_transitionAnimation(::System::Action_1<float_t>* value);
 
-  /// @brief Method .ctor, addr 0x228cd70, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d1158, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -369,7 +372,7 @@ public:
   ViewControllerTransitionHelpers__AnimationCoroutine_d__8(ViewControllerTransitionHelpers__AnimationCoroutine_d__8 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20445 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -397,7 +400,7 @@ static_assert(offsetof(::HMUI::ViewControllerTransitionHelpers__AnimationCorouti
 static_assert(::cordl_internals::size_check_v<::HMUI::ViewControllerTransitionHelpers__AnimationCoroutine_d__8, 0x30>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies HMUI.ViewController::AnimationDirection, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies HMUI.ViewController::AnimationDirection, System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ViewControllerTransitionHelpers/<DoDismissTransition>d__4
@@ -435,21 +438,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228d09c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d148c, size 0x84, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x228d130, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31d1510, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228d138, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31d1518, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x228d170, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31d1550, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x228d098, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31d1488, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -488,7 +491,7 @@ public:
 
   constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228cba0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d100c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -515,7 +518,7 @@ public:
   ViewControllerTransitionHelpers__DoDismissTransition_d__4(ViewControllerTransitionHelpers__DoDismissTransition_d__4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20446 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -553,7 +556,7 @@ static_assert(offsetof(::HMUI::ViewControllerTransitionHelpers__DoDismissTransit
 static_assert(::cordl_internals::size_check_v<::HMUI::ViewControllerTransitionHelpers__DoDismissTransition_d__4, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ViewControllerTransitionHelpers/<DoHorizontalTransition>d__5
@@ -591,21 +594,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228d17c, size 0x154, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d155c, size 0x194, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x228d2d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31d16f0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228d2d8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31d16f8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x228d310, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31d1730, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x228d178, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31d1558, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -644,7 +647,7 @@ public:
 
   constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228cc44, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d1084, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -671,7 +674,7 @@ public:
   ViewControllerTransitionHelpers__DoHorizontalTransition_d__5(ViewControllerTransitionHelpers__DoHorizontalTransition_d__5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20447 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -709,7 +712,7 @@ static_assert(offsetof(::HMUI::ViewControllerTransitionHelpers__DoHorizontalTran
 static_assert(::cordl_internals::size_check_v<::HMUI::ViewControllerTransitionHelpers__DoHorizontalTransition_d__5, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies HMUI.ViewController::AnimationDirection, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies HMUI.ViewController::AnimationDirection, System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ViewControllerTransitionHelpers/<DoPresentTransition>d__3
@@ -747,21 +750,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228d31c, size 0x94, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d173c, size 0x84, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x228d3b0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31d17c0, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228d3b8, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31d17c8, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x228d3f0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31d1800, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x228d318, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31d1738, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -800,7 +803,7 @@ public:
 
   constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228cb78, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d1004, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -827,7 +830,7 @@ public:
   ViewControllerTransitionHelpers__DoPresentTransition_d__3(ViewControllerTransitionHelpers__DoPresentTransition_d__3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20448 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -865,7 +868,7 @@ static_assert(offsetof(::HMUI::ViewControllerTransitionHelpers__DoPresentTransit
 static_assert(::cordl_internals::size_check_v<::HMUI::ViewControllerTransitionHelpers__DoPresentTransition_d__3, 0x40>, "Size mismatch!");
 
 } // namespace HMUI
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.ViewControllerTransitionHelpers/<DoVerticalTransition>d__6
@@ -903,21 +906,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x228d3fc, size 0x158, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x31d180c, size 0x198, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::HMUI::ViewControllerTransitionHelpers__DoVerticalTransition_d__6* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x228d554, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x31d19a4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x228d55c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x31d19ac, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x228d594, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x31d19e4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x228d3f8, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x31d1808, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -956,7 +959,7 @@ public:
 
   constexpr void __cordl_internal_set_toPresentViewController(::UnityW<::HMUI::ViewController> value);
 
-  /// @brief Method .ctor, addr 0x228cce8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d10fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -983,7 +986,7 @@ public:
   ViewControllerTransitionHelpers__DoVerticalTransition_d__6(ViewControllerTransitionHelpers__DoVerticalTransition_d__6 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20449 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -1042,31 +1045,31 @@ public:
 
   using __c__DisplayClass6_0 = ::HMUI::ViewControllerTransitionHelpers___c__DisplayClass6_0;
 
-  /// @brief Method AnimationCoroutine, addr 0x228cd10, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method AnimationCoroutine, addr 0x31d1104, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* AnimationCoroutine(::System::Action_1<float_t>* transitionAnimation);
 
-  /// @brief Method DoDismissTransition, addr 0x228c430, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoDismissTransition, addr 0x31d089c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoDismissTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                         ::HMUI::ViewController_AnimationDirection animationDirection, float_t moveOffsetMultiplier);
 
-  /// @brief Method DoHorizontalTransition, addr 0x228cbc8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DoHorizontalTransition, addr 0x31d1014, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoHorizontalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                            float_t moveOffsetMultiplier);
 
-  /// @brief Method DoPresentTransition, addr 0x228c80c, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method DoPresentTransition, addr 0x31d0c8c, size 0x78, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoPresentTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                         ::HMUI::ViewController_AnimationDirection animationDirection, float_t moveOffsetMultiplier);
 
-  /// @brief Method DoVerticalTransition, addr 0x228cc6c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method DoVerticalTransition, addr 0x31d108c, size 0x70, virtual false, abstract: false, final false
   static inline ::System::Collections::IEnumerator* DoVerticalTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController,
                                                                          float_t moveOffsetMultiplier);
 
-  /// @brief Method ImmediateTransition, addr 0x228c4b4, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method ImmediateTransition, addr 0x31d0914, size 0x108, virtual false, abstract: false, final false
   static inline void ImmediateTransition(::HMUI::ViewController* toPresentViewController, ::HMUI::ViewController* toDismissViewController);
 
   static inline ::HMUI::ViewControllerTransitionHelpers* New_ctor();
 
-  /// @brief Method .ctor, addr 0x228cd98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31d1160, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -1084,7 +1087,7 @@ public:
   ViewControllerTransitionHelpers(ViewControllerTransitionHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20450 };
 
   /// @brief Field kHorizontalTransitionMoveOffset offset 0xffffffff size 0x4
   static constexpr float_t kHorizontalTransitionMoveOffset{ static_cast<float_t>(2.0f) };

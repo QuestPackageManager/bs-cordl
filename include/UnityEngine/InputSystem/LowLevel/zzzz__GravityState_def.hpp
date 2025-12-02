@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(GravityState)
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
 }
@@ -16,7 +18,7 @@ struct GravityState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GravityState);
-// Dependencies UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.Vector3
+// Dependencies UnityEngine.Vector3
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.GravityState
@@ -28,10 +30,10 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method get_format, addr 0x4608ca0, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x63900ac, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
-  /// @brief Method get_kFormat, addr 0x4608c70, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_kFormat, addr 0x63900a0, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_kFormat();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -45,7 +47,7 @@ public:
   constexpr GravityState(::UnityEngine::Vector3 gravity) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6920 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8978 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };

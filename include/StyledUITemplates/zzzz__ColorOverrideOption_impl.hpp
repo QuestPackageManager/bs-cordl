@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "StyledUITemplates/ColorOverrideOption.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "StyledUITemplates/zzzz__ColorOverrideOption_def.hpp"
 #include "GlobalNamespace/zzzz__ColorSO_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::StyledUITemplates::ColorOverrideOption.get_color
@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(
     &::StyledUITemplates::ColorOverrideOption::get_color)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x407e180;
+  constexpr static std::size_t addrs = 0x5d29f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(), "get_color",
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(
     &::StyledUITemplates::ColorOverrideOption::get_overrideEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407e1ac;
+  constexpr static std::size_t addrs = 0x5d29fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(
     &::StyledUITemplates::ColorOverrideOption::set_overrideEnabled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x407e1b4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d29fcc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -55,7 +55,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::get_useFixedColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407e1c0;
+  constexpr static std::size_t addrs = 0x5d29fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
@@ -68,8 +68,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(bool)>(
     &::StyledUITemplates::ColorOverrideOption::set_useFixedColor)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x407e1c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5d29fdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -84,7 +84,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::StyledUITemplates::ColorOverrideOption::*)()>(
     &::StyledUITemplates::ColorOverrideOption::get_fixedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x407e1d4;
+  constexpr static std::size_t addrs = 0x5d29fe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::UnityEngine::Color)>(
     &::StyledUITemplates::ColorOverrideOption::set_fixedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x407e1e0;
+  constexpr static std::size_t addrs = 0x5d29ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -113,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::ColorSO> (::StyledUITemplates::ColorOverrideOption::*)()>(
     &::StyledUITemplates::ColorOverrideOption::get_scriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407e1ec;
+  constexpr static std::size_t addrs = 0x5d29ffc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(),
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::GlobalNamespace::ColorSO*)>(
     &::StyledUITemplates::ColorOverrideOption::set_scriptableObjectColor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x407e1f4;
+  constexpr static std::size_t addrs = 0x5d2a004;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x407e1fc;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5d2a00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::StyledUITemplates::ColorOverrideOption*>::get(), ".ctor",
@@ -154,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(
     &::StyledUITemplates::ColorOverrideOption::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x407e20c;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5d2a018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::StyledUITemplates::ColorOverrideOption*)>(
     &::StyledUITemplates::ColorOverrideOption::Equals)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x407e260;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5d2a04c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::StyledUITemplates::ColorOverrideOption::*)(::System::Object*)>(
     &::StyledUITemplates::ColorOverrideOption::Equals)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x407e338;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5d2a19c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,8 +198,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::StyledUITemplates::ColorOverrideOption::*)()>(&::StyledUITemplates::ColorOverrideOption::GetHashCode)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x407e444;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5d2a290;
 
   inline static ::MethodInfo const* methodInfo() {
 

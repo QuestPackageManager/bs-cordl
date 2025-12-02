@@ -1,11 +1,10 @@
 #pragma once
 // IWYU pragma private; include "IntervalTree/IIntervalTree_2.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "IntervalTree/zzzz__IIntervalTree_2_def.hpp"
+#include "IntervalTree/zzzz__RangeValuePair_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 template <typename TKey, typename TValue> inline ::System::Collections::Generic::IEnumerable_1<TValue>* IntervalTree::IIntervalTree_2<TKey, TValue>::get_Values() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IntervalTree::IIntervalTree_2<TKey, TValue>*>::get(), 0)));

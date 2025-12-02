@@ -1,18 +1,93 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/BaseBoolField.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseBoolField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Clickable_def.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Label_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
+#include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.set_acceptClicksIfDisabled
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(bool)>(
+    &::UnityEngine::UIElements::BaseBoolField::set_acceptClicksIfDisabled)> {
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6a234bc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "set_acceptClicksIfDisabled",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.get_toggleOnLabelClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseBoolField::*)()>(
+    &::UnityEngine::UIElements::BaseBoolField::get_toggleOnLabelClick)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a234d4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
+                                                                               "get_toggleOnLabelClick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.set_toggleOnLabelClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(bool)>(
+    &::UnityEngine::UIElements::BaseBoolField::set_toggleOnLabelClick)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a234dc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "set_toggleOnLabelClick",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.get_toggleOnTextClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseBoolField::*)()>(
+    &::UnityEngine::UIElements::BaseBoolField::get_toggleOnTextClick)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a234e4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
+                                                                               "get_toggleOnTextClick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.set_toggleOnTextClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(bool)>(
+    &::UnityEngine::UIElements::BaseBoolField::set_toggleOnTextClick)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6a234ec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "set_toggleOnTextClick",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::StringW)>(&::UnityEngine::UIElements::BaseBoolField::_ctor)> {
-  constexpr static std::size_t size = 0x234;
-  constexpr static std::size_t addrs = 0x498077c;
+  constexpr static std::size_t size = 0x29c;
+  constexpr static std::size_t addrs = 0x6a234f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +101,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::UnityEngine::UIElements::NavigationSubmitEvent*)>(
     &::UnityEngine::UIElements::BaseBoolField::OnNavigationSubmit)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x4980a38;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x6a2388c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,7 +116,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::BaseBoolField::*)()>(&::UnityEngine::UIElements::BaseBoolField::get_text)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4980a6c;
+  constexpr static std::size_t addrs = 0x6a238c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "get_text",
@@ -53,8 +128,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::StringW)>(&::UnityEngine::UIElements::BaseBoolField::set_text)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49809b0;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6a23790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -67,13 +142,13 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(&::UnityEngine::UIElements::BaseBoolField::InitLabel)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4980a88;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x6a238e0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 118));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 154));
     return ___internal_method;
   }
 };
@@ -82,13 +157,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(bool)>(
     &::UnityEngine::UIElements::BaseBoolField::SetValueWithoutNotify)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4980b18;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6a239dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 117));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 153));
     return ___internal_method;
   }
 };
@@ -97,8 +172,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)(::UnityEngine::UIElements::EventBase*)>(
     &::UnityEngine::UIElements::BaseBoolField::OnClickEvent)> {
-  constexpr static std::size_t size = 0x288;
-  constexpr static std::size_t addrs = 0x4980bf8;
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x6a23aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,17 +182,32 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.ShouldIgnoreClick
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::BaseBoolField::*)(::UnityEngine::Vector3)>(
+    &::UnityEngine::UIElements::BaseBoolField::ShouldIgnoreClick)> {
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6a23e20;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "ShouldIgnoreClick", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::BaseBoolField.ToggleValue
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(&::UnityEngine::UIElements::BaseBoolField::ToggleValue)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4980e80;
+  constexpr static std::size_t addrs = 0x6a23f04;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 119));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 155));
     return ___internal_method;
   }
 };
@@ -126,13 +216,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(
     &::UnityEngine::UIElements::BaseBoolField::UpdateMixedValueContent)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x4980eb8;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x6a23f3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 116));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 152));
     return ___internal_method;
   }
 };
@@ -142,12 +232,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(
     &::UnityEngine::UIElements::BaseBoolField::RegisterEditingCallbacks)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x498103c;
+  constexpr static std::size_t addrs = 0x6a240a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 114));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 150));
     return ___internal_method;
   }
 };
@@ -157,12 +247,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::BaseBoolField::*)()>(
     &::UnityEngine::UIElements::BaseBoolField::UnregisterEditingCallbacks)> {
   constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x4981154;
+  constexpr static std::size_t addrs = 0x6a241c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 115));
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 151));
     return ___internal_method;
   }
 };
@@ -202,6 +292,30 @@ constexpr void UnityEngine::UIElements::BaseBoolField::__cordl_internal_set_m_Cl
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Clickable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr bool& UnityEngine::UIElements::BaseBoolField::__cordl_internal_get__toggleOnLabelClick_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleOnLabelClick_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::BaseBoolField::__cordl_internal_get__toggleOnLabelClick_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleOnLabelClick_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::BaseBoolField::__cordl_internal_set__toggleOnLabelClick_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____toggleOnLabelClick_k__BackingField = value;
+}
+constexpr bool& UnityEngine::UIElements::BaseBoolField::__cordl_internal_get__toggleOnTextClick_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleOnTextClick_k__BackingField;
+}
+constexpr bool const& UnityEngine::UIElements::BaseBoolField::__cordl_internal_get__toggleOnTextClick_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____toggleOnTextClick_k__BackingField;
+}
+constexpr void UnityEngine::UIElements::BaseBoolField::__cordl_internal_set__toggleOnTextClick_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____toggleOnTextClick_k__BackingField = value;
+}
 constexpr ::StringW& UnityEngine::UIElements::BaseBoolField::__cordl_internal_get_m_OriginalText() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OriginalText;
@@ -213,6 +327,50 @@ constexpr ::StringW const& UnityEngine::UIElements::BaseBoolField::__cordl_inter
 constexpr void UnityEngine::UIElements::BaseBoolField::__cordl_internal_set_m_OriginalText(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OriginalText)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+inline void UnityEngine::UIElements::BaseBoolField::setStaticF_textProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "textProperty", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseBoolField::getStaticF_textProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "textProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get>();
+}
+inline void UnityEngine::UIElements::BaseBoolField::setStaticF_toggleOnLabelClickProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "toggleOnLabelClickProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get>(std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseBoolField::getStaticF_toggleOnLabelClickProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "toggleOnLabelClickProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get>();
+}
+inline void UnityEngine::UIElements::BaseBoolField::set_acceptClicksIfDisabled(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "set_acceptClicksIfDisabled",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::BaseBoolField::get_toggleOnLabelClick() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
+                                                                             "get_toggleOnLabelClick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::BaseBoolField::set_toggleOnLabelClick(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "set_toggleOnLabelClick",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+inline bool UnityEngine::UIElements::BaseBoolField::get_toggleOnTextClick() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(),
+                                                                             "get_toggleOnTextClick", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::BaseBoolField::set_toggleOnTextClick(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "set_toggleOnTextClick",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::BaseBoolField::_ctor(::StringW label) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -239,12 +397,12 @@ inline void UnityEngine::UIElements::BaseBoolField::set_text(::StringW value) {
 }
 inline void UnityEngine::UIElements::BaseBoolField::InitLabel() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 118)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 154)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseBoolField::SetValueWithoutNotify(bool newValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 117)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 153)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
 inline void UnityEngine::UIElements::BaseBoolField::OnClickEvent(::UnityEngine::UIElements::EventBase* evt) {
@@ -253,24 +411,30 @@ inline void UnityEngine::UIElements::BaseBoolField::OnClickEvent(::UnityEngine::
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::EventBase*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
+inline bool UnityEngine::UIElements::BaseBoolField::ShouldIgnoreClick(::UnityEngine::Vector3 position) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), "ShouldIgnoreClick", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, position);
+}
 inline void UnityEngine::UIElements::BaseBoolField::ToggleValue() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 119)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 155)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseBoolField::UpdateMixedValueContent() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 116)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 152)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseBoolField::RegisterEditingCallbacks() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 114)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 150)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::BaseBoolField::UnregisterEditingCallbacks() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 115)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseBoolField*>::get(), 151)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline ::UnityEngine::UIElements::BaseBoolField* UnityEngine::UIElements::BaseBoolField::New_ctor(::StringW label) {

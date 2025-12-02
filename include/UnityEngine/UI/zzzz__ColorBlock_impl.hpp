@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UI/ColorBlock.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
 #include "UnityEngine/UI/zzzz__ColorBlock_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UI::ColorBlock.get_normalColor
@@ -10,7 +10,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_normalColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49591d8;
+  constexpr static std::size_t addrs = 0x69e6608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_normalColor",
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(::UnityEngine::Color)>(&::UnityEngine::UI::ColorBlock::set_normalColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49591e4;
+  constexpr static std::size_t addrs = 0x69e6614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -37,7 +37,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_highlightedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49591f0;
+  constexpr static std::size_t addrs = 0x69e6620;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_highlightedColor",
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(::UnityEngine::Color)>(
     &::UnityEngine::UI::ColorBlock::set_highlightedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49591fc;
+  constexpr static std::size_t addrs = 0x69e662c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_pressedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4959208;
+  constexpr static std::size_t addrs = 0x69e6638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_pressedColor",
@@ -78,7 +78,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(::UnityEngine::Color)>(&::UnityEngine::UI::ColorBlock::set_pressedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4959214;
+  constexpr static std::size_t addrs = 0x69e6644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -92,7 +92,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_selectedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4959220;
+  constexpr static std::size_t addrs = 0x69e6650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_selectedColor",
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(::UnityEngine::Color)>(&::UnityEngine::UI::ColorBlock::set_selectedColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x495922c;
+  constexpr static std::size_t addrs = 0x69e665c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -119,7 +119,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_disabledColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4959238;
+  constexpr static std::size_t addrs = 0x69e6668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_disabledColor",
@@ -132,7 +132,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(::UnityEngine::Color)>(&::UnityEngine::UI::ColorBlock::set_disabledColor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4959244;
+  constexpr static std::size_t addrs = 0x69e6674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,7 +146,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_colorMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4959250;
+  constexpr static std::size_t addrs = 0x69e6680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_colorMultiplier",
@@ -159,7 +159,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(float_t)>(&::UnityEngine::UI::ColorBlock::set_colorMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4959258;
+  constexpr static std::size_t addrs = 0x69e6688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -173,7 +173,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::get_fadeDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4959260;
+  constexpr static std::size_t addrs = 0x69e6690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::ColorBlock>::get(), "get_fadeDuration",
@@ -186,7 +186,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::ColorBlock::*)(float_t)>(&::UnityEngine::UI::ColorBlock::set_fadeDuration)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4959268;
+  constexpr static std::size_t addrs = 0x69e6698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -199,8 +199,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ColorBlock::*)(::System::Object*)>(&::UnityEngine::UI::ColorBlock::Equals)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x49592e8;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x69e671c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -213,8 +213,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UI::ColorBlock::*)(::UnityEngine::UI::ColorBlock)>(&::UnityEngine::UI::ColorBlock::Equals)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x49593a8;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x69e67e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -228,8 +228,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UI::ColorBlock, ::UnityEngine::UI::ColorBlock)>(
     &::UnityEngine::UI::ColorBlock::op_Equality)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x49595a0;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x69e69e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -244,8 +244,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::UI::ColorBlock, ::UnityEngine::UI::ColorBlock)>(
     &::UnityEngine::UI::ColorBlock::op_Inequality)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4959634;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x69e6a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -260,7 +260,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UI::ColorBlock::*)()>(&::UnityEngine::UI::ColorBlock::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49596cc;
+  constexpr static std::size_t addrs = 0x69e6af4;
 
   inline static ::MethodInfo const* methodInfo() {
 

@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_table(::System::Data::DataTable* value);
 
-  /// @brief Method .ctor, addr 0x41920bc, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e3c4f8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* t, ::System::Xml::Schema::XmlSchemaIdentityConstraint* c);
 
 protected:
@@ -62,7 +62,7 @@ public:
   ConstraintTable(ConstraintTable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11478 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13836 };
 
   /// @brief Field table, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataTable* ___table;

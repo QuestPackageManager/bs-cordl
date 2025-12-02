@@ -89,10 +89,10 @@ public:
 
   constexpr void __cordl_internal_set_tableDim(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4398bc4, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60ff4fc, size 0x104, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::Schema::CompiledIdentityConstraint* constraint);
 
-  /// @brief Method get_TableDim, addr 0x4398bbc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_TableDim, addr 0x60ff4f4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_TableDim();
 
 protected:
@@ -110,7 +110,7 @@ public:
   ConstraintStruct(ConstraintStruct const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9552 };
 
   /// @brief Field constraint, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::Schema::CompiledIdentityConstraint* ___constraint;

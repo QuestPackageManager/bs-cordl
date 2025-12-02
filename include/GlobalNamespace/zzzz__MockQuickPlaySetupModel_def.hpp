@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IQuickPlaySetupModel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(MockQuickPlaySetupModel)
+namespace GlobalNamespace {
+class IQuickPlaySetupModel;
+}
 namespace GlobalNamespace {
 class QuickPlaySetupData;
 }
@@ -21,7 +23,7 @@ class MockQuickPlaySetupModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MockQuickPlaySetupModel);
-// Dependencies IQuickPlaySetupModel, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MockQuickPlaySetupModel
@@ -34,7 +36,7 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IQuickPlaySetupModel"
   constexpr operator ::GlobalNamespace::IQuickPlaySetupModel*() noexcept;
 
-  /// @brief Method GetQuickPlaySetupAsync, addr 0x3bcc210, size 0x70, virtual true, abstract: false, final true
+  /// @brief Method GetQuickPlaySetupAsync, addr 0x57bd4c8, size 0x78, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::QuickPlaySetupData*>* GetQuickPlaySetupAsync(::System::Threading::CancellationToken cancellationToken);
 
   static inline ::GlobalNamespace::MockQuickPlaySetupModel* New_ctor();
@@ -45,7 +47,7 @@ public:
 
   constexpr void __cordl_internal_set__quickPlaySetupData(::GlobalNamespace::QuickPlaySetupData* value);
 
-  /// @brief Method .ctor, addr 0x3bcc280, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57bd540, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IQuickPlaySetupModel"
@@ -66,7 +68,7 @@ public:
   MockQuickPlaySetupModel(MockQuickPlaySetupModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4550 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6130 };
 
   /// @brief Field _quickPlaySetupData, offset: 0x10, size: 0x8, def value: None
   ::GlobalNamespace::QuickPlaySetupData* ____quickPlaySetupData;

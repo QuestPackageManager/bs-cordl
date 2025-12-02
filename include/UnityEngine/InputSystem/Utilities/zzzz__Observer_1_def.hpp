@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IObserver_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Observer_1)
 namespace System {
@@ -15,13 +14,16 @@ class Action;
 namespace System {
 class Exception;
 }
+namespace System {
+template <typename T> class IObserver_1;
+}
 // Forward declare root types
 namespace UnityEngine::InputSystem::Utilities {
 template <typename TValue> class Observer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::Observer_1);
-// Dependencies System.IObserver`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -83,7 +85,7 @@ public:
   Observer_1(Observer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9157 };
 
   /// @brief Field m_OnNext, offset: 0x10, size: 0x8, def value: None
   ::System::Action_1<TValue>* ___m_OnNext;

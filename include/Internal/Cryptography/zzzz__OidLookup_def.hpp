@@ -43,13 +43,13 @@ public:
 
   static inline ::Internal::Cryptography::OidLookup___c* New_ctor();
 
-  /// @brief Method <.cctor>b__10_0, addr 0x411b848, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_0, addr 0x5dc63c8, size 0x44, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__10_0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method <.cctor>b__10_1, addr 0x411b884, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__10_1, addr 0x5dc640c, size 0x44, virtual false, abstract: false, final false
   inline ::StringW __cctor_b__10_1(::System::Collections::Generic::KeyValuePair_2<::StringW, ::StringW> kvp);
 
-  /// @brief Method .ctor, addr 0x411b840, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5dc63c4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::Internal::Cryptography::OidLookup___c* getStaticF___9();
@@ -71,7 +71,7 @@ public:
   OidLookup___c(OidLookup___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11017 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -105,19 +105,19 @@ public:
   /// @brief Field s_oidToFriendlyName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_oidToFriendlyName, put = setStaticF_s_oidToFriendlyName)) ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* s_oidToFriendlyName;
 
-  /// @brief Method NativeFriendlyNameToOid, addr 0x411977c, size 0x3bc, virtual false, abstract: false, final false
+  /// @brief Method NativeFriendlyNameToOid, addr 0x5dc3820, size 0x400, virtual false, abstract: false, final false
   static inline ::StringW NativeFriendlyNameToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method NativeOidToFriendlyName, addr 0x411921c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method NativeOidToFriendlyName, addr 0x5dc3258, size 0x3f8, virtual false, abstract: false, final false
   static inline ::StringW NativeOidToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method ShouldUseCache, addr 0x4119214, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method ShouldUseCache, addr 0x5dc3250, size 0x8, virtual false, abstract: false, final false
   static inline bool ShouldUseCache(::System::Security::Cryptography::OidGroup oidGroup);
 
-  /// @brief Method ToFriendlyName, addr 0x4119038, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method ToFriendlyName, addr 0x5dc3060, size 0x1f0, virtual false, abstract: false, final false
   static inline ::StringW ToFriendlyName(::StringW oid, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
-  /// @brief Method ToOid, addr 0x41195cc, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method ToOid, addr 0x5dc3650, size 0x1d0, virtual false, abstract: false, final false
   static inline ::StringW ToOid(::StringW friendlyName, ::System::Security::Cryptography::OidGroup oidGroup, bool fallBackToAllGroups);
 
   static inline ::System::Collections::Generic::Dictionary_2<::StringW, ::StringW>* getStaticF_s_compatOids();
@@ -155,7 +155,7 @@ public:
   OidLookup(OidLookup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9174 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11018 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

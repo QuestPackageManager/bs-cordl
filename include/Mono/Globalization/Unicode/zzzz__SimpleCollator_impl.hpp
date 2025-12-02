@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Mono/Globalization/Unicode/SimpleCollator.hpp"
 #include "System/Globalization/zzzz__CompareOptions_impl.hpp"
-#include "System/Globalization/zzzz__ISimpleCollator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Mono/Globalization/Unicode/zzzz__SimpleCollator_def.hpp"
 #include "Mono/Globalization/Unicode/zzzz__CodePointIndexer_def.hpp"
@@ -11,50 +10,43 @@
 #include "Mono/Globalization/Unicode/zzzz__SortKeyBuffer_def.hpp"
 #include "System/Globalization/zzzz__CompareOptions_def.hpp"
 #include "System/Globalization/zzzz__CultureInfo_def.hpp"
+#include "System/Globalization/zzzz__ISimpleCollator_def.hpp"
 #include "System/Globalization/zzzz__SortKey_def.hpp"
 #include "System/Globalization/zzzz__TextInfo_def.hpp"
 //  Writing Method size for method: ::Mono::Globalization::Unicode::SimpleCollator_Context._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator_Context::*)(
-    ::System::Globalization::CompareOptions, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>, ::cordl_internals::Ptr<uint8_t>,
-    ::cordl_internals::Ptr<uint8_t>)>(&::Mono::Globalization::Unicode::SimpleCollator_Context::_ctor)> {
+    ::System::Globalization::CompareOptions, uint8_t*, uint8_t*, uint8_t*, uint8_t*, uint8_t*)>(&::Mono::Globalization::Unicode::SimpleCollator_Context::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c5c1c0;
+  constexpr static std::size_t addrs = 0x589f290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator_Context>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
     return ___internal_method;
   }
 };
-inline void Mono::Globalization::Unicode::SimpleCollator_Context::_ctor(::System::Globalization::CompareOptions opt, ::cordl_internals::Ptr<uint8_t> alwaysMatchFlags,
-                                                                        ::cordl_internals::Ptr<uint8_t> neverMatchFlags, ::cordl_internals::Ptr<uint8_t> buffer1,
-                                                                        ::cordl_internals::Ptr<uint8_t> buffer2, ::cordl_internals::Ptr<uint8_t> prev1) {
+inline void Mono::Globalization::Unicode::SimpleCollator_Context::_ctor(::System::Globalization::CompareOptions opt, uint8_t* alwaysMatchFlags, uint8_t* neverMatchFlags, uint8_t* buffer1,
+                                                                        uint8_t* buffer2, uint8_t* prev1) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator_Context>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get() })));
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, opt, alwaysMatchFlags, neverMatchFlags, buffer1, buffer2, prev1);
 }
-// Ctor Parameters [CppParam { name: "Option", ty: "::System::Globalization::CompareOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "NeverMatchFlags", ty:
-// "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "AlwaysMatchFlags", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "Buffer1", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buffer2", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "PrevCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrevSortKey", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "",
-// def_value: Some("{}") }]
-constexpr ::Mono::Globalization::Unicode::SimpleCollator_Context::SimpleCollator_Context(::System::Globalization::CompareOptions Option, ::cordl_internals::Ptr<uint8_t> NeverMatchFlags,
-                                                                                         ::cordl_internals::Ptr<uint8_t> AlwaysMatchFlags, ::cordl_internals::Ptr<uint8_t> Buffer1,
-                                                                                         ::cordl_internals::Ptr<uint8_t> Buffer2, int32_t PrevCode,
-                                                                                         ::cordl_internals::Ptr<uint8_t> PrevSortKey) noexcept {
+// Ctor Parameters [CppParam { name: "Option", ty: "::System::Globalization::CompareOptions", modifiers: "", def_value: Some("{}") }, CppParam { name: "NeverMatchFlags", ty: "uint8_t*", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "AlwaysMatchFlags", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "Buffer1", ty: "uint8_t*", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "Buffer2", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }, CppParam { name: "PrevCode", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "PrevSortKey", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+constexpr ::Mono::Globalization::Unicode::SimpleCollator_Context::SimpleCollator_Context(::System::Globalization::CompareOptions Option, uint8_t* NeverMatchFlags, uint8_t* AlwaysMatchFlags,
+                                                                                         uint8_t* Buffer1, uint8_t* Buffer2, int32_t PrevCode, uint8_t* PrevSortKey) noexcept {
   this->Option = Option;
   this->NeverMatchFlags = NeverMatchFlags;
   this->AlwaysMatchFlags = AlwaysMatchFlags;
@@ -71,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::*)(bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3c5dec8;
+  constexpr static std::size_t addrs = 0x58a0f40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -86,9 +78,8 @@ inline void Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::_ctor(boo
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, dummy);
 }
-// Ctor Parameters [CppParam { name: "Code", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SortKey", ty: "::cordl_internals::Ptr<uint8_t>", modifiers: "", def_value:
-// Some("{}") }]
-constexpr ::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::SimpleCollator_PreviousInfo(int32_t Code, ::cordl_internals::Ptr<uint8_t> SortKey) noexcept {
+// Ctor Parameters [CppParam { name: "Code", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "SortKey", ty: "uint8_t*", modifiers: "", def_value: Some("{}") }]
+constexpr ::Mono::Globalization::Unicode::SimpleCollator_PreviousInfo::SimpleCollator_PreviousInfo(int32_t Code, uint8_t* SortKey) noexcept {
   this->Code = Code;
   this->SortKey = SortKey;
 }
@@ -122,8 +113,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(::System::Globalization::CultureInfo*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::_ctor)> {
-  constexpr static std::size_t size = 0x32c;
-  constexpr static std::size_t addrs = 0x3c5aa98;
+  constexpr static std::size_t size = 0x330;
+  constexpr static std::size_t addrs = 0x589d970;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,20 +127,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::System::Globalization::CultureInfo*, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>, ::ByRef<::cordl_internals::Ptr<uint8_t>>,
-    ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<::cordl_internals::Ptr<uint8_t>>)>(&::Mono::Globalization::Unicode::SimpleCollator::SetCJKTable)> {
+    ::System::Globalization::CultureInfo*, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>, ::ByRef<uint8_t*>, ::ByRef<uint8_t*>, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>,
+    ::ByRef<uint8_t*>)>(&::Mono::Globalization::Unicode::SimpleCollator::SetCJKTable)> {
   constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3c5adc4;
+  constexpr static std::size_t addrs = 0x589dca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "SetCJKTable", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
     return ___internal_method;
   }
 };
@@ -159,7 +150,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::CultureInfo* (*)(::System::Globalization::CultureInfo*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c5aea0;
+  constexpr static std::size_t addrs = 0x589dd7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,8 +164,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::Category)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c5af10;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x589ddec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -188,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::Level1)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c5afa4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x589de90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -203,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType)>(&::Mono::Globalization::Unicode::SimpleCollator::Level2)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3c5b038;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x589df34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -219,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsHalfKana)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3c5b16c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x589e070;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -235,8 +226,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::Contraction* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c5b1e0;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x589e0ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,8 +243,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::Contraction* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetContraction)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x3c5b2a0;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x589e1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -270,8 +261,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::Contraction* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3c5b3c8;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x589e290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -287,8 +278,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::Contraction* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::ArrayW<::Mono::Globalization::Unicode::Contraction*, ::Array<::Mono::Globalization::Unicode::Contraction*>*>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::GetTailContraction)> {
-  constexpr static std::size_t size = 0x1e8;
-  constexpr static std::size_t addrs = 0x3c5b488;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x589e360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -305,8 +296,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FilterOptions)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3c5b670;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x589e508;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -321,8 +312,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t)>(&::Mono::Globalization::Unicode::SimpleCollator::GetExtenderType)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3c5b754;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x589e608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,8 +327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::ToDashTypeValue)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c5b854;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x589e704;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -352,8 +343,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::FilterExtender)> {
-  constexpr static std::size_t size = 0x210;
-  constexpr static std::size_t addrs = 0x3c5b874;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x589e72c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -369,8 +360,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(int32_t, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsIgnorable)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3c5ba84;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x589e94c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,7 +377,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IsSafe)> {
   constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c5bb00;
+  constexpr static std::size_t addrs = 0x589e9cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -400,8 +391,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c5bb5c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x589ea28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -416,8 +407,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Globalization::SortKey* (
     ::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3c5bb7c;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x589ea44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -433,8 +424,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::Mono::Globalization::Unicode::SortKeyBuffer*, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::GetSortKey)> {
-  constexpr static std::size_t size = 0x378;
-  constexpr static std::size_t addrs = 0x3c5bdc4;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x589ec84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -452,8 +443,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(
     int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::Mono::Globalization::Unicode::SortKeyBuffer*, ::System::Globalization::CompareOptions)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FillSortKeyRaw)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x3c5c1dc;
+  constexpr static std::size_t size = 0x370;
+  constexpr static std::size_t addrs = 0x589f2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -470,8 +461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(int32_t, ::Mono::Globalization::Unicode::SortKeyBuffer*)>(
     &::Mono::Globalization::Unicode::SimpleCollator::FillSurrogateSortKeyRaw)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3c5c74c;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x589f7d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -488,7 +479,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(
         &::Mono::Globalization::Unicode::SimpleCollator::System_Globalization_ISimpleCollator_Compare)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c5c898;
+  constexpr static std::size_t addrs = 0x589f918;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -506,8 +497,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::Compare)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3c5c89c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x589f91c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -522,16 +513,15 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::Mono::Globalization::Unicode::SimpleCollator.ClearBuffer
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(::cordl_internals::Ptr<uint8_t>, int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Mono::Globalization::Unicode::SimpleCollator::*)(uint8_t*, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::ClearBuffer)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3c5c160;
+  constexpr static std::size_t size = 0x264;
+  constexpr static std::size_t addrs = 0x589f02c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "ClearBuffer", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -541,8 +531,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, int32_t, int32_t, ::StringW, int32_t, int32_t, ::ByRef<bool>, ::ByRef<bool>, bool, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::CompareInternal)> {
-  constexpr static std::size_t size = 0x157c;
-  constexpr static std::size_t addrs = 0x3c5c94c;
+  constexpr static std::size_t size = 0x1578;
+  constexpr static std::size_t addrs = 0x589f9c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -562,7 +552,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(bool, bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator::CompareFlagPair)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3c5ded8;
+  constexpr static std::size_t addrs = 0x58a0f50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -576,8 +566,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c5def4;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x58a0f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -592,8 +582,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x3c5df14;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x58a0f88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -610,7 +600,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::IsPrefix)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3c5dfc0;
+  constexpr static std::size_t addrs = 0x58a1078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -627,8 +617,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3c5e028;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x58a10e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -644,7 +634,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IsSuffix)> {
   constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c5e048;
+  constexpr static std::size_t addrs = 0x58a10fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -660,8 +650,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t, ::ByRef<bool>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::QuickIndexOf)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3c5e264;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x58a1328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -677,8 +667,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x3c5e3cc;
+  constexpr static std::size_t size = 0x200;
+  constexpr static std::size_t addrs = 0x58a1450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -694,8 +684,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3c5ea64;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x58a1b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -710,8 +700,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, char16_t, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3c5eb3c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x58a1c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -725,17 +715,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, char16_t, int32_t, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
+    ::StringW, int32_t, int32_t, uint8_t*, char16_t, int32_t, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c5ebac;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x58a1c8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "IndexOfSortKey", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
@@ -746,17 +735,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, ::StringW, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
-    &::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x3c5e5bc;
+    ::StringW, ::StringW, int32_t, int32_t, uint8_t*, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::IndexOf)> {
+  constexpr static std::size_t size = 0x518;
+  constexpr static std::size_t addrs = 0x58a1650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "IndexOf", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
     return ___internal_method;
   }
@@ -766,8 +754,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
     ::StringW, ::StringW, int32_t, int32_t, ::System::Globalization::CompareOptions)>(&::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x3c5e0dc;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x58a1190;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -783,8 +771,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3c5f340;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x58a2440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -798,18 +786,18 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, int32_t, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, int32_t, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
+    ::StringW, int32_t, int32_t, int32_t, uint8_t*, int32_t, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3c5f474;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x58a2544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "LastIndexOfSortKey", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
     return ___internal_method;
   }
@@ -818,17 +806,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, ::StringW, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
-    &::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
-  constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x3c5ee14;
+    ::StringW, ::StringW, int32_t, int32_t, uint8_t*, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::LastIndexOf)> {
+  constexpr static std::size_t size = 0x580;
+  constexpr static std::size_t addrs = 0x58a1ec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "LastIndexOf", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
     return ___internal_method;
   }
@@ -837,18 +824,16 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
-    &::Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x3c5ec48;
+    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, uint8_t*, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesForward)> {
+  constexpr static std::size_t size = 0x1a0;
+  constexpr static std::size_t addrs = 0x58a1d20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesForward", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
     return ___internal_method;
   }
@@ -857,18 +842,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType,
-    ::ByRef<::Mono::Globalization::Unicode::Contraction*>, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
-  constexpr static std::size_t size = 0x364;
-  constexpr static std::size_t addrs = 0x3c5f6f0;
+    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, uint8_t*, bool, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::ByRef<::Mono::Globalization::Unicode::Contraction*>,
+    ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore)> {
+  constexpr static std::size_t size = 0x39c;
+  constexpr static std::size_t addrs = 0x58a2788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesForwardCore", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::Contraction*>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
@@ -879,20 +863,19 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::System::Globalization::CompareOptions, ::cordl_internals::Ptr<uint8_t>, int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::cordl_internals::Ptr<uint8_t>, int32_t, bool)>(
+    ::System::Globalization::CompareOptions, uint8_t*, int32_t, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, uint8_t*, int32_t, bool)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive)> {
-  constexpr static std::size_t size = 0x228;
-  constexpr static std::size_t addrs = 0x3c5fa54;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x58a2b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesPrimitive", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -900,18 +883,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
+    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, int32_t, uint8_t*, bool, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(
     &::Mono::Globalization::Unicode::SimpleCollator::MatchesBackward)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3c5f518;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x58a25e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesBackward", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
     return ___internal_method;
@@ -921,18 +903,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Mono::Globalization::Unicode::SimpleCollator::*)(
-    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, int32_t, ::cordl_internals::Ptr<uint8_t>, bool, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType,
-    ::ByRef<::Mono::Globalization::Unicode::Contraction*>, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
-  constexpr static std::size_t size = 0x484;
-  constexpr static std::size_t addrs = 0x3c5fc7c;
+    ::StringW, ::ByRef<int32_t>, int32_t, int32_t, int32_t, uint8_t*, bool, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType, ::ByRef<::Mono::Globalization::Unicode::Contraction*>,
+    ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>)>(&::Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore)> {
+  constexpr static std::size_t size = 0x4e8;
+  constexpr static std::size_t addrs = 0x58a2d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesBackwardCore", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::Contraction*>>::get(),
@@ -1005,39 +986,39 @@ constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___unsafeFlags)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::cordl_internals::Ptr<uint8_t>& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkCatTable() {
+constexpr uint8_t*& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkCatTable() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkCatTable;
 }
-constexpr ::cordl_internals::Ptr<uint8_t> const& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkCatTable() const {
+constexpr uint8_t* const& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkCatTable() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkCatTable;
 }
-constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_set_cjkCatTable(::cordl_internals::Ptr<uint8_t> value) {
+constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_set_cjkCatTable(uint8_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkCatTable)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::cordl_internals::Ptr<uint8_t>& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv1Table() {
+constexpr uint8_t*& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv1Table() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv1Table;
 }
-constexpr ::cordl_internals::Ptr<uint8_t> const& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv1Table() const {
+constexpr uint8_t* const& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv1Table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv1Table;
 }
-constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_set_cjkLv1Table(::cordl_internals::Ptr<uint8_t> value) {
+constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_set_cjkLv1Table(uint8_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkLv1Table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::cordl_internals::Ptr<uint8_t>& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv2Table() {
+constexpr uint8_t*& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv2Table() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv2Table;
 }
-constexpr ::cordl_internals::Ptr<uint8_t> const& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv2Table() const {
+constexpr uint8_t* const& Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_get_cjkLv2Table() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___cjkLv2Table;
 }
-constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_set_cjkLv2Table(::cordl_internals::Ptr<uint8_t> value) {
+constexpr void Mono::Globalization::Unicode::SimpleCollator::__cordl_internal_set_cjkLv2Table(uint8_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___cjkLv2Table)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -1093,16 +1074,16 @@ inline void Mono::Globalization::Unicode::SimpleCollator::_ctor(::System::Global
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, culture);
 }
 inline void Mono::Globalization::Unicode::SimpleCollator::SetCJKTable(::System::Globalization::CultureInfo* culture, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> cjkIndexer,
-                                                                      ::ByRef<::cordl_internals::Ptr<uint8_t>> catTable, ::ByRef<::cordl_internals::Ptr<uint8_t>> lv1Table,
-                                                                      ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer, ::ByRef<::cordl_internals::Ptr<uint8_t>> lv2Table) {
+                                                                      ::ByRef<uint8_t*> catTable, ::ByRef<uint8_t*> lv1Table, ::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*> lv2Indexer,
+                                                                      ::ByRef<uint8_t*> lv2Table) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "SetCJKTable", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CultureInfo*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::CodePointIndexer*>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::cordl_internals::Ptr<uint8_t>>>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<uint8_t*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, culture, cjkIndexer, catTable, lv1Table, lv2Indexer, lv2Table);
 }
 inline ::System::Globalization::CultureInfo* Mono::Globalization::Unicode::SimpleCollator::GetNeutralCulture(::System::Globalization::CultureInfo* info) {
@@ -1277,11 +1258,10 @@ inline int32_t Mono::Globalization::Unicode::SimpleCollator::Compare(::StringW s
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s1, idx1, len1, s2, idx2, len2, options);
 }
-inline void Mono::Globalization::Unicode::SimpleCollator::ClearBuffer(::cordl_internals::Ptr<uint8_t> buffer, int32_t size) {
+inline void Mono::Globalization::Unicode::SimpleCollator::ClearBuffer(uint8_t* buffer, int32_t size) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "ClearBuffer", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, buffer, size);
 }
 inline int32_t Mono::Globalization::Unicode::SimpleCollator::CompareInternal(::StringW s1, int32_t idx1, int32_t len1, ::StringW s2, int32_t idx2, int32_t len2, ::ByRef<bool> targetConsumed,
@@ -1373,25 +1353,24 @@ inline int32_t Mono::Globalization::Unicode::SimpleCollator::IndexOfOrdinal(::St
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, target, start, length);
 }
-inline int32_t Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey(::StringW s, int32_t start, int32_t length, ::cordl_internals::Ptr<uint8_t> sortkey, char16_t target, int32_t ti,
-                                                                            bool noLv4, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
+inline int32_t Mono::Globalization::Unicode::SimpleCollator::IndexOfSortKey(::StringW s, int32_t start, int32_t length, uint8_t* sortkey, char16_t target, int32_t ti, bool noLv4,
+                                                                            ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "IndexOfSortKey", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, start, length, sortkey, target, ti, noLv4, ctx);
 }
-inline int32_t Mono::Globalization::Unicode::SimpleCollator::IndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::cordl_internals::Ptr<uint8_t> targetSortKey,
+inline int32_t Mono::Globalization::Unicode::SimpleCollator::IndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, uint8_t* targetSortKey,
                                                                      ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "IndexOf", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, target, start, length, targetSortKey, ctx);
 }
@@ -1410,90 +1389,84 @@ inline int32_t Mono::Globalization::Unicode::SimpleCollator::LastIndexOfOrdinal(
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, target, start, length);
 }
-inline int32_t Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey(::StringW s, int32_t start, int32_t orgStart, int32_t length, ::cordl_internals::Ptr<uint8_t> sortkey, int32_t ti,
-                                                                                bool noLv4, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
+inline int32_t Mono::Globalization::Unicode::SimpleCollator::LastIndexOfSortKey(::StringW s, int32_t start, int32_t orgStart, int32_t length, uint8_t* sortkey, int32_t ti, bool noLv4,
+                                                                                ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "LastIndexOfSortKey", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, start, orgStart, length, sortkey, ti, noLv4, ctx);
 }
-inline int32_t Mono::Globalization::Unicode::SimpleCollator::LastIndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, ::cordl_internals::Ptr<uint8_t> targetSortKey,
+inline int32_t Mono::Globalization::Unicode::SimpleCollator::LastIndexOf(::StringW s, ::StringW target, int32_t start, int32_t length, uint8_t* targetSortKey,
                                                                          ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "LastIndexOf", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, s, target, start, length, targetSortKey, ctx);
 }
-inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesForward(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t ti, ::cordl_internals::Ptr<uint8_t> sortkey, bool noLv4,
+inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesForward(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t ti, uint8_t* sortkey, bool noLv4,
                                                                          ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesForward", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, s, idx, end, ti, sortkey, noLv4, ctx);
 }
-inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t ti, ::cordl_internals::Ptr<uint8_t> sortkey, bool noLv4,
+inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesForwardCore(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t ti, uint8_t* sortkey, bool noLv4,
                                                                              ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::ByRef<::Mono::Globalization::Unicode::Contraction*> ct,
                                                                              ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesForwardCore", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 9>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::Contraction*>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, s, idx, end, ti, sortkey, noLv4, ext, ct, ctx);
 }
-inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive(::System::Globalization::CompareOptions opt, ::cordl_internals::Ptr<uint8_t> source, int32_t si,
-                                                                           ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::cordl_internals::Ptr<uint8_t> target, int32_t ti,
-                                                                           bool noLv4) {
+inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesPrimitive(::System::Globalization::CompareOptions opt, uint8_t* source, int32_t si,
+                                                                           ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, uint8_t* target, int32_t ti, bool noLv4) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesPrimitive", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Globalization::CompareOptions>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, opt, source, si, ext, target, ti, noLv4);
 }
-inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesBackward(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t orgStart, int32_t ti, ::cordl_internals::Ptr<uint8_t> sortkey,
-                                                                          bool noLv4, ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
+inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesBackward(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t orgStart, int32_t ti, uint8_t* sortkey, bool noLv4,
+                                                                          ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesBackward", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, s, idx, end, orgStart, ti, sortkey, noLv4, ctx);
 }
-inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t orgStart, int32_t ti, ::cordl_internals::Ptr<uint8_t> sortkey,
-                                                                              bool noLv4, ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext,
-                                                                              ::ByRef<::Mono::Globalization::Unicode::Contraction*> ct,
+inline bool Mono::Globalization::Unicode::SimpleCollator::MatchesBackwardCore(::StringW s, ::ByRef<int32_t> idx, int32_t end, int32_t orgStart, int32_t ti, uint8_t* sortkey, bool noLv4,
+                                                                              ::Mono::Globalization::Unicode::SimpleCollator_ExtenderType ext, ::ByRef<::Mono::Globalization::Unicode::Contraction*> ct,
                                                                               ::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context> ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Mono::Globalization::Unicode::SimpleCollator*>::get(), "MatchesBackwardCore", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 10>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<uint8_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::Contraction*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
+      ::std::array<Il2CppType const*, 10>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint8_t*>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Mono::Globalization::Unicode::SimpleCollator_ExtenderType>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::Contraction*>>::get(),
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::Mono::Globalization::Unicode::SimpleCollator_Context>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, s, idx, end, orgStart, ti, sortkey, noLv4, ext, ct, ctx);
 }
 inline ::Mono::Globalization::Unicode::SimpleCollator* Mono::Globalization::Unicode::SimpleCollator::New_ctor(::System::Globalization::CultureInfo* culture) {

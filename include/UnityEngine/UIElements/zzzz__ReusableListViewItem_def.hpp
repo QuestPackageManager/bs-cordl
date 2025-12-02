@@ -4,6 +4,7 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__ReusableCollectionItem_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ReusableListViewItem)
 namespace UnityEngine::UIElements {
 class VisualElement;
@@ -21,6 +22,9 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE ReusableListViewItem : public ::UnityEngine::UIElements::ReusableCollectionItem {
 public:
   // Declarations
+  /// @brief Field k_SortingDisablesReorderingTooltip, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_SortingDisablesReorderingTooltip, put = setStaticF_k_SortingDisablesReorderingTooltip)) ::StringW k_SortingDisablesReorderingTooltip;
+
   /// @brief Field m_Container, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Container, put = __cordl_internal_set_m_Container)) ::UnityEngine::UIElements::VisualElement* m_Container;
 
@@ -32,24 +36,27 @@ public:
 
   __declspec(property(get = get_rootElement)) ::UnityEngine::UIElements::VisualElement* rootElement;
 
-  /// @brief Method DetachElement, addr 0x497ea60, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method DetachElement, addr 0x6a21638, size 0x90, virtual true, abstract: false, final false
   inline void DetachElement();
 
-  /// @brief Method Init, addr 0x4976444, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x6a17518, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   static inline ::UnityEngine::UIElements::ReusableListViewItem* New_ctor();
 
-  /// @brief Method PreAttachElement, addr 0x497e9d4, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method PreAttachElement, addr 0x6a215a8, size 0x90, virtual true, abstract: false, final false
   inline void PreAttachElement();
 
-  /// @brief Method SetDragGhost, addr 0x497eaec, size 0xfc, virtual true, abstract: false, final false
+  /// @brief Method SetDragGhost, addr 0x6a216c8, size 0x90, virtual true, abstract: false, final false
   inline void SetDragGhost(bool dragGhost);
 
-  /// @brief Method UpdateDragHandle, addr 0x4976a3c, size 0x144, virtual false, abstract: false, final false
+  /// @brief Method SetDragHandleEnabled, addr 0x6a1fa68, size 0xac, virtual false, abstract: false, final false
+  inline void SetDragHandleEnabled(bool enabled);
+
+  /// @brief Method UpdateDragHandle, addr 0x6a17ba0, size 0x144, virtual false, abstract: false, final false
   inline void UpdateDragHandle(bool needsDragHandle);
 
-  /// @brief Method UpdateHierarchy, addr 0x497e784, size 0x250, virtual false, abstract: false, final false
+  /// @brief Method UpdateHierarchy, addr 0x6a21344, size 0x264, virtual false, abstract: false, final false
   inline void UpdateHierarchy(::UnityEngine::UIElements::VisualElement* root, ::UnityEngine::UIElements::VisualElement* item, bool usesAnimatedDragger);
 
   constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get_m_Container() const;
@@ -70,11 +77,15 @@ public:
 
   constexpr void __cordl_internal_set_m_ItemContainer(::UnityEngine::UIElements::VisualElement* value);
 
-  /// @brief Method .ctor, addr 0x497ebe8, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a21758, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_rootElement, addr 0x497e76c, size 0x18, virtual true, abstract: false, final false
+  static inline ::StringW getStaticF_k_SortingDisablesReorderingTooltip();
+
+  /// @brief Method get_rootElement, addr 0x6a2132c, size 0x18, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_rootElement();
+
+  static inline void setStaticF_k_SortingDisablesReorderingTooltip(::StringW value);
 
 protected:
   // Ctor Parameters []
@@ -91,7 +102,7 @@ public:
   ReusableListViewItem(ReusableListViewItem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5488 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4095 };
 
   /// @brief Field m_Container, offset: 0x48, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ___m_Container;

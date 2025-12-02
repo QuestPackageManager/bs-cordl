@@ -13,7 +13,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::GlobalNamespace::LightGroupSO> (::GlobalNamespace::LightGroup::*)()>(
     &::GlobalNamespace::LightGroup::get_lightGroupSO)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39dfc14;
+  constexpr static std::size_t addrs = 0x5657378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroup*>::get(), "get_lightGroupSO",
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroup::*)()>(&::GlobalNamespace::LightGroup::get_numberOfElements)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39dfc1c;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5657380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroup*>::get(), "get_numberOfElements",
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroup::*)()>(&::GlobalNamespace::LightGroup::get_startLightId)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39dfc98;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5657400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroup*>::get(), "get_startLightId",
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroup::*)()>(&::GlobalNamespace::LightGroup::get_groupId)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39dfd14;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5657480;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroup*>::get(), "get_groupId",
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::LightGroup::*)()>(&::GlobalNamespace::LightGroup::get_sameIdElements)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x39dfd90;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x5657500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroup*>::get(), "get_sameIdElements",
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LightGroup::*)()>(&::GlobalNamespace::LightGroup::get_ignoreLightGroupEffectManager)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x39dfe0c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5657580;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -92,8 +92,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroup::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::LightGroup::add_respawnEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39dfe90;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5657608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -107,8 +107,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroup::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::LightGroup::remove_respawnEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39dff40;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x56576c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroup::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::LightGroup::add_didRefreshContentEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39dfff0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5657788;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroup::*)(::System::Action_1<::UnityW<::UnityEngine::GameObject>>*)>(
     &::GlobalNamespace::LightGroup::remove_didRefreshContentEvent)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x39e00a0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x5657848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -152,7 +152,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroup::*)(::UnityEngine::Color)>(&::GlobalNamespace::LightGroup::SetColor)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39e0150;
+  constexpr static std::size_t addrs = 0x5657908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -165,8 +165,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LightGroup::*)()>(&::GlobalNamespace::LightGroup::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39e0418;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5657ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LightGroup*>::get(), ".ctor",

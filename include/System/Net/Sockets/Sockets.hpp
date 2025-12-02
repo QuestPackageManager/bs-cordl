@@ -29,6 +29,8 @@ module;
 #include "System/Net/Sockets/TcpClient.hpp"
 #include "System/Net/Sockets/TcpListener.hpp"
 #include "System/Net/Sockets/TransmitFileOptions.hpp"
+#include "System/Net/Sockets/UdpClient.hpp"
+#include "System/Net/Sockets/UdpReceiveResult.hpp"
 #ifdef __cpp_modules
 export module Sockets;
 #endif

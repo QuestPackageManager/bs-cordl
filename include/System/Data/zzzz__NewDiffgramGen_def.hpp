@@ -73,38 +73,38 @@ public:
   /// @brief Field _xmlw, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__xmlw, put = __cordl_internal_set__xmlw)) ::System::Xml::XmlWriter* _xmlw;
 
-  /// @brief Method CreateTableHierarchy, addr 0x41b7c68, size 0x384, virtual false, abstract: false, final false
+  /// @brief Method CreateTableHierarchy, addr 0x5e60f74, size 0x358, virtual false, abstract: false, final false
   inline void CreateTableHierarchy(::System::Data::DataTable* dt);
 
-  /// @brief Method DoAssignments, addr 0x41b7918, size 0x264, virtual false, abstract: false, final false
+  /// @brief Method DoAssignments, addr 0x5e60c38, size 0x25c, virtual false, abstract: false, final false
   inline void DoAssignments(::System::Collections::ArrayList* tables);
 
-  /// @brief Method EmptyData, addr 0x41b7fec, size 0xf4, virtual false, abstract: false, final false
+  /// @brief Method EmptyData, addr 0x5e612cc, size 0xf8, virtual false, abstract: false, final false
   inline bool EmptyData();
 
-  /// @brief Method GenerateColumn, addr 0x41b9c90, size 0x9fc, virtual false, abstract: false, final false
+  /// @brief Method GenerateColumn, addr 0x5e63104, size 0x9ec, virtual false, abstract: false, final false
   inline void GenerateColumn(::System::Data::DataRow* row, ::System::Data::DataColumn* col, ::System::Data::DataRowVersion version);
 
-  /// @brief Method GenerateRow, addr 0x41b962c, size 0x59c, virtual false, abstract: false, final false
+  /// @brief Method GenerateRow, addr 0x5e629c4, size 0x688, virtual false, abstract: false, final false
   inline void GenerateRow(::System::Data::DataRow* row);
 
-  /// @brief Method GenerateTable, addr 0x41b9070, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method GenerateTable, addr 0x5e6233c, size 0x7c, virtual false, abstract: false, final false
   inline void GenerateTable(::System::Data::DataTable* table);
 
-  /// @brief Method GenerateTableErrors, addr 0x41b90ec, size 0x540, virtual false, abstract: false, final false
+  /// @brief Method GenerateTableErrors, addr 0x5e623b8, size 0x60c, virtual false, abstract: false, final false
   inline void GenerateTableErrors(::System::Data::DataTable* table);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataSet* ds);
 
   static inline ::System::Data::NewDiffgramGen* New_ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
-  /// @brief Method QualifiedName, addr 0x41b77a0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method QualifiedName, addr 0x5e60ab4, size 0x78, virtual false, abstract: false, final false
   static inline ::StringW QualifiedName(::StringW prefix, ::StringW name);
 
-  /// @brief Method Save, addr 0x41b80e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x5e613c4, size 0x8, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw);
 
-  /// @brief Method Save, addr 0x41b80e8, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method Save, addr 0x5e613cc, size 0x430, virtual false, abstract: false, final false
   inline void Save(::System::Xml::XmlWriter* xmlw, ::System::Data::DataTable* table);
 
   constexpr ::System::Xml::XmlDocument* const& __cordl_internal_get__doc() const;
@@ -161,10 +161,10 @@ public:
 
   constexpr void __cordl_internal_set__xmlw(::System::Xml::XmlWriter* value);
 
-  /// @brief Method .ctor, addr 0x41b7808, size 0x110, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e60b2c, size 0x10c, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataSet* ds);
 
-  /// @brief Method .ctor, addr 0x41b7b7c, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e60e94, size 0xe0, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* dt, bool writeHierarchy);
 
 protected:
@@ -182,7 +182,7 @@ public:
   NewDiffgramGen(NewDiffgramGen const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11491 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13849 };
 
   /// @brief Field _doc, offset: 0x10, size: 0x8, def value: None
   ::System::Xml::XmlDocument* ____doc;

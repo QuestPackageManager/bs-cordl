@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Contexts::Context::RegisterContext)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cdd0e0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x591fe68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Contexts::Context::ReleaseContext)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cdd0e4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x591fe70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)()>(&::System::Runtime::Remoting::Contexts::Context::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3cdd0e8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x591fe78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(), ".ctor",
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::Finalize)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3cdd16c;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x591fef8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_DefaultContext)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cd3968;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5916a4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -98,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_ContextID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cdd23c;
+  constexpr static std::size_t addrs = 0x591ff88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -114,8 +114,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::ArrayW<::System::Runtime::Remoting::Contexts::IContextProperty*, ::Array<::System::Runtime::Remoting::Contexts::IContextProperty*>*> (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_ContextProperties)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3cdd244;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x591ff90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -131,7 +131,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_IsDefaultContext)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3cdd2b8;
+  constexpr static std::size_t addrs = 0x592000c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_NeedsContextSink)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x3cdd2c8;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x592001c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -159,8 +159,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::System::Runtime::Remoting::Contexts::IDynamicProperty*, ::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(
         &::System::Runtime::Remoting::Contexts::Context::RegisterDynamicProperty)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cdd3d8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5920130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -176,8 +176,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::StringW, ::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Contexts::Context::UnregisterDynamicProperty)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cdd890;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5920638;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,8 +194,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Runtime::Remoting::Contexts::DynamicPropertyCollection* (*)(::System::ContextBoundObject*, ::System::Runtime::Remoting::Contexts::Context*)>(
         &::System::Runtime::Remoting::Contexts::Context::GetDynamicPropertyCollection)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x3cdd450;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x59201ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -210,8 +210,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(
     &::System::Runtime::Remoting::Contexts::Context::NotifyGlobalDynamicSinks)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3cddad4;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x5920888;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -226,8 +226,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::System::Runtime::Remoting::Contexts::Context::get_HasGlobalDynamicSinks)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3cde22c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5920f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -241,7 +241,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)(
     bool, ::System::Runtime::Remoting::Messaging::IMessage*, bool, bool)>(&::System::Runtime::Remoting::Contexts::Context::NotifyDynamicSinks)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3cde2d0;
+  constexpr static std::size_t addrs = 0x5921014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -258,7 +258,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_HasDynamicSinks)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cde354;
+  constexpr static std::size_t addrs = 0x5921098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -271,8 +271,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_HasExitSinks)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3cda948;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x591d674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -285,8 +285,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::IContextProperty* (
     ::System::Runtime::Remoting::Contexts::Context::*)(::StringW)>(&::System::Runtime::Remoting::Contexts::Context::GetProperty)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x3cde394;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x59210d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -301,8 +301,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)(::System::Runtime::Remoting::Contexts::IContextProperty*)>(
     &::System::Runtime::Remoting::Contexts::Context::SetProperty)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x3cde58c;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x5921268;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -317,8 +317,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::Freeze)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3cde72c;
+  constexpr static std::size_t size = 0x17c;
+  constexpr static std::size_t addrs = 0x5921434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,8 +333,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::ToString)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3cde8d8;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x59215b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -349,8 +349,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::GetServerContextSinkChain)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x3cde934;
+  constexpr static std::size_t size = 0x1dc;
+  constexpr static std::size_t addrs = 0x5921610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -363,8 +363,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::GetClientContextSinkChain)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3cdaa00;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x591d734;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -377,8 +377,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (
     ::System::Runtime::Remoting::Contexts::Context::*)(::System::MarshalByRefObject*, bool)>(&::System::Runtime::Remoting::Contexts::Context::CreateServerObjectSinkChain)> {
-  constexpr static std::size_t size = 0x1ac;
-  constexpr static std::size_t addrs = 0x3cd57e8;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x59187b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -393,8 +393,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Messaging::IMessageSink* (
     ::System::Runtime::Remoting::Contexts::Context::*)(::System::MarshalByRefObject*)>(&::System::Runtime::Remoting::Contexts::Context::CreateEnvoySink)> {
-  constexpr static std::size_t size = 0x204;
-  constexpr static std::size_t addrs = 0x3cd5184;
+  constexpr static std::size_t size = 0x1c8;
+  constexpr static std::size_t addrs = 0x5918170;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -409,7 +409,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Contexts::Context*)>(
     &::System::Runtime::Remoting::Contexts::Context::SwitchToContext)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cdeb1c;
+  constexpr static std::size_t addrs = 0x59217f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -423,8 +423,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::System::Runtime::Remoting::Contexts::Context* (*)(::System::Runtime::Remoting::Activation::IConstructionCallMessage*)>(&::System::Runtime::Remoting::Contexts::Context::CreateNewContext)> {
-  constexpr static std::size_t size = 0x840;
-  constexpr static std::size_t addrs = 0x3cdeb24;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x59217fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -438,8 +438,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Runtime::Remoting::Contexts::Context::*)(::System::Runtime::Remoting::Contexts::CrossContextDelegate*)>(&::System::Runtime::Remoting::Contexts::Context::DoCallBack)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x3cdf364;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x59218a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -453,8 +453,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStore* (::System::Runtime::Remoting::Contexts::Context::*)()>(
     &::System::Runtime::Remoting::Contexts::Context::get_MyLocalStore)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3cdf4d8;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x59219e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -466,8 +466,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (*)()>(&::System::Runtime::Remoting::Contexts::Context::AllocateDataSlot)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3cdf64c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5921b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::Contexts::Context*>::get(),
@@ -480,8 +480,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (*)(::StringW)>(
     &::System::Runtime::Remoting::Contexts::Context::AllocateNamedDataSlot)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cdf6b0;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5921bb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -494,8 +494,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::System::Runtime::Remoting::Contexts::Context::FreeNamedDataSlot)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cdf71c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5921c28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -508,8 +508,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::LocalDataStoreSlot* (*)(::StringW)>(&::System::Runtime::Remoting::Contexts::Context::GetNamedDataSlot)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3cdf788;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5921c98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -522,8 +522,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::System::LocalDataStoreSlot*)>(&::System::Runtime::Remoting::Contexts::Context::GetData)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3cdf7f4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x5921d08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -537,8 +537,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::LocalDataStoreSlot*, ::System::Object*)>(
     &::System::Runtime::Remoting::Contexts::Context::SetData)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3cdf824;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5921d4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

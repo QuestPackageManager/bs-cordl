@@ -55,7 +55,7 @@ public:
   constexpr TextureIntSwitchEventEffect_TextureValueTuple(int32_t value, ::UnityW<::UnityEngine::Texture> texture) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4344 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5927 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -120,18 +120,18 @@ public:
   __declspec(property(get = __cordl_internal_get__valueToTextureMap,
                       put = __cordl_internal_set__valueToTextureMap)) ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* _valueToTextureMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x3b9a7dc, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method HandleBasicBeatmapEventData, addr 0x5789130, size 0x14, virtual false, abstract: false, final false
   inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
 
-  /// @brief Method Initialize, addr 0x3b9a540, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method Initialize, addr 0x5788e3c, size 0x208, virtual false, abstract: false, final false
   inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
 
   static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b9a7c0, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5789114, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method SetTextureByIndex, addr 0x3b9a6f0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetTextureByIndex, addr 0x5789044, size 0xd0, virtual false, abstract: false, final false
   inline void SetTextureByIndex(int32_t value);
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -191,7 +191,7 @@ public:
 
   constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* value);
 
-  /// @brief Method .ctor, addr 0x3b9a7f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5789144, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -209,7 +209,7 @@ public:
   TextureIntSwitchEventEffect(TextureIntSwitchEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4345 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5928 };
 
   /// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;

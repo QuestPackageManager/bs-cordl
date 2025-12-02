@@ -56,12 +56,12 @@ public:
 
   __declspec(property(get = get_WrappedOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> WrappedOp;
 
-  /// @brief Field m_CachedOnWrappedCompleted, offset 0x108, size 0x8
+  /// @brief Field m_CachedOnWrappedCompleted, offset 0x100, size 0x8
   __declspec(property(
       get = __cordl_internal_get_m_CachedOnWrappedCompleted,
       put = __cordl_internal_set_m_CachedOnWrappedCompleted)) ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_CachedOnWrappedCompleted;
 
-  /// @brief Field m_Callback, offset 0x100, size 0x8
+  /// @brief Field m_Callback, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Callback,
                       put = __cordl_internal_set_m_Callback)) ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle,
                                                                                ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* m_Callback;
@@ -69,16 +69,16 @@ public:
   /// @brief Field m_DepOp, offset 0x98, size 0x18
   __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle m_DepOp;
 
-  /// @brief Field m_ReleaseDependenciesOnFailure, offset 0x110, size 0x1
+  /// @brief Field m_ReleaseDependenciesOnFailure, offset 0x108, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ReleaseDependenciesOnFailure, put = __cordl_internal_set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
 
-  /// @brief Field m_WrappedOp, offset 0xb0, size 0x20
+  /// @brief Field m_WrappedOp, offset 0xb0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_WrappedOp, put = __cordl_internal_set_m_WrappedOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> m_WrappedOp;
 
-  /// @brief Field m_depStatus, offset 0xd0, size 0x18
+  /// @brief Field m_depStatus, offset 0xc8, size 0x18
   __declspec(property(get = __cordl_internal_get_m_depStatus, put = __cordl_internal_set_m_depStatus)) ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_depStatus;
 
-  /// @brief Field m_wrapStatus, offset 0xe8, size 0x18
+  /// @brief Field m_wrapStatus, offset 0xe0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_wrapStatus, put = __cordl_internal_set_m_wrapStatus)) ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_wrapStatus;
 
   /// @brief Method Destroy, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -185,27 +185,27 @@ public:
   ChainOperationTypelessDepedency_1(ChainOperationTypelessDepedency_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18657 };
 
   /// @brief Field m_DepOp, offset: 0x98, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle ___m_DepOp;
 
-  /// @brief Field m_WrappedOp, offset: 0xb0, size: 0x20, def value: None
+  /// @brief Field m_WrappedOp, offset: 0xb0, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject> ___m_WrappedOp;
 
-  /// @brief Field m_depStatus, offset: 0xd0, size: 0x18, def value: None
+  /// @brief Field m_depStatus, offset: 0xc8, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus ___m_depStatus;
 
-  /// @brief Field m_wrapStatus, offset: 0xe8, size: 0x18, def value: None
+  /// @brief Field m_wrapStatus, offset: 0xe0, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus ___m_wrapStatus;
 
-  /// @brief Field m_Callback, offset: 0x100, size: 0x8, def value: None
+  /// @brief Field m_Callback, offset: 0xf8, size: 0x8, def value: None
   ::System::Func_2<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle, ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* ___m_Callback;
 
-  /// @brief Field m_CachedOnWrappedCompleted, offset: 0x108, size: 0x8, def value: None
+  /// @brief Field m_CachedOnWrappedCompleted, offset: 0x100, size: 0x8, def value: None
   ::System::Action_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<TObject>>* ___m_CachedOnWrappedCompleted;
 
-  /// @brief Field m_ReleaseDependenciesOnFailure, offset: 0x110, size: 0x1, def value: None
+  /// @brief Field m_ReleaseDependenciesOnFailure, offset: 0x108, size: 0x1, def value: None
   bool ___m_ReleaseDependenciesOnFailure;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_modifierNameLocalizationKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3514;
+  constexpr static std::size_t addrs = 0x35e4b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,7 +24,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_descriptionLocalizationKey)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b351c;
+  constexpr static std::size_t addrs = 0x35e4b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(),
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_icon)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3524;
+  constexpr static std::size_t addrs = 0x35e4b68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(), "get_icon",
@@ -53,7 +53,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
         &::GlobalNamespace::GameplayModifierParamsSO::get_mutuallyExclusives)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b352c;
+  constexpr static std::size_t addrs = 0x35e4b70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(),
@@ -68,7 +68,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
         &::GlobalNamespace::GameplayModifierParamsSO::get_requires)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3534;
+  constexpr static std::size_t addrs = 0x35e4b78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(),
@@ -83,7 +83,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>, ::Array<::UnityW<::GlobalNamespace::GameplayModifierParamsSO>>*> (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
         &::GlobalNamespace::GameplayModifierParamsSO::get_requiredBy)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b353c;
+  constexpr static std::size_t addrs = 0x35e4b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(),
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_multiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3544;
+  constexpr static std::size_t addrs = 0x35e4b88;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(),
@@ -111,7 +111,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_multiplierConditionallyValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b354c;
+  constexpr static std::size_t addrs = 0x35e4b90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -126,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::GameplayModifierParamsSO::*)()>(
     &::GlobalNamespace::GameplayModifierParamsSO::get_isInBeta)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b3554;
+  constexpr static std::size_t addrs = 0x35e4b98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(),
@@ -139,7 +139,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayModifierParamsSO::*)()>(&::GlobalNamespace::GameplayModifierParamsSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26b355c;
+  constexpr static std::size_t addrs = 0x35e4ba0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GameplayModifierParamsSO*>::get(), ".ctor",

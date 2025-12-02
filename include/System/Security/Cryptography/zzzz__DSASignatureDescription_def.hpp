@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Security::Cryptography::DSASignatureDescription* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3cacac8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58f0630, size 0xa4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,7 +38,7 @@ public:
   DSASignatureDescription(DSASignatureDescription const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2971 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2988 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

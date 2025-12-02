@@ -243,10 +243,16 @@ public:
   /// @brief Field k_ShaderRef_MobileSDF, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF, put = setStaticF_k_ShaderRef_MobileSDF)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF;
 
+  /// @brief Field k_ShaderRef_MobileSDF_IMGUI, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_ShaderRef_MobileSDF_IMGUI, put = setStaticF_k_ShaderRef_MobileSDF_IMGUI)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_MobileSDF_IMGUI;
+
+  /// @brief Field k_ShaderRef_Sprite, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_ShaderRef_Sprite, put = setStaticF_k_ShaderRef_Sprite)) ::UnityW<::UnityEngine::Shader> k_ShaderRef_Sprite;
+
   /// @brief Field m_clamp, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_m_clamp, put = setStaticF_m_clamp)) float_t m_clamp;
 
-  /// @brief Method GetShaderPropertyIDs, addr 0x4951b04, size 0xac8, virtual false, abstract: false, final false
+  /// @brief Method GetShaderPropertyIDs, addr 0x69df980, size 0xca8, virtual false, abstract: false, final false
   static inline void GetShaderPropertyIDs();
 
   static inline int32_t getStaticF_ID_BevelAmount();
@@ -395,13 +401,23 @@ public:
 
   static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileSDF();
 
+  static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_MobileSDF_IMGUI();
+
+  static inline ::UnityW<::UnityEngine::Shader> getStaticF_k_ShaderRef_Sprite();
+
   static inline float_t getStaticF_m_clamp();
 
-  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x49517a0, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileBitmap, addr 0x69df428, size 0x1dc, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileBitmap();
 
-  /// @brief Method get_ShaderRef_MobileSDF, addr 0x49515b8, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method get_ShaderRef_MobileSDF, addr 0x69df140, size 0x17c, virtual false, abstract: false, final false
   static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF();
+
+  /// @brief Method get_ShaderRef_MobileSDF_IMGUI, addr 0x69df2bc, size 0x16c, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_MobileSDF_IMGUI();
+
+  /// @brief Method get_ShaderRef_Sprite, addr 0x69df604, size 0x1fc, virtual false, abstract: false, final false
+  static inline ::UnityW<::UnityEngine::Shader> get_ShaderRef_Sprite();
 
   static inline void setStaticF_ID_BevelAmount(int32_t value);
 
@@ -549,6 +565,10 @@ public:
 
   static inline void setStaticF_k_ShaderRef_MobileSDF(::UnityW<::UnityEngine::Shader> value);
 
+  static inline void setStaticF_k_ShaderRef_MobileSDF_IMGUI(::UnityW<::UnityEngine::Shader> value);
+
+  static inline void setStaticF_k_ShaderRef_Sprite(::UnityW<::UnityEngine::Shader> value);
+
   static inline void setStaticF_m_clamp(float_t value);
 
 protected:
@@ -566,7 +586,7 @@ public:
   TextShaderUtilities(TextShaderUtilities const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15297 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17241 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

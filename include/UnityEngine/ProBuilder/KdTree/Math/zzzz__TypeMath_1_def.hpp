@@ -4,16 +4,18 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "UnityEngine/ProBuilder/KdTree/zzzz__ITypeMath_1_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(TypeMath_1)
+namespace UnityEngine::ProBuilder::KdTree {
+template <typename T> class ITypeMath_1;
+}
 // Forward declare root types
 namespace UnityEngine::ProBuilder::KdTree::Math {
 template <typename T> class TypeMath_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ProBuilder::KdTree::Math::TypeMath_1);
-// Dependencies System.Object, UnityEngine.ProBuilder.KdTree.ITypeMath`1<T>
+// Dependencies System.Object
 namespace UnityEngine::ProBuilder::KdTree::Math {
 // cpp template
 template <typename T>
@@ -100,7 +102,7 @@ public:
   TypeMath_1(TypeMath_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18564 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22348 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

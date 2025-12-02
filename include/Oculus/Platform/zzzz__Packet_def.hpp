@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Packet)
+namespace System {
+class IDisposable;
+}
 namespace System {
 struct IntPtr;
 }
@@ -17,7 +19,7 @@ class Packet;
 }
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Packet);
-// Dependencies System.IDisposable, System.IntPtr, System.Object
+// Dependencies System.IntPtr, System.Object
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: Oculus.Platform.Packet
@@ -37,15 +39,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Dispose, addr 0x3f818bc, size 0x88, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5bc8fcc, size 0x90, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Finalize, addr 0x3f81828, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x5bc8f88, size 0x44, virtual true, abstract: false, final false
   inline void Finalize();
 
   static inline ::Oculus::Platform::Packet* New_ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method ReadBytes, addr 0x3f8168c, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method ReadBytes, addr 0x5bc8de4, size 0x140, virtual false, abstract: false, final false
   inline uint64_t ReadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> destination);
 
   constexpr ::System::IntPtr const& __cordl_internal_get_packetHandle() const;
@@ -60,13 +62,13 @@ public:
 
   constexpr void __cordl_internal_set_size(uint64_t value);
 
-  /// @brief Method .ctor, addr 0x3f8160c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5bc8d74, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::System::IntPtr packetHandle);
 
-  /// @brief Method get_SenderID, addr 0x3f817c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_SenderID, addr 0x5bc8f24, size 0x5c, virtual false, abstract: false, final false
   inline uint64_t get_SenderID();
 
-  /// @brief Method get_Size, addr 0x3f81820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Size, addr 0x5bc8f80, size 0x8, virtual false, abstract: false, final false
   inline uint64_t get_Size();
 
   /// @brief Convert to "::System::IDisposable"
@@ -87,7 +89,7 @@ public:
   Packet(Packet const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15434 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17893 };
 
   /// @brief Field size, offset: 0x10, size: 0x8, def value: None
   uint64_t ___size;

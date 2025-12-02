@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Style* (*)()>(&::TMPro::TMP_Style::get_NormalStyle)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x4802e74;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6782150;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_NormalStyle",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4802fb8;
+  constexpr static std::size_t addrs = 0x6782284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_name",
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)(::StringW)>(&::TMPro::TMP_Style::set_name)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4802fc0;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x678228c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_hashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4802ff8;
+  constexpr static std::size_t addrs = 0x67822c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_hashCode",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)(int32_t)>(&::TMPro::TMP_Style::set_hashCode)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4803000;
+  constexpr static std::size_t addrs = 0x67822c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleOpeningDefinition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4803014;
+  constexpr static std::size_t addrs = 0x67822dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleOpeningDefinition",
@@ -87,7 +87,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleClosingDefinition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x480301c;
+  constexpr static std::size_t addrs = 0x67822e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleClosingDefinition",
@@ -98,9 +98,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Style.get_styleOpeningTagArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleOpeningTagArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleOpeningTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4803024;
+  constexpr static std::size_t addrs = 0x67822ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleOpeningTagArray",
@@ -111,9 +111,9 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::TMPro::TMP_Style.get_styleClosingTagArray
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleClosingTagArray)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint32_t, ::Array<uint32_t>*> (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::get_styleClosingTagArray)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x480302c;
+  constexpr static std::size_t addrs = 0x67822f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleClosingTagArray",
@@ -125,8 +125,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)(::StringW, ::StringW, ::StringW)>(&::TMPro::TMP_Style::_ctor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x4802f28;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x67821fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,8 +140,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Style::*)()>(&::TMPro::TMP_Style::RefreshStyle)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x48030f0;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x67823b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "RefreshStyle",
@@ -197,53 +197,29 @@ constexpr void TMPro::TMP_Style::__cordl_internal_set_m_ClosingDefinition(::Stri
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClosingDefinition)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& TMPro::TMP_Style::__cordl_internal_get_m_OpeningTagArray() {
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& TMPro::TMP_Style::__cordl_internal_get_m_OpeningTagArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpeningTagArray;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& TMPro::TMP_Style::__cordl_internal_get_m_OpeningTagArray() const {
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& TMPro::TMP_Style::__cordl_internal_get_m_OpeningTagArray() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_OpeningTagArray;
 }
-constexpr void TMPro::TMP_Style::__cordl_internal_set_m_OpeningTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void TMPro::TMP_Style::__cordl_internal_set_m_OpeningTagArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OpeningTagArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& TMPro::TMP_Style::__cordl_internal_get_m_ClosingTagArray() {
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& TMPro::TMP_Style::__cordl_internal_get_m_ClosingTagArray() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClosingTagArray;
 }
-constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& TMPro::TMP_Style::__cordl_internal_get_m_ClosingTagArray() const {
+constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& TMPro::TMP_Style::__cordl_internal_get_m_ClosingTagArray() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_ClosingTagArray;
 }
-constexpr void TMPro::TMP_Style::__cordl_internal_set_m_ClosingTagArray(::ArrayW<int32_t, ::Array<int32_t>*> value) {
+constexpr void TMPro::TMP_Style::__cordl_internal_set_m_ClosingTagArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClosingTagArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& TMPro::TMP_Style::__cordl_internal_get_m_OpeningTagUnicodeArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_OpeningTagUnicodeArray;
-}
-constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& TMPro::TMP_Style::__cordl_internal_get_m_OpeningTagUnicodeArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_OpeningTagUnicodeArray;
-}
-constexpr void TMPro::TMP_Style::__cordl_internal_set_m_OpeningTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_OpeningTagUnicodeArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*>& TMPro::TMP_Style::__cordl_internal_get_m_ClosingTagUnicodeArray() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ClosingTagUnicodeArray;
-}
-constexpr ::ArrayW<uint32_t, ::Array<uint32_t>*> const& TMPro::TMP_Style::__cordl_internal_get_m_ClosingTagUnicodeArray() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ClosingTagUnicodeArray;
-}
-constexpr void TMPro::TMP_Style::__cordl_internal_set_m_ClosingTagUnicodeArray(::ArrayW<uint32_t, ::Array<uint32_t>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_ClosingTagUnicodeArray)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void TMPro::TMP_Style::setStaticF_k_NormalStyle(::TMPro::TMP_Style* value) {
   ::cordl_internals::setStaticField<::TMPro::TMP_Style*, "k_NormalStyle", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get>(std::forward<::TMPro::TMP_Style*>(value));
@@ -288,15 +264,15 @@ inline ::StringW TMPro::TMP_Style::get_styleClosingDefinition() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::ArrayW<int32_t, ::Array<int32_t>*> TMPro::TMP_Style::get_styleOpeningTagArray() {
+inline ::ArrayW<uint32_t, ::Array<uint32_t>*> TMPro::TMP_Style::get_styleOpeningTagArray() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleOpeningTagArray",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(this, ___internal_method);
 }
-inline ::ArrayW<int32_t, ::Array<int32_t>*> TMPro::TMP_Style::get_styleClosingTagArray() {
+inline ::ArrayW<uint32_t, ::Array<uint32_t>*> TMPro::TMP_Style::get_styleClosingTagArray() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Style*>::get(), "get_styleClosingTagArray",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<uint32_t, ::Array<uint32_t>*>, false>(this, ___internal_method);
 }
 inline void TMPro::TMP_Style::_ctor(::StringW styleName, ::StringW styleOpeningDefinition, ::StringW styleClosingDefinition) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

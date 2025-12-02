@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::DataTableTypeConverter::*)()>(&::System::Data::DataTableTypeConverter::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x416a0dc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5e14ca8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::DataTableTypeConverter*>::get(), ".ctor",
@@ -22,7 +22,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::DataTableTypeConverter::*)(::System::ComponentModel::ITypeDescriptorContext*)>(
     &::System::Data::DataTableTypeConverter::GetPropertiesSupported)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x416a190;
+  constexpr static std::size_t addrs = 0x5e14d44;
 
   inline static ::MethodInfo const* methodInfo() {
 

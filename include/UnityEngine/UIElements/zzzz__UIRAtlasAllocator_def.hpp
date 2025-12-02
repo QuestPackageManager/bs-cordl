@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarker_def.hpp"
 #include "UnityEngine/zzzz__RectInt_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRAtlasAllocator)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
 class AreaNode_UIRAtlasAllocator___c;
 }
@@ -61,10 +63,10 @@ public:
 
   static inline ::UnityEngine::UIElements::Row_UIRAtlasAllocator___c* New_ctor();
 
-  /// @brief Method <.cctor>b__21_0, addr 0x4a48af8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__21_0, addr 0x6b89474, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIRAtlasAllocator_Row* __cctor_b__21_0();
 
-  /// @brief Method .ctor, addr 0x4a48af0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b89470, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::Row_UIRAtlasAllocator___c* getStaticF___9();
@@ -86,7 +88,7 @@ public:
   Row_UIRAtlasAllocator___c(Row_UIRAtlasAllocator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6025 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4659 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -129,12 +131,12 @@ public:
 
   __declspec(property(get = get_width, put = set_width)) int32_t width;
 
-  /// @brief Method Acquire, addr 0x4a48750, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x6b890c8, size 0xb4, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator_Row* Acquire(int32_t offsetX, int32_t offsetY, int32_t width, int32_t height);
 
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator_Row* New_ctor();
 
-  /// @brief Method Release, addr 0x4a47ca0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6b88560, size 0x98, virtual false, abstract: false, final false
   inline void Release();
 
   constexpr int32_t const& __cordl_internal_get_Cursor() const;
@@ -167,32 +169,32 @@ public:
 
   constexpr void __cordl_internal_set__width_k__BackingField(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a4897c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b89300, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>* getStaticF_s_Pool();
 
-  /// @brief Method get_offsetX, addr 0x4a48944, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetX, addr 0x6b892c8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetX();
 
-  /// @brief Method get_offsetY, addr 0x4a48954, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_offsetY, addr 0x6b892d8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_offsetY();
 
-  /// @brief Method get_width, addr 0x4a48964, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_width, addr 0x6b892e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_width();
 
   static inline void setStaticF_s_Pool(::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>* value);
 
-  /// @brief Method set_height, addr 0x4a48974, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_height, addr 0x6b892f8, size 0x8, virtual false, abstract: false, final false
   inline void set_height(int32_t value);
 
-  /// @brief Method set_offsetX, addr 0x4a4894c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetX, addr 0x6b892d0, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetX(int32_t value);
 
-  /// @brief Method set_offsetY, addr 0x4a4895c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_offsetY, addr 0x6b892e0, size 0x8, virtual false, abstract: false, final false
   inline void set_offsetY(int32_t value);
 
-  /// @brief Method set_width, addr 0x4a4896c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_width, addr 0x6b892f0, size 0x8, virtual false, abstract: false, final false
   inline void set_width(int32_t value);
 
 protected:
@@ -210,7 +212,7 @@ public:
   UIRAtlasAllocator_Row(UIRAtlasAllocator_Row const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6026 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4660 };
 
   /// @brief Field <offsetX>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____offsetX_k__BackingField;
@@ -255,10 +257,10 @@ public:
 
   static inline ::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c* New_ctor();
 
-  /// @brief Method <.cctor>b__9_0, addr 0x4a48cc8, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__9_0, addr 0x6b8962c, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* __cctor_b__9_0();
 
-  /// @brief Method .ctor, addr 0x4a48cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b89628, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::AreaNode_UIRAtlasAllocator___c* getStaticF___9();
@@ -280,7 +282,7 @@ public:
   AreaNode_UIRAtlasAllocator___c(AreaNode_UIRAtlasAllocator___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6027 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -309,18 +311,18 @@ public:
   /// @brief Field s_Pool, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_Pool, put = setStaticF_s_Pool)) ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>* s_Pool;
 
-  /// @brief Method Acquire, addr 0x4a48084, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method Acquire, addr 0x6b889b4, size 0xa0, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* Acquire(::UnityEngine::RectInt rect);
 
-  /// @brief Method AddAfter, addr 0x4a48824, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method AddAfter, addr 0x6b89198, size 0xb4, virtual false, abstract: false, final false
   inline void AddAfter(::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* previous);
 
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* New_ctor();
 
-  /// @brief Method Release, addr 0x4a47d30, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x6b885f8, size 0x88, virtual false, abstract: false, final false
   inline void Release();
 
-  /// @brief Method RemoveFromChain, addr 0x4a487fc, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method RemoveFromChain, addr 0x6b8917c, size 0x1c, virtual false, abstract: false, final false
   inline void RemoveFromChain();
 
   constexpr ::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* const& __cordl_internal_get_next() const;
@@ -341,7 +343,7 @@ public:
 
   constexpr void __cordl_internal_set_rect(::UnityEngine::RectInt value);
 
-  /// @brief Method .ctor, addr 0x4a48b4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b894b8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::ObjectPool_1<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode*>* getStaticF_s_Pool();
@@ -363,7 +365,7 @@ public:
   UIRAtlasAllocator_AreaNode(UIRAtlasAllocator_AreaNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6028 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4662 };
 
   /// @brief Field rect, offset: 0x10, size: 0x10, def value: None
   ::UnityEngine::RectInt ___rect;
@@ -386,7 +388,7 @@ static_assert(offsetof(::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode, __
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
-// Dependencies System.IDisposable, System.Object, Unity.Profiling.ProfilerMarker
+// Dependencies System.Object, Unity.Profiling.ProfilerMarker
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UIRAtlasAllocator
@@ -458,24 +460,24 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method BuildAreas, addr 0x4a4811c, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method BuildAreas, addr 0x6b88a54, size 0xec, virtual false, abstract: false, final false
   inline void BuildAreas();
 
-  /// @brief Method Dispose, addr 0x4a47ba4, size 0x6c, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x6b88460, size 0x70, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method Dispose, addr 0x4a47c10, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b884d0, size 0x90, virtual true, abstract: false, final false
   inline void Dispose(bool disposing);
 
-  /// @brief Method GetLog2OfNextPower, addr 0x4a47db0, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetLog2OfNextPower, addr 0x6b88680, size 0x154, virtual false, abstract: false, final false
   static inline int32_t GetLog2OfNextPower(int32_t n);
 
   static inline ::UnityEngine::UIElements::UIRAtlasAllocator* New_ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
-  /// @brief Method TryAllocate, addr 0x4a48214, size 0x3b4, virtual false, abstract: false, final false
+  /// @brief Method TryAllocate, addr 0x6b88b40, size 0x400, virtual false, abstract: false, final false
   inline bool TryAllocate(int32_t width, int32_t height, ::ByRef<::UnityEngine::RectInt> location);
 
-  /// @brief Method TryPartitionArea, addr 0x4a485c8, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method TryPartitionArea, addr 0x6b88f40, size 0x188, virtual false, abstract: false, final false
   inline bool TryPartitionArea(::UnityEngine::UIElements::UIRAtlasAllocator_AreaNode* areaNode, int32_t rowIndex, int32_t rowHeight, int32_t minWidth);
 
   constexpr bool const& __cordl_internal_get__disposed_k__BackingField() const;
@@ -550,33 +552,33 @@ public:
 
   constexpr void __cordl_internal_set_m_OpenRows(::ArrayW<::UnityEngine::UIElements::UIRAtlasAllocator_Row*, ::Array<::UnityEngine::UIElements::UIRAtlasAllocator_Row*>*> value);
 
-  /// @brief Method .ctor, addr 0x4a47ee0, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b887d4, size 0x1e0, virtual false, abstract: false, final false
   inline void _ctor(int32_t initialAtlasSize, int32_t maxAtlasSize, int32_t sidePadding);
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_MarkerTryAllocate();
 
-  /// @brief Method get_disposed, addr 0x4a47b90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disposed, addr 0x6b88450, size 0x8, virtual false, abstract: false, final false
   inline bool get_disposed();
 
-  /// @brief Method get_maxAtlasSize, addr 0x4a47b38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxAtlasSize, addr 0x6b883f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxAtlasSize();
 
-  /// @brief Method get_maxImageHeight, addr 0x4a47b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxImageHeight, addr 0x6b88408, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageHeight();
 
-  /// @brief Method get_maxImageWidth, addr 0x4a47b40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_maxImageWidth, addr 0x6b88400, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_maxImageWidth();
 
-  /// @brief Method get_physicalHeight, addr 0x4a47b80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicalHeight, addr 0x6b88440, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalHeight();
 
-  /// @brief Method get_physicalWidth, addr 0x4a47b70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_physicalWidth, addr 0x6b88430, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_physicalWidth();
 
-  /// @brief Method get_virtualHeight, addr 0x4a47b60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualHeight, addr 0x6b88420, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualHeight();
 
-  /// @brief Method get_virtualWidth, addr 0x4a47b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_virtualWidth, addr 0x6b88410, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_virtualWidth();
 
   /// @brief Convert to "::System::IDisposable"
@@ -584,19 +586,19 @@ public:
 
   static inline void setStaticF_s_MarkerTryAllocate(::Unity::Profiling::ProfilerMarker value);
 
-  /// @brief Method set_disposed, addr 0x4a47b98, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disposed, addr 0x6b88458, size 0x8, virtual false, abstract: false, final false
   inline void set_disposed(bool value);
 
-  /// @brief Method set_physicalHeight, addr 0x4a47b88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicalHeight, addr 0x6b88448, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalHeight(int32_t value);
 
-  /// @brief Method set_physicalWidth, addr 0x4a47b78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_physicalWidth, addr 0x6b88438, size 0x8, virtual false, abstract: false, final false
   inline void set_physicalWidth(int32_t value);
 
-  /// @brief Method set_virtualHeight, addr 0x4a47b68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_virtualHeight, addr 0x6b88428, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualHeight(int32_t value);
 
-  /// @brief Method set_virtualWidth, addr 0x4a47b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_virtualWidth, addr 0x6b88418, size 0x8, virtual false, abstract: false, final false
   inline void set_virtualWidth(int32_t value);
 
 protected:
@@ -614,7 +616,7 @@ public:
   UIRAtlasAllocator(UIRAtlasAllocator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6029 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4663 };
 
   /// @brief Field <maxAtlasSize>k__BackingField, offset: 0x10, size: 0x4, def value: None
   int32_t ____maxAtlasSize_k__BackingField;

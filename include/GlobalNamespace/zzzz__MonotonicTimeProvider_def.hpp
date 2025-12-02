@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BGNet/Core/zzzz__ITimeProvider_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MonotonicTimeProvider)
+namespace BGNet::Core {
+class ITimeProvider;
+}
 namespace System::Diagnostics {
 class Stopwatch;
 }
@@ -17,7 +19,7 @@ class MonotonicTimeProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MonotonicTimeProvider);
-// Dependencies BGNet.Core.ITimeProvider, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MonotonicTimeProvider
@@ -39,10 +41,10 @@ public:
   /// @brief Convert operator to "::BGNet::Core::ITimeProvider"
   constexpr operator ::BGNet::Core::ITimeProvider*() noexcept;
 
-  /// @brief Method GetTicks, addr 0x22d9cfc, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method GetTicks, addr 0x3215674, size 0x58, virtual true, abstract: false, final true
   inline int64_t GetTicks();
 
-  /// @brief Method GetTimeMs, addr 0x22d9cd0, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method GetTimeMs, addr 0x3215648, size 0x2c, virtual true, abstract: false, final true
   inline int64_t GetTimeMs();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* New_ctor();
@@ -65,7 +67,7 @@ public:
 
   constexpr void __cordl_internal_set__timeSpanTicksPerStopwatchTick(double_t value);
 
-  /// @brief Method .ctor, addr 0x22d9b40, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3215570, size 0xd8, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MonotonicTimeProvider* getStaticF_instance();
@@ -90,7 +92,7 @@ public:
   MonotonicTimeProvider(MonotonicTimeProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14882 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18170 };
 
   /// @brief Field _timeSpanTicksPerStopwatchTick, offset: 0x10, size: 0x8, def value: None
   double_t ____timeSpanTicksPerStopwatchTick;

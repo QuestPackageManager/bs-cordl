@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/zzzz__IOOperation_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(IOSelectorJob)
+namespace System::Threading {
+class IThreadPoolWorkItem;
+}
 namespace System::Threading {
 class ThreadAbortException;
 }
@@ -25,7 +27,7 @@ class IOSelectorJob;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IOSelectorJob);
-// Dependencies System.IOOperation, System.Object, System.Threading.IThreadPoolWorkItem
+// Dependencies System.IOOperation, System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.IOSelectorJob
@@ -44,15 +46,15 @@ public:
   /// @brief Convert operator to "::System::Threading::IThreadPoolWorkItem"
   constexpr operator ::System::Threading::IThreadPoolWorkItem*() noexcept;
 
-  /// @brief Method MarkDisposed, addr 0x440fc94, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method MarkDisposed, addr 0x615e14c, size 0x1c, virtual false, abstract: false, final false
   inline void MarkDisposed();
 
   static inline ::System::IOSelectorJob* New_ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x440fc68, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x615e124, size 0x24, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x440fc90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x615e148, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
   constexpr ::System::IOAsyncCallback* const& __cordl_internal_get_callback() const;
@@ -73,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::IOAsyncResult* value);
 
-  /// @brief Method .ctor, addr 0x440fc2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x615e118, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::IOOperation operation, ::System::IOAsyncCallback* callback, ::System::IOAsyncResult* state);
 
   /// @brief Convert to "::System::Threading::IThreadPoolWorkItem"
@@ -94,7 +96,7 @@ public:
   IOSelectorJob(IOSelectorJob const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9216 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11060 };
 
   /// @brief Field operation, offset: 0x10, size: 0x4, def value: None
   ::System::IOOperation ___operation;

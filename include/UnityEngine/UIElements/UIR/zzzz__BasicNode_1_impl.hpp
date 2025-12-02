@@ -26,10 +26,10 @@ template <typename T> constexpr void UnityEngine::UIElements::UIR::BasicNode_1<T
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->___data, value);
 }
-template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::AppendTo(::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>::get(), "AppendTo", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>>::get() })));
+template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::InsertFirst(::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*> first) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>::get(), "InsertFirst", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::UIR::BasicNode_1<T>*>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, first);
 }
 template <typename T> inline void UnityEngine::UIElements::UIR::BasicNode_1<T>::_ctor() {

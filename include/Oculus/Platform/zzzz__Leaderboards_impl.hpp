@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Oculus::Platform::Models::LeaderboardEntryList*)>(&::Oculus::Platform::Leaderboards::GetNextEntries)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3f82844;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5bca3d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::Oculus::Platform::Models::LeaderboardEntryList*)>(&::Oculus::Platform::Leaderboards::GetPreviousEntries)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3f829bc;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x5bca560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* (*)(::StringW)>(
     &::Oculus::Platform::Leaderboards::Get)> {
-  constexpr static std::size_t size = 0x158;
-  constexpr static std::size_t addrs = 0x3f82b34;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x5bca6f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -58,8 +58,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::StringW, int32_t, ::Oculus::Platform::LeaderboardFilterType,
                                                                                                       ::Oculus::Platform::LeaderboardStartAt)>(&::Oculus::Platform::Leaderboards::GetEntries)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x3f82c8c;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x5bca858;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::StringW, int32_t, uint64_t)>(
     &::Oculus::Platform::Leaderboards::GetEntriesAfterRank)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x3f82e0c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x5bca9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,8 +92,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* (*)(::StringW, int32_t, ::Oculus::Platform::LeaderboardStartAt,
                                                                                                       ::ArrayW<uint64_t, ::Array<uint64_t>*>)>(&::Oculus::Platform::Leaderboards::GetEntriesByIds)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3f82f7c;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x5bcab60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<bool>* (*)(::StringW, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::Oculus::Platform::Leaderboards::WriteEntry)> {
-  constexpr static std::size_t size = 0x194;
-  constexpr static std::size_t addrs = 0x3f83110;
+  constexpr static std::size_t size = 0x19c;
+  constexpr static std::size_t addrs = 0x5bcacfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -126,8 +126,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Oculus::Platform::Request_1<bool>* (*)(::StringW, int64_t, int64_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, bool)>(
     &::Oculus::Platform::Leaderboards::WriteEntryWithSupplementaryMetric)> {
-  constexpr static std::size_t size = 0x1a4;
-  constexpr static std::size_t addrs = 0x3f832a4;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x5bcae98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -144,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* (*)(::Oculus::Platform::Models::LeaderboardList*)>(&::Oculus::Platform::Leaderboards::GetNextLeaderboardListPage)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3f83448;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x5bcb044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

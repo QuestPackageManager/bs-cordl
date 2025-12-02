@@ -88,7 +88,7 @@ public:
   static ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState const Revert;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18861 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -147,7 +147,7 @@ public:
   static ::UnityEngine::Timeline::ActivationControlPlayable_InitialState const Unset;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15868 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18862 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -183,25 +183,25 @@ public:
   /// @brief Field postPlayback, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_postPlayback, put = __cordl_internal_set_postPlayback)) ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlayback;
 
-  /// @brief Method Create, addr 0x48223cc, size 0x13c, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x67a2bb8, size 0x154, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::ActivationControlPlayable*>
   Create(::UnityEngine::Playables::PlayableGraph graph, ::UnityEngine::GameObject* gameObject, ::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState postPlaybackState);
 
   static inline ::UnityEngine::Timeline::ActivationControlPlayable* New_ctor();
 
-  /// @brief Method OnBehaviourPause, addr 0x48274fc, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPause, addr 0x67a7e48, size 0xa8, virtual true, abstract: false, final false
   inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnBehaviourPlay, addr 0x4827474, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method OnBehaviourPlay, addr 0x67a7dbc, size 0x8c, virtual true, abstract: false, final false
   inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
 
-  /// @brief Method OnGraphStart, addr 0x482762c, size 0x94, virtual true, abstract: false, final false
+  /// @brief Method OnGraphStart, addr 0x67a7f7c, size 0x98, virtual true, abstract: false, final false
   inline void OnGraphStart(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method OnPlayableDestroy, addr 0x48276c0, size 0xcc, virtual true, abstract: false, final false
+  /// @brief Method OnPlayableDestroy, addr 0x67a8014, size 0xd0, virtual true, abstract: false, final false
   inline void OnPlayableDestroy(::UnityEngine::Playables::Playable playable);
 
-  /// @brief Method ProcessFrame, addr 0x48275a4, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ProcessFrame, addr 0x67a7ef0, size 0x8c, virtual true, abstract: false, final false
   inline void ProcessFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info, ::System::Object* userData);
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get_gameObject() const;
@@ -222,7 +222,7 @@ public:
 
   constexpr void __cordl_internal_set_postPlayback(::UnityEngine::Timeline::ActivationControlPlayable_PostPlaybackState value);
 
-  /// @brief Method .ctor, addr 0x482778c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a80e4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -240,7 +240,7 @@ public:
   ActivationControlPlayable(ActivationControlPlayable const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15869 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18863 };
 
   /// @brief Field gameObject, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::GameObject> ___gameObject;

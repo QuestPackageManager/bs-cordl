@@ -6,8 +6,6 @@ CORDL_MODULE_INIT
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationBase_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__AsyncOperationHandle_1_def.hpp"
 #include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__DownloadStatus_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__ICachable_def.hpp"
-#include "UnityEngine/ResourceManagement/AsyncOperations/zzzz__IGenericProviderOperation_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
@@ -20,12 +18,6 @@ template <typename T> class IList_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class List_1;
-}
-namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
-template <typename T1, typename T2, typename T3, typename T4> class Action_4;
 }
 namespace System {
 class Exception;
@@ -48,6 +40,12 @@ struct AsyncOperationHandle;
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 struct DownloadStatus;
 }
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class ICachable;
+}
+namespace UnityEngine::ResourceManagement::AsyncOperations {
+class IGenericProviderOperation;
+}
 namespace UnityEngine::ResourceManagement::ResourceLocations {
 class IResourceLocation;
 }
@@ -67,7 +65,7 @@ template <typename TObject> class ProviderOperation_1;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::ResourceManagement::AsyncOperations::ProviderOperation_1);
 // Dependencies UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationBase`1<TObject>, UnityEngine.ResourceManagement.AsyncOperations.AsyncOperationHandle`1<TObject>,
-// UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus, UnityEngine.ResourceManagement.AsyncOperations.ICachable, UnityEngine.ResourceManagement.AsyncOperations.IGenericProviderOperation
+// UnityEngine.ResourceManagement.AsyncOperations.DownloadStatus
 namespace UnityEngine::ResourceManagement::AsyncOperations {
 // cpp template
 template <typename TObject>
@@ -93,56 +91,48 @@ public:
       put =
           UnityEngine_ResourceManagement_AsyncOperations_ICachable_set_Key)) ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key;
 
-  /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset 0x120, size 0x8
+  /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset 0x108, size 0x8
   __declspec(property(get = __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField,
                       put = __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField)) ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*
       _UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 
-  /// @brief Field m_CompletionCallback, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CompletionCallback,
-                      put = __cordl_internal_set_m_CompletionCallback)) ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* m_CompletionCallback;
-
-  /// @brief Field m_DepOp, offset 0xf0, size 0x20
+  /// @brief Field m_DepOp, offset 0xe0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_DepOp, put = __cordl_internal_set_m_DepOp)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       m_DepOp;
 
-  /// @brief Field m_DownloadStatus, offset 0xd0, size 0x18
+  /// @brief Field m_DownloadStatus, offset 0xc0, size 0x18
   __declspec(property(get = __cordl_internal_get_m_DownloadStatus, put = __cordl_internal_set_m_DownloadStatus)) ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus m_DownloadStatus;
 
-  /// @brief Field m_GetDepCallback, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_GetDepCallback,
-                      put = __cordl_internal_set_m_GetDepCallback)) ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* m_GetDepCallback;
-
-  /// @brief Field m_GetDownloadProgressCallback, offset 0xb8, size 0x8
+  /// @brief Field m_GetDownloadProgressCallback, offset 0xa8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GetDownloadProgressCallback,
                       put = __cordl_internal_set_m_GetDownloadProgressCallback)) ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* m_GetDownloadProgressCallback;
 
-  /// @brief Field m_GetProgressCallback, offset 0xb0, size 0x8
+  /// @brief Field m_GetProgressCallback, offset 0xa0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_GetProgressCallback, put = __cordl_internal_set_m_GetProgressCallback)) ::System::Func_1<float_t>* m_GetProgressCallback;
 
-  /// @brief Field m_Location, offset 0x110, size 0x8
+  /// @brief Field m_Location, offset 0xf8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Location, put = __cordl_internal_set_m_Location)) ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* m_Location;
 
-  /// @brief Field m_NeedsRelease, offset 0x11c, size 0x1
+  /// @brief Field m_NeedsRelease, offset 0x104, size 0x1
   __declspec(property(get = __cordl_internal_get_m_NeedsRelease, put = __cordl_internal_set_m_NeedsRelease)) bool m_NeedsRelease;
 
-  /// @brief Field m_ProvideHandleVersion, offset 0x118, size 0x4
+  /// @brief Field m_ProvideHandleVersion, offset 0x100, size 0x4
   __declspec(property(get = __cordl_internal_get_m_ProvideHandleVersion, put = __cordl_internal_set_m_ProvideHandleVersion)) int32_t m_ProvideHandleVersion;
 
-  /// @brief Field m_Provider, offset 0xe8, size 0x8
+  /// @brief Field m_Provider, offset 0xd8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Provider, put = __cordl_internal_set_m_Provider)) ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* m_Provider;
 
-  /// @brief Field m_ProviderCompletedCalled, offset 0xc8, size 0x1
+  /// @brief Field m_ProviderCompletedCalled, offset 0xb8, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ProviderCompletedCalled, put = __cordl_internal_set_m_ProviderCompletedCalled)) bool m_ProviderCompletedCalled;
 
   /// @brief Field m_ReleaseDependenciesOnFailure, offset 0x98, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ReleaseDependenciesOnFailure, put = __cordl_internal_set_m_ReleaseDependenciesOnFailure)) bool m_ReleaseDependenciesOnFailure;
 
-  /// @brief Field m_ResourceManager, offset 0x128, size 0x8
+  /// @brief Field m_ResourceManager, offset 0x110, size 0x8
   __declspec(property(get = __cordl_internal_get_m_ResourceManager, put = __cordl_internal_set_m_ResourceManager)) ::UnityEngine::ResourceManagement::ResourceManager* m_ResourceManager;
 
-  /// @brief Field m_WaitForCompletionCallback, offset 0xc0, size 0x8
+  /// @brief Field m_WaitForCompletionCallback, offset 0xb0, size 0x8
   __declspec(property(get = __cordl_internal_get_m_WaitForCompletionCallback, put = __cordl_internal_set_m_WaitForCompletionCallback)) ::System::Func_1<bool>* m_WaitForCompletionCallback;
 
   /// @brief Convert operator to "::UnityEngine::ResourceManagement::AsyncOperations::ICachable"
@@ -217,10 +207,6 @@ public:
 
   constexpr ::UnityEngine::ResourceManagement::Util::IOperationCacheKey*& __cordl_internal_get__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField();
 
-  constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* const& __cordl_internal_get_m_CompletionCallback() const;
-
-  constexpr ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>*& __cordl_internal_get_m_CompletionCallback();
-
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<
       ::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*> const&
   __cordl_internal_get_m_DepOp() const;
@@ -232,10 +218,6 @@ public:
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus const& __cordl_internal_get_m_DownloadStatus() const;
 
   constexpr ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus& __cordl_internal_get_m_DownloadStatus();
-
-  constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* const& __cordl_internal_get_m_GetDepCallback() const;
-
-  constexpr ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>*& __cordl_internal_get_m_GetDepCallback();
 
   constexpr ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* const& __cordl_internal_get_m_GetDownloadProgressCallback() const;
 
@@ -279,15 +261,11 @@ public:
 
   constexpr void __cordl_internal_set__UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField(::UnityEngine::ResourceManagement::Util::IOperationCacheKey* value);
 
-  constexpr void __cordl_internal_set_m_CompletionCallback(::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* value);
-
   constexpr void __cordl_internal_set_m_DepOp(
       ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
           value);
 
   constexpr void __cordl_internal_set_m_DownloadStatus(::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus value);
-
-  constexpr void __cordl_internal_set_m_GetDepCallback(::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* value);
 
   constexpr void __cordl_internal_set_m_GetDownloadProgressCallback(::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* value);
 
@@ -351,7 +329,7 @@ public:
   ProviderOperation_1(ProviderOperation_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15709 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18777 };
 
   /// @brief Field kInvalidHandleMsg offset 0xffffffff size 0x8
   static constexpr ::ConstString kInvalidHandleMsg{ u"The ProvideHandle is invalid. After the handle has been completed, it can no longer be used" };
@@ -362,47 +340,41 @@ public:
   /// @brief Field m_ReleaseDependenciesOnFailure, offset: 0x98, size: 0x1, def value: None
   bool ___m_ReleaseDependenciesOnFailure;
 
-  /// @brief Field m_CompletionCallback, offset: 0xa0, size: 0x8, def value: None
-  ::System::Action_4<int32_t, ::System::Object*, bool, ::System::Exception*>* ___m_CompletionCallback;
-
-  /// @brief Field m_GetDepCallback, offset: 0xa8, size: 0x8, def value: None
-  ::System::Action_2<int32_t, ::System::Collections::Generic::IList_1<::System::Object*>*>* ___m_GetDepCallback;
-
-  /// @brief Field m_GetProgressCallback, offset: 0xb0, size: 0x8, def value: None
+  /// @brief Field m_GetProgressCallback, offset: 0xa0, size: 0x8, def value: None
   ::System::Func_1<float_t>* ___m_GetProgressCallback;
 
-  /// @brief Field m_GetDownloadProgressCallback, offset: 0xb8, size: 0x8, def value: None
+  /// @brief Field m_GetDownloadProgressCallback, offset: 0xa8, size: 0x8, def value: None
   ::System::Func_1<::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus>* ___m_GetDownloadProgressCallback;
 
-  /// @brief Field m_WaitForCompletionCallback, offset: 0xc0, size: 0x8, def value: None
+  /// @brief Field m_WaitForCompletionCallback, offset: 0xb0, size: 0x8, def value: None
   ::System::Func_1<bool>* ___m_WaitForCompletionCallback;
 
-  /// @brief Field m_ProviderCompletedCalled, offset: 0xc8, size: 0x1, def value: None
+  /// @brief Field m_ProviderCompletedCalled, offset: 0xb8, size: 0x1, def value: None
   bool ___m_ProviderCompletedCalled;
 
-  /// @brief Field m_DownloadStatus, offset: 0xd0, size: 0x18, def value: None
+  /// @brief Field m_DownloadStatus, offset: 0xc0, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::DownloadStatus ___m_DownloadStatus;
 
-  /// @brief Field m_Provider, offset: 0xe8, size: 0x8, def value: None
+  /// @brief Field m_Provider, offset: 0xd8, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceProviders::IResourceProvider* ___m_Provider;
 
-  /// @brief Field m_DepOp, offset: 0xf0, size: 0x20, def value: None
+  /// @brief Field m_DepOp, offset: 0xe0, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle>*>
       ___m_DepOp;
 
-  /// @brief Field m_Location, offset: 0x110, size: 0x8, def value: None
+  /// @brief Field m_Location, offset: 0xf8, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation* ___m_Location;
 
-  /// @brief Field m_ProvideHandleVersion, offset: 0x118, size: 0x4, def value: None
+  /// @brief Field m_ProvideHandleVersion, offset: 0x100, size: 0x4, def value: None
   int32_t ___m_ProvideHandleVersion;
 
-  /// @brief Field m_NeedsRelease, offset: 0x11c, size: 0x1, def value: None
+  /// @brief Field m_NeedsRelease, offset: 0x104, size: 0x1, def value: None
   bool ___m_NeedsRelease;
 
-  /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset: 0x120, size: 0x8, def value: None
+  /// @brief Field <UnityEngine.ResourceManagement.AsyncOperations.ICachable.Key>k__BackingField, offset: 0x108, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::Util::IOperationCacheKey* ____UnityEngine_ResourceManagement_AsyncOperations_ICachable_Key_k__BackingField;
 
-  /// @brief Field m_ResourceManager, offset: 0x128, size: 0x8, def value: None
+  /// @brief Field m_ResourceManager, offset: 0x110, size: 0x8, def value: None
   ::UnityEngine::ResourceManagement::ResourceManager* ___m_ResourceManager;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

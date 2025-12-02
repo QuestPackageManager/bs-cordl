@@ -68,7 +68,7 @@ public:
   static ::BGLib::UnityExtension::InfoBoxAttribute_Type const Warning;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17175 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20704 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -93,10 +93,10 @@ public:
   // Declarations
   using Type = ::BGLib::UnityExtension::InfoBoxAttribute_Type;
 
-  /// @brief Field info, offset 0x10, size 0x8
+  /// @brief Field info, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_info, put = __cordl_internal_set_info)) ::StringW info;
 
-  /// @brief Field messageType, offset 0x18, size 0x4
+  /// @brief Field messageType, offset 0x20, size 0x4
   __declspec(property(get = __cordl_internal_get_messageType, put = __cordl_internal_set_messageType)) ::BGLib::UnityExtension::InfoBoxAttribute_Type messageType;
 
   static inline ::BGLib::UnityExtension::InfoBoxAttribute* New_ctor(::StringW info, ::BGLib::UnityExtension::InfoBoxAttribute_Type messageType);
@@ -113,7 +113,7 @@ public:
 
   constexpr void __cordl_internal_set_messageType(::BGLib::UnityExtension::InfoBoxAttribute_Type value);
 
-  /// @brief Method .ctor, addr 0x22b740c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fe4fc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW info, ::BGLib::UnityExtension::InfoBoxAttribute_Type messageType);
 
 protected:
@@ -131,22 +131,22 @@ public:
   InfoBoxAttribute(InfoBoxAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17176 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20705 };
 
-  /// @brief Field info, offset: 0x10, size: 0x8, def value: None
+  /// @brief Field info, offset: 0x18, size: 0x8, def value: None
   ::StringW ___info;
 
-  /// @brief Field messageType, offset: 0x18, size: 0x4, def value: None
+  /// @brief Field messageType, offset: 0x20, size: 0x4, def value: None
   ::BGLib::UnityExtension::InfoBoxAttribute_Type ___messageType;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::BGLib::UnityExtension::InfoBoxAttribute, ___info) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::InfoBoxAttribute, ___info) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::BGLib::UnityExtension::InfoBoxAttribute, ___messageType) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::BGLib::UnityExtension::InfoBoxAttribute, ___messageType) == 0x20, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::InfoBoxAttribute, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::BGLib::UnityExtension::InfoBoxAttribute, 0x28>, "Size mismatch!");
 
 } // namespace BGLib::UnityExtension
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::UnityExtension::InfoBoxAttribute_Type, "BGLib.UnityExtension", "InfoBoxAttribute/Type");

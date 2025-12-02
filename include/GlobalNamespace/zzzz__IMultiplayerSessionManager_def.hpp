@@ -7,9 +7,6 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IMultiplayerSessionManager)
 namespace GlobalNamespace {
-class ConnectedPlayerManager;
-}
-namespace GlobalNamespace {
 struct ConnectionFailedReason;
 }
 namespace GlobalNamespace {
@@ -18,15 +15,6 @@ struct DisconnectedReason;
 namespace GlobalNamespace {
 class IConnectedPlayer;
 }
-namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSubSerializer_1;
-}
-namespace GlobalNamespace {
-struct MultiplayerSessionManager_MessageType;
-}
-namespace GlobalNamespace {
-struct MultiplayerSessionManager_SessionType;
-}
 namespace System::Collections::Generic {
 template <typename T> class IReadOnlyList_1;
 }
@@ -34,13 +22,7 @@ namespace System {
 template <typename T> class Action_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
-}
-namespace System {
 class Action;
-}
-namespace System {
-template <typename TResult> class Func_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -99,15 +81,6 @@ public:
   /// @brief Method LocalPlayerHasState, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool LocalPlayerHasState(::StringW state);
 
-  /// @brief Method RegisterCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T>
-  inline void RegisterCallback(::GlobalNamespace::MultiplayerSessionManager_MessageType serializerType, ::System::Action_2<T, ::GlobalNamespace::IConnectedPlayer*>* callback,
-                               ::System::Func_1<T>* constructor);
-
-  /// @brief Method RegisterSerializer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void RegisterSerializer(::GlobalNamespace::MultiplayerSessionManager_MessageType serializerType,
-                                 ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
-
   /// @brief Method Send, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   template <typename T> inline void Send(T message);
 
@@ -131,16 +104,6 @@ public:
 
   /// @brief Method SetMaxPlayerCount, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void SetMaxPlayerCount(int32_t maxPlayerCount);
-
-  /// @brief Method StartSession, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void StartSession(::GlobalNamespace::MultiplayerSessionManager_SessionType sessionType, ::GlobalNamespace::ConnectedPlayerManager* connectedPlayerManager);
-
-  /// @brief Method UnregisterCallback, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  template <typename T> inline void UnregisterCallback(::GlobalNamespace::MultiplayerSessionManager_MessageType serializerType);
-
-  /// @brief Method UnregisterSerializer, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void UnregisterSerializer(::GlobalNamespace::MultiplayerSessionManager_MessageType serializerType,
-                                   ::GlobalNamespace::INetworkPacketSubSerializer_1<::GlobalNamespace::IConnectedPlayer*>* subSerializer);
 
   /// @brief Method add_connectedEvent, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void add_connectedEvent(::System::Action* value);
@@ -240,7 +203,7 @@ public:
   IMultiplayerSessionManager(IMultiplayerSessionManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14805 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18141 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

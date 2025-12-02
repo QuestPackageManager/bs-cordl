@@ -95,22 +95,22 @@ template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_
                                                                              "ReadDefaultValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromState(::cordl_internals::Ptr<void> statePtr) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ReadValueFromState", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromState(void* statePtr) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ReadValueFromState",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, statePtr);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromStateWithCaching(::cordl_internals::Ptr<void> statePtr) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ReadValueFromStateWithCaching", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromStateWithCaching(void* statePtr) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ReadValueFromStateWithCaching",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, statePtr);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadUnprocessedValueFromStateWithCaching(::cordl_internals::Ptr<void> statePtr) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ReadUnprocessedValueFromStateWithCaching",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadUnprocessedValueFromStateWithCaching(void* statePtr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), "ReadUnprocessedValueFromStateWithCaching",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, statePtr);
 }
 template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadUnprocessedValue() {
@@ -118,39 +118,37 @@ template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_
                                                                              "ReadUnprocessedValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method);
 }
-template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+template <typename TValue> inline TValue UnityEngine::InputSystem::InputControl_1<TValue>::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<TValue, false>(this, ___internal_method, statePtr);
 }
-template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromStateAsObject(::cordl_internals::Ptr<void> statePtr) {
+template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromStateAsObject(void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 8)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, statePtr);
 }
-template <typename TValue>
-inline void UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromStateIntoBuffer(::cordl_internals::Ptr<void> statePtr, ::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize) {
+template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromStateIntoBuffer(void* statePtr, void* bufferPtr, int32_t bufferSize) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, statePtr, bufferPtr, bufferSize);
 }
-template <typename TValue>
-inline void UnityEngine::InputSystem::InputControl_1<TValue>::WriteValueFromBufferIntoState(::cordl_internals::Ptr<void> bufferPtr, int32_t bufferSize, ::cordl_internals::Ptr<void> statePtr) {
+template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::WriteValueFromBufferIntoState(void* bufferPtr, int32_t bufferSize, void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 10)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, bufferPtr, bufferSize, statePtr);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::WriteValueFromObjectIntoState(::System::Object* value, ::cordl_internals::Ptr<void> statePtr) {
+template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::WriteValueFromObjectIntoState(::System::Object* value, void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);
 }
-template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::WriteValueIntoState(TValue value, ::cordl_internals::Ptr<void> statePtr) {
+template <typename TValue> inline void UnityEngine::InputSystem::InputControl_1<TValue>::WriteValueIntoState(TValue value, void* statePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 18)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, statePtr);
 }
-template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromBufferAsObject(::cordl_internals::Ptr<void> buffer, int32_t bufferSize) {
+template <typename TValue> inline ::System::Object* UnityEngine::InputSystem::InputControl_1<TValue>::ReadValueFromBufferAsObject(void* buffer, int32_t bufferSize) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 7)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, buffer, bufferSize);
@@ -162,7 +160,7 @@ template <typename TValue> inline bool UnityEngine::InputSystem::InputControl_1<
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<TValue>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, firstValue, secondValue);
 }
-template <typename TValue> inline bool UnityEngine::InputSystem::InputControl_1<TValue>::CompareValue(::cordl_internals::Ptr<void> firstStatePtr, ::cordl_internals::Ptr<void> secondStatePtr) {
+template <typename TValue> inline bool UnityEngine::InputSystem::InputControl_1<TValue>::CompareValue(void* firstStatePtr, void* secondStatePtr) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::InputControl_1<TValue>*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, firstStatePtr, secondStatePtr);

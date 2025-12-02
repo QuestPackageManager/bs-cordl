@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/zzzz__ISigner_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ISignerWithRecovery)
+namespace Org::BouncyCastle::Crypto {
+class ISigner;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto {
 class ISignerWithRecovery;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::ISignerWithRecovery);
-// Dependencies Org.BouncyCastle.Crypto.ISigner
+// Dependencies
 namespace Org::BouncyCastle::Crypto {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.ISignerWithRecovery

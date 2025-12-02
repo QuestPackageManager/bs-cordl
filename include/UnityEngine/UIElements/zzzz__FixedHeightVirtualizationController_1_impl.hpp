@@ -1,9 +1,23 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/FixedHeightVirtualizationController_1.hpp"
+#include "System/zzzz__Nullable_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__VerticalVirtualizationController_1_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__FixedHeightVirtualizationController_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseVerticalCollectionView_def.hpp"
+#include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
+template <typename T> constexpr ::System::Nullable_1<int32_t>& UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrolledToItemIndex() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScrolledToItemIndex;
+}
+template <typename T> constexpr ::System::Nullable_1<int32_t> const& UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::__cordl_internal_get_m_ScrolledToItemIndex() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_ScrolledToItemIndex;
+}
+template <typename T> constexpr void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::__cordl_internal_set_m_ScrolledToItemIndex(::System::Nullable_1<int32_t> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_ScrolledToItemIndex = value;
+}
 template <typename T> inline float_t UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::get_resolvedItemHeight() {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(),
@@ -13,7 +27,7 @@ template <typename T> inline float_t UnityEngine::UIElements::FixedHeightVirtual
 template <typename T> inline bool UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::VisibleItemPredicate(T i) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 20)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 21)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, i);
 }
 template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView) {
@@ -21,6 +35,12 @@ template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualiza
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::BaseVerticalCollectionView*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collectionView);
+}
+template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::OnGeometryChangedEvent(::UnityEngine::UIElements::GeometryChangedEvent* _) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), "OnGeometryChangedEvent",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::GeometryChangedEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, _);
 }
 template <typename T> inline int32_t UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::GetIndexFromPosition(::UnityEngine::Vector2 position) {
   auto* ___internal_method =
@@ -61,7 +81,7 @@ template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualiza
 template <typename T> inline T UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::GetOrMakeItemAtIndex(int32_t activeItemIndex, int32_t scrollViewIndex) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 22)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>*>::get(), 23)));
   return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method, activeItemIndex, scrollViewIndex);
 }
 template <typename T> inline void UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>::EndDrag(int32_t dropIndex) {

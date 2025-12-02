@@ -72,7 +72,7 @@ public:
                                                             ::ArrayW<::System::Type*, ::Array<::System::Type*>*> indexes,
                                                             ::ArrayW<::System::Reflection::ParameterModifier, ::Array<::System::Reflection::ParameterModifier>*> modifiers);
 
-  /// @brief Method .ctor, addr 0x3d21e70, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59670a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -90,7 +90,7 @@ public:
   Binder(Binder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3478 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

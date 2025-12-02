@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
-#include "UnityEngine/Playables/zzzz__IPlayable_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include <cstddef>
 CORDL_MODULE_EXPORT(AnimationMotionXToDeltaPlayable)
+namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace UnityEngine::Playables {
+class IPlayable;
+}
 namespace UnityEngine::Playables {
 struct PlayableGraph;
 }
@@ -23,7 +27,7 @@ struct AnimationMotionXToDeltaPlayable;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable);
-// Dependencies System.IEquatable`1<T>, UnityEngine.Playables.IPlayable, UnityEngine.Playables.PlayableHandle
+// Dependencies UnityEngine.Playables.PlayableHandle
 namespace UnityEngine::Animations {
 // Is value type: true
 // CS Name: UnityEngine.Animations.AnimationMotionXToDeltaPlayable
@@ -39,31 +43,31 @@ public:
   /// @brief Convert operator to "::UnityEngine::Playables::IPlayable"
   constexpr operator ::UnityEngine::Playables::IPlayable*();
 
-  /// @brief Method Create, addr 0x4855a3c, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method Create, addr 0x6810280, size 0x94, virtual false, abstract: false, final false
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable Create(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandle, addr 0x4855acc, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method CreateHandle, addr 0x6810314, size 0x10c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::PlayableHandle CreateHandle(::UnityEngine::Playables::PlayableGraph graph);
 
-  /// @brief Method CreateHandleInternal, addr 0x4855ca4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal, addr 0x6810534, size 0x90, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal(::UnityEngine::Playables::PlayableGraph graph, ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method CreateHandleInternal_Injected, addr 0x4855f20, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method CreateHandleInternal_Injected, addr 0x68107a8, size 0x44, virtual false, abstract: false, final false
   static inline bool CreateHandleInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::ByRef<::UnityEngine::Playables::PlayableHandle> handle);
 
-  /// @brief Method Equals, addr 0x4855dbc, size 0x9c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6810638, size 0xa4, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable other);
 
-  /// @brief Method GetHandle, addr 0x4855d30, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method GetHandle, addr 0x68105c4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::Playables::PlayableHandle GetHandle();
 
-  /// @brief Method SetAbsoluteMotion, addr 0x4855e58, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotion, addr 0x68106dc, size 0x88, virtual false, abstract: false, final false
   inline void SetAbsoluteMotion(bool value);
 
-  /// @brief Method SetAbsoluteMotionInternal, addr 0x4855edc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method SetAbsoluteMotionInternal, addr 0x6810764, size 0x44, virtual false, abstract: false, final false
   static inline void SetAbsoluteMotionInternal(::ByRef<::UnityEngine::Playables::PlayableHandle> handle, bool value);
 
-  /// @brief Method .ctor, addr 0x4855bb4, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6810420, size 0x114, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Playables::PlayableHandle handle);
 
   static inline ::UnityEngine::Animations::AnimationMotionXToDeltaPlayable getStaticF_m_NullPlayable();
@@ -74,7 +78,7 @@ public:
   /// @brief Convert to "::UnityEngine::Playables::IPlayable"
   constexpr ::UnityEngine::Playables::IPlayable* i___UnityEngine__Playables__IPlayable();
 
-  /// @brief Method op_Implicit, addr 0x4855d3c, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x68105d0, size 0x68, virtual false, abstract: false, final false
   static inline ::UnityEngine::Playables::Playable op_Implicit___UnityEngine__Playables__Playable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable playable);
 
   static inline void setStaticF_m_NullPlayable(::UnityEngine::Animations::AnimationMotionXToDeltaPlayable value);
@@ -87,7 +91,7 @@ public:
   constexpr AnimationMotionXToDeltaPlayable(::UnityEngine::Playables::PlayableHandle m_Handle) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16901 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19992 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

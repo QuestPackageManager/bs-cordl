@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutInfo::*)()>(&::GlobalNamespace::NoteCutInfo::get_allIsOK)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2721f80;
+  constexpr static std::size_t addrs = 0x3651250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfo>::get(), "get_allIsOK",
@@ -39,7 +39,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::NoteCutInfo::*)()>(&::GlobalNamespace::NoteCutInfo::get_allExceptSaberTypeIsOK)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x2721fb0;
+  constexpr static std::size_t addrs = 0x3651280;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfo>::get(),
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteCutInfo_FailReason (::GlobalNamespace::NoteCutInfo::*)()>(
     &::GlobalNamespace::NoteCutInfo::get_failReason)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x2721fd8;
+  constexpr static std::size_t addrs = 0x36512a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::NoteCutInfo>::get(), "get_failReason",
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::NoteData*, bool, bool, bool, bool, float_t, ::UnityEngine::Vector3, ::GlobalNamespace::SaberType, float_t, float_t, ::UnityEngine::Vector3, ::UnityEngine::Vector3, float_t,
     float_t, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::UnityEngine::Vector3, ::GlobalNamespace::ISaberMovementData*)>(
     &::GlobalNamespace::NoteCutInfo::_ctor)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x272201c;
+  constexpr static std::size_t size = 0x244;
+  constexpr static std::size_t addrs = 0x36512ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

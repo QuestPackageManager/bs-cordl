@@ -43,7 +43,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::get_IsAlive)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3aa890c;
+  constexpr static std::size_t addrs = 0x5681f70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "get_IsAlive",
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Start)> {
-  constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x3aa8920;
+  constexpr static std::size_t size = 0x3f0;
+  constexpr static std::size_t addrs = 0x5681f84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Start",
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::Stop)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3aa8eec;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x56825cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), "Stop",
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)(::System::Object*)>(&::IgnoranceCore::IgnoranceServer::ThreadWorker)> {
-  constexpr static std::size_t size = 0x11c0;
-  constexpr static std::size_t addrs = 0x3aa8f88;
+  constexpr static std::size_t size = 0x1494;
+  constexpr static std::size_t addrs = 0x5682670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::SetupRingBuffersIfNull)> {
-  constexpr static std::size_t size = 0x230;
-  constexpr static std::size_t addrs = 0x3aa8cbc;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x5682374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(),
@@ -108,8 +108,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::IgnoranceCore::IgnoranceServer::*)()>(&::IgnoranceCore::IgnoranceServer::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3aaa148;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5683b04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::IgnoranceCore::IgnoranceServer*>::get(), ".ctor",

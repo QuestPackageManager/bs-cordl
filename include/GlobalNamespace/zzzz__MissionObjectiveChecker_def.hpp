@@ -80,7 +80,7 @@ public:
   static ::GlobalNamespace::MissionObjectiveChecker_Status const NotFailedYet;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4470 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6050 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -143,7 +143,7 @@ public:
 
   static inline ::GlobalNamespace::MissionObjectiveChecker* New_ctor();
 
-  /// @brief Method SetCheckedMissionObjective, addr 0x3bb3b7c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method SetCheckedMissionObjective, addr 0x57a41d4, size 0x18, virtual false, abstract: false, final false
   inline void SetCheckedMissionObjective(::GlobalNamespace::MissionObjective* missionObjective);
 
   constexpr int32_t const& __cordl_internal_get__checkedValue() const;
@@ -188,43 +188,43 @@ public:
 
   constexpr void __cordl_internal_set_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method .ctor, addr 0x3bb31c0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a36e0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_checkedValueDidChangeEvent, addr 0x3bb39e8, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_checkedValueDidChangeEvent, addr 0x57a4024, size 0xc0, virtual false, abstract: false, final false
   inline void add_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method add_statusDidChangeEvent, addr 0x3bb3888, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_statusDidChangeEvent, addr 0x57a3ea4, size 0xc0, virtual false, abstract: false, final false
   inline void add_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method get_checkedValue, addr 0x3bb3b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_checkedValue, addr 0x57a41cc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_checkedValue();
 
-  /// @brief Method get_disableChecking, addr 0x3bb3b58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disableChecking, addr 0x57a41b4, size 0x8, virtual false, abstract: false, final false
   inline bool get_disableChecking();
 
-  /// @brief Method get_missionObjective, addr 0x3bb3b50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjective, addr 0x57a41ac, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjective* get_missionObjective();
 
-  /// @brief Method get_missionObjectiveType, addr 0x3bb3b48, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_missionObjectiveType, addr 0x57a41a4, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> get_missionObjectiveType();
 
-  /// @brief Method get_status, addr 0x3bb3b6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_status, addr 0x57a41c4, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::MissionObjectiveChecker_Status get_status();
 
-  /// @brief Method remove_checkedValueDidChangeEvent, addr 0x3bb3a98, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_checkedValueDidChangeEvent, addr 0x57a40e4, size 0xc0, virtual false, abstract: false, final false
   inline void remove_checkedValueDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method remove_statusDidChangeEvent, addr 0x3bb3938, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_statusDidChangeEvent, addr 0x57a3f64, size 0xc0, virtual false, abstract: false, final false
   inline void remove_statusDidChangeEvent(::System::Action_1<::UnityW<::GlobalNamespace::MissionObjectiveChecker>>* value);
 
-  /// @brief Method set_checkedValue, addr 0x3bb2ad0, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_checkedValue, addr 0x57a2f04, size 0x3c, virtual false, abstract: false, final false
   inline void set_checkedValue(int32_t value);
 
-  /// @brief Method set_disableChecking, addr 0x3bb3b60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_disableChecking, addr 0x57a41bc, size 0x8, virtual false, abstract: false, final false
   inline void set_disableChecking(bool value);
 
-  /// @brief Method set_status, addr 0x3bb2978, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method set_status, addr 0x57a2d94, size 0x3c, virtual false, abstract: false, final false
   inline void set_status(::GlobalNamespace::MissionObjectiveChecker_Status value);
 
 protected:
@@ -242,7 +242,7 @@ public:
   MissionObjectiveChecker(MissionObjectiveChecker const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4471 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6051 };
 
   /// @brief Field _missionObjectiveType, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionObjectiveTypeSO> ____missionObjectiveType;

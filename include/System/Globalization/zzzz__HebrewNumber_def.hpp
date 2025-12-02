@@ -116,7 +116,7 @@ public:
   static ::System::Globalization::HebrewNumber_HebrewToken const SingleQuote;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3681 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3601 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -139,7 +139,7 @@ namespace System::Globalization {
 struct CORDL_TYPE HebrewNumber_HebrewValue {
 public:
   // Declarations
-  /// @brief Method .ctor, addr 0x3d934d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59a6cb8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Globalization::HebrewNumber_HebrewToken token, int16_t value);
 
   // Ctor Parameters []
@@ -151,7 +151,7 @@ public:
   constexpr HebrewNumber_HebrewValue(::System::Globalization::HebrewNumber_HebrewToken token, int16_t value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3682 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3602 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -276,7 +276,7 @@ public:
   static ::System::Globalization::HebrewNumber_HS const X0_DQ;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3683 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3603 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -321,13 +321,13 @@ public:
                       put = setStaticF_s_numberPasingState)) ::ArrayW<::System::Globalization::HebrewNumber_HS, ::Array<::System::Globalization::HebrewNumber_HS>*>
       s_numberPasingState;
 
-  /// @brief Method IsDigit, addr 0x3d91114, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsDigit, addr 0x59a6920, size 0xd8, virtual false, abstract: false, final false
   static inline bool IsDigit(char16_t ch);
 
-  /// @brief Method ParseByChar, addr 0x3d911f0, size 0x198, virtual false, abstract: false, final false
+  /// @brief Method ParseByChar, addr 0x59a6780, size 0x1a0, virtual false, abstract: false, final false
   static inline ::System::Globalization::HebrewNumberParsingState ParseByChar(char16_t ch, ::ByRef<::System::Globalization::HebrewNumberParsingContext> context);
 
-  /// @brief Method ToString, addr 0x3d92fa0, size 0x284, virtual false, abstract: false, final false
+  /// @brief Method ToString, addr 0x59a64d8, size 0x2a8, virtual false, abstract: false, final false
   static inline ::StringW ToString(int32_t Number);
 
   static inline ::ArrayW<::System::Globalization::HebrewNumber_HebrewValue, ::Array<::System::Globalization::HebrewNumber_HebrewValue>*> getStaticF_s_hebrewValues();
@@ -357,7 +357,7 @@ public:
   HebrewNumber(HebrewNumber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3684 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3604 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -40,7 +40,7 @@ public:
   inline TValue ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
 
   /// @brief Method ReadValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, ::cordl_internals::Ptr<void> buffer, int32_t bufferSize);
+  inline void ReadValue(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context, void* buffer, int32_t bufferSize);
 
   /// @brief Method ReadValueAsObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Object* ReadValueAsObject(::ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
@@ -69,7 +69,7 @@ public:
   InputBindingComposite_1(InputBindingComposite_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6596 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8649 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

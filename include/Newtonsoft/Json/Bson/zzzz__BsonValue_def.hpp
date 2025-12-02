@@ -49,13 +49,13 @@ public:
 
   constexpr void __cordl_internal_set__value(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3f52f5c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5b997c4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* value, ::Newtonsoft::Json::Bson::BsonType type);
 
-  /// @brief Method get_Type, addr 0x3f52f94, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Type, addr 0x5b997d8, size 0x8, virtual true, abstract: false, final false
   inline ::Newtonsoft::Json::Bson::BsonType get_Type();
 
-  /// @brief Method get_Value, addr 0x3f52f8c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5b997d0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
 protected:
@@ -73,7 +73,7 @@ public:
   BsonValue(BsonValue const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10515 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13669 };
 
   /// @brief Field _value, offset: 0x20, size: 0x8, def value: None
   ::System::Object* ____value;

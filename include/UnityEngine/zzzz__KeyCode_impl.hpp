@@ -148,6 +148,17 @@ constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Print{ static_cast<int32_
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::SysReq{ static_cast<int32_t>(0x13d) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Break{ static_cast<int32_t>(0x13e) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Menu{ static_cast<int32_t>(0x13f) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::WheelUp{ static_cast<int32_t>(0x141) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::WheelDown{ static_cast<int32_t>(0x142) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F16{ static_cast<int32_t>(0x29e) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F17{ static_cast<int32_t>(0x29f) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F18{ static_cast<int32_t>(0x2a0) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F19{ static_cast<int32_t>(0x2a1) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F20{ static_cast<int32_t>(0x2a2) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F21{ static_cast<int32_t>(0x2a3) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F22{ static_cast<int32_t>(0x2a4) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F23{ static_cast<int32_t>(0x2a5) };
+constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::F24{ static_cast<int32_t>(0x2a6) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Mouse0{ static_cast<int32_t>(0x143) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Mouse1{ static_cast<int32_t>(0x144) };
 constexpr ::UnityEngine::KeyCode UnityEngine::KeyCode::Mouse2{ static_cast<int32_t>(0x145) };

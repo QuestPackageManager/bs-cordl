@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorDynamicContext)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -19,6 +18,9 @@ namespace Zenject {
 class GameObjectContext;
 }
 namespace Zenject {
+class ISubContainerCreator;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -30,7 +32,7 @@ class SubContainerCreatorDynamicContext;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorDynamicContext);
-// Dependencies System.Object, Zenject.ISubContainerCreator
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.SubContainerCreatorDynamicContext
@@ -51,7 +53,7 @@ public:
   /// @brief Method CreateGameObject, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> CreateGameObject(::ByRef<bool> shouldMakeActive);
 
-  /// @brief Method CreateSubContainer, addr 0x4b43578, size 0xe4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x6c572b4, size 0xe8, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorDynamicContext* New_ctor(::Zenject::DiContainer* container);
@@ -62,10 +64,10 @@ public:
 
   constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
 
-  /// @brief Method .ctor, addr 0x4b41968, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c55774, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container);
 
-  /// @brief Method get_Container, addr 0x4b43570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Container, addr 0x6c572ac, size 0x8, virtual false, abstract: false, final false
   inline ::Zenject::DiContainer* get_Container();
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -86,7 +88,7 @@ public:
   SubContainerCreatorDynamicContext(SubContainerCreatorDynamicContext const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12637 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14618 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

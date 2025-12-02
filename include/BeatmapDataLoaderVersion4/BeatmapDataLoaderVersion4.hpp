@@ -18,7 +18,6 @@ module;
 #include "BeatmapDataLoaderVersion4/IndexFilterConverter.hpp"
 #include "BeatmapDataLoaderVersion4/LightColorBaseDataConverter.hpp"
 #include "BeatmapDataLoaderVersion4/LightColorEventBoxGroupConverter.hpp"
-#include "BeatmapDataLoaderVersion4/LightRotationBaseDataConverter.hpp"
 #include "BeatmapDataLoaderVersion4/LightRotationEventBoxGroupConverter.hpp"
 #include "BeatmapDataLoaderVersion4/LightTranslationBaseDataConverter.hpp"
 #include "BeatmapDataLoaderVersion4/LightTranslationEventBoxGroupConverter.hpp"

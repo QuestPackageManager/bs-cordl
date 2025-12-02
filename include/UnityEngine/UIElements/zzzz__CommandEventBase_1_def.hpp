@@ -4,9 +4,11 @@
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__EventBase_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__ICommandEvent_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(CommandEventBase_1)
+namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
 namespace UnityEngine {
 class Event;
 }
@@ -16,7 +18,7 @@ template <typename T> class CommandEventBase_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::CommandEventBase_1);
-// Dependencies UnityEngine.UIElements.EventBase`1<T>, UnityEngine.UIElements.ICommandEvent
+// Dependencies UnityEngine.UIElements.EventBase`1<T>
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -27,11 +29,11 @@ public:
   // Declarations
   __declspec(property(get = get_commandName, put = set_commandName)) ::StringW commandName;
 
-  /// @brief Field m_CommandName, offset 0x88, size 0x8
+  /// @brief Field m_CommandName, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get_m_CommandName, put = __cordl_internal_set_m_CommandName)) ::StringW m_CommandName;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::ICommandEvent"
-  constexpr operator ::UnityEngine::UIElements::ICommandEvent*() noexcept;
+  /// @brief Method Dispatch, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
 
   /// @brief Method GetPooled, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline T GetPooled(::StringW commandName);
@@ -59,9 +61,6 @@ public:
   /// @brief Method get_commandName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline ::StringW get_commandName();
 
-  /// @brief Convert to "::UnityEngine::UIElements::ICommandEvent"
-  constexpr ::UnityEngine::UIElements::ICommandEvent* i___UnityEngine__UIElements__ICommandEvent() noexcept;
-
   /// @brief Method set_commandName, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_commandName(::StringW value);
 
@@ -80,9 +79,9 @@ public:
   CommandEventBase_1(CommandEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5798 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4440 };
 
-  /// @brief Field m_CommandName, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field m_CommandName, offset: 0x68, size: 0x8, def value: None
   ::StringW ___m_CommandName;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

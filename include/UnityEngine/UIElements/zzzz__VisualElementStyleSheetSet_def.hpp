@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualElementStyleSheetSet)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -22,7 +24,7 @@ struct VisualElementStyleSheetSet;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::VisualElementStyleSheetSet);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.VisualElementStyleSheetSet
@@ -32,22 +34,22 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>*();
 
-  /// @brief Method Add, addr 0x49a0a70, size 0x1c4, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x6a983a8, size 0x1ec, virtual false, abstract: false, final false
   inline void Add(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method Equals, addr 0x49a0d70, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a98714, size 0xa8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x49a0d64, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a986e4, size 0x30, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::VisualElementStyleSheetSet other);
 
-  /// @brief Method GetHashCode, addr 0x49a0dec, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a987bc, size 0x18, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method Remove, addr 0x49a0c34, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x6a98594, size 0x150, virtual false, abstract: false, final false
   inline bool Remove(::UnityEngine::UIElements::StyleSheet* styleSheet);
 
-  /// @brief Method .ctor, addr 0x49a0a68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a983a0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::VisualElement* element);
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::VisualElementStyleSheetSet>"
@@ -61,7 +63,7 @@ public:
   constexpr VisualElementStyleSheetSet(::UnityEngine::UIElements::VisualElement* m_Element) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6332 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5248 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

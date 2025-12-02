@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af2fdc;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c09310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4af2fe4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c09314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)()>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::get_ParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af300c;
+  constexpr static std::size_t addrs = 0x6c0931c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,7 +53,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::*)(::StringW)>(
     &::JetBrains::Annotations::NotifyPropertyChangedInvocatorAttribute::set_ParameterName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4af3014;
+  constexpr static std::size_t addrs = 0x6c09324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

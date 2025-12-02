@@ -12,8 +12,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlIntAttributeDescription___c::*)()>(
     &::UnityEngine::UIElements::UxmlIntAttributeDescription___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4aa3168;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6a8a790;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UxmlIntAttributeDescription___c::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::UxmlIntAttributeDescription___c::_GetValueFromBag_b__3_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4aa3170;
+  constexpr static std::size_t addrs = 0x6a8a794;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UxmlIntAttributeDescription___c::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::UxmlIntAttributeDescription___c::_TryGetValueFromBag_b__4_0)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x4aa31b0;
+  constexpr static std::size_t addrs = 0x6a8a7d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UxmlIntAttributeDescription::*)()>(
     &::UnityEngine::UIElements::UxmlIntAttributeDescription::_ctor)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x4aa2d8c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6a8a31c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UxmlIntAttributeDescription*>::get(),
@@ -122,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::UxmlIntAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext)>(&::UnityEngine::UIElements::UxmlIntAttributeDescription::GetValueFromBag)> {
-  constexpr static std::size_t size = 0x14c;
-  constexpr static std::size_t addrs = 0x4aa2e24;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x6a8a3bc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -138,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UxmlIntAttributeDescription::*)(
     ::UnityEngine::UIElements::IUxmlAttributes*, ::UnityEngine::UIElements::CreationContext, ::ByRef<int32_t>)>(&::UnityEngine::UIElements::UxmlIntAttributeDescription::TryGetValueFromBag)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4aa2f70;
+  constexpr static std::size_t size = 0x1ac;
+  constexpr static std::size_t addrs = 0x6a8a554;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::StringW, int32_t)>(&::UnityEngine::UIElements::UxmlIntAttributeDescription::ConvertValueToInt)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4aa30d0;
+  constexpr static std::size_t addrs = 0x6a8a700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

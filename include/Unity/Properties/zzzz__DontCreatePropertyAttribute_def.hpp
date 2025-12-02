@@ -18,6 +18,11 @@ namespace Unity::Properties {
 class CORDL_TYPE DontCreatePropertyAttribute : public ::System::Attribute {
 public:
   // Declarations
+  static inline ::Unity::Properties::DontCreatePropertyAttribute* New_ctor();
+
+  /// @brief Method .ctor, addr 0x696a190, size 0x4, virtual false, abstract: false, final false
+  inline void _ctor();
+
 protected:
   // Ctor Parameters []
   // @brief default ctor
@@ -33,7 +38,7 @@ public:
   DontCreatePropertyAttribute(DontCreatePropertyAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17448 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19304 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

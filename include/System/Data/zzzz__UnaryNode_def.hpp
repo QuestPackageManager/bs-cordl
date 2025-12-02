@@ -46,39 +46,39 @@ public:
   /// @brief Field _right, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__right, put = __cordl_internal_set__right)) ::System::Data::ExpressionNode* _right;
 
-  /// @brief Method Bind, addr 0x417d670, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method Bind, addr 0x5e27f58, size 0x24, virtual true, abstract: false, final false
   inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
 
-  /// @brief Method DependsOn, addr 0x417df90, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method DependsOn, addr 0x5e287cc, size 0x20, virtual true, abstract: false, final false
   inline bool DependsOn(::System::Data::DataColumn* column);
 
-  /// @brief Method Eval, addr 0x417d698, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x5e27f7c, size 0x14, virtual true, abstract: false, final false
   inline ::System::Object* Eval();
 
-  /// @brief Method Eval, addr 0x417def0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x5e28740, size 0x1c, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
 
-  /// @brief Method Eval, addr 0x417d6ac, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method Eval, addr 0x5e27f90, size 0x40, virtual true, abstract: false, final false
   inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
 
-  /// @brief Method EvalUnaryOp, addr 0x417d6ec, size 0x804, virtual false, abstract: false, final false
+  /// @brief Method EvalUnaryOp, addr 0x5e27fd0, size 0x770, virtual false, abstract: false, final false
   inline ::System::Object* EvalUnaryOp(int32_t op, ::System::Object* vl);
 
-  /// @brief Method HasLocalAggregate, addr 0x417df50, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HasLocalAggregate, addr 0x5e28794, size 0x1c, virtual true, abstract: false, final false
   inline bool HasLocalAggregate();
 
-  /// @brief Method HasRemoteAggregate, addr 0x417df70, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method HasRemoteAggregate, addr 0x5e287b0, size 0x1c, virtual true, abstract: false, final false
   inline bool HasRemoteAggregate();
 
-  /// @brief Method IsConstant, addr 0x417df10, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsConstant, addr 0x5e2875c, size 0x1c, virtual true, abstract: false, final false
   inline bool IsConstant();
 
-  /// @brief Method IsTableConstant, addr 0x417df30, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method IsTableConstant, addr 0x5e28778, size 0x1c, virtual true, abstract: false, final false
   inline bool IsTableConstant();
 
   static inline ::System::Data::UnaryNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
 
-  /// @brief Method Optimize, addr 0x417dfb4, size 0xb8, virtual true, abstract: false, final false
+  /// @brief Method Optimize, addr 0x5e287ec, size 0xbc, virtual true, abstract: false, final false
   inline ::System::Data::ExpressionNode* Optimize();
 
   constexpr int32_t const& __cordl_internal_get__op() const;
@@ -93,7 +93,7 @@ public:
 
   constexpr void __cordl_internal_set__right(::System::Data::ExpressionNode* value);
 
-  /// @brief Method .ctor, addr 0x417d640, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e27f48, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
 
 protected:
@@ -111,7 +111,7 @@ public:
   UnaryNode(UnaryNode const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11440 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13798 };
 
   /// @brief Field _op, offset: 0x18, size: 0x4, def value: None
   int32_t ____op;

@@ -3,16 +3,20 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 CORDL_MODULE_EXPORT(IGrouping_2)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections {
+class IEnumerable;
+}
 // Forward declare root types
 namespace System::Linq {
 template <typename TKey, typename TElement> class IGrouping_2;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::IGrouping_2);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable
+// Dependencies
 namespace System::Linq {
 // cpp template
 template <typename TKey, typename TElement>
@@ -43,7 +47,7 @@ public:
   IGrouping_2(IGrouping_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13597 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16044 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EnvironmentLightGroups.hpp"
-#include "GlobalNamespace/zzzz__IEnvironmentLightGroups_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__EnvironmentLightGroups_def.hpp"
+#include "GlobalNamespace/zzzz__IEnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__ILightGroup_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroupSO_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
@@ -14,8 +14,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups___c::*)()>(&::GlobalNamespace::EnvironmentLightGroups___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26afce0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x35e1238;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightGroups___c*>::get(), ".ctor",
@@ -28,8 +28,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::EnvironmentLightGroups___c::*)(::GlobalNamespace::LightGroupSO*)>(
     &::GlobalNamespace::EnvironmentLightGroups___c::_Sort_b__9_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x26afce8;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x35e123c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::ILightGroup*>* (
     ::GlobalNamespace::EnvironmentLightGroups::*)()>(&::GlobalNamespace::EnvironmentLightGroups::get_lightGroups)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af8f4;
+  constexpr static std::size_t addrs = 0x35e0e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightGroups*>::get(),
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>* (
     ::GlobalNamespace::EnvironmentLightGroups::*)()>(&::GlobalNamespace::EnvironmentLightGroups::get_lightGroupSOList)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26af8fc;
+  constexpr static std::size_t addrs = 0x35e0e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightGroups*>::get(),
@@ -104,8 +104,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups::*)(
     ::System::Collections::Generic::List_1<::UnityW<::GlobalNamespace::LightGroupSO>>*)>(&::GlobalNamespace::EnvironmentLightGroups::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26af904;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35e0e84;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -119,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::ILightGroup* (::GlobalNamespace::EnvironmentLightGroups::*)(int32_t)>(
     &::GlobalNamespace::EnvironmentLightGroups::GetDataForGroup)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x26af92c;
+  constexpr static std::size_t size = 0x22c;
+  constexpr static std::size_t addrs = 0x35e0e8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,8 +133,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EnvironmentLightGroups::*)()>(&::GlobalNamespace::EnvironmentLightGroups::Sort)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x26afb64;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x35e10b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EnvironmentLightGroups*>::get(), "Sort",

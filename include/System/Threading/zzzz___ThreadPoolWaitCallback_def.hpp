@@ -18,7 +18,7 @@ namespace System::Threading {
 class CORDL_TYPE _ThreadPoolWaitCallback : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method PerformWaitCallback, addr 0x3e5a1e4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method PerformWaitCallback, addr 0x5a9f7f4, size 0x50, virtual false, abstract: false, final false
   static inline bool PerformWaitCallback();
 
 protected:
@@ -36,7 +36,7 @@ public:
   _ThreadPoolWaitCallback(_ThreadPoolWaitCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2739 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2749 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

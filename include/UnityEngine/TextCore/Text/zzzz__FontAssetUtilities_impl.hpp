@@ -9,24 +9,26 @@
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteAsset_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__SpriteCharacter_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextAsset_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextElement_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetCharacterFromFontAsset
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight,
-                                                  ::ByRef<bool>)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x492cc44;
+                                                  ::ByRef<bool>, bool)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset)> {
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x69ca3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAsset", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
+        ::std::array<Il2CppType const*, 7>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -35,42 +37,89 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight,
-                                                  ::ByRef<bool>)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset_Internal)> {
-  constexpr static std::size_t size = 0x448;
-  constexpr static std::size_t addrs = 0x492cd44;
+                                                  ::ByRef<bool>, bool)>(&::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset_Internal)> {
+  constexpr static std::size_t size = 0x570;
+  constexpr static std::size_t addrs = 0x69ca4bc;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(),
-                                                 "GetCharacterFromFontAsset_Internal", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAsset_Internal",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetCharacterFromFontAssets
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetCharacterFromFontAssetsInternal
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*,
-                                                  bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ::ByRef<bool>)>(
-    &::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssets)> {
-  constexpr static std::size_t size = 0x1b0;
-  constexpr static std::size_t addrs = 0x492d194;
+                                                  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, bool, ::UnityEngine::TextCore::Text::FontStyles,
+                                                  ::UnityEngine::TextCore::Text::TextFontWeight, ::ByRef<bool>, bool)>(
+    &::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssetsInternal)> {
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x69caa34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAssets", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAssetsInternal",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 9>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetCharacterFromFontAssetsInternal
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::UnityEngine::TextCore::Text::Character* (*)(uint32_t, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*, bool,
+                                                              ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ::ByRef<bool>, bool)>(
+        &::UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssetsInternal)> {
+  constexpr static std::size_t size = 0x1e4;
+  constexpr static std::size_t addrs = 0x69cab9c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAssetsInternal",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::TextCore::Text::FontAssetUtilities.GetTextElementFromTextAssets
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
+    ::UnityEngine::TextCore::Text::TextElement* (*)(uint32_t, ::UnityEngine::TextCore::Text::FontAsset*, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*,
+                                                    bool, ::UnityEngine::TextCore::Text::FontStyles, ::UnityEngine::TextCore::Text::TextFontWeight, ::ByRef<bool>, bool)>(
+    &::UnityEngine::TextCore::Text::FontAssetUtilities::GetTextElementFromTextAssets)> {
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x69cad80;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetTextElementFromTextAssets", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 8>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -79,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::SpriteCharacter* (*)(uint32_t, ::UnityEngine::TextCore::Text::SpriteAsset*, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset)> {
-  constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x492d344;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x69cb240;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -97,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::TextCore::Text::SpriteCharacter* (*)(uint32_t, ::UnityEngine::TextCore::Text::SpriteAsset*, bool)>(
     &::UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset_Internal)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x492d604;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x69cb060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -122,41 +171,74 @@ inline ::System::Collections::Generic::HashSet_1<int32_t>* UnityEngine::TextCore
 inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset,
                                                                                                                             bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
                                                                                                                             ::UnityEngine::TextCore::Text::TextFontWeight fontWeight,
-                                                                                                                            ::ByRef<bool> isAlternativeTypeface) {
+                                                                                                                            ::ByRef<bool> isAlternativeTypeface, bool populateLigatures) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAsset", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
+      ::std::array<Il2CppType const*, 7>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::Character*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight,
-                                                                                               isAlternativeTypeface);
+                                                                                               isAlternativeTypeface, populateLigatures);
 }
 inline ::UnityEngine::TextCore::Text::Character*
 UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAsset_Internal(uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset, bool includeFallbacks,
                                                                                     ::UnityEngine::TextCore::Text::FontStyles fontStyle, ::UnityEngine::TextCore::Text::TextFontWeight fontWeight,
-                                                                                    ::ByRef<bool> isAlternativeTypeface) {
+                                                                                    ::ByRef<bool> isAlternativeTypeface, bool populateLigatures) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAsset_Internal", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::Character*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight,
-                                                                                               isAlternativeTypeface);
-}
-inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssets(
-    uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets,
-    bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle, ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAssets", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 7>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::Character*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, includeFallbacks, fontStyle, fontWeight,
+                                                                                               isAlternativeTypeface, populateLigatures);
+}
+inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssetsInternal(
+    uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets,
+    ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* OSFallbackList, bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle,
+    ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface, bool populateLigatures) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAssetsInternal", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 9>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::Character*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, fontAssets, includeFallbacks, fontStyle,
-                                                                                               fontWeight, isAlternativeTypeface);
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::Character*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, fontAssets, OSFallbackList, includeFallbacks,
+                                                                                               fontStyle, fontWeight, isAlternativeTypeface, populateLigatures);
+}
+inline ::UnityEngine::TextCore::Text::Character* UnityEngine::TextCore::Text::FontAssetUtilities::GetCharacterFromFontAssetsInternal(
+    uint32_t unicode, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>* fontAssets, bool includeFallbacks,
+    ::UnityEngine::TextCore::Text::FontStyles fontStyle, ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface, bool populateLigatures) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetCharacterFromFontAssetsInternal", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::FontAsset>>*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::Character*, false>(nullptr, ___internal_method, unicode, fontAssets, includeFallbacks, fontStyle, fontWeight,
+                                                                                               isAlternativeTypeface, populateLigatures);
+}
+inline ::UnityEngine::TextCore::Text::TextElement* UnityEngine::TextCore::Text::FontAssetUtilities::GetTextElementFromTextAssets(
+    uint32_t unicode, ::UnityEngine::TextCore::Text::FontAsset* sourceFontAsset, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>* textAssets,
+    bool includeFallbacks, ::UnityEngine::TextCore::Text::FontStyles fontStyle, ::UnityEngine::TextCore::Text::TextFontWeight fontWeight, ::ByRef<bool> isAlternativeTypeface, bool populateLigatures) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::FontAssetUtilities*>::get(), "GetTextElementFromTextAssets", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 8>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontAsset*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::TextCore::Text::TextAsset>>*>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::FontStyles>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextCore::Text::TextFontWeight>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<bool>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::TextCore::Text::TextElement*, false>(nullptr, ___internal_method, unicode, sourceFontAsset, textAssets, includeFallbacks, fontStyle,
+                                                                                                 fontWeight, isAlternativeTypeface, populateLigatures);
 }
 inline ::UnityEngine::TextCore::Text::SpriteCharacter*
 UnityEngine::TextCore::Text::FontAssetUtilities::GetSpriteCharacterFromSpriteAsset(uint32_t unicode, ::UnityEngine::TextCore::Text::SpriteAsset* spriteAsset, bool includeFallbacks) {

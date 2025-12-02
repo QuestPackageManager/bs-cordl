@@ -3,12 +3,16 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadBlockCipher_def.hpp"
-#include "Org/BouncyCastle/Crypto/Modes/zzzz__IAeadCipher_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(OcbBlockCipher)
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadBlockCipher;
+}
+namespace Org::BouncyCastle::Crypto::Modes {
+class IAeadCipher;
+}
 namespace Org::BouncyCastle::Crypto {
 class IBlockCipher;
 }
@@ -24,7 +28,7 @@ class OcbBlockCipher;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher);
-// Dependencies Org.BouncyCastle.Crypto.Modes.IAeadBlockCipher, Org.BouncyCastle.Crypto.Modes.IAeadCipher, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Modes {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Modes.OcbBlockCipher
@@ -105,78 +109,78 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Modes::IAeadCipher"
   constexpr operator ::Org::BouncyCastle::Crypto::Modes::IAeadCipher*() noexcept;
 
-  /// @brief Method Clear, addr 0x23ae7c0, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x32dc91c, size 0x1c, virtual true, abstract: false, final false
   inline void Clear(::ArrayW<uint8_t, ::Array<uint8_t>*> bs);
 
-  /// @brief Method DoFinal, addr 0x23ae2f0, size 0x404, virtual true, abstract: false, final false
+  /// @brief Method DoFinal, addr 0x32dc43c, size 0x414, virtual true, abstract: false, final false
   inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method GetBlockSize, addr 0x23adf88, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetBlockSize, addr 0x32dc0a0, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetBlockSize();
 
-  /// @brief Method GetLSub, addr 0x23ae7dc, size 0x2cc, virtual true, abstract: false, final false
+  /// @brief Method GetLSub, addr 0x32dc938, size 0x2dc, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetLSub(int32_t n);
 
-  /// @brief Method GetMac, addr 0x23adf90, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method GetMac, addr 0x32dc0a8, size 0x90, virtual true, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
 
-  /// @brief Method GetOutputSize, addr 0x23ae018, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetOutputSize, addr 0x32dc138, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetOutputSize(int32_t len);
 
-  /// @brief Method GetUnderlyingCipher, addr 0x23ad520, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetUnderlyingCipher, addr 0x32db614, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::IBlockCipher* GetUnderlyingCipher();
 
-  /// @brief Method GetUpdateOutputSize, addr 0x23ae040, size 0x38, virtual true, abstract: false, final false
+  /// @brief Method GetUpdateOutputSize, addr 0x32dc160, size 0x3c, virtual true, abstract: false, final false
   inline int32_t GetUpdateOutputSize(int32_t len);
 
-  /// @brief Method Init, addr 0x23ad5e8, size 0x6d0, virtual true, abstract: false, final false
+  /// @brief Method Init, addr 0x32db6e4, size 0x6e0, virtual true, abstract: false, final false
   inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
 
   static inline ::Org::BouncyCastle::Crypto::Modes::OcbBlockCipher* New_ctor(::Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* mainCipher);
 
-  /// @brief Method OCB_double, addr 0x23adcb8, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method OCB_double, addr 0x32dbdc4, size 0x98, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> OCB_double(::ArrayW<uint8_t, ::Array<uint8_t>*> block);
 
-  /// @brief Method OCB_extend, addr 0x23ae6f4, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method OCB_extend, addr 0x32dc850, size 0x60, virtual false, abstract: false, final false
   static inline void OCB_extend(::ArrayW<uint8_t, ::Array<uint8_t>*> block, int32_t pos);
 
-  /// @brief Method OCB_ntz, addr 0x23aeb18, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method OCB_ntz, addr 0x32dcc88, size 0x38, virtual false, abstract: false, final false
   static inline int32_t OCB_ntz(int64_t x);
 
-  /// @brief Method ProcessAadByte, addr 0x23ae078, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadByte, addr 0x32dc19c, size 0x68, virtual true, abstract: false, final false
   inline void ProcessAadByte(uint8_t input);
 
-  /// @brief Method ProcessAadBytes, addr 0x23ae0e0, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method ProcessAadBytes, addr 0x32dc204, size 0xc8, virtual true, abstract: false, final false
   inline void ProcessAadBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t off, int32_t len);
 
-  /// @brief Method ProcessByte, addr 0x23ae194, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method ProcessByte, addr 0x32dc2cc, size 0x7c, virtual true, abstract: false, final false
   inline int32_t ProcessByte(uint8_t input, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessBytes, addr 0x23ae210, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method ProcessBytes, addr 0x32dc348, size 0xf4, virtual true, abstract: false, final false
   inline int32_t ProcessBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len, ::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessHashBlock, addr 0x23aeaa8, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method ProcessHashBlock, addr 0x32dcc14, size 0x74, virtual true, abstract: false, final false
   inline void ProcessHashBlock();
 
-  /// @brief Method ProcessMainBlock, addr 0x23aeb4c, size 0x1d0, virtual true, abstract: false, final false
+  /// @brief Method ProcessMainBlock, addr 0x32dccc0, size 0x1dc, virtual true, abstract: false, final false
   inline void ProcessMainBlock(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
 
-  /// @brief Method ProcessNonce, addr 0x23add50, size 0x238, virtual true, abstract: false, final false
+  /// @brief Method ProcessNonce, addr 0x32dbe5c, size 0x244, virtual true, abstract: false, final false
   inline int32_t ProcessNonce(::ArrayW<uint8_t, ::Array<uint8_t>*> N);
 
-  /// @brief Method Reset, addr 0x23ae7ac, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x32dc908, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
-  /// @brief Method Reset, addr 0x23aed1c, size 0x1ec, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x32dce9c, size 0x1f0, virtual true, abstract: false, final false
   inline void Reset(bool clearMac);
 
-  /// @brief Method ShiftLeft, addr 0x23aefe8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method ShiftLeft, addr 0x32dd178, size 0x60, virtual false, abstract: false, final false
   static inline int32_t ShiftLeft(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint8_t, ::Array<uint8_t>*> output);
 
-  /// @brief Method UpdateHASH, addr 0x23aef08, size 0xe0, virtual true, abstract: false, final false
+  /// @brief Method UpdateHASH, addr 0x32dd08c, size 0xec, virtual true, abstract: false, final false
   inline void UpdateHASH(::ArrayW<uint8_t, ::Array<uint8_t>*> LSub);
 
-  /// @brief Method Xor, addr 0x23ae754, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Xor, addr 0x32dc8b0, size 0x58, virtual false, abstract: false, final false
   static inline void Xor(::ArrayW<uint8_t, ::Array<uint8_t>*> block, ::ArrayW<uint8_t, ::Array<uint8_t>*> val);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_Checksum() const;
@@ -311,10 +315,10 @@ public:
 
   constexpr void __cordl_internal_set_mainCipher(::Org::BouncyCastle::Crypto::IBlockCipher* value);
 
-  /// @brief Method .ctor, addr 0x23ad150, size 0x3d0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32db248, size 0x3cc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::IBlockCipher* hashCipher, ::Org::BouncyCastle::Crypto::IBlockCipher* mainCipher);
 
-  /// @brief Method get_AlgorithmName, addr 0x23ad528, size 0xc0, virtual true, abstract: false, final false
+  /// @brief Method get_AlgorithmName, addr 0x32db61c, size 0xc8, virtual true, abstract: false, final false
   inline ::StringW get_AlgorithmName();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Modes::IAeadBlockCipher"

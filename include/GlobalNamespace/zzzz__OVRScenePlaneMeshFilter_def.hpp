@@ -3,10 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Nullable_1_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
@@ -20,8 +18,14 @@ struct OVRScenePlaneMeshFilter_TriangulateBoundaryJob;
 namespace GlobalNamespace {
 struct TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList;
 }
+namespace System {
+class IDisposable;
+}
 namespace Unity::Collections {
 struct Allocator;
+}
+namespace Unity::Jobs {
+class IJob;
 }
 namespace UnityEngine {
 class MeshFilter;
@@ -46,7 +50,7 @@ struct TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList;
 MARK_REF_PTR_T(::GlobalNamespace::OVRScenePlaneMeshFilter);
 MARK_VAL_T(::GlobalNamespace::OVRScenePlaneMeshFilter_TriangulateBoundaryJob);
 MARK_VAL_T(::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList);
-// Dependencies System.IDisposable, Unity.Collections.NativeArray`1<T>
+// Dependencies Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRScenePlaneMeshFilter/TriangulateBoundaryJob/NList
@@ -60,28 +64,28 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*();
 
-  /// @brief Method Dispose, addr 0x4010a24, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method Dispose, addr 0x5cb8ee4, size 0x4c, virtual true, abstract: false, final true
   inline void Dispose();
 
-  /// @brief Method GetAt, addr 0x40108dc, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method GetAt, addr 0x5cb8d9c, size 0x44, virtual false, abstract: false, final false
   inline int32_t GetAt(int32_t index);
 
-  /// @brief Method RemoveAt, addr 0x40109d8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x5cb8e98, size 0x3c, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method .ctor, addr 0x4010828, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb8ce8, size 0xa8, virtual false, abstract: false, final false
   inline void _ctor(int32_t capacity, ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method get_Count, addr 0x4010a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Count, addr 0x5cb8ed4, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Count();
 
-  /// @brief Method get_Item, addr 0x40108d0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x5cb8d90, size 0xc, virtual false, abstract: false, final false
   inline int32_t get_Item(int32_t index);
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable();
 
-  /// @brief Method set_Count, addr 0x4010a1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Count, addr 0x5cb8edc, size 0x8, virtual false, abstract: false, final false
   inline void set_Count(int32_t value);
 
   // Ctor Parameters []
@@ -93,7 +97,7 @@ public:
   constexpr TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList(int32_t _Count_k__BackingField, ::Unity::Collections::NativeArray_1<int32_t> _data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8293 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7665 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -114,7 +118,7 @@ static_assert(offsetof(::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMe
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TriangulateBoundaryJob_OVRScenePlaneMeshFilter_NList, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJob, UnityEngine.Vector2
+// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Vector2
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRScenePlaneMeshFilter/TriangulateBoundaryJob
@@ -126,13 +130,13 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Cross, addr 0x4010920, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Cross, addr 0x5cb8de0, size 0x10, virtual false, abstract: false, final false
   static inline float_t Cross(::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b);
 
-  /// @brief Method Execute, addr 0x40104d0, size 0x358, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cb89a4, size 0x344, virtual true, abstract: false, final true
   inline void Execute();
 
-  /// @brief Method PointInTriangle, addr 0x4010930, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method PointInTriangle, addr 0x5cb8df0, size 0xa8, virtual false, abstract: false, final false
   static inline bool PointInTriangle(::UnityEngine::Vector2 p, ::UnityEngine::Vector2 a, ::UnityEngine::Vector2 b, ::UnityEngine::Vector2 c);
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -147,7 +151,7 @@ public:
   constexpr OVRScenePlaneMeshFilter_TriangulateBoundaryJob(::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> Boundary, ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8294 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7666 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
@@ -197,19 +201,19 @@ public:
 
   static inline ::GlobalNamespace::OVRScenePlaneMeshFilter* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x4010448, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5cb890c, size 0x94, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method RequestMeshGeneration, addr 0x400f22c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method RequestMeshGeneration, addr 0x5cb78c8, size 0x30, virtual false, abstract: false, final false
   inline void RequestMeshGeneration();
 
-  /// @brief Method ScheduleMeshGeneration, addr 0x400f740, size 0x5c8, virtual false, abstract: false, final false
+  /// @brief Method ScheduleMeshGeneration, addr 0x5cb7e3c, size 0x480, virtual false, abstract: false, final false
   inline void ScheduleMeshGeneration();
 
-  /// @brief Method Start, addr 0x400f59c, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cb7c64, size 0x1d8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x400fd08, size 0x740, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5cb82bc, size 0x650, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::Unity::Collections::NativeArray_1<::UnityEngine::Vector2> const& __cordl_internal_get__boundary() const;
@@ -248,7 +252,7 @@ public:
 
   constexpr void __cordl_internal_set__triangles(::Unity::Collections::NativeArray_1<int32_t> value);
 
-  /// @brief Method .ctor, addr 0x40104c8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cb89a0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -266,7 +270,7 @@ public:
   OVRScenePlaneMeshFilter(OVRScenePlaneMeshFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8295 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7667 };
 
   /// @brief Field _meshFilter, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MeshFilter> ____meshFilter;

@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Xml/XmlNamespaceManager.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/Xml/zzzz__XmlNameTable_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceManager_def.hpp"
 #include "System/Xml/zzzz__XmlNamespaceScope_def.hpp"
@@ -16,7 +16,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamespaceManager_NamespaceDeclaration::*)(::StringW, ::StringW, int32_t, int32_t)>(
     &::System::Xml::XmlNamespaceManager_NamespaceDeclaration::Set)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4361cd8;
+  constexpr static std::size_t addrs = 0x60c94ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,8 +47,8 @@ constexpr ::System::Xml::XmlNamespaceManager_NamespaceDeclaration::XmlNamespaceM
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4361b14;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x60c92f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::XmlNamespaceManager*>::get(), ".ctor",
@@ -61,8 +61,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamespaceManager::*)(::System::Xml::XmlNameTable*)>(
     &::System::Xml::XmlNamespaceManager::_ctor)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x4361b1c;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x60c92f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNameTable* (::System::Xml::XmlNamespaceManager::*)()>(
     &::System::Xml::XmlNamespaceManager::get_NameTable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4361ce4;
+  constexpr static std::size_t addrs = 0x60c94b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -90,8 +90,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::get_DefaultNamespace)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4361cec;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x60c94c0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::PushScope)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4361d5c;
+  constexpr static std::size_t addrs = 0x60c94fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +118,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Xml::XmlNamespaceManager::*)()>(&::System::Xml::XmlNamespaceManager::PopScope)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x4361d6c;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x60c950c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamespaceManager::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlNamespaceManager::AddNamespace)> {
-  constexpr static std::size_t size = 0x398;
-  constexpr static std::size_t addrs = 0x4361e40;
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x60c95fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::XmlNamespaceManager::*)(::StringW, ::StringW)>(
     &::System::Xml::XmlNamespaceManager::RemoveNamespace)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x4362368;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x60c9b64;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,8 +163,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Xml::XmlNamespaceManager::*)()>(
     &::System::Xml::XmlNamespaceManager::GetEnumerator)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x436249c;
+  constexpr static std::size_t size = 0x1a8;
+  constexpr static std::size_t addrs = 0x60c9c9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -178,8 +178,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* (
     ::System::Xml::XmlNamespaceManager::*)(::System::Xml::XmlNamespaceScope)>(&::System::Xml::XmlNamespaceManager::GetNamespacesInScope)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4362610;
+  constexpr static std::size_t size = 0x1ec;
+  constexpr static std::size_t addrs = 0x60c9e44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -193,7 +193,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlNamespaceManager::*)(::StringW)>(&::System::Xml::XmlNamespaceManager::LookupNamespace)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x43627c8;
+  constexpr static std::size_t addrs = 0x60ca030;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -208,7 +208,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Xml::XmlNamespaceManager::*)(::StringW)>(
     &::System::Xml::XmlNamespaceManager::LookupNamespaceDecl)> {
   constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x43621d8;
+  constexpr static std::size_t addrs = 0x60c99d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -222,7 +222,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::XmlNamespaceManager::*)(::StringW)>(&::System::Xml::XmlNamespaceManager::LookupPrefix)> {
   constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4362814;
+  constexpr static std::size_t addrs = 0x60ca07c;
 
   inline static ::MethodInfo const* methodInfo() {
 

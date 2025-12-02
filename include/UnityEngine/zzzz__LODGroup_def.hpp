@@ -5,10 +5,12 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Component_def.hpp"
 #include <cmath>
-#include <cstdint>
 CORDL_MODULE_EXPORT(LODGroup)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
-struct LOD;
+struct Vector3;
 }
 // Forward declare root types
 namespace UnityEngine {
@@ -23,24 +25,21 @@ namespace UnityEngine {
 class CORDL_TYPE LODGroup : public ::UnityEngine::Component {
 public:
   // Declarations
-  __declspec(property(get = get_lodCount)) int32_t lodCount;
+  __declspec(property(get = get_localReferencePoint)) ::UnityEngine::Vector3 localReferencePoint;
 
   __declspec(property(get = get_size)) float_t size;
 
-  /// @brief Method GetLODs, addr 0x4887224, size 0x3c, virtual false, abstract: false, final false
-  inline ::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> GetLODs();
+  /// @brief Method get_localReferencePoint, addr 0x68743f4, size 0xa0, virtual false, abstract: false, final false
+  inline ::UnityEngine::Vector3 get_localReferencePoint();
 
-  /// @brief Method RecalculateBounds, addr 0x48871e8, size 0x3c, virtual false, abstract: false, final false
-  inline void RecalculateBounds();
+  /// @brief Method get_localReferencePoint_Injected, addr 0x6874494, size 0x44, virtual false, abstract: false, final false
+  static inline void get_localReferencePoint_Injected(::System::IntPtr _unity_self, ::ByRef<::UnityEngine::Vector3> ret);
 
-  /// @brief Method SetLODs, addr 0x4887260, size 0x44, virtual false, abstract: false, final false
-  inline void SetLODs(::ArrayW<::UnityEngine::LOD, ::Array<::UnityEngine::LOD>*> lods);
-
-  /// @brief Method get_lodCount, addr 0x48871ac, size 0x3c, virtual false, abstract: false, final false
-  inline int32_t get_lodCount();
-
-  /// @brief Method get_size, addr 0x4887170, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_size, addr 0x68744d8, size 0x80, virtual false, abstract: false, final false
   inline float_t get_size();
+
+  /// @brief Method get_size_Injected, addr 0x6874558, size 0x3c, virtual false, abstract: false, final false
+  static inline float_t get_size_Injected(::System::IntPtr _unity_self);
 
 protected:
   // Ctor Parameters []
@@ -57,7 +56,7 @@ public:
   LODGroup(LODGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10782 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10189 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

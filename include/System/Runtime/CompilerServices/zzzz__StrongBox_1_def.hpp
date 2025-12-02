@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__IStrongBox_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(StrongBox_1)
+namespace System::Runtime::CompilerServices {
+class IStrongBox;
+}
 namespace System {
 class Object;
 }
@@ -15,7 +17,7 @@ template <typename T> class StrongBox_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Runtime::CompilerServices::StrongBox_1);
-// Dependencies System.Object, System.Runtime.CompilerServices.IStrongBox
+// Dependencies System.Object
 namespace System::Runtime::CompilerServices {
 // cpp template
 template <typename T>
@@ -73,7 +75,7 @@ public:
   StrongBox_1(StrongBox_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14143 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16590 };
 
   /// @brief Field Value, offset: 0x10, size: 0x8, def value: None
   T ___Value;

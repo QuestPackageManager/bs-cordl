@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::GenericIdentity::*)(::StringW, ::StringW)>(
     &::System::Security::Principal::GenericIdentity::_ctor)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3cb8924;
+  constexpr static std::size_t addrs = 0x58fc658;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,7 +25,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::GenericIdentity::*)()>(&::System::Security::Principal::GenericIdentity::_ctor)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3cb8ac4;
+  constexpr static std::size_t addrs = 0x58fc804;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::GenericIdentity*>::get(), ".ctor",
@@ -39,7 +39,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::GenericIdentity::*)(::System::Security::Principal::GenericIdentity*)>(
     &::System::Security::Principal::GenericIdentity::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3cb8ae0;
+  constexpr static std::size_t addrs = 0x58fc820;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Claims::ClaimsIdentity* (::System::Security::Principal::GenericIdentity::*)()>(
     &::System::Security::Principal::GenericIdentity::Clone)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3cb8d04;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x58fca34;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,7 +70,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* (
     ::System::Security::Principal::GenericIdentity::*)()>(&::System::Security::Principal::GenericIdentity::get_Claims)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cb8d5c;
+  constexpr static std::size_t addrs = 0x58fca90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::GenericIdentity::*)()>(
     &::System::Security::Principal::GenericIdentity::get_Name)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb8dd0;
+  constexpr static std::size_t addrs = 0x58fcb04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,7 +102,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Principal::GenericIdentity::*)()>(
     &::System::Security::Principal::GenericIdentity::get_AuthenticationType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cb8dd8;
+  constexpr static std::size_t addrs = 0x58fcb0c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -117,8 +117,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Principal::GenericIdentity::*)()>(
     &::System::Security::Principal::GenericIdentity::AddNameClaim)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3cb89f4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x58fc728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Principal::GenericIdentity*>::get(),

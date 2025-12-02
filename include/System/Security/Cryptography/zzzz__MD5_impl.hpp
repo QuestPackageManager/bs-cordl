@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Cryptography::MD5::*)()>(&::System::Security::Cryptography::MD5::_ctor)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3ca25b8;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x58e630c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::MD5*>::get(), ".ctor",
@@ -19,8 +19,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::Cryptography::MD5* (*)()>(&::System::Security::Cryptography::MD5::Create)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3ca25d8;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x58e6318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Cryptography::MD5*>::get(), "Create",

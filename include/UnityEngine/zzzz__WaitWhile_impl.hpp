@@ -1,14 +1,16 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/WaitWhile.hpp"
 #include "UnityEngine/zzzz__CustomYieldInstruction_impl.hpp"
+#include "UnityEngine/zzzz__WaitTimeoutMode_impl.hpp"
 #include "UnityEngine/zzzz__WaitWhile_def.hpp"
+#include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 //  Writing Method size for method: ::UnityEngine::WaitWhile.get_keepWaiting
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::WaitWhile::*)()>(&::UnityEngine::WaitWhile::get_keepWaiting)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48b3650;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x68b8a68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,13 +23,26 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::WaitWhile::*)(::System::Func_1<bool>*)>(&::UnityEngine::WaitWhile::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x48b3674;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x68b8b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WaitWhile*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<bool>*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::WaitWhile.GetTime
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<double_t (::UnityEngine::WaitWhile::*)()>(&::UnityEngine::WaitWhile::GetTime)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x68b8b38;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WaitWhile*>::get(), "GetTime",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -43,6 +58,42 @@ constexpr void UnityEngine::WaitWhile::__cordl_internal_set_m_Predicate(::System
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_Predicate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::System::Action*& UnityEngine::WaitWhile::__cordl_internal_get_m_TimeoutCallback() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TimeoutCallback;
+}
+constexpr ::System::Action* const& UnityEngine::WaitWhile::__cordl_internal_get_m_TimeoutCallback() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TimeoutCallback;
+}
+constexpr void UnityEngine::WaitWhile::__cordl_internal_set_m_TimeoutCallback(::System::Action* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TimeoutCallback)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::WaitTimeoutMode& UnityEngine::WaitWhile::__cordl_internal_get_m_TimeoutMode() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TimeoutMode;
+}
+constexpr ::UnityEngine::WaitTimeoutMode const& UnityEngine::WaitWhile::__cordl_internal_get_m_TimeoutMode() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TimeoutMode;
+}
+constexpr void UnityEngine::WaitWhile::__cordl_internal_set_m_TimeoutMode(::UnityEngine::WaitTimeoutMode value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_TimeoutMode = value;
+}
+constexpr double_t& UnityEngine::WaitWhile::__cordl_internal_get_m_MaxExecutionTime() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MaxExecutionTime;
+}
+constexpr double_t const& UnityEngine::WaitWhile::__cordl_internal_get_m_MaxExecutionTime() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_MaxExecutionTime;
+}
+constexpr void UnityEngine::WaitWhile::__cordl_internal_set_m_MaxExecutionTime(double_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_MaxExecutionTime = value;
+}
 inline bool UnityEngine::WaitWhile::get_keepWaiting() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WaitWhile*>::get(), 7)));
@@ -53,6 +104,11 @@ inline void UnityEngine::WaitWhile::_ctor(::System::Func_1<bool>* predicate) {
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WaitWhile*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Func_1<bool>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, predicate);
+}
+inline double_t UnityEngine::WaitWhile::GetTime() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::WaitWhile*>::get(), "GetTime",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<double_t, false>(this, ___internal_method);
 }
 inline ::UnityEngine::WaitWhile* UnityEngine::WaitWhile::New_ctor(::System::Func_1<bool>* predicate) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::WaitWhile*>(predicate));

@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/OVRSemanticClassification.hpp"
-#include "GlobalNamespace/zzzz__IOVRSceneComponent_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRSemanticClassification_def.hpp"
+#include "GlobalNamespace/zzzz__IOVRSceneComponent_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRSemanticClassification.get_Labels
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::StringW>* (::GlobalNamespace::OVRSemanticClassification::*)()>(
     &::GlobalNamespace::OVRSemanticClassification::get_Labels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4013904;
+  constexpr static std::size_t addrs = 0x5cbbd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSemanticClassification*>::get(),
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRSemanticClassification::*)(::StringW)>(
     &::GlobalNamespace::OVRSemanticClassification::Contains)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x401390c;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x5cbbd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,8 +38,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSemanticClassification::*)()>(&::GlobalNamespace::OVRSemanticClassification::Awake)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x4013a70;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5cbbe60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSemanticClassification*>::get(), "Awake",
@@ -52,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSemanticClassification::*)()>(
     &::GlobalNamespace::OVRSemanticClassification::IOVRSceneComponent_Initialize)> {
-  constexpr static std::size_t size = 0x120;
-  constexpr static std::size_t addrs = 0x4013b40;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x5cbbf38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSemanticClassification*>::get(),
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW)>(&::GlobalNamespace::OVRSemanticClassification::ValidateAndUpgradeLabels)> {
-  constexpr static std::size_t size = 0x494;
-  constexpr static std::size_t addrs = 0x4013c60;
+  constexpr static std::size_t size = 0x458;
+  constexpr static std::size_t addrs = 0x5cbc088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRSemanticClassification::*)()>(&::GlobalNamespace::OVRSemanticClassification::_ctor)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x40140f4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5cbc4e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRSemanticClassification*>::get(), ".ctor",

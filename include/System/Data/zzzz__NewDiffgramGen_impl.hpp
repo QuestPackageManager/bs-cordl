@@ -15,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataSet*)>(&::System::Data::NewDiffgramGen::_ctor)> {
-  constexpr static std::size_t size = 0x110;
-  constexpr static std::size_t addrs = 0x41b7808;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5e60b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -29,8 +29,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*, bool)>(&::System::Data::NewDiffgramGen::_ctor)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x41b7b7c;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x5e60e94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::CreateTableHierarchy)> {
-  constexpr static std::size_t size = 0x384;
-  constexpr static std::size_t addrs = 0x41b7c68;
+  constexpr static std::size_t size = 0x358;
+  constexpr static std::size_t addrs = 0x5e60f74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -60,8 +60,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Collections::ArrayList*)>(
     &::System::Data::NewDiffgramGen::DoAssignments)> {
-  constexpr static std::size_t size = 0x264;
-  constexpr static std::size_t addrs = 0x41b7918;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x5e60c38;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::NewDiffgramGen::*)()>(&::System::Data::NewDiffgramGen::EmptyData)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x41b7fec;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5e612cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::NewDiffgramGen*>::get(), "EmptyData",
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*)>(&::System::Data::NewDiffgramGen::Save)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x41b80e0;
+  constexpr static std::size_t addrs = 0x5e613c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Xml::XmlWriter*, ::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::Save)> {
-  constexpr static std::size_t size = 0x3f0;
-  constexpr static std::size_t addrs = 0x41b80e8;
+  constexpr static std::size_t size = 0x430;
+  constexpr static std::size_t addrs = 0x5e613cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -119,7 +119,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::GenerateTable)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x41b9070;
+  constexpr static std::size_t addrs = 0x5e6233c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -133,8 +133,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataTable*)>(
     &::System::Data::NewDiffgramGen::GenerateTableErrors)> {
-  constexpr static std::size_t size = 0x540;
-  constexpr static std::size_t addrs = 0x41b90ec;
+  constexpr static std::size_t size = 0x60c;
+  constexpr static std::size_t addrs = 0x5e623b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,8 +147,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*)>(&::System::Data::NewDiffgramGen::GenerateRow)> {
-  constexpr static std::size_t size = 0x59c;
-  constexpr static std::size_t addrs = 0x41b962c;
+  constexpr static std::size_t size = 0x688;
+  constexpr static std::size_t addrs = 0x5e629c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -162,8 +162,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::System::Data::NewDiffgramGen::*)(::System::Data::DataRow*, ::System::Data::DataColumn*, ::System::Data::DataRowVersion)>(&::System::Data::NewDiffgramGen::GenerateColumn)> {
-  constexpr static std::size_t size = 0x9fc;
-  constexpr static std::size_t addrs = 0x41b9c90;
+  constexpr static std::size_t size = 0x9ec;
+  constexpr static std::size_t addrs = 0x5e63104;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -178,8 +178,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::StringW, ::StringW)>(&::System::Data::NewDiffgramGen::QualifiedName)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x41b77a0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5e60ab4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

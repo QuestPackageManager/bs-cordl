@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/UIR/JobMerger.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_impl.hpp"
 #include "UnityEngine/UIElements/UIR/zzzz__JobMerger_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::UIR::JobMerger._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(int32_t)>(&::UnityEngine::UIElements::UIR::JobMerger::_ctor)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x49a9934;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x6aa9c50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(::Unity::Jobs::JobHandle)>(
     &::UnityEngine::UIElements::UIR::JobMerger::Add)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x49a90e8;
+  constexpr static std::size_t addrs = 0x6aa9d04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Jobs::JobHandle (::UnityEngine::UIElements::UIR::JobMerger::*)()>(
     &::UnityEngine::UIElements::UIR::JobMerger::MergeAndReset)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x49a9154;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6aa9d70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobMerger*>::get(),
@@ -54,7 +54,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UIR::JobMerger::*)()>(&::UnityEngine::UIElements::UIR::JobMerger::get_disposed)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49a99ec;
+  constexpr static std::size_t addrs = 0x6aa9dfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobMerger*>::get(),
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(bool)>(
     &::UnityEngine::UIElements::UIR::JobMerger::set_disposed)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x49a99f4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6aa9e04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)()>(&::UnityEngine::UIElements::UIR::JobMerger::Dispose)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49a978c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6aa9e0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UIR::JobMerger*>::get(), "Dispose",
@@ -94,8 +94,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UIR::JobMerger::*)(bool)>(&::UnityEngine::UIElements::UIR::JobMerger::Dispose)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49a9a00;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x6aa9e74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -29,19 +29,19 @@ public:
 
   __declspec(property(get = get_Value, put = set_Value)) ::System::Object* Value;
 
-  /// @brief Method CanCache, addr 0x3d1c6fc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method CanCache, addr 0x595e1d0, size 0xc, virtual false, abstract: false, final false
   static inline bool CanCache(::System::Resources::ResourceTypeCode value);
 
-  /// @brief Method .ctor, addr 0x3d1c708, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x595e1dc, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t dataPos, ::System::Object* value);
 
-  /// @brief Method get_DataPosition, addr 0x3d1df50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_DataPosition, addr 0x59635fc, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_DataPosition();
 
-  /// @brief Method get_Value, addr 0x3d1df58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5963604, size 0x8, virtual false, abstract: false, final false
   inline ::System::Object* get_Value();
 
-  /// @brief Method set_Value, addr 0x3d1df60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Value, addr 0x596360c, size 0x8, virtual false, abstract: false, final false
   inline void set_Value(::System::Object* value);
 
   // Ctor Parameters []
@@ -52,7 +52,7 @@ public:
   constexpr ResourceLocator(::System::Object* _value, int32_t _dataPos) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3438 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3458 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

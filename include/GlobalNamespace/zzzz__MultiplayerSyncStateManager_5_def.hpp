@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(MultiplayerSyncStateManager_5)
 namespace GlobalNamespace {
-class IConnectedPlayer;
+class IBeatSaberMultiplayerSessionManager;
 }
 namespace GlobalNamespace {
-class IMultiplayerSessionManager;
+class IConnectedPlayer;
 }
 namespace GlobalNamespace {
 template <typename T> class IPacketPool_1;
@@ -21,13 +21,13 @@ namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class LocalMultiplayerSyncState_3;
 }
 namespace GlobalNamespace {
-struct MultiplayerSessionManager_MessageType;
-}
-namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState, typename TSerializable, typename TDeltaSerializable> class MultiplayerSyncStateManager_5___c;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class MultiplayerSyncState_3;
+}
+namespace GlobalNamespace {
+struct NetworkMessageType;
 }
 namespace GlobalNamespace {
 template <typename TStateTable, typename TType, typename TState> class RemoteMultiplayerSyncState_3;
@@ -94,7 +94,7 @@ public:
   MultiplayerSyncStateManager_5___c(MultiplayerSyncStateManager_5___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17361 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21228 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -126,11 +126,11 @@ public:
 
   /// @brief Field _multiplayerSessionManager, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get__multiplayerSessionManager,
-                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* _multiplayerSessionManager;
+                      put = __cordl_internal_set__multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* _multiplayerSessionManager;
 
   __declspec(property(get = get_connectedPlayerCount)) int32_t connectedPlayerCount;
 
-  __declspec(property(get = get_deltaMessageType)) ::GlobalNamespace::MultiplayerSessionManager_MessageType deltaMessageType;
+  __declspec(property(get = get_deltaMessageType)) ::GlobalNamespace::NetworkMessageType deltaMessageType;
 
   __declspec(property(get = get_deltaSerializablePool)) ::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* deltaSerializablePool;
 
@@ -144,9 +144,9 @@ public:
 
   __declspec(property(get = get_localState)) ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* localState;
 
-  __declspec(property(get = get_messageType)) ::GlobalNamespace::MultiplayerSessionManager_MessageType messageType;
+  __declspec(property(get = get_messageType)) ::GlobalNamespace::NetworkMessageType messageType;
 
-  __declspec(property(get = get_multiplayerSessionManager)) ::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager;
+  __declspec(property(get = get_multiplayerSessionManager)) ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager;
 
   __declspec(property(get = get_remoteBufferSize)) int32_t remoteBufferSize;
 
@@ -210,9 +210,9 @@ public:
 
   constexpr ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>*& __cordl_internal_get__localState();
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* const& __cordl_internal_get__multiplayerSessionManager() const;
 
-  constexpr ::GlobalNamespace::IMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
+  constexpr ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*& __cordl_internal_get__multiplayerSessionManager();
 
   constexpr void __cordl_internal_set__connectedPlayerStates(::System::Collections::Generic::List_1<::GlobalNamespace::RemoteMultiplayerSyncState_3<TStateTable, TType, TState>*>* value);
 
@@ -220,7 +220,7 @@ public:
 
   constexpr void __cordl_internal_set__localState(::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* value);
 
-  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IMultiplayerSessionManager* value);
+  constexpr void __cordl_internal_set__multiplayerSessionManager(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* value);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -229,7 +229,7 @@ public:
   inline int32_t get_connectedPlayerCount();
 
   /// @brief Method get_deltaMessageType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerSessionManager_MessageType get_deltaMessageType();
+  inline ::GlobalNamespace::NetworkMessageType get_deltaMessageType();
 
   /// @brief Method get_deltaSerializablePool, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::GlobalNamespace::IPacketPool_1<TDeltaSerializable>* get_deltaSerializablePool();
@@ -250,10 +250,10 @@ public:
   inline ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* get_localState();
 
   /// @brief Method get_messageType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerSessionManager_MessageType get_messageType();
+  inline ::GlobalNamespace::NetworkMessageType get_messageType();
 
   /// @brief Method get_multiplayerSessionManager, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::IMultiplayerSessionManager* get_multiplayerSessionManager();
+  inline ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* get_multiplayerSessionManager();
 
   /// @brief Method get_remoteBufferSize, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline int32_t get_remoteBufferSize();
@@ -279,10 +279,10 @@ public:
   MultiplayerSyncStateManager_5(MultiplayerSyncStateManager_5 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17362 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21229 };
 
   /// @brief Field _multiplayerSessionManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::IMultiplayerSessionManager* ____multiplayerSessionManager;
+  ::GlobalNamespace::IBeatSaberMultiplayerSessionManager* ____multiplayerSessionManager;
 
   /// @brief Field _localState, offset: 0x28, size: 0x8, def value: None
   ::GlobalNamespace::LocalMultiplayerSyncState_3<TStateTable, TType, TState>* ____localState;

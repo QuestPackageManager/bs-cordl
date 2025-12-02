@@ -60,7 +60,7 @@ public:
   /// @brief Field valueInfo, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_valueInfo, put = setStaticF_valueInfo)) ::System::Reflection::MemberInfo* valueInfo;
 
-  /// @brief Method Fixup, addr 0x3d0b1b4, size 0x308, virtual false, abstract: false, final false
+  /// @brief Method Fixup, addr 0x594c448, size 0x2fc, virtual false, abstract: false, final false
   inline void Fixup(::System::Runtime::Serialization::Formatters::Binary::ParseRecord* record, ::System::Runtime::Serialization::Formatters::Binary::ParseRecord* parent);
 
   static inline ::System::Runtime::Serialization::Formatters::Binary::ValueFixup* New_ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
@@ -110,10 +110,10 @@ public:
 
   constexpr void __cordl_internal_set_valueFixupEnum(::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum value);
 
-  /// @brief Method .ctor, addr 0x3d0bd54, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594d050, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::System::Array* arrayObj, ::ArrayW<int32_t, ::Array<int32_t>*> indexMap);
 
-  /// @brief Method .ctor, addr 0x3d0c1f0, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x594d4cc, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* memberObject, ::StringW memberName, ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* objectInfo);
 
   static inline ::System::Reflection::MemberInfo* getStaticF_valueInfo();
@@ -135,7 +135,7 @@ public:
   ValueFixup(ValueFixup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3296 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3309 };
 
   /// @brief Field valueFixupEnum, offset: 0x10, size: 0x4, def value: None
   ::System::Runtime::Serialization::Formatters::Binary::ValueFixupEnum ___valueFixupEnum;

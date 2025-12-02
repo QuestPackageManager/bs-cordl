@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::OVR::OpenVR::CVRIOBuffer::*)(::System::IntPtr)>(&::OVR::OpenVR::CVRIOBuffer::_ctor)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x4076514;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x5c328cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(::StringW, ::OVR::OpenVR::EIOBufferMode, uint32_t, uint32_t, ::ByRef<uint64_t>)>(&::OVR::OpenVR::CVRIOBuffer::Open)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4076628;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c329c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&::OVR::OpenVR::CVRIOBuffer::Close)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4076650;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c329ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -57,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t, ::System::IntPtr, uint32_t, ::ByRef<uint32_t>)>(&::OVR::OpenVR::CVRIOBuffer::Read)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4076674;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c32a0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -74,8 +74,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::OVR::OpenVR::EIOBufferError (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t, ::System::IntPtr, uint32_t)>(
     &::OVR::OpenVR::CVRIOBuffer::Write)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x407669c;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c32a30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -89,8 +89,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (::OVR::OpenVR::CVRIOBuffer::*)(uint64_t)>(&::OVR::OpenVR::CVRIOBuffer::PropertyContainer)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x40766c0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5c32a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

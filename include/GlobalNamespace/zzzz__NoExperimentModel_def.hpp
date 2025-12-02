@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IExperimentModel_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NoExperimentModel)
 namespace GlobalNamespace {
 class IExperimentData;
+}
+namespace GlobalNamespace {
+class IExperimentModel;
 }
 namespace System::Threading::Tasks {
 template <typename TResult> class Task_1;
@@ -18,7 +20,7 @@ class NoExperimentModel;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoExperimentModel);
-// Dependencies IExperimentModel, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: NoExperimentModel
@@ -28,15 +30,15 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IExperimentModel"
   constexpr operator ::GlobalNamespace::IExperimentModel*() noexcept;
 
-  /// @brief Method IsEmployee, addr 0x26b0af8, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method IsEmployee, addr 0x35e2094, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsEmployee();
 
-  /// @brief Method IsInTest, addr 0x26b0b60, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method IsInTest, addr 0x35e2104, size 0x70, virtual true, abstract: false, final true
   inline ::System::Threading::Tasks::Task_1<bool>* IsInTest(::GlobalNamespace::IExperimentData* data);
 
   static inline ::GlobalNamespace::NoExperimentModel* New_ctor();
 
-  /// @brief Method .ctor, addr 0x26b0bc8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35e2174, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::IExperimentModel"
@@ -57,7 +59,7 @@ public:
   NoExperimentModel(NoExperimentModel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12852 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14823 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -31,7 +31,7 @@ public:
   IEqualityComparer_1(IEqualityComparer_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3848 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3773 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

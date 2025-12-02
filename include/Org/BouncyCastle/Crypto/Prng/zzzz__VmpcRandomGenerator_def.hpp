@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Prng/zzzz__IRandomGenerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(VmpcRandomGenerator)
+namespace Org::BouncyCastle::Crypto::Prng {
+class IRandomGenerator;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Crypto::Prng {
 class VmpcRandomGenerator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator);
-// Dependencies Org.BouncyCastle.Crypto.Prng.IRandomGenerator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Prng.VmpcRandomGenerator
@@ -32,18 +34,18 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
   constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x23cca10, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x32fa8e4, size 0xc4, virtual true, abstract: false, final false
   inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
 
-  /// @brief Method AddSeedMaterial, addr 0x23ccae0, size 0x2c, virtual true, abstract: false, final false
+  /// @brief Method AddSeedMaterial, addr 0x32fa9a8, size 0x2c, virtual true, abstract: false, final false
   inline void AddSeedMaterial(int64_t seed);
 
   static inline ::Org::BouncyCastle::Crypto::Prng::VmpcRandomGenerator* New_ctor();
 
-  /// @brief Method NextBytes, addr 0x23ccb0c, size 0x24, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x32fa9d4, size 0x20, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
 
-  /// @brief Method NextBytes, addr 0x23ccb30, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method NextBytes, addr 0x32fa9f4, size 0x1f8, virtual true, abstract: false, final false
   inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_P() const;
@@ -64,7 +66,7 @@ public:
 
   constexpr void __cordl_internal_set_s(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23cc980, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x32fa85c, size 0x88, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"

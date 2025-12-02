@@ -6,7 +6,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Unity::Profiling::ProfilerCategory::*)(uint16_t)>(&::Unity::Profiling::ProfilerCategory::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860328;
+  constexpr static std::size_t addrs = 0x68289ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::get_Name)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4860330;
+  constexpr static std::size_t addrs = 0x68289f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Name",
@@ -33,7 +33,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Profiling::ProfilerCategory::*)()>(&::Unity::Profiling::ProfilerCategory::ToString)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x486052c;
+  constexpr static std::size_t addrs = 0x6828be8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Render)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860530;
+  constexpr static std::size_t addrs = 0x6828bec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Render",
@@ -60,10 +60,23 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Scripts)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860538;
+  constexpr static std::size_t addrs = 0x6828bf4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Scripts",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::ProfilerCategory.get_Loading
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Loading)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6828bfc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Loading",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -73,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Memory)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860540;
+  constexpr static std::size_t addrs = 0x6828c04;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Memory",
@@ -86,7 +99,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (*)()>(&::Unity::Profiling::ProfilerCategory::get_Internal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860548;
+  constexpr static std::size_t addrs = 0x6828c0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Internal",
@@ -99,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint16_t (*)(::Unity::Profiling::ProfilerCategory)>(&::Unity::Profiling::ProfilerCategory::op_Implicit_uint16_t)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x4860550;
+  constexpr static std::size_t addrs = 0x6828c14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -140,6 +153,11 @@ inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::ProfilerCategory::
 }
 inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::ProfilerCategory::get_Scripts() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Scripts",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerCategory, false>(nullptr, ___internal_method);
+}
+inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::ProfilerCategory::get_Loading() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::ProfilerCategory>::get(), "get_Loading",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerCategory, false>(nullptr, ___internal_method);
 }

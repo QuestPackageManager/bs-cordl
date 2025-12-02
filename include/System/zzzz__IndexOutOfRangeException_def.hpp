@@ -31,13 +31,13 @@ public:
 
   static inline ::System::IndexOutOfRangeException* New_ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3de77a0, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2d68c, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3de7820, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2d710, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x3de77fc, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a2d6ec, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
 protected:
@@ -55,7 +55,7 @@ public:
   IndexOutOfRangeException(IndexOutOfRangeException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2424 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2425 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

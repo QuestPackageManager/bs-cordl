@@ -30,17 +30,17 @@ public:
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method .ctor, addr 0x499e9e0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a968b4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Left();
 
   static inline ::UnityEngine::UIElements::VisualElementFocusChangeDirection* getStaticF_s_Right();
 
-  /// @brief Method get_left, addr 0x499e930, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_left, addr 0x6a967fc, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_left();
 
-  /// @brief Method get_right, addr 0x499e988, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_right, addr 0x6a96858, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_right();
 
   static inline void setStaticF_s_Left(::UnityEngine::UIElements::VisualElementFocusChangeDirection* value);
@@ -62,7 +62,7 @@ public:
   VisualElementFocusChangeDirection(VisualElementFocusChangeDirection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6322 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5240 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

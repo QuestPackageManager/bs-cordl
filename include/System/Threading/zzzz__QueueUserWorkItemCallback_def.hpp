@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Threading/zzzz__IThreadPoolWorkItem_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(QueueUserWorkItemCallback)
 namespace System::Threading {
@@ -11,6 +10,9 @@ class ContextCallback;
 }
 namespace System::Threading {
 class ExecutionContext;
+}
+namespace System::Threading {
+class IThreadPoolWorkItem;
 }
 namespace System::Threading {
 struct StackCrawlMark;
@@ -30,7 +32,7 @@ class QueueUserWorkItemCallback;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Threading::QueueUserWorkItemCallback);
-// Dependencies System.Object, System.Threading.IThreadPoolWorkItem
+// Dependencies System.Object
 namespace System::Threading {
 // Is value type: false
 // CS Name: System.Threading.QueueUserWorkItemCallback
@@ -55,13 +57,13 @@ public:
   static inline ::System::Threading::QueueUserWorkItemCallback* New_ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack,
                                                                          ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x3e5a2e8, size 0xd8, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.ExecuteWorkItem, addr 0x5a9f8f4, size 0xd4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_ExecuteWorkItem();
 
-  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x3e5a3c0, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.Threading.IThreadPoolWorkItem.MarkAborted, addr 0x5a9f9c8, size 0x4, virtual true, abstract: false, final true
   inline void System_Threading_IThreadPoolWorkItem_MarkAborted(::System::Threading::ThreadAbortException* tae);
 
-  /// @brief Method WaitCallback_Context, addr 0x3e5a3c4, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method WaitCallback_Context, addr 0x5a9f9cc, size 0x7c, virtual false, abstract: false, final false
   static inline void WaitCallback_Context(::System::Object* state);
 
   constexpr ::System::Threading::WaitCallback* const& __cordl_internal_get_callback() const;
@@ -82,7 +84,7 @@ public:
 
   constexpr void __cordl_internal_set_state(::System::Object* value);
 
-  /// @brief Method .ctor, addr 0x3e5a230, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a9f844, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::WaitCallback* waitCallback, ::System::Object* stateObj, bool compressStack, ::ByRef<::System::Threading::StackCrawlMark> stackMark);
 
   static inline ::System::Threading::ContextCallback* getStaticF_ccb();
@@ -107,7 +109,7 @@ public:
   QueueUserWorkItemCallback(QueueUserWorkItemCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2740 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2750 };
 
   /// @brief Field callback, offset: 0x10, size: 0x8, def value: None
   ::System::Threading::WaitCallback* ___callback;

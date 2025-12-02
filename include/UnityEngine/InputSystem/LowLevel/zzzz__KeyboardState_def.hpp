@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(KeyboardState)
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
+}
 namespace UnityEngine::InputSystem::LowLevel {
 struct KeyboardState__keys_e__FixedBuffer;
 }
@@ -42,7 +44,7 @@ public:
   constexpr KeyboardState__keys_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6912 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8970 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };
@@ -62,7 +64,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer, 0xe>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.InputSystem.LowLevel.KeyboardState::<keys>e__FixedBuffer
+// Dependencies UnityEngine.InputSystem.LowLevel.KeyboardState::<keys>e__FixedBuffer
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.KeyboardState
@@ -76,22 +78,22 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method Press, addr 0x46089e0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Press, addr 0x638ff6c, size 0x24, virtual false, abstract: false, final false
   inline void Press(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Release, addr 0x46089ec, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Release, addr 0x638ff90, size 0x24, virtual false, abstract: false, final false
   inline void Release(::UnityEngine::InputSystem::Key key);
 
-  /// @brief Method Set, addr 0x46089d4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x638ff3c, size 0x30, virtual false, abstract: false, final false
   inline void Set(::UnityEngine::InputSystem::Key key, bool state);
 
-  /// @brief Method .ctor, addr 0x4608910, size 0xc4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638fe50, size 0xec, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::Key, ::Array<::UnityEngine::InputSystem::Key>*> pressedKeys);
 
-  /// @brief Method get_Format, addr 0x46088e0, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x638fe44, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x46089f8, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x638ffb4, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -105,7 +107,7 @@ public:
   constexpr KeyboardState(::UnityEngine::InputSystem::LowLevel::KeyboardState__keys_e__FixedBuffer keys) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6913 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8971 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xe };

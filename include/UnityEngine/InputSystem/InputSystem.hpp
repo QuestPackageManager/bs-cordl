@@ -15,6 +15,7 @@ module;
 #include "UnityEngine/InputSystem/Gamepad.hpp"
 #include "UnityEngine/InputSystem/GravitySensor.hpp"
 #include "UnityEngine/InputSystem/Gyroscope.hpp"
+#include "UnityEngine/InputSystem/HingeAngle.hpp"
 #include "UnityEngine/InputSystem/HumiditySensor.hpp"
 #include "UnityEngine/InputSystem/IInputActionCollection.hpp"
 #include "UnityEngine/InputSystem/IInputActionCollection2.hpp"

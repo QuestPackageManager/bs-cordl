@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsClient.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClient_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__NewSessionTicket_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__ProtocolVersion_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsAuthentication_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContext_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsKeyExchange_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsPeer_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsSession_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"

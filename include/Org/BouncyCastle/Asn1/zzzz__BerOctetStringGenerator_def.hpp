@@ -45,15 +45,15 @@ public:
   /// @brief Field _off, offset 0x38, size 0x4
   __declspec(property(get = __cordl_internal_get__off, put = __cordl_internal_set__off)) int32_t _off;
 
-  /// @brief Method Close, addr 0x26347e8, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method Close, addr 0x35645c4, size 0x48, virtual true, abstract: false, final false
   inline void Close();
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator_BufferedBerOctetStream* New_ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method Write, addr 0x26346c8, size 0x120, virtual true, abstract: false, final false
+  /// @brief Method Write, addr 0x3564490, size 0x134, virtual true, abstract: false, final false
   inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t offset, int32_t len);
 
-  /// @brief Method WriteByte, addr 0x2634660, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method WriteByte, addr 0x3564428, size 0x68, virtual true, abstract: false, final false
   inline void WriteByte(uint8_t b);
 
   constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__buf() const;
@@ -80,7 +80,7 @@ public:
 
   constexpr void __cordl_internal_set__off(int32_t value);
 
-  /// @brief Method .ctor, addr 0x2634580, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3564348, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::BerOctetStringGenerator* gen, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
 protected:
@@ -135,23 +135,23 @@ public:
   // Declarations
   using BufferedBerOctetStream = ::Org::BouncyCastle::Asn1::BerOctetStringGenerator_BufferedBerOctetStream;
 
-  /// @brief Method GetOctetOutputStream, addr 0x2634454, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method GetOctetOutputStream, addr 0x3564204, size 0x58, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetOctetOutputStream();
 
-  /// @brief Method GetOctetOutputStream, addr 0x26344a8, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method GetOctetOutputStream, addr 0x356425c, size 0x6c, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetOctetOutputStream(::ArrayW<uint8_t, ::Array<uint8_t>*> buf);
 
-  /// @brief Method GetOctetOutputStream, addr 0x2634510, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method GetOctetOutputStream, addr 0x35642c8, size 0x80, virtual false, abstract: false, final false
   inline ::System::IO::Stream* GetOctetOutputStream(int32_t bufSize);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator* New_ctor(::System::IO::Stream* outStream);
 
   static inline ::Org::BouncyCastle::Asn1::BerOctetStringGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
-  /// @brief Method .ctor, addr 0x26343cc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35641d4, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream);
 
-  /// @brief Method .ctor, addr 0x2634400, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35641e8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
 
 protected:

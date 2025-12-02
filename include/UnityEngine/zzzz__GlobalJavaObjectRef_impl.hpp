@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GlobalJavaObjectRef::*)(::System::IntPtr)>(&::UnityEngine::GlobalJavaObjectRef::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x48454d0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x67f50b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GlobalJavaObjectRef::*)()>(&::UnityEngine::GlobalJavaObjectRef::Finalize)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4845540;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x67f5108;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,8 +37,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::GlobalJavaObjectRef*)>(
     &::UnityEngine::GlobalJavaObjectRef::op_Implicit___System__IntPtr)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4845614;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x67f51a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::GlobalJavaObjectRef::*)()>(&::UnityEngine::GlobalJavaObjectRef::Dispose)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x48455d4;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x67f514c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::GlobalJavaObjectRef*>::get(), "Dispose",

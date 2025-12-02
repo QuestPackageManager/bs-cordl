@@ -3,11 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(MiscHelpers)
@@ -21,7 +16,13 @@ namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -39,8 +40,7 @@ template <typename TValue> class MiscHelpers__EveryNth_d__1_1;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::MiscHelpers);
 MARK_GEN_REF_PTR_T(::UnityEngine::InputSystem::Utilities::MiscHelpers__EveryNth_d__1_1);
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerable, System.Collections.IEnumerator, System.IDisposable,
-// System.Object
+// Dependencies System.Object
 namespace UnityEngine::InputSystem::Utilities {
 // cpp template
 template <typename TValue>
@@ -226,7 +226,7 @@ public:
   MiscHelpers__EveryNth_d__1_1(MiscHelpers__EveryNth_d__1_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7089 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9147 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -298,7 +298,7 @@ public:
   MiscHelpers(MiscHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7090 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9148 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

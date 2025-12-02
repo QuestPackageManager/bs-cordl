@@ -3,8 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Xml/zzzz__IXmlNamespaceResolver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
@@ -17,7 +15,13 @@ namespace System::Collections::Generic {
 template <typename TKey, typename TValue> class IDictionary_2;
 }
 namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Xml {
+class IXmlNamespaceResolver;
 }
 namespace System::Xml {
 class XmlNameTable;
@@ -45,7 +49,7 @@ namespace System::Xml {
 struct CORDL_TYPE XmlNamespaceManager_NamespaceDeclaration {
 public:
   // Declarations
-  /// @brief Method Set, addr 0x4361cd8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Set, addr 0x60c94ac, size 0xc, virtual false, abstract: false, final false
   inline void Set(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex);
 
   // Ctor Parameters []
@@ -57,7 +61,7 @@ public:
   constexpr XmlNamespaceManager_NamespaceDeclaration(::StringW prefix, ::StringW uri, int32_t scopeId, int32_t previousNsIndex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7367 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9431 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -88,7 +92,7 @@ static_assert(offsetof(::System::Xml::XmlNamespaceManager_NamespaceDeclaration, 
 static_assert(::cordl_internals::size_check_v<::System::Xml::XmlNamespaceManager_NamespaceDeclaration, 0x18>, "Size mismatch!");
 
 } // namespace System::Xml
-// Dependencies System.Collections.IEnumerable, System.Object, System.Xml.IXmlNamespaceResolver
+// Dependencies System.Object
 namespace System::Xml {
 // Is value type: false
 // CS Name: System.Xml.XmlNamespaceManager
@@ -133,35 +137,35 @@ public:
   /// @brief Convert operator to "::System::Xml::IXmlNamespaceResolver"
   constexpr operator ::System::Xml::IXmlNamespaceResolver*() noexcept;
 
-  /// @brief Method AddNamespace, addr 0x4361e40, size 0x398, virtual true, abstract: false, final false
+  /// @brief Method AddNamespace, addr 0x60c95fc, size 0x3d8, virtual true, abstract: false, final false
   inline void AddNamespace(::StringW prefix, ::StringW uri);
 
-  /// @brief Method GetEnumerator, addr 0x436249c, size 0x174, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x60c9c9c, size 0x1a8, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerator* GetEnumerator();
 
-  /// @brief Method GetNamespacesInScope, addr 0x4362610, size 0x1b8, virtual true, abstract: false, final false
+  /// @brief Method GetNamespacesInScope, addr 0x60c9e44, size 0x1ec, virtual true, abstract: false, final false
   inline ::System::Collections::Generic::IDictionary_2<::StringW, ::StringW>* GetNamespacesInScope(::System::Xml::XmlNamespaceScope scope);
 
-  /// @brief Method LookupNamespace, addr 0x43627c8, size 0x4c, virtual true, abstract: false, final false
+  /// @brief Method LookupNamespace, addr 0x60ca030, size 0x4c, virtual true, abstract: false, final false
   inline ::StringW LookupNamespace(::StringW prefix);
 
-  /// @brief Method LookupNamespaceDecl, addr 0x43621d8, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method LookupNamespaceDecl, addr 0x60c99d4, size 0x190, virtual false, abstract: false, final false
   inline int32_t LookupNamespaceDecl(::StringW prefix);
 
-  /// @brief Method LookupPrefix, addr 0x4362814, size 0xc4, virtual true, abstract: false, final false
+  /// @brief Method LookupPrefix, addr 0x60ca07c, size 0xc4, virtual true, abstract: false, final false
   inline ::StringW LookupPrefix(::StringW uri);
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor();
 
   static inline ::System::Xml::XmlNamespaceManager* New_ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method PopScope, addr 0x4361d6c, size 0xd4, virtual true, abstract: false, final false
+  /// @brief Method PopScope, addr 0x60c950c, size 0xf0, virtual true, abstract: false, final false
   inline bool PopScope();
 
-  /// @brief Method PushScope, addr 0x4361d5c, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method PushScope, addr 0x60c94fc, size 0x10, virtual true, abstract: false, final false
   inline void PushScope();
 
-  /// @brief Method RemoveNamespace, addr 0x4362368, size 0x134, virtual true, abstract: false, final false
+  /// @brief Method RemoveNamespace, addr 0x60c9b64, size 0x138, virtual true, abstract: false, final false
   inline void RemoveNamespace(::StringW prefix, ::StringW uri);
 
   constexpr ::System::Collections::Generic::Dictionary_2<::StringW, int32_t>* const& __cordl_internal_get_hashTable() const;
@@ -212,16 +216,16 @@ public:
 
   constexpr void __cordl_internal_set_xmlNs(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4361b14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c92f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x4361b1c, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x60c92f4, size 0x1b8, virtual false, abstract: false, final false
   inline void _ctor(::System::Xml::XmlNameTable* nameTable);
 
-  /// @brief Method get_DefaultNamespace, addr 0x4361cec, size 0x70, virtual true, abstract: false, final false
+  /// @brief Method get_DefaultNamespace, addr 0x60c94c0, size 0x3c, virtual true, abstract: false, final false
   inline ::StringW get_DefaultNamespace();
 
-  /// @brief Method get_NameTable, addr 0x4361ce4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_NameTable, addr 0x60c94b8, size 0x8, virtual true, abstract: false, final false
   inline ::System::Xml::XmlNameTable* get_NameTable();
 
   /// @brief Convert to "::System::Collections::IEnumerable"
@@ -245,7 +249,7 @@ public:
   XmlNamespaceManager(XmlNamespaceManager const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7368 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9432 };
 
   /// @brief Field nsdecls, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Xml::XmlNamespaceManager_NamespaceDeclaration, ::Array<::System::Xml::XmlNamespaceManager_NamespaceDeclaration>*> ___nsdecls;

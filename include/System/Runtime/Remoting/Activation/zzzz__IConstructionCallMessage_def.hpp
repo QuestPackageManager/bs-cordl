@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Messaging/zzzz__IMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodCallMessage_def.hpp"
-#include "System/Runtime/Remoting/Messaging/zzzz__IMethodMessage_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(IConstructionCallMessage)
 namespace System::Collections {
@@ -13,6 +10,15 @@ class IList;
 }
 namespace System::Runtime::Remoting::Activation {
 class IActivator;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodCallMessage;
+}
+namespace System::Runtime::Remoting::Messaging {
+class IMethodMessage;
 }
 namespace System {
 class Object;
@@ -26,7 +32,7 @@ class IConstructionCallMessage;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::IConstructionCallMessage);
-// Dependencies System.Runtime.Remoting.Messaging.IMessage, System.Runtime.Remoting.Messaging.IMethodCallMessage, System.Runtime.Remoting.Messaging.IMethodMessage
+// Dependencies
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Activation.IConstructionCallMessage
@@ -84,7 +90,7 @@ public:
   IConstructionCallMessage(IConstructionCallMessage const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3133 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3150 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

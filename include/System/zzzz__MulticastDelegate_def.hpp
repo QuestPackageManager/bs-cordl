@@ -37,31 +37,31 @@ public:
   /// @brief Field delegates, offset 0x78, size 0x8
   __declspec(property(get = __cordl_internal_get_delegates, put = __cordl_internal_set_delegates)) ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> delegates;
 
-  /// @brief Method CombineImpl, addr 0x3e3aba8, size 0x268, virtual true, abstract: false, final true
+  /// @brief Method CombineImpl, addr 0x5a807ec, size 0x264, virtual true, abstract: false, final true
   inline ::System::Delegate* CombineImpl(::System::Delegate* follow);
 
-  /// @brief Method DynamicInvokeImpl, addr 0x3e3a89c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method DynamicInvokeImpl, addr 0x5a80518, size 0x98, virtual true, abstract: false, final true
   inline ::System::Object* DynamicInvokeImpl(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
 
-  /// @brief Method Equals, addr 0x3e3a934, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x5a805b0, size 0x120, virtual true, abstract: false, final true
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x3e3aa90, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method GetHashCode, addr 0x5a806d0, size 0x4, virtual true, abstract: false, final true
   inline int32_t GetHashCode();
 
-  /// @brief Method GetInvocationList, addr 0x3e3aadc, size 0xcc, virtual true, abstract: false, final true
+  /// @brief Method GetInvocationList, addr 0x5a8071c, size 0xd0, virtual true, abstract: false, final true
   inline ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> GetInvocationList();
 
-  /// @brief Method GetMethodImpl, addr 0x3e3aa94, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetMethodImpl, addr 0x5a806d4, size 0x48, virtual true, abstract: false, final false
   inline ::System::Reflection::MethodInfo* GetMethodImpl();
 
-  /// @brief Method GetObjectData, addr 0x3e3a898, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method GetObjectData, addr 0x5a80514, size 0x4, virtual true, abstract: false, final false
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method LastIndexOf, addr 0x3e3ae10, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method LastIndexOf, addr 0x5a80a50, size 0x130, virtual false, abstract: false, final false
   inline int32_t LastIndexOf(::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> haystack, ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> needle);
 
-  /// @brief Method RemoveImpl, addr 0x3e3af3c, size 0x2e0, virtual true, abstract: false, final true
+  /// @brief Method RemoveImpl, addr 0x5a80b80, size 0x2f4, virtual true, abstract: false, final true
   inline ::System::Delegate* RemoveImpl(::System::Delegate* value);
 
   constexpr ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> const& __cordl_internal_get_delegates() const;
@@ -85,7 +85,7 @@ public:
   MulticastDelegate(MulticastDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2613 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2621 };
 
   /// @brief Field delegates, offset: 0x78, size: 0x8, def value: None
   ::ArrayW<::System::Delegate*, ::Array<::System::Delegate*>*> ___delegates;

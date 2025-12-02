@@ -2,7 +2,6 @@
 // IWYU pragma private; include "System/Threading/Tasks/TaskScheduler.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__ConditionalWeakTable_2_def.hpp"
 #include "System/Threading/Tasks/zzzz__TaskScheduler_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_def.hpp"
 #include "System/Threading/Tasks/zzzz__UnobservedTaskExceptionEventArgs_def.hpp"
@@ -46,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::TaskScheduler::*)(::System::Threading::Tasks::Task*, bool)>(
     &::System::Threading::Tasks::TaskScheduler::TryRunInline)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x3e652b4;
+  constexpr static std::size_t size = 0x1d8;
+  constexpr static std::size_t addrs = 0x5aa77b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -63,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::TaskScheduler::*)(::System::Threading::Tasks::Task*)>(
     &::System::Threading::Tasks::TaskScheduler::TryDequeue)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6b734;
+  constexpr static std::size_t addrs = 0x5ab182c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskScheduler::*)()>(
     &::System::Threading::Tasks::TaskScheduler::NotifyWorkItemProgress)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3e6b73c;
+  constexpr static std::size_t addrs = 0x5ab1834;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Threading::Tasks::TaskScheduler::*)()>(
     &::System::Threading::Tasks::TaskScheduler::get_RequiresAtomicStartTransition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6b740;
+  constexpr static std::size_t addrs = 0x5ab1838;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,8 +105,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::Tasks::TaskScheduler::*)()>(&::System::Threading::Tasks::TaskScheduler::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3e6b748;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5ab1840;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(), ".ctor",
@@ -119,8 +118,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::TaskScheduler* (*)()>(&::System::Threading::Tasks::TaskScheduler::get_Default)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3e6b750;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5ab1844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(), "get_Default",
@@ -132,8 +131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::TaskScheduler* (*)()>(&::System::Threading::Tasks::TaskScheduler::get_Current)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3e65c1c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x5aab850;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(), "get_Current",
@@ -145,8 +144,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::TaskScheduler* (*)()>(&::System::Threading::Tasks::TaskScheduler::get_InternalCurrent)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3e648f4;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x5aaa8b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(),
@@ -158,8 +157,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Threading::Tasks::TaskScheduler::*)()>(&::System::Threading::Tasks::TaskScheduler::get_Id)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3e654a8;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5aab2a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get(), "get_Id",
@@ -172,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Object*, ::System::Threading::Tasks::UnobservedTaskExceptionEventArgs*)>(
     &::System::Threading::Tasks::TaskScheduler::PublishUnobservedTaskException)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x3e6a90c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x5ab0828;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -194,17 +193,6 @@ constexpr int32_t const& System::Threading::Tasks::TaskScheduler::__cordl_intern
 constexpr void System::Threading::Tasks::TaskScheduler::__cordl_internal_set_m_taskSchedulerId(int32_t value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_taskSchedulerId = value;
-}
-inline void System::Threading::Tasks::TaskScheduler::setStaticF_s_activeTaskSchedulers(
-    ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>* value) {
-  ::cordl_internals::setStaticField<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>*, "s_activeTaskSchedulers",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get>(
-      std::forward<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>*>(value));
-}
-inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>*
-System::Threading::Tasks::TaskScheduler::getStaticF_s_activeTaskSchedulers() {
-  return ::cordl_internals::getStaticField<::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Threading::Tasks::TaskScheduler*, ::System::Object*>*, "s_activeTaskSchedulers",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Threading::Tasks::TaskScheduler*>::get>();
 }
 inline void System::Threading::Tasks::TaskScheduler::setStaticF_s_defaultTaskScheduler(::System::Threading::Tasks::TaskScheduler* value) {
   ::cordl_internals::setStaticField<::System::Threading::Tasks::TaskScheduler*, "s_defaultTaskScheduler",

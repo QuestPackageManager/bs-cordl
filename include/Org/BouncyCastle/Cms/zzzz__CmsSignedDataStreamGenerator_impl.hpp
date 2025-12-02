@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CmsSignedDataStreamGenerator.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedGenerator_impl.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__ISignerInfoGenerator_impl.hpp"
 #include "Org/BouncyCastle/Utilities/IO/zzzz__BaseOutputStream_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CmsSignedDataStreamGenerator_def.hpp"
@@ -35,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder::*)(
     ::Org::BouncyCastle::Cms::ISignerInfoGenerator*, ::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2666410;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x359595c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -53,8 +52,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder::*)()>(
         &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_DigestAndSignerInfoGeneratorHolder::get_DigestAlgorithm)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2668128;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x35975ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -114,8 +113,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator*, ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*, ::StringW, ::StringW,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl::_ctor)> {
-  constexpr static std::size_t size = 0x318;
-  constexpr static std::size_t addrs = 0x26660f8;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x3595634;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,8 +136,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*,
                                                                                        ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_SignerInfoGeneratorImpl::Generate)> {
-  constexpr static std::size_t size = 0x8ac;
-  constexpr static std::size_t addrs = 0x2668248;
+  constexpr static std::size_t size = 0x8c4;
+  constexpr static std::size_t addrs = 0x3597700;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -292,8 +291,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::*)(
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator*, ::System::IO::Stream*, ::StringW, ::Org::BouncyCastle::Asn1::BerSequenceGenerator*, ::Org::BouncyCastle::Asn1::BerSequenceGenerator*,
     ::Org::BouncyCastle::Asn1::BerSequenceGenerator*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::_ctor)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x2667b38;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x3596fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -313,8 +312,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::*)(uint8_t)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::WriteByte)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2668afc;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3597fe8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -329,8 +328,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::Write)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x2668b20;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x3598008;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -345,8 +344,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::Close)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2668b44;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x3598028;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -361,8 +360,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::DoClose)> {
-  constexpr static std::size_t size = 0xff0;
-  constexpr static std::size_t addrs = 0x2668b60;
+  constexpr static std::size_t size = 0xf08;
+  constexpr static std::size_t addrs = 0x359804c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,7 +376,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Asn1::Asn1Generator*, ::Org::BouncyCastle::Asn1::Asn1Encodable*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator_CmsSignedDataOutputStream::WriteToGenerator)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x2669b50;
+  constexpr static std::size_t addrs = 0x3598f54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -519,8 +518,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)()>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x2664f48;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3594468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator*>::get(),
@@ -533,8 +532,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::Org::BouncyCastle::Security::SecureRandom*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x2665554;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3594a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -549,7 +548,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(int32_t)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::SetBufferSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x266562c;
+  constexpr static std::size_t addrs = 0x3594b54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -564,7 +563,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::ArrayW<::StringW, ::Array<::StringW>*>)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddDigests)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2665634;
+  constexpr static std::size_t addrs = 0x3594b5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -578,8 +577,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddDigests)> {
-  constexpr static std::size_t size = 0x31c;
-  constexpr static std::size_t addrs = 0x26651c0;
+  constexpr static std::size_t size = 0x2e0;
+  constexpr static std::size_t addrs = 0x3594708;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -593,8 +592,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2665864;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x3594d98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -610,8 +609,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x26659a0;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x3594edc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -628,8 +627,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::Org::BouncyCastle::Asn1::Cms::AttributeTable*,
     ::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2665ad0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3595014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -648,8 +647,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::StringW, ::Org::BouncyCastle::Asn1::Cms::AttributeTable*,
     ::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x2665b94;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x35950d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -668,8 +667,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x26658e8;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x3594e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -688,8 +687,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::X509::X509Certificate*, ::StringW, ::StringW, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2665a2c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x3594f6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -707,8 +706,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x2665dc8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x35952f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -724,8 +723,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW, ::StringW)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x2665f04;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x359543c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -742,8 +741,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW, ::Org::BouncyCastle::Asn1::Cms::AttributeTable*,
     ::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x2666034;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x3595574;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -762,8 +761,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x2665e4c;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x3595380;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -782,8 +781,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::ArrayW<uint8_t, ::Array<uint8_t>*>, ::StringW, ::StringW, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSigner)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2665f90;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x35954cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -802,8 +801,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*, ::Org::BouncyCastle::Asn1::Cms::SignerIdentifier*, ::StringW, ::StringW, ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*,
     ::Org::BouncyCastle::Cms::CmsAttributeTableGenerator*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::DoAddSigner)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x2665c68;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x359519c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -822,7 +821,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::Org::BouncyCastle::Cms::SignerInformation*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AddSignerCallback)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x266643c;
+  constexpr static std::size_t addrs = 0x3595964;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -838,7 +837,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::Open)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26665d0;
+  constexpr static std::size_t addrs = 0x3595b1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -852,8 +851,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::IO::Stream*, bool)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::Open)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x26665d8;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x3595b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator*>::get(),
@@ -868,8 +867,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::IO::Stream*, bool, ::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::Open)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x2666654;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x3595ba4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -884,8 +883,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::IO::Stream*, ::StringW, bool)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::Open)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x2665010;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x3594544;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -900,8 +899,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::IO::Stream*, ::StringW, bool, ::System::IO::Stream*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::Open)> {
-  constexpr static std::size_t size = 0x82c;
-  constexpr static std::size_t addrs = 0x26666dc;
+  constexpr static std::size_t size = 0x7e8;
+  constexpr static std::size_t addrs = 0x3595c30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -917,8 +916,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::RegisterDigestOid)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x2666474;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x359599c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -932,8 +931,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::StringW)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::ConfigureDigest)> {
-  constexpr static std::size_t size = 0x22c;
-  constexpr static std::size_t addrs = 0x2665638;
+  constexpr static std::size_t size = 0x238;
+  constexpr static std::size_t addrs = 0x3594b60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -947,8 +946,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(
     ::System::IO::Stream*, ::StringW, bool, ::System::IO::Stream*, ::Org::BouncyCastle::Cms::CmsProcessable*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::Generate)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x2667bd8;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x3597090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -965,8 +964,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (
     ::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::Org::BouncyCastle::Asn1::DerObjectIdentifier*)>(&::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::CalculateVersion)> {
-  constexpr static std::size_t size = 0x71c;
-  constexpr static std::size_t addrs = 0x2666f08;
+  constexpr static std::size_t size = 0x6c4;
+  constexpr static std::size_t addrs = 0x3596418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -980,8 +979,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::*)(::System::Collections::IList*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::CheckForVersion3)> {
-  constexpr static std::size_t size = 0x370;
-  constexpr static std::size_t addrs = 0x2667ce4;
+  constexpr static std::size_t size = 0x350;
+  constexpr static std::size_t addrs = 0x35971bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -995,8 +994,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(::System::Collections::ICollection*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::AttachDigestsToOutputStream)> {
-  constexpr static std::size_t size = 0x3a4;
-  constexpr static std::size_t addrs = 0x2667794;
+  constexpr static std::size_t size = 0x384;
+  constexpr static std::size_t addrs = 0x3596c68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1011,8 +1010,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::GetSafeOutputStream)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x2668054;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x359750c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -1026,8 +1025,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (*)(::System::IO::Stream*, ::System::IO::Stream*)>(
     &::Org::BouncyCastle::Cms::CmsSignedDataStreamGenerator::GetSafeTeeOutputStream)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x26676b4;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x3596b74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

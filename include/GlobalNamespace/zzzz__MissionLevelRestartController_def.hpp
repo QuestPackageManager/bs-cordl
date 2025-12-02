@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__ILevelRestartController_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 CORDL_MODULE_EXPORT(MissionLevelRestartController)
+namespace GlobalNamespace {
+class ILevelRestartController;
+}
 namespace GlobalNamespace {
 class MissionLevelScenesTransitionSetupDataSO;
 }
@@ -21,7 +23,7 @@ class MissionLevelRestartController;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionLevelRestartController);
-// Dependencies ILevelRestartController, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionLevelRestartController
@@ -47,7 +49,7 @@ public:
 
   static inline ::GlobalNamespace::MissionLevelRestartController* New_ctor();
 
-  /// @brief Method RestartLevel, addr 0x3bb10b0, size 0xac, virtual true, abstract: false, final true
+  /// @brief Method RestartLevel, addr 0x57a13c4, size 0xb4, virtual true, abstract: false, final true
   inline void RestartLevel();
 
   constexpr ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> const& __cordl_internal_get__missionLevelSceneSetupData() const;
@@ -68,7 +70,7 @@ public:
 
   constexpr void __cordl_internal_set__prepareLevelCompletionResults(::UnityW<::GlobalNamespace::PrepareLevelCompletionResults> value);
 
-  /// @brief Method .ctor, addr 0x3bb115c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57a1478, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::GlobalNamespace::ILevelRestartController"
@@ -89,7 +91,7 @@ public:
   MissionLevelRestartController(MissionLevelRestartController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4452 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6032 };
 
   /// @brief Field _missionLevelSceneSetupData, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO> ____missionLevelSceneSetupData;

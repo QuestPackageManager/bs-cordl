@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::PercentSlider::*)(float_t)>(&::HMUI::PercentSlider::TextForValue)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x39f0ed4;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5668fe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::PercentSlider::*)()>(&::HMUI::PercentSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f0f60;
+  constexpr static std::size_t addrs = 0x566908c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::PercentSlider*>::get(), ".ctor",

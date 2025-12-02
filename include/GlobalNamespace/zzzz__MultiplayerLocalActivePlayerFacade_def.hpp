@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsListener_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerLevelEndActionsPublisher_def.hpp"
-#include "GlobalNamespace/zzzz__IStartSeekSongControllerProvider_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerPlayerStartState_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "Zenject/zzzz__PlaceholderFactory_2_def.hpp"
@@ -18,6 +15,15 @@ class BeatmapObjectManager;
 }
 namespace GlobalNamespace {
 class GameSongController;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsListener;
+}
+namespace GlobalNamespace {
+class IMultiplayerLevelEndActionsPublisher;
+}
+namespace GlobalNamespace {
+class IStartSeekSongControllerProvider;
 }
 namespace GlobalNamespace {
 class IStartSeekSongController;
@@ -63,7 +69,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3bc3380, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57b44f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -81,7 +87,7 @@ public:
   MultiplayerLocalActivePlayerFacade_Factory(MultiplayerLocalActivePlayerFacade_Factory const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4516 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6096 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -89,7 +95,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerLocalActivePlayerFacade_Factory, 0x20>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies IMultiplayerLevelEndActionsListener, IMultiplayerLevelEndActionsPublisher, IStartSeekSongControllerProvider, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MultiplayerLocalActivePlayerFacade
@@ -151,27 +157,27 @@ public:
   /// @brief Convert operator to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr operator ::GlobalNamespace::IStartSeekSongControllerProvider*() noexcept;
 
-  /// @brief Method DisablePlayer, addr 0x3bc32a0, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method DisablePlayer, addr 0x57b4428, size 0x58, virtual false, abstract: false, final false
   inline void DisablePlayer();
 
   static inline ::GlobalNamespace::MultiplayerLocalActivePlayerFacade* New_ctor();
 
-  /// @brief Method PauseSpawning, addr 0x3bc3304, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method PauseSpawning, addr 0x57b4480, size 0x1c, virtual false, abstract: false, final false
   inline void PauseSpawning();
 
-  /// @brief Method ReportPlayerDidFinish, addr 0x3bc3268, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerDidFinish, addr 0x57b43f0, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerDidFinish(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x3bc3284, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method ReportPlayerNetworkDidFailed, addr 0x57b440c, size 0x1c, virtual true, abstract: false, final true
   inline void ReportPlayerNetworkDidFailed(::GlobalNamespace::MultiplayerLevelCompletionResults* results);
 
-  /// @brief Method ResumeSpawning, addr 0x3bc3320, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ResumeSpawning, addr 0x57b449c, size 0x1c, virtual false, abstract: false, final false
   inline void ResumeSpawning();
 
-  /// @brief Method __ForceStopSong, addr 0x3bc333c, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method __ForceStopSong, addr 0x57b44b8, size 0x34, virtual false, abstract: false, final false
   inline void __ForceStopSong();
 
-  /// @brief Method __GetActiveOnlyGameObjects, addr 0x3bc3370, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method __GetActiveOnlyGameObjects, addr 0x57b44ec, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> __GetActiveOnlyGameObjects();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__activeOnlyGameObjects() const;
@@ -234,25 +240,25 @@ public:
 
   constexpr void __cordl_internal_set_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method .ctor, addr 0x3bc3378, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57b44f4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_playerDidFinishEvent, addr 0x3bc2fa8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerDidFinishEvent, addr 0x57b40f0, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x3bc3108, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method add_playerNetworkDidFailedEvent, addr 0x57b4270, size 0xc0, virtual true, abstract: false, final true
   inline void add_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x3bc2f84, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method get_currentLocalPlayerLevelCompletionResult, addr 0x57b40d0, size 0x20, virtual false, abstract: false, final false
   inline ::GlobalNamespace::LevelCompletionResults* get_currentLocalPlayerLevelCompletionResult();
 
-  /// @brief Method get_introAnimator, addr 0x3bc2f6c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_introAnimator, addr 0x57b40b8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::GlobalNamespace::MultiplayerLocalActivePlayerIntroAnimator> get_introAnimator();
 
-  /// @brief Method get_outroAnimator, addr 0x3bc2f74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_outroAnimator, addr 0x57b40c0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::GameObject> get_outroAnimator();
 
-  /// @brief Method get_songController, addr 0x3bc2f7c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_songController, addr 0x57b40c8, size 0x8, virtual true, abstract: false, final true
   inline ::GlobalNamespace::IStartSeekSongController* get_songController();
 
   /// @brief Convert to "::GlobalNamespace::IMultiplayerLevelEndActionsListener"
@@ -264,10 +270,10 @@ public:
   /// @brief Convert to "::GlobalNamespace::IStartSeekSongControllerProvider"
   constexpr ::GlobalNamespace::IStartSeekSongControllerProvider* i___GlobalNamespace__IStartSeekSongControllerProvider() noexcept;
 
-  /// @brief Method remove_playerDidFinishEvent, addr 0x3bc3058, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerDidFinishEvent, addr 0x57b41b0, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerDidFinishEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
-  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x3bc31b8, size 0xb0, virtual true, abstract: false, final true
+  /// @brief Method remove_playerNetworkDidFailedEvent, addr 0x57b4330, size 0xc0, virtual true, abstract: false, final true
   inline void remove_playerNetworkDidFailedEvent(::System::Action_1<::GlobalNamespace::MultiplayerLevelCompletionResults*>* value);
 
 protected:
@@ -285,7 +291,7 @@ public:
   MultiplayerLocalActivePlayerFacade(MultiplayerLocalActivePlayerFacade const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4517 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6097 };
 
   /// @brief Field _activeOnlyGameObjects, offset: 0x20, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::GameObject>, ::Array<::UnityW<::UnityEngine::GameObject>>*> ____activeOnlyGameObjects;

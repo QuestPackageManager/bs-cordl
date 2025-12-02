@@ -8,7 +8,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CompressionEnabled)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffe98;
+  constexpr static std::size_t addrs = 0x624f274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CompressionEnabled)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ffea0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x624f27c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -38,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_CacheDirectoryOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffeac;
+  constexpr static std::size_t addrs = 0x624f284;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -53,42 +53,12 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(::StringW)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_CacheDirectoryOverride)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffeb4;
+  constexpr static std::size_t addrs = 0x624f28c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>::get(), "set_CacheDirectoryOverride",
         std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::CacheInitializationData.get_ExpirationDelay
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
-    &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_ExpirationDelay)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffebc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>::get(),
-                                                 "get_ExpirationDelay", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::AddressableAssets::Initialization::CacheInitializationData.set_ExpirationDelay
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int32_t)>(
-    &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_ExpirationDelay)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffec4;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>::get(), "set_ExpirationDelay",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -98,7 +68,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_LimitCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffecc;
+  constexpr static std::size_t addrs = 0x624f294;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -112,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(bool)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_LimitCacheSize)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x44ffed4;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x624f29c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -128,7 +98,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_MaximumCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffee0;
+  constexpr static std::size_t addrs = 0x624f2a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -143,7 +113,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)(int64_t)>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_MaximumCacheSize)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x44ffee8;
+  constexpr static std::size_t addrs = 0x624f2ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -157,8 +127,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::*)()>(
     &::UnityEngine::AddressableAssets::Initialization::CacheInitializationData::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x44ffef0;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x624f2b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -190,18 +160,6 @@ constexpr ::StringW const& UnityEngine::AddressableAssets::Initialization::Cache
 constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__cordl_internal_set_m_CacheDirectoryOverride(::StringW value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_CacheDirectoryOverride)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr int32_t& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__cordl_internal_get_m_ExpirationDelay() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ExpirationDelay;
-}
-constexpr int32_t const& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__cordl_internal_get_m_ExpirationDelay() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___m_ExpirationDelay;
-}
-constexpr void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__cordl_internal_set_m_ExpirationDelay(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___m_ExpirationDelay = value;
 }
 constexpr bool& UnityEngine::AddressableAssets::Initialization::CacheInitializationData::__cordl_internal_get_m_LimitCacheSize() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -249,18 +207,6 @@ inline void UnityEngine::AddressableAssets::Initialization::CacheInitializationD
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>::get(), "set_CacheDirectoryOverride",
       std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
-}
-inline int32_t UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_ExpirationDelay() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>::get(),
-                                               "get_ExpirationDelay", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
-}
-inline void UnityEngine::AddressableAssets::Initialization::CacheInitializationData::set_ExpirationDelay(int32_t value) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AddressableAssets::Initialization::CacheInitializationData*>::get(), "set_ExpirationDelay",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline bool UnityEngine::AddressableAssets::Initialization::CacheInitializationData::get_LimitCacheSize() {

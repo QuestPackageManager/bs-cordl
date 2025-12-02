@@ -11,9 +11,6 @@ class OVRCameraRig;
 namespace UnityEngine::UI {
 class Button;
 }
-namespace UnityEngine {
-class LineRenderer;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class OVRControllerDrivenHandPosesSample;
@@ -36,49 +33,22 @@ public:
   /// @brief Field buttonOff, offset 0x20, size 0x8
   __declspec(property(get = __cordl_internal_get_buttonOff, put = __cordl_internal_set_buttonOff)) ::UnityW<::UnityEngine::UI::Button> buttonOff;
 
-  /// @brief Field cameraRig, offset 0x48, size 0x8
+  /// @brief Field cameraRig, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_cameraRig, put = __cordl_internal_set_cameraRig)) ::UnityW<::GlobalNamespace::OVRCameraRig> cameraRig;
 
-  /// @brief Field leftLinePointer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_leftLinePointer, put = __cordl_internal_set_leftLinePointer)) ::UnityW<::UnityEngine::LineRenderer> leftLinePointer;
-
-  /// @brief Field rightLinePointer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_rightLinePointer, put = __cordl_internal_set_rightLinePointer)) ::UnityW<::UnityEngine::LineRenderer> rightLinePointer;
-
-  /// @brief Method Awake, addr 0x3fa73dc, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5c094a4, size 0xfc, virtual false, abstract: false, final false
   inline void Awake();
-
-  /// @brief Method LateUpdate, addr 0x3fa7a74, size 0x4, virtual false, abstract: false, final false
-  inline void LateUpdate();
 
   static inline ::GlobalNamespace::OVRControllerDrivenHandPosesSample* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3fa7730, size 0x4, virtual false, abstract: false, final false
-  inline void OnDestroy();
-
-  /// @brief Method OnDisable, addr 0x3fa7738, size 0x4, virtual false, abstract: false, final false
-  inline void OnDisable();
-
-  /// @brief Method OnEnable, addr 0x3fa7734, size 0x4, virtual false, abstract: false, final false
-  inline void OnEnable();
-
-  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x3fa7588, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToControllerConforming, addr 0x5c09684, size 0xe8, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToControllerConforming();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x3fa765c, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNatural, addr 0x5c0976c, size 0xe8, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNatural();
 
-  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x3fa74b8, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method SetControllerDrivenHandPosesTypeToNone, addr 0x5c095a0, size 0xe4, virtual false, abstract: false, final false
   inline void SetControllerDrivenHandPosesTypeToNone();
-
-  /// @brief Method Update, addr 0x3fa773c, size 0x4, virtual false, abstract: false, final false
-  inline void Update();
-
-  /// @brief Method UpdateLineRenderer, addr 0x3fa7740, size 0x50, virtual false, abstract: false, final false
-  inline void UpdateLineRenderer();
-
-  /// @brief Method UpdateLineRendererForHand, addr 0x3fa7790, size 0x2e4, virtual false, abstract: false, final false
-  inline void UpdateLineRendererForHand(bool isLeft);
 
   constexpr ::UnityW<::UnityEngine::UI::Button> const& __cordl_internal_get_buttonConforming() const;
 
@@ -96,14 +66,6 @@ public:
 
   constexpr ::UnityW<::GlobalNamespace::OVRCameraRig>& __cordl_internal_get_cameraRig();
 
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_leftLinePointer() const;
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_leftLinePointer();
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer> const& __cordl_internal_get_rightLinePointer() const;
-
-  constexpr ::UnityW<::UnityEngine::LineRenderer>& __cordl_internal_get_rightLinePointer();
-
   constexpr void __cordl_internal_set_buttonConforming(::UnityW<::UnityEngine::UI::Button> value);
 
   constexpr void __cordl_internal_set_buttonNatural(::UnityW<::UnityEngine::UI::Button> value);
@@ -112,11 +74,7 @@ public:
 
   constexpr void __cordl_internal_set_cameraRig(::UnityW<::GlobalNamespace::OVRCameraRig> value);
 
-  constexpr void __cordl_internal_set_leftLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
-
-  constexpr void __cordl_internal_set_rightLinePointer(::UnityW<::UnityEngine::LineRenderer> value);
-
-  /// @brief Method .ctor, addr 0x3fa7a78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c09854, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -134,7 +92,7 @@ public:
   OVRControllerDrivenHandPosesSample(OVRControllerDrivenHandPosesSample const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7853 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7113 };
 
   /// @brief Field buttonOff, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonOff;
@@ -145,13 +103,7 @@ public:
   /// @brief Field buttonNatural, offset: 0x30, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ___buttonNatural;
 
-  /// @brief Field leftLinePointer, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::LineRenderer> ___leftLinePointer;
-
-  /// @brief Field rightLinePointer, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::LineRenderer> ___rightLinePointer;
-
-  /// @brief Field cameraRig, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field cameraRig, offset: 0x38, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::OVRCameraRig> ___cameraRig;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -163,13 +115,9 @@ static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, __
 
 static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___buttonNatural) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___leftLinePointer) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___cameraRig) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___rightLinePointer) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::OVRControllerDrivenHandPosesSample, ___cameraRig) == 0x48, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerDrivenHandPosesSample, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRControllerDrivenHandPosesSample, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRControllerDrivenHandPosesSample);

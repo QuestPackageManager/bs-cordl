@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/CounterSignatureDigestCalculator.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__CounterSignatureDigestCalculator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::*)(
     ::StringW, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2675994;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35a4f00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -24,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::*)()>(
     &::Org::BouncyCastle::Cms::CounterSignatureDigestCalculator::GetDigest)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x26759c0;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x35a4f08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

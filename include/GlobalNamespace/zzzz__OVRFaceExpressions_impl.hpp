@@ -2,18 +2,17 @@
 // IWYU pragma private; include "GlobalNamespace/OVRFaceExpressions.hpp"
 #include "GlobalNamespace/zzzz__OVRPermissionsRequester_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
 #include "GlobalNamespace/zzzz__OVRFaceExpressions_def.hpp"
+#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions_WeightProvider.GetWeight
 template <>
@@ -45,6 +44,15 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::OVRFaceExp
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::Lower{ static_cast<int32_t>(0x0) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::Upper{ static_cast<int32_t>(0x1) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence::Max{ static_cast<int32_t>(0x2) };
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::OVRFaceExpressions_FaceTrackingDataSource(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::OVRFaceExpressions_FaceTrackingDataSource() {}
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::Visual{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::Audio{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource::Count{ static_cast<int32_t>(0x2) };
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression::OVRFaceExpressions_FaceExpression(int32_t value__) noexcept {
   this->value__ = value__;
@@ -115,14 +123,21 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::UpperLidRaiserR{ static_cast<int32_t>(0x3c) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::UpperLipRaiserL{ static_cast<int32_t>(0x3d) };
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::UpperLipRaiserR{ static_cast<int32_t>(0x3e) };
-constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::Max{ static_cast<int32_t>(0x3f) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueTipInterdental{ static_cast<int32_t>(0x3f) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueTipAlveolar{ static_cast<int32_t>(0x40) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueFrontDorsalPalate{ static_cast<int32_t>(0x41) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueMidDorsalPalate{ static_cast<int32_t>(0x42) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueBackDorsalVelar{ static_cast<int32_t>(0x43) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueOut{ static_cast<int32_t>(0x44) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::TongueRetreat{ static_cast<int32_t>(0x45) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpression GlobalNamespace::OVRFaceExpressions_FaceExpression::Max{ static_cast<int32_t>(0x46) };
 //  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::*)(::ArrayW<float_t, ::Array<float_t>*>)>(
     &::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::_ctor)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3faa15c;
+  constexpr static std::size_t addrs = 0x5c0bd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::*)()>(
     &::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::MoveNext)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3faa288;
+  constexpr static std::size_t addrs = 0x5c0bec0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -152,7 +167,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::*)()>(
     &::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::get_Current)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3faa2a4;
+  constexpr static std::size_t addrs = 0x5c0bedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -166,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::*)()>(
     &::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::System_Collections_IEnumerator_get_Current)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3faa2d8;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5c0bf10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -182,7 +197,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::*)()>(
     &::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3faa338;
+  constexpr static std::size_t addrs = 0x5c0bf34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -197,7 +212,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::*)()>(
     &::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::Dispose)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3faa344;
+  constexpr static std::size_t addrs = 0x5c0bf40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -276,12 +291,35 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::OVRFa
 }
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator::OVRFaceExpressions_FaceExpressionsEnumerator() {}
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme::OVRFaceExpressions_FaceViseme(int32_t value__) noexcept {
+  this->value__ = value__;
+}
+// Ctor Parameters []
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme::OVRFaceExpressions_FaceViseme() {}
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::Invalid{ static_cast<int32_t>(0xffffffff) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::SIL{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::PP{ static_cast<int32_t>(0x1) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::FF{ static_cast<int32_t>(0x2) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::TH{ static_cast<int32_t>(0x3) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::DD{ static_cast<int32_t>(0x4) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::KK{ static_cast<int32_t>(0x5) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::CH{ static_cast<int32_t>(0x6) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::SS{ static_cast<int32_t>(0x7) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::NN{ static_cast<int32_t>(0x8) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::RR{ static_cast<int32_t>(0x9) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::AA{ static_cast<int32_t>(0xa) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::E{ static_cast<int32_t>(0xb) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::IH{ static_cast<int32_t>(0xc) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::OH{ static_cast<int32_t>(0xd) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::OU{ static_cast<int32_t>(0xe) };
+constexpr ::GlobalNamespace::OVRFaceExpressions_FaceViseme GlobalNamespace::OVRFaceExpressions_FaceViseme::Count{ static_cast<int32_t>(0xf) };
 //  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.get_FaceTrackingEnabled
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::get_FaceTrackingEnabled)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3fa98ac;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5c0af90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
@@ -294,7 +332,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::get_ValidExpressions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa98fc;
+  constexpr static std::size_t addrs = 0x5c0afe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
@@ -307,8 +345,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)(bool)>(
     &::GlobalNamespace::OVRFaceExpressions::set_ValidExpressions)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fa9904;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c0afec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -323,7 +361,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)()>(
     &::GlobalNamespace::OVRFaceExpressions::get_EyeFollowingBlendshapesValid)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3fa9910;
+  constexpr static std::size_t addrs = 0x5c0aff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -337,12 +375,39 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)(bool)>(
     &::GlobalNamespace::OVRFaceExpressions::set_EyeFollowingBlendshapesValid)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fa9918;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c0affc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "set_EyeFollowingBlendshapesValid",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.get_AreVisemesValid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::get_AreVisemesValid)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c0b004;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
+                                                                               "get_AreVisemesValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.set_AreVisemesValid
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)(bool)>(&::GlobalNamespace::OVRFaceExpressions::set_AreVisemesValid)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5c0b00c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "set_AreVisemesValid",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
@@ -352,7 +417,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::Awake)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3fa9924;
+  constexpr static std::size_t addrs = 0x5c0b014;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "Awake",
@@ -364,8 +429,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::OnEnable)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3fa99a0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5c0b090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "OnEnable",
@@ -378,8 +443,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)(::StringW)>(
     &::GlobalNamespace::OVRFaceExpressions::OnPermissionGranted)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x3fa9af0;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5c0b250;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -388,12 +453,28 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.GetRequestedFaceTrackingDataSources
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<::ArrayW<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource, ::Array<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource>*> (::GlobalNamespace::OVRFaceExpressions::*)()>(
+        &::GlobalNamespace::OVRFaceExpressions::GetRequestedFaceTrackingDataSources)> {
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x5c0b2c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "GetRequestedFaceTrackingDataSources",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.StartFaceTracking
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::StartFaceTracking)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3fa9a18;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5c0b10c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
@@ -405,8 +486,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::OnDisable)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3fa9b50;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5c0b38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "OnDisable",
@@ -419,7 +500,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::OnDestroy)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3fa9bd8;
+  constexpr static std::size_t addrs = 0x5c0b41c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "OnDestroy",
@@ -431,8 +512,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::Update)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3fa9be4;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5c0b428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "Update",
@@ -445,8 +526,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFaceExpressions::*)(::GlobalNamespace::OVRFaceExpressions_FaceExpression)>(
     &::GlobalNamespace::OVRFaceExpressions::get_Item)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3fa9c80;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5c0b500;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -461,7 +542,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFaceExpressions::*)(::GlobalNamespace::OVRFaceExpressions_FaceExpression)>(
     &::GlobalNamespace::OVRFaceExpressions::GetWeight)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fa9dd8;
+  constexpr static std::size_t addrs = 0x5c0b650;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -475,8 +556,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)(
     ::GlobalNamespace::OVRFaceExpressions_FaceExpression, ::ByRef<float_t>)>(&::GlobalNamespace::OVRFaceExpressions::TryGetFaceExpressionWeight)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fa9ddc;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5c0b654;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -486,13 +567,60 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.GetViseme
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::OVRFaceExpressions::*)(::GlobalNamespace::OVRFaceExpressions_FaceViseme)>(
+    &::GlobalNamespace::OVRFaceExpressions::GetViseme)> {
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5c0b6a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "GetViseme", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRFaceExpressions_FaceViseme>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.TryGetFaceViseme
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)(::GlobalNamespace::OVRFaceExpressions_FaceViseme, ::ByRef<float_t>)>(
+    &::GlobalNamespace::OVRFaceExpressions::TryGetFaceViseme)> {
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5c0b7f4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "TryGetFaceViseme", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRFaceExpressions_FaceViseme>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.CopyVisemesTo
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
+    &::GlobalNamespace::OVRFaceExpressions::CopyVisemesTo)> {
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x5c0b844;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "CopyVisemesTo", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.TryGetWeightConfidence
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)(
     ::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence, ::ByRef<float_t>)>(&::GlobalNamespace::OVRFaceExpressions::TryGetWeightConfidence)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fa9e38;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5c0ba74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -502,16 +630,44 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.TryGetFaceTrackingDataSource
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRFaceExpressions::*)(
+    ::ByRef<::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource>)>(&::GlobalNamespace::OVRFaceExpressions::TryGetFaceTrackingDataSource)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5c0bac4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "TryGetFaceTrackingDataSource", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource>>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.CheckValidity
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::CheckValidity)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3fa9d7c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5c0b5f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "CheckValidity",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRFaceExpressions.CheckVisemesValidity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::CheckVisemesValidity)> {
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5c0b79c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
+                                                                               "CheckVisemesValidity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -520,8 +676,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)(::ArrayW<float_t, ::Array<float_t>*>, int32_t)>(
     &::GlobalNamespace::OVRFaceExpressions::CopyTo)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x3fa9e94;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x5c0bad8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -536,8 +692,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<float_t, ::Array<float_t>*> (::GlobalNamespace::OVRFaceExpressions::*)()>(
     &::GlobalNamespace::OVRFaceExpressions::ToArray)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3faa0d8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5c0bd08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "ToArray",
@@ -551,7 +707,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::OVRFaceExpressions_FaceExpressionsEnumerator (::GlobalNamespace::OVRFaceExpressions::*)()>(
     &::GlobalNamespace::OVRFaceExpressions::GetEnumerator)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3faa13c;
+  constexpr static std::size_t addrs = 0x5c0bd70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "GetEnumerator",
@@ -564,8 +720,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerator_1<float_t>* (::GlobalNamespace::OVRFaceExpressions::*)()>(
     &::GlobalNamespace::OVRFaceExpressions::System_Collections_Generic_IEnumerable_System_Single__GetEnumerator)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3faa180;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5c0bdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -579,8 +735,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::GlobalNamespace::OVRFaceExpressions::*)()>(
     &::GlobalNamespace::OVRFaceExpressions::System_Collections_IEnumerable_GetEnumerator)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3faa1f4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5c0be2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -594,7 +750,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::get_Count)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3faa268;
+  constexpr static std::size_t addrs = 0x5c0bea4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "get_Count",
@@ -606,8 +762,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRFaceExpressions::*)()>(&::GlobalNamespace::OVRFaceExpressions::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3faa280;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5c0bebc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), ".ctor",
@@ -650,6 +806,30 @@ constexpr ::GlobalNamespace::OVRPlugin_FaceState const& GlobalNamespace::OVRFace
 constexpr void GlobalNamespace::OVRFaceExpressions::__cordl_internal_set__currentFaceState(::GlobalNamespace::OVRPlugin_FaceState value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->____currentFaceState = value;
+}
+constexpr bool& GlobalNamespace::OVRFaceExpressions::__cordl_internal_get__AreVisemesValid_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____AreVisemesValid_k__BackingField;
+}
+constexpr bool const& GlobalNamespace::OVRFaceExpressions::__cordl_internal_get__AreVisemesValid_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____AreVisemesValid_k__BackingField;
+}
+constexpr void GlobalNamespace::OVRFaceExpressions::__cordl_internal_set__AreVisemesValid_k__BackingField(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____AreVisemesValid_k__BackingField = value;
+}
+constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesState& GlobalNamespace::OVRFaceExpressions::__cordl_internal_get__currentFaceVisemesState() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentFaceVisemesState;
+}
+constexpr ::GlobalNamespace::OVRPlugin_FaceVisemesState const& GlobalNamespace::OVRFaceExpressions::__cordl_internal_get__currentFaceVisemesState() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____currentFaceVisemesState;
+}
+constexpr void GlobalNamespace::OVRFaceExpressions::__cordl_internal_set__currentFaceVisemesState(::GlobalNamespace::OVRPlugin_FaceVisemesState value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____currentFaceVisemesState = value;
 }
 constexpr ::System::Action_1<::StringW>*& GlobalNamespace::OVRFaceExpressions::__cordl_internal_get__onPermissionGranted() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -697,6 +877,17 @@ inline void GlobalNamespace::OVRFaceExpressions::set_EyeFollowingBlendshapesVali
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+inline bool GlobalNamespace::OVRFaceExpressions::get_AreVisemesValid() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
+                                                                             "get_AreVisemesValid", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRFaceExpressions::set_AreVisemesValid(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "set_AreVisemesValid",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 inline void GlobalNamespace::OVRFaceExpressions::Awake() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "Awake",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -712,6 +903,14 @@ inline void GlobalNamespace::OVRFaceExpressions::OnPermissionGranted(::StringW p
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "OnPermissionGranted",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, permissionId);
+}
+inline ::ArrayW<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource, ::Array<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource>*>
+GlobalNamespace::OVRFaceExpressions::GetRequestedFaceTrackingDataSources() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "GetRequestedFaceTrackingDataSources",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::ArrayW<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource, ::Array<::GlobalNamespace::OVRPlugin_FaceTrackingDataSource>*>, false>(this,
+                                                                                                                                                                                  ___internal_method);
 }
 inline bool GlobalNamespace::OVRFaceExpressions::StartFaceTracking() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "StartFaceTracking",
@@ -752,6 +951,26 @@ inline bool GlobalNamespace::OVRFaceExpressions::TryGetFaceExpressionWeight(::Gl
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, expression, weight);
 }
+inline float_t GlobalNamespace::OVRFaceExpressions::GetViseme(::GlobalNamespace::OVRFaceExpressions_FaceViseme viseme) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "GetViseme", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRFaceExpressions_FaceViseme>::get() })));
+  return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, viseme);
+}
+inline bool GlobalNamespace::OVRFaceExpressions::TryGetFaceViseme(::GlobalNamespace::OVRFaceExpressions_FaceViseme viseme, ::ByRef<float_t> weight) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "TryGetFaceViseme", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::OVRFaceExpressions_FaceViseme>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, viseme, weight);
+}
+inline void GlobalNamespace::OVRFaceExpressions::CopyVisemesTo(::ArrayW<float_t, ::Array<float_t>*> array, int32_t startIndex) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "CopyVisemesTo", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<float_t, ::Array<float_t>*>>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, array, startIndex);
+}
 inline bool GlobalNamespace::OVRFaceExpressions::TryGetWeightConfidence(::GlobalNamespace::OVRFaceExpressions_FaceRegionConfidence region, ::ByRef<float_t> weightConfidence) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "TryGetWeightConfidence", std::span<Il2CppClass const* const, 0>(),
@@ -759,9 +978,20 @@ inline bool GlobalNamespace::OVRFaceExpressions::TryGetWeightConfidence(::Global
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<float_t>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, region, weightConfidence);
 }
+inline bool GlobalNamespace::OVRFaceExpressions::TryGetFaceTrackingDataSource(::ByRef<::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource> dataSource) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "TryGetFaceTrackingDataSource", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::GlobalNamespace::OVRFaceExpressions_FaceTrackingDataSource>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, dataSource);
+}
 inline void GlobalNamespace::OVRFaceExpressions::CheckValidity() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(), "CheckValidity",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRFaceExpressions::CheckVisemesValidity() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRFaceExpressions*>::get(),
+                                                                             "CheckVisemesValidity", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRFaceExpressions::CopyTo(::ArrayW<float_t, ::Array<float_t>*> array, int32_t startIndex) {
@@ -841,3 +1071,4 @@ constexpr ::GlobalNamespace::OVRFaceExpressions_WeightProvider* GlobalNamespace:
 // Ctor Parameters []
 constexpr ::GlobalNamespace::OVRFaceExpressions::OVRFaceExpressions() {}
 constexpr ::GlobalNamespace::OVRPermissionsRequester_Permission GlobalNamespace::OVRFaceExpressions::FaceTrackingPermission{ static_cast<int32_t>(0x0) };
+constexpr ::GlobalNamespace::OVRPermissionsRequester_Permission GlobalNamespace::OVRFaceExpressions::RecordAudioPermission{ static_cast<int32_t>(0x4) };

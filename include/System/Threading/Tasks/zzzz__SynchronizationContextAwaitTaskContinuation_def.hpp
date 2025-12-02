@@ -49,10 +49,10 @@ public:
 
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c* New_ctor();
 
-  /// @brief Method <.cctor>b__7_0, addr 0x3e69d48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__7_0, addr 0x5aafc20, size 0x70, virtual false, abstract: false, final false
   inline void __cctor_b__7_0(::System::Object* state);
 
-  /// @brief Method .ctor, addr 0x3e69d40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aafc1c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation___c* getStaticF___9();
@@ -74,7 +74,7 @@ public:
   SynchronizationContextAwaitTaskContinuation___c(SynchronizationContextAwaitTaskContinuation___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2806 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2819 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -100,16 +100,16 @@ public:
   /// @brief Field s_postCallback, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_postCallback, put = setStaticF_s_postCallback)) ::System::Threading::SendOrPostCallback* s_postCallback;
 
-  /// @brief Method GetPostActionCallback, addr 0x3e69b60, size 0xc0, virtual false, abstract: false, final false
+  /// @brief Method GetPostActionCallback, addr 0x5aafa30, size 0xcc, virtual false, abstract: false, final false
   static inline ::System::Threading::ContextCallback* GetPostActionCallback();
 
   static inline ::System::Threading::Tasks::SynchronizationContextAwaitTaskContinuation* New_ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action,
                                                                                                   bool flowExecutionContext);
 
-  /// @brief Method PostAction, addr 0x3e69acc, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method PostAction, addr 0x5aaf998, size 0x98, virtual false, abstract: false, final false
   static inline void PostAction(::System::Object* state);
 
-  /// @brief Method Run, addr 0x3e697f4, size 0x164, virtual true, abstract: false, final true
+  /// @brief Method Run, addr 0x5aaf668, size 0x1a8, virtual true, abstract: false, final true
   inline void Run(::System::Threading::Tasks::Task* ignored, bool canInlineContinuationTask);
 
   constexpr ::System::Threading::SynchronizationContext* const& __cordl_internal_get_m_syncContext() const;
@@ -118,7 +118,7 @@ public:
 
   constexpr void __cordl_internal_set_m_syncContext(::System::Threading::SynchronizationContext* value);
 
-  /// @brief Method .ctor, addr 0x3e648c4, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5aaa884, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::System::Threading::SynchronizationContext* context, ::System::Action* action, bool flowExecutionContext);
 
   static inline ::System::Threading::ContextCallback* getStaticF_s_postActionCallback();
@@ -144,7 +144,7 @@ public:
   SynchronizationContextAwaitTaskContinuation(SynchronizationContextAwaitTaskContinuation const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2807 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2820 };
 
   /// @brief Field m_syncContext, offset: 0x20, size: 0x8, def value: None
   ::System::Threading::SynchronizationContext* ___m_syncContext;

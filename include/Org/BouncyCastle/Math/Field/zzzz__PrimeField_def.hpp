@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Math/Field/zzzz__IFiniteField_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PrimeField)
+namespace Org::BouncyCastle::Math::Field {
+class IFiniteField;
+}
 namespace Org::BouncyCastle::Math {
 class BigInteger;
 }
@@ -19,7 +21,7 @@ class PrimeField;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::Field::PrimeField);
-// Dependencies Org.BouncyCastle.Math.Field.IFiniteField, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::Field {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.Field.PrimeField
@@ -36,10 +38,10 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Math::Field::IFiniteField"
   constexpr operator ::Org::BouncyCastle::Math::Field::IFiniteField*() noexcept;
 
-  /// @brief Method Equals, addr 0x24dd7a8, size 0xb4, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x340ce98, size 0xbc, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetHashCode, addr 0x24dd85c, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x340cf54, size 0x1c, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::Org::BouncyCastle::Math::Field::PrimeField* New_ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
@@ -50,13 +52,13 @@ public:
 
   constexpr void __cordl_internal_set_characteristic(::Org::BouncyCastle::Math::BigInteger* value);
 
-  /// @brief Method .ctor, addr 0x24dd120, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x340c82c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::BigInteger* characteristic);
 
-  /// @brief Method get_Characteristic, addr 0x24dd798, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Characteristic, addr 0x340ce88, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::BigInteger* get_Characteristic();
 
-  /// @brief Method get_Dimension, addr 0x24dd7a0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Dimension, addr 0x340ce90, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Dimension();
 
   /// @brief Convert to "::Org::BouncyCastle::Math::Field::IFiniteField"

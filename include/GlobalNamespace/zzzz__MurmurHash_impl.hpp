@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::GlobalNamespace::MurmurHash::MurmurHash2)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x2721c54;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x3650f20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

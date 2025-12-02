@@ -62,7 +62,7 @@ public:
   // Declarations
   static inline ::GlobalNamespace::NoteCutSoundEffect_Pool* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3ad267c, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ac9f8, size 0x3c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -80,7 +80,7 @@ public:
   NoteCutSoundEffect_Pool(NoteCutSoundEffect_Pool const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4018 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5578 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -185,31 +185,31 @@ public:
 
   __declspec(property(get = get_volumeMultiplier, put = set_volumeMultiplier)) float_t volumeMultiplier;
 
-  /// @brief Method Awake, addr 0x3ad1c74, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56abf78, size 0x84, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ComputeDSPTimes, addr 0x3ad1ec4, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeDSPTimes, addr 0x56ac1e4, size 0xac, virtual false, abstract: false, final false
   inline void ComputeDSPTimes(double_t noteDSPTime, float_t aheadTime, float_t timeToPrevNote, float_t timeToNextNote);
 
-  /// @brief Method Init, addr 0x3ad1d18, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x56ac018, size 0x1cc, virtual false, abstract: false, final false
   inline void Init(::UnityEngine::AudioClip* audioClip, ::GlobalNamespace::NoteController* noteController, double_t noteDSPTime, float_t aheadTime, float_t missedTimeOffset, float_t timeToPrevNote,
                    float_t timeToNextNote, ::GlobalNamespace::Saber* saber, bool handleWrongSaberTypeAsGood, float_t volumeMultiplier, bool ignoreSaberSpeed, bool ignoreBadCuts);
 
   static inline ::GlobalNamespace::NoteCutSoundEffect* New_ctor();
 
-  /// @brief Method NoteDidStartDissolving, addr 0x3ad257c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method NoteDidStartDissolving, addr 0x56ac8e8, size 0x80, virtual false, abstract: false, final false
   inline void NoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController);
 
-  /// @brief Method NoteWasCut, addr 0x3ad2370, size 0x20c, virtual false, abstract: false, final false
+  /// @brief Method NoteWasCut, addr 0x56ac6b8, size 0x230, virtual false, abstract: false, final false
   inline void NoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
-  /// @brief Method OnLateUpdate, addr 0x3ad1f70, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method OnLateUpdate, addr 0x56ac290, size 0x264, virtual false, abstract: false, final false
   inline void OnLateUpdate();
 
-  /// @brief Method Start, addr 0x3ad1cf8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x56abffc, size 0x1c, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method StopPlayingAndFinish, addr 0x3ad2180, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method StopPlayingAndFinish, addr 0x56ac4f4, size 0x1c4, virtual false, abstract: false, final false
   inline void StopPlayingAndFinish();
 
   constexpr float_t const& __cordl_internal_get__aheadTime() const;
@@ -368,19 +368,19 @@ public:
 
   constexpr void __cordl_internal_set__volumeMultiplier(float_t value);
 
-  /// @brief Method .ctor, addr 0x3ad25f8, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56ac968, size 0x90, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_didFinishEvent, addr 0x3ad1c30, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_didFinishEvent, addr 0x56abf34, size 0x8, virtual false, abstract: false, final false
   inline ::GlobalNamespace::ILazyCopyHashSet_1<::GlobalNamespace::INoteCutSoundEffectDidFinishEvent*>* get_didFinishEvent();
 
-  /// @brief Method get_time, addr 0x3ad1c48, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method get_time, addr 0x56abf4c, size 0x2c, virtual false, abstract: false, final false
   inline float_t get_time();
 
-  /// @brief Method get_volumeMultiplier, addr 0x3ad1c40, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_volumeMultiplier, addr 0x56abf44, size 0x8, virtual false, abstract: false, final false
   inline float_t get_volumeMultiplier();
 
-  /// @brief Method set_volumeMultiplier, addr 0x3ad1c38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_volumeMultiplier, addr 0x56abf3c, size 0x8, virtual false, abstract: false, final false
   inline void set_volumeMultiplier(float_t value);
 
 protected:
@@ -398,7 +398,7 @@ public:
   NoteCutSoundEffect(NoteCutSoundEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4019 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5579 };
 
   /// @brief Field kEndFadeLength offset 0xffffffff size 0x4
   static constexpr float_t kEndFadeLength{ static_cast<float_t>(0.01f) };

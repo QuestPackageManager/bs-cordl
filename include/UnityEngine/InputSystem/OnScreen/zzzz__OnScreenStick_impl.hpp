@@ -1,16 +1,17 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/InputSystem/OnScreen/OnScreenStick.hpp"
-#include "UnityEngine/EventSystems/zzzz__IDragHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_impl.hpp"
-#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenControl_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenStick_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IDragHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerDownHandler_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IPointerUpHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__PointerEventData_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__RaycastResult_def.hpp"
+#include "UnityEngine/InputSystem/Controls/zzzz__TouchControl_def.hpp"
 #include "UnityEngine/InputSystem/OnScreen/zzzz__OnScreenStick_def.hpp"
 #include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/zzzz__Camera_def.hpp"
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerDown)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45f8234;
+  constexpr static std::size_t addrs = 0x637f848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnDrag)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x45f8518;
+  constexpr static std::size_t addrs = 0x637fb20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::UnityEngine::EventSystems::PointerEventData*)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerUp)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x45f899c;
+  constexpr static std::size_t addrs = 0x637ff60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -74,12 +75,26 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::Start)> {
-  constexpr static std::size_t size = 0x648;
-  constexpr static std::size_t addrs = 0x45f8a74;
+  constexpr static std::size_t size = 0x750;
+  constexpr static std::size_t addrs = 0x6380044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
                                                                                "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::OnScreenStick.OnDestroy
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
+    &::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnDestroy)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x6380794;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
+                                                                               "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -88,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::BeginInteraction)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x45f82d0;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x637f8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -104,8 +119,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::UnityEngine::Vector2, ::UnityEngine::Camera*)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::MoveStick)> {
-  constexpr static std::size_t size = 0x3e8;
-  constexpr static std::size_t addrs = 0x45f85b4;
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x637fbbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +135,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::EndInteraction)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x45f89ac;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x637ff70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -134,12 +149,27 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerDown)> {
-  constexpr static std::size_t size = 0x35c;
-  constexpr static std::size_t addrs = 0x45f90bc;
+  constexpr static std::size_t size = 0x424;
+  constexpr static std::size_t addrs = 0x6380870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(), "OnPointerDown", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::InputSystem::OnScreen::OnScreenStick.OnPointerChanged
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(
+    ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerChanged)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6380db8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(), "OnPointerChanged", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
     return ___internal_method;
   }
@@ -149,8 +179,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerMove)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x45f954c;
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x6380f48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -164,8 +194,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(
     ::UnityEngine::InputSystem::InputAction_CallbackContext)>(&::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerUp)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x45f9634;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x6380e20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -179,8 +209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Camera> (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::GetCameraFromCanvas)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x45f9418;
+  constexpr static std::size_t size = 0x124;
+  constexpr static std::size_t addrs = 0x6380c94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -193,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::OnDrawGizmosSelected)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x45f96cc;
+  constexpr static std::size_t size = 0x228;
+  constexpr static std::size_t addrs = 0x6381078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -207,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::UnityEngine::Vector2, float_t)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::DrawGizmoCircle)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x45f988c;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x63812a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -223,8 +253,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::UpdateDynamicOriginClickableArea)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x45f9970;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x638136c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -239,7 +269,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::get_movementRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9a5c;
+  constexpr static std::size_t addrs = 0x6381464;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -253,7 +283,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(float_t)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::set_movementRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9a64;
+  constexpr static std::size_t addrs = 0x638146c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -268,7 +298,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::get_dynamicOriginRange)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9a6c;
+  constexpr static std::size_t addrs = 0x6381474;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -282,7 +312,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(float_t)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::set_dynamicOriginRange)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x45f9a74;
+  constexpr static std::size_t addrs = 0x638147c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -297,7 +327,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::get_useIsolatedInputActions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9a8c;
+  constexpr static std::size_t addrs = 0x6381494;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -310,8 +340,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(bool)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::set_useIsolatedInputActions)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x45f9a94;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x638149c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -326,7 +356,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::get_controlPathInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9aa0;
+  constexpr static std::size_t addrs = 0x63814a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -342,7 +372,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(::StringW)>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::set_controlPathInternal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9aa8;
+  constexpr static std::size_t addrs = 0x63814ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -358,7 +388,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour (
     ::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(&::UnityEngine::InputSystem::OnScreen::OnScreenStick::get_behaviour)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9ab0;
+  constexpr static std::size_t addrs = 0x63814b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -372,7 +402,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)(
     ::UnityEngine::InputSystem::OnScreen::OnScreenStick_Behaviour)>(&::UnityEngine::InputSystem::OnScreen::OnScreenStick::set_behaviour)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x45f9ab8;
+  constexpr static std::size_t addrs = 0x63814bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -386,8 +416,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::OnScreen::OnScreenStick::*)()>(
     &::UnityEngine::InputSystem::OnScreen::OnScreenStick::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x45f9ac0;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x63814c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
@@ -527,6 +557,30 @@ constexpr void UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_intern
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_PointerEventData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::UnityEngine::InputSystem::Controls::TouchControl*& UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_internal_get_m_TouchControl() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TouchControl;
+}
+constexpr ::UnityEngine::InputSystem::Controls::TouchControl* const& UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_internal_get_m_TouchControl() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_TouchControl;
+}
+constexpr void UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_internal_set_m_TouchControl(::UnityEngine::InputSystem::Controls::TouchControl* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_TouchControl)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr bool& UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_internal_get_m_IsIsolationActive() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsIsolationActive;
+}
+constexpr bool const& UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_internal_get_m_IsIsolationActive() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_IsIsolationActive;
+}
+constexpr void UnityEngine::InputSystem::OnScreen::OnScreenStick::__cordl_internal_set_m_IsIsolationActive(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_IsIsolationActive = value;
+}
 inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerDown(::UnityEngine::EventSystems::PointerEventData* eventData) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(), "OnPointerDown", std::span<Il2CppClass const* const, 0>(),
@@ -548,6 +602,11 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerUp(::Uni
 inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
                                                                              "Start", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(),
+                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::BeginInteraction(::UnityEngine::Vector2 pointerPosition, ::UnityEngine::Camera* uiCamera) {
@@ -572,6 +631,12 @@ inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::EndInteraction() 
 inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerDown(::UnityEngine::InputSystem::InputAction_CallbackContext ctx) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(), "OnPointerDown", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
+}
+inline void UnityEngine::InputSystem::OnScreen::OnScreenStick::OnPointerChanged(::UnityEngine::InputSystem::InputAction_CallbackContext ctx) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::OnScreen::OnScreenStick*>::get(), "OnPointerChanged", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputSystem::InputAction_CallbackContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, ctx);
 }

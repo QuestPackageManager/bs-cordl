@@ -1,5 +1,6 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/MeshBuilderNative.hpp"
+#include "System/zzzz__IntPtr_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__Color32_impl.hpp"
 #include "UnityEngine/zzzz__Color_impl.hpp"
@@ -8,6 +9,7 @@
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector4_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshBuilderNative_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshBuilderNative_def.hpp"
 #include "UnityEngine/UIElements/zzzz__MeshWriteDataInterface_def.hpp"
 #include "UnityEngine/UIElements/zzzz__Vertex_def.hpp"
@@ -60,31 +62,50 @@ constexpr ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams::MeshB
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams::MeshBuilderNative_NativeBorderParams() {}
 // Ctor Parameters [CppParam { name: "rect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "subRect", ty: "::UnityEngine::Rect", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "uvRegion", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") }, CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value: Some("{}")
-// }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "topRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
-// Some("{}") }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomLeftRadius", ty: "::UnityEngine::Vector2",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "textureSize", ty:
-// "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "texturePixelsPerPoint", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftSlice", ty:
-// "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightSlice", ty: "int32_t", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "bottomSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: Some("{}") },
-// CppParam { name: "rectInset", ty: "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage",
-// modifiers: "", def_value: Some("{}") }]
+// Some("{}") }, CppParam { name: "uv", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") }, CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "scaleMode", ty: "::UnityEngine::ScaleMode", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeatInstanceList", ty: "::System::IntPtr", modifiers: "",
+// def_value: Some("{}") }, CppParam { name: "backgroundRepeatInstanceListStartIndex", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeatInstanceListEndIndex",
+// ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "topLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "topRightRadius", ty:
+// "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "bottomRightRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "bottomLeftRadius", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "backgroundRepeatRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "texture", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "sprite", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "vectorImage", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteTexture", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "spriteVertices", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteUVs", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam {
+// name: "spriteTriangles", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "spriteGeomRect", ty: "::UnityEngine::Rect", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "contentSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value: Some("{}") }, CppParam { name: "textureSize", ty: "::UnityEngine::Vector2", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "texturePixelsPerPoint", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "leftSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") },
+// CppParam { name: "topSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rightSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
+// "bottomSlice", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "sliceScale", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "rectInset", ty:
+// "::UnityEngine::Vector4", modifiers: "", def_value: Some("{}") }, CppParam { name: "colorPage", ty: "::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage", modifiers: "", def_value:
+// Some("{}") }, CppParam { name: "meshFlags", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams::MeshBuilderNative_NativeRectParams(
-    ::UnityEngine::Rect rect, ::UnityEngine::Rect subRect, ::UnityEngine::Rect uv, ::UnityEngine::Rect uvRegion, ::UnityEngine::Color color, ::UnityEngine::ScaleMode scaleMode,
-    ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius, ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius, ::UnityEngine::Vector2 contentSize,
-    ::UnityEngine::Vector2 textureSize, float_t texturePixelsPerPoint, int32_t leftSlice, int32_t topSlice, int32_t rightSlice, int32_t bottomSlice, float_t sliceScale,
-    ::UnityEngine::Vector4 rectInset, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage) noexcept {
+    ::UnityEngine::Rect rect, ::UnityEngine::Rect subRect, ::UnityEngine::Rect uv, ::UnityEngine::Color color, ::UnityEngine::ScaleMode scaleMode, ::System::IntPtr backgroundRepeatInstanceList,
+    int32_t backgroundRepeatInstanceListStartIndex, int32_t backgroundRepeatInstanceListEndIndex, ::UnityEngine::Vector2 topLeftRadius, ::UnityEngine::Vector2 topRightRadius,
+    ::UnityEngine::Vector2 bottomRightRadius, ::UnityEngine::Vector2 bottomLeftRadius, ::UnityEngine::Rect backgroundRepeatRect, ::System::IntPtr texture, ::System::IntPtr sprite,
+    ::System::IntPtr vectorImage, ::System::IntPtr spriteTexture, ::System::IntPtr spriteVertices, ::System::IntPtr spriteUVs, ::System::IntPtr spriteTriangles, ::UnityEngine::Rect spriteGeomRect,
+    ::UnityEngine::Vector2 contentSize, ::UnityEngine::Vector2 textureSize, float_t texturePixelsPerPoint, int32_t leftSlice, int32_t topSlice, int32_t rightSlice, int32_t bottomSlice,
+    float_t sliceScale, ::UnityEngine::Vector4 rectInset, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage, int32_t meshFlags) noexcept {
   this->rect = rect;
   this->subRect = subRect;
   this->uv = uv;
-  this->uvRegion = uvRegion;
   this->color = color;
   this->scaleMode = scaleMode;
+  this->backgroundRepeatInstanceList = backgroundRepeatInstanceList;
+  this->backgroundRepeatInstanceListStartIndex = backgroundRepeatInstanceListStartIndex;
+  this->backgroundRepeatInstanceListEndIndex = backgroundRepeatInstanceListEndIndex;
   this->topLeftRadius = topLeftRadius;
   this->topRightRadius = topRightRadius;
   this->bottomRightRadius = bottomRightRadius;
   this->bottomLeftRadius = bottomLeftRadius;
+  this->backgroundRepeatRect = backgroundRepeatRect;
+  this->texture = texture;
+  this->sprite = sprite;
+  this->vectorImage = vectorImage;
+  this->spriteTexture = spriteTexture;
+  this->spriteVertices = spriteVertices;
+  this->spriteUVs = spriteUVs;
+  this->spriteTriangles = spriteTriangles;
+  this->spriteGeomRect = spriteGeomRect;
   this->contentSize = contentSize;
   this->textureSize = textureSize;
   this->texturePixelsPerPoint = texturePixelsPerPoint;
@@ -95,6 +116,7 @@ constexpr ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams::MeshBui
   this->sliceScale = sliceScale;
   this->rectInset = rectInset;
   this->colorPage = colorPage;
+  this->meshFlags = meshFlags;
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams::MeshBuilderNative_NativeRectParams() {}
@@ -104,7 +126,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams, float_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeBorder)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a422c4;
+  constexpr static std::size_t addrs = 0x6b82414;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -120,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams, float_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a42390;
+  constexpr static std::size_t addrs = 0x6b824e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,7 +158,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams, float_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4a4245c;
+  constexpr static std::size_t addrs = 0x6b825ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -151,23 +173,21 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Rect,
-    ::UnityEngine::ScaleMode, ::UnityEngine::Color, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage, int32_t, ::ByRef<int32_t>, ::ByRef<int32_t>)>(
+    ::UnityEngine::ScaleMode, ::UnityEngine::Color, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage)>(
     &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x4a42528;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x6b82678;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphicsStretchBackground", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 12>{
+        ::std::array<Il2CppType const*, 9>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ScaleMode>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get() })));
     return ___internal_method;
   }
 };
@@ -176,20 +196,19 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::MeshWriteDataInterface (*)(
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, float_t, float_t, ::UnityEngine::Rect, ::UnityEngine::Vector4,
-    ::UnityEngine::Color, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage, int32_t)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a426cc;
+    ::UnityEngine::Color, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground)> {
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x6b828c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphics9SliceBackground", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 9>{
+        ::std::array<Il2CppType const*, 8>{
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get() })));
     return ___internal_method;
   }
 };
@@ -200,7 +219,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams>, float_t, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
         &::UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a4233c;
+  constexpr static std::size_t addrs = 0x6b8248c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -218,7 +237,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, float_t, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
         &::UnityEngine::UIElements::MeshBuilderNative::MakeSolidRect_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a42408;
+  constexpr static std::size_t addrs = 0x6b82558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -236,7 +255,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeRectParams>, float_t, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
         &::UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injected)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4a424d4;
+  constexpr static std::size_t addrs = 0x6b82624;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -251,25 +270,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
-    ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, float_t, float_t, ::ByRef<::UnityEngine::Rect>,
-    ::ByRef<::UnityEngine::Rect>, ::UnityEngine::ScaleMode, ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, int32_t, ::ByRef<int32_t>,
-    ::ByRef<int32_t>, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x4a42608;
+    ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, float_t, ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Rect>,
+    ::UnityEngine::ScaleMode, ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
+    &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected)> {
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x6b8281c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphicsStretchBackground_Injected",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 13>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+        ::std::array<Il2CppType const*, 10>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ScaleMode>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>>::get() })));
     return ___internal_method;
   }
@@ -277,24 +294,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::UIElements::MeshBuilderNative.MakeVectorGraphics9SliceBackground_Injected
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (*)(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>, ::ArrayW<uint16_t, ::Array<uint16_t>*>, float_t, float_t,
-                         ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Vector4>, ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, int32_t,
-                         ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(&::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x4a42784;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
+    ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, float_t, float_t, ::ByRef<::UnityEngine::Rect>, ::ByRef<::UnityEngine::Vector4>,
+    ::ByRef<::UnityEngine::Color>, ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>)>(
+    &::UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected)> {
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b82a58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphics9SliceBackground_Injected",
         std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 10>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+        ::std::array<Il2CppType const*, 9>{
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector4>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>>::get() })));
     return ___internal_method;
   }
@@ -323,38 +339,36 @@ inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface, false>(nullptr, ___internal_method, rectParams, posZ);
 }
-inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground(
-    ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight,
-    ::UnityEngine::Rect targetRect, ::UnityEngine::Rect sourceUV, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color tint, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage,
-    int32_t settingIndexOffset, ::ByRef<int32_t> finalVertexCount, ::ByRef<int32_t> finalIndexCount) {
+inline ::UnityEngine::UIElements::MeshWriteDataInterface
+UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground(::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices,
+                                                                                ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight, ::UnityEngine::Rect targetRect,
+                                                                                ::UnityEngine::Rect sourceUV, ::UnityEngine::ScaleMode scaleMode, ::UnityEngine::Color tint,
+                                                                                ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphicsStretchBackground", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 12>{
+      ::std::array<Il2CppType const*, 9>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ScaleMode>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface, false>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sourceUV,
-                                                                                                       scaleMode, tint, colorPage, settingIndexOffset, finalVertexCount, finalIndexCount);
+                                                                                                       scaleMode, tint, colorPage);
 }
 inline ::UnityEngine::UIElements::MeshWriteDataInterface UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground(
     ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight,
-    ::UnityEngine::Rect targetRect, ::UnityEngine::Vector4 sliceLTRB, ::UnityEngine::Color tint, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage, int32_t settingIndexOffset) {
+    ::UnityEngine::Rect targetRect, ::UnityEngine::Vector4 sliceLTRB, ::UnityEngine::Color tint, ::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage colorPage) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphics9SliceBackground", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 9>{
+      ::std::array<Il2CppType const*, 8>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Color>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::MeshWriteDataInterface, false>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sliceLTRB,
-                                                                                                       tint, colorPage, settingIndexOffset);
+                                                                                                       tint, colorPage);
 }
 inline void UnityEngine::UIElements::MeshBuilderNative::MakeBorder_Injected(::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeBorderParams> borderParams, float_t posZ,
                                                                             ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
@@ -383,43 +397,42 @@ inline void UnityEngine::UIElements::MeshBuilderNative::MakeTexturedRect_Injecte
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, rectParams, posZ, ret);
 }
-inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected(
-    ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight,
-    ::ByRef<::UnityEngine::Rect> targetRect, ::ByRef<::UnityEngine::Rect> sourceUV, ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Color> tint,
-    ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage, int32_t settingIndexOffset, ::ByRef<int32_t> finalVertexCount, ::ByRef<int32_t> finalIndexCount,
-    ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
+inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphicsStretchBackground_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices,
+                                                                                                     ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices, float_t svgWidth,
+                                                                                                     float_t svgHeight, ::ByRef<::UnityEngine::Rect> targetRect, ::ByRef<::UnityEngine::Rect> sourceUV,
+                                                                                                     ::UnityEngine::ScaleMode scaleMode, ::ByRef<::UnityEngine::Color> tint,
+                                                                                                     ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
+                                                                                                     ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphicsStretchBackground_Injected",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 13>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+      ::std::array<Il2CppType const*, 10>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ScaleMode>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<int32_t>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sourceUV, scaleMode, tint, colorPage,
-                                                          settingIndexOffset, finalVertexCount, finalIndexCount, ret);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sourceUV, scaleMode, tint, colorPage, ret);
 }
-inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected(
-    ::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*> svgVertices, ::ArrayW<uint16_t, ::Array<uint16_t>*> svgIndices, float_t svgWidth, float_t svgHeight,
-    ::ByRef<::UnityEngine::Rect> targetRect, ::ByRef<::UnityEngine::Vector4> sliceLTRB, ::ByRef<::UnityEngine::Color> tint,
-    ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage, int32_t settingIndexOffset, ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
+inline void UnityEngine::UIElements::MeshBuilderNative::MakeVectorGraphics9SliceBackground_Injected(::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgVertices,
+                                                                                                    ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> svgIndices, float_t svgWidth,
+                                                                                                    float_t svgHeight, ::ByRef<::UnityEngine::Rect> targetRect,
+                                                                                                    ::ByRef<::UnityEngine::Vector4> sliceLTRB, ::ByRef<::UnityEngine::Color> tint,
+                                                                                                    ::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage> colorPage,
+                                                                                                    ::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface> ret) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::MeshBuilderNative*>::get(), "MakeVectorGraphics9SliceBackground_Injected",
       std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 10>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<::UnityEngine::UIElements::Vertex, ::Array<::UnityEngine::UIElements::Vertex>*>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<uint16_t, ::Array<uint16_t>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
+      ::std::array<Il2CppType const*, 9>{
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Rect>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector4>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Color>>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshBuilderNative_NativeColorPage>>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::UIElements::MeshWriteDataInterface>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sliceLTRB, tint, colorPage, settingIndexOffset, ret);
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, svgVertices, svgIndices, svgWidth, svgHeight, targetRect, sliceLTRB, tint, colorPage, ret);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::UIElements::MeshBuilderNative::MeshBuilderNative() {}

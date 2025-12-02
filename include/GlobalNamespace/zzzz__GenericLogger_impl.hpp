@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/GenericLogger.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__GenericLogger_def.hpp"
 #include "GlobalNamespace/zzzz__IVerboseLogger_def.hpp"
 #include "System/Diagnostics/zzzz__Stopwatch_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::GenericLogger_ScopedStopwatch._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GenericLogger_ScopedStopwatch::*)(::StringW)>(
     &::GlobalNamespace::GenericLogger_ScopedStopwatch::_ctor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x39bf14c;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5639848;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GenericLogger_ScopedStopwatch::*)()>(
     &::GlobalNamespace::GenericLogger_ScopedStopwatch::Dispose)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x39bf228;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x5639940;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::GenericLogger_ScopedStopwatch*>::get(),
@@ -87,8 +87,8 @@ constexpr ::GlobalNamespace::GenericLogger_ScopedStopwatch::GenericLogger_Scoped
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::GlobalNamespace::IVerboseLogger*, ::StringW)>(&::GlobalNamespace::GenericLogger::Format)> {
-  constexpr static std::size_t size = 0xec;
-  constexpr static std::size_t addrs = 0x39beea8;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5639588;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -102,8 +102,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::GlobalNamespace::IVerboseLogger*, ::StringW)>(&::GlobalNamespace::GenericLogger::Log)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x39bef94;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5639680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -117,8 +117,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::GlobalNamespace::GenericLogger::LogWithTimestamp)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x39bf00c;
+  constexpr static std::size_t size = 0x14c;
+  constexpr static std::size_t addrs = 0x56396fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

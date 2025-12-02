@@ -4,7 +4,6 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/Remoting/Proxies/zzzz__RealProxy_def.hpp"
-#include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(RemotingProxy)
 namespace System::Reflection {
@@ -26,6 +25,9 @@ namespace System::Runtime::Remoting {
 class ClientIdentity;
 }
 namespace System::Runtime::Remoting {
+class IRemotingTypeInfo;
+}
+namespace System::Runtime::Remoting {
 class Identity;
 }
 namespace System {
@@ -40,7 +42,7 @@ class RemotingProxy;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Proxies::RemotingProxy);
-// Dependencies System.Runtime.Remoting.IRemotingTypeInfo, System.Runtime.Remoting.Proxies.RealProxy
+// Dependencies System.Runtime.Remoting.Proxies.RealProxy
 namespace System::Runtime::Remoting::Proxies {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Proxies.RemotingProxy
@@ -67,19 +69,19 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::IRemotingTypeInfo"
   constexpr operator ::System::Runtime::Remoting::IRemotingTypeInfo*() noexcept;
 
-  /// @brief Method ActivateRemoteObject, addr 0x3cd8f08, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method ActivateRemoteObject, addr 0x591bc8c, size 0xe4, virtual false, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* ActivateRemoteObject(::System::Runtime::Remoting::Messaging::IMethodMessage* request);
 
-  /// @brief Method AttachIdentity, addr 0x3cdac04, size 0x228, virtual false, abstract: false, final false
+  /// @brief Method AttachIdentity, addr 0x591d8f0, size 0x23c, virtual false, abstract: false, final false
   inline void AttachIdentity(::System::Runtime::Remoting::Identity* identity);
 
-  /// @brief Method CanCastTo, addr 0x3cdb4f8, size 0x21c, virtual true, abstract: false, final true
+  /// @brief Method CanCastTo, addr 0x591e238, size 0x20c, virtual true, abstract: false, final true
   inline bool CanCastTo(::System::Type* fromType, ::System::Object* o);
 
-  /// @brief Method Finalize, addr 0x3cdb714, size 0x118, virtual true, abstract: false, final false
+  /// @brief Method Finalize, addr 0x591e444, size 0xdc, virtual true, abstract: false, final false
   inline void Finalize();
 
-  /// @brief Method Invoke, addr 0x3cda378, size 0x5d0, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x591d078, size 0x5fc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* Invoke(::System::Runtime::Remoting::Messaging::IMessage* request);
 
   static inline ::System::Runtime::Remoting::Proxies::RemotingProxy* New_ctor(::System::Type* type, ::StringW activationUrl,
@@ -105,17 +107,17 @@ public:
 
   constexpr void __cordl_internal_set__sink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3cd2514, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59156a4, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::StringW activationUrl, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
 
-  /// @brief Method .ctor, addr 0x3cd2f8c, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591615c, size 0x54, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* type, ::System::Runtime::Remoting::ClientIdentity* identity);
 
   static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetHashCodeMethod();
 
   static inline ::System::Reflection::MethodInfo* getStaticF__cache_GetTypeMethod();
 
-  /// @brief Method get_TypeName, addr 0x3cdb3c0, size 0x138, virtual true, abstract: false, final true
+  /// @brief Method get_TypeName, addr 0x591e0f8, size 0x140, virtual true, abstract: false, final true
   inline ::StringW get_TypeName();
 
   /// @brief Convert to "::System::Runtime::Remoting::IRemotingTypeInfo"
@@ -140,7 +142,7 @@ public:
   RemotingProxy(RemotingProxy const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3088 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3105 };
 
   /// @brief Field _sink, offset: 0x50, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ____sink;

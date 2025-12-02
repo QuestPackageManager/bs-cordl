@@ -38,55 +38,46 @@ namespace BeatSaber::Settings {
 class CORDL_TYPE SettingValidations : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method AdjustAudioSettings, addr 0x228248c, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AdjustAudioSettings, addr 0x31c5648, size 0x8c, virtual false, abstract: false, final false
   static inline void AdjustAudioSettings(::ByRef<::BeatSaber::Settings::AudioSettings> settings, float_t presetLatency);
 
-  /// @brief Method AdjustControllerSettings, addr 0x22823a0, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method AdjustControllerSettings, addr 0x31c5554, size 0xac, virtual false, abstract: false, final false
   static inline void AdjustControllerSettings(::ByRef<::BeatSaber::Settings::ControllerSettings> settings);
 
-  /// @brief Method AdjustPlayStation4, addr 0x22821a4, size 0x8c, virtual false, abstract: false, final false
-  static inline void AdjustPlayStation4(::ByRef<::BeatSaber::Settings::Settings> settings);
-
-  /// @brief Method AdjustPlayStation4Pro, addr 0x2282230, size 0x8c, virtual false, abstract: false, final false
-  static inline void AdjustPlayStation4Pro(::ByRef<::BeatSaber::Settings::Settings> settings);
-
-  /// @brief Method AdjustPlayStation5, addr 0x22822bc, size 0x8c, virtual false, abstract: false, final false
-  static inline void AdjustPlayStation5(::ByRef<::BeatSaber::Settings::Settings> settings);
-
-  /// @brief Method AdjustQuest1, addr 0x2281c00, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AdjustQuest1, addr 0x31c4ea0, size 0xbc, virtual false, abstract: false, final false
   static inline void AdjustQuest1(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method AdjustQuest2, addr 0x2281d08, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AdjustQuest2, addr 0x31c4fd0, size 0xc0, virtual false, abstract: false, final false
   static inline void AdjustQuest2(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method AdjustQuest3, addr 0x2281d9c, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method AdjustQuest3, addr 0x31c5090, size 0x104, virtual false, abstract: false, final false
   static inline void AdjustQuest3(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method AdjustQuestPro, addr 0x2282054, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method AdjustQuestPro, addr 0x31c5378, size 0xc0, virtual false, abstract: false, final false
   static inline void AdjustQuestPro(::ByRef<::BeatSaber::Settings::Settings> settings);
 
-  /// @brief Method AdjustRoomSettings, addr 0x2282348, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method AdjustRoomSettings, addr 0x31c54f8, size 0x5c, virtual false, abstract: false, final false
   static inline void AdjustRoomSettings(::ByRef<::BeatSaber::Settings::RoomSettings> settings);
 
-  /// @brief Method AdjustSettings, addr 0x2281c94, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method AdjustSettings, addr 0x31c4f5c, size 0x74, virtual false, abstract: false, final false
   static inline void AdjustSettings(::ByRef<::BeatSaber::Settings::Settings> settings, float_t presetLatency);
 
-  /// @brief Method AdjustSmoothCameraSettings, addr 0x2282444, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method AdjustSmoothCameraSettings, addr 0x31c5600, size 0x48, virtual false, abstract: false, final false
   static inline void AdjustSmoothCameraSettings(::ByRef<::BeatSaber::Settings::SmoothCameraSettings> settings);
 
-  /// @brief Method AdjustStandalone, addr 0x22820e8, size 0xbc, virtual false, abstract: false, final false
+  /// @brief Method AdjustStandalone, addr 0x31c5438, size 0xc0, virtual false, abstract: false, final false
   static inline void AdjustStandalone(::ByRef<::BeatSaber::Settings::Settings> settings, bool forceApplyQualityAll);
 
-  /// @brief Method Clamp, addr 0x2282520, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method Clamp, addr 0x31c56d4, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 Clamp(::Unity::Mathematics::float3 value, float_t min, float_t max);
 
-  /// @brief Method Pick, addr 0x2281e84, size 0x1d0, virtual false, abstract: false, final false
+  /// @brief Method Pick, addr 0x31c5194, size 0x1e4, virtual false, abstract: false, final false
   static inline int32_t Pick(int32_t value, int32_t min, int32_t max);
 
-  /// @brief Method Wrap, addr 0x22825c8, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method Wrap, addr 0x31c5768, size 0x6c, virtual false, abstract: false, final false
   static inline ::Unity::Mathematics::float3 Wrap(::Unity::Mathematics::float3 value, float_t min, float_t max);
 
-  /// @brief Method Wrap, addr 0x22825a0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method Wrap, addr 0x31c5740, size 0x28, virtual false, abstract: false, final false
   static inline float_t Wrap(float_t value, float_t min, float_t max);
 
 protected:
@@ -104,7 +95,7 @@ public:
   SettingValidations(SettingValidations const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18037 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21827 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

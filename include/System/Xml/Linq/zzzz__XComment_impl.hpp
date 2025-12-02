@@ -9,8 +9,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XComment::*)(::StringW)>(&::System::Xml::Linq::XComment::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x42468c4;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5f87d5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XComment::*)(::System::Xml::Linq::XComment*)>(&::System::Xml::Linq::XComment::_ctor)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4246940;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5f87db8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -38,7 +38,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::XmlNodeType (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::get_NodeType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42469b8;
+  constexpr static std::size_t addrs = 0x5f87e14;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -52,7 +52,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::get_Value)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x42469c0;
+  constexpr static std::size_t addrs = 0x5f87e1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::Linq::XComment*>::get(), "get_Value",
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XComment::*)(::StringW)>(&::System::Xml::Linq::XComment::set_Value)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x42469c8;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x5f87e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::Linq::XComment::*)(::System::Xml::XmlWriter*)>(&::System::Xml::Linq::XComment::WriteTo)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4246ab8;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x5f87f24;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,8 +92,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Xml::Linq::XNode* (::System::Xml::Linq::XComment::*)()>(&::System::Xml::Linq::XComment::CloneNode)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4246b28;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5f87f90;
 
   inline static ::MethodInfo const* methodInfo() {
 

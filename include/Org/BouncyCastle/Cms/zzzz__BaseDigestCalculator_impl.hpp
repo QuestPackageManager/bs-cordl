@@ -1,15 +1,15 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/BaseDigestCalculator.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__BaseDigestCalculator_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::BaseDigestCalculator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::BaseDigestCalculator::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Cms::BaseDigestCalculator::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x264ee9c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x357e438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -23,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Cms::BaseDigestCalculator::*)()>(
     &::Org::BouncyCastle::Cms::BaseDigestCalculator::GetDigest)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x264eec4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x357e440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Cms::BaseDigestCalculator*>::get(),

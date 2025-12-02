@@ -34,16 +34,16 @@ namespace System::Runtime::Remoting {
 class CORDL_TYPE SingleCallIdentity : public ::System::Runtime::Remoting::ServerIdentity {
 public:
   // Declarations
-  /// @brief Method AsyncObjectProcessMessage, addr 0x3cd6044, size 0x1bc, virtual true, abstract: false, final false
+  /// @brief Method AsyncObjectProcessMessage, addr 0x5918e7c, size 0x1bc, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessageCtrl* AsyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg,
                                                                                          ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
   static inline ::System::Runtime::Remoting::SingleCallIdentity* New_ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
-  /// @brief Method SyncObjectProcessMessage, addr 0x3cd5e24, size 0x220, virtual true, abstract: false, final false
+  /// @brief Method SyncObjectProcessMessage, addr 0x5918dcc, size 0xb0, virtual true, abstract: false, final false
   inline ::System::Runtime::Remoting::Messaging::IMessage* SyncObjectProcessMessage(::System::Runtime::Remoting::Messaging::IMessage* msg);
 
-  /// @brief Method .ctor, addr 0x3cd39cc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5916ad0, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(::StringW objectUri, ::System::Runtime::Remoting::Contexts::Context* context, ::System::Type* objectType);
 
 protected:
@@ -61,7 +61,7 @@ public:
   SingleCallIdentity(SingleCallIdentity const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3074 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3091 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

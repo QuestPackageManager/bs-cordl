@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/zzzz__Vector2_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
@@ -12,6 +11,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(GamepadState)
 namespace UnityEngine::InputSystem::LowLevel {
 struct GamepadButton;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -22,7 +24,7 @@ struct GamepadState;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::InputSystem::LowLevel::GamepadState);
-// Dependencies UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.Vector2
+// Dependencies UnityEngine.Vector2
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.GamepadState
@@ -50,7 +52,7 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithButton, addr 0x46087ec, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method WithButton, addr 0x638fde0, size 0x34, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::GamepadState WithButton(::UnityEngine::InputSystem::LowLevel::GamepadButton button, bool value);
 
   constexpr uint32_t const& __cordl_internal_get_buttons() const;
@@ -83,13 +85,13 @@ public:
 
   constexpr void __cordl_internal_set_rightTrigger(float_t value);
 
-  /// @brief Method .ctor, addr 0x460873c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x638fd30, size 0xb0, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::UnityEngine::InputSystem::LowLevel::GamepadButton, ::Array<::UnityEngine::InputSystem::LowLevel::GamepadButton>*> buttons);
 
-  /// @brief Method get_Format, addr 0x46086dc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_Format, addr 0x638fd18, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::InputSystem::Utilities::FourCC get_Format();
 
-  /// @brief Method get_format, addr 0x460870c, size 0x30, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x638fd24, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -193,7 +195,7 @@ public:
   static constexpr ::ConstString ButtonWestShortDisplayName{ u"X" };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6902 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8960 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1c };

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputEventTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/LowLevel/zzzz__InputEvent_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include <cstddef>
@@ -17,6 +16,9 @@ template <typename T> struct NativeArray_1;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct DeltaStateEvent__stateData_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputEventTypeInfo;
 }
 namespace UnityEngine::InputSystem::LowLevel {
 struct InputEventPtr;
@@ -53,7 +55,7 @@ public:
   constexpr DeltaStateEvent__stateData_e__FixedBuffer(uint8_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6930 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8988 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
@@ -70,8 +72,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__st
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent__stateData_e__FixedBuffer, 0x1>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::LowLevel
-// Dependencies UnityEngine.InputSystem.LowLevel.DeltaStateEvent::<stateData>e__FixedBuffer, UnityEngine.InputSystem.LowLevel.IInputEventTypeInfo, UnityEngine.InputSystem.LowLevel.InputEvent,
-// UnityEngine.InputSystem.Utilities.FourCC
+// Dependencies UnityEngine.InputSystem.LowLevel.DeltaStateEvent::<stateData>e__FixedBuffer, UnityEngine.InputSystem.LowLevel.InputEvent, UnityEngine.InputSystem.Utilities.FourCC
 namespace UnityEngine::InputSystem::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.LowLevel.DeltaStateEvent
@@ -84,7 +85,7 @@ public:
   /// @brief Field baseEvent, offset 0x0, size 0x14
   __declspec(property(get = __cordl_internal_get_baseEvent, put = __cordl_internal_set_baseEvent)) ::UnityEngine::InputSystem::LowLevel::InputEvent baseEvent;
 
-  __declspec(property(get = get_deltaState)) ::cordl_internals::Ptr<void> deltaState;
+  __declspec(property(get = get_deltaState)) void* deltaState;
 
   __declspec(property(get = get_deltaStateSizeInBytes)) uint32_t deltaStateSizeInBytes;
 
@@ -102,17 +103,17 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo*();
 
-  /// @brief Method From, addr 0x46096d8, size 0x364, virtual false, abstract: false, final false
+  /// @brief Method From, addr 0x6390978, size 0x394, virtual false, abstract: false, final false
   static inline ::Unity::Collections::NativeArray_1<uint8_t> From(::UnityEngine::InputSystem::InputControl* control, ::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventPtr> eventPtr,
                                                                   ::Unity::Collections::Allocator allocator);
 
-  /// @brief Method From, addr 0x46095b0, size 0x124, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
+  /// @brief Method From, addr 0x6390844, size 0x130, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* From(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method FromUnchecked, addr 0x46096d4, size 0x4, virtual false, abstract: false, final false
-  static inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::DeltaStateEvent> FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
+  /// @brief Method FromUnchecked, addr 0x6390974, size 0x4, virtual false, abstract: false, final false
+  static inline ::UnityEngine::InputSystem::LowLevel::DeltaStateEvent* FromUnchecked(::UnityEngine::InputSystem::LowLevel::InputEventPtr ptr);
 
-  /// @brief Method ToEventPtr, addr 0x46095ac, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method ToEventPtr, addr 0x6390840, size 0x4, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::LowLevel::InputEventPtr ToEventPtr();
 
   constexpr ::UnityEngine::InputSystem::LowLevel::InputEvent const& __cordl_internal_get_baseEvent() const;
@@ -139,13 +140,13 @@ public:
 
   constexpr void __cordl_internal_set_stateOffset(uint32_t value);
 
-  /// @brief Method get_deltaState, addr 0x4609598, size 0x8, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<void> get_deltaState();
+  /// @brief Method get_deltaState, addr 0x639082c, size 0x8, virtual false, abstract: false, final false
+  inline void* get_deltaState();
 
-  /// @brief Method get_deltaStateSizeInBytes, addr 0x460958c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_deltaStateSizeInBytes, addr 0x6390820, size 0xc, virtual false, abstract: false, final false
   inline uint32_t get_deltaStateSizeInBytes();
 
-  /// @brief Method get_typeStatic, addr 0x46095a0, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method get_typeStatic, addr 0x6390834, size 0xc, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_typeStatic();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputEventTypeInfo"
@@ -227,7 +228,7 @@ public:
   static constexpr int32_t Type{ static_cast<int32_t>(0x444c5441) };
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8989 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1d };

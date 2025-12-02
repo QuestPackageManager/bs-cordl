@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IMenuRpcManager.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "GlobalNamespace/zzzz__IMenuRpcManager_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapKeyNetSerializable_def.hpp"
 #include "GlobalNamespace/zzzz__CannotStartGameReason_def.hpp"
@@ -14,6 +13,7 @@
 #include "System/zzzz__Action_2_def.hpp"
 #include "System/zzzz__Action_3_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::IMenuRpcManager.get_syncTime
 template <>
 

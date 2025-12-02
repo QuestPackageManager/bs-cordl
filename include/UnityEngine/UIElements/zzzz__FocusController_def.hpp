@@ -56,11 +56,11 @@ public:
   constexpr FocusController_FocusedElement();
 
   // Ctor Parameters [CppParam { name: "m_SubTreeRoot", ty: "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }, CppParam { name: "m_FocusedElement", ty:
-  // "::UnityEngine::UIElements::Focusable*", modifiers: "", def_value: None }]
-  constexpr FocusController_FocusedElement(::UnityEngine::UIElements::VisualElement* m_SubTreeRoot, ::UnityEngine::UIElements::Focusable* m_FocusedElement) noexcept;
+  // "::UnityEngine::UIElements::VisualElement*", modifiers: "", def_value: None }]
+  constexpr FocusController_FocusedElement(::UnityEngine::UIElements::VisualElement* m_SubTreeRoot, ::UnityEngine::UIElements::VisualElement* m_FocusedElement) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5955 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4582 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -69,7 +69,7 @@ public:
   ::UnityEngine::UIElements::VisualElement* m_SubTreeRoot;
 
   /// @brief Field m_FocusedElement, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Focusable* m_FocusedElement;
+  ::UnityEngine::UIElements::VisualElement* m_FocusedElement;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
@@ -122,74 +122,80 @@ public:
 
   __declspec(property(put = set_selectedTextElement)) ::UnityEngine::UIElements::TextElement* selectedTextElement;
 
-  /// @brief Method AboutToGrabFocus, addr 0x4a37830, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AboutToGrabFocus, addr 0x6b74dcc, size 0x180, virtual false, abstract: false, final false
   inline void AboutToGrabFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willTakeFocusFrom, ::UnityEngine::UIElements::FocusChangeDirection* direction,
                                ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method AboutToReleaseFocus, addr 0x4a374b0, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method AboutToReleaseFocus, addr 0x6b748d8, size 0x180, virtual false, abstract: false, final false
   inline void AboutToReleaseFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willGiveFocusTo, ::UnityEngine::UIElements::FocusChangeDirection* direction,
                                   ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method Blur, addr 0x4a36194, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method Blur, addr 0x6b7339c, size 0x58, virtual false, abstract: false, final false
   inline void Blur(::UnityEngine::UIElements::Focusable* focusable, bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method BlurLastFocusedElement, addr 0x4a371b8, size 0x94, virtual false, abstract: false, final false
+  /// @brief Method BlurLastFocusedElement, addr 0x6b745ac, size 0x98, virtual false, abstract: false, final false
   inline void BlurLastFocusedElement();
 
-  /// @brief Method DoFocusChange, addr 0x4a3724c, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method DoFocusChange, addr 0x6b74644, size 0x84, virtual false, abstract: false, final false
   inline void DoFocusChange(::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method FocusNextInDirection, addr 0x4a373c4, size 0xec, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::Focusable* FocusNextInDirection(::UnityEngine::UIElements::FocusChangeDirection* direction);
+  /// @brief Method FocusNextInDirection, addr 0x6b747f0, size 0xe8, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::Focusable* FocusNextInDirection(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::FocusChangeDirection* direction);
 
-  /// @brief Method GetFocusableParentForPointerEvent, addr 0x4a37c74, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method GetFocusTargets, addr 0x6b746c8, size 0x128, virtual false, abstract: false, final false
+  static inline void GetFocusTargets(::UnityEngine::UIElements::Focusable* f, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::FocusController_FocusedElement>* outTargets);
+
+  /// @brief Method GetFocusableParentForPointerEvent, addr 0x6b75378, size 0xfc, virtual false, abstract: false, final false
   inline bool GetFocusableParentForPointerEvent(::UnityEngine::UIElements::Focusable* target, ::ByRef<::UnityEngine::UIElements::Focusable*> effectiveTarget);
 
-  /// @brief Method GetLeafFocusedElement, addr 0x4a2493c, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method GetLeafFocusedElement, addr 0x6b6764c, size 0xb0, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetLeafFocusedElement();
 
-  /// @brief Method GetRetargetedFocusedElement, addr 0x4a36c88, size 0x214, virtual false, abstract: false, final false
+  /// @brief Method GetRetargetedFocusedElement, addr 0x6b74048, size 0x18c, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* GetRetargetedFocusedElement(::UnityEngine::UIElements::VisualElement* retargetAgainst);
 
-  /// @brief Method GrabFocus, addr 0x4a379f0, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method GrabFocus, addr 0x6b74f4c, size 0x378, virtual false, abstract: false, final false
   inline void GrabFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willTakeFocusFrom, ::UnityEngine::UIElements::FocusChangeDirection* direction,
                         bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method IsFocused, addr 0x4a36ed8, size 0x18c, virtual false, abstract: false, final false
+  /// @brief Method IgnoreEvent, addr 0x6b74210, size 0x11c, virtual false, abstract: false, final false
+  inline void IgnoreEvent(::UnityEngine::UIElements::EventBase* evt);
+
+  /// @brief Method IsFocused, addr 0x6b7432c, size 0x138, virtual false, abstract: false, final false
   inline bool IsFocused(::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method IsLocalElement, addr 0x4a36e9c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsLocalElement, addr 0x6b741d4, size 0x3c, virtual false, abstract: false, final false
   inline bool IsLocalElement(::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method IsPendingFocus, addr 0x4a37064, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method IsPendingFocus, addr 0x6b74464, size 0xbc, virtual false, abstract: false, final false
   inline bool IsPendingFocus(::UnityEngine::UIElements::Focusable* f);
 
   static inline ::UnityEngine::UIElements::FocusController* New_ctor(::UnityEngine::UIElements::IFocusRing* focusRing);
 
-  /// @brief Method ProcessPendingFocusChange, addr 0x4a28e7c, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method ProcessPendingFocusChange, addr 0x6b683c8, size 0x1b4, virtual false, abstract: false, final false
   inline void ProcessPendingFocusChange(::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method ReevaluateFocus, addr 0x4a37bbc, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method ReevaluateFocus, addr 0x6b752c4, size 0xb4, virtual false, abstract: false, final false
   inline void ReevaluateFocus();
 
-  /// @brief Method ReleaseFocus, addr 0x4a37670, size 0x1c0, virtual false, abstract: false, final false
+  /// @brief Method ReleaseFocus, addr 0x6b74a58, size 0x374, virtual false, abstract: false, final false
   inline void ReleaseFocus(::UnityEngine::UIElements::Focusable* focusable, ::UnityEngine::UIElements::Focusable* willGiveFocusTo, ::UnityEngine::UIElements::FocusChangeDirection* direction,
                            ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method SetFocusToLastFocusedElement, addr 0x4a37130, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetFocusToLastFocusedElement, addr 0x6b74520, size 0x8c, virtual false, abstract: false, final false
   inline void SetFocusToLastFocusedElement();
 
-  /// @brief Method SwitchFocus, addr 0x4a360a4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method SwitchFocus, addr 0x6b732a0, size 0xc4, virtual false, abstract: false, final false
   inline void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, bool bIsFocusDelegated, ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method SwitchFocus, addr 0x4a3678c, size 0x294, virtual false, abstract: false, final false
+  /// @brief Method SwitchFocus, addr 0x6b73960, size 0x484, virtual false, abstract: false, final false
   inline void SwitchFocus(::UnityEngine::UIElements::Focusable* newFocusedElement, ::UnityEngine::UIElements::FocusChangeDirection* direction, bool bIsFocusDelegated,
                           ::UnityEngine::UIElements::DispatchMode dispatchMode);
 
-  /// @brief Method SwitchFocusOnEvent, addr 0x4a36388, size 0x290, virtual false, abstract: false, final false
-  inline void SwitchFocusOnEvent(::UnityEngine::UIElements::EventBase* e);
+  /// @brief Method SwitchFocusOnEvent, addr 0x6b6d87c, size 0x25c, virtual false, abstract: false, final false
+  inline void SwitchFocusOnEvent(::UnityEngine::UIElements::Focusable* currentFocusable, ::UnityEngine::UIElements::EventBase* e);
 
-  /// @brief Method SyncIMGUIFocus, addr 0x4a37d8c, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method SyncIMGUIFocus, addr 0x6b75484, size 0x10c, virtual false, abstract: false, final false
   inline void SyncIMGUIFocus(int32_t imguiKeyboardControlID, ::UnityEngine::UIElements::Focusable* imguiContainerHavingKeyboardControl, bool forceSwitch);
 
   constexpr ::UnityEngine::UIElements::IFocusRing* const& __cordl_internal_get__focusRing_k__BackingField() const;
@@ -234,22 +240,22 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedTextElement(::UnityEngine::UIElements::TextElement* value);
 
-  /// @brief Method .ctor, addr 0x4a36ae4, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b73eb4, size 0x88, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::IFocusRing* focusRing);
 
-  /// @brief Method get_focusRing, addr 0x4a36b74, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_focusRing, addr 0x6b73f3c, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::IFocusRing* get_focusRing();
 
-  /// @brief Method get_focusedElement, addr 0x4a36c44, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_focusedElement, addr 0x6b74004, size 0x44, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::Focusable* get_focusedElement();
 
-  /// @brief Method get_imguiKeyboardControl, addr 0x4a37d7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_imguiKeyboardControl, addr 0x6b75474, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_imguiKeyboardControl();
 
-  /// @brief Method set_imguiKeyboardControl, addr 0x4a37d84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_imguiKeyboardControl, addr 0x6b7547c, size 0x8, virtual false, abstract: false, final false
   inline void set_imguiKeyboardControl(int32_t value);
 
-  /// @brief Method set_selectedTextElement, addr 0x4a36b7c, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedTextElement, addr 0x6b73f44, size 0xc0, virtual false, abstract: false, final false
   inline void set_selectedTextElement(::UnityEngine::UIElements::TextElement* value);
 
 protected:
@@ -267,7 +273,7 @@ public:
   FocusController(FocusController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5956 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4583 };
 
   /// @brief Field <focusRing>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::UnityEngine::UIElements::IFocusRing* ____focusRing_k__BackingField;

@@ -28,7 +28,7 @@ public:
   constexpr DrawBufferRange(int32_t firstIndex, int32_t indexCount, int32_t minIndexVal, int32_t vertsReferenced) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6352 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5270 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

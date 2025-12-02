@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/zzzz__InputDevice_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__TrackedDevice_def.hpp"
 CORDL_MODULE_EXPORT(OculusTrackingReference)
 namespace UnityEngine::InputSystem::Controls {
 class ButtonControl;
@@ -11,61 +11,35 @@ class ButtonControl;
 namespace UnityEngine::InputSystem::Controls {
 class IntegerControl;
 }
-namespace UnityEngine::InputSystem::Controls {
-class QuaternionControl;
-}
-namespace UnityEngine::InputSystem::Controls {
-class Vector3Control;
-}
 // Forward declare root types
 namespace Unity::XR::Oculus::Input {
 class OculusTrackingReference;
 }
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::Input::OculusTrackingReference);
-// Dependencies UnityEngine.InputSystem.InputDevice
+// Dependencies UnityEngine.InputSystem.TrackedDevice
 namespace Unity::XR::Oculus::Input {
 // Is value type: false
 // CS Name: Unity.XR.Oculus.Input.OculusTrackingReference
-class CORDL_TYPE OculusTrackingReference : public ::UnityEngine::InputSystem::InputDevice {
+class CORDL_TYPE OculusTrackingReference : public ::UnityEngine::InputSystem::TrackedDevice {
 public:
   // Declarations
-  /// @brief Field <devicePosition>k__BackingField, offset 0x180, size 0x8
-  __declspec(property(get = __cordl_internal_get__devicePosition_k__BackingField,
-                      put = __cordl_internal_set__devicePosition_k__BackingField)) ::UnityEngine::InputSystem::Controls::Vector3Control* _devicePosition_k__BackingField;
-
-  /// @brief Field <deviceRotation>k__BackingField, offset 0x188, size 0x8
-  __declspec(property(get = __cordl_internal_get__deviceRotation_k__BackingField,
-                      put = __cordl_internal_set__deviceRotation_k__BackingField)) ::UnityEngine::InputSystem::Controls::QuaternionControl* _deviceRotation_k__BackingField;
-
-  /// @brief Field <isTracked>k__BackingField, offset 0x178, size 0x8
+  /// @brief Field <isTracked>k__BackingField, offset 0x1b0, size 0x8
   __declspec(property(get = __cordl_internal_get__isTracked_k__BackingField,
                       put = __cordl_internal_set__isTracked_k__BackingField)) ::UnityEngine::InputSystem::Controls::ButtonControl* _isTracked_k__BackingField;
 
-  /// @brief Field <trackingState>k__BackingField, offset 0x170, size 0x8
+  /// @brief Field <trackingState>k__BackingField, offset 0x1a8, size 0x8
   __declspec(property(get = __cordl_internal_get__trackingState_k__BackingField,
                       put = __cordl_internal_set__trackingState_k__BackingField)) ::UnityEngine::InputSystem::Controls::IntegerControl* _trackingState_k__BackingField;
-
-  __declspec(property(get = get_devicePosition, put = set_devicePosition)) ::UnityEngine::InputSystem::Controls::Vector3Control* devicePosition;
-
-  __declspec(property(get = get_deviceRotation, put = set_deviceRotation)) ::UnityEngine::InputSystem::Controls::QuaternionControl* deviceRotation;
 
   __declspec(property(get = get_isTracked, put = set_isTracked)) ::UnityEngine::InputSystem::Controls::ButtonControl* isTracked;
 
   __declspec(property(get = get_trackingState, put = set_trackingState)) ::UnityEngine::InputSystem::Controls::IntegerControl* trackingState;
 
-  /// @brief Method FinishSetup, addr 0x48383dc, size 0x148, virtual true, abstract: false, final false
+  /// @brief Method FinishSetup, addr 0x62b3c74, size 0xc0, virtual true, abstract: false, final false
   inline void FinishSetup();
 
   static inline ::Unity::XR::Oculus::Input::OculusTrackingReference* New_ctor();
-
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control* const& __cordl_internal_get__devicePosition_k__BackingField() const;
-
-  constexpr ::UnityEngine::InputSystem::Controls::Vector3Control*& __cordl_internal_get__devicePosition_k__BackingField();
-
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl* const& __cordl_internal_get__deviceRotation_k__BackingField() const;
-
-  constexpr ::UnityEngine::InputSystem::Controls::QuaternionControl*& __cordl_internal_get__deviceRotation_k__BackingField();
 
   constexpr ::UnityEngine::InputSystem::Controls::ButtonControl* const& __cordl_internal_get__isTracked_k__BackingField() const;
 
@@ -75,39 +49,23 @@ public:
 
   constexpr ::UnityEngine::InputSystem::Controls::IntegerControl*& __cordl_internal_get__trackingState_k__BackingField();
 
-  constexpr void __cordl_internal_set__devicePosition_k__BackingField(::UnityEngine::InputSystem::Controls::Vector3Control* value);
-
-  constexpr void __cordl_internal_set__deviceRotation_k__BackingField(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
-
   constexpr void __cordl_internal_set__isTracked_k__BackingField(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
   constexpr void __cordl_internal_set__trackingState_k__BackingField(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
-  /// @brief Method .ctor, addr 0x4838524, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x62b3d34, size 0x20, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_devicePosition, addr 0x48383bc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::Vector3Control* get_devicePosition();
-
-  /// @brief Method get_deviceRotation, addr 0x48383cc, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Controls::QuaternionControl* get_deviceRotation();
-
-  /// @brief Method get_isTracked, addr 0x48383ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isTracked, addr 0x62b3c64, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::ButtonControl* get_isTracked();
 
-  /// @brief Method get_trackingState, addr 0x483839c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_trackingState, addr 0x62b3c54, size 0x8, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Controls::IntegerControl* get_trackingState();
 
-  /// @brief Method set_devicePosition, addr 0x48383c4, size 0x8, virtual false, abstract: false, final false
-  inline void set_devicePosition(::UnityEngine::InputSystem::Controls::Vector3Control* value);
-
-  /// @brief Method set_deviceRotation, addr 0x48383d4, size 0x8, virtual false, abstract: false, final false
-  inline void set_deviceRotation(::UnityEngine::InputSystem::Controls::QuaternionControl* value);
-
-  /// @brief Method set_isTracked, addr 0x48383b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_isTracked, addr 0x62b3c6c, size 0x8, virtual false, abstract: false, final false
   inline void set_isTracked(::UnityEngine::InputSystem::Controls::ButtonControl* value);
 
-  /// @brief Method set_trackingState, addr 0x48383a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_trackingState, addr 0x62b3c5c, size 0x8, virtual false, abstract: false, final false
   inline void set_trackingState(::UnityEngine::InputSystem::Controls::IntegerControl* value);
 
 protected:
@@ -125,32 +83,22 @@ public:
   OculusTrackingReference(OculusTrackingReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17427 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8576 };
 
-  /// @brief Field <trackingState>k__BackingField, offset: 0x170, size: 0x8, def value: None
+  /// @brief Field <trackingState>k__BackingField, offset: 0x1a8, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::IntegerControl* ____trackingState_k__BackingField;
 
-  /// @brief Field <isTracked>k__BackingField, offset: 0x178, size: 0x8, def value: None
+  /// @brief Field <isTracked>k__BackingField, offset: 0x1b0, size: 0x8, def value: None
   ::UnityEngine::InputSystem::Controls::ButtonControl* ____isTracked_k__BackingField;
-
-  /// @brief Field <devicePosition>k__BackingField, offset: 0x180, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::Vector3Control* ____devicePosition_k__BackingField;
-
-  /// @brief Field <deviceRotation>k__BackingField, offset: 0x188, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::Controls::QuaternionControl* ____deviceRotation_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::Unity::XR::Oculus::Input::OculusTrackingReference, ____trackingState_k__BackingField) == 0x170, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusTrackingReference, ____trackingState_k__BackingField) == 0x1a8, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::Oculus::Input::OculusTrackingReference, ____isTracked_k__BackingField) == 0x178, "Offset mismatch!");
+static_assert(offsetof(::Unity::XR::Oculus::Input::OculusTrackingReference, ____isTracked_k__BackingField) == 0x1b0, "Offset mismatch!");
 
-static_assert(offsetof(::Unity::XR::Oculus::Input::OculusTrackingReference, ____devicePosition_k__BackingField) == 0x180, "Offset mismatch!");
-
-static_assert(offsetof(::Unity::XR::Oculus::Input::OculusTrackingReference, ____deviceRotation_k__BackingField) == 0x188, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusTrackingReference, 0x190>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::Input::OculusTrackingReference, 0x1b8>, "Size mismatch!");
 
 } // namespace Unity::XR::Oculus::Input
 NEED_NO_BOX(::Unity::XR::Oculus::Input::OculusTrackingReference);

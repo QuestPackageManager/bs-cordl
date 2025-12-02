@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/InstanceMethodCallExpression3.hpp"
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_impl.hpp"
 #include "System/Linq/Expressions/zzzz__InstanceMethodCallExpression_impl.hpp"
 #include "System/Linq/Expressions/zzzz__InstanceMethodCallExpression3_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
+#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Linq/Expressions/zzzz__MethodCallExpression_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -15,7 +15,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Reflection::MethodInfo*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*, ::System::Linq::Expressions::Expression*,
     ::System::Linq::Expressions::Expression*)>(&::System::Linq::Expressions::InstanceMethodCallExpression3::_ctor)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x40bbfc0;
+  constexpr static std::size_t addrs = 0x5d6c268;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -33,8 +33,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::InstanceMethodCallExpression3::*)(int32_t)>(
     &::System::Linq::Expressions::InstanceMethodCallExpression3::GetArgument)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x40bbffc;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x5d6c2a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,7 +50,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::InstanceMethodCallExpression3::*)()>(
     &::System::Linq::Expressions::InstanceMethodCallExpression3::get_ArgumentCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40bc0bc;
+  constexpr static std::size_t addrs = 0x5d6c374;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -67,8 +67,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Linq::Expressions::InstanceMethodCallExpression3::*)(::System::Linq::Expressions::Expression*,
                                                                    ::System::Collections::Generic::IReadOnlyList_1<::System::Linq::Expressions::Expression*>*)>(
     &::System::Linq::Expressions::InstanceMethodCallExpression3::Rewrite)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x40bc0c4;
+  constexpr static std::size_t size = 0x21c;
+  constexpr static std::size_t addrs = 0x5d6c37c;
 
   inline static ::MethodInfo const* methodInfo() {
 

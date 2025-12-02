@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::System::HashCode::GenerateGlobalSeed)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3de6eb4;
+  constexpr static std::size_t addrs = 0x5a2cadc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "GenerateGlobalSeed",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, int32_t)>(&::System::HashCode::Rol)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3de6ed8;
+  constexpr static std::size_t addrs = 0x5a2cb00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint32_t>, ::ByRef<uint32_t>, ::ByRef<uint32_t>, ::ByRef<uint32_t>)>(
     &::System::HashCode::Initialize)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x3de6ee4;
+  constexpr static std::size_t addrs = 0x5a2cb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::HashCode::Round)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3de6f9c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5a2cbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t)>(&::System::HashCode::QueueRound)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3de7014;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5a2cc40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t, uint32_t, uint32_t, uint32_t)>(&::System::HashCode::MixState)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x3de708c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x5a2ccbc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,8 +94,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)()>(&::System::HashCode::MixEmptyState)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3de7130;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5a2cd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "MixEmptyState",
@@ -108,7 +108,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(uint32_t)>(&::System::HashCode::MixFinal)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3de7194;
+  constexpr static std::size_t addrs = 0x5a2cdb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -121,8 +121,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::HashCode::*)(int32_t)>(&::System::HashCode::Add)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3de71bc;
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x5a2cdd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -135,8 +135,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::HashCode::*)()>(&::System::HashCode::ToHashCode)> {
-  constexpr static std::size_t size = 0x238;
-  constexpr static std::size_t addrs = 0x3de7454;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x5a2d084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "ToHashCode",
@@ -149,7 +149,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::HashCode::*)()>(&::System::HashCode::GetHashCode)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3de768c;
+  constexpr static std::size_t addrs = 0x5a2d2dc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -163,7 +163,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::HashCode::*)(::System::Object*)>(&::System::HashCode::Equals)> {
   constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3de76f8;
+  constexpr static std::size_t addrs = 0x5a2d348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -183,6 +183,16 @@ inline uint32_t System::HashCode::GenerateGlobalSeed() {
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method);
 }
+template <typename T1, typename T2> inline int32_t System::HashCode::Combine(T1 value1, T2 value2) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "Combine",
+      std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() },
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get() }));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, value1, value2);
+}
 template <typename T1, typename T2, typename T3, typename T4> inline int32_t System::HashCode::Combine(T1 value1, T2 value2, T3 value3, T4 value4) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "Combine",
@@ -195,6 +205,37 @@ template <typename T1, typename T2, typename T3, typename T4> inline int32_t Sys
       std::array<Il2CppClass const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get() }));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, value1, value2, value3, value4);
+}
+template <typename T1, typename T2, typename T3, typename T4, typename T5> inline int32_t System::HashCode::Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "Combine",
+      std::array<Il2CppClass const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get() },
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T4>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T5>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+      ___internal_method_base, std::array<Il2CppClass const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
+                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get(),
+                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get() }));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, value1, value2, value3, value4, value5);
+}
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6> inline int32_t System::HashCode::Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "Combine",
+      std::array<Il2CppClass const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T6>::get() },
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T4>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T6>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+      ___internal_method_base,
+      std::array<Il2CppClass const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T6>::get() }));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, value1, value2, value3, value4, value5, value6);
 }
 template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7>
 inline int32_t System::HashCode::Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7) {
@@ -214,6 +255,26 @@ inline int32_t System::HashCode::Combine(T1 value1, T2 value2, T3 value3, T4 val
                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T6>::get(),
                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T7>::get() }));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, value1, value2, value3, value4, value5, value6, value7);
+}
+template <typename T1, typename T2, typename T3, typename T4, typename T5, typename T6, typename T7, typename T8>
+inline int32_t System::HashCode::Combine(T1 value1, T2 value2, T3 value3, T4 value4, T5 value5, T6 value6, T7 value7, T8 value8) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::HashCode>::get(), "Combine",
+      std::array<Il2CppClass const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T6>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T7>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T8>::get() },
+      ::std::array<Il2CppType const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T4>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T6>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T7>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T8>::get() })));
+  static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(
+      ___internal_method_base,
+      std::array<Il2CppClass const*, 8>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T1>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T2>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T4>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T5>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T6>::get(),
+                                         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T7>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T8>::get() }));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, value1, value2, value3, value4, value5, value6, value7, value8);
 }
 inline uint32_t System::HashCode::Rol(uint32_t value, int32_t count) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

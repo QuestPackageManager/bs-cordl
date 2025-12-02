@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "Zenject/MethodProviderMultiple_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__MethodProviderMultiple_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -10,6 +9,7 @@
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__DiContainer_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 template <typename TReturn> constexpr ::Zenject::DiContainer*& Zenject::MethodProviderMultiple_1<TReturn>::__cordl_internal_get__container() {

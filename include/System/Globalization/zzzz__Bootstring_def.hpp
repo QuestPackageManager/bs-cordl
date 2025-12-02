@@ -44,19 +44,19 @@ public:
   /// @brief Field tmin, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_tmin, put = __cordl_internal_set_tmin)) int32_t tmin;
 
-  /// @brief Method Adapt, addr 0x3db5acc, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method Adapt, addr 0x59c98c8, size 0x74, virtual false, abstract: false, final false
   inline int32_t Adapt(int32_t delta, int32_t numPoints, bool firstTime);
 
-  /// @brief Method Decode, addr 0x3db5770, size 0x2d8, virtual false, abstract: false, final false
+  /// @brief Method Decode, addr 0x59c95dc, size 0x2b8, virtual false, abstract: false, final false
   inline ::StringW Decode(::StringW s, int32_t offset);
 
-  /// @brief Method DecodeDigit, addr 0x3db5b44, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method DecodeDigit, addr 0x59c993c, size 0x40, virtual false, abstract: false, final false
   inline int32_t DecodeDigit(char16_t c);
 
-  /// @brief Method Encode, addr 0x3db5004, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method Encode, addr 0x59c8ef8, size 0x304, virtual false, abstract: false, final false
   inline ::StringW Encode(::StringW s, int32_t offset);
 
-  /// @brief Method EncodeDigit, addr 0x3db5ab4, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method EncodeDigit, addr 0x59c98b0, size 0x18, virtual false, abstract: false, final false
   inline char16_t EncodeDigit(int32_t d);
 
   static inline ::System::Globalization::Bootstring* New_ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
@@ -109,7 +109,7 @@ public:
 
   constexpr void __cordl_internal_set_tmin(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3db5a48, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x59c9894, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(char16_t delimiter, int32_t baseNum, int32_t tmin, int32_t tmax, int32_t skew, int32_t damp, int32_t initialBias, int32_t initialN);
 
 protected:
@@ -127,7 +127,7 @@ public:
   Bootstring(Bootstring const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3730 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3651 };
 
   /// @brief Field delimiter, offset: 0x10, size: 0x2, def value: None
   char16_t ___delimiter;

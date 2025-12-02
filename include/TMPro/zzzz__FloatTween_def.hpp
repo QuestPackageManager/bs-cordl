@@ -3,13 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "TMPro/zzzz__ITweenValue_def.hpp"
 #include "UnityEngine/Events/zzzz__UnityEvent_1_def.hpp"
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(FloatTween)
 namespace TMPro {
 class FloatTween_FloatTweenCallback;
+}
+namespace TMPro {
+class ITweenValue;
 }
 namespace UnityEngine::Events {
 template <typename T0> class UnityAction_1;
@@ -33,7 +35,7 @@ public:
   // Declarations
   static inline ::TMPro::FloatTween_FloatTweenCallback* New_ctor();
 
-  /// @brief Method .ctor, addr 0x47c69ac, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x672abbc, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -51,7 +53,7 @@ public:
   FloatTween_FloatTweenCallback(FloatTween_FloatTweenCallback const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14463 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -59,7 +61,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::TMPro::FloatTween_FloatTweenCallback, 0x30>, "Size mismatch!");
 
 } // namespace TMPro
-// Dependencies TMPro.ITweenValue
+// Dependencies
 namespace TMPro {
 // Is value type: true
 // CS Name: TMPro.FloatTween
@@ -79,46 +81,46 @@ public:
   /// @brief Convert operator to "::TMPro::ITweenValue"
   constexpr operator ::TMPro::ITweenValue*();
 
-  /// @brief Method AddOnChangedCallback, addr 0x47c6924, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method AddOnChangedCallback, addr 0x672ab24, size 0x98, virtual false, abstract: false, final false
   inline void AddOnChangedCallback(::UnityEngine::Events::UnityAction_1<float_t>* callback);
 
-  /// @brief Method GetDuration, addr 0x47c69fc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetDuration, addr 0x672ac10, size 0x8, virtual false, abstract: false, final false
   inline float_t GetDuration();
 
-  /// @brief Method GetIgnoreTimescale, addr 0x47c69f4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method GetIgnoreTimescale, addr 0x672ac08, size 0x8, virtual false, abstract: false, final false
   inline bool GetIgnoreTimescale();
 
-  /// @brief Method TweenValue, addr 0x47c6888, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method TweenValue, addr 0x672aa80, size 0x94, virtual true, abstract: false, final true
   inline void TweenValue(float_t floatPercentage);
 
-  /// @brief Method ValidTarget, addr 0x47c6914, size 0x10, virtual true, abstract: false, final true
+  /// @brief Method ValidTarget, addr 0x672ab14, size 0x10, virtual true, abstract: false, final true
   inline bool ValidTarget();
 
-  /// @brief Method get_duration, addr 0x47c6864, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_duration, addr 0x672aa60, size 0x8, virtual true, abstract: false, final true
   inline float_t get_duration();
 
-  /// @brief Method get_ignoreTimeScale, addr 0x47c6874, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_ignoreTimeScale, addr 0x672aa70, size 0x8, virtual true, abstract: false, final true
   inline bool get_ignoreTimeScale();
 
-  /// @brief Method get_startValue, addr 0x47c6844, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_startValue, addr 0x672aa40, size 0x8, virtual false, abstract: false, final false
   inline float_t get_startValue();
 
-  /// @brief Method get_targetValue, addr 0x47c6854, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_targetValue, addr 0x672aa50, size 0x8, virtual false, abstract: false, final false
   inline float_t get_targetValue();
 
   /// @brief Convert to "::TMPro::ITweenValue"
   constexpr ::TMPro::ITweenValue* i___TMPro__ITweenValue();
 
-  /// @brief Method set_duration, addr 0x47c686c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_duration, addr 0x672aa68, size 0x8, virtual false, abstract: false, final false
   inline void set_duration(float_t value);
 
-  /// @brief Method set_ignoreTimeScale, addr 0x47c687c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_ignoreTimeScale, addr 0x672aa78, size 0x8, virtual false, abstract: false, final false
   inline void set_ignoreTimeScale(bool value);
 
-  /// @brief Method set_startValue, addr 0x47c684c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_startValue, addr 0x672aa48, size 0x8, virtual false, abstract: false, final false
   inline void set_startValue(float_t value);
 
-  /// @brief Method set_targetValue, addr 0x47c685c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_targetValue, addr 0x672aa58, size 0x8, virtual false, abstract: false, final false
   inline void set_targetValue(float_t value);
 
   // Ctor Parameters []
@@ -131,7 +133,7 @@ public:
   constexpr FloatTween(::TMPro::FloatTween_FloatTweenCallback* m_Target, float_t m_StartValue, float_t m_TargetValue, float_t m_Duration, bool m_IgnoreTimeScale) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14464 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15853 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

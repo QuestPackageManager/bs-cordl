@@ -4,13 +4,15 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__AbstractECMultiplier_def.hpp"
-#include "Org/BouncyCastle/Math/EC/Multiplier/zzzz__IPreCompCallback_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(WTauNafMultiplier)
 namespace Org::BouncyCastle::Math::EC::Abc {
 class ZTauElement;
+}
+namespace Org::BouncyCastle::Math::EC::Multiplier {
+class IPreCompCallback;
 }
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 class PreCompInfo;
@@ -37,7 +39,7 @@ class WTauNafMultiplier_WTauNafCallback;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier);
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier_WTauNafCallback);
-// Dependencies Org.BouncyCastle.Math.EC.Multiplier.IPreCompCallback, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Math::EC::Multiplier {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Math.EC.Multiplier.WTauNafMultiplier/WTauNafCallback
@@ -55,7 +57,7 @@ public:
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier_WTauNafCallback* New_ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
 
-  /// @brief Method Precompute, addr 0x24bce34, size 0xe8, virtual true, abstract: false, final true
+  /// @brief Method Precompute, addr 0x33ebe3c, size 0xec, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* Precompute(::Org::BouncyCastle::Math::EC::Multiplier::PreCompInfo* existing);
 
   constexpr int8_t const& __cordl_internal_get_m_a() const;
@@ -70,7 +72,7 @@ public:
 
   constexpr void __cordl_internal_set_m_p(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* value);
 
-  /// @brief Method .ctor, addr 0x24bcd9c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ebdc4, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, int8_t a);
 
   /// @brief Convert to "::Org::BouncyCastle::Math::EC::Multiplier::IPreCompCallback"
@@ -121,19 +123,19 @@ public:
   /// @brief Field PRECOMP_NAME, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_PRECOMP_NAME, put = setStaticF_PRECOMP_NAME)) ::StringW PRECOMP_NAME;
 
-  /// @brief Method MultiplyFromWTnaf, addr 0x24bc95c, size 0x440, virtual false, abstract: false, final false
+  /// @brief Method MultiplyFromWTnaf, addr 0x33eb978, size 0x44c, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromWTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t, ::Array<int8_t>*> u);
 
-  /// @brief Method MultiplyPositive, addr 0x24bc620, size 0x1f0, virtual true, abstract: false, final false
+  /// @brief Method MultiplyPositive, addr 0x33eb63c, size 0x1ec, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::ECPoint* MultiplyPositive(::Org::BouncyCastle::Math::EC::ECPoint* point, ::Org::BouncyCastle::Math::BigInteger* k);
 
-  /// @brief Method MultiplyWTnaf, addr 0x24bc810, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method MultiplyWTnaf, addr 0x33eb828, size 0x150, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyWTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t a,
                                                                         int8_t mu);
 
   static inline ::Org::BouncyCastle::Math::EC::Multiplier::WTauNafMultiplier* New_ctor();
 
-  /// @brief Method .ctor, addr 0x24bce2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33ebe38, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_PRECOMP_NAME();

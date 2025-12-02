@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)()>(
     &::UnityEngine::InputSystem::Controls::TouchPhaseControl::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x4563ea0;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x62dedd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>::get(),
@@ -21,10 +21,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::TouchPhaseControl.ReadUnprocessedValueFromState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(
-    ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4563f28;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::InputSystem::TouchPhase (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(void*)>(
+    &::UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState)> {
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x62dee5c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -37,10 +37,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::InputSystem::Controls::TouchPhaseControl.WriteValueIntoState
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(
-    ::UnityEngine::InputSystem::TouchPhase, ::cordl_internals::Ptr<void>)>(&::UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x4563fa4;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Controls::TouchPhaseControl::*)(::UnityEngine::InputSystem::TouchPhase, void*)>(
+    &::UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState)> {
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x62deedc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,13 +55,13 @@ inline void UnityEngine::InputSystem::Controls::TouchPhaseControl::_ctor() {
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityEngine::InputSystem::TouchPhase UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr) {
+inline ::UnityEngine::InputSystem::TouchPhase UnityEngine::InputSystem::Controls::TouchPhaseControl::ReadUnprocessedValueFromState(void* statePtr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>::get(), 17)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::InputSystem::TouchPhase, false>(this, ___internal_method, statePtr);
 }
-inline void UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, ::cordl_internals::Ptr<void> statePtr) {
+inline void UnityEngine::InputSystem::Controls::TouchPhaseControl::WriteValueIntoState(::UnityEngine::InputSystem::TouchPhase value, void* statePtr) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Controls::TouchPhaseControl*>::get(), 18)));

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
@@ -33,6 +32,9 @@ namespace System::Text {
 class Encoding;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
 }
 namespace System {
@@ -44,7 +46,7 @@ class HttpListenerResponse;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerResponse);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace System::Net {
 // Is value type: false
 // CS Name: System.Net.HttpListenerResponse
@@ -127,33 +129,33 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method Close, addr 0x43c7978, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6112c78, size 0x14, virtual false, abstract: false, final false
   inline void Close();
 
-  /// @brief Method Close, addr 0x43c7948, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6112c48, size 0x30, virtual false, abstract: false, final false
   inline void Close(bool force);
 
-  /// @brief Method Close, addr 0x43c798c, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x6112c8c, size 0xb8, virtual false, abstract: false, final false
   inline void Close(::ArrayW<uint8_t, ::Array<uint8_t>*> responseEntity, bool willBlock);
 
-  /// @brief Method CookieToClientString, addr 0x43c83fc, size 0x2a8, virtual false, abstract: false, final false
+  /// @brief Method CookieToClientString, addr 0x6113744, size 0x280, virtual false, abstract: false, final false
   static inline ::StringW CookieToClientString(::System::Net::Cookie* cookie);
 
-  /// @brief Method FormatHeaders, addr 0x43c86a4, size 0x25c, virtual false, abstract: false, final false
+  /// @brief Method FormatHeaders, addr 0x61139c4, size 0x24c, virtual false, abstract: false, final false
   static inline ::StringW FormatHeaders(::System::Net::WebHeaderCollection* headers);
 
-  /// @brief Method IsToken, addr 0x43c89d0, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method IsToken, addr 0x6113cf8, size 0xf4, virtual false, abstract: false, final false
   static inline bool IsToken(::StringW value);
 
   static inline ::System::Net::HttpListenerResponse* New_ctor(::System::Net::HttpListenerContext* context);
 
-  /// @brief Method QuotedString, addr 0x43c8900, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method QuotedString, addr 0x6113c10, size 0xe8, virtual false, abstract: false, final false
   static inline ::StringW QuotedString(::System::Net::Cookie* cookie, ::StringW value);
 
-  /// @brief Method SendHeaders, addr 0x43c7a44, size 0x9b8, virtual false, abstract: false, final false
+  /// @brief Method SendHeaders, addr 0x6112d44, size 0xa00, virtual false, abstract: false, final false
   inline void SendHeaders(bool closing, ::System::IO::MemoryStream* ms);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x43c7940, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6112c40, size 0x8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr bool const& __cordl_internal_get_HeadersSent() const;
@@ -264,24 +266,24 @@ public:
 
   constexpr void __cordl_internal_set_version(::System::Version* value);
 
-  /// @brief Method .ctor, addr 0x43c73e8, size 0x108, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61126f8, size 0xf8, virtual false, abstract: false, final false
   inline void _ctor(::System::Net::HttpListenerContext* context);
 
   static inline ::StringW getStaticF_tspecials();
 
-  /// @brief Method get_ContentEncoding, addr 0x43c74f8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method get_ContentEncoding, addr 0x61127f8, size 0x20, virtual false, abstract: false, final false
   inline ::System::Text::Encoding* get_ContentEncoding();
 
-  /// @brief Method get_ForceCloseChunked, addr 0x43c74f0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ForceCloseChunked, addr 0x61127f0, size 0x8, virtual false, abstract: false, final false
   inline bool get_ForceCloseChunked();
 
-  /// @brief Method get_Headers, addr 0x43c7704, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Headers, addr 0x6112a04, size 0x8, virtual false, abstract: false, final false
   inline ::System::Net::WebHeaderCollection* get_Headers();
 
-  /// @brief Method get_OutputStream, addr 0x43c770c, size 0x38, virtual false, abstract: false, final false
+  /// @brief Method get_OutputStream, addr 0x6112a0c, size 0x38, virtual false, abstract: false, final false
   inline ::System::IO::Stream* get_OutputStream();
 
-  /// @brief Method get_SendChunked, addr 0x43c7744, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SendChunked, addr 0x6112a44, size 0x8, virtual false, abstract: false, final false
   inline bool get_SendChunked();
 
   /// @brief Convert to "::System::IDisposable"
@@ -289,16 +291,16 @@ public:
 
   static inline void setStaticF_tspecials(::StringW value);
 
-  /// @brief Method set_ContentLength64, addr 0x43c7518, size 0x120, virtual false, abstract: false, final false
+  /// @brief Method set_ContentLength64, addr 0x6112818, size 0x120, virtual false, abstract: false, final false
   inline void set_ContentLength64(int64_t value);
 
-  /// @brief Method set_ContentType, addr 0x43c7638, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method set_ContentType, addr 0x6112938, size 0xcc, virtual false, abstract: false, final false
   inline void set_ContentType(::StringW value);
 
-  /// @brief Method set_SendChunked, addr 0x43c774c, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method set_SendChunked, addr 0x6112a4c, size 0xd0, virtual false, abstract: false, final false
   inline void set_SendChunked(bool value);
 
-  /// @brief Method set_StatusCode, addr 0x43c781c, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method set_StatusCode, addr 0x6112b1c, size 0x124, virtual false, abstract: false, final false
   inline void set_StatusCode(int32_t value);
 
 protected:
@@ -316,7 +318,7 @@ public:
   HttpListenerResponse(HttpListenerResponse const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9697 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11571 };
 
   /// @brief Field disposed, offset: 0x10, size: 0x1, def value: None
   bool ___disposed;

@@ -26,7 +26,7 @@ namespace UnityEngine::InputSystem::LowLevel {
 struct CORDL_TYPE InputEventStream {
 public:
   // Declarations
-  __declspec(property(get = get_currentEventPtr)) ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> currentEventPtr;
+  __declspec(property(get = get_currentEventPtr)) ::UnityEngine::InputSystem::LowLevel::InputEvent* currentEventPtr;
 
   __declspec(property(get = get_isOpen)) bool isOpen;
 
@@ -36,37 +36,37 @@ public:
 
   __declspec(property(get = get_remainingEventCount)) int32_t remainingEventCount;
 
-  /// @brief Method Advance, addr 0x460c168, size 0xa4, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> Advance(bool leaveEventInBuffer);
+  /// @brief Method Advance, addr 0x639352c, size 0xa0, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Advance(bool leaveEventInBuffer);
 
-  /// @brief Method CleanUpAfterException, addr 0x460bf70, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method CleanUpAfterException, addr 0x63932c8, size 0x70, virtual false, abstract: false, final false
   inline void CleanUpAfterException();
 
-  /// @brief Method Close, addr 0x460be54, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method Close, addr 0x63931a8, size 0x120, virtual false, abstract: false, final false
   inline void Close(::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer);
 
-  /// @brief Method Peek, addr 0x460c20c, size 0x60, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> Peek();
+  /// @brief Method Peek, addr 0x63935cc, size 0x60, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputEvent* Peek();
 
-  /// @brief Method Write, addr 0x460bfd8, size 0x190, virtual false, abstract: false, final false
-  inline void Write(::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> eventPtr);
+  /// @brief Method Write, addr 0x6393338, size 0x1f4, virtual false, abstract: false, final false
+  inline void Write(::UnityEngine::InputSystem::LowLevel::InputEvent* eventPtr);
 
-  /// @brief Method .ctor, addr 0x460bdc8, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6393124, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::ByRef<::UnityEngine::InputSystem::LowLevel::InputEventBuffer> eventBuffer, int32_t maxAppendedEvents);
 
-  /// @brief Method get_currentEventPtr, addr 0x460bd40, size 0x34, virtual false, abstract: false, final false
-  inline ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> get_currentEventPtr();
+  /// @brief Method get_currentEventPtr, addr 0x63930a4, size 0x34, virtual false, abstract: false, final false
+  inline ::UnityEngine::InputSystem::LowLevel::InputEvent* get_currentEventPtr();
 
-  /// @brief Method get_isOpen, addr 0x460bd20, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_isOpen, addr 0x6393084, size 0x8, virtual false, abstract: false, final false
   inline bool get_isOpen();
 
-  /// @brief Method get_numBytesRetainedInBuffer, addr 0x460bd74, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method get_numBytesRetainedInBuffer, addr 0x63930d8, size 0x4c, virtual false, abstract: false, final false
   inline uint32_t get_numBytesRetainedInBuffer();
 
-  /// @brief Method get_numEventsRetainedInBuffer, addr 0x460bd38, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_numEventsRetainedInBuffer, addr 0x639309c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_numEventsRetainedInBuffer();
 
-  /// @brief Method get_remainingEventCount, addr 0x460bd28, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method get_remainingEventCount, addr 0x639308c, size 0x10, virtual false, abstract: false, final false
   inline int32_t get_remainingEventCount();
 
   // Ctor Parameters []
@@ -74,23 +74,21 @@ public:
   constexpr InputEventStream();
 
   // Ctor Parameters [CppParam { name: "m_NativeBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventReadPtr",
-  // ty: "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventWritePtr", ty:
-  // "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: None }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_AppendBuffer", ty:
-  // "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "", def_value: None }, CppParam { name: "m_CurrentAppendEventReadPtr", ty:
-  // "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: None }, CppParam { name: "m_CurrentAppendEventWritePtr", ty:
-  // "::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent>", modifiers: "", def_value: None }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_IsOpen", ty: "bool", modifiers: "", def_value: None }]
-  constexpr InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer,
-                             ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentNativeEventReadPtr,
-                             ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentNativeEventWritePtr, int32_t m_RemainingNativeEventCount, int32_t m_MaxAppendedEvents,
-                             ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer,
-                             ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentAppendEventReadPtr,
-                             ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentAppendEventWritePtr, int32_t m_RemainingAppendEventCount,
-                             int32_t m_NumEventsRetainedInBuffer, bool m_IsOpen) noexcept;
+  // ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }, CppParam { name: "m_CurrentNativeEventWritePtr", ty:
+  // "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingNativeEventCount", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
+  // name: "m_MaxAppendedEvents", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_AppendBuffer", ty: "::UnityEngine::InputSystem::LowLevel::InputEventBuffer", modifiers: "",
+  // def_value: None }, CppParam { name: "m_CurrentAppendEventReadPtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }, CppParam { name:
+  // "m_CurrentAppendEventWritePtr", ty: "::UnityEngine::InputSystem::LowLevel::InputEvent*", modifiers: "", def_value: None }, CppParam { name: "m_RemainingAppendEventCount", ty: "int32_t",
+  // modifiers: "", def_value: None }, CppParam { name: "m_NumEventsRetainedInBuffer", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "m_IsOpen", ty: "bool", modifiers: "",
+  // def_value: None }]
+  constexpr InputEventStream(::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer, ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventReadPtr,
+                             ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventWritePtr, int32_t m_RemainingNativeEventCount, int32_t m_MaxAppendedEvents,
+                             ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer, ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentAppendEventReadPtr,
+                             ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentAppendEventWritePtr, int32_t m_RemainingAppendEventCount, int32_t m_NumEventsRetainedInBuffer,
+                             bool m_IsOpen) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9005 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
@@ -99,10 +97,10 @@ public:
   ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_NativeBuffer;
 
   /// @brief Field m_CurrentNativeEventReadPtr, offset: 0x20, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentNativeEventReadPtr;
+  ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventReadPtr;
 
   /// @brief Field m_CurrentNativeEventWritePtr, offset: 0x28, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentNativeEventWritePtr;
+  ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentNativeEventWritePtr;
 
   /// @brief Field m_RemainingNativeEventCount, offset: 0x30, size: 0x4, def value: None
   int32_t m_RemainingNativeEventCount;
@@ -114,10 +112,10 @@ public:
   ::UnityEngine::InputSystem::LowLevel::InputEventBuffer m_AppendBuffer;
 
   /// @brief Field m_CurrentAppendEventReadPtr, offset: 0x58, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentAppendEventReadPtr;
+  ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentAppendEventReadPtr;
 
   /// @brief Field m_CurrentAppendEventWritePtr, offset: 0x60, size: 0x8, def value: None
-  ::cordl_internals::Ptr<::UnityEngine::InputSystem::LowLevel::InputEvent> m_CurrentAppendEventWritePtr;
+  ::UnityEngine::InputSystem::LowLevel::InputEvent* m_CurrentAppendEventWritePtr;
 
   /// @brief Field m_RemainingAppendEventCount, offset: 0x68, size: 0x4, def value: None
   int32_t m_RemainingAppendEventCount;

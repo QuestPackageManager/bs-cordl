@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__DtlsHandshakeRetransmit_def.hpp"
 #include "System/IO/zzzz__MemoryStream_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(DtlsReliableHandshake)
+namespace Org::BouncyCastle::Crypto::Tls {
+class DtlsHandshakeRetransmit;
+}
 namespace Org::BouncyCastle::Crypto::Tls {
 class DtlsRecordLayer;
 }
@@ -95,16 +97,16 @@ public:
 
   constexpr void __cordl_internal_set_mMsgType(uint8_t value);
 
-  /// @brief Method .ctor, addr 0x23f5ebc, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3324184, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t message_seq, uint8_t msg_type, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method get_Body, addr 0x23f7430, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Body, addr 0x332569c, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Body();
 
-  /// @brief Method get_Seq, addr 0x23f7420, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Seq, addr 0x332568c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_Seq();
 
-  /// @brief Method get_Type, addr 0x23f7428, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Type, addr 0x3325694, size 0x8, virtual false, abstract: false, final false
   inline uint8_t get_Type();
 
 protected:
@@ -154,10 +156,10 @@ public:
   // Declarations
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_RecordLayerBuffer* New_ctor(int32_t size);
 
-  /// @brief Method SendToRecordLayer, addr 0x23f736c, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method SendToRecordLayer, addr 0x33255cc, size 0xc0, virtual false, abstract: false, final false
   inline void SendToRecordLayer(::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* recordLayer);
 
-  /// @brief Method .ctor, addr 0x23f7364, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x33255c4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t size);
 
 protected:
@@ -183,7 +185,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_RecordLayerBuffer, 0x50>, "Size mismatch!");
 
 } // namespace Org::BouncyCastle::Crypto::Tls
-// Dependencies Org.BouncyCastle.Crypto.Tls.DtlsHandshakeRetransmit, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.DtlsReliableHandshake/Retransmit
@@ -198,7 +200,7 @@ public:
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Retransmit* New_ctor(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* outer);
 
-  /// @brief Method ReceivedHandshakeRecord, addr 0x23f7438, size 0x2c, virtual true, abstract: false, final true
+  /// @brief Method ReceivedHandshakeRecord, addr 0x33256a4, size 0x28, virtual true, abstract: false, final true
   inline void ReceivedHandshakeRecord(int32_t epoch, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
   constexpr ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* const& __cordl_internal_get_mOuter() const;
@@ -207,7 +209,7 @@ public:
 
   constexpr void __cordl_internal_set_mOuter(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* value);
 
-  /// @brief Method .ctor, addr 0x23f6a6c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3324d0c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* outer);
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::DtlsHandshakeRetransmit"
@@ -286,61 +288,61 @@ public:
   /// @brief Field mResendTimeout, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_mResendTimeout, put = __cordl_internal_set_mResendTimeout)) ::Org::BouncyCastle::Crypto::Tls::Timeout* mResendTimeout;
 
-  /// @brief Method BackOff, addr 0x23f6a94, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method BackOff, addr 0x3324d14, size 0x64, virtual false, abstract: false, final false
   inline int32_t BackOff(int32_t timeoutMillis);
 
-  /// @brief Method CheckAll, addr 0x23f6e8c, size 0x3b0, virtual false, abstract: false, final false
+  /// @brief Method CheckAll, addr 0x33250fc, size 0x390, virtual false, abstract: false, final false
   static inline bool CheckAll(::System::Collections::IDictionary* inboundFlight);
 
-  /// @brief Method CheckInboundFlight, addr 0x23f5b34, size 0x388, virtual false, abstract: false, final false
+  /// @brief Method CheckInboundFlight, addr 0x3323e34, size 0x350, virtual false, abstract: false, final false
   inline void CheckInboundFlight();
 
-  /// @brief Method Finish, addr 0x23f164c, size 0xa0, virtual false, abstract: false, final false
+  /// @brief Method Finish, addr 0x331fab8, size 0x98, virtual false, abstract: false, final false
   inline void Finish();
 
-  /// @brief Method GetPendingMessage, addr 0x23f6244, size 0x1a4, virtual false, abstract: false, final false
+  /// @brief Method GetPendingMessage, addr 0x33244e0, size 0x198, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* GetPendingMessage();
 
   static inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* transport,
                                                                                   int32_t timeoutMillis);
 
-  /// @brief Method NotifyHelloComplete, addr 0x23f153c, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method NotifyHelloComplete, addr 0x331f9ac, size 0xb0, virtual false, abstract: false, final false
   inline void NotifyHelloComplete();
 
-  /// @brief Method PrepareInboundFlight, addr 0x23f6218, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method PrepareInboundFlight, addr 0x33244b4, size 0x2c, virtual false, abstract: false, final false
   inline void PrepareInboundFlight(::System::Collections::IDictionary* nextFlight);
 
-  /// @brief Method PrepareToFinish, addr 0x23f16ec, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method PrepareToFinish, addr 0x331fb50, size 0xb8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* PrepareToFinish();
 
-  /// @brief Method ProcessRecord, addr 0x23f65e4, size 0x488, virtual false, abstract: false, final false
+  /// @brief Method ProcessRecord, addr 0x3324884, size 0x488, virtual false, abstract: false, final false
   inline void ProcessRecord(int32_t windowSize, int32_t epoch, ::ArrayW<uint8_t, ::Array<uint8_t>*> buf, int32_t off, int32_t len);
 
-  /// @brief Method ReceiveMessage, addr 0x23f1084, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method ReceiveMessage, addr 0x331f4bc, size 0x318, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* ReceiveMessage();
 
-  /// @brief Method ReceiveMessageBody, addr 0x23f15e8, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method ReceiveMessageBody, addr 0x331fa5c, size 0x5c, virtual false, abstract: false, final false
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ReceiveMessageBody(uint8_t msg_type);
 
-  /// @brief Method ResendOutboundFlight, addr 0x23f63e8, size 0x1fc, virtual false, abstract: false, final false
+  /// @brief Method ResendOutboundFlight, addr 0x3324678, size 0x20c, virtual false, abstract: false, final false
   inline void ResendOutboundFlight();
 
-  /// @brief Method ResetAll, addr 0x23f6af0, size 0x39c, virtual false, abstract: false, final false
+  /// @brief Method ResetAll, addr 0x3324d78, size 0x384, virtual false, abstract: false, final false
   static inline void ResetAll(::System::Collections::IDictionary* inboundFlight);
 
-  /// @brief Method ResetHandshakeMessagesDigest, addr 0x23f1498, size 0xa4, virtual false, abstract: false, final false
+  /// @brief Method ResetHandshakeMessagesDigest, addr 0x331f904, size 0xa8, virtual false, abstract: false, final false
   inline void ResetHandshakeMessagesDigest();
 
-  /// @brief Method SendMessage, addr 0x23f0eb8, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method SendMessage, addr 0x331f2ec, size 0x1d0, virtual false, abstract: false, final false
   inline void SendMessage(uint8_t msg_type, ::ArrayW<uint8_t, ::Array<uint8_t>*> body);
 
-  /// @brief Method UpdateHandshakeMessagesDigest, addr 0x23f6008, size 0x210, virtual false, abstract: false, final false
+  /// @brief Method UpdateHandshakeMessagesDigest, addr 0x332429c, size 0x218, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* UpdateHandshakeMessagesDigest(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* message);
 
-  /// @brief Method WriteHandshakeFragment, addr 0x23f723c, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method WriteHandshakeFragment, addr 0x332548c, size 0x138, virtual false, abstract: false, final false
   inline void WriteHandshakeFragment(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* message, int32_t fragment_offset, int32_t fragment_length);
 
-  /// @brief Method WriteMessage, addr 0x23f5efc, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method WriteMessage, addr 0x3324194, size 0x108, virtual false, abstract: false, final false
   inline void WriteMessage(::Org::BouncyCastle::Crypto::Tls::DtlsReliableHandshake_Message* message);
 
   constexpr ::System::Collections::IDictionary* const& __cordl_internal_get_mCurrentInboundFlight() const;
@@ -403,10 +405,10 @@ public:
 
   constexpr void __cordl_internal_set_mResendTimeout(::Org::BouncyCastle::Crypto::Tls::Timeout* value);
 
-  /// @brief Method .ctor, addr 0x23f0d6c, size 0x14c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x331f19c, size 0x150, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::Org::BouncyCastle::Crypto::Tls::DtlsRecordLayer* transport, int32_t timeoutMillis);
 
-  /// @brief Method get_HandshakeHash, addr 0x23f5b2c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_HandshakeHash, addr 0x3323e2c, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* get_HandshakeHash();
 
 protected:

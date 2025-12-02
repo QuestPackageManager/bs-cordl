@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/IXof.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_impl.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IXof_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IDigest_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::IXof.DoFinal
 template <>
 

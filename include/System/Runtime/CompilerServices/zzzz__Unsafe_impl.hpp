@@ -9,7 +9,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<uint8_t>, uint8_t, uint32_t)>(&::System::Runtime::CompilerServices::Unsafe::InitBlockUnaligned)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1aedc;
+  constexpr static std::size_t addrs = 0x595c6b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -37,15 +37,14 @@ template <typename T> inline ::ByRef<T> System::Runtime::CompilerServices::Unsaf
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(nullptr, ___internal_method, source, elementOffset);
 }
-template <typename T> inline ::cordl_internals::Ptr<void> System::Runtime::CompilerServices::Unsafe::Add(::cordl_internals::Ptr<void> source, int32_t elementOffset) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(), "Add",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+template <typename T> inline void* System::Runtime::CompilerServices::Unsafe::Add(void* source, int32_t elementOffset) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(), "Add",
+      std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(nullptr, ___internal_method, source, elementOffset);
+  return ::cordl_internals::RunMethodRethrow<void*, false>(nullptr, ___internal_method, source, elementOffset);
 }
 template <typename T> inline ::ByRef<T> System::Runtime::CompilerServices::Unsafe::AddByteOffset(::ByRef<T> source, ::System::IntPtr byteOffset) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -84,19 +83,18 @@ template <typename TFrom, typename TTo> inline ::ByRef<TTo> System::Runtime::Com
                                                                                                                  ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<TTo>::get() }));
   return ::cordl_internals::RunMethodRethrow<::ByRef<TTo>, false>(nullptr, ___internal_method, source);
 }
-template <typename T> inline ::cordl_internals::Ptr<void> System::Runtime::CompilerServices::Unsafe::AsPointer(::ByRef<T> value) {
+template <typename T> inline void* System::Runtime::CompilerServices::Unsafe::AsPointer(::ByRef<T> value) {
   static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(),
                                                                                   "AsPointer", std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
                                                                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<void>, false>(nullptr, ___internal_method, value);
+  return ::cordl_internals::RunMethodRethrow<void*, false>(nullptr, ___internal_method, value);
 }
-template <typename T> inline ::ByRef<T> System::Runtime::CompilerServices::Unsafe::AsRef(::cordl_internals::Ptr<void> source) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(), "AsRef",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+template <typename T> inline ::ByRef<T> System::Runtime::CompilerServices::Unsafe::AsRef(void* source) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(), "AsRef",
+                                                                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<::ByRef<T>, false>(nullptr, ___internal_method, source);
@@ -116,11 +114,10 @@ inline void System::Runtime::CompilerServices::Unsafe::InitBlockUnaligned(::ByRe
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, startAddress, value, byteCount);
 }
-template <typename T> inline T System::Runtime::CompilerServices::Unsafe::Read(::cordl_internals::Ptr<void> source) {
-  static auto* ___internal_method_base =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(), "Read",
-                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<void>>::get() })));
+template <typename T> inline T System::Runtime::CompilerServices::Unsafe::Read(void* source) {
+  static auto* ___internal_method_base = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::CompilerServices::Unsafe*>::get(), "Read",
+                                                                                  std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                                                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<void*>::get() })));
   static auto* ___internal_method =
       THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
   return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, source);

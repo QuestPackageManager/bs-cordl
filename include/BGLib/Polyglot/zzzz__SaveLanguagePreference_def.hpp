@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(SaveLanguagePreference)
+namespace BGLib::Polyglot {
+class ILocalize;
+}
 namespace BGLib::Polyglot {
 class LocalizationModel;
 }
@@ -16,7 +18,7 @@ class SaveLanguagePreference;
 }
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::SaveLanguagePreference);
-// Dependencies BGLib.Polyglot.ILocalize, UnityEngine.MonoBehaviour
+// Dependencies UnityEngine.MonoBehaviour
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: BGLib.Polyglot.SaveLanguagePreference
@@ -31,10 +33,10 @@ public:
 
   static inline ::BGLib::Polyglot::SaveLanguagePreference* New_ctor();
 
-  /// @brief Method OnLocalize, addr 0x22b20f8, size 0x28, virtual true, abstract: false, final true
+  /// @brief Method OnLocalize, addr 0x31f8cb8, size 0x28, virtual true, abstract: false, final true
   inline void OnLocalize(::BGLib::Polyglot::LocalizationModel* localization);
 
-  /// @brief Method Start, addr 0x22b20a8, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x31f8c74, size 0x44, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::StringW const& __cordl_internal_get_preferenceKey() const;
@@ -43,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_preferenceKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x22b2120, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31f8ce0, size 0x50, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::BGLib::Polyglot::ILocalize"
@@ -64,7 +66,7 @@ public:
   SaveLanguagePreference(SaveLanguagePreference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18070 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21967 };
 
   /// @brief Field preferenceKey, offset: 0x20, size: 0x8, def value: None
   ::StringW ___preferenceKey;

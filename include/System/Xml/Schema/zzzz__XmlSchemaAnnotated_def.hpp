@@ -43,12 +43,12 @@ public:
   __declspec(property(get = __cordl_internal_get_moreAttributes, put = __cordl_internal_set_moreAttributes)) ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*>
       moreAttributes;
 
-  /// @brief Method AddAnnotation, addr 0x42b93d8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method AddAnnotation, addr 0x600f770, size 0x8, virtual true, abstract: false, final false
   inline void AddAnnotation(::System::Xml::Schema::XmlSchemaAnnotation* annotation);
 
   static inline ::System::Xml::Schema::XmlSchemaAnnotated* New_ctor();
 
-  /// @brief Method SetUnhandledAttributes, addr 0x42b93d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method SetUnhandledAttributes, addr 0x600f768, size 0x8, virtual true, abstract: false, final false
   inline void SetUnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> moreAttributes);
 
   constexpr ::System::Xml::Schema::XmlSchemaAnnotation* const& __cordl_internal_get_annotation() const;
@@ -69,31 +69,31 @@ public:
 
   constexpr void __cordl_internal_set_moreAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
-  /// @brief Method .ctor, addr 0x42b93e0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x600f778, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_Annotation, addr 0x42b93a0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Annotation, addr 0x600f738, size 0x8, virtual false, abstract: false, final false
   inline ::System::Xml::Schema::XmlSchemaAnnotation* get_Annotation();
 
-  /// @brief Method get_Id, addr 0x42b9390, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Id, addr 0x600f728, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Id();
 
-  /// @brief Method get_IdAttribute, addr 0x42b93c0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IdAttribute, addr 0x600f758, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_IdAttribute();
 
-  /// @brief Method get_UnhandledAttributes, addr 0x42b93b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_UnhandledAttributes, addr 0x600f748, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> get_UnhandledAttributes();
 
-  /// @brief Method set_Annotation, addr 0x42b93a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Annotation, addr 0x600f740, size 0x8, virtual false, abstract: false, final false
   inline void set_Annotation(::System::Xml::Schema::XmlSchemaAnnotation* value);
 
-  /// @brief Method set_Id, addr 0x42b9398, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Id, addr 0x600f730, size 0x8, virtual false, abstract: false, final false
   inline void set_Id(::StringW value);
 
-  /// @brief Method set_IdAttribute, addr 0x42b93c8, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_IdAttribute, addr 0x600f760, size 0x8, virtual true, abstract: false, final false
   inline void set_IdAttribute(::StringW value);
 
-  /// @brief Method set_UnhandledAttributes, addr 0x42b93b8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_UnhandledAttributes, addr 0x600f750, size 0x8, virtual false, abstract: false, final false
   inline void set_UnhandledAttributes(::ArrayW<::System::Xml::XmlAttribute*, ::Array<::System::Xml::XmlAttribute*>*> value);
 
 protected:
@@ -111,7 +111,7 @@ public:
   XmlSchemaAnnotated(XmlSchemaAnnotated const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9715 };
 
   /// @brief Field id, offset: 0x38, size: 0x8, def value: None
   ::StringW ___id;

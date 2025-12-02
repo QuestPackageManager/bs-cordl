@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CommandBuffer* (
     ::GlobalNamespace::CommandBufferBlurryScreenGrab::*)(::UnityEngine::Camera*)>(&::GlobalNamespace::CommandBufferBlurryScreenGrab::CreateCommandBuffer)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x4080b90;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x5d2b348;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -32,8 +32,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::Dictionary_2<::UnityW<::UnityEngine::Camera>, ::GlobalNamespace::CommandBufferOwners*>* (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
         &::GlobalNamespace::CommandBufferBlurryScreenGrab::CamerasDict)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4080c8c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x5d2b44c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Rendering::CameraEvent (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::CommandBufferCameraEvent)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4080ce4;
+  constexpr static std::size_t addrs = 0x5d2b4a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::CommandBufferBlurryScreenGrab::*)()>(
     &::GlobalNamespace::CommandBufferBlurryScreenGrab::_ctor)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x4080cec;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x5d2b4b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::CommandBufferBlurryScreenGrab*>::get(),

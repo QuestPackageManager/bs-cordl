@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::Awake)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b8cf28;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5779864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>::get(),
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::SetValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b8cf88;
+  constexpr static std::size_t addrs = 0x57798cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(int32_t, int32_t, float_t)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::TriggerValue)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3b8d07c;
+  constexpr static std::size_t addrs = 0x57799b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::SetColor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x3b8cfa0;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x57798e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -71,8 +71,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::InitIfNeeded)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b8cf58;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5779898;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>::get(),
@@ -85,8 +85,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AlphaFloatFxGroupEffectTarget::*)()>(
     &::GlobalNamespace::AlphaFloatFxGroupEffectTarget::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b8d094;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57799c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AlphaFloatFxGroupEffectTarget*>::get(),

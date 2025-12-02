@@ -50,15 +50,15 @@ public:
   /// @brief Field _initData, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get__initData, put = __cordl_internal_set__initData)) ::GlobalNamespace::CoreGameHUDController_InitData* _initData;
 
-  /// @brief Method HandleNoteWasCut, addr 0x3b88100, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleNoteWasCut, addr 0x5774820, size 0x130, virtual false, abstract: false, final false
   inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ::ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
 
   static inline ::GlobalNamespace::BadNoteCutEffectSpawner* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b88070, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5774788, size 0x98, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b87fc0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57746d0, size 0xb8, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::UnityW<::GlobalNamespace::AudioTimeSyncController> const& __cordl_internal_get__audioTimeSyncController() const;
@@ -85,7 +85,7 @@ public:
 
   constexpr void __cordl_internal_set__initData(::GlobalNamespace::CoreGameHUDController_InitData* value);
 
-  /// @brief Method .ctor, addr 0x3b8821c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5774950, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -103,7 +103,7 @@ public:
   BadNoteCutEffectSpawner(BadNoteCutEffectSpawner const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4241 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5807 };
 
   /// @brief Field _failFlyingSpriteSpawner, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::FlyingSpriteSpawner> ____failFlyingSpriteSpawner;

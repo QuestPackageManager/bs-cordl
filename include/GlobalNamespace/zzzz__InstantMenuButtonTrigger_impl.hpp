@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/InstantMenuButtonTrigger.hpp"
-#include "GlobalNamespace/zzzz__IMenuButtonTrigger_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__InstantMenuButtonTrigger_def.hpp"
+#include "GlobalNamespace/zzzz__IMenuButtonTrigger_def.hpp"
 #include "GlobalNamespace/zzzz__IVRPlatformHelper_def.hpp"
 #include "System/zzzz__Action_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::InstantMenuButtonTrigger.add_menuButtonTriggeredEvent
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstantMenuButtonTrigger::*)(::System::Action*)>(
     &::GlobalNamespace::InstantMenuButtonTrigger::add_menuButtonTriggeredEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bab564;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x579a52c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstantMenuButtonTrigger::*)(::System::Action*)>(
     &::GlobalNamespace::InstantMenuButtonTrigger::remove_menuButtonTriggeredEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3bab600;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x579a5d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstantMenuButtonTrigger::*)()>(&::GlobalNamespace::InstantMenuButtonTrigger::Tick)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x3bab69c;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x579a684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstantMenuButtonTrigger*>::get(), "Tick",
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::InstantMenuButtonTrigger::*)()>(&::GlobalNamespace::InstantMenuButtonTrigger::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bab768;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x579a754;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::InstantMenuButtonTrigger*>::get(), ".ctor",

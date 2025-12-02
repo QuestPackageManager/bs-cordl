@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DesParameters::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Parameters::DesParameters::_ctor)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x23b86b0;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x32e6844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Parameters::DesParameters::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Parameters::DesParameters::_ctor)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x23b87c4;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x32e6960;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -38,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey)> {
-  constexpr static std::size_t size = 0x15c;
-  constexpr static std::size_t addrs = 0x23b889c;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x32e6a3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::Org::BouncyCastle::Crypto::Parameters::DesParameters::IsWeakKey)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x23b876c;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x32e6904;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -68,7 +68,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint8_t (*)(uint8_t)>(&::Org::BouncyCastle::Crypto::Parameters::DesParameters::SetOddParity)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x23b89f8;
+  constexpr static std::size_t addrs = 0x32e6bb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Crypto::Parameters::DesParameters::SetOddParity)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x23b8a18;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x32e6bd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Parameters::DesParameters::SetOddParity)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x23b8ad4;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x32e6ca0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

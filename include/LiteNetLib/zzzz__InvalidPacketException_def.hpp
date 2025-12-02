@@ -28,13 +28,13 @@ public:
 
   static inline ::LiteNetLib::InvalidPacketException* New_ctor(::StringW message, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x3aaf9b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56894b8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3aaf9bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56894c0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message);
 
-  /// @brief Method .ctor, addr 0x3aaf9c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56894e4, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW message, ::System::Exception* innerException);
 
 protected:
@@ -52,7 +52,7 @@ public:
   InvalidPacketException(InvalidPacketException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16546 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19802 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -5,6 +5,7 @@
 #include "Unity/Profiling/zzzz__ProfilerCategory_impl.hpp"
 #include "Unity/Profiling/zzzz__ProfilerMarkerDataUnit_impl.hpp"
 #include "Unity/Profiling/LowLevel/Unsafe/zzzz__ProfilerRecorderDescription_def.hpp"
+#include "Unity/Profiling/LowLevel/zzzz__MarkerFlags_def.hpp"
 #include "Unity/Profiling/zzzz__ProfilerCategory_def.hpp"
 //  Writing Method size for method: ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription.get_Category
 template <>
@@ -12,11 +13,26 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::ProfilerCategory (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Category)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4860d08;
+  constexpr static std::size_t addrs = 0x682978c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>::get(), "get_Category",
+                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription.get_Flags
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Unity::Profiling::LowLevel::MarkerFlags (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
+    &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Flags)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6829794;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>::get(), "get_Flags",
                                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -27,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::*)()>(
     &::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Name)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4860d10;
+  constexpr static std::size_t addrs = 0x682979c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -90,13 +106,13 @@ constexpr int32_t const& Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDes
 constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_set_nameUtf8Len(int32_t value) {
   this->___nameUtf8Len = value;
 }
-constexpr ::cordl_internals::Ptr<uint8_t>& Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_get_nameUtf8() {
+constexpr uint8_t*& Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_get_nameUtf8() {
   return this->___nameUtf8;
 }
-constexpr ::cordl_internals::Ptr<uint8_t> const& Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_get_nameUtf8() const {
+constexpr uint8_t* const& Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_get_nameUtf8() const {
   return this->___nameUtf8;
 }
-constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_set_nameUtf8(::cordl_internals::Ptr<uint8_t> value) {
+constexpr void Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::__cordl_internal_set_nameUtf8(uint8_t* value) {
   this->___nameUtf8 = value;
 }
 inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Category() {
@@ -104,6 +120,12 @@ inline ::Unity::Profiling::ProfilerCategory Unity::Profiling::LowLevel::Unsafe::
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>::get(), "get_Category",
                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::ProfilerCategory, false>(this, ___internal_method);
+}
+inline ::Unity::Profiling::LowLevel::MarkerFlags Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Flags() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription>::get(), "get_Flags",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Profiling::LowLevel::MarkerFlags, false>(this, ___internal_method);
 }
 inline ::StringW Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::get_Name() {
   static auto* ___internal_method =
@@ -114,12 +136,12 @@ inline ::StringW Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription
 // Ctor Parameters [CppParam { name: "category", ty: "::Unity::Profiling::ProfilerCategory", modifiers: "", def_value: Some("{}") }, CppParam { name: "flags", ty:
 // "::Unity::Profiling::LowLevel::MarkerFlags", modifiers: "", def_value: Some("{}") }, CppParam { name: "dataType", ty: "::Unity::Profiling::LowLevel::ProfilerMarkerDataType", modifiers: "",
 // def_value: Some("{}") }, CppParam { name: "unitType", ty: "::Unity::Profiling::ProfilerMarkerDataUnit", modifiers: "", def_value: Some("{}") }, CppParam { name: "reserved0", ty: "int32_t",
-// modifiers: "", def_value: Some("{}") }, CppParam { name: "nameUtf8Len", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameUtf8", ty: "::cordl_internals::Ptr<uint8_t>",
-// modifiers: "", def_value: Some("{}") }]
+// modifiers: "", def_value: Some("{}") }, CppParam { name: "nameUtf8Len", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "nameUtf8", ty: "uint8_t*", modifiers: "", def_value:
+// Some("{}") }]
 constexpr ::Unity::Profiling::LowLevel::Unsafe::ProfilerRecorderDescription::ProfilerRecorderDescription(::Unity::Profiling::ProfilerCategory category, ::Unity::Profiling::LowLevel::MarkerFlags flags,
                                                                                                          ::Unity::Profiling::LowLevel::ProfilerMarkerDataType dataType,
                                                                                                          ::Unity::Profiling::ProfilerMarkerDataUnit unitType, int32_t reserved0, int32_t nameUtf8Len,
-                                                                                                         ::cordl_internals::Ptr<uint8_t> nameUtf8) noexcept {
+                                                                                                         uint8_t* nameUtf8) noexcept {
   this->category = category;
   this->flags = flags;
   this->dataType = dataType;

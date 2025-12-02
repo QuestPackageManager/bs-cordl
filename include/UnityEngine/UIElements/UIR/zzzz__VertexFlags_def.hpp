@@ -28,8 +28,6 @@ public:
     __E_IsTextured = static_cast<int32_t>(0x2),
     __E_IsDynamic = static_cast<int32_t>(0x3),
     __E_IsSvgGradients = static_cast<int32_t>(0x4),
-    __E_LastType = static_cast<int32_t>(0xa),
-    __E_IsGraphViewEdge = static_cast<int32_t>(0xa),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -52,9 +50,6 @@ public:
   /// @brief Field IsDynamic value: I32(3)
   static ::UnityEngine::UIElements::UIR::VertexFlags const IsDynamic;
 
-  /// @brief Field IsGraphViewEdge value: I32(10)
-  static ::UnityEngine::UIElements::UIR::VertexFlags const IsGraphViewEdge;
-
   /// @brief Field IsSolid value: I32(0)
   static ::UnityEngine::UIElements::UIR::VertexFlags const IsSolid;
 
@@ -67,11 +62,8 @@ public:
   /// @brief Field IsTextured value: I32(2)
   static ::UnityEngine::UIElements::UIR::VertexFlags const IsTextured;
 
-  /// @brief Field LastType value: I32(10)
-  static ::UnityEngine::UIElements::UIR::VertexFlags const LastType;
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6431 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5382 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

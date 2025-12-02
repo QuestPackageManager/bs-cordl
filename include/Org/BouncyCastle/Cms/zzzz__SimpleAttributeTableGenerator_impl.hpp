@@ -1,17 +1,17 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/SimpleAttributeTableGenerator.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__SimpleAttributeTableGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::*)(::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(
     &::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x26822a0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x35b1814;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (
     ::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Cms::SimpleAttributeTableGenerator::GetAttributes)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x26822c8;
+  constexpr static std::size_t addrs = 0x35b181c;
 
   inline static ::MethodInfo const* methodInfo() {
 

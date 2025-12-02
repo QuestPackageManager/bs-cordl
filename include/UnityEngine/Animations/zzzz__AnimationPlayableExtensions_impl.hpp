@@ -2,6 +2,7 @@
 // IWYU pragma private; include "UnityEngine/Animations/AnimationPlayableExtensions.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Animations/zzzz__AnimationPlayableExtensions_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/Playables/zzzz__PlayableHandle_def.hpp"
 #include "UnityEngine/zzzz__AnimationClip_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Animations::AnimationPlayableExtensions.SetAnimatedPropertiesInternal
@@ -9,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, ::UnityEngine::AnimationClip*)>(
     &::UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPropertiesInternal)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4856600;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6810ed4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -18,6 +19,23 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                  "SetAnimatedPropertiesInternal", std::span<Il2CppClass const* const, 0>(),
                                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get(),
                                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AnimationClip*>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Animations::AnimationPlayableExtensions.SetAnimatedPropertiesInternal_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ByRef<::UnityEngine::Playables::PlayableHandle>, ::System::IntPtr)>(
+    &::UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPropertiesInternal_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6810f64;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method =
+        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableExtensions*>::get(),
+                                                 "SetAnimatedPropertiesInternal_Injected", std::span<Il2CppClass const* const, 0>(),
+                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get(),
+                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -37,6 +55,15 @@ inline void UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPro
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableExtensions*>::get(), "SetAnimatedPropertiesInternal", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::AnimationClip*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, playable, animatedProperties);
+}
+inline void UnityEngine::Animations::AnimationPlayableExtensions::SetAnimatedPropertiesInternal_Injected(::ByRef<::UnityEngine::Playables::PlayableHandle> playable,
+                                                                                                         ::System::IntPtr animatedProperties) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Animations::AnimationPlayableExtensions*>::get(),
+                                               "SetAnimatedPropertiesInternal_Injected", std::span<Il2CppClass const* const, 0>(),
+                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Playables::PlayableHandle>>::get(),
+                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, playable, animatedProperties);
 }
 // Ctor Parameters []

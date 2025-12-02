@@ -1,14 +1,28 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/MenuScenesTransitionSetupDataSO.hpp"
-#include "GlobalNamespace/zzzz__NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO_impl.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_impl.hpp"
 #include "GlobalNamespace/zzzz__MenuScenesTransitionSetupDataSO_def.hpp"
+//  Writing Method size for method: ::GlobalNamespace::MenuScenesTransitionSetupDataSO.Init
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuScenesTransitionSetupDataSO::*)()>(
+    &::GlobalNamespace::MenuScenesTransitionSetupDataSO::Init)> {
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x57201b4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuScenesTransitionSetupDataSO*>::get(),
+                                                                               "Init", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::GlobalNamespace::MenuScenesTransitionSetupDataSO._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MenuScenesTransitionSetupDataSO::*)()>(
     &::GlobalNamespace::MenuScenesTransitionSetupDataSO::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x229bb4c;
+  constexpr static std::size_t addrs = 0x5720274;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuScenesTransitionSetupDataSO*>::get(),
@@ -16,6 +30,11 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+inline void GlobalNamespace::MenuScenesTransitionSetupDataSO::Init() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuScenesTransitionSetupDataSO*>::get(), "Init",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
 inline void GlobalNamespace::MenuScenesTransitionSetupDataSO::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MenuScenesTransitionSetupDataSO*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));

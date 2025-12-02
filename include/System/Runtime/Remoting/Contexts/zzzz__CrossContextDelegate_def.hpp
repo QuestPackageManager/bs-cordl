@@ -24,12 +24,12 @@ namespace System::Runtime::Remoting::Contexts {
 class CORDL_TYPE CrossContextDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method Invoke, addr 0x3ce05f4, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x5922aa0, size 0x14, virtual true, abstract: false, final false
   inline void Invoke();
 
   static inline ::System::Runtime::Remoting::Contexts::CrossContextDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3ce056c, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5922a38, size 0x68, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -47,7 +47,7 @@ public:
   CrossContextDelegate(CrossContextDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3120 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

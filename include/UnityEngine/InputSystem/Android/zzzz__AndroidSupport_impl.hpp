@@ -8,8 +8,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::InputSystem::Android::AndroidSupport::Initialize)> {
-  constexpr static std::size_t size = 0x910;
-  constexpr static std::size_t addrs = 0x4605a98;
+  constexpr static std::size_t size = 0x974;
+  constexpr static std::size_t addrs = 0x638d8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Android::AndroidSupport*>::get(),
@@ -23,8 +23,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::StringW (*)(::ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>, ::StringW, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*)>(
         &::UnityEngine::InputSystem::Android::AndroidSupport::OnFindLayoutForDevice)> {
-  constexpr static std::size_t size = 0x24c;
-  constexpr static std::size_t addrs = 0x46063a8;
+  constexpr static std::size_t size = 0x258;
+  constexpr static std::size_t addrs = 0x638e270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::InputSystem::Android::AndroidSupport::*)()>(
     &::UnityEngine::InputSystem::Android::AndroidSupport::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x46066b0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x638e58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Android::AndroidSupport*>::get(),

@@ -96,21 +96,21 @@ public:
   /// @brief Field _velocity, offset 0x6c, size 0xc
   __declspec(property(get = __cordl_internal_get__velocity, put = __cordl_internal_set__velocity)) ::UnityEngine::Vector3 _velocity;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b98c14, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5787470, size 0x7c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
-  /// @brief Method HandleSongTimeFixedUpdate, addr 0x3b98ac8, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeFixedUpdate, addr 0x5787320, size 0xdc, virtual false, abstract: false, final false
   inline void HandleSongTimeFixedUpdate(float_t fixedDeltaTime);
 
-  /// @brief Method HandleSongTimeUpdate, addr 0x3b98ba4, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method HandleSongTimeUpdate, addr 0x57873fc, size 0x74, virtual false, abstract: false, final false
   inline void HandleSongTimeUpdate();
 
   static inline ::GlobalNamespace::PhysicsPositionsMovementEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b98988, size 0x140, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5787160, size 0x1c0, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b98744, size 0x244, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5786e90, size 0x2d0, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr ::GlobalNamespace::BeatmapCallbacksController* const& __cordl_internal_get__beatmapCallbacksController() const;
@@ -227,7 +227,7 @@ public:
 
   constexpr void __cordl_internal_set__velocity(::UnityEngine::Vector3 value);
 
-  /// @brief Method .ctor, addr 0x3b98c90, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x57874ec, size 0x7c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -245,7 +245,7 @@ public:
   PhysicsPositionsMovementEventEffect(PhysicsPositionsMovementEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4336 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5919 };
 
   /// @brief Field _event, offset: 0x20, size: 0x4, def value: None
   ::GlobalNamespace::BasicBeatmapEventType ____event;

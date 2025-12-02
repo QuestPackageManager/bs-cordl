@@ -29,16 +29,16 @@ public:
   // Declarations
   static inline ::Zenject::TickablesTaskUpdater* New_ctor();
 
-  /// @brief Method UpdateItem, addr 0x4b4ead8, size 0x9c, virtual true, abstract: false, final false
+  /// @brief Method UpdateItem, addr 0x6c620e8, size 0xa0, virtual true, abstract: false, final false
   inline void UpdateItem(::Zenject::ITickable* task);
 
-  /// @brief Method __zenCreate, addr 0x4b4ebbc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method __zenCreate, addr 0x6c621d4, size 0x54, virtual false, abstract: false, final false
   static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x4b4ec0c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method __zenCreateInjectTypeInfo, addr 0x6c62228, size 0x194, virtual false, abstract: false, final false
   static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
 
-  /// @brief Method .ctor, addr 0x4b4eb74, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c62188, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -56,7 +56,7 @@ public:
   TickablesTaskUpdater(TickablesTaskUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12680 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14661 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -1,7 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/BaseSlider_1.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IValueField_1_impl.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_impl.hpp"
 #include "UnityEngine/zzzz__Rect_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseSlider_1_def.hpp"
@@ -13,23 +14,26 @@
 #include "UnityEngine/UIElements/zzzz__FocusInEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__FocusOutEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__GeometryChangedEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IValueField_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__KeyDownEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__NavigationMoveEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__NavigationSubmitEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TextField_def.hpp"
 #include "UnityEngine/UIElements/zzzz__VisualElement_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
-template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+template <typename TValueType, typename TValueUxmlAttributeType> inline void UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::_ctor() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>*>::get(), ".ctor",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-template <typename TValueType> inline ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>* UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>*>());
+template <typename TValueType, typename TValueUxmlAttributeType>
+inline ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>* UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>*>());
 }
 // Ctor Parameters []
-template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>::BaseSlider_1_UxmlTraits() {}
+template <typename TValueType, typename TValueUxmlAttributeType> constexpr ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>::BaseSlider_1_UxmlTraits_1() {}
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename TValueType> constexpr ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>::BaseSlider_1_SliderKey(int32_t value__) noexcept {
   this->value__ = value__;
@@ -110,6 +114,18 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlide
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   ::cordl_internals::setInstanceField(this, &this->____inputTextField_k__BackingField, value);
 }
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement*& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__fillElement_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fillElement_k__BackingField;
+}
+template <typename TValueType> constexpr ::UnityEngine::UIElements::VisualElement* const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get__fillElement_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____fillElement_k__BackingField;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set__fillElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->____fillElement_k__BackingField, value);
+}
 template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_IsEditingTextField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___m_IsEditingTextField;
@@ -121,6 +137,18 @@ template <typename TValueType> constexpr bool const& UnityEngine::UIElements::Ba
 template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_IsEditingTextField(bool value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_IsEditingTextField = value;
+}
+template <typename TValueType> constexpr bool& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Fill() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Fill;
+}
+template <typename TValueType> constexpr bool const& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_Fill() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___m_Fill;
+}
+template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_set_m_Fill(bool value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___m_Fill = value;
 }
 template <typename TValueType> constexpr TValueType& UnityEngine::UIElements::BaseSlider_1<TValueType>::__cordl_internal_get_m_LowValue() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -233,6 +261,78 @@ template <typename TValueType> constexpr void UnityEngine::UIElements::BaseSlide
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_Inverted = value;
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_lowValueProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "lowValueProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_lowValueProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "lowValueProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_highValueProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "highValueProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_highValueProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "highValueProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_rangeProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "rangeProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_rangeProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "rangeProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_pageSizeProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "pageSizeProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_pageSizeProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "pageSizeProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_showInputFieldProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "showInputFieldProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_showInputFieldProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "showInputFieldProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "directionProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_directionProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "directionProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_invertedProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "invertedProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_invertedProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "invertedProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_fillProperty(::UnityEngine::UIElements::BindingId value) {
+  ::cordl_internals::setStaticField<::UnityEngine::UIElements::BindingId, "fillProperty",
+                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::UnityEngine::UIElements::BindingId>(value));
+}
+template <typename TValueType> inline ::UnityEngine::UIElements::BindingId UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_fillProperty() {
+  return ::cordl_internals::getStaticField<::UnityEngine::UIElements::BindingId, "fillProperty",
+                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_ussClassName(::StringW value) {
   ::cordl_internals::setStaticField<::StringW, "ussClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
       std::forward<::StringW>(value));
@@ -305,6 +405,20 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_textFieldClassName() {
   return ::cordl_internals::getStaticField<::StringW, "textFieldClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_fillUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "fillUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::StringW>(value));
+}
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_fillUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "fillUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::setStaticF_movableUssClassName(::StringW value) {
+  ::cordl_internals::setStaticField<::StringW, "movableUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>(
+      std::forward<::StringW>(value));
+}
+template <typename TValueType> inline ::StringW UnityEngine::UIElements::BaseSlider_1<TValueType>::getStaticF_movableUssClassName() {
+  return ::cordl_internals::getStaticField<::StringW, "movableUssClassName", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get>();
+}
 template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_dragContainer() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(),
                                                                              "get_dragContainer", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -360,6 +474,17 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::TextField*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
+template <typename TValueType> inline ::UnityEngine::UIElements::VisualElement* UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fillElement() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(),
+                                                                             "get_fillElement", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::VisualElement*, false>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_fillElement(::UnityEngine::UIElements::VisualElement* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "set_fillElement", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::VisualElement*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_lowValue() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(),
                                                                              "get_lowValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -388,28 +513,44 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<TValueType>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newHighValue);
 }
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_range() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(),
+                                                                             "get_range", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method);
+}
 template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::get_pageSize() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 123)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 159)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_pageSize(float_t value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 124)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 160)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_showInputField() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 125)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 161)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_showInputField(bool value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 126)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 162)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_fill() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(),
+                                                                             "get_fill", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_fill(bool value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "set_fill",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::get_clamped() {
@@ -450,20 +591,20 @@ template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSl
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::get_value() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 107)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 143)));
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::set_value(TValueType value) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 108)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 144)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, TValueType startValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 127)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 163)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnityEngine_UIElements_IValueField_TValueType__StartDragging() {
@@ -481,7 +622,7 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::SetValueWithoutNotify(TValueType newValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 117)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 153)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, newValue);
 }
 template <typename TValueType> inline ::UnityEngine::UIElements::SliderDirection UnityEngine::UIElements::BaseSlider_1<TValueType>::get_direction() {
@@ -536,26 +677,32 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpUnclamped(TValueType a, TValueType b, float_t interpolant) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 128)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 164)));
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, a, b, interpolant);
 }
 template <typename TValueType> inline float_t UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 129)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 165)));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method, currentValue, lowerValue, higherValue);
+}
+template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderRange() {
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 166)));
+  return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::ParseStringToValue(::StringW previousValue, ::StringW newValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 130)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 167)));
   return ::cordl_internals::RunMethodRethrow<TValueType, false>(this, ___internal_method, previousValue, newValue);
 }
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueFromKey(::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> sliderKey, bool isShift) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 131)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 168)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderKey, isShift);
 }
 template <typename TValueType> inline TValueType UnityEngine::UIElements::BaseSlider_1<TValueType>::SliderLerpDirectionalUnclamped(TValueType a, TValueType b, float_t positionInterpolant) {
@@ -595,11 +742,17 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationMoveEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "OnNavigationSubmit", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationSubmitEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
 template <typename TValueType>
 inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ComputeValueAndDirectionFromClick(float_t sliderLength, float_t dragElementLength, float_t dragElementPos, float_t dragElementLastPos) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 132)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 169)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sliderLength, dragElementLength, dragElementPos, dragElementLastPos);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::AdjustDragElement(float_t factor) {
@@ -615,8 +768,9 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnViewDataReady() {
-  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 96)));
+  auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 132)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline bool UnityEngine::UIElements::BaseSlider_1<TValueType>::SameValues(float_t a, float_t b, float_t epsilon) {
@@ -630,6 +784,17 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(),
                                                                              "UpdateDragElementPosition", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateFill(float_t normalizedValue) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "UpdateFill",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, normalizedValue);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 8)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
@@ -646,6 +811,18 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
                                                                              "UpdateTextFieldValue", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnFocusIn(::UnityEngine::UIElements::FocusInEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "OnFocusIn", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusInEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
+template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "OnFocusOut", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusOutEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
+}
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldFocusIn(::UnityEngine::UIElements::FocusInEvent* evt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "OnTextFieldFocusIn", std::span<Il2CppClass const* const, 0>(),
@@ -658,12 +835,6 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::FocusOutEvent*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
 }
-template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnInputNavigationMoveEvent(::UnityEngine::UIElements::NavigationMoveEvent* evt) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "OnInputNavigationMoveEvent", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::NavigationMoveEvent*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, evt);
-}
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::OnTextFieldValueChange(::UnityEngine::UIElements::ChangeEvent_1<::StringW>* evt) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), "OnTextFieldValueChange", std::span<Il2CppClass const* const, 0>(),
@@ -673,19 +844,19 @@ template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UpdateMixedValueContent() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 116)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 152)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::RegisterEditingCallbacks() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 114)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 150)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType> inline void UnityEngine::UIElements::BaseSlider_1<TValueType>::UnregisterEditingCallbacks() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 115)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::BaseSlider_1<TValueType>*>::get(), 151)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename TValueType>

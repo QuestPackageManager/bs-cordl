@@ -2,10 +2,10 @@
 // IWYU pragma private; include "UnityEngine/UIElements/DefaultTreeViewController_1.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewController_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__DefaultTreeViewController_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IList_1_def.hpp"
 #include "System/Collections/zzzz__IList_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+#include "Unity/Hierarchy/zzzz__HierarchyNode_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeDataController_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__TreeViewItemData_1_def.hpp"
 template <typename T> constexpr ::UnityEngine::UIElements::TreeDataController_1<T>*& UnityEngine::UIElements::DefaultTreeViewController_1<T>::__cordl_internal_get_m_TreeDataController() {
@@ -50,47 +50,23 @@ template <typename T> inline ::System::Object* UnityEngine::UIElements::DefaultT
                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method, index);
 }
-template <typename T> inline int32_t UnityEngine::UIElements::DefaultTreeViewController_1<T>::GetParentId(int32_t id) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), 23)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, id);
-}
-template <typename T> inline bool UnityEngine::UIElements::DefaultTreeViewController_1<T>::HasChildren(int32_t id) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), 26)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, id);
-}
-template <typename T> inline ::System::Collections::Generic::IEnumerable_1<int32_t>* UnityEngine::UIElements::DefaultTreeViewController_1<T>::GetChildrenIds(int32_t id) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), 24)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(this, ___internal_method, id);
-}
-template <typename T> inline void UnityEngine::UIElements::DefaultTreeViewController_1<T>::Move(int32_t id, int32_t newParentId, int32_t childIndex, bool rebuildTree) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), 25)));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, newParentId, childIndex, rebuildTree);
-}
-template <typename T> inline bool UnityEngine::UIElements::DefaultTreeViewController_1<T>::IsChildOf(int32_t childId, int32_t id) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), "IsChildOf", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, childId, id);
-}
-template <typename T>
-inline ::System::Collections::Generic::IEnumerable_1<int32_t>* UnityEngine::UIElements::DefaultTreeViewController_1<T>::GetAllItemIds(::System::Collections::Generic::IEnumerable_1<int32_t>* rootIds) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), 22)));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<int32_t>*, false>(this, ___internal_method, rootIds);
-}
 template <typename T> inline void UnityEngine::UIElements::DefaultTreeViewController_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(),
                                                                              ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline ::Unity::Hierarchy::HierarchyNode UnityEngine::UIElements::DefaultTreeViewController_1<T>::_SetRootItems_b__6_0(::Unity::Hierarchy::HierarchyNode node) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), "<SetRootItems>b__6_0", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyNode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::Unity::Hierarchy::HierarchyNode, false>(this, ___internal_method, node);
+}
+template <typename T> inline void UnityEngine::UIElements::DefaultTreeViewController_1<T>::_SetRootItems_b__6_1(int32_t id, ::Unity::Hierarchy::HierarchyNode node) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>::get(), "<SetRootItems>b__6_1", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::Unity::Hierarchy::HierarchyNode>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, id, node);
 }
 template <typename T> inline ::UnityEngine::UIElements::DefaultTreeViewController_1<T>* UnityEngine::UIElements::DefaultTreeViewController_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::UIElements::DefaultTreeViewController_1<T>*>());

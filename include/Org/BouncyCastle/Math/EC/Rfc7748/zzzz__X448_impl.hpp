@@ -9,8 +9,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<bool (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
         &::Org::BouncyCastle::Math::EC::Rfc7748::X448::CalculateAgreement)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x24bfda8;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x33eee18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc7748::X448::Decode32)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x24c0158;
+  constexpr static std::size_t addrs = 0x33ef1cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +44,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc7748::X448::DecodeScalar)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x24c01c0;
+  constexpr static std::size_t addrs = 0x33ef234;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::Org::BouncyCastle::Security::SecureRandom*, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc7748::X448::GeneratePrivateKey)> {
   constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x24c024c;
+  constexpr static std::size_t addrs = 0x33ef2c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc7748::X448::GeneratePublicKey)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x24c02a0;
+  constexpr static std::size_t addrs = 0x33ef314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -94,7 +94,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint32_t, ::Array<uint32_t>*>, ::ArrayW<uint32_t, ::Array<uint32_t>*>)>(
     &::Org::BouncyCastle::Math::EC::Rfc7748::X448::PointDouble)> {
   constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x24c0388;
+  constexpr static std::size_t addrs = 0x33ef400;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -108,8 +108,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::Org::BouncyCastle::Math::EC::Rfc7748::X448::Precompute)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x24c18d0;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x33f0a50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc7748::X448*>::get(),
@@ -123,7 +123,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t,
                                                                                            ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(&::Org::BouncyCastle::Math::EC::Rfc7748::X448::ScalarMult)> {
   constexpr static std::size_t size = 0x2fc;
-  constexpr static std::size_t addrs = 0x24bfe5c;
+  constexpr static std::size_t addrs = 0x33eeed0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,8 +140,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Math::EC::Rfc7748::X448::ScalarMultBase)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x24c02a4;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x33ef318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -156,8 +156,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Math::EC::Rfc7748::X448::*)()>(&::Org::BouncyCastle::Math::EC::Rfc7748::X448::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x24c1bd4;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x33f0d60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Math::EC::Rfc7748::X448*>::get(), ".ctor",

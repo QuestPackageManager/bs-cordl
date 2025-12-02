@@ -3,15 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/IO/Enumeration/zzzz__FileSystemEnumerator_1_def.hpp"
 #include "System/zzzz__MulticastDelegate_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(FileSystemEnumerable_1)
 namespace System::Collections::Generic {
+template <typename T> class IEnumerable_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -87,7 +91,7 @@ public:
   FileSystemEnumerable_1_FindPredicate(FileSystemEnumerable_1_FindPredicate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3649 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3927 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -125,7 +129,7 @@ public:
   FileSystemEnumerable_1_FindTransform(FileSystemEnumerable_1_FindTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3650 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3928 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -178,7 +182,7 @@ public:
   FileSystemEnumerable_1_DelegateEnumerator(FileSystemEnumerable_1_DelegateEnumerator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3651 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3929 };
 
   /// @brief Field _enumerable, offset: 0x78, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1<TResult>* ____enumerable;
@@ -187,7 +191,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::IO::Enumeration
-// Dependencies System.Collections.Generic.IEnumerable`1<T>, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::IO::Enumeration {
 // cpp template
 template <typename TResult>
@@ -312,7 +316,7 @@ public:
   FileSystemEnumerable_1(FileSystemEnumerable_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3652 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3930 };
 
   /// @brief Field _enumerator, offset: 0x10, size: 0x8, def value: None
   ::System::IO::Enumeration::FileSystemEnumerable_1_DelegateEnumerator<TResult>* ____enumerator;

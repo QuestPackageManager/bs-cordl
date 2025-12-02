@@ -6,7 +6,7 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(AuthenticationTokenPlatformExtensions)
 namespace GlobalNamespace {
-struct AuthenticationToken_Platform;
+struct AuthenticationToken_PlatformType;
 }
 namespace GlobalNamespace {
 struct UserInfo_Platform;
@@ -24,11 +24,8 @@ namespace GlobalNamespace {
 class CORDL_TYPE AuthenticationTokenPlatformExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method ToAuthenticationTokenPlatform, addr 0x407e754, size 0x28, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::AuthenticationToken_Platform ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo_Platform platform);
-
-  /// @brief Method ToUserInfoPlatform, addr 0x407e77c, size 0x2c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::UserInfo_Platform ToUserInfoPlatform(::GlobalNamespace::AuthenticationToken_Platform platform);
+  /// @brief Method ToAuthenticationTokenPlatform, addr 0x5d2a4d0, size 0x20, virtual false, abstract: false, final false
+  static inline ::GlobalNamespace::AuthenticationToken_PlatformType ToAuthenticationTokenPlatform(::GlobalNamespace::UserInfo_Platform platform);
 
 protected:
   // Ctor Parameters []
@@ -45,7 +42,7 @@ public:
   AuthenticationTokenPlatformExtensions(AuthenticationTokenPlatformExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18747 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 23066 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

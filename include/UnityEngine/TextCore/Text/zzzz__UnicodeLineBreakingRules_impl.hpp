@@ -4,41 +4,13 @@
 #include "UnityEngine/TextCore/Text/zzzz__UnicodeLineBreakingRules_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "UnityEngine/zzzz__TextAsset_def.hpp"
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules.get_leadingCharacters
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextAsset> (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
-    &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_leadingCharacters)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4952d18;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                               "get_leadingCharacters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules.get_followingCharacters
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::TextAsset> (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
-    &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_followingCharacters)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4952d20;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                               "get_followingCharacters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
 //  Writing Method size for method: ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules.get_leadingCharactersLookup
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<uint32_t>* (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
     &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_leadingCharactersLookup)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4952d28;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x69e073c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
@@ -51,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<uint32_t>* (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
     &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_followingCharactersLookup)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4952f24;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x69e0954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
@@ -66,7 +38,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
     &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_useModernHangulLineBreakingRules)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4952f4c;
+  constexpr static std::size_t addrs = 0x69e0978;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -80,28 +52,12 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
     &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::LoadLineBreakingRules)> {
-  constexpr static std::size_t size = 0x1e4;
-  constexpr static std::size_t addrs = 0x4950d30;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x69e0760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
                                                                                "LoadLineBreakingRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::UnityEngine::TextCore::Text::UnicodeLineBreakingRules.LoadLineBreakingRules
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)(
-    ::UnityEngine::TextAsset*, ::UnityEngine::TextAsset*)>(&::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::LoadLineBreakingRules)> {
-  constexpr static std::size_t size = 0x1d4;
-  constexpr static std::size_t addrs = 0x4952d50;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(), "LoadLineBreakingRules", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
     return ___internal_method;
   }
 };
@@ -110,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<uint32_t>* (*)(::UnityEngine::TextAsset*)>(
     &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::GetCharacters)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4952f54;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x69e0980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,8 +81,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::*)()>(
     &::UnityEngine::TextCore::Text::UnicodeLineBreakingRules::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4950d28;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x69e0a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
@@ -206,16 +162,6 @@ constexpr void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___m_FollowingCharactersLookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityW<::UnityEngine::TextAsset> UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_leadingCharacters() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                             "get_leadingCharacters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextAsset>, false>(this, ___internal_method);
-}
-inline ::UnityW<::UnityEngine::TextAsset> UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_followingCharacters() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
-                                                                             "get_followingCharacters", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::TextAsset>, false>(this, ___internal_method);
-}
 inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::UnicodeLineBreakingRules::get_leadingCharactersLookup() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
                                                                              "get_leadingCharactersLookup", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -236,13 +182,6 @@ inline void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::LoadLineBreak
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(),
                                                                              "LoadLineBreakingRules", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void UnityEngine::TextCore::Text::UnicodeLineBreakingRules::LoadLineBreakingRules(::UnityEngine::TextAsset* leadingRules, ::UnityEngine::TextAsset* followingRules) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::Text::UnicodeLineBreakingRules*>::get(), "LoadLineBreakingRules", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::TextAsset*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, leadingRules, followingRules);
 }
 inline ::System::Collections::Generic::HashSet_1<uint32_t>* UnityEngine::TextCore::Text::UnicodeLineBreakingRules::GetCharacters(::UnityEngine::TextAsset* file) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

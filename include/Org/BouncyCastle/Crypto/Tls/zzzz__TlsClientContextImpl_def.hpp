@@ -4,11 +4,15 @@
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__AbstractTlsContext_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsClientContext_def.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsContext_def.hpp"
 CORDL_MODULE_EXPORT(TlsClientContextImpl)
 namespace Org::BouncyCastle::Crypto::Tls {
 class SecurityParameters;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsClientContext;
+}
+namespace Org::BouncyCastle::Crypto::Tls {
+class TlsContext;
 }
 namespace Org::BouncyCastle::Security {
 class SecureRandom;
@@ -19,7 +23,7 @@ class TlsClientContextImpl;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl);
-// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsContext, Org.BouncyCastle.Crypto.Tls.TlsClientContext, Org.BouncyCastle.Crypto.Tls.TlsContext
+// Dependencies Org.BouncyCastle.Crypto.Tls.AbstractTlsContext
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Crypto.Tls.TlsClientContextImpl
@@ -37,10 +41,10 @@ public:
   static inline ::Org::BouncyCastle::Crypto::Tls::TlsClientContextImpl* New_ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom,
                                                                                  ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method .ctor, addr 0x2420cdc, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x334f08c, size 0x74, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Security::SecureRandom* secureRandom, ::Org::BouncyCastle::Crypto::Tls::SecurityParameters* securityParameters);
 
-  /// @brief Method get_IsServer, addr 0x2420d4c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsServer, addr 0x334f100, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsServer();
 
   /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsClientContext"

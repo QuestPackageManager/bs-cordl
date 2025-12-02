@@ -34,21 +34,21 @@ public:
   /// @brief Field _strDefault, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__strDefault, put = __cordl_internal_set__strDefault)) ::StringW _strDefault;
 
-  /// @brief Method Fallback, addr 0x3c7a87c, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x58bebe0, size 0x130, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknown, int32_t index);
 
-  /// @brief Method Fallback, addr 0x3c7a9bc, size 0x210, virtual true, abstract: false, final false
+  /// @brief Method Fallback, addr 0x58bed10, size 0x1d0, virtual true, abstract: false, final false
   inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
 
-  /// @brief Method GetNextChar, addr 0x3c7abcc, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method GetNextChar, addr 0x58beee0, size 0x7c, virtual true, abstract: false, final false
   inline char16_t GetNextChar();
 
-  /// @brief Method MovePrevious, addr 0x3c7ac1c, size 0x30, virtual true, abstract: false, final false
+  /// @brief Method MovePrevious, addr 0x58bef5c, size 0x30, virtual true, abstract: false, final false
   inline bool MovePrevious();
 
   static inline ::System::Text::EncoderReplacementFallbackBuffer* New_ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method Reset, addr 0x3c7ac58, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Reset, addr 0x58bef98, size 0x14, virtual true, abstract: false, final false
   inline void Reset();
 
   constexpr int32_t const& __cordl_internal_get__fallbackCount() const;
@@ -69,10 +69,10 @@ public:
 
   constexpr void __cordl_internal_set__strDefault(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3c7a778, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58beaf8, size 0x34, virtual false, abstract: false, final false
   inline void _ctor(::System::Text::EncoderReplacementFallback* fallback);
 
-  /// @brief Method get_Remaining, addr 0x3c7ac4c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method get_Remaining, addr 0x58bef8c, size 0xc, virtual true, abstract: false, final false
   inline int32_t get_Remaining();
 
 protected:
@@ -90,7 +90,7 @@ public:
   EncoderReplacementFallbackBuffer(EncoderReplacementFallbackBuffer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2867 };
 
   /// @brief Field _strDefault, offset: 0x30, size: 0x8, def value: None
   ::StringW ____strDefault;

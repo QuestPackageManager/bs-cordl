@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::ComponentModel::PropertyChangedEventArgs::*)(::StringW)>(
     &::System::ComponentModel::PropertyChangedEventArgs::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x445ca78;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x61acac8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

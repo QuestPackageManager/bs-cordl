@@ -1,9 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/NetworkPacketSerializer_2.hpp"
-#include "GlobalNamespace/zzzz__INetworkPacketSerializer_1_impl.hpp"
-#include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
+#include "GlobalNamespace/zzzz__INetworkPacketSerializer_1_def.hpp"
 #include "GlobalNamespace/zzzz__INetworkPacketSubSerializer_1_def.hpp"
 #include "GlobalNamespace/zzzz__NetworkPacketSerializer_2_def.hpp"
 #include "LiteNetLib/Utils/zzzz__INetSerializable_def.hpp"

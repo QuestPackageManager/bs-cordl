@@ -35,16 +35,16 @@ public:
   /// @brief Field autoRestart, offset 0x18, size 0x1
   __declspec(property(get = __cordl_internal_get_autoRestart, put = __cordl_internal_set_autoRestart)) bool autoRestart;
 
-  /// @brief Field backButtonText, offset 0x48, size 0x8
+  /// @brief Field backButtonText, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get_backButtonText, put = __cordl_internal_set_backButtonText)) ::StringW backButtonText;
 
-  /// @brief Field beatmapKey, offset 0x20, size 0x18
+  /// @brief Field beatmapKey, offset 0x20, size 0x20
   __declspec(property(get = __cordl_internal_get_beatmapKey, put = __cordl_internal_set_beatmapKey)) ::GlobalNamespace::BeatmapKey beatmapKey;
 
-  /// @brief Field beatmapLevel, offset 0x38, size 0x8
+  /// @brief Field beatmapLevel, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get_beatmapLevel, put = __cordl_internal_set_beatmapLevel)) ::GlobalNamespace::BeatmapLevel* beatmapLevel;
 
-  /// @brief Field gameplayModifiers, offset 0x40, size 0x8
+  /// @brief Field gameplayModifiers, offset 0x48, size 0x8
   __declspec(property(get = __cordl_internal_get_gameplayModifiers, put = __cordl_internal_set_gameplayModifiers)) ::GlobalNamespace::GameplayModifiers* gameplayModifiers;
 
   /// @brief Field missionObjectives, offset 0x10, size 0x8
@@ -92,7 +92,7 @@ public:
 
   constexpr void __cordl_internal_set_missionObjectives(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> value);
 
-  /// @brief Method .ctor, addr 0x3b3b0e4, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x571e8b8, size 0x1c, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> missionObjectives, bool autoRestart,
                     ::ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::BeatmapLevel* beatmapLevel, ::GlobalNamespace::GameplayModifiers* gameplayModifiers,
                     ::StringW backButtonText);
@@ -112,7 +112,7 @@ public:
   MissionGameplaySceneSetupData(MissionGameplaySceneSetupData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5244 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6819 };
 
   /// @brief Field missionObjectives, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::GlobalNamespace::MissionObjective*, ::Array<::GlobalNamespace::MissionObjective*>*> ___missionObjectives;
@@ -120,16 +120,16 @@ public:
   /// @brief Field autoRestart, offset: 0x18, size: 0x1, def value: None
   bool ___autoRestart;
 
-  /// @brief Field beatmapKey, offset: 0x20, size: 0x18, def value: None
+  /// @brief Field beatmapKey, offset: 0x20, size: 0x20, def value: None
   ::GlobalNamespace::BeatmapKey ___beatmapKey;
 
-  /// @brief Field beatmapLevel, offset: 0x38, size: 0x8, def value: None
+  /// @brief Field beatmapLevel, offset: 0x40, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapLevel* ___beatmapLevel;
 
-  /// @brief Field gameplayModifiers, offset: 0x40, size: 0x8, def value: None
+  /// @brief Field gameplayModifiers, offset: 0x48, size: 0x8, def value: None
   ::GlobalNamespace::GameplayModifiers* ___gameplayModifiers;
 
-  /// @brief Field backButtonText, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field backButtonText, offset: 0x50, size: 0x8, def value: None
   ::StringW ___backButtonText;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -141,13 +141,13 @@ static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___auto
 
 static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___beatmapKey) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___beatmapLevel) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___beatmapLevel) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___gameplayModifiers) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___gameplayModifiers) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___backButtonText) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionGameplaySceneSetupData, ___backButtonText) == 0x50, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionGameplaySceneSetupData, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionGameplaySceneSetupData, 0x58>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionGameplaySceneSetupData);

@@ -25,9 +25,6 @@ class SimpleTextDropdown;
 namespace HMUI {
 class ToggleBinder;
 }
-namespace HMUI {
-class ToggleWithCallbacks;
-}
 namespace System {
 template <typename T> class Action_1;
 }
@@ -36,6 +33,9 @@ template <typename T1, typename T2> struct ValueTuple_2;
 }
 namespace UnityEngine::UI {
 class Button;
+}
+namespace UnityEngine::UI {
+class Toggle;
 }
 namespace UnityEngine {
 class CanvasGroup;
@@ -69,7 +69,7 @@ public:
   __declspec(property(get = __cordl_internal_get__copyFromRightButton, put = __cordl_internal_set__copyFromRightButton)) ::UnityW<::UnityEngine::UI::Button> _copyFromRightButton;
 
   /// @brief Field _handlingToggle, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__handlingToggle, put = __cordl_internal_set__handlingToggle)) ::UnityW<::HMUI::ToggleWithCallbacks> _handlingToggle;
+  __declspec(property(get = __cordl_internal_get__handlingToggle, put = __cordl_internal_set__handlingToggle)) ::UnityW<::UnityEngine::UI::Toggle> _handlingToggle;
 
   /// @brief Field _interactableCanvasGroups, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__interactableCanvasGroups,
@@ -95,42 +95,42 @@ public:
   __declspec(property(get = __cordl_internal_get_onRequestSelectProfileToCopyFrom, put = __cordl_internal_set_onRequestSelectProfileToCopyFrom)) ::System::Action_1<
       ::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* onRequestSelectProfileToCopyFrom;
 
-  /// @brief Method CopyFormLeftToRight, addr 0x2270c38, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyFormLeftToRight, addr 0x31947c0, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFormLeftToRight();
 
-  /// @brief Method CopyFromRightToLeft, addr 0x2270c74, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method CopyFromRightToLeft, addr 0x31947fc, size 0x3c, virtual false, abstract: false, final false
   inline void CopyFromRightToLeft();
 
-  /// @brief Method CopyProfileResponse, addr 0x2270224, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method CopyProfileResponse, addr 0x3193cc8, size 0x10, virtual false, abstract: false, final false
   inline void CopyProfileResponse(bool wasCanceled, int32_t selectedDropdownIndex);
 
-  /// @brief Method CopyValuesFromOtherProfile, addr 0x2270234, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method CopyValuesFromOtherProfile, addr 0x3193cd8, size 0xdc, virtual false, abstract: false, final false
   inline void CopyValuesFromOtherProfile(int32_t otherProfileIndex);
 
-  /// @brief Method DidActivate, addr 0x227030c, size 0x314, virtual true, abstract: false, final false
+  /// @brief Method DidActivate, addr 0x3193db4, size 0x3fc, virtual true, abstract: false, final false
   inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
 
-  /// @brief Method DidDeactivate, addr 0x2270b70, size 0x50, virtual true, abstract: false, final false
+  /// @brief Method DidDeactivate, addr 0x3194704, size 0x48, virtual true, abstract: false, final false
   inline void DidDeactivate(bool removedFromHierarchy, bool screenSystemDisabling);
 
-  /// @brief Method GetControllerProfileDisplayName, addr 0x2270f24, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method GetControllerProfileDisplayName, addr 0x3194aa8, size 0x84, virtual false, abstract: false, final false
   static inline ::StringW GetControllerProfileDisplayName(::BeatSaber::GameSettings::ControllerProfile* profile);
 
-  /// @brief Method GetSelectedProfile, addr 0x2270bc8, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method GetSelectedProfile, addr 0x3194754, size 0x14, virtual false, abstract: false, final false
   inline ::BeatSaber::GameSettings::ControllerProfile* GetSelectedProfile();
 
-  /// @brief Method HandlingToggleChanged, addr 0x2270be0, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method HandlingToggleChanged, addr 0x3194768, size 0x2c, virtual false, abstract: false, final false
   inline void HandlingToggleChanged(bool value);
 
   static inline ::BeatSaber::GameSettings::ControllerProfilesSettingsViewController* New_ctor();
 
-  /// @brief Method ProfileSelected, addr 0x2270c0c, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method ProfileSelected, addr 0x3194794, size 0x2c, virtual false, abstract: false, final false
   inline void ProfileSelected(::HMUI::DropdownWithTableView* view, int32_t index);
 
-  /// @brief Method RefreshView, addr 0x2270a5c, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method RefreshView, addr 0x3194604, size 0x100, virtual false, abstract: false, final false
   inline void RefreshView();
 
-  /// @brief Method ShowCopyFromProfile, addr 0x2270cb0, size 0x274, virtual false, abstract: false, final false
+  /// @brief Method ShowCopyFromProfile, addr 0x3194838, size 0x270, virtual false, abstract: false, final false
   inline void ShowCopyFromProfile();
 
   constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__buttonsContainer() const;
@@ -149,9 +149,9 @@ public:
 
   constexpr ::UnityW<::UnityEngine::UI::Button>& __cordl_internal_get__copyFromRightButton();
 
-  constexpr ::UnityW<::HMUI::ToggleWithCallbacks> const& __cordl_internal_get__handlingToggle() const;
+  constexpr ::UnityW<::UnityEngine::UI::Toggle> const& __cordl_internal_get__handlingToggle() const;
 
-  constexpr ::UnityW<::HMUI::ToggleWithCallbacks>& __cordl_internal_get__handlingToggle();
+  constexpr ::UnityW<::UnityEngine::UI::Toggle>& __cordl_internal_get__handlingToggle();
 
   constexpr ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> const& __cordl_internal_get__interactableCanvasGroups() const;
 
@@ -188,7 +188,7 @@ public:
 
   constexpr void __cordl_internal_set__copyFromRightButton(::UnityW<::UnityEngine::UI::Button> value);
 
-  constexpr void __cordl_internal_set__handlingToggle(::UnityW<::HMUI::ToggleWithCallbacks> value);
+  constexpr void __cordl_internal_set__handlingToggle(::UnityW<::UnityEngine::UI::Toggle> value);
 
   constexpr void __cordl_internal_set__interactableCanvasGroups(::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> value);
 
@@ -204,13 +204,13 @@ public:
   constexpr void
   __cordl_internal_set_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value);
 
-  /// @brief Method .ctor, addr 0x22710d8, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3194cc8, size 0x64, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_onRequestSelectProfileToCopyFrom, addr 0x22700c4, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_onRequestSelectProfileToCopyFrom, addr 0x3193b48, size 0xc0, virtual false, abstract: false, final false
   inline void add_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value);
 
-  /// @brief Method remove_onRequestSelectProfileToCopyFrom, addr 0x2270174, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_onRequestSelectProfileToCopyFrom, addr 0x3193c08, size 0xc0, virtual false, abstract: false, final false
   inline void remove_onRequestSelectProfileToCopyFrom(::System::Action_1<::ArrayW<::System::ValueTuple_2<::StringW, int32_t>, ::Array<::System::ValueTuple_2<::StringW, int32_t>>*>>* value);
 
 protected:
@@ -228,13 +228,13 @@ public:
   ControllerProfilesSettingsViewController(ControllerProfilesSettingsViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21856 };
 
   /// @brief Field _profilesDropdown, offset: 0x78, size: 0x8, def value: None
   ::UnityW<::HMUI::SimpleTextDropdown> ____profilesDropdown;
 
   /// @brief Field _handlingToggle, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::HMUI::ToggleWithCallbacks> ____handlingToggle;
+  ::UnityW<::UnityEngine::UI::Toggle> ____handlingToggle;
 
   /// @brief Field _interactableCanvasGroups, offset: 0x88, size: 0x8, def value: None
   ::ArrayW<::UnityW<::UnityEngine::CanvasGroup>, ::Array<::UnityW<::UnityEngine::CanvasGroup>>*> ____interactableCanvasGroups;

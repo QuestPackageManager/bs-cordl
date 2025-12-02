@@ -76,37 +76,37 @@ public:
 
   constexpr void __cordl_internal_set_m_SelectedTrigger(::StringW value);
 
-  /// @brief Method .ctor, addr 0x49572dc, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x69e44d8, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_disabledTrigger, addr 0x49572cc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_disabledTrigger, addr 0x69e44c8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_disabledTrigger();
 
-  /// @brief Method get_highlightedTrigger, addr 0x495729c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_highlightedTrigger, addr 0x69e4498, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_highlightedTrigger();
 
-  /// @brief Method get_normalTrigger, addr 0x495728c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_normalTrigger, addr 0x69e4488, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_normalTrigger();
 
-  /// @brief Method get_pressedTrigger, addr 0x49572ac, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_pressedTrigger, addr 0x69e44a8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_pressedTrigger();
 
-  /// @brief Method get_selectedTrigger, addr 0x49572bc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_selectedTrigger, addr 0x69e44b8, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_selectedTrigger();
 
-  /// @brief Method set_disabledTrigger, addr 0x49572d4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_disabledTrigger, addr 0x69e44d0, size 0x8, virtual false, abstract: false, final false
   inline void set_disabledTrigger(::StringW value);
 
-  /// @brief Method set_highlightedTrigger, addr 0x49572a4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_highlightedTrigger, addr 0x69e44a0, size 0x8, virtual false, abstract: false, final false
   inline void set_highlightedTrigger(::StringW value);
 
-  /// @brief Method set_normalTrigger, addr 0x4957294, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_normalTrigger, addr 0x69e4490, size 0x8, virtual false, abstract: false, final false
   inline void set_normalTrigger(::StringW value);
 
-  /// @brief Method set_pressedTrigger, addr 0x49572b4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_pressedTrigger, addr 0x69e44b0, size 0x8, virtual false, abstract: false, final false
   inline void set_pressedTrigger(::StringW value);
 
-  /// @brief Method set_selectedTrigger, addr 0x49572c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectedTrigger, addr 0x69e44c0, size 0x8, virtual false, abstract: false, final false
   inline void set_selectedTrigger(::StringW value);
 
 protected:
@@ -124,7 +124,7 @@ public:
   AnimationTriggers(AnimationTriggers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15032 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17340 };
 
   /// @brief Field kDefaultDisabledAnimName offset 0xffffffff size 0x8
   static constexpr ::ConstString kDefaultDisabledAnimName{ u"Disabled" };

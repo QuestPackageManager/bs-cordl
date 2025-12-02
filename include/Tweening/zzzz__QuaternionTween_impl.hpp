@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::QuaternionTween::*)()>(&::Tweening::QuaternionTween::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x44db520;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x622aa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Tweening::QuaternionTween*>::get(), ".ctor",
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Tweening::QuaternionTween::*)(
     ::UnityEngine::Quaternion, ::UnityEngine::Quaternion, ::System::Action_1<::UnityEngine::Quaternion>*, float_t, ::GlobalNamespace::EaseType, float_t)>(&::Tweening::QuaternionTween::_ctor)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x44db568;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x622aaf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Quaternion (::Tweening::QuaternionTween::*)(float_t)>(&::Tweening::QuaternionTween::GetValue)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x44db638;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x622abb8;
 
   inline static ::MethodInfo const* methodInfo() {
 

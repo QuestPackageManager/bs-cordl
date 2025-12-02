@@ -4,16 +4,18 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
-#include "Zenject/zzzz__ITickable_impl.hpp"
 #include "GlobalNamespace/zzzz__FloatingTransformEffect_def.hpp"
+#include "GlobalNamespace/zzzz__IRandom_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "UnityEngine/zzzz__Transform_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+#include "Zenject/zzzz__ITickable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::FloatingTransformEffect.Start
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Start)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3b81810;
+  constexpr static std::size_t addrs = 0x576d68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatingTransformEffect*>::get(), "Start",
@@ -25,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Tick)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3b81920;
+  constexpr static std::size_t size = 0x160;
+  constexpr static std::size_t addrs = 0x576d82c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatingTransformEffect*>::get(), "Tick",
@@ -38,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::Refresh)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3b81848;
+  constexpr static std::size_t size = 0x168;
+  constexpr static std::size_t addrs = 0x576d6c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatingTransformEffect*>::get(), "Refresh",
@@ -53,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::GlobalNamespace::FloatingTransformEffect::*)(float_t)>(
     &::GlobalNamespace::FloatingTransformEffect::GetPoint)> {
   constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x3b81a70;
+  constexpr static std::size_t addrs = 0x576d98c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::FloatingTransformEffect::*)()>(&::GlobalNamespace::FloatingTransformEffect::_ctor)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3b81afc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x576da18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::FloatingTransformEffect*>::get(), ".ctor",
@@ -75,6 +77,30 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+constexpr ::GlobalNamespace::IRandom*& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__random() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
+}
+constexpr ::GlobalNamespace::IRandom* const& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__random() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____random;
+}
+constexpr void GlobalNamespace::FloatingTransformEffect::__cordl_internal_set__random(::GlobalNamespace::IRandom* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____random)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper>& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__timeHelper() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__timeHelper() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____timeHelper;
+}
+constexpr void GlobalNamespace::FloatingTransformEffect::__cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____timeHelper)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::UnityEngine::Vector3& GlobalNamespace::FloatingTransformEffect::__cordl_internal_get__positionMultiplier() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____positionMultiplier;

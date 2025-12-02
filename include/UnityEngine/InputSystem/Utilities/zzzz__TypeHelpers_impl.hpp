@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::TypeCode)>(&::UnityEngine::InputSystem::Utilities::TypeHelpers::IsInt)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4571d9c;
+  constexpr static std::size_t addrs = 0x62eca18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Reflection::MemberInfo*)>(
     &::UnityEngine::InputSystem::Utilities::TypeHelpers::GetValueType)> {
-  constexpr static std::size_t size = 0x1cc;
-  constexpr static std::size_t addrs = 0x4571dac;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x62eca28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -39,8 +39,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Type*)>(&::UnityEngine::InputSystem::Utilities::TypeHelpers::GetNiceTypeName)> {
-  constexpr static std::size_t size = 0x490;
-  constexpr static std::size_t addrs = 0x4571f78;
+  constexpr static std::size_t size = 0x3d0;
+  constexpr static std::size_t addrs = 0x62ecb50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (*)(::System::Type*, ::System::Type*, int32_t)>(
     &::UnityEngine::InputSystem::Utilities::TypeHelpers::GetGenericTypeArgumentFromHierarchy)> {
-  constexpr static std::size_t size = 0x3c8;
-  constexpr static std::size_t addrs = 0x4572408;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x62ecf20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::InputSystem::Utilities::TypeHelpers*>::get(),

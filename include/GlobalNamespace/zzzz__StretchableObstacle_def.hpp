@@ -96,22 +96,22 @@ public:
 
   __declspec(property(get = get_bounds)) ::UnityEngine::Bounds bounds;
 
-  /// @brief Method CalculateObstacleTransformProperties, addr 0x3b760d0, size 0x40, virtual false, abstract: false, final false
+  /// @brief Method CalculateObstacleTransformProperties, addr 0x57618b0, size 0x40, virtual false, abstract: false, final false
   inline void CalculateObstacleTransformProperties(float_t width, float_t height, float_t length, ::ByRef<::UnityEngine::Vector3> localPosition, ::ByRef<::UnityEngine::Vector3> size,
                                                    ::ByRef<::UnityEngine::Vector3> scale);
 
   static inline ::GlobalNamespace::StretchableObstacle* New_ctor();
 
-  /// @brief Method OnValidate, addr 0x3b7648c, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method OnValidate, addr 0x5761c74, size 0x90, virtual false, abstract: false, final false
   inline void OnValidate();
 
-  /// @brief Method SetAllProperties, addr 0x3b75cc8, size 0x408, virtual false, abstract: false, final false
+  /// @brief Method SetAllProperties, addr 0x57614d8, size 0x3d8, virtual false, abstract: false, final false
   inline void SetAllProperties(float_t width, float_t height, float_t length, ::UnityEngine::Color color, float_t manualUvOffset);
 
-  /// @brief Method SetObstacleCoreTransformProperties, addr 0x3b76110, size 0x128, virtual false, abstract: false, final false
+  /// @brief Method SetObstacleCoreTransformProperties, addr 0x57618f0, size 0x130, virtual false, abstract: false, final false
   inline void SetObstacleCoreTransformProperties(::UnityEngine::Vector3 localPosition, ::UnityEngine::Vector3 size, ::UnityEngine::Vector3 scale);
 
-  /// @brief Method SetSizeAndOffset, addr 0x3b76238, size 0x254, virtual false, abstract: false, final false
+  /// @brief Method SetSizeAndOffset, addr 0x5761a20, size 0x254, virtual false, abstract: false, final false
   inline void SetSizeAndOffset(float_t width, float_t height, float_t length, float_t offset);
 
   constexpr float_t const& __cordl_internal_get__addColorMultiplier() const;
@@ -183,7 +183,7 @@ public:
 
   constexpr void __cordl_internal_set__obstacleFrame(::UnityW<::GlobalNamespace::ParametricBoxFrameController> value);
 
-  /// @brief Method .ctor, addr 0x3b764f8, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5761d04, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__addColorID();
@@ -196,7 +196,7 @@ public:
 
   static inline int32_t getStaticF__uvScaleID();
 
-  /// @brief Method get_bounds, addr 0x3b75cb4, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method get_bounds, addr 0x57614c4, size 0x14, virtual false, abstract: false, final false
   inline ::UnityEngine::Bounds get_bounds();
 
   static inline void setStaticF__addColorID(int32_t value);
@@ -224,7 +224,7 @@ public:
   StretchableObstacle(StretchableObstacle const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4153 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5717 };
 
   /// @brief Field _edgeSize, offset: 0x20, size: 0x4, def value: None
   float_t ____edgeSize;

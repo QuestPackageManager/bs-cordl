@@ -9,7 +9,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(::System::Span_1<char16_t>)>(
     &::System::Text::ValueStringBuilder::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x422ffa0;
+  constexpr static std::size_t addrs = 0x5edba68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -23,7 +23,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Text::ValueStringBuilder::*)()>(&::System::Text::ValueStringBuilder::get_Length)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4234fe4;
+  constexpr static std::size_t addrs = 0x5ee10e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueStringBuilder>::get(), "get_Length",
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Text::ValueStringBuilder::*)()>(&::System::Text::ValueStringBuilder::ToString)> {
-  constexpr static std::size_t size = 0xcc;
-  constexpr static std::size_t addrs = 0x423025c;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x5edbd3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Text::ValueStringBuilder::*)(::System::Span_1<char16_t>, ::ByRef<int32_t>)>(
     &::System::Text::ValueStringBuilder::TryCopyTo)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4230174;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5edbc48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -66,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(int32_t, char16_t, int32_t)>(
     &::System::Text::ValueStringBuilder::Insert)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x422ffb0;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x5edba78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -81,8 +81,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(char16_t)>(&::System::Text::ValueStringBuilder::Append)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4235230;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x5ee1364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -95,8 +95,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(::StringW)>(&::System::Text::ValueStringBuilder::Append)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x423532c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x5ee147c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -109,8 +109,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(::StringW)>(&::System::Text::ValueStringBuilder::AppendSlow)> {
-  constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x42353d8;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x5ee1524;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -123,8 +123,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(char16_t, int32_t)>(&::System::Text::ValueStringBuilder::Append)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x42343b8;
+  constexpr static std::size_t size = 0x204;
+  constexpr static std::size_t addrs = 0x5ee02f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -136,16 +136,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Text::ValueStringBuilder.Append
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(::cordl_internals::Ptr<char16_t>, int32_t)>(
-    &::System::Text::ValueStringBuilder::Append)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x42342d8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(char16_t*, int32_t)>(&::System::Text::ValueStringBuilder::Append)> {
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x5ee0204;
 
   inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueStringBuilder>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueStringBuilder>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
     return ___internal_method;
   }
 };
@@ -154,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Span_1<char16_t> (::System::Text::ValueStringBuilder::*)(int32_t)>(
     &::System::Text::ValueStringBuilder::AppendSpan)> {
-  constexpr static std::size_t size = 0xbc;
-  constexpr static std::size_t addrs = 0x4235504;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x5ee165c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -168,8 +166,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(char16_t)>(&::System::Text::ValueStringBuilder::GrowAndAppend)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x42352ac;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x5ee13f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -182,8 +180,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)(int32_t)>(&::System::Text::ValueStringBuilder::Grow)> {
-  constexpr static std::size_t size = 0x244;
-  constexpr static std::size_t addrs = 0x4234fec;
+  constexpr static std::size_t size = 0x27c;
+  constexpr static std::size_t addrs = 0x5ee10e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -196,8 +194,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Text::ValueStringBuilder::*)()>(&::System::Text::ValueStringBuilder::Dispose)> {
-  constexpr static std::size_t size = 0x1f0;
-  constexpr static std::size_t addrs = 0x42355c0;
+  constexpr static std::size_t size = 0x220;
+  constexpr static std::size_t addrs = 0x5ee1728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueStringBuilder>::get(), "Dispose",
@@ -259,11 +257,10 @@ inline void System::Text::ValueStringBuilder::Append(char16_t c, int32_t count) 
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, c, count);
 }
-inline void System::Text::ValueStringBuilder::Append(::cordl_internals::Ptr<char16_t> value, int32_t length) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueStringBuilder>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<char16_t>>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+inline void System::Text::ValueStringBuilder::Append(char16_t* value, int32_t length) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Text::ValueStringBuilder>::get(), "Append", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<char16_t*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value, length);
 }
 inline ::System::Span_1<char16_t> System::Text::ValueStringBuilder::AppendSpan(int32_t length) {

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IServiceProvider_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ISite)
 namespace System::ComponentModel {
 class IContainer;
+}
+namespace System {
+class IServiceProvider;
 }
 // Forward declare root types
 namespace System::ComponentModel {
@@ -15,7 +17,7 @@ class ISite;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ISite);
-// Dependencies System.IServiceProvider
+// Dependencies
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: System.ComponentModel.ISite
@@ -48,7 +50,7 @@ public:
   ISite(ISite const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9353 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11201 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

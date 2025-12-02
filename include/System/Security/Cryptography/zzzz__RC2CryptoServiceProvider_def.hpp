@@ -34,16 +34,16 @@ public:
   __declspec(property(get = getStaticF_s_legalKeySizes, put = setStaticF_s_legalKeySizes)) ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*>
       s_legalKeySizes;
 
-  /// @brief Method CreateDecryptor, addr 0x3ca2b54, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CreateDecryptor, addr 0x58e67ec, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateDecryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method CreateEncryptor, addr 0x3ca2a8c, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method CreateEncryptor, addr 0x58e6720, size 0xcc, virtual true, abstract: false, final false
   inline ::System::Security::Cryptography::ICryptoTransform* CreateEncryptor(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbKey, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbIV);
 
-  /// @brief Method GenerateIV, addr 0x3ca2c98, size 0x6c, virtual true, abstract: false, final false
+  /// @brief Method GenerateIV, addr 0x58e6938, size 0x70, virtual true, abstract: false, final false
   inline void GenerateIV();
 
-  /// @brief Method GenerateKey, addr 0x3ca2c1c, size 0x7c, virtual true, abstract: false, final false
+  /// @brief Method GenerateKey, addr 0x58e68b8, size 0x80, virtual true, abstract: false, final false
   inline void GenerateKey();
 
   static inline ::System::Security::Cryptography::RC2CryptoServiceProvider* New_ctor();
@@ -54,12 +54,12 @@ public:
 
   constexpr void __cordl_internal_set_m_use40bitSalt(bool value);
 
-  /// @brief Method .ctor, addr 0x3ca2924, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e6654, size 0xc4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> getStaticF_s_legalKeySizes();
 
-  /// @brief Method get_EffectiveKeySize, addr 0x3ca2a84, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_EffectiveKeySize, addr 0x58e6718, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_EffectiveKeySize();
 
   static inline void setStaticF_s_legalKeySizes(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> value);
@@ -79,7 +79,7 @@ public:
   RC2CryptoServiceProvider(RC2CryptoServiceProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2947 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2964 };
 
   /// @brief Field m_use40bitSalt, offset: 0x48, size: 0x1, def value: None
   bool ___m_use40bitSalt;

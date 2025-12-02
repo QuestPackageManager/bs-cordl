@@ -3,17 +3,21 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__ICloneable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__PlatformID_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(OperatingSystem)
 namespace System::Runtime::Serialization {
+class ISerializable;
+}
+namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
 namespace System::Runtime::Serialization {
 struct StreamingContext;
+}
+namespace System {
+class ICloneable;
 }
 namespace System {
 class Object;
@@ -30,7 +34,7 @@ class OperatingSystem;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::OperatingSystem);
-// Dependencies System.ICloneable, System.Object, System.PlatformID, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object, System.PlatformID
 namespace System {
 // Is value type: false
 // CS Name: System.OperatingSystem
@@ -38,6 +42,8 @@ class CORDL_TYPE OperatingSystem : public ::System::Object {
 public:
   // Declarations
   __declspec(property(get = get_Platform)) ::System::PlatformID Platform;
+
+  __declspec(property(get = get_Version)) ::System::Version* Version;
 
   __declspec(property(get = get_VersionString)) ::StringW VersionString;
 
@@ -59,17 +65,17 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Clone, addr 0x3e0d164, size 0x74, virtual true, abstract: false, final true
+  /// @brief Method Clone, addr 0x5a53718, size 0x78, virtual true, abstract: false, final true
   inline ::System::Object* Clone();
 
-  /// @brief Method GetObjectData, addr 0x3e0d128, size 0x34, virtual true, abstract: false, final true
+  /// @brief Method GetObjectData, addr 0x5a536d4, size 0x34, virtual true, abstract: false, final true
   inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version);
 
   static inline ::System::OperatingSystem* New_ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method ToString, addr 0x3e0d1d8, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x5a53790, size 0x4, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
   constexpr ::System::PlatformID const& __cordl_internal_get__platform() const;
@@ -96,16 +102,19 @@ public:
 
   constexpr void __cordl_internal_set__versionString(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3e0cfe8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a535a8, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version);
 
-  /// @brief Method .ctor, addr 0x3e0cff0, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a535b0, size 0x124, virtual false, abstract: false, final false
   inline void _ctor(::System::PlatformID platform, ::System::Version* version, ::StringW servicePack);
 
-  /// @brief Method get_Platform, addr 0x3e0d15c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Platform, addr 0x5a53708, size 0x8, virtual false, abstract: false, final false
   inline ::System::PlatformID get_Platform();
 
-  /// @brief Method get_VersionString, addr 0x3e0d1dc, size 0x1cc, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x5a53710, size 0x8, virtual false, abstract: false, final false
+  inline ::System::Version* get_Version();
+
+  /// @brief Method get_VersionString, addr 0x5a53794, size 0x248, virtual false, abstract: false, final false
   inline ::StringW get_VersionString();
 
   /// @brief Convert to "::System::ICloneable"
@@ -129,7 +138,7 @@ public:
   OperatingSystem(OperatingSystem const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2525 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2533 };
 
   /// @brief Field _version, offset: 0x10, size: 0x8, def value: None
   ::System::Version* ____version;

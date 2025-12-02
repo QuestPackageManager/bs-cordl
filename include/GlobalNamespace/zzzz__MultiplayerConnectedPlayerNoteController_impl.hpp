@@ -8,8 +8,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)(bool)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerNoteController::HiddenStateDidChange)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x3bbb418;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x57abf68;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)(bool)>(
     &::GlobalNamespace::MultiplayerConnectedPlayerNoteController::Pause)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3bbb43c;
+  constexpr static std::size_t addrs = 0x57abf88;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -41,7 +41,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MultiplayerConnectedPlayerNoteController::*)()>(
     &::GlobalNamespace::MultiplayerConnectedPlayerNoteController::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bbb18c;
+  constexpr static std::size_t addrs = 0x57abcc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

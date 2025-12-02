@@ -56,28 +56,28 @@ public:
   /// @brief Field version, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger* version;
 
-  /// @brief Method GetAuthAttrs, addr 0x2302c8c, size 0x1b8, virtual false, abstract: false, final false
+  /// @brief Method GetAuthAttrs, addr 0x322fe6c, size 0x1c4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetAuthAttrs();
 
-  /// @brief Method GetDigestAlgorithm, addr 0x23027fc, size 0x19c, virtual false, abstract: false, final false
+  /// @brief Method GetDigestAlgorithm, addr 0x322f9c0, size 0x1b0, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetDigestAlgorithm();
 
-  /// @brief Method GetEnapsulatedContentInfo, addr 0x2302998, size 0x114, virtual false, abstract: false, final false
+  /// @brief Method GetEnapsulatedContentInfo, addr 0x322fb70, size 0x124, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::ContentInfoParser* GetEnapsulatedContentInfo();
 
-  /// @brief Method GetMac, addr 0x2302e44, size 0x130, virtual false, abstract: false, final false
+  /// @brief Method GetMac, addr 0x3230030, size 0x138, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1OctetString* GetMac();
 
-  /// @brief Method GetMacAlgorithm, addr 0x2302694, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method GetMacAlgorithm, addr 0x322f850, size 0x170, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* GetMacAlgorithm();
 
-  /// @brief Method GetOriginatorInfo, addr 0x2302150, size 0x2dc, virtual false, abstract: false, final false
+  /// @brief Method GetOriginatorInfo, addr 0x322f2f4, size 0x2e4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Cms::OriginatorInfo* GetOriginatorInfo();
 
-  /// @brief Method GetRecipientInfos, addr 0x2302594, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method GetRecipientInfos, addr 0x322f748, size 0x108, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetRecipientInfos();
 
-  /// @brief Method GetUnauthAttrs, addr 0x2302f74, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method GetUnauthAttrs, addr 0x3230168, size 0x1b4, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1SetParser* GetUnauthAttrs();
 
   static inline ::Org::BouncyCastle::Asn1::Cms::AuthenticatedDataParser* New_ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
@@ -106,10 +106,10 @@ public:
 
   constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
 
-  /// @brief Method .ctor, addr 0x2302024, size 0x124, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x322f1c0, size 0x12c, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Asn1SequenceParser* seq);
 
-  /// @brief Method get_Version, addr 0x2302148, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Version, addr 0x322f2ec, size 0x8, virtual false, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
 
 protected:

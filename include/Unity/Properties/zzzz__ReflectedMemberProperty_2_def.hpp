@@ -82,7 +82,7 @@ public:
   ReflectedMemberProperty_2_GetStructValueAction(ReflectedMemberProperty_2_GetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17458 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19325 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -120,7 +120,7 @@ public:
   ReflectedMemberProperty_2_SetStructValueAction(ReflectedMemberProperty_2_SetStructValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19326 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -158,7 +158,7 @@ public:
   ReflectedMemberProperty_2_GetClassValueAction(ReflectedMemberProperty_2_GetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17460 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19327 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -196,7 +196,7 @@ public:
   ReflectedMemberProperty_2_SetClassValueAction(ReflectedMemberProperty_2_SetClassValueAction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17461 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19328 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -218,6 +218,8 @@ public:
   using SetClassValueAction = ::Unity::Properties::ReflectedMemberProperty_2_SetClassValueAction<TContainer, TValue>;
 
   using SetStructValueAction = ::Unity::Properties::ReflectedMemberProperty_2_SetStructValueAction<TContainer, TValue>;
+
+  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
 
   __declspec(property(get = get_Name)) ::StringW Name;
 
@@ -249,7 +251,13 @@ public:
   __declspec(property(get = __cordl_internal_get_m_SetStructValueAction,
                       put = __cordl_internal_set_m_SetStructValueAction)) ::Unity::Properties::ReflectedMemberProperty_2_SetStructValueAction<TContainer, TValue>* m_SetStructValueAction;
 
+  /// @brief Method GetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TValue GetValue(::ByRef<TContainer> container);
+
   static inline ::Unity::Properties::ReflectedMemberProperty_2<TContainer, TValue>* New_ctor(::Unity::Properties::IMemberInfo* info, ::StringW name);
+
+  /// @brief Method SetValue, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void SetValue(::ByRef<TContainer> container, TValue value);
 
   constexpr bool const& __cordl_internal_get__IsReadOnly_k__BackingField() const;
 
@@ -302,6 +310,9 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::Unity::Properties::IMemberInfo* info, ::StringW name);
 
+  /// @brief Method get_IsReadOnly, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline bool get_IsReadOnly();
+
   /// @brief Method get_Name, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Name();
 
@@ -320,7 +331,7 @@ public:
   ReflectedMemberProperty_2(ReflectedMemberProperty_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19329 };
 
   /// @brief Field m_Info, offset: 0x18, size: 0x8, def value: None
   ::Unity::Properties::IMemberInfo* ___m_Info;

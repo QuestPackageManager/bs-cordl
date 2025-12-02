@@ -47,6 +47,8 @@ public:
     __E_GameCoreXboxSeries = static_cast<int32_t>(0x19),
     __E_PlayStation5 = static_cast<int32_t>(0x1a),
     __E_PlayStation5NGGC = static_cast<int32_t>(0x1b),
+    __E_WebGPU = static_cast<int32_t>(0x1c),
+    __E_ReservedCFE = static_cast<int32_t>(0x1d),
   };
 
   /// @brief Conversion into unwrapped enum value
@@ -123,11 +125,17 @@ public:
   /// @brief Field PlayStationVita value: I32(12)
   static ::UnityEngine::Rendering::GraphicsDeviceType const PlayStationVita;
 
+  /// @brief Field ReservedCFE value: I32(29)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const ReservedCFE;
+
   /// @brief Field Switch value: I32(22)
   static ::UnityEngine::Rendering::GraphicsDeviceType const Switch;
 
   /// @brief Field Vulkan value: I32(21)
   static ::UnityEngine::Rendering::GraphicsDeviceType const Vulkan;
+
+  /// @brief Field WebGPU value: I32(28)
+  static ::UnityEngine::Rendering::GraphicsDeviceType const WebGPU;
 
   /// @brief Field Xbox360 value: I32(6)
   static ::UnityEngine::Rendering::GraphicsDeviceType const Xbox360;
@@ -139,7 +147,7 @@ public:
   static ::UnityEngine::Rendering::GraphicsDeviceType const XboxOneD3D12;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11197 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10702 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

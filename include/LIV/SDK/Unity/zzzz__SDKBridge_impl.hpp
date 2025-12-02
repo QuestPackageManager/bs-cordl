@@ -27,7 +27,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::System::IntPtr, int32_t, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::AddStringToChannel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1728;
+  constexpr static std::size_t addrs = 0x569b088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::addtexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1730;
+  constexpr static std::size_t addrs = 0x569b090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,7 +56,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::LIV::SDK::Unity::SDKBridge::GetObjectTimeStamp)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1738;
+  constexpr static std::size_t addrs = 0x569b098;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -70,7 +70,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::LIV::SDK::Unity::SDKBridge::GetCurrentTimeTicks)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1740;
+  constexpr static std::size_t addrs = 0x569b0a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "GetCurrentTimeTicks",
@@ -83,7 +83,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::LIV::SDK::Unity::SDKBridge::GetIsCaptureActive)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1748;
+  constexpr static std::size_t addrs = 0x569b0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "GetIsCaptureActive",
@@ -96,7 +96,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::LIV::SDK::Unity::SDKBridge::GetRenderEventFunc)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1750;
+  constexpr static std::size_t addrs = 0x569b0b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "GetRenderEventFunc",
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t, uint64_t, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::GetCompositorChannelObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1758;
+  constexpr static std::size_t addrs = 0x569b0b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -125,7 +125,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::System::IntPtr, int32_t, uint64_t)>(
     &::LIV::SDK::Unity::SDKBridge::AddObjectToCompositorChannel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1760;
+  constexpr static std::size_t addrs = 0x569b0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -140,7 +140,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr, int32_t, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::AddObjectToFrame)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1768;
+  constexpr static std::size_t addrs = 0x569b0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::LIV::SDK::Unity::SDKBridge::updatinputframe)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1770;
+  constexpr static std::size_t addrs = 0x569b0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -169,7 +169,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)()>(&::LIV::SDK::Unity::SDKBridge::GetViewportTexture)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1778;
+  constexpr static std::size_t addrs = 0x569b0d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "GetViewportTexture",
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(int32_t, uint64_t, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::GetChannelObject)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1780;
+  constexpr static std::size_t addrs = 0x569b0e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t, ::System::IntPtr, int32_t, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::AddObjectToChannel)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ac1788;
+  constexpr static std::size_t addrs = 0x569b0e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,8 +211,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::StringW)>(&::LIV::SDK::Unity::SDKBridge::Tag)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3ac1790;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x569b0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,8 +225,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, ::StringW, int32_t)>(&::LIV::SDK::Unity::SDKBridge::AddString)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3ac1814;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x569b154;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -240,8 +240,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKTexture, uint64_t)>(&::LIV::SDK::Unity::SDKBridge::AddTexture)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3ac1910;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x569b258;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -255,8 +255,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)(::System::IntPtr)>(&::LIV::SDK::Unity::SDKBridge::GetObjectTime)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ac19d4;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x569b318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -269,8 +269,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint64_t (*)()>(&::LIV::SDK::Unity::SDKBridge::GetCurrentTime)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3ac1a30;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x569b378;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "GetCurrentTime",
@@ -282,8 +282,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)()>(&::LIV::SDK::Unity::SDKBridge::get_IsActive)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3ac0a10;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x569a328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "get_IsActive",
@@ -295,8 +295,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::LIV::SDK::Unity::SDKBridge::IssuePluginEvent)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3ac1a8c;
+  constexpr static std::size_t size = 0x84;
+  constexpr static std::size_t addrs = 0x569b3d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "IssuePluginEvent",
@@ -308,8 +308,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKApplicationOutput)>(&::LIV::SDK::Unity::SDKBridge::SubmitApplicationOutput)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3ac1224;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x569ab2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -322,8 +322,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::LIV::SDK::Unity::SDKInputFrame>)>(&::LIV::SDK::Unity::SDKBridge::UpdateInputFrame)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x3ac1b0c;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x569b45c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -336,8 +336,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::LIV::SDK::Unity::SDKTexture (*)()>(&::LIV::SDK::Unity::SDKBridge::GetViewfinderTexture)> {
-  constexpr static std::size_t size = 0x16c;
-  constexpr static std::size_t addrs = 0x3ac1eb8;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x569b6f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::LIV::SDK::Unity::SDKBridge*>::get(), "GetViewfinderTexture",
@@ -349,8 +349,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKTexture)>(&::LIV::SDK::Unity::SDKBridge::AddTexture)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3ac2038;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x569b7cc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -363,8 +363,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKOutputFrame)>(&::LIV::SDK::Unity::SDKBridge::CreateFrame)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x3ac2168;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x569b908;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -377,8 +377,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::LIV::SDK::Unity::SDKPlane)>(&::LIV::SDK::Unity::SDKBridge::SetGroundPlane)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3ac22c8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x569ba64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -391,8 +391,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::ByRef<::LIV::SDK::Unity::SDKResolution>)>(&::LIV::SDK::Unity::SDKBridge::GetResolution)> {
-  constexpr static std::size_t size = 0x130;
-  constexpr static std::size_t addrs = 0x3ac2368;
+  constexpr static std::size_t size = 0x134;
+  constexpr static std::size_t addrs = 0x569bb10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

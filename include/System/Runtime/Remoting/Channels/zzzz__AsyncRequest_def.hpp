@@ -45,7 +45,7 @@ public:
 
   constexpr void __cordl_internal_set_ReplySink(::System::Runtime::Remoting::Messaging::IMessageSink* value);
 
-  /// @brief Method .ctor, addr 0x3ce39b8, size 0x2c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5925de0, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Remoting::Messaging::IMessage* msgRequest, ::System::Runtime::Remoting::Messaging::IMessageSink* replySink);
 
 protected:
@@ -63,7 +63,7 @@ public:
   AsyncRequest(AsyncRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3136 };
 
   /// @brief Field ReplySink, offset: 0x10, size: 0x8, def value: None
   ::System::Runtime::Remoting::Messaging::IMessageSink* ___ReplySink;

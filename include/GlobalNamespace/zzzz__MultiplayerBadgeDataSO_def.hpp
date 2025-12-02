@@ -78,16 +78,16 @@ public:
 
   constexpr void __cordl_internal_set__titleLocalizationKey(::StringW value);
 
-  /// @brief Method .ctor, addr 0x26d8a84, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x360ab00, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_icon, addr 0x26da758, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_icon, addr 0x360c858, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Sprite> get_icon();
 
-  /// @brief Method get_subtitleLocalizationKey, addr 0x26da768, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_subtitleLocalizationKey, addr 0x360c868, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_subtitleLocalizationKey();
 
-  /// @brief Method get_titleLocalizationKey, addr 0x26da760, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_titleLocalizationKey, addr 0x360c860, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_titleLocalizationKey();
 
 protected:
@@ -105,7 +105,7 @@ public:
   MultiplayerBadgeDataSO(MultiplayerBadgeDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13081 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15053 };
 
   /// @brief Field _titleLocalizationKey, offset: 0x18, size: 0x8, def value: None
   ::StringW ____titleLocalizationKey;

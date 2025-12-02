@@ -8,14 +8,11 @@ CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__EnvironmentEffectsFilterPreset_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifierMask_def.hpp"
 #include "GlobalNamespace/zzzz__NoteJumpDurationTypeSettings_def.hpp"
-#include "GlobalNamespace/zzzz__OVRManager_def.hpp"
-#include "GlobalNamespace/zzzz__OVRPlugin_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/Rendering/zzzz__TextureDimension_def.hpp"
 #include "UnityEngine/XR/zzzz__XRSettings_def.hpp"
 #include "UnityEngine/zzzz__SystemLanguage_def.hpp"
 #include "UnityEngine/zzzz__ThreadPriority_def.hpp"
-#include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
@@ -35,12 +32,6 @@ struct PerformanceConfigurationChecks_LevelConfig;
 }
 namespace GlobalNamespace {
 struct PerformanceConfigurationChecks_Mismatch;
-}
-namespace GlobalNamespace {
-struct PerformanceConfigurationChecks_OVRConfig;
-}
-namespace GlobalNamespace {
-struct PerformanceConfigurationChecks_OculusXRConfig;
 }
 namespace GlobalNamespace {
 struct PerformanceConfigurationChecks_PlayerConfig;
@@ -71,12 +62,6 @@ namespace GlobalNamespace {
 struct PerformanceConfigurationChecks_Mismatch;
 }
 namespace GlobalNamespace {
-struct PerformanceConfigurationChecks_OVRConfig;
-}
-namespace GlobalNamespace {
-struct PerformanceConfigurationChecks_OculusXRConfig;
-}
-namespace GlobalNamespace {
 struct PerformanceConfigurationChecks_PlayerConfig;
 }
 namespace GlobalNamespace {
@@ -87,8 +72,6 @@ MARK_REF_PTR_T(::GlobalNamespace::PerformanceConfigurationChecks);
 MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_AppConfig);
 MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig);
 MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_Mismatch);
-MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig);
-MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig);
 MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig);
 MARK_VAL_T(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig);
 // Dependencies
@@ -106,7 +89,7 @@ public:
   constexpr PerformanceConfigurationChecks_Mismatch(::StringW message, int32_t frames) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5113 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6689 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -145,7 +128,7 @@ public:
                                                      ::UnityEngine::ThreadPriority backgroundLoadingPriority) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5114 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6690 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -199,7 +182,7 @@ public:
                                                     bool useOcclusionMesh) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5115 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6691 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
@@ -265,226 +248,6 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_XRConfi
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks_XRConfig, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OVRManager::ColorSpace, OVRManager::CompositionMethod, OVRManager::TrackingOrigin, OVRPlugin::FoveatedRenderingLevel, OVRPlugin::LayerSharpenType, OVRPlugin::ProcessorPerformanceLevel
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: PerformanceConfigurationChecks/OVRConfig
-struct CORDL_TYPE PerformanceConfigurationChecks_OVRConfig {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PerformanceConfigurationChecks_OVRConfig();
-
-  // Ctor Parameters [CppParam { name: "spaceWarpEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "chromatic", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "monoscopic", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "colorGamut", ty: "::GlobalNamespace::OVRManager_ColorSpace", modifiers: "", def_value: None }, CppParam { name:
-  // "nativeColorGamut", ty: "::GlobalNamespace::OVRManager_ColorSpace", modifiers: "", def_value: None }, CppParam { name: "compositionMethod", ty: "::GlobalNamespace::OVRManager_CompositionMethod",
-  // modifiers: "", def_value: None }, CppParam { name: "enableMixedReality", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "trackingOriginType", ty:
-  // "::GlobalNamespace::OVRManager_TrackingOrigin", modifiers: "", def_value: None }, CppParam { name: "usePositionTracking", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "useRotationTracking", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "sharpenType", ty: "::GlobalNamespace::OVRPlugin_LayerSharpenType", modifiers: "", def_value: None },
-  // CppParam { name: "enableDynamicResolution", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "minDynamicResolutionScale", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "maxDynamicResolutionScale", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "simultaneousHandsAndControllersSupport", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "suggestedCpuPerfLevel", ty: "::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel", modifiers: "", def_value: None }, CppParam { name: "suggestedGpuPerfLevel", ty:
-  // "::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel", modifiers: "", def_value: None }, CppParam { name: "systemDisplayFrequency", ty: "float_t", modifiers: "", def_value: None }, CppParam {
-  // name: "eyeTrackedFoveatedRenderingEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "foveatedRenderingLevel", ty: "::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel",
-  // modifiers: "", def_value: None }, CppParam { name: "useDynamicFoveatedRendering", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "gpuUtilSupported", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "gpuUtilLevel", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "eyeFovPremultipliedAlphaModeEnabled", ty: "bool", modifiers: "", def_value:
-  // None }, CppParam { name: "asymmetricFovEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "eyeTextureArrayEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "localDimmingSupported", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "localDimming", ty: "bool", modifiers: "", def_value: None }]
-  constexpr PerformanceConfigurationChecks_OVRConfig(bool spaceWarpEnabled, bool chromatic, bool monoscopic, ::GlobalNamespace::OVRManager_ColorSpace colorGamut,
-                                                     ::GlobalNamespace::OVRManager_ColorSpace nativeColorGamut, ::GlobalNamespace::OVRManager_CompositionMethod compositionMethod,
-                                                     bool enableMixedReality, ::GlobalNamespace::OVRManager_TrackingOrigin trackingOriginType, bool usePositionTracking, bool useRotationTracking,
-                                                     ::GlobalNamespace::OVRPlugin_LayerSharpenType sharpenType, bool enableDynamicResolution, float_t minDynamicResolutionScale,
-                                                     float_t maxDynamicResolutionScale, bool simultaneousHandsAndControllersSupport,
-                                                     ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel suggestedCpuPerfLevel,
-                                                     ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel suggestedGpuPerfLevel, float_t systemDisplayFrequency,
-                                                     bool eyeTrackedFoveatedRenderingEnabled, ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel foveatedRenderingLevel,
-                                                     bool useDynamicFoveatedRendering, bool gpuUtilSupported, float_t gpuUtilLevel, bool eyeFovPremultipliedAlphaModeEnabled, bool asymmetricFovEnabled,
-                                                     bool eyeTextureArrayEnabled, bool localDimmingSupported, bool localDimming) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5116 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
-
-  /// @brief Field spaceWarpEnabled, offset: 0x0, size: 0x1, def value: None
-  bool spaceWarpEnabled;
-
-  /// @brief Field chromatic, offset: 0x1, size: 0x1, def value: None
-  bool chromatic;
-
-  /// @brief Field monoscopic, offset: 0x2, size: 0x1, def value: None
-  bool monoscopic;
-
-  /// @brief Field colorGamut, offset: 0x4, size: 0x4, def value: None
-  ::GlobalNamespace::OVRManager_ColorSpace colorGamut;
-
-  /// @brief Field nativeColorGamut, offset: 0x8, size: 0x4, def value: None
-  ::GlobalNamespace::OVRManager_ColorSpace nativeColorGamut;
-
-  /// @brief Field compositionMethod, offset: 0xc, size: 0x4, def value: None
-  ::GlobalNamespace::OVRManager_CompositionMethod compositionMethod;
-
-  /// @brief Field enableMixedReality, offset: 0x10, size: 0x1, def value: None
-  bool enableMixedReality;
-
-  /// @brief Field trackingOriginType, offset: 0x14, size: 0x4, def value: None
-  ::GlobalNamespace::OVRManager_TrackingOrigin trackingOriginType;
-
-  /// @brief Field usePositionTracking, offset: 0x18, size: 0x1, def value: None
-  bool usePositionTracking;
-
-  /// @brief Field useRotationTracking, offset: 0x19, size: 0x1, def value: None
-  bool useRotationTracking;
-
-  /// @brief Field sharpenType, offset: 0x1c, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_LayerSharpenType sharpenType;
-
-  /// @brief Field enableDynamicResolution, offset: 0x20, size: 0x1, def value: None
-  bool enableDynamicResolution;
-
-  /// @brief Field minDynamicResolutionScale, offset: 0x24, size: 0x4, def value: None
-  float_t minDynamicResolutionScale;
-
-  /// @brief Field maxDynamicResolutionScale, offset: 0x28, size: 0x4, def value: None
-  float_t maxDynamicResolutionScale;
-
-  /// @brief Field simultaneousHandsAndControllersSupport, offset: 0x2c, size: 0x1, def value: None
-  bool simultaneousHandsAndControllersSupport;
-
-  /// @brief Field suggestedCpuPerfLevel, offset: 0x30, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel suggestedCpuPerfLevel;
-
-  /// @brief Field suggestedGpuPerfLevel, offset: 0x34, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_ProcessorPerformanceLevel suggestedGpuPerfLevel;
-
-  /// @brief Field systemDisplayFrequency, offset: 0x38, size: 0x4, def value: None
-  float_t systemDisplayFrequency;
-
-  /// @brief Field eyeTrackedFoveatedRenderingEnabled, offset: 0x3c, size: 0x1, def value: None
-  bool eyeTrackedFoveatedRenderingEnabled;
-
-  /// @brief Field foveatedRenderingLevel, offset: 0x40, size: 0x4, def value: None
-  ::GlobalNamespace::OVRPlugin_FoveatedRenderingLevel foveatedRenderingLevel;
-
-  /// @brief Field useDynamicFoveatedRendering, offset: 0x44, size: 0x1, def value: None
-  bool useDynamicFoveatedRendering;
-
-  /// @brief Field gpuUtilSupported, offset: 0x45, size: 0x1, def value: None
-  bool gpuUtilSupported;
-
-  /// @brief Field gpuUtilLevel, offset: 0x48, size: 0x4, def value: None
-  float_t gpuUtilLevel;
-
-  /// @brief Field eyeFovPremultipliedAlphaModeEnabled, offset: 0x4c, size: 0x1, def value: None
-  bool eyeFovPremultipliedAlphaModeEnabled;
-
-  /// @brief Field asymmetricFovEnabled, offset: 0x4d, size: 0x1, def value: None
-  bool asymmetricFovEnabled;
-
-  /// @brief Field eyeTextureArrayEnabled, offset: 0x4e, size: 0x1, def value: None
-  bool eyeTextureArrayEnabled;
-
-  /// @brief Field localDimmingSupported, offset: 0x4f, size: 0x1, def value: None
-  bool localDimmingSupported;
-
-  /// @brief Field localDimming, offset: 0x50, size: 0x1, def value: None
-  bool localDimming;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, spaceWarpEnabled) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, chromatic) == 0x1, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, monoscopic) == 0x2, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, colorGamut) == 0x4, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, nativeColorGamut) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, compositionMethod) == 0xc, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, enableMixedReality) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, trackingOriginType) == 0x14, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, usePositionTracking) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, useRotationTracking) == 0x19, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, sharpenType) == 0x1c, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, enableDynamicResolution) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, minDynamicResolutionScale) == 0x24, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, maxDynamicResolutionScale) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, simultaneousHandsAndControllersSupport) == 0x2c, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, suggestedCpuPerfLevel) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, suggestedGpuPerfLevel) == 0x34, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, systemDisplayFrequency) == 0x38, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, eyeTrackedFoveatedRenderingEnabled) == 0x3c, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, foveatedRenderingLevel) == 0x40, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, useDynamicFoveatedRendering) == 0x44, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, gpuUtilSupported) == 0x45, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, gpuUtilLevel) == 0x48, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, eyeFovPremultipliedAlphaModeEnabled) == 0x4c, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, asymmetricFovEnabled) == 0x4d, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, eyeTextureArrayEnabled) == 0x4e, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, localDimmingSupported) == 0x4f, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, localDimming) == 0x50, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, 0x54>, "Size mismatch!");
-
-} // namespace GlobalNamespace
-// Dependencies UnityEngine.Vector3
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: PerformanceConfigurationChecks/OculusXRConfig
-struct CORDL_TYPE PerformanceConfigurationChecks_OculusXRConfig {
-public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PerformanceConfigurationChecks_OculusXRConfig();
-
-  // Ctor Parameters [CppParam { name: "boundaryDimension", ty: "::UnityEngine::Vector3", modifiers: "", def_value: None }]
-  constexpr PerformanceConfigurationChecks_OculusXRConfig(::UnityEngine::Vector3 boundaryDimension) noexcept;
-
-  /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5117 };
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
-
-  /// @brief Field boundaryDimension, offset: 0x0, size: 0xc, def value: None
-  ::UnityEngine::Vector3 boundaryDimension;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig, boundaryDimension) == 0x0, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig, 0xc>, "Size mismatch!");
-
-} // namespace GlobalNamespace
 // Dependencies ArcVisibilityType, EnvironmentEffectsFilterPreset, NoteJumpDurationTypeSettings
 namespace GlobalNamespace {
 // Is value type: true
@@ -515,7 +278,7 @@ public:
                                                         ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterExpertPlusPreset) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5118 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6692 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x3c };
@@ -641,7 +404,7 @@ public:
   constexpr PerformanceConfigurationChecks_LevelConfig(::GlobalNamespace::GameplayModifierMask modifiers) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5119 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6693 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x2 };
@@ -657,8 +420,8 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks_LevelCo
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig, 0x2>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies BeatSaber.Settings.Settings, PerformanceConfigurationChecks::AppConfig, PerformanceConfigurationChecks::LevelConfig, PerformanceConfigurationChecks::OVRConfig,
-// PerformanceConfigurationChecks::OculusXRConfig, PerformanceConfigurationChecks::PlayerConfig, PerformanceConfigurationChecks::XRConfig, System.Object
+// Dependencies BeatSaber.Settings.Settings, PerformanceConfigurationChecks::AppConfig, PerformanceConfigurationChecks::LevelConfig, PerformanceConfigurationChecks::PlayerConfig,
+// PerformanceConfigurationChecks::XRConfig, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: PerformanceConfigurationChecks
@@ -671,10 +434,6 @@ public:
 
   using Mismatch = ::GlobalNamespace::PerformanceConfigurationChecks_Mismatch;
 
-  using OVRConfig = ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig;
-
-  using OculusXRConfig = ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig;
-
   using PlayerConfig = ::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig;
 
   using XRConfig = ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig;
@@ -682,44 +441,38 @@ public:
   /// @brief Field appConfig, offset 0x10, size 0x10
   __declspec(property(get = __cordl_internal_get_appConfig, put = __cordl_internal_set_appConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig appConfig;
 
-  /// @brief Field invalid, offset 0x1e0, size 0x8
+  /// @brief Field invalid, offset 0x180, size 0x8
   __declspec(property(get = __cordl_internal_get_invalid,
                       put = __cordl_internal_set_invalid)) ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerformanceConfigurationChecks_Mismatch>* invalid;
 
-  /// @brief Field levelConfig, offset 0x1dc, size 0x2
+  /// @brief Field levelConfig, offset 0x17c, size 0x2
   __declspec(property(get = __cordl_internal_get_levelConfig, put = __cordl_internal_set_levelConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig levelConfig;
 
-  /// @brief Field oculusXrConfig, offset 0xa4, size 0xc
-  __declspec(property(get = __cordl_internal_get_oculusXrConfig, put = __cordl_internal_set_oculusXrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig oculusXrConfig;
-
-  /// @brief Field ovrConfig, offset 0x50, size 0x54
-  __declspec(property(get = __cordl_internal_get_ovrConfig, put = __cordl_internal_set_ovrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig ovrConfig;
-
-  /// @brief Field playerConfig, offset 0x1a0, size 0x3c
+  /// @brief Field playerConfig, offset 0x140, size 0x3c
   __declspec(property(get = __cordl_internal_get_playerConfig, put = __cordl_internal_set_playerConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig playerConfig;
 
-  /// @brief Field settingsConfig, offset 0xb0, size 0xf0
+  /// @brief Field settingsConfig, offset 0x50, size 0xf0
   __declspec(property(get = __cordl_internal_get_settingsConfig, put = __cordl_internal_set_settingsConfig)) ::BeatSaber::Settings::Settings settingsConfig;
 
   /// @brief Field xrConfig, offset 0x20, size 0x30
   __declspec(property(get = __cordl_internal_get_xrConfig, put = __cordl_internal_set_xrConfig)) ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig xrConfig;
 
-  /// @brief Method CreateErrorLog, addr 0x3b1e1a0, size 0x28c, virtual false, abstract: false, final false
+  /// @brief Method CreateErrorLog, addr 0x56ffc24, size 0x244, virtual false, abstract: false, final false
   inline ::StringW CreateErrorLog();
 
-  /// @brief Method IsValid, addr 0x3b1e144, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method IsValid, addr 0x56ffbc8, size 0x5c, virtual false, abstract: false, final false
   inline bool IsValid();
 
   static inline ::GlobalNamespace::PerformanceConfigurationChecks* New_ctor();
 
-  /// @brief Method SetExpected, addr 0x3b1e42c, size 0x4c0, virtual false, abstract: false, final false
+  /// @brief Method SetExpected, addr 0x56ffe68, size 0x378, virtual false, abstract: false, final false
   inline bool SetExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                           ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
   /// @brief Method VerifyEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> inline void VerifyEntry(::StringW name, T expected, T actual);
 
-  /// @brief Method VerifyExpected, addr 0x3b1e8ec, size 0x1c04, virtual false, abstract: false, final false
+  /// @brief Method VerifyExpected, addr 0x57001e0, size 0x1590, virtual false, abstract: false, final false
   inline bool VerifyExpected(::ByRef<::BeatSaber::Settings::Settings> settings, ::GlobalNamespace::PlayerSpecificSettings* playerSettings, ::GlobalNamespace::GameplayModifierMask modifiers,
                              ::GlobalNamespace::RecPlayBehaviour_State* recPlayState);
 
@@ -734,14 +487,6 @@ public:
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig const& __cordl_internal_get_levelConfig() const;
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig& __cordl_internal_get_levelConfig();
-
-  constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig const& __cordl_internal_get_oculusXrConfig() const;
-
-  constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig& __cordl_internal_get_oculusXrConfig();
-
-  constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig const& __cordl_internal_get_ovrConfig() const;
-
-  constexpr ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig& __cordl_internal_get_ovrConfig();
 
   constexpr ::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig const& __cordl_internal_get_playerConfig() const;
 
@@ -761,17 +506,13 @@ public:
 
   constexpr void __cordl_internal_set_levelConfig(::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig value);
 
-  constexpr void __cordl_internal_set_oculusXrConfig(::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig value);
-
-  constexpr void __cordl_internal_set_ovrConfig(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig value);
-
   constexpr void __cordl_internal_set_playerConfig(::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig value);
 
   constexpr void __cordl_internal_set_settingsConfig(::BeatSaber::Settings::Settings value);
 
   constexpr void __cordl_internal_set_xrConfig(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig value);
 
-  /// @brief Method .ctor, addr 0x3b204f0, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5701770, size 0x98, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -789,7 +530,7 @@ public:
   PerformanceConfigurationChecks(PerformanceConfigurationChecks const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6694 };
 
   /// @brief Field appConfig, offset: 0x10, size: 0x10, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_AppConfig ___appConfig;
@@ -797,22 +538,16 @@ public:
   /// @brief Field xrConfig, offset: 0x20, size: 0x30, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_XRConfig ___xrConfig;
 
-  /// @brief Field ovrConfig, offset: 0x50, size: 0x54, def value: None
-  ::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig ___ovrConfig;
-
-  /// @brief Field oculusXrConfig, offset: 0xa4, size: 0xc, def value: None
-  ::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig ___oculusXrConfig;
-
-  /// @brief Field settingsConfig, offset: 0xb0, size: 0xf0, def value: None
+  /// @brief Field settingsConfig, offset: 0x50, size: 0xf0, def value: None
   ::BeatSaber::Settings::Settings ___settingsConfig;
 
-  /// @brief Field playerConfig, offset: 0x1a0, size: 0x3c, def value: None
+  /// @brief Field playerConfig, offset: 0x140, size: 0x3c, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig ___playerConfig;
 
-  /// @brief Field levelConfig, offset: 0x1dc, size: 0x2, def value: None
+  /// @brief Field levelConfig, offset: 0x17c, size: 0x2, def value: None
   ::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig ___levelConfig;
 
-  /// @brief Field invalid, offset: 0x1e0, size: 0x8, def value: None
+  /// @brief Field invalid, offset: 0x180, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::PerformanceConfigurationChecks_Mismatch>* ___invalid;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -822,19 +557,15 @@ static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___app
 
 static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___xrConfig) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___ovrConfig) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___settingsConfig) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___oculusXrConfig) == 0xa4, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x140, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___settingsConfig) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x17c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___playerConfig) == 0x1a0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x180, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___levelConfig) == 0x1dc, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::PerformanceConfigurationChecks, ___invalid) == 0x1e0, "Offset mismatch!");
-
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks, 0x1e8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PerformanceConfigurationChecks, 0x188>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PerformanceConfigurationChecks);
@@ -842,7 +573,5 @@ DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks*, "", "
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_AppConfig, "", "PerformanceConfigurationChecks/AppConfig");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_LevelConfig, "", "PerformanceConfigurationChecks/LevelConfig");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_Mismatch, "", "PerformanceConfigurationChecks/Mismatch");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_OVRConfig, "", "PerformanceConfigurationChecks/OVRConfig");
-DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_OculusXRConfig, "", "PerformanceConfigurationChecks/OculusXRConfig");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_PlayerConfig, "", "PerformanceConfigurationChecks/PlayerConfig");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PerformanceConfigurationChecks_XRConfig, "", "PerformanceConfigurationChecks/XRConfig");

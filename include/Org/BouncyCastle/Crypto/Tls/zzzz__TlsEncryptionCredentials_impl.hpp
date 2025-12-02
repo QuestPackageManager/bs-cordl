@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/TlsEncryptionCredentials.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsEncryptionCredentials_def.hpp"
+#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsCredentials_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials.DecryptPreMasterSecret
 template <>
 

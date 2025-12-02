@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
                                                    ::GlobalNamespace::GameplayModifiers*, ::GlobalNamespace::GameplayModifiersModelSO*, int32_t, int32_t, int32_t, ::ArrayW<float_t, ::Array<float_t>*>,
                                                    float_t, float_t, ::ArrayW<float_t, ::Array<float_t>*>, float_t, float_t, ::GlobalNamespace::LevelCompletionResults_LevelEndStateType,
                                                    ::GlobalNamespace::LevelCompletionResults_LevelEndAction, float_t, float_t, bool)>(&::GlobalNamespace::LevelCompletionResultsHelper::Create)> {
-  constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x26b4c8c;
+  constexpr static std::size_t size = 0x444;
+  constexpr static std::size_t addrs = 0x35e6450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -48,8 +48,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (*)(::ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::PlayerData*, ::GlobalNamespace::PlayerLevelStatsData*, ::GlobalNamespace::LevelCompletionResults*,
                          ::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::PlatformLeaderboardsModel*)>(&::GlobalNamespace::LevelCompletionResultsHelper::ProcessScore)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x26b50f0;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x35e6894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

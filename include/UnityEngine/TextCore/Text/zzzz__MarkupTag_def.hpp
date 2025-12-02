@@ -123,6 +123,7 @@ public:
     __E_PADDING = static_cast<int32_t>(0x802c7b71),
     __E_FAMILYNAME = static_cast<int32_t>(0x29fa0511),
     __E_STYLENAME = static_cast<int32_t>(0xb80d6430),
+    __E_DUOSPACE = static_cast<int32_t>(0x22bcfb9a),
     __E_RED = static_cast<int32_t>(0x165f3),
     __E_GREEN = static_cast<int32_t>(0x53084fb),
     __E_BLUE = static_cast<int32_t>(0x257e7e),
@@ -131,6 +132,21 @@ public:
     __E_BLACK = static_cast<int32_t>(0x4d51a27),
     __E_WHITE = static_cast<int32_t>(0x64c8d87),
     __E_PURPLE = static_cast<int32_t>(0xb57b1fce),
+    __E_GREY = static_cast<int32_t>(0x284209),
+    __E_LIGHTBLUE = static_cast<int32_t>(0x145436c0),
+    __E_TEAL = static_cast<int32_t>(0x2cfabc),
+    __E_CYAN = static_cast<int32_t>(0x263795),
+    __E_DARKBLUE = static_cast<int32_t>(0x8b280b62),
+    __E_FUCHSIA = static_cast<int32_t>(0xc43bc603),
+    __E_SILVER = static_cast<int32_t>(0xc6c28997),
+    __E_BROWN = static_cast<int32_t>(0x4d43b66),
+    __E_MAROON = static_cast<int32_t>(0xaf32d9d0),
+    __E_OLIVE = static_cast<int32_t>(0x5b11b59),
+    __E_NAVY = static_cast<int32_t>(0x2be3c0),
+    __E_AQUA = static_cast<int32_t>(0x22db44),
+    __E_MAGENTA = static_cast<int32_t>(0x93f64895),
+    __E_TRANSPARENT = static_cast<int32_t>(0xc3839ac6),
+    __E_LIME = static_cast<int32_t>(0x28872d),
     __E_BR = static_cast<int32_t>(0x8d0),
     __E_CR = static_cast<int32_t>(0x8f1),
     __E_ZWSP = static_cast<int32_t>(0x322cae),
@@ -204,6 +220,9 @@ public:
   /// @brief Field ANIM value: I32(2283339)
   static ::UnityEngine::TextCore::Text::MarkupTag const ANIM;
 
+  /// @brief Field AQUA value: I32(2284356)
+  static ::UnityEngine::TextCore::Text::MarkupTag const AQUA;
+
   /// @brief Field BLACK value: I32(81074727)
   static ::UnityEngine::TextCore::Text::MarkupTag const BLACK;
 
@@ -215,6 +234,9 @@ public:
 
   /// @brief Field BR value: I32(2256)
   static ::UnityEngine::TextCore::Text::MarkupTag const BR;
+
+  /// @brief Field BROWN value: I32(81017702)
+  static ::UnityEngine::TextCore::Text::MarkupTag const BROWN;
 
   /// @brief Field CENTER value: I32(-1591113269)
   static ::UnityEngine::TextCore::Text::MarkupTag const CENTER;
@@ -231,8 +253,17 @@ public:
   /// @brief Field CR value: I32(2289)
   static ::UnityEngine::TextCore::Text::MarkupTag const CR;
 
+  /// @brief Field CYAN value: I32(2504597)
+  static ::UnityEngine::TextCore::Text::MarkupTag const CYAN;
+
+  /// @brief Field DARKBLUE value: I32(-1960309918)
+  static ::UnityEngine::TextCore::Text::MarkupTag const DARKBLUE;
+
   /// @brief Field DEFAULT value: I32(-620974005)
   static ::UnityEngine::TextCore::Text::MarkupTag const DEFAULT;
+
+  /// @brief Field DUOSPACE value: I32(582810522)
+  static ::UnityEngine::TextCore::Text::MarkupTag const DUOSPACE;
 
   /// @brief Field EM value: I32(2216)
   static ::UnityEngine::TextCore::Text::MarkupTag const EM;
@@ -255,11 +286,17 @@ public:
   /// @brief Field FRAC value: I32(2598518)
   static ::UnityEngine::TextCore::Text::MarkupTag const FRAC;
 
+  /// @brief Field FUCHSIA value: I32(-1002715645)
+  static ::UnityEngine::TextCore::Text::MarkupTag const FUCHSIA;
+
   /// @brief Field GRADIENT value: I32(-1999759898)
   static ::UnityEngine::TextCore::Text::MarkupTag const GRADIENT;
 
   /// @brief Field GREEN value: I32(87065851)
   static ::UnityEngine::TextCore::Text::MarkupTag const GREEN;
+
+  /// @brief Field GREY value: I32(2638345)
+  static ::UnityEngine::TextCore::Text::MarkupTag const GREY;
 
   /// @brief Field HREF value: I32(2535353)
   static ::UnityEngine::TextCore::Text::MarkupTag const HREF;
@@ -285,6 +322,12 @@ public:
   /// @brief Field LIGA value: I32(2655971)
   static ::UnityEngine::TextCore::Text::MarkupTag const LIGA;
 
+  /// @brief Field LIGHTBLUE value: I32(341063360)
+  static ::UnityEngine::TextCore::Text::MarkupTag const LIGHTBLUE;
+
+  /// @brief Field LIME value: I32(2656045)
+  static ::UnityEngine::TextCore::Text::MarkupTag const LIME;
+
   /// @brief Field LINE_HEIGHT value: I32(-799081892)
   static ::UnityEngine::TextCore::Text::MarkupTag const LINE_HEIGHT;
 
@@ -297,6 +340,9 @@ public:
   /// @brief Field LOWERCASE value: I32(-1506899689)
   static ::UnityEngine::TextCore::Text::MarkupTag const LOWERCASE;
 
+  /// @brief Field MAGENTA value: I32(-1812576107)
+  static ::UnityEngine::TextCore::Text::MarkupTag const MAGENTA;
+
   /// @brief Field MARGIN value: I32(-1355614050)
   static ::UnityEngine::TextCore::Text::MarkupTag const MARGIN;
 
@@ -308,6 +354,9 @@ public:
 
   /// @brief Field MARK value: I32(2699125)
   static ::UnityEngine::TextCore::Text::MarkupTag const MARK;
+
+  /// @brief Field MAROON value: I32(-1355621936)
+  static ::UnityEngine::TextCore::Text::MarkupTag const MAROON;
 
   /// @brief Field MATERIAL value: I32(825491659)
   static ::UnityEngine::TextCore::Text::MarkupTag const MATERIAL;
@@ -333,6 +382,9 @@ public:
   /// @brief Field NAME value: I32(2875623)
   static ::UnityEngine::TextCore::Text::MarkupTag const NAME;
 
+  /// @brief Field NAVY value: I32(2876352)
+  static ::UnityEngine::TextCore::Text::MarkupTag const NAVY;
+
   /// @brief Field NBSP value: I32(2869039)
   static ::UnityEngine::TextCore::Text::MarkupTag const NBSP;
 
@@ -350,6 +402,9 @@ public:
 
   /// @brief Field NO_PARSE value: I32(-408011596)
   static ::UnityEngine::TextCore::Text::MarkupTag const NO_PARSE;
+
+  /// @brief Field OLIVE value: I32(95492953)
+  static ::UnityEngine::TextCore::Text::MarkupTag const OLIVE;
 
   /// @brief Field ORANGE value: I32(-1108587920)
   static ::UnityEngine::TextCore::Text::MarkupTag const ORANGE;
@@ -407,6 +462,9 @@ public:
 
   /// @brief Field SHY value: I32(92674)
   static ::UnityEngine::TextCore::Text::MarkupTag const SHY;
+
+  /// @brief Field SILVER value: I32(-960329321)
+  static ::UnityEngine::TextCore::Text::MarkupTag const SILVER;
 
   /// @brief Field SIZE value: I32(3061285)
   static ::UnityEngine::TextCore::Text::MarkupTag const SIZE;
@@ -570,6 +628,9 @@ public:
   /// @brief Field TD value: I32(5862485)
   static ::UnityEngine::TextCore::Text::MarkupTag const TD;
 
+  /// @brief Field TEAL value: I32(2947772)
+  static ::UnityEngine::TextCore::Text::MarkupTag const TEAL;
+
   /// @brief Field TH value: I32(5862489)
   static ::UnityEngine::TextCore::Text::MarkupTag const TH;
 
@@ -578,6 +639,9 @@ public:
 
   /// @brief Field TR value: I32(5862467)
   static ::UnityEngine::TextCore::Text::MarkupTag const TR;
+
+  /// @brief Field TRANSPARENT value: I32(-1014785338)
+  static ::UnityEngine::TextCore::Text::MarkupTag const TRANSPARENT;
 
   /// @brief Field TRUE value: I32(2932022)
   static ::UnityEngine::TextCore::Text::MarkupTag const TRUE;
@@ -607,7 +671,7 @@ public:
   static ::UnityEngine::TextCore::Text::MarkupTag const ZWSP;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15287 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17233 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

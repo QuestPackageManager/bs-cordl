@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringReader::*)(::StringW)>(&::System::IO::StringReader::_ctor)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3d79af0;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x5a01f5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringReader::*)()>(&::System::IO::StringReader::Close)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d79bb0;
+  constexpr static std::size_t addrs = 0x5a02014;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -35,8 +35,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::IO::StringReader::*)(bool)>(&::System::IO::StringReader::Dispose)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3d79bc0;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x5a02024;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -49,8 +49,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::StringReader::*)()>(&::System::IO::StringReader::Peek)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d79bd0;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x5a0202c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -63,8 +63,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::StringReader::*)()>(&::System::IO::StringReader::Read)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3d79c0c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5a02074;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -78,8 +78,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::IO::StringReader::*)(::ByRef<::ArrayW<char16_t, ::Array<char16_t>*>>, int32_t, int32_t)>(
     &::System::IO::StringReader::Read)> {
-  constexpr static std::size_t size = 0x1a8;
-  constexpr static std::size_t addrs = 0x3d79c50;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x5a020c4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::StringReader::*)()>(&::System::IO::StringReader::ReadToEnd)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d79df8;
+  constexpr static std::size_t addrs = 0x5a0224c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::IO::StringReader::*)()>(&::System::IO::StringReader::ReadLine)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x3d79e34;
+  constexpr static std::size_t size = 0x110;
+  constexpr static std::size_t addrs = 0x5a02288;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Threading::Tasks::Task_1<int32_t>* (::System::IO::StringReader::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(&::System::IO::StringReader::ReadAsync)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3d79f40;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x5a02398;
 
   inline static ::MethodInfo const* methodInfo() {
 

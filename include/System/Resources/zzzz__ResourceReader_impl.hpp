@@ -1,23 +1,21 @@
 #pragma once
 // IWYU pragma private; include "System/Resources/ResourceReader.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Resources/zzzz__IResourceReader_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "System/Collections/zzzz__DictionaryEntry_def.hpp"
 #include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/IO/zzzz__BinaryReader_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 #include "System/IO/zzzz__UnmanagedMemoryStream_def.hpp"
+#include "System/Resources/zzzz__IResourceReader_def.hpp"
 #include "System/Resources/zzzz__ResourceLocator_def.hpp"
 #include "System/Resources/zzzz__ResourceReader_def.hpp"
 #include "System/Resources/zzzz__ResourceTypeCode_def.hpp"
 #include "System/Runtime/Serialization/Formatters/Binary/zzzz__BinaryFormatter_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__RuntimeType_def.hpp"
 //  Writing Method size for method: ::System::Resources::ResourceReader_ResourceEnumerator._ctor
@@ -25,8 +23,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader_ResourceEnumerator::*)(::System::Resources::ResourceReader*)>(
     &::System::Resources::ResourceReader_ResourceEnumerator::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3d1e420;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5963a9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -40,8 +38,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::MoveNext)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3d1c82c;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x595e2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -54,8 +52,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Key)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d1c77c;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x595e244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -68,8 +66,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Current)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3d20e7c;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5966324;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -83,7 +81,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_DataPosition)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d21220;
+  constexpr static std::size_t addrs = 0x5966680;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -96,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::DictionaryEntry (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Entry)> {
-  constexpr static std::size_t size = 0x340;
-  constexpr static std::size_t addrs = 0x3d20ee0;
+  constexpr static std::size_t size = 0x2f4;
+  constexpr static std::size_t addrs = 0x596638c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -110,8 +108,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::get_Value)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3d21228;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5966688;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -124,8 +122,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader_ResourceEnumerator::*)()>(
     &::System::Resources::ResourceReader_ResourceEnumerator::Reset)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3d212d0;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5966728;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader_ResourceEnumerator*>::get(),
@@ -248,8 +246,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)(
     ::System::IO::Stream*, ::System::Collections::Generic::Dictionary_2<::StringW, ::System::Resources::ResourceLocator>*)>(&::System::Resources::ResourceReader::_ctor)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3d1b108;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x595ccac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -265,7 +263,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::Close)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d1b420;
+  constexpr static std::size_t addrs = 0x595cfd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "Close",
@@ -278,7 +276,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::Dispose)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3d1e10c;
+  constexpr static std::size_t addrs = 0x59637a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "Dispose",
@@ -291,7 +289,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)(bool)>(&::System::Resources::ResourceReader::Dispose)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3d1e0cc;
+  constexpr static std::size_t addrs = 0x5963768;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -303,14 +301,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::System::Resources::ResourceReader.ReadUnalignedI4
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::cordl_internals::Ptr<int32_t>)>(&::System::Resources::ResourceReader::ReadUnalignedI4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(int32_t*)>(&::System::Resources::ResourceReader::ReadUnalignedI4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1e148;
+  constexpr static std::size_t addrs = 0x59637e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "ReadUnalignedI4", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int32_t>>::get() })));
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t*>::get() })));
     return ___internal_method;
   }
 };
@@ -318,8 +316,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::SkipString)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x3d1e150;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x59637ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "SkipString",
@@ -332,7 +330,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::GetNameHash)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3d1e200;
+  constexpr static std::size_t addrs = 0x5963894;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -345,8 +343,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::GetNamePosition)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x3d1e244;
+  constexpr static std::size_t size = 0x114;
+  constexpr static std::size_t addrs = 0x59638d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,7 +359,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Resources::ResourceReader::*)()>(
     &::System::Resources::ResourceReader::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3d1e35c;
+  constexpr static std::size_t addrs = 0x59639ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -375,8 +373,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IDictionaryEnumerator* (::System::Resources::ResourceReader::*)()>(
     &::System::Resources::ResourceReader::GetEnumerator)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x3d1e360;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x59639f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "GetEnumerator",
@@ -389,8 +387,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Resources::ResourceReader_ResourceEnumerator* (::System::Resources::ResourceReader::*)()>(
     &::System::Resources::ResourceReader::GetEnumeratorInternal)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3d1c714;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x595e1e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(),
@@ -403,8 +401,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Resources::ResourceReader::*)(::StringW)>(
     &::System::Resources::ResourceReader::FindPosForResource)> {
-  constexpr static std::size_t size = 0x3ac;
-  constexpr static std::size_t addrs = 0x3d1c010;
+  constexpr static std::size_t size = 0x3d8;
+  constexpr static std::size_t addrs = 0x595db40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -418,8 +416,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Resources::ResourceReader::*)(::StringW)>(
     &::System::Resources::ResourceReader::CompareStringEqualsName)> {
-  constexpr static std::size_t size = 0x208;
-  constexpr static std::size_t addrs = 0x3d1e454;
+  constexpr static std::size_t size = 0x1f4;
+  constexpr static std::size_t addrs = 0x5963ab0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -433,8 +431,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceReader::*)(int32_t, ::ByRef<int32_t>)>(
     &::System::Resources::ResourceReader::AllocateStringForNameIndex)> {
-  constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x3d1e65c;
+  constexpr static std::size_t size = 0x7bc;
+  constexpr static std::size_t addrs = 0x5963ca4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -449,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(
     &::System::Resources::ResourceReader::GetValueForNameIndex)> {
   constexpr static std::size_t size = 0x29c;
-  constexpr static std::size_t addrs = 0x3d1ee1c;
+  constexpr static std::size_t addrs = 0x5964460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -462,8 +460,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Resources::ResourceReader::*)(int32_t)>(&::System::Resources::ResourceReader::LoadString)> {
-  constexpr static std::size_t size = 0x2a8;
-  constexpr static std::size_t addrs = 0x3d1c3bc;
+  constexpr static std::size_t size = 0x26c;
+  constexpr static std::size_t addrs = 0x595df18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -477,8 +475,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(
     &::System::Resources::ResourceReader::LoadObject)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3d1f664;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x5964c90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -492,8 +490,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t, ::ByRef<::System::Resources::ResourceTypeCode>)>(
     &::System::Resources::ResourceReader::LoadObject)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3d1c664;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x595e184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -509,7 +507,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(
     &::System::Resources::ResourceReader::LoadObjectV1)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3d1f0b8;
+  constexpr static std::size_t addrs = 0x59646fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -523,8 +521,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(
     &::System::Resources::ResourceReader::_LoadObjectV1)> {
-  constexpr static std::size_t size = 0x848;
-  constexpr static std::size_t addrs = 0x3d1f690;
+  constexpr static std::size_t size = 0x6f4;
+  constexpr static std::size_t addrs = 0x5964cb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -539,7 +537,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t, ::ByRef<::System::Resources::ResourceTypeCode>)>(
     &::System::Resources::ResourceReader::LoadObjectV2)> {
   constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x3d1f1b0;
+  constexpr static std::size_t addrs = 0x59647f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -554,8 +552,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t, ::ByRef<::System::Resources::ResourceTypeCode>)>(
     &::System::Resources::ResourceReader::_LoadObjectV2)> {
-  constexpr static std::size_t size = 0x724;
-  constexpr static std::size_t addrs = 0x3d200a8;
+  constexpr static std::size_t size = 0x744;
+  constexpr static std::size_t addrs = 0x5965534;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -570,8 +568,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Resources::ResourceReader::*)(int32_t)>(
     &::System::Resources::ResourceReader::DeserializeObject)> {
-  constexpr static std::size_t size = 0x1d0;
-  constexpr static std::size_t addrs = 0x3d1fed8;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x59653a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -584,8 +582,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::ReadResources)> {
-  constexpr static std::size_t size = 0x164;
-  constexpr static std::size_t addrs = 0x3d1df68;
+  constexpr static std::size_t size = 0x154;
+  constexpr static std::size_t addrs = 0x5963614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "ReadResources",
@@ -597,8 +595,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Resources::ResourceReader::*)()>(&::System::Resources::ResourceReader::_ReadResources)> {
-  constexpr static std::size_t size = 0x6b0;
-  constexpr static std::size_t addrs = 0x3d207cc;
+  constexpr static std::size_t size = 0x6ac;
+  constexpr static std::size_t addrs = 0x5965c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "_ReadResources",
@@ -611,8 +609,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::RuntimeType* (::System::Resources::ResourceReader::*)(int32_t)>(
     &::System::Resources::ResourceReader::FindType)> {
-  constexpr static std::size_t size = 0x3bc;
-  constexpr static std::size_t addrs = 0x3d1f2a8;
+  constexpr static std::size_t size = 0x3a4;
+  constexpr static std::size_t addrs = 0x59648ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -681,15 +679,15 @@ constexpr void System::Resources::ResourceReader::__cordl_internal_set__nameHash
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameHashes)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::cordl_internals::Ptr<int32_t>& System::Resources::ResourceReader::__cordl_internal_get__nameHashesPtr() {
+constexpr int32_t*& System::Resources::ResourceReader::__cordl_internal_get__nameHashesPtr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameHashesPtr;
 }
-constexpr ::cordl_internals::Ptr<int32_t> const& System::Resources::ResourceReader::__cordl_internal_get__nameHashesPtr() const {
+constexpr int32_t* const& System::Resources::ResourceReader::__cordl_internal_get__nameHashesPtr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____nameHashesPtr;
 }
-constexpr void System::Resources::ResourceReader::__cordl_internal_set__nameHashesPtr(::cordl_internals::Ptr<int32_t> value) {
+constexpr void System::Resources::ResourceReader::__cordl_internal_set__nameHashesPtr(int32_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____nameHashesPtr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -705,15 +703,15 @@ constexpr void System::Resources::ResourceReader::__cordl_internal_set__namePosi
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namePositions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::cordl_internals::Ptr<int32_t>& System::Resources::ResourceReader::__cordl_internal_get__namePositionsPtr() {
+constexpr int32_t*& System::Resources::ResourceReader::__cordl_internal_get__namePositionsPtr() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namePositionsPtr;
 }
-constexpr ::cordl_internals::Ptr<int32_t> const& System::Resources::ResourceReader::__cordl_internal_get__namePositionsPtr() const {
+constexpr int32_t* const& System::Resources::ResourceReader::__cordl_internal_get__namePositionsPtr() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____namePositionsPtr;
 }
-constexpr void System::Resources::ResourceReader::__cordl_internal_set__namePositionsPtr(::cordl_internals::Ptr<int32_t> value) {
+constexpr void System::Resources::ResourceReader::__cordl_internal_set__namePositionsPtr(int32_t* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____namePositionsPtr)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
@@ -813,10 +811,10 @@ inline void System::Resources::ResourceReader::Dispose(bool disposing) {
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, disposing);
 }
-inline int32_t System::Resources::ResourceReader::ReadUnalignedI4(::cordl_internals::Ptr<int32_t> p) {
+inline int32_t System::Resources::ResourceReader::ReadUnalignedI4(int32_t* p) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Resources::ResourceReader*>::get(), "ReadUnalignedI4", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::cordl_internals::Ptr<int32_t>>::get() })));
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t*>::get() })));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, p);
 }
 inline void System::Resources::ResourceReader::SkipString() {

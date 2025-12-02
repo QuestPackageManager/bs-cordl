@@ -6,6 +6,7 @@
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
 #include "GlobalNamespace/zzzz__OVRHeadsetEmulator_def.hpp"
 #include "GlobalNamespace/zzzz__OVRManager_def.hpp"
+#include "UnityEngine/InputSystem/zzzz__InputAction_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
 // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode::OVRHeadsetEmulator_OpMode(int32_t value__) noexcept {
@@ -20,8 +21,8 @@ constexpr ::GlobalNamespace::OVRHeadsetEmulator_OpMode GlobalNamespace::OVRHeads
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::Start)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3fb584c;
+  constexpr static std::size_t size = 0x2dc;
+  constexpr static std::size_t addrs = 0x5c448c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "Start",
@@ -33,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::Update)> {
-  constexpr static std::size_t size = 0x464;
-  constexpr static std::size_t addrs = 0x3fb5850;
+  constexpr static std::size_t size = 0x528;
+  constexpr static std::size_t addrs = 0x5c44b9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "Update",
@@ -46,8 +47,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::IsEmulationActivated)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3fb5cb4;
+  constexpr static std::size_t size = 0xf8;
+  constexpr static std::size_t addrs = 0x5c450c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(),
@@ -59,11 +60,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::IsTweakingPitch)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3fb5d7c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x5c451bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "IsTweakingPitch",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::GlobalNamespace::OVRHeadsetEmulator.OnDestroy
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::OnDestroy)> {
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x5c4526c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "OnDestroy",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -72,8 +86,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRHeadsetEmulator::*)()>(&::GlobalNamespace::OVRHeadsetEmulator::_ctor)> {
-  constexpr static std::size_t size = 0xc8;
-  constexpr static std::size_t addrs = 0x3fb5df8;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x5c45360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), ".ctor",
@@ -129,6 +143,18 @@ constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_activat
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activateKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_activateKeyBindings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___activateKeyBindings;
+}
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_activateKeyBindings() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___activateKeyBindings;
+}
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_activateKeyBindings(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activateKeyBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
 constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*>& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_pitchKeys() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->___pitchKeys;
@@ -140,6 +166,81 @@ constexpr ::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> con
 constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_pitchKeys(::ArrayW<::UnityEngine::KeyCode, ::Array<::UnityEngine::KeyCode>*> value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pitchKeys)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_pitchKeyBindings() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pitchKeyBindings;
+}
+constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_pitchKeyBindings() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pitchKeyBindings;
+}
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_pitchKeyBindings(::ArrayW<::StringW, ::Array<::StringW>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pitchKeyBindings)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::UnityEngine::InputSystem::InputAction*, ::Array<::UnityEngine::InputSystem::InputAction*>*>& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_activateKeyActions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___activateKeyActions;
+}
+constexpr ::ArrayW<::UnityEngine::InputSystem::InputAction*, ::Array<::UnityEngine::InputSystem::InputAction*>*> const&
+GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_activateKeyActions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___activateKeyActions;
+}
+constexpr void
+GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_activateKeyActions(::ArrayW<::UnityEngine::InputSystem::InputAction*, ::Array<::UnityEngine::InputSystem::InputAction*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___activateKeyActions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::ArrayW<::UnityEngine::InputSystem::InputAction*, ::Array<::UnityEngine::InputSystem::InputAction*>*>& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_pitchKeyActions() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pitchKeyActions;
+}
+constexpr ::ArrayW<::UnityEngine::InputSystem::InputAction*, ::Array<::UnityEngine::InputSystem::InputAction*>*> const&
+GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_pitchKeyActions() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___pitchKeyActions;
+}
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_pitchKeyActions(::ArrayW<::UnityEngine::InputSystem::InputAction*, ::Array<::UnityEngine::InputSystem::InputAction*>*> value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___pitchKeyActions)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_middleMouseButtonAction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___middleMouseButtonAction;
+}
+constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_middleMouseButtonAction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___middleMouseButtonAction;
+}
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_middleMouseButtonAction(::UnityEngine::InputSystem::InputAction* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___middleMouseButtonAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_mouseScrollAction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___mouseScrollAction;
+}
+constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_mouseScrollAction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___mouseScrollAction;
+}
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_mouseScrollAction(::UnityEngine::InputSystem::InputAction* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mouseScrollAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+}
+constexpr ::UnityEngine::InputSystem::InputAction*& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_mouseMoveAction() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___mouseMoveAction;
+}
+constexpr ::UnityEngine::InputSystem::InputAction* const& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_mouseMoveAction() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___mouseMoveAction;
+}
+constexpr void GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_set_mouseMoveAction(::UnityEngine::InputSystem::InputAction* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mouseMoveAction)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 constexpr ::UnityW<::GlobalNamespace::OVRManager>& GlobalNamespace::OVRHeadsetEmulator::__cordl_internal_get_manager() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
@@ -244,6 +345,11 @@ inline bool GlobalNamespace::OVRHeadsetEmulator::IsTweakingPitch() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "IsTweakingPitch",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::OVRHeadsetEmulator::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), "OnDestroy",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::OVRHeadsetEmulator::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRHeadsetEmulator*>::get(), ".ctor",

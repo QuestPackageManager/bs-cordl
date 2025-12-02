@@ -15,6 +15,9 @@ namespace OVRSimpleJSON {
 struct JSONNode_Enumerator;
 }
 namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace OVRSimpleJSON {
 struct JSONTextMode;
 }
 namespace System::Text {
@@ -40,6 +43,8 @@ public:
 
   __declspec(property(get = get_AsLong, put = set_AsLong)) int64_t AsLong;
 
+  __declspec(property(get = get_AsULong, put = set_AsULong)) uint64_t AsULong;
+
   __declspec(property(get = get_IsNumber)) bool IsNumber;
 
   __declspec(property(get = get_Tag)) ::OVRSimpleJSON::JSONNodeType Tag;
@@ -49,23 +54,29 @@ public:
   /// @brief Field m_Data, offset 0x10, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Data, put = __cordl_internal_set_m_Data)) double_t m_Data;
 
-  /// @brief Method Equals, addr 0x4053868, size 0x10c, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x5c155e8, size 0x8, virtual true, abstract: false, final false
+  inline void Clear();
+
+  /// @brief Method Clone, addr 0x5c15298, size 0x68, virtual true, abstract: false, final false
+  inline ::OVRSimpleJSON::JSONNode* Clone();
+
+  /// @brief Method Equals, addr 0x5c1548c, size 0x13c, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x405351c, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5c15058, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x4053974, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c155c8, size 0x20, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method IsNumeric, addr 0x40536c8, size 0x1a0, virtual false, abstract: false, final false
+  /// @brief Method IsNumeric, addr 0x5c15398, size 0xf4, virtual false, abstract: false, final false
   static inline bool IsNumeric(::System::Object* value);
 
   static inline ::OVRSimpleJSON::JSONNumber* New_ctor(::StringW aData);
 
   static inline ::OVRSimpleJSON::JSONNumber* New_ctor(double_t aData);
 
-  /// @brief Method WriteToStringBuilder, addr 0x4053694, size 0x34, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x5c15300, size 0x98, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
   constexpr double_t const& __cordl_internal_get_m_Data() const;
@@ -74,34 +85,40 @@ public:
 
   constexpr void __cordl_internal_set_m_Data(double_t value);
 
-  /// @brief Method .ctor, addr 0x4053660, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c15228, size 0x70, virtual false, abstract: false, final false
   inline void _ctor(::StringW aData);
 
-  /// @brief Method .ctor, addr 0x4048768, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c151c4, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(double_t aData);
 
-  /// @brief Method get_AsDouble, addr 0x4053624, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsDouble, addr 0x5c15164, size 0x8, virtual true, abstract: false, final false
   inline double_t get_AsDouble();
 
-  /// @brief Method get_AsLong, addr 0x4053634, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method get_AsLong, addr 0x5c15174, size 0x20, virtual true, abstract: false, final false
   inline int64_t get_AsLong();
 
-  /// @brief Method get_IsNumber, addr 0x4053514, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsULong, addr 0x5c151a0, size 0x18, virtual true, abstract: false, final false
+  inline uint64_t get_AsULong();
+
+  /// @brief Method get_IsNumber, addr 0x5c15050, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNumber();
 
-  /// @brief Method get_Tag, addr 0x405350c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x5c15048, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x4053530, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5c1506c, size 0x68, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method set_AsDouble, addr 0x405362c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_AsDouble, addr 0x5c1516c, size 0x8, virtual true, abstract: false, final false
   inline void set_AsDouble(double_t value);
 
-  /// @brief Method set_AsLong, addr 0x4053654, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_AsLong, addr 0x5c15194, size 0xc, virtual true, abstract: false, final false
   inline void set_AsLong(int64_t value);
 
-  /// @brief Method set_Value, addr 0x4053598, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method set_AsULong, addr 0x5c151b8, size 0xc, virtual true, abstract: false, final false
+  inline void set_AsULong(uint64_t value);
+
+  /// @brief Method set_Value, addr 0x5c150d4, size 0x90, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -119,7 +136,7 @@ public:
   JSONNumber(JSONNumber const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8529 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8006 };
 
   /// @brief Field m_Data, offset: 0x10, size: 0x8, def value: None
   double_t ___m_Data;

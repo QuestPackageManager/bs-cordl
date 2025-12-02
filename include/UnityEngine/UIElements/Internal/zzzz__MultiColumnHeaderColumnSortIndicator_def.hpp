@@ -28,7 +28,7 @@ public:
   /// @brief Field indexLabelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_indexLabelUssClassName, put = setStaticF_indexLabelUssClassName)) ::StringW indexLabelUssClassName;
 
-  /// @brief Field m_IndexLabel, offset 0x3c8, size 0x8
+  /// @brief Field m_IndexLabel, offset 0x4a8, size 0x8
   __declspec(property(get = __cordl_internal_get_m_IndexLabel, put = __cordl_internal_set_m_IndexLabel)) ::UnityEngine::UIElements::Label* m_IndexLabel;
 
   __declspec(property(put = set_sortOrderLabel)) ::StringW sortOrderLabel;
@@ -44,7 +44,7 @@ public:
 
   constexpr void __cordl_internal_set_m_IndexLabel(::UnityEngine::UIElements::Label* value);
 
-  /// @brief Method .ctor, addr 0x49ec1b0, size 0x168, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6af58d8, size 0x178, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::StringW getStaticF_arrowUssClassName();
@@ -59,7 +59,7 @@ public:
 
   static inline void setStaticF_ussClassName(::StringW value);
 
-  /// @brief Method set_sortOrderLabel, addr 0x49ec18c, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method set_sortOrderLabel, addr 0x6af58b8, size 0x20, virtual false, abstract: false, final false
   inline void set_sortOrderLabel(::StringW value);
 
 protected:
@@ -77,17 +77,17 @@ public:
   MultiColumnHeaderColumnSortIndicator(MultiColumnHeaderColumnSortIndicator const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6511 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5522 };
 
-  /// @brief Field m_IndexLabel, offset: 0x3c8, size: 0x8, def value: None
+  /// @brief Field m_IndexLabel, offset: 0x4a8, size: 0x8, def value: None
   ::UnityEngine::UIElements::Label* ___m_IndexLabel;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator, ___m_IndexLabel) == 0x3c8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator, ___m_IndexLabel) == 0x4a8, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator, 0x3d0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator, 0x4b0>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements::Internal
 NEED_NO_BOX(::UnityEngine::UIElements::Internal::MultiColumnHeaderColumnSortIndicator);

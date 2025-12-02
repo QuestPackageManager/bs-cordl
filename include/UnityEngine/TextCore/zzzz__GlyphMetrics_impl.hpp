@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/TextCore/GlyphMetrics.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/TextCore/zzzz__GlyphMetrics_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::TextCore::GlyphMetrics.get_width
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::GlyphMetrics::*)()>(&::UnityEngine::TextCore::GlyphMetrics::get_width)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920f98;
+  constexpr static std::size_t addrs = 0x6987be0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphMetrics>::get(), "get_width",
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::GlyphMetrics::*)()>(&::UnityEngine::TextCore::GlyphMetrics::get_height)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920fa0;
+  constexpr static std::size_t addrs = 0x6987be8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphMetrics>::get(), "get_height",
@@ -35,7 +35,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::GlyphMetrics::*)()>(
     &::UnityEngine::TextCore::GlyphMetrics::get_horizontalBearingX)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920fa8;
+  constexpr static std::size_t addrs = 0x6987bf0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphMetrics>::get(),
@@ -49,7 +49,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::GlyphMetrics::*)()>(
     &::UnityEngine::TextCore::GlyphMetrics::get_horizontalBearingY)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920fb0;
+  constexpr static std::size_t addrs = 0x6987bf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphMetrics>::get(),
@@ -63,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::TextCore::GlyphMetrics::*)()>(
     &::UnityEngine::TextCore::GlyphMetrics::get_horizontalAdvance)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4920fb8;
+  constexpr static std::size_t addrs = 0x6987c00;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::TextCore::GlyphMetrics>::get(),
@@ -77,7 +77,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::TextCore::GlyphMetrics::*)(float_t, float_t, float_t, float_t, float_t)>(
     &::UnityEngine::TextCore::GlyphMetrics::_ctor)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4920fc0;
+  constexpr static std::size_t addrs = 0x6987c08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,7 +93,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::TextCore::GlyphMetrics::*)()>(&::UnityEngine::TextCore::GlyphMetrics::GetHashCode)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4920fd0;
+  constexpr static std::size_t addrs = 0x6987c18;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::GlyphMetrics::*)(::System::Object*)>(&::UnityEngine::TextCore::GlyphMetrics::Equals)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x492103c;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x6987c84;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::TextCore::GlyphMetrics::*)(::UnityEngine::TextCore::GlyphMetrics)>(
     &::UnityEngine::TextCore::GlyphMetrics::Equals)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x49210bc;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6987cfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

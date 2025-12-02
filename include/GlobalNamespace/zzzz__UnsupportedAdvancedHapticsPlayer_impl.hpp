@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/UnsupportedAdvancedHapticsPlayer.hpp"
-#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__UnsupportedAdvancedHapticsPlayer_def.hpp"
+#include "GlobalNamespace/zzzz__IHapticFeedbackPlayer_def.hpp"
 #include "Libraries/HM/HMLib/VR/zzzz__HapticPresetSO_def.hpp"
 #include "UnityEngine/XR/zzzz__XRNode_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::UnsupportedAdvancedHapticsPlayer.PlayHapticFeedback
@@ -11,7 +11,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnsupportedAdvancedHapticsPlayer::*)(
     ::UnityEngine::XR::XRNode, ::Libraries::HM::HMLib::VR::HapticPresetSO*)>(&::GlobalNamespace::UnsupportedAdvancedHapticsPlayer::PlayHapticFeedback)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x39cae00;
+  constexpr static std::size_t addrs = 0x563fd40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::UnsupportedAdvancedHapticsPlayer::*)(
     ::Libraries::HM::HMLib::VR::HapticPresetSO*, ::UnityEngine::XR::XRNode)>(&::GlobalNamespace::UnsupportedAdvancedHapticsPlayer::CanPlayHapticPreset)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cae04;
+  constexpr static std::size_t addrs = 0x563fd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::UnsupportedAdvancedHapticsPlayer::*)()>(
     &::GlobalNamespace::UnsupportedAdvancedHapticsPlayer::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39cae0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x563fd4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::UnsupportedAdvancedHapticsPlayer*>::get(),

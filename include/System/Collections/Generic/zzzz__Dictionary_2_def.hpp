@@ -3,23 +3,8 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
 #include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
-#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Dictionary_2)
@@ -51,6 +36,12 @@ namespace System::Collections::Generic {
 template <typename T> class IEqualityComparer_1;
 }
 namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
+}
+namespace System::Collections::Generic {
 struct InsertionBehavior;
 }
 namespace System::Collections::Generic {
@@ -72,7 +63,19 @@ namespace System::Collections {
 class IDictionaryEnumerator;
 }
 namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
+}
+namespace System::Collections {
 class IEnumerator;
+}
+namespace System::Runtime::Serialization {
+class IDeserializationCallback;
+}
+namespace System::Runtime::Serialization {
+class ISerializable;
 }
 namespace System::Runtime::Serialization {
 class SerializationInfo;
@@ -82,6 +85,9 @@ struct StreamingContext;
 }
 namespace System {
 class Array;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -134,7 +140,7 @@ public:
   constexpr Dictionary_2_Entry(int32_t hashCode, int32_t next, TKey key, TValue value) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3832 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3757 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -155,8 +161,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>, System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator,
-// System.IDisposable
+// Dependencies System.Collections.Generic.KeyValuePair`2<TKey, TValue>
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -238,7 +243,7 @@ public:
                                     ::System::Collections::Generic::KeyValuePair_2<TKey, TValue> _current, int32_t _getEnumeratorRetType) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3833 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3758 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -262,7 +267,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -320,7 +325,7 @@ public:
   constexpr KeyCollection_Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TKey _currentKey) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3834 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3759 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -341,8 +346,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
-// System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -459,7 +463,7 @@ public:
   Dictionary_2_KeyCollection(Dictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3835 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3760 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
@@ -468,7 +472,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable
+// Dependencies
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -526,7 +530,7 @@ public:
   constexpr ValueCollection_Dictionary_2_Enumerator(::System::Collections::Generic::Dictionary_2<TKey, TValue>* _dictionary, int32_t _index, int32_t _version, TValue _currentValue) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3836 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3761 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -547,8 +551,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
-// System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -665,7 +668,7 @@ public:
   Dictionary_2_ValueCollection(Dictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3837 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3762 };
 
   /// @brief Field _dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::Dictionary_2<TKey, TValue>* ____dictionary;
@@ -674,10 +677,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::Generic
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
-// System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyDictionary`2<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>,
-// System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.Object, System.Runtime.Serialization.IDeserializationCallback,
-// System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System::Collections::Generic {
 // cpp template
 template <typename TKey, typename TValue>
@@ -810,6 +810,9 @@ public:
   /// @brief Method CopyTo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void CopyTo(::ArrayW<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>, ::Array<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>*> array, int32_t index);
 
+  /// @brief Method EnsureCapacity, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline int32_t EnsureCapacity(int32_t capacity);
+
   /// @brief Method FindEntry, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline int32_t FindEntry(TKey key);
 
@@ -830,6 +833,13 @@ public:
   static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* New_ctor(int32_t capacity);
 
   static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* New_ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
+
+  static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>*
+  New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection);
+
+  static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>*
+  New_ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection,
+           ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
   static inline ::System::Collections::Generic::Dictionary_2<TKey, TValue>* New_ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
@@ -1013,6 +1023,13 @@ public:
   inline void _ctor(int32_t capacity, ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void _ctor(::System::Collections::Generic::IEnumerable_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* collection,
+                    ::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
+
+  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Generic::IEqualityComparer_1<TKey>* comparer);
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
@@ -1086,20 +1103,8 @@ public:
   // @brief delete copy ctor to prevent accidental deref copies
   Dictionary_2(Dictionary_2 const&) = delete;
 
-  /// @brief Field ComparerName offset 0xffffffff size 0x8
-  static constexpr ::ConstString ComparerName{ u"Comparer" };
-
-  /// @brief Field HashSizeName offset 0xffffffff size 0x8
-  static constexpr ::ConstString HashSizeName{ u"HashSize" };
-
-  /// @brief Field KeyValuePairsName offset 0xffffffff size 0x8
-  static constexpr ::ConstString KeyValuePairsName{ u"KeyValuePairs" };
-
-  /// @brief Field VersionName offset 0xffffffff size 0x8
-  static constexpr ::ConstString VersionName{ u"Version" };
-
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3838 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3763 };
 
   /// @brief Field _buckets, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<int32_t, ::Array<int32_t>*> ____buckets;

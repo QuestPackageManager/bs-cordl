@@ -4,10 +4,12 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IPrefabProvider_def.hpp"
 CORDL_MODULE_EXPORT(PrefabProvider)
 namespace UnityEngine {
 class Object;
+}
+namespace Zenject {
+class IPrefabProvider;
 }
 // Forward declare root types
 namespace Zenject {
@@ -15,7 +17,7 @@ class PrefabProvider;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::PrefabProvider);
-// Dependencies System.Object, Zenject.IPrefabProvider
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.PrefabProvider
@@ -28,7 +30,7 @@ public:
   /// @brief Convert operator to "::Zenject::IPrefabProvider"
   constexpr operator ::Zenject::IPrefabProvider*() noexcept;
 
-  /// @brief Method GetPrefab, addr 0x4b3fd30, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method GetPrefab, addr 0x6c53bac, size 0x8, virtual true, abstract: false, final true
   inline ::UnityW<::UnityEngine::Object> GetPrefab();
 
   static inline ::Zenject::PrefabProvider* New_ctor(::UnityEngine::Object* prefab);
@@ -39,7 +41,7 @@ public:
 
   constexpr void __cordl_internal_set__prefab(::UnityW<::UnityEngine::Object> value);
 
-  /// @brief Method .ctor, addr 0x4b3fcfc, size 0x34, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c53b80, size 0x2c, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::Object* prefab);
 
   /// @brief Convert to "::Zenject::IPrefabProvider"
@@ -60,7 +62,7 @@ public:
   PrefabProvider(PrefabProvider const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12574 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14555 };
 
   /// @brief Field _prefab, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Object> ____prefab;

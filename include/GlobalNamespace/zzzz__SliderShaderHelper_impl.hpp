@@ -5,6 +5,7 @@
 #include "GlobalNamespace/zzzz__IJumpOffsetYProvider_def.hpp"
 #include "GlobalNamespace/zzzz__IVariableMovementDataProvider_def.hpp"
 #include "GlobalNamespace/zzzz__SliderController_def.hpp"
+#include "GlobalNamespace/zzzz__TimeHelper_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
 #include "UnityEngine/zzzz__MaterialPropertyBlock_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
@@ -14,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetTimeSinceHeadNoteJump)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b7c440;
+  constexpr static std::size_t addrs = 0x5767ce8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -30,7 +31,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetTailHeadNoteJumpOffsetDifference)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x3b7c4bc;
+  constexpr static std::size_t addrs = 0x5767d64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -46,7 +47,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::SliderShaderHelper::SetSaberAttractionPoint)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b7c538;
+  constexpr static std::size_t addrs = 0x5767de0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +63,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, bool)>(
     &::GlobalNamespace::SliderShaderHelper::EnableSaberAttraction)> {
   constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3b79588;
+  constexpr static std::size_t addrs = 0x5764fd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -78,7 +79,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Color)>(
     &::GlobalNamespace::SliderShaderHelper::SetColor)> {
   constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b7c5d0;
+  constexpr static std::size_t addrs = 0x5767e78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -93,8 +94,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::UnityEngine::Color, float_t, float_t, bool, bool, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetInitialProperties)> {
-  constexpr static std::size_t size = 0x178;
-  constexpr static std::size_t addrs = 0x3b7c66c;
+  constexpr static std::size_t size = 0x164;
+  constexpr static std::size_t addrs = 0x5767f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,8 +112,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::GlobalNamespace::SliderController*)>(
     &::GlobalNamespace::SliderShaderHelper::SetInitialProperties)> {
-  constexpr static std::size_t size = 0x114;
-  constexpr static std::size_t addrs = 0x3b774f4;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x5762d58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -127,8 +128,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetHeadNoteJump)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b7c7e4;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5768078;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -143,8 +144,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetTailNoteJump)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3b7c88c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x5768120;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -159,8 +160,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, float_t, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetJumpSpeedAndDistance)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b7c904;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x576819c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -173,19 +174,20 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::GlobalNamespace::SliderShaderHelper.UpdateMaterialPropertyBlock
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::GlobalNamespace::SliderController*,
-                                                                                           ::GlobalNamespace::IVariableMovementDataProvider*, ::GlobalNamespace::IJumpOffsetYProvider*, float_t)>(
-    &::GlobalNamespace::SliderShaderHelper::UpdateMaterialPropertyBlock)> {
-  constexpr static std::size_t size = 0x444;
-  constexpr static std::size_t addrs = 0x3b78858;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
+    static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, ::GlobalNamespace::SliderController*, ::GlobalNamespace::IVariableMovementDataProvider*, ::GlobalNamespace::IJumpOffsetYProvider*,
+                         ::GlobalNamespace::TimeHelper*, float_t)>(&::GlobalNamespace::SliderShaderHelper::UpdateMaterialPropertyBlock)> {
+  constexpr static std::size_t size = 0x42c;
+  constexpr static std::size_t addrs = 0x5764360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderShaderHelper*>::get(), "UpdateMaterialPropertyBlock", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get(),
+        ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderController*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IVariableMovementDataProvider*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IJumpOffsetYProvider*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TimeHelper*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
     return ___internal_method;
   }
@@ -195,8 +197,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::MaterialPropertyBlock*, int32_t, float_t, float_t)>(
     &::GlobalNamespace::SliderShaderHelper::SetNoteJump)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b7c85c;
+  constexpr static std::size_t size = 0x2c;
+  constexpr static std::size_t addrs = 0x57680f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -378,15 +380,17 @@ inline void GlobalNamespace::SliderShaderHelper::SetJumpSpeedAndDistance(::Unity
 }
 inline void GlobalNamespace::SliderShaderHelper::UpdateMaterialPropertyBlock(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, ::GlobalNamespace::SliderController* sliderController,
                                                                              ::GlobalNamespace::IVariableMovementDataProvider* variableMovementDataProvider,
-                                                                             ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, float_t timeSinceHeadNoteJump) {
+                                                                             ::GlobalNamespace::IJumpOffsetYProvider* jumpOffsetYProvider, ::GlobalNamespace::TimeHelper* timeHelper,
+                                                                             float_t timeSinceHeadNoteJump) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SliderShaderHelper*>::get(), "UpdateMaterialPropertyBlock", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get(),
+      ::std::array<Il2CppType const*, 6>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::MaterialPropertyBlock*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::SliderController*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IVariableMovementDataProvider*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IJumpOffsetYProvider*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::TimeHelper*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, materialPropertyBlock, sliderController, variableMovementDataProvider, jumpOffsetYProvider,
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, materialPropertyBlock, sliderController, variableMovementDataProvider, jumpOffsetYProvider, timeHelper,
                                                           timeSinceHeadNoteJump);
 }
 inline void GlobalNamespace::SliderShaderHelper::SetNoteJump(::UnityEngine::MaterialPropertyBlock* materialPropertyBlock, int32_t propertyId, float_t halfJumpDuration, float_t noteGravity) {

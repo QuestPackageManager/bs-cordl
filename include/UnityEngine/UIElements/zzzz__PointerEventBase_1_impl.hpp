@@ -1,16 +1,19 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/PointerEventBase_1.hpp"
 #include "UnityEngine/UIElements/zzzz__EventBase_1_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IPointerEvent_impl.hpp"
 #include "UnityEngine/zzzz__EventModifiers_impl.hpp"
 #include "UnityEngine/zzzz__PenStatus_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
+#include "UnityEngine/InputForUI/zzzz__PointerEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BaseVisualElementPanel_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IEventHandler_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IMouseEvent_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPanel_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerEventInternal_def.hpp"
 #include "UnityEngine/UIElements/zzzz__IPointerEvent_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IPointerOrMouseEvent_def.hpp"
 #include "UnityEngine/zzzz__EventModifiers_def.hpp"
 #include "UnityEngine/zzzz__EventType_def.hpp"
 #include "UnityEngine/zzzz__Event_def.hpp"
@@ -308,19 +311,34 @@ template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1
   this->____UnityEngine_UIElements_IPointerEventInternal_triggeredByOS_k__BackingField = value;
 }
 template <typename T>
-constexpr bool& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField() {
+constexpr ::UnityEngine::UIElements::IMouseEvent*&
+UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField;
+  return this->____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
 }
 template <typename T>
-constexpr bool const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField() const {
+constexpr ::UnityEngine::UIElements::IMouseEvent* const&
+UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField;
+  return this->____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField;
 }
 template <typename T>
-constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField(bool value) {
+constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField(
+    ::UnityEngine::UIElements::IMouseEvent* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____UnityEngine_UIElements_IPointerEventInternal_recomputeTopElementUnderPointer_k__BackingField = value;
+  ::cordl_internals::setInstanceField(this, &this->____UnityEngine_UIElements_IPointerEventInternal_compatibilityMouseEvent_k__BackingField, value);
+}
+template <typename T> constexpr int32_t& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
+}
+template <typename T> constexpr int32_t const& UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_get__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField;
+}
+template <typename T> constexpr void UnityEngine::UIElements::PointerEventBase_1<T>::__cordl_internal_set__UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField(int32_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->____UnityEngine_UIElements_IPointerEventInternal_displayIndex_k__BackingField = value;
 }
 template <typename T> inline int32_t UnityEngine::UIElements::PointerEventBase_1<T>::get_pointerId() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
@@ -579,22 +597,28 @@ template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>
                                                                              ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
-template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_get_recomputeTopElementUnderPointer() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
-                                                                             "UnityEngine.UIElements.IPointerEventInternal.get_recomputeTopElementUnderPointer",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+template <typename T> inline ::UnityEngine::UIElements::IMouseEvent* UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_get_compatibilityMouseEvent() {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
+                                  "UnityEngine.UIElements.IPointerEventInternal.get_compatibilityMouseEvent", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IMouseEvent*, false>(this, ___internal_method);
 }
-template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_recomputeTopElementUnderPointer(bool value) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
-                                               "UnityEngine.UIElements.IPointerEventInternal.set_recomputeTopElementUnderPointer", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+template <typename T>
+inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_compatibilityMouseEvent(::UnityEngine::UIElements::IMouseEvent* value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "UnityEngine.UIElements.IPointerEventInternal.set_compatibilityMouseEvent",
+      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::IMouseEvent*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
+}
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::UnityEngine_UIElements_IPointerEventInternal_set_displayIndex(int32_t value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(),
+                                                                             "UnityEngine.UIElements.IPointerEventInternal.set_displayIndex", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::Init() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 12)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 13)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::LocalInit() {
@@ -604,12 +628,12 @@ template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>
 }
 template <typename T> inline ::UnityEngine::UIElements::IEventHandler* UnityEngine::UIElements::PointerEventBase_1<T>::get_currentTarget() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 10)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 11)));
   return ::cordl_internals::RunMethodRethrow<::UnityEngine::UIElements::IEventHandler*, false>(this, ___internal_method);
 }
 template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::set_currentTarget(::UnityEngine::UIElements::IEventHandler* value) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 11)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 12)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 template <typename T> inline bool UnityEngine::UIElements::PointerEventBase_1<T>::IsMouse(::UnityEngine::Event* systemEvent) {
@@ -650,28 +674,42 @@ template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::G
 }
 template <typename T>
 inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::EventType eventType, ::UnityEngine::Vector3 mousePosition, ::UnityEngine::Vector2 delta, int32_t button,
-                                                                   int32_t clickCount, ::UnityEngine::EventModifiers modifiers) {
+                                                                   int32_t clickCount, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
+      ::std::array<Il2CppType const*, 7>{
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, eventType, mousePosition, delta, button, clickCount, modifiers);
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get(),
+          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, eventType, mousePosition, delta, button, clickCount, modifiers, displayIndex);
 }
-template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::Touch touch, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Touch>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, touch, modifiers);
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Touch>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, touch, modifiers, displayIndex);
 }
-template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers) {
+template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::PenData pen, ::UnityEngine::EventModifiers modifiers, int32_t displayIndex) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::PenData>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get() })));
-  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, pen, modifiers);
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::PenData>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::EventModifiers>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, pen, modifiers, displayIndex);
+}
+template <typename T>
+inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::InputForUI::PointerEvent pointerEvent, ::UnityEngine::Vector2 position, ::UnityEngine::Vector2 deltaPosition,
+                                                                   int32_t pointerId, float_t deltaTime) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), "GetPooled", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::InputForUI::PointerEvent>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector2>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<float_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, pointerEvent, position, deltaPosition, pointerId, deltaTime);
 }
 template <typename T> inline T UnityEngine::UIElements::PointerEventBase_1<T>::GetPooled(::UnityEngine::UIElements::IPointerEvent* triggerEvent, ::UnityEngine::Vector2 position, int32_t pointerId) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -697,6 +735,11 @@ template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 9)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
 }
+template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), 10)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, panel);
+}
 template <typename T> inline void UnityEngine::UIElements::PointerEventBase_1<T>::_ctor() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::PointerEventBase_1<T>*>::get(), ".ctor",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -720,6 +763,14 @@ template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::
 /// @brief Convert to "::UnityEngine::UIElements::IPointerEventInternal"
 template <typename T> constexpr ::UnityEngine::UIElements::IPointerEventInternal* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerEventInternal() noexcept {
   return static_cast<::UnityEngine::UIElements::IPointerEventInternal*>(static_cast<void*>(this));
+}
+/// @brief Convert operator to "::UnityEngine::UIElements::IPointerOrMouseEvent"
+template <typename T> constexpr UnityEngine::UIElements::PointerEventBase_1<T>::operator ::UnityEngine::UIElements::IPointerOrMouseEvent*() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerOrMouseEvent*>(static_cast<void*>(this));
+}
+/// @brief Convert to "::UnityEngine::UIElements::IPointerOrMouseEvent"
+template <typename T> constexpr ::UnityEngine::UIElements::IPointerOrMouseEvent* UnityEngine::UIElements::PointerEventBase_1<T>::i___UnityEngine__UIElements__IPointerOrMouseEvent() noexcept {
+  return static_cast<::UnityEngine::UIElements::IPointerOrMouseEvent*>(static_cast<void*>(this));
 }
 // Ctor Parameters []
 template <typename T> constexpr ::UnityEngine::UIElements::PointerEventBase_1<T>::PointerEventBase_1() {}

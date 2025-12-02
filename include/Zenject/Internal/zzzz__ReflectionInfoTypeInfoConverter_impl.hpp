@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57f0c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c6b3b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ReflectionInfoTypeInfoConverter___c*>::get(),
@@ -40,8 +40,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::InjectableInfo* (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::*)(::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*)>(
         &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::_ConvertMethod_b__0_1)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b57f14;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6c6b3b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::InjectableInfo* (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::*)(::Zenject::Internal::ReflectionTypeInfo_InjectParameterInfo*)>(
         &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::_ConvertConstructor_b__1_0)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4b57f2c;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6c6b3c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,8 +72,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::*)(::System::Reflection::FieldInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::_GetOnlyPropertySetter_b__8_1)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4b57f44;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c6b3dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b57f68;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c6b3fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b57fbc;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c6b440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::Internal::ReflectionInfoTypeInfoConverter___c*>::get(),
@@ -193,8 +193,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass0_0::*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass0_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b575f8;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c6aa8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -208,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass0_0::*)(
     ::System::Object*, ::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass0_0::_ConvertMethod_b__0)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b58174;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x6c6b5d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -225,8 +225,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass0_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b58190;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c6b604;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,8 +241,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass0_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b581e4;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c6b648;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -300,8 +300,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass4_0::*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass4_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b579c0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c6ae5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -316,8 +316,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Object* (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass4_0::*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
         &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass4_0::_TryCreateFactoryMethod_b__0)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4b5839c;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x6c6b7dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -332,8 +332,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass4_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b58418;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c6b870;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -348,8 +348,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass4_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b5846c;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c6b8b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -406,8 +406,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57e98;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c6b34c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -421,8 +421,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::*)(
     ::System::Reflection::FieldInfo*)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::_GetOnlyPropertySetter_b__0)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x4b58624;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6c6ba48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -436,8 +436,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::*)(
     ::System::Object*, ::System::Object*)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::_GetOnlyPropertySetter_b__2)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4b586d0;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x6c6bb28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -453,8 +453,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b587b4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c6bc10;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -469,8 +469,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b58808;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c6bc54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -548,8 +548,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_1::*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_1::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b587ac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c6bc0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -563,8 +563,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_1::*)(
     ::System::Reflection::FieldInfo*)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_1::_GetOnlyPropertySetter_b__3)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4b589c0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x6c6bde8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -578,8 +578,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_1::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b589e4;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c6be08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -594,8 +594,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass8_1::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b58a38;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c6be4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -663,8 +663,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57ea0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6c6b350;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -678,8 +678,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::*)(
     ::System::Object*, ::System::Object*)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::_GetSetter_b__0)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4b58bf0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6c6bfe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -695,8 +695,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::*)(
     ::System::Object*, ::System::Object*)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::_GetSetter_b__1)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4b58c0c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x6c6bff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -712,8 +712,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (*)(::ArrayW<::System::Object*, ::Array<::System::Object*>*>)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::__zenCreate)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4b58c34;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6c6c01c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -728,8 +728,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo* (*)()>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter___c__DisplayClass9_0::__zenCreateInjectTypeInfo)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4b58c88;
+  constexpr static std::size_t size = 0x194;
+  constexpr static std::size_t addrs = 0x6c6c060;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -808,7 +808,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::InjectTypeInfo_InjectMethodInfo* (*)(::Zenject::Internal::ReflectionTypeInfo_InjectMethodInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertMethod)> {
   constexpr static std::size_t size = 0x200;
-  constexpr static std::size_t addrs = 0x4b573f8;
+  constexpr static std::size_t addrs = 0x6c6a88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -823,8 +823,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::InjectTypeInfo_InjectConstructorInfo* (*)(::Zenject::Internal::ReflectionTypeInfo_InjectConstructorInfo*, ::System::Type*)>(
         &::Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertConstructor)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x4b54dec;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x6c6830c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -839,8 +839,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
     ::Zenject::InjectTypeInfo_InjectMemberInfo* (*)(::System::Type*, ::Zenject::Internal::ReflectionTypeInfo_InjectFieldInfo*)>(&::Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertField)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4b5504c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6c685ac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -856,8 +856,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::Zenject::InjectTypeInfo_InjectMemberInfo* (*)(::System::Type*, ::Zenject::Internal::ReflectionTypeInfo_InjectPropertyInfo*)>(
         &::Zenject::Internal::ReflectionInfoTypeInfoConverter::ConvertProperty)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4b550d8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6c68630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -872,8 +872,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenFactoryMethod* (*)(::System::Type*, ::Zenject::Internal::ReflectionTypeInfo_InjectConstructorInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateFactoryMethod)> {
-  constexpr static std::size_t size = 0x1c0;
-  constexpr static std::size_t addrs = 0x4b57608;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x6c6aa98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -889,7 +889,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenFactoryMethod* (*)(::System::Type*, ::System::Reflection::ConstructorInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateFactoryMethodCompiledLambdaExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b579c8;
+  constexpr static std::size_t addrs = 0x6c6ae60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -906,7 +906,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenInjectMethod* (*)(::System::Reflection::MethodInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::TryCreateActionForMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57600;
+  constexpr static std::size_t addrs = 0x6c6aa90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -921,8 +921,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Generic::IEnumerable_1<::System::Reflection::FieldInfo*>* (*)(::System::Type*, ::System::Reflection::BindingFlags)>(
         &::Zenject::Internal::ReflectionInfoTypeInfoConverter::GetAllFields)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x4b579d0;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x6c6ae68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -937,8 +937,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenMemberSetterMethod* (*)(::System::Type*, ::StringW)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::GetOnlyPropertySetter)> {
-  constexpr static std::size_t size = 0x368;
-  constexpr static std::size_t addrs = 0x4b57b30;
+  constexpr static std::size_t size = 0x394;
+  constexpr static std::size_t addrs = 0x6c6afb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -952,8 +952,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenMemberSetterMethod* (*)(::System::Type*, ::System::Reflection::MemberInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::GetSetter)> {
-  constexpr static std::size_t size = 0x1f8;
-  constexpr static std::size_t addrs = 0x4b577c8;
+  constexpr static std::size_t size = 0x1f0;
+  constexpr static std::size_t addrs = 0x6c6ac6c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -969,7 +969,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Zenject::ZenMemberSetterMethod* (*)(::System::Type*, ::System::Reflection::MemberInfo*)>(
     &::Zenject::Internal::ReflectionInfoTypeInfoConverter::TryGetSetterAsCompiledExpression)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b57ea8;
+  constexpr static std::size_t addrs = 0x6c6b354;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

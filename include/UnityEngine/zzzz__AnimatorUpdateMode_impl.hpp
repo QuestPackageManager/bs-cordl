@@ -8,5 +8,5 @@ constexpr ::UnityEngine::AnimatorUpdateMode::AnimatorUpdateMode(int32_t value__)
 // Ctor Parameters []
 constexpr ::UnityEngine::AnimatorUpdateMode::AnimatorUpdateMode() {}
 constexpr ::UnityEngine::AnimatorUpdateMode UnityEngine::AnimatorUpdateMode::Normal{ static_cast<int32_t>(0x0) };
-constexpr ::UnityEngine::AnimatorUpdateMode UnityEngine::AnimatorUpdateMode::AnimatePhysics{ static_cast<int32_t>(0x1) };
+constexpr ::UnityEngine::AnimatorUpdateMode UnityEngine::AnimatorUpdateMode::Fixed{ static_cast<int32_t>(0x1) };
 constexpr ::UnityEngine::AnimatorUpdateMode UnityEngine::AnimatorUpdateMode::UnscaledTime{ static_cast<int32_t>(0x2) };

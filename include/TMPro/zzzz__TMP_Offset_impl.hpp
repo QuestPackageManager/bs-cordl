@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5db8;
+  constexpr static std::size_t addrs = 0x6729fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_left",
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_left)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5dc0;
+  constexpr static std::size_t addrs = 0x6729fd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5dc8;
+  constexpr static std::size_t addrs = 0x6729fe0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_right",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_right)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5dd0;
+  constexpr static std::size_t addrs = 0x6729fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5dd8;
+  constexpr static std::size_t addrs = 0x6729ff0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_top",
@@ -74,7 +74,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_top)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5de0;
+  constexpr static std::size_t addrs = 0x6729ff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -88,7 +88,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5de8;
+  constexpr static std::size_t addrs = 0x672a000;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_bottom",
@@ -101,7 +101,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_bottom)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5df0;
+  constexpr static std::size_t addrs = 0x672a008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -115,7 +115,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_horizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5df8;
+  constexpr static std::size_t addrs = 0x672a010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_horizontal",
@@ -128,7 +128,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_horizontal)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5e00;
+  constexpr static std::size_t addrs = 0x672a018;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -142,7 +142,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::get_vertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5e08;
+  constexpr static std::size_t addrs = 0x672a020;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_vertical",
@@ -155,7 +155,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t)>(&::TMPro::TMP_Offset::set_vertical)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47c5e10;
+  constexpr static std::size_t addrs = 0x672a028;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -168,8 +168,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Offset (*)()>(&::TMPro::TMP_Offset::get_zero)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x47c5e18;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x672a030;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_Offset>::get(), "get_zero",
@@ -182,7 +182,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t, float_t, float_t, float_t)>(&::TMPro::TMP_Offset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47c5e74;
+  constexpr static std::size_t addrs = 0x672a090;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,7 +197,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_Offset::*)(float_t, float_t)>(&::TMPro::TMP_Offset::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x47c5e80;
+  constexpr static std::size_t addrs = 0x672a09c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -211,7 +211,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::TMPro::TMP_Offset, ::TMPro::TMP_Offset)>(&::TMPro::TMP_Offset::op_Equality)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x47c5e8c;
+  constexpr static std::size_t addrs = 0x672a0a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -225,8 +225,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::TMPro::TMP_Offset, ::TMPro::TMP_Offset)>(&::TMPro::TMP_Offset::op_Inequality)> {
-  constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x47c5eb4;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x672a0d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -241,7 +241,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::TMPro::TMP_Offset (*)(::TMPro::TMP_Offset, float_t)>(&::TMPro::TMP_Offset::op_Multiply)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x47c5f64;
+  constexpr static std::size_t addrs = 0x672a184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -256,7 +256,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::TMPro::TMP_Offset::*)()>(&::TMPro::TMP_Offset::GetHashCode)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x47c5f78;
+  constexpr static std::size_t addrs = 0x672a198;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,8 +269,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Offset::*)(::System::Object*)>(&::TMPro::TMP_Offset::Equals)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x47c5fdc;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x672a1fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -283,8 +283,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::TMPro::TMP_Offset::*)(::TMPro::TMP_Offset)>(&::TMPro::TMP_Offset::Equals)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47c6054;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x672a26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

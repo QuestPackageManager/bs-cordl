@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::UnityEngine::Timeline::CustomSignalEventDrawer* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4825f18, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x67a6764, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,12 +38,12 @@ public:
   CustomSignalEventDrawer(CustomSignalEventDrawer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15858 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18852 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::CustomSignalEventDrawer, 0x10>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::CustomSignalEventDrawer, 0x18>, "Size mismatch!");
 
 } // namespace UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::CustomSignalEventDrawer);

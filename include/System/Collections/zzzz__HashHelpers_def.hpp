@@ -36,20 +36,20 @@ public:
                       put = setStaticF_s_serializationInfoTable)) ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>*
       s_serializationInfoTable;
 
-  /// @brief Method ExpandPrime, addr 0x3db9098, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method ExpandPrime, addr 0x59ccdf4, size 0x88, virtual false, abstract: false, final false
   static inline int32_t ExpandPrime(int32_t oldSize);
 
-  /// @brief Method GetPrime, addr 0x3db8f10, size 0x188, virtual false, abstract: false, final false
+  /// @brief Method GetPrime, addr 0x59ccc6c, size 0x188, virtual false, abstract: false, final false
   static inline int32_t GetPrime(int32_t min);
 
-  /// @brief Method IsPrime, addr 0x3db8e58, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method IsPrime, addr 0x59ccbc4, size 0xa8, virtual false, abstract: false, final false
   static inline bool IsPrime(int32_t candidate);
 
   static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_primes();
 
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* getStaticF_s_serializationInfoTable();
 
-  /// @brief Method get_SerializationInfoTable, addr 0x3db911c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method get_SerializationInfoTable, addr 0x59cce7c, size 0xe8, virtual false, abstract: false, final false
   static inline ::System::Runtime::CompilerServices::ConditionalWeakTable_2<::System::Object*, ::System::Runtime::Serialization::SerializationInfo*>* get_SerializationInfoTable();
 
   static inline void setStaticF_primes(::ArrayW<int32_t, ::Array<int32_t>*> value);
@@ -71,7 +71,7 @@ public:
   HashHelpers(HashHelpers const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3761 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3686 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

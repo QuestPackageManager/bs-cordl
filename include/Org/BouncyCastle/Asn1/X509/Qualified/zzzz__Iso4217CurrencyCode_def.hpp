@@ -4,7 +4,6 @@
 #include "../../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "Org/BouncyCastle/Asn1/zzzz__Asn1Encodable_def.hpp"
-#include "Org/BouncyCastle/Asn1/zzzz__IAsn1Choice_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(Iso4217CurrencyCode)
@@ -13,6 +12,9 @@ class Asn1Encodable;
 }
 namespace Org::BouncyCastle::Asn1 {
 class Asn1Object;
+}
+namespace Org::BouncyCastle::Asn1 {
+class IAsn1Choice;
 }
 namespace System {
 class Object;
@@ -23,7 +25,7 @@ class Iso4217CurrencyCode;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode);
-// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable, Org.BouncyCastle.Asn1.IAsn1Choice
+// Dependencies Org.BouncyCastle.Asn1.Asn1Encodable
 namespace Org::BouncyCastle::Asn1::X509::Qualified {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Asn1.X509.Qualified.Iso4217CurrencyCode
@@ -42,14 +44,14 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Asn1::IAsn1Choice"
   constexpr operator ::Org::BouncyCastle::Asn1::IAsn1Choice*() noexcept;
 
-  /// @brief Method GetInstance, addr 0x2502138, size 0x1e8, virtual false, abstract: false, final false
+  /// @brief Method GetInstance, addr 0x3431e40, size 0x1e0, virtual false, abstract: false, final false
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* GetInstance(::System::Object* obj);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(::StringW alphabetic);
 
   static inline ::Org::BouncyCastle::Asn1::X509::Qualified::Iso4217CurrencyCode* New_ctor(int32_t numeric);
 
-  /// @brief Method ToAsn1Object, addr 0x25027b0, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method ToAsn1Object, addr 0x343247c, size 0x1c, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
 
   constexpr ::Org::BouncyCastle::Asn1::Asn1Encodable* const& __cordl_internal_get_obj() const;
@@ -58,19 +60,19 @@ public:
 
   constexpr void __cordl_internal_set_obj(::Org::BouncyCastle::Asn1::Asn1Encodable* value);
 
-  /// @brief Method .ctor, addr 0x2502538, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3432204, size 0xf0, virtual false, abstract: false, final false
   inline void _ctor(::StringW alphabetic);
 
-  /// @brief Method .ctor, addr 0x2502320, size 0x218, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3432020, size 0x1e4, virtual false, abstract: false, final false
   inline void _ctor(int32_t numeric);
 
-  /// @brief Method get_Alphabetic, addr 0x25026b0, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Alphabetic, addr 0x3432374, size 0x84, virtual false, abstract: false, final false
   inline ::StringW get_Alphabetic();
 
-  /// @brief Method get_IsAlphabetic, addr 0x2502634, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method get_IsAlphabetic, addr 0x34322f4, size 0x80, virtual false, abstract: false, final false
   inline bool get_IsAlphabetic();
 
-  /// @brief Method get_Numeric, addr 0x2502730, size 0x80, virtual false, abstract: false, final false
+  /// @brief Method get_Numeric, addr 0x34323f8, size 0x84, virtual false, abstract: false, final false
   inline int32_t get_Numeric();
 
   /// @brief Convert to "::Org::BouncyCastle::Asn1::IAsn1Choice"

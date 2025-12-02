@@ -3,15 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TweenRunner_1)
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -32,7 +35,7 @@ template <typename T> class TweenRunner_1__Start_d__2;
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UI::CoroutineTween::TweenRunner_1);
 MARK_GEN_REF_PTR_T(::UnityEngine::UI::CoroutineTween::TweenRunner_1__Start_d__2);
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::UI::CoroutineTween {
 // cpp template
 template <typename T>
@@ -134,7 +137,7 @@ public:
   TweenRunner_1__Start_d__2(TweenRunner_1__Start_d__2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15172 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17480 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -213,7 +216,7 @@ public:
   TweenRunner_1(TweenRunner_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15173 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17481 };
 
   /// @brief Field m_CoroutineContainer, offset: 0x10, size: 0x8, def value: None
   ::UnityW<::UnityEngine::MonoBehaviour> ___m_CoroutineContainer;

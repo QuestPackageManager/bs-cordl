@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__ISubContainerCreator_def.hpp"
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefab)
 namespace System::Collections::Generic {
 template <typename T> class List_1;
@@ -19,6 +18,9 @@ namespace Zenject {
 class IPrefabProvider;
 }
 namespace Zenject {
+class ISubContainerCreator;
+}
+namespace Zenject {
 class InjectContext;
 }
 namespace Zenject {
@@ -30,7 +32,7 @@ class SubContainerCreatorByNewPrefab;
 }
 // Write type traits
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefab);
-// Dependencies System.Object, Zenject.ISubContainerCreator
+// Dependencies System.Object
 namespace Zenject {
 // Is value type: false
 // CS Name: Zenject.SubContainerCreatorByNewPrefab
@@ -49,7 +51,7 @@ public:
   /// @brief Convert operator to "::Zenject::ISubContainerCreator"
   constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x4b42080, size 0x1a4, virtual true, abstract: false, final true
+  /// @brief Method CreateSubContainer, addr 0x6c55e24, size 0x1b4, virtual true, abstract: false, final true
   inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
 
   static inline ::Zenject::SubContainerCreatorByNewPrefab* New_ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
@@ -73,7 +75,7 @@ public:
 
   constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
 
-  /// @brief Method .ctor, addr 0x4b42044, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c55e18, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
 
   /// @brief Convert to "::Zenject::ISubContainerCreator"
@@ -94,7 +96,7 @@ public:
   SubContainerCreatorByNewPrefab(SubContainerCreatorByNewPrefab const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12615 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14596 };
 
   /// @brief Field _gameObjectBindInfo, offset: 0x10, size: 0x8, def value: None
   ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;

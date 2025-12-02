@@ -17,8 +17,8 @@ constexpr ::HMUI::TimeSlider_TimeType HMUI::TimeSlider_TimeType::Normalized{ sta
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TimeSlider::*)(bool, float_t, float_t)>(&::HMUI::TimeSlider::SetBounds)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x39f2ad8;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x566ad34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::HMUI::TimeSlider::*)(float_t)>(&::HMUI::TimeSlider::TextForValue)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x39f2aec;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x566ad44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::TimeSpan)>(&::HMUI::TimeSlider::FormatTimeSpan)> {
-  constexpr static std::size_t size = 0x154;
-  constexpr static std::size_t addrs = 0x39f2d3c;
+  constexpr static std::size_t size = 0x25c;
+  constexpr static std::size_t addrs = 0x566afa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::TimeSlider::*)()>(&::HMUI::TimeSlider::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39f2e90;
+  constexpr static std::size_t addrs = 0x566b1fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::TimeSlider*>::get(), ".ctor",

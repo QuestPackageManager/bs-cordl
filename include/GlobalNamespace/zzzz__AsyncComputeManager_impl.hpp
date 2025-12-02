@@ -1,20 +1,20 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/AsyncComputeManager.hpp"
-#include "GlobalNamespace/zzzz__IAsyncComputeManager_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeManager_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_1_def.hpp"
 #include "GlobalNamespace/zzzz__AsyncComputeOperation_def.hpp"
+#include "GlobalNamespace/zzzz__IAsyncComputeManager_def.hpp"
 #include "System/Collections/Concurrent/zzzz__BlockingCollection_1_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__Thread_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::AsyncComputeManager._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)()>(&::GlobalNamespace::AsyncComputeManager::_ctor)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x22b930c;
+  constexpr static std::size_t size = 0x150;
+  constexpr static std::size_t addrs = 0x3200318;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(), ".ctor",
@@ -26,8 +26,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)()>(&::GlobalNamespace::AsyncComputeManager::Dispose)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22b944c;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x3200468;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(), "Dispose",
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)(::GlobalNamespace::AsyncComputeOperation*)>(
     &::GlobalNamespace::AsyncComputeManager::BeginOperation)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x22b94b4;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x32004d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AsyncComputeManager::*)()>(&::GlobalNamespace::AsyncComputeManager::ComputeThreadRun)> {
-  constexpr static std::size_t size = 0x160;
-  constexpr static std::size_t addrs = 0x22b950c;
+  constexpr static std::size_t size = 0x170;
+  constexpr static std::size_t addrs = 0x320054c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AsyncComputeManager*>::get(),

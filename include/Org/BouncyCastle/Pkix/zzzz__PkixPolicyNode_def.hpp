@@ -69,26 +69,26 @@ public:
   /// @brief Field mValidPolicy, offset 0x38, size 0x8
   __declspec(property(get = __cordl_internal_get_mValidPolicy, put = __cordl_internal_set_mValidPolicy)) ::StringW mValidPolicy;
 
-  /// @brief Method AddChild, addr 0x25905d4, size 0xc8, virtual true, abstract: false, final false
+  /// @brief Method AddChild, addr 0x34bf438, size 0xd4, virtual true, abstract: false, final false
   inline void AddChild(::Org::BouncyCastle::Pkix::PkixPolicyNode* child);
 
-  /// @brief Method Clone, addr 0x2590c44, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method Clone, addr 0x34bfaa4, size 0x10, virtual true, abstract: false, final false
   inline ::System::Object* Clone();
 
-  /// @brief Method Copy, addr 0x2590c54, size 0x458, virtual true, abstract: false, final false
+  /// @brief Method Copy, addr 0x34bfab4, size 0x438, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* Copy();
 
   static inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* New_ctor(::System::Collections::IList* children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet* expectedPolicies,
                                                                     ::Org::BouncyCastle::Pkix::PkixPolicyNode* parent, ::Org::BouncyCastle::Utilities::Collections::ISet* policyQualifiers,
                                                                     ::StringW validPolicy, bool critical);
 
-  /// @brief Method RemoveChild, addr 0x259069c, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method RemoveChild, addr 0x34bf50c, size 0xb8, virtual true, abstract: false, final false
   inline void RemoveChild(::Org::BouncyCastle::Pkix::PkixPolicyNode* child);
 
-  /// @brief Method ToString, addr 0x2590748, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34bf5c4, size 0x58, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x259079c, size 0x4a8, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x34bf61c, size 0x488, virtual true, abstract: false, final false
   inline ::StringW ToString(::StringW indent);
 
   constexpr ::System::Collections::IList* const& __cordl_internal_get_mChildren() const;
@@ -133,41 +133,41 @@ public:
 
   constexpr void __cordl_internal_set_mValidPolicy(::StringW value);
 
-  /// @brief Method .ctor, addr 0x2574a18, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x34a425c, size 0xcc, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::IList* children, int32_t depth, ::Org::BouncyCastle::Utilities::Collections::ISet* expectedPolicies, ::Org::BouncyCastle::Pkix::PkixPolicyNode* parent,
                     ::Org::BouncyCastle::Utilities::Collections::ISet* policyQualifiers, ::StringW validPolicy, bool critical);
 
-  /// @brief Method get_Children, addr 0x2590370, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_Children, addr 0x34bf1c4, size 0x64, virtual true, abstract: false, final false
   inline ::System::Collections::IEnumerable* get_Children();
 
-  /// @brief Method get_Depth, addr 0x2590368, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Depth, addr 0x34bf1bc, size 0x8, virtual true, abstract: false, final false
   inline int32_t get_Depth();
 
-  /// @brief Method get_ExpectedPolicies, addr 0x25904fc, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_ExpectedPolicies, addr 0x34bf358, size 0x64, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_ExpectedPolicies();
 
-  /// @brief Method get_HasChildren, addr 0x259044c, size 0xb0, virtual true, abstract: false, final false
+  /// @brief Method get_HasChildren, addr 0x34bf2a4, size 0xb4, virtual true, abstract: false, final false
   inline bool get_HasChildren();
 
-  /// @brief Method get_IsCritical, addr 0x25903d0, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsCritical, addr 0x34bf228, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsCritical();
 
-  /// @brief Method get_Parent, addr 0x25905c4, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Parent, addr 0x34bf428, size 0x8, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Pkix::PkixPolicyNode* get_Parent();
 
-  /// @brief Method get_PolicyQualifiers, addr 0x25903e4, size 0x60, virtual true, abstract: false, final false
+  /// @brief Method get_PolicyQualifiers, addr 0x34bf238, size 0x64, virtual true, abstract: false, final false
   inline ::Org::BouncyCastle::Utilities::Collections::ISet* get_PolicyQualifiers();
 
-  /// @brief Method get_ValidPolicy, addr 0x2590444, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_ValidPolicy, addr 0x34bf29c, size 0x8, virtual true, abstract: false, final false
   inline ::StringW get_ValidPolicy();
 
-  /// @brief Method set_ExpectedPolicies, addr 0x259055c, size 0x68, virtual true, abstract: false, final false
+  /// @brief Method set_ExpectedPolicies, addr 0x34bf3bc, size 0x6c, virtual true, abstract: false, final false
   inline void set_ExpectedPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
 
-  /// @brief Method set_IsCritical, addr 0x25903d8, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method set_IsCritical, addr 0x34bf230, size 0x8, virtual true, abstract: false, final false
   inline void set_IsCritical(bool value);
 
-  /// @brief Method set_Parent, addr 0x25905cc, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method set_Parent, addr 0x34bf430, size 0x8, virtual true, abstract: false, final false
   inline void set_Parent(::Org::BouncyCastle::Pkix::PkixPolicyNode* value);
 
 protected:

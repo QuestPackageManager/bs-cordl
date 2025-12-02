@@ -3,15 +3,25 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
-#include "Zenject/zzzz__IFactory_9_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_9_def.hpp"
-#include "Zenject/zzzz__IMemoryPool_def.hpp"
 #include "Zenject/zzzz__MemoryPoolBase_1_def.hpp"
 CORDL_MODULE_EXPORT(MemoryPool_9)
 namespace System {
 class Object;
+}
+namespace Zenject {
+template <typename TValue> class IDespawnableMemoryPool_1;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue> class IFactory_9;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue> class IMemoryPool_9;
+}
+namespace Zenject {
+class IMemoryPool;
 }
 namespace Zenject {
 class InjectTypeInfo;
@@ -22,8 +32,7 @@ template <typename TParam1, typename TParam2, typename TParam3, typename TParam4
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::MemoryPool_9);
-// Dependencies Zenject.IDespawnableMemoryPool`1<TValue>, Zenject.IFactory, Zenject.IFactory`9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>, Zenject.IMemoryPool,
-// Zenject.IMemoryPool`9<TParam1, TParam2, TParam3, TParam4, TParam5, TParam6, TParam7, TParam8, TValue>, Zenject.MemoryPoolBase`1<TContract>
+// Dependencies Zenject.MemoryPoolBase`1<TContract>
 namespace Zenject {
 // cpp template
 template <typename TParam1, typename TParam2, typename TParam3, typename TParam4, typename TParam5, typename TParam6, typename TParam7, typename TParam8, typename TValue>
@@ -100,7 +109,7 @@ public:
   MemoryPool_9(MemoryPool_9 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12388 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14369 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

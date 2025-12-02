@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::DigestHeaderParser::*)(::StringW)>(&::System::Net::DigestHeaderParser::_ctor)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x44bd3bc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x620c488;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -21,7 +21,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Realm)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x44bd470;
+  constexpr static std::size_t addrs = 0x620c538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Realm",
@@ -34,7 +34,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Opaque)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd498;
+  constexpr static std::size_t addrs = 0x620c560;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Opaque",
@@ -47,7 +47,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Nonce)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd4c4;
+  constexpr static std::size_t addrs = 0x620c58c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Nonce",
@@ -60,7 +60,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_Algorithm)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd4f0;
+  constexpr static std::size_t addrs = 0x620c5b8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_Algorithm",
@@ -73,7 +73,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::get_QOP)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x44bd51c;
+  constexpr static std::size_t addrs = 0x620c5e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "get_QOP",
@@ -85,8 +85,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::Parse)> {
-  constexpr static std::size_t size = 0x198;
-  constexpr static std::size_t addrs = 0x44bd548;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x620c610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "Parse",
@@ -98,8 +98,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::SkipWhitespace)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x44bd870;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x620c948;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "SkipWhitespace",
@@ -112,7 +112,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Net::DigestHeaderParser::*)()>(&::System::Net::DigestHeaderParser::GetKey)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x44bd8f0;
+  constexpr static std::size_t addrs = 0x620c9e0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::DigestHeaderParser*>::get(), "GetKey",
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Net::DigestHeaderParser::*)(::ByRef<::StringW>, ::ByRef<::StringW>)>(
     &::System::Net::DigestHeaderParser::GetKeywordAndValue)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x44bd6e0;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x620c7c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

@@ -30,18 +30,18 @@ public:
   /// @brief Field _textComponent, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get__textComponent, put = __cordl_internal_set__textComponent)) ::UnityW<::TMPro::TMP_Text> _textComponent;
 
-  /// @brief Method HandleTextChanged, addr 0x3baabc4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method HandleTextChanged, addr 0x5799adc, size 0x8c, virtual false, abstract: false, final false
   inline void HandleTextChanged(::UnityEngine::Object* obj);
 
   static inline ::GlobalNamespace::SyncText* New_ctor();
 
-  /// @brief Method OnDisable, addr 0x3baaaf4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method OnDisable, addr 0x5799a04, size 0xd8, virtual false, abstract: false, final false
   inline void OnDisable();
 
-  /// @brief Method OnEnable, addr 0x3baa838, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5799730, size 0xe0, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method UpdateText, addr 0x3baa910, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method UpdateText, addr 0x5799810, size 0x1f4, virtual false, abstract: false, final false
   inline void UpdateText();
 
   constexpr ::UnityW<::TMPro::TMP_Text> const& __cordl_internal_get__otherTextComponent() const;
@@ -56,7 +56,7 @@ public:
 
   constexpr void __cordl_internal_set__textComponent(::UnityW<::TMPro::TMP_Text> value);
 
-  /// @brief Method .ctor, addr 0x3baac4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5799b68, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -74,7 +74,7 @@ public:
   SyncText(SyncText const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4426 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6008 };
 
   /// @brief Field _otherTextComponent, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::TMPro::TMP_Text> ____otherTextComponent;

@@ -42,13 +42,13 @@ public:
   /// @brief Method Translate, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Security::Principal::IdentityReference* Translate(::System::Type* targetType);
 
-  /// @brief Method .ctor, addr 0x3cb91a8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58fced0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_Value, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
-  /// @brief Method op_Equality, addr 0x3cb91b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x58fced4, size 0x64, virtual false, abstract: false, final false
   static inline bool op_Equality(::System::Security::Principal::IdentityReference* left, ::System::Security::Principal::IdentityReference* right);
 
 protected:
@@ -66,7 +66,7 @@ public:
   IdentityReference(IdentityReference const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2999 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3016 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

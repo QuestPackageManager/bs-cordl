@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Agreement/Kdf/ECDHKekGenerator.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDerivationFunction_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Agreement/Kdf/zzzz__ECDHKekGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/zzzz__DerObjectIdentifier_def.hpp"
@@ -12,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)(::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x268b868;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x35bacdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)(
     ::Org::BouncyCastle::Crypto::IDerivationParameters*)>(&::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::Init)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x268b8dc;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x35bad44;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::get_Digest)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x268b974;
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x35bade8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::*)(
     ::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(&::Org::BouncyCastle::Crypto::Agreement::Kdf::ECDHKekGenerator::GenerateBytes)> {
-  constexpr static std::size_t size = 0x310;
-  constexpr static std::size_t addrs = 0x268ba18;
+  constexpr static std::size_t size = 0x32c;
+  constexpr static std::size_t addrs = 0x35bae90;
 
   inline static ::MethodInfo const* methodInfo() {
 

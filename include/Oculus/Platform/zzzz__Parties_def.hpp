@@ -30,10 +30,10 @@ namespace Oculus::Platform {
 class CORDL_TYPE Parties : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method GetCurrent, addr 0x3f8b608, size 0x150, virtual false, abstract: false, final false
+  /// @brief Method GetCurrent, addr 0x5bd58a8, size 0x158, virtual false, abstract: false, final false
   static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent();
 
-  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x3f8b758, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x5bd5a00, size 0x7c, virtual false, abstract: false, final false
   static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::Message_1_Callback<::Oculus::Platform::Models::PartyUpdateNotification*>* callback);
 
 protected:
@@ -51,7 +51,7 @@ public:
   Parties(Parties const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15459 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17919 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

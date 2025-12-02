@@ -3,15 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/UI/zzzz__ILayoutController_def.hpp"
 CORDL_MODULE_EXPORT(ILayoutSelfController)
+namespace UnityEngine::UI {
+class ILayoutController;
+}
 // Forward declare root types
 namespace UnityEngine::UI {
 class ILayoutSelfController;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UI::ILayoutSelfController);
-// Dependencies UnityEngine.UI.ILayoutController
+// Dependencies
 namespace UnityEngine::UI {
 // Is value type: false
 // CS Name: UnityEngine.UI.ILayoutSelfController
@@ -29,7 +31,7 @@ public:
   ILayoutSelfController(ILayoutSelfController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15103 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17411 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

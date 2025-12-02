@@ -34,10 +34,10 @@ public:
   /// @brief Field m_skipSize, offset 0x18, size 0x4
   __declspec(property(get = __cordl_internal_get_m_skipSize, put = __cordl_internal_set_m_skipSize)) int32_t m_skipSize;
 
-  /// @brief Method IsLegal, addr 0x3c9ead4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method IsLegal, addr 0x58e2900, size 0x44, virtual false, abstract: false, final false
   inline bool IsLegal(int32_t keySize);
 
-  /// @brief Method IsLegalKeySize, addr 0x3c9eb20, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method IsLegalKeySize, addr 0x58e2944, size 0x98, virtual false, abstract: false, final false
   static inline bool IsLegalKeySize(::ArrayW<::System::Security::Cryptography::KeySizes*, ::Array<::System::Security::Cryptography::KeySizes*>*> legalKeys, int32_t size);
 
   static inline ::System::Security::Cryptography::KeySizes* New_ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
@@ -60,16 +60,16 @@ public:
 
   constexpr void __cordl_internal_set_m_skipSize(int32_t value);
 
-  /// @brief Method .ctor, addr 0x3c9e880, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58e26e0, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(int32_t minSize, int32_t maxSize, int32_t skipSize);
 
-  /// @brief Method get_MaxSize, addr 0x3c9eac4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MaxSize, addr 0x58e28f0, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MaxSize();
 
-  /// @brief Method get_MinSize, addr 0x3c9eabc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_MinSize, addr 0x58e28e8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_MinSize();
 
-  /// @brief Method get_SkipSize, addr 0x3c9eacc, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_SkipSize, addr 0x58e28f8, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_SkipSize();
 
 protected:
@@ -87,7 +87,7 @@ public:
   KeySizes(KeySizes const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2922 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2939 };
 
   /// @brief Field m_minSize, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_minSize;

@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "BeatSaber/BeatAvatarSDK/AvatarPartSO_1.hpp"
-#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_impl.hpp"
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_impl.hpp"
 #include "BeatSaber/BeatAvatarSDK/zzzz__AvatarPartSO_1_def.hpp"
+#include "BeatSaber/BeatAvatarSDK/zzzz__IAvatarPart_def.hpp"
 template <typename T> constexpr ::StringW& BeatSaber::BeatAvatarSDK::AvatarPartSO_1<T>::__cordl_internal_get__id() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____id;

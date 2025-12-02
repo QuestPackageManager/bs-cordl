@@ -50,13 +50,13 @@ public:
 
   static inline ::AddressablesInternalBridge::Runtime::Extensions___c* New_ctor();
 
-  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_0, addr 0x44dce00, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_0, addr 0x622c450, size 0x14, virtual false, abstract: false, final false
   inline bool _GetUpdateableCatalogLocationDatas_b__1_0(::UnityEngine::AddressableAssets::ResourceLocatorInfo* locatorInfo);
 
-  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_1, addr 0x44dcfb8, size 0xfc, virtual false, abstract: false, final false
+  /// @brief Method <GetUpdateableCatalogLocationDatas>b__1_1, addr 0x622c610, size 0xec, virtual false, abstract: false, final false
   inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* _GetUpdateableCatalogLocationDatas_b__1_1(::UnityEngine::AddressableAssets::ResourceLocatorInfo* locatorInfo);
 
-  /// @brief Method .ctor, addr 0x44dcdf8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x622c44c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::AddressablesInternalBridge::Runtime::Extensions___c* getStaticF___9();
@@ -86,7 +86,7 @@ public:
   Extensions___c(Extensions___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16140 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19464 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -103,10 +103,10 @@ public:
   // Declarations
   using __c = ::AddressablesInternalBridge::Runtime::Extensions___c;
 
-  /// @brief Method GetCatalogLocationData, addr 0x44dc858, size 0xb4, virtual false, abstract: false, final false
+  /// @brief Method GetCatalogLocationData, addr 0x622bf00, size 0xb8, virtual false, abstract: false, final false
   static inline ::AddressablesInternalBridge::Runtime::CatalogLocationData* GetCatalogLocationData(::StringW locatorId);
 
-  /// @brief Method GetUpdateableCatalogLocationDatas, addr 0x44dcbc0, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method GetUpdateableCatalogLocationDatas, addr 0x622c1fc, size 0x1fc, virtual false, abstract: false, final false
   static inline ::System::Collections::Generic::IEnumerable_1<::AddressablesInternalBridge::Runtime::CatalogLocationData*>* GetUpdateableCatalogLocationDatas();
 
 protected:
@@ -124,7 +124,7 @@ public:
   Extensions(Extensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16141 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19465 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

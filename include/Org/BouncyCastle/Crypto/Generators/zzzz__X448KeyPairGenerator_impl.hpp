@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Generators/X448KeyPairGenerator.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Generators/zzzz__X448KeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__AsymmetricCipherKeyPair_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__IAsymmetricCipherKeyPairGenerator_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__KeyGenerationParameters_def.hpp"
 #include "Org/BouncyCastle/Security/zzzz__SecureRandom_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator.Init
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator::*)(
     ::Org::BouncyCastle::Crypto::KeyGenerationParameters*)>(&::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator::Init)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x2391584;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x32bf0d8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* (
     ::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator::*)()>(&::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator::GenerateKeyPair)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23915a0;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x32bf0f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator::*)()>(
     &::Org::BouncyCastle::Crypto::Generators::X448KeyPairGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x239164c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x32bf1a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

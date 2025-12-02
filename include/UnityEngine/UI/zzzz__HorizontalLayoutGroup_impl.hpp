@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalLayoutGroup::*)()>(&::UnityEngine::UI::HorizontalLayoutGroup::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aba21c;
+  constexpr static std::size_t addrs = 0x6bc6564;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UI::HorizontalLayoutGroup*>::get(), ".ctor",
@@ -21,7 +21,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalLayoutGroup::CalculateLayoutInputHorizontal)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4aba234;
+  constexpr static std::size_t addrs = 0x6bc657c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalLayoutGroup::CalculateLayoutInputVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aba4f4;
+  constexpr static std::size_t addrs = 0x6bc684c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -51,7 +51,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalLayoutGroup::*)()>(
     &::UnityEngine::UI::HorizontalLayoutGroup::SetLayoutHorizontal)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4aba500;
+  constexpr static std::size_t addrs = 0x6bc6858;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -65,7 +65,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UI::HorizontalLayoutGroup::*)()>(&::UnityEngine::UI::HorizontalLayoutGroup::SetLayoutVertical)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4abab5c;
+  constexpr static std::size_t addrs = 0x6bc6ea8;
 
   inline static ::MethodInfo const* methodInfo() {
 

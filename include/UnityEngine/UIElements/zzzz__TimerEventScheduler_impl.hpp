@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/UIElements/TimerEventScheduler.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "UnityEngine/UIElements/zzzz__IScheduler_impl.hpp"
 #include "UnityEngine/UIElements/zzzz__TimerEventScheduler_def.hpp"
 #include "System/Collections/Generic/zzzz__HashSet_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__IScheduler_def.hpp"
 #include "UnityEngine/UIElements/zzzz__ScheduledItem_def.hpp"
 //  Writing Method size for method: ::UnityEngine::UIElements::TimerEventScheduler.Schedule
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::Schedule)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x4a686cc;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x6ba525c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TimerEventScheduler::*)(int32_t)>(
     &::UnityEngine::UIElements::TimerEventScheduler::RemovedScheduledItemAt)> {
-  constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x4a68884;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6ba5428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::Unschedule)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x4a68900;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x6ba54b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::TimerEventScheduler::*)(::UnityEngine::UIElements::ScheduledItem*)>(
     &::UnityEngine::UIElements::TimerEventScheduler::PrivateUnSchedule)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x4a68a90;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x6ba5668;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -66,13 +66,42 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::UIElements::TimerEventScheduler.get_FrameCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::UnityEngine::UIElements::TimerEventScheduler::*)()>(
+    &::UnityEngine::UIElements::TimerEventScheduler::get_FrameCount)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba5734;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(),
+                                                                               "get_FrameCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::UIElements::TimerEventScheduler.set_FrameCount
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)(int64_t)>(
+    &::UnityEngine::UIElements::TimerEventScheduler::set_FrameCount)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6ba573c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), "set_FrameCount",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::UIElements::TimerEventScheduler.UpdateScheduledEvents
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)()>(
     &::UnityEngine::UIElements::TimerEventScheduler::UpdateScheduledEvents)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x4a68b30;
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x6ba5744;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(),
@@ -85,7 +114,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::TimerEventScheduler::*)()>(&::UnityEngine::UIElements::TimerEventScheduler::_ctor)> {
   constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x4a68e44;
+  constexpr static std::size_t addrs = 0x6ba5ac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), ".ctor",
@@ -167,6 +196,18 @@ constexpr void UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_se
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   this->___m_LastUpdatedIndex = value;
 }
+constexpr int64_t& UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_frameCount() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___frameCount;
+}
+constexpr int64_t const& UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_get_frameCount() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___frameCount;
+}
+constexpr void UnityEngine::UIElements::TimerEventScheduler::__cordl_internal_set_frameCount(int64_t value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  this->___frameCount = value;
+}
 inline void UnityEngine::UIElements::TimerEventScheduler::Schedule(::UnityEngine::UIElements::ScheduledItem* item) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), "Schedule", std::span<Il2CppClass const* const, 0>(),
@@ -190,6 +231,17 @@ inline bool UnityEngine::UIElements::TimerEventScheduler::PrivateUnSchedule(::Un
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), "PrivateUnSchedule", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::UIElements::ScheduledItem*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, sItem);
+}
+inline int64_t UnityEngine::UIElements::TimerEventScheduler::get_FrameCount() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(),
+                                                                             "get_FrameCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<int64_t, false>(this, ___internal_method);
+}
+inline void UnityEngine::UIElements::TimerEventScheduler::set_FrameCount(int64_t value) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(), "set_FrameCount",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int64_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, value);
 }
 inline void UnityEngine::UIElements::TimerEventScheduler::UpdateScheduledEvents() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::TimerEventScheduler*>::get(),

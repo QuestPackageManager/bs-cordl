@@ -40,49 +40,49 @@ public:
   /// @brief Field privacyPolicyVersion, offset 0x1c, size 0x4
   __declspec(property(get = __cordl_internal_get_privacyPolicyVersion, put = __cordl_internal_set_privacyPolicyVersion)) int32_t privacyPolicyVersion;
 
-  /// @brief Method AgreeToEndOfLifeNotice, addr 0x26f22a0, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEndOfLifeNotice, addr 0x361dd0c, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToEndOfLifeNotice();
 
-  /// @brief Method AgreeToEula, addr 0x26f2258, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AgreeToEula, addr 0x361dcc4, size 0x24, virtual false, abstract: false, final false
   inline void AgreeToEula();
 
-  /// @brief Method AgreeToHealthAndSafety, addr 0x26f2288, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToHealthAndSafety, addr 0x361dcf4, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToHealthAndSafety();
 
-  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x26f2294, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPlayerSensitivityFlag, addr 0x361dd00, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPlayerSensitivityFlag();
 
-  /// @brief Method AgreeToPrivacyPolicy, addr 0x26f227c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreeToPrivacyPolicy, addr 0x361dce8, size 0xc, virtual false, abstract: false, final false
   inline void AgreeToPrivacyPolicy();
 
-  /// @brief Method AgreedToAnyPreviousEula, addr 0x26f22bc, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousEula, addr 0x361dd28, size 0x14, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousEula();
 
-  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x26f22f4, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousHealthAndSafety, addr 0x361dd50, size 0xc, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousHealthAndSafety();
 
-  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x26f2300, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPlayerSensitivityFlag, addr 0x361dd5c, size 0x14, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPlayerSensitivityFlag();
 
-  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x26f22d8, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method AgreedToAnyPreviousPrivacyPolicy, addr 0x361dd3c, size 0x14, virtual false, abstract: false, final false
   inline bool AgreedToAnyPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToEndOfLifeNotice, addr 0x26f235c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToEndOfLifeNotice, addr 0x361ddb0, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToEndOfLifeNotice();
 
-  /// @brief Method AgreedToEula, addr 0x26f231c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToEula, addr 0x361dd70, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToEula();
 
-  /// @brief Method AgreedToHealthAndSafety, addr 0x26f233c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToHealthAndSafety, addr 0x361dd90, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToHealthAndSafety();
 
-  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x26f234c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPlayerSenstivityFlag, addr 0x361dda0, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPlayerSenstivityFlag();
 
-  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x26f22ac, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPreviousPrivacyPolicy, addr 0x361dd18, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPreviousPrivacyPolicy();
 
-  /// @brief Method AgreedToPrivacyPolicy, addr 0x26f232c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method AgreedToPrivacyPolicy, addr 0x361dd80, size 0x10, virtual false, abstract: false, final false
   inline bool AgreedToPrivacyPolicy();
 
   static inline ::GlobalNamespace::PlayerAgreements* New_ctor();
@@ -126,16 +126,16 @@ public:
 
   constexpr void __cordl_internal_set_privacyPolicyVersion(int32_t value);
 
-  /// @brief Method .ctor, addr 0x26f21e8, size 0x20, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361dca8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x26f2208, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x361dcb4, size 0x10, virtual false, abstract: false, final false
   inline void _ctor(int32_t eulaVersion, int32_t privacyPolicyVersion, int32_t healthAndSafetyVersion, int32_t playerSensitivityFlagVersion, int32_t endOfLifeNoticeVersion);
 
-  /// @brief Method add_agreedToEulaEvent, addr 0x26f20b0, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method add_agreedToEulaEvent, addr 0x361db50, size 0xac, virtual false, abstract: false, final false
   inline void add_agreedToEulaEvent(::System::Action* value);
 
-  /// @brief Method remove_agreedToEulaEvent, addr 0x26f214c, size 0x9c, virtual false, abstract: false, final false
+  /// @brief Method remove_agreedToEulaEvent, addr 0x361dbfc, size 0xac, virtual false, abstract: false, final false
   inline void remove_agreedToEulaEvent(::System::Action* value);
 
 protected:
@@ -153,7 +153,7 @@ public:
   PlayerAgreements(PlayerAgreements const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13224 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15134 };
 
   /// @brief Field kCurrentEndOfLifeNoticeVersion offset 0xffffffff size 0x4
   static constexpr int32_t kCurrentEndOfLifeNoticeVersion{ static_cast<int32_t>(0x1) };

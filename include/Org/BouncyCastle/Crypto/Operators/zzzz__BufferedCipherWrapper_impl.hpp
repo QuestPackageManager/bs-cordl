@@ -1,18 +1,18 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Operators/BufferedCipherWrapper.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__ICipher_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Operators/zzzz__BufferedCipherWrapper_def.hpp"
 #include "Org/BouncyCastle/Crypto/IO/zzzz__CipherStream_def.hpp"
 #include "Org/BouncyCastle/Crypto/zzzz__IBufferedCipher_def.hpp"
+#include "Org/BouncyCastle/Crypto/zzzz__ICipher_def.hpp"
 #include "System/IO/zzzz__Stream_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)(
     ::Org::BouncyCastle::Crypto::IBufferedCipher*, ::System::IO::Stream*)>(&::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x23b157c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x32df7c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::GetMaxOutputSize)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23b1608;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x32df844;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)(int32_t)>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::GetUpdateOutputSize)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x23b16b4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x32df8fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IO::Stream* (::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::*)()>(
     &::Org::BouncyCastle::Crypto::Operators::BufferedCipherWrapper::get_Stream)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23b1760;
+  constexpr static std::size_t addrs = 0x32df9b4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

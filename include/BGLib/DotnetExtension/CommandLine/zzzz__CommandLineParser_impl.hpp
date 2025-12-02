@@ -18,8 +18,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a3830;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31eb17c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -34,7 +34,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::*)(
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(&::BGLib::DotnetExtension::CommandLine::CommandLineParser___c::_ParseArgs_b__7_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a3838;
+  constexpr static std::size_t addrs = 0x31eb180;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -83,8 +83,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass7_0::*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass7_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22a36c0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x31eb00c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -98,8 +98,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass7_0::*)(
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption)>(&::BGLib::DotnetExtension::CommandLine::CommandLineParser___c__DisplayClass7_0::_ParseArgs_b__0)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x22a3840;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x31eb188;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -147,8 +147,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::StringW, ::Array<::StringW>*> (*)()>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::GetCommandLineArgs)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x22a1a34;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x31e9210;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::DotnetExtension::CommandLine::CommandLineParser*>::get(),
@@ -163,7 +163,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::Array<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseEnvironmentCommandLine)> {
   constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x22a1aa4;
+  constexpr static std::size_t addrs = 0x31e9288;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -180,8 +180,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::BGLib::DotnetExtension::CommandLine::CommandLineParserResult (*)(
     ::System::Collections::Generic::IReadOnlyList_1<::StringW>*, ::ArrayW<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::Array<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseCommandLine)> {
-  constexpr static std::size_t size = 0x314;
-  constexpr static std::size_t addrs = 0x22a1ae4;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x31e92c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -197,8 +197,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::GenerateHint)> {
-  constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x22a31d4;
+  constexpr static std::size_t size = 0x548;
+  constexpr static std::size_t addrs = 0x31eaac4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -214,8 +214,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::HashSet_1<
     ::BGLib::DotnetExtension::CommandLine::ArgumentOption>* (*)(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::SelectRequiredOptions)> {
-  constexpr static std::size_t size = 0x390;
-  constexpr static std::size_t addrs = 0x22a2590;
+  constexpr static std::size_t size = 0x36c;
+  constexpr static std::size_t addrs = 0x31e9e18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -232,8 +232,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentOption>* (*)(::System::Collections::Generic::IEnumerable_1<::BGLib::DotnetExtension::CommandLine::ArgumentOption>*,
                                                                            ::System::Text::RegularExpressions::Regex*)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::GenerateOptionsMap)> {
-  constexpr static std::size_t size = 0x798;
-  constexpr static std::size_t addrs = 0x22a1df8;
+  constexpr static std::size_t size = 0x828;
+  constexpr static std::size_t addrs = 0x31e95f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -252,8 +252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::System::Collections::Generic::IReadOnlyDictionary_2<::StringW, ::BGLib::DotnetExtension::CommandLine::ArgumentOption>*,
     ::ByRef<::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>*>, ::ByRef<::System::Collections::Generic::List_1<::StringW>*>)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::ParseArgs)> {
-  constexpr static std::size_t size = 0x8a8;
-  constexpr static std::size_t addrs = 0x22a2920;
+  constexpr static std::size_t size = 0x934;
+  constexpr static std::size_t addrs = 0x31ea184;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -274,8 +274,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(
     ::System::Collections::Generic::Dictionary_2<::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW>*, ::BGLib::DotnetExtension::CommandLine::ArgumentOption, ::StringW)>(
     &::BGLib::DotnetExtension::CommandLine::CommandLineParser::AddParsedOption)> {
-  constexpr static std::size_t size = 0x10c;
-  constexpr static std::size_t addrs = 0x22a36c8;
+  constexpr static std::size_t size = 0x118;
+  constexpr static std::size_t addrs = 0x31eb010;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

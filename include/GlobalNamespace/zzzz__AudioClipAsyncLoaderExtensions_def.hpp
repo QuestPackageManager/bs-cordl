@@ -33,18 +33,18 @@ namespace GlobalNamespace {
 class CORDL_TYPE AudioClipAsyncLoaderExtensions : public ::System::Object {
 public:
   // Declarations
-  /// @brief Method LoadPreview, addr 0x26c4100, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method LoadPreview, addr 0x35f6830, size 0xac, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadPreview(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                     ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method LoadSong, addr 0x26c4250, size 0x208, virtual false, abstract: false, final false
+  /// @brief Method LoadSong, addr 0x35f6988, size 0x21c, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<::UnityW<::UnityEngine::AudioClip>>* LoadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader,
                                                                                                  ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
-  /// @brief Method UnloadPreview, addr 0x26c41a8, size 0xa8, virtual false, abstract: false, final false
+  /// @brief Method UnloadPreview, addr 0x35f68dc, size 0xac, virtual false, abstract: false, final false
   static inline void UnloadPreview(::GlobalNamespace::AudioClipAsyncLoader* _, ::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method UnloadSong, addr 0x26c2a10, size 0x1c8, virtual false, abstract: false, final false
+  /// @brief Method UnloadSong, addr 0x35f5110, size 0x1d4, virtual false, abstract: false, final false
   static inline void UnloadSong(::GlobalNamespace::AudioClipAsyncLoader* asyncLoader, ::GlobalNamespace::IBeatmapLevelData* beatmapLevelData);
 
 protected:
@@ -62,7 +62,7 @@ public:
   AudioClipAsyncLoaderExtensions(AudioClipAsyncLoaderExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12935 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14909 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -32,13 +32,13 @@ public:
 
   constexpr void __cordl_internal_set__Directive_k__BackingField(::StringW value);
 
-  /// @brief Method .ctor, addr 0x4af38e0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6c09718, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW directive);
 
-  /// @brief Method get_Directive, addr 0x4af3908, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_Directive, addr 0x6c09720, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_Directive();
 
-  /// @brief Method set_Directive, addr 0x4af3910, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_Directive, addr 0x6c09728, size 0x8, virtual false, abstract: false, final false
   inline void set_Directive(::StringW value);
 
 protected:
@@ -56,7 +56,7 @@ public:
   RazorDirectiveAttribute(RazorDirectiveAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18520 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22307 };
 
   /// @brief Field <Directive>k__BackingField, offset: 0x10, size: 0x8, def value: None
   ::StringW ____Directive_k__BackingField;

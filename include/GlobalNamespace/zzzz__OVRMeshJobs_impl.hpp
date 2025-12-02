@@ -2,22 +2,22 @@
 // IWYU pragma private; include "GlobalNamespace/OVRMeshJobs.hpp"
 #include "GlobalNamespace/zzzz__OVRPlugin_impl.hpp"
 #include "System/Runtime/InteropServices/zzzz__GCHandle_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_impl.hpp"
-#include "Unity/Jobs/zzzz__IJobParallelFor_impl.hpp"
 #include "UnityEngine/zzzz__BoneWeight_impl.hpp"
 #include "UnityEngine/zzzz__Vector2_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshJobs_def.hpp"
 #include "GlobalNamespace/zzzz__OVRMeshJobs_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
+#include "Unity/Jobs/zzzz__IJobParallelFor_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob.Execute
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob::*)(int32_t)>(
     &::GlobalNamespace::OVRMeshJobs_TransformToUnitySpaceJob::Execute)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x4037c90;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x5cecafc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -72,7 +72,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::*)(int32_t)>(
     &::GlobalNamespace::OVRMeshJobs_TransformTrianglesJob::Execute)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4037e10;
+  constexpr static std::size_t addrs = 0x5cecb98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,8 +139,8 @@ template <typename T> constexpr ::GlobalNamespace::OVRMeshJobs_NativeArrayHelper
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::OVRMeshJobs::*)()>(&::GlobalNamespace::OVRMeshJobs::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4037c88;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5cecaf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::OVRMeshJobs*>::get(), ".ctor",

@@ -27,17 +27,13 @@ public:
 
   __declspec(property(get = get_leftRotationOffset)) ::UnityEngine::Vector3 leftRotationOffset;
 
-  __declspec(property(get = get_positionOffset)) ::UnityEngine::Vector3 positionOffset;
-
   __declspec(property(get = get_rightPositionOffset)) ::UnityEngine::Vector3 rightPositionOffset;
 
   __declspec(property(get = get_rightRotationOffset)) ::UnityEngine::Vector3 rightRotationOffset;
 
-  __declspec(property(get = get_rotationOffset)) ::UnityEngine::Vector3 rotationOffset;
-
   static inline ::GlobalNamespace::VRControllerTransformOffset* New_ctor();
 
-  /// @brief Method .ctor, addr 0x39d2708, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56499a8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Method get_alternativeHandling, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
@@ -49,17 +45,11 @@ public:
   /// @brief Method get_leftRotationOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_leftRotationOffset();
 
-  /// @brief Method get_positionOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_positionOffset();
-
   /// @brief Method get_rightPositionOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightPositionOffset();
 
   /// @brief Method get_rightRotationOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::Vector3 get_rightRotationOffset();
-
-  /// @brief Method get_rotationOffset, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector3 get_rotationOffset();
 
 protected:
   // Ctor Parameters []
@@ -76,7 +66,7 @@ public:
   VRControllerTransformOffset(VRControllerTransformOffset const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16500 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20107 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

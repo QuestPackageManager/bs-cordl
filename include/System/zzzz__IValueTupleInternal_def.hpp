@@ -3,12 +3,14 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/CompilerServices/zzzz__ITuple_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(IValueTupleInternal)
 namespace System::Collections {
 class IEqualityComparer;
+}
+namespace System::Runtime::CompilerServices {
+class ITuple;
 }
 // Forward declare root types
 namespace System {
@@ -16,7 +18,7 @@ class IValueTupleInternal;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::IValueTupleInternal);
-// Dependencies System.Runtime.CompilerServices.ITuple
+// Dependencies
 namespace System {
 // Is value type: false
 // CS Name: System.IValueTupleInternal
@@ -40,7 +42,7 @@ public:
   IValueTupleInternal(IValueTupleInternal const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2503 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2509 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

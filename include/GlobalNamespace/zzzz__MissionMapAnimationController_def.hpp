@@ -3,9 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cmath>
@@ -41,6 +38,9 @@ class MissionNodesManager;
 namespace HMUI {
 class ScrollView;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
@@ -49,6 +49,9 @@ class Action;
 }
 namespace System {
 template <typename T, typename TResult> class Func_2;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -97,13 +100,13 @@ public:
 
   static inline ::GlobalNamespace::MissionMapAnimationController___c* New_ctor();
 
-  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_0, addr 0x3c0ad9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_0, addr 0x5802324, size 0x30, virtual false, abstract: false, final false
   inline float_t _UpdateNodesAndConnectionCoroutine_b__15_0(::GlobalNamespace::MissionNodeConnection* connection);
 
-  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_1, addr 0x3c0adc4, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method <UpdateNodesAndConnectionCoroutine>b__15_1, addr 0x580236c, size 0x30, virtual false, abstract: false, final false
   inline float_t _UpdateNodesAndConnectionCoroutine_b__15_1(::GlobalNamespace::MissionNodeConnection* connection);
 
-  /// @brief Method .ctor, addr 0x3c0ad94, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5802320, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::MissionMapAnimationController___c* getStaticF___9();
@@ -133,7 +136,7 @@ public:
   MissionMapAnimationController___c(MissionMapAnimationController___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6400 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -141,7 +144,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionMapAnimationController___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionMapAnimationController/<UpdateClearedNodeStateCoroutine>d__13
@@ -173,21 +176,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c0ae18, size 0xf0, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58023a0, size 0xfc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c0af14, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58024a8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c0af1c, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58024b0, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c0af54, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x58024e8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3c0ae14, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x580239c, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -214,7 +217,7 @@ public:
 
   constexpr void __cordl_internal_set_lastClearedMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  /// @brief Method .ctor, addr 0x3c0adec, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58021fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -241,7 +244,7 @@ public:
   MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13(MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4816 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6401 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -269,7 +272,7 @@ static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController__UpdateC
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionMapAnimationController__UpdateClearedNodeStateCoroutine_d__13, 0x30>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionMapAnimationController/<UpdateMissionMapCoroutine>d__12
@@ -304,21 +307,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c0af88, size 0x208, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x58024f4, size 0x1e8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c0b190, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x58026dc, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c0b198, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x58026e4, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c0b1d0, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x580271c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3c0af84, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x58024f0, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -351,7 +354,7 @@ public:
 
   constexpr void __cordl_internal_set_lastClearedMissionNode(::UnityW<::GlobalNamespace::MissionNode> value);
 
-  /// @brief Method .ctor, addr 0x3c0af5c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5802194, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -378,7 +381,7 @@ public:
   MissionMapAnimationController__UpdateMissionMapCoroutine_d__12(MissionMapAnimationController__UpdateMissionMapCoroutine_d__12 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4817 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6402 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -411,7 +414,7 @@ static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController__UpdateM
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionMapAnimationController__UpdateMissionMapCoroutine_d__12, 0x38>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionMapAnimationController/<UpdateNodesAndConnectionCoroutine>d__15
@@ -453,21 +456,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c0b204, size 0x310, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5802728, size 0x328, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c0b520, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5802a5c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c0b528, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5802a64, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c0b560, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5802a9c, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3c0b200, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5802724, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -506,7 +509,7 @@ public:
 
   constexpr void __cordl_internal_set__newEnabledConnection_5__2(::ArrayW<::UnityW<::GlobalNamespace::MissionNodeConnection>, ::Array<::UnityW<::GlobalNamespace::MissionNodeConnection>>*> value);
 
-  /// @brief Method .ctor, addr 0x3c0b1d8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58022b4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -533,7 +536,7 @@ public:
   MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15(MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4818 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6403 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -571,7 +574,7 @@ static_assert(offsetof(::GlobalNamespace::MissionMapAnimationController__UpdateN
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionMapAnimationController__UpdateNodesAndConnectionCoroutine_d__15, 0x40>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MissionMapAnimationController/<UpdateStageCoroutine>d__14
@@ -600,21 +603,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x3c0b594, size 0xa8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5802aa8, size 0xa8, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::MissionMapAnimationController__UpdateStageCoroutine_d__14* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x3c0b72c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5802c50, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x3c0b734, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5802c58, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c0b76c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5802c90, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x3c0b590, size 0x4, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5802aa4, size 0x4, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -635,7 +638,7 @@ public:
 
   constexpr void __cordl_internal_set___4__this(::UnityW<::GlobalNamespace::MissionMapAnimationController> value);
 
-  /// @brief Method .ctor, addr 0x3c0b568, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5802258, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -662,7 +665,7 @@ public:
   MissionMapAnimationController__UpdateStageCoroutine_d__14(MissionMapAnimationController__UpdateStageCoroutine_d__14 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4819 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6404 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -732,22 +735,22 @@ public:
 
   static inline ::GlobalNamespace::MissionMapAnimationController* New_ctor();
 
-  /// @brief Method ScrollToTopMostNotClearedMission, addr 0x3c0a9a4, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method ScrollToTopMostNotClearedMission, addr 0x5801f60, size 0xd4, virtual false, abstract: false, final false
   inline void ScrollToTopMostNotClearedMission();
 
-  /// @brief Method UpdateClearedNodeStateCoroutine, addr 0x3c0abe0, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method UpdateClearedNodeStateCoroutine, addr 0x580219c, size 0x60, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateClearedNodeStateCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode);
 
-  /// @brief Method UpdateMissionMapAfterMissionWasCleared, addr 0x3c0aa74, size 0xf0, virtual false, abstract: false, final false
+  /// @brief Method UpdateMissionMapAfterMissionWasCleared, addr 0x5802034, size 0xf8, virtual false, abstract: false, final false
   inline void UpdateMissionMapAfterMissionWasCleared(bool animated, ::System::Action* finishCallback);
 
-  /// @brief Method UpdateMissionMapCoroutine, addr 0x3c0ab64, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method UpdateMissionMapCoroutine, addr 0x580212c, size 0x68, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateMissionMapCoroutine(::GlobalNamespace::MissionNode* lastClearedMissionNode, ::System::Action* finishCallback);
 
-  /// @brief Method UpdateNodesAndConnectionCoroutine, addr 0x3c0acbc, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateNodesAndConnectionCoroutine, addr 0x5802260, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateNodesAndConnectionCoroutine();
 
-  /// @brief Method UpdateStageCoroutine, addr 0x3c0ac54, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method UpdateStageCoroutine, addr 0x5802204, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* UpdateStageCoroutine();
 
   constexpr ::UnityW<::HMUI::ScrollView> const& __cordl_internal_get__mapScrollView() const;
@@ -798,10 +801,10 @@ public:
 
   constexpr void __cordl_internal_set__startDelay(float_t value);
 
-  /// @brief Method .ctor, addr 0x3c0ad24, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x58022bc, size 0x10, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animatedUpdateIsRequired, addr 0x3c0a92c, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method get_animatedUpdateIsRequired, addr 0x5801ee4, size 0x7c, virtual false, abstract: false, final false
   inline bool get_animatedUpdateIsRequired();
 
 protected:
@@ -819,7 +822,7 @@ public:
   MissionMapAnimationController(MissionMapAnimationController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4820 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6405 };
 
   /// @brief Field _missionNodesManager, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::MissionNodesManager> ____missionNodesManager;

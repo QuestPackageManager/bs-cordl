@@ -5,21 +5,24 @@
 #include "BeatmapSaveDataVersion4/zzzz__EventBox_def.hpp"
 #include "BeatmapSaveDataVersion4/zzzz__LightshowSaveData_def.hpp"
 #include "GlobalNamespace/zzzz__BeatmapEventDataBox_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatmapBoxConverter_def.hpp"
 #include "GlobalNamespace/zzzz__IEnvironmentLightGroups_def.hpp"
 #include "GlobalNamespace/zzzz__IndexFilter_def.hpp"
 //  Writing Method size for method: ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::*)(
-    ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*)>(&::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x270e0e4;
+    ::BeatmapSaveDataVersion4::LightshowSaveData*, ::GlobalNamespace::IEnvironmentLightGroups*, ::GlobalNamespace::IBeatmapBoxConverter*)>(
+    &::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::_ctor)> {
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3639470;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentLightGroups*>::get() })));
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentLightGroups*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapBoxConverter*>::get() })));
     return ___internal_method;
   }
 };
@@ -29,8 +32,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::GlobalNamespace::BeatmapEventDataBox* (::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::*)(::BeatmapSaveDataVersion4::EventBox, ::GlobalNamespace::IndexFilter*)>(
         &::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::ConvertEvents)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x270f1ac;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x363a6d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,12 +43,14 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     return ___internal_method;
   }
 };
-inline void BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups) {
+inline void BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups,
+                                                                            ::GlobalNamespace::IBeatmapBoxConverter* boxConverter) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentLightGroups*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightshowSaveData, lightGroups);
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::BeatmapSaveDataVersion4::LightshowSaveData*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IEnvironmentLightGroups*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatmapBoxConverter*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, lightshowSaveData, lightGroups, boxConverter);
 }
 inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox,
                                                                                                                        ::GlobalNamespace::IndexFilter* indexFilter) {
@@ -55,8 +60,9 @@ inline ::GlobalNamespace::BeatmapEventDataBox* BeatmapDataLoaderVersion4::FloatF
   return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapEventDataBox*, false>(this, ___internal_method, eventBox, indexFilter);
 }
 inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
-                                                                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*>(lightshowSaveData, lightGroups));
+                                                                                                                                      ::GlobalNamespace::IEnvironmentLightGroups* lightGroups,
+                                                                                                                                      ::GlobalNamespace::IBeatmapBoxConverter* boxConverter) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*>(lightshowSaveData, lightGroups, boxConverter));
 }
 // Ctor Parameters []
 constexpr ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter::FloatFxEventBoxGroupConverter() {}

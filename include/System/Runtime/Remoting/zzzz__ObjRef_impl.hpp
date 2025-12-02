@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "System/Runtime/Remoting/ObjRef.hpp"
-#include "System/Runtime/Serialization/zzzz__IObjectReference_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Runtime/Remoting/zzzz__ObjRef_def.hpp"
 #include "System/Runtime/Remoting/zzzz__IChannelInfo_def.hpp"
 #include "System/Runtime/Remoting/zzzz__IEnvoyInfo_def.hpp"
 #include "System/Runtime/Remoting/zzzz__IRemotingTypeInfo_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IObjectReference_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -15,8 +15,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3cc796c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x590b064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ObjRef*>::get(), ".ctor",
@@ -29,8 +29,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::StringW, ::System::Runtime::Remoting::IChannelInfo*)>(
     &::System::Runtime::Remoting::ObjRef::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3cc79dc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x590b0c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -45,8 +45,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::ObjRef* (
     ::System::Runtime::Remoting::ObjRef::*)(int32_t, ::ArrayW<uint8_t, ::Array<uint8_t>*>)>(&::System::Runtime::Remoting::ObjRef::DeserializeInTheCurrentDomain)> {
-  constexpr static std::size_t size = 0x124;
-  constexpr static std::size_t addrs = 0x3cc7a08;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x590b0c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,7 +62,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::System::Runtime::Remoting::ObjRef::*)()>(
     &::System::Runtime::Remoting::ObjRef::SerializeType)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3cc7b2c;
+  constexpr static std::size_t addrs = 0x590b1f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ObjRef*>::get(), "SerializeType",
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::System::Type*, ::StringW, ::System::Object*)>(
     &::System::Runtime::Remoting::ObjRef::_ctor)> {
   constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x3cc7ba4;
+  constexpr static std::size_t addrs = 0x590b26c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -92,7 +92,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::ObjRef::_ctor)> {
   constexpr static std::size_t size = 0x52c;
-  constexpr static std::size_t addrs = 0x3cc7c98;
+  constexpr static std::size_t addrs = 0x590b360;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -106,8 +106,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_IsReferenceToWellKnow)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3cc81c4;
+  constexpr static std::size_t size = 0x6c;
+  constexpr static std::size_t addrs = 0x590b88c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ObjRef*>::get(),
@@ -121,7 +121,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::IChannelInfo* (::System::Runtime::Remoting::ObjRef::*)()>(
     &::System::Runtime::Remoting::ObjRef::get_ChannelInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc822c;
+  constexpr static std::size_t addrs = 0x590b8f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -136,7 +136,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::IEnvoyInfo* (::System::Runtime::Remoting::ObjRef::*)()>(
     &::System::Runtime::Remoting::ObjRef::get_EnvoyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc8234;
+  constexpr static std::size_t addrs = 0x590b900;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -151,7 +151,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::System::Runtime::Remoting::IEnvoyInfo*)>(
     &::System::Runtime::Remoting::ObjRef::set_EnvoyInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc823c;
+  constexpr static std::size_t addrs = 0x590b908;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,7 +166,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Runtime::Remoting::IRemotingTypeInfo* (::System::Runtime::Remoting::ObjRef::*)()>(
     &::System::Runtime::Remoting::ObjRef::get_TypeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc8244;
+  constexpr static std::size_t addrs = 0x590b910;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -181,7 +181,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::System::Runtime::Remoting::IRemotingTypeInfo*)>(
     &::System::Runtime::Remoting::ObjRef::set_TypeInfo)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc824c;
+  constexpr static std::size_t addrs = 0x590b918;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -195,7 +195,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_URI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc8254;
+  constexpr static std::size_t addrs = 0x590b920;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -209,7 +209,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(::StringW)>(&::System::Runtime::Remoting::ObjRef::set_URI)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc825c;
+  constexpr static std::size_t addrs = 0x590b928;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -223,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)(
     ::System::Runtime::Serialization::SerializationInfo*, ::System::Runtime::Serialization::StreamingContext)>(&::System::Runtime::Remoting::ObjRef::GetObjectData)> {
-  constexpr static std::size_t size = 0x1d8;
-  constexpr static std::size_t addrs = 0x3cc8264;
+  constexpr static std::size_t size = 0x1d0;
+  constexpr static std::size_t addrs = 0x590b930;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -238,8 +238,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Runtime::Remoting::ObjRef::*)(::System::Runtime::Serialization::StreamingContext)>(
     &::System::Runtime::Remoting::ObjRef::GetRealObject)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x3cc843c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x590bb00;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -252,8 +252,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::UpdateChannelInfo)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3cc7988;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x590b068;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ObjRef*>::get(), "UpdateChannelInfo",
@@ -265,8 +265,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::System::Runtime::Remoting::ObjRef::*)()>(&::System::Runtime::Remoting::ObjRef::get_ServerType)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x3cc84e4;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x590bbb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Runtime::Remoting::ObjRef*>::get(), "get_ServerType",

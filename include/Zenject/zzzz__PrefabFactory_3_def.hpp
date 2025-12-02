@@ -4,8 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include "Zenject/zzzz__IFactory_4_def.hpp"
-#include "Zenject/zzzz__IFactory_def.hpp"
 CORDL_MODULE_EXPORT(PrefabFactory_3)
 namespace System {
 class Object;
@@ -17,6 +15,12 @@ namespace Zenject {
 class DiContainer;
 }
 namespace Zenject {
+template <typename TParam1, typename TParam2, typename TParam3, typename TValue> class IFactory_4;
+}
+namespace Zenject {
+class IFactory;
+}
+namespace Zenject {
 class InjectTypeInfo;
 }
 // Forward declare root types
@@ -25,7 +29,7 @@ template <typename P1, typename P2, typename T> class PrefabFactory_3;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::PrefabFactory_3);
-// Dependencies System.Object, Zenject.IFactory, Zenject.IFactory`4<TParam1, TParam2, TParam3, TValue>
+// Dependencies System.Object
 namespace Zenject {
 // cpp template
 template <typename P1, typename P2, typename T>
@@ -92,7 +96,7 @@ public:
   PrefabFactory_3(PrefabFactory_3 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12444 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14425 };
 
   /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
   ::Zenject::DiContainer* ____container;

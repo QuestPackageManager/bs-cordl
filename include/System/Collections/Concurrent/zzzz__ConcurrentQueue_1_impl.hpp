@@ -1,20 +1,18 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Concurrent/ConcurrentQueue_1.hpp"
-#include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__PaddedHeadAndTail_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
 #include "System/Collections/Concurrent/zzzz__ConcurrentQueue_1_def.hpp"
+#include "System/Collections/Concurrent/zzzz__IProducerConsumerCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 // Ctor Parameters [CppParam { name: "Item", ty: "T", modifiers: "", def_value: Some("{}") }, CppParam { name: "SequenceNumber", ty: "int32_t", modifiers: "", def_value: Some("{}") }]
 template <typename T> constexpr ::System::Collections::Concurrent::Segment_ConcurrentQueue_1_Slot<T>::Segment_ConcurrentQueue_1_Slot(T Item, int32_t SequenceNumber) noexcept {
@@ -132,6 +130,12 @@ template <typename T> inline bool System::Collections::Concurrent::ConcurrentQue
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentQueue_1_Segment<T>*>::get(), "TryDequeue",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+template <typename T> inline bool System::Collections::Concurrent::ConcurrentQueue_1_Segment<T>::TryPeek(::ByRef<T> result, bool resultUsed) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentQueue_1_Segment<T>*>::get(), "TryPeek", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, result, resultUsed);
 }
 template <typename T> inline bool System::Collections::Concurrent::ConcurrentQueue_1_Segment<T>::TryEnqueue(T item) {
   static auto* ___internal_method =
@@ -430,6 +434,11 @@ template <typename T> inline bool System::Collections::Concurrent::ConcurrentQue
                                                                              ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
+template <typename T> inline bool System::Collections::Concurrent::ConcurrentQueue_1<T>::get_IsEmpty() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentQueue_1<T>*>::get(),
+                                                                             "get_IsEmpty", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
+}
 template <typename T> inline ::ArrayW<T, ::Array<T>*> System::Collections::Concurrent::ConcurrentQueue_1<T>::ToArray() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentQueue_1<T>*>::get(),
                                                                              "ToArray", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -523,6 +532,12 @@ template <typename T> inline bool System::Collections::Concurrent::ConcurrentQue
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentQueue_1<T>*>::get(), "TryDequeueSlow",
                                   std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
+}
+template <typename T> inline bool System::Collections::Concurrent::ConcurrentQueue_1<T>::TryPeek(::ByRef<T> result, bool resultUsed) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Concurrent::ConcurrentQueue_1<T>*>::get(), "TryPeek", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<T>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, result, resultUsed);
 }
 template <typename T> inline ::System::Collections::Concurrent::ConcurrentQueue_1<T>* System::Collections::Concurrent::ConcurrentQueue_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Concurrent::ConcurrentQueue_1<T>*>());

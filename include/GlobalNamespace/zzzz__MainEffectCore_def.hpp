@@ -4,6 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
+#include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(MainEffectCore)
@@ -28,10 +29,13 @@ public:
 
   static inline ::GlobalNamespace::MainEffectCore* New_ctor();
 
-  /// @brief Method SetGlobalShaderValues, addr 0x4082664, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method SetGlobalShaderValues, addr 0x5d2ceb0, size 0xc8, virtual false, abstract: false, final false
   static inline void SetGlobalShaderValues(float_t baseColorBoost, float_t baseColorBoostThreshold);
 
-  /// @brief Method .ctor, addr 0x4083048, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method UpdateKeyword, addr 0x5d2d960, size 0x5c, virtual false, abstract: false, final false
+  static inline void UpdateKeyword(bool enabled);
+
+  /// @brief Method .ctor, addr 0x5d2d9f0, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline int32_t getStaticF__baseColorBoostID();
@@ -57,7 +61,10 @@ public:
   MainEffectCore(MainEffectCore const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17878 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20761 };
+
+  /// @brief Field kMainEffectEnabledKeyword offset 0xffffffff size 0x8
+  static constexpr ::ConstString kMainEffectEnabledKeyword{ u"MAIN_EFFECT_ENABLED" };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

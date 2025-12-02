@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadOnlyMemory_1)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -20,7 +22,7 @@ template <typename T> struct ReadOnlyMemory_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::System::ReadOnlyMemory_1);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace System {
 // cpp template
 template <typename T>
@@ -87,7 +89,7 @@ public:
   constexpr ReadOnlyMemory_1(::System::Object* _object, int32_t _index, int32_t _length) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2462 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2468 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };

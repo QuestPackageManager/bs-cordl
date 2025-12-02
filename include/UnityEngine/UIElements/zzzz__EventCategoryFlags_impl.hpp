@@ -9,5 +9,5 @@ constexpr ::UnityEngine::UIElements::EventCategoryFlags::EventCategoryFlags(int3
 constexpr ::UnityEngine::UIElements::EventCategoryFlags::EventCategoryFlags() {}
 constexpr ::UnityEngine::UIElements::EventCategoryFlags UnityEngine::UIElements::EventCategoryFlags::None{ static_cast<int32_t>(0x0) };
 constexpr ::UnityEngine::UIElements::EventCategoryFlags UnityEngine::UIElements::EventCategoryFlags::All{ static_cast<int32_t>(0xffffffff) };
-constexpr ::UnityEngine::UIElements::EventCategoryFlags UnityEngine::UIElements::EventCategoryFlags::TriggeredByOS{ static_cast<int32_t>(0x14036) };
-constexpr ::UnityEngine::UIElements::EventCategoryFlags UnityEngine::UIElements::EventCategoryFlags::TargetOnly{ static_cast<int32_t>(0xad0) };
+constexpr ::UnityEngine::UIElements::EventCategoryFlags UnityEngine::UIElements::EventCategoryFlags::TriggeredByOS{ static_cast<int32_t>(0x6806e) };
+constexpr ::UnityEngine::UIElements::EventCategoryFlags UnityEngine::UIElements::EventCategoryFlags::TargetOnly{ static_cast<int32_t>(0x15a0) };

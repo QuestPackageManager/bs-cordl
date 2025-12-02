@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::BGNet::Logging::Debug_LoggerLinkedList::*)(::BGNet::Logging::Debug_ILogger*)>(
     &::BGNet::Logging::Debug_LoggerLinkedList::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x22f0d24;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x321dfdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -136,8 +136,8 @@ inline void BGNet::Logging::Debug_ILogger::LogWarning(::StringW message) {
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::BGNet::Logging::Debug::NoDomainReloadInit)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22f0abc;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x321dd90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGNet::Logging::Debug*>::get(), "NoDomainReloadInit",
@@ -149,8 +149,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::AddLogger)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x22f0b4c;
+  constexpr static std::size_t size = 0x15c;
+  constexpr static std::size_t addrs = 0x321de14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -163,8 +163,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::BGNet::Logging::Debug_ILogger*)>(&::BGNet::Logging::Debug::RemoveLogger)> {
-  constexpr static std::size_t size = 0x248;
-  constexpr static std::size_t addrs = 0x22f0d4c;
+  constexpr static std::size_t size = 0x224;
+  constexpr static std::size_t addrs = 0x321dfe4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -177,8 +177,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::Log)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22f0f94;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x321e208;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -191,8 +191,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogError)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22f1088;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x321e304;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -205,8 +205,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::Exception*, ::StringW)>(&::BGNet::Logging::Debug::LogException)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x22f1180;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x321e404;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -220,8 +220,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW)>(&::BGNet::Logging::Debug::LogWarning)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x22f1280;
+  constexpr static std::size_t size = 0x100;
+  constexpr static std::size_t addrs = 0x321e50c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

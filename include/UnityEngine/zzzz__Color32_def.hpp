@@ -3,14 +3,22 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IFormattable_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cmath>
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(Color32)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class IFormatProvider;
+}
+namespace System {
+class IFormattable;
+}
+namespace System {
+class Object;
 }
 namespace UnityEngine {
 struct Color;
@@ -21,7 +29,7 @@ struct Color32;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::Color32);
-// Dependencies System.IFormattable
+// Dependencies
 namespace UnityEngine {
 // Is value type: true
 // CS Name: UnityEngine.Color32
@@ -45,16 +53,28 @@ public:
   /// @brief Field rgba, offset 0x0, size 0x4
   __declspec(property(get = __cordl_internal_get_rgba, put = __cordl_internal_set_rgba)) int32_t rgba;
 
+  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Color32>"
+  constexpr operator ::System::IEquatable_1<::UnityEngine::Color32>*();
+
   /// @brief Convert operator to "::System::IFormattable"
   constexpr operator ::System::IFormattable*();
 
-  /// @brief Method Lerp, addr 0x489d9ac, size 0xdc, virtual false, abstract: false, final false
+  /// @brief Method Equals, addr 0x6897e5c, size 0x7c, virtual true, abstract: false, final false
+  inline bool Equals(::System::Object* other);
+
+  /// @brief Method Equals, addr 0x6897ed8, size 0x10, virtual true, abstract: false, final true
+  inline bool Equals(::UnityEngine::Color32 other);
+
+  /// @brief Method GetHashCode, addr 0x6897e54, size 0x8, virtual true, abstract: false, final false
+  inline int32_t GetHashCode();
+
+  /// @brief Method Lerp, addr 0x6897c9c, size 0xe8, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 Lerp(::UnityEngine::Color32 a, ::UnityEngine::Color32 b, float_t t);
 
-  /// @brief Method ToString, addr 0x489db58, size 0x10, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6897ee8, size 0x10, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method ToString, addr 0x489db68, size 0x1dc, virtual true, abstract: false, final true
+  /// @brief Method ToString, addr 0x6897ef8, size 0x1e8, virtual true, abstract: false, final true
   inline ::StringW ToString(::StringW format, ::System::IFormatProvider* formatProvider);
 
   constexpr uint8_t const& __cordl_internal_get_a() const;
@@ -87,19 +107,22 @@ public:
 
   constexpr void __cordl_internal_set_rgba(int32_t value);
 
-  /// @brief Method .ctor, addr 0x489d698, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x689795c, size 0x14, virtual false, abstract: false, final false
   inline void _ctor(uint8_t r, uint8_t g, uint8_t b, uint8_t a);
 
-  /// @brief Method get_Item, addr 0x489da88, size 0xd0, virtual false, abstract: false, final false
+  /// @brief Method get_Item, addr 0x6897d84, size 0xd0, virtual false, abstract: false, final false
   inline uint8_t get_Item(int32_t index);
+
+  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::Color32>"
+  constexpr ::System::IEquatable_1<::UnityEngine::Color32>* i___System__IEquatable_1___UnityEngine__Color32_();
 
   /// @brief Convert to "::System::IFormattable"
   constexpr ::System::IFormattable* i___System__IFormattable();
 
-  /// @brief Method op_Implicit, addr 0x489d970, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6897c60, size 0x3c, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color op_Implicit___UnityEngine__Color(::UnityEngine::Color32 c);
 
-  /// @brief Method op_Implicit, addr 0x489d6ac, size 0x2c4, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6897970, size 0x2f0, virtual false, abstract: false, final false
   static inline ::UnityEngine::Color32 op_Implicit___UnityEngine__Color32(::UnityEngine::Color c);
 
   // Ctor Parameters []
@@ -187,7 +210,7 @@ private:
 
 public:
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10814 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10223 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };

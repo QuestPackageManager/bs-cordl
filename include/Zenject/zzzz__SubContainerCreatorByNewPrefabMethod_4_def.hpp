@@ -102,7 +102,7 @@ public:
   SubContainerCreatorByNewPrefabMethod_4___c__DisplayClass2_0(SubContainerCreatorByNewPrefabMethod_4___c__DisplayClass2_0 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12626 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14607 };
 
   /// @brief Field <>4__this, offset: 0x10, size: 0x8, def value: None
   ::Zenject::SubContainerCreatorByNewPrefabMethod_4<TParam1, TParam2, TParam3, TParam4>* _____4__this;
@@ -161,7 +161,7 @@ public:
   SubContainerCreatorByNewPrefabMethod_4(SubContainerCreatorByNewPrefabMethod_4 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 12627 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14608 };
 
   /// @brief Field _installerMethod, offset: 0x28, size: 0x8, def value: None
   ::System::Action_5<::Zenject::DiContainer*, TParam1, TParam2, TParam3, TParam4>* ____installerMethod;

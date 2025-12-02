@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Zenject/InstantiateOnPrefabComponentProvider.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__InstantiateOnPrefabComponentProvider_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
 #include "Zenject/zzzz__IPrefabInstantiator_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 //  Writing Method size for method: ::Zenject::InstantiateOnPrefabComponentProvider._ctor
@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::InstantiateOnPrefabComponentProvider::*)(::System::Type*, ::Zenject::IPrefabInstantiator*)>(
     &::Zenject::InstantiateOnPrefabComponentProvider::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x4b3d550;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6c51538;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,7 +32,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::InstantiateOnPrefabComponentProvider::*)()>(
     &::Zenject::InstantiateOnPrefabComponentProvider::get_IsCached)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3d57c;
+  constexpr static std::size_t addrs = 0x6c51540;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Zenject::InstantiateOnPrefabComponentProvider*>::get(),
@@ -46,7 +46,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::Zenject::InstantiateOnPrefabComponentProvider::*)()>(
     &::Zenject::InstantiateOnPrefabComponentProvider::get_TypeVariesBasedOnMemberType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3d584;
+  constexpr static std::size_t addrs = 0x6c51548;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -61,7 +61,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Type* (::Zenject::InstantiateOnPrefabComponentProvider::*)(::Zenject::InjectContext*)>(
     &::Zenject::InstantiateOnPrefabComponentProvider::GetInstanceType)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4b3d58c;
+  constexpr static std::size_t addrs = 0x6c51550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,8 +76,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Zenject::InstantiateOnPrefabComponentProvider::*)(
     ::Zenject::InjectContext*, ::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*, ::ByRef<::System::Action*>, ::System::Collections::Generic::List_1<::System::Object*>*)>(
     &::Zenject::InstantiateOnPrefabComponentProvider::GetAllInstancesWithInjectSplit)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4b3d594;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x6c51558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

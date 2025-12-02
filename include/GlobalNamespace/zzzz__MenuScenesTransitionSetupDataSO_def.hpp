@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(MenuScenesTransitionSetupDataSO)
 // Forward declare root types
 namespace GlobalNamespace {
@@ -11,16 +11,19 @@ class MenuScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MenuScenesTransitionSetupDataSO);
-// Dependencies NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO
+// Dependencies ScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: MenuScenesTransitionSetupDataSO
-class CORDL_TYPE MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::NoSetupDataSingleFixedSceneScenesTransitionSetupDataSO {
+class CORDL_TYPE MenuScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
+  /// @brief Method Init, addr 0x57201b4, size 0xc0, virtual false, abstract: false, final false
+  inline void Init();
+
   static inline ::GlobalNamespace::MenuScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x229bb4c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5720274, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -38,12 +41,12 @@ public:
   MenuScenesTransitionSetupDataSO(MenuScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17640 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6837 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MenuScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MenuScenesTransitionSetupDataSO);

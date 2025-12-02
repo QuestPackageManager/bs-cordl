@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ILobbyPlayerData.hpp"
-#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_impl.hpp"
 #include "GlobalNamespace/zzzz__ILobbyPlayerData_def.hpp"
+#include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::ILobbyPlayerData.get_isPartyOwner
 template <>
 

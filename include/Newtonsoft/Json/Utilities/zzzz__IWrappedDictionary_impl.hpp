@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Utilities/IWrappedDictionary.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IDictionary_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "Newtonsoft/Json/Utilities/zzzz__IWrappedDictionary_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IDictionary_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Utilities::IWrappedDictionary.get_UnderlyingDictionary
 template <>

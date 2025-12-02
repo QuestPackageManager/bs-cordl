@@ -10,7 +10,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeTypeAttribute::set_Header)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4918f34;
+  constexpr static std::size_t addrs = 0x6982034;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeTypeAttribute::set_IntermediateScriptingStructName)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4918f3c;
+  constexpr static std::size_t addrs = 0x698203c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)(::UnityEngine::Bindings::CodegenOptions)>(
     &::UnityEngine::Bindings::NativeTypeAttribute::set_CodegenOptions)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4918f44;
+  constexpr static std::size_t addrs = 0x6982044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -53,8 +53,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)()>(&::UnityEngine::Bindings::NativeTypeAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4918f4c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x698204c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Bindings::NativeTypeAttribute*>::get(), ".ctor",
@@ -67,8 +67,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)(::UnityEngine::Bindings::CodegenOptions)>(
     &::UnityEngine::Bindings::NativeTypeAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4918f68;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x6982054;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,8 +82,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)(::StringW)>(
     &::UnityEngine::Bindings::NativeTypeAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x4918f90;
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x698205c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -97,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Bindings::NativeTypeAttribute::*)(::UnityEngine::Bindings::CodegenOptions, ::StringW)>(
     &::UnityEngine::Bindings::NativeTypeAttribute::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x4919090;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x6982158;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

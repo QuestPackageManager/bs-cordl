@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/ScoringElement.hpp"
-#include "System/zzzz__IComparable_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Zenject/zzzz__MemoryPool_1_impl.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
 #include "GlobalNamespace/zzzz__NoteData_def.hpp"
 #include "GlobalNamespace/zzzz__ScoreMultiplierCounter_def.hpp"
 #include "GlobalNamespace/zzzz__ScoringElement_def.hpp"
+#include "System/zzzz__IComparable_1_def.hpp"
 template <typename T> inline void GlobalNamespace::ScoringElement_Pool_1<T>::Reinitialize(T scoringElement) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement_Pool_1<T>*>::get(), 23)));
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::NoteData* (::GlobalNamespace::ScoringElement::*)()>(
     &::GlobalNamespace::ScoringElement::get_noteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef3dc;
+  constexpr static std::size_t addrs = 0x57e2418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(), "get_noteData",
@@ -42,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)(::GlobalNamespace::NoteData*)>(
     &::GlobalNamespace::ScoringElement::set_noteData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef3e4;
+  constexpr static std::size_t addrs = 0x57e2420;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::get_maxPossibleCutScore)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3beec0c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x57e1b50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(),
@@ -68,8 +68,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::get_time)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3beebe8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57e1b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(), "get_time",
@@ -82,7 +82,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::get_multiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef3ec;
+  constexpr static std::size_t addrs = 0x57e2428;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(), "get_multiplier",
@@ -95,7 +95,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)(int32_t)>(&::GlobalNamespace::ScoringElement::set_multiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef3f4;
+  constexpr static std::size_t addrs = 0x57e2430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -109,7 +109,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::get_maxMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef3fc;
+  constexpr static std::size_t addrs = 0x57e2438;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(), "get_maxMultiplier",
@@ -122,7 +122,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)(int32_t)>(&::GlobalNamespace::ScoringElement::set_maxMultiplier)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef404;
+  constexpr static std::size_t addrs = 0x57e2440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,7 +180,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::get_isFinished)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef40c;
+  constexpr static std::size_t addrs = 0x57e2448;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(), "get_isFinished",
@@ -192,8 +192,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)(bool)>(&::GlobalNamespace::ScoringElement::set_isFinished)> {
-  constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x3bef414;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x57e2450;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::ScoringElement::*)(::GlobalNamespace::ScoringElement*)>(
     &::GlobalNamespace::ScoringElement::CompareTo)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x3bef420;
+  constexpr static std::size_t size = 0xb4;
+  constexpr static std::size_t addrs = 0x57e2458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -236,7 +236,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)(int32_t, int32_t)>(&::GlobalNamespace::ScoringElement::SetMultipliers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3beec04;
+  constexpr static std::size_t addrs = 0x57e1b48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -250,7 +250,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::Reinitialize)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3bef4a8;
+  constexpr static std::size_t addrs = 0x57e250c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -263,8 +263,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::ScoringElement::*)()>(&::GlobalNamespace::ScoringElement::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bef4ac;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x57e2510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::ScoringElement*>::get(), ".ctor",

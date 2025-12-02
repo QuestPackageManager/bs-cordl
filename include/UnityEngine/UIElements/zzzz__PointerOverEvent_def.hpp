@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/UIElements/zzzz__PointerEventBase_1_def.hpp"
 CORDL_MODULE_EXPORT(PointerOverEvent)
 namespace UnityEngine::UIElements {
+class BaseVisualElementPanel;
+}
+namespace UnityEngine::UIElements {
 class PointerOverEvent___c;
 }
 // Forward declare root types
@@ -31,10 +34,10 @@ public:
 
   static inline ::UnityEngine::UIElements::PointerOverEvent___c* New_ctor();
 
-  /// @brief Method <.cctor>b__0_0, addr 0x4a34654, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <.cctor>b__0_0, addr 0x6b71604, size 0x54, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::PointerOverEvent* __cctor_b__0_0();
 
-  /// @brief Method .ctor, addr 0x4a3464c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71600, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::UnityEngine::UIElements::PointerOverEvent___c* getStaticF___9();
@@ -56,7 +59,7 @@ public:
   PointerOverEvent___c(PointerOverEvent___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5927 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4554 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -73,9 +76,12 @@ public:
   // Declarations
   using __c = ::UnityEngine::UIElements::PointerOverEvent___c;
 
+  /// @brief Method Dispatch, addr 0x6b7155c, size 0x4, virtual true, abstract: false, final false
+  inline void Dispatch(::UnityEngine::UIElements::BaseVisualElementPanel* panel);
+
   static inline ::UnityEngine::UIElements::PointerOverEvent* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4a345a8, size 0x48, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b71560, size 0x4c, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -93,12 +99,12 @@ public:
   PointerOverEvent(PointerOverEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5928 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4555 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerOverEvent, 0x108>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::PointerOverEvent, 0xf8>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::PointerOverEvent);

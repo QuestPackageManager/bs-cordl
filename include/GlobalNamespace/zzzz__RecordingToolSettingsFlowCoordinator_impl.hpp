@@ -1,60 +1,18 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/RecordingToolSettingsFlowCoordinator.hpp"
 #include "HMUI/zzzz__FlowCoordinator_impl.hpp"
-#include "System/zzzz__Object_impl.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsFlowCoordinator_def.hpp"
-#include "GlobalNamespace/zzzz__GameScenesManager_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolConfigViewController_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolLoggingViewController_def.hpp"
-#include "GlobalNamespace/zzzz__RecordingToolSettingsFlowCoordinator_def.hpp"
+#include "GlobalNamespace/zzzz__RecordingToolSceneSetupData_def.hpp"
 #include "GlobalNamespace/zzzz__RecordingToolSettingsViewController_def.hpp"
-#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
-//  Writing Method size for method: ::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData._ctor
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::*)(
-    ::GlobalNamespace::ScenesTransitionSetupDataSO*)>(&::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3c084dc;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get() })));
-    return ___internal_method;
-  }
-};
-constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO>& GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::__cordl_internal_get_nextScenesTransitionSetupData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___nextScenesTransitionSetupData;
-}
-constexpr ::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> const& GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::__cordl_internal_get_nextScenesTransitionSetupData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___nextScenesTransitionSetupData;
-}
-constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::__cordl_internal_set_nextScenesTransitionSetupData(::UnityW<::GlobalNamespace::ScenesTransitionSetupDataSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___nextScenesTransitionSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::ScenesTransitionSetupDataSO*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, nextScenesTransitionSetupData);
-}
-inline ::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData*
-GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::New_ctor(::GlobalNamespace::ScenesTransitionSetupDataSO* nextScenesTransitionSetupData) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData*>(nextScenesTransitionSetupData));
-}
-// Ctor Parameters []
-constexpr ::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData::RecordingToolSettingsFlowCoordinator_InitData() {}
 //  Writing Method size for method: ::GlobalNamespace::RecordingToolSettingsFlowCoordinator.DidActivate
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidActivate)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x3c082e8;
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x57ff3e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -69,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidDeactivate)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3c083cc;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x57ff510;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -85,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::Update)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c08468;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x57ff5c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
@@ -99,27 +57,13 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::HandleRecordingToolSettingsViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3c08494;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x57ff614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
         THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
                                                  "HandleRecordingToolSettingsViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-    return ___internal_method;
-  }
-};
-//  Writing Method size for method: ::GlobalNamespace::RecordingToolSettingsFlowCoordinator.GoToNextScene
-template <>
-
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
-    &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::GoToNextScene)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c08498;
-
-  inline static ::MethodInfo const* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
-                                                                               "GoToNextScene", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -129,7 +73,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::RecordingToolSettingsFlowCoordinator::*)()>(
     &::GlobalNamespace::RecordingToolSettingsFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c084d4;
+  constexpr static std::size_t addrs = 0x57ff674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
@@ -177,29 +121,17 @@ constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_in
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolLoggingViewController)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager>& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_get__gameScenesManager() {
+constexpr ::GlobalNamespace::RecordingToolSceneSetupData*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_get__recordingToolSceneSetupData() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameScenesManager;
+  return this->____recordingToolSceneSetupData;
 }
-constexpr ::UnityW<::GlobalNamespace::GameScenesManager> const& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_get__gameScenesManager() const {
+constexpr ::GlobalNamespace::RecordingToolSceneSetupData* const& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_get__recordingToolSceneSetupData() const {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameScenesManager;
+  return this->____recordingToolSceneSetupData;
 }
-constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_set__gameScenesManager(::UnityW<::GlobalNamespace::GameScenesManager> value) {
+constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_set__recordingToolSceneSetupData(::GlobalNamespace::RecordingToolSceneSetupData* value) {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameScenesManager)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData*& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_get__initData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____initData;
-}
-constexpr ::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData* const& GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_get__initData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____initData;
-}
-constexpr void GlobalNamespace::RecordingToolSettingsFlowCoordinator::__cordl_internal_set__initData(::GlobalNamespace::RecordingToolSettingsFlowCoordinator_InitData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____initData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____recordingToolSceneSetupData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
 inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator::DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling) {
   auto* ___internal_method =
@@ -222,11 +154,6 @@ inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator::HandleRecordi
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
                                                "HandleRecordingToolSettingsViewControllerDidFinish", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
-}
-inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator::GoToNextScene() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::RecordingToolSettingsFlowCoordinator*>::get(),
-                                                                             "GoToNextScene", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 inline void GlobalNamespace::RecordingToolSettingsFlowCoordinator::_ctor() {

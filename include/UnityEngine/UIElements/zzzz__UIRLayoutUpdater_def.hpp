@@ -9,10 +9,10 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRLayoutUpdater)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
-}
-namespace System::Collections::Generic {
 template <typename T> class List_1;
+}
+namespace System {
+template <typename T1, typename T2, typename T3> struct ValueTuple_3;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
@@ -39,9 +39,18 @@ namespace UnityEngine::UIElements {
 class CORDL_TYPE UIRLayoutUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
   // Declarations
-  /// @brief Field changeEventsList, offset 0x20, size 0x8
+  /// @brief Field changeEventsList, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_changeEventsList, put = __cordl_internal_set_changeEventsList)) ::System::Collections::Generic::List_1<
-      ::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEventsList;
+      ::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEventsList;
+
+  /// @brief Field k_ComputeLayoutMarker, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_ComputeLayoutMarker, put = setStaticF_k_ComputeLayoutMarker)) ::Unity::Profiling::ProfilerMarker k_ComputeLayoutMarker;
+
+  /// @brief Field k_DispatchChangeEventsMarker, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_DispatchChangeEventsMarker, put = setStaticF_k_DispatchChangeEventsMarker)) ::Unity::Profiling::ProfilerMarker k_DispatchChangeEventsMarker;
+
+  /// @brief Field k_UpdateSubTreeMarker, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_k_UpdateSubTreeMarker, put = setStaticF_k_UpdateSubTreeMarker)) ::Unity::Profiling::ProfilerMarker k_UpdateSubTreeMarker;
 
   __declspec(property(get = get_profilerMarker)) ::Unity::Profiling::ProfilerMarker profilerMarker;
 
@@ -51,40 +60,58 @@ public:
   /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
 
-  /// @brief Method DispatchChangeEvents, addr 0x4a4a474, size 0x354, virtual false, abstract: false, final false
-  inline void DispatchChangeEvents(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEvents,
+  /// @brief Method DispatchChangeEvents, addr 0x6b8aea4, size 0x2c0, virtual false, abstract: false, final false
+  inline void DispatchChangeEvents(::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEvents,
                                    int32_t currentLayoutPass);
 
   static inline ::UnityEngine::UIElements::UIRLayoutUpdater* New_ctor();
 
-  /// @brief Method OnVersionChanged, addr 0x4a49b10, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method OnVersionChanged, addr 0x6b8a4d8, size 0x50, virtual true, abstract: false, final false
   inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
 
-  /// @brief Method Update, addr 0x4a49b58, size 0x1f8, virtual true, abstract: false, final false
+  /// @brief Method Update, addr 0x6b8a528, size 0x240, virtual true, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateSubTree, addr 0x4a49d50, size 0x724, virtual false, abstract: false, final false
-  inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve, bool isDisplayed,
-                            ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEvents);
+  /// @brief Method UpdateHierarchyDisplayed, addr 0x6b8b164, size 0x2f4, virtual false, abstract: false, final false
+  static inline bool
+  UpdateHierarchyDisplayed(::UnityEngine::UIElements::VisualElement* ve,
+                           ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEvents,
+                           bool inheritedDisplayed);
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* const&
+  /// @brief Method UpdateSubTree, addr 0x6b8a768, size 0x73c, virtual false, abstract: false, final false
+  inline void UpdateSubTree(::UnityEngine::UIElements::VisualElement* ve,
+                            ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* changeEvents);
+
+  constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* const&
   __cordl_internal_get_changeEventsList() const;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*&
+  constexpr ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>*&
   __cordl_internal_get_changeEventsList();
 
   constexpr void
-  __cordl_internal_set_changeEventsList(::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* value);
+  __cordl_internal_set_changeEventsList(::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* value);
 
-  /// @brief Method .ctor, addr 0x4a4a7c8, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b8b458, size 0x74, virtual false, abstract: false, final false
   inline void _ctor();
+
+  static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_ComputeLayoutMarker();
+
+  static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_DispatchChangeEventsMarker();
+
+  static inline ::Unity::Profiling::ProfilerMarker getStaticF_k_UpdateSubTreeMarker();
 
   static inline ::StringW getStaticF_s_Description();
 
   static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
 
-  /// @brief Method get_profilerMarker, addr 0x4a49ab8, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method get_profilerMarker, addr 0x6b8a47c, size 0x5c, virtual true, abstract: false, final false
   inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
+
+  static inline void setStaticF_k_ComputeLayoutMarker(::Unity::Profiling::ProfilerMarker value);
+
+  static inline void setStaticF_k_DispatchChangeEventsMarker(::Unity::Profiling::ProfilerMarker value);
+
+  static inline void setStaticF_k_UpdateSubTreeMarker(::Unity::Profiling::ProfilerMarker value);
 
   static inline void setStaticF_s_Description(::StringW value);
 
@@ -105,17 +132,17 @@ public:
   UIRLayoutUpdater(UIRLayoutUpdater const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6031 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4665 };
 
-  /// @brief Field changeEventsList, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Collections::Generic::KeyValuePair_2<::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* ___changeEventsList;
+  /// @brief Field changeEventsList, offset: 0x28, size: 0x8, def value: None
+  ::System::Collections::Generic::List_1<::System::ValueTuple_3<::UnityEngine::Rect, ::UnityEngine::Rect, ::UnityEngine::UIElements::VisualElement*>>* ___changeEventsList;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::UnityEngine::UIElements::UIRLayoutUpdater, ___changeEventsList) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::UIRLayoutUpdater, ___changeEventsList) == 0x28, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIRLayoutUpdater, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIRLayoutUpdater, 0x30>, "Size mismatch!");
 
 } // namespace UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIRLayoutUpdater);

@@ -68,51 +68,51 @@ public:
   /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
   __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
 
-  /// @brief Method Add, addr 0x4160c70, size 0x288, virtual false, abstract: false, final false
+  /// @brief Method Add, addr 0x5e0b624, size 0x258, virtual false, abstract: false, final false
   inline void Add(::System::Data::DataRelation* relation);
 
-  /// @brief Method AddCore, addr 0x4160ef8, size 0x2a8, virtual true, abstract: false, final false
+  /// @brief Method AddCore, addr 0x5e0b87c, size 0x290, virtual true, abstract: false, final false
   inline void AddCore(::System::Data::DataRelation* relation);
 
-  /// @brief Method AssignName, addr 0x4161390, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method AssignName, addr 0x5e0bd1c, size 0x24, virtual false, abstract: false, final false
   inline ::StringW AssignName();
 
-  /// @brief Method Clear, addr 0x416146c, size 0x244, virtual true, abstract: false, final false
+  /// @brief Method Clear, addr 0x5e0be14, size 0x22c, virtual true, abstract: false, final false
   inline void Clear();
 
-  /// @brief Method Contains, addr 0x41616b0, size 0x18, virtual true, abstract: false, final false
+  /// @brief Method Contains, addr 0x5e0c040, size 0x18, virtual true, abstract: false, final false
   inline bool Contains(::StringW name);
 
   /// @brief Method GetDataSet, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Data::DataSet* GetDataSet();
 
-  /// @brief Method InternalIndexOf, addr 0x41616c8, size 0x178, virtual false, abstract: false, final false
+  /// @brief Method InternalIndexOf, addr 0x5e0c058, size 0x17c, virtual false, abstract: false, final false
   inline int32_t InternalIndexOf(::StringW name);
 
-  /// @brief Method MakeName, addr 0x41613b4, size 0xb8, virtual false, abstract: false, final false
+  /// @brief Method MakeName, addr 0x5e0bd40, size 0xd4, virtual false, abstract: false, final false
   inline ::StringW MakeName(int32_t index);
 
   static inline ::System::Data::DataRelationCollection* New_ctor();
 
-  /// @brief Method OnCollectionChanged, addr 0x4161840, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnCollectionChanged, addr 0x5e0c1d4, size 0xe8, virtual true, abstract: false, final false
   inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method OnCollectionChanging, addr 0x4161910, size 0xd0, virtual true, abstract: false, final false
+  /// @brief Method OnCollectionChanging, addr 0x5e0c2bc, size 0xe8, virtual true, abstract: false, final false
   inline void OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
 
-  /// @brief Method RegisterName, addr 0x41619e0, size 0x1bc, virtual false, abstract: false, final false
+  /// @brief Method RegisterName, addr 0x5e0c3a4, size 0x1c0, virtual false, abstract: false, final false
   inline void RegisterName(::StringW name);
 
-  /// @brief Method Remove, addr 0x4161b9c, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method Remove, addr 0x5e0c564, size 0x1bc, virtual false, abstract: false, final false
   inline void Remove(::System::Data::DataRelation* relation);
 
-  /// @brief Method RemoveAt, addr 0x4161d48, size 0x74, virtual false, abstract: false, final false
+  /// @brief Method RemoveAt, addr 0x5e0c720, size 0x70, virtual false, abstract: false, final false
   inline void RemoveAt(int32_t index);
 
-  /// @brief Method RemoveCore, addr 0x4161dbc, size 0x1e8, virtual true, abstract: false, final false
+  /// @brief Method RemoveCore, addr 0x5e0c790, size 0x1d0, virtual true, abstract: false, final false
   inline void RemoveCore(::System::Data::DataRelation* relation);
 
-  /// @brief Method UnregisterName, addr 0x4161fa4, size 0x12c, virtual false, abstract: false, final false
+  /// @brief Method UnregisterName, addr 0x5e0c960, size 0x134, virtual false, abstract: false, final false
   inline void UnregisterName(::StringW name);
 
   constexpr int32_t const& __cordl_internal_get__defaultNameIndex() const;
@@ -145,10 +145,10 @@ public:
 
   constexpr void __cordl_internal_set__onCollectionChangingDelegate(::System::ComponentModel::CollectionChangeEventHandler* value);
 
-  /// @brief Method .ctor, addr 0x41620d0, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5e0ca94, size 0x9c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_CollectionChanged, addr 0x41611a0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method add_CollectionChanged, addr 0x5e0bb0c, size 0x108, virtual false, abstract: false, final false
   inline void add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
   static inline int32_t getStaticF_s_objectTypeCount();
@@ -159,10 +159,10 @@ public:
   /// @brief Method get_Item, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::System::Data::DataRelation* get_Item(::StringW name);
 
-  /// @brief Method get_ObjectID, addr 0x4160c68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ObjectID, addr 0x5e0b61c, size 0x8, virtual false, abstract: false, final false
   inline int32_t get_ObjectID();
 
-  /// @brief Method remove_CollectionChanged, addr 0x4161298, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method remove_CollectionChanged, addr 0x5e0bc14, size 0x108, virtual false, abstract: false, final false
   inline void remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
 
   static inline void setStaticF_s_objectTypeCount(int32_t value);
@@ -182,7 +182,7 @@ public:
   DataRelationCollection(DataRelationCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11386 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13744 };
 
   /// @brief Field _inTransition, offset: 0x10, size: 0x8, def value: None
   ::System::Data::DataRelation* ____inTransition;

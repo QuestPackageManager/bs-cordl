@@ -3,9 +3,11 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(Pointer)
+namespace System::Runtime::Serialization {
+class ISerializable;
+}
 namespace System::Runtime::Serialization {
 class SerializationInfo;
 }
@@ -24,7 +26,7 @@ class Pointer;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::Pointer);
-// Dependencies System.Object, System.Runtime.Serialization.ISerializable
+// Dependencies System.Object
 namespace System::Reflection {
 // Is value type: false
 // CS Name: System.Reflection.Pointer
@@ -32,7 +34,7 @@ class CORDL_TYPE Pointer : public ::System::Object {
 public:
   // Declarations
   /// @brief Field _ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__ptr, put = __cordl_internal_set__ptr)) ::cordl_internals::Ptr<void> _ptr;
+  __declspec(property(get = __cordl_internal_get__ptr, put = __cordl_internal_set__ptr)) void* _ptr;
 
   /// @brief Field _ptrType, offset 0x18, size 0x8
   __declspec(property(get = __cordl_internal_get__ptrType, put = __cordl_internal_set__ptrType)) ::System::Type* _ptrType;
@@ -40,28 +42,31 @@ public:
   /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
   constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Box, addr 0x3d25648, size 0x178, virtual false, abstract: false, final false
-  static inline ::System::Object* Box(::cordl_internals::Ptr<void> ptr, ::System::Type* type);
+  /// @brief Method Box, addr 0x596a4c8, size 0x14c, virtual false, abstract: false, final false
+  static inline ::System::Object* Box(void* ptr, ::System::Type* type);
 
-  static inline ::System::Reflection::Pointer* New_ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
+  static inline ::System::Reflection::Pointer* New_ctor(void* ptr, ::System::Type* ptrType);
 
-  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x3d257c0, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Runtime.Serialization.ISerializable.GetObjectData, addr 0x596a6cc, size 0x38, virtual true, abstract: false, final true
   inline void System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  constexpr ::cordl_internals::Ptr<void> const& __cordl_internal_get__ptr() const;
+  /// @brief Method Unbox, addr 0x596a614, size 0xb8, virtual false, abstract: false, final false
+  static inline void* Unbox(::System::Object* ptr);
 
-  constexpr ::cordl_internals::Ptr<void>& __cordl_internal_get__ptr();
+  constexpr void* const& __cordl_internal_get__ptr() const;
+
+  constexpr void*& __cordl_internal_get__ptr();
 
   constexpr ::System::Type* const& __cordl_internal_get__ptrType() const;
 
   constexpr ::System::Type*& __cordl_internal_get__ptrType();
 
-  constexpr void __cordl_internal_set__ptr(::cordl_internals::Ptr<void> value);
+  constexpr void __cordl_internal_set__ptr(void* value);
 
   constexpr void __cordl_internal_set__ptrType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3d2561c, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::cordl_internals::Ptr<void> ptr, ::System::Type* ptrType);
+  /// @brief Method .ctor, addr 0x596a4c0, size 0x8, virtual false, abstract: false, final false
+  inline void _ctor(void* ptr, ::System::Type* ptrType);
 
   /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
   constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
@@ -81,10 +86,10 @@ public:
   Pointer(Pointer const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3487 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3509 };
 
   /// @brief Field _ptr, offset: 0x10, size: 0x8, def value: None
-  ::cordl_internals::Ptr<void> ____ptr;
+  void* ____ptr;
 
   /// @brief Field _ptrType, offset: 0x18, size: 0x8, def value: None
   ::System::Type* ____ptrType;

@@ -4,12 +4,8 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__OVRSpace_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "Unity/Collections/zzzz__NativeArray_1_def.hpp"
-#include "Unity/Jobs/zzzz__IJob_def.hpp"
 #include "Unity/Jobs/zzzz__JobHandle_def.hpp"
 #include "UnityEngine/zzzz__Mesh_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -35,11 +31,20 @@ struct OVRSceneVolumeMeshFilter_PopulateMeshDataJob;
 namespace GlobalNamespace {
 class OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7;
 }
+namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
 namespace System::Collections {
 class IEnumerator;
 }
 namespace System {
+class IDisposable;
+}
+namespace System {
 class Object;
+}
+namespace Unity::Jobs {
+class IJob;
 }
 namespace Unity::Jobs {
 struct JobHandle;
@@ -79,7 +84,7 @@ MARK_VAL_T(::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob);
 MARK_VAL_T(::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob);
 MARK_VAL_T(::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob);
 MARK_VAL_T(::GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob);
-// Dependencies OVRSpace, Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJob
+// Dependencies OVRSpace, Unity.Collections.NativeArray`1<T>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRSceneVolumeMeshFilter/GetTriangleMeshCountsJob
@@ -89,7 +94,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x4012f2c, size 0x98, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cbb334, size 0x9c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -104,7 +109,7 @@ public:
   constexpr OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob(::GlobalNamespace::OVRSpace Space, ::Unity::Collections::NativeArray_1<int32_t> Results) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8299 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7672 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };
@@ -125,7 +130,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMe
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshCountsJob, 0x18>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies OVRSpace, Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJob, UnityEngine.Vector3
+// Dependencies OVRSpace, Unity.Collections.NativeArray`1<T>, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRSceneVolumeMeshFilter/GetTriangleMeshJob
@@ -135,7 +140,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x4012fc4, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cbb3d0, size 0x80, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -152,7 +157,7 @@ public:
                                                         ::Unity::Collections::NativeArray_1<int32_t> Triangles) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8300 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7673 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -178,7 +183,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMe
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneVolumeMeshFilter_GetTriangleMeshJob, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies Unity.Collections.NativeArray`1<T>, Unity.Jobs.IJob, UnityEngine.Mesh::MeshData, UnityEngine.Vector3
+// Dependencies Unity.Collections.NativeArray`1<T>, UnityEngine.Mesh::MeshData, UnityEngine.Vector3
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRSceneVolumeMeshFilter/PopulateMeshDataJob
@@ -188,7 +193,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x4013040, size 0x22c, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cbb450, size 0x240, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -204,7 +209,7 @@ public:
                                                          ::UnityEngine::Mesh_MeshData MeshData) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8301 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7674 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
@@ -230,7 +235,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshD
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneVolumeMeshFilter_PopulateMeshDataJob, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies Unity.Jobs.IJob
+// Dependencies
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: OVRSceneVolumeMeshFilter/BakeMeshJob
@@ -240,7 +245,7 @@ public:
   /// @brief Convert operator to "::Unity::Jobs::IJob"
   constexpr operator ::Unity::Jobs::IJob*();
 
-  /// @brief Method Execute, addr 0x401326c, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method Execute, addr 0x5cbb690, size 0x6c, virtual true, abstract: false, final true
   inline void Execute();
 
   /// @brief Convert to "::Unity::Jobs::IJob"
@@ -254,7 +259,7 @@ public:
   constexpr OVRSceneVolumeMeshFilter_BakeMeshJob(int32_t MeshID, bool Convex) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8302 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7675 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
@@ -275,8 +280,7 @@ static_assert(offsetof(::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob, 
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRSceneVolumeMeshFilter_BakeMeshJob, 0x8>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Collections.Generic.IEnumerator`1<T>, System.Collections.IEnumerator, System.IDisposable, System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle,
-// UnityEngine.Mesh::MeshDataArray
+// Dependencies System.Object, Unity.Collections.NativeArray`1<T>, Unity.Jobs.JobHandle, UnityEngine.Mesh::MeshDataArray
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: OVRSceneVolumeMeshFilter/<CreateVolumeMesh>d__7
@@ -323,21 +327,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x40132f0, size 0x57c, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x5cbb718, size 0x58c, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x40138bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x5cbbcf8, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x40138c4, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x5cbbd00, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x40138fc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x5cbbd38, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x40132d4, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x5cbb6fc, size 0x1c, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -394,10 +398,10 @@ public:
 
   constexpr void __cordl_internal_set__sceneAnchor_5__2(::UnityW<::GlobalNamespace::OVRSceneAnchor> value);
 
-  /// @brief Method <>m__Finally1, addr 0x401386c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x5cbbca4, size 0x54, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method .ctor, addr 0x4012ec0, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbb2a4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -424,7 +428,7 @@ public:
   OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7(OVRSceneVolumeMeshFilter__CreateVolumeMesh_d__7 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8303 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7676 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -505,15 +509,15 @@ public:
   /// @brief Field _meshFilter, offset 0x30, size 0x8
   __declspec(property(get = __cordl_internal_get__meshFilter, put = __cordl_internal_set__meshFilter)) ::UnityW<::UnityEngine::MeshFilter> _meshFilter;
 
-  /// @brief Method CreateVolumeMesh, addr 0x4012e60, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CreateVolumeMesh, addr 0x5cbb250, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CreateVolumeMesh();
 
-  /// @brief Method IsJobDone, addr 0x4012ee8, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method IsJobDone, addr 0x5cbb2ac, size 0x84, virtual false, abstract: false, final false
   static inline bool IsJobDone(::Unity::Jobs::JobHandle job);
 
   static inline ::GlobalNamespace::OVRSceneVolumeMeshFilter* New_ctor();
 
-  /// @brief Method Start, addr 0x4012d94, size 0xcc, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x5cbb17c, size 0xd4, virtual false, abstract: false, final false
   inline void Start();
 
   constexpr bool const& __cordl_internal_get__IsCompleted_k__BackingField() const;
@@ -534,13 +538,13 @@ public:
 
   constexpr void __cordl_internal_set__meshFilter(::UnityW<::UnityEngine::MeshFilter> value);
 
-  /// @brief Method .ctor, addr 0x4012f24, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5cbb330, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_IsCompleted, addr 0x4012d80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsCompleted, addr 0x5cbb16c, size 0x8, virtual false, abstract: false, final false
   inline bool get_IsCompleted();
 
-  /// @brief Method set_IsCompleted, addr 0x4012d88, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method set_IsCompleted, addr 0x5cbb174, size 0x8, virtual false, abstract: false, final false
   inline void set_IsCompleted(bool value);
 
 protected:
@@ -558,7 +562,7 @@ public:
   OVRSceneVolumeMeshFilter(OVRSceneVolumeMeshFilter const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8304 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 7677 };
 
   /// @brief Field <IsCompleted>k__BackingField, offset: 0x20, size: 0x1, def value: None
   bool ____IsCompleted_k__BackingField;

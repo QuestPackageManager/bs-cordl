@@ -36,16 +36,16 @@ public:
 
   static inline ::System::Data::DataException* New_ctor(::StringW s, ::System::Exception* innerException);
 
-  /// @brief Method .ctor, addr 0x413de08, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de8c90, size 0x60, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x413de00, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de8c88, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
 
-  /// @brief Method .ctor, addr 0x413de64, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de8cf0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::StringW s);
 
-  /// @brief Method .ctor, addr 0x413de88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5de8d14, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::StringW s, ::System::Exception* innerException);
 
 protected:
@@ -63,7 +63,7 @@ public:
   DataException(DataException const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11342 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13700 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

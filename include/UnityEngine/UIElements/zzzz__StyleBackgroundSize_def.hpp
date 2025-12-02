@@ -3,19 +3,23 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BackgroundSize_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IStyleValue_1_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleBackgroundSize)
 namespace System {
+template <typename T> class IEquatable_1;
+}
+namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
 struct BackgroundSize;
+}
+namespace UnityEngine::UIElements {
+template <typename T> class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleKeyword;
@@ -26,16 +30,16 @@ struct StyleBackgroundSize;
 }
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleBackgroundSize);
-// Dependencies System.IEquatable`1<T>, UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.IStyleValue`1<T>, UnityEngine.UIElements.StyleKeyword
+// Dependencies UnityEngine.UIElements.BackgroundSize, UnityEngine.UIElements.StyleKeyword
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: UnityEngine.UIElements.StyleBackgroundSize
 struct CORDL_TYPE StyleBackgroundSize {
 public:
   // Declarations
-  __declspec(property(get = get_keyword)) ::UnityEngine::UIElements::StyleKeyword keyword;
+  __declspec(property(get = get_keyword, put = set_keyword)) ::UnityEngine::UIElements::StyleKeyword keyword;
 
-  __declspec(property(get = get_value)) ::UnityEngine::UIElements::BackgroundSize value;
+  __declspec(property(get = get_value, put = set_value)) ::UnityEngine::UIElements::BackgroundSize value;
 
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>*();
@@ -43,28 +47,28 @@ public:
   /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>*();
 
-  /// @brief Method Equals, addr 0x4a85054, size 0x90, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a5e2f0, size 0xd8, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method Equals, addr 0x4a84fd8, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method Equals, addr 0x6a5e274, size 0x7c, virtual true, abstract: false, final true
   inline bool Equals(::UnityEngine::UIElements::StyleBackgroundSize other);
 
-  /// @brief Method GetHashCode, addr 0x4a850e4, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x6a5e3c8, size 0x28, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
-  /// @brief Method ToString, addr 0x4a8510c, size 0x88, virtual true, abstract: false, final false
+  /// @brief Method ToString, addr 0x6a5e3f0, size 0x84, virtual true, abstract: false, final false
   inline ::StringW ToString();
 
-  /// @brief Method .ctor, addr 0x4a84f48, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5e1c8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method .ctor, addr 0x4a84f54, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a5e1d4, size 0x18, virtual false, abstract: false, final false
   inline void _ctor(::UnityEngine::UIElements::BackgroundSize v, ::UnityEngine::UIElements::StyleKeyword keyword);
 
-  /// @brief Method get_keyword, addr 0x4a84f40, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_keyword, addr 0x6a5e1b8, size 0x8, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
 
-  /// @brief Method get_value, addr 0x4a84f00, size 0x40, virtual true, abstract: false, final true
+  /// @brief Method get_value, addr 0x6a5e164, size 0x40, virtual true, abstract: false, final true
   inline ::UnityEngine::UIElements::BackgroundSize get_value();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleBackgroundSize>"
@@ -73,11 +77,17 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>"
   constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::BackgroundSize>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__BackgroundSize_();
 
-  /// @brief Method op_Equality, addr 0x4a84f6c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method op_Equality, addr 0x6a5e1ec, size 0x7c, virtual false, abstract: false, final false
   static inline bool op_Equality(::UnityEngine::UIElements::StyleBackgroundSize lhs, ::UnityEngine::UIElements::StyleBackgroundSize rhs);
 
-  /// @brief Method op_Implicit, addr 0x4a84fcc, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6a5e268, size 0xc, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::StyleBackgroundSize op_Implicit___UnityEngine__UIElements__StyleBackgroundSize(::UnityEngine::UIElements::StyleKeyword keyword);
+
+  /// @brief Method set_keyword, addr 0x6a5e1c0, size 0x8, virtual true, abstract: false, final true
+  inline void set_keyword(::UnityEngine::UIElements::StyleKeyword value);
+
+  /// @brief Method set_value, addr 0x6a5e1a4, size 0x14, virtual true, abstract: false, final true
+  inline void set_value(::UnityEngine::UIElements::BackgroundSize value);
 
   // Ctor Parameters []
   // @brief default ctor
@@ -88,7 +98,7 @@ public:
   constexpr StyleBackgroundSize(::UnityEngine::UIElements::BackgroundSize m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6095 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4965 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

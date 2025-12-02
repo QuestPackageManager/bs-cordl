@@ -4,11 +4,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__ConsoleKeyInfo_def.hpp"
-#include "System/zzzz__IConsoleDriver_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(NullConsoleDriver)
 namespace System {
 struct ConsoleKeyInfo;
+}
+namespace System {
+class IConsoleDriver;
 }
 // Forward declare root types
 namespace System {
@@ -16,7 +18,7 @@ class NullConsoleDriver;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::NullConsoleDriver);
-// Dependencies System.ConsoleKeyInfo, System.IConsoleDriver, System.Object
+// Dependencies System.ConsoleKeyInfo, System.Object
 namespace System {
 // Is value type: false
 // CS Name: System.NullConsoleDriver
@@ -31,10 +33,10 @@ public:
 
   static inline ::System::NullConsoleDriver* New_ctor();
 
-  /// @brief Method ReadKey, addr 0x3e3b21c, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method ReadKey, addr 0x5a80e74, size 0x60, virtual true, abstract: false, final true
   inline ::System::ConsoleKeyInfo ReadKey(bool intercept);
 
-  /// @brief Method .ctor, addr 0x3e33d70, size 0x4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a79ac8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::System::ConsoleKeyInfo getStaticF_EmptyConsoleKeyInfo();
@@ -59,7 +61,7 @@ public:
   NullConsoleDriver(NullConsoleDriver const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2614 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2622 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

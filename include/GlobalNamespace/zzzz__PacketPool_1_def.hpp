@@ -3,11 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
-#include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(PacketPool_1)
+namespace GlobalNamespace {
+template <typename T> class IPacketPool_1;
+}
+namespace GlobalNamespace {
+class IPacketPool;
+}
 namespace GlobalNamespace {
 class IPoolablePacket;
 }
@@ -20,7 +24,7 @@ template <typename T> class PacketPool_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::PacketPool_1);
-// Dependencies IPacketPool, IPacketPool`1<T>, System.Object
+// Dependencies System.Object
 namespace GlobalNamespace {
 // cpp template
 template <typename T>
@@ -85,7 +89,7 @@ public:
   PacketPool_1(PacketPool_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14815 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18149 };
 
   /// @brief Field kMaxPoolSize offset 0xffffffff size 0x4
   static constexpr int32_t kMaxPoolSize{ static_cast<int32_t>(0x10) };

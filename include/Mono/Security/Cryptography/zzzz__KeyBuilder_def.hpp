@@ -25,12 +25,12 @@ public:
   /// @brief Field rng, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_rng, put = setStaticF_rng)) ::System::Security::Cryptography::RandomNumberGenerator* rng;
 
-  /// @brief Method Key, addr 0x3c46ae8, size 0x70, virtual false, abstract: false, final false
+  /// @brief Method Key, addr 0x5889628, size 0x74, virtual false, abstract: false, final false
   static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Key(int32_t size);
 
   static inline ::System::Security::Cryptography::RandomNumberGenerator* getStaticF_rng();
 
-  /// @brief Method get_Rng, addr 0x3c47a7c, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method get_Rng, addr 0x588a5d4, size 0x6c, virtual false, abstract: false, final false
   static inline ::System::Security::Cryptography::RandomNumberGenerator* get_Rng();
 
   static inline void setStaticF_rng(::System::Security::Cryptography::RandomNumberGenerator* value);
@@ -50,7 +50,7 @@ public:
   KeyBuilder(KeyBuilder const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 15969 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19259 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

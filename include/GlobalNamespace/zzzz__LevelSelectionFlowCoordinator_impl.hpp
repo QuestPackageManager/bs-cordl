@@ -29,8 +29,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator_State::*)(
     ::System::Nullable_1<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory>, ::GlobalNamespace::BeatmapLevelPack*, ::ByRef<::GlobalNamespace::BeatmapKey>,
     ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3b42324;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5728ff4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator_State::*)(::GlobalNamespace::BeatmapLevelPack*)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b42370;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x5729008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -62,8 +62,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator_State::*)(
     ::GlobalNamespace::BeatmapLevelPack*, ::GlobalNamespace::BeatmapLevel*)>(&::GlobalNamespace::LevelSelectionFlowCoordinator_State::_ctor)> {
-  constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x3b423a0;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x572901c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -167,8 +167,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_isInRootViewController)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x3b41668;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x5728314;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionFlowCoordinator*>::get(),
@@ -181,8 +181,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SelectLevelCategoryViewController_LevelCategory (
     ::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(&::GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedLevelCategory)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b416dc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x572838c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionFlowCoordinator*>::get(),
@@ -195,8 +195,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevelPack* (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapLevelPack)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b416f8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57283a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionFlowCoordinator*>::get(),
@@ -209,8 +209,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapKey)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b41714;
+  constexpr static std::size_t size = 0x38;
+  constexpr static std::size_t addrs = 0x57283bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionFlowCoordinator*>::get(),
@@ -223,8 +223,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapLevel* (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_selectedBeatmapLevel)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b41754;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x57283f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionFlowCoordinator*>::get(),
@@ -238,7 +238,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_initialTopScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41770;
+  constexpr static std::size_t addrs = 0x572840c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -254,7 +254,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_initialLeftScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41778;
+  constexpr static std::size_t addrs = 0x5728414;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -270,7 +270,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::HMUI::ViewController> (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_initialRightScreenViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41780;
+  constexpr static std::size_t addrs = 0x572841c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -286,7 +286,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_showBackButtonForMainViewController)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41788;
+  constexpr static std::size_t addrs = 0x5728424;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -302,7 +302,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_hidePacksIfOneOrNone)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41790;
+  constexpr static std::size_t addrs = 0x572842c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -318,7 +318,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_hidePracticeButton)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41798;
+  constexpr static std::size_t addrs = 0x5728434;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -333,8 +333,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_actionButtonText)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b417a0;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x572843c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -350,7 +350,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_mainTitle)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b417e4;
+  constexpr static std::size_t addrs = 0x5728484;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -366,7 +366,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_enableCustomLevels)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b417ec;
+  constexpr static std::size_t addrs = 0x572848c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -381,8 +381,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::SongPackMask (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_songPackMask)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3b417f4;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5728494;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -398,7 +398,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDifficultyMask (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::get_allowedBeatmapDifficultyMask)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b41820;
+  constexpr static std::size_t addrs = 0x57284a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -414,8 +414,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>, ::Array<::UnityW<::GlobalNamespace::BeatmapCharacteristicSO>>*> (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
         &::GlobalNamespace::LevelSelectionFlowCoordinator::get_notAllowedCharacteristics)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3b41828;
+  constexpr static std::size_t size = 0x48;
+  constexpr static std::size_t addrs = 0x57284a8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -431,7 +431,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidActivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b4186c;
+  constexpr static std::size_t addrs = 0x57284f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -447,7 +447,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorDidDeactivate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b41870;
+  constexpr static std::size_t addrs = 0x57284f4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -463,8 +463,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(
         &::GlobalNamespace::LevelSelectionFlowCoordinator::LevelSelectionFlowCoordinatorTopViewControllerWillChange)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x3b41874;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x57284f8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -480,7 +480,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::ActionButtonWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b41970;
+  constexpr static std::size_t addrs = 0x57285fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -496,7 +496,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::PracticeButtonWasPressed)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b41974;
+  constexpr static std::size_t addrs = 0x5728600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -512,7 +512,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(
     ::GlobalNamespace::BeatmapLevelPack*, ::ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::LevelSelectionFlowCoordinator::SelectionDidChange)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3b41978;
+  constexpr static std::size_t addrs = 0x5728604;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -528,7 +528,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelSelectionFlowCoordinator_State*)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::Setup)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4197c;
+  constexpr static std::size_t addrs = 0x5728608;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -542,8 +542,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool, bool, bool)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::DidActivate)> {
-  constexpr static std::size_t size = 0x4a8;
-  constexpr static std::size_t addrs = 0x3b41984;
+  constexpr static std::size_t size = 0x4c0;
+  constexpr static std::size_t addrs = 0x5728610;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -558,8 +558,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(bool, bool)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::DidDeactivate)> {
-  constexpr static std::size_t size = 0x294;
-  constexpr static std::size_t addrs = 0x3b41e2c;
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x5728ad0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -574,7 +574,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(
     ::HMUI::ViewController*, ::HMUI::ViewController*, ::HMUI::ViewController_AnimationType)>(&::GlobalNamespace::LevelSelectionFlowCoordinator::TopViewControllerWillChange)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b420c0;
+  constexpr static std::size_t addrs = 0x5728d8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -591,8 +591,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevelPack*)>(
         &::GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidSelectPack)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3b420d0;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x5728d9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -608,8 +608,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(
     ::GlobalNamespace::SearchFilterParamsViewController*, ::GlobalNamespace::LevelFilter)>(&::GlobalNamespace::LevelSelectionFlowCoordinator::HandleSearchFilterParamsViewControllerDidFinish)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b42100;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5728dd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -625,8 +625,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(
     ::GlobalNamespace::LevelSearchViewController*, ::GlobalNamespace::LevelFilter)>(&::GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSearchViewControllerDidPressSearchButton)> {
-  constexpr static std::size_t size = 0x40;
-  constexpr static std::size_t addrs = 0x3b42148;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x5728e24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -643,7 +643,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelSelectionNavigationController*)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressActionButton)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b42188;
+  constexpr static std::size_t addrs = 0x5728e7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -660,7 +660,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::BeatmapLevel*)>(
         &::GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidPressPracticeButton)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3b42198;
+  constexpr static std::size_t addrs = 0x5728e8c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -675,8 +675,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelSelectionNavigationController*)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeDifficultyBeatmap)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3b421a8;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5728e9c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -692,8 +692,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::GlobalNamespace::LevelSelectionNavigationController*, ::GlobalNamespace::StandardLevelDetailViewController_ContentType)>(
         &::GlobalNamespace::LevelSelectionFlowCoordinator::HandleLevelSelectionNavigationControllerDidChangeLevelDetailContent)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b4220c;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x5728ef0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -708,8 +708,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::Refresh)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b42278;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5728f40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -724,8 +724,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::HMUI::ViewController*)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::IsMainViewController)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3b42294;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5728f60;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -740,7 +740,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)(::System::Action*, ::HMUI::ViewController_AnimationType)>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::PresentMainViewController)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b42300;
+  constexpr static std::size_t addrs = 0x5728fd0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -756,7 +756,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelSelectionFlowCoordinator::*)()>(
     &::GlobalNamespace::LevelSelectionFlowCoordinator::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3b4231c;
+  constexpr static std::size_t addrs = 0x5728fec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelSelectionFlowCoordinator*>::get(),

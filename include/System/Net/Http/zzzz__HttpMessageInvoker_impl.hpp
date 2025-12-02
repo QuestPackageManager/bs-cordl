@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "System/Net/Http/HttpMessageInvoker.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Net/Http/zzzz__HttpMessageInvoker_def.hpp"
 #include "System/Net/Http/zzzz__HttpMessageHandler_def.hpp"
@@ -8,13 +7,14 @@
 #include "System/Net/Http/zzzz__HttpResponseMessage_def.hpp"
 #include "System/Threading/Tasks/zzzz__Task_1_def.hpp"
 #include "System/Threading/zzzz__CancellationToken_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 //  Writing Method size for method: ::System::Net::Http::HttpMessageInvoker._ctor
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMessageInvoker::*)(::System::Net::Http::HttpMessageHandler*, bool)>(
     &::System::Net::Http::HttpMessageInvoker::_ctor)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4217120;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5ebef58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -29,7 +29,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMessageInvoker::*)()>(&::System::Net::Http::HttpMessageInvoker::Dispose)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x4219998;
+  constexpr static std::size_t addrs = 0x5ec2618;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Net::Http::HttpMessageInvoker*>::get(), "Dispose",
@@ -42,7 +42,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Net::Http::HttpMessageInvoker::*)(bool)>(&::System::Net::Http::HttpMessageInvoker::Dispose)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x4217350;
+  constexpr static std::size_t addrs = 0x5ebf188;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* (
     ::System::Net::Http::HttpMessageInvoker::*)(::System::Net::Http::HttpRequestMessage*, ::System::Threading::CancellationToken)>(&::System::Net::Http::HttpMessageInvoker::SendAsync)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4217cd8;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x5ebfbf4;
 
   inline static ::MethodInfo const* methodInfo() {
 

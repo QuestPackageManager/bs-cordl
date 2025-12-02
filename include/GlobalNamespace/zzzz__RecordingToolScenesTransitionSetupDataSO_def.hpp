@@ -3,7 +3,7 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "GlobalNamespace/zzzz__SingleFixedSceneScenesTransitionSetupDataSO_def.hpp"
+#include "GlobalNamespace/zzzz__ScenesTransitionSetupDataSO_def.hpp"
 CORDL_MODULE_EXPORT(RecordingToolScenesTransitionSetupDataSO)
 namespace GlobalNamespace {
 class RecordingToolSceneSetupData;
@@ -14,19 +14,19 @@ class RecordingToolScenesTransitionSetupDataSO;
 }
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
-// Dependencies SingleFixedSceneScenesTransitionSetupDataSO
+// Dependencies ScenesTransitionSetupDataSO
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: RecordingToolScenesTransitionSetupDataSO
-class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
+class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::ScenesTransitionSetupDataSO {
 public:
   // Declarations
-  /// @brief Method Init, addr 0x3b38fd4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method Init, addr 0x571c4f0, size 0xc4, virtual false, abstract: false, final false
   inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
 
   static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
 
-  /// @brief Method .ctor, addr 0x3b3eba8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x572200c, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -44,12 +44,12 @@ public:
   RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5270 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6847 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO, 0x28>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);

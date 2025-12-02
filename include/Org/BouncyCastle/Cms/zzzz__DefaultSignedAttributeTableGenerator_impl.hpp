@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Cms/DefaultSignedAttributeTableGenerator.hpp"
-#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Cms/zzzz__DefaultSignedAttributeTableGenerator_def.hpp"
 #include "Org/BouncyCastle/Asn1/Cms/zzzz__AttributeTable_def.hpp"
+#include "Org/BouncyCastle/Cms/zzzz__CmsAttributeTableGenerator_def.hpp"
 #include "System/Collections/zzzz__Hashtable_def.hpp"
 #include "System/Collections/zzzz__IDictionary_def.hpp"
 //  Writing Method size for method: ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator._ctor
@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)()>(
     &::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x265fbf0;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x358f0f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -27,7 +27,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(
     ::Org::BouncyCastle::Asn1::Cms::AttributeTable*)>(&::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x26600c0;
+  constexpr static std::size_t addrs = 0x358f5d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Collections::Hashtable* (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(::System::Collections::IDictionary*)>(
         &::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::createStandardAttributeTable)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x2676100;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x35a5630;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(
     ::System::Collections::IDictionary*, ::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::DoCreateStandardAttributeTable)> {
-  constexpr static std::size_t size = 0x714;
-  constexpr static std::size_t addrs = 0x2676178;
+  constexpr static std::size_t size = 0x6e0;
+  constexpr static std::size_t addrs = 0x35a56b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -75,8 +75,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cms::AttributeTable* (
     ::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::*)(::System::Collections::IDictionary*)>(&::Org::BouncyCastle::Cms::DefaultSignedAttributeTableGenerator::GetAttributes)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x267688c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x35a5d90;
 
   inline static ::MethodInfo const* methodInfo() {
 

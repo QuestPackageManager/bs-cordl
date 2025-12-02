@@ -1,18 +1,46 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Networking/DownloadHandlerAssetBundle.hpp"
+#include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandler_impl.hpp"
 #include "UnityEngine/Networking/zzzz__DownloadHandlerAssetBundle_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
+#include "UnityEngine/Bindings/zzzz__ManagedSpanWrapper_def.hpp"
+#include "UnityEngine/Networking/zzzz__DownloadHandlerAssetBundle_def.hpp"
 #include "UnityEngine/zzzz__AssetBundle_def.hpp"
 #include "UnityEngine/zzzz__CachedAssetBundle_def.hpp"
 #include "UnityEngine/zzzz__Hash128_def.hpp"
+//  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller.ConvertToNative
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*)>(
+    &::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller::ConvertToNative)> {
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x6bf2374;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller*>::get(), "ConvertToNative",
+                                    std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get() })));
+    return ___internal_method;
+  }
+};
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller::ConvertToNative(::UnityEngine::Networking::DownloadHandlerAssetBundle* handler) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller*>::get(), "ConvertToNative",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, handler);
+}
+// Ctor Parameters []
+constexpr ::UnityEngine::Networking::DownloadHandlerAssetBundle_BindingsMarshaller::DownloadHandlerAssetBundle_BindingsMarshaller() {}
 //  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.Create
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::StringW, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::Create)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x4ae34e8;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x6bf1ba8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -27,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(
     ::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::StringW, ::StringW, ::UnityEngine::Hash128, uint32_t)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4ae353c;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x6bf1d40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::StringW, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundle)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x4ae3618;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6bf1f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -61,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(
     ::StringW, ::StringW, ::UnityEngine::Hash128, uint32_t)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::InternalCreateAssetBundleCached)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x4ae3674;
+  constexpr static std::size_t addrs = 0x6bf1f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
@@ -78,8 +106,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(::StringW, uint32_t)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::_ctor)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4ae3320;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6bf1a64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(
     ::StringW, ::UnityEngine::CachedAssetBundle, uint32_t)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x4ae3478;
+  constexpr static std::size_t size = 0x28;
+  constexpr static std::size_t addrs = 0x6bf1b80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -111,7 +139,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::GetData)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4ae368c;
+  constexpr static std::size_t addrs = 0x6bf1fb0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +155,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::GetText)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4ae36d8;
+  constexpr static std::size_t addrs = 0x6bf1ffc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,8 +170,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::AssetBundle> (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae3724;
+  constexpr static std::size_t size = 0x13c;
+  constexpr static std::size_t addrs = 0x6bf2048;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
@@ -156,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_autoLoadAssetBundle)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae3760;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6bf21c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
@@ -170,8 +198,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)(bool)>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::set_autoLoadAssetBundle)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4ae379c;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6bf224c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -185,8 +213,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Networking::DownloadHandlerAssetBundle::*)()>(
     &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_isDownloadComplete)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x4ae37e0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6bf22e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
@@ -194,22 +222,101 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.Create_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(
+    ::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, uint32_t)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::Create_Injected)> {
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x6bf1cec;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "Create_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.CreateCached_Injected
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::StringW, ::StringW, ::ByRef<::UnityEngine::Hash128>, uint32_t)>(
-        &::UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected)> {
+    static_cast<::System::IntPtr (*)(::UnityEngine::Networking::DownloadHandlerAssetBundle*, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>, ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>,
+                                     ::ByRef<::UnityEngine::Hash128>, uint32_t)>(&::UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x4ae35ac;
+  constexpr static std::size_t addrs = 0x6bf1f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "CreateCached_Injected", std::span<Il2CppClass const* const, 0>(),
         ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.get_assetBundle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(
+    &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6bf2184;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "get_assetBundle_Injected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.get_autoLoadAssetBundle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(
+    &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_autoLoadAssetBundle_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6bf2210;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "get_autoLoadAssetBundle_Injected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.set_autoLoadAssetBundle_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, bool)>(
+    &::UnityEngine::Networking::DownloadHandlerAssetBundle::set_autoLoadAssetBundle_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x6bf22a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "set_autoLoadAssetBundle_Injected",
+        std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Networking::DownloadHandlerAssetBundle.get_isDownloadComplete_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::IntPtr)>(
+    &::UnityEngine::Networking::DownloadHandlerAssetBundle::get_isDownloadComplete_Injected)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6bf2338;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "get_isDownloadComplete_Injected",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
     return ___internal_method;
   }
 };
@@ -292,15 +399,52 @@ inline bool UnityEngine::Networking::DownloadHandlerAssetBundle::get_isDownloadC
                                                                              "get_isDownloadComplete", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
-inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj, ::StringW url, ::StringW name,
-                                                                                                   ::ByRef<::UnityEngine::Hash128> hash, uint32_t crc) {
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::Create_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj,
+                                                                                             ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> url, uint32_t crc) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "Create_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, url, crc);
+}
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::CreateCached_Injected(::UnityEngine::Networking::DownloadHandlerAssetBundle* obj,
+                                                                                                   ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> url,
+                                                                                                   ::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper> name, ::ByRef<::UnityEngine::Hash128> hash,
+                                                                                                   uint32_t crc) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "CreateCached_Injected", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Bindings::ManagedSpanWrapper>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Hash128>>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, obj, url, name, hash, crc);
+}
+inline ::System::IntPtr UnityEngine::Networking::DownloadHandlerAssetBundle::get_assetBundle_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "get_assetBundle_Injected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, _unity_self);
+}
+inline bool UnityEngine::Networking::DownloadHandlerAssetBundle::get_autoLoadAssetBundle_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "get_autoLoadAssetBundle_Injected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
+}
+inline void UnityEngine::Networking::DownloadHandlerAssetBundle::set_autoLoadAssetBundle_Injected(::System::IntPtr _unity_self, bool value) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "set_autoLoadAssetBundle_Injected",
+      std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, _unity_self, value);
+}
+inline bool UnityEngine::Networking::DownloadHandlerAssetBundle::get_isDownloadComplete_Injected(::System::IntPtr _unity_self) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Networking::DownloadHandlerAssetBundle*>::get(), "get_isDownloadComplete_Injected",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, _unity_self);
 }
 inline ::UnityEngine::Networking::DownloadHandlerAssetBundle* UnityEngine::Networking::DownloadHandlerAssetBundle::New_ctor(::StringW url, uint32_t crc) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::Networking::DownloadHandlerAssetBundle*>(url, crc));

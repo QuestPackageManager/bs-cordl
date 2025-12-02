@@ -1,9 +1,9 @@
 #pragma once
 // IWYU pragma private; include "System/Security/AccessControl/GenericAcl.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAcl_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/Security/AccessControl/zzzz__AceEnumerator_def.hpp"
 #include "System/Security/AccessControl/zzzz__GenericAce_def.hpp"
@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::GenericAcl::*)()>(&::System::Security::AccessControl::GenericAcl::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc338c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5906ad4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::GenericAcl*>::get(), ".ctor",
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::get_IsSynchronized)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3cc5ccc;
+  constexpr static std::size_t addrs = 0x5909418;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::GenericAcl*>::get(),
@@ -89,7 +89,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::get_SyncRoot)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cc5cd4;
+  constexpr static std::size_t addrs = 0x5909420;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -105,7 +105,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::GenericAcl::*)(
     ::ArrayW<::System::Security::AccessControl::GenericAce*, ::Array<::System::Security::AccessControl::GenericAce*>*>, int32_t)>(&::System::Security::AccessControl::GenericAcl::CopyTo)> {
   constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3cc5cd8;
+  constexpr static std::size_t addrs = 0x5909424;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -121,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::AccessControl::GenericAcl::*)(::System::Array*, int32_t)>(
     &::System::Security::AccessControl::GenericAcl::System_Collections_ICollection_CopyTo)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x3cc5e5c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x59095a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Security::AccessControl::AceEnumerator* (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::GetEnumerator)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x3cc3c64;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x59073e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::AccessControl::GenericAcl*>::get(),
@@ -152,7 +152,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::System::Security::AccessControl::GenericAcl::*)()>(
     &::System::Security::AccessControl::GenericAcl::System_Collections_IEnumerable_GetEnumerator)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3cc5ee0;
+  constexpr static std::size_t addrs = 0x5909630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

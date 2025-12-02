@@ -30,10 +30,10 @@ public:
                       put = __cordl_internal_set_m_values)) ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*>
       m_values;
 
-  /// @brief Method Add, addr 0x3cfb73c, size 0xa8, virtual true, abstract: false, final false
+  /// @brief Method Add, addr 0x593d254, size 0xa8, virtual true, abstract: false, final false
   inline void Add(::System::Runtime::Serialization::FixupHolder* fixup);
 
-  /// @brief Method EnlargeArray, addr 0x3cfb7e4, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method EnlargeArray, addr 0x593d2fc, size 0x8c, virtual false, abstract: false, final false
   inline void EnlargeArray();
 
   static inline ::System::Runtime::Serialization::FixupHolderList* New_ctor();
@@ -52,10 +52,10 @@ public:
 
   constexpr void __cordl_internal_set_m_values(::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> value);
 
-  /// @brief Method .ctor, addr 0x3cfb5c4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593d0e4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method .ctor, addr 0x3cfb6d0, size 0x6c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x593d1f0, size 0x64, virtual false, abstract: false, final false
   inline void _ctor(int32_t startingSize);
 
 protected:
@@ -73,7 +73,7 @@ public:
   FixupHolderList(FixupHolderList const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3220 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3236 };
 
   /// @brief Field m_values, offset: 0x10, size: 0x8, def value: None
   ::ArrayW<::System::Runtime::Serialization::FixupHolder*, ::Array<::System::Runtime::Serialization::FixupHolder*>*> ___m_values;

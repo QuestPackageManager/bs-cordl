@@ -26,11 +26,11 @@ public:
   // Declarations
   static inline ::GlobalNamespace::GeometryTools* New_ctor();
 
-  /// @brief Method ThreePointsToBox, addr 0x22b4a00, size 0x498, virtual false, abstract: false, final false
+  /// @brief Method ThreePointsToBox, addr 0x31fb888, size 0x4a4, virtual false, abstract: false, final false
   static inline bool ThreePointsToBox(::UnityEngine::Vector3 p0, ::UnityEngine::Vector3 p1, ::UnityEngine::Vector3 p2, ::ByRef<::UnityEngine::Vector3> center, ::ByRef<::UnityEngine::Vector3> halfSize,
                                       ::ByRef<::UnityEngine::Quaternion> orientation);
 
-  /// @brief Method .ctor, addr 0x22b4e98, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x31fbd2c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -48,7 +48,7 @@ public:
   GeometryTools(GeometryTools const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17135 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20664 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

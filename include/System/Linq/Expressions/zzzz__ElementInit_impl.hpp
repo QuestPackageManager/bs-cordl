@@ -1,10 +1,10 @@
 #pragma once
 // IWYU pragma private; include "System/Linq/Expressions/ElementInit.hpp"
-#include "System/Linq/Expressions/zzzz__IArgumentProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Linq/Expressions/zzzz__ElementInit_def.hpp"
 #include "System/Collections/ObjectModel/zzzz__ReadOnlyCollection_1_def.hpp"
 #include "System/Linq/Expressions/zzzz__Expression_def.hpp"
+#include "System/Linq/Expressions/zzzz__IArgumentProvider_def.hpp"
 #include "System/Reflection/zzzz__MethodInfo_def.hpp"
 //  Writing Method size for method: ::System::Linq::Expressions::ElementInit.get_AddMethod
 template <>
@@ -12,7 +12,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Reflection::MethodInfo* (::System::Linq::Expressions::ElementInit::*)()>(
     &::System::Linq::Expressions::ElementInit::get_AddMethod)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40af1e4;
+  constexpr static std::size_t addrs = 0x5d5e6ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::Expression*>* (
     ::System::Linq::Expressions::ElementInit::*)()>(&::System::Linq::Expressions::ElementInit::get_Arguments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x40af1ec;
+  constexpr static std::size_t addrs = 0x5d5e6f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Linq::Expressions::Expression* (::System::Linq::Expressions::ElementInit::*)(int32_t)>(
     &::System::Linq::Expressions::ElementInit::GetArgument)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x40af1f4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5d5e6fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -54,8 +54,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Linq::Expressions::ElementInit::*)()>(
     &::System::Linq::Expressions::ElementInit::get_ArgumentCount)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x40af24c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x5d5e760;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Linq::Expressions::ElementInit*>::get(),

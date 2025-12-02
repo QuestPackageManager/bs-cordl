@@ -20,7 +20,7 @@ public:
   // Declarations
   static inline ::System::Threading::ManualResetEvent* New_ctor(bool initialState);
 
-  /// @brief Method .ctor, addr 0x3e4d0a4, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5a924f8, size 0xc, virtual false, abstract: false, final false
   inline void _ctor(bool initialState);
 
 protected:
@@ -38,7 +38,7 @@ public:
   ManualResetEvent(ManualResetEvent const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2668 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2677 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

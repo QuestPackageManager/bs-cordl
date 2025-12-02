@@ -25,24 +25,24 @@ public:
   /// @brief Field <DefaultSeed>k__BackingField, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__DefaultSeed_k__BackingField, put = setStaticF__DefaultSeed_k__BackingField)) uint64_t _DefaultSeed_k__BackingField;
 
-  /// @brief Method Block, addr 0x3dec514, size 0x88, virtual false, abstract: false, final false
+  /// @brief Method Block, addr 0x5a32ce0, size 0x8c, virtual false, abstract: false, final false
   static inline void Block(::ByRef<uint32_t> rp0, ::ByRef<uint32_t> rp1);
 
-  /// @brief Method ComputeHash32, addr 0x3dec124, size 0x3f0, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x5a32888, size 0x458, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::ByRef<uint8_t> data, int32_t count, uint64_t seed);
 
-  /// @brief Method ComputeHash32, addr 0x3dec078, size 0xac, virtual false, abstract: false, final false
+  /// @brief Method ComputeHash32, addr 0x5a327f0, size 0x98, virtual false, abstract: false, final false
   static inline int32_t ComputeHash32(::System::ReadOnlySpan_1<uint8_t> data, uint64_t seed);
 
-  /// @brief Method GenerateSeed, addr 0x3dec600, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method GenerateSeed, addr 0x5a32dd4, size 0xc, virtual false, abstract: false, final false
   static inline uint64_t GenerateSeed();
 
-  /// @brief Method _rotl, addr 0x3dec59c, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method _rotl, addr 0x5a32d6c, size 0xc, virtual false, abstract: false, final false
   static inline uint32_t _rotl(uint32_t value, int32_t shift);
 
   static inline uint64_t getStaticF__DefaultSeed_k__BackingField();
 
-  /// @brief Method get_DefaultSeed, addr 0x3dec5a8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_DefaultSeed, addr 0x5a32d78, size 0x5c, virtual false, abstract: false, final false
   static inline uint64_t get_DefaultSeed();
 
   static inline void setStaticF__DefaultSeed_k__BackingField(uint64_t value);
@@ -62,7 +62,7 @@ public:
   Marvin(Marvin const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2433 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2438 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

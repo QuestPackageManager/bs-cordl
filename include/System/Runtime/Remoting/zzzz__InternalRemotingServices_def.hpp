@@ -30,7 +30,7 @@ public:
   /// @brief Field _soapAttributes, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF__soapAttributes, put = setStaticF__soapAttributes)) ::System::Collections::Hashtable* _soapAttributes;
 
-  /// @brief Method GetCachedSoapAttribute, addr 0x3cc73e4, size 0x518, virtual false, abstract: false, final false
+  /// @brief Method GetCachedSoapAttribute, addr 0x590aaec, size 0x4fc, virtual false, abstract: false, final false
   static inline ::System::Runtime::Remoting::Metadata::SoapAttribute* GetCachedSoapAttribute(::System::Object* reflectionObject);
 
   static inline ::System::Collections::Hashtable* getStaticF__soapAttributes();
@@ -52,7 +52,7 @@ public:
   InternalRemotingServices(InternalRemotingServices const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3061 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3078 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

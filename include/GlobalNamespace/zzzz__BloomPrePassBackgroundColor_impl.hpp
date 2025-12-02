@@ -14,7 +14,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundColor::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColor::get_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d5f20;
+  constexpr static std::size_t addrs = 0x564d38c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColor*>::get(),
@@ -28,7 +28,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColor::*)(::UnityEngine::Color)>(
     &::GlobalNamespace::BloomPrePassBackgroundColor::set_color)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x39d5f2c;
+  constexpr static std::size_t addrs = 0x564d398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::GlobalNamespace::BloomPrePassBackgroundColor::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColor::get_bgColor)> {
-  constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x39d5f38;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x564d3a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColor*>::get(),
@@ -56,8 +56,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColor::*)()>(
     &::GlobalNamespace::BloomPrePassBackgroundColor::InitIfNeeded)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x39d5fc8;
+  constexpr static std::size_t size = 0x190;
+  constexpr static std::size_t addrs = 0x564d43c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColor*>::get(),
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColor::*)(
     ::UnityEngine::RenderTexture*, ::UnityEngine::Matrix4x4, ::UnityEngine::Matrix4x4)>(&::GlobalNamespace::BloomPrePassBackgroundColor::Render)> {
   constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x39d614c;
+  constexpr static std::size_t addrs = 0x564d5cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,7 +86,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BloomPrePassBackgroundColor::*)()>(&::GlobalNamespace::BloomPrePassBackgroundColor::_ctor)> {
   constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x39d6220;
+  constexpr static std::size_t addrs = 0x564d6a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BloomPrePassBackgroundColor*>::get(), ".ctor",

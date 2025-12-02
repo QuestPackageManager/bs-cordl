@@ -3,13 +3,15 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/InputSystem/LowLevel/zzzz__IInputStateTypeInfo_def.hpp"
 #include "UnityEngine/InputSystem/Utilities/zzzz__FourCC_def.hpp"
 #include <cmath>
 #include <cstddef>
 CORDL_MODULE_EXPORT(AndroidSensorState)
 namespace UnityEngine::InputSystem::Android::LowLevel {
 struct AndroidSensorState__data_e__FixedBuffer;
+}
+namespace UnityEngine::InputSystem::LowLevel {
+class IInputStateTypeInfo;
 }
 namespace UnityEngine::InputSystem::Utilities {
 struct FourCC;
@@ -40,7 +42,7 @@ public:
   constexpr AndroidSensorState__data_e__FixedBuffer(float_t FixedElementField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6866 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8925 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
@@ -60,7 +62,7 @@ static_assert(offsetof(::UnityEngine::InputSystem::Android::LowLevel::AndroidSen
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer, 0x40>, "Size mismatch!");
 
 } // namespace UnityEngine::InputSystem::Android::LowLevel
-// Dependencies UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState::<data>e__FixedBuffer, UnityEngine.InputSystem.LowLevel.IInputStateTypeInfo, UnityEngine.InputSystem.Utilities.FourCC
+// Dependencies UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState::<data>e__FixedBuffer, UnityEngine.InputSystem.Utilities.FourCC
 namespace UnityEngine::InputSystem::Android::LowLevel {
 // Is value type: true
 // CS Name: UnityEngine.InputSystem.Android.LowLevel.AndroidSensorState
@@ -77,12 +79,12 @@ public:
   /// @brief Convert operator to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
   constexpr operator ::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo*();
 
-  /// @brief Method WithData, addr 0x4606e28, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method WithData, addr 0x638ecd4, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState WithData(::ArrayW<float_t, ::Array<float_t>*> data);
 
   static inline ::UnityEngine::InputSystem::Utilities::FourCC getStaticF_kFormat();
 
-  /// @brief Method get_format, addr 0x4606f44, size 0x58, virtual true, abstract: false, final true
+  /// @brief Method get_format, addr 0x638ed94, size 0x5c, virtual true, abstract: false, final true
   inline ::UnityEngine::InputSystem::Utilities::FourCC get_format();
 
   /// @brief Convert to "::UnityEngine::InputSystem::LowLevel::IInputStateTypeInfo"
@@ -98,7 +100,7 @@ public:
   constexpr AndroidSensorState(::UnityEngine::InputSystem::Android::LowLevel::AndroidSensorState__data_e__FixedBuffer data) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6867 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8926 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };

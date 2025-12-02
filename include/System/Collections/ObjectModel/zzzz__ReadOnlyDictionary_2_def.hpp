@@ -3,17 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyDictionary_2_def.hpp"
-#include "System/Collections/Generic/zzzz__KeyValuePair_2_def.hpp"
-#include "System/Collections/zzzz__ICollection_def.hpp"
-#include "System/Collections/zzzz__IDictionaryEnumerator_def.hpp"
-#include "System/Collections/zzzz__IDictionary_def.hpp"
-#include "System/Collections/zzzz__IEnumerable_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
@@ -29,6 +18,12 @@ template <typename T> class IEnumerable_1;
 }
 namespace System::Collections::Generic {
 template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
+template <typename T> class IReadOnlyCollection_1;
+}
+namespace System::Collections::Generic {
+template <typename TKey, typename TValue> class IReadOnlyDictionary_2;
 }
 namespace System::Collections::Generic {
 template <typename TKey, typename TValue> struct KeyValuePair_2;
@@ -50,6 +45,12 @@ class ICollection;
 }
 namespace System::Collections {
 class IDictionaryEnumerator;
+}
+namespace System::Collections {
+class IDictionary;
+}
+namespace System::Collections {
+class IEnumerable;
 }
 namespace System::Collections {
 class IEnumerator;
@@ -78,7 +79,7 @@ MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2);
 MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2_KeyCollection);
 MARK_GEN_REF_PTR_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2_ValueCollection);
 MARK_GEN_VAL_T(::System::Collections::ObjectModel::ReadOnlyDictionary_2_DictionaryEnumerator);
-// Dependencies System.Collections.IDictionaryEnumerator, System.Collections.IEnumerator
+// Dependencies
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -138,7 +139,7 @@ public:
                                                       ::System::Collections::Generic::IEnumerator_1<::System::Collections::Generic::KeyValuePair_2<TKey, TValue>>* _enumerator) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3826 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3751 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
@@ -153,8 +154,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
-// System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -280,7 +280,7 @@ public:
   ReadOnlyDictionary_2_KeyCollection(ReadOnlyDictionary_2_KeyCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3827 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3752 };
 
   /// @brief Field _collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::ICollection_1<TKey>* ____collection;
@@ -292,8 +292,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IEnumerable`1<T>, System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.ICollection,
-// System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -419,7 +418,7 @@ public:
   ReadOnlyDictionary_2_ValueCollection(ReadOnlyDictionary_2_ValueCollection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3828 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3753 };
 
   /// @brief Field _collection, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::ICollection_1<TValue>* ____collection;
@@ -431,9 +430,7 @@ public:
 };
 // Non member Declarations
 } // namespace System::Collections::ObjectModel
-// Dependencies System.Collections.Generic.ICollection`1<T>, System.Collections.Generic.IDictionary`2<TKey, TValue>, System.Collections.Generic.IEnumerable`1<T>,
-// System.Collections.Generic.IReadOnlyCollection`1<T>, System.Collections.Generic.IReadOnlyDictionary`2<TKey, TValue>, System.Collections.Generic.KeyValuePair`2<TKey, TValue>,
-// System.Collections.ICollection, System.Collections.IDictionary, System.Collections.IEnumerable, System.Object
+// Dependencies System.Object
 namespace System::Collections::ObjectModel {
 // cpp template
 template <typename TKey, typename TValue>
@@ -704,7 +701,7 @@ public:
   ReadOnlyDictionary_2(ReadOnlyDictionary_2 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3829 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3754 };
 
   /// @brief Field m_dictionary, offset: 0x10, size: 0x8, def value: None
   ::System::Collections::Generic::IDictionary_2<TKey, TValue>* ___m_dictionary;

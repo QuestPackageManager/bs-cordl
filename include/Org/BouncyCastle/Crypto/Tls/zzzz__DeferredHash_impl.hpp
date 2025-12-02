@@ -1,7 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Crypto/Tls/DeferredHash.hpp"
-#include "Org/BouncyCastle/Crypto/Tls/zzzz__TlsHandshakeHash_impl.hpp"
-#include "Org/BouncyCastle/Crypto/zzzz__IDigest_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DeferredHash_def.hpp"
 #include "Org/BouncyCastle/Crypto/Tls/zzzz__DigestInputBuffer_def.hpp"
@@ -13,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::DeferredHash::_ctor)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x23ecc84;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x331b1c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Org::BouncyCastle::Crypto::Tls::DeferredHash*>::get(), ".ctor",
@@ -27,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(uint8_t, ::Org::BouncyCastle::Crypto::IDigest*)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::_ctor)> {
-  constexpr static std::size_t size = 0x138;
-  constexpr static std::size_t addrs = 0x23ecd30;
+  constexpr static std::size_t size = 0x120;
+  constexpr static std::size_t addrs = 0x331b264;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -44,7 +42,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(::Org::BouncyCastle::Crypto::Tls::TlsContext*)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x23ece68;
+  constexpr static std::size_t addrs = 0x331b384;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -59,8 +57,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::NotifyPrfDetermined)> {
-  constexpr static std::size_t size = 0x180;
-  constexpr static std::size_t addrs = 0x23ece70;
+  constexpr static std::size_t size = 0x18c;
+  constexpr static std::size_t addrs = 0x331b38c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -75,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::TrackHashAlgorithm)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x23ed060;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x331b59c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -92,7 +90,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::SealHashAlgorithms)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x23ed0c8;
+  constexpr static std::size_t addrs = 0x331b600;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -107,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::StopTracking)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x23ed0d8;
+  constexpr static std::size_t size = 0x1bc;
+  constexpr static std::size_t addrs = 0x331b610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -123,8 +121,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Crypto::IDigest* (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::ForkPrfHash)> {
-  constexpr static std::size_t size = 0x1b4;
-  constexpr static std::size_t addrs = 0x23ed29c;
+  constexpr static std::size_t size = 0x1b8;
+  constexpr static std::size_t addrs = 0x331b7cc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -139,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::GetFinalHash)> {
-  constexpr static std::size_t size = 0x218;
-  constexpr static std::size_t addrs = 0x23ed450;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x331b984;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -156,7 +154,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::get_AlgorithmName)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23ed668;
+  constexpr static std::size_t addrs = 0x331bb98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +170,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::GetByteLength)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23ed6b4;
+  constexpr static std::size_t addrs = 0x331bbe4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -188,7 +186,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::GetDigestSize)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23ed700;
+  constexpr static std::size_t addrs = 0x331bc30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -203,8 +201,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::Update)> {
-  constexpr static std::size_t size = 0x438;
-  constexpr static std::size_t addrs = 0x23ed74c;
+  constexpr static std::size_t size = 0x418;
+  constexpr static std::size_t addrs = 0x331bc7c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -219,8 +217,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::BlockUpdate)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x23edb84;
+  constexpr static std::size_t size = 0x43c;
+  constexpr static std::size_t addrs = 0x331c094;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -236,7 +234,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::DoFinal)> {
   constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x23edfe0;
+  constexpr static std::size_t addrs = 0x331c4d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -250,8 +248,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(&::Org::BouncyCastle::Crypto::Tls::DeferredHash::Reset)> {
-  constexpr static std::size_t size = 0x430;
-  constexpr static std::size_t addrs = 0x23ee02c;
+  constexpr static std::size_t size = 0x400;
+  constexpr static std::size_t addrs = 0x331c51c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -266,8 +264,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)()>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::CheckStopBuffering)> {
-  constexpr static std::size_t size = 0x45c;
-  constexpr static std::size_t addrs = 0x23ee45c;
+  constexpr static std::size_t size = 0x43c;
+  constexpr static std::size_t addrs = 0x331c91c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -282,8 +280,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Crypto::Tls::DeferredHash::*)(uint8_t)>(
     &::Org::BouncyCastle::Crypto::Tls::DeferredHash::CheckTrackingHash)> {
-  constexpr static std::size_t size = 0x1a0;
-  constexpr static std::size_t addrs = 0x23ee8b8;
+  constexpr static std::size_t size = 0x198;
+  constexpr static std::size_t addrs = 0x331cd58;
 
   inline static ::MethodInfo const* methodInfo() {
 

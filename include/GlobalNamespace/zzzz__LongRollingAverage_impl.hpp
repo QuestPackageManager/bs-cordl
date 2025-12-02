@@ -7,7 +7,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::GlobalNamespace::LongRollingAverage::*)()>(&::GlobalNamespace::LongRollingAverage::get_currentAverage)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22d3450;
+  constexpr static std::size_t addrs = 0x3215568;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LongRollingAverage*>::get(),
@@ -20,7 +20,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::LongRollingAverage::*)()>(&::GlobalNamespace::LongRollingAverage::get_hasValue)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x22d3458;
+  constexpr static std::size_t addrs = 0x32035bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LongRollingAverage*>::get(), "get_hasValue",
@@ -32,8 +32,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LongRollingAverage::*)(int32_t)>(&::GlobalNamespace::LongRollingAverage::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x22d3468;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x3204954;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,8 +46,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LongRollingAverage::*)(int64_t)>(&::GlobalNamespace::LongRollingAverage::Update)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x22d34d0;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x32076a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -61,7 +61,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LongRollingAverage::*)()>(&::GlobalNamespace::LongRollingAverage::Reset)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x22d35c4;
+  constexpr static std::size_t addrs = 0x3205de4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LongRollingAverage*>::get(), "Reset",

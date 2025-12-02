@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/Runtime/Remoting/Lifetime/zzzz__ILease_def.hpp"
 #include "System/Runtime/Remoting/Lifetime/zzzz__LeaseState_def.hpp"
 #include "System/zzzz__DateTime_def.hpp"
 #include "System/zzzz__MarshalByRefObject_def.hpp"
@@ -60,18 +59,18 @@ namespace System::Runtime::Remoting::Lifetime {
 class CORDL_TYPE Lease_RenewalDelegate : public ::System::MulticastDelegate {
 public:
   // Declarations
-  /// @brief Method BeginInvoke, addr 0x3cdc044, size 0x20, virtual true, abstract: false, final false
+  /// @brief Method BeginInvoke, addr 0x591ed94, size 0x20, virtual true, abstract: false, final false
   inline ::System::IAsyncResult* BeginInvoke(::System::Runtime::Remoting::Lifetime::ILease* lease, ::System::AsyncCallback* callback, ::System::Object* object);
 
-  /// @brief Method EndInvoke, addr 0x3cdc248, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method EndInvoke, addr 0x591efa4, size 0x24, virtual true, abstract: false, final false
   inline ::System::TimeSpan EndInvoke(::System::IAsyncResult* result);
 
-  /// @brief Method Invoke, addr 0x3cdc270, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method Invoke, addr 0x591efc8, size 0x14, virtual true, abstract: false, final false
   inline ::System::TimeSpan Invoke(::System::Runtime::Remoting::Lifetime::ILease* lease);
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
 
-  /// @brief Method .ctor, addr 0x3cdbf44, size 0x100, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x591ec50, size 0x144, virtual false, abstract: false, final false
   inline void _ctor(::System::Object* object, ::System::IntPtr method);
 
 protected:
@@ -89,7 +88,7 @@ public:
   Lease_RenewalDelegate(Lease_RenewalDelegate const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3091 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3108 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -97,7 +96,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Lifetime::Lease_RenewalDelegate, 0x80>, "Size mismatch!");
 
 } // namespace System::Runtime::Remoting::Lifetime
-// Dependencies System.DateTime, System.MarshalByRefObject, System.Runtime.Remoting.Lifetime.ILease, System.Runtime.Remoting.Lifetime.LeaseState, System.TimeSpan
+// Dependencies System.DateTime, System.MarshalByRefObject, System.Runtime.Remoting.Lifetime.LeaseState, System.TimeSpan
 namespace System::Runtime::Remoting::Lifetime {
 // Is value type: false
 // CS Name: System.Runtime.Remoting.Lifetime.Lease
@@ -139,24 +138,24 @@ public:
   /// @brief Convert operator to "::System::Runtime::Remoting::Lifetime::ILease"
   constexpr operator ::System::Runtime::Remoting::Lifetime::ILease*() noexcept;
 
-  /// @brief Method Activate, addr 0x3cdb990, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method Activate, addr 0x591e67c, size 0xc, virtual false, abstract: false, final false
   inline void Activate();
 
-  /// @brief Method CheckNextSponsor, addr 0x3cdbd04, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method CheckNextSponsor, addr 0x591e9f0, size 0x260, virtual false, abstract: false, final false
   inline void CheckNextSponsor();
 
   static inline ::System::Runtime::Remoting::Lifetime::Lease* New_ctor();
 
-  /// @brief Method ProcessSponsorResponse, addr 0x3cdc064, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method ProcessSponsorResponse, addr 0x591edb4, size 0x1f0, virtual false, abstract: false, final false
   inline void ProcessSponsorResponse(::System::Object* state, bool timedOut);
 
-  /// @brief Method Renew, addr 0x3cdb9a4, size 0x8c, virtual true, abstract: false, final true
+  /// @brief Method Renew, addr 0x591e690, size 0x90, virtual true, abstract: false, final true
   inline ::System::TimeSpan Renew(::System::TimeSpan renewalTime);
 
-  /// @brief Method Unregister, addr 0x3cdba30, size 0x144, virtual true, abstract: false, final true
+  /// @brief Method Unregister, addr 0x591e720, size 0x140, virtual true, abstract: false, final true
   inline void Unregister(::System::Runtime::Remoting::Lifetime::ISponsor* obj);
 
-  /// @brief Method UpdateState, addr 0x3cdbb74, size 0x190, virtual false, abstract: false, final false
+  /// @brief Method UpdateState, addr 0x591e860, size 0x190, virtual false, abstract: false, final false
   inline void UpdateState();
 
   constexpr ::System::Runtime::Remoting::Lifetime::LeaseState const& __cordl_internal_get__currentState() const;
@@ -207,16 +206,16 @@ public:
 
   constexpr void __cordl_internal_set__sponsorshipTimeout(::System::TimeSpan value);
 
-  /// @brief Method .ctor, addr 0x3cd49fc, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5917a40, size 0x17c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_CurrentLeaseTime, addr 0x3cdb920, size 0x68, virtual true, abstract: false, final true
+  /// @brief Method get_CurrentLeaseTime, addr 0x591e608, size 0x6c, virtual true, abstract: false, final true
   inline ::System::TimeSpan get_CurrentLeaseTime();
 
-  /// @brief Method get_CurrentState, addr 0x3cdb988, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CurrentState, addr 0x591e674, size 0x8, virtual true, abstract: false, final true
   inline ::System::Runtime::Remoting::Lifetime::LeaseState get_CurrentState();
 
-  /// @brief Method get_RenewOnCallTime, addr 0x3cdb99c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_RenewOnCallTime, addr 0x591e688, size 0x8, virtual true, abstract: false, final true
   inline ::System::TimeSpan get_RenewOnCallTime();
 
   /// @brief Convert to "::System::Runtime::Remoting::Lifetime::ILease"
@@ -237,7 +236,7 @@ public:
   Lease(Lease const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3092 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3109 };
 
   /// @brief Field _leaseExpireTime, offset: 0x18, size: 0x8, def value: None
   ::System::DateTime ____leaseExpireTime;

@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::System::IO::Stream*)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::_ctor)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x41d5820;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x5e7f444;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,7 +25,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::get_CanRead)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41d60f4;
+  constexpr static std::size_t addrs = 0x5e7fd60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -40,7 +40,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::get_CanSeek)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41d619c;
+  constexpr static std::size_t addrs = 0x5e7fe08;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -55,7 +55,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::get_CanWrite)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x41d61d4;
+  constexpr static std::size_t addrs = 0x5e7fe40;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -70,8 +70,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::get_Length)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x41d620c;
+  constexpr static std::size_t size = 0x70;
+  constexpr static std::size_t addrs = 0x5e7fe78;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::get_Position)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x41d635c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x5e7ffcc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(int64_t)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::set_Position)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x41d63b8;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x5e8002c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -118,8 +118,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int64_t (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(int64_t, ::System::IO::SeekOrigin)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::Seek)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x41d648c;
+  constexpr static std::size_t size = 0x16c;
+  constexpr static std::size_t addrs = 0x5e80104;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -134,8 +134,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::Read)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x41d65f4;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x5e80270;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -150,8 +150,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::Write)> {
-  constexpr static std::size_t size = 0x1bc;
-  constexpr static std::size_t addrs = 0x41d682c;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x5e804ac;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -166,8 +166,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::ReadByte)> {
-  constexpr static std::size_t size = 0x118;
-  constexpr static std::size_t addrs = 0x41d6a64;
+  constexpr static std::size_t size = 0x11c;
+  constexpr static std::size_t addrs = 0x5e806e8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -182,8 +182,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(uint8_t)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::WriteByte)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x41d6b7c;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x5e80804;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -198,8 +198,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(int64_t)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::SetLength)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x41d6c64;
+  constexpr static std::size_t size = 0x98;
+  constexpr static std::size_t addrs = 0x5e808f0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -214,7 +214,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(&::System::Data::SqlTypes::SqlXmlStreamWrapper::Flush)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x41d6cf8;
+  constexpr static std::size_t addrs = 0x5e80988;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -229,8 +229,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(bool)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::Dispose)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x41d6d14;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x5e809a4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::StringW)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::ThrowIfStreamCannotSeek)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x41d62e0;
+  constexpr static std::size_t addrs = 0x5e7ff50;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::StringW)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::ThrowIfStreamCannotRead)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x41d67b0;
+  constexpr static std::size_t addrs = 0x5e80430;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -276,7 +276,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::StringW)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::ThrowIfStreamCannotWrite)> {
   constexpr static std::size_t size = 0x7c;
-  constexpr static std::size_t addrs = 0x41d69e8;
+  constexpr static std::size_t addrs = 0x5e8066c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,7 +291,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)(::StringW)>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::ThrowIfStreamClosed)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x41d6278;
+  constexpr static std::size_t addrs = 0x5e7fee8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -306,7 +306,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Data::SqlTypes::SqlXmlStreamWrapper::*)()>(
     &::System::Data::SqlTypes::SqlXmlStreamWrapper::IsStreamClosed)> {
   constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x41d612c;
+  constexpr static std::size_t addrs = 0x5e7fd98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Data::SqlTypes::SqlXmlStreamWrapper*>::get(),

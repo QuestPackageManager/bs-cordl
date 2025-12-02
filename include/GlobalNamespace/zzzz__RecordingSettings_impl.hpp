@@ -23,8 +23,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     ::GlobalNamespace::ObjectsMovementRecorder_Mode, ::StringW, ::GlobalNamespace::ObjectsMovementRecorder_CameraView, bool, bool, int32_t, int32_t, int32_t,
     ::ArrayW<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*, ::Array<::GlobalNamespace::PlaybackRenderer_PlaybackScreenshot*>*>, bool, float_t, float_t, bool,
     ::System::Nullable_1<::GlobalNamespace::EnvironmentType>, ::GlobalNamespace::EnvironmentInfoSO*, bool)>(&::GlobalNamespace::RecordingSettings::_ctor)> {
-  constexpr static std::size_t size = 0x148;
-  constexpr static std::size_t addrs = 0x3b2a914;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x570b558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -60,8 +60,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::RecordingSettings::*)()>(&::GlobalNamespace::RecordingSettings::ToString)> {
-  constexpr static std::size_t size = 0xa6c;
-  constexpr static std::size_t addrs = 0x3b2b7b4;
+  constexpr static std::size_t size = 0xcbc;
+  constexpr static std::size_t addrs = 0x570c3fc;
 
   inline static ::MethodInfo const* methodInfo() {
 

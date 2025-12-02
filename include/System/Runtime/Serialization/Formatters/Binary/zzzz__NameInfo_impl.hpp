@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d0f640;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5950a74;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::Init)> {
   constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3d0f620;
+  constexpr static std::size_t addrs = 0x5950a54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -40,8 +40,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::get_IsSealed)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x3d0f384;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x59507ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -56,7 +56,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)()>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::get_NIname)> {
   constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x3d137f4;
+  constexpr static std::size_t addrs = 0x5954a68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -71,7 +71,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Runtime::Serialization::Formatters::Binary::NameInfo::*)(::StringW)>(
     &::System::Runtime::Serialization::Formatters::Binary::NameInfo::set_NIname)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3d1382c;
+  constexpr static std::size_t addrs = 0x5954aa0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

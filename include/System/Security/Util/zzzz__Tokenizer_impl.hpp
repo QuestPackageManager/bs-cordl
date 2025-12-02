@@ -24,8 +24,8 @@ constexpr ::System::Security::Util::Tokenizer_TokenSource System::Security::Util
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::StringW)>(&::System::Security::Util::Tokenizer_StringMaker::HashString)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3c98e68;
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x58dd458;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(
     &::System::Security::Util::Tokenizer_StringMaker::HashCharArray)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x3c98ed4;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x58dd49c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +55,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer_StringMaker::*)()>(
     &::System::Security::Util::Tokenizer_StringMaker::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x3c98f30;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x58dd4f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Tokenizer_StringMaker*>::get(), ".ctor",
@@ -69,8 +69,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::System::Security::Util::Tokenizer_StringMaker::*)(
     ::StringW, ::ArrayW<char16_t, ::Array<char16_t>*>, int32_t)>(&::System::Security::Util::Tokenizer_StringMaker::CompareStringAndChars)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x3c98fc4;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x58dd57c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Util::Tokenizer_StringMaker::*)()>(
     &::System::Security::Util::Tokenizer_StringMaker::MakeString)> {
-  constexpr static std::size_t size = 0x21c;
-  constexpr static std::size_t addrs = 0x3c938a8;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x58d7f14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Tokenizer_StringMaker*>::get(),
@@ -229,8 +229,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer_StreamTokenReader::*)(::System::IO::StreamReader*)>(
     &::System::Security::Util::Tokenizer_StreamTokenReader::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3c98c78;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x58dd270;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -245,7 +245,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Util::Tokenizer_StreamTokenReader::*)()>(
     &::System::Security::Util::Tokenizer_StreamTokenReader::Read)> {
   constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x3c99064;
+  constexpr static std::size_t addrs = 0x58dd610;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -261,7 +261,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::System::Security::Util::Tokenizer_StreamTokenReader::*)()>(
     &::System::Security::Util::Tokenizer_StreamTokenReader::get_NumCharEncountered)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3c990a0;
+  constexpr static std::size_t addrs = 0x58dd64c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Tokenizer_StreamTokenReader*>::get(),
@@ -327,8 +327,8 @@ constexpr ::System::Security::Util::Tokenizer_StreamTokenReader::Tokenizer_Strea
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer::*)()>(&::System::Security::Util::Tokenizer::BasicInitialization)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x3c98ba8;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x58dd198;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Tokenizer*>::get(),
@@ -340,8 +340,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer::*)()>(&::System::Security::Util::Tokenizer::Recycle)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3c98c20;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x58dd214;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Tokenizer*>::get(), "Recycle",
@@ -353,8 +353,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer::*)(::StringW)>(&::System::Security::Util::Tokenizer::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3c98b60;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x58dd15c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -368,8 +368,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer::*)(::System::Text::Encoding*)>(
     &::System::Security::Util::Tokenizer::ChangeFormat)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3c9840c;
+  constexpr static std::size_t size = 0x210;
+  constexpr static std::size_t addrs = 0x58dca24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -383,8 +383,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Security::Util::Tokenizer::*)(::System::Security::Util::TokenizerStream*, int32_t, bool)>(
     &::System::Security::Util::Tokenizer::GetTokens)> {
-  constexpr static std::size_t size = 0x7d4;
-  constexpr static std::size_t addrs = 0x3c97bd8;
+  constexpr static std::size_t size = 0x7d8;
+  constexpr static std::size_t addrs = 0x58dc1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -398,8 +398,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::System::Security::Util::Tokenizer::*)()>(&::System::Security::Util::Tokenizer::GetStringToken)> {
-  constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3c98d88;
+  constexpr static std::size_t size = 0x14;
+  constexpr static std::size_t addrs = 0x58dd36c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Security::Util::Tokenizer*>::get(), "GetStringToken",

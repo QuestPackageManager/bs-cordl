@@ -1,13 +1,13 @@
 #pragma once
 // IWYU pragma private; include "Zenject/MethodProviderSimple_1.hpp"
 #include "System/zzzz__Object_impl.hpp"
-#include "Zenject/zzzz__IProvider_impl.hpp"
 #include "Zenject/zzzz__MethodProviderSimple_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/zzzz__Action_def.hpp"
 #include "System/zzzz__Func_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "System/zzzz__Type_def.hpp"
+#include "Zenject/zzzz__IProvider_def.hpp"
 #include "Zenject/zzzz__InjectContext_def.hpp"
 #include "Zenject/zzzz__TypeValuePair_def.hpp"
 template <typename TReturn> constexpr ::System::Func_1<TReturn>*& Zenject::MethodProviderSimple_1<TReturn>::__cordl_internal_get__method() {

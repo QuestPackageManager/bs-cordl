@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)(::UnityEngine::Rect, bool)>(&::TMPro::TMP_SelectionCaret::Cull)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x47fdeac;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x677bd60;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)()>(&::TMPro::TMP_SelectionCaret::UpdateGeometry)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x47fdf7c;
+  constexpr static std::size_t addrs = 0x677be04;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -36,7 +36,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_SelectionCaret::*)()>(&::TMPro::TMP_SelectionCaret::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x47fdf80;
+  constexpr static std::size_t addrs = 0x677be08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_SelectionCaret*>::get(), ".ctor",

@@ -4,10 +4,7 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__BeatmapDifficulty_def.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
-#include "System/Collections/zzzz__IEnumerator_def.hpp"
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
 #include <cstdint>
@@ -58,10 +55,16 @@ namespace HMUI {
 class ButtonBinder;
 }
 namespace System::Collections::Generic {
+template <typename T> class IEnumerator_1;
+}
+namespace System::Collections::Generic {
 template <typename T> class List_1;
 }
 namespace System::Collections {
 class IEnumerator;
+}
+namespace System {
+class IDisposable;
 }
 namespace System {
 class Object;
@@ -85,7 +88,7 @@ class WaypointsTestMenuViewController__CheckBeatmaps_d__18;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestMenuViewController);
 MARK_REF_PTR_T(::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18);
-// Dependencies BeatmapDifficulty, System.Collections.Generic.IEnumerator`1<T>, System.Collections.Generic.List`1::Enumerator<T>, System.Collections.IEnumerator, System.IDisposable, System.Object
+// Dependencies BeatmapDifficulty, System.Collections.Generic.List`1::Enumerator<T>, System.Object
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: WaypointsTestMenuViewController/<CheckBeatmaps>d__18
@@ -145,21 +148,21 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x22676d4, size 0xab8, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x318a970, size 0xbcc, virtual true, abstract: false, final true
   inline bool MoveNext();
 
   static inline ::GlobalNamespace::WaypointsTestMenuViewController__CheckBeatmaps_d__18* New_ctor(int32_t __1__state);
 
-  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x226827c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.Generic.IEnumerator<System.Object>.get_Current, addr 0x318b614, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_Generic_IEnumerator_System_Object__get_Current();
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x2268284, size 0x38, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x318b61c, size 0x38, virtual true, abstract: false, final true
   inline void System_Collections_IEnumerator_Reset();
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x22682bc, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x318b654, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* System_Collections_IEnumerator_get_Current();
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x2267578, size 0x15c, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x318a7a8, size 0x1c8, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get___1__state() const;
@@ -234,16 +237,16 @@ public:
 
   constexpr void __cordl_internal_set__previewLevel_5__5(::UnityW<::GlobalNamespace::BeatmapLevelSO> value);
 
-  /// @brief Method <>m__Finally1, addr 0x226822c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally1, addr 0x318b5cc, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally1();
 
-  /// @brief Method <>m__Finally2, addr 0x22681dc, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally2, addr 0x318b584, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally2();
 
-  /// @brief Method <>m__Finally3, addr 0x226818c, size 0x50, virtual false, abstract: false, final false
+  /// @brief Method <>m__Finally3, addr 0x318b53c, size 0x48, virtual false, abstract: false, final false
   inline void __m__Finally3();
 
-  /// @brief Method .ctor, addr 0x22673ac, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318a5fc, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t __1__state);
 
   /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::System::Object*>"
@@ -270,7 +273,7 @@ public:
   WaypointsTestMenuViewController__CheckBeatmaps_d__18(WaypointsTestMenuViewController__CheckBeatmaps_d__18 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17698 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21454 };
 
   /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
   int32_t _____1__state;
@@ -399,27 +402,27 @@ public:
                       put = __cordl_internal_set__waypointsTestScenesTransitionSetupData)) ::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO>
       _waypointsTestScenesTransitionSetupData;
 
-  /// @brief Method CheckBeatmaps, addr 0x226734c, size 0x60, virtual false, abstract: false, final false
+  /// @brief Method CheckBeatmaps, addr 0x318a5a8, size 0x54, virtual false, abstract: false, final false
   inline ::System::Collections::IEnumerator* CheckBeatmaps();
 
-  /// @brief Method HandleMainGameSceneDidFinish, addr 0x22673d4, size 0x98, virtual false, abstract: false, final false
+  /// @brief Method HandleMainGameSceneDidFinish, addr 0x318a604, size 0x98, virtual false, abstract: false, final false
   inline void HandleMainGameSceneDidFinish(::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO* data, ::GlobalNamespace::LevelCompletionResults* results);
 
   static inline ::GlobalNamespace::WaypointsTestMenuViewController* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x226726c, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x318a4bc, size 0xec, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x2267118, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x318a314, size 0x1a8, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method <HandleMainGameSceneDidFinish>b__19_0, addr 0x2267570, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method <HandleMainGameSceneDidFinish>b__19_0, addr 0x318a7a0, size 0x8, virtual false, abstract: false, final false
   inline void _HandleMainGameSceneDidFinish_b__19_0(::Zenject::DiContainer* container);
 
-  /// @brief Method <Start>b__16_0, addr 0x2267474, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__16_0, addr 0x318a6a0, size 0xb4, virtual false, abstract: false, final false
   inline void _Start_b__16_0();
 
-  /// @brief Method <Start>b__16_1, addr 0x2267524, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method <Start>b__16_1, addr 0x318a754, size 0x4c, virtual false, abstract: false, final false
   inline void _Start_b__16_1();
 
   constexpr ::GlobalNamespace::AudioClipAsyncLoader* const& __cordl_internal_get__audioClipAsyncLoader() const;
@@ -518,7 +521,7 @@ public:
 
   constexpr void __cordl_internal_set__waypointsTestScenesTransitionSetupData(::UnityW<::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO> value);
 
-  /// @brief Method .ctor, addr 0x226746c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x318a69c, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -536,7 +539,7 @@ public:
   WaypointsTestMenuViewController(WaypointsTestMenuViewController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17699 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21455 };
 
   /// @brief Field _btsButton, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::UnityEngine::UI::Button> ____btsButton;

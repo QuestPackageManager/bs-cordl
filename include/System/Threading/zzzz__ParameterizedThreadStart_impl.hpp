@@ -9,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ParameterizedThreadStart::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Threading::ParameterizedThreadStart::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x3e4d0b4;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5a92504;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -26,7 +26,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Threading::ParameterizedThreadStart::*)(::System::Object*)>(
     &::System::Threading::ParameterizedThreadStart::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x3e4d1b4;
+  constexpr static std::size_t addrs = 0x5a92648;
 
   inline static ::MethodInfo const* methodInfo() {
 

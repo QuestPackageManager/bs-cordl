@@ -28,7 +28,7 @@ public:
   /// @brief Method Equals, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   template <typename T> static inline ::System::Numerics::Vector_1<T> Equals(::System::Numerics::Vector_1<T> left, ::System::Numerics::Vector_1<T> right);
 
-  /// @brief Method get_IsHardwareAccelerated, addr 0x3d36fa0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_IsHardwareAccelerated, addr 0x597d728, size 0x8, virtual false, abstract: false, final false
   static inline bool get_IsHardwareAccelerated();
 
 protected:
@@ -46,7 +46,7 @@ public:
   Vector(Vector const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3557 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 3581 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -3,8 +3,9 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
+#include "UnityEngine/UIElements/zzzz__BaseFieldTraits_2_def.hpp"
 #include "UnityEngine/UIElements/zzzz__BaseField_1_def.hpp"
-#include "UnityEngine/UIElements/zzzz__IValueField_1_def.hpp"
+#include "UnityEngine/UIElements/zzzz__BindingId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__SliderDirection_def.hpp"
 #include "UnityEngine/zzzz__Rect_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
@@ -16,7 +17,7 @@ namespace UnityEngine::UIElements {
 template <typename TValueType> struct BaseSlider_1_SliderKey;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType> class BaseSlider_1_UxmlTraits;
+template <typename TValueType, typename TValueUxmlAttributeType> class BaseSlider_1_UxmlTraits_1;
 }
 namespace UnityEngine::UIElements {
 template <typename T> class ChangeEvent_1;
@@ -40,10 +41,16 @@ namespace UnityEngine::UIElements {
 class GeometryChangedEvent;
 }
 namespace UnityEngine::UIElements {
+template <typename T> class IValueField_1;
+}
+namespace UnityEngine::UIElements {
 class KeyDownEvent;
 }
 namespace UnityEngine::UIElements {
 class NavigationMoveEvent;
+}
+namespace UnityEngine::UIElements {
+class NavigationSubmitEvent;
 }
 namespace UnityEngine::UIElements {
 struct SliderDirection;
@@ -65,22 +72,22 @@ namespace UnityEngine::UIElements {
 template <typename TValueType> class BaseSlider_1;
 }
 namespace UnityEngine::UIElements {
-template <typename TValueType> class BaseSlider_1_UxmlTraits;
+template <typename TValueType, typename TValueUxmlAttributeType> class BaseSlider_1_UxmlTraits_1;
 }
 // Write type traits
 MARK_GEN_VAL_T(::UnityEngine::UIElements::BaseSlider_1_SliderKey);
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BaseSlider_1);
-MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BaseSlider_1_UxmlTraits);
-// Dependencies UnityEngine.UIElements.BaseField`1::UxmlTraits<TValueType>
+MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1);
+// Dependencies UnityEngine.UIElements.BaseFieldTraits`2<TValueType, TValueUxmlAttributeType>
 namespace UnityEngine::UIElements {
 // cpp template
-template <typename TValueType>
+template <typename TValueType, typename TValueUxmlAttributeType>
 // Is value type: false
-// CS Name: UnityEngine.UIElements.BaseSlider`1/UxmlTraits<TValueType>
-class CORDL_TYPE BaseSlider_1_UxmlTraits : public ::UnityEngine::UIElements::BaseField_1_UxmlTraits<TValueType> {
+// CS Name: UnityEngine.UIElements.BaseSlider`1/UxmlTraits`1<TValueType,TValueUxmlAttributeType>
+class CORDL_TYPE BaseSlider_1_UxmlTraits_1 : public ::UnityEngine::UIElements::BaseFieldTraits_2<TValueType, TValueUxmlAttributeType> {
 public:
   // Declarations
-  static inline ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>* New_ctor();
+  static inline ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>* New_ctor();
 
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor();
@@ -88,19 +95,19 @@ public:
 protected:
   // Ctor Parameters []
   // @brief default ctor
-  constexpr BaseSlider_1_UxmlTraits();
+  constexpr BaseSlider_1_UxmlTraits_1();
 
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits", modifiers: "&&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits_1", modifiers: "&&", def_value: None }]
   // @brief delete move ctor to prevent accidental deref moves
-  BaseSlider_1_UxmlTraits(BaseSlider_1_UxmlTraits&&) = delete;
+  BaseSlider_1_UxmlTraits_1(BaseSlider_1_UxmlTraits_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits", modifiers: "const&", def_value: None }]
+  // Ctor Parameters [CppParam { name: "", ty: "BaseSlider_1_UxmlTraits_1", modifiers: "const&", def_value: None }]
   // @brief delete copy ctor to prevent accidental deref copies
-  BaseSlider_1_UxmlTraits(BaseSlider_1_UxmlTraits const&) = delete;
+  BaseSlider_1_UxmlTraits_1(BaseSlider_1_UxmlTraits_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5508 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4115 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -167,7 +174,7 @@ public:
   static ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType> const None;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5509 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4116 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -179,7 +186,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies UnityEngine.Rect, UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.IValueField`1<T>, UnityEngine.UIElements.SliderDirection
+// Dependencies UnityEngine.Rect, UnityEngine.UIElements.BaseField`1<TValueType>, UnityEngine.UIElements.BindingId, UnityEngine.UIElements.SliderDirection
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename TValueType>
@@ -190,32 +197,36 @@ public:
   // Declarations
   using SliderKey = ::UnityEngine::UIElements::BaseSlider_1_SliderKey<TValueType>;
 
-  using UxmlTraits = ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits<TValueType>;
+  template <typename TValueUxmlAttributeType> using UxmlTraits_1 = ::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1<TValueType, TValueUxmlAttributeType>;
 
-  /// @brief Field <clampedDragger>k__BackingField, offset 0x488, size 0x8
+  /// @brief Field <clampedDragger>k__BackingField, offset 0x578, size 0x8
   __declspec(property(get = __cordl_internal_get__clampedDragger_k__BackingField,
                       put = __cordl_internal_set__clampedDragger_k__BackingField)) ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* _clampedDragger_k__BackingField;
 
-  /// @brief Field <clamped>k__BackingField, offset 0x485, size 0x1
+  /// @brief Field <clamped>k__BackingField, offset 0x575, size 0x1
   __declspec(property(get = __cordl_internal_get__clamped_k__BackingField, put = __cordl_internal_set__clamped_k__BackingField)) bool _clamped_k__BackingField;
 
-  /// @brief Field <dragBorderElement>k__BackingField, offset 0x458, size 0x8
+  /// @brief Field <dragBorderElement>k__BackingField, offset 0x540, size 0x8
   __declspec(property(get = __cordl_internal_get__dragBorderElement_k__BackingField,
                       put = __cordl_internal_set__dragBorderElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragBorderElement_k__BackingField;
 
-  /// @brief Field <dragContainer>k__BackingField, offset 0x440, size 0x8
+  /// @brief Field <dragContainer>k__BackingField, offset 0x528, size 0x8
   __declspec(property(get = __cordl_internal_get__dragContainer_k__BackingField,
                       put = __cordl_internal_set__dragContainer_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragContainer_k__BackingField;
 
-  /// @brief Field <dragElement>k__BackingField, offset 0x448, size 0x8
+  /// @brief Field <dragElement>k__BackingField, offset 0x530, size 0x8
   __declspec(property(get = __cordl_internal_get__dragElement_k__BackingField,
                       put = __cordl_internal_set__dragElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _dragElement_k__BackingField;
 
-  /// @brief Field <inputTextField>k__BackingField, offset 0x460, size 0x8
+  /// @brief Field <fillElement>k__BackingField, offset 0x550, size 0x8
+  __declspec(property(get = __cordl_internal_get__fillElement_k__BackingField,
+                      put = __cordl_internal_set__fillElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _fillElement_k__BackingField;
+
+  /// @brief Field <inputTextField>k__BackingField, offset 0x548, size 0x8
   __declspec(property(get = __cordl_internal_get__inputTextField_k__BackingField,
                       put = __cordl_internal_set__inputTextField_k__BackingField)) ::UnityEngine::UIElements::TextField* _inputTextField_k__BackingField;
 
-  /// @brief Field <trackElement>k__BackingField, offset 0x450, size 0x8
+  /// @brief Field <trackElement>k__BackingField, offset 0x538, size 0x8
   __declspec(property(get = __cordl_internal_get__trackElement_k__BackingField,
                       put = __cordl_internal_set__trackElement_k__BackingField)) ::UnityEngine::UIElements::VisualElement* _trackElement_k__BackingField;
 
@@ -224,6 +235,9 @@ public:
   __declspec(property(get = get_clampedDragger, put = set_clampedDragger)) ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* clampedDragger;
 
   __declspec(property(get = get_direction, put = set_direction)) ::UnityEngine::UIElements::SliderDirection direction;
+
+  /// @brief Field directionProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_directionProperty, put = setStaticF_directionProperty)) ::UnityEngine::UIElements::BindingId directionProperty;
 
   __declspec(property(get = get_dragBorderElement, put = set_dragBorderElement)) ::UnityEngine::UIElements::VisualElement* dragBorderElement;
 
@@ -240,7 +254,20 @@ public:
   /// @brief Field draggerUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_draggerUssClassName, put = setStaticF_draggerUssClassName)) ::StringW draggerUssClassName;
 
+  __declspec(property(get = get_fill, put = set_fill)) bool fill;
+
+  __declspec(property(get = get_fillElement, put = set_fillElement)) ::UnityEngine::UIElements::VisualElement* fillElement;
+
+  /// @brief Field fillProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_fillProperty, put = setStaticF_fillProperty)) ::UnityEngine::UIElements::BindingId fillProperty;
+
+  /// @brief Field fillUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_fillUssClassName, put = setStaticF_fillUssClassName)) ::StringW fillUssClassName;
+
   __declspec(property(get = get_highValue, put = set_highValue)) TValueType highValue;
+
+  /// @brief Field highValueProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_highValueProperty, put = setStaticF_highValueProperty)) ::UnityEngine::UIElements::BindingId highValueProperty;
 
   /// @brief Field horizontalVariantUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_horizontalVariantUssClassName, put = setStaticF_horizontalVariantUssClassName)) ::StringW horizontalVariantUssClassName;
@@ -252,38 +279,61 @@ public:
 
   __declspec(property(get = get_inverted, put = set_inverted)) bool inverted;
 
+  /// @brief Field invertedProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_invertedProperty, put = setStaticF_invertedProperty)) ::UnityEngine::UIElements::BindingId invertedProperty;
+
   /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName)) ::StringW labelUssClassName;
 
   __declspec(property(get = get_lowValue, put = set_lowValue)) TValueType lowValue;
 
-  /// @brief Field m_Direction, offset 0x4a0, size 0x4
+  /// @brief Field lowValueProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_lowValueProperty, put = setStaticF_lowValueProperty)) ::UnityEngine::UIElements::BindingId lowValueProperty;
+
+  /// @brief Field m_Direction, offset 0x590, size 0x4
   __declspec(property(get = __cordl_internal_get_m_Direction, put = __cordl_internal_set_m_Direction)) ::UnityEngine::UIElements::SliderDirection m_Direction;
 
-  /// @brief Field m_DragElementStartPos, offset 0x490, size 0x10
+  /// @brief Field m_DragElementStartPos, offset 0x580, size 0x10
   __declspec(property(get = __cordl_internal_get_m_DragElementStartPos, put = __cordl_internal_set_m_DragElementStartPos)) ::UnityEngine::Rect m_DragElementStartPos;
 
-  /// @brief Field m_HighValue, offset 0x478, size 0x8
+  /// @brief Field m_Fill, offset 0x559, size 0x1
+  __declspec(property(get = __cordl_internal_get_m_Fill, put = __cordl_internal_set_m_Fill)) bool m_Fill;
+
+  /// @brief Field m_HighValue, offset 0x568, size 0x8
   __declspec(property(get = __cordl_internal_get_m_HighValue, put = __cordl_internal_set_m_HighValue)) TValueType m_HighValue;
 
-  /// @brief Field m_Inverted, offset 0x4a4, size 0x1
+  /// @brief Field m_Inverted, offset 0x594, size 0x1
   __declspec(property(get = __cordl_internal_get_m_Inverted, put = __cordl_internal_set_m_Inverted)) bool m_Inverted;
 
-  /// @brief Field m_IsEditingTextField, offset 0x468, size 0x1
+  /// @brief Field m_IsEditingTextField, offset 0x558, size 0x1
   __declspec(property(get = __cordl_internal_get_m_IsEditingTextField, put = __cordl_internal_set_m_IsEditingTextField)) bool m_IsEditingTextField;
 
-  /// @brief Field m_LowValue, offset 0x470, size 0x8
+  /// @brief Field m_LowValue, offset 0x560, size 0x8
   __declspec(property(get = __cordl_internal_get_m_LowValue, put = __cordl_internal_set_m_LowValue)) TValueType m_LowValue;
 
-  /// @brief Field m_PageSize, offset 0x480, size 0x4
+  /// @brief Field m_PageSize, offset 0x570, size 0x4
   __declspec(property(get = __cordl_internal_get_m_PageSize, put = __cordl_internal_set_m_PageSize)) float_t m_PageSize;
 
-  /// @brief Field m_ShowInputField, offset 0x484, size 0x1
+  /// @brief Field m_ShowInputField, offset 0x574, size 0x1
   __declspec(property(get = __cordl_internal_get_m_ShowInputField, put = __cordl_internal_set_m_ShowInputField)) bool m_ShowInputField;
+
+  /// @brief Field movableUssClassName, offset 0xffffffff, size 0x8
+  __declspec(property(get = getStaticF_movableUssClassName, put = setStaticF_movableUssClassName)) ::StringW movableUssClassName;
 
   __declspec(property(get = get_pageSize, put = set_pageSize)) float_t pageSize;
 
+  /// @brief Field pageSizeProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_pageSizeProperty, put = setStaticF_pageSizeProperty)) ::UnityEngine::UIElements::BindingId pageSizeProperty;
+
+  __declspec(property(get = get_range)) TValueType range;
+
+  /// @brief Field rangeProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_rangeProperty, put = setStaticF_rangeProperty)) ::UnityEngine::UIElements::BindingId rangeProperty;
+
   __declspec(property(get = get_showInputField, put = set_showInputField)) bool showInputField;
+
+  /// @brief Field showInputFieldProperty, offset 0xffffffff, size 0x98
+  __declspec(property(get = getStaticF_showInputFieldProperty, put = setStaticF_showInputFieldProperty)) ::UnityEngine::UIElements::BindingId showInputFieldProperty;
 
   /// @brief Field textFieldClassName, offset 0xffffffff, size 0x8
   __declspec(property(get = getStaticF_textFieldClassName, put = setStaticF_textFieldClassName)) ::StringW textFieldClassName;
@@ -334,17 +384,26 @@ public:
   /// @brief Method GetClosestPowerOfTen, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   static inline float_t GetClosestPowerOfTen(float_t positiveNumber);
 
+  /// @brief Method HandleEventBubbleUp, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline void HandleEventBubbleUp(::UnityEngine::UIElements::EventBase* evt);
+
   static inline ::UnityEngine::UIElements::BaseSlider_1<TValueType>* New_ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction,
                                                                               float_t pageSize);
 
-  /// @brief Method OnInputNavigationMoveEvent, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void OnInputNavigationMoveEvent(::UnityEngine::UIElements::NavigationMoveEvent* evt);
+  /// @brief Method OnFocusIn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void OnFocusIn(::UnityEngine::UIElements::FocusInEvent* evt);
+
+  /// @brief Method OnFocusOut, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void OnFocusOut(::UnityEngine::UIElements::FocusOutEvent* evt);
 
   /// @brief Method OnKeyDown, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnKeyDown(::UnityEngine::UIElements::KeyDownEvent* evt);
 
   /// @brief Method OnNavigationMove, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnNavigationMove(::UnityEngine::UIElements::NavigationMoveEvent* evt);
+
+  /// @brief Method OnNavigationSubmit, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void OnNavigationSubmit(::UnityEngine::UIElements::NavigationSubmitEvent* evt);
 
   /// @brief Method OnTextFieldFocusIn, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void OnTextFieldFocusIn(::UnityEngine::UIElements::FocusInEvent* evt);
@@ -391,6 +450,9 @@ public:
   /// @brief Method SliderNormalizeValue, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t SliderNormalizeValue(TValueType currentValue, TValueType lowerValue, TValueType higherValue);
 
+  /// @brief Method SliderRange, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
+  inline TValueType SliderRange();
+
   /// @brief Method UnityEngine.UIElements.IValueField<TValueType>.StartDragging, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final true
   inline void UnityEngine_UIElements_IValueField_TValueType__StartDragging();
 
@@ -405,6 +467,9 @@ public:
 
   /// @brief Method UpdateDragElementPosition, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void UpdateDragElementPosition(::UnityEngine::UIElements::GeometryChangedEvent* evt);
+
+  /// @brief Method UpdateFill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void UpdateFill(float_t normalizedValue);
 
   /// @brief Method UpdateMixedValueContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline void UpdateMixedValueContent();
@@ -435,6 +500,10 @@ public:
 
   constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__dragElement_k__BackingField();
 
+  constexpr ::UnityEngine::UIElements::VisualElement* const& __cordl_internal_get__fillElement_k__BackingField() const;
+
+  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get__fillElement_k__BackingField();
+
   constexpr ::UnityEngine::UIElements::TextField* const& __cordl_internal_get__inputTextField_k__BackingField() const;
 
   constexpr ::UnityEngine::UIElements::TextField*& __cordl_internal_get__inputTextField_k__BackingField();
@@ -450,6 +519,10 @@ public:
   constexpr ::UnityEngine::Rect const& __cordl_internal_get_m_DragElementStartPos() const;
 
   constexpr ::UnityEngine::Rect& __cordl_internal_get_m_DragElementStartPos();
+
+  constexpr bool const& __cordl_internal_get_m_Fill() const;
+
+  constexpr bool& __cordl_internal_get_m_Fill();
 
   constexpr TValueType const& __cordl_internal_get_m_HighValue() const;
 
@@ -485,6 +558,8 @@ public:
 
   constexpr void __cordl_internal_set__dragElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
 
+  constexpr void __cordl_internal_set__fillElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
+
   constexpr void __cordl_internal_set__inputTextField_k__BackingField(::UnityEngine::UIElements::TextField* value);
 
   constexpr void __cordl_internal_set__trackElement_k__BackingField(::UnityEngine::UIElements::VisualElement* value);
@@ -492,6 +567,8 @@ public:
   constexpr void __cordl_internal_set_m_Direction(::UnityEngine::UIElements::SliderDirection value);
 
   constexpr void __cordl_internal_set_m_DragElementStartPos(::UnityEngine::Rect value);
+
+  constexpr void __cordl_internal_set_m_Fill(bool value);
 
   constexpr void __cordl_internal_set_m_HighValue(TValueType value);
 
@@ -508,17 +585,37 @@ public:
   /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void _ctor(::StringW label, TValueType start, TValueType end, ::UnityEngine::UIElements::SliderDirection direction, float_t pageSize);
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_directionProperty();
+
   static inline ::StringW getStaticF_dragContainerUssClassName();
 
   static inline ::StringW getStaticF_draggerBorderUssClassName();
 
   static inline ::StringW getStaticF_draggerUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_fillProperty();
+
+  static inline ::StringW getStaticF_fillUssClassName();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_highValueProperty();
+
   static inline ::StringW getStaticF_horizontalVariantUssClassName();
 
   static inline ::StringW getStaticF_inputUssClassName();
 
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_invertedProperty();
+
   static inline ::StringW getStaticF_labelUssClassName();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_lowValueProperty();
+
+  static inline ::StringW getStaticF_movableUssClassName();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_pageSizeProperty();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_rangeProperty();
+
+  static inline ::UnityEngine::UIElements::BindingId getStaticF_showInputFieldProperty();
 
   static inline ::StringW getStaticF_textFieldClassName();
 
@@ -546,6 +643,12 @@ public:
   /// @brief Method get_dragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline ::UnityEngine::UIElements::VisualElement* get_dragElement();
 
+  /// @brief Method get_fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline bool get_fill();
+
+  /// @brief Method get_fillElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline ::UnityEngine::UIElements::VisualElement* get_fillElement();
+
   /// @brief Method get_highValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline TValueType get_highValue();
 
@@ -561,6 +664,9 @@ public:
   /// @brief Method get_pageSize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline float_t get_pageSize();
 
+  /// @brief Method get_range, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline TValueType get_range();
+
   /// @brief Method get_showInputField, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline bool get_showInputField();
 
@@ -573,17 +679,37 @@ public:
   /// @brief Convert to "::UnityEngine::UIElements::IValueField_1<TValueType>"
   constexpr ::UnityEngine::UIElements::IValueField_1<TValueType>* i___UnityEngine__UIElements__IValueField_1_TValueType_() noexcept;
 
+  static inline void setStaticF_directionProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_dragContainerUssClassName(::StringW value);
 
   static inline void setStaticF_draggerBorderUssClassName(::StringW value);
 
   static inline void setStaticF_draggerUssClassName(::StringW value);
 
+  static inline void setStaticF_fillProperty(::UnityEngine::UIElements::BindingId value);
+
+  static inline void setStaticF_fillUssClassName(::StringW value);
+
+  static inline void setStaticF_highValueProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_horizontalVariantUssClassName(::StringW value);
 
   static inline void setStaticF_inputUssClassName(::StringW value);
 
+  static inline void setStaticF_invertedProperty(::UnityEngine::UIElements::BindingId value);
+
   static inline void setStaticF_labelUssClassName(::StringW value);
+
+  static inline void setStaticF_lowValueProperty(::UnityEngine::UIElements::BindingId value);
+
+  static inline void setStaticF_movableUssClassName(::StringW value);
+
+  static inline void setStaticF_pageSizeProperty(::UnityEngine::UIElements::BindingId value);
+
+  static inline void setStaticF_rangeProperty(::UnityEngine::UIElements::BindingId value);
+
+  static inline void setStaticF_showInputFieldProperty(::UnityEngine::UIElements::BindingId value);
 
   static inline void setStaticF_textFieldClassName(::StringW value);
 
@@ -610,6 +736,12 @@ public:
 
   /// @brief Method set_dragElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_dragElement(::UnityEngine::UIElements::VisualElement* value);
+
+  /// @brief Method set_fill, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_fill(bool value);
+
+  /// @brief Method set_fillElement, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+  inline void set_fillElement(::UnityEngine::UIElements::VisualElement* value);
 
   /// @brief Method set_highValue, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
   inline void set_highValue(TValueType value);
@@ -650,51 +782,57 @@ public:
   BaseSlider_1(BaseSlider_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5510 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4117 };
 
-  /// @brief Field <dragContainer>k__BackingField, offset: 0x440, size: 0x8, def value: None
+  /// @brief Field <dragContainer>k__BackingField, offset: 0x528, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragContainer_k__BackingField;
 
-  /// @brief Field <dragElement>k__BackingField, offset: 0x448, size: 0x8, def value: None
+  /// @brief Field <dragElement>k__BackingField, offset: 0x530, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragElement_k__BackingField;
 
-  /// @brief Field <trackElement>k__BackingField, offset: 0x450, size: 0x8, def value: None
+  /// @brief Field <trackElement>k__BackingField, offset: 0x538, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____trackElement_k__BackingField;
 
-  /// @brief Field <dragBorderElement>k__BackingField, offset: 0x458, size: 0x8, def value: None
+  /// @brief Field <dragBorderElement>k__BackingField, offset: 0x540, size: 0x8, def value: None
   ::UnityEngine::UIElements::VisualElement* ____dragBorderElement_k__BackingField;
 
-  /// @brief Field <inputTextField>k__BackingField, offset: 0x460, size: 0x8, def value: None
+  /// @brief Field <inputTextField>k__BackingField, offset: 0x548, size: 0x8, def value: None
   ::UnityEngine::UIElements::TextField* ____inputTextField_k__BackingField;
 
-  /// @brief Field m_IsEditingTextField, offset: 0x468, size: 0x1, def value: None
+  /// @brief Field <fillElement>k__BackingField, offset: 0x550, size: 0x8, def value: None
+  ::UnityEngine::UIElements::VisualElement* ____fillElement_k__BackingField;
+
+  /// @brief Field m_IsEditingTextField, offset: 0x558, size: 0x1, def value: None
   bool ___m_IsEditingTextField;
 
-  /// @brief Field m_LowValue, offset: 0x470, size: 0x8, def value: None
+  /// @brief Field m_Fill, offset: 0x559, size: 0x1, def value: None
+  bool ___m_Fill;
+
+  /// @brief Field m_LowValue, offset: 0x560, size: 0x8, def value: None
   TValueType ___m_LowValue;
 
-  /// @brief Field m_HighValue, offset: 0x478, size: 0x8, def value: None
+  /// @brief Field m_HighValue, offset: 0x568, size: 0x8, def value: None
   TValueType ___m_HighValue;
 
-  /// @brief Field m_PageSize, offset: 0x480, size: 0x4, def value: None
+  /// @brief Field m_PageSize, offset: 0x570, size: 0x4, def value: None
   float_t ___m_PageSize;
 
-  /// @brief Field m_ShowInputField, offset: 0x484, size: 0x1, def value: None
+  /// @brief Field m_ShowInputField, offset: 0x574, size: 0x1, def value: None
   bool ___m_ShowInputField;
 
-  /// @brief Field <clamped>k__BackingField, offset: 0x485, size: 0x1, def value: None
+  /// @brief Field <clamped>k__BackingField, offset: 0x575, size: 0x1, def value: None
   bool ____clamped_k__BackingField;
 
-  /// @brief Field <clampedDragger>k__BackingField, offset: 0x488, size: 0x8, def value: None
+  /// @brief Field <clampedDragger>k__BackingField, offset: 0x578, size: 0x8, def value: None
   ::UnityEngine::UIElements::ClampedDragger_1<TValueType>* ____clampedDragger_k__BackingField;
 
-  /// @brief Field m_DragElementStartPos, offset: 0x490, size: 0x10, def value: None
+  /// @brief Field m_DragElementStartPos, offset: 0x580, size: 0x10, def value: None
   ::UnityEngine::Rect ___m_DragElementStartPos;
 
-  /// @brief Field m_Direction, offset: 0x4a0, size: 0x4, def value: None
+  /// @brief Field m_Direction, offset: 0x590, size: 0x4, def value: None
   ::UnityEngine::UIElements::SliderDirection ___m_Direction;
 
-  /// @brief Field m_Inverted, offset: 0x4a4, size: 0x1, def value: None
+  /// @brief Field m_Inverted, offset: 0x594, size: 0x1, def value: None
   bool ___m_Inverted;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -703,4 +841,4 @@ public:
 } // namespace UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_STRUCT(::UnityEngine::UIElements::BaseSlider_1_SliderKey, "UnityEngine.UIElements", "BaseSlider`1/SliderKey");
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::BaseSlider_1, "UnityEngine.UIElements", "BaseSlider`1");
-DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::BaseSlider_1_UxmlTraits, "UnityEngine.UIElements", "BaseSlider`1/UxmlTraits");
+DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::BaseSlider_1_UxmlTraits_1, "UnityEngine.UIElements", "BaseSlider`1/UxmlTraits`1");

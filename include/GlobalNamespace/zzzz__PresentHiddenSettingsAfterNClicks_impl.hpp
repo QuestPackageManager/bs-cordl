@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(
     &::GlobalNamespace::PresentHiddenSettingsAfterNClicks::OnEnable)> {
-  constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x3b5798c;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x5740684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>::get(),
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(
     &::GlobalNamespace::PresentHiddenSettingsAfterNClicks::OnDisable)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b57a24;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5740724;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>::get(),
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(
     &::GlobalNamespace::PresentHiddenSettingsAfterNClicks::_ctor)> {
-  constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x3b57a40;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x574073c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>::get(),
@@ -53,8 +53,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::PresentHiddenSettingsAfterNClicks::*)()>(
     &::GlobalNamespace::PresentHiddenSettingsAfterNClicks::_OnEnable_b__6_0)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x3b57aa8;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x57407a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::PresentHiddenSettingsAfterNClicks*>::get(),

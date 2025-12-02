@@ -15,8 +15,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::System::Action*)>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::add_anyGameplayLevelDidFinishEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b3b82c;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x571efd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -30,8 +30,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::System::Action*)>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::remove_anyGameplayLevelDidFinishEvent)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x3b3b8c8;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x571f084;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -46,8 +46,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*)>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::_ctor)> {
-  constexpr static std::size_t size = 0x1b8;
-  constexpr static std::size_t addrs = 0x3b3b964;
+  constexpr static std::size_t size = 0x1cc;
+  constexpr static std::size_t addrs = 0x571f130;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -63,8 +63,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)()>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::Finalize)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x3b3bddc;
+  constexpr static std::size_t size = 0x1fc;
+  constexpr static std::size_t addrs = 0x571f5fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -80,7 +80,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(
     ::GlobalNamespace::StandardLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::LevelCompletionResults*)>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleStandardLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b3c2bc;
+  constexpr static std::size_t addrs = 0x571faf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -97,7 +97,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MultiplayerResultsData*)>(
         &::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b3c2f4;
+  constexpr static std::size_t addrs = 0x571fb30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -115,7 +115,7 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(::GlobalNamespace::MultiplayerLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::DisconnectedReason)>(
         &::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMultiplayerLevelDidDisconnect)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b3c310;
+  constexpr static std::size_t addrs = 0x571fb4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -132,7 +132,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)(
     ::GlobalNamespace::MissionLevelScenesTransitionSetupDataSO*, ::GlobalNamespace::MissionCompletionResults*)>(&::GlobalNamespace::GameplayLevelSceneTransitionEvents::HandleMissionLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b3c32c;
+  constexpr static std::size_t addrs = 0x571fb68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -148,7 +148,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::GameplayLevelSceneTransitionEvents::*)()>(
     &::GlobalNamespace::GameplayLevelSceneTransitionEvents::InvokeAnyGameplayLevelDidFinish)> {
   constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3b3c2d8;
+  constexpr static std::size_t addrs = 0x571fb14;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

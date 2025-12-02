@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::OnRemoveWriter::*)(::System::Object*, ::System::IntPtr)>(
     &::System::Xml::OnRemoveWriter::_ctor)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x430b640;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x5f952a8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,7 +26,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::OnRemoveWriter::*)(::System::Xml::XmlRawWriter*)>(&::System::Xml::OnRemoveWriter::Invoke)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x430b740;
+  constexpr static std::size_t addrs = 0x5f953ec;
 
   inline static ::MethodInfo const* methodInfo() {
 

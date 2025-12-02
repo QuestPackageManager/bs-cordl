@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/EventSystems/IUpdateSelectedHandler.hpp"
-#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_impl.hpp"
 #include "UnityEngine/EventSystems/zzzz__IUpdateSelectedHandler_def.hpp"
 #include "UnityEngine/EventSystems/zzzz__BaseEventData_def.hpp"
+#include "UnityEngine/EventSystems/zzzz__IEventSystemHandler_def.hpp"
 //  Writing Method size for method: ::UnityEngine::EventSystems::IUpdateSelectedHandler.OnUpdateSelected
 template <>
 

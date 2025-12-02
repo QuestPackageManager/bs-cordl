@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "Newtonsoft/Json/Serialization/ReflectionValueProvider.hpp"
-#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Newtonsoft/Json/Serialization/zzzz__ReflectionValueProvider_def.hpp"
+#include "Newtonsoft/Json/Serialization/zzzz__IValueProvider_def.hpp"
 #include "System/Reflection/zzzz__MemberInfo_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::Newtonsoft::Json::Serialization::ReflectionValueProvider._ctor
@@ -10,8 +10,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ReflectionValueProvider::*)(::System::Reflection::MemberInfo*)>(
     &::Newtonsoft::Json::Serialization::ReflectionValueProvider::_ctor)> {
-  constexpr static std::size_t size = 0x6c;
-  constexpr static std::size_t addrs = 0x3efe59c;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x5b45174;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Newtonsoft::Json::Serialization::ReflectionValueProvider::*)(::System::Object*, ::System::Object*)>(
     &::Newtonsoft::Json::Serialization::ReflectionValueProvider::SetValue)> {
-  constexpr static std::size_t size = 0x19c;
-  constexpr static std::size_t addrs = 0x3efe608;
+  constexpr static std::size_t size = 0x1a4;
+  constexpr static std::size_t addrs = 0x5b451d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Object* (::Newtonsoft::Json::Serialization::ReflectionValueProvider::*)(::System::Object*)>(
     &::Newtonsoft::Json::Serialization::ReflectionValueProvider::GetValue)> {
-  constexpr static std::size_t size = 0x298;
-  constexpr static std::size_t addrs = 0x3efe7a4;
+  constexpr static std::size_t size = 0x2c8;
+  constexpr static std::size_t addrs = 0x5b4537c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(

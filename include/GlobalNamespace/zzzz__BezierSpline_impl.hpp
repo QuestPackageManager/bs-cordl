@@ -15,7 +15,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline_ComputeControlPointsResults::*)(
     ::ArrayW<float_t, ::Array<float_t>*>, ::ArrayW<float_t, ::Array<float_t>*>)>(&::GlobalNamespace::BezierSpline_ComputeControlPointsResults::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22664a4;
+  constexpr static std::size_t addrs = 0x3189630;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -45,8 +45,8 @@ constexpr ::GlobalNamespace::BezierSpline_ComputeControlPointsResults::BezierSpl
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline___c::*)()>(&::GlobalNamespace::BezierSpline___c::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266508;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x318968c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierSpline___c*>::get(), ".ctor",
@@ -59,8 +59,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
     &::GlobalNamespace::BezierSpline___c::_SortSourceData_b__6_0)> {
-  constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2266510;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x3189690;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -76,7 +76,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BezierSpline___c::_ComputeControlPoints_b__8_0)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2266540;
+  constexpr static std::size_t addrs = 0x31896e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -91,7 +91,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BezierSpline___c::_ComputeControlPoints_b__8_1)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2266544;
+  constexpr static std::size_t addrs = 0x31896ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -106,7 +106,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::BezierSpline___c::*)(::UnityEngine::Vector3)>(
     &::GlobalNamespace::BezierSpline___c::_ComputeControlPoints_b__8_2)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x226654c;
+  constexpr static std::size_t addrs = 0x31896f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -195,7 +195,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::GlobalNamespace::BezierCurve>* (::GlobalNamespace::BezierSpline::*)()>(
     &::GlobalNamespace::BezierSpline::get_segments)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2265e08;
+  constexpr static std::size_t addrs = 0x3188f90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierSpline*>::get(), "get_segments",
@@ -208,8 +208,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline::*)(float_t, ::UnityEngine::Vector2)>(
     &::GlobalNamespace::BezierSpline::AddPoint)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x22613ec;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x3184384;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -223,8 +223,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::SortSourceData)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x2265e10;
+  constexpr static std::size_t size = 0x10c;
+  constexpr static std::size_t addrs = 0x3188f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierSpline*>::get(), "SortSourceData",
@@ -236,8 +236,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::AddArtificialStartAndFinishPoint)> {
-  constexpr static std::size_t size = 0x1f4;
-  constexpr static std::size_t addrs = 0x22614c0;
+  constexpr static std::size_t size = 0x214;
+  constexpr static std::size_t addrs = 0x3184460;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -250,8 +250,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::ComputeControlPoints)> {
-  constexpr static std::size_t size = 0x520;
-  constexpr static std::size_t addrs = 0x22616b4;
+  constexpr static std::size_t size = 0x54c;
+  constexpr static std::size_t addrs = 0x3184674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierSpline*>::get(), "ComputeControlPoints",
@@ -263,8 +263,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::Clear)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x2266434;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x31895b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierSpline*>::get(), "Clear",
@@ -277,8 +277,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BezierSpline_ComputeControlPointsResults (::GlobalNamespace::BezierSpline::*)(
     ::System::Collections::Generic::List_1<float_t>*)>(&::GlobalNamespace::BezierSpline::ComputeControlPoints)> {
-  constexpr static std::size_t size = 0x528;
-  constexpr static std::size_t addrs = 0x2265f0c;
+  constexpr static std::size_t size = 0x50c;
+  constexpr static std::size_t addrs = 0x31890a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -291,8 +291,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::BezierSpline::*)()>(&::GlobalNamespace::BezierSpline::_ctor)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x22611a0;
+  constexpr static std::size_t size = 0xbc;
+  constexpr static std::size_t addrs = 0x3184110;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BezierSpline*>::get(), ".ctor",

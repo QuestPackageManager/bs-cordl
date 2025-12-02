@@ -7,8 +7,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::VerticalScrollIndicator::*)(float_t)>(&::HMUI::VerticalScrollIndicator::set_progress)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39fb204;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x56742dc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -22,7 +22,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_progress)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a02370;
+  constexpr static std::size_t addrs = 0x567b9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), "get_progress",
@@ -34,8 +34,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::VerticalScrollIndicator::*)(float_t)>(&::HMUI::VerticalScrollIndicator::set_normalizedPageHeight)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x39fafa0;
+  constexpr static std::size_t size = 0x30;
+  constexpr static std::size_t addrs = 0x5674040;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -49,11 +49,25 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::get_normalizedPageHeight)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3a02378;
+  constexpr static std::size_t addrs = 0x567b9c4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(),
                                                                                "get_normalizedPageHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::HMUI::VerticalScrollIndicator.get_handle
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::RectTransform> (::HMUI::VerticalScrollIndicator::*)()>(
+    &::HMUI::VerticalScrollIndicator::get_handle)> {
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x567b9cc;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), "get_handle",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
 };
@@ -62,7 +76,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::OnEnable)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x3a02380;
+  constexpr static std::size_t addrs = 0x567b9d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), "OnEnable",
@@ -74,8 +88,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::RefreshHandle)> {
-  constexpr static std::size_t size = 0xd0;
-  constexpr static std::size_t addrs = 0x3a022a0;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x567b8e4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), "RefreshHandle",
@@ -87,8 +101,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::VerticalScrollIndicator::*)()>(&::HMUI::VerticalScrollIndicator::_ctor)> {
-  constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x3a02384;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x567b9d8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), ".ctor",
@@ -165,6 +179,11 @@ inline float_t HMUI::VerticalScrollIndicator::get_normalizedPageHeight() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(),
                                                                              "get_normalizedPageHeight", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<float_t, false>(this, ___internal_method);
+}
+inline ::UnityW<::UnityEngine::RectTransform> HMUI::VerticalScrollIndicator::get_handle() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), "get_handle",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::RectTransform>, false>(this, ___internal_method);
 }
 inline void HMUI::VerticalScrollIndicator::OnEnable() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::VerticalScrollIndicator*>::get(), "OnEnable",

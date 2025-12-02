@@ -5,6 +5,9 @@
 CORDL_MODULE_INIT
 #include "UnityEngine/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(RuntimeAnimatorController)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine {
 class AnimationClip;
 }
@@ -25,11 +28,14 @@ public:
 
   static inline ::UnityEngine::RuntimeAnimatorController* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4853708, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x680d484, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_animationClips, addr 0x4854538, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_animationClips, addr 0x680ec34, size 0x80, virtual false, abstract: false, final false
   inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips();
+
+  /// @brief Method get_animationClips_Injected, addr 0x680ecb4, size 0x3c, virtual false, abstract: false, final false
+  static inline ::ArrayW<::UnityW<::UnityEngine::AnimationClip>, ::Array<::UnityW<::UnityEngine::AnimationClip>>*> get_animationClips_Injected(::System::IntPtr _unity_self);
 
 protected:
   // Ctor Parameters []
@@ -46,7 +52,7 @@ public:
   RuntimeAnimatorController(RuntimeAnimatorController const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16892 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19983 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

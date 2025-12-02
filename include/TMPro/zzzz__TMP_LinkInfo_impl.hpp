@@ -7,8 +7,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::TMPro::TMP_LinkInfo::*)(::ArrayW<char16_t, ::Array<char16_t>*>, int32_t, int32_t)>(
     &::TMPro::TMP_LinkInfo::SetLinkID)> {
-  constexpr static std::size_t size = 0xd4;
-  constexpr static std::size_t addrs = 0x47c5488;
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x6729590;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -22,11 +22,24 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_LinkInfo::*)()>(&::TMPro::TMP_LinkInfo::GetLinkText)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x47c555c;
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x672967c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_LinkInfo>::get(), "GetLinkText",
+                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::TMPro::TMP_LinkInfo.GetLink
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_LinkInfo::*)()>(&::TMPro::TMP_LinkInfo::GetLink)> {
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x6729758;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_LinkInfo>::get(), "GetLink",
                                                                                std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
     return ___internal_method;
   }
@@ -35,8 +48,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::TMPro::TMP_LinkInfo::*)()>(&::TMPro::TMP_LinkInfo::GetLinkID)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47c5664;
+  constexpr static std::size_t size = 0x94;
+  constexpr static std::size_t addrs = 0x672975c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_LinkInfo>::get(), "GetLinkID",
@@ -53,6 +66,11 @@ inline void TMPro::TMP_LinkInfo::SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*
 }
 inline ::StringW TMPro::TMP_LinkInfo::GetLinkText() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_LinkInfo>::get(), "GetLinkText",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+}
+inline ::StringW TMPro::TMP_LinkInfo::GetLink() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_LinkInfo>::get(), "GetLink",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }

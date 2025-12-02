@@ -17,8 +17,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)(::Org::BouncyCastle::Asn1::Asn1Sequence*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::_ctor)> {
-  constexpr static std::size_t size = 0x2b8;
-  constexpr static std::size_t addrs = 0x22faccc;
+  constexpr static std::size_t size = 0x2d8;
+  constexpr static std::size_t addrs = 0x3228044;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -32,8 +32,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiHeader* (*)(::System::Object*)>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::GetInstance)> {
-  constexpr static std::size_t size = 0x17c;
-  constexpr static std::size_t addrs = 0x22faf84;
+  constexpr static std::size_t size = 0x184;
+  constexpr static std::size_t addrs = 0x322831c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -47,8 +47,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)(
     int32_t, ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::Cmp::PkiHeader::_ctor)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x22fb100;
+  constexpr static std::size_t size = 0x80;
+  constexpr static std::size_t addrs = 0x32284a0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)(
     ::Org::BouncyCastle::Asn1::DerInteger*, ::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Org::BouncyCastle::Asn1::X509::GeneralName*)>(&::Org::BouncyCastle::Asn1::Cmp::PkiHeader::_ctor)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x22fb188;
+  constexpr static std::size_t size = 0xc;
+  constexpr static std::size_t addrs = 0x3228520;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -82,7 +82,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerInteger* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_Pvno)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1c4;
+  constexpr static std::size_t addrs = 0x322852c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -97,7 +97,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_Sender)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1cc;
+  constexpr static std::size_t addrs = 0x3228534;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -112,7 +112,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::GeneralName* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_Recipient)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1d4;
+  constexpr static std::size_t addrs = 0x322853c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -127,7 +127,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::DerGeneralizedTime* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_MessageTime)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1dc;
+  constexpr static std::size_t addrs = 0x3228544;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -142,7 +142,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_ProtectionAlg)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1e4;
+  constexpr static std::size_t addrs = 0x322854c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,7 +157,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_SenderKID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1ec;
+  constexpr static std::size_t addrs = 0x3228554;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -172,7 +172,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_RecipKID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1f4;
+  constexpr static std::size_t addrs = 0x322855c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -187,7 +187,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_TransactionID)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb1fc;
+  constexpr static std::size_t addrs = 0x3228564;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -202,7 +202,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_SenderNonce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb204;
+  constexpr static std::size_t addrs = 0x322856c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -217,7 +217,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1OctetString* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_RecipNonce)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb20c;
+  constexpr static std::size_t addrs = 0x3228574;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -232,7 +232,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Cmp::PkiFreeText* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::get_FreeText)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x22fb214;
+  constexpr static std::size_t addrs = 0x322857c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -247,8 +247,8 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::ArrayW<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*, ::Array<::Org::BouncyCastle::Asn1::Cmp::InfoTypeAndValue*>*> (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
         &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::GetGeneralInfo)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x22fb21c;
+  constexpr static std::size_t size = 0x104;
+  constexpr static std::size_t addrs = 0x3228584;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -262,8 +262,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::Org::BouncyCastle::Asn1::Asn1Object* (::Org::BouncyCastle::Asn1::Cmp::PkiHeader::*)()>(
     &::Org::BouncyCastle::Asn1::Cmp::PkiHeader::ToAsn1Object)> {
-  constexpr static std::size_t size = 0x220;
-  constexpr static std::size_t addrs = 0x22fb31c;
+  constexpr static std::size_t size = 0x230;
+  constexpr static std::size_t addrs = 0x3228688;
 
   inline static ::MethodInfo const* methodInfo() {
 

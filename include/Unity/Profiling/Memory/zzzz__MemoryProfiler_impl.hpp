@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<uint8_t, ::Array<uint8_t>*> (*)()>(&::Unity::Profiling::Memory::MemoryProfiler::PrepareMetadata)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x48612bc;
+  constexpr static std::size_t size = 0x1f8;
+  constexpr static std::size_t addrs = 0x6829fc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::Unity::Profiling::Memory::MemoryProfiler*>::get(),
@@ -27,8 +27,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, int32_t)>(
     &::Unity::Profiling::Memory::MemoryProfiler::WriteIntToByteArray)> {
-  constexpr static std::size_t size = 0x8c;
-  constexpr static std::size_t addrs = 0x48614b8;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x682a1bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -43,8 +43,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::ArrayW<uint8_t, ::Array<uint8_t>*>, int32_t, ::StringW)>(
     &::Unity::Profiling::Memory::MemoryProfiler::WriteStringToByteArray)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4861544;
+  constexpr static std::size_t size = 0x78;
+  constexpr static std::size_t addrs = 0x682a244;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool)>(&::Unity::Profiling::Memory::MemoryProfiler::FinalizeSnapshot)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4861634;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x682a310;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::StringW, bool, ::System::IntPtr, int32_t, ::UnityEngine::TextureFormat, int32_t, int32_t)>(
     &::Unity::Profiling::Memory::MemoryProfiler::SaveScreenshotToDisk)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x48616b8;
+  constexpr static std::size_t size = 0xf0;
+  constexpr static std::size_t addrs = 0x682a398;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(

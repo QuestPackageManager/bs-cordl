@@ -10,8 +10,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)(::UnityEngine::Sprite*)>(&::HMUI::ImageWithHint::set_sprite)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f85bc;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5670f80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -24,8 +24,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Sprite> (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_sprite)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f85d8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5670f98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageWithHint*>::get(), "get_sprite",
@@ -37,8 +37,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)(::StringW)>(&::HMUI::ImageWithHint::set_hintText)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x39f85f4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x5670fb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -51,8 +51,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Color (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::get_imageColor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f8610;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5670fc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageWithHint*>::get(), "get_imageColor",
@@ -64,8 +64,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)(::UnityEngine::Color)>(&::HMUI::ImageWithHint::set_imageColor)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x39f8634;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x5670fe8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -78,8 +78,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::HMUI::ImageWithHint::*)()>(&::HMUI::ImageWithHint::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x39f8658;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5671008;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::HMUI::ImageWithHint*>::get(), ".ctor",

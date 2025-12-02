@@ -11,8 +11,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::StyleSheets::StylePropertyValue (
     ::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(&::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::get_current)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x49dd61c;
+  constexpr static std::size_t size = 0x88;
+  constexpr static std::size_t addrs = 0x6ae6b0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -26,8 +26,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::get_valueCount)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49dd6a0;
+  constexpr static std::size_t size = 0x50;
+  constexpr static std::size_t addrs = 0x6ae6b94;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -43,7 +43,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::get_isCurrentVariable)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49dd6e8;
+  constexpr static std::size_t addrs = 0x6ae6be4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,8 +58,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::get_isCurrentComma)> {
-  constexpr static std::size_t size = 0xac;
-  constexpr static std::size_t addrs = 0x49dd6f0;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x6ae6bec;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -76,8 +76,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::UnityEngine::UIElements::StyleSheets::MatchResult (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)(
         ::UnityEngine::UIElements::StyleSheets::Syntax::Expression*, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::StylePropertyValue>*)>(
         &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::Match)> {
-  constexpr static std::size_t size = 0x170;
-  constexpr static std::size_t addrs = 0x49dd79c;
+  constexpr static std::size_t size = 0x148;
+  constexpr static std::size_t addrs = 0x6ae6c78;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)(::StringW)>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchKeyword)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x49dd90c;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6ae6dc0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -109,8 +109,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchNumber)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49dd9c0;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6ae6e3c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -125,8 +125,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchInteger)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49dd9f8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6ae6e54;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -141,8 +141,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchLength)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49dda30;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6ae6e6c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -157,8 +157,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchPercentage)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x49ddb24;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x6ae6f30;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -173,8 +173,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchColor)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x49ddc18;
+  constexpr static std::size_t size = 0xac;
+  constexpr static std::size_t addrs = 0x6ae6ff4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -189,8 +189,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchResource)> {
-  constexpr static std::size_t size = 0x38;
-  constexpr static std::size_t addrs = 0x49ddcf4;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x6ae70a0;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -205,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchUrl)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x49ddd2c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x6ae70b8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -221,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchTime)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x49ddd70;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x6ae70d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -237,8 +237,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchCustomIdent)> {
-  constexpr static std::size_t size = 0xe0;
-  constexpr static std::size_t addrs = 0x49dddd4;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x6ae7110;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -253,8 +253,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::MatchAngle)> {
-  constexpr static std::size_t size = 0xfc;
-  constexpr static std::size_t addrs = 0x49ddeb4;
+  constexpr static std::size_t size = 0xc8;
+  constexpr static std::size_t addrs = 0x6ae71c8;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -269,8 +269,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::*)()>(
     &::UnityEngine::UIElements::StyleSheets::StylePropertyValueMatcher::_ctor)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x49ddfb0;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x6ae7290;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

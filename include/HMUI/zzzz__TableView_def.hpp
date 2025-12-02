@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "HMUI/zzzz__ITableCellOwner_def.hpp"
 #include "HMUI/zzzz__TableViewSelectionType_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_def.hpp"
@@ -14,6 +13,9 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(TableView)
 namespace HMUI {
 class FloatRectOffset;
+}
+namespace HMUI {
+class ITableCellOwner;
 }
 namespace HMUI {
 class ScrollView;
@@ -133,7 +135,7 @@ public:
   static ::HMUI::TableView_TableType const Vertical;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16120 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19190 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -192,7 +194,7 @@ public:
   static ::HMUI::TableView_ScrollPositionType const End;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16121 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19191 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
@@ -239,13 +241,13 @@ public:
 
   constexpr void __cordl_internal_set__reuseIdentifier(::StringW value);
 
-  /// @brief Method .ctor, addr 0x3a01cc0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x567b340, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_cells, addr 0x3a01cb8, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cells, addr 0x567b338, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::List_1<::UnityW<::HMUI::TableCell>>* get_cells();
 
-  /// @brief Method get_reuseIdentifier, addr 0x3a01cb0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_reuseIdentifier, addr 0x567b330, size 0x8, virtual false, abstract: false, final false
   inline ::StringW get_reuseIdentifier();
 
 protected:
@@ -263,7 +265,7 @@ public:
   TableView_CellsGroup(TableView_CellsGroup const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16122 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19192 };
 
   /// @brief Field _reuseIdentifier, offset: 0x10, size: 0x8, def value: None
   ::StringW ____reuseIdentifier;
@@ -302,13 +304,13 @@ public:
   TableView_IDataSource(TableView_IDataSource const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16123 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19193 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 } // namespace HMUI
-// Dependencies HMUI.ITableCellOwner, HMUI.TableView::TableType, HMUI.TableViewSelectionType, UnityEngine.MonoBehaviour
+// Dependencies HMUI.TableView::TableType, HMUI.TableViewSelectionType, UnityEngine.MonoBehaviour
 namespace HMUI {
 // Is value type: false
 // CS Name: HMUI.TableView
@@ -445,105 +447,105 @@ public:
   /// @brief Convert operator to "::HMUI::ITableCellOwner"
   constexpr operator ::HMUI::ITableCellOwner*() noexcept;
 
-  /// @brief Method AddCellToReusableCells, addr 0x3a01058, size 0x160, virtual false, abstract: false, final false
+  /// @brief Method AddCellToReusableCells, addr 0x567a71c, size 0x190, virtual false, abstract: false, final false
   inline void AddCellToReusableCells(::HMUI::TableCell* cell);
 
-  /// @brief Method Awake, addr 0x3a0007c, size 0x10, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x5679718, size 0x10, virtual false, abstract: false, final false
   inline void Awake();
 
-  /// @brief Method ChangeRectSize, addr 0x3a01c00, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method ChangeRectSize, addr 0x567b270, size 0xc0, virtual false, abstract: false, final false
   inline void ChangeRectSize(::UnityEngine::RectTransform_Axis axis, float_t size);
 
-  /// @brief Method ClearHighlights, addr 0x3a00a60, size 0x154, virtual false, abstract: false, final false
+  /// @brief Method ClearHighlights, addr 0x567a188, size 0x110, virtual false, abstract: false, final false
   inline void ClearHighlights();
 
-  /// @brief Method ClearSelection, addr 0x3a01a08, size 0x1ac, virtual false, abstract: false, final false
+  /// @brief Method ClearSelection, addr 0x567b0c4, size 0x160, virtual false, abstract: false, final false
   inline void ClearSelection();
 
-  /// @brief Method DeleteCells, addr 0x39fef1c, size 0x318, virtual false, abstract: false, final false
+  /// @brief Method DeleteCells, addr 0x56784c8, size 0x324, virtual false, abstract: false, final false
   inline void DeleteCells(int32_t idx, int32_t count);
 
-  /// @brief Method DequeueReusableCellForIdentifier, addr 0x39fd590, size 0xec, virtual false, abstract: false, final false
+  /// @brief Method DequeueReusableCellForIdentifier, addr 0x5676a0c, size 0xfc, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TableCell> DequeueReusableCellForIdentifier(::StringW identifier);
 
-  /// @brief Method DidSelectCellWithIdx, addr 0x3a016e8, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method DidSelectCellWithIdx, addr 0x567adc8, size 0x28, virtual true, abstract: false, final false
   inline void DidSelectCellWithIdx(int32_t idx);
 
-  /// @brief Method GetCellAtIndex, addr 0x3a00c6c, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method GetCellAtIndex, addr 0x567a350, size 0xc0, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::TableCell> GetCellAtIndex(int32_t index);
 
-  /// @brief Method GetCellPosition, addr 0x3a01010, size 0x48, virtual true, abstract: false, final false
+  /// @brief Method GetCellPosition, addr 0x567a6e8, size 0x34, virtual true, abstract: false, final false
   inline float_t GetCellPosition(int32_t idx);
 
-  /// @brief Method GetCellSize, addr 0x3a01008, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetCellSize, addr 0x567a6e0, size 0x8, virtual true, abstract: false, final false
   inline float_t GetCellSize(int32_t idx);
 
-  /// @brief Method GetMaxVisibleIdx, addr 0x3a00ee0, size 0x128, virtual true, abstract: false, final false
+  /// @brief Method GetMaxVisibleIdx, addr 0x567a5b0, size 0x130, virtual true, abstract: false, final false
   inline int32_t GetMaxVisibleIdx();
 
-  /// @brief Method GetMinVisibleIdx, addr 0x3a00df4, size 0xec, virtual true, abstract: false, final false
+  /// @brief Method GetMinVisibleIdx, addr 0x567a4c4, size 0xec, virtual true, abstract: false, final false
   inline int32_t GetMinVisibleIdx();
 
-  /// @brief Method GetVisibleCellsIdRange, addr 0x3a00d1c, size 0xd8, virtual false, abstract: false, final false
+  /// @brief Method GetVisibleCellsIdRange, addr 0x567a410, size 0xb4, virtual false, abstract: false, final false
   inline ::System::Tuple_2<int32_t, int32_t>* GetVisibleCellsIdRange();
 
-  /// @brief Method HandleCellSelectionDidChange, addr 0x3a01404, size 0x2e4, virtual false, abstract: false, final false
+  /// @brief Method HandleCellSelectionDidChange, addr 0x567aafc, size 0x2cc, virtual false, abstract: false, final false
   inline void HandleCellSelectionDidChange(::HMUI::SelectableCell* selectableCell, ::HMUI::SelectableCell_TransitionType transitionType, ::System::Object* changeOwner);
 
-  /// @brief Method HandleScrollRectValueChanged, addr 0x3a013f8, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method HandleScrollRectValueChanged, addr 0x567aaf0, size 0xc, virtual false, abstract: false, final false
   inline void HandleScrollRectValueChanged(float_t f);
 
-  /// @brief Method Hide, addr 0x3a00bb4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Hide, addr 0x567a298, size 0x24, virtual false, abstract: false, final false
   inline void Hide();
 
-  /// @brief Method InsertCells, addr 0x39feb18, size 0x35c, virtual false, abstract: false, final false
+  /// @brief Method InsertCells, addr 0x5678128, size 0x2f4, virtual false, abstract: false, final false
   inline void InsertCells(int32_t idx, int32_t count);
 
-  /// @brief Method LayoutCellForIdx, addr 0x3a011b8, size 0x240, virtual false, abstract: false, final false
+  /// @brief Method LayoutCellForIdx, addr 0x567a8ac, size 0x244, virtual false, abstract: false, final false
   inline void LayoutCellForIdx(::HMUI::TableCell* cell, int32_t idx, float_t offset);
 
-  /// @brief Method LazyInit, addr 0x3a0008c, size 0x348, virtual false, abstract: false, final false
+  /// @brief Method LazyInit, addr 0x5679728, size 0x390, virtual false, abstract: false, final false
   inline void LazyInit();
 
   static inline ::HMUI::TableView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3a003d4, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5679ab8, size 0x8c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method OnEnable, addr 0x3a00460, size 0x54, virtual false, abstract: false, final false
+  /// @brief Method OnEnable, addr 0x5679b44, size 0x54, virtual false, abstract: false, final false
   inline void OnEnable();
 
-  /// @brief Method RefreshCells, addr 0x3a004b4, size 0x5ac, virtual false, abstract: false, final false
+  /// @brief Method RefreshCells, addr 0x5679b98, size 0x5f0, virtual false, abstract: false, final false
   inline void RefreshCells(bool forcedVisualsRefresh, bool forcedContentRefresh);
 
-  /// @brief Method RefreshCellsContent, addr 0x3a00c60, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method RefreshCellsContent, addr 0x567a344, size 0xc, virtual false, abstract: false, final false
   inline void RefreshCellsContent();
 
-  /// @brief Method RefreshContentSize, addr 0x3a00bfc, size 0x64, virtual false, abstract: false, final false
+  /// @brief Method RefreshContentSize, addr 0x567a2e0, size 0x64, virtual false, abstract: false, final false
   inline void RefreshContentSize();
 
-  /// @brief Method ReloadData, addr 0x39fe5ac, size 0x2d8, virtual true, abstract: false, final false
+  /// @brief Method ReloadData, addr 0x5677be8, size 0x2a8, virtual true, abstract: false, final false
   inline void ReloadData();
 
-  /// @brief Method ReloadDataKeepingPosition, addr 0x3a017bc, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ReloadDataKeepingPosition, addr 0x567aea0, size 0x4c, virtual false, abstract: false, final false
   inline void ReloadDataKeepingPosition();
 
-  /// @brief Method ScrollToCellWithIdx, addr 0x39ff278, size 0xe4, virtual false, abstract: false, final false
+  /// @brief Method ScrollToCellWithIdx, addr 0x5678830, size 0xf4, virtual false, abstract: false, final false
   inline void ScrollToCellWithIdx(int32_t idx, ::HMUI::TableView_ScrollPositionType scrollPositionType, bool animated);
 
-  /// @brief Method ScrollToPosition, addr 0x3a01bb4, size 0x4c, virtual false, abstract: false, final false
+  /// @brief Method ScrollToPosition, addr 0x567b224, size 0x4c, virtual false, abstract: false, final false
   inline void ScrollToPosition(float_t position, bool animated);
 
-  /// @brief Method SelectCellWithIdx, addr 0x3a01824, size 0x1e4, virtual false, abstract: false, final false
+  /// @brief Method SelectCellWithIdx, addr 0x567af08, size 0x1bc, virtual false, abstract: false, final false
   inline void SelectCellWithIdx(int32_t idx, bool callbackTable);
 
-  /// @brief Method SetDataSource, addr 0x3a01808, size 0x1c, virtual true, abstract: false, final false
+  /// @brief Method SetDataSource, addr 0x567aeec, size 0x1c, virtual true, abstract: false, final false
   inline void SetDataSource(::HMUI::TableView_IDataSource* newDataSource, bool reloadData);
 
-  /// @brief Method Show, addr 0x3a00bd8, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method Show, addr 0x567a2bc, size 0x24, virtual false, abstract: false, final false
   inline void Show();
 
-  /// @brief Method UpdateCachedData, addr 0x3a01710, size 0xac, virtual true, abstract: false, final false
+  /// @brief Method UpdateCachedData, addr 0x567adf0, size 0xb0, virtual true, abstract: false, final false
   inline void UpdateCachedData();
 
   constexpr bool const& __cordl_internal_get__alignToCenter() const;
@@ -714,94 +716,94 @@ public:
 
   constexpr void __cordl_internal_set_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
-  /// @brief Method .ctor, addr 0x39ff360, size 0xd4, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5678928, size 0xd0, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didChangeRectSizeEvent, addr 0x39ffdf0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didChangeRectSizeEvent, addr 0x5679458, size 0xc0, virtual false, abstract: false, final false
   inline void add_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method add_didDeleteCellsEvent, addr 0x39ffc90, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didDeleteCellsEvent, addr 0x56792d8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method add_didDeselectCellWithIdxEvent, addr 0x39ff870, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didDeselectCellWithIdxEvent, addr 0x5678e58, size 0xc0, virtual false, abstract: false, final false
   inline void add_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
-  /// @brief Method add_didInsertCellsEvent, addr 0x39ffb30, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didInsertCellsEvent, addr 0x5679158, size 0xc0, virtual false, abstract: false, final false
   inline void add_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method add_didReloadDataEvent, addr 0x39ff9d0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didReloadDataEvent, addr 0x5678fd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x39ff710, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didSelectCellWithIdxEvent, addr 0x5678cd8, size 0xc0, virtual false, abstract: false, final false
   inline void add_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
-  /// @brief Method get_canSelectSelectedCell, addr 0x39ff708, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_canSelectSelectedCell, addr 0x5678cd0, size 0x8, virtual true, abstract: false, final true
   inline bool get_canSelectSelectedCell();
 
-  /// @brief Method get_cellSize, addr 0x39fff78, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_cellSize, addr 0x5679600, size 0x8, virtual false, abstract: false, final false
   inline float_t get_cellSize();
 
-  /// @brief Method get_contentSize, addr 0x3a0003c, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_contentSize, addr 0x56796d8, size 0x40, virtual true, abstract: false, final false
   inline float_t get_contentSize();
 
-  /// @brief Method get_contentTransform, addr 0x39fff68, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_contentTransform, addr 0x56795f0, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_contentTransform();
 
-  /// @brief Method get_dataSource, addr 0x39fff50, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_dataSource, addr 0x56795d8, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::TableView_IDataSource* get_dataSource();
 
-  /// @brief Method get_numberOfCells, addr 0x39fff70, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_numberOfCells, addr 0x56795f8, size 0x8, virtual true, abstract: false, final true
   inline int32_t get_numberOfCells();
 
-  /// @brief Method get_paddingEnd, addr 0x3a0000c, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_paddingEnd, addr 0x56796a0, size 0x38, virtual false, abstract: false, final false
   inline float_t get_paddingEnd();
 
-  /// @brief Method get_paddingStart, addr 0x39fffdc, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method get_paddingStart, addr 0x5679668, size 0x38, virtual false, abstract: false, final false
   inline float_t get_paddingStart();
 
-  /// @brief Method get_scrollView, addr 0x39fff90, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_scrollView, addr 0x5679618, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::HMUI::ScrollView> get_scrollView();
 
-  /// @brief Method get_selectionType, addr 0x39ff6f8, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_selectionType, addr 0x5678cc0, size 0x8, virtual true, abstract: false, final true
   inline ::HMUI::TableViewSelectionType get_selectionType();
 
-  /// @brief Method get_spacing, addr 0x39fff80, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_spacing, addr 0x5679608, size 0x8, virtual false, abstract: false, final false
   inline float_t get_spacing();
 
-  /// @brief Method get_tableType, addr 0x39fff88, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_tableType, addr 0x5679610, size 0x8, virtual false, abstract: false, final false
   inline ::HMUI::TableView_TableType get_tableType();
 
-  /// @brief Method get_totalPadding, addr 0x39fff98, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method get_totalPadding, addr 0x5679620, size 0x48, virtual false, abstract: false, final false
   inline float_t get_totalPadding();
 
-  /// @brief Method get_viewportTransform, addr 0x39fff60, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_viewportTransform, addr 0x56795e8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::RectTransform> get_viewportTransform();
 
-  /// @brief Method get_visibleCells, addr 0x39fff58, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_visibleCells, addr 0x56795e0, size 0x8, virtual false, abstract: false, final false
   inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::HMUI::TableCell>>* get_visibleCells();
 
   /// @brief Convert to "::HMUI::ITableCellOwner"
   constexpr ::HMUI::ITableCellOwner* i___HMUI__ITableCellOwner() noexcept;
 
-  /// @brief Method remove_didChangeRectSizeEvent, addr 0x39ffea0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didChangeRectSizeEvent, addr 0x5679518, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didChangeRectSizeEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method remove_didDeleteCellsEvent, addr 0x39ffd40, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDeleteCellsEvent, addr 0x5679398, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didDeleteCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method remove_didDeselectCellWithIdxEvent, addr 0x39ff920, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didDeselectCellWithIdxEvent, addr 0x5678f18, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didDeselectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
-  /// @brief Method remove_didInsertCellsEvent, addr 0x39ffbe0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didInsertCellsEvent, addr 0x5679218, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didInsertCellsEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method remove_didReloadDataEvent, addr 0x39ffa80, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didReloadDataEvent, addr 0x5679098, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didReloadDataEvent(::System::Action_1<::UnityW<::HMUI::TableView>>* value);
 
-  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x39ff7c0, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didSelectCellWithIdxEvent, addr 0x5678d98, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didSelectCellWithIdxEvent(::System::Action_2<::UnityW<::HMUI::TableView>, int32_t>* value);
 
-  /// @brief Method set_selectionType, addr 0x39ff700, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method set_selectionType, addr 0x5678cc8, size 0x8, virtual false, abstract: false, final false
   inline void set_selectionType(::HMUI::TableViewSelectionType value);
 
 protected:
@@ -819,7 +821,7 @@ public:
   TableView(TableView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 16124 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 19194 };
 
   /// @brief Field kFixedCellSizeIndex offset 0xffffffff size 0x4
   static constexpr int32_t kFixedCellSizeIndex{ static_cast<int32_t>(0xffffffff) };

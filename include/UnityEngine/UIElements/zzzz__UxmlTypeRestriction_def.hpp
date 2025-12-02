@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(UxmlTypeRestriction)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class UxmlTypeRestriction;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UxmlTypeRestriction);
-// Dependencies System.IEquatable`1<T>, System.Object
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.UxmlTypeRestriction
@@ -22,12 +24,12 @@ public:
   /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
   constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>*() noexcept;
 
-  /// @brief Method Equals, addr 0x4aa4c98, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x6a8cca8, size 0xc, virtual true, abstract: false, final false
   inline bool Equals(::UnityEngine::UIElements::UxmlTypeRestriction* other);
 
   static inline ::UnityEngine::UIElements::UxmlTypeRestriction* New_ctor();
 
-  /// @brief Method .ctor, addr 0x4aa4ca4, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6a8ccb4, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::UxmlTypeRestriction*>"
@@ -48,7 +50,7 @@ public:
   UxmlTypeRestriction(UxmlTypeRestriction const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6284 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5194 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

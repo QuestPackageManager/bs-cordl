@@ -49,11 +49,11 @@ template <typename T>
 class CORDL_TYPE AddressablesExtensions___c__DisplayClass3_0_1 : public ::System::Object {
 public:
   // Declarations
-  /// @brief Field asyncOperationHandle, offset 0x10, size 0x20
+  /// @brief Field asyncOperationHandle, offset 0x10, size 0x18
   __declspec(property(get = __cordl_internal_get_asyncOperationHandle, put = __cordl_internal_set_asyncOperationHandle)) ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T>
       asyncOperationHandle;
 
-  /// @brief Field taskSource, offset 0x30, size 0x8
+  /// @brief Field taskSource, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_taskSource, put = __cordl_internal_set_taskSource)) ::System::Threading::Tasks::TaskCompletionSource_1<T>* taskSource;
 
   static inline ::BGLib::UnityExtension::AddressablesExtensions___c__DisplayClass3_0_1<T>* New_ctor();
@@ -91,12 +91,12 @@ public:
   AddressablesExtensions___c__DisplayClass3_0_1(AddressablesExtensions___c__DisplayClass3_0_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17166 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20696 };
 
-  /// @brief Field asyncOperationHandle, offset: 0x10, size: 0x20, def value: None
+  /// @brief Field asyncOperationHandle, offset: 0x10, size: 0x18, def value: None
   ::UnityEngine::ResourceManagement::AsyncOperations::AsyncOperationHandle_1<T> ___asyncOperationHandle;
 
-  /// @brief Field taskSource, offset: 0x30, size: 0x8, def value: None
+  /// @brief Field taskSource, offset: 0x28, size: 0x8, def value: None
   ::System::Threading::Tasks::TaskCompletionSource_1<T>* ___taskSource;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -141,7 +141,7 @@ public:
   AddressablesExtensions(AddressablesExtensions const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17167 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20697 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

@@ -23,7 +23,13 @@ namespace GlobalNamespace {
 class IAudioTimeSource;
 }
 namespace GlobalNamespace {
+class IRandom;
+}
+namespace GlobalNamespace {
 class LightPairSinMoveEventEffect_MovementData;
+}
+namespace GlobalNamespace {
+class TimeHelper;
 }
 namespace UnityEngine {
 class Transform;
@@ -110,7 +116,7 @@ public:
 
   constexpr void __cordl_internal_set_transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b94f7c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5783490, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -128,7 +134,7 @@ public:
   LightPairSinMoveEventEffect_MovementData(LightPairSinMoveEventEffect_MovementData const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4319 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5902 };
 
   /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
   bool ___enabled;
@@ -187,7 +193,7 @@ public:
   __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
                       put = __cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x88, size 0x8
+  /// @brief Field _beatmapDataCallbackWrapper, offset 0x98, size 0x8
   __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
                       put = __cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
 
@@ -200,19 +206,22 @@ public:
   /// @brief Field _eventR, offset 0x24, size 0x4
   __declspec(property(get = __cordl_internal_get__eventR, put = __cordl_internal_set__eventR)) ::GlobalNamespace::BasicBeatmapEventType _eventR;
 
-  /// @brief Field _movementDataL, offset 0x70, size 0x8
+  /// @brief Field _movementDataL, offset 0x80, size 0x8
   __declspec(property(get = __cordl_internal_get__movementDataL, put = __cordl_internal_set__movementDataL)) ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* _movementDataL;
 
-  /// @brief Field _movementDataR, offset 0x78, size 0x8
+  /// @brief Field _movementDataR, offset 0x88, size 0x8
   __declspec(property(get = __cordl_internal_get__movementDataR, put = __cordl_internal_set__movementDataR)) ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* _movementDataR;
 
   /// @brief Field _overrideRandomValues, offset 0x2c, size 0x1
   __declspec(property(get = __cordl_internal_get__overrideRandomValues, put = __cordl_internal_set__overrideRandomValues)) bool _overrideRandomValues;
 
-  /// @brief Field _randomGenerationFrameNum, offset 0x80, size 0x4
+  /// @brief Field _random, offset 0x70, size 0x8
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::GlobalNamespace::IRandom* _random;
+
+  /// @brief Field _randomGenerationFrameNum, offset 0x90, size 0x4
   __declspec(property(get = __cordl_internal_get__randomGenerationFrameNum, put = __cordl_internal_set__randomGenerationFrameNum)) int32_t _randomGenerationFrameNum;
 
-  /// @brief Field _randomStartOffset, offset 0x84, size 0x4
+  /// @brief Field _randomStartOffset, offset 0x94, size 0x4
   __declspec(property(get = __cordl_internal_get__randomStartOffset, put = __cordl_internal_set__randomStartOffset)) float_t _randomStartOffset;
 
   /// @brief Field _startPositionOffset, offset 0x34, size 0xc
@@ -225,27 +234,30 @@ public:
   __declspec(property(get = __cordl_internal_get__switchOverrideRandomValuesEvent,
                       put = __cordl_internal_set__switchOverrideRandomValuesEvent)) ::GlobalNamespace::BasicBeatmapEventType _switchOverrideRandomValuesEvent;
 
+  /// @brief Field _timeHelper, offset 0x78, size 0x8
+  __declspec(property(get = __cordl_internal_get__timeHelper, put = __cordl_internal_set__timeHelper)) ::UnityW<::GlobalNamespace::TimeHelper> _timeHelper;
+
   /// @brief Field _transformL, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__transformL, put = __cordl_internal_set__transformL)) ::UnityW<::UnityEngine::Transform> _transformL;
 
   /// @brief Field _transformR, offset 0x58, size 0x8
   __declspec(property(get = __cordl_internal_get__transformR, put = __cordl_internal_set__transformR)) ::UnityW<::UnityEngine::Transform> _transformR;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b9517c, size 0x15c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x578368c, size 0x18c, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightPairSinMoveEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b95160, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5783670, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b94c6c, size 0x310, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x57831a0, size 0x2f0, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b94f84, size 0x1dc, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5783494, size 0x1dc, virtual false, abstract: false, final false
   inline void Update();
 
-  /// @brief Method UpdateMovementData, addr 0x3b952d8, size 0x138, virtual false, abstract: false, final false
+  /// @brief Method UpdateMovementData, addr 0x5783818, size 0x140, virtual false, abstract: false, final false
   inline void UpdateMovementData(int32_t beatmapEventDataValue, ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* movementData, float_t movementValueOffset);
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -284,6 +296,10 @@ public:
 
   constexpr bool& __cordl_internal_get__overrideRandomValues();
 
+  constexpr ::GlobalNamespace::IRandom* const& __cordl_internal_get__random() const;
+
+  constexpr ::GlobalNamespace::IRandom*& __cordl_internal_get__random();
+
   constexpr int32_t const& __cordl_internal_get__randomGenerationFrameNum() const;
 
   constexpr int32_t& __cordl_internal_get__randomGenerationFrameNum();
@@ -303,6 +319,10 @@ public:
   constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__switchOverrideRandomValuesEvent() const;
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__switchOverrideRandomValuesEvent();
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper> const& __cordl_internal_get__timeHelper() const;
+
+  constexpr ::UnityW<::GlobalNamespace::TimeHelper>& __cordl_internal_get__timeHelper();
 
   constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__transformL() const;
 
@@ -330,6 +350,8 @@ public:
 
   constexpr void __cordl_internal_set__overrideRandomValues(bool value);
 
+  constexpr void __cordl_internal_set__random(::GlobalNamespace::IRandom* value);
+
   constexpr void __cordl_internal_set__randomGenerationFrameNum(int32_t value);
 
   constexpr void __cordl_internal_set__randomStartOffset(float_t value);
@@ -340,11 +362,13 @@ public:
 
   constexpr void __cordl_internal_set__switchOverrideRandomValuesEvent(::GlobalNamespace::BasicBeatmapEventType value);
 
+  constexpr void __cordl_internal_set__timeHelper(::UnityW<::GlobalNamespace::TimeHelper> value);
+
   constexpr void __cordl_internal_set__transformL(::UnityW<::UnityEngine::Transform> value);
 
   constexpr void __cordl_internal_set__transformR(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b95410, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5783958, size 0x24, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -362,7 +386,7 @@ public:
   LightPairSinMoveEventEffect(LightPairSinMoveEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4320 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5903 };
 
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ static_cast<float_t>(1.0f) };
@@ -400,19 +424,25 @@ public:
   /// @brief Field _audioTimeSource, offset: 0x68, size: 0x8, def value: None
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
-  /// @brief Field _movementDataL, offset: 0x70, size: 0x8, def value: None
+  /// @brief Field _random, offset: 0x70, size: 0x8, def value: None
+  ::GlobalNamespace::IRandom* ____random;
+
+  /// @brief Field _timeHelper, offset: 0x78, size: 0x8, def value: None
+  ::UnityW<::GlobalNamespace::TimeHelper> ____timeHelper;
+
+  /// @brief Field _movementDataL, offset: 0x80, size: 0x8, def value: None
   ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* ____movementDataL;
 
-  /// @brief Field _movementDataR, offset: 0x78, size: 0x8, def value: None
+  /// @brief Field _movementDataR, offset: 0x88, size: 0x8, def value: None
   ::GlobalNamespace::LightPairSinMoveEventEffect_MovementData* ____movementDataR;
 
-  /// @brief Field _randomGenerationFrameNum, offset: 0x80, size: 0x4, def value: None
+  /// @brief Field _randomGenerationFrameNum, offset: 0x90, size: 0x4, def value: None
   int32_t ____randomGenerationFrameNum;
 
-  /// @brief Field _randomStartOffset, offset: 0x84, size: 0x4, def value: None
+  /// @brief Field _randomStartOffset, offset: 0x94, size: 0x4, def value: None
   float_t ____randomStartOffset;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x98, size: 0x8, def value: None
   ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
@@ -440,17 +470,21 @@ static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____beatm
 
 static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____audioTimeSource) == 0x68, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____movementDataL) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____random) == 0x70, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____movementDataR) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____timeHelper) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____randomGenerationFrameNum) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____movementDataL) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____randomStartOffset) == 0x84, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____movementDataR) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____beatmapDataCallbackWrapper) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____randomGenerationFrameNum) == 0x90, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightPairSinMoveEventEffect, 0x90>, "Size mismatch!");
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____randomStartOffset) == 0x94, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::LightPairSinMoveEventEffect, ____beatmapDataCallbackWrapper) == 0x98, "Offset mismatch!");
+
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightPairSinMoveEventEffect, 0xa0>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightPairSinMoveEventEffect);

@@ -1,12 +1,12 @@
 #pragma once
 // IWYU pragma private; include "Zenject/StaticMemoryPool_4.hpp"
-#include "Zenject/zzzz__IDespawnableMemoryPool_1_impl.hpp"
-#include "Zenject/zzzz__IMemoryPool_4_impl.hpp"
-#include "Zenject/zzzz__IMemoryPool_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPoolBase_1_impl.hpp"
 #include "Zenject/zzzz__StaticMemoryPool_4_def.hpp"
 #include "System/zzzz__Action_1_def.hpp"
 #include "System/zzzz__Action_4_def.hpp"
+#include "Zenject/zzzz__IDespawnableMemoryPool_1_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_4_def.hpp"
+#include "Zenject/zzzz__IMemoryPool_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 constexpr ::System::Action_4<TParam1, TParam2, TParam3, TValue>*& Zenject::StaticMemoryPool_4<TParam1, TParam2, TParam3, TValue>::__cordl_internal_get__onSpawnMethod() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));

@@ -44,17 +44,17 @@ public:
   /// @brief Field _oldStartingIndex, offset 0x2c, size 0x4
   __declspec(property(get = __cordl_internal_get__oldStartingIndex, put = __cordl_internal_set__oldStartingIndex)) int32_t _oldStartingIndex;
 
-  /// @brief Method InitializeAdd, addr 0x44842ec, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeAdd, addr 0x61d3c00, size 0x84, virtual false, abstract: false, final false
   inline void InitializeAdd(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, int32_t newStartingIndex);
 
-  /// @brief Method InitializeAddOrRemove, addr 0x4484560, size 0x18, virtual false, abstract: false, final false
+  /// @brief Method InitializeAddOrRemove, addr 0x61d3e78, size 0x18, virtual false, abstract: false, final false
   inline void InitializeAddOrRemove(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* changedItems, int32_t startingIndex);
 
-  /// @brief Method InitializeMoveOrReplace, addr 0x4484750, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method InitializeMoveOrReplace, addr 0x61d4064, size 0x44, virtual false, abstract: false, final false
   inline void InitializeMoveOrReplace(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems,
                                       int32_t startingIndex, int32_t oldStartingIndex);
 
-  /// @brief Method InitializeRemove, addr 0x4484944, size 0x84, virtual false, abstract: false, final false
+  /// @brief Method InitializeRemove, addr 0x61d4250, size 0x84, virtual false, abstract: false, final false
   inline void InitializeRemove(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* oldItems, int32_t oldStartingIndex);
 
   static inline ::System::Collections::Specialized::NotifyCollectionChangedEventArgs* New_ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action);
@@ -98,16 +98,16 @@ public:
 
   constexpr void __cordl_internal_set__oldStartingIndex(int32_t value);
 
-  /// @brief Method .ctor, addr 0x44841b8, size 0x134, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d3acc, size 0x134, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action);
 
-  /// @brief Method .ctor, addr 0x4484370, size 0x1f0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d3c84, size 0x1f4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* changedItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x4484578, size 0x1d8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d3e90, size 0x1d4, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Object* newItem, ::System::Object* oldItem, int32_t index);
 
-  /// @brief Method .ctor, addr 0x4484794, size 0x1b0, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x61d40a8, size 0x1a8, virtual false, abstract: false, final false
   inline void _ctor(::System::Collections::Specialized::NotifyCollectionChangedAction action, ::System::Collections::IList* newItems, ::System::Collections::IList* oldItems, int32_t startingIndex);
 
 protected:
@@ -125,7 +125,7 @@ public:
   NotifyCollectionChangedEventArgs(NotifyCollectionChangedEventArgs const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 9499 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 11348 };
 
   /// @brief Field _action, offset: 0x10, size: 0x4, def value: None
   ::System::Collections::Specialized::NotifyCollectionChangedAction ____action;

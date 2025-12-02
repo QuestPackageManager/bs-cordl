@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/IPacketPool_1.hpp"
-#include "GlobalNamespace/zzzz__IPacketPool_impl.hpp"
 #include "GlobalNamespace/zzzz__IPacketPool_1_def.hpp"
+#include "GlobalNamespace/zzzz__IPacketPool_def.hpp"
 template <typename T> inline T GlobalNamespace::IPacketPool_1<T>::Obtain() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
                                                                              ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::IPacketPool_1<T>*>::get(), 0)));

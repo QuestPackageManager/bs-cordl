@@ -34,8 +34,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::Vector2)>(
     &::TMPro::TMP_DefaultControls::CreateUIElementRoot)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x47c6a04;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x672ac18;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -50,8 +50,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::StringW, ::UnityEngine::GameObject*)>(
     &::TMPro::TMP_DefaultControls::CreateUIObject)> {
-  constexpr static std::size_t size = 0xc0;
-  constexpr static std::size_t addrs = 0x47c6aac;
+  constexpr static std::size_t size = 0xcc;
+  constexpr static std::size_t addrs = 0x672acc8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -65,8 +65,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::TMPro::TMP_Text*)>(&::TMPro::TMP_DefaultControls::SetDefaultTextValues)> {
-  constexpr static std::size_t size = 0x88;
-  constexpr static std::size_t addrs = 0x47c6c6c;
+  constexpr static std::size_t size = 0x8c;
+  constexpr static std::size_t addrs = 0x672ae9c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -79,8 +79,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::UI::Selectable*)>(&::TMPro::TMP_DefaultControls::SetDefaultColorTransitionValues)> {
-  constexpr static std::size_t size = 0x60;
-  constexpr static std::size_t addrs = 0x47c6cf4;
+  constexpr static std::size_t size = 0x64;
+  constexpr static std::size_t addrs = 0x672af28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -93,8 +93,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, ::UnityEngine::GameObject*)>(&::TMPro::TMP_DefaultControls::SetParentAndAlign)> {
-  constexpr static std::size_t size = 0x100;
-  constexpr static std::size_t addrs = 0x47c6b6c;
+  constexpr static std::size_t size = 0x108;
+  constexpr static std::size_t addrs = 0x672ad94;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -108,8 +108,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::UnityEngine::GameObject*, int32_t)>(&::TMPro::TMP_DefaultControls::SetLayerRecursively)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x47c6d54;
+  constexpr static std::size_t size = 0xe8;
+  constexpr static std::size_t addrs = 0x672af8c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(
     &::TMPro::TMP_DefaultControls::CreateScrollbar)> {
-  constexpr static std::size_t size = 0x2cc;
-  constexpr static std::size_t addrs = 0x47c6e38;
+  constexpr static std::size_t size = 0x2f0;
+  constexpr static std::size_t addrs = 0x672b074;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -139,8 +139,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(
     &::TMPro::TMP_DefaultControls::CreateButton)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x47c7104;
+  constexpr static std::size_t size = 0x328;
+  constexpr static std::size_t addrs = 0x672b364;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -154,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(
     &::TMPro::TMP_DefaultControls::CreateText)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x47c73c4;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x672b68c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -169,8 +169,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(
     &::TMPro::TMP_DefaultControls::CreateInputField)> {
-  constexpr static std::size_t size = 0x660;
-  constexpr static std::size_t addrs = 0x47c7464;
+  constexpr static std::size_t size = 0x7d8;
+  constexpr static std::size_t addrs = 0x672b730;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -184,8 +184,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::GameObject> (*)(::TMPro::TMP_DefaultControls_Resources)>(
     &::TMPro::TMP_DefaultControls::CreateDropdown)> {
-  constexpr static std::size_t size = 0xde0;
-  constexpr static std::size_t addrs = 0x47c7c68;
+  constexpr static std::size_t size = 0xe84;
+  constexpr static std::size_t addrs = 0x672bf08;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -298,6 +298,15 @@ inline ::UnityW<::UnityEngine::GameObject> TMPro::TMP_DefaultControls::CreateDro
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(), "CreateDropdown", std::span<Il2CppClass const* const, 0>(),
                                                ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::TMPro::TMP_DefaultControls_Resources>::get() })));
   return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::GameObject>, false>(nullptr, ___internal_method, resources);
+}
+template <typename T> inline T TMPro::TMP_DefaultControls::AddComponent(::UnityEngine::GameObject* go) {
+  static auto* ___internal_method_base =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::TMPro::TMP_DefaultControls*>::get(), "AddComponent",
+                                               std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() },
+                                               ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::GameObject*>::get() })));
+  static auto* ___internal_method =
+      THROW_UNLESS(::il2cpp_utils::MakeGenericMethod(___internal_method_base, std::array<Il2CppClass const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<T>::get() }));
+  return ::cordl_internals::RunMethodRethrow<T, false>(nullptr, ___internal_method, go);
 }
 // Ctor Parameters []
 constexpr ::TMPro::TMP_DefaultControls::TMP_DefaultControls() {}

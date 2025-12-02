@@ -3,10 +3,12 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(FocusChangeDirection)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
 class FocusController;
 }
@@ -19,7 +21,7 @@ class FocusChangeDirection;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::FocusChangeDirection);
-// Dependencies System.IDisposable, System.Object
+// Dependencies System.Object
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.FocusChangeDirection
@@ -41,15 +43,15 @@ public:
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
 
-  /// @brief Method ApplyTo, addr 0x4a36764, size 0x28, virtual true, abstract: false, final false
+  /// @brief Method ApplyTo, addr 0x6b73938, size 0x28, virtual true, abstract: false, final false
   inline void ApplyTo(::UnityEngine::UIElements::FocusController* focusController, ::UnityEngine::UIElements::Focusable* f);
 
-  /// @brief Method Dispose, addr 0x4a36760, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method Dispose, addr 0x6b73934, size 0x4, virtual true, abstract: false, final false
   inline void Dispose();
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* New_ctor(int32_t value);
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x4a36754, size 0xc, virtual true, abstract: false, final true
+  /// @brief Method System.IDisposable.Dispose, addr 0x6b73928, size 0xc, virtual true, abstract: false, final true
   inline void System_IDisposable_Dispose();
 
   constexpr int32_t const& __cordl_internal_get_m_Value() const;
@@ -58,7 +60,7 @@ public:
 
   constexpr void __cordl_internal_set_m_Value(int32_t value);
 
-  /// @brief Method .ctor, addr 0x4a36720, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x6b73914, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(int32_t value);
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__lastValue_k__BackingField();
@@ -67,19 +69,19 @@ public:
 
   static inline ::UnityEngine::UIElements::FocusChangeDirection* getStaticF__unspecified_k__BackingField();
 
-  /// @brief Method get_lastValue, addr 0x4a366c8, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_lastValue, addr 0x6b738b8, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_lastValue();
 
-  /// @brief Method get_none, addr 0x4a36670, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_none, addr 0x6b7385c, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_none();
 
-  /// @brief Method get_unspecified, addr 0x4a36618, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method get_unspecified, addr 0x6b73800, size 0x5c, virtual false, abstract: false, final false
   static inline ::UnityEngine::UIElements::FocusChangeDirection* get_unspecified();
 
   /// @brief Convert to "::System::IDisposable"
   constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method op_Implicit, addr 0x4a36748, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method op_Implicit, addr 0x6b7391c, size 0xc, virtual false, abstract: false, final false
   static inline int32_t op_Implicit_int32_t(::UnityEngine::UIElements::FocusChangeDirection* fcd);
 
   static inline void setStaticF__lastValue_k__BackingField(::UnityEngine::UIElements::FocusChangeDirection* value);
@@ -103,7 +105,7 @@ public:
   FocusChangeDirection(FocusChangeDirection const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5953 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4580 };
 
   /// @brief Field m_Value, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_Value;

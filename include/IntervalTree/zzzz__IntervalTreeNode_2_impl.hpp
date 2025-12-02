@@ -1,7 +1,5 @@
 #pragma once
 // IWYU pragma private; include "IntervalTree/IntervalTreeNode_2.hpp"
-#include "IntervalTree/zzzz__RangeValuePair_2_impl.hpp"
-#include "System/Collections/Generic/zzzz__IComparer_1_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"
 #include "IntervalTree/zzzz__IntervalTreeNode_2_def.hpp"

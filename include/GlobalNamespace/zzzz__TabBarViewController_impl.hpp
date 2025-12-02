@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController_TabBarItem::*)(::StringW, ::System::Action*)>(
     &::GlobalNamespace::TabBarViewController_TabBarItem::_ctor)> {
-  constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x3afc2c8;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x56df2ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TabBarViewController_TabBarItem*>::get(),
@@ -63,8 +63,8 @@ constexpr ::GlobalNamespace::TabBarViewController_TabBarItem::TabBarViewControll
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)(bool)>(&::GlobalNamespace::TabBarViewController::set_sizeToFit)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x3afbe7c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x56dee64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -77,8 +77,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::TabBarViewController::*)()>(&::GlobalNamespace::TabBarViewController::get_sizeToFit)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3afbe9c;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x56dee80;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TabBarViewController*>::get(), "get_sizeToFit",
@@ -91,8 +91,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::TabBarViewController::*)()>(
     &::GlobalNamespace::TabBarViewController::get_selectedCellNumber)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3afbeb8;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x56dee98;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TabBarViewController*>::get(),
@@ -105,8 +105,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)(
     ::ArrayW<::GlobalNamespace::TabBarViewController_TabBarItem*, ::Array<::GlobalNamespace::TabBarViewController_TabBarItem*>*>)>(&::GlobalNamespace::TabBarViewController::Setup)> {
-  constexpr static std::size_t size = 0x190;
-  constexpr static std::size_t addrs = 0x3afbed4;
+  constexpr static std::size_t size = 0x1b4;
+  constexpr static std::size_t addrs = 0x56deeb0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -120,8 +120,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)(int32_t)>(&::GlobalNamespace::TabBarViewController::SelectItem)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x3afc064;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x56df064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -134,8 +134,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)()>(&::GlobalNamespace::TabBarViewController::Clear)> {
-  constexpr static std::size_t size = 0x54;
-  constexpr static std::size_t addrs = 0x3afc080;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x56df07c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TabBarViewController*>::get(), "Clear",
@@ -148,8 +148,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)(bool, bool, bool)>(
     &::GlobalNamespace::TabBarViewController::DidActivate)> {
-  constexpr static std::size_t size = 0xc4;
-  constexpr static std::size_t addrs = 0x3afc0d4;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x56df0d4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -162,8 +162,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)()>(&::GlobalNamespace::TabBarViewController::OnDestroy)> {
-  constexpr static std::size_t size = 0xd8;
-  constexpr static std::size_t addrs = 0x3afc198;
+  constexpr static std::size_t size = 0xe4;
+  constexpr static std::size_t addrs = 0x56df1b4;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -178,7 +178,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)(::HMUI::SegmentedControl*, int32_t)>(
     &::GlobalNamespace::TabBarViewController::HandleDidSelectCell)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x3afc270;
+  constexpr static std::size_t addrs = 0x56df298;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -192,8 +192,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::TabBarViewController::*)()>(&::GlobalNamespace::TabBarViewController::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3afc2c0;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x56df2e8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::TabBarViewController*>::get(), ".ctor",

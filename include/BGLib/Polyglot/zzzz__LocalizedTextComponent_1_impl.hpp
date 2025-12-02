@@ -1,8 +1,8 @@
 #pragma once
 // IWYU pragma private; include "BGLib/Polyglot/LocalizedTextComponent_1.hpp"
-#include "BGLib/Polyglot/zzzz__ILocalize_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizedTextComponent_1_def.hpp"
+#include "BGLib/Polyglot/zzzz__ILocalize_def.hpp"
 #include "BGLib/Polyglot/zzzz__LanguageDirection_def.hpp"
 #include "BGLib/Polyglot/zzzz__LocalizationModel_def.hpp"
 #include "System/Collections/Generic/zzzz__List_1_def.hpp"
@@ -79,6 +79,11 @@ template <typename T> inline ::System::Collections::Generic::List_1<::System::Ob
 template <typename T> inline void BGLib::Polyglot::LocalizedTextComponent_1<T>::Start() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextComponent_1<T>*>::get(), "Start",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline void BGLib::Polyglot::LocalizedTextComponent_1<T>::OnDestroy() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::BGLib::Polyglot::LocalizedTextComponent_1<T>*>::get(),
+                                                                             "OnDestroy", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline void BGLib::Polyglot::LocalizedTextComponent_1<T>::SetText(T component, ::StringW value) {

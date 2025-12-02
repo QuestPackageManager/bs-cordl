@@ -1,14 +1,14 @@
 #pragma once
 // IWYU pragma private; include "UnityEngine/Rendering/BatchMaterialID.hpp"
-#include "System/zzzz__IEquatable_1_impl.hpp"
 #include "UnityEngine/Rendering/zzzz__BatchMaterialID_def.hpp"
+#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 //  Writing Method size for method: ::UnityEngine::Rendering::BatchMaterialID.GetHashCode
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::Rendering::BatchMaterialID::*)()>(&::UnityEngine::Rendering::BatchMaterialID::GetHashCode)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x48ca928;
+  constexpr static std::size_t addrs = 0x68f6388;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -22,8 +22,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchMaterialID::*)(::System::Object*)>(
     &::UnityEngine::Rendering::BatchMaterialID::Equals)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x48ca930;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x68f6390;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -38,12 +38,28 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::Rendering::BatchMaterialID::*)(::UnityEngine::Rendering::BatchMaterialID)>(
     &::UnityEngine::Rendering::BatchMaterialID::Equals)> {
   constexpr static std::size_t size = 0x10;
-  constexpr static std::size_t addrs = 0x48ca9d8;
+  constexpr static std::size_t addrs = 0x68f6440;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
         (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchMaterialID>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                     ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchMaterialID>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::Rendering::BatchMaterialID.op_Equality
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::Rendering::BatchMaterialID, ::UnityEngine::Rendering::BatchMaterialID)>(
+    &::UnityEngine::Rendering::BatchMaterialID::op_Equality)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x68f6450;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchMaterialID>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchMaterialID>::get(),
+                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchMaterialID>::get() })));
     return ___internal_method;
   }
 };
@@ -69,6 +85,13 @@ inline bool UnityEngine::Rendering::BatchMaterialID::Equals(::UnityEngine::Rende
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchMaterialID>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchMaterialID>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+inline bool UnityEngine::Rendering::BatchMaterialID::op_Equality(::UnityEngine::Rendering::BatchMaterialID a, ::UnityEngine::Rendering::BatchMaterialID b) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::Rendering::BatchMaterialID>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchMaterialID>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rendering::BatchMaterialID>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, a, b);
 }
 /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::Rendering::BatchMaterialID>"
 constexpr UnityEngine::Rendering::BatchMaterialID::operator ::System::IEquatable_1<::UnityEngine::Rendering::BatchMaterialID>*() {

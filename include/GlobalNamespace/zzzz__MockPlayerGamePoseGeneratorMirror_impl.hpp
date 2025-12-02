@@ -4,9 +4,9 @@
 #include "GlobalNamespace/zzzz__MockPlayerGamePoseGeneratorMirror_def.hpp"
 #include "BeatSaber/AvatarCore/zzzz__OptionalAvatarDataPacket_def.hpp"
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatSaberMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__IConnectedPlayer_def.hpp"
 #include "GlobalNamespace/zzzz__IGameplayRpcManager_def.hpp"
-#include "GlobalNamespace/zzzz__IMultiplayerSessionManager_def.hpp"
 #include "GlobalNamespace/zzzz__MockBeatmapData_def.hpp"
 #include "GlobalNamespace/zzzz__MultiplayerLevelCompletionResults_def.hpp"
 #include "GlobalNamespace/zzzz__NodePoseSyncStateManager_def.hpp"
@@ -21,15 +21,15 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
-    ::GlobalNamespace::IMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, bool, ::GlobalNamespace::NodePoseSyncStateManager*)>(
+    ::GlobalNamespace::IBeatSaberMultiplayerSessionManager*, ::GlobalNamespace::IGameplayRpcManager*, bool, ::GlobalNamespace::NodePoseSyncStateManager*)>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::_ctor)> {
-  constexpr static std::size_t size = 0x6a4;
-  constexpr static std::size_t addrs = 0x3bc999c;
+  constexpr static std::size_t size = 0x758;
+  constexpr static std::size_t addrs = 0x57bab48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
         ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get(),
+        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayRpcManager*>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NodePoseSyncStateManager*>::get() })));
@@ -41,8 +41,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Dispose)> {
-  constexpr static std::size_t size = 0x4ec;
-  constexpr static std::size_t addrs = 0x3bca040;
+  constexpr static std::size_t size = 0x514;
+  constexpr static std::size_t addrs = 0x57bb57c;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -58,7 +58,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     int64_t, ::GlobalNamespace::MockBeatmapData*, ::GlobalNamespace::GameplayModifiers*, ::System::Action*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Init)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3bca52c;
+  constexpr static std::size_t addrs = 0x57bba90;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -73,8 +73,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::Tick)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x3bca534;
+  constexpr static std::size_t size = 0xc4;
+  constexpr static std::size_t addrs = 0x57bba98;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -89,8 +89,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)()>(
     &::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::FindPlayerToMirror)> {
-  constexpr static std::size_t size = 0x39c;
-  constexpr static std::size_t addrs = 0x3bca684;
+  constexpr static std::size_t size = 0x380;
+  constexpr static std::size_t addrs = 0x57bbb5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>::get(),
@@ -103,8 +103,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasSpawned)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bcaa20;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x57bbedc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -120,8 +120,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::ObstacleSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleObstacleWasSpawned)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bcaba4;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x57bc064;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -137,8 +137,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::SliderSpawnInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleSliderWasSpawned)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bcad28;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x57bc1ec;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -154,8 +154,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteMissInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasMissed)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bcaeac;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x57bc374;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -171,8 +171,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, int64_t, float_t, ::GlobalNamespace::NoteCutInfoNetSerializable*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleNoteWasCut)> {
-  constexpr static std::size_t size = 0x184;
-  constexpr static std::size_t addrs = 0x3bcb030;
+  constexpr static std::size_t size = 0x188;
+  constexpr static std::size_t addrs = 0x57bc4fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -188,8 +188,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::GlobalNamespace::StandardScoreSyncStateNetSerializable*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleScoreSyncStateUpdate)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3bcb1b4;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x57bc684;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -204,8 +204,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::BeatSaber::AvatarCore::OptionalAvatarDataPacket*, ::GlobalNamespace::IConnectedPlayer*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleOptionalAvatarDataReceived)> {
-  constexpr static std::size_t size = 0x1dc;
-  constexpr static std::size_t addrs = 0x3bcb390;
+  constexpr static std::size_t size = 0x1e0;
+  constexpr static std::size_t addrs = 0x57bc864;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::*)(
     ::StringW, ::GlobalNamespace::MultiplayerLevelCompletionResults*)>(&::GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleLevelFinished)> {
-  constexpr static std::size_t size = 0x174;
-  constexpr static std::size_t addrs = 0x3bcb56c;
+  constexpr static std::size_t size = 0x178;
+  constexpr static std::size_t addrs = 0x57bca44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -268,12 +268,12 @@ constexpr void GlobalNamespace::MockPlayerGamePoseGeneratorMirror::__cordl_inter
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____onSongFinished)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::MockPlayerGamePoseGeneratorMirror::_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
+inline void GlobalNamespace::MockPlayerGamePoseGeneratorMirror::_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
                                                                       ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
                                                                       ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IMultiplayerSessionManager*>::get(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IBeatSaberMultiplayerSessionManager*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IGameplayRpcManager*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::NodePoseSyncStateManager*>::get() })));
@@ -368,9 +368,10 @@ inline void GlobalNamespace::MockPlayerGamePoseGeneratorMirror::HandleLevelFinis
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::MultiplayerLevelCompletionResults*>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, userId, results);
 }
-inline ::GlobalNamespace::MockPlayerGamePoseGeneratorMirror* GlobalNamespace::MockPlayerGamePoseGeneratorMirror::New_ctor(::GlobalNamespace::IMultiplayerSessionManager* multiplayerSessionManager,
-                                                                                                                          ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
-                                                                                                                          ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
+inline ::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*
+GlobalNamespace::MockPlayerGamePoseGeneratorMirror::New_ctor(::GlobalNamespace::IBeatSaberMultiplayerSessionManager* multiplayerSessionManager,
+                                                             ::GlobalNamespace::IGameplayRpcManager* gameplayRpcManager, bool leftHanded,
+                                                             ::GlobalNamespace::NodePoseSyncStateManager* nodePoseSyncStateManager) {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MockPlayerGamePoseGeneratorMirror*>(multiplayerSessionManager, gameplayRpcManager, leftHanded, nodePoseSyncStateManager));
 }
 // Ctor Parameters []

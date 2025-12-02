@@ -3,16 +3,18 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(ICryptoTransform)
+namespace System {
+class IDisposable;
+}
 // Forward declare root types
 namespace System::Security::Cryptography {
 class ICryptoTransform;
 }
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::ICryptoTransform);
-// Dependencies System.IDisposable
+// Dependencies
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: System.Security.Cryptography.ICryptoTransform
@@ -51,7 +53,7 @@ public:
   ICryptoTransform(ICryptoTransform const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2940 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 2957 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

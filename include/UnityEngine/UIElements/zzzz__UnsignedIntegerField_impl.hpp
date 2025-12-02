@@ -13,8 +13,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory::*)()>(
     &::UnityEngine::UIElements::UnsignedIntegerField_UxmlFactory::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a12cd8;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x6b4cf44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -39,8 +39,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits::*)()>(
     &::UnityEngine::UIElements::UnsignedIntegerField_UxmlTraits::_ctor)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x4a12d20;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x6b4cfac;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -64,8 +64,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UnsignedIntegerField* (
     ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::*)()>(&::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::get_parentUnsignedIntegerField)> {
-  constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x4a12d68;
+  constexpr static std::size_t size = 0x7c;
+  constexpr static std::size_t addrs = 0x6b4cff8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -79,8 +79,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::*)()>(
     &::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::_ctor)> {
-  constexpr static std::size_t size = 0x94;
-  constexpr static std::size_t addrs = 0x4a12aec;
+  constexpr static std::size_t size = 0x9c;
+  constexpr static std::size_t addrs = 0x6b4cd44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -94,14 +94,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::*)()>(
     &::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::get_allowedCharacters)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4a12de8;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6b4d074;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 104));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 138));
     return ___internal_method;
   }
 };
@@ -110,14 +110,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, uint32_t)>(&::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::ApplyInputDeviceDelta)> {
-  constexpr static std::size_t size = 0x250;
-  constexpr static std::size_t addrs = 0x4a12e40;
+  constexpr static std::size_t size = 0x284;
+  constexpr static std::size_t addrs = 0x6b4d0d0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 105));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 139));
     return ___internal_method;
   }
 };
@@ -126,14 +126,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::*)(uint32_t)>(
     &::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::ValueToString)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x4a13090;
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x6b4d354;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 106));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 140));
     return ___internal_method;
   }
 };
@@ -142,14 +142,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::*)(::StringW)>(
     &::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::StringToValue)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4a130dc;
+  constexpr static std::size_t size = 0xa0;
+  constexpr static std::size_t addrs = 0x6b4d3b0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 100));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 136));
     return ___internal_method;
   }
 };
@@ -168,25 +168,25 @@ inline void UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::
 inline ::StringW UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::get_allowedCharacters() {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 104)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 138)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
 inline void UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 105)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 139)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 inline ::StringW UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::ValueToString(uint32_t v) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 106)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 140)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
 inline uint32_t UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::StringToValue(::StringW str) {
   auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 100)));
+                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput*>::get(), 136)));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, str);
 }
 inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput::New_ctor() {
@@ -199,8 +199,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* (
     ::UnityEngine::UIElements::UnsignedIntegerField::*)()>(&::UnityEngine::UIElements::UnsignedIntegerField::get_integerInput)> {
-  constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x4a12778;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x6b4c988;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(),
@@ -213,14 +213,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::UnityEngine::UIElements::UnsignedIntegerField::*)(uint32_t)>(
     &::UnityEngine::UIElements::UnsignedIntegerField::ValueToString)> {
-  constexpr static std::size_t size = 0xb8;
-  constexpr static std::size_t addrs = 0x4a127fc;
+  constexpr static std::size_t size = 0xc0;
+  constexpr static std::size_t addrs = 0x6b4ca18;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 118));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 155));
     return ___internal_method;
   }
 };
@@ -229,14 +229,14 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::UIElements::UnsignedIntegerField::*)(::StringW)>(
     &::UnityEngine::UIElements::UnsignedIntegerField::StringToValue)> {
-  constexpr static std::size_t size = 0xdc;
-  constexpr static std::size_t addrs = 0x4a128b4;
+  constexpr static std::size_t size = 0xe0;
+  constexpr static std::size_t addrs = 0x6b4cad8;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 119));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 156));
     return ___internal_method;
   }
 };
@@ -246,7 +246,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField::*)()>(
     &::UnityEngine::UIElements::UnsignedIntegerField::_ctor)> {
   constexpr static std::size_t size = 0xc;
-  constexpr static std::size_t addrs = 0x4a12990;
+  constexpr static std::size_t addrs = 0x6b4cbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), ".ctor",
@@ -259,8 +259,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField::*)(::StringW, int32_t)>(
     &::UnityEngine::UIElements::UnsignedIntegerField::_ctor)> {
-  constexpr static std::size_t size = 0x150;
-  constexpr static std::size_t addrs = 0x4a1299c;
+  constexpr static std::size_t size = 0x180;
+  constexpr static std::size_t addrs = 0x6b4cbc4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -275,13 +275,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::UIElements::UnsignedIntegerField::*)(::StringW)>(
     &::UnityEngine::UIElements::UnsignedIntegerField::CanTryParse)> {
   constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x4a12b80;
+  constexpr static std::size_t addrs = 0x6b4cde0;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 128));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 165));
     return ___internal_method;
   }
 };
@@ -291,13 +291,13 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::UIElements::UnsignedIntegerField::*)(
     ::UnityEngine::Vector3, ::UnityEngine::UIElements::DeltaSpeed, uint32_t)>(&::UnityEngine::UIElements::UnsignedIntegerField::ApplyInputDeviceDelta)> {
   constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4a12ba4;
+  constexpr static std::size_t addrs = 0x6b4ce04;
 
   inline static ::MethodInfo const* methodInfo() {
 
     static auto* ___internal_method =
         THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 127));
+                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 164));
     return ___internal_method;
   }
 };
@@ -329,12 +329,12 @@ inline ::UnityEngine::UIElements::UnsignedIntegerField_UnsignedIntegerInput* Uni
 }
 inline ::StringW UnityEngine::UIElements::UnsignedIntegerField::ValueToString(uint32_t v) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 118)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 155)));
   return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method, v);
 }
 inline uint32_t UnityEngine::UIElements::UnsignedIntegerField::StringToValue(::StringW str) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 119)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 156)));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, str);
 }
 inline void UnityEngine::UIElements::UnsignedIntegerField::_ctor() {
@@ -350,12 +350,12 @@ inline void UnityEngine::UIElements::UnsignedIntegerField::_ctor(::StringW label
 }
 inline bool UnityEngine::UIElements::UnsignedIntegerField::CanTryParse(::StringW textString) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 128)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 165)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, textString);
 }
 inline void UnityEngine::UIElements::UnsignedIntegerField::ApplyInputDeviceDelta(::UnityEngine::Vector3 delta, ::UnityEngine::UIElements::DeltaSpeed speed, uint32_t startValue) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 127)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UIElements::UnsignedIntegerField*>::get(), 164)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, delta, speed, startValue);
 }
 inline ::UnityEngine::UIElements::UnsignedIntegerField* UnityEngine::UIElements::UnsignedIntegerField::New_ctor() {

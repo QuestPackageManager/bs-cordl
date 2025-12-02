@@ -69,21 +69,21 @@ public:
   __declspec(property(get = __cordl_internal_get_didFavoriteToggleChangeEvent,
                       put = __cordl_internal_set_didFavoriteToggleChangeEvent)) ::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* didFavoriteToggleChangeEvent;
 
-  /// @brief Method Awake, addr 0x3b074b8, size 0xe0, virtual false, abstract: false, final false
+  /// @brief Method Awake, addr 0x56e9700, size 0x110, virtual false, abstract: false, final false
   inline void Awake();
 
   static inline ::GlobalNamespace::StandardLevelBuyView* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b07598, size 0x14, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x56e9810, size 0x14, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method RefreshFavouriteToggle, addr 0x3b07624, size 0x44, virtual false, abstract: false, final false
+  /// @brief Method RefreshFavouriteToggle, addr 0x56e9884, size 0x44, virtual false, abstract: false, final false
   inline void RefreshFavouriteToggle();
 
-  /// @brief Method SetContent, addr 0x3b075ac, size 0x78, virtual false, abstract: false, final false
+  /// @brief Method SetContent, addr 0x56e9824, size 0x60, virtual false, abstract: false, final false
   inline void SetContent(::GlobalNamespace::BeatmapLevel* beatmapLevel);
 
-  /// @brief Method <Awake>b__12_0, addr 0x3b07670, size 0x30, virtual false, abstract: false, final false
+  /// @brief Method <Awake>b__12_0, addr 0x56e98cc, size 0x30, virtual false, abstract: false, final false
   inline void _Awake_b__12_0(bool _);
 
   constexpr ::GlobalNamespace::BeatmapLevel* const& __cordl_internal_get__beatmapLevel() const;
@@ -134,16 +134,16 @@ public:
 
   constexpr void __cordl_internal_set_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method .ctor, addr 0x3b07668, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x56e98c8, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x3b07350, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method add_didFavoriteToggleChangeEvent, addr 0x56e9578, size 0xc0, virtual false, abstract: false, final false
   inline void add_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
-  /// @brief Method get_buyButton, addr 0x3b074b0, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_buyButton, addr 0x56e96f8, size 0x8, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::UI::Button> get_buyButton();
 
-  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x3b07400, size 0xb0, virtual false, abstract: false, final false
+  /// @brief Method remove_didFavoriteToggleChangeEvent, addr 0x56e9638, size 0xc0, virtual false, abstract: false, final false
   inline void remove_didFavoriteToggleChangeEvent(::System::Action_1<::UnityW<::UnityEngine::UI::Toggle>>* value);
 
 protected:
@@ -161,7 +161,7 @@ public:
   StandardLevelBuyView(StandardLevelBuyView const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5009 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6588 };
 
   /// @brief Field _levelBar, offset: 0x20, size: 0x8, def value: None
   ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;

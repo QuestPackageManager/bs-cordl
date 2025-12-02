@@ -7,6 +7,9 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ResourceRequest)
 namespace System {
+struct IntPtr;
+}
+namespace System {
 class Type;
 }
 namespace UnityEngine {
@@ -33,10 +36,10 @@ public:
   /// @brief Field m_Type, offset 0x28, size 0x8
   __declspec(property(get = __cordl_internal_get_m_Type, put = __cordl_internal_set_m_Type)) ::System::Type* m_Type;
 
-  /// @brief Method GetResult, addr 0x48a749c, size 0xc, virtual true, abstract: false, final false
+  /// @brief Method GetResult, addr 0x68a5160, size 0xc, virtual true, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> GetResult();
 
-  static inline ::UnityEngine::ResourceRequest* New_ctor();
+  static inline ::UnityEngine::ResourceRequest* New_ctor(::System::IntPtr ptr);
 
   constexpr ::StringW const& __cordl_internal_get_m_Path() const;
 
@@ -50,10 +53,10 @@ public:
 
   constexpr void __cordl_internal_set_m_Type(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x48a752c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+  /// @brief Method .ctor, addr 0x68a51f4, size 0x4c, virtual false, abstract: false, final false
+  inline void _ctor(::System::IntPtr ptr);
 
-  /// @brief Method get_asset, addr 0x48a7520, size 0xc, virtual false, abstract: false, final false
+  /// @brief Method get_asset, addr 0x68a51e8, size 0xc, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Object> get_asset();
 
 protected:
@@ -71,7 +74,7 @@ public:
   ResourceRequest(ResourceRequest const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10851 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10268 };
 
   /// @brief Field m_Path, offset: 0x20, size: 0x8, def value: None
   ::StringW ___m_Path;

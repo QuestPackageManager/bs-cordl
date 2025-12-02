@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleDataRef_1)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -101,7 +103,7 @@ public:
   StyleDataRef_1_RefCounted(StyleDataRef_1_RefCounted const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6098 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4968 };
 
   /// @brief Field m_RefCount, offset: 0x10, size: 0x4, def value: None
   int32_t ___m_RefCount;
@@ -116,7 +118,7 @@ public:
 };
 // Non member Declarations
 } // namespace UnityEngine::UIElements
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace UnityEngine::UIElements {
 // cpp template
 template <typename T>
@@ -174,7 +176,7 @@ public:
   constexpr StyleDataRef_1(::UnityEngine::UIElements::StyleDataRef_1_RefCounted<T>* m_Ref) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6099 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4969 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };

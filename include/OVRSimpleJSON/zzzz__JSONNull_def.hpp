@@ -14,6 +14,9 @@ namespace OVRSimpleJSON {
 struct JSONNode_Enumerator;
 }
 namespace OVRSimpleJSON {
+class JSONNode;
+}
+namespace OVRSimpleJSON {
 struct JSONTextMode;
 }
 namespace System::Text {
@@ -49,50 +52,53 @@ public:
   /// @brief Field reuseSameInstance, offset 0xffffffff, size 0x1
   __declspec(property(get = getStaticF_reuseSameInstance, put = setStaticF_reuseSameInstance)) bool reuseSameInstance;
 
-  /// @brief Method CreateOrGet, addr 0x404e714, size 0x8c, virtual false, abstract: false, final false
+  /// @brief Method Clone, addr 0x5c159ac, size 0x50, virtual true, abstract: false, final false
+  inline ::OVRSimpleJSON::JSONNode* Clone();
+
+  /// @brief Method CreateOrGet, addr 0x5c1288c, size 0x8c, virtual false, abstract: false, final false
   static inline ::OVRSimpleJSON::JSONNull* CreateOrGet();
 
-  /// @brief Method Equals, addr 0x4053c98, size 0x8c, virtual true, abstract: false, final false
+  /// @brief Method Equals, addr 0x5c159fc, size 0x98, virtual true, abstract: false, final false
   inline bool Equals(::System::Object* obj);
 
-  /// @brief Method GetEnumerator, addr 0x4053c34, size 0x14, virtual true, abstract: false, final false
+  /// @brief Method GetEnumerator, addr 0x5c15944, size 0x14, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNode_Enumerator GetEnumerator();
 
-  /// @brief Method GetHashCode, addr 0x4053d24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method GetHashCode, addr 0x5c15a94, size 0x8, virtual true, abstract: false, final false
   inline int32_t GetHashCode();
 
   static inline ::OVRSimpleJSON::JSONNull* New_ctor();
 
-  /// @brief Method WriteToStringBuilder, addr 0x4053d2c, size 0x54, virtual true, abstract: false, final false
+  /// @brief Method WriteToStringBuilder, addr 0x5c15a9c, size 0x58, virtual true, abstract: false, final false
   inline void WriteToStringBuilder(::System::Text::StringBuilder* aSB, int32_t aIndent, int32_t aIndentInc, ::OVRSimpleJSON::JSONTextMode aMode);
 
-  /// @brief Method .ctor, addr 0x4053c1c, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5c158dc, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::OVRSimpleJSON::JSONNull* getStaticF_m_StaticInstance();
 
   static inline bool getStaticF_reuseSameInstance();
 
-  /// @brief Method get_AsBool, addr 0x4053c8c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_AsBool, addr 0x5c159a0, size 0x8, virtual true, abstract: false, final false
   inline bool get_AsBool();
 
-  /// @brief Method get_IsNull, addr 0x4053c2c, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_IsNull, addr 0x5c1593c, size 0x8, virtual true, abstract: false, final false
   inline bool get_IsNull();
 
-  /// @brief Method get_Tag, addr 0x4053c24, size 0x8, virtual true, abstract: false, final false
+  /// @brief Method get_Tag, addr 0x5c15934, size 0x8, virtual true, abstract: false, final false
   inline ::OVRSimpleJSON::JSONNodeType get_Tag();
 
-  /// @brief Method get_Value, addr 0x4053c48, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_Value, addr 0x5c15958, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_Value();
 
   static inline void setStaticF_m_StaticInstance(::OVRSimpleJSON::JSONNull* value);
 
   static inline void setStaticF_reuseSameInstance(bool value);
 
-  /// @brief Method set_AsBool, addr 0x4053c94, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_AsBool, addr 0x5c159a8, size 0x4, virtual true, abstract: false, final false
   inline void set_AsBool(bool value);
 
-  /// @brief Method set_Value, addr 0x4053c88, size 0x4, virtual true, abstract: false, final false
+  /// @brief Method set_Value, addr 0x5c1599c, size 0x4, virtual true, abstract: false, final false
   inline void set_Value(::StringW value);
 
 protected:
@@ -110,7 +116,7 @@ public:
   JSONNull(JSONNull const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8531 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 8008 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

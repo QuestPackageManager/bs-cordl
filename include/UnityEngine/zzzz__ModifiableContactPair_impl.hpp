@@ -4,16 +4,87 @@
 #include "UnityEngine/zzzz__Quaternion_impl.hpp"
 #include "UnityEngine/zzzz__Vector3_impl.hpp"
 #include "UnityEngine/zzzz__ModifiableContactPair_def.hpp"
+#include "System/zzzz__IntPtr_def.hpp"
 #include "UnityEngine/zzzz__ModifiableContactPatch_def.hpp"
 #include "UnityEngine/zzzz__ModifiableContact_def.hpp"
 #include "UnityEngine/zzzz__ModifiableMassProperties_def.hpp"
 #include "UnityEngine/zzzz__Vector3_def.hpp"
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.TranslateTriangleIndex
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (*)(::System::IntPtr, uint32_t)>(&::UnityEngine::ModifiableContactPair::TranslateTriangleIndex)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x695b748;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "TranslateTriangleIndex", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.ResolveShapeToInstanceID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ModifiableContactPair::ResolveShapeToInstanceID)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x695b78c;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "ResolveShapeToInstanceID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.ResolveActorToInstanceID
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (*)(::System::IntPtr)>(&::UnityEngine::ModifiableContactPair::ResolveActorToInstanceID)> {
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x695b7c8;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "ResolveActorToInstanceID",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.GetActorLinearVelocity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::System::IntPtr)>(&::UnityEngine::ModifiableContactPair::GetActorLinearVelocity)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x695b804;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorLinearVelocity",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.GetActorAngularVelocity
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (*)(::System::IntPtr)>(&::UnityEngine::ModifiableContactPair::GetActorAngularVelocity)> {
+  constexpr static std::size_t size = 0x5c;
+  constexpr static std::size_t addrs = 0x695b8a4;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS(
+        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorAngularVelocity",
+                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+    return ___internal_method;
+  }
+};
 //  Writing Method size for method: ::UnityEngine::ModifiableContactPair.get_colliderInstanceID
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ModifiableContactPair::*)()>(&::UnityEngine::ModifiableContactPair::get_colliderInstanceID)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4905584;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x695b944;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -26,8 +97,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_otherColliderInstanceID)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49055fc;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x695b980;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -39,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ModifiableContactPair::*)()>(&::UnityEngine::ModifiableContactPair::get_bodyInstanceID)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x4905674;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x695b9bc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -53,8 +124,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_otherBodyInstanceID)> {
-  constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x49056ec;
+  constexpr static std::size_t size = 0x3c;
+  constexpr static std::size_t addrs = 0x695b9f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -67,8 +138,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_bodyVelocity)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4905764;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x695ba34;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "get_bodyVelocity",
@@ -81,8 +152,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_bodyAngularVelocity)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x49057bc;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x695ba3c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -95,8 +166,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_otherBodyVelocity)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4905814;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x695ba44;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -109,8 +180,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_otherBodyAngularVelocity)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x490586c;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x695ba4c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -123,7 +194,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ModifiableContactPair::*)()>(&::UnityEngine::ModifiableContactPair::get_contactCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x49058c4;
+  constexpr static std::size_t addrs = 0x695ba54;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "get_contactCount",
@@ -136,8 +207,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ModifiableMassProperties (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::get_massProperties)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x49058cc;
+  constexpr static std::size_t size = 0x34;
+  constexpr static std::size_t addrs = 0x695ba5c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
@@ -150,8 +221,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(::UnityEngine::ModifiableMassProperties)>(
     &::UnityEngine::ModifiableContactPair::set_massProperties)> {
-  constexpr static std::size_t size = 0x4c;
-  constexpr static std::size_t addrs = 0x490593c;
+  constexpr static std::size_t size = 0x40;
+  constexpr static std::size_t addrs = 0x695baa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -165,8 +236,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
     &::UnityEngine::ModifiableContactPair::GetPoint)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4905988;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x695bae8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -180,8 +251,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::ModifiableContactPair::SetPoint)> {
-  constexpr static std::size_t size = 0x3c;
-  constexpr static std::size_t addrs = 0x49059f0;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x695bb1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -196,8 +267,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
     &::UnityEngine::ModifiableContactPair::GetNormal)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4905a2c;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x695bb40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -211,8 +282,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::ModifiableContactPair::SetNormal)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4905a4c;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x695bb64;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -226,8 +297,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ModifiableContactPair::*)(int32_t)>(&::UnityEngine::ModifiableContactPair::GetSeparation)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4905aa4;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x695bbb8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -241,8 +312,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, float_t)>(
     &::UnityEngine::ModifiableContactPair::SetSeparation)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x4905ac0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x695bbd8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -256,8 +327,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector3 (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
     &::UnityEngine::ModifiableContactPair::GetTargetVelocity)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4905ae8;
+  constexpr static std::size_t size = 0x24;
+  constexpr static std::size_t addrs = 0x695bbf8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -271,8 +342,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, ::UnityEngine::Vector3)>(
     &::UnityEngine::ModifiableContactPair::SetTargetVelocity)> {
-  constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x4905b08;
+  constexpr static std::size_t size = 0x54;
+  constexpr static std::size_t addrs = 0x695bc1c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -286,8 +357,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ModifiableContactPair::*)(int32_t)>(&::UnityEngine::ModifiableContactPair::GetBounciness)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4905b60;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x695bc70;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -301,8 +372,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, float_t)>(
     &::UnityEngine::ModifiableContactPair::SetBounciness)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4905b7c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x695bc90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -316,8 +387,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
     &::UnityEngine::ModifiableContactPair::GetStaticFriction)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4905bc0;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x695bcdc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -331,8 +402,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, float_t)>(
     &::UnityEngine::ModifiableContactPair::SetStaticFriction)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4905bdc;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x695bcfc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -346,8 +417,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
     &::UnityEngine::ModifiableContactPair::GetDynamicFriction)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4905c20;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x695bd48;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -361,8 +432,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, float_t)>(
     &::UnityEngine::ModifiableContactPair::SetDynamicFriction)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4905c3c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x695bd68;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -375,8 +446,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::UnityEngine::ModifiableContactPair::*)(int32_t)>(&::UnityEngine::ModifiableContactPair::GetMaxImpulse)> {
-  constexpr static std::size_t size = 0x1c;
-  constexpr static std::size_t addrs = 0x4905c80;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x695bdb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -390,8 +461,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t, float_t)>(
     &::UnityEngine::ModifiableContactPair::SetMaxImpulse)> {
-  constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x4905c9c;
+  constexpr static std::size_t size = 0x4c;
+  constexpr static std::size_t addrs = 0x695bdd4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -405,7 +476,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ModifiableContactPair::*)(int32_t)>(&::UnityEngine::ModifiableContactPair::IgnoreContact)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x4905ce0;
+  constexpr static std::size_t addrs = 0x695be20;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -418,8 +489,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::UnityEngine::ModifiableContactPair::*)(int32_t)>(&::UnityEngine::ModifiableContactPair::GetFaceIndex)> {
-  constexpr static std::size_t size = 0xf4;
-  constexpr static std::size_t addrs = 0x4905ce8;
+  constexpr static std::size_t size = 0x90;
+  constexpr static std::size_t addrs = 0x695be28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -431,10 +502,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ModifiableContactPair.GetContact
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::ModifiableContact> (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ModifiableContact* (::UnityEngine::ModifiableContactPair::*)(int32_t)>(
     &::UnityEngine::ModifiableContactPair::GetContact)> {
-  constexpr static std::size_t size = 0x48;
-  constexpr static std::size_t addrs = 0x49059a8;
+  constexpr static std::size_t size = 0x10;
+  constexpr static std::size_t addrs = 0x695bb0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -446,10 +517,10 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 //  Writing Method size for method: ::UnityEngine::ModifiableContactPair.GetContactPatch
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::cordl_internals::Ptr<::UnityEngine::ModifiableContactPatch> (::UnityEngine::ModifiableContactPair::*)()>(
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ModifiableContactPatch* (::UnityEngine::ModifiableContactPair::*)()>(
     &::UnityEngine::ModifiableContactPair::GetContactPatch)> {
-  constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x49058ec;
+  constexpr static std::size_t size = 0x18;
+  constexpr static std::size_t addrs = 0x695ba90;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetContactPatch",
@@ -457,6 +528,68 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.GetActorLinearVelocity_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Vector3>)>(
+    &::UnityEngine::ModifiableContactPair::GetActorLinearVelocity_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x695b860;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorLinearVelocity_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+    return ___internal_method;
+  }
+};
+//  Writing Method size for method: ::UnityEngine::ModifiableContactPair.GetActorAngularVelocity_Injected
+template <>
+
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::ByRef<::UnityEngine::Vector3>)>(
+    &::UnityEngine::ModifiableContactPair::GetActorAngularVelocity_Injected)> {
+  constexpr static std::size_t size = 0x44;
+  constexpr static std::size_t addrs = 0x695b900;
+
+  inline static ::MethodInfo const* methodInfo() {
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorAngularVelocity_Injected", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+    return ___internal_method;
+  }
+};
+inline uint32_t UnityEngine::ModifiableContactPair::TranslateTriangleIndex(::System::IntPtr shapePtr, uint32_t rawIndex) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "TranslateTriangleIndex", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(nullptr, ___internal_method, shapePtr, rawIndex);
+}
+inline int32_t UnityEngine::ModifiableContactPair::ResolveShapeToInstanceID(::System::IntPtr shapePtr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "ResolveShapeToInstanceID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, shapePtr);
+}
+inline int32_t UnityEngine::ModifiableContactPair::ResolveActorToInstanceID(::System::IntPtr actorPtr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "ResolveActorToInstanceID",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<int32_t, false>(nullptr, ___internal_method, actorPtr);
+}
+inline ::UnityEngine::Vector3 UnityEngine::ModifiableContactPair::GetActorLinearVelocity(::System::IntPtr actorPtr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorLinearVelocity",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, actorPtr);
+}
+inline ::UnityEngine::Vector3 UnityEngine::ModifiableContactPair::GetActorAngularVelocity(::System::IntPtr actorPtr) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorAngularVelocity",
+                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector3, false>(nullptr, ___internal_method, actorPtr);
+}
 inline int32_t UnityEngine::ModifiableContactPair::get_colliderInstanceID() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(),
                                                                              "get_colliderInstanceID", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
@@ -624,16 +757,30 @@ inline uint32_t UnityEngine::ModifiableContactPair::GetFaceIndex(int32_t i) {
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
   return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method, i);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::ModifiableContact> UnityEngine::ModifiableContactPair::GetContact(int32_t index) {
+inline ::UnityEngine::ModifiableContact* UnityEngine::ModifiableContactPair::GetContact(int32_t index) {
   static auto* ___internal_method =
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetContact",
                                                std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::ModifiableContact>, false>(this, ___internal_method, index);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ModifiableContact*, false>(this, ___internal_method, index);
 }
-inline ::cordl_internals::Ptr<::UnityEngine::ModifiableContactPatch> UnityEngine::ModifiableContactPair::GetContactPatch() {
+inline ::UnityEngine::ModifiableContactPatch* UnityEngine::ModifiableContactPair::GetContactPatch() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetContactPatch",
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::cordl_internals::Ptr<::UnityEngine::ModifiableContactPatch>, false>(this, ___internal_method);
+  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ModifiableContactPatch*, false>(this, ___internal_method);
+}
+inline void UnityEngine::ModifiableContactPair::GetActorLinearVelocity_Injected(::System::IntPtr actorPtr, ::ByRef<::UnityEngine::Vector3> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorLinearVelocity_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, actorPtr, ret);
+}
+inline void UnityEngine::ModifiableContactPair::GetActorAngularVelocity_Injected(::System::IntPtr actorPtr, ::ByRef<::UnityEngine::Vector3> ret) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ModifiableContactPair>::get(), "GetActorAngularVelocity_Injected", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ByRef<::UnityEngine::Vector3>>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, actorPtr, ret);
 }
 // Ctor Parameters [CppParam { name: "actor", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "otherActor", ty: "::System::IntPtr", modifiers: "", def_value:
 // Some("{}") }, CppParam { name: "shape", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "otherShape", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}")

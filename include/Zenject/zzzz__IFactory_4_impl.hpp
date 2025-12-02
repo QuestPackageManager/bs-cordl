@@ -1,7 +1,7 @@
 #pragma once
 // IWYU pragma private; include "Zenject/IFactory_4.hpp"
-#include "Zenject/zzzz__IFactory_impl.hpp"
 #include "Zenject/zzzz__IFactory_4_def.hpp"
+#include "Zenject/zzzz__IFactory_def.hpp"
 template <typename TParam1, typename TParam2, typename TParam3, typename TValue>
 inline TValue Zenject::IFactory_4<TParam1, TParam2, TParam3, TValue>::Create(TParam1 param1, TParam2 param2, TParam3 param3) {
   auto* ___internal_method =

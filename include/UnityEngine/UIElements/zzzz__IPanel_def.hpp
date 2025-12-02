@@ -3,8 +3,10 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IDisposable_def.hpp"
 CORDL_MODULE_EXPORT(IPanel)
+namespace System {
+class IDisposable;
+}
 namespace UnityEngine::UIElements {
 struct ContextType;
 }
@@ -17,16 +19,13 @@ class FocusController;
 namespace UnityEngine::UIElements {
 class VisualElement;
 }
-namespace UnityEngine {
-struct Vector2;
-}
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class IPanel;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::IPanel);
-// Dependencies System.IDisposable
+// Dependencies
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: UnityEngine.UIElements.IPanel
@@ -43,9 +42,6 @@ public:
 
   /// @brief Convert operator to "::System::IDisposable"
   constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method Pick, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline ::UnityEngine::UIElements::VisualElement* Pick(::UnityEngine::Vector2 point);
 
   /// @brief Method get_contextType, addr 0xffffffffffffffff, size 0xffffffffffffffff, virtual true, abstract: false, final false
   inline ::UnityEngine::UIElements::ContextType get_contextType();
@@ -67,7 +63,7 @@ public:
   IPanel(IPanel const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 6010 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4641 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

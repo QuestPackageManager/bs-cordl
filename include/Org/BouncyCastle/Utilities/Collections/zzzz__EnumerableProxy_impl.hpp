@@ -1,6 +1,5 @@
 #pragma once
 // IWYU pragma private; include "Org/BouncyCastle/Utilities/Collections/EnumerableProxy.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "Org/BouncyCastle/Utilities/Collections/zzzz__EnumerableProxy_def.hpp"
 #include "System/Collections/zzzz__IEnumerable_def.hpp"
@@ -10,8 +9,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::Org::BouncyCastle::Utilities::Collections::EnumerableProxy::*)(::System::Collections::IEnumerable*)>(
     &::Org::BouncyCastle::Utilities::Collections::EnumerableProxy::_ctor)> {
-  constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x25d20dc;
+  constexpr static std::size_t size = 0x58;
+  constexpr static std::size_t addrs = 0x3501698;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -25,8 +24,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::IEnumerator* (::Org::BouncyCastle::Utilities::Collections::EnumerableProxy::*)()>(
     &::Org::BouncyCastle::Utilities::Collections::EnumerableProxy::GetEnumerator)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x25d2150;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x35016f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

@@ -3,7 +3,6 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__CmsSecureReadable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(CmsAuthEnvelopedData)
@@ -24,6 +23,9 @@ class CmsAuthEnvelopedData_AuthEnvelopedSecureReadable;
 }
 namespace Org::BouncyCastle::Cms {
 class CmsReadable;
+}
+namespace Org::BouncyCastle::Cms {
+class CmsSecureReadable;
 }
 namespace Org::BouncyCastle::Cms {
 class RecipientInformationStore;
@@ -47,7 +49,7 @@ class CmsAuthEnvelopedData_AuthEnvelopedSecureReadable;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData);
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable);
-// Dependencies Org.BouncyCastle.Cms.CmsSecureReadable, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.CmsAuthEnvelopedData/AuthEnvelopedSecureReadable
@@ -64,7 +66,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::CmsSecureReadable"
   constexpr operator ::Org::BouncyCastle::Cms::CmsSecureReadable*() noexcept;
 
-  /// @brief Method GetReadable, addr 0x2653114, size 0x48, virtual true, abstract: false, final true
+  /// @brief Method GetReadable, addr 0x35826fc, size 0x48, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Cms::CmsReadable* GetReadable(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* key);
 
   static inline ::Org::BouncyCastle::Cms::CmsAuthEnvelopedData_AuthEnvelopedSecureReadable* New_ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
@@ -75,13 +77,13 @@ public:
 
   constexpr void __cordl_internal_set_parent(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* value);
 
-  /// @brief Method .ctor, addr 0x26530c8, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35826d4, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Cms::CmsAuthEnvelopedData* parent);
 
-  /// @brief Method get_Algorithm, addr 0x26530f0, size 0x1c, virtual true, abstract: false, final true
+  /// @brief Method get_Algorithm, addr 0x35826dc, size 0x18, virtual true, abstract: false, final true
   inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_Algorithm();
 
-  /// @brief Method get_CryptoObject, addr 0x265310c, size 0x8, virtual true, abstract: false, final true
+  /// @brief Method get_CryptoObject, addr 0x35826f4, size 0x8, virtual true, abstract: false, final true
   inline ::System::Object* get_CryptoObject();
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::CmsSecureReadable"
@@ -193,13 +195,13 @@ public:
 
   constexpr void __cordl_internal_set_unauthAttrs(::Org::BouncyCastle::Asn1::Asn1Set* value);
 
-  /// @brief Method .ctor, addr 0x2652f74, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x358258c, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> authEnvData);
 
-  /// @brief Method .ctor, addr 0x26530a4, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35826b0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::IO::Stream* authEnvData);
 
-  /// @brief Method .ctor, addr 0x2652f98, size 0x10c, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x35825b0, size 0x100, virtual false, abstract: false, final false
   inline void _ctor(::Org::BouncyCastle::Asn1::Cms::ContentInfo* contentInfo);
 
 protected:

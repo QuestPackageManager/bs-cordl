@@ -4,7 +4,6 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/Runtime/CompilerServices/zzzz__AsyncTaskMethodBuilder_1_def.hpp"
-#include "System/Runtime/CompilerServices/zzzz__IAsyncStateMachine_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_1_def.hpp"
 #include "System/Runtime/CompilerServices/zzzz__TaskAwaiter_def.hpp"
 #include "System/zzzz__Object_def.hpp"
@@ -62,10 +61,10 @@ public:
 
   static inline ::GlobalNamespace::PingUtility___c* New_ctor();
 
-  /// @brief Method <PingAsync>b__0_0, addr 0x22e1a1c, size 0x7c, virtual false, abstract: false, final false
+  /// @brief Method <PingAsync>b__0_0, addr 0x3218704, size 0x84, virtual false, abstract: false, final false
   inline ::UnityEngine::Ping* _PingAsync_b__0_0(::System::Net::IPAddress* ip);
 
-  /// @brief Method .ctor, addr 0x22e1a14, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x3218700, size 0x4, virtual false, abstract: false, final false
   inline void _ctor();
 
   static inline ::GlobalNamespace::PingUtility___c* getStaticF___9();
@@ -91,7 +90,7 @@ public:
   PingUtility___c(PingUtility___c const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14931 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18203 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
@@ -99,8 +98,7 @@ public:
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PingUtility___c, 0x10>, "Size mismatch!");
 
 } // namespace GlobalNamespace
-// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.IAsyncStateMachine, System.Runtime.CompilerServices.TaskAwaiter,
-// System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
+// Dependencies System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1<TResult>, System.Runtime.CompilerServices.TaskAwaiter, System.Runtime.CompilerServices.TaskAwaiter`1<TResult>
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: PingUtility/<PingAsync>d__0
@@ -110,10 +108,10 @@ public:
   /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
   constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
 
-  /// @brief Method MoveNext, addr 0x22e1a98, size 0x590, virtual true, abstract: false, final true
+  /// @brief Method MoveNext, addr 0x3218788, size 0x600, virtual true, abstract: false, final true
   inline void MoveNext();
 
-  /// @brief Method SetStateMachine, addr 0x22e2028, size 0x7c, virtual true, abstract: false, final true
+  /// @brief Method SetStateMachine, addr 0x3218d88, size 0x80, virtual true, abstract: false, final true
   inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
 
   /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
@@ -135,7 +133,7 @@ public:
                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14932 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18204 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
@@ -202,7 +200,7 @@ public:
 
   using __c = ::GlobalNamespace::PingUtility___c;
 
-  /// @brief Method PingAsync, addr 0x22e18c0, size 0xf8, virtual false, abstract: false, final false
+  /// @brief Method PingAsync, addr 0x32185c8, size 0xe4, virtual false, abstract: false, final false
   static inline ::System::Threading::Tasks::Task_1<int64_t>* PingAsync(::StringW url);
 
 protected:
@@ -220,7 +218,7 @@ public:
   PingUtility(PingUtility const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 14933 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18205 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

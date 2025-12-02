@@ -28,10 +28,10 @@ template <typename T>
 class CORDL_TYPE TransitionEventBase_1 : public ::UnityEngine::UIElements::EventBase_1<T> {
 public:
   // Declarations
-  /// @brief Field <elapsedTime>k__BackingField, offset 0x90, size 0x8
+  /// @brief Field <elapsedTime>k__BackingField, offset 0x70, size 0x8
   __declspec(property(get = __cordl_internal_get__elapsedTime_k__BackingField, put = __cordl_internal_set__elapsedTime_k__BackingField)) double_t _elapsedTime_k__BackingField;
 
-  /// @brief Field <stylePropertyNames>k__BackingField, offset 0x88, size 0x8
+  /// @brief Field <stylePropertyNames>k__BackingField, offset 0x68, size 0x8
   __declspec(property(get = __cordl_internal_get__stylePropertyNames_k__BackingField,
                       put = __cordl_internal_set__stylePropertyNames_k__BackingField)) ::UnityEngine::UIElements::StylePropertyNameCollection _stylePropertyNames_k__BackingField;
 
@@ -86,12 +86,12 @@ public:
   TransitionEventBase_1(TransitionEventBase_1 const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5939 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4566 };
 
-  /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x88, size: 0x8, def value: None
+  /// @brief Field <stylePropertyNames>k__BackingField, offset: 0x68, size: 0x8, def value: None
   ::UnityEngine::UIElements::StylePropertyNameCollection ____stylePropertyNames_k__BackingField;
 
-  /// @brief Field <elapsedTime>k__BackingField, offset: 0x90, size: 0x8, def value: None
+  /// @brief Field <elapsedTime>k__BackingField, offset: 0x70, size: 0x8, def value: None
   double_t ____elapsedTime_k__BackingField;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;

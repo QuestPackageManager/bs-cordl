@@ -1,32 +1,61 @@
 #pragma once
 // IWYU pragma private; include "System/Collections/Generic/SortedSet_1.hpp"
-#include "System/Collections/Generic/zzzz__ICollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerable_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IEnumerator_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_impl.hpp"
-#include "System/Collections/Generic/zzzz__ISet_1_impl.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_impl.hpp"
-#include "System/Collections/zzzz__ICollection_impl.hpp"
-#include "System/Collections/zzzz__IEnumerable_impl.hpp"
-#include "System/Collections/zzzz__IEnumerator_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_impl.hpp"
-#include "System/Runtime/Serialization/zzzz__ISerializable_impl.hpp"
-#include "System/zzzz__IDisposable_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ICollection_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IComparer_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IEnumerator_1_def.hpp"
+#include "System/Collections/Generic/zzzz__IReadOnlyCollection_1_def.hpp"
+#include "System/Collections/Generic/zzzz__ISet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__List_1_def.hpp"
 #include "System/Collections/Generic/zzzz__NodeColor_def.hpp"
 #include "System/Collections/Generic/zzzz__SortedSet_1_def.hpp"
+#include "System/Collections/Generic/zzzz__SortedSet`1_TreeSubSet_def.hpp"
 #include "System/Collections/Generic/zzzz__Stack_1_def.hpp"
 #include "System/Collections/Generic/zzzz__TreeRotation_def.hpp"
 #include "System/Collections/Generic/zzzz__TreeWalkPredicate_1_def.hpp"
+#include "System/Collections/zzzz__ICollection_def.hpp"
+#include "System/Collections/zzzz__IEnumerable_def.hpp"
 #include "System/Collections/zzzz__IEnumerator_def.hpp"
+#include "System/Runtime/Serialization/zzzz__IDeserializationCallback_def.hpp"
+#include "System/Runtime/Serialization/zzzz__ISerializable_def.hpp"
 #include "System/Runtime/Serialization/zzzz__SerializationInfo_def.hpp"
 #include "System/Runtime/Serialization/zzzz__StreamingContext_def.hpp"
 #include "System/zzzz__Array_def.hpp"
+#include "System/zzzz__IDisposable_def.hpp"
 #include "System/zzzz__Object_def.hpp"
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>*& System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::__cordl_internal_get_toRemove() {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___toRemove;
+}
+template <typename T> constexpr ::System::Collections::Generic::List_1<T>* const& System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::__cordl_internal_get_toRemove() const {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  return this->___toRemove;
+}
+template <typename T> constexpr void System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::__cordl_internal_set_toRemove(::System::Collections::Generic::List_1<T>* value) {
+  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+  ::cordl_internals::setInstanceField(this, &this->___toRemove, value);
+}
+template <typename T> inline void System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::_ctor() {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>*>::get(), ".ctor",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+template <typename T> inline bool System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::_Clear_b__0(::System::Collections::Generic::SortedSet_1_Node<T>* n) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>*>::get(), "<Clear>b__0",
+                                  std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::SortedSet_1_Node<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, n);
+}
+template <typename T> inline ::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>* System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::New_ctor() {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>*>());
+}
+// Ctor Parameters []
+template <typename T> constexpr ::System::Collections::Generic::TreeSubSet_SortedSet_1___c__DisplayClass9_0<T>::TreeSubSet_SortedSet_1___c__DisplayClass9_0() {}
 template <typename T> constexpr T& System::Collections::Generic::SortedSet_1_Node<T>::__cordl_internal_get__Item_k__BackingField() {
   CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
   return this->____Item_k__BackingField;
@@ -168,6 +197,12 @@ template <typename T> inline void System::Collections::Generic::SortedSet_1_Node
                                                                              "ColorRed", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline ::System::Collections::Generic::SortedSet_1_Node<T>* System::Collections::Generic::SortedSet_1_Node<T>::DeepClone(int32_t count) {
+  static auto* ___internal_method =
+      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Node<T>*>::get(), "DeepClone",
+                                               std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_Node<T>*, false>(this, ___internal_method, count);
+}
 template <typename T>
 inline ::System::Collections::Generic::TreeRotation System::Collections::Generic::SortedSet_1_Node<T>::GetRotation(::System::Collections::Generic::SortedSet_1_Node<T>* current,
                                                                                                                    ::System::Collections::Generic::SortedSet_1_Node<T>* sibling) {
@@ -183,6 +218,11 @@ inline ::System::Collections::Generic::SortedSet_1_Node<T>* System::Collections:
       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Node<T>*>::get(), "GetSibling", std::span<Il2CppClass const* const, 0>(),
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::SortedSet_1_Node<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_Node<T>*, false>(this, ___internal_method, node);
+}
+template <typename T> inline ::System::Collections::Generic::SortedSet_1_Node<T>* System::Collections::Generic::SortedSet_1_Node<T>::ShallowClone() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Node<T>*>::get(),
+                                                                             "ShallowClone", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_Node<T>*, false>(this, ___internal_method);
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1_Node<T>::Split4Node() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Node<T>*>::get(),
@@ -296,6 +336,11 @@ template <typename T> inline ::System::Object* System::Collections::Generic::Sor
       THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Enumerator<T>>::get(),
                                                "System.Collections.IEnumerator.get_Current", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<::System::Object*, false>(this, ___internal_method);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1_Enumerator<T>::get_NotStartedOrEnded() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Enumerator<T>>::get(),
+                                                                             "get_NotStartedOrEnded", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method);
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1_Enumerator<T>::Reset() {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1_Enumerator<T>>::get(),
@@ -546,6 +591,20 @@ template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::
                                                                              std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::_ctor(::System::Collections::Generic::IComparer_1<T>* comparer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, comparer);
+}
+template <typename T>
+inline void System::Collections::Generic::SortedSet_1<T>::_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection, ::System::Collections::Generic::IComparer_1<T>* comparer) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get(),
+                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IComparer_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection, comparer);
+}
 template <typename T>
 inline void System::Collections::Generic::SortedSet_1<T>::_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   static auto* ___internal_method = THROW_UNLESS(
@@ -554,9 +613,32 @@ inline void System::Collections::Generic::SortedSet_1<T>::_ctor(::System::Runtim
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Runtime::Serialization::StreamingContext>::get() })));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::AddAllElements(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "AddAllElements", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::RemoveAllElements(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "RemoveAllElements", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, collection);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::ContainsAllElements(::System::Collections::Generic::IEnumerable_1<T>* collection) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "ContainsAllElements", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, collection);
+}
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::InOrderTreeWalk(::System::Collections::Generic::TreeWalkPredicate_1<T>* action) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 20)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 31)));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, action);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::BreadthFirstTreeWalk(::System::Collections::Generic::TreeWalkPredicate_1<T>* action) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 32)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, action);
 }
 template <typename T> inline int32_t System::Collections::Generic::SortedSet_1<T>::get_Count() {
@@ -589,12 +671,12 @@ template <typename T> inline ::System::Object* System::Collections::Generic::Sor
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::VersionCheck() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 21)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 33)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::IsWithinRange(T item) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 22)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 34)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::Add(T item) {
@@ -611,7 +693,7 @@ template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::AddIfNotPresent(T item) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 24)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 35)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::Remove(T item) {
@@ -622,17 +704,17 @@ template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::DoRemove(T item) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 25)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 36)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::Clear() {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 26)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 37)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::Contains(T item) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 27)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 38)));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, item);
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::CopyTo(::ArrayW<T, ::Array<T>*> array, int32_t index) {
@@ -709,13 +791,25 @@ inline void System::Collections::Generic::SortedSet_1<T>::ReplaceNode(::System::
 }
 template <typename T> inline ::System::Collections::Generic::SortedSet_1_Node<T>* System::Collections::Generic::SortedSet_1<T>::FindNode(T item) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 28)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 39)));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_Node<T>*, false>(this, ___internal_method, item);
 }
 template <typename T> inline int32_t System::Collections::Generic::SortedSet_1<T>::InternalIndexOf(T item) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 29)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 40)));
   return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, item);
+}
+template <typename T> inline ::System::Collections::Generic::SortedSet_1_Node<T>* System::Collections::Generic::SortedSet_1<T>::FindRange(T from, T to, bool lowerBoundActive, bool upperBoundActive) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "FindRange", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<T>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_Node<T>*, false>(this, ___internal_method, from, to, lowerBoundActive, upperBoundActive);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::UpdateVersion() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(),
+                                                                             "UpdateVersion", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::HasEqualComparer(::System::Collections::Generic::SortedSet_1<T>* other) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -723,9 +817,97 @@ template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::
       ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::SortedSet_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::UnionWith(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "UnionWith", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T>
+inline ::System::Collections::Generic::SortedSet_1_Node<T>* System::Collections::Generic::SortedSet_1<T>::ConstructRootFromSortedArray(::ArrayW<T, ::Array<T>*> arr, int32_t startIndex,
+                                                                                                                                       int32_t endIndex,
+                                                                                                                                       ::System::Collections::Generic::SortedSet_1_Node<T>* redNode) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "ConstructRootFromSortedArray", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
+                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::SortedSet_1_Node<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_Node<T>*, false>(nullptr, ___internal_method, arr, startIndex, endIndex, redNode);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::IntersectWith(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 41)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::IntersectWithEnumerable(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 42)));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::ExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "ExceptWith", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::SymmetricExceptWith(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "SymmetricExceptWith", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::SymmetricExceptWithSameComparer(::System::Collections::Generic::SortedSet_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "SymmetricExceptWithSameComparer", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::SortedSet_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other);
+}
+template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::SymmetricExceptWithSameComparer(::ArrayW<T, ::Array<T>*> other, int32_t count) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(),
+                                                                             "SymmetricExceptWithSameComparer", std::span<Il2CppClass const* const, 0>(),
+                                                                             ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::ArrayW<T, ::Array<T>*>>::get(),
+                                                                                                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, other, count);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::IsSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((
+      ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "IsSubsetOf", std::span<Il2CppClass const* const, 0>(),
+                                 ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::IsSubsetOfSortedSetWithSameComparer(::System::Collections::Generic::SortedSet_1<T>* asSorted) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "IsSubsetOfSortedSetWithSameComparer", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::SortedSet_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, asSorted);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::IsProperSubsetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "IsProperSubsetOf", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::IsSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "IsSupersetOf", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::IsProperSupersetOf(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "IsProperSupersetOf", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
 template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::SetEquals(::System::Collections::Generic::IEnumerable_1<T>* other) {
   static auto* ___internal_method = THROW_UNLESS(
       (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "SetEquals", std::span<Il2CppClass const* const, 0>(),
+                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
+  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+}
+template <typename T> inline bool System::Collections::Generic::SortedSet_1<T>::Overlaps(::System::Collections::Generic::IEnumerable_1<T>* other) {
+  static auto* ___internal_method = THROW_UNLESS(
+      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "Overlaps", std::span<Il2CppClass const* const, 0>(),
                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get() })));
   return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
@@ -737,6 +919,31 @@ inline ::System::Collections::Generic::SortedSet_1_ElementCount<T> System::Colle
       ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<T>*>::get(),
                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1_ElementCount<T>, false>(this, ___internal_method, other, returnIfUnfound);
+}
+template <typename T> inline T System::Collections::Generic::SortedSet_1<T>::get_Min() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "get_Min",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline T System::Collections::Generic::SortedSet_1<T>::get_MinInternal() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 43)));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline T System::Collections::Generic::SortedSet_1<T>::get_Max() {
+  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), "get_Max",
+                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline T System::Collections::Generic::SortedSet_1<T>::get_MaxInternal() {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 44)));
+  return ::cordl_internals::RunMethodRethrow<T, false>(this, ___internal_method);
+}
+template <typename T> inline ::System::Collections::Generic::SortedSet_1<T>* System::Collections::Generic::SortedSet_1<T>::GetViewBetween(T lowerValue, T upperValue) {
+  auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 45)));
+  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::SortedSet_1<T>*, false>(this, ___internal_method, lowerValue, upperValue);
 }
 template <typename T>
 inline void System::Collections::Generic::SortedSet_1<T>::System_Runtime_Serialization_ISerializable_GetObjectData(::System::Runtime::Serialization::SerializationInfo* info,
@@ -751,7 +958,7 @@ inline void System::Collections::Generic::SortedSet_1<T>::System_Runtime_Seriali
 template <typename T>
 inline void System::Collections::Generic::SortedSet_1<T>::GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 31)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 46)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, info, context);
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::System_Runtime_Serialization_IDeserializationCallback_OnDeserialization(::System::Object* sender) {
@@ -762,7 +969,7 @@ template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::
 }
 template <typename T> inline void System::Collections::Generic::SortedSet_1<T>::OnDeserialization(::System::Object* sender) {
   auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 32)));
+                                                                             ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Collections::Generic::SortedSet_1<T>*>::get(), 47)));
   return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender);
 }
 template <typename T> inline int32_t System::Collections::Generic::SortedSet_1<T>::Log2(int32_t value) {
@@ -773,6 +980,14 @@ template <typename T> inline int32_t System::Collections::Generic::SortedSet_1<T
 }
 template <typename T> inline ::System::Collections::Generic::SortedSet_1<T>* System::Collections::Generic::SortedSet_1<T>::New_ctor() {
   return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::SortedSet_1<T>*>());
+}
+template <typename T> inline ::System::Collections::Generic::SortedSet_1<T>* System::Collections::Generic::SortedSet_1<T>::New_ctor(::System::Collections::Generic::IComparer_1<T>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::SortedSet_1<T>*>(comparer));
+}
+template <typename T>
+inline ::System::Collections::Generic::SortedSet_1<T>* System::Collections::Generic::SortedSet_1<T>::New_ctor(::System::Collections::Generic::IEnumerable_1<T>* collection,
+                                                                                                              ::System::Collections::Generic::IComparer_1<T>* comparer) {
+  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::System::Collections::Generic::SortedSet_1<T>*>(collection, comparer));
 }
 template <typename T>
 inline ::System::Collections::Generic::SortedSet_1<T>* System::Collections::Generic::SortedSet_1<T>::New_ctor(::System::Runtime::Serialization::SerializationInfo* info,

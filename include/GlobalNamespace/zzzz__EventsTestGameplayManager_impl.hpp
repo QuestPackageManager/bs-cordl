@@ -1,7 +1,6 @@
 #pragma once
 // IWYU pragma private; include "GlobalNamespace/EventsTestGameplayManager.hpp"
 #include "GlobalNamespace/zzzz__BasicBeatmapEventType_impl.hpp"
-#include "GlobalNamespace/zzzz__IBeatToTimeConverter_impl.hpp"
 #include "System/zzzz__Object_impl.hpp"
 #include "UnityEngine/zzzz__MonoBehaviour_impl.hpp"
 #include "GlobalNamespace/zzzz__EventsTestGameplayManager_def.hpp"
@@ -12,6 +11,7 @@
 #include "GlobalNamespace/zzzz__EnvironmentColorType_def.hpp"
 #include "GlobalNamespace/zzzz__EventsTestGameplayManager_def.hpp"
 #include "GlobalNamespace/zzzz__IAudioTimeSource_def.hpp"
+#include "GlobalNamespace/zzzz__IBeatToTimeConverter_def.hpp"
 #include "GlobalNamespace/zzzz__LightGroup_def.hpp"
 #include "System/Collections/Generic/zzzz__Dictionary_2_def.hpp"
 #include "UnityEngine/zzzz__KeyCode_def.hpp"
@@ -20,8 +20,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager_MockBeatToTimeConverter::*)(float_t)>(
     &::GlobalNamespace::EventsTestGameplayManager_MockBeatToTimeConverter::_ctor)> {
-  constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3ba0b38;
+  constexpr static std::size_t size = 0x8;
+  constexpr static std::size_t addrs = 0x578f550;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -36,7 +36,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<float_t (::GlobalNamespace::EventsTestGameplayManager_MockBeatToTimeConverter::*)(float_t)>(
     &::GlobalNamespace::EventsTestGameplayManager_MockBeatToTimeConverter::ConvertBeatToTime)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3ba37c8;
+  constexpr static std::size_t addrs = 0x57925fc;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -87,8 +87,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass18_0::*)()>(
     &::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass18_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba314c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5791b24;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -103,7 +103,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass18_0::*)(::GlobalNamespace::LightGroup*)>(
     &::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass18_0::_AddEventsForLightGroup_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ba37e0;
+  constexpr static std::size_t addrs = 0x5792614;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass19_0::*)()>(
     &::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass19_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba3154;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5791b28;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -162,7 +162,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass19_0::*)(::GlobalNamespace::LightGroup*)>(
     &::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass19_0::_AddInstantToggleEventsForLightGroup_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ba3810;
+  constexpr static std::size_t addrs = 0x5792644;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -205,8 +205,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass20_0::*)()>(
     &::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass20_0::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3ba315c;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x5791b2c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -221,7 +221,7 @@ template <>
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass20_0::*)(::GlobalNamespace::LightGroup*)>(
     &::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass20_0::_AddToggleEventsForLightGroup_b__0)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x3ba3840;
+  constexpr static std::size_t addrs = 0x5792674;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -263,8 +263,8 @@ constexpr ::GlobalNamespace::EventsTestGameplayManager___c__DisplayClass20_0::Ev
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)()>(&::GlobalNamespace::EventsTestGameplayManager::Start)> {
-  constexpr static std::size_t size = 0x140;
-  constexpr static std::size_t addrs = 0x3ba09f8;
+  constexpr static std::size_t size = 0x144;
+  constexpr static std::size_t addrs = 0x578f40c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestGameplayManager*>::get(), "Start",
@@ -276,8 +276,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)()>(&::GlobalNamespace::EventsTestGameplayManager::Update)> {
-  constexpr static std::size_t size = 0x8e0;
-  constexpr static std::size_t addrs = 0x3ba0b60;
+  constexpr static std::size_t size = 0x8b4;
+  constexpr static std::size_t addrs = 0x578f558;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestGameplayManager*>::get(), "Update",
@@ -290,8 +290,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)(int32_t)>(
     &::GlobalNamespace::EventsTestGameplayManager::AddEventsForLightGroup)> {
-  constexpr static std::size_t size = 0x948;
-  constexpr static std::size_t addrs = 0x3ba1440;
+  constexpr static std::size_t size = 0x8e8;
+  constexpr static std::size_t addrs = 0x578fe0c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -305,8 +305,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)(int32_t)>(
     &::GlobalNamespace::EventsTestGameplayManager::AddInstantToggleEventsForLightGroup)> {
-  constexpr static std::size_t size = 0x460;
-  constexpr static std::size_t addrs = 0x3ba2318;
+  constexpr static std::size_t size = 0x47c;
+  constexpr static std::size_t addrs = 0x5790c7c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -320,8 +320,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)(int32_t, ::GlobalNamespace::EnvironmentColorType)>(
     &::GlobalNamespace::EventsTestGameplayManager::AddToggleEventsForLightGroup)> {
-  constexpr static std::size_t size = 0x590;
-  constexpr static std::size_t addrs = 0x3ba1d88;
+  constexpr static std::size_t size = 0x588;
+  constexpr static std::size_t addrs = 0x57906f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -336,8 +336,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)()>(
     &::GlobalNamespace::EventsTestGameplayManager::AddTestBox)> {
-  constexpr static std::size_t size = 0x9d4;
-  constexpr static std::size_t addrs = 0x3ba2778;
+  constexpr static std::size_t size = 0xa2c;
+  constexpr static std::size_t addrs = 0x57910f8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestGameplayManager*>::get(),
@@ -349,8 +349,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::EventsTestGameplayManager::*)()>(&::GlobalNamespace::EventsTestGameplayManager::_ctor)> {
-  constexpr static std::size_t size = 0x664;
-  constexpr static std::size_t addrs = 0x3ba3164;
+  constexpr static std::size_t size = 0xacc;
+  constexpr static std::size_t addrs = 0x5791b30;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::EventsTestGameplayManager*>::get(), ".ctor",

@@ -3,12 +3,17 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "UnityEngine/Internal/zzzz__ISubAssetNotDuplicatable_def.hpp"
 #include "UnityEngine/zzzz__Object_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(AudioMixerSnapshot)
+namespace System {
+struct IntPtr;
+}
 namespace UnityEngine::Audio {
 class AudioMixer;
+}
+namespace UnityEngine::Internal {
+class ISubAssetNotDuplicatable;
 }
 // Forward declare root types
 namespace UnityEngine::Audio {
@@ -16,7 +21,7 @@ class AudioMixerSnapshot;
 }
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Audio::AudioMixerSnapshot);
-// Dependencies UnityEngine.Internal.ISubAssetNotDuplicatable, UnityEngine.Object
+// Dependencies UnityEngine.Object
 namespace UnityEngine::Audio {
 // Is value type: false
 // CS Name: UnityEngine.Audio.AudioMixerSnapshot
@@ -30,14 +35,17 @@ public:
 
   static inline ::UnityEngine::Audio::AudioMixerSnapshot* New_ctor();
 
-  /// @brief Method TransitionTo, addr 0x485e158, size 0x5c, virtual false, abstract: false, final false
+  /// @brief Method TransitionTo, addr 0x6820484, size 0x30, virtual false, abstract: false, final false
   inline void TransitionTo(float_t timeToReach);
 
-  /// @brief Method .ctor, addr 0x485e100, size 0x58, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x68203f0, size 0x58, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_audioMixer, addr 0x485da2c, size 0x3c, virtual false, abstract: false, final false
+  /// @brief Method get_audioMixer, addr 0x681f268, size 0x150, virtual false, abstract: false, final false
   inline ::UnityW<::UnityEngine::Audio::AudioMixer> get_audioMixer();
+
+  /// @brief Method get_audioMixer_Injected, addr 0x6820448, size 0x3c, virtual false, abstract: false, final false
+  static inline ::System::IntPtr get_audioMixer_Injected(::System::IntPtr _unity_self);
 
   /// @brief Convert to "::UnityEngine::Internal::ISubAssetNotDuplicatable"
   constexpr ::UnityEngine::Internal::ISubAssetNotDuplicatable* i___UnityEngine__Internal__ISubAssetNotDuplicatable() noexcept;
@@ -57,7 +65,7 @@ public:
   AudioMixerSnapshot(AudioMixerSnapshot const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17937 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 20566 };
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };

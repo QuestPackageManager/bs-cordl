@@ -21,8 +21,8 @@ class BeatmapDataCallbackWrapper;
 namespace GlobalNamespace {
 class IAudioTimeSource;
 }
-namespace System {
-class Random;
+namespace GlobalNamespace {
+class IRandom;
 }
 namespace UnityEngine {
 class Transform;
@@ -55,7 +55,7 @@ public:
   __declspec(property(get = __cordl_internal_get__event, put = __cordl_internal_set__event)) ::GlobalNamespace::BasicBeatmapEventType _event;
 
   /// @brief Field _random, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::System::Random* _random;
+  __declspec(property(get = __cordl_internal_get__random, put = __cordl_internal_set__random)) ::GlobalNamespace::IRandom* _random;
 
   /// @brief Field _rotationSpeed, offset 0x68, size 0x4
   __declspec(property(get = __cordl_internal_get__rotationSpeed, put = __cordl_internal_set__rotationSpeed)) float_t _rotationSpeed;
@@ -72,18 +72,18 @@ public:
   /// @brief Field _transform, offset 0x50, size 0x8
   __declspec(property(get = __cordl_internal_get__transform, put = __cordl_internal_set__transform)) ::UnityW<::UnityEngine::Transform> _transform;
 
-  /// @brief Method HandleBeatmapEvent, addr 0x3b95694, size 0x11c, virtual false, abstract: false, final false
+  /// @brief Method HandleBeatmapEvent, addr 0x5783bdc, size 0x120, virtual false, abstract: false, final false
   inline void HandleBeatmapEvent(::GlobalNamespace::BasicBeatmapEventData* basicBeatmapEventData);
 
   static inline ::GlobalNamespace::LightRotationEventEffect* New_ctor();
 
-  /// @brief Method OnDestroy, addr 0x3b95678, size 0x1c, virtual false, abstract: false, final false
+  /// @brief Method OnDestroy, addr 0x5783bc0, size 0x1c, virtual false, abstract: false, final false
   inline void OnDestroy();
 
-  /// @brief Method Start, addr 0x3b95438, size 0x158, virtual false, abstract: false, final false
+  /// @brief Method Start, addr 0x578397c, size 0x158, virtual false, abstract: false, final false
   inline void Start();
 
-  /// @brief Method Update, addr 0x3b95590, size 0xe8, virtual false, abstract: false, final false
+  /// @brief Method Update, addr 0x5783ad4, size 0xec, virtual false, abstract: false, final false
   inline void Update();
 
   constexpr ::GlobalNamespace::IAudioTimeSource* const& __cordl_internal_get__audioTimeSource() const;
@@ -102,9 +102,9 @@ public:
 
   constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__event();
 
-  constexpr ::System::Random* const& __cordl_internal_get__random() const;
+  constexpr ::GlobalNamespace::IRandom* const& __cordl_internal_get__random() const;
 
-  constexpr ::System::Random*& __cordl_internal_get__random();
+  constexpr ::GlobalNamespace::IRandom*& __cordl_internal_get__random();
 
   constexpr float_t const& __cordl_internal_get__rotationSpeed() const;
 
@@ -134,7 +134,7 @@ public:
 
   constexpr void __cordl_internal_set__event(::GlobalNamespace::BasicBeatmapEventType value);
 
-  constexpr void __cordl_internal_set__random(::System::Random* value);
+  constexpr void __cordl_internal_set__random(::GlobalNamespace::IRandom* value);
 
   constexpr void __cordl_internal_set__rotationSpeed(float_t value);
 
@@ -146,7 +146,7 @@ public:
 
   constexpr void __cordl_internal_set__transform(::UnityW<::UnityEngine::Transform> value);
 
-  /// @brief Method .ctor, addr 0x3b957b0, size 0x68, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5783cfc, size 0x68, virtual false, abstract: false, final false
   inline void _ctor();
 
 protected:
@@ -164,7 +164,7 @@ public:
   LightRotationEventEffect(LightRotationEventEffect const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 4321 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 5904 };
 
   /// @brief Field kSpeedMultiplier offset 0xffffffff size 0x4
   static constexpr float_t kSpeedMultiplier{ static_cast<float_t>(20.0f) };
@@ -185,7 +185,7 @@ public:
   ::GlobalNamespace::IAudioTimeSource* ____audioTimeSource;
 
   /// @brief Field _random, offset: 0x48, size: 0x8, def value: None
-  ::System::Random* ____random;
+  ::GlobalNamespace::IRandom* ____random;
 
   /// @brief Field _transform, offset: 0x50, size: 0x8, def value: None
   ::UnityW<::UnityEngine::Transform> ____transform;

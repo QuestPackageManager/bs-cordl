@@ -11,7 +11,7 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DomNameTable::*)(::System::Xml::XmlDocument*)>(&::System::Xml::DomNameTable::_ctor)> {
   constexpr static std::size_t size = 0x84;
-  constexpr static std::size_t addrs = 0x43324d8;
+  constexpr static std::size_t addrs = 0x6099088;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =
@@ -25,8 +25,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlName* (::System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(&::System::Xml::DomNameTable::GetName)> {
-  constexpr static std::size_t size = 0x168;
-  constexpr static std::size_t addrs = 0x4332578;
+  constexpr static std::size_t size = 0x138;
+  constexpr static std::size_t addrs = 0x609910c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
     static_cast<::System::Xml::XmlName* (::System::Xml::DomNameTable::*)(::StringW, ::StringW, ::StringW, ::System::Xml::Schema::IXmlSchemaInfo*)>(&::System::Xml::DomNameTable::AddName)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x43326e0;
+  constexpr static std::size_t size = 0x23c;
+  constexpr static std::size_t addrs = 0x60992b0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -58,8 +58,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::System::Xml::DomNameTable::*)()>(&::System::Xml::DomNameTable::Grow)> {
-  constexpr static std::size_t size = 0x128;
-  constexpr static std::size_t addrs = 0x4332950;
+  constexpr static std::size_t size = 0x12c;
+  constexpr static std::size_t addrs = 0x60995d4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::System::Xml::DomNameTable*>::get(), "Grow",

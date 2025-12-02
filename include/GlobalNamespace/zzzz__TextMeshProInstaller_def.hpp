@@ -31,15 +31,15 @@ namespace GlobalNamespace {
 class CORDL_TYPE TextMeshProInstaller : public ::BGLib::AppFlow::Initialization::AddressablesAsyncInstaller_1<::UnityW<::TMPro::TMP_FontAsset>> {
 public:
   // Declarations
-  /// @brief Field _fontAssets, offset 0x48, size 0x8
+  /// @brief Field _fontAssets, offset 0x40, size 0x8
   __declspec(property(get = __cordl_internal_get__fontAssets, put = __cordl_internal_set__fontAssets)) ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* _fontAssets;
 
   __declspec(property(get = get_assetLabelRuntimeKey)) ::StringW assetLabelRuntimeKey;
 
-  /// @brief Method InstallBindings, addr 0x271dbe8, size 0x140, virtual true, abstract: false, final false
+  /// @brief Method InstallBindings, addr 0x364c500, size 0xfc, virtual true, abstract: false, final false
   inline void InstallBindings();
 
-  /// @brief Method LoadResourcesBeforeInstall, addr 0x271db90, size 0x58, virtual true, abstract: false, final false
+  /// @brief Method LoadResourcesBeforeInstall, addr 0x364c48c, size 0x74, virtual true, abstract: false, final false
   inline void LoadResourcesBeforeInstall(::System::Collections::Generic::IList_1<::UnityW<::TMPro::TMP_FontAsset>>* fontAssets,
                                          ::BGLib::AppFlow::Initialization::AsyncInstaller_IInstallerRegistry* registry);
 
@@ -51,10 +51,10 @@ public:
 
   constexpr void __cordl_internal_set__fontAssets(::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* value);
 
-  /// @brief Method .ctor, addr 0x271dd28, size 0x90, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x364c5fc, size 0x8c, virtual false, abstract: false, final false
   inline void _ctor();
 
-  /// @brief Method get_assetLabelRuntimeKey, addr 0x271db50, size 0x40, virtual true, abstract: false, final false
+  /// @brief Method get_assetLabelRuntimeKey, addr 0x364c448, size 0x44, virtual true, abstract: false, final false
   inline ::StringW get_assetLabelRuntimeKey();
 
 protected:
@@ -72,17 +72,17 @@ public:
   TextMeshProInstaller(TextMeshProInstaller const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 17813 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 21066 };
 
-  /// @brief Field _fontAssets, offset: 0x48, size: 0x8, def value: None
+  /// @brief Field _fontAssets, offset: 0x40, size: 0x8, def value: None
   ::System::Collections::Generic::List_1<::UnityW<::TMPro::TMP_FontAsset>>* ____fontAssets;
 
   static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(offsetof(::GlobalNamespace::TextMeshProInstaller, ____fontAssets) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextMeshProInstaller, ____fontAssets) == 0x40, "Offset mismatch!");
 
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextMeshProInstaller, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextMeshProInstaller, 0x48>, "Size mismatch!");
 
 } // namespace GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextMeshProInstaller);

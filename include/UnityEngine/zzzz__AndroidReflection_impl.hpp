@@ -11,8 +11,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*)>(&::UnityEngine::AndroidReflection::IsPrimitive)> {
-  constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x484964c;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x67f9330;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -25,8 +25,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::System::Type*, ::System::Type*)>(&::UnityEngine::AndroidReflection::IsAssignableFrom)> {
-  constexpr static std::size_t size = 0x20;
-  constexpr static std::size_t addrs = 0x4849660;
+  constexpr static std::size_t size = 0x1c;
+  constexpr static std::size_t addrs = 0x67f934c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -40,8 +40,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::AndroidReflection::GetStaticMethodID)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x4849680;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x67f9368;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -55,8 +55,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::StringW, ::StringW, ::StringW)>(&::UnityEngine::AndroidReflection::GetMethodID)> {
-  constexpr static std::size_t size = 0x9c;
-  constexpr static std::size_t addrs = 0x484971c;
+  constexpr static std::size_t size = 0xd4;
+  constexpr static std::size_t addrs = 0x67f943c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -70,8 +70,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW)>(&::UnityEngine::AndroidReflection::GetConstructorMember)> {
-  constexpr static std::size_t size = 0x188;
-  constexpr static std::size_t addrs = 0x48497b8;
+  constexpr static std::size_t size = 0x1b0;
+  constexpr static std::size_t addrs = 0x67f9510;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -86,8 +86,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW, bool)>(
     &::UnityEngine::AndroidReflection::GetMethodMember)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x4849940;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x67f96c0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -102,8 +102,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::StringW, ::StringW, bool)>(
     &::UnityEngine::AndroidReflection::GetFieldMember)> {
-  constexpr static std::size_t size = 0x1fc;
-  constexpr static std::size_t addrs = 0x4849b3c;
+  constexpr static std::size_t size = 0x1c0;
+  constexpr static std::size_t addrs = 0x67f9880;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
@@ -117,8 +117,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr)>(&::UnityEngine::AndroidReflection::GetFieldClass)> {
-  constexpr static std::size_t size = 0x64;
-  constexpr static std::size_t addrs = 0x4849d38;
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x67f9a40;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -131,8 +131,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (*)(::System::IntPtr)>(&::UnityEngine::AndroidReflection::GetFieldSignature)> {
-  constexpr static std::size_t size = 0xa8;
-  constexpr static std::size_t addrs = 0x4849d9c;
+  constexpr static std::size_t size = 0xb0;
+  constexpr static std::size_t addrs = 0x67f9aa8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -146,8 +146,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::IntPtr, ::System::IntPtr, ::System::IntPtr)>(
     &::UnityEngine::AndroidReflection::NewProxyInstance)> {
-  constexpr static std::size_t size = 0xe4;
-  constexpr static std::size_t addrs = 0x4849e44;
+  constexpr static std::size_t size = 0xd8;
+  constexpr static std::size_t addrs = 0x67f9b58;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -158,19 +158,17 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
     return ___internal_method;
   }
 };
-//  Writing Method size for method: ::UnityEngine::AndroidReflection.SetNativeExceptionOnProxy
+//  Writing Method size for method: ::UnityEngine::AndroidReflection.CreateInvocationError
 template <>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(::System::IntPtr, ::System::Exception*, bool)>(
-    &::UnityEngine::AndroidReflection::SetNativeExceptionOnProxy)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x4847090;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::IntPtr (*)(::System::Exception*, bool)>(&::UnityEngine::AndroidReflection::CreateInvocationError)> {
+  constexpr static std::size_t size = 0xdc;
+  constexpr static std::size_t addrs = 0x67f69a4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get(), "SetNativeExceptionOnProxy", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get(), "CreateInvocationError", std::span<Il2CppClass const* const, 0>(),
+        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
     return ___internal_method;
   }
 };
@@ -217,12 +215,12 @@ inline void UnityEngine::AndroidReflection::setStaticF_s_ReflectionHelperNewProx
 inline ::System::IntPtr UnityEngine::AndroidReflection::getStaticF_s_ReflectionHelperNewProxyInstance() {
   return ::cordl_internals::getStaticField<::System::IntPtr, "s_ReflectionHelperNewProxyInstance", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get>();
 }
-inline void UnityEngine::AndroidReflection::setStaticF_s_ReflectionHelperSetNativeExceptionOnProxy(::System::IntPtr value) {
-  ::cordl_internals::setStaticField<::System::IntPtr, "s_ReflectionHelperSetNativeExceptionOnProxy", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get>(
+inline void UnityEngine::AndroidReflection::setStaticF_s_ReflectionHelperCeateInvocationError(::System::IntPtr value) {
+  ::cordl_internals::setStaticField<::System::IntPtr, "s_ReflectionHelperCeateInvocationError", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get>(
       std::forward<::System::IntPtr>(value));
 }
-inline ::System::IntPtr UnityEngine::AndroidReflection::getStaticF_s_ReflectionHelperSetNativeExceptionOnProxy() {
-  return ::cordl_internals::getStaticField<::System::IntPtr, "s_ReflectionHelperSetNativeExceptionOnProxy",
+inline ::System::IntPtr UnityEngine::AndroidReflection::getStaticF_s_ReflectionHelperCeateInvocationError() {
+  return ::cordl_internals::getStaticField<::System::IntPtr, "s_ReflectionHelperCeateInvocationError",
                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get>();
 }
 inline void UnityEngine::AndroidReflection::setStaticF_s_FieldGetDeclaringClass(::System::IntPtr value) {
@@ -299,12 +297,11 @@ inline ::System::IntPtr UnityEngine::AndroidReflection::NewProxyInstance(::Syste
                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get() })));
   return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, player, delegateHandle, interfaze);
 }
-inline void UnityEngine::AndroidReflection::SetNativeExceptionOnProxy(::System::IntPtr proxy, ::System::Exception* e, bool methodNotFound) {
+inline ::System::IntPtr UnityEngine::AndroidReflection::CreateInvocationError(::System::Exception* ex, bool methodNotFound) {
   static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get(), "SetNativeExceptionOnProxy", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::IntPtr>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method, proxy, e, methodNotFound);
+      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::AndroidReflection*>::get(), "CreateInvocationError", std::span<Il2CppClass const* const, 0>(),
+      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Exception*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+  return ::cordl_internals::RunMethodRethrow<::System::IntPtr, false>(nullptr, ___internal_method, ex, methodNotFound);
 }
 // Ctor Parameters []
 constexpr ::UnityEngine::AndroidReflection::AndroidReflection() {}

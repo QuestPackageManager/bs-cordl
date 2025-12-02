@@ -13,8 +13,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::SendMouseEvents_HitInfo::*)(::StringW)>(&::UnityEngine::SendMouseEvents_HitInfo::SendMessage)> {
-  constexpr static std::size_t size = 0x24;
-  constexpr static std::size_t addrs = 0x48ec628;
+  constexpr static std::size_t size = 0x20;
+  constexpr static std::size_t addrs = 0x692f1d0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -27,8 +27,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents_HitInfo::op_Implicit_bool)> {
-  constexpr static std::size_t size = 0xa0;
-  constexpr static std::size_t addrs = 0x48ec588;
+  constexpr static std::size_t size = 0xa4;
+  constexpr static std::size_t addrs = 0x692f12c;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -42,8 +42,8 @@ template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::SendMouseEvents_HitInfo, ::UnityEngine::SendMouseEvents_HitInfo)>(
     &::UnityEngine::SendMouseEvents_HitInfo::Compare)> {
-  constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x48ec64c;
+  constexpr static std::size_t size = 0xb8;
+  constexpr static std::size_t addrs = 0x692f1f0;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -84,8 +84,8 @@ constexpr ::UnityEngine::SendMouseEvents_HitInfo::SendMouseEvents_HitInfo() {}
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::UpdateMouse)> {
-  constexpr static std::size_t size = 0x1c4;
-  constexpr static std::size_t addrs = 0x48eb5d8;
+  constexpr static std::size_t size = 0x1d4;
+  constexpr static std::size_t addrs = 0x692e0f4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "UpdateMouse",
@@ -97,8 +97,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::SendMouseEvents::SetMouseMoved)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x48eb79c;
+  constexpr static std::size_t size = 0x60;
+  constexpr static std::size_t addrs = 0x692e2c8;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::SendMouseEvents*>::get(), "SetMouseMoved",
@@ -110,8 +110,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t)>(&::UnityEngine::SendMouseEvents::DoSendMouseEvents)> {
-  constexpr static std::size_t size = 0x968;
-  constexpr static std::size_t addrs = 0x48eb7f8;
+  constexpr static std::size_t size = 0x98c;
+  constexpr static std::size_t addrs = 0x692e328;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS(
@@ -124,8 +124,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)(int32_t, ::UnityEngine::SendMouseEvents_HitInfo)>(&::UnityEngine::SendMouseEvents::SendEvents)> {
-  constexpr static std::size_t size = 0x428;
-  constexpr static std::size_t addrs = 0x48ec160;
+  constexpr static std::size_t size = 0x478;
+  constexpr static std::size_t addrs = 0x692ecb4;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method =

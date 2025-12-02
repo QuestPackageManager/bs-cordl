@@ -52,16 +52,16 @@ public:
 
   constexpr void __cordl_internal_set__converterType(::System::Type* value);
 
-  /// @brief Method .ctor, addr 0x3e7b838, size 0xc8, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac1e6c, size 0x84, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType);
 
-  /// @brief Method .ctor, addr 0x3e7b900, size 0x24, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x5ac1ef0, size 0x24, virtual false, abstract: false, final false
   inline void _ctor(::System::Type* converterType, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> converterParameters);
 
-  /// @brief Method get_ConverterParameters, addr 0x3e7b830, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterParameters, addr 0x5ac1e64, size 0x8, virtual false, abstract: false, final false
   inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> get_ConverterParameters();
 
-  /// @brief Method get_ConverterType, addr 0x3e7b828, size 0x8, virtual false, abstract: false, final false
+  /// @brief Method get_ConverterType, addr 0x5ac1e5c, size 0x8, virtual false, abstract: false, final false
   inline ::System::Type* get_ConverterType();
 
 protected:
@@ -79,7 +79,7 @@ public:
   JsonConverterAttribute(JsonConverterAttribute const&) = delete;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 10066 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 13220 };
 
   /// @brief Field _converterType, offset: 0x10, size: 0x8, def value: None
   ::System::Type* ____converterType;

@@ -3,11 +3,13 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "System/zzzz__IEquatable_1_def.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 #include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(RangeValuePair_2)
+namespace System {
+template <typename T> class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -17,7 +19,7 @@ template <typename TKey, typename TValue> struct RangeValuePair_2;
 }
 // Write type traits
 MARK_GEN_VAL_T(::IntervalTree::RangeValuePair_2);
-// Dependencies System.IEquatable`1<T>
+// Dependencies
 namespace IntervalTree {
 // cpp template
 template <typename TKey, typename TValue>
@@ -77,7 +79,7 @@ public:
   constexpr RangeValuePair_2(TKey _From_k__BackingField, TKey _To_k__BackingField, TValue _Value_k__BackingField) noexcept;
 
   /// @brief IL2CPP Metadata Type Index
-  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 18970 };
+  static constexpr uint32_t __IL2CPP_TYPE_DEFINITION_INDEX{ 22891 };
 
   /// @brief The size of the true value type
   static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x18 };

@@ -6,8 +6,8 @@
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitSetupInstaller::*)()>(&::GlobalNamespace::AppInitSetupInstaller::InstallBindings)> {
-  constexpr static std::size_t size = 0x5c;
-  constexpr static std::size_t addrs = 0x27174a4;
+  constexpr static std::size_t size = 0x74;
+  constexpr static std::size_t addrs = 0x36425fc;
 
   inline static ::MethodInfo const* methodInfo() {
 
@@ -20,8 +20,8 @@ struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cas
 template <>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::AppInitSetupInstaller::*)()>(&::GlobalNamespace::AppInitSetupInstaller::_ctor)> {
-  constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x2717500;
+  constexpr static std::size_t size = 0x4;
+  constexpr static std::size_t addrs = 0x3642670;
 
   inline static ::MethodInfo const* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::AppInitSetupInstaller*>::get(), ".ctor",

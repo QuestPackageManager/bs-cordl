@@ -3,17 +3,19 @@
 #include "beatsaber-hook/shared/utils/typedefs.h"
 #include "../../../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
-#include "Org/BouncyCastle/Cms/zzzz__IDigestCalculator_def.hpp"
 #include "System/zzzz__Object_def.hpp"
 #include <cstdint>
 CORDL_MODULE_EXPORT(BaseDigestCalculator)
+namespace Org::BouncyCastle::Cms {
+class IDigestCalculator;
+}
 // Forward declare root types
 namespace Org::BouncyCastle::Cms {
 class BaseDigestCalculator;
 }
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::BaseDigestCalculator);
-// Dependencies Org.BouncyCastle.Cms.IDigestCalculator, System.Object
+// Dependencies System.Object
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: Org.BouncyCastle.Cms.BaseDigestCalculator
@@ -26,7 +28,7 @@ public:
   /// @brief Convert operator to "::Org::BouncyCastle::Cms::IDigestCalculator"
   constexpr operator ::Org::BouncyCastle::Cms::IDigestCalculator*() noexcept;
 
-  /// @brief Method GetDigest, addr 0x264eec4, size 0x5c, virtual true, abstract: false, final true
+  /// @brief Method GetDigest, addr 0x357e440, size 0x60, virtual true, abstract: false, final true
   inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetDigest();
 
   static inline ::Org::BouncyCastle::Cms::BaseDigestCalculator* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
@@ -37,7 +39,7 @@ public:
 
   constexpr void __cordl_internal_set_digest(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
 
-  /// @brief Method .ctor, addr 0x264ee9c, size 0x28, virtual false, abstract: false, final false
+  /// @brief Method .ctor, addr 0x357e438, size 0x8, virtual false, abstract: false, final false
   inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> digest);
 
   /// @brief Convert to "::Org::BouncyCastle::Cms::IDigestCalculator"
